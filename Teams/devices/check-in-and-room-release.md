@@ -4,7 +4,9 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
+ms.date: 03/01/2022
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -13,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 ms.topic: reference
 search.appverid: MET150
 description: This article provides guidance on how to enable check-in and room release Teams panels devices.
@@ -28,6 +31,8 @@ This feature can be used in a standalone Teams panel deployment. You can also pa
 
 The shared mailbox associated with the Teams panel needs to have the correct time zone set for this feature to work correctly. For information about how to set the time zone for shared mailboxes, see [Time zone settings for shared mailboxes in Outlook on the web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
+You can also use configuration profiles to apply this feature to a set of devices. For more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams).
+
 ## Enable check-in and room release 
 
 Check-in and room release is off by default. To turn it on,  
@@ -36,7 +41,7 @@ Check-in and room release is off by default. To turn it on,
 
 2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
-3. Turn on Release room if no one checks in.
+3. Turn on **Release room if no one checks in**.
 
 4. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 

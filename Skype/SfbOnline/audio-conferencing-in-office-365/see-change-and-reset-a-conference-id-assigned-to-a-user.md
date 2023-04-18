@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "See, change, and reset a conference ID assigned to a user in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -122,3 +123,4 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

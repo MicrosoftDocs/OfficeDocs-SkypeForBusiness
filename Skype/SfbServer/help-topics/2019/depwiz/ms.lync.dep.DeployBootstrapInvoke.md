@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Setup or Remove Skype for Business Server Components (Invoke)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployBootstrapInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ The **Execute Commands** displays a running summary of the tasks that are run to
   
 After you are done reviewing the summary and log files, click **Finish**.
   
+
 

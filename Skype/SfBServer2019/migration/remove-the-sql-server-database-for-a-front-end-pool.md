@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove the SQL Server database for a Front End pool"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -49,4 +50,5 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 5. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors). 
     
+
 

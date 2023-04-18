@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Set up conferencing policies for your organization"
 ms.reviewer: 
 ms.author: tonysmit
@@ -135,3 +136,4 @@ If you have already created a policy, you can use the [Set-CsConferencingPolicy]
 [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
 
   
+

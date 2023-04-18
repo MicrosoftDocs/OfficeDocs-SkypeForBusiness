@@ -7,10 +7,12 @@ ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -48,7 +50,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
      *Example:*
 
      ```DOS
-     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
 ### Enabling TPM settings
@@ -121,9 +123,6 @@ The Enrollment process involves these steps:
 
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
 
-> [!NOTE]
-> If you need to install the agent without the Teams App on the MTR being able to login to Teams, you can use our enrollment key as an optional process. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download key (optional)'. When installing the agent, place the ‘Self-Enrollment key' (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
-
 ## Installation
 
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents to access the file **ManagedRoomsInstaller.msi**.
@@ -186,7 +185,7 @@ The following components are pre-requisites for successful installation:
    1. In the **Select group** pane, type the group name in the Search box (refer to pre-requisites above) and click on the desired **group** and click **Select**.
       For more information, see [Add groups to organize users and devices](https://go.microsoft.com/fwlink/?linkid=2202166) and [Assign apps to groups with Microsoft Intune](https://go.microsoft.com/fwlink/?linkid=2202270).
 1. Click **Next** to display the **Review + create** page.
-1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
+1. Review the values and settings you entered for the app. When you are done, click **Create** to add the app to Intune.
 
 Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
 

@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, roykuntz, jenstr
+ms.date: 07/28/2021
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -49,7 +52,7 @@ How you acquire and manage telephone numbers differs depending on your Public Sw
 
 - For information about managing telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- For information about managing telephone numbers for Operator Connect Mobile (Public preview release), see [Set up telephone numbers with Operator Connect Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- For information about managing telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
@@ -117,9 +120,8 @@ It's possible to manage Direct Routing phone numbers of some user and resource a
 
 ### Change where Direct Routing phone numbers are managed
 
-To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resouce account in the on-premises Active Directory.   
+To change where a Direct Routing phone number is managed, you need to remove the phone number from the msRTCSIP-Line attribute on the user or resource account in the on-premises Active Directory.   
 
 For more information, see [Clear Skype for Business attributes for all on-premises users in Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Note that the phone number needs to be re-assigned to the user or resource account in Microsoft 365.
 
 After the removal has been synchronized to Microsoft 365, the OnPremLineUri attribute in the output from Get-CsOnlineUser on the user or resource account will be empty. 
-

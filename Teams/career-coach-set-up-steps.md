@@ -1,8 +1,9 @@
 ---
 title: Set up and configure Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
+ms.date: 07/12/2022
 manager: serdars
 ms.topic: article
 audience: admin
@@ -13,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 ms.custom:
   - admindeeplinkTEAMS
   - admindeeplinkMAC
@@ -22,7 +24,10 @@ appliesto:
 
 # Set up and configure Career Coach for Microsoft Teams
 
-This article is for higher education IT admins to learn how to set up Career Coach for Microsoft Teams.
+> [!NOTE]
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+
+This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
 The primary steps to set up, configure, and release Career Coach are:
 
@@ -119,7 +124,7 @@ Career Coach is a Microsoft application, and so it must be allowed within Teams 
 2. In the left navigation, select **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 3. Select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 Learn more about [configuring permission policies](teams-app-permission-policies.md).
 
@@ -127,18 +132,18 @@ Learn more about [configuring permission policies](teams-app-permission-policies
 
 This step ensures Career Coach is properly configured for your institution and students can find Career Coach.
 
-1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 
-2. Select **Teams apps** > **Setup policies**, and select your preferred policy.
-    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+2. Select **Teams apps** > **Setup policies**, and select your preferred policy.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education policy wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
-3. Under **Installed apps**, select **+ Add apps**.
+3. Under **Installed apps**, select **+ Add apps**.
 
 4. In the **Add installed apps** pane, search for the apps you want to automatically install for users when they start Teams. You can also filter apps by app permission policy.
 
-5. When you've chosen your list of apps, select **Add**.
+5. When you've chosen your list of apps, select **Add**.
 
-6. Select **Save** > **Confirm**.
+6. Select **Save** > **Confirm**.
 
 Editing or assigning a policy can take a few hours for changes to take effect. The Career Coach won't be available in Microsoft Teams until the changes are complete.
 
@@ -156,7 +161,7 @@ There are two license types available.
 
 #### Purchase licenses
 
-Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
+Career Coach is available worldwide (except China and Russia) for qualified educational institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
 As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 to purchase the add-on Career Coach license. Separate licenses are offered for students and faculty users.
 
@@ -177,30 +182,83 @@ To set up and configure Career Coach settings for your institution, follow these
 
 To configure Career Coach settings and allow it for users, you must be a global admin or Teams service admin to access the page.
 
-1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
-2. In the left navigation, select **Teams apps** > **Manage apps**.
-3. Search or browse for **Career Coach**.
-4. Select **Career Coach**, and then **Settings**.
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. In the left navigation, select **Teams apps** > **Manage apps**.
+3. Search or browse for **Career Coach**.
+4. Select **Career Coach**, and then **Settings**.
 
 ![Screenshot that shows the Career Coach app selected with the Settings tab selected.](media/career-coach-app-updated.png)
 
 ### Step 4: Configure Career Coach settings
 
-To set up Career Coach for students, faculty, and staff, the following settings are required.
+The following Career Coach settings can be configured for students, faculty, and staff.
 
-- [Brand and preferences](#brand-and-preferences)
-- [LinkedIn connection](#linkedin-connection)
-- [Course catalog](#course-catalog)
-- [Fields of study](#fields-of-study)
+- [LinkedIn connection](#linkedin-connection-required) (required)
+- [Brand and preferences](#brand-and-preferences-optional) (optional)
+- [Course catalog](#course-catalog-optional) (optional)
+- [Fields of study](#fields-of-study-optional) (optional)
+- [Customization options](#customization-options-optional) (optional)
 
-You can also set optional [Customization](#customization-options) settings.
+#### LinkedIn connection (required)
 
-#### Brand and preferences
+The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School Page.
 
-Customize Career Coach to match your educational institution’s brand. You're responsible for respecting others' rights, including copyright and trademark rights.
+This step can only be completed if [LinkedIn account connections are enabled in Azure Active Directory](#turn-on-linkedin-account-connections). The LinkedIn connection setting turns on the [Build your Network](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) and [Explore Careers](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) features.
 
 > [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without **Brand and preferences** submitted.
+> This is a required section. Career Coach can't be turned on without the LinkedIn School Page connection verified.
+>
+> The LinkedIn connection supports multiple tenants.
+
+##### Add the LinkedIn School Page URL
+
+The process of adding the LinkedIn School Page URL is handled by a Teams Administrator. The subsequent step of verifying the URL is completed by your educational institution’s LinkedIn School Page Super admin.
+
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **LinkedIn connection**.
+
+3. Select **Connect to LinkedIn**.
+
+4. Find your institution's LinkedIn School Page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School Page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+
+    ![Screenshot that shows the LinkedIn search for school.](media/career-coach-school-search-updated.png)
+
+5. Add the **LinkedIn School Page URL**. The URL must be a *school page*, not a *company page*, and is typically formatted as `https://www.linkedin.com/school/willow-university/`.
+
+   ![Screenshot that shows the LinkedIn School Page example.](media/career-coach-linkedin-page-url-updated.png)
+
+6. Select **Submit**.
+
+7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
+
+8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School Page Super admin.
+
+9. The LinkedIn School Page Super admin will use the unique verification link to [verify the LinkedIn School Page](#verify-the-linkedin-school-page) and associate it with Career Coach.
+
+10. To confirm the verification and settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
+
+##### Verify the LinkedIn School Page
+
+The LinkedIn School Page verification must be completed by your educational institution’s [LinkedIn School Page Super admin](https://www.linkedin.com/help/linkedin/answer/a541981).
+
+You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn School Page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
+
+1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
+
+   ![Screenshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
+
+2. Copy the verification link and share it with your LinkedIn School Page Super admin.
+
+3. The LinkedIn page Super admin will open the verification link to associate Career Coach with your school's page. For more information, see [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
+
+4. Once verification is complete, the Teams administrator can view whether the settings were submitted successfully by checking if the [Career Coach configuration status](#configuration-status) is marked **Complete**.
+
+   ![Screenshot that shows the LinkedIn page verification in the LinkedIn developer portal.](media/career-coach-linkedin-verification-updated.png)
+
+#### Brand and preferences (optional)
+
+Customize Career Coach to match your educational institution’s brand. You're responsible for respecting others' rights, including copyright and trademark rights.
 
 1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
@@ -232,69 +290,11 @@ Customize Career Coach to match your educational institution’s brand. You're r
 
 ![Screenshot that shows the Career Coach branding section of the admin center.](media/career-coach-brand-updated.png)
 
-#### LinkedIn connection
-
-The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School Page.
-
-This step can only be completed if [LinkedIn account connections are enabled in Azure Active Directory](#turn-on-linkedin-account-connections). The LinkedIn connection setting turns on the [Build your Network](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) and [Explore Careers](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) features.
-
-> [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without the LinkedIn School Page connection verified.
-
-##### Add the LinkedIn School Page URL
-
-The process of adding the LinkedIn School Page URL is handled by a Teams Administrator. The subsequent step of verifying the URL is completed by your educational institution’s LinkedIn School Page Super admin.
-
-1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
-
-2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **LinkedIn connection**.
-
-3. Select **Connect to LinkedIn**.
-
-4. Find your institution's LinkedIn School Page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School Page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
-
-    ![Screenshot that shows the LinkedIn search for school.](media/career-coach-school-search-updated.png)
-
-5. Add the **LinkedIn School Page URL**. The URL must be a *school page*, not a *company page*, and is typically formatted as `https://www.linkedin.com/school/willow-university/`.
-
-   ![Screenshot that shows the LinkedIn School Page example.](media/career-coach-linkedin-page-url-updated.png)
-
-6. Select **Submit**.
-
-7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
-
-8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School Page Super admin.
-
-9. The LinkedIn School Page Super admin will use the unique verification link to [verify the LinkedIn School Page](#verify-the-linkedin-school-page) and associate it with Career Coach.
-
-10. To confirm the verification and settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
-
-##### Verify the LinkedIn School Page
-
-The LinkedIn School Page verification must be completed by your educational institution’s [LinkedIn School Page Super admin](https://www.linkedin.com/help/linkedin/answer/a541981).
-
-You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn School Page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
-
-1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
-
-   ![Screnshot that shows the LinkedIn connections for the career coach app.](media/career-coach-linkedin-updated.png)  
-
-2. Copy the verification link and share it with your LinkedIn School Page Super admin.
-
-3. The LinkedIn page Super admin will open the verification link to associate Career Coach with your school's page. For more information, see [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
-
-4. Once verification is complete, the Teams administrator can view whether the settings were submitted successfully by checking if the [Career Coach configuration status](#configuration-status) is marked **Complete**.
-
-   ![Screenshot that shows the LinkedIn page verification in the LinkedIn developer portal.](media/career-coach-linkedin-verification-updated.png)
-
-#### Course catalog
+#### Course catalog (optional)
 
 The course catalog records the courses and classes offered by your educational institution.
 
 Career Coach uses course catalog data to identify a student’s skills from their transcript and to suggest courses to take.
-
-> [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without a course catalog.
 
 These courses are used within Career Coach in two areas:
 
@@ -304,7 +304,7 @@ These courses are used within Career Coach in two areas:
 
 To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file using the [course catalog document format and schema](#course-catalog-document-format-and-schema).
 
-Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.  You can also reference the [course catalog document format and schema](#course-catalog-document-format-and-schema) sections for details on required and recommended fields.
+Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.  You can also reference the [course catalog document format and schema](#course-catalog-document-format-and-schema) sections for details on required and recommended fields.
 
 ##### Add the course catalog
 
@@ -324,7 +324,7 @@ Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-adm
 
 7. To confirm settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
 
-To upload a new file, ensure the last file is cleared by selecting (X) to close the document preview. This action will allow the **Upload** button to display again.
+To upload a new file, ensure the last file is cleared by selecting (**X**) to close the document preview. This action will allow the **Upload** button to display again.
 
 ![Screenshot that shows the course catalog section of the career coach app.](media/course-catalog-updated.png)
 
@@ -332,7 +332,7 @@ To upload a new file, ensure the last file is cleared by selecting (X) to close 
 
 The document needs to be in CSV format with a maximum size of 18 MB. Large files should be split into multiple smaller files that include a maximum of 15,000 rows for successful processing.
 
-The document must contain the required course metadata: **course title**, **course ID**, and **course URL**.
+The document must contain the required course metadata: **course title**, **course ID**, and **course URL**.
 
 Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting. *Including the recommended fields improves the experience for students by returning better search results and skill identification.*
 
@@ -372,16 +372,14 @@ During processing, Career Coach will analyze your document for duplicates, norma
 
 If a column in the course catalog status is blank, the document is currently being processed, and those values aren't available. This process can take up to 6 hours depending on the size of your catalog. Once the document has been processed, the values will be populated. You can refresh the page to check for updates.
 
-#### Fields of study
+#### Fields of study (optional)
 
 The fields of study are synonymous with major areas of interest, academic major, and degree programs. These fields of study are referenced by students when they start using Career Coach and begin setting up their personalized profile.
 
 The list of fields lets students discover fields of study that may interest them and add their planned academic focus to their profile in Career Coach.
 
 > [!IMPORTANT]
-> This is a required section. Career Coach can't be turned on without a list of fields of study.
->
-> Add all fields of study available to students such as Engineering, English, Business, and so on
+> If you're configuring fields of study for Career Coach, add all fields of study available to students such as Engineering, English, Business, and so on.
 
 ##### Add the fields of study
 
@@ -405,7 +403,7 @@ The following table shows the items to include in the fields of study:
 |---------------|----------|--------|--------------------------------|
 | fieldsOfStudy | Required | string | The name of the field of study |
 
-#### Customization options
+#### Customization options (optional)
 
 The Customization setting supports adding opportunities to gain real-world experiences to the dashboard that your educational institution offers to students.
 
@@ -439,20 +437,20 @@ The configuration status section of the app settings page will display the real-
 | --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
 | Service provisioning status | Career Coach is initializing your tenant.     | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
 | Service provisioning status | Career Coach is ready to be configured.       | Career Coach settings page is ready for IT admin to submit settings. |
-| Brand and preferences       | Not started                                   | Settings need to be submitted. |
-| Brand and preferences       | Missing: Learning icon                        | Upload the missing learning content thumbnail image. |
-| Brand and preferences       | Missing: Logo                                 | Upload the missing institution icon. |
-| Brand and preferences       | Missing: Institution name                     | Upload the missing institution name. |
-| Brand and preferences       | Complete                                      | No further action needed. Setting is complete. |
-| Course catalog upload       | Not started                                   | Course catalog CSV needs to be submitted. |
+| Brand and preferences       | Not started                                   | Settings not submitted. This is an optional step and won't prevent completing the configuration. |
+| Brand and preferences       | Missing: Learning icon                        | Upload a learning content thumbnail image. |
+| Brand and preferences       | Missing: Logo                                 | Upload an institution icon. |
+| Brand and preferences       | Missing: Institution name                     | Upload an institution name. |
+| Brand and preferences       | Complete                                      | Setting is complete. |
+| Course catalog upload       | Not started                                   | Course catalog not submitted. This is an optional step and won't prevent completing the configuration. |
 | Course catalog upload       | Missing: a successful course catalog upload   | Check the course catalog status for details on course catalog processing. |
-| Course catalog upload       | Complete                                      | No further action needed. Setting is complete. |
-| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL needs to be submitted. |
+| Course catalog upload       | Complete                                      | Setting is complete. |
+| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL not submitted. |
 | LinkedIn school connection  | Missing: an approved LinkedIn School Page URL | Awaiting LinkedIn School Page Super admin verification approval. |
 | LinkedIn school connection  | Complete                                      | No further action needed. Setting is complete. |
-| Fields of study upload      | Not started                                   | Field of study CSV needs to be submitted. |
+| Fields of study upload      | Not started                                   | Field of study CSV not submitted. This is an optional step and won't prevent completing the configuration. |
 | Fields of study upload      | Missing: areas of interest                    | Check whether the field of study upload is successful. |
-| Fields of study upload      | Complete                                      | No further action needed. Setting is complete. |
+| Fields of study upload      | Complete                                      | Setting is complete. |
 
 Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
 
@@ -464,7 +462,7 @@ Next, follow these steps to ensure Career Coach is available to your institution
 
 ### Assign Career Coach licenses to users
 
-For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Set up policies and pin the app
 
@@ -480,7 +478,7 @@ Pinning Career Coach will add it to the left rail of the Microsoft Teams window 
 
 4. Select your preferred policy under **Search based on this app permission policy**.
 
-5. Search for **Career Coach** under **Search by name**, and then select **Add** > **Add** to close the pane.
+5. Search for **Career Coach** under **Search by name**, and then select **Add** > **Add** to close the pane.
 
 6. Choose the order for the app to appear and select **Confirm**.
 

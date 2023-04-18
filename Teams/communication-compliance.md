@@ -8,6 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
+ms.date: 04/17/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -29,6 +30,11 @@ For Microsoft Teams, communication compliance helps identify the [following type
 - Offensive, profane, and harassing language
 - Adult, racy, and gory images
 - Sharing of sensitive information
+
+Watch the video below to learn how to detect communication risks in Microsoft Teams with communication compliance:
+   <br>
+   <br>
+   >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW11p2Z]
 
 For more information on communication compliance and how to configure policies for your organization, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
 

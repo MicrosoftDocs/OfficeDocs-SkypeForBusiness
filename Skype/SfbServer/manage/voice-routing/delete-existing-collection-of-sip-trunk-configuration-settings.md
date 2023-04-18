@@ -1,4 +1,5 @@
 ---
+ms.date: 10/03/2018
 title: "Skype for Business Server - Delete an existing collection of SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -61,3 +62,4 @@ The following command removes all the trunk configuration settings where media b
 `Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration`
 
 For more information, see the help topic for the [Remove-CsTrunkConfiguration](/powershell/module/skype/Remove-CsTrunkConfiguration) cmdlet.
+

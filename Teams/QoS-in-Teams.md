@@ -6,6 +6,7 @@ manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
+ms.date: 02/16/2018
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 ms.localizationpriority: medium

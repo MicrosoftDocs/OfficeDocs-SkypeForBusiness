@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Connect pilot pool to legacy Edge Servers"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -47,4 +48,5 @@ To enable the Skype for Business Server 2019 site to use the Director and Edge S
     
 13. When the **Publishing wizard** completes, click **Finish**.
     
+
 

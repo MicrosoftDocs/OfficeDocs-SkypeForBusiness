@@ -1,8 +1,9 @@
 ---
 title: Troubleshoot Career Coach for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.reviewer: alaina.creager
+ms.date: 07/12/2022
 manager: serdars
 ms.topic: article
 audience: admin
@@ -13,13 +14,17 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
 
 # Troubleshoot Career Coach for Microsoft Teams
 
-This article is for higher education IT admins who need to troubleshoot Career Coach for Microsoft Teams.
+> [!NOTE]
+> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+
+This article is for education IT admins who need to troubleshoot Career Coach for Microsoft Teams.
 
 Below are the common issues and resolution steps IT admins may take with Career Coach.
 
@@ -27,12 +32,7 @@ Below are the common issues and resolution steps IT admins may take with Career 
 
 If you see "Career Coach is currently being set up for you to use soon" in the Career Coach experience, **all required configuration data hasn't been added**.
 
-The following **sections must be completed** before Career Coach can be used:
-
-- [Brand and preferences](career-coach-set-up-steps.md#brand-and-preferences)
-- [LinkedIn connection](career-coach-set-up-steps.md#linkedin-connection)
-- [Course catalog](career-coach-set-up-steps.md#course-catalog)
-- [Fields of study](career-coach-set-up-steps.md#fields-of-study)
+Your institution must have the [LinkedIn connection](career-coach-set-up-steps.md#linkedin-connection-required) fully configured.
 
 Reference the [Career Coach configuration status](career-coach-set-up-steps.md#configuration-status) to see which settings need to be completed.
 

@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Archiving
 - ms.lync.plan.Archiving
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: "Archiving in Skype for Business Server provides a way for you to archive communications that are sent through Skype for Business Server."

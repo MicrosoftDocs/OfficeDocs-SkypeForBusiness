@@ -6,6 +6,7 @@ manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
+ms.date: 11/02/2018
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150

@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 ms.reviewer: aaglick
+ms.date: 07/27/2020
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to use an existing team to create a new template in Micro
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

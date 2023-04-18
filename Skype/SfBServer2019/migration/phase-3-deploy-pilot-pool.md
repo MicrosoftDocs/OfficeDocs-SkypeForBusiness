@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 3 Deploy Skype for Business Server 2019 pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -32,4 +33,5 @@ This section covers the steps required to deploy a pilot pool of Skype for Busin
     
 - [Configure XMPP gateway access policies and certificates](configure-xmpp-gateway-access-policies-and-certificates.md)
     
+
 

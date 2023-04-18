@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "What's deprecated from Skype for Business Server 2019"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -71,3 +72,4 @@ The following tools aren't supported with Skype for Business Server 2019:
 [What's new in Skype for Business Server 2019](whats-new.md)
 
 [Migrating XMPP federation](migration/migrating-xmpp-federation.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Assignment (Summary)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertAssignSummary
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "Before the certificate assignment is finished, you are presented w
  
 Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you have finished reviewing the certificate summary, click **Next**.
   
+
 

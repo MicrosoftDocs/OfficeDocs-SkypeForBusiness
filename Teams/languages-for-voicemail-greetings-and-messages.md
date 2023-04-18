@@ -1,9 +1,10 @@
 ---
 title: "Teams languages for voicemail greetings and messages"
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe 
+ms.author: crowe 
 manager: serdars
 ms.reviewer: colongma
+ms.date: 05/19/2021
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 appliesto: 
     - Microsoft Teams

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable federation and public IM connectivity'
 ms.reviewer: 
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -74,4 +75,5 @@ Federation and public IM connectivity can also be managed by using Windows Power
 ## To disable federation and public IM connectivity
 
   - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+
 

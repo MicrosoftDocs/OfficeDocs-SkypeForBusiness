@@ -1,6 +1,7 @@
 ---
 title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
+ms.date: 10/30/2018
 description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ms.topic: article
 author: MicrosoftHeidi
@@ -15,6 +16,7 @@ ms.collection:
   - M365-collaboration
   - remotework
   - m365initiative-meetings
+  - highpri
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
@@ -137,16 +139,16 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 ### Meeting recording and archiving
 
-Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
+Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording is saved in OneDrive for Business and SharePoint, so users can share it securely across their organization. To find the recording for a meeting, you can go to the meeting chat.
 
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+>[!NOTE]
+> No new meeting recordings can be saved to Microsoft Stream (Classic); all customers will automatically have meeting recordings saved to OneDrive for Business and SharePoint even if they’ve changed their Teams meeting policies to Stream. For more information, see [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 
-To learn more, see [Teams cloud meeting recording](cloud-recording.md).
+To learn more, see [Teams meeting recording](meeting-recording.md) and [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meeting-transcription-captions.md)|
 
 ### Live events policies
 
@@ -203,4 +205,4 @@ It's important that you understand the overall health of the Teams service so th
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of meetings & conferencing throughout your organization.
 - [Add audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](apps-in-teams.md) as you drive Teams adoption.

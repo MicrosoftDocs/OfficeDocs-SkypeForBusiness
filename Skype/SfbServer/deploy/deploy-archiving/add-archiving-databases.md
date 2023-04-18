@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add archiving databases to an existing deployment in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: "Summary: Read this topic to learn how to add archiving databases to your Skype for Business Server deployment."
@@ -100,4 +101,5 @@ You must incorporate archiving into your topology before you can configure your 
     > [!IMPORTANT]
     > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see [Configure archiving options for Skype for Business Server](configure-archiving-options.md) and [Configure archiving policies for Skype for Business Server](configure-archiving-policies.md). 
   
+
 

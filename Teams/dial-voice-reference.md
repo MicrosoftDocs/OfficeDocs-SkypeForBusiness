@@ -1,15 +1,17 @@
 ---
 title: Auto attendant and call queue dialing and voice recognition reference
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 09/22/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business

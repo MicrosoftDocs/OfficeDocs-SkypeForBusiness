@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Assign conferencing policies to support anonymous users'
 ms.reviewer: 
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -55,4 +56,5 @@ Use the procedure in this section to apply a conferencing policy that you have a
 
 
 To enable users to invite anonymous users to conferences, you must also enable support for anonymous users in your organization. For details, see [Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md).
+
 

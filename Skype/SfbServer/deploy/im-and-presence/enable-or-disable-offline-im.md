@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -62,3 +63,4 @@ The primary Skype for Business ETL log will contain information about Offline me
   
 > [!NOTE]
 > An issue has been reported where Offline messages failed to send and the 'Drafts' folder was getting filled with messages. This occurred with Exchange On-Premises mailboxes. The issue has been fixed in all C2R channels as of 6/14/2016.  
+

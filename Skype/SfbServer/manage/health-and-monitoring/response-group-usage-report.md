@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Response Group Usage Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -119,5 +120,6 @@ The following table lists the information provided in the Response Group Usage R
 |**Percentage of abandoned calls** <br/> |No  <br/> |Total number of calls that were received by the Response Group application but were never answered by an agent. This is calculated by subtracting the Answered calls from the Received calls, and then dividing that value by the number of received calls. For example, if you have 10 received calls and seven were answered, you would subtract seven from 10, leaving three unanswered calls. That value would then be divided by 10, giving you an abandoned call percentage of 30%.  <br/> |
 |**Average call minutes by agent** <br/> |No  <br/> |Average amount of time a Response Group agent spent on a call.  <br/> |
 |**Transferred calls** <br/> |No  <br/> |Total number of Response Group calls that were transferred because of a queue timeout or queue overflow. When you click this item, the report shows you the Response Group Call List report for the selected time period.  <br/> |
+
 
 

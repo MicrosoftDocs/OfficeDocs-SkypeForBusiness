@@ -4,10 +4,12 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: acolonna, salu
+ms.date: 07/17/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -20,6 +22,8 @@ description: Learn to manage how tags are used in your organization in Microsoft
 # Manage tags in Microsoft Teams
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. You can create and assign custom tags to categorize people based on attributes, such as role, project, skill, or location. Or, tags can be automatically assigned to people based on their schedule and shift information in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6). After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post to notify only those people who are assigned that tag of a conversation.
+
+If you are a team owner and you want to manage tags in your team, see [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 As mentioned earlier, there are two kinds of tags in Teams.
 
@@ -75,8 +79,6 @@ You can configure the following tags settings to control how tags are used acros
     - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags will match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
 
 ## Related topics
-
-[Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 

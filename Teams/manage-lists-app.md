@@ -3,8 +3,9 @@ title: Manage the Lists app for your organization
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
+ms.date: 09/26/2018
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -22,6 +23,8 @@ ms.collection:
   - microsoftcloud-retail
   - m365initiative-lists
   - m365-frontline
+  - teams-1p-app-admin
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
@@ -100,7 +103,7 @@ Lists is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Lists for specific users in your organization
 
-To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## Search the audit log for list events
 

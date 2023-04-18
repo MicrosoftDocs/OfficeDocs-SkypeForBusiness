@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
+ms.date: 03/23/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 description: Learn how to manage settings for the Teams network roaming policy.
 ---
 

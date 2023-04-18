@@ -6,12 +6,14 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 12/03/2021
 search.appverid: 
 description: Learn how to create, set, assign, and adjust the Teams Files Policy using PowerShell.
 audience: admin
 ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 ---

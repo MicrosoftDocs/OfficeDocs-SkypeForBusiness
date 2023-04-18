@@ -3,6 +3,7 @@ title: View-only meeting experience
 ms.author: mabond
 author: mkbond007
 ms.reviewer: christi.balaki
+ms.date: 10/15/2020
 manager: serdars
 ms.topic: article
 audience: admin
@@ -24,7 +25,10 @@ appliesto:
 > View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year. Webinars currently don't support a view-only broadcast experience.
+> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts till June 30, 2023. Webinars currently don't support a view-only broadcast experience.
+
+> [!Note]
+> A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
@@ -39,7 +43,7 @@ Attendees will be able to join the view-only experience through desktop, web, an
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/?view=skype-ps) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 To use the recommended `MicrosoftTeams` module:
 
@@ -120,6 +124,7 @@ The view-only attendee won't be able to experience the following options in meet
 
 - View-only attendees will only be able to see Live Captions on Desktop and Web. Only English Captions are supported at this time.
 - View-only attendees cannot register for Webinars.
+- View-only attendees will not have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature. 
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.

@@ -1,8 +1,9 @@
 ---
 title: Move from Business Voice to Teams Phone licenses
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,6 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Move from Business Voice to Teams Phone licenses

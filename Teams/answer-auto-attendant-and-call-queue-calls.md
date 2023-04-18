@@ -1,8 +1,8 @@
 ---
 title: Answer auto attendant and call queue calls
 ms.reviewer: colongma
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -16,6 +16,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

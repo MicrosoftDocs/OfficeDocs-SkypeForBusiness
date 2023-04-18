@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "PIN Set Successfully"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.UserPinNum
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ To use email to send the PIN to the user, click **Open my email application to s
   
  
   
+
 

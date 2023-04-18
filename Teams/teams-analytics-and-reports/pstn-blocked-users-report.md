@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+ms.date: 06/24/2019
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -17,6 +18,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 # Microsoft Teams PSTN blocked users report
 

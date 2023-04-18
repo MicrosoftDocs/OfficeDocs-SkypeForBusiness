@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
+ms.date: 08/22/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -11,6 +12,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -23,13 +26,13 @@ ms.custom: seo-marvel-mar2020
 
 # Add, change, or remove an emergency location for your organization
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), or Direct Routing&mdash;emergency locations can be associated with a phone number.
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;emergency locations can be associated with a phone number.
 
 However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 This article describes how to add, change, or remove an emergency location for your organization. 
 
-This article applies to Microsoft Calling Plans, Operator Connect, Operator Connect Mobile (Public preview release), and Direct Routing.
+This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
 
@@ -71,6 +74,9 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
     
 ## Remove an emergency location
+
+> [!NOTE]
+> You can remove a location only if no users or phone numbers are assigned to it. If numbers or users are assigned to the location, you need to remove them first.
 
 ### Using the Microsoft Teams admin center
 

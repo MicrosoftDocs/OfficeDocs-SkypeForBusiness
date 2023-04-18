@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Archiving Servers Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
@@ -34,4 +35,5 @@ In addition to the Archiving Server options described earlier in this topic, you
     
 - **Help**. Use this option to access Help for the active node.
     
+
 

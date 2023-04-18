@@ -4,6 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.date: 03/10/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -80,7 +81,7 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 2. Select the **Global (Org-wide default)** policy to view the current settings.
 3. Update the policy as needed, and then select **Save**.
 
-:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/teams-meetings-policies-global-expanded.png":::
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot that shows the update global policy in Teams admin center." lightbox="media/engineering-meeting-policy.png":::
 
 > [!NOTE]
 > After you submit any policy operation, you'll be prompted with a pop-up dialog box to confirm it. This includes policy assignments, changing an existing policy, and creating new custom policies. You must confirm to start the policy operation, or you can cancel and go back later.

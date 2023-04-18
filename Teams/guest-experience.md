@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: rafarhi
+ms.date: 10/20/2017
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,7 +18,9 @@ ms.collection:
   - m365initiative-externalcollab
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+  - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 description: This article describes the Microsoft Teams functionality available to guests.
 ---
 

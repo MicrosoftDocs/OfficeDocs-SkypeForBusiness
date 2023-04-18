@@ -1,6 +1,7 @@
 ---
-title: "Here's what you get with Phone System"
+title: "Phone System features"
 ms.reviewer: 
+ms.date: 11/28/2017
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,6 +14,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -24,7 +27,7 @@ ms.custom:
 description: "Learn about the features, availability, and how to plan and set up Microsoft Phone System for your business. "
 ---
 
-# Here's what you get with Phone System
+# Phone System features
 
 This article describes Phone System features. For more information about using Phone System as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Phone System](what-is-phone-system-in-office-365.md).
 
@@ -66,7 +69,7 @@ Phone System provides the following features.
 |[Shared Line Appearance](shared-line-appearance.md)  | Lets users share their phone line so that another user can make and receive calls on their behalf.|
 |[Busy on Busy](teams-calling-policy.md) (Teams only)  | A calling policy that lets you configure how incoming calls are handled when a user is: <ul><li>in a call </li><li>in a conference</li><li>has a call placed on hold. </li></ul> The caller will receive one of the following responses: <ul><li>hear a busy signal when the callee is on the phone</li> <li>will be routed accordingly to the user's unanswered settings. One option lets the caller leave a voicemail for the user who is already on a call.</li></ul> The callee gets a missed call notification but isn't able to answer incoming calls. This feature is disabled by default, but can be turned on by the tenant admin.|
 |[Call blocking](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Lets users add (PSTN) phone numbers to a blocked list so that the next call from that number is blocked from ringing the user.|
-|[Common Area Phones](set-up-common-area-phones.md)  | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
+|[Common area phones](set-up-common-area-phones.md)  | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
 |[Media bypass support](direct-routing-plan-media-bypass.md) (for Teams Direct Routing only)  | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it through the Phone System. |
 |[Unassigned number routing](routing-calls-to-unassigned-numbers.md) | Allows routing of unassigned numbers to users, auto attendants, call queues or a custom announcement. |
 
@@ -78,7 +81,6 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Call settings for secondary ringer, voicemail, and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call phone number from search bar
-- Music on hold
 - Azure AD reverse number lookup
 
 ## Related topics

@@ -8,10 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
+  - highpri
+  - tier1
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
+ms.date: 12/14/2018
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
@@ -142,6 +146,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Basic without Audio Conferencing | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams Shared Devices | MCOCAP |
+| Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## Related content
 

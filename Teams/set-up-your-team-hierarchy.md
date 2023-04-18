@@ -6,12 +6,14 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried, acolonna
+ms.date: 02/05/2020
 search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
 ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 ---
@@ -99,7 +101,7 @@ After you add the three required columns, you can add optional attribute columns
 When you add an attribute column, keep the following in mind:
 
 * The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
-* You can have up to 50 attribute columns in your hierarchy.
+* You can have up to 100 attribute columns in your hierarchy.
 * The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
 
 ### Add bucket columns
@@ -113,7 +115,7 @@ When you add a bucket column, note the following:
 * The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy.
 * We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
 * The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
-* A hierarchy may contain up to 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
+* A hierarchy may contain up to 100 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 
@@ -144,11 +146,8 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 
 ## Apply your hierarchy
 
-> [!NOTE] 
-> To perform this step, you must install and use the Teams PowerShell public preview module from the PowerShell Gallery. For steps on how to install the module, see Install Teams PowerShell.
-
 > [!NOTE]
-> Government Community Cloud (GCC) customers must use [cmdlet preview version 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) or later to ensure data is routed to the GCC environment, rather than the public cloud environment.
+> To perform this step, you must use Microsoft Teams PowerShell cmdlets. You should use version 4.6.0 or later of the Microsoft Teams cmdlets. This requirement also applies to Government Community Cloud (GCC) customers.
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 
@@ -196,7 +195,7 @@ When confirming deletion, the status message will still display the previous sch
 ### Install the Teams PowerShell module
 
 > [!IMPORTANT]
-> To perform this step, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Teams PowerShell](teams-powershell-install.md).
+> To perform this step, you must install and use the Teams PowerShell module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/). For steps on how to install the module, see [Install Microsoft Teams PowerShell module](teams-powershell-install.md).
 
 ### Sample script
 

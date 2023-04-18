@@ -1,14 +1,15 @@
 ---
+ms.date: 06/22/2018
 title: "Move users between on-premises and cloud"
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
@@ -31,7 +32,7 @@ In an on-premises deployment of Skype for Business Server, users of Skype for Bu
 
 To gain full Teams functionality, these users must be moved from Skype for Business on-premises to the cloud, at which point the user becomes TeamsOnly. The act of moving a user from on-premises to the cloud will set the user's co-existence mode to TeamsOnly. Once users are moved to the cloud, they are TeamsOnly, which means all incoming chats and calls lands in their Teams client. For more information, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
-To move users from the on-premises Skype for Business Server deployment to the cloud requires the [configuration of Skype for Business hybrid](/skypeforbusiness/hybrid/plan-hybrid-connectivity).  Once the deployment is enabled for hybrid, you can move users from the on-premises environment to the cloud to make them TeamsOnly as described below. If necessary, you can also move TeamsOnly users back to the on-premises Skype for Bsuiness deployment. 
+To move users from the on-premises Skype for Business Server deployment to the cloud requires the [configuration of Skype for Business hybrid](/skypeforbusiness/hybrid/plan-hybrid-connectivity). Once the deployment is enabled for hybrid, you can move users from the on-premises environment to the cloud to make them TeamsOnly as described below. If necessary, you can also move TeamsOnly users back to the on-premises Skype for Business deployment. 
 
 
 
@@ -43,7 +44,7 @@ Prerequisites to move a user to TeamsOnly mode:
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 - The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online license is still required.  In addition:
     - If the user is enabled for dial-in conferencing in on premises, the user must also have an Audio Conferencing license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. 
-    - If the user is enabled for Enterprise Voice in on premises, the user must have a Teams Phone license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for Phone System in the cloud. 
+    - If the user is enabled for Enterprise Voice in on premises, the user must have a Microsoft Teams Phone System license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for Phone System in the cloud. 
   
 As of July 31, 2022, to move users between an on-premises deployment and the cloud, you must be using the following minimum version of either Skype for Business Server or Lync Server:
 
@@ -124,3 +125,4 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 [Plan Direct Routing](/microsoftteams/direct-routing-plan)
 
 [Move-CsUser](/powershell/module/skype/move-csuser)
+

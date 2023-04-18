@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertRequestCA
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: "When making a certificate request to an online certification authority (CA) (typically, these are servers that are on your internal network) on the Choose a Certification Authority (CA) page, you are presented with two options:"

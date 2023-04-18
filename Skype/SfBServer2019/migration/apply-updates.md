@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Apply updates"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 ms.topic: quickstart
 audience: admin
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

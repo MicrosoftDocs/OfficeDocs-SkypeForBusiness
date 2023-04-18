@@ -1,10 +1,11 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
+author: daisyfell
+ms.author: daisyfeller
 ms.reviewer: farhazk
+ms.date: 12/02/2020
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -17,12 +18,16 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage the Approvals app in Microsoft Teams
+
+## Overview of Approvals
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
@@ -133,7 +138,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Retention policy
 
@@ -209,7 +214,7 @@ Learn more about [Microsoft Dataverse and model-driven apps activity logging - P
 
 From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
-> [!Note]
+>[!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
 
 ## Approvals e-signature integration
@@ -229,3 +234,7 @@ You can use the Teams admin center to control, which third-party e-signature pro
 4. Select **Submit**.
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.

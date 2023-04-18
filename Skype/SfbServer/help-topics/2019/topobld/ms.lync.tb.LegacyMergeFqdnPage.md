@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge FQDN"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
@@ -23,4 +24,5 @@ The **Access Edge Pool internal FQDN** is used for a variety of scenarios where 
   
 The **Internal SIP access port** value of **5061** is the default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools and servers. If the default value was not used, update the **Internal SIP access port:** value.
   
+
 

@@ -4,7 +4,7 @@ author: lanachin
 ms.author: samanro
 ms.reviewer: aaglick
 manager: pamgreen
-ms.topic: article
+ms.topic: landing-page
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -13,9 +13,12 @@ ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
+ms.date: 11/21/2022
+
 ---
 
 # Get started with Teams for frontline workers

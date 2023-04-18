@@ -1,6 +1,7 @@
 ---
 title: "Configure Direct Routing"
 ms.reviewer: filippse
+ms.date: 04/30/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,6 +16,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

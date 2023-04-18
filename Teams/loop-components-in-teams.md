@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: michalbr
+ms.date: 07/16/2021
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
@@ -16,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - NewAdminCenter_Update
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
 ---
@@ -69,7 +71,7 @@ Version History allows you to review, restore, or copy from previous versions of
 
 ## Does .fluid files support eDiscovery?
 
-.fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive. If desired, you can temporarily disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
+Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in eDiscovery (Standard) and available for search, collection, review, and export in eDiscovery (Premium). More information about eDiscovery support is outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
 
 ## If Loop is disabled from the admin switch, what will the user experience be?
 

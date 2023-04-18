@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View Gateways (Import Configuration)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceImportViewGateway
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ In **Deployed gateway**, click the gateway where you want to import the voice co
   
  
   
+
 

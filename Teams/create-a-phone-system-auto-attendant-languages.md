@@ -1,9 +1,10 @@
 ---
 title: "Microsoft Teams auto attendant supported languages"
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 02/05/2021
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business

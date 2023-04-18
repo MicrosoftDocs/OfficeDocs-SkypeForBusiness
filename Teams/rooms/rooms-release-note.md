@@ -3,16 +3,19 @@ title: Release notes for Microsoft Teams Rooms (Windows)
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
+ms.date: 3/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier2
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -21,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
-There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
+There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web client.
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
@@ -35,6 +38,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.16.40.0 | 3/24/2023 |
+|4.15.58.0 | 1/10/2023 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -42,8 +47,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
-|Teams Web-Client release | December 2021 |
-|Teams Web-Client release | October 2021 |
+|Teams Web client release | December 2021 |
+|Teams Web client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -91,19 +96,46 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.16.40.0 (3/24/2023)
+
+Introduced in this update:
+
+- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md#enable-refreshed-home-screen-design).
+- Enhanced View Switcher <sup>1</sup>
+- Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
+- Increased default font size for the meeting interface 
+
+ <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040).
+
+ <sup>2</sup> Meeting organizers should have a valid license to use these policies. Learn more at [Microsoft Teams Premium licensing](../teams-add-on-licensing/licensing-enhance-teams.md).
+
+### 4.15.58.0 (1/10/2023)
+
+Introduced in this update:
+
+- In-meeting notification improvement
+- Meeting chat in Gallery, Large gallery, and Together mode <sup>1</sup>
+- Start whiteboard in Teams meetings
+- Fit-to-frame room video roster control
+- Overflow meeting support
+- Join Zoom meetings by ID via Direct Guest Join. Support for joining Zoom meetings by ID has been added in this release and will be enabled in the coming weeks.
+- Quality fixes for third-party meetings (Direct Guest Join)
+- Fix for license information in settings showing no license when Teams is not signed in
+- A new default wallpaper (Vivid Flag) and four other new wallpapers
+
+<sup>1</sup> Administrator configuration for hiding meeting chat from all meeting layouts through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+
 ### 4.14.24.0 (9/2/2022)
 
 Introduced in this update:
 
-- Front row layout experience update <sup>1</sup> 
-- Pin and hide room video <sup>1</sup> 
-- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>2</sup>
-- Dual-display Teams Rooms can now display up to 18 participant video streams <sup>1</sup>
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses <sup>1</sup>
+- Front row layout experience update
+- Pin and hide room video
+- Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
+- Dual-display Teams Rooms can now display up to 18 participant video streams
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses
 
-<sup>1</sup> This feature is rolling out to the Teams web client and will take about two weeks from the date this update was released to complete. For more information, see [Teams updates](../teams-client-update.md).
-
-<sup>2</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
+<sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
 ### 4.13.132.0 (8/2/2022)
 
@@ -117,7 +149,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Room device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 
@@ -136,7 +168,7 @@ Introduced in this update:
 - Changes the version number to allow systems impacted by Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) to re-register the app so it can launch. There are no functional changes in this app version from 4.1.2.138.0.
 
 > [!NOTE]
-> For more information, see "⁠Teams Rooms app fails to start after update" in [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
+> For more information, see "Teams Rooms app fails to start after update" in [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues).
 
 ### 4.12.138.0 (5/26/2022)
 
@@ -158,13 +190,13 @@ Introduced in this update:
 - Support for Windows 10 21H2 feature release for Teams rooms   
 - New Cortana entry point on home screen, Share/ present button is back 
 
-> <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview)
+> <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview).
 > 
-> <sup>2</sup> Front of Room display resolution and scaling remotely through XML can be found [here](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)
+> <sup>2</sup> For information about setting Front of Room display resolution and scaling remotely through XML, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).
 >
-> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022. 
+> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022.
 >
-> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)
+> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms).
 > 
 > 
 > [!NOTE]
@@ -303,7 +335,7 @@ Introduced in this update:
 
 - See more videos with 3x3 video gallery on front of room displays  
 - Start local live closed captions from MTR
-- Join Zoom meetings from Teams Rooms with direct guest join (Preview)
+- Join Zoom meetings from Teams Rooms with Direct Guest Join (Preview)
 
 > [!NOTE]
 > 3x3 video gallery and local live closed captions are delivered through the Microsoft Teams service. These features are available to all Teams Rooms devices with application version 4.5.37.0 and above.
@@ -319,7 +351,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Join Cisco Webex meetings from Teams Rooms with direct guest join
+- Join Cisco Webex meetings from Teams Rooms with Direct Guest Join
 - Teams Admin Center enablement and auto-enrollment
 - Windows 10 1909 release support
 - Switch to video gallery layout even when content is present

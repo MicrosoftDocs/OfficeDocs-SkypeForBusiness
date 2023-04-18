@@ -4,6 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: davlick, roykuntz, jastark
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -29,7 +31,7 @@ description: Learn to use the Microsoft Teams admin center to see a list of all 
 
 There are different types of telephone numbers that you can assign to users or voice applications like [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md) or [Call Queues](plan-auto-attendant-call-queue.md). For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
-This article applies to Calling Plans, Operator Connect, and Operator Connect Mobile (Public preview release). For information about Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## To see all telephone numbers in your organization
 

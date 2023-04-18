@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

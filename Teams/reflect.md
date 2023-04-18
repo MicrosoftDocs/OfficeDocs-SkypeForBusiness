@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
+ms.date: 04/27/2021
 description: An IT Admin guide to Reflect in Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -14,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---

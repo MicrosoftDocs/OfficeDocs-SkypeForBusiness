@@ -4,10 +4,12 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: arundas
+ms.date: 05/30/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
   - m365initiative-securecollab
@@ -65,6 +67,8 @@ When a team is archived, individual sharing will remain intact, but sharing with
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
+
+Guests - including those converted to members (in their user type property) - can't be added to a shared channel.
 
 > [!NOTE]
 > External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
@@ -135,30 +139,9 @@ The following articles may be helpful for the users in your organization when th
 
 [Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## Limits for shared channels
+## Limitations for shared channels
 
-The following table describes the maximum number of channels and members.
-
-|Maximum...|Value|Notes|
-|:---------|:----|:----|
-|Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
-|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
-|Teams a channel can be shared with|50|Excluding parent team|
-|Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
-
-The following limitations also apply:
-
-- Only Azure AD work or school accounts are supported for external participants.
-
-- Shared channels support tabs except for Stream, Planner, and Forms.
-
-- Bots, connectors, and message extensions are not supported.
-
-- When you create a team from an existing team, any shared channels in the existing team won't be copied over.
-
-- Notifications from shared channels are not included in missed activity emails.
-
-- Shared channels are not supported in class teams.
+Please refer to [Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels) for more information.
 
 ## Supported apps in shared channels
 

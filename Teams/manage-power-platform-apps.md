@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/27/2022
+ms.date: 02/23/2023
 ms.collection: 
 - M365-collaboration
 appliesto: 
@@ -22,12 +22,10 @@ description: Learn how to manage access to custom apps built using Microsoft Pow
 
 # Manage Microsoft Power Platform apps in the Teams admin center
 
-## Manage custom apps created using Microsoft Power Platform apps
-
 This article gives you an overview of how to manage custom apps created using the [Microsoft Power Platform](https://powerplatform.microsoft.com/) apps in the Microsoft Teams admin center. Custom apps are created by developers within your organization for internal users.
 
 > [!NOTE]
-> This article doesn't apply to the Power Apps app or Power Virtual Agents app that are installed from the Apps page or pinned to Teams through an app setup policy. You can manage the Store apps using [app permission policies](teams-app-permission-policies.md) and [app setup policies](teams-app-setup-policies.md).
+> This article doesn't apply to the `Power Apps` app or `Power Virtual Agents` app that are installed from the app store or pinned to Teams through an app setup policy. You can manage the Store apps using [app permission policies](teams-app-permission-policies.md) and [app setup policies](teams-app-setup-policies.md).
 
 [Power Apps](https://powerapps.microsoft.com) is a low-code or no-code application development environment that app creators in your organization can use to build custom apps that connect to your business data. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for app developers to create powerful bots. With the integration of Microsoft Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.  
 
@@ -37,7 +35,7 @@ When a Microsoft Power Platform app is created or shared, users can view and ins
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built with Power Platform.":::
 
-End-users see an app in **Built with Power Platform** if the app meets one of the following conditions.
+Users see an app in **Built with Power Platform** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
@@ -74,11 +72,11 @@ By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are al
 
 To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).
 
-For example, to block specific users from accessing apps created in Power Apps, create a custom app permission policy to block **Shared Power Apps**, and then assign the policy to those users.
+For example, to block specific users from accessing apps created in Power Apps, create a custom policy for app permissions to block **Shared Power Apps**, and then assign the policy to those users.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot of example custom app permission policy with Shared Power Apps blocked.":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot of example custom policy for app permissions with Shared Power Apps blocked.":::
 
-### Use audit logs to investigate Microsoft Power Platform installation activity
+### Use audit logs to check Microsoft Power Platform installation activity
 
 You can use audit logs for Teams to investigate events where users installed Microsoft Power Platform apps from the **Built with Power Platform** section of the Apps page in Teams. To do this, [search the audit log](./audit-log-events.md) for the **Installed app** Teams event (under the **AppInstalled** operation) for a user or set of users. To find apps installed from **Built with Power Platform**, look for the **TemplatedInstance** value in the **AppDistributionMode** property in a given record's details.
 

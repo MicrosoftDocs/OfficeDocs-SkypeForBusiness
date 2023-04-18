@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.FileStoresScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: "The File Stores node lists the File Stores in your topology. You can perform the following action:"

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: About Inter-trunk routing in Skype for Business Server
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -32,4 +33,5 @@ The next figure illustrates Skype for Business Server connecting two IP-PBX syst
   
 ![Lync Server interconnecting IP-PAX systems diagram.](../../media/inter_trunk02.jpg)
   
+
 

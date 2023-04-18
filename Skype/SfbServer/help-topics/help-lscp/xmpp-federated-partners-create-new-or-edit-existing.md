@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ExtXmppPartnerEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: "What do you want to do? Click the link to the task that you want to perform."

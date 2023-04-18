@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Director (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
@@ -28,4 +29,5 @@ This role is optional, you would choose to deploy a Director in the following tw
     
 - If you deploy multiple Front End pools at a central site, by adding a Director to that site you can streamline authentication requests and improve performance. In this scenario, all requests go first to the Director, which then routes them to the correct Front End pool.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Local Configuration Store Invoke (Configure)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployReplicaConfig
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -28,4 +29,5 @@ If you are installing a replica of the Central Management store on an Edge Serve
   
 After you have selected the appropriate option, click **Next**.
   
+
 

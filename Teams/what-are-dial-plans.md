@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
+ms.date: 11/28/2017
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -11,6 +12,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business

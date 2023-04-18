@@ -16,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---
@@ -299,7 +300,7 @@ or users, or feature evaluation and adoption campaigns. This is the primary role
 of a change management team in your organization. Below is a collection of sample tables that
 can help you plan for change.
 
-#### Feature: Cloud Recording (Release date: January 2018)
+#### Feature: Meeting recording (Release date: January 2018)
 
 **General track**
 
@@ -858,7 +859,7 @@ organization](/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phon
 
 By default, all users with a mailbox in Exchange Online have permissions to
 create Microsoft 365 groups and, therefore, a team in Microsoft Teams. If you want
-to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md#permissions-to-create-teams)
+to have tighter control and [restrict the creation of new teams](assign-roles-permissions.md)
 (and thus the creation of new Microsoft 365 groups), you can delegate group
 creation and management rights to a set of administrators. If your organization
 wants to pursue this option, see the process described in this article to allow

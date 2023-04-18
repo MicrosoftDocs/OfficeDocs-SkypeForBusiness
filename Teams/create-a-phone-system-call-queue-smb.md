@@ -1,9 +1,10 @@
 ---
-title: Create a call queue in Microsoft Teams
+title: Create a Microsoft Teams call queue 
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -26,7 +29,7 @@ ms.custom:
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
 
-# Create a call queue
+# Create a Microsoft Teams call queue 
 
 Call queues route callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue, who are known as *agents*.
 
@@ -39,11 +42,9 @@ Call queues provide:
 
 Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
-## What's new for call queues in the past 6 months
+## What's new for call queues in the past six months
 
-- August
-  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
-  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+- No new features in the past 6 months.
 
 ## Steps to create a call queue
 
@@ -56,7 +57,7 @@ The steps to set up a call queue include:
 1. Set call overflow handling
 1. Set call timeout handling
 
-The steps outlined in the article create call queues using the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
+The steps outlined in this article for creating call queues use the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## Follow these steps to set up your call queue
 
@@ -72,20 +73,20 @@ Type a name for the call queue in the box at the top.
 
 To add an existing resource account:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. Under **Resource accounts**, select the **Add** button to add a resource account for this call queue.
 1. On the **Add accounts** pane, search for the resource account to add.
 1. Select the **Add** button next to the resource account you want to assign to this call queue.
 1. At the bottom of the pane, select the **Add** button.
 
 If you need to create a resource account:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account for this call queue.
+1. Under **Resource accounts**, select the **Add** button to add a resource account for this call queue.
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
     1. Type in a descriptive **Display name**, which will be visible to agents.
     1. Type in a descriptive **Username** for the resource account.
-    1. Select the **Resource account type** dropdown and select **Call queue**.
+    1. Select the **Resource account type** dropdown, and select **Call queue**.
 1. At the bottom of the pane, select the **Save** button.
 1. On the **Resource accounts** pane, select the **Add** button.
 
@@ -97,7 +98,7 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 
 **Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues.**
 
-You can assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
+Assign outbound caller ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound caller ID number to use with each outbound call they make. Within the Calls App, agents can use their Call Queue (CQ) / Auto Attendant (AA) number or their own personal Direct InWard Dial (DID).
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a **Microsoft Teams Phone Resource Account** license and one of the following assigned:
@@ -113,7 +114,7 @@ You can assign outbound caller ID numbers for the agents by specifying one or mo
 
 If you don't have a resource account with an assigned phone number:
 
-1. Under **Resource accounts**, click the **Add** button to add a resource account.
+1. Under **Resource accounts**, select the **Add** button to add a resource account.
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
@@ -125,9 +126,9 @@ If you don't have a resource account with an assigned phone number:
 
 After you've created this new resource account for calling ID, you'll still need to:
 
-- Assign a [Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license)
-- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing
-- Assign the [service phone number to the resource account](manage-resource-accounts.md#assign-a-service-number), if you're using Microsoft Calling Plan
+- Assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
+- Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
 ### Set the call queue language
 
@@ -140,8 +141,6 @@ Once you've selected a language, select the **Next** button at the bottom of the
 # [Step 2: Greeting and music](#tab/greeting-music)
 
 ## Step 2: Add a greeting and on-hold music
-
-*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
@@ -169,11 +168,11 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or owner of the channel to add a channel to the queue.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+To [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
 
-1. Select the **Choose a team** radio button and select **Add a channel**.
+1. Select the **Choose a team** radio button, and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard channels are supported) and select **Apply**.
+1. Select the channel that you want to use (only standard channels are fully supported), and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -185,6 +184,17 @@ The following clients are supported when using a Teams channel for call queues:
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
+> [!IMPORTANT]
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
+> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
+>
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
+
 ### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
@@ -195,11 +205,11 @@ If you want to add individual users or groups to the queue:
 
 To **add a user** to the queue:
 
-1. Select **Add users**, search for the user, click **Add**, and then click **Add**.
+1. Select **Add users**, search for the user, select **Add**, and then select **Add**.
 
 To **add a group** to the queue:
 
-1. Select **Add groups**, search for the group, click **Add**, and then click **Add**. 
+1. Select **Add groups**, search for the group, select **Add**, and then select **Add**. 
     1. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
@@ -211,22 +221,24 @@ To **add a group** to the queue:
 
 **Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
-- The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+- The latest version of the Microsoft Teams desktop client, Android app, or iOS app.
+- Microsoft Teams Phone System version 1449/1.0.94.2020051601 or later.
   
-Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are using compatible clients.
+Agents' Teams accounts must be set to `TeamsOnly` mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are using compatible clients.
 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
 
 > [!NOTE]
-> Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.
 >
-> Conference mode isn't supported if phone calls are routed to the queue from Skype for Business Server.
+> Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 > 
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
+>  
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -269,7 +281,7 @@ You can enable **presence-based call routing** with any of the routing methods.
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
 
 > [!TIP]
-> Setting the **Presence-based routing** to **on** is the recommended setting.
+> Setting the **Presence-based routing** to **On** is the recommended setting.
 
 > [!NOTE]
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
@@ -309,12 +321,12 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
+> 
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -322,7 +334,7 @@ Once you've selected your call overflow handling options, select the **Next** bu
 
 ## Step 6: Set how to handle call timeouts
 
-**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected.
+**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it's redirected or disconnected.
 
 You can specify a value from 0 seconds to 45 minutes.
 
@@ -330,9 +342,10 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+
+> [!NOTE]
+> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
@@ -380,43 +393,41 @@ The following settings are recommended:
 
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
-3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
-6. Microsoft Teams Phone only.
+3. Selecting Longest Idle for the agent routing method will automatically enable Presence-Based Routing.
+4. It's not possible to set the order the agents will be called in.
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.
+6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp).
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp).
 8. Only public channels are supported.
-9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
-8. Only public channels are supported.
-9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 
 ### Supported clients
 
 The following clients are supported for call agents in a call queue:
 
-- Skype for Business desktop client 2016 (32-bit and 64-bit versions)
-- Lync desktop client 2013 (32-bit and 64-bit versions)
+- Skype for Business desktop client 2016 (32-bit and 64-bit versions).
+- Lync desktop client 2013 (32-bit and 64-bit versions).
 - All IP phone models supported for Microsoft Teams. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-- Mac Skype for Business Client (version 16.8.196 and later)
-- Android Skype for Business Client (version 6.16.0.9 and later)
-- iPhone Skype for Business Client (version 6.16.0 and later)
-- iPad Skype for Business Client (version 6.16.0 and later)
-- Microsoft Teams Windows client (32-bit and 64-bit versions)
-- Microsoft Teams Mac client
-- Microsoft Teams on [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop, Citrix, and VMware)
-- Microsoft Teams iPhone app
-- Microsoft Teams Android app
+- Mac Skype for Business Client (version 16.8.196 and later).
+- Android Skype for Business Client (version 6.16.0.9 and later).
+- iPhone Skype for Business Client (version 6.16.0 and later).
+- iPad Skype for Business Client (version 6.16.0 and later).
+- Microsoft Teams Windows client (32-bit and 64-bit versions).
+- Microsoft Teams Mac client.
+- Microsoft Teams on [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop, Citrix, and VMware).
+- Microsoft Teams iPhone app.
+- Microsoft Teams Android app.
 
-  > [!NOTE]
-  > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
+> [!NOTE]
+> Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Call Queue Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate that a call queue is able to receive calls:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Call Queue](https://aka.ms/TeamsCallQueueDiag)
@@ -425,9 +436,9 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
-### Related topics
+### Related articles
 
-[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](getting-service-phone-numbers.md)
 

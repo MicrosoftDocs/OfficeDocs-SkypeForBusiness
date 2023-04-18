@@ -61,6 +61,8 @@ The following advanced features aren't available during an E2EE call:
 
 - Recording
 
+- Apps
+
 Also, if your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Configure end-to-end encryption for Microsoft Teams
@@ -81,9 +83,9 @@ The global, organization-wide, default policy specifies that end-to-end encrypti
 
 3. Either choose the default policy or choose **Add** to add a new policy and then name the new policy.
 
-4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **Disabled user override**, and then choose **Save**.
+4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **Not enabled, but users can enable**, and then choose **Save**.
 
-   To disable end-to-end encryption, choose **Disabled**.
+   To disable end-to-end encryption, choose **Not enabled**.
 
 Once you’ve finished setting up the policy, assign the policy to users, groups, or your entire tenant the same way you manage other Teams policies. For information about using policies in Teams, see [Manage Teams with policies](manage-teams-with-policies.md).
 

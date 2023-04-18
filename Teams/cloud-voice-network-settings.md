@@ -5,6 +5,7 @@ ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
+ms.date: 11/12/2019
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -15,6 +16,8 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

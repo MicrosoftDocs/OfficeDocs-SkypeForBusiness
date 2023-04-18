@@ -4,12 +4,14 @@ author: LanaChin
 ms.author: v-lanachin
 manager: samanro
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 02/01/2019
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 ms.localizationpriority: high
 search.appverid: MET150

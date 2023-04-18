@@ -4,8 +4,10 @@ author: altsou
 ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
+ms.date: 08/25/2021
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -15,6 +17,7 @@ f1keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 ---
 
 # Configure ServiceNow for Teams Rooms
@@ -28,7 +31,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 
 ### Teams Rooms prerequisites
 
-- You must have an assigned Service Administrator role. For more information, see [Role-based access control with Microsoft Teams Rooms Pro Management](microsoft-teams-rooms-premium-rbac.md).
+- You must have an assigned Service Administrator role. For more information, see [Role-based access control with Microsoft Teams Rooms Pro Management](rooms-pro-rbac.md).
 
 ### ServiceNow prerequisites
 

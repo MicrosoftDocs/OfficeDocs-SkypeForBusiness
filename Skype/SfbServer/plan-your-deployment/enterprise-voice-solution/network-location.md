@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define the network elements used to determine location in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -73,4 +74,5 @@ To use a client computer's MAC address to locate a caller, you need managed Ethe
 > [!NOTE]
 > Some third-party SNMP solutions can support unmanaged access switches; if the switch that services the Skype for Business client is unmanaged but has an uplink to a managed distribution switch, the managed switch can report back to the SNMP application the MAC addresses of the clients connected to the access switch. This information enables the Location Information service to identify the location of the user. However, it is possible to assign only a single ERL to all ports on the unmanaged switch, so the location specificity is available only at the chassis level of the access switch, not the port level. 
   
+
 

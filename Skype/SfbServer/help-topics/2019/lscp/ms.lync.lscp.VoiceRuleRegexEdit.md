@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Translation Rule Type a Regular Expression"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceRuleRegexEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ In the **Match this pattern** field, specify the pattern that will be used to ma
   
  
   
+
 

@@ -1,11 +1,12 @@
 ---
+ms.date: 11/05/2018
 title: "Decide how to manage attributes after decommissioning"
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 
 - Hybrid 
@@ -188,7 +189,7 @@ This option requires more effort and proper planning because users who were move
     Teams PowerShell command:
 
     ```PowerShell
-    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
+    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {$_.UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
     ``` 
 
 12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
@@ -199,4 +200,5 @@ This option requires more effort and proper planning because users who were move
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
 

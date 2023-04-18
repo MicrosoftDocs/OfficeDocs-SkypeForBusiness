@@ -7,8 +7,10 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: abgupta
+ms.date: 10/08/2019
 ms.localizationpriority: medium
 search.appverid: MET150
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
 - M365-collaboration
 description: Learn about team expiration and renewal and how to use Microsoft 365 group expiration policy to automatically clean up unused teams in Microsoft Teams.

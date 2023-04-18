@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Conferencing policy for Skype Room System accounts"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -74,4 +75,5 @@ Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 
 By default, RequireRoomSystemsAuthorization is FALSE. 
   
+
 

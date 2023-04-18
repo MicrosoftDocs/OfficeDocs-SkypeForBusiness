@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
+ms.date: 03/23/2023
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
@@ -14,6 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: In this article, you will learn about the Teams reports that are available in the Microsoft Teams admin center.
 appliesto: 
   - Microsoft Teams
@@ -26,7 +28,13 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Microsoft 365 or Office 365, global reader in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
+To access the reports, you must be assigned one of the following roles:
+
+- Global administrator.
+- Teams or Skype for Business administrator.
+- Global reader (only tenant-level aggregate and no per-user or team data).
+
+To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **View Reports**, choose the report you want to run.
 
@@ -51,13 +59,16 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)|Yes|Yes|No|No|  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
 |[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |Yes|Yes|No|No|  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
 |[Teams information protection license report](information-protection-license-report.md)  |Yes|Yes|No|No| <br>Whether users have valid licenses to push their messages via change notifications</br><br>Total number of change notification events triggered by a user<br><br>What apps are listening to org-wide change notification events<br>|
-|[Teams Virtual Visits usage report](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  |Yes|Yes|No|No| Number of virtual appointments<br>Number of Bookings appointments<br>Number of Teams Electronic Health Records (EHR)-integrated appointments<br>Average duration of an appointment<br>Average lobby wait time of attendees<br>Start time<br>Meeting ID<br>Lobby wait time<br>Duration<br>Status<br>Product type<br>Attendees<br>SMS sent
+|[Teams Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Yes|Yes|No|No| Number of virtual appointments<br>Number of Bookings appointments<br>Number of Teams Electronic Health Records (EHR)-integrated appointments<br>Average duration of an appointment<br>Average lobby wait time of attendees<br>Start time<br>Meeting ID<br>Lobby wait time<br>Duration<br>Status<br>Product type<br>Attendees<br>Department<br>SMS sent<br>Whether the appointment used an advanced Virtual Appointments capability|
+|[Teams Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No|Number of users using advanced Virtual Appointments capabilities<br>Number of users who use SMS text notifications<br>Number of users who use lobby chat (coming soon)<br>Number of users who conduct on-demand appointments|
 |[Teams EHR connector Virtual Appointments report](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No| Start time<br>Duration<br>Primary (name of meeting organizer)<br>Primary's email (email of meeting organizer)<br>Department<br>Attendants<br>Lobby wait time<br>Whether the appointment is within the allocation limit|
+|[Walkie Talkie usage and performance report](walkie-talkie-usage-report.md) |Yes|Yes|No|No| Metrics include the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.|
+|[SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|No|No|No| Sent time <br> Sent from <br> SMS notification type <br> Product type <br> Status |
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Make the user specific data anonymous
 
-To make the data in Teams user activity report anonymous, you have to be a global administrator. The global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
+To make the identifiable information in usage reports anonymous, you have to be a Global administrator. The Global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and AAD ID in the report and its export.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
     
@@ -66,6 +77,6 @@ To make the data in Teams user activity report anonymous, you have to be a globa
 3. Select **Save changes**.
 
 > [!NOTE]
-> Enabling this setting will de-identify user, group, and site name information in the [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws. 
+> Enabling this setting will de-identify user, group, and site name information in the [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws.
 >
 >This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI.

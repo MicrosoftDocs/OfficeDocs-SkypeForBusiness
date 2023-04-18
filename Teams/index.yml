@@ -33,9 +33,9 @@ highlightedContent:
       itemType: how-to-guide
       url: ./upgrade-skype-teams.yml
     # Card
-    - title: Use Advisor for Teams to help you roll out Teams
-      itemType: get-started
-      url: ./use-advisor-teams-roll-out.md
+    - title: Discover Microsoft Teams Premium
+      itemType: overview
+      url: ./enhanced-teams-experience.md
 
 # productDirectory section (optional)
 productDirectory:
@@ -156,8 +156,8 @@ additionalContent:
         # Card
         - title: Extend Teams functionality
           links:
-            - text: Apps, bots, & connectors in Microsoft Teams
-              url: ./deploy-apps-microsoft-teams-landing-page.md
+            - text: Apps in Microsoft Teams
+              url: ./apps-in-teams.md
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform

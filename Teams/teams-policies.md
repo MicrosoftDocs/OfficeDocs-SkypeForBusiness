@@ -4,6 +4,7 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
+ms.date: 06/26/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,6 +24,7 @@ ms.custom:
   - ms.teamsadmincenter.teamsandchannelpolicies.overview
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
+  - chat-teams-channels-revamp
 description: Learn how to use and manage teams channel policies in your organization to control what users can do in teams and channels.
 ---
 

@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
+ms.date: 08/17/2017
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

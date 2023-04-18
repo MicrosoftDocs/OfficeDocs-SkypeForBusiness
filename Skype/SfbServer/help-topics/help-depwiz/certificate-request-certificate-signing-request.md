@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFile
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: "To create an offline request, you must first create a certificate signing request (CSR). Type the path and file name for the CSR in the File Name text box. You can click Browse to choose a location to create the CSR. Click Next to continue."

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
+ms.date: 03/21/2019
 audience: admin
 description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 ms.localizationpriority: medium
@@ -114,7 +115,10 @@ The following is the recommended minimum VM configuration.
 |---------|---------|---------|
 |vCPU   |    2 cores     |  4, 6, or 8 cores<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
 |RAM     |   4 GB      | 512 MB to 1 GB per user        |
-|Storage    | 8 GB        | 40 GB to 60 GB        |
+|Storage    | 32 GB        | 40 GB to 60 GB        |
+
+> [!NOTE]
+> Microsoft Teams requires 3.0 GB of available disk space.
 
 #### Non-persistent setup
 
@@ -164,9 +168,10 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 
 ### Deploy the Teams desktop app to the VM
 
-⁠1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
+1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
     - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
     > [!NOTE]
     > For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
 
@@ -195,7 +200,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 32-bit operating system and to the `%ProgramFiles%` folder on a 64-bit operating system. At this point, the golden image setup is complete.
+        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 64-bit operating system and to the `%ProgramFiles%` folder on a 32-bit operating system. At this point, the golden image setup is complete.
 
         > [!IMPORTANT]
         >  Installing Teams per-machine is required for non-persistent setups.
@@ -469,10 +474,11 @@ if($cleanup){
 ### Client deployment, installation, and setup
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
-- In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
+- In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user being in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario. This behavior is fixed in Teams 1.6.00.4472.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
 - Azure Virtual Desktop doesn't support Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
+- Teams presence functions within VDI Teams client but does not resolve in Outlook.
 
 ### Notifications
 
@@ -482,14 +488,15 @@ if($cleanup){
 
 The following calling and meeting features are not supported:
 
-- HID buttons and LED controls between the Teams app and devices for Citrix and VMware
-- Background blur and effects for Citrix and VMware
+- HID buttons and LED controls between the Teams app and devices for Citrix
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
 - Zoom control
+- QoS
+- Gallery View 3x3
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
@@ -500,8 +507,6 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Live events are not optimized.
-- Outgoing screen sharing:
-  - Application sharing is not supported for VMware and AVD/W365.
 - Give control and take control:
   - Not supported during application sharing session.
 

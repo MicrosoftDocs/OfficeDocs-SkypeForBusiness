@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Admission Control Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PdpSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
@@ -30,4 +31,5 @@ In the **Call Admission Control Setting** section of the **Edit Properties** dia
     
 - **Front End pool to run Call Admission Control** If you enabled CAC, you can change the pool that runs it. Select the pool from the drop-down list.
     
+
 

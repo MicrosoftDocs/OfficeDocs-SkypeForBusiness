@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 01/28/2022
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 ms.localizationpriority: medium
 f1.keywords: 
@@ -146,6 +148,22 @@ To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cm
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
+
+## Diagnosing issues with Call Forwarding
+
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to forward calls recevied in Teams to a specific number. 
+
+1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Forwarding](https://aka.ms/TeamsCallForwardingDiag)
+
+2. In the Run diagnostic pane, enter the email of the user who's having issues forwarding calls in the **Username or Email** field. Enter the phone number (in E.164 format) that the user wants calls to be forwarded to and then select **Run Tests**.
+3. The tests will return the best next steps to address any user settings or configurations to validate that the user is properly configured to forward calls to a specific number in Teams.
+
+## Additional notes
+
+The default behavior for a user (whose call answering rules have not been modified either by the user or a Tenant admin) is that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
 
 ## Related topics
 

@@ -27,24 +27,6 @@ Learn how to manage Teams for your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="instructor-led-training-teams-landing-page.yml">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://learn.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>NEW: Instructor-led training for Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
         <div class="cardSize">
             <div class="cardPadding">

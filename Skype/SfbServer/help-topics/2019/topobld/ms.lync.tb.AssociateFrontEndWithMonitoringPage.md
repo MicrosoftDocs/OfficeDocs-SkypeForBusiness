@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Front End With Monitoring"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
@@ -23,4 +24,5 @@ Each Front End pool and Survivable Branch Appliance can have only one Monitoring
   
 All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server. 
   
+
 

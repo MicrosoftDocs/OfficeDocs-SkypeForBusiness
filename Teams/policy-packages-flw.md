@@ -4,12 +4,14 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: 
-ms.topic: article
+ms.date: 06/20/2019
+ms.topic: conceptual
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams

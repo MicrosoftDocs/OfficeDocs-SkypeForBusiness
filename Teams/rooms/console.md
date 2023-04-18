@@ -3,16 +3,19 @@ title: Build a Microsoft Teams Rooms image
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: This article describes how to set up and configure the Microsoft Teams Rooms console and its peripherals.

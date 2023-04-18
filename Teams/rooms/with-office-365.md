@@ -5,14 +5,17 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
+ms.date: 02/23/2018
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Read this article for information on how to create resource accounts for rooms and shared devices, including Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
@@ -60,7 +63,7 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 ## Configure mailbox properties
 
-[!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-password-include.md)]
+[!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-mailbox-include.md)]
 
 ## Turn off password expiration
 

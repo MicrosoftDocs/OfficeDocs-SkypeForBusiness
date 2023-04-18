@@ -3,13 +3,15 @@ title: Configure SIP Gateway
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 12/8/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -35,11 +37,11 @@ Before you can configure SIP Gateway, do the following:
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the following https endpoints (IP addresses and URLs):**
+- **Open the following IP addresses:**
 
   - 13.75.175.145
   - 52.189.219.201
@@ -47,12 +49,6 @@ Before you can configure SIP Gateway, do the following:
   - 13.74.250.91
   - 13.83.55.36
   - 23.96.103.40
-  - https://blobsdgapac.blob.core.windows.net
-  - https://blobsdgemea.blob.core.windows.net
-  - https://blobsdgnoam.blob.core.windows.net
-  - https://httpblobsdgapac.blob.core.windows.net
-  - https://httpblobsdgemea.blob.core.windows.net
-  - https://httpblobsdgnoam.blob.core.windows.net
 
 
 The following sections describe what you must do as an administrator to configure SIP Gateway.
@@ -98,7 +94,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 > [!NOTE]
 > - Policy propagation may take up to 24 hours.
@@ -194,15 +190,11 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
-6. In the **Sign in a user** dialog, copy or note the SIP device's pairing code.
+6. In the **Sign in a user** dialog, the authentication URL and pairing code will be displayed.
 
-7. Go to [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), and under **Enter code**, enter the SIP device's pairing code, and then select **Next**.
+7. Navigate to the authentication URL on the user's desktop or mobile browser and use corporate credentials to log in.
 
-8. On the Microsoft **Sign in** page, in the **Email or phone** field, enter the email address for the SIP device, and then select **Next**.
-
-9. On the **Password** page, enter the password for the email address for the SIP device, and then select **Sign in**.
-
-10. On the **Are you trying to sign in to Teams SIP devices gateway** page, select **Continue**.
+8. Enter the pairing code displayed in the **Sign in a user** dialog into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 ## How to sign in and sign out
 

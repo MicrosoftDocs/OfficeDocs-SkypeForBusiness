@@ -4,10 +4,12 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
+ms.date: 01/11/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 f1.keywords: 

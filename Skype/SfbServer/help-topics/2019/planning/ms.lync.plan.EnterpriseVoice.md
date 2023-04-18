@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Enterprise Voice (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
@@ -24,4 +25,5 @@ With Enterprise Voice, Skype for Business Server delivers a stand-alone Voice ov
   
 For more details about planning for Enterprise Voice, see [Plan for Enterprise Voice in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). For more details about deploying a stand-alone Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
+
 

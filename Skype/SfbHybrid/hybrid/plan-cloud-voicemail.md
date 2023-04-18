@@ -1,4 +1,5 @@
 ---
+ms.date: 03/20/2018
 title: Plan Cloud Voicemail service for on-premises users| PBX Skype for Business Server 2019 
 ms.reviewer: 
 ms.author: dstrome
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."

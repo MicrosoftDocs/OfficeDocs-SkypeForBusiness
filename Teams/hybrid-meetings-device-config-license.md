@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Purchase a Teams Rooms Basic or Teams Rooms Pro license for use with Teams Rooms devices.
 ms.topic: article

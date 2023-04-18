@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure media bypass global settings in Skype for Business Server to use site and region information"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -55,4 +56,5 @@ Next, add subnets to the network site, as described in [Associate a subnet with 
 ## See also
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
+
 

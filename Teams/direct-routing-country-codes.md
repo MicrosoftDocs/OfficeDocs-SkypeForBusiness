@@ -5,12 +5,14 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 06/28/2019
 ms.topic: reference
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -30,9 +32,6 @@ By using the -MediaRelayRoutingLocationOverride parameter with the New-CsOnlineP
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
 Note that Microsoft only recommends setting this parameter if the call logs clearly indicate that the default assignment of the datacenter for the media path does not use the path closest to the SBC datacenter. 
-
-> [!NOTE]
-> MediaRelayRoutingLocationOverride parameter is reserved for use with managed carriers.
  
 ## Country code reference table
 

@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection:
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto:
   - Skype for Business
@@ -115,7 +118,7 @@ To create the auto-labeling policy to apply a sensitivity label to voicemail, se
 - Exchange rules:
   - Conditions:
     - **Header matches pattern**: Content-Class = Voice-CA
-    - **Sender IP address is**: 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+    - **Sender IP address is**: 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32
 
 - For **Choose a label to auto-apply**, select the sensitivity label you created for voicemail in the step above.
 
@@ -124,6 +127,18 @@ To create the auto-labeling policy to apply a sensitivity label to voicemail, se
 The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
+
+## Diagnosing issues with Voicemail
+
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to use voicemail in Teams:
+
+1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Voicemail](https://aka.ms/TeamsVoicemailDiag)
+
+2. In the Run diagnostic pane, enter the email of the user who is having issues receiving voicemail in the **Username or Email** field, and then select **Run Tests**.
+3. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to receive voicemail in Teams.
 
 ## Help your users learn about Cloud Voicemail features
 

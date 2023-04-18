@@ -3,6 +3,7 @@ title: Migrating from Skype for Business Online Connector to the Teams PowerShel
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
+ms.date: 10/14/2020
 manager: bulenteg
 ms.topic: conceptual
 audience: admin
@@ -76,6 +77,6 @@ Migrating from using Skype for Business Online Connector to Teams PowerShell mod
 
 [Teams PowerShell release notes](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/teams/)
 
-[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet reference](/powershell/skype/intro)

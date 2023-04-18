@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: davelick, roykuntz, jastark
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- Tier1
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -24,11 +26,11 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans, Operator Connect, or Operator Connect Mobile (Public preview release), you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
+When you set up Calling Plans, Operator Connect, or Teams Phone Mobile, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Calling Plans, Operator Connect, and Operator Connect Mobile (Public preview release). For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-Before you assign a number for a Calling Plan, Operator Connect, or Operator Connect Mobile user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md), [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers), or [Set up numbers for Operator Connect Mobile users](operator-connect-mobile-configure.md).
+Before you assign a number for a Calling Plan, Operator Connect, or Teams Phone Mobile user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md), [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers), or [Set up numbers for Teams Phone Mobile users](operator-connect-mobile-configure.md).
 
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
@@ -59,7 +61,7 @@ For Operator Connect numbers:
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-For Operator Connect Mobile numbers:
+For Teams Phone Mobile numbers:
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -73,14 +75,11 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
-
-
-
-
-
-
 > [!NOTE]
 > Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> When you assign a phone number the EnterpriseVoiceEnabled flag is automatically set to True.
 
 ## Change a phone number for a user
 
@@ -103,7 +102,7 @@ To change a phone number for a user by using the Teams admin center:
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
-      > If you are changing numbers for Operator Connect or Operator Connect Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+      > If you are changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 9. Click **Save**.
 

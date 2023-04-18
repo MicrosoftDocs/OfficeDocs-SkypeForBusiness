@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -62,3 +63,4 @@ Note that OAuth is a core part of the product and cannot be disabled or removed.
 [Assign a server-to-server authentication certificate to Skype for Business Server](assign-a-server-to-server-certificate.md)
   
 [Configure a hybrid environment in Skype for Business Server](configure-a-hybrid-environment.md)
+

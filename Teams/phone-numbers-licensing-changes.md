@@ -4,12 +4,15 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 07/28/2021
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -66,12 +69,4 @@ For example, assume you want to assign a Microsoft 365 E5 license to a user who 
 
 (If you remove the old license and save the change, and then add the new license and save the change, the phone number will be unassigned and the user might lose the ability to make and receive PSTN calls in Microsoft Teams. After assigning the new license, you’ll need to re-assign the phone number to the user.)
 
-
-
-
-
-
-
-
-
-
+For information about how to change the license simultaneously with group-based licensing, see [Change license assignments for a user or group in Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-change-licenses).

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure archiving disclaimers for external users in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -51,5 +52,6 @@ To disable the archiving disclaimer, set the value of the **EnableArchivingDiscl
 ```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
+
 
 

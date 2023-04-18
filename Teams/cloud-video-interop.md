@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: naforer
+ms.date: 09/21/2018
 f1.keywords:
 - NOCSH
 description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
@@ -15,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -47,7 +49,8 @@ While Cloud Video Interop provides a great intermediate solution, we encourage o
 Office 365 provides the ability to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on
 third-party systems that are outside of the Office 365 infrastructure and therefore are not covered by the Office 365 compliance and data protection commitments. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
 
-
+> [!NOTE]
+> The Pexip Teams Connector must be hosted in the Arizona or Texas Azure regions for GCC High. The Virginia Azure region does not support the hosting of the Pexip Teams Connector for GCC High.
 
 ### Partners Certified for Microsoft Teams
 

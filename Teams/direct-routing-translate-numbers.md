@@ -1,6 +1,7 @@
 ---
 title: "Translate phone numbers for Direct Routing"
 ms.reviewer: filippse
+ms.date: 02/13/2020
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -61,7 +63,7 @@ The translation rules assigned to the SBC are summarized in the following table:
 |AddPlus1     |^(\d{10})$          |+1$1          |
 |AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
-|StripPlus1    |^+1(\d{10})$          | $1         |
+|StripPlus1    |^\+1(\d{10})$          | $1         |
 
 In the following examples, there are two users, Alice and Bob. Alice is a Teams user whose number is +1 206 555 0100. Bob is a PSTN user whose number is +1 425 555 0100.
 

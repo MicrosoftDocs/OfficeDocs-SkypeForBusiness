@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: "The Select Calling Number Translation Rules dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:"

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Connect a Survivable Branch Appliance"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -65,3 +66,4 @@ Every Survivable Branch Appliance (SBA) is associated with a Front End pool that
 10. If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.
     
 11. Repeat the previous steps for each branch site you want to add to the topology.
+

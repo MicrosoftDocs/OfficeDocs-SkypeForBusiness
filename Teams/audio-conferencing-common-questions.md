@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -93,12 +95,7 @@ No, a user can't get any operator assistance or support by pressing *0 during th
   
 ## How does a user access or change their conference ID?
 
-Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up.
-  
-> [!NOTE]
-> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization.
-  
-We're working on a solution that will let the user access and reset a conference ID without help from an organization's admin.
+Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Users won't be able to reset the conference ID associated with a meeting.
 
 ## How do users access or change their PIN?
 
@@ -121,11 +118,13 @@ For meeting participants and organizers:
 
 For meeting organizers only:
 
-| Command Name                   | Command Keys | Description                                                 |
-|--------------------------------|--------------|-------------------------------------------------------------|
-| Admit all                      | \*21         | Press \*21 to admit all participants waiting in the lobby.  |
-| Mute all                       | \*22         | Press \*22 to mute all participants (except the organizer). |
-| Toggle Enter/Exit Announcement | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.    |
+| Command Name                     | Command Keys | Description                                                   |
+|----------------------------------|--------------|---------------------------------------------------------------|
+| Admit all                        | \*21         | Press \*21 to admit all participants waiting in the lobby.    |
+| Mute all                         | \*22         | Press \*22 to mute all participants (except the organizer).   |
+| Toggle Enter/Exit Announcement   | \*23         | Press \*23 to enable or disable Enter/Exit Announcement.      |
+| Hear participant count in lobby  | \*24         | Press \*24 to hear the participant count waiting in the lobby.|
+
 
 ## Can attendees dial out to international phone numbers when they are in a Teams meeting?
 
@@ -139,7 +138,7 @@ When a user is assigned an **Audio Conferencing** license and the user creates a
 
 Scheduling a meeting that will be joined by all attendees using a phone to dial in is not different from scheduling a regular online meeting. However, there are two ways to start a meeting on which all of the participants use a phone to dial in:
 
-- **Option #1**: By default, if the meeting organizer and all participants are joining a meeting using a phone, the meeting organizer needs to input her Audio Conferencing PIN to start it. Callers get asked if they want to authenticate as the organizer of a given meeting when they dial the phone number of an online meeting. All participants that join the meeting via dial-in before the organizer starts will be placed in the lobby and will listen to music on hold. For Teams meetings, the participants will join the meeting according to the value of the automatically admit people setting in the organizer's meeting policy.
+- **Option #1**: By default, if the meeting organizer and all participants are joining a meeting using a phone, the meeting organizer needs to input her Audio Conferencing PIN to start it. Callers get asked if they want to authenticate as the organizer of a given meeting when they dial the phone number of an online meeting. All participants that join the meeting via dial-in before the organizer starts will be placed in the lobby and will listen to music on hold. For Teams meetings, the participants will join the meeting according to the value of the Who can bypass the lobby setting in the organizer's meeting policy.
 
 - **Option #2**: The “Allow unauthenticated callers to be the first people in a meeting“ setting is disabled by default. If the setting is enabled for a given organizer, then all meetings scheduled by that organizer can be started before the organizer inputs the Audio Conferencing PIN. When this setting is enabled, the meeting will start as soon as the first participant joins it via a dial-in phone number, and the first participant won't be put in the lobby. For more information, see, [Manage Audio Conferencing settings for a user in Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 

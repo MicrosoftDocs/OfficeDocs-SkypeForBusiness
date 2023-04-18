@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Provisioning of Skype Room System Exchange and Skype Accounts"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -40,3 +41,4 @@ The following topics describe how to provision and manage Skype Room System Exch
 - Skype Room System and Skype for Business federated partners
     
 - Manage Skype Room System accounts
+

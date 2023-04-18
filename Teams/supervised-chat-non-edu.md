@@ -4,10 +4,12 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
+ms.date: 06/28/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 f1.keywords: 
   - NOCSH
 appliesto: 

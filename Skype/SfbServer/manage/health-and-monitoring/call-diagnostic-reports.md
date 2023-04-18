@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Diagnostic Reports in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -36,4 +37,5 @@ The Call Diagnostic Reports provide summary information and diagnostic data for 
     
 - [Diagnostic Report in Skype for Business Server](diagnostic-report.md) Provides diagnostic and troubleshooting information (including SIP response codes and diagnostic headers and IDs) for failed sessions.
     
+
 

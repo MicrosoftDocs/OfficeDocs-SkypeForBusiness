@@ -3,15 +3,18 @@ title: Supported Conditional Access and Intune device compliance policies for Mi
 ms.author: dstrome
 author: dstrome
 ms.reviewer: kspiess
+ms.date: 02/28/2022
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 

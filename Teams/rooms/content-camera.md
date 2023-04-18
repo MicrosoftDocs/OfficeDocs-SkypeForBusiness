@@ -1,18 +1,21 @@
 ---
 title: Learn how to setup content cameras - Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 ms.reviewer: sohailta
+ms.date: 08/12/2019
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 ms.custom: 
   - seo-marvel-mar2020
 description: Use a content camera in Microsoft Teams Rooms that interacts with image-processing software to allow presenters to draw on an analog whiteboard.
@@ -100,5 +103,3 @@ You can also adjust these settings remotely using an [XML configuration file](xm
 [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
 
 [Microsoft Teams Rooms requirements](requirements.md)
-
-

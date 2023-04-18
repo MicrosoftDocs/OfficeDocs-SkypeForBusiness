@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage two-factor authentication in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -107,3 +108,4 @@ Configuring an ADFS Proxy or Reverse Proxy to support Skype for Business two-fac
 ## See also
 
 [Configure two-factor authentication in Skype for Business Server](configure-two-factor.md)
+

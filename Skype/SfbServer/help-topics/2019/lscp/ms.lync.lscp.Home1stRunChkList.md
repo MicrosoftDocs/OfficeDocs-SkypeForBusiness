@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "First Run Checklist for Skype for Business Server Control Panel"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.Home1stRunChkList
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
