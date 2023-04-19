@@ -73,10 +73,10 @@ Make sure you dissociate the telephone number from the resource account before d
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts** page.
 3. Select the resource account to which you want to assign a phone number, and then select **Assign/unassign**.
-4. Click the X on the assigned auto attendant or call queue
-5. Click Save
+4. Select the **X** on the assigned auto attendant or call queue.
+5. Select the **Save** button.
 
-After you do that, you can delete the resource account in the Microsoft 365 admin center, under the **Users** tab.
+After you do that, you can delete the resource account in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), under the [**Users**](https://go.microsoft.com/fwlink/p/?linkid=834822) tab.
 
 ## Hide resource accounts from Teams users
 
