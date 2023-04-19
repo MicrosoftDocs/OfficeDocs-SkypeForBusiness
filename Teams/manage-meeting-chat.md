@@ -31,7 +31,7 @@ The **Meeting chat** setting controls whether meeting chat is allowed in the use
 |Setting value |Behavior  |
 |---------|---------|
 |**On for everyone**     | All participants can write and view chat messages. |
-|**On for everyone but anonymous users**     | Meeting chat read and write access is turned on for anonymous participants only.  |
+|**On for everyone but anonymous users**     | Meeting chat read and write access is turned off for anonymous participants only.  |
 |**Off for everyone**     | Meeting chat is turned off for all participants.  |
 
 **THE BELOW IS THE OLD VERSION:**
