@@ -108,11 +108,11 @@ When users are enabled for Location-Based Routing and roaming, the network site 
 
 The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
-- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. (Office location)
+- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned. (Office location)**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. 
 
-- **The user is located at a different Location-Based Routing enabled site not associated to PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that’s enabled for Location-Based Routing, and that site isn't associated with the PSTN gateway where the user’s DID number is assigned. For example, the user travels to another office. (Remote location)
+- **The user is located at a different Location-Based Routing enabled site not associated to the PSTN gateway where their DID is assigned. (Remote location)**<br>In this scenario, the user is located in a configured network site that’s enabled for Location-Based Routing, and that site isn't associated with the PSTN gateway where the user’s DID number is assigned. For example, the user travels to another office. 
 
-- **The user is located at an internal site that's not enabled for Location-Based Routing.** <br>In this scenario, the user is located in a configured network site that's not enabled for Location-Based Routing. 
+- **The user is located at a known site that's not enabled for Location-Based Routing.** <br>In this scenario, the user is located in a configured network site that's not enabled for Location-Based Routing. 
 
 - **The user is located at an unknown site.** 
     - The user is located within the internal network that's not defined as a network site. 
@@ -133,14 +133,13 @@ The following tables describes specifics for outbound and inbound PSTN calls for
 
 **Outbound PSTN calls**
 
-| User location | Network site LBR status  | Gateway LBR status​ | Override flag status | Outbound calls |
+| User location | Network site where users are located  | PSTN Gateway ​ | Override flag status | Outbound call status |
 | --------- | --------- | --------- | --------- | --------- |
-| Office Location​ | Enabled ​| Enabled ​| True or False | Allowed​ |
-| Remote Office Location | Enabled ​| Enabled ​| True | Allowed​ |
-| Internal network site  | Disabled​ | Enabled​ | True  |  Allowed |
-| Internal network site  | Disabled​ | Enabled​ | False  |  Not Allowed |
-| Unknown network site  | Disabled​ | Enabled​ | True  | Allowed |
-| Unknown network site  | Disabled​ | Enabled​ | False  |  Not Allowed |
+| Office location​ | LBR enabled ​| LBR enabled ​| - | Allowed​ |
+| Remote location | LBR enabled ​| LBR enabled ​| - | Not allowed​ |
+| User at known site  | LBR disabled​ | LBR disabled | -  |  Allowed |
+| User at unknown site  | -​ | LBR enabled​ | True  | Allowed |
+
 
 Outbound PSTN calls are also allowed for users when all the following are true:
 
@@ -152,17 +151,12 @@ Outbound PSTN calls are also allowed for users when all the following are true:
 
 **Inbound PSTN calls**
 
-| User location | Network site LBR status  | Gateway LBR status​ | Override flag status | Inbound calls |
+| User location | Network site at which user is located | PSTN Gateway​ | Override flag status | Inbound call status |
 | --------- | --------- | --------- | --------- | --------- |
-| Same location as gateway​ | Enabled ​| Enabled ​| True or False | Allowed​ |
-| Same location as gateway​ | Disabled ​| Disabled ​| True or False | Allowed*​ |
-| Roaming at unknown site | Disabled ​| Enabled ​| True | Allowed​ |
-| Roaming at unknown site | Disabled ​| Enabled ​| False | Not Allowed** |
-| Roaming at unknown site | Disabled ​| Disabled ​| True or False | Allowed​** |
+| Office location​ | LBR enabled ​| LBR enabled ​| - | Allowed​ |
+| Remote location​ | LBR enabled ​| LBR enabled ​| - | Not Allowed​ |
+| User at unknown site | - ​| LBR enabled ​| True | Allowed​ |
 
-\* This scenario involves re-routing the incoming PSTN call to ingress through another PSTN gateway than the one normally used for incoming calls to the user’s phone number.
-
-\** The call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail). 
 
 **Decisions flows**
 
