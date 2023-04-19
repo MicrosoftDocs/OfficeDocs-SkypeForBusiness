@@ -93,10 +93,15 @@ Restricted to applications performing security and/or compliance functions, user
 
 Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
 
+The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
+
 |Partner Name|Partner Solution|
 |---|---|
 |![logo-of-rubrik](media/rubrik.png) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/blog/microsoft-teams-backup-office-365-v5.html) |
+
+### Next steps
+If you are a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, send a mail to MS Teams Phone Partners (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
