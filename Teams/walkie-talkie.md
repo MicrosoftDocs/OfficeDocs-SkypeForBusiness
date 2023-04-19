@@ -119,7 +119,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) and [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
 - Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
-- Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
+  - Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
    > [!IMPORTANT]
    > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
    
