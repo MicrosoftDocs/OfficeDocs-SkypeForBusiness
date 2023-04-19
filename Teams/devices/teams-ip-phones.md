@@ -83,6 +83,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+|D7X55 - Meeting board|`1.2.7.0`| October 4, 2026 |Medium size room (4.5 m x 6 m) | 12|
 |[Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
 |[Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 |Medium size room (4.5 m x 6 m) | 11|
 | EPOS Expand 5T | `1.2.22362.04`   | September 3, 2024 | Small meeting room (4.5 m x 4.5 m)| 10|
@@ -152,6 +153,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2A | April 14, 2023 | `1449/1.0.94.2023041203` | `5.0.5484.0` | `413`|
 | 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
 | 2023 Update #1A | February 21, 2023 | `1449/1.0.94.2023020602` | `5.0.5484.0` | `382`|
 | 2022 Update #5 | January 25, 2023 | `1449/1.0.94.2023010607` | `5.0.5484.0` | `382`|
@@ -320,6 +322,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| D7X55 - Meeting board | `1.2.7.0` | 2022 Update #3 |
 | Yealink MeetingBoard 65" | `155.15.0.37` | 2022 Update #3 |
 | Yealink MeetingBoard 86" | `155.15.0.37` | 2022 Update #3 |
 | Neat Bar | `NFB1.20221128.0011` | 2022 Update #3 |
