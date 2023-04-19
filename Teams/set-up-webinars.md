@@ -127,6 +127,7 @@ Use the following PowerShell script to turn off webinars:
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
+
 ## Email communications for webinars
 
 Admins can now decide if event organizers and co-organizers can use email templates for webinars. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they've registered for, and provide clear instructions to attendees before, during, and after the event.
