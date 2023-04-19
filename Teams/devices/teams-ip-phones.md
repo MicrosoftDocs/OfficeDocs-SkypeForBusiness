@@ -152,6 +152,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
 | 2023 Update #1A | February 21, 2023 | `1449/1.0.94.2023020602` | `5.0.5484.0` | `382`|
 | 2022 Update #5 | January 25, 2023 | `1449/1.0.94.2023010607` | `5.0.5484.0` | `382`|
 | 2022 Update #4A | November 30, 2022 | `1449/1.0.94.2022110803` | `5.0.5484.0` | `382`|
@@ -184,6 +185,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.456` | 2023 Update #1A    |
 |Poly CCX 350/400/500/600/505 | `8.1.1.3290` | 2022 Update #4A |
 |Poly Trio C60 | `8.1.1.3291` | 2022 Update #4A |
 |Poly CCX 350/400/500/600/505 | `8.0.2.3267` | 2022 Update #4A |
@@ -318,6 +320,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65" | `155.15.0.37` | 2022 Update #3 |
+| Yealink MeetingBoard 86" | `155.15.0.37` | 2022 Update #3 |
+| Neat Bar | `NFB1.20221128.0011` | 2022 Update #3 |
+| Neat Bar Pro| `NFD1.20221128.0011` | 2022 Update #3 |
+| Neat Board | `NFC1.20221128.0011` |  2022 Update #3 |
+| Neat Pad touch console | `NFA1.20221128.0007`  |  2022 Update #3 |
+| Logi Rallybar | `1.8.714`   | 2023 Update #1  |
+| Logi Rallybar Mini | `1.8.714`   | 2023 Update #1  |
+| Logi RoomMate | `1.8.575`   | 2023 Update #1  |
+| Logi Console  | `1.8.558`    | 2023 Update #1  |
 | Cisco Board Pro 55] | `11.3.1.16` | 2022 Update #3A |
 | Cisco Board Pro 75] | `11.3.1.16` | 2022 Update #3A |
 | Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
@@ -449,6 +461,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
+|Crestron UC-P8-TD     |`1.0.0.60` |2022 Update #3A|
 |Neat Frame nf21f1 | `NFF1.20221128.0005` | 2022 Update #4A |
 |Neat Frame nf21f1 | `NFF1.20220914.1215` | 2022 Update #3B |
 |Crestron UC-P10-TD     |`1.0.0.57` |2022 Update #3A|
@@ -480,6 +494,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
 |Yealink RoomPanel | ` 147.15.0.40 ` | 2022 Update #4A |
 |Logitech Tap Scheduler | `1.8.184` |2022 Update #4A  |
 |Crestron Touchpanel /770-T/1070-T | `2.003.1024.001` | 2022 Update #4|

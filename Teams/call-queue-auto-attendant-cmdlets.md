@@ -12,7 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - tier1
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business

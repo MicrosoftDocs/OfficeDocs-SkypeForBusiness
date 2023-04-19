@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 ms.service: msteams
 audience: Admin
 appliesto: 
@@ -48,7 +49,8 @@ For the outbound PSTN caller ID, the following options are available.
 - A substitute phone number, which can be:
 
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
-
+  > [!NOTE]
+  > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead. 
   - A telephone number through Operator Connect or Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
 
 - The Calling Party Name or CNAM set on the outbound PSTN call.  
