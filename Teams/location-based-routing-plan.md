@@ -154,9 +154,8 @@ Outbound PSTN calls are also allowed for users when all the following are true:
 | User location | Network site at which user is located | PSTN Gateway​ | Override flag status | Inbound call status |
 | --------- | --------- | --------- | --------- | --------- |
 | Office location​ | LBR enabled ​| LBR enabled ​| - | Allowed​ |
-| Remote location​ | LBR enabled ​| LBR enabled ​| - | Not Allowed​ |
+| Remote location​ | LBR enabled ​| LBR enabled ​| - | Not allowed​ |
 | User at unknown site | - ​| LBR enabled ​| True | Allowed​ |
-
 
 **Decisions flows**
 
