@@ -1,5 +1,5 @@
 ---
-title: What are Communications Credits
+title: What are Communications Credits?
 ms.author: danismith
 author: DaniEASmith
 manager: serdars
