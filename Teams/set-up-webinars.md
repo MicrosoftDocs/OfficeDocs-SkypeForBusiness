@@ -136,7 +136,7 @@ For more information on the email communications experience for your end users, 
 
 ### Manage emails communications for webinars with PowerShell
 
-As an admin, you can manage whether organizers and co-organizers can edit the following email templates through PowerShell:
+Through PowerShell, you can manage whether organizers and co-organizers can edit the following email templates:
 
 - Registration Confirmation
 - Webinar update
