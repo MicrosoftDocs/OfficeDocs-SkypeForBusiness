@@ -15,6 +15,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFO
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Admin permissions needed to buy Microsoft 365 Business Voice
