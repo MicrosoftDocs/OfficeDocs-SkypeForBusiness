@@ -78,8 +78,6 @@ Make sure you dissociate the telephone number from the resource account before d
 
 After you do that, you can delete the resource account in the Microsoft 365 admin center, under the **Users** tab.
 
-To disassociate a Direct Routing telephone number from the resource account, use the following cmdlet:
-
 ## Hide resource accounts from Teams users
 
 You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a call queue and bypassing the auto attendant where the hours of operation are configured.
