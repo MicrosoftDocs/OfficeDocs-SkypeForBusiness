@@ -107,76 +107,8 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 
 IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
 
-### [Linux](#tab/Linux)
+---
 
-On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't, then you'll need to install any reported requirements before installing Teams on Linux.
-
-Users will be able to install native Linux packages in `.deb` and `.rpm` formats. Installing the DEB or RPM package will automatically install the package repository.
-
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
-
-The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
-
-#### Install Teams using DEB package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install Teams using one of the following methods:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo dpkg -i **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install Teams using RPM package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install Teams using one of the following methods:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo yum install **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install Teams manually from the command line
-
-Install Teams manually on Debian and Ubuntu distributions:
-
-```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
-
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
-
-sudo apt update
-sudo apt install teams
-```
-
-Install Teams manually on RHEL-, Fedora-, and CentOS-based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
-
-sudo dnf check-update
-sudo dnf install teams
-```
-
-Alternatively, to use `yum` instead of `dnf`:
-
-```bash
-yum check-update
-sudo yum install teams
-```
-
-Install Teams manually on openSUSE-based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
-
-sudo zypper refresh
-sudo zypper install teams
-```
 ## Mobile clients
 
 The Teams mobile apps are available for Android and iOS; are geared for on-the-go users participating in chat-based conversations; and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores **Google Play** and the **Apple App Store**.
