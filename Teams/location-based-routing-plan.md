@@ -108,9 +108,9 @@ When users are enabled for Location-Based Routing and roaming, the network site 
 
 The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
-- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned. (Office location)**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. 
+- **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned. (Office location)**<br>In this scenario, the user is located at a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. 
 
-- **The user is located at a different Location-Based Routing enabled site not associated to the PSTN gateway where their DID is assigned. (Remote location)**<br>In this scenario, the user is located in a configured network site that’s enabled for Location-Based Routing, and that site isn't associated with the PSTN gateway where the user’s DID number is assigned. For example, the user travels to another office. 
+- **The user is located at a different Location-Based Routing enabled site than the gateway through which the PSTN call routes. (Remote location)**<br>In this scenario, the user is located at a configured network site that's enabled for Location-Based Routing, and that site is not associated with the PSTN gateway through which the PSTN call routes. 
 
 - **The user is located at a known site that's not enabled for Location-Based Routing.** <br>In this scenario, the user is located in a configured network site that's not enabled for Location-Based Routing. 
 
