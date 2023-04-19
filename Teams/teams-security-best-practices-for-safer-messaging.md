@@ -44,7 +44,7 @@ Standard safety measures should become ingrained while working in Teams.
 
 Maintaining your vigilance is important. Don't take your security or the security of those you work with lightly or for granted. You should always feel empowered to protect yourself, your peers, and your customers by verifying before you trust.
 
-Finally, recognizing that everyone makes mistakes is critical. Users are prone to clicking when in a hurry or tired, for example. Admins must provide users in their organization with resources to escalate problematic link clicks and other security incidents and make those resources clearly known so that if a user makes a mistake, the user has recourse, and further security actions are available.
+Finally, recognizing that everyone makes mistakes is critical. Users are prone to clicking when in a hurry or tired, for example. Admins must provide users in their organization with resources to escalate problematic link clicks and other security incidents and make those resources known so that if a user makes a mistake, the user has recourse and further security actions are available.
 
 > [!TIP]
 > Check the Profile card of any contact you’re not sure about, particularly if the email is external to your company (for example, an account ending in *@litware.com* if your organization is not *Litware*). A user can verify that people they don't know are welcome Guests to a meeting by checking the Profile card for **(GUEST)**. Guests are expressly invited to participate.
