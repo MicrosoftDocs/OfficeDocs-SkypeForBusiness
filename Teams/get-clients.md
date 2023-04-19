@@ -11,7 +11,7 @@ ms.collection:
   - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
 ms.date: 08/11/2017
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
