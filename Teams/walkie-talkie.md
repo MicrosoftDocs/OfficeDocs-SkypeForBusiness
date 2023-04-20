@@ -31,8 +31,7 @@ ms.date: 11/17/2022
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
-Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**.
-
+Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**. Walkie Talkie supports communicating in standard, open channels - it does not support or work on shared and private channels.
 With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
 > [!NOTE]
@@ -158,4 +157,5 @@ To learn more about the end-user experience, see:
 ## Give feedback or report an issue
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
+
 
