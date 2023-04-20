@@ -64,6 +64,8 @@ As the administrator, you'll configure meeting settings and control which meetin
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
+Your users can also require attendees to register for meetings. To learn more about how to manage meetings with registration, see [Set up meeting registration](set-up-meeting-registration.md)
+
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
 ### Articles for administrators
@@ -77,6 +79,7 @@ The following table highlights key articles that you'll want to review:
 | [Manage Teams meeting recording](meeting-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 | [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users.|
+| [Set up meeting registration](set-up-meeting-registration.md)  | Describes how to allow your users to create meetings with registration. |
 
 ### Key training for end users
 
@@ -88,30 +91,20 @@ The following table lists training available to the end users in your organizati
 | [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Article that describes how to schedule different types of meetings. |
 | [Run effective meetings with Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) | A free instructor-led class about how to make meetings more engaging, productive, and meaningful. |
 | [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Article about  managing meeting options. |
+| [Schedule a Teams meeting with registration](https://support.microsoft.com/office/schedule-a-teams-meeting-with-registration-435b2b67-c1bd-411e-9be6-9ed1b4a9f04a#:~:text=Schedule%20the%20meeting%201%20In%20the%20Teams%20calendar%2C,start%20and%20end%20times%2C%20and%20a%20description.%20) | Article that describes how to require registration when creating meetings. |
 
 ## Webinars
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
 
-If your organization is already using webinars, you're familiar with the Teams Meeting policy and the following settings that allow you to support meeting registration and track engagement data:
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include:
 
-- AllowMeetingRegistration (enabled or disabled)
-- WhoCanRegister (everyone in the company excluding guests or everyone)
+- Email communication templates
+- Reminder emails
+- Green room
+- Manage attendees view
 
-With the release of the new webinar experience, there will be a new Teams Events policy with the following settings:
-
-- AllowWebinars  (enabled or disabled)
-- EventAccessType (everyone in the company excluding guests or everyone)
-
-The new policy will continue to support registration and tracking, and it will provide additional functionality to the webinar experience. Initially, the following will be available:
-
-- Terms and conditions custom question
-- Presenter bio
-- Banner, logo, and predefined color
-- Advanced registration capabilities: manual approval, waitlist, registration date and time limit
-- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
-
-You'll want to start using the new policy to take advantage of new functionality as it becomes available.
+To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
 For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
 
