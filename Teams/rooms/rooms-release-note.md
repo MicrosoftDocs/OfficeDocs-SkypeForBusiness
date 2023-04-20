@@ -34,7 +34,7 @@ For more information on how Teams updates, see [Teams update process](../teams-c
 
 Teams Rooms is governed by the Modern Lifecycle Policy. For more information, see [Teams update process](../teams-client-update.md#servicing-agreement).
 
-##[Teams Rooms on Windows](#tabs/Windows)
+## [Teams Rooms on Windows](#tab/Windows)
 
 ## Teams Rooms on Windows version history
 
@@ -610,7 +610,7 @@ Introduced in this update:
 - Low training effort of end-users due to familiar Skype user interface
 - Runs on Surface Pro 4 tablet
 
-## [Teams Rooms on Android](#tabs/Android)
+## [Teams Rooms on Android](#tab/Android)
 
 ## Teams Rooms on Android version history
 
