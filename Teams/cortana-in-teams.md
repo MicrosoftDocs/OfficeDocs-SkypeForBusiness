@@ -59,17 +59,11 @@ This example shows updating an existing policy with name "EmployeeCortanaPolicy"
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
 ```
 
-This example shows updating the policy and enabling Cortana voice assistance with both push button and wake word invocation.
+This example shows updating the policy and enabling Cortana voice assistance with both push button and wake word invocation. (Wake word activation is supported for Microsoft 365 Enterprise users in the US for The Teams mobile app, Microsoft Teams Rooms on Windows, and Microsoft Teams Display that have their language set to English.)
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
 ```
-
-At the time, of the initial release for Microsoft 365 Enterprise users in the US in English, the following are available functions:
-
-- The Teams mobile app won't support wake word activation, but it will be supported in the future.
-
-- Microsoft Teams Rooms on Windows and Microsoft Teams display devices will support wake word activation.
 
 ## User control
 

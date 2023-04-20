@@ -86,7 +86,7 @@ The ability to review permissions and grant consent isn't available for all thir
 
 ## Related articles
 
-* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Understand user and admin consent in Azure AD](/azure/active-directory/manage-apps/user-admin-consent-overview)
 * [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent)
 * [Resource-specific consent in Teams](resource-specific-consent.md)
 * [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)

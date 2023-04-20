@@ -29,7 +29,7 @@ The articles in this section describe dial plans and call routing in Microsoft T
 
 - [What are dial plans](what-are-dial-plans.md)
 - [Create and manage dial plans](create-and-manage-dial-plans.md)
-- [Route calls to unassigned numbes](routing-calls-to-unassigned-numbers.md)
+- [Route calls to unassigned numbers](routing-calls-to-unassigned-numbers.md)
 
 The articles in this section apply to all options for connecting to the Public Switched Telephone Network (PSTN): Calling Plan, Operator Connect, Teams Phone Mobile, and Direct Routing. For more information about all PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 

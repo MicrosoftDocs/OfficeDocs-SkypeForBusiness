@@ -13,6 +13,7 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure the Teams meeting lobby to enhance security for sensitive meetings by using admin policies, sensitivity labels, and meeting templates.

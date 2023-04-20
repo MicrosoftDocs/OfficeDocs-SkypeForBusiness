@@ -157,6 +157,8 @@ The following limitations also apply:
 
 - Bots, connectors, and message extensions are not supported.
 
+- Org-wide teams are not supported to be added as members of a shared channel.
+
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
 - Notifications from shared channels are not included in missed activity emails.

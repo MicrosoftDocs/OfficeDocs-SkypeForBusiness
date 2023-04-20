@@ -81,6 +81,23 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 | Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 | View device history and diagnostics     | Under the **History** column, click the **View** link for a device to view its update history and diagnostic details.                                                                                                                                                                                         |
 
+### View Android device sign-in failures
+
+If you're having trouble signing into an Android device, you can check the device's details page to see what sign-in failures might have occurred.
+
+1. In the left navigation, go to **Teams devices** > select the Teams device type. For example, if the Android device is a phone, select **Phones**.
+2. Click on the display name of the Phone that you want to view sign-in failures for. This will open the device's details page.
+3. On the device details page, select the **Activity** tab and then select **Sign-in failure** in the **Activity type** drop-down.
+
+> [!NOTE]
+> If you don't see any sign-in failures for a device you're having trouble signing into, make sure the device's firmware is on the latest version provided by its manufacturer.
+
+The results that are returned contain the following information:
+
+- The time the sign-in failure occurred.
+- The account that attempted to sign into the device.
+- The reason for the failure.
+
 ### Use configuration profiles in Teams
 
 Use configuration profiles to manage settings and features for different Teams devices in your organization, including Teams Rooms on Android, Teams displays, Teams phone, and Teams panels. You can create or upload configuration profiles to include settings and features you want to enable or disable, and then assign a profile to a device or set of devices. 
@@ -96,6 +113,7 @@ To create a configuration profile for a Teams device type:
    The newly created configuration profile is displayed in the list of profiles.
 
 #### Assign a configuration profile
+
 After creating a configuration profile for a Teams device type, assign it to one or more devices.
 
 1. In the left navigation, go to **Teams Devices** > select the Teams device type. For example, to assign a configuration profile to a Teams panels device, select **Teams Devices** > **Teams panels**.

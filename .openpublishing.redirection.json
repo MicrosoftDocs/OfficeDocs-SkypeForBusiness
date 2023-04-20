@@ -2961,6 +2961,11 @@
      "redirect_document_id": false
    }, 
    {
+    "source_path": "Teams/enhance-office-365-groups.md",
+    "redirect_url": "https://support.microsoft.com/office/24ec428e-40d7-4a1a-ab87-29be7d145865",
+    "redirect_document_id": false
+  }, 
+  {
     "source_path": "Teams/rooms/microsoft-teams-rooms-premium-rbac.md",
     "redirect_url": "/microsoftteams/rooms/rooms-pro-rbac",
     "redirect_document_id": false

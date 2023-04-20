@@ -56,7 +56,7 @@ If you assigned an emergency calling policy to a network site and to a user and 
 
 7.  If you selected either of the **Conference in muted** notification modes, in the **Numbers to dial for emergency calls notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in on the call. The PSTN phone cannot be unmuted even when the mode is set to **Conferenced in muted but are able to unmute**.
 
-8. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
+8. Set who you want to notify when an emergency call is made, for example your security desk personnel. You can define a list of users, distribution groups, or security groups. A maximum of 50 users can be notified.
 
 9. Click **Apply**.
 

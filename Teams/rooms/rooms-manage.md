@@ -40,7 +40,7 @@ To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://a
 
 ## Make changes to Teams Rooms devices or Surface Hubs
 
-If you have more than one Teams Rooms or Surface Hub, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your Teams Rooms at the same time.
+If you have more than one Teams Rooms or Surface Hub device, you can do most actions on multiple devices at the same time. For example, you can set Teams app settings on all of your Teams Rooms at the same time.
 
 ### Device settings
 
@@ -133,13 +133,13 @@ Changes to device settings will only take effect after the device has been resta
   - **Leave update for nightly reboot** Devices are restarted nightly to perform maintenance. Changes you make to devices will be applied during this restart.
 
 > [!CAUTION]
-> Teams Rooms and Surface Hubs that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings, while the device is restarting.
+> Teams Rooms and Surface Hubs that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings while the device is restarting.
 
 ## Remove device
 
 When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms on Windows or Surface Hubs in the Teams admin center.
 
-If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your list of Teams Rooms or Surface Hubs, if it connects to Microsoft 365 again.
+If you remove a device and it's still configured with a valid username and password, it will be automatically re-added to your list of Teams Rooms or Surface Hubs if it connects to Microsoft 365 again.
 
 To remove one or more devices, do the following:
 

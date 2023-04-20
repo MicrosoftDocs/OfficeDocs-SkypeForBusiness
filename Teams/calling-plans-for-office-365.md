@@ -52,6 +52,9 @@ Here are the Calling Plans options:
   - **Pay-As-You-Go Calling Plan Zone-2**: Buy this for users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
     - Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
 
+> [!NOTE]
+> Mexico has its own Pay-As-You-Go Calling Plan. It is not part of any zone. You must purchase the independent Pay-As-You-Go Calling Plan.
+
 All users in the same country/region (this is the user country location defined in the licensing area of the Microsoft 365 admin center) with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the same country/region with a 120 minutes Domestic Calling Plan assigned, they share a pool of 12,000 minutes. All calls exceeding these minutes are billed per minute.
 
 Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.

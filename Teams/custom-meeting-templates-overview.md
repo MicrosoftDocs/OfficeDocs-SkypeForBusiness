@@ -71,7 +71,7 @@ Teams Premium includes several default meeting templates that you can make avail
 - Large Meeting
 - Protected meeting
 - Town hall
-- Virtual appointment
+- [Virtual appointment](virtual-appointment-meeting-template.md)
 - Webinar
 
 Additionally, these templates are available in Teams for Education:

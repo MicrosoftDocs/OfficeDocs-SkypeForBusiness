@@ -2,6 +2,35 @@
 
 
 
+## Week of January 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/3/2023 | [Manage general meeting policies](/MicrosoftTeams/meeting-policies-in-teams-general) | modified |
+| 1/3/2023 | [Manage meeting policies for participants and guests](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
+| 1/3/2023 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
+| 1/4/2023 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 1/5/2023 | Enhance existing Microsoft 365 groups | removed |
+
+
+## Week of December 26, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/27/2022 | [Teams sessions at Ignite 2020](/MicrosoftTeams/ignite-2020-landing-page) | modified |
+
+
+## Week of December 19, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/19/2022 | [Manage access to Teams apps across Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modified |
+| 12/21/2022 | [Virtual appointment meeting template in Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | added |
+
+
 ## Week of December 12, 2022
 
 

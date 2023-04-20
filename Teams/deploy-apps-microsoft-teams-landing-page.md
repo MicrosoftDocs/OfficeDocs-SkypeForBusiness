@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
 ---
 # Understand Microsoft Teams apps and their capabilities
 
-Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel. Microsoft Teams apps are web-based SaaS apps that don't need to be deployed locally.
+Apps in Teams help users bring together their workplace tools and services and collaborate with others. Examples are end-users using a pinned Calendar app in Teams to quickly collaborate with others, an app with bots functionality informing users of the quality of a web service in a Teams channel, and an app to share and assign tasks to various end-users in a channel. Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally. Adding the apps to Teams client by your end-users doesn't require installation of, say a binary file.
 
 As an admin, you set an app governance process that balances wide-ranging requirements of end-users along with your organization's IT policies, standards, and risk-profiles.
 
@@ -86,7 +86,7 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
 
-Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/teams-app-setup-policies).
+Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshot that shows all the places where the users can browse apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 

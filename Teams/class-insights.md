@@ -63,8 +63,6 @@ Education leaders are identified by faculty licenses, and they also need *explic
 > Insights collects data about student activity in Teams.
 >
 > Students are members of a class team within Teams. They are identified by their license and **do not have access** to the Insights app or tab (even if they are the team owner).
->
-> Guests *cannot* be considered students.
 
 ## Where do users find Insights?
 
@@ -127,7 +125,7 @@ Before you start to deploy Insights for your institution, take a quick look at h
 
 ### Data collection
 
-Data is collected for Insights from student and educator activity in Teams. Guest data isn't collected.
+Data is collected for Insights from student and educator activity in Teams.
 
 Insights *doesn't* display data about educators. Analysis of the data provides actionable insights to aid in teaching and learning.
 
@@ -333,12 +331,6 @@ Also, verify that data collection for Insights is enabled. While it's on by defa
 To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect activity data for Insights'.
 
 If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
-
-### Why do I see data for some students or classes, not all?
-
-We only collect data for *licensed* students, so the most probable reason is that you have guest students attending classes, and their data isn't collected. You might see their name but without any data.
-
-Check the status of your students to ensure they all have student licenses.
 
 ### Why don't educators see meeting data?
 

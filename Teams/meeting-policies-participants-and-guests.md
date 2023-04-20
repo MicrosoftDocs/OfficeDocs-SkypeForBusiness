@@ -58,14 +58,14 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 ## Who can present in meetings
 
-This is a per-user policy. This setting lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. This policy setting affects all meetings, including Meet Now meetings.
+This setting is a per-user policy that lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. The **Who can present in meetings** policy setting affects all meetings, including Meet Now meetings.
 
 The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the policy:
+To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the **Who can present in meetings** policy:
 
 - **Organizers, but users can override**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only me** setting in Teams.
-- **Everyone in the organization, but user can override**: Authenticated users in the organization, including guest users, can be presenters. This setting corresponds to the **People in my organization** setting in Teams.
+- **Everyone in the organization, but user can override**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **People in my organization** setting in Teams.
 - **Everyone, but user can override**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
@@ -142,7 +142,7 @@ Once this **Chat in meetings** policy is applied to users, an organizer can't ov
 
 The policy applied to the meeting organizer can affect other users in the meeting. For example:
 
-- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set will not be able to chat in the meeting.
+- If the organizer has **Chat in meetings** set to **Turn it on for everyone** or **Turn it on for everyone but anonymous users**, then a user's individual policy will apply and any users with **Turn it off for everyone** set won't be able to chat in the meeting.
 - If the organizer has **Chat in meetings** set to **Turn it off for everyone**, the organizer's policy applies and no one will be able to chat in the meeting.
 
 <a name="bkparticipantsandguests"> </a>
@@ -153,7 +153,7 @@ This is a per-organizer policy. This setting turns the Questions & Answers exper
 
 The setting is enforced when a meeting is created or is updated by organizers. By default, this setting is turned off. Learn more about [Q&A in Teams Meetings](/manage-qna-for-teams).
 
-The parameter QnAEngagementMode controls this policy in PowerShell. Q&A can also be adjusted within the Teams admin center.
+Teams Q&A can be adjusted within the Teams admin center under **Meetings** > **Meeting policies** in the **Participants & guests** section. The parameter `-QnAEngagementMode` controls this policy in PowerShell.
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -166,7 +166,7 @@ Meeting reactions are on by default. Turning off reactions for a user doesn't me
 
 ## Enable meeting policy settings
 
-To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell. 
+To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell.
 
 In this example, we use PowerShell to modify the global meeting policy to allow anyone to start or join a meeting.
 
@@ -175,7 +175,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 Once you’ve set up a policy, you need to apply it to users. If you modified the Global (Org-wide default) policy, it will automatically apply to users. You need to wait at least 4 hours for any policy changes to take effect, but it can take up to 24 hours.
-
 
 ## Related topics
 

@@ -13,6 +13,7 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 description: Learn how to enable end-to-end encryption for Teams meetings.

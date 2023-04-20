@@ -10,6 +10,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:
