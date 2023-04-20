@@ -30,30 +30,18 @@ description: Learn how to set up and manage meeting registration policies in Tea
 
 ## Overview
 
-This article describes how to set up and manage a meeting with registration for Microsoft Teams meetings.
+This article describes how you, as an admin, can set up and manage meetings with registration for your end users in Microsoft Teams meetings.
 
-A meeting with registration is a virtual meeting where organizers can require registration from participants. This meeting format includes basic webinar functionality, the ability to require registration for meetings, and an attendance report.
+A meeting with registration is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants.
 
-For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
+Meetings with registration include basic webinar functionality, an attendance report, and the ability to require registration for meetings. However, meetings with registration have limited branding and event page configuration. Webinars, on the other hand, will allow organizers to include custom branding, use additional registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
-Previously, the parameters for webinars and meetings with registration were grouped together, so for the webinar experience, you had to enable **both**:
+If you'd like to learn  about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
-- Meeting with registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
-- Webinars using the Teams events policy parameter **`-AllowWebinars`**
-
-Now, **we’ve separated meeting registration and webinars.**
-
-If you want your users to **only** use **meeting registration** and not the new webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
-
-If you want your users to still have a **webinar** entry point to create webinars, you need to verify that the **`-AllowWebinars`** parameter is still enabled.
-If you currently have webinars turned off, they'll remain off as the new experience rolls out. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
-
-Read more about the new features available for your end users in [Get started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
+Read more about the meeting registration experience for your end users in [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
 
 > [!NOTE]
-> For on-premises users, the new webinar experience isn't available yet.
->
-> The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> Meeting with registration isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
 ## Prerequisites
 
@@ -71,7 +59,7 @@ The following table shows the behaviors of the settings for **"Who can register"
 |Setting value| Behavior|
 |---------|---------------|
 |Everyone| **This is the default setting.** All users, including anonymous users, can register for meetings.|
-|**"People in my organization"** in the admin center or **"EveryoneInCompany"** in PowerShell| No one can register for meetings. **For ***education tenants*** only, this is the default setting.**|
+|**"People in my organization"** in the admin center or **"EveryoneInCompany"** in PowerShell| No one can register for meetings. **For ***education tenants***, this is the default setting.**|
 
 For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
@@ -153,7 +141,7 @@ Turn on meeting registration for an existing policy.
   ```
 
 > [!IMPORTANT]
-> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
+> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join meetings with registration. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
 ## Turn off meeting registration
 
