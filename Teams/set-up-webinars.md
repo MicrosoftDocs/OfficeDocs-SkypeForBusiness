@@ -30,45 +30,16 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 ## Overview
 
-Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can configure your settings to use and manage webinar functionality.
+Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can set up and manage webinars, including managing webinar features.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. To learn more about advanced webinars, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
-Previously, to use webinars, you had to enable **both**:
+A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
 
-- Meeting registration using the Teams meeting policy parameter **`-AllowMeetingRegistration`**,
-- Webinars using the Teams events policy parameter **`-AllowWebinars`**.
-
-Now, we’ve separated the parameters for meeting registration and webinars, which allows you to configure each feature independently. As a result, your users can use webinars and meetings with registration individually.
-
-If you want your users to still have a **webinar** entry point to create webinars, you need to verify that the **`-AllowWebinars`** parameter is still enabled.
-
-If you want your users to **only** use **meeting with registration** and not the webinar experience, make sure `-AllowWebinars` is disabled and “`-AllowMeetingRegistration`” is enabled.
-> [!NOTE]
-> If `-AllowWebinars` is disabled, your end users will have no webinar entry point available to them, and they can't create webinars.
-
-To learn more about the meeting with registration experience, see [Set up meeting registration.](set-up-meeting-registration.md)
+To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration)
 
 > [!NOTE]
 > The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
-
-## What’s the difference between a webinar and meeting registration?
-
-Webinars and meetings are both virtual events that allow participants to connect remotely. However, there are differences in their ability to run structured events.
-
-A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars have the capacity for up to 1,000 people to attend and allows for collection of pre-event attendee registration data.
-
-Webinar attendees are required to register in advance to reserve their spot. With meetings, attendees can join the meeting without any prior reservation, but for instances where an organizer wants registration, you'd enable meeting registration.
-
-A meeting is a collaborative virtual event where participants can discuss and share information with each other. This collaborative format allows up to 20k participants.
-Meeting with registration includes basic webinar functionality, an attendance report, and the ability to require registration for meetings. However, meeting has limited branding and event page configuration. Webinars, on the other hand, will allow organizers to include custom branding, and use additional registration settings, management features, and more.
-
-The entry points your end users use to set up a webinar vs meeting registration are in separate places.
-**NEED TO ADD SCREENSHOTS HERE TO SHOW ENTRY POINTS**
-
-To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration) and [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
-
-For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 ## Set up webinars
 
@@ -158,7 +129,7 @@ The following table shows the behaviors of the settings for the **`-EnableEventE
 
 The following example turns off **`-EnableEventEmailEditing`** so organizers and co-organizers can’t edit any email templates:
 
-**BELOW COMMAND IS A PLACEHOLDER. I NEED AN ACTUAL EXAMPLE. REVISE BEFORE PUBLISHING.**
+[**BELOW COMMAND IS A PLACEHOLDER. I NEED AN ACTUAL EXAMPLE. REVISE BEFORE PUBLISHING.**]
 
 ```PowerShell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EnableEventEmailEditing Enabled
