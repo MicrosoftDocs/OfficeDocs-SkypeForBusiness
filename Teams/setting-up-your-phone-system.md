@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 audience: Admin
 appliesto:
   - Microsoft Teams

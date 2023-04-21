@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 - highpri
+- Tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
