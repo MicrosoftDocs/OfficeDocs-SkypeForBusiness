@@ -250,8 +250,8 @@ The following list of policies can block users from seeing the app switcher togg
 
 ##### How do I know which one of the above policies is blocking me?
 
-1. Open logs in this path: `%appdata%/Microsoft/Teams`
-1. Open *logs.txt*
+1. Open logs in this path: `%appdata%/Microsoft/Teams`.
+1. Open *logs.txt*.
 1. Search for **appswitcher_appstateservice_check**.
 1. Check the **enggComplete** flag:  
    - If true, then Microsoft has turned the setting on for you.
