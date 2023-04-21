@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: roykuntz; jens
-ms.date: 04/11/2023
+ms.date: 04/21/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,14 +26,23 @@ description: Learn how to manage caller ID policies in Microsoft Teams to change
 
 ## Overview
 
-This article describes how to manage caller ID settings for your users. You can:
+This article describes how to manage caller ID settings for your users.
+
+Caller ID consists of two user-facing pieces of information:
+
+- **Calling line ID (CLID)** - The phone number that the Public Switched Telephone Network (PSTN) presents as the caller's identity
+- **Calling party name (CNAM)** - The name that appears alongside the phone number (i.e. your company's name, a user's name, or Anonymous)
+
+## Caller ID settings
+
+As an admin, you can change your organization's caller ID settings to do the following:
 
 - Display an alternate phone number for Teams users in your organization.
 - Block the outbound phone number.
 - Block an incoming number from being displayed.
-- Set the Calling Party Name (CNAM). For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
+- Set the CNAM. For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
 
-## Caller ID settings
+You can control caller ID for both inbound and outbound calls by using PowerShell with the CallingLineIdentity policy or by using the Teams admin center under **Voice** > **Caller ID policies**.
 
 With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible. By default, the following caller ID settings are turned off.
 
