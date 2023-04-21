@@ -35,7 +35,7 @@ This article describes how to manage caller ID settings for your users. You can:
 
 ## Caller ID settings
 
-With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible. By default, the following caller ID settings are **turned off**.
+With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible. By default, the following caller ID settings are turned off.
 
 ### Outbound PSTN caller ID settings
 
