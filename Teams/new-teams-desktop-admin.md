@@ -337,7 +337,7 @@ If you discover any accessibility gaps, select **Give Feedback**.
 - **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams will show up in new Teams.</br>
   **Workaround**: Add your app in classic Teams. It will then appear in new Teams.
 
-- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
+- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, and store navigation are still pending.
 
 ### Calendar
 
