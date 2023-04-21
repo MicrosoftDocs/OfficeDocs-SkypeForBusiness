@@ -282,7 +282,7 @@ The following list of policies can block users from seeing the app switcher togg
 #### Some people don't see the toggle to opt in
 
 Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
-If the toggle still doesn't appear, then
+If the toggle still doesn't appear, then:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit.
 1. Open File Explorer. In the address bar, enter the following: `%appdata%/Microsoft/Teams`.
