@@ -23,7 +23,10 @@ description: This article provides guidance on how to enable check-in and room r
 
 # Check-in and room release on Microsoft Teams panels
 
-When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.  
+When check-in and room release are enabled, users check in on Teams panels at the room they reserved at the start of the meeting. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.
+
+> [!NOTE]
+> Check in and room release aren't currently supported in rooms with more than one panel. If you have more than one panel associated with a room, leave check in and room release disabled.
 
 ## Requirements
 
@@ -33,7 +36,7 @@ The shared mailbox associated with the Teams panel needs to have the correct tim
 
 You can also use configuration profiles to apply this feature to a set of devices. For more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams).
 
-## Enable check-in and room release 
+## Enable check-in and room release
 
 Check-in and room release is off by default. To turn it on,  
 
@@ -56,7 +59,7 @@ Check-in notifications are sent when a meeting is continuing past its reserved t
 
 To turn on check-in notifications,  
 
-1. On the Teams panel, sign in using your admin credentials. 
+1. On the Teams panel, sign in using your admin credentials.
 
 2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
