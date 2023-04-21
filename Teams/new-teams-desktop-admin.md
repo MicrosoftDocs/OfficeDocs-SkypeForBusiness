@@ -323,7 +323,7 @@ There are a few known issues we're working on.
 
 **Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.
 
-See [**Prerequisites**](#prerequisites) section in this article.
+See the [**Prerequisites**](#prerequisites) section in this article.
 
 ### Accessibility
 
