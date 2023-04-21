@@ -76,7 +76,7 @@ Introduced in this update:
 - Overflow meeting support
 - Join Zoom meetings by ID via Direct Guest Join. Support for joining Zoom meetings by ID has been added in this release and will be enabled in the coming weeks.
 - Quality fixes for third-party meetings (Direct Guest Join)
-- Fix for license information in settings showing no license when Teams is not signed in
+- Fix for license information in settings showing no license when Teams isn't signed in
 - A new default wallpaper (Vivid Flag) and four other new wallpapers
 
 <sup>1</sup> Administrator configuration for hiding meeting chat from all meeting layouts through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
@@ -137,12 +137,12 @@ Introduced in this update:
 
 Introduced in this update:
 
-- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
 - IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
-- Enabling users to join Teams meeting hosted on another cloud (i.e., GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
-- Teams rooms now blocks launching edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
+- Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
+- Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
 - Support for Windows 10 21H2 feature release for Teams rooms   
 - New Cortana entry point on home screen, Share/ present button is back 
@@ -163,7 +163,7 @@ What you need to do to prepare: You might want to notify your users about this u
 
 Introduced in this update:
 
-- Bug fix for camera framing which will enhance all content in camera view.
+- Bug fix for camera framing, which will enhance all content in camera view.
 
 ### 4.11.12.0 (1/24/2022)
 
@@ -176,15 +176,15 @@ Introduced in this update:
 - Default video camera setting
 - Cortana push-to-talk icon update on MTR console
 - Azure AD Premium 1 license inclusion in Room Standard and Premium SKUs
-- AAD conditional access policies support<sup>3</sup>
+- Azure AD conditional access policies support<sup>3</sup>
 - Cortana voice activation enabled by default in OOBE
 - Remote PTZ controls support<sup>4</sup>
 
 <sup>1</sup> These features are rolling out using Teams web client and will complete rollout in next couple of weeks. Read more about [Teams updates](../teams-client-update.md) for details.
 
-<sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes are not impacted by this update.
+<sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes aren't impacted by this update.
 
-<sup>3</sup> See addition details on setting up  [AAD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
+<sup>3</sup> See addition details on setting up  [Azure AD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
 
 <sup>4</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
 
@@ -204,8 +204,8 @@ Introduced in this update:
 - Unified layout picker for front of room layout option consolidated
 - Spotlight or Pin multiple participants in Teams meetings
 - Large meetings support with presenter/ attendees controls accessible by tapping participant from roster
-- Ability to lock a meeting for meetings where room is organizer, as well as awareness of meeting that is locked
-- Presenter mode (weatherman) consumption support when a remote user shares content with presenter view option
+- Ability to lock a meeting for meetings where room is organizer, and awareness of meeting that is locked
+- Presenter mode consumption support when a remote user shares content with presenter view option
 - Reaction support in Teams meetings
 
 > [!NOTE]
@@ -233,7 +233,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Microsoft Teams only mode is now available in application settings, so you don't need to set up a Skype for Business account anymore. In this mode, devices signed in to Teams only mode join Skype for Business meetings as a guest user.
+- Microsoft Teams only mode is now available in application settings, so you don't need to set up a Skype for Business account anymore. In this mode, devices signed in to Teams only mode join Skype for Business meetings as a guest.
 - Fix for HDMI audio causing lower call volume. HDMI audio feature is automatically enabled for all devices with application build 4.9.12.0.
 
 > [!NOTE]
@@ -370,7 +370,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Auto-answer proximity-based calls and admin setting to control this
+- Auto-answer proximity-based calls and admin setting to control the feature
 - Device Admin Settings UI refresh with addition of device configuration under About tab
 - Room control back to main screen
 - Meeting Room SKU available in GCC
@@ -388,8 +388,8 @@ Introduced in this update:
 Introduced in this update:
 
 - A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting
-- Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console
-- Disabled share tray button if local content cable is not connected or a content camera is not connected
+- Additional improvements to the Console UI to reduce clutter and moved **Settings** into a new side bar that is accessed via More on the console
+- Disabled share tray button if local content cable isn't connected or a content camera is not connected
 - Fixed an issue with the touch keyboard where it failed to appear the first time only after an MTR system restart
 - Quality and reliability fixes
 
@@ -438,7 +438,7 @@ Introduced in this update:
 
 - Display content on both Front of Room (FoR) displays on dual screen room systems
 - Theming and Front of Room user interface improvements
-- TLS 1.2 client-side support. For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).
+- TLS 1.2 client-side support. For on-premises customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).
 
 ### 4.0.51.0 (11/17/2018)
 
@@ -543,7 +543,7 @@ Introduced in this update:
 
 - Support for [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) dock hardware
 - Support for the [Logitech Brio](https://www.logitech.com/product/brio)
-- Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there is no activity in the room
+- Resolves an issue where displays (console and front-of-room) fail to enter sleep mode when there's no activity in the room
 
 ### 3.0.12.0 (9/1/2017)
 
@@ -655,8 +655,8 @@ Introduced in this update:
 - Seamlessly switch from local to online collaboration by selecting Start meeting on the local whiteboarding screen. This quickly kicks off an ad-hoc meeting and automatically presents the existing whiteboard. From there, you can add participants into the meeting and contribute across the same whiteboard in real-time.
 - Microsoft Whiteboard can now be viewed side by side with remote meeting participants using the Content + Gallery layout. Whenever content sharing starts, Content + Gallery will now be the default layout regardless of the content type.
 - Content sharing in a meeting is more accessible with the redesigned share menu. When you select **Share** in the meeting control bar, you can find all content options that can be shared in one place, including Microsoft Whiteboard. Sharing Microsoft Whiteboard in a meeting is also now supported on resource accounts. [Admins, see instructions on how to manage Microsoft Whiteboard sharing in Teams](/microsoft-365/whiteboard/manage-sharing-organizations?view=o365-worldwide)
-- We are also introducing a new touch screen support that allows you to control the room system from both the touch display at the front of the room and the touch console, whichever is more convenient. Admins can enable this feature with the **Enable touch screen controls** setting on the device. To further enhance the meeting experience on large screen devices, 4K display is also now supported.
-- Aside from optimizing touch experiences for local meetings, we are also enriching hybrid meetings through remote camera pan, tilt, and zoom controls support. Remote meeting participants can now control the zoom and orientation of a Teams Rooms camera directly from their desktop during a meeting. [Admins, follow these instructions for enabling this setting](/microsoftteams/meeting-policies-audio-and-video)
+- We're also introducing a new touch screen support that allows you to control the room system from both the touch display at the front of the room and the touch console, whichever is more convenient. Admins can enable this feature with the **Enable touch screen controls** setting on the device. To further enhance the meeting experience on large screen devices, 4K display is also now supported.
+- Aside from optimizing touch experiences for local meetings, we're also enriching hybrid meetings through remote camera pan, tilt, and zoom controls support. Remote meeting participants can now control the zoom and orientation of a Teams Rooms camera directly from their desktop during a meeting. [Admins, follow these instructions for enabling this setting](/microsoftteams/meeting-policies-audio-and-video)
 - Joining a meeting on a room device has also become more inclusive. With chat notifications, you can see incoming chat messages on the front-of-room display and participate in the meeting on equal grounds. Admins can enable this in the device settings, and you can temporarily disable this using the meeting control bar.
 
 ### 1449/1.0.96.2022090606 (September 2022)
@@ -665,7 +665,7 @@ Introduced in this update:
 
 - Teams crops videos to make them fit your screen better. (Microsoft Teams Rooms are excluded from this cropping by default to give you an uncropped view of meeting rooms.) Learn more at [Adjust your view in a Teams meeting](https://support.microsoft.com/office/adjust-your-view-in-a-teams-meeting-9825091c-0e7d-4c2b-95f5-eba644f19175)
 - Fit to frame automatically enabled for incoming videos from other Microsoft Teams Room devices.
-- Improvements and bugfixes for video-related issues
+- Improvements and bug fixes for video-related issues
 - Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic licenses
 - For known issues and troubleshooting, see [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)
 - Get more details about the latest update at [Microsoft 365 blog](https://www.microsoft.com/microsoft-365/blog/2022/09/06/meet-microsoft-teams-rooms-pro/)
@@ -681,12 +681,12 @@ For IT admins who want to learn more about known issues and troubleshooting Team
 
 ### 1449/1.0.96.2022051102 (May 2022)
 
-In partnership with Zoom, we are releasing an ability to join Zoom meetings through Microsoft Teams. After you enable **Direct guest** **join** though settings, schedule a new Zoom meeting or forward to an existing Zoom meeting to the Teams Room on Android. The meeting will appear on the calendar and will be available to join.
+In partnership with Zoom, we're releasing an ability to join Zoom meetings through Microsoft Teams. After you enable **Direct guest** **join** though settings, schedule a new Zoom meeting or forward to an existing Zoom meeting to the Teams Room on Android. The meeting will appear on the calendar and will be available to join.
 
 > [!NOTE]
 > Direct guest join will be initially available on Logitech, Poly, and some Yealink devices. Other manufacturers will receive it shortly after.
 
-To increase the flexibility of how you view people and content in a meeting, we are providing a way for participants to change the orientation of the videos when content is shared, or participants are spotlighted. If you see a strip of participants on the screen, you can change its location by selecting **Layout**.
+To increase the flexibility of how you view people and content in a meeting, we're providing a way for participants to change the orientation of the videos when content is shared, or participants are spotlighted. If you see a strip of participants on the screen, you can change its location by selecting **Layout**.
 
 For known issues and troubleshooting, read [Known issues in Teams Rooms and devices](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)
 
@@ -725,7 +725,7 @@ Introduced in this update:
 
 - Simplified sign-in screen
 - IT Admins can do remote provisioning and sign-in of Teams Rooms from the Teams Admin Center
-- Use your phone or a secondary Teams devices as a remote for the Teams Room. Control mic, camera, volume, live captions, and layout settings via the secondary device
+- Use your phone or a secondary Teams device as a remote for the Teams Room. Control mic, camera, volume, live captions, and layout settings via the secondary device
 - Select Teams Rooms devices now support projecting your screen via HDMI cable
 - Live captions now available for one-on-one calls
 - Presenters and organizers can select to lock a meeting to prevent anyone else from joining the meeting. Go to **More** > **Lock** **meeting**
@@ -735,7 +735,7 @@ Introduced in this update:
 
 ### 1449/1.0.96.2021032002 (April 2021)
 
-Most Teams Rooms on Android devices are compatible with a touch console (e.g. Poly TC8). When paired with a Teams Rooms system, the console will let you see the room calendar, join meetings, and place calls directly from the console. During meetings or calls, you will be able to see current meeting participants, add new ones, switch content layouts, raise hands, and more
+Most Teams Rooms on Android devices are compatible with a touch console (e.g. Poly TC8). When paired with a Teams Rooms system, the console will let you see the room calendar, join meetings, and place calls directly from the console. During meetings or calls, you'll be able to see current meeting participants, add new ones, switch content layouts, raise hands, and more
 
 A full-day calendar view will show all scheduled meetings on the system and permit you to join meetings directly from the device. All existing calling and meeting functionality will move to the console and will be arranged along side the calendar
 
@@ -752,7 +752,7 @@ The following features will be available to you when you sign in with your accou
 
 Introduced in this update:
 
-- Dual screen support. Some select hardware (e.g., Poly Studio X50) that supports dual display configuration can now have a dual display experience with Teams. It is particularly useful in meetings, where meeting participants will be presented on one display and content on the other
+- Dual screen support. Some select hardware (e.g., Poly Studio X50) that supports dual display configuration can now have a dual display experience with Teams. It's particularly useful in meetings, where meeting participants will be presented on one display and content on the other
 - Meeting gallery supports 9 participants. Now Teams Rooms on Android will show up to 9 participants on the meeting stage
 - New layouts. Together mode and Large gallery layouts are now available under the existing Layout button during meetings. These additional layouts are made to highlight video participants better
 - Spotlight. Teams Rooms on Android will present spotlighted participants as large tiles on the meeting stage similar to content. Only desktop Teams clients are capable of selecting spotlighted participants at this time
