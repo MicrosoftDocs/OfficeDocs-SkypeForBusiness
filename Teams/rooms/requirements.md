@@ -314,7 +314,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Large** <br/> 15' x 32'  |12–16  |
 
  > [!NOTE]
- > Front of room display resolution should be set to no greater than 1920x1080 resolution in the dual display mode. Single display mode supports 1920x1080 and 2560x1080 resolutions.
+ > Front of room display resolution should be set no higher than 1920x1080 resolution in dual display mode. Single display mode supports 1920x1080 and 2560x1080 resolutions.
 
 
 ## See also
