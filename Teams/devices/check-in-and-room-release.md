@@ -4,7 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: eviegrimshaw
-ms.date: 4/11/2023
+ms.date: 4/21/2023
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -48,7 +48,7 @@ Check-in and room release is off by default. To turn it on,
 
 4. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 
-When Teams panels are paired with a Teams Rooms device, a user can check in joining the meeting on the device.  
+When Teams panels share a resource account with Teams Room on Android, a user can check in joining the meeting on the Teams Room.  
 
 ## Turn on check-in notifications
 
