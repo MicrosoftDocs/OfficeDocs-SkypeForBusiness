@@ -103,7 +103,7 @@ These are the main takeaways from this guidance. You must:
 -   Ensure that you have sufficient bandwidth for deploying Teams.
 
 -   Run the [Network Assessment
-    Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure
+    Tool](https://www.microsoft.com/download/details.aspx?id=103017) and ensure
     that you meet the requirements described in [Media quality and network
     connectivity
     performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
