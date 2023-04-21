@@ -53,8 +53,6 @@ The hardware, software, and network requirements to deploy panels devices may di
 Teams panels are supported in the following Microsoft Cloud environments:
 
 - Worldwide
-- GCC
-- GCC-High
 
 ## License requirement
 
