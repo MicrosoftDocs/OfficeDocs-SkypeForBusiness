@@ -456,7 +456,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue**: Member and guest counts are occasionally displayed incorrectly in the members' tab.
 
 - **Issue**: Limited options on Team Channel properties Dialog, including:
-  - Pin, Manage Channel and Get Email Address available
+  - Pin, Manage Channel, and Get Email Address available
   - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
   - Adding a tab to a channel isn't currently available
   - Webhooks not supported
