@@ -77,9 +77,3 @@ If you're planning to use the resource account with an auto attendant or call qu
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
 
-To assign a Direct Routing or hybrid number to a resource account, you need to use PowerShell:
-
-```powershell
-Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
-```
-
