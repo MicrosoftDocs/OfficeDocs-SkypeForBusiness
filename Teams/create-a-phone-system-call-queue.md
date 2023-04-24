@@ -353,6 +353,8 @@ For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#
 
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
+## [Step 7: Authorized users](#tab/authorized-users)
+
 ## Step 7: Authorized users
 
 **Authorized users** specifies the users who are authorized to make changes to to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
