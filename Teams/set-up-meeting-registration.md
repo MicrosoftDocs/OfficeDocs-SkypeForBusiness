@@ -24,35 +24,31 @@ ms.collection:
 description: Learn how to set up and manage meeting registration policies in Teams.
 ---
 
-# Set up a meeting with registration in Microsoft Teams meetings
+# Manage registration for Microsoft Teams meetings
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
-## Overview
+This article describes how you, as an admin, can set up and manage meeting registration for your end users in Microsoft Teams meetings.
 
-This article describes how you, as an admin, can set up and manage meetings with registration for your end users in Microsoft Teams meetings.
-
-A meeting with registration is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants.
-
-Meetings with registration include basic webinar functionality, an attendance report, and the ability to require registration for meetings. However, meetings with registration have limited branding and event page configuration. Webinars, on the other hand, will allow organizers to include custom branding, use additional registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
+A meeting is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants. Meetings can include an attendance report and require registration from attendees. However, meeting registration has limited branding and event page configuration. Webinars, on the other hand, allow organizers to include custom branding, as well as use additional registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
 If you'd like to learn  about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 Read more about the meeting registration experience for your end users in [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
 
 > [!NOTE]
-> Meeting with registration isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> Meeting registration isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
 ## Prerequisites
 
-Before setting up meeting with registration in Teams meetings, check to make sure you have the following items:
+Before setting up meeting registration in Teams meetings, check to make sure you have the following items:
 
-- The **Private meeting scheduling** setting must be on for meeting with registration to work. To read more on private meeting scheduling, see [Configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings). For students in education tenants, the private meeting scheduling policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
+- The **Private meeting scheduling** setting must be on for meeting registration to work. To read more on private meeting scheduling, see [Configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings). For students in education tenants, the private meeting scheduling policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 - If you'd like to manage who can register for meetings, you must first [turn on meeting registration.](#set-up-and-manage-meeting-registration)
 
 ## Who can register for meetings
 
-The Teams admin center setting **"Who can register"** and PowerShell parameter **`-WhoCanRegister`** control which users can register for meetings. This setting's two options are only available if **Meeting registration** is turned **on**. If **Meeting registration** is turned **off**, no one can register for meetings.
+The Teams admin center setting **"Who can register"** and PowerShell parameter **`-WhoCanRegister`** controls which users can register for meetings. This setting's two options are only available if **Meeting registration** is turned **on**. If **Meeting registration** is turned **off**, no one can register for meetings.
 
 The following table shows the behaviors of the settings for **"Who can register"** in the admin center and PowerShell:
 
@@ -63,8 +59,6 @@ The following table shows the behaviors of the settings for **"Who can register"
 
 For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-To control who can register for meetings, see the sections for [Manage who can register in the admin center](#manage-who-can-register-in-the-admin-center) and [Manage who can register for meetings in PowerShell.](#manage-who-can-register-for-meetings-in-powershell)
-
 ## Set up and manage meeting registration
 
 You can use the [Teams admin center](#using-the-teams-admin-center) or [PowerShell](#using-powershell) to create and manage meeting registration.
@@ -73,7 +67,7 @@ You can use the [Teams admin center](#using-the-teams-admin-center) or [PowerShe
 
 To set up meeting registration for users in your organization, you can use the Teams admin center.
 
-#### Set up meeting registration in the admin center
+#### Turn on meeting registration
 
 Follow these steps in the Teams admin center to turn on meeting registration:
 
@@ -85,7 +79,7 @@ Follow these steps in the Teams admin center to turn on meeting registration:
 6. Toggle the **"Meeting Registration"** setting from **Off** to **On** to turn on meeting registration.
 7. Select **Save** to enable meeting registration.
 
-#### Manage who can register in the admin center
+#### Manage who can register
 
 Follow these steps in the Teams admin center to manage who can register for meetings:
 
@@ -99,7 +93,7 @@ Follow these steps in the Teams admin center to manage who can register for meet
 
 You can also use PowerShell to set up meeting registration for users in your organization.
 
-To set up meeting registration, use the "**`-AllowMeetingRegistration`**" parameter within the Windows PowerShell **CsTeamsMeetingPolicy** cmdlet.
+To set up meeting registration, use the "**`-AllowMeetingRegistration`**" parameter within the PowerShell **CsTeamsMeetingPolicy** cmdlet.
 
 The following table shows the behaviors of the settings for **`-AllowMeetingRegistration`**:
 
@@ -120,11 +114,19 @@ Before you can run these cmdlets, you must be connected to Microsoft Teams Power
 
 #### Turn on meeting registration in PowerShell
 
-Turn on meeting registration for an existing policy.
+Turn on meeting registration for an existing policy:
 
   ```powershell
   Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
   ```
+
+#### Turn off meeting registration in PowerShell
+
+Turn off meeting registration:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False 
+```
 
 #### Manage who can register for meetings in PowerShell
 
