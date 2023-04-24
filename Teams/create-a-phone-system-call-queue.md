@@ -357,7 +357,7 @@ Once you've selected your call timeout handling options, select the **Submit** b
 
 ## Step 7: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
