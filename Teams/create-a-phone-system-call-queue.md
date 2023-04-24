@@ -363,6 +363,14 @@ To **add a user** to the authorized users:
 
 1. Select **Add**, search for the user, select **Add**, and then select **Add**.
 
+> [!IMPORTANT]
+> A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
+>
+> A user won't be able to make any configuration changes if:
+>
+> - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
+> - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
+
 See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
 
 ---
