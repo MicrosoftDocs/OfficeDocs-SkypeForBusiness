@@ -33,6 +33,28 @@ Caller ID consists of two user-facing pieces of information:
 - **Calling line ID (CLID)** - The phone number that the Public Switched Telephone Network (PSTN) presents as the caller's identity
 - **Calling party name (CNAM)** - The name that appears alongside the phone number (i.e. your company's name, a user's name, or Anonymous)
 
+### Outbound caller ID options
+
+For the outbound PSTN caller ID, the following options are:
+
+- The telephone number assigned to the user, which is the default.
+- Anonymous, which is available by removing the presentation of the user’s PSTN number.
+- A substitute phone number, which can be one of the following:
+  - A telephone number through Operator Connect or Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
+  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
+- The Calling Party Name or CNAM set on the outbound PSTN call.
+- End user control that overrides the caller ID policy.
+
+For more information, see [caller ID settings](#caller-id-settings).
+
+### Inbound caller ID options
+
+Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number is not in Azure AD or a personal contact, the telco-provided display name will be shown if it is available.
+
+The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
+
+For more information, see [caller ID settings](#caller-id-settings).
+
 ## Caller ID settings
 
 As an admin, you can change your organization's caller ID settings to do the following:
@@ -59,7 +81,7 @@ By default, the following caller ID settings are turned off.
 > [!NOTE]
 > The setting of **Replace the caller ID with** a service number for a calling ID substitution will be deprecated. We recommend using a resource account for substitution instead.
 
-## Set up and manage caller ID policies
+## Configure caller ID policies
 
 > [!IMPORTANT]
 > Emergency calls will always send the user's telephone number (caller ID). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
@@ -84,7 +106,7 @@ You can manage caller ID policies by going to **Voice** > **Caller ID policies**
       - **Anonymous:** Display the caller ID as Anonymous.
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
 
-    If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account for the next field. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection
+    If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account for the next field, called **Replace the caller ID with this resource account/service number**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection.
 
 5. Select **Save**.
 
