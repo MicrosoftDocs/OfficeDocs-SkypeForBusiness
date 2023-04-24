@@ -44,45 +44,27 @@ As an admin, you can change your organization's caller ID settings to do the fol
 
 You can control caller ID for both inbound and outbound calls by using PowerShell with the CallingLineIdentity policy or by using the Teams admin center under **Voice** > **Caller ID policies**.
 
-With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible. By default, the following caller ID settings are turned off.
+With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
-### Outbound PSTN caller ID settings
+By default, the following caller ID settings are turned off.
 
-#### Override the caller ID policy
-
-This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. This means that users can choose whether to display their caller ID. The default value of `EnableUserOverride` is False.
-
-Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.
-
-If the outbound caller ID is set to **Anonymous** for the **[Block outbound caller ID](#block-outbound-caller-id)** setting, `EnableUserOverride` has no effect, and the caller ID is always set to Anonymous.
-
-#### Set Calling Party Name (CNAM)
-
-This setting sends a CNAM on outbound PSTN calls.
-
-#### Replace outgoing caller ID
-
-This setting replaces a user's caller ID, which by default is their telephone number, with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.
-
-#### Block outbound caller ID
-
-This setting blocks the outgoing caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous.
+|Setting|Default|Description|
+|-------|--------|---------|
+|Block incoming caller ID|Off|This setting blocks a user from receiving caller ID on any incoming PSTN calls.|
+|Override the caller ID policy|Off|This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. This means that users can choose whether to display their caller ID.</br></br>Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.</br>|
+|Calling Party Name|(empty)|This setting sends a CNAM on outbound PSTN calls.|
+|Replace the caller ID with|User's number|This setting replaces a user's caller ID with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.</br></br>If this is set to **Anonymous**, the outgoing caller ID is blocked from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
+|Replace the caller ID with this resource account/service number|(Choose a resource account/service number)|This setting lets you choose a resource account or service number to replace the caller ID of users.|
 
 > [!NOTE]
-> Emergency calls will always send the user's telephone number (caller ID).
-
-### Inbound PSTN caller ID settings
-
-#### Block incoming caller ID
-
-This setting blocks a user from receiving caller ID on any incoming PSTN calls.
+> The setting of **Replace the caller ID with** a service number for a calling ID substitution will be deprecated. We recommend using a resource account for substitution instead.
 
 ## Set up and manage caller ID policies
 
-You can configure caller ID policies by using the Teams admin center or by using PowerShell.
+> [!IMPORTANT]
+> Emergency calls will always send the user's telephone number (caller ID). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-  > [!NOTE]
-  > Using the service number calling ID substitute will be deprecated. Use Resource account substitution instead.
+You can configure caller ID policies by using the Teams admin center or by using PowerShell.
 
 ### Use the Teams admin center
 
