@@ -132,4 +132,8 @@ The view-only attendee won't be able to experience the following options in meet
 - View-only attendees are only supported by the following lobby policies: 'People in my organization,' 'People in my organization and guests,' 'People in my organization, trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
-  <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  
+  <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.
+  
+  ## Networking Considerations
+  
+  Teams View-Only meetings utilises the same platform as Teams Live Events. View-Only attendees receive the meeting content, audio and video as a TCP HTTPS stream. We strongly recommend that customers bypass proxy infrastructure for Teams Live Events URLs and IP addresses. For more information, refer to the [Azure CDN documentation](https://learn.microsoft.com/en-us/azure/cdn/cdn-pop-locations).
