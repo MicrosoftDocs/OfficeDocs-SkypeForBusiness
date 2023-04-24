@@ -119,3 +119,4 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md)
 
+
