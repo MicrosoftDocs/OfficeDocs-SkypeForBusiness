@@ -58,7 +58,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past six months
 
-- September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
+- No new features in the past 6 months.
 
 ## Steps to create an auto attendant
 
