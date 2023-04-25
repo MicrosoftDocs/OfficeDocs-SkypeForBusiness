@@ -41,7 +41,7 @@ There is also an option for recordings to have automatic transcription, so that 
 
 For detailed information on the change in storing meeting recordings from Microsoft Stream (Classic) to OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
-For live events recording options, see [Live event recording policies in Teams](./teams-live-events/live-events-recording-policies.md).
+For live events recording options, see [Live event recording policies in Teams](./teams-live-events/live-events-recording-policies).
 
 For compliance recording options, read [Policy-based recording for callings & meetings](teams-recording-policy.md).
 
@@ -231,6 +231,6 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 - [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
-- [Live event recording policies in Teams](/teams-live-events/live-events-recording-policies.md)
+- [Live event recording policies in Teams](/teams-live-events/live-events-recording-policies)
 - [Policy-based recording for callings & meetings](teams-recording-policy.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
