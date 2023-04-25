@@ -63,7 +63,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 Running this report in the Power BI service isn't supported.
 
-These reports may be [published to the Power BI service](/power-bi/create-reports/desktop-upload-desktop-files.md)
+These reports may be [published to the Power BI service](powerbi-docs/powerbi-docs/create-reports/desktop-upload-desktop-files.md)
 
 Once the report is published:
 
@@ -74,7 +74,7 @@ Once the report is published:
 5. Ensure *Skip test connection* is enabled.
 6. Click on *Sign in* and provide your credentials.
 
-Once this is done you will be able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh.md) of the dataset.
+Once this is done you will be able to [configure a scheduled refresh](/powerbi-docs/powerbi-docs/connect-data/refresh-scheduled-refresh.md) of the dataset.
 
 ### Permissions to access the CQD pipeline
 
