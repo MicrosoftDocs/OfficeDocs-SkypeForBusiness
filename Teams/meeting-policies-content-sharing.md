@@ -46,24 +46,13 @@ You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-cst
 
 ## Screen sharing mode
 
-This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
+This setting is a per-user policy. The setting controls whether a user can share a desktop and window in a Teams meeting.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting |
-|**Single application**   | Application sharing is allowed in the meeting        |
+|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting. |
+|**Single application**   | Application sharing is allowed in the meeting. If your users are using Teams in a web browser and are assigned this value, this setting will function as **Not enabled**.  |
 |**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
-
-Let's look at the following example.
-
-|User |Meeting policy |Screen sharing mode |
-|---------|---------|---------|
-|Daniela  | Global   | Entire screen |
-|Amanda   | Location1MeetingPolicy  | Not enabled |
-
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is **Not enabled**. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
-
-Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
 
 ### PowerPoint Live
 
@@ -99,7 +88,7 @@ Let's look at the following example.
 
 Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
 
-To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant).
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
 
 For information for your end users about how to use Whiteboard, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee).
 

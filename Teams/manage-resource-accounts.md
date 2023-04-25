@@ -58,7 +58,7 @@ The application IDs that you need to use while creating the application instance
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for sipfederationtls resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
+> If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for `sipfederationtls` resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
 
 For hybrid implementations with Skype for Business Server:
 
@@ -70,13 +70,13 @@ For hybrid implementations with Skype for Business Server:
 
 Make sure you dissociate the telephone number from the resource account before deleting it, to avoid getting your phone number stuck in pending mode.
 
-After you do that, you can delete the resource account in the Microsoft 365 admin center, under the **Users** tab.
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+2. Expand **Voice**, and then select **Resource accounts** page.
+3. Select the resource account to which you want to assign a phone number, and then select **Assign/unassign**.
+4. Select the **X** on the assigned auto attendant or call queue.
+5. Select the **Save** button.
 
-To disassociate a Direct Routing telephone number from the resource account, use the following cmdlet:
-
-```powershell
-Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
-```
+After you do that, you can delete the resource account in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), under the [**Users**](https://go.microsoft.com/fwlink/p/?linkid=834822) tab.
 
 ## Hide resource accounts from Teams users
 

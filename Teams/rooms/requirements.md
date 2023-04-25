@@ -3,7 +3,7 @@ title: Microsoft Teams Rooms requirements
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 04/06/2018
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,15 +23,13 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams Rooms requirements
 
-Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size from small huddle spaces up through large conference spaces and boardrooms.  The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
+Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, you can deploy Microsoft Teams Rooms into spaces of any size, from small huddle spaces up through large conference spaces and boardrooms. The full set of all available certified audio and video peripherals that may be used to configure your room is available in the [Device Showcase](https://products.office.com/microsoft-teams/across-devices).
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
 Your deployment involves resource account creation and setup of Teams Rooms as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md).
 
-Refer to:
-
-- [License options based on your plan: Microsoft Teams Rooms](rooms-licensing.md)
+For more information, see [License options based on your plan: Microsoft Teams Rooms](rooms-licensing.md).
 
 > [!NOTE]
 > Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
@@ -41,9 +39,10 @@ Refer to:
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
 
 ## Hardware requirements
+
 A hardware deployment includes a selection of a Microsoft Teams Rooms system, combined with certified audio and video peripherals, and a cabling solution to integrate these devices together.  These options are described here.
 
-**Supported Microsoft Teams Rooms systems**
+### Supported Microsoft Teams Rooms systems
 
 All current Microsoft Teams Rooms devices and bundles are available in the [Teams Rooms product showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
@@ -97,6 +96,7 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) |Core i5|8 GB|128 GB|
   |[Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) |Core i5|8 GB|256 GB|
+  |Lenovo Core + MIMO IP Controller Kit|Core i5|8 GB|256 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap and Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
@@ -123,13 +123,37 @@ All current Microsoft Teams Rooms devices and bundles are available in the [Team
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
   |Yealink MVC340|Core i5|8 GB | 128 GB|
-  
+  |Yealink MCore 3 Kit|Core i5|8 GB| 128 GB|
   
 > [!NOTE]
 > - Core M3 processors aren't supported.
 > - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
 
-**Supported Surface Pro tablets for dock-style systems**
+### Wireless network considerations
+
+We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection is not available, you may opt to use a wireless connection.
+
+> [!IMPORTANT]
+> Wireless networks can be prone to network interference leading to quality degradation. We strongly recommend that you follow your wireless equipment provider's best practices when configuring a wireless connection to improve video and audio quality.
+
+Here are some examples of wireless network configuration best practices recommended by various manufacturers:
+
+- Deploy wireless equipment, such as access points and routers, that can handle and distribute the bandwidth load across all connected devices in the network.
+- As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
+- Ensure wireless equipment is installed in a way that reduces or eliminates inference from objects and other equipment.
+- Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
+- Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
+- Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
+- Keep wireless channel utilization below 50%.
+- Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
+- Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
+- Implement QoS whenever possible to allow monitoring and resolution of issues in real time.
+
+For additional best practices specific to your wireless network hardware, check your manufacturer's documentation.
+
+You can also troubleshoot wireless network issues using the wireless network report built into Windows 10. For more information, see [Analyze the wireless network report - Microsoft Support](https://support.microsoft.com/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed).
+
+### Supported Surface Pro tablets for dock-style systems
 
   |Tablet|Processor|RAM|Disk|
   |:-----|:-----|:-----|:-----|
@@ -163,6 +187,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) |0.3.0011.38 |
 |[Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) |1.0.5 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
+|[Bose VB-S AV Bar](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb-s.html) |1.1.2 |
 |[Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
@@ -172,10 +197,10 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
-|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
-|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUS Tek Computer INC 9934 1.00.20.246 or above |
-|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
-|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUSTek Computer INC 9934 1.00.20.246 or above |
+|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -234,7 +259,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |ANIUSB + </br> [Shure MXA 920 with Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5 Ceiling speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| ANIUSB: 4.4.7 </br> MXA920: 1.1.56 </br> MXN5: 1.5.6|
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
-|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute | 
+|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute | 
 |[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |
 |[Shure MXA920XX-R Round Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 Processor](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 Speakers](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> P300 Processor: 4.7.7 </br> MXN5 Speakers: 1.5.6 |
 |[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |
@@ -248,9 +273,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP  Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/), or [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC Amplifier ([SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> QSC AcousticDesign Series Speakers + </br> QSC IP Camera ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) optional + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP Camera, and I/O USB Bridge: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC Amplifiers: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
-|Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/), or [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> Networked Microphone ([Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS Amplifier ([SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> AcousticDesign Series Loudspeakers + </br> Q-SYS Network Camera ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [NC-12x80](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [NC 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) optional + </br> [Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Networked Camera, and I/O USB Bridge:  Q-SYS Designer 9.5.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 </br> Q-SYS Amplifiers: N/A </br> AcousticDesign Series Loudspeakers: N/A |
-|Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/), or [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> Networked Microphone([Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS Networked Loudspeakers ([NL-C4](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-c4/) or [NL-P4](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-p4/)) + </br>Q-SYS Network Camera ([NC-12x80](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [NC-20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) optional + </br> [Q-SYS I/O Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Networked Camera, NL Series Loudspeakers and I/O USB Bridge:  Q-SYS Designer 9.5.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 |
+|Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS Amplifier ([SPA series](https://www.qsys.com/products-solutions/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsys.com/products-solutions/power-amplifiers/installed/network/cx-q-series/)) + </br> [AcousticDesign Series Loudspeakers](https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/) + </br>Q-SYS Network Camera ([PTZ-IP 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) optional + </br>[Q-SYS I/O USB Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional |Q-SYS Core, Network Camera, Microphone, Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br> Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 </br> Q-SYS Amplifiers: N/A </br> AcousticDesign Series Loudspeakers: N/A |
+|Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br>Q-SYS [NL Series Loudspeakers](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/) + </br>Q-SYS Network Camera ([NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/) optional + </br> [Q-SYS I/O Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Microphone, NL Series Loudspeakers, Network Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br>Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 |
 |[Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |
 
 
@@ -261,8 +285,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 - USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders aren't recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
-  - Wired GbE connection in the room. Ethernet cable of appropriate length.
-  - Up to two 1080p displays with HDMI connections. HDMI cables of appropriate length.
+  - Wired GbE connection in the room, with an ethernet cable of appropriate length.
+  - Up to two 1080p displays with HDMI connections, with HDMI cables of appropriate length.
 
 > [!NOTE]
 > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs.
@@ -290,7 +314,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Large** <br/> 15' x 32'  |12–16  |
 
  > [!NOTE]
- > Front of room display resolution should be set to no greater than 1920x1080p.
+ > Front of room display resolution should be set no higher than 1920x1080 resolution in dual display mode. Single display mode supports 1920x1080 and 2560x1080 resolutions.
 
 
 ## See also

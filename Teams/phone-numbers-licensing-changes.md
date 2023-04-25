@@ -12,6 +12,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business

@@ -31,7 +31,7 @@ ms.date: 11/17/2022
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
-Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**.
+Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**. Walkie Talkie supports communicating in standard, open channels - it does not support or work on shared and private channels.
 
 With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -120,12 +120,15 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
   - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
 - Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
   - Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
+   > [!IMPORTANT]
+   > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
+   
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app** and select **Teams**.
   - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 - Sonim [XP8](https://www.sonimtech.com/products/devices/xp8/)
   - Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.
-- Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)
+- Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc5x-series.html), [TC15](https://www.zebra.com/gb/en/products/mobile-computers/handheld/tc15.html), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)
   - Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.
 
 > [!NOTE]
@@ -155,3 +158,5 @@ To learn more about the end-user experience, see:
 ## Give feedback or report an issue
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
+
+
