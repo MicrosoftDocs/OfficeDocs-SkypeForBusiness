@@ -184,7 +184,7 @@ To access the **Teams admin settings** option:
 > [!NOTE]
 > Some OEMs may replace the **Teams admin settings** option with their own custom option. If you don't see the **Teams admin settings** option, check your device documentation for instructions on how to access your panel's admin settings.
 
-#### Pair a Teams panel with a Microsoft Teams Rooms on Android
+#### Pair a Teams panel with Microsoft Teams Rooms on Android
 
 To pair a Teams panel and Teams Rooms on Android, both devices must be signed into the same resource account.
 
