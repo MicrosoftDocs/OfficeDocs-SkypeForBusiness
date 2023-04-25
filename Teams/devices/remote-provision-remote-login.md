@@ -117,6 +117,10 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
    ![the Sign in a user window for individual device.](../media/sign-in-user.png)
 
+This video shows how admins can remotely provision Android-based and SIP devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
+
 ## Related articles
 
 - [Manage your devices in Teams](device-management.md)

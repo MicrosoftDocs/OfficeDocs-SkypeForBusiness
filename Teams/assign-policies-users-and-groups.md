@@ -25,6 +25,10 @@ f1keywords:
 
 This article reviews the different ways to assign policies to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
 
+This video shows how to assign policies to multiple users.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbM?autoplay=false]
+
 ## Assign a policy to individual users
 
 Follow these steps to assign a policy to an individual user or to a few users at a time.

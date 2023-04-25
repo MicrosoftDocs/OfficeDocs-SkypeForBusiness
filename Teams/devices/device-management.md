@@ -84,6 +84,10 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 | Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 | View device history and diagnostics     | Under the **History** column, click the **View** link for a device to view its update history and diagnostic details.                                                                                                                                                                                         |
 
+This video shows how to search for Teams devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGQ?autoplay=false]
+
 ### View Android device sign-in failures
 
 If you're having trouble signing into an Android device, you can check the device's details page to see what sign-in failures might have occurred.
