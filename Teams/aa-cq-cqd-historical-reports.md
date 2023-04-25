@@ -63,6 +63,19 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 Running this report in the Power BI service isn't supported.
 
+These reports may be [published to the Power BI service](/power-bi/create-reports/desktop-upload-desktop-files.md)
+
+Once the report is published:
+
+1. Go to the dataset *Settings*.
+2. Expand the *Data source credentials* section.
+3. Click on *Edit credentials*
+4. Set the *Authentication method* to: **OAuth2**.
+5. Ensure *Skip test connection* is enabled.
+6. Click on *Sign in* and provide your credentials.
+
+Once this is done you will be able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh.md) of the dataset.
+
 ### Permissions to access the CQD pipeline
 
 While this version of the reports doesn't use the Call Quality Dashboard (CQD) data pipeline, the account used to view the historical data still requires access to the Call Quality Dashboard. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
