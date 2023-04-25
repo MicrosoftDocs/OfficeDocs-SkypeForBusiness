@@ -13,6 +13,7 @@ description: Learn how to create, modify, and add users to custom calling polici
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 f1.keywords:
 - CSH
 ms.custom: 
@@ -59,7 +60,7 @@ Here are the settings that you can configure for calling policies.
 
 This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 
-### Meeting recording for calling
+### Cloud recording for calling
 
 This setting controls whether users can record calls. This setting is off by default.
 

@@ -187,6 +187,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) |0.3.0011.38 |
 |[Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) |1.0.5 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
+|[Bose VB-S AV Bar](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb-s.html) |1.1.2 |
 |[Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
@@ -196,10 +197,10 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |
-|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
-|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUS Tek Computer INC 9934 1.00.20.246 or above |
-|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
-|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUSTek Computer INC 9934 1.00.20.246 or above |
+|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -258,7 +259,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |ANIUSB + </br> [Shure MXA 920 with Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5 Ceiling speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| ANIUSB: 4.4.7 </br> MXA920: 1.1.56 </br> MXN5: 1.5.6|
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
-|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute | 
+|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute | 
 |[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |
 |[Shure MXA920XX-R Round Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 Processor](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 Speakers](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> P300 Processor: 4.7.7 </br> MXN5 Speakers: 1.5.6 |
 |[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |
@@ -313,7 +314,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Large** <br/> 15' x 32'  |12–16  |
 
  > [!NOTE]
- > Front of room display resolution should be set to no greater than 1920x1080p.
+ > Front of room display resolution should be set no higher than 1920x1080 resolution in dual display mode. Single display mode supports 1920x1080 and 2560x1080 resolutions.
 
 
 ## See also
