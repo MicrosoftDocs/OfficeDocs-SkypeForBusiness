@@ -133,7 +133,7 @@ Calling policies control which calling and call forwarding features are availabl
 
 A successful Phone System deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
 
-- [Manage devices](../devices/device-management.md)
+- [Manage devices](./devices/device-management.md)
 - [Manage and monitor call quality](monitor-call-quality-qos.md)
 
 
