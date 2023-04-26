@@ -122,7 +122,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+          href: https://aka.ms/teamslivetraining
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
