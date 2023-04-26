@@ -54,6 +54,7 @@ Teams panels are supported in the following Microsoft Cloud environments:
 
 - Worldwide
 - GCC
+- GCC-H
 
 ## License requirement
 
