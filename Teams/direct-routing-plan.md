@@ -190,8 +190,8 @@ Learn more:
   
 To verify that the MTLS connection originates from Teams infrastructure, the SBC should be configured to implement the following checks on Teams server-side certificate:
 - Check that the certificate issuance chain originates from one of the following root CAs
--- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
--- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+-- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains#digicert-global-root-g2)
 - Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com"
 
 ## SIP Signaling: FQDNs
@@ -224,7 +224,7 @@ Placing these three FQDNs in order is required to:
 The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com – will be resolved to IP addresses from the following subnets:
 
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
   
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
