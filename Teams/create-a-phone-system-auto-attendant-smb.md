@@ -49,7 +49,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past six months
 
-- September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
+- No new features in the past 6 months.
 
 ## Steps to create an auto attendant
 The steps to add an auto attendant are:
@@ -210,6 +210,26 @@ To add a resource account, select **Add account** and search for the account tha
 Once you've added resource accounts, select **Next**.
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+
+## [Step 7: Authorized users](#tab/authorized-users)
+
+## Step 7: Authorized users
+
+**Authorized users** specifies the users who are authorized to make changes to this auto attendant.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+
+To **add a user** to the authorized users:
+
+1. Select **Add**, search for the user, select **Add**, and then select **Add**.
+
+> [!IMPORTANT]
+> A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
+>
+> A user won't be able to make any configuration changes if:
+>
+> - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
+> - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
+
+See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
 
 ---
 
