@@ -36,6 +36,8 @@ A webinar is a two-way interactive virtual event where the presenters deliver in
 
 To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration)
 
+For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
 > [!NOTE]
 > The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
