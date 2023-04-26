@@ -105,7 +105,7 @@ Before you can run these cmdlets, you must be connected to Microsoft Teams Power
 
 #### Turn on meeting registration in PowerShell
 
-Turn on meeting registration for an existing policy:
+Turn on meeting registration for an existing policy, use the following script:
 
   ```powershell
   Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $True
@@ -113,7 +113,7 @@ Turn on meeting registration for an existing policy:
 
 #### Turn off meeting registration in PowerShell
 
-Turn off meeting registration:
+Turn off meeting registration, use the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False 
@@ -139,7 +139,7 @@ Or, you could use the following PowerShell scripts to manage who can register fo
   Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
   ```
 
-- Allow ***everyone, including anonymous users***, to register for webinars and meetings:
+- Allow ***everyone, including anonymous users***, to register for meetings:
 
   ```powershell
   Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
@@ -149,43 +149,6 @@ Or, you could use the following PowerShell scripts to manage who can register fo
 > If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join meetings with registration. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
 For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
-
-## Collect meeting registration attendance information
-
-### Attendance report for Teams meetings
-
-The attendance report for Teams meetings shows meeting organizers who attended a meeting, what time each person joined and left, and more. The attendance report setting controls whether organizers can view or download the attendance report for the meetings they've set up.
-
-In the Teams admin center, the attendance report setting is called "**Attendance report**" and in PowerShell, its parameter is called "**`-AllowEngagementReport`**."
-
-The following table shows the behavior of the settings for "**`-AllowEngagementReport`**" and "**Attendance report**":
-
-|Setting value| Behavior|
-|---------|---------------|
-|Everyone, unless organizers opt out| **This is the default setting.** Meeting organizers control whether attendance reports are on or off for a meeting. |
-|No one| Meeting organizers can't view or download attendance reports for a meeting they've organized.|
-|Everyone| Meeting organizers can't turn off attendance reports for meetings they create. The attendance report is available for them.|
-
-For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-
-For more information on `-AllowEngagementReport`, see [Set-CsTeamsMeetingPolicy.](/powershell/module/teams/set-csteamsmeetingpolicy)
-
-### Who is in the attendance report for Teams meetings
-
-The **"Who is in the attendance report"** setting controls whether participants in the meeting can opt in or out of offering their attendance information to be included in the organizer's attendance report. You manage this setting in the Teams admin center.
-
-The following table shows the behavior of the settings for "**Who is in the attendance report**":
-
-|Setting value| Behavior|
-|---------|---------------|
-|Everyone, but participants can opt out| **This is the default setting.** The attendance report initially includes all participants, but participants can opt out. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings. |
-|No one, but participants can opt in| The attendance report initially excludes all participants, but participants can opt in. Participants can toggle **Identify me in attendance reports** on or off within their Teams settings.|
-|Everyone| The attendance report includes all participants, and participants can't opt out.|
-|No one| The attendance report excludes all participants, and participants can't opt in.|
-
-For instructions on how to manage who is in the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-
-For information on the end-user experience for attendance reports and who is in the reports, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Related topics
 
