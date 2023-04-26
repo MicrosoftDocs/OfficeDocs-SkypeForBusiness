@@ -28,7 +28,11 @@ In this article, we'll focus on standard channels, compare them to private and s
 
 ## What is a standard channel?
 
-By default, every team created in Microsoft Teams has a "**General**" channel. Standard channels are visible and accessible by all team members and designed to provide spaces for members to collaborate and communicate. Like private and shared channels, you can designate a standard channel to a specific article, project, or department.
+ In Microsoft Teams, a standard channel is visible and accessible to all team members. Standard channels provide spaces for members to collaborate and communicate within your organization. Like private and shared channels, you can designate a standard channel to a specific subject, project or department.
+
+### What is a General channel?
+
+By default, every team in Microsoft Teams has a "**General**" channel. General channels permanently appear at the top of the channel list of a team. The General channel can be used as a space for announcements or conversation that doesn't fall into your other subject-specific channels.
 
 > [!TIP]
 > Conversations and shared files in a standard channel are also searchable within the channel and across the team.
@@ -37,15 +41,7 @@ By default, every team created in Microsoft Teams has a "**General**" channel. S
 
 SharePoint sites let you create web pages and store files. When a SharePoint site is also used by Teams, it becomes a Teams-connected site.
 
-A Teams-connected site is created during the following scenarios:
-
-- Create a new team from scratch
-- Create a new team from an existing Microsoft 365 group
-- Add Microsoft Teams to any existing SharePoint site
-- Create a new private or shared channel
-
-> [!IMPORTANT]
-> Standard channels will share the first SharePoint site created when a team was created. Each standard channel is listed as a folder in the **Files** tab of a team. All team owners and members can access the site.
+ Standard channels share the same SharePoint site when you create a team. Each standard channel appears as a folder in the **Files** tab of a team. Items in the Files folder are the same All team owners and members can access the site.
 
 ## Features of standard, private and shared channels
 
@@ -76,7 +72,7 @@ Standard channels are versatile and can be used in various scenarios to streamli
 - **Cross-functional teams**: Collaborate on initiatives that require input and participation from multiple departments with a standard channel.
 - **Announcements and updates**: Utilize the "General" channel or create a dedicated standard channel for announcements, updates and news to keep everyone informed.
 - **Knowledge sharing**: Establish a channel to share best practices, training materials and resources. A standard channel can also be a centralized knowledge base for procedural documentation and company policies such as role-specific procedures and best practices.
-- **Social and networking**: Encourage team bonding and camaraderie by creating standard channels to encourage non-work related conversation on topics like hobbies, interests, or morale events.
+- **Social and networking**: Encourage team bonding and camaraderie by creating standard channels to encourage non-work related conversation subjects like hobbies, interests, or morale events.
 
 ## Related articles
 
