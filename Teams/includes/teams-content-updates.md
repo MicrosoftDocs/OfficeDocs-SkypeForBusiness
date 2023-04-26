@@ -2,6 +2,32 @@
 
 
 
+## Week of April 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/17/2023 | [An overview of customizations for meetings in Microsoft Teams](/MicrosoftTeams/custom-meetings-overview) | added |
+| 4/17/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 4/17/2023 | [Roll out a Teams Premium trial](/MicrosoftTeams/teams-premium-trial) | added |
+| 4/18/2023 | [How to make Teams push notifications work in your Xiaomi phone?](/MicrosoftTeams/devices/xiaomi-push-notifications) | added |
+| 4/18/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
+| 4/18/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 4/18/2023 | [Upgrade from the Teams Exploratory trial](/MicrosoftTeams/upgrade-from-teams-exploratory) | modified |
+| 4/18/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | renamed |
+| 4/18/2023 | [Data and Privacy Information](/MicrosoftTeams/rooms/data-and-privacy-info) | modified |
+| 4/18/2023 | Microsoft Teams for Android security | removed |
+| 4/19/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
+| 4/19/2023 | [Manage resource accounts for service numbers](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 4/19/2023 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
+| 4/19/2023 | [Migrating from Skype for Business Online Connector to the Teams PowerShell module](/MicrosoftTeams/teams-powershell-move-from-sfbo) | modified |
+| 4/19/2023 | [Teams security best practices for safer messaging](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging) | modified |
+| 4/19/2023 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
+| 4/19/2023 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
+| 4/21/2023 | [Check-in and room release on Microsoft Teams panels](/MicrosoftTeams/devices/check-in-and-room-release) | modified |
+| 4/21/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+
+
 ## Week of April 10, 2023
 
 
@@ -422,52 +448,3 @@
 | 3/24/2023 | [Configure Teams meetings with protection for highly sensitive data](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | modified |
 | 3/24/2023 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
 | 3/24/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-
-
-## Week of March 13, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/13/2023 | [Availability in Antigua and Barbuda](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda) | modified |
-| 3/13/2023 | [Availability in Argentina](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina) | modified |
-| 3/13/2023 | [Availability in Austria](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | modified |
-| 3/13/2023 | [Availability in Bahrain](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modified |
-| 3/13/2023 | [Availability in China](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | modified |
-| 3/13/2023 | [Availability in the Dominica](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica) | modified |
-| 3/13/2023 | [Availability in Peru](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru) | modified |
-| 3/13/2023 | [Availability in the Dominican Republic](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | modified |
-| 3/13/2023 | [Availability in the Netherlands](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | modified |
-| 3/13/2023 | [Availability in the Philippines](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines) | modified |
-| 3/13/2023 | [Availability in Ukraine](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | modified |
-| 3/13/2023 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
-| 3/13/2023 | [Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
-| 3/13/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | modified |
-| 3/13/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 3/14/2023 | [Scenarios for Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-scenarios) | added |
-| 3/14/2023 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
-| 3/14/2023 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | modified |
-| 3/15/2023 | [Meeting provider for Islands mode](/MicrosoftTeams/meeting-provider-islands-mode) | added |
-| 3/15/2023 | [Speaker Coach](/MicrosoftTeams/meeting-speaker-coach) | added |
-| 3/15/2023 | [Manage who can start instant meetings and schedule meetings](/MicrosoftTeams/manage-who-can-schedule-meetings) | modified |
-| 3/15/2023 | Manage general meeting policies | removed |
-| 3/15/2023 | [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system) | modified |
-| 3/15/2023 | [Microsoft Teams meeting attendance report](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
-| 3/16/2023 | [Meeting policy settings for meeting experience](/MicrosoftTeams/meeting-policies-participants-and-guests) | modified |
-| 3/16/2023 | [Stream Teams meetings](/MicrosoftTeams/stream-teams-meetings) | modified |
-| 3/16/2023 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
-| 3/16/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-| 3/17/2023 | [Manage chat in Teams meetings](/MicrosoftTeams/manage-meeting-chat) | added |
-| 3/17/2023 | [Manage reactions in Teams meetings](/MicrosoftTeams/manage-reactions-meetings) | added |
-| 3/17/2023 | [Teams meeting recording](/MicrosoftTeams/meeting-recording) | added |
-| 3/17/2023 | [Configure transcription and captions for Teams meetings](/MicrosoftTeams/meeting-transcription-captions) | added |
-| 3/17/2023 | [Manage who can present and request control in Teams meetings](/MicrosoftTeams/meeting-who-present-request-control) | added |
-| 3/17/2023 | [Manage Q&A in Teams Meetings](/MicrosoftTeams/manage-qna-for-teams) | modified |
-| 3/17/2023 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | modified |
-| 3/17/2023 | Meeting policy settings for meeting experience | removed |
-| 3/17/2023 | Manage meeting policies for recording and transcription | removed |
-| 3/17/2023 | [Plan your call routing flow for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | modified |
-| 3/17/2023 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 3/17/2023 | Configure desktop sharing in Microsoft Teams | removed |
-| 3/17/2023 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
-| 3/17/2023 | Manage the Whiteboard in Microsoft Teams | removed |
