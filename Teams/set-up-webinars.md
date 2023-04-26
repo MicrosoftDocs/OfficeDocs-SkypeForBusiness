@@ -30,7 +30,26 @@ description: Learn how to set up and manage webinar policies in Teams.
 
 Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can set up and manage webinars, including managing webinar features.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription.
+
+The following list displays webinar features; the Premium features are bolded and marked with an asterisk:
+
+- Require attendees to register
+- Assign a co-organizer
+- ***Manage attendees’ view**
+- Limit the number of people who can register
+- Allow registered users to bypass the lobby
+- ***Set up a green room for webinar presenters**
+- Turn on Q&A for webinars with up to 1000 attendees
+- View attendance reports
+- Integrate with Dynamics 365
+- ***Send reminder emails to registrants**
+- ***Create a webinar wait list**
+- ***Manually approve registrants**
+- ***Limit the day and time when people can register**
+- ***Use RTMP-In for webinars**
+
+To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams)
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
 
