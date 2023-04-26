@@ -32,6 +32,8 @@ This article describes how you, as an admin, can set up and manage meeting regis
 
 A meeting is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants. Meetings can include an attendance report and require registration from attendees. However, meeting registration has limited branding and event page configuration. Webinars, on the other hand, allow organizers to include custom branding, as well as use additional registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
+For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
 If you'd like to learn  about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 Read more about the meeting registration experience for your end users in [Schedule a Teams meeting with registration.](/office/schedule-a-teams-meeting-with-registration)
@@ -45,19 +47,6 @@ Before setting up meeting registration in Teams meetings, check to make sure you
 
 - The **Private meeting scheduling** setting must be on for meeting registration to work. To read more on private meeting scheduling, see [Configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings). For students in education tenants, the private meeting scheduling policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 - If you'd like to manage who can register for meetings, you must first [turn on meeting registration.](#set-up-and-manage-meeting-registration)
-
-## Who can register for meetings
-
-The Teams admin center setting **"Who can register"** and PowerShell parameter **`-WhoCanRegister`** controls which users can register for meetings. This setting's two options are only available if **Meeting registration** is turned **on**. If **Meeting registration** is turned **off**, no one can register for meetings.
-
-The following table shows the behaviors of the settings for **"Who can register"** in the admin center and PowerShell:
-
-|Setting value| Behavior|
-|---------|---------------|
-|Everyone| **This is the default setting.** All users, including anonymous users, can register for meetings.|
-|**"People in my organization"** in the admin center or **"EveryoneInCompany"** in PowerShell| No one can register for meetings. **For ***education tenants***, this is the default setting.**|
-
-For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ## Set up and manage meeting registration
 
@@ -79,15 +68,17 @@ Follow these steps in the Teams admin center to turn on meeting registration:
 6. Toggle the **"Meeting Registration"** setting from **Off** to **On** to turn on meeting registration.
 7. Select **Save** to enable meeting registration.
 
-#### Manage who can register
+#### Turn off meeting registration
 
-Follow these steps in the Teams admin center to manage who can register for meetings:
+Follow these steps in the Teams admin center to turn on meeting registration:
 
-1. Navigate to the Teams admin center and go to **Meetings** > **Meeting Policies**
-2. Either select an existing policy or create a new one
-3. Within your chosen policy, navigate to the **Meeting scheduling** section
-4. Choose your desired behavior under the **"Who can register"** dropdown from the options of **Everyone** or **People in my organization**
-5. Select **Save**.
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Within your chosen policy, navigate to the **Meeting scheduling** section.
+6. Toggle the **"Meeting Registration"** setting from **On** to **Off** to turn on meeting registration.
+7. Select **Save** to enable meeting registration.
 
 ### Using PowerShell
 
@@ -128,15 +119,27 @@ Turn off meeting registration:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False 
 ```
 
-#### Manage who can register for meetings in PowerShell
+## Who can register for meetings
 
-- Allow ***only*** users in your organization to register for meetings
+**Who can register** is set to **on** by default, but in education tenants, the default setting is "People in my organization". You can manage who can register for meetings through the Teams admin center or PowerShell.
+
+You could use the following steps to manage who can register for meetings in the Teams admin center:
+
+1. Navigate to the Teams admin center and go to **Meetings** > **Meeting Policies**
+2. Either select an existing policy or create a new one
+3. Within your chosen policy, navigate to the **Meeting scheduling** section
+4. Select your desired behavior under the **"Who can register"** dropdown from the options of **Everyone** or **People in my organization**
+5. Select **Save**.
+
+Or, you could use the following PowerShell scripts to manage who can register for meetings:
+
+- Allow ***only*** users in your organization to register for meetings:
 
   ```powershell
   Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister EveryoneInCompany
   ```
 
-- Allow ***everyone, including anonymous users***, to register for webinars and meetings
+- Allow ***everyone, including anonymous users***, to register for webinars and meetings:
 
   ```powershell
   Set-CsTeamsMeetingPolicy -Identity <policy name> -WhoCanRegister Everyone
@@ -145,25 +148,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $Fals
 > [!IMPORTANT]
 > If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join meetings with registration. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
-## Turn off meeting registration
-
-You can turn off meeting registration using PowerShell or the Teams admin center.
-
-You could use the following steps to turn off meeting registration in the **Teams admin center**:
-
-1. Open the Teams admin center.
-2. Select **Meetings** from the navigation pane.
-3. Under **Meetings**, select **Meeting Policies**.
-4. Either select an existing policy or create a new one
-5. Within your chosen policy, navigate to the **Meeting scheduling** section.
-6. Toggle the **"Meeting Registration"** setting from **On** to **Off** to turn off meeting registration.
-7. Select **Save** to disable meeting registration.
-
-Or, you can use the following **PowerShell script** to turn off meeting registration:
-
-```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False 
-```
+For more information, on **Who can register** for education tenants, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ## Collect meeting registration attendance information
 
