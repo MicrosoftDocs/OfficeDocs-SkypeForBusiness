@@ -40,13 +40,13 @@ The following table summarizes the three types of meetings, the number of recomm
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes, with Meetings with registration (webinars 1.0) |
+| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes |
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
 *The usual 10,000 is increased to 20,000 through June 30, 2023.
 
-**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
@@ -74,7 +74,6 @@ The following table highlights key articles that you'll want to review:
 
 | Article | Description |
 |----------|--------|
-| [Meeting settings](meeting-settings-in-teams.md) |  Describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
 | [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. |
 | [Manage Teams meeting recording](meeting-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
@@ -97,12 +96,21 @@ The following table lists training available to the end users in your organizati
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include:
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include (Premium features are bolded and marked with an asterisk):
 
-- Email communication templates
-- Reminder emails
-- Green room
-- Manage attendees view
+- Allow registered users to bypass the lobby
+- Assign a co-organizer
+- ***Create a webinar wait list**
+- ***Limit the day and time when people can register**
+- Limit the number of people who can register
+- ***Manage attendees’ view**
+- ***Manually approve registrants**
+- Require attendees to register
+- ***Send reminder emails to registrants**
+- ***Set up a green room for webinar presenters**
+- Turn on Q&A for webinars with up to 1000 attendees
+- ***Use RTMP-In for webinars**
+- View attendance reports
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
