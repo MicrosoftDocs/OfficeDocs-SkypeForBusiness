@@ -20,7 +20,7 @@ ms.collection:
 # Auto install approved apps in Microsoft Teams
 
 >[!NOTE]
-> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide). The feature was previously called Zero-touch app install.
 
 Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps may not know that the same app functionality is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. Some such unique capabilities are in-context notifications and collaboration within Microsoft Teams.
 
@@ -30,7 +30,7 @@ Admins can allow users to use Azure Active Directory identity to sign into apps 
 
 The Auto install approved apps functionality is available only for a few Teams apps. The **Auto install approved apps** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center lists the all such apps.
 
-:::image type="content" source="media/zero-touch-apps-list.png" alt-text="Screenshot showing Auto install approved apps feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/zero-touch-apps.png":::
+:::image type="content" source="media/approved-apps-list.png" alt-text="Screenshot showing Auto install approved apps feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/approved-apps.png":::
 
 ## Prerequisites and considerations for Auto install approved apps feature
 
@@ -90,7 +90,7 @@ You must enable the Auto install approved apps feature manually. To do so, follo
 
 1. Select **Org-wide app settings** and enable the **Auto install approved apps** option.
 
-    :::image type="content" source="media/zero-touch-apps.png" alt-text="Screenshot showing Auto install approved apps option in admin center that must be enabled to use the feature." lightbox="media/zero-touch-apps-large.png":::
+    :::image type="content" source="media/approved-apps.png" alt-text="Screenshot showing Auto install approved apps option in admin center that must be enabled to use the feature." lightbox="media/approved-apps-large.png":::
 
 1. Select **Save**.
 
