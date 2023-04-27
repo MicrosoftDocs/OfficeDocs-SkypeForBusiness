@@ -80,7 +80,6 @@ The following table compares key features between Teams and Teams Premium.
 | Allow registered users to bypass the lobby | x | x |
 | Turn on Q&A for webinars with up to 1000 attendees | x | x |
 | View attendance reports | x | x |
-| Integrate with Dynamics 365 | x | x |
 | Set up a green room for webinar presenters |  | x |
 | Manage attendees’ view |  | x |
 | Send reminder emails to registrants |  | x |
@@ -254,4 +253,3 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
-
