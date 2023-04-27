@@ -8,7 +8,7 @@ ms.subservice: teams-apps
 ms.topic: article
 ms.date: 03/03/2023
 search.appverid: 
-description: Auto install apps in Teams that are approved by admins and are used by users in a web browser outside Teams.
+description: Auto install apps in Teams if admins approve it and users already use it outside Teams.
 audience: admin
 ms.localizationpriority: high
 appliesto: 
