@@ -45,7 +45,7 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 
 You can assign built-in roles to groups or users without further configuration. Keep in mind that you can't delete or edit the name, description, type, or permissions of a built-in role.
 
-- **Managed Service Administrator**: Has full access to the Microsoft Teams Room Pro Management portal.
+- **Managed Service Administrator**: Has full access to the Microsoft Teams Rooms Pro Management portal.
 - **Site Lead**: Organizes rooms, has access to reports and can manage tickets. Can't reset enrollment key or make changes to service configurations.  
 - **Site Tech**: Manages tickets for specific rooms. Doesn't have permissions to modify service configurations or organize rooms.
 
