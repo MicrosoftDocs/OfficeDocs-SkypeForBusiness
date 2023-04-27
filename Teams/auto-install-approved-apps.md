@@ -1,5 +1,5 @@
 ---
-title: Zero-touch App Install for Teams apps
+title: Auto install approved Teams apps
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -8,16 +8,16 @@ ms.subservice: teams-apps
 ms.topic: article
 ms.date: 03/03/2023
 search.appverid: 
-description: Zero-touch App Install functionality adds apps in Teams for users who are already using its web browser outside Teams.
+description: Auto install apps in Teams that are approved by admins and are used by users in a web browser outside Teams.
 audience: admin
-ms.localizationpriority: medium
+ms.localizationpriority: high
 appliesto: 
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
 ---
 
-# Zero-touch App Install of Microsoft Teams apps by admins
+# Auto install approved apps in Microsoft Teams
 
 >[!NOTE]
 > The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
