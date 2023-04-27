@@ -160,23 +160,23 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 ## Support information for apps
 
-You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more.
+You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. You receive support information about apps from the following two different sources:
 
-Microsoft does not provide direct support for Teams apps but provides the following value adds for customers:
+* Microsoft does not provide direct support for Teams apps but provides the following value adds for customers:
 
-* Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised.
-* Certification to apps via its [Microsoft 365 app compliance program](overview-of-app-certification.md) to reassure that app are compliant with the industry-standard frameworks.
+  * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised.
+  * Certification to apps via its [Microsoft 365 app compliance program](overview-of-app-certification.md) to reassure that app are compliant with the industry-standard frameworks.
 
-App developers provide updates to the apps, security and compliance information, bug fixes, customer support, and so on. The app security and compliance information is available in the admin center in app details page as mentioned above. Different app developers provide varying levels of support for their app. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, case severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
+* App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information is available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
-* **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
+  * **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
 
    :::image type="content" source="media/app-details-summary.png" alt-text="Screenshot that shows documentation links in the admin center for an app in its details page." lightbox="media/app-details-large.png":::
 
-* **Details + support** tab of the app's [AppSource](https://appsource.microsoft.com/) page.
+  * **Details + support** tab of the app's [AppSource](https://appsource.microsoft.com/) page.
 
    :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
 
-## Related articles
+## Related article
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
