@@ -1,10 +1,10 @@
 ---
-title: Set up webinars
+title: Admin- Set up webinars
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: justle, ritikag
-ms.date: 02/21/2023
+ms.date: 04/27/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,10 +21,10 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up and manage webinar policies in Teams.
+description: Learn how to set up and manage webinar policies for IT Admins in Teams.
 ---
 
-# Set up webinars in Microsoft Teams
+# Admin- Set up webinars in Microsoft Teams
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
@@ -36,24 +36,23 @@ In addition to the base webinar features, we offer additional webinar functional
 
 The following list displays webinar features; the Premium features are bolded and marked with an asterisk:
 
-- Require attendees to register
-- Assign a co-organizer
-- ***Manage attendees’ view**
-- Limit the number of people who can register
 - Allow registered users to bypass the lobby
+- Assign a co-organizer
+- ***Create a webinar wait list**
+- ***Limit the day and time when people can register**
+- Limit the number of people who can register
+- ***Manage attendees’ view**
+- ***Manually approve registrants**
+- Require attendees to register
+- ***Send reminder emails to registrants**
 - ***Set up a green room for webinar presenters**
 - Turn on Q&A for webinars with up to 1000 attendees
-- View attendance reports
-- Integrate with Dynamics 365
-- ***Send reminder emails to registrants**
-- ***Create a webinar wait list**
-- ***Manually approve registrants**
-- ***Limit the day and time when people can register**
 - ***Use RTMP-In for webinars**
+- View attendance reports
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams)
 
-To learn more about the end user experience, see [Get Started with Teams webinars](/office/manage-webinar-registration)
+To learn more about the end user experience, see [Get Started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3)
 
 For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
@@ -70,8 +69,8 @@ The following table shows the behaviors of the settings for the **`-AllowWebinar
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| The webinar entry point is available for your users to create webinars. |
-|Disabled| There's no webinar entry point for your users to create webinars.|
+|Enabled| Users with this policy can create webinars. |
+|Disabled| Users with this policy can't create webinars.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
@@ -81,10 +80,10 @@ For more details on PowerShell cmdlets for Teams webinars, see the [Related topi
 
 #### Turn on webinars
 
-To turn on webinars for a new policy, use the following script:
+To turn on webinars, use the following script:
 
 ```powershell
-New-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
 ```
 
 #### Turn off webinars
@@ -97,61 +96,19 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 
 ## Who can register for webinars
 
-You can use the following cmdlets to manage who can register for webinars in your organization:
+You can use PowerShell to manage whether organizers can [create public or private webinars](https://support.microsoft.com/office/0719a9bd-07a0-47fd-8415-6c576860f36a):
 
-To allow **only** users in your organization to register for webinars, use the following script:
+To allow organizers to only create private webinars, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
 ```
 
-To allow everyone, including anonymous users, to register for webinars, use the following script:
+To allow organizers to create public or private webinars, use the following script. Public webinars may include anonymous users:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 ```
-
-> [!IMPORTANT]
-> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
-
-## Email communications for webinars
-
-With a Teams premium license, you can decide if event organizers and co-organizers can use email templates for webinars. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they've registered for, and provide clear instructions to attendees before, during, and after the event.
-
-Your organizers and co-organizers can edit the following email communication templates:
-
-- Registration Confirmation
-- Webinar update
-- Webinar cancellation
-- Reminder email
-- Attendee cancellation
-- Attendee in waitlist
-- Attendee pending approval
-
-For more information on the email communications experience for your end users, see [**PLACEHOLDER FOR END USER EMAIL COMMUNICATIONS DOC**].
-
-### Manage email communications for webinars with PowerShell
-
-Through PowerShell, you can manage whether organizers and co-organizers can edit email templates.
-
-The **`-EnableEventEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can edit email communication templates.
-
-The following table shows the behaviors of the settings for the **`-EnableEventEmailEditing`** parameter:
-
-|Setting value| Behavior|
-|---------|---------------|
-|Enabled| **This is the default value.** Event organizers and co-organizers can edit the email templates for their webinars .|
-|Disabled| Event organizers and co-organizers can’t edit any email templates.|
-
-The following example turns off **`-EnableEventEmailEditing`** so organizers and co-organizers can’t edit any email templates:
-
-[**BELOW COMMAND IS A PLACEHOLDER. I NEED AN ACTUAL EXAMPLE. REVISE BEFORE PUBLISHING.**]
-
-```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -EnableEventEmailEditing Enabled
-```
-
-To learn more about `-EnableEventEmailEditing`, see [**PLACEHOLDER FOR CMDLET REFERENCE**.]
 
 ## Related topics
 
