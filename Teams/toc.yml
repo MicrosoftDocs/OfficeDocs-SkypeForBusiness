@@ -1460,7 +1460,7 @@ items:
                   href: rooms/content-camera.md
                 - name: Voice recognition controls for Intelligent speakers
                   href: rooms/voice-recognition.md
-            - name: Legacy
+            - name: Test environments
               items:
                 - name: Configure a custom-built console
                   href: rooms/console.md

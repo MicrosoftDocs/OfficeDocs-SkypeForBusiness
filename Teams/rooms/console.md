@@ -25,6 +25,9 @@ description: This article describes how to set up and configure the Microsoft Te
 
 This article describes how to build a Microsoft Teams Rooms image for mass deployment of Teams Rooms.
 
+> [!IMPORTANT]
+> The information in this article is intended for test environments or for organizations that have very specific and uncommon deployment blockers that prevent the usage of [certified Teams Rooms systems](certified-hardware.md). Before following the information in this article, we strongly recommend that you discuss your specific Teams Rooms deployment with your Microsoft representative.
+
 > [!NOTE]
 > The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
@@ -35,6 +38,24 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
+
+## Supported hardware
+
+|Tablet|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|Surface Pro 6| Core i5 |16 GB or 8 GB |128 GB or more |
+|Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
+|Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
+
+> [!NOTE]
+> - Core M3 processors aren't supported.
+> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
+
+Surface Pro devices require one of the following docking station options:
+
+- [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+- [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+- [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
