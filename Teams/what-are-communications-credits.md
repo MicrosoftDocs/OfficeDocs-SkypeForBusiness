@@ -70,7 +70,7 @@ Instead, NCE customers will pay for overage outgoing minutes after they've used 
 
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
-### Your Calling or Audio Conferencing plan is through a Cloud Service Provider (CSP)
+### Your Calling or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
 
 If you purchased your Calling or Audio Conferencing plan through a CSP, you won't be able to acquire Communication Credits in the Microsoft 365 admin center.
 
