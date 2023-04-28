@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/zero-touch-app-install.md",
+      "redirect_url": "/microsoftteams/auto-install-approved-apps",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/deploy-apps-microsoft-teams-landing-page.md",
       "redirect_url": "/microsoftteams/apps-in-teams",
       "redirect_document_id": false
@@ -563,11 +568,6 @@
     {
       "source_path": "Teams/simplified-auto-attendant-settings.md",
       "redirect_url": "/microsoftteams/what-are-phone-system-auto-attendants",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "Teams/customize-meeting-invitations.md",
-      "redirect_url": "/microsoftteams/meeting-settings-in-teams",
       "redirect_document_id": true
     },
     {
@@ -2926,9 +2926,14 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/rooms/security.md",
-      "redirect_url": "/microsoftteams/rooms/security-windows",
+      "source_path": "Teams/rooms/security-windows.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Windows",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/rooms/security-android.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Android",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/audio-conferencing-smb.md",
@@ -3068,6 +3073,11 @@
   {
     "source_path": "Teams/teams-add-in-for-outlook.md",
     "redirect_url": "https://support.microsoft.com/office/883cc15c-580f-441a-92ea-0992c00a9b0f",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/voice-and-calling-policies.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference#voice",
     "redirect_document_id": false
   },
   {
@@ -4282,7 +4292,7 @@
   }, 
   {
     "source_path": "Teams/instructor-led-training-teams-landing-page.yml",
-    "redirect_url": "https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7",
+    "redirect_url": "https://aka.ms/teamslivetraining",
     "redirect_document_id": false
   },
   {
@@ -4296,8 +4306,48 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/teams-analytics-and-reports/teams-usage-report.md",
+    "redirect_url": "/microsoft-365/admin/activity-reports/microsoft-teams-usage-activity",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-analytics-and-reports/device-usage-report.md",
+    "redirect_url": "/microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-analytics-and-reports/user-activity-report.md",
+    "redirect_url": "/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/meeting-settings-in-teams.md",
+    "redirect_url": "/microsoftteams/settings-policies-reference",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/ediscovery-investigation.md",
     "redirect_url": "/microsoft-365/compliance/ediscovery-teams-investigation",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-auto-attendant-smb.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-call-queue-smb.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-auto-attendant-experiment.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-call-queue-experiment.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
     "redirect_document_id": false
   }
  ] 

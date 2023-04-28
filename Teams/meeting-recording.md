@@ -231,6 +231,6 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 - [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
-- [Live event recording policies in Teams](/teams-live-events/live-events-recording-policies.md)
+- [Live event recording policies in Teams](./teams-live-events/live-events-recording-policies.md)
 - [Policy-based recording for callings & meetings](teams-recording-policy.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)

@@ -2,7 +2,7 @@
 title: "Use PowerShell for tasks on IM and Presence menu"
 ms.reviewer: 
 ms.author: ankum
-author: ankum
+author: un00p
 manager: ravrao
 ms.date: 11/03/2021
 audience: ITPro

@@ -11,7 +11,7 @@ ms.collection:
   - M365-voice
   - m365solution-voice
   - highpri
-
+  - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
