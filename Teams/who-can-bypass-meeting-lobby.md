@@ -1,5 +1,5 @@
 --- 
-title: Control who can bypass the meeting lobby in Microsoft Teams
+title: IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
@@ -16,10 +16,10 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn to use the meeting lobby in Microsoft Teams to allow only certain meeting participants to join the meeting directly.
+description: Learn how admins can configure the meeting lobby in Microsoft Teams to allow only certain meeting participants to join the meeting directly.
 ---
 
-# Control who can bypass the meeting lobby in Microsoft Teams
+# IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
 
 The Teams meeting lobby prevents certain types of participants from joining a meeting until a meeting organizer, co-organizer, or presenter admits them. When a participant goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
 
