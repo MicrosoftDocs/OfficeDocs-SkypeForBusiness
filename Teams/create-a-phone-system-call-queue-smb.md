@@ -44,9 +44,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- August
-  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
-  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+- No new features in the past 6 months.
 
 ## Steps to create a call queue
 
@@ -59,7 +57,7 @@ The steps to set up a call queue include:
 1. Set call overflow handling
 1. Set call timeout handling
 
-The steps outlined in this article for creating call queues uses the the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
+The steps outlined in this article for creating call queues use the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## Follow these steps to set up your call queue
 
@@ -144,8 +142,6 @@ Once you've selected a language, select the **Next** button at the bottom of the
 
 ## Step 2: Add a greeting and on-hold music
 
-*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
-
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
 - If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
@@ -176,7 +172,7 @@ To [use a Teams channel to manage the queue](https://support.microsoft.com/offic
 
 1. Select the **Choose a team** radio button, and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard or private channels are supported), and select **Apply**.
+1. Select the channel that you want to use (only standard channels are fully supported), and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -187,8 +183,17 @@ The following clients are supported when using a Teams channel for call queues:
 > If you use this option, it can take up to 24 hours for the call queue to be fully operational.
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
-> 
-> Calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+
+> [!IMPORTANT]
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
+> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
+>
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
 
 ### Users and groups
 
@@ -316,8 +321,6 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
@@ -338,8 +341,6 @@ You can specify a value from 0 seconds to 45 minutes.
 You can choose to **disconnect** the call or **redirect** it to one of the call routing destinations.
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
-
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
 
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 

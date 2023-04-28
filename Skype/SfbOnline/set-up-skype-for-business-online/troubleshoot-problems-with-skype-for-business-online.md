@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Troubleshoot problems with Skype for Business Online"
 ms.reviewer: 
 ms.author: tonysmit
@@ -85,3 +86,4 @@ As an admin for Microsoft 365 Apps for business, you get free access to our know
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+

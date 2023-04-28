@@ -1,4 +1,5 @@
 ---
+ms.date: 03/07/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -40,7 +41,7 @@ There are three types of external participants who can attend meetings hosted by
 A *validated* external meeting participant is one that is logged in to Teams in Microsoft 365 in way that you trust. There are two types of validated external meeting participants:
 
 - **Guests** - people who are logged in to Teams with a [guest account](guest-access.md) in your directory. Guests can be anyone with an email address, including people from other Microsoft 365 organizations.
-- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](manage-external-access.md) and who have the required user-level external access permissions
+- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
 External participants who are not validated in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
 
@@ -68,7 +69,7 @@ Similarly, if a meeting organizer in your organization doesn't have external acc
 
 If [anonymous meeting join](anonymous-users-in-meetings.md) is turned off, anonymous participants won't be able to join meetings at all.
 
-For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](manage-external-access.md).
+For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
 ## Meetings with anonymous participants
 
@@ -91,3 +92,4 @@ The lobby can be configured by the meeting organizer before or during the meetin
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
+

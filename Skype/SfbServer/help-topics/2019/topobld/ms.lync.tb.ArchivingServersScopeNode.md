@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Archiving Servers Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -34,4 +35,5 @@ In addition to the Archiving Server options described earlier in this topic, you
     
 - **Help**. Use this option to access Help for the active node.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Request, Install, or Assign Certificates"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ description: "Step 3: Request, Install or Assign Certificates starts the Certifi
 > [!NOTE]
 > You can also use the Certificate Wizard to request and process offline certificate requests that are sent to a public CA or other offline public key infrastructure (PKI). There are no specific group memberships, other than those needed to log on to the computer, to generate an offline request. To process the public CA response and to assign the certificate to the computer and role, you must be logged on as a member of the local Administrators group or equivalent. 
   
+
 

@@ -1,7 +1,8 @@
 ---
+ms.date: 04/03/2021
 title: Move users to the cloud
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
@@ -69,6 +70,7 @@ You are now ready to [disable your hybrid configuration](cloud-consolidation-dis
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
 
 - [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
+
 
 
 

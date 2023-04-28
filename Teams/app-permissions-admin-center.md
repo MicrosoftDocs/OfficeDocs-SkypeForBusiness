@@ -18,7 +18,7 @@ appliesto:
 
 # View app permissions and grant admin consent in Teams admin center
 
-Admins view and manage all Teams apps from the Manage apps page in the Teams admin center. You can manage custom apps created within your organization and available only to your end-users and manage the third-party available on Teams app store. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, allow apps either at the organization's level or for individual end-users.
+Admins view and manage all Teams apps from the Manage apps page in the Teams admin center. You can manage custom apps created within your organization and available only to your users and manage the third-party available on Teams app store. For example, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, allow apps either at the organization's level or for individual users.
 
 Here, you can also grant org-wide admin consent to apps that request permissions to access data and view resource-specific consent (RSC) permissions for apps.
 

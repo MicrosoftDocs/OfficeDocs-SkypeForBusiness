@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Let Skype for Business users add Skype contacts"
 ms.reviewer: 
 ms.author: tonysmit
@@ -106,3 +107,4 @@ Skype contacts who signed in with their Microsoft account (formerly Windows Live
 
   
  
+

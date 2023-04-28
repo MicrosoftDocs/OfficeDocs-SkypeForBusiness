@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: jogruszc
-ms.date: 11/09/2022
+ms.date: 03/13/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -77,6 +77,7 @@ The following table compares key features between Teams and Teams Premium.
 | Require attendees to register | x | x |
 | Assign a co-organizer | x | x |
 | Limit the number of people who can register | x | x |
+| Allow registered users to bypass the lobby | x | x |
 | Turn on Q&A for webinars with up to 1000 attendees | x | x |
 | View attendance reports | x | x |
 | Integrate with Dynamics 365 | x | x |
@@ -86,8 +87,7 @@ The following table compares key features between Teams and Teams Premium.
 | Create a webinar wait list |  | x |
 | Manually approve registrants |  | x |
 | Limit the day and time when people can register |  | x |
-| Allow registered users to bypass the lobby |  | x |
-| Use RTMP-In for Webinars (*coming soon*) |  | x |
+| Use RTMP-In for Webinars |  | x |
 
 ### Meetings protection
 
@@ -101,9 +101,8 @@ The following table compares key features between Teams and Teams Premium.
 | End-to-end encryption for meetings with up to 50 attendees |  | x |
 | Control who can record |  | x |
 | Prevent copy/paste in meeting chats |  | x |
-| Assign Microsoft Purview Information Protection sensitivity labels for meetings\*  |  | x |
+| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | x |
 | Custom user policy packages |  | x |
-| Turn on advanced meeting monitoring and alerting |  | x |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5 subscription or Microsoft E3 subscription plus the Advanced Compliance license. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
@@ -133,16 +132,18 @@ The following table compares key features between Teams and Teams Premium.
 | Allow users to join a virtual lobby waiting room | x | x |
 | Integrate with Microsoft Forms | x | x |
 | Customize the lobby waiting room with themes and logos |  | x |
-| Send SMS notifications |  | x |
+| Send SMS notifications\* |  | x |
 | Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | x |
 | Organizational and departmental analytics |  | x |
 | View and manage scheduled appointments in the queue |  | x |
 | View and manage on-demand appointments in the queue |  | x |
 | Send post-appointment follow-ups (*coming soon*) |  | x |
 
+\* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.
+
 ## Are there current Teams features that will move to Teams Premium?
 
-With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. Each of these features has a grace period of 30 or 60 days after general availability. When the grace period expires, users will lose access to that feature.
+With the general release of Teams Premium on February 1, 2023, some Teams features will move from Teams licenses to Teams Premium licenses. Each of these features has a grace period of 30 or 60 days after general availability. When the grace period expires, users will lose access to that feature.
 
 To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
 
@@ -171,9 +172,10 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, or non-profit tenant.
-  - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC, GCC High, and DoD licenses will become available sometime after the general release.
+- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
+   - Teams Premium for GCC became available on March 1, 2023.
+   - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
+   - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
@@ -185,7 +187,7 @@ Teams Premium bundles a large set of Teams features under a single license. Ther
 
 ## Which users should be assigned Teams Premium licenses?
 
-Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
+Teams Premium is per-user, per-month license where each user who needs access to Teams Premium functionality needs to have a license assigned. The only way to ensure users have access to Teams Premium features is to assign them a license.
 
 There are some specific meeting and event features that will provide the feature benefit to all meeting attendees, including guests and external participants. Here's some guidance to help you decide who to acquire Teams Premium licenses for:
 
@@ -252,3 +254,4 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+

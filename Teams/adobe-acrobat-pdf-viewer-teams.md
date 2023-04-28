@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 
 # Set Adobe Acrobat as the default PDF viewer in Microsoft Teams
 
-As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in Microsoft Teams. Your end-users can view and search the PDF files. The users can also comment on and annotate the PDF files for free after they sign in.
+As an admin, you can set Adobe Acrobat as the default app to view and edit PDF files in Microsoft Teams. Your users can view and search the PDF files. The users can also comment on and annotate the PDF files for free after they sign in.
 
 To configure Adobe Acrobat app as the default handler for PDF files in your tenant, complete the following steps as prerequisites:
 
@@ -31,7 +31,7 @@ To configure Adobe Acrobat app as the default handler for PDF files in your tena
 
 ## Allow Adobe Acrobat app in your tenant
 
-To set up the app as a default PDF viewer, ensure that you [allow third-party app to be used](manage-apps.md#manage-org-wide-app-settings) in your tenant. Then follow the below instructions to set up Adobe Acrobat as the default app for PDF files.
+To set up the app as a default PDF viewer, [allow third-party apps in your tenant](manage-apps.md#manage-org-wide-app-settings) and then follow these steps:
 
 1. Sign in to Teams admin center and access **Teams app** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
@@ -72,11 +72,11 @@ If you want to selectively allow the Adobe Acrobat app for a few individuals or 
 Know the following information about this functionality:
 
 * After the policy is set up, it typically [takes a few hours](teams-app-setup-policies.md#considerations-and-limitations) for the app to be available for users.
-* The native PDF experience of Teams app is available to view PDF files that are pinned in channels as a tab and are available in the Assignments app.
-* Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It isn't supported on mobile client.
+* The PDF files that are pinned as tabs in channels and the PDF files available in the Assignments app continue to open in the default viewer of Teams and not in the Adobe Acrobat app.
+* Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It isn't supported on the mobile client.
 * Users need an Adobe Acrobat plan to use the premium tools such as Export PDF, Organize Pages, Combine Files, Compress PDF, and Protect PDF.
-* To uninstall the app, end-users can remove the app from their Teams client. Admin can remove the Adobe Acrobat app using setup policy.
-* If you block Adobe Acrobat app, then remove the app from the setup policy. It ensures that the end-user experience reverts to using the native PDF file viewer.
+* To uninstall the app, users can remove the app from their Teams client. Admin can remove the Adobe Acrobat app using setup policy.
+* If you block Adobe Acrobat app, then remove the app from the setup policy. It ensures that the user experience reverts to using the native PDF file viewer.
 * If you face any issues to sign in to the Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
 * Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) to comment or annotate on the PDF files. The app in Teams can offer functionality such as annotating, organizing, compressing, and protecting PDF files. For a complete list of functionality and the prerequisites, see [Manage PDF files in Teams with Acrobat app](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
-* When you collaborate on a PDF document, it is temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you are located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. see [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).
+* When you collaborate on a PDF document, it's temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you're located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. See [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).

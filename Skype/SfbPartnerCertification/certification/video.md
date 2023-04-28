@@ -1,4 +1,5 @@
 ---
+ms.date: 06/14/2018
 title: "Skype for Business certification program - Video"
 ms.author: serdars
 author: msdmaguire
@@ -142,3 +143,4 @@ Desktop sharing using RDP from a device sends content as video over the people c
   3. Pexip support for VBSS is currently in tech preview state.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

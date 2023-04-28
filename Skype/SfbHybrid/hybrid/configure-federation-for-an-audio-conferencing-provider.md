@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Configure federation for an audio conferencing provider in your hybrid deployment"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 f1.keywords:

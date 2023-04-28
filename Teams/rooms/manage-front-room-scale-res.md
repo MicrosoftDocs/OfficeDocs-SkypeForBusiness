@@ -8,13 +8,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier1
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 
@@ -47,7 +48,7 @@ You can manually set the display scaling on main and extended displays. Those op
 
 ### Enable customized scale and resolution for front of room displays
 
-To set the scale and resolution for your displays, you first need to tell. Teams that you want to do so by adding `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` to the XML file. After you've added this line to the XML file, you can set the scale and resolution for your main display, and your extended display if you have one.
+To set the scale and resolution for your displays, you first need to tell Teams that you want to do so by adding `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` to the XML file. After you've added this line to the XML file, you can set the scale and resolution for your main display, and your extended display if you have one.
 
 > [!IMPORTANT]
 > If you enable customized scale and resolution and you have dual front of room displays, you need to specify both `MainFoRDisplay` and `ExtendedFoRDisplay` and their respective options. If you don't specify both, the custom configuration will be ignored.
