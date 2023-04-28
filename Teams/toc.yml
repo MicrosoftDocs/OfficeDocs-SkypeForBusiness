@@ -122,7 +122,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+          href: https://aka.ms/teamslivetraining
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -1411,10 +1411,6 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Teams Rooms Windows and Android comparison
                   href: rooms/teams-devices-feature-comparison.md
-                - name: Windows security
-                  href: rooms/security-windows.md
-                - name: Android security
-                  href: rooms/security-android.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
@@ -1426,6 +1422,9 @@ items:
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
             - name: Plan Azure Monitor
+            - name: Security
+              href: rooms/security.md
+            - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
             - name: Release notes
               href: rooms/rooms-release-note.md
@@ -1528,6 +1527,8 @@ items:
           href: devices/device-store.md
         - name: Deploy
           items:
+            - name: Configure notifications for Mi push
+              href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: Set up common area phones
@@ -1650,8 +1651,8 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Zero-touch App Install
-          href: zero-touch-app-install.md
+        - name: Auto install approved apps
+          href: auto-install-approved-apps.md
 
     - name: Manage custom apps
       items:

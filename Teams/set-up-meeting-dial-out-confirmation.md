@@ -13,6 +13,7 @@ description: Learn how to set up Teams to request a dial-out confirmation to pre
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---

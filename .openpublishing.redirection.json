@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/zero-touch-app-install.md",
+      "redirect_url": "/microsoftteams/auto-install-approved-apps",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/deploy-apps-microsoft-teams-landing-page.md",
       "redirect_url": "/microsoftteams/apps-in-teams",
       "redirect_document_id": false
@@ -2921,9 +2926,14 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/rooms/security.md",
-      "redirect_url": "/microsoftteams/rooms/security-windows",
+      "source_path": "Teams/rooms/security-windows.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Windows",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/rooms/security-android.md",
+      "redirect_url": "/microsoftteams/rooms/security?tabs=Android",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/audio-conferencing-smb.md",
@@ -4282,7 +4292,7 @@
   }, 
   {
     "source_path": "Teams/instructor-led-training-teams-landing-page.yml",
-    "redirect_url": "https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7",
+    "redirect_url": "https://aka.ms/teamslivetraining",
     "redirect_document_id": false
   },
   {
@@ -4318,6 +4328,26 @@
   {
     "source_path": "Teams/ediscovery-investigation.md",
     "redirect_url": "/microsoft-365/compliance/ediscovery-teams-investigation",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-auto-attendant-smb.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-call-queue-smb.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-auto-attendant-experiment.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/create-a-phone-system-call-queue-experiment.md",
+    "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
     "redirect_document_id": false
   }
  ] 
