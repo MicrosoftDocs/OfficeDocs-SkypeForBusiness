@@ -84,7 +84,7 @@ This requirement will be removed in a future release.
 
 ## V3.x.x desktop installation 
 
-The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you have already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
@@ -344,7 +344,7 @@ You'll have to refresh the data to see any new data.
 
 - Call queues and auto attendants are shown by the resource account's ID instead of call queue or auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
-- Only 28 days of call history is available. Call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
+- Only 28 days of call history are available. Call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
@@ -354,7 +354,7 @@ You can customize certain visualization aspects of the reports, such as adding o
 
 ### Change color schema 
 
-The following steps assume you've already completed the installation steps.
+The following steps assume you have already completed the installation steps.
 
 Perform the following steps:
 
@@ -443,7 +443,7 @@ These dimensions are common to both auto attendants and call queues:
 |AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
 |                                                       |abs_search_dtmf                |Touch tone                                                        |
 |                                                       |abs_search_voice               |Voice                                                             |
-|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI that call arrived on                         |
+|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI the call arrived on                         |
 |AutoAttendantTransferAction<br>(Text)                  |                               |Call transfer target type                                         |
 |                                                       |AA                             |Transferred to an AA                                              |
 |                                                       |CQ                             |Transferred to a CQ                                               |
@@ -478,7 +478,7 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |shared_voicemail               |Call was sent to shared voicemail                                 |
 |                                                       |other                          |                                                                  |
 |                                                       |voicemail                      |                                                                  |
-|CallQueueIdentity<br>(Text)                            |                               |Resource account URI that call arrived on                         |
+|CallQueueIdentity<br>(Text)                            |                               |Resource account URI the call arrived on                         |
 |CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
 |                                                       |ApplicationEndpoint            |                                                                  |
 |                                                       |Mailbox                        |                                                                  |
@@ -697,7 +697,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, PowerBI Service support   |
+|3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
 |3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
 |3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
