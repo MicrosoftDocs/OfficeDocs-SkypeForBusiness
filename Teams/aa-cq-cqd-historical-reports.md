@@ -61,9 +61,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Power BI Service
 
-Running this report in the Power BI service isn't supported.
-
-These reports may be [published to the Power BI service](powerbi-docs/powerbi-docs/create-reports/desktop-upload-desktop-files.md)
+These reports may be [published to the Power BI service](/power-bi/create-reports/desktop-upload-desktop-files)
 
 Once the report is published:
 
