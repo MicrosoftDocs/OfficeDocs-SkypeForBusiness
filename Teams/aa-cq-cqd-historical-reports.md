@@ -65,12 +65,12 @@ These reports may be [published to the Power BI service](/power-bi/create-report
 
 Once the report is published:
 
-1. Go to the dataset *Settings*.
-2. Expand the *Data source credentials* section.
-3. Click on *Edit credentials*
-4. Set the *Authentication method* to: **OAuth2**.
-5. Ensure *Skip test connection* is enabled.
-6. Click on *Sign in* and provide your credentials.
+1. Go to the dataset **Settings**.
+2. Expand the **Data source credentials** section.
+3. Select **Edit credentials**.
+4. Set the **Authentication method** to `OAuth2`.
+5. Ensure **Skip test connection** is enabled.
+6. Select **Sign in** and provide your credentials.
 
 Once this is done, you'll be able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
 
@@ -84,7 +84,7 @@ This requirement will be removed in a future release.
 
 ## V3.x.x desktop installation 
 
-The following steps assume you have already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
@@ -354,7 +354,7 @@ You can customize certain visualization aspects of the reports, such as adding o
 
 ### Change color schema 
 
-The following steps assume you have already completed the installation steps.
+The following steps assume you've already completed the installation steps.
 
 Perform the following steps:
 
