@@ -72,7 +72,7 @@ Once the report is published:
 5. Ensure *Skip test connection* is enabled.
 6. Click on *Sign in* and provide your credentials.
 
-Once this is done you will be able to [configure a scheduled refresh](/powerbi-docs/powerbi-docs/connect-data/refresh-scheduled-refresh.md) of the dataset.
+Once this is done you will be able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
 
 ### Permissions to access the CQD pipeline
 
