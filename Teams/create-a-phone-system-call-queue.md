@@ -152,6 +152,9 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 
 - If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
 
+>[!NOTE]
+> When using Text to Speech, the text must be entered in the language selected for the call queue.  The system does not perform translation.
+
 Teams provides default music to callers while they are *on hold in a queue*.
 
 - The default music supplied in Teams call queues is free of any royalties payable by your organization.
