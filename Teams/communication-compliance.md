@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-ms.date: 06/30/2020
+ms.date: 04/17/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -31,6 +31,11 @@ For Microsoft Teams, communication compliance helps identify the [following type
 - Adult, racy, and gory images
 - Sharing of sensitive information
 
+Watch the video below to learn how to detect communication risks in Microsoft Teams with communication compliance:
+   <br>
+   <br>
+   >[!VIDEO https://www.microsoft.com/videoplayer/embed/RW11p2Z]
+
 For more information on communication compliance and how to configure policies for your organization, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
 
 ## How to use communication compliance in Microsoft Teams
@@ -46,18 +51,25 @@ Teams administrators can configure communication compliance policies at the foll
 - **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
 - **Teams level**: Policies at this level apply to a Microsoft Teams channel, including a Private channel. These policies cover messages sent in the Teams channel only.
 
-### Report a concern in Microsoft Teams
+### Report a message in Microsoft Teams
 
->[!NOTE]
->Availability for user-reported messages for organizations licensed and using [communication compliance](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) and Microsoft Teams started in May 2022. This feature will be available by August 31, 2022 for all organizations licensed and using communication compliance through July 2022. For organizations starting to use communication compliance after July 2022, user-reported messages policy availability may take up to 30 days from the date of your licensing and first use of communication compliance.
+> [!NOTE]
+> The *User-reported messages* policy is implemented for your organization after you create your first communication compliance policy. It can take up to thirty days for this feature to be available after you create your first policy.
 
-The *Report a concern* option for Teams personal and group chat messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate internal chat messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+The *Report inappropriate content* option for Teams personal and group chat messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate internal chat messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
-![Report a concern menu.](./media/communication-compliance-report-a-concern-full-menu.png)
+To access the feature, from a Teams chat, a user selects **More options** (...) > **More actions** > **Report this message**. 
+
+![Report this message menu.](./media/communication-compliance-report-message.png)
+
+In the next dialog box, the user selects the **Inappropriate - Harassment, violence, nudity, and disturbing content** option from the **Select a problem** list.  
+
+![Report a message choices.](./media/communication-compliance-report-message-choices.png)
+
+> [!NOTE]
+> The other choice in the list (**Security risk- Spam, phishing, malicious content**), if available, is managed by Microsoft Defender for Office 365. The user might also be presented with just the **Inappropriate - Harassment, violence, nudity, and disturbing content** option, depending on which policy options are turned on in the Microsoft Teams admin center. 
 
 After submitting the message for review, the user receives a confirmation of the submittal in Microsoft Teams. Other participants in the chat do not see this notification.
-
-![Report a concern confirmation.](./media/communication-compliance-report-a-concern.png)
 
 Users in your organization automatically get the global policy unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off this feature. For more information, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
