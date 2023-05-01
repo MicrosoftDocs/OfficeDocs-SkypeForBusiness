@@ -144,7 +144,7 @@ The following table compares key features between Teams and Teams Premium.
 
 With the general release of Teams Premium on February 1, 2023, the following Teams features moved from Teams to Teams Premium.
 
-- Live translated captions.
+- Live translation of meeting captions.
 - PPT live chapters.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
 - Custom organization Together mode scenes.
