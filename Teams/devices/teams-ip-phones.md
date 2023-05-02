@@ -187,6 +187,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I  | `1.0.6.20`    | 2022 Update #4A|
+|Crestron UC-P10/I | `1.0.6.20`    | 2022 Update #4A|
+|Crestron UC-2     | `1.0.7.35`    | 2022 Update #4A|
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.456` | 2023 Update #1A    |
 |Poly CCX 350/400/500/600/505 | `8.1.1.3290` | 2022 Update #4A |
 |Poly Trio C60 | `8.1.1.3291` | 2022 Update #4A |
@@ -302,6 +305,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #1A  | April 17, 2023 |`1449/1.0.96.2023041207 `| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1  | Mar 23, 2023 |`1449/1.0.96.2023031201`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2022 Update #3  | Dec 13, 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | 2022 Update #2B  | Sep 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -482,6 +486,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #1  | April 19, 2023 | `1449/1.0.97.2023041403` | `5.0.5484.0` | `413`|
 |2022 Update #4A  | December 14, 2022 | `1449/1.0.97.2022748302` | `5.0.5484.0` | `361`|
 |2022 Update #4  | December 05, 2022 | `1449/1.0.97.2022747803` | `5.0.5484.0` | `361`|
 |2022 Update #3A  | September 16, 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
