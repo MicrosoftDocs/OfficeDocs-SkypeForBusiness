@@ -102,7 +102,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
     This feature is available for F licenses. Other license types will be supported in the future.
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps in your organization:
 
-    * **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
+    * **Allow third-party apps**: This setting controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
 
         > [!NOTE]
         > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md). Note that if you have existing [app permission policies](teams-app-permission-policies.md) for **Microsoft apps** that use the **Allow specific apps and block all others** setting, and you want to enable outgoing webhooks for users, add the Outgoing Webhook app to the list.
@@ -110,15 +110,15 @@ Use org-wide app settings to control whether users with an [F license](https://w
         > [!NOTE]
         > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-    * **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
+    * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md).
 
 1. Select **Save**. The settings take effect after a few hours.
 
-## Zero-touch installation of apps based on admin approval
+## Auto install approved apps based on admin approval
 
-Zero-touch App Install feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users have used although outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Zero-touch App Install for Teams apps](zero-touch-app-install.md).
+Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users have used although outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
@@ -160,12 +160,22 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 ## Support information for apps
 
-You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. Different app developers provide varying levels of support for their app. Microsoft does testing of apps as part of its [app validation program](/microsoftteams/overview-of-app-validation). However, app developers provide updates to the apps, security and compliance information, bug fixes, customer support, and so on.
+You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. You receive support information about apps from the following two different sources:
 
-Third-party app developers publish app updates as per their business requirements and service agreements, if any. For this information, contact the application developer at the website address available in either of the two places:
+* Microsoft does not provide direct support for Teams apps but provides the following value adds for customers:
 
-* App details page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
-* `Details + support` tab of the app's [AppSource](https://appsource.microsoft.com/) page.
+  * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised.
+  * Certification to apps via its [Microsoft 365 app compliance program](overview-of-app-certification.md) to reassure that app are compliant with the industry-standard frameworks.
+
+* App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information is available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
+
+  * **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
+
+   :::image type="content" source="media/app-details-summary.png" alt-text="Screenshot that shows documentation links in the admin center for an app in its details page." lightbox="media/app-details-large.png":::
+
+  * **Details + support** tab of the app's [AppSource](https://appsource.microsoft.com/) page.
+
+   :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
 
 ## Related article
 
