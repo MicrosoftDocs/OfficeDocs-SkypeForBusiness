@@ -53,7 +53,8 @@ When your organization requires a password reset or enforces password expiration
 
 For example, if multi-factor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multi-factor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
 
-Multi-factor authentication isn't supported with shared devices. The methods to use instead are outlined below.
+> [!IMPORTANT]
+> Multi-factor authentication isn't supported with shared devices, such as Teams Rooms on Android. The methods to use instead are outlined below.
 
 ## Best practices for the deployment of shared android devices with Teams
 
