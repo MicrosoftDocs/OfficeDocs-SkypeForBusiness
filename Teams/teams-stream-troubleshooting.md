@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting live streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss troubleshooting options for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
