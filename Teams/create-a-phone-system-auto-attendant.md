@@ -107,7 +107,7 @@ Once you've set your auto attendant's general info, select **Next**.
 - If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
 >[!NOTE]
-> When using Text to Speech, the text must be entered in the language selected for the auto attendant.  The system does not perform translation.
+> When using *Text to Speech*, the text must be entered in the language selected for the auto attendant. The system doesn't perform translation.
 
 ### Route the call
 
