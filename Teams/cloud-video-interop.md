@@ -1,7 +1,7 @@
 ---
 title: Cloud Video Interop for Microsoft Teams
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
