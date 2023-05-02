@@ -33,6 +33,8 @@ Caller ID consists of two user-facing pieces of information:
 - **Calling line ID (CLID)** - The phone number that the Public Switched Telephone Network (PSTN) presents as the caller's identity
 - **Calling party name (CNAM)** - The name that appears alongside the phone number (i.e. your company's name, a user's name, or Anonymous)
 
+For more specific technical details about these two items and how they work, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).
+
 ### Outbound caller ID options
 
 For the outbound PSTN caller ID, the following options are:
@@ -42,7 +44,7 @@ For the outbound PSTN caller ID, the following options are:
 - A substitute phone number, which can be one of the following:
   - A telephone number through Operator Connect or Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
-- The Calling Party Name or CNAM set on the outbound PSTN call.
+- The Calling Party Name or CNAM set on the outbound PSTN call. For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
 - End user control that overrides the caller ID policy.
 
 For more information, see [caller ID settings](#caller-id-settings).
@@ -53,20 +55,16 @@ Phone System shows the incoming external phone number as the caller ID. If the n
 
 The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
 
+> [!IMPORTANT]
+> Emergency calls will always send the user's telephone number (caller ID). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
 For more information, see [caller ID settings](#caller-id-settings).
 
 ## Caller ID settings
 
-As an admin, you can change your organization's caller ID settings to do the following:
+As an admin, you can control caller ID for both inbound and outbound calls by using PowerShell with the CallingLineIdentity policy or by using the Teams admin center under **Voice** > **Caller ID policies**. For more information, see [Configure caller ID policies](#configure-caller-id-policies).
 
-- Display an alternate phone number for Teams users in your organization.
-- Block the outbound phone number.
-- Block an incoming number from being displayed.
-- Set the CNAM. For example, when a user makes a call, you can change the caller ID to display your organization's main phone number and company name instead of the user's phone number.
-
-You can control caller ID for both inbound and outbound calls by using PowerShell with the CallingLineIdentity policy or by using the Teams admin center under **Voice** > **Caller ID policies**.
-
-With settings turned off, the Teams user's phone number is visible when that user makes a call to the Public Switched Telephone Network (PSTN). Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
+With settings turned off, the Teams user's phone number is visible when that user makes a call to the PSTN. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
 By default, the following caller ID settings are turned off.
 
@@ -83,10 +81,7 @@ By default, the following caller ID settings are turned off.
 
 ## Configure caller ID policies
 
-> [!IMPORTANT]
-> Emergency calls will always send the user's telephone number (caller ID). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
-
-You can configure caller ID policies by using the Teams admin center or by using PowerShell.
+You can configure caller ID policies with the [Teams admin center](#use-the-teams-admin-center) or with [PowerShell](#use-powershell).
 
 ### Use the Teams admin center
 
@@ -177,5 +172,6 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Ano
 ## Related topics
 
 - [Teams policies reference - Caller ID](settings-policies-reference.md#caller-id-policies)
+- [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
