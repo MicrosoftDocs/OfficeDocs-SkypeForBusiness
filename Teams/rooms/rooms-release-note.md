@@ -26,7 +26,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms on Windo
 
 There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web client.
 
-For information about Teams Rooms app updates, see [Teams Rooms on Windows](/microsoftteams/rooms/rooms-release-note?tabs=Windows) or [Teams Rooms on Android](/microsoftteams/rooms/rooms-release-note?tabs=Android).
+For information about Teams Rooms app updates, select the **Teams Rooms on Windows** or **Teams Rooms on Android** tabs.
 
 Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 

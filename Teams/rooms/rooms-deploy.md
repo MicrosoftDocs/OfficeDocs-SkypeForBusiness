@@ -27,7 +27,7 @@ Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 
 - Confirming that your deployment locations (spaces) meet the deployment dependencies
 - Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to Teams Rooms (see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md))
-- (Optional) Setting up Azure Monitor for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
+- (Optional) Setting up Azure Monitor for your systems see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
 - Setting up Teams Rooms in meeting spaces and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
 ## Site readiness 
