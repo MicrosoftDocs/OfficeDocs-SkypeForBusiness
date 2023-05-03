@@ -4,7 +4,7 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: divank
-ms.date: 06/13/2018
+ms.date: 05/02/2023
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
