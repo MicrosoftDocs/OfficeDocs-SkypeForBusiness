@@ -1445,8 +1445,6 @@ items:
                 href: rooms/conditional-access-and-compliance-for-devices.md
               - name: Supported Conditional Access and Intune compliance policies
                 href: rooms/supported-ca-and-compliance-policies.md
-            - name: Manually update a device
-              href: rooms/manual-update.md
             - name: Deploy Azure Monitor
               href: rooms/azure-monitor-deploy.md
             - name: Surface Hub
@@ -1465,6 +1463,8 @@ items:
               items:
                 - name: Configure a custom-built console
                   href: rooms/console.md
+                - name: Manually update a device
+                  href: rooms/manual-update.md
         - name: Manage
           items: 
             - name: Management overview
