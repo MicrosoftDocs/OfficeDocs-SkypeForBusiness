@@ -32,7 +32,7 @@ Microsoft Teams offers webinars, a two-way interactive virtual event. This artic
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription.
+In addition to the base webinar features, we offer extra webinar functionality through the Teams Premium subscription.
 
 The following list displays webinar features; the Premium features are bolded and marked with an asterisk:
 
@@ -74,7 +74,7 @@ The following table shows the behaviors of the settings for the **`-AllowWebinar
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-For more details on PowerShell cmdlets for Teams webinars, see the [Related topics](#related-topics) section.
+For more information on PowerShell cmdlets for Teams webinars, see the [Related topics](#related-topics) section.
 
 ### Create and manage webinars using PowerShell
 
