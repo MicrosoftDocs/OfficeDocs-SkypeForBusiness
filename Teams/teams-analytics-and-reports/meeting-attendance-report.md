@@ -38,10 +38,10 @@ For education tenants, the attendance report can be used to track student attend
     - **Everyone** - The attendance report is available for all webinars and meetings organizers create; meeting organizers can't turn off attendance reports.
 
 1. For **Who is in the report**, choose one of the following options:
-    - **Everyone, but participants can opt-out** -  This is the **default setting.** The attendance report initially includes all participants. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
+    - **Everyone, but participants can opt-out** -  This option is the **default setting.** The attendance report initially includes all participants. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
     - **No one, but participants can opt-in** - The attendance report initially excludes all participants. To opt in, Participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
-    - **Everyone** - The attendance report will include all participants, and participants can't opt-out.
-    - **No one** - The attendance report will exclude all participants, and participants can't opt-in.
+    - **Everyone** - The attendance report includes all participants, and participants can't opt out.
+    - **No one** - The attendance report excludes all participants, and participants can't opt in.
 1. For **Attendance summary**, choose one of the following options:
     - **Show everything** - Include meeting attendees' join times, leave times, and in-meeting duration. This setting is on by default.
     - **Only show who attended** - Doesn't include meeting attendees' join times, leave times, and in-meeting duration.
@@ -60,7 +60,7 @@ To turn off attendance reports, use the following script:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
 ```
 
-To turn on attendance reports that initially exclude all participants, but provide participants the ability to opt-in, use the following script:
+To turn on attendance reports that initially exclude all participants, but provide participants the ability to opt in, use the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled
