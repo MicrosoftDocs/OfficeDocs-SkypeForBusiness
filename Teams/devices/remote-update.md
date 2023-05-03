@@ -81,3 +81,7 @@ When you select multiple devices, you can choose which update types to apply to 
 When you select a single device, updates that are available for the device are shown. If multiple update types are available for the device, select each update type to apply. You can view the **Current version** applied on the device and the **New version** that will be applied. Select the update(s) you want to apply and select **Update**.
 
 After you select **Update**, updates are applied to your devices at the date and time you selected if you scheduled an update. If you didn't select a future date and time, updates are applied to your devices within a few minutes.
+
+This video shows how to update Teams devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbK?autoplay=false]
