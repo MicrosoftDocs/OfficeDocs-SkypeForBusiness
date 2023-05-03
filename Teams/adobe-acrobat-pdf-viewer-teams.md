@@ -72,7 +72,7 @@ If you want to selectively allow the Adobe Acrobat app for a few individuals or 
 Know the following information about this functionality:
 
 * After the policy is set up, it typically [takes a few hours](teams-app-setup-policies.md#considerations-and-limitations) for the app to be available for users.
-* The PDF files that are pinned as tabs in channels and the PDF files available in the Assignments app continue to open in the default viewer of Teams and not in the Adobe Acrobat app.
+* The PDF files that are pinned as tabs in channels and the PDF files available in the Assignments app continue to open in the native viewer of Teams and not in the Adobe Acrobat app.
 * Adobe Acrobat as a default PDF viewer in Teams works only on desktop and web clients. It isn't supported on the mobile client.
 * Users need an Adobe Acrobat plan to use the premium tools such as Export PDF, Organize Pages, Combine Files, Compress PDF, and Protect PDF.
 * To uninstall the app, users can remove the app from their Teams client. Admin can remove the Adobe Acrobat app using setup policy.

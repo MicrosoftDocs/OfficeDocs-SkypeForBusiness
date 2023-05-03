@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - Tier2
   - M365-collaboration
+  - teams-1p-app-admin
 description: Learn how to set up the avatars for Microsoft Teams app.
 ---
 
