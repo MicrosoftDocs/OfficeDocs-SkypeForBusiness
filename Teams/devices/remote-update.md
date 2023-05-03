@@ -25,9 +25,13 @@ Using the Microsoft Teams admin center, you can update your Teams devices, such 
 
 Device firmware updates happen automatically by default. You can, however, update firmware and other software components manually. When applying updates manually, they can be applied immediately or scheduled for a future date and time.
 
-Only firmware versions that have been tested by Microsoft are available for automatic or manual update via the Teams admin center. Firmware versions tested by Microsoft are labeled **Verified by Microsoft**. Sometimes, an early version of the firmware may also be made available to customers which will be labeled as **Microsoft Preview**. Devices can be manually updated to these early versions and devices running on these versions will also be eligible for receiving automatic updates in future. Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.
+#### Software versions on Teams admin center
 
-To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+Only firmware versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Firmware versions tested by Microsoft are labeled **Verified by Microsoft**.
+
+Additionally, early versions of the firmware may also be made available and will be labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview firmware, and devices running on these versions will also be eligible for receiving automatic updates in future.
+
+Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.
 
 ## Automatic updates
 
@@ -59,26 +63,28 @@ To revert a device firmware update, you need to reset your device to its factory
 
 ### Track automatic updates
 
-If you want to check which firmware versions are currently being rolled out for your devices, you can do the following:
+If you want to check which firmware versions are currently rolling out for your devices, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
-3. A new widget is added called **Software auto-updates**. The number on this widget indicates the active update paths (combination of a current version and a new version).
-4. On this widget, select **View details**. A new dialogue box opens showing the list of active update paths with the following details - 
+3. Refer to the widget titled **Software auto-updates** to determine the number of active update paths.
+4. On this widget, select **View details**. A dialogue box opens showing the list of active update paths with the following details - 
     - Device model and manufacturer
-    - Current version and the new version. Devices on the specified current version will be updated to the specified new version.
-        - The new version may not always be the latest available version. To ensure safe updates, devices on older versions are updated in a step-wise approach, until they reach the latest version.
+    - Current version and new version
     - Number of eligible devices
     - Active phase
-        - Devices in this update phase are being currently updated. Any device from a previous phase that is not updated yet will also be included.
+        - Devices assigned to this update phase are being currently updated. Any device from a previous phase that is not updated yet will also be included.
+
+> [!NOTE]
+> The new version may not always be the latest available version. Devices on older versions are updated in a step-wise approach, until they reach the latest version.
 
 ### Pause automatic updates
 
-If you want more time to check some thing and don't want to change the update phase of the device, you can temporarily pause the automatic updates for your tenant. This will ensure that automatic updates do not happen for any device (Android-based) during the next 15 days. After that, the automatic updates resume automatically and will start getting scheduled for eligible devices again. In case, you want to resume the updates before the 15 days elapse, you can resume the updates. Following are the steps for pausing the updates:
+You can temporarily pause automatic updates for your tenant. When paused, Android based devices will not be automatically updated for the next 15 days. To pause the updates, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
-3. Under the **Actions** menu, select **Pause auto-updates**. A dialogue box will open for confirmation.
+3. Under the **Actions** menu, select **Pause auto-updates**.
 4. Updates will automatically resume after 15 days. If you want to resume the updates before that, select **Resume auto-updates** from under the **Actions** menu.
 
 
@@ -102,3 +108,6 @@ When you select multiple devices, you can choose which update types to apply to 
 When you select a single device, updates that are available for the device are shown. If multiple update types are available for the device, select each update type to apply. You can view the **Current version** applied on the device and the **New version** that will be applied. Select the update(s) you want to apply and select **Update**.
 
 After you select **Update**, updates are applied to your devices at the date and time you selected if you scheduled an update. If you didn't select a future date and time, updates are applied to your devices within a few minutes.
+
+> [!NOTE]
+> To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
