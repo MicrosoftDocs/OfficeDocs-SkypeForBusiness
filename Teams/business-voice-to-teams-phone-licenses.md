@@ -42,8 +42,8 @@ Before replacing Business Voice licenses, you first need to purchase replacement
 
 You'll need licenses to provide these features:
 
-- Audio conferencing
 - Cloud-based Phone System
+- Audio conferencing
 - PSTN connectivity
 
 Use the following table to determine which licenses to purchase based on your needs:
@@ -52,6 +52,9 @@ Use the following table to determine which licenses to purchase based on your ne
 | ---------------- | ------------------------ | ----------- |
 | Business Voice with Calling Plan | Teams Phone with Calling Plan and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities, a Domestic Calling Plan with Microsoft as your PSTN provider, and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
 | Business Voice without Calling Plan | Teams Phone Standard and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities that can be combined with [a third-party calling plan with a PSTN provider using Operator Connect or Direct Routing](pstn-connectivity.md) and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
+
+> [!NOTE]
+> The **Microsoft Teams Audio Conferencing with dial-out to USA/CAN** license only works with phone numbers in the USA or Canada. If you need to dial out to more countries than the USA and Canada, you should purchase the **Microsoft 365 Audio Conferencing** license instead.
 
 ## How to update licenses
 
@@ -348,6 +351,7 @@ You’ll have to validate [license requirements for group-based licensing](/azur
 1. Return to the group by selecting the group name. You’ll see a banner stating **License changes are pending**.
 1. Select **Reprocess** to force the license assignment to update.
 
+
 ---
 
 ## Validate user license updates
@@ -360,3 +364,4 @@ After you've completed your chosen method, validate if the user licenses were pr
 1. On the **Licenses and apps** screen, review which licenses they have assigned to them.
 
 If all the targeted users have the correct licenses assigned, you've completed updating your Business Voice licenses to Teams Phone and Audio Conferencing licenses.
+
