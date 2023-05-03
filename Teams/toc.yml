@@ -604,6 +604,8 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up meeting registration
+              href: set-up-meeting-registration.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Get a meeting attendance report
