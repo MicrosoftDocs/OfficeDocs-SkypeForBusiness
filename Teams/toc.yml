@@ -1052,6 +1052,13 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
+
+    - name: Shared Calling: A simpler solution
+      items:
+        - name: What is shared calling?
+          href: what-is-shared-calling.md
+        - name: Set up shared calling
+          href: set-up-shared-calling.md
               
     - name: Phone numbers
       items: 
