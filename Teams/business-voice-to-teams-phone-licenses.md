@@ -364,4 +364,3 @@ After you've completed your chosen method, validate if the user licenses were pr
 1. On the **Licenses and apps** screen, review which licenses they have assigned to them.
 
 If all the targeted users have the correct licenses assigned, you've completed updating your Business Voice licenses to Teams Phone and Audio Conferencing licenses.
-
