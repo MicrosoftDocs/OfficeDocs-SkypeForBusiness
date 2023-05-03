@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies in Microsoft Teams
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -102,4 +102,3 @@ This video shows the steps to edit an organizational-wide default meeting policy
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

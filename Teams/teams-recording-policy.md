@@ -1,8 +1,8 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: cabailey
-ms.author: cabailey
-manager: laurawi
+author: MikePlumleyMSFT
+ms.author: mikeplum
+manager: serdars
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
@@ -82,7 +82,7 @@ notified, who controls access, and how retention is handled.
 | Retention Policy?      | Optional           | Yes             |
 
 Teams provides various capabilities for
-[convenient](./cloud-recording.md)
+[convenient](./meeting-recording.md)
 and functional recording of meetings and live events. Organizational
 recording means enabling organizations that adopt Teams for calling and
 meetings to stipulate, by way of an administrative policy, when calls and online

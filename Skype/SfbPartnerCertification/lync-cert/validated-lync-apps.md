@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Validated Lync Applications"
 ms.author: serdars
 author: msdmaguire
@@ -187,3 +188,4 @@ Conduct video conferences on Lync through a single device that can be controlled
 ## Yaguti Lync Agent
 * * *
 Show planning information, request grades / timetables for students and teachers, get sales data from your CRM/ERP all with Lync.
+

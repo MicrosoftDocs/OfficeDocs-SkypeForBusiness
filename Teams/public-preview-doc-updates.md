@@ -15,10 +15,10 @@ ms.date: 06/29/2020
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
+description: Learn how to use public preview in Microsoft Teams to try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # Microsoft Teams Public Preview
@@ -28,7 +28,10 @@ ms.localizationpriority: high
 
 Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-For a list of what's available in the Teams public preview, visit [Microsoft Teams Public Preview tech notes](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Release Notes for Teams Admin Features](/OfficeUpdates/teams-admin), and [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview).
+For a list of what's available in the Teams public preview, visit [Microsoft Teams Public Preview tech notes](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
+
+> [!IMPORTANT] 
+> This policy has no effect on users who are part of [Microsoft 365 targeted release](/microsoft-365/admin/manage/release-options-in-office-365).
 
 ## Set the Update policy
 
@@ -43,19 +46,24 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 2. Name the update policy, add a description, and select the setting for **Show preview features**.
 
    -   **Follow Office Preview** (default)
-       - This new default option will automatically enable Teams Public Preview features for any user enrolled in Office Current Channel (Preview). 
+       - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel. 
        - There are no more actions required by the end user.
+       
    -   **Enabled**
-       - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview). 
+       - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel. 
        - The end user must also opt in to Teams public preview in their Teams app.
 
    > [!NOTE]  
-   > For existing users in Teams Public Preview who are NOT in the **Current Channel (Preview)**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
+   > For existing users in Teams Public Preview who are not in the **Current Channel**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
  
    - **Not enabled** 
      - Teams Public Preview features will not be available to end users.
 
-    ![shows the preview settings dialog.](media/public-preview-policy.png)  
+   -  **Forced** 
+       - This option enables Teams Public Preview for the end user.
+       - There is no action required by the end user.
+       
+    ![Screenshot that shows the forced preview pane in Teams.](media/forced-preview.png)  
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
@@ -68,29 +76,21 @@ To enable public preview on a desktop or web client, you need to complete the fo
 3. Select **Switch to Public preview**.
 
 > [!NOTE]  
-> This option is only available when **Show preview features** is set to **Enabled**.
+> This option is only available when **Allow public preview** is set to **Enabled**.
 
 ### Public preview for Microsoft Teams Rooms on Windows
 
-Public preview is off by default. When public preview is on, end-users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file.
+Public preview is off by default. When public preview is on, end-users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file. For more information about the XML file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 We recommend enrolling 5-10 devices to public preview. 
 
-All public preview features are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+All public preview features are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
 
-## Teams now follows Office Preview users
+### Public Preview Indicator
 
-The new global policy default of **Follow Office Preview** will allow users to automatically be in the Public Preview channel of Teams if they are in Current Channel (Preview) for the Office 365 Client on Windows and Mac.
+Users who are in the Public Preview  will see **EA** next to their profile picture indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image). 
 
-Microsoft Office will continue to receive updates from Current Channel (Preview) and Teams client will receive updates via Public Preview channel. This policy will NOT switch Office channels based on Teams channels. 
-
-**How to retain your existing Teams preview users who are NOT using Office Current Channel (Preview)?**
-
-For existing users who you have allowed to opt-in or opt-out of Teams Public Preview and want to maintain that setting in its current form, you will need to switch from the new default, **Follow Office Preview** to **Enabled** (Refer to [Set the Update policy](#set-the-update-policy))
-
-**How to opt-out of this setting?**
-
-You can disable the setting from Teams Admin Center from **Follow Office Preview** to **Not Enabled** (Refer to [Set the Update policy](#set-the-update-policy))
+![Screenshot of the early-access icon.](media/early-access-screenshot.png)
 
 ## Related topics
 

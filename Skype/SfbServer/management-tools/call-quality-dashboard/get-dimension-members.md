@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Dimension Members"
 ms.reviewer: 
 ms.author: serdars
@@ -80,3 +81,4 @@ Get Dimension Members operation returns the list of members of a specific dimens
 "January 2031"]]
 }
 ```
+

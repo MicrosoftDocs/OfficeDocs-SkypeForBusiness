@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Configure Skype for Business hybrid"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -93,3 +94,4 @@ For more information about how to establish a remote PowerShell session with Tea
 ## See also
 
 [New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Shared Components Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -34,4 +35,5 @@ You select **Topology** to click on options to open a New topology document. Ope
   
 ![Shared Components Scope Node C.](../../../media/Shared_Components_Scope_NodeC.jpg)
   
+
 

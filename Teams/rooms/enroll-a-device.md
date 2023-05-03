@@ -7,10 +7,12 @@ ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -120,9 +122,6 @@ The Enrollment process involves these steps:
 1. The room appears in the portal within 5-10 minutes.
 
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
-
-> [!NOTE]
-> If you need to install the agent without the Teams App on the MTR being able to login to Teams, you can use our enrollment key as an optional process. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download key (optional)'. When installing the agent, place the ‘Self-Enrollment key' (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 

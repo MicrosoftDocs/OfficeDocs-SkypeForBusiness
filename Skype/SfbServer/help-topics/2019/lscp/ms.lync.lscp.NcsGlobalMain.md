@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Network Configuration Global Setting"
 ms.reviewer: 
 ms.author: serdars

@@ -1,10 +1,10 @@
 ---
 title: Set up webinars
-ms.author: mabond
-author: mkbond007
+ms.author: wlibebe
+author: wlibebe
 manager: serdars
-ms.reviewer: sachung, emryan
-ms.date: 04/08/2021
+ms.reviewer: justle, ritikag
+ms.date: 02/21/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,13 +20,13 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - Tier1
 description: Learn how to manage webinar and meeting registration policies in Teams.
 ---
 
 # Set up webinars in Microsoft Teams
 
-> [!NOTE]
-> This article describes some features in webinars that are in preview and will require a Teams Premium license.
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft now offers a new webinar experience; this article describes how to update your settings to use these features.
 
@@ -50,9 +50,7 @@ The new webinar experience is configured in PowerShell. See examples on [how to 
 For more information about the differences between meetings, webinars, and live events, see [Meetings, webinars, and live events](quick-start-meetings-live-events.md).
 
 > [!NOTE]
-> For on-premises users, the new webinar experience isn't available yet.
->
-> The new webinar experience isn't available for Microsoft 365 GCC, Microsoft 365 GCC High, or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
+> The new webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD. The existing webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
 ## Set up new webinar experience
 
@@ -98,7 +96,7 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
         ```
 
 > [!IMPORTANT]
-> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Meeting settings in Teams](meeting-settings-in-teams.md).
+> If **Anonymous users can join a meeting** is turned off in **Meeting settings**, anonymous users can't join webinars. To learn more and enable this setting, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
 ## Configure meeting registration
 
@@ -108,9 +106,9 @@ You can use the Teams admin center under **Meetings** > **Meeting policies** to 
 
 ### Meeting registration
 
-If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this setting is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**.
+If you turn on **Meeting registration**, users in your organization can schedule webinars and meetings requiring registration. By default, this setting is turned on. If you want to turn off meeting registration and webinars, set this policy to **Off**. This is a per-user policy.
 
-**Private meeting scheduling** must be on for meeting registration to work. Find out more about [private meeting scheduling](meeting-policies-in-teams-general.md).
+**Private meeting scheduling** must be on for meeting registration to work. Read more on how to [configure private meeting scheduling](manage-who-can-schedule-meetings.md#private-meetings).
 
 For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
 
@@ -125,19 +123,13 @@ If you select **Everyone**, all users, including anonymous users, can register f
 
 The default value for **Who can register** is **People in my organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-## Collect webinar and meeting registration attendance
+## Collect webinar and meeting registration attendance information
 
-You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on **Engagement report**.
+The attendance report policy setting controls whether meeting organizers can see reports of who registered and attended the webinars or meetings they set up. The default setting is **Everyone, unless organizers opt-out**. You can use the Teams admin center under **Meetings** > **Meeting policies** to turn on or off **Attendance report**; with PowerShell, use the [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) and `-AllowEngagementReport`.
 
-When this setting is on, organizers can see reports of who registered and attended the webinars or meetings they set up. This policy is on by default. For more information, see [Meeting policies in Teams - Engagement report](meeting-policies-in-teams-general.md#engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+If **Who is in the report** is set to **Everyone, but users can opt-out** or **No one, but users can opt-in**, users will be able to toggle on or off **Identify me in attendance reports** within their Teams settings.
 
-In PowerShell, the **AllowEngagementReport** parameter can be used to turn this on. This policy is on by default. To turn it off, run the following command in PowerShell:
-
-```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
-```
-
-Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) for more information on the cmdlet.
+To find out more about attendance reports and their associated settings, read [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## Turn off webinars
 
@@ -147,11 +139,13 @@ Use the following PowerShell script to turn off webinars:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingRegistration $False
-Set-CSTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Disabled
 ```
 
 ## Related topics
 
-- [Meeting policies in Teams - General](meeting-policies-in-teams-general.md)
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+- [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)

@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Make changes to Skype Meeting Broadcast settings for your organization"
 ms.author: tonysmit
 author: tonysmit
@@ -46,3 +47,4 @@ You can enable Skype Meeting Broadcast and make changes to settings and policies
 [Set up your network for Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
+

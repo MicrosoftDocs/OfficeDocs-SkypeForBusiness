@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Why is number activation just pending?"
 ms.author: tonysmit
 author: tonysmit
@@ -108,3 +109,4 @@ Address validation is an important part of setting up Calling Plans. If for some
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  
+

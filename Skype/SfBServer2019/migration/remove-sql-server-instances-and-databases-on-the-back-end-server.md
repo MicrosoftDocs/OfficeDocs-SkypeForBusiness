@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove SQL Server instances and databases on the Back End Server"
 ms.reviewer: 
 ms.author: serdars
@@ -27,4 +28,5 @@ To remove the databases or instances for the Archiving Server or Monitoring Serv
     
 - [Remove the SQL Server database for an Archiving server](remove-the-sql-server-database-for-an-archiving-server.md)
     
+
 

@@ -8,9 +8,11 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -38,7 +40,7 @@ The logs will be output as a ZIP file in c:\rigel.
 ### Managing Disk Space
 <a name="Space"> </a>
 
-Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
 
 |Setting|Allows|
 |:-----|:-----|
@@ -59,9 +61,9 @@ To set the scale and resolution of your Front of Rooms displays remotely, see [R
 
 To set the scale and resolution manually in the Teams Rooms admin settings:
 
-1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
 
-2. Select the start icon. Then **Settings > System > Display**
+2. Select the start icon. Then **Settings > System > Display**.
 
 3. Go to **Scale and layout**, then **Change the size of text, apps, and other items**, and set the scaling to 100%.
 
@@ -125,7 +127,7 @@ Many organizations have the following GPOs, which affect Teams Rooms functionali
   - Denying access to local drives
   - Prompting users for slow network connections
   - Start a certain program at logon
-  - Create another domain user account on all domain-joined machines.
+  - Create another domain user account on all domain-joined machines
   - Push Windows Update to Teams Rooms
 
 When joining Microsoft Teams Rooms to a domain, ensure that your group policies don't override the settings in the following table.
@@ -243,7 +245,22 @@ Some management functions, like manually installing a private CA certificate, re
 8.  Restart the machine when you're finished.
     
 The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
-  
+
+### Clearing the Teams Rooms on Windows Client Cache
+
+1. Plug in a physical keyboard to the Teams Rooms device.
+2. Press the **Windows** key five times in rapid succession. This will bring you to the Windows logon screen.
+3. Log in to the desktop with your administrative credentials.
+4. Sign the **Skype** user out of the account.
+   1. Open **Task Manager**.
+   1. Select the **Users** tab.
+   1. Right click the **Skype** user.
+   1. Select **Sign Off**.
+5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
+6. Delete the **Teams** folder.
+7. Restart the Teams Room device.
+8. Sign in and restart again, once the Teams Room's interface has appeared.
+ 
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
 1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 

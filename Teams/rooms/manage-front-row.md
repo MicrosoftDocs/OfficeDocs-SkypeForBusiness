@@ -8,19 +8,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - tier1
+  - Tier1
 description: Remotely configure the front row layout on Microsoft Teams Rooms systems.
 ---
 
 # Remotely configure front row on Teams Rooms
 
-Front row is an inclusive video layout available on Microsoft Teams Rooms systems that fosters a deeper connection between in-person and virtual meeting participants. Front row allows you to maximize screen rel estate so you can see both people, content, and chat simultaneously.
+Front row is an inclusive meeting layout available on Microsoft Teams Rooms systems that fosters a deeper connection between in-person and virtual meeting participants. Front row allows you to maximize screen real estate so you can see both people, content, and chat simultaneously.
 
 If you have multiple Teams Rooms systems deployed in your organizations, you can configure front row on those systems remotely using an XML configuration file. This XML configuration file can be deployed from a central location to your Teams Rooms systems. When the XML file is deployed to a Teams Rooms system, the configuration settings defined within it will be applied the next time the system is restarted.
 
@@ -34,7 +35,7 @@ Front row is enabled by default. Turn off Front row if you don't want to allow e
 
 If you don't set a default display layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add `<DefaultFoRExperience>1</DefaultFoRExperience>` to your XML configuration file.
 
-End-users can switch from the default display layout using the layout picker during meetings.
+End-users can switch from the default display layout using the view switcher during meetings.
 
 ## Set front row size
 

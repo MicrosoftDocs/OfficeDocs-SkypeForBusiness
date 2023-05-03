@@ -1,4 +1,5 @@
 ---
+ms.date: 08/22/2019
 title: Emergency call routing for Calling Plans
 author: CarolynRowe
 ms.author: crowe
@@ -12,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -72,6 +74,7 @@ PSAP - Public Safety Answering Point<br>
 ## Related topics
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+
 
 
 

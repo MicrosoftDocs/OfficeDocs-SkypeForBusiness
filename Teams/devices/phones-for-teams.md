@@ -7,6 +7,7 @@ ms.reviewer: kponnus
 ms.date: 11/05/2018
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -16,6 +17,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.
@@ -65,8 +67,6 @@ Manage and keep your Teams phones up-to-date using the Microsoft Teams admin cen
 ## Upgrade your phones to Teams displays
 
 [Microsoft Teams displays](teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction
-
-You can upgrade Teams phones in your organization to Teams displays in the Microsoft Teams admin center. This option is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
 
 ## See also
 

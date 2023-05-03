@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # What's new for Direct Routing
@@ -23,7 +24,7 @@ This article describes what's new in Direct Routing. Check back often for update
 
 ## New Direct Routing SIP endpoints 
 
-Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.120.0.0/14 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
+Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.122.0.0/15 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
 
 ## Trunk demoting logic based on SIP Options
 
@@ -31,7 +32,7 @@ A new feature based on SIP Options is introduced for trunk health. When enabled 
 Any trunk enabled for that feature that doesn't send at least one SIP Option within five minutes to any of the Microsoft regional (NOAM, EMEA, APAC, OCEA) SIP Proxies is considered demoted. If a trunk sends SIP Options to only a subset of Microsoft regional SIP Proxies, then these routes are tried first and the rest are demoted.
 > [!NOTE] 
 >
-> Any SBC (configured under the customer or carrier tenant with **SendSipOptions** set to *true*) not sending SIP OPTIONS will be demoted. Customers who don't want that behavior should set **SendSipOptins** to *false* in their SBC configuration. The same applies to carrier trunks where the SBC configuration is either under the carrier or customer tenant. In these cases, when **SendSipOptions** is set to *true*, the SBC sends SIP OPTIONS.
+> Any SBC (configured under the customer or carrier tenant with **SendSipOptions** set to *true*) not sending SIP OPTIONS will be demoted. Customers who don't want that behavior should set **SendSipOptions** to *false* in their SBC configuration. The same applies to carrier trunks where the SBC configuration is either under the carrier or customer tenant. In these cases, when **SendSipOptions** is set to *true*, the SBC sends SIP OPTIONS.
 
 
 ## SIP support

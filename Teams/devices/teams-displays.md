@@ -7,6 +7,7 @@ ms.reviewer: weizxue
 ms.date: 08/24/2020
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
   - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides an overview of and features supported by Microsoft Teams displays.
@@ -62,10 +64,6 @@ After you create resource accounts, you can create and assign a policy to enable
 > [!IMPORTANT]
 > Because Teams displays with hot-desking are used in shared workspaces by multiple people, Conditional Access rules and other identity configurations in your environment, like Multi-Factor Authentication, can impact these devices and cause sign-in issues. For guidance on securing shared devices, see [Authentication best practices for shared Teams Android devices](authentication-best-practices-for-android-devices.md).
 
-## Upgrade Teams phones to Teams displays
-
-Teams displays is the evolution of Teams phones. You can upgrade Teams phones in your organization to Teams displays using the Microsoft Teams admin center. This option is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
-
 ## See also
 
 [Introducing Microsoft Teams displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
@@ -75,7 +73,5 @@ Teams displays is the evolution of Teams phones. You can upgrade Teams phones in
 [Phones for Teams](phones-for-teams.md)
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
-
-[Upgrade IP phones to Teams displays](upgrade-phones-to-displays.md)
 
 [Cortana voice assistance in Teams](../cortana-in-teams.md)

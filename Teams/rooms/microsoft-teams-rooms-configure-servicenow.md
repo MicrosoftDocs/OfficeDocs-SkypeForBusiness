@@ -7,6 +7,7 @@ ms.reviewer: altsou
 ms.date: 08/25/2021
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -16,6 +17,7 @@ f1keywords:
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 ---
 
 # Configure ServiceNow for Teams Rooms

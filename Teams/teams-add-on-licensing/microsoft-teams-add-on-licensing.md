@@ -45,7 +45,7 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 | **Communication Credits** | Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). |
 | **Audio Conferencing** | Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). |
-| **Microsoft Teams Rooms** | Microsoft Teams Room is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. <br/> <br/>Teams Rooms Basic is a free license for up to 25 rooms that delivers core meeting and management functionality for all Teams Rooms devices. <br/> <br/>Teams Rooms Pro brings enhanced meeting experiences and advanced management and security to help you operate your devices at scale and enable inclusive hybrid meetings. <br/> <br/>For more information, see [Teams Meeting Room Licensing](../rooms/rooms-licensing.md). |
+| **Microsoft Teams Rooms** | Microsoft Teams Rooms is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. <br/> <br/>Teams Rooms Basic is a free license for up to 25 rooms that delivers core meeting and management functionality for all Teams Rooms devices. <br/> <br/>Teams Rooms Pro brings enhanced meeting experiences and advanced management and security to help you operate your devices at scale and enable inclusive hybrid meetings. <br/> <br/>For more information, see [Teams Meeting Room Licensing](../rooms/rooms-licensing.md). |
 | **Microsoft Teams Shared Devices** | Many organizations require flexible workplace solutions as they shift to hybrid work scenarios. The Microsoft Teams Shared Devices license is designed to support hybrid work by allowing offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces. For more information, see [Microsoft Teams Shared Devices licensing](teams-shared-device-license.md). |
 
 ## Which Microsoft capabilities are available with my plan?
@@ -56,17 +56,17 @@ All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Teams Essentials with AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and add **Teams Phone with Calling Plan** bundle licenses.
+- Buy a Teams Essentials with AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
   - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
   - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Buy a Teams Essentials with AAD, E1/E3, A1/A3, F1/F3, or G1/G3 plan, add **Teams Phone Standard** licenses, and choose a Microsoft standalone calling plan or third-party PSTN carrier.
+- Buy a Teams Essentials with AAD, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
   - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
   - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 
-- Buy an E5/A5/G5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
+- Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
   - The Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
 Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
@@ -92,6 +92,10 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 </tr>
 </tbody>
 </table>
+
+For instructions on how to buy licenses in the Microsoft 365 admin center, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses).
+
+After you've purchased licenses, you'll need to assign them to your users. For more information, see [Assign Teams add-on licenses](assign-teams-add-on-licenses.md).
 
 ## Unassign licenses from users
 
