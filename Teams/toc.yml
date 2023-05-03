@@ -1053,7 +1053,7 @@ items:
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
 
-    - name: Shared Calling: A simpler solution
+    - name: Shared Calling - A simpler solution
       items:
         - name: What is shared calling?
           href: what-is-shared-calling.md
