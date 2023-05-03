@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms on Android app and firmware versions
+title: Teams Rooms on Android app and firmware versions
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -16,7 +16,7 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-description: Learn about supported Microsoft Teamms Rooms on Android app and firmware versions.
+description: Learn about supported Microsoft Teams Rooms on Android app and firmware versions.
 ms.custom: seo-marvel-apr2020
 ---
 

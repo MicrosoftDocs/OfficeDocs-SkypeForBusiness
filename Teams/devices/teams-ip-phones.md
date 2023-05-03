@@ -78,7 +78,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 For a list of certified Teams Rooms on Android systems, see [Teams Rooms certified hardware](../rooms/certified-hardware.md).
 
-For a list of supported app and firmware versions for Teams Rooms on Android systems, see [](../rooms/android-app-firmware.md).
+For a list of supported app and firmware versions for Teams Rooms on Android systems, see [Teams Rooms on Android app and firmware versions](../rooms/android-app-firmware.md).
 
 ## Certified Teams Displays
 
