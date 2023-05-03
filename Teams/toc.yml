@@ -1055,9 +1055,9 @@ items:
 
     - name: Shared Calling - A simpler solution
       items:
-        - name: What is shared calling?
+        - name: What is Shared Calling
           href: what-is-shared-calling.md
-        - name: Set up shared calling
+        - name: Set up Shared Calling
           href: set-up-shared-calling.md
               
     - name: Phone numbers
