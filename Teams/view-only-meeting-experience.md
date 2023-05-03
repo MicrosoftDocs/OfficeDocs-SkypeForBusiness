@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: christi.balaki
 ms.date: 10/15/2020
 manager: serdars

@@ -1,7 +1,7 @@
 ---
 title: "Emails sent to users when their settings change"
-ms.author: heidip
-author: MicrosoftHeidi
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.date: 11/28/2017
