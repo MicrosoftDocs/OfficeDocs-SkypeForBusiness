@@ -1411,7 +1411,6 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                               android-app-firmware
                 - name: Teams Rooms Windows and Android comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
