@@ -148,7 +148,7 @@ This article doesn't cover Android devices configured for dedicated device mode 
 Microsoft works with our OEM partners to deliver a solution that is secure by design, and customizable to meet customer needs. This article discusses many of the security features found in Teams Android devices and our approach. It is split into four key sections for ease of navigation.
 
 > [!NOTE]
-> Microsoft Teams Android devices shouldn't be treated as a typical Android device. Teams Android devices are purpose-built appliances designed for use with Teams and their respective use cases. This article applies to certified and dedicated Microsoft Teams devices running the Android operating system only. Teams certified devices can only be purchased from certified OEM vendors. For information about Microsoft Teams certified Android devices, see [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
+> Microsoft Teams Android devices shouldn't be treated as a typical Android device. Teams Android devices are purpose-built appliances designed for use with Teams and their respective use cases. This article applies to certified and dedicated Microsoft Teams devices running the Android operating system only. Teams certified devices can only be purchased from certified OEM vendors. For information about Microsoft Teams certified Android devices, see [Teams Rooms certified systems and peripherals](certified-hardware.md).
 
 For information about security on Teams Rooms on Windows devices, select the **Teams Rooms on Windows** tab.
 
@@ -185,7 +185,7 @@ Teams Android devices must support Android-based encryption and can be enforced 
 
 ### Android OS version
 
-Teams Android devices run supported versions of Android. The Android operating system is managed by OEM partners, merged into Teams certified firmware, and then pushed to devices from the Teams admin center. For information about which Android versions are running on Teams Android devices, see [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
+Teams Android devices run supported versions of Android. The Android operating system is managed by OEM partners, merged into Teams certified firmware, and then pushed to devices from the Teams admin center. For information about which Android versions are running on Teams Android devices, see [[Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones)](android-app-firmware.md).
 
 ### Android security updates
 
