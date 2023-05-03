@@ -115,11 +115,11 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-   ![the Sign in a user window for individual device.](../media/sign-in-user.png)
+   ![The Sign in a user window for individual device.](../media/sign-in-user.png)
 
-This video shows how admins can remotely provision Android-based and SIP devices.
+   This video shows how admins can remotely provision Android-based and SIP devices.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
 
 ## Related articles
 
