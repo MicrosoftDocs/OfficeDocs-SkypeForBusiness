@@ -1549,8 +1549,6 @@ items:
               href: devices/phones-for-teams.md
             - name: Teams displays
               href: devices/teams-displays.md
-            - name: Upgrade Teams phones to Teams displays
-              href: devices/upgrade-phones-to-displays.md
             - name: Teams panels
               items: 
                   - name: Teams panels
@@ -1561,8 +1559,6 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
-            - name: Upgrade Teams phones to Teams displays
-              href: devices/upgrade-phones-to-displays.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices
