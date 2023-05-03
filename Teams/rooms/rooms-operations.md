@@ -258,7 +258,7 @@ The console is now back in its normal operation mode. The following procedure re
    1. Select **Sign Off**.
 5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
 6. Delete the **Teams** folder.
-7. Restart the Teams Room device.
+7. Restart the Teams Rooms device.
 8. Sign in and restart again, once the Teams Room's interface has appeared.
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
