@@ -4346,9 +4346,19 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/communication-compliance.md",
+    "redirect_url": "/microsoft-365/compliance/teams-communication-compliance",
+    "redirect_document_id": false
+  }, 
+  {
     "source_path": "Teams/create-a-phone-system-call-queue-experiment.md",
     "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/devices/upgrade-phones-to-displays.md",
+    "redirect_url": "/microsoftteams/devices/teams-displays",
+    "redirect_document_id": true
   }
  ] 
 }

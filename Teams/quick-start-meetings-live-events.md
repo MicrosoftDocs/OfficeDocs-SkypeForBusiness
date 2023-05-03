@@ -4,8 +4,8 @@ ms.reviewer:
 ms.date: 04/01/2020
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: wlibebe
+author: wlibebe
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -20,7 +20,7 @@ ms.collection:
 - m365initiative-meetings-enabler
 - enabler-strategic
 - highpri
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
