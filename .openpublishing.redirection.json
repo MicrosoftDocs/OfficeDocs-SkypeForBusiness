@@ -4359,6 +4359,16 @@
     "source_path": "Teams/devices/upgrade-phones-to-displays.md",
     "redirect_url": "/microsoftteams/devices/teams-displays",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/requirements.md",
+    "redirect_url": "/microsoftteams/rooms/rooms-plan",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/with-office-365.md",
+    "redirect_url": "/microsoftteams/rooms/create-resource-account",
+    "redirect_document_id": true
   }
  ] 
 }

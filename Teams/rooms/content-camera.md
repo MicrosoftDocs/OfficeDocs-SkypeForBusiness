@@ -97,9 +97,3 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 ![Content camera setup.](../media/content-camera1.png)
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
-
-## See also
-
-[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
-
-[Microsoft Teams Rooms requirements](requirements.md)

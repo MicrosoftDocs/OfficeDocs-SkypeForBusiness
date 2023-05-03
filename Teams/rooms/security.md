@@ -137,7 +137,7 @@ For optimum performance of real time media, we strongly recommend that you confi
 
 Teams Rooms devices don't need to connect to an internal LAN. Consider placing Teams Rooms in a secure network segment with direct Internet access. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Rooms will be reduced.
 
-We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](requirements.md#wireless-network-considerations).
+We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-plan.md#wireless-network-considerations).
 
 Proximity Join and other Teams Rooms features rely on Bluetooth. However, the Bluetooth implementation on Teams Rooms devices doesn't allow for an external device connection to a Teams Rooms device. Bluetooth technology use on Teams Rooms devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for non-connectable devices advertising information to the listening device. There is no Bluetooth device pairing as part of these features. Additional details on Bluetooth protocols can be found on the [Bluetooth SIG website](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/).
 
@@ -215,7 +215,7 @@ Initial device setup and configuration items such as the default username and pa
 
 ### User or resource account
 
-Teams Android devices require the use of a user, or dedicated resource account, to sign into Microsoft 365. We attempt to secure these accounts in specific ways, depending on if it's a normal user account for a personal device or a resource account for a shared device. For more information, see [Create and configure resource accounts for rooms and shared devices](/microsoftteams/rooms/with-office-365).
+Teams Android devices require the use of a user, or dedicated resource account, to sign into Microsoft 365. We attempt to secure these accounts in specific ways, depending on if it's a normal user account for a personal device or a resource account for a shared device. For more information, see [Create and configure resource accounts for rooms and shared devices](/microsoftteams/rooms/create-resource-account).
 
 ### Device updates
 
@@ -243,7 +243,7 @@ Teams Android devices use encrypted communications and endpoint authentication o
 
 Teams Android devices don't need to connect to an internal LAN. Consider placing Teams Android devices in a secure network segment with direct Internet access. For example, Teams Phones could be deployed on a voice VLAN. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Android devices will be reduced by implementing this network segregation.
 
-We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](requirements.md#wireless-network-considerations).
+We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-plan.md#wireless-network-considerations).
 
 Proximity Join, Better Together, Teams Cast, and pairing of Teams panels rely on Bluetooth. Bluetooth technology use on Teams Rooms on Android devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for non-connectable devices advertising information to the listening device. There is no Bluetooth device pairing as part of these features. Additional details on Bluetooth protocols can be found on the Bluetooth SIG website.
 

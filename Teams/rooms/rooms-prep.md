@@ -149,8 +149,6 @@ If you would like to rename the computer after joining it to a domain, use [Rena
 
 [Plan Microsoft Teams Rooms](rooms-plan.md)
 
-[Microsoft Teams Rooms requirements](requirements.md)
-  
 [Deploy Microsoft Teams Rooms](rooms-deploy.md)
   
 [Configure a Microsoft Teams Rooms console](console.md)

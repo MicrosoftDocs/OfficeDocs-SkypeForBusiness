@@ -1401,8 +1401,10 @@ items:
           items: 
             - name: Teams Rooms planning
               href: rooms/rooms-plan.md
-            - name: Requirements
-              href: rooms/requirements.md
+            - name: Security
+              href: rooms/security.md
+            - name: Meeting room guidance for Teams
+              href: rooms/room-planning-guidance.md
             - name: Hardware and operating systems
               items:
                 - name: Certified Teams Rooms hardware
@@ -1421,11 +1423,6 @@ items:
                   href: rooms/admin-center-license-overview.md
                 - name: Teams Rooms legacy licensing
                   href: rooms/rooms-legacy-licensing.md
-            - name: Meeting room guidance for Teams
-              href: rooms/room-planning-guidance.md
-            - name: Plan Azure Monitor
-            - name: Security
-              href: rooms/security.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
             - name: Release notes
@@ -1437,7 +1434,7 @@ items:
             - name: Prepare your environment
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
-              href: rooms/with-office-365.md
+              href: rooms/create-resource-account.md
             - name: Authentication
               items:
               - name: Configure authentication
