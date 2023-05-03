@@ -351,7 +351,6 @@ You’ll have to validate [license requirements for group-based licensing](/azur
 1. Return to the group by selecting the group name. You’ll see a banner stating **License changes are pending**.
 1. Select **Reprocess** to force the license assignment to update.
 
-
 ---
 
 ## Validate user license updates
