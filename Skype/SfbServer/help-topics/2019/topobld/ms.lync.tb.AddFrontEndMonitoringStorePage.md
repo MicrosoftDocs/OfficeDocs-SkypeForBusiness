@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Front End Monitoring Store Page"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
@@ -46,3 +47,4 @@ Click **Help** to access context sensitive help, such as this page.
 ## See also
 
 [Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+

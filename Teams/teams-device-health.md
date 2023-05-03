@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: snchatur
+ms.date: 08/17/2021
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -22,6 +23,10 @@ ms.custom:
 # Manage the health of Teams devices
 
 Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To check the health of a device, you can go to the device list present under the **Teams Devices** section of the Teams admin center. The health status column in this list indicates the current health status of the device. Selecting that status opens the **Health status panel**, which provides more details about health issues.
+
+This video shows how to monitor the health of devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYd]
 
 Many types of issues can contribute towards device health status, and the Teams admin center system evaluates the severity of these issues as they occur.
 

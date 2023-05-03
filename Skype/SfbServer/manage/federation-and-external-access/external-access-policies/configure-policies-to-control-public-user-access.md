@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configure policies to control public user access'
 ms.reviewer: 
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -70,3 +71,4 @@ If this is a user policy, you must also apply the policy to public users that yo
 ## See Also
 
 [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+

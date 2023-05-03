@@ -1,7 +1,7 @@
 ---
 title: Encoder setup for streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: asteele
+ms.date: 08/25/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH

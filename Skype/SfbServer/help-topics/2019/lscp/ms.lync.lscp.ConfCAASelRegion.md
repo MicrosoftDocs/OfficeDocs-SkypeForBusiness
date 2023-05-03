@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Regions"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ConfCAASelRegion
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -24,4 +25,5 @@ Use the **Select Regions** dialog box to find regions available in your environm
 > [!NOTE]
 > To retrieve all available regions, do not type anything in the search box and then click the search icon. 
   
+
 

@@ -5,12 +5,14 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -145,8 +147,11 @@ The table below summarizes the difference between Media Processors and Transport
 |Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
 
 The IP ranges are:
-- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
-- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254)
+- 52.112.0.0/14 (IP addresses from 52.112.0.0 to 52.115.255.255)
+- 52.120.0.0/14 (IP addresses from 52.120.0.0 to 52.123.255.255)
+
+> [!NOTE]
+> IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.
 
 \* Transcoding explanation: 
 

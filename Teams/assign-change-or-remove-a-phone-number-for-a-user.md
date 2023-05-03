@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: davelick, roykuntz, jastark
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- Tier1
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium

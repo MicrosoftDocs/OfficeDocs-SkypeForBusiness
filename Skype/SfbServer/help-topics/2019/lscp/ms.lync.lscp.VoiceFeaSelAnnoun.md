@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select an Announcement Service"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceFeaSelAnnoun
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -25,4 +26,5 @@ In the search box, type all or part of the name of the Announcement service that
   
 In the list of Announcement services returned by the search, select the service you want to use to handle incoming calls to the range of unassigned numbers.
   
+
 

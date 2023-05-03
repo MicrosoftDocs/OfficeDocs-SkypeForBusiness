@@ -3,6 +3,7 @@ title: Assign policies to users and groups
 author: mkbond007
 ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.date: 11/15/2019
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -23,6 +24,10 @@ f1keywords:
 # Assign policies to users and groups
 
 This article reviews the different ways to assign policies to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
+
+This video shows how to assign policies to multiple users.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbM?autoplay=false]
 
 ## Assign a policy to individual users
 
@@ -184,7 +189,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 #### Remove a policy from a group
 
-Use the [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
+Use the [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to other groups, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 

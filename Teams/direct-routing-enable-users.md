@@ -1,6 +1,7 @@
 ---
 title: "Enable users for Direct Routing"
 ms.reviewer: filippse
+ms.date: 04/30/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

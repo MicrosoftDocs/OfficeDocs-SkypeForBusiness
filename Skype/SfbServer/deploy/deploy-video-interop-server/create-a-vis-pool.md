@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create a VIS pool in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -67,3 +68,4 @@ All tasks performed using Topology Builder should now be complete. Proceed to in
 [Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+

@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeploySSRSGroups
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: "In the Specify Read-Only Group, specify the group to whom you want to grant read-only access to Monitoring reports."

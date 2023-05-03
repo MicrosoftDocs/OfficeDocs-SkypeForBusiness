@@ -3,6 +3,7 @@ title: Manage devices with administrative units
 author: CarolynRowe
 ms.author: crowe
 ms.reviewer: prasad.ghlove
+ms.date: 07/14/2021
 manager: serdars
 ms.topic: article
 audience: admin

@@ -3,13 +3,16 @@ title: Update Microsoft Teams devices remotely
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
+ms.date: 06/24/2020
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -109,5 +112,11 @@ When you select a single device, updates that are available for the device are s
 
 After you select **Update**, updates are applied to your devices at the date and time you selected if you scheduled an update. If you didn't select a future date and time, updates are applied to your devices within a few minutes.
 
+
 > [!NOTE]
 > To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
+
+This video shows how to update Teams devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbK?autoplay=false]

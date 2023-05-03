@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Test - Skype for Business Server Site Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SiteScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
@@ -35,4 +36,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help.** You can use this option to access Help for the active node.
     
+
 

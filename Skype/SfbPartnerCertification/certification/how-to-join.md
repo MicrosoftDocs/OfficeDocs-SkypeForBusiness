@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business certification program - How to Join"
 ms.author: serdars
 author: msdmaguire
@@ -186,3 +187,4 @@ Programs that are not listed below are currently closed.
 
 > [!NOTE]
 > Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results do not constitute a certification or endorsement from Microsoft and would not be used in any Microsoft material.
+

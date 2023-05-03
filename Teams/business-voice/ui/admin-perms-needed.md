@@ -3,14 +3,11 @@ title: Admin permissions needed to buy Microsoft 365 Business Voice
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 02/05/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - Teams_Business_Voice
 search.appverid: MET150
 description: 
 appliesto: 
@@ -18,6 +15,7 @@ appliesto:
 ROBOTS: NOINDEX, NOFO
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Admin permissions needed to buy Microsoft 365 Business Voice

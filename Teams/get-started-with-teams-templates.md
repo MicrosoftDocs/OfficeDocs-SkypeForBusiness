@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 09/12/2018
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 

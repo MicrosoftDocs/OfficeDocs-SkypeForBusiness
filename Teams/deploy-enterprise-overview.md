@@ -3,6 +3,7 @@ title: Microsoft Teams enterprise deployment overview
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 01/29/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -26,6 +27,9 @@ If you're a medium or large business, you need to think about how you're going t
 > If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
 
 ## Architecture
 

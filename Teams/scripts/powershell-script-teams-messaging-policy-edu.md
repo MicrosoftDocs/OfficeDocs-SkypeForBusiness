@@ -5,6 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
+ms.date: 09/11/2018
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.

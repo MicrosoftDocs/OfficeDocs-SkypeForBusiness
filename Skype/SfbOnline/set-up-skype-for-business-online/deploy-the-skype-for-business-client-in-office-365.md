@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Deploy the Skype for Business client in Microsoft 365 aor Office 365"
 ms.reviewer: 
 ms.author: tonysmit
@@ -154,3 +155,4 @@ You can control how often you get feature updates by using the Office Deployment
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
+

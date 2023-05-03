@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove a Front End Server from a pool"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -27,4 +28,5 @@ This topic guides you through the process of removing an individual Front End Se
     
 3. Expand **Enterprise Edition Front End pools**, expand the Front End pool with the Front End Server that you want to remove, right-click the Front End Server that you want to remove, and then click **Delete**.
     
+
 

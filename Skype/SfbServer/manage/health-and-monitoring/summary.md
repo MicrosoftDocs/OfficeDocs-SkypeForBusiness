@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Media Quality Summary Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -136,4 +137,5 @@ The following table lists the information provided in the Media Quality Summary 
 |**Avg. RDP tile processing latency** <br/> |No  <br/> |The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. A high average reflects a longer delay in the viewing experience, and includes network latency. An overloaded conferencing server may experience higher average delays.  <br/> |
 |**Total spoiled tile %** <br/> |No  <br/> |Total percentage of spoiled RDP tiles.  <br/> |
    
+
 

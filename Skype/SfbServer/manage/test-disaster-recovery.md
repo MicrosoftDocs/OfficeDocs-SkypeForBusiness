@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2018
 title: "Disaster recovery testing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -52,3 +53,4 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 - Sip.\<domain>
 - AV.\<domain>
 - webconf.\<domain>
+

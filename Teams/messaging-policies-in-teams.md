@@ -4,6 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: jastark
+ms.date: 08/08/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -114,7 +115,48 @@ Here are the messaging policy settings that you can configure.
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
 
+## Closed captions for video messages in Teams Chat
+
+Teams Chat supports closed captions for video messages. Users can disable captions at any point in time if they don't wish to see them.
+
+> [!NOTE]
+> Captions are auto-generated and currently available only in English.
+
+As an administrator, you can hide or show captions for users by using the PowerShell cmdlet.
+
+-	Use the following command to enable captions:
+
+     
+    ```powershell
+    Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $true
+          
+    ```
+
+
+-	Use the following command to disable captions:
+
+    
+    ```powershell
+    Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $false
+        
+    ```
+
+
+- Use the following command to get the value for `TeamsMessagingConfiguration`:	
+
+    
+    ```powershell
+    Get-CsTeamsMessagingConfiguration
+        
+    ```
+
+
+For more information about PowerShell, see [Microsoft Teams PowerShell Overview - Microsoft Teams | Microsoft Learn](teams-powershell-overview.md)
+
+
+
 ### Related topics
 
+- [Teams policies reference - Messaging policies](settings-policies-reference.md#messaging-policies)
 - [Assign policies to users and groups in Teams](assign-policies-users-and-groups.md)
 - [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)

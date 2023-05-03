@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Prevent sessions for services"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -51,4 +52,5 @@ You can use the legacy installs Control Panel to prevent new sessions for all th
     
 9. Click **Close**.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 10/03/2018
 title: "Skype for Business Server - View information about individual SIP trunks"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -36,3 +37,4 @@ This command returns information only for the SIP trunk with the Identity PstnGa
 In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:
 
 `Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"`
+

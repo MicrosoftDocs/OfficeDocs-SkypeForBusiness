@@ -7,6 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: 
+ms.date: 03/06/2018
 ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to manage tenant-wide and user settings for Teams during the transition from Teams in the Microsoft 365 admin center to the new Teams admin center.
 ms.localizationpriority: medium

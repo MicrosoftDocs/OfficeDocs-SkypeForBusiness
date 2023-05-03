@@ -3,6 +3,7 @@ title: Set up meeting dial-out-confirmation for your users in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: oscarr
+ms.date: 09/26/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to set up Teams to request a dial-out confirmation to pre
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---

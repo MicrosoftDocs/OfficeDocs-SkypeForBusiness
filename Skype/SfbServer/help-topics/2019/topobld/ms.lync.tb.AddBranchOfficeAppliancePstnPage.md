@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Survivable Branch Appliance PSTN"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
@@ -36,4 +37,5 @@ To define the public switched telephone network (PSTN) gateway for a Survivable 
 > [!NOTE]
 > If you want to add a PSTN gateway, you can set it up later, but full functionality will be limited until the PSTN gateway is defined and configured. 
   
+
 

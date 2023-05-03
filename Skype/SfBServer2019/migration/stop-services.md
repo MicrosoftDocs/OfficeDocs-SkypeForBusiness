@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Stop legacy services"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -47,4 +48,5 @@ You can use Skype for Business Server Control Panel to start or stop all the leg
     
 8. Click **Close**.
     
+
 

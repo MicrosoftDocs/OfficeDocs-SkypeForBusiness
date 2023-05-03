@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable anonymous user access'
 ms.reviewer: 
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -61,3 +62,4 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 ## See Also
 
 [Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  
+

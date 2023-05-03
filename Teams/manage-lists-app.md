@@ -3,6 +3,7 @@ title: Manage the Lists app for your organization
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
+ms.date: 09/26/2018
 manager: samanro
 ms.topic: how-to
 audience: admin
@@ -22,6 +23,7 @@ ms.collection:
   - microsoftcloud-retail
   - m365initiative-lists
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 

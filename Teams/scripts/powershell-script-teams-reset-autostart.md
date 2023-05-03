@@ -5,6 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
+ms.date: 01/13/2020
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to reset the autostart setting in Teams on a per-user basis.  

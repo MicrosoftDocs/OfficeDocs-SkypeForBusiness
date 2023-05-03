@@ -1,11 +1,12 @@
 ---
+ms.date: 11/05/2018
 title: "Decide how to manage attributes after decommissioning"
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 
 - Hybrid 
@@ -199,4 +200,5 @@ This option requires more effort and proper planning because users who were move
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
 

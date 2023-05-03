@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Data API for Call Quality Dashboard (CQD) in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -55,5 +56,6 @@ Remember to include the exact protocol, host name, and port (if any). Do not to 
 ...  </appSettings>
 </configuration>
 ```
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install or Update Skype for Business Server System"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium

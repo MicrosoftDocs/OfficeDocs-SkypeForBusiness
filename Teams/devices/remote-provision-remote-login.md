@@ -3,13 +3,16 @@ title: Remote provisioning and sign in for Teams Android devices
 author: dstrome
 ms.author: dstrome
 manager: serdars
+ms.date: 01/04/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 appliesto: 
@@ -112,7 +115,11 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-   ![the Sign in a user window for individual device.](../media/sign-in-user.png)
+   ![The Sign in a user window for individual device.](../media/sign-in-user.png)
+
+   This video shows how admins can remotely provision Android-based and SIP devices.
+
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
 
 ## Related articles
 

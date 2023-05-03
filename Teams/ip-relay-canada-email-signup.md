@@ -4,11 +4,13 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: 
+ms.date: 04/04/2018
 ms.topic: conceptual
 ms.assetid: 
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

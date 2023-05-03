@@ -10,6 +10,7 @@ ms.custom: chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
+ms.date: 10/24/2019
 search.appverid: MET150
 description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users.
 ms.localizationpriority: medium

@@ -1,14 +1,16 @@
 ---
 title: "Using the CQD PSTN Direct Routing report"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: siunies, fan.fan
+ms.date: 03/06/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

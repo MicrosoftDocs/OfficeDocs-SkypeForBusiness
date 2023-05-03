@@ -13,6 +13,7 @@ description: Outlines the potential uses and benefits of Teams Rooms systems and
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - tier2
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

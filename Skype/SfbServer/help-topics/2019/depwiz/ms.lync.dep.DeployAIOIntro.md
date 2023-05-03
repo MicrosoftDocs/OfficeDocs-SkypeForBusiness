@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Single Standard Edition Server (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployAIOIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ This particular task is designed to set up a Standard Edition server as the firs
 > [!NOTE]
 > After completing this task, you will install Topology Builder (if you have not already installed it) and configure your topology document. You cannot publish your topology document until you have a Central Management store available—which is deployed by completing the task described in this topic. 
   
+
 

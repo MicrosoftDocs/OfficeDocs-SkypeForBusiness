@@ -1,6 +1,7 @@
 ---
-title: "Here's what you get with Phone System"
+title: "Phone System features"
 ms.reviewer: 
+ms.date: 11/28/2017
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -25,7 +27,7 @@ ms.custom:
 description: "Learn about the features, availability, and how to plan and set up Microsoft Phone System for your business. "
 ---
 
-# Here's what you get with Phone System
+# Phone System features
 
 This article describes Phone System features. For more information about using Phone System as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Phone System](what-is-phone-system-in-office-365.md).
 
@@ -79,7 +81,6 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Call settings for secondary ringer, voicemail, and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call phone number from search bar
-- Music on hold
 - Azure AD reverse number lookup
 
 ## Related topics

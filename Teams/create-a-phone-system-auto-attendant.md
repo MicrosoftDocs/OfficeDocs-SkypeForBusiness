@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -25,7 +27,6 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
-
 --- 
 
 # Set up a Microsoft Teams auto attendant
@@ -47,13 +48,17 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 > [!NOTE]
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
->
-> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted.  If an operator isn't defined, the auto attendant will drop the call.
+
+>[!IMPORTANT]
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times. 
+> 
+> If an operator isn't defined, the auto attendant will drop the call.
+> 
+> In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
 ## What's new for auto attendants in the past six months
 
-- September - **Force Listen** option now available with **Play menu option** for Call flow, Call flow for after hours, and Call flow during holidays.
-- August - **Play menu options** in Call flow, Call flow for after hours, and Call flow during holidays now support \* (asterisk) and \# (pound) keys.
+- No new features in the past 6 months.
 
 ## Steps to create an auto attendant
 
@@ -101,6 +106,9 @@ Once you've set your auto attendant's general info, select **Next**.
 
 - If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
+>[!NOTE]
+> When using *Text to Speech*, the text must be entered in the language selected for the auto attendant. The system doesn't perform translation.
+
 ### Route the call
 
 - If you select **Disconnect**, the auto attendant will hang up the call.
@@ -108,9 +116,6 @@ Once you've set your auto attendant's general info, select **Next**.
 - If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
 #### Play menu options
-
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
-*New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
 
 For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
 
@@ -169,9 +174,6 @@ Once you've added your after hours call flow, select **Next**.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
 
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
-*New - \* (asterisk) and \# (pound) keys can now be used in menu options.*
-
 1. On the Holiday call settings page, select **Add**.
 
 1. Type a name for this holiday setting.
@@ -217,6 +219,26 @@ To add a resource account, select **Add account** and search for the account tha
 Once you've added resource accounts, select **Next**.
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+
+## [Step 7: Authorized users](#tab/authorized-users)
+
+## Step 7: Authorized users
+
+**Authorized users** specifies the users who are authorized to make changes to this auto attendant.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+
+To **add a user** to the authorized users:
+
+1. Select **Add**, search for the user, select **Add**, and then select **Add**.
+
+> [!IMPORTANT]
+> A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
+>
+> A user won't be able to make any configuration changes if:
+>
+> - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
+> - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
+
+See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
 
 ---
 

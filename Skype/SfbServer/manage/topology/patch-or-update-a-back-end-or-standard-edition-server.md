@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Patch or update a Back End Server or Standard Edition server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -80,3 +81,4 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     Install-CsDatabase -Update -LocalDatabases
 
     ```
+

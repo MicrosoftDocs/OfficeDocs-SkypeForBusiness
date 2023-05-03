@@ -1,3 +1,6 @@
+---
+ms.date: 11/28/2017
+---
 ## Video demonstration
 
 This video shows a basic example of how to create an auto attendant in Microsoft Teams.

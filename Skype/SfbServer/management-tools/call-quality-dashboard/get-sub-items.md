@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Sub-Items"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -71,4 +72,5 @@ The Item object returned by Sub-Items operation only contains the following thre
 > [!NOTE]
 >  `Content` and `subItems` fields are not included in the response to reduce the amount of data transmitted over the network.
   
+
 

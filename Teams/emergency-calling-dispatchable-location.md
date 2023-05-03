@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz
+ms.date: 08/22/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -69,8 +71,10 @@ The following table shows the types of emergency addresses and associated routin
 | Dynamically acquired emergency address defined by administrator. | Direct to PSAP. |
 | Emergency address obtained from the operating system **without confirmation for accuracy** by the user. | Screened and Transferred to PSAP. |
 | Emergency address obtained from the operating system **with confirmation for accuracy** by the user.| Direct to PSAP. |
-| Emergency address obtained from the operating system and edited and confirmed by the user. | Screened and Transferred to PSAP. |
-| Emergency address entered and confirmed by the user. | Screened and Transferred to PSAP. |
+| Emergency address obtained from the operating system and edited through address autosuggest. | Direct to PSAP. |
+| Emergency address obtained from the operating system and manually edited and confirmed by the user.  | Screened and Transferred to PSAP. |
+| Emergency address entered manually and confirmed by the user. | Screened and Transferred to PSAP. |
+| Emergency address entered through address autosuggest and confirmed by the user.   | Direct to PSAP.  |
 | Emergency address statically assigned to the user/number. | Screened and Transferred to PSAP. |
 | Null | Screened and Transferred to PSAP. |
 
@@ -128,4 +132,3 @@ Keep the following in mind:
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 
 - [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
-

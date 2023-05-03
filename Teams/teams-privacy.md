@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
+ms.date: 04/14/2020
 description: Privacy guidance and information for Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150

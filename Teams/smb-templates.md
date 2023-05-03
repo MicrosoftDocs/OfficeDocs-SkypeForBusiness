@@ -15,6 +15,7 @@ f1.keywords:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: lavenkat
+ms.date: 07/01/2019
 description: Use Microsoft Teams predefined templates built in Microsoft Graph to quickly and easily create teams for small and medium businesses.
 ms.custom: 
   - seo-marvel-mar2020

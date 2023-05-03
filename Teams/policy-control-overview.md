@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
+ms.date: 05/06/2020
 description: An overview of the policy controls for Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Assign a server-to-server authentication certificate to Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -79,4 +80,5 @@ After the certificate has been imported to all your Front End Servers, that cert
     
 9. Close the Certificate Wizard and the Deployment Wizard.
     
+
 

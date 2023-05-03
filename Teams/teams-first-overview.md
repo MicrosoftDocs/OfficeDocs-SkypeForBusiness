@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lsomi
+ms.date: 03/20/2020
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.

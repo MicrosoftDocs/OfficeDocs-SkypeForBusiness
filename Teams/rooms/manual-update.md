@@ -7,14 +7,17 @@ audience: ITPro
 appliesto: 
   - Microsoft Teams
 ms.reviewer: sohailta
+ms.date: 12/17/2020
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn how to manually update your Microsoft Teams Rooms device to a specific version.
 ---
 

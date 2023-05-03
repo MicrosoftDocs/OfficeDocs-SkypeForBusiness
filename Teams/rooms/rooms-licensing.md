@@ -4,13 +4,16 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 03/16/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -139,7 +142,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 |:--------------------------------------------------------------------|:---------------------------:|:-------------------------:|
 | **Secure operating system**                                         | &#x2714;                    | &#x2714;                  |
 | **System level security (Secure boot, Assigned Access mode, etc.)** | &#x2714;                    | &#x2714;                  |
-| **Azure AD condition access policies**                              |                             | &#x2714;                  |
+| **Azure AD conditional access policies**                              |                             | &#x2714;                  |
 
 ### Device management
 

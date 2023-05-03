@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
+ms.date: 09/13/2018
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
 ms.localizationpriority: high
 f1.keywords:
@@ -27,7 +28,7 @@ appliesto:
 
 This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
-As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
+As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
 
 - Global Administrator
 - Teams Administrator
@@ -82,9 +83,43 @@ This video shows the steps to view and edit the details of an existing team.
 
 You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
 
-### Delete
+### Deleted Teams
 
-Deleting a team is a soft-delete of the team and corresponding Microsoft 365 group. To restore a mistakenly deleted team, follow the instructions in [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
+If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
+ 
+    ![view-deleted-teams](media/actions-menu.png)
+   
+ 3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
+ 
+    ![list-of-deleted-teams](media/selected-team.png)
+ 
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
+
+### Expiring Teams
+
+If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
+
+ 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 
+ 2. Select **Filter**, and in the **Filter** section, do the following:
+ 
+     1. Select **Match all these conditions**. 
+     
+     2. Choose the **Expiration Date** and select one of values from the list (for example: in the next 7 days, in the next 14 days, or in the next 30 days).
+     
+     3. Click **Apply**.
+ 
+ 4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
+
+    ![list-of-expiring-teams](media/expired-team.png)
+    
+ > [!NOTE]
+ > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
 
 ### Search
 
@@ -129,7 +164,7 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
-2. Sign in to Graph Explorer on the left menu.
+2. Sign in to Graph Explorer on the right of the top menu.
 
 3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}.
 

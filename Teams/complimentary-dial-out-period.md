@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

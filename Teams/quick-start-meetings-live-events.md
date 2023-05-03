@@ -1,10 +1,11 @@
 ---
 title: Meetings, webinars, and live events
 ms.reviewer: 
+ms.date: 04/01/2020
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
-author: CarolynRowe
-ms.author: crowe
+ms.author: wlibebe
+author: wlibebe
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -19,15 +20,13 @@ ms.collection:
 - m365initiative-meetings-enabler
 - enabler-strategic
 - highpri
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ---
 
 # Meetings, webinars, and live events
-
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
@@ -63,7 +62,7 @@ Note that NDI is fully supported in meetings, webinars, and live events, allowin
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
-In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
+In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
@@ -74,8 +73,8 @@ The following table highlights key articles that you'll want to review:
 | Article | Description |
 |----------|--------|
 | [Meeting settings](meeting-settings-in-teams.md) |  Describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
-| [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. | 
-| [Manage Teams cloud meeting recording](cloud-recording.md) | Describes how to manage meeting recordings. |
+| [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. |
+| [Manage Teams meeting recording](meeting-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 | [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users.|
 
@@ -116,16 +115,14 @@ You'll want to start using the new policy to take advantage of new functionality
 
 For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
 
-
 ### Key training for end users
 
 The following table lists training available to the end users in your organization:
 
-| Training | Description | 
+| Training | Description |
 |----------|--------|
 | [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | A quick training video for users who are new to Teams webinars. |
 | [Visual quick start guide](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars. |
-
 
 ## Live events
 
@@ -148,8 +145,8 @@ The following table lists training available to the end users in your organizati
 
 | Training | Description |
 |:----------|:--------|
-| [Get started with live events](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) | An introduction to live events and how to get started. |
-| [Teams Live Events video training](https://support.microsoft.com/en-us/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502?ui=en-US&rs=en-US&ad=US) | Video that describes how to plan and schedule a live event.  |
+| [Get started with live events](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a) | An introduction to live events and how to get started. |
+| [Teams Live Events video training](https://support.microsoft.com/office/f92363a0-6d98-46d2-bdd9-f2248075e502) | Video that describes how to plan and schedule a live event.  |
 
 To produce larger scale virtual events, review the [Virtual Event Guide](https://adoption.microsoft.com/virtual-event-guidance/), which has guidance for event organizers, technical producers, IT professionals, and content creators.
 
@@ -163,7 +160,7 @@ The following table lists articles for more information:
 
 | Article | Description |
 |----------|--------|
-| [Overview of Teams apps](deploy-apps-microsoft-teams-landing-page.md) | Introduction to apps and how to deploy apps for your organization. |
+| [Overview of Teams apps](apps-in-teams.md) | Introduction to apps and how to deploy apps for your organization. |
 | [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
 | [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 
@@ -240,4 +237,3 @@ Your organizers and presenters should implement the below recommendations:
 [Teams view-only meeting experience](view-only-meeting-experience.md)
 
 [Limits and specifications for Teams](limits-specifications-teams.md)
-

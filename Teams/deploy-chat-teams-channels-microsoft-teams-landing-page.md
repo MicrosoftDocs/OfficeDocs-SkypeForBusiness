@@ -1,6 +1,7 @@
 ---
 title: Chat, teams, channels, & apps in Microsoft Teams
 ms.reviewer: 
+ms.date: 10/30/2018
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -37,7 +38,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [Teams apps](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.
 
  > [!Note]
  > For details about Teams features on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -150,7 +151,7 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 
 Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
-To learn more about rolling out and managing apps in Teams, see our in-depth [app management](deploy-apps-microsoft-teams-landing-page.md) guidance.
+To learn more about rolling out and managing apps in Teams, see our in-depth [app management](apps-in-teams.md) guidance.
 
 ## Additional deployment decisions
 
@@ -245,6 +246,6 @@ The use of Office 365 for Government - GCC (Government Community Cloud) is appro
 ## Next steps
 
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of chat, teams, channels, & apps.
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](apps-in-teams.md) as you drive Teams adoption.
 - [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)

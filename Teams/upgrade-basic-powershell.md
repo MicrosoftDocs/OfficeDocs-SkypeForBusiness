@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 07/12/2018
 description: Learn about a stopgap for upgrading to Microsoft Teams if the Admin Center hasn't lit up in your tenant. 
 ms.localizationpriority: medium
 search.appverid: MET150

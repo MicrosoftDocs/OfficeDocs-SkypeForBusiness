@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -29,7 +31,6 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
-
 ---
 
 # Create a call queue in Microsoft Teams
@@ -47,9 +48,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- August
-  - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.
-  - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.
+- No new features in the past 6 months.
 
 ## Steps to create a call queue
 
@@ -147,13 +146,14 @@ Once you've selected a language, select the **Next** button at the bottom of the
 
 ## Step 2: Add a greeting and on-hold music
 
-*New - **Add a greeting message** (Text to Speech (TTS)) is now supported for the call queue main greeting.*
-
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
 - If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
 - If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
+
+>[!NOTE]
+> When using *Text to Speech*, the text must be entered in the language selected for the call queue. The system doesn't perform translation.
 
 Teams provides default music to callers while they are *on hold in a queue*.
 
@@ -179,7 +179,7 @@ To [use a Teams channel to manage the queue](https://support.microsoft.com/offic
 
 1. Select the **Choose a team** radio button and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard or private channels are supported) and select **Apply**.
+1. Select the channel that you want to use (only standard channels are fully supported) and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -190,8 +190,17 @@ The following clients are supported when using a Teams channel for call queues:
 > If you use this option, it can take up to 24 hours for the call queue to be fully operational.
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
-> 
-> Calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+
+> [!IMPORTANT]
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
+> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
+>
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
 
 ### Users and groups
 
@@ -319,8 +328,6 @@ You can choose to **disconnect** the call or **redirect** it to any of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
@@ -342,14 +349,32 @@ You can choose to **disconnect** the call or **redirect** it to one of the call 
 
 For example, you might have the caller leave a voicemail for the agents in the queue.
 
-*New - **Skip voicemail system message** controls are now exposed when routing to shared voicemail, which also applies to **Add a greeting message** prompts.*
-
 For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 > [!NOTE]
 > Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
+
+## [Step 7: Authorized users](#tab/authorized-users)
+
+## Step 7: Authorized users
+
+**Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+
+To **add a user** to the authorized users:
+
+1. Select **Add**, search for the user, select **Add**, and then select **Add**.
+
+> [!IMPORTANT]
+> A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
+>
+> A user won't be able to make any configuration changes if:
+>
+> - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
+> - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
+
+See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
 
 ---
 
@@ -397,10 +422,10 @@ The following settings are recommended:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
 4. It's not possible to set the order the agents will be called in.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing. For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Only public channels are supported.
+8. Only standard channels are supported.
 9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

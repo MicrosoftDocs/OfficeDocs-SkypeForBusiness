@@ -1,6 +1,7 @@
 ---
 title: "Configure Session Border Controller - Multiple tenants"
 ms.reviewer: filippse
+ms.date: 06/27/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

@@ -3,6 +3,7 @@ title: Application-based authentication in Teams PowerShell Module
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
+ms.date: 09/09/2022
 manager: sshastri
 ms.topic: conceptual
 audience: admin
@@ -16,7 +17,9 @@ appliesto:
 
 # Application-based authentication in Teams PowerShell Module
 
-Application-based authentication is supported now in Teams PowerShell Module with versions 4.7.1-preview or later. Currently this mode of authentication is only supported in commercial environments.
+Application-based authentication is supported now in Teams PowerShell Module with 
+  - Versions 4.7.1-preview or later in commercial & GCC environments.
+  - Versions 5.0.1-preview or later in GCC High & DoD environments.
 
 
 ## Cmdlets Supported
@@ -42,6 +45,13 @@ The following examples show how to use Teams PowerShell Module with the Azure AD
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   When you use the CertificateThumbprint parameter, the certificate needs to be installed on the computer where you're running the command. The certificate should be installed in the user certificate store.
+  
+- Connect using a certificate object:
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  When you use the Certificate parameter, the certificate doesn't need to be installed on the computer where you're running the command. The certificate can be remotely stored & fetched when the script is run. The Certificate parameter is available from Teams PowerShell Module version 4.9.2-preview or later.
   
 - Connect using Access Tokens:
   

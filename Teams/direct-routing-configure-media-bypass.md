@@ -5,12 +5,14 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -58,6 +60,3 @@ For a list of Session Border Controllers (SBCs) certified for Direct Routing, se
 ## Related topics
 
 [Plan media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
-
-
-

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call List Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -88,4 +89,5 @@ The following table lists the information provided in the Call List Report for e
 |**Healer compressed ratio** <br/> |Yes  <br/> |Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.  <br/> |
 |**Connectivity** <br/> |Yes  <br/> | Type of wireless communication link. Typically, this is one of the following: <br/>  Relay <br/>  Direct <br/> |
    
+
 

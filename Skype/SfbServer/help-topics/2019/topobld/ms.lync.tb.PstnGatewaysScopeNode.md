@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "PSTN Gateways Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the PSTN gateway options, you can perform the following general t
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

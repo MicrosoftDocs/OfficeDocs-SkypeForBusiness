@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Session details report"
 ms.author: tonysmit
 author: tonysmit
@@ -120,3 +121,4 @@ For each session, there is a sub table with different data available depending o
 
   
  
+

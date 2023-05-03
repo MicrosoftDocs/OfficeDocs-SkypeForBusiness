@@ -1,9 +1,10 @@
 ---
-title: "Set up Communications Credits for your organization"
-ms.author: crowe
-author: CarolynRowe
+title: Set up Communications Credits for your organization
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.reviewer: mikedav
+ms.date: 04/19/2023
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -22,8 +24,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
-  - seo-marvel-apr2020
-description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization."
+description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
 ---
 
 # Set up Communications Credits for your organization

@@ -4,6 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: serdars
 ms.reviewer: garciadaniel
+ms.date: 08/22/2022
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,7 @@ ms.service: msteams
 search.appverid: 
 ms.collection: 
 - M365-voice
+- Tier1
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium

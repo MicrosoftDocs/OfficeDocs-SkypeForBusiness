@@ -4,12 +4,14 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto:

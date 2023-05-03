@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Servers Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MediationServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the Mediation pool options, you can perform the following general
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

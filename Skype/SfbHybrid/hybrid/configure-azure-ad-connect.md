@@ -1,14 +1,15 @@
 ---
+ms.date: 11/14/2018
 title: "Configure Azure AD Connect"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
@@ -115,3 +116,4 @@ In this scenario, there are multiple forests, each containing Skype for Business
 - [Topologies for Azure AD Connect](/azure/active-directory/hybrid/plan-connect-topologies)
 
 - [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+

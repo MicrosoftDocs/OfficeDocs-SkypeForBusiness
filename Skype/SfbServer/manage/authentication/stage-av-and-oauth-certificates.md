@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate"
 ms.reviewer:
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -126,3 +127,4 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 [Set-CsCertificate](/powershell/module/skype/set-cscertificate)
 
 [Remove-CsCertificate](/powershell/module/skype/remove-cscertificate)
+

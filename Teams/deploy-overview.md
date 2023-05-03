@@ -3,6 +3,7 @@ title: Microsoft Teams deployment overview
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -24,6 +25,9 @@ appliesto:
 > Are you looking for information on how to install the Teams client on your PC or mobile device? Go here: [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
 Hi! Thanks for choosing Microsoft Teams. Whether you're a five-person law firm, or a large multi-national distributor, Teams can help bring your organization together via chats, voice calling, video conferences, file sharing, and more. And no matter whether you're just getting into collaboration tools for the first time, or if you're upgrading to Teams from Microsoft Skype for Business, we can help you get up and running.
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
 
 Because Teams supports such a wide array of organization types and starting points, there are several options for setting it up. To help you find the information you need, we've split up some articles into two audiences: **Small business** (fewer than 50 users) and **Medium/large business** (more than 50 users). When reading an article, choose the audience tab that best matches your organization. Here are what the tabs look like:
 

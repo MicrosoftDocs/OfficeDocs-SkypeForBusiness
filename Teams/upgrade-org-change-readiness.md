@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/17/2018
 description: Learn how to assess your organization's readiness for a successful transition to Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

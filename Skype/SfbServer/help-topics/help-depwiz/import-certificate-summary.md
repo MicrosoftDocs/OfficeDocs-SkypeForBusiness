@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertImportSummary
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 description: "On the Import Certificate Summary page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click Next to continue."

@@ -1,14 +1,15 @@
 ---
+ms.date: 04/03/2021
 title: Decommission your on-premises Skype for Business environment
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
@@ -38,4 +39,5 @@ To complete your move from on-premises to the cloud and decommission your on-pre
 - **Step 3.** [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md).
 
 - **Step 4.** [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
+
 

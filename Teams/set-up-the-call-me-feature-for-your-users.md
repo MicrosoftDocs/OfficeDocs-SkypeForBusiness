@@ -1,8 +1,9 @@
 ---
 title: Set up the Call me feature for your users
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: macai, phedry
+ms.date: 05/28/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to set up the Call me feature in Teams so that users can 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 f1.keywords:
 - NOCSH
 appliesto: 

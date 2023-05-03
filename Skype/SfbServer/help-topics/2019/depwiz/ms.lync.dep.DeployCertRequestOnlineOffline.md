@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Online Offline)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRequestOnlineOffline
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ To create a delayed request or an offline request, select **Prepare the request 
   
 After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.
   
+
 

@@ -3,6 +3,7 @@ title: Check your Internet connection for Teams Phone System
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 09/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,6 +16,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - tier2
 ---
 
 # Check your internet connection for Teams Phone System
