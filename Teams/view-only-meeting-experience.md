@@ -136,4 +136,4 @@ The view-only attendee won't be able to experience the following options in meet
   
   ## Networking Considerations
   
-  Teams View-Only meetings utilises the same platform as Teams Live Events. View-Only attendees receive meeting content, audio and video as TCP HTTPS streams. We strongly recommend that customers bypass proxy infrastructure for Teams Live Events URLs and IP addresses. For more information, refer to the [Azure CDN documentation](https://learn.microsoft.com/azure/cdn/cdn-pop-locations).
+  Teams View-Only meetings utilises the same platform as Teams Live Events. View-Only attendees receive meeting content, audio and video as TCP HTTPS streams. We strongly recommend that customers bypass proxy infrastructure for Teams Live Events URLs and IP addresses. For more information, refer to the [Azure CDN documentation](/azure/cdn/cdn-pop-locations).
