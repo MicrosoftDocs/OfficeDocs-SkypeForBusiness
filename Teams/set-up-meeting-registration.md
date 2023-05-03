@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: justle, ritikag
-ms.date: 03/29/2023
+ms.date: 05/03/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,7 +30,7 @@ description: Learn how to set up and manage meeting registration policies in Tea
 
 This article describes how you, as an admin, can set up and manage meeting registration for your end users in Microsoft Teams meetings.
 
-A meeting is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants. Meetings can include an attendance report and require registration from attendees. However, meeting registration has limited branding and event page configuration. Webinars, on the other hand, allow organizers to include custom branding, as well as use additional registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
+A meeting is a collaborative virtual meeting where organizers can require participants to register. During meetings, participants can discuss and share information with each other. These meetings can accommodate up to 20k participants. Meetings can include an attendance report and require registration from attendees. However, meeting registration has limited branding and event page configuration. Webinars, on the other hand, allow organizers to include custom branding, and use extra registration settings, management features, and more. For information on how to set up webinars, see [Set up webinars.](set-up-webinars.md)
 
 Read more about the meeting registration experience for your end users in [Schedule a Teams meeting with registration](https://support.microsoft.com/office/411e-9be6-9ed1b4a9f04a).
 
