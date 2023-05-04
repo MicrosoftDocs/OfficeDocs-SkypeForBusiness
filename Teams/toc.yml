@@ -1862,8 +1862,6 @@ items:
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
-        - name: Get familiar with Microsoft Teams
-          href: drive-adoption-optimize-kaizala.md        
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams
