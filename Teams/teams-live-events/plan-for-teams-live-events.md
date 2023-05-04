@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.reviewer: sonua
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
