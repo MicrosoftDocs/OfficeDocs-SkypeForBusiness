@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier1
+  - Tier3
 ms.custom: 
   - seo-marvel-mar2020
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
