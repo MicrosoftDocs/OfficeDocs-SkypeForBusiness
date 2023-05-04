@@ -123,6 +123,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+| DTEN D7X 55" | `1.2.2` | April 21, 2023 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|--|
 | D7X55 - Meeting board | `1.2.7.0` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
