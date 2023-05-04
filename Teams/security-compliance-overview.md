@@ -156,7 +156,7 @@ See [Overview of retention policies](/microsoft-365/compliance/retention-policie
 
 ### Retention policies
 
-Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that aren't relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For more information, see [Retention policies in Microsoft Teams](retention-policies.md).
+Retention policies in Microsoft Teams allow you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that aren't relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For more information, see [Retention policies in Microsoft Teams](retention-policies.md).
 
 ### Sensitivity labels
 
