@@ -259,6 +259,7 @@ Examples:
  
 > [!NOTE]
 > Number translation rules applied on the carrier trunk don't apply to derived trunks. This is a known issue. As an alternative solution, number translation rules must be created for each customer's tenant.
+> Some of the functionality can be configured only via PowerShell, e.g., adding new voice route. It can be done only using New-CsOnlineVoiceRoute cmdlet. In such cases follow guidance presented in other sections of this documentation related to cmdlets.
 
 **Migration from the previous model to the carrier trunk**
  
