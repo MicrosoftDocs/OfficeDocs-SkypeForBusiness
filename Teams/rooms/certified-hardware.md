@@ -123,6 +123,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+| Yealink DeskVision A24 | `156.15.0.24` | February 27, 2023 | Personal space, Shared space: Phone booth (2m x 2m) | 10 |
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|--|
 | D7X55 - Meeting board | `1.2.7.0` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
