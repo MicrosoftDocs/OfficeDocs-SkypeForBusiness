@@ -27,14 +27,7 @@ appliesto:
 
 # Security and compliance in Microsoft Teams
 
-> [!IMPORTANT]
-> To learn how to best ensure **security while everyone's working from home during the COVID-19 outbreak**, read these articles:
->  - [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
->  - [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunnelling](/Office365/Enterprise/office-365-vpn-split-tunnel)
->  - Updated April 2, 2020: [Teams security guide](teams-security-guide.md)
-
 Microsoft Teams is built on the Microsoft 365 and Office 365 hyper-scale, enterprise-grade cloud, delivering the advanced security and compliance capabilities our customers expect. For more information on planning for security in Microsoft 365 or Office 365, [the security roadmap](/microsoft-365/security/office-365-security/security-roadmap) is a good place to start. For more information on planning for compliance in Microsoft 365 or Office 365, you can start with [Plan for security & compliance](/microsoft-365/compliance/plan-for-security-and-compliance).
-
 
 This article will provide further information about Teams-specific security and compliance. Don't miss these Microsoft Mechanics videos about security and compliance:
 

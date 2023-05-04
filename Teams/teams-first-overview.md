@@ -254,11 +254,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 
 Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Frontline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
 
-Additionally, as companies around the world are managing the current COVID-19 situation, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
-
-  - Our [commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
-
-  - [2 weeks in: what we've learned about remote work](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/18/making-the-switch-to-remote-work-5-things-weve-learned/)
+Additionally, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
 
   - [Delivering online meetings and events](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
@@ -269,8 +265,6 @@ Additionally, as companies around the world are managing the current COVID-19 si
   - [The top 9 ways Microsoft IT is enabling remote work for its employees](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
   - [Work remotely, stay secure—tips for CISOs](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
-
-  - [Helping teachers and students make the switch to remote learning](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/11/helping-teachers-students-switch-remote-learning/)
 
   - [Staying productive while working remotely with Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
 
