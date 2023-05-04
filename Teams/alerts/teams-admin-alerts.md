@@ -30,7 +30,7 @@ Your organization can use Teams monitoring and alerting to do the following item
 - Take corrective actions to get things back on-track.
 
 > [!NOTE]
-> The alert functionality within the Teams admin center is not available in GCC/GCC-High environments.
+> The alert functionality within the Teams admin center is available in Public and GCC environments only. Its not available in other environments yet.
 
 ## How to manage monitoring and alerting
 
