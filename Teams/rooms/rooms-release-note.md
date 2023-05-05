@@ -246,7 +246,7 @@ Introduced in this update:
 - Windows 10 20H2 support
 
 > [!NOTE]
-> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-release-support).
+> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows release support](./rooms-lifecycle-support.md#windows-release-support).
 
 ### 4.8.25.0 (04/22/2021)
 
@@ -323,7 +323,7 @@ Introduced in this update:
 - Search and call federated users (tenant) from Teams Room
 
 > [!IMPORTANT]
-> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-release-support).
+> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows release support](./rooms-lifecycle-support.md#windows-release-support).
 
 ### 4.4.63.0 (06/25/2020)
 
