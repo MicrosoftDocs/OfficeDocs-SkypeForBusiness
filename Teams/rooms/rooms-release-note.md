@@ -52,6 +52,17 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
+### 4.16.134.0 (5/8/2023) - Manual Update Only
+
+Introduced in this update:
+
+- Windows 11 support
+- Windows 10 22H2 support for Windows 11 ineligible devices
+
+> [!IMPORTANT]
+> Please use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
+
+
 ### 4.16.40.0 (3/24/2023)
 
 Introduced in this update:
