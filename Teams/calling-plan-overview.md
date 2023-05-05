@@ -159,7 +159,7 @@ After you've verified if one of the Teams services is available, you can see [Mi
 
 > [!NOTE]
 >
-> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) or, for phone number request forms, [Manage phone numbers for your organization](../manage-numbers/manage-phone-numbers-for-your-organization.md).
+> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) or, for phone number request forms, [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization).
 
 ## Want to learn more about these services
 
@@ -213,7 +213,7 @@ In addition to getting phone numbers for individual users, it's also possible to
   
 The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You get toll service numbers from these locations using the **Teams admin center**.
   
-If you want to get a toll or toll free service number, you can see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers). If you already have a toll or toll free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../manage-numbers/manage-phone-numbers-for-your-organization.md).
+If you want to get a toll or toll free service number, you can see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers). If you already have a toll or toll free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization).
 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
