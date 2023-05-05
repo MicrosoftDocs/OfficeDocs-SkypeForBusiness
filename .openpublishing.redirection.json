@@ -372,8 +372,8 @@
     },
     {
       "source_path": "Teams/room-systems/lrs-migration.md",
-      "redirect_url": "/MicrosoftTeams/rooms/lrs-migration",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/rooms/index",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/recovery-tool.md",
@@ -382,8 +382,8 @@
     },
     {
       "source_path": "Teams/room-systems/requirements.md",
-      "redirect_url": "/MicrosoftTeams/rooms/requirements",
-      "redirect_document_id": true
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-plan",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/updates.md",
@@ -402,8 +402,8 @@
     },
     {
       "source_path": "Teams/room-systems/with-office-365.md",
-      "redirect_url": "/MicrosoftTeams/rooms/with-office-365",
-      "redirect_document_id": true
+      "redirect_url": "/MicrosoftTeams/rooms/create-resource-account",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/with-skype-for-business-server-2015.md",
@@ -438,7 +438,7 @@
     {
       "source_path": "Teams/room-systems/skype-room-systems-v2-0.md",
       "redirect_url": "/MicrosoftTeams/rooms/rooms-plan",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/skype-room-systems-v2.md",
@@ -1772,122 +1772,122 @@
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/skype-room-systems-v2-0",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-plan",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/srs2-lifecycle-support",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-lifecycle-support",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs2-release-note.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/srs2-release-note",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-release-note",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/srs-v2-prep.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/srs-v2-prep",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-prep",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/requirements.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/requirements",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-plan",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/skype-room-systems-v2",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-licensing",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/plan-your-deployment/clients-and-devices/azure-monitor.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/azure-monitor-plan",
+      "redirect_url": "/MicrosoftTeams/rooms/azure-monitor-plan",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-v2.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/room-systems-v2",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-deploy",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-v2-configure-accounts.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/room-systems-v2-configure-accounts",
+      "redirect_url": "/MicrosoftTeams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-office-365.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-office-365",
+      "redirect_url": "/MicrosoftTeams/room/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-skype-for-business-server-2015.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-skype-for-business-server-2015",
+      "redirect_url": "/MicrosoftTeams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-online.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-exchange-online",
+      "redirect_url": "/MicrosoftTeams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-on-premises.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-exchange-on-premises",
+      "redirect_url": "/MicrosoftTeams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/console.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/console",
+      "redirect_url": "/MicrosoftTeams/rooms/console",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/room-systems-scale.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/room-systems-scale",
+      "redirect_url": "/microsoftteams/rooms/console",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/azure-monitor.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/azure-monitor-deploy",
+      "redirect_url": "/MicrosoftTeams/rooms/azure-monitor-deploy",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/lrs-migration.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/lrs-migration",
+      "redirect_url": "/microsoftteams/rooms",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/skype-room-systems-v2.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/skype-room-systems-v2",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-licensing",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/room-systems-v2-operations.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/room-systems-v2-operations",
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-operations",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/known-issues.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/known-issues",
+      "redirect_url": "/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/azure-monitor.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/azure-monitor-manage",
+      "redirect_url": "/MicrosoftTeams/rooms/azure-monitor-manage",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/xml-config-file.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/xml-config-file",
+      "redirect_url": "/MicrosoftTeams/rooms/xml-config-file",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/manage/skype-room-systems-v2/recovery-tool.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/recovery-tool",
+      "redirect_url": "/MicrosoftTeams/rooms/recovery-tool",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/room-systems/index.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/index",
+      "redirect_url": "/MicrosoftTeams/rooms/index",
       "redirect_document_id": false
     },
     {
@@ -2762,22 +2762,22 @@
     },
     {
       "source_path": "Teams/devices/resource-account-ps.md",
-      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_url": "/microsoftteams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Teams/devices/resource-account-ui.md",
-      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_url": "/microsoftteams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Teams/rooms/with-exchange-on-premises.md",
-      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_url": "/microsoftteams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
       "source_path": "Teams/rooms/with-exchange-online.md",
-      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_url": "/microsoftteams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
@@ -2817,7 +2817,7 @@
     },
     {
       "source_path": "Teams/rooms/rooms-configure-accounts.md",
-      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_url": "/microsoftteams/rooms/create-resource-account",
       "redirect_document_id": false
     },
     {
@@ -4354,6 +4354,26 @@
     "source_path": "Teams/create-a-phone-system-call-queue-experiment.md",
     "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/devices/upgrade-phones-to-displays.md",
+    "redirect_url": "/microsoftteams/devices/teams-displays",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/requirements.md",
+    "redirect_url": "/microsoftteams/rooms/rooms-plan",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/drive-adoption-optimize-kaizala.md",
+    "redirect_url": "/microsoftteams/get-started-kaizala-teams",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/rooms/with-office-365.md",
+    "redirect_url": "/microsoftteams/rooms/create-resource-account",
+    "redirect_document_id": true
   }
  ] 
 }

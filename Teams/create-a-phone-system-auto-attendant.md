@@ -106,6 +106,9 @@ Once you've set your auto attendant's general info, select **Next**.
 
 - If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
+>[!NOTE]
+> When using *Text to Speech*, the text must be entered in the language selected for the auto attendant. The system doesn't perform translation.
+
 ### Route the call
 
 - If you select **Disconnect**, the auto attendant will hang up the call.
@@ -113,8 +116,6 @@ Once you've set your auto attendant's general info, select **Next**.
 - If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
 #### Play menu options
-
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 
 For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
 
@@ -172,8 +173,6 @@ Once you've added your after hours call flow, select **Next**.
 ## Step 4: Set up call flows for holidays (optional)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
-
-*New - Force listen option can be enabled that requires callers to listen to all menu options before making selection.*
 
 1. On the Holiday call settings page, select **Add**.
 
