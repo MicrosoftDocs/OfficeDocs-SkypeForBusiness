@@ -4366,6 +4366,11 @@
     "redirect_document_id": true
   },
   {
+    "source_path": "Teams/drive-adoption-optimize-kaizala.md",
+    "redirect_url": "/microsoftteams/get-started-kaizala-teams",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/rooms/with-office-365.md",
     "redirect_url": "/microsoftteams/rooms/create-resource-account",
     "redirect_document_id": true

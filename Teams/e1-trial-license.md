@@ -10,7 +10,7 @@ ms.date: 03/02/2020
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high
-description: If you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 E1 Trial for your users who need to work remotely or from home (WFH) in response to the COVID-19 (coronavirus) outbreak.
+description: If you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 E1 Trial for your users who need to work remotely or from home.
 ms.collection: 
   - M365-collaboration
   - tier1
