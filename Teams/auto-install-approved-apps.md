@@ -20,11 +20,11 @@ ms.collection:
 # Auto install approved apps in Microsoft Teams
 
 >[!NOTE]
-> The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide). The feature was previously called Zero-touch app install.
+> The feature is currently available as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide). The feature was previously called Zero-touch app install.
 
 Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps may not know that the same app functionality is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps functionality](#benefits-of-the-functionality)
 
-If an admin enables the Auto install approved apps feature, it automatically adds admin-approved apps to Teams for the permitted users. The functionality respects all app governance controls and apps are installed only for users who are allowed the use of it. Admins can enable SSO and let users use their Azure AD identity to sign into apps outside Teams, for example in a web browser. This sign-in is used as an intelligent signal by the functionality to add the Teams app for such users in their Teams client.
+If an admin enables the Auto install approved apps feature, it automatically adds admin-approved apps to Teams for the allowed users. The functionality respects all app governance controls and apps are installed only for users who are allowed the use of it. Admins can enable SSO and let users use their Azure AD identity to sign into apps outside Teams, for example in a web browser. This sign-in is used as an intelligent signal by the functionality to add the Teams app for such users in their Teams client.
 
 The Auto install approved apps functionality is available only for a few Teams apps. The **Org-wide app settings** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center lists all such apps. We'll add more apps with appropriate announcements.
 
@@ -32,7 +32,7 @@ The Auto install approved apps functionality is available only for a few Teams a
 
 ## Prerequisites for Auto install approved apps feature
 
-To ensure that the feature installs the relevant apps and for the permitted users, meet the following requirements as a Global Admin or a Teams Administrator:
+To ensure that the feature installs the relevant apps and for the allowed users, meet the following requirements as a Global Admin or a Teams Administrator:
 
 * [Allow the relevant app in your organization](#allow-third-party-apps-in-your-organization).
 * [Ensure users can consent to app permissions or grant admin consent](#ensure-users-can-consent-or-grant-admin-consent-to-azure-ad-permissions-of-an-app) for Azure AD permissions that an app requires.
@@ -73,7 +73,7 @@ After a user's first sign into an app using Azure AD on another platform, the ap
 
 The feature benefits admins and users in the following ways:
 
-* Admins get a single and easy control to automatically install apps. No need to create app setup policies and assign it to individual users. Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only permitted apps get added, and users who aren't permitted to use apps can't add apps to their Teams.
+* Admins get a single and easy control to automatically install apps. No need to create app setup policies and assign it to individual users. Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only the allowed apps get added, and users who aren't allowed to use apps can't add apps to their Teams.
 
 * Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Adobe Acrobat Teams app allows editing and commenting in PDF files.
 
@@ -98,6 +98,6 @@ Before you use the functionality, understand the following considerations:
 ## Related articles
 
 * [How to allow apps in an organization](/microsoftteams/manage-apps#allow-and-block-apps)
-* [Use app permission policies to permit users to use an app](/microsoftteams/teams-app-permission-policies)
+* [Use app permission policies to allow users to use an app](/microsoftteams/teams-app-permission-policies)
 * [How to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center)
 * [Permissions and consent in the Azure AD](/azure/active-directory/develop/permissions-consent-overview)
