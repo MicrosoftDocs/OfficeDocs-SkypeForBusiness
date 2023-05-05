@@ -28,7 +28,7 @@ description: Learn about the Collaboration activity reports in Microsoft Teams.
 
 The Collaboration activity reports for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
   
-Through Collaboration activity reports, you can surface insights about your teams, domains, channels, external users, guest users, and users internal to your organization.
+Through Collaboration activity reports, you can surface insights about your teams, domains, channels, guests, and users internal to your organization.
 
 ## Where to find Collaboration activity reports
 
@@ -46,7 +46,7 @@ This section describes the following components of the Collaboration activity re
 - [Channels by user type](#channels-by-user-type)
 - [External collaboration activity by team](#external-collaboration-activity-by-team)
 - [External collaboration activity by user](#external-collaboration-activity-by-user)
-- [Guest user activity](#guest-user-activity)
+- [Guest activity](#guest-activity)
 
 #### Inactive teams
 
@@ -94,7 +94,7 @@ The **Teams by user type** widget view shows you how many active teams are there
 :::image type="content" source="media/teams-by-user-type.png" alt-text="The Teams by user type widget." lightbox="media/teams-by-user-type.png":::
 
 > [!NOTE]
-> This insight doesn't tell you how many users are in a team; it shows how many teams have a specific user composition. For example, a team with 100 of your users, no external users, and one guest counts as one team comprised of “my users and guests”.
+> This insight doesn't tell you how many users are in a team; it shows how many teams have a specific user composition. For example, a team with 100 of your users and one guest counts as one team comprised of “my users and guests”.
 
 By default, we show you details for the last 7 days.
 
@@ -121,7 +121,7 @@ For example, for standard and private channels, you’ll see:
 
 For shared channels, you’ll see:
 - How many are made up of your users only
-- How many are made up of your users and external users
+- How many are made up of your users and guests
 
 #### External collaboration activity by team
 
@@ -157,7 +157,7 @@ By default, we show you details for the last 7 days.
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
-#### Guest user activity
+#### Guest activity
 
 The **Guest user activity** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
