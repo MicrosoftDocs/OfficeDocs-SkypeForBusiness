@@ -122,9 +122,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-| Audiocodes RXV81 Collaboration Bar (https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | March 30, 2023 | Small meeting room (4.5 m x 4.5 m) | 10 |
+
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Audiocodes RXV81 Collaboration Bar (https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | March 30, 2023 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | DTEN D7X 55" | `1.2.2` | April 21, 2023 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | D7X55 - Meeting board | `1.2.7.0` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
 | [Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
