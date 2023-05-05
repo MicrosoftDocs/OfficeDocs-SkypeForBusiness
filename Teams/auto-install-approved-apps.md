@@ -65,13 +65,13 @@ You must enable the Auto install approved apps feature as it is disabled by defa
 
 1. Select **Org-wide app settings** and enable the **Auto install approved apps** option.
 
-    :::image type="content" source="media/approved-apps.png" alt-text="Screenshot showing Auto install approved apps option in admin center that must be enabled to use the feature." lightbox="media/approved-apps-large.png":::
+    :::image type="content" source="media/approve-apps.png" alt-text="Screenshot showing Auto install approved apps option in admin center that must be enabled to use the feature." lightbox="media/approve-apps-large.png":::
 
 1. Select **Save**.
 
 After a user's first sign into an app using Azure AD on another platform, the app installation can take a few hours or up to a day. Users receive a welcome message from the app if the installed app supports bots. Users also receive an Activity Feed notification informing them about the new app that is added.
 
-:::image type="content" source="media/zti-activity-feed.png" alt-text="Screenshot showing a new activity feed notification in Teams after an approved app is installed for a user." lightbox="media/zti-activity-feed-large.png":::
+:::image type="content" source="media/autoinstall-activity-feed.png" alt-text="Screenshot showing a new activity feed notification in Teams after an approved app is installed for a user." lightbox="media/autoinstall-activity-feed-large.png":::
 
 ## Understand the benefits of the functionality
 
