@@ -43,7 +43,7 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 
 ### Allow third-party apps in your organization
 
-The functionality respects the app governance controls and works only if admins allow the use of an app. To allow an app, you must do the following:
+The functionality respects the app governance controls and works only if admins allow the use of an app. To allow an app, follow these steps:
 
 * Allow use of third-party apps (allowed by default).
 * Allow use of a particular app (allowed by default).
@@ -77,10 +77,10 @@ After a user's first sign into an app using Azure AD on another platform, the ap
 
 The feature benefits admins and users in the following ways:
 
-* Single and easy control to auto-install apps. No need to create app setup policies and assign it to users. Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only permitted apps get added, and users who aren't permitted to use apps can't add apps to their Teams.
+* Single and easy control to automatically install apps. No need to create app setup policies and assign it to users. Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only permitted apps get added, and users who aren't permitted to use apps can't add apps to their Teams.
 * Admins don't have to create app setup policies to deliver apps to the intended users. This feature only does the app rollout in accordance with admin policies. It adds the app in the Teams client for users as if the user installed it themselves.
 * Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Acrobat allows editing and commenting in PDF files.
-* Users don't have to discover and add apps, use a browser to use the same app in a browser or on mobile, or individually request admins for access to an app.
+* Users don't have to discover and add apps, use a browser for SaaS app, or individually request admins for access to an app.
 * Instead of switching context to browser for web apps or to email for notifications, users get it all within their Teams client.
 * Users continue to have admin-approved access to use the apps on the surface and in the context that is most convenient to them. Users also receive the highly relevant apps as a Teams app if and when they demonstrate the need through their actions.
 
@@ -92,7 +92,7 @@ Before you use the functionality, understand the following considerations:
 
 * The feature can be enabled independently of the admin settings to allow and block policies for the supported apps. However, it respects all policies and doesn't install any blocked app. Also, it doesn't install a supported app if a user isn't allowed the use of the app.
 
-* Only a few selected apps are supported by this functionality. More apps will be added with appropriate announcements. The default setting is off and only admins can enable it. For the list of apps, see the [Org-wide settings](https://admin.teams.microsoft.com/policies/manage-apps) in Teams admin center.
+* The functionality supports only a few selected apps. We shall add more apps with appropriate announcements. The default setting is off and only admins can enable it. For the list of apps, see the [Org-wide settings](https://admin.teams.microsoft.com/policies/manage-apps) in Teams admin center.
 
 * If admin consent is not granted and users are not allowed to consent to an app, then users cannot use the app. Users may be prompted to contact their admin when trying to use the app.
 
@@ -100,7 +100,7 @@ Before you use the functionality, understand the following considerations:
 
 * When the app is added to a user's client, an Activity feed notification informs the user. The notification isn't available on mobile devices.
 
-* Users can remove an app added by this functionality. These users can manually add the app later. Once removed, the app isn't automatically added by the feature.
+* Users can remove an app added by this functionality. These users can manually add the app later. Once the app is removed, the feature doesn't automatically add the app.
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
