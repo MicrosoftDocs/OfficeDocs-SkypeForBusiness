@@ -65,7 +65,7 @@ You must enable the Auto install approved apps feature as it is disabled by defa
 
 1. Select **Save**.
 
-After a user's first sign into an app using Azure AD on another platform, the app installation can take up to 2 days. Users receive a welcome message from the app if the installed app supports bots. Users also receive an Activity Feed notification on Teams desktop client informing them about the new app that is added. The notification isn't available on mobile devices.
+After a user's first sign into an app using Azure AD on another platform, the app installation can take up to two days. Users receive a welcome message from the app if the installed app supports bots. Users also receive an Activity Feed notification on Teams desktop client informing them about the new app that is added. The notification isn't available on mobile devices.
 
 :::image type="content" source="media/autoinstall-activity-feed-large.png" alt-text="Screenshot showing a new activity feed notification in Teams after an approved app is installed for a user." lightbox="media/autoinstall-activity-feed-large.png":::
 
@@ -91,9 +91,9 @@ Before you use the functionality, understand the following considerations:
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
-* When you turn on Auto install approved apps for Adobe Acrobat then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
-* Teams admin may have blocked a Teams app for a user and your organization may allow Azure AD SSO for the user to use the app, say in a browser. Teams admin can later allow users to use the Teams app and separately also enable this feature. The app is installed for those users who have used Azure AD identity to sign in to the app in the last 30 days before being allowed the use of Teams app.
+* Teams admin may have blocked a Teams app for a user and your organization may allow Azure AD SSO for the user to use the app, say in a browser. Teams admin can later allow users to use the Teams app and separately also enable this feature. The app is installed for those users who have used Azure AD identity to sign in to the app in up to 30 days before they're allowed the use of Teams app.
 
 ## Related articles
 
