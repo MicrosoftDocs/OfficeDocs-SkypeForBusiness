@@ -66,6 +66,10 @@ Policy type | Description
 [App policies](app-policies.md)| App policies are used to control applications in Microsoft Teams. Admins can allow or block which apps users can install, pin applications to a user's Teams app bar, and install application on behalf of your users.
 [Messaging policies](messaging-policies-in-teams.md)| Messaging policies control chat and channel feature availability.
 
+This video is about differences between policies and settings.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbP?autoplay=false]
+
 ## Related topics
 
 * [Assign policies in Teams - getting started](policy-assignment-overview.md)
