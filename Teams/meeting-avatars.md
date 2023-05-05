@@ -35,6 +35,8 @@ Setting up the avatars for Teams app involves the following steps:
 
 After you complete these steps, the avatars for Teams app will be available to users in your organization.
 
+The avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
+
 ## Allow the avatars for Teams app in your organization
 
 If you want to make the avatars for Teams app available to a set of users, you need to add it to the app setup policy assigned to those users.
