@@ -60,7 +60,7 @@ The following table shows recommended and supported versions of Windows that are
 | 1709    | 2018-01-18        | Not supported                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. Please take note of the [Windows 10 IoT Enterprise end of support date](https://learn.microsoft.com/en-us/lifecycle/products/windows-10-iot-enterprise).
+&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. Please take note of the [Windows 10 IoT Enterprise end of support date](https://learn.microsoft.com/lifecycle/products/windows-10-iot-enterprise).
 
 &#x2781; Windows 10 version 2004 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot.
 
