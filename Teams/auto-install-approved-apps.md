@@ -22,9 +22,9 @@ ms.collection:
 >[!NOTE]
 > The feature is currently available only as a public preview feature. To enable public preview for specific users in your organization, see [enable Teams public preview](/microsoftteams/public-preview-doc-updates). When the feature is available in your tenant, you'll be notified through the [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide). The feature was previously called Zero-touch app install.
 
-Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps may not know that the same app functionality is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps functionality](#understand-the-benefits-of-the-functionality)
+Some apps exist as web-based services or apps on desktop or in the browser. Users who use these apps may not know that the same app functionality is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps functionality](#benefits-of-the-functionality)
 
-If an admin enables the Auto install approved apps feature, it automatically adds admin-approved apps to Teams for the permitted users. The functionality respects all app governance controls and apps are available only if allowed for a user. Admins can enable SSO and let users use their Azure AD identity to sign into apps outside Teams, for example in a web browser. This sign-in is used as an intelligent signal by the functionality to add the Teams app for such users in their Teams client.
+If an admin enables the Auto install approved apps feature, it automatically adds admin-approved apps to Teams for the permitted users. The functionality respects all app governance controls and apps are installed only for users who are allowed the use of it. Admins can enable SSO and let users use their Azure AD identity to sign into apps outside Teams, for example in a web browser. This sign-in is used as an intelligent signal by the functionality to add the Teams app for such users in their Teams client.
 
 The Auto install approved apps functionality is available only for a few Teams apps. The **Org-wide app settings** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center lists all such apps. We'll add more apps with appropriate announcements.
 
@@ -69,15 +69,15 @@ After a user's first sign into an app using Azure AD on another platform, the ap
 
 :::image type="content" source="media/autoinstall-activity-feed-large.png" alt-text="Screenshot showing a new activity feed notification in Teams after an approved app is installed for a user." lightbox="media/autoinstall-activity-feed-large.png":::
 
-## Understand the benefits of the functionality
+## Benefits of the functionality
 
 The feature benefits admins and users in the following ways:
 
 * Admins get a single and easy control to automatically install apps. No need to create app setup policies and assign it to individual users. Last-mile app delivery happens while respecting all app governance controls. For example, you can turn the feature on or off, only permitted apps get added, and users who aren't permitted to use apps can't add apps to their Teams.
 
-* Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Acrobat allows editing and commenting in PDF files.
+* Businesses can realize more value from their SaaS licenses by letting their users use the web apps and Teams apps. Some Teams apps like Adobe Acrobat offer more functionality than the default Teams PDF viewer. The default PDF viewer in Teams can only read PDF files, but Adobe Acrobat Teams app allows editing and commenting in PDF files.
 
-* Organization users don't have to discover and add apps or individually request admins for access to an app. Users receive the Teams app if and when they demonstrate the need through their actions. Instead of switching context to browser for web apps or to email for notifications, users get it all within their Teams client.
+* Users don't have to discover and add apps or individually request admins for access to an app. Users receive the Teams app if and when they demonstrate the need through their actions. Instead of switching context to browser for web apps or to email for notifications, users get it all within their Teams client.
 
 ## Considerations for Auto install approved apps feature
 
