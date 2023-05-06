@@ -44,7 +44,7 @@ The following steps show you how to purchase a license for your Teams Rooms cons
 
 ## Configure mailbox and account properties
 
-To allow people your organization to book the Teams Room, you need to configure a few properties on the account the console uses. Setting these properties allows the Teams Rooms to process meeting requests automatically the way you want, remove or add information shown about the meeting on the console, and set what should be included in meeting request responses.
+To allow people in your organization to book the Teams Room, you need to configure a few properties on the account the console uses. Setting these properties allows Teams Rooms to process meeting requests automatically the way you want, remove or add information shown about the meeting on the console, and set what should be included in meeting request responses.
 
 Password expiration needs to be turned off on the Teams Rooms resource account so that the console is able to log into the account.
 
