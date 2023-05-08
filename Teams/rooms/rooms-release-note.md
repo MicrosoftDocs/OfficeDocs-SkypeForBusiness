@@ -52,7 +52,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
-### 4.16.134.0 (5/8/2023) - Manual Update Only
+### 4.16.134.0 (5/8/2023) - Manual update only
 
 Introduced in this update:
 
