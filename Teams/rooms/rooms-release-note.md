@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 04/20/2023
+ms.date: 05/08/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier2
+  - Tier3
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -640,12 +640,12 @@ Introduced in this update:
 
 ## Teams Rooms on Android feature introduction and issue resolution
 
+> [!NOTE]
+> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+
 ### 1449/1.0.96.2023050203 (May 2023)
 
 Introduced in this update:
-
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 - Quality and reliability fixes
 
@@ -653,17 +653,11 @@ Introduced in this update:
 
 Introduced in this update:
 
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
-
 - Performance improvements and bug fixes related to volume controls, meeting join latency, chat loading, and layout switching
 
 ### 1449/1.0.96.2023031201 (March 2023)
 
 Introduced in this update:
-
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 - Join Teams meeting with ID - available in all Microsoft Teams Rooms licenses
 - Single tap ad hoc meetings - available in all Microsoft Teams Rooms licenses
