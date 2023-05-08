@@ -627,6 +627,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
 |[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
 |[1449/1.0.96.2023031201](#144910962023031201-march-2023)     | March 2023        |
 |[1449/1.0.96.2022120503](#144910962022120503-december-2022)     | December 2022        |
@@ -638,6 +639,15 @@ Introduced in this update:
 |[1449/1.0.96.2021051904](#144910962021051904-june-2021)     | June 2021        |
 
 ## Teams Rooms on Android feature introduction and issue resolution
+
+### 1449/1.0.96.2023050203 (May 2023)
+
+Introduced in this update:
+
+> [!NOTE]
+> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+
+- Quality and reliability fixes
 
 ### 1449/1.0.96.2023041207 (April 2023)
 
