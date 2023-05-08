@@ -60,7 +60,7 @@ Introduced in this update:
 - Windows 10 22H2 support for Windows 11 ineligible devices
 
 > [!IMPORTANT]
-> Please use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
+> Use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
 
 
 ### 4.16.40.0 (3/24/2023)
