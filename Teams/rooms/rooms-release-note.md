@@ -151,7 +151,7 @@ Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
-- IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
+- IT admin can override download folder cleanup on the device through registry key setting<sup>4</sup>
 - Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
 - Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
