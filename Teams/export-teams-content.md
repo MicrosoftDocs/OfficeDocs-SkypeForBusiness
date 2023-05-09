@@ -85,18 +85,19 @@ Export API supports Security and Compliance (S+C) and general usage scenarios th
 
 Restricted to applications performing security and/or compliance functions, users must have specific E5 licenses to use this functionality and receive seeded capacity. Seeded capacity is per user and is calculated per month and is aggregated at the tenant level. For usage beyond the seeded capacity, app owners are billed for API consumption. Model A can only access messages from users with an assigned E5 license.
 
-|Partner Name|Partner Solution|
-|---|---|
-|![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
-
 ### General usage/Model B scenarios
 
 Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
 
-The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
+### Teams Export API Certification Programs
+
+In addition to publishing publicly available APIs that allow partners to develop and integrate solutions with Teams, we have developed the Teams Security & Compliance and Teams Backup & Restore solutions for the Microsoft Teams Certification Program. This program provides customers with the assurance that each participating partner's solution has been tested and verified to deliver the quality, compatibility, and reliability they expect from Microsoft solutions.
+
+The following partners have certified their solution for Microsoft Teams.
 
 |Partner Name|Partner Solution|
 |---|---|
+|![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
 |![logo-of-rubrik](media/rubrik.png) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
 
