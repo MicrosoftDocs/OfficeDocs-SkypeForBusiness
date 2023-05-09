@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 04/20/2023
+ms.date: 05/08/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier2
+  - Tier3
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -151,7 +151,7 @@ Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
-- IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
+- IT admin can override download folder cleanup on the device through registry key setting<sup>4</sup>
 - Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
 - Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
@@ -627,6 +627,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
 |[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
 |[1449/1.0.96.2023031201](#144910962023031201-march-2023)     | March 2023        |
 |[1449/1.0.96.2022120503](#144910962022120503-december-2022)     | December 2022        |
@@ -639,21 +640,24 @@ Introduced in this update:
 
 ## Teams Rooms on Android feature introduction and issue resolution
 
-### 1449/1.0.96.2023041207 (April 2023)
+> [!NOTE]
+> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+
+### 1449/1.0.96.2023050203 (May 2023)
 
 Introduced in this update:
 
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+- Quality and reliability fixes
+
+### 1449/1.0.96.2023041207 (April 2023)
+
+Introduced in this update:
 
 - Performance improvements and bug fixes related to volume controls, meeting join latency, chat loading, and layout switching
 
 ### 1449/1.0.96.2023031201 (March 2023)
 
 Introduced in this update:
-
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 - Join Teams meeting with ID - available in all Microsoft Teams Rooms licenses
 - Single tap ad hoc meetings - available in all Microsoft Teams Rooms licenses
