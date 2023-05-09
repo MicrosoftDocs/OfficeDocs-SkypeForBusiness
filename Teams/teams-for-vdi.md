@@ -16,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - Tier2
 appliesto: 
   - Microsoft Teams
 ---
