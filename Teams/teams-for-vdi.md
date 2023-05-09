@@ -254,8 +254,6 @@ If you're migrating from Skype for Business on VDI to Teams on VDI, besides the 
 
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
-- Screen share from chat without audio
-- Simultaneous video and screen sharing send and receive
 
 ### Teams on Chrome browser versus Teams desktop app for VDI
 
@@ -533,3 +531,5 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 - [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
+
+
