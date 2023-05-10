@@ -40,7 +40,7 @@ As an admin, you can set up and manage meeting themes for Teams meetings with th
 
 ### Using the Teams Admin Center
 
-#### Creating a customization policy
+#### Create a customization policy
 
 To create meeting themes, admins will first need to create a new meeting customization policy or modify their existing policy.
 To enable the custom background policy, admins will perform the following steps:
@@ -66,7 +66,7 @@ Meeting themes houses the following assets for your theme:
 
 To create a new theme, select **Add meeting theme**.
 
-### Adding a custom logo image
+#### Add a custom logo image
 
 Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1).
 
@@ -77,7 +77,7 @@ Uploads must adhere to the following parameters. An admin can only upload:
 - A logo image with a minimum dimension of 576 px X 576 px.
 - Upload one image per theme from their device.
 
-### Adding a custom image
+#### Add a custom image
 
 Teams meetings support an organization's images that skin the meetings screen and provide a colorful backdrop to your meetings.
 
@@ -93,18 +93,18 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
   - Maximum dimensions: 2048 px X 2048 px
 - Upload a minimum of 0 and a maximum of one image per theme from their device.
 
-### Adding a custom color
+#### Add a custom color
 
 Teams meetings support an organization's primary or secondary color in the meeting experience. You can enter the hex code value of your organization's color, which will appear on key surfaces of the meeting experience.
 
 > [!NOTE]
 > To support Microsoft accessibility standards, the final color generated may not match your brand color.
 
-### Previewing a meeting theme
+#### Preview a meeting theme
 
 Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** will open the preview dialog and show the newly defined theme for both desktop and mobile.
 
-### Save meeting theme
+#### Save meeting theme
 
 By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme, but won't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
@@ -124,7 +124,7 @@ You can manage meeting themes by using the following PowerShell cmdlets in Teams
 
 - [Set-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/set-csteamsmeetingbrandingpolicy )
 
-#### New meeting theme
+#### Create a new meeting theme
 
 This example creates a new meeting themes policy called "test policy".
 
@@ -146,7 +146,7 @@ This example assigns a meeting theme policy called “Policy Test” to a user n
 Grant-CsTeamsMeetingBrandingPolicy -identity " alice@contoso.com" -PolicyName "Policy Test"
 ```
 
-#### Change custom color
+#### Change the custom color
 
 This example changes the brand accent color of theme inside the demo branding meeting branding policy to #FF0000.
 
@@ -157,20 +157,12 @@ $brandingPolicy.MeetingBrandingThemes[0].BrandAccentColor = "#FF0000"
 Set-CsTeamsMeetingBrandingPolicy -Identity "demo branding" -MeetingBrandingThemes $brandingPolicy.MeetingBrandingThemes
 ```
 
-#### Remove meeting theme
+#### Remove a meeting theme
 
 This example deletes the “policy test” meeting theme and its assignments to any users.
 
 ```PowerShell
 Remove-CsTeamsMeetingBrandingPolicy -Identity "policy test"
-```
-
-#### Information about a meeting theme
-
-This example will show all the existing meeting themes policies.
-
-```PowerShell
-Get-CsTeamsMeetingBrandingPolicy
 ```
 
 ### Assigning a meeting customization policy to users
@@ -181,11 +173,9 @@ Meeting customization policies can be assigned to one, many, or a pre-defined us
 - Custom Customization Policies will override the global default.
 - A licensed user can only be assigned one customization policy.
 
-### Use cases for multiple departments or business units in one tenant
+## Use cases for multiple departments or business units in one tenant
 
 Some organizations have multiple business units under different brand identities within the same tenant. In these cases, admins can create meeting customization policies that are dedicated to each brand. They can also assign a department or business unit user group to a specific policy.
-
-#### A use case
 
 Contoso Ltd. has a single Tenant in Microsoft Teams, containing the user profiles of all their employees across different business organizations. The company is looking to adopt custom branded meetings in Teams to increase their brand presence with their clients and encourage an internal corporate culture.
 
