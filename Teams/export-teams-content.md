@@ -91,7 +91,7 @@ Available for all non-S+C related scenarios, there are no license requirements o
 
 ### Teams Export API certification programs
 
-In addition to publishing publicly available APIs that allow partners to develop and integrate solutions with Teams, we have developed the Teams Security & Compliance and Teams Backup & Restore solutions for the Microsoft Teams Certification Program. This program provides customers with the assurance that each participating partner's solution has been tested and verified to deliver the quality, compatibility, and reliability they expect from Microsoft solutions.
+In addition to publishing publicly available APIs that allow partners to develop and integrate solutions with Teams, we have developed the Microsoft Teams Archiving and Compliance and Microsoft Teams backup and restore solutions for the Microsoft Teams certification program. This program provides customers with the assurance that each participating partner's solution has been tested and verified to deliver the quality, compatibility, and reliability they expect from Microsoft solutions.
 
 The following partners have certified their solution for Microsoft Teams.
 
