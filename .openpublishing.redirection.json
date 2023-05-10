@@ -727,7 +727,7 @@
     },
     {
       "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
-      "redirect_url": "/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_url": "/MicrosoftTeams/calling-plan-overview",
       "redirect_document_id": false
     },
     {
@@ -4177,7 +4177,7 @@
   },
   {
     "source_path": "Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
-    "redirect_url": "/microsoftteams/phone-reference/plan-availability/calling-plan-overview",
+    "redirect_url": "/MicrosoftTeams/calling-plan-overview",
     "redirect_document_id": false
   },
   {
@@ -4366,9 +4366,29 @@
     "redirect_document_id": true
   },
   {
+    "source_path": "Teams/drive-adoption-optimize-kaizala.md",
+    "redirect_url": "/microsoftteams/get-started-kaizala-teams",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/rooms/with-office-365.md",
     "redirect_url": "/microsoftteams/rooms/create-resource-account",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/e1-trial-license.md",
+    "redirect_url": "/microsoftteams/teams-exploratory",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/g1-trial-license.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-add-on-licensing/pri-message.md",
+    "redirect_url": "/microsoftteams/messaging-policies-in-teams",
+    "redirect_document_id": false
   }
  ] 
 }
