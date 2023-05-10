@@ -65,7 +65,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Costa Rica](/microsoftteams/phone-reference/plan-availability/availability-in-costa-rica)
 > - [Croatia](/microsoftteams/phone-reference/plan-availability/availability-in-croatia)
 > - [Cyprus](/microsoftteams/phone-reference/plan-availability/availability-in-cyprus)
-> - [Czech Republic](/microsoftteams/phone-reference/plan-availability/availability-in-the-czech-republic.)
+> - [Czech Republic](/microsoftteams/phone-reference/plan-availability/availability-in-the-czech-republic)
 > - [Denmark](/microsoftteams/phone-reference/plan-availability/availability-in-denmark)
 > - [Dominica](/microsoftteams/phone-reference/plan-availability/availability-in-dominica)
 > - [Dominican Republic](/microsoftteams/phone-reference/plan-availability/availability-in-the-dominican-republic)
