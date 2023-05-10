@@ -4374,6 +4374,21 @@
     "source_path": "Teams/rooms/with-office-365.md",
     "redirect_url": "/microsoftteams/rooms/create-resource-account",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "Teams/e1-trial-license.md",
+    "redirect_url": "/microsoftteams/teams-exploratory",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/g1-trial-license.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-add-on-licensing/pri-message.md",
+    "redirect_url": "/microsoftteams/messaging-policies-in-teams",
+    "redirect_document_id": false
   }
  ] 
 }
