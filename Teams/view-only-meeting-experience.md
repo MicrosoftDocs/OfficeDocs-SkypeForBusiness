@@ -85,7 +85,7 @@ When the capacity of the main meeting has been reached, meeting attendees will b
 
 If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience won't automatically be promoted to the main meeting and can't be manually promoted to the main meeting.
 
-If presenter and attendee roles have been set, and a presenter attempts to join a meeting after the main meeting has reached capacity, they'll join as a view-only attendee and have the same limitations as other view-only attendees. Support to ensure all presenters join the main meeting will roll out at a later date. The organizer will always be guaranteed space in the main meeting.
+If presenter and attendee roles have been set, and a presenter attempts to join a meeting after the main meeting has reached capacity, they'll join as a view-only attendee and have the same limitations as other view-only attendees. Support to ensure all presenters join the main meeting will roll out at a later date. The organizer, presenter and co-organizer will always be guaranteed space in the main meeting.
 
 ## Impact to meeting presenters and organizers
 
