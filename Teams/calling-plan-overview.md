@@ -3,7 +3,7 @@ title: "Country/region availability - Audio Conferencing, Calling Plans"
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.reviewer: mikedav, jastark, oscarr
 ms.date: 11/29/2017
 ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
@@ -150,8 +150,6 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Uruguay](/microsoftteams/phone-reference/plan-availability/availability-in-uruguay)
 > - [Venezuela](/microsoftteams/phone-reference/plan-availability/availability-in-venezuela)
 > - [Vietnam](/microsoftteams/phone-reference/plan-availability/availability-in-vietnam)
-
-**If you're looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-/microsoftteams/availability-(v-19OCT2021)-(en-us).xlsx)**.
 
 ***
 
