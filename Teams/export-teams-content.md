@@ -89,7 +89,7 @@ Restricted to applications performing security and/or compliance functions, user
 
 Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
 
-### Teams Export API Certification Programs
+### Teams Export API certification programs
 
 In addition to publishing publicly available APIs that allow partners to develop and integrate solutions with Teams, we have developed the Teams Security & Compliance and Teams Backup & Restore solutions for the Microsoft Teams Certification Program. This program provides customers with the assurance that each participating partner's solution has been tested and verified to deliver the quality, compatibility, and reliability they expect from Microsoft solutions.
 
