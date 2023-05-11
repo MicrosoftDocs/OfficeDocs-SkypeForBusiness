@@ -3,7 +3,7 @@ title: Manage the Approvals app in Microsoft Teams
 author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: farhazk
-ms.date: 12/02/2020
+ms.date: 05/11/2023
 manager: samanro
 ms.topic: how-to
 audience: admin
@@ -148,7 +148,7 @@ Data stored in Forms will not be deleted until the team owners clean it up from 
 
 ## Conditional Access policies
 
-Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+Approvals supports [Continuous Access Evaluation (CAE)](/azure/active-directory/conditional-access/concept-continuous-access-evaluation). With CAE, you can setup any conditional access policy to restrict any user, app, or service from accessing some resources. Once the policy is set, AAD will reject when the selected entity requests tokens of that particular resource.
 
 ## Data limitations
 
