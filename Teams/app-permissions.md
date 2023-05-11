@@ -10,6 +10,7 @@ ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 search.appverid: MET150
 ms.reviewer: rowille
 ms.date: 03/03/2023

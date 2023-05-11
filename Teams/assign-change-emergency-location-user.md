@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- Tier1
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -29,7 +30,7 @@ Depending on your PSTN connectivity option, how you manage emergency calling may
 
 This article describes how to assign or change an emergency location for a user or phone number. The emergency location is set on the phone number assigned to a user. If you want to change the emergency location for an unassigned phone number, you need to temporarily assign the phone number to a user, change the location, and then unassign the phone number from the user.
 
-This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about Direct Routing, see [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
+This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about Direct Routing, see [Considerations for Direct Routing](considerations-direct-routing.md).
   
 You can assign or change an emergency location for a user in the Microsoft Teams admin center or by using PowerShell.
 

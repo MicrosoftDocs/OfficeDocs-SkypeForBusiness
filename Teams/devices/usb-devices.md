@@ -79,13 +79,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated March 2023*
+*Table Updated April 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |ThinkVision MC60 Monitor Webcam                            |4/13/2023       |Certified for Microsoft Teams                            |
+|Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
 |Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |
 |Jabra                |SPEAK2 75 Speakerphone                                     |3/17/2023       |Certified for Microsoft Teams                            |
 |Jabra                |SPEAK2 55 Speakerphone                                     |3/3/2023        |Certified for Microsoft Teams                           |
@@ -109,6 +111,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |T24mv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |T27hv-30 Monitor                                           |12/19/2022      |Certified for Microsoft Teams                           |
 |Lenovo               |Conference Call Base Speakerphone                          |12/19/2022      |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 55 Stereo/Mono                                     |11/29/2022      |Certified for Microsoft Teams                            |
+|Jabra                |Evolve2 50 Stereo/Mono                                     |11/25/2022      |Certified for Microsoft Teams                            |
 |Dell                 |WB3023 Camera                                              |11/23/2022      |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 561 II headset                                       |10/20/2022      |Certified for Microsoft Teams                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Certified for Microsoft Teams                           |
@@ -177,7 +181,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Microsoft            |Modern Webcam                                              |3/24/2021       |Certified for Microsoft Teams                           |
 |EPOS/Sennheiser      |Adapt 200 Series Headsets                                  |3/19/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Voyager Focus 2 Headset                                    |3/11/2021       |Certified for Microsoft Teams                           |
-|Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Certified for Microsoft Teams                           |
+|Jabra                |Evolve2 30 / SE Headset                                    |3/1/2021        |Certified for Microsoft Teams                           |
 |Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P15 Video bar                                       |2/1/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Sync 40 speakerphone                                       |1/19/2021       |Certified for Microsoft Teams                           |
@@ -253,7 +257,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 | Logitech            | Zone Wireless                                             | 4/8/2020       | Certified for Microsoft Teams                          |
 | Poly                | Voyager 8200 Headset                                      | 3/26/2020      | Skype for Business with upgrade to Microsoft Teams     |
 | Logitech            | Zone Wired                                                | 3/26/2020      | Certified for Microsoft Teams                          |
-| Jabra               | Evolve2 40 Headset                                        | 3/26/2020      | Certified for Microsoft Teams                          |
+| Jabra               | Evolve2 40 / SE Headset                                   | 3/26/2020      | Certified for Microsoft Teams                          |
 | Poly                | Voyager 6200 Headset                                      | 3/23/2020      | Skype for Business with upgrade to Microsoft Teams     |
 | Poly                | Voyager 4245 Office                                       | 3/23/2020      | Certified for Microsoft Teams                          |
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | Certified for Microsoft Teams                          |

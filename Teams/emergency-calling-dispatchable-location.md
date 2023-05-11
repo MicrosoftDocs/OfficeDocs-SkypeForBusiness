@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -70,8 +71,10 @@ The following table shows the types of emergency addresses and associated routin
 | Dynamically acquired emergency address defined by administrator. | Direct to PSAP. |
 | Emergency address obtained from the operating system **without confirmation for accuracy** by the user. | Screened and Transferred to PSAP. |
 | Emergency address obtained from the operating system **with confirmation for accuracy** by the user.| Direct to PSAP. |
-| Emergency address obtained from the operating system and edited and confirmed by the user. | Screened and Transferred to PSAP. |
-| Emergency address entered and confirmed by the user. | Screened and Transferred to PSAP. |
+| Emergency address obtained from the operating system and edited through address autosuggest. | Direct to PSAP. |
+| Emergency address obtained from the operating system and manually edited and confirmed by the user.  | Screened and Transferred to PSAP. |
+| Emergency address entered manually and confirmed by the user. | Screened and Transferred to PSAP. |
+| Emergency address entered through address autosuggest and confirmed by the user.   | Direct to PSAP.  |
 | Emergency address statically assigned to the user/number. | Screened and Transferred to PSAP. |
 | Null | Screened and Transferred to PSAP. |
 

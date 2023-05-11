@@ -152,6 +152,9 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 
 - If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
 
+>[!NOTE]
+> When using *Text to Speech*, the text must be entered in the language selected for the call queue. The system doesn't perform translation.
+
 Teams provides default music to callers while they are *on hold in a queue*.
 
 - The default music supplied in Teams call queues is free of any royalties payable by your organization.
@@ -176,7 +179,7 @@ To [use a Teams channel to manage the queue](https://support.microsoft.com/offic
 
 1. Select the **Choose a team** radio button and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
-1. Select the channel that you want to use (only standard or private channels are supported) and select **Apply**.
+1. Select the channel that you want to use (only standard channels are fully supported) and select **Apply**.
 
 The following clients are supported when using a Teams channel for call queues:
 
@@ -187,8 +190,17 @@ The following clients are supported when using a Teams channel for call queues:
 > If you use this option, it can take up to 24 hours for the call queue to be fully operational.
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
-> 
-> Calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+
+> [!IMPORTANT]
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
+> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
+>
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
 
 ### Users and groups
 
@@ -343,6 +355,26 @@ For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#
 > Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
 Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
+
+## [Step 7: Authorized users](#tab/authorized-users)
+
+## Step 7: Authorized users
+
+**Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+
+To **add a user** to the authorized users:
+
+1. Select **Add**, search for the user, select **Add**, and then select **Add**.
+
+> [!IMPORTANT]
+> A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one auto attendant or call queue.
+>
+> A user won't be able to make any configuration changes if:
+>
+> - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
+> - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
+
+See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
 
 ---
 

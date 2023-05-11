@@ -115,7 +115,10 @@ The following is the recommended minimum VM configuration.
 |---------|---------|---------|
 |vCPU   |    2 cores     |  4, 6, or 8 cores<br>It's important to understand the underlying non-uniform memory access (NUMA) configuration and configure your VMs accordingly.     |
 |RAM     |   4 GB      | 512 MB to 1 GB per user        |
-|Storage    | 8 GB        | 40 GB to 60 GB        |
+|Storage    | 32 GB        | 40 GB to 60 GB        |
+
+> [!NOTE]
+> Microsoft Teams requires 3.0 GB of available disk space.
 
 #### Non-persistent setup
 
@@ -400,7 +403,7 @@ Teams VDI policies are available in the Teams module. These policies are active 
 
 ### Connect to Microsoft Teams PowerShell
 
-Follow the instructions in [Install Microsoft Teams PowerShell Module](/Teams/teams-powershell-install.md) to connect to the Microsoft Teams PowerShell module. Then run the following command to confirm that all VDI cmdlets are available:
+Follow the instructions in [Install Microsoft Teams PowerShell Module](./teams-powershell-install.md) to connect to the Microsoft Teams PowerShell module. Then run the following command to confirm that all VDI cmdlets are available:
 
 ```PowerShell
 Get-Command -Noun *VDI*
@@ -471,10 +474,11 @@ if($cleanup){
 ### Client deployment, installation, and setup
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
-- In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user to be in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario. This behaviour is fixed in Teams 1.6.00.376
+- In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user being in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario. This behavior is fixed in Teams 1.6.00.4472.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
 - Azure Virtual Desktop doesn't support Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
+- Teams presence functions within VDI Teams client but does not resolve in Outlook.
 
 ### Notifications
 

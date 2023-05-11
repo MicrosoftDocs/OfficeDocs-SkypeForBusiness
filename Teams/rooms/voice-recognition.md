@@ -108,8 +108,6 @@ General retention policy is stated in the [Data retention overview](/compliance/
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
 
-For example, Microsoft won't use the data in the following situations:
-
 **Is my voice profile data used when I join a meeting in another organization?**
 
 No only in meetings organized by a user in your organization.

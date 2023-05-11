@@ -1,10 +1,10 @@
 ---
-title: "What are Communications Credits?"
-ms.author: crowe
-author: CarolynRowe
+title: What are Communications Credits?
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.date: 04/19/2023
 ms.topic: conceptual
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
@@ -14,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -24,7 +25,7 @@ f1.keywords:
 ms.custom: 
   - Licensing
   - admindeeplinkMAC
-description: "Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. "
+description: Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get.
 ---
 
 # What are Communications Credits?
@@ -69,6 +70,12 @@ Instead, NCE customers will pay for overage outgoing minutes after they've used 
 
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
+### Your Calling or Audio Conferencing plan is through a Cloud Solution Provider (CSP)
+
+If you purchased your Calling or Audio Conferencing plan through a CSP, you won't be able to acquire Communication Credits in the Microsoft 365 admin center.
+
+To fund your Calling or Audio Conferencing plan with Communication Credits, you should directly purchase your Calling and Audio Conferencing plans from Web Direct or Volume License agreement (VL) channels.
+
 ## What are the Communications Credits rates?
 
 If you're wondering what the cost of the calls are for Microsoft Teams Calling Plans, see [Cloud-Based Phone System for Voice Calling](https://go.microsoft.com/fwlink/p/?LinkId=799523) (scroll down to "See rates for where you want to call").
@@ -79,19 +86,17 @@ To use toll-free numbers, Communications Credits are required as these calls are
   
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Microsoft 365 admin center** > **Users** > **Active Users**. Communications Credits licenses will appear as unlimited in quantity as they are used to grant access to the Communications Credits balance for any user to which you assign the Communications Credits license.
-  
+
 It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [Phone System and Calling Plans](calling-plan-landing-page.md) and [Audio Conferencing common questions](Audio-Conferencing-common-questions.md).
   
 You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
 > [!NOTE]
 > You can see the plans and pricing by [signing in to the Microsoft 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
-  
 In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Billing** > **Purchase Services** > **Add Ons** you can select Communication Credits to add the credits, and you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the other calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You may view your current Communication Credits balance by going to  **Billing** > **Your products** > **Communications Credits**.
 
 > [!NOTE]
 >You will be sent emails to **all users** with Lync Service Administrator, Company Administrator, Billing Administrator, Company Administrator, User Account Administrator, Helpdesk Administrator, Service Support Administrator, Billing Administrator, Lync Service Administrator, Device Administrators, Application Administrator, License Administrator, Cloud Device Administrator, Authentication Administrator, Privileged Authentication Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administrator admin roles, when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
-  
 ## Communications Credits
 
 Each organization will have a different usage of Calling Plans volume and rates to consider. You'll need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN and SMS (preview)usage**.
@@ -119,7 +124,6 @@ Important notifications related to the Communication Credits balance of your org
 
 > [!NOTE]
 > Communications Credits are also used for premium rate numbers. The caller pays the charges.
-  
 ## Recommended funding amounts
 
 We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $50. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
@@ -143,3 +147,4 @@ To see a table with the license or licenses you'll need for each feature, see [M
 ## Related articles
 
 [Teams PSTN usage report](teams-analytics-and-reports/pstn-usage-report.md)
+

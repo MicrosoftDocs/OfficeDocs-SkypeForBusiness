@@ -1,8 +1,8 @@
 ---
 ms.date: 07/14/2021
 title: Manage DNS entries when decommissioning your on-premises environment
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro

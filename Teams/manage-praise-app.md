@@ -1,7 +1,7 @@
 ---
 title: Manage the Praise app in the Teams admin center
 author: LanaChin
-ms.author: v-lanachin
+ms.author: samanro
 manager: samanro
 ms.reviewer: rjam
 ms.date: 07/30/2020
@@ -27,7 +27,7 @@ The Praise app in Microsoft Teams helps users show appreciation to members of yo
 Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
 > [!NOTE]
-> The Praise app is available for GCC cloud environment, but not for GCC High or DoD.
+> The Praise app is available for GCC or GCC High cloud environments, but not for DoD.
 
 ## Enable or disable Praise in your organization
 
@@ -40,7 +40,7 @@ Praise is enabled by default for all Teams users in your organization. You can t
 
 Keep in mind that this setting affects both the Praise app and the Praise feature in the Viva Insights app in Teams.
 
-If you set the status to **Blocked**, the Praise app is blocked within a few minutes for Teams. However, Praise in Viva Insights can take 7-9 days to be blocked.
+If you set the status to **Blocked**, the Praise app is blocked within a few minutes for Teams. However, Praise in Viva Insights can take up to 15 days to be blocked.
 
 ## Enable or disable Praise for specific users in your organization
 
