@@ -69,3 +69,4 @@ Both User 1 and User 2 are now fully authorized users and will have new configur
 - [Manage Teams voice applications policies](manage-voice-applications-policies.md).
 - [Set up a Microsoft Teams auto attendant](create-a-phone-system-auto-attendant.md).
 - [Create a call queue in Microsoft Teams](create-a-phone-system-call-queue.md).
+- [Manage your call queue and auto attendant greetings in Microsoft Teams](https://support.microsoft.com/office/manage-your-call-queue-and-auto-attendant-greetings-in-microsoft-teams-52c741c6-8577-4faf-aa5a-c7853e0ab8f8)
