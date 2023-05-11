@@ -43,7 +43,7 @@ Attendees will be able to join the view-only experience through desktop, web, an
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 To use the recommended `MicrosoftTeams` module:
 
@@ -136,4 +136,4 @@ The view-only attendee won't be able to experience the following options in meet
   
 ## Networking Considerations
 
-Teams View-Only meetings utilizes the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).
+Teams View-Only meetings utilize the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).
