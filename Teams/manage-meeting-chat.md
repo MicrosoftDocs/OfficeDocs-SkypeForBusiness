@@ -74,13 +74,23 @@ The **`-MeetingChatEnabledType`** parameter controls the availability of meeting
 - **EnabledExceptAnonymous** to be **"On for everyone but anonymous users"**
 - **Disabled** to be **"Off for everyone"**
 
-The following example sets meeting chat to be on for everyone:
-**THE BELOW IS PLACEHOLDER TEXT**
+To allow meeting chat to be on for everyone with an assigned policy, run the following script:
 
 ```PowerShell
--MeetingChatEnabledType <String>
+Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Enabled
 ```
 
+To allow meeting chat to be on for everyone but anonymous users with an assigned policy, run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType EnabledExceptAnonymous
+```
+
+To disable meeting chat for everyone with an assigned policy, run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
+```
 
 Information about chat for your end users can be found in [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
 
