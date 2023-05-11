@@ -122,7 +122,7 @@ items:
         - name: Admin training for Teams
           href: itadmin-readiness.md
         - name: End user training for Teams
-          href: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+          href: https://aka.ms/teamslivetraining
 - name: Upgrade from Skype for Business
   items: 
     - name: Get started
@@ -281,7 +281,7 @@ items:
         - name: Change information barriers modes with a PowerShell script
           href: /microsoft-365/compliance/information-barriers-teams-powershell-script?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Communication compliance
-          href: communication-compliance.md
+          href: /microsoft-365/compliance/communication-compliance-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Content search
           href: /microsoft-365/compliance/ediscovery-teams-content-search?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Customer Key
@@ -604,6 +604,8 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up meeting registration
+              href: set-up-meeting-registration.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Get a meeting attendance report
@@ -1397,41 +1399,44 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
-           
         - name: Plan
           items: 
-            - name: Overview of Microsoft Teams Rooms planning
+            - name: Teams Rooms planning
               href: rooms/rooms-plan.md
-            - name: Overview of Teams Rooms licensing
-              href: rooms/rooms-licensing.md
-            - name: Teams Rooms admin center licensing
-              href: rooms/admin-center-license-overview.md
-            - name: Teams Rooms legacy licensing
-              href: rooms/rooms-legacy-licensing.md
-            - name: Teams devices feature comparison between Windows and Android
-              href: rooms/teams-devices-feature-comparison.md
-            - name: Meeting room guidance for Teams
-              href: rooms/room-planning-guidance.md
-            - name: Version support
-              href: rooms/rooms-lifecycle-support.md
-            - name: Release notes
-              href: rooms/rooms-release-note.md
-            - name: Prepare your environment
-              href: rooms/rooms-prep.md
-            - name: Requirements
-              href: rooms/requirements.md
             - name: Security
               href: rooms/security.md
+            - name: Meeting room guidance for Teams
+              href: rooms/room-planning-guidance.md
+            - name: Hardware and operating systems
+              items:
+                - name: Certified Teams Rooms hardware
+                  href: rooms/certified-hardware.md
+                - name: Windows version support
+                  href: rooms/rooms-lifecycle-support.md
+                - name: Android app and firmware versions
+                  href: rooms/android-app-firmware.md
+                - name: Teams Rooms Windows and Android comparison
+                  href: rooms/teams-devices-feature-comparison.md
+            - name: Licensing
+              items:
+                - name: Overview of Teams Rooms licensing
+                  href: rooms/rooms-licensing.md
+                - name: Teams Rooms admin center licensing
+                  href: rooms/admin-center-license-overview.md
+                - name: Teams Rooms legacy licensing
+                  href: rooms/rooms-legacy-licensing.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
+            - name: Release notes
+              href: rooms/rooms-release-note.md
         - name: Deploy
           items: 
             - name: Deployment overview
               href: rooms/rooms-deploy.md
+            - name: Prepare your environment
+              href: rooms/rooms-prep.md
             - name: Create resource accounts 
-              href: rooms/with-office-365.md
-            - name: Configure a console
-              href: rooms/console.md
+              href: rooms/create-resource-account.md
             - name: Authentication
               items:
               - name: Configure authentication
@@ -1440,45 +1445,52 @@ items:
                 href: rooms/conditional-access-and-compliance-for-devices.md
               - name: Supported Conditional Access and Intune compliance policies
                 href: rooms/supported-ca-and-compliance-policies.md
-            - name: Manually update a device
-              href: rooms/manual-update.md
-            - name: Management with Azure Monitor
+            - name: Deploy Azure Monitor
               href: rooms/azure-monitor-deploy.md
-            - name: Content cameras
-              href: rooms/content-camera.md
-            - name: Voice recognition controls for Intelligent speakers
-              href: rooms/voice-recognition.md
             - name: Surface Hub
               items: 
                 - name: Set up Coordinated Meetings
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
-
+            - name: Peripherals
+              items:
+                - name: Content cameras
+                  href: rooms/content-camera.md
+                - name: Voice recognition controls for Intelligent speakers
+                  href: rooms/voice-recognition.md
+            - name: Test environments
+              items:
+                - name: Configure a custom-built console
+                  href: rooms/console.md
+                - name: Manually update a device
+                  href: rooms/manual-update.md
         - name: Manage
           items: 
             - name: Management overview
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Enable home screen refresh
-              href: rooms/mtr-home-refresh.md
-            - name: Remotely configure front row layout
-              href: rooms/manage-front-row.md
             - name: Remotely configure layout, scale, and resolution
               href: rooms/manage-front-room-scale-res.md
-            - name: Join third-party meetings
-              href: rooms/third-party-join.md
-            - name: Known issues
-              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
+            - name: Manage settings with an XML file
+              href: rooms/xml-config-file.md   
+            - name: Feature management
+              items:
+                - name: Enable home screen refresh
+                  href: rooms/mtr-home-refresh.md
+                - name: Remotely configure front row layout
+                  href: rooms/manage-front-row.md
+                - name: Join third-party meetings
+                  href: rooms/third-party-join.md
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
-            - name: Manage settings with an XML file
-              href: rooms/xml-config-file.md
-            - name: Use the recovery tool
-              href: rooms/recovery-tool.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
+            - name: Use the recovery tool
+              href: rooms/recovery-tool.md
+            - name: Known issues
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
     - name: Microsoft Teams Rooms Pro Management
       items: 
         - name: Overview
@@ -1536,7 +1548,6 @@ items:
               href: devices/remote-sign-in-and-sign-out.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md          
-        
         - name: Manage and monitor
           items:
             - name: Manage your devices in Teams
@@ -1551,8 +1562,6 @@ items:
               href: devices/phones-for-teams.md
             - name: Teams displays
               href: devices/teams-displays.md
-            - name: Upgrade Teams phones to Teams displays
-              href: devices/upgrade-phones-to-displays.md
             - name: Teams panels
               items: 
                   - name: Teams panels
@@ -1563,8 +1572,6 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
-            - name: Upgrade Teams phones to Teams displays
-              href: devices/upgrade-phones-to-displays.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices
@@ -1640,8 +1647,8 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Zero-touch App Install
-          href: zero-touch-app-install.md
+        - name: Auto install approved apps
+          href: auto-install-approved-apps.md
 
     - name: Manage custom apps
       items:
@@ -1817,10 +1824,6 @@ items:
           href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
         - name: Assign Teams add-on licenses
           href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: Manage the Office 365 E1 Trial offer
-          href: e1-trial-license.md
-        - name: Manage the Office 365 G1 Trial offer
-          href: g1-trial-license.md
         - name: Manage the Teams Exploratory experience
           href: teams-exploratory.md
         - name: Upgrade users from Teams Exploratory
@@ -1835,8 +1838,6 @@ items:
           href: teams-add-on-licensing/teams-shared-device-license.md
         - name: Advanced Communications
           href: teams-add-on-licensing/advanced-communications.md
-        - name: Messaging policies licensing
-          href: teams-add-on-licensing/pri-message.md
         - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
@@ -1855,8 +1856,6 @@ items:
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
-        - name: Get familiar with Microsoft Teams
-          href: drive-adoption-optimize-kaizala.md        
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams

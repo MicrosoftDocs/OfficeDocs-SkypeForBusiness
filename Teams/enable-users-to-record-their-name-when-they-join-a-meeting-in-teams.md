@@ -1,7 +1,7 @@
 ---
 title: "Enable users to record their name for a meeting"
-ms.author: heidip
-author: MicrosoftHeidi
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.date: 08/14/2018

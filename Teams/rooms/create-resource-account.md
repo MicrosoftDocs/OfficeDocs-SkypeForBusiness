@@ -51,7 +51,8 @@ Depending on your environment, you need one or more roles to create resource acc
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
-If you're creating resource accounts for Teams Rooms, the UPN must match the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
+> [!IMPORTANT]
+> If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
 
 ### What license do you need?
 

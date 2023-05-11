@@ -1,7 +1,7 @@
 ---
 title: Manage the Praise app in the Teams admin center
 author: LanaChin
-ms.author: v-lanachin
+ms.author: samanro
 manager: samanro
 ms.reviewer: rjam
 ms.date: 07/30/2020
@@ -27,7 +27,7 @@ The Praise app in Microsoft Teams helps users show appreciation to members of yo
 Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
 > [!NOTE]
-> The Praise app is available for GCC cloud environment, but not for GCC High or DoD.
+> The Praise app is available for GCC or GCC High cloud environments, but not for DoD.
 
 ## Enable or disable Praise in your organization
 
