@@ -30,7 +30,7 @@ appliesto:
 > [!Note]
 > A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
-Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience. You will begin seeing notifications for view-only experience around the 500 user mark.
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience. Meeting organizers will begin seeing notifications for view-only experience around the 500 user mark.
 
 Attendees who join the meeting first, up to the capacity of the main meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
 
@@ -134,6 +134,6 @@ The view-only attendee won't be able to experience the following options in meet
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.
   
-  ## Networking Considerations
-  
-  Teams View-Only meetings utilises the same platform as Teams Live Events. View-Only attendees receive meeting content, audio and video as TCP HTTPS streams. We strongly recommend that customers bypass proxy infrastructure for Teams Live Events URLs and IP addresses. For more information, refer to the [Azure CDN documentation](/azure/cdn/cdn-pop-locations).
+## Networking Considerations
+
+Teams View-Only meetings utilizes the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).
