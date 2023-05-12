@@ -55,9 +55,8 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 
  > [!NOTE]
  > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
-
- > [!NOTE]
- > Phone System call queues can use Presence to route calls to agents, for more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
+ >
+ > Phone System call queues can use Presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
