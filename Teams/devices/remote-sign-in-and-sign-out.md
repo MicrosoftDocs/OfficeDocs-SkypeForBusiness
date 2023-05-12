@@ -39,7 +39,7 @@ To sign in a device that has been signed out, go to the corresponding device pag
 
 1. Select the device you want to sign in.
 
-2. Go to the **Actions** menu at the top right hand side of the page, and select **Sign in a user**.
+2. Go to the **Actions** menu at the top right-hand side of the page, and select **Sign in a user**.
 
 ## Remote sign out
 
