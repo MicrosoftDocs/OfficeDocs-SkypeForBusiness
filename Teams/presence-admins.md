@@ -55,8 +55,6 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 
  > [!NOTE]
  > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
- >
- > Phone System call queues can use Presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
@@ -67,6 +65,8 @@ Users receive all chat messages sent to them in Teams regardless of their presen
 Users receive calls in all presence states except for Do not disturb, in which incoming calls go to voicemail. If the recipient blocked the caller, the call won't be delivered and the caller sees the recipient's presence as Offline.
 
 Users can add people to their priority access list by going to **Settings** > **Privacy** in Teams. People who have priority access can contact the user even when the user's status is set to Do not disturb.
+
+Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 ### Dual presence
 
