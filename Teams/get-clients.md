@@ -67,7 +67,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
 > [!NOTE]
-> Teams isn't currenly supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+> Teams isn't currently supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
@@ -135,12 +135,12 @@ If you're in China, you can install Teams from the following app stores:
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
 > [!NOTE]
-> When users install Teams from one of the China-based Android app stores and enables push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
 >Currently, Microsoft supports push notifications in Xiaomi phones. Hence, you must enable the push notifications in the Xiaomi phones. For information on how do it, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone). 
 
 ## Browser client
 
-The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from various browsers. The browser client supports Calling and Meetings by using webRTC, so there's no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
+The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from various browsers. The browser client supports Calling and Meetings by using webRTC; so there's no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
