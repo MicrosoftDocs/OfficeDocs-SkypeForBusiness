@@ -28,7 +28,7 @@ All the apps are mandatorily required to adhere to the Microsoft App Certificati
 To know the detailed validation guidelines that app developers adhere to, see [Validation guidelines for developers](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). The guidance is based on the [Certification policies for Teams apps](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
-> Validation and checks by Microsoft are not available for a custom app as it is developed within your organization and the app is only available to the members of your organization.
+> Validation and checks by Microsoft are not available for custom apps. These apps are used within your organization or are provided to a customer tenant.
 
 ## App validation and testing
 
