@@ -129,7 +129,7 @@ It is not possible to convert a private channel to another channel type.
 
 Notifications from private channels are not included in missed activity emails.
 
-Channel meetings can't be scheduled. Channel calendars aren't available in private channels.
+Channel meetings can't be scheduled. Channel calendars aren't available.
 
 ## Related topics
 
