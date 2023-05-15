@@ -105,6 +105,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
             <BlueComponent>100</BlueComponent>
        </CustomThemeColor>
   </Theming>
+  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience> 
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
     <Settings>
@@ -188,6 +189,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are Default, one of the provided preset themes, or Custom. <br/>  Custom theme names always use the name *Custom*. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  To disable the current theme, use "No Theme" for the ThemeName. |
 | `<CustomThemeImageUrl>` | String  &#x2778; |  | Required for a custom theme, otherwise optional. Input the file name only.   For more information on the custom theme image, see the [Custom Theme Images](xml-config-file.md#Themes) section. |
 | `<CustomThemeColor>` | Container |  | Container for the `<RedComponent>`, `<GreenComponent>`, and `<BlueComponent>` values. These values are required, but do not impact theme color. Please specify any value between 0-255. |
+| `<TeamsRoomsNewExperience>`| Boolean &#x2777; |   | Enable or disable the refreshed home screen design on front-of-room displays and the console. Starting with version 4.17, the refreshed home screen design is enabled by default. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).  |
 | `<RedComponent>` | Byte (0-255) |  | Represents the red color component. |
 | `<GreenComponent>` | Byte (0-255) |  | Represents the green color component. |
 | `<BlueComponent>` | Byte (0-255) |  | Represents the blue color component. |

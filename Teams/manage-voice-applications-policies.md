@@ -24,11 +24,6 @@ description: Learn how to use and manage voice applications policies for Microso
 
 # Manage voice applications policies for Microsoft Teams
 
-> [!IMPORTANT]
-> The Voice applications policy and Authorized user configuaration options are available to all customers. However, the end-user features in the Teams client are currently only available as part of a public preview.
-> 
-> General availability for all customers is scheduled for the end of April, 2023.
-
 Voice applications policies allow you to create and assign voice applications policies to authorized users. Voice applications policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
 Voice applications policies can be managed in the Microsoft Teams admin center.
@@ -205,3 +200,4 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 - [Authorized users](aa-cq-authorized-users.md).
 - [Set up a Microsoft Teams auto attendant](create-a-phone-system-auto-attendant.md).
 - [Create a call queue in Microsoft Teams](create-a-phone-system-call-queue.md).
+- [Manage your call queue and auto attendant greetings in Microsoft Teams](https://support.microsoft.com/office/manage-your-call-queue-and-auto-attendant-greetings-in-microsoft-teams-52c741c6-8577-4faf-aa5a-c7853e0ab8f8)
