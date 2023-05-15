@@ -38,7 +38,7 @@ After you allow the use of a custom app, your users can find it by selecting **B
 
 As a Teams admin, you use custom app settings to control who in your organization can upload custom apps to Microsoft Teams. Admins decide which users can upload custom apps, and admins and team owners can determine whether specific teams in your organization allow custom apps to be added to them. After you edit the setup policy for custom apps, it takes a few hours for changes to take effect. You must be a Global Admin or Teams Administrator to manage these policies.
 
-Developers within your organization can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This method is different from how apps are added through the Teams app store. Adding a custom app by uploading an app package, also known as sideloading, lets specific users within your organization to test an app, before it's ready to be widely distributed.
+Developers within your organization can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This method is different from how apps are added through the Teams app store. You add a custom app by uploading an app package and this method is called sideloading.
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -53,6 +53,11 @@ Developers can sideload an app to make it available to the members of a specific
 Developers can share a sideloaded app with a specific team without submitting it to the Teams app catalog. It makes the sideloaded custom app available to a limited group of users but not available in your organization's app store for all users.
 
 As an admin, you can disallow sideloading of app for all developers. If you disallow sideloading, the developers can still test their apps by [creating a separate test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, developers request administrators to distribute their custom app to the users. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you allow (or block) the use a custom app for all users or for specific users.
+
+Sideloading is useful in the following scenarios:
+
+* Test an app with a few specific users within your organization, before it's ready to be widely distributed.
+* Provide a app to users of your organization only without publishing the app to the Teams app store.
 
 ## Allow users to upload custom apps
 
