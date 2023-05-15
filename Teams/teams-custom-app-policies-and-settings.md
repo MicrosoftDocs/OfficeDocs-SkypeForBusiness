@@ -67,10 +67,11 @@ Microsoft Teams provides granular control over who can add custom apps to a team
 * [**Allow members to upload custom apps**](#team-setting-for-custom-app): This setting in each team determines if users of a team can upload custom apps or not.
 
 | Setting in a team | Setting in app setup policy | Effect on who can upload custom apps |
-| Off | Off | No user. |
-| Off | On | Only Team owners. |
-| On | Off | No user. |
-| On | On | Anybody. |
+|-------------------|-----------------------------|--------------------------------------|
+| Off               | Off                         | No user.                             |
+| Off               | On                          | Only Team owners.                    |
+| On                | Off                         | No user.                             |
+| On                | On                          | Anybody.                             |
 
 ### App setup policy settings for custom apps
 
