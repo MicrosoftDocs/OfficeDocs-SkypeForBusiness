@@ -60,6 +60,8 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 If you have a 3PIP or SIP device, you must have the following:
 
 - [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- Skype for Business Online (Plan 2)
+  - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
 - [Microsoft Phone System](what-is-phone-system-in-office-365.md)
 - [PSTN Connectivity](pstn-connectivity.md)
 
@@ -216,4 +218,3 @@ If you have a 3PIP or SIP device, you must have the following:
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
-
