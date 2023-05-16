@@ -1,8 +1,7 @@
 ---
-title: Meetings, webinars, and live events
+title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
-ms.date: 04/01/2020
-description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
+ms.date: 07/01/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -24,9 +23,10 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+description: A guide for administrators to roll out and configure meetings, webinars, and town halls in Microsoft Teams.
 ---
 
-# Meetings, webinars, and live events
+# Overview of meetings, webinars, and town halls
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events.
 
@@ -38,15 +38,19 @@ The different types of meetings also have different participant limits and parti
 
 The following table summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. Sections with more information about each type of meeting follow the table. This article also includes a section on [best practices for large meetings](#best-practices-for-large-meetings).
 
-| Type of meeting | Number of participants | Interaction | Registration supported |
-|----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes |
-| Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
-| Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
-
-*The usual 10,000 is increased to 20,000 through June 30, 2023.
-
-**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
+|Feature|Meetings|Webinars|Town halls|
+|:------|:-------|:-------|:---------|
+|Lobby|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
+|Attendee mic and camera|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
+|End-to-end encryption|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
+|Watermarks|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
+|Theme|![Teams Premium](media/premium-icon.png)|![yes](media/yes.png)|![yes](media/yes.png)|
+|Streaming|Optional|Optional|Required|
+|Registration|Optional|![yes](media/yes.png)|![no](media/no.png)|
+|Interactive participants|1,000|1,000|![no](media/no.png)|
+|Streaming participants|10,000|![no](media/no.png)|10,000|
+|Yammer integration|![no](media/no.png)|![no](media/no.png)|![yes](media/yes.png)|
+|Breakout rooms|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 

@@ -1,11 +1,10 @@
 ---
 title: Plan for Teams meetings
 ms.reviewer: 
-ms.date: 04/01/2020
-description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
+ms.date: 07/01/2023
 ms.topic: article
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -24,6 +23,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
+description: Learn how to plan for meetings in Microsoft Teams.
 ---
 
 # Plan for Teams meetings
@@ -32,24 +32,6 @@ appliesto:
 
 
 
-## Feature comparison - for overview article
-
-
-|Feature|Meetings|Webinars|Town halls|
-|:------|:-------|:-------|:---------|
-|Lobby|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Attendee mic and camera|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|End-to-end encryption|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|Watermarks|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|Theme|![Teams Premium](media/premium-icon.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Streaming|Optional|Optional|Required|
-|Registration|Optional|![yes](media/yes.png)|![no](media/no.png)|
-|Interactive participants|1,000|1,000|![no](media/no.png)|
-|Streaming participants|10,000|![no](media/no.png)|10,000|
-|Yammer integration|![no](media/no.png)|![no](media/no.png)|![yes](media/yes.png)|
-|Breakout rooms|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|||||
-|||||
 
 ## Things for the overview
 
