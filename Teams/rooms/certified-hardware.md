@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier1
+  - Tier3
 ms.custom: 
   - seo-marvel-mar2020
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
@@ -124,8 +124,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
-|:-|:-|:-|:-|--|
-| D7X55 - Meeting board | `1.2.7.0` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
+|:-|:-|:-|:-|:-|
+| [Audiocodes RXV81 Collaboration Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | March 30, 2023 | Small meeting room (4.5 m x 4.5 m) | 10 |
+| Yealink DeskVision A24 | `156.15.0.24` | February 27, 2023 | Personal space, Shared space: Phone booth (2m x 2m) | 10 |
+| DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | [Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | [Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2024 | Small meeting room (4.5 m x 4.5 m) | 10 |

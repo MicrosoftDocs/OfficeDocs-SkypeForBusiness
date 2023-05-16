@@ -2,6 +2,53 @@
 
 
 
+## Week of May 08, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/8/2023 | [Auto install approved Teams apps](/MicrosoftTeams/auto-install-approved-apps) | modified |
+| 5/8/2023 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
+| 5/8/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 5/8/2023 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/calling-plan-overview) | added |
+| 5/8/2023 | [Manage phone numbers for Calling Plan](/MicrosoftTeams/manage-phone-numbers-for-your-organization) | added |
+| 5/9/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 5/10/2023 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/calling-plan-overview) | modified |
+| 5/10/2023 | Manage the free Office 365 E1 Trial | removed |
+| 5/10/2023 | Manage the free Office 365 G1 Trial for US government | removed |
+| 5/10/2023 | Priority notifications in Teams messaging | removed |
+| 5/11/2023 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
+| 5/12/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
+
+
+## Week of May 01, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/1/2023 | [Education SKU reference](/MicrosoftTeams/sku-reference-edu) | modified |
+| 5/2/2023 | [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modified |
+| 5/2/2023 | Upgrade Teams phones to Teams displays | removed |
+| 5/2/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | modified |
+| 5/2/2023 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
+| 5/3/2023 | [Manage teams in the Microsoft Teams admin center](/MicrosoftTeams/manage-teams-in-modern-portal) | modified |
+| 5/3/2023 | [Set up Meeting Registration in Microsoft Teams](/MicrosoftTeams/set-up-meeting-registration) | added |
+| 5/3/2023 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 5/3/2023 | [Admin- Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
+| 5/3/2023 | [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
+| 5/4/2023 | [Teams Rooms on Android app and firmware versions](/MicrosoftTeams/rooms/android-app-firmware) | added |
+| 5/4/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | added |
+| 5/4/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 5/4/2023 | Drive adoption from Kaizala to Microsoft Teams for frontline workers | removed |
+| 5/4/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 5/4/2023 | Microsoft Teams Rooms requirements | removed |
+| 5/4/2023 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
+| 5/4/2023 | [Prepare your Environment](/MicrosoftTeams/rooms/rooms-prep) | modified |
+| 5/4/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | modified |
+| 5/4/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
+| 5/4/2023 | [Roll out Microsoft Teams First](/MicrosoftTeams/teams-first-overview) | modified |
+
+
 ## Week of April 24, 2023
 
 
@@ -78,84 +125,3 @@
 | 4/14/2023 | Manage voice and calling policies in Teams | removed |
 | 4/14/2023 | [Teams voice Contoso case study: Emergency calling](/MicrosoftTeams/voice-case-study-emergency-calling) | modified |
 | 4/14/2023 | [Plan and manage emergency calling](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modified |
-
-
-## Week of April 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/3/2023 | [Use guest access and external access to collaborate with people outside your organization](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modified |
-| 4/3/2023 | Information barriers in Microsoft Teams | removed |
-| 4/3/2023 | Change information barriers modes with a PowerShell script | removed |
-| 4/3/2023 | Information barriers and shared channels | removed |
-| 4/5/2023 | [Set up auto attendant and call queue authorized users](/MicrosoftTeams/aa-cq-authorized-users) | added |
-| 4/5/2023 | [Manage voice applications policies for Microsoft Teams](/MicrosoftTeams/manage-voice-applications-policies) | added |
-| 4/5/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
-| 4/5/2023 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
-| 4/5/2023 | [Configure call settings for users](/MicrosoftTeams/user-call-settings) | modified |
-| 4/5/2023 | Use Content Search in Microsoft Teams | removed |
-| 4/5/2023 | Place a Microsoft Teams user or team on legal hold | removed |
-| 4/5/2023 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
-| 4/6/2023 | [Manage Teams with policies](/MicrosoftTeams/manage-teams-with-policies) | modified |
-| 4/6/2023 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
-| 4/6/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
-| 4/7/2023 | [Create a custom meeting template in Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | modified |
-| 4/7/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 4/7/2023 | [Purchase third-party apps and manage subscriptions and licenses](/MicrosoftTeams/purchase-third-party-apps) | modified |
-
-
-## Week of March 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/27/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | added |
-| 3/27/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
-| 3/27/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
-| 3/27/2023 | [Contact the Telephone Number Services team](/MicrosoftTeams/contact-tns-service-desk) | added |
-| 3/27/2023 | [Manage phone numbers for Calling Plan and services](/MicrosoftTeams/manage-phone-numbers) | added |
-| 3/27/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | added |
-| 3/28/2023 | [Configure external meetings and chat with Skype for Business Server](/MicrosoftTeams/external-meetings-skype-for-business-server-hybrid) | added |
-| 3/28/2023 | [Manage external meetings and chat with people and organizations using Microsoft identities](/MicrosoftTeams/trusted-organizations-external-meetings-chat) | added |
-| 3/28/2023 | Call Quality Dashboard | removed |
-| 3/28/2023 | What's the difference between Business Voice and Enterprise Voice? | removed |
-| 3/28/2023 | Create Microsoft 365 users, add Teams Phone with Calling Plan bundle licenses, and assign phone numbers | removed |
-| 3/28/2023 | Customize Microsoft Teams Phone System with Calling Plan in Microsoft Teams | removed |
-| 3/28/2023 | Microsoft 365 Teams Phone System with Calling Plan documentation # < 60 chars | removed |
-| 3/28/2023 | Manage devices | removed |
-| 3/28/2023 | Monitor call quality | removed |
-| 3/28/2023 | Manage policy packages | removed |
-| 3/28/2023 | Port phone numbers to Teams Phone System with Calling Plan | removed |
-| 3/28/2023 | Assign Teams Phone System phone numbers to your users | removed |
-| 3/28/2023 | Set up Microsoft Teams Phone System with Calling Plan emergency locations | removed |
-| 3/28/2023 | Finished Teams Phone System with Calling Plan setup | removed |
-| 3/28/2023 | Set up Microsoft Teams Phone System with Calling Plan for small to medium businesses | removed |
-| 3/28/2023 | Set up Microsoft Teams Phone System with Calling Plan phone numbers | removed |
-| 3/28/2023 | Set up policies | removed |
-| 3/28/2023 | Set up a Microsoft Teams Phone System resource account | removed |
-| 3/28/2023 | Things to try after setting up Business Voice | removed |
-| 3/28/2023 | Teams Phone System guidance for small and medium businesses | removed |
-| 3/28/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
-| 3/28/2023 | Manage external meetings and chat | removed |
-| 3/28/2023 | [Microsoft Teams chat experience when communicating with people outside the organization](/MicrosoftTeams/native-chat-for-external-users) | modified |
-| 3/28/2023 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
-| 3/28/2023 | [Teams device store](/MicrosoftTeams/devices/device-store) | modified |
-| 3/28/2023 | [Hardware requirements for Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modified |
-| 3/28/2023 | [Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
-| 3/28/2023 | [Teams policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
-| 3/28/2023 | [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
-| 3/29/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 3/29/2023 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | modified |
-| 3/29/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | modified |
-| 3/30/2023 | [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams) | modified |
-| 3/30/2023 | [Microsoft Teams Phone Resource Account licenses](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modified |
-| 3/30/2023 | [User requests for admins](/MicrosoftTeams/user-requests-approve-apps) | modified |
-| 3/30/2023 | End-user training for Microsoft Teams # < 60 chars | removed |
-| 3/30/2023 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | modified |
-| 3/30/2023 | [Admin training for Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | modified |
-| 3/30/2023 | [Drive awareness and implement training](/MicrosoftTeams/teams-adoption-drive-awareness) | modified |
-| 3/30/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
-| 3/30/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
-| 3/30/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/apps-in-teams) | modified |
-| 3/30/2023 | [Microsoft Teams Shared Devices licensing](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | modified |

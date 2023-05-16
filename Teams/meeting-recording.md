@@ -150,6 +150,12 @@ The recording is usually deleted within a day after the expiration date but in r
 
 Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain. More details can be found in the [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md).
 
+## Set a custom privacy policy URL
+
+You can update the Teams recording and transcription privacy policy URL with a custom link for people in your organization in Azure Active Directory. For details, see [Add your organization's privacy info using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-properties-area).
+
+After adding your privacy policy URL, the default Teams meeting recording and transcription privacy statement will be replaced with the URL you provided. (People from outside your organization who join Teams meetings hosted by your organization will still have the default Teams meeting recording and transcription privacy policy.)
+
 ## Permissions and storage location
 
 Teams meeting recordings are stored in OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. Users that have full edit rights on the video recording file can change the permissions and share it later with others as needed. The default permissions applied to the recording are listed below.
