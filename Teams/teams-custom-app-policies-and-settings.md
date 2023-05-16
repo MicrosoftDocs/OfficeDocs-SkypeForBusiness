@@ -44,7 +44,7 @@ Developers within your organization can add a custom app to Teams by uploading a
 
 ## Understand custom apps and sideloading
 
-Your organization may commission the creation of custom apps for your org-specific requirements. Custom apps may be developed within your organization or by app developers outside the organization. The vendors
+Your organization may commission the creation of custom apps for your org-specific requirements. Custom apps may be developed within your organization or by app developers outside the organization.
 
 When developing custom apps and before distributing those apps to the users, developers test the apps by adding it to Teams Store to test. The developers can test on their own or with a specified group of users, but the app isn't available to other users in the organization via the store. This method is called sideloading of apps and applies only to custom apps.
 
@@ -57,7 +57,7 @@ As an admin, you can disallow sideloading of app for all developers. If you disa
 Sideloading is useful in the following scenarios:
 
 * Test an app with a few specific users within your organization, before it's ready to be widely distributed.
-* Provide a app to users of your organization only without publishing the app to the Teams app store.
+* Provide an app to users of your organization only without publishing the app to the Teams app store.
 
 ## Allow users to upload custom apps
 
@@ -66,12 +66,12 @@ Microsoft Teams provides granular control over who can add custom apps to a team
 * [**App setup policy**](#app-setup-policy-settings-for-custom-apps): A setting named **Upload custom apps** in the app setup policy determines which users in an organization are allowed to upload custom apps.
 * [**Allow members to upload custom apps**](#team-setting-for-custom-app): This setting in each team determines if users of a team can upload custom apps or not.
 
-| Setting in a team | Setting in app setup policy | Effect on who can upload custom apps |
+| Setting in a team | Setting in app setup policy | Affects who can upload custom apps   |
 |-------------------|-----------------------------|--------------------------------------|
-| Off               | Off                         | No user.                             |
-| Off               | On                          | Only Team owners.                    |
-| On                | Off                         | No user.                             |
-| On                | On                          | Anybody.                             |
+| Off               | Off                         | No user                              |
+| Off               | On                          | Only Team owners                     |
+| On                | Off                         | No user                              |
+| On                | On                          | Anybody                              |
 
 ### App setup policy settings for custom apps
 
@@ -81,7 +81,7 @@ To configure setup policy for custom apps, follow these steps:
 1. Perform one of the following steps:
 
    * Select **Add** and provide a name and description for the policy. It creates a new policy.
-   * Select an existing policy and click **Edit**.
+   * Select an existing policy and select **Edit**.
 
 1. Turn on or turn off the **Upload custom apps** option.
 1. Select **Save**.
