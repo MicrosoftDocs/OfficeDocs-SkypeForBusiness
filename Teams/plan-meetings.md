@@ -31,19 +31,17 @@ description: Learn how to plan for meetings in Microsoft Teams.
 **APPLIES TO:** ![yes](media/yes.png)Meetings ![no](media/no.png)Webinars ![no](media/no.png)Town halls ![yes](media/yes.png)Calls
 
 
-
-
-## Things for the overview
-
-RTMP
-
-CDN
-
-Streaming
-
-Who should be able to create
-
 ## Meetings and calls
+
+
+|User intent|Meeting polices|Calling policies|
+|:------|:--------------|:---------------|
+|Meet with someone by starting a call or instant meeting|Private meeting scheduling|Make private calls|
+|Record a meeting or call|Meeting recording|Cloud recording for calling|
+|Transcribe a meeting or call|Transcription|Transcription|
+|See closed captions in a meeting or call|Live captions|Real-time captions in Teams calls|
+
+
 
 ## Recordings
 

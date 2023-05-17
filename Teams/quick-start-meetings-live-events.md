@@ -60,6 +60,17 @@ Note that NDI is fully supported in meetings, webinars, and live events, allowin
 > [!NOTE]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+
+## RTMP
+
+## CDN
+
+## Streaming
+
+## Who should be able to create
+
+
+
 ## Meetings
 
 **Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
