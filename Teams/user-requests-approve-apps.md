@@ -38,7 +38,7 @@ Users can view all the available apps, including the blocked apps. You can't hid
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
 >[!NOTE]
-> The feature isn't supported in Government community cloud (GCC), GCC-High, and Department of Defence (DoD) tenants.
+> The feature isn't supported in Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD) tenants.
 
 ## View and act on user requests in Teams admin center
 
