@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-description: Learn which features are available in Teams meetings, webinars, and town halls
+description: Learn which features are available in Teams meetings, webinars, and town halls.
 ---
 
 # Meetings, webinars, and town halls feature comparison

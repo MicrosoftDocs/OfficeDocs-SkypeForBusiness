@@ -601,15 +601,15 @@ items:
         - name: Overview 
           href: quick-start-meetings-live-events.md
         - name: Meetings
-          href: 0a-meetings.md
+          href: plan-meetings.md
         - name: Webinars
-          href: 0a-webinars.md
+          href: plan-webinars.md
         - name: Town halls
-          href: 0a-town-halls.md
+          href: plan-town-halls.md
         - name: Policies overview
           href: meeting-policies-overview.md
         - name: Feature comparison
-          href: 0a-meeting-webinar-town-hall-feature-comparison.md
+          href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
             - name: Set up meeting registration
