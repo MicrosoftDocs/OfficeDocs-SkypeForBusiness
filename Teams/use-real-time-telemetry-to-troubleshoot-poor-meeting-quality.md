@@ -147,7 +147,6 @@ User signals identify when a user is actively participating in the call, isn't s
 
 - Windows
 - macOS
-- Linux
 - Android
 - iOS
 
