@@ -31,7 +31,7 @@ Loop components in Teams chat offer a new way to ideate, create, and make decisi
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with Loop components.
 
-**Share components.** In this release, you can share Loop components into different Teams chats. Recipients can edit from wherever they're and see updates instantly no matter where the changes were made.
+**Share components.** In this release, you can share Loop components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made.
 
 **Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file on Office.com, where you have a larger visual space for editing and can add as many components as you like.
 
