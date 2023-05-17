@@ -114,23 +114,33 @@ You can configure caller ID policies with the [Teams admin center](#use-the-team
 
 You can manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
+For more information on each policy, see [Caller ID policies](#caller-id-policies).
+
 #### Create a custom caller ID policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Caller ID policies.**
 
-2. Select **Add**.
+1. Select **Add**.
 
-3. Enter a name and description for the policy.
+1. Enter a name and description for the policy.
 
-4. Under **Replace the caller ID with**, set which caller ID is displayed for users by selecting one of the following:
+1. Turn on or off **Block incoming caller ID** and **Override the caller ID policy**.
+
+1. Enter a **Calling Party Name**.
+
+1. Under **Replace the caller ID with**, set which caller ID is displayed for users by selecting one of the following:
+
       - **User's number:** Display the user's number.
+
       - **Service number:** Display the service number. (Note: this option will be deprecated. Newly created caller ID policies must use **Resource account**)
+
       - **Anonymous:** Display the caller ID as Anonymous.
+
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
 
     If you choose **Service number** or **Resource account**, you are prompted to specify a service number or a resource account for the next field, called **Replace the caller ID with this resource account/service number**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection.
 
-5. Select **Save**.
+1. Select **Save**.
 
 #### Assign a custom caller ID policy to users
 
