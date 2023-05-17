@@ -51,7 +51,7 @@ App management tasks that are supported in admin center are in the table below.
 | The Teams app usage report provides information about which apps in use, active users, and other app usage information. | [Usage reports](https://admin.teams.microsoft.com/analytics/reports) | [Teams app usage report](teams-analytics-and-reports/app-usage-report.md) |
 | Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
-| Teams update policies are used to manage Teams and Office preview users who can see pre-release or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
+| Teams update policies are used to manage Teams and Office preview users who can see prerelease or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 
 App management tasks that are supported on other portals are in the table below.
 
@@ -112,7 +112,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
     * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md).
+1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps** option. This setting controls whether users can use custom apps or not. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
 1. Select **Save**. The settings take effect after a few hours.
 
@@ -162,12 +162,12 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. You receive support information about apps from the following two different sources:
 
-* Microsoft does not provide direct support for Teams apps but provides the following value adds for customers:
+* Microsoft doesn't provide direct support for Teams apps but provides the following value adds for customers:
 
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised.
   * Certification to apps via its [Microsoft 365 app compliance program](overview-of-app-certification.md) to reassure that app are compliant with the industry-standard frameworks.
 
-* App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information is available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
+* App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information are available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
   * **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
 

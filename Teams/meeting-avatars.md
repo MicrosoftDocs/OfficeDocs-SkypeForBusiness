@@ -78,15 +78,19 @@ Now users will see the avatars for Teams app when they search through their apps
 
 To ensure the avatars for Teams app works properly, TCP ports 443 and 80 need to be allowed through your firewall or proxy server for the following URLs:
 
-- `https://clients.config.office.net/user/v1.0/web/policies`
-- `https://browser.events.data.microsoft.com/OneCollector/1.0/`
-- `https://global.profile.prod.collab.mixedreality.microsoft.com/ms-graph-obo/accesstoken`
-- `https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.js`
-- `global.profile.prod.collab.mixedreality.microsoft.com`
 - `clients.config.office.net`
+- `global.profile.prod.collab.mixedreality.microsoft.com`
+- `js.monitor.azure.com`
 - `catalog.meshxp.net`
 - `browser.events.data.microsoft.com`
 - `avatars.meshxp.net`
+- `static2.sharepointonline.com`
+- `statics.teams.cdn.office.net`
+- `substrate.office.com`
+- `csp.microsoft.com`
+- `avatars.mesh.microsoft.com`
+- `noam.events.data.microsoft.com`
+- `eu-mobile.events.data.microsoft.com`
 
 TCP port 80 is required to allow requests to automatically redirect to TCP port 443.
 

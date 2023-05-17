@@ -91,4 +91,4 @@ Here are some call routing best practices:
 > 
 > For example, if a call arrives on auto attendant #1 and the caller selects an option that sends them to auto attendant #2, this counts as one transition. If the caller selects an option on auto attendant #2 that returns them to auto attendant #1 or sends them to call queue #1, then this would count as a second transition.
 > 
-> Calls that remain in the same auto attendant but return to the main menu multiple times, for example when an announcement is played or there is a configured menu option to repeat, aren't impacted by this maximum transition limit.
+> Calls that remain in the same auto attendant but return to the main menu multiple times, for example when an announcement is played or there is a configured menu option to repeat, are also counted as a transition and are impacted by this maximum transition limit.
