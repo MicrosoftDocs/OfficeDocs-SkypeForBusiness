@@ -83,7 +83,7 @@ For more information on Teams Phone with Calling Plan for small and medium busin
 
 When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
-Ensure everyone using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
+Ensure everyone has a Teams license before they can use Teams. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/training/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
