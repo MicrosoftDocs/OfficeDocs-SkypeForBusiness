@@ -62,7 +62,7 @@ You don't need to do anything else for your users to start using chat, teams, an
 
 ### Meetings and conferencing
 
-Meetings and conferencing let people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, make voice calls, and share video and apps with other participants using a PC or mobile device.
+Meetings and conferencing let people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. The participants can join in the conversation without the need for a phone by using the microphone, camera, and screen of their device. Participants can chat, make voice calls, and share video and apps with other participants using a PC or mobile device.
 
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
@@ -83,7 +83,7 @@ For more information on Teams Phone with Calling Plan for small and medium busin
 
 When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
-Make sure everyone using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
+Ensure everyone using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/training/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
