@@ -63,7 +63,7 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 
 ## Service prerequisites
 
-For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
+For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](/microsoftteams/rooms/certified-hardware), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 ## Supported regions
 

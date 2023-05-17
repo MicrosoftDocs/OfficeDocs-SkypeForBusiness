@@ -81,7 +81,7 @@ If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like ful
 
 ## Supported cameras
 
-To determine whether you can use a camera as a content camera, refer to [Certified firmware versions for USB audio and video peripherals](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+To determine whether you can use a camera as a content camera, refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals).
 
 Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
@@ -97,9 +97,3 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 ![Content camera setup.](../media/content-camera1.png)
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
-
-## See also
-
-[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
-
-[Microsoft Teams Rooms requirements](requirements.md)
