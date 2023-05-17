@@ -1,12 +1,12 @@
 ---
-title: Manage meeting policies in Microsoft Teams
+title: Manage meeting and event policies in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
-ms.date: 06/07/2018
+ms.date: 07/01/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -21,26 +21,17 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Manage meeting policies in Microsoft Teams
+# Manage meeting and event policies in Microsoft Teams
 
-<a name="bkautomatically-admit-people"> </a>
+Meeting and event policies are used to control the features that are available to organizsers and participants of meetings, webinars, and town halls in your organization. You can use the global (Org-wide default) policies that are automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
-<a name="bkallow-a-participant-to-give-or-request-control"> </a>
-
-<a name="bkallow-transcription"> </a>
-
-Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
-
-> [!NOTE]
-> For information about using roles to manage the permissions of meeting presenters and attendees, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
-
-You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
+Policies are implemented in one of the following ways:
 
 |Implementation type  |Description  |
 |---------|---------|
-|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Who can bypass the lobby** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
-|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Meet now in channel meetings** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Meeting recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Who can bypass the lobby** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.|
+|Per-user    |When you implement a per-user policy, the policy allows or prevents a given feature for each user. For example, **Meet now in channel meetings** is a per-user policy.     |
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Meeting recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.|
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
@@ -99,6 +90,10 @@ This video shows the steps to edit an organizational-wide default meeting policy
 
 ## Related topics
 
-- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](policy-assignment-overview.md)
+[Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Assign policies to your users in Teams](policy-assignment-overview.md)
+
+[Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
