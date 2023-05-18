@@ -319,8 +319,8 @@ Meeting policies are used to control what features are available in meetings org
 |Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant.|
 
 > [!NOTE]
-> A guest can be a participant joining from a non-Teams application or device. All the guest settings applied by your organization will apply for these participants.
-> 
+> A guest can be a participant joining from a non-Teams application or device. All the guest settings applied by your organization will apply to these participants.
+
 ##### Related topics for meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
