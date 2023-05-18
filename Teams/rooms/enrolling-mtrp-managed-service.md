@@ -24,21 +24,23 @@ f1keywords:
 
 # Accessing the Pro Management portal
 
-To access the Teams Rooms Pro Management portal, you need to assign one or more users to the Managed Service Administrator and then complete the enrollment steps using that user.
+In order to access the Pro portal you will first need to have Microsoft Teams Rooms Pro licenses added to your tenant. The first time the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) is accessed must be done by a tenant global administrator in order to consent the application. 
 
-## Assign users to the Managed Service Administrator role
+The global admin can then [assign roles](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-pro-rbac) to other users in the tenant for accessing the portal. The Built-in "Teams Rooms Pro Manager" role will give users full control over the Pro portal so it can be managed without a tenant global admin account. Tenant global admins will always have "Teams Rooms Pro Manager" permissions to the Pro portal, if roles are ever accidentally removed or if users are deleted you can always use a global admin account to get back to the role assignments. 
 
-Complete the following steps to assign users to the Managed Service Administrator role:
+## Assign users to the Teams Rooms Pro Manager role
 
-1. Log in to the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) with the same administrator privileges as that used to log in to the Microsoft 365 admin center.
-2. Navigate to **Settings** > **Settings** > **Roles** and then select **Managed Service Administrator**.
-3. Under **Managed Service Administrator**, select the **Assignments** tab and then select **Add**.
+Complete the following steps to assign users to the Teams Rooms Pro Manager role:
+
+1. Log in to the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) with the tenant global admin account.
+2. Navigate to **Settings** > **Settings** > **Roles** and then select **Teams Rooms Pro Manager**.
+3. Under **Teams Rooms Pro Manager**, select the **Assignments** tab and then select **Add Assignment**.
 4. Follow the wizard to name the assignment and select the users who should be added to it. The assignment will apply to all rooms and room groups.
 5. At the end of the assignment wizard, select **Add assignment**.
 
-Users who are assigned the Managed Service Administrator role are responsible for the day-to-day management and monitoring of Teams Rooms.
+Users who are assigned the Teams Rooms Pro Manager role have full access to all settings and rooms in the Pro portal. You can also assign users "Site Lead" or "Site Technician" default roles or define customer roles for those responsible for the day-to-day management and monitoring of Teams Rooms. 
 
-After you've assigned users to the Managed Service Administrator role, continue to the [Enroll a Teams Rooms device](enroll-a-device.md) to add a Teams Rooms device to the managed service portal.
+After you've assigned users to roles, continue to the [Enroll a Teams Rooms device](enroll-a-device.md) to add a Teams Rooms device to the managed service portal.
 
 <!-- ## Enroll a Teams Rooms device
 
