@@ -15,18 +15,18 @@ ms.collection:
 ms.reviewer: nakulm
 ms.date: 03/15/2023
 search.appverid: MET150
-ms.localizationpriority: high
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Practical guidance for deploying features in Teams meetings to record audio, video, and screen sharing activity.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
+description: Learn how to deploy features in Teams meetings to record audio, video, and screen sharing activity.
 ---
 
 # Teams meeting recording
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive and SharePoint, so users can share it securely across their organization.
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, so users can share it securely across their organization.
 
 When a meeting is recorded, it’s automatically:
 
@@ -38,8 +38,6 @@ When a meeting is recorded, it’s automatically:
 - Indexed for Microsoft 365 Search
 
 There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
-
-For detailed information on the change in storing meeting recordings from Microsoft Stream (Classic) to OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
 For live events recording options, see [Live event recording policies in Teams](./teams-live-events/live-events-recording-policies.md).
 
