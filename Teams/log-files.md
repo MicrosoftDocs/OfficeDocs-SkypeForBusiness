@@ -64,7 +64,6 @@ The following table outlines the various clients and their associated logs. Log 
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
-|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -156,10 +155,6 @@ Here's a list of the log files that are generated and the information they conta
 ## Desktop logs
 
 Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
-
-To collect logs for Linux:
-- Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-- The files will be available in `~/.config/Microsoft/Microsoft Teams/logs.txt`.
 
 To collect logs for Mac:
 - Click the Help menu in Microsoft Teams, and select **Collect support files**.
