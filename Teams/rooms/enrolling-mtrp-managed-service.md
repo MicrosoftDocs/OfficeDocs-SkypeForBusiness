@@ -38,7 +38,7 @@ Complete the following steps to assign users to the Teams Rooms Pro Manager role
 4. Follow the wizard to name the assignment and select the users who should be added to it. The assignment will apply to all rooms and room groups.
 5. At the end of the assignment wizard, select **Add assignment**.
 
-Users who are assigned the Teams Rooms Pro Manager role have full access to all settings and rooms in the Pro portal. You can also assign users "Site Lead" or "Site Technician" default roles or define customer roles for those responsible for the day-to-day management and monitoring of Teams Rooms. 
+Users who are assigned the Teams Rooms Pro Manager role have full access to all settings and rooms in the Pro Management portal. They can also assign users to the Site Lead or Site Technician default roles or define customer roles for those responsible for the day-to-day management and monitoring of Teams Rooms. 
 
 After you've assigned users to roles, continue to the [Enroll a Teams Rooms device](enroll-a-device.md) to add a Teams Rooms device to the managed service portal.
 
