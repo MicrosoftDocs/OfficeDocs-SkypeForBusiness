@@ -76,21 +76,21 @@ To upload your images, navigate to **Meetings** > **Customization Policies** and
 
 You'll find previews of your uploaded images in a new table under the **Custom meeting backgrounds** section. This table also displays the name and resolution of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your end users with a Teams Premium license.
 
-## Show only custom backgrounds in user gallery
+## Show only custom backgrounds in your users' gallery
 
-You can decide to only show custom backgrounds you've uploaded in your users' gallery.
+You can decide to only show custom backgrounds you've uploaded in your users' gallery. You must turn off video effects in meeting policies to only show custom backgrounds in your users' gallery.
 
 To only show custom backgrounds you've uploaded, follow these steps:
 
 1. Select **Meetings** from the navigation pane in the Teams Admin Center
-2. Under Meetings, select **Meeting Policies** to select an existing policy or create a new one.
+2. Under Meetings, select **Meeting Policies** and select an existing policy, or create a new one.
 3. Within your chosen policy, navigate to the **Audio and Video** section and set  **Participants can use video effects** to **Off**.
-4. Select Save
+4. Select **Save**
 5. Navigate to **Meetings** >  **Customization Policies** to select an existing policy or create a new one. 
 6. Within your chosen policy, scroll down to the **Custom Meeting backgrounds** section and set **Custom backgrounds** to **On**.
 7. Select **Save**
 
-After setting these policies, your users can use:
+After setting these policies, your users can use the following types of backgrounds:
 
 - Custom backgrounds you've uploaded
 - Background blur
