@@ -30,7 +30,7 @@ In Microsoft Teams, users can record their Teams meetings to capture audio, vide
 
 When a meeting is recorded:
 
-- It's pploaded to OneDrive (private meetings) or SharePoint (channel meetings)
+- It's uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
 - People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if it's explicitly shared with them)
 - Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting
