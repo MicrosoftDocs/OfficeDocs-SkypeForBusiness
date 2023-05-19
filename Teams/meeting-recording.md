@@ -62,7 +62,7 @@ You can use the Microsoft Teams admin center or PowerShell to set a Teams meetin
 
 Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
-# [**Meeting policy**](#tab/teams-admin-center)
+# [**Meeting policy**](#tab/meeting-policy)
 
 To allow or prevent meeting recordings
 1. In the Microsoft Teams admin center, expand **Meetings**.
@@ -73,7 +73,7 @@ To allow or prevent meeting recordings
 
 With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
-# [**Calling policy**](#tab/teams-admin-center)
+# [**Calling policy**](#tab/calling-policy)
 
 To allow or prevent call recordings
 1. In the Microsoft Teams admin center, expand **Voice**.
