@@ -3,7 +3,7 @@ title: IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
-ms.date: 11/30/2022
+ms.date: 05/19/2023
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -54,10 +54,10 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 The following table shows how each option for the **Who can bypass the lobby** policy affects each *type of meeting participant*.
 
-|Policy value:|Everyone|People in my organization, trusted organizations, and guests|People in my organization and guests|People in my organization|People who were invited|Only organizers and co-organizers|
+|Policy value:|Everyone|People in my org, trusted orgs, and guests|People in my org and guests|People in my org|People who were invited|Only organizers and co-organizers|
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|*People in my organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*People in my org and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Guests*|Bypass|Bypass|Bypass|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|People signed in to non-trusted organizations in external access will bypass the lobby; others wait in the lobby.|Lobby|
@@ -121,7 +121,7 @@ There are two types of people outside your organization who can join meetings as
 - Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
 - External access users - people who have Azure AD accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
 
-If you want all validated meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my organization** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **People in my organization and guests**.
+If you want all validated meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my org** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **People in my org and guests**.
 
 ## Control access to meetings by people without invitations
 
