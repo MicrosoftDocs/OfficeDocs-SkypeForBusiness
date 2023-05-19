@@ -93,7 +93,7 @@ This setting controls whether or not meeting recordings automatically expire. Af
 
 Any changes to this setting only affect newly created meeting recordings, not existing recordings. Admins can't change the expiration time on existing meeting recordings.
 
-The expiration value is an integer for days which can be set as follows:
+The expiration value is an integer for days that can be set as follows:
 
 - Minimum value: 1
 - Maximum value: 99999
