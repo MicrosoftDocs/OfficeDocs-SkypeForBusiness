@@ -34,7 +34,7 @@ As long as the admin policy isn't set to **Off for everyone**, meeting organizer
 |Setting value |Behavior  |
 |---------|---------|
 |**On for everyone**     | All participants can read and write chat messages; the organizer's **Allow meeting chat** settings control the chat experience.|
-|**On for everyone but anonymous users**     | All users can read and write chat messages, except for anonymous users. The organizer's **Allow meeting chat** settings control the chat experience for everyone, except for anonymous users, who can't read or write any messages. |
+|**On for everyone but anonymous users**     | All participants can read and write chat messages, except for anonymous participants. The organizer's **Allow meeting chat** settings control the chat experience for everyone, except for anonymous participants, who can't read or write any messages. |
 |**Off for everyone**     | Meeting chat is turned off for all participants; organizers can't use their **Allow meeting chat** to turn on chat in their meetings.  |
 
 ## Manage meeting chat using the Teams admin center
