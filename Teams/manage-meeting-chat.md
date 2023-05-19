@@ -94,7 +94,7 @@ Information about chat for your end users can be found in [Chat in a Teams meeti
 
 ## Manage chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with
 
-The **Chat in external meetings** setting controls whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a two-way trust relationship configured in [external access](MicrosoftTeams/trusted-organizations-external-meetings-chat). (In such a case, your users are considered anonymous by the other organization.) This setting is a per-user and per-participant policy.
+The **Chat in external meetings** setting controls whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a two-way trust relationship configured in [external access](trusted-organizations-external-meetings-chat.md). (In such a case, your users are considered anonymous by the other organization.) This setting is a per-user and per-participant policy.
 
 |Setting value |Behavior  |
 |---------|---------|
