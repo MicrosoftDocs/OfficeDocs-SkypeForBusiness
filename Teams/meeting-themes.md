@@ -90,7 +90,7 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 - Admin can only upload PNG and JPEG image formats for brand image
 - Admin can only upload brand image with max size of 5 MB
 - Admin can upload brand image with following dimensions:
-  - Minimum dimensions: 360 px X 360 px
+  - Minimum dimensions: 576 px X 576 px
   - Maximum dimensions: 2048 px X 2048 px
 - Admin can upload a minimum of 0 and a maximum of one image per theme from their device
 
