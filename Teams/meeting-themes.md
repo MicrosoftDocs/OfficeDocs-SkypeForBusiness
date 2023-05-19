@@ -23,7 +23,7 @@ description: Using approved corporate assets like images and logos to create som
 
 # Meeting themes for Teams meetings
 
-Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, tenant admins can easily set up and create meeting themes for various business units and departments within a single tenant.
+Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, you can easily set up and create meeting themes for various business units and departments within a single tenant.
 By default, Teams premium licensed users who have been assigned a meeting customization policy can create meeting themes-enabled meetings. These meetings feature themes by default, and anyone who joins the meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
 
 ## Prerequisites
@@ -42,8 +42,8 @@ As an admin, you can set up and manage meeting themes for Teams meetings with th
 
 #### Create a customization policy
 
-To create meeting themes, admins will first need to create a new meeting customization policy or modify their existing policy.
-To enable the custom background policy, admins will perform the following steps:
+To create meeting themes, you need to create a new meeting customization policy or modify their existing policy.
+To enable the custom background policy, perform the following steps:
 
 1. Open the Teams admin center
 2. Select **Meetings** from the navigation pane
@@ -56,7 +56,7 @@ To enable the custom background policy, admins will perform the following steps:
 > [!NOTE]
 > Although you can access Custom Meeting Visuals from the Meeting Policies page, we recommend accessing it through Customization Policies to avoid navigation through global organization default policies.
 
-Within the meeting customization policy, admins can begin defining their branding by creating a meeting theme.
+Within the meeting customization policy, you can begin defining their branding by creating a meeting theme.
 
 Meeting themes houses the following assets for your theme:
 
@@ -95,44 +95,29 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 
 #### Add a custom color
 
-Teams meetings support an organization's primary or secondary color in the meeting experience. You can enter the hex code value of your organization's color, which will appear on key surfaces of the meeting experience.
+Teams meetings support an organization's primary or secondary color in the meeting experience. You can enter the hex code value of your organization's color, which displays on key surfaces of the meeting experience.
 
 > [!NOTE]
 > To support Microsoft accessibility standards, the final color generated may not match your brand color.
 
 #### Preview a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** will open the preview dialog and show the newly defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
 
 #### Save meeting theme
 
-By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** will save the meeting theme, but won't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
+By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** saves the meeting theme, but doesn't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
-### Using Powershell
+### Using PowerShell
 
 > [!NOTE]
 > To upload images, you must use Teams admin center.
 
 You can manage meeting themes by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Get-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/get-csteamsmeetingbrandingpolicy)
+- [Set-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/set-csteamsmeetingbrandingpolicy)
 - [Grant-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/grant-csteamsmeetingbrandingpolicy)
-
 - [New-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/new-csteamsmeetingbrandingpolicy)
-
-- [Remove-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/remove-csteamsmeetingbrandingpolicy)
-
-- [Set-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/set-csteamsmeetingbrandingpolicy )
-
-#### Create a new meeting theme
-
-This example creates a new meeting themes policy called "test policy".
-
-```PowerShell
-New-CsTeamsMeetingBrandingPolicy -Identity "test policy"
-```
-
-#### Assign a meeting theme
 
 This example assigns a meeting theme policy called “Policy Test” to a group named group@contoso.com.
 
@@ -146,36 +131,17 @@ This example assigns a meeting theme policy called “Policy Test” to a user n
 Grant-CsTeamsMeetingBrandingPolicy -identity " alice@contoso.com" -PolicyName "Policy Test"
 ```
 
-#### Change the custom color
-
-This example changes the brand accent color of theme inside the demo branding meeting branding policy to #FF0000.
-
-```PowerShell
-Get-CsTeamsMeetingBrandingPolicy
-$brandingPolicy = Get-CsTeamsMeetingBrandingPolicy -Identity "demo branding"
-$brandingPolicy.MeetingBrandingThemes[0].BrandAccentColor = "#FF0000"
-Set-CsTeamsMeetingBrandingPolicy -Identity "demo branding" -MeetingBrandingThemes $brandingPolicy.MeetingBrandingThemes
-```
-
-#### Remove a meeting theme
-
-This example deletes the “policy test” meeting theme and its assignments to any users.
-
-```PowerShell
-Remove-CsTeamsMeetingBrandingPolicy -Identity "policy test"
-```
-
 ### Assigning a meeting customization policy to users
 
-Meeting customization policies can be assigned to one, many, or a pre-defined user group in your Tenant. Make sure that these users have a Teams premium license to use these features.
+Meeting customization policies can be assigned to one, many, or a predefined user group in your Tenant. Make sure that these users have a Teams premium license to use these features.
 
-- By default, all licensed users will get the Global Default policy assigned to them.
-- Custom Customization Policies will override the global default.
+- By default, all licensed users get the Global Default policy assigned to them.
+- Custom Customization Policies override the global default.
 - A licensed user can only be assigned one customization policy.
 
 ## Use cases for multiple departments or business units in one tenant
 
-Some organizations have multiple business units under different brand identities within the same tenant. In these cases, admins can create meeting customization policies that are dedicated to each brand. They can also assign a department or business unit user group to a specific policy.
+Some organizations have multiple business units under different brand identities within the same tenant. In these cases, you can create meeting customization policies that are dedicated to each brand. They can also assign a department or business unit user group to a specific policy.
 
 Contoso Ltd. has a single Tenant in Microsoft Teams, containing the user profiles of all their employees across different business organizations. The company is looking to adopt custom branded meetings in Teams to increase their brand presence with their clients and encourage an internal corporate culture.
 
@@ -214,14 +180,14 @@ Logos and images will be available for Join Launcher in future updates.
 While only licensed users who are assigned a meeting customization policy can create meeting themes-enabled meetings, anyone can view the themes that are applied to a meeting. These users include:
 
 - In-tenant, Teams Premium licensed users
-- In-tenant, non-licensed users
+- In-tenant, nonlicensed users
 - Guest of Tenant users
 - External Users
 - Anonymous users
 
 ## How to turn off meeting themes for a meeting
 
-Tenant Admins can allow meeting organizers to disable meeting themes for a specific meeting instance. Disabling meeting themes will return the meeting to the default Teams theme.
+Tenant Admins can allow meeting organizers to disable meeting themes for a specific meeting instance. Disabling meeting themes returns the meeting to the default Teams theme.
 
 To give meeting organizers the ability to disable Meeting Themes:
 
@@ -244,7 +210,7 @@ Meeting organizers can turn off meeting themes by:
 - Work with your brand and marketing team to ensure that your image assets and colors together follow your organization's brand guidelines.
 - Ensure you're using high-quality logo images, which are visible on small and large screen devices.
 - Colors generated in the Teams App may differ from your brand colors. This process was created to ensure Microsoft Accessibility Standards are met.
-- Users with high-contrast device settings won't see meeting themes.
+- Users with high-contrast device settings can't see meeting themes.
 
 ### Accessibility
 
@@ -253,7 +219,7 @@ Here are a few points to ensure accessibility requirements are met:
 - Follow existing UI patterns and structure – The current structure and text on the screen aren’t being modified with this feature.
 - Image Contrast Ratio – Image assets are required to meet the 4:5:1 color contrast ratio.  
 - Accessible Color Generation Support – We calculate the accessible color output that is the closest match to the brand color input while maintain Microsoft Accessibility standards.  
-- High Contrast support – For users with high contrast settings enabled, branding doesn't apply. They'll continue to see the default Teams meeting experience.
+- High Contrast support – For users with high contrast settings enabled, branding doesn't apply. They continue to see the default Teams meeting experience.
 - IT Admin Controls – IT Admins can prevent users with accessibility concerns from seeing the branding through:
-  - Policy control – ensuring they're not added to a customization policy. This control will prevent them from creating branding-enabled meetings.
-  - Meeting Options – meeting organizers can turn off branding for a meeting if a user with accessibility concerns will be joining the meeting.
+  - Policy control – ensuring they're not added to a customization policy. This control prevents them from creating branding-enabled meetings.
+  - Meeting Options – meeting organizers can turn off branding for a meeting if a user with accessibility concerns joins their meeting.
