@@ -31,16 +31,16 @@ In Microsoft Teams, users can record their Teams meetings to capture audio, vide
 When a meeting is recorded, it's automatically:
 
 - Uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
-- Permissioned to the people invited to the meeting (guests and external attendees can view the recording only if it's explicitly shared with them)
+- People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if it's explicitly shared with them)
 - Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
 - Linked in the chat for the meeting
 - Displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
 - Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Indexed for Microsoft 365 Search
 
-There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
+There's also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
-External participants can't record meetings except in the case of [Teams policy-based compliance recording](teams-recording-policy.md). If an external Teams user that is enabled for compliance recording joins a meeting or call hosted by your organization, that meeting or call will be recorded by the other organization for compliance purposes regardless of the **Meeting recording** setting in your organization. Presenters in that meeting can remove the external participant from the meeting if recordings should not be captured by the other organization.
+External participants can't record meetings except in the case of [Teams policy-based compliance recording](teams-recording-policy.md). If an external Teams user that is enabled for compliance recording joins a meeting or call hosted by your organization, that meeting or call will be recorded by the other organization for compliance purposes regardless of the **Meeting recording** setting in your organization. Presenters in that meeting can remove the external participant from the meeting if they don't want the recordings captured by the other organization.
 
 ## Allow or prevent users from recording meetings
 
@@ -78,12 +78,12 @@ Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeeti
 
 The two values for this setting are:
 
-- **Allow** — Saves channel meeting recordings to a “Recordings” folder in the channel. The permissions on the recording files are based off the channel's SharePoint permissions. This is the same as any other file uploaded for the channel. This is the default setting.
-- **Block** — Saves channel meeting recordings to a “Recordingsonly” folder in the channel. Channel owners will have full rights on the recordings in this folder, but channel members will have read access without ability to download.
+- **Allow** - Saves channel meeting recordings to a “Recordings” folder in the channel. The permissions on the recording files are based off the channel's SharePoint permissions. This is the same as any other file uploaded for the channel. This is the default setting.
+- **Block** - Saves channel meeting recordings to a “Recordingsonly” folder in the channel. Channel owners have full rights on the recordings in this folder, but channel members have read access without ability to download.
 
 ## Recordings automatically expire
 
-This setting provides you with a simple tool that reduces the amount of storage older recordings use. OneDrive and SharePoint will monitor the expiration set on all meeting recordings and will automatically move recordings to the recycle bin on their expiration date.
+This setting provides you with a simple tool that reduces the amount of storage older recordings use. OneDrive and SharePoint monitor the expiration setting on all meeting recordings and automatically moves recordings to the recycle bin on their expiration date.
 
 You can turn off the **Meetings automatically expire** setting in the Teams admin center, under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
@@ -91,13 +91,13 @@ You can turn off the **Meetings automatically expire** setting in the Teams admi
 
 This setting controls whether or not meeting recordings automatically expire. After turning on **Meetings automatically expire**, you'll get the option to set the **Default expiration time**, measured in days. Meeting recordings have a default expiration time of 120 days.
 
-Any changes to this setting only affects newly created meeting recordings from that point forward; they won't impact any recordings created before that date. Admins can't change the expiration time on existing meeting recordings.
+Any changes to this setting only affects newly created meeting recordings, not existing recordings. Admins can't change the expiration time on existing meeting recordings.
 
-The expiration value is an integer for days. This can be set as follows:
+The expiration value is an integer for days which can be set as follows:
 
 - Minimum value: 1
 - Maximum value: 99999
-- You can also set the expiration time to -1 in PowerShell so the recordings never expire.
+- -1 (PowerShell only) so the recordings never expire.
 
 > [!NOTE]
 > The maximum default expiration time for A1 users is 30 days.
@@ -116,19 +116,19 @@ You shouldn't rely on meeting expiration settings for legal protection since end
 
 File retention takes precedence over file deletion. A Teams meeting recording with a Purview retention policy cannot be deleted by a Teams meeting recording expiration policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy will permanently delete the recording after five years.
 
-If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file will be deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
+If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file is deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
 
-Users can manually delete their recordings prior to the expiration date unless there is a Purview retention policy that prevents it. If a recording that's still in the retention period is manually deleted by a user, the recording will be held in the Preservation Hold library. However, the recording will show as deleted to the end user. To find out more, see [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint).
+Users can manually delete their recordings prior to the expiration date unless there's a Purview retention policy that prevents it. If a user manually deletes a recording that's still in the retention period, the recording is held in the Preservation Hold library. However, the recording shows as deleted to the end user. To find out more, see [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint).
 
 ### Deletion of recordings
 
-On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
+On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If a user recovers a recording from the recycle bin, the meeting expiration setting won't delete it again.
 
 The recording is usually deleted within a day after the expiration date but in rare instances could take as long as five days. The file owner receives an email notification when the recording expires and is directed to the recycle bin if they want to recover the recording.
 
 ### Expiration of migrated recordings from Stream (Classic)
 
-Migrated recordings from Stream (Classic) will not come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain.
+Migrated recordings from Stream (Classic) won't come with an expiration set on them. Instead, we encourage admins to only migrate recordings that they want to retain.
 
 ## Set a custom privacy policy URL
 
@@ -142,37 +142,37 @@ Teams meeting recordings are stored in OneDrive and SharePoint storage. The loca
 
 ### Planning for storage
 
-The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive and SharePoint. Read [Set the default storage space for OneDrive](/sharepoint/set-default-storage-space) and [Manage SharePoint site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase additional storage.
+The size of a one-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive and SharePoint. Read [Set the default storage space for OneDrive](/sharepoint/set-default-storage-space) and [Manage SharePoint site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase additional storage.
 
 ### Temporary storage when unable to upload to OneDrive and SharePoint
 
-If a meeting recording can't be uploaded to OneDrive and SharePoint, it will temporarily be available for download from the meeting chat for 21 days before it is deleted. This may happen if the upload destination has exceeded its quota or has file uploads restricted. If the chat is deleted, then the recording is also deleted.
+If a meeting recording can't be uploaded to OneDrive and SharePoint, it's temporarily available for download from the meeting chat for 21 days before it's deleted. This may happen if the upload destination has exceeded its quota or has file uploads restricted. If the chat is deleted, then the recording is also deleted.
 
 ## Meeting Recording Diagnostic Tools
 
-### User cannot record meetings
+### User can't record meetings
 
-If you're an administrator, you can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
+You can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
 
 1. Select **Run Tests** to populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
 
-1. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
+1. In the Run diagnostic pane, enter the email of the user who can't record meetings in the **Username or Email** field, and then select **Run Tests**.
 1. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
 
 ### Meeting recording is missing
 
-If you're an administrator, you can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to OneDrive or Stream, based on the meeting ID and recording start time:
+You can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to OneDrive or SharePoint:
 
 1. Select **Run Tests** to populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
 
-1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
-1. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
+1. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) and the date of the meeting in the **When was the meeting recorded?** field and then select **Run Tests**.
+1. The tests validate that the meeting recording completed successfully and it was uploaded to SharePoint or OneDrive.
 
 ## Related topics
 
