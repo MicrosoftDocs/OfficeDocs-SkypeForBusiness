@@ -109,15 +109,17 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
    |Setting|Description|
    |:-----|:-----|
-   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+   |Users can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
+   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
+
+
+5. Once the policy is defined, you can assign it to a group. Select  **Group policy assignment** and select a either **Add** or  select a group listed. 
 
 :::image type="content" source="media/new-teams-update-policies-group.png" alt-text="update policies by group":::
 
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+Select a policy to assign to the group.
 
-   :::image type="content" source="media/new-teams-update-policies-group.png" alt-text="next step in enabling the toggle switch" lightbox="media/new-teams-update-policies-toggle3.png":::
 
 :::image type="content" source="media/new-teams-update-policies-group-assign.png" alt-text="update policy and assign by group":::
 
