@@ -71,6 +71,7 @@ Introduced in this update:
 - Enhanced View Switcher <sup>1</sup>
 - Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface
+- Support for joining Blue Jeans meetings. To learn more, visit [Enable Teams Rooms devices to join third-party meetings](third-party-join.md)
 
  <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040).
 

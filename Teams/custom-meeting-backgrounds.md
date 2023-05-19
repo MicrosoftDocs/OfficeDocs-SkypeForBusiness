@@ -25,7 +25,7 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 ## Overview
 
-Custom meeting backgrounds are images that you, as an admin can upload for your organization's users to use during meetings.
+Custom meeting backgrounds are images that you, as an admin can upload for your users to display in the background of their video feed during meetings.
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. Using custom meeting backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of an organization's brand management and corporate communications teams, admins can easily set up and create custom meeting backgrounds for various business units and departments within a single tenant.
 
