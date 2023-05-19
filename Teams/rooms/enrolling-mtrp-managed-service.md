@@ -24,7 +24,7 @@ f1keywords:
 
 # Accessing the Pro Management portal
 
-In order to access the Pro portal you will first need to have Microsoft Teams Rooms Pro licenses added to your tenant. The first time the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) is accessed must be done by a tenant global administrator in order to consent the application. 
+To access the Pro Management portal you need to have Microsoft Teams Rooms Pro licenses added to your organization. The first time the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) is accessed, it should be done by a global administrator from your organization in order to consent to the application. 
 
 The global admin can then [assign roles](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-pro-rbac) to other users in the tenant for accessing the portal. The Built-in "Teams Rooms Pro Manager" role will give users full control over the Pro portal so it can be managed without a tenant global admin account. Tenant global admins will always have "Teams Rooms Pro Manager" permissions to the Pro portal, if roles are ever accidentally removed or if users are deleted you can always use a global admin account to get back to the role assignments. 
 
