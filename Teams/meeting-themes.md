@@ -23,6 +23,10 @@ description: Using approved corporate assets like images and logos to create som
 
 # Meeting themes for Teams meetings
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
+## Overview
+
 Meeting themes consist of your organization’s brand colors, a custom image to represent your org, and your org’s logo. Applying a custom theme allows you, as an admin, to customize the visual appearance of the pre-join and lobby screens for your users' meetings.
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, you can easily set up and create meeting themes for various business units and departments within a single tenant.
