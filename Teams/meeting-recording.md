@@ -28,15 +28,15 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user. (Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).)
 
-When a meeting is recorded, it's automatically:
+When a meeting is recorded:
 
-- Uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
+- It's pploaded to OneDrive (private meetings) or SharePoint (channel meetings)
 - People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if it's explicitly shared with them)
 - Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
-- Linked in the chat for the meeting
-- Displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
-- Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
-- Indexed for Microsoft 365 Search
+- It's linked in the chat for the meeting
+- It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
+- It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
+- Microsoft 365 Search indexes it
 
 There's also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
