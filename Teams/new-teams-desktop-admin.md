@@ -116,6 +116,8 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
    :::image type="content" source="media/new-teams-update-policies-group.png" alt-text="next step in enabling the toggle switch" lightbox="media/new-teams-update-policies-toggle3.png":::
 
+:::image type="content" source="media/new-teams-update-policies-group-assign.png" alt-text="update policy and assign by group":::
+
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
 
 :::image type="content" source="media/new-teams-update-policies-manage-users.png" alt-text="update policy per user":::
