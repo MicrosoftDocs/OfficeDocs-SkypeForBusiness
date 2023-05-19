@@ -65,9 +65,6 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ![Information icon](media/info.png) **This feature is now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-> [!NOTE]
-> We'll be providing unlimited SMS notifications through April 3, 2023 (previously March 1, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide more details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
-
 SMS text notifications are currently available in Canada, the United Kingdom, and the United States.
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
