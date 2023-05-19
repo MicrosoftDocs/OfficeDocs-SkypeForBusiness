@@ -5,7 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 03/18/2023
+ms.date: 05/23/2023
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords: 
@@ -23,8 +23,6 @@ description: Learn how to set up the avatars for Microsoft Teams app.
 Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. You can control whether avatars for Teams is available in your organization and who can use them using policies.
 
 > [!NOTE]
-> As of May 5, 2023, you can view and manage the avatars for Teams app in the Teams admin center, regardless of your tenant's release channel. However, only users who've [joined the Teams public or private preview program](https://support.microsoft.com/office/get-early-access-to-new-teams-features-a6e387fe-1cad-4f90-ad78-1a311c77b36d) on their devices can install and use the avatars for Teams app right now. To check whether you allow users to join the Teams public preview program, see [Microsoft Teams Public Preview](public-preview-doc-updates.md#set-the-update-policy).
->
 >Users currently need to manually install and pin the avatars for Teams app. You'll be able to pre-install or pin the avatars for Teams app for your users when the app becomes generally available.
 
 Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
@@ -39,6 +37,8 @@ After you complete these steps, the avatars for Teams app will be available to u
 
 > [!NOTE]
 > The avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
+>
+> Teams customers can access this feature if they have one of the following licenses: Microsoft 365 Enterprise E3, Microsoft 365 Enterprise E5, Microsoft 365 Business Standard, and Microsoft 365 Business Premium License.
 
 ## Allow the avatars for Teams app in your organization
 
