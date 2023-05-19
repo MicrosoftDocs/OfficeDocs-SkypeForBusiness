@@ -30,7 +30,7 @@ Customization in Teams meetings allows organizations to extend their visual iden
 By default, Teams premium licensed users who have been assigned a meeting customization policy can create meeting themes-enabled meetings. These meetings feature themes by default, and anyone who joins the meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
 
 > [!NOTE]
-> Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting
+> Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting. To stop displaying your images, you must delete the images from your meeting theme. To remove images from a meeting theme, navigate to the Meeting Customization Policy in the Teams Admin Center, select the chosen meeting theme, and select "Edit Meeting Theme”.
 
 ## Prerequisites
 
