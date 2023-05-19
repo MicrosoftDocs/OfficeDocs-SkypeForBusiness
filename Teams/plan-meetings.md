@@ -45,7 +45,17 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 ## Recordings
 
+[Teams meeting recording](meeting-recording.md)
+
+[Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md)
+
+[Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md)
+
 ## Compliance features
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ## Streaming
 
