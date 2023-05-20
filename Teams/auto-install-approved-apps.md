@@ -21,7 +21,7 @@ ms.collection:
 
 >[!NOTE]
 > * The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post MC548106](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC548106). The feature was previously called Zero-touch app install.
-> * Some apps supported by this feature require some setup by admins before being made available to the users. See the [list of these apps and setup instructions]().
+> * Some apps supported by this feature require some setup by admins before being made available to the users. See the [list of these apps and setup instructions](#configure-apps-before-deployment-to-users).
 
 Some apps exist as apps on the desktop or in the browser. Users who use these apps may not know that the same app feature is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps feature](#benefits-of-the-feature).
 
@@ -104,7 +104,7 @@ You must configure a few specific Teams apps before you roll out these apps to y
 
 Some of these apps use Microsoft Graph permissions to work. A Global administrator must provide consent on behalf of users. Alternately, Azure admins can [let users consent for Graph permissions of apps](/azure/active-directory/manage-apps/configure-user-consent).
 
-|                 App                      |                           Setup instruction                                         |                               Global Administration consent                  |
+|                 App                      |                           Setup instruction                                         |         Global Administration for Graph permissions consent                  |
 |------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [MyHub](https://appsource.microsoft.com/product/office/WA200000726) | Setup isn't required. | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b/permission). |
 | [Box for Teams](https://appsource.microsoft.com/product/office/WA200001458) | [Deploy Box for Teams](https://support.box.com/hc/en-us/articles/360044681354-Deploying-Box-for-Teams-in-your-Enterprise) | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/8d04bcf6-86d8-4ab1-9602-bc3b56e06c37/permission). |
