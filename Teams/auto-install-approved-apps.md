@@ -100,7 +100,7 @@ Before you use the feature, understand the following considerations:
 
 ## Configure apps before deployment to users
 
-You must configure a few specific Teams apps before you rollout these apps to your organization's users. Follow the app setup instructions from the app developers linked below and then turn on the Auto install approved apps feature for these apps.
+You must configure a few specific Teams apps before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers provided below and then turn on the Auto install approved apps feature for these apps.
 
 Some of these apps use Microsoft Graph permissions to work. A Global administrator must provide consent on behalf of users. Alternately, Azure admins can [let users consent for Graph permissions of apps](/azure/active-directory/manage-apps/configure-user-consent).
 
@@ -120,7 +120,7 @@ Some of these apps use Microsoft Graph permissions to work. A Global administrat
 
 Consider the following app installation information when following the above developer instructions for this feature:
 
-* Some app setup instructions include steps to deploy the app using app setup policies. You can ignore the policy-related instructions and follow the rest of the app configuration instructions. App deployment works if you choose to use the app setup policy method but it is not required.
+* Some app setup instructions include steps to deploy the app using app setup policies. You can ignore the policy-related instructions and follow the rest of the app configuration instructions. App deployment works if you choose to use the app setup policy method but it isn't required.
 
 * Some app setup instructions include steps to install the app in multiple scopes like personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. App deployment works if you choose to use the app in other scopes for a group of users.
 
