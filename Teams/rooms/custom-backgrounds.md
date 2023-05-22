@@ -37,6 +37,125 @@ The custom background options you have available to you, and how you set them up
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
+
+## [Teams Rooms 4.17 and later](#tab/Teams417)
+
+Teams Rooms version 4.17 and later gives you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. It also lets you set up a custom background for your system's touch console.
+
+When you enable custom backgrounds, you need to provide custom backgrounds for your front-of-room displays. If you have two front-of-room displays, you need to provide a custom background for each display. Providing a custom background for your touch console is optional.
+
+If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to the built-in theme.
+
+### Minimum resolutions
+
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, no custom background is shown on any display or console.
+
+### Recommended resolutions
+
+The recommended custom background resolution for front-of-room displays and touch consoles depends on their aspect ratios. The following lists the aspect ratios supported by each display and the recommended resolution for each.
+
+- Single and dual front-of-room displays (per display)
+  - 16:9 displays - 1920 x 1080 (up to two 16:9 displays are supported)
+  - 21:9 displays - 2560 x 1080 (only one 21:9 display is supported)
+- Touch consoles
+  - 16:9 display - 1920 x 1080
+  - 16:10 display - 1280 x 800
+  - 3:2 display - 1920 x 800
+
+If you're not sure what the aspect ratio of your display is, check your display's specifications.
+
+> [!IMPORTANT]
+> Custom backgrounds with resolutions higher than the recommended resolution for a display may be center-cropped.
+>
+> Custom backgrounds with resolutions lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
+
+### Custom wallpaper content guidelines
+
+The graphics and text you place on your custom backgrounds needs to follow content guidelines to ensure the following:
+
+- Content doesn't collide with on-screen elements
+- Content is visible to meeting attendees further away from the displays
+- Content remains legible when placed in front of visual elements in the custom background
+- Content remains visible if a custom background is cropped
+
+The following guidelines apply for both front-of-room and touch console displays:
+
+- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
+- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
+
+If you want to set up two front-of-room displays, both displays need to have an aspect ratio of 16:9. When you have two front-of-room displays, the right one is the "main" display while the left one is the "extended" display.
+
+Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+
+#### Front-of-room displays
+
+When you create a custom background:
+
+- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
+- Avoid placing text, logos, or icons, near these locations:
+  - **Upper left corner** - Time and room information.
+    - **Size**: 280 x 130
+    - **Upper-left corner coordinates**: 96, 96
+  - **Bottom left corner** - Help information.
+    - **Size**: 500 x 40
+    - **Upper-left corner coordinates**: 96, 946
+  - **Right side** - Room calendar.
+    - **Size**: 512 x 585
+    - 16:9 displays
+      - **Upper-left corner (single display) coordinates**: 1312, 248
+      - **Upper-left corner (dual display) coordinates**: 3232, 248
+    - 21:9 displays
+      - **Upper-left corner coordinates**: 1912, 248
+  
+#### Touch console display
+
+When you create a custom background:
+
+- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
+- Avoid placing text, logos, or icons, near these locations:
+  - **Upper left corner** - Time and room information.
+    - **Size**: 260 x 104
+    - **Upper-left corner coordinates**: 48, 48
+  - **Bottom left corner** - Cortana.
+    - **Size**: 400 x 48
+    - **Upper-left corner coordinates**: 56, 616
+  - **Middle** - Action buttons.
+    - **Size**: 408 x 336
+    - **Upper-left corner coordinates**: 156, 221
+  - **Right side** - Room calendar.
+    - **Size**: 512 x 631
+    - **Upper-left corner coordinates**: 720, 48
+
+### Updating Teams Rooms device configuration
+
+To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+
+### Deploy updated custom backgrounds
+
+After you've created backgrounds for each of your displays, save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main display), `ContosoBackground-Left-FoR.jpg` (extended display), and `ContosoBackground-Console.jpg`. Then copy your files to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
+
+To tell Teams to use custom backgrounds and which files to use, you need to add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the following table.
+
+
+| Element                                | Description                                                                           | Required? |
+|----------------------------------------|---------------------------------------------------------------------------------------|-----------|
+| `<ThemeName>`                          | Set to `Custom` to use custom backgrounds                                             | **Yes**, if `<Theming>` element is provided.           |
+| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg. `ContosoBackground-Right-FoR.jpg`   | If `<Theming>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>         |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg. `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<Theming>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul>          |
+| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg. `ContosoBackground-Console.jpg`         | **No**        |
+
+
+Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
+
+```xml
+<Theming> 
+    <ThemeName>Custom</ThemeName> 
+    <CustomBackgroundMainFoRDisplay>ContosoBackground-Right-FoR.jpg</CustomBackgroundMainFoRDisplay> 
+    <CustomBackgroundExtendedFoRDisplay>ContosoBackground-Left-FoR.jpg</CustomBackgroundExtendedFoRDisplay> 
+    <CustomBackgroundConsole>ContosoBackground-Console.jpg</CustomBackgroundConsole> 
+</Theming> 
+```
+
 ## [Teams Rooms 4.16 and earlier](#tab/Teams416)
 
 The guidelines in this section apply to Teams Rooms on Windows version 4.16 devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
@@ -80,85 +199,18 @@ When you create a custom background, use the following guidelines:
 
 Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
 
-## [Teams Rooms 4.17 and earlier](#tab/Teams417)
+### Updating Teams Rooms device configuration
 
-Teams Rooms version 4.17 and later gives you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. It also lets you set up a custom background for your system's touch console.
+To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-### Minimum resolutions
+### Deploy an updated custom background
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, no custom background is shown on any display or console.
+First, copy your custom background to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
 
-### Recommended resolutions
+After you've copied your custom background to the device, you need to tell Teams to use it. To use the custom background, add the following to your XML configuration file:
 
-The recommended custom background resolution for front-of-room displays and touch consoles depends on their aspect ratios. The following lists the aspect ratios supported by each display and the recommended resolution for each.
+```xml
+<CustomThemeImageUrl>ContosoBackground.png</CustomThemeImageUrl>
+```
 
-- Single and dual front-of-room displays
-  - 16:9 displays - 1920 x 1080
-  - 21:9 displays - 2560 x 1080
-  - 3:2 displays - 1920 x 1280
-- Touch consoles
-  - 16:9 display - 1920 x 1080
-  - 16:10 display - 1280 x 800
-  - 3:2 display - 1920 x 800
-
-If you're not sure what the aspect ratio of your display is, check your display's specifications.
-
-> [!IMPORTANT]
-> Custom backgrounds with resolutions higher than the recommended resolution for a display may be center-cropped.
->
-> Custom backgrounds with resolutions lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
-
-### Custom wallpaper content guidelines
-
-The graphics and text you place on your custom backgrounds needs to follow content guidelines to ensure the following:
-
-- Content doesn't collide with on-screen elements
-- Content is visible to meeting attendees further away from the displays
-- Content remains legible when placed in front of visual elements in the custom background
-- Content remains visible if a custom background is cropped
-
-The following guidelines apply for both front-of-room and touch console displays:
-
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
-- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
-
-Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
-
-#### Front-of-room displays
-
-When you create a custom background:
-
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
-- Avoid placing text, logos, or icons, near these locations:
-  - **Upper left corner** - Time and room information.
-    - **Size**: 280 x 130
-    - **Upper-left corner coordinates**: 96, 96
-  - **Bottom left corner** - Help information.
-    - **Size**: 500 x 40
-    - **Upper-left corner coordinates**: 96, 946
-  - **Right side** - Room calendar.
-    - **Size**: 512 x 585
-    - 16:9 displays
-      - **Upper-left corner (single display) coordinates**: 1312, 248
-      - **Upper-left corner (dual display) coordinates**: 3232, 248
-    - 21:9 displays
-      - **Upper-left corner coordinates**: 1912, 248
-  
-#### Touch console display
-
-When you create a custom background:
-
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
-- Avoid placing text, logos, or icons, near these locations:
-  - **Upper left corner** - Time and room information.
-    - **Size**: 260 x 104
-    - **Upper-left corner coordinates**: 48, 48
-  - **Middle** - Action buttons.
-    - **Size**: 408 x 336
-    - **Upper-left corner coordinates**: 156, 221
-  - **Bottom left corner** - Cortana.
-    - **Size**: 400 x 48
-    - **Upper-left corner coordinates**: 56, 616
-  - **Right side** - Room calendar.
-    - **Size**: 512 x 631
-    - **Upper-left corner coordinates**: 720, 48
+Change `ContosoBackground.png` to the file name of your custom background.
