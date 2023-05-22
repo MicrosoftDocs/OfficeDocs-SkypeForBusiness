@@ -32,7 +32,7 @@ Setup and permissions policies allow or block the Avatars for Teams app in your 
 Setting up the Avatars for Teams app involves the following steps:
 
 1. [Allow the Avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
-1. [Ensure essential URLs are allowed](#ensure-essential-urls-are-allowed).
+1. [Ensure essential endpoints are allowed](#ensure-essential-endpoints-are-allowed).
 1. (Optional) [Block the Avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
 After you complete these steps, the Avatars for Teams app will be available to users in your organization.
