@@ -33,6 +33,9 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 ## Meetings and calls
 
+Your users may use meetings and calls interchangeably depending on their needs at a given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both set of settings together in order to give your users a consistent experience as the use both calls and meetings.
+
+The following table show the policy settings that are similar between meetings and calls.
 
 |User intent|Meeting polices|Calling policies|
 |:------|:--------------|:---------------|
@@ -41,7 +44,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 |Transcribe a meeting or call|Transcription|Transcription|
 |See closed captions in a meeting or call|Live captions|Real-time captions in Teams calls|
 
-
+For information about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
 ## Recordings
 
