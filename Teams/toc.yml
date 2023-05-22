@@ -602,9 +602,15 @@ items:
           href: quick-start-meetings-live-events.md
         - name: Meetings
           href: plan-meetings.md
-        - name: Webinars
-          href: plan-webinars.md
           items: 
+            - name: Meetings overview
+              href: plan-meetings.md
+            - name: Set up meeting registration
+              href: set-up-meeting-registration.md
+        - name: Webinars
+          items: 
+            - name: Webinars overview
+              href: plan-webinars.md
             - name: Set up webinars
               href: set-up-webinars.md
         - name: Town halls
