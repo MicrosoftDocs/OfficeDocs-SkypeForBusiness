@@ -98,13 +98,13 @@ Before you use the feature, understand the following considerations:
 
 * The feature installs an app in the personal scope.
 
-## Apps that require setup before deployment to users
+## Apps requiring setup before deployment to users
 
 You must configure a few specific Teams apps before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers provided below and then turn on the Auto install approved apps feature for these apps.
 
 Some of these apps require an admin to consent to its Graph permissions to work. In Teams Admin Center, a Global administrator must provide consent on behalf of users.
 
-|                 App                      |                           Setup instruction                                         |         Global Administration for Graph permissions consent                  |
+|                 App                      |                           Setup instruction                                         |         Admin consent to Graph permissions required                  |
 |------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [MyHub](https://appsource.microsoft.com/product/office/WA200000726) | Setup isn't required. | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b/permission). |
 | [Box for Teams](https://appsource.microsoft.com/product/office/WA200001458) | [Deploy Box for Teams](https://support.box.com/hc/en-us/articles/360044681354-Deploying-Box-for-Teams-in-your-Enterprise) | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/8d04bcf6-86d8-4ab1-9602-bc3b56e06c37/permission). |
@@ -118,7 +118,7 @@ Some of these apps require an admin to consent to its Graph permissions to work.
 | [Zendesk for Teams](https://appsource.microsoft.com/product/office/WA200003782) | [Deploy Zendesk for Teams](https://zendeskforteams.com/installation-guide) | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f36c0433-ea87-4102-bea7-0a8456fa8a2e/permission). |
 | [Zoho Projects](https://appsource.microsoft.com/product/office/WA104381668) | [Deploy Zoho Projects for Teams](https://help.zoho.com/portal/en/kb/projects/integration/microsoft/articles/microsoft-teams-integration) | Not required |
 
-Consider the following app installation information when following the above developer instructions for this feature:
+Consider the following app installation information when following the above developer instructions for this feature.
 
 * Some app setup instructions include steps to deploy the app using app setup policies. You can optionally ignore the policy-related instructions and follow the rest of the app configuration instructions. App deployment works if you choose to use the app setup policy method but it isn't required.
 
