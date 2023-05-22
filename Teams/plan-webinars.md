@@ -43,7 +43,6 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 ## Webinar control comparison
 
-
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
 |Attendance reports|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
@@ -52,10 +51,12 @@ description: Learn how to plan for webinars in Microsoft Teams.
 |Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
 |Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |End-to-end encryption (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
+|Email communications (Teams Premium)|Can control if event organizers and co-organizers can edit email templates for their webinars|Can edit email templates  before they're sent out|
 |Green room (Teams Premium)|No control|Can choose if green room is used for a meeting|
 |Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
 |Recording|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
 |Registration|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
+|Registration form |Can control types of questions an organizer can require attendees to answer when registering for webinars|Can require attendees to answer predefined and custom questions|
 |Scheduling|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
 |Streaming|Can allow or prevent streaming|Can enforce streaming for a meeting if allowed by admin|
 |Theme (Teams Premium)|Can define meeting themes, including colors, images, and logo|Can turn on or off the admin-defined theme|
