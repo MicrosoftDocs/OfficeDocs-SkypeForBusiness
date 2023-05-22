@@ -603,7 +603,6 @@ items:
         - name: Overview 
           href: quick-start-meetings-live-events.md
         - name: Meetings
-          href: plan-meetings.md
           items: 
             - name: Meetings overview
               href: plan-meetings.md
