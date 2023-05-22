@@ -74,23 +74,21 @@ Now users will see the Avatars for Teams app when they search through their apps
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
 
-## Ensure essential URLs are allowed
+## Ensure essential endpoints are allowed
 
-To ensure the Avatars for Teams app works properly, TCP ports 443 and 80 need to be allowed through your firewall or proxy server for the following URLs:
+To ensure the Avatars for Teams app works properly, TCP ports 443 and 80 need to be allowed through your firewall or proxy server for the following endpoints:
 
-- `clients.config.office.net`
-- `global.profile.prod.collab.mixedreality.microsoft.com`
-- `js.monitor.azure.com`
-- `catalog.meshxp.net`
+- `avatars.mesh.microsoft.com`
 - `browser.events.data.microsoft.com`
-- `avatars.meshxp.net`
+- `catalog.prod.mesh.microsoft.com`
+- `clients.config.office.net`
+- `csp.microsoft.com`
+- `eu-mobile.events.data.microsoft.com`
+- `global.profile.prod.collab.mixedreality.microsoft.com`
+- `noam.events.data.microsoft.com`
 - `static2.sharepointonline.com`
 - `statics.teams.cdn.office.net`
 - `substrate.office.com`
-- `csp.microsoft.com`
-- `avatars.mesh.microsoft.com`
-- `noam.events.data.microsoft.com`
-- `eu-mobile.events.data.microsoft.com`
 
 TCP port 80 is required to allow requests to automatically redirect to TCP port 443.
 
