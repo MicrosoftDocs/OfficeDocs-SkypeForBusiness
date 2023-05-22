@@ -60,18 +60,27 @@ To learn more about meeting recording and expiration and to configure recording 
 
 If you have compliance requirements around meeting recordings, see [Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md).
 
-## Compliance features
+## Meeting options for guests and external participants
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+People outside your organization can attend meetings hosted by your organizations as guests, people from trusted organization, or anonymous participants. You can configure each of these access methods separately.
 
-Many of the meeting organizer controls can also be set by administrators by using the meeting templates and sensitivity labels that are available in Teams Premium.
+#### Guest access for meetings
 
+As long as guest access is turned on in Teams, guests in your organization can attend meetings. Several meeting features, including screen sharing options and the ability to start instant meetings, can be controlled separately for guests. For details, see [Turn guest access in Microsoft Teams on or off](set-up-guests.md).
 
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+Lobby settings affect how people outside your organization join meetings. You can set the following lobby settings by using meeting policies:
 
-## Meeting options for guests
+- Who can bypass the lobby
+- Whether anonymous participants can start a meeting
+- Whether people dialing in can bypass the lobby
 
-[Turn guest access in Microsoft Teams on or off](set-up-guests.md)
+The settings for who can bypass the lobby, including people dialing in by phone, can be changed by the meeting organizer.
+
+For complete details about the meeting lobby, see [IT Admins - Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
+
+Meeting participants who can't be verified can attend meetings as anonymous participants. Depending on your business rules or compliance requirements you may want to allow or prevent this. See [Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md) for information on how to configure anonymous access for meetings.
+
+External access
 
 ## Attendee limits and streaming options
 
@@ -80,6 +89,15 @@ Up to 10,000 attendees can join a Teams meeting, however, after 1000 users enter
 You can allow or prevent the streaming experience for meetings with more than 1,000 attendees. If you disable the streaming experience, meeting attendance will be limited to the first 1,000 attendees.
 
 For more information about the meeting view-only streaming experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+
+## Compliance features
+
+[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+Many of the meeting organizer controls can also be set by administrators by using the meeting templates and sensitivity labels that are available in Teams Premium.
+
+
+[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ## Admin and meeting organizer meeting options
 
