@@ -48,11 +48,17 @@ For information about calling policies, see [Calling policies in Teams](teams-ca
 
 ## Recordings
 
-[Teams meeting recording](meeting-recording.md)
+You can specify which meeting organizers and attendees can record meetings. For someone to record a meeting, admin policies must allow both the person recording and the meeting organizer to record.
 
-[Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md)
+Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers.
 
-[Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md)
+You can set meeting recordings to expire after a specified time. This can help save space in organizations where a lot of meetings are recorded. When a recording expires, it's moved to the recycle bin and the file owner is notified. They can restore the recording if they need to.
+
+Recording files are saved to OneDrive (for private meetings) or SharePoint (for channel meetings). Users who attended the meeting have permissions to view the recording by default. You can [block the download of meeting recording files](block-download-meeting-recording.md) if you need to.
+
+To learn more about meeting recording and expiration and to configure recording policies for your organization, see [Teams meeting recording](meeting-recording.md).
+
+If you have compliance requirements around meeting recordings, see [Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md).
 
 ## Compliance features
 
@@ -62,6 +68,10 @@ Many of the meeting organizer controls can also be set by administrators by usin
 
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+
+## Meeting options for guests
+
+[Turn guest access in Microsoft Teams on or off](set-up-guests.md)
 
 ## Attendee limits and streaming options
 
@@ -80,8 +90,8 @@ Some meeting features can be controlled by Teams administrators while others are
 |[Attendance reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
 |[Audio and video](meeting-policies-audio-and-video)|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
 |[Chat](manage-meeting-chat.md) and [Q&A](manage-qna-for-teams.md)|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
-|Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
-|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
+|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
+|[Content sharing](meeting-who-present-request-control)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |[End-to-end encryption](end-to-end-encrypted-meetings.md) (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
 |[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5) (Teams Premium)|No control|Can choose if green room is used for a meeting|
 |[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
