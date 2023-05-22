@@ -604,6 +604,9 @@ items:
           href: plan-meetings.md
         - name: Webinars
           href: plan-webinars.md
+          items: 
+            - name: Set up webinars
+              href: set-up-webinars.md
         - name: Town halls
           href: plan-town-halls.md
         - name: Policies overview
