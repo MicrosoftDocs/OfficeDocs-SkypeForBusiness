@@ -30,12 +30,13 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 **APPLIES TO:** ![no](media/no.png)Meetings ![yes](media/yes.png)Webinars ![no](media/no.png)Town halls
 
-
-
-
 ## Recordings
 
+ODSP and AMS 
+
 ## Registration
+
+As an admin, you can manage which types of webinars can have their recordings published.
 
 ## Attendee interaction
 
@@ -45,15 +46,13 @@ The features attendees use for interaction during webinars are:
 
 - **Chat:** Attendees can participate in a text-based chat messages during the webinar. Through chat, attendees can ask questions, share thoughts, and engage in discussions with other participants.
 
-- **Q&A**: Webinar organizers can enable a dedicated Q&A feature where attendees can submit questions. Organizers or designated presenters can then review and answer these questions during the webinar. This helps ensure a structured Q&A session and enables attendees to receive direct responses.
+- **Q&A**: For a structured question and response format, webinar organizers can enable a dedicated Q&A feature where attendees can submit questions. Organizers or selected presenters can review and answer these questions during the webinar.
 
-- **Reactions**: Attendees can use reaction emojis to express their sentiments or provide feedback during the webinar. These emojis typically include options like applause, thumbs-up, laughter, and more. Attendees can click on the reaction icons to display their reactions in real-time.
+- **Reactions**: During webinars, attendees can use reactions to show how they feel or give feedback. These reaction emojis include applause, like, laughter, heart, and surprise. Attendees can click on the reaction icons to display their reactions in real-time.
 
-- **Polls and Surveys**: Webinar organizers have the ability to create and share polls or surveys with attendees. This allows organizers to gather feedback, collect opinions, or gauge the audience's understanding of the presented content. Attendees can respond to these polls or surveys within the webinar interface.
+- **Polls and Surveys**: Webinar organizers can share polls or surveys that attendees can respond to within the webinar experience. This allows organizers to gather feedback, collect opinions, or gauge the audience's understanding of the presented content.
 
-- **Hand Raise**: Attendees can use the "Hand Raise" feature to virtually signal their desire to speak or ask a question. This alerts the presenter or organizer, who can then acknowledge and give the attendee an opportunity to speak or address their question.
-
-These interaction features in Microsoft Teams webinars enable attendees to actively engage, contribute, and communicate during the webinar, fostering collaboration and a more interactive virtual event experience.
+- **Hand Raise**: Attendees can use the "Hand Raise" feature to show that to speak or ask a question. The presenter or organizer can acknowledge and give the attendee an opportunity to speak or address their question.
 
 ## Streaming
 
@@ -79,7 +78,6 @@ Green room OFF, Manage what attendees see OFF, Attendee cameras OFF, Attendee mi
 |Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
 |Recording|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
 |Registration|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
-|Registration form |Can control types of questions an organizer can require attendees to answer when registering for webinars|Can require attendees to answer predefined and custom questions|
 |Scheduling|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
 |Streaming|Can allow or prevent streaming|Can enforce streaming for a meeting if allowed by admin|
 |Theme (Teams Premium)|Can define meeting themes, including colors, images, and logo|Can turn on or off the admin-defined theme|
