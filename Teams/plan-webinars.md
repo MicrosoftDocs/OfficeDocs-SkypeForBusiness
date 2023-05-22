@@ -63,3 +63,4 @@ description: Learn how to plan for webinars in Microsoft Teams.
 |Transcription and captions|Can allow or prevent transcription and closed captions for attendees|Can enable CART captions|
 |Translation (Teams Premium)|No control|Can enable live translated captions|
 |Watermarks (Teams Premium)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
+|Webinar usage report|View the activity overview for webinars created in your organization|No control|
