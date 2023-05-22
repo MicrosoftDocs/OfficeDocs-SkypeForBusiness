@@ -1,10 +1,10 @@
 ---
-title: Add, change, remove emergency locations
+title: Manage emergency locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 08/22/2019
+ms.date: 05/22/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,13 +24,13 @@ description: Learn how to add, change, or remove an emergency location for your 
 ms.custom: seo-marvel-mar2020
 ---
 
-# Add, change, or remove an emergency location for your organization
+# Manage emergency locations for your organization
 
 Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;emergency locations can be associated with a phone number.
 
 However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-This article describes how to add, change, or remove an emergency location for your organization. 
+This article describes how to add, change, or remove an emergency location for your organization.
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 

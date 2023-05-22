@@ -1,10 +1,10 @@
 ---
-title: Add, change, remove places for emergency locations
+title: Add places to emergency locations
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 09/10/2019
+ms.date: 05/22/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +24,7 @@ description: Learn how to add, change, or remove a place for an emergency locati
 ms.custom: seo-marvel-mar2020
 ---
 
-# Add, change, or remove a place for an emergency location in your organization
+# Add places to emergency locations
 
 Depending on the number of physical locations in your organization, you can add *places* for buildings, floors, and offices to create a more specific emergency location.
 
@@ -73,10 +73,10 @@ See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
 ### Using PowerShell
 
 See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
-    
+
 ## Related topics
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
+- [Manage emergency locations](add-change-remove-emergency-location-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
