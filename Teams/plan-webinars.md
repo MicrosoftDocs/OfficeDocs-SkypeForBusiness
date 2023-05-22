@@ -39,7 +39,30 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 ## Attendee interaction
 
+Registered attendees join the webinar with their cameras and mics off; webinar organizers choose when to let attendees turn on their cameras or un-mute.
+
+The features attendees use for interaction during webinars are:
+
+- **Chat:** Attendees can participate in a text-based chat messages during the webinar. Through chat, attendees can ask questions, share thoughts, and engage in discussions with other participants.
+
+- **Q&A**: Webinar organizers can enable a dedicated Q&A feature where attendees can submit questions. Organizers or designated presenters can then review and answer these questions during the webinar. This helps ensure a structured Q&A session and enables attendees to receive direct responses.
+
+- **Reactions**: Attendees can use reaction emojis to express their sentiments or provide feedback during the webinar. These emojis typically include options like applause, thumbs-up, laughter, and more. Attendees can click on the reaction icons to display their reactions in real-time.
+
+- **Polls and Surveys**: Webinar organizers have the ability to create and share polls or surveys with attendees. This allows organizers to gather feedback, collect opinions, or gauge the audience's understanding of the presented content. Attendees can respond to these polls or surveys within the webinar interface.
+
+- **Hand Raise**: Attendees can use the "Hand Raise" feature to virtually signal their desire to speak or ask a question. This alerts the presenter or organizer, who can then acknowledge and give the attendee an opportunity to speak or address their question.
+
+These interaction features in Microsoft Teams webinars enable attendees to actively engage, contribute, and communicate during the webinar, fostering collaboration and a more interactive virtual event experience.
+
 ## Streaming
+
+## Premium webinars
+
+Your Teams Premium subscription includes advanced registration, Green room for presenters and organizers, and behind-the-scenes event management tools.Explore benefits.
+
+Default options
+Green room OFF, Manage what attendees see OFF, Attendee cameras OFF, Attendee mics OFF, Q&A ON, Chat ON, Reactions ON
 
 ## Webinar control comparison
 
