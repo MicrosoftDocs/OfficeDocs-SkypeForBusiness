@@ -46,9 +46,14 @@ When you enable custom backgrounds, you need to provide custom backgrounds for y
 
 If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to the built-in theme.
 
+> [!NOTE]
+> If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or if you want to configure a custom background on your touch console, you need to use the elements provided in this section.
+>
+> For more information about using `<CustomThemeImageUrl>`, see [Teams Rooms 4.16 and earlier](/microsoftteams/rooms/custom-backgrounds?branch=dstrome-custom-backgrounds&tabs=Teams416).
+
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, no custom background is shown on any display or console.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to the built-in theme.
 
 ### Recommended resolutions
 
@@ -126,24 +131,23 @@ When you create a custom background:
     - **Size**: 512 x 631
     - **Upper-left corner coordinates**: 720, 48
 
-### Updating Teams Rooms device configuration
-
-To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
-
 ### Deploy updated custom backgrounds
 
-After you've created backgrounds for each of your displays, save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main display), `ContosoBackground-Left-FoR.jpg` (extended display), and `ContosoBackground-Console.jpg`. Then copy your files to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
+After you've created backgrounds for each of your displays, save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display).
+
+When your custom background image files are ready, copy them to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
 
 To tell Teams to use custom backgrounds and which files to use, you need to add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the following table.
 
+> [!NOTE]
+> If the `<CustomThemeImageUrl>` element is also included in the XML configuration file, the following elements override the value provided in that element.
 
-| Element                                | Description                                                                           | Required? |
-|----------------------------------------|---------------------------------------------------------------------------------------|-----------|
-| `<ThemeName>`                          | Set to `Custom` to use custom backgrounds                                             | **Yes**, if `<Theming>` element is provided.           |
-| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg. `ContosoBackground-Right-FoR.jpg`   | If `<Theming>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>         |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg. `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<Theming>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul>          |
-| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg. `ContosoBackground-Console.jpg`         | **No**        |
-
+| Element                                | Description                                                                           | Required?                                                                                                                                                       |
+|----------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
+| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg. `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg. `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul> |
+| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg. `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
 Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
 
@@ -155,6 +159,8 @@ Here's an example XML snippet showing background images being provided for both 
     <CustomBackgroundConsole>ContosoBackground-Console.jpg</CustomBackgroundConsole> 
 </Theming> 
 ```
+
+To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
 ## [Teams Rooms 4.16 and earlier](#tab/Teams416)
 
