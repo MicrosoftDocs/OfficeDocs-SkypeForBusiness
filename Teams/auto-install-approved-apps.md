@@ -20,8 +20,8 @@ ms.collection:
 # Auto install approved apps in Microsoft Teams
 
 >[!NOTE]
+> * Some apps supported by this feature require setup by admins before being made available to the users. See the [list of these apps and setup instructions](#configure-apps-before-deployment-to-users).
 > * The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post MC548106](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC548106). The feature was previously called Zero-touch app install.
-> * Some apps supported by this feature require some setup by admins before being made available to the users. See the [list of these apps and setup instructions](#configure-apps-before-deployment-to-users).
 
 Some apps exist as apps on the desktop or in the browser. Users who use these apps may not know that the same app feature is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps feature](#benefits-of-the-feature).
 
@@ -98,11 +98,11 @@ Before you use the feature, understand the following considerations:
 
 * The feature installs an app in the personal scope.
 
-## Configure apps before deployment to users
+## Apps that require setup before deployment to users
 
 You must configure a few specific Teams apps before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers provided below and then turn on the Auto install approved apps feature for these apps.
 
-Some of these apps use Microsoft Graph permissions to work. A Global administrator must provide consent on behalf of users. Alternately, Azure admins can [let users consent for Graph permissions of apps](/azure/active-directory/manage-apps/configure-user-consent).
+Some of these apps require an admin to consent to its Graph permissions to work. In Teams Admin Center, a Global administrator must provide consent on behalf of users.
 
 |                 App                      |                           Setup instruction                                         |         Global Administration for Graph permissions consent                  |
 |------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -120,9 +120,9 @@ Some of these apps use Microsoft Graph permissions to work. A Global administrat
 
 Consider the following app installation information when following the above developer instructions for this feature:
 
-* Some app setup instructions include steps to deploy the app using app setup policies. You can ignore the policy-related instructions and follow the rest of the app configuration instructions. App deployment works if you choose to use the app setup policy method but it isn't required.
+* Some app setup instructions include steps to deploy the app using app setup policies. You can optionally ignore the policy-related instructions and follow the rest of the app configuration instructions. App deployment works if you choose to use the app setup policy method but it isn't required.
 
-* Some app setup instructions include steps to install the app in multiple scopes like personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. App deployment works if you choose to use the app in other scopes for a group of users.
+* Some app setup instructions include steps to install the app in multiple scopes that are personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. You can follow app developer's setup instructions to deploy the other app scopes, besides personal apps.
 
 ## Related articles
 
