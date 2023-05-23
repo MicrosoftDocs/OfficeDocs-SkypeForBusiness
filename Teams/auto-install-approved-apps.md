@@ -44,7 +44,7 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 
 ### Allow third-party apps in your organization
 
-The feature respects the app governance controls and installs apps only if admins allow the use of an app. While the feature can be turned on independent from your app governance settings, to experience auto installs, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [allow apps](/microsoftteams/manage-apps#allow-and-block-apps).
+The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-and-block-apps).
 
 ### Ensure users can consent or grant admin consent to Azure AD permissions of an app
 
@@ -94,7 +94,7 @@ Before you use the feature, understand the following considerations:
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
-* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files for the new and the existing app users. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
 * Teams admin may have blocked a Teams app for a user and your organization may allow Azure AD SSO for the user to use the app, say in a browser. If this feature has been turned on for the Teams app and the user is later allowed to use the app, the app will be auto installed for them if they have used Azure AD to sign in up to 30 days before they were allowed to use the app.
 
@@ -102,7 +102,7 @@ Before you use the feature, understand the following considerations:
 
 ## Apps requiring setup before deployment to users
 
-You must configure a few specific Teams apps before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers provided below and then turn on the Auto install approved apps feature for these apps.
+A few specific Teams apps require a prior setup before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers that are provided below and then turn on the Auto install approved apps feature for these apps.
 
 Some of these apps require an admin to consent to its Graph permissions to work. In Teams Admin Center, a Global administrator must provide consent on behalf of users.
 
@@ -124,7 +124,7 @@ Some of these apps require an admin to consent to its Graph permissions to work.
 
 Consider the following app installation information when following the above developer instructions for this feature.
 
-* Some app setup instructions include deploying the app using app setup policies. Using setup policy is optional with this feature. You may continue pre-installing apps as an admin with app setup policies or you may enable Auto install approved apps feature to install for your users without your intervention.
+* Some app setup instructions include deploying the app using app setup policies. Using setup policy is optional with this feature. You may continue preinstalling apps as an admin with app setup policies or you may enable Auto install approved apps feature to install for your users without your intervention.
 
 * Some app setup instructions include steps to install the app in multiple scopes that are personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. You can follow app developer's setup instructions to deploy the other app scopes, besides personal apps.
 
