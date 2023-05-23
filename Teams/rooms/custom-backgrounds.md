@@ -37,7 +37,6 @@ The custom background options you have available to you, and how you set them up
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
-
 ## [Teams Rooms 4.17 and later](#tab/Teams417)
 
 Teams Rooms version 4.17 and later gives you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. It also lets you set up a custom background for your system's touch console.
@@ -137,6 +136,7 @@ When you create a custom background, avoid placing text, logos, or icons, near t
   - **Size**: 512 x 631
   - **Upper-left corner coordinates**: 720, 48
 
+**16:9 - Touch console dimensions**
 :::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
 
 ### Deploy updated custom backgrounds

@@ -52,7 +52,7 @@ If you want to have dual front-of-room displays, they both need to be 16:9 displ
 :::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
 :::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
