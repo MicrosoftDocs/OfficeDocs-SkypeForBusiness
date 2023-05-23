@@ -24,7 +24,7 @@ description: Learn how to browse and purchase devices in the Teams admin center 
 
 # Purchase devices in the Teams device store
 
-The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, the United States, and the United Kingdom.
+The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, Germany, the United States, and the United Kingdom.
 
 To use the devices store in the Teams admin center, go to **Devices > Store**.
 
