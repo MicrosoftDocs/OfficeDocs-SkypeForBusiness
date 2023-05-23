@@ -1,11 +1,11 @@
 ---
-title: Manage Teams Rooms on Windows custom backgrounds
+title: Set up and manage Teams Rooms on Windows custom backgrounds
 ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 05/23/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -18,7 +18,7 @@ ms.collection:
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Read this article for information on how to create resource accounts for rooms and shared devices, including Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+description: Learn how to set up custom backgrounds on Teams Rooms front-of-room and touch console displays.
 ---
 
 ## Set up and manage Teams Rooms on Windows custom backgrounds
@@ -160,9 +160,9 @@ To tell Teams to use custom backgrounds and which files to use, you need to add 
 | Element                                | Description                                                                           | Required?                                                                                                                                                       |
 |----------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
-| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg. `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg. `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul> |
-| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg. `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
+| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul> |
+| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
 Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
 

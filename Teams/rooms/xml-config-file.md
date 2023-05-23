@@ -3,7 +3,7 @@ title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 05/23/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
