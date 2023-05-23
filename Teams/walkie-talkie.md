@@ -159,5 +159,8 @@ To learn more about the end-user experience, see:
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
 
+### Allow users to provide feedback
+
+Users in your organization can provide feedback on Teams if you use the policy to [Set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
 
 
