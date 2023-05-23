@@ -114,12 +114,15 @@ When you create a custom background:
       - **Upper-left corner coordinates**: 1912, 248
   
 **16:9 - Single ront-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 #### Touch console display
