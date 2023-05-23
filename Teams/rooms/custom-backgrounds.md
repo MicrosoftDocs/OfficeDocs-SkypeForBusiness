@@ -75,7 +75,7 @@ If you're not sure what the aspect ratio of your display is, check your display'
 >
 > Custom backgrounds with resolutions lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
 
-### Custom wallpaper content guidelines
+### Custom background content guidelines
 
 The graphics and text you place on your custom backgrounds needs to follow content guidelines to ensure the following:
 
@@ -178,7 +178,9 @@ To apply the configuration changes included in this article to your Teams Rooms 
 
 ## [Teams Rooms 4.16 and earlier](#tab/Teams416)
 
-The guidelines in this section apply to Teams Rooms on Windows version 4.16 devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
+### Teams Rooms 4.16 with refreshed home screen enabled
+
+The guidelines in this section apply to Teams Rooms on Windows version 4.16 devices that have the refreshed home screen enabled.
 
 Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines differ slightly depending on the size of your display:
 
@@ -218,6 +220,14 @@ When you create a custom background, use the following guidelines:
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
 Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`.
+
+### Teams Rooms 4.16 without refreshed home screen and earlier versions of Teams Rooms
+
+The custom theme image file must be placed in the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder. Enter the file name and extension in the `<CustomThemeImageUrl>` variable.
+
+The image file should be exactly 3840 x 1080 pixels and must be one of the following file formats: `jpg`, `jpeg`, `png`, and `bmp`. If your organization wants a custom image, a graphic designer can use the Custom Theme Photoshop Template. It contains further detail on where various user interface elements are relative to the rest of a theme image and what areas appear on consoles and displays.
+
+The XML configuration file must be updated at device startup to recognize the theme image. Once the new XML file is processed and deleted, the theme graphic file is deleted from the directory.
 
 ### Updating Teams Rooms device configuration
 

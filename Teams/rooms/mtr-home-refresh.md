@@ -39,62 +39,11 @@ You can temporarily roll back to the previous Teams Rooms home screen design if 
 
 ## Custom background guidelines
 
-You can create a custom background for your Teams Rooms theme to represent your brand or to provide instructions to Teams Rooms users. The guidelines in this section apply to Teams Rooms on Windows version 4.16 and later devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
-
-Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines differ slightly depending on the size of your display:
-
-- **16:9 displays** Custom backgrounds need to be exactly 3840 x 1080 pixels in size, regardless of whether the background is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the right half of the image is used and the left half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
-- **21:9 displays** Custom backgrounds need to be exactly 2560 x 1080 pixels in size. Only one 21:9 front-of-room display is supported.
-
-If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
-
-**16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
-
-**16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
-
-**21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
-
-When you create a custom background, use the following guidelines:
-
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
-- Avoid placing text, logos, or icons, near these locations:
-  - **Upper left corner** - Time and room information.
-    - **Size**: 280 x 130
-    - **Upper-left corner coordinates**: 96, 96
-  - **Bottom left corner** - Help information.
-    - **Size**: 500 x 40
-    - **Upper-left corner coordinates**: 96, 946
-  - **Right side** - Room calendar.
-    - **Size**: 512 x 585
-    - 16:9 displays
-      - **Upper-left corner (single display) coordinates**: 1312, 248
-      - **Upper-left corner (dual display) coordinates**: 3232, 248
-    - 21:9 displays
-      - **Upper-left corner coordinates**: 1912, 248
-  
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
-- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
-
-Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+For custom background guidelines, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
 
 ## Updating Teams Rooms device configuration
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
-
-### Deploy an updated custom background
-
-First, copy your custom background to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
-
-After you've copied your custom background to the device, you need to tell Teams to use it. To use the custom background, add the following to your XML configuration file:
-
-```xml
-<CustomThemeImageUrl>ContosoBackground.png</CustomThemeImageUrl>
-```
-
-Change `ContosoBackground.png` to the file name of your custom background.
 
 ### Enable refreshed home screen design
 
