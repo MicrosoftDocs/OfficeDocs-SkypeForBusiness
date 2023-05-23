@@ -114,7 +114,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
 
-5. Once the policy is defined, you can assign it to a group. Select  **Group policy assignment** and select a either **Add** or  select a group listed. 
+5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
 :::image type="content" source="media/new-teams-update-policies-group.png" alt-text="update policies by group":::
 
