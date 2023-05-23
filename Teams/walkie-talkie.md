@@ -161,6 +161,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 
 ### Allow users to provide feedback
 
-Users in your organization can provide feedback on Teams if you use the policy to [Set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
+Users in your organization can attach logs while sharing feedback On Microsoft, if you enable the policy to [Set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
 
 
