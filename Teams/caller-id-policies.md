@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: jens; roykuntz
-ms.date: 05/17/2023
+ms.date: 05/23/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -94,7 +94,7 @@ The **Block incoming caller ID** setting allows for blocking the caller ID on in
 
 For more information, see [caller ID policies](#caller-id-policies).
 
-## Caller ID policies
+## Configure caller ID policies
 
 As an admin, you can control caller ID for both inbound and outbound calls. With caller ID settings turned off, the Teams user's phone number is visible when that user makes a call to the PSTN. Likewise, when a PSTN caller makes a call to a Teams user, the PSTN caller's phone number is visible.
 
@@ -114,7 +114,7 @@ You can configure caller ID policies with the [Teams admin center](#use-the-team
 
 You can manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-For more information on each policy, see [Caller ID policies](#caller-id-policies).
+For more information on each policy, see [Caller ID policies](#configure-caller-id-policies).
 
 #### Create a custom caller ID policy
 
