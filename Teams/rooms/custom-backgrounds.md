@@ -72,6 +72,8 @@ If you're not sure what the aspect ratio of your display is, check your display'
 > [!IMPORTANT]
 > Custom backgrounds with resolutions higher than the recommended resolution for a display may be center-cropped.
 >
+> :::image type="content" source="../media/front-of-room-16-9-center-crop.png" alt-text="A custom background showing a center crop in a larger image." lightbox="../media/front-of-room-16-9-center-crop-large.png":::
+>
 > Custom backgrounds with resolutions lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
 
 ### Custom wallpaper content guidelines
@@ -90,7 +92,7 @@ The following guidelines apply for both front-of-room and touch console displays
 
 If you want to set up two front-of-room displays, both displays need to have an aspect ratio of 16:9. When you have two front-of-room displays, the right one is the "main" display while the left one is the "extended" display.
 
-Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
 
 #### Front-of-room displays
 
@@ -112,24 +114,30 @@ When you create a custom background:
     - 21:9 displays
       - **Upper-left corner coordinates**: 1912, 248
   
+**16:9 - Front-of-room display dimensions**
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+
+**21:9 - Front-of-room display dimensions**
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+
 #### Touch console display
 
-When you create a custom background:
+When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
-- Avoid placing text, logos, or icons, near these locations:
-  - **Upper left corner** - Time and room information.
-    - **Size**: 260 x 104
-    - **Upper-left corner coordinates**: 48, 48
-  - **Bottom left corner** - Cortana.
-    - **Size**: 400 x 48
-    - **Upper-left corner coordinates**: 56, 616
-  - **Middle** - Action buttons.
-    - **Size**: 408 x 336
-    - **Upper-left corner coordinates**: 156, 221
-  - **Right side** - Room calendar.
-    - **Size**: 512 x 631
-    - **Upper-left corner coordinates**: 720, 48
+- **Upper left corner** - Time and room information.
+  - **Size**: 260 x 104
+  - **Upper-left corner coordinates**: 48, 48
+- **Bottom left corner** - Cortana.
+  - **Size**: 400 x 48
+  - **Upper-left corner coordinates**: 56, 616
+- **Middle** - Action buttons.
+  - **Size**: 408 x 336
+  - **Upper-left corner coordinates**: 156, 221
+- **Right side** - Room calendar.
+  - **Size**: 512 x 631
+  - **Upper-left corner coordinates**: 720, 48
+
+:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
 
 ### Deploy updated custom backgrounds
 
@@ -203,7 +211,7 @@ When you create a custom background, use the following guidelines:
 - Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
-Save the custom background image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`.
 
 ### Updating Teams Rooms device configuration
 
