@@ -143,6 +143,7 @@ When you create a custom background, avoid placing text, logos, or icons, near t
   - **Upper-left corner coordinates**: 720, 48
 
 **16:9 - Touch console dimensions**
+
 :::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
 
 ### Deploy updated custom backgrounds
