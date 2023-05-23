@@ -1143,7 +1143,7 @@ items:
           items: 
             - name: Configure emergency locations
               href: add-change-remove-emergency-location-organization.md
-            - name: Configure places for emergency locations
+            - name: Add places to emergency locations
               href: add-change-remove-emergency-place-organization.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
