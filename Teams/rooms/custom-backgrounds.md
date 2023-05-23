@@ -21,7 +21,7 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Learn how to set up custom backgrounds on Teams Rooms front-of-room and touch console displays.
 ---
 
-## Set up and manage Teams Rooms on Windows custom backgrounds
+# Set up and manage Teams Rooms on Windows custom backgrounds
 
 You can create custom background images for your Microsoft Teams Rooms on Windows devices to represent your brand or to provide instructions to Teams Rooms users. For example, you can add a copy logo to your background images and include contact information for your organization's help desk if meeting attendees need help.
 
