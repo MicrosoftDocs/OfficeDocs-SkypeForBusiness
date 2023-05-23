@@ -26,7 +26,7 @@ Some Microsoft Teams users have questions about how Teams uses memory. This arti
 
 ## How Teams works
 
-Teams being designed on Electron allows for faster development, and it also maintains parity between Teams versions across different operating systems (Windows, Mac, and Linux). This parity is possible because Electron and Chromium maintain a similar code base across all versions. Another advantage of this architecture is there's a similar memory usage profile between the Teams web app and the desktop version. Both the web app and the desktop versions use memory in a similar way to how a browser would use it. More information about Electron is available at [their Web site](https://electronjs.org/).
+Teams being designed on Electron allows for faster development, and it also maintains parity between Teams versions across different operating systems (Windows and Mac). This parity is possible because Electron and Chromium maintain a similar code base across all versions. Another advantage of this architecture is there's a similar memory usage profile between the Teams web app and the desktop version. Both the web app and the desktop versions use memory in a similar way to how a browser would use it. More information about Electron is available at [their Web site](https://electronjs.org/).
 
 See [Chromium Memory Usage](https://www.chromium.org/developers/memory-usage-backgrounder) and [Key Concepts in Chrome Memory](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) for more information.
 
