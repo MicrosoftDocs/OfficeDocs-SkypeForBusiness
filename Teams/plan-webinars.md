@@ -119,13 +119,13 @@ A Teams Premium subscription includes the following features for webinars:
 |[Attendance reports](teams-analytics-and-reports/meeting-attendance-report.md) |Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
 |[Chat](manage-meeting-chat.md) and [Q&A](manage-qna-for-teams.md)|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
-|Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
-|Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
-|End-to-end encryption (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
+|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
+|[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
+|[End-to-end encryption (Teams Premium)](end-to-end-encrypted-meetings.md)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
 |Email communications (Teams Premium)|Can control if event organizers and co-organizers can edit email templates for their webinars|Can edit email templates  before they're sent out|
-|Green room (Teams Premium)|No control|Can choose if green room is used for a meeting|
-|Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
-|Recording|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
+|[Green room (Teams Premium)](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control|Can choose if green room is used for a meeting|
+|[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
+|[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
 |Registration|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
 |Scheduling|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
 |Streaming|Can allow or prevent streaming|Can enforce streaming for a meeting if allowed by admin|
