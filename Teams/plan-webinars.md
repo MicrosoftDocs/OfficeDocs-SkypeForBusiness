@@ -32,17 +32,53 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 ## Recordings
 
-It's uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
-People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if it's explicitly shared with them)
-Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
-It's linked in the chat for the meeting
-It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
-It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
-Microsoft 365 Search indexes it
+Webinar recordings are uploaded to OneDrive;
+attendees can view the recording from the chat. However, guests can only view the recording if it's explicitly shared with them.
+Microsoft Purview compliance features apply to the webinar recording files, the same as with other files.
 
 ## Registration
 
-As an admin, you can manage which types of webinars can have their recordings published.
+Registration is required for attendees to attend webinars.
+
+Here's how the registration process works for webinars:
+
+1. Webinar organizers create the webinar. They specify details like the webinar's date and time, event roles, and whether the webinar is public or private.
+2. Once the organizer  saves the webinar, they can manage registration to decide:
+
+    - Registration capacity
+    - If manual approval of registrations is required
+    - If the waitlist is enabled for the webinar
+    - If there's limit for the registration date
+  
+    For the registration form, the attendee's first name, last name, email, and Microsoft consent fields are required and already added, but organizers can decide if they'd like to require attendees to answer the following fields:
+
+    - Address
+    - City
+    - State
+    - Zip/Post code
+    - Country/Region
+    - Industry
+    - Job title
+    - Organization
+    - Legal Terms
+    - Custom question:
+  
+        - Test input
+        - Choices
+        - Checkbox (Yes/No)
+
+3. When attendees submit the registration form, they receive a confirmation message or email. Webinar organizers can see a list of registrants in their respective states as people start to register.
+4. Before the webinar, organizers can the email communication templates to send reminders or updates to registered participants.
+
+As an admin, you can manage whether organizers can only create private webinars or public and private webinars. If you have a Teams Premium subscription, you can manage whether organizers can edit email communication templates.
+
+## External participants
+
+Private webinars:
+
+Public webinars:
+
+anonymous participants:
 
 ## Attendee interaction
 
@@ -62,18 +98,25 @@ The features attendees use for interaction during webinars are:
 
 ## Streaming
 
+Find out more + ask Justin about this.
+
 ## Premium webinars
 
-Your Teams Premium subscription includes advanced registration, Green room for presenters and organizers, and behind-the-scenes event management tools.Explore benefits.
+A Teams Premium subscription includes the following features for webinars:
 
-Default options
-Green room OFF, Manage what attendees see OFF, Attendee cameras OFF, Attendee mics OFF, Q&A ON, Chat ON, Reactions ON
+- Create a webinar wait list
+- Limit the day and time when people can register
+- Manage attendees’ view
+- Manually approve registrants
+- Send reminder emails to registrants
+- Set up a green room for webinar presenters
+- Use RTMP-In for webinars
 
 ## Webinar control comparison
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|Attendance reports|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
+|[Attendance reports](teams-analytics-and-reports.md/meeting-attendance-report.md) |Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
 |Audio and video|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
 |Chat and Q&A|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
 |Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
