@@ -596,6 +596,8 @@ items:
     
     - name: Overview
       href: deploy-meetings-microsoft-teams-landing-page.md
+    - name: Feature comparison
+      href: meeting-webinar-town-hall-feature-comparison.md
     - name: Meetings, webinars, and town halls
       items:
         - name: Overview 
@@ -608,10 +610,12 @@ items:
           href: plan-town-halls.md
         - name: Policies overview
           href: meeting-policies-overview.md
-        - name: Feature comparison
-          href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up webinars
+              href: set-up-webinars.md
+            - name: Set up meeting registration
+              href: set-up-meeting-registration.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
             - name: Manage who can start and schedule meetings

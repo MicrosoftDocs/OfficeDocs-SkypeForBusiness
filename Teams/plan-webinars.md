@@ -30,19 +30,46 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 **APPLIES TO:** ![no](media/no.png)Meetings ![yes](media/yes.png)Webinars ![no](media/no.png)Town halls
 
-
-
-
 ## Recordings
+
+It's uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
+People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if it's explicitly shared with them)
+Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
+It's linked in the chat for the meeting
+It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
+It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
+Microsoft 365 Search indexes it
 
 ## Registration
 
+As an admin, you can manage which types of webinars can have their recordings published.
+
 ## Attendee interaction
+
+Registered attendees join the webinar with their cameras and mics off; webinar organizers choose when to let attendees turn on their cameras or un-mute.
+
+The features attendees use for interaction during webinars are:
+
+- **Chat:** Attendees can participate in a text-based chat messages during the webinar. Through chat, attendees can ask questions, share thoughts, and engage in discussions with other participants.
+
+- **Q&A**: For a structured question and response format, webinar organizers can enable a dedicated Q&A feature where attendees can submit questions. Organizers or selected presenters can review and answer these questions during the webinar.
+
+- **Reactions**: During webinars, attendees can use reactions to show how they feel or give feedback. These reaction emojis include applause, like, laughter, heart, and surprise. Attendees can click on the reaction icons to display their reactions in real-time.
+
+- **Polls and Surveys**: Webinar organizers can share polls or surveys that attendees can respond to within the webinar experience. This allows organizers to gather feedback, collect opinions, or gauge the audience's understanding of the presented content.
+
+- **Hand Raise**: Attendees can use the "Hand Raise" feature to show that to speak or ask a question. The presenter or organizer can acknowledge and give the attendee an opportunity to speak or address their question.
 
 ## Streaming
 
-## Webinar control comparison
+## Premium webinars
 
+Your Teams Premium subscription includes advanced registration, Green room for presenters and organizers, and behind-the-scenes event management tools.Explore benefits.
+
+Default options
+Green room OFF, Manage what attendees see OFF, Attendee cameras OFF, Attendee mics OFF, Q&A ON, Chat ON, Reactions ON
+
+## Webinar control comparison
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
@@ -52,6 +79,7 @@ description: Learn how to plan for webinars in Microsoft Teams.
 |Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
 |Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |End-to-end encryption (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
+|Email communications (Teams Premium)|Can control if event organizers and co-organizers can edit email templates for their webinars|Can edit email templates  before they're sent out|
 |Green room (Teams Premium)|No control|Can choose if green room is used for a meeting|
 |Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
 |Recording|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
@@ -62,3 +90,4 @@ description: Learn how to plan for webinars in Microsoft Teams.
 |Transcription and captions|Can allow or prevent transcription and closed captions for attendees|Can enable CART captions|
 |Translation (Teams Premium)|No control|Can enable live translated captions|
 |Watermarks (Teams Premium)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
+|Webinar usage report|View the activity overview for webinars created in your organization|No control|
