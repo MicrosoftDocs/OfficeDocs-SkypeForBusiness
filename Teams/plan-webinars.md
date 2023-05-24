@@ -116,9 +116,9 @@ A Teams Premium subscription includes the following features for webinars:
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](teams-analytics-and-reports.md/meeting-attendance-report.md) |Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
-|Audio and video|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
-|Chat and Q&A|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
+|[Attendance reports](teams-analytics-and-reports/meeting-attendance-report.md) |Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
+|[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
+|[Chat](manage-meeting-chat.md) and [Q&A](manage-qna-for-teams.md)|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
 |Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
 |Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |End-to-end encryption (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
