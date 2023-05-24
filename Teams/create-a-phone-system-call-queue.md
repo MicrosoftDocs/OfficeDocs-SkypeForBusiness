@@ -263,7 +263,7 @@ Choose from these options:
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state isn't Available won't be eligible to receive calls until they change their presence to Available.
+- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose aren't Available will not receive calls until they change their presence to Available.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -380,7 +380,7 @@ To **add a user** to the authorized users:
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
 > - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
 
-See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
+For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 
 ---
 
