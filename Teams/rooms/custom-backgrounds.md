@@ -48,7 +48,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 > [!NOTE]
 > If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or if you want to configure a custom background on your touch console, you need to use the elements provided in this section.
 >
-> For more information about using `<CustomThemeImageUrl>`, see [Teams Rooms 4.16 and earlier](/microsoftteams/rooms/custom-backgrounds?branch=dstrome-custom-backgrounds&tabs=Teams416).
+> For more information about using `<CustomThemeImageUrl>`, see [Teams Rooms 4.16 and earlier](/microsoftteams/rooms/custom-backgrounds?tabs=Teams416).
 
 ### Minimum resolutions
 
@@ -161,7 +161,7 @@ To tell Teams to use custom backgrounds and which files to use, you need to add 
 |----------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
 | `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>A second front-of-room display is attached and in use.</li></ul> |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
 | `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
 Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
