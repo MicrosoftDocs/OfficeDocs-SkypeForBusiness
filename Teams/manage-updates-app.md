@@ -147,7 +147,7 @@ From the Teams Updates app, users have access to create new updates and view upd
 
 ## Power Automate connector
 
-Updates supports the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
+Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
 
 ## Give feedback or report an issue
   
