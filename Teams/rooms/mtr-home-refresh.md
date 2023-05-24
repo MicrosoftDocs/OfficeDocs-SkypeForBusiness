@@ -5,7 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 05/23/2023
+ms.date: 05/24/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -23,12 +23,12 @@ description: Learn about the improvements to the Microsoft Teams Rooms on Window
 
 Microsoft Teams Rooms on Windows version 4.16 and later includes a refreshed home screen design that adds a calendar to front-of-room displays, quick access to more commonly used actions on consoles, additional built-in themes, and better consistency with other Teams devices.
 
-The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. However, because the refreshed design makes changes to Exchange calendar integration and the layout of the Teams Rooms home screen, we haven't made it the default experience yet. To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-home-screen-design).
+The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. The refreshed home screen is opt-in on Teams Rooms version 4.16.  To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-home-screen-design).
 
 > [!IMPORTANT]
-> The refreshed home screen is opt-in for Teams Rooms version 4.16. The refreshed home screen will become the default experience in a future release. Be sure to review the guidelines in this article, and update your custom themes if you have any, before the refreshed home screen becomes the default experience.
+> On Teams Rooms versions 4.17 and later, the refreshed home screen is **enabled** by default.
 
-Before you enable the refreshed home screen design in Teams Rooms version 4.16, and before it becomes the default experience in a future release, check the following:
+Before you enable the refreshed home screen design in Teams Rooms version 4.16, check the following:
 
 - **Integrated Exchange calendar** - The refreshed home screen changes how the calendar on Teams Rooms devices communicates with Exchange. Make sure meetings that appear in Outlook or Outlook on the web are correctly reflected in your Teams clients. For information about Exchange and Teams, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
   > [!WARNING]
@@ -58,7 +58,7 @@ To enable the refreshed home screen design, add the following to your XML config
 To hide the calendar on your front-of-room display, add the following to your XML configuration file:
 
 > [!IMPORTANT]
-> The `<RemoveFoRCalendar>` setting is available only during the opt-in period for the refreshed home screen. When the refreshed home screen becomes the default experience, the `<RemoveFoRCalendar>` setting will be removed.
+> The `<RemoveFoRCalendar>` setting is available only on Teams Rooms version 4.16. The setting isn't available on Teams Rooms version 4.17 and later.
 
 ```xml
 <RemoveFoRCalendar>true</RemoveFoRCalendar> 

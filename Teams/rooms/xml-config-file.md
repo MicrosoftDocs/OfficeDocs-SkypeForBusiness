@@ -3,7 +3,7 @@ title: Remotely manage Microsoft Teams Rooms device settings
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 05/23/2023
+ms.date: 05/24/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
   - Tier2
 ms.custom: 
   - seo-marvel-mar2020
-description: Remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme and creating a master settings file.
+description: Remote management of the default settings used by a Microsoft Teams Rooms device and creating a master settings file.
 ---
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
 
-This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
+This article discusses remote management of the default settings used by a Microsoft Teams Rooms device. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
 It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices.
 
@@ -98,12 +98,10 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   </Devices>
   <Theming>
        <ThemeName>Custom</ThemeName>
+       <CustomBackgroundMainFoRDisplay>file name</CustomBackgroundMainFoRDisplay>
+       <CustomBackgroundExtendedFoRDisplay>file name</CustomBackgroundExtendedFoRDisplay>
+       <CustomBackgroundConsole>file name</CustomBackgroundConsole>
        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-       <CustomThemeColor>
-            <RedComponent>100</RedComponent>
-            <GreenComponent>100</GreenComponent>
-            <BlueComponent>100</BlueComponent>
-       </CustomThemeColor>
   </Theming>
   <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience> 
   <CoordinatedMeetings enabled="true">
@@ -187,10 +185,10 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ContentCameraEnhancement>` | Boolean &#x2777; |  | When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced, and the person writing on the whiteboard is made transparent.  <br><br> Set to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media. |
 | `<Theming>` | Container | First &#x2776; | One of the features that can be applied with an XML file is a Custom Theme for your organization. You are able to specify a theme name, background image, and color. |
 | `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are `Default`, one of the provided preset themes, or `Custom`. <br/><br>  Custom theme names always use the name `Custom`. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  `Default` <br/>  `Blue Wave` <br/>  `Digital Forest` <br/>  `Dreamcatcher` <br/>  `Limeade` <br/>  `Pixel Perfect` <br/>  `Roadmap` <br/>  `Sunset` <br/>  To disable the current theme, use `No Theme` for the `<ThemeName>`. |
-| `<CustomBackgroundMainFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the main/right custom background image on Teams Rooms version 4.17 and later. <br/><br> Required if `<ThemeName>` is set to `Custom`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Teams417). |
-| `<CustomBackgroundExtendedFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the extended/left custom background image on Teams Rooms version 4.17 and later. <br/><br> Required if `<ThemeName>` is set to `Custom` **and** `<DualScreenMode>` is set to `true`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Teams417).|
-| `<CustomBackgroundConsole>` | String  &#x2778; |  | Used to specify the filename of the touch console custom background image on Teams Rooms version 4.17 and later. <br/><br> Optional.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Teams417).|
-| `<CustomThemeImageUrl>` | String  &#x2778; |  | Used to specify a custom theme image file name on Teams Rooms version 4.16 and earlier. Input the file name only.   For more information on custom themes, see [Set up and manage Teams Rooms on Windows 4.16 and earlier custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Teams416). <br><br>On Teams Rooms version 4.17 and later, we recommend you use the `<CustomBackgroundMainFoRDisplay>`, `<CustomBackgroundExtendedFoRDisplay>`, and `<CustomBackgroundConsole>` elements.  |
+| `<CustomBackgroundMainFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the main/right custom background image on Teams Rooms version 4.17 and later with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced). |
+| `<CustomBackgroundExtendedFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the extended/left custom background image on Teams Rooms version 4.17 with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom` **and** `<DualScreenMode>` is set to `true`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|
+| `<CustomBackgroundConsole>` | String  &#x2778; |  | Used to specify the filename of the touch console custom background image on Teams Rooms version 4.17 and later  with a Microsoft Teams Rooms Pro license. <br/><br> Optional.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|
+| `<CustomThemeImageUrl>` | String  &#x2778; |  | Used to specify a custom theme image file name on Teams Rooms version 4.16 and earlier or on devices with a Microsoft Teams Rooms Basic license. Input the file name only.   For more information on custom themes, see [Set up and manage Teams Rooms on Windows standard custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard). <br><br>On Teams Rooms version 4.17 and later, we recommend you use the `<CustomBackgroundMainFoRDisplay>`, `<CustomBackgroundExtendedFoRDisplay>`, and `<CustomBackgroundConsole>` elements.  |
 | `<TeamsRoomsNewExperience>`| Boolean &#x2777; |   | Enable or disable the refreshed home screen design on front-of-room displays and the console. Starting with version 4.17, the refreshed home screen design is enabled by default. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).  |
 | `<CoordinatedMeetings>` | Boolean &#x2777; | First &#x2776; | Container for the configuration elements for Coordinated Meetings. This element has one attribute:<ul><li><b>enabled</b> Determines whether Teams is configured to participate in Coordinated Meetings with other devices.</li></ul> |
 | `<TrustedAccounts>` | String |  | This is a comma-separated list of UPNs for each Teams Rooms device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |

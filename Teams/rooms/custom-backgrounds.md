@@ -5,7 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 05/23/2023
+ms.date: 05/24/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -25,34 +25,51 @@ description: Learn how to set up custom backgrounds on Teams Rooms front-of-room
 
 You can create custom background images for your Microsoft Teams Rooms on Windows devices to represent your brand or to provide instructions to Teams Rooms users. For example, you can add a copy logo to your background images and include contact information for your organization's help desk if meeting attendees need help.
 
-The custom background options you have available to you, and how you set them up, depend on the version of Teams Rooms installed on your devices. Select the tab below that corresponds to the version of Teams installed on your Teams Rooms device. To check which version of Teams is installed on your device, do the following:
+The custom background options available to you, and how you set them up, depend on the version of Teams Rooms installed on your device and whether the device has a Microsoft Teams Rooms Pro or Microsoft Teams Rooms Basic license. 
+
+Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
+
+| Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
+|------------------------------------------------------|-----------------------|-------------------|
+| Teams Rooms 4.17 and later                           | Enhanced and Standard | Standard          |
+| Teams Rooms 4.16 with refreshed home screen enabled  | Enhanced and Standard | Standard          |
+| Teams Rooms 4.16 with refreshed home screen disabled | Standard              | Standard          |
+| Teams Rooms 4.15 and earlier                         | Standard              | Standard          |
+
+To check which version of Teams is installed and which Teams Rooms license is applied to your device:
 
 - On your Teams Rooms device:
   1. Select **More** and then **Settings**
   1. Enter your admin password and select **Yes**
-  1. On the **Settings** screen, find the version under **App version**
+  1. On the **Settings** screen
+      - Find the version under **App version**
+      - Find the Teams Rooms license under **Room License**
 - In Teams admin center:
   1. Go to <https://admin.teams.microsoft.com> and sign in with your admin account
-  1. Select **Teams Rooms on Windows** and then select the device you want to see the app version for
+  1. Select **Teams Rooms on Windows** and then find the device you want to see the app version and Teams Rooms license for
+  1. On the details page, look next to the device name to find the license type
+      - **Pro** - Teams Rooms Pro license
+      - **Basic** - Teams Rooms Basic license
+      - Any other license type - equivalent to Teams Rooms Basic license
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
-## [Teams Rooms 4.17 and later](#tab/Teams417)
+## [Enhanced backgrounds](#tab/Enhanced)
 
-Teams Rooms version 4.17 and later gives you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. It also lets you set up a custom background for your system's touch console.
+Enhanced backgrounds give you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. They also let you set up a custom background for your system's touch console.
 
 When you enable custom backgrounds, you need to provide custom backgrounds for your front-of-room displays. If you have two front-of-room displays, you need to provide a custom background for each display. Providing a custom background for your touch console is optional.
 
-If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to the built-in theme.
+If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to "no theme".
 
 > [!NOTE]
 > If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or if you want to configure a custom background on your touch console, you need to use the elements provided in this section.
 >
-> For more information about using `<CustomThemeImageUrl>`, see [Teams Rooms 4.16 and earlier](/microsoftteams/rooms/custom-backgrounds?tabs=Teams416).
+> For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to the built-in theme.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to "no theme".
 
 ### Recommended resolutions
 
@@ -177,7 +194,7 @@ Here's an example XML snippet showing background images being provided for both 
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-## [Teams Rooms 4.16 and earlier](#tab/Teams416)
+## [Standard backgrounds](#tab/Standard)
 
 ### Teams Rooms 4.16 with refreshed home screen enabled
 
