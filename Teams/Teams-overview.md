@@ -83,11 +83,11 @@ When deciding which Microsoft 365 or Office 365 apps and services to use, think 
 
 - **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required.
 
-- **SharePoint** for sites, portals, intelligent content services, business process automation, and enterprise search. SharePoint keeps content at the center of teamwork, making all types of content easily shareable and accessible across teams. Tight integration with Outlook, Yammer, and Teams enables seamless content collaboration across conversation experiences.
+- **SharePoint** for sites, portals, intelligent content services, business process automation, and enterprise search. SharePoint keeps content at the center of teamwork, making all types of content easily shareable and accessible across teams. Tight integration with Outlook, Viva Engage, and Teams enables seamless content collaboration across conversation experiences.
 
 - **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
-- **Yammer** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas of practice. Crowdsource ideas to foster open discussions with people across the company.
+- **Viva Engage** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas of practice. Crowdsource ideas to foster open discussions with people across the company.
 
 - **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
 

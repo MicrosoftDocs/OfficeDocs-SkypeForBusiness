@@ -38,7 +38,7 @@ When creating a Microsoft 365 group in Outlook or SharePoint, the group mailbox 
 
 ## Group membership
 
-If you remove a member of a team, they are removed from the Microsoft 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer group, or shared OneNote. However, they will still have access to the team's chat functionality for approximately two hours.
+If you remove a member of a team, they are removed from the Microsoft 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Viva Engage group, or shared OneNote. However, they will still have access to the team's chat functionality for approximately two hours.
 
 As a best practice for managing team members, add and remove them from the Teams client to ensure that permissions updates for other group-connected workloads occur quickly. If you add or remove team members outside of the Teams client (by using the Microsoft 365 admin center, Azure AD, or Exchange Online PowerShell), it can take up to 24 hours for changes to be reflected in Teams.
 
@@ -46,7 +46,7 @@ As a best practice for managing team members, add and remove them from the Teams
 
 Deleting a Microsoft 365 group will remove the mailbox alias for persistent Outlook/OWA conversations and Teams meeting invites, and mark the SharePoint site for deletion. It takes approximately 20 minutes between the removal of a team and its effect on Outlook. Deleting a team from the Teams client will remove it immediately from view to all who are members of the team. If you remove members of a Microsoft 365 Group that has had Teams functionality enabled on it, there could be a delay of approximately two hours before the team is removed from view in the Teams client for the affected people who were removed.
 
-For details about groups and teams end of lifecycle options, see  [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) and [Archive or delete a team in Microsoft Teams](./archive-or-delete-a-team.md).
+For details about groups and teams end of lifecycle options, see  [End of lifecycle options for groups, teams, and Viva Engage](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-viva-engage) and [Archive or delete a team in Microsoft Teams](./archive-or-delete-a-team.md).
 
 ## Related topics
 

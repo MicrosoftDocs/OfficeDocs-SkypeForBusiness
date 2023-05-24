@@ -23,7 +23,7 @@ ms.custom:
 # Troubleshooting live events in Microsoft Teams
 
 > [!IMPORTANT]
-> **China**: Users located in China won't be able to set up or attend Teams or Yammer live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
+> **China**: Users located in China won't be able to set up or attend Teams or Viva Engage live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
 >
 > As an administrator, you might need to set up a VPN to connect your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
 
@@ -62,7 +62,7 @@ During live events many people will be joining to watch your event live. This co
 
 ### I can't create a live event
 
-There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you're using for the live event.
+There are permissions across Microsoft Teams and Viva Engage that a user needs to be able to create a live event depending on which service you're using for the live event.
 
 1. Check that the Teams admin has enabled you to create live events.
 2. Check with your administrator that you have a valid Teams license that allows the creation of live events.
