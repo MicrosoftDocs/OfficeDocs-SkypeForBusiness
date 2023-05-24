@@ -366,7 +366,7 @@ Once you've selected your call overflow, call timeout and no agents handling opt
 
 ## Step 6: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
