@@ -27,15 +27,6 @@ You can create custom background images for your Microsoft Teams Rooms on Window
 
 The custom background options available to you, and how you set them up, depend on the version of Teams Rooms installed on your device and whether the device has a Microsoft Teams Rooms Pro or Microsoft Teams Rooms Basic license. 
 
-Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
-
-| Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
-|------------------------------------------------------|-----------------------|-------------------|
-| Teams Rooms 4.17 and later                           | Enhanced and Standard | Standard          |
-| Teams Rooms 4.16 with refreshed home screen enabled  | Enhanced and Standard | Standard          |
-| Teams Rooms 4.16 with refreshed home screen disabled | Standard              | Standard          |
-| Teams Rooms 4.15 and earlier                         | Standard              | Standard          |
-
 To check which version of Teams is installed and which Teams Rooms license is applied to your device:
 
 - On your Teams Rooms device:
@@ -53,6 +44,15 @@ To check which version of Teams is installed and which Teams Rooms license is ap
       - Any other license type - equivalent to Teams Rooms Basic license
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
+
+Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
+
+| Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
+|------------------------------------------------------|-----------------------|-------------------|
+| Teams Rooms 4.17 and later                           | Enhanced and Standard | Standard          |
+| Teams Rooms 4.16 with refreshed home screen enabled  | Enhanced and Standard | Standard          |
+| Teams Rooms 4.16 with refreshed home screen disabled | Standard              | Standard          |
+| Teams Rooms 4.15 and earlier                         | Standard              | Standard          |
 
 ## [Enhanced backgrounds](#tab/Enhanced)
 
