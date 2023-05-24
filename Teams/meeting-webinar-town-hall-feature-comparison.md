@@ -30,13 +30,7 @@ description: Learn which features are available in Teams meetings, webinars, and
 
 **APPLIES TO:** ![yes](media/yes.png)Meetings ![yes](media/yes.png)Webinars ![yes](media/yes.png)Town halls
 
-
-
-![yes](media/yes.png)
-
-![no](media/no.png)
-
-![Teams Premium](media/premium-icon.png)
+The following table shows which features are available in meetings, webinars, and town halls.
 
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
@@ -82,3 +76,12 @@ description: Learn which features are available in Teams meetings, webinars, and
 |Yammer integration|![no](media/no.png)|![no](media/no.png)|![yes](media/yes.png)|
 
 
+## Related topics
+
+[Overview of meetings, webinars, and town halls](quick-start-meetings-live-events.md)
+
+[Plan for Teams meetings](plan-meetings.md)
+
+[Plan for Teams webinars](plan-webinars.md)
+
+[Plan for Teams town halls](plan-town-halls.md)

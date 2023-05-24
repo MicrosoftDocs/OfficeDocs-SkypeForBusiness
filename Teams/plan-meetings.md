@@ -30,6 +30,14 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ![yes](media/yes.png)Meetings ![no](media/no.png)Webinars ![no](media/no.png)Town halls ![yes](media/yes.png)Calls
 
+Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your organization or - if you allow it - people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these using meeting policies.
+
+The following types of meetings are available:
+- Private meetings - meetings that individual users schedule with sepcific people
+- Channel meeting - meetings that are visible to everyone in a team
+- Instant meetings - a method of starting an unscheduled meeting with people in a chat
+
+To specify which users in your organization can start or schedule meetings, see [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md).
 
 ## Meetings and calls
 
