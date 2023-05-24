@@ -44,7 +44,7 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 - Handling options for queue overflow and timeout.
 
-Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
+Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md), and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 ## What's new for call queues in the past six months
 
@@ -259,7 +259,7 @@ Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This will repeat until the call is picked up or times out.
+- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle will repeat until the call is answered, times out or the caller hangs up.
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
@@ -314,9 +314,22 @@ We recommend turning on **Call agents can opt out of taking calls**.
 
 Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a call queue** page.
 
-## [Step 5: Call overflow](#tab/call-overflow)
+## [Step 5: Exception Handling](#tab/call-exception-handling)
 
-## Step 5: Set how to handle call overflow
+## Step 5: Exception handling
+
+**Exception handling** determines how calls are handled when certain exceptions occur.
+
+Each exception allows you to **disconnect** the call or **redirect** it to any of the call routing destinations.
+
+For example, when **Overflow** occurs you might send calls to a backup call queue but when **Timeout** or **No Agents** occurs you might want the callers to leave a shared voicemail.
+
+> [!NOTE]
+> The **Voicemail (personal)** routing option will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
+> 
+> For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+
+### Overflow: Set how to handle call overflow
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time.
 
@@ -324,41 +337,34 @@ The default is 50, but it can range from 0 to 200.
 
 When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to **disconnect** the call or **redirect** it to any of the call routing destinations.
-
-For example, you might have the caller leave a voicemail for the agents in the queue.
-
-For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+This limit applies only to calls that are waiting in queue to be answered. 
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
->  
-> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
 
-Once you've selected your call overflow handling options, select the **Next** button at the bottom of the **Add a call queue** page.
-
-## [Step 6: Call timeout](#tab/call-timeout)
-
-## Step 6: Set how to handle call timeouts
+### Call timeout: Set how to handle call timeouts
 
 **Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it's redirected or disconnected.
 
 You can specify a value from 0 seconds to 45 minutes.
 
-You can choose to **disconnect** the call or **redirect** it to one of the call routing destinations.
+### No Agents: Set how to handle calls when no agents
 
-For example, you might have the caller leave a voicemail for the agents in the queue.
-
-For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+**Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
+- ***All Calls*** (default) - calls already in queue and new calls arriving to the queue or
+- ***New Calls Only*** - only new calls that arrive once the No Agents condition has occurred, existing calls in queue will remain in queue
 
 > [!NOTE]
-> Voicemail (personal) will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
+> The **No Agents** handling exception occurs under the following conditions:
+> - No agents are opted in to the queue or,
+> - Presence based routing is enabled and no agents logged in
+> If agents are logged or opted in then calls will be queued.
 
-Once you've selected your call timeout handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
+Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
-## [Step 7: Authorized users](#tab/authorized-users)
+## [Step 6: Authorized users](#tab/authorized-users)
 
-## Step 7: Authorized users
+## Step 6: Authorized users
 
 **Authorized users** specifies the users who are authorized to make changes to this call queue.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
@@ -422,7 +428,8 @@ The following settings are recommended:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
 4. It's not possible to set the order the agents will be called in.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing. For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.  
+- For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
