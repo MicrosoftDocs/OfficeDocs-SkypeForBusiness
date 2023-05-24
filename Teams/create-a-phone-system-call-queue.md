@@ -88,13 +88,13 @@ If you need to create a resource account:
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
-    1. Type in a descriptive **Display name**, which will be visible to agents.
+    1. Type in a descriptive **Display name**. Agents see this name when a call is presented to them.
     1. Type in a descriptive **Username** for the resource account.
     1. Select the **Resource account type** dropdown and select **Call queue**.
 1. At the bottom of the pane, select the **Save** button.
 1. On the **Resource accounts** pane, select the **Add** button.
 
-Agents will see the resource account name when they receive an incoming call.
+Agents see the resource account name when they receive an incoming call.
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
@@ -122,7 +122,7 @@ If you don't have a resource account with an assigned phone number:
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
 1. Select the **+ Add a resource account** button at the bottom of the results.
 1. On the **Add resource account** pane:
-    1. Type in a descriptive **Display name**, which will be visible to call recipients.
+    1. Type in a descriptive **Display name**. Agents see this name when a call is presented to them.
     1. Type in a descriptive **Username** for the resource account.
     1. Select the **Resource account type** dropdown and select **Call queue**.
 1. At the bottom of the pane, select the **Save** button.
@@ -138,7 +138,7 @@ After you've created this new resource account for calling ID, you'll still need
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md).
 
-This language will be used for system-generated voice prompts and voicemail transcription, if you enable them.
+This language is used for system-generated voice prompts and voicemail transcription, if you enable them.
 
 Once you've selected a language, select the **Next** button at the bottom of the **Add a call queue** page.
 
@@ -150,7 +150,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 
 - If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
-- If you select **Type a greeting message**, the system will read the text that you type (up to 1000 characters) when the call queue answers a call.
+- If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the call queue answers a call.
 
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the language selected for the call queue. The system doesn't perform translation.
@@ -259,7 +259,7 @@ Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle will repeat until the call is answered, times out or the caller hangs up.
+- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle repeats until the call is answered, times out or the caller hangs up.
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
@@ -285,7 +285,7 @@ Call agents whose availability status is set to **Available** are included in th
 
 You can enable **presence-based call routing** with any of the routing methods.
 
-If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.
+If an agent opts out of getting calls, they won't receive calls regardless of their availability status.
 
 > [!TIP]
 > Setting the **Presence-based routing** to **on** is the recommended setting.
@@ -352,7 +352,7 @@ You can specify a value from 0 seconds to 45 minutes.
 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 - ***All Calls*** (default) - calls already in queue and new calls arriving to the queue or
-- ***New Calls Only*** - only new calls that arrive once the No Agents condition has occurred, existing calls in queue will remain in queue
+- ***New Calls Only*** - only new calls that arrive once the No Agents condition has occurred, existing calls in queue remain in queue
 
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
@@ -426,8 +426,8 @@ The following settings are recommended:
 
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
-3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
-4. It's not possible to set the order the agents will be called in.
+3. Selecting Longest Idle for the agent routing method automatically enables Presence based routing.
+4. It's not possible to set the order the agents are presented with calls.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.  
 - For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. Microsoft Teams Phone System only.
