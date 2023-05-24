@@ -62,7 +62,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|People signed in to non-trusted organizations in external access will bypass the lobby; others wait in the lobby.|Lobby|
 
-**Only people who were invited** applies only to participants who were sent an invite directly, part of an invited distribution list (of up to 10,000 users), or to whom an invite was forwarded. Users added via *Invite members* in a channel meeting will wait in the lobby.
+**Only people who were invited** applies only to participants who were sent an invite directly, who are part of an invited distribution list (of up to 10,000 users), or to whom an invite was forwarded. Users added via *Invite members* in a channel meeting will wait in the lobby.
 
 ## Choose who can bypass the lobby in meetings hosted by your organization
 
