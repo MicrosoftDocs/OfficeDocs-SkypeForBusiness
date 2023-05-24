@@ -62,7 +62,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|People signed in to non-trusted organizations in external access will bypass the lobby; others wait in the lobby.|Lobby|
 
-**Only people who were invited** applies only to participants who were sent an invite directly or to whom an invite was forwarded. Users added as a part of a distribution group or via *Invite members* in a channel meeting will wait in the lobby.
+**Only people who were invited** applies only to participants who were sent an invite directly, who are part of an invited distribution list (of up to 10,000 users), or to whom an invite was forwarded. Users added via *Invite members* in a channel meeting will wait in the lobby.
 
 ## Choose who can bypass the lobby in meetings hosted by your organization
 
@@ -125,7 +125,7 @@ If you want all validated meeting participants from outside your organization to
 
 ## Control access to meetings by people without invitations
 
-If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **People who were invited**. (People invited via distribution list are not included.)
+If you want to allow only people who have invitations to join meetings directly and have all other participants wait in the lobby, set **Who can bypass the lobby** to **People who were invited**. (People invited via a distribution list of up to 10,000 users are included.)
 
 The **People who were invited** setting includes all participants with a work or school account and guests to whom the invite was forwarded, not just those invited directly by the organizer. This includes participants from blocked organizations in external access if anonymous meeting join is enabled. It doesn’t include people who have the meeting join link but not the invitation itself and participants who are not signed in. They must wait in the lobby.
 
