@@ -103,7 +103,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
        <CustomBackgroundConsole>file name</CustomBackgroundConsole>
        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
   </Theming>
-  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience> 
+  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience>
+  <RemoveFoRCalendar>false</RemoveFoRCalendar>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
     <Settings>
@@ -190,6 +191,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<CustomBackgroundConsole>` | String  &#x2778; |  | Used to specify the filename of the touch console custom background image on Teams Rooms version 4.17 and later  with a Microsoft Teams Rooms Pro license. <br/><br> Optional.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|
 | `<CustomThemeImageUrl>` | String  &#x2778; |  | Used to specify a custom theme image file name on Teams Rooms version 4.16 and earlier or on devices with a Microsoft Teams Rooms Basic license. Input the file name only.   For more information on custom themes, see [Set up and manage Teams Rooms on Windows standard custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard). <br><br>On Teams Rooms version 4.17 and later, we recommend you use the `<CustomBackgroundMainFoRDisplay>`, `<CustomBackgroundExtendedFoRDisplay>`, and `<CustomBackgroundConsole>` elements.  |
 | `<TeamsRoomsNewExperience>`| Boolean &#x2777; |   | Enable or disable the refreshed home screen design on front-of-room displays and the console. Starting with version 4.17, the refreshed home screen design is enabled by default. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).  |
+| `<RemoveFoRCalendar>`| Boolean &#x2777; |   | Remove the calendar on front-of-room displays. Disabled by default. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).  |
 | `<CoordinatedMeetings>` | Boolean &#x2777; | First &#x2776; | Container for the configuration elements for Coordinated Meetings. This element has one attribute:<ul><li><b>enabled</b> Determines whether Teams is configured to participate in Coordinated Meetings with other devices.</li></ul> |
 | `<TrustedAccounts>` | String |  | This is a comma-separated list of UPNs for each Teams Rooms device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |
 | `<Settings>` | Container |  | Container for the configuration audio and video configuration elements for Coordinated Meetings. |
