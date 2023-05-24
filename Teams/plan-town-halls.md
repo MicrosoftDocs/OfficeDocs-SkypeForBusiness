@@ -37,12 +37,13 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 ## Attendee interaction
 
+## External participants
+
 ## Real-time monitoring
 
 ## Yammer integration
 
 ## Town hall control comparison
-
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
