@@ -20,9 +20,13 @@ description: Learn how to set up the avatars for Microsoft Teams app.
 
 # Set up avatars for Microsoft Teams
 
+[!INCLUDE [teams-premium-ecm](includes/teams-premium-ecm.md)]
+
 Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. You can control whether avatars for Teams is available in your organization and who can use them using policies.
 
 > [!NOTE]
+> The avatars for Teams app requires Teams Premium.
+>
 > The avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
 >
 > Teams customers can access this feature if they have one of the following licenses: Microsoft 365 Enterprise E3, Microsoft 365 Enterprise E5, Microsoft 365 Business Standard, and Microsoft 365 Business Premium License.
