@@ -56,7 +56,7 @@ To assign an emergency location, users, phone numbers, and emergency locations a
 ### Using PowerShell
 
 See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
-    
+
 ## Change an emergency location
 
 ### Using the Microsoft Teams admin center
@@ -72,7 +72,7 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 ### Using PowerShell
 
 See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
-    
+
 ## Remove an emergency location
 
 > [!NOTE]
