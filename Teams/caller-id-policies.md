@@ -31,13 +31,13 @@ This article describes how to manage caller ID settings for your users. As an ad
 - Block an incoming number from being displayed.
 - Set the Calling Party Name (CNAM).
 
-> [!IMPORTANT]
-> Emergency calls will always send the user's telephone number (caller ID) to a public-safety answering point (PSAP). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
-
 Caller ID consists of two user-facing pieces of information:
 
 - **Calling line ID (CLID)** - The phone number that the Public Switched Telephone Network (PSTN) presents as the caller's identity.
 - **Calling party name (CNAM)** - The name that appears alongside the phone number (for example, your company's name, a user's name, or Anonymous).
+
+> [!IMPORTANT]
+> Emergency calls will always send the user's telephone number (caller ID) to a public-safety answering point (PSAP). For more information on emergency calls, read [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 For more information, see [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).
 
@@ -64,15 +64,15 @@ For the outbound PSTN caller ID, the following options are available:
 
   - The CNAM can have a maximum of 200 characters, but downstream systems might support fewer characters.
   
-  - The CNAM is sent on calls where the caller ID is substituted with LineUri, a resource account or service phone number, and when the caller is a Teams user.
+  - The CNAM is sent on calls where the caller ID is substituted with LineURI, a resource account or service phone number, and when the caller is a Teams user.
 
 - End user control that overrides the caller ID policy.
 
-  - The parameter `-EnableUserOverride` has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy, unless the parameter `-CallingIDSubstitute` is set to Anonymous.
+  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy, unless the parameter CallingIDSubstitute is set to **Anonymous**.
 
-  - For example, assume a policy instance has substitution enabled with a resource account and `-EnableUserOverride` is set and enabled by the user. In this case, the outbound caller ID will be blocked and Anonymous will be used.
+  - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID will be blocked and anonymous will be used.
 
-  - If a policy instance has substitution set to Anonymous and `-EnableUserOverride` is enabled, then the outbound caller ID will always be Anonymous, regardless of the end user setting.
+  - If a policy instance has substitution set to **Anonymous** and EnableUserOverride is enabled, then the outbound caller ID will always be anonymous, regardless of the end user setting.
 
 You can't assign the following types of phone numbers for the outbound caller ID:
 
@@ -84,7 +84,7 @@ You can't assign the following types of phone numbers for the outbound caller ID
 
 For Direct Routing, the phone number substitution and the CNAM is sent in the `From` Session Information Protocol (SIP) header. If the corresponding [OnlinePstnGateway](/powershell/module/skype/set-csonlinepstngateway) policy is configured with `-ForwardPai $true`, the P-Asserted-Identity (PAI) SIP header will contain the real calling user.
 
-For more information, see [caller ID policies](#caller-id-policies).
+For more information, see [configure caller ID policies](#configure-caller-id-policies).
 
 ## Inbound caller ID options
 
@@ -106,7 +106,7 @@ By default, the following caller ID settings are **turned off**.
 |Override the caller ID policy|Off|This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. This means that users can choose whether to display their caller ID.</br></br>Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.</br>|
 |Calling Party Name|(empty)|This setting sends a CNAM on outbound PSTN calls.|
 |Replace the caller ID with|User's number|This setting replaces a user's caller ID with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.</br></br>If this is set to **Anonymous**, the outgoing caller ID is blocked from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
-|Replace the caller ID with this resource account/service number|(Choose a resource account/service number)|This setting lets you choose a resource account or service number to replace the caller ID of users.|
+|Replace the caller ID with this resource account/service number|(empty)|This setting lets you choose a resource account or service number to replace the caller ID of users.|
 
 You can configure caller ID policies with the [Teams admin center](#use-the-teams-admin-center) or with [PowerShell](#use-powershell).
 
@@ -114,7 +114,7 @@ You can configure caller ID policies with the [Teams admin center](#use-the-team
 
 You can manage caller ID policies by going to **Voice** > **Caller ID policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-For more information on each policy, see [Caller ID policies](#configure-caller-id-policies).
+For more information on each policy, see [configure caller ID policies](#configure-caller-id-policies).
 
 #### Create a custom caller ID policy
 
