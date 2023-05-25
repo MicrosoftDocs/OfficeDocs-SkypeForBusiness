@@ -92,7 +92,7 @@ Phone System shows the incoming external phone number as the caller ID. If the n
 
 The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
 
-For more information, see [caller ID policies](#caller-id-policies).
+For more information, see [configure caller ID policies](#configure-caller-id-policies).
 
 ## Configure caller ID policies
 
