@@ -57,7 +57,7 @@ The following table compares key features between Teams and Teams Premium.
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
 | Host and attend Teams Meetings | ✔️ |  |
-| Experience Teams’ standard look and feel | ✔️ |  |
+| Experience Teams' standard look and feel | ✔️ |  |
 | Use standard and custom meeting backgrounds at the user level| ✔️ |  |
 | Read live captions during meetings and live events | ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
@@ -67,6 +67,7 @@ The following table compares key features between Teams and Teams Premium.
 | Read live translated captions during meetings |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN for Live Events\* |  | ✔️ |
+| Avatars for Teams app | | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -81,7 +82,7 @@ The following table compares key features between Teams and Teams Premium.
 | Turn on Q&A for webinars with up to 1000 attendees | ✔️ |  |
 | View attendance reports | ✔️ |  |
 | Set up a green room for webinar presenters |  | ✔️ |
-| Manage attendees’ view |  | ✔️ |
+| Manage attendees' view |  | ✔️ |
 | Send reminder emails to registrants |  | ✔️ |
 | Create a webinar wait list |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
@@ -154,7 +155,7 @@ With the general release of Teams Premium on February 1, 2023, the following Tea
 
 ## What are the requirements to purchase Teams Premium?
 
-At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
+At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE - Customer led, and NCE - Partner led.
 
 Before you can purchase Teams Premium licenses for your users, ensure your tenant and users meet the requirements.
 
@@ -162,7 +163,7 @@ The **tenant requirement** is:
 
 - Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
   - Teams Premium for GCC became available on March 1, 2023.
-  - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
+  - At general release, Microsoft won't offer an EDU-specific license or EDU discounts for Teams Premium.
   - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
@@ -186,9 +187,9 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
-Teams Premium licenses are assigned to your organization’s users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren’t dependent on one another, don’t overlap features, and won’t cause license enforcement conflicts.
+Teams Premium licenses are assigned to your organization's users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren't dependent on one another, don't overlap features, and won't cause license enforcement conflicts.
 
-Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has been retired and isn’t related to Teams Premium.
+Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has been retired and isn't related to Teams Premium.
 
 ## Can I experience Teams Premium before buying licenses?
 
@@ -198,9 +199,9 @@ Organizations with a Teams Premium trial license will have 25 licenses to assign
 
 Most organization segments can purchase and use the Teams Premium trial license, excluding GCC High and DoD tenants.
 
-### What will happen if my users’ trial licenses expire?
+### What will happen if my users' trial licenses expire?
 
-After the 30-day trial licenses expire, the 25 licensed users will lose all Teams Premium functionality. There’s currently no grace period between the expiration of the trial license and the loss of functionality.
+After the 30-day trial licenses expire, the 25 licensed users will lose all Teams Premium functionality. There's currently no grace period between the expiration of the trial license and the loss of functionality.
 
 For this reason, we recommend organizations plan their Teams Premium trial period, ensuring all necessary test scenarios are thoroughly vetted before the trial period expires.
 
@@ -212,7 +213,7 @@ If your organization wishes to keep Teams Premium features after the trial perio
 
 If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
 
-After you purchase your Teams Premium licenses, you’ll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
+After you purchase your Teams Premium licenses, you'll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
 For instructions on assigning licenses in the Microsoft 365 admin center, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
