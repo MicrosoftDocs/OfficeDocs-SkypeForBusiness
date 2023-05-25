@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 05/22/2023
+ms.date: 05/25/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -89,7 +89,7 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 ## Related topics
 
+- [Add places to emergency locations](add-change-remove-emergency-place-organization.md)
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

@@ -1141,7 +1141,7 @@ items:
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Configure emergency locations
+            - name: Manage emergency locations
               href: add-change-remove-emergency-location-organization.md
             - name: Add places to emergency locations
               href: add-change-remove-emergency-place-organization.md

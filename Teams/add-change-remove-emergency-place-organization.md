@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 05/22/2023
+ms.date: 05/25/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Learn how to add, change, or remove a place for an emergency location and assign a place for your users.
+description: Learn how to add, change, or remove a place for an emergency location and assign a place to your users.
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -30,7 +30,7 @@ Depending on the number of physical locations in your organization, you can add 
 
 Depending on your PSTN connectivity option, however, how you manage emergency locations and location requirements may vary. Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;an emergency location needs to be assigned to each phone number or user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-This article describes how to add, change, or remove a *place* for an emergency location for your organization and how to [assign a place for your users](#assign-a-place-for-your-users).
+This article describes how to add, change, or remove a *place* for an emergency location for your organization and how to [assign a place to your users](#assign-a-place-for-your-users).
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 
@@ -76,7 +76,7 @@ See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
 
 See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
 
-## Assign a place for your users
+## Assign a place to your users
 
 ### Using the Microsoft Teams admin center
 
@@ -90,7 +90,7 @@ See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelisloca
 
     - To change the place that's already assigned to the user, click **X** to remove the existing location and place, search for and then select the place you want to assign.
 
-4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is **On**.
 
 5. Click **Apply**.
 
