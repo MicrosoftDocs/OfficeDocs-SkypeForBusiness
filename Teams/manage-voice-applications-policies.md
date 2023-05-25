@@ -140,6 +140,11 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 
 - **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday schedules* for the auto attendants they're authorized for.
 
+  > [!WARNING]
+  > Holidays may be shared across multiple auto attendants.  When an authorized user makes a change to the dates or times in a holiday, it affects all auto attendants that use that holiday not just the ones the user is authorized for.
+  > 
+  > If an authorized user deletes all the holidays from the auto attendant they will not be able to assign new holidays.
+
 - **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
 
 - **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *auto attendant language* for the auto attendants they're authorized for.
@@ -160,8 +165,6 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 - **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *call queue language* for call queues they're authorized for.
 
 - **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the call queue.
-
-- **AllowCallQueueMusicOnHoldChange**: Turn this setting on to allow authorized users to change the *call queue music on hold* for the call queues they're authorized for.
 
 - **AllowCallQueueNoAgentsRoutingChange**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
 
