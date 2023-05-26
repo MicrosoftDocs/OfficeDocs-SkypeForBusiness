@@ -18,8 +18,6 @@ First, Connect to Graph PowerShell:
    Connect-MgGraph -Scopes "User.ReadWrite.All"
 ```
 
-Then, see [Set a password to never expire](/powershell/module/microsoft.graph.users/update-mguser).
-
 This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
 ```PowerShell
