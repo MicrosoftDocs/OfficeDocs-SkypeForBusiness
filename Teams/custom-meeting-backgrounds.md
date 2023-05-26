@@ -23,6 +23,8 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 # Custom meeting backgrounds for Teams Meetings
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 ## Overview
 
 Custom meeting backgrounds are images that you, as an admin can upload for your users to display in the background of their video feed during meetings.
