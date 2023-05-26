@@ -54,7 +54,7 @@ We recommend that these devices bypass your proxy infrastructure and access Micr
 Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.
 
 > [!Note]
-> If you use a privately signed certificate on your proxy infrastructure, you'll need to install the privately signed certificate and the certificate chain on the Teams meeting room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and other Android-based Teams devices is not supported.
+> If you use a privately signed certificate on your proxy infrastructure (commonly used for SSL inspection), you'll need to install the privately signed certificate and the certificate chain on the Teams meeting room device to allow the device to trust the certificate. Installing privately signed certificates on Teams Phones and other Android-based Teams devices is not supported.
   
 Microsoft also strongly recommends:
   
@@ -71,8 +71,14 @@ Microsoft also strongly recommends:
 - Following the other recommendations in our networking guidelines:
   [Prepare your organization's network for Teams](prepare-network.md)
   
-    
-Following this guidance should minimize potential problems.
+ Following this guidance should minimize potential problems.
+  
+## Additional recommendations for Teams live events and Teams view-only meetings
+
+Viewers of Teams live events and Teams view-only meetings receive the stream via TCP HTTPS. We recommend that you bypass proxy servers and disable SSL inspection for the following URLs:
+
+- *.media.azure.net
+- *.bmc.cdn.office.net
   
 ## Related topics
 
