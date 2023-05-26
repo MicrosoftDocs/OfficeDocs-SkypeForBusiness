@@ -156,7 +156,7 @@ $StartElapsedTime = $(get-date)
 [System.Collections.ArrayList]$MeetingRoomOther_License = @() #Licenses OTHER than what should be applied to a Teams Room Resource Account 
 $Report = [System.Collections.Generic.List[Object]]::new() 
 
-$Room_UPNs = get-mailbox | Where-Object { $_.recipientTypeDetails -eq "roomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
+$Room_UPNs = Get-Mailbox -ResultSize Unlimited | Where-Object { $_.recipientTypeDetails -eq "roomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
 Write-Host $Room_UPNs.Length " were found." -ForegroundColor Green 
 Write-Host "Note that resource accounts can contain 0 or multiple licenses. As such, the total of all licenses discovered may be different than the number of resource accounts" -ForegroundColor Yellow 
 Write-Host  
