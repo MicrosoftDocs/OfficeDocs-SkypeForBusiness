@@ -60,6 +60,11 @@ During live events many people will be joining to watch your event live. This co
 1. Configure existing cache proxies within your network to cache videos from Teams.
 1. Use a third-party eCDN video delivery solution to optimize video traffic.
 
+Viewers receieve the Teams live event stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
+
+ - *.media.azure.net
+ - bmc.cdn.office.net
+
 ### I can't create a live event
 
 There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you're using for the live event.
