@@ -10,6 +10,22 @@ To avoid having to reset the resource account's password and then logging into e
 
 Follow the steps in one of the following tabs to turn off password expiration:
 
+#### [**Microsoft Graph PowerShell**](#tab/graph-powershell-password/)
+
+First, Connect to Graph PowerShell:
+
+```PowerShell
+   Connect-MgGraph -Scopes "User.ReadWrite.All"
+```
+
+Then, see [Set a password to never expire](/powershell/module/microsoft.graph.users/update-mguser).
+
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+
+```PowerShell
+Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
+```
+
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
 First, Connect to Active Directory PowerShell:
