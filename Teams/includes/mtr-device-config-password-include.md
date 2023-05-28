@@ -26,7 +26,7 @@ Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePass
 
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-First, Connect to Active Directory PowerShell:
+First, connect to Active Directory PowerShell:
 
 ```PowerShell
    Connect-AzureAD
