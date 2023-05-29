@@ -31,7 +31,7 @@ This article provides guidance about using a proxy server with Teams or Skype fo
 
 ## Microsoft 365 connectivity 
 
-High quality, low latency connectivity is key to echieving call quality within Microsoft Teams and Skype for Business.
+High quality, low latency connectivity is key to achieving call quality within Microsoft Teams and Skype for Business.
 
 We recommend that the path between the end users device and Microsoft 365 is as short and direct as possible and utilises local Internet egress that is close to the end user. This enables traffic to quickly reach the closest Microsoft network service front door location.
   
