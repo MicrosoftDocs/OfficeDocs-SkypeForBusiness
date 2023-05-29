@@ -28,14 +28,22 @@ description: This article provides information about using a proxy server with M
 # Proxy servers for Teams and Skype for Business Online
 
 This article provides guidance about using a proxy server with Teams or Skype for Business.
+
+## Microsoft 365 connectivity 
+
+High quality, low latency connectivity is key to echieving call quality within Microsoft Teams and Skype for Business.
+
+We recommend that the path between the end users device and Microsoft 365 is as short and direct as possible and utilises local Internet egress that is close to the end user. This enables traffic to quickly reach the closest Microsoft network service front door location.
   
 ## Not using a proxy server is recommended
 
-When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.
-  
-And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
+Many organisations utilise proxy servers today within their network. As Microsoft Teams and Skype for Business media traffic is already encrypted, passing this traffic through a proxy server doesn't make the traffic any more secure.
 
-We recommend that Teams traffic bypasses proxy server infrastructure. You may wish to achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
+Proxies can cause issues too. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. This can be caused by the proxy being unable to handle the amount of traffic passing through it, or by incorrectly routing the traffic to a Microsoft network service front door location that is further away from the end user.
+
+Issues such as these will result in a negative experience within Teams and Skype for Business.
+
+We recommend that Teams traffic bypasses proxy server infrastructure, including SSL inspection. You may wish to achieve this by putting Teams Phones and Meeting Room devices on their own VLAN and providing them with Internet access.
 
 ## Windows-Based Teams Devices
 
