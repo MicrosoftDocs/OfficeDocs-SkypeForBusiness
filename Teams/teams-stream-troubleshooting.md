@@ -143,7 +143,7 @@ Select **Stop event** before disconnecting your encoder. If you've already disco
 1. Check that the encoder is sending audio.
 1. Check that the audio device is plugged in.
 1. If on Windows, make sure the correct audio device is selected and unmuted.
-1. If there was an encoder disruption, some browsers or devices may not be able to recover and playback the audio correctly.
+1. If there was an encoder disruption, some browsers or devices may not be able to recover and play back the audio correctly.
 
 > [!NOTE]
 > If you've deployed Microsoft eCDN as your video distribution provider for live events, please refer to [Troubleshooting eCDN performance issues](/ecdn/troubleshooting/troubleshoot-ecdn-performance-issues) for more details on troubleshooting the eCDN performance issues you may be experiencing.
