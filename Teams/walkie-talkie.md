@@ -48,18 +48,18 @@ Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) 
 
 ### Step 1: Make sure Walkie Talkie is enabled in your organization
 
-By default, the Walkie Talkie app is enabled for all Teams users in your organization.
-
 You control whether the app is available at the organization level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center. To confirm that the app is enabled in your organization:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Walkie Talkie app, select it, and then make sure the **Status** toggle is set to **Allowed**.
 
-If you want to allow or block specific users in your organization from using Walkie Talkie, make sure Walkie Talkie is enabled for your organization on the [Manage apps](manage-apps.md) page. Then create a custom policy for app permissions, and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+### Step 2: Create and assign an app permission policy
 
-### Step 2: Pin Walkie Talkie to Teams
+Control which users in your organization can use Walkie Talkie by assigning permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-#### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
+### Step 3: Use an app setup policy to pin Walkie Talkie for your users
+
+#### F licenses: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
 
@@ -67,7 +67,7 @@ The apps are pinned to the app tray at the bottom of Teams mobile clients where 
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-#### Use an app setup policy to pin Walkie Talkie to Teams
+#### E licenses: Use an app setup policy to pin Walkie Talkie to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
