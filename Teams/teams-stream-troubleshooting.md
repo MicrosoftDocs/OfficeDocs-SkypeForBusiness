@@ -60,7 +60,7 @@ During live events many people will be joining to watch your event live. This co
 1. Configure existing cache proxies within your network to cache videos from Teams.
 1. Use a third-party eCDN video delivery solution to optimize video traffic.
 
-Viewers receieve the Teams live event stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
+Viewers receive the Teams live event stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
 
  - *.media.azure.net
  - bmc.cdn.office.net
