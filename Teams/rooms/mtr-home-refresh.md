@@ -5,7 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 05/24/2023
+ms.date: 05/30/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -67,6 +67,9 @@ To hide the calendar on your front-of-room display, add the following to your XM
 ### Roll back to legacy home screen design
 
 To roll back to the legacy home screen design, add the following to your XML configuration file:
+
+> [!NOTE]
+> The `</TeamsRoomsNewExperience>` setting will be removed in a future release.
 
 ```xml
 <TeamsRoomsNewExperience>false</TeamsRoomsNewExperience> 

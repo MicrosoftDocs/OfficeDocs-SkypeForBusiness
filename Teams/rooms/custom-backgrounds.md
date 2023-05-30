@@ -5,7 +5,7 @@ author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 05/24/2023
+ms.date: 05/30/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -50,11 +50,11 @@ Select the tab that corresponds to the version of Teams Rooms and the Teams Room
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|
 | Teams Rooms 4.17 and later                           | Enhanced and Standard | Standard          |
-| Teams Rooms 4.16 with refreshed home screen enabled  | Enhanced and Standard | Standard          |
-| Teams Rooms 4.16 with refreshed home screen disabled | Standard              | Standard          |
-| Teams Rooms 4.15 and earlier                         | Standard              | Standard          |
+| Teams Rooms 4.16 and earlier                         | Standard              | Standard          |
 
 ## [Enhanced backgrounds](#tab/Enhanced)
+
+### Teams Rooms 4.17 and later with Teams Rooms Pro license
 
 Enhanced backgrounds give you more options for how to set up custom backgrounds on your front-of-room displays. If you have dual front-of-room displays, you can configure different images for each display. They also let you set up a custom background for your system's touch console.
 
