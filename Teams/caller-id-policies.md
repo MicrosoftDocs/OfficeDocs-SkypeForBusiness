@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: jens; roykuntz
-ms.date: 05/23/2023
+ms.date: 05/30/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -53,7 +53,7 @@ For the outbound PSTN caller ID, the following options are available:
 
   - A telephone number through Operator Connect or Direct Routing that is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
 
-  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a Teams Auto Attendant or Call Queue.
+  - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It is assigned to a resource account used by a Teams Auto Attendant or Call Queue.
   
   > [!NOTE]
   > The use of CallingIDSubstitute Service will be deprecated. You are no longer able to create new caller ID policies using CallingIDSubstitute Service. You should use CallingIDSubstitute Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
@@ -76,7 +76,7 @@ For the outbound PSTN caller ID, the following options are available:
 
 You can't assign the following types of phone numbers for the outbound caller ID:
 
-- Any phone numbers that are classified as a user in your Calling Plans telephone number inventory.
+- Any phone numbers that are classified as a user in your Calling Plan or Operator Connect's telephone number inventory.
 
 - Any on-premises telephone number via Direct Routing that is assigned to a user.
 
