@@ -44,7 +44,7 @@ Call queues provide:
 - Call routing - in *First In, First Out* (FIFO) order - to agents.
 - Handling options for queue overflow and timeout.
 
-Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md), and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
+Before you follow the procedures in this article, be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started).
 
 ## What's new for call queues in the past six months
 
@@ -259,11 +259,11 @@ Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle repeats until the call is answered, times out or the caller hangs up.
+- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle repeats until the call is answered, times out, or the caller hangs up.
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose aren't Available will not receive calls until they change their presence to Available.
+- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is *Available*. Agents who aren't available won't receive calls until they change their presence to *Available*.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -322,7 +322,7 @@ Once you've selected your agent call routing options, select the **Next** button
 
 Each exception allows you to **disconnect** the call or **redirect** it to any of the call routing destinations.
 
-For example, when **Overflow** occurs you might send calls to a backup call queue but when **Timeout** or **No Agents** occurs you might want the callers to leave a shared voicemail.
+For example, when **Overflow** occurs, you might send calls to a backup call queue, but when **Timeout** or **No Agents** occurs, you might want the callers to leave a shared voicemail.
 
 > [!NOTE]
 > The **Voicemail (personal)** routing option will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
@@ -351,13 +351,16 @@ You can specify a value from 0 seconds to 45 minutes.
 ### No Agents: Set how to handle calls when no agents
 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
-- ***All Calls*** (default) - calls already in queue and new calls arriving to the queue or
+
+- ***All Calls*** (default) - calls already in queue and new calls arriving to the queue, or
 - ***New Calls Only*** - only new calls that arrive once the No Agents condition has occurred, existing calls in queue remain in queue
 
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
-> - No agents are opted in to the queue or,
+> 
+> - No agents are opted in to the queue, or
 > - Presence based routing is enabled and no agents logged in
+> 
 > If agents are logged or opted in then calls will be queued.
 
 Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
@@ -426,17 +429,16 @@ The following settings are recommended:
 
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
-3. Selecting Longest Idle for the agent routing method automatically enables Presence based routing.
+3. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 4. It's not possible to set the order the agents are presented with calls.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.  
-- For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For call queue implementation with Location-Based Routing see, [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
 9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+  - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+  - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### Supported clients
 
@@ -455,8 +457,8 @@ The following clients are supported for call agents in a call queue:
 - Microsoft Teams iPhone app
 - Microsoft Teams Android app
 
-  > [!NOTE]
-  > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
+> [!NOTE]
+> Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Call Queue Diagnostic Tool
 
