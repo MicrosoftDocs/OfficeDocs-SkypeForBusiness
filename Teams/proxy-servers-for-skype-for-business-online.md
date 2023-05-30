@@ -33,11 +33,11 @@ This article provides guidance about using a proxy server with Teams or Skype fo
 
 High quality, low latency connectivity is key to achieving call quality within Microsoft Teams and Skype for Business.
 
-We recommend that the path between the end users device and Microsoft 365 is as short and direct as possible and utilises local Internet egress that is close to the end user. This enables traffic to quickly reach the closest Microsoft network service front door location.
+We recommend that the path between the end users device and Microsoft 365 is as short and direct as possible and utilizes local Internet egress that is close to the end user. This enables traffic to quickly reach the closest Microsoft network service front door location.
   
 ## Not using a proxy server is recommended
 
-Many organisations utilise proxy servers today within their network. As Microsoft Teams and Skype for Business media traffic is already encrypted, passing this traffic through a proxy server doesn't make the traffic any more secure.
+Many organizations utilize proxy servers today within their network. As Microsoft Teams and Skype for Business media traffic is already encrypted, passing this traffic through a proxy server doesn't make the traffic any more secure.
 
 Proxies can cause issues too. Performance-related problems can be introduced to the environment through latency and packet loss by attempting to route Teams traffic through a proxy server. This can be caused by the proxy being unable to handle the amount of traffic passing through it, or by incorrectly routing the traffic to a Microsoft network service front door location that is further away from the end user.
 
@@ -47,13 +47,13 @@ We recommend that Teams traffic bypasses proxy server infrastructure, including 
 
 ## Windows-Based Teams Devices
 
-Windows-based Teams meeting rooms, and Surface Hubs support some proxy servers, but do not support proxy servers that require authentication.
+Windows-based Teams meeting rooms, and Surface Hubs support some proxy servers, but don't support proxy servers that require authentication.
 
 We recommend that these devices bypass your proxy infrastructure and access Microsoft 365 services via your firewall.
 
 ## Android-Based Teams Devices
 
-Android-based Teams devices, including Teams phones, panels, displays and boards do not support authenticated proxy servers or tenant restrictions. Contact your OEM partner for details on unauthenticated proxy support.
+Android-based Teams devices, including Teams phones, panels, displays and boards don't support authenticated proxy servers or tenant restrictions. Contact your OEM partner for details on unauthenticated proxy support.
 
 We recommend that these devices bypass your proxy infrastructure and access Microsoft 365 services via your firewall.
 
