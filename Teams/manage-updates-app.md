@@ -145,6 +145,10 @@ Each user can create at most 400 Update requests, and each template can collect 
 
 From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
 
+## Power Automate connector
+
+Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Updates app**, and then enter your feedback or details about the issue you're experiencing.

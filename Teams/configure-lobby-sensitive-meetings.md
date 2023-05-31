@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 05/19/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -51,9 +51,9 @@ For information about how to use templates and sensitivity labels to configure m
 The following settings are available for **Who can bypass the lobby**:
 
 - Everyone
-- People in my organization, trusted organizations, and guests
-- People in my organization and guests
-- People in my organization
+- People in my org, trusted orgs, and guests
+- People in my org and guests
+- People in my org
 - People who were invited
 - Only organizers and co-organizers
 
