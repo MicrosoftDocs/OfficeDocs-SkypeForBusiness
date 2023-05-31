@@ -584,6 +584,15 @@ The following table lists the dimensions currently available in CQD, in the orde
 |**Common**||||
 | First ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the first endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
 | Second ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the second endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
+|**Teams Events**||||
+|Teams Events Meeting Role|String|Identifies if the user was an Attendee in a Teams Event||
+|Teams Events Attendee ECDN Name|String|Identifies the Enterprise Content Delivery Network (eCDN) to which the attendee was connected when viewing the event||
+|Teams Events Attendee ECDN Script Load Error|String|Provides the reason and relevant URL for when script load errors are encountered by attendees.||
+|Teams Events Attendee Stream Retry Count|Integer|The number of retries per minute that occurred while an attendee was watching an event stream.||
+|Meeting Type|String|Indicates whether a meeting was a regular Teams meeting or a Teams Live Event.||
+|Teams Events Time To Connect Media|Integer|The amount of time required for playback to begin after signaling has completed.||
+|Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
+|Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
 |**VDI**||||
 |First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
