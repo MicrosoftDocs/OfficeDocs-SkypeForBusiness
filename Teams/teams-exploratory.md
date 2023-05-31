@@ -24,7 +24,7 @@ appliesto:
 # Manage the Microsoft Teams Exploratory license
 
 > [!NOTE]
-> The Microsoft Teams Exploratory experience isn't currently available to tenants on the New Customer Experience (NCE). The Teams Exploratory license will become available to NCE tenants in late April 2023.
+> The Microsoft Teams Exploratory experience isn't currently available to tenants on the New Customer Experience (NCE). The Teams Exploratory license will become available to NCE tenants in late June 2023.
 
 The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
@@ -175,4 +175,5 @@ At the end of the 12 month subscription, administrators should convert all Teams
 > Customers will be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
 
 For more information, see [Upgrade users from Teams Exploratory](#upgrade-users-from-teams-exploratory), above in this article.
+
 
