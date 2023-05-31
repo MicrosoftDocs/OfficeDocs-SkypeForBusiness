@@ -58,6 +58,8 @@ To create a custom meeting template
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
 
+Note that if you change the settings of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
+
 #### Security
 
 |Setting|Description|
