@@ -68,14 +68,21 @@ The following table shows recommended and supported versions of Windows that are
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
-## Delay updating Windows 11 on eligible devices
-Windows 11 22H2 upgrade can be delayed until November 20, 2023 by applying following registry key. 
-Path: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings
-Key: CBU11
-Data: 1 (as a dword)
-If you are ready before November 20,2023, delete the registry key to resume the upgrade.
+## Delay upgrade to Windows 11 on eligible devices
+
+If you need to, you can delay the upgrade of your Teams Rooms device to Windows 11 22H2 until November 20, 2023. 
+
+To delay the upgrade, you need to set the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings\CBU11` value to `1 (DWORD)`. We recommend setting the `CBU11` value using group policy, Intune, or remote PowerShell. Alternately, you can complete the steps below on each Teams Rooms device.
+
 > [!IMPORTANT]
-> To avail this option to temporary delay Windows 11 upgrade on eligible devices, the registry key must be applied before June 20,2023.
+> If you want to temporarily delay the Windows 11 upgrade on eligible devices, you need to set the `CBU11` value before June 20, 2023.
+
+1. Switch to admin mode on your Teams Rooms device.
+2. In admin mode, open Registry Editor.
+3. Go to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings` registry key. If it doesn't exist, create it.
+4. Create the value `CBU11` and set it to `1 (DWORD)`.
+
+Once the `CBU11` value is set, the device won't be upgraded to Windows 11 until November 20, 2023. If you're ready before November 20, 2023, delete the registry key to resume the upgrade.
 
 ## Related topics
 
