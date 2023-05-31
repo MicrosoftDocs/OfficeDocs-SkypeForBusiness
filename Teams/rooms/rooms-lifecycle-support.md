@@ -60,7 +60,7 @@ The following table shows recommended and supported versions of Windows that are
 | 1709    | 2018-01-18        | Not supported                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. However, take note of the [Windows 10 IoT Enterprise end of support date](/lifecycle/products/windows-10-iot-enterprise).
+&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. However, take note of the [Windows 10 IoT Enterprise end of support date](/lifecycle/products/windows-10-iot-enterprise).  
 
 &#x2781; Windows 10 version 2004 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot.
 
@@ -68,6 +68,14 @@ The following table shows recommended and supported versions of Windows that are
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
+## Delay updating Windows 11 on eligible devices
+Windows 11 22H2 upgrade can be delayed until November 20, 2023 by applying following registry key. 
+Path: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings
+Key: CBU11
+Data: 1 (as a dword)
+If you are ready before November 20,2023, delete the registry key to resume the upgrade.
+> [!IMPORTANT]
+> To avail this option to temporary delay Windows 11 upgrade on eligible devices, the registry key must be applied before June 20,2023.
 
 ## Related topics
 
