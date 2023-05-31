@@ -98,7 +98,7 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 #### Annotation
 
-When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
+When whiteboard is enabled, your users will have the option to use annotation, a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
 
 ## Shared notes
 
