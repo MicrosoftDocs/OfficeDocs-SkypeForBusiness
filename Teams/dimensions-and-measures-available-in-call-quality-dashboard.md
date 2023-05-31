@@ -813,6 +813,11 @@ Many Measurement values can also be used as filters. The following table lists t
 |PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures) / Total Attempt Calls x 100. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg Auto Attendant Chain Duration Seconds | Integer | The average duration that users spend in the Auto Attendant, measured in seconds. |
 | Avg Call Queue Duration Seconds | Integer | The average duration that users are waiting for a Call Queue to be answered by an agent, measured in seconds. |
+|Total Teams Events Stream Count|Integer|The total number of Teams Events streams.|
+|Teams Events ECDN Error Stream Count|Integer|The total number of Teams Events streams that failed to establish due to eCDN errors.|
+|Teams Events Setup Failure Stream Count|Integer|The number or Teams Events streams that failed to establish during media setup.|
+|Teams Events Setup Succeeded Stream Count|Integer|The number or Teams Events streams that successfully established.|
+|Teams Events Stream Setup Failure Percentage|Percentage|The percentage of Teams Events steams that failed to establish during media setup.|
 | Detected Inbound Network Problem True Count | Integer | Number of instances that there was high confidence that a First-to-Second media stream may have been impacted due to the inbound network. |
 | Detected Inbound Network Problem False Count | Integer | Number of instances that there wasn't high confidence that a First-to-Second media stream may have been impacted due to the inbound network. |
 | Detected Inbound Network Problem Null Count | Integer | Number of instances that the Detected Inbound Network Problem model returned a null value. See Detected Inbound Network Problem dimension for explanation. |
