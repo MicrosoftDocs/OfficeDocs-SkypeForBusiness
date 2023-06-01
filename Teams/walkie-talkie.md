@@ -59,6 +59,17 @@ Control which users in your organization can use Walkie Talkie by assigning perm
 
 ### Step 3: Use an app setup policy to pin Walkie Talkie for your users
 
+#### E licenses: Use an app setup policy to pin Walkie Talkie to Teams
+
+>[!IMPORTANT]
+>[Step 3 is required for your users to be able to access Walkie Talkie]
+
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+
+To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
+
 #### F licenses: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
@@ -66,14 +77,6 @@ The tailored frontline app experience in Teams pins the most relevant apps in Te
 The apps are pinned to the app tray at the bottom of Teams mobile clients where users can quickly and easily access them.
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
-
-#### E licenses: Use an app setup policy to pin Walkie Talkie to Teams
-
-App setup policies let you customize Teams to pin apps that are most important for your users in your users.
-
-To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
-
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ## Network documentation
 
