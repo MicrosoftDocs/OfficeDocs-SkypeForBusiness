@@ -65,9 +65,9 @@ This section explains how you can set up and plan for recording Teams meetings v
 
 ### Meeting recording
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user’s meetings can be recorded. Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting.
+You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether user’s meetings can be recorded. Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting.
 
-In the Microsoft Teams admin center, turn on or turn off the **Meeting recording** setting under **Meetings** > **Meeting policies**. This setting is turned on by default.
+In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), turn on or turn off the **Meeting recording** setting under **Meetings** > **Meeting policies**. This setting is turned on by default.
 
 With PowerShell, you configure the `-AllowCloudRecording` setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -102,7 +102,7 @@ People outside your organization, such as federated and anonymous users, can't s
 
 This setting provides you with a simple tool that reduces the amount of storage older recordings use. The OneDrive and SharePoint system will monitor the expiration set on all meeting recordings and will automatically move recordings to the recycle bin on their expiration date.
 
-You can turn off the **Meetings automatically expire** setting in the Teams admin center, under **Meetings** > **Meeting policies** > **Recording & transcription**.
+You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 #### Default expiration time
 
