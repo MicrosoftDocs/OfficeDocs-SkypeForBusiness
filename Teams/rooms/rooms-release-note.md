@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
-ms.date: 04/20/2023
+ms.date: 05/08/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
-  - Tier2
+  - Tier3
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -26,7 +26,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms on Windo
 
 There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web client.
 
-For information about Teams Rooms app updates, see [Teams Rooms on Windows](/microsoftteams/rooms/rooms-release-note?tabs=Windows) or [Teams Rooms on Android](/microsoftteams/rooms/rooms-release-note?tabs=Android).
+For information about Teams Rooms app updates, select the **Teams Rooms on Windows** or **Teams Rooms on Android** tabs.
 
 Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 
@@ -52,6 +52,17 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
+### 4.16.134.0 (5/8/2023) - Manual update only
+
+Introduced in this update:
+
+- Windows 11 support
+- Windows 10 22H2 support for Windows 11 ineligible devices
+
+> [!IMPORTANT]
+> Use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
+
+
 ### 4.16.40.0 (3/24/2023)
 
 Introduced in this update:
@@ -60,6 +71,7 @@ Introduced in this update:
 - Enhanced View Switcher <sup>1</sup>
 - Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface
+- Support for joining Blue Jeans meetings. To learn more, visit [Enable Teams Rooms devices to join third-party meetings](third-party-join.md)
 
  <sup>1</sup> Functionality in the layout switcher is contingent upon the type of Teams Rooms license. For more information, see [A new look for Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/a-new-look-for-microsoft-teams-rooms-on-windows/ba-p/3726040).
 
@@ -140,7 +152,7 @@ Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
-- IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
+- IT admin can override download folder cleanup on the device through registry key setting<sup>4</sup>
 - Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
 - Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
@@ -246,7 +258,7 @@ Introduced in this update:
 - Windows 10 20H2 support
 
 > [!NOTE]
-> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows release support](./rooms-lifecycle-support.md#windows-release-support).
 
 ### 4.8.25.0 (04/22/2021)
 
@@ -323,7 +335,7 @@ Introduced in this update:
 - Search and call federated users (tenant) from Teams Room
 
 > [!IMPORTANT]
-> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+> Version 4.5 is last release to support Windows 10 version 1803; future releases will not be offered to systems on Windows 10 version 1803. For more information about Windows version support, see [Windows release support](./rooms-lifecycle-support.md#windows-release-support).
 
 ### 4.4.63.0 (06/25/2020)
 
@@ -616,6 +628,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
+|[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
 |[1449/1.0.96.2023031201](#144910962023031201-march-2023)     | March 2023        |
 |[1449/1.0.96.2022120503](#144910962022120503-december-2022)     | December 2022        |
 |[1449/1.0.96.2022090606](#144910962022090606-september-2022)     | September 2022        |
@@ -627,12 +641,24 @@ Introduced in this update:
 
 ## Teams Rooms on Android feature introduction and issue resolution
 
-### 1449/1.0.96.2023031201 (March 2023)
+> [!NOTE]
+> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+
+### 1449/1.0.96.2023050203 (May 2023)
 
 Introduced in this update:
 
-> [!NOTE]
-> There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+- Quality and reliability fixes
+
+### 1449/1.0.96.2023041207 (April 2023)
+
+Introduced in this update:
+
+- Performance improvements and bug fixes related to volume controls, meeting join latency, chat loading, and layout switching
+
+### 1449/1.0.96.2023031201 (March 2023)
+
+Introduced in this update:
 
 - Join Teams meeting with ID - available in all Microsoft Teams Rooms licenses
 - Single tap ad hoc meetings - available in all Microsoft Teams Rooms licenses
