@@ -62,7 +62,7 @@ Control which users in your organization can use Walkie Talkie by assigning perm
 #### E licenses: Use an app setup policy to pin Walkie Talkie to Teams
 
 >[!IMPORTANT]
->[Step 3 is required for your users to be able to access Walkie Talkie]
+>Step 3 is required for your users to be able to access Walkie Talkie
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
