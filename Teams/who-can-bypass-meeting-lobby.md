@@ -48,7 +48,7 @@ The following table shows the Teams meeting policies that affect how meeting par
 
 |Setting|Description|
 |:------|:----------|
-|**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless meetings. This setting controls whether anonymous participants and dial-in users can join the meeting without a validated participant in attendance. This setting only applies when **Who can bypass the lobby** is set to **Everyone**. If the **Anonymous users can join a meeting** organization-level setting or meeting policy is **Off**, this setting only applies to dial-in callers. By default, this setting is turned off to prevent potential abuse of your meeting links by anonymous users. <br><br> While **Off**, anonymous participants and dial-in users wait in the lobby until a validated participant (including a dial-in organizer) joins the meeting, at which point they are automatically admitted. Once the meeting has started, anonymous participants and dial-in users join the call automatically, even if the organizer leaves. <br><br> If this setting is **On**, anonymous and dial-in participants can start and join the meeting without a validated participant present.|
+|**Anonymous users and dial-in callers can start a meeting**|This is a per-organizer policy that allows for leaderless meetings. This setting controls whether anonymous participants and dial-in users can join the meeting without a validated participant in attendance. This setting only applies when **Who can bypass the lobby** is set to **Everyone**. If the **Anonymous users can join a meeting** organization-level setting or meeting policy is **Off**, this setting only applies to dial-in callers. By default, this setting is turned off to prevent potential abuse of your meeting links by anonymous users. <br><br> While **Off**, anonymous participants and dial-in users wait in the lobby until a validated participant (including a dial-in organizer) joins the meeting, at which point they're automatically admitted. Once the meeting has started, anonymous participants and dial-in users join the call automatically, even if the organizer leaves. <br><br> If this setting is **On**, anonymous and dial-in participants can start and join the meeting without a validated participant present.|
 |**People dialing in can bypass the lobby**|This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby. When this setting is **Off**, dial-in users wait in the lobby until an organizer, co-organizer, or presenter joins the meeting and admits them. When this setting is **On**, dial-in users automatically join the meeting without going through the lobby. (If **Anonymous users and dial-in callers can start a meeting** is **Off**, they wait in the lobby until the meeting starts.)|
 |**Who can bypass the lobby**|This is a per-organizer policy. This setting controls which types of participants (except those dialing in by phone) join a meeting directly and which types of participants wait in the lobby until they're admitted by an organizer, co-organizer, or presenter.|
 
@@ -95,11 +95,11 @@ To set the organization-wide meeting setting for anonymous meeting join
 
 ## Control access to meetings by anonymous participants
 
-Anonymous participants are anonymous because they are not logged in to an account that can be validated. This could include:
+Anonymous participants are anonymous because they're not logged in to an account that can be validated. This could include:
 
-- People who are not logged in to Microsoft 365 with a work or school account 
+- People who aren't logged in to Microsoft 365 with a work or school account 
 - People from non-trusted organizations (as configured in [external access](manage-external-access.md)).
-- People from organizations that you trust but which do not trust your organization
+- People from organizations that you trust but which don't trust your organization
 
 If you want to prevent anonymous participants from joining meetings completely, you can turn off the **Anonymous users can join a meeting** organization-wide meeting setting. You can also disable anonymous join for specific meeting organizers by keeping the org-wide setting enabled and using the **Anonymous users can join a meeting** meeting policy.
 
@@ -133,7 +133,7 @@ Note that meeting organizers can disable forwarding the meeting invite if they o
 
 ## Control access to meetings by non-organizers
 
-If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all participants wait in the lobby until they are admitted by a meeting organizer or co-organizers. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
+If you have meetings where sensitive information is shared or that are subject to regulatory requirements, you might want to have all participants wait in the lobby until they're admitted by a meeting organizer or co-organizers. In this case, you can set **Who can bypass the lobby** to **Only organizers and co-organizers**.
 
 Since **Who can bypass the lobby** only sets a default that meeting organizers can change, consider enforcing the value with a sensitivity label or meeting template if you have compliance requirements in this area. For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
@@ -156,7 +156,7 @@ You can set the meeting policies described in this article by using the [Set-CsT
 
 ## Run the lobby diagnostic tool
 
-If a user recently had an undesired lobby experience in a meeting hosted by your organization, you can use the lobby diagnostic tool to investigate the expected lobby experience. This tool explains the expected lobby experience for a specific user in a specific meeting and provide guidance to make policy changes if the current experience is not aligned with your configuration. Make sure you're signed into Microsoft 365 as a Teams administrator to access the tool.
+If a user recently had an undesired lobby experience in a meeting hosted by your organization, you can use the lobby diagnostic tool to investigate the expected lobby experience. This tool explains the expected lobby experience for a specific user in a specific meeting and provides guidance to make policy changes if the current experience isn't aligned with your configuration. Make sure you're signed into Microsoft 365 as a Teams administrator to access the tool.
 
 > [!div class="nextstepaction"]
 > [Run Tests: Lobby Access](https://admin.microsoft.com/AdminPortal/?searchSolutions=Diag:%20Bypass%20Lobby#/homepage)
