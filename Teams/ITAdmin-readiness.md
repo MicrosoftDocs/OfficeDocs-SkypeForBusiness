@@ -56,6 +56,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
+| SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
 | Teams Devices Deployment playbook | | [Deck](https://aka.ms/teams-devices-deployment-playbook) |
 | Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
