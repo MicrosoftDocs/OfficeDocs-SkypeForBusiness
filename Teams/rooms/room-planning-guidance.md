@@ -10,7 +10,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.reviewer: 
-description: A lookbook and guide for meeting room optimization with Teams Room solutions and devices.
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
   - M365-voice
   - M365-collaboration
