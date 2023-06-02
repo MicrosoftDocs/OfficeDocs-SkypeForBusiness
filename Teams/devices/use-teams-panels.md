@@ -232,7 +232,7 @@ Teams panels that are paired with Teams Rooms on Android can display a warning m
 
 Room capacity warnings are disabled by default, but they can be enabled per device. To enable the feature, do the following:
 
-1. Follow the steps in [Pair a Teams panel with Microsoft Teams Rooms on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Rooms device must be signed into the same resource account.
+1. Follow the steps in [Pair a Teams panel with Microsoft Teams Rooms on Android](#pair-a-teams-panel-with-microsoft-teams-rooms-on-android). The panel and the Teams Rooms device must be signed into the same resource account.
 2. Go to **Settings > Device settings > Teams admin settings > Meetings** and turn on **Max room occupancy notification**.
 
 #### Enable or disable viewing of room equipment
