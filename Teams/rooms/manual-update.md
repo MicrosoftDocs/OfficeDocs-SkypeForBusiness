@@ -7,14 +7,17 @@ audience: ITPro
 appliesto: 
   - Microsoft Teams
 ms.reviewer: sohailta
+ms.date: 12/17/2020
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn how to manually update your Microsoft Teams Rooms device to a specific version.
 ---
 
@@ -70,4 +73,4 @@ You can also run the script by using Remote PowerShell. For more information abo
 
 If the script runs successfully, the device will reboot into the Teams Rooms app.
 
-If the script encounters a problem, it will indicate what the problem is on the command line and record its output to a file. Follow any instructions that the script provides. If you need to contact Microsoft Support, make sure to include the log file along with the support request. The script will provide you with the path to the log file.
+If the script encounters a problem, it will indicate what the problem is on the command line and record its output to a file. Follow any instructions that the script provides. If you need to contact Microsoft Support, make sure to include the log file along with the support request. The log file can be found in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\Tracing\MTR-Update`.

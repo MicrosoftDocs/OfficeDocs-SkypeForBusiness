@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+ms.date: 07/16/2018
 audience: admin
 description: Guidance for IT pros to drive Microsoft 365 deployments in entities that handle data subject to US government regulation
 ms.localizationpriority: medium
@@ -25,18 +26,6 @@ appliesto:
 # Plan for Microsoft 365 Government - GCC deployments
 
 This guidance is for IT pros who are driving deployments of Microsoft 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements. New March 26, 2020: Don't miss our downloadable [Quick Start guide for GCC](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
-
-> [!IMPORTANT]
-> Microsoft Teams is experiencing a tremendous spike in online calls and audio/video conferencing due to the coronavirus (COVID-19) pandemic.<br/>
-> 
->In response to the unprecedented increase in calls, and to ensure continuity and availability, Microsoft is allowing Microsoft Teams GCC audio/video servers to leverage processing capacity in our commercial datacenters, as well as in our government datacenters.<br/>
-> 
->These audio/video servers reside within the Microsoft Azure FedRAMP High accreditation boundary servers in the United States and do not store any customer content. However, these servers are processing audio and video for calls and conferences and are operating under our commercial staff during this interim period.<br/>
-> 
->Qualified, screened personnel are monitoring these servers for potential access to customer data by reviewing any interactive log-ons to these servers. Qualified personnel meet GCC requirements for access to customer content. For details about screening requirements, see the [GCC service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
-> 
->Thank you for your support as we take steps to ensure that our services remain available and reliable in these extraordinary times.<br/>
-
 
 > [!NOTE]
 > If your organization has already met the Microsoft 365 Government - GCC eligibility requirements and applied for and been accepted into the program, you can skip steps 1 and 2 and go directly to step 3. 

@@ -1,12 +1,13 @@
 ---
 title: Microsoft Teams Devices Monitoring and Alerting
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vapati
+ms.date: 03/15/2021
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH

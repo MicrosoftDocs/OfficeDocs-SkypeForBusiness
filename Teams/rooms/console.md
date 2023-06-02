@@ -3,16 +3,19 @@ title: Build a Microsoft Teams Rooms image
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: This article describes how to set up and configure the Microsoft Teams Rooms console and its peripherals.
@@ -22,16 +25,38 @@ description: This article describes how to set up and configure the Microsoft Te
 
 This article describes how to build a Microsoft Teams Rooms image for mass deployment of Teams Rooms.
 
+> [!IMPORTANT]
+> The information in this article is intended for test environments or for organizations that have very specific and uncommon deployment blockers that prevent the usage of [certified Teams Rooms systems](certified-hardware.md). Before following the information in this article, we strongly recommend that you discuss your specific Teams Rooms deployment with your Microsoft representative.
+
 > [!NOTE]
 > The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
-You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
+You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). This topic contains the following sections:
   
+- [Supported hardware](console.md#supported-hardware)
 - [Prepare the installation media](console.md#Prep_Media)
 - [Install a private CA certificate on the console](console.md#Certs)
-- [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
+- [Install Windows and the Microsoft Teams Rooms console app](console.md#Reimage)
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
+
+## Supported hardware
+
+|Tablet|Processor|RAM|Disk|
+|:-----|:-----|:-----|:-----|
+|Surface Pro 6| Core i5 |16 GB or 8 GB |128 GB or more |
+|Surface Pro </br>(fifth Gen) |Core i5 |8 GB or 4 GB |128 GB or more |
+|Surface Pro 4 |Core i5 |8 GB or 4 GB |128 GB or more |
+
+> [!NOTE]
+> - Core M3 processors aren't supported.
+> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows Enterprise.
+
+Surface Pro devices require one of the following docking station options:
+
+- [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+- [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+- [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -45,30 +70,29 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 > The process below is for creating installation media to image new Microsoft Teams Rooms devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
 
 > [!IMPORTANT]
-> The Windows 10 machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
+> The Windows machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
-2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows machine.
 3. Follow the script's instructions to create a Microsoft Teams Rooms USB setup disk.
 
 
 > [!TIP]
 > Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. 
 
-The CreateSrsMedia.ps1 script automates the following tasks:
+The CreateSrsMedia.ps1 script performs the following tasks:
 
 1. Download the latest MSI installer for Microsoft Teams Rooms.
-2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Microsoft Teams Rooms devices.
+2. If the script rejects the ISO you supply, it will provide a detailed description of the ISO you must download from VLSC.
 3. Download necessary supporting components.
 4. Assemble the needed components on the installation media.
 
 > [!NOTE]
-A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+A specific version of Windows is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
-When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
+When finished, remove the USB disk from your computer and proceed to [Install Windows and the Microsoft Teams Rooms console app](console.md#Reimage).
 
-    
-## Install Windows 10 and the Microsoft Teams Rooms console app
+## Install Windows and the Microsoft Teams Rooms console app
 <a name="Reimage"> </a>
 
 You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
@@ -166,7 +190,7 @@ After Windows is installed, the Microsoft Teams Rooms app will go into its initi
 The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check. For more information about supported hardware, see [Microsoft Teams Rooms requirements](requirements.md).
+> Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check. For more information about supported hardware, see [Supported hardware](console.md#supported-hardware).
   
 > [!NOTE]
 > Some non-English language users may need a physical keyboard connected to the console during initial setup in the event that symbols are not supported on the touch keyboard.

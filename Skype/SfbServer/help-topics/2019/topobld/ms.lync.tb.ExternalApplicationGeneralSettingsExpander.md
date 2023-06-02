@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "External Application General Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
@@ -40,4 +41,5 @@ You can specify the trusted application server pool's next hop server by selecti
 
 Click **OK** to accept and save your changes. Click **Cancel** to discard your changes and exit the properties page.
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure the meeting join page"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: End User
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -43,5 +44,6 @@ You can modify the behavior of the meeting join page if you want to allow users 
    ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
+
 
 

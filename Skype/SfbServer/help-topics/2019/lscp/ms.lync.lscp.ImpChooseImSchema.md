@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Hyperlink Prefix"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -27,4 +28,5 @@ After you have added all of the hyperlink prefixes that you want to the **Select
   
  
   
+
 

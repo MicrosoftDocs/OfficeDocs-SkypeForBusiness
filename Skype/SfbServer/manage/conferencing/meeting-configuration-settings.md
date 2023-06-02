@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage meeting configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -58,3 +59,4 @@ To manage meetings by using Skype for Business Server Management Shell, use the 
 |[New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Creates a new collection of meeting configuration settings at the site or service scope.  <br/> |
 |[Remove-CsMeetingConfiguration](/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Deletes an existing collection of meeting configuration settings.  <br/> |
 |[Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifies the meeting configuration settings currently in use in your organization.  <br/> |
+

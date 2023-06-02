@@ -5,12 +5,14 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -145,8 +147,11 @@ The table below summarizes the difference between Media Processors and Transport
 |Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
 
 The IP ranges are:
-- 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
-- 52.120.0.0/14 (IP addresses from 52.120.0.1 to 52.123.255.254)
+- 52.112.0.0/14 (IP addresses from 52.112.0.0 to 52.115.255.255)
+- 52.120.0.0/14 (IP addresses from 52.120.0.0 to 52.123.255.255)
+
+> [!NOTE]
+> IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.
 
 \* Transcoding explanation: 
 
@@ -281,20 +286,20 @@ The port range of the Teams Transport Relays (applicable to all environments) is
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
-| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478-3481     |
+| UDP/SRTP | Transport Relay | SBC | 50000-59999    | Defined on the SBC |
+| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50000–59999, 3478-3481     |
 
 
 > [!NOTE]
 > Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:
 > 
-> - v4, which can only work with port range 50 000 to 59 999
+> - v4, which can only work with port range 50000 to 59999
 > 
-> - v6, which works with ports 3478-3481
+> - v6, which works with port range 3478 to 3481
 
 At this time, media bypass only supports v4 version of Transport Relays. We will introduce support of v6 in the future. 
 
-You need to open ports 3478-3481 for transitioning. When Microsoft introduces support for v6 Transport Relays with Media Bypass, you will not need to reconfigure your network equipment or SBCs. 
+You need to open port range 3478 to 3481 for transitioning. When Microsoft introduces support for v6 Transport Relays with Media Bypass, you will not need to reconfigure your network equipment or SBCs. 
 
 ### Requirements for using media processors
 
@@ -319,8 +324,8 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
-| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478-3481 and 49 152 – 53 247     |
+| UDP/SRTP | Media Processor | SBC | 3478-3481 and 49152–53247    | Defined on the SBC |
+| UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478-3481 and 49152–53247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
 

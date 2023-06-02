@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: fafan
+ms.date: 08/04/2020
 audience: admin
 description: Learn about Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada.
 ms.localizationpriority: medium

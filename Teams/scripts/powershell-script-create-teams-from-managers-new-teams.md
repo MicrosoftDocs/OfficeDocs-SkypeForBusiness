@@ -5,6 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
+ms.date: 03/17/2020
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script to create a team for each manager with their direct reports as team members.

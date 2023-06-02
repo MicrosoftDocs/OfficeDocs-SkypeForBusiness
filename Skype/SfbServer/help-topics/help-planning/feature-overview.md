@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: "Information about the Skype for Business Server Feature Overview planning tool."

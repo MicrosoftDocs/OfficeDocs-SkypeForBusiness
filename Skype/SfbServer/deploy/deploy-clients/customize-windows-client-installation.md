@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Customize Windows client installation in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -33,4 +34,5 @@ Enterprise administrators can customize the Windows Installer-based (.msi) insta
     
 There will probably be other options you'll want to configure as you deploy the Office suite of products. The topics in this section give an overview of these customization tools and discuss considerations specific to Skype for Business. Included are links to detailed Office help for each tool. 
   
+
 

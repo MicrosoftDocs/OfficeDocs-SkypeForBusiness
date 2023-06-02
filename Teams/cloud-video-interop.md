@@ -1,13 +1,14 @@
 ---
 title: Cloud Video Interop for Microsoft Teams
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: naforer
+ms.date: 09/21/2018
 f1.keywords:
 - NOCSH
 description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
@@ -15,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020

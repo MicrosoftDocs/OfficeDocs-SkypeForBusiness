@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Office Communications Server Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW

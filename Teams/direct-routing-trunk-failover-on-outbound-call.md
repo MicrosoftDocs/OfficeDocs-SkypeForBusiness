@@ -5,12 +5,14 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
+ms.date: 12/04/2018
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -52,4 +54,3 @@ If you configure the parameter `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.c
 Setting the parameter -FailoverResponseCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC can't make a call due to network or other issues.
 
 Default values:  408, 503, 504
-

@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 01/17/2022
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business

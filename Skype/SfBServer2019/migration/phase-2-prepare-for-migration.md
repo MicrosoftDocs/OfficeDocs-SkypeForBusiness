@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 2 Prepare for migration"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -30,4 +31,5 @@ Before you begin your migration to Skype for Business Server 2019, follow the st
     
 - [Verify the legacy environment](verify-environment.md)
     
+
 

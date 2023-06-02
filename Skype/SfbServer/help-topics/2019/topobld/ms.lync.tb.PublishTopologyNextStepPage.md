@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Publish Topology Next Step"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyNextStepPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW

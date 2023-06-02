@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define the user experience for manually acquiring a location in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,4 +36,5 @@ When a user manually enters a location, the location is mapped to the MAC addres
 > [!NOTE]
 > You can modify only the current location of your client, but you can also delete any location stored in the local user's table. 
   
+
 

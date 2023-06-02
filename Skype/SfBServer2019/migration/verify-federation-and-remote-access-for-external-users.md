@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify federation and remote access for external users"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -29,4 +30,5 @@ After transitioning the federation route to the Skype for Business Server 2019 E
     
 - A user hosted on Skype for Business Server 2019 using remote user access (logging in to Skype for Business Server 2019 from outside the intranet but without VPN) with a user on Skype for Business Server 2019, and a user on the legacy install. Test IM, presence, A/V, and desktop sharing.
     
+
 

@@ -10,10 +10,12 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
+ms.date: 12/14/2018
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
@@ -95,8 +97,8 @@ Here's an example of how to use a script to assign licenses to your users.
     foreach ($user in $users)
         {
         Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
         }
     ```
 

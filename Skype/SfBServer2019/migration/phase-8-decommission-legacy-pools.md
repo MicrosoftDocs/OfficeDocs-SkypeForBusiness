@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 8 Decommission legacy pools"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -38,3 +39,4 @@ For a dated but exhaustive article on removing servers and server roles, and a s
 > [Remove the Enterprise Edition Front End Server or Standard Edition Front End Server](remove-the-front-end-server.md)
 > 
 > [Remove SQL Server instances and databases on the Back End Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+

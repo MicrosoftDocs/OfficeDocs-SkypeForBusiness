@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Archiving Configuration"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.MonArchSettingMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -64,4 +65,5 @@ The **Archiving Configuration** page lists each Archiving policy that is configu
 - **Refresh** You can refresh the **Archiving Configuration** page to verify the status of the options of all Archiving configurations.
     
 For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+
 

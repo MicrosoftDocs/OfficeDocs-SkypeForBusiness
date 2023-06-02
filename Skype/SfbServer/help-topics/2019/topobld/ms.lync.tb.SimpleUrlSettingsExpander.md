@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Simple URL Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW

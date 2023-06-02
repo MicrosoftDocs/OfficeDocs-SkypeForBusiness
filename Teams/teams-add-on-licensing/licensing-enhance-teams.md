@@ -3,7 +3,8 @@ title: Microsoft Teams Premium licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: 
+ms.reviewer: jogruszc
+ms.date: 03/13/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -11,19 +12,19 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
   - Licensing
+  - admindeeplinkTEAMS
+  - admindeeplinkMAC
 description: Learn how to enhance your Microsoft Teams experience with the Microsoft Teams Premium add-on license
 ---
 
 # Microsoft Teams Premium licensing
-
-> [!NOTE]
-> Teams Premium is currently available as a preview release, allowing organizations to experience and plan for the generally available release of Teams Premium. Not all Teams Premium features are available in this preview release, but more features will be released throughout the preview period. To experience Teams Premium preview features, see [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
@@ -35,11 +36,13 @@ Microsoft Teams Premium is a Teams add-on license that allows organizations with
 This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article will provide answers to questions like:
 
 - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
-- [Are there current Teams features that will move to Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
+- [Are there previous Teams features that moved to Teams Premium?](#are-there-previous-teams-features-that-moved-to-teams-premium)
 - [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
+- [Which users should be assigned Teams Premium licenses?](#which-users-should-be-assigned-teams-premium-licenses)
 - [How does Teams Premium differ from Teams Rooms Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Can I experience Teams Premium before buying licenses?](#can-i-experience-teams-premium-before-buying-licenses)
 - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
+- [Is admin configuration required after assigning users licenses?](#is-admin-configuration-required-after-assigning-users-licenses)
 
 To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which will also include links to end-user documentation as it becomes available.
 
@@ -53,124 +56,133 @@ The following table compares key features between Teams and Teams Premium.
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Host and attend Teams Meetings | x | x |
-| Experience Teams’ standard look and feel | x | x |
-| Use standard and custom meeting backgrounds at the user level| x | x |
-| Read live captions during meetings | x | x |
-| Customize meeting templates for your organization |  | x |
-| Add organization branding to meeting lobbies |  | x |
-| Customize meeting backgrounds for your organization | | x |
-| Customize Together mode scenes for your organization |  | x |
-| Read live translated captions during meetings |  | x |
-| Translate post-meeting transcriptions (*coming soon*) |  | x |
-| Turn on real-time data storage |  | x |
-| Turn on eCDN for Live Events |  | x |
+| Host and attend Teams Meetings | ✔️ |  |
+| Experience Teams’ standard look and feel | ✔️ |  |
+| Use standard and custom meeting backgrounds at the user level| ✔️ |  |
+| Read live captions during meetings and live events | ✔️ |  |
+| Customize meeting templates for your organization |  | ✔️ |
+| Add organization branding to meeting lobbies |  | ✔️ |
+| Customize meeting backgrounds for your organization | | ✔️ |
+| Customize Together mode scenes for your organization |  | ✔️ |
+| Read live translated captions during meetings |  | ✔️ |
+| Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
+| Turn on eCDN for Live Events\* |  | ✔️ |
+
+\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Webinars
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Require attendees to register | x | x |
-| Assign a co-organizer | x | x |
-| Limit the number of people who can register | x | x |
-| Turn on Q&A for webinars with up to 1000 attendees | x | x |
-| View attendance reports | x | x |
-| Integrate with Dynamics 365 | x | x |
-| Set up a green room for webinar presenters |  | x |
-| Manage attendees’ view |  | x |
-| Send reminder emails to registrants |  | x |
-| Create a webinar wait list |  | x |
-| Manually approve registrants |  | x |
-| Limit the day and time when people can register |  | x |
-| Allow registered users to bypass the lobby |  | x |
-| Use RTMP-In for Webinars (*coming soon*) |  | x |
+| Require attendees to register | ✔️ |  |
+| Assign a co-organizer | ✔️ |  |
+| Limit the number of people who can register | ✔️ |  |
+| Allow registered users to bypass the lobby | ✔️ |  |
+| Turn on Q&A for webinars with up to 1000 attendees | ✔️ |  |
+| View attendance reports | ✔️ |  |
+| Set up a green room for webinar presenters |  | ✔️ |
+| Manage attendees’ view |  | ✔️ |
+| Send reminder emails to registrants |  | ✔️ |
+| Create a webinar wait list |  | ✔️ |
+| Manually approve registrants |  | ✔️ |
+| Limit the day and time when people can register |  | ✔️ |
+| Use RTMP-In for Webinars |  | ✔️ |
 
 ### Meetings protection
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Manage meeting lobbies | x | x |
-| End-to-end encryption for one-to-one calls | x | x |
-| Moderate meeting chats | x | x |
-| Control who can present | x | x |
-| Add watermarks to meetings |  | x |
-| End-to-end encryption for meetings with up to 50 attendees |  | x |
-| Control who can record |  | x |
-| Prevent copy/paste in meeting chats |  | x |
-| Assign Microsoft Purview Information Protection sensitivity labels for meetings\*  |  | x |
-| Custom user policy packages |  | x |
-| Turn on advanced meeting monitoring and alerting |  | x |
+| Manage meeting lobbies | ✔️ |  |
+| End-to-end encryption for one-to-one calls | ✔️ |  |
+| Moderate meeting chats | ✔️ |  |
+| Control who can present | ✔️ |  |
+| Add watermarks to meetings |  | ✔️ |
+| End-to-end encryption for meetings with up to 50 attendees |  | ✔️ |
+| Control who can record |  | ✔️ |
+| Prevent copy/paste in meeting chats |  | ✔️ |
+| Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ✔️ |
+| Custom user policy packages |  | ✔️ |
 
-\* *This feature is only available to Teams Premium users with a Microsoft 365 E5 subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
+\* *This feature is only available to Teams Premium users with a Microsoft 365 E5, E5 Compliance, F5 Compliance, or F5 Security + Compliance subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
 ### Meetings reporting
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| View recordings of meetings | x | x |
-| View meeting transcripts | x | x |
-| View and use files added to meetings | x | x |
-| View and use apps added to meetings | x | x |
-| Navigate meeting recordings with autogenerated chapters (*coming soon*) |  | x |
-| View time markers in meeting recordings when you joined or left a meeting (*coming soon*) |  | x |
-| Search meeting transcripts with speaker suggestions (*coming soon*) |  | x |
-| View and act on autogenerated tasks from meetings (*coming soon*) |  | x |
-| View when you were @mentioned |  | x |
+| View recordings of meetings | ✔️ |  |
+| View meeting transcripts | ✔️ |  |
+| View and use files added to meetings | ✔️ |  |
+| View and use apps added to meetings | ✔️ |  |
+| Navigate meeting recordings with autogenerated chapters (*coming soon*) |  | ✔️ |
+| Navigate meeting recordings with PPT live chapters |  | ✔️ |
+| View time markers in meeting recordings when you joined or left a meeting |  | ✔️ |
+| Search meeting transcripts with speaker suggestions (*coming soon*) |  | ✔️ |
+| View and act on autogenerated tasks from meetings (*coming soon*) |  | ✔️ |
+| View when you were @mentioned (*coming soon*) |  | ✔️ |
 
 ### Virtual Appointments
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | x | x |
-| Integrate Virtual Appointments using APIs | x | x |
-| Join appointments from a browser | x | x |
-| Join appointments in Teams | x | x |
-| Allow users to join a virtual lobby waiting room | x | x |
-| Integrate with Microsoft Forms | x | x |
-| Customize the lobby waiting room with themes and logos |  | x |
-| Send SMS notifications |  | x |
-| Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | x |
-| Organizational and departmental analytics |  | x |
-| View and manage scheduled appointments in the queue |  | x |
-| View and manage on-demand appointments in the queue |  | x |
-| Send post-appointment follow-ups (*coming soon*) |  | x |
+| Access Virtual Appointments with the Bookings app for scheduling, appointment management, and email notifications | ✔️ |  |
+| Integrate Virtual Appointments using APIs | ✔️ |  |
+| Join appointments from a browser | ✔️ |  |
+| Join appointments in Teams | ✔️ |  |
+| Allow users to join a virtual lobby waiting room | ✔️ |  |
+| Integrate with Microsoft Forms | ✔️ |  |
+| Customize the lobby waiting room with themes and logos |  | ✔️ |
+| Send SMS notifications\* |  | ✔️ |
+| Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | ✔️ |
+| Organizational and departmental analytics |  | ✔️ |
+| View and manage scheduled appointments in the queue |  | ✔️ |
+| View and manage on-demand appointments in the queue |  | ✔️ |
+| Send post-appointment follow-ups (*coming soon*) |  | ✔️ |
 
-## Are there current Teams features that will move to Teams Premium?
+\* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.*
 
-With the general release of Teams Premium, some Teams features will move from Teams licenses to Teams Premium licenses. To allow your users to keep using these features, you'll need to purchase and assign Teams Premium licenses.
+## Are there previous Teams features that moved to Teams Premium?
 
-The features that are moving to Teams Premium are:
+With the general release of Teams Premium on February 1, 2023, the following Teams features moved from Teams to Teams Premium.
 
-- Live translated captions.
+- Live translation of meeting captions.
+- PPT live chapters.
 - Timeline markers in Teams meeting recordings for when a user left or joined meetings.
 - Custom organization Together mode scenes.
 - Virtual Appointments: SMS notifications.
 - Virtual Appointments: Organizational analytics in the Teams admin center.
 - Virtual Appointments: Scheduled queue view.
 
-### Is there a grace period to switch to Team Premium before my users lose functionality?
-
-When Teams Premium becomes generally available to purchase, there will be a 30-day grace period for admins to purchase Teams Premium.
-
-After the 30-day grace period, users will lose access to features previously available in Teams without the Teams Premium add-on, unless the admin purchases and assigns Teams Premium licenses for their users.
-
-Some tenants may have Teams Premium trial licenses. Once the trial licenses expire, users will immediately lose Teams Premium features. Assets associated with Teams Premium features like custom templates and meeting backgrounds will remain in the tenant but will be grayed out and unusable.
-
 ## What are the requirements to purchase Teams Premium?
 
-At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
+At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE – Customer led, and NCE – Partner led.
 
-Before you can purchase Teams Premium licenses for your users, ensure that your tenant and users meet the requirements.
+Before you can purchase Teams Premium licenses for your users, ensure your tenant and users meet the requirements.
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant.
+- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
+  - Teams Premium for GCC became available on March 1, 2023.
   - At general release, Microsoft won’t offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC High and DoD tenants won’t be able to purchase Teams Premium licenses at general release.
+  - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription with Teams.
+
+### Can I acquire Teams Premium features without the Teams Premium license?
+
+Teams Premium bundles a large set of Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experience.
+
+## Which users should be assigned Teams Premium licenses?
+
+Teams Premium is licensed on a per-user subscription basis and is subject to the [Universal Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all). You should plan to assign a Teams Premium user subscription license to every user you want to provide Teams Premium features for.
+
+> [!NOTE]
+> When the organizer of a Teams meeting or live event is licensed for Teams Premium, the *Live translation (for captions)*, *advanced Meetings protection*, and *advanced Webinars* features are extended to all meeting participants, including external and guest users.
+>
+> External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
+>
+> All meeting participants must be licensed for Teams Premium to benefit from the *Intelligent recap* feature.
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
@@ -198,8 +210,30 @@ If your organization wishes to keep Teams Premium features after the trial perio
 
 ## How do I purchase Teams Premium licenses?
 
-If your tenant and users meet the requirements for Teams Premium, you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
+If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
 
 After you purchase your Teams Premium licenses, you’ll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
 For instructions on assigning licenses in the Microsoft 365 admin center, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+
+## Is admin configuration required after assigning users licenses?
+
+Many Teams Premium features require an IT admin to configure the feature before users can access the feature.
+
+The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
+
+- Using end-to-end encryption on meetings up to 50 participants.
+- Adding watermarks to meetings.
+- Adding sensitivity labels.
+- Preventing copy and paste in meeting chats.
+- Using organization customized backgrounds.
+- Using organization customized Together mode scenes.
+  - Admin must create the custom Together mode scene.
+- Being assigned a custom policy package.
+- Using organization customized meeting templates.
+- Seeing organization customized branding.
+- Using eCDN for Live Events.
+- Using RTMP-In.
+- Customizing Virtual Appointment lobby rooms with branding.
+
+For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).

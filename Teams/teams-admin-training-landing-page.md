@@ -27,7 +27,7 @@ Learn how to manage Teams for your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="instructor-led-training-teams-landing-page.yml">
+        <a href="https://aka.ms/teamslivetraining">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ Learn how to manage Teams for your organization.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW: Instructor-led training for Teams</h3>
+                        <h3>Instructor-led training for Teams</h3>
                     </div>
                 </div>
             </div>

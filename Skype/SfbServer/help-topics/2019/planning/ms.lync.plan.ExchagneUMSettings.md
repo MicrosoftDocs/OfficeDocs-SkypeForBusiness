@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Exchange Unified Messaging Settings (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW

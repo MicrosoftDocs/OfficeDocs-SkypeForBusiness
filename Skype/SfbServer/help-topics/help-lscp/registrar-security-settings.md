@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.SecRegistrarMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: "What do you want to do? Click the link to the task that you want to perform."

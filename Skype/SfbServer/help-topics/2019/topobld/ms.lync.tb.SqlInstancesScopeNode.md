@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SQL Instances Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the SQL Server database options, you can perform the following ge
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

@@ -1,6 +1,7 @@
 ---
 title: Best practices for organizing teams
 ms.reviewer: pbethi
+ms.date: 08/10/2017
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars

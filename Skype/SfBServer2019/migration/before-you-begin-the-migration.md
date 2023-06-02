@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Before you begin the migration"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ Before you begin, we recommend that you read the following articles to familiari
     
 - [Migration phases](migration-phases.md)
     
+
 

@@ -1,8 +1,9 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
+author: daisyfell
+ms.author: daisyfeller
 ms.reviewer: farhazk
+ms.date: 05/11/2023
 manager: samanro
 ms.topic: how-to
 audience: admin
@@ -17,6 +18,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
   - tier2
   - highpri
 appliesto: 
@@ -24,6 +26,8 @@ appliesto:
 ---
 
 # Manage the Approvals app in Microsoft Teams
+
+## Overview of Approvals
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
@@ -59,7 +63,7 @@ To use the Approvals app, you need a license for Power Automate, and your accoun
 
 ## Storage with Microsoft Dataverse
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enable consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
@@ -144,7 +148,7 @@ Data stored in Forms will not be deleted until the team owners clean it up from 
 
 ## Conditional Access policies
 
-Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+Approvals supports [Continuous Access Evaluation (CAE)](/azure/active-directory/conditional-access/concept-continuous-access-evaluation). With CAE, you can setup any conditional access policy to restrict any user, app, or service from accessing some resources. Once the policy is set, AAD will reject when the selected entity requests tokens of that particular resource.
 
 ## Data limitations
 
@@ -230,3 +234,7 @@ You can use the Teams admin center to control, which third-party e-signature pro
 4. Select **Submit**.
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Front End Server Collocations"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW

@@ -3,6 +3,7 @@ title: Microsoft Teams IT architecture and voice solutions posters
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 04/16/2019
 audience: ITPro
 ms.topic: landing-page
 ms.service: msteams

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Branch Office Appliance With Edge"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
@@ -24,4 +25,5 @@ If you have Edge Servers deployed and must provide media services for external u
 > [!NOTE]
 > If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step. You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology. 
   
+
 

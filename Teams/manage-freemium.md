@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: daryav
+ms.date: 04/12/2019
 search.appverid: MET150
 description: Learn about who can manage users in Teams Free (classic) and learn about the differences between the various Teams plans.
 ms.localizationpriority: mediums
@@ -18,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---

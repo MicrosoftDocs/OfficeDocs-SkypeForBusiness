@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Current Domain (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployDomainPrepIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "The Prepare Domain page begins the process of preparing the domain
  
 The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server. Click **Next** to begin preparing the domain.
   
+
 

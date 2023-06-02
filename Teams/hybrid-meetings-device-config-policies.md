@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Define meeting policies to control what meeting organizers and participants can do in a meeting.
 ms.topic: article

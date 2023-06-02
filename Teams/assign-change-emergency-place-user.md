@@ -4,12 +4,14 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
+ms.date: 09/24/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- Tier1
 audience: Admin
 appliesto:
 - Microsoft Teams

@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.collection:
   - m365solution-scenario
   - highpri
 ms.reviewer: sonua
+ms.date: 07/10/2018
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content too large online audiences in Teams, Yammer, and Stream.
@@ -22,7 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # What are Microsoft Teams live events

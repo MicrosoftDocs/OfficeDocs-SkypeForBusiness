@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
+ms.date: 09/10/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

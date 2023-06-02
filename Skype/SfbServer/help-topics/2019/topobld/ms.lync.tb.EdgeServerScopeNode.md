@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Edge Server Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
@@ -35,4 +36,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

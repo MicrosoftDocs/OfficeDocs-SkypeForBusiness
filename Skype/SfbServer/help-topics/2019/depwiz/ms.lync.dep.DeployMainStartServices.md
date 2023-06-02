@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Start Services"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainStartServices
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -24,4 +25,5 @@ To start the services on the deployed server role, click **Run** in **Step 4: St
 > [!NOTE]
 > If **Start Services** has been run, you can rerun the command by clicking **Run Again**. 
   
+
 

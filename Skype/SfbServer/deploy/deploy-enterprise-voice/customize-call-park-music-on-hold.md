@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Customize Call Park music on hold inSkype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -55,3 +56,4 @@ You can specify your own music file to use for music on hold, instead of the def
 [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile)
   
 [Get-CsService](/powershell/module/skype/get-csservice)
+

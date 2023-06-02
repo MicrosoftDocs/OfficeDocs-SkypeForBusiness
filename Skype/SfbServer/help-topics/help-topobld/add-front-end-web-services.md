@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: "The base URL is the Web Services identity for the URL, minus the https://. For example, if the full URL for the Web Services of the pool is `https://pool01.contoso.net`, the base URL is `pool01.contoso.net`."

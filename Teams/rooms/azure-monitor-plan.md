@@ -3,10 +3,12 @@ title: Plan Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
+ms.date: 01/15/2019
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -14,6 +16,7 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: This article discusses planning considerations for using Azure Monitor to monitor Microsoft Teams Rooms in your Skype for Business or Teams implementation.
 ms.custom: seo-marvel-mar2020
 ---

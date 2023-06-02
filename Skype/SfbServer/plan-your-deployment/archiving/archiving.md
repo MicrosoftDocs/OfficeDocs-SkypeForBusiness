@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for archiving in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -187,4 +188,5 @@ For more information about archiving, see the following topics:
     
 For more details about how Skype for Business Server and Exchange work together, see [Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
+
 

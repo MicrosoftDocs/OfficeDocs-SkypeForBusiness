@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsQueueEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: "Response Group queues hold calls to a response group until an agent answers the call."

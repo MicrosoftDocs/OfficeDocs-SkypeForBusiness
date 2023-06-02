@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, julienp
+ms.date: 08/28/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -19,6 +20,7 @@ ms.custom:
 description: Lists the supported rate centers and coverage for Calling Plans.
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Supported rate centers and coverage for Calling Plans

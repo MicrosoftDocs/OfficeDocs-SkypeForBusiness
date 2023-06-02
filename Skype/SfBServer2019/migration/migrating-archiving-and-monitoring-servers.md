@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrating Archiving and Monitoring Servers"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -30,4 +31,5 @@ If you want archiving and monitoring functionality during the migration process,
   
 - If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Skype for Business Server 2019, consult with your vendor about when and how you need to integrate the third-party solution with Skype for Business Server 2019.
     
+
 

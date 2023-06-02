@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable discovery of federation partners'
 ms.reviewer: 
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -54,4 +55,5 @@ Discovery of federation partners can be managed by using Windows PowerShell and 
 ## To disable discovery of federation partners
 
   - To disable discovery of federation partners, set the value of the **EnablePartnerDiscovery** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+
 

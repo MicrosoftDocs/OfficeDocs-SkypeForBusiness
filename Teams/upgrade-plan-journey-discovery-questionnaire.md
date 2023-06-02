@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/29/2018
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -81,7 +82,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | What applications have you deployed to Teams? | | |
 > | Have you specifically blocked any Teams capabilities? <br/>If Yes, note the details in the Comments column. | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
-> | Who has permissions to create teams? | <input type="checkbox"> Everyone in the organization <br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
+> | Who has permissions to create teams? | <input type="checkbox"> People in my organization<br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
 > | Are you using security and compliance features in Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 
 ### Skype for Business Online (if applicable)
@@ -133,7 +134,7 @@ Use the following table to capture the details of the clients and endpoints in u
 
 > | Question | Answer | Comments |
 > |---|---|---|
-> | What desktop OS are the users using? | <input type="checkbox"> Windows XP <br/> <input type="checkbox"> Windows 7 <br/> <input type="checkbox"> Windows 8 <br/> <input type="checkbox"> Windows 10 <br/> <input type="checkbox"> Mac (Specify the version in the Comments column.) <br/> <input type="checkbox"> Linux (Specify the distribution in the Comments column.) <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
+> | What desktop OS are the users using? | <input type="checkbox"> Windows XP <br/> <input type="checkbox"> Windows 7 <br/> <input type="checkbox"> Windows 8 <br/> <input type="checkbox"> Windows 10 <br/> <input type="checkbox"> Mac (Specify the version in the Comments column.) <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
 > | What version of Microsoft Office is deployed <br>to these devices? | <input type="checkbox"> Office 2003 <br/> <input type="checkbox"> Office 2007 <br/> <input type="checkbox"> Office 2010 <br/> <input type="checkbox"> Office 2013 <br/> <input type="checkbox"> Office 2016 <br/> <input type="checkbox"> Office for Mac 2011 <br/> <input type="checkbox"> Office for Mac 2016 <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
 > | Which Office deployment technology is in use <br>in your organization? | <input type="checkbox"> MSI <br/> <input type="checkbox"> Click-to-Run | |
 > | What are the allowed and supported mobile <br>platforms in use? <br/>Select all that apply. | <input type="checkbox"> Windows <br/> <input type="checkbox"> Mobile <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Other (Note the details in the Comments column.) | |
@@ -169,5 +170,3 @@ Use the following table and capture the current adoption and readiness state of 
 > | What percentage of your user base would you say has <br>adopted Skype for Business? | | |
 > | What is user sentiment around Skype for Business? | <input type="checkbox"> Good <br/> <input type="checkbox"> Neutral <br/> <input type="checkbox"> Bad | |
 > | Which of the following best describes the rollout <br>strategy used for your Skype for Business <br>deployment? | <input type="checkbox"> Broad reach: Email campaign with <br>&nbsp; &nbsp; &nbsp;links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety <br>&nbsp; &nbsp; &nbsp;of awareness campaigns (posters, <br>&nbsp; &nbsp; &nbsp;events, champions) and training <br>&nbsp; &nbsp; &nbsp;(videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br>&nbsp; &nbsp; &nbsp;messaging and training by persona <br/> <input type="checkbox"> Other <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column.) | |
-
-

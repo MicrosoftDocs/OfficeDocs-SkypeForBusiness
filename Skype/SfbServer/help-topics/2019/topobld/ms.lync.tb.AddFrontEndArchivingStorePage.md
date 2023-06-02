@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Front End Archiving Store"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndArchivingStorePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW

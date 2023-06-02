@@ -4,12 +4,15 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 07/22/2020
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -18,7 +21,7 @@ description: This article discusses how to configure your organization and Teams
 
 # Enable Teams Rooms devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams. Keep in mind that in this case, the experience in Teams Rooms of the third-party online meeting is driven by the third-party online meeting provider.
 
 Supported devices and services:
 
@@ -51,7 +54,7 @@ The first thing you need to do to enable a one-touch join experience from Team R
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
-    
+
 3. Find the name of the room mailbox associated with your Teams Rooms device and make note of its UPN.
 
 4. After you find the room mailbox's UPN, run the following command. Replace `<UserPrincipalName>` with the room mailbox's UPN:
@@ -118,19 +121,20 @@ You can optionally specify a custom username and email address to join third-par
 
 <CustomDisplayEmailForThirdPartyMeetings>guest@contoso.com</CustomDisplayEmailForThirdPartyMeetings>
 ```
+
 ## Step 3b: Enable third-party meetings on Teams Rooms on Android
 
 To configure Teams Rooms on Android using the touchscreen console or front-of-room display, do the following:
 
-1.  On the Microsoft Teams Rooms console or front-of-room display, select **More**.
-2.  Select **Settings**, and:
-    -   If using a personal account (for example, an account with an E5 license), choose **Meetings** option.
-    -   If using a shared account (for example, a resource account with a Teams Rooms license), choose **Device settings**, locate **Teams Admin settings**, enter an admin password, and choose a **Meetings** option.
+1. On the Microsoft Teams Rooms console or front-of-room display, select **More**.
+2. Select **Settings**, and:
+   - If using a personal account (for example, an account with an E5 license), choose **Meetings** option.
+   - If using a shared account (for example, a resource account with a Teams Rooms license), choose **Device settings**, locate **Teams Admin settings**, enter an admin password, and choose a **Meetings** option.
+
       > [!NOTE]
       > Some device manufacturers require an admin password before **Device settings** can be accessed.
 
     ![Meetings settings for MTR on Android](..\media\mtrandroid.png)
 
-3.  Select a third-party meeting provider you want to enable.
-4.  If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
-
+3. Select a third-party meeting provider you want to enable.
+4. If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.

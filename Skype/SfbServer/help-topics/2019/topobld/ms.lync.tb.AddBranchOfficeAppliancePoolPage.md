@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Survivable Branch Appliance Pool"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
@@ -24,4 +25,5 @@ To **Define the Survivable Branch Appliance FQDN**, type the fully qualified dom
 > [!NOTE]
 > Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure. 
   
+
 

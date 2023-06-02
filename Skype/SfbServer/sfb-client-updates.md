@@ -1,4 +1,5 @@
 ---
+ms.date: 07/23/2018
 title: "Latest updates for versions of Skype for Business that use Windows Installer (MSI)"
 ms.author: phillipg
 author: PhillipGarding
@@ -6,7 +7,7 @@ manager: serdars
 ms.reviewer: qingy
 audience: ITPro
 ms.topic: reference
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

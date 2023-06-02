@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Edge Servers in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -439,4 +440,5 @@ Once the setup is complete, you'll need to start the services on each Edge serve
     
 5.  In the **Services MMC** on each server, verify that all the Skype for Business Server services are running.
     
+
 

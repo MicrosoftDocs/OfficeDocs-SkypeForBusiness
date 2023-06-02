@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: "This is preliminary documentation and is subject to change. Blank topics are included as placeholders."

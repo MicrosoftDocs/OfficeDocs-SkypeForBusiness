@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "User statistics and organization information"
 ms.reviewer: 
 ms.author: tonysmit
@@ -64,3 +65,4 @@ The Skype for Business dashboard gives you a quick snapshot of how the service i
 [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
+

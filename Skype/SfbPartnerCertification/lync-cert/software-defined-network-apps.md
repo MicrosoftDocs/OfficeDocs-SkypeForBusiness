@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Validated Lync Applications"
 ms.author: serdars
 author: msdmaguire
@@ -85,7 +86,7 @@ The Lync SDN API relays detailed information regarding calls and sessions to Ext
 
   **Dynamically automate policy deployment.**
 
-[HP](http://HP.com)
+[HP](https://HP.com)
 
 The ***HP Network Optimizer SDN Application*** automates policy deployment dynamically on a per-session basis for voice, video, and application sharing to deliver a better user experience and reduce operational costs.
 
@@ -116,4 +117,5 @@ When a desktop sharing, voice, or video session is initiated using a Lync client
 ***Nectar's UC Diagnostics (UCD)*** module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully apply its entire product portfolio for real-time media analysis, network path awareness, and root-cause analysis.
 
 Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health, and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
+
 

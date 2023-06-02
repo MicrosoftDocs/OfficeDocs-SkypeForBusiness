@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
 author: SerdarSoysal
@@ -6,7 +7,7 @@ ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -302,3 +303,4 @@ If an Edge pool goes down but the Front End pool at the same site is still runni
 3.  In the **Associations** section, under **Associate Edge Pool (for media components)**, use the drop down box to select the Edge pool you want to associate this Front End pool with.
 
 4.  Select **OK**.
+

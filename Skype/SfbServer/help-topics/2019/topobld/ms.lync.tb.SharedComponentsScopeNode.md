@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Shared Components Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
@@ -34,4 +35,5 @@ You select **Topology** to click on options to open a New topology document. Ope
   
 ![Shared Components Scope Node C.](../../../media/Shared_Components_Scope_NodeC.jpg)
   
+
 

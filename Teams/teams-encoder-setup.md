@@ -1,7 +1,7 @@
 ---
 title: Encoder setup for streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: asteele
+ms.date: 08/25/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -33,7 +34,7 @@ The workflow for producing a Teams Live Event is as follows:
 
 A live event is scheduled in Teams or Yammer, and the **Teams Encoder** option is selected. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding key. The URL and key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
 
-### Common encoders user with live events
+### Common encoders used with live events
 
 The encoders in the following two lists have been tested by Microsoft for live streaming with Teams. The first list is a subset of these encoders, which have been tested with the product for ease of use and quick setup.
 

@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
+  - tier2
 f1.keywords:
   - CSH
 ms.custom:
@@ -199,9 +200,9 @@ End users with mobile devices can download the Microsoft Teams app from the mobi
 
 ### Operating system requirements
 
-|Windows |macOS |Linux |iOS |Android |
-|--------|------|------|----|--------|
-|7 and later |10.10 and later |DEB or RPM |10 or later |4.4 and later |
+|Windows |macOS |iOS |Android |
+|--------|------|----|--------|
+|7 and later |10.10 and later |10 or later |4.4 and later |
 
 ### Internet browser support
 

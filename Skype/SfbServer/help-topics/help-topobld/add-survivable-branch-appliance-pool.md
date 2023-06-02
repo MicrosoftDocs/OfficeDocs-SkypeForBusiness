@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 description: "To Define the Survivable Branch Appliance FQDN, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the FQDN text box. Click Next to continue."

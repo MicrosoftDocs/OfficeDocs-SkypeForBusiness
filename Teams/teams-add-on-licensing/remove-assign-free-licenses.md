@@ -4,12 +4,14 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: alyake
+ms.date: 01/04/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
   - m365initiative-meetings
+  - tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -17,7 +19,6 @@ ms.localizationpriority: medium
 ms.custom:
   - Licensing
   - admindeeplinkMAC
-robots: noindex
 description: Learn how to remove the Teams free (classic) licenses and assign paid Teams licenses for your organization's users.
 ---
 

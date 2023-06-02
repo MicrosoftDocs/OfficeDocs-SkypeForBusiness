@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: "Topology Builder provides a way to install databases on a SQL Server store. When you install databases by using Topology Builder, the application reads information from the topology and then installs the required databases on the specified SQL Server computer or SQL Server cluster. This is the only type of database installation available by using Topology Builder. If you need to install a specific database on a specific computer, or if you must install a collocated database, you must use Windows PowerShell command-line interface and the Install-CsDatabase cmdlet instead."

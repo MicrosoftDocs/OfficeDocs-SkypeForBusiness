@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
+ms.date: 03/24/2021
 description: This article describes how Kaizala users can navigate through Microsoft Teams.
 f1.keywords: 
 ms.localizationpriority: medium
@@ -286,7 +287,7 @@ Follow this three-step approach to get your solutions to Microsoft Teams:
 
     - Leverage native Microsoft Teams capabilities
 
-    - Use [third-party app integration and explore app store](deploy-apps-microsoft-teams-landing-page.md)
+    - Use [third-party app integration and explore app store](apps-in-teams.md)
 
     - Discover [app templates](/microsoftteams/platform/samples/app-templates)
 

@@ -1,9 +1,10 @@
 ---
 title: "Emails sent to users when their settings change"
-ms.author: heidip
-author: MicrosoftHeidi
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud

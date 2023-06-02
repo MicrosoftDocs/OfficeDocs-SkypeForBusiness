@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Lync Server 2013: Managing federation and external access to Skype for Business Server'
 ms.reviewer:
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -73,3 +74,4 @@ Configure the settings as detailed in the topics [Configure policies to control 
 You can configure external user access settings even if you haven't enabled external user access for your organization. However, the policies and other settings that you configure are in effect only when you have external user access enabled for your organization. External users can't communicate with your users when external user access is disabled or if no external user access policies are configured to support it.
 
 Your edge deployment authenticates the types of external users and controls access based on how you configure your edge support. The exception to this rule is anonymous users, who are authenticated by the conference ID and a passkey that is sent to the anonymous participant when you create the conference and invite participants. To control communication, you can configure one or more policies that define how users inside and outside your organization communicate with each other. The policies and settings include the default global policy, site policies, and user policies that you can create and configure.
+

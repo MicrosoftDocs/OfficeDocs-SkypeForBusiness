@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SIP Video Trunk Setting Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SipVideoTrunkSettingExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
@@ -32,3 +33,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
 ## See also
 
 [Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+

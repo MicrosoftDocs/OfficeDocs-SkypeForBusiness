@@ -1,11 +1,12 @@
 ---
 title: Virtual appointment meeting template in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
+author: samanro
+ms.author: samanro
 manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
+ms.date: 04/11/2023
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
@@ -15,13 +16,14 @@ ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
   - M365-collaboration
+  - m365-frontline
 appliesto: 
   - Microsoft Teams
 ---
 
 # Virtual appointment meeting template in Microsoft Teams
 
-![Information icon](media/info.png) **Some features described in this article require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview)**.
+![Information icon](media/info.png) **Some features described in this article require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md)**.
 
 ## Overview
 
@@ -63,6 +65,9 @@ Keep in mind that some Teams meeting options may not apply to external guests or
 - **Allow meeting chat**: Set to **Disabled** if you want to prevent meeting chat before, during, and after the meeting.
 
 People within your organization receive a meeting invitation and the appointment appears in their Teams and Outlook calendar, where they can easily join as in any other Teams meeting. All Teams meeting options apply to attendees who join using the Teams meeting link in the meeting invitation or from the Teams or Outlook calendar.
+
+> [!NOTE]
+>The external guest needs pop-up notifications allowed on their mobile and web browser for the browser-based Teams experience to function properly. This setting will show a pop-up asking for permission to access the microphone and camera for the meeting, which is required for the meeting to begin.
 
 To learn more about how to use the Virtual appointment meeting template and the user experience, see [Use a Teams meeting template to create a Virtual Appointment](https://support.microsoft.com/office/6a9e8cbb-c0ed-4598-851e-3b1750a4a747).
 

@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: "You edit the properties of the Mediation Server PSTN gateway settings in this dialog. You define the following settings:"

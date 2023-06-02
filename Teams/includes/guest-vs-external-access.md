@@ -5,3 +5,4 @@ External access (federation) and guest access are different:
 
 
 For a detailed comparison, see [Communicate with users from other organizations](../communicate-with-users-from-other-organizations.md).
+

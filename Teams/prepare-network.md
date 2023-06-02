@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
+ms.date: 08/11/2017
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 ms.localizationpriority: high
@@ -131,6 +132,10 @@ For an in-depth discussion of network optimization, including guidance for ident
 <li><p>When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.</p></li>
 </ul>
 <p>Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your WiFi vendor for specific guidance.</p></td>
+</tr>
+<tr class="odd">
+<td>Allow WebSocket protocol</td>
+<td><p>Teams utilizes long-living bidirectional WebSocket connections to efficiently deliver chat updates, call notifications and signaling, presence status changes, and other real-time notifications from cloud services to the client. If establishing WebSocket connections is not possible, a traditional HTTP long-polling transport is used as a fallback, resulting in increased bandwidth and latency. We recommend that you enable WebSocket traffic for optimal operation.</p></td>
 </tr>
 </tbody>
 </table>

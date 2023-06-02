@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Media Quality and Network Connectivity Performance"
 ms.author: tonysmit
 author: tonysmit
@@ -242,7 +243,7 @@ It is also important that your company's physical network connectivity, includin
   
 ### Is ExpressRoute required for voice quality SLA?
 
-No, ExpressRoute isn't required for Microsoft Teams Voice Quality SLA. The [Microsoft Teams Voice Quality SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Microsoft Teams voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
+No, ExpressRoute isn't required for Microsoft Teams Voice Quality SLA. The [Microsoft Teams Voice Quality SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Microsoft Teams voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
   
 - Calls from Microsoft certified IP Phones.
     
@@ -341,3 +342,4 @@ Below is another deployment option for Contoso. In this case, they decided to se
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
 
   
+

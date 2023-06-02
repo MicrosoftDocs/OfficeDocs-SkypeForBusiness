@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Persistent Chat Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW

@@ -1,4 +1,5 @@
 ---
+ms.date: 01/08/2020
 title: "Proxy servers for Teams or Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
@@ -58,3 +59,4 @@ Following this guidance should minimize potential problems.
 
 [Optimizing your network for Skype for Business Online](optimizing-your-network.md)
  
+

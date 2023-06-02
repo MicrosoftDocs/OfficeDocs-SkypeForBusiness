@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployMainCreateCSCPAdmin
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: "To grant access to the Skype for Business Server 2015, do the following:"

@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsSelGroup
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: "Response Group queues hold calls to response groups until an agent answers the call. Queues have assigned agent groups. When you create or edit a queue, you use the Select Groups dialog box to select one or more agent groups to be assigned to the queue."

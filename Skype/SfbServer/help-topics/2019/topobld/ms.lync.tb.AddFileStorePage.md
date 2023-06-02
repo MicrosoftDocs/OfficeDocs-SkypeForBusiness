@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add File Store"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddFileStorePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,4 +26,5 @@ To define a new file store, specify the following:
     
 - The name of the file share on the host server. The file share must exist before you publish the topology. 
     
+
 

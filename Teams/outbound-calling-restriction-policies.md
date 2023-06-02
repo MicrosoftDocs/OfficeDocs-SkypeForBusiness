@@ -1,6 +1,7 @@
 ---
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
+ms.date: 01/23/2018
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,6 +11,7 @@ ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

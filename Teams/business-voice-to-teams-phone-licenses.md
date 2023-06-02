@@ -3,6 +3,7 @@ title: Move from Business Voice to Teams Phone licenses
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,6 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 
 # Move from Business Voice to Teams Phone licenses
@@ -40,8 +42,8 @@ Before replacing Business Voice licenses, you first need to purchase replacement
 
 You'll need licenses to provide these features:
 
-- Audio conferencing
 - Cloud-based Phone System
+- Audio conferencing
 - PSTN connectivity
 
 Use the following table to determine which licenses to purchase based on your needs:
@@ -50,6 +52,9 @@ Use the following table to determine which licenses to purchase based on your ne
 | ---------------- | ------------------------ | ----------- |
 | Business Voice with Calling Plan | Teams Phone with Calling Plan and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities, a Domestic Calling Plan with Microsoft as your PSTN provider, and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
 | Business Voice without Calling Plan | Teams Phone Standard and Microsoft Teams Audio Conferencing with dial-out to USA/CAN | Provides cloud-based Phone System capabilities that can be combined with [a third-party calling plan with a PSTN provider using Operator Connect or Direct Routing](pstn-connectivity.md) and dial-in and dial-out capabilities to meeting attendees organized by a licensed user. |
+
+> [!NOTE]
+> The **Microsoft Teams Audio Conferencing with dial-out to USA/CAN** license only works with phone numbers in the USA or Canada. If you need to dial out to more countries than the USA and Canada, you should purchase the **Microsoft 365 Audio Conferencing** license instead.
 
 ## How to update licenses
 

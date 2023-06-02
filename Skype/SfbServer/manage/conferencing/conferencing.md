@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -168,3 +169,4 @@ You can use the following Skype for Business Server Management Shell cmdlets to 
 |[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Tests the ability of three users to participate in a Skype for Business Server Mobility Service conference. The Mobility Service enables users of mobile phones such as iPhones and Windows Phones to do such things as exchange instant messages and presence information; store and retrieve voice mail internally instead of with their wireless provider; and take advantage of Skype for Business Server capabilities such as Call via Work and dial-out conferencing.  <br/> **Note:** Clients that use MCX are not supported in Skype for Business Server 2019.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Tests the ability of a pair of users to schedule, join, and then conduct an online conference using the Unified Communications Web API (UCWA).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Returns diagnostic information for the data conferencing capabilities included in Skype for Business Server.  <br/> |
+

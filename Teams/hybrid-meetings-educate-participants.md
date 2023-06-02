@@ -7,6 +7,7 @@ f1.keywords:
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/15/2022
 audience: ITPro
 description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.
 ms.topic: article

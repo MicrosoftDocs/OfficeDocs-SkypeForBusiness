@@ -7,6 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
+ms.date: 03/15/2021
 f1.keywords:
 ms.localizationpriority: medium
 search.appverid:
@@ -46,5 +47,5 @@ We continue adding to and improving the Teams monitoring experience by adding va
 
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
-|App submissions  |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
+|[App submissions](../submit-approve-custom-apps.md) |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
 |[Device state rule](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|
