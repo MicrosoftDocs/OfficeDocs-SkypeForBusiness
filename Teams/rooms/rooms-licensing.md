@@ -101,6 +101,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Direct Guest Join for Zoom and Webex meetings**               | &#x2714;                    | &#x2714;                  |
 | **Join meetings across Teams clouds**                           |                             | &#x2714;                  |
 | **Room check-in with Teams Panel**                              |                             | &#x2714;                  |
+| **Coordinated meeting**                                         |                             | &#x2714;                  |
 
 ### Share and collaborate
 
@@ -118,6 +119,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Together mode**                                    |                             | &#x2714;                  |
 | **Large gallery (up to 50 videos)**                  |                             | &#x2714;                  |
 | **Dual screen support**                              |                             | &#x2714;                  |
+| **Show meeting names**                               |                             | &#x2714;                  |
 
 ### Calling
 
@@ -125,6 +127,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 |:--------------------------------------------------|:---------------------------:|:-------------------------:|
 | **Make and receive peer to peer and group calls** | &#x2714;                    | &#x2714;                  |
 | **Microsoft 365 Phone System**                    |                             | &#x2714;                  |
+| **End-to-end call encryption**                    |                             | &#x2714;                  |
 
 ### Intelligent audio and video
 
