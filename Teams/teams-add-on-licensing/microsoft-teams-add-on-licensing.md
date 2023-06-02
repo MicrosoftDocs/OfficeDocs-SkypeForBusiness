@@ -121,5 +121,3 @@ Need to talk to someone about the add-on options? [Contact support for business 
 - [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [Manage user access to Teams](../user-access.md)
 - [Teams service description](/office365/servicedescriptions/teams-service-description)
-
-
