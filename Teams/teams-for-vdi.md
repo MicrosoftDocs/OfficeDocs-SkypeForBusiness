@@ -494,6 +494,7 @@ The following calling and meeting features are not supported:
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
 - Zoom control
+- Cross cloud anonymous join in GCC High
 - QoS
 - Gallery View 3x3
 
