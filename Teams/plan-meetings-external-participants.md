@@ -1,5 +1,5 @@
 ---
-ms.date: 03/07/2023
+ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -70,6 +70,20 @@ Similarly, if a meeting organizer in your organization doesn't have external acc
 If [anonymous meeting join](anonymous-users-in-meetings.md) is turned off, anonymous participants won't be able to join meetings at all.
 
 For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
+
+### Meetings with Microsoft 365 organizations in other clouds
+
+Cross-cloud meetings are supported as follows:
+
+|Meet with:|Commercial|GCC|GCC High|DoD|China|
+|:---------|:--------:|:-:|:------:|:-:|:---:|
+|Commercial|          |✔️|✔️      |✔️ |✔️  |  
+|GCC       |✔️       |   |✔️      |✔️ |✔️  |  
+|GCC High  |✔️       |✔️|         |✔️ |     |  
+|DoD       |✔️       |✔️|✔️      |    |     |  
+|China     |✔️       |✔️|         |    |     |  
+
+[Meet with people in other Microsoft 365 clouds](cross-cloud-meetings.md)
 
 ## Meetings with anonymous participants
 

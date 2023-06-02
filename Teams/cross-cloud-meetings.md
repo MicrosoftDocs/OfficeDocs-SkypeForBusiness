@@ -43,23 +43,13 @@ If you're setting up a cross-cloud meeting connection with a tenant that's in a 
 
 The following table shows which cloud each type of tenant is in.
 
-|Tenant type|Microsoft Azure cloud|
+|Tenant type|Cloud|
 |:----------|:----|
 |Commercial|Microsoft Azure Commercial|
 |GCC|Microsoft Azure Commercial|
 |GCC High|Microsoft Azure Government|
 |DoD|Microsoft Azure Government|
 |China (21Vianet)|Microsoft Azure China|
-
-Cross-cloud meetings are supported as follows:
-
-|Meet with:|Commercial|GCC|GCC High|DoD|China|
-|:---------|:--------:|:-:|:------:|:-:|:---:|
-|Commercial|          |✔️|✔️      |✔️ |✔️  |  
-|GCC       |✔️       |   |✔️      |✔️ |✔️  |  
-|GCC High  |✔️       |✔️|         |✔️ |     |  
-|DoD       |✔️       |✔️|✔️      |    |     |  
-|China     |✔️       |✔️|         |    |     |  
 
 If you're setting up a cross-cloud meeting connection with a tenant in a different Microsoft Azure cloud, enable that cloud type in meeting settings.
 
