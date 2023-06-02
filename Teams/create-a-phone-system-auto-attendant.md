@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 11/28/2017
+ms.date: 06/02/2023
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -22,10 +22,6 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-adobe-target: true
-adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
 --- 
 
@@ -239,7 +235,6 @@ To **add a user** to the authorized users:
 > - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
 
 See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
-
 ---
 
 ## Resources for complex scenarios
@@ -283,3 +278,4 @@ If you're an administrator, you can use the following diagnostic tool to validat
 [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+
