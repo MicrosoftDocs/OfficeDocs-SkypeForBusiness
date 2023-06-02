@@ -101,7 +101,7 @@ Introduced in this update:
 - Pin and hide room video
 - Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
 - Dual-display Teams Rooms can now display up to 18 participant video streams
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic room licenses
 
 <sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
