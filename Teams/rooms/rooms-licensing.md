@@ -62,18 +62,20 @@ The following table shows the services included in each Teams Rooms license.
 | **Audio Conferencing<sup>1</sup>**        | &#x2714;                                                             | &#x2714;                                                               |
 | **Whiteboard**                            | &#x2714;                                                             | &#x2714;                                                               |
 | **Teams Phone**                           |                                                                      | &#x2714;                                                               |
-| **Microsoft Intune**                      |                                                                      | &#x2714;                                                               |
+| **Microsoft Intune<sup>2</sup>**          |                                                                      | &#x2714;                                                               |
 | **Azure Active Directory Premium Plan 1** |                                                                      | &#x2714;                                                               |
-| **Skype for Business Plan 2<sup>2</sup>** |                                                                      | &#x2714;                                                               |
+| **Skype for Business Plan 2<sup>3</sup>** |                                                                      | &#x2714;                                                               |
 | **Geographic availability**               | Worldwide                                                            | Worldwide                                                              |
 | **Segment availability**                  | Commercial, Worldwide Public Sector, Education, Charity, GCC         | Commercial, Worldwide Public Sector, Education, Charity, GCC, GCC-High |
-| **Channel availability**                  | Web Direct, New commerce experience (NCE) - Customer led<sup>3</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Customer led, NCE - Partner led   |
+| **Channel availability**                  | Web Direct, New commerce experience (NCE) - Customer led<sup>4</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Customer led, NCE - Partner led   |
 
 <sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing.
 
-<sup>2</sup> Included to enable certain legacy authentication methods.
+<sup>2</sup> Microsoft Intune Plan 1 and Plan 2.
 
-<sup>3</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
+<sup>3</sup> Included to enable certain legacy authentication methods.
+
+<sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
 
 ## Switching from Teams Rooms Standard and Teams Rooms Premium
 
