@@ -42,7 +42,7 @@ The following participants have an audio-only experience when a watermark is in 
 > [!Note]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
 
-Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer (Organiser must have Teams Premium license) or enforced by a template or sensitivity label.
+Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer (the organizer must have a Teams Premium license) or enforced by a template or sensitivity label.
 
 The following table shows where watermarks are configured:
 
