@@ -436,4 +436,3 @@ If you're an administrator, you can use the following diagnostic tool to validat
 [Getting service phone numbers](getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
