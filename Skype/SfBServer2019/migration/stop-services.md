@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Stop legacy services"
 ms.reviewer: 
 ms.author: serdars
@@ -47,4 +48,5 @@ You can use Skype for Business Server Control Panel to start or stop all the leg
     
 8. Click **Close**.
     
+
 

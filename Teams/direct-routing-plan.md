@@ -14,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -35,7 +36,7 @@ Direct Routing lets you connect a supported, customer-provided Session Border Co
   > Skype for Business Online also lets you pair a customer-provided SBC, but this requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contrast, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud.
 
 > [!Important]
-> Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](direct-routing-landing-page.md). 
+> Cloud Connector Edition was retired on July 31, 2021, along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using this article. 
 
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party PSTN equipment. Direct Routing enables you to: 
 
@@ -189,8 +190,8 @@ Learn more:
   
 To verify that the MTLS connection originates from Teams infrastructure, the SBC should be configured to implement the following checks on Teams server-side certificate:
 - Check that the certificate issuance chain originates from one of the following root CAs
--- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
--- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+-- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains#digicert-global-root-g2)
 - Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com"
 
 ## SIP Signaling: FQDNs
@@ -223,7 +224,7 @@ Placing these three FQDNs in order is required to:
 The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com – will be resolved to IP addresses from the following subnets:
 
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
   
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
@@ -288,6 +289,7 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 
 - 52.112.0.0/14 (IP addresses from 52.112.0.0 to 52.115.255.255).
 - 52.120.0.0/14 (IP addresses from 52.120.0.0 to 52.123.255.255).
+
   
 > [!NOTE]
 > IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.

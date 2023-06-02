@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Web downloadable clients in Skype for Business Server"
 ms.author: serdars
 author: SerdarSoysal
@@ -77,7 +78,7 @@ For details about disabling BranchCache, see the [BranchCache Deployment Guide](
 ## Verifying Skype for Business Web App Deployment
 <a name="MFA"> </a>
 
-You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) in the Skype for Business Server Management Shell documentation.
+You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users can participate in a conference using the Unified Communications Web API (UCWA). For details about this cmdlet, see [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) in the Skype for Business Server Management Shell documentation.
 
 ## Troubleshooting Plug-in Installation on Windows Server 2008 R2
 <a name="MFA"> </a>
@@ -151,4 +152,4 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
 
 [Microsoft Online Services Privacy Statement](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)
 
-[Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
+[Licensing Terms and Documentation](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)

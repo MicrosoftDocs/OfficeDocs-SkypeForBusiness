@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server: Test SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -42,3 +43,4 @@ Trunk configuration settings can only be tested by using Windows PowerShell and 
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
   Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```
+

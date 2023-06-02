@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -40,7 +41,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the following https endpoints (IP addresses and URLs):**
+- **Open the following IP addresses for HTTP and HTTPS:**
 
   - 13.75.175.145
   - 52.189.219.201
@@ -48,12 +49,6 @@ Before you can configure SIP Gateway, do the following:
   - 13.74.250.91
   - 13.83.55.36
   - 23.96.103.40
-  - https://blobsdgapac.blob.core.windows.net
-  - https://blobsdgemea.blob.core.windows.net
-  - https://blobsdgnoam.blob.core.windows.net
-  - https://httpblobsdgapac.blob.core.windows.net
-  - https://httpblobsdgemea.blob.core.windows.net
-  - https://httpblobsdgnoam.blob.core.windows.net
 
 
 The following sections describe what you must do as an administrator to configure SIP Gateway.
@@ -140,7 +135,7 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following IP addresses:
+Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following IP addresses:
 
 - North America:
     - East US: 52.170.38.140
@@ -151,6 +146,8 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 -   APAC region:
     - Australia East: 20.92.120.71
     - Australia Southeast: 13.73.115.90
+
+With the new authentication experience, conditional access checks for SIP Gateway will apply to users instead of devices. If your devices are on the new sign-in experience, then you should exempt either the Teams app or the SIP Gateway App (**ID - 0ab9de21-b802-4d77-b279-1ad41ca233b4**) from conditional access checks.
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
@@ -195,15 +192,11 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
-6. In the **Sign in a user** dialog, copy or note the SIP device's pairing code.
+6. In the **Sign in a user** dialog, the authentication URL and pairing code will be displayed.
 
-7. Go to [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), and under **Enter code**, enter the SIP device's pairing code, and then select **Next**.
+7. Navigate to the authentication URL on the user's desktop or mobile browser and use corporate credentials to log in.
 
-8. On the Microsoft **Sign in** page, in the **Email or phone** field, enter the email address for the SIP device, and then select **Next**.
-
-9. On the **Password** page, enter the password for the email address for the SIP device, and then select **Sign in**.
-
-10. On the **Are you trying to sign in to Teams SIP devices gateway** page, select **Continue**.
+8. Enter the pairing code displayed in the **Sign in a user** dialog into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 ## How to sign in and sign out
 
@@ -228,6 +221,9 @@ To pair a SIP device after the user authenticates using corporate credentials, a
 
 > [!NOTE]
 > The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
+
+> [!NOTE]
+> We are introducing a new authentication experience progressively for SIP Gateway compatible devices. Users with the new experience will see a [new authentication URL](https://aka.ms/siplogin).
 
 ### Sign-out
 

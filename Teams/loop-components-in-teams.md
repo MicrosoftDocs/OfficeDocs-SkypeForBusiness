@@ -39,7 +39,7 @@ For information on admin settings for Loop components in Teams, see [Manage Loop
 
 ## Clients and platforms
 
-Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
+Available on Teams apps on Windows, Mac, iOS, and Android.
 
 ## Loop components and .fluid files
 
@@ -47,7 +47,7 @@ Loop components created in Teams are backed by a .fluid (will be changed to .loo
 
 ## How are .fluid files stored?
 
-.fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .fluid files from Office.com and OneDrive. .fluid files can be restored to previous versions from OneDrive. To create Loop components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own. 
+.fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .fluid files from Office.com and OneDrive. .fluid files can be restored to previous versions from OneDrive. To create Loop components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but can't create their own. 
 
 Moving a .fluid file from OneDrive to a SharePoint site will result in the live component failing to load in Teams chat.
 
@@ -71,13 +71,13 @@ Version History allows you to review, restore, or copy from previous versions of
 
 ## Does .fluid files support eDiscovery?
 
-.fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive. If desired, you can temporarily disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
+Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in eDiscovery (Standard) and available for search, collection, review, and export in eDiscovery (Premium). More information about eDiscovery support is outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
 
 ## If Loop is disabled from the admin switch, what will the user experience be?
 
 If you disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section, the following experience changes will apply:
 
-- The create/insert entry point within Teams messaging will be hidden. Users will not be able to create new .fluid files.
+- The create/insert entry point within Teams messaging will be hidden. Users won't be able to create new .fluid files.
 - Existing messages that would have formerly rendered as an interactive Loop component will instead render as a hyperlink "Loop component." No interactive content will be displayed within Teams.
 - When an end-user clicks on the "Loop component" hyperlink or browses to a .fluid file in OneDrive for Business and clicks to open, it will open the file in a separate browser tab. End-users will still be able to edit the file.
 
@@ -87,6 +87,6 @@ If you disable these experiences as outlined in the [Settings management](/share
 - With tenant default file permissions set to *Specific people* (only the people the user specifies), creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
 - Searching for Loop components in Teams search will return a link to the component in office.com, not the chat message itself.
 - Loop components are disabled in federated chats.
-- Guests will not be able to collaborate on a live component that is shared with them via Company Share Link. Set permissions to **People currently in this chat** to share components with guests.
-- Loop components are not supported in Teams channels.
-- Loop components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
+- Guests won't be able to view or collaborate on a Loop component.
+- Loop components aren't supported in Teams channels.
+- Loop components in chat won't load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.

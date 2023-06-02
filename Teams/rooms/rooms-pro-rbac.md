@@ -1,5 +1,5 @@
 ---
-title: Role-based access control in the Microsoft Teams Pro Management Portal
+title: Role-based access control in the Microsoft Teams Rooms Pro Management Portal
 author: altsou
 ms.author: altsou
 manager: serdars
@@ -8,10 +8,12 @@ ms.date: 03/25/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_MTRP
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -20,7 +22,7 @@ description: Learn about role-based access control in the Microsoft Teams Rooms 
 f1keywords: 
 ---
 
-# Role-based access control in the Microsoft Teams Pro Management Portal
+# Role-based access control in the Microsoft Teams Rooms Pro Management Portal
 
 Role-based access control (RBAC) in the Microsoft Teams Rooms Pro Management portal helps you manage user access to room resource data in your organization. By assigning roles to your portal users, you can limit what they can see and change. Each role has a set of permissions that determine what users with that role can access and change within your organization.
 
@@ -43,7 +45,7 @@ To see roles, in the left navigation of the Microsoft Teams Rooms Pro Management
 
 You can assign built-in roles to groups or users without further configuration. Keep in mind that you can't delete or edit the name, description, type, or permissions of a built-in role.
 
-- **Managed Service Administrator**: Has full access to the Microsoft Teams Room Pro Management portal.
+- **Managed Service Administrator**: Has full access to the Microsoft Teams Rooms Pro Management portal.
 - **Site Lead**: Organizes rooms, has access to reports and can manage tickets. Can't reset enrollment key or make changes to service configurations.  
 - **Site Tech**: Manages tickets for specific rooms. Doesn't have permissions to modify service configurations or organize rooms.
 

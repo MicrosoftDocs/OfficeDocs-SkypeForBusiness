@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

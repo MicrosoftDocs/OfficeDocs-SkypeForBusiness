@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: Plan Advanced Edge Server deployment for Skype for Business Server
 ms.reviewer: 
 ms.author: serdars
@@ -261,4 +262,5 @@ In that case, weight comes into consideration. Larger weights should be given a 
   
 So, then, what happens if multiple DNS SRV records with equal priority and weight as returned? In this situation, the Access Edge service will choose the SRV record that it got from the DNS server first.
   
+
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 09/28/2022
+ms.date: 04/07/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -15,12 +15,15 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer settings for enhanced meeting security and compliance.
 ---
 
 # Create a custom meeting template in Microsoft Teams
+
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
@@ -32,17 +35,30 @@ For each option in the template, you can define the following:
 - **Visible** - This determines if the meeting organizer can see this setting in the meeting options. 
 - **Lock status** - This determines if the meeting organizer can change the setting that was set by the template. If the setting is locked, the meeting organizer can't change it.
 
+## Video demonstration
+
+Watch this video for a walkthrough of the procedures described in this article.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11u1o]
+
+## Create a custom meeting template
+
+Use this procedure to create a custom meeting template in the Teams admin center.
+
 To create a custom meeting template
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
 1. Select **Add**
-1. Type a name and description for the template.
+1. Type a name and description for the template. Note that the name and description will truncate after 40 characters when viewed in Teams, but the full name and description are viewable on hover.
 1. Choose the settings that you want to use for this template. (See the sections below for descriptions of each setting.)
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
 1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
 1. Select **Save**.
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
+
+Note that if you change the settings of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
 
 #### Security
 

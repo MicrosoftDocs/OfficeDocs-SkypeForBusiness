@@ -20,6 +20,8 @@ description: Learn about admin options for managing who can present, how content
 
 # Manage the meeting presentation experience for sensitive Teams meetings
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+
 Using Teams admin policies, sensitivity labels, and templates, you can control a wide variety of settings that determine the in-meeting experience for participants, including:
 
 - Who can present and who can give or request control

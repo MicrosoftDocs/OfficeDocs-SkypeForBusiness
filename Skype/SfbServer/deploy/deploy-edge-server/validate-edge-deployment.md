@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Validate your Edge deployment in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -55,4 +56,5 @@ These tests will determine whether your Edge Server is:
     
   - From outside your network, ping each of the external FQDNs of your Edge Server or Edge Server pool. Even if the ping fails, you'll see the IP addresses, which you can compare the IP addresses you've previously assigned.
     
+
 

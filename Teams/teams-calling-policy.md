@@ -13,6 +13,7 @@ description: Learn how to create, modify, and add users to custom calling polici
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - Tier1
 f1.keywords:
 - CSH
 ms.custom: 
@@ -59,7 +60,7 @@ Here are the settings that you can configure for calling policies.
 
 This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 
-### Meeting recording for calling
+### Cloud recording for calling
 
 This setting controls whether users can record calls. This setting is off by default.
 
@@ -101,12 +102,12 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ### Busy on busy when in a call
 
-Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold aren't prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
+Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
 
 - **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **Enabled** New or incoming calls will be rejected with a busy signal.
 - **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **User controlled** This option isn't currently functional; if set, this will be read as setting the value to **Not enabled**.
+- **User controlled** Users can determine their busy options choice from call settings in the Teams app. 
 
 ### Web PSTN calling
 

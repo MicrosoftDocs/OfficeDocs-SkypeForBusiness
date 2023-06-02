@@ -47,5 +47,5 @@ We continue adding to and improving the Teams monitoring experience by adding va
 
 |Rule  |Monitoring capability|What's monitored? |
 |---------|---------|---------|
-|App submissions  |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
+|[App submissions](../submit-approve-custom-apps.md) |Teams Apps | Pro-actively monitor Teams apps if they are submitted for approval.|
 |[Device state rule](device-health-status.md)  |Teams Devices | Pro-actively monitor Teams devices if they go offline.|

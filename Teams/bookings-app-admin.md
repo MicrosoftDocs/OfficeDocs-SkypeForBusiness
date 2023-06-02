@@ -25,7 +25,7 @@ ms.collection:
   - highpri
   - m365initiative-meetings
 ms.reviewer: revathim, thyagarajans
-ms.date: 05/15/2020
+ms.date: 03/23/2023
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
@@ -65,8 +65,7 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 
 ![Information icon](media/info.png) **This feature is now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-> [!NOTE]
-> We'll be providing unlimited SMS notifications through March 1, 2023 (previously January 31, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
+SMS text notifications are currently available in Canada, the United Kingdom, and the United States.
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
@@ -75,6 +74,7 @@ By default, this setting is on, and SMS text notifications are enabled for all B
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
 Learn more about how to [configure SMS text notifications for your organization](/microsoft-365/bookings/turn-bookings-on-or-off).
+Use the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) to understand how your organization is using SMS notifications.
 
 ## Optional staff approvals setting
 

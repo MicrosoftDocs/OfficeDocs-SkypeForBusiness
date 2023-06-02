@@ -8,11 +8,13 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Rooms
+  - Tier1
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
@@ -25,7 +27,7 @@ This article provides supported Conditional Access and Intune device compliance 
 > [!NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven't deployed Teams Rooms yet,
-see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
+see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 

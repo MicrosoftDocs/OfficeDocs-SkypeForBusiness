@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -76,7 +77,7 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Metric | Units / Possible values | Description | Possible reasons for blank values|
 |:---|:---|:---|:---|
 | Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
-| Wi-Fi strength | &bull; Excellent : -50 dBm or greater <br/> &bull; Good : -51 dBm to -64 dBm<br/> &bull; Poor : -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
+| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
@@ -96,7 +97,7 @@ User signals identify when a user is actively participating in the call, isn't s
 ### Audio
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
-|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. | 
+|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. Real-Time Analytics displays network inter-arrival jitter, not audio jitter. | 
 |Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
 |Round Trip Time (RTT) |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
 |Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
@@ -132,7 +133,7 @@ User signals identify when a user is actively participating in the call, isn't s
 | Audio / Video Sync | Milliseconds | Between -900 ms to 900 ms | This metric indicates the audio / video sync in milliseconds. The sync value is calculated as (audioDelay – videoDelay). A positive value indicates audio is behind while a negative value indicates video is behind. Audio video sync issues may be caused by various factors, most common of which include bad capture devices and network issues delaying one modality more than the other. |
 | Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This metric is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
 | Source Freeze Count | Count | Less than 75 | The number of times the outbound screen share didn’t generate a new frame for more than one second at a stretch. For screen sharing, this value can potentially relate to permissions of screen capture, and can also result from performance issues causing glitches while capturing screen content. |
-| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding component. Typically, such errors are handled by the application by falling back to software encoding but it can result in degraded performance if the endpoint doesn’t have a CPU with sufficient processing power. |
+| Video Encoder / Decoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding (or decoding) component. Typically, such errors are handled by the application by falling back to software encoding / decoding but it can result in degraded performance if the endpoint doesn’t have a CPU with sufficient processing power. |
 
 ### CPU and Battery Details
 |Measure Name |Units |Good Threshold |Description |
@@ -146,7 +147,6 @@ User signals identify when a user is actively participating in the call, isn't s
 
 - Windows
 - macOS
-- Linux
 - Android
 - iOS
 
@@ -173,9 +173,6 @@ User signals identify when a user is actively participating in the call, isn't s
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
-
-> [!NOTE]
-> As part of a limited-time public preview, real-time telemetry data is currently available for **7 days** after a meeting has ended. After the preview ends, only tenants with Advanced Communications add-on licensing will have telemetry available for the extended 7 day period. All other tenants will be subject to the aforementioned limits.
 
 ## Related topics
 

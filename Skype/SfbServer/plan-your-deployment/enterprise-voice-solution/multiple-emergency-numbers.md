@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for multiple emergency numbers in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -103,3 +104,4 @@ The following table shows client support for multiple emergency numbers. Microso
 || Aastra 6721ip and Aastra 6725ip telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 and HP 4120 telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Polycom CX500, Polycom CX600, and Polycom CX3000 telephones - September 2016 cumulative update (Build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
+
