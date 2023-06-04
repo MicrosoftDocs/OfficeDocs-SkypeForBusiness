@@ -1,7 +1,7 @@
 ---
 title: "Step 4 - Select devices that enable your space for hybrid meetings"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work

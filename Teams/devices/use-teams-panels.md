@@ -1,7 +1,7 @@
 ---
 title: How to use Microsoft Teams panels devices
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/18/2021
