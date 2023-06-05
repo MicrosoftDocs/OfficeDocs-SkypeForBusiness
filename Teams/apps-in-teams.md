@@ -78,7 +78,7 @@ After an admin allows the use of custom apps, users can find such apps by select
 
 For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
 
-## About App Templates
+### About App Templates
 
 Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
 
@@ -104,6 +104,12 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 > [!NOTE]
 > Only individuals can request for an approval to add an app in Teams.
+
+## Teams apps that work across Microsoft 365
+
+App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a third-party app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
+
+To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide).
 
 ## Understand app capabilities
 

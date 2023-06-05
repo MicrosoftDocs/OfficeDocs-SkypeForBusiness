@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/manage-third-party-teams-apps.md",
+      "redirect_url": "/microsoftteams/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/zero-touch-app-install.md",
       "redirect_url": "/microsoftteams/auto-install-approved-apps",
       "redirect_document_id": false
