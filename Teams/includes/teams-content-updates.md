@@ -2,6 +2,63 @@
 
 
 
+## Week of May 29, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/30/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 5/30/2023 | [Proxy servers for Teams or Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modified |
+| 5/30/2023 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
+| 5/31/2023 | [Manage caller ID for users](/MicrosoftTeams/caller-id-policies) | modified |
+| 5/31/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 5/31/2023 | How can caller ID be used in your organization | removed |
+| 5/31/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 6/1/2023 | [IT Admins - Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
+| 6/2/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/2/2023 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
+| 6/2/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 6/2/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 6/2/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
+
+
+## Week of May 22, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/22/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 5/23/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
+| 5/23/2023 | [Auto install approved Teams apps](/MicrosoftTeams/auto-install-approved-apps) | modified |
+| 5/23/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
+| 5/23/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+| 5/24/2023 | [Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune](/MicrosoftTeams/devices/phones-displays-deploy) | modified |
+
+
+## Week of May 15, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/15/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 5/15/2023 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 5/16/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
+| 5/16/2023 | [Manage custom and sideloaded app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
+| 5/17/2023 | [Overview of Loop components in Teams](/MicrosoftTeams/loop-components-in-teams) | modified |
+| 5/19/2023 | [Teams meeting recording](/MicrosoftTeams/meeting-recording) | modified |
+| 5/19/2023 | Operations Guide for Microsoft Teams | removed |
+| 5/19/2023 | Audio Conferencing, Calling Plans, or Direct Routing | removed |
+| 5/19/2023 | Prepare to deploy cloud voice service | removed |
+| 5/19/2023 | Enhance your Microsoft Teams service | removed |
+| 5/19/2023 | Prepare users for Microsoft Teams | removed |
+| 5/19/2023 | Evaluate your environment for cloud voice workloads | removed |
+| 5/19/2023 | Deploy Microsoft Teams cloud voice service | removed |
+| 5/19/2023 | Plan Microsoft Teams service management | removed |
+| 5/19/2023 | Plan users' experience of Microsoft Teams | removed |
+| 5/19/2023 | Document your Microsoft Teams success plan | removed |
+| 5/19/2023 | [Meeting themes for Teams meetings](/MicrosoftTeams/meeting-themes) | modified |
+
+
 ## Week of May 08, 2023
 
 
@@ -47,81 +104,3 @@
 | 5/4/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | modified |
 | 5/4/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
 | 5/4/2023 | [Roll out Microsoft Teams First](/MicrosoftTeams/teams-first-overview) | modified |
-
-
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/24/2023 | [Kaizala and Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modified |
-| 4/24/2023 | [Translate phone numbers for Direct Routing](/MicrosoftTeams/direct-routing-translate-numbers) | modified |
-| 4/25/2023 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modified |
-| 4/25/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 4/25/2023 | [Create a Microsoft Teams call queue](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modified |
-| 4/25/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 4/25/2023 | [Broadcast meeting content](/MicrosoftTeams/use-ndi-in-meetings) | modified |
-| 4/26/2023 | Set up an auto attendant for Microsoft Teams | removed |
-| 4/26/2023 | Create a call queue in Microsoft Teams | removed |
-| 4/26/2023 | Create a Microsoft Teams call queue | removed |
-| 4/26/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
-| 4/26/2023 | [Admin training for Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | modified |
-| 4/26/2023 | [Prepare a user readiness plan for upgrading from Skype for Business to Teams](/MicrosoftTeams/upgrade-user-readiness) | modified |
-| 4/26/2023 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 4/26/2023 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
-| 4/26/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
-| 4/27/2023 | [Auto install approved Teams apps](/MicrosoftTeams/auto-install-approved-apps) | renamed |
-| 4/27/2023 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
-| 4/27/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 4/28/2023 | [Communication compliance with Microsoft Teams](/MicrosoftTeams/communication-compliance) | modified |
-
-
-## Week of April 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/17/2023 | [An overview of customizations for meetings in Microsoft Teams](/MicrosoftTeams/custom-meetings-overview) | added |
-| 4/17/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 4/17/2023 | [Roll out a Teams Premium trial](/MicrosoftTeams/teams-premium-trial) | added |
-| 4/18/2023 | [How to make Teams push notifications work in your Xiaomi phone?](/MicrosoftTeams/devices/xiaomi-push-notifications) | added |
-| 4/18/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
-| 4/18/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 4/18/2023 | [Upgrade from the Teams Exploratory trial](/MicrosoftTeams/upgrade-from-teams-exploratory) | modified |
-| 4/18/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | renamed |
-| 4/18/2023 | [Data and Privacy Information](/MicrosoftTeams/rooms/data-and-privacy-info) | modified |
-| 4/18/2023 | Microsoft Teams for Android security | removed |
-| 4/19/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
-| 4/19/2023 | [Manage resource accounts for service numbers](/MicrosoftTeams/manage-resource-accounts) | modified |
-| 4/19/2023 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
-| 4/19/2023 | [Migrating from Skype for Business Online Connector to the Teams PowerShell module](/MicrosoftTeams/teams-powershell-move-from-sfbo) | modified |
-| 4/19/2023 | [Teams security best practices for safer messaging](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging) | modified |
-| 4/19/2023 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
-| 4/19/2023 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
-| 4/21/2023 | [Check-in and room release on Microsoft Teams panels](/MicrosoftTeams/devices/check-in-and-room-release) | modified |
-| 4/21/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-
-
-## Week of April 10, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/10/2023 | Microsoft Teams device usage report | removed |
-| 4/10/2023 | Microsoft Teams usage report | removed |
-| 4/10/2023 | Microsoft Teams user activity report | removed |
-| 4/12/2023 | [Customize meeting invitations (IT admins)](/MicrosoftTeams/customize-meeting-invitations) | added |
-| 4/12/2023 | [Set how you want to handle real-time media traffic for Teams meetings](/MicrosoftTeams/meetings-real-time-media-traffic) | added |
-| 4/12/2023 | [Predefined meeting templates included with Microsoft Teams Premium](/MicrosoftTeams/predefined-meeting-template-reference) | added |
-| 4/12/2023 | Manage meeting settings | removed |
-| 4/13/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-| 4/14/2023 | [Require a watermark for sensitive Teams meetings](/MicrosoftTeams/watermark-meeting-content-video) | modified |
-| 4/14/2023 | [Considerations for Calling Plan](/MicrosoftTeams/considerations-calling-plan) | added |
-| 4/14/2023 | [Considerations for Direct Routing](/MicrosoftTeams/considerations-direct-routing) | added |
-| 4/14/2023 | [Considerations for Operator Connect](/MicrosoftTeams/considerations-operator-connect) | added |
-| 4/14/2023 | [Considerations for Teams Phone Mobile](/MicrosoftTeams/considerations-teams-phone-mobile) | added |
-| 4/14/2023 | [PSTN connectivity options](/MicrosoftTeams/pstn-connectivity) | modified |
-| 4/14/2023 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 4/14/2023 | Manage voice and calling policies in Teams | removed |
-| 4/14/2023 | [Teams voice Contoso case study: Emergency calling](/MicrosoftTeams/voice-case-study-emergency-calling) | modified |
-| 4/14/2023 | [Plan and manage emergency calling](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modified |

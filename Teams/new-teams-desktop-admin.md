@@ -99,24 +99,33 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 2. Select **Teams > Teams Update** policies from the left pane, as shown below.
 
-   :::image type="content" source="media/new-teams-update-policies-toggle.png" alt-text="step in how to update teams policies":::
+   :::image type="content" source="media/new-teams-update-policies.png" alt-text="step in how to update teams policies":::
 
 3. Select Add to create a new policy or select an existing policy to open Update policy.
+
+:::image type="content" source="media/new-teams-update-policies-2.png" alt-text="update policies add a new policy":::
+
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
    |Setting|Description|
    |:-----|:-----|
-   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |User can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+   |Users can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
+   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
-   :::image type="content" source="media/new-teams-update-policies-toggle2.png" alt-text="naming the update policy and the setting." lightbox="media/new-teams-update-policies-toggle2.png":::
 
-5. Once the policy is defined, you can assign it to a specific user or users groups by selecting the **Policy name > Assign users > Manage users**. Enter the user to add and select apply.
+5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
-   :::image type="content" source="media/new-teams-update-policies-toggle3.png" alt-text="next step in enabling the toggle switch" lightbox="media/new-teams-update-policies-toggle3.png":::
+:::image type="content" source="media/new-teams-update-policies-group.png" alt-text="update policies by group":::
+
+Select a policy to assign to the group.
+
+
+:::image type="content" source="media/new-teams-update-policies-group-assign.png" alt-text="update policy and assign by group":::
 
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
+
+:::image type="content" source="media/new-teams-update-policies-manage-users.png" alt-text="update policy per user":::
 
    If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
