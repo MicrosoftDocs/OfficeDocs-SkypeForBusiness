@@ -85,7 +85,7 @@ The two values for this setting are:
 
 This setting provides you with a simple tool that reduces the amount of storage older recordings use. OneDrive and SharePoint monitor the expiration setting on all meeting recordings and automatically move recordings to the recycle bin on their expiration date.
 
-You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), under **Meetings** > **Meeting policies** > **Recording & transcription**.
+You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 ### Default expiration time
 
