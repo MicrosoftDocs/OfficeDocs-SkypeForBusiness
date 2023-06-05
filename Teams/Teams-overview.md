@@ -67,7 +67,7 @@ To stay on top of what's coming for Teams and all other Microsoft 365 products a
 
 ## Teamwork
 
-Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 are designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
+Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
 
 When deciding which Microsoft 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
 
@@ -85,8 +85,8 @@ When deciding which Microsoft 365 apps and services to use, think about the work
 
 ## Related topics
 
-[Microsoft Teams content updates](teams-updates.md).
+[Microsoft Teams content updates](teams-updates.md)
 
-[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams).
+[Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
 
-[What's new in Teams](https://support.office.com/article/d7092a6d-c896-424c-b362-a472d5f105de).
+[What's new in Teams](https://support.office.com/article/d7092a6d-c896-424c-b362-a472d5f105de)
