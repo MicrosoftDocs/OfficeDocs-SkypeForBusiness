@@ -41,7 +41,7 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 ## Real-time monitoring
 
-## Yammer integration
+## Viva engage integration
 
 ## Town hall control comparison
 
