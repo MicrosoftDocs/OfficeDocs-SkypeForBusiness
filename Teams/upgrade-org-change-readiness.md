@@ -1,7 +1,7 @@
 ---
 title: Assess organizational change readiness for your Skype for Business to Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
