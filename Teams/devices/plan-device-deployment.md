@@ -47,7 +47,7 @@ Personal and shared devices have different roles and uses.
 - Think of personal devices as having a one-to-one relationship, with one device per one user.
 - Can be paired with the Teams desktop client and use features like Better Together
 - May connect to a headset, wired or wireless
-- Other features on personal devices include hot-desking and Home Screen. 
+- Additional features on personal devices include hot-desking and Home Screen. 
 
 **Shared space devices:**
 
@@ -56,7 +56,7 @@ Personal and shared devices have different roles and uses.
 - Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
 - Their user interfaces (UI) are specific to their function, such as common area phone UI, or meeting room UI depend upon the function and placement of the shared device.
 - Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
-- Other features on shared space devices include search on common area phones and hot-desking with idle timeout
+- Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
 
 ### Objective: How many personal and shared space devices do you need?
 
