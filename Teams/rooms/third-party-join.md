@@ -1,7 +1,7 @@
 ---
 title: Enable Teams Rooms devices to join third-party meetings
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
 ms.date: 07/22/2020

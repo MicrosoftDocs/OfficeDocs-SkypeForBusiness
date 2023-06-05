@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 05/08/2023
 manager: serdars

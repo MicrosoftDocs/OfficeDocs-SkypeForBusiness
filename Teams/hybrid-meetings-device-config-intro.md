@@ -1,7 +1,7 @@
 ---
 title: "Step 5 - Overview"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
