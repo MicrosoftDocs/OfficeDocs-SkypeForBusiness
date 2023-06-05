@@ -132,7 +132,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 ### In the Teams admin center
 
 > [!NOTE]
-> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
+> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, Teams messaging policy and App setup policies. For other policy types, use PowerShell.
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy type page. For example, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
