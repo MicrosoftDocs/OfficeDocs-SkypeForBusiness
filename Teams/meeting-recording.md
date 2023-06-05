@@ -44,7 +44,7 @@ External participants can't record meetings except in the case of [Teams policy-
 
 ## Allow or prevent users from recording meetings
 
-You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded. Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting.
+You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting.
 
 Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
