@@ -99,6 +99,9 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 > [!CAUTION]
 > If you've already deployed Teams and want to set this policy to disable Teams autostart, first set the Group Policy setting to the value you want, and then run the [Teams autostart reset script](scripts/powershell-script-teams-reset-autostart.md) on a per-user basis.
 
+> [!NOTE]
+> For information about using Administrative Templates in Microsoft Intune to configure this setting, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows).
+
 ### Disable auto launch for the MSI installer
 
 You can disable auto launch for the MSI installer by using the `OPTIONS="noAutoStart=true"` parameter as follows.  

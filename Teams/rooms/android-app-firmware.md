@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms on Android app and firmware versions
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 05/02/2018
 manager: serdars
@@ -50,6 +50,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV81 | `2.0.268` | 2023 Update #1A |
 | Poly Studio X30 | `4.0.1.380048` | 2023 Update #1 |
 | Poly Studio X50 | `4.0.1.380048` | 2023 Update #1 |
 | Poly Studio X70 | `4.0.1.380048` | 2023 Update #1 |
