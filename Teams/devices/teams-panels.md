@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams panels
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/15/2021

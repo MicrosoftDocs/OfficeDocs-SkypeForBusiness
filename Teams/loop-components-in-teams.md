@@ -87,6 +87,6 @@ If you disable these experiences as outlined in the [Settings management](/share
 - With tenant default file permissions set to *Specific people* (only the people the user specifies), creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
 - Searching for Loop components in Teams search will return a link to the component in office.com, not the chat message itself.
 - Loop components are disabled in federated chats.
-- Guests won't be able to collaborate on a live component that is shared with them via Company Share Link. Set permissions to **People currently in this chat** to share components with guests.
+- Guests won't be able to view or collaborate on a Loop component.
 - Loop components aren't supported in Teams channels.
 - Loop components in chat won't load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.

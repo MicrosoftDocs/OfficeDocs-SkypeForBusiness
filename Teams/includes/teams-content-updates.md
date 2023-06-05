@@ -2,6 +2,26 @@
 
 
 
+## Week of May 29, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/30/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 5/30/2023 | [Proxy servers for Teams or Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modified |
+| 5/30/2023 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
+| 5/31/2023 | [Manage caller ID for users](/MicrosoftTeams/caller-id-policies) | modified |
+| 5/31/2023 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 5/31/2023 | How can caller ID be used in your organization | removed |
+| 5/31/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 6/1/2023 | [IT Admins - Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
+| 6/2/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/2/2023 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
+| 6/2/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 6/2/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 6/2/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
+
+
 ## Week of May 22, 2023
 
 
@@ -84,30 +104,3 @@
 | 5/4/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | modified |
 | 5/4/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
 | 5/4/2023 | [Roll out Microsoft Teams First](/MicrosoftTeams/teams-first-overview) | modified |
-
-
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/24/2023 | [Kaizala and Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modified |
-| 4/24/2023 | [Translate phone numbers for Direct Routing](/MicrosoftTeams/direct-routing-translate-numbers) | modified |
-| 4/25/2023 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | modified |
-| 4/25/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 4/25/2023 | [Create a Microsoft Teams call queue](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | modified |
-| 4/25/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 4/25/2023 | [Broadcast meeting content](/MicrosoftTeams/use-ndi-in-meetings) | modified |
-| 4/26/2023 | Set up an auto attendant for Microsoft Teams | removed |
-| 4/26/2023 | Create a call queue in Microsoft Teams | removed |
-| 4/26/2023 | Create a Microsoft Teams call queue | removed |
-| 4/26/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
-| 4/26/2023 | [Admin training for Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | modified |
-| 4/26/2023 | [Prepare a user readiness plan for upgrading from Skype for Business to Teams](/MicrosoftTeams/upgrade-user-readiness) | modified |
-| 4/26/2023 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
-| 4/26/2023 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
-| 4/26/2023 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
-| 4/27/2023 | [Auto install approved Teams apps](/MicrosoftTeams/auto-install-approved-apps) | renamed |
-| 4/27/2023 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
-| 4/27/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 4/28/2023 | [Communication compliance with Microsoft Teams](/MicrosoftTeams/communication-compliance) | modified |

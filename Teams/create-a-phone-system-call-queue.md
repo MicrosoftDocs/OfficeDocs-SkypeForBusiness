@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 11/28/2017
+ms.date: 06/02/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -25,11 +25,6 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-    - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2 
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
 
@@ -191,17 +186,6 @@ The following clients are supported when using a Teams channel for call queues:
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
-> [!IMPORTANT]
-> Known issue: Assigning private channels to call queues
->
-> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
->
-> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
->
-> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
->
-> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
-
 ### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
@@ -236,17 +220,6 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
 
-> [!NOTE]
-> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
->
-> Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
-> 
-> Conference mode is required if Teams users need to consult/transfer calls with call queues.
->
-> Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
-> 
-> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
-
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
@@ -268,15 +241,6 @@ Choose from these options:
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
-> [!NOTE]
-> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
->
-> When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
->
-> When using **Longest idle**, there may be times when an agent receives a call from the queue shortly after becoming unavailable, or a short delay in receiving a call from the queue after becoming available.
->
-> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but won't be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
-
 ### Presence-based call routing
 
 **Presence-based call routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method.
@@ -289,15 +253,6 @@ If an agent opts out of getting calls, they won't receive calls regardless of th
 
 > [!TIP]
 > Setting the **Presence-based routing** to **on** is the recommended setting.
-
-> [!NOTE]
-> When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
->
-> If presence-based routing isn't enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This action will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
->
-> When using **Presence-based routing**, there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
->
-> Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
 ### Call agents can opt out of taking calls
 
@@ -437,6 +392,7 @@ The following settings are recommended:
 8. Only standard channels are supported.
 9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
+
   - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
   - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
