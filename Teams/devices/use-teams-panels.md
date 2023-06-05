@@ -116,7 +116,7 @@ To reserve an available meeting space for an ad hoc meeting:
 
 3. Tap the desired end time interval, and then tap **Reserve**.
 
-    A confirmation window appears with a thumbs up emoji, meeting start and end time, and meeting space name.
+    A confirmation window appears with a thumbs-up emoji, meeting start and end time, and meeting space name.
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message.":::
 The right tile on the Home screen now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad hoc Teams meeting.
   
@@ -196,7 +196,7 @@ On the Teams panel, sign in using your admin credentials.
 
 #### Enable or disable meeting check-in and automatic room release
 
-Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn't check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
+Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn't check in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
 When Teams Panels is paired with Microsoft Teams Rooms on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
@@ -222,7 +222,7 @@ This feature is enabled by default, but it can be disabled per device. To disabl
 
 #### Enable or disable extension of existing room reservations
 
-When room reservation extensions are enabled, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+When room reservation extensions are enabled, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15-minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
 
 This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Allow room reservation extensions**.
 
