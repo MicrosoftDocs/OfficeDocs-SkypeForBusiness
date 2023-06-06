@@ -2,8 +2,8 @@
 title: Set up and configure Career Coach for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
-ms.reviewer: alaina.creager
-ms.date: 07/12/2022
+ms.reviewer: norahak
+ms.date: 06/06/2023
 manager: serdars
 ms.topic: article
 audience: admin
@@ -25,7 +25,17 @@ appliesto:
 # Set up and configure Career Coach for Microsoft Teams
 
 > [!NOTE]
-> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+> As of March 2023, customers are no longer be able to purchase Career Coach. By June of 2023, Microsoft will stop all support of Career Coach. For more information and to learn how to export your Career Coach data, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+>
+> To remove the Career Coach app from your users' Teams clients, follow these instructions.
+>
+> 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+> 2. Expand **Teams apps** in the left-side menu.
+> 3. Select **Setup policies** in the menu.
+> 4. Find **Career Coach** in the list of Teams apps, and select the checkmark next to the app name.
+> 5. In the actions utility bar, select **X Remove**.
+>
+> The Career Coach app is now unpinned from your users' Teams clients.
 
 This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
