@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 11/28/2017
+ms.date: 06/05/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -25,11 +25,6 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-    - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2 
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Learn how to set up call queues in Microsoft Teams. Call queues provide a greeting message, hold music, call redirecting, and other features.
 ---
 
@@ -191,17 +186,6 @@ The following clients are supported when using a Teams channel for call queues:
 >
 > If there are more than 200 members in the team, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
 
-> [!IMPORTANT]
-> Known issue: Assigning private channels to call queues
->
-> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
->
-> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
->
-> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
->
-> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
-
 ### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
@@ -216,13 +200,24 @@ To **add a user** to the queue:
 
 To **add a group** to the queue:
 
-1. Select **Add groups**, search for the group, select **Add**, and then select **Add**. 
+1. Select **Add groups**, search for the group, select **Add**, and then select **Add**.
     1. You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.
 
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 >
 > If there are more than 200 members in the group, only the first 200 members, in alphabetical order, will be added as agents to the call queue.
+
+> [!IMPORTANT]
+> Known issue: Assigning private channels to call queues
+>
+> When using a private channel calls will be distributed to all members of the team even if the private channel only has a subset of team members.
+>
+> You may experience this problem when trying to assign a private channel to a call queue. This problem may occur even if the call queue previously had a private channel assigned or if the private channel was previously assigned to a call queue.
+>
+> If you already have private channels assigned to call queue they will continue to work. This problem only affects new assignments.
+>
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
 
 ### Conference mode
 
@@ -236,22 +231,31 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
 
+Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
+
 > [!NOTE]
 > Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
 > Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
-> 
+>
 > Conference mode is required if Teams users need to consult/transfer calls with call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
-> 
+>
 > If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
-
-Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a call queue** page.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
+
+> [!NOTE]
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
+>
+> When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
+>
+> When using **Longest idle**, there may be times when an agent receives a call from the queue shortly after becoming unavailable, or a short delay in receiving a call from the queue after becoming available.
+>
+> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but won't be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.
 
 **Routing method** determines the order in which agents receive calls from the queue.
 
@@ -267,15 +271,6 @@ Choose from these options:
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
-
-> [!NOTE]
-> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
->
-> When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
->
-> When using **Longest idle**, there may be times when an agent receives a call from the queue shortly after becoming unavailable, or a short delay in receiving a call from the queue after becoming available.
->
-> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but won't be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
 
 ### Presence-based call routing
 
@@ -326,7 +321,7 @@ For example, when **Overflow** occurs, you might send calls to a backup call que
 
 > [!NOTE]
 > The **Voicemail (personal)** routing option will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support.
-> 
+>
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 
 ### Overflow: Set how to handle call overflow
@@ -337,7 +332,7 @@ The default is 50, but it can range from 0 to 200.
 
 When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-This limit applies only to calls that are waiting in queue to be answered. 
+This limit applies only to calls that are waiting in queue to be answered.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message won't play.
@@ -357,10 +352,10 @@ You can specify a value from 0 seconds to 45 minutes.
 
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
-> 
+>
 > - No agents are opted in to the queue, or
 > - Presence based routing is enabled and no agents logged in
-> 
+>
 > If agents are logged or opted in then calls will be queued.
 
 Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
@@ -437,8 +432,8 @@ The following settings are recommended:
 8. Only standard channels are supported.
 9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
 10. For GCCH/DOD, only available through User Settings Portal at:
-  - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-  - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### Supported clients
 
@@ -475,8 +470,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ## Related articles
 
-[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md).
 
-[Getting service phone numbers](getting-service-phone-numbers.md)
+[Getting service phone numbers](getting-service-phone-numbers.md).
 
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
