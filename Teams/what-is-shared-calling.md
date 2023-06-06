@@ -39,9 +39,11 @@ For more information about Phone System features, see [Here's what you get with 
 
 ## Requirements
 
-- Each user must have a Phone System license assigned, and each user must be enabled for voice. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Each user must have a Phone System license assigned, and each user must be enabled for voice. 
 
-  To assign the license and enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) and set the **EnterpriseVoiceEnabled** parameter to $true.
+  For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+  
+  To assign the license and enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the **EnterpriseVoiceEnabled** parameter to $true.
 
 - You must create and assign an emergency call routing policy for each user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Considerations for PSTN connectivity options](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-pstn-connectivity-options).
 

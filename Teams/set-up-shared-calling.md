@@ -29,7 +29,7 @@ description: "In this article, you'll learn how to configure Teams Phone Shared 
 
 # Set up Shared Calling
 
-Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed before you can configure Shared Calling.
+Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to configure Shared Calling.
 
 To set up and manage Shared Calling, you'll use the following Teams PowerShell cmdlets: 
 
@@ -76,8 +76,6 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 - Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
 
-- Emergency numbers must be assigned to a specific Shared Calling policy. 
-
 - When emergency callback numbers are added to a policy: 
 
   - For Calling Plan and Operator Connect, these numbers must be validated to be in NAS.  
@@ -90,7 +88,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
   - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  (TAC doesn’t show DR numbers so need to define how to deal with this) 
 
-  - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the policy before you delete or reassign the number. 
+  - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
 
 
 
