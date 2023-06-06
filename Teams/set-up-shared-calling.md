@@ -46,7 +46,7 @@ For example, the following command creates a new Shared Calling policy, called T
 New-CsTeamsSharedCallingRoutingPolicy -Identity Test -ResourceAccount ra1@contoso.com -EmergencyCallbackNumbers {@add='+12065556677','+14255556677','+1425555432'} 
 ```
 
-The next command removes one of the emergency callback numbersy, 1425555432, from the policy (required before that number can be deleted or reassigned):
+The next command removes one of the emergency callback numbers, 1425555432, from the policy (required before that number can be deleted or reassigned):
 
 ```powershell
 Set-CsTeamsSharedCallingRoutingPolicy -Identity Test -EmergencyCallbackNumbers {@remove='+1425555432'} 
@@ -58,7 +58,7 @@ The next command adds a new emergency callback number, 1425555433, to the policy
 Set-CsTeamsSharedCallingRoutingPolicy -Identity Test -EmergencyCallbackNumbers {@add='+1425555433'} 
 ```
 
-To associate a location on resource account numbers for Calling Plan, Operator Connect, and Direct Routing, use the Set-CsPhoneNumberAssignment cmdlet.
+To associate a location on resource account numbers for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet.
 
 ## Configuration rules
 
