@@ -64,7 +64,7 @@ Note that if you change the settings of an existing template, it will affect new
 
 |Setting|Description|
 |:------|:----------|
-|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template. Once you save the template, the label can't be changed.|
+|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the setting unlocked.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
 |Enable meeting end-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
