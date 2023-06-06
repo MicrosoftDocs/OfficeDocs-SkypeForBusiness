@@ -116,7 +116,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 </br>
 
 >[!Note]
->The option "Classic Teams as default" was previously called "Users can choose"
+>The option "Classic Teams as default" was previously called "Users can choose".
 
 </br>
 
