@@ -49,9 +49,9 @@ For users who do not need a dedicated assigned phone number, you should consider
 
 - You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
-- If inbound PSTN calling is required, you must assign this resource account to a configured Auto Attendant that is scoped to the users it needs to reach.
+- If inbound PSTN calling is required, you must assign this resource account to a configured Auto Attendant that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
 
-- If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing.
+- If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
 - You must have Teams PowerShell Module version ??  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets.  You will use these cmdlets to create and manage Shared Calling policies.  For more information, see [Set up Shared Calling](set-up-shared-calling.md).
 
