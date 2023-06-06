@@ -29,18 +29,34 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 # What is Shared Calling
 
-Shared Calling might be the right solution for your organization if you have users who are not heavy users of the Public Switched Telephone Network (PSTN). If you have users who do not need an assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution. 
+If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), Shared Calling might be the right solution for your organization. If you have users who do not need an assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution. 
 
-With Shared Calling, instead of assigning a phone number to every user, the Auto Attendant number/resource account is used instead for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. 
+With Shared Calling, instead of assigning a phone number to every user, you can assign an Auto Attendant resource account number for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. 
 
 For more information about Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
 
+## Requirements
 
+- Each user must have a Phone System license assigned, and each user must be enabled for voice. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+  To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) and set the **EnterpriseVoiceEnabled** parameter to $true.
+
+- You must create and assign an emergency call routing policy for each user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
+- You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information, see [Manage resource accounts](manage-resource-accounts.md).
+
+- If inbound PSTN calling is required, you must assign this resource account to a configured Auto Attendant that is scoped to the users it needs to reach.
+
+- If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing.
+
+- You must have Teams PowerShell Module version ??  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets.
 
 ## Related topics
 
-- [Phone System features](here-s-what-you-get-with-phone-system.md)
-- [Set up Phone System](setting-up-your-phone-system.md)
-- [Plan your Teams voice solution](cloud-voice-landing-page.md)
-- [PSTN connectivity options](pstn-connectivity.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Set up Shared Calling](set-up-shared-calling.md)
+- [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
+- [Manage resource accounts](manage-resource-accounts.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [What is Phone System](what-is-phone-system-in-office-365.md)
+- [Phone System features](here-s-what-you-get-with-phone-system.md)
