@@ -22,7 +22,7 @@ appliesto:
 # Troubleshoot Career Coach for Microsoft Teams
 
 > [!NOTE]
-> As of March 2023, customers are no longer be able to purchase Career Coach. By June of 2023, Microsoft will stop all support of Career Coach. For more information and to learn how to export your Career Coach data, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+> As of March 2023, customers are no longer able to purchase Career Coach. By June of 2023, Microsoft will stop all support of Career Coach. For more information and to learn how to export your Career Coach data, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
 >
 > To remove the Career Coach app from your users' Teams clients, follow these instructions.
 >
