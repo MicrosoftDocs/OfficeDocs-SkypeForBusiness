@@ -113,8 +113,11 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
+</br>
 >[!Note]
 >The option "Classic Teams by default" was previously called "Users can choose"
+
+</br>
 
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
