@@ -31,11 +31,11 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. 
 
-With Shared Calling, instead of assigning a phone number to every user, you can assign an Auto Attendant resource account number for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. 
+With Shared Calling, instead of assigning a phone number to every user, you can assign an Auto Attendant resource account number for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. (For more information about Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)).
 
 For users who do not need a dedicated assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users.
 
-For more information about Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
+
 
 ## Requirements
 
@@ -53,7 +53,7 @@ For more information about Phone System features, see [Here's what you get with 
 
 - If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing.
 
-- You must have Teams PowerShell Module version ??  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets.
+- You must have Teams PowerShell Module version ??  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets.  You will use these cmdlets to create and manage Shared Calling policies.  For more information, see [Set up Shared Calling](set-up-shared-calling.md).
 
 ## Related topics
 
