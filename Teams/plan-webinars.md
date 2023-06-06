@@ -28,7 +28,7 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 # Plan for Teams webinars
 
-**APPLIES TO:** ![no](media/no.png)Meetings ![yes](media/yes.png)Webinars ![no](media/no.png)Town halls
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
 ## Recordings
 
