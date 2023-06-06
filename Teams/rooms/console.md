@@ -1,7 +1,7 @@
 ---
 title: Build a Microsoft Teams Rooms image
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: Travis-Snoozy
 ms.date: 02/23/2018
 manager: serdars
@@ -36,7 +36,7 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Supported hardware](console.md#supported-hardware)
 - [Prepare the installation media](console.md#Prep_Media)
 - [Install a private CA certificate on the console](console.md#Certs)
-- [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
+- [Install Windows and the Microsoft Teams Rooms console app](console.md#Reimage)
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
@@ -50,7 +50,7 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 
 > [!NOTE]
 > - Core M3 processors aren't supported.
-> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows 10 Enterprise.
+> - You need a 32 GB or larger USB drive configured as bootable Windows installation media for Windows Enterprise.
 
 Surface Pro devices require one of the following docking station options:
 
@@ -70,10 +70,10 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 > The process below is for creating installation media to image new Microsoft Teams Rooms devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
 
 > [!IMPORTANT]
-> The Windows 10 machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
+> The Windows machine used to create the Microsoft Teams Rooms installation media must be on the same or later version of Windows as the target installation media.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
-2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows machine.
 3. Follow the script's instructions to create a Microsoft Teams Rooms USB setup disk.
 
 
@@ -88,12 +88,11 @@ The CreateSrsMedia.ps1 script performs the following tasks:
 4. Assemble the needed components on the installation media.
 
 > [!NOTE]
-> A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+A specific version of Windows is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
-When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
+When finished, remove the USB disk from your computer and proceed to [Install Windows and the Microsoft Teams Rooms console app](console.md#Reimage).
 
-    
-## Install Windows 10 and the Microsoft Teams Rooms console app
+## Install Windows and the Microsoft Teams Rooms console app
 <a name="Reimage"> </a>
 
 You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.

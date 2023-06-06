@@ -97,8 +97,8 @@ Here's an example of how to use a script to assign licenses to your users.
     foreach ($user in $users)
         {
         Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
         }
     ```
 

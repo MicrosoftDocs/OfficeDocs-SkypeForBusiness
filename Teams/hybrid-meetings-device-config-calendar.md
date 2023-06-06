@@ -1,7 +1,7 @@
 ---
 title: "Step 7 - Configure calendar options"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
