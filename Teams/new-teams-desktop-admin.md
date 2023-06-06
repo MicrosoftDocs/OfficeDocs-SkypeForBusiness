@@ -103,7 +103,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 
-:::image type="content" source="media/new-teams-update-policies-2a.png" alt-text="update policies add a new policy":::
+:::image type="content" source="media/new-teams-update-policies-2.png" alt-text="update policies add a new policy":::
 
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
