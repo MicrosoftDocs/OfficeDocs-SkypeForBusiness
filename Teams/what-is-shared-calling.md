@@ -29,9 +29,11 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 # What is Shared Calling
 
-If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), Shared Calling might be the right solution for your organization. If you have users who do not need an assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution. 
+If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. 
 
-With Shared Calling, instead of assigning a phone number to every user, you can assign an Auto Attendant resource account number for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. Shared Calling greatly simplifies phone number management for those users.
+With Shared Calling, instead of assigning a phone number to every user, you can assign an Auto Attendant resource account number for inbound and outbound PSTN calls. Users have the same Phone System user experience and features (true?), including the dial pad. 
+
+For users who do not need a dedicated assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users.
 
 For more information about Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
 
