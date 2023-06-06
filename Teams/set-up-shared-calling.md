@@ -70,7 +70,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 - If you remove, reassign, or port a number of the resource account used in a shared calling policy, the policy remains intact, but outbound calls will fail for any users still configured to make calls from that number.
 
-### Emergency calling rules
+## Emergency calling rules
 
 - You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency number is made, the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
 
