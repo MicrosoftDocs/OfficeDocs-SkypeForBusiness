@@ -110,12 +110,12 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |Setting|Description|
    |:-----|:-----|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Classic Teams by default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
 </br>
 >[!Note]
->The option "Classic Teams by default" was previously called "Users can choose"
+>The option "Classic Teams as default" was previously called "Users can choose"
 
 </br>
 
