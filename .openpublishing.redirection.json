@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "Teams/manage-third-party-teams-apps.md",
-      "redirect_url": "/microsoftteams/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
+      "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
       "redirect_document_id": false
     },
     {
