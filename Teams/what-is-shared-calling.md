@@ -43,8 +43,6 @@ For more information about Phone System features, see [Here's what you get with 
 
 - You must create and assign an emergency call routing policy for each user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Considerations for PSTN connectivity options](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-pstn-connectivity-options).
 
-https://review.learn.microsoft.com/en-us/microsoftteams/what-are-emergency-locations-addresses-and-call-routing?branch=crowe-shared-calling#emergency-call-routing
-
 - You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
 - If inbound PSTN calling is required, you must assign this resource account to a configured Auto Attendant that is scoped to the users it needs to reach.
