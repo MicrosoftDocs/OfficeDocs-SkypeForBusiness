@@ -81,20 +81,20 @@ This video shows the steps to view and edit the details of an existing team.
 
 To restore a deleted team in the Teams admin center, do the following:
 
- 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 1. Go to the **[Teams Admin center](https://admin.teams.microsoft.com/)** > **Teams** > **Manage teams**.
  
  2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
   
  3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
  
  > [!NOTE]
- > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
+ > It might take some time for the team to appear in the **Manage Teams** list. Select **Refresh** to refresh the list.
 
 ### Expiring Teams
 
-If you're a Global administrator or a Teams administrator, to renew an expiring team in the Teams admin center, do the following:
+To renew an expiring team in the Teams admin center, do the following:
 
- 1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
+ 1. Go to the **[Teams Admin center](https://admin.teams.microsoft.com/)** > **Teams** > **Manage teams**.
  
  2. Select **Filter**, and in the **Filter** section, do the following:
  
