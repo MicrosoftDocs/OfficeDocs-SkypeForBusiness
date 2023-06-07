@@ -37,28 +37,29 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
+![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
+
 The grid displays the following properties:
 
 - **Team name**
-- **Channels** - a count of all channels in the team, including the default General channel.
+- **Standard channels** - a count of the standard channels in the team.
+- **Private channels** - a count of the private channels in the team.
+- **Shared channels** - a count of the shared channels in the team.
 - **Team members** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guests who are members of this team.
-- **Privacy** - the Visibility/AccessType of the backing Microsoft 365 group.
-- **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **Description** - the description of the backing Microsoft 365 group.
-- **Classification** - the classification (if used in your organization) assigned to the backing Microsoft 365 group. Learn more about classifications at [Create classifications for Microsoft 365 Groups in your organization](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
-- **GroupID** - the unique GroupID of the backing Microsoft 365 group.
+- **Privacy** - whether the team is public or private.
+- **Status** - the Archived or Active status for this team. Learn more about archiving teams in [Archive or restore a team](https://support.office.com/article/dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **Description** - the description of the team.
+- **Sensitivity** - the sensitivity label associated with the team. (This columnn may be called *classification* if you haven't set up sensitivity labels.)
+- **GroupID** - the unique GroupID of the team.
+- **Expiration date** - the date the team is scheduled to expire if the team has an [expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy).
 
-> [!NOTE]
-> If you don't see all these properties in the grid, click the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, click **Apply**.
+If you don't see all these properties in the grid, click the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, click **Apply**.
 
 ### Add
 
-To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the classification.
-
-> [!NOTE]
-> Newly created teams can be managed right away in the Teams Admin Center, unlike the experience in other clients like, Outlook.
+To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the sensitivity if needed.
 
 This video shows the steps to create a new team and a channel for them.
 
@@ -74,16 +75,16 @@ This video shows the steps to view and edit the details of an existing team.
 
 ### Archive
 
-You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. 
+[Archiving a team](archive-or-delete-a-team.md) puts the team into read-only mode within Teams. To archive a team, select the team by clicking to the left of the team name, and then select **Archive**.
 
 ### Deleted Teams
 
-If you're a Global administrator or a Teams administrator, to restore a deleted team in the Teams admin center, do the following:
+To restore a deleted team in the Teams admin center, do the following:
 
  1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
  
  2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
-   
+  
  3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
  
  > [!NOTE]
@@ -120,6 +121,8 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
+![Screenshot of an example team profile.](media/manage-teams-in-modern-portal-team-profile-page.png)
+
 ## Making changes to teams
 
 On the team's profile page, you can change the following elements of a team:
@@ -159,9 +162,12 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview.
 
-## Learn more
+## Related topics
 
-- [Teams cmdlet reference](/powershell/teams/)  
-- [Use Teams administrator roles to manage Teams](using-admin-roles.md)
-- [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-- [Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
+[Teams cmdlet reference](/powershell/teams/)  
+
+[Use Teams administrator roles to manage Teams](using-admin-roles.md)
+
+[Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+
+[Overview of the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview)
