@@ -37,7 +37,7 @@ For information about each client's capabilities on different platforms, see [Te
 ## Desktop clients
 
 >[!Note]
->The new Microsoft Teams desktop client is now available in preview. The minimum system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+>The new Microsoft Teams desktop client is available in preview. The minimum system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
 
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
@@ -67,7 +67,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
 > [!NOTE]
-> Teams isn't currently supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+> Teams isn't supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
