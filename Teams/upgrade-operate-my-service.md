@@ -482,7 +482,7 @@ online survey tool.
 
 [Net Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
-[Using Viva Engage to collect feedback](https://techcommunity.microsoft.com/t5/viva-engage-Blog/The-Microsoft-Teams-team-uses-viva-engage/ba-p/55210)
+[Using Viva Engage to collect feedback](https://techcommunity.microsoft.com/t5/yammer-Blog/The-Microsoft-Teams-team-uses-yammer/ba-p/55210)
 
 [Best practices for user feedback](best-practices-feedback.md)
 

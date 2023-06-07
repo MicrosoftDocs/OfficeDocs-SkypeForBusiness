@@ -112,5 +112,5 @@ Go to [Plan for Teams live events](plan-for-teams-live-events.md).
 ### Related topics
 
 - [Get started with Microsoft Teams live events](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
-- [Live events in Viva Engage](https://support.office.com/article/live-events-in-viva-engage-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Live events in Viva Engage](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Live streaming events in Microsoft Teams](../teams-stream-overview.md)

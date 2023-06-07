@@ -49,7 +49,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 - Sway
 - To-Do (Plan 1)
 - Whiteboard (Plan 1)
-- Viva Engage Enterprise
+- Viva Engage
 
   <sup>1</sup> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch, you'll be able to opt in to this experience. In November, you'll have to opt out if you want to continue using Stream. Sometime in early 2021, we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
