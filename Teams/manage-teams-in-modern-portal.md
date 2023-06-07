@@ -8,9 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-ms.date: 09/13/2018
-description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
-ms.localizationpriority: high
+ms.date: 06/06/2023
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -20,29 +19,23 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
 ---
 
 # Manage teams in the Microsoft Teams admin center
 
-## Overview
-
 This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
-As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
+As an admin, you may need to view or update the teams in your organization, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage teams through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
 
-- Global Administrator
-- Teams Administrator
+- Global administrator
+- Teams administrator
 
 You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/).
-
-> [!NOTE]
-> Skype for Business Online Admins can manage both **Teams** and **Skype for Business Online** app policies through PowerShell.
 
 ## Teams overview grid
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
-
-![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -90,12 +83,8 @@ If you're a Global administrator or a Teams administrator, to restore a deleted 
  1. Go to the **[Teams Admin center](https://admin-dev.teams.microsoft.net/teams/manage)** > **Teams** > **Manage teams**.
  
  2. Expand **Actions** menu on the top right corner, click **View deleted teams**.
- 
-    ![view-deleted-teams](media/actions-menu.png)
    
  3. Select the team that you want to restore from the list, and then click **Restore**. You can also select multiple teams and restore them.
- 
-    ![list-of-deleted-teams](media/selected-team.png)
  
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team to appear in the **Manage Teams** list.
@@ -116,8 +105,6 @@ If you're a Global administrator or a Teams administrator, to renew an expiring 
  
  4. Select the expiring team that you want to renew, and then click **Renew**. You can also select multiple teams and renew them. 
 
-    ![list-of-expiring-teams](media/expired-team.png)
-    
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take sometime for the team's details and expiration date to get updated.
 
@@ -133,8 +120,6 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-![Screenshot of an example team profile.](media/manage-teams-in-modern-portal-team-profile-page.png)
-
 ## Making changes to teams
 
 On the team's profile page, you can change the following elements of a team:
