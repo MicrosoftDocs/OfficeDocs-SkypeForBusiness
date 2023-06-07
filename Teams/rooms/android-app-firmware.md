@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms on Android app and firmware versions
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 05/02/2018
 manager: serdars

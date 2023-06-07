@@ -1,7 +1,7 @@
 ---
 title: Find Teams Rooms devices with unsupported licenses 
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -43,11 +43,11 @@ For example, if you select **Teams devices > Teams Rooms on Windows**, you
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams Rooms inventory list with focus on Standard, Pro, and Pro (Trial) licenses.":::
 
-Devices that have the Teams Rooms Pro license can access all the capabilities of their Teams Room devices. Devices with other Teams Rooms licenses can access a subset of those features. You can see which features are available to each license in [Teams Rooms Basic and Teams Rooms Pro feature comparison](rooms-licensing.md#teams-rooms-basic-and-teams-rooms-pro-feature-comparison).
+Devices that have the Teams Rooms Pro license can access all the capabilities of their Teams Rooms devices. Devices with other Teams Rooms licenses can access a subset of those features. You can see which features are available to each license in [Teams Rooms Basic and Teams Rooms Pro feature comparison](rooms-licensing.md#teams-rooms-basic-and-teams-rooms-pro-feature-comparison).
 
 ## Check the license of multiple Microsoft Teams Rooms devices
 
-Checking licenses for Teams Room devices one at a time can be time consuming. To make this process easier, we're making available a sample script that checks the licenses of all your Teams Rooms devices. The script provides you with a list of the resource accounts that are associated with your Teams Rooms devices, organized by license type. Resource accounts with licenses that aren't supported with Teams Rooms devices are grouped together for your review. If resource accounts associated with Teams Rooms devices have an unsupported license type, you'll need to change it to a supported license before July 1, 2023.
+Checking licenses for Teams Rooms devices one at a time can be time consuming. To make this process easier, we're making available a sample script that checks the licenses of all your Teams Rooms devices. The script provides you with a list of the resource accounts that are associated with your Teams Rooms devices, organized by license type. Resource accounts with licenses that aren't supported with Teams Rooms devices are grouped together for your review. If resource accounts associated with Teams Rooms devices have an unsupported license type, you'll need to change it to a supported license before July 1, 2023.
 
 Take a look at this short video to see how to use the example script to audit your licenses:
 
@@ -61,7 +61,7 @@ Take a look at this short video to see how to use the example script to audit yo
 .AUTHOR Peter Lurie, Mark Hodge 
 .COMPANYNAME Microsoft 
 .COPYRIGHT (c) 2022-2023 Peter Lurie & Mark Hodge 
-.TAGS Microsoft Teams Room System Surface Hub MEETING_ROOM for Resource Accounts 
+.TAGS Microsoft Teams Rooms System Surface Hub MEETING_ROOM for Resource Accounts 
 .LICENSEURI https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1 
 .PROJECTURI  
 .ICONURI  
@@ -107,7 +107,7 @@ Write-Host
 Write-Host "Welcome to Meeting Room License Checker." -ForegroundColor Green 
 Write-Host 
 Write-Host "This tool will look through your Exchange Online and AAD to find Resource Account Mailbox UPNs." 
-Write-host "It will then report which resource accounts have Teams Room licenses, which have no license, and which have some other licenses" 
+Write-host "It will then report which resource accounts have Teams Rooms licenses, which have no license, and which have some other licenses" 
 Write-host "This is ver 0.24."  
 Write-Host 
  
@@ -153,10 +153,10 @@ $StartElapsedTime = $(get-date)
 [System.Collections.ArrayList]$MeetingRoom_License = @() #Teams Meeting Room Standard license 
 [System.Collections.ArrayList]$MeetingRoomPro_License = @() #Optimal license 
 [System.Collections.ArrayList]$MeetingRoomBasic_License = @() #Basic license does max out at 25 licenses/tenant 
-[System.Collections.ArrayList]$MeetingRoomOther_License = @() #Licenses OTHER than what should be applied to a Teams Room Resource Account 
+[System.Collections.ArrayList]$MeetingRoomOther_License = @() #Licenses OTHER than what should be applied to a Teams Rooms Resource Account 
 $Report = [System.Collections.Generic.List[Object]]::new() 
 
-$Room_UPNs = get-mailbox | Where-Object { $_.recipientTypeDetails -eq "roomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
+$Room_UPNs = Get-EXOMailbox -RecipientTypeDetails roommailbox -ResultSize unlimited | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
 Write-Host $Room_UPNs.Length " were found." -ForegroundColor Green 
 Write-Host "Note that resource accounts can contain 0 or multiple licenses. As such, the total of all licenses discovered may be different than the number of resource accounts" -ForegroundColor Yellow 
 Write-Host  
@@ -175,7 +175,7 @@ ForEach ($UPN in $Room_UPNs) {
     if ($null -eq $UPN_license) { $No_License.add($temp) | Out-Null } #find resource accounts without licenses 
 
     if ($UPN_license -like "MTR_PREM*" -or $UPN_license -like "MMR_P*" ) { $MTR_Premium_License.add($temp) | Out-Null } #find resource accounts with legacy MTR Premium  
-    if ($UPN_license -like "MEETING_ROOM*") { $MeetingRoom_License.add($temp) | Out-Null } #find resource accounts with legacy Teams Room Standard licenses 
+    if ($UPN_license -like "MEETING_ROOM*") { $MeetingRoom_License.add($temp) | Out-Null } #find resource accounts with legacy Teams Rooms Standard licenses 
     if ($UPN_license -like "Microsoft_Teams_Rooms_Pro*") { $MeetingRoomPro_License.add($temp) | Out-Null } #find resource accounts with meeting room pro licenses 
     if ($UPN_license -like "Microsoft_Teams_Rooms_Basic*") { $MeetingRoomBasic_License.add($temp) | Out-Null } #find resource accounts with meeting room basic licenses  
 
@@ -195,11 +195,11 @@ Write-Host $No_License.count "Resource accounts without any licenses. (Typically
 $No_License | Sort-Object UPN | Format-Table  
 Write-Host  
 Write-Host  
-Write-Host $MeetingRoom_License.count "resource accounts with Legacy Teams Room Standard licenses. (Typically, these licenses should be upgraded to Teams Room Pro at EA Renewal)." -ForegroundColor Yellow 
+Write-Host $MeetingRoom_License.count "resource accounts with Legacy Teams Rooms Standard licenses. (Typically, these licenses should be upgraded to Teams Rooms Pro at EA Renewal)." -ForegroundColor Yellow 
 $MeetingRoom_License | Sort-Object UPN | Format-Table 
 Write-Host  
 Write-Host  
-Write-Host $MTR_Premium.count "Resource accounts with Teams Room Premium or MMR license. (Typically, these licenses should be migrated to Teams Room Pro at EA Anniversary/Renewal)." -ForegroundColor Red 
+Write-Host $MTR_Premium.count "Resource accounts with Teams Rooms Premium or MMR license. (Typically, these licenses should be migrated to Teams Rooms Pro at EA Anniversary/Renewal)." -ForegroundColor Red 
 $MTR_Premium | Sort-Object UPN | Format-Table 
 Write-Host  
 Write-Host  
@@ -207,11 +207,11 @@ Write-Host $MeetingRoomPro_License.count "Resource accounts with MTR Pro license
 $MeetingRoomPro_License | Sort-Object UPN | Format-Table 
 Write-Host  
 Write-Host  
-Write-Host $MeetingRoomBasic_License.count "Resource accounts with Teams Room System Basic licenses." -ForegroundColor Green 
+Write-Host $MeetingRoomBasic_License.count "Resource accounts with Teams Rooms System Basic licenses." -ForegroundColor Green 
 $MeetingRoomBasic_License | Sort-Object UPN | Format-Table 
 Write-Host  
 Write-Host  
-Write-Host $MeetingRoomOther_License.count "Resource accounts with licenses other than Teams Room System licenses. (Confirm if these licenses are actually needed)." -ForegroundColor Yellow 
+Write-Host $MeetingRoomOther_License.count "Resource accounts with licenses other than Teams Rooms System licenses. (Confirm if these licenses are actually needed)." -ForegroundColor Yellow 
 $MeetingRoomOther_License | Sort-Object UPN | Format-Table 
 Write-Host  
 Write-Host  
