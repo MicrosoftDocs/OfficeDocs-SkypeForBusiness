@@ -141,10 +141,8 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 - **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday schedules* for the auto attendants they're authorized for.
 
   > [!WARNING]
-  > Holidays may be shared across multiple auto attendants.  When an authorized user makes a change to the dates or times in a holiday, it affects all auto attendants that use that holiday not just the ones the user is authorized for.
-  > 
-  > If an authorized user deletes all the holidays from the auto attendant they will not be able to assign new holidays.
-
+  > Holidays may be shared across multiple auto attendants.  When an authorized user makes a change to the dates or times in a holiday, it affects all auto attendants that use that holiday.
+  
 - **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
 
 - **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *auto attendant language* for the auto attendants they're authorized for.
@@ -185,7 +183,7 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 
 ### Call queue monitor, whisper, barge, takeover
 
-- **CallQueueAgentMonitorMode**: When set to **Monitor, Whisper, Barge or Takeover**, this setting allows an authorized user to perform the following actions:
+- **CallQueueAgentMonitorMode**: When set to **Monitor**, **Whisper**, **Barge** or **Takeover**, this setting allows an authorized user to perform the following actions:
   - When set to **Monitor**, an authorized user can monitor an agent and listen to them while they are on an inbound call queue call.
   - When set to **Whisper**, an authorized user can monitor an agent and whisper to them while they are on an inbound call queue call. The caller won't hear the authorized user.
   - When set to **Barge**, an authorized user can monitor an agent, whisper to them, and barge in or join the inbound call queue call.
@@ -197,7 +195,34 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
     > An authorized user may only be in one monitor session at a time.
 
 - **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
- 
+
+### Real-time and historical reporting
+
+ - **RealTimeAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time auto attendant metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the auto attendants they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the auto attendants in the tenant.
+
+ - **RealTimeCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time call queue metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the call queues they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the call queues in the tenant.
+
+  - **RealTimeAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time agent metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the agents associated with the call queues they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the agents in the tenant.
+
+- **HistoricalAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the auto attendants they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the auto attendants in the tenant.
+
+ - **HistoricalCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical call queue metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the call queues they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the call queues in the tenant.
+
+  - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
+   -  When set to **Authorized**, an authorized user will only see metrics for the agents associated with the call queues they're authorized for.
+   -  When set to **All**, an authorized user will see metrics for all the agents in the tenant.
+
+
 ## Related articles
 
 - [Authorized users](aa-cq-authorized-users.md).
