@@ -40,37 +40,11 @@ Microsoft Purview compliance features apply to the webinar recording files, the 
 
 Registration is required for attendees to attend webinars.
 
-Here's how the registration process works for webinars:
+As an admin, you can:
 
-1. Webinar organizers create the webinar. They specify details like the webinar's date and time, event roles, and whether the webinar is public or private.
-2. Once the organizer  saves the webinar, they can manage registration to decide:
-
-    - Registration capacity
-    - If manual approval of registrations is required
-    - If the waitlist is enabled for the webinar
-    - If there's limit for the registration date
-  
-    For the registration form, the attendee's first name, last name, email, and Microsoft consent fields are required and already added, but organizers can decide if they'd like to require attendees to answer the following fields:
-
-    - Address
-    - City
-    - State
-    - Zip/Post code
-    - Country/Region
-    - Industry
-    - Job title
-    - Organization
-    - Legal Terms
-    - Custom question:
-  
-        - Test input
-        - Choices
-        - Checkbox (Yes/No)
-
-3. When attendees submit the registration form, they receive a confirmation message or email. Webinar organizers can see a list of registrants in their respective states as people start to register.
-4. Before the webinar, organizers can the email communication templates to send reminders or updates to registered participants.
-
-As an admin, you can manage whether organizers can only create private webinars or public and private webinars. If you have a Teams Premium subscription, you can manage whether organizers can edit email communication templates.
+- Manage whether organizers can only create private webinars or public and private webinars
+- Manage whether organizers can edit email communication templates (with a Teams Premium subscription)
+- Manage the types of questions an organizer can require attendees to answer when registering for webinars
 
 ## External participants
 
@@ -84,17 +58,13 @@ anonymous participants:
 
 Registered attendees join the webinar with their cameras and mics off; webinar organizers choose when to let attendees turn on their cameras or un-mute.
 
-The features attendees use for interaction during webinars are:
+As an admin, you can manage the following features attendees use for interaction during webinars:
 
 - **Chat:** Attendees can participate in a text-based chat messages during the webinar. Through chat, attendees can ask questions, share thoughts, and engage in discussions with other participants.
 
 - **Q&A**: For a structured question and response format, webinar organizers can enable a dedicated Q&A feature where attendees can submit questions. Organizers or selected presenters can review and answer these questions during the webinar.
 
-- **Reactions**: During webinars, attendees can use reactions to show how they feel or give feedback. These reaction emojis include applause, like, laughter, heart, and surprise. Attendees can click on the reaction icons to display their reactions in real-time.
-
-- **Polls and Surveys**: Webinar organizers can share polls or surveys that attendees can respond to within the webinar experience. This allows organizers to gather feedback, collect opinions, or gauge the audience's understanding of the presented content.
-
-- **Hand Raise**: Attendees can use the "Hand Raise" feature to show that to speak or ask a question. The presenter or organizer can acknowledge and give the attendee an opportunity to speak or address their question.
+- **Reactions and hand raise**: During webinars, attendees can use reactions to show how they feel or give feedback. These reaction emojis include applause, like, laughter, heart, and surprise. Attendees can click on the reaction icons to display their reactions in real-time.
 
 ## Streaming
 
