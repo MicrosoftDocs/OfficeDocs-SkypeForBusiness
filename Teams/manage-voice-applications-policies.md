@@ -206,11 +206,11 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
    -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
-  - **RealTimeAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time agent metrics.
+ - **RealTimeAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time agent metrics.
    -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
-- **HistoricalAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
+ - **HistoricalAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
    -  When set to **Authorized**, an authorized user sees metrics for the auto attendants they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
 
@@ -218,7 +218,7 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
    -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
-  - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
+ - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
    -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
