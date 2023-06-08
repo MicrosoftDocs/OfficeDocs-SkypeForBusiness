@@ -32,10 +32,13 @@ appliesto:
 > 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 > 2. Expand **Teams apps** in the left-side menu.
 > 3. Select **Setup policies** in the menu.
-> 4. Find **Career Coach** in the list of Teams apps, and select the checkmark next to the app name.
-> 5. In the actions utility bar, select **X Remove**.
+> 4. Select **Global (Org-wide default)** from the policy group list.
+> 5. Under **Installed apps**, find **Career Coach**, and select the checkmark next to the app name.
+> 6. In the actions utility bar, select **X Remove**.
+> 7. Under **Pinned apps**, find **Career Coach**, and select the checkmark next to the app name.
+> 8. In the actions utility bar, select **X Remove**.
 >
-> The Career Coach app is now unpinned from your users' Teams clients.
+> The Career Coach app is now uninstalled and unpinned from your users' Teams clients.
 
 This article is for education IT admins to learn how to set up Career Coach for Microsoft Teams.
 
