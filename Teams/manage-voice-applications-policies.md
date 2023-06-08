@@ -51,9 +51,9 @@ Changing the global policy or creating a custom policy and assigning to user(s) 
 
 In addition to having a voice applications policy assigned, users must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
-Having only a policy assigned and not being assigned as an authorized user to at least one auto attendant or call queue won't enable the user to perform the actions described in this article.
+Having a policy assigned and not being assigned as an authorized user to at least one auto attendant or call queue will not enable the user to perform the actions described in this article.
 
-Similarly, being assigned as an authorized user to at least one auto attendant or call queue but not being assigned a policy won't enable the user to perform the actions described in this article.
+Similarly, being assigned as an authorized user to at least one auto attendant or call queue without a policy assignement will not enable the user to perform the actions described in this article.
 
 ## Create a custom voice applications policy
 
