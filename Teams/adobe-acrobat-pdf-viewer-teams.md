@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
-ms.date: 03/03/2023
+ms.date: 06/06/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -61,11 +61,11 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
-If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you use [app permission policies](teams-app-permission-policies.md).
+To selectively allow the Adobe Acrobat app for a few individuals or for a group, use [app permission policies](teams-app-permission-policies.md).
 
 ## Considerations and limitations
 

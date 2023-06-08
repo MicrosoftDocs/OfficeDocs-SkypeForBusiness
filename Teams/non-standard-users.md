@@ -2,7 +2,7 @@
 title: Availability and use of Teams apps by different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: kojika
+ms.reviewer: tolgaki
 manager: prkosh
 ms.topic: article
 audience: admin
@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 03/03/2023
+ms.date: 06/06/2023
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use of Teams apps for external attendees or guests from outside an organization
+# Teams apps for external attendees or guests from outside an organization
 
 Teams apps allow collaboration with people outside your organization. As an admin, you control who can access Teams chats, meetings, and channel to collaborate with your organization's users. For detailed information, see [how to allow collaboration with external attendees](manage-external-access.md) and [what can guests do in Teams](guest-access.md). This article focuses on use of apps by people outside your organization.
 

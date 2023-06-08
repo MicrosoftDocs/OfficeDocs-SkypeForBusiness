@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/23/2023
+ms.date: 06/06/2023
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 
 # Search audit logs for app management activities and events
 
-Microsoft Purview Audit (Standard) in Microsoft 365 lets you search for audit records of activities performed in the various Microsoft 365 services by users and administrators.
+Microsoft Purview Audit (Standard) in Microsoft 365 lets you log and search the audited activities performed in the various Microsoft 365 services by users and administrators.
 
 Before you can search the audit records, ensure that you complete the following prerequisites:
 
@@ -32,17 +32,15 @@ Before you can search the audit records, ensure that you complete the following 
 
 The audit logs for app events in Teams help you investigate specific actions related to app management by admins. While you can search the logs for a wide-range of actions, the following table lists some such actions that are logged.
 
-| Teams app action | Activity name in the Portal | Description  |
-|-------|-------|:-------|
-| **Installed app**                 | `AppInstalled`               | An app is installed or added to a Teams client. |
+| Teams app action                  | Activity name in the Portal  | Description                                              |
+|-----------------------------------|------------------------------|:---------------------------------------------------------|
+| **Installed app**                 | `AppInstalled`               | An app is installed or added to a Teams client.          |
 | **Upgraded app**                  | `AppUpgraded`                | An app is upgraded to its latest version in the catalog. |
-| **Uninstalled app**               | `AppUninstalled`             | An app is uninstalled or removed from a Teams client.                                   |
+| **Uninstalled app**               | `AppUninstalled`             | An app is uninstalled or removed from a Teams client.    |
 | **Published app**                 | `AppPublishedToCatalog`      | An app is added to the catalog.                          |
 | **Updated app**                   | `AppUpdatedInCatalog`        | An app is updated in the catalog.                        |
 | **Deleted app**                   | `AppDeletedFromCatalog`      | An app is deleted from the catalog.                      |
 | **Deleted all organization apps** | `DeletedAllOrganizationApps` | Deleted all organization apps from the catalog.          |
-
-<!--- organization apps = custom or 3p --->
 
 For a complete list of Teams activities that are audited, see [Teams activities](audit-log-events.md#teams-activities) and [Shifts in Teams activities](audit-log-events.md#shifts-in-teams-activities).
 
