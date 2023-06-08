@@ -45,7 +45,7 @@ To allow authorized users to make configuration changes, you can either change t
 
 We recommend you create custom policies that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues.
 
-### Required steps to setup authorized users
+### Required steps to set up authorized users
 
 Changing the global policy or creating a custom policy and assigning to user(s) is only one of two steps required to create authorized users.
 
@@ -53,7 +53,7 @@ In addition to having a voice applications policy assigned, users must also be a
 
 Having a policy assigned and not being assigned as an authorized user to at least one auto attendant or call queue will not enable the user to perform the actions described in this article.
 
-Similarly, being assigned as an authorized user to at least one auto attendant or call queue without a policy assignement will not enable the user to perform the actions described in this article.
+Similarly, being assigned as an authorized user to at least one auto attendant or call queue without a policy assignment will not enable the user to perform the actions described in this article.
 
 ## Create a custom voice applications policy
 
@@ -128,7 +128,7 @@ You can edit the global policy or any custom policies you create.
 
 ## Future release voice applications policy settings
 
-The following policy settings are referenced in the [PowerShell cmdlets section](#voice-applications-policy-powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center. Currently, changing these policies via PowerShell won't allow authorized users to perform these functions.  
+The following policy settings are referenced in the [PowerShell cmdlets section](#voice-applications-policy-powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center. Currently, changing these policies via PowerShell will not allow authorized users to perform these functions.  
 
 ### Auto attendant configuration
 
