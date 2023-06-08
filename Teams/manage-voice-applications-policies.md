@@ -45,7 +45,7 @@ To allow authorized users to make configuration changes, you can either change t
 
 We recommend you create custom policies that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues.
 
-### Required steps to set up authorized users
+### Required steps to setup authorized users
 
 Changing the global policy or creating a custom policy and assigning to user(s) is only one of two steps required to create authorized users.
 
@@ -194,33 +194,33 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
     >
     > An authorized user may only be in one monitor session at a time.
 
-- **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner will be presented to an agent who is being actively monitored by an authorized user.
+- **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner is presented to the agent who is being actively monitored by an authorized user.
 
 ### Real-time and historical reporting
 
  - **RealTimeAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time auto attendant metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the auto attendants they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the auto attendants in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the auto attendants they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
 
  - **RealTimeCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time call queue metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the call queues they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the call queues in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
   - **RealTimeAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time agent metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the agents associated with the call queues they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the agents in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
 - **HistoricalAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the auto attendants they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the auto attendants in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the auto attendants they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
 
  - **HistoricalCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical call queue metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the call queues they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the call queues in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
   - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
-   -  When set to **Authorized**, an authorized user will only see metrics for the agents associated with the call queues they're authorized for.
-   -  When set to **All**, an authorized user will see metrics for all the agents in the tenant.
+   -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
+   -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
 
 ## Related articles
