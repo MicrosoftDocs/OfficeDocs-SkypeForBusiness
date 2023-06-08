@@ -48,11 +48,40 @@ As an admin, you can:
 
 ## External participants
 
-Private webinars:
+Private (use name: In Org) webinars:
+
+- don't include guests
+- only accessible to members of the scheduling organization
 
 Public webinars:
 
-anonymous participants:
+- no authentication, like a public website
+- anonymous users can input anything on registration page
+- join links are unique to registration with unique registration ID. loophole: you could forward registration links for someone else to join as you
+- limited number of joins with registration ID to number 3 - not available yet
+- after clicking join link, due to privacy, you have to re-enter your information
+- Attendance report: each join records e.g. register as bob and join as "cool guy" on registration, they append from registration id from link and populate the registration id name
+
+Anonymous participants:
+
+- not internal, not guest, not federated
+- can only register and join when webinar is public
+- if you want anybody outside of your org, the webinar must be public
+
+How to make the decision between a private vs public?
+
+- Do you want to allow external attendees to join webinars?
+- If registrant is logged into a tenant, it knows who they are and if not they can type a name
+- How does the lobby work?
+- How do join links work? These are not unique
+- Dial in -- anonymous??
+- Attendees with a registration link can bypass the lobby??
+- People dialing in can bypass the lobby??
+- Who can bypass the lobby: People who were invited(turn off allow forwarding)??QUESTION: How do you invite people to a webinar??
+- Reject anyone who can't bypass the lobby??
+
+Invited people are presenters and co-organizers. 
+PSTN isn't available for webinar attendees but organizers and co-organizers can do this.
 
 ## Attendee interaction
 
