@@ -55,7 +55,7 @@ If you're setting up a cross-cloud meeting connection with a tenant in a differe
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting settings**.
 1. Under **Microsoft cloud settings**, make sure the cloud you need to connect to is set to **On**.
     > [!NOTE]
-    > This is the same as the Microsoft cloud settings in Azure AD cross-tenant access settings.
+    > This is the same as the [Microsoft cloud settings in Azure AD cross-tenant access settings](/azure/active-directory/external-identities/cross-cloud-settings).
 
 ## Add a new cross-cloud meeting connection
 
@@ -79,15 +79,8 @@ Edit a cross-cloud meeting connection
 1. Under **Cross-cloud** meetings, select the tenant you want to update, and then select **Edit**.
 1. Update the connection settings that you want to change, and then select **Save**.
 
-
-
-
-[Configure cross-tenant access settings for B2B collaboration](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration)
-
-[Configure Microsoft cloud settings for B2B collaboration](/azure/active-directory/external-identities/cross-cloud-settings)
-
-
-
 ## Related topics
 
 [Manage external access in Teams](manage-external-access.md)
+
+[Collaborate with guests from other Microsoft clouds](/microsoft-365/solutions/collaborate-guests-cross-cloud)
