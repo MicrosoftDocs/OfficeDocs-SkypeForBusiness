@@ -907,8 +907,6 @@ items:
               href: languages-for-voicemail-greetings-and-messages.md
         - name: Caller ID
           items: 
-            - name: How can caller ID be used in your organization
-              href: how-can-caller-id-be-used-in-your-organization.md
             - name: Manage caller ID for users
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
@@ -1643,8 +1641,6 @@ items:
           href: user-requests-approve-apps.md
         - name: Change app branding using app customization
           href: customize-apps.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors

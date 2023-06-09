@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Devices Monitoring and Alerting
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 audience: Admin
 ms.topic: article

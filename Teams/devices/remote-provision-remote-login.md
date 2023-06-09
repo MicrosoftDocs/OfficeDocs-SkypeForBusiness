@@ -1,7 +1,7 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 01/04/2021
 ms.topic: article
@@ -25,6 +25,9 @@ description: Learn how to remote provision and sign in for Teams Android devices
 # Remote provisioning and sign in for Teams Android devices
 
 IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center.
+
+> [!NOTE]
+> Once you've signed in to a Teams Android device, this feature isn't available. To use it again, the device must be reset to factory default settings.
 
 ## Review the supported devices
 

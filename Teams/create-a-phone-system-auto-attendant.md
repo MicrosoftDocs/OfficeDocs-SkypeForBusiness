@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 11/28/2017
+ms.date: 06/05/2023
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -22,10 +22,6 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-adobe-target: true
-adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY22Q2
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Learn how to set up and manage auto attendants in Microsoft Teams.
 --- 
 
@@ -50,10 +46,10 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 > When redirecting calls to a **Person in the organization**, that person must be voice enabled. For details on enabling voice, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 >[!IMPORTANT]
-> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times. 
-> 
+> While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times.
+>
 > If an operator isn't defined, the auto attendant will drop the call.
-> 
+>
 > In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
 ## What's new for auto attendants in the past six months
@@ -117,7 +113,7 @@ Once you've set your auto attendant's general info, select **Next**.
 
 #### Play menu options
 
-For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations. 
+For dialing options, assign the 0-9, \* (asterisk) and \# (pound) keys on the telephone keypad to one of the call routing destinations.
 
 Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 

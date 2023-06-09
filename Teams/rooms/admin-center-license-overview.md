@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms license overview in Teams admin center
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
 ms.date: 08/16/2022

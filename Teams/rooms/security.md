@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms security
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 appliesto: 

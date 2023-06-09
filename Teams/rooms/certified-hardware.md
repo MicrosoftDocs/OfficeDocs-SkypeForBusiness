@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms certified systems and peripherals
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 4/28/2023
 manager: serdars
@@ -125,7 +125,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| [Audiocodes RXV81 Collaboration Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
+| [Audiocodes RXV81 Collaboration Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | September 3, 2024 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.24` | February 27, 2023 | Personal space, Shared space: Phone booth (2m x 2m) | 10 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | [Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
@@ -179,7 +179,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) | 1.0.5 |  |  |
 | [Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) | 19.2 |  |  |
 | [Bose VB-S AV Bar](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb-s.html) | 1.1.2 |  |  |
-| Biamp Vidi 250 camera | 1.1.1 | | |
+| [Biamp Vidi 250 camera](https://support.biamp.com/Vidi/Cameras/Vidi_250_overview) | 1.1.1 | | |
 | [Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
 | [Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
 | [Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
@@ -255,6 +255,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |  |  |
 | [Shure MXA920XX-R Round Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 Processor](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 Speakers](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R: 1.1.56 </br> P300 Processor: 4.7.7 </br> MXN5 Speakers: 1.5.6 |  |  |
 | [Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software: 3.2.0.52 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 |  |  |
+| [Shure MXA902](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) + </br> ANIUSB | Shure MXA902: 5.0.115 </br> Shure USB Audio Network Interface with Matrix Mixing: 4.7.21 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.2 |  |  |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
@@ -269,7 +270,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br>Q-SYS [NL Series Loudspeakers](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/) + </br>Q-SYS Network Camera ([NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/) optional + </br> [Q-SYS I/O Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Microphone, NL Series Loudspeakers, Network Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br>Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 |  |  |
 | [Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |  |  |
 | [Vaddio RoboSHOT 30E-M HD PTZ Camera](https://www.legrandav.com/products/cameras/hd_ptz_camera/roboshot-30e-m) | 1.0.0 |  |  |
-| Yamaha CS-800 Video Sound Bar | 1.0.4 |  |  |
+| [Yamaha CS-800 Video Sound Bar](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
 

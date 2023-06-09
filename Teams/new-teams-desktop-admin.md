@@ -110,9 +110,15 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |Setting|Description|
    |:-----|:-----|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Users can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
+</br>
+
+>[!Note]
+>The option "Classic Teams as default" was previously called "Users can choose".
+
+</br>
 
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
@@ -136,7 +142,7 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 | Setting | Explanation |
 | :----- | :----- |
 | MicrosoftChoice | Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness. |
-| UserChoice | This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
+|User choice| This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
 | AdminDisabled | This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.| 
 
 Here are the steps needed to configure this setting in PowerShell:
