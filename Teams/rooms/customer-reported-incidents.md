@@ -4,7 +4,7 @@ author: altsou
 ms.author: altsou
 ms.date: 09/28/2022
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: tonysmit
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

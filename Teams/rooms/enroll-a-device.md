@@ -25,7 +25,7 @@ f1keywords:
 
 # Enroll device into Pro Management
 
-Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Room (MTR) systems and peripherals.
+Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ Some configuration/installation procedures require you to log in to the device a
 To log in to the device as Administrator (local administrator):
 
 1. Ensure you hang up any ongoing calls and return to the home screen.
-1. In the Microsoft Teams Room user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
+1. In the Microsoft Teams Rooms user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
 1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.
 
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device).
@@ -239,6 +239,6 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |||
 |You receive an error message stating: </p><p> ***TPM data cannot be found***|Ensure that your device has TPM (Trusted Platform Module) turned on in its BIOS. This is usually found in the security settings of the device BIOS.|
 |||
-|You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Room systems device.|
+|You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
 |You receive any error state messages that are not covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|

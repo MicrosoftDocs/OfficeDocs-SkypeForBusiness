@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 05/08/2023
 manager: serdars
@@ -101,7 +101,7 @@ Introduced in this update:
 - Pin and hide room video
 - Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
 - Dual-display Teams Rooms can now display up to 18 participant video streams
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic room licenses
 
 <sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
@@ -117,7 +117,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Rooms user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 
