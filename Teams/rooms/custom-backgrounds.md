@@ -110,6 +110,8 @@ If you want to set up two front-of-room displays, both displays need to have an 
 
 Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
 
+These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
+
 #### Front-of-room displays
 
 When you create a custom background:
@@ -142,6 +144,8 @@ When you create a custom background:
 
 :::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
+These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
+
 #### Touch console display
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
@@ -162,6 +166,12 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 **16:9 - Touch console dimensions**
 
 :::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
+
+### Custom background template
+
+To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/download/details.aspx?id=105251). 
+
+The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
 ### Deploy updated custom backgrounds
 

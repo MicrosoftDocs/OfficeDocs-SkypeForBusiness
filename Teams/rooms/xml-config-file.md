@@ -73,7 +73,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
   <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
   <CortanaWakewordEnabled>true</CortanaWakewordEnabled>
-  <DualScreenMode>0</DualScreenMode>
+  <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
