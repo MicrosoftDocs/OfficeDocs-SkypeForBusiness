@@ -27,7 +27,7 @@ In some countries and regions, it's illegal to bypass the Public Switched Teleph
 This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. (Location-Based Routing doesn't apply to Calling Plan or Operator Connect.)
 
 > [!NOTE]
-> \- You shouldn't use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
+> You shouldn't use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
 
 When you're ready to enable Location-Based Routing, see:
 
