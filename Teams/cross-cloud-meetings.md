@@ -68,6 +68,8 @@ Add a cross-cloud meeting connection
 1. If you want to allow users in the other organization to attend meetings hosted by your organization, set **Inbound connections** to **On**.
 1. If you want to allow users in your organization to attend meetings in the other organization, set **Outbound connections** to **Off**.
 
+    ![Screenshot of cross-cloud meetings settings in the Teams admin center.](media/cross-cloud-meetings-settings.png)
+
 ## Edit a cross-cloud meeting connection
 
 To edit a cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. The list of tenants in meeting settings shows the tenant ID, but you can use the **Lookup** option to search by fully qualified domain name and find the correct tenant ID in the list.
