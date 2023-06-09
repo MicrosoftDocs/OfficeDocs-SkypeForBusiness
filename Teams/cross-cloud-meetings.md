@@ -22,7 +22,7 @@ description: Learn how to set up Teams meetings with organizations in other Micr
 
 # Meet with people in other Microsoft 365 clouds
 
-There are three options for users to join meetings between your organization and an organization in a different [Microsoft 365 cloud](/azure/active-directory/external-identities/cross-cloud-settings):
+There are three options for users to join meetings between your organization and an organization in a different type of tenant (such as commercial and GCC):
 
 - Authenticated access using a cross-cloud meeting connection
 - [Authenticated access using a guest account](/microsoft-365/solutions/collaborate-guests-cross-cloud)
@@ -35,6 +35,9 @@ With cross-cloud meeting connections, you can allow or prevent meetings between 
 If a cross-tenant connection between organizations already exists in Azure AD cross-tenant access settings, it will appear in meeting settings in the Teams admin center. You can edit this connection to choose if meetings are allowed between the two tenants.
 
 If the connection doesn't exist, you can add it in Teams meeting settings. This will add a new organization in the cross-tenant access settings in Azure AD using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings).
+
+> [!IMPORTANT]
+> The organization that you're meeting with must also configure these settings for their organization.
 
 ## Allow cross-tenant connections with other Microsoft 365 clouds
 
