@@ -100,6 +100,12 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 When whiteboard is enabled, your users will have the option to use annotation, a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
 
+## Document collab0ration
+
+Users can now review, edit, and add comments to the document right from within the Teams meeting window. This type of document-centric meeting is a structured, collaborative, real-time conversation focused on a single document. These meetings span from small audience collaborating over a document to larger audience for reviewing a document with stakeholders.    
+
+With the remote and hybrid work environment these types of meetings make extensive use of virtual meeting sharing capabilities together with app specific features such as co-editing and interactive comments. 
+
 ## Shared notes
 
 This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External participants, including anonymous, guests, and external access, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
