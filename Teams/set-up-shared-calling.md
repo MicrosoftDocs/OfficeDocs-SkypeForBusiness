@@ -78,12 +78,6 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 - When emergency callback numbers are added to a policy: 
 
-  - For Calling Plan and Operator Connect, these numbers must be validated to be in NAS.  
-    **IS THIS IMPLEMENTATION SPECIFIC? IN OTHER WORDS, NOT AN ADMIN TASK..  SO REMOVE FROM THIS DOC?**
-
-  - When a Direct Routing number is added to the policy, it should be added to NAS.
-    **IS THIS IMPLEMENTATION SPECIFIC?**
-
   - Callback numbers do not require an associated location--only the location from the resource account will be used.
 
   - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  (TAC doesn’t show DR numbers so need to define how to deal with this) 
