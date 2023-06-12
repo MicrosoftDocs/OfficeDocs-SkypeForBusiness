@@ -2,8 +2,8 @@
 title: Resources for Career Coach integration in Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
-ms.reviewer: alaina.creager
-ms.date: 07/12/2022
+ms.reviewer: norahak
+ms.date: 06/06/2023
 manager: serdars
 ms.topic: article
 audience: admin
@@ -22,7 +22,20 @@ appliesto:
 # Resources for Career Coach in Microsoft Teams
 
 > [!NOTE]
-> March 2023, customers will no longer be able to purchase the Career Coach product as we are deprecating it. By June of 2023, Microsoft will stop all support of Career Coach. We will update the Career Coach documentation with instructions on how to export your Career Coach data in preparation for this deprecation. For more information, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+> As of March 2023, customers are no longer able to purchase Career Coach. By June of 2023, Microsoft will stop all support of Career Coach. For more information and to learn how to export your Career Coach data, see [Career Coach Deprecation FAQs](https://download.microsoft.com/download/2/2/1/22167304-368d-417f-8c5b-8eb3129c5e4f/CareerCoachDeprecationFAQ.pdf).
+>
+> To remove the Career Coach app from your users' Teams clients, follow these instructions.
+>
+> 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+> 2. Expand **Teams apps** in the left-side menu.
+> 3. Select **Setup policies** in the menu.
+> 4. Select **Global (Org-wide default)** from the policy group list.
+> 5. Under **Installed apps**, find **Career Coach**, and select the checkmark next to the app name.
+> 6. In the actions utility bar, select **X Remove**.
+> 7. Under **Pinned apps**, find **Career Coach**, and select the checkmark next to the app name.
+> 8. In the actions utility bar, select **X Remove**.
+>
+> The Career Coach app is now uninstalled and unpinned from your users' Teams clients.
 
 The following resources for IT admins, faculty, staff, and students will help you plan your Career Coach implementation with Microsoft Teams.
 

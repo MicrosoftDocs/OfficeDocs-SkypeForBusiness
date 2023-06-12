@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: pawa
 description: Security advice and learnings for IT admins in installing, configuring, and maintaining Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -204,9 +204,9 @@ There are two options to control who arrives in Teams meetings and who will have
 
     |"Who can bypass the lobby" setting options available in Meeting options page   |User types joining the meeting directly  |User types going to the lobby   |
     |---------|---------|---------|
-    |People in my organization     |  - In-tenant  </br>- Guest of tenant         |  - Federated</br>  - Anonymous</br>  - PSTN dial-in</br>     |
-    |People in my organization and trusted organizations      |  - In-tenant</br> - Guest of tenant</br> - Federated</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
-    |Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Federated Anonymous</br>  - PSTN dial-in</br>       |         |
+    |People in my org     |  - In-tenant  </br>- Guest of tenant         |  - Trusted orgs (external access)</br>  - Anonymous</br>  - PSTN dial-in</br>     |
+    |People in my org, trusted orgs, and guests      |  - In-tenant</br> - Guest of tenant</br> - Trusted orgs (external access)</br>        |  - Anonymous</br>  - PSTN dial-in</br>      |
+    |Everyone      |   - In-tenant</br>  - Guest of tenant</br>  - Trusted orgs (external access)</br>  - Anonymous</br>  - PSTN dial-in</br>       |         |
 
 2. The second way is through **structured meetings** (where Presenters can do about anything that should be done, and attendees have a controlled experience). After joining a structured meeting, presenters control what attendees can do in the meeting. </p>
 
@@ -267,16 +267,16 @@ Meeting participants are also categorized by location and credentials. You can u
 
 - **Users that do not belong to the tenant**. These users do not have credentials in Azure AD for the tenant.
 
-    *Federated Users* - Federated users have valid credentials with federated partners and are therefore treated as authenticated by Teams, but are still external to the meeting organizer tenant. Federated users can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in enterprises with which they are federated.
+    *Trusted org users* - Users from trusted organizations (as configured in [External access](trusted-organizations-external-meetings-chat.md)) have valid credentials with other Microsoft 365 organizations and are therefore treated as authenticated by Teams, but are still external to the meeting organizer tenant. Users from trusted organizations can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in your organization.
 
-    *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant.
+    *[Anonymous Users](anonymous-users-in-meetings.md)* - Anonymous users do not have an Active Directory identity or are not from trusted organizations.
 
 Many meetings involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a meeting. The next section describes how Teams limits meeting access to those user types that have been explicitly allowed, and requires all user types to present appropriate *credentials* when entering a meeting.
 
 ### Participant admittance
 
 > [!CAUTION]
-> If you do not want Anonymous users (users you don't explicitly invite) to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the **Participant** meeting section.
+> If you do not want Anonymous users to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the organizer's meeting policy.
 
 In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out.
 
@@ -308,10 +308,7 @@ You can modify the meeting options while a meeting is on-going. The change, when
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
-[Manage meeting settings in Microsoft Teams](./meeting-settings-in-teams.md)
-
 [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementing VPN split tunneling](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Meeting recordings in Teams, where recordings are stored, and who can access them](./tmr-meeting-recording-change.md)

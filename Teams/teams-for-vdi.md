@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
