@@ -99,6 +99,8 @@ items:
                   href: new-teams-bulk-install-client.md
                 - name: New Teams release schedule                 
                   href: new-teams-release-schedule.md
+                - name: New Teams known issues                 
+                  href: new-teams-known-issues.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients

@@ -23,26 +23,19 @@ ms.localizationpriority: high
 
 # Rollout schedule for the new Microsoft Teams desktop client 
 
-Top level - Teams
+>[!Note]
+>This article for the new Teams deskstop client. For information about classic Teams, learn more at [classic Teams clients](get-teams-client-md) 
 
-Rollouts can take several weeks. 
+## What is the new Teams?
 
-material needed for Context
--What is new Teams
--How to deploy
--Teams admin center choices
--Add link to office release channel 
--Link to Teams license pages (check Joann)
--Description experiences (and stick to that terminology) (sync w/Shaloo)
+The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
-
-## When will the new Microsoft Teams toggle be shown to my customers?
-
+New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 The date when Teams starts showing the toggle for users to opt-in to the new Teams depends on which M365/Teams license is assigned to the user and the M365 update channel you're using. See <link> for more details.
 The following table shows the schedule.
 
 
-|License|Rollout starts|
+|License|Rollout begins|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|July 31st, 2023|
 |Enterprise and other Licenses|	See below|
