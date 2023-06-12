@@ -1,5 +1,5 @@
 ---
-title: 'Calling policies in Microsoft Teams'
+title: 'Configure calling policies in Microsoft Teams'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars

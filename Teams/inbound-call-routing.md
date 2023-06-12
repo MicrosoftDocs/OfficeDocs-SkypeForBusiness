@@ -5,8 +5,8 @@ ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: jastark
-ms.date: 06/06/2023
+ms.reviewer: jenstr
+ms.date: 06/12/2023
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN calls in Microsoft Teams.
