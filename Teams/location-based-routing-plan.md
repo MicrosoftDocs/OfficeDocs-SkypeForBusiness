@@ -129,7 +129,7 @@ For more scenarios, see [Location-Based Routing scenarios](location-based-routin
 
 #### User is enabled for Location-Based Routing
 
-The following tables describes specifics for outbound and inbound PSTN calls for users who are enabled for Location-Based Routing:
+The following tables describe specifics for outbound and inbound PSTN calls for users who are enabled for Location-Based Routing:
 
 **Outbound PSTN calls**
 
