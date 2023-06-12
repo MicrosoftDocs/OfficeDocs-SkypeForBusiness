@@ -51,7 +51,7 @@ The grid displays the following properties:
 - **Privacy** - whether the team is public or private.
 - **Status** - the [Archived](https://support.office.com/article/dc161cfd-b328-440f-974b-5da5bd98b5a7) or Active status for this team.
 - **Description** - the description of the team.
-- **Sensitivity** - the sensitivity label associated with the team. (This columnn may be called *classification* if you haven't set up sensitivity labels.)
+- **Sensitivity** - the sensitivity label associated with the team. (This column may be called *classification* if you haven't set up sensitivity labels.)
 - **GroupID** - the unique ID for the Microsoft 365 group associated with the team.
 - **Expiration date** - the date the team is scheduled to expire if the team has an [expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy).
 
@@ -122,7 +122,7 @@ On the team's profile page, you can select **Edit** and change the following ele
 - **Team name**
 - **Description**
 - **Privacy** - set whether the team is public or private.
-- **Sensitivity** - set the sensitivity lable for the team.
+- **Sensitivity** - set the sensitivity label for the team.
 - **Member permissions** - set how members interact with messages, channels, and apps.
 - **Guest permissions** - set whether guests can add or remove channels.
 - **Fun settings** - set whether team members can use giphys, stickers, and memes.
