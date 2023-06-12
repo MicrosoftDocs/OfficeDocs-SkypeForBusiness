@@ -71,7 +71,7 @@ Here are some examples on how you can use these export APIs:
 
 ## Prerequisites to access Teams Export APIs
 
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can immediately call the protected APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met. The online form and the protected API approval process are no longer needed.
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
 - Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
   - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
   - *ChannelMessage.Read.All*: enables access to all channel messages
