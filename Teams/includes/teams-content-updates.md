@@ -2,6 +2,28 @@
 
 
 
+## Week of June 05, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/5/2023 | [Introduction to Microsoft Teams for admins](/MicrosoftTeams/teams-overview) | modified |
+| 6/5/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 6/5/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/5/2023 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 6/5/2023 | [How to use Microsoft Teams panels devices](/MicrosoftTeams/devices/use-teams-panels) | modified |
+| 6/5/2023 | [Microsoft Teams Rooms licenses](/MicrosoftTeams/rooms/rooms-licensing) | modified |
+| 6/6/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/apps-in-teams) | modified |
+| 6/6/2023 | Manage access to Teams apps across Microsoft 365 | removed |
+| 6/6/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
+| 6/6/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+| 6/9/2023 | [Resources for Career Coach integration in Microsoft Teams](/MicrosoftTeams/career-coach-resources) | modified |
+| 6/9/2023 | [Set up and configure Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-set-up-steps) | modified |
+| 6/9/2023 | [Troubleshoot Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach-troubleshoot) | modified |
+| 6/9/2023 | [Get started with Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | modified |
+| 6/9/2023 | [Career Coach data and compliance information](/MicrosoftTeams/privacy-career-coach-data-compliance) | modified |
+
+
 ## Week of May 29, 2023
 
 
@@ -76,31 +98,3 @@
 | 5/10/2023 | Priority notifications in Teams messaging | removed |
 | 5/11/2023 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
 | 5/12/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
-
-
-## Week of May 01, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/1/2023 | [Education SKU reference](/MicrosoftTeams/sku-reference-edu) | modified |
-| 5/2/2023 | [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modified |
-| 5/2/2023 | Upgrade Teams phones to Teams displays | removed |
-| 5/2/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | modified |
-| 5/2/2023 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
-| 5/3/2023 | [Manage teams in the Microsoft Teams admin center](/MicrosoftTeams/manage-teams-in-modern-portal) | modified |
-| 5/3/2023 | [Set up Meeting Registration in Microsoft Teams](/MicrosoftTeams/set-up-meeting-registration) | added |
-| 5/3/2023 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 5/3/2023 | [Admin- Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
-| 5/3/2023 | [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
-| 5/4/2023 | [Teams Rooms on Android app and firmware versions](/MicrosoftTeams/rooms/android-app-firmware) | added |
-| 5/4/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | added |
-| 5/4/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 5/4/2023 | Drive adoption from Kaizala to Microsoft Teams for frontline workers | removed |
-| 5/4/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
-| 5/4/2023 | Microsoft Teams Rooms requirements | removed |
-| 5/4/2023 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
-| 5/4/2023 | [Prepare your Environment](/MicrosoftTeams/rooms/rooms-prep) | modified |
-| 5/4/2023 | [Microsoft Teams Rooms security](/MicrosoftTeams/rooms/security) | modified |
-| 5/4/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
-| 5/4/2023 | [Roll out Microsoft Teams First](/MicrosoftTeams/teams-first-overview) | modified |
