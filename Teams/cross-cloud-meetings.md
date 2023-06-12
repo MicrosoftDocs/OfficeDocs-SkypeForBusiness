@@ -65,6 +65,7 @@ If you're setting up a cross-cloud meeting connection with a tenant in a differe
 To create a new cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with.
 
 Add a cross-cloud meeting connection
+
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting settings**.
 1. Under **Cross-cloud meetings**, select **Add**.
 1. Type the Tenant ID of the organization you want to connect to or look it up by using the fully qualified domain name.
@@ -78,6 +79,7 @@ Add a cross-cloud meeting connection
 To edit a cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. The list of tenants in meeting settings shows the tenant ID, but you can use the **Lookup** option to search by fully qualified domain name and find the correct tenant ID in the list.
 
 Edit a cross-cloud meeting connection
+
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting settings**.
 1. Under **Cross-cloud** meetings, select the tenant you want to update, and then select **Edit**.
 1. Update the connection settings that you want to change, and then select **Save**.
