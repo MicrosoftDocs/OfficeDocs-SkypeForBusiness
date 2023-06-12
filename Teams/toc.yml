@@ -93,13 +93,13 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Get the new Teams client
+                - name: Overview & release schedule of the new Teams client
                   href: new-teams-desktop-admin.md
+                - name: Deploy the New Teams               
+                  href: new-teams-rollout.md
                 - name: Bulk install the new Teams client
                   href: new-teams-bulk-install-client.md
-                - name: New Teams release schedule                 
-                  href: new-teams-rollout.md
-                - name: New Teams known issues                 
+                - name: Troublesooting & Known issues          
                   href: new-teams-known-issues.md
             - name: Classic Teams clients
               items:
