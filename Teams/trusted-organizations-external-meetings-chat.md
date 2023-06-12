@@ -155,6 +155,9 @@ To allow chat with unmanaged Teams accounts
 
 1. If you want to restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and select **Manage external user profiles** to add the user profiles that you want to allow. (See [manage external user profiles](#manage-external-user-profiles) below.)
 
+    > [!NOTE]
+    > [Parent Connection in Microsoft Teams for Education](edu-parents-app.md) does not support restricting communication to the list of external user profiles added to extended directory.
+
 1. Select **Save**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
