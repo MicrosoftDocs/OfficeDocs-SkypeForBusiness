@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-ms.date: 06/06/2023
+ms.date: 06/12/2023
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -26,7 +26,7 @@ description: Learn how to view or update the teams that your organization has se
 
 This article provides an overview of the management tools for Teams in the Microsoft Teams admin center.
 
-As an admin, you may need to view or update the teams in your organization, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage teams through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
+As an admin, you may need to view or update the teams in your organization, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage teams through both the Teams PowerShell module and the Teams admin center. You can access the admin center at <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you're assigned one of the following roles:
 
 - Global administrator
 - Teams administrator
@@ -55,9 +55,9 @@ The grid displays the following properties:
 - **GroupID** - the unique ID for the Microsoft 365 group associated with the team.
 - **Expiration date** - the date the team is scheduled to expire if the team has an [expiration policy](/microsoft-365/solutions/microsoft-365-groups-expiration-policy).
 
-If you don't see all these properties in the grid, click the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, select **Apply**.
+If you don't see all these properties in the grid, select the **Edit columns** icon. In the **Edit columns** pane, you can use the toggles to turn on or turn off columns in the grid. When you're finished, select **Apply**.
 
-### Add
+### Add a team
 
 To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team, and set the sensitivity if needed.
 
@@ -65,7 +65,7 @@ This video shows the steps to create a new team and a channel for them.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
 
-### Edit
+### Edit a team
 
 To edit team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.
 
@@ -73,11 +73,11 @@ This video shows the steps to view and edit the details of an existing team.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
-### Archive
+### Archive a team
 
 [Archiving a team](archive-or-delete-a-team.md) puts the team into read-only mode within Teams. To archive a team, select the team by clicking to the left of the team name, and then select **Archive**.
 
-### Deleted Teams
+### Restore deleted teams
 
 To restore a deleted team in the Teams admin center, do the following:
 
@@ -90,7 +90,7 @@ To restore a deleted team in the Teams admin center, do the following:
  > [!NOTE]
  > It might take some time for the team to appear in the **Manage Teams** list. Select **Refresh** to refresh the list.
 
-### Expiring Teams
+### Renew an expiring team
 
 To renew an expiring team in the Teams admin center, do the following:
 
@@ -109,16 +109,14 @@ To renew an expiring team in the Teams admin center, do the following:
  > [!NOTE]
  > If you do not find the team's detail updated immediately, select **Refresh**. Note that it might take some time for the team's details and expiration date to get updated.
 
-## Team profile
+## Team profiles
 
-You can navigate to the team profile page of any team from the main teams overview grid by clicking  the team name. The team profile page shows the members, owners, and guests that belong to the team, as well as the team's channels and settings. From the team profile page, you can:
+You can navigate to the team profile page of any team from the main teams overview grid by selecting  the team name. The team profile page shows the members, owners, and guests that belong to the team, as well as the team's channels and settings. From the team profile page, you can:
 
 - Add or remove members and owners.
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-## Making changes to teams
-
 On the team's profile page, you can select **Edit** and change the following elements of a team:
 
 - **Team name**
@@ -131,7 +129,7 @@ On the team's profile page, you can select **Edit** and change the following ele
 
 You can also manage members and channels for the team.
 
-The changes that you make to a team are logged. If you're modifying Microsoft 365 group settings (changing the name, description, photo, privacy, classification, or team members), the changes are attributed to you through the audit pipeline. If you're performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.
+The changes that you make to a team are logged. If you're modifying Microsoft 365 group settings (changing the name, description, photo, privacy, sensitivity, or team members), the changes are attributed to you through the audit pipeline. If you're performing actions against Teams-specific settings, your changes are tracked and attributed to you in the General channel of the team.
 
 ## Related topics
 
