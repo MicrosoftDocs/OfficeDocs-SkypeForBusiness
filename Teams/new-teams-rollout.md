@@ -28,9 +28,9 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Microsoft Teams desktop client for Windows is the new re-imagined client with performance in mind. New Teams client installs and loads faster, lets you launch the app and join meetings more quickly.
+The new Microsoft Teams desktop client for Windows is the new re-imagined client with performance in mind. New Teams client installs and loads faster, lets you launch the app and join meetings more quickly, and ensures a more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device.
 
-New Teams provides more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
+Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 
 ## Release schedule
