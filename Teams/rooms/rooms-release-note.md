@@ -628,6 +628,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
 |[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
 |[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
 |[1449/1.0.96.2023031201](#144910962023031201-march-2023)     | March 2023        |
@@ -644,6 +645,12 @@ Introduced in this update:
 > [!NOTE]
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
+### 1449/1.0.96.2023060802 (June 2023)
+
+Introduced in this update:
+
+- Fixes for console pairing issues
+
 ### 1449/1.0.96.2023050203 (May 2023)
 
 Introduced in this update:
@@ -654,7 +661,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Performance improvements and bug fixes related to volume controls, meeting join latency, chat loading, and layout switching
+- Performance improvements and fixes for volume controls, meeting join latency, chat loading, and layout switching issues
 
 ### 1449/1.0.96.2023031201 (March 2023)
 
