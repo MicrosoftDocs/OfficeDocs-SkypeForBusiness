@@ -27,13 +27,13 @@ Teams is central to the logical architecture of productivity services in Microso
 
 This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Teams.
 
-[![Thumb image for Teams logical architecture poster.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
+[![Thumb image for Teams logical architecture poster.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/public/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
 
 ## Groups in Microsoft 365
 
 This is what IT architects need to know about groups in Microsoft 365. These illustrations detail the different types of groups, how they're created and managed, and a few governance recommendations.
 
-[![Thumb image for groups infographic.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
+[![Thumb image for groups infographic.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/public/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## Microsoft voice solutions
 
