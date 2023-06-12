@@ -56,7 +56,7 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
-### Make private calls
+### Guests can start private calls
 
 This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 
@@ -107,7 +107,7 @@ Busy on busy when in a call (also called "busy options") lets you configure how 
 - **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **Enabled** New or incoming calls will be rejected with a busy signal.
 - **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **User controlled** Users can determine their busy options choice from call settings in the Teams app. 
+- **User controlled** Users can determine their busy options choice from call settings in the Teams app.
 
 ### Web PSTN calling
 
@@ -120,6 +120,14 @@ This setting controls whether real-time captions in Teams calls are available fo
 ### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
+
+### Spam filtering
+
+This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
+
+- **Turn on** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user will get a "Spam Likely" notification in Teams.
+- **Turn on without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification will appear. A call might get dropped if it gets a high score from Basic checks.
+- **Turn off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification will not appear.
 
 ### SIP devices can be used for calls
 
@@ -137,8 +145,10 @@ If turned on, a link to the app needs to be given in the **URL to open apps in b
 
 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+[Voice policies reference for Microsoft Teams](settings-policies-reference.md#voice)
+
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[PSTN connectivity options](pstn-connectivity.md)
-
 [Configure call settings for your users](user-call-settings.md)
+
+[PSTN connectivity options](pstn-connectivity.md)

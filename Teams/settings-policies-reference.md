@@ -712,7 +712,7 @@ Calling policies are used to control what calling features are available to peop
 #### Related topics for calling policies
 
 - [Plan your Teams voice solution](cloud-voice-landing-page.md)
-- [Calling and call-forwarding features in Teams](teams-calling-policy.md)
+- [Configure calling policies in Microsoft Teams](teams-calling-policy.md)
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 ### Call hold policies
