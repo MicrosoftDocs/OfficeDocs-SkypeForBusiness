@@ -26,15 +26,13 @@ ms.custom: seo-marvel-mar2020
 
 # Add places to emergency locations
 
-Depending on the number of physical locations in your organization, you can add *places* for buildings, floors, and offices to create a more specific emergency location.
+This article describes how to add, change, or remove a *place* for an emergency location for your organization and how to assign a place to a user or phone number. Depending on the number of physical locations in your organization, you can add *places* for buildings, floors, and offices to create a more specific emergency location.
 
-Depending on your PSTN connectivity option, however, how you manage emergency locations and location requirements may vary. Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;an emergency location needs to be assigned to each phone number or user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;an emergency location may be assigned to a phone number.
 
-This article describes how to add, change, or remove a *place* for an emergency location for your organization and how to [assign a place to your users](#assign-a-place-for-your-users).
+However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
-
-If an Session Border Control (SBC) Emergency Location Identifier Number (ELIN) application is integrated into a Direct Routing deployment, you must configure the emergency addresses and associated telephone numbers in the ELIN application, and then upload the ELIN records to the emergency calling database in the respective PSTN. For more information, see [Considerations for Direct Routing](considerations-direct-routing.md).
 
 You can manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   

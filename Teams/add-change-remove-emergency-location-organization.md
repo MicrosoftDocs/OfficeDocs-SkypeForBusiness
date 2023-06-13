@@ -20,23 +20,21 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Learn how to add, change, or remove an emergency location for your organization.
+description: Learn how to add, change, or remove an emergency location for your organization and assign a location to your users.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Manage emergency locations for your organization
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;emergency locations can be associated with a phone number.
+This article describes how to add, change, or remove an emergency location for your organization and how to assign an emergency location to your users. To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country.
+
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash; an emergency location may be assigned to a phone number.
 
 However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
-
-This article describes how to add, change, or remove an emergency location for your organization.
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
-
-To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country. For more information, see [Assign or change an emergency location for a user](assign-change-emergency-location-user.md).
   
 ## Add an emergency location
 
@@ -86,6 +84,28 @@ See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivica
 ### Using PowerShell
 
 See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
+
+## Assign an emergency location
+
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
+
+1. On the **Phone numbers** page, click the **Numbers** tab, select a user number in the list, and then click **Edit**.
+
+1. On the **Edit** pane, under **Emergency location**, do one of the following:
+
+   - To assign an emergency location, search for, and select an emergency location. For information on assigning places, see [Add places to emergency locations](add-change-remove-emergency-location-organization.md).
+
+   - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
+
+1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+
+1. Click **Apply**.
+
+### Using PowerShell
+
+See [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Related topics
 
