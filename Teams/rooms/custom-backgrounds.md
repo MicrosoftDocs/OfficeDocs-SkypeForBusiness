@@ -60,7 +60,7 @@ Enhanced backgrounds give you more options for how to set up custom backgrounds 
 
 When you enable custom backgrounds, you need to provide custom backgrounds for your front-of-room displays. If you have two front-of-room displays, you need to provide a custom background for each display. Providing a custom background for your touch console is optional.
 
-If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to "no theme".
+If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to `No Theme`.
 
 > [!NOTE]
 > If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or if you want to configure a custom background on your touch console, you need to use the elements provided in this section.
@@ -69,7 +69,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to "no theme".
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
 
 ### Recommended resolutions
 
