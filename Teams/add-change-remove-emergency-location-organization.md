@@ -89,6 +89,8 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 ### Using the Microsoft Teams admin center
 
+#### Calling Plans, Operator Connect, Teams Phone Mobile
+
 1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
 
 1. On the **Phone numbers** page, click the **Numbers** tab, select a user number in the list, and then click **Edit**.
@@ -98,6 +100,26 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
    - To assign an emergency location, search for, and select an emergency location. For information on assigning places, see [Add places to emergency locations](add-change-remove-emergency-location-organization.md).
 
    - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
+
+1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+
+1. Click **Apply**.
+
+#### Direct Routing
+
+For your users who are licensed with Phone System, you must assign a Direct Routing number to them first and then you can assign an emergency location to those users.
+
+1. In the left navigation of the Microsoft Teams admin center, click **Users** > **Manage Users**.
+
+1. On the **Manage users** page, select the user you want to update.
+
+1. Under the **Account** tab, next to **General information**, click **Edit**.
+
+1. From the **Assign phone number** panel, select **Direct Routing** for the **Phone number type**.
+
+1. For **Assigned phone number**, enter the direct routing number and then the extension for **Phone number extension**.
+
+1. For **Emergency location**, search for, and select an emergency location. To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
 
 1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
