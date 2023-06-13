@@ -30,13 +30,13 @@ Microsoft works with each vendor to:
 
 - Jointly work on the SIP interconnection protocols.
 - Perform intense tests using a third-party lab. Only devices that pass the tests are certified.
-- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs.
+- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud works with certified SBCs.
 - Establish a joint support process with the SBC vendors.
 
   > [!NOTE]
   > Microsoft only supports Phone System with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
   >
-  > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
+  > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented in this article is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >
   > Example:
   >
@@ -48,7 +48,7 @@ The tables that follow list devices certified for Direct Routing. (For informati
 
 [Learn more about Direct Routing](https://aka.ms/dr).
 
-Note that we are not accepting new nominations for certification until further notice.
+Note that we're not accepting new nominations for certification until further notice.
 
 ## Certified SBC vendors
 
