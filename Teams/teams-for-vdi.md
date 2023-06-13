@@ -173,47 +173,45 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
 - [32-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
 - [64-bit version](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
-> [!NOTE]
-> For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
+   > [!NOTE]
+   > For government clouds, see [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md) for the download links to the MSI files.
 
 2. Install the MSI to the VDI VM by running one of the following commands:
 
--     - Per-user installation (default)
+Per-user installation (default)
 
 ```console
 msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
 ```
 
-        This process is the default installation, which installs Teams to the `%AppData%` user folder. At this point, the golden image setup is complete.
+This process is the default installation, which installs Teams to the `%AppData%` user folder. At this point, the golden image setup is complete.
 
-> [!IMPORTANT]
->     Teams won't work properly with per-user installation on a non-persistent setup.
+   > [!IMPORTANT]
+   > Teams won't work properly with per-user installation on a non-persistent setup.
 
--     - Per-machine installation
+Per-machine installation
 
 ```console
 reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
 ```
 
-        This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
+This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
 
 ```console
 msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
 ```
 
-        This process installs Teams to the `%ProgramFiles(x86)%` folder on a 64-bit operating system and to the `%ProgramFiles%` folder on a 32-bit operating system. At this point, the golden image setup is complete.
+This process installs Teams to the `%ProgramFiles(x86)%` folder on a 64-bit operating system and to the `%ProgramFiles%` folder on a 32-bit operating system. At this point, the golden image setup is complete.
 
-> [!IMPORTANT]
->     Installing Teams per-machine is required for non-persistent setups.
+   > [!IMPORTANT]
+   > Installing Teams per-machine is required for non-persistent setups.
 
-        When the next interactive logon session starts, Teams starts and asks for credentials.
+When the next interactive logon session starts, Teams starts and asks for credentials.
 
 > [!NOTE]
->     These examples also use the `ALLUSERS=1` parameter. When you set this parameter, **Teams Machine-Wide Installer** appears in **Programs and Features** in **Control Panel** and in **Apps & features** in **Windows Settings** for all users of the computer. All users can then uninstall Teams if they have admin credentials.
-> 
->     
-> 
->     It's important to understand the difference between `ALLUSERS=1` and `ALLUSER=1`. The `ALLUSERS=1` parameter can be used in non-VDI and VDI environments, while the `ALLUSER=1` parameter is used only in VDI environments to specify a per-machine installation.
+> These examples also use the `ALLUSERS=1` parameter. When you set this parameter, **Teams Machine-Wide Installer** appears in **Programs and Features** in **Control Panel** and in **Apps & features** in **Windows Settings** for all users of the computer. All users can then uninstall Teams if they have admin credentials.
+
+It's important to understand the difference between `ALLUSERS=1` and `ALLUSER=1`. The `ALLUSERS=1` parameter can be used in non-VDI and VDI environments, while the `ALLUSER=1` parameter is used only in VDI environments to specify a per-machine installation.
 
 3. Uninstall the MSI from the VDI VM. There are two ways to uninstall Teams.
 
@@ -223,8 +221,7 @@ msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
-
-      This process uninstalls Teams from the `%ProgramFiles(x86)%` folder or `%ProgramFiles%` folder, depending on the operating system environment.
+This process uninstalls Teams from the `%ProgramFiles(x86)%` folder or `%ProgramFiles%` folder, depending on the operating system environment.
 
 ## Teams on VDI performance considerations
 
