@@ -43,7 +43,11 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- No new features in the past 6 months.
+- June xx 
+  - No Agents  logged/opted in call exception 
+  - Additional prompting (cmdlet only)
+
+- May 01 - Authorized Users - authorized users may now update call queue main greeting, music on hold in queue and the shared voicemail greeting for overflow and timeout.
 
 ## Steps to create a call queue
 
@@ -53,8 +57,8 @@ The steps to set up a call queue includes:
 1. Set the greeting and music
 1. Set up call answering
 1. Choose and assign agents
-1. Set call overflow handling
-1. Set call timeout handling
+1. Set up call exception handling
+1. Set up authorized users
 
 The steps outlined in the article create call queues using the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
