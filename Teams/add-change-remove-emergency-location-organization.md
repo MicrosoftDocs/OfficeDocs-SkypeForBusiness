@@ -107,7 +107,7 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 #### Direct Routing
 
-For your users who are licensed with Phone System, you must assign a Direct Routing number to them first and then you can assign an emergency location to those users.
+For your users who are licensed with Phone System, you must assign a Direct Routing number to them so that you can assign an emergency location.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Users** > **Manage Users**.
 
@@ -119,7 +119,7 @@ For your users who are licensed with Phone System, you must assign a Direct Rout
 
 1. For **Assigned phone number**, enter the direct routing number and then the extension for **Phone number extension**.
 
-1. For **Emergency location**, search for, and select an emergency location. To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
+1. For **Emergency location**, search for, and select an emergency location.
 
 1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
@@ -127,7 +127,7 @@ For your users who are licensed with Phone System, you must assign a Direct Rout
 
 ### Using PowerShell
 
-See [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+For Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Calling, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Related topics
 
