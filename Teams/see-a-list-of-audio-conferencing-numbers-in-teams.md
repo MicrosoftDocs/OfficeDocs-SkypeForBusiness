@@ -37,6 +37,9 @@ If there is only one phone number available in your organization, it will be use
 You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.
 
 > [!NOTE]
+> A link to the list of Audio Conferencing numbers that are associated to the bridge of your organization is included in the meeting invites of meeting organizers as "Find a local number". The list of Audio Conferencing numbers that are associated to the bridge of your organization is publicly accessible to allow meeting participants finding an Audio Conferencing number that is closer to their location.
+
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## To view your audio conferencing phone numbers
