@@ -85,7 +85,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
   - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
 
 
-
+- You must create and assign an emergency call routing policy for each user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Considerations for PSTN connectivity options](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-pstn-connectivity-options).
 ## Related topics
 
 - [What is Shared Calling](what-is-shared-calling.md)
