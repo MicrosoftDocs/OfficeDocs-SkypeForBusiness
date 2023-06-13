@@ -1,7 +1,7 @@
 ---
 title: Devices for Teams
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: divank
 ms.date: 05/02/2023
@@ -119,6 +119,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2B | May 9, 2023 | `1449/1.0.94.2023050205` | `5.0.5484.0` | `413`|
 | 2023 Update #2A | April 14, 2023 | `1449/1.0.94.2023041203` | `5.0.5484.0` | `413`|
 | 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
 | 2023 Update #1A | February 21, 2023 | `1449/1.0.94.2023020602` | `5.0.5484.0` | `382`|
@@ -153,6 +154,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 350/400/500/600/505 | `8.1.2.1122` | 2023 Update #2A |
+|Poly Trio C60 | `8.1.2.1124 ` | 2023 Update #2A |
 |Crestron UC-P8/I  | `1.0.6.20`    | 2022 Update #4A|
 |Crestron UC-P10/I | `1.0.6.20`    | 2022 Update #4A|
 |Crestron UC-2     | `1.0.7.35`    | 2022 Update #4A|
@@ -271,6 +274,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #2 | May 24, 2023 | `1449/1.0.95.2023042701` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #1A | February 9, 2023 | `1449/1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #5 | January 25, 2023 | `1449/1.0.95.2023011001` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |2022 Update #4A | December 14, 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
@@ -287,6 +291,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink DeskVisionA24 | `156.15.0.24` | 2023 Update #1B|
 |Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
 |Crestron UC-P8-TD     |`1.0.0.60` |2022 Update #3A|
 |Neat Frame nf21f1 | `NFF1.20221128.0005` | 2022 Update #4A |
@@ -321,6 +326,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
+|Logitech Tap Scheduler | `1.9.384` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
 |Yealink RoomPanel | ` 147.15.0.40 ` | 2022 Update #4A |
 |Logitech Tap Scheduler | `1.8.184` |2022 Update #4A  |

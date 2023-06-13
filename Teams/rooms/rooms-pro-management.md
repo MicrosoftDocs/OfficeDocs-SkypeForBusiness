@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Pro management
 author: altsou
 ms.author: altsou
-manager: dstrome
+manager: tonysmit
 ms.reviewer: 
 ms.date: 03/25/2020
 ms.topic: article

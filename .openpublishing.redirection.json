@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/manage-third-party-teams-apps.md",
+      "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/zero-touch-app-install.md",
       "redirect_url": "/microsoftteams/auto-install-approved-apps",
       "redirect_document_id": false
@@ -3081,6 +3086,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/how-can-caller-id-be-used-in-your-organization.md",
+    "redirect_url": "/microsoftteams/caller-id-policies",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
     "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
@@ -4383,6 +4393,56 @@
   {
     "source_path": "Teams/g1-trial-license.md",
     "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/1-drive-value-operate-my-service.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/1-envision-define-my-success-cloud-voice.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/1-onboard-prepare-my-service.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/2-drive-value-enhance-my-service.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/2-onboard-prepare-my-users.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/3-envision-evaluate-my-environment.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/3-onboard-deploy-my-service.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/4-envision-plan-my-service-management.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/5-envision-plan-my-users-experience.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/6-envision-document-my-success-plan.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
     "redirect_document_id": false
   },
   {

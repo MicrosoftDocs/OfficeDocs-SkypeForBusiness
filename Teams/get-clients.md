@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 audience: Admin
 ms.topic: article

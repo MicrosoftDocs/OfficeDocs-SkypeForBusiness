@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.date: 06/02/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -22,7 +22,6 @@ ms.localizationpriority: medium
 ms.custom:
   - Licensing
   - LIL_Placement
-  - seo-marvel-mar2020
 description: Learn about Microsoft add-on licenses for Microsoft Teams and the capabilities you get with each license.
 ---
 
