@@ -37,7 +37,7 @@ As an admin, you can add a new guest to the organization in a couple of ways:
 
 - Global administrators or Teams administrators and team owners add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f). If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
-- Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. For details, check out [Quickstart: Add a guest user and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+- Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 Admins can also delegate permissions to add guests to others in their organization by assigning the Guest Inviter role. For more information, see [Limit who can invite guests](/microsoft-365/solutions/limit-who-can-invite-guests).
 
@@ -85,14 +85,14 @@ Guests are subject to  [Microsoft 365 or Office 365](/office365/servicedescripti
 
 ## Diagnosing issues with Guest Access
 
-To troubleshoot issues with inviting guest users in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that guest access is correctly configured for use in Teams. 
+To troubleshoot issues with inviting guests in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that guest access is correctly configured for use in Teams. 
 
 1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Guest Access](https://aka.ms/TeamsGuestAccessDiag)
 
-2. The test result tell you if the tenant is configured correctly for guest access. If the tenant isn't configured correctly, the diagnostic provides information on what steps to take to address issues with the configuration.
+2. The test results tell you if the tenant is configured correctly for guest access. If the tenant isn't configured correctly, the diagnostic provides information on what steps to take to address issues with the configuration.
 
 ## Tracking guests in your organization
 
