@@ -134,15 +134,15 @@ When you create a custom background:
   
 **16:9 - Single ront-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom backgroudn showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
@@ -165,7 +165,7 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 **16:9 - Touch console dimensions**
 
-:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
+:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
 
 ### Custom background template
 
@@ -218,13 +218,13 @@ Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines diffe
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
 **16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Custom background showing a single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 When you create a custom background, use the following guidelines:
 
