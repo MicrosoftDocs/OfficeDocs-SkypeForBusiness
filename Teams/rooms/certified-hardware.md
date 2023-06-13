@@ -158,6 +158,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly TC8 | `3.3.2.210441` | August 5, 2023 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 9 |
 | Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 | 11 |
+| Poly G7500 with Shure DSP (P300+MXA920+MXN5C) | `4.0.0.376092` |  Large meeting room | September 3, 2025 | 10 |
 
 ## [Peripherals](#tab/Peripherals)
 
