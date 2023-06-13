@@ -1481,6 +1481,8 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
+                - name: Manage custom backgrounds
+                  href: rooms/custom-backgrounds.md
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Find devices with unsupported licenses
