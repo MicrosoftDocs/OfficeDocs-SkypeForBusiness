@@ -27,17 +27,43 @@ As an admin, you can create policies that help prevent your users from getting u
 
 Calls from a Public Switched Telephone Network (PSTN) and federated Teams or Skype for Business users are considered external calls.
 
-This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, Direct Routing, and federated VoIP calls.
+This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, Direct Routing, and federated VoIP calls. These policy settings are also available for GCCH & DoD use.
 
 These inbound routing policies have precedence over other call forwarding settings such as **Call forwarding and simultaneous to people in your organization**, **Call forwarding and simultaneous ringing to external phone numbers**, **Delegation for inbound and outbound calls**, and **Inbound calls can be routed to call groups**.
 
 ## Inbound PSTN calls
 
+### Using the Teams admin center
 
+1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Calling policies**.
+
+1. Select the policy you would like to update or click **Add** to create a new policy.
+
+1. 
+
+### Using PowerShell
+
+```powershell
+
+```
+
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 ## Inbound VoIP federated calls
 
+### Using the Teams admin center
 
+1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Calling policies**.
+
+1. Select the policy you would like to update or click **Add** to create a new policy.
+
+### Using PowerShell
+
+```powershell
+
+```
+
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 ## Related articles
 
