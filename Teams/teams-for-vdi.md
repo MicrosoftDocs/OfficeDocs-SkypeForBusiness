@@ -259,7 +259,7 @@ These real-time metrics (network, audio, screen sharing, and outgoing video qual
 
 To view stats during a call or meeting, users need to select **More actions** ...  icon at the top of the call window, and then select **Call health** near the top of the menu.
 
-[Lean more about Network, Audio and Video metrics here ](https://support.microsoft.com/en-au/office/monitor-call-and-meeting-quality-in-teams-7bb1747c-d91a-4fbb-84f6-ad3f48e73511#:~:text=The%20Call%20health%20view%20in,sharing%2C%20and%20outgoing%20video%20quality."https://support.microsoft.com/en-au/office/monitor-call-and-meeting-quality-in-teams-7bb1747c-d91a-4fbb-84f6-ad3f48e73511#:~:text=the%20call%20health%20view%20in,sharing%2c%20and%20outgoing%20video%20quality.")
+For more information about network, audio and video metrics, see [Monitor call and meeting quality in Teams](https://support.microsoft.com/office/7bb1747c-d91a-4fbb-84f6-ad3f48e73511).
 
 This feature requires Teams Desktop client 1.6.00.11166 or higher.
 
