@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms on Windows and Android feature comparison
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: jsarrasin
 ms.date: 05/03/2023
 ms.topic: conceptual
