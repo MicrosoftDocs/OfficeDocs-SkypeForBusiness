@@ -52,7 +52,7 @@ Teams users in your organization can use the praise composer to recognize their 
 
 :::image type="content" source="media/praise.png" alt-text="Screenshot of the praise composer.":::
 
-## Give feedback or report an issue
+## User data in Praise
 
 Praise uses Viva Insights to process and store data. See the [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) to learn more about how Viva Insights processes and stores user data.
 
