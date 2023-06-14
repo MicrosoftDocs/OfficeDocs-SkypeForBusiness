@@ -54,7 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past six months
 
-- May 01 - Authorized Users - authorized users may now update auto attendant business, after hours and holiday greetings.
+- May 01 - **Authorized Users** - authorized users may now update auto attendant business, after hours, and holiday greetings.
 
 ## Steps to create an auto attendant
 
