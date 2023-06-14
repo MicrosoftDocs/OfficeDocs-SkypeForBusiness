@@ -20,17 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Learn how to add, change, or remove a place for an emergency location and assign a place to your users.
+description: Learn how to add a place for an emergency location and assign a place to your users.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Add places to emergency locations
 
-This article describes how to add, change, or remove a *place* for an emergency location for your organization and how to assign a place to a user or phone number. Depending on the number of physical locations in your organization, you can add *places* for buildings, floors, and offices to create a more specific emergency location.
+This article is about adding places to an emergency location; it also describes how to assign a place for an emergency location to a user or phone number. Before reading this article, be sure you've read [Manage emergency locations](add-change-remove-emergency-location-organization.md) first.
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;an emergency location may be assigned to a phone number.
-
-However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location.
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
 

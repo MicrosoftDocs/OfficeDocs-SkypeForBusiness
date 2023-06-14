@@ -20,13 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Learn how to add, change, or remove an emergency location for your organization and assign a location to your users.
+description: Learn how to add, change, or remove an emergency location for your organization and how to assign a location to your users.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Manage emergency locations for your organization
 
-This article describes how to add, change, or remove an emergency location for your organization and how to assign an emergency location to your users. To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country.
+This article describes how to add, change, or remove an emergency location for your organization; it also describes how to assign an emergency location to your users.
+
+To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country. To successfully activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland, Netherlands, and Spain, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
 
 Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash; an emergency location may be assigned to a phone number.
 
@@ -44,10 +46,6 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 2. Click **Add**.
 3. Enter a name and description for the location.
 4. Select the country or region, and then enter the address.
-
-   > [!NOTE]
-   > In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
-
 5. If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.
 6. Click **Save**.
 
@@ -57,6 +55,8 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 
 ## Change an emergency location
 
+You can change the address information for a location only if the address isn't validated. If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.
+
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.
@@ -64,17 +64,13 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 3. Make the changes you want.
 4. Click **Save**.
 
-> [!NOTE]
-> You can change the address information for a location only if the address isn't validated. If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.
-
 ### Using PowerShell
 
 See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
 
 ## Remove an emergency location
 
-> [!NOTE]
-> You can remove a location only if no users or phone numbers are assigned to it. If numbers or users are assigned to the location, you need to remove them first.
+You can remove a location only if no users or phone numbers are assigned to it. If numbers or users are assigned to the location, you need to remove them first.
 
 ### Using the Microsoft Teams admin center
 
@@ -107,7 +103,7 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 #### Direct Routing
 
-For your users who are licensed with Phone System, you must assign a Direct Routing number to them so that you can assign an emergency location.
+For your users who are licensed with Phone System, you can assign a Direct Routing phone number and then optionally an emergency location.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Users** > **Manage Users**.
 
