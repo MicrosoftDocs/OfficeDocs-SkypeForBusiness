@@ -54,7 +54,7 @@ Teams users in your organization can use the praise composer to recognize their 
 
 ## Give feedback or report an issue
 
-Praise uses Viva Insights to process and store data. You can learn more about how Viva Insights processes and stores data at [https://learn.microsoft.com/en-us/viva/insights/personal/overview/mya-faq#q3-where-and-for-how-long-is-user-data-stored](/viva/insights/personal/overview/mya-faq)
+Praise uses Viva Insights to process and store data. See the [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) to learn more about how Viva Insights processes and stores data.
 
 ## Give feedback or report an issue
 
