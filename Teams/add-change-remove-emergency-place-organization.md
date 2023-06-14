@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 # Add places to emergency locations
 
-This article is about adding places to an emergency location; it also describes how to assign a place for an emergency location to a user or phone number. Before reading this article, be sure you've read [Manage emergency locations](add-change-remove-emergency-location-organization.md) first.
+This article is about adding places to an emergency location. It also describes how to assign a place for an emergency location to a user or phone number. Before reading this article, be sure you've read [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
 Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location.
 

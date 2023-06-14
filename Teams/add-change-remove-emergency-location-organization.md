@@ -26,9 +26,9 @@ ms.custom: seo-marvel-mar2020
 
 # Manage emergency locations for your organization
 
-This article describes how to add, change, or remove an emergency location for your organization; it also describes how to assign an emergency location to your users.
+This article describes how to add, change, or remove an emergency location for your organization. It also describes how to assign an emergency location to your users.
 
-To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country. To successfully activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland, Netherlands, and Spain, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.
+To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country. To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland, Netherlands, and Spain, the address set up in the emergency location must match the phone number's area code.
 
 Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash; an emergency location may be assigned to a phone number.
 
@@ -103,7 +103,7 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 #### Direct Routing
 
-For your users who are licensed with Phone System, you can assign a Direct Routing phone number and then optionally an emergency location.
+For Direct Routing users, you can assign a Direct Routing phone number and then optionally an emergency location.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Users** > **Manage Users**.
 
