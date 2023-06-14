@@ -54,8 +54,13 @@ Teams users in your organization can use the praise composer to recognize their 
 
 ## Give feedback or report an issue
 
+Praise uses Viva Insights to process and store data. You can learn more about how Viva Insights processes and stores data at [https://learn.microsoft.com/en-us/viva/insights/personal/overview/mya-faq#q3-where-and-for-how-long-is-user-data-stored](/viva/insights/personal/overview/mya-faq)
+
+## Give feedback or report an issue
+
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Praise" so we can easily identify Praise issues.
 
 ## Related articles
 
 [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+
