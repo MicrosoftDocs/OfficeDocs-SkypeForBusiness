@@ -8,7 +8,6 @@ manager: samanro
 ms.topic: how-to
 audience: admin
 ms.service: msteams
-ms.reviewer: jdemaris
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
