@@ -29,9 +29,9 @@ description: "In this article, you'll learn how to configure Teams Phone Shared 
 
 # Set up Shared Calling
 
-Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to configure Shared Calling.
+Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to set up Shared Calling.
 
-To set up and manage Shared Calling, you'll use the following Teams PowerShell cmdlets: 
+To set up and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets: 
 
 **NOTE TO ME:  Add links to reference topics**
 - New-CsTeamsSharedCallingRoutingPolicy
@@ -72,7 +72,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 ## Emergency calling rules
 
-- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency number is made, the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
+- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
 
 - Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
 
@@ -85,9 +85,8 @@ To associate a location on resource account numbers for Calling Plan, Operator C
   - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
 
 
-- You must create and assign an emergency call routing policy for each user. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Considerations for PSTN connectivity options](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-pstn-connectivity-options).
+
 ## Related topics
 
 - [What is Shared Calling](what-is-shared-calling.md)
-- [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
-- [Manage resource accounts](manage-resource-accounts.md)
+

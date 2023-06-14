@@ -51,7 +51,7 @@ For more information about using Auto Attendants and Call Queues, see [Plan for 
 
 - You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
 
-- If inbound calling is required, you must assign this resource account to a configured Auto Attendant or Call Queue that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md), [Set up an auto attendant](create-a-phone-system-auto-attendant.md) and [Set up a call queue](create-a-phone-system-call-queue.d).
+- If inbound calling is required, you must assign this resource account to a configured Auto Attendant or Call Queue that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md), [Set up an auto attendant](create-a-phone-system-auto-attendant.md) and [Set up a call queue](create-a-phone-system-call-queue.md).
 
 - If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
@@ -63,7 +63,7 @@ For more information about using Auto Attendants and Call Queues, see [Plan for 
 
 You must ensure that users enabled for Shared Calling are able to make emergency calls. 
 
-- You specify emergency call numbers by using the emergency call routing policy. You must assign this policy to each user enabled for Shared Calling. If the resource account used has an Operator Connect or Calling Plan number assigned, the emergency numbers should not have Online PSTN Usages assigned.
+- You specify emergency call numbers by using the [emergency call routing policy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy). You must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resurce account: Calling Plan, Operator Connect, or Direct Routing. However, if the resource account uses a Calling Plan or Operator Connect number, the emergency numbers should not have Online PSTN Usages assigned. For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md).
 
 - Emergency services must be able to call back to the originator of the emergency call. You can define a list of emergency callback numbers in the Shared Calling routing policy. If this list is empty, the phone number of the resource account is used as the emergency callback number.
 
@@ -72,19 +72,19 @@ You must ensure that users enabled for Shared Calling are able to make emergency
   - Dynamically obtained by the Teams client based on the actual location of the user.
   - Statically obtained from the location assigned to the resource account specified in the Shared Calling routing policy.
 
-- If a Shared Calling user is using a resource account with a Direct Routing phone number assigned, for routing of outbound calls, you must configure an Online Voice Routing Policy and assign it to the user.  (This step is not required for resource accounts using a Calling Plan or Operator Connect number.)
-
 For more information about emergency calling, see  [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Considerations for PSTN connectivity options](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-pstn-connectivity-options).
 
 ## Considerations
 
 - Blocked caller ID might not work.
+- What else?
 
 ## Related topics
 
-- [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Set up Shared Calling](set-up-shared-calling.md)
+- [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
+- [Set up a call queue](create-a-phone-system-call-queue.md)
 - [Manage resource accounts](manage-resource-accounts.md)
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [What is Phone System](what-is-phone-system-in-office-365.md)
