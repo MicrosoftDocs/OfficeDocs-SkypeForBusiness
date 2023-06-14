@@ -1,13 +1,14 @@
 ---
 title: Manage the Lists app for your organization
-author: LanaChin
-ms.author: v-lanachin
+author: Samanro
+ms.author: samanro
 ms.reviewer: anach,v-jasuk
-ms.date: 09/26/2018
+ms.date: 06/14/2023
 manager: samanro
 ms.topic: how-to
 audience: admin
 ms.service: msteams
+ms.reviewer: jdemaris
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
