@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- May 01 - Authorized Users - authorized users may now update call queue main greeting, music on hold in queue and the shared voicemail greeting for overflow and timeout.
+- May 01 - **Authorized users** - authorized users may now update call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
 
 ## Steps to create a call queue
 
@@ -346,7 +346,7 @@ You can specify a value from 0 seconds to 45 minutes.
 ### No Agents: Set how to handle calls when no agents
 
 > [!NOTE]
-> This feature is currently in private preview and is not available for all customer.
+> This feature is currently in private preview and isn't available to all customers.
 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 
@@ -356,10 +356,10 @@ You can specify a value from 0 seconds to 45 minutes.
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
 >
-> - Presence based routing off: No agents are opted in to the queue
-> - Presence based routing on: No agents logged in or all agents are in *Appear Offline*
+> - Presence based routing off: No agents are opted into the queue.
+> - Presence based routing on: No agents logged in, or all agents are in *Appear Offline*.
 >
-> If agents are logged or opted in then calls will be queued.
+> If agents are logged in or opted in, then calls will be queued.
 
 Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 
