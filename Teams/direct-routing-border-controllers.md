@@ -30,13 +30,13 @@ Microsoft works with each vendor to:
 
 - Jointly work on the SIP interconnection protocols.
 - Perform intense tests using a third-party lab. Only devices that pass the tests are certified.
-- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud will work with certified SBCs.
+- Run daily tests with all certified devices in production and pre-production environments. Validating the devices in pre-production environments guarantees that new versions of Direct Routing code in the cloud works with certified SBCs.
 - Establish a joint support process with the SBC vendors.
 
   > [!NOTE]
   > Microsoft only supports Phone System with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
   >
-  > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
+  > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented in this article is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >
   > Example:
   >
@@ -48,7 +48,7 @@ The tables that follow list devices certified for Direct Routing. (For informati
 
 [Learn more about Direct Routing](https://aka.ms/dr).
 
-Note that we are not accepting new nominations for certification until further notice.
+Note that we're not accepting new nominations for certification until further notice.
 
 ## Certified SBC vendors
 
@@ -65,12 +65,12 @@ Note that we are not accepting new nominations for certification until further n
 ||Virtual Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant 3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5400|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version of 11.1))|&#10004;||
-||SBC 7000|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version of 11.1))|&#10004;||
-||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version of 11.1))|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
-||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|8.x, 9.x or 11.x|&#10004;|&#10004;|
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5400|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
+||SBC 7000|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
+||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
+||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
+||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
 ||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
