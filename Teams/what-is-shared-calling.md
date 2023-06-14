@@ -31,17 +31,17 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. 
 
-With Shared Calling, instead of assigning a phone number to every user, you can assign a resource account number (for an Auto Attendant or Call Queue) for outbound and inbound PSTN calls. Users have the same Phone System user experience and features, including the dial pad.
+With Shared Calling, instead of assigning a phone number to every user, you can assign a resource account number (for an auto attendant or call queue) for outbound and inbound PSTN calls. Users have the same Phone System user experience and features, including the dial pad.
 
 When a Shared Calling user makes an outbound call to the PSTN, the caller ID seen by recipients is that of the resource account number. You can also configure the resource account number as the callback number for your users.  
 
-For example, if you want all users to call out using the same number, you can use a resource account with an Auto Attendant. Auto attendants allow you to set up menu options to route calls based on caller input. For inbound calls to this number, the Auto Attendant is used to route the call to the right person.
+For example, if you want all users to call out using the same number, you can use a resource account with an auto attendant. Auto attendants allow you to set up menu options to route calls based on caller input. For inbound calls to this number, the auto attendant is used to route the call to the right person.
 
-If the call-out number is for a service desk or help desk, you can use a resource account with a Call Queue. Call queues connect callers to the group of agents who can assist them. For inbound calls, callers are put on hold until an agent assigned to the queue is available to take their call.
+If the call-out number is for a service desk or help desk, you can use a resource account with a call queue. Call queues connect callers to the group of agents who can assist them. For inbound calls, callers are put on hold until an agent assigned to the queue is available to take their call.
 
 For users who do not need a dedicated assigned phone number, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces cost for your organization because you don't need a calling plan license for every user.
 
-For more information about using Auto Attendants and Call Queues, see [Plan for Auto Attendants and Call Queues](plan-auto-attendant-call-queue.md).
+For more information about using auto attendants and call queues, see [Plan for auto attendants and call queues](plan-auto-attendant-call-queue.md).
 
 ## Requirements
 
@@ -51,7 +51,7 @@ For more information about using Auto Attendants and Call Queues, see [Plan for 
 
 - You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
 
-- If inbound calling is required, you must assign this resource account to a configured Auto Attendant or Call Queue that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md), [Set up an auto attendant](create-a-phone-system-auto-attendant.md) and [Set up a call queue](create-a-phone-system-call-queue.md).
+- If inbound calling is required, you must assign this resource account to a configured auto attendant or call queue that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md), [Set up an auto attendant](create-a-phone-system-auto-attendant.md) and [Set up a call queue](create-a-phone-system-call-queue.md).
 
 - If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
