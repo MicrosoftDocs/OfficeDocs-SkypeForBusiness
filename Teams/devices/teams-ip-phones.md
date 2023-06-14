@@ -24,6 +24,7 @@ ms.custom:
   - Skype for Business Certification
   - dn947482
   - seo-marvel-apr2020
+hideEdit: true
 description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
