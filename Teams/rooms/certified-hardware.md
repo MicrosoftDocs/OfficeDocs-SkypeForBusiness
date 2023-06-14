@@ -18,6 +18,7 @@ ms.collection:
   - Tier3
 ms.custom: 
   - seo-marvel-mar2020
+hideEdit: true
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
 ---
 
