@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -56,11 +57,13 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 
 ### Hardware, software, and licenses
 
-If you have a 3PIP or SIP device, you must have:
+If you have a 3PIP or SIP device, you must have the following:
 
-- A license for Microsoft Teams, Skype for Business Online Plan 2, and Microsoft 365 Phone System (via E5 or standalone licenses)
-- PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
-- A **Microsoft Teams Shared Devices** license for any common area devices
+- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- Skype for Business Online (Plan 2)
+  - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
+- [Microsoft Phone System](what-is-phone-system-in-office-365.md)
+- [PSTN Connectivity](pstn-connectivity.md)
 
 ## Compatible devices
 
@@ -147,20 +150,20 @@ If you have a 3PIP or SIP device, you must have:
 |          |W90 EMEA              |            |130.85.5.6 |   |   |
 |          |W90 APAC              |            |130.85.5.4 |   |   |
 |**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
-|          |405<sup>1</sup>        |2.2.8      |2.2.16.589 |   |   |
-|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
-|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.589 |   |   |
-|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
-|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.589 |   |   |
-|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
-|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.589 |   |   |
-|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.589 |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.704 |   |   |
-|          |445HDG<sup>1</sup>     |3.2.1      |3.4.6.704 |   |   |
-|          |450HD<sup>1</sup>      |3.2.1      |3.4.6.704  |   |   |
-|          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.704  |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.704  |   |   |
-|          |RX50<sup>1</sup>       |3.2.1      |3.4.6.704  |   |   |
+|          |405<sup>1</sup>        |2.2.8      |2.2.16.600 |   |   |
+|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
+|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
+|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
+|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
+|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
+|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
+|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
+|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717 |   |   |
+|          |445HDG<sup>1</sup>     |3.2.1      |3.4.6.717 |   |   |
+|          |450HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
+|          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
+|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
+|          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Handset |   |
 |          |7212        |PCS22B     |PCS22B     |Handset |   |
@@ -177,16 +180,16 @@ If you have a 3PIP or SIP device, you must have:
 |          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |**Ascom**|       |           |           |   |[Ascom Support](https://www.ascom.com/products-and-services/services/support-and-maintenance/)|
-|          |Ascom d43        |2.11.4     |2.11.4     |Handset |   |
-|          |Ascom d63        |2.11.4     |2.11.4     |Handset |   |
-|          |Ascom d81        |4.13.1     |4.13.1     |Handset |   |
-|          |Ascom d83        |4.13.1     |4.13.1     |Handset |   |
-|          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Handset |   |
-|          |IP-DECT Access Point IPBSx        |11.8.8     |11.8.8     |IP-DECT Access Point |   |
-|          |IP-DECT Gateway IPBL     |11.8.8     |11.8.8     |IP-DECT Gateway |   |
-|          |TDM Base Station        |R3N     |R3N     |IP-DECT Base Station |   |
-|          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.8.8     |IP-DECT Server |   |
-|**Gigaset**|       |           |           |   |[Gigaset Support](https://support.spectralink.com](https://www.gigaset.com/en_en/cms/home/support/support.html)|
+|          |Ascom d43        |2.11.4     |3.0.8     |Handset |   |
+|          |Ascom d63        |2.11.4     |3.0.8     |Handset |   |
+|          |Ascom d81        |4.13.1     |4.17.3     |Handset |   |
+|          |Ascom d83        |1.3.2     |1.5.5     |Handset |   |
+|          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Wireless Handset |   |
+|          |IP-DECT Access Point IPBSx        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
+|          |IP-DECT Gateway IPBL     |11.8.8     |11.9.11     |IP-DECT Gateway |   |
+|          |TDM Base Station        |R3N     |R4B     |IP-DECT Base Station |   |
+|          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.9.11     |IP-DECT Server |   |
+|**Gigaset**|       |           |           |   |[Gigaset Support](https://www.gigaset.com/en_en/cms/home/support/support.html)|
 |          |N610 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N670 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N870 IP PRO        |2.52.0     |2.52.0     |Base Station |   |

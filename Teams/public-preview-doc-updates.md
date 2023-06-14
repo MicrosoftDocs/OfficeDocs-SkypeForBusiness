@@ -15,10 +15,10 @@ ms.date: 06/29/2020
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
+description: Learn how to use public preview in Microsoft Teams to try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
 
 # Microsoft Teams Public Preview
@@ -30,6 +30,9 @@ Public Preview for Microsoft Teams provides early access to unreleased features 
 
 For a list of what's available in the Teams public preview, visit [Microsoft Teams Public Preview tech notes](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
 
+> [!IMPORTANT] 
+> This policy has no effect on users who are part of [Microsoft 365 targeted release](/microsoft-365/admin/manage/release-options-in-office-365). Learn more about [Teams support for Targeted Release](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-support-for-microsoft-365-targeted/ba-p/3804259).
+
 ## Set the Update policy
 
 Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
@@ -40,10 +43,10 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
 1. Select **Add** to create a new policy or select an existing policy to open **Update policy**.
 
-2. Name the update policy, add a description, and select the setting for **Show preview features**.
+2. Name the update policy, add a description, and select the setting for **Allow public preview**.
 
    -   **Follow Office Preview** (default)
-       - This new default option will automatically enable Teams Public Preview features for any user enrolled in Office Current Channel (Preview). 
+       - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel (Preview). 
        - There are no more actions required by the end user.
        
    -   **Enabled**
@@ -51,7 +54,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
        - The end user must also opt in to Teams public preview in their Teams app.
 
    > [!NOTE]  
-   > For existing users in Teams Public Preview who are NOT in the **Current Channel (Preview)**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
+   > For existing users in Teams Public Preview who are not in the **Current Channel (Preview)**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
  
    - **Not enabled** 
      - Teams Public Preview features will not be available to end users.
@@ -77,7 +80,7 @@ To enable public preview on a desktop or web client, you need to complete the fo
 
 ### Public preview for Microsoft Teams Rooms on Windows
 
-Public preview is off by default. When public preview is on, end-users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file.
+Public preview is off by default. When public preview is on, end-users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file. For more information about the XML file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 We recommend enrolling 5-10 devices to public preview. 
 

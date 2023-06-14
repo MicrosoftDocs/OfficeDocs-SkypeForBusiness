@@ -1,7 +1,7 @@
 ---
 title: Remotely manage Microsoft Teams Rooms device settings
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -78,6 +78,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <FrontRowVideoSize>medium</FrontRowVideoSize>
+  <FrontRowPanelDefaults>3,2</FrontRowPanelDefaults>
   <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <ShowMeetingChat>true</ShowMeetingChat>
@@ -104,6 +105,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
             <BlueComponent>100</BlueComponent>
        </CustomThemeColor>
   </Theming>
+  <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience> 
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
     <Settings>
@@ -159,18 +161,19 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
+| `<FrontRowPanelDefaults>` | String | | Lets you configure the position of the raise hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays.<br> <br>To manually configure the position of the raise hand and chat components, specify the numeric values of the component that should be shown in the left and right panels respectively, separated by a comma (for example, `3,1`).  Panels using the same component will be ignored except for <b>1</b> Hide the panel.<ul><li><b>1</b> Hide the panel.  </li><li><b>2</b> Show meeting chat.</li><li><b>3</b> Show raised hand list.</li></ul><br>If `FrontRowPanelDefaults` isn't specified in dual display mode, the raise hand component is shown in the left panel and chat component is shown in the right panel. In single display mode, the left panel isn't displayed by default for front-of-room displays narrower than 21:9.|
 | `<DefaultFoRExperience>` | Boolean &#x2777; | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row. For more information, see [Set front row as the default layout](manage-front-row.md). |
-| `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, Main Front of Room (FoR) is a screen with clock (out of meeting) and self-preview video (in meeting). `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` have to be set together at a time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<EnableResolutionAndScalingSetting>` | Boolean &#x2777; | First &#x2776; | By default it is disabled. If you want to change your Front of Room's resolution and scaling, set it to true. If true, the display resolution and scale setting will be applied. This setting will affect both the Main FoR and Extended FoR once this setting is enabled. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, Main Front of Room (FoR) is a screen with the self-preview video (in meeting). `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` have to be set together at a time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080). It will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplay>` | Container | First &#x2776; | In dual display mode, Extended Front of Room (FoR) is a screen where you see shared content (in meeting).  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` have to be set together at a time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (for example: 1920,1080). A value will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<EnableResolutionAndScalingSetting>` | Boolean &#x2777; | First &#x2776; | By default it is disabled. If you want to change your Front of Room's resolution and scaling, set it to true. If true, the display resolution and scale setting will be applied. This setting will affect both the Main FoR and Extended FoR once this setting is enabled. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<SingleFoRDefaultContentLayout>` | String |  | In single display mode, you can set the default layout between Content+people and Content only:<br><ul><li><b>0</b> Content only</li><li><b>1</b> Content+people (default)</li></ul><br> For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ShowMeetingChat>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If disabled, meeting chat isn't shown in any meeting layout on the Teams Rooms device. |
 | `<EnablePublicPreview>` | Boolean &#x2777; | First &#x2776; | Disabled by default. If true, public preview is enabled and end-users can access features in public preview on enabled Teams Rooms. See [Public preview for Microsoft Teams Rooms on Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) for more information. |
-| `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> Auto (default). Teams decides on the best level of noise suppression based on local noise.</li><li><b>2</b> Low. Suppresses low levels of persistent background noise, such as a computer fan or air conditioner.</li><li><b>3</b> High. Suppresses all background sound that isn't speech.</li></ul> |
+| `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
 | `<CortanaWakewordEnabled>` | Boolean &#x2777; | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false. |
 | `<SendLogs>` | Container | First &#x2776; |  |
 | `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
@@ -186,6 +189,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are Default, one of the provided preset themes, or Custom. <br/>  Custom theme names always use the name *Custom*. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  To disable the current theme, use "No Theme" for the ThemeName. |
 | `<CustomThemeImageUrl>` | String  &#x2778; |  | Required for a custom theme, otherwise optional. Input the file name only.   For more information on the custom theme image, see the [Custom Theme Images](xml-config-file.md#Themes) section. |
 | `<CustomThemeColor>` | Container |  | Container for the `<RedComponent>`, `<GreenComponent>`, and `<BlueComponent>` values. These values are required, but do not impact theme color. Please specify any value between 0-255. |
+| `<TeamsRoomsNewExperience>`| Boolean &#x2777; |   | Enable or disable the refreshed home screen design on front-of-room displays and the console. Starting with version 4.17, the refreshed home screen design is enabled by default. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).  |
 | `<RedComponent>` | Byte (0-255) |  | Represents the red color component. |
 | `<GreenComponent>` | Byte (0-255) |  | Represents the green color component. |
 | `<BlueComponent>` | Byte (0-255) |  | Represents the blue color component. |

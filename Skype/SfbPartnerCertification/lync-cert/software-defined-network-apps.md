@@ -86,7 +86,7 @@ The Lync SDN API relays detailed information regarding calls and sessions to Ext
 
   **Dynamically automate policy deployment.**
 
-[HP](http://HP.com)
+[HP](https://HP.com)
 
 The ***HP Network Optimizer SDN Application*** automates policy deployment dynamically on a per-session basis for voice, video, and application sharing to deliver a better user experience and reduce operational costs.
 

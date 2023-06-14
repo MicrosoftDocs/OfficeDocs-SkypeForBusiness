@@ -43,7 +43,7 @@
         "Microsoft Teams"
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
-      "uhfHeaderId": "MSDocsHeader-MicrosoftTeams.yml",
+      "uhfHeaderId": "MSDocsHeader-MicrosoftTeams",
       "ms.suite": "office",
       "titleSuffix": "Microsoft Teams",
       "contributors_to_exclude": [
@@ -55,7 +55,9 @@
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "beccarobins",
+        "dstrome"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",

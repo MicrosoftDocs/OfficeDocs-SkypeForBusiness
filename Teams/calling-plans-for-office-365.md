@@ -3,8 +3,8 @@ title: Microsoft Calling Plans for Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.reviewer: roykuntz
+ms.date: 05/23/2023
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
@@ -14,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -77,14 +78,10 @@ With the Domestic Calling Plan, licensed users can call out to numbers located i
 There are three **Domestic Calling Plan** options to choose from:
 
 - **Domestic Calling Plan Zone-1 US**: For users in the United States and Puerto Rico.
-
-  Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
   
 - **Domestic Calling Plan Zone-1 Canada/UK**: For users in Canada and the United Kingdom.
 
 - **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
-
-  Note: Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
 
 ### International Calling Plan
 

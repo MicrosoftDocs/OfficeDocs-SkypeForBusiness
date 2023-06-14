@@ -1,7 +1,7 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: parisataheri
 ms.date: 03/29/2021
 manager: serdars
@@ -107,8 +107,6 @@ General retention policy is stated in the [Data retention overview](/compliance/
 **Is voice profile data used across Microsoft services?**
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
-
-For example, Microsoft won't use the data in the following situations:
 
 **Is my voice profile data used when I join a meeting in another organization?**
 

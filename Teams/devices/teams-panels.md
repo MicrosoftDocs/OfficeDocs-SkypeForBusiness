@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams panels
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/15/2021
@@ -49,6 +49,12 @@ To learn more about partners certified for Teams panels, see [Currently certifie
 ## Teams panels requirements
 
 The hardware, software, and network requirements to deploy panels devices may differ depending on which type of panels devices you're deploying. Refer to the Original Equipment Manufacturer (OEM) documentation to know what's required for your set of devices.
+
+Teams panels are supported in the following Microsoft Cloud environments:
+
+- Worldwide
+- GCC
+- GCC-H
 
 ## License requirement
 
@@ -102,7 +108,7 @@ Planning for configuration and deployment covers the following key areas:
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
 To set up a Microsoft 365 resource account for Teams panels, you need to purchase a [Microsoft Teams Rooms license](#license-requirement).
-For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md).
+For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md).
 
 > [!NOTE]
 >

@@ -1,7 +1,7 @@
 ---
 title: Assign policies to users and groups
-author: mkbond007
-ms.author: mabond
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.date: 11/15/2019
 manager: serdars
@@ -24,6 +24,10 @@ f1keywords:
 # Assign policies to users and groups
 
 This article reviews the different ways to assign policies to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
+
+This video shows how to assign policies to multiple users.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbM?autoplay=false]
 
 ## Assign a policy to individual users
 
@@ -59,7 +63,7 @@ Each policy type has its own set of cmdlets for managing it. Use the `Grant-` cm
  Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
 > [!NOTE]
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+> Skype for Business Online Connector is part of the latest Teams PowerShell module.
 >
 > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
@@ -128,7 +132,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 ### In the Teams admin center
 
 > [!NOTE]
-> Currently, policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, and Teams messaging policy. For other policy types, use PowerShell.
+> Policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, Teams messaging policy, and App setup policies. For other policy types, use PowerShell.
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy type page. For example, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
@@ -151,7 +155,7 @@ This video shows the steps to create and assign a custom meeting policy to a gro
 ### Use the PowerShell option
 
 > [!NOTE]
-> Currently, policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
+> Policy assignment to groups using PowerShell isn't available for all Teams policy types. See [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
@@ -185,7 +189,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 #### Remove a policy from a group
 
-Use the [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to that group, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
+Use the [Remove-CsGroupPolicyAssignment](/powershell/module/teams/remove-csgrouppolicyassignment) cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to other groups, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
@@ -276,7 +280,7 @@ To view the status of your policy assignment, in the banner that appears at the 
 ### Use PowerShell method
 
 > [!NOTE]
-> Currently, batch policy assignment using PowerShell isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
+> Batch policy assignment using PowerShell isn't available for all Teams policy types. See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
 
 With batch policy assignment, you can assign a policy to large sets of users at a time without using a script. You use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
 

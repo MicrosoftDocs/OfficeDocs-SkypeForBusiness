@@ -1,9 +1,9 @@
 ---
 title: Teams Rooms on Windows and Android feature comparison
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: jsarrasin
-ms.date: 03/23/2023
+ms.date: 05/03/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -28,15 +28,11 @@ Microsoft Teams Rooms experiences are designed with customers in mind. Every cus
 
 Core functionality is available on both platforms so end users can always have great audio and video experiences, use one-touch join to join meetings, and access inclusive features such as live captions and raise hand. 
 
-As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but features may roll out at different times due to a number of factors, including things like technical feasibility and customer feedback for each platform. This means you may see some features rolling out on Windows before they come to the Android platform. 
+As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but features may roll out at different times due to a number of factors, including things like technical feasibility and customer feedback for each platform. This means you may see some features rolling out on Windows before they come to the Android platform.
 
-To help guide you as to what features are available on different platforms, you can refer to the chart below, which will be updated periodically. Not all Teams Rooms features will be included on this list, so please continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) and Microsoft sales representatives for additional details.    
+To help guide you as to what features are available on different platforms, you can refer to the chart below, which will be updated periodically. Not all Teams Rooms features will be included on this list, so please continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) and Microsoft sales representatives for additional details.
 
-## Teams devices for shared spaces
-
-### Feature comparison between Windows and Android
-
-(March 2023)
+**March 2023**
 
 | &ensp;                                   | Features                                                                                                     | Windows                                                                                                                                        | Android                                             |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|

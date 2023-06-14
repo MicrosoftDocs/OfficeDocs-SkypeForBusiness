@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Online retirement
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -42,7 +42,7 @@ It's no longer possible for users homed in the cloud to be assigned a mode other
 
 Any customers that have remaining users homed in Skype for Business Online but are not yet assigned TeamsOnly mode must assign TeamsOnly mode to these users as soon as possible. In addition, Microsoft will provide assisted upgrades for Skype for Business Online users not in TeamsOnly mode. The assisted upgrade experience depends on whether your organization is a pure online organization or an organization with on-premises Skype for Business users. For more information, see [Assisted Upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md). After the assisted upgrade is complete, all *online* users will be in TeamsOnly mode. *Any users homed on-premises remain on-premises and won't be made TeamsOnly*.
 
-Users in TeamsOnly mode receive incoming chats and calls in Teams, and also schedule meetings in Teams. They can't initiate chats or calls or schedule meetings in Skype for Business Online. TeamsOnly users can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously.  Beginning after June 30, 2022, newly created TeamsOnly users will no longer be provisioned with the Skype for Business Online infrastructure so if they're invited to a Skype for Business meeting, they would need to join anonymously. Similarly, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure beginning in October 2022. If these users are invited to a Skype for Business meeting, they would also need to join anonymously.
+Users in TeamsOnly mode receive incoming chats and calls in Teams, and also schedule meetings in Teams. They can't initiate chats or calls or schedule meetings in Skype for Business Online. TeamsOnly users can join Skype for Business meetings they already have or receive in the future. However, after Microsoft removes the Skype for Business Online infrastructure for a given TeamsOnly user, TeamsOnly users may only join Skype for Business meetings anonymously.  Beginning after June 30, 2022, newly created TeamsOnly users will no longer be provisioned with the Skype for Business Online infrastructure so if they're invited to a Skype for Business meeting, they would need to join anonymously. Similarly, users moved from on-premises to Teams Only in hybrid organizations will no longer be provisioned with the Skype for Business Online infrastructure beginning in October 2022. If these users are invited to a Skype for Business meeting, they would also need to join anonymously using the Skype for Business WebApp.
 
 
 ## Guidance for Organizations with on-premises deployments of Skype for Business Server
@@ -81,7 +81,7 @@ We strongly recommend that you begin your upgrade from Skype for Business Online
 
 - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams deployment assistance available for qualifying plans.
 
-- [Teams live training](./instructor-led-training-teams-landing-page.yml) – Free online training classes designed to get your organization up and running with Teams.
+- [Teams training](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) – Free online training videos designed to get your organization up and running with Teams.
 
 - [Teams Chalk Talks](./chalk-talks-landing-page.yml) – Free online workshops for IT pros and decision makers that describe best practices for key scenarios in Teams.
 
