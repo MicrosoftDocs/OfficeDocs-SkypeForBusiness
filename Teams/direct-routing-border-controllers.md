@@ -95,8 +95,8 @@ Note that we are not accepting new nominations for certification until further n
 |[Cataleya](https://cataleya.com/orchidplatforms/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
 |[Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Atos Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0|||
-|[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|VSXi-10.7.1.80|&#10004;|&#10004;|Supported on versions 10.5.1.354, 10.7.1.x and 11.1.1.x. (Recommended: 11.1.1.x)|&#10004;||
-||VSXi-10.5.1.354|&#10004;|&#10004;|Supported on versions 10.5.1.354, 10.7.1.x and 11.1.1.x. (Recommended: 11.1.1.x)|&#10004;||
+|[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|VSXi-10.7.1.80|&#10004;|&#10004;|Supported on versions 10.5.1.354, 10.7.1.x, and 11.1.1.x. (Recommended 11.1.1.x)|&#10004;||
+||VSXi-10.5.1.354|&#10004;|&#10004;|Supported on versions 10.5.1.354, 10.7.1.x, and 11.1.1.x. (Recommended 11.1.1.x)|&#10004;||
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
