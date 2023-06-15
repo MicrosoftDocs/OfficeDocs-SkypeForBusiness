@@ -42,7 +42,7 @@ If you’d like to customize the meeting experience for your users, you use cust
 
 Together, these features enhance the virtual meeting experience by providing admins with greater control over the visual and structural aspects of their users’ meetings. Ultimately, customization makes meetings more engaging, productive, and professional.
 
-If you have a Developer License along with Teams Premium, Teams custom together mode is also something you can explore. Teams together mode uses AI segmentation technology to place meeting participants in a shared virtual space. Together mode makes your meetings feel more natural and engaging, and bringing that sense of togetherness to your organization's meetings. To learn more about creating and customizing together mode scenes in Microsoft Teams, see [Teams together mode](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode.md).
+If you have a Developer License along with Teams Premium, Teams custom together mode is also something you can explore. Teams together mode uses AI segmentation technology to place meeting participants in a shared virtual space. Together mode makes your meetings feel more natural and engaging, and bringing that sense of togetherness to your organization's meetings. To learn more about creating and customizing together mode scenes in Microsoft Teams, see [Teams together mode](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode).
 
 ## Why would you customize your organization’s meetings?
 
