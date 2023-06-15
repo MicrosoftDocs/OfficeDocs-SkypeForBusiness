@@ -93,7 +93,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & release schedule of the new Teams client
+                - name: Overview & release schedule
                   href: new-teams-desktop-admin.md
                 - name: Deploy the New Teams               
                   href: new-teams-rollout.md
