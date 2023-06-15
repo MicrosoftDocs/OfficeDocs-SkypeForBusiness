@@ -76,7 +76,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 - Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
 
-  - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
+- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
 
 - When emergency callback numbers are added to a policy: 
 
