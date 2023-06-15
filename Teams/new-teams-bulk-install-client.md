@@ -71,10 +71,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 2: Deploy the app to your organization
 
-As an admin, you can now deploy this installer for a single computer, group of computers for your entire organization using any device management tools like Intune, SCCM etc. 
-
-1.  <link to end point managers>
-2. 
+1. As an admin, you can now deploy this installer for a single computer, group of computers for your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy new Teams to your organization.
 
 
 ## Step 3: Set Team Admin Center policy
@@ -87,8 +84,13 @@ Is this the Use Group policy?
 
 ## Impact to end user
 
-I What will be the experience when they log in? will teams boot automatically in the new Teams II can they switch back to classic Teams?
+After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user must manually launch new Teams:
 
-Steps:  
-1.
-2.
+1. I What will be the experience when they log in? will teams boot automatically in the new Teams II can they switch back to classic Teams?
+
+
+
+
+Microsoft provides an .exe file that you can use to bulk deploy Microsoft new Teams to select users and computers.  [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy Teams to your organization. Bulk deployments are useful because users don't need to download and install the Teams client manually. Rather, Teams will be deployed to computers and then auto-launch the first time users sign into a computer.
+
+We recommend that you deploy the package to computers rather than a specific user. By targeting computers, all new users of those computers will benefit from this deployment.
