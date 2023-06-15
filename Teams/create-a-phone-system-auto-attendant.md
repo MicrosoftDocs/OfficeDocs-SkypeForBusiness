@@ -54,7 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past six months
 
-- No new features in the past 6 months.
+- May 01 - **Authorized users** - authorized users may now update auto attendant business, after hours, and holiday greetings.
 
 ## Steps to create an auto attendant
 
@@ -66,6 +66,7 @@ The steps to add an auto attendant are:
 1. Set up holiday call flows.
 1. Set up dial scope.
 1. Set up resource accounts.
+1. Set up authorized users.
 
 The steps outlined in the article create auto attendants using the Teams admin center. For instructions to **create auto attendants using PowerShell**, see [Creating auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md).
 

@@ -16,6 +16,7 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
+hideEdit: true
 description: Learn about supported Microsoft Teams Rooms on Android app and firmware versions.
 ms.custom: seo-marvel-apr2020
 ---
@@ -50,6 +51,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A10 | `278.320.0.17`   | 2023 Update #1B  |
+| Yealink MeetingBar A20 | `133.320.0.18`   | 2023 Update #1B  |
+| Yealink MeetingBar A30 | `133.320.0.18`   | 2023 Update #1B  |
+| Yealink MeetingBoard 86" | `155.15.0.46` | 2023 Update #1B |
+| Yealink MeetingBoard 65" | `155.15.0.46` | 2023 Update #1B |
+| Yealink CTP18 | `137.320.0.29`   | 2023 Update #1B  |
 | Audiocodes RXV81 | `2.0.268` | 2023 Update #1A |
 | Poly Studio X30 | `4.0.1.380048` | 2023 Update #1 |
 | Poly Studio X50 | `4.0.1.380048` | 2023 Update #1 |
