@@ -72,17 +72,23 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 ## Emergency calling rules
 
-- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
+- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
 
 - Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
+
+  - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
 
 - When emergency callback numbers are added to a policy: 
 
   - Callback numbers do not require an associated location--only the location from the resource account will be used.
 
-  - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  (TAC doesn’t show DR numbers so need to define how to deal with this) 
+  - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  **IS THIS ITEM TRUE?  ACCORDING TO SPEC:  TAC doesn’t show DR numbers so need to define how to deal with this**
 
-  - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
+
+
+  - The emergency callback numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect numbers, they they must be available within the tenant.
+
+  - The callback phone numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
 
 
 
