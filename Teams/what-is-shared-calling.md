@@ -65,7 +65,7 @@ You must ensure that users enabled for Shared Calling are able to make emergency
 
 - You specify emergency call numbers by using the [emergency call routing policy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy). You must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing. However, if the resource account uses a Calling Plan or Operator Connect number, the emergency numbers should not have Online PSTN Usages assigned. For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md).
 
-- Emergency services must be able to call back to the originator of the emergency call. You can define a list of emergency callback numbers in the Shared Calling routing policy. If this list is empty, the phone number of the resource account is used as the emergency callback number.
+- Emergency services must be able to call back to the originator of the emergency call. You can define a list of emergency callback numbers in the [Shared Calling routing policy](set-up-shared-calling.md). If this list is empty, the phone number of the resource account is used as the emergency callback number.
 
 - The emergency location provided to the emergency services is determined in the following order. Teams will first attempt to determine the actual location of the user. If that's not possible, it will default to the location specified in the [Shared Calling routing policy](set-up-shared-calling.md): 
 

@@ -40,7 +40,7 @@ To set up and manage Shared Calling routing policies, you'll use the following T
 - Set-CsTeamsSharedCallingRoutingPolicy 
 - Grant-CsTeamsSharedCallingRoutingPolicy
 
-For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contose.com. The command also identifes the emergency callback numbers associated with the resource account: 
+For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contoso.com. The command also identifes the emergency callback numbers associated with the resource account: 
 
 ```powershell
 New-CsTeamsSharedCallingRoutingPolicy -Identity Test -ResourceAccount ra1@contoso.com -EmergencyCallbackNumbers {@add='+12065556677','+14255556677','+1425555432'} 
