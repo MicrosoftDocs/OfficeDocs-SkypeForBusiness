@@ -1,5 +1,5 @@
 ---
-title: "Set up Shared Calling"
+title: "Set up Shared Calling policies"
 ms.reviewer: roykuntz
 ms.date: 5/30/2023
 author: CarolynRowe
@@ -24,10 +24,10 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-overview
-description: "In this article, you'll learn how to configure Teams Phone Shared Calling."
+description: "In this article, you'll learn how to configure Teams Phone Shared Calling policies."
 ---
 
-# Set up Shared Calling
+# Set up Shared Calling routing policies
 
 Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to set up Shared Calling.
 

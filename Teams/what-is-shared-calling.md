@@ -37,9 +37,11 @@ With Shared Calling, instead of assigning a phone number to every user, you  ass
 
 When a Shared Calling user makes an outbound call to the PSTN, the caller ID seen by recipients is that of the resource account number. You can also configure the resource account number as the callback number for your users.  
 
-For example, if you want all users to call out using the same number, you can use a resource account with an Auto attendant. Auto attendants allow you to set up menu options to route calls based on caller input. For inbound calls to this number, the auto attendant is used to route the call to the right person.
+Auto attendants allow you to set up menu options to route calls based on caller input. For inbound calls to this number, the Auto attendant is used to route the call to the right person.
 
-For more information about using Auto attendants, see [Plan for auto attendants](plan-auto-attendant-call-queue.md) and [Set up auto attendants](create-a-phone-system-auto-attendant.md).
+For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
+
+This article describes all the requirements for configuring Shared Calling.  You must ensure these requirements are met before creating a new [Shared Calling routing policy](set-up-shared-calling.md).  
 
 ## Requirements
 
@@ -49,13 +51,13 @@ For more information about using Auto attendants, see [Plan for auto attendants]
 
 - You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
 
-- If inbound calling is required, you must assign this resource account to a configured Auto attendant that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
+- If inbound calling is required, you must assign this resource account to a configured Auto attendant that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
 - If the resource account is using a Calling Plan service number, you must assign a Calling Plan license to the resource account to enable outgoing minute billing. For more information, see [Manage resource accounts](manage-resource-accounts.md).
 
-- If the resource account is using a Direct Routing phone number, for routing of outbound calls, you must configure an call routing policy and assign it to all users assigned to this resource account number. For more information, see [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md). (This step is not required for resource accounts using a Calling Plan or Operator Connect number.)
+- If the resource account is using a Direct Routing phone number, for routing of outbound calls, you must configure a call routing policy and assign it to all users assigned to this resource account number. For more information, see [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md). (This step is not required for resource accounts using a Calling Plan or Operator Connect number.)
 
-- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Set up Shared Calling](set-up-shared-calling.md).
+- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Set up Shared Calling policies](set-up-shared-calling.md).
 
 ## Emergency calling requirements
 
@@ -81,7 +83,7 @@ For more information about emergency calling and how location is determined, see
 
 - [Set up Shared Calling](set-up-shared-calling.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
+- [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
 - [Manage resource accounts](manage-resource-accounts.md)
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Configure dynamic emerency calling](configure-dynamic-emergency-calling.md)
