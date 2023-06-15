@@ -26,15 +26,15 @@ description: Learn to manage meeting chat in Teams meetings.
 
 ## Overview
 
-The **Meeting chat** setting controls whether participants in your users' meetings can write chat messages. This setting doesn't apply to channel meetings and is a per-user and per-organizer policy.
+The **Meeting chat** setting controls whether participants in your users' meetings can read and write chat messages. This setting doesn't apply to channel meetings and is a per-user and per-organizer policy.
 
 In addition to this **Meeting chat** policy, your users have their own **Meeting chat** control in their meeting options.
 As long as the admin policy isn't set to **Off for everyone**, meeting organizers can use this meeting option to manage the availability of chat in meetings they create. With this setting, organizers can control whether chat is **On**, **Off**, or **In meeting only** for their meetings. For more information on your end users' **Meeting chat**, see [Participant settings for a Teams meeting.](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)
 
 |Setting value |Behavior  |
 |---------|---------|
-|**On for everyone**     | All participants can write chat messages; the organizer's **Meeting chat** settings control the chat experience.|
-|**On for everyone but anonymous users**     | All participants can write chat messages, except for anonymous participants. The organizer's **Meeting chat** settings control the chat experience for everyone, except for anonymous participants, who can't write any messages. |
+|**On for everyone**     | All participants can read and write chat messages; the organizer's **Meeting chat** settings control the chat experience.|
+|**On for everyone but anonymous users**     | All participants can read and write chat messages, except for anonymous participants. The organizer's **Meeting chat** settings control the chat experience for everyone, except for anonymous participants, who can't read or write any messages. |
 |**Off for everyone**     | Meeting chat is turned off for all participants; organizers can't use their **Meeting chat** to turn on chat in their meetings.  |
 
 ## Manage meeting chat using the Teams admin center
