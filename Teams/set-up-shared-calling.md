@@ -90,8 +90,9 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 ## End-to-end example
 
-**Add end-to-end example with all prerequisite steps here.**
-**Or make this a separate article.**
+**Add end-to-end example with all prerequisite and shared calling policy steps here.**
+
+**Or, if lengthy, make this a separate article. Would also help navigation in TOC.**
 
 ## Related topics
 
