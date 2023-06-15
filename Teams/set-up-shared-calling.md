@@ -84,9 +84,9 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
   - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  **IS THIS ITEM TRUE?  ACCORDING TO SPEC:  TAC doesn’t show DR numbers so need to define how to deal with this**
 
-  - The emergency callback numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect numbers, they they must be available within the tenant.
+  - The emergency callback numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
 
-  - The callback phone numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
+  - The callback numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
 
 ## End-to-end example
 
