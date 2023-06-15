@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for call queues in the past six months
 
-- No new features in the past 6 months.
+- May 01 - **Authorized users** - authorized users may now update call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
 
 ## Steps to create a call queue
 
@@ -53,8 +53,8 @@ The steps to set up a call queue includes:
 1. Set the greeting and music
 1. Set up call answering
 1. Choose and assign agents
-1. Set call overflow handling
-1. Set call timeout handling
+1. Set up call exception handling
+1. Set up authorized users
 
 The steps outlined in the article create call queues using the Teams admin center. For instructions to create call queues using PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md).
 
@@ -345,6 +345,9 @@ You can specify a value from 0 seconds to 45 minutes.
 
 ### No Agents: Set how to handle calls when no agents
 
+> [!NOTE]
+> This feature is currently in private preview and isn't available to all customers.
+
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 
 - ***All Calls*** (default) - calls already in queue and new calls arriving to the queue, or
@@ -353,10 +356,10 @@ You can specify a value from 0 seconds to 45 minutes.
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
 >
-> - No agents are opted in to the queue, or
-> - Presence based routing is enabled and no agents logged in
+> - Presence based routing off: No agents are opted into the queue.
+> - Presence based routing on: No agents logged in, or all agents are in *Appear Offline*.
 >
-> If agents are logged or opted in then calls will be queued.
+> If agents are logged in or opted in, then calls will be queued.
 
 Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a call queue** page.
 

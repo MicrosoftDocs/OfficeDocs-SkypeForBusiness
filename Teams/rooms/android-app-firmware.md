@@ -16,6 +16,7 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
+hideEdit: true
 description: Learn about supported Microsoft Teams Rooms on Android app and firmware versions.
 ms.custom: seo-marvel-apr2020
 ---

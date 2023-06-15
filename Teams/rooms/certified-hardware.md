@@ -18,6 +18,7 @@ ms.collection:
   - Tier3
 ms.custom: 
   - seo-marvel-mar2020
+hideEdit: true
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
 ---
 
@@ -272,6 +273,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |  |  |
 | [Vaddio RoboSHOT 30E-M HD PTZ Camera](https://www.legrandav.com/products/cameras/hd_ptz_camera/roboshot-30e-m) | 1.0.0 |  |  |
 | [Yamaha CS-800 Video Sound Bar](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
+| [Yamaha CS-500 Video Collaboration System](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
 
