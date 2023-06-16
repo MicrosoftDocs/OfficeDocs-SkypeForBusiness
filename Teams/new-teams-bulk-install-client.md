@@ -23,15 +23,26 @@ ms.localizationpriority: high
 
 # Bulk deploy new Microsoft Teams desktop client 
 
-Bulk deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides .exe file for new Teams client so you can bulk deploy the application to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
+Direct or "bulk"  deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides an executable (.exe) file for new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
 
 Bulk deploying of new Teams is to individual computers, not users. Teams will not autolaunch; users will need to manually launch the app when they sign in.  
 
+Bulk deployments are useful because users don't need to download and install the Teams client manually.  Teams will be deployed to the computer  (not autolaunched)  and users will have to manually launch the app. Microsoft provides exe file for new Teams client so you can bulk deploy the application on a machine
+
+The Teams installer will install the Teams MSIX package on a target machine, but will also ensure that Teams can interoperate correctly with Office and other Microsoft software. 
+
+
 ## How it works
 
-@charlie to add 2-3 sentences about how the new .exe works on users machine
-The Teams MSI places an installer in %SystemDrive%\Program Files\Teams Installer on 32-bit Windows and %SystemDrive%\Program Files (x86)\Teams Installer on 64-bit Windows. Whenever a user signs into a new Windows user profile, the installer is launched and a copy of the Teams app is installed in that user's %LocalAppData%\Microsoft\Teams folder. If a user already has the Teams app installed in the %LocalAppData%\Microsoft\Teams folder, the MSI installer skips the process for that user.
-MSI files can't be used to deploy updates. The Teams client will auto-update when it detects a new version is available from the service. To re-deploy the latest installer, use the process of redeploying MSI described below. If you deploy an older version of the MSI file, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
+**TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
+When TeamsProvision is run on a computer it does:
+- Downloads the latest Teams MSIX package from our CDN.
+- Installs the Teams MSIX application for all users on the computer. Note that any users who have installed a different Teams version will have their version replaced with the provisioned version.
+- Modifies the registry to ensure that Teams can interoperate with Office and other applications on the computer.
+- Returns machine-readable JSON output on the command line, indicating whether the operation was successful.
+
+    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
+
 
 ## Prerequisites for target computers
 
