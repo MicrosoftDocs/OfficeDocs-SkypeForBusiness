@@ -34,7 +34,7 @@ With cross-cloud meeting connections, you can allow or prevent meetings between 
 
 If a cross-tenant connection between organizations already exists in Azure AD cross-tenant access settings, it will appear in meeting settings in the Teams admin center. You can edit this connection to choose if meetings are allowed between the two tenants.
 
-If the connection doesn't exist, you can add it in Teams meeting settings. This will add a new organization in the cross-tenant access settings in Azure AD using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings).
+If the connection doesn't exist, you can add it in Teams meeting settings. This will add a new organization in the cross-tenant access settings in Azure AD using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings). (This will enable B2B collaboration with the other organization if the defaults allow it.)
 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
@@ -88,6 +88,6 @@ Edit a cross-cloud meeting connection
 
 ## Related topics
 
-[Manage external access in Teams](manage-external-access.md)
-
 [Collaborate with guests from other Microsoft clouds](/microsoft-365/solutions/collaborate-guests-cross-cloud)
+
+[Manage external access in Teams](manage-external-access.md)
