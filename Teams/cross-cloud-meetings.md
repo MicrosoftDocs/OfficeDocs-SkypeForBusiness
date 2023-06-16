@@ -1,5 +1,5 @@
 ---
-title: Meet with people in other Microsoft 365 clouds
+title: Meet with people in other Microsoft 365 cloud environments
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 description: Learn how to set up Teams meetings with organizations in other Microsoft 365 clouds (for example, between commercial and DoD).
 ---
 
-# Meet with people in other Microsoft 365 clouds
+# Meet with people in other Microsoft 365 cloud environments
 
 There are three options for users to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial and GCC):
 
