@@ -89,6 +89,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) | Core i5 | 8 GB | 128 GB |
 | [Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) | Core i5 | 8 GB | 256 GB |
 | Lenovo Core + MIMO IP Controller Kit | Core i5 | 8 GB | 256 GB |
+
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
@@ -159,6 +160,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly TC8 | `3.3.2.210441` | August 5, 2023 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 9 |
 | Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 | 11 |
+| Lenovo Thinksmart View Plus | 10.1.t.2.30 | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 
 ## [Peripherals](#tab/Peripherals)
 
