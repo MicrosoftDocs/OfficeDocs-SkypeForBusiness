@@ -62,7 +62,7 @@ If you're setting up a cross-cloud meeting connection with a tenant in a differe
 
 ## Add a new cross-cloud meeting connection
 
-To create a new cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with.
+To create a new cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. Note that meetings between tenants in Microsoft Azure Government (Microsoft 365 GCC High and DoD) can't create a cross-cloud meeting connection with tenants in Microsoft Azure China.
 
 Add a cross-cloud meeting connection
 
