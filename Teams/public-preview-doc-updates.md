@@ -10,8 +10,8 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
-ms.date: 06/29/2020
+ms.reviewer: shvarshney
+ms.date: 06/14/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -95,3 +95,4 @@ Users who are in the Public Preview  will see **EA** next to their profile pictu
 ## Related topics
 
 [Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
+
