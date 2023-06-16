@@ -22,7 +22,7 @@ description: Learn how to set up Teams meetings with organizations in other Micr
 
 # Meet with people in other Microsoft 365 clouds
 
-There are three options for users to join meetings between your organization and an organization in a different type of tenant (such as commercial and GCC):
+There are three options for users to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial and GCC):
 
 - Authenticated access using a cross-cloud meeting connection
 - [Authenticated access using a guest account](/microsoft-365/solutions/collaborate-guests-cross-cloud)
@@ -39,24 +39,24 @@ If the connection doesn't exist, you can add it in Teams meeting settings. This 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
 
-## Allow cross-tenant connections with other Microsoft 365 clouds
+## Allow cross-tenant connections with other Microsoft 365 cloud environments
 
-If you're setting up a cross-cloud meeting connection with a tenant that's in a different Microsoft Azure cloud than yours, then you need to enable connections with that cloud before you set up the meeting connection itself.
+If you're setting up a cross-cloud meeting connection with a tenant that's in a different Microsoft Azure cloud environment than yours, then you need to enable connections with that cloud before you set up the meeting connection itself.
 
-The following table shows which cloud each type of tenant is in.
+The following table shows which Microsoft Azure cloud environment your Microsoft 365 cloud environment is located in.
 
-|Tenant type|Cloud|
-|:----------|:----|
+|Microsoft 365 cloud environment|Microsoft Azure cloud environment|
+|:------------------------------|:--------------------------------|
 |Commercial|Microsoft Azure Commercial|
 |GCC|Microsoft Azure Commercial|
 |GCC High|Microsoft Azure Government|
 |DoD|Microsoft Azure Government|
 |China (21Vianet)|Microsoft Azure China|
 
-If you're setting up a cross-cloud meeting connection with a tenant in a different Microsoft Azure cloud, enable that cloud type in meeting settings.
+If you're setting up a cross-cloud meeting connection with a tenant in a different Microsoft Azure cloud environment, enable that cloud environment in meeting settings.
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting settings**.
-1. Under **Microsoft cloud settings**, make sure the cloud you need to connect to is set to **On**.
+1. Under **Microsoft cloud settings**, make sure the Microsoft Azure cloud environment you need to connect to is set to **On**.
     > [!NOTE]
     > This is the same as the [Microsoft cloud settings in Azure AD cross-tenant access settings](/azure/active-directory/external-identities/cross-cloud-settings).
 
