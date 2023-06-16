@@ -17,7 +17,7 @@ search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Learn how to set up Teams meetings with organizations in other Microsoft 365 clouds (for example, between commercial and DoD).
+description: Learn how to set up Teams meetings with organizations in other Microsoft 365 cloud environments (for example, between commercial and DoD).
 ---
 
 # Meet with people in other Microsoft 365 cloud environments
