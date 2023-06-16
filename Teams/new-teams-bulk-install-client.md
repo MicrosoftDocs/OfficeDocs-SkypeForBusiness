@@ -25,11 +25,9 @@ ms.localizationpriority: high
 
 Direct or "bulk"  deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides an executable (.exe) file for new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
 
-Bulk deploying of new Teams is to individual computers, not users. Teams will not autolaunch; users will need to manually launch the app when they sign in.  
+Bulk deployments are useful because users don't need to download and install the Teams client manually.  Teams is deployed to the computer  (not autolaunched) and users will have to manually launch the app. Microsoft provides exe file for new Teams client so you can bulk deploy the application on a machine
 
-Bulk deployments are useful because users don't need to download and install the Teams client manually.  Teams will be deployed to the computer  (not autolaunched)  and users will have to manually launch the app. Microsoft provides exe file for new Teams client so you can bulk deploy the application on a machine
-
-The Teams installer will install the Teams MSIX package on a target machine, but will also ensure that Teams can interoperate correctly with Office and other Microsoft software. 
+The Teams installer will install the Teams MSIX package on a target machine, but will also ensure that Teams can interoperate correctly with Office and other Microsoft software.
 
 
 ## How it works
@@ -100,8 +98,3 @@ After new Teams is deployed to your target computers, users will sign in as usua
 1. I What will be the experience when they log in? will teams boot automatically in the new Teams II can they switch back to classic Teams?
 
 
-
-
-Microsoft provides an .exe file that you can use to bulk deploy Microsoft new Teams to select users and computers.  [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy Teams to your organization. Bulk deployments are useful because users don't need to download and install the Teams client manually. Rather, Teams will be deployed to computers and then auto-launch the first time users sign into a computer.
-
-We recommend that you deploy the package to computers rather than a specific user. By targeting computers, all new users of those computers will benefit from this deployment.
