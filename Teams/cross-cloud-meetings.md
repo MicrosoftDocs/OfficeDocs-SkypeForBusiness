@@ -49,8 +49,10 @@ The following table shows which Microsoft Azure cloud environment your Microsoft
 |:------------------------------|:--------------------------------|
 |Commercial|Microsoft Azure Commercial|
 |GCC|Microsoft Azure Commercial|
+|||
 |GCC High|Microsoft Azure Government|
 |DoD|Microsoft Azure Government|
+|||
 |China (21Vianet)|Microsoft Azure China|
 
 If you're setting up a cross-cloud meeting connection with a tenant in a different Microsoft Azure cloud environment, enable that cloud environment in meeting settings.
