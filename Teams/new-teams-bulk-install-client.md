@@ -27,8 +27,7 @@ Direct or "bulk"  deployments are useful because users don't need to download an
 
 Bulk deployments are useful because users don't need to download and install the Teams client manually.  Teams is deployed to the computer  (not autolaunched) and users will have to manually launch the app. Microsoft provides exe file for new Teams client so you can bulk deploy the application on a machine
 
-The Teams installer will install the Teams MSIX package on a target machine, but will also ensure that Teams can interoperate correctly with Office and other Microsoft software.
-
+The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
 ## How it works
 
@@ -80,21 +79,33 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 2: Deploy the app to your organization
 
-1. As an admin, you can now deploy this installer for a single computer, group of computers for your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy new Teams to your organization.
+As an admin, you can now deploy this installer for a single computer or a group of computers for your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy new Teams to your organization.
 
 
 ## Step 3: Set Team Admin Center policy
 
-1. https://learn.microsoft.com/en-us/microsoftteams/new-teams-desktop-admin?tabs=powershell#how-to-roll-out-new-teams
-Please go to Teams admin centre 
-set to Microsoft choie
-Is this the Use Group policy?
 
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+2. Select **Teams > Teams Update** policies from the left pane.
+3. Select Add to create a new policy or select an existing policy to open Update policy.
+4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
+
+   |Setting|Description|
+   |:-----|:-----|
+   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
+   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
+
+
+5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.  Select a policy to assign to the group.
+6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
+
+>[!Note]
+>If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
 ## Impact to end user
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user must manually launch new Teams:
 
-1. I What will be the experience when they log in? will teams boot automatically in the new Teams II can they switch back to classic Teams?
-
-
+1.
+2.
