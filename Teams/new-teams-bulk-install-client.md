@@ -109,5 +109,6 @@ As an admin, you can now deploy this installer for a single computer or a group 
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user must manually launch new Teams:
 
-1.
-2.
+1.</br>
+2.</br>
+3.
