@@ -4446,6 +4446,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/loop-components-in-teams.md",
+    "redirect_url": "/microsoft-365/loop/loop-components-teams",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/teams-add-on-licensing/pri-message.md",
     "redirect_url": "/microsoftteams/messaging-policies-in-teams",
     "redirect_document_id": false
