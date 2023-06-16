@@ -385,8 +385,6 @@ items:
 
     - name: Integrate apps with Teams
       items:
-        - name: Manage Loop components
-          href: loop-components-in-teams.md
         - name: Manage actionable activity emails
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
@@ -644,7 +642,7 @@ items:
               href: stream-teams-meetings.md
         - name: Standardized meetings
           items: 
-            - name: Meeting customization
+            - name: Custom meetings overview
               href: custom-meetings-overview.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
@@ -1483,6 +1481,8 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
+                - name: Manage custom backgrounds
+                  href: rooms/custom-backgrounds.md
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Find devices with unsupported licenses
