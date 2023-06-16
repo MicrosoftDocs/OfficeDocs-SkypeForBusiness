@@ -1,5 +1,5 @@
 ---
-title: Scale video delivery in Microsoft Teams
+title: Content delivery networks for streaming Microsoft Teams events
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,18 +9,18 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: asteele
-ms.date: 09/13/2022
+ms.date: 07/01/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss scale video delivery and enterprise content delivery networks (eCDNs) for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
+description: Learn about scale video delivery and enterprise content delivery networks (eCDNs) for Microsoft Teams streaming events.
 ---
 
-# Scale video delivery and monitor network traffic by using eCDNs with Microsoft Teams
+# Content delivery networks for streaming Microsoft Teams events
 
 Playback of videos from Microsoft Teams and "External app or device" live events (formerly known as "External Encoder" productions) use adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
@@ -133,3 +133,51 @@ If your eCDN solution provider supports it, they may print debug information dur
 - If your playback URL doesn't have a question mark, **?**, in it then add **?isSDNDebug=true**.
 
 Select **F12** on your keyboard when your browser is active and switch to the **Console** tab to see all the information printed during the loading of the page with the isSDNDebug=true query string set on the playback URL.
+
+## Configure a third-party video distribution provider
+
+If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams.
+
+### Using the Microsoft Teams admin center
+
+1. In the left navigation, go to **Meetings** > **Live event settings**.
+2. Under **Third-party video distribution providers**, complete the following:
+
+    ![Third-party video distribution provider settings in the admin center.](../media/teams-live-events-settings-distribution-provider-new.png "Screen shot of the third-party video distribution provider settings for live events")
+
+    - **Third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
+    - **SDN provider name** Choose the provider you're using.
+    - **SDN Configuration** Enter SDN Configuration details.
+
+### Using Windows PowerShell
+
+Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:
+
+**Microsoft eCDN**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName microsoft
+```
+**Hive** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
+```
+**Kollective** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
+```
+**Riverbed** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
+```
+**Ramp** 
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
+
+For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
+
+> [!NOTE]
+> If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider](../teams-stream-ecdn.md).
+
+>[!Note]
+> Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.

@@ -9,12 +9,12 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: asteele
-ms.date: 08/25/2022
+ms.date: 07/01/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss encoder-based RTMP setup for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
