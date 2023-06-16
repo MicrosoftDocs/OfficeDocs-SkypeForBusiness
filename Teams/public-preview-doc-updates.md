@@ -43,27 +43,32 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
 1. Select **Add** to create a new policy or select an existing policy to open **Update policy**.
 
-2. Name the update policy, add a description, and select the setting for **Allow public preview**.
+2. Name the update policy, add a description, and select the setting for **Show Teams preview features**.
 
-   -   **Follow Office Preview** (default)
-       - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel (Preview). 
+   :::image type="content" source="media/new-update-policy-screen.png" alt-text="The New update policy screen." lightbox="media/new-update-policy-screen.png":::
+
+   -   **On for users in Current Channel (Preview)** (default)
+       - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel (Preview).
        - There are no more actions required by the end user.
        
-   -   **Enabled**
-       - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview). 
+   -   **On for everyone**
+       - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview).
        - The end user must also opt in to Teams public preview in their Teams app.
 
    > [!NOTE]  
    > For existing users in Teams Public Preview who are not in the **Current Channel (Preview)**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
  
-   - **Not enabled** 
+   - **Off** 
      - Teams Public Preview features will not be available to end users.
 
-   -  **Forced** 
+   -  **Users can opt in** 
        - This option enables Teams Public Preview for the end user.
        - There is no action required by the end user.
-       
-    ![Screenshot that shows the forced preview pane in Teams.](media/forced-preview.png)  
+        
+5. Select **Apply**.
+1. Ensure that **Microsoft controlled** (default value) is the value selected from the **Use new Teams client** dropdown list.
+
+   :::image type="content" source="media/use-new-teams-client-dropdown-list.png" alt-text="The Use new Teams client dropdown list." lightbox="media/use-new-teams-client-dropdown-list.png":::
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
