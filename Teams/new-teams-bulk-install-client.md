@@ -72,8 +72,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 2. Open the Command Prompt as an Admin.
 3. Run the downloaded setup.exe. Success or fail status will display.
 
-<Screenshot of cmd prompt>
-
+    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
 ## Step 2: Deploy the app to your organization
 
