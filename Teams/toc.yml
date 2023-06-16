@@ -650,8 +650,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
-            - name: Stream Teams meetings
-              href: stream-teams-meetings.md
+            - name: Support URL for events
+              href: events-support-url.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -708,6 +708,10 @@ items:
               href: cloud-video-interop.md
             - name: Real-time media traffic
               href: meetings-real-time-media-traffic.md
+            - name: Stream Teams meetings
+              href: stream-teams-meetings.md
+            - name: Streaming encoders
+              href: streaming-encoders.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -718,6 +722,8 @@ items:
               href: tmr-meeting-recording-change.md
         - name: Integration
           items:
+            - name: Content delivery network
+              href: streaming-cdn-content-delivery-network.md
             - name: Teams Meeting add-in in Outlook
               href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
