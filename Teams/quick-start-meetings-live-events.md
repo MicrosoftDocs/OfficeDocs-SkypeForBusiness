@@ -43,17 +43,17 @@ The following table shows the main features that are different between meetings,
 
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
-|Lobby|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Attendee mic and camera|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|End-to-end encryption|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|Watermarks|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|Theme|![Teams Premium](media/premium-icon.png)|![yes](media/yes.png)|![yes](media/yes.png)|
+|Lobby|✔️|✔️|✖️|
+|Attendee mic and camera|✔️|✔️|✖️|
+|End-to-end encryption|Premium|✖️|✖️|
+|Watermarks|Premium|✖️|✖️|
+|Theme|Premium|✔️|✔️|
 |Streaming|Optional|Optional|Required|
-|Registration|Optional|![yes](media/yes.png)|![no](media/no.png)|
-|Interactive participants|1,000|1,000|![no](media/no.png)|
-|Streaming participants|10,000|![no](media/no.png)|10,000|
-|Yammer integration|![no](media/no.png)|![no](media/no.png)|![yes](media/yes.png)|
-|Breakout rooms|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
+|Registration|Optional|✔️|✖️|
+|Interactive participants|1,000|1,000|✖️|
+|Streaming participants|10,000|✖️|10,000|
+|Yammer integration|✖️|✖️|✔️|
+|Breakout rooms|✔️|✔️|✖️|
 
 ## RTMP
 

@@ -28,52 +28,52 @@ description: Learn which features are available in Teams meetings, webinars, and
 
 # Meetings, webinars, and town halls feature comparison
 
-**APPLIES TO:** ![yes](media/yes.png)Meetings ![yes](media/yes.png)Webinars ![yes](media/yes.png)Town halls
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
 The following table shows which features are available in meetings, webinars, and town halls.
 
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
-|Announce when callers join or leave|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Anonymous attendees|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Attendance report|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Attendee mic and camera|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Breakout rooms|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|CART Captions|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Channel meeting scheduling|![yes](media/yes.png)|![no](media/no.png)|![no](media/no.png)|
-|Choose co-organizers|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|End-to-end encryption|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|External participants can give or request control|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Green room|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Hide attendee names|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Interactive participants|1,000|1,000|![no](media/no.png)|
-|Language interpretation|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Live captions|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Lobby|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Local broadcasting|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Manage what attendees see|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Meeting chat|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Meeting coach|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Recording|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Registration|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Outlook add-in|![yes](media/yes.png)|![no](media/no.png)|![no](media/no.png)|
-|Participants can give or request control|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Participants can use video effects|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|PowerPoint Live|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Q&A|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Reactions|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Record automatically|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Recordings automatically expire|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Registration|Optional|![yes](media/yes.png)|![no](media/no.png)|
-|Screen sharing|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Shared notes|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
+|Announce when callers join or leave|✔️|✔️|✔️|
+|Anonymous attendees|✔️|✔️|✔️|
+|Attendance report|✔️|✔️|✔️|
+|Attendee mic and camera|✔️|✔️|✖️|
+|Breakout rooms|✔️|✔️|✖️|
+|CART Captions|✔️|✔️|✔️|
+|Channel meeting scheduling|✔️|✖️|✖️|
+|Choose co-organizers|✔️|✔️|✖️|
+|End-to-end encryption|Premium|✖️|✖️|
+|External participants can give or request control|✔️|✔️|✔️|
+|Green room|✔️|✔️|✔️|
+|Hide attendee names|✔️|✔️|✔️|
+|Interactive participants|1,000|1,000|✖️|
+|Language interpretation|✔️|✔️|✔️|
+|Live captions|✔️|✔️|✔️|
+|Lobby|✔️|✔️|✖️|
+|Local broadcasting|✔️|✔️|✔️|
+|Manage what attendees see|✔️|✔️|✔️|
+|Meeting chat|✔️|✔️|✖️|
+|Meeting coach|✔️|✔️|✖️|
+|Recording|✔️|✔️|✔️|
+|Registration|✔️|✔️|✖️|
+|Outlook add-in|✔️|✖️|✖️|
+|Participants can give or request control|✔️|✔️|✖️|
+|Participants can use video effects|✔️|✔️|✔️|
+|PowerPoint Live|✔️|✔️|✔️|
+|Q&A|✔️|✔️|✔️|
+|Reactions|✔️|✔️|✔️|
+|Record automatically|✔️|✔️|✔️|
+|Recordings automatically expire|✔️|✔️|✔️|
+|Registration|Optional|✔️|✖️|
+|Screen sharing|✔️|✔️|✔️|
+|Shared notes|✔️|✔️|✔️|
 |Streaming|Optional|Optional|Required|
-|Streaming participants|10,000|![no](media/no.png)|10,000|
-|Theme|![Teams Premium](media/premium-icon.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Transcription|![yes](media/yes.png)|![yes](media/yes.png)|![yes](media/yes.png)|
-|Watermarks|![Teams Premium](media/premium-icon.png)|![no](media/no.png)|![no](media/no.png)|
-|Whiteboard|![yes](media/yes.png)|![yes](media/yes.png)|![no](media/no.png)|
-|Yammer integration|![no](media/no.png)|![no](media/no.png)|![yes](media/yes.png)|
+|Streaming participants|10,000|✖️|10,000|
+|Theme|Premium|✔️|✔️|
+|Transcription|✔️|✔️|✔️|
+|Watermarks|Premium|✖️|✖️|
+|Whiteboard|✔️|✔️|✖️|
+|Yammer integration|✖️|✖️|✔️|
 
 
 ## Related topics
