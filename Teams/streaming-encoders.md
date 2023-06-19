@@ -1,5 +1,5 @@
 ---
-title: Encoder setup for streaming in Microsoft Teams
+title: Encoder setup for streaming in Microsoft Teams events
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,14 +13,14 @@ ms.date: 07/01/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss encoder-based RTMP setup for Microsoft Teams streaming events.
+description: Learn about encoder-based RTMP setup for Microsoft Teams streaming events.
 localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
 ---
 
-# Using an encoder for live streaming in Microsoft Teams
+# Using an encoder for live streaming in Microsoft Teams events
 
 Teams encoders allow users to produce live events directly from an external hardware or software-based encoder with Microsoft Teams.
 

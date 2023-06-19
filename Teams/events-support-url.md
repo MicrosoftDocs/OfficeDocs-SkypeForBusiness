@@ -1,5 +1,5 @@
 ---
-title: Configure live event settings in Microsoft Teams
+title: Set up event support URL for town halls
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-meetings-enabler
 - enabler-strategic
 - highpri
-description: Learn how to manage settings for Teams live events that are held in your organization.
+description: Learn how to set up an event support URL for town halls in Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,7 +25,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Configure live event settings in Microsoft Teams
+# Set up event support URL for town halls
 
 Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization.
 
@@ -50,8 +50,3 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 
-## Related topics
-
-- [What are Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Set up for Teams live events](set-up-for-teams-live-events.md)

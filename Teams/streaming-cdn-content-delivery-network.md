@@ -143,7 +143,7 @@ If you purchased and set up a software defined network (SDN) solution or enterpr
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Third-party video distribution providers**, complete the following:
 
-    ![Third-party video distribution provider settings in the admin center.](../media/teams-live-events-settings-distribution-provider-new.png "Screen shot of the third-party video distribution provider settings for live events")
+    ![Third-party video distribution provider settings in the admin center.](media/teams-live-events-settings-distribution-provider-new.png "Screen shot of the third-party video distribution provider settings for live events")
 
     - **Third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
     - **SDN provider name** Choose the provider you're using.
@@ -175,9 +175,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```
 
 For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
-
-> [!NOTE]
-> If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider](../teams-stream-ecdn.md).
 
 >[!Note]
 > Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
