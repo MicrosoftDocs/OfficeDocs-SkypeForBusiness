@@ -29,7 +29,7 @@ description: "In this article, you'll learn how to configure Teams Phone Shared 
 
 # Set up Shared Calling routing policies
 
-Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to set up Shared Calling.
+Before reading this article, be sure you've read [What is Shared Calling](shared-calling-plan.md). It describes licensing and other requirements needed to set up Shared Calling.
 
 To set up and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets: 
 
@@ -96,5 +96,5 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 ## Related topics
 
-- [What is Shared Calling](what-is-shared-calling.md)
+- [What is Shared Calling](shared-calling-plan.md)
 

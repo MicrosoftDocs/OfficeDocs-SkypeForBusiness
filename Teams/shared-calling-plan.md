@@ -41,7 +41,7 @@ Auto attendants allow you to set up menu options to route calls based on caller 
 
 For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
-This article describes all the requirements for configuring Shared Calling.  You must ensure these requirements are met before creating a new [Shared Calling routing policy](set-up-shared-calling.md).  
+This article describes all the requirements for configuring Shared Calling.  You must ensure these requirements are met before creating a new [Shared Calling routing policy](shared-calling-setup.md).  
 
 ## Requirements
 
@@ -57,7 +57,7 @@ This article describes all the requirements for configuring Shared Calling.  You
 
 - If the resource account is using a Direct Routing phone number, for routing of outbound calls, you must configure a call routing policy and assign it to all users assigned to this resource account number. For more information, see [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md). (This step is not required for resource accounts using a Calling Plan or Operator Connect number.)
 
-- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Set up Shared Calling policies](set-up-shared-calling.md).
+- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Set up Shared Calling policies](shared-calling-setup.md).
 
 ## Emergency calling requirements
 
@@ -65,9 +65,9 @@ You must ensure that users enabled for Shared Calling are able to make emergency
 
 - You specify emergency call numbers by using the [emergency call routing policy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy). You must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing. However, if the resource account uses a Calling Plan or Operator Connect number, the emergency numbers should not have Online PSTN Usages assigned. For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md).
 
-- Emergency services must be able to call back to the originator of the emergency call. You can define a list of emergency callback numbers in the [Shared Calling routing policy](set-up-shared-calling.md). If this list is empty, the phone number of the resource account is used as the emergency callback number.
+- Emergency services must be able to call back to the originator of the emergency call. You can define a list of emergency callback numbers in the [Shared Calling routing policy](shared-calling-setup.md). If this list is empty, the phone number of the resource account is used as the emergency callback number.
 
-- The emergency location provided to the emergency services is determined in the following order. Teams will first attempt to determine the actual location of the user. If that's not possible, it will default to the location specified in the [Shared Calling routing policy](set-up-shared-calling.md): 
+- The emergency location provided to the emergency services is determined in the following order. Teams will first attempt to determine the actual location of the user. If that's not possible, it will default to the location specified in the [Shared Calling routing policy](shared-calling-setup.md): 
 
   1. Actual location of user -- dynamically obtained by the Teams client.
   2. Location assigned to the resource resource account specified in the Shared Calling routing policy -- statically obtained.
@@ -81,7 +81,7 @@ For more information about emergency calling and how location is determined, see
 
 ## Related topics
 
-- [Set up Shared Calling](set-up-shared-calling.md)
+- [Set up Shared Calling](shared-calling-setup.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
 - [Manage resource accounts](manage-resource-accounts.md)
