@@ -51,7 +51,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
        - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel (Preview).
        - There are no more actions required by the end user.
        
-   -   **On for everyone**
+   -   **Users can opt in**
        - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview).
        - The end user must also opt in to Teams public preview in their Teams app.
 
@@ -61,7 +61,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
    - **Off** 
      - Teams Public Preview features will not be available to end users.
 
-   -  **Users can opt in** 
+   -  **On for everyone** 
        - This option enables Teams Public Preview for the end user.
        - There is no action required by the end user.
         
