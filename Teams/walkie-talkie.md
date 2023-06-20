@@ -159,7 +159,7 @@ To learn more about the end-user experience, see:
 
 ## Data residency available
 
-Walkie Talkie Customer Data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom will be stored in data centers located in the EU. All other tenants will have their Walkie Talkie Customer Data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage. 
+Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom will be stored in data centers located in the EU. All other tenants will have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage. 
 
 ### To be considered a tenant in the EUDB:
 
