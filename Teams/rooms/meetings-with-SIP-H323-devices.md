@@ -30,17 +30,17 @@ If you have multiple Teams Rooms all with a Pro licenses deployed in your organi
 
 ## Requirements
 To enable your Teams Rooms on Windows to use SIP and H.323 dialing:
-- 1. The Teams Room account that is used to sign in to the device must have a Teams Room Pro license assigned.
-- 2. You must have an signed agreement with one of the certified [Cloud Video Interop provider](https://learn.microsoft.com/MicrosoftTeams/cloud-video-interop). However, you have two options:
+1. The Teams Room account that is used to sign in to the device must have a Teams Room Pro license assigned.
+2. You must have an signed agreement with one of the certified [Cloud Video Interop provider](https://learn.microsoft.com/MicrosoftTeams/cloud-video-interop). However, you have two options:
 **Option 1:** Sign up for a calling plan from a CVI provider that supports SIP and H.323 dialing.
 **Option 2:** Buy your own licenses from a CVI provider that supports SIP and H.323 dialing. 
 
 ## How to configure a Teams Room
 
 > [!Note]
-> Currently, there isn't a way to turn this on or off in the Teams Admin Center so you must use PowerShell. 
+> Currently, there isn't a way to turn this on or off in the Teams Admin Center so you must use Microsoft Teams PowerShell. 
 
-You must create a new Teams Room Video Teleconferencing policy and set the parameters to enabled SIP and H.323 dialing.
+You must create a new Teams Room Video Teleconferencing policy and set the parameters to enable SIP and H.323 dialing.
 
 In this example below, you will create a new policy and then set the parameters to turn on SIP and H.323 dialing.
 
@@ -53,10 +53,10 @@ To create a new policy, use the Microsoft Teams PowerShell and run:
 ```PowerShell
 New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $true -AreaCode "<xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx>" -ReceiveExternalCalls "Enabled" -ReceiveInternalCalls "Enabled" -PlaceExternalCalls "Enabled" -PlaceInternalCalls "Enabled"
 ```
-[!Important]
-> The <xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx> entry in the command is a GUID that is provided by the CVI vendor. This would be replaced with a series of numbers and letters.
+>[!Important]
+> The <xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx> entry in the command is placed holder for a GUID that is provided by the CVI vendor. This would be replaced with a series of numbers and letters.
 
-[!Note]
+>[!Note]
 > 'ReceiveExternalCalls’, ‘ReceiveInternalCalls’, ‘PlaceExternalCalls’ and ‘PlaceInternalCalls’ parameters are disabled by default. They take only two values either 'Enabled' or 'Disabled'. If it is set to 'Enabled', then the ‘AreaCode’ parameter is required. This value is provided by your CVI partner.
 
 To get all available Teams Room TeleConferencing policies in your organzation, you need to run the following command:
