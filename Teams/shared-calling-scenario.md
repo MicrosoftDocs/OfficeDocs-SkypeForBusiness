@@ -1,5 +1,5 @@
 ---
-title: "Set up Shared Calling policies"
+title: "Shared Calling scenario"
 ms.reviewer: roykuntz
 ms.date: 5/30/2023
 author: CarolynRowe
@@ -24,77 +24,62 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-overview
-description: "In this article, you'll learn how to configure Teams Phone Shared Calling policies."
+description: "This article provides a Shared Calling example scenario."
 ---
 
-# Set up Shared Calling routing policies
+# Shared Calling scenario
 
-Before reading this article, be sure you've read [What is Shared Calling](what-is-shared-calling.md). It describes licensing and other requirements needed to set up Shared Calling.
+Before reading this article, be sure you've read [What is Shared Calling](shared-calling-plan.md) and [Set up Shared Calling routing policies](shared-calling-setup.md). Those articles describe licensing requirements, prerequisite configuration, and how to configue a Shared Calling routing policy. 
 
-To set up and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets: 
+This article provides a sample scenario for setting up Shared Calling.  It provides a PowerShell example for the following steps: 
 
-**NOTE TO ME:  Add links to reference topics**
-- New-CsTeamsSharedCallingRoutingPolicy
-- Get-CsTeamsSharedCallingRoutingPolicy
-- Remove-CsTeamsSharedCallingRoutingPolicy 
-- Set-CsTeamsSharedCallingRoutingPolicy 
-- Grant-CsTeamsSharedCallingRoutingPolicy
+1. Get the user.
+2. Define the emergency numbers for emergency calling.
+3. Get the phone number of the Auto attendant resource account.
+4. Set the static emergency location on the resource acount.
+5. Create the Shared Calling routing policy.
+6. Grant the policies to the user.
+7. If this is a Direct Routing number, grant an online voice routing policy to the user and resource account.
 
-For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contoso.com. The command also identifes the emergency callback numbers associated with the resource account: 
-
-```powershell
-New-CsTeamsSharedCallingRoutingPolicy -Identity Test -ResourceAccount ra1@contoso.com -EmergencyCallbackNumbers {@add='+12065556677','+14255556677','+1425555432'} 
-```
-
-The next command removes one of the emergency callback numbers, 1425555432, from the policy (required before that number can be deleted or reassigned):
 
 ```powershell
-Set-CsTeamsSharedCallingRoutingPolicy -Identity Test -EmergencyCallbackNumbers {@remove='+1425555432'} 
+# Get the user
+$user = Get-CsOnlineUser -Identity user@contoso.com
+
+# Define the emergency numbers for emergency calling
+$en1=New-CsTeamsEmergencyNumber -EmergencyDialString 933
+$en2=New-CsTeamsEmergencyNumber -EmergencyDialString 911
+New-CsTeamsEmergencyCallRoutingPolicy -Identity TECRP -EmergencyNumbers @{add=$en1,$en2} -AllowEnhancedEmergencyServices $true
+
+# Get the phone number of the Auto attendant resource account
+$main-aa = 'main-aa@contoso.com'
+$PhoneNumber=Get-CsPhoneNumberAssignment -AssignedPstnTargetId $main-aa
+
+# Set the static emergency location on the resource acount
+$CivicAddress = Get-CsOnlineLisCivicAdress -City Seattle
+Set-CsPhoneNumberAssignment -Identity $main-aa -LocationId $CivicAddress.DefaultLocationId -PhoneNumber $PhoneNumber.TelephoneNumber -PhoneNumberType $PhoneNumber.NumberType
+
+# Create the Shared Calling routing policy
+$ecbn1 = '+14255556789'
+$ecbn2 = '+14255554321'
+New-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -ResourceAccount $main-aa -EmergencyCallbackNumbers {@add=$ecbn1,$ecbn2}
+
+# Grant the policies to the user
+Grant-CsTeamsEmergencyCallRoutingPolicy -Identity $user -PolicyName TECRP
+Grant-CsTeamsSharedCallingRoutingPolicy -Identity $user -PolicyName Seattle
+
+# If this is a Direct Routing number, grant an online voice routing policy to the user and resource account
+if ($PhoneNumber.NumberType -eq 'DirectRouting') {
+	Grant-CsOnlineVoiceRoutingPolicy -Identity $user -PolicyName Seattle
+	Grant-CsOnlineVoiceRoutingPolicy -Identity $main-aa -PolicyName Seattle
+}
+
 ```
 
-The next command adds a new emergency callback number, 1425555433, to the policy:
 
-```powershell
-Set-CsTeamsSharedCallingRoutingPolicy -Identity Test -EmergencyCallbackNumbers {@add='+1425555433'} 
-```
-
-To associate a location on resource account numbers for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet.
-
-## Configuration rules
-
-- You can use the same resource account in multiple Shared Calling policies.
-
-- All numbers within a given policy must be of the same number type and country (resource and emergency calling numbers). 
-
-- When you add a resource account to a policy, you must ensure that number has a location assigned to it.
-
-- If you remove, reassign, or port a number of the resource account used in a shared calling policy, the policy remains intact, but outbound calls will fail for any users still configured to make calls from that number.
-
-## Emergency calling rules
-
-- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
-
-- Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
-
-- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
-
-- When emergency callback numbers are added to a policy: 
-
-  - Callback numbers do not require an associated location--only the location from the resource account will be used.
-
-  - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For Direct Routing numbers...  **IS THIS ITEM TRUE?  ACCORDING TO SPEC:  TAC doesn’t show DR numbers so need to define how to deal with this**
-
-  - The emergency callback numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
-
-  - The callback numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
-
-## End-to-end example
-
-**Add end-to-end example with all prerequisite and shared calling policy steps here.**
-
-**Or, if lengthy, make this a separate article. Would also help navigation in TOC.**
 
 ## Related topics
 
-- [What is Shared Calling](what-is-shared-calling.md)
+- [What is Shared Calling](shared-calling-plan.md)
+- [Set up Shared Calling routing policies](shared-calling-setup.md)
 

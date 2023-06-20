@@ -1,5 +1,5 @@
 ---
-title: "Set up Shared Calling policies"
+title: "Set up Shared Calling routing policies"
 ms.reviewer: roykuntz
 ms.date: 5/30/2023
 author: CarolynRowe
@@ -88,13 +88,9 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
   - The callback numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
 
-## End-to-end example
-
-**Add end-to-end example with all prerequisite and shared calling policy steps here.**
-
-**Or, if lengthy, make this a separate article. Would also help navigation in TOC.**
 
 ## Related topics
 
 - [What is Shared Calling](shared-calling-plan.md)
+- [Shared Calling example scenario](shared-calling-scenario.md)
 

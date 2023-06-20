@@ -1054,9 +1054,11 @@ items:
     - name: Shared Calling - A simpler solution
       items:
         - name: What is Shared Calling
-          href: what-is-shared-calling.md
-        - name: Set up Shared Calling
-          href: set-up-shared-calling.md
+          href: shared-calling-plan.md
+        - name: Set up Shared Calling routing policies
+          href: shared-calling-setup.md
+        - name: Shared Calling example 
+          href: shared-calling-scenario.md
               
     - name: Phone numbers
       items: 
