@@ -99,7 +99,9 @@ items:
                   href: new-teams-rollout.md
                 - name: Bulk install the new Teams client
                   href: new-teams-bulk-install-client.md
-                - name: Troublesooting & Known issues          
+                 - name: Troubleshooting installation issues          
+                  href: new-teams-troubleshooting-installation.md                 
+                - name: Known issues          
                   href: new-teams-known-issues.md
             - name: Classic Teams clients
               items:
