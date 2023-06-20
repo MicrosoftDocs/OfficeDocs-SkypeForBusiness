@@ -80,6 +80,6 @@ if ($PhoneNumber.NumberType -eq 'DirectRouting') {
 
 ## Related topics
 
-- [What is Shared Calling](shared-calling-plan.md)
+- [Plan and configure Shared Calling](shared-calling-plan.md)
 - [Set up Shared Calling routing policies](shared-calling-setup.md)
 

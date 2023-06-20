@@ -27,7 +27,7 @@ ms.custom:
 description: "In this article, you'll learn about Phone System Shared Calling."
 ---
 
-# What is Shared Calling
+# Plan and configure Shared Calling
 
 If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. 
 
