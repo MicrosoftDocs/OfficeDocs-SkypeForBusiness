@@ -6,10 +6,10 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jenstr
-ms.date: 06/12/2023
+ms.date: 06/20/2023
 audience: admin
 search.appverid: MET150
-description: Learn how to route inbound PSTN & VoIP federated calls in Microsoft Teams.
+description: Learn how to route inbound PSTN & external Teams VoIP calls in Microsoft Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
@@ -23,9 +23,9 @@ appliesto:
 
 # Routing inbound external calls
 
-This article describes how to route incoming external calls from the Public Switched Telephone Network (PSTN) and calls from federated VoIP users.
+This article describes how to route incoming calls from the Public Switched Telephone Network (PSTN) and calls from external Teams VoIP users.
 
-Federated calls include calls made from external Teams VoIP users or Skype for Business users who are outside of your organization. Teams or Skype for Business (Online or On-Premises) VoIP calls made within the same organization are considered internal calls.
+*External calls* are considered calls made from Teams VoIP users or Skype for Business users who are outside of your organization. Teams or Skype for Business (Online or On-Premises) VoIP calls made within the same organization are considered *internal calls*.
 
 As an admin, you can create policies that help prevent your users from getting unwanted calls from external parties. You can control whether external calls should always be sent to voicemail, sent to unanswered settings, use normal call routing, or allow your users within the policy to decide.
 
@@ -50,13 +50,13 @@ You can configure this setting with the Teams admin center or by using PowerShel
     - **Regular Incoming** The call will be routed per normal. This is the default setting.
     - **Unanswered** The call will be routed according to the unanswered call forwarding settings set for that user.
     - **Voicemail** The call will be routed directly to voicemail and will not be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
-    - **User Override** The call will currently be routed as **Regular Incoming**
+    - **User Override** The call will currently be routed as **Regular Incoming**.
 
 1. Click **Save**.
 
 ### Using PowerShell
 
-This sets InboundPstnCallRoutingTreatment to route external calls according to the unanswered call forwarding settings for users in the Global (default) Teams Calling Policy instance.
+For example, this script sets InboundPstnCallRoutingTreatment to route external calls according to the unanswered call forwarding settings for users in the Global (default) Teams Calling Policy instance.
 
 ```powershell
 Set-CsTeamsCallingPolicy -Identity Global -InboundPstnCallRoutingTreatment Unanswered
@@ -64,9 +64,9 @@ Set-CsTeamsCallingPolicy -Identity Global -InboundPstnCallRoutingTreatment Unans
 
 For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-## Inbound VoIP federated calls
+## Inbound VoIP calls
 
-This policy setting controls how inbound federated calls should be routed.
+This policy setting controls how inbound external TeamsVoIP calls should be routed.
 
 You can configure this setting with the Teams admin center or by using PowerShell.
 
@@ -76,7 +76,7 @@ You can configure this setting with the Teams admin center or by using PowerShel
 
 1. Select the policy you would like to update or click **Add** to create a new policy.
 
-1. For **Inbound federated call routing**, you have the following options:
+1. For **Inbound external call routing**, you have the following options:
 
     - **Regular Incoming** The call will be routed per normal. No changes will be made to the default inbound routing. This is the default setting.
     - **Unanswered** The call will be routed according to the unanswered call forwarding settings set for that user.
@@ -86,7 +86,7 @@ You can configure this setting with the Teams admin center or by using PowerShel
 
 ### Using PowerShell
 
-This sets InboundFederatedCallRoutingTreatment to route external calls directly to voicemail for users in the Global (default) Teams Calling Policy instance.
+For example, this script sets InboundFederatedCallRoutingTreatment to route external VoIP calls directly to voicemail for users in the Global (default) Teams Calling Policy instance.
 
 ```powershell
 Set-CsTeamsCallingPolicy -Identity Global -InboundFederatedCallRoutingTreatment Voicemail
