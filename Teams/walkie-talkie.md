@@ -159,7 +159,7 @@ To learn more about the end-user experience, see:
 
 ## Walkie Talkie data locations
 
-### Data Residency Available
+### Data residency available
 
 Walkie Talkie Customer Data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom will be stored in data centers located in the EU. All other tenants will have their Walkie Talkie Customer Data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage. 
 
@@ -167,9 +167,9 @@ Walkie Talkie Customer Data for tenants in the European Union Data Boundary (EUD
 
 The tenant must have a _default geography_ in a EUDB country or select a country in EUDB country as their residence during sign-up
 
-### How can I determine customer data location?
+#### How can I determine customer data location?
 
-Please refer to **Azure Active Directory (AAD)** [Microsoft Power BI](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9"https://msit.powerbi.com/view?r=eyjrijoizmmyodcxzwmtmwy4zs00n2q1ltgzngqtyzqzodzhmdlmm2nmiiwidci6ijcyzjk4ogjmltg2zjetndfhzi05mwfiltjkn2nkmdexzgi0nyisimmiojv9")
+Please refer to **Azure Active Directory (AAD)** [Microsoft Power BI](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
 
 ## Give feedback or report an issue
 
