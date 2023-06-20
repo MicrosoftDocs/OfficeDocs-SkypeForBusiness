@@ -1,5 +1,5 @@
 ---
-title: "What is Shared Calling"
+title: "Plan and configure Shared Calling"
 ms.reviewer: roykuntz
 ms.date: 5/30/2023
 author: CarolynRowe
@@ -82,6 +82,7 @@ For more information about emergency calling and how location is determined, see
 ## Related topics
 
 - [Set up Shared Calling](shared-calling-setup.md)
+- [Shared Calling example scenario](shared-calling-scenario.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
 - [Manage resource accounts](manage-resource-accounts.md)

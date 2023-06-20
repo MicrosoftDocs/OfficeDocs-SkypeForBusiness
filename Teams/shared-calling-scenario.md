@@ -27,7 +27,7 @@ ms.custom:
 description: "This article provides a Shared Calling example scenario."
 ---
 
-# Shared Calling scenario
+# Shared Calling example scenario
 
 Before reading this article, be sure you've read [What is Shared Calling](shared-calling-plan.md) and [Set up Shared Calling routing policies](shared-calling-setup.md). Those articles describe licensing requirements, prerequisite configuration, and how to configue a Shared Calling routing policy. 
 

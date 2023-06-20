@@ -1053,11 +1053,11 @@ items:
 
     - name: Shared Calling - A simpler solution
       items:
-        - name: What is Shared Calling
+        - name: Plan and configure Shared Calling
           href: shared-calling-plan.md
         - name: Set up Shared Calling routing policies
           href: shared-calling-setup.md
-        - name: Shared Calling example 
+        - name: Shared Calling example scenario
           href: shared-calling-scenario.md
               
     - name: Phone numbers
