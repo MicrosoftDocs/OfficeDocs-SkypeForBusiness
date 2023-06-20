@@ -43,7 +43,7 @@ For more information about using Auto attendants, see [Plan for Auto attendants]
 
 This article describes all the requirements for configuring Shared Calling.  You must ensure these requirements are met before creating a new [Shared Calling routing policy](shared-calling-setup.md).  
 
-## Requirements
+## Configuration requirements
 
 - Each user must have a Phone System license assigned, and each user must be enabled for voice. To assign the license and enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the **EnterpriseVoiceEnabled** parameter to $true.
 
