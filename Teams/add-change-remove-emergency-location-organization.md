@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 06/13/2023
+ms.date: 06/20/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -82,6 +82,8 @@ You can remove a location only if no users or phone numbers are assigned to it. 
 See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
 
 ## Assign an emergency location
+
+You can use either the Teams admin center or PowerShell to assign an emergency location.
 
 ### Using the Microsoft Teams admin center
 
