@@ -73,7 +73,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 |Channel|Version & Build|
 |:-----|:-----|
 |Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944)</br> |
-|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
+|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version 2212 (Build 15928.20294)</br> |
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
 
 </br>
@@ -254,7 +254,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 1. In Windows, search for **Edit Group Policy**.
 2. This will open the Local Group Policy Editor screen.
-3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
+3. Go to **Computer Configuration > Administrative Templates > Windows Components > App package Deployment** to check settings for these policies: 
   - *Prevent non-admins users from installing packaged Windows apps*
   - *Allow all trusted apps to install*
 4. Make sure that value for these settings is set as follows:
