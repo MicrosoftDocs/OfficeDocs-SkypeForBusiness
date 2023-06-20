@@ -165,11 +165,11 @@ Walkie Talkie Customer Data for tenants in the European Union Data Boundary (EUD
 
 #### To be considered a tenant in the EUDB:
 
-The tenant must have a _default geography_ in a EUDB country or select a country in EUDB country as their residence during sign-up
+The tenant must have a _default geography_ in a EUDB country or select a country in EUDB country as their residence during sign-up.
 
 #### How can I determine customer data location?
 
-Please refer to **Azure Active Directory (AAD)** [Microsoft Power BI](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9)
+Please refer to the **Azure Active Directory (AAD)** [Microsoft Power BI dashboard](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
 
 ## Give feedback or report an issue
 
