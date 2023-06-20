@@ -57,7 +57,7 @@ This article describes all the requirements for configuring Shared Calling.  You
 
 - If the resource account is using a Direct Routing phone number, for routing of outbound calls, you must configure a call routing policy and assign it to all users assigned to this resource account number. For more information, see [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md). (This step is not required for resource accounts using a Calling Plan or Operator Connect number.)
 
-- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Set up Shared Calling policies](shared-calling-setup.md).
+- You must have Teams PowerShell Module version **NEED VERSION NUMBER**  to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling policies](shared-calling-setup.md).
 
 ## Emergency calling requirements
 
@@ -81,7 +81,7 @@ For more information about emergency calling and how location is determined, see
 
 ## Related topics
 
-- [Set up Shared Calling](shared-calling-setup.md)
+- [Configure Shared Calling routing policies](shared-calling-setup.md)
 - [Shared Calling example scenario](shared-calling-scenario.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Set up Auto attendants](create-a-phone-system-auto-attendant.md)

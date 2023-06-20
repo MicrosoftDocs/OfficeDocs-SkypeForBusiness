@@ -1,5 +1,5 @@
 ---
-title: "Set up Shared Calling routing policies"
+title: "Configure Shared Calling routing policies"
 ms.reviewer: roykuntz
 ms.date: 5/30/2023
 author: CarolynRowe
