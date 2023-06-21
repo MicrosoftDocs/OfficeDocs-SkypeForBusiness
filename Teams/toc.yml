@@ -1469,6 +1469,8 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
+                - name: Meetings with SIP and H.323 devices
+                  href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds
                   href: rooms/custom-backgrounds.md
             - name: Manage devices with Azure Monitor
