@@ -88,6 +88,8 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 * After updating in a context, the app automatically updates only in the contexts that the user is a member of and the previous version of the app was added. The app isn't updated in teams and groups that the user isn't a part of. The new version of the app isn't added to teams or groups where the app wasn't originally added.
 
+* Teams admin can't forcibly update an app for a user if the user doesn't provide consent to an app.
+
 ## Related articles
 
 * [Understand manifest schema for updates done in apps](/microsoftteams/platform/resources/schema/manifest-schema).
