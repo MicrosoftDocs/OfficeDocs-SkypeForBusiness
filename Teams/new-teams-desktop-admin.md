@@ -23,8 +23,6 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
-> [!NOTE]
-> The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
@@ -32,12 +30,6 @@ ms.localizationpriority: high
 ## Before you begin
 
 This article describes the preview release of the new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
-
-- [What is new Teams?](#what-is-the-new-teams)
-- [Release schedule](#release-schedule)
-- [What features are still missing?](#what-features-are-still-missing)
-- [What features are changing?](#what-features-are-changing)
-
 
 > [!IMPORTANT]
 > The new Teams client **is not** available for the following during the preview phase:
