@@ -23,9 +23,19 @@ f1keywords:
 
 
 
-# Enroll device into Pro Management
+# Enrolling a device into Pro Management
 
-Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
+**With the upcoming Teams Rooms on Windows app update (version 4.17), which is scheduled for release by the end of June 2023, we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17, IT admins will no longer need to manually download and install the Pro management admin agent on each device.**
+
+Instead of performing the steps in this article, the Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
+
+Once the Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible on the Pro Management portal. This eliminates the need for any additional user action, making the process more efficient.
+
+> [!IMPORTANT]
+>
+> If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
+
+Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
