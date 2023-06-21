@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1B  | May 05, 2023 |`1449/1.0.96.2023050203`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1A  | April 17, 2023 |`1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1  | Mar 23, 2023 |`1449/1.0.96.2023031201`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
@@ -51,6 +52,11 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `4.0.2.384012` | 2023 Update #1 |
+| Poly Studio X50 | `4.0.2.384012` | 2023 Update #1 |
+| Poly Studio X70 | `4.0.2.384012` | 2023 Update #1 |
+| Poly Studio G7500 | `4.0.2.384012` | 2023 Update #1 |
+| Poly TC8 | `4.0.2.211096` | 2023 Update #1 |
 | Yealink MeetingBar A10 | `278.320.0.17`   | 2023 Update #1B  |
 | Yealink MeetingBar A20 | `133.320.0.18`   | 2023 Update #1B  |
 | Yealink MeetingBar A30 | `133.320.0.18`   | 2023 Update #1B  |
