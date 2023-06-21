@@ -157,10 +157,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X70 | `4.0.0-376092` | September 4, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `3.3.2.210441` | August 5, 2023 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 9 |
-| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500| 11 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-
+| Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Small | 12 |
 
 ## [Peripherals](#tab/Peripherals)
 
