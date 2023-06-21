@@ -6,7 +6,6 @@ manager: serdars
 ms.reviewer: suchakr
 ms.date: 06/20/2023
 ms.topic: article
-ms.tgt.platform: cloud
 ms.service: msteams
 audience: Admin
 ms.custom: chat-teams-channels-revamp
