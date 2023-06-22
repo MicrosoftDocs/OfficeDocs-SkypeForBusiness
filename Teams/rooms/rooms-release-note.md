@@ -40,6 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[4.17.50.0](#417500-6232023) | 6/23/2023 |
 |[4.16.40.0](#416400-3242023) | 3/24/2023 |
 |[4.15.58.0](#415580-1102023) | 1/10/2023 |
 |[4.14.24.0](#414240-922022) |9/2/2022 |
@@ -51,6 +52,21 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 ## Teams Rooms on Windows feature introduction and issue resolution
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
+
+### 4.17.50.0 (6/23/2023)
+
+Features with the :::image type="icon" source="../media/mtr-pro-icon.png" border="false"::: icon are available only with Teams Rooms Pro license.
+Introduced in this update:
+
+- Teams Rooms user interface refresh is applied by default  
+- Enhanced custom backgrounds on home screen. For more information, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds?tabs=Enhanced). :::image type="icon" source="../media/mtr-pro-icon.png" border="false":::
+- Support for SIP/H323 dialing <sup>1</sup>  :::image type="icon" source="../media/mtr-pro-icon.png" border="false":::
+- Update to Windows 11 22H2 for eligible devices, and Windows 10 22H2 for all others
+- Choose your Together mode scene and select it for everyone :::image type="icon" source="../media/mtr-pro-icon.png" border="false":::
+- Net Promoter Score survey at the end of some meetings
+- Simplified Device Registration Process for Microsoft Teams Rooms Pro Management Portal. :::image type="icon" source="../media/mtr-pro-icon.png" border="false":::
+
+<sup>1</sup> Functionality is available through a CVI provider. 
 
 ### 4.16.134.0 (5/8/2023) - Manual update only
 
