@@ -1,5 +1,5 @@
 ---
-title:  Install and deploy the new Microsoft Teams desktop client
+title:  Deploy the new Teams client using policies
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -15,11 +15,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how to deply and install the new Microsoft Teams desktop client for Windows.
+description: Learn about how to deploy the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
+# Deploy the new Teams using policies
+
+You can deploy the new Teams client to your organization by setting policies in either the Teams Admin Center or by using Powershell. 
+
+## Policy settings for deployment
+
+>[!Important]
+>In late July, 2023, a new policy setting will rollout: **New Teams as default**. Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.
+
+Options include:
+
+   |Setting|Description|
+   |:-----|:-----|
+   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
+   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
+   |**New Teams as default </br>(Releasing late July)**| Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
+
 
 ## Prerequisites
 
@@ -29,7 +47,6 @@ ms.localizationpriority: high
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
-<br>
 
 #### Required Microsoft 365 Apps Security Updates
 

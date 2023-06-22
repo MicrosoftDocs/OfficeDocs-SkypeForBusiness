@@ -23,6 +23,9 @@ ms.localizationpriority: high
 
 # Bulk deploy new Microsoft Teams desktop client 
 
+>[!Note:]
+>**Coming soon:!** The Bulk deploy feature will be released on July 17, 2023.
+
 Direct or "bulk"  deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
@@ -55,22 +58,12 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
-<br>
-
-##### Required Microsoft 365 Apps Security Updates
-
-|Channel|Version & Build|
-|:-----|:-----|
-|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944)</br> |
-|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
-|Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
-
-</br>
-
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-
 ## Deploy the new Teams application to your organization
+
+>[!Important:]
+>The Bulk deploy feature will be available July 17, 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to succesfully deploy the new Teams.
@@ -78,7 +71,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer -- add link  (need link from Charlie)
+1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live on July 17, 2023. Please check back then.**
 2. Open the Command Prompt as an Admin.
 3. Run the downloaded setup.exe. Success or fail status will display.
 
