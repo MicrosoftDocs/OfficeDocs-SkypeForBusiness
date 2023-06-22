@@ -92,7 +92,7 @@ See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelisloca
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
+See [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Related topics
 
