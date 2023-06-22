@@ -62,7 +62,7 @@ Options include:
 
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-## How to roll out new Teams
+## Set the policies to deploy the new Teams client
 
 As an admin, you can manage which users in your organizations see or don't see the "Try the new Teams" toggle to use the new Teams.
 
