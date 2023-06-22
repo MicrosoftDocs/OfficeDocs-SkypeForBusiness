@@ -3,7 +3,7 @@ title: Microsoft Teams Shared Devices licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms. reviewer: chester
+ms. reviewer: chester, sirigudur
 ms.date: 06/21/2023
 ms.topic: conceptual
 ms.service: msteams
@@ -65,8 +65,7 @@ The **Teams Shared Devices** license can be purchased in the [Microsoft admin ce
 
 The following articles will help you set up the various devices that use the **Teams Shared Devices** license.
 
+- [Introducing the Microsoft Teams Shared Device License](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-the-microsoft-teams-shared-device-license/ba-p/3677138)
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
-
-
