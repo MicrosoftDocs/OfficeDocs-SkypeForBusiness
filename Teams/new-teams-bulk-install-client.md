@@ -23,7 +23,7 @@ ms.localizationpriority: high
 
 # Bulk deploy new Microsoft Teams desktop client 
 
->[!Note:]
+>[!Note]
 >**Coming soon:!** The Bulk deploy feature will be released on July 17, 2023.
 
 Direct or "bulk"  deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
@@ -62,11 +62,11 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Deploy the new Teams application to your organization
 
->[!Important:]
+>[!Important]
 >The Bulk deploy feature will be available July 17, 2023. Please check back at that time.
 
 >[!Note]
->All steps must be completed to succesfully deploy the new Teams.
+>All steps must be completed to successfully deploy the new Teams.
 
 
 ## Step 1: Download the new Teams installer
