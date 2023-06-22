@@ -31,12 +31,14 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 
 **TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
 When TeamsProvision is run on a computer it does:
-- Downloads the latest Teams MSIX package from our CDN.
-- Installs the Teams MSIX application for all users on the computer. Note that any users who have installed a different Teams version will have their version replaced with the provisioned version.
-- Modifies the registry to ensure that Teams can interoperate with Office and other applications on the computer.
-- Returns machine-readable JSON output on the command line, indicating whether the operation was successful.
 
-    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
+- Downloads the Teams.exe
+- Installs the new Teams app for **all users on the computer.** 
+
+>[!Important] Any users who have installed a different Teams version will have their version replaced with the provisioned version.
+
+- Modifies the registry to allow Teams to work with Office and other computer applications.
+- Displays success or failure message on the command line
 
 
 ## Prerequisites for target computers
