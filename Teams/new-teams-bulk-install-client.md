@@ -41,7 +41,7 @@ When TeamsProvision is run on a computer it does:
 
 ## Prerequisites for target computers
 
-Computers must meet the minimum requirements listed here.
+For new Teams to be successfully installed, computers must meet the minimum requirements listed here.
 
 ##### Required system and app requirements
 
@@ -66,9 +66,15 @@ Computers must meet the minimum requirements listed here.
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 
+## Deploy the new Teams application to your organization
+
+>[!Note]
+>All steps must be completed to succesfully deploy the new Teams.
+
+
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer -- add link
+1. Download the .exe installer -- add link  (need link from Charlie)
 2. Open the Command Prompt as an Admin.
 3. Run the downloaded setup.exe. Success or fail status will display.
 
@@ -90,10 +96,11 @@ As an admin, you can now deploy this installer for a single computer or a group 
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
    |Setting|Description|
-   |:-----|:-----|
-   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
-   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. 
+
+>[!Note]
+>This option was previously called **Users can choose**.|
+
 
 
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.  Select a policy to assign to the group.
@@ -102,10 +109,15 @@ As an admin, you can now deploy this installer for a single computer or a group 
 >[!Note]
 >If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
-## Impact to end user
+## End user experience:  Launching the new Teams 
 
-After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user must manually launch new Teams:
+After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
 
-1.</br>
-2.</br>
-3.
+I. Users can launch classic Teams, and then switch the toggle to go to new Teams.
+
+OR
+
+II.  Users can directly launch new Teams:
+1. In Windows, click **Start** **> new Microsoft Teams**.
+2. Select "Yes" at the confirmation prompt screen. 
+3. Once confirmed new Teams will launch, and will now be the default version.
