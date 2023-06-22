@@ -35,7 +35,8 @@ When TeamsProvision is run on a computer it does:
 - Downloads the Teams.exe
 - Installs the new Teams app for **all users on the computer.** 
 
->[!Important] Any users who have installed a different Teams version will have their version replaced with the provisioned version.
+>[!Important]
+>Users who have installed a different Teams version will have their version replaced with the provisioned version.
 
 - Modifies the registry to allow Teams to work with Office and other computer applications.
 - Displays success or failure message on the command line
