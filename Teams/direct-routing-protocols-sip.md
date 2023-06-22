@@ -115,9 +115,9 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 #### From Header
 
-For all incoming calls, the From Header is used to match the caller's phone number against callee's blocked phone number list.
+For all incoming calls, the From Header is used to match the caller's phone number against the callee's blocked phone number list and used to perform reverse number lookup to find the caller's name from existing tenant and user records. 
 
-The phone number must contain a + as shown in the following example.
+For these lookups to work, the phone number must contain a + as shown in the following example.
 
 ```console
 From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
