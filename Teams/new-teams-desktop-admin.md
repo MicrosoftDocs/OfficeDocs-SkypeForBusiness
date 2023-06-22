@@ -68,9 +68,9 @@ Public preview program|Available|
 
 
 >[!Note]
->- Teams for Education usage follows <insert link>
+>- Teams for Education usage follows <insert link> [Need info here -- ]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
->- New Teams is not currently available on VDI and Mac OS but is planned for releaes later in this calendar year
+>- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 ## When will the new Microsoft Teams be the default client for my users?
 
@@ -93,9 +93,9 @@ The date when existing Teams users are updated to new Teams depends on which Mic
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 15, 2023|
 
 >[!Note]
->- Teams for Education usage follows <insert link>
->- Teams for Government, including GCC, GCCH, DoD and other special clouds will follow t
->- New Teams is not yet available on VDI or Mac OS and is planned for October-November 2023.
+>- Teams for Education usage follows <insert link> [need info here]
+>- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
+>- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 
 ## What features are still missing?
