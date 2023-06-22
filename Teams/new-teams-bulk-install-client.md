@@ -105,8 +105,6 @@ As an admin, you can now deploy this installer for a single computer or a group 
 >[!Note]
 >This option was previously called **Users can choose**.|
 
-
-
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.  Select a policy to assign to the group.
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
 
