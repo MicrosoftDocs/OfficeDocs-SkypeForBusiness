@@ -1,5 +1,5 @@
 ---
-title:  Bulk install the new Microsoft Teams desktop client
+title:  Bulk deploy the new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -15,7 +15,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Bulk install the new Microsoft Teams desktop client for Windows. Try out new features and provide feedback.
+description: Bulk deploy the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -30,9 +30,10 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 ## How it works
 
 **TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
-When TeamsProvision is run on a computer it does:
 
-- Downloads the Teams.exe
+When **TeamsProvision.exe** is run on a computer:
+
+- Admin downloads the Teams.exe
 - Installs the new Teams app for **all users on the computer.** 
 
 >[!Important]
@@ -99,7 +100,7 @@ As an admin, you can now deploy this installer for a single computer or a group 
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
    |Setting|Description|
-   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. 
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. 
 
 >[!Note]
 >This option was previously called **Users can choose**.|
@@ -121,6 +122,6 @@ I. Users can launch classic Teams, and then switch the toggle to go to new Teams
 OR
 
 II.  Users can directly launch new Teams:
-1. In Windows, click **Start** **> new Microsoft Teams**.
+1. In Windows, select **Start** **> new Microsoft Teams**.
 2. Select "Yes" at the confirmation prompt screen. 
-3. Once confirmed new Teams will launch, and will now be the default version.
+3. Once confirmed teh new Teams launches, and will now be the default version.
