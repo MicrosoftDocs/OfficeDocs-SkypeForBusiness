@@ -480,6 +480,9 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue**: Some Teams users aren't receiving notifications of chat mentions, meetings or calls.</br>
   Details: Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
 
+- **Issue**: If a user declines a meeting, users will continue to receive meeting start notifications for the declined meeting.</br>
+  Details: We're continuing to work on this feature and will update accordingly.
+
 ### Presence
 
 - **Issue**: Occasionally when a user is in a meeting, their Presence Status shows as Available.
