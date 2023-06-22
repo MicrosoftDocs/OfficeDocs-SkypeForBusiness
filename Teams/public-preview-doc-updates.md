@@ -60,7 +60,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
    -  **On for everyone**
        - This option enables Teams Public Preview for the user.
-       - This option denotes that Public Preview is required for everyone, and hence it's being enabled.
+       - This option denotes that Public Preview is mandatorily required for everyone, and hence it's being enabled.
        - The users don't have the option of turning off this option.
        - No other action is required by the user once this option is enabled.
         
