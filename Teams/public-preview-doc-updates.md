@@ -49,21 +49,20 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
    -   **On for users in Current Channel (Preview)** (default)
        - This default option enables Teams Public Preview features for any user enrolled in Office Current Channel (Preview).
-       - There are no more actions required by the end user.
-       
+       - There are no more actions required by the user.
+
    -   **Users can opt in**
        - This option enables Teams Public Preview regardless of whether a user is enrolled in Office Current Channel (Preview).
-       - The end user must also opt in to Teams public preview in their Teams app.
+       - The users must turn on the Teams Public Preview in their Teams app because it isn't enabled by default for them.
 
-   > [!NOTE]  
-   > For existing users in Teams Public Preview who are not in the **Current Channel (Preview)**, IT admins need to switch from default, **Follow Office Preview** to **Enabled**.
- 
-   - **Off** 
-     - Teams Public Preview features will not be available to end users.
+   - **Off**
+     - Teams Public Preview features will not be available to users.
 
-   -  **On for everyone** 
-       - This option enables Teams Public Preview for the end user.
-       - There is no action required by the end user.
+   -  **On for everyone**
+       - This option enables Teams Public Preview for the user.
+       - This option denotes that Public Preview is required for everyone, and hence it's being enabled.
+       - The users don't have the option of turning off this option.
+       - No other action is required by the user once this option is enabled.
         
 5. Select **Apply**.
 1. Ensure that **Microsoft controlled** (default value) is the value selected from the **Use new Teams client** dropdown list.
