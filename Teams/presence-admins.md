@@ -66,6 +66,8 @@ Users receive calls in all presence states except for Do not disturb, in which i
 
 Users can add people to their priority access list by going to **Settings** > **Privacy** in Teams. People who have priority access can contact the user even when the user's status is set to Do not disturb.
 
+Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
+
 ### Dual presence
 
   The way presence works for most users is motivated by the events in the calendar or device events, such as a call. The user can override this status in the UI by manually setting states, which have some expiration time.

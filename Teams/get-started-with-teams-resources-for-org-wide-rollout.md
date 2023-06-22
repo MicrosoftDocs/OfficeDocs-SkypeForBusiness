@@ -7,7 +7,7 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dstrome
+ms.reviewer: mikeplum
 description: Once you've set up your first teams, learn how to deploy Microsoft Teams to your organization.
 ms.custom: 
 - seo-marvel-apr2020
