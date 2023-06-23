@@ -30,7 +30,7 @@ For information about Teams Rooms app updates, select the **Teams Rooms on Windo
 
 Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 
-For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
+For more information on how Teams updates, see [Teams update process](../teams-client-update.md).
 
 Teams Rooms is governed by the Modern Lifecycle Policy. For more information, see [Teams update process](../teams-client-update.md#servicing-agreement).
 
@@ -58,7 +58,7 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 Introduced in this update:
 
-- Teams Rooms user interface refresh is applied by default  
+- Teams Rooms user interface refresh is applied by default.
 - Enhanced custom backgrounds on home screen. For more information, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md?tabs=Enhanced). :::image type="icon" source="../media/mtr-pro-icon.png":::
 - Support for SIP/H323 dialing <sup>1</sup>  :::image type="icon" source="../media/mtr-pro-icon.png":::
 - Update to Windows 11 22H2 for eligible devices, and Windows 10 22H2 for all others
