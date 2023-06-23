@@ -182,6 +182,7 @@ Supported clients:
 | **Color**     | Yes | Yes| Yes| Yes|
 
 Logos and images will be available for Join Launcher in future updates.
+
 > [!NOTE]
 > The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
 
