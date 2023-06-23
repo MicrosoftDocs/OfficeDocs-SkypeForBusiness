@@ -36,44 +36,40 @@ Before scaling your meetings deployment across your organization, take time to r
 
 To get the best experience on Teams, your organization must have deployed Exchange Online and [SharePoint](/sharepoint/plan-for-sharepoint-onedrive), and you must have a verified domain for Microsoft 365 such as *contoso.com*.
 
-To scale meetings across your organization you should ensure that all user locations have internet access to connect to Microsoft 365. At a minimum you should make sure that the following common ports are open to the internet from your users' locations:
+Make sure that the following common ports are open to the internet from your users' locations:
 
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
 
 To verify that your network is ready, see:
+
 - [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 - [URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 
 ## Core deployment decisions
 
-These are the settings that most organizations want to change (if the Teams default settings don't work for the organization).
+These are the settings that many organizations change to reflect their business needs.
 
 ### Teams administrators
 
-Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
-
-| Ask yourself | Action |
-|--------------|--------|
-|Who will be assigned the Teams Communications Administrator role?|To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
-|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md). To assign admin roles, see [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles).
 
 ### Meetings settings
 
 Meetings settings are used to set up meeting invitations, and if you want to turn on Quality of Service (QoS), set the ports for real-time traffic. These settings will be used for all of the Teams meetings that users schedule in your organization.
 
-| Ask yourself | Action |
-|--------------|--------|
-|Will I customize meeting invitations? |See the [Customize meeting invitations](customize-meeting-invitations.yml) to learn more about meetings settings.|
-|Will I implement QoS?|See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.|
+To learn about meeting settings, see:
+
+- [Customize meeting invitations](customize-meeting-invitations.md)
+- [Implement Quality of Service (QoS) in Microsoft Teams](qos-in-teams.md)
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization.
+Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. Some meeting policies also affect webinars and town halls. For more information, see [Plan for Teams meetings](plan-meetings.md).
 
-| Ask yourself | Action |
-|--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-overview.md).|
+### Events policies
+
+Events policies are used to control what features are available to users when they join Teams webinars and town halls. You can use the default policy or create one or more custom events policies for people that host webinars and town halls in your organization. For more information, see [Plan for Teams webinars](plan-webinars.md) and [Plan for Teams town halls](plan-town-halls.md).
 
 ### Audio Conferencing
 
@@ -83,21 +79,15 @@ When you're ready to roll out Audio Conferencing, see the in-depth [Audio Confer
 
 ### Meeting room and personal devices
 
-For an optimal meeting experience in Teams, consider using Teams devices such as room systems, phones, headsets, and cameras. To learn more, see [Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices).
+For an optimal meeting experience in Teams, consider using Teams devices such as Teams Rooms systems, phones, headsets, and cameras. To learn more, see:
 
-| Ask yourself | Action |
-|--------------|--------|
-|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](devices/device-management.md). |
-|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
+- [Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices).
+- [Manage your devices in Teams](devices/device-management.md)
+- [Teams Rooms certified systems and peripherals](rooms/certified-hardware.md).|
 
 ### Reporting
 
-Use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts.
-
-| Ask yourself | Action |
-|--------------|--------|
-|Who will be responsible for reporting?|Read [Use activity reports for Teams](teams-activity-reports.md).  |
-|Who will be responsible for monitoring usage?|Read [Monitor usage and feedback in Teams](get-started-with-teams-monitor-usage-and-feedback.md).|
+Use activity reports to see how users in your organization are using Teams. For example, if some don't use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. For more information, see [Use activity reports for Teams](teams-activity-reports.md) and [Monitor usage and feedback in Teams](get-started-with-teams-monitor-usage-and-feedback.md).
 
 ## Additional deployment decisions
 
@@ -105,60 +95,31 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Bandwidth planning
 
-Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
+Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service. Teams won't let users schedule meetings when they're offline or running with limited bandwidth.
 
-> [!IMPORTANT]
-> Teams won't let users schedule meetings when they're offline or running with limited bandwidth.
-
-| Ask yourself | Action |
-|--------------|--------|
-| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment.md#network-readiness) for more information and links to tools to simplify your planning process.|
+See [Network Readiness](3-envision-evaluate-my-environment.md#network-readiness) for more information and links to tools to simplify your planning process.
 
 ### Meeting recording and archiving
 
-Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording is saved in OneDrive or SharePoint, so users can share it securely across their organization.
+Users can record their meetings and group calls to capture audio, video, and screen sharing activity. Organizers can record webinars and town halls. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording is saved in OneDrive or SharePoint, so users can share it securely across their organization.
 
 To learn more, see [Teams meeting recording](meeting-recording.md) and [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
-| Ask yourself | Action |
-|--------------|--------|
-| Will I turn on the meeting transcription service?|See [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|
-
-### Conference room systems rollout
-
-Organizations with many conference rooms may want to consider a structured approach to inventorying their rooms, identifying the appropriate devices, and then rolling them out.
-
-| Ask yourself | Action |
-|--------------|--------|
-| What do I need to do to roll out conference room systems?|Check out [Plan Microsoft Teams Rooms](/microsoftteams/rooms/rooms-plan).|
-
 ### Cloud video interop
 
-Cloud video interop makes it possible for third-party meeting room devices to join Teams meetings.
-
-Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud video interop for Teams works with third-party systems and delivers a native meeting experience for all participants – in meeting rooms or inside Teams clients.
-
-| Ask yourself | Action |
-|--------------|--------|
-| Will I use a cloud video interop solution as part of my room systems deployment? | Read [Cloud Video Interop for Teams](cloud-video-interop.md).|
+Cloud video interop makes it possible for third-party meeting room devices to join Teams meetings. Cloud video interop for Teams works with third-party systems and delivers a native meeting experience for all participants – in meeting rooms or inside Teams clients. Read [Cloud Video Interop for Teams](cloud-video-interop.md) for more information.
 
 ### Troubleshoot meeting and call quality
 
 The [Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md) shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. It is designed to help admins and network engineers optimize a network
 
-Call Analytics is designed to help admins and help desk agents troubleshoot call quality problems with specific calls.
-
-|Ask yourself|Action |
-|------------|-------|
-| Who will be responsible for monitoring and troubleshooting call quality issues? | Read [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
+Call Analytics is designed to help admins and help desk agents troubleshoot call quality problems with specific calls. Read [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.
 
 ### Operate your meetings service
 
 It's important that you understand the overall health of the Teams service so that you can proactively alert others in your organization of any event that affects the service.
 
-|Ask yourself|Action |
-|------------|-------|
-|Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
+Decide who in your organization will be responsible for managing the meetings service. Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).
 
 ## Next steps
 
