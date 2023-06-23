@@ -3,7 +3,7 @@ title: Assign policies to users and groups
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: tomkau, saragava, ritikag, jastark
-ms.date: 11/15/2019
+ms.date: 06/23/2023
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -84,7 +84,7 @@ To learn more, read [Manage policies via PowerShell](teams-powershell-managing-t
 
 ## Assign a policy to a group
 
-Policy assignment to groups lets you assign a policy to a group of users, such as a M365 group, a security group, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+Policy assignment to groups lets you assign a policy to a group of users, such as a Microsoft 365 group, a security group, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
 
@@ -101,7 +101,7 @@ Before you get started, it's important to understand precedence rules and group 
 For a given policy type, a user's effective policy is determined according to the following:
 
 - A policy that's directly assigned to a user takes precedence over any other policy of the same type that's assigned to a group. In other words, if a user is directly assigned a policy of a given type, that user won't inherit a policy of the same type from a group. This also means that if a user has a policy of a given type that was directly assigned to them, you have to remove that policy from the user before they can inherit a policy of the same type from a group.
-- If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest ranking. Smaller the number, the higher the ranking i.e. 1 is the highest ranking.
+- If a user doesn't have a policy directly assigned to them and is a member of two or more groups and each group has a policy of the same type assigned to it, the user inherits the policy of the group assignment that has the highest ranking. Smaller the number, the higher the ranking with 1 being the highest ranking.
 - If a user isn't a member of any groups that are assigned a policy, the global (Org-wide default) policy for that policy type applies to the user.
 
 A user's effective policy is updated according to these rules:
@@ -154,7 +154,7 @@ This video shows the steps to create and assign a custom meeting policy to a gro
 ### Use the PowerShell option
 
 > [!NOTE]
-> As of May 2023, group policy functionality in Teams Powershell Module has been extended to support all policy types used in Teams except for the following:
+> The Teams Powershell Module supports all policy types used in Teams except for the following:
 > - Teams App Permission Policy
 > - Teams Network Roaming Policy
 > - Teams Emergency Call Routing Policy
@@ -168,7 +168,7 @@ For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-insta
 
 #### Assign a policy to a group of users
 
-Use the Grant-Cs<PolicyType> cmdlet to assign a policy to a group. You can specify a group by using the object ID, SIP address, or email address.
+Use the appropriate Grant cmdlet to assign a policy to a group. You can specify a group by using the object ID, SIP address, or email address.
 
 In this example, we assign a Teams meeting policy named Retail Managers Meeting Policy to a group with an assignment ranking of 1.
 
@@ -194,7 +194,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 #### Remove a policy from a group
 
-Use the Grant-Cs<PolicyType> cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to other groups, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
+Use the appropriate Grant cmdlet to remove a policy from a group. When you remove a policy from a group, the priorities of other policies of the same type assigned to other groups, and that have a lower ranking, are updated. For example, if you remove a policy that has a ranking of 2, policies that have a ranking of 3 and 4 are updated to reflect their new ranking. The following two tables show this example.
 
 Here's a list of the policy assignments and priorities for a Teams meeting policy.
 
@@ -222,9 +222,9 @@ Grant-CsTeamsMeetingPolicy -Group f985e013-0826-40bb-8c94-e5f367076044 -PolicyNa
 #### Change a policy assignment for a group
 
 > [!NOTE]
-> The Grant-Cs<PolicyType> cmdlet will be expanded to include the below capability soon. In the meantime, to change a group policy assignment, you can remove the current policy assignment from the group, and then add a new policy assignment.
+> To change a group policy assignment, you can remove the current policy assignment from the group, and then add a new policy assignment.
 
-After you assign a policy to a group, you can use the Grant-Cs<PolicyType> cmdlet to change that group's policy assignment as follows:
+After you assign a policy to a group, you can use the appropriate Grant cmdlet to change that group's policy assignment as follows:
 
 - Change the ranking
 - Change the policy of a given policy type
