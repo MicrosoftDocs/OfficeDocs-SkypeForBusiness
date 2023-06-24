@@ -75,7 +75,7 @@ If you need to, you can delay the upgrade of your Teams Rooms device to Windows 
 To delay the upgrade, you need to set the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings\CBU11` value to `1 (DWORD)`. We recommend setting the `CBU11` value using group policy, Intune, or remote PowerShell. Alternately, you can complete the steps below on each Teams Rooms device.
 
 > [!IMPORTANT]
-> If you want to temporarily delay the Windows 11 upgrade on eligible devices, you need to set the `CBU11` value before June 20, 2023.
+> If you want to temporarily delay the Windows 11 upgrade on eligible devices, you need to set the `CBU11` value before release of 4.17 app (last week of June).
 
 1. Switch to admin mode on your Teams Rooms device.
 2. In admin mode, open Registry Editor.
