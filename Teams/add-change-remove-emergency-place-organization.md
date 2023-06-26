@@ -58,7 +58,7 @@ See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
+See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation). If you need to update the Emergency Location Identification Number (ELIN), don't set the ELIN attribute to an empty or null string - otherwise, you will receive an error.
 
 ## Remove a place from an emergency location
 
