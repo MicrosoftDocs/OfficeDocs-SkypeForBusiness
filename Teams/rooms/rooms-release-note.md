@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 05/08/2023
 manager: serdars
@@ -30,7 +30,7 @@ For information about Teams Rooms app updates, select the **Teams Rooms on Windo
 
 Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 
-For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
+For more information on how Teams updates, see [Teams update process](../teams-client-update.md).
 
 Teams Rooms is governed by the Modern Lifecycle Policy. For more information, see [Teams update process](../teams-client-update.md#servicing-agreement).
 
@@ -51,16 +51,6 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 ## Teams Rooms on Windows feature introduction and issue resolution
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
-
-### 4.16.134.0 (5/8/2023) - Manual update only
-
-Introduced in this update:
-
-- Windows 11 support
-- Windows 10 22H2 support for Windows 11 ineligible devices
-
-> [!IMPORTANT]
-> Use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
 
 
 ### 4.16.40.0 (3/24/2023)
@@ -101,7 +91,7 @@ Introduced in this update:
 - Pin and hide room video
 - Administrator configuration for turning off split gallery in dual-display Teams Rooms <sup>1</sup>
 - Dual-display Teams Rooms can now display up to 18 participant video streams
-- Support for Microsoft Teams Rooms Pro and Microsoft Teams Room Basic room licenses
+- Support for Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic room licenses
 
 <sup>1</sup> Administrator configuration for turning off split gallery through XML can be found in [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](../rooms/xml-config-file.md).
 
@@ -117,7 +107,7 @@ Introduced in this update:
 - Admin setting for content only layout default  
 - Modern authentication is on by default
 
- <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Room user account.](../teams-end-to-end-encryption.md)
+ <sup>1</sup> Before you can turn on end-to-end encryption for calls from a Teams Rooms device, you need to configure the policy for the device's user account. You can update the user's policy from the Teams admin center or by using Teams PowerShell. For more information, see [Configure the policy for the Teams Rooms user account.](../teams-end-to-end-encryption.md)
 
  <sup>2</sup> Teams Rooms added support for noise suppression in release 4.12 with admin override.
 
@@ -628,6 +618,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
 |[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
 |[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
 |[1449/1.0.96.2023031201](#144910962023031201-march-2023)     | March 2023        |
@@ -644,6 +635,12 @@ Introduced in this update:
 > [!NOTE]
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
+### 1449/1.0.96.2023060802 (June 2023)
+
+Introduced in this update:
+
+- Fixes for console pairing issues
+
 ### 1449/1.0.96.2023050203 (May 2023)
 
 Introduced in this update:
@@ -654,7 +651,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Performance improvements and bug fixes related to volume controls, meeting join latency, chat loading, and layout switching
+- Performance improvements and fixes for volume controls, meeting join latency, chat loading, and layout switching issues
 
 ### 1449/1.0.96.2023031201 (March 2023)
 

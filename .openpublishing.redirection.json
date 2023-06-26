@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/manage-third-party-teams-apps.md",
+      "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/zero-touch-app-install.md",
       "redirect_url": "/microsoftteams/auto-install-approved-apps",
       "redirect_document_id": false
@@ -3081,6 +3086,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/how-can-caller-id-be-used-in-your-organization.md",
+    "redirect_url": "/microsoftteams/caller-id-policies",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "Teams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md",
     "redirect_url": "/microsoftteams/manage-the-audio-conferencing-settings-for-a-user-in-teams",
     "redirect_document_id": true
@@ -4433,6 +4443,21 @@
   {
     "source_path": "Teams/6-envision-document-my-success-plan.md",
     "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/loop-components-in-teams.md",
+    "redirect_url": "/microsoft-365/loop/loop-components-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-teams-skypeforbusiness-admin-center.md",
+    "redirect_url": "/microsoftteams/manage-teams-in-modern-portal",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/Tutorial-Meetings-in-Teams.yml",
+    "redirect_url": "/microsoftteams/deploy-meetings-microsoft-teams-landing-page",
     "redirect_document_id": false
   },
   {
