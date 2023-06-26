@@ -98,15 +98,26 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 #### Annotation
 
-When whiteboard is enabled, your users will have the option to use annotation, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
+When whiteboard is enabled, users will have the option to use annotation, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
 
-Before participants can start annotating only after the user selects an annotation entry point in the sharing toolbar. Now the IT admin can enable the following options, where:
+Use the following to turn on/off collaborative annotations:
 
- - Everyone can start annotation
- 
- - Only Presenters can start annotation
- 
- - Only user can start annotation
+```
+Set-SPOTenant -IsWBFluidEnabled
+```
+
+> [!NOTE]
+> This will also turn on/off Whiteboard in meetings.
+
+The admin policy for collaborative annotations is a user-level policy and following are its details:
+
+  - **Policy name**: CSTeamsMeetingPolicy
+  
+  - **Setting name**: AllowCollaborativeAnnotations
+
+  - **Setting type**: ENUM true/false
+
+The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin centre through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 
