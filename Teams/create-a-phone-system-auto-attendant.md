@@ -54,6 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for auto attendants in the past six months
 
+- June 26 - **Holidays** - holiday sets now support up to 50 date ranges.
 - May 01 - **Authorized users** - authorized users may now update auto attendant business, after hours, and holiday greetings.
 
 ## Steps to create an auto attendant
@@ -169,7 +170,9 @@ Once you've added your after hours call flow, select **Next**.
 
 ## Step 4: Set up call flows for holidays (optional)
 
-Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 10 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
+*New* - holiday sets now support up to 50 date ranges.
+
+Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each auto attendant. Each holiday set can contain up to 50 unique date ranges. Holiday dates must be unique across all holiday sets being added to the auto attendant.
 
 1. On the Holiday call settings page, select **Add**.
 
