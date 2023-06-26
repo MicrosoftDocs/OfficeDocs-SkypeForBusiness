@@ -694,8 +694,8 @@ items:
               href: cloud-video-interop.md
             - name: Real-time media traffic
               href: meetings-real-time-media-traffic.md
-            - name: Alerts for meeting issues
-              href: alerts-in-progress-meeting-issues.md
+            - name: Alerts for audio quality issues
+              href: alerts-in-progress-meeting-audio.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
