@@ -935,14 +935,12 @@ items:
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-        - name: Manage inbound calls
-          items: 
-            - name: Routing inbound calls
-              href: inbound-call-routing.md
-            - name: Block inbound calls
-              href: block-inbound-calls.md
-            - name: Configure call settings for your users
-              href: user-call-settings.md
+        - name: Routing inbound calls
+          href: inbound-call-routing.md
+        - name: Block inbound calls
+          href: block-inbound-calls.md
+        - name: Configure call settings for your users
+          href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md
         - name: Call sharing and group call pickup
