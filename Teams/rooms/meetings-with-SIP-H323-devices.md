@@ -34,7 +34,7 @@ If you have multiple Teams Rooms all with a Pro licenses deployed in your organi
 To enable your Teams Rooms on Windows to use SIP and H.323 dialing:
 
 1. The Teams Room account that is used to sign in to the device must have a Teams Room Pro license assigned.
-2. You must have an signed agreement with one of the certified [Cloud Video Interop provider](cloud-video-interop.md) (CVI). However, you have two options:
+2. You must have an signed agreement with one of the certified [Cloud Video Interop providers](../cloud-video-interop.md) (CVI). However, you have two options:
 - **Option 1:** Sign up for a calling plan from a CVI provider that supports SIP and H.323 dialing.
 - **Option 2:** Buy your own licenses from a CVI provider that supports SIP and H.323 dialing. 
 
@@ -50,7 +50,7 @@ In this example below, you will create a new policy and then set the parameters 
 
 ### Using Windows PowerShell
 
-If you haven't use Microsoft Teams PowerShell before, start by going over here to [learn more and how to install it](teams-powershell-install.md). 
+If you haven't use Microsoft Teams PowerShell before, start by going over here to [learn more and how to install it](../teams-powershell-install.md). 
 
 To create a new policy, use the Microsoft Teams PowerShell and run:
 
