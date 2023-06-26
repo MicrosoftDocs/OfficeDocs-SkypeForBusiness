@@ -67,7 +67,6 @@ The following table compares key features between Teams and Teams Premium.
 | Read live translated captions during meetings |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN for Live Events\* |  | ✔️ |
-| Avatars for Teams app | | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
