@@ -132,8 +132,6 @@ Note that these rules apply to the PSTN and Direct Routing reports in Tenant Adm
 
 The retention period is based on the user's location (country). If the tenant administrator does not set a user's location, the default value for the location of a user is the location of the tenant.
 
-Tenant administrators have possibility to modify data retention period for the call records of their organization, by creating a support request to Microsoft.
-
 ## Exporting the reports
 Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready. Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data.
 
