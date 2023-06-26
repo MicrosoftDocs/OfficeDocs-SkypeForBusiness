@@ -85,7 +85,7 @@ To set up an auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=after-hours).
 
-4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This language will be used for system-generated voice prompts.
+4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This language is used for system-generated voice prompts.
 
 5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
@@ -102,14 +102,14 @@ Once you've set your auto attendant's general info, select **Next**.
 
 - If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-- If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
+- If you select **Type a greeting message** the system reads the text that you enter (up to 1000 characters) when the auto attendant answers a call.
 
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the language selected for the auto attendant. The system doesn't perform translation.
 
 ### Route the call
 
-- If you select **Disconnect**, the auto attendant will hang up the call.
+- If you select **Disconnect**, the auto attendant hangs up the call.
 - If you select **Redirect call**, you can choose one of the call routing destinations.
 - If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
@@ -131,7 +131,7 @@ For each menu option, specify the following settings:
 
 ##### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed.  If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they'll be routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed.  If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they are routed to that destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
@@ -201,7 +201,7 @@ The *dial scope* defines which users are available in the directory when a calle
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory.
 
-If a user is in both lists, they'll be excluded from the directory.
+If a user is in both lists, they are excluded from the directory.
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
@@ -212,7 +212,7 @@ Once you've selected your **Dial scope** options, select **Next**.
 
 ## Step 6: Set up resource accounts (optional)
 
-All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
+All auto attendants must have an associated resource account.  First-level auto attendants need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
 To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
@@ -238,7 +238,7 @@ To **add a user** to the authorized users:
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one auto attendant or call queue.
 > - The user is assigned as an authorized user to at least one auto attendant or call queue but doesn't have a policy assigned.
 
-See [Set up authorized users](./aa-cq-authorized-users.md) for more information.
+For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 
 ---
 
