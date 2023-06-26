@@ -349,11 +349,11 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
-## Remove a direct policy assignement
+## Remove a direct policy assignment
 
-You can remove a direct policy assignement from a user. This can be done to allow a group policy assignment to take effect.
+You can remove a direct policy assignment from a user. This can be done to allow a group policy assignment to take effect.
 
-To remove a direct policy assignement
+To remove a direct policy assignment
 
 1. Go to **Users** > **Manage users**.
 1. Select the user whose policy assignment you want to remove.
