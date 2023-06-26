@@ -1,5 +1,5 @@
 ---
-title: Set up alerts for in-progress meeting audio quality issues
+title: Alerts for in-progress meeting audio quality issues
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -15,9 +15,6 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: 
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -25,23 +22,23 @@ ms.collection:
 description: Learn how to set up alerts for audio quality issues detected in in-progress meetings.
 ---
 
-# Set up alerts for in-progress meeting audio quality issues
+# Alerts for in-progress meeting audio quality issues
 
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+You can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
+Notifications are available for packet loss, jitter, and round trip time. You can set the the threshold for each of these as well as the frequency of notification.
 
+Notifications can  be sent to a Teams channel or a web hook URL.
 
-
-
-## Configure device state rule
+## Set up alerts for audio quality issues
 
 1. In the left navigation of the Microsoft Teams admin center, select **Notifications & alerts** > **Rules**.
 
-1. In the **Rules** Page, select **Device state rule**.
+1. In the **Rules** Page, select **Executive Audio quality for in-progress meeting**.
 
 1. Select the options as described in the following table, and then select **Save**.
-
-
 
 |Field |Description  |
 |:-----|:------------|
@@ -50,6 +47,4 @@ description: Learn how to set up alerts for audio quality issues detected in in-
 |**Scope**|Choose the users or groups whose meeting audio quality you want to monitor.|
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|
-
-
 
