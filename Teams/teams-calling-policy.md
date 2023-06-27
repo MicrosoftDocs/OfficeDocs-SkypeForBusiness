@@ -68,6 +68,20 @@ This setting controls whether users can record calls. This setting is off by def
 
 This setting controls whether the transcription of calls is available for your users. This setting is off by default.
 
+### Routing for PSTN calls
+
+This setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use normal call routing, or you can allow your users to decide. **Use default settings** is on by default.
+
+For more information, see [Routing inbound calls](inbound-call-routing.md).
+
+### Routing for federated calls
+
+This setting controls how inbound federated calls should be routed. These federated calls can be sent to voicemail, sent to unanswered settings, or use normal call routing. **Use default settings** is on by default.
+
+Federated calls are calls that don't originate from the PSTN and that are outside your tenant.
+
+For more information, see [Routing inbound calls](inbound-call-routing.md).
+
 ### Call forwarding and simultaneous ringing to people in your organization
 
 This setting controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time. This setting is on by default.
