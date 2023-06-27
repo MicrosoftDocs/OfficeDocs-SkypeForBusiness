@@ -792,8 +792,8 @@ Emergency calling policies are used to control how users in your organization ca
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
-- [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
-- [Assign or change the place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Manage emergency locations for your organization](add-change-remove-emergency-location-organization)
+- [Add places to emergency locations](add-change-remove-emergency-place-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
 - [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
