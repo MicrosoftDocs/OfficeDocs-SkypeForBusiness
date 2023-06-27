@@ -112,6 +112,15 @@ In the left navigation of the Microsoft Teams admin center, go to the **Permissi
 1. Repeat steps 2 and 3 for each user that you want to block.
 1. When you're finished adding users that you want to block, select **Apply**.
 
+### Manage avatars for user profiles
+
+Teams admins can view, export, or remove a user's avatar profile from within the Teams Admin Center. This is useful if an incident of an offensive avatar is reported and needs to be removed or investigated for further action. 
+1. Select **Manage users** in the left nav.
+1. Search for and select a user.
+1. At the bottom of their user profile, you will see their avatar(s).
+1. Select **Export profiles** to generate a JSON file of the user's avatar configurations (up-to three).
+1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed will not be visible to the user.
+
 ### More information
 
 Where can you use avatars for Teams? 
