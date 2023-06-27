@@ -30,7 +30,7 @@ For information about Teams Rooms app updates, select the **Teams Rooms on Windo
 
 Teams Web client updates happen via the Teams web app delivery services. The Teams web client is a cloud-based service that doesn't require an update to the local UWP application installed on the device.
 
-For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
+For more information on how Teams updates, see [Teams update process](../teams-client-update.md).
 
 Teams Rooms is governed by the Modern Lifecycle Policy. For more information, see [Teams update process](../teams-client-update.md#servicing-agreement).
 
@@ -51,16 +51,6 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 ## Teams Rooms on Windows feature introduction and issue resolution
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
-
-### 4.16.134.0 (5/8/2023) - Manual update only
-
-Introduced in this update:
-
-- Windows 11 support
-- Windows 10 22H2 support for Windows 11 ineligible devices
-
-> [!IMPORTANT]
-> Use the [manual update](manual-update.md) instructions if you would like to evaluate the Windows 11 upgrade. This release is optional. The next release of the app will contain this change, and will automatically install the most up-to-date supported version of Windows.
 
 
 ### 4.16.40.0 (3/24/2023)
