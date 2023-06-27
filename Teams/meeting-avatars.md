@@ -112,7 +112,7 @@ In the left navigation of the Microsoft Teams admin center, go to the **Permissi
 1. Repeat steps 2 and 3 for each user that you want to block.
 1. When you're finished adding users that you want to block, select **Apply**.
 
-### Manage avatars for user profiles
+## Manage avatars for user profiles
 
 Teams admins can view, export, or remove a user's avatar profile from within the Teams Admin Center. This is useful if an incident of an offensive avatar is reported and needs to be removed or investigated for further action. 
 1. Select **Manage users** in the left nav.
@@ -121,10 +121,10 @@ Teams admins can view, export, or remove a user's avatar profile from within the
 1. Select **Export profiles** to generate a JSON file of the user's avatar configurations (up-to three).
 1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed will not be visible to the user.
 
-### More information
+## Where avatars can be used
 
-Where can you use avatars for Teams? 
+Avatars for Teams can be used in any Teams meeting that includes the option to use a real-world camera.
 
-- Avatars for Teams can be used in any Teams meeting that includes the option to use a real-world camera.
-- Guests invited to meetings will only be able to use avatars for Teams if it the app is enabled on their tenant for their account.
-- If you are invited to a meeting outside your tenant, you will be able to use avatars for Teams if it's enabled on your tenant for your account.
+Guests invited to meetings will only be able to use avatars for Teams if it the app is enabled on their tenant for their account.
+
+If you are invited to a meeting outside your tenant, you will be able to use avatars for Teams if it's enabled on your tenant for your account.
