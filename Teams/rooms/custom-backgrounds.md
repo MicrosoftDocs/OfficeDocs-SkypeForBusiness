@@ -1,7 +1,7 @@
 ---
 title: Set up and manage Teams Rooms on Windows custom backgrounds
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -132,7 +132,7 @@ When you create a custom background:
     - 21:9 displays
       - **Upper-left corner coordinates**: 1912, 248
   
-**16:9 - Single ront-of-room display dimensions**
+**16:9 - Single front-of-room display dimensions**
 
 :::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
