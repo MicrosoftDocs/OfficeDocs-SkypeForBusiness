@@ -121,6 +121,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2C | Jun 15, 2023 | `1449/1.0.94.2023060906` | `5.0.5484.0` | `413`|
 | 2023 Update #2B | May 9, 2023 | `1449/1.0.94.2023050205` | `5.0.5484.0` | `413`|
 | 2023 Update #2A | April 14, 2023 | `1449/1.0.94.2023041203` | `5.0.5484.0` | `413`|
 | 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
