@@ -86,7 +86,7 @@ See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelisloca
 
     - To change the place that's already assigned to the user, click **X** to remove the existing location and place, search for and then select the place you want to assign.
 
-4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is **On**.
+4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this setting is **On**.
 
 5. Click **Apply**.
 

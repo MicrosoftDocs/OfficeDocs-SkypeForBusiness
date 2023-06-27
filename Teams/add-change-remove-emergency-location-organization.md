@@ -28,7 +28,7 @@ ms.custom: seo-marvel-mar2020
 
 This article describes how to add, change, or remove an emergency location for your organization. It also describes how to assign an emergency location to your users.
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash; an emergency location may be assigned to a phone number.
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing&mdash;an emergency location may be assigned to a phone number.
 
 However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
@@ -105,7 +105,7 @@ To assign an emergency location, be sure the location, users, and phone numbers 
 
    - To change the emergency location that's already assigned to the user, click **X** to remove the existing location, and then search for and select the location you want to assign.
 
-1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this setting is **On**.
 
 1. Click **Apply**.
 
@@ -125,7 +125,7 @@ For Direct Routing users, you can assign a Direct Routing phone number and then 
 
 1. For **Emergency location**, search for, and select an emergency location.
 
-1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
+1. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this setting is **On**.
 
 1. Click **Apply**.
 
