@@ -1137,14 +1137,10 @@ items:
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Manage an emergency location for your organization
+            - name: Manage emergency locations
               href: add-change-remove-emergency-location-organization.md
-            - name: Manage a place for an emergency location in your organization
+            - name: Add places to emergency locations
               href: add-change-remove-emergency-place-organization.md
-            - name: Assign an emergency location for a user
-              href: assign-change-emergency-location-user.md
-            - name: Assign a place for an emergency location
-              href: assign-change-emergency-place-user.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
