@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
-ms.date: 06/06/2023
+ms.date: 06/27/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

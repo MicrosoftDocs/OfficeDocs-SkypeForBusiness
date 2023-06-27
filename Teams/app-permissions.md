@@ -13,7 +13,7 @@ ms.collection:
   - Tier1
 search.appverid: MET150
 ms.reviewer: tolgaki
-ms.date: 06/06/2023
+ms.date: 06/27/2023
 description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
