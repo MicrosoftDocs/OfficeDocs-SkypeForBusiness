@@ -22,12 +22,12 @@ ms.localizationpriority: high
 ---
 # Deploy the new Teams using policies
 
-You can deploy the new Teams client to your organization by setting policies in either the Teams Admin Center or by using Powershell. 
+You can deploy the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell. 
 
 ## Policy settings for deployment
 
 >[!Important]
->In early August 2023, a new policy setting will rollout that will let you make the new Teams your default version.
+>In early August 2023, a new policy setting will roll out that will let you make the new Teams your default version.
 >
 >By setting the policy to **New Teams as default**, new Teams will become your default. Users can switch back to classic Teams using the toggle.
 
@@ -64,13 +64,13 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Set the policies to deploy the new Teams client
 
-As an admin, you can manage which users in your organizations see or don't see the "Try the new Teams" toggle to use the new Teams.
+As an admin, you can manage which users in your organizations see or don't see the **Try the new Teams** toggle to use the new Teams.
 
 :::image type="content" source="media/new-teams-toggle.png" alt-text="new teams try me toggle at the top of the screen":::
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
-Manage this setting in the **Teams admin center** or using **Teams PowerShell**.</br>
+Manage this setting in the **Teams Admin Center** or using **Teams PowerShell**.</br>
 
 # [**Teams Admin Center**](#tab/teams-admin-center)
 
@@ -117,7 +117,7 @@ Select a policy to assign to the group.
 
    If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
 
-# [**Powershell**](#tab/powershell)
+# [**PowerShell**](#tab/powershell)
 
 Configure the UseNewTeamsClient setting to one of the following possible values:
 
