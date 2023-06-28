@@ -176,6 +176,7 @@ To view insight report of all rooms, select Report > Insight Report (Preview)
 
 ## Actions: 
  The actions section of the report shows a timeline view and aggregate count of all actions completed each day by the service. Action types include Detection, Remediation, and Updates. Details on the actions can be viewed by selecting "See details”. Once click on the “see details”, a new panel will come with two sections:  Tickets and Updates. The ticket shows a list of tickets with corresponding hours saved. Select the ticket to show an expanded view of each action taken on the respective ticket and hour saved. the Updates section shows a list of each update applied and corresponding tally of devices that successfully completed the update.  
+ 
 ## Detection, investigation, and remediation: 
 The “Detection, investigation, and remediation” section displays two counts, respective of the specified time range: Meeting issues prevented and Incidents remediated.
 
