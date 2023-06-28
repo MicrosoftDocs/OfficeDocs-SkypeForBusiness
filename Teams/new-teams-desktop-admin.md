@@ -26,20 +26,21 @@ ms.localizationpriority: high
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
 >
->Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
+>Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
 
 ## What is the new Teams?
 
-The new Microsoft Teams desktop client for Windows has been reimagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Teams desktop client for Windows has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
-New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
+The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
-## Is new Teams available for my organization?
+## Is the new Teams available for my organization?
 
-The new Teams client **is not** yet available for the following customers:
+The new Teams client **is not** yet available for the following customers but are planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+
 
 
 
@@ -50,7 +51,7 @@ The new Teams client **is not** yet available for the following customers:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
 >- **Microsoft choice** (if you are using PowerShell) 
 >
->[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies)
+>[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies).
 
 ### When will all users see the new Teams toggle?
 
@@ -102,8 +103,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
 >[!Tip]
->Learn more about update channels, including how to make changes here:
-> - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
+>Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels).
 
 |Update channel|Date|
 |:-----|:-----|
@@ -112,11 +112,11 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Current Channel*|Early October 2023|
 |Monthly Enterprise Channel|Early November 2023|
 |Semi-Annual Enterprise Channel (Preview)*|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
 
 >[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
->- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
+>- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
+>- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
 
 
 ## What features are still missing?
@@ -127,13 +127,13 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you will see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
 |Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
-|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within Files tab in Teams' channels. Now you can add the third party storage app directly from the Teams App Store.|
+|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
