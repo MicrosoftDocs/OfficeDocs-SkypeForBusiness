@@ -8,12 +8,12 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
   - tier2
   - highpri
-ms.reviewer: kojika
+ms.reviewer: tolgaki
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
