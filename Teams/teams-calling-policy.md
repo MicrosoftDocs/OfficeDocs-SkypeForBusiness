@@ -76,13 +76,13 @@ This setting controls whether incoming calls can be forwarded to other users or 
 
 This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time. This setting is on by default.
 
-### Voicemail is available for routing inbound calls
+### Voicemail for inbound calls
 
-This setting enables inbound calls to be sent to voicemail. The default setting is **User controlled**. Valid options are:
+This setting enables inbound calls to be sent to voicemail. The default setting is **Let users decide**. Valid options are:
 
-- **Enabled** Voicemail is always available for inbound calls.
-- **Not enabled**  Voicemail isn't available for inbound calls.
-- **User controlled** Users can determine whether they want voicemail to be available.
+- **On** Voicemail is always available for inbound calls.
+- **Off**  Voicemail isn't available for inbound calls.
+- **Let users decide** Users can determine whether they want voicemail to be available.
 
 ### Inbound calls can be routed to call groups
 
@@ -100,14 +100,14 @@ Turning on this setting sends calls through the Public Switched Telephone Networ
 
 This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features. Read more about how to [configure custom music](music-on-hold.md).
 
-### Busy on busy when in a call
+### Busy on busy during calls
 
-Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
+Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default.
 
-- **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
-- **Enabled** New or incoming calls will be rejected with a busy signal.
-- **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **User controlled** Users can determine their busy options choice from call settings in the Teams app. 
+- **Off** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
+- **On** New or incoming calls will be rejected with a busy signal.
+- **Use unanswered settings** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
+- **Let users decide** Users can determine their busy options choice from call settings in the Teams app. 
 
 ### Web PSTN calling
 
@@ -120,6 +120,10 @@ This setting controls whether real-time captions in Teams calls are available fo
 ### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
+
+### Spam filtering
+
+This setting allows you to control the type of Spam filtering available on incoming calls. This setting is turned on by default.
 
 ### SIP devices can be used for calls
 
