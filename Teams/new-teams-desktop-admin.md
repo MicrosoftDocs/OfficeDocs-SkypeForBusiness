@@ -46,7 +46,7 @@ The new Teams client **is not** yet available for the following customers:
 ## New Teams rollout schedule
 
 >[!Important]
->These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" set to either:
+>These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
 >- **Microsoft choice** (if you are using PowerShell) 
 >
