@@ -33,7 +33,7 @@ ms.localizationpriority: high
 The new Teams client **is not** yet available for the following customers:
 
 **Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, </br>- Desktop running a Windows 10 version earlier than 10.0.19041
+**Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 ## What is the new Teams?
 
