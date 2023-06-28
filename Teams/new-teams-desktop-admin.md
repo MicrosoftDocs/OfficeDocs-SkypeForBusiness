@@ -44,7 +44,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 ## New Teams rollout schedule
 
 >[!Note]
->These schedules only apply if your organization has the **Usenew Teams client** setting to either:
+>These schedules only apply if your organization has set the **UseNew Teams client** setting to either:
 >- Microsoft controlled (the setting in the Teams Admin Center)  or
 >- Microsoft choice (if you are using PowerShell) 
 >
