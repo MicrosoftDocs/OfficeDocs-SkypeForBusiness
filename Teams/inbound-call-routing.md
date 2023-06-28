@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jenstr
-ms.date: 06/26/2023
+ms.date: 06/28/2023
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN & federated calls in Microsoft Teams.
@@ -27,7 +27,7 @@ This article describes how to route incoming calls that come from the Public Swi
 
 Federated calls are calls that don't originate from the PSTN and that are outside your tenant. For example, a call from Teams or Skype for Business that is from another tenant would be considered federated. However, a Teams or Skype for Business (Online or on premises) call made within the same tenant wouldn't be considered a federated call.
 
-As an admin, you can create policies that help prevent your users from getting unwanted calls from external parties. You can control whether these external calls should always be sent to voicemail, sent to unanswered settings, use normal call routing, or allow your users within the policy to decide.
+As an admin, you can create policies that help prevent your users from getting unwanted calls from external parties. You can control whether these external calls should always be sent to voicemail, sent to unanswered settings, or use normal call routing. For PSTN calls, you can also allow your users within the policy to decide.
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing. These policy settings are also available for GCCH & DoD use.
 
@@ -47,7 +47,7 @@ If **Use unanswered settings** or **Send to voicemail** is used, either of these
 
 1. For **Routing for PSTN calls**, you have the following options:
 
-    - **Use default settings** The call will be routed per normal. This is the default setting.
+    - **Use default settings** The call will be routed using your default inbound call routing settings. This is the default setting.
     - **Use unanswered settings** The call will be routed according to the unanswered call forwarding settings set for that user.
     - **Send to voicemail** The call will be routed directly to voicemail and will not be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
     - **Let users decide** The call will currently be routed as **Use default settings**.
@@ -80,7 +80,7 @@ If **Unanswered** or **Send to voicemail** is used, either of these settings wil
 
 1. For **Routing for federated calls**, you have the following options:
 
-    - **Use default settings** The call will be routed per normal. No changes will be made to the default inbound routing. This is the default setting.
+    - **Use default settings** The call will be routed using your default inbound call routing settings. This is the default setting.
     - **Use unanswered settings** The call will be routed according to the unanswered call forwarding settings set for that user.
     - **Send to voicemail** The call will be routed directly to voicemail and will not be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
 
