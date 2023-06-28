@@ -58,8 +58,8 @@ The new Teams client **is not** yet available for the following customers:
 
 |License|Rollout begins|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|July 31st, 2023|
-|Enterprise and other Licenses|	See below|
+|Business Licenses and Teams Essentials|Early August 2023|
+|Enterprise and other Licenses|See below|
 
 ##### Update channels
 
@@ -70,9 +70,9 @@ If the update channel is not listed, then the Monthly Enterprise Channel schedul
 Public preview program|Available|
 |Targeted release program|Available|
 |Current Channel|August 2023|
-|Monthly Enterprise Channel|Mid September, 2023|
-|Semi-Annual Enterprise Channel (Preview)|August, 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November,2023|
+|Monthly Enterprise Channel|Mid September 2023|
+|Semi-Annual Enterprise Channel (Preview)|August 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
 
 >[!Note]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
@@ -90,8 +90,8 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 
 |License|Date|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Mid September, 2023
-|Enterprise and other Licenses|	See below|
+|Business Licenses and Teams Essentials|Mid September 2023
+|Enterprise and other Licenses|See below|
 
 ##### Update channels
 
@@ -103,12 +103,12 @@ If the update channel is not listed, then the Monthly Enterprise Channel schedul
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|Mid August, 2023|
-|Targeted Release Channel|Mid August, 2023|
-|Current Channel*|Early October, 2023|
-|Monthly Enterprise Channel|Early November, 2023|
-|Semi-Annual Enterprise Channel (Preview)*|Early October, 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January, 2023|
+|Teams Public Preview|Mid August 2023|
+|Targeted Release Channel|Mid August 2023|
+|Current Channel*|Early October 2023|
+|Monthly Enterprise Channel|Early November 2023|
+|Semi-Annual Enterprise Channel (Preview)*|Early October 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January 2023|
 
 >[!Note]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
