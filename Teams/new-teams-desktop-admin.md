@@ -63,6 +63,10 @@ The new Teams client **is not** yet available for the following customers:
 
 ##### Update channels
 
+>[!Tip]
+>Learn more about update channels, including how to make changes here:
+> - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
+
 If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
 
 |Update channel|Date|
@@ -98,7 +102,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
 
 >[!Tip]
->Learn more about update channels, including how to make changes, see the articles listed here:
+>Learn more about update channels, including how to make changes here:
 > - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
 
 |Update channel|Date|
