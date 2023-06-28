@@ -30,11 +30,11 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Microsoft Teams desktop client for Windows has been reimagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
-## Who won't get the new Teams?
+## Is new Teams available for my organization?
 
 The new Teams client **is not** yet available for the following customers:
 
@@ -59,7 +59,7 @@ The new Teams client **is not** yet available for the following customers:
 |License|Rollout begins|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Early August 2023|
-|Enterprise and other Licenses|See below|
+|Enterprise and other Licenses|See the schedule listed.|
 
 ##### Update channels
 
@@ -67,7 +67,7 @@ The new Teams client **is not** yet available for the following customers:
 >Learn more about update channels, including how to make changes here:
 > - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
 
-If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
+If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
 |Update channel|Date|
 |:-----|:-----|
@@ -79,12 +79,12 @@ Public preview program|Available|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
 
 >[!Note]
->- Teams for Government include GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
+>- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 ### When will new Teams be the default client?
 
-Existing Teams users will be updated to the new Teams based on two factors:</br>
+Existing Teams users are updated to the new Teams based on two factors:</br>
 - Which Microsoft 365/Teams license is assigned to the user; and 
 - The [**Microsoft 365 app update channel**](/deployoffice/updates/overview-update-channels) you're using. 
 
@@ -95,11 +95,11 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 |License|Date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Mid September 2023
-|Enterprise and other Licenses|See below|
+|Enterprise and other Licenses|See the schedule listed.|
 
 ##### Update channels
 
-If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
+If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
 >[!Tip]
 >Learn more about update channels, including how to make changes here:
@@ -115,7 +115,7 @@ If the update channel is not listed, then the Monthly Enterprise Channel schedul
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January 2023|
 
 >[!Note]
->- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
+>- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 
@@ -127,17 +127,17 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you'll see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
-|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications will be via Windows native notifications to provide a consistent experience.|
+|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
-|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within Files tab in Teams' channels. Now you can add the 3rd party storage app directly from the Teams App Store.|
+|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within Files tab in Teams' channels. Now you can add the third party storage app directly from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
 |Activity tab in chat| No longer available|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
-|Allow users to follow another users presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
+|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
 
