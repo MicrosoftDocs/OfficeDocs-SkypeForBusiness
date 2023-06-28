@@ -28,6 +28,12 @@ ms.localizationpriority: high
 >
 >Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
 
+## What is the new Teams?
+
+The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+
+New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
+
 ## Who won't get the new Teams?
 
 The new Teams client **is not** yet available for the following customers:
@@ -35,11 +41,7 @@ The new Teams client **is not** yet available for the following customers:
 **Platforms:**  Mac, VDI, Web</br>
 **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
-## What is the new Teams?
 
-The new Microsoft Teams desktop client for Windows has been re-imagined from the ground up with a performance in mind providing a faster, simpler, and more flexible experience. With new Teams, the client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
-
-New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 ## New Teams rollout schedule
 
