@@ -18,6 +18,7 @@ ms.collection:
   - Tier3
 ms.custom: 
   - seo-marvel-mar2020
+hideEdit: true
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
 ---
 
@@ -154,11 +155,16 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X30 | `4.0.0.100885` | September 4, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 4, 2024 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 4, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly G7500 | `4.0.0.1009138` | September 4, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly GC8 Console with Lenovo ThinkSmart | 4.1.0.382110   | September 3, 2025  | Room size: Medium |
+| Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `3.3.2.210441` | August 5, 2023 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 9 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
+| Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 | 11 |
 | Poly G7500 with Shure DSP (P300+MXA920+MXN5C) | `4.0.0.376092` |  Large meeting room | September 3, 2025 | 10 |
+| Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Small | 12 |
 
 ## [Peripherals](#tab/Peripherals)
 
@@ -273,6 +279,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |  |  |
 | [Vaddio RoboSHOT 30E-M HD PTZ Camera](https://www.legrandav.com/products/cameras/hd_ptz_camera/roboshot-30e-m) | 1.0.0 |  |  |
 | [Yamaha CS-800 Video Sound Bar](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
+| [Yamaha CS-500 Video Collaboration System](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
 
