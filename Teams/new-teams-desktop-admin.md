@@ -27,15 +27,12 @@ ms.localizationpriority: high
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
 
-## Before you begin
+## Who won't get the new Teams?
 
-This article describes the preview release of the new Microsoft Teams desktop client for Windows. **No changes have been made in how the service works, and the backend remains the same.** There's no new mobile app (iOS or Android). This preview release doesn't have the complete feature set of classic Teams.
+The new Teams client **is not** yet available for the following customers:
 
-> [!IMPORTANT]
-> The new Teams client **is not** available for the following during the preview phase:
->
-> **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+**Platforms:**  Mac, VDI, Web</br>
+**Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, </br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
@@ -46,51 +43,72 @@ The new Microsoft Teams desktop client for Windows has been re-imagined from th
 
 New Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
-## Release schedule
+## New Teams rollout schedule
+
+>[!Note]
+>These schedules only apply if your organization has the **Usenew Teams client** setting to either:
+>- Microsoft controlled (the setting in the Teams Admin Center)  or
+>- Microsoft choice (if you are using PowerShell) 
+>
+> These are new default vaule.sis set to the Microsoft default  value (Microsoft controlled in the Teams Admin Center (TAC) or Microsoft choice in PowerShell) based on our schedule details below. 
+
+ 
+
+Learn more about policy <add link to the policy page>
 
 The date when Teams starts showing the toggle for users to opt-in to the new Teams depends on which M365/Teams license is assigned to the user and the M365 update channel you're using. See <link> for more details.
 The following table shows the schedule.
 
+##### Licenses
 
 |License|Rollout begins|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|July 31st, 2023|
 |Enterprise and other Licenses|	See below|
 
+##### Update channels
+
+If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
+
 |Update channel|Date|
 |:-----|:-----|
 Public preview program|Available|
 |Targeted release program|Available|
 |Current Channel|August 2023|
-|Monthly Enterprise Channel	September 15, 2023|
+|Monthly Enterprise Channel|Mid September, 2023|
 |Semi-Annual Enterprise Channel (Preview)|August, 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Sept 30, 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November,2023|
 
 
 >[!Note]
->- Teams for Education usage follows <insert link> [Need info here -- ]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
-## When will the new Microsoft Teams be the default client for my users?
+## When will new Teams be the default client?
 
-The date when existing Teams users are updated to new Teams depends on which Microsoft 365/Teams license is assigned to the user and the Microsoft 365 update channel you're using. These users will be switched once and can switch back to the original Teams. See <link> for more details.
+The date when existing Teams users are updated to new Teams depends on which Microsoft 365/Teams license is assigned to the user and the Microsoft 365 update channel you're using. These users will be switched once and can switch back to classic Teams. See <link> for more details.
 
  The following table shows the schedule.
 
+##### Licenses
+
 |License|Date|
 |:-----|:-----|
-|Business Licenses and Teams Essentials	September 1, 2023
+|Business Licenses and Teams Essentials|Mid September, 2023
 |Enterprise and other Licenses|	See below|
+
+##### Update channels
+
+If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|Mid-August 15, 2023|
-|Targeted Release Channel|Mid-August 15, 2023|
-|Current Channel*|Early-October 1, 2023|
-|Monthly Enterprise Channel|Early November 1, 2023|
+|Teams Public Preview|Mid August, 2023|
+|Targeted Release Channel|Mid August, 2023|
+|Current Channel*|Early October, 2023|
+|Monthly Enterprise Channel|Early November, 2023|
 |Semi-Annual Enterprise Channel (Preview)*|Early October, 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 15, 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January, 2023|
 
 >[!Note]
 >- Teams for Education usage follows <insert link> [need info here]
@@ -100,7 +118,7 @@ The date when existing Teams users are updated to new Teams depends on which Mic
 
 ## What features are still missing?
 
-While many of the features you're familiar with in classic Teams are already in the new experience, others, like Breakout rooms, are still being worked on. </br>
+Most of the features you're familiar with in classic Teams is already in the new experience, however a few are still being worked on. </br>
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
 
