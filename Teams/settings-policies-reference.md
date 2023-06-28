@@ -225,7 +225,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Coexistence mode|Teams only|Determines both routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings.|
-|Notify Skype for Business users that an upgrade to Teams is available.|Off|When **On**, your users will see a yellow banner in their Skype for Business app telling them that they will soon be upgraded to Teams.|
+|Notify Skype for Business users that an upgrade to Teams is available.|Off|When **On**, your users will see a yellow banner in their Skype for Business app telling them that they'll soon be upgraded to Teams.|
 
 ##### Related topics for coexistence mode
 
@@ -689,16 +689,16 @@ Calling policies are used to control what calling features are available to peop
 |Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
-|Voicemail is available for routing inbound calls|User controlled|When set to **Enabled** or **User controlled**, inbound calls can be sent to voicemail.|
+|Voicemail for inbound calls|Let users decide|When set to **On** or **Let users decide**, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
 |Prevent toll bypass and send calls through the PSTN|Off|Turn on this setting to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
-|Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
-|Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
+|Music on hold for PSTN calls|On|Controls whether music is played when a PSTN caller is placed on hold.|
+|Busy on busy during calls|Off|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
 |Real-time captions in Teams calls|On|This setting allows you to control whether real-time captions in Teams calls are available for your users.|
 |Automatically answer incoming meeting invites|Off|This setting controls whether incoming meeting invites are automatically answered on Teams phones. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.|
-|Spam filtering|Turn on|This setting allows you to control the type of Spam filtering available on incoming calls.|
+|Spam filtering|On|This setting allows you to control the type of Spam filtering available on incoming calls.|
 |SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
 |Open apps in browser for incoming PSTN calls|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This setting can be used to pass the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
 
@@ -792,8 +792,8 @@ Emergency calling policies are used to control how users in your organization ca
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
-- [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
-- [Assign or change the place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Manage emergency locations for your organization](add-change-remove-emergency-location-organization.md)
+- [Add places to emergency locations](add-change-remove-emergency-place-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
 - [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
