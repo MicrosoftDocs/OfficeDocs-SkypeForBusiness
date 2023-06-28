@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # Bulk deploy new Microsoft Teams desktop client 
 
 >[!Note]
->**Coming soon:!** The Bulk deploy feature will be released on July 17, 2023.
+>**Coming soon:** The Bulk deploy feature will be released mid July 2023.
 
 Direct or "bulk"  deployments are useful because users don't need to download and install the Teams client manually. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tool, such as Intune or Configuration Manager.
 
@@ -63,7 +63,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 ## Deploy the new Teams application to your organization
 
 >[!Important]
->The Bulk deploy feature will be available July 17, 2023. Please check back at that time.
+>The Bulk deploy feature will be available mi July 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
@@ -71,7 +71,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live on July 17, 2023. Please check back then.**
+1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live by mid July 2023. Please check back then.**
 2. Open the Command Prompt as an Admin.
 3. Run the downloaded setup.exe. Success or fail status will display.
 
@@ -79,7 +79,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 2: Deploy the app to your organization
 
-As an admin, you can now deploy this installer for a single computer or a group of computers for your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy new Teams to your organization.
+As an admin, deploy this installer to a single computer, group of computers, or your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy new Teams.
 
 
 ## Step 3: Set Team Admin Center policy
@@ -96,7 +96,7 @@ As an admin, you can now deploy this installer for a single computer or a group 
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. 
 
 >[!Note]
->This option was previously called **Users can choose**.|
+>This option was previously called **Users can choose**.
 
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.  Select a policy to assign to the group.
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.

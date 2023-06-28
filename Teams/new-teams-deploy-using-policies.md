@@ -155,9 +155,9 @@ Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserCho
 ```
 
    > [!NOTE]
-   > This method (existing policy modification) doesn't take effect immediately; allow up to 24 hours for the change to propagate to users. Users don't need to restart the app, but specifically for opt-in, they'll need one restart following a fresh install to see the toggle.
+   > This method for **existing policy modification** doesn't take effect immediately. Allow up to 24 hours for the change to propagate to users. Users don't need to restart the app, but specifically for opt-in, they'll need one restart following a fresh install to see the toggle.
 
-5. Use the following commands to deploy a new policy to opt-out a specific user from seeing the toggle:
+5. Use the following commands to deploy a **new policy** to opt-out a specific user from seeing the toggle:
 
 ```powershell
 
@@ -175,7 +175,7 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 ```
 
   > [!NOTE]
-  > This new policy assignment method should take effect within one minute. Users don't need to restart the app.
+  > This **new policy assignment method** should take effect within one minute. Users don't need to restart the app.
 
 ---
 
