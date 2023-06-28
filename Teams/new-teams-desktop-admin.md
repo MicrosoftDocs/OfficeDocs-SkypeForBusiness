@@ -86,7 +86,7 @@ Public preview program|Available|
 
 Existing Teams users will be updated to the new Teams based on two factors:</br>
 - Which Microsoft 365/Teams license is assigned to the user; and 
-- The Microsoft 365 update channel you're using. 
+- The [**Microsoft 365 app update channel**](/deployoffice/updates/overview-update-channels) you're using. 
 
 Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
