@@ -49,7 +49,7 @@ If **Use unanswered settings** or **Send to voicemail** is used, either of these
 
     - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
     - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call is routed directly to voicemail and won't be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
+    - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
     - **Let users decide** The call is routed as **Use default settings**.
 
 1. Click **Save**.
@@ -82,7 +82,7 @@ If **Unanswered** or **Send to voicemail** is used, either of these settings wil
 
     - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
     - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call is routed directly to voicemail and won't be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
+    - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
 
 1. Click **Save**.
 

@@ -139,9 +139,9 @@ This setting controls whether incoming meeting invites are automatically answere
 
 This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
 
-- **Turn on** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user will get a "Spam Likely" notification in Teams.
+- **Turn on** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
 - **Turn on without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
-- **Turn off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification won't appear.
+- **Turn off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
 
 ### SIP devices can be used for calls
 
