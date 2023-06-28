@@ -12,8 +12,8 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.reviewer: rowille
-ms.date: 03/03/2023
+ms.reviewer: tolgaki
+ms.date: 06/27/2023
 description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
@@ -23,7 +23,25 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Information accessed and actions performed by apps and related admin considerations
+# Understand the permissions of and the information accessed by Teams apps
+
+<!---
+
+What are the sources of truth for all this info? aka where should you look for info
+What can apps by being installed.
+What can apps access when consented to.
+What can apps do on their own vs what can users do - types of perms.
+
+--->
+
+Teams apps can access user's and organization's information in the following situations:
+
+* By virtue of being added in Teams.
+* By virtue of being granted consent to information.
+
+## What can an app do in Teams
+
+Apps can access some basic information of the user when apps are added in Teams client.
 
 Microsoft Teams apps aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
 
@@ -33,8 +51,6 @@ Microsoft Teams apps aggregate one or more capabilities into apps that can be in
 * Connectors
 
 As an admin, you only manage apps. However, the article focuses on permissions and considerations at the capability level as capabilities in an app affect the required permissions and risk profiles of the app. For usage, apps are consented to by users and managed by IT professionals from a policy perspective.
-
-<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## Global app permissions and considerations
 
