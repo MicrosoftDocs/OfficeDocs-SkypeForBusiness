@@ -636,15 +636,15 @@ Introduced in this update:
 > [!NOTE]
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
-Features with (insert PRO tag) are only available with Teams Rooms Pro license. 
+Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
 
 ### 1449/1.0.96.2023062301 (June 2023)
 
 Introduced in this update:
 
-- GCC-H support (insert PRO tag)
-- Smart camera controls (insert PRO tag)
-- Content camera (insert PRO tag)
+- GCC-H support :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Smart camera controls :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Content camera :::image type="icon" source="../media/mtr-pro-icon.png":::
 - Primary camera switching 
 - Default meeting layout controls
 
@@ -672,9 +672,9 @@ Introduced in this update:
 
 - Join Teams meeting with ID
 - Single tap ad hoc meetings
-- Room reservation extension (insert PRO tag)
-- Front row layout (insert PRO tag)
-- Meeting chat in Gallery, Large gallery, and Together mode (insert PRO tag)
+- Room reservation extension :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Front row layout :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Meeting chat in Gallery, Large gallery, and Together mode :::image type="icon" source="../media/mtr-pro-icon.png":::
 - HDMI connect auto share controls 
 - HDMI audio share 
 - Collaborative annotations support 
