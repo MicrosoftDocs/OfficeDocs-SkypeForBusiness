@@ -101,6 +101,10 @@ The date when existing Teams users are updated to new Teams depends on which Mic
 
 If the update channel is not listed, then the Monthly Enterprise Channel schedule will be followed.
 
+>[!Tip]
+>Learn more about update channels, including how to make changes, see the articles listed here:
+> - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
+
 |Update channel|Date|
 |:-----|:-----|
 |Teams Public Preview|Mid August, 2023|
