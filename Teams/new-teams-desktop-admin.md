@@ -50,7 +50,7 @@ The new Teams client **is not** yet available for the following customers:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
 >- **Microsoft choice** (if you are using PowerShell) 
 >
->[Learn more about Teams Admin policies]()
+>[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies)
 
 ### When will all users see the new Teams toggle?
 
