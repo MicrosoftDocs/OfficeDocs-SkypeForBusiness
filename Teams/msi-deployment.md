@@ -69,6 +69,20 @@ Make sure the computers you install Teams on meeting the requirements listed in 
 
 For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
+### Uninstallation
+
+If a user that had Teams installed via an MSI uninstalls it, a registry key is created:
+`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`
+
+While this key is present, Teams will not install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
+
+```
+TeamsMachineUninstallerLocalAppData REG_EXPAND_SZ
+%LOCALAPPDATA%\Microsoft\Teams\Update.exe --uninstall --msiUninstall
+```
+
+This will cause users to uninstall Teams when they next sign in.
+
 ## Clean up and redeployment procedure
 
 If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
