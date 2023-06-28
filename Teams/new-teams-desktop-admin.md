@@ -46,11 +46,11 @@ The new Teams client **is not** yet available for the following customers:
 ## New Teams rollout schedule
 
 >[!Important]
->These schedules only apply if your organization has set the **UseNew Teams client** setting to either:
->- **Microsoft controlled** (the setting in the Teams Admin Center)  **or**
+>These schedules only apply if your organization has set the Teams Update policy **Use new Teams Client** set to either:
+>- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
 >- **Microsoft choice** (if you are using PowerShell) 
 >
->Learn more about Admin policies
+>[Learn more about Teams Admin policies]()
 
 ### When will all users see the new Teams toggle?
 
@@ -121,7 +121,7 @@ If the update channel is not listed, then the Monthly Enterprise Channel schedul
 
 ## What features are still missing?
 
-Most of the features you're familiar with in classic Teams is already in the new experience, however a few are still being worked on. </br>
+Most of the features you're familiar with in classic Teams are already in new Teams, however a few are still being worked on. </br>
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
 
