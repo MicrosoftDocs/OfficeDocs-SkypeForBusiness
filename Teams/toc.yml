@@ -440,6 +440,8 @@ items:
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+        - name: Alerts for audio quality issues
+          href: alerts-in-progress-meeting-audio.md
 
     - name: Operate your service
       href: upgrade-operate-my-service.md
@@ -694,8 +696,6 @@ items:
               href: cloud-video-interop.md
             - name: Real-time media traffic
               href: meetings-real-time-media-traffic.md
-            - name: Alerts for audio quality issues
-              href: alerts-in-progress-meeting-audio.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
