@@ -1,7 +1,7 @@
 ---
 title: Plan SIP Gateway
-author: CarolynRowe
-ms.author: crowe
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article

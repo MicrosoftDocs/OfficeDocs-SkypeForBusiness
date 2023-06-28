@@ -1,8 +1,8 @@
 ---
 ms.date: 05/19/2021
 title: "Languages for voicemail greetings and messages"
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article

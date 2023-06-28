@@ -41,7 +41,7 @@ When viewing peripheral details on a device page, you'll now see a  **Manage hea
 By default all peripherals are set to have **Critical impact** on the device health. If a peripheral is disconnected, the parent device’s health will become **Critical** and this issue will show up under **Critical issues** in the health status panel.
 
 > [!NOTE]
-> The peripheral categories **HDMI ingest** and **Compute** aren't available for customization as they are crucial to the functioning of the parent device.
+> The peripheral category **Compute** isn't available for customization as it is crucial to the functioning of the parent device.
 
 ## How does this work?
 

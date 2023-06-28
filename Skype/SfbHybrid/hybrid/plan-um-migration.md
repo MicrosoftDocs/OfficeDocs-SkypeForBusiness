@@ -2,8 +2,8 @@
 ms.date: 07/02/2018
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars 
 audience: ITPro 
 f1.keywords:
