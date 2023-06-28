@@ -74,7 +74,7 @@ For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams 
 If a user that had Teams installed via an MSI uninstalls it, a registry key is created:
 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`
 
-While this key is present, Teams will not install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
+While this key is present, Teams won't install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
 
 ```
 TeamsMachineUninstallerLocalAppData REG_EXPAND_SZ
