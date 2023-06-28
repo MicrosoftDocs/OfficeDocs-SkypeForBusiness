@@ -27,7 +27,7 @@ You can deploy the new Teams client to your organization by setting policies in 
 ## Policy settings for deployment
 
 >[!Important]
->In late July, 2023, a new policy setting will rollout that will let you make the new Teams your default version.
+>In early August 2023, a new policy setting will rollout that will let you make the new Teams your default version.
 >
 >By setting the policy to **New Teams as default**, new Teams will become your default. Users can switch back to classic Teams using the toggle.
 

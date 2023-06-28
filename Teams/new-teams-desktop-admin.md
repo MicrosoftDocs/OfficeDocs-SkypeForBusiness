@@ -23,9 +23,10 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
-
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
+>
+>Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
 
 ## Who won't get the new Teams?
 
@@ -33,9 +34,6 @@ The new Teams client **is not** yet available for the following customers:
 
 **Platforms:**  Mac, VDI, Web</br>
 **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, </br>- Desktop running a Windows 10 version earlier than 10.0.19041
-
-> [!TIP]
-> Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
 
 ## What is the new Teams?
 
@@ -50,14 +48,9 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 >- Microsoft controlled (the setting in the Teams Admin Center)  or
 >- Microsoft choice (if you are using PowerShell) 
 >
-> These are new default vaule.sis set to the Microsoft default  value (Microsoft controlled in the Teams Admin Center (TAC) or Microsoft choice in PowerShell) based on our schedule details below. 
+>Learn more about Admin policies
 
- 
-
-Learn more about policy <add link to the policy page>
-
-The date when Teams starts showing the toggle for users to opt-in to the new Teams depends on which M365/Teams license is assigned to the user and the M365 update channel you're using. See <link> for more details.
-The following table shows the schedule.
+### When will all users see the new Teams toggle>
 
 ##### Licenses
 
@@ -79,12 +72,11 @@ Public preview program|Available|
 |Semi-Annual Enterprise Channel (Preview)|August, 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November,2023|
 
-
 >[!Note]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
-## When will new Teams be the default client?
+### When will new Teams be the default client?
 
 Existing Teams users will be updated to the new Teams based on two factors:</br>
 - Which Microsoft 365/Teams license is assigned to the user; and 
