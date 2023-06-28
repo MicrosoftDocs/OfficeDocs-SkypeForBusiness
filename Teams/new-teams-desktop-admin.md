@@ -111,7 +111,6 @@ If the update channel is not listed, then the Monthly Enterprise Channel schedul
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Mid January, 2023|
 
 >[!Note]
->- Teams for Education usage follows <insert link> [need info here]
 >- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
