@@ -52,6 +52,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar | `1.9.544`   | 2023 Update #1A  |
+| Logi Rallybar Mini | `1.9.544`   | 2023 Update #1A  |
+| Logi RoomMate | `1.9.359`   | 2023 Update #1A  |
+| Logi Console  | `1.9.393`    | 2023 Update #1A  |
 | Poly Studio X30 | `4.0.2.384012` | 2023 Update #1 |
 | Poly Studio X50 | `4.0.2.384012` | 2023 Update #1 |
 | Poly Studio X70 | `4.0.2.384012` | 2023 Update #1 |
