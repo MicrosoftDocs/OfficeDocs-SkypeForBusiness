@@ -183,6 +183,9 @@ Supported clients:
 
 Logos and images will be available for Join Launcher in future updates.
 
+> [!NOTE]
+> The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
+
 ## Who can view a meeting theme
 
 While only licensed users who are assigned a meeting customization policy can create meeting themes-enabled meetings, anyone can view the themes that are applied to a meeting. These users include:
