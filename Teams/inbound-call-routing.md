@@ -47,10 +47,10 @@ If **Use unanswered settings** or **Send to voicemail** is used, either of these
 
 1. For **Routing for PSTN calls**, you have the following options:
 
-    - **Use default settings** The call will be routed using your default inbound call routing settings. This is the default setting.
-    - **Use unanswered settings** The call will be routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call will be routed directly to voicemail and will not be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
-    - **Let users decide** The call will currently be routed as **Use default settings**.
+    - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
+    - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
+    - **Send to voicemail** The call is routed directly to voicemail and won't be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
+    - **Let users decide** The call is routed as **Use default settings**.
 
 1. Click **Save**.
 
@@ -80,9 +80,9 @@ If **Unanswered** or **Send to voicemail** is used, either of these settings wil
 
 1. For **Routing for federated calls**, you have the following options:
 
-    - **Use default settings** The call will be routed using your default inbound call routing settings. This is the default setting.
-    - **Use unanswered settings** The call will be routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call will be routed directly to voicemail and will not be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
+    - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
+    - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
+    - **Send to voicemail** The call is routed directly to voicemail and won't be shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
 
 1. Click **Save**.
 

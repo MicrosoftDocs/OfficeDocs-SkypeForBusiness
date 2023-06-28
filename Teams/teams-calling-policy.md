@@ -116,11 +116,11 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ### Busy on busy when in a call
 
-Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
+Busy on busy when in a call (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold aren't prevented from initiating new calls or conferences. This setting is set to **Not enabled** by default.
 
 - **Not enabled** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
-- **Enabled** New or incoming calls will be rejected with a busy signal.
-- **Unanswered** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
+- **Enabled** New or incoming calls are rejected with a busy signal.
+- **Unanswered** The user's unanswered settings are used, such as routing to voicemail or forwarding to another user.
 - **User controlled** Users can determine their busy options choice from call settings in the Teams app.
 
 ### Web PSTN calling
@@ -140,8 +140,8 @@ This setting controls whether incoming meeting invites are automatically answere
 This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
 
 - **Turn on** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user will get a "Spam Likely" notification in Teams.
-- **Turn on without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification will appear. A call might get dropped if it gets a high score from Basic checks.
-- **Turn off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification will not appear.
+- **Turn on without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
+- **Turn off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification won't appear.
 
 ### SIP devices can be used for calls
 
@@ -151,7 +151,7 @@ This setting enables users to use a SIP device to make and receive calls. This s
 
 This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
 
-If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
+If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This setting simply launches the listed URL.
 
 ![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
