@@ -81,14 +81,16 @@ Public preview program|Available|
 
 
 >[!Note]
->- Teams for Government include GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels
+>- Teams for Government include GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 ## When will new Teams be the default client?
 
-The date when existing Teams users are updated to new Teams depends on which Microsoft 365/Teams license is assigned to the user and the Microsoft 365 update channel you're using. These users will be switched once and can switch back to classic Teams. See <link> for more details.
+Existing Teams users will be updated to the new Teams based on two factors:</br>
+- Which Microsoft 365/Teams license is assigned to the user; and 
+- The Microsoft 365 update channel you're using. 
 
- The following table shows the schedule.
+Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
 ##### Licenses
 
