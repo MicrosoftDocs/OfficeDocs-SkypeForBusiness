@@ -50,7 +50,7 @@ New Teams ensures more efficient use of device resources. You can lower memory a
 >
 >Learn more about Admin policies
 
-### When will all users see the new Teams toggle>
+### When will all users see the new Teams toggle?
 
 ##### Licenses
 
