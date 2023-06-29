@@ -75,14 +75,14 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live by mid July 2023. Please check back then.**
 2. Open the Command Prompt as an Admin.
-3. At the prompt
+3. At the prompt enter:
 
 ```powershell
 run ./teamsprovision.exe -p 
 
 ```
 
-Success or fail status will display.  If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
+4. Success or fail status will display.  If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
     :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
