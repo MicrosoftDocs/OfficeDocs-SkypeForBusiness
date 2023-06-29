@@ -95,7 +95,7 @@ Once you create and configure the resource account for the Teams Display, you mu
 
 - [Local sign-in](../set-up-common-area-phones.md#local-sign-in).
 - [Sign in from another device](../set-up-common-area-phones.md#sign-in-from-another-device).
-- [Sign in using the Teams admin center](../set-up-common-area-phone.smd#sign-in-using-the-teams-admin-center).
+- [Sign in using the Teams admin center](../set-up-common-area-phones.md#sign-in-using-the-teams-admin-center).
 
 ### Local sign-in
 To sign in locally with a username and password:
