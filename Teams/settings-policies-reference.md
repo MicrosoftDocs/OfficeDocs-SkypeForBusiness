@@ -804,7 +804,7 @@ Emergency calling policies are used to control how users in your organization ca
 
 **Navigation:** Teams admin center > Voice > Voice routing policies
 
-A voice routing policy for Direct Routing is linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages are be processed, and assign the voice routing policy to users or resource accounts.
+A voice routing policy for Direct Routing is linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages are processed, and assign the voice routing policy to users or resource accounts.
 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
