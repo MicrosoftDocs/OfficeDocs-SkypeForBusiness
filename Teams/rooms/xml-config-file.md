@@ -76,6 +76,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <EnableRoomCapacityNotification>true</EnableRoomCapacityNotification>
   <FrontRowEnabled>true</FrontRowEnabled>
   <FrontRowVideoSize>medium</FrontRowVideoSize>
   <FrontRowPanelDefaults>3,2</FrontRowPanelDefaults>
@@ -158,6 +159,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
+| `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
 | `<FrontRowPanelDefaults>` | String | | Lets you configure the position of the raise hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays.<br> <br>To manually configure the position of the raise hand and chat components, specify the numeric values of the component that should be shown in the left and right panels respectively, separated by a comma (for example, `3,1`).  Panels using the same component will be ignored except for <b>1</b> Hide the panel.<ul><li><b>1</b> Hide the panel.  </li><li><b>2</b> Show meeting chat.</li><li><b>3</b> Show raised hand list.</li></ul><br>If `FrontRowPanelDefaults` isn't specified in dual display mode, the raise hand component is shown in the left panel and chat component is shown in the right panel. In single display mode, the left panel isn't displayed by default for front-of-room displays narrower than 21:9.|
