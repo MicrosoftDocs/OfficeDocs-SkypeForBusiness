@@ -1,5 +1,5 @@
 ---
-title: Teams meeting add-in security in Oulook
+title: Teams meeting add-in security in Outlook.
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: Protect your Teams meeting addin in the Outlook desktop client on Windows by using Outlook's Trust-Center to load signed DLLs from only trusted publishers, group policies to trust a publisher, or AppLocker to prevent untrusted DLLs from being loaded.
+description: Protect your Teams meeting add-in in the Outlook desktop client on Windows. Use Outlook's Trust-Center to load signed DLLs from only trusted publishers, group policies to trust a publisher, or AppLocker to prevent untrusted DLLs from being loaded.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -26,12 +26,12 @@ appliesto:
 
 The Teams meeting add-in (or TMA) is used to schedule meetings in Teams from the Outlook desktop client on Windows.
 
-TMA coordinates between the Outlook and Teams services, so it's important to keep TMA secure. Taking security measures will help lower the risk of cybersecurity attack.
+TMA coordinates between the Outlook and Teams services, so it's important to keep TMA secure. Taking security measures helps lower the risk of cybersecurity attack.
 
 Here are the ways to secure your Teams meeting add-in covered in this article:
 
 1. (Recommended) Use Microsoft Outlook Trust Center to prevent Outlook from loading TMA when the TMA DLLs aren’t signed with a certificate from a trusted publisher.
-    1. Use group policies for the domain and update the *Root certificate* and *trusted publisher*, especially since it will prevent users from being prompted to trust the publisher.
+    1. Use group policies for the domain and update the *Root certificate* and *trusted publisher*, especially since it prevents users from being prompted to trust the publisher.
 1. AppLocker can also be used to stop DLLs from untrusted publishers from being loaded.
 
 ## Microsoft Outlook Trust Center group policies
@@ -49,24 +49,24 @@ Here are the steps:
     1. Go to the Outlook Trust Center, [https://www.microsoft.com/en-us/trust-center](https://www.microsoft.com/en-us/trust-center).
     1. When you arrive, select **File > Options > Trust Center**.
     1. Select **Microsoft Outlook Trust Center**.
-    1. Under Microsoft Outlook Trust Center in the left menu select **Trust Center Settings**.
+    1. Under Microsoft Outlook Trust Center in the left menu, select **Trust Center Settings**.
     1. Under **Macro Settings**, select **Notifications for digitally signed macros, all other macros disabled**.
     1. Admins must select **Apply macro security settings to installed add-ins** in this case.
     1. Select the **OK** button to make these changes and exit the trust center, and select **OK** again, to close options.
 
-The choices will now be persisted.
+The choices persist from there.
 
 Now, outside of the Outlook Trust Center:
 
-1. Restart Oulook on your client.
-1. When Outlook reopens, the application will ask permission to load each add-in, automatically disabling any add-in that *isn't* signed.
-    1. This is what the user experience of TMA will look like:
-    :::image type="content" source="media/TMA/outlook-security-notice-and-how-trust-all-docs-from-this-publisher-and-enable-application-add-in-will-work.png" alt-text="Outlook security notice and how Trust all docs from this publisher, and Enable applications add in will work.":::
-    2. End-users will see a Microsoft Outlook Security Notice that may read *Microsoft Office has identified a potential security concern* listing Microsoft.Teams.AddinLoader.dll. The options are:
+1. Restart Outlook on your client.
+1. When Outlook reopens, the application asks permission to load each add-in, automatically disabling any add-in that *isn't* signed.
+    1. The image below is what the user experience of TMA looks like:
+    :::image type="content" source="media/TMA/outlook-security-notice-and-how-trust-all-docs-from-this-publisher-and-enable-application-add-in-will-work.png" alt-text="Outlook security notice and how Trust all docs from this publisher, and Enable applications add-in works.":::
+    2. End-users see a Microsoft Outlook Security Notice that may read *Microsoft Office has identified a potential security concern* listing Microsoft.Teams.AddinLoader.dll. The options are:
         1. **Trust all documents from this Publisher.**
-            1. Selecting this will trust the certificate’s publisher and the user won’t be prompted again until the certificate changes.
+            1. Selecting this option trusts the certificate’s publisher and the user won’t be prompted again until the certificate changes.
         1. **2.	Enable application add-in.**
-            1. This option only enables on a case-by-case basis, so this add-in will be enabled for this single time, and the user will be prompted again.
+            1. This option only enables on a case-by-case basis, so this add-in enables for this single time, and the user will be prompted again.
         1. **3.	Disable application add-in.**
             1. Disables the add-in.
     1. Follow the steps to **[set up Group Policy to automatically trust a specific root certificate Authority](/windows-server/identity/ad-fs/deployment/distribute-certificates-to-client-computers-by-using-group-policy)**.
@@ -97,21 +97,21 @@ Now, outside of the Outlook Trust Center:
             1. Under **User Configuration > Administrative Templates > Microsoft Outlook 2016 > Security**
                 1. *Configure add-in trust level*: All installed trusted COM add-ins can be trusted. Exchange Settings for the add-ins still override if present and this option is selected.
             1. Under **User Configuration > Administrative Templates > Microsoft Outlook 2016 > Miscellaneous**
-                1. *Block all unmanaged add-ins*: This policy setting Blocks all add-ins that are not managed by the "List of managed add-ins" policy setting.
+                1. *Block all unmanaged add-ins*: This policy setting Blocks all add-ins that aren't managed by the "List of managed add-ins" policy setting.
                 1. *List of managed add-ins*: This policy setting allows you to specify which add-ins are always enabled, always disabled (blocked), or configurable by the user.
-                    To block add-ins that are not managed by this policy setting, you must also configure the "Block all unmanaged add-ins" policy setting.
+                    To block add-ins that aren't managed by this policy setting, you must also configure the "Block all unmanaged add-ins" policy setting.
             1. Under **User Configuration > Administrative Templates > Microsoft Outlook 2016 > Security > Security Form Settings > Programmatic Security > Trusted Add-ins**
                 1. *Configure Trusted Add-ins*: This policy setting is used to specify a list of Trusted Add-ins that can be run without being restricted by the security measures in Outlook.
 
 ## AppLocker
 
-The AppLocker application control policies help you control which apps and files users can run. These filte types include executable files, scripts, Windows Installer files, dynamic-link libraries (DLLs), packaged apps, and packaged app installers.
+The AppLocker application control policies help you control which apps and files users can run. These file types include executable files, scripts, Windows Installer files, dynamic-link libraries (DLLs), packaged apps, and packaged app installers.
 
 Let's focus on using AppLocker to *stop* DLLs that aren't signed by a trusted publisher from loading.
 
 #### Use AppLocker to stop unsigned DLLs from loading.
 
-To do this, you have to create a new DLL rule in your Local or Group Policy.
+To use Applocker to stop your unsigned DLLs from loading, you have to create a new DLL rule in your Local or Group Policy.
 
 > [!NOTE]
 > The pre-requisites for this section are Windows 10 Enterprise and, Education or Windows Server 2012 or later.
@@ -124,21 +124,21 @@ To set up AppLocker on *Windows 10 or Windows 11* for a specific DLL, follow the
    1. Group Policy
        1. Edit an AppLocker policy Through Group Policies | Microsoft Learn
 1. In the Local Security Policy editor, navigate go to Application Control Policies > AppLocker > DLL Rules.
-    1. If you are using a supported edition of Windows and still don't see DLL rules, it is possible that AppLocker is not enabled or configured on your system. In this case, you can follow these steps to enable AppLocker:
+    1. If you're using a supported edition of Windows and still don't see DLL rules, it's possible that AppLocker isn't enabled or configured on your system. In this case, you can follow these steps to enable AppLocker:
         1. Open the Local Security Policy editor. Type secpol.msc into the Run dialog box or the Start menu search bar, then press Enter.
         1. In the Local Security Policy editor, navigate to Application Control Policies > AppLocker.
         1. Right-click on AppLocker and select Properties.
         1. Under AppLocker Properties, in the Enforcement tab:
             1. Select Configured next to Configure rule enforcement.
-            2. Configure additional policies such as rule collections as audit-only mode.
+            2. Configure extra policies such as rule collections as audit-only mode.
             3. Once this is verified, it can be updated to Enforce
-            4. Click OK to save the changes.
+            4. Select OK to save the changes.
             5. Be sure the Application Identity service is [running](/windows/security/threat-protection/windows-defender-application-control/applocker/configure-the-application-identity-service).
 1. Create a new DLL Rule
     1. From the Local Security Policy editor
         1. Right-click on DLL Rules and select Create New Rule.
         1. In the Create DLL Rule wizard, select Use an Existing File and browse to the DLL file that you want to create a rule for.
-        1. Select the type of rule that you want to create (such as to allow or deny) and configure any additional rule conditions that are needed.
+        1. Select the type of rule that you want to create (such as to allow or deny) and configure any other rule conditions that are needed.
         1. Complete the wizard and save the new rule.
     1. Or from PowerShell:
         1. The PowerShell cmdlets that are needed to create a new DLL Rule can be piped together.
@@ -165,17 +165,17 @@ To set up AppLocker on *Windows 10 or Windows 11* for a specific DLL, follow the
     1. Create **all DLL rules at once**:
         1. Get-AppLockerFileInformation -Directory  .\Microsoft\TeamsMeetingAddin\1.0.23089.2 -Recurse | New-AppLockerPolicy -Verbose -RuleType Publisher, Hash -User Everyone -RuleNamePrefix TeamsMeetingAddin -AllowWindows -Xml | Out-File .\TMA.xml`
         2. `Set-AppLockerPolicy -XmlPolicy .\TMA.xml  -Merge`
-            3. Note that LDAP info will be needed to perform Group Policy updates.
+            3. LDAP info is needed to perform Group Policy updates.
 
 Important things to know:
 
-1. It’s assumed that if AppLocker is turned on in an environment, then the IT department is familiar with AppLocker. They are aware it’s designed to use an Allow model and anything not Allowed will be blocked.
-1. Hash rules are provided for fallback when Publisher rule fails. Hash rules will need to be updated every time TMA updates.
+1. It’s assumed that if AppLocker is turned on in an environment, then the IT department is familiar with AppLocker. They're aware it’s designed to use an Allow model and anything not Allowed will be blocked.
+1. Hash rules are provided for fallback when Publisher rule fails. Hash rules need to be updated every time TMA updates.
 1. The [PowerShell](https://microsoft.sharepoint.com/sites/knowledgecenter/SitePages/PowerShell.aspx) command for adding AppLocker policies will be set up to match only the exact version of the DLL being added > go into the Allow Properties for the Publisher Rule and change the File Versions options for scope to And Above the listed version.
-1. To make AppLocker accept a wider range of DLL versions for Publisher Rules, go to the Allow Properties for the Publisher Rule and change the drop down for File version to And above (from Exactly).
+1. To make AppLocker accept a wider range of DLL versions for Publisher Rules, go to the Allow Properties for the Publisher Rule and change the drop-down for File version to *And above* (from *Exactly*).
     :::image type="content" source="media/TMA/make-applocker-accept-a-wider-range-of-dll-versions-for-publisher-rules.png" alt-text="Make AppLocker accept a wider range of DLL versions for publisher rules.":::
 1. Once enabled if the AppLocker policy blocks the add-in, it will not show, and inspecting COM add-ins will show:
-    :::image type="content" source="media/TMA/once-enabled-if-the-applocker-policy-blocks-the-add-in-it-will-not-show-and-inspecting-com-add-ins-will-show-the-add-in-as-unavailable.png" alt-text="Once enabled, if the AppLocker policy blocks the add-in it will not show and inspecting COM add-ins will show the add-in as unavailable.":::
+    :::image type="content" source="media/TMA/once-enabled-if-the-applocker-policy-blocks-the-add-in-it-will-not-show-and-inspecting-com-add-ins-will-show-the-add-in-as-unavailable.png" alt-text="Once enabled, if the AppLocker policy blocks the add-in it won't show, and inspecting COM add-ins will show the add-in as unavailable.":::
 
 ## For more information
 [Enable or disable macros in Microsoft 365 files](https://support.microsoft.com/office/enable-or-disable-macros-in-microsoft-365-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6#:~:text=Change%20macro%20settings%20in%20the%20Trust%20Center%201,the%20selections%20that%20you%20want%2C%20then%20click%20OK.) - Microsoft Support
