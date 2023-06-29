@@ -65,7 +65,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 ## Deploy the new Teams application to your organization
 
 >[!Important]
->The Bulk deploy feature will be available mi July 2023. Please check back at that time.
+>The Bulk deploy feature will be available mid July 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
@@ -73,7 +73,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live by mid July 2023. Please check back then.**
+1. Download the .exe installer.  **Important note:**  **This download link will be available when the feature goes live in mid July, 2023. Please check back then.**
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **Run ./teamsprovision.exe -p**
 
