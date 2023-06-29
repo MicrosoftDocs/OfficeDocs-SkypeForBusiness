@@ -633,6 +633,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023062301](#144910962023062301-june-2023)     | June 2023        |
 |[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
 |[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
 |[1449/1.0.96.2023041207](#144910962023041207-april-2023)     | April 2023        |
@@ -649,6 +650,18 @@ Introduced in this update:
 
 > [!NOTE]
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
+
+Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023062301 (June 2023)
+
+Introduced in this update:
+
+- GCC-H support :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Smart camera controls :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Content camera :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Primary camera switching 
+- Default meeting layout controls
 
 ### 1449/1.0.96.2023060802 (June 2023)
 
@@ -672,15 +685,15 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Join Teams meeting with ID - available in all Microsoft Teams Rooms licenses
-- Single tap ad hoc meetings - available in all Microsoft Teams Rooms licenses
-- Room reservation extension - only available in Teams Pro licenses
-- Front row layout - available in Teams Standard, Premium, and Pro licenses
-- Meeting chat in Gallery, Large gallery, and Together mode - only available in Teams Pro licenses
-- HDMI connect auto share controls - available in all Microsoft Teams Rooms licenses
-- HDMI audio share - available in all Microsoft Teams Rooms licenses
-- Collaborative annotations support - available in all Microsoft Teams Rooms licenses
-- Teams Premium watermark-enabled meetings support - available in all Microsoft Teams Rooms licenses
+- Join Teams meeting with ID
+- Single tap ad hoc meetings
+- Room reservation extension :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Front row layout :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Meeting chat in Gallery, Large gallery, and Together mode :::image type="icon" source="../media/mtr-pro-icon.png":::
+- HDMI connect auto share controls 
+- HDMI audio share 
+- Collaborative annotations support 
+- Teams Premium watermark-enabled meetings support 
 
 ### 1449/1.0.96.2022120503 (December 2022)
 
