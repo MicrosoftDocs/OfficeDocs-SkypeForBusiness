@@ -430,8 +430,6 @@ items:
               href: set-up-call-analytics.md
             - name: Use call analytics to troubleshoot poor call quality
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-            - name: Use real-time telemetry to troubleshoot poor meeting quality
-              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
             - name: Add and update reporting labels
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
@@ -440,8 +438,12 @@ items:
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
-        - name: Alerts for audio quality issues
-          href: alerts-in-progress-meeting-audio.md
+        - name: Real-time telemetry
+          items: 
+            - name: Use real-time telemetry to troubleshoot poor meeting quality
+              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Alerts for audio quality issues
+              href: alerts-in-progress-meeting-audio.md
 
     - name: Teams alerting and monitoring
       href: alerts/teams-admin-alerts.md 
