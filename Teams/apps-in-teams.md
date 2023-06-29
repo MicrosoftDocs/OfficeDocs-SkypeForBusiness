@@ -9,7 +9,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/06/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -56,7 +56,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
 
 > [!NOTE]
-> There is a known limitation in the Teams admin center where you can only view and manage apps that are in the same release channel as the tenant. For example, if your tenant is in the general release channel, you can't manage apps that are deployed in the private or public preview channels. We're working to resolve this issue for future preview app releases. This won't be an issue for apps that are released to the general release channel.
+> A known limitation in the Teams admin center is that you can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
