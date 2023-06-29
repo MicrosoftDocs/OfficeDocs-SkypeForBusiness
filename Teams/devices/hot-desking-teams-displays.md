@@ -75,7 +75,7 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](https://learn.microsoft.com/en-us/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](https://learn.microsoft.com/en-us/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](https://learn.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](https://learn.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
 ## Step 3 - Set policies for Teams Displays
 
@@ -83,7 +83,7 @@ Use policies to control which features are available to Teams Displays.
 
 ### IP phone policies
 
-To configure other parameters, consider creating an [IP phone policy](https://learn.microsoft.com/en-us/powershell/module/skype/new-csteamsipphonepolicy).
+To configure other parameters, consider creating an [IP phone policy](https://learn.microsoft.com/powershell/module/skype/new-csteamsipphonepolicy).
 
 > [!Important]
 >
@@ -93,9 +93,9 @@ To configure other parameters, consider creating an [IP phone policy](https://le
 
 Once you create and configure the resource account for the Teams Display, you must sign in to the account, and set it up for hotdesking.
 
-- [Local sign-in](https://learn.microsoft.com/en-us/microsoftteams/set-up-common-area-phones#local-sign-in).
-- [Sign in from another device](https://learn.microsoft.com/en-us/microsoftteams/set-up-common-area-phones#sign-in-from-another-device).
-- [Sign in using the Teams admin center](https://learn.microsoft.com/en-us/microsoftteams/set-up-common-area-phones#sign-in-using-the-teams-admin-center).
+- [Local sign-in](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#local-sign-in).
+- [Sign in from another device](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#sign-in-from-another-device).
+- [Sign in using the Teams admin center](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#sign-in-using-the-teams-admin-center).
 
 ### Local sign-in
 To sign in locally with a username and password:
@@ -112,7 +112,7 @@ You can also sign into to a Teams Display from another device using a code. When
 3. Enter the code and follow the instructions to complete signing in.
 
 ### Sign in using the Teams admin center
-As an admin, you can remotely provision and sign into Teams Display from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying many displays at once. See [Remote provisioning and sign in for Teams Android devices](https://learn.microsoft.com/en-us/microsoftteams/devices/remote-provision-remote-login) to learn more.
+As an admin, you can remotely provision and sign into Teams Display from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying many displays at once. See [Remote provisioning and sign in for Teams Android devices](./devices/remote-provision-remote-login.md) to learn more.
 
 ## Step 5 – Booking Options (Optional)
 
