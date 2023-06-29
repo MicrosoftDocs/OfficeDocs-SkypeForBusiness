@@ -180,3 +180,4 @@ Important things to know:
 ## For more information
 [Enable or disable macros in Microsoft 365 files](https://support.microsoft.com/office/enable-or-disable-macros-in-microsoft-365-files-12b036fd-d140-4e74-b45e-16fed1a7e5c6#:~:text=Change%20macro%20settings%20in%20the%20Trust%20Center%201,the%20selections%20that%20you%20want%2C%20then%20click%20OK.) - Microsoft Support
 [AppLocker (Windows) ](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)| Microsoft Learn
+[Troubleshoot the Teams Meeting add-in in Outlook for Windows](https://support.microsoft.com/en-us/office/troubleshoot-the-teams-meeting-add-in-in-outlook-for-windows-d3f8819e-7993-43c7-a124-02b336273779)
