@@ -51,6 +51,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
+
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Poly CCX350                            | `8.0.1.4670`                                                  | 	August 5, 2023              | 9 |
@@ -88,6 +91,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 | Lenovo Thinksmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
@@ -102,6 +108,9 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
+
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
