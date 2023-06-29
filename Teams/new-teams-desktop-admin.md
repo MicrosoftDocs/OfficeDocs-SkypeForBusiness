@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 >[!Note]
->The sew Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
+>The new Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).

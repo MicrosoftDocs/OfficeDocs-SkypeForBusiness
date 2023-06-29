@@ -164,6 +164,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 | 11 |
 | Poly G7500 with Shure DSP (P300+MXA920+MXN5C) | `4.0.0.376092` |  Large meeting room | September 3, 2025 | 10 |
+| Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small | 11 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 | 11 |
+| Lenovo Qulacomm | ‘10.1.t.2.30’ |September 3, 2025 | 2023011001 (U5) | 10 |
+| Lenovo Thinksmart View Plus | 10.1.t.2.30 | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Small | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Small | 12 |
 
