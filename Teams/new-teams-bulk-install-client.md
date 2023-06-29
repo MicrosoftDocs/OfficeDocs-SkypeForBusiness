@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/20/2023
+ms.date: 06/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -55,9 +55,11 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
-|Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
+|Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. **Important note** This is only a requirement if you want users to be able to switch between classic Teams and new Teams. If you wnt your users to only see the new Teams client, then this is not required.|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
+>[!Important]
+>If you want
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 ## Deploy the new Teams application to your organization
@@ -73,7 +75,14 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 1. Download the .exe installer.  **Note:**  **This download link will be available when the feature goes live by mid July 2023. Please check back then.**
 2. Open the Command Prompt as an Admin.
-3. Run the downloaded setup.exe. Success or fail status will display.
+3. At the prompt
+
+```powershell
+run ./teamsprovision.exe -p 
+
+```
+
+Success or fail status will display.  If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
     :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
