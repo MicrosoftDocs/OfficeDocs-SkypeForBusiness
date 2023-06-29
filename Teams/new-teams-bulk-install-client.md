@@ -78,7 +78,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 3. At the prompt enter:
 
 ```powershell
-run ./teamsprovision.exe -p 
+Run ./teamsprovision.exe -p 
 
 ```
 
