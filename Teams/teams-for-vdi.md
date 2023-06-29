@@ -540,8 +540,7 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-
-- - [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
+ - [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
 
 
 
