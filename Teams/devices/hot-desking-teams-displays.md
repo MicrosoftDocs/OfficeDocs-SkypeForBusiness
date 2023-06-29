@@ -46,13 +46,13 @@ First, you need to purchase a  **Teams Shared Devices**  license and make sure t
 >
 >If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an  **Azure Active Directory Premium Plan 1** , and  **Intune**  license to the device account for the Teams Display.
 
-Teams Displays can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [**Authentication best practices for Teams Android devices**](../devices/authentication-best-practices-for-android-devices) to learn more.
+Teams Displays can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
 
 ## Step 2 - Create a new resource account and assign licenses
 
 ### Using the Microsoft 365 admin center
 
-If you're deploying more than one Teams Display at once, learn how to create resource accounts and assign licenses [using PowerShell](https://learn.microsoft.com/en-us/microsoftteams/set-up-common-area-phones#using-powershell).
+If you're deploying more than one Teams Display at once, learn how to create resource accounts and assign licenses [using PowerShell](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#using-powershell).
 
 ## Create the Resource Account
 
