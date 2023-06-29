@@ -23,22 +23,20 @@ description: Learn about how to set up Teams Rooms to receive and place calls to
 
 SIP and H.323 dialing is a feature that is only available on Microsoft Teams Rooms on Windows and each of those devices that will use SIP and H.323 dialing must have a Microsoft Teams Pro license assigned. 
 
-This feature lets calls between Teams Rooms devices and other conferencing devices that support either SIP or the H.323 protocol. By turning this feature on, it will let Teams Rooms interoperate with approved SIP and H.323 meeting devices to place, receive, or block calls from meeting endpoints and can be both internal or external to your organization. However, SIP and H.323 dialing is disabled by default in your organization so to enable this, you must use Microsoft Teams PowerShell.
+This feature enables calls between Teams Rooms devices and other conferencing devices that support either SIP or the H.323 protocol. By turning this feature on, it will let Teams Rooms interoperate with approved SIP and H.323 meeting devices to place, receive, or block calls from meeting endpoints that can be both internal or external to your organization. However, SIP and H.323 dialing is disabled by default in your organization so to enable this, you must use Microsoft Teams PowerShell.
 
 If you have multiple Teams Rooms all with a Pro licenses deployed in your organization, you can configure SIP and H.323 dialing for one or all of your Teams Rooms. 
 
 > [!IMPORTANT]
 >
-> This feature is only available for Microsoft Teams Rooms for Windows and won't work with Teams Rooms for Android or other SIP devices in your organization.
+> This feature is only available for Microsoft Teams Rooms for Windows and won't work with Teams Rooms for Android in your organization.
 
 ## Requirements
 
 To enable your Teams Rooms on Windows to use SIP and H.323 dialing:
 
 1. The Teams Room account that is used to sign in to the device must have a Teams Room Pro license assigned.
-2. You must have an signed agreement with one of the certified [Cloud Video Interop providers](../cloud-video-interop.md) (CVI). However, you have two options:
-- **Option 1:** Sign up for a calling plan from a CVI provider that supports SIP and H.323 dialing.
-- **Option 2:** Buy your own licenses from a CVI provider that supports SIP and H.323 dialing. 
+2. You must have a signed agreement with one of the certified [Cloud Video Interop providers](../cloud-video-interop.md) (CVI) that offers this feature like for example, Poly and Pexip. Please reach out to your chosen CVI provider for more information.
 
 ## How to configure a Teams Room
 
@@ -59,11 +57,11 @@ New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $t
 ```
 >[!Important]
 >
-> The `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx` entry in the command is a placeholder for a GUID that is provided by the CVI vendor.
+> The `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx` entry in the command is a placeholder for a GUID that is provided by the CVI provider that offers this feature.
 
 >[!Note]
 >
-> `ReceiveExternalCalls`, `ReceiveInternalCalls`, `PlaceExternalCalls` and `laceInternalCalls` parameters are disabled by default. They take only two values either `Enabled` or `Disabled`. If it is set to `Enabled`, then the `AreaCode` parameter is required. This value is provided by your CVI partner.
+> `ReceiveExternalCalls` and `ReceiveInternalCalls` parameters are disabled by default. They take only two values either `Enabled` or `Disabled`. If it is set to `Enabled`, then the `AreaCode` parameter is required. This value is provided by the CVI provider that offers this feature.
 
 To get all available Teams Room TeleConferencing policies in your organzation, you need to run the following command:
 
@@ -79,7 +77,7 @@ Set-CsTeamsRoomVideoTeleConferencingPolicy -Identity `TurnOnSIPH323` -ReceiveExt
 >
 > Identity is required.
 
-To apply a policy to a Teams Rooms devie, you need to run the following command.
+To apply a policy to a Teams Rooms device, you need to run the following command.
 
 ```PowerShell
 Grant-CsTeamsRoomVideoTeleConferencingPolicy -Identity "<room alias>" -PolicyName "TurnOnSIPH323"
