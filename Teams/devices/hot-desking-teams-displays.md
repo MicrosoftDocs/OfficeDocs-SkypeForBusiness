@@ -1,5 +1,5 @@
 ---
-title: Hotdesking with Teams displays
+title: Hotdesking Teams displays
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -68,10 +68,10 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to  **Users**  \>  **Active Users**
 2. Search for the newly created resource account and select it.
-3. Click "Licenses and apps"
+3. Select **Licenses and apps**
 4. Assign the appropriate usage location.
 5. Assign a **Teams Shared Devices**  license to the account.
-6. Click "Reset Password" and assign a password to the account used by the display.
+6. Select **Reset Password** and assign a password to the account used by the display.
 
 ### Using PowerShell
 
@@ -87,7 +87,7 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 > [!Important]
 >
-> Teams Displays do **not** support HotDeskingIdleTimeOutinMinutes in IP Phone Policies.
+> Teams Displays do **not** support 'HotDeskingIdleTimeOutinMinutes' in IP Phone Policies.
 
 ## Step 4 - Sign in
 
@@ -100,7 +100,7 @@ Once you create and configure the resource account for the Teams Display, you mu
 ### Local sign-in
 To sign in locally with a username and password:
 
-1. Turn on the Teams Display and connect it to the network.
+1. Turn on the Teams Display and connect it to your network.
 2. Select  **Sign in on this device**.
 3. Follow the sign-in directions on the device. Once signed in, the Teams Display will display the hot desking user experience.
 
@@ -123,4 +123,4 @@ As an admin, you can remotely provision and sign into Teams Display from the [Te
 
 > [!Note]
 >
-> For hotdesking, we recommend AllowConflicts is set to $False on all resource mailboxes to ensure resources are booked exclusively for a single appointment.
+> For hotdesking, we recommend 'AllowConflicts' is set to $False on all resource mailboxes to ensure resources are booked exclusively for a single appointment.
