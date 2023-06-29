@@ -64,9 +64,9 @@ Introduced in this update:
 - Update to Windows 11 22H2 for eligible devices, and Windows 10 22H2 for all others
 - Choose your Together mode scene and select it for everyone :::image type="icon" source="../media/mtr-pro-icon.png":::
 - Net Promoter Score survey at the end of some meetings
-- Simplified Device Registration Process for Microsoft Teams Rooms Pro Management Portal. To learn more, visit [Enrolling a device into Pro Management](enroll-a-device). :::image type="icon" source="../media/mtr-pro-icon.png":::
+- Simplified Device Registration Process for Microsoft Teams Rooms Pro Management Portal. To learn more, visit [Enrolling a device into Pro Management](./enroll-a-device.md). :::image type="icon" source="../media/mtr-pro-icon.png":::
 
-<sup>1</sup> Functionality is available through a CVI provider. Learn more at [Teams Rooms on Windows with SIP and H.323 devices](meetings-with-sip-h323-devices).
+<sup>1</sup> Functionality is available through a CVI provider. Learn more at [Teams Rooms on Windows with SIP and H.323 devices](./meetings-with-sip-h323-devices.md).
 
 ### 4.16.40.0 (3/24/2023)
 
