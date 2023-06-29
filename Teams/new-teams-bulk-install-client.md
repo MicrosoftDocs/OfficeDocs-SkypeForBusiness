@@ -101,8 +101,8 @@ As an admin, deploy this installer to a single computer, group of computers, or 
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
-   |Setting|Description|
-   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. 
+|Setting|Description|
+|Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.| 
 
 >[!Note]
 >This option was previously called **Users can choose**.
