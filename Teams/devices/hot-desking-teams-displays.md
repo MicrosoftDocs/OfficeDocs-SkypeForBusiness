@@ -75,7 +75,7 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](https://learn.microsoft.com/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](https://learn.microsoft.com/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
+Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
 ## Step 3 - Set policies for Teams Displays
 
@@ -93,9 +93,9 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 Once you create and configure the resource account for the Teams Display, you must sign in to the account, and set it up for hotdesking.
 
-- [Local sign-in](../set-up-common-area-phones#local-sign-in).
-- [Sign in from another device](../set-up-common-area-phones#sign-in-from-another-device).
-- [Sign in using the Teams admin center](../set-up-common-area-phones#sign-in-using-the-teams-admin-center).
+- [Local sign-in](../set-up-common-area-phones.md#local-sign-in).
+- [Sign in from another device](../set-up-common-area-phones.md#sign-in-from-another-device).
+- [Sign in using the Teams admin center](../set-up-common-area-phone.smd#sign-in-using-the-teams-admin-center).
 
 ### Local sign-in
 To sign in locally with a username and password:
