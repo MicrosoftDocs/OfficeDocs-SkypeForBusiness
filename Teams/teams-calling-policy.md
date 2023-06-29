@@ -1,5 +1,5 @@
 ---
-title: 'Calling policies in Microsoft Teams'
+title: 'Configure calling policies in Microsoft Teams'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -56,7 +56,7 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
-### Make private calls
+### Guests can start private calls
 
 This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 
@@ -67,6 +67,20 @@ This setting controls whether users can record calls. This setting is off by def
 ### Transcription
 
 This setting controls whether the transcription of calls is available for your users. This setting is off by default.
+
+### Routing for PSTN calls
+
+This setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use default call routing, or you can allow your users to decide. **Use default settings** is on by default.
+
+For more information, see [Routing inbound calls](inbound-call-routing.md).
+
+### Routing for federated calls
+
+This setting controls how inbound federated calls should be routed. These federated calls can be sent to voicemail, sent to unanswered settings, or use default call routing. **Use default settings** is on by default.
+
+Federated calls are calls that don't originate from the PSTN and that are outside your tenant.
+
+For more information, see [Routing inbound calls](inbound-call-routing.md).
 
 ### Call forwarding and simultaneous ringing to people in your organization
 
@@ -123,7 +137,11 @@ This setting controls whether incoming meeting invites are automatically answere
 
 ### Spam filtering
 
-This setting allows you to control the type of Spam filtering available on incoming calls. This setting is turned on by default.
+This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
+
+- **On** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
+- **On without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
+- **Off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
 
 ### SIP devices can be used for calls
 
@@ -133,7 +151,7 @@ This setting enables users to use a SIP device to make and receive calls. This s
 
 This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
 
-If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This will simply launch the listed URL.
+If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This setting simply launches the listed URL.
 
 ![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
@@ -141,8 +159,10 @@ If turned on, a link to the app needs to be given in the **URL to open apps in b
 
 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+[Voice policies reference for Microsoft Teams](settings-policies-reference.md#voice)
+
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[PSTN connectivity options](pstn-connectivity.md)
-
 [Configure call settings for your users](user-call-settings.md)
+
+[PSTN connectivity options](pstn-connectivity.md)
