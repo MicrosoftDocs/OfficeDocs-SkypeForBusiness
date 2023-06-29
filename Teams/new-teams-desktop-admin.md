@@ -36,6 +36,9 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## Is the new Teams available for my organization?
 
+>[!Note]
+>New Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
+
 The new Teams client **is not** yet available for the following customers but are planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
