@@ -1,5 +1,5 @@
 ---
-title: Manage and filter Microsoft Teams device tags
+title: Hotdesking with Teams displays
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: itpro-devices
 audience: admin
 ms.reviewer: prashibadkur
-ms.date: 06/27/2023
+ms.date: 06/29/2023
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
@@ -52,7 +52,7 @@ Teams Displays can be impacted by conditional access rules and other identity co
 
 ### Using the Microsoft 365 admin center
 
-If you're deploying more than one Teams Display at once, learn how to create resource accounts and assign licenses [using PowerShell](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#using-powershell).
+If you're deploying more than one Teams Display at once, learn how to create resource accounts and assign licenses [using PowerShell](../set-up-common-area-phones.md#using-powershell).
 
 ## Create the Resource Account
 
@@ -83,7 +83,7 @@ Use policies to control which features are available to Teams Displays.
 
 ### IP phone policies
 
-To configure other parameters, consider creating an [IP phone policy](https://learn.microsoft.com/powershell/module/skype/new-csteamsipphonepolicy).
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy).
 
 > [!Important]
 >
@@ -93,9 +93,9 @@ To configure other parameters, consider creating an [IP phone policy](https://le
 
 Once you create and configure the resource account for the Teams Display, you must sign in to the account, and set it up for hotdesking.
 
-- [Local sign-in](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#local-sign-in).
-- [Sign in from another device](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#sign-in-from-another-device).
-- [Sign in using the Teams admin center](https://learn.microsoft.com/microsoftteams/set-up-common-area-phones#sign-in-using-the-teams-admin-center).
+- [Local sign-in](../set-up-common-area-phones#local-sign-in).
+- [Sign in from another device](../set-up-common-area-phones#sign-in-from-another-device).
+- [Sign in using the Teams admin center](../set-up-common-area-phones#sign-in-using-the-teams-admin-center).
 
 ### Local sign-in
 To sign in locally with a username and password:
@@ -112,7 +112,7 @@ You can also sign into to a Teams Display from another device using a code. When
 3. Enter the code and follow the instructions to complete signing in.
 
 ### Sign in using the Teams admin center
-As an admin, you can remotely provision and sign into Teams Display from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying many displays at once. See [Remote provisioning and sign in for Teams Android devices](./devices/remote-provision-remote-login.md) to learn more.
+As an admin, you can remotely provision and sign into Teams Display from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying many displays at once. See [Remote provisioning and sign in for Teams Android devices](./remote-provision-remote-login.md) to learn more.
 
 ## Step 5 – Booking Options (Optional)
 
