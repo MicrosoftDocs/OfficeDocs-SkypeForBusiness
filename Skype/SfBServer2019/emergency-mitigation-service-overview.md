@@ -35,7 +35,7 @@ To help protect your organization and mitigate the risk, EMS will automatically 
 EMS can apply the following types of mitigations: 
 
 - **IIS URL Rewrite rule mitigation**: This mitigation is a rule that blocks specific patterns of malicious HTTP requests that can endanger a Skype for Business server.
-- **App Pool mitigation**: This mitigation disables a vulnerable app pool on an Skype for Business server.
+- **App Pool mitigation**: This mitigation disables a vulnerable app pool on a Skype for Business server.
 
 You have visibility and control over any applied mitigation by using Skype for Business PowerShell cmdlets. 
 
