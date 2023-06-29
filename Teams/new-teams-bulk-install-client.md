@@ -84,7 +84,7 @@ Run ./teamsprovision.exe -p
 
 4. Success or fail status will display.  If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
-    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
+   :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
 ## Step 2: Deploy the app to your organization
 
