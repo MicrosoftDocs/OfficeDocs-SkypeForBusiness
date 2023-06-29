@@ -23,8 +23,8 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
-> [!NOTE]
-> The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
+>[!Note]
+>The sew Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
@@ -47,7 +47,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > The new Teams client **is not** available for the following during the preview phase:
 >
 > **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
