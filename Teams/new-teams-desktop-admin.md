@@ -149,5 +149,4 @@ As we improve the client, the experience has been improved to align with similar
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
 |Ability to build Teams personsal apps usings Adaptive cards|No longer available.|
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in "Add member" dialog.|There is now an advanced flow for tags.|
-
+|Ability to use tags in the "Add member" dialog.|There is now an advanced flow for tags.|
