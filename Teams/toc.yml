@@ -274,6 +274,8 @@ items:
           href: applocker-in-teams.md
         - name: Block Access to SharePoint
           href: block-access-sharepoint.md
+        - name: Teams meeting add-in security when using your Outlook client
+          href: teams-meeting-addin-security-with-outlook.md
     - name: Compliance
       items: 
         - name: Auditing
