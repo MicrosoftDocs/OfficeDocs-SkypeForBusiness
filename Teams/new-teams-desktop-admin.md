@@ -23,8 +23,8 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
-> [!NOTE]
-> The preview of the new Microsoft Teams desktop client for Windows rolled out on March 27, 2023 and is expected to complete over the following week.
+>[!Note]
+>The new Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
 
 > [!TIP]
 > Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
@@ -47,7 +47,7 @@ This article describes the preview release of the new Microsoft Teams desktop cl
 > The new Teams client **is not** available for the following during the preview phase:
 >
 > **Platforms:**  Mac, VDI, Web</br>
-> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer, Education (EDU)</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+> **Customer segments:**  </br>- Government cloud: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 > [!TIP]
 > Visit our **[Microsoft Adoption site](https://aka.ms/newTeams)** to learn about the new Teams!
@@ -110,9 +110,15 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |Setting|Description|
    |:-----|:-----|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Users can choose| Use this value to show the new Teams toggle switch, to let users opt into the new Teams, and switch back if they need to.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch will display to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
 
+</br>
+
+>[!Note]
+>The option "Classic Teams as default" was previously called "Users can choose".
+
+</br>
 
 5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
@@ -136,7 +142,7 @@ Configure the UseNewTeamsClient setting to one of the following possible values:
 | Setting | Explanation |
 | :----- | :----- |
 | MicrosoftChoice | Default setting. This value lets Microsoft control if the Teams (preview) toggle switch is shown based on product readiness. |
-| UserChoice | This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
+|User choice| This value lets the new Teams toggle switch display to all users. Users can choose to opt in or out.|
 | AdminDisabled | This value hides the new Teams toggle switch from view. Users won't be able to opt in to the new Teams.| 
 
 Here are the steps needed to configure this setting in PowerShell:

@@ -1,7 +1,7 @@
 ---
 title: "Step 3 - Assign a meeting room license"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work

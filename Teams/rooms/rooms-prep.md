@@ -1,7 +1,7 @@
 ---
 title: Prepare your Environment
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars

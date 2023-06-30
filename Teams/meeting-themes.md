@@ -182,8 +182,9 @@ Supported clients:
 | **Color**     | Yes | Yes| Yes| Yes|
 
 Logos and images will be available for Join Launcher in future updates.
+
 > [!NOTE]
-> The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails. The new webinar experience will use these theme features within meetings. Meeting organizers can turn off meeting themes for a webinar by opting-out in Meeting options. Learn more about the new webinar experience [here](set-up-webinars.md).
+> The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
 
 ## Who can view a meeting theme
 

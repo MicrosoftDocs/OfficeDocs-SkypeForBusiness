@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 04/11/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -84,7 +84,7 @@ App permission policies take effect only when you apply a policy to a user or a 
 
 You can use the Teams admin center to check the policies that are assigned to a user. To view the policies, follow these steps:
 
-1. Sign in to the Teams admin center and go to **Users** >  **[Manage users](https://admin.teams.microsoft.com/users)**.
+1. Sign in to the Teams admin center and go to **Users** > **[Manage users](https://admin.teams.microsoft.com/users)**.
 1. Search for and select the user by clicking the user name.
 1. Select **View policies** under the **Policies assigned** column.
 
