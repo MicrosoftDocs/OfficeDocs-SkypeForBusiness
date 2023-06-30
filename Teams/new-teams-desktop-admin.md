@@ -112,9 +112,9 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |:-----|:-----|
 |Teams Public Preview|Mid August 2023|
 |Targeted Release Channel|Mid August 2023|
-|Current Channel*|Early October 2023|
+|Current Channel|Early October 2023|
 |Monthly Enterprise Channel|Early November 2023|
-|Semi-Annual Enterprise Channel (Preview)*|Early October 2023|
+|Semi-Annual Enterprise Channel (Preview)|Early October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
 
 >[!Note]
