@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Troubleshooting Installation issues in the new Teams client
+# Troubleshooting installation issues in the new Teams client
 
 ## Policy settings restricting download & install
 
@@ -51,7 +51,7 @@ There are a few policies that could alter these registry keys and block app inst
 #### To check this setting for your computer
 
 1. In Windows, search for **Edit Group Policy**.
-2. This will open the Local Group Policy Editor screen.
+2. This opens the Local Group Policy Editor screen.
 3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
   - *Prevent non-admins users from installing packaged Windows apps*
   - *Allow all trusted apps to install*
@@ -121,7 +121,7 @@ If the toggle still doesn't appear, then
 
 1. Right-click on the Teams app icon in your taskbar and select Quit.
 1. Open File Explorer. In the address bar, enter the following: `%appdata%/Microsoft/Teams`.
-1. Select the arrow, or press Enter. You’ll be taken to the contents of that folder.
+1. Select the arrow, or press Enter. You're taken to the contents of that folder.
 1. Delete all contents of the folder (don’t worry, Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 1. Relaunch the Teams app, then right-click on the icon and select Quit.
 1. Relaunch the Teams app one more time, and you should see the toggle switch.

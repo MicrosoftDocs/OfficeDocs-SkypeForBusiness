@@ -39,7 +39,7 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 >[!Note]
 >New Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
 
-The new Teams client **is not** yet available for the following customers but are planned for release later in this calendar year:
+The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
 **Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
@@ -56,7 +56,7 @@ The new Teams client **is not** yet available for the following customers but ar
 >
 >[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies).
 
-### When will all users see the new Teams toggle?
+### When will all users see the "Try the new Teams" toggle?
 
 ##### Licenses
 
@@ -86,7 +86,7 @@ Public preview program|Available|
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
-### When will new Teams be the default client?
+### When will the new Teams become the default client?
 
 Existing Teams users are updated to the new Teams based on two factors:</br>
 - Which Microsoft 365/Teams license is assigned to the user; and 
@@ -130,7 +130,7 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you will see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|

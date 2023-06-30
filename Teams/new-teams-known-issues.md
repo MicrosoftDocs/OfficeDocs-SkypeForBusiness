@@ -27,7 +27,7 @@ There are a few known issues we're working on.
 ### General
 
 **Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-**Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>Learn more about prequisites here: [**Prerequisites for new Teams**](new-teams-deploy-using-policies.md#prerequisites).
+**Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>Learn more about prerequisites here: [**Prerequisites for new Teams**](new-teams-deploy-using-policies.md#prerequisites).
 
 ### Accessibility
 
@@ -38,9 +38,9 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue**: If custom apps are used, their icons are broken on the left pane.
 
-- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams will show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
+- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
 
-- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, re-ordering, uninstalling, store navigation are still pending.
+- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, reordering, uninstalling, store navigation are still pending.
 
 ### Calendar
 
@@ -73,7 +73,7 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue:** You can't search for external users even if you enter full email address.
 
-- **Issue:** If you receive a message where @mention *Everyone* is used, it will show in your feed as a personal mention.</br>
+- **Issue:** If you receive a message where @mention *Everyone* is used, it shows in your feed as a personal mention.</br>
   Details: The @mention Everyone feature is still pending for this release.
 
 ### Meetings
@@ -89,13 +89,13 @@ Details: The meeting attendees may see preview content in those notifications.</
   Details you won't see include forwards, "show as," and assigned meeting categories. 
 
 - **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
-  **Workaround**: If you leave a meeting by accident, re-join.
+  **Workaround**: If you leave a meeting by accident, rejoin.
 
 - **Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
   **Workaround**: Select Join in the channel conversation to join the meeting.
 
 - **Issue:** When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
-  Details: When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing will happen until they come off mute or turn on their video.
+  Details: When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing happens until they come off mute or turn on their video.
 
 - **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
   Details: The product group is investigating this issue.
@@ -134,7 +134,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
   **Workaround**: Uninstall the new Teams and reinstall.
 
-- **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner will read: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
+- **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner reads: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
   **Workaround**: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
 
 - **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
@@ -143,7 +143,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 ### Notifications
 
-- **Issue**: If a user receives a message where @mention *Everyone* is used, it will show in their feed as a personal mention.</br>
+- **Issue**: If a user receives a message where @mention *Everyone* is used, it shows in their feed as a personal mention.</br>
   Details: The @mention Everyone feature is still pending for this release.
 
 - **Issue**: Some Teams users aren't receiving notifications of chat mentions, meetings or calls.</br>
