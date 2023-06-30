@@ -93,7 +93,7 @@ As an admin, deploy this installer to a single computer, group of computers, or 
 ## Step 3: Set Teams Admin Center policy
 
 >[!Note]
->Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies#powershell)
+>Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 2. Select **Teams > Teams Update** policies from the left pane.
