@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 > [!TIP]
-> Looking for tips on using the new Teams? See [Try the new Microsoft Teams](https://support.microsoft.com/en-us/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
+> Looking for tips on using the new Teams? See [Try the new Microsoft Teams](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
 >
 >Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
 
@@ -37,14 +37,12 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 ## Is the new Teams available for my organization?
 
 >[!Note]
->New Teams client for **EDU (Education)** is rolling out starting June 29, 2023 and is expected to complete over the following weeks.
+>New Teams client for **EDU (Education)** is rolling out starting June 29, 2023, and is expected to complete over the following weeks.
 
 The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
 **Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
-
-
 
 
 ## New Teams rollout schedule
@@ -63,7 +61,7 @@ The new Teams client **is not** yet available for the following customers but is
 |License|Rollout begins|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Early August 2023|
-|Enterprise and other Licenses|See the schedule listed.|
+|Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
 
@@ -99,7 +97,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 |License|Date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Mid September 2023
-|Enterprise and other Licenses|See the schedule listed.|
+|Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
 
@@ -130,7 +128,7 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you'll see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
@@ -140,7 +138,7 @@ As we improve the client, the experience has been improved to align with similar
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
-|Activity tab in chat| No longer available|
+|Activity tab in chat| No longer available.|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
