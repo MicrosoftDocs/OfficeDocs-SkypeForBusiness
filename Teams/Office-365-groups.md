@@ -32,13 +32,13 @@ By default, users in Microsoft 365 can create and manage groups. For more inform
 
 When you create a team, a Microsoft 365 group is created to manage team membership. The group's related services, such as a SharePoint site, mailbox, etc. are created at the same time.
 
-People who create teams can choose to use an existing Microsoft 365 group if they are an owner of that group. Each channel in the team has a separate folder in the document library. Creating folders directly in the document library does not create channels in the team.
+People who create teams can choose to use an existing Microsoft 365 group if they're an owner of that group. Each channel in the team has a separate folder in the document library. Creating folders directly in the document library doesn't create channels in the team.
 
 When creating a Microsoft 365 group in the Teams admin center, Outlook, or SharePoint, the group mailbox is visible in Outlook. When creating a team in Teams, the group mailbox is hidden by default. You can use the [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) cmdlet with the **HiddenFromExchangeClientsEnabled** parameter to make a mailbox visible.
 
 ## Group membership
 
-If you remove a member of a team, they are removed from the Microsoft 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer group, or shared OneNote. However, they will still have access to the team's chat functionality for approximately two hours.
+If you remove a member of a team, they're removed from the Microsoft 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they'll no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer group, or shared OneNote. However, they'll still have access to the team's chat functionality for approximately two hours.
 
 As a best practice for managing team members, add and remove them from the Teams client to ensure that permissions updates for other group-connected workloads occur quickly. If you add or remove team members outside of the Teams client (by using the Microsoft 365 admin center, Azure AD, or Exchange Online PowerShell), it can take up to 24 hours for changes to be reflected in Teams.
 
