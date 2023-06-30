@@ -55,7 +55,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
-|Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. **Important note** This is only a requirement if you want users to be able to switch between classic Teams and new Teams. If you wnt your users to only see the new Teams client, then this is not required.|
+|Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app.</br> **Important:** Teams 1.6 is only a requirement if you want users to be able to switch between classic Teams and new Teams. The prerequisite is optional if you just want your users to see the new Teams client.|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
 >[!Important]
