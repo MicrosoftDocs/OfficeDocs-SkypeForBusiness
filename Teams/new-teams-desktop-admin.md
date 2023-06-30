@@ -143,4 +143,11 @@ As we improve the client, the experience has been improved to align with similar
 |Activity tab in chat| No longer available|
 |Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
+|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
+|Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
+|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
+|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
+|Ability to build Teams personsal apps usings Adaptive cards|No longer available.|
+|General appearance changes|Colors, tooltip styles.|
+|Ability to use tags in "Add member" dialog.|There is now an advanced flow for tags.|
 
