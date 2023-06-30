@@ -4451,8 +4451,28 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/manage-teams-skypeforbusiness-admin-center.md",
+    "redirect_url": "/microsoftteams/manage-teams-in-modern-portal",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/Tutorial-Meetings-in-Teams.yml",
+    "redirect_url": "/microsoftteams/deploy-meetings-microsoft-teams-landing-page",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/teams-add-on-licensing/pri-message.md",
     "redirect_url": "/microsoftteams/messaging-policies-in-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/assign-change-emergency-place-user.md",
+    "redirect_url": "/microsoftteams/add-change-remove-emergency-place-organization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/assign-change-emergency-location-user.md",
+    "redirect_url": "/microsoftteams/add-change-remove-emergency-location-organization",
     "redirect_document_id": false
   }
  ] 

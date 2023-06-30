@@ -51,6 +51,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
+
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Poly CCX350                            | `8.0.1.4670`                                                  | 	August 5, 2023              | 9 |
@@ -88,6 +91,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 | Lenovo Thinksmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
@@ -103,14 +109,17 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 > [!NOTE]
 > The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
+> [!NOTE]
+> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
 |Neat Pad Panel    | `NFA1.20220211.1400` | August 5, 2023 | 9 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2024 | 10 |
-|Yealink RoomPanel | `147.15.0.1`|August 5, 2023   | 9 |
 |Logitech TAP Scheduler | `1.3.111` |September 3, 2024 | 10 |
 
 ### Product release information for Teams phones
@@ -121,6 +130,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2C | Jun 15, 2023 | `1449/1.0.94.2023060906` | `5.0.5484.0` | `413`|
 | 2023 Update #2B | May 9, 2023 | `1449/1.0.94.2023050205` | `5.0.5484.0` | `413`|
 | 2023 Update #2A | April 14, 2023 | `1449/1.0.94.2023041203` | `5.0.5484.0` | `413`|
 | 2023 Update #2 | April 04, 2023 | `1449/1.0.94.2023032903` | `5.0.5484.0` | `413`|
@@ -329,6 +339,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
 |Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
