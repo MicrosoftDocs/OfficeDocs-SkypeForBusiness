@@ -34,7 +34,7 @@ When you create a team, a Microsoft 365 group is created to manage team membersh
 
 People who create teams can choose to use an existing Microsoft 365 group if they are an owner of that group. Each channel in the team has a separate folder in the document library. Creating folders directly in the document library does not create channels in the team.
 
-When creating a Microsoft 365 group in the Teams Admin Portal, Outlook or SharePoint, the group mailbox is visible in Outlook. When creating a team in the Teams client, the group mailbox is hidden by default. You can use the [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) cmdlet with the **HiddenFromExchangeClientsEnabled** parameter to make a mailbox visible.
+When creating a Microsoft 365 group in the Teams admin center, Outlook, or SharePoint, the group mailbox is visible in Outlook. When creating a team in Teams, the group mailbox is hidden by default. You can use the [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) cmdlet with the **HiddenFromExchangeClientsEnabled** parameter to make a mailbox visible.
 
 ## Group membership
 
