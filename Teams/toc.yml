@@ -93,11 +93,11 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & release schedule
+                - name: Overview & rollout schedule
                   href: new-teams-desktop-admin.md
-                - name: Deploy the New Teams using policies               
+                - name: Deploy the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
-                - name: Bulk install the new Teams client
+                - name: Bulk deploy the new Teams client
                   href: new-teams-bulk-install-client.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
