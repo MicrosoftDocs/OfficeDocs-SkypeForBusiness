@@ -21,7 +21,7 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Bulk deploy new Microsoft Teams desktop client 
+# Bulk deploy the new Microsoft Teams client 
 
 >[!Note]
 >**Coming soon:** The Bulk deploy feature will be released mid July 2023.
