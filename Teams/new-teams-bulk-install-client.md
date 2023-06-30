@@ -73,9 +73,13 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer.  **Important note:**  **This download link will be available when the feature goes live in mid July, 2023. Please check back then.**
+1. Download the .exe installer.
+
+>[!Important]
+>This download link will be available when the feature goes live in mid July, 2023. Please check back then.
+
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **Run ./teamsprovision.exe -p**
+3. At the prompt enter: **./teamsprovision.exe -p**
 
 4. Success or fail status will display.  If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
