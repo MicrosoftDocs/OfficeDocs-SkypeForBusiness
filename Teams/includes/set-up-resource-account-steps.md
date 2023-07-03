@@ -67,7 +67,7 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 5. Select **Save changes**.
    
 > [!NOTE]
-> If the resource account requires a phone number, check the **Select location** drop-down in the same **Licenses and Apps** tab to match the intended country code.
+> If the resource account requires a phone number, check that the **Select location** dropdown list in the same **Licenses and Apps** tab matches the intended country code.
 
 ## Assign a phone number
 
