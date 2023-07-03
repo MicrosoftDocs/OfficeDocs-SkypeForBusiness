@@ -135,7 +135,7 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following IP addresses:
+Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following SIP Gateway service IP addresses:
 
 - North America:
     - East US: 52.170.38.140
@@ -147,7 +147,10 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - Australia East: 20.92.120.71
     - Australia Southeast: 13.73.115.90
 
-With the new authentication experience, conditional access checks for SIP Gateway will apply to users instead of devices. If your devices are on the new sign-in experience, then you should exempt either the Teams app or the SIP Gateway App (**ID - 0ab9de21-b802-4d77-b279-1ad41ca233b4**) from conditional access checks.
+> [!Note]
+> With the new authentication experience, conditional access checks for SIP Gateway will apply to users instead of devices. You can exempt either one of the following:
+> 1. The Teams app
+> 2. SIP Gateway service IP addresses along with your site public IP addresses.
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
