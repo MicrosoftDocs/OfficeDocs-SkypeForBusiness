@@ -76,6 +76,9 @@ If these conditions are met successfully, and the user enters the
 correct username and password, then the resource account will sign into
 Teams.
 
+> [!NOTE]
+> For Microsoft Teams to have a fully working set of features, make sure 'Skype for Business Online' is excluded from any blocks at the Conditional Access Policy
+
 ## Conditional Access with Microsoft Intune compliance for Teams Rooms
 
 Compliance requirements are defined rules that devices must meet to be
