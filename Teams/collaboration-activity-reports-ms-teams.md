@@ -50,7 +50,7 @@ This section describes the following components of the Collaboration activity re
 
 #### Inactive teams
 
-Every team is connected to a site, that is, once a team is created, a site corresponding to the created team is also created. It's recommended to remove inactive teams so that the access to confidential information is restricted to active teams. Therefore, if inactive teams are to be removed, their associated sites should also be inactive. Else, if the associated site of the inactive team is active, this inactive team cannot be removed. Learn more.
+Every team is connected to a site, that is, once a team is created, a site corresponding to the created team is also created. It's recommended to remove inactive teams so that the access to confidential information is restricted to active teams. Therefore, if inactive teams are to be removed, their associated sites should also be inactive. Else, if the associated site of the inactive team is active, this inactive team cannot be removed. [Learn more](#sharepoint-offered-feature-of-deletion-of-inactive-teams).
 
 The **Inactive teams** widget view shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for that day.
 
