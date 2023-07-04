@@ -73,7 +73,7 @@ You can also archive the team directly from this view. To do this task, you can 
 You can use Site Lifecycle Management (SLM) policies to inadvertently control access to inactive teams to limit access to confidential information.
 
 > [!IMPORTANT]
-> SLM can be used to manage inactive teams only if such teams belong to a tenant that has purchased the Syntex Advanced Management (SAM) license.
+> SLM can be used to manage inactive sites and teams only if such sites and teams belong to a tenant that has purchased the Syntex Advanced Management (SAM) license.
 
 SLM policies - as the name suggests - are created to manage inactive sites; however, SharePoint has introduced a feature wherein deletion of an inactive site results in deletion of the inactive site's connective team provided the team too is inactive. In SLM, the interrelation between a site and its team is described below:
 
