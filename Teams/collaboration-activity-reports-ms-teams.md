@@ -50,6 +50,8 @@ This section describes the following components of the Collaboration activity re
 
 #### Inactive teams
 
+Every team is connected to a site, that is, once a team is created, a site corresponding to the created team is also created. It's recommended to remove inactive teams so that the access to confidential information is restricted to active teams. Therefore, if inactive teams are to be removed, their associated sites should also be inactive. Else, if the associated site of the inactive team is active, this inactive team cannot be removed. Learn more.
+
 The **Inactive teams** widget view shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for that day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
@@ -65,6 +67,27 @@ You can change the time frame by choosing from the **Date range** dropdown list 
 You can also archive the team directly from this view. To do this task, you can scroll to the extreme right and click the **bin** icon (under the **Action** column), and then select **Archive** from the **Archive team?** dialog box.
 
 :::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::
+
+##### SharePoint-offered feature of deletion of inactive teams
+
+You can use Site Lifecycle Management (SLM) policies to inadvertently control access to inactive teams to limit access to confidential information.
+
+> [!IMPORTANT]
+> SLM can be used to manage inactive teams only if such teams belong to a tenant that has purchased the Syntex Advanced Management (SAM) license.
+
+SLM policies - as the name suggests - are created to manage inactive sites; however, SharePoint has introduced a feature wherein deletion of an inactive site results in deletion of the inactive site's connective team provided the team too is inactive. In SLM, the interrelation between a site and its team is described below:
+
+You can create a policy that automates the detection of inactive sites and initiates a workflow that notifies site owners via email.
+
+1. If the site owner confirms that their site is inactive, then the SLM policy checks whether the site's associated team is also inactive.
+    1. If the associated team is active, then you can't delete the site and the team (even though it's inactive).
+    1. If the associated team is inactive, then you can delete the inactive site and its inactive team through an SLM policy. For information on how to create an SLM policy, see [Manage site lifecycle policies](https://microsoft-my.sharepoint.com/:w:/p/mactra/EV016sUQw_VPk-fKVktp7KgB8imRIdUEXF2EE66MqX113A?e=9nK55K&wdOrigin=TEAMS-ELECTRON.p2p.bim&wdExp=TEAMS-TREATMENT&wdhostclicktime=1688056845966&web=1).
+1. If the site owner confirms that their site is active, then the site and its associated team can't be deleted irrespective of whether the team is active or inactive.
+
+When an SLM policy detects an inactive site, the site owner is notified about the inactivity of the site. This site owner is also notified about the inactivity of the team which is found through the SLM policy. These notifications to the same person - the site owner - is because the team owner is automatically the site owner unless the site owner has been changed retroactively. 
+
+> [!NOTE]
+> Future releases are planning to introduce notification to the team owner instead of the site owner when SLM detects an inactive team.
 
 #### External domains activity
 
