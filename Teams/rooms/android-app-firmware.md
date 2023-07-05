@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN D7X ON_DBR14 | `1.4.2.0` | 2023 Update #1C |
 | Poly Studio X52 | `4.1.0.382189` | 2023 Update #1B |
 | Poly TC10 | `4.1.0.211109` | 2023 Update #1B |
 | EPOS EXPAND Vision 5T |`v1.4.23139.07`   | 2023 Update #1A |
