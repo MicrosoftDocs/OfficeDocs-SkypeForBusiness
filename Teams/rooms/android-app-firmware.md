@@ -53,6 +53,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X52 | `4.1.0.382189` | 2023 Update #1B |
+| Poly TC10 | `4.1.0.211109` | 2023 Update #1B |
 | EPOS EXPAND Vision 5T |`v1.4.23139.07`   | 2023 Update #1A |
 | EPOS EXPAND Control 3C |`v1.4.23139.06`   | 2023 Update #1A |
 | Logi Rallybar | `1.9.544`   | 2023 Update #1A  |
