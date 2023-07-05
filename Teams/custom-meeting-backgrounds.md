@@ -89,9 +89,8 @@ To only show custom backgrounds you've uploaded, follow these steps:
 3. Within your chosen policy, navigate to the **Audio and Video** section and set  **Participants can use video effects** to **Off** or **Blur only**.
 4. Select **Save**
 5. Navigate to **Meetings** >  **Customization Policies** to select an existing policy or create a new one.
-6. Within your chosen policy, scroll down to the **Custom Meeting backgrounds** section and set **Custom backgrounds** to **On**.
+6. Within your chosen policy, scroll down to the **Custom Meeting backgrounds** section and set **Custom backgrounds** to **On**. If you haven't already, you can upload your custom backgrounds.
 7. Select **Save**
-
 
 ## Where are custom backgrounds visible
 
