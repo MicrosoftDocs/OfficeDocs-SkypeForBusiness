@@ -1,5 +1,5 @@
 ---
-title: PowerShell cmdlet reference for auto attendants and call queues
+title: PowerShell cmdlet reference for Auto attendants and Call queues
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -21,16 +21,16 @@ ms.localizationpriority: medium
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
-description: Reference this article for PowerShell cmdlets to create and manage auto attendants and call queues in Microsoft Teams.
+description: Reference this article for PowerShell cmdlets to create and manage Auto attendants and Call queues in Microsoft Teams.
 ---
 
-# PowerShell cmdlet reference for auto attendants and call queues
+# PowerShell cmdlet reference for Auto attendants and Call queues
 
-The following cmdlet references are for Microsoft Teams auto attendants and call queues.
+The following cmdlet references are for Microsoft Teams Auto attendants and Call queues.
 
 ## Auto attendant cmdlets
 
-The following cmdlets allow you to manage auto attendants:
+The following cmdlets allow you to manage Auto attendants:
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
@@ -53,22 +53,22 @@ The following cmdlets allow you to manage auto attendants:
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-For a step-by-step guide to creating auto attendants with PowerShell, see [Creating auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
+For a step-by-step guide to creating Auto attendants with PowerShell, see [Creating Auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
 ## Call queue cmdlets
 
-The following cmdlets allow you to manage a call queue:
+The following cmdlets allow you to manage a Call queue:
 
 - [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
 - [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-For a step-by-step guide to creating call queues with PowerShell, see [Creating call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+For a step-by-step guide to creating Call queues with PowerShell, see [Creating Call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
-## Common cmdlets used by both auto attendants and call queues
+## Common cmdlets used by both Auto attendants and Call queues
 
-The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with auto attendants:
+The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with Auto attendants:
 
 ### Users and Teams
 
