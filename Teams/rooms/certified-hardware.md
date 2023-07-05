@@ -126,9 +126,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
+| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | 212 x 128.4 x 152.8 mm (RX-PAD) | 12 |
 | Yealink CTP18 touch console | `137.320.0.29` | August 5, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | [Audiocodes RXV81 Collaboration Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | September 3, 2024 | Small meeting room (4.5 m x 4.5 m) | 10 |
-| Yealink DeskVision A24 | `156.15.0.24` | February 27, 2023 | Personal space, Shared space: Phone booth (2m x 2m) | 10 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | [Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | [Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
@@ -157,7 +158,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X70 | `4.0.0-376092` | September 4, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly GC8 Console with Lenovo ThinkSmart | 4.1.0.382110   | September 3, 2025  | Room size: Medium |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly TC8 | `3.3.2.210441` | August 5, 2023 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 9 |
+| Poly TC8 | `4.1.1.386001` | September 4, 2024 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
