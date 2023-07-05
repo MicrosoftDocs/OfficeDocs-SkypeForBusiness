@@ -113,7 +113,7 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Current Channel|Early October 2023|
 |Monthly Enterprise Channel|Early November 2023|
 |Semi-Annual Enterprise Channel (Preview)|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
