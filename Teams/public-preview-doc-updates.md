@@ -35,7 +35,7 @@ For a list of what's available in the Teams Public preview, visit [Microsoft Tea
 
 ## Set the Update policy
 
-Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office Preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't overwrite the global policy.
+Public preview is enabled on a per-user basis, and the option to turn on Public preview is controlled in an admin policy. Update policies are used to manage Teams and Office Preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't overwrite the global policy.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
@@ -71,7 +71,7 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 ## Enable Public preview
 
-To enable public preview on a desktop or web client, perform the following tasks:
+To enable Public preview on a desktop or web client, perform the following tasks:
 
 1. Select the three dots to the left of your profile to display the Teams menu.
 2. Select **About** > **Public preview**.
@@ -82,7 +82,7 @@ To enable public preview on a desktop or web client, perform the following tasks
 
 ### Public preview for Microsoft Teams Rooms on Windows
 
-Public preview is turned off by default. When public preview is turned on, users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file. For more information about the XML file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
+Public preview is turned off by default. When Public preview is turned on, users have access to features that are in public preview on enabled Teams Rooms. To turn on Public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file. For more information about the XML file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 We recommend enrolling 5-10 devices to public preview.
 
@@ -90,7 +90,7 @@ All public preview features are announced at [Microsoft Teams Public preview - M
 
 ### Public preview Indicator
 
-Users who are in the public Preview will see **EA** next to their profile picture, indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image).
+Users who are in the public preview will see **EA** next to their profile picture, indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image).
 
 ![Screenshot of the early-access icon.](media/early-access-screenshot.png)
 
