@@ -46,7 +46,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |English (Canada)                        |
 |English (India)                         |
 |English (Ireland)                       |
-|English (Philipines)                    |
+|English (Philippines)                    |
 |English (South Africa)                  |
 |English (United Kingdom)                |
 |English (United States)                 |
