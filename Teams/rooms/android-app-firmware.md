@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
 | 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1B  | May 05, 2023 |`1449/1.0.96.2023050203`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1A  | April 17, 2023 |`1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
@@ -52,6 +53,15 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN D7X ON_DBR14 | `1.4.2.0` | 2023 Update #1C |
+| Poly Studio X52 | `4.1.0.382189` | 2023 Update #1B |
+| Poly TC10 | `4.1.0.211109` | 2023 Update #1B |
+| EPOS EXPAND Vision 5T |`v1.4.23139.07`   | 2023 Update #1A |
+| EPOS EXPAND Control 3C |`v1.4.23139.06`   | 2023 Update #1A |
+| Logi Rallybar | `1.9.544`   | 2023 Update #1A  |
+| Logi Rallybar Mini | `1.9.544`   | 2023 Update #1A  |
+| Logi RoomMate | `1.9.359`   | 2023 Update #1A  |
+| Logi Console  | `1.9.393`    | 2023 Update #1A  |
 | Poly Studio X30 | `4.0.2.384012` | 2023 Update #1 |
 | Poly Studio X50 | `4.0.2.384012` | 2023 Update #1 |
 | Poly Studio X70 | `4.0.2.384012` | 2023 Update #1 |
