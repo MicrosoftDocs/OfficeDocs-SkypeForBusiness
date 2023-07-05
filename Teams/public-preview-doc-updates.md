@@ -86,7 +86,7 @@ Public preview is turned off by default. When public preview is turned on, users
 
 We recommend enrolling 5-10 devices to public preview.
 
-All public preview features are announced at [Microsoft Teams Public preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
+All Public preview features are announced at [Microsoft Teams Public preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
 
 ### Public preview Indicator
 
