@@ -1545,6 +1545,9 @@ items:
               href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: Hotdesking Teams Displays
+              href: devices/hot-desking-teams-displays.md
+            - name: Hotdesking Teams Displays
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: SIP Gateway
