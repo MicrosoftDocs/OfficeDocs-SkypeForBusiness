@@ -46,7 +46,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |English (Canada)                        |Y                        |Y                                      |
 |English (India)                         |Y                        |Y                                      |
 |English (Ireland)                       |Y                        |N                                      |
-|English (Philipines)                    |Y                        |N                                      |
+|English (Philippines)                    |Y                        |N                                      |
 |English (South Africa)                  |Y                        |N                                      |
 |English (United Kingdom)                |Y                        |Y                                      |
 |English (United States)                 |Y                        |Y                                      |
