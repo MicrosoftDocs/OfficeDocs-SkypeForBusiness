@@ -315,8 +315,8 @@ Meeting policies are used to control what features are available in meetings org
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
-|Who is in the report|Everyone, but participants can opt out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report. Only post-meeting report supported|
-|Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant. Only post-meeting report supported|
+|Who is in the report|Everyone, but participants can opt out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
+|Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant. Only the post-meeting report is supported.|
 
 ##### Related topics for meeting scheduling
 
