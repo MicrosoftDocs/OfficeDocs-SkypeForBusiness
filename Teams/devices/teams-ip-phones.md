@@ -166,6 +166,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | 2023 Update #2C    |
 |Poly CCX 350/400/500/600/505 | `8.1.2.1122` | 2023 Update #2A |
 |Poly Trio C60 | `8.1.2.1124 ` | 2023 Update #2A |
 |Crestron UC-P8/I  | `1.0.6.20`    | 2022 Update #4A|
@@ -340,6 +341,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
 |Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
