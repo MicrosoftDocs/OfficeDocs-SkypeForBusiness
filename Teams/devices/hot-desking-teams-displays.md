@@ -8,13 +8,13 @@ ms.service: msteams
 ms.subservice: itpro-devices
 audience: admin
 ms.reviewer: prashibadkur
-ms.date: 06/29/2023
+ms.date: 07/05/2023
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
-  - CSH
+  - NOCSH
 description: Learn how to set up and deploy hotdesking for Teams Displays.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -23,8 +23,6 @@ appliesto:
 ---
 
 # Deploy hotdesking for Teams Displays
-
-
 
 Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hotdesking mode. Hotdeskting lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
