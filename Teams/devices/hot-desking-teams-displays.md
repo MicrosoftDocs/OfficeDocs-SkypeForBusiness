@@ -1,5 +1,5 @@
 ---
-title: Hotdesking Teams displays
+title: Hot desking Teams displays
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -15,7 +15,7 @@ ms.collection:
   - Tier1
 f1.keywords: 
   - NOCSH
-description: Learn how to set up and deploy hotdesking for Teams Displays.
+description: Learn how to set up and deploy hot desking for Teams Displays.
 ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
@@ -24,11 +24,11 @@ appliesto:
 
 # Deploy hotdesking for Teams Displays
 
-Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hotdesking mode. Hotdeskting lets users reserve, sign-in, collaborate with other people, and then end their session securely.
+Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
 Hotdesking requires two types of accounts:
 
-- **Resource account** - used by the Teams Display for the hotdesking experience and booking the space.
+- **Resource account** - used by the Teams Display for the hot desking experience and booking the space.
 - **User account** - used by the user who's booked the Teams Display to sign in to access their account and settings.
 
 ## Step 1 – Buy the licenses
@@ -56,7 +56,7 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Resources** > **Rooms & Equipment** > **Add a resource**.
 2. Select **Room** as the resource type.
-3. Enter an email like "Building5hotdesk1", then select a domain like 'Contoso.com'.
+3. Enter an email like "Building5hotdesk1", then select a domain like "Contoso.com".
 4. Enter a location such as "Building 5 – 1st Floor HotDesk 1".
 5. Click **Save**.
 
@@ -89,7 +89,7 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 ## Step 4 - Sign in
 
-Once you create and configure the resource account for the Teams Display, you must sign in to the account and set it up for hotdesking.
+Once you create and configure the resource account for the Teams Display, you must sign in to the account and set it up for hot desking.
 
 - [Local sign in](../set-up-common-area-phones.md#local-sign-in).
 - [Sign in from another device](../set-up-common-area-phones.md#sign-in-from-another-device).
@@ -121,4 +121,4 @@ As an admin, you can remotely provision and sign into Teams Display from the [Te
 
 > [!Note]
 >
-> For hotdesking, we recommend the 'AllowConflicts' setting is set to '$False' on all resource mailboxes to ensure resources are booked exclusively for a single user's appointment.
+> For hot desking, we recommend the 'AllowConflicts' setting is set to '$False' on all resource mailboxes to ensure resources are booked exclusively for a single user's appointment.
