@@ -33,11 +33,15 @@ If you have users who are not heavy users of the Public Switched Telephone Netwo
 
 For these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces cost for your organization because you don't need a dedicated phone number for every user.
 
-With Shared Calling, instead of assigning a phone number to every user, you  assign a resource account number for an Auto attendant for outbound and inbound PSTN calls. Users have the same Phone System user experience and features, including the dial pad.
+With Shared Calling, instead of assigning a phone number to every user, you use the phone number of an Auto attendant for outbound and inbound PSTN calls. 
 
-When a Shared Calling user makes an outbound call to the PSTN, the caller ID seen by recipients is that of the resource account number. You can also configure the resource account number as the callback number for your users.  
+- **Outbound calls.** When a Shared Calling user makes an outbound call to the PSTN, the caller ID seen by recipients is that of the Auto attendant. 
 
-Auto attendants allow you to set up menu options to route calls based on caller input. For inbound calls to this number, the Auto attendant is used to route the call to the right person.
+- **Inbound calls.** When a Shared Calling user receives an inbound PSTN call, the call connects to the Auto attendant. 
+
+Auto attendants support multiple options for transferring a call to a user; for example, dial by name or dial by extension. Users have the same Phone System user experience and features, including the dial pad.
+
+The Auto Attendant phone number used is specified by the resource account associated with the Auto Attendant.
 
 For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
