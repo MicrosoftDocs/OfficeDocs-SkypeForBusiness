@@ -148,9 +148,7 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - Australia Southeast: 13.73.115.90
 
 > [!Note]
-> With the new authentication experience, conditional access checks for SIP Gateway will apply to users instead of devices. You can exempt either one of the following:
-> 1. The Teams app
-> 2. SIP Gateway service IP addresses along with your site public IP addresses.
+> With the new authentication experience, conditional access checks for SIP Gateways will apply to users instead of devices. However, yo must exclude them **either by using the Teams app or by adding SIP Gateway service IP addresses to your list of site public IP addresses**.
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
