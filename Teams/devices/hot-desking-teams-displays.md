@@ -1,5 +1,5 @@
 ---
-title: Hotdesking Teams displays
+title: Hot desking Teams displays
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
