@@ -110,7 +110,7 @@ Which resource account to license:
 > 
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 > 
-> Pay-As-You-Go Calling Plan for New Commerce Experience customers is not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
+> New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
 
