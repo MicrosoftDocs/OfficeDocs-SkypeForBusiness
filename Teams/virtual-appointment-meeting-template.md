@@ -29,21 +29,7 @@ appliesto:
 
 The Virtual appointment template is a default meeting template in Microsoft Teams that your users can use to schedule virtual appointments with customers, clients and other people outside your organization. For example, use it to schedule and conduct interviews, mentorship sessions, financial consultations, virtual shopping experiences, and more.
 
-The template allows you to specify values for meeting settings that meeting organizers typically control. It gives you the flexibility to apply default settings and enforce settings. You can choose to lock settings so meeting organizers can't change them when they use the template.
-
-With this template, you can enable a consistent experience across your organization for virtual appointments scheduled within Teams and help enforce compliance requirements.
-
 This article gives you an overview of how to view and manage the Virtual appointment meeting template in the Teams admin center.
-
-## View or change Virtual appointment meeting template settings
-
-1. In the left navigation of the Teams admin center, go to **Meetings** > **Meeting templates**.
-1. Choose **Virtual appointment**, and then select **Edit**.
-1. To make changes, select an option, and then configure the settings that you want. For each option, you can define the following settings:
-    - **Default value**: The value that's applied to the virtual appointment when the template is used.
-    - **Visibility**: Choose **Hide** or **Show** to specify whether the option is visible to meeting organizers in Teams meeting options.
-    - **Lock status**: To prevent meeting organizers from changing the value that you set, choose **Lock**. To allow meeting organizers to change the value that you set, choose **Unlock**.
-1. Review your changes, and then choose **Save**.
 
 ## Manage the Virtual appointment meeting template
 
