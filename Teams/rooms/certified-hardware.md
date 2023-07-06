@@ -126,6 +126,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | 212 x 128.4 x 152.8 mm (RX-PAD) | 12 |
 | Yealink CTP18 touch console | `137.320.0.29` | August 5, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
