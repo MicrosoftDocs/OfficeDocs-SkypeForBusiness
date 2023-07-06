@@ -91,32 +91,45 @@ items:
                   href: teams-adoption-schedule-service-health-reviews.md
         - name: Client deployments
           items: 
-            - name: Get Teams clients
-              href: get-clients.md
-            - name: The new Teams client
-              href: new-teams-desktop-admin.md
-            - name: Teams client updates
-              href: teams-client-update.md
-            - name: Bulk install Teams using Windows Installer
-              href: msi-deployment.md
-            - name: Teams for Virtualized Desktop Infrastructure (VDI)
-              href: teams-for-vdi.md
-            - name: Teams for Remote Desktop environment (RDP)
-              href: teams-on-rdp.md
-            - name: Troubleshoot installation and update issues
-              href: troubleshoot-installation.md
-            - name: Reference
+            - name: New Teams client
               items:
-                - name: Microsoft 365 URLs and IP address ranges
-                  href: office-365-urls-ip-address-ranges.md
-                - name: Hardware requirements
-                  href: hardware-requirements-for-the-teams-app.md
-                - name: How Teams uses memory
-                  href: teams-memory-usage-perf.md
-                - name: Hardware decoder and encoder driver recommendations
-                  href: hardware-decoders-and-encoders.md
-                - name: Teams firewall PowerShell script
-                  href: client-firewall-script.md
+                - name: Overview & rollout schedule
+                  href: new-teams-desktop-admin.md
+                - name: Deploy the new Teams using policies               
+                  href: new-teams-deploy-using-policies.md
+                - name: Bulk deploy the new Teams client
+                  href: new-teams-bulk-install-client.md
+                - name: Troubleshooting installation issues          
+                  href: new-teams-troubleshooting-installation.md                 
+                - name: Known issues          
+                  href: new-teams-known-issues.md
+            - name: Classic Teams clients
+              items:
+                - name: Get the classic Teams clients
+                  href: get-clients.md
+                - name: Classic Teams client updates
+                  href: teams-client-update.md
+                - name: Bulk install classic Teams using Windows Installer
+                  href: msi-deployment.md
+                - name: Classic Teams for Virtualized Desktop Infrastructure (VDI)
+                  href: teams-for-vdi.md
+                - name: Classic Teams for Remote Desktop environment (RDP)
+                  href: teams-on-rdp.md
+                - name: Troubleshoot classic Teams installation and update issues
+                  href: troubleshoot-installation.md
+                - name: Teams Reference
+                  items:
+                    - name: Microsoft 365 URLs and IP address ranges
+                      href: office-365-urls-ip-address-ranges.md
+                    - name: Hardware requirements
+                      href: hardware-requirements-for-the-teams-app.md
+                    - name: How Teams uses memory
+                      href: teams-memory-usage-perf.md
+                    - name: Hardware decoder and encoder driver recommendations
+                      href: hardware-decoders-and-encoders.md
+                    - name: Teams firewall PowerShell script
+                      href: client-firewall-script.md
+
     - name: Teams training
       items: 
         - name: Admin training for Teams
@@ -274,6 +287,8 @@ items:
           href: applocker-in-teams.md
         - name: Block Access to SharePoint
           href: block-access-sharepoint.md
+        - name: Teams meeting add-in security when using your Outlook client
+          href: teams-meeting-addin-security-with-outlook.md
     - name: Compliance
       items: 
         - name: Auditing
@@ -383,8 +398,6 @@ items:
 
     - name: Integrate apps with Teams
       items:
-        - name: Manage Loop components
-          href: loop-components-in-teams.md
         - name: Manage actionable activity emails
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
@@ -642,7 +655,7 @@ items:
               href: stream-teams-meetings.md
         - name: Standardized meetings
           items: 
-            - name: Meeting customization
+            - name: Custom meetings overview
               href: custom-meetings-overview.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
@@ -817,7 +830,7 @@ items:
                   href: change-the-settings-for-an-audio-conferencing-bridge.md
                 - name: See a list of Audio Conferencing numbers
                   href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-                - name: Set auto attendant languages for Audio Conferencing
+                - name: Set Auto attendant languages for Audio Conferencing
                   href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
                 - name: Set up meeting dial-out confirmation for your users
                   href: set-up-meeting-dial-out-confirmation.md
@@ -911,15 +924,15 @@ items:
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
-        - name: Auto attendants and call queues
+        - name: Auto attendants and Call queues
           items: 
-            - name: Plan auto attendants and call queues
+            - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
             - name: Plan call routing flow
               href: plan-your-call-routing-flow.md
-            - name: Set up auto attendants
+            - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md
-            - name: Set up call queues
+            - name: Set up Call queues
               href: create-a-phone-system-call-queue.md
             - name: Set up authorized users
               href: aa-cq-authorized-users.md
@@ -929,21 +942,25 @@ items:
               href: manage-resource-accounts.md
             - name: Set up holidays
               href: set-up-holidays-in-teams.md
-            - name: Answer auto attendant and call queue calls directly from Teams
+            - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: Reports
               href: aa-cq-cqd-historical-reports.md
-            - name: PowerShell cmdlet reference for auto attendants and call queues
+            - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
+        - name: Routing inbound calls
+          href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
+        - name: Configure call settings for your users
+          href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md
         - name: Call sharing and group call pickup
           href: call-sharing-and-group-call-pickup.md
-        - name: Calling policy
+        - name: Configure calling policies
           href: teams-calling-policy.md
         - name: Shared line appearance
           href: shared-line-appearance.md
@@ -951,8 +968,6 @@ items:
           href: dial-pad-configuration.md
         - name: Music on Hold
           href: music-on-hold.md
-        - name: Configure call settings for your users
-          href: user-call-settings.md
 
     - name: PSTN connectivity options
       items:
@@ -1139,14 +1154,10 @@ items:
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Manage an emergency location for your organization
+            - name: Manage emergency locations
               href: add-change-remove-emergency-location-organization.md
-            - name: Manage a place for an emergency location in your organization
+            - name: Add places to emergency locations
               href: add-change-remove-emergency-place-organization.md
-            - name: Assign an emergency location for a user
-              href: assign-change-emergency-location-user.md
-            - name: Assign a place for an emergency location
-              href: assign-change-emergency-place-user.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
@@ -1167,7 +1178,7 @@ items:
           href: voice-case-study-emergency-calling.md
         - name: Audio Conferencing
           href: voice-case-study-audio-conferencing.md
-        - name: Auto attendants and call queues
+        - name: Auto attendants and Call queues
           href: voice-case-study-call-queues.md
   
     - name: Reference
@@ -1481,6 +1492,8 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
+                - name: Meetings with SIP and H.323 devices
+                  href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds
                   href: rooms/custom-backgrounds.md
             - name: Manage devices with Azure Monitor
@@ -1532,6 +1545,8 @@ items:
               href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: Hotdesking Teams Displays
+              href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: SIP Gateway
