@@ -4474,7 +4474,13 @@
     "source_path": "Teams/assign-change-emergency-location-user.md",
     "redirect_url": "/microsoftteams/add-change-remove-emergency-location-organization",
     "redirect_document_id": false
-  }
+  },
+  {
+    "source_path": "Teams/different-kinds-of-phone-numbers-used-for-calling-plans.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers-landing-page",
+    "redirect_document_id": false
+  }  
+  
  ] 
 }
 
