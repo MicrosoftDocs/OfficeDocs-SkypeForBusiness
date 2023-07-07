@@ -458,8 +458,6 @@ items:
 
     - name: Operate your service
       href: upgrade-operate-my-service.md
-    - name: Enhance your service
-      href: upgrade-enhance-my-service.md
     - name: Public preview in Microsoft Teams
       href: public-preview-doc-updates.md
     - name: Use inline message translation
@@ -2155,7 +2153,5 @@ items:
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors
       href: shared-channels-errors.md
-    - name: Upgrade discovery questionnaire
-      href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
       href: /OfficeUpdates/teams-admin
