@@ -105,7 +105,7 @@ The following table compares key features between Teams and Teams Premium.
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5, E5 Compliance, F5 Compliance, or F5 Security + Compliance subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
-### Meetings reporting
+### Meeting recap and intelligent recap
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
