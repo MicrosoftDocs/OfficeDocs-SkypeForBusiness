@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
+description: In this article, you'll learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -34,7 +34,7 @@ You'll start your Teams adoption with the following activities:
 - [Set up your first teams on Teams](teams-adoption-your-first-teams.md) to build your technical knowledge.
 - [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
 
-The primary goal of this phase is to ensure your readiness for the experimentation phase. You will also determine if you need assistance from Microsoft or from our network of skilled partners.  
+The primary goal of this phase is to ensure your readiness for the experimentation phase. You'll also determine if you need assistance from Microsoft or from our network of skilled partners.  
 
 ## Validate adoption prerequisites
 
@@ -59,7 +59,7 @@ The table below lists the core roles for your project team. In a smaller organiz
 <sup>1</sup>These roles are essential to the success of your project.</br>
 <sup>2</sup>These roles are important for the overall program success.
 
-In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
+In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you'll include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
 
 ## Additional resources
 

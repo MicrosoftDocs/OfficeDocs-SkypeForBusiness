@@ -25,11 +25,11 @@ appliesto:
 
 # Define outcomes and success for your Microsoft Teams adoption
 
-For every business scenario or service you modernize, it is critical to define what success looks like for your business. You will have gathered that information for your initial scenarios as you mapped them in your prior phase. As you prepare for your scale implementation, you will need to revisit and expand these important success criteria.
+For every business scenario or service you modernize, it's critical to define what success looks like for your business. You will have gathered that information for your initial scenarios as you mapped them in your prior phase. As you prepare for your scale implementation, you'll need to revisit and expand these important success criteria.
   
 What follows is a recommended strategy for mapping these criteria. There are many valid approaches to this step. You can follow our guide or follow the guide of the Microsoft partner you may be working with. Whatever method you choose, make sure that your business outcomes are supported by the technical implementation of your services and overall objectives of your organization.
   
-There are four categories of outcomes that can be prioritized for your business. They are interconnected and form the foundation of the modernization and digital transformation that individual employees will experience.  
+There are four categories of outcomes that can be prioritized for your business. They're interconnected and form the foundation of the modernization and digital transformation that individual employees will experience.  
 
 ![Chart illustrating the four outcome categories.](media/teams-adoption-outcomes.png)
 
@@ -80,7 +80,7 @@ The following are our recommendations for most customer organizations. However, 
 
 - **Choose Teams First or Teams Core**: Most organizations have an existing investment in Microsoft technology. You may be enabling more than one workload at a time, such as Exchange Online, OneDrive for Business, or SharePoint. In these cases, selecting Teams First or Teams Core is a wise choice. It will enable your users to get used to the enhanced collaboration experience of Teams. Your collaboration project team can then plan to roll out additional capabilities and the  training and support required for them to be successful. 
 
-- **Choose Teams Go Big**: In new Microsoft 365 or Office 365 customer organizations it is often best to take a Teams Go Big approach to minimize the change fatigue caused by learning new technology multiple times. You'll get the greatest benefit by enabling Teams for both core collaboration and meetings, SharePoint, OneDrive, Planner, and other workloads, and allowing your employees to learn about them in the context of your Teams deployment. 
+- **Choose Teams Go Big**: In new Microsoft 365 or Office 365 customer organizations it's often best to take a Teams Go Big approach to minimize the change fatigue caused by learning new technology multiple times. You'll get the greatest benefit by enabling Teams for both core collaboration and meetings, SharePoint, OneDrive, Planner, and other workloads, and allowing your employees to learn about them in the context of your Teams deployment. 
 
     Teams Go Big is also the preferred enablement strategy for organizations under 1,000 employees who want to simplify their employee communication and engagement. Using the organization-wide team can bring people together to review common tasks and initiatives on any device. 
 
