@@ -4559,6 +4559,31 @@
     "source_path": "Teams/get-help-in-microsoft-teams.md",
     "redirect_url": "/microsoftteams/teams-overview",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice-to-teams-phone-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/get-ready-internet.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/reseller-partner-support.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/set-up-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/admin-perms-needed.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
   }
  ] 
 }
