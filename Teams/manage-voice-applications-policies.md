@@ -180,7 +180,7 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
 
 ### Call queue monitor, whisper, barge, takeover
 
-- **CallQueueAgentMonitorMode**: When set to **Monitor**, **Whisper**, **Barge** or **Takeover**, this setting allows an authorized user to perform the following actions:
+- **CallQueueAgentMonitorMode**: When set to **Monitor**, **Whisper**, **Barge**, or **Takeover**, this setting allows an authorized user to perform the following actions:
   - When set to **Monitor**, an authorized user can monitor an agent and listen to them while they are on an inbound call queue call.
   - When set to **Whisper**, an authorized user can monitor an agent and whisper to them while they are on an inbound call queue call. The caller won't hear the authorized user.
   - When set to **Barge**, an authorized user can monitor an agent, whisper to them, and barge in or join the inbound call queue call.
@@ -218,7 +218,6 @@ The following policy settings are referenced in the [PowerShell cmdlets section]
  - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
    -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
-
 
 ## Related articles
 
