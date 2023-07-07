@@ -2,6 +2,56 @@
 
 
 
+## Week of June 26, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/26/2023 | [Assign policies to users and groups](/MicrosoftTeams/assign-policies-users-and-groups) | modified |
+| 6/26/2023 | [Manage caller ID for users](/MicrosoftTeams/caller-id-policies) | modified |
+| 6/26/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 6/26/2023 | [Teams Rooms meetings with SIP and H.323 devices](/MicrosoftTeams/rooms/meetings-with-sip-h323-devices) | added |
+| 6/26/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 6/27/2023 | [Set up a Microsoft Teams auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 6/27/2023 | [Microsoft Teams Shared Devices licensing](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | modified |
+| 6/27/2023 | [Set up Auto attendant and Call queue authorized users](/MicrosoftTeams/aa-cq-authorized-users) | modified |
+| 6/27/2023 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 6/27/2023 | [Manage emergency locations](/MicrosoftTeams/add-change-remove-emergency-location-organization) | modified |
+| 6/27/2023 | [Add places to emergency locations](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modified |
+| 6/27/2023 | [Answer Auto attendant and Call queue calls](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modified |
+| 6/27/2023 | Assign or change an emergency location for a user | removed |
+| 6/27/2023 | Assign or change places for emergency locations for users | removed |
+| 6/27/2023 | [PowerShell cmdlet reference for Auto attendants and Call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
+| 6/27/2023 | [Set up a Microsoft Teams Auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 6/27/2023 | [Create a Call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 6/27/2023 | [Auto attendant and Call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
+| 6/27/2023 | [Manage resource accounts for service numbers](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 6/27/2023 | [Manage voice applications policies for Microsoft Teams](/MicrosoftTeams/manage-voice-applications-policies) | modified |
+| 6/27/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
+| 6/27/2023 | [Plan for Teams Auto attendants and Call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 6/27/2023 | [Plan your call routing flow for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | modified |
+| 6/28/2023 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
+| 6/28/2023 | [Apps update experience in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modified |
+| 6/28/2023 | [Search the audit logs for app management events](/MicrosoftTeams/audit-app-management-activities) | modified |
+| 6/28/2023 | [Manage custom and sideloaded app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
+| 6/28/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
+| 6/28/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
+| 6/28/2023 | [Calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
+| 6/29/2023 | [Routing inbound calls in Microsoft Teams](/MicrosoftTeams/inbound-call-routing) | added |
+| 6/29/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 6/29/2023 | [Configure calling policies in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | modified |
+| 6/29/2023 | [Teams meeting add-in security in Outlook.](/MicrosoftTeams/teams-meeting-addin-security-with-outlook) | added |
+| 6/29/2023 | [Teams Rooms meetings with SIP and H.323 devices](/MicrosoftTeams/rooms/meetings-with-sip-h323-devices) | modified |
+| 6/29/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 6/30/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 6/30/2023 | [Bulk install Teams using Windows Installer (MSI)](/MicrosoftTeams/msi-deployment) | modified |
+| 6/30/2023 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | added |
+| 6/30/2023 | [Deploy the new Teams client using policies](/MicrosoftTeams/new-teams-deploy-using-policies) | added |
+| 6/30/2023 | [Rollout schedule for the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | added |
+| 6/30/2023 | [Troubleshooting the new Teams installation](/MicrosoftTeams/new-teams-troubleshooting-installation) | added |
+| 6/30/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
+
+
 ## Week of June 19, 2023
 
 
@@ -87,16 +137,3 @@
 | 6/2/2023 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
 | 6/2/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
 | 6/2/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
-
-
-## Week of May 22, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/22/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 5/23/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
-| 5/23/2023 | [Auto install approved Teams apps](/MicrosoftTeams/auto-install-approved-apps) | modified |
-| 5/23/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
-| 5/23/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 5/24/2023 | [Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune](/MicrosoftTeams/devices/phones-displays-deploy) | modified |
