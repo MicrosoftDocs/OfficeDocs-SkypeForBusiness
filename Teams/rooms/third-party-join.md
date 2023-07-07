@@ -1,7 +1,7 @@
 ---
 title: Enable Teams Rooms devices to join third-party meetings
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
 ms.date: 07/22/2020
@@ -21,11 +21,11 @@ description: This article discusses how to configure your organization and Teams
 
 # Enable Teams Rooms devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams. Keep in mind that in this case, the experience in Teams Rooms of the third-party online meeting is driven by the third-party online meeting provider.
 
 Supported devices and services:
 
-- Teams Rooms on Windows, all certified models – Zoom, Cisco Webex
+- Teams Rooms on Windows, all certified models – Zoom, Cisco Webex, BlueJeans by Verizon
 
 - Teams Rooms on Android, all certified models – Zoom, Cisco Webex
 
@@ -75,6 +75,7 @@ Here are some example entries that you may need to add to your Defender for Offi
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
+- **BlueJeans** `*.bluejeans.com/*`
 
 For a complete list of URLs to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from.
 
@@ -100,16 +101,22 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 
 The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
+To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
+
+```xml
+<ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
+```
+
 To enable Cisco Webex meetings, set the `WebexMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
 <WebexMeetingsEnabled>True</WebexMeetingsEnabled>
 ```
 
-To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
+To enable BlueJeans meetings, set the `BlueJeansMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
-<ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
+<BlueJeansMeetingsEnabled>True</BlueJeansMeetingsEnabled>
 ```
 
 You can optionally specify a custom username and email address to join third-party meetings using the following XML elements. If the values you provide aren't valid, the Teams Rooms device will default to use room mailbox username and email address.
@@ -136,5 +143,5 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
 
     ![Meetings settings for MTR on Android](..\media\mtrandroid.png)
 
-3. Select a third-party meeting provider you want to enable.
+3. Select the third-party meeting provider you want to enable.
 4. If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.

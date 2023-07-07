@@ -1,7 +1,7 @@
 ---
 title: About the upgrade framework - Skype for Business to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

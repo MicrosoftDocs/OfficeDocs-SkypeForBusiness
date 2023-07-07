@@ -60,6 +60,11 @@ During live events many people will be joining to watch your event live. This co
 1. Configure existing cache proxies within your network to cache videos from Teams.
 1. Use a third-party eCDN video delivery solution to optimize video traffic.
 
+Viewers receive the Teams live event stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
+
+ - *.media.azure.net
+ - bmc.cdn.office.net
+
 ### I can't create a live event
 
 There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you're using for the live event.
@@ -138,7 +143,7 @@ Select **Stop event** before disconnecting your encoder. If you've already disco
 1. Check that the encoder is sending audio.
 1. Check that the audio device is plugged in.
 1. If on Windows, make sure the correct audio device is selected and unmuted.
-1. If there was an encoder disruption, some browsers or devices may not be able to recover and playback the audio correctly.
+1. If there was an encoder disruption, some browsers or devices may not be able to recover and play back the audio correctly.
 
 > [!NOTE]
 > If you've deployed Microsoft eCDN as your video distribution provider for live events, please refer to [Troubleshooting eCDN performance issues](/ecdn/troubleshooting/troubleshoot-ecdn-performance-issues) for more details on troubleshooting the eCDN performance issues you may be experiencing.

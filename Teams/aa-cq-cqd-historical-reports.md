@@ -1,5 +1,5 @@
 ---
-title: Auto attendant and call queue historical reports
+title: Auto attendant and Call queue historical reports
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -26,26 +26,26 @@ ms.custom:
 description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# Auto attendant and call queue historical reports
+# Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
 > These reports aren't currently available for GCC High and DoD customers.
 
-This Power BI template provides three reports that allow organizations to report on the number of calls processed by auto attendants and call queues.  It also provides agent performance insights.
+This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
 ## V3.1.1 published on May 11, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The Auto Attendant report shows analytics for calls coming into your auto attendants.
+- The Auto Attendant report shows analytics for calls coming into your Auto attendants.
   - [Original](media/aa-cq-historical-report-sample-aa-v310-orig.png)
   - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-aa-v310-new.png)
  
-- The Call Queue report shows analytics for calls coming into your call queues.
+- The Call Queue report shows analytics for calls coming into your Call queues.
   - [Original](media/aa-cq-historical-report-sample-cq-v310-orig.png)
   - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-cq-v310-new.png)
 
-- The Agent Timeline report shows a timeline view of agents being active in call queue calls.
+- The Agent Timeline report shows a timeline view of agents being active in Call queue calls.
   - [Original](media/aa-cq-historical-report-sample-at-v310-orig.png)
   - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-at-v310-new.png)
 
@@ -112,13 +112,13 @@ Perform the following steps:
 > 1. Select the dropdown menu for **Clear Permissions**, and then select **Clear All Permissions**.
 > 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
 
-## Data latency for auto attendant and call queue analytics
+## Data latency for Auto attendant and Call queue analytics
 
 The data is available within 30 minutes of the call being completed, but there are cases where it can take several hours for the data to appear.
 
 You'll have to refresh the data to see any new data.
 
-## Auto attendant and call queue historical reports definitions
+## Auto attendant and Call queue historical reports definitions
 
 ### Cloud Auto Attendant Analytics report
 
@@ -196,9 +196,9 @@ You'll have to refresh the data to see any new data.
 |:-----------------------------------------------------|:------------------------------------------------------------------|
 |Original: Incoming Call Source<br>New:Incoming Calls  |Distribution of calls by Internal/External call source             |
 |Average Wait Time (seconds)                           |Wait time for answered and abandoned calls                         |
-|Call Volume and Agent Opt-in Count                    |Distribution of calls by call queues / Maximum agent opt-in count  |
+|Call Volume and Agent Opt-in Count                    |Distribution of calls by Call queues / Maximum agent opt-in count  |
 |Call Results                                          |Distribution of calls by call result                               |
-|Abandoned Calls                                       |Distribution of abandoned calls by call queues                     |
+|Abandoned Calls                                       |Distribution of abandoned calls by Call queues                     |
 |Average Session Length (seconds)                      |Call length in seconds grouped by call result                      |
 |Call Overflow/Timeout Destinations                    |Distribution of calls that timed out or overflowed                 |
 
@@ -231,8 +231,8 @@ You'll have to refresh the data to see any new data.
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
-|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the call queue                          |
-|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the call queue                            |
+|Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
+|Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                                          |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
@@ -277,8 +277,8 @@ You'll have to refresh the data to see any new data.
 
 |Report Section                                          |Description                                                         |
 |:-------------------------------------------------------|:-------------------------------------------------------------------|
-|Number of Calls Answered by Agent                       |Distribution of calls by call queue and agent                       |
-|Distribution of Calls Answered by Agent and Call Queue  |Distribution of calls by agent and call queue                       |
+|Number of Calls Answered by Agent                       |Distribution of calls by Call queue and agent                       |
+|Distribution of Calls Answered by Agent and Call Queue  |Distribution of calls by agent and Call queue                       |
 |Table (bottom left)                                     |Distribution of calls by agent with average and total call duration |
 |Average Answered Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                |
 
@@ -306,8 +306,8 @@ You'll have to refresh the data to see any new data.
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |AgentTimelineAnalyticsSummaryLink       |Text                     |Used to link with fAgentTimelineAnalyticsSummary for the pop-up tooltip |
 |Call Duration (HH:MM:SS)                |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
-|Call Duration (Minutes)                 |Whole number             |Total call duration of answered call queue calls in minutes  |
-|Call Duration (Second)                  |Whole number             |Total call duration of answered call queue calls in seconds  |
+|Call Duration (Minutes)                 |Whole number             |Total call duration of answered Call queue calls in minutes  |
+|Call Duration (Second)                  |Whole number             |Total call duration of answered Call queue calls in seconds  |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
@@ -326,25 +326,25 @@ You'll have to refresh the data to see any new data.
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
 |AgentTimelineAnalyticsLink              |Text                     |Used to link with fAgentTimelineAnalytics for the pop-up tooltip |
-|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
+|Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered Call queue calls in seconds |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
 |Date                                    |Date                     |Date of call                                             |
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
 |Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
 |Total Call Duration (HH:MM:SS)          |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
-|Total Call Duration (Minutes)           |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes  |
+|Total Call Duration (Minutes)           |Whole number             |Summarize: Sum<br>Total call duration of answered Call queue calls in minutes  |
 
 > [!NOTE]
-> When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
+> When a call arrives at the first Call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second Call queue, then the agents in the second Call queue will be shown as being in the first Call queue on this report. 
 
 ## Known issues
 
-- Only the calls and caller actions in the first auto attendant or call queue that answers the call are reported on.  Calls and caller actions in chained auto attendants (when one auto attendant transfers to another auto attendant) or chained call queues (when one call queue transfers to another call queue) aren't reported on. 
+- Only the calls and caller actions in the first Auto attendant or Call queue that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) or chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
 
-- Call queues and auto attendants are shown by the resource account's ID instead of call queue or auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
+- Call queues and Auto attendants are shown by the resource account's ID instead of Call queue or Auto attendant names.  To show all the traffic for an Auto attendant or Call queue, you must select all the resource accounts assigned to the Auto attendant or Call queue.
 
-- Only 28 days of call history are available. Call queue and auto attendant data is considered personal data and is subject to data privacy retention policies.
+- Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
@@ -372,7 +372,7 @@ The following dimensions and measurements are available to be used.
 
 ### Common dimensions
 
-These dimensions are common to both auto attendants and call queues:
+These dimensions are common to both Auto attendants and Call queues:
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
@@ -399,7 +399,7 @@ These dimensions are common to both auto attendants and call queues:
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
-- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as **Internal**.
+- <sup>1</sup> **PSTNConnectivityType** will show the final call leg source rather than the initial call leg source. For example, if an Auto attendant receives an external call and transfers the call to another Auto attendant or Call queue, the **Incoming call source** will be reported as **Internal**.
 
 
 ### Auto attendant dimensions
@@ -428,7 +428,7 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |terminated_transfer_failed     |Call terminated as transfer failed - typically to external number |
 |                                                       |transfer_in_progress           |AA->AA transfer                                                   |
 |                                                       |transferred_to_operator        |Call was transferred to operator                                  |
-|                                                       |transferred_to_cq              |Call was transferred to call queue                                |
+|                                                       |transferred_to_cq              |Call was transferred to Call queue                                |
 |                                                       |transferred_to_receptionist    |Same as transferred_to_operator                                   |
 |                                                       |transferred_to_self            |Call was returned to the start of the AA                          |
 |                                                       |transferred_to_shared_voicemail |Call was transferred to shared voicemail                         |
@@ -457,8 +457,8 @@ These dimensions are common to both auto attendants and call queues:
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in call queue                                    |
-|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to call queue                           |
+|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in Call queue                                    |
+|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to Call queue                           |
 |CallQueueCallResult<br>(Text)                          |                               |Call queue call final state                                       |
 |                                                       |agent_joined_conference        |Call answered - conference mode CQ                                |
 |                                                       |declined                       |                                                                  |
@@ -469,7 +469,7 @@ These dimensions are common to both auto attendants and call queues:
 |                                                       |overflown                      |Overflow condition met                                            |
 |                                                       |timed_out                      |Timeout condition met                                             |
 |                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
-|CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the call queue                                   |
+|CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the Call queue                                   |
 |CallQueueFinalStateAction<br>(Text)                    |                               |Call queue final action                                           |
 |                                                       |disconnect                     |time_out calls                                                    |
 |                                                       |disconnect_with_busy           |overflown calls                                                   |

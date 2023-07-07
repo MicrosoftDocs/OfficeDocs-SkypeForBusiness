@@ -7,7 +7,7 @@ ms.date: 01/28/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
+ms.reviewer: mikeplum
 description: Get started with Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy across your organization.
 ms.localizationpriority: high
 search.appverid: MET150

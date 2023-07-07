@@ -1,7 +1,7 @@
 ---
 title: Conduct a user pilot to evaluate and test how Microsoft Teams will work in your organization 
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams

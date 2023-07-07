@@ -6,9 +6,9 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 05/05/2023
+ms.date: 06/27/2023
 search.appverid: 
-description: Auto install apps in Teams if admins approve it and users already use it outside Teams.
+description: Auto install apps in Teams that are approved by admins and used by users outside Teams.
 audience: admin
 ms.localizationpriority: high
 appliesto: 
@@ -117,14 +117,14 @@ Some of these apps require an admin to consent to its Graph permissions to work.
 | [ServiceDesk Plus Cloud for Microsoft Teams](https://appsource.microsoft.com/product/office/WA200000037) | [Deploy ServiceDesk Plus Cloud for Teams](https://help.servicedeskplus.com/integration-with-microsoft-teams)                                            | Not required                                                                                                                             |
 | [Smartsheet](https://appsource.microsoft.com/product/office/WA104380975)                                 | Setup isn't required.                                                                                                                                   | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f4d81e8e-4500-44c2-8328-9e06cbe037c5/permission)        |
 | [Templafy](https://appsource.microsoft.com/product/office/WA200004361)                                   | [Deploy Templafy for Teams](https://support.templafy.com/hc/en-us/articles/360015220358)                                                                | Not required                                                                                                                             |
-| [Thrive Global](https://appsource.microsoft.com/product/office/WA200004531)                              | [Contact Thrive Global](https://thriveglobal.com/products/thrive-for-teams) for information.                                                                                                                  | [Deploy Thrive Global for Teams](https://admin.teams.microsoft.com/policies/manage-apps/d4774f88-9a5e-470c-9a8f-c77b63b6e322/permission) |
+| [Thrive Global](https://appsource.microsoft.com/product/office/WA200004531)                              | [Contact Thrive Global](https://thriveglobal.com/products/thrive-for-teams) for information.                                                                                                                  | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/d4774f88-9a5e-470c-9a8f-c77b63b6e322/permission) |
 | [Workplace from Facebook](https://appsource.microsoft.com/product/office/WA200003462)                    | [Deploy Workplace from Facebook for Teams](https://www.workplace.com/help/work/641802850313984)                                                         | Not required                                                                                                                             |
 | [Zendesk for Teams](https://appsource.microsoft.com/product/office/WA200003782)                          | [Deploy Zendesk for Teams](https://zendeskforteams.com/installation-guide)                                                                              | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f36c0433-ea87-4102-bea7-0a8456fa8a2e/permission).       |
 | [Zoho Projects](https://appsource.microsoft.com/product/office/WA104381668)                              | [Deploy Zoho Projects for Teams](https://help.zoho.com/portal/en/kb/projects/integration/microsoft/articles/microsoft-teams-integration)                | Not required                                                                                                                             |
 
 Consider the following app installation information when following the above developer instructions for this feature.
 
-* Some app setup instructions include deploying the app using app setup policies. Using setup policy is optional with this feature. You may continue preinstalling apps as an admin with app setup policies or you may enable Auto install approved apps feature to install for your users without your intervention.
+* Some app setup instructions include deploying the app using app setup policies. Using setup policy is optional with this feature. You may continue preinstalling apps8 as an admin with app setup policies or you may enable Auto install approved apps feature to install for your users without your intervention.
 
 * Some app setup instructions include steps to install the app in multiple scopes that are personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. You can follow app developer's setup instructions to deploy the other app scopes, besides personal apps.
 

@@ -1,7 +1,7 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -69,6 +69,21 @@ Make sure the computers you install Teams on meeting the requirements listed in 
 
 For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
+### Uninstallation
+
+If a user that had Teams installed via an MSI uninstalls it, a registry key is created:
+
+`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`
+
+While this key is present, Teams won't install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
+
+```
+TeamsMachineUninstallerLocalAppData REG_EXPAND_SZ
+%LOCALAPPDATA%\Microsoft\Teams\Update.exe --uninstall --msiUninstall
+```
+
+This will cause Teams to uninstall the next time the user signs in.
+
 ## Clean up and redeployment procedure
 
 If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
@@ -98,6 +113,9 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 
 > [!CAUTION]
 > If you've already deployed Teams and want to set this policy to disable Teams autostart, first set the Group Policy setting to the value you want, and then run the [Teams autostart reset script](scripts/powershell-script-teams-reset-autostart.md) on a per-user basis.
+
+> [!NOTE]
+> For information about using Administrative Templates in Microsoft Intune to configure this setting, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows).
 
 ### Disable auto launch for the MSI installer
 

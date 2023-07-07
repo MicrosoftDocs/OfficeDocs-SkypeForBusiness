@@ -1,7 +1,7 @@
 ---
 title: Manage Microsoft Teams configuration on Surface Hub
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: rahulmi
 ms.date: 08/06/2020
 manager: serdars
