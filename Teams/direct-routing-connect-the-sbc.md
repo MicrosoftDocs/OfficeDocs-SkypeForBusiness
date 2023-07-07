@@ -22,7 +22,7 @@ description: "Learn how to configure and connect your SBC to Teams Phone System 
 
 # Connect your Session Border Controller (SBC) to Direct Routing
 
-This article describes how to configure a Session Border Controller (SBC) and connect it to  Direct Routing.  This is step 1 of the following steps to configure Direct Routing:
+This article describes how to configure a Session Border Controller (SBC) and connect it to Direct Routing. This is step 1 of the following steps to configure Direct Routing:
 
 - **Step 1. Connect your SBC with Phone System and validate the connection** (This article)
 - Step 2. [Enable users for Direct Routing](direct-routing-enable-users.md)
@@ -32,6 +32,9 @@ This article describes how to configure a Session Border Controller (SBC) and co
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-center) or [PowerShell](#using-powershell) to configure and connect an SBC to Direct Routing.
+
+> [!NOTE]
+> For GCC High and DoD clouds, you must use PowerShell. The option to connect the SBC is not available in the Teams admin center.
 
 ## Using the Microsoft Teams admin center
 
