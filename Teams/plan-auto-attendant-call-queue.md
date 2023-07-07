@@ -108,7 +108,9 @@ Which resource account to license:
 > 
 > Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.
 > 
-> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud Call queues](/skypeforbusiness/hybrid/plan-call-queue).
+> In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
+> 
+> New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
 
