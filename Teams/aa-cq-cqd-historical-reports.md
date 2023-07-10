@@ -98,8 +98,8 @@ Perform the following steps:
 
    :::image type="content" source="media/aa-cq-historical-report-01-v312.png" alt-text="Screenshot showing the DataSource and UTC Offset selections.":::
 
-  - **Data Source**: Select the `api.interfaces.records.teams.microsoft.com` entry.
-  - **UTC Offset**: Select the UTC offset that represents the time zone that you want the reports presented in.
+  - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
+  - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in.
 
 5. You are prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
