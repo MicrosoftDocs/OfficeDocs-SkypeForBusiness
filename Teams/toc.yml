@@ -1745,18 +1745,6 @@ items:
               href: expand-teams-across-your-org/assignments-in-teams.md
             - name: Set up Parent Connection in Teams
               href: edu-parents-app.md
-            - name: Career Coach
-              items:
-                - name: Get started with Career Coach
-                  href: career-coach.md
-                - name: Set up and configure Career Coach
-                  href: career-coach-set-up-steps.md
-                - name: Troubleshoot Career Coach
-                  href: career-coach-troubleshoot.md
-                - name: Career Coach data compliance
-                  href: privacy-career-coach-data-compliance.md
-                - name: Resources for Career Coach
-                  href: career-coach-resources.md
         - name: LMS and LTI integrations
           items:
             - name: Install Moodle LMS integration
