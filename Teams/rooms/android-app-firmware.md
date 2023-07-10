@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
 | 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1B  | May 05, 2023 |`1449/1.0.96.2023050203`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1A  | April 17, 2023 |`1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
@@ -52,6 +53,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
+| Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
+| Cisco Room Bar | `11.5.2.5` | 2023 Update #2 |
+| Cisco Room Kit Pro | `11.5.2.5` | 2023 Update #2 |
+| Cisco Desk Pro | `11.5.2.5` | 2023 Update #2 |
+| Cisco Room Bar Pro | `11.5.2.5` | 2023 Update #2 |
+| Cisco Room Kit EQ | `11.5.2.5` | 2023 Update #2 |
+| DTEN D7X ON_DBR14 | `1.4.2.0` | 2023 Update #1C |
+| Poly Studio X52 | `4.1.0.382189` | 2023 Update #1B |
+| Poly TC10 | `4.1.0.211109` | 2023 Update #1B |
 | EPOS EXPAND Vision 5T |`v1.4.23139.07`   | 2023 Update #1A |
 | EPOS EXPAND Control 3C |`v1.4.23139.06`   | 2023 Update #1A |
 | Logi Rallybar | `1.9.544`   | 2023 Update #1A  |

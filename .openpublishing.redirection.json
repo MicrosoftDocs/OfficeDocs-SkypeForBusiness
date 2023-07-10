@@ -4474,6 +4474,116 @@
     "source_path": "Teams/assign-change-emergency-location-user.md",
     "redirect_url": "/microsoftteams/add-change-remove-emergency-location-organization",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-basic-powershell.md",
+    "redirect_url": "/microsoftteams/setting-your-coexistence-and-upgrade-settings",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-in-30-workshops.md",
+    "redirect_url": "/microsoftteams/teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/ignite-2020-landing-page.md",
+    "redirect_url": "/microsoftteams/itadmin-readiness",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-admin-training-landing-page.md",
+    "redirect_url": "/microsoftteams/itadmin-readiness",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-to-Teams-execute-SkypeforBusinessHybrid.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/Environmental-discovery-for-Microsoft-Teams-rollout.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-basic.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-monitor-quality.md",
+    "redirect_url": "/microsoftteams/monitor-call-quality-qos",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/best-practices-feedback.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-emails-surveys.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-workshops-landing-page.yml",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-plan-journey-discovery-questionnaire.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-create-teams-from-managers-new-teams.md",
+    "redirect_url": "/microsoftteams/teams-powershell-managing-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/prepare-my-users-feedback-templates.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-enhance-my-service.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-help-in-microsoft-teams.md",
+    "redirect_url": "/microsoftteams/teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice-to-teams-phone-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/get-ready-internet.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/reseller-partner-support.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/set-up-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/ui/admin-perms-needed.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
   }
  ] 
 }
