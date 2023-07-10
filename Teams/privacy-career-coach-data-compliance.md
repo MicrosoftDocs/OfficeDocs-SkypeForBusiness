@@ -1,7 +1,7 @@
 ---
 title: Career Coach data and compliance information
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniESmith
+ms.author: danismith
 manager: serdars
 ms.date: 06/06/2023
 ms.topic: article
