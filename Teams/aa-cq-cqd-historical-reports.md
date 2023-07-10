@@ -33,7 +33,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
-## V3.1.1 published on May 11, 2023
+## V3.1.2 published on July 14, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -88,15 +88,18 @@ The following steps assume you have already installed Power BI Desktop on your c
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.1.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.2.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.1.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.2.pbit` template file. Power BI Desktop should launch.
 
-4. You'll be prompted to select the **Data Source**.  Select the `api.interfaces.records.teams.microsoft.com` entry.
+4. You'll be prompted to select the **Data Source** and **UTC Offset".  
 
    :::image type="content" source="media/aa-cq-historical-report-01-v310.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+
+  - **Data Source**: Select the `api.interfaces.records.teams.microsoft.com` entry.
+  - **UTC Offsent**: Select the UTC offset that represents the time zone that you want the reports presented in.
 
 5. You'll be prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -142,7 +145,7 @@ You'll have to refresh the data to see any new data.
 
 |Report Section                               |Field(s) Used                                                                                    |Filters Applied |
 |:--------------------------------------------|:------------------------------------------------------------------------------------------------|:----------|
-|Date selector                                |AAStartTime                                                                                      |None       |
+|Date selector                                |AA Start Time Local                                                                              |None       |
 |Time Range selector                          |AAStartHour                                                                                      |None       |
 |Auto Attendant Resource Accounts             |AA Name                                                                                          |None       |
 |Incoming Call Source                         |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
@@ -158,6 +161,7 @@ You'll have to refresh the data to see any new data.
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value will be: **aa_test** |
+|AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
 |AACallerActionCount (Measure)           |Whole number             |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
@@ -172,14 +176,15 @@ You'll have to refresh the data to see any new data.
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
 |AAStartHour                             |Whole number             |Auto Attendant call start hour                                                           |
-|AAStartTime                             |Date/time                |Auto Attendant call start time                                                           |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
-|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
-|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|Count of AADirectorySearchMethod for DTMF |Whole number           |Count of calls that used DTMF to search the directory                                    |
+|Count of AADirectorySearchMethod for Voice |Whole number           |Count of calls that used Voice to search the directory                                    |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
@@ -211,16 +216,17 @@ You'll have to refresh the data to see any new data.
 
 |Report Section                      |Table -> Field(s) Used                |Filters Applied       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
-|Date selector                       |fCallQueueAnalytics -> Date           |None                  |
+|Date selector                       |fCallQueueAnalytics -> Call Start Time Local |None           |
 |Time Range selector                 |fCallQueueAnalytics -> CQHour         |None                  |
 |Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
 |Incoming call source                |fCallQueueAnalytics -> Sum of Call Count (Measure)  |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
 |Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent|
 |Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result isn't agent_joined_conference, transferred_to_agent, overflown, timed_out |
 |Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
+|Call Results                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result<br>fCallQueueAnalytics ->Call Queue Call Result Legend | None|
 |Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
-|Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
+|Call Overflow/Timeout/No Agents Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
 
 
 #### fCallQueueAnalytics table field description
@@ -229,7 +235,7 @@ You'll have to refresh the data to see any new data.
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
-|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
@@ -237,7 +243,7 @@ You'll have to refresh the data to see any new data.
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                                          |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
 |Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
-|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
@@ -269,6 +275,8 @@ You'll have to refresh the data to see any new data.
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
 |IsAbandoned                             |True/false               |True if caller hangs up before being answered by an agent                  |
+|Local Date                              |Date/time                |Local date/time (based on selected UTC Offset)                             |
+|UTC Date                                |Date/time                |UTC  date/time                                                             |
 
 
 ### Cloud Call Queue Agent Timeline report
@@ -308,9 +316,9 @@ You'll have to refresh the data to see any new data.
 |Call Duration (HH:MM:SS)                |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
 |Call Duration (Minutes)                 |Whole number             |Total call duration of answered Call queue calls in minutes  |
 |Call Duration (Second)                  |Whole number             |Total call duration of answered Call queue calls in seconds  |
-|Call End Time Local                     |Date/time                |Call end time - Local (based on time zone of computer running report)                    |
+|Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
-|Call Start Time Local                   |Date/time                |Call start time - Local (based on time zone of computer running report)                  |
+|Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
@@ -697,6 +705,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.1.2    |July 14, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, introducing beta support for Auto Attendant andd Call Queue call details          |
 |3.1.1    |May 11, 2023       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
 |3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
 |3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
