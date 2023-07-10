@@ -94,14 +94,14 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.2.pbit` template file. Power BI Desktop should launch.
 
-4. You are prompted to select the **DataSource** and **UTC Offset**.  
+4. You're prompted to select the **DataSource** and **UTC Offset**.  
 
    :::image type="content" source="media/aa-cq-historical-report-01-v312.png" alt-text="Screenshot showing the DataSource and UTC Offset selections.":::
 
   - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
   - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in.
 
-5. You are prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
    :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
 
@@ -129,11 +129,11 @@ You have to refresh the data to see any new data.
 
 |Report Section                                                    |Description                                                       |
 |:-----------------------------------------------------------------|:-----------------------------------------------------------------|
-|Original: Incoming Call Source<br>New:Incoming Calls              |Distribution of calls by Internal/External call source            |
+|Original: Incoming Call Source<br>New: Incoming Calls             |Distribution of calls by Internal/External call source            |
 |Directory Search Method                                           |Distribution of calls by search type                              |
 |Caller Action Count                                               |Distribution of calls by number action used during the call       |
-|Original: Average Seconds in AA<br>New:AA Stats Duration [secs]   |Average number of seconds callers spend in the AA                 |
-|Original: Average Caller Actions<br>New:AA Stats Caller Actions   |Average number of actions callers perform in the AA               |
+|Original: Average Seconds in AA<br>New: AA Stats Duration [secs]  |Average number of seconds callers spend in the AA                 |
+|Original: Average Caller Actions<br>New: AA Stats Caller Actions  |Average number of actions callers perform in the AA               |
 |Call Results                                                      |Distribution of calls by final call state                         |
 |Lower section of report                                           |Call flow breakdown                                               |
 
@@ -199,7 +199,7 @@ You have to refresh the data to see any new data.
 
 |Report Section                                        |Description                                                        |
 |:-----------------------------------------------------|:------------------------------------------------------------------|
-|Original: Incoming Call Source<br>New:Incoming Calls  |Distribution of calls by Internal/External call source             |
+|Original: Incoming Call Source<br>New: Incoming Calls |Distribution of calls by Internal/External call source             |
 |Average Wait Time (seconds)                           |Wait time for answered and abandoned calls                         |
 |Call Volume and Agent Opt-in Count                    |Distribution of calls by Call queues / Maximum agent opt-in count  |
 |Call Results                                          |Distribution of calls by call result                               |
@@ -705,7 +705,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.2    |July 14, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, introducing beta support for Auto Attendant andd Call Queue call details          |
+|3.1.2    |July 14, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, introducing preview support for Auto Attendant and Call Queue call details          |
 |3.1.1    |May 11, 2023       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
 |3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
 |3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
