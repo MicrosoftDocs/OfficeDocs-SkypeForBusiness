@@ -86,7 +86,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 
 ## Related topics
 
-- [Manage email communications for town halls and webinars](manage-email-communications-for-webinars.md)
+- [Manage email communications for town halls and webinars placeholder] 
 - [Set up webinars](set-up-webinars.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
