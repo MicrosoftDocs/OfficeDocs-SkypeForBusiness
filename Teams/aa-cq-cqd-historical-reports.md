@@ -94,9 +94,9 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.2.pbit` template file. Power BI Desktop should launch.
 
-4. You are prompted to select the **Data Source** and **UTC Offset".  
+4. You are prompted to select the **Data Source** and **UTC Offset**.  
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v310.png" alt-text="Screenshot selecting the api.interfaces.records.teams.microsoft.com Data Source.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v312.png" alt-text="Screenshot showing the Data Source and UTC Offset selections.":::
 
   - **Data Source**: Select the `api.interfaces.records.teams.microsoft.com` entry.
   - **UTC Offsent**: Select the UTC offset that represents the time zone that you want the reports presented in.
