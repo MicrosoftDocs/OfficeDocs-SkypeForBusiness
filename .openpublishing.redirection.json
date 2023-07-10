@@ -4584,6 +4584,31 @@
     "source_path": "Teams/business-voice/ui/admin-perms-needed.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-set-up-steps.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-troubleshoot.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/privacy-career-coach-data-compliance.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-resources.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
   }
  ] 
 }
