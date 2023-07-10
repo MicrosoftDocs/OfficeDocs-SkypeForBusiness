@@ -105,7 +105,7 @@ Perform the following steps:
 
    :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
 
-6. Select **Connect**, and the data will refresh.
+6. Select **Connect**, and the data refreshes.
 
 > [!NOTE]
 > If you were using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
@@ -332,10 +332,10 @@ You have to refresh the data to see any new data.
 
 |Name                                    |Data Type                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value will be: **user** |
+|Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com**, then this value is: **user** |
 |AgentTimelineAnalyticsLink              |Text                     |Used to link with fAgentTimelineAnalytics for the pop-up tooltip |
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>The average duration of answered Call queue calls in seconds |
-|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value will be: **cq_test** |
+|CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |Date                                    |Date                     |Date of call                                             |
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
@@ -577,7 +577,7 @@ A valid query consists of several attributes in a JSON object:
 
 ## Accessing VAAC outside of Power BI
 
-Any application that can access RESTful web services can use the VAAC API to retrieve historical data. In the example below, [Postman](https://www.postman.com/) is used.
+Any application that can access RESTful web services can use the VAAC API to retrieve historical data. In the following example, [Postman](https://www.postman.com/) is used.
   
 
 ### Preparation
@@ -610,8 +610,8 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
 10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
-   - [Compress](#compress-the-json-query) the query as outlined below
-   - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined below
+   - [Compress](#compress-the-json-query) the query as outlined
+   - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined
 
 11. Fill in your [query](#constructing-a-valid-query) string.
 12. Select **Send**.
@@ -620,7 +620,7 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
 After you submit your input, there will be a couple of possible results:
 
-- If the input is invalid, an error message with the actual reason will be returned
+- If the input is invalid, an error message with the actual reason is returned
 - If the input is valid, the result looks like this:
 
    :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field" lightbox="media/aa-cq-historical-report-postman-04.png" :::
