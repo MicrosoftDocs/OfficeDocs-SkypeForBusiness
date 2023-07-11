@@ -166,12 +166,10 @@ They can proceed to assign the licensed employees in Contoso Technical Services 
 
 ## Where are meeting themes visible
 
-> [!NOTE]
-> Attendees joining Teams through the Web experience won't be able to see meeting themes.
-
 Supported clients:
 
 - Desktop client
+- Web client
 - Android (Versions 11+ only)
 - iOS
 
