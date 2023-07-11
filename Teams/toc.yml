@@ -993,6 +993,8 @@ items:
               href: operator-connect-india-plan.md
             - name: Configure Operator Connect for India
               href: operator-connect-india-configure.md
+            - name: Configure Location Based Routing for India
+              href: location-based-routing-india-plan.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile

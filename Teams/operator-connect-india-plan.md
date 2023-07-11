@@ -1,5 +1,5 @@
 ---
-title: Plan for Operator Connect
+title: Plan for Operator Connect for India
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,11 +25,19 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan for Operator Connect
+# Plan for Operator Connect for India
 
 Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
+Operator Connect for India...   
+
 This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Program.  
+
+
+Blocking calls for users when they are outside of the country is an important measure to comply with regulations in India. This is because Indian telecom regulations require telecom service providers to block international calls made or received by customers who are roaming outside of India, to prevent fraud and protect consumers from potential financial losses. This measure also ensures that customers are not unknowingly charged for international calls at higher rates, which could result in unexpected and unmanageable bills. Therefore, implementing call blocking for roaming customers is crucial for telecom providers to remain compliant with Indian regulations, and to maintain the trust and satisfaction of their customers.   
+
+
+
 
 Operator Connect might be the right solution for your organization if:
 
