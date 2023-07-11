@@ -458,8 +458,6 @@ items:
 
     - name: Operate your service
       href: upgrade-operate-my-service.md
-    - name: Enhance your service
-      href: upgrade-enhance-my-service.md
     - name: Public preview in Microsoft Teams
       href: public-preview-doc-updates.md
     - name: Use inline message translation
@@ -1554,7 +1552,7 @@ items:
               href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
-            - name: Hotdesking Teams Displays
+            - name: Hot desking Teams Displays
               href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
@@ -1756,18 +1754,6 @@ items:
               href: expand-teams-across-your-org/assignments-in-teams.md
             - name: Set up Parent Connection in Teams
               href: edu-parents-app.md
-            - name: Career Coach
-              items:
-                - name: Get started with Career Coach
-                  href: career-coach.md
-                - name: Set up and configure Career Coach
-                  href: career-coach-set-up-steps.md
-                - name: Troubleshoot Career Coach
-                  href: career-coach-troubleshoot.md
-                - name: Career Coach data compliance
-                  href: privacy-career-coach-data-compliance.md
-                - name: Resources for Career Coach
-                  href: career-coach-resources.md
         - name: LMS and LTI integrations
           items:
             - name: Install Moodle LMS integration
@@ -1866,8 +1852,6 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md
-        - name: Move from Business Voice to Teams Phone
-          href: business-voice-to-teams-phone-licenses.md
     - name: Move from Kaizala
       items: 
         - name: Get started
@@ -2164,7 +2148,5 @@ items:
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors
       href: shared-channels-errors.md
-    - name: Upgrade discovery questionnaire
-      href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
       href: /OfficeUpdates/teams-admin

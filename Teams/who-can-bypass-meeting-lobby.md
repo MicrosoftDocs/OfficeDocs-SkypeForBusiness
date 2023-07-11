@@ -57,7 +57,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 |Policy value:|Everyone|People in my org, trusted orgs, and guests|People in my org and guests|People in my org|People who were invited|Only organizers and co-organizers|
 |:--------|:------|:-----|:-----|:------|:-------|:---------------|
 |*Organizer and co-organizers*|Bypass|Bypass|Bypass|Bypass|Bypass|Bypass|
-|*People in your organization and guests*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
+|*People in your organization*|Bypass|Bypass|Bypass|Bypass|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Guests*|Bypass|Bypass|Bypass|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*People in trusted organizations*|Bypass|Bypass|Lobby|Lobby|People who were sent or forwarded an invite will bypass; others wait in the lobby|Lobby|
 |*Anonymous participants*|Bypass|Lobby|Lobby|Lobby|People signed in to non-trusted organizations in external access will bypass the lobby; others wait in the lobby.|Lobby|

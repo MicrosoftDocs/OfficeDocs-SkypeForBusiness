@@ -56,6 +56,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Yealink MP58 | `122.15.0.135`|October 4, 2026   | 12 |
+| Yealink MP56 | `122.15.0.135`|October 4, 2026   | 12 |
+| Yealink MP54 | `122.15.0.135`|October 4, 2026   | 12 |
 | Poly CCX350                            | `8.0.1.4670`                                                  | 	November 5, 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	November 5, 2023              | 9 |
 | AudioCodes C450HD*                    | `1.17.443`                                                     | 	August 5, 2023               | 9 |
@@ -73,10 +76,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX600                            | `5.9.12.1122`                                              | November 5, 2023               | 9 |
 | Poly CCX500                            | `5.9.12.1122`                                              | November 5, 2023                | 9 |
 | Yealink EXP50 supported on MP56, MP58, VP59| For each supported device model, see update #7 firmware version | November 5, 2023       | 9 |
-| Yealink MP58 | `122.15.0.27`|November 5, 2023   | 9 |
-| Yealink MP54 | `122.15.0.27`|November 5, 2023   | 9 |
-| Yealink MP56 | `122.15.0.6` |November 5, 2023   | 9 |
 | Yealink VP59 | `91.15.0.16` |November 5, 2023   | 9 |
+
 
 ## Certified Teams Rooms on Android
 
@@ -341,6 +342,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
 |Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
