@@ -192,8 +192,7 @@ The Updates section provides a count of total updates either scheduled, in progr
 The estimated hours saved from the actions completed are converted to a monetary amount based on a default rate of $50 USD/hour for IT professionals. To customize the rate, select _See details_ in this section.
 The Detail pane allows you to input a custom hourly rate and corresponding currency to get a better monetary estimate.  
 
-## User experience 
-This section provides the average call rating by end users on a scale of 1-5 (5 being the best). 
+## User experience
 
-
+This section provides the average call rating by end-users on a scale of 1 to 5 (5 being the best).
 
