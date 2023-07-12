@@ -55,7 +55,7 @@ The full version of Teams included with a Microsoft 365 or Office 365 subscripti
 
 - No user limit (with an enterprise license)
 - Exchange email hosting and custom email domain
-- OneDrive, SharePoint, Planner, Yammer, and more Microsoft 365 and Office 365 services
+- OneDrive, SharePoint, Planner, Viva Engage, and more Microsoft 365 and Office 365 services
 - 1 TB of storage per user
 - Scheduled meetings
 - Audio conferencing
