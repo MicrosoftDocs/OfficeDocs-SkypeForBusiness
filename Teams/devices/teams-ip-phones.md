@@ -306,6 +306,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View Plus| `10.1.t.2.36` |2022 Update #5  |
 |Yealink DeskVisionA24 | `156.15.0.24` | 2023 Update #1B|
 |Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
 |Crestron UC-P8-TD     |`1.0.0.60` |2022 Update #3A|
