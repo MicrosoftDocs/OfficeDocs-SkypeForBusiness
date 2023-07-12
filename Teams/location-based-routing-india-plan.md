@@ -1,5 +1,9 @@
 ---
+<<<<<<< Updated upstream
 title: Plan Location-Based Routing for Direct Routing
+=======
+title: Plan Location-Based Routing for India
+>>>>>>> Stashed changes
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,7 +13,11 @@ audience: admin
 ms.reviewer: roykuntz
 ms.date: 03/15/2023
 search.appverid: MET150
+<<<<<<< Updated upstream
 description: Learn how to plan Location-Based Routing for Teams Phone Direct Routing.
+=======
+description: Learn how to plan Location-Based Routing for Teams Phone in India.
+>>>>>>> Stashed changes
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -20,11 +28,19 @@ appliesto:
   - Microsoft Teams
 ---
 
+<<<<<<< Updated upstream
 # Plan Location-Based Routing for Direct Routing
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
 This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. (Location-Based Routing doesn't apply to Calling Plan or Operator Connect.)
+=======
+# Plan Location-Based Routing for India
+
+In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Telecom service providers in India are required to block international calls made or received by customers who are roaming outside of India. 
+
+This article describes what you need to know to use Location-Based Routing for Microsoft Teams users based in India. This article applies only to Location Based Routing for India.
+>>>>>>> Stashed changes
 
 > [!NOTE]
 > You shouldn't use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
