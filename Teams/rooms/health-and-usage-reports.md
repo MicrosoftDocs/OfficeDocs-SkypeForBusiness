@@ -183,7 +183,8 @@ To view the Insight report for all rooms, select **Report** > **Insight Report (
 
 The Detection, investigation, and remediation section displays two counts respective of the specified time range: Meeting issues prevented and Incidents remediated.
 
-## Updates: 
+## Updates
+ 
 The Updates section provides a count of total updates either scheduled, in progress, or completed across the devices enrolled in the service.
 
 ## Estimated savings 
