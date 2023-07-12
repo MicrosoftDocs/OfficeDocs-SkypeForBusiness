@@ -168,7 +168,6 @@ The **Calls** table shows meetings in which the room participated in a Teams cal
 
 To view stream details for the room, click the Session Start Time.
 
-
 ## Insight report
 
 The Insight report is located under the Report section of the pro-management portal. It provides a detailed overview of all the activities completed by our services during a specific time range, including the types of actions performed, such as detection, remediation, and updates. This report highlights the value we provide through actions to resolve rooms issues and how much time and money we help you save by doing that. 
