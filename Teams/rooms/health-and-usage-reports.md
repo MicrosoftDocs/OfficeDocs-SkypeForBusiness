@@ -169,10 +169,11 @@ The **Calls** table shows meetings in which the room participated in a Teams cal
 To view stream details for the room, click the Session Start Time.
 
 
-## Insight Report
+## Insight report
 
-The insight report is located under the report section of the pro management portal and provides a detailed overview of all the activities completed by our services during a specific time range, including the types of actions performed such as detections, remediation, and update. This report highlights the value we provide through actions to resolve rooms’ issue and how much time and money we help you save by doing that. 
-To view insight report of all rooms, select Report > Insight Report (Preview) 
+The Insight report is located under the Report section of the pro-management portal. It provides a detailed overview of all the activities completed by our services during a specific time range, including the types of actions performed, such as detection, remediation, and updates. This report highlights the value we provide through actions to resolve rooms issues and how much time and money we help you save by doing that. 
+
+To view the Insight report for all rooms, select **Report** > **Insight Report (Preview)**.
 
 ## Actions: 
  The actions section of the report shows a timeline view and aggregate count of all actions completed each day by the service. Action types include Detection, Remediation, and Updates. Details on the actions can be viewed by selecting "See details”. Once click on the “see details”, a new panel will come with two sections:  Tickets and Updates. The ticket shows a list of tickets with corresponding hours saved. Select the ticket to show an expanded view of each action taken on the respective ticket and hour saved. the Updates section shows a list of each update applied and corresponding tally of devices that successfully completed the update.  
