@@ -4476,6 +4476,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/different-kinds-of-phone-numbers-used-for-calling-plans.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers-landing-page",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/upgrade-basic-powershell.md",
     "redirect_url": "/microsoftteams/setting-your-coexistence-and-upgrade-settings",
     "redirect_document_id": false
