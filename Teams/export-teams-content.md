@@ -160,9 +160,9 @@ Export API has filter parameters that help optimize the messages returned for a 
 
  - applications (bots, connectors etc.) 
 
- - anonymous guest users 
+ - anonymous users 
 
- - federated user (guest/external) 
+ - external access users 
 
 These parameters are part of the request’s `$filter`. If none of these parameters are present in the request, the messages from all the users present in the specified user chats will be returned.   
 
