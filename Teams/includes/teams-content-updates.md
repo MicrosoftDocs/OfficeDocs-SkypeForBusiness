@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of July 03, 2023
@@ -115,7 +116,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 6/21/2023 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 6/21/2023 | [Enroll a Teams Room device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 6/21/2023 | [Enroll a Teams Rooms device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
 | 6/21/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
 | 6/21/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
 | 6/22/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
