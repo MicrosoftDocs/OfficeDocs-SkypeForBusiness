@@ -149,3 +149,55 @@ Namespace: microsoft.graph
 
 > [!NOTE]
 > For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+
+## Chat API Enhancements for Export API    
+
+Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Currently, calling the API for a single user at a time creates a situation where results are returned for both sender and recipient. This creates duplicate results when calling the API for both users on the same thread.    
+
+Export API now comes enhanced with new filter parameters that will help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) now supports new filter parameters to de-dupe the chat messages and avoid duplicates. The new filter parameter supports messages sent by the following: 
+
+ - users (multiple user Ids supported in the same request) 
+
+ - applications (bots, connectors etc.) 
+
+ - anonymous guest users 
+
+ - federated user (guest/external) 
+
+These new parameters are part of the request’s `$filter`. If none of these parameters are present in the request, the messages from all the users present in the specified user chats will be returned.   
+
+The filtering scenarios that are supported are as follows: 
+
+```
+$filter=from/application/applicationIdentityType eq '<appType>' (bots/tenantBots/connectors, etc.)  
+  
+$filter=from/user/id eq '<oid>' (any number of id filters)  
+  
+$filter=from/user/userIdentityType eq 'anonymousGuest'  
+  
+$filter=from/user/userIdentityType eq 'federatedUser' (guest/external)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' (sent by app or userid)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' (sent by app or anonymous)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'federatedUser' (sent by app or federated)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by app, anonymous or federated)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' (sent by any number of userid or anonymous)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated or anonymous)    
+
+(<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
+```
+
+If `from/user/id eq ‘{oid}’` is present, only the messages sent by the specified user will be returned; if `from/user/userIdentityType eq ‘federatedUser’` is present, the returned messages will be the ones sent by the federated users that are part of the user chats. These new parameters can be combined between them using the OR operators as well as by combining with the `‘lastModifiedDateTime’` `$filter` parameter.   
+
+
+
+
+
+
