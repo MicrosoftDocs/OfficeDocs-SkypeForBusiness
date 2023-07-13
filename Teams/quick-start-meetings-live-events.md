@@ -55,7 +55,7 @@ The following table shows the main features that are different between meetings,
 |Yammer integration|✖️|✖️|✔️|
 |Breakout rooms|✔️|✔️|✖️|
 
-**The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
+**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
 
 
 ## RTMP
