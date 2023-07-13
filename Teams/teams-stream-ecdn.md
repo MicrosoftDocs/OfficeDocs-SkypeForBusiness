@@ -77,7 +77,7 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ## Configure Stream encoder type events for your eCDN solution
 
-After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Yammer.
+After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Viva Engage.
 
 1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
 1. Toggle the **Video distribution provider** to **On**.
@@ -91,9 +91,9 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 After you configure Teams for an eCDN solution, any video or live event that is played in Teams will take advantage of that solution automatically.
 
-## Configure Teams production type events through Teams and Yammer for your eCDN solution
+## Configure Teams production type events through Teams and Viva Engage for your eCDN solution
 
-If you plan to create Teams live events through Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+If you plan to create Teams live events through Teams or Viva Engage, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
 
 ### Get to video analytics reports for your eCDN solution
 

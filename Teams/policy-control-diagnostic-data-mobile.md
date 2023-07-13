@@ -644,7 +644,7 @@ For more information about diagnostic data, including how to control what diagno
 - **liveEventPresenterJoin** - A live event is joined by a presenter.
 - **liveEventPresenterJoinAsAttendee** - A live event presenter joined as an attendee.
 - **liveEventQnA** - The **Q&A** icon is selected.
-- **liveEventYammer** - The **Yammer** icon is selected.
+- **liveEventVivaEngage** - The **Viva Engage** icon is selected.
 - **liveMeetingPushNotificationClicked** - Push notification is selected.
 - **liveMeetingToastClicked** - In-app toast is selected.
 - **live_location_in_chats_from_profile_clicked** - **Live locations** is selected in profile view.
