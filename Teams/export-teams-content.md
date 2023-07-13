@@ -148,13 +148,13 @@ Namespace: microsoft.graph
 ```
 
 > [!NOTE]
-> For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+> For more information on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
 
 ## Export API filters
 
-Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Calling the API for a single user at a time returns results for for both sender and recipient. This creates duplicate results when calling the API for both users on the same thread.
+Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Calling the API for a single user at a time returns results for both sender and recipient. This creates duplicate results when calling the API for both users on the same thread.
 
-Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports filter parameters to de-dupe the chat messages and avoid duplicates. The filter parameter supports messages sent by the following: 
+Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports filter parameters to dedupe the chat messages and avoid duplicates. The filter parameter supports messages sent by the following: 
 
  - users (multiple user Ids supported in the same request) 
 
@@ -194,7 +194,7 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
 (<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
 ```
 
-If `from/user/id eq ‘{oid}’` is present, only the messages sent by the specified user will be returned; if `from/user/userIdentityType eq ‘federatedUser’` is present, the returned messages will be the ones sent by the federated users that are part of the user chats. These parameters can be combined between them using the OR operators as well as by combining with the `‘lastModifiedDateTime’` `$filter` parameter.   
+If `from/user/id eq ‘{oid}’` is present, only the messages sent by the specified user will be returned; if `from/user/userIdentityType eq ‘federatedUser’` is present, the returned messages are the ones sent by the federated users that are part of the user chats. These parameters can be combined between them using the OR operators as well as by combining with the `‘lastModifiedDateTime’` `$filter` parameter.   
 
 
 
