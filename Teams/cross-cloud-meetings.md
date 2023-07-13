@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: dacarrol
-ms.date: 07/01/2023
+ms.date: 07/28/2023
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -45,15 +45,11 @@ If you're setting up a cross-cloud meeting connection with a tenant that's in a 
 
 The following table shows which Microsoft Azure cloud environment your Microsoft 365 cloud environment is located in.
 
-|Microsoft 365 cloud environment|Microsoft Azure cloud environment|
-|:------------------------------|:--------------------------------|
-|Commercial|Microsoft Azure Commercial|
-|GCC|Microsoft Azure Commercial|
-|||
-|GCC High|Microsoft Azure Government|
-|DoD|Microsoft Azure Government|
-|||
-|China (21Vianet)|Microsoft Azure China|
+|Microsoft Azure cloud environment|Microsoft 365 cloud environment|
+|:--------------------------------|:------------------------------|
+|Microsoft Azure Commercial|Commercial, GCC|
+|Microsoft Azure Government|GCC High, DoD|
+|Microsoft Azure China|China (21Vianet)|
 
 If you're setting up a cross-cloud meeting connection with a tenant in a different Microsoft Azure cloud environment, enable that cloud environment in meeting settings.
 
@@ -72,7 +68,7 @@ Add a cross-cloud meeting connection
 1. Under **Cross-cloud meetings**, select **Add**.
 1. Type the Tenant ID of the organization you want to connect to or look it up by using the fully qualified domain name.
 1. If you want to allow users in the other organization to attend meetings hosted by your organization, set **Inbound connections** to **On**.
-1. If you want to allow users in your organization to attend meetings in the other organization, set **Outbound connections** to **Off**.
+1. If you want to allow users in your organization to attend meetings in the other organization, set **Outbound connections** to **On**.
 
     ![Screenshot of cross-cloud meetings settings in the Teams admin center.](media/cross-cloud-meetings-settings.png)
 
