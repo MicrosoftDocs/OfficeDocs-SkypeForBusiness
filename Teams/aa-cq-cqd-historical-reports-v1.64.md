@@ -34,7 +34,7 @@ description: Learn about how to use the Teams Auto Attendant & Call Queue Histor
 >
 > Public cloud customers should use V3.x.x of [Auto Attendant & Call Queue Historical Reports](aa-cq-cqd-historical-reports.md)
 
-## V1.63 published on August 24, 2022
+## V1.64 published on July 14, 2023
 
 The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** provides the following three reports:
 
@@ -316,6 +316,8 @@ Perform the following steps:
 > When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known issues
+
+- Auto attendant resoure account IDs are being masked which prevents reporting by individual auto attendants.  Support is investigating.
 
 - Call queue and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 
