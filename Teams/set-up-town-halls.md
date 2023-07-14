@@ -26,11 +26,7 @@ description: Learn how to set up and manage town hall policies for IT Admins in 
 
 # Set up town halls in Microsoft Teams
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
-
 Microsoft Teams offers town halls, a one to many interactive virtual event. This article describes how you, as an admin, can set up and manage town halls.
-
-A town hall is a one to many curated virtual event that allows up to 9 presenters and 20,000 attendees. This format provides extra control for an organizer over the conversation and participants.
 
 To learn more about town hall webinar features and capabilities, see [PLACEHOLDER].
 
