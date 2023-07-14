@@ -34,7 +34,7 @@ You can enable, edit, and remove operators in the Teams admin center. In the lef
 
 To enable an operator:
 
-**HOW WILL THE STEPS BELOW CHANGE? I'M ASSUMING THE TASK CAN BE PERFORMED IN TAC?  WHAT ABOUT POWERSHELL?**
+**HOW WILL THE STEPS BELOW CHANGE? I'M ASSUMING THE TASK CAN BE PERFORMED IN TAC? **
 
 1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then select the operator you want to enable.  
 
@@ -50,7 +50,7 @@ To enable an operator:
 
 ## Set up phone numbers
 
-**HOW DOES THIS SECTION CHANGE? I'M ASSUMING THERE IS NOT MOVING NUMBERS FROM CALLING PLANS...**
+**HOW DOES THIS SECTION CHANGE? DO WE NEED MOVING NUMBERS FROM CALLING PLANS?  FROM DIRECT ROUTING?**
 
 How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans or Direct Routing.
 

@@ -31,7 +31,7 @@ Operator Connect for India is another option for providing Public Switched Telep
 
 For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
-**SHOULD WE LINK TO PSTN CONNECTIVITY OPTIONS? OR IS IT MOOT FOR INDIA AND WE WANT TO PUSH THEM TO USE OC INDIA?**
+**SHOULD WE LINK TO PSTN CONNECTIVITY OPTIONS? OR IS IT MOOT FOR INDIA -- WE WANT TO PUSH THEM TO USE OC INDIA?**
 
 This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Program.  
 
