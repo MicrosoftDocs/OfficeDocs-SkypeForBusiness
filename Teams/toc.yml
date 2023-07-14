@@ -623,10 +623,10 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up town halls
+              href: set-up-town-halls.md
             - name: Set up webinars
               href: set-up-webinars.md
-            - name: Set up meeting registration
-              href: set-up-meeting-registration.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
             - name: Manage who can start and schedule meetings
