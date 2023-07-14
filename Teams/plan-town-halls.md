@@ -28,7 +28,7 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 # Plan for Teams town halls
 
-**APPLIES TO:** ![no](media/no.png)Meetings ![no](media/no.png)Webinars ![yes](media/yes.png)Town halls
+**APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
 
 ## Recordings
