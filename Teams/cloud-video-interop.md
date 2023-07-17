@@ -32,6 +32,9 @@ With Microsoft Teams, you get rich online content collaboration in meetings that
 
 With Cloud Video Interop, Microsoft Teams delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.
 
+### Release Notes 
+coming late July!
+
 ### Is Cloud Video Interop for me?
 
 Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams Solution, using Teams endpoints. The service provided should be part of your migration path.
