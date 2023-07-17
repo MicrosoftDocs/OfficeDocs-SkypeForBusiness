@@ -30,7 +30,7 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
- Microsoft Teams town halls bring interactive video streaming to a new level. This event format is meant for one-to-many communications where the town hall organizer or co-organizer is leading the interactions and audience participation is primarily to view and react to the content being shared. Town halls encourage community throughout the entire engagement lifecycle with attendees before, during, and after each experience.
+ Microsoft Teams town halls bring interactive video streaming to a new level. This event format is meant for one-to-many communications where the town hall organizer or co-organizer is leading the interactions. In town halls, the audience participation is primarily to view and react to the content being shared. Town halls encourage community throughout the entire engagement lifecycle with attendees before, during, and after each experience.
 
 ## Recordings and publishing
 
@@ -41,7 +41,7 @@ For town hall recordings, organizers have the ability to:
 - Modify the published recording
 - Ensure the meeting chat and meeting details link to the recording are correct and will work for all town hall attendees
 
-As an admin, you can control which types of town halls can have their recordings published.
+As an admin, you control which types of town halls can have their recordings published.
 
 ## Streaming
 
@@ -50,7 +50,7 @@ As an admin, you can control which types of town halls can have their recordings
 ## eCDN
 
 An eCDN (Enterprise Content Delivery Network) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If you and your users have a Teams Premium subscription, you must use the Microsoft first-party eCDN solution with town halls.
-For all other Teams subscriptions, you can  either the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
+For all other Teams subscriptions, you can use the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
@@ -69,11 +69,11 @@ Attendees don't use their cameras or microphones during town halls. Instead, att
 
 ## External participants
 
-*Need details on this
+*Need details on this section
 
 ## Premium town halls
 
-With a Teams premium license, your users will have access to extended capabilities. The following table shows a comparison of capabilities between standard and premium town halls.
+With a Teams premium license, your users have access to extended capabilities. The following table shows a comparison of capabilities between standard and premium town halls.
 
 |Capability|Town halls|Premium town halls|
 |:------|:-----|:---------|
@@ -100,7 +100,7 @@ For more information on Teams premium, see [Teams Premium licensing](/microsoftt
 
 ## Production
 
-*Town halls supports the mix of RTMP in and video...
+*Town halls support the mix of RTMP in and video...
 need more details on this... does Teams encoder work for town halls?
 
 Green room
@@ -121,7 +121,7 @@ Green room
 |End-to-end encryption **(Teams Premium)**|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
 |Green room **(Teams Premium)**|No control|Can choose if green room is used for a meeting|
 |Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
-|Recording|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
+|Recording|Can allow or prevent meeting recording and set recording expiration time|If admin enables recording, they can set who can record and automatic recording|
 |Registration|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
 |Scheduling|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
 |Streaming|Can allow or prevent streaming|Can enforce streaming for a meeting if allowed by admin|
