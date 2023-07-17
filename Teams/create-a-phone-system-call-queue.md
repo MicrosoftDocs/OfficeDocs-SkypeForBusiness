@@ -344,7 +344,7 @@ This limit applies only to calls that are waiting in queue to be answered.
 
 You can specify a value from 0 seconds to 45 minutes.
 
-### No Agents Opted/Logged In: Set how to handle calls when no agents are opted into the queue or all agents are logged out of the queue.
+### No Agents Opted/Logged In: Set how to handle calls when no agents are opted/logged into the queue
 
 ***New - this new call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.***
 
