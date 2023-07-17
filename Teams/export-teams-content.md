@@ -162,7 +162,7 @@ Export API has filter parameters that help optimize the messages returned for a 
 
  - anonymous users 
 
- - external access users 
+ - federated users (external access users) 
 
 These parameters are part of the request’s `$filter`. If none of these parameters are present in the request, the messages from all the users present in the specified user chats will be returned.   
 
@@ -194,9 +194,11 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
 (<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
 ```
 
-If `from/user/id eq ‘{oid}’` is present, only the messages sent by the specified user will be returned; if `from/user/userIdentityType eq ‘federatedUser’` is present, the returned messages are the ones sent by the federated users that are part of the user chats. These parameters can be combined between them using the OR operators as well as by combining with the `‘lastModifiedDateTime’` `$filter` parameter.   
+ - The query returns messages sent by the specified user if `from/user/id eq ‘{oid}’` is present.
+   
+ - The query returns messages sent by the federated users that are part of the user chats, if `from/user/userIdentityType eq ‘federatedUser’` is present.
 
-
+These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
 
 
 
