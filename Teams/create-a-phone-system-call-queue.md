@@ -361,7 +361,8 @@ You can specify a value from 0 seconds to 45 minutes.
 >
 > If agents are logged in or opted in, then calls will be queued.
 
-Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a Call queue** page.
+Once you've selected your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
+
 
 ## [Step 6: Authorized users](#tab/authorized-users)
 
@@ -382,6 +383,8 @@ To **add a user** to the authorized users:
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
 
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
+
+Once you've selected your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
 
 ---
 
