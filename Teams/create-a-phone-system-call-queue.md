@@ -346,7 +346,7 @@ You can specify a value from 0 seconds to 45 minutes.
 
 ### No Agents Opted/Logged In: Set how to handle calls when no agents are opted/logged into the queue
 
-***New - this new call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.***
+This call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.
 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 
