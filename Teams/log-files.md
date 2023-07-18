@@ -63,8 +63,8 @@ If a problem occurs with a specific meeting or live event, it's helpful to have 
 
 The following table outlines the various clients and their associated logs. Prior to being collected, log files are stored in the Teams app folder with the folder's location being specific to the client and operating system.
 - Windows: `%appdata%\Microsoft\Teams\`
-Mac: `~/Library/Application Support/Microsoft/Teams/`
-Linux: `~/.config/Microsoft/Microsoft Teams/`
+- Mac: `~/Library/Application Support/Microsoft/Teams/`
+- Linux: `~/.config/Microsoft/Microsoft Teams/`
 
 |Client   |Debug    | Continuous Debug|Desktop  |Media    |
 |---------|---------|-----------------|---------|---------|
