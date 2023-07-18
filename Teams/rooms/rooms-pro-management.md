@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Pro management
 author: altsou
 ms.author: altsou
-manager: tonysmit
+manager: serdars
 ms.reviewer: 
 ms.date: 03/25/2020
 ms.topic: article
@@ -84,4 +84,5 @@ Data collected is specific to a room account, not an individual user. Incidental
 ## Related topics
 
 - [Microsoft Teams Rooms](https://rooms.microsoft.com)
+
 

@@ -86,6 +86,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|B&O                  |Beocom EX MS Earbuds                                       |7/14/2023       |Certified for Microsoft Teams                           | 
+|Yealink              |MP45 USB Phone                                             |7/12/2023       |Certified for Microsoft Teams                           | 
+|Yealink              |BH71 speakerphone/headset                                  |7/10/2023       |Certified for Microsoft Teams                           | 
 |EPOS                 |IMPACT 1030T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T                                               |5/25/2023       |Certified for Microsoft Teams                           |
