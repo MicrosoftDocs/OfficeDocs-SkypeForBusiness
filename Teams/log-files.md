@@ -91,9 +91,9 @@ Debug logs show the following data flows:
 Continuous Debug logging (also called Web logging) is a feature that helps capture log data by automatically transferring logs from memory to the file system in a continuous fashion. On average there will be a full day's worth of log data available when enabled. The logs are read from the top down.
 
 Continuous Debug/Web logging is turned on by default on Teams desktop for computers if your CPU is:
- - Intel Core i3 and Core i5 (generation 10 or higher), Core i7 and Core i9 (any generation) excluding the following suffixes: U, Y, G1-G7, UE, UL, M, QM
+ - Intel Core i3 and Core i5 (generation 10 or higher), Core i7 and Core i9 (any generation), excluding the following suffixes: U, Y, G1-G7, UE, UL, M, and QM
 - Intel Xeon
-- AMD Ryzen 5, 7, 9 and TR series excluding U suffix
+- AMD Ryzen 5, 7, 9, and TR series, excluding the U suffix
 - Apple Silicon
 
 Otherwise, it is turned off by default.
