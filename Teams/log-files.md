@@ -88,7 +88,7 @@ Debug logs show the following data flows:
 
 ## Continuous Debug logs
 
-Continuous Debug logging (also called Web logging) is a feature that helps capture log data by automatically transferring logs from memory to the file system in a continuous fashion. On average there will be a full day's worth of log data available when enabled. The logs are read from the top down.
+Continuous Debug logging (also called Continuous Web logging) is a feature that helps capture log data by automatically transferring logs from memory to the file system in a continuous fashion. On average there will be a full day's worth of log data available when enabled. The logs are read from the top down.
 
 Continuous Debug/Web logging is turned on by default on Teams desktop for computers if your CPU is:
  - Intel Core i3 and Core i5 (generation 10 or higher), Core i7 and Core i9 (any generation), excluding the following suffixes: U, Y, G1-G7, UE, UL, M, and QM
@@ -122,7 +122,7 @@ Otherwise, it is turned off by default. There are two ways to log diagnostic dat
 
 Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to enable and manage Media logging for users.
 
-Read [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
+See [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
 
 ### End user configuration
 
