@@ -61,7 +61,8 @@ Mac: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. The URL provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
-The following table outlines the various clients and their associated logs. Prior to being collected, log files are stored in the teams app folder with the folder's location being specific to the client and operating system: Windows: `%appdata%\Microsoft\Teams\`
+The following table outlines the various clients and their associated logs. Prior to being collected, log files are stored in the Teams app folder with the folder's location being specific to the client and operating system.
+- Windows: `%appdata%\Microsoft\Teams\`
 Mac: `~/Library/Application Support/Microsoft/Teams/`
 Linux: `~/.config/Microsoft/Microsoft Teams/`
 
