@@ -26,7 +26,7 @@ Avatars for Microsoft Teams lets your users connect with presence in Teams witho
 >
 > Teams users can access this feature if they have one of the following licenses: Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
-As an admin, you can control whether avatars for Teams is available in your organization and who can use them using policies. Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
+As an admin, you can control whether Avatars for Teams is available in your organization and who can use them using policies. Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
 
 Setting up the avatars for Teams app involves the following steps:
 
