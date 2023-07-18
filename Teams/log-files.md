@@ -34,7 +34,7 @@ For information on collecting logs from Microsoft Teams Rooms devices, see [Down
 For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
 
 > [!NOTE]
-> In this article, the term **Debug logs** (aka Web ) refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.
+> In this article, the term **Debug logs** (also called Web logs) refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.
 
 ## Logs overview
 
