@@ -101,7 +101,7 @@ Otherwise, it is turned off by default.
 ### Admin Configuration
 Managing Continuous Debug/Web logging for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to enable and manage Continuous Debug/Web logging for users.
 
-Read [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
+See [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
 
 
 ## Media logs
