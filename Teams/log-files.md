@@ -79,7 +79,7 @@ For a complete list of supported operating systems and browsers, see [Get client
 
 ## Debug logs
 
-Debug logs (also called Web logs) are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
+Debug logs (also called Web logs) are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
 -   Login
