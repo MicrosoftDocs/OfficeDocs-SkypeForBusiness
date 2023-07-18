@@ -47,7 +47,7 @@ When creating a support request with Microsoft Support, the support engineer wil
 Debug/Web, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_ which will be placed in your Downloads directory. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (Web).
 
 To collect logs for Windows:
- - Click the Microsoft Teams icon in your system tray and select **Collect support files**.
+ - Select the Microsoft Teams icon in your system tray and then select **Collect support files**.
 
 To collect logs for Mac:
  - Click the Help menu in Microsoft Teams, and select **Collect support files**.
