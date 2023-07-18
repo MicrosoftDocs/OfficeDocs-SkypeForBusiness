@@ -29,18 +29,17 @@ description: "This article provides a Shared Calling example scenario."
 
 # Shared Calling example scenario
 
-Before reading this article, be sure you've read [Plan and configure Shared Calling](shared-calling-plan.md) and [Configure Shared Calling routing policies](shared-calling-setup.md). Those articles describe licensing requirements, prerequisite configuration, and how to configue a Shared Calling routing policy. 
+Before reading this article, be sure you've read [Plan and configure Shared Calling](shared-calling-plan.md) and [Configure Shared Calling routing policies](shared-calling-setup.md). Those articles describe licensing requirements, prerequisite configuration, and how to configure a Shared Calling routing policy.
 
-This article provides a sample scenario for setting up Shared Calling.  It provides a PowerShell example for the following steps: 
+This article provides a sample scenario for setting up Shared Calling. It provides a PowerShell example for the following steps:
 
 1. Get the user.
 2. Define the emergency numbers for emergency calling.
 3. Get the phone number of the Auto attendant resource account.
-4. Set the static emergency location on the resource acount.
+4. Set the static emergency location on the resource account.
 5. Create the Shared Calling routing policy.
 6. Grant the policies to the user.
 7. If this is a Direct Routing number, grant an online voice routing policy to the user and resource account.
-
 
 ```powershell
 # Get the user
@@ -62,7 +61,9 @@ Set-CsPhoneNumberAssignment -Identity $main-aa -LocationId $CivicAddress.Default
 # Create the Shared Calling routing policy
 $ecbn1 = '+14255556789'
 $ecbn2 = '+14255554321'
-New-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -ResourceAccount $main-aa -EmergencyCallbackNumbers {@add=$ecbn1,$ecbn2}
+$ra = Get-CsOnlineUser -Identity $main-add
+New-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -ResourceAccount $ra.Identity -EmergencyNumbers @{add=$ecbn1,$ecbn2}
+
 
 # Grant the policies to the user
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity $user -PolicyName TECRP
@@ -76,10 +77,7 @@ if ($PhoneNumber.NumberType -eq 'DirectRouting') {
 
 ```
 
-
-
 ## Related topics
 
 - [Plan and configure Shared Calling](shared-calling-plan.md)
 - [Configure Shared Calling routing policies](shared-calling-setup.md)
-

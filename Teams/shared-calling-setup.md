@@ -31,16 +31,15 @@ description: "In this article, you'll learn how to configure Teams Phone Shared 
 
 Before reading this article, be sure you've read [Plan and configure Shared Calling](shared-calling-plan.md). It describes licensing and other requirements needed to set up Shared Calling.
 
-To configure and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets: 
+To configure and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets:
 
-**NOTE TO ME:  Add links to reference topics**
-- New-CsTeamsSharedCallingRoutingPolicy
-- Get-CsTeamsSharedCallingRoutingPolicy
-- Remove-CsTeamsSharedCallingRoutingPolicy 
-- Set-CsTeamsSharedCallingRoutingPolicy 
-- Grant-CsTeamsSharedCallingRoutingPolicy
+- [New-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/new-csteamssharedcallingroutingpolicy)
+- [Get-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/get-csteamssharedcallingroutingpolicy)
+- [Remove-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/remove-csteamssharedcallingroutingpolicy)
+- [Set-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy)
+- [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy)
 
-For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contoso.com. The command also identifes the emergency callback numbers associated with the resource account: 
+For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contoso.com. The command also identifies the emergency callback numbers associated with the resource account:
 
 ```powershell
 New-CsTeamsSharedCallingRoutingPolicy -Identity Test -ResourceAccount ra1@contoso.com -EmergencyCallbackNumbers {@add='+12065556677','+14255556677','+1425555432'} 
@@ -64,7 +63,7 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 - You can use the same resource account in multiple Shared Calling policies.
 
-- All numbers within a given policy must be of the same number type and country (resource and emergency calling numbers). 
+- All numbers within a given policy must be of the same number type and country (resource and emergency calling numbers).
 
 - When you add a resource account to a policy, you must ensure that number has a location assigned to it.
 
@@ -72,13 +71,13 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
 ## Emergency calling rules
 
-- You are not required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. (You can assign emergency addresses to resource account numbers.)
+- You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. You can assign emergency addresses to resource account numbers.
 
-- Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy. 
+- Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy.
 
-- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number. 
+- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
 
-- When emergency callback numbers are added to a policy: 
+- When emergency callback numbers are added to a policy:
 
   - Callback numbers do not require an associated location--only the location from the resource account will be used.
 
@@ -86,11 +85,9 @@ To associate a location on resource account numbers for Calling Plan, Operator C
 
   - The emergency callback numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
 
-  - The callback numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
-
+  - The emergency callback numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
 
 ## Related topics
 
 - [Plan and configure Shared Calling](shared-calling-plan.md)
 - [Shared Calling example scenario](shared-calling-scenario.md)
-
