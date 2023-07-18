@@ -131,6 +131,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2D | July 12, 2023 | `1449/1.0.94.2023063003` | `5.0.5484.0` | `413`|
 | 2023 Update #2C | Jun 15, 2023 | `1449/1.0.94.2023060906` | `5.0.5484.0` | `413`|
 | 2023 Update #2B | May 9, 2023 | `1449/1.0.94.2023050205` | `5.0.5484.0` | `413`|
 | 2023 Update #2A | April 14, 2023 | `1449/1.0.94.2023041203` | `5.0.5484.0` | `413`|
@@ -342,6 +343,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
 |Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |

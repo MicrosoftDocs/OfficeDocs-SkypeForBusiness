@@ -45,7 +45,7 @@ When you set up trusted organizations for external meetings and chat, meeting at
 The organization level anonymous meeting join setting must be turned on for anyone in the organization to create meetings that allow anonymous participants.
 
 > [!Important]
-> The **Anonymous participants can join a meeting** organization-wide setting will be removed in the future. We recommend leaving this setting **On** and using the the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.
+> The **Anonymous users can join a meeting** organization-wide setting will be removed in the future. We recommend leaving this setting **On** and using the the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.
 
 To configure anonymous meeting join for the organization
 1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
