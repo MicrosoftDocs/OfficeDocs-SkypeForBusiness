@@ -50,7 +50,7 @@ To collect logs for Windows:
  - Select the Microsoft Teams icon in your system tray and then select **Collect support files**.
 
 To collect logs for Mac:
- - Click the Help menu in Microsoft Teams, and select **Collect support files**.
+ - Select the Help menu in Microsoft Teams and then select **Collect support files**.
 
 To collect logs for Linux:
  - Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
