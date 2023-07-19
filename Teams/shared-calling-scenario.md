@@ -1,7 +1,7 @@
 ---
 title: "Shared Calling scenario"
-ms.reviewer: roykuntz
-ms.date: 5/30/2023
+ms.reviewer: jenstr
+ms.date: 7/19/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,12 +18,8 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
 ms.custom: 
   - Phone System
-  - seo-marvel-apr2020
-  - intro-overview
 description: "This article provides a Shared Calling example scenario."
 ---
 
