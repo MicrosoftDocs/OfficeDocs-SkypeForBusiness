@@ -488,6 +488,8 @@ if($cleanup){
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 - Teams presence functions within VDI Teams client but does not resolve in Outlook.
 
+- When doing a screensharing session, the sharing toolbar is pinned to the top of the screen and cannot be unpinned (pin button missing).
+
 ### Notifications
 
 - Message count notification and presence on the Windows taskbar is not supported on a Windows Server 2016 host.
@@ -542,3 +544,5 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 - [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
+
+
