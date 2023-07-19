@@ -62,8 +62,6 @@ Inactive teams are recommended to be removed so that they don't access confident
 > [!NOTE]
 > Only an inactive team with an inactive associated site can be removed. Hence, the Inactive teams widget displays only inactive team whose associated sites are also inactive.
 
-[Learn more](#sharepoint-offered-feature-of-deletion-of-inactive-teams).
-
 The **Inactive teams** widget view shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for that day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
@@ -82,9 +80,9 @@ You can also archive the team directly from this view. To do this task, you can 
 
 ##### Site Lifecycle Management (SLM)
 
-SLM is a feature with the following functionalities:
+SLM (Site Lifecycle Management) is a feature that has been linked with SharePoint to enable administrators to manage inactive teams through SLM policies. For more information on how an SLM policy for inactive sites works, see [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
 
-The functions of SLM are:
+SLM contains the following functionalities:
 
 1. Managing sites and its associated workloads including teams.
 
@@ -97,21 +95,24 @@ The functions of SLM are:
 
 SLM comes under the purview of the Syntex Advanced Management (SAM) license; that is, SLM can be used only for those sites and teams whose tenant has an SAM license.
 
-SLM is now connected with SharePoint admin center (SPAC). This link between SLM and SPCA provides SharePoint administrators a way to manage inactive teams, as described below:
+SLM is now connected with SharePoint admin center (SPAC). SLM - through its link with SharePoint - provides an inactive site policy for the SharePoint to use.
 
-1. SLM - through its link with SharePoint - provides the administrator an opportunity to:
-    1. [Use an existing policy for inactive sites](#use-an-existing-policy-for-inactive-sites)
-    1. [Create a new policy for inactive sites](#create-a-new-policy-for-inactive-sites)
-  
-###### Use an existing policy for inactive sites
-
-You can choose to use an existing SLM policy and run it. An existing SLM Policy works as described below:
+##### How an SLM inactive site policy works
 
 1. The policy's execution detects sites that are inactive in SharePoint and its associated workloads such as teams, yammer, and exchange.
 1. The owners of these sites are notified about its inactivity (and about inactivity of its associated workloads).
 1. The site owners need to confirm if their sites are inactive or whether they need the sites.
    If the owners need the sites, they should respond back to the notification stating that their sites are active.
 1. If the owners don't respond to the notification, then such sites are reported to the SharePoint administrator as "unactioned by owner". In the event of this notification, the SharePoint administrator on discretion can delete these inactive sites.
+
+A SharePoint administrator can choose to:
+
+- [Use an existing policy for inactive sites](#use-an-existing-policy-for-inactive-sites)
+- [Create a new policy for inactive sites](#create-a-new-policy-for-inactive-sites)
+  
+###### Use an existing policy for inactive sites
+
+You can choose to use an existing SLM policy and run it. The policy will function
 
 ###### Create a new policy for inactive sites
 
