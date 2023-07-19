@@ -735,8 +735,8 @@ items:
               href: tmr-meeting-recording-change.md
         - name: Integration
           items:
-            - name: Content delivery network
-              href: streaming-cdn-content-delivery-network.md
+            - name: eCDN
+              href: streaming-ecdn-enterprise-content-delivery-network.md
             - name: Teams Meeting add-in in Outlook
               href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
