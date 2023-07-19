@@ -53,7 +53,7 @@ If you haven't use Microsoft Teams PowerShell before, start by going over here t
 To create a new policy, use the Microsoft Teams PowerShell and run:
 
 ```PowerShell
-New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $true -AreaCode `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx` -ReceiveExternalCalls Enabled -ReceiveInternalCalls Enabled -PlaceExternalCalls Enabled -PlaceInternalCalls Enabled
+New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $true -AreaCode `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx` -ReceiveExternalCalls Enabled -ReceiveInternalCalls Enabled 
 ```
 >[!Important]
 >
