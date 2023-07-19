@@ -663,8 +663,6 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
-            - name: Support URL for events
-              href: events-support-url.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview

@@ -22,6 +22,12 @@ description: Learn about scale video delivery and enterprise content delivery ne
 
 # Enterprise content delivery networks for streaming Microsoft Teams events
 
+Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
+
+- Town halls
+- Live events
+- Meetings with more than 1,000 participants
+
 Playback of videos from Microsoft Teams events use adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that every viewer is getting their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
 Organizations may want to understand and reduce this network traffic for events and popular videos. If so, Teams can be enabled to integrate with trusted Microsoft partners that offer enterprise content delivery network (eCDN) solutions that include self-managing delivery technologies, real-time monitoring, and in-depth network analytics. These eCDN platforms let organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
@@ -33,6 +39,9 @@ Get expert help with monitoring and scaling video delivery by teaming up with tr
 Before you can enable an eCDN solution to be used with Teams, you must purchase and set up that eCDN solution outside and separate from Teams. To ensure that the solution will meet your needs, some partners provide free trials of their content delivery and network analytics technologies.
 
 Several eCDN solutions are pre-integrated and can be enabled for use with Teams. See information from the providers below.
+
+> [!IMPORTANT]
+> Teams Premium features require the Microsoft eCDN. Streaming events organized by people with a Teams Premium license always use the Microsoft eCDN even if you've configured a different option.
 
 ### Microsoft eCDN (Teams Premium)
 
