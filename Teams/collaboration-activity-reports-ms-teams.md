@@ -112,7 +112,7 @@ A SharePoint administrator can choose to:
   
 ###### Use an existing policy for inactive sites
 
-You can choose to use an existing SLM policy and run it. The policy will function
+You can choose to use an existing SLM policy and run it. The policy will function as specified in [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
 
 ###### Create a new policy for inactive sites
 
