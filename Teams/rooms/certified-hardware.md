@@ -127,6 +127,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
 | Jabra PanaCast 50 TC | `1.1.0-1` | September 4, 2024 | Compatible with Jabra PanaCast 50 VBS | 10 |
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
