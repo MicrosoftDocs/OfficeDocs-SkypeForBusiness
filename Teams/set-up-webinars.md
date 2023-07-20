@@ -26,7 +26,7 @@ description: Learn how to set up and manage webinar policies for IT Admins in Te
 
 # Admin- Set up webinars in Microsoft Teams
 
-**APPLIES TO:** ![no](media/no.png)Meetings ![yes](media/yes.png)Webinars ![no](media/no.png)Town halls
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 

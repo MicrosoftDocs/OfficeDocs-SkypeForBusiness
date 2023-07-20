@@ -26,7 +26,7 @@ description: Learn how to set up and manage meeting registration policies in Tea
 
 # Manage registration for Microsoft Teams meetings
 
-**APPLIES TO:** ![yes](media/yes.png)Meetings ![no](media/no.png)Webinars ![no](media/no.png)Town halls
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
