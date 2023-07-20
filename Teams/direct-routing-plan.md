@@ -69,7 +69,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall IP addresses and ports for Microsoft Teams media |For more information, see [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). 
-|||
+||
 
 ## Licensing and other requirements 
 
@@ -154,7 +154,7 @@ To verify that the MTLS connection originates from Teams infrastructure, the SBC
 
 - Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com".
 
-## SIP signaling: FQDNs
+## SIP signaling: FQDNs, Ports, Failover mechanism
 
 Direct Routing is offered in the following environments:
 
@@ -167,7 +167,9 @@ For more information about government environments, such as GCC, GCC High, and D
 
 This section describes the FQDN connection points for Direct Routing for the various environments.
 
-### Microsoft 365, Office 365, and Office 365 GCC environments
+### SIP signaling: FQDNs
+
+#### Microsoft 365, Office 365, and Office 365 GCC environments
 
 In these environments, the connection points for Direct Routing are the following three FQDNs:
 
@@ -190,7 +192,7 @@ The FQDNs sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhu
   
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
-### Office GCC DoD environment
+#### Office GCC DoD environment
 
 In the Office GCC DoD environment, the connection point for Direct Routing is the following FQDN:
 
@@ -200,7 +202,7 @@ The FQDN sip.pstnhub.dod.teams.microsoft.us is resolved to an IP address from th
 
 To allow incoming and outgoing traffic to and from the addresses for signaling, you need to open ports for all these IP addresses in your firewall.
 
-### Office 365 GCC High environment
+#### Office 365 GCC High environment
 
 In the Office 365 GCC High environment, the connection point for Direct Routing is the following FQDN:
 
@@ -210,7 +212,7 @@ The FQDN sip.pstnhub.gov.teams.microsoft.us is resolved to an IP address from th
 
 To allow incoming and outgoing traffic to and from the addresses for signaling, you need to open ports for all these IP addresses in your firewall.
 
-## SIP signaling: Ports
+### SIP signaling: Ports
 
 You must use the following ports for Microsoft 365 or Office 365 environments where Direct Routing is offered:
 
@@ -225,7 +227,7 @@ You must use the following ports for Microsoft 365 or Office 365 environments wh
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
 ||||||
 
-## SIP signaling: Failover mechanism
+### SIP signaling: Failover mechanism
 
 To resolve sip.pstnhub.microsoft.com, the SBC makes a DNS query. Based on the SBC location and the datacenter performance metrics, the primary datacenter is selected. 
 
@@ -239,7 +241,9 @@ The following table summarizes the relationships between primary, secondary, and
 |The tertiary datacenter (sip3.pstnhub.microsoft.com)|ASIA|ASIA|EU|
 |||||
 
-## Media traffic: port ranges
+## Media traffic: port ranges, media processors, CODECS
+
+### Media traffic: port ranges
 
 If you want to deploy Direct Routing without media bypass, the following requirements apply. For firewall requirements for media bypass, see [Plan for media bypass with Direct Routing](./direct-routing-plan-media-bypass.md).
 
@@ -248,26 +252,26 @@ The media traffic flows to and from a separate service in the Microsoft Cloud. T
 > [!NOTE]
 > IP ranges presented in this document are specific to Direct Routing and may differ from the ones advised for Teams client.
 
-### Microsoft 365, Office 365, and Office 365 GCC environments
+#### Microsoft 365, Office 365, and Office 365 GCC environments
 
 In the Microsoft 365, Office 365, and Office 365 GCC environments, the IP address ranges are:
 
 - 52.112.0.0/14 (IP addresses from 52.112.0.0 to 52.115.255.255)
 - 52.120.0.0/14 (IP addresses from 52.120.0.0 to 52.123.255.255)
 
-### Office 365 DoD environment
+#### Office 365 DoD environment
 
 In the Office 365 DoD environment, the IP address ranges are:
 
 - 52.127.64.0/21
 
-### Office 365 GCC High environment
+#### Office 365 GCC High environment
 
 In the Office 365 GCC High environment, the IP address ranges are:
 
 - 52.127.88.0/21
 
-### Port ranges (applicable to all environments)
+#### All environments
 
 The port ranges of the media processors are shown in the following table:
 
@@ -279,7 +283,7 @@ The port ranges of the media processors are shown in the following table:
   > [!NOTE]
   > Microsoft recommends at least two ports per concurrent call on the SBC.
 
-## Media traffic: media processors geography
+### Media traffic: processors geography
 
 Media traffic flows through components called media processors. Media processors are placed in the same datacenters as SIP proxies as follows:
 
@@ -290,7 +294,7 @@ Media traffic flows through components called media processors. Media processors
 - Australia (AU East and Southeast datacenters)
 - LATAM (Brazil South)
 
-## Media traffic: Codecs
+### Media traffic: Codecs
 
 The following sections describe the codecs for media traffic.
 
@@ -326,7 +330,7 @@ For more information about Teams Phone licensing, see [Microsoft Teams add-on li
 
 **PLEASE REVIEW CAREFULLY.  DO WE NEED TO LOOP IN OSCAR RUIZ GARCIA?**
 
-**AUDIO CONFERENCING INFO WAS INTERSPERSED THROUGHOUT THIS ARTICLE.  IT WAS CONFUSING.  I COULDN'T TELL IF IT WAS ONLY PERTAINING TO GOVERMENT CLOUDS. AND SOME INFO SEEMED CONTRADICTORY. I THINK IT'S BEST TO GROUP ALL AUDIO CONFERENCING INFO IN ONE SECTION, WHICH IS WHAT I'VE DONE HERE.  AND, IF THIS INFO IS SPECIFIC TO GOVT CLOUDS, MAYBE WE JUST SAY THERE ARE SPECIFIC REQUIREMENTS FOR USING DIRECT ROUTING AND AC IN GOVT CLOUDS, AND THEN LINK TO THIS ARTICLE:  [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).**  Thoughts?
+**NOTE TO REVIEWERS: AUDIO CONFERENCING INFO WAS INTERSPERSED THROUGHOUT THIS ARTICLE.  IT WAS CONFUSING.  I COULDN'T TELL IF IT WAS ONLY PERTAINING TO GOVERMENT CLOUDS. AND SOME INFO SEEMED CONTRADICTORY. I THINK IT'S BEST TO GROUP ALL AUDIO CONFERENCING INFO IN ONE SECTION, WHICH IS WHAT I'VE DONE HERE.  AND, IF THIS INFO IS SPECIFIC TO GOVT CLOUDS, MAYBE WE JUST SAY THERE ARE SPECIFIC REQUIREMENTS FOR USING DIRECT ROUTING AND AC IN GOVT CLOUDS, AND THEN LINK TO THIS ARTICLE:  [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).**  Thoughts?
 
 The following describes requirements and considerations when using Direct Routing and Audio Conferencing.  
 

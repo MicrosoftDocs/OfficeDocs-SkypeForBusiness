@@ -371,7 +371,7 @@ The History-Info is protected by a mandatory TLS mechanism.
 
 ## SBC connection to Direct Routing and failover mechanism
 
-See the section Failover mechanism for SIP signaling in [Plan for Direct Routing](direct-routing-plan.md#failover-mechanism-for-sip-signaling).
+See the section Failover mechanism for SIP signaling in [Plan for Direct Routing](direct-routing-plan.md#sip-signaling-failover-mechanism).
 
 ## Retry-After
 
