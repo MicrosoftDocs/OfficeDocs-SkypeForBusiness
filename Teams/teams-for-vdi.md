@@ -487,8 +487,7 @@ if($cleanup){
 - Azure Virtual Desktop doesn't support Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 - Teams presence functions within VDI Teams client but does not resolve in Outlook.
-
-- When doing a screensharing session, the sharing toolbar is pinned to the top of the screen and cannot be unpinned (pin button missing).
+- When sharing the screen, the sharing toolbar is pinned to the top of the screen and cannot be unpinned.
 
 ### Notifications
 
