@@ -171,6 +171,8 @@ This section describes the FQDN connection points for Direct Routing for the var
 
 ### SIP signaling: FQDNs
 
+The following sections describe the FQDN connection points for various Microsoft cloud environments.
+
 #### Microsoft 365, Office 365, and Office 365 GCC environments
 
 In these environments, the connection points for Direct Routing are the following three FQDNs:
