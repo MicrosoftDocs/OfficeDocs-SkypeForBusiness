@@ -329,13 +329,13 @@ For more information about Teams Phone licensing, see [Microsoft Teams add-on li
 
 **PLEASE REVIEW CAREFULLY.  DO WE NEED TO LOOP IN OSCAR RUIZ GARCIA?**
 
-**NOTE TO REVIEWERS: AUDIO CONFERENCING INFO WAS INTERSPERSED THROUGHOUT THIS ARTICLE.  IT WAS CONFUSING.  I COULDN'T TELL IF IT WAS ONLY PERTAINING TO GOVERMENT CLOUDS. AND SOME INFO SEEMED CONTRADICTORY. I THINK IT'S BEST TO GROUP ALL AUDIO CONFERENCING INFO IN ONE SECTION, WHICH IS WHAT I'VE DONE HERE.  AND, IF THIS INFO IS SPECIFIC TO GOVT CLOUDS, MAYBE WE JUST SAY THERE ARE SPECIFIC REQUIREMENTS FOR USING DIRECT ROUTING AND AC IN GOVT CLOUDS, AND THEN LINK TO THIS ARTICLE:  [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).**  Thoughts?
+**NOTE TO REVIEWERS: AUDIO CONFERENCING INFO WAS INTERSPERSED THROUGHOUT THIS ARTICLE.  IT WAS CONFUSING.  I SOMETIMES COULDN'T TELL IF THE INFO WAS SPECIFIC ONLY TO GOVERMENT CLOUDS. AND SOME INFO SEEMED CONTRADICTORY. I THINK IT'S BEST TO GROUP ALL AUDIO CONFERENCING INFO IN ONE SECTION, WHICH IS WHAT I'VE DONE HERE.  AND, IF THIS INFO IS SPECIFIC TO GOVT CLOUDS, MAYBE WE JUST SAY THERE ARE SPECIFIC REQUIREMENTS FOR USING DIRECT ROUTING AND AC IN GOVT CLOUDS, AND THEN LINK TO THIS ARTICLE:  [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).**  Thoughts?
 
 The following describes requirements and considerations when using Direct Routing and Audio Conferencing.  
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. If a user doesn't have an Audio Conferencing license, the call routes through Direct Routing. 
 
-- If you want to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the Audio Conferencing license is required.
+If you want to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the Audio Conferencing license is required.
 
 A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add a PSTN participant to it. The path that the call takes depends on whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not:
 
