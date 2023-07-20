@@ -107,6 +107,10 @@ Many of the meeting organizer controls can also be set by administrators by usin
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
+## Apps for meetings
+
+You can enhance meeting experiences by integrating and using meeting apps. You can add meetings apps to your Teams deployment by using the apps provided with Teams, using certified third-party apps and templates, and creating your own custom apps. For details, see [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+
 ## Admin and meeting organizer meeting options
 
 Some meeting features can be controlled by Teams administrators while others are controlled by the meeting organizer. The following table lists the types of features available for meetings and how the admin and organizer controls interact.
