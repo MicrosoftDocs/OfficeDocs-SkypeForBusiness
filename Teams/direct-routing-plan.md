@@ -19,26 +19,23 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-mar2020
-description: Learn how Microsoft Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Teams Phone System.
+ms.custom: 
+description: Learn how Microsoft Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Microsoft Teams Phone.
 ---
 
 # Plan Direct Routing
 
-Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Phone System. With this capability, you can configure on-premises Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams, as shown in the following diagram: 
+Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Teams Phone. With this capability, you can configure on-premises Public Switched Telephone Network (PSTN) connectivity with Teams, as shown in the following diagram: 
 
 ![Diagram showing configuration of on-premises PSTN connectivity.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams")
 
-> [!Important]
-> Skype for Business Online and Cloud Connector Edition were retired on July 31, 2021. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using this article. 
-
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party PSTN equipment. Direct Routing enables you to: 
 
-- Use virtually any PSTN trunk with Phone System. 
+- Use virtually any PSTN trunk with Teams Phone. 
 
 - Configure interoperability between customer-owned telephony equipment, such as a third-party private branch exchange (PBX), analog devices, and Teams.
 
-Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. However, Direct Routing might be best for your organization if: 
+Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Calling Plan. However, Direct Routing might be best for your organization if: 
 
 - Microsoft Calling Plan isn't available in your area. 
 
@@ -46,10 +43,8 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. Ho
 
 - Your organization has an existing contract with a PSTN carrier.
 
-Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md). 
+Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
 
-
- 
 Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity: 
 
 - [Infrastructure requirements](#infrastructure-requirements)
@@ -63,9 +58,9 @@ Planning your deployment of Direct Routing is key to a successful implementation
 
 For detailed information about configuring Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-Note: With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. If a user doesn't have an Audio Conferencing license, the call routes through Direct Routing. For more information, see [Online Meetings with Teams](https://www.microsoft.com/en-us/microsoft-teams/online-meetings). 
 
 ## Infrastructure requirements
+
 The infrastructure requirements for the supported SBCs, domains, and other network connectivity requirements to deploy Direct Routing are listed in the following table:  
 
 |Infrastructure requirement|You need the following|
@@ -101,11 +96,13 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 
 > [!IMPORTANT]
->  If you want to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the audio conferencing license is required.
+>  If you want to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the Audio Conferencing license is required.
 >  For GCC High and DoD, do not assign an Audio Conferencing license for G5 users. For G3 users, do not assign an Audio Conferencing license until Direct Routing is fully configured and the user has a working dial pad.
 
 
-### Improvised call escalation and Audio Conferencing license
+### Audio Conferencing considerations
+
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. If a user doesn't have an Audio Conferencing license, the call routes through Direct Routing. 
 
 A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add a PSTN participant to it. The path that the call takes depends on whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not:
 
@@ -119,11 +116,13 @@ You must ensure the following:
 
 - Allow Private Calling is enabled at the tenant level for Microsoft Teams.
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. Phone System with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
+## Microsoft Calling Plan considerations
+
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
 Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan. Calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
 
-For more information about Phone System licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information about Teams Phone licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Supported end points
 
@@ -133,7 +132,8 @@ You can use the following as an end point:
 
 - Common area phones. See [Set up common area phones for Microsoft Teams](./set-up-common-area-phones.md). You don't need a Calling Plan license when setting up a common area phone with Direct Routing.
 
-- Skype for Business 3PIP phones.    
+- Skype for Business 3PIP phones. 
+**ARE 3PIP PHONES STILL SUPPORTED?**
 
 ## SBC domain names
 
@@ -161,7 +161,7 @@ The SBC only needs one FQDN and can service users from any address space in the 
   
 ## Public trusted certificate for the SBC
 
-Microsoft recommends that you request the certificate for the SBC by generating a certification signing request (CSR). For specific instructions on generating a CSR for an SBC, refer to the interconnection instructions or documentation provided by your SBC vendors.
+Microsoft recommends that you request the certificate for the SBC by generating a certification signing request (CSR). For specific instructions on generating a CSR for an SBC, see the interconnection instructions or documentation provided by your SBC vendors.
 
 > [!NOTE]
 > Most Certificate Authorities (CAs) require the private key size to be at least 2048. Keep this in mind when generating the CSR.
@@ -354,7 +354,7 @@ For more information about supported SBCs, see [Session Border Controllers certi
 
 ## Support boundaries
 
-Microsoft only supports Phone System with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft through internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
+Microsoft only supports Teams Phone with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft through internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
 
 ## See also
 
