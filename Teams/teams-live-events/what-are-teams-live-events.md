@@ -36,6 +36,10 @@ Microsoft 365 live events bring live video streaming to a new level. Live events
 
 Teams delivers chat-based collaboration, calling, meetings, and live events, so you can expand the audience of your meetings. Teams live events is an extension of Teams meetings, enabling users to broadcast video and meeting content to a large online audience. Live events are meant for one-to-many communications where the host of the event is leading the interactions and audience participation is primarily to view the content shared by host. The attendees can watch the live or recorded event in Viva Engage or Teams and can interact with the presenters using moderated Q & A or a Viva Engage conversation.
 
+> [!NOTE]
+> The Teams client doesn't support Teams live events on Surface hub devices. Users can join the events only as viewers using the Edge web browser on their Surface hub devices.
+
+
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
 ![The key components of live events.](../media/live-events-flow-diagram.png  "Key components of live events, scheduling, production, certified third-party eCDN providers")
