@@ -20,7 +20,9 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-apr2020; intro-get-started
+ms.custom: 
+  - seo-marvel-apr2020
+  - intro-get-started
 description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ---
 
