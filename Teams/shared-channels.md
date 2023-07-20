@@ -17,7 +17,7 @@ f1.keywords:
   - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage shared channels in Microsoft Teams.
 ---
@@ -44,7 +44,7 @@ Sharing channels with people outside your organization also requires that you co
 
 ## Shared channel creation
 
-Only team owners can create a shared channel. Team members and guests can't create them. The ability to create shared channels can be managed at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create shared channels.
+Only team owners can create a shared channel. Team members can't create them. The ability to create shared channels can be managed at the organization level. Use policies to control which users in your organization are allowed to create shared channels.
 
 The person who creates a shared channel becomes the shared channel owner and only the shared channel owner can directly add or remove people from it. (You can add more than one owner if you want.) A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that shared channel.
 
@@ -96,7 +96,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ## Shared channel SharePoint sites
 
-Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#1", for easier management through PowerShell and Graph API. 
+Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These sites have a custom template ID, "TEAMCHANNEL#1", for easier management through PowerShell and Graph API. 
 
 A shared channel site inherits the sensitivity label of the parent team. This remains true even if the channel is shared directly with another team.
 
@@ -113,7 +113,7 @@ If a shared channel or a team containing a shared channel is restored, the sites
 
 Shared channel messages are stored in a dedicated system mailbox associated with the Shared channel rather than the group mailbox.
 
-For more information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+For information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
 ## Considerations around file access in shared channels
 
@@ -138,10 +138,6 @@ The following articles may be helpful for the users in your organization when th
 [Guests and shared channels in Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
 
 [Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
-
-## Limitations for shared channels
-
-Please refer to [Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels) for more information.
 
 ## Supported apps in shared channels
 
@@ -209,6 +205,8 @@ The following apps are supported for use in shared channels.
 - Zoho Projects
 
 ## Related topics
+
+[Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels)
 
 [B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
 

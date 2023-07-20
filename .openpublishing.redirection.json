@@ -4476,6 +4476,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/different-kinds-of-phone-numbers-used-for-calling-plans.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers-landing-page",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/upgrade-basic-powershell.md",
     "redirect_url": "/microsoftteams/setting-your-coexistence-and-upgrade-settings",
     "redirect_document_id": false
@@ -4583,6 +4588,41 @@
   {
     "source_path": "Teams/business-voice/ui/admin-perms-needed.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-set-up-steps.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-troubleshoot.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/privacy-career-coach-data-compliance.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-resources.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-phone-numbers-for-your-organization.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/contact-tns-service-desk.md",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
   }
  ] 

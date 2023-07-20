@@ -51,16 +51,26 @@ The following table shows the main features that are different between meetings,
 |Streaming|Optional|Optional|Required|
 |Registration|Optional|✔️|✖️|
 |Interactive participants|1,000|1,000|✖️|
-|Streaming participants|10,000|✖️|10,000|
+|Streaming participants*|10,000|✖️|10,000|
 |Yammer integration|✖️|✖️|✔️|
 |Breakout rooms|✔️|✔️|✖️|
 
-**The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
-
+*The usual 10,000 is increased to 20,000 through December 30, 2023.
 
 ## RTMP
 
-## CDN
+## eCDN
+
+Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
+
+- Town halls
+- Meetings with more than 1,000 participants
+
+eCDN solutions include self-managing delivery technologies, real-time monitoring, and in-depth network analytics. Organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
+
+Teams Premium features require the Microsoft eCDN, so streaming events organized by people with a Teams Premium license always use the Microsoft eCDN.
+
+For details, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md)
 
 ## Streaming
 
