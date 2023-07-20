@@ -57,7 +57,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Infrastructure requirement|You need the following|
 |:--- |:--- |
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs](#supported-session-border-controllers-sbcs).|
-|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to Phone System through Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, refer to the SBC vendors or trunk providers.)|
+|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to Teams Phone through Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, refer to the SBC vendors or trunk providers.)|
 |Microsoft 365 organization|A Microsoft 365 organization that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
 |User registrar|User must be homed in Microsoft 365.<br/>If your company has an on-premises Skype for Business environment with hybrid connectivity to Microsoft 365, you can't enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Teams PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>The output of the cmdlet should show:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
 |Domains|One or more domains added to your Microsoft 365 or Office 365 organizations.<br/><br/>You can't use the default domain, \*.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Teams PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Microsoft 365 or Office 365 organizations, see [Domains FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
@@ -69,7 +69,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall IP addresses and ports for Microsoft Teams media |For more information, see [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). 
-||
+
 
 ## Licensing and other requirements 
 
@@ -229,7 +229,7 @@ You must use the following ports for Microsoft 365 or Office 365 environments wh
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only port 5061 must be used)|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
-||||||
+
 
 ### SIP signaling: Failover mechanism
 
@@ -243,7 +243,7 @@ The following table summarizes the relationships between primary, secondary, and
 |:--- |:--- |:--- |:--- |
 |The secondary datacenter (sip2.pstnhub.microsoft.com)|US|EU|US|
 |The tertiary datacenter (sip3.pstnhub.microsoft.com)|ASIA|ASIA|EU|
-|||||
+
 
 ## Media traffic: port ranges, media processors, CODECS
 
@@ -284,8 +284,8 @@ The port ranges of the media processors are shown in the following table:
 |UDP/SRTP|Media Processor|SBC|3478-3481 and 49152 – 53247|Defined on the SBC|
 |UDP/SRTP|SBC|Media Processor|Defined on the SBC|3478-3481 and 49152 – 53247|
 
-  > [!NOTE]
-  > Microsoft recommends at least two ports per concurrent call on the SBC.
+> [!NOTE]
+ > Microsoft recommends at least two ports per concurrent call on the SBC.
 
 ### Media traffic: processors geography
 
