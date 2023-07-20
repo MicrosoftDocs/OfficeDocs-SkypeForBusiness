@@ -220,11 +220,6 @@ To allow incoming and outgoing traffic to and from the addresses for signaling, 
 
 You must use the following ports for Microsoft 365 or Office 365 environments where Direct Routing is offered:
 
-- Microsoft 365 or Office 365
-- Office 365 GCC
-- Office 365 GCC High
-- Office 365 DoD
-
 |Traffic|From|To|Source port|Destination port|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only port 5061 must be used)|
