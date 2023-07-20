@@ -167,7 +167,7 @@ Direct Routing is offered in the following environments:
 
 For more information about government environments, such as GCC, GCC High, and DoD, see [Office 365 and US Government environments](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government).
 
-This section describes the FQDN connection points for Direct Routing for the various environments.
+The following sections describe information about FQDNs, ports, and failover mechanisms.
 
 ### SIP signaling: FQDNs
 
