@@ -81,6 +81,8 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 - Audio Conferencing (optional). For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-considerations).
 
+**IS AN AUDIO CONFERENCING LICENSE OPTIONAL?  INFO WAS CONTRADICTORY.**
+
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
 > 
@@ -154,7 +156,7 @@ To verify that the MTLS connection originates from Teams infrastructure, the SBC
 
 - Check that the certificate "Subject Alternative Name" includes "sip.pstnhub.microsoft.com".
 
-## SIP signaling: FQDNs, Ports, Failover mechanism
+## SIP signaling: FQDNs, ports, failover mechanism
 
 Direct Routing is offered in the following environments:
 
