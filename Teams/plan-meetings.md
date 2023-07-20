@@ -30,7 +30,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls ✔️Calls
 
-Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your organization or - if you allow it - people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these using meeting policies.
+Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your organization or - if you allow it - people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these by using meeting policies.
 
 The following types of meetings are available:
 - Private meetings - meetings that individual users schedule with sepcific people
@@ -41,7 +41,7 @@ To specify which users in your organization can start or schedule meetings, see 
 
 ## Meetings and calls
 
-Your users may use meetings and calls interchangeably depending on their needs at a given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both set of settings together in order to give your users a consistent experience as the use both calls and meetings.
+Your users may use meetings and calls interchangeably depending on their needs at a given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both sets of settings together in order to give your users a consistent experience as they use both calls and meetings.
 
 The following table show the policy settings that are similar between meetings and calls.
 
