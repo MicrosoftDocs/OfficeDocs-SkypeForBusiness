@@ -88,7 +88,7 @@ For complete details about the meeting lobby, see [IT Admins - Control who can b
 
 Meeting participants who can't be verified can attend meetings as anonymous participants. Depending on your business rules or compliance requirements you may want to allow or prevent this. See [Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md) for information on how to configure anonymous access for meetings.
 
-External access
+People from other trusted Microsoft 365 organizations can attend meetings without having to sign in to your organization. Both organizations must trust each other and users must be enabled for external access. For more information, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
 ## Attendee limits and streaming options
 
@@ -100,12 +100,7 @@ For more information about the meeting view-only streaming experience, see [Team
 
 ## Compliance features
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
-
-Many of the meeting organizer controls can also be set by administrators by using the meeting templates and sensitivity labels that are available in Teams Premium.
-
-
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+You can use Teams meeting policies to control meeting recording, the lobby, and content sharing for different groups of users in your organization. Teams Premium offers a variety of compliance-related meeting features, including sensitivity label capability, watermarks, encryption, and meeting templates. For details, see [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) and [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md).
 
 ## Apps for meetings
 
@@ -135,3 +130,11 @@ Some meeting features can be controlled by Teams administrators while others are
 |[Watermarks](watermark-meeting-content-video.md) (Teams Premium)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 
 For information about how meeting organizers can set meeting options, see [Participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e).
+
+## Related topics
+
+[Plan for Teams webinars](plan-webinars.md)
+
+[Plan for Teams town halls](plan-town-halls.md)
+
+[Overview of meetings, webinars, and town halls](quick-start-meetings-live-events.md)
