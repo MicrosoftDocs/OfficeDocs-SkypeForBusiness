@@ -605,8 +605,6 @@ items:
 - name: Meetings and audio conferencing
   items: 
     
-    - name: Overview
-      href: deploy-meetings-microsoft-teams-landing-page.md
     - name: Meetings, webinars, and town halls
       items:
         - name: Overview 
