@@ -47,7 +47,7 @@ When the location is associated to the telephone number depends on the country/r
 
 ## Dynamic emergency calling for Calling Plans
 
-Dynamic emergency calling for Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+Dynamic emergency calling for Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country/region of usage of the Teams user.
 
 Dynamic location for routing emergency calls is supported in the United States as follows.
 
@@ -67,7 +67,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 - Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country
+- The emergency calling network of that country/region
 
 For example:
 

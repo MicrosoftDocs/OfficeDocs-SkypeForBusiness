@@ -1305,7 +1305,7 @@ items:
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Honduras
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong
+            - name: Hong Kong SAR
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: Hungary
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -1893,6 +1893,8 @@ items:
       href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
+        - name: Overview
+          href: calling-plan-overview.md
         - name: Albania
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
         - name: Algeria
@@ -1987,7 +1989,7 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Honduras
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: Hong Kong
+        - name: Hong Kong SAR
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: Hungary
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md

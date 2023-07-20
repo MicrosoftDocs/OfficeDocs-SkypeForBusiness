@@ -35,7 +35,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Bulgarian (Bulgaria)                    |
 |Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
-|Chinese (Traditional, Hong Kong)        |
+|Chinese (Traditional, Hong Kong SAR)    |
 |Chinese (Traditional, Taiwan)           |
 |Croatian (Croatia)                      |
 |Czech (Czech Republic)                  |
