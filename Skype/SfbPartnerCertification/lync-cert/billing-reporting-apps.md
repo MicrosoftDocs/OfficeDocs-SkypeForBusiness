@@ -187,7 +187,7 @@ tigercomms.com
 
 Scalable from 100 to 100,000+ extensions, Tiger 2020 Pro, is a centralized billing and reporting platform for Lync 2013, empowering customers to measure and manage fixed line and mobile networks.
 
-Incorporating powerful Active Directory integration, rich multi-lingual graphical user interfaces, flexible multi-country billing tariffs and customizable reporting facilities, it enables customers to monitor and control network capacity, areas of over and under-utilization, and staff performance. Further cost savings can be identified through assessment of actual versus alternative carrier pricing. A Silverlight web interface allows secure access for all users and administrators network-wide.
+Incorporating powerful Active Directory integration, rich multi-lingual graphical user interfaces, flexible multi-country/region billing tariffs and customizable reporting facilities, it enables customers to monitor and control network capacity, areas of over and under-utilization, and staff performance. Further cost savings can be identified through assessment of actual versus alternative carrier pricing. A Silverlight web interface allows secure access for all users and administrators network-wide.
 
 Options include integration to Financial Systems and Data Warehouses via standard or customized interfaces and Voice Network Security for pro-active call alerting to fraudulent activity and unusual traffic patterns.
 
