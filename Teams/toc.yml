@@ -722,7 +722,7 @@ items:
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
             - name: Streaming encoders
-              href: streaming-encoders.md
+              href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -1818,14 +1818,10 @@ items:
           href: teams-live-events/live-events-recording-policies.md
         - name: Streaming overview
           href: teams-stream-overview.md
-        - name: Teams encoder
-          href: teams-encoder-setup.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Creating an event
           href: teams-stream-create-event.md
-        - name: Scale video delivery
-          href: teams-stream-ecdn.md
         - name: Troubleshooting
           href: teams-stream-troubleshooting.md
 

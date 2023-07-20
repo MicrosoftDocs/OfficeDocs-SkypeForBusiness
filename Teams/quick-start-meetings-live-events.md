@@ -28,6 +28,8 @@ description: A guide for administrators to roll out and configure meetings, webi
 
 # Overview of meetings, webinars, and town halls
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+
 There are multiple ways to meet in Microsoft Teams:
 
 - Meetings
