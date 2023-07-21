@@ -51,7 +51,7 @@ As an admin, you can control how tags are used across your organization in the M
 
 :::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Screenshot of tagging settings in the Microsoft Teams admin center.":::
 
-A team can have up to 100 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team be assigned to a single user.
+A team can have up to 200 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team be assigned to a single user.
 
 ### Set who can manage tags
 
@@ -83,3 +83,4 @@ You can configure the following tags settings to control how tags are used acros
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 [Shifts Help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+
