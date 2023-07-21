@@ -118,8 +118,8 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 > [!NOTE]
 > There is a throttling limit on how many emails you can send to a channel. The limit is six emails per ten seconds per channel per user and eight emails per ten seconds per tenant per user.
-<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
+<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.<br/>
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
@@ -248,7 +248,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 |Feature  |Maximum limit  |
 |---------|---------|
 |Number of tags per team    | 200        |
-|Number of suggested default tags per team    | 25        |
+|Number of suggested default tags per team    | 25        |If the number of attachments or images exceeds this limit
 |Number of team members assigned to a tag    |200         |
 |Number of tags assigned to a user per team    |25         |
 
