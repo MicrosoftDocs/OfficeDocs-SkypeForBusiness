@@ -69,7 +69,7 @@ An overview of the steps:
 1. Choose the settings that you want.
 1. Select Save.
 
-For example, you may have a group of users who regularly have meetings with participants from more than one country. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries/regions to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
+For example, you may have a group of users who regularly have meetings with participants from more than one country/region. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries/regions to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
 
 This ensures phone numbers that you selected for Canada, Botswana, and Singapore will be included in the meetings invites created by users of this policy.
 
