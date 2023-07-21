@@ -41,7 +41,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 ## Rollout schedule 
 
-#### When will the new Microsoft Teams start being included with the new installations of Microsoft 365 Apps?
+#### When will the new Microsoft Teams be included with the new installations of Microsoft 365 Apps?
 
 The date when the new Teams starts being installed with new installations of Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
 
