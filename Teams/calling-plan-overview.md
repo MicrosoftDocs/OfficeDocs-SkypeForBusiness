@@ -83,7 +83,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Guam](/microsoftteams/phone-reference/plan-availability/availability-in-guam)
 > - [Guatemala](/microsoftteams/phone-reference/plan-availability/availability-in-guatemala)
 > - [Honduras](/microsoftteams/phone-reference/plan-availability/availability-in-honduras)
-> - [Hong Kong](/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong)
+> - [Hong Kong SAR](/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong)
 > - [Hungary](/microsoftteams/phone-reference/plan-availability/availability-in-hungary)
 > - [India](/microsoftteams/phone-reference/plan-availability/availability-in-india)
 > - [Indonesia](/microsoftteams/phone-reference/plan-availability/availability-in-indonesia)
