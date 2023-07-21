@@ -1,7 +1,7 @@
 ---
 title: "Shared Calling scenario"
 ms.reviewer: jenstr
-ms.date: 7/19/2023
+ms.date: 7/21/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -70,7 +70,6 @@ if ($PhoneNumber.NumberType -eq 'DirectRouting') {
 	Grant-CsOnlineVoiceRoutingPolicy -Identity $user -PolicyName Seattle
 	Grant-CsOnlineVoiceRoutingPolicy -Identity $main-aa -PolicyName Seattle
 }
-
 ```
 
 ## Related topics
