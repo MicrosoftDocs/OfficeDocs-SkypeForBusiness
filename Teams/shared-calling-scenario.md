@@ -30,9 +30,9 @@ Before reading this article, be sure you've read [Plan and configure Shared Call
 This article provides a sample scenario for setting up Shared Calling. It provides a PowerShell example for the following steps:
 
 1. Get the user.
-1. Enable Enterprise Voice for the user.
+1. Enable voice for the user.
 1. Get the phone number of the Auto attendant resource account.
-1. Create the emergency call routing policy based on the phone number type of the Auto Attendant.
+1. Create the emergency call routing policy based on the phone number type of the Auto attendant.
 1. Set the static emergency location on the resource account.
 1. Create the Shared Calling routing policy.
 1. Grant the Shared policy to the user.
@@ -42,7 +42,7 @@ This article provides a sample scenario for setting up Shared Calling. It provid
 # Get the Shared Calling user
 $user = Get-CsOnlineUser -Identity user@contoso.com
 
-# Enable Enterprise Voice for the user
+# Enable voice for the user
 Set-CsPhoneNumberAssignment -Identity user@contoso.com -EnterpriseVoiceEnabled $true
 
 # Get the phone number of the Auto attendant resource account

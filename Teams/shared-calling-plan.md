@@ -59,9 +59,9 @@ This article describes all the requirements for configuring Shared Calling. You 
 
 - You must have Teams PowerShell Module version 5.5.0 to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling policies](shared-calling-setup.md).
 
-## Emergency calling requirements
+- You must ensure that users enabled for Shared Calling are able to make emergency calls. For information, see [Configure Shared Calling routing policies](shared-calling-setup.md).
 
-As an admin, you must ensure that users enabled for Shared Calling are able to make emergency calls.
+## Emergency calling requirements
 
 You must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing. You can specify emergency numbers by using the [emergency call routing policy](/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
@@ -81,9 +81,9 @@ You can define a list of emergency callback numbers in the EmergencyNumbers para
 
 - If this list is empty, the phone number of the resource account is used as the emergency callback number--however, this isn't supported if your resource account is assigned a Calling Plan toll free service number.
 
-- The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account--that is Calling Plan, Operator Connect, or Direct Routing.
+- The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account: Calling Plan, Operator Connect, or Direct Routing.
 
-- If the resource account has assigned a Calling Plan service number, then the emergency callback number(s) must be Calling Plan *subscriber* number(s)--not Calling Plan service number(s).
+- If the resource account is associated with a Calling Plan service number, then the emergency callback number must be a Calling Plan subscriber number--not a Calling Plan service number.
 
 - If your resource account is assigned a Calling Plan toll-free service number, you need to add Calling Plan subscriber numbers to emergency numbers in the policy.
 
@@ -92,7 +92,7 @@ You can define a list of emergency callback numbers in the EmergencyNumbers para
 The emergency location provided to the emergency services is determined in the following order. Teams will first attempt to determine the actual location of the user. If that's not possible, it will default to the location specified in the [Shared Calling routing policy](shared-calling-setup.md):
 
   1. Actual location of user -- dynamically obtained by the Teams client.
-  2. Location assigned to the phone number assigned to the resource resource account specified in the Shared Calling routing policy -- statically obtained.
+  1. Location assigned to the phone number associated with the resource account -- statically obtained by the Teams client.
 
 For more information about emergency calling and how location is determined, see  [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
