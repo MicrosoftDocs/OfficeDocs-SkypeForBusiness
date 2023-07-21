@@ -1,5 +1,5 @@
 ---
-title: "Plan and configure Shared Calling"
+title: "Plan for Shared Calling"
 ms.reviewer: jenstr
 ms.date: 7/21/2023
 author: CarolynRowe
@@ -23,7 +23,7 @@ ms.custom:
 description: "In this article, you'll learn about Phone System Shared Calling."
 ---
 
-# Plan and configure Shared Calling
+# Plan for Shared Calling
 
 If you have users who are not heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number.
 
