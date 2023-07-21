@@ -43,11 +43,11 @@ When the location is associated to the telephone number depends on the country/r
 
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 
-- For other countries&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
+- For other countries/regions&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
 
 ## Dynamic emergency calling for Calling Plans
 
-Dynamic emergency calling for Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+Dynamic emergency calling for Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country/region of usage of the Teams user.
 
 Dynamic location for routing emergency calls is supported in the United States as follows.
 
@@ -67,7 +67,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 - Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country
+- The emergency calling network of that country/region
 
 For example:
 
@@ -81,7 +81,7 @@ For example:
 
 **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.
 
-**For information about how emergency calls are routed in all countries**, see [Emergency call routing for different countries](emergency-calling-availability.md).
+**For information about how emergency calls are routed in all countries/regions**, see [Emergency call routing for different countries](emergency-calling-availability.md).
 
 For more information, see:
 

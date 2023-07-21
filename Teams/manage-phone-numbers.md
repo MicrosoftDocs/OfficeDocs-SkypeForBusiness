@@ -42,7 +42,7 @@ There are four ways to get user (subscriber) and service (toll and toll-free) ph
 For information about how many phone numbers you can get, see [How many phone numbers can you get](how-many-phone-numbers-can-you-get.md).
 
 > [!NOTE]
-> For country specifics, be sure to check the phone number management article for that country. For example, for information about Australia, see [Phone number management for Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia).
+> For country/region specifics, be sure to check the phone number management article for that country/region. For example, for information about Australia, see [Phone number management for Australia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-australia).
 
 ***
 
