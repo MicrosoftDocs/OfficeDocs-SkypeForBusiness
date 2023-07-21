@@ -22,11 +22,11 @@ ms.localizationpriority: high
 ---
 # Deploy the new Microsoft Teams with Microsoft 365 Apps
 
-New Teams is also being added to existing installations of Microsoft 365 Apps on devices running Windows. This change is beginning currently for Microsoft 365 Apps on Windows. 
+Starting in late August, new Teams will be part of new installations of Microsoft 365 Apps on Windows.
 
-We will begin by including the new Teams app as part of M365 App installations windows depending on your office update channel . You will continue to have classic Teams app included in the installation as well. More details <>
+Currently, users can install the new Microsoft Teams using the "Try the new Teams" toggle switch in classic Teams or by Admins "bulk" deploying directly to the computers in their organization.
 
-Administrators will be able managing opt-out from this deployment if they do not wish to have new Teams included in the installation. More details <>
+Administrators will be able exclude installing new Teams from their deployment if they don't wish to have new Teams included in the installation.
 
 ## Is the new Teams available for my organization?
 
@@ -41,7 +41,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 ## Rollout schedule 
 
-When will the new Microsoft Teams start being included with the new installations of Microsoft 365 Apps?
+#### When will the new Microsoft Teams start being included with the new installations of Microsoft 365 Apps?
 
 The date when the new Teams starts being installed with new installations of Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
 
@@ -49,26 +49,28 @@ The date when the new Teams starts being installed with new installations of Mic
 
 |License|Target date|
 |:-----|:-----|
-|Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late July – early August, 2023 |
-|Enterprise plans (for example, E3, E5, F3, etc.)|https://aks.ms/newTeamsReleaseSchedule |
+|Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late July – early August  2023 |
+|Enterprise plans (for example, E3, E5, F3, etc.)|[Full rollout schedule](https://aks.ms/newTeamsReleaseSchedule )|
 
 >[!Note]
 >Admins who have already deployed the policy to display the toggle or hide the toggle for their organizations and do not want us to deploy new Teams with will need to opt out from this change. 
 
 
-**Starting September 2023:**
+#### When will the new Teams become the default app?
 
-Microsoft will start making the new Teams the default app starting in late September 2023. The planned rollout will be:
+**Starting September 2023**
+
+Microsoft begins making the new Teams the default app starting in late September 2023. The planned rollout will be:
 
 |License|Target date|
 |:-----|:-----|
 |Business plans (including Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD))|Late September 2023|
-|Enterprise plans (for example, E3, E5, F3, etc.)|https://aka.ms/newTeamsDefaultClient |
+|Enterprise plans (for example, E3, E5, F3, etc.)|[Rollout as default schedule](/microsoftteams/new-teams-desktop-admin#when-will-the-new-teams-become-the-default-client |
 
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
-If you don't want new Teams included when you install Microsoft 365 Apps on devices running Windows,  follow these steps to opt-out. 
+If you don't want new Teams included when you install Microsoft 365 Apps on devices running Windows,  follow these steps to opt out. 
 
 1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account. 
 2. Go to **Customization > Device Configuration > Modern Apps Settings**. 
