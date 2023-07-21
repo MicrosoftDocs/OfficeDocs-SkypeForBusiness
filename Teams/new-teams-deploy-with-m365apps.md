@@ -22,11 +22,14 @@ ms.localizationpriority: high
 ---
 # Deploy the new Microsoft Teams with Microsoft 365 Apps
 
-Starting in late August, new Teams will be part of new installations of Microsoft 365 Apps on Windows.
+Starting in late August, new Teams will be part of new and existing installations of Microsoft 365 Apps on Windows.
 
 Currently, users can install the new Microsoft Teams using the "Try the new Teams" toggle switch in classic Teams or by Admins "bulk" deploying directly to the computers in their organization.
 
-Administrators will be able exclude installing new Teams from their deployment if they don't wish to have new Teams included in the installation.
+Administrators will be able exclude installing new Teams with their Micrososft 365 Apps deployment if they choose.
+
+>[!Important]
+>If the classic Teams app is already installed on a device, the Microsoft 365 Apps deployment will install new Teams alongside classic Teams. The classic Teams installation will not be be changed.
 
 ## Is the new Teams available for my organization?
 
