@@ -81,9 +81,7 @@ If you don't want new Teams included when you install Microsoft 365 Apps on devi
 
 ## Direct deploy later
 
-If you prefer to deploy new Teams yourself and not part of the Microsoft 365 Apps deployment, follow the steps in [**Bulk deployment of new Teams**](new-teams-bulk-install-client.md).
-
-
+If you prefer to not install new Teams as part of the Microsoft 365 Apps deployment, you can do so later.  Follow the steps in [**Bulk deployment of new Teams**](new-teams-bulk-install-client.md).
 
 
 ## What about Office 365 plans that don't include Microsoft Teams? 
