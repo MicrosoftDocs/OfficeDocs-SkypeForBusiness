@@ -198,6 +198,8 @@ $filter=from/application/applicationIdentityType eq '<appType>' or from/user/id 
    
  - The query returns messages sent by the federated users that are part of the user chats, if `from/user/userIdentityType eq ‘federatedUser’` is present.
 
+ - the query returns messages sent by the specified application type if `from/application/applicationIdenitytyType eq '{appType}'` is present.
+
 These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
 
 
