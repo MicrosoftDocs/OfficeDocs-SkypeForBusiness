@@ -28,6 +28,8 @@ description: A guide for administrators to roll out and configure meetings, webi
 
 # Overview of meetings, webinars, and town halls
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+
 There are multiple ways to meet in Microsoft Teams:
 
 - Meetings
@@ -39,7 +41,7 @@ This article, intended for administrators and IT Pros, describes the differences
 
 The sections below include further information for planning and configuring these features, as well as links to information for your end users.
 
-The following table shows the main features that are different between meetings, webinars, and town halls. You can use this information to help determine which is best for the use cases in your organization. For a detailed look at the features available in each, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md)
+The following table shows the main features that are different between meetings, webinars, and town halls. You can use this information to help determine which is best for the use cases in your organization. For a detailed look at the features available in each, see [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md).
 
 |Feature|Meetings|Webinars|Town halls|
 |:------|:-------|:-------|:---------|
@@ -51,13 +53,19 @@ The following table shows the main features that are different between meetings,
 |Streaming|Optional|Optional|Required|
 |Registration|Optional|✔️|✖️|
 |Interactive participants|1,000|1,000|✖️|
-|Streaming participants*|10,000|✖️|10,000|
+|Streaming participants|10,000*|✖️|10,000*|
 |Yammer integration|✖️|✖️|✔️|
 |Breakout rooms|✔️|✔️|✖️|
 
 *The usual 10,000 is increased to 20,000 through December 30, 2023.
 
 ## RTMP
+
+RTMP-In allows organizers to produce their Teams meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
+
+Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key which they can use to start streaming from the encoder.
+
+For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
 
 ## eCDN
 
@@ -81,31 +89,31 @@ You can manage which of your users can create meetings, webinars, and town halls
 For details, see:
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Manage who can schedule webinars](set-up-webinars.md)
-- [Manage who can schedule town halls]()
+- [Manage who can schedule town halls](set-up-town-halls.md)
 
 ## Meetings
 
 Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only streaming experience for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
 
-In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting.
+In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat.
 
-Meetings are generally best for situations where participants need to interact with each other via voice or chat and multiple people may be presenting.
+Meetings are generally best for situations where participants need to interact with each other via voice or chat and where multiple people may be presenting.
 
 For detailed information on how to plan for Teams meetings in your organization, see [Plan for Teams meetings](plan-meetings.md).
 
 #### Key training for end users
 
-The following table lists training available to the end users in your organization:
+The following table lists meetings training available to the end users in your organization:
 
 | Training | Description |
 |----------|--------|
-| [Manage meetings](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) | A quick training video for users who are new to Teams meetings. |
-| [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Article that describes how to schedule different types of meetings. |
-| [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Article about  managing meeting options. |
+| [Join a Teams meeting](https://support.office.com/article/078e9868-f1aa-4414-8bb9-ee88e9236ee4) | A quick training video for users who are new to Teams meetings. |
+| [Schedule a meeting in Microsoft Teams](https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5) | Article that describes how to schedule different types of meetings. |
+| [Participant settings in Microsoft Teams meetings](https://support.microsoft.com/article/53261366-dbd5-45f9-aae9-a70e6354f88e) | Article about  managing meeting options. |
 
 ## Webinars
 
-Webinars are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
+Webinars are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
 
 In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include (Premium features are bolded and marked with an asterisk):
 
@@ -125,11 +133,11 @@ In addition to the base webinar features, we offer additional webinar functional
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
-For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
+For detailed information on how to plan for Teams webinars in your organization, see [Plan for Teams webinars](plan-webinars.md).
 
 #### Key training for end users
 
-The following table lists training available to the end users in your organization:
+The following table lists webinars training available to the end users in your organization:
 
 | Training | Description |
 |----------|--------|
@@ -140,30 +148,18 @@ The following table lists training available to the end users in your organizati
 
 Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed.
 
+Town halls are streaming events, so attendees can't use their cameras and mics. Organizers can use the Q&A feature for interaction with attendees or schedule town halls through Viva Engage.
+
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
 #### Key training for end users
 
-The following table lists training available to the end users in your organization:
+The following table lists town halls training available to the end users in your organization:
 
 | Training | Description |
 |:----------|:--------|
 |||
 
-
-## Apps for meetings
-
-Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
-
-You can add meetings apps to your Teams deployment by using the apps provided with Teams,  using certified third-party apps and templates, and creating your own custom apps.
-
-The following table lists articles for more information:
-
-| Article | Description |
-|----------|--------|
-| [Overview of Teams apps](apps-in-teams.md) | Introduction to apps and how to deploy apps for your organization. |
-| [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
-| [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 
 ## Best practices for large meetings
 

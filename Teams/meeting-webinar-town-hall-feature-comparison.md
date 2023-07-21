@@ -54,27 +54,27 @@ The following table shows which features are available in meetings, webinars, an
 |Manage what attendees see|✔️|✔️|✔️|
 |Meeting chat|✔️|✔️|✖️|
 |Meeting coach|✔️|✔️|✖️|
-|Recording|✔️|✔️|✔️|
-|Registration|✔️|✔️|✖️|
 |Outlook add-in|✔️|✖️|✖️|
 |Participants can give or request control|✔️|✔️|✖️|
 |Participants can use video effects|✔️|✔️|✔️|
 |PowerPoint Live|✔️|✔️|✔️|
 |Q&A|✔️|✔️|✔️|
 |Reactions|✔️|✔️|✔️|
+|Recording|✔️|✔️|✔️|
 |Record automatically|✔️|✔️|✔️|
 |Recordings automatically expire|✔️|✔️|✔️|
 |Registration|Optional|✔️|✖️|
 |Screen sharing|✔️|✔️|✔️|
 |Shared notes|✔️|✔️|✔️|
 |Streaming|Optional|Optional|Required|
-|Streaming participants|10,000|✖️|10,000|
+|Streaming participants|10,000*|✖️|10,000*|
 |Theme|Premium|✔️|✔️|
 |Transcription|✔️|✔️|✔️|
+|Viva Engage integration|✖️|✖️|✔️|
 |Watermarks|Premium|✖️|✖️|
 |Whiteboard|✔️|✔️|✖️|
-|Yammer integration|✖️|✖️|✔️|
 
+*The usual 10,000 is increased to 20,000 through December 30, 2023.
 
 ## Related topics
 
