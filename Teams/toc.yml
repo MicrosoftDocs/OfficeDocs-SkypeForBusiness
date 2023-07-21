@@ -1818,8 +1818,6 @@ items:
           href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
-        - name: Creating an event
-          href: teams-stream-create-event.md
         - name: Troubleshooting
           href: teams-stream-troubleshooting.md
 
