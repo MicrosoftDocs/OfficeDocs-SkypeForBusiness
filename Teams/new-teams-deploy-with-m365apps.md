@@ -65,7 +65,7 @@ Microsoft begins making the new Teams the default app starting in late September
 |License|Target date|
 |:-----|:-----|
 |Business plans (including Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD))|Late September 2023|
-|Enterprise plans (for example, E3, E5, F3, etc.)|[Rollout as default schedule](/microsoftteams/new-teams-desktop-admin#when-will-the-new-teams-become-the-default-client |
+|Enterprise plans (for example, E3, E5, F3, etc.)|[Full schedule](/microsoftteams/new-teams-desktop-admin#when-will-the-new-teams-become-the-default-client) |
 
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
