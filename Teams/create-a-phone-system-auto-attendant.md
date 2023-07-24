@@ -62,9 +62,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 The steps to add an Auto attendant are:
 
 1. Set up general information.
-1. Set up a basic call flow.
-1. Set up an after hours call flow.
-1. Set up holiday call flows.
+1. Set up call flows.
 1. Set up dial scope.
 1. Set up resource accounts.
 1. Set up authorized users.
@@ -95,6 +93,8 @@ To set up an Auto attendant, in the [Teams admin center](https://go.microsoft.co
 Once you've set your Auto attendant's general info, select **Next**.
 
 ## [Step 2: Call flows](#tab/call-flow)
+
+## Step 2: Set up call flows
 
 ## Step 2.1: Set up the basic call flow
 
@@ -129,7 +129,7 @@ For each menu option, specify the following settings:
 
 - **Redirect to** - the call routing destination used when callers choose this option. If you're redirecting to an Auto attendant or Call queue, choose the resource account associated with it.
 
-##### Directory search
+### Directory search
 
 If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they are routed to that destination before they finish entering the name or extension. We recommend that you create a separate Auto attendant for directory search and have your main Auto attendant link to it with a dial key.
 
