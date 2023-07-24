@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: dacarrol
-ms.date: 07/28/2023
+ms.date: 07/24/2023
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
