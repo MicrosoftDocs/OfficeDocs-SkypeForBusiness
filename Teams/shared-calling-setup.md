@@ -20,14 +20,14 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-description: "In this article, you'll learn how to configure Teams Phone Shared Calling policies."
+description: "In this article, you'll learn how to configure Teams Phone Shared Calling routing policies."
 ---
 
 # Configure Shared Calling
 
 Before reading this article, be sure you've read [Plan for Shared Calling](shared-calling-plan.md). It describes licensing and other requirements needed to set up Shared Calling.
 
-This article describes how to configure Shared Calling. You'll also need to set up your emergency call routing policy before creating Shared Calling.
+This article describes how to configure Shared Calling. You'll also need to set up your [emergency call routing policy](shared-calling-setup.md#emergency-calling-routing-policy) before creating Shared Calling.
 
 For a step-by-step example on how to configure Shared Calling, see [Shared Calling scenario](shared-calling-scenario.md).
 
