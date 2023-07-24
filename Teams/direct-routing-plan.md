@@ -37,7 +37,7 @@ With Direct Routing, you can connect your SBC to almost any telephony trunk or i
 
 Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Calling Plan. However, Direct Routing might be best for your organization if: 
 
-- Microsoft Calling Plan isn't available in your area. 
+- Microsoft Calling Plan is not available in your country/region. 
 
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
 
