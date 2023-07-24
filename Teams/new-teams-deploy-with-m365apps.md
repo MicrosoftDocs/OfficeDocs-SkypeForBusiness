@@ -51,14 +51,10 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 |License|Target date|
 |:-----|:-----|
 |Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late August 2023 |
-|Enterprise plans (for example, E3, E5, F3, etc.)|See schedule below.|
+|Enterprise plans (for example, E3, E5, F3, etc.)|Dependent on your update channel. See list below.|
 
 
 ##### Update channels
-
->[!Tip]
->Learn more about update channels, including how to make changes here:
-> - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
@@ -72,18 +68,6 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
 >- New Teams is currently not available on VDI and Mac OS but is planned for release later in this calendar year
-
-
-#### When will the new Teams become the default app?
-
-**Starting September 2023**
-
-For new Teams apps included in Microsoft 365 Apps installations, Microsoft begins making the new Teams the default app starting in late September 2023. The planned rollout will be:
-
-|License|Target date|
-|:-----|:-----|
-|Business plans (including Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD))|Late September 2023|
-|Enterprise plans (for example, E3, E5, F3, etc.)| |
 
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
