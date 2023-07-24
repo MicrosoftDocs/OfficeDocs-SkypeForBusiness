@@ -94,9 +94,9 @@ To set up an Auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 Once you've set your Auto attendant's general info, select **Next**.
 
-## [Step 2: Basic call flow](#tab/call-flow)
+## [Step 2: Call flows](#tab/call-flow)
 
-## Step 2: Set up the basic call flow
+## Step 2.1: Set up the basic call flow
 
 ### Set a greeting
 
@@ -146,9 +146,7 @@ For more information, see the [Dial and voice reference](dial-voice-reference.md
 
 Once you've set your basic call flow options, select **Next**.
 
-## [Step 3: After hours call flow](#tab/after-hours)
-
-## Step 3: Set up call flow for after hours (optional)
+## Step 2.2: Set up call flow for after hours (optional)
 
 Business hours can be set for each Auto attendant.
 
@@ -166,9 +164,7 @@ If you want separate call routing for after-hours callers, then specify your bus
 
 Once you've added your after hours call flow, select **Next**.
 
-## [Step 4: Holiday call flow](#tab/holidays)
-
-## Step 4: Set up call flows for holidays (optional)
+## Step 2.3: Set up call flows for holidays (optional)
 
 *New* - holiday sets now support up to 50 date ranges.
 
@@ -193,9 +189,9 @@ Repeat the procedure as needed for each additional holiday.
 
 Once you've added all your holiday hours, select **Next**.
 
-## [Step 5: Dial scope](#tab/dial-scope)
+## [Step 3: Dial scope](#tab/dial-scope)
 
-## Step 5: Set up dial scope (optional)
+## Step 3: Set up dial scope (optional)
 
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
 
@@ -208,9 +204,9 @@ If a user is in both lists, they are excluded from the directory.
 
 Once you've selected your **Dial scope** options, select **Next**.
 
-## [Step 6: Resource accounts](#tab/resource-accounts)
+## [Step 4: Resource accounts](#tab/resource-accounts)
 
-## Step 6: Set up resource accounts (optional)
+## Step 4: Set up resource accounts (optional)
 
 All Auto attendants must have an associated resource account.  First-level Auto attendants need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an Auto attendant, each with a separate service number.
 
@@ -220,9 +216,9 @@ Once you've added resource accounts, select **Next**.
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-## [Step 7: Authorized users](#tab/authorized-users)
+## [Step 5: Authorized users](#tab/authorized-users)
 
-## Step 7: Authorized users
+## Step 5: Authorized users
 
 **Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
