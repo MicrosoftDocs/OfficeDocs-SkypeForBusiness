@@ -39,14 +39,14 @@ Administrators will be able exclude installing new Teams with their Micrososft 3
 The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer
 
 
 ## Rollout schedule 
 
 #### When will the new Microsoft Teams be included with the new installations of Microsoft 365 Apps?
 
-The date when the new Teams starts being installed with new installations of Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
+The date when the new Teams starts being installed with Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
 
 **Starting mid-to late August 2023**, the planned rollout will be:
 
@@ -54,9 +54,6 @@ The date when the new Teams starts being installed with new installations of Mic
 |:-----|:-----|
 |Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late July – early August  2023 |
 |Enterprise plans (for example, E3, E5, F3, etc.)|[Full rollout schedule](https://aks.ms/newTeamsReleaseSchedule )|
-
->[!Note]
->Admins who have already deployed the policy to display the toggle or hide the toggle for their organizations and do not want us to deploy new Teams with will need to opt out from this change. 
 
 
 #### When will the new Teams become the default app?
@@ -73,18 +70,24 @@ Microsoft begins making the new Teams the default app starting in late September
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
-If you don't want new Teams included when you install Microsoft 365 Apps on devices running Windows,  follow these steps to opt out. 
+If you don't want new Teams included with Microsoft 365 Apps on devices running Windows,  follow these steps to opt out. 
 
 1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account. 
 2. Go to **Customization > Device Configuration > Modern Apps Settings**. 
-3. Select **Microsoft Teams**,  then clear the **Enable automatic installation of Microsoft Teams**  check box. 
+3. Select **Microsoft Teams (work or school)**,  then clear the **Enable automatic installation of new Microsoft Teams** check box. 
 
 >[!Note]
 >For the best Teams experience, we recommend leaving the setting as is. 
 
-## Direct deploy later
+## Direct deploy separately
 
-If you prefer to not install new Teams as part of the Microsoft 365 Apps deployment, you can do so later.  Follow the steps in [**Bulk deployment of new Teams**](new-teams-bulk-install-client.md).
+If you prefer to not install new Teams as part of the Microsoft 365 Apps deployment, you can do so separately.If
+
+Admin choices are essentially
+
+- [default] Microsoft will take care of Teams deployment for you
+-  Deploy new Teams yourself
+- (don't deploy new Teams)Follow the steps in [**Bulk deployment of new Teams**](new-teams-bulk-install-client.md).
 
 
 ## What about Office 365 plans that don't include Microsoft Teams? 
