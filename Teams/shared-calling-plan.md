@@ -37,7 +37,7 @@ With Shared Calling, instead of assigning a phone number to every user, you use 
 
 Auto attendants support multiple options for transferring a call to a user; for example, dial by name or dial by extension. Users have the same Phone System user experience and features, including the dial pad.
 
-The Auto Attendant phone number used is specified by the resource account associated with the Auto Attendant.
+The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.
 
 For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
@@ -45,7 +45,7 @@ This article describes all the requirements for configuring Shared Calling. You 
 
 ## Configuration requirements
 
-- Each user must have a Phone System license assigned, and each user must be enabled for Enterprise Voice. To assign the license, use the Microsoft 365 admin portal. To enable users for Enterprise Voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the **EnterpriseVoiceEnabled** parameter to $true.
+- Each user must have a Phone System license assigned, and each user must be "voice enabled." To assign the license, use the Microsoft 365 admin portal. To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the **EnterpriseVoiceEnabled** parameter to $true.
 
   For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -71,11 +71,11 @@ Emergency calling for Shared Calling is available globally. There are configurat
 
 ### Emergency callback number
 
-Emergency services must be able to call back the originator of the emergency call. The phone number used for this is called an *emergency callback number* and this number will act as the caller id or calling number used when an emergency call is made.
+Emergency services must be able to call back the originator of the emergency call. The phone number used for this is called an *emergency callback number* and this number will act as the caller ID or calling number used when an emergency call is made.
 
 You can define a list of emergency callback numbers in the EmergencyNumbers parameter of the [Shared Calling routing policy](shared-calling-setup.md).
 
-- When an emergency call is made, the next free number in the emergency number list will be used as the caller id and this number will be reserved for the next 60 minutes.
+- When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
 
 - If there are no free numbers available in the list, we will reuse a phone number from the list.
 
