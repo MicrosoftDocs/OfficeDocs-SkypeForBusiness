@@ -131,7 +131,7 @@ For each menu option, specify the following settings:
 
 ### Directory search
 
-If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they are routed to that destination before they finish entering the name or extension. We recommend that you create a separate Auto attendant for directory search and have your main Auto attendant link to it with a dial key.
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. Dial keys are matched before directory searches are performed. If a caller starts to enter a name or extension using dial keys that are assigned to specific destinations, they're routed to that destination before they finish entering the name or extension. We recommend that you create a separate Auto attendant for directory search and have your main Auto attendant link to it with a dial key.
 
 If you didn't assign dial keys, then choose an option for **Directory search**.
 
@@ -197,7 +197,7 @@ The *dial scope* defines which users are available in the directory when a calle
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory.
 
-If a user is in both lists, they are excluded from the directory.
+If a user is in both lists, they're excluded from the directory.
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
