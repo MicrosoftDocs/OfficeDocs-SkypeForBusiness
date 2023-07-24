@@ -94,7 +94,7 @@ Once you've set your Auto attendant's general info, select **Next**.
 
 ## [Step 2: Call flows](#tab/call-flow)
 
-## Step 2: Set up call flows
+## Step 2: Call flows
 
 ## Step 2.1: Set up the basic call flow
 
