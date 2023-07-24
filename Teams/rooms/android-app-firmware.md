@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV81 | `2.0.369` | 2023 Update #2 |
 | Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Room Bar | `11.5.2.5` | 2023 Update #2 |
