@@ -130,9 +130,6 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 
 ### In the Teams admin center
 
-> [!NOTE]
-> Policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, Teams messaging policy, and App setup policies. For other policy types, use PowerShell.
-
 1. In the left navigation of the Microsoft Teams admin center, go to the policy type page. For example, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
@@ -151,15 +148,36 @@ This video shows the steps to create and assign a custom meeting policy to a gro
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
-### Use the PowerShell option
+### Policies managed by Teams admin center
 
-> [!NOTE]
-> The Teams Powershell Module supports all policy types used in Teams except for the following:
-> - Teams App Permission Policy
-> - Teams Network Roaming Policy
-> - Teams Emergency Call Routing Policy
-> - Teams Voice Applications Policy
-> - Teams Upgrade Policy
+The following policies are supported in Teams admin center:
+> - Teams App Permission Policy*
+> - Teams Network Roaming Policy*
+> - Teams Emergency Call Routing Policy*
+> - Teams Voice Applications Policy*
+> - Teams Upgrade Policy*
+> - Teams Calling Policy
+> - Teams Call Park Policy
+> - Teams Policy
+> - Teams Live Events Policy
+> - Teams Meeting Policy
+> - Teams Messaging Policy
+> - App Setup Policy
+> - Call Hold Policy
+> - Caller ID Policy
+> - Dial Plans
+> - Customization Policy
+> - Emergency Calling Policy
+> - Enhanced Encryption Policy
+> - Events Policy
+> - Mobility Policy
+> - Template Policy
+> - Voicemail Policy
+> - Voice Routing Policy
+
+*This policy dosen't support group policy assignment.
+> [!Note]
+> The Teams PowerShell Module supports all other policy types used in Teams Admin center.
 
 
 #### Install and connect to the Microsoft Teams PowerShell module
