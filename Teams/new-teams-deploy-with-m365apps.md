@@ -99,7 +99,7 @@ If you don't want new Teams included with Microsoft 365 Apps on devices running 
 
 ## Direct or "bulk" deploy separately
 
-If you choose to not have Microsoft take care of the Teams deployment for you, you can do so separately using the [**Bulk Deploy the new Teams client**](new-teams-bulk-install-client.md)
+If you choose to not have Microsoft take care of the Teams deployment for you, you can do so separately following the steps outlined in this article: [**Bulk Deploy the new Teams client**](new-teams-bulk-install-client.md).
 
 
 ## What about Office 365 plans that don't include Microsoft Teams? 
