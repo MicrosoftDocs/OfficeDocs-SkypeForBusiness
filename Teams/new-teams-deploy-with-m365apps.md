@@ -50,22 +50,67 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 **Starting mid-to late August 2023**, the planned rollout will be:
 
+
 |License|Target date|
 |:-----|:-----|
 |Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late July – early August  2023 |
-|Enterprise plans (for example, E3, E5, F3, etc.)|[Full rollout schedule](https://aks.ms/newTeamsReleaseSchedule )|
+|Enterprise plans (for example, E3, E5, F3, etc.)|See schedule below.|
+
+
+##### Update channels
+
+>[!Tip]
+>Learn more about update channels, including how to make changes here:
+> - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
+
+If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
+
+|Update channel|Date|
+|:-----|:-----|
+Public preview program|Available|
+|Targeted release program|Available|
+|Current Channel|August 2023|
+|Monthly Enterprise Channel|Mid September 2023|
+|Semi-Annual Enterprise Channel (Preview)|August 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
+
+>[!Note]
+>- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
+>- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 
 #### When will the new Teams become the default app?
 
 **Starting September 2023**
 
-Microsoft begins making the new Teams the default app starting in late September 2023. The planned rollout will be:
+For new Teams apps included in Microsoft 365 Apps installations, Microsoft begins making the new Teams the default app starting in late September 2023. The planned rollout will be:
 
 |License|Target date|
 |:-----|:-----|
 |Business plans (including Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD))|Late September 2023|
-|Enterprise plans (for example, E3, E5, F3, etc.)|[Full schedule](/microsoftteams/new-teams-desktop-admin#when-will-the-new-teams-become-the-default-client) |
+|Enterprise plans (for example, E3, E5, F3, etc.)| |
+
+
+##### Licenses
+
+|License|Date|
+|:-----|:-----|
+|Business Licenses and Teams Essentials|Mid September 2023
+|Enterprise and other Licenses|See the schedule listed below.|
+
+##### Update channels
+
+If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
+
+|Update channel|Date|
+|:-----|:-----|
+|Teams Public Preview|Mid August 2023|
+|Targeted Release Channel|Mid August 2023|
+|Current Channel|Early October 2023|
+|Monthly Enterprise Channel|Early November 2023|
+|Semi-Annual Enterprise Channel (Preview)|Early October 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
+
 
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
