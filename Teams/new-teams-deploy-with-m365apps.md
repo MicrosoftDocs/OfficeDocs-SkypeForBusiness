@@ -68,7 +68,8 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 ### When will the new Teams become the default app?
 
-Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
+>[!Note]
+>Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
 ##### Licenses
 
