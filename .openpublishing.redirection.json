@@ -4631,6 +4631,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/teams-stream-create-event.md",
+    "redirect_url": "https://support.microsoft.com/office/f92363a0-6d98-46d2-bdd9-f2248075e502",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/contact-tns-service-desk.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false

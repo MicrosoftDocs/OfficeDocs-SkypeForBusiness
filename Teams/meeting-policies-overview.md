@@ -19,69 +19,51 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.overview
   - seo-marvel-apr2020
-description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
+description: Learn to manage meeting and event policy settings in Teams and use them to control the features available to meeting participants for meetings, webinars, and town halls.
 ---
 # Manage meeting and event policies in Microsoft Teams
 
-Meeting and event policies are used to control the features that are available to organizsers and participants of meetings, webinars, and town halls in your organization. You can use the global (Org-wide default) policies that are automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
+Meeting and event policies are used to control the features that are available to organizers and participants of meetings, webinars, and town halls in your organization. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
+
+You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
 Policies are implemented in one of the following ways:
 
 |Implementation type  |Description  |
 |---------|---------|
-|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Who can bypass the lobby** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.|
+|Per-organizer    |When you implement a per-organizer policy, all participants inherit the policy of the organizer. For example, **Who can bypass the lobby** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.|
 |Per-user    |When you implement a per-user policy, the policy allows or prevents a given feature for each user. For example, **Meet now in channel meetings** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Meeting recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.|
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for participants based on their policy and the organizer's policy. For example, **Meeting recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.|
 
-You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
+## Create a custom meeting or event policy
 
-> [!NOTE]
-> Meeting details button will be available if a user has the audio conference licenses enabled or the user is allow for audio conferencing, if not, the meeting details will not be available.
-
-## Create a custom meeting policy
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
+1. In the left navigation of the Teams admin center, go to **Meetings** > **Meeting policies** or **Event policies**.
 2. Click **Add**.
 3. Enter a name and description for the policy. The name can't contain special characters or be longer than 64 characters.
 4. Choose the settings that you want.
 5. Click **Save**.
 
-For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
-
-Under **Audio & video**:
-
-- Turn off Meeting recording.
-- Turn off IP video.
-
-Under **Content sharing**:
-
-- Disable screen sharing mode.
-- Turn off Whiteboard.
-- Turn off Shared notes.
-
-Then assign the policy to the users.
-
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
-## Edit a meeting policy
+## Edit a meeting or event policy
 
 You can edit the global policy and any custom policies that you create.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies** or **Event policies**.
 2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
 3. From here, make the changes that you want.
 4. Click **Save**.
 
 > [!NOTE]
-> A user can be assigned only one meeting policy at a time.
+> A user can be assigned only one meeting policy and one event policy at a time.
 
 This video shows the steps to edit an organizational-wide default meeting policy.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
-## Assign a meeting policy to users
+## Assign a meeting or event policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
