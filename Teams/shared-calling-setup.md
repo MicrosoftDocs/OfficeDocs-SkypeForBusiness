@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: jenstr
-ms.date: 7/21/2023
+ms.date: 7/24/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -41,7 +41,7 @@ To configure and manage Shared Calling routing policies, you'll use the followin
 - [Set-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy)
 - [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy)
 
-For example, the following command creates a new Shared Calling policy, called Test, and assigns it to resource account ra1@contoso.com. The command also identifies the emergency callback numbers associated with the resource account:
+For example, the following command creates a new Shared Calling policy, called Seattle, and assigns it to resource account main-add@contoso.com. The command also identifies the emergency callback numbers associated with the resource account:
 
 ```powershell
 $ecbn1 = '+14255556789'
@@ -87,17 +87,31 @@ Emergency calling for Shared Calling is available globally. There are configurat
 
 Emergency services must be able to call back the originator of the emergency call. The phone number used for this is called an *emergency callback number* and this number will act as the caller ID or calling number used when an emergency call is made.
 
-You can define a list of emergency callback numbers in the EmergencyNumbers parameter of the [Shared Calling routing policy](shared-calling-setup.md).
+You can define a list of emergency callback numbers in the EmergencyNumbers parameter of the [Shared Calling routing policy](shared-calling-setup.md). Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
-- When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
+You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. You can assign emergency addresses to resource account numbers.
+
+When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
 
 - If there are no free numbers available in the list, we will reuse a phone number from the list.
 
 - If this list is empty, the phone number of the resource account is used as the emergency callback number--however, this isn't supported if your resource account is assigned a Calling Plan toll free service number.
 
+When emergency numbers are added to a policy:
+
+- Only the location from the resource account will be used--emergency numbers don't require an associated location.
+
+- The emergency numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
+
 - The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account--that is Calling Plan, Operator Connect, or Direct Routing.
 
-- If the resource account has assigned a Calling Plan service number, then the emergency callback number(s) must be Calling Plan *subscriber* number(s)--not Calling Plan service number(s).
+You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
+
+You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center. For assigned Direct Routing numbers, you can use Get-CsPhoneNumberAssignment -NumberType DirectRouting.
+
+#### Calling Plan service numbers
+
+- If the resource account has assigned a Calling Plan service number, then the emergency callback number must be a Calling Plan subscriber number--not a Calling Plan service number.
 
 - If your resource account is assigned a Calling Plan toll-free service number, you need to add Calling Plan subscriber numbers to emergency numbers in the policy.
 
@@ -108,25 +122,7 @@ The emergency location provided to the emergency services is determined in the f
   1. Actual location of user -- dynamically obtained by the Teams client.
   2. Location assigned to the phone number assigned to the resource account specified in the Shared Calling routing policy -- statically obtained.
 
-For more information about emergency calling and how location is determined, see  [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
-
-## [Check for repetition below this line]
-
-- You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the policy is used. You can assign emergency addresses to resource account numbers.
-
-- Each Shared Calling policy must have unique emergency calling number(s). That is, you can't use the same emergency number in more than one Shared Calling policy.
-
-- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
-
-- When emergency numbers are added to a policy:
-
-  - Emergency numbers do not require an associated location--only the location from the resource account will be used.
-
-  - You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center.  For assigned Direct Routing numbers, you can use Get-CsPhoneNumberAssignment -NumberType DirectRouting.
-
-  - The emergency numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
-
-  - The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account.
+For more information about emergency calling and how location is determined, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md#emergency-call-routing) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ## Related topics
 
