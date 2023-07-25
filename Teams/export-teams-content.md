@@ -154,7 +154,7 @@ Namespace: microsoft.graph
 
 Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Export API retrieves both sent and received messages for a user which leads to export of duplicate messages when calling the API for all users in the chat thread.
 
-Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports new filter parameters that allows a way to extract messages based on the sent user, bot, application etc. The filter parameter supports messages sent by the following: 
+Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports new filter parameters that allow a way to extract messages based on the sent user, bot, application etc. The filter parameter supports messages sent by the following: 
 
  - users (multiple user Ids supported in the same request) 
 
