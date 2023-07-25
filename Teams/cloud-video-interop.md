@@ -54,7 +54,7 @@ third-party systems that are outside of the Office 365 infrastructure and theref
 
 ### Partners Certified for Microsoft Teams
 
-The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise. 
+The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution. 
 
 |Partner|Partner solution|
 |----|---|

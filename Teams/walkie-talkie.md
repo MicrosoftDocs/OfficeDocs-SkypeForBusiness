@@ -114,14 +114,6 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
-> [!NOTE]
-> Users will need one of the following to use BlueParrott headsets:
->
-> - Teams iOS version: 4.16 or greater
-> - Teams Android version: 2022372201 or greater.
->
-> Users must be using the latest headset firmware version and recommended MS Teams version to avoid bluetooth connectivity problems with the headset.
-
 #### Rugged Android phones
 
 - Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), and [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
@@ -165,6 +157,18 @@ To learn more about the end-user experience, see:
 - [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
 
+## Data residency available
+
+Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom will be stored in data centers located in the EU. All other tenants will have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage. 
+
+### To be considered a tenant in the EUDB:
+
+The tenant must have a _default geography_ in a EUDB country or select a country in EUDB country as their residence during sign-up.
+
+### How can I determine customer data location?
+
+Please refer to the **Azure Active Directory (AAD)** [Microsoft Power BI dashboard](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
+
 ## Give feedback or report an issue
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
@@ -172,5 +176,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 ### Allow users to provide feedback
 
 Users in your organization can attach logs while sharing feedback On Microsoft, if you enable the policy to [Set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
+
 
 

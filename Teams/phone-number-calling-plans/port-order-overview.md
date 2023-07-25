@@ -126,7 +126,7 @@ Here's more information about how to submit number porting requests for each of 
 
 - **Service number** porting requests need to be submitted by themselves. They can't be submitted with other types of numbers.
 
-It's important to use the correct Letter of Authorization (LOA) for the country and type of phone numbers that you want to port. You can [download the LOA that you need here](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+It's important to use the correct Letter of Authorization (LOA) for the country/region and type of phone numbers that you want to port. You can [download the LOA that you need here](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## How long does it take to port numbers?
 <a name="bkmk_type_1"> </a>
