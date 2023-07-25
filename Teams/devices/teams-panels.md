@@ -63,6 +63,10 @@ Each Teams panel needs a [Microsoft Teams Rooms Pro license](../rooms/rooms-lice
 - **Teams Rooms Pro** - Use this license if your meeting room has a Teams Rooms system or a Surface Hub. You can share one Teams Rooms Pro license with one Teams Rooms system or Surface Hub and your Teams panel. For more information, see [Resource account provisioning](#resource-account-provisioning).
 - **Teams Shared Device** - Use this license if your meeting room doesn't have a Teams Rooms system or Surface Hub.
 
+> [!IMPORTANT]
+>
+> Microsoft 365 or Office 365 user licenses are no longer supported for use with meeting devices. User licenses that have been assigned to Teams Panels need to be replaced by a Teams Rooms Pro or Teams Shared Device license prior to July 1, 2023. Panels that do not have one of these licenses after July 1, 2023 will be granted a 90-day grace period ending on September 30, 2023. After the 90-day grace period, Panels will be blocked from signing in until one of the above licenses is assigned.
+
 ## Deploy Teams panels devices
 
 If you're involved in planning, deploying, and managing Teams panels devices, then this section is for you. This section isn't intended for the end users of Teams panels.

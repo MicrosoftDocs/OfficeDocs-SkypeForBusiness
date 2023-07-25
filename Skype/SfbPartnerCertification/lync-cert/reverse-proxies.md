@@ -26,7 +26,7 @@ description: "This lists the server reverse proxy products that have completed s
 
 The server reverse proxy products listed in this page have completed solution testing with Lync Server. While any reverse proxy is expected to work with Lync Server, the reverse proxies listed in the table that follows have completed extensive testing and are posted with detailed deployment white papers to assist in configuration.
 
-We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues.
+We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country/region support and documentation including release notes and known issues.
 
 ## Qualified for Lync 2013
 
