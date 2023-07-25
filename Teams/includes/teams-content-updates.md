@@ -1,6 +1,20 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
+
 
 
+## Week of July 17, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/17/2023 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 7/17/2023 | [Create a Call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 7/18/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
+| 7/18/2023 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
+| 7/18/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 7/19/2023 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 7/19/2023 | [Virtual appointment meeting template in Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | modified |
+| 7/21/2023 | [What are dial plans?](/MicrosoftTeams/what-are-dial-plans) | modified |
 
 
 ## Week of July 10, 2023
@@ -422,7 +436,7 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 6/21/2023 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 6/21/2023 | [Enroll a Teams Rooms device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 6/21/2023 | [Enroll a Teams Room device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
 | 6/21/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
 | 6/21/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
 | 6/22/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
@@ -431,31 +445,3 @@
 | 6/23/2023 | Manage Teams transitioning to the new Teams admin center | removed |
 | 6/23/2023 | [Turn guest access in Microsoft Teams on or off](/MicrosoftTeams/set-up-guests) | modified |
 | 6/23/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-
-
-## Week of June 12, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/12/2023 | [Manage teams in the Microsoft Teams admin center](/MicrosoftTeams/manage-teams-in-modern-portal) | modified |
-| 6/12/2023 | [Plan for meetings with external participants in Microsoft Teams](/MicrosoftTeams/plan-meetings-external-participants) | modified |
-| 6/12/2023 | [Security guide for Microsoft Teams overview](/MicrosoftTeams/teams-security-guide) | modified |
-| 6/12/2023 | [IT Admins - Control who can bypass the meeting lobby in Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | modified |
-| 6/13/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
-| 6/13/2023 | [Teams meeting recording](/MicrosoftTeams/meeting-recording) | modified |
-| 6/13/2023 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
-| 6/13/2023 | [Set up and manage Teams Rooms on Windows custom backgrounds](/MicrosoftTeams/rooms/custom-backgrounds) | added |
-| 6/13/2023 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 6/13/2023 | [Microsoft Teams Rooms home screen design refresh](/MicrosoftTeams/rooms/mtr-home-refresh) | modified |
-| 6/13/2023 | [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](/MicrosoftTeams/rooms/rooms-pro-rbac) | modified |
-| 6/13/2023 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
-| 6/14/2023 | Overview of Loop components in Teams | removed |
-| 6/14/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
-| 6/14/2023 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 6/14/2023 | [Manage devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
-| 6/14/2023 | [Manage the Lists app for your organization](/MicrosoftTeams/manage-lists-app) | modified |
-| 6/14/2023 | [Manage the Praise app in the Teams admin center](/MicrosoftTeams/manage-praise-app) | modified |
-| 6/15/2023 | [An overview of customizations for meetings in Microsoft Teams](/MicrosoftTeams/custom-meetings-overview) | modified |
-| 6/15/2023 | [Manage chat in Teams meetings](/MicrosoftTeams/manage-meeting-chat) | modified |
-| 6/15/2023 | [Microsoft Teams admin documentation # < 60 chars](/MicrosoftTeams/index) | modified |
