@@ -48,7 +48,7 @@ Shifts is General Data Protection Regulation (GDPR) compliant. A formal request 
 
 You can use in Shifts capabilities to export schedule and time clock data to Excel. To learn more, see [Export Shifts schedule data](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) and [Export time reporting in Shifts](https://support.microsoft.com/office/export-time-reporting-in-shifts-c3b06e42-3ad2-4b88-87a0-4e481d432110).
 
-You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method select to bring up the shortcut menu, and selecting **Delete**.
+You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method select to bring up the shortcut menu, and selecting **Delete** on that menu.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
