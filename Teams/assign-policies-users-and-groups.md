@@ -23,7 +23,41 @@ f1keywords:
 
 # Assign policies to users and groups
 
-This article reviews the different ways to assign policies to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
+This article reviews the different ways to assign policies to users and groups in Microsoft Teams.
+
+## Policies managed by Teams admin center
+
+The following policies are supported in Teams admin center:
+
+> - Teams App Permission Policy*
+> - Teams Network Roaming Policy*
+> - Teams Emergency Call Routing Policy*
+> - Teams Voice Applications Policy*
+> - Teams Upgrade Policy*
+> - Teams Calling Policy
+> - Teams Call Park Policy
+> - Teams Policy
+> - Teams Live Events Policy
+> - Teams Meeting Policy
+> - Teams Messaging Policy
+> - App Setup Policy
+> - Call Hold Policy
+> - Caller ID Policy
+> - Dial Plans
+> - Customization Policy
+> - Emergency Calling Policy
+> - Enhanced Encryption Policy
+> - Events Policy
+> - Mobility Policy
+> - Template Policy
+> - Voicemail Policy
+> - Voice Routing Policy
+
+*This policy doesn't support Group policy assignment.
+> [!Note]
+> You can use PowerShell cmdlets to assign Teams policies to users along with other policy types that are currently not supported in Teams admin center.
+
+ Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
 
 This video shows how to assign policies to multiple users.
 
@@ -147,38 +181,6 @@ To change the ranking of a group assignment, you need to remove the group policy
 This video shows the steps to create and assign a custom meeting policy to a group.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
-
-### Policies managed by Teams admin center
-
-The following policies are supported in Teams admin center:
-> - Teams App Permission Policy*
-> - Teams Network Roaming Policy*
-> - Teams Emergency Call Routing Policy*
-> - Teams Voice Applications Policy*
-> - Teams Upgrade Policy*
-> - Teams Calling Policy
-> - Teams Call Park Policy
-> - Teams Policy
-> - Teams Live Events Policy
-> - Teams Meeting Policy
-> - Teams Messaging Policy
-> - App Setup Policy
-> - Call Hold Policy
-> - Caller ID Policy
-> - Dial Plans
-> - Customization Policy
-> - Emergency Calling Policy
-> - Enhanced Encryption Policy
-> - Events Policy
-> - Mobility Policy
-> - Template Policy
-> - Voicemail Policy
-> - Voice Routing Policy
-
-*This policy dosen't support group policy assignment.
-> [!Note]
-> The Teams PowerShell Module supports all other policy types used in Teams Admin center.
-
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
