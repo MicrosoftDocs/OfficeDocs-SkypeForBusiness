@@ -32,7 +32,7 @@ description: Learn how to set up Microsoft Teams Phone System for your organizat
 
 This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
 
-To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-teams-phone-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-teams-phone.md). 
+To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md). 
 
 To enable your users to make and receive external calls, you'll need to connect Teams Phone to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 

@@ -146,7 +146,7 @@ For more information about Direct Routing, see the following articles:
 
 ## Configuration considerations
 
-Most Teams Phone features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-teams-phone.md).
+Most Teams Phone features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md).
 
 There are some differences in functionality, however, that affect how you configure certain Teams Phone features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR). LBR lets you restrict toll bypass in certain geographic locations where it is not allowed. 
 
