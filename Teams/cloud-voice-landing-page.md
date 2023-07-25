@@ -142,13 +142,13 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 Teams Phone provides complete PBX capabilities for your organization. However, to enable users to make calls outside your organization, you need to connect Teams Phone to the Public Switched Telephone Network (PSTN). To connect Teams Phone to the PSTN, you can choose one of the following options:
 
-- [**Teams Phone with Calling Plan**](pstn-connectivity.md#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+- [**Teams Phone with Calling Plan**](pstn-connectivity.md#teams-phone-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
 - [**Teams Phone with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. 
 
 - [**Teams Phone with your own PSTN mobile carrier by using Teams Phone Mobile**](operator-connect-mobile-plan.md). With Teams Phone Mobile, if your existing operator participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams. 
 
-- [**Teams Phone with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) to connect your on-premises environment to Teams.
+- [**Teams Phone with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#teams-phone-with-direct-routing) to connect your on-premises environment to Teams.
 
 You can choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration. You'll read more about migration later.
 
