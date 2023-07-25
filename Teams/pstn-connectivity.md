@@ -37,13 +37,13 @@ This article focuses on PSTN connectivity options. For more information about Mi
 
 To connect Teams Phone to the PSTN, you can choose from the following options:
 
-- [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+- [**Calling Plan**](#teams-phone-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
+- [**Operator Connect**](#teams-phone-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
-- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
+- [**Teams Phone Mobile**](#teams-phone-with-teams-phone-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
 
-- [**Direct Routing**](#phone-system-with-direct-routing). Enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBCs) to Teams Phone.
+- [**Direct Routing**](#teams-phone-with-direct-routing). Enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBCs) to Teams Phone.
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
@@ -146,7 +146,7 @@ For more information about Direct Routing, see the following articles:
 
 ## Configuration considerations
 
-Most Teams Phone features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md).
+Most Teams Phone features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-teams-phone.md).
 
 There are some differences in functionality, however, that affect how you configure certain Teams Phone features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR). LBR lets you restrict toll bypass in certain geographic locations where it is not allowed. 
 

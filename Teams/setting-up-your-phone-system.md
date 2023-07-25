@@ -32,7 +32,7 @@ description: Learn how to set up Microsoft Teams Phone System for your organizat
 
 This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
 
-To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md). 
+To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-teams-phone-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-teams-phone.md). 
 
 To enable your users to make and receive external calls, you'll need to connect Teams Phone to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
@@ -40,13 +40,13 @@ If you're still planning your voice solution, start by reading [Plan your voice 
 
 This article introduces the following steps. Each step contains links to more detailed information.
  
-- [Step 1: Buy and assign a Teams Phone license](#step-1-buy-and-assign-a-phone-system-license)
+- [Step 1: Buy and assign a Teams Phone license](#step-1-buy-and-assign-a-teams-phone-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
 - [Step 3: Get and assign phone numbers for your users and services](#step-3-get-and-assign-phone-numbers-for-your-users-and-services)
 - [Step 4: Set up emergency calling](#step-4-set-up-emergency-calling)
 - [Step 5: If you want to set up an auto attendant](#step-5-if-you-want-to-set-up-an-auto-attendant)
 - [Step 6: If you want to set up a call queue](#step-6-if-you-want-to-set-up-a-call-queue)
-- [Step 7: Set up other Teams Phone features](#step-7-set-up-other-phone-system-features)
+- [Step 7: Set up other Teams Phone features](#step-7-set-up-other-teams-phone-features)
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 > [!NOTE]
