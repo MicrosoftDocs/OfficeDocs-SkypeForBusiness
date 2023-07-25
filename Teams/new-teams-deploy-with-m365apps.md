@@ -45,22 +45,10 @@ The new Teams client **is not** yet available for the following customers but is
 
 The date when the new Teams starts being installed with Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
 
-|License|Target date|
+|License|Rollout start schedule per channel (subject to change)|
 |:-----|:-----|
-|Business plans (for example, Business Basic, Business Standard, Business Premium, and Teams Essentials (AAD), etc.)|Late August 2023 |
-|Enterprise plans (for example, E3, E5, F3, etc.)|Dependent on your update channel. See list below.|
-
-
-##### Update channels
-
-If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
-
-|Update channel|Date|
-|:-----|:-----|
-|Current Channel|August 2023|
-|Semi-Annual Enterprise Channel (Preview)|August 2023|
-|Monthly Enterprise Channel|Mid September 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
+|Business plans|**Late August:** Office Beta Channel and Current Channel (Preview)</br>**September:** Current Channel|
+|Enterprise plans|**Mid-September:** Office Beta Channel and Current Channel (Preview)</br>**Late September:** Current Channel</br>**Late-October:** Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)</br>**November:** Semi-Annual Enterprise Channel|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
@@ -71,24 +59,11 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 >[!Note]
 >Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
-##### Licenses
-
-|License|Date|
+|License|Rollout start schedule per channel (subject to change)|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Mid September 2023|
-|Enterprise and other Licenses|See the schedule listed in this article.|
+|Business plans|**Mid September 2023**|
+|Enterprise plans|**Early October 2023:** Office Beta Channel and Current Channel (Preview)</br>**Late September:** Current Channel</br>**Early November:** Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)</br>**Late November:** Semi-Annual Enterprise Channel|
 
-##### Update channels
-
-If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
-
-|Update channel|Date|
-|:-----|:-----|
-|Targeted Release Channel|Mid August 2023|
-|Current Channel|Early October 2023|
-|Monthly Enterprise Channel|Early November 2023|
-|Semi-Annual Enterprise Channel (Preview)|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
