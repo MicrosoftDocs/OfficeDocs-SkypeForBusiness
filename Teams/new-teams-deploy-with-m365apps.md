@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 Starting in late August, new Teams will automatically install with new and existing installations of Microsoft 365 Apps on Windows.
 
-Currently, users can install the new Microsoft Teams using the "Try the new Teams" toggle switch in classic Teams or by Admins "bulk" deploying directly to the computers in their organization.
+Currently, users can install the new Microsoft Teams using the "Try the new Teams" toggle switch in classic Teams or by Admins bulk deploying directly to the computers in their organization.
 
 Administrators may exclude new Teams from automatically installing with Microsoft 365 Apps on Windows.
 
@@ -85,7 +85,7 @@ Admins who don't want new Teams included with Microsoft 365 Apps on devices runn
 >[!Note]
 >For the best Teams experience, we recommend leaving the setting as is. 
 
-## Direct or "bulk" deploy on your own timeline
+## Direct deploy on your own timeline
 
 If you choose to not have Microsoft manage the new Teams deployment for you, pick a  time that is best for you. Deploy new Teams by following the steps detailed in this article: [**Bulk Deploy the new Teams client**](new-teams-bulk-install-client.md).
 
