@@ -45,7 +45,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 If you have a medium or large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
 
-## Make sure you're ready
+## Make sure you're ready to do this
 
 To get ready for your Teams rollout, here's what you need to do, whether Teams is your first workload ("Teams First") or the next workload in an existing Microsoft 365 or Office 365 deployment:
 
