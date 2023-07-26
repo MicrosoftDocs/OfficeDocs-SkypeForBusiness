@@ -71,7 +71,7 @@ Here are some examples on how you can use these export APIs:
 
 ## Prerequisites to access Teams Export APIs
 
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
 - Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
   - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
   - *ChannelMessage.Read.All*: enables access to all channel messages
@@ -85,9 +85,23 @@ Export API supports Security and Compliance (S+C) and general usage scenarios th
 
 Restricted to applications performing security and/or compliance functions, users must have specific E5 licenses to use this functionality and receive seeded capacity. Seeded capacity is per user and is calculated per month and is aggregated at the tenant level. For usage beyond the seeded capacity, app owners are billed for API consumption. Model A can only access messages from users with an assigned E5 license.
 
+|Partner Name|Partner Solution|
+|---|---|
+|![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
+
 ### General usage/Model B scenarios
 
 Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
+
+The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
+
+|Partner Name|Partner Solution|
+|---|---|
+|![logo-of-rubrik](media/rubrik.png) |[Microsoft Teams backup and recovery](https://www.rubrik.com/solutions/microsoft-365) |
+|![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
+
+### Next steps
+If you are a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
@@ -134,4 +148,60 @@ Namespace: microsoft.graph
 ```
 
 > [!NOTE]
-> For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+> For more information on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+
+## Export API filters
+
+Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Export API retrieves both sent and received messages for a user which leads to export of duplicate messages when calling the API for all users in the chat thread.
+
+Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports new filter parameters that allow a way to extract messages based on the sent user, bot, application etc. The filter parameter supports messages sent by the following: 
+
+ - users (multiple user Ids supported in the same request) 
+
+ - applications (bots, connectors etc.) 
+
+ - anonymous users 
+
+ - federated users (external access users) 
+
+These parameters are part of the request’s `$filter`. If none of these parameters are present in the request, the messages from all the users present in the specified user chats will be returned.   
+
+The filtering scenarios that are supported are as follows: 
+
+```
+$filter=from/application/applicationIdentityType eq '<appType>' (bots/tenantBots/connectors, etc.)  
+  
+$filter=from/user/id eq '<oid>' (any number of id filters)  
+  
+$filter=from/user/userIdentityType eq 'anonymousGuest'  
+  
+$filter=from/user/userIdentityType eq 'federatedUser' (guest/external)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' (sent by app or userid)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' (sent by app or anonymous)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'federatedUser' (sent by app or federated)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by app, anonymous or federated)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' (sent by any number of userid or anonymous)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated or anonymous)    
+
+(<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
+```
+
+ - The query returns messages sent by the specified user if `from/user/id eq ‘{oid}’` is present.
+   
+ - The query returns messages sent by the federated users that are part of the user chats, if `from/user/userIdentityType eq ‘federatedUser’` is present.
+
+ - the query returns messages sent by the specified application type if `from/application/applicationIdenitytyType eq '{appType}'` is present.
+
+These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.
+
+
+
+

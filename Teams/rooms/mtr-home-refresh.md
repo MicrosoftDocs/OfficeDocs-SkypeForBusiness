@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams Rooms home screen design refresh
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 03/15/2023
+ms.date: 05/30/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -23,82 +23,34 @@ description: Learn about the improvements to the Microsoft Teams Rooms on Window
 
 Microsoft Teams Rooms on Windows version 4.16 and later includes a refreshed home screen design that adds a calendar to front-of-room displays, quick access to more commonly used actions on consoles, additional built-in themes, and better consistency with other Teams devices.
 
-The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. However, because the refreshed design makes changes to Exchange calendar integration and the layout of the Teams Rooms home screen, we haven't made it the default experience yet. To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-home-screen-design).
+The refreshed home screen design is available to anyone who has Teams Rooms on Windows version 4.16 or later. The refreshed home screen is opt-in on Teams Rooms version 4.16.  To see the refreshed home screen in Teams Rooms version 4.16, you need to [manually enable it](#enable-refreshed-home-screen-design).
 
 > [!IMPORTANT]
-> The refreshed home screen is opt-in for Teams Rooms version 4.16. The refreshed home screen will become the default experience in a future release. Be sure to review the guidelines in this article, and update your custom themes if you have any, before the refreshed home screen becomes the default experience.
+> On Teams Rooms versions 4.17 and later, the refreshed home screen is **enabled** by default.
 
-Before you enable the refreshed home screen design in Teams Rooms version 4.16, and before it becomes the default experience in a future release, check the following:
+Before you enable the refreshed home screen design in Teams Rooms version 4.16, check the following:
 
-- **Integrated Exchange calendar** - The refreshed home screen changes how the calendar on Teams Rooms devices communicates with Exchange. Make sure meetings that appear in Outlook or Outlook on the web are correctly reflected in your Teams clients. For information about Exchange and Teams, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
+- **Integrated Exchange calendar** - The refreshed home screen changes how the calendar on Teams Rooms devices communicates with Exchange. The new method aligns with Teams desktop, web, and mobile clients. Make sure meetings that appear in Outlook or Outlook on the web are correctly reflected in your Teams clients. For information about Exchange and Teams, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md)
   > [!WARNING]
-  > If you're using Teams Rooms with an on-premises Exchange server, we recommend that you don't enable the refreshed home screen design on Teams Rooms version 4.16. The new calendar included with the refreshed home screen design isn't supported with on-premises Exchange servers in Teams Rooms version 4.16. On-premises Exchange servers will be supported when the refreshed home screen design becomes the default experience in an upcoming release.
-- **Custom themes** - A calendar has been added to front-of-room display with the refreshed home screen. If you have a custom theme that has logos or information that users need to see, we recommend that you don't enable the refreshed home screen design until you've [updated your theme](#custom-wallpaper-guidelines) or that you temporarily [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
+  > If you're using Teams Rooms with an on-premises Exchange server, we recommend that you don't enable the refreshed home screen design on Teams Rooms version 4.16. The new calendar included with the refreshed home screen design isn't supported with on-premises Exchange servers in Teams Rooms version 4.16. On-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally is supported in Teams Rooms version 4.17 and later. For information on how on-premises mailboxes work with Teams, see [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
+- **Custom themes** - A calendar has been added to front-of-room display with the refreshed home screen. If you have a custom theme that has logos or information that users need to see, we recommend that you don't enable the refreshed home screen design until you've [updated your theme](#custom-background-guidelines) or that you [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
 
 You can temporarily roll back to the previous Teams Rooms home screen design if you need to do so by following the information in [Roll back to legacy home screen design](#roll-back-to-legacy-home-screen-design). Keep in mind, however, that new features are being added only to the refreshed home screen going forward. We recommend that you move to the refreshed home screen as soon as possible to take advantage of these new investments.
 
-## Custom wallpaper guidelines
+## Custom background guidelines
 
-You can create a custom wallpaper for your Teams Rooms theme to represent your brand or to provide instructions to Teams Rooms users. The guidelines in this section apply to Teams Rooms on Windows version 4.16 and later devices that have the refreshed home screen enabled. If your device is running 4.15 and earlier, or if you haven't enabled the refreshed home screen, use the guidelines provided in [Custom theme images](xml-config-file.md#custom-theme-images).
-
-Custom wallpapers are supported on 16:9 and 21:9 displays. The guidelines differ slightly depending on the size of your display:
-
-- **16:9 displays** Custom wallpapers need to be exactly 3840 x 1080 pixels in size, regardless of whether the wallpaper is used with a single front-of-room display or dual front-of-room displays. If used with a single front-of-room display, the left half of the image is used and the right half is cropped out. If used with a dual front-of-room display, the image is divided between the left and right front-of-room displays.
-- **21:9 displays** Custom wallpapers need to be exactly 2520 x 1080 pixels in size. Only one 21:9 front-of-room display is supported.
-
-If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
-
-**16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
-
-**16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-dual-dimensions.png" alt-text="Dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-dimensions-large.png":::
-
-**21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
-
-When you create a custom wallpaper, use the following guidelines:
-
-- Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
-- Avoid placing text, logos, or icons, near these locations:
-  - **Upper left corner** - Time and room information.
-    - **Size**: 280 x 130
-    - **Upper-left corner coordinates**: 96, 96
-  - **Bottom left corner** - Help information.
-    - **Size**: 500 x 40
-    - **Upper-left corner coordinates**: 96, 946
-  - **Right side** - Room calendar.
-    - **Size**: 512 x 585
-    - 16:9 displays
-      - **Upper-left corner (single display) coordinates**: 1312, 248
-      - **Upper-left corner (dual display) coordinates**: 3232, 248
-    - 21:9 displays
-      - **Upper-left corner coordinates**: 1912, 248
-  
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
-- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
-
-Save the custom wallpaper image file in one of the following formats: `.jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-wallpaper).
+For custom background guidelines, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
 
 ## Updating Teams Rooms device configuration
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-### Deploy an updated custom wallpaper
-
-First, copy your custom wallpaper to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
-
-After you've copied your custom wallpaper to the device, you need to tell Teams to use it. To use the custom wallpaper, add the following to your XML configuration file:
-
-```xml
-<CustomThemeImageUrl>ContosoWallpaper.png</CustomThemeImageUrl>
-```
-
-Change `ContosoWallpaper.png` to the file name of your custom wallpaper.
-
 ### Enable refreshed home screen design
 
 To enable the refreshed home screen design, add the following to your XML configuration file:
+
+> [!NOTE]
+> The `</TeamsRoomsNewExperience>` setting will be removed in a future release.
 
 ```xml
 <TeamsRoomsNewExperience>true</TeamsRoomsNewExperience> 
@@ -108,9 +60,6 @@ To enable the refreshed home screen design, add the following to your XML config
 
 To hide the calendar on your front-of-room display, add the following to your XML configuration file:
 
-> [!IMPORTANT]
-> The `<RemoveFoRCalendar>` setting is available only during the opt-in period for the refreshed home screen. When the refreshed home screen becomes the default experience, the `<RemoveFoRCalendar>` setting will be removed.
-
 ```xml
 <RemoveFoRCalendar>true</RemoveFoRCalendar> 
 ```
@@ -118,6 +67,9 @@ To hide the calendar on your front-of-room display, add the following to your XM
 ### Roll back to legacy home screen design
 
 To roll back to the legacy home screen design, add the following to your XML configuration file:
+
+> [!NOTE]
+> The `</TeamsRoomsNewExperience>` setting will be removed in a future release.
 
 ```xml
 <TeamsRoomsNewExperience>false</TeamsRoomsNewExperience> 

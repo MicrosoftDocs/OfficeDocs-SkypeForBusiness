@@ -140,6 +140,10 @@ You can edit the settings of a policy through the **Policy packages** page or by
 
 You can assign a policy package to an individual user, a group, or a batch of users. For more information on how to assign policy packages, see [Assign policy packages to users and groups](assign-policy-packages.md).
 
+This video is about managing policy packages.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbO?autoplay=false]
+
 ## Related topics
 
 - [Assign policy packages](assign-policy-packages.md)

@@ -1,7 +1,7 @@
 ---
 title: Sample script - Microsoft Teams firewall PowerShell script
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 audience: Admin
 ms.topic: article

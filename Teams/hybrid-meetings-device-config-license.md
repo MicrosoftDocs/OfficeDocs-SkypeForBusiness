@@ -1,7 +1,7 @@
 ---
 title: "Step 1 - Purchase a license for the Teams Rooms console"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work

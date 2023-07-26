@@ -243,7 +243,7 @@ It is also important that your company's physical network connectivity, includin
   
 ### Is ExpressRoute required for voice quality SLA?
 
-No, ExpressRoute isn't required for Microsoft Teams Voice Quality SLA. The [Microsoft Teams Voice Quality SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Microsoft Teams voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
+No, ExpressRoute isn't required for Microsoft Teams Voice Quality SLA. The [Microsoft Teams Voice Quality SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) applies to any eligible call placed by any Microsoft Teams voice service user within the correct license and subscription that enables that user to make any type of VoIP or PSTN call. A voice quality SLA should include that all of the following conditions are addressed:
   
 - Calls from Microsoft certified IP Phones.
     
@@ -329,7 +329,7 @@ If you decide to deploy Azure ExpressRoute and Cloud Connector Edition, we recom
   
 If you have an on-premises Microsoft Teams deployment, you must follow the [Planning Guide for Skype for Business Cloud Connector Edition](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md). Specifically, the Access Edge and A/V Edge services should be assigned public IP addresses and reachable Microsoft 365 or Office 365 data centers.
   
-In the following example, Contoso is a European accounting firm with presence in a few major European countries and cities. When they sign up for Microsoft Teams for all their collaboration needs, they decided to put a Cloud Connector for each country they have a physical location to continue to use their PSTN infrastructure and carrier contracts that already exist. Based on their testing from all their sites and Microsoft network Edge, they determined that a single ExpressRoute connection in London will help meet the Microsoft Teams client connection network performance targets described in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
+In the following example, Contoso is a European accounting firm with presence in a few major European countries/regions and cities. When they sign up for Microsoft Teams for all their collaboration needs, they decided to put a Cloud Connector for each country/region they have a physical location to continue to use their PSTN infrastructure and carrier contracts that already exist. Based on their testing from all their sites and Microsoft network Edge, they determined that a single ExpressRoute connection in London will help meet the Microsoft Teams client connection network performance targets described in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
   
 ![ExpressRoute Cloud Connector One.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

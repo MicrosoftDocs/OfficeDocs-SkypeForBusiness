@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Pro management
 author: altsou
 ms.author: altsou
-manager: dstrome
+manager: serdars
 ms.reviewer: 
 ms.date: 03/25/2020
 ms.topic: article
@@ -56,14 +56,14 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 |**Update management**    |Automated configuration and delivery of the Microsoft Teams Rooms application based on preconfigured rings of deployment.         |
 |**Insights and recommendations**     |Insights into room health, usage, and equipment reliability.         |
 |**Compliance and certifications**   |Meets all applicable standards for Microsoft Online Services.         |
-|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.<br>*Surface Hub and MTR Android support coming in 2023*        |
+|**Supported devices**    |Certified Microsoft Teams Rooms systems and their peripherals.       |
 |**Supported clouds**|All Microsoft clouds except GCC, GCC-High, DoD, and Office 365 operated by 21Vianet.|
 |**Supported regions**    |See [Supported regions](#supported-regions).        |
 |**Integration**    |Available basic integration with customer-hosted Service Now for incident coordination.         |
 
 ## Service prerequisites
 
-For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](requirements.md#hardware-requirements), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
+For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](/microsoftteams/rooms/certified-hardware), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 ## Supported regions
 
@@ -84,4 +84,5 @@ Data collected is specific to a room account, not an individual user. Incidental
 ## Related topics
 
 - [Microsoft Teams Rooms](https://rooms.microsoft.com)
+
 

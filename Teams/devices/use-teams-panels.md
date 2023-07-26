@@ -1,7 +1,7 @@
 ---
 title: How to use Microsoft Teams panels devices
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/18/2021
@@ -116,14 +116,14 @@ To reserve an available meeting space for an ad hoc meeting:
 
 3. Tap the desired end time interval, and then tap **Reserve**.
 
-    A confirmation window appears with a thumbs up emoji, meeting start and end time, and meeting space name.
+    A confirmation window appears with a thumbs-up emoji, meeting start and end time, and meeting space name.
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message.":::
 The right tile on the Home screen now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad hoc Teams meeting.
   
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
-    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Room or Surface Hub devices.
+    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
 
 ### Report a problem
 
@@ -184,9 +184,9 @@ To access the **Teams admin settings** option:
 > [!NOTE]
 > Some OEMs may replace the **Teams admin settings** option with their own custom option. If you don't see the **Teams admin settings** option, check your device documentation for instructions on how to access your panel's admin settings.
 
-#### Pair a Teams panel with a Microsoft Teams Room on Android
+#### Pair a Teams panel with Microsoft Teams Rooms on Android
 
-To pair a Teams panel and Teams Room on Android, both devices must be signed into the same resource account.
+To pair a Teams panel and Teams Rooms on Android, both devices must be signed into the same resource account.
 
 On the Teams panel, sign in using your admin credentials.
 
@@ -196,9 +196,9 @@ On the Teams panel, sign in using your admin credentials.
 
 #### Enable or disable meeting check-in and automatic room release
 
-Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
+Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn't check in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
-When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
+When Teams Panels is paired with Microsoft Teams Rooms on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
@@ -206,7 +206,7 @@ To enable check-in and room release, see [Check-in and room release on Microsoft
 
 When check out is enabled, end users can use a Teams panel to manually release a room. Releasing a room ends the current reservation and makes the room available for others to schedule.
 
-This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Check out**.
+This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Allow early check-out**.
 
 > [!NOTE]
 > If a room is released before the end of a scheduled reservation, the organizer will receive an email message from the room declining it. This happens because the room removes the reservation from its schedule so it can be booked by other users. The message declining the reservation can be ignored.
@@ -218,21 +218,24 @@ This feature is disabled by default, but it can be enabled per device. To enable
 
 When room reservations are enabled, end users can use a Teams panel to reserve a room that's currently available. Reservations start at the time the **Reserve** button is tapped and their duration can be increased in 15-minute increments up to the start time of the next reservation, or to a maximum of 24 hours.
 
-This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Disable room reservations**.
+This feature is enabled by default, but it can be disabled per device. To disable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn off **Allow room reservations**.
 
 #### Enable or disable extension of existing room reservations
 
-When room reservation extensions are enabled, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15 minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
+When room reservation extensions are enabled, end users can use a Teams panel to extend a room's existing reservation if the room is available after the reservation's original end time. Reservations can be extended in 15-minute increments up to the start time of the next meeting, or to a maximum of 24 hours in the future, whichever is sooner.
 
-This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Extend room reservation**.
+This feature is disabled by default, but it can be enabled per device. To enable the feature, go to **Settings > Device settings > Teams admin settings > Meetings** and then turn on **Allow room reservation extensions**.
 
 #### Enable or disable room capacity warnings
 
-Teams panels that are paired with a Teams Room on Android can display a warning message when a room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+Teams panels that are paired with Teams Rooms on Android can display a warning message when a room is at or over capacity. To use this feature, Teams Rooms must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+
+> [!NOTE]
+> Room capacity warnings aren't available in the GCC-High environment.
 
 Room capacity warnings are disabled by default, but they can be enabled per device. To enable the feature, do the following:
 
-1. Follow the steps in [Pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room device must be signed into the same resource account.
+1. Follow the steps in [Pair a Teams panel with Microsoft Teams Rooms on Android](#pair-a-teams-panel-with-microsoft-teams-rooms-on-android). The panel and the Teams Rooms device must be signed into the same resource account.
 2. Go to **Settings > Device settings > Teams admin settings > Meetings** and turn on **Max room occupancy notification**.
 
 #### Enable or disable viewing of room equipment

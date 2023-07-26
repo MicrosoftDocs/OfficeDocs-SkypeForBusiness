@@ -24,6 +24,10 @@ ms.custom:
 
 Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To check the health of a device, you can go to the device list present under the **Teams Devices** section of the Teams admin center. The health status column in this list indicates the current health status of the device. Selecting that status opens the **Health status panel**, which provides more details about health issues.
 
+This video shows how to monitor the health of devices.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYd]
+
 Many types of issues can contribute towards device health status, and the Teams admin center system evaluates the severity of these issues as they occur.
 
 The administrator managing the Teams devices for their organization may decide the severity of issues for them isn't the same as the default configuration Teams provides. There's a way for the administrators to customize the severity and the impact on the health of their devices to match their organization's priorities.
@@ -37,7 +41,7 @@ When viewing peripheral details on a device page, you'll now see a  **Manage hea
 By default all peripherals are set to have **Critical impact** on the device health. If a peripheral is disconnected, the parent device’s health will become **Critical** and this issue will show up under **Critical issues** in the health status panel.
 
 > [!NOTE]
-> The peripheral categories **HDMI ingest** and **Compute** aren't available for customization as they are crucial to the functioning of the parent device.
+> The peripheral category **Compute** isn't available for customization as it is crucial to the functioning of the parent device.
 
 ## How does this work?
 

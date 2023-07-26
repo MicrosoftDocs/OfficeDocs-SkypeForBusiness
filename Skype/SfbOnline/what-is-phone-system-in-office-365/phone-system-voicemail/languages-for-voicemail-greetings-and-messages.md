@@ -1,8 +1,8 @@
 ---
 ms.date: 05/19/2021
 title: "Languages for voicemail greetings and messages"
-author: dstrome
-ms.author: dstrome
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -37,7 +37,7 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Arabic  |Egypt   |ar-EG   |Yes   |Yes   |No   |
 |Catalan   |Catalan   |ca-ES   |Yes   |Yes   |No   |
 |Chinese (Simplified)   |China  |zh-hans   |Yes   |Yes   |Yes   |
-|Chinese (Hong Kong)   |China   |zh-hk   |Yes, but Chinese (Traditional) (zh-hant) is used.  | Yes  |Yes, but Chinese (Traditional) (zh-hant) is used.   |
+|Chinese (Hong Kong SAR)   |China   |zh-hk   |Yes, but Chinese (Traditional) (zh-hant) is used.  | Yes  |Yes, but Chinese (Traditional) (zh-hant) is used.   |
 |Chinese (Traditional)   |Taiwan   |zh-hant   |Yes   |Yes   |No  |
 |Croatian |Croatia   |hr-HR  |Yes  |Yes   |No   |
 |Czech  |Czech Republic   |cs-CZ   |Yes   |Yes   |No   |

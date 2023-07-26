@@ -1,7 +1,7 @@
 ---
 title: Assess organizational change readiness for your Skype for Business to Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -125,9 +125,9 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 | Consideration | Notes |
 |----|---|
 | Core attributes | <ul><li>Work remotely (on the road, hotels, customer sites)</li><li>Relationship-focused – core external</li></ul> |
-| Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can't get everyone together at once</li><li>Missed opportunities to learn from sales "wins" – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Yammer</li></ul></ul> |
+| Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can't get everyone together at once</li><li>Missed opportunities to learn from sales "wins" – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Viva Engage</li></ul></ul> |
 | Teamwork requirements |<ul><li>Quick access to sales collateral</li><li>Reach an expert quickly</li><li>Fast turn-around for questions and approvals </li><li>Sales meetings, pipeline reviews</li><li>Sales training resources</li><li>Customer database management</li></ul> |
-| Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Yammer for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
+| Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Viva Engage for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
 
 <sup>1</sup> Supporting app integration or alignment in Teams.
 

@@ -81,7 +81,7 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
-| Location | String | Country in which the user is located | User's location information is blocked or unavailable |
+| Location | String | Country/Region in which the user is located | User's location information is blocked or unavailable |
 | Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
 | Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
 | Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |
@@ -97,7 +97,7 @@ User signals identify when a user is actively participating in the call, isn't s
 ### Audio
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
-|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. | 
+|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. Real-Time Analytics displays network inter-arrival jitter, not audio jitter. | 
 |Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
 |Round Trip Time (RTT) |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
 |Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
@@ -147,7 +147,6 @@ User signals identify when a user is actively participating in the call, isn't s
 
 - Windows
 - macOS
-- Linux
 - Android
 - iOS
 

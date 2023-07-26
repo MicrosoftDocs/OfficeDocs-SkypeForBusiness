@@ -73,12 +73,14 @@ The following providers offer contact center solutions that are integrated into 
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
+| `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 
 
 ### Solutions currently in the certification process
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Avaya` | https://www.avaya.com/en/enterprise-cloud/                           |
 | `Bright Pattern` | https://www.brightpattern.com/                              |
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -93,7 +95,6 @@ The following providers offer contact center solutions that are integrated into 
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Telia` | https://ace-showcase.com/                  |
-| `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 

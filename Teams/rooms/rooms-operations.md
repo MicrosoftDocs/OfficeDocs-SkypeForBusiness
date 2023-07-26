@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms maintenance and operations
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -51,7 +51,7 @@ Downloaded logs on the device can take up disk space. If logs are not regularly 
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
-If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
+If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-4K-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-4K-210-C-E) from Crestron, the [DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC) from Liberty, or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
 
 ### Scale and resolution
 
@@ -258,7 +258,7 @@ The console is now back in its normal operation mode. The following procedure re
    1. Select **Sign Off**.
 5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
 6. Delete the **Teams** folder.
-7. Restart the Teams Room device.
+7. Restart the Teams Rooms device.
 8. Sign in and restart again, once the Teams Room's interface has appeared.
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes

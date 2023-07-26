@@ -62,19 +62,19 @@ The **Teams communications support specialist** (Tier 1 support) handles basic c
 
 The **Teams communications support engineer** (Tier 2 support) sees information in detailed call logs that are hidden from the Teams communications support specialist. The table below lists the information available to each Teams communication support role.
 
-The following table tells you what per-user information is available for each communications support role.
+The following table tells you what per-user information is available for each communications support role. Please note that phone numbers are obfuscated for all roles and this behavior cannot be changed or disabled.
 
 |Activity|Information|What the communications<br>support *specialist* sees|What the communications<br>support *engineer* sees|
 |---|---|---|---|
 |**Calls**|Caller name|Only the name of the user for whom the agent searched.|User name.|
 ||Recipient name|Shows as Internal User or External User.|Recipient name.|
-||Caller phone number|Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|
-||Recipient phone number|Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|
+||Caller phone number|Entire phone number except last four digits are obfuscated with asterisk symbols. For example, 1555282\*\*\*\*.|Entire phone number except last four digits are obfuscated with asterisk symbols. For example, 1555282\*\*\*\*.|
+||Recipient phone number|Entire phone number except last four digits are obfuscated with asterisk symbols. For example, 1555282\*\*\*\*.|Entire phone number except last four digits are obfuscated with asterisk symbols. For example, 1555282\*\*\*\*.|
 ||**Call Details** \> **Advanced** tab|Information not shown.|All details shown, such as device names, IP address, subnet mapping, and more.|
 ||**Call Details** \> **Advanced** \> **Debug** tab|Information not shown.|All details shown, such as DNS suffix and SSID.|
 |**Meetings**|Participant names|Only the name of the user for whom the agent searched. Other participants identified as Internal User or External User.|All names shown.|
 ||Participant count|Number of participants.|Number of participants.|
-||Session details|Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last three digits of telephone number obfuscated with asterisk symbols.|Session details shown. User names and session details shown. Last three digits of telephone number obfuscated with asterisk symbols.|
+||Session details|Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last four digits of telephone number obfuscated with asterisk symbols.|Session details shown. User names and session details shown. Last four digits of telephone number obfuscated with asterisk symbols.|
 ||||
 
 > [!NOTE]
@@ -88,7 +88,7 @@ The following table tells you what per-user information is available for each co
 
 3. Select the user from the list.
 
-4. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
+4. Select **Meetings & Calls**, and then select the call or meeting that you want to troubleshoot.
 
 5. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
 

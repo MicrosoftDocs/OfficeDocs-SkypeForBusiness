@@ -1,7 +1,7 @@
 ---
 title: Plan for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -47,7 +47,7 @@ Microsoft Teams Rooms includes the following key components to deliver a great u
 - External screens (maximum of two)
 - HDMI input
 
-You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md).
+Check out the certified Teams Rooms systems and peripherals in [Teams Rooms certified systems and peripherals](certified-hardware.md).
 
 ## Teams Rooms licensing
 
@@ -113,11 +113,11 @@ _Sample meeting/conference room inventory_
 
 Evaluate which Microsoft Teams Rooms solution is the most suitable for each room based on the future capabilities you want for the room. Decide which AV peripheral devices are the best fit, depending on room size and layout.
 
-For guidance for the type of system and peripheral devices by room type and size, see the [Microsoft Teams Rooms requirements](requirements.md) article.
+For guidance for the type of system and peripheral devices by room type and size, see [Teams Rooms devices by space](https://www.microsoft.com/microsoft-teams/across-devices/spaces) and select your room size. For a list of certified Teams Rooms systems and peripherals, see [Teams Rooms certified systems and peripherals](certified-hardware.md).
 
 Based on the vendor you prefer, use the information provided in the requirements article to define your Microsoft Teams Rooms and supported peripheral device configuration per room type, and use this as a template for your deployment.
 
-**Pro Tip** – Some room types might not be applicable for your deployment.
+**Pro Tip** - Some room types might not be applicable for your deployment.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -133,13 +133,38 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'  | 6&ndash;12       |                              |                    |                 |
 | Large 15' by 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro Tip –** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
+**Pro Tip -** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
+
+### Wireless network considerations
+
+We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection is not available, you may opt to use a wireless connection.
+
+> [!IMPORTANT]
+> Wireless networks can be prone to network interference leading to quality degradation. We strongly recommend that you follow your wireless equipment provider's best practices when configuring a wireless connection to improve video and audio quality.
+
+Here are some examples of wireless network configuration best practices recommended by various manufacturers:
+
+- Deploy wireless equipment, such as access points and routers, that can handle and distribute the bandwidth load across all connected devices in the network.
+- As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
+- Ensure wireless equipment is installed in a way that reduces or eliminates inference from objects and other equipment.
+- Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
+- Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
+- Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
+- Keep wireless channel utilization below 50%.
+- Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
+- Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
+- Implement QoS whenever possible to allow monitoring and resolution of issues in real time.
+
+For additional best practices specific to your wireless network hardware, check your manufacturer's documentation.
+
+You can also troubleshoot wireless network issues using the wireless network report built into Windows 10. For more information, see [Analyze the wireless network report - Microsoft Support](https://support.microsoft.com/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed).
+
 
 ## Procurement
 
 You can procure your chosen system as a bundle or an integrated solution via device partners.
 
-You can acquire Microsoft Teams Rooms from a number of partners who are listed in the [requirements article](requirements.md). Please visit the partners' websites to learn more about these solutions and procurement options.
+You can acquire Microsoft Teams Rooms from a number of partners who are listed in [Teams Rooms certified systems and peripherals](certified-hardware.md). Please visit the partners' websites to learn more about these solutions and procurement options.
 
 Depending on your deployment scale and approach, you might decide to have the Microsoft Teams Rooms and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites.
 
@@ -156,9 +181,16 @@ Many organizations have an AV team or partner who manages their conference rooms
 
 Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
+> [!NOTE]
+> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
+>
+> Earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+>
+> If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
+
 | &nbsp; | &nbsp; |
 |---|---|
-| ![choose manager.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul> |
+| ![choose manager.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms-related calls to.</li></ul> |
 | ![prepare host accounts.](../media/audio_conferencing_image9.png)<br/>Next steps |<ul><li>Prepare to host accounts.</li></ul> |
 
 ## Plan for adoption and change management
