@@ -69,17 +69,17 @@ Amanda can't share PowerPoint slide decks in meetings even if she's the meeting 
 
 ## Live Share
 
-Users can now review, edit, and add comments to the document right from within the Teams meeting window. This type of document-centric meeting is a structured, collaborative, real-time conversation focused on a single document. These meetings span from small audience collaborating over a document to larger audience for reviewing a document with stakeholders.    
+Users can review, edit, and add comments to a document from within the Teams meeting window. This allows realtime coauthoring in the context of a meeting.
 
-With the remote and hybrid work environment these types of meetings, make extensive use of virtual meeting sharing capabilities together with app specific features such as coediting and interactive comments. 
+You can turn this feature on or off in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share**.
 
-The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share** and enable/disable the toggle.
+You can also configure the setting by using PowerShell:
 
 - **Policy name**: CSTeamsMeetingPolicy
 
 - **Setting name**: AllowDocumentCollaboration
 
-- **Setting type**: ENUM true/false
+- **Setting type**: true/false
 
 ## Whiteboard
 
