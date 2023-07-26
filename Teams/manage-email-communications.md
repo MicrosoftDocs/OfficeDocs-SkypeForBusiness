@@ -33,7 +33,7 @@ Your organizers and co-organizers can edit the following email communication tem
 - Attendee pending approval
 - Attendee registers after waitlist
 
-For more information on the email communications experience for your end users, see [PLACEHOLDER FOR END USER EMAIL COMMUNICATIONS DOC].
+For more information on the email communications experience for your end users, see [Manage webinar emails in Mirosoft Teams](https://support.microsoft.com/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be).
 
 ### Manage email communications for webinars with PowerShell
 
