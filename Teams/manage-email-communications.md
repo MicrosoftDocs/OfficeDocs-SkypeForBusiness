@@ -35,7 +35,7 @@ Your organizers and co-organizers can edit the following email communication tem
 
 For more information on the email communications experience for your end users, see [Manage webinar emails in Mirosoft Teams](https://support.microsoft.com/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be).
 
-### Manage email communications for webinars with PowerShell
+## Manage email communications for webinars with PowerShell
 
 Through PowerShell, you can manage whether organizers and co-organizers can edit email templates for their webinars.
 The **`-EnableEventEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can edit email communication templates.
