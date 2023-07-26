@@ -156,11 +156,11 @@ This video shows the steps to create and assign a custom meeting policy to a gro
 
 > [!NOTE]
 > The Teams Powershell Module supports all policy types used in Teams except for the following:
-- Teams App Permission Policy
-- Teams Emergency Call Routing Policy
-- Teams Network Roaming Policy 
-- Teams Upgrade Policy
-- Teams Voice Applications Policy 
+> - Teams App Permission Policy
+> - Teams Emergency Call Routing Policy
+> - Teams Network Roaming Policy 
+> - Teams Upgrade Policy
+> - Teams Voice Applications Policy 
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
