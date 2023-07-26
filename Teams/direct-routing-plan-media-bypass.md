@@ -297,9 +297,6 @@ The port range of the Teams Transport Relays (applicable to all environments) is
 > 
 > - v6, which works with port range 3478 to 3481
 
-At this time, media bypass only supports v4 version of Transport Relays. We will introduce support of v6 in the future. 
-
-You need to open port range 3478 to 3481 for transitioning. When Microsoft introduces support for v6 Transport Relays with Media Bypass, you will not need to reconfigure your network equipment or SBCs. 
 
 ### Requirements for using media processors
 
