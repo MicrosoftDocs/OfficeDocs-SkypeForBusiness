@@ -24,40 +24,7 @@ f1keywords:
 # Assign policies to users and groups
 
 This article reviews the different ways to assign policies to users and groups in Microsoft Teams.
-
-## Policies managed by Teams admin center
-
-The following policies are supported in Teams admin center:
-
-> - Teams App Permission Policy*
-> - Teams Network Roaming Policy*
-> - Teams Emergency Call Routing Policy*
-> - Teams Voice Applications Policy*
-> - Teams Upgrade Policy*
-> - Teams Calling Policy
-> - Teams Call Park Policy
-> - Teams Policy
-> - Teams Live Events Policy
-> - Teams Meeting Policy
-> - Teams Messaging Policy
-> - App Setup Policy
-> - Call Hold Policy
-> - Caller ID Policy
-> - Dial Plans
-> - Customization Policy
-> - Emergency Calling Policy
-> - Enhanced Encryption Policy
-> - Events Policy
-> - Mobility Policy
-> - Template Policy
-> - Voicemail Policy
-> - Voice Routing Policy
-
-*This policy doesn't support Group policy assignment.
-> [!Note]
-> You can use PowerShell cmdlets to assign Teams policies to users along with other policy types that are currently not supported in Teams admin center.
-
- Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
+Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
 
 This video shows how to assign policies to multiple users.
 
@@ -178,9 +145,22 @@ To remove a group policy assignment, on the **Group policy assignment** tab of t
 
 To change the ranking of a group assignment, you need to remove the group policy assignment first. Then, follow the steps above to assign the policy to a group.
 
+For more information on the policy assignment to groups using the Microsoft Teams admin center, refer [Group policy assignment](settings-policies-reference.md).
+
 This video shows the steps to create and assign a custom meeting policy to a group.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
+
+
+### Use the PowerShell option
+
+> [!NOTE]
+> The Teams Powershell Module supports all policy types used in Teams except for the following:
+- Teams App Permission Policy
+- Teams Emergency Call Routing Policy
+- Teams Network Roaming Policy 
+- Teams Upgrade Policy
+- Teams Voice Applications Policy 
 
 #### Install and connect to the Microsoft Teams PowerShell module
 
