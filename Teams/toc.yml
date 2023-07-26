@@ -619,6 +619,8 @@ items:
           items: 
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
+            - name: Manage email communications
+              href: manage-email-communications.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Get a meeting attendance report
