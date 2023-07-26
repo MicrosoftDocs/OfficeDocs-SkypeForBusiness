@@ -47,11 +47,11 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||Mid September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|Early October 2023|
-|Enterprise|Current Channel|Late October 2023|
-|Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|Early November 2023|
-|Enterprise|Semi-Annual Enterprise Channel|Late November 2023|
+|Business||September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Enterprise|Current Channel|October 2023|
+|Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
+|Enterprise|Semi-Annual Enterprise Channel|December 2023|
 
 
 >[!Note]
@@ -65,11 +65,11 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||Mid September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|Early October 2023|
-|Enterprise|Current Channel|Late October 2023|
-|Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|Early November 2023|
-|Enterprise|Semi-Annual Enterprise Channel|Late November 2023|
+|Business||September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Enterprise|Current Channel|October 2023|
+|Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)November 2023|
+|Enterprise|Semi-Annual Enterprise Channel|December 2023|
 
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
