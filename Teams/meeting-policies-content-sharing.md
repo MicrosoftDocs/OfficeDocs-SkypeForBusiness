@@ -67,6 +67,20 @@ Let's look at the following example.
 
 Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
+## Live Share
+
+Users can now review, edit, and add comments to the document right from within the Teams meeting window. This type of document-centric meeting is a structured, collaborative, real-time conversation focused on a single document. These meetings span from small audience collaborating over a document to larger audience for reviewing a document with stakeholders.    
+
+With the remote and hybrid work environment these types of meetings, make extensive use of virtual meeting sharing capabilities together with app specific features such as coediting and interactive comments. 
+
+The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share** and enable/disable the toggle.
+
+- **Policy name**: CSTeamsMeetingPolicy
+
+- **Setting name**: AllowDocumentCollaboration
+
+- **Setting type**: ENUM true/false
+
 ## Whiteboard
 
 Microsoft Whiteboard is a free-form, digital canvas where people, content, and ideas come together. Whiteboard integration in Microsoft Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
@@ -118,12 +132,6 @@ The admin policy for collaborative annotations is a user-level policy and follow
   - **Setting type**: ENUM true/false
 
 The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
-
-## Document collaboration
-
-Users can now review, edit, and add comments to the document right from within the Teams meeting window. This type of document-centric meeting is a structured, collaborative, real-time conversation focused on a single document. These meetings span from small audience collaborating over a document to larger audience for reviewing a document with stakeholders.    
-
-With the remote and hybrid work environment these types of meetings, make extensive use of virtual meeting sharing capabilities together with app specific features such as coediting and interactive comments. 
 
 ## Shared notes
 
