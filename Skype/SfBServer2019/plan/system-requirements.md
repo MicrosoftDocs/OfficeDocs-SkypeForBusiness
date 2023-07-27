@@ -19,7 +19,7 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers and d
  
 **Summary:** Prepare to install Skype for Business Server 2019 with this article. Hardware, OS, software, databases, certificates, Active Directory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article walks you through planning for the following:
+As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article walks you through planning for:
   
 - [Hardware](system-requirements.md#Hardware)
   
@@ -41,7 +41,7 @@ As you might expect, there are some preparations to make before you begin deploy
 ## Hardware for Skype for Business Server 2019
 <a name="Hardware"> </a>
 
-After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
+After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that helps you determine if you need more than these requirements, depending on your circumstances.
   
 Recommended hardware for Standard Edition servers:
 
@@ -69,7 +69,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 |CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes.   |
 |Disk   |EITHER:  <br/> • four or more 10000-RPM hard disk drives with at least 72-GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   |
-|Network   |One dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
+|Network   |One dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers requires two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
 
 
 > [!NOTE]
@@ -82,7 +82,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 ## Operating systems for Skype for Business Server 2019
 <a name="OS"> </a>
 
-After you have the hardware in place, you'll need to the install operating system (OS) that will allow you to install and successfully use Skype for Business Server 2019.
+After you have the hardware in place, you'll need to the install operating system (OS) that allows you to install and successfully use Skype for Business Server 2019.
   
 - Windows Server 2019 
 - Windows Server 2016
@@ -94,16 +94,16 @@ Anything other than the operating systems listed here won't work properly; pleas
 
 > [!NOTE]
 > 
-> If you are installing Windows Admin Center 2019 on your Windows Server 2019 machine, it will prompt you for a port to listen on. There's a liklihood you might choose port 443, but if that machine has Skype for Business Server 2019 installed on it, or is going to have Skype for Business Server 2019 installed on it, then you must choose a different port number.
+> If you are installing Windows Admin Center 2019 on your Windows Server 2019 machine, it prompts you for a port to listen on. There's a liklihood you might choose port 443, but if that machine has Skype for Business Server 2019 installed on it, or is going to have Skype for Business Server 2019 installed on it, then you must choose a different port number.
 > 
->Why is this the case? If Windows Admin Center 2019 is running on port 443, you will not be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you will not be able to connect to any Internal Web Service URL. Please choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
+>Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you won't be able to connect to any Internal Web Service URL. Please choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
 > 
 
   
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
 
-There are some things you're going to need to install or configure for any server running Skype for Business Server 2019. These are listed below, followed by additional requirements for specific server roles.
+There are some things you're going to need to install or configure for any server running Skype for Business Server 2019. These things are listed below, followed by additional requirements for specific server roles.
 
 > [!IMPORTANT]
 > Skype For Business 2019 supports .Net Framework 4.8. 
