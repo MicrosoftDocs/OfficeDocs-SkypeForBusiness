@@ -122,5 +122,5 @@ iisreset
 Write-Host "Done"
 ```
 > [!NOTE]
-If you have accidently run the script and want to revert the changes, then run the PowerShell script with `-Undo` parameter.
+> If you have accidently run the script and want to revert the changes, then run the PowerShell script with `-Undo` parameter.
 
