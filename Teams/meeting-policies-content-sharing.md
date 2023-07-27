@@ -56,7 +56,7 @@ This setting is a per-user policy. The setting controls whether a user can share
 
 ## Live Share
 
-Users can edit a document from within the Teams meeting window. This allows tealtime coauthoring in the context of a meeting.
+Users can edit a document from within the Teams meeting window. This allows realtime coauthoring in the context of a meeting.
 
 You can turn this feature on or off in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share**.
 
