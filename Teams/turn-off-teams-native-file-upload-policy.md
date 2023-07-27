@@ -22,7 +22,7 @@ ms.collection:
 
 Microsoft Teams uses OneDrive and SharePoint to store and share content, but some organizations and users might prefer to use third-party storage providers.  
 
-If your organization chooses a third-party for content storage, you need to turn off the `NativeFileEntryPoints` parameter in the Teams Files policy. This parameter is enabled by default, which shows the option to upload content from OneDrive or SharePoint to Teams chats or channels.
+If your organization chooses a third party for content storage, you need to turn off the `NativeFileEntryPoints` parameter in the Teams Files policy. This parameter is enabled by default, which shows the option to upload content from OneDrive or SharePoint to Teams chats or channels.
 
 This article will help you create, set, assign, and remove the `NativeFileEntryPoints` parameter using PowerShell.
 
@@ -33,9 +33,9 @@ This article will help you create, set, assign, and remove the `NativeFileEntryP
 
 ### Set up Microsoft PowerShell
 
-Currently, this policy can't be changed in the Teams admin center. Your organization's Microsoft 365 tenant admin will have to make the changes using the PowerShell cmdlets detailed later in this article.
+Currently, this policy can't be changed in the Teams admin center. Your organization's Microsoft 365 tenant administrator will have to make the changes using the PowerShell cmdlets detailed later in this article.
 
-Learn how to install the PowerShell Teams module using PowerShell Gallery by reading [Install Microsoft Teams PowerShell Module](teams-powershell-install.md).
+To learn how to install the PowerShell Teams module using PowerShell Gallery, see [Install Microsoft Teams PowerShell Module](teams-powershell-install.md).
 
 To install or download the Teams PowerShell module, see [PowerShell Gallery for Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
@@ -43,11 +43,11 @@ For more information on how to set up PowerShell for Teams management, see [Mana
 
 ### Allow third-party apps in Teams Admin Center
 
-This step is not required to change the Teams Files policy, but it's required when you're ready to integrate your third-party storage provider in your users' Teams experience.
+This step isn't required to change the Teams Files policy, but it's required when you're ready to integrate your third-party storage provider in your users' Teams experience.
 
-Your Microsoft 365 tenant admin will need to enable the "Allow third-party apps" policy in the Teams admin center.
+Your Microsoft 365 tenant administrator will need to enable the "Allow third-party apps" policy in the Teams admin center.
 
-To learn how to allow third-party or custom apps, see Manage org-wide apps settings in [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps#manage-org-wide-app-settings).
+To learn how to allow third-party or custom apps, see *Manage org-wide apps settings* in [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
 ## Turn off NativeFileEntryPoints for your entire tenant
 
@@ -55,7 +55,7 @@ Setting the `-Identity` parameter to `Global` will apply the policy settings to 
 
 ### Sample PowerShell policy cmdlet for entire tenant
 
-This sample PowerShell command will set the`NativeFileEntryPoints` parameter to `Disabled` for your entire tenant.
+The following sample PowerShell command will set the`NativeFileEntryPoints` parameter to `Disabled` for your entire tenant:
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
