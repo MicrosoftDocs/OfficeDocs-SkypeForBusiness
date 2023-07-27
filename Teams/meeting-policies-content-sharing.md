@@ -56,7 +56,7 @@ This setting is a per-user policy. The setting controls whether a user can share
 
 ## Live Share
 
-Users can edit a document from within the Teams meeting window. This allows realtime coauthoring in the context of a meeting.
+Users can edit a document from within the Teams meeting window. This allows real time coauthoring in the context of a meeting.
 
 You can turn this feature on or off in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share**.
 
@@ -89,7 +89,7 @@ Users can share a whiteboard to make it available to all participants in a Teams
 
 To turn the Whiteboard app on or off, see [Enable Microsoft Whiteboard for your organization](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Keep in mind that this setting will enable or disable Whiteboard for your entire organization, and not just for Teams.
 
-Whiteboards will be created in the OneDrive of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations).
+Whiteboards are created in the OneDrive of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations).
 
 The Whiteboard setting for Teams meetings is a per-user setting. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
@@ -112,7 +112,7 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 #### Collaborative Annotations
 
-When Whiteboard is enabled, users will have the option to use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotations.
+When Whiteboard is enabled, users have the option to use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard isn't enabled, users won't have access to annotations.
 
 Use the following to turn on/off collaborative annotations:
 
@@ -131,7 +131,7 @@ The admin policy for collaborative annotations is a user-level policy and follow
 
   - **Setting type**: ENUM true/false
 
-The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
+The admin can either run the PowerShell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 
@@ -146,7 +146,7 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-## Related topics
+## Related articles
 
 [Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
 
