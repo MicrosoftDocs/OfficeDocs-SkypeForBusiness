@@ -82,7 +82,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 ## Operating systems for Skype for Business Server 2019
 <a name="OS"> </a>
 
-After you have the hardware in place, you'll need to the install operating system (OS) that allows you to install and successfully use Skype for Business Server 2019.
+After you have the hardware in place, you need to the install operating system (OS) that allows you to install and successfully use Skype for Business Server 2019.
   
 - Windows Server 2019 
 - Windows Server 2016
@@ -122,8 +122,8 @@ There are some things you're going to need to install or configure for any serve
   
 |Software/role|Details|
 |:-----|:-----|
-|Internet Information Services (IIS)   |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> Note that Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select it on the list.   |
-|Windows Media Format Runtime   | For Windows Server 2016, you'll need to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. It's better to do it ahead of time.  |
+|Internet Information Services (IIS)   |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select it on the list.   |
+|Windows Media Format Runtime   | For Windows Server 2016, you need to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this, but you are prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. It's better to do it ahead of time.  |
 |Silverlight   |You can install the latest version of Silverlight [here](https://www.microsoft.com/silverlight/).   |
 |For users in China region   |Run PowerShell script (link to the new doc) after updating server to min build number Skype for Business Server 2019 Cumulative Update 7 Hotfix 1 (2046.523).   |
    
@@ -190,7 +190,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 ## Back end databases that will work with Skype for Business Server 2019
 <a name="DBs"> </a>
 
-When installing Skype for Business Server 2019 Standard Edition, you'll have SQL Server 2016 Express (64-bit edition).
+When installing Skype for Business Server 2019 Standard Edition, you have SQL Server 2016 Express (64-bit edition).
 
 Skype for Business Server 2019 Enterprise Edition requires full SQL Server, as indicated below (only 64-bit edition; don't use 32-bit editions):
   
@@ -209,7 +209,7 @@ SQL Clustering with Skype for Business Server 2019 is supported. If you want to 
   
 Make sure you have an active/passive configuration for SQL Clustering, which is supported. Don't share the passive node with any other SQL instance.
   
-You can have the following for failover clustering:
+For failover clustering, youcan have:
   
 Two-node:
   
@@ -268,9 +268,9 @@ The domain functional level of any domain you deploy Skype for Business Server 2
     
 Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controllers available.
   
-It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/).
+It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/).
   
-Skype for Business Server 2019 also doesn't support renaming domains. If you really have to rename your domain, you'll need to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
+Skype for Business Server 2019 also doesn't support renaming domains. If you really have to rename your domain, you need to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
   
 Finally, you may be dealing with a domain with a locked-down AD DS environment, and that's alright. We have more information on how to deploy Skype for Business Server 2019 into a locked-down AD DS environment in the Deployment documentation.
   
@@ -335,7 +335,7 @@ Clearly, if your AD infrastructure is in place, moving to this topology might no
   
 A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2019. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
-Note that Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
+Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
 To deploy Skype for Business Server 2019 in this type of topology, you would create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
   
@@ -391,7 +391,7 @@ And it's extremely important to remember that any name in DNS be identical to th
   
 This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool, for that matter.
   
-Definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are supported by external DNS and public Certificate Authorities (you'll need to assign FQDNs to the SN in the certificate, it's important to remember), so you'll spare yourself a lot of trouble if you name with this in mind from the start.
+Definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are supported by external DNS and public Certificate Authorities (you need to assign FQDNs to the SN in the certificate, it's important to remember), so you'll spare yourself a lot of trouble if you name with this in mind from the start.
   
 For further reading on DNS requirements for Networking, check out the [Networking](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
   
@@ -437,7 +437,7 @@ That's a lot to think about, and there are a variety of comfort levels with requ
   
 ### Certificates for your internal servers
 
-You'll need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
+You need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
   
 You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
   
@@ -497,7 +497,7 @@ Your reverse proxy (RP) is also going to use a public certificate, and it encryp
 
 If you're deploying mobility and you're supporting automatic discovery for mobile clients, you're going to need to include some additional subject alternate name entries on your certificates to support the secure connections from the mobile clients.
   
-You'll need SAN names for automatic discovery on the following certificates:
+You need SAN names for automatic discovery on the following certificates:
   
 - Director pool
     
