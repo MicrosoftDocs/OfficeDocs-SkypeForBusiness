@@ -89,21 +89,21 @@ The following table shows a comparison of Teams features for each channel type.
 
 |Features|Standard channel|Private channel|Shared channel|
 |:-------|:---------------|:--------------|:-------------|
-|People can be added to the channel without adding them to the team.|No|No|Yes|
-|Channel membership can be limited to a subset of the team.|No|Yes|Yes|
-|Channel can be shared directly with other teams.|No|No|Yes|
-|Channel can be shared directly with its parent team.|N/A|No|Yes|
-|Guests can participate in the channel.|Yes|Yes|No|
-|External participants (B2B Direct Connect) can participate in the channel.|No|No|Yes|
-|Moderation|Yes|No|No|
-|Copy link to channel|Yes|No|No|
-|Each channel has a dedicated SharePoint site.|No|Yes|Yes|
-|Scheduled meetings|Yes|No|Yes|
-|Planner|Yes|No|No|
-|Bots, connectors, and messaging extensions|Yes|No|No|
-|Supported in class teams|Yes|Yes|No|
-|Tags|Yes|No|No|
-|Analytics|Yes|Yes|No|
+|People can be added to the channel without adding them to the team.|No ❌|No ❌|Yes 💹|
+|Channel membership can be limited to a subset of the team.|No ❌|Yes 💹|Yes 💹|
+|Channel can be shared directly with other teams.|No ❌|No ❌|Yes 💹|
+|Channel can be shared directly with its parent team.|N/A 🚫|No ❌|Yes 💹|
+|Guests can participate in the channel.|Yes 💹|Yes 💹|No ❌|
+|External participants (B2B Direct Connect) can participate in the channel.|No ❌|No ❌|Yes 💹|
+|Moderation|Yes 💹|No ❌|No ❌|
+|Copy link to channel|Yes 💹|No ❌|No ❌|
+|Each channel has a dedicated SharePoint site.|No ❌|Yes 💹|Yes 💹|
+|Scheduled meetings|Yes 💹|No ❌|Yes 💹|
+|Planner|Yes 💹|No ❌|No ❌|
+|Bots, connectors, and messaging extensions|Yes 💹|No ❌|No ❌|
+|Supported in class teams|Yes 💹|Yes 💹|No ❌|
+|Tags|Yes 💹|No ❌|No ❌|
+|Analytics|Yes 💹|Yes 💹|No ❌|
 
 ## Org-wide teams
 
