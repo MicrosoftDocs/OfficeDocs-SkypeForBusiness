@@ -17,9 +17,9 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers and d
 
 # System requirements for Skype for Business Server 2019
  
-**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Diretory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+**Summary:** Prepare to install Skype for Business Server 2019 with this article. Hardware, OS, software, databases, certificates, Active Directory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article will walk you through planning for the following:
+As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article walks you through planning for the following:
   
 - [Hardware](system-requirements.md#Hardware)
   
@@ -47,28 +47,28 @@ Recommended hardware for Standard Edition servers:
 
 |Hardware component|Recommended|
 |:-----|:-----|
-|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes (GB).   |
-|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
-|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
+|Disk   |EITHER:  <br/> • 8 or more 10,000 RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000-RPM mechanical disk drives.   |
+|Network   |One dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they aren't exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it's supported.   |
 
 
 Recommended hardware for Front End Servers and Back End Servers:
   
 |Hardware component|Recommended|
 |:-----|:-----|
-|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |64 gigabytes (GB).   |
-|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
-|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
+|Disk   |EITHER:  <br/> • 8 or more 10000-RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they aren't exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it's supported.   |
    
 Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors:
   
 |Hardware component|Recommended|
 |:-----|:-----|
-|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes.   |
-|Disk   |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   |
+|Disk   |EITHER:  <br/> • 4 or more 10000-RPM hard disk drives with at least 72-GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   |
 |Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
 
 
@@ -87,7 +87,7 @@ After you have the hardware in place, you'll need to the install operating syste
 - Windows Server 2019 
 - Windows Server 2016
    
-Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option is not listed, and is thus not supported.
+Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
 
 > [!NOTE]
 > In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
