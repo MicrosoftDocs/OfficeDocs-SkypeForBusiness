@@ -73,7 +73,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 
 
 > [!NOTE]
-> Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (this may vary depending on the brand of hardware you've purchased, so please refer to manufacturer documentation for specifics):
+> Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (this may vary depending on the brand of hardware you've purchased, so refer to manufacturer documentation for specifics):
 > - BIOS config - should be set to FLAT from NUMA.
 > - Enable Hyperthreading.
 > - The RSS queue setting should be set to 8 queue.
@@ -87,7 +87,7 @@ After you have the hardware in place, you'll need to the install operating syste
 - Windows Server 2019 
 - Windows Server 2016
    
-Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
+Anything other than the operating systems listed here won't work properly; don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
 
 > [!NOTE]
 > In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
@@ -96,7 +96,7 @@ Anything other than the operating systems listed here won't work properly; pleas
 > 
 > If you are installing Windows Admin Center 2019 on your Windows Server 2019 machine, it prompts you for a port to listen on. There's a liklihood you might choose port 443, but if that machine has Skype for Business Server 2019 installed on it, or is going to have Skype for Business Server 2019 installed on it, then you must choose a different port number.
 > 
->Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you won't be able to connect to any Internal Web Service URL. Please choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
+>Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you won't be able to connect to any Internal Web Service URL. Choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
 > 
 
   
@@ -192,7 +192,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 When installing Skype for Business Server 2019 Standard Edition, you'll have SQL Server 2016 Express (64-bit edition).
 
-Skype for Business Server 2019 Enterprise Edition will require full SQL Server, as indicated below (only 64-bit edition; please don't use 32-bit editions):
+Skype for Business Server 2019 Enterprise Edition requires full SQL Server, as indicated below (only 64-bit edition; don't use 32-bit editions):
   
 - Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.
 - Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.
@@ -228,7 +228,7 @@ SQL Always On is supported, and you can read more about it in [Back End Server h
 
 ###  Additional server installation recommendations:
   
-Please don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software is installed.
+Don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software is installed.
   
 
 ## Active Directory
@@ -489,7 +489,7 @@ Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Ap
    
 ### Certificates for external user access (Edge)
 
-Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
+Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface uses a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
   
 Your reverse proxy (RP) is also going to use a public certificate, and it encrypts the communication from your RP to clients, and the RP to internal servers by using HTTP (or more precisely, TLS over HTTP).
   
