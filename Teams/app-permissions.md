@@ -13,7 +13,7 @@ ms.collection:
   - Tier1
 search.appverid: MET150
 ms.reviewer: tolgaki
-ms.date: 06/27/2023
+ms.date: 07/29/2023
 description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
@@ -25,23 +25,18 @@ ms.custom: seo-marvel-apr2020
 
 # Understand the permissions of and the information accessed by Teams apps
 
-<!---
+Depending on their functionality, Teams apps may or may not access your user's or organization's information.
 
-What are the sources of truth for all this info? aka where should you look for info
-What can apps by being installed.
-What can apps access when consented to.
-What can apps do on their own vs what can users do - types of perms.
+* Some apps that don't seek access to internal data, don't require admin approval. Users can use such apps without admin approval or consent as these apps can't get any internal data.
+* Apps that require permissions on your organization's information can't be used unless an admin permits it. Admins can grant their consent to the permissions required by the app in Teams admin center. You must do your diligence to evaluate apps based on the access an app needs on your organization's information and the reason an app needs it.
 
---->
-
-Teams apps can access user's and organization's information in the following situations:
-
-* By virtue of being added in Teams.
-* By virtue of being granted consent to information.
+| Type of permission for an app | Why are these required | Where to find details |
+|-----|-----|-----|
+| (Not a permission) Actions that any installed app can do. | For an app to work, it can interact with users or message users or read basic user profile by virtue of being installed. | Available in Permissions tab in app details page for each app and also listed in the Teams store when a user installed an app. |
+| Permissions for organization's information. | For some features to work, an app can need access to your organization's information or a user's information. | Visible in Permissions tab in app details page of each app. See [Microsoft Graph permissions reference](/graph/permissions-reference) for a list of all possible permissions. |
+| Resource-specific permissions. | For some features to work, an app can need access to Teams resources such as meetings, chat, or teams and channels | Visible in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. |
 
 ## What can an app do in Teams
-
-Apps can access some basic information of the user when apps are added in Teams client.
 
 Microsoft Teams apps aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
 
@@ -58,7 +53,7 @@ As an admin, you only manage apps. However, the article focuses on permissions a
 
 * An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.
 
-* [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions).
+* [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, .
 
 * Apps may also need permissions other than resource-specific consent permissions. After an app is installed, the app may request Graph permissions through a consent prompt. To learn more, see [Understanding Azure AD application consent experiences](/azure/active-directory/develop/application-consent-experience). You can configure API permissions and consent in the Azure portal. To learn more, see [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework).
 

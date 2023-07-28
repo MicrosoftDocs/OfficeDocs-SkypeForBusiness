@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 06/27/2023
+ms.date: 07/14/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -22,12 +22,15 @@ description: Learn how Teams apps get updated to a newer version and how admins 
 
 # Role of an admin to upgrade Teams apps to a newer version
 
-Teams app developers provide newer version of their apps to enhance the experience of the users. Depending on the organization settings, either Teams administrators or users or both can consent to the apps. When you or your users add an app to Teams for the first time, you or the users consent to the permissions. When the app updates, it only requires consent again, if the new version has more functionality or requests more information within your organization.
+When an app is installed for the first time it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenario occurs:
+
+* If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-updates-and-requires-consent), then the app update requires consent from the app user.
+* If the updated version of the app doesn't require new permissions and doesn't have only basic functionality changes, then it updates automatically.
 
 As a Teams administrator, you can update Teams apps to help the users get the latest version of apps by performing one of the following tasks:
 
-* When a new app version is available in Teams store, allow users to update it.
-* When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to update it.
+* When a new app version is available in Teams store, allow users to upgrade to the new version.
+* When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to upgrade to the new version.
 
 ## Conditions when an app updates and requires consent
 

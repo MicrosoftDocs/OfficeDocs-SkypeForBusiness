@@ -6,9 +6,9 @@ manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 07/29/2023
 search.appverid: 
-description: Learn about app permission policies and setup policies used to manage apps in Microsoft Teams.
+description: Learn about app permission policies and setup policies that are used to manage apps in Microsoft Teams.
 audience: admin
 ms.localizationpriority: high
 appliesto: 
@@ -17,15 +17,15 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Know about policies to manage access and installation of Teams apps
+# Know about policies to manage access to and use of Teams apps
 
-Microsoft Teams uses app policies to govern access and installation behavior of apps. App policies help Teams administrators control the following app behavior:
+Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams and Global administrators control the following app behavior:
 
-* Configure the access of apps for each individual user or for a group of users. It helps admin control the apps that are allowed for each user.
+* Configure the access of apps for each individual user or for a group of users. You control the apps that are permitted for each user.
 
-* Pin those apps for users that are relevant for your organization's needs. Also, admins can install apps for users without user intervention. It helps users easily get started with the relevant apps.
+* Pin the allowed apps for the desired users. Also, admins can install apps for users without user intervention. It helps users easily get started with the relevant apps.
 
-* Control which developers in your organization can submit custom apps for admin approval. It helps you control the access to custom apps upload functionality.
+* Allow or disallow upload and use of custom apps for a few or all the users.
 
 ## App permission policies
 
@@ -61,11 +61,10 @@ Your organization may commission the creation of custom apps for org-specific re
 
 :::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Screenshot that shows how to allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-policy.png":::
 
-To know more, see [how to manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md).
+To know more, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
 ## Related articles
 
 * [Manage Teams with policies](manage-teams-with-policies.md)
 * [Manage app permission policies](teams-app-permission-policies.md)
 * [Manage app setup policies](teams-app-setup-policies.md)
-* [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)

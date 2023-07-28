@@ -78,7 +78,7 @@ You can use the Teams admin center to edit the global policy or any custom polic
 
 ## Assign a custom policy for app permissions to users
 
-App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users](policy-assignment-overview.md#ways-to-assign-policies).
+App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users and groups](policy-assignment-overview.md#ways-to-assign-policies).
 
 ## View the policies already applied to a user
 
@@ -142,3 +142,4 @@ The following are a few considerations when using app permissions policies to gr
 
 * [Assign policies to your users in Teams](policy-assignment-overview.md)
 * [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)
+* [How to create user groups in Microsoft 365](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide)
