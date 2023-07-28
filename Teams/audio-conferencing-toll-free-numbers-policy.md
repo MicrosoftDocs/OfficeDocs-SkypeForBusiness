@@ -69,7 +69,7 @@ An overview of the steps:
 1. Choose the settings that you want.
 1. Select Save.
 
-For example, you may have a group of users who regularly have meetings with participants from more than one country. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
+For example, you may have a group of users who regularly have meetings with participants from more than one country/region. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries/regions to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
 
 This ensures phone numbers that you selected for Canada, Botswana, and Singapore will be included in the meetings invites created by users of this policy.
 
@@ -85,7 +85,7 @@ This ensures phone numbers that you selected for Canada, Botswana, and Singapore
 8. Select **Add**.
 9. Repeat steps 6 and 7 in the same way to search and add telephone numbers from Botswana and Singapore.
 10. Select toll-free numbers if you've turned on the setting to **Include toll-free numbers in meetings created by users of this policy** in step 4.
-11. Select **Add** on the bottom right-hand corner of the pane. The telephone numbers from the three countries that you selected will be listed.
+11. Select **Add** on the bottom right-hand corner of the pane. The telephone numbers from the three countries/regions that you selected will be listed.
 12. There is a rank column that determines the order in which the telephone numbers will be displayed in meetings invites created by users of this policy. You can change the order by selecting a phone number and moving it up or down using the **Move up** and **Move down** buttons respectively.
 13. Once you have put the phone numbers in the order of your preference, select **Save**.
 14. Your custom policy named “Canada Botswana Singapore” is created.

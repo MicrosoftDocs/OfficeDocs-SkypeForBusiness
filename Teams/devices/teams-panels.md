@@ -65,7 +65,7 @@ Each Teams panel needs a [Microsoft Teams Rooms Pro license](../rooms/rooms-lice
 
 > [!IMPORTANT]
 >
-> Microsoft 365 or Office 365 user licenses are no longer supported for use with meeting devices. User licenses that have been assigned to Teams Panels need to be replaced by a Teams Rooms Pro or Teams Shared Device license prior to September 30th, 2023. Panels that have a user license after September 30th, 2023 will be blocked from signing in until one of the above licenses is assigned.
+> Microsoft 365 or Office 365 user licenses are no longer supported for use with meeting devices. User licenses that have been assigned to Teams Panels need to be replaced by a Teams Rooms Pro or Teams Shared Device license prior to July 1, 2023. Panels that do not have one of these licenses after July 1, 2023 will be granted a 90-day grace period ending on September 30, 2023. After the 90-day grace period, Panels will be blocked from signing in until one of the above licenses is assigned.
 
 ## Deploy Teams panels devices
 
