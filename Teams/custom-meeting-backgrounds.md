@@ -80,7 +80,7 @@ You'll find previews of your uploaded images in a new table under the **Custom m
 
 ## Show only custom backgrounds in your users' gallery
 
-You can decide to only show custom backgrounds you've uploaded in your users' gallery. You must turn off video effects in meeting policies to only show custom backgrounds in your users' gallery.
+You can decide to only show custom backgrounds you've uploaded in your users' gallery.
 
 To only show custom backgrounds you've uploaded, follow these steps:
 
@@ -91,6 +91,9 @@ To only show custom backgrounds you've uploaded, follow these steps:
 5. Navigate to **Meetings** >  **Customization Policies** to select an existing policy or create a new one.
 6. Within your chosen policy, scroll down to the **Custom Meeting backgrounds** section and set **Custom backgrounds** to **On**. If you haven't already, you can upload your custom backgrounds.
 7. Select **Save**
+
+> [!NOTE]
+> You must set **Participants can use video effects** to **Off** or **Only background blur** to only show custom backgrounds in your users' gallery.
 
 ## Where are custom backgrounds visible
 
