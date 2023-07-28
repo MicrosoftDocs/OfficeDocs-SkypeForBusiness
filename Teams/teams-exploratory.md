@@ -113,13 +113,13 @@ You can turn off a user's ability to install trial apps and services, which woul
 
 If your tenant has users with the self-service Teams Exploratory trial, you need to use PowerShell to turn off a user's ability to install trial apps and services, even if trials were previously turned off.
 
-For instructions on how to turn off and on users' ability to to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
+For instructions on how to turn off and on users' ability to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
 #### If your users have the tenant-based organizational Teams Exploratory trial
 
 1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. On the left-side navigation, go to **Settings** > **Org settings**.
-1. On the the **Services** tab, scroll and then select **User owned apps and services**.
+1. On the **Services** tab, scroll and then select **User owned apps and services**.
 1. On the pane, clear the check mark from **Let users install trial apps and services**.
 
 > [!NOTE]
