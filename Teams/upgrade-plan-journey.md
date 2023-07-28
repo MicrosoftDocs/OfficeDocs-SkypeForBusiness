@@ -1,7 +1,7 @@
 ---
 title: Plan for your Skype for Business to Microsoft Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

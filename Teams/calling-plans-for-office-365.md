@@ -3,8 +3,8 @@ title: Microsoft Calling Plans for Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.reviewer: roykuntz
+ms.date: 05/23/2023
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
@@ -99,7 +99,8 @@ There are two **Pay-As-You-Go Calling Plan** options to choose from:
 
 - **Pay-As-You-Go Calling Plan Zone-1**: For users in the United States and Puerto Rico, Canada, and the United Kingdom.
 
-  Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
+> [!NOTE]
+> Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries/regions.
 
 - **Pay-As-You-Go Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 

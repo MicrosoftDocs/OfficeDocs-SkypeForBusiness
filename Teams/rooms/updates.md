@@ -1,7 +1,7 @@
 ---
 title: Manage Windows Updates for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 10/15/2018
 manager: serdars
