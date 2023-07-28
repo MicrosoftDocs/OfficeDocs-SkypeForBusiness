@@ -83,7 +83,7 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
-| Location | String | Country in which the user is located | User's location information is blocked or unavailable |
+| Location | String | Country/Region in which the user is located | User's location information is blocked or unavailable |
 | Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
 | Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
 | Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |

@@ -46,7 +46,7 @@ With Direct Routing, you can connect your SBC to almost any telephony trunk or i
 
 Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. However, a hybrid voice solution might be best for your organization if: 
 
-- Microsoft Calling Plan is not available in your country. 
+- Microsoft Calling Plan is not available in your country/region. 
 
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
 

@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV81 | `2.0.369` | 2023 Update #2 |
 | Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Room Bar | `11.5.2.5` | 2023 Update #2 |
@@ -76,8 +77,6 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A10 | `278.320.0.17`   | 2023 Update #1B  |
 | Yealink MeetingBar A20 | `133.320.0.18`   | 2023 Update #1B  |
 | Yealink MeetingBar A30 | `133.320.0.18`   | 2023 Update #1B  |
-| Yealink MeetingBoard 86" | `155.15.0.46` | 2023 Update #1B |
-| Yealink MeetingBoard 65" | `155.15.0.46` | 2023 Update #1B |
 | Yealink CTP18 | `137.320.0.29`   | 2023 Update #1B  |
 | Audiocodes RXV81 | `2.0.268` | 2023 Update #1A |
 | Poly Studio X30 | `4.0.1.380048` | 2023 Update #1 |

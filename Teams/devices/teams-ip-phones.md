@@ -56,9 +56,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| Yealink MP58 | `122.15.0.135`|October 4, 2026   | 12 |
-| Yealink MP56 | `122.15.0.135`|October 4, 2026   | 12 |
-| Yealink MP54 | `122.15.0.135`|October 4, 2026   | 12 |
+| Yealink MP58 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
+| Yealink MP56 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
+| Yealink MP54 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
 | Poly CCX350                            | `8.0.1.4670`                                                  | 	November 5, 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	November 5, 2023              | 9 |
 | AudioCodes C450HD*                    | `1.17.443`                                                     | 	August 5, 2023               | 9 |
@@ -115,6 +115,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
