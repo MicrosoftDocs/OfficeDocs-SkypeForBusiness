@@ -81,7 +81,7 @@ In the table, a newly submitted app automatically shows a **Publishing status** 
 
 :::image type="content" source="media/custom-app-lifecycle-validate-app.png" alt-text="Publishing status." lightbox="media/custom-app-lifecycle-validate-app.png":::
 
-Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
+Select the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
 :::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app." lightbox="media/custom-app-lifecycle-app-details.png":::
 
@@ -131,7 +131,7 @@ When the developer submits an update to a published custom app, you get notified
 To review and publish an app update:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
-1. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
+1. Select the app name to go to the app details page, and then select **Update available** to review details of the update.
 
    :::image type="content" source="media/custom-app-lifecycle-update-app.png" alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
 
