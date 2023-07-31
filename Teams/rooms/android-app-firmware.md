@@ -53,6 +53,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 5T |`v1.7.23199.02`   | 2023 Update #2 |
+| EPOS EXPAND Vision 3T |`v1.7.23195.03`   | 2023 Update #2 |
+| EPOS EXPAND Control 3C |`v1.7.23198.05`   | 2023 Update #2 |
 | Audiocodes RXV81 | `2.0.369` | 2023 Update #2 |
 | Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
