@@ -60,9 +60,9 @@ As Teams administrator, you have the following controls on upload and use of cus
 
 | Custom app management task | Setting available to admins | Impact on users |
 |----------------------------|-----------------------------|-----------------|
-| Allow users to upload custom apps | Use [app setup policy](teams-custom-app-policies-and-settings#allow-users-to-upload-custom-apps) | Users can upload custom apps in personal context or in their team if allowed by team owner. |
-| Disallow users from uploading custom apps | Use [app setup policy](teams-custom-app-policies-and-settings#allow-users-to-upload-custom-apps) | Users can't upload custom apps in personal context or in their team. Users can still submit custom apps for your approval. Until you approve, the app remains unavailable for use. |
-| Disallow use from using custom apps | Use [custom app setting in org-wide settings](teams-custom-app-policies-and-settings#allow-your-users-to-use-custom-apps) | Users can't use custom apps that anyone has uploaded. |
+| Allow users to upload custom apps | Use [app setup policy](#allow-users-to-upload-custom-apps) | Users can upload custom apps in personal context or in their team if allowed by team owner. |
+| Disallow users from uploading custom apps | Use [app setup policy](#allow-users-to-upload-custom-apps) | Users can't upload custom apps in personal context or in their team. Users can still submit custom apps for your approval. Until you approve, the app remains unavailable for use. |
+| Disallow use from using custom apps | Use [custom app setting in org-wide settings](#allow-your-users-to-use-custom-apps) | Users can't use custom apps that anyone has uploaded. |
 | Restrict access to a few users | Use [app permission policy](teams-app-permission-policies.md) | You granularly control which users have access to which particular custom app. |
 | Delete a custom app | Delete an app | The deleted app isn't available in the tenant. It's removed for existing users too. |
 
