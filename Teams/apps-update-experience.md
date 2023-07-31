@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 06/27/2023
+ms.date: 07/31/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -22,18 +22,21 @@ description: Learn how Teams apps get updated to a newer version and how admins 
 
 # Role of an admin to upgrade Teams apps to a newer version
 
-Teams app developers provide newer version of their apps to enhance the experience of the users. Depending on the organization settings, either Teams administrators or users or both can consent to the apps. When you or your users add an app to Teams for the first time, you or the users consent to the permissions. When the app updates, it only requires consent again, if the new version has more functionality or requests more information within your organization.
+When an app is installed for the first time it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenario occurs:
+
+* If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-updates-and-requires-consent), then the app update requires consent from the app user.
+* If the updated version of the app doesn't require new permissions and doesn't have only basic functionality changes, then it updates automatically.
 
 As a Teams administrator, you can update Teams apps to help the users get the latest version of apps by performing one of the following tasks:
 
-* When a new app version is available in Teams store, allow users to update it.
-* When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to update it.
+* When a new app version is available in Teams store, allow users to upgrade to the new version.
+* When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to upgrade to the new version.
 
 ## Conditions when an app updates and requires consent
 
 Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users can provide consent when they try to use the app for the first time.
 
-* Add a bot. Change the ID of the bot using the `botId` property.
+* Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that may change the bot's notifications.
 * Change `SupportsCalling`, `SupportsVideo`, and `SupportsFiles` properties of an existing bot to add capability to call, play video, and upload or download files.
 * Change parameters in the `webApplicationInfo` in the manifest file.
@@ -84,11 +87,13 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
    :::image type="content" source="media/manage-teams-owner.png" alt-text="Screenshot that shows the Apps option in the Manage team page that teams owners can view.":::
 
-* When an app is updated in a team, all team members can access the updated app. However, team members must still give their consent to use the same app in their other contexts.
+* When an app is updated in a team, all team members can access the updated app. However, team members must still give their consent to update the same app in their other contexts.
 
-* After updating in a context, the app automatically updates only in the contexts that the user is a member of and the previous version of the app was added. The app isn't updated in teams and groups that the user isn't a part of. The new version of the app isn't added to teams or groups where the app wasn't originally added.
+* After updating in a context, the app automatically updates only in the contexts that the user is a member of and in the context where the previous version of the app was added. The app isn't updated in teams and groups that the user isn't a part of. The new version of the app isn't added to teams or groups where the app wasn't originally added.
 
 * Teams admin can't forcibly update an app for a user if the user doesn't provide consent to an app.
+
+* If the app developer changes the ID of a bot in a newer version of an app, then a new bot instance engages with users. The previous bot is no longer part of the app (developer changes the `botId` property in the app manifest file) and the chat history is left as is to preserve it. The icon and name of the previous bot reverts to the values that the developer provided when registering their bot in [Microsoft Bot Framework](https://dev.botframework.com/). The previous bot doesn't display the icon or the name of the new version of the app. The previous bot doesn't belong to any app (as `botId` isn't mentioned in app manifest file) and hence app permission policies don't apply to it.
 
 ## Related articles
 
