@@ -131,6 +131,9 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 
 ### In the Teams admin center
 
+> [!NOTE]
+> The Teams admin center supports Group policy assignment in Teams. For information on the available policy assignment to groups, see [Group policy assignment](settings-policies-reference.md).
+
 1. In the left navigation of the Microsoft Teams admin center, go to the policy type page. For example, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
@@ -144,8 +147,6 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
 
 To change the ranking of a group assignment, you need to remove the group policy assignment first. Then, follow the steps above to assign the policy to a group.
-
-For more information on the policy assignment to groups using the Microsoft Teams admin center, refer [Group policy assignment](settings-policies-reference.md).
 
 This video shows the steps to create and assign a custom meeting policy to a group.
 
