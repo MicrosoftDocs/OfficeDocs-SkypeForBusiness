@@ -108,6 +108,8 @@ Note that we're not accepting new nominations for certification until further no
 
 \* **911 service providers**
 
+The following emergency services providers are certified and supported by Microsoft.  Microsoft reserves the right to reject support cases where a non-certified provider is used.
+
 - [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
