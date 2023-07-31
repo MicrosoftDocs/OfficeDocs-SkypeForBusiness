@@ -1,10 +1,11 @@
 ---
 title: "Plan Direct Routing"
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.reviewer: filippse
-ms.date: 07/11/2023
+ms.date: 07/31/2023
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -44,12 +45,12 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Callin
 
 - Your organization has an existing contract with a PSTN carrier.
 
-Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
+For more information about voice solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Audio Conferencing considerations](#audio-conferencing-considerations).
 
 
-
+Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
 
 ## Infrastructure requirements
 
@@ -78,18 +79,22 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 - Teams Phone 
 - Microsoft Teams + Skype for Business Plan 2, if included in licensing
-- Audio Conferencing. For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-considerations).
+- Audio Conferencing. For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-requirements-and-considerations).
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
 
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Microsoft Calling Plan considerations](#microsoft-calling-plan-considerations.md).
 
-### Audio Conferencing considerations
+### Audio Conferencing requirements and considerations
 
-The following describes requirements and considerations when using Direct Routing and Audio Conferencing.  
+This section describes requirements and considerations when using Direct Routing and Audio Conferencing.  
 
-> [!NOTE]
-> For GCC High and DoD G5 users, it is recommended that you disable the Audio Conferencing component included in G5 until Direct Routing has been fully configured and you have added Audio Conferencing numbers to your organization's tenant. For GCC High and DoD G3 users, it is recommended to not assign the Audio Conferencing license add-on until Direct Routing has been fully configured and you have added Audio Conferencing numbers to your organization's tenant. For more information, see [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md). 
+- **For GCC High and DoD G5 users**, Microsoft recommends that you disable the Audio Conferencing component included in G5 until you have fully configured Direct Routing, and you have added Audio Conferencing numbers to your organization's tenant. 
+
+- **For GCC High and DoD G3 users**, Microsoft recommends that you do not assign the Audio Conferencing license add-on until you have fully configured Direct Routing, and you have added Audio Conferencing numbers to your organization's tenant.
+
+ For more information, see [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md). 
 
 #### Ad hoc call escalation and Audio Conferencing license
 
