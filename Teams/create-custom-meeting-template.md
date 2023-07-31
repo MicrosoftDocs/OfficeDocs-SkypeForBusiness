@@ -83,7 +83,7 @@ Note that if you change the settings of an existing template, it will affect new
 |Setting|Description|
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
-|Who can record?|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
+|Who can record|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
 
 #### Roles
 
