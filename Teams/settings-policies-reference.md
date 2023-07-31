@@ -26,6 +26,14 @@ description: This reference describes each of the settings and policies availabl
 
 This reference describes each of the policies available in Microsoft Teams. Each section is broken down by the corresponding policy area in the Teams admin center, along with any PowerShell-only policies that may also exist.
 
+> [!IMPORTANT]
+> The Teams Powershell module and Teams admin center don't support the following policies for Group policy assignment.
+> - Teams App Permission Policy
+> - Teams Emergency Call Routing Policy
+> - Teams Network Roaming Policy 
+> - Teams Upgrade Policy
+> - Teams Voice Applications Policy
+
 ## Teams
 
 ### Teams settings
