@@ -51,7 +51,7 @@ To create a custom meeting template
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
 1. Select **Add**
 1. Type a name and description for the template. Note that the name and description will truncate after 40 characters when viewed in Teams, but the full name and description are viewable on hover.
-1. Choose the options that you want to use for this template. (See the sections below for descriptions of each options.)
+1. Choose the options that you want to use for this template. (See the sections below for descriptions of each option.)
 1. To prevent the meeting organizer from changing an option, select the option and then select **lock**.
 1. To prevent the meeting organizer from seeing an option, select the option and then select **Hide**.
 1. Select **Save**.
