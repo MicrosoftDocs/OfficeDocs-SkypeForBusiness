@@ -46,11 +46,11 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Apply a watermark to shared content|**On**|Label|Yes|
 |End-to-end encryption|**On**|Label|Yes|
 |Manage what attendees see|**On**|Template|Yes|
-|Meeting chat|**Only in meeting**|Template|Yes|
+|Meeting chat|**In-meeting only**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
-|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
 
@@ -75,8 +75,8 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Meeting chat|**Off**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
-|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
 
@@ -147,7 +147,7 @@ In the *highly sensitive* level of protection, we're configuring the following s
 - **Enable camera for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
 - **Enable mic for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
 - **Manage what attendees can see** - Enforced **On** for both meetings and presentations.
-- **Allow meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
+- **Meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
 
 Since these settings differ between meetings and presentations, we'll create one template for meetings and another for presentations. Both templates can use the sensitivity label that we create above.
 
