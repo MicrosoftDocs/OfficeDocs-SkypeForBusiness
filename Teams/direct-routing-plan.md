@@ -83,7 +83,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Microsoft Calling Plan considerations](#microsoft-calling-plan-considerations.md).
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Microsoft Calling Plan considerations](#microsoft-calling-plan-considerations).
 
 ### Audio Conferencing requirements and considerations
 
