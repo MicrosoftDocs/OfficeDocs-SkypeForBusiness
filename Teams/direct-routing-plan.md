@@ -47,8 +47,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Callin
 
 For more information about voice solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Audio Conferencing considerations](#audio-conferencing-considerations).
-
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
 
 Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
 
@@ -373,7 +372,5 @@ Microsoft only supports Teams Phone with Direct Routing when used with certified
 ## See also
 
 - [Configure Direct Routing](direct-routing-configure.md)
-
 - [Diagnose issues with Direct Routing](/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues.md)
-
 - Video session: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
