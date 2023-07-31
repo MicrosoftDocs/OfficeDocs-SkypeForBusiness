@@ -99,6 +99,8 @@ items:
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk deploy the new Teams client
                   href: new-teams-bulk-install-client.md
+                - name: Deploy the new Teams with Microsoft 365 Apps
+                  href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues          
@@ -619,6 +621,8 @@ items:
           items: 
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
+            - name: Manage email communications
+              href: manage-email-communications.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Get a meeting attendance report
