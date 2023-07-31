@@ -40,8 +40,8 @@ The following table describes which actions we'll restrict for sensitive meeting
 |Meeting chat|**On**|Template|No|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|No|
-|Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**Only people who were invited**|Label|Yes|
+|Record meetings automatically|**Off**|Template|No|
+|Who can bypass the lobby?|**Only people who were invited**|Label|Yes|
 |Who can present|**People in my organization and guests**|Label|Yes|
 |Who can record|**Organizer and co-organizers**|Label|Yes|
 
@@ -81,10 +81,10 @@ To create a sensitivity label
 1. Select **Next**.
 1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
 1. On the **Settings for Teams meetings and chats** page, choose the following values:
-    1. Select **Who can bypass the lobby** and choose **People who were invited** from the dropdown list.
+    1. Select **Control who can bypass the lobby** and choose **People who were invited** from the dropdown list.
     1. Clear the **People dialing in can bypass the lobby** check box.
-    1. Select **Who can present** and choose **People in my organization and guests** from the dropdown list.
-    1. Select **Who can record** and choose **Only organizers and co-organizers** from the dropdown list.
+    1. Select **Control who can present** and choose **People in my organization and guests** from the dropdown list.
+    1. Select **Control who can record** and choose **Only organizers and co-organizers** from the dropdown list.
     1. Configure any other settings that you need for your organization.
     ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-sensitive-small.png)
 1. Select **Next**.
