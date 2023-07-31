@@ -125,7 +125,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 
 ## Related topics
 
-- [Manage the registration form for webinars](manage-the-registration-form-for-webinars.md)
+- [Manage the registration form for webinars](manage-registration-form-webinars.md)
 - [Manage email communications for webinars](manage-email-communications.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
