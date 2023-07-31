@@ -628,7 +628,7 @@ items:
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
             - name: Manage the registration form for webinars
-              href: manage-the-registration-form-for-webinars.md
+              href: manage-registration-form-webinars.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
