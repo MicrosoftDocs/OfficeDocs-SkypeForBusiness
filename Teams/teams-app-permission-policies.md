@@ -36,7 +36,7 @@ Teams admin center lets you create two types of permissions policies:
 * **Global (Org-wide default)** policy exists by default and applies to all users. Any changes made to this policy impact all users as this policy is applied to all users by default.
 * An admin-created policy applies only to the users that it's applied to. Create a new policy to allow apps for specific users or group of users.
 
-   :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created." lightbox="media/app-permission-policy.png":::
+   :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created.":::
 
 If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft 365 admin center are reflected in **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. If you're new to Teams and just getting started, by default, all apps are allowed in the org-wide global setting. It includes apps published by Microsoft, third-party software providers, and your organization.
 

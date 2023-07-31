@@ -36,7 +36,7 @@ The app permission policies apply to all the [types of apps available in Teams](
 * Gradually roll out an app to some users initially and to all users eventually.
 * Allow a custom app for recruiting and talent management for only members of your HR department and block it for all other organization users.
 
-:::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot of app permission policy." lightbox="media/app-permission-policy.png":::
+:::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot of app permission policy.":::
 
 To learn more, see [how to manage app permission policies](teams-app-permission-policies.md).
 
