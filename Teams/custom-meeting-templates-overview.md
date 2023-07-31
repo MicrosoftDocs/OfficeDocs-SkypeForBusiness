@@ -27,7 +27,7 @@ description: Learn about custom meeting templates in Microsoft Teams Premium.
 
 Meeting templates can be used to enforce settings or to set defaults. Each template setting can be locked so the meeting organizer can't change it, or can be left unlocked for the meeting organizer to change if needed.
 
-The following meeting settings can be controlled by using a meeting template:
+The following meeting organizer settings can be controlled by using a meeting template:
 
 |Setting|Description|
 |:------|:----------|
