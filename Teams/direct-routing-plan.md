@@ -1,7 +1,6 @@
 ---
 title: "Plan Direct Routing"
 ms.author: crowe
-author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: filippse
@@ -29,6 +28,8 @@ Direct Routing lets you connect a supported, customer-provided Session Border Co
 
 ![Diagram showing configuration of on-premises PSTN connectivity.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams")
 
+Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity. Be sure to read this article before you start your configuration, which is described in [Configure Direct Routing](direct-routing-configure.md).
+
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party PSTN equipment. Direct Routing enables you to: 
 
 - Use virtually any PSTN trunk with Teams Phone. 
@@ -45,9 +46,9 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Callin
 
 Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
 
-Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity. 
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Audio Conferencing considerations](#audio-conferencing-considerations).
 
-For detailed information about configuring Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
+
 
 
 ## Infrastructure requirements
@@ -76,17 +77,45 @@ Firewall IP addresses and ports for Microsoft Teams media |For more information,
 Direct Routing users must have the following licenses assigned in Microsoft 365: 
 
 - Teams Phone 
-
 - Microsoft Teams + Skype for Business Plan 2, if included in licensing
-
-- Audio Conferencing (optional). For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-considerations).
-
-**IS AN AUDIO CONFERENCING LICENSE OPTIONAL?  INFO WAS CONTRADICTORY.**
+- Audio Conferencing. For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-considerations).
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
-> 
-> 
+
+
+### Audio Conferencing considerations
+
+The following describes requirements and considerations when using Direct Routing and Audio Conferencing.  
+
+> [!NOTE]
+> For GCC High and DoD G5 users, it is recommended that you disable the Audio Conferencing component included in G5 until Direct Routing has been fully configured and you have added Audio Conferencing numbers to your organization's tenant. For GCC High and DoD G3 users, it is recommended to not assign the Audio Conferencing license add-on until Direct Routing has been fully configured and you have added Audio Conferencing numbers to your organization's tenant. For more information, see [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md). 
+
+#### Ad hoc call escalation and Audio Conferencing license
+
+A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add a PSTN participant to it. The path that the call takes depends on whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not:
+
+- **If the Teams user who escalates the call has a Microsoft Audio Conferencing license assigned**, the escalation happens through the Microsoft Audio Conferencing service. The remote PSTN participant who is invited to the existing call receives a notification about the incoming call, and sees the number of the Microsoft bridge assigned to the Teams user who initiated the escalation.
+
+- **If the Teams user who escalates the call does not have the Microsoft Audio Conferencing license assigned**, the escalation happens through a Session Border Controller connected to the Direct Routing interface. The remote PSTN participant who is invited to the call receives a notification about the incoming call and sees the number of the Teams user who initiated the escalation. The specific SBC used for the escalation is defined by the routing policy of the user. 
+
+You must ensure the following:
+ 
+- CsOnlineVoiceRoutingPolicy is assigned to the user.
+
+- Allow Private Calling is enabled at the tenant level for Microsoft Teams. 
+
+
+
+### Microsoft Calling Plan considerations
+
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
+
+Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan. Calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
+
+For more information about Teams Phone licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+
 ## Supported end points
 
 You can use the following as an end point:
@@ -94,9 +123,6 @@ You can use the following as an end point:
 - Any Teams client.
 
 - Common area phones.  You don't need a Calling Plan license when setting up a common area phone with Direct Routing. For more information, see [Set up common area phones for Microsoft Teams](./set-up-common-area-phones.md).
-
-- Skype for Business 3PIP phones. 
-**ARE 3PIP PHONES STILL SUPPORTED?**
 
 ## SBC domain names
 
@@ -195,6 +221,8 @@ The FQDNs sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhu
 - 52.122.0.0/15
   
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
+
+Note: Inbound SIP traffic to the SBCs from Teams SIP endpoints can originate from any IPs in these subnets--not only from IPs that resolve from the previously mentioned FQDNs. For more information on how to set up SIP peering to do this, see your SBC documentation. 
 
 #### Office GCC DoD environment
 
@@ -317,47 +345,11 @@ On the leg between the Cloud media processor and the Teams client, either SILK o
 > [!NOTE]
 > Media re-targeting isn't supported. During a Direct Routing call, if the SBC sends a new media IP to Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from  Direct Routing.
 
-## Microsoft Calling Plan considerations
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan. Calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
 
-For more information about Teams Phone licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-## Audio Conferencing considerations
 
-**PLEASE REVIEW CAREFULLY.  DO WE NEED TO LOOP IN OSCAR RUIZ GARCIA?**
-
-**NOTE TO REVIEWERS: AUDIO CONFERENCING INFO WAS INTERSPERSED THROUGHOUT THIS ARTICLE.  IT WAS CONFUSING.  I SOMETIMES COULDN'T TELL IF THE INFO WAS SPECIFIC ONLY TO GOVERMENT CLOUDS. AND SOME INFO SEEMED CONTRADICTORY. I THINK IT'S BEST TO GROUP ALL AUDIO CONFERENCING INFO IN ONE SECTION, WHICH IS WHAT I'VE DONE HERE.  AND, IF THIS INFO IS SPECIFIC TO GOVT CLOUDS, MAYBE WE JUST SAY THERE ARE SPECIFIC REQUIREMENTS FOR USING DIRECT ROUTING AND AC IN GOVT CLOUDS, AND THEN LINK TO THIS ARTICLE:  [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).**  Thoughts?
-
-The following describes requirements and considerations when using Direct Routing and Audio Conferencing.  
-
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. If a user doesn't have an Audio Conferencing license, the call routes through Direct Routing. 
-
-If you want to add external participants to scheduled meetings, either by dialing out to them or by providing the dial-in number, the Audio Conferencing license is required.
-
-A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add a PSTN participant to it. The path that the call takes depends on whether the user who escalates the call has a Microsoft Audio Conferencing license assigned or not:
-
-- **If the Teams user who escalates the call has a Microsoft Audio Conferencing license assigned**, the escalation happens through the Microsoft Audio Conferencing service. The remote PSTN participant who is invited to the existing call receives a notification about the incoming call, and sees the number of the Microsoft bridge assigned to the Teams user who initiated the escalation.
-
-- **If the Teams user who escalates the call does not have the Microsoft Audio Conferencing license assigned**, the escalation happens through a Session Border Controller connected to the Direct Routing interface. The remote PSTN participant who is invited to the call receives a notification about the incoming call and sees the number of the Teams user who initiated the escalation. The specific SBC used for the escalation is defined by the routing policy of the user. 
-
-You must ensure the following:
- 
-- CsOnlineVoiceRoutingPolicy is assigned to the user.
-
-- Allow Private Calling is enabled at the tenant level for Microsoft Teams.
-
-### Government environments
-
-For government environments, be aware of the following important requirements.  For more information, see [Audio Conferencing with Direct Routing for GCC High and DoD](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md).
-
-**ARE THE FOLLOWING TWO ITEMS CONTRADICTORY? CAN YOU ASSIGN AN AUDIO CONFERENCING LICENSE TO A G5 USER? SEE FIRST SENTENCE OF SECOND BULLET...**
-
-- GCC High and DoD users should disable any Audio Conferencing licensing included in G5 and wait to enable any Audio Conferencing until Direct Routing has been fully configured. Users should have dial-in phone numbers configured and a working dial pad before enabling Audio Conferencing licenses. 
-
-- For GCC High and DoD, do not assign an Audio Conferencing license for G5 users. For G3 users, do not assign an Audio Conferencing license until Direct Routing is fully configured and the user has a working dial pad.
 
 
 
@@ -376,5 +368,7 @@ Microsoft only supports Teams Phone with Direct Routing when used with certified
 ## See also
 
 - [Configure Direct Routing](direct-routing-configure.md)
+
+- [Diagnose issues with Direct Routing](/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues.md)
 
 - Video session: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
