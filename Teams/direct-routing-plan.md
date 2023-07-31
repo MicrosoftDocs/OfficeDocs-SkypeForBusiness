@@ -39,7 +39,7 @@ With Direct Routing, you can connect your SBC to almost any telephony trunk or i
 
 Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Calling Plan. However, Direct Routing might be best for your organization if: 
 
-- Microsoft Calling Plan is not available in your country/region. 
+- Microsoft Calling Plan isn't available in your country/region. 
 
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
 
@@ -47,7 +47,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Callin
 
 For more information about voice solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user doesn't have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
 
 Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
 
@@ -78,7 +78,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 - Teams Phone 
 - Microsoft Teams + Skype for Business Plan 2, if included in licensing
-- Audio Conferencing. For information about when an Audio Conferencing licenese is required, see [Audio Conferencing considerations](#audio-conferencing-requirements-and-considerations).
+- Audio Conferencing. For information about when an Audio Conferencing license is required, see [Audio Conferencing considerations](#audio-conferencing-requirements-and-considerations).
 
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
@@ -143,7 +143,7 @@ Assume you want to use a new domain name. For example, your tenant has contoso.c
 
 Before you can pair an SBC with the name sbc1.sip.contoso.com, you must register the domain name sip.contoso.com in Domains in your tenant. If you try pairing an SBC with sbc1.sip.contoso.com before registering the domain name, you'll get the following error: "Can't use the "sbc1.sip.contoso.com" domain as it wasn't configured for this tenant."
 
-After you add the domain name, you need to create a user with UPN user@sip.contoso.com and assign a Teams license. To fully provision the domain name after it's added to Domains of your tenant, to create a user with a new name, and to assign a license to the user may take up to 24 hours.
+After you add the domain name, you need to create a user with UPN user@sip.contoso.com and assign a Teams license. It may take up to 24 hours to fully provision the domain name after it's added to Domains of your tenant, to create a user with a new name, and to assign a license to the user.
 
 It's possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
 
@@ -349,14 +349,6 @@ On the leg between the Cloud media processor and the Teams client, either SILK o
 > [!NOTE]
 > Media re-targeting isn't supported. During a Direct Routing call, if the SBC sends a new media IP to Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from  Direct Routing.
 
-
-
-
-
-
-
-
-
 ## Supported Session Border Controllers (SBCs)
 
 Microsoft only supports certified SBCs to pair with Direct Routing. Because Enterprise Voice is critical for businesses, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible.
@@ -367,7 +359,7 @@ For more information about supported SBCs, see [Session Border Controllers certi
 
 ## Support boundaries
 
-Microsoft only supports Teams Phone with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft through internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
+Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft through internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer needs to re-engage the SBC vendor for support.
 
 ## See also
 
