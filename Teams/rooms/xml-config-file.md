@@ -49,10 +49,10 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 ```XML
 <SkypeSettings>
   <AutoScreenShare>1</AutoScreenShare>
-  <HideMeetingName>1</HideMeetingName>
+  <HideMeetingName>0</HideMeetingName>
   <AutoExitMeetingEnabled>true</AutoExitMeetingEnabled>
-  <AudioRenderDefaultDeviceVolume>70</AudioRenderDefaultDeviceVolume>
-  <AudioRenderCommunicationDeviceVolume>30</AudioRenderCommunicationDeviceVolume>
+  <AudioRenderDefaultDeviceVolume>50</AudioRenderDefaultDeviceVolume>
+  <AudioRenderCommunicationDeviceVolume>50</AudioRenderCommunicationDeviceVolume>
   <UserAccount>
     <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
     <ExchangeAddress>username@microsoft.com</ExchangeAddress>
@@ -62,20 +62,21 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <ModernAuthEnabled>true</ModernAuthEnabled>
   </UserAccount>
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
-  <SfbMeetingEnabled>true</SfbMeetingEnabled>
+  <SfbMeetingEnabled>false</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
   <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
+  <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
   <CustomDisplayEmailForThirdPartyMeetings>guest@microsoft.com</CustomDisplayEmailForThirdPartyMeetings>
-  <BluetoothAdvertisementEnabled>false</BluetoothAdvertisementEnabled>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
   <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
   <CortanaWakewordEnabled>true</CortanaWakewordEnabled>
   <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
-  <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
   <EnableRoomCapacityNotification>true</EnableRoomCapacityNotification>
   <FrontRowEnabled>true</FrontRowEnabled>
   <FrontRowVideoSize>medium</FrontRowVideoSize>
@@ -87,7 +88,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
-    <SendLogsAndFeedback>True</SendLogsAndFeedback>
+    <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
   <Devices>
     <MicrophoneForCommunication>Device1</MicrophoneForCommunication>
@@ -149,6 +150,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
 | `<WebExMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings. |
 | `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for Zoom meetings. |
+| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for BlueJeans meetings. |
 | `<UseCustomInfoForThirdPartyMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both `<CustomDisplayNameForThirdPartyMeetings>`, `<CustomDisplayEmailForThirdPartyMeetings>` must be specified. |
 | `<CustomDisplayNameForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<CustomDisplayEmailForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
