@@ -3,7 +3,7 @@ title: Shared channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: arundas
+ms.reviewer: jasonlewis
 ms.date: 05/30/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -213,3 +213,5 @@ The following apps are supported for use in shared channels.
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
 [Private channels in Microsoft Teams](/microsoftteams/private-channels)
+
+[Shared channels in Microsoft Teams - Microsoft Mechanics](https://youtu.be/rE_QTfkOtnc)

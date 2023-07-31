@@ -35,7 +35,7 @@ The following list shows the Android device firmware requirements.
 
 |Device category|Device model|Firmware version|
 |---|---|---|
-|Teams phones|Yealink T55/T56/T58|58.15.0.124|
+|Teams phones|Yealink T55A/T56A/T58A|58.15.0.124|
 |Teams phones|Yealink VP59|91.15.0.58|
 |Teams phones|Yealink CP960|73.15.0.117|
 |Teams phones|Yealink MP56/MP54/MP58|122.15.0.36|
