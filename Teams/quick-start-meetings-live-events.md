@@ -123,7 +123,7 @@ The following table highlights key articles that you'll want to review:
 |----------|--------|
 | [Set up webinars](set-up-webinars.md)  | An article that describes how to allow your users to create webinars. |
 | [Manage email communications for webinars](manage-email-communications.md) | An article that describes how to manage whether organizers and co-organizers can use email templates for their webinars.|
-| [Manage the registration form for webinars](manage-the-registration-form-for-webinars.md) | An article that describes how to manage the types of questions an organizer can require attendees to answer when registering for webinars. |
+| [Manage the registration form for webinars](manage-registration-form-webinars.md) | An article that describes how to manage the types of questions an organizer can require attendees to answer when registering for webinars. |
 | [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their webinars, whether participants can opt-out, and what information is in the attendance summary. |
 
 ### Key training for end users
