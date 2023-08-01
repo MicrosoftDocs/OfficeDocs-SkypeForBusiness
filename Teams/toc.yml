@@ -580,6 +580,8 @@ items:
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
+        - name: Channel policies
+          href: teams-policies.md
 
     - name: Templates
       items:
@@ -1671,12 +1673,10 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
+        - name: Publish and manage custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish custom apps submitted as a package
-          href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
