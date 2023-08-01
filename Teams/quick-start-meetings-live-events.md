@@ -77,7 +77,7 @@ The following table highlights key articles that you'll want to review:
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 | [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users.|
 | [Set up meeting registration](set-up-meeting-registration.md)  | Describes how to allow your users to create meetings with registration. |
-| [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their meetings, whether participants can opt-out, and what information is in the attendance summary. |
+| [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their meetings, whether participants can opt out, and what information is in the attendance summary. |
 
 ### Key training for end users
 
@@ -124,7 +124,7 @@ The following table highlights key articles that you'll want to review:
 | [Set up webinars](set-up-webinars.md)  | An article that describes how to allow your users to create webinars. |
 | [Manage email communications for webinars](manage-email-communications.md) | An article that describes how to manage whether organizers and co-organizers can use email templates for their webinars.|
 | [Manage the registration form for webinars](manage-registration-form-webinars.md) | An article that describes how to manage the types of questions an organizer can require attendees to answer when registering for webinars. |
-| [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their webinars, whether participants can opt-out, and what information is in the attendance summary. |
+| [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their webinars, whether participants can opt out, and what information is in the attendance summary. |
 
 ### Key training for end users
 
