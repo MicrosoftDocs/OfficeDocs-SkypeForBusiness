@@ -68,9 +68,9 @@ Note that we're not accepting new nominations for certification until further no
 |[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5400|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
 ||SBC 7000|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
 ||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
-||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
+||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
+||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
 ||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
