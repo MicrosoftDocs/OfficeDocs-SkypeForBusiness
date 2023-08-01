@@ -18,7 +18,7 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Learn about which Session Border Controllers (SBCs) have been certified for Direct Routing.
+description: Learn about which Session Border Controllers (SBCs) have been certified for Microsoft Direct Routing.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -46,7 +46,7 @@ Microsoft works with each vendor to:
 
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
-For more information about Direct Routing, see [Plan Direct Routing](direct-routing-plan.md).   .
+For more information about Direct Routing, see [Plan Direct Routing](direct-routing-plan.md).  
 
 Note that we're not accepting new nominations for certification until further notice.
 
