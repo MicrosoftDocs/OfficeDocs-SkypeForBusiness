@@ -77,13 +77,13 @@ These fields can come from the customer SBC(s). There are three formats that the
 
 #### Phone number obfuscation
 
-Per-country privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
+Per-country/region privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
 
 For incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN call logs available via Microsoft Graph. Phone number obfuscation rules in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
 
-The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
+The obfuscation is based on the organization's location (country/region). Full phone numbers are shown for the countries/regions that are not listed in the following table:
 
-| Country | Number of obfuscation digits |
+| Country/Region | Number of obfuscation digits |
 | :---: | :--- |
 |BE – Belgium | 3 |
 |CH – Switzerland | 4 |
@@ -149,7 +149,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
 ### Exported PSTN usage report
 
- You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
+ You can export data up to one year from the current date unless country/region-specific regulations prohibit retention of the data for 12 months.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
@@ -181,7 +181,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
 ### Exported Direct Routing usage report
 
-You can export data up to five months (150 days) from the current date unless country-specific regulations prohibit retention of the data for that period.
+You can export data up to five months (150 days) from the current date unless country/region-specific regulations prohibit retention of the data for that period.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |

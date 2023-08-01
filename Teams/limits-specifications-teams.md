@@ -118,8 +118,8 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 > [!NOTE]
 > There is a throttling limit on how many emails you can send to a channel. The limit is six emails per ten seconds per channel per user and eight emails per ten seconds per tenant per user.
-<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
+<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.<br/>
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
@@ -143,7 +143,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300).|
+|Number of people in a meeting (can chat and call in)  | With Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, and Microsoft 365 A1 plans, you can host online meetings and video calls for up to 300 people using Microsoft Teams. With Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans, this limit increases up to 1,000 people.|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](meeting-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
@@ -247,7 +247,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 
 |Feature  |Maximum limit  |
 |---------|---------|
-|Number of tags per team    | 100        |
+|Number of tags per team    | 200        |
 |Number of suggested default tags per team    | 25        |
 |Number of team members assigned to a tag    |200         |
 |Number of tags assigned to a user per team    |25         |

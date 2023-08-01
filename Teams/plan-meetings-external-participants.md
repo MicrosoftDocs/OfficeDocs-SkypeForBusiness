@@ -1,5 +1,5 @@
 ---
-ms.date: 03/07/2023
+ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -71,11 +71,25 @@ If [anonymous meeting join](anonymous-users-in-meetings.md) is turned off, anony
 
 For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
+### Meetings with Microsoft 365 organizations in other clouds
+
+Cross-cloud meetings are supported as follows:
+
+|Meet with:|Commercial|GCC|GCC High|DoD|China|
+|:---------|:--------:|:-:|:------:|:-:|:---:|
+|Commercial|          |✔️|✔️      |✔️ |✔️  |  
+|GCC       |✔️       |   |✔️      |✔️ |✔️  |  
+|GCC High  |✔️       |✔️|         |✔️ |     |  
+|DoD       |✔️       |✔️|✔️      |    |     |  
+|China     |✔️       |✔️|         |    |     |  
+
+[Meet with people in other Microsoft 365 clouds](cross-cloud-meetings.md)
+
 ## Meetings with anonymous participants
 
 Any participant attempting to join a Teams meeting who can't be verified will be considered anonymous. Anonymous meeting access is turned on by default. If your compliance requirements or business rules require that all meeting participants be verified, you can turn anonymous access off for certain meeting organizers or for everyone.
 
-For details about configuring anonymous meeting access, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
+For details about configuring anonymous meeting access, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md) and [Manage chat in Teams meetings](manage-meeting-chat.md).
 
 ## Dial-in users
 

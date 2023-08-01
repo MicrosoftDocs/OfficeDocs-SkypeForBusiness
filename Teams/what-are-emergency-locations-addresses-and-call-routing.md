@@ -57,7 +57,7 @@ If you define an emergency address by using the address map search feature in th
 
 ### Emergency address geo codes
 
-Each emergency address can have a geo code (latitude and longitude) associated with it. These geo codes are used in some countries to assist in routing emergency calls with dynamic locations.
+Each emergency address can have a geo code (latitude and longitude) associated with it. These geo codes are used in some countries/regions to assist in routing emergency calls with dynamic locations.
 
 If you define an emergency address by using the address map search feature in the Teams admin center, the geo code is automatically associated with an emergency address. You can also associate geo codes with an address if you define the address by using PowerShell.
 
@@ -72,7 +72,7 @@ Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams P
 
 ## Emergency call routing
 
-Emergency call routing determines how an emergency call is routed to the Public Safety Answering Point (PSAP). Call routing depends on several factors including the emergency calling network of the country in which the call originates and which [PSTN connectivity option](pstn-connectivity.md) you’ve chosen. For example, Direct Routing requires configuring [specific call routing polices](manage-emergency-call-routing-policies.md). With other PSTN connectivity options, the carrier handles a lot of the configuration for call routing.
+Emergency call routing determines how an emergency call is routed to the Public Safety Answering Point (PSAP). Call routing depends on several factors including the emergency calling network of the country/region in which the call originates and which [PSTN connectivity option](pstn-connectivity.md) you’ve chosen. For example, Direct Routing requires configuring [specific call routing polices](manage-emergency-call-routing-policies.md). With other PSTN connectivity options, the carrier handles a lot of the configuration for call routing.
 
 ## Security desk notification
 

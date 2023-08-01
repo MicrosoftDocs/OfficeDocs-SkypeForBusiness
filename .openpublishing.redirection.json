@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/upload-custom-apps.md",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/manage-third-party-teams-apps.md",
       "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
       "redirect_document_id": false
@@ -217,7 +222,7 @@
     },
     {
       "source_path": "Teams/manage-your-custom-apps.md",
-      "redirect_url": "/microsoftteams/upload-custom-apps",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": true
     },
     {
