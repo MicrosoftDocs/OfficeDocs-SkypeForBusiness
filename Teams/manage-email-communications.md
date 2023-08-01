@@ -43,8 +43,8 @@ The following table shows the behaviors of the settings for the **`-AllowEmailEd
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| **This is the default value.** Event organizers and co-organizers can edit all email templates for their webinars.|
-|Disabled| Event organizers and co-organizers can’t edit any email templates.|
+|Enabled| **This is the default value.** Webinar organizers and co-organizers can edit all email templates for their webinars.|
+|Disabled| Webinar organizers and co-organizers can’t edit any email templates.|
 
 The following example turns off **`-AllowEmailEditing`** so organizers and co-organizers can’t edit any email templates:
 
