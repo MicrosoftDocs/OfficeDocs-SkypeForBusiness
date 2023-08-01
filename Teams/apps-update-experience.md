@@ -1,5 +1,5 @@
 ---
-title: Apps update experience in Microsoft Teams
+title: Microsoft Teams apps update experience and admin role
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how Teams apps get updated to a newer version and how admins can consent to app updates.
+description: Learn how third-party and custom apps get updated in Teams to a newer version and how admins can control the app updates.
 ---
 
 # Role of an admin to upgrade Teams apps to a newer version
@@ -48,7 +48,7 @@ When creating the new version of an app, the developer can change the above valu
 Teams simplifies the app update experience for its users by requiring their consent for new app versions only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in each context.
 
 > [!NOTE]
-> When any of the above mentioned changes are done in a version of an app, then you as an admin can't consent on behalf of the users. After such changes, to update their app, users must individually provide their consent. However, the users can provide their own consent only if Azure Active Directory admin [allows users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
+> When any of the above mentioned changes are done in a version of an app, then you as an admin can't consent on behalf of the users. After such changes, to update their app, users must individually provide their consent. Users can provide their own consent only if Azure Active Directory admin [allows users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
 
 ## Contexts in which apps upgrade
 
