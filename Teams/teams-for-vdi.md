@@ -5,7 +5,7 @@ ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jmorrow
+ms.reviewer: amitsri
 ms.date: 03/21/2019
 audience: admin
 description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
@@ -37,17 +37,17 @@ Using Teams in a virtualized environment might be somewhat different from using 
 
 To ensure an optimal user experience, follow the guidance in this article.
 
-> [!Note]
+> [!NOTE]
 > For details about Teams VDI on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Teams on VDI components
 
 Using Teams in a virtualized environment requires the following components.
 
-- **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure
-- **Virtual desktop**: The Virtual Machine (VM) stack that runs Teams
-- **Thin client**: The device that the user physically interfaces with
-- **Teams desktop app**: The Teams desktop client app
+- **Virtualization broker**: The resource and connection manager to the virtualization provider, such as Azure.
+- **Virtual desktop**: The Virtual Machine (VM) stack that runs Teams.
+- **Thin client**: The device that the user physically interfaces with.
+- **Teams desktop app**: The Teams desktop client app.
 
 ## Teams on VDI requirements
 
@@ -106,7 +106,7 @@ For most VDI deployments, we recommend you deploy Teams using per-machine instal
 
 For Teams AV optimization in VDI environments to work properly, the thin-client device must have access to the internet. If internet access isn't available at the thin-client device, optimization startup won't be successful. This means that the user is in a non-optimized media state.
 
-#### Dedicated persistent setup
+### Dedicated persistent setup
 
 In a dedicated persistent setup, users' local operating system changes are retained after users log off. For persistent setup, Teams supports both per-user and per-machine installation.
 
@@ -191,7 +191,7 @@ This process is the default installation, which installs Teams to the `%AppData%
 reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
    ```
 
-This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
+This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance. Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
 
    ```console
 msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -217,6 +217,7 @@ It's important to understand the difference between `ALLUSERS=1` and `ALLUSER=1`
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
 This process uninstalls Teams from the `%ProgramFiles(x86)%` folder or `%ProgramFiles%` folder, depending on the operating system environment.
 
 ## Teams on VDI performance considerations
@@ -226,8 +227,8 @@ There are a variety of virtualized setup configurations, each with a different f
 - **Minimum requirement**: Some workloads might require a setup using resources that are above the minimum requirements. For example, workloads for developers who use applications that demand more computing resources.
 - **Dependencies**: These include dependencies on infrastructure, workload, and other environmental considerations outside the Teams desktop app.
 - **Disabled features on VDI**: Teams disables GPU-intensive features for VDI, which can help improve transient CPU utilization. The following features are disabled:
-    - Teams CSS animation
-    - Giphy auto-start
+  - Teams CSS animation
+  - Giphy auto-start
 
 ## Teams on VDI with calling and meetings
 
@@ -480,11 +481,13 @@ if($cleanup){
 ### Client deployment, installation, and setup
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
-- In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user being in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Desktops to avoid this scenario. This behavior is fixed in Teams 1.6.00.4472.
+- In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user being in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Desktops to avoid this scenario. This behavior is fixed in Teams 1.6.00.12455.
+
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
 - Azure Virtual Desktop doesn't support Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 - Teams presence functions within VDI Teams client but does not resolve in Outlook.
+- When sharing the screen, the sharing toolbar is pinned to the top of the screen and cannot be unpinned.
 
 ### Notifications
 
@@ -539,7 +542,6 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- - [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
-
+- [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
 
 

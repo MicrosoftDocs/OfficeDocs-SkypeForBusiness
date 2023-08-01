@@ -28,8 +28,7 @@ Resource accounts that only have user licenses or Microsoft Teams Shared Device 
 - Microsoft Teams Rooms Standard (legacy)
 - Microsoft Teams Rooms Premium (legacy)
 
-> [!IMPORTANT]
-> Teams Rooms devices logged in with resource accounts that don't have one of the above supported Teams Rooms licenses assigned to them won't be able to sign in after July 1, 2023. To ensure your Teams Rooms devices can continue to sign in after July 1, 2023, use the information in this article to make sure they have a supported Teams Rooms license.
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 You have a couple of options for checking whether the resource accounts signed into your Teams Rooms devices have a Teams Rooms license. If you only have a couple Teams Rooms devices, use the steps in [Check the license of a few Teams Rooms devices](#check-the-license-of-a-couple-teams-rooms-devices). If you have more than a few Teams Rooms devices, use the steps in [Check the license of multiple Microsoft Teams Rooms devices](#check-the-license-of-multiple-microsoft-teams-rooms-devices).
 
@@ -264,7 +263,7 @@ $Report = [System.Collections.Generic.List[Object]]::new()
  
  
  
-$Room_UPNs = Get-ExoMailbox -Filter {recipientTypeDetails -eq "RoomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
+$Room_UPNs = Get-ExoMailbox -Filter {recipientTypeDetails -eq "RoomMailbox" } -ResultSize unlimited | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
  
 Write-Host $Room_UPNs.Length " were found." -ForegroundColor Green
  
