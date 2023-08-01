@@ -59,7 +59,7 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 - **PSTN conferencing support** - Ability to use the Operator Connect Conferencing for India service to support ad hoc and call queue conferences.
 
-## Requirements
+## Licensing and requirements
 
 To enable phone number assignments with Operator Connect for India, make sure your users are:
 
