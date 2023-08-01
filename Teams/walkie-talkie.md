@@ -163,7 +163,7 @@ Walkie Talkie customer data for tenants in the European Union Data Boundary (EUD
 
 ### To be considered a tenant in the EUDB:
 
-The tenant must have a _default geography_ in a EUDB country or select a country in EUDB country as their residence during sign-up.
+The tenant must have a _default geography_ in a EUDB country/region or select a country/region in EUDB country/region as their residence during sign-up.
 
 ### How can I determine customer data location?
 
