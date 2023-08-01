@@ -5,7 +5,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 audience: ITPro
-ms.date: 09/20/2018
+ms.date: 08/01/2023
 ms.topic: conceptual
 ms.service: msteams
 description: Describes Cloud Auto attendants and Call queues, and explains how you can answer these calls in Teams.
