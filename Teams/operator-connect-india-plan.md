@@ -37,7 +37,7 @@ With Operator Connect for India:
 
 - **ADD SOMETHING ABOUT OSP SUPPORT.**
 
-- If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md).  The configuration article describes how to collaborate with your carrier, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
+- If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md). The configuration article describes how to collaborate with your carrier, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
 
 For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
@@ -53,7 +53,11 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
 
-- **Ability to assign mobile numbers to Teams users.** 
+- **Ability to assign mobile numbers to Teams users.** Your users are able to make PSTN calls from anywhere in India.
+
+- **Ability to assign wired numbers to Teams users.** For more information, see Plan and Configure Location-Based Routing for India.
+
+- **PSTN conferencing support** - Ability to use the Operator Connect Conferencing for India service to support ad hoc and call queue conferences.
 
 ## Requirements
 
@@ -66,8 +70,8 @@ To enable phone number assignments with Operator Connect for India, make sure yo
 
 - In TeamsOnly mode. Note that the user needs to be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-For a list of operators participating in the Microsoft Operator Connect Program and the countries or regions where their service is available, see the [Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 ## Support boundaries
+
 For technical support, please contact the customer support of your Operator Connect operator first. If needed, Operator Connect operators can escalate your support case directly to Microsoft engineering through shared support channels. 
 
