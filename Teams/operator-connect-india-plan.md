@@ -25,25 +25,21 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan for Operator Connect for India
+# Plan Operator Connect for India
 
-Operator Connect for India is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. Operator Connect for India addresses the telephony regulatory issues specific to Phone System deployment in India.  
+Operator Connect for India is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams Phone. Operator Connect for India addresses the telephony regulatory issues specific to India.  
+
+This article describes benefits and requirements. For a list of operators participating in the Microsoft Operator Connect Program and the countries or regions where their service is available, see the [Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+
+With Operator Connect for India:
+
+- Teams Phone and the required licenses are provided by your carrier.
+
+- **ADD SOMETHING ABOUT OSP SUPPORT.**
+
+- If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md).  The configuration article describes how to collaborate with your carrier, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
 
 For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
-
-**SHOULD WE LINK TO PSTN CONNECTIVITY OPTIONS? OR IS IT MOOT FOR INDIA -- WE WANT TO PUSH THEM TO USE OC INDIA?**
-
-This article describes benefits and requirements, and provides a link to the operators participating in the Microsoft Operator Connect Program.  
-
-Operator Connect for India might be the right solution for your organization if:
-
-- Your preferred operator is a participant in the Microsoft Operator Connect Program.
-
-- You want to find a new operator to enable calling in Teams.
-
-- **ANYTHING ELSE?**
-
-If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md).  
 
 ## Benefits
 
@@ -56,6 +52,8 @@ With Operator Connect for India, if your existing operator is a participant in t
 - **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams admin center.
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
+
+- **Ability to assign mobile numbers to Teams users.** 
 
 ## Requirements
 
