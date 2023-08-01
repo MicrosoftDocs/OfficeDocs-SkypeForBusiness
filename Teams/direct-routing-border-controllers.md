@@ -2,7 +2,7 @@
 title: "Session Border Controllers certified for Direct Routing"
 ms.author: crowe
 ms.reviewer: FilippSe
-ms.date: 06/26/2018
+ms.date: 07/31/2023
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -46,7 +46,7 @@ Microsoft works with each vendor to:
 
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
-[Learn more about Direct Routing](https://aka.ms/dr).
+For more information about Direct Routing, see [Plan Direct Routing](direct-routing-plan.md).   .
 
 Note that we're not accepting new nominations for certification until further notice.
 
@@ -181,3 +181,9 @@ To provide feedback about Teams, such as ideas for new features, see the [Micros
 
 > [!NOTE]
 > Media re-targeting is not supported. During a Direct Routing call, if the SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from Teams Direct Routing.
+
+## See also
+
+- [Plan Direct Routing](direct-routing-plan.md)
+- [Configure Direct Routing](direct-routing-configure.md)
+- [Learn more about Direct Routing](https://aka.ms/dr)
