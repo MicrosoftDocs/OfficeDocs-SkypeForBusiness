@@ -580,6 +580,8 @@ items:
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
+        - name: Channel policies
+          href: teams-policies.md
 
     - name: Templates
       items:
