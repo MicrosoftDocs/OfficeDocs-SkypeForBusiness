@@ -50,9 +50,6 @@ Epos, Sennheiser, and Yealink intelligent speakers are supported.
 An Intelligent Speaker connects directly using USB to the Teams Rooms console.
 
 > [!NOTE]
-> A Yealink Intelligent Speaker **must** be used with a Yealink console.
-
-> [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
 An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
