@@ -78,7 +78,7 @@ You can specify which domains are allowed or which domains are blocked. If you s
 
     In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business so long as the other organization has also enabled external access.
     
-- **Allow only specific external domains** - By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked.
+- **Allow only specific external domains** - By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked. The maximum number of allowed domains is 4000.
 
 - **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked.  Once you set up a list of blocked domains, all other domains will be allowed.
 
