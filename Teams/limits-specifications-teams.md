@@ -25,6 +25,12 @@ ms.custom: seo-marvel-apr2020
 
 This article describes some of the limits, specifications, and other requirements that apply to Teams.
 
+## Domains
+
+|Feature    | Maximum limit |
+|-----------|---------------|
+|Number of approved domains for federation | 4000&sup1;    
+
 ## Teams and channels
 
 |Feature    | Maximum limit |
