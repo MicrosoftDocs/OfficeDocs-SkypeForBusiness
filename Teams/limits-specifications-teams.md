@@ -105,6 +105,10 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>4</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, and reactions.
 
+### External Access
+
+Administrators allowing only Trusted Domains for External access, are limited to adding a max of 4000 trusted domains. [See this article for more information](trusted-organizations-external-meetings-chat.md).
+
 ### Emailing a channel
 
  If users want to send an email to a channel in Teams, they use the channel email address. When an email is part of a channel, anyone can reply to it to start a conversation. Here are some of the applicable limits for sending email to a channel.
