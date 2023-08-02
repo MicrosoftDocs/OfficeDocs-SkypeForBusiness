@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Scenarios for Location-Based Routing for Direct Routing
+# Scenarios for Location-Based Routing for India
 
 Before reading this article, be sure you have read [Plan and configure Location-Based Routing for India](location-based-routing-india-plan.md).
 

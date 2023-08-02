@@ -49,7 +49,7 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 - **Operator-managed infrastructure.** Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
-- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams admin center.
+- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users-–all from the Teams admin center.
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
 
@@ -57,7 +57,7 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 - **Ability to assign wired numbers to Teams users.** For more information, see Plan and Configure Location-Based Routing for India.
 
-- **PSTN conferencing support** - Ability to use the Operator Connect Conferencing for India service to support ad hoc and call queue conferences.
+- **PSTN conferencing support** - Ability to use Operator Connect Conferencing for India service to support ad hoc and call queue conferences.
 
 ## Licensing and requirements
 
