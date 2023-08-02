@@ -67,9 +67,9 @@ Signaling and media from Teams clients must traverse the carrier’s data networ
 **Mobile OCM**: All Teams users in the conference must be located within India and with the same carrier Phone System license when one leg is a PSTN call; users without the same carrier Phone System license must be restricted; VPN checks should be done if possible 
 
 
-## Configuring Location-Based Routing
+## Configuring Location-Based Routing for India
 
-Location-Based Routing uses the network topology you define for network region, site, and subnet. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. Location-Based Routing can be applied to the user location, network sites and PSTN gateways. 
+Location-Based Routing for India uses the network topology you define for network region, site, and subnet. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. Location-Based Routing can be applied to the user location, network sites and PSTN gateways. 
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
@@ -81,7 +81,8 @@ For more information about network settings, see [Network settings for cloud voi
 ### Toll bypass evaluation and outcome
 
 When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or will not complete.   
-**IN INDIA IT'S ALWAYS RESTRICTED?**
+**BUT IN INDIA IT'S ALWAYS RESTRICTED, CORRECT?**
+**WHAT OF THE FOLLOWING IS TRUE FOR INDIA?**
 
 If a user is enabled for Location-Based Routing and the user is located at a site where Location-Based Routing restrictions are in effect, then toll bypass is restricted for that user. Teams uses the following information to determine whether toll bypass is restricted: 
 
@@ -287,7 +288,38 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
 
-## Scenarios
+## Scenarios for fixed-line calls
+
+For these scenarios, assume the following is true:
+
+- India PSTN - Is a PSTN endpoint with an India number
+- Non India PSTN – Is a PSTN endpoint with a non-India number 
+
+- Site A – An India location with an Operator Connect trunk with a fixed-line number assigned to Teams User 1. This could also be an India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to True.
+
+- Site B – An India location with an Operator Connect trunk with a fixed-line number assigned to Teams User 2. This could also be an India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to True.
+
+- Site C – India location with OC trunk with fixed line number assigned to Teams User 2; also India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to False.
+
+- Teams User 1 – User is assigned an India fixed-line number associated to Site A. User is currently located at Site A.
+
+Teams User 2 – User is assigned an India fixed-line number associated to Site A. User is currently located at Site A. 
+
+Teams User 3 – User is assigned an India fixed-line number associated to Site A. User is currently not located at Site A.  
+
+Teams User 4 – User is assigned an India fixed-line number associated to Site B. User is currently not located at Site B.
+
+Teams User 5 – User is assigned an India mobile number from the same carrier. User is located at site A. 
+
+Teams User 6 – User is assigned an India mobile number from the same carrier. User is not located at site A. 
+
+Teams User 7 – assigned an India fixed line number from another carrier and is currently located at site A 
+
+Teams User 8 – non India user assigned a non India PSTN number 
+
+Teams User 9 – India user but not EV enabled 
+
+Teams User 10 – non India user EV enabled or not EV enabled 
 
 Details
 
