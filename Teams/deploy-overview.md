@@ -44,7 +44,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 ![Diagram illustrating Teams deployment pathways.](media/get-started-with-teams-quick-start-pathways.png)
 
 
-If you have a medium or large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
+If you have a medium or large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create planning tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
 
 See these additional resources to help you get started:
 
