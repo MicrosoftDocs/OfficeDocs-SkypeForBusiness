@@ -7,7 +7,7 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dstrome
+ms.reviewer: mikeplum
 description: Once you've set up your first teams, learn how to deploy Microsoft Teams to your organization.
 ms.custom: 
 - seo-marvel-apr2020
@@ -38,7 +38,7 @@ Select **Medium/large business** if you want to create a formal adoption process
 
 #### [Small business](#tab/SmallBusiness)
 
-Teams small business setup is great for organizations that want all the functionality of Teams but don't have the characteristics of larger organizations that require extra planning. For example, small organizations may not need a large-scale deployment process, or not need to conform to regulatory requirements in multiple countries.
+Teams small business setup is great for organizations that want all the functionality of Teams but don't have the characteristics of larger organizations that require extra planning. For example, small organizations may not need a large-scale deployment process, or not need to conform to regulatory requirements in multiple countries/regions.
 
 If this sounds like your organization, you can complete Teams small business setup. Small business setup gets you up and running with Teams quickly, letting you skip some of the considerations specific to larger organizations.
 

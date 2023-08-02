@@ -1,7 +1,7 @@
 ---
 title: Use the Microsoft Teams Rooms recovery tool
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
 ms.date: 04/17/2018

@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 04/11/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -36,7 +36,7 @@ Teams admin center lets you create two types of permissions policies:
 * **Global (Org-wide default)** policy exists by default and applies to all users. Any changes made to this policy impact all users as this policy is applied to all users by default.
 * An admin-created policy applies only to the users that it's applied to. Create a new policy to allow apps for specific users or group of users.
 
-   :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created." lightbox="media/app-permission-policy.png":::
+   :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created.":::
 
 If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft 365 admin center are reflected in **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. If you're new to Teams and just getting started, by default, all apps are allowed in the org-wide global setting. It includes apps published by Microsoft, third-party software providers, and your organization.
 
@@ -78,13 +78,13 @@ You can use the Teams admin center to edit the global policy or any custom polic
 
 ## Assign a custom policy for app permissions to users
 
-App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users](policy-assignment-overview.md#ways-to-assign-policies).
+App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users and groups](policy-assignment-overview.md#ways-to-assign-policies).
 
 ## View the policies already applied to a user
 
 You can use the Teams admin center to check the policies that are assigned to a user. To view the policies, follow these steps:
 
-1. Sign in to the Teams admin center and go to **Users** >  **[Manage users](https://admin.teams.microsoft.com/users)**.
+1. Sign in to the Teams admin center and go to **Users** > **[Manage users](https://admin.teams.microsoft.com/users)**.
 1. Search for and select the user by clicking the user name.
 1. Select **View policies** under the **Policies assigned** column.
 
@@ -142,3 +142,4 @@ The following are a few considerations when using app permissions policies to gr
 
 * [Assign policies to your users in Teams](policy-assignment-overview.md)
 * [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)
+* [How to create user groups in Microsoft 365](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide)

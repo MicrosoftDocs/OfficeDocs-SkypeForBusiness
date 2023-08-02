@@ -31,29 +31,44 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Language                                |
 |:---------------------------------------|
 |Arabic (Egypt)                          |
+|Arabic (Saudi Arabia)                   |
+|Bulgarian (Bulgaria)                    |
 |Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
-|Chinese (Traditional, Hong Kong)        |
+|Chinese (Traditional, Hong Kong SAR)    |
 |Chinese (Traditional, Taiwan)           |
 |Croatian (Croatia)                      |
 |Czech (Czech Republic)                  |
 |Danish (Denmark)                        |
+|Danish (Belgium)                        |
 |Dutch (Netherlands)                     |
 |English (Australia)                     |
 |English (Canada)                        |
 |English (India)                         |
+|English (Ireland)                       |
+|English (Philippines)                    |
+|English (South Africa)                  |
 |English (United Kingdom)                |
 |English (United States)                 |
+|Estonian (Estonia)                      |
 |Finnish (Finland)                       |
+|French (Belgium)                        |
 |French (Canada)                         |
 |French (France)                         |
+|French (Switzerland)                    |
+|German (Austria)                        |
 |German (Germany)                        |
+|German (Switzerland)                    |
 |Greek (Greece)                          |
+|Hebrew (Israel)                         |
+|Hindi (India)                           |
 |Hungarian (Hungary)                     |
 |Indonesian (Indonesia)                  |
 |Italian (Italy)                         |
 |Japanese (Japan)                        |
 |Korean (Korea)                          |
+|Latvian (Latvia)                        |
+|Lithuanian (Lithuania)                  |
 |Norwegian Bokmal (Norway)               |
 |Polish (Poland)                         |
 |Portuguese (Brazil)                     |
@@ -68,6 +83,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Thai (Thailand)                         |
 |Turkish (Turkey)                        |
 |Vietnamese (Vietnam)                    |
+|Welsh (United Kingdom)                  |
 
 > [!NOTE]
 > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.

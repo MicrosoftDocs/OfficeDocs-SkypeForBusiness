@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams Rooms on Android
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
@@ -117,6 +117,6 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 ## Related topics
 
-[Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md)
+[Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md)
 
 

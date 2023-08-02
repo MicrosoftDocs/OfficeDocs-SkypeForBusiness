@@ -40,7 +40,7 @@ Before you assign a number for a Calling Plan, Operator Connect, or Teams Phone 
 
 ## Assign a phone number to a user
 
-When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
+When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country/region.
 
 To assign a number by using the Teams admin center:
 
