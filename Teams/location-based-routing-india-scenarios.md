@@ -40,9 +40,9 @@ For these scenarios, assume the following is true:
 
 - **Site C** – Is an India location with an Operator Connect trunk. A  fixed-line number is assigned to Teams User 2. This site could also be an India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to False.
 
-The following table describes details for the teams users in the scenarios:
+The following table describes details for the Teams users referenced in the scenarios:
 
-| Teams User | Number details | Location |
+| Teams user | Details | User location |
 | --------- | --------- | --------- | --------- | 
 | User 1 | Assigned an India fixed-line number associated to Site A | Site A |
 | User 2 | Assigned an India fixed-line number associated to Site A | Site A |
