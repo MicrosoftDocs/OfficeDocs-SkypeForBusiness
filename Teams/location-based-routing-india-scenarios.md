@@ -22,7 +22,7 @@ appliesto:
 
 # Scenarios for Location-Based Routing for India
 
-Before reading this article, be sure you have read [Plan and configure Location-Based Routing for India](location-based-routing-india-plan.md).
+Before reading this article, be sure you have read [Configure Location-Based Routing for India](location-based-routing-india-plan.md).
 
 This article describes different scenarios for restricting toll bypass by using Location-Based Routing. The scenarios compare how calls are routed for users who are and are not enabled for Location-Based Routing.
 
@@ -65,7 +65,7 @@ The following table shows PSTN calling scenarios for User 1 who is assigned an I
 | Not located at Site A | Makes or receives a PSTN call | NA| Call blocked |
 | In or outside of India including Site A | Makes or receives a PSTN call through Site A Direct Routing trunk | True | Call completes | 
 | Site B | Makes or receives a PSTN call | NA |Call is blocked |
-| Site B | Makes or receives a PSTN call via Site B Direct Routing trunk | True | Call commpletes |
+| Site B | Makes or receives a PSTN call via Site B Direct Routing trunk | True | Call completes |
 | Site C | Makes or receives a PSTN call via Site B Direct Routing trunk | False | Call blocked |
 
 
@@ -144,18 +144,9 @@ The next table shows multiple party calling scenarios:
 
 
 
+**THE REST OF THIS ARTICLE IS COPIED FROM THE DR ARTICLE. IS IT APPLICABLE TO OC INDIA?**
 
-
-
-
-
-
-
-
-
-**STOP HERE!!!!!!!!!!!!  ORIGINAL CONTENT**
-
-
+**GIVEN SCHEDULE, WE NEED TO PUBLISH MINIMUM FOR UNDERSTANDING...  ART, EXAMPLES, ETC., CAN COME LATER.**
 
 
 - [Teams user places an outbound call to the PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
