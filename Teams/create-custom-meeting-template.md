@@ -18,22 +18,22 @@ ms.collection:
   - Tier1
 appliesto: 
   - Microsoft Teams
-description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer settings for enhanced meeting security and compliance.
+description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer options for enhanced meeting security and compliance.
 ---
 
 # Create a custom meeting template in Microsoft Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting settings available to meeting organizers. Templates can configure settings that meeting organizers can change or can lock settings so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
+Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting options available to meeting organizers. Templates can configure options that meeting organizers can change or can lock options so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
 You can create up to 50 custom templates. See [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md) for information on how to manage which templates are available to your users.
 
 For each option in the template, you can define the following:
 
 - **Default value** - This is the value that is applied to a meeting when the template is used.
-- **Visible** - This determines if the meeting organizer can see this setting in the meeting options. 
-- **Lock status** - This determines if the meeting organizer can change the setting that was set by the template. If the setting is locked, the meeting organizer can't change it.
+- **Visible** - This determines if the meeting organizer can see this option.
+- **Lock status** - This determines if the meeting organizer can change the option that was set by the template. If the option is locked, the meeting organizer can't change it.
 
 ## Video demonstration
 
@@ -51,20 +51,20 @@ To create a custom meeting template
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
 1. Select **Add**
 1. Type a name and description for the template. Note that the name and description will truncate after 40 characters when viewed in Teams, but the full name and description are viewable on hover.
-1. Choose the settings that you want to use for this template. (See the sections below for descriptions of each setting.)
-1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
-1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
+1. Choose the options that you want to use for this template. (See the sections below for descriptions of each option.)
+1. To prevent the meeting organizer from changing an option, select the option and then select **lock**.
+1. To prevent the meeting organizer from seeing an option, select the option and then select **Hide**.
 1. Select **Save**.
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
 
-Note that if you change the settings of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
+Note that if you change the options of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
 
 #### Security
 
-|Setting|Description|
+|Option|Description|
 |:------|:----------|
-|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain settings in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the setting unlocked.|
+|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain options in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the option unlocked.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
 |End-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
@@ -73,27 +73,27 @@ Note that if you change the settings of an existing template, it will affect new
 
 #### Audio & video
 
-|Setting|Description|
+|Option|Description|
 |:------|:----------|
 |Allow mic for attendees|When **On**, attendees can unmute.|
 |Allow camera for attendees|When **On**, attendees can turn on their cameras.|
 
 #### Recording & transcription
 
-|Setting|Description|
+|Option|Description|
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
-|Who can record?|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
+|Who can record|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
 
 #### Roles
 
-|Setting|Description|
+|Option|Description|
 |:------|:----------|
 |Announce when people dialing in join or leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
 
 #### Meeting engagement
 
-|Setting|Description|
+|Option|Description|
 |:------|:----------|
 |Meeting chat|Specifies if the meeting chat is available. Can also be used to prevent chat before and after the meeting.|
 |Allow reactions|Specifies if attendees can use reactions in the meeting. This must be **On** for the raise hand feature to work.|

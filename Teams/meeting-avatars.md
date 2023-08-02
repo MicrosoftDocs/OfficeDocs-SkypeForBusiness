@@ -78,8 +78,8 @@ Now users will see the avatars for Teams app when they search through their apps
 To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed by your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
 
 - `*.microsoft.com`
-- `*office.com`
-- `*office.net`
+- `*.office.com`
+- `*.office.net`
 
 If these endpoints aren't properly allowed, you may run into issues when running the avatars for Teams app. 
 
