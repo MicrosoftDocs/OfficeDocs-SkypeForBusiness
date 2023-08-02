@@ -56,6 +56,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C470HD   | `2.1.87 (Firmware availability via TAC expected August 2023)`  | 	October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
 | Yealink MP54 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
