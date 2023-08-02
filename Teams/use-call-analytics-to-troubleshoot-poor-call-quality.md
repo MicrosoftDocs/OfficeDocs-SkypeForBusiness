@@ -44,7 +44,7 @@ As the Teams admin, you get full access to all Call Analytics data for each user
 
 ## Where to find per-user Call Analytics
 
-To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings for that user for the last 30 days.
+To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings that the user organized or participated in for the last 30 days.
 
 ![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
@@ -88,7 +88,7 @@ The following table tells you what per-user information is available for each co
 
 3. Select the user from the list.
 
-4. Select **Meetings & Calls**, and then select the call or meeting that you want to troubleshoot.
+4. Select **Meetings & Calls**, and then select the call or meeting that you want to troubleshoot. This list will include calls and meetings that the user either organized or participated in.
 
 5. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
 
