@@ -128,7 +128,7 @@ Currently, only Firmware is automatically updated for eligible devices. Teams ap
 
 2. **What makes a device eligible to receive automatic updates?**
 The following conditions should be satisfied for the device to be eligible for automatic updates:
-    - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware?tabs=Android) for details.
+    - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
     - Current version should be supported by Microsoft. Refer to [Software versions](#software-versions-on-teams-admin-center) for more details.
     - Devices on versions released before 2022 will generally not have auto-update support.
 
