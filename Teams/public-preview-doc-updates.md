@@ -45,7 +45,7 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
 
     ![Screenshot of update policy panel in the Teams admin center.](media/new-update-policy.png)
 
-1. Name the update policy, add a description.
+1. Name the update policy and add a description.
 1. Select the setting for **Show Teams preview features**:
 
    -   **On for users in Current Channel (Preview)** (default)
