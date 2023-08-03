@@ -3,7 +3,7 @@ title: Plan your voice solution in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/29/2020
+ms.date: 08/03/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -19,7 +19,7 @@ ms.reviewer: crowe
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+  - ms.teamsadmincenter.dashboararticleautod.helparticle.cloudvoice
   - seo-marvel-apr2020
   - seo-marvel-may2020
 search.appverid: MET150
@@ -94,7 +94,7 @@ Calls between users in your organization--regardless of geographical area--are h
 
 This article introduces the following Teams Phone key features and functionality, and the deployment decisions you'll need to consider:
 
-- [Auto attendants and call queues](#auto-attendants-and-call-queues)
+- [Auto attendants and Call queues](#auto-attendants-and-call-queues)
 - [Cloud Voicemail](#cloud-voicemail)
 - [Calling identity](#calling-identity)
 
@@ -110,9 +110,9 @@ For information about managing supported devices, see [Manage your devices in Mi
 
 ### Auto attendants and Call queues
 
-Auto attendants allow you to set up menu options to route calls based on caller input. Call queues are waiting areas for callers. Used together, auto attendants and call queues can easily route callers to the appropriate person or department in your organization.
+Auto attendants allow you to set up menu options to route calls based on caller input. Call queues are waiting areas for callers. Used together, Auto attendants and Call queues can easily route callers to the appropriate person or department in your organization.
 
-For information about auto attendants and call queues, see the following articles:
+For information about Auto attendants and Call queues, see the following articles:
 
 - [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 - [Set up an Auto attendant](create-a-phone-system-auto-attendant.md)
@@ -163,6 +163,6 @@ For an organization that is upgrading to Teams, the ultimate goal is to move all
 
 For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-teams-on-prem-pstn-considerations.md).
 
-For more information about how to implement your voice migration, see the [Contoso voice migration case study](voice-case-study-overview.md)<br>. The case study describes how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization. It contains the following articles.
+For more information about how to implement your voice migration, see the [Contoso voice migration case study](voice-case-study-overview.md). The case study describes how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization. 
 
  
