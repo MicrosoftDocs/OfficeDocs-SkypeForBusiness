@@ -67,11 +67,11 @@ Signaling and media from Teams clients must traverse the carrier’s data networ
 **Mobile OCM**: All Teams users in the conference must be located within India and with the same carrier Phone System license when one leg is a PSTN call; users without the same carrier Phone System license must be restricted.
 
 
-## Configuring Location-Based Routing for India
+## Configure Location-Based Routing for fixed-line calls
 
 **THE REST OF THE ARTICLE IS COPIED FROM THE DR ARTICLE. REVIEW FOR INDIA SPECIFICS.**
 
-Location-Based Routing for India uses the network topology you define for network region, site, and subnet. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. Location-Based Routing can be applied to the user location, network sites and PSTN gateways. 
+Location-Based Routing for India fixed-line calls uses the network topology you define for network region, site, and subnet. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. Location-Based Routing can be applied to the user location, network sites and PSTN gateways. 
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
