@@ -57,7 +57,7 @@ For a visual summary of all the voice solution options, see the voice solutions 
 [![Microsoft Voice Solutions poster.](media/microsoft-voice-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br>[Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) 
 <br>
 
-If you are interested in PSTN conferencing for meetings, you'll want to read about Microsoft's Audio Conferencing service and licensing requirements. Note that Audio Conferencing does not require a Teams Phone license. For more information, see [Audio Conferencing](audio-conferencing-in-office-365.md).
+If you're interested in PSTN conferencing for meetings, you'll want to read about Microsoft's Audio Conferencing service and licensing requirements. Note that Audio Conferencing does not require a Teams Phone license. For more information, see [Audio Conferencing](audio-conferencing-in-office-365.md).
 
 ## What do you need to read?
 
