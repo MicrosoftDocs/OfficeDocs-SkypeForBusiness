@@ -109,3 +109,11 @@ To ensure that your organization and your users get the most out of Teams, you n
 - Report back to the deployment team both successes and difficulties to help improve the adoption process.
 
 For details about setting up an adoption program, see [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md).
+
+## Teams analytics & reports
+
+Teams reports in the Teams admin center give you insights into how Teams is used in your organization. Use the reports to get a view into Teams usage, user activity, and device usage across your organization.
+
+To view these reports, you must be a global administrator or Teams administrator. Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+
+For more information about available reports, see [Microsoft Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md).

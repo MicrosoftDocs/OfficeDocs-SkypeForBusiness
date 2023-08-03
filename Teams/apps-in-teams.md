@@ -76,7 +76,7 @@ After an admin allows the use of custom apps, users can find such apps by select
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams store in the Teams desktop app." lightbox="media/built-for-your-org2.png":::
 
-For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
+For more information, see [Understand and manage custom apps](custom-app-overview.md).
 
 ### About App Templates
 

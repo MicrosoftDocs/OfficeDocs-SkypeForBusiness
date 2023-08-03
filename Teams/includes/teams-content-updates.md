@@ -2,6 +2,30 @@
 
 
 
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/24/2023 | [Configure log files for monitoring and troubleshooting in Teams](/MicrosoftTeams/log-files) | modified |
+| 7/24/2023 | [Manage meeting policies for content sharing](/MicrosoftTeams/meeting-policies-content-sharing) | modified |
+| 7/24/2023 | [Meet with people in other Microsoft 365 cloud environments](/MicrosoftTeams/cross-cloud-meetings) | added |
+| 7/24/2023 | [Plan for meetings with external participants in Microsoft Teams](/MicrosoftTeams/plan-meetings-external-participants) | modified |
+| 7/25/2023 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 7/25/2023 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
+| 7/25/2023 | [Security guide for Microsoft Teams overview](/MicrosoftTeams/teams-security-guide) | modified |
+| 7/26/2023 | [Plan your voice solution in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modified |
+| 7/26/2023 | [Teams Phone features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modified |
+| 7/26/2023 | [PSTN connectivity options](/MicrosoftTeams/pstn-connectivity) | modified |
+| 7/26/2023 | [Set up Teams Phone in your organization](/MicrosoftTeams/setting-up-your-phone-system) | modified |
+| 7/26/2023 | [What is Teams Phone](/MicrosoftTeams/what-is-phone-system-in-office-365) | modified |
+| 7/26/2023 | [Deploy new Microsoft Teams with Microsoft 365 Apps](/MicrosoftTeams/new-teams-deploy-with-m365apps) | added |
+| 7/28/2023 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
+| 7/28/2023 | [Upgrade from the Teams Exploratory trial](/MicrosoftTeams/upgrade-from-teams-exploratory) | modified |
+| 7/28/2023 | [Manage email communications for webinars](/MicrosoftTeams/manage-email-communications) | added |
+| 7/28/2023 | [Custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds) | modified |
+
+
 ## Week of July 17, 2023
 
 
@@ -428,20 +452,3 @@
 | 6/30/2023 | [Rollout schedule for the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | added |
 | 6/30/2023 | [Troubleshooting the new Teams installation](/MicrosoftTeams/new-teams-troubleshooting-installation) | added |
 | 6/30/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
-
-
-## Week of June 19, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/21/2023 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
-| 6/21/2023 | [Enroll a Teams Room device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
-| 6/21/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
-| 6/21/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-| 6/22/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
-| 6/23/2023 | Meetings in Microsoft Teams | removed |
-| 6/23/2023 | [Create a custom meeting template in Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | modified |
-| 6/23/2023 | Manage Teams transitioning to the new Teams admin center | removed |
-| 6/23/2023 | [Turn guest access in Microsoft Teams on or off](/MicrosoftTeams/set-up-guests) | modified |
-| 6/23/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
