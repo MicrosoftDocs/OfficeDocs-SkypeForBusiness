@@ -56,9 +56,10 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| Yealink MP58 | `122.15.0.135`|October 4, 2026   | 12 |
-| Yealink MP56 | `122.15.0.135`|October 4, 2026   | 12 |
-| Yealink MP54 | `122.15.0.135`|October 4, 2026   | 12 |
+| AudioCodes C470HD   | `2.1.87 (Firmware availability via TAC expected August 2023)`  | 	October 26, 2026  | 12 |
+| Yealink MP58 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
+| Yealink MP56 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
+| Yealink MP54 | `122.15.0.135 (Firmware availability via TAC expected August 2023)`|October 4, 2026   | 12 |
 | Poly CCX350                            | `8.0.1.4670`                                                  | 	November 5, 2023              | 9 |
 | Poly CCX505                            | `7.3.1.0811`                                                  | 	November 5, 2023              | 9 |
 | AudioCodes C450HD*                    | `1.17.443`                                                     | 	August 5, 2023               | 9 |
@@ -66,7 +67,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`                                                    |November 5, 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`                                                    | November 5, 2023            | 9 |
-| Audiocodes C470HD                      | `1.8.293   `                                               | November 5, 2023                | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | November 5, 2023                | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | November 5, 2023              | 9 |
 | AudioCodes C455HD                      | `1.14.404`                                                 |November 5, 2023                | 9 |
@@ -115,6 +115,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
@@ -131,6 +132,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #3 | July 31, 2023 | `1449/1.0.94.2023072509` | `5.0.5484.0` | `413`|
 | 2023 Update #2D | July 12, 2023 | `1449/1.0.94.2023063003` | `5.0.5484.0` | `413`|
 | 2023 Update #2C | Jun 15, 2023 | `1449/1.0.94.2023060906` | `5.0.5484.0` | `413`|
 | 2023 Update #2B | May 9, 2023 | `1449/1.0.94.2023050205` | `5.0.5484.0` | `413`|
@@ -343,6 +345,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
 |Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 03/16/2018
+ms.date: 08/1/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -158,6 +158,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Detailed system and configuration information** |                             | &#x2714;                  |
 | **Peripheral health management**                  |                             | &#x2714;                  |
 | **Remote configuration**                          |                             | &#x2714;                  |
+| **Custom backgrounds set up and management**      |                             | &#x2714;                  |
 | **Device history and activity**                   |                             | &#x2714;                  |
 | **ITSM integration**                              |                             | &#x2714;                  |
 | **Custom health alerts**                          |                             | &#x2714;                  |
