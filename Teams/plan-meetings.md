@@ -47,10 +47,10 @@ The following table show the policy settings that are similar between meetings a
 
 |User intent|Meeting polices|Calling policies|
 |:------|:--------------|:---------------|
-|Meet with someone by starting a call or instant meeting|Private meeting scheduling|Make private calls|
-|Record a meeting or call|Meeting recording|Cloud recording for calling|
-|Transcribe a meeting or call|Transcription|Transcription|
-|See closed captions in a meeting or call|Live captions|Real-time captions in Teams calls|
+|Meet with someone by starting a call or instant meeting|[Private meeting scheduling](manage-who-can-schedule-meetings.md)|Make private calls|
+|Record a meeting or call|[Meeting recording](meeting-recording.md)|Cloud recording for calling|
+|Transcribe a meeting or call|[Transcription](meeting-transcription-captions.md)|Transcription|
+|See closed captions in a meeting or call|[Live captions](meeting-transcription-captions.md)|Real-time captions in Teams calls|
 
 For information about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
 
