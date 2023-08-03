@@ -6,9 +6,9 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 05/05/2023
+ms.date: 06/27/2023
 search.appverid: 
-description: Auto install apps in Teams if admins approve it and users already use it outside Teams.
+description: Auto install apps in Teams that are approved by admins and used by users outside Teams.
 audience: admin
 ms.localizationpriority: high
 appliesto: 
@@ -19,6 +19,9 @@ ms.collection:
 
 # Auto install approved apps in Microsoft Teams
 
+>[!IMPORTANT]
+> Some apps supported by Auto install approved apps require setup by admins before turning on the feature. See the [list of these apps and setup instructions](#apps-requiring-setup-before-deployment-to-users).
+
 >[!NOTE]
 > The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post MC548106](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC548106). The feature was previously called Zero-touch app install.
 
@@ -26,9 +29,9 @@ Some apps exist as apps on the desktop or in the browser. Users who use these ap
 
 When enabled, the feature respects all app governance controls and apps are installed only for the users who are allowed to use these apps. Admins can enable SSO and let users use their Azure AD identity to sign into apps outside Teams, for example in a web browser. This sign-in is used as an intelligent signal by the feature to add the Teams app for such users in their Teams client.
 
-The Auto install approved apps feature is available only for a few Teams apps. The **Org-wide app settings** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center lists all such apps. We'll add more apps with appropriate announcements.
+The Auto install approved apps feature is available only for a few Teams apps. For the list of all the supported apps, see the **Org-wide app settings** section of [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. We'll add more apps with appropriate announcements.
 
-:::image type="content" source="media/approved-apps-list.png" alt-text="Screenshot showing Auto install approved apps feature toggle and list of apps are available in the org-wide app settings in admin center." lightbox="media/approved-apps.png":::
+:::image type="content" source="media/approved-apps-list.png" alt-text="Screenshot showing Auto install approved apps feature toggle option and list of apps that are available in the org-wide app settings in admin center." lightbox="media/approved-apps.png":::
 
 ## Prerequisites for Auto install approved apps feature
 
@@ -41,7 +44,7 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 
 ### Allow third-party apps in your organization
 
-The feature respects the app governance controls and installs apps only if admins allow the use of an app. While the feature can be turned on independent from your app governance settings, to experience auto installs, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [allow apps](/microsoftteams/manage-apps#allow-and-block-apps).
+The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-and-block-apps).
 
 ### Ensure users can consent or grant admin consent to Azure AD permissions of an app
 
@@ -91,9 +94,39 @@ Before you use the feature, understand the following considerations:
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
-* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files for the new and the existing app users. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
 
 * Teams admin may have blocked a Teams app for a user and your organization may allow Azure AD SSO for the user to use the app, say in a browser. If this feature has been turned on for the Teams app and the user is later allowed to use the app, the app will be auto installed for them if they have used Azure AD to sign in up to 30 days before they were allowed to use the app.
+
+* The feature installs an app in the personal scope.
+
+## Apps requiring setup before deployment to users
+
+A few specific Teams apps require a prior setup before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers that are provided below and then turn on the Auto install approved apps feature for these apps.
+
+Some of these apps require an admin to consent to its Graph permissions to work. In Teams Admin Center, a Global administrator must provide consent on behalf of users.
+
+| App                                                                                                      | Setup instruction                                                                                                                                       | Admin consent to Graph permissions required                                                                                              |
+|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| [Box for Teams](https://appsource.microsoft.com/product/office/WA200001458)                              | [Deploy Box for Teams](https://support.box.com/hc/en-us/articles/360044681354-Deploying-Box-for-Teams-in-your-Enterprise)                               | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/8d04bcf6-86d8-4ab1-9602-bc3b56e06c37/permission).       |
+| [Freshdesk](https://appsource.microsoft.com/product/office/WA104381505)                                  | [Deploy Freshdesk for Teams](https://support.freshdesk.com/en/support/solutions/articles/232273-the-microsoft-teams-app)                                | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/86ce8ab3-7472-47ef-9cf5-7225ff0c77d5/permission).       |
+| [MyHub](https://appsource.microsoft.com/product/office/WA200000726)                                      | Setup isn't required.                                                                                                                                   | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b/permission).       |
+| [OfficeSpace](https://appsource.microsoft.com/product/office/WA200002052)                                | [Deploy OfficeSpace for Teams](https://support.officespacesoftware.com/s/article/Integrating-OfficeSpace-with-Microsoft-Teams-HC?language=en_US)        | Not required                                                                                                                             |
+| [SAP S/4HANA for Microsoft Teams](https://appsource.microsoft.com/product/office/WA200005087)            | [Deploy SAP S/4HANA for Teams](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/257ec7408db6420682462cd1d000e744.html)       | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/db5b69c6-0430-4ae1-8d6e-a65c2220b50c/permission).       |
+| [ServiceBot](https://appsource.microsoft.com/product/office/WA200000757)                                 | [Deploy ServiceBot for Teams](https://support.freshservice.com/en/support/solutions/articles/50000000656-freshservice-integration-with-microsoft-teams) | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f1f1c9fe-bc63-4b4b-8cfc-472108147118/permission).       |
+| [ServiceDesk Plus Cloud for Microsoft Teams](https://appsource.microsoft.com/product/office/WA200000037) | [Deploy ServiceDesk Plus Cloud for Teams](https://help.servicedeskplus.com/integration-with-microsoft-teams)                                            | Not required                                                                                                                             |
+| [Smartsheet](https://appsource.microsoft.com/product/office/WA104380975)                                 | Setup isn't required.                                                                                                                                   | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f4d81e8e-4500-44c2-8328-9e06cbe037c5/permission)        |
+| [Templafy](https://appsource.microsoft.com/product/office/WA200004361)                                   | [Deploy Templafy for Teams](https://support.templafy.com/hc/en-us/articles/360015220358)                                                                | Not required                                                                                                                             |
+| [Thrive Global](https://appsource.microsoft.com/product/office/WA200004531)                              | [Contact Thrive Global](https://thriveglobal.com/products/thrive-for-teams) for information.                                                                                                                  | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/d4774f88-9a5e-470c-9a8f-c77b63b6e322/permission) |
+| [Workplace from Facebook](https://appsource.microsoft.com/product/office/WA200003462)                    | [Deploy Workplace from Facebook for Teams](https://www.workplace.com/help/work/641802850313984)                                                         | Not required                                                                                                                             |
+| [Zendesk for Teams](https://appsource.microsoft.com/product/office/WA200003782)                          | [Deploy Zendesk for Teams](https://zendeskforteams.com/installation-guide)                                                                              | [Consent in admin center](https://admin.teams.microsoft.com/policies/manage-apps/f36c0433-ea87-4102-bea7-0a8456fa8a2e/permission).       |
+| [Zoho Projects](https://appsource.microsoft.com/product/office/WA104381668)                              | [Deploy Zoho Projects for Teams](https://help.zoho.com/portal/en/kb/projects/integration/microsoft/articles/microsoft-teams-integration)                | Not required                                                                                                                             |
+
+Consider the following app installation information when following the above developer instructions for this feature.
+
+* Some app setup instructions include deploying the app using app setup policies. Using setup policy is optional with this feature. You may continue preinstalling apps8 as an admin with app setup policies or you may enable Auto install approved apps feature to install for your users without your intervention.
+
+* Some app setup instructions include steps to install the app in multiple scopes that are personal, team, chat, and meeting. Auto install approved apps feature installs an app only in the personal app for an individual user. You can follow app developer's setup instructions to deploy the other app scopes, besides personal apps.
 
 ## Related articles
 
@@ -101,3 +134,4 @@ Before you use the feature, understand the following considerations:
 * [Use app permission policies to allow users to use an app](/microsoftteams/teams-app-permission-policies)
 * [How to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center)
 * [Permissions and consent in the Azure AD](/azure/active-directory/develop/permissions-consent-overview)
+* [Configure in Azure AD portal how users consent to apps](/azure/active-directory/manage-apps/configure-user-consent?tabs=azure-portal&pivots=portal)

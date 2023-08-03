@@ -1,10 +1,10 @@
 ---
 title: Manage the Updates app for your organization
-author: daisyfell
-ms.author: daisyfeller
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: acolonna, diyu
 ms.date: 03/30/2023
-manager: pamgreen
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -144,6 +144,10 @@ Each user can create at most 400 Update requests, and each template can collect 
 ## Security
 
 From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
+
+## Power Automate connector
+
+Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
 
 ## Give feedback or report an issue
   

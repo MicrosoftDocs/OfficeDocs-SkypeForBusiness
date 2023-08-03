@@ -56,6 +56,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Media - Media flow | [Video](https://aka.ms/teams-media-flows) | [Deck](https://aka.ms/teams-media-flows-deck)  |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Deck](https://aka.ms/teams-security-compliance-deck) |
+| SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
 | Teams Devices Deployment playbook | | [Deck](https://aka.ms/teams-devices-deployment-playbook) |
 | Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
@@ -75,7 +76,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 6: Managing Microsoft Teams Rooms, Part 1  | [Deck](https://aka.ms/TeamsRoomsModule6) |
 | Module 7: Managing Microsoft Teams Rooms, Part 2  | [Deck](https://aka.ms/TeamsRoomsModule7) |
 | Module 8: Features, adoption, and troubleshooting | [Deck](https://aka.ms/TeamsRoomsModule8)|
-| One-touch Join Instructions |  [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>Teams Android devices</h2>
 
@@ -103,12 +103,9 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Configure Teams Phone System: Auto Attendant & Call Queue                   | Step through the process of creating and deploying a Call Queue and Auto Attendant as part of Microsoft Teams calling using the Microsoft Teams admin center.                                                          |  [Configure Teams phone system guide](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | Configure Direct Routing: connecting SBCs and voice routing                 | Use Microsoft Teams Phone System Direct Routing to integrate with your existing telephony infrastructure.                                                                                                              | [Configure direct routing guide](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete, and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| Configuring and deploying Microsoft Teams meetings                          | Step through the process of deploying the meetings workload for Microsoft Teams.                                                                                                                                       |  [Configuring and deploying Microsoft Teams meetings guide](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| Configure Audio Conferencing for Microsoft Teams                            | Discover the capabilities of Audio Conferencing in Teams and learn how to assign conference bridges and dial-in phone numbers.                                                                                          |  [Configuring audio conferencing for Microsoft Teams guide](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identity for the frontline workforce: Empower IT, managers, and frontline workers                    | Learn how to integrate Microsoft Teams with existing HR systems, configure lightweight delegated identity management, and configure simplified sign-in and seamless transitions for those using shared devices.                                                                                                                  | [Frontline worker identity guide](https://aka.ms/FLWIdentityIG)              |
-| Deploying Microsoft Teams Rooms                           | Learn how to create and configure an account to use with Microsoft Teams Rooms and manage the device in Microsoft Teams admin center.                                                                                                                  | [Deploying Microsoft Teams Rooms](https://aka.ms/teamsroomslab)              |
-|Working with Teams Certified Android Devices|Learn how to manage and upgrade Microsoft Teams Phones, Microsoft Teams Displays, Microsoft Teams Rooms, and Microsoft Teams Panels.|[Working with Microsoft Teams Certified Android Devices](https://aka.ms/teamsandroiddeviceslab)|
+
 
 <h2>Quick start guides</h2>
 

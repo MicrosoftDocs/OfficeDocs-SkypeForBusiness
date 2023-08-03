@@ -1,10 +1,10 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: LanaChin
-ms.author: samanro
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: rjam
-ms.date: 07/30/2020
+ms.date: 06/14/2023
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -52,6 +52,10 @@ Teams users in your organization can use the praise composer to recognize their 
 
 :::image type="content" source="media/praise.png" alt-text="Screenshot of the praise composer.":::
 
+## User data in Praise
+
+Praise uses Viva Insights to process and store data. See the [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) to learn more about how Viva Insights processes and stores user data.
+
 ## Give feedback or report an issue
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Praise" so we can easily identify Praise issues.
@@ -59,3 +63,4 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 ## Related articles
 
 [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+
