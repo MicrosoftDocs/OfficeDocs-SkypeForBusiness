@@ -1,6 +1,6 @@
 ---
 title: Plan for Teams meetings
-ms.reviewer: 
+ms.reviewer: bryanyce
 ms.date: 07/01/2023
 ms.topic: article
 ms.author: mikeplum
