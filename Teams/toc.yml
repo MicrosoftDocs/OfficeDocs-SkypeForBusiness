@@ -9,18 +9,6 @@ items:
       href: deploy-overview.md
     - name: Teams Premium trial
       href: teams-premium-trial.md
-    - name: Quick start
-      items: 
-        - name: Quick start overview
-          href: get-started-with-teams-quick-start.md
-        - name: "Step 1: Create your first teams and channels"
-          href: get-started-with-teams-create-your-first-teams-and-channels.md
-        - name: "Step 2: Onboard early adopters"
-          href: get-started-with-teams-onboard-early-adopters.md
-        - name: "Step 3: Monitor usage and feedback"
-          href: get-started-with-teams-monitor-usage-and-feedback.md
-        - name: "Step 4: Plan your org-wide rollout"
-          href: get-started-with-teams-resources-for-org-wide-rollout.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
