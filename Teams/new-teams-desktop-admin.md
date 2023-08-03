@@ -50,7 +50,7 @@ The new Teams client **is not** yet available for the following customers but is
 ## New Teams rollout schedule for Windows clients
 
 >[!Note]
->*This rollout schedule is only for **Windows clients**.
+>*This rollout schedule is only for **Windows clients**. We will be updating this schedule as other platform support, such as Mac, is available.
  
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
