@@ -36,8 +36,8 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 
 When **TeamsProvision.exe** is run on a computer:
 
-- Admin downloads the Teams.exe
-- Installs the new Teams app for **all users on the computer.** 
+- The installer downloads the latest Teams MSIX package from Microsoft
+- The installer installs the Teams application for all users on the computer, and any users who may be added afterwards.
 
 >[!Important]
 >Users who have installed a different Teams version will have their version replaced with the provisioned version.
