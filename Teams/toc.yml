@@ -998,7 +998,7 @@ items:
                 - name: Configure network settings for Location-Based Routing
                   href: location-based-routing-configure-network-settings.md
                 - name: Enable Location-Based Routing
-                  href: location-based-routing-enable-india.md
+                  href: location-based-routing-india-enable.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile
