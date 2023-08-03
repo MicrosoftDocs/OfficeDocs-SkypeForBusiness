@@ -43,22 +43,17 @@ Location-Based Routing lets you restrict toll bypass for a user based on user po
 
 If a user’s location is outside of the country or can't be determined, Operator Connect India blocks both incoming and outgoing PSTN calls for that user. Operator Connect India also blocks Teams Phone features for that user. For example, the dial pad, the ability to enter an emergency location address, and so on, are disabled.
 
-Operator Connect India provides three number types:
+Operator Connect India provides three number types. The routing behavior for users is based on which India number types are assigned to the user. 
 
-- Fixed line (wired) 
-- Mobile 
-- Mobile (OCM)     (What's OCM?  Operator Connect Mobile)
-- Conferencing (?) 
-
-The routing behavior for users is based on which India number types are assigned to the user. 
-
-- **Fixed line**: The user must be located at a Network Communication Server (NCS) site associated with the number. Transfers are allowed only to other users with the same carrier Teams Phone license. Fixed line requires configuring Location-Based Routing.
+- **Fixed line (wired)**: The user must be located at a Network Communication Server (NCS) site associated with the number. Transfers are allowed only to other users with the same carrier Teams Phone license. Fixed line requires configuring Location-Based Routing.
 - **Mobile**: The user must be located within India. 
 - **Mobile OCM**: The user must be located within India. 
 
+**IS THERE A CONFERENCING NUMBER TYPE?**
+
 Users assigned any of the India number types are allowed in conferences with the following restrictions: 
 
-**Fixed line**: All Teams users in the conference must be located at the same network site and with the same carrier Teams Phone license when one leg is a PSTN call; users without the same carrier Teams Phone license must be restricted.
+**Fixed line (wired)**: All Teams users in the conference must be located at the same network site and with the same carrier Teams Phone license when one leg is a PSTN call; users without the same carrier Teams Phone license must be restricted.
 
 Signaling and media from Teams clients must traverse the carrier’s data network between the network site and the Microsoft 365 cloud.
 
