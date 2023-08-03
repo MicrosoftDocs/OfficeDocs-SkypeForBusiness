@@ -1,5 +1,5 @@
 ---
-title: Configure Location-Based Routing for India
+title: Plan Location-Based Routing for India
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: roykuntz
 ms.date: 03/15/2023
 search.appverid: MET150
-description: Learn how to configure Location-Based Routing for Teams Phone in India.
+description: Learn how to plan and configure Location-Based Routing for Teams Phone in India.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Configure Location-Based Routing for India
+# Plan Location-Based Routing for India
 
 In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block international calls made or received by customers who are roaming outside of India. 
 
