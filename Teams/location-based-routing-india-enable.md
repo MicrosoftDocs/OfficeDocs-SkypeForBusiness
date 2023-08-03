@@ -29,7 +29,7 @@ Before you follow the steps in this article, make sure you've read [Plan Locatio
 
 After you deploy Operator Connect India and set up network regions, sites, and subnets, you're ready to enable Location-Based Routing for your network sites. 
 
-You can use the [Teams admin center](#using-the-microsoft-teams-admin-center) or [PowerShell](#using-powershell) to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md)
+You can use the [Teams admin center](#use-the-microsoft-teams-admin-center) or [PowerShell](#use-powershell) to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md)
 
 
 
