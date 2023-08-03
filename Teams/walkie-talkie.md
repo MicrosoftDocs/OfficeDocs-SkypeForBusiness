@@ -1,8 +1,8 @@
 ---
 title: "Walkie Talkie app in Microsoft Teams"
-author: samanro
-ms.author: samanro
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
