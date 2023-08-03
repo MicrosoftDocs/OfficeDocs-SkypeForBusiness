@@ -989,10 +989,16 @@ items:
               href: operator-connect-india-plan.md
             - name: Configure Operator Connect for India
               href: operator-connect-india-configure.md
-            - name: Configure Location Based Routing for India
-              href: location-based-routing-india-plan.md
-            - name: Location Based Routing scenarios
-              href: location-based-routing-india-scenarios.md
+            - name: Location-Based Routing for India
+              items:
+                - name: Configure Location-Based Routing for India
+                  href: location-based-routing-india-plan.md
+                - name: Location-Based Routing scenarios
+                  href: location-based-routing-india-scenarios.md
+                - name: Configure network settings for Location-Based Routing
+                  href: location-based-routing-configure-network-settings
+                - name: Enable Location-Based Routing
+                  href: location-based-routing-enable.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile
