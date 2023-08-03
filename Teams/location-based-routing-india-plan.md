@@ -290,44 +290,6 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
 
-## Scenarios for fixed-line calls
-
-For these scenarios, assume the following is true:
-
-- India PSTN - Is a PSTN endpoint with an India number
-- Non India PSTN – Is a PSTN endpoint with a non-India number 
-
-- Site A – An India location with an Operator Connect trunk with a fixed-line number assigned to Teams User 1. This could also be an India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to True.
-
-- Site B – An India location with an Operator Connect trunk with a fixed-line number assigned to Teams User 2. This could also be an India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to True.
-
-- Site C – India location with OC trunk with fixed line number assigned to Teams User 2; also India location with a Direct Routing trunk to a local PBX/PSTN with the LBR Override set to False.
-
-- Teams User 1 – User is assigned an India fixed-line number associated to Site A. User is currently located at Site A.
-
-Teams User 2 – User is assigned an India fixed-line number associated to Site A. User is currently located at Site A. 
-
-Teams User 3 – User is assigned an India fixed-line number associated to Site A. User is currently not located at Site A.  
-
-Teams User 4 – User is assigned an India fixed-line number associated to Site B. User is currently not located at Site B.
-
-Teams User 5 – User is assigned an India mobile number from the same carrier. User is located at site A. 
-
-Teams User 6 – User is assigned an India mobile number from the same carrier. User is not located at site A. 
-
-Teams User 7 – assigned an India fixed line number from another carrier and is currently located at site A 
-
-Teams User 8 – non India user assigned a non India PSTN number 
-
-Teams User 9 – India user but not EV enabled 
-
-Teams User 10 – non India user EV enabled or not EV enabled 
-
-Details
-
-- User1 - A user enabled for LBR user with an Operator Connect India mobile number assigned.
- - Site A – A site with a Direct Routing trunk to a local PBX/PSTN with LBR Override set to True.  
-- Site B – A site with a Direct Routing trunk to a local PBX/PSTN with LBR Override set to False.   
 
 ## Related articles
 
