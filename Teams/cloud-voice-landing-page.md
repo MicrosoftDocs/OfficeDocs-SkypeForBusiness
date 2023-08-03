@@ -3,7 +3,7 @@ title: Plan your voice solution in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/29/2020
+ms.date: 08/03/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -19,7 +19,7 @@ ms.reviewer: crowe
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+  - ms.teamsadmincenter.dashboararticleautod.helparticle.cloudvoice
   - seo-marvel-apr2020
   - seo-marvel-may2020
 search.appverid: MET150
@@ -42,6 +42,8 @@ If you answer yes to the following, then Teams Phone with Calling Plan is the ri
 - You don't need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
 
+If you’re a small to medium business (300 or fewer people), Microsoft now bundles Teams Phone with a Domestic Calling Plan. 
+
 However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions:
 
 - Teams Phone with Calling Plan
@@ -55,8 +57,7 @@ For a visual summary of all the voice solution options, see the voice solutions 
 [![Microsoft Voice Solutions poster.](media/microsoft-voice-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br>[Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) 
 <br>
 
->[!NOTE]
->If you’re a small to medium business (300 or fewer people), Microsoft now bundles Teams Phone with a Domestic Calling Plan. For more information, see [Teams Phone guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voice) to help you plan, set up, and manage your voice solution.
+If you're interested in PSTN conferencing for meetings, you'll want to read about Microsoft's Audio Conferencing service and licensing requirements. Note that Audio Conferencing does not require a Teams Phone license. For more information, see [Audio Conferencing](audio-conferencing-in-office-365.md).
 
 ## What do you need to read?
 
@@ -82,8 +83,6 @@ Consider which of these other configurations you might need:
 | [**Network topology for cloud voice features**](pstn-connectivity.md#network-topology-for-voice-features) | If your organization is deploying Location-Based Routing (LBR) for Direct Routing or dynamic emergency calling, you must configure network settings for these features in Microsoft Teams. Read this section if you're implementing LBR for Direct Routing, or if you're implementing dynamic emergency calling with Calling Plan or Direct Routing. |
 | [**Migrate your existing voice solution**](#migrate-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you're migrating from an existing voice solution to Teams. 
 
-> [!IMPORTANT]
-> This article focuses on voice solutions with Microsoft Teams. Due to the retirement of Skype for Business Online on July 31, 2021, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online is no longer supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
 
 ## Teams Phone
 
@@ -95,7 +94,7 @@ Calls between users in your organization--regardless of geographical area--are h
 
 This article introduces the following Teams Phone key features and functionality, and the deployment decisions you'll need to consider:
 
-- [Auto attendants and call queues](#auto-attendants-and-call-queues)
+- [Auto attendants and Call queues](#auto-attendants-and-call-queues)
 - [Cloud Voicemail](#cloud-voicemail)
 - [Calling identity](#calling-identity)
 
@@ -103,7 +102,7 @@ This article introduces the following Teams Phone key features and functionality
 
 For information about all Teams Phone features, and how to set up Teams Phone, see the following articles:
 
-- [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md)
+- [Teams Phone features](here-s-what-you-get-with-phone-system.md)
 - [Set up Teams Phone in your organization](setting-up-your-phone-system.md)<br>
   Describes how to buy and assign Teams Phone licenses, manage phone numbers, and set up communication credits for toll-free numbers. 
 
@@ -111,15 +110,15 @@ For information about managing supported devices, see [Manage your devices in Mi
 
 ### Auto attendants and Call queues
 
-Auto attendants allow you to set up menu options to route calls based on caller input. Call queues are waiting areas for callers. Used together, auto attendants and call queues can easily route callers to the appropriate person or department in your organization.
+Auto attendants allow you to set up menu options to route calls based on caller input. Call queues are waiting areas for callers. Used together, Auto attendants and Call queues can easily route callers to the appropriate person or department in your organization.
 
-For information about auto attendants and call queues, see the following articles:
+For information about Auto attendants and Call queues, see the following articles:
 
-- [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)
-- [Set up an auto attendant](create-a-phone-system-auto-attendant.md)
-- [Create a call queue](create-a-phone-system-call-queue.md) 
-- [Contoso case study: Auto attendants and call queues](voice-case-study-call-queues.md)<br>
-  Describes how a fictional multi-national corporation, Contoso, implemented auto attendants and call queues for their voice solution.
+- [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+- [Set up an Auto attendant](create-a-phone-system-auto-attendant.md)
+- [Create a Call queue](create-a-phone-system-call-queue.md) 
+- [Contoso case study: Auto attendants and Call queues](voice-case-study-call-queues.md)<br>
+  Describes how a fictional multi-national corporation, Contoso, implemented Auto attendants and Call queues for their voice solution.
 
 ### Cloud Voicemail
 
@@ -132,7 +131,7 @@ Cloud Voicemail is automatically set up and provisioned for Teams users.
 For more information about Cloud Voicemail and its configuration, see the following articles:
 
 - [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
-- [Set voicemail policies in your organization](manage-voicemail-policies.md)
+- [Manage voicemail policies](manage-voicemail-policies.md)
 
 ### Calling identity
 
@@ -156,36 +155,14 @@ Most Teams Phone features are the same regardless of the PSTN connectivity optio
 
 ## Migrate your existing voice solution to Teams
 
-> [!NOTE]
-> For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams from Skype for Business Server, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-teams-on-prem-pstn-considerations.md).
-
 For an organization that is upgrading to Teams, the ultimate goal is to move all users to TeamsOnly mode. Using Teams Phone is only supported when the user is in TeamsOnly mode. If you need basic information about upgrading to Teams, start here:
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [About the upgrade framework](upgrade-framework.md)
 - [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md)
 
-When migrating your voice solution, there are four possible calling scenarios when moving to TeamsOnly mode:
+For guidance on planning a Teams voice solution as part as your overall plan to upgrade to Teams, see [PSTN considerations for upgrading to Teams from Skype for Business on-premises](upgrade-to-teams-on-prem-pstn-considerations.md).
 
-- [**A user in Skype for Business Online, with a Microsoft Calling Plan**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans). Upon upgrade, this user will continue to have a Microsoft Calling Plan.
+For more information about how to implement your voice migration, see the [Contoso voice migration case study](voice-case-study-overview.md). The case study describes how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization. 
 
-- **[A user in Skype for Business Online, with on-premises voice functionality](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice) through Skype for Business on-premises or Cloud Connector Edition**. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.
-
-- **[A user in Skype for Business on-premises with Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), who will be moving to online and keeping on-premises PSTN connectivity**. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. 
-
-- **[A user in Skype for Business on-premises with Enterprise Voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan**.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
-
-For more information about how to implement your voice migration for each of these scenarios, see the following articles:
-
-- [PSTN considerations when upgrading to Teams — for IT administrators](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-- [Contoso voice migration case study](voice-case-study-overview.md)<br>
-  The case study describes how a fictional multi-national corporation, Contoso, implemented a Teams voice solution for their organization. It contains the following articles:
-
-  - [Teams upgrade plan](voice-case-study-migration-plan.md)
-  - [Teams Phone and PSTN connectivity options](voice-case-study-phone-system.md)
-  - [Location-Based Routing implementation](voice-case-study-location-based-routing.md)
-  - [Emergency calling](voice-case-study-emergency-calling.md)
-  - [Auto attendants and call queues](voice-case-study-call-queues.md)
-  - [Audio Conferencing](voice-case-study-audio-conferencing.md)
-  - [Teams voice policies reference](settings-policies-reference.md#voice)
+ 
