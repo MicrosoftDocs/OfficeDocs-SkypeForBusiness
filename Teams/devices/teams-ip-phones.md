@@ -67,7 +67,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`                                                    |November 5, 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`                                                    | November 5, 2023            | 9 |
-| Audiocodes C470HD                      | `1.8.293   `                                               | November 5, 2023                | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | November 5, 2023                | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | November 5, 2023              | 9 |
 | AudioCodes C455HD                      | `1.14.404`                                                 |November 5, 2023                | 9 |
