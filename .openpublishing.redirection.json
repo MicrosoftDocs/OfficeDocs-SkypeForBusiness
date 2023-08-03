@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/upload-custom-apps.md",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/manage-third-party-teams-apps.md",
       "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
       "redirect_document_id": false
@@ -217,7 +222,7 @@
     },
     {
       "source_path": "Teams/manage-your-custom-apps.md",
-      "redirect_url": "/microsoftteams/upload-custom-apps",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": true
     },
     {
@@ -4618,6 +4623,41 @@
   {
     "source_path": "Teams/manage-phone-numbers-for-your-organization.md",
     "redirect_url": "/microsoftteams/manage-phone-numbers",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-create-teams-from-managers-export-managers.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-teams-reset-autostart.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-create-your-first-teams-and-channels.md",
+    "redirect_url": "https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-onboard-early-adopters.md",
+    "redirect_url": "/microsoftteams/limits-specifications-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-monitor-usage-and-feedback.md",
+    "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-resources-for-org-wide-rollout.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-quick-start.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
     "redirect_document_id": false
   },
   {
