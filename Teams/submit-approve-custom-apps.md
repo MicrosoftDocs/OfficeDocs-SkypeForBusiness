@@ -28,8 +28,11 @@ Developers can use the Teams App Submission API to submit custom apps directly t
 
 :::image type="content" source="media/custom-app-lifecycle.png" alt-text="Overview of your app from development to deployment.":::
 
-> [!NOTE]
-> When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. This article focuses on how to approve and publish a custom app that a developer submits through the Teams App Submission API. The other method, uploading a custom app, is used when a developer sends you an app package in .zip format. To learn more about that method, see [Publish a custom app by uploading an app package](/microsoftteams/upload-custom-apps). The approve app widget isn't available in GCC tenants.
+When you publish a custom Teams app, it's available to users in your organization's app store. There are three ways to publish a custom app and your approval method depends on how you receive the app from the app developer.
+
+* Developer submits the app using the Teams App Submission API.
+* Developer sends you an [app package in .zip format](teams-custom-app-policies-and-settings.md). The approve app widget isn't available in GCC tenants.
+* [Developer uploads custom app using Teams client](/microsoftteams/platform/m365-apps/publish#single-tenant-distribution) for your approval.
 
 ## App developer submits the app
 
@@ -78,7 +81,7 @@ In the table, a newly submitted app automatically shows a **Publishing status** 
 
 :::image type="content" source="media/custom-app-lifecycle-validate-app.png" alt-text="Publishing status." lightbox="media/custom-app-lifecycle-validate-app.png":::
 
-Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
+Select the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
 :::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app." lightbox="media/custom-app-lifecycle-app-details.png":::
 
@@ -113,11 +116,11 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Discover and adopt
 
-Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
+Users who have permissions to the app can find it in your organization's app store. In the Teams client, in the Apps page, these apps are available in the **Built for your org** section.
 
 :::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Apps page showing published app." lightbox="media/custom-app-lifecycle-discovery.png":::
 
-If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
+You can create an app setup policy and assign it to all or a few users to pin one ore more apps in Teams client. It improves easy of access and app adoption for the apps that are relevant to the needs of your users.
 
 ## Update a custom app
 
@@ -128,7 +131,7 @@ When the developer submits an update to a published custom app, you get notified
 To review and publish an app update:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
-1. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
+1. Select the app name to go to the app details page, and then select **Update available** to review details of the update.
 
    :::image type="content" source="media/custom-app-lifecycle-update-app.png" alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
 
@@ -143,16 +146,9 @@ Keep in mind the following:
 
 For more information about using the Graph API to update apps, see [here](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http&preserve-view=true).
 
-## Considerations and limitations
-
-Consider the following limitation when using this feature:
-
-* The method is not available in GCC environments. See [Upload a custom app](upload-custom-apps.md) to know how to publish it in GCC environments.
-
 ## Related articles
 
-* [Publish a custom app by uploading an app package](upload-custom-apps.md)
-* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Publish a custom app by uploading an app package](teams-custom-app-policies-and-settings.md)
 * [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)
