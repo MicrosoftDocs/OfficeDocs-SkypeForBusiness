@@ -117,8 +117,8 @@ The following table compares key features between Teams and Teams Premium.
 | View when a screen was shared in the meeting transcript |  | ✔️ |
 | View time markers in meeting recordings when you joined or left a meeting |  | ✔️ |
 | Jump to different speakers with speaker timeline markers |  | ✔️ |
-| View AI-generated notes and tasks from meetings |  | ✔️ |
-| View when you were @mentioned (*coming soon*) |  | ✔️ |
+| View AI-generated notes and tasks from meetings (*coming soon*) |  | ✔️ |
+| View when you were @mentioned |  | ✔️ |
 
 ### Virtual Appointments
 
@@ -237,3 +237,4 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
+
