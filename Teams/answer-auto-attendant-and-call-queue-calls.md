@@ -34,7 +34,7 @@ Cloud Call queues include greetings that are used when someone calls in to a pho
 
 ## Handling an Auto attendant or Call queue call
 
-Users will be able to differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, each call will include the name of the Auto attendant or Call queue resource account the caller was trying to reach, giving users a better context for addressing the caller.
+Users will be able to differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, each call will include the display name of the resource account assigned to the Auto attendant or the Call queue that the caller was trying to reach, giving users a better context for addressing the caller.
 
 The following illustration shows how an incoming call from an Auto attendant or Call queue will appear to a user.
 
