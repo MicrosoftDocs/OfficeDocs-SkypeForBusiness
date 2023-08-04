@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
 ms.date: 09/15/2020
-description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
+description: In this article, you'll learn about how to export Teams content using the Microsoft Teams Export APIs.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ appliesto:
 
 # Export content with the Microsoft Teams Export APIs
 
-Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](/graph/api/resources/channel) or [chat](/graph/api/resources/chat). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
+Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you're able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](/graph/api/resources/channel) or [chat](/graph/api/resources/chat). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
 Here are some examples on how you can use these export APIs:
 
@@ -40,11 +40,11 @@ Here are some examples on how you can use these export APIs:
 
 - **Bulk Export of Teams Message:** Teams Export APIs support up to 200 RPS Per App Per tenant and 600 RPS for an Application, with these limits you should be able to bulk export of Teams messages.
 
-- **Bulk Export of Teams meetings recordings & transcripts (Beta)**: With this beta update, you will be able to bulk export meeting recordings & associated transcripts for Teams meetings.
+- **Bulk Export of Teams meetings recordings & transcripts (Beta)**: With this beta update, you'll be able to bulk export meeting recordings & associated transcripts for Teams meetings.
   
-- **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
+- **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform. And be approved by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
-    If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
+    If you're already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
   
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
 
@@ -96,7 +96,7 @@ Here are some examples on how you can use these export APIs:
 
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
   
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
   
   - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
   
@@ -134,7 +134,7 @@ The following partners are certified. Your company may choose to work with any c
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
 
 ### Next steps
-If you are a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
+If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
@@ -216,25 +216,25 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    Where: 
 
-   - `<id>` represents a single transcript  
+   - `<id>` represents a single transcript.  
 
-   - `<meetingId>` represents a meeting or call identifier 
+   - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting 
+   - `<meetingOrganizerId>` represents the organizer of the meeting.
 
-   - `<createdDateTime>` indicates the start time of the meeting 
+   - `<createdDateTime>` indicates the start time of the meeting. 
 
-   - `<recordingContentUrl>` value indicates URL to the recording content 
+   - `<recordingContentUrl>` value indicates URL to the recording content. 
 
-   - Recordings will be in MP4 format 
+   - Recordings are in MP4 format. 
 
-   - The average size of the recording content itself in is about 350MB on disk, based on averages we are seeing for meetings that are in range of 30mins – 60mins 
+   - The average size of the recording content itself in is about 350 MB on disk, based on averages we're seeing for meetings that are in range of 30 mins – 60 mins. 
 
-   - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
+   - Results aren't guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they'll share the same `meetingId` value. Additionally, the entries for the multiple recordings are correctly sequenced for the meeting in question. 
 
-   - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller 
+   - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller. 
 
-   - Paginating through the results will be supported as per current patterns in the Teams Export API. Pagination will be supported via the presence of `@oData.nextLink` property in the response. The nextLink property will contain a `skipToken` value, as indicated below. If no `skipToken` is present, it means that there are no more results to retrieve in the current batch: 
+   - Paginating through the results will be supported as per current patterns in the Teams Export API. Pagination will be supported via the presence of `@oData.nextLink` property in the response. The nextLink property contains a `skipToken` value, as indicated below. If no `skipToken` is present, it means that there are no more results to retrieve in the current batch: 
 
      |Request                               |Response      |@nextLink        |Comments                                      |
      |--------------------------------------|--------------|-----------------|----------------------------------------------|
@@ -242,9 +242,9 @@ No model declaration enables access to APIs with limited usage per each requesti
      |`/getAllRecordings?skipToken=ABC`     |Count: 10     |`?skipToken=DEF` |`SkipToken` returned, request to get next page|
      |`/getAllRecordings?skipToken=DEF`     |Count: 7      |                 |No `skipToken`, no more data available        |
 
-   - `$top` parameter will also be supported as per current patterns in the Teams Export API 
+   - `$top` parameter will also be supported as per current patterns in the Teams Export API.
 
-   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions 
+   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions. 
 
    - The following API can be used to get the actual recording content of the selected `userId`, `meetingId` and `recordingId` that was obtained in the response of the GET `getAllRecordings` API. It returns the content of the recording:
 
@@ -284,15 +284,15 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    Where: 
 
-   - `<id>` represents a single recording
+   - `<id>` represents a single recording.
 
-   - `<meetingId>` represents a meeting or call identifier 
+   - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting 
+   - `<meetingOrganizerId>` represents the organizer of the meeting. 
 
-   - `<createdDateTime>` indicates the start time of the meeting 
+   - `<createdDateTime>` indicates the start time of the meeting. 
 
-   - `<transcriptContentUrl>` value indicates URL to the transcript content 
+   - `<transcriptContentUrl>` value indicates URL to the transcript content. 
 
    - Transcript content, by default, will be in VTT format. But, using an Accept header value of `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, DOCX format can also be obtained.
 
@@ -310,11 +310,11 @@ No model declaration enables access to APIs with limited usage per each requesti
      |`/getAllTranscripts?skipToken=ABC`     |Count: 10     |`?skipToken=DEF` |`SkipToken` returned, request to get next page|
      |`/getAllTranscripts?skipToken=DEF`     |Count: 7      |                 |No `skipToken`, no more data available        |
 
-   - `$top` parameter will also be supported as per current patterns in the Teams Export API 
+   - `$top` parameter will also be supported as per current patterns in the Teams Export API. 
 
-   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions 
+   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions. 
 
-   - The following API can be used to get the actual transcript content of the selected userId, meetingId and transcriptId that was obtained in the response of the GET getAllTranscripts API. It returns the content of the recording 
+   - The following API can be used to get the actual transcript content of the selected userId, meetingId and transcriptId that was obtained in the response of the GET getAllTranscripts API. It returns the content of the recording. 
 
    ```
    GET users('{userId}')/onlineMeetings('{meetingId}')/transcripts('{transcriptId}')/content
