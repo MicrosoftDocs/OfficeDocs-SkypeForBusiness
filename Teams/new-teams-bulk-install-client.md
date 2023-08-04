@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # Bulk deploy the new Microsoft Teams client 
 
 >[!Note]
->**Coming soon:** The Bulk deploy feature will be released at the end of July 2023.
+>**Coming soon:** The Bulk deploy feature will be released in early August 2023.
 
 Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
@@ -36,8 +36,8 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 
 When **TeamsProvision.exe** is run on a computer:
 
-- Admin downloads the Teams.exe
-- Installs the new Teams app for **all users on the computer.** 
+- The installer downloads the latest Teams MSIX package from Microsoft
+- The installer installs the Teams application for all users on the computer, and any users who may be added afterwards.
 
 >[!Important]
 >Users who have installed a different Teams version will have their version replaced with the provisioned version.
@@ -65,7 +65,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 ## Deploy the new Teams application to your organization
 
 >[!Important]
->The Bulk deploy feature will be released at the end of July 2023. Please check back at that time.
+>The Bulk deploy feature will be released in early August, 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
@@ -76,7 +76,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 1. Download the .exe installer.
 
 >[!Important]
->This download link will be available when the feature goes live at the end of July, 2023. Please check back then.
+>This download link will be available when the feature goes live in early August, 2023. Please check back then.
 
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **./teamsprovision.exe -p**
