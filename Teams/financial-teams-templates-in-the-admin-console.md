@@ -1,8 +1,8 @@
 ---
 title: Use financial team templates
-author: lanachin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
