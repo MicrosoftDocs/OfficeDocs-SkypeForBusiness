@@ -41,19 +41,19 @@ The Collaboration activity reports can be found in the Teams Admin Center dashbo
 This section describes the following components of the Collaboration activity reports:
 
 - [Inactive teams](#inactive-teams)
-- [External domains activity](#external-domains-activity)
+- [Inactive external domains activity](#inactive-external-domains-activity)
 - [Teams by user type](#teams-by-user-type)
 - [Channels by user type](#channels-by-user-type)
-- [External collaboration activity by team](#external-collaboration-activity-by-team)
-- [External collaboration activity by user](#external-collaboration-activity-by-user)
-- [Guest activity](#guest-activity)
+- [Teams with the most external user and guest activity](#teams-with-the-most-external-user-and-guest-activity)
+- [Users with the most external user and guest collaboration](#users-with-the-most-external-user-and-guest-collaboration)
+- [Guests with the most external user and guest collaboration](#guests-with-the-most-external-user-and-guest-collaboration)
 
 #### Inactive teams
 
 We recommend the removal of inactive teams to avoid the spread of confidential information when not necessary.
 
 > [!NOTE]
-> Every team has an associated site automatically created for it; and each team's associated site is also inactive.
+> Every team has an associated site automatically created for it; and each team's associated site is also inactive. You can use using Site Lifecycle Management (SLM) policies to view inactive teams whose associated sites are also inactive. For more information, see [Using SLM policy to view data of inactive teams](#using-slm-policy-to-view-data-of-inactive-teams).
 
 > [!NOTE]
 > The Inactive teams widget displays only inactive teams whose connected workloads are also inactive.
@@ -70,13 +70,32 @@ By default, we show you the teams that have been inactive from the last 30 days.
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
-You can also archive the team directly from the report. To archive the team, you can scroll to the extreme right and click the **bin** icon (under the **Action** column), and then select **Archive** from the **Archive team?** dialog box. When you archive a team, it goes into read-only mode, which has no impact on the connected workloads.
+You can also archive the team directly from the report. However, archiving a team has no impact on the connected workloads, with the team only going into a read-only mode.
 
-:::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::
+If you want to archive an inactive team, you can scroll to the extreme right and click the **bin** icon (under the **Action** column), and then select **Archive** on the **Archive team?** dialog box.
+
+:::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
+
+##### Using SLM policy to view data of inactive teams
+
+SLM is an SAM (Syntex Advanced Management) feature within the SharePoint admin center (SPAC). SLM supports inactive site policies, and there can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
+
+To check the scope for a policy, you can perform the following tasks:
+
+1. Select a policy on the **Site lifecycle management** page. The panel containing the details of the policy appears.
+1. Select the **scope** tab.
+
+   :::image type="content" source="media/finding-scope-of-policy.png" alt-text="Screenshot showing the scope that an SLM policy has." lightbox="media/finding-scope-of-policy.png":::
+
+   The highlighted portion in the preceding screenshot implies that this policy contains inactive sites that are connected to inactive teams.
+
+You can download the report of this policy, which returns data of inactive sites. In this report, those inactive sites which have the value **YES** under the **Connected to Teams** column are the inactive sites whose associated teams are also inactive.
+
+:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot of the report of an SLM policy." lightbox="media/report-of-slm-policy.png":::
 
 ##### Site Lifecycle Management (SLM)
 
-SLM (Site Lifecycle Management) is a feature that has been linked with SharePoint to enable administrators to manage inactive teams through SLM policies. For more information on how an SLM policy for inactive sites works, see [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
+SLM (Site Lifecycle Management) is a feature in SPAC in which the users have a Syntex Advanced Management (SAM) license. SLM in SPAC supports creation of policies that can manage inactive sites. eature is compatible only with Teams admin that has been linked with SharePoint to enable administrators to manage inactive teams through SLM policies. For more information on how an SLM policy for inactive sites works, see [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
 
 SLM contains the following functionalities:
 
@@ -101,15 +120,8 @@ SLM is now connected with SharePoint admin center (SPAC). SLM - through its link
    If the owners need the sites, they should respond back to the notification stating that their sites are active.
 1. If the owners don't respond to the notification, then such sites are reported to the SharePoint administrator as "unactioned by owner". In the event of this notification, the SharePoint administrator on discretion can delete these inactive sites.
 
-A SharePoint administrator can choose to:
-
-- [Use an existing policy for inactive sites](#use-an-existing-policy-for-inactive-sites)
-- [Create a new policy for inactive sites](#create-a-new-policy-for-inactive-sites)
+A SharePoint administrator can choose to [create a new policy for inactive sites](#create-a-new-policy-for-inactive-sites)
   
-###### Use an existing policy for inactive sites
-
-You can choose to use an existing SLM policy and run it. The policy will function as specified in [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
-
 ###### Create a new policy for inactive sites
 
 For information on how to create an SLM policy, see *Create an inactive site policy* in [Manage site lifecycle policies](https://microsoft-my.sharepoint.com/:w:/p/mactra/EV016sUQw_VPk-fKVktp7KgB8imRIdUEXF2EE66MqX113A?e=9nK55K&wdOrigin=TEAMS-ELECTRON.p2p.bim&wdExp=TEAMS-TREATMENT&wdhostclicktime=1688056845966&web=1).
