@@ -105,4 +105,6 @@ Users who are in the public preview will see **EA** next to their profile pictur
 
 ## Related topics
 
+[Deploy the new Teams using policies](new-teams-deploy-using-policies.md)
+
 [Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
