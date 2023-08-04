@@ -1,10 +1,10 @@
 ---
 title: Manage the Lists app for your organization
-author: Samanro
-ms.author: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: anach,v-jasuk
 ms.date: 06/14/2023
-manager: samanro
 ms.topic: how-to
 audience: admin
 ms.service: msteams
