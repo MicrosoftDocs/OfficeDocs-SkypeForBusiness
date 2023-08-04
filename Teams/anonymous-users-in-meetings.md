@@ -1,5 +1,5 @@
 --- 
-title: Manage anonymous participant access to Teams meetings (IT admins)
+title: Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
@@ -19,14 +19,16 @@ f1.keywords:
 description: For IT Pros - Learn how anonymous meeting participation works in Microsoft Teams.
 ---
 
-# Manage anonymous participant access to Teams meetings (IT admins)
+# Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)
 
-Anonymous participants in meetings hosted by your organization are those who can't be verified. This could include:
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+
+Anonymous participants in meetings, webinars, and town halls hosted by your organization are those who can't be verified. This could include:
 
 - People who are not logged in to Teams with a work or school account 
 - People from non-trusted organizations (as configured in [external access](manage-external-access.md)) and from organizations that you trust but which do not trust your organization.
 
-Anonymous meeting join is controlled by an organization level setting and user level policies. For anonymous meeting join to work:
+Anonymous meeting join is controlled by an organization level setting and user level policies. These also affect webinars and town halls. For anonymous meeting join to work:
 - The **Anonymous users can join a meeting** Teams meeting setting (organization level) must be turned on.
 - The meeting organizer must be assigned a Teams meeting policy where the **Anonymous users can join a meeting** control is turned on.
 
