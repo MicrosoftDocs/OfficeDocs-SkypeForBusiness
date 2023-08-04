@@ -142,22 +142,22 @@ No model declaration enables access to APIs with limited usage per each requesti
 
 ## JSON representation
 
-The following example is a JSON representation of the chat resource:
+1. The following example is a JSON representation of the chat resource:
 
-Namespace: microsoft.graph
+   Namespace: microsoft.graph
 
-```JSON
-{
-"id": "string (identifier)",
-"replyToId": "string (identifier)",
-"from": {"@odata.type": "microsoft.graph.identitySet"},
-"etag": "string",
-"messageType": "string",
-"createdDateTime": "string (timestamp)",
-"lastModifiedDateTime": "string (timestamp)",
-"deletedDateTime": "string (timestamp)",
-"subject": "string",
-"from": {
+   ```JSON
+   {
+    "id": "string (identifier)",
+    "replyToId": "string (identifier)",
+    "from": {"@odata.type": "microsoft.graph.identitySet"},
+    "etag": "string",
+    "messageType": "string",
+    "createdDateTime": "string (timestamp)",
+    "lastModifiedDateTime": "string (timestamp)",
+    "deletedDateTime": "string (timestamp)",
+    "subject": "string",
+    "from": {
                 "application": null,
                 "device": null,
                 "conversation": null,
@@ -168,39 +168,39 @@ Namespace: microsoft.graph
 
                     "userIdentityType": "aadUser"                }
             },
-"body": {"@odata.type": "microsoft.graph.itemBody"},
-"summary": "string",
+    "body": {"@odata.type": "microsoft.graph.itemBody"},
+    "summary": "string",
 
-"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+    "chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
 
-"attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
-"mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
-"importance": "string",
-"locale": "string",
-}
-```
+    "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
+    "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
+    "importance": "string",
+    "locale": "string",
+    }
+    ```
 
-> [!NOTE]
-> For more information on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+    > [!NOTE]
+    > For more information on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
 
-The following example is a JSON representation of the recording resource:
+2. The following example is a JSON representation of the recording resource:
 
-Namespace: microsoft.graph
+    Namespace: microsoft.graph
 
-```JSON
-{ 
-"@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(meetingRecording)", 
-"@odata.count": 2, 
-"@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
-"value":
-[ 
+    ```JSON
+    {
+     "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(meetingRecording)", 
+     "@odata.count": 2, 
+     "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
+     "value":
+       [ 
          { 
           "@odata.type": "#microsoft.graph.meetingRecording", 
           "id": "6263af16-b660-41d0-a17b-83fbd15a39c7", 
           "meetingId": "MSoxMjczYTAxNi0yMDFkRLTmOTUtODA5My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1BBXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:43:36.2573447Z", 
-          "recordingContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
+          "recordingContentUrl":    "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
          }, 
          { 
           "@odata.type": "#microsoft.graph.meetingRecording", 
@@ -209,78 +209,118 @@ Namespace: microsoft.graph
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:44:11.2635254Z", 
           "recordingContentUrl": " https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/recordings/{recordingId}/content" 
-          }, 
-] 
-}
-```
+          },
+        ] 
+       }
+     ```
 
-Where: 
+   Where: 
 
-- `<id>` represents a single transcript  
+   - `<id>` represents a single transcript  
 
- - `<meetingId>` represents a meeting or call identifier 
+   - `<meetingId>` represents a meeting or call identifier 
 
- - `<meetingOrganizerId>` represents the organizer of the meeting 
+   - `<meetingOrganizerId>` represents the organizer of the meeting 
 
- - `<createdDateTime>` indicates the start time of the meeting 
+   - `<createdDateTime>` indicates the start time of the meeting 
 
- - `<recordingContentUrl>` value indicates URL to the recording content 
+   - `<recordingContentUrl>` value indicates URL to the recording content 
 
- - Recordings will be in MP4 format 
+   - Recordings will be in MP4 format 
 
- - The average size of the recording content itself in is about 350MB on disk, based on averages we are seeing for meetings that are in range of 30mins – 60mins 
+   - The average size of the recording content itself in is about 350MB on disk, based on averages we are seeing for meetings that are in range of 30mins – 60mins 
 
- - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
+   - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
 
- - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller 
+   - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller 
 
- - Paginating through the results will be supported as per current patterns in the Teams Export API. Pagination will be supported via the presence of `@oData.nextLink` property in the response. The nextLink property will contain a `skipToken` value, as indicated below. If no `skipToken` is present, it means that there are no more results to retrieve in the current batch: 
+   - Paginating through the results will be supported as per current patterns in the Teams Export API. Pagination will be supported via the presence of `@oData.nextLink` property in the response. The nextLink property will contain a `skipToken` value, as indicated below. If no `skipToken` is present, it means that there are no more results to retrieve in the current batch: 
 
-   |Request                               |Response      |@nextLink        |Comments                                      |
-   |--------------------------------------|--------------|-----------------|----------------------------------------------|
-   |`/getAllRecordings`                   |Count: 10     |`?skipToken=ABC` |Initial request without `skipToken`           |
-   |`/getAllRecordings?skipToken=ABC`     |Count: 10     |`?skipToken=DEF` |`SkipToken` returned, request to get next page|
-   |`/getAllRecordings?skipToken=DEF`     |Count: 7      |                 |No `skipToken`, no more data available        |
+     |Request                               |Response      |@nextLink        |Comments                                      |
+     |--------------------------------------|--------------|-----------------|----------------------------------------------|
+     |`/getAllRecordings`                   |Count: 10     |`?skipToken=ABC` |Initial request without `skipToken`           |
+     |`/getAllRecordings?skipToken=ABC`     |Count: 10     |`?skipToken=DEF` |`SkipToken` returned, request to get next page|
+     |`/getAllRecordings?skipToken=DEF`     |Count: 7      |                 |No `skipToken`, no more data available        |
 
-- `$top` parameter will also be supported as per current patterns in the Teams Export API 
+   - `$top` parameter will also be supported as per current patterns in the Teams Export API 
 
-- `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions 
+   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions 
 
-- The following API can be used to get the actual recording content of the selected `userId`, `meetingId` and `recordingId` that was obtained in the response of the GET `getAllRecordings` API. It returns the content of the recording:
+   - The following API can be used to get the actual recording content of the selected `userId`, `meetingId` and `recordingId` that was obtained in the response of the GET `getAllRecordings` API. It returns the content of the recording:
 
-```
-GET users('{userId}')/onlineMeetings('{meetingId}')/recordings('{recordingId}')/content 
-```
-The following example is a JSON representation of the transcript resource:
+   ```
+   GET users('{userId}')/onlineMeetings('{meetingId}')/recordings('{recordingId}')/content 
+   ```
+   
+3. The following example is a JSON representation of the transcript resource:
 
-Namespace: microsoft.graph
+   Namespace: microsoft.graph
 
-```JSON
-{
-"@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(callTranscript)", 
-"@odata.count": 2, 
-"@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
-"value":
-[ 
-{ 
-"@odata.type": "#microsoft.graph.callTranscript", 
-"id": "MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh", 
-"meetingId": "MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
-"meetingOrganizerId": "{userId}", 
-"transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
-"createdDateTime": "2022-08-03T20:43:36.6248355Z" 
-}, 
-{ 
-"@odata.type": "#microsoft.graph.callTranscript", 
-"id": "{transcriptId}", 
-"meetingId": "{meetingId}", 
-"meetingOrganizerId": "{userId}", 
-"transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content", 
-"createdDateTime": "2022-06-23T21:28:46.1865617Z" 
-} 
-] 
-} 
+   ```JSON
+   {
+   "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(callTranscript)", 
+   "@odata.count": 2, 
+   "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
+   "value":
+   [ 
+   { 
+   "@odata.type": "#microsoft.graph.callTranscript", 
+   "id": "MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh", 
+   "meetingId": "MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
+   "meetingOrganizerId": "{userId}", 
+   "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
+   "createdDateTime": "2022-08-03T20:43:36.6248355Z" 
+   }, 
+   { 
+   "@odata.type": "#microsoft.graph.callTranscript", 
+   "id": "{transcriptId}", 
+   "meetingId": "{meetingId}", 
+   "meetingOrganizerId": "{userId}", 
+   "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content", 
+   "createdDateTime": "2022-06-23T21:28:46.1865617Z" 
+   } 
+   ] 
+   } 
 
+   Where: 
+
+   - `<id>` represents a single recording
+
+   - `<meetingId>` represents a meeting or call identifier 
+
+   - `<meetingOrganizerId>` represents the organizer of the meeting 
+
+   - `<createdDateTime>` indicates the start time of the meeting 
+
+   - `<transcriptContentUrl>` value indicates URL to the transcript content 
+
+   - Transcript content, by default, will be in VTT format. But, using an Accept header value of `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, DOCX format can also be obtained.
+
+   - The average size of the transcript content itself in JSON/VTT format is about 300 KB, based on averages we are seeing for meetings that are in range of 30 mins – 60 mins. 
+
+   - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
+
+   - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller. 
+
+   - Paginating through the results will be supported as per current patterns in the Teams Export API. Pagination will be supported via the presence of `@oData.nextLink` property in the response. The `nextLink` property will contain a `skipToken` value, as indicated below. If no `skipToken` is present, it means that there are no more results to retrieve in the current batch:
+   
+     |Request                               |Response      |@nextLink        |Comments                                      |
+     |--------------------------------------|--------------|-----------------|----------------------------------------------|
+     |`/getAllTranscripts`                   |Count: 10     |`?skipToken=ABC` |Initial request without `skipToken`           |
+     |`/getAllTranscripts?skipToken=ABC`     |Count: 10     |`?skipToken=DEF` |`SkipToken` returned, request to get next page|
+     |`/getAllTranscripts?skipToken=DEF`     |Count: 7      |                 |No `skipToken`, no more data available        |
+
+   - `$top` parameter will also be supported as per current patterns in the Teams Export API 
+
+   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions 
+
+   - The following API can be used to get the actual transcript content of the selected userId, meetingId and transcriptId that was obtained in the response of the GET getAllTranscripts API. It returns the content of the recording 
+
+   ```
+   GET users('{userId}')/onlineMeetings('{meetingId}')/transcripts('{transcriptId}')/content
+   ``` 
+
+For more information, see [Use Graph APIs to fetch transcript](/microsoftteams/platform/graph-api/meeting-transcripts/api-transcripts#get-calltranscript-content).
 
 
 ## Export API filters
