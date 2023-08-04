@@ -107,7 +107,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 ### External Access
 
-Administrators allowing only Trusted Domains for External access, are limited to adding a max of 4000 trusted domains. [See this article for more information](trusted-organizations-external-meetings-chat.md).
+Administrators allowing only trusted domains for external access are limited to adding a maximum of 4,000 trusted domains. For more information, see [Manage external meetings and chat with people and organizations using Microsoft identities](/microsoftteams/trusted-organizations-external-meetings-chat).
 
 ### Emailing a channel
 
