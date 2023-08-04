@@ -30,11 +30,23 @@ Device firmware updates happen automatically by default. You can, however, updat
 
 #### Software versions on Teams admin center
 
-Only firmware versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Firmware versions tested by Microsoft are labeled **Verified by Microsoft**.
+All new software versions for Teams devices are made available on Teams admin center once they are published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfils the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
 
-Additionally, early versions of the firmware may also be made available and will be labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview firmware, and devices running on these versions will also be eligible for receiving automatic updates in future.
+Only software versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Software versions tested by Microsoft are labeled **Verified by Microsoft**.
 
-Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.
+Additionally, early versions of the software may also be made available and will be labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview firmware, and devices running on these versions will also be eligible for receiving automatic updates in future.
+
+Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.  
+  
+Refer to the following for more details on new releases and their requirements:
+
+Phone - [Phone - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-phones)
+
+Displays - [Displays - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-displays)
+
+Panels - [Panels - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-panels)
+
+MTRA - [MTRA - Product release information](/microsoftteams/rooms/android-app-firmware)
 
 ## Automatic updates
 
@@ -152,3 +164,4 @@ The device count in **Automatic software updates** section shows the number of e
 
 8. **When do automatic updates happen?**
 The updates are scheduled to happen over weekends outside of typical business hours to minimize impact. If the device is offline at that time, the updates will get executed when the device comes back online the next time.
+
