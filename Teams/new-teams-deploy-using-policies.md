@@ -93,7 +93,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
    |:-----|:-----|
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
-   |Microsoft controlled|Default. Based on product readiness, use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-rollout-schedule).|
+   |Microsoft controlled|Default. Based on product readiness, use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-rollout-schedule-for-windows-clients).|
 
 </br>
 
