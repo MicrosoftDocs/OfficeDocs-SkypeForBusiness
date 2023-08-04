@@ -72,7 +72,7 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
        - Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.
 
    -   **Classic teams as default**
-       - Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.
+       - Use this value to have classic Teams as the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.
 
 1. Select **Apply**.
 
