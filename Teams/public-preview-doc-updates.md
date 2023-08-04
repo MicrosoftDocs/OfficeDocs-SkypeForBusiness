@@ -64,6 +64,16 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
        - Users can't turn off Teams Public preview.
 
 1. Select a setting for **Use new Teams client**.
+
+   -   **Microsoft controlled** (default)
+       - The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness.
+
+   -   **Not enabled**
+       - Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.
+
+   -   **Classic teams as default**
+       - Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.
+
 1. Select **Apply**.
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet.
