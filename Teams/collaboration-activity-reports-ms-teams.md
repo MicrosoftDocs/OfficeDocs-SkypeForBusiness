@@ -76,9 +76,19 @@ If you want to archive an inactive team, you can scroll to the extreme right and
 
 :::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
 
-##### Using SLM policy to view data of inactive teams
+##### View data of inactive teams
 
-SLM is an SAM (Syntex Advanced Management) feature within the SharePoint admin center (SPAC). SLM supports inactive site policies, and there can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
+You can view the data of inactive teams in an SLM policy report. For more information on SLM and its "policy" feature, see [Site Lifecycle Management (SLM)](#site-lifecycle-management-slm).
+
+##### Site Lifecycle Management (SLM)
+
+SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC) which is compatible only for tenants who have acquired the SAM (Syntex Advanced Management) license.
+
+An SLM policy is a mechanism by which a SharePoint administrator can manage SharePoint sites.
+
+###### Scope
+
+SLM provides for policies to manage inactive sites. There can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
 
 To check the scope for a policy, you can perform the following tasks:
 
@@ -93,38 +103,71 @@ You can download the report of this policy, which returns data of inactive sites
 
 :::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot of the report of an SLM policy." lightbox="media/report-of-slm-policy.png":::
 
-##### Site Lifecycle Management (SLM)
+###### Types 
 
-SLM (Site Lifecycle Management) is a feature in SPAC in which the users have a Syntex Advanced Management (SAM) license. SLM in SPAC supports creation of policies that can manage inactive sites. eature is compatible only with Teams admin that has been linked with SharePoint to enable administrators to manage inactive teams through SLM policies. For more information on how an SLM policy for inactive sites works, see [How an SLM inactive site policy works](#how-an-slm-inactive-site-policy-works).
+An SLM policy can be of the following types:
 
-SLM contains the following functionalities:
+- **Simulation**: A simulation policy is one that runs once based on the parameters you have provided. If this policy fails, you have to delete this policy and create a new one.
+- **Active**: An active policy is one that runs monthly. The execution of this policy leads to:
+    - generation of reports
+    - notifications to site owners of the inactive sites (For more information on the notifications to the owners of the inactive sites, see [Notifications to site owners](#notifications-to-site-owners).)
 
-1. Managing sites and its associated workloads including teams.
+###### Functionalities
 
-   > [!NOTE]
-   > A site's connected workloads other than teams are Yammer and Exchange.
+An SLM policy has the following functionalities:
+- [Detection of inactive sites](#detection-of-inactive-sites)
+- [Notification to site owners](#notification-to-site-owners)
+- [Reports](#reports)
 
-2. Assessment spanning connected workloads, wherein when a site is assessed, its associated workloads such as teams, yammer, and exchange also occurs.
+###### Detection of inactive sites
 
-3. Assessment covering all types of sites, that is, sites that have been inactive and "unactioned", and also sites connected to teams. This extensive scope of its "assessment" characteristic provides a report on not just inactive and "unactioned" sites, but also on sites connected with teams. (This function of SLM is very useful for the TAC administrators, as it enables them to segreate report of the sites with connected teams.)
+An SLM policy on being executed detects sites that have been inactive for a specified period of time.
 
-SLM comes under the purview of the Syntex Advanced Management (SAM) license; that is, SLM can be used only for those sites and teams whose tenant has an SAM license.
+> [!NOTE]
+> This <specified period of time> value is defined by the SharePoint administrator when creating a policy. Based on this threshold value, inactive sites are detected and an email notification to the site owner is triggered.
 
-SLM is now connected with SharePoint admin center (SPAC). SLM - through its link with SharePoint - provides an inactive site policy for the SharePoint to use.
+For example, if the specified period of time is 6 months, you select **6 months** under **How long after the last activity should a site be considered inactive?** on the **Set policy scope** page.
 
-##### How an SLM inactive site policy works
+:::image type="content" source="media/set-policy-scope-page.png" alt-text="Screenshot showing the Set policy scope page." lightbox="media/set-policy-scope-page.png":::
 
-1. The policy's execution detects sites that are inactive in SharePoint and its associated workloads such as teams, yammer, and exchange.
-1. The owners of these sites are notified about its inactivity (and about inactivity of its associated workloads).
-1. The site owners need to confirm if their sites are inactive or whether they need the sites.
-   If the owners need the sites, they should respond back to the notification stating that their sites are active.
-1. If the owners don't respond to the notification, then such sites are reported to the SharePoint administrator as "unactioned by owner". In the event of this notification, the SharePoint administrator on discretion can delete these inactive sites.
+###### Notification to site owners
 
-A SharePoint administrator can choose to [create a new policy for inactive sites](#create-a-new-policy-for-inactive-sites)
-  
-###### Create a new policy for inactive sites
+Once inactive sites are detected after running the SLM policy, an email notification is triggered to the owners of the sites. These notifications inform the site owners that their sites have been inactive for the specified period of time. These notifications prompt the site owners to confirm if their site is "active" or "inactive".
 
-For information on how to create an SLM policy, see *Create an inactive site policy* in [Manage site lifecycle policies](https://microsoft-my.sharepoint.com/:w:/p/mactra/EV016sUQw_VPk-fKVktp7KgB8imRIdUEXF2EE66MqX113A?e=9nK55K&wdOrigin=TEAMS-ELECTRON.p2p.bim&wdExp=TEAMS-TREATMENT&wdhostclicktime=1688056845966&web=1).
+If the site owner wants to keep the site, the site owner should respond by selecting the **Certify site** button on the notification email. 
+
+Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond to the notification within 6 months (from the time the first notification was triggered), this site is listed as **unactioned by site owner** in the policy execution report.
+
+###### Reports
+
+Once a policy has been created and run, the inactive sites are detected and email notifications are triggered for the site owner.This data is available in the form of a report which can be downloaded by clicking the **Download** link under the **Report** column on the **Site lifecycle management** page.
+
+:::image type="content" source="media/slm-screen-download-reports.png" alt-text="Screenshot showing the Site lifecycle management page from which you can download the report." lightbox="media/slm-screen-download-reports.png":::
+
+To know which are the inactive sites that are associated with inactive teams, you can look for the value **YES** under the **Connected to Teams** column in the report. An example of a report is shown in the following screenshot:
+
+:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot showing the report of an SLM policy which can be downloaded from the Site lifecycle management page." lightbox="media/report-of-slm-policy.png":::
+
+The inactive sites in the report which have the value **YES** under the **Connected to Teams** column are those sites which are associated with inactive teams.
+
+##### Create a new policy for inactive sites
+
+To create an inactive site policy, perform the following steps:
+
+1. Go to SharePoint admin center.
+1. Select **Policies > Site lifecycle management**.
+1. Select **+ Create policy** and then select **Next**.
+1. Enter the policy scope parameters based on which you want to retrieve data, and select **Next**.
+
+   :::image type="content" source="media/setting-parameters-for-slm-policy.png" alt-text="Screenshot showing the page on which you can set the parameters that will determine the data of the SLM policy report." lightbox="media/setting-parameters-for-slm-policy.png":::
+
+1. Provide a name for your policy, provide a description (optional), select a policy mode.
+
+   :::image type="content" source="media/define-details-of-policy.png" alt-text="":::
+   :::image type="content" source="media/define-details-of-policy.png" alt-text="Screenshot on which you define the details for the SLM policy, such as name, description, and the policy mode." lightbox="media/define-details-of-policy.png":::
+
+1. Select **Next**.
+1. Select **Done**. Your policy is now created, and can be viewed and managed from the **Site lifecycle management** dashboard.
 
 #### Inactive external domains activity
 
