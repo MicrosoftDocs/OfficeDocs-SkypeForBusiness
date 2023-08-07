@@ -170,6 +170,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink MP54/MP56/MP58  | `122.15.0.139`     | 2023 Update #2D |
 |Poly CCX 350/400/500/505/600 | `8.1.3.1301` | 2023 Update #2C |
 |Poly Trio C60 | `8.1.3.1300 ` | 2023 Update #2C |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | 2023 Update #2C    |
