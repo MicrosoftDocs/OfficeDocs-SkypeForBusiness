@@ -98,7 +98,7 @@ To troubleshoot issues with inviting guests in Teams, administrators can run a d
 
 ## Tracking guests in your organization
 
-You can track guest additions in Azure AD or the Microsoft 365 security center. Adding a guest in Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see [Auditing and reporting a B2B collaboration user](/azure/active-directory/external-identities/auditing-and-reporting) and [Search the audit log in the compliance portal](/microsoft-365/compliance/audit-log-search).
+You can track guest additions in Azure AD or the Microsoft 365 security center. Adding a guest in Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see [Auditing and reporting a B2B collaboration user](/azure/active-directory/external-identities/auditing-and-reporting) and [Search the audit log](/purview/audit-new-search).
 
 ### Guest access reviews
 
