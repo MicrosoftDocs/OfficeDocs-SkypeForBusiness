@@ -30,14 +30,16 @@ With guest access, you can provide access to teams, documents in channels, resou
 
 When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
+If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
+
 > [!NOTE]
 > If you just want to find, call, chat, and set up meetings with people in other Microsoft 365 organizations, use [external access](trusted-organizations-external-meetings-chat.md).
 
-As an admin, you can add a new guest to the organization in a couple of ways:
+Global administrators or Teams administrators and team owners can add a new guest to the organization in a couple of ways:
 
-- Global administrators or Teams administrators and team owners add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f). If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
+- Add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
 
-- Add guests to your organization through Azure Active Directory (Azure AD) B2B collaboration. For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
+- Add guests to your organization without adding them to a team through Azure Active Directory (Azure AD) B2B collaboration. For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).
 
 Admins can also delegate permissions to add guests to others in their organization by assigning the Guest Inviter role. For more information, see [Limit who can invite guests](/microsoft-365/solutions/limit-who-can-invite-guests).
 
