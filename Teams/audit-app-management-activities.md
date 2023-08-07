@@ -59,7 +59,7 @@ To search the audit logs of Teams app activities, follow these steps:
 
 1. Select **Search**.
 
-   :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
+   :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Screenshot that shows how to search for Teams activities in the Microsoft Purview to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
 
 You can export the searched audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/purview/audit-log-export-records).
 
