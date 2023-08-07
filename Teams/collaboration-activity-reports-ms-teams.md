@@ -53,7 +53,7 @@ This section describes the following components of the Collaboration activity re
 We recommend the removal of inactive teams to avoid the spread of confidential information when not necessary.
 
 > [!NOTE]
-> Every team has an associated site automatically created for it; and each team's associated site is also inactive. You can use using Site Lifecycle Management (SLM) policies to view inactive teams whose associated sites are also inactive. For more information, see [Using SLM policy to view data of inactive teams](#using-slm-policy-to-view-data-of-inactive-teams).
+> Every team has an associated site automatically created for it; and each team's associated site is also inactive. You can use using Site Lifecycle Management (SLM) policies to view inactive teams whose associated sites are also inactive.
 
 > [!NOTE]
 > The Inactive teams widget displays only inactive teams whose connected workloads are also inactive.
@@ -110,7 +110,7 @@ An SLM policy can be of the following types:
 - **Simulation**: A simulation policy is one that runs once based on the parameters you have provided. If this policy fails, you have to delete this policy and create a new one.
 - **Active**: An active policy is one that runs monthly. The execution of this policy leads to:
     - generation of reports
-    - notifications to site owners of the inactive sites (For more information on the notifications to the owners of the inactive sites, see [Notifications to site owners](#notifications-to-site-owners).)
+    - notifications to site owners of the inactive sites. For more information on the notifications to the owners of the inactive sites, see [Notification to site owners](#notification-to-site-owners).
 
 ###### Functionalities
 
@@ -124,7 +124,7 @@ An SLM policy has the following functionalities:
 An SLM policy on being executed detects sites that have been inactive for a specified period of time.
 
 > [!NOTE]
-> This <specified period of time> value is defined by the SharePoint administrator when creating a policy. Based on this threshold value, inactive sites are detected and an email notification to the site owner is triggered.
+> The value for the "specified period of time" is defined by the SharePoint administrator when creating a policy. Based on this threshold value, inactive sites are detected and an email notification to the site owner is triggered.
 
 For example, if the specified period of time is 6 months, you select **6 months** under **How long after the last activity should a site be considered inactive?** on the **Set policy scope** page.
 
@@ -163,7 +163,6 @@ To create an inactive site policy, perform the following steps:
 
 1. Provide a name for your policy, provide a description (optional), select a policy mode.
 
-   :::image type="content" source="media/define-details-of-policy.png" alt-text="":::
    :::image type="content" source="media/define-details-of-policy.png" alt-text="Screenshot on which you define the details for the SLM policy, such as name, description, and the policy mode." lightbox="media/define-details-of-policy.png":::
 
 1. Select **Next**.
