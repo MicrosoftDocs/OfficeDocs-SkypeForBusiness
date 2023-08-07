@@ -1,5 +1,5 @@
 ---
-title: Search the audit logs for app management events
+title: Search the audit logs of app management events
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -25,7 +25,7 @@ Microsoft Purview Audit (Standard) in Microsoft 365 lets you log and search the 
 Before you can search the audit records, ensure that you complete the following prerequisites:
 
 * [Obtain organization's subscription and user licensing](/purview/audit-standard-setup#step-1-verify-organization-subscription-and-user-licensing).
-* [Turn on auditing in the Microsoft Purview compliance portal](/purview/audit-log-enable-disable).
+* [Turn on auditing in the Microsoft Purview](/purview/audit-log-enable-disable) portal.
 * [Assign permissions to search the audit log](/purview/audit-standard-setup#step-2-assign-permissions-to-search-the-audit-log).
 
 ## Search the audit logs for app events in Teams
@@ -49,7 +49,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 To search the audit logs of Teams app activities, follow these steps:
 
-1. Sign in to Microsoft Purview compliance portal and go to **Solutions** > **[Audit](https://compliance.microsoft.com/auditlogsearch)**.
+1. Sign in to Microsoft Purview and go to **Solutions** > **[Audit](https://compliance.microsoft.com/auditlogsearch)**.
 1. On the **Audit** page, update the following fields as required:
 
    * **Date and time range**: Select the start and end dates of the time period for which you want to check the audit logs.
@@ -59,7 +59,7 @@ To search the audit logs of Teams app activities, follow these steps:
 
 1. Select **Search**.
 
-   :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview compliance portal to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
+   :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="Search for Teams activities in the Microsoft Purview to audit for Teams events." lightbox="media/compliance-search-teams-activities.png":::
 
 You can export the searched audit records as a CSV file. For more information, see [Export, configure, and view audit logs](/purview/audit-log-export-records).
 
@@ -72,6 +72,6 @@ You can export the searched audit records as a CSV file. For more information, s
 ## Related articles
 
 * [Use audit logs to investigate Microsoft Power Platform installation activity](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity).
-* [Search the audit sign in the compliance portal](/purview/audit-log-search).
+* [Search the audit logs in Microsoft Purview](/purview/audit-log-search).
 * [Overview of Microsoft Purview Audit Premium](/purview/audit-premium).
 * [Turn auditing on or off](/purview/audit-log-enable-disable).
