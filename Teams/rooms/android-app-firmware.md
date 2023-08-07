@@ -56,6 +56,7 @@ When you install a new firmware version on your device, you can determine the co
 | Logi Rallybar | `1.9.571`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.9.571`   | 2023 Update #2  |
 | Logi RoomMate | `1.9.372`   | 2023 Update #2  |
+| Logi Rallybar Huddle | `1.10.264`   | 2023 Update #2  |
 | Logi Console  | `1.9.504`    | 2023 Update #2  |
 | EPOS EXPAND Vision 5T |`v1.7.23199.02`   | 2023 Update #2 |
 | EPOS EXPAND Vision 3T |`v1.7.23195.03`   | 2023 Update #2 |
