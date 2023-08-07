@@ -348,6 +348,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.9.400` |2023 Update #2  |
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
