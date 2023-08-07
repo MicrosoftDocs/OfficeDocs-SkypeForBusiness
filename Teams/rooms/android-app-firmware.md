@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN D7X 55" |`1.4.3.3`   | 2023 Update #1C |
 | Logi Rallybar | `1.9.571`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.9.571`   | 2023 Update #2  |
 | Logi RoomMate | `1.9.372`   | 2023 Update #2  |
