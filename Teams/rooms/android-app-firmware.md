@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN D7X 55" |`1.4.3.3`   | 2023 Update #1C |
 | EPOS EXPAND Vision 5T |`v1.7.23199.02`   | 2023 Update #2 |
 | EPOS EXPAND Vision 3T |`v1.7.23195.03`   | 2023 Update #2 |
 | EPOS EXPAND Control 3C |`v1.7.23198.05`   | 2023 Update #2 |
