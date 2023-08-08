@@ -9,7 +9,7 @@ ms.reviewer: rafarhi
 ms.date: 08/08/2023
 audience: admin
 search.appverid: MET150
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
