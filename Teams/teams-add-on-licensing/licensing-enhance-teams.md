@@ -140,6 +140,21 @@ The following table compares key features between Teams and Teams Premium.
 
 \* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.*
 
+### Meet app
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| View and prepare upcoming meetings | ✔️ |  |
+| Join ongoing meetings | ✔️ |  |
+| View and recap meetings you attended | ✔️ |  |
+| Filter meetings by All, with Content, and Recorded | ✔️ |  |
+| View and recap meetings that you missed |  | ✔️ |
+| View and recap meetings that mention you\* |  | ✔️ |
+| View when you were mentioned in a meeting\* |  | ✔️ |
+| View AI-generated tasks from meetings |  | ✔️ |
+
+\* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
+
 ## Are there previous Teams features that moved to Teams Premium?
 
 With the general release of Teams Premium on February 1, 2023, the following Teams features moved from Teams to Teams Premium.
@@ -237,4 +252,3 @@ The following list indicates Teams Premium features that require admin configura
 - Customizing Virtual Appointment lobby rooms with branding.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
-
