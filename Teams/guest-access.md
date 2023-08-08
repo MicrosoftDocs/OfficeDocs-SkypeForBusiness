@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rafarhi
-ms.date: 09/13/2017
+ms.date: 08/08/2023
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: normal
