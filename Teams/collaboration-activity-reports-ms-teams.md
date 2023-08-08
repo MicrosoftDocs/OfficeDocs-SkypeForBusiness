@@ -99,13 +99,13 @@ To check the scope for a policy, you can perform the following tasks:
 
    The highlighted portion in the preceding screenshot implies that this policy contains inactive sites that are connected to inactive teams.
 
-You can download the report of this policy, which returns data of inactive sites. In this report, those inactive sites which have the value **YES** under the **Connected to Teams** column are the inactive sites whose associated teams are also inactive.
+You can download the report of this policy, which returns data of inactive sites. In this report, those inactive sites which have the value **TRUE** under the **Connected to Teams** column are the inactive sites whose associated teams are also inactive.
 
 :::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot of the report of an SLM policy." lightbox="media/report-of-slm-policy.png":::
 
 ###### Types 
 
-An SLM policy can be of the following types:
+An SLM policy is of the following types:
 
 - **Simulation**: A simulation policy is one that runs once based on the parameters you have provided. If this policy fails, you have to delete this policy and create a new one.
 - **Active**: An active policy is one that runs monthly. The execution of this policy leads to:
@@ -136,7 +136,7 @@ Once inactive sites are detected after running the SLM policy, an email notifica
 
 If the site owner wants to keep the site, the site owner should respond by selecting the **Certify site** button on the notification email. 
 
-Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond to the notification within 6 months (from the time the first notification was triggered), this site is listed as **unactioned by site owner** in the policy execution report.
+Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond to the notification within 6 months (from the time the first notification was triggered), this site is listed as **unactioned by site owner** in the policy execution report. The SharePoint administrator can then choose to take action on such sites, based on discretion.
 
 ###### Reports
 
