@@ -176,7 +176,7 @@ For more information, see
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the DigiCert Global Root G2 certificates in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use only this root certificate.) To download this root certificate, see [Microsoft 365 Encryption chains](/microsoft-365/compliance/encryption-office-365-certificate-chains). For more information, see [Office TLS Certificate Changes](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+> If Mutual TLS (MTLS) support is enabled for the Teams connection on the SBC, then you must install the DigiCert Global Root G2 certificate in the SBC Trusted Root Store of the Teams TLS context. (This is because the Microsoft service certificates use only this root certificate.) To download this root certificate, see [Microsoft 365 Encryption chains](/microsoft-365/compliance/encryption-office-365-certificate-chains). For more information, see [Office TLS Certificate Changes](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
   
 To verify that the MTLS connection originates from Teams infrastructure, the SBC should be configured to implement the following checks on the Teams server-side certificate:
 
