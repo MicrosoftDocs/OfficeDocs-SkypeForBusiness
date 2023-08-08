@@ -170,6 +170,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink MP54/MP56/MP58  | `122.15.0.139`     | 2023 Update #2D |
+|Poly CCX 350/400/500/505/600 | `8.1.3.1301` | 2023 Update #2C |
+|Poly Trio C60 | `8.1.3.1300 ` | 2023 Update #2C |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | 2023 Update #2C    |
 |Poly CCX 350/400/500/600/505 | `8.1.2.1122` | 2023 Update #2A |
 |Poly Trio C60 | `8.1.2.1124 ` | 2023 Update #2A |
@@ -345,6 +348,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.9.400` |2023 Update #2  |
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
