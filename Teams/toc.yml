@@ -1573,6 +1573,8 @@ items:
               href: devices/phones-for-teams.md
             - name: Teams displays
               href: devices/teams-displays.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Teams panels
               items: 
                   - name: Teams panels
