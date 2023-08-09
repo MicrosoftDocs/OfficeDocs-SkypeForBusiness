@@ -129,44 +129,27 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
 ### To apply your desired language
 
 1. Switch to Admin mode.
-
 2. Select the **Start** menu.
-
 3. Select the gear icon to launch the **Settings** app.
-
 4. Select the **Time &amp; language** tab.
-
 5. Select **Language &amp; region**.
-
 6. Under Regional format, select **Recommended**.
-
 7. Under Preferred languages, select **Add a language**.
-
 8. Select the language you want to add.
-
 9. Select **Next**.
-
 10. Under Language preferences, check **Set as my Windows display language**.
-
 11. Select **Install**.
-
 12. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language.
-
 13. Optionally, if you want to remove any languages:
-    a. Select the three-dot menu next to the language you wish to remove.
-    b. Select **Remove**.
-
+  a. Select the three-dot menu next to the language you wish to remove.
+  b. Select **Remove**.
 14. Sign out.
-
 15. Sign back in to your admin account.
-
 16. Start an elevated command prompt.
-
 17. Run the following command:
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
-
 18. Restart the system.
 
 Your desired language is now applied to the Microsoft Teams Rooms app.
