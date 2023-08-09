@@ -118,6 +118,11 @@ Otherwise, it is turned off by default. There are two ways to log diagnostic dat
 - Admin configuration - you can manage Media logs for your end users
 - End user configuration - your end users can turn on Media logs
 
+> [!NOTE]
+> Media logs are not available on WebRTC-based platforms (Teams Browser clients and Classic Teams for VDI with optimized media). 
+> Please see this page on instructiosn to gather Teams [Browser logs](/microsoftteams/browser-logs-and-tracing-for-teams).
+> Please contact your VDI provider for instructions on gathering WebRTC logs when using [Teams for VDI](/microsoftteams/teams-for-vdi). 
+
 ### Admin configuration
 
 Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to enable and manage Media logging for users.
