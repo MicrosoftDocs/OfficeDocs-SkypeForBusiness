@@ -33,7 +33,7 @@ This article describes benefits and requirements. For a list of operators partic
 
 With Operator Connect for India:
 
-- **You'll need to acquire the appropriate license from your carrier in India.** Whether you have an existing Teams Phone license or not, for example, a license included with an E5 license, you'll still need to purchase a license from your India carrier.  For more information, see **ADD LINKS TO THREE CARRIER SITES ON THE OC DIRECTORY HERE.**
+- **You'll need to acquire the appropriate license from your carrier in India.** Whether you have an existing Teams Phone license or not--for example, a phone license included with an E5 license--you'll still need to purchase a license from your India carrier.  For more information, see **ADD LINKS TO OC DIRECTORY CARRIER PAGES HERE.**
 
 - **ADD SOMETHING ABOUT OSP SUPPORT.**
 
