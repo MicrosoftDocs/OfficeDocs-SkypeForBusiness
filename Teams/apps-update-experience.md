@@ -51,13 +51,13 @@ If an app update doesn't require consent, then it automatically updates. If cons
 
 To update their app, users must individually provide their consent. Admins can't consent on behalf of the users but can update an app manually.
 
-| Who can consent to app update | How to update | Condition to update |
+| Who can consent to app update | How to update | Conditions and scope of update |
 |---|---|---|
 | User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Azure AD admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
 | Admin | Manually update app from Teams client by opening a team. | - |
 | Team owner | Team owners can update an app only in the scope of their team. In other contexts, users still need to provide their consent. | - |
 
-If none of above method is followed, the app is never updated for the user. If team owner doesn't allow app update in team context then the user can still update the app in personal context. However, the user continues to use different versions of the app in personal and team contexts.
+If none of above method is used to update, then an app is never updated. User can update the app in personal context, if team owner doesn't allow app update in team context. However, the user continues to use different versions of the app in personal and team contexts.
 
 ## Contexts in which apps upgrade
 
@@ -92,7 +92,9 @@ An [app update may require consent](#conditions-when-an-app-update-requires-cons
 
 ## Considerations for app upgrades
 
-* If an app's newer version doesn't require any new permissions, then it updates to the new version automatically.
+* If an app is not updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
+
+* App policies, usage reporting, audit logs, and other governance applies to all versions of an app. Admins retain complete control irrespective of the app versions used in the tenant.
 
 * For updated apps, Teams administrators can't consent on behalf of the users. Users must individually provide their consent if it's required. Azure AD admin must [allow users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
 
