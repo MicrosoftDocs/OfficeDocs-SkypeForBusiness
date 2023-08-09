@@ -79,6 +79,10 @@ Cloud IntelliFrame is ideal for focus rooms and medium spaces. It may not be ide
 To switch off Cloud IntelliFrame in a room, perform the following steps:
 
 1. Create an XML configuration file by following the steps in [Create an XML configuration file](../rooms/xml-config-file.md#create-an-xml-configuration-file).
-1. Add the following element:
+1. Add the following element in the *SkypeSettings.xml* file.
+
+   ```XML
+   <EnableCloudIntelliFrame>false</EnableCloudIntelliFrame>
+   ```
 
 1. Restart the console for the configuration changes to take effect.
