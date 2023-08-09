@@ -77,19 +77,14 @@ A user can use an app in more than one context in Teams. When a user consents to
 
 ## Admin upload of updated custom apps
 
-Custom apps that are created and deployed within your organization are available to the users on your organization. Teams admin updates a custom app to its new version in one of the following ways:
+Custom apps that are created and deployed within your organization are available to the users on your organization. To provide a newer version of a custom app in the org store, an admin must follow one of the following steps:
 
-* If developers send the app package to you, then upload it to your organization's app catalog in Teams.
-* If developers submit the app via Teams, then review and approve the request for the app to be available in your organization's app catalog in Teams.
+* If developers send the app package to you, then upload it from within the Teams admin center.
+* If developers submit the app for your approval, then review and approve the request in the Teams admin center.
 
 For more information, see [how admins manage custom apps](teams-custom-app-policies-and-settings.md).
 
 For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it's required.
-
-## App updates by users
-
-An [app update may require consent](#conditions-when-an-app-update-requires-consent) under some conditions. 
-
 ## Considerations for app upgrades
 
 * If an app is not updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
