@@ -154,9 +154,9 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
 
 13. Optionally, if you want to remove any languages:
 
-  a. Select the three-dot menu next to the language you wish to remove.
+    a. Select the three-dot menu next to the language you wish to remove.
 
-  b. Select **Remove**.
+    b. Select **Remove**.
 
 14. Sign out.
 
