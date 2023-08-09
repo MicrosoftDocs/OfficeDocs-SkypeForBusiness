@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: heiris
-ms.date: 06/15/2023
+ms.date: 08/01/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
