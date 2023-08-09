@@ -62,7 +62,7 @@ Surface Pro devices require one of the following docking station options:
 <a name="Prep_Media"> </a>
 
 Installing the Microsoft Teams Rooms console app requires a USB storage device with at least 32GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost.
-  
+
 > [!NOTE]
 > Failure to create your Microsoft Teams Rooms installation media according to these instructions will likely result in unexpected behavior.
 
@@ -77,7 +77,7 @@ Installing the Microsoft Teams Rooms console app requires a USB storage device w
 3. Follow the script's instructions to create a Microsoft Teams Rooms USB setup disk.
 
 > [!TIP]
-> Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support. 
+> Each time the CreateSrsMedia.ps1 script starts, the screen output will include the name of a log file or transcript for the session. If there are issues with running the script, make sure to have a copy of that transcript available when requesting support.
 
 The CreateSrsMedia.ps1 script performs the following tasks:
 
@@ -119,10 +119,10 @@ After the system has shut down, it is safe to remove the USB setup disk. At this
 > [!NOTE]
 > Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.  
 
-### Selecting a language 
+### Selecting a language
 
-In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the console app to come up in French, but it's coming up in English).
-  
+In Creator's Update, you'll need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the console app to come up in French, but it's coming up in English).
+
 > [!NOTE]
 > The following instructions work only for consoles created using Windows Creator's Update (Windows 10 20H1) or later.
   
@@ -208,19 +208,19 @@ The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for 
 > The following only applies if connecting Teams Rooms to Skype for Business.
 
 Microsoft Teams Rooms needs to trust the certificates used by the servers it connects to. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to Microsoft Teams Rooms in a couple of ways:
-  
+
 - You can join the console to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).
-    
+
 - You can install the certificate manually after the imaging process. Before you do this, you must complete [Initial set up of the console](console.md#Initial).
-    
+
 ### To manually install the certificate
 
 1. Download the CA certificate to your computer and save it to "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer".
-    
+
 2. Place the console in admin mode (see [Admin mode and device management](rooms-operations.md#AdminMode)).
-    
+
 3. Run the following command:
-    
+
    ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
@@ -233,11 +233,11 @@ You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should 
 ### To join Microsoft Teams Rooms to a domain
 
 1. Sign into the console from the admin account (see [Admin mode and device management](rooms-operations.md#AdminMode)).
-    
+
 2. Launch elevated Powershell command prompt.
-    
+
 3. Enter the following command in Powershell:
-    
+
    ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, ... ,OU=<Top level OU>,DC=<child domain>,...,DC=<top level domain>"
    ```
