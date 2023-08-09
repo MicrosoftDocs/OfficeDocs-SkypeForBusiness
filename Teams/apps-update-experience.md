@@ -24,15 +24,15 @@ description: Learn how third-party and custom apps get updated in Teams to a new
 
 When an app is installed for the first time it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenario occurs:
 
-* If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-updates-and-requires-consent), then the app update requires consent from the app user.
+* If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-update-requires-consent), then the app update requires consent from the app user.
 * If the updated version of the app doesn't require new permissions and doesn't have only basic functionality changes, then it updates automatically.
 
 As a Teams administrator, you can update Teams apps to help the users get the latest version of apps by performing one of the following tasks:
 
 * When a new app version is available in Teams store, allow users to upgrade to the new version.
-* When your developer submits a new version of a custom app, [update or approve the submission](#custom-apps) and allow users to upgrade to the new version.
+* When your developer submits a new version of a custom app, [update or approve the submission](#admin-upload-of-updated-custom-apps) and allow users to upgrade to the new version.
 
-## Conditions when an app updates and requires consent
+## Conditions when an app update requires consent
 
 Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users can provide consent when they try to use the app for the first time.
 
@@ -45,14 +45,23 @@ Apps update on their own if there's no change in functionality or request for or
 
 When creating the new version of an app, the developer can change the above values in the [app manifest file](/microsoftteams/platform/resources/schema/manifest-schema). Any of these changes lead to a change in app permissions. Hence, an update requires admin approval.
 
-Teams simplifies the app update experience for its users by requiring their consent for new app versions only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in each context.
+## Update to new version by users and admins
 
-> [!NOTE]
-> When any of the above mentioned changes are done in a version of an app, then you as an admin can't consent on behalf of the users. After such changes, to update their app, users must individually provide their consent. Users can provide their own consent only if Azure Active Directory admin [allows users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
+If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requiring user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in each context.
+
+To update their app, users must individually provide their consent. Admins can't consent on behalf of the users but can update an app manually.
+
+| Who can consent to app update | How to update | Condition to update |
+|---|---|---|
+| User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Azure AD admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
+| Admin | Manually update app from Teams client by opening a team. | - |
+| Team owner | Team owners can update an app only in the scope of their team. In other contexts, users still need to provide their consent. | - |
+
+If none of above method is followed, the app is never updated for the user. If team owner doesn't allow app update in team context then the user can still update the app in personal context. However, the user continues to use different versions of the app in personal and team contexts.
 
 ## Contexts in which apps upgrade
 
-A user can use an app in more than one context in Teams. When a user consents, the app is updated in their chats, channels, and meetings but only in the contexts where the previous version of the app was added. Users don't need to update the app separately in each context.
+A user can use an app in more than one context in Teams. When a user consents to an app update, the app is updated in their chats, channels, and meetings but only in the contexts where the previous version of the app was added. Users don't need to update the app separately in each context if they provide consent. Users must provide consent in other contexts once, if a team owner updates the app in team context.
 
 * **Personal app** context - When a user is using an app in their private workspace.
 
@@ -66,7 +75,7 @@ A user can use an app in more than one context in Teams. When a user consents, t
 
     :::image type="content" source="media/update-app-bot.png" alt-text="Screenshot that shows bot app context." lightbox="media/update-app-bot2.png":::
 
-## Custom apps
+## Admin upload of updated custom apps
 
 Custom apps that are created and deployed within your organization are available to the users on your organization. Teams admin updates a custom app to its new version in one of the following ways:
 
@@ -76,6 +85,10 @@ Custom apps that are created and deployed within your organization are available
 For more information, see [how admins manage custom apps](teams-custom-app-policies-and-settings.md).
 
 For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it's required.
+
+## App updates by users
+
+An [app update may require consent](#conditions-when-an-app-update-requires-consent) under some conditions. 
 
 ## Considerations for app upgrades
 
