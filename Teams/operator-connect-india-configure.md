@@ -34,8 +34,6 @@ You can enable, edit, and remove operators in the Teams admin center. In the lef
 
 To enable an operator:
 
-**HOW WILL THE STEPS BELOW CHANGE? I'M ASSUMING THE TASK CAN BE PERFORMED IN TAC? **
-
 1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then select the operator you want to enable.  
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
@@ -50,19 +48,13 @@ To enable an operator:
 
 ## Set up phone numbers
 
-**HOW DOES THIS SECTION CHANGE? DO WE NEED MOVING NUMBERS FROM CALLING PLANS?  FROM DIRECT ROUTING?**
-
-How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans or Direct Routing.
+How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Direct Routing.
 
 - If you need to acquire phone numbers for new users, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).
-
-- If you want to move existing numbers from Calling Plans to Operator Connect, see [Move numbers from Calling Plans to Operator Connect](#move-numbers-from-calling-plans-to-operator-connect).
 
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
 ### Assign numbers to emergency addresses
-
-**DOES THIS SECTION CHANGE?**
 
 The emergency address is a static location associated with a number. Once you create emergency addresses in the Teams admin center, how you assign the addresses, or change them later, will depend on your operator.
 
@@ -78,7 +70,7 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 ### Acquire numbers for new Teams users
 
-**DOES THIS SECTION CHANGE?**
+**DOES THIS SECTION CHANGE? NO EXCEPT FOR LICENSING. STILL NEED CONFIRMED LICENSING INFO**
 
 To acquire numbers for new Teams users, follow these steps:
 
@@ -92,16 +84,6 @@ To acquire numbers for new Teams users, follow these steps:
 
 > [!NOTE]
 > In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers, contact your operator.
-
-### Move numbers from Calling Plans to Operator Connect
-
-**NUKE THIS SECTION?**
-
-1. Contact your operator to port your numbers to Operator Connect. See [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) to find your operator's website.
-
-2. After your operator completes the porting order, your operator will upload the numbers to your tenant.
-
-3. Assign Operator Connect numbers to users by using the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 ### Move numbers from Direct Routing to Operator Connect
 
