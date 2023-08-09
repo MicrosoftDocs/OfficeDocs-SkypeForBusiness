@@ -87,7 +87,7 @@ You can specify which domains are allowed or which domains are blocked. If you s
 > [!NOTE]
 > People from blocked domains can still join meetings anonymously if anonymous access is allowed. To learn more, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 > 
-> Current limit for allow or block specific domains list is 4000 domains.
+> The current limit for an allow or block specific domains list is 4,000 domains.
 
 ![Screenshot of external domains settings](./media/external-access-domain-settings.png)
 
