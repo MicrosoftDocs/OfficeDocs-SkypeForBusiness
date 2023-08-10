@@ -38,7 +38,7 @@ Options include:
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |**New Teams as default </br>(Releasing late July)**| Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
+   |**New Teams as default </br>Rollout for the feature began in early August, 2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
 
 
 ## Prerequisites
