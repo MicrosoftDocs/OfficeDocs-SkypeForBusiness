@@ -23,7 +23,11 @@ f1keywords:
 
 # Assign policies to users and groups
 
-This article reviews the different ways to assign policies to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
+This article reviews the different ways to assign policies to users and groups in Microsoft Teams.
+
+For more information on policies supported by Teams admin center and Teams PowerShell module, see [Teams policy reference](settings-policies-reference.md).
+
+Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
 
 This video shows how to assign policies to multiple users.
 
@@ -92,6 +96,14 @@ When you assign the policy, it's immediately assigned to the group. However, the
 
 Group policy assignments are only propagated to users who are direct members of the group. The assignments aren't propagated to members of nested groups.
 
+> [!IMPORTANT]
+> The Teams Powershell module and Teams admin center don't support the following policies for group policy assignment.
+> - Teams App Permission Policy
+> - Teams Emergency Call Routing Policy
+> - Teams Network Roaming Policy 
+> - Teams Upgrade Policy
+> - Teams Voice Applications Policy
+
 ### What you need to know about policy assignment to groups
 
 Before you get started, it's important to understand precedence rules and group assignment ranking.
@@ -130,9 +142,6 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
 
 ### In the Teams admin center
 
-> [!NOTE]
-> Policy assignment to groups using the Microsoft Teams admin center is only available for Teams calling policy, Teams call park policy, Teams policy, Teams live events policy, Teams meeting policy, Teams messaging policy, and App setup policies. For other policy types, use PowerShell.
-
 1. In the left navigation of the Microsoft Teams admin center, go to the policy type page. For example, go to **Meetings** > **Meeting policies**.
 2. Select the **Group policy assignment** tab.
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
@@ -151,18 +160,8 @@ This video shows the steps to create and assign a custom meeting policy to a gro
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
 
-### Use the PowerShell option
 
-> [!NOTE]
-> The Teams Powershell Module supports all policy types used in Teams except for the following:
-> - Teams App Permission Policy
-> - Teams Network Roaming Policy
-> - Teams Emergency Call Routing Policy
-> - Teams Voice Applications Policy
-> - Teams Upgrade Policy
-
-
-#### Install and connect to the Microsoft Teams PowerShell module
+### Install and connect to the Microsoft Teams PowerShell module
 
 For step-by-step guidance, see [Install Teams PowerShell](teams-powershell-install.md).
 
