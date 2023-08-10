@@ -139,7 +139,8 @@ If you want chats and calls to arrive in the user's Skype for Business client, c
 You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
 
 - You can control if unmanaged Teams users can initiate the communication with your users.
-- You can restrict communication to a list of external user profiles that you manage.
+- You can create a list of external user profiles that users can communicate with.
+- You can restrict communication to the external user profiles list if needed.
 
 Meetings are not supported with unmanaged Teams users. If invited to a meeting, they're considered anonymous when joining.
 
@@ -173,9 +174,11 @@ To prevent chat with unmanaged Teams accounts
 
 ### Manage external user profiles
 
-External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop.
+External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop. You can delegate management of the user profiles by using the Extended Directory User Administrator role in Azure AD.
 
-When a profile is added for someone outside you're organization, they're notified and can choose to allow or block the connection. Once the external user accepts the invitation, your users can search for external profiles by name or phone number and communicate with them using chat in Teams.
+When a profile is added for someone outside your organization, it's available to your users via search by name or phone number within 24 hours. Users can start a 1:1 or group chat with the external users and can see the external users' profile cards with the information that you specify.
+
+When a user starts a chat with an external user, the external user can allow or block the connection.
 
 > [!IMPORTANT]
 > Your organization is the Data Controller for the external user profiles that you add. This may have GDPR implications. For more information, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr).
