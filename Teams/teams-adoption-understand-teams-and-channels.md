@@ -37,7 +37,7 @@ To read more about teams and channels, see the [Overview of teams and channels i
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| View this short video   | <iframe width="350" height="200" src="https://www.youtube.com/embed/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
+| View this short video   | > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]    |
 
 
 
