@@ -122,7 +122,7 @@ The admin policy for collaborative annotations is a user-level policy and follow
 
   - **Setting type**: ENUM true/false
 
-The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
+The admin can either run the PowerShell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 
