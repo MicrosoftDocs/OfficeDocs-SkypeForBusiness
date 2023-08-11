@@ -120,8 +120,8 @@ Otherwise, it is turned off by default. There are two ways to log diagnostic dat
 
 > [!NOTE]
 > Media logs are not available on WebRTC-based platforms (Teams Browser clients and Classic Teams for VDI with optimized media). 
-> Please see this page on instructiosn to gather Teams [Browser logs](/microsoftteams/browser-logs-and-tracing-for-teams).
-> Please contact your VDI provider for instructions on gathering WebRTC logs when using [Teams for VDI](/microsoftteams/teams-for-vdi). 
+> Please see [Browser logs and tracing for Teams](/microsoftteams/browser-logs-and-tracing-for-teams) for instructions on gathering additional WebRTC logs on Browser clients.
+> Please contact your VDI provider for instructions on gathering WebRTC logs when using [Teams for VDI](/microsoftteams/teams-for-vdi).
 
 ### Admin configuration
 
