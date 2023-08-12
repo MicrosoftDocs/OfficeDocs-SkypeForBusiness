@@ -31,7 +31,7 @@ The Virtual appointment template is a default meeting template in Microsoft Team
 
 This article gives you an overview of how to manage the Virtual appointment meeting template<!--in the Teams admin center-->.
 
-## Manage the Virtual appointment meeting template
+## Use meeting template policies to specify which users can use the template
 
 You use meeting template policies in the Teams admin center to control which meeting templates are available to users in your organization. By default, the Global policy allows users to see and use all meeting templates, including the Virtual appointment template and any custom templates that you created.
 
@@ -39,21 +39,20 @@ If you want to make the Virtual appointment template available to specific users
 
 To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.md).
 
-## SMS notifications in the Virtual appointment 
+## Control access to SMS notifications in the template
 
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
 > This feature is currently only available in the United States. Your users can only send SMS text notifcations to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
 
-You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule through the Virtual appointment template. When SMS text notifications is enabled for a user and the user chooses to use it when they schedule a meeting, external guests will receive appointment confirmation and reminder text messages that include the Teams meeting join link and appointment details.
+You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule through the Virtual appointment template. When this feature is enabled for a user and the user chooses to use it when they schedule a meeting, external guests will receive appointment confirmation and reminder text messages that include the Teams meeting join link and appointment details.
 
 You use PowerShell to control access to this feature in your organization.
 
+## Meeting options available to external guests
 
-## User experience
-
-When users in your organization use the meeting template to schedule a virtual appointment, people outside your organization (external guests) get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
+When users in your organization use the meeting template to schedule a virtual appointment, external guests get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
 
 Keep in mind that some Teams meeting options may not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
 
@@ -65,7 +64,7 @@ Keep in mind that some Teams meeting options may not apply to external guests or
 People within your organization receive a meeting invitation, and the appointment appears in their Teams and Outlook calendar, from where they can easily join as in any other Teams meeting. All Teams meeting options apply to attendees who join using the Teams meeting link in the meeting invitation or from the Teams or Outlook calendar.
 
 > [!NOTE]
->The external guests need pop-up notifications allowed on their mobile and web browser for the browser-based Teams experience to function properly. This setting will show a pop-up asking for permission to access the microphone and camera for the meeting, which is required for the meeting to begin.
+>External guests need pop-up notifications allowed on their mobile and web browser for the browser-based Teams experience to function properly. This setting will show a pop-up asking for permission to access the microphone and camera for the meeting, which is required for the meeting to begin.
 
 To learn more about how to use the Virtual appointment meeting template and about the user experience, see [Use a Teams meeting template to create a Virtual Appointment](https://support.microsoft.com/office/6a9e8cbb-c0ed-4598-851e-3b1750a4a747).
 
