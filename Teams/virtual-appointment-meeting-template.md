@@ -29,7 +29,7 @@ appliesto:
 
 The Virtual appointment template is a default meeting template in Microsoft Teams that your users can use to schedule virtual appointments with customers, clients, and other people outside your organization. For example, use it to schedule and conduct interviews, mentorship sessions, financial consultations, virtual shopping experiences, and more.
 
-This article gives you an overview of how to view and manage the Virtual appointment meeting template in the Teams admin center.
+This article gives you an overview of how to manage the Virtual appointment meeting template<!--in the Teams admin center-->.
 
 ## Manage the Virtual appointment meeting template
 
@@ -38,6 +38,18 @@ You use meeting template policies in the Teams admin center to control which mee
 If you want to make the Virtual appointment template available to specific users or groups of users in your organization, you can create a custom meeting template policy, and then assign it to those users or groups.
 
 To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.md).
+
+## SMS notifications in the Virtual appointment 
+
+![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
+
+> [!NOTE]
+> This feature is currently only available in the United States. Your users can only send SMS text notifcations to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
+
+You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule through the Virtual appointment template. When SMS text notifications is enabled for a user and the user chooses to use it when they schedule a meeting, external guests will receive appointment confirmation and reminder text messages that include the Teams meeting join link and appointment details.
+
+You use PowerShell to control access to this feature in your organization.
+
 
 ## User experience
 
