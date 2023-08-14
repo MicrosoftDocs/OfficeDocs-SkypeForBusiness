@@ -158,19 +158,23 @@ This table summarizes the custom app settings and how the settings work together
 | On     | On     | Off         | The user can't upload custom apps for their own use. Users can submit custom apps for admin approval. |
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context. |
 
-Consider a scenario where you want to allow only team owners to upload custom apps to specific teams and users to use it. To accomplish this result, implement the following settings:
-
-* Turn on the **Interaction with custom apps** option in the Org-wide setting in admin center.
-* Turn off the **Allow members to upload custom apps** for every team to which you want to restrict access.
-* Create and assign a custom policy in app setup policy in admin center with the **Upload custom apps** setting turned on and assign the policy to the team owners.
-
 ## Samples scenarios for custom app
 
 To allow only a few selected users or groups to upload and use custom apps, follow these steps:
 
-1. Turn on the **Interaction with custom apps** option in Org-wide setting.
+1. Turn on the **Interaction with custom apps** option in Org-wide app setting.
 1. Turn off the **Upload custom apps** setting in the [app setup policy](#app-setup-policy-settings-for-custom-apps).
 1. Create a new app setup policy that allows uploading custom apps and [assign the policy to the selected users or groups](policy-assignment-overview.md#ways-to-assign-policies).
+
+Consider a scenario where you want to allow only team owners to upload custom apps to specific teams and users to use it. To accomplish this result, implement the following settings:
+
+* Turn on the **Interaction with custom apps** option in the Org-wide app setting in admin center.
+* Turn off the **Allow members to upload custom apps** for every team to which you want to restrict access.
+* Create and assign a custom policy in app setup policy in admin center with the **Upload custom apps** setting turned on and assign the policy to the team owners.
+
+## Considerations about custom apps and related settings
+
+* If interaction with custom apps option in org-wide app setting is turned off, then even if users can search apps with their `botId` and they can view the app name, but the users can't interact with such bots.
 
 ## Related article
 
