@@ -50,16 +50,16 @@ Microsoft continues to work with Cloud Video Interop (CVI) partners to make meet
 
 | Release|Feature Name|Feature Description|Microsoft Status|*Blue Jeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|CY22Q3.1||| Cell 2   |||||
-|CY22Q4.1||| Cell 4 |||||
-|CY22Q4.2||||||||
-|CY22Q4.3||||||||
-|CY22Q4.4||||||||
-|CY23Q1.1||||||||
-|CY23Q2.1||||||||
-|CY23Q3.1||||||||
-|CY23Q3.2||||||||
-|CY23Q3.3||| |||||
+|CY22Q3.1|PowerPoint Notifications|| Cell 2   |||||
+|CY22Q4.1|CVI Telemetry|| Cell 4 |||||
+|CY22Q4.2|Alignment of lobby between CVI and Teams meetings|||||||
+|CY22Q4.3|Support for Long Term Reference Frame (LTRF)|||||||
+|CY22Q4.4|Support for Microsoft Teams Premium, "Watermark Feature"|||||||
+|CY23Q1.1|Support for Microsoft Teams Premium, "Watermark Feature"|||||||
+|CY23Q2.1|SIP Guest Join|||||||
+|CY23Q3.1|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|||||||
+|CY23Q3.2|CVI and PSTN dial-in re-occurring meeting expiration|||||||
+|CY23Q3.3|Support for multiple email domains within CVI meeting co-ordinates|| |||||
 
 ### Office 365 US Government and third-party services
 
