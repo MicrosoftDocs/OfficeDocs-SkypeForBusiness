@@ -151,7 +151,7 @@ You may have queries about admin settings or configuration, user flows and app f
 
 * We don't provide direct customer support for Teams apps but we provide the following value adds, useful information, platform features, and app quality checks to our customers:
 
-  * We proactively check Teams apps for issues and informs the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
+  * We proactively check Teams apps for issues and inform the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
   * For Publisher Attested and Microsoft 365 certified apps, Microsoft provides the [security and compliance information of apps](overview-of-app-certification.md).
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app or a removal of the app.
   * If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
