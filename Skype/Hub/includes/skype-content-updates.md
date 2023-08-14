@@ -2,6 +2,15 @@
 
 
 
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Disable Legacy Control Panel (CSCP)](/SkypeForBusiness/plan/disable-legacy-control-panel) | added |
+| 7/31/2023 | [System requirements for Skype for Business Server 2019](/SkypeForBusiness/plan/system-requirements) | modified |
+
+
 ## Week of July 10, 2023
 
 
@@ -46,11 +55,3 @@
 | 10/5/2022 | [Customize Call Park music on hold inSkype for Business](/SkypeForBusiness/deploy/deploy-enterprise-voice/customize-call-park-music-on-hold) | modified |
 | 10/5/2022 | [Managing application-level Response Group settings in Skype for Business](/SkypeForBusiness/deploy/deploy-enterprise-voice/managing-application-level-response-group-settings) | modified |
 | 10/5/2022 | [Configure the use of high-resolution photos in Skype for Business Server](/SkypeForBusiness/deploy/integrate-with-exchange-server/high-resolution-photos) | modified |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/29/2023 | [Emergency Mitigation Service - Overview](/SkypeForBusiness/emergency-mitigation-service-overview) | added |
