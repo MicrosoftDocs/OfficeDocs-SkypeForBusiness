@@ -19,9 +19,14 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 ---
 # Manage Q&A in Teams Meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 Q&A allows presenters to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings – like Town Halls, Webinars, All Hands, and trainings. This is a per-organizer setting.
 
 This article describes how to manage Q&A and user-level policies, which dictate whether an organizer can enable Q&A in their meetings.
+
+> [!NOTE]
+> This setting also affects webinars.
 
 ## Prerequisites
 
