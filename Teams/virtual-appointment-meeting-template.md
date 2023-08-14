@@ -46,13 +46,25 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 > [!NOTE]
 > This feature is currently only available in the United States. Your users can only send SMS text notifcations to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
 
-You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule through the Virtual appointment template. When this feature is enabled for a user and the user chooses to use it when they schedule a meeting, external guests will receive appointment confirmation and reminder text messages that include the Teams meeting join link and appointment details.
+You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications setting in the template.
 
-You use PowerShell to control access to this feature in your organization.
+- If the user chooses **Send text notifications** (the default setting), external guests will receive appointment confirmation, update, and reminder text messages that include the Teams meeting join link and appointment details.
+- If the user chooses **Don't send text notifications**, external guests won't receive text messages about their appointment.
+
+You use PowerShell to control access to this feature in your organization by setting the following policy:
+
+### Things to consider
+
+If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license:
+
+- The SMS notifications setting isn't visible in the template when they schedule a new meeting or when they edit an existing meeting in which the SMS notifications feature was previously enabled.
+- If the user chose **Send text notifications** when they scheduled a meeting, and then their access to the feature is disabled, no additional text messages are sent to the external guest.
+
+View the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) in the Teams admin center get an overview of SMS notifications usage in your organization.
 
 ## Meeting options available to external guests
 
-When users in your organization use the meeting template to schedule a virtual appointment, external guests get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
+When users in your organization use the template to schedule a virtual appointment, external guests get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
 
 Keep in mind that some Teams meeting options may not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
 
