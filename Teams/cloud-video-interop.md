@@ -44,6 +44,23 @@ Cloud Video Interop is intended for customers who meet the following criteria:
 
 While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Room Systems, for the long term. 
 
+### Cloud Video Interop Release Notes
+
+Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
+
+| Release|Feature Name|Feature Description|Microsoft Status|*Blue Jeans|Cisco|Pexip|*Poly|
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+|CY22Q3.1||| Cell 2   |||||
+|CY22Q4.1||| Cell 4 |||||
+|CY22Q4.2||||||||
+|CY22Q4.3||||||||
+|CY22Q4.4||||||||
+|CY23Q1.1||||||||
+|CY23Q2.1||||||||
+|CY23Q3.1||||||||
+|CY23Q3.2||||||||
+|CY23Q3.3||| |||||
+
 ### Office 365 US Government and third-party services
 
 Office 365 provides the ability to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on
@@ -132,3 +149,4 @@ The following PowerShell cmdlets are available for you to (partially) automate t
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
 - **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
 - **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+
