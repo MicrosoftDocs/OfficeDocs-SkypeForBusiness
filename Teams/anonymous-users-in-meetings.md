@@ -32,6 +32,9 @@ Anonymous meeting join is controlled by an organization level setting and user l
 - The **Anonymous users can join a meeting** Teams meeting setting (organization level) must be turned on.
 - The meeting organizer must be assigned a Teams meeting policy where the **Anonymous users can join a meeting** control is turned on.
 
+> [!NOTE]
+> These settings also affects webinars.
+
 Anonymous meeting join is turned on by default for the organization and in the default global meeting policy. We recommend keeping the organization level setting on and using meeting policies to turn anonymous meeting join on or off for different users (meeting organizers).
 
 Note that if anonymous meeting join is enabled, lobby policies affect how anonymous participants join meetings. For details, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
