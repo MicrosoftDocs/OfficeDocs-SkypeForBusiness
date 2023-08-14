@@ -24,7 +24,12 @@ appliesto:
 
 # Configure transcription and captions for Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 In Microsoft Teams, there's an option for meeting recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers of all abilities.
+
+> [!NOTE]
+> These settings also affects webinars.
 
 ## Transcription
 

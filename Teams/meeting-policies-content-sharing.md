@@ -24,7 +24,12 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 
 # Manage meeting policies for content sharing
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 Content sharing settings control how users present a screen or app during a meeting or chat. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
+
+> [!NOTE]
+> Meeting policies for content sharing also apply to webinars.
 
 To change a content sharing setting
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -117,7 +122,7 @@ The admin policy for collaborative annotations is a user-level policy and follow
 
   - **Setting type**: ENUM true/false
 
-The admin can either run the powershell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
+The admin can either run the PowerShell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 
