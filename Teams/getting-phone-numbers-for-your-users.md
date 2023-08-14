@@ -47,7 +47,7 @@ There are three ways to get user numbers:
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
 
@@ -55,10 +55,12 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 4. On the Location and quantity page, do the following:
     1. Under **Country or region**, select a country or region.
-    2. Under **Number type**, select **User (subscriber)**.
-    3. Under **Location**, select a location. If you need to create a new location, select **Add a location**.
-    4. Under **Area code**, select an area code.
-    5. Under **Quantity**, enter the number of numbers that you want for your organization, and then select **Next** to select your numbers.
+    1. Under **Number type**, select **User (subscriber)**.
+    1. Under **Operator**, select an operator.
+    1. Under **Quantity**, enter the number of numbers that you want for your organization.
+    1. Under **Search for new numbers**, select a location by searching for city name, area code, or postal code. If you need to create a new location, select **Add a location**.
+    1. Under **Area code**, select an area code.
+    1. Select **Next** to select your numbers.
 
 5. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 
@@ -78,7 +80,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 > [!NOTE]
 > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 >
->To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing. 
+>To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing.
 >
 > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
@@ -86,7 +88,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 **Using the Microsoft Teams admin center**
 
-In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
+In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including number provider, location, number type, and status information.
   
 ## Assign phone numbers to users
 
