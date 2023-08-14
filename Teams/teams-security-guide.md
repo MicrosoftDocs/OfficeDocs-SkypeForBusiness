@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 07/25/2023
+ms.date: 08/14/2023
 ms.topic: reference
 ms.service: msteams
 audience: admin
