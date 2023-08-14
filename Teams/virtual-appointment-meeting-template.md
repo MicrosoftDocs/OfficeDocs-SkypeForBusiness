@@ -63,7 +63,7 @@ To enable or disable SMS notifications, set the **EnableSMSNotifications** param
 
 ### Example
 
-By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the SMS notifications feature in the template is enabled in the policy.
+By default, all users in your organization are automatically assigned the global (Org-wide default) policy and SMS notifications in the template is enabled in the policy.
 
 Say, for example, you want to allow all users in your organization to use SMS notifications in the template except for new hires in training. In this scenario, you create a custom policy to turn off SMS notifications and assign it to new hires. All other users in your organization automatically get the global policy with the feature turned on.
 
@@ -81,7 +81,7 @@ Grant-CsTeamsVirtualAppointmentsPolicy -identity user1@contoso.com -PolicyName "
 
 You can assign the policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies in Teams](policy-assignment-overview.md).
 
-### Things to consider
+### Things to know
 
 - If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license, the SMS notifications option isn't visible in the template when they schedule a new meeting or when they edit an existing meeting in which the feature was previously enabled.
 
