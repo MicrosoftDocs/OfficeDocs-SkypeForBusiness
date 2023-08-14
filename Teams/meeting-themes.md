@@ -166,6 +166,8 @@ They can proceed to assign the licensed employees in Contoso Technical Services 
 
 :::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
 
+:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
+
 ## Where are meeting themes visible
 
 Supported clients:
