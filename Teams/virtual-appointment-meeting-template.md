@@ -63,7 +63,7 @@ To enable or disable SMS notifications, set the **EnableSMSNotifications** param
 
 ### Example
 
-By default, all users in your organization are automatically assigned the global (Org-wide default) policy and SMS notifications in the template is enabled in the policy.
+By default, all users in your organization are automatically assigned the global (Org-wide default) policy and the SMS notifications feature in the template is enabled in the policy.
 
 Say, for example, you want to allow all users in your organization to use SMS notifications in the template except for new hires in training. In this scenario, you create a custom policy to turn off SMS notifications and assign it to new hires. All other users in your organization automatically get the global policy with the feature turned on.
 
