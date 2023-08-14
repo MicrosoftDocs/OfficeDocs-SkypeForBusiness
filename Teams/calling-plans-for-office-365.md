@@ -148,5 +148,5 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 - [Set up Calling Plans](set-up-calling-plans.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-- [Plan yourvoice solution](cloud-voice-landing-page.md)
+- [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
