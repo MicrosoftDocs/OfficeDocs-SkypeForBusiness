@@ -91,6 +91,7 @@ For details, see:
 - [Manage who can schedule webinars](set-up-webinars.md)
 - [Manage who can schedule town halls](set-up-town-halls.md)
 
+
 ## Meetings
 
 Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only streaming experience for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.

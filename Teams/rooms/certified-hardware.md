@@ -299,7 +299,7 @@ The following tables provide recommendations for peripherals based on room size:
 
 |Room Type|Number of People|Recommended maximum distance from microphone to speaker|
 |:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'   |2-4  |1.5 m  |
-|**Small** <br/> 16' x 16'  |4-6  |2.0 m  |
-|**Medium** <br/> 18' x 20'  |6-12  |2.4 m  |
-|**Large** <br/> 15' x 32'  |12-16  |3 m <br/> This distance also applies to the area covered by each connected satellite microphone.  |
+|**Focus** <br/> 10' x 9' <br/> (3 x 2.7 m)   |2-4  |1.5 m  |
+|**Small** <br/> 16' x 16' <br/> (4.87 x 4.87 m)  |4-6  |2.0 m  |
+|**Medium** <br/> 18' x 20' <br/> (5.5 x 6 m)  |6-12  |2.4 m  |
+|**Large** <br/> 15' x 32' <br/> (4.5 x 9.75 m)  |12-16  |3 m <br/> This distance also applies to the area covered by each connected satellite microphone.  |
