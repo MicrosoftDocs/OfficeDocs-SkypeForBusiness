@@ -29,38 +29,67 @@ appliesto:
 
 The Virtual appointment template is a default meeting template in Microsoft Teams that your users can use to schedule virtual appointments with external guests, such as customers, clients, and other people outside your organization. For example, use it to schedule and conduct interviews, mentorship sessions, financial consultations, virtual shopping experiences, and more.
 
-This article gives you an overview of how to manage the Virtual appointment meeting template<!--in the Teams admin center-->.
+This article gives you an overview of how to manage the Virtual appointment meeting template.
 
 ## Use meeting template policies to specify which users can use the template
 
 You use meeting template policies in the Teams admin center to control which meeting templates are available to users in your organization. By default, the Global policy allows users to see and use all meeting templates, including the Virtual appointment template and any custom templates that you created.
 
-If you want to make the Virtual appointment template available to specific users or groups of users in your organization, you can create a custom meeting template policy, and then assign it to those users or groups.
+If you want to make the template available to specific users or groups of users in your organization, you can create a custom meeting template policy, and then assign it to those users or groups.
 
 To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.md).
 
-## Control access to SMS notifications in the template
+## Manage access to SMS notifications in the template
 
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
 > This feature is currently only available in the United States. Your users can only send SMS text notifcations to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
 
-You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications setting in the template.
+You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
 - If the user chooses **Send text notifications** (the default setting), external guests will receive appointment confirmation, update, and reminder text messages that include the Teams meeting join link and appointment details.
 - If the user chooses **Don't send text notifications**, external guests won't receive text messages about their appointment.
 
-You use PowerShell to control access to this feature in your organization by setting the following policy:
+You manage access to this feature for your users through policies that you set using the following PowerShell cmdlets:
+
+- [New-CsTeamsVirtualAppointmentsPolicy]()
+- [Set-CsTeamsVirtualAppointmentsPolicy]()
+- [Grant-CsTeamsVirtualAppointmentsPolicy]()
+- [Get-CsTeamsVirtualAppointmentsPolicy]()
+- [Remove-CsTeamsVirtualAppointmentsPolicy]()
+
+To enable or disable SMS notifications, set the **EnableSMSNotifications** parameter in the policy to `$true` (the default value) or `$false`.
+
+### Example
+
+By default, all users in your organization are automatically assigned the global (Org-wide default) policy and SMS notifications in the template is enabled in the policy.
+
+Say, for example, you want to allow all users in your organization to use SMS notifications in the template except for new hires in training. In this scenario, you create a custom policy to turn off SMS notifications and assign it to new hires. All other users in your organization automatically get the global policy with the feature turned on.
+
+In this example, we create a custom policy called New Hire SMS Policy and we turn off SMS notifications.
+
+```PowerShell
+New-CsTeamsVirtualAppointmentsPolicy -identity "New Hire SMS Policy" -EnableSMSNotifications $false
+```
+
+Here, we assign the policy to a user named user1.
+
+```PowerShell
+Grant-CsTeamsVirtualAppointmentsPolicy -identity user1@contoso.com -PolicyName "New Hire SMS Policy"
+```
+
+You can assign the policy directly to users, either individually or at scale through a batch assignment , or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
 ### Things to consider
 
-If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license:
+- If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license, the SMS notifications option isn't visible in the template when they schedule a new meeting or when they edit an existing meeting in which the feature was previously enabled.
 
-- The SMS notifications setting isn't visible in the template when they schedule a new meeting or when they edit an existing meeting in which the SMS notifications feature was previously enabled.
-- If the user chose **Send text notifications** when they scheduled a meeting, and then their access to the feature is disabled, no additional text messages are sent to the external guest.
+- If a user who has access to this feature chose **Send text notifications** when they scheduled a meeting, and then their access is disabled, no additional text messages are sent to the external guest.
 
-View the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) in the Teams admin center get an overview of SMS notifications usage in your organization.
+### SMS notifications usage report
+
+To get an overview of SMS notifications usage across your organization, view the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) in the Teams admin center.
 
 ## Meeting options available to external guests
 
