@@ -43,8 +43,8 @@ The following table describes which actions we'll restrict for baseline meetings
 |Meeting chat|**On**|Template|No|
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
-|Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**People in my organization, people in trusted organizations, and guests**|Template|No|
+|Record meetings automatically|**Off**|Template|No|
+|Who can bypass the lobby?|**People in my organization, people in trusted organizations, and guests**|Template|No|
 |Who can present|**People in my organization and guests**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Template|No|
 

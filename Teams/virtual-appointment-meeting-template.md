@@ -1,8 +1,8 @@
 ---
 title: Virtual appointment meeting template in Microsoft Teams
-author: samanro
-ms.author: samanro
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 

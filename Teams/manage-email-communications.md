@@ -38,21 +38,21 @@ For more information on the email communications experience for your end users, 
 ## Manage email communications for webinars with PowerShell
 
 Through PowerShell, you can manage whether organizers and co-organizers can edit email templates for their webinars.
-The **`-EnableEventEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can edit email communication templates.
-The following table shows the behaviors of the settings for the **`-EnableEventEmailEditing`** parameter:
+The **`-AllowEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can edit email communication templates.
+The following table shows the behaviors of the settings for the **`-AllowEmailEditing`** parameter:
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| **This is the default value.** Event organizers and co-organizers can edit all email templates for their webinars.|
-|Disabled| Event organizers and co-organizers can’t edit any email templates.|
+|Enabled| **This is the default value.** Webinar organizers and co-organizers can edit all email templates for their webinars.|
+|Disabled| Webinar organizers and co-organizers can’t edit any email templates.|
 
-The following example turns off **`-EnableEventEmailEditing`** so organizers and co-organizers can’t edit any email templates:
+The following example turns off **`-AllowEmailEditing`** so organizers and co-organizers can’t edit any email templates:
 
 ```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -EnableEventEmailEditing Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowEmailEditing Disabled
 ```
 
-To learn more about `-EnableEventEmailEditing`, see the following cmdlet topics:
+To learn more about `-AllowEmailEditing`, see the following cmdlet topics:
 
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
