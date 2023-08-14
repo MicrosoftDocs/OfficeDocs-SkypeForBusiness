@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 07/25/2023
+ms.date: 08/14/2023
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -198,32 +198,51 @@ Federation provides your organization with the ability to communicate with other
 
 ## Addressing threats to Teams Meetings
 
-There are two options to control who arrives in Teams meetings and who will have access to the information you present, and two articles to learn more on the topic.
+Enterprise users can create and join real-time meetings and invite external users who don't have an Azure AD, Microsoft 365, or Office 365 account, to participate in these meetings.
 
-1. For Organizers: [Using the lobby in Microsoft Teams meetings](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)
-2. For IT Admins: [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
+Letting external users participate in Teams meetings can be useful, but also brings up some security risks. To address these risks, Teams uses these safeguards:
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who don't have an Azure AD, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users can't create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+**Before the meeting:**
 
-For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.
+1. Decide which **external participant types** will be allowed to join your meetings:
 
-> [!NOTE]
-> The term *anonymous users* means users that are not authenticated to the organizations tenant. In this context all external users are considered anonymous. Authenticated users include tenant users and Guest users of the tenant.
+    - [Anonymous access](/microsoftteams/anonymous-users-in-meetings) allows for meeting join of (1) unauthenticated users that are not signed in Team (typically joining through the meeting link in browser) **and** (2) authenticated users from external tenants that don’t have established External access with the organizer and your org.
 
-Enabling external users to participate in Teams meetings can be useful, but entails some security risks. To address these risks, Teams uses the following safeguards:
+    - Through [External access](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings) you can decide which authenticated external users and organizations will be able to join your meetings with more privileges. These users are considered to belong to trusted organizations.
 
-- Participant roles determine meeting control privileges.
-- Participant types allow you to limit access to specific meetings.
-- Scheduling meetings is restricted to users who have an AAD account and a Teams license.
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference, dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On* then they also need to wait until a presenter or authenticated user joins the meeting.
-
-  > [!CAUTION]
-  > See [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) for details.
-
-It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
+    - [Guest access](/microsoftteams/guest-access) allows you create guest accounts for people outside of your org to have access to teams, documents in channels, resources, chats, and applications while maintaining control over your corporate data.
 
 > [!NOTE]
-> For more information on Guest and External Access in Teams, see this [article](./communicate-with-users-from-other-organizations.md). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](./tmr-meeting-recording-change.md) and its matrix.
+> Users and orgs that don’t have external access with your org will be considered anonymous. In case you’ve blocked anonymous join they won’t be able to join your meetings.
+>
+> External access needs to be enabled bi-directionally, both organizations need to allow for mutual External access.
+>
+> [!NOTE]
+> For more information on Guest and External Access in Teams, see this article. It covers what features guest or external users can expect to see and use when they login to Teams.
+
+2. Decide who can join the meeting directly and who will need to wait in the Lobby to be admitted by Organizer, co-organizer or authenticated users with Presenter meeting role:
+
+    - [IT Admin’s controls](/microsoftteams/who-can-bypass-meeting-lobby)
+    - [Organizer’s controls](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)
+
+3. Decide if anonymous users and dial-in callers can start a meeting before users from your org, users from trusted org and users with guest access joins the call.
+
+> [!NOTE]
+> Scheduling meetings is restricted to authenticated users from your org or users with guest access to your org.
+
+**During the meeting:**
+
+1. Assign specific **participant meeting roles** to determine meeting control privileges. Meeting participants fall into groups, each with its own privileges and restrictions, [outlined here](https://support.microsoft.com/en-gb/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+> [!NOTE]
+> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](/microsoftteams/tmr-meeting-recording-change) and its matrix.
+
+**Modify while the meeting is running:**
+
+- You can modify the meeting options while a meeting is on-going. The change, when it's saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting. For details on how to assign these roles, [read this article](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options).
+
+> [!NOTE]
+> Changes in Teams admin settings can take up to 24 hours.
 
 ### Roles in a Teams meeting
 
