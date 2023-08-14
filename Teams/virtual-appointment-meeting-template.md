@@ -27,7 +27,7 @@ appliesto:
 
 ## Overview
 
-The Virtual appointment template is a default meeting template in Microsoft Teams that your users can use to schedule virtual appointments with customers, clients, and other people outside your organization. For example, use it to schedule and conduct interviews, mentorship sessions, financial consultations, virtual shopping experiences, and more.
+The Virtual appointment template is a default meeting template in Microsoft Teams that your users can use to schedule virtual appointments with external guests, such as customers, clients, and other people outside your organization. For example, use it to schedule and conduct interviews, mentorship sessions, financial consultations, virtual shopping experiences, and more.
 
 This article gives you an overview of how to manage the Virtual appointment meeting template<!--in the Teams admin center-->.
 
