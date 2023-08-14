@@ -50,16 +50,16 @@ Microsoft continues to work with Cloud Video Interop (CVI) partners to make meet
 
 | Release|Feature Name|Feature Description|Microsoft Status|*Blue Jeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|CY22Q3.1|PowerPoint Notifications|| Cell 2   |||||
-|CY22Q4.1|CVI Telemetry|| Cell 4 |||||
-|CY22Q4.2|Alignment of lobby between CVI and Teams meetings|||||||
-|CY22Q4.3|Support for Long Term Reference Frame (LTRF)|||||||
-|CY22Q4.4|Support for Microsoft Teams Premium, "Watermark Feature"|||||||
-|CY23Q1.1|Support for Microsoft Teams Premium, "Watermark Feature"|||||||
-|CY23Q2.1|SIP Guest Join|||||||
-|CY23Q3.1|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|||||||
-|CY23Q3.2|CVI and PSTN dial-in re-occurring meeting expiration|||||||
-|CY23Q3.3|Support for multiple email domains within CVI meeting co-ordinates|| |||||
+|CY22Q3.1|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants| Cell 2   |||||
+|CY22Q4.1|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics| Cell 4 |||||
+|CY22Q4.2|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers", now ensures VTC is held in lobby even when VTC lobby bypass is configured||||||
+|CY22Q4.3|Support for Long Term Reference Frame (LTRF)|Improved support for video packet loss recovery within CVI||||||
+|CY22Q4.4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked||||||
+|CY23Q1.1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed||||||
+|CY23Q2.1|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates are not present within the invite||||||
+|CY23Q3.1|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices||||||
+|CY23Q3.2|CVI and PSTN dial-in re-occurring meeting expiration|Both CVI and PSTN dial-in re-occurring meeting coordinates extended from 60 to 360 days||||||
+|CY23Q3.3|Support for multiple email domains within CVI meeting co-ordinates|Support for additional email domains within CVI meeting coordinates| |||||
 
 ### Office 365 US Government and third-party services
 
