@@ -90,7 +90,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 * If an app is not updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 
-* App policies, usage reporting, audit logs, and other governance applies to all versions of an app. Admins retain complete control irrespective of the app versions used in the tenant.
+* App policies, usage reporting, audit logs, and other governance apply to all versions of an app. Admins retain complete control irrespective of the app versions used in the tenant.
 
 * For updated apps, Teams administrators can't consent on behalf of the users. Users must individually provide their consent if it's required. Azure AD admin must [allow users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
 
