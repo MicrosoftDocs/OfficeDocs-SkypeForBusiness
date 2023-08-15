@@ -1,7 +1,7 @@
 ---
 title: Manage devices in Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -87,22 +87,18 @@ This video shows how to search for Teams devices.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGQ?autoplay=false]
 
-### View Android device sign-in failures
+### View issues with Android-based Teams devices
 
-If you're having trouble signing into an Android device, you can check the device's details page to see what sign-in failures might have occurred.
+You can view issues with Android-based Teams devices in the health status column of the device list.
 
-1. In the left navigation, go to **Teams devices** > select the Teams device type. For example, if the Android device is a phone, select **Phones**.
-2. Click on the display name of the Phone that you want to view sign-in failures for. This will open the device's details page.
-3. On the device details page, select the **Activity** tab and then select **Sign-in failure** in the **Activity type** drop-down.
+In addition to the health status of the device, the following issues are also surfaced in the health status column:
+
+1. **Sign-in errors exist** - There was an issue signing-in to the device. Select the health status of the device to view the time the sign-in failure occurred, the account that attempted to sign into the device, the reason for the failure, and a history of previous sign-in failures.
+2. **No connection** - The connection between Teams admin center and the device has been lost. Restart or update the device through Teams admin center to resolve this error.
+3. **Multiple issues** - One or more errors exist. Select the health status of the device to view the list of issues.
 
 > [!NOTE]
-> If you don't see any sign-in failures for a device you're having trouble signing into, make sure the device's firmware is on the latest version provided by its manufacturer.
-
-The results that are returned contain the following information:
-
-- The time the sign-in failure occurred.
-- The account that attempted to sign into the device.
-- The reason for the failure.
+> If you don't see any issues for a device you're having trouble with, make sure the device's firmware is on the latest version.
 
 ### Use configuration profiles in Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Assisted upgrades | Skype Business Online to Teams Upgrade 
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams

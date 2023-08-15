@@ -21,7 +21,6 @@ appliesto:
   - Microsoft Teams
 ---
 
-
 # Export content with the Microsoft Teams Export APIs
 
 Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](/graph/api/resources/channel) or [chat](/graph/api/resources/chat). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
@@ -40,9 +39,11 @@ Here are some examples on how you can use these export APIs:
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh.
-- **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](/graph/api/resources/chatmessage#properties).
-
+- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History which includes changes and updates made to a reaction on a message.
+- **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
+- **Deleted Teams:** Export API supports [capturing messages from deleted Teams and deleted Private Channels](/graph/api/deletedteam-getallmessages) for more information.
+- **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
+- **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events) for information and system messages samples specific to Microsoft Graph.
 
 ## How to access Teams Export APIs
 
@@ -71,7 +72,7 @@ Here are some examples on how you can use these export APIs:
 
 ## Prerequisites to access Teams Export APIs
 
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
+- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
 - Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
   - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
   - *ChannelMessage.Read.All*: enables access to all channel messages
@@ -148,4 +149,62 @@ Namespace: microsoft.graph
 ```
 
 > [!NOTE]
-> For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+> For more information on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+
+## Export API filters
+
+Export API hosted on the Teams Graph Service gets all user messages from the Substrate user mailbox using `users/{userId}/chats/getAllMessages`. Export API retrieves both sent and received messages for a user which leads to export of duplicate messages when calling the API for all users in the chat thread.
+
+Export API has filter parameters that help optimize the messages returned for a chat thread. The [API GET](https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages) supports new filter parameters that allow a way to extract messages based on the sent user, bot, application and system event messages. The filter parameter supports messages sent by the following: 
+
+ - users (multiple user Ids supported in the same request) 
+
+ - applications (bots, connectors etc.) 
+
+ - anonymous users 
+
+ - federated users (external access users)
+   
+ - system event messages (control messages)
+   
+These parameters are part of the request’s `$filter`. If none of these parameters are present in the request, the messages from all the users present in the specified user chats will be returned.   
+
+The filtering scenarios that are supported are as follows: 
+
+```
+$filter=from/application/applicationIdentityType eq '<appType>' (bots/tenantBots/connectors, etc.)  
+  
+$filter=from/user/id eq '<oid>' (any number of id filters)  
+  
+$filter=from/user/userIdentityType eq 'anonymousGuest'  
+  
+$filter=from/user/userIdentityType eq 'federatedUser' (guest/external)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' (sent by app or userid)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' (sent by app or anonymous)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'federatedUser' (sent by app or federated)  
+  
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by app, anonymous or federated)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' (sent by any number of userid or anonymous)  
+  
+$filter=from/user/id eq '<oid>' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated)  
+
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated or anonymous)
+ 
+$filter=from/application/applicationIdentityType eq '<appType>' or from/user/id eq '<oid>' or from/user/userIdentityType eq 'anonymousGuest' or from/user/userIdentityType eq 'federatedUser' (sent by any number of userid or federated or anonymous) or messsageType eq 'systemEventMessage'
+
+(<any of the previous filters>) and (lastModifiedDateTime+gt+<date>+and+lastModifiedDateTime+lt+<date>)  
+```
+
+ - The query returns messages sent by the specified user if `from/user/id eq ‘{oid}’` is present.
+   
+ - The query returns messages sent by the federated users that are part of the user chats, if `from/user/userIdentityType eq ‘federatedUser’` is present.
+
+ - the query returns messages sent by the specified application type if `from/application/applicationIdenitytyType eq '{appType}'` is present.
+   
+ - the query returns messages sent by the system if `messageType eq 'systemEventMessage'` is present
+
+These parameters can be combined between them using the OR operators as well as by combining with the `lastModifiedDateTime` `$filter` parameter.

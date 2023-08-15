@@ -1,7 +1,7 @@
 ---
 title: Learn how to setup content cameras - Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 08/12/2019
 manager: serdars
@@ -34,7 +34,7 @@ See the following video for examples of content camera functionality.
 ## Set up a content camera
 
 > [!NOTE]
-> Always adhere to your country or area's building code, which may define a minimum distance from the floor or a requirement that ceiling-mounted equipment be secured to a rafter or other structure. Follow the mounting instruction for the hardware provided with the camera you've selected. OEM camera mounting kits include a camera, USB 2.0 extenders, and required cabling.
+> Always adhere to your country/region or area's building code, which may define a minimum distance from the floor or a requirement that ceiling-mounted equipment be secured to a rafter or other structure. Follow the mounting instruction for the hardware provided with the camera you've selected. OEM camera mounting kits include a camera, USB 2.0 extenders, and required cabling.
 
 The size of the whiteboard used for sharing affects the placement of the camera. Board size recommendations are:
 

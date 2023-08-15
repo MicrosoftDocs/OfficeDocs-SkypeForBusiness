@@ -1,7 +1,7 @@
 ---
 title: Update Microsoft Teams devices remotely
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: rahulmi
 ms.date: 06/24/2020
 manager: serdars
@@ -30,11 +30,23 @@ Device firmware updates happen automatically by default. You can, however, updat
 
 #### Software versions on Teams admin center
 
-Only firmware versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Firmware versions tested by Microsoft are labeled **Verified by Microsoft**.
+All new software versions for Teams devices are made available on Teams admin center once they are published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfils the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
 
-Additionally, early versions of the firmware may also be made available and will be labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview firmware, and devices running on these versions will also be eligible for receiving automatic updates in future.
+Only software versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Software versions tested by Microsoft are labeled **Verified by Microsoft**.
 
-Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.
+Additionally, early versions of the software may also be made available and will be labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview firmware, and devices running on these versions will also be eligible for receiving automatic updates in future.
+
+Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated; these devices can only be manually updated.  
+  
+Refer to the following for more details on new releases and their requirements:
+
+Phone - [Phone - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-phones)
+
+Displays - [Displays - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-displays)
+
+Panels - [Panels - Devices for Teams | Product release information](/microsoftteams/devices/teams-ip-phones#product-release-information-for-teams-panels)
+
+MTRA - [MTRA - Product release information](/microsoftteams/rooms/android-app-firmware)
 
 ## Automatic updates
 
@@ -120,3 +132,36 @@ After you select **Update**, updates are applied to your devices at the date and
 This video shows how to update Teams devices.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbK?autoplay=false]
+
+## Frequently asked questions about automatic updates
+
+1. **Which software components are automatically updated?**
+Currently, only Firmware is automatically updated for eligible devices. Teams app needs to be updated through the [manual](#manually-update-remote-devices) approach by the administrators.
+
+2. **What makes a device eligible to receive automatic updates?**
+The following conditions should be satisfied for the device to be eligible for automatic updates:
+    - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
+    - Current version should be supported by Microsoft. Refer to [Software versions](#software-versions-on-teams-admin-center) for more details.
+    - Devices on versions released before 2022 will generally not have auto-update support.
+
+3. **How fast does the rollout happen?**
+Eligible devices receive updates in weekly cycles based on the update phase they are in. For example, devices in General phase start receiving Firmware updates only after 30 days have elapsed since the new version was published. To ensure a stable rollout, the devices are updated gradually for a tenant and not all at once. Overall, the rollout of each new version takes a few weeks after the start of each update phase.
+
+Also, if the device is on an older version, like N-3. It will be updated step-wise to intermediate versions, like N-2 and N-1, before it is updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
+
+5. **How do I check if a device has received an update?**
+Whenever a device receives an update (or has one scheduled), the History tab on the device page will show corresponding details for a software update operation.
+
+6. **I see that the updates are happening but they are failing. What do I do?**
+Sometimes the updates can fail due to transient conditions. In such cases, no intervention is required. Updates will be automatically retried on the devices.
+If updates are consistently failing across your inventory, you can check a few things:
+    - Devices are online at the time when updates are scheduled.
+    - Network configuration is done appropriately to allow download of updates. Refer to [URLs and IP address ranges for Microsoft Teams](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) for the URLs and IP address ranges that need to be allowed for Teams.
+    - If this does not help, reach out to Microsoft support with the logs. Device logs can be found in the History tab of the device page as part of the Device diagnostics operation run with the software update operation.
+
+7. **The eligible count of devices doesn't seem to match the available devices.**
+The device count in **Automatic software updates** section shows the number of eligible devices that are ready to be updated. Those that have already been updated to the **New version** are not counted. It can also include devices from the previous phase that could not get updated.
+
+8. **When do automatic updates happen?**
+The updates are scheduled to happen over weekends outside of typical business hours to minimize impact. If the device is offline at that time, the updates will get executed when the device comes back online the next time.
+

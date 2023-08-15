@@ -1,7 +1,7 @@
 ---
 title: Authentication best practices for Microsoft Teams shared device management of Android devices.
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 12/16/2021
 ms.topic: conceptual
@@ -116,6 +116,6 @@ Use filters for devices to identify your common-area devices and enable policies
 >[!NOTE] 
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
 
-### Microsoft Teams room usage report
+### Microsoft Teams Rooms usage report
 New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagement during each meeting and have a better understanding of those data. 
 

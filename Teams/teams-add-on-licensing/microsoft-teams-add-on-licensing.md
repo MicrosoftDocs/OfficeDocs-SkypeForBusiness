@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.date: 07/07/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -22,7 +22,6 @@ ms.localizationpriority: medium
 ms.custom:
   - Licensing
   - LIL_Placement
-  - seo-marvel-mar2020
 description: Learn about Microsoft add-on licenses for Microsoft Teams and the capabilities you get with each license.
 ---
 
@@ -39,7 +38,6 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 |License|Description|
 |-------|-----------|
 | **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
-| **Microsoft 365 Business Voice** | Business Voice was Microsoft's voice capability bundle for small and medium businesses, but it's no longer available to purchase since March 1, 2022. Current Business Voice subscribers can no longer renew their Business Voice licenses. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan license](../business-voice/whats-business-voice.md), if it's available in your region. <br/> <br/> Alternatively, you can purchase a Teams Phone Standard license that will allow you to connect to your preferred third-party PSTN provider. |
 | **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. |
 | **Teams Phone Standard** |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). |
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |

@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss scale video delivery and enterprise content delivery networks (eCDNs) for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -70,14 +70,14 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ### Riverbed
 
-**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment. Learn more at [this link](https://www.riverbed.com/office365).
+**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected partner eCDN provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
 
 ## Configure Stream encoder type events for your eCDN solution
 
-After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Yammer.
+After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Viva Engage.
 
 1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
 1. Toggle the **Video distribution provider** to **On**.
@@ -91,9 +91,9 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 After you configure Teams for an eCDN solution, any video or live event that is played in Teams will take advantage of that solution automatically.
 
-## Configure Teams production type events through Teams and Yammer for your eCDN solution
+## Configure Teams production type events through Teams and Viva Engage for your eCDN solution
 
-If you plan to create Teams live events through Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+If you plan to create Teams live events through Teams or Viva Engage, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
 
 ### Get to video analytics reports for your eCDN solution
 

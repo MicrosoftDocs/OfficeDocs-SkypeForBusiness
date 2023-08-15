@@ -2,8 +2,8 @@
 title: Microsoft Teams Rooms
 ms.reviewer: 
 ms.date: 04/26/2018
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.topic: article

@@ -50,6 +50,8 @@
                       href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Port and protocol requirements
               href: ../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Disable legacy control panel
+              href: ../plan/disable-legacy-control-panel.md
         - name: Authentication and Authorization
           href: ../../SfbServer/plan-your-deployment/modern-authentication/modern-authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
@@ -981,6 +983,8 @@
               href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Management Shell
           href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Emergency Mitigation Service
+          href: /SkypeForBusiness/emergency-mitigation-service-overview?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Control Panel
           href: ../../SfbServer2019/control-panel-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 

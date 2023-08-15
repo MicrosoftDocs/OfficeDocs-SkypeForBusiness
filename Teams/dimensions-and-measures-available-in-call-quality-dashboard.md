@@ -584,6 +584,15 @@ The following table lists the dimensions currently available in CQD, in the orde
 |**Common**||||
 | First ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the first endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
 | Second ACS Resource ID |String |Immutable resource identifier of the Azure Communication Service associated with the second endpoint. <br/> **Example:** 00000000-0000-0000-0000-000000000000 | Endpoint isn't using Azure Communication Services APIs|
+|**Teams Events**||||
+|Teams Events Meeting Role|String|Identifies if the user was an Attendee in a Teams Event||
+|Teams Events Attendee ECDN Name|String|Identifies the Enterprise Content Delivery Network (eCDN) to which the attendee was connected when viewing the event||
+|Teams Events Attendee ECDN Script Load Error|String|Provides the reason and relevant URL for when script load errors are encountered by attendees.||
+|Teams Events Attendee Stream Retry Count|Integer|The number of retries per minute that occurred while an attendee was watching an event stream.||
+|Meeting Type|String|Indicates whether a meeting was a regular Teams meeting or a Teams Live Event.||
+|Teams Events Time To Connect Media|Integer|The amount of time required for playback to begin after signaling has completed.||
+|Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
+|Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
 |**VDI**||||
 |First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
@@ -804,6 +813,11 @@ Many Measurement values can also be used as filters. The following table lists t
 |PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures) / Total Attempt Calls x 100. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg Auto Attendant Chain Duration Seconds | Integer | The average duration that users spend in the Auto Attendant, measured in seconds. |
 | Avg Call Queue Duration Seconds | Integer | The average duration that users are waiting for a Call Queue to be answered by an agent, measured in seconds. |
+|Total Teams Events Stream Count|Integer|The total number of Teams Events streams.|
+|Teams Events ECDN Error Stream Count|Integer|The total number of Teams Events streams that failed to establish due to eCDN errors.|
+|Teams Events Setup Failure Stream Count|Integer|The number or Teams Events streams that failed to establish during media setup.|
+|Teams Events Setup Succeeded Stream Count|Integer|The number or Teams Events streams that successfully established.|
+|Teams Events Stream Setup Failure Percentage|Percentage|The percentage of Teams Events steams that failed to establish during media setup.|
 | Detected Inbound Network Problem True Count | Integer | Number of instances that there was high confidence that a First-to-Second media stream may have been impacted due to the inbound network. |
 | Detected Inbound Network Problem False Count | Integer | Number of instances that there wasn't high confidence that a First-to-Second media stream may have been impacted due to the inbound network. |
 | Detected Inbound Network Problem Null Count | Integer | Number of instances that the Detected Inbound Network Problem model returned a null value. See Detected Inbound Network Problem dimension for explanation. |

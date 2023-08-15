@@ -83,7 +83,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Guam](/microsoftteams/phone-reference/plan-availability/availability-in-guam)
 > - [Guatemala](/microsoftteams/phone-reference/plan-availability/availability-in-guatemala)
 > - [Honduras](/microsoftteams/phone-reference/plan-availability/availability-in-honduras)
-> - [Hong Kong](/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong)
+> - [Hong Kong SAR](/microsoftteams/phone-reference/plan-availability/availability-in-hong-kong)
 > - [Hungary](/microsoftteams/phone-reference/plan-availability/availability-in-hungary)
 > - [India](/microsoftteams/phone-reference/plan-availability/availability-in-india)
 > - [Indonesia](/microsoftteams/phone-reference/plan-availability/availability-in-indonesia)
@@ -179,7 +179,7 @@ To see more about Audio Conferencing, see [Audio Conferencing common questions](
 In Audio Conferencing, the "*Call Me*" feature is used to let other people join a dial-in meeting. Use the drop-down list in this article to search for the country/region and see if this feature is available.
 
 > [!CAUTION]
-> Dialing out to toll free or free phone numbers may not be possible, because some toll free numbers only function from within a certain country or area within a country. For example, if you dial out from the United States to a toll free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll free numbers varies widely depending on the restrictions of the toll free number dialed. Unfortunately, we can't control this behavior, and as a result, your experience may vary depending on the toll free number dialed and the restrictions of the toll free number.
+> Dialing out to toll free or free phone numbers may not be possible, because some toll free numbers only function from within a certain country/region or area within a country/region. For example, if you dial out from the United States to a toll free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll free numbers varies widely depending on the restrictions of the toll free number dialed. Unfortunately, we can't control this behavior, and as a result, your experience may vary depending on the toll free number dialed and the restrictions of the toll free number.
   
 Dialing out from a meeting to another country/region in the world that isn't listed below is available using [Communication Credits](/MicrosoftTeams/what-are-communications-credits). For those users, you'll need to [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization).
 

@@ -1,7 +1,7 @@
 ---
 title: Teams device store
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: rahulimi
 ms.date: 03/28/2023

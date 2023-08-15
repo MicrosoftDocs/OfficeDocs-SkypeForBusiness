@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 search.appverid: MET150
 description: Learn about the settings you need to configure to control whether teams owners in your organization can give consent to apps. 
 ms.localizationpriority: high
@@ -84,7 +84,7 @@ Team owners can only give consent to apps that their app permission policy allow
 
 ## Upload custom apps
 
-When uploading a custom app (also known sideloading) that uses resource-specific consent, the app must come from the tenant that it's being installed to. In other words, the Azure AD app registration must be from this tenant. Global admins are exempted from this restriction, and can upload custom apps from any tenant, either directly to a team (sideloading) or to the tenant app catalog.
+When uploading a custom app that uses resource-specific consent, the app must come from the tenant that it's being installed to. In other words, the Azure AD app registration must be from this tenant. Global admins are exempted from this restriction, and can upload custom apps from any tenant, either directly to a team or to the tenant app catalog.
 
 ## Related articles
 

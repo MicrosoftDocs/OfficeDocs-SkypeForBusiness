@@ -122,7 +122,7 @@ Set-MsolUser -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -UsageLocat
 
 Set-MsolUserLicense -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").ObjectID
+$dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").Identity
 ```
 
 ## Contoso Main Menu Auto Attendant
@@ -224,13 +224,13 @@ $openHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt " Thank
 
 $openHoursMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "For Sales press 1. For Support press 2. If you know the name of the person you would like to reach, press 3. For our address, email and fax information, press 4. For all other inquiries press 0 to speak with the operator."
 
-$openHoursMenuOption1Target = (Get-CsOnlineUser "Sales-RA@contoso.com").ObjectID
+$openHoursMenuOption1Target = (Get-CsOnlineUser "Sales-RA@contoso.com").Identity
 
 $openHoursMenuOption1Entity = New-CsAutoAttendantCallableEntity -Identity $openHoursMenuOption1Target -Type applicationendpoint
 
 $openHoursMenuOption1 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone1 -CallTarget $openHoursMenuOption1Entity
 
-$openHoursMenuOption2Target = (Get-CsOnlineUser "Support-RA@contoso.com").ObjectID
+$openHoursMenuOption2Target = (Get-CsOnlineUser "Support-RA@contoso.com").Identity
 
 $openHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $openHoursMenuOption2Target -Type applicationendpoint
 

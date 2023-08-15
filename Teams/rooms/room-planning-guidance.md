@@ -1,7 +1,7 @@
 ---
 title: Meeting room guidance for Teams
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 2/2/2022
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.reviewer: 
-description: A lookbook and guide for meeting room optimization with Teams Room solutions and devices.
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -183,9 +183,9 @@ A Signature Teams Room experience is all those components and ideas put together
 
 Examples of specific feature deployment:
 
-- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
+- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Rooms solution that supports it.
 
-- Implement curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
+- Implement curved tables and front-facing layouts with traditional Microsoft Teams Rooms experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
 ## When should you deploy this room type?
 
@@ -397,7 +397,7 @@ All Teams Rooms on Windows can leverage traditional whiteboards in a Teams meeti
 
 ## Recommended products for this space
 
-### Microsoft Teams Room console and compute
+### Microsoft Teams Rooms console and compute
 
 - A Windows-based Microsoft Teams Rooms solution.
 

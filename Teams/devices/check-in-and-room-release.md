@@ -1,7 +1,7 @@
 ---
 title: Check-in and room release on Microsoft Teams panels
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: eviegrimshaw
 ms.date: 4/21/2023
@@ -53,7 +53,7 @@ When Teams panels share a resource account with Teams Room on Android, a user ca
 ## Turn on check-in notifications
 
 > [!NOTE]
-> This feature is currently only available on Teams panels that are paired with a Teams Room on Android. The Teams panel and Teams room must be signed into the same resource account. See [Pair a Teams panel with a Microsoft Teams Room on Android](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android) to learn more.  
+> This feature is currently only available on Teams panels that are paired with a Teams Room on Android. The Teams panel and Teams room must be signed into the same resource account. See [Pair a Teams panel with a Microsoft Teams Room on Android](use-teams-panels.md#pair-a-teams-panel-with-microsoft-teams-rooms-on-android) to learn more.  
 
 Check-in notifications are sent when a meeting is continuing past its reserved time slot. Once a user from the next meeting checks in, the notification will appear on the front of room display at their scheduled meeting start time to let the previous meeting participants know their reservation is over and people are waiting for the space.  
 

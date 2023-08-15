@@ -1,7 +1,7 @@
 ---
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: kspiess
 ms.date: 02/28/2022
 manager: serdars

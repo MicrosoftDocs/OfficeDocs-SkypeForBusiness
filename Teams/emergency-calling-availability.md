@@ -20,13 +20,13 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-description: Learn how emergency call routing is supported for Microsoft Calling Plans in different countries.
+description: Learn how emergency call routing is supported for Microsoft Calling Plans in different countries/regions.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Emergency call routing for different countries 
+# Emergency call routing for different countries/regions 
 
-This article describes how emergency call routing is supported for Microsoft Calling Plans in different countries.
+This article describes how emergency call routing is supported for Microsoft Calling Plans in different countries/regions.
 
 CLI - Calling Line Identifier<br>
 DID - Direct Inward Dialing<br>
