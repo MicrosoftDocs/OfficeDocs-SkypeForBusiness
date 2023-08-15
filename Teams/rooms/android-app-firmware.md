@@ -53,6 +53,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar | `NFB1.20230504.0019` | 2023 Update #2 |
+| Neat Bar Pro| `NFD1.20230504.0025` | 2023 Update #2 |
+| Neat Board | `NFC1.20230504.0019` |  2023 Update #2 |
+| Neat Pad touch console | `NFA1.20230504.0202`  |  2023 Update #2 |
 | DTEN D7X 55" |`1.4.3.3`   | 2023 Update #1C |
 | Logi Rallybar | `1.9.571`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.9.571`   | 2023 Update #2  |
