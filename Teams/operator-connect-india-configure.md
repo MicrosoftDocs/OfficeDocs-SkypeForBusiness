@@ -182,4 +182,4 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 ## Related topics
 
-- [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)
+- [Plan Operator Connect for India](operator-connect-india-plan.md)

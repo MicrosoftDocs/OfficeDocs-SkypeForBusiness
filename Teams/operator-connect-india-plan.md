@@ -69,3 +69,7 @@ To enable phone number assignments with Operator Connect for India, make sure yo
 
 For technical support, please contact the customer support of your Operator Connect operator first. If needed, Operator Connect operators can escalate your support case directly to Microsoft engineering through shared support channels. 
 
+## Related topics
+
+-  [Configure Operator Connect for India](operator-connect-india-configure.md)
+
