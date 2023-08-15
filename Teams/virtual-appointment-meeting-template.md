@@ -44,7 +44,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently only available in the United States. Your users can only send SMS text notifcations to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
+> This feature is currently only available in the United States. Your users can only send SMS text notifications to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
 
 You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
@@ -73,10 +73,10 @@ In this example, we create a custom policy called New Hire SMS Policy and we tur
 New-CsTeamsVirtualAppointmentsPolicy -identity "New Hire SMS Policy" -EnableSMSNotifications $false
 ```
 
-Here, we assign the policy to a user named user1.
+Here, we assign the policy to a user named daniela@contoso.com.
 
 ```PowerShell
-Grant-CsTeamsVirtualAppointmentsPolicy -identity user1@contoso.com -PolicyName "New Hire SMS Policy"
+Grant-CsTeamsVirtualAppointmentsPolicy -identity daniela@contoso.com -PolicyName "New Hire SMS Policy"
 ```
 
 You can assign the policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies in Teams](policy-assignment-overview.md).
