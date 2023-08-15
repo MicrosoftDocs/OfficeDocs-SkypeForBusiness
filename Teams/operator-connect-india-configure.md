@@ -127,6 +127,8 @@ If `OnPremLineUri` is populated with an E.164 phone number, the phone number was
   OnPremLineURI                        : 
   LineURI                              : 
   ```
+  
+  To remove a number:
 
   ```PowerShell
   Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
