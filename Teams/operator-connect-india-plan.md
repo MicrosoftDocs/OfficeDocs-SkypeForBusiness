@@ -60,9 +60,9 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 To enable phone number assignments with Operator Connect for India, make sure your users are:
 
-- Assigned the appropriate license. You'll acquire the appropriate license from your carrier in India. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- **Assigned the appropriate license.** You'll acquire the appropriate license from your carrier in India. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-- In TeamsOnly mode. Note that the user needs to be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+- **In TeamsOnly mode.** Note that the user needs to be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 
 ## Support boundaries
