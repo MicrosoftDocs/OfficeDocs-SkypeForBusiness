@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 03/30/2023
+ms.date: 08/10/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,7 +27,7 @@ You can deploy the new Teams client to your organization by setting policies in 
 ## Policy settings for deployment
 
 >[!Important]
->In early August 2023, a new policy setting will roll out that will let you make the new Teams your default version.
+>The new policy setting is now rolling out that lets you make the new Teams your default version.
 >
 >By setting the policy to **New Teams as default**, new Teams will become your default. Users can switch back to classic Teams using the toggle.
 
@@ -38,7 +38,7 @@ Options include:
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |**New Teams as default </br>(Releasing late July)**| Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
+   |**New Teams as default </br>Rollout for the feature began in early August, 2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
 
 
 ## Prerequisites
