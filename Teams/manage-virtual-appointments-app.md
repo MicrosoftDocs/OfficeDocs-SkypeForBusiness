@@ -63,7 +63,7 @@ Get easy access to key actions and information. The Home page provides a quick w
 
 ![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-Access your appointment calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. ???To learn more, see [Set up a new booking calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-a-new-booking-calendar).
+Access your appointment calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up an appointment calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-an-appointment-calendar).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Schedule page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
