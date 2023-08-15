@@ -6,8 +6,8 @@ manager: serdars
 ms.topic: reference
 audience: admin
 ms.service: msteams
-ms.reviewer: vikramju
-ms.date: 09/15/2020
+ms.reviewer: smahadevan
+ms.date: 08/15/2023
 description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
 ms.localizationpriority: medium
 f1.keywords:
@@ -41,9 +41,9 @@ Here are some examples on how you can use these export APIs:
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
 - **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History which includes changes and updates made to a reaction on a message.
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
-- **Deleted Teams:** Export API supports [capturing messages from deleted Teams and deleted Private Channels](/graph/api/deletedteam-getallmessages) for more information.
+- **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted Private Channels.
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
-- **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events) for information and system messages samples specific to Microsoft Graph.
+- **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
 
 ## How to access Teams Export APIs
 
