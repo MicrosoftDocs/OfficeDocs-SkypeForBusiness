@@ -5,7 +5,7 @@
 # will be requested to review.
 
 /Skype/SfbServer/ @lanachin
-/Skype/SfBServer2019/ @lanachin
+/Skype/SfBServer2019/ @lanachinasdf
 /Skype/SfbOnline/ @lanachin
 /Skype/SfbPartnerCertification/ @mikeplum
 /Skype/Hub/ @samanro
