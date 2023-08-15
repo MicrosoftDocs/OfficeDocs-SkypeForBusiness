@@ -1,5 +1,5 @@
 ---
-title: Virtual appointment meeting template in Microsoft Teams
+title: Manage the Virtual appointment meeting template in Microsoft Teams
 author: lana-chin
 ms.author: v-chinlana
 manager: serdars
@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Virtual appointment meeting template in Microsoft Teams
+# Manage the Virtual appointment meeting template in Microsoft Teams
 
 ![Information icon](media/info.png) **Some features described in this article require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md)**.
 

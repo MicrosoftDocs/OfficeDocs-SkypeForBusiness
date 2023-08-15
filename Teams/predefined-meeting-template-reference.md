@@ -77,6 +77,8 @@ Template
 |Enable Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
 
+To learn more, see [Manage the Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
+
 ## Related topics
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
