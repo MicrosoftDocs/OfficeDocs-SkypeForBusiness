@@ -101,9 +101,9 @@ Following are some of the types of incidents that you might see and the explanat
 
 |Type |Explanation |
 | :- | :- |
-|**Display** |The display connected to the device doesn't appear to be healthy.|
-|**Conference microphone, Conference speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
-|**Camera** |The camera connected to the device doesn't appear to be healthy. |
+|**Front Of Room** |The display connected to the device doesn't appear to be healthy.|
+|**Conferencing Microphone, Conferencing Speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
+|**Room Camera** |The camera connected to the device doesn't appear to be healthy. |
 |**HDMI Ingest** |HDMI Ingest isn't healthy. |
 |**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
 |**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
