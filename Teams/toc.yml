@@ -1573,8 +1573,6 @@ items:
               href: devices/phones-for-teams.md
             - name: Teams displays
               href: devices/teams-displays.md
-            - name: Cloud IntelliFrame
-              href: devices/cloud-intelliframe.md
             - name: Teams panels
               items: 
                   - name: Teams panels
@@ -1590,7 +1588,9 @@ items:
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
-              href: flw-realwear.md 
+              href: flw-realwear.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
                   - name: Teams alerting and monitoring
