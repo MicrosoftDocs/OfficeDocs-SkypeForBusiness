@@ -33,9 +33,9 @@ This article describes benefits and requirements. For a list of operators partic
 
 With Operator Connect for India:
 
-- **You'll need to acquire the appropriate license from your carrier in India.** Whether you have an existing Teams Phone license or not--for example, a phone license included with an E5 license--you'll still need to purchase a license from your India carrier.  For more information, see **ADD LINKS TO OC DIRECTORY CARRIER PAGES HERE.**
+- **You'll need to acquire the appropriate license from your carrier in India.** Whether you have an existing Teams Phone license or not--for example, a phone license included with an E5 license--you'll still need to purchase a license from your India carrier.  For more information, see **ADD LINKS TO OC DIRECTORY CARRIER PAGES.**
 
-- **ADD SOMETHING ABOUT OSP SUPPORT.**
+- **ADD NOTE ABOUT CALL CENTER SUPPORT.**
 
 - If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md). The configuration article describes how to collaborate with your carrier, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
 
@@ -53,11 +53,8 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
 
-- **Ability to assign mobile numbers to Teams users.** Your users are able to make PSTN calls from anywhere in India.
-
 - **Ability to assign wired numbers to Teams users.** For more information, see Plan and Configure Location-Based Routing for India.
 
-- **PSTN conferencing support** - Ability to use Operator Connect Conferencing for India service to support ad hoc and call queue conferences.
 
 ## Licensing and requirements
 

@@ -38,8 +38,6 @@ To enable an operator:
 
 2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
 
-**HOW DOES SELECT COUNTRIES CHANGE?**
-
 3. **Provide contact information** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect for India.
 
 4. Accept the data transfer notice.
@@ -70,13 +68,11 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 ### Acquire numbers for new Teams users
 
-**DOES THIS SECTION CHANGE? NO EXCEPT FOR LICENSING. STILL NEED CONFIRMED LICENSING INFO**
-
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Assign a Phone System license.** You'll attain the license from your Operator Connect for India carrier. You can assign licenses to your users from the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. Users that will be assigned phone numbers acquired with Operator Connect need to be in TeamsOnly mode. If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. To check this, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
+2. Users who will be assigned phone numbers acquired with Operator Connect need to be in TeamsOnly mode. If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. To check this, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
 
 3. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, go to the [Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id).
 
