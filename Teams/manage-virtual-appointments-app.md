@@ -143,4 +143,4 @@ To send us feedback or report an issue, select **Help** near the bottom of the l
 ## Related articles
 
 - [Virtual Appointments guided tour](https://guidedtour.microsoft.com/guidedtour/industry-longform/virtual-appointments/1/1)
-- [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md)
+- [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md) 
