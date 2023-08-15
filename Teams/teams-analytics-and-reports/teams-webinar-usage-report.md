@@ -35,23 +35,12 @@ The Teams webinar usage report in the Microsoft Teams admin center shows you the
 |**1**   |The Teams webinar usage report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
 |**2**   |Each report has a date for when it was generated. The report reflects near real time activity when the page is refreshed. |
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the total view count.</li> </ul>Hover over the dot on a given date to see the number of views across all webinars on that date.|
-|**4**   |The table gives you a breakdown of each webinar. <ul><li>**Event ID** is the unique ID of the webinar. Select the event ID name to [get more details](#view-webinar-details) about the event. </li> <li>**Event Title** is the name the organizer created for the webinar.</li><li>**Start Time(UTC)** refers to the start date and time of the webinar.</li><li>**End Time(UTC)** refers to the end date and time of the webinar.</li><li>**Organizer** is the name of the webinar organizer.</li> <li>**Co-organizer** is the name of the webinar co-organizer.</li></li> </ul>If a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
+|**4**   |The table gives you a breakdown of each webinar. <ul><li>**Event ID** is the unique ID of the webinar</li> <li>**Event Title** is the name the organizer created for the webinar.</li><li>**Start Time(UTC)** refers to the start date and time of the webinar.</li><li>**End Time(UTC)** refers to the end date and time of the webinar.</li><li>**Organizer** is the name of the webinar organizer.</li> <li>**Co-organizer** is the name of the webinar co-organizer.</li></li> </ul>If a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
 |**5**   |Select **Edit columns** to add or remove columns in the table.|
 
 ## Notes
+
 We show a maximum of up to 100 webinars that match the current report criteria. To see more webinars, apply date filters to reduce the list size.
-
-Anonymous presenters aren't included in the report.
-
-Anybody who watches the recording of the event or the event on demand won't be included in the view count. 
-
-## View webinar details
-
-The webinar details page gives you a summary of the details of a webinar and lists all the files, including transcripts and recordings, associated with the event. Select a file name to view or download the file.
-
-:::image type="content" alt-text="Screenshot showing details of a webinar." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
-
-If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com).  If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get more attendee analytics by clicking the partner report link.
 
 ## Related topics
 
