@@ -26,9 +26,9 @@ appliesto:
 
 # Cloud Video Interop for Microsoft Teams
 
-Cloud Video Interop (CVI) is a Microsoft Qualified third-party solution that enables third-party meeting rooms (telepresence) and personal video devices (VTCs) to join Microsoft Teams meetings.
- 
-With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This can be enjoyed through the desktop and web client, as well as through many partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video teleconferencing and personal video communication devices, which can be expensive to upgrade. Cloud Video Interop provides an easy solution, allowing you to keep using your existing solutions until you are ready to upgrade.
+Cloud Video Interop (CVI) is a Microsoft Qualified third-party solution that enables third-party SIP and H.323 video room devices (VTCs) to join Microsoft Teams meetings.
+
+With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This can be enjoyed through the desktop and web client, as well as through many partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video communication devices, which can be expensive to upgrade. Cloud Video Interop provides an easy solution, which allows you to keep using your existing solutions until you are ready to upgrade.
 
 With Cloud Video Interop, Microsoft Teams delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.
 
@@ -82,6 +82,8 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![The logo representing BlueJeans Gateway.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
 |![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
 
+> [!NOTE]
+> Both Poly and BlueJeans are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 ### Cloud Video Interop overview
 
 Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
@@ -115,7 +117,7 @@ During the provision phase, you will assign licenses to the appropriate users ac
 
 ### Schedule
 
-After a user is enabled for Cloud Video Interop, any meeting scheduled using either the Teams Meeting Add-in for Outlook or the Teams Client will have the appropriate additional information automatically added into the Teams meeting so that Cloud Video Interop-compatible devices can join these meetings.
+After a user is enabled for Cloud Video Interop, any meeting scheduled using the Teams Meeting Add-in for Outlook, the Teams Client or Outlook Web Access (OWA) will have the appropriate additional information automatically added into the Teams meeting so that Cloud Video Interop-compatible devices can join these meetings.
 
 ### Join
 
@@ -127,25 +129,25 @@ Depending on the partner solution, there are several ways to join a Cloud Video 
 - Direct dial 
   - You can directly dial in to the Teams meeting without interacting with the partner's IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
 - One-touch dial 
-  - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
 
-## Manage Cloud Video Interop
+   - If you have integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+   ## Manage Cloud Video Interop
 
-After Cloud Video Interop is deployed, you can manage the devices using the solutions provided by our partners. Each partner will provide you with an administrative interface that will include both license and device management. 
+   After Cloud Video Interop is deployed, you can manage the devices using the solutions provided by our partners. Each partner will provide you with an administrative interface that will include both license and device management. 
 
-Reporting is also available directly from the partner administrative interface. For more information on reporting capabilities, contact the partner of your choice. 
+   Reporting is also available directly from the partner administrative interface. For more information on reporting capabilities, contact the partner of your choice. 
 
-### Troubleshooting Cloud Video Interop
+   ### Troubleshooting Cloud Video Interop
 
-Cloud Video Interop is a partner-provided service. If you are experiencing issues, the first step is to connect a device that has the Teams Client installed and connect it to the same segment as the Cloud Video Interop device that is causing problems. 
+   Cloud Video Interop is a partner-provided service. If you are experiencing issues, the first step is to connect a device that has the Teams Client installed and connect it to the same segment as the Cloud Video Interop device that is causing problems. 
 
-If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided, you will need to contact the partner for further troubleshooting. 
+   If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided, you will need to contact the partner for further troubleshooting. 
 
-## PowerShell for Cloud Video Interop
+   ## PowerShell for Cloud Video Interop
 
-The following PowerShell cmdlets are available for you to (partially) automate the Cloud Video Interop deployment.
+   The following PowerShell cmdlets are available for you to (partially) automate the Cloud Video Interop deployment.
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for Cloud Video Interop.<br>This cmdlet allows you to identify the pre-constructed policies that you can use in your organization. You can assign this policy to one or more of your users by leveraging the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
+   - **Get-CsTeamsVideoInteropServicepolicy**: Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for Cloud Video Interop.<br>This cmdlet allows you to identify the pre-constructed policies that you can use in your organization. You can assign this policy to one or more of your users by leveraging the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 - **Grant-CsTeamsVideoInteropServicePolicy**: This cmdlet allows you to assign a pre-constructed policy for use in your organization or assign the policy to specific users.
 - **New-CsVideoInteropServiceProvider**: Use this cmdlet to specify information about a supported CVI partner that your organization would like to use.
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
