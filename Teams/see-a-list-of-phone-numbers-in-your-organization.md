@@ -104,8 +104,9 @@ To see all of the telephone numbers that are assigned to users, use the [Get-CsO
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
-    > [!IMPORTANT]
-    > By default,  the [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlet returns the first 500 results.
+
+> [!IMPORTANT]
+> By default, the [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlet returns the first 500 results.
     
 ## Related topics
 
