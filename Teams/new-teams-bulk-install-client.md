@@ -32,9 +32,9 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 
 ## How it works
 
-**TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
+**TeamsBootstrapper** is a lightweight online installer with a headless command-line interface. It allows admins to "provision’"(install) the app for all users on a given target computer.
 
-When **TeamsProvision.exe** is run on a computer:
+When **teamsbootstrapper.exe** is run on a computer:
 
 - The installer downloads the latest Teams MSIX package from Microsoft
 - The installer installs the Teams application for all users on the computer, and any users who may be added afterwards.
@@ -79,7 +79,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 >This download link will be available when the feature goes live in early August, 2023. Please check back then.
 
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsprovision.exe -p**
+3. At the prompt enter: **./teamsbootstrapper.exe -p**
 
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
