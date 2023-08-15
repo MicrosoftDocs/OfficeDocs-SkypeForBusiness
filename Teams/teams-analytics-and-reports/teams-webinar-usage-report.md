@@ -53,6 +53,7 @@ The webinar details page gives you a summary of the details of a webinar and lis
 
 If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com).  If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get more attendee analytics by clicking the partner report link.
 
-## Related articles
+## Related topics
 
-- [Set up webinars](set-up-webinars.md)
+- [Teams analytics and reporting](teams-reporting-reference.md)
+- [Set up webinars](../set-up-webinars.md)
