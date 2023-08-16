@@ -35,9 +35,8 @@ The concepts of teams and channels are fundamental to a healthy, productive impl
 To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https://aka.ms/teamstoolkit). To learn more about Teams and Microsoft 365 Groups, see [Microsoft 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
-| &nbsp; |&nbsp;  |
-|---------|---------|
-| View this short video   | > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]    |
+**View this short video**
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]    
 
 
 
