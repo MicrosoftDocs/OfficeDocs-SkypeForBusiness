@@ -71,7 +71,7 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
 
 
-|Release Date| Feature Name|Feature Description|Microsoft Status|BlueJeans|Cisco|Pexip|Poly|
+|Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 |CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Planned Q3CY23|TBD|
 |CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Planned Q3CY23|TBD|Available|
