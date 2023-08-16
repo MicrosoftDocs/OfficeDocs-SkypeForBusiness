@@ -217,9 +217,9 @@ Letting external users participate in Teams meetings can be useful, but also bri
 >
 > External access needs to be enabled bi-directionally, both organizations need to allow for mutual External access.
 >
-> [!NOTE]
-> For more information on Guest and External Access in Teams, see this article. It covers what features guest or external users can expect to see and use when they login to Teams.
 
+> [!NOTE]
+> For more information on Guest and External Access in Teams, see [this article](/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams.
 2. Decide who can join the meeting directly and who will need to wait in the Lobby to be admitted by Organizer, co-organizer or authenticated users with Presenter meeting role:
 
     - [IT Admin’s controls](/microsoftteams/who-can-bypass-meeting-lobby)
@@ -239,71 +239,10 @@ Letting external users participate in Teams meetings can be useful, but also bri
 
 **Modify while the meeting is running:**
 
-- You can modify the meeting options while a meeting is on-going. The change, when it's saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting. For details on how to assign these roles, [read this article](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options).
+- You can [modify the meeting options](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options) while a meeting is on-going. The change, when it's saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting. For details on how to assign these roles, [read this article](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options).
 
 > [!NOTE]
 > Changes in Teams admin settings can take up to 24 hours.
-
-### Roles in a Teams meeting
-
-Meeting participants fall into groups, each with its own privileges and restrictions. For details on this topic see:
-
-[Roles in Microsoft Teams meetings](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)
-
-
-For information on anonymous and external users see:
-
-[Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md)
-
-[Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
-
-### Participant types
-
-Meeting participants are also categorized by location and credentials. You can use both of these characteristics to decide which users can have access to specific meetings. Users can be divided broadly into the following categories:
-
-- **Users that belong to the tenant**. These users have a credential in Azure Active Directory for the tenant.
-
-    *People in my organization* – These users have a credential in Azure Active Directory for the tenant. *People in my organization* includes invited Guest accounts.
-
-    *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join meetings and act as presenters.
-
-- **Users that don't belong to the tenant**. These users do not have credentials in Azure AD for the tenant.
-
-    *Trusted org users* - Users from trusted organizations (as configured in [External access](trusted-organizations-external-meetings-chat.md)) have valid credentials with other Microsoft 365 organizations and are therefore treated as authenticated by Teams, but are still external to the meeting organizer tenant. Users from trusted organizations can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in your organization.
-
-    *[Anonymous Users](anonymous-users-in-meetings.md)* - Anonymous users do not have an Active Directory identity or their identity is not from trusted organizations.
-
-Many meetings involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a meeting. The next section describes how Teams limits meeting access to those user types that have been explicitly allowed, and requires all user types to present appropriate *credentials* when entering a meeting.
-
-### Participant admittance
-
-> [!CAUTION]
-> If you do not want Anonymous users to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the organizer's meeting policy.
-
-In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out.
-
-By default, participants dialing in from the PSTN go directly to the meeting once an authenticated user joins the meeting, but this option can be changed to force dial-in participants to go to the lobby.
-
-Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
-
-The defaults are:
-
-- *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
-- *People in my organization, trusted organizations, and guests* - Authenticated users within the organization, including guest users and users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.
-- *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
-
-### Presenter capabilities
-
-Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following options:
-
-- *People in my organization* - All in tenant users, including guests, can present
-- *People in my organization and trusted organizations* - All in tenant users, including guests, can present and external users from Teams and Skype for Business domains that are in the external access allowlist can present.  
-- *Everyone* - All meeting participants are presenters.
-
-### Modify while meeting is running
-
-You can modify the meeting options while a meeting is on-going. The change, when saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting.
-
 ## Related topics
 
 [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
@@ -313,4 +252,5 @@ You can modify the meeting options while a meeting is on-going. The change, when
 [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementing VPN split tunneling](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
 
