@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: justle
-ms.date: 07/31/2023
+ms.date: 08/16/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -51,7 +51,7 @@ Follow these steps in the Teams admin center to manage the registration form:
 2. Select **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
-5. Use the dropdown for the **Allowed question types in registration form** to select your choice from the following options:
+5. Use the dropdown for the **Allowed question types in registration form** setting to select your choice from the following options:
 
    - Default only
    - Default and predefined only
