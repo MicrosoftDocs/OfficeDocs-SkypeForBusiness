@@ -72,8 +72,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
 
-||
-||
+
+| Header 1 | Header 2 | Header 1 | Header 2 | Header 1 | Header 2 | Header 1 | Header 2 |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 |CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Planned Q3CY23|TBD|
 |CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Planned Q3CY23|TBD|Available|
 |CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers", now ensures VTC is held in lobby even when VTC lobby bypass is configured|Delivered to CVI Partners|Available|Available|Available|Available|
@@ -154,6 +155,7 @@ Depending on the partner solution, there are several ways to join a Cloud Video 
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
 - **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
 - **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+
 
 
 
