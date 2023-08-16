@@ -131,16 +131,16 @@ For steps on how to set up your team targeting hierarchy, see [Set up your team 
 
 ## Power Automate and Graph API
 
-Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn more, see:
+Tasks supports Graph APIs for Planner and Power Automate for To Do. To learn more, see:
 
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
 - [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
 
 ## Data location
 
-For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
+- Planner: For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
 
-Microsoft To Do uses Exchange Online for data storage. For more information, see [Review data storage and compliance in Microsoft To do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
+- To Do: To Do uses Exchange Online for data storage. For more information, see [Review data storage and compliance in Microsoft To do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
 
 ## Give feedback or report an issue
   
