@@ -25,6 +25,9 @@ description: Use a content camera in Microsoft Teams Rooms that interacts with i
 
 You can now use a content camera with a Microsoft Teams Rooms system. A content camera interacts with special image-processing software and a whiteboard to allow a presenter to draw on an analog whiteboard and share the content with remote participants.
 
+> [!NOTE]
+> Special image-processing software to enhance the whiteboard's content is available on all Teams Rooms on Windows, and select Teams Rooms on Android.
+
 [!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 See the following video for examples of content camera functionality.
@@ -81,13 +84,22 @@ If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like ful
 
 ## Supported cameras
 
+
+## [Teams Rooms for Windows](#tab/Windows)
+
 To determine whether you can use a camera as a content camera, refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals).
 
 Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
+## [Teams Rooms for Android](#tab/Android)
+
+To determine whether your Teams Rooms on Android supports the addition of a content camera, check with your Teams Rooms on Android manufacturer.
+
 ## Camera settings
 
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
+
+## [Teams Rooms for Windows](#tab/Windows)
 
 1. Select **Settings** ![Settings icon.](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Peripherals**.
 2. In the **Content Camera** section, select the content camera and make sure that the **Content enhancements** option is selected.
@@ -97,3 +109,11 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 ![Content camera setup.](../media/content-camera1.png)
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
+
+## [Teams Rooms for Android](#tab/Android)
+
+1. Navigate to the Teams Admin Settings page on your Microsoft Teams Rooms on Android device. The steps for this will differ depending on the device.
+2. Select Devices, then Content Camera. Select the content camera using the drop down menu.
+3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
+4. Tap away from the dialog to save the settings.
+
