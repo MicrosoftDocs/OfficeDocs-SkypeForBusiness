@@ -93,7 +93,7 @@ Teams PowerShell Module fetches the app-based token using the application ID, te
 
 An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about these objects at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-Sample steps for creating applications in Azure AD are mentioned below, for detailed steps refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
+Sample steps for creating applications in Azure AD are mentioned below. For detailed steps, refer to this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Register the application in Azure AD.
 2. Assign API permissions to the application.
