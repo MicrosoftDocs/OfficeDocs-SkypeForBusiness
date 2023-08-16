@@ -37,9 +37,8 @@ The Teams webinar usage report in the Microsoft Teams admin center shows you the
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the total view count.</li> </ul>Hover over the dot on a given date to see the number of views across all webinars on that date.|
 |**4**   |The table gives you a breakdown of each webinar. <ul><li>**Event ID** is the unique ID of the webinar</li> <li>**Event Title** is the name the organizer created for the webinar.</li><li>**Start Time(UTC)** refers to the start date and time of the webinar.</li><li>**End Time(UTC)** refers to the end date and time of the webinar.</li><li>**Organizer** is the name of the webinar organizer.</li> <li>**Co-organizer** is the name of the webinar co-organizer.</li></li><li>**Presenters** is the name of the webinar presenter.</li></li><li>**Event access type** specifies whether the webinar access was in org or private.</li></li> </ul>If a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>
 
-## Notes
-
-We show a maximum of up to 100 webinars that match the current report criteria. To see more webinars, apply date filters to reduce the list size.
+> [!NOTE]
+> We show a maximum of up to 100 webinars that match the current report criteria. To see more webinars, apply date filters to reduce the list size.
 
 ## Related topics
 
