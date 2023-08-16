@@ -140,6 +140,8 @@ Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn mor
 
 For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
 
+Microsoft To Do uses Exchange Online for data storage. For more information, see [Review data storage and compliance in Microsoft To do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Tasks**, and then enter your feedback or details about the issue you're experiencing.
