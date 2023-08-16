@@ -136,6 +136,10 @@ Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn mor
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
 - [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
 
+## Data location
+
+For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Tasks**, and then enter your feedback or details about the issue you're experiencing.
