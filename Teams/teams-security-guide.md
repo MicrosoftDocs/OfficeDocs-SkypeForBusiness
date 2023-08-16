@@ -243,12 +243,6 @@ Letting external users participate in Teams meetings can be useful, but also bri
 
 > [!NOTE]
 > Changes in Teams admin settings can take up to 24 hours.
-### Modify while meeting is running
-
-You can [modify the meeting options ](https://https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options)while a meeting is on-going. The change, when saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting.
-
-Note: Changes in Teams admin center settings can take up to 24 hours.
-
 ## Related topics
 
 [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
