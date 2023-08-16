@@ -26,7 +26,7 @@ The Teams webinar usage report in the Microsoft Teams admin center shows you the
 3. Under **Organizer**, you can choose to show only webinars organized by a specific user.
 4. Select **Run report**.  
 
-   :::image type="content" alt-text="Screenshot of the Teams webinar usage report in the Teams admin center with callouts." source="../media/webinar-usage-report-small.png" lightbox="../media/webinar-usage-report-expand.png":::
+   :::image type="content" alt-text="Screenshot of the Teams webinar usage report in the Teams admin center with callouts." source="../media/webinar-usage-reports-small.png" lightbox="../media/webinar-usage-reports-expand.png":::
 
 ## Interpret the report
 
