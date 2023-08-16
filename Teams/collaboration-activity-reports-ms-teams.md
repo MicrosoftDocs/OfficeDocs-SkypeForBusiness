@@ -4,7 +4,7 @@ ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
 ms.reviewer: roykuntz; jens
-ms.date: 02/24/2023
+ms.date: 08/16/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -36,7 +36,7 @@ The Collaboration activity reports can be found in the Teams Admin Center dashbo
 
 :::image type="content" source="media/dashboard-collaboration-activity-feature.png" alt-text="The dashboard displaying the Collaboration activity reports menu item." lightbox="media/dashboard-collaboration-activity-feature.png":::
 
-### Components
+## Components
 
 This section describes the following components of the Collaboration activity reports:
 
@@ -48,71 +48,62 @@ This section describes the following components of the Collaboration activity re
 - [Users with the most external user and guest collaboration](#users-with-the-most-external-user-and-guest-collaboration)
 - [Guests with the most external user and guest collaboration](#guests-with-the-most-external-user-and-guest-collaboration)
 
-#### Inactive teams
+### Inactive teams
 
 We recommend the removal of inactive teams to avoid the spread of confidential information when not necessary.
 
 > [!NOTE]
-> Every team has an associated site automatically created for it; and each team's associated site is also inactive. You can use using Site Lifecycle Management (SLM) policies to view inactive teams whose associated sites are also inactive.
+> Every team has an associated site automatically created for it on Teams. An inactive team's associated site will also be inactive. To view the inactive teams whose associated sites are also inactive, you can use Site Lifecycle Management (SLM) policies.
 
-> [!NOTE]
-> The Inactive teams widget displays only inactive teams whose connected workloads are also inactive.
-
-The **Inactive teams** widget view shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for that day.
+The **Inactive teams** widget view shows only inactive teams whose connected workloads are also inactive. It shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for the specific day that falls in the last 30-60 days timeframe.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-You can click **View details** to see which teams they are. For each team, you can see the privacy type, number of channels in the team, and number of users in the team.
+Click **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, and number of users in the team.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
 By default, we show you the teams that have been inactive from the last 30 days.
 
-You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+To change the time frame, select the range of date from the **Date range** drop-down list, and select **Run report**.
 
 You can also archive the team directly from the report. However, archiving a team has no impact on the connected workloads, with the team only going into a read-only mode.
 
-If you want to archive an inactive team, you can scroll to the extreme right and click the **bin** icon (under the **Action** column), and then select **Archive** on the **Archive team?** dialog box.
+To archive an inactive team, scroll to the extreme right, under **Action** column, select **bin** icon. In the *Archive team?* dialog box, select **Archive**.
 
 :::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
 
-##### View data of inactive teams
-
-You can view the data of inactive teams in an SLM policy report. For more information on SLM and its "policy" feature, see [Site Lifecycle Management (SLM)](#site-lifecycle-management-slm).
-
-##### Site Lifecycle Management (SLM)
+#### Site Lifecycle Management (SLM)
 
 SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC) which is compatible only for tenants who have acquired the SAM (Syntex Advanced Management) license.
 
 An SLM policy is a mechanism by which a SharePoint administrator can manage SharePoint sites.
 
-###### Scope
+You can view the data of inactive teams in an SLM policy report. For more information on SLM and its "policy" feature, see [Site Lifecycle Management (SLM)](#site-lifecycle-management-slm).
 
 SLM provides for policies to manage inactive sites. There can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
 
-To check the scope for a policy, you can perform the following tasks:
+To check the scope for a policy:
 
 1. Select a policy on the **Site lifecycle management** page. The panel containing the details of the policy appears.
-1. Select the **scope** tab.
+1. Select the **Scope** tab.
 
    :::image type="content" source="media/finding-scope-of-policy.png" alt-text="Screenshot showing the scope that an SLM policy has." lightbox="media/finding-scope-of-policy.png":::
 
-   The highlighted portion in the preceding screenshot implies that this policy contains inactive sites that are connected to inactive teams.
+   The inactive sites connected to inactive teams in the policy are indicated by the highlighted section.
 
 You can download the report of this policy, which returns data of inactive sites. In this report, those inactive sites which have the value **TRUE** under the **Connected to Teams** column are the inactive sites whose associated teams are also inactive.
 
 :::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot of the report of an SLM policy." lightbox="media/report-of-slm-policy.png":::
 
-###### Types 
-
 An SLM policy is of the following types:
 
 - **Simulation**: A simulation policy is one that runs once based on the parameters you have provided. If this policy fails, you have to delete this policy and create a new one.
-- **Active**: An active policy is one that runs monthly. The execution of this policy leads to:
+- **Active**: An active policy is one that runs monthly. When you run this policy, it leads to:
     - generation of reports
     - notifications to site owners of the inactive sites. For more information on the notifications to the owners of the inactive sites, see [Notification to site owners](#notification-to-site-owners).
 
-###### Functionalities
+##### Functionalities
 
 An SLM policy has the following functionalities:
 - [Detection of inactive sites](#detection-of-inactive-sites)
@@ -121,7 +112,7 @@ An SLM policy has the following functionalities:
 
 ###### Detection of inactive sites
 
-An SLM policy on being executed detects sites that have been inactive for a specified period of time.
+An SLM policy when run detects sites that have been inactive for a specified period of time.
 
 > [!NOTE]
 > The value for the "specified period of time" is defined by the SharePoint administrator when creating a policy. Based on this threshold value, inactive sites are detected and an email notification to the site owner is triggered.
@@ -168,7 +159,7 @@ To create an inactive site policy, perform the following steps:
 1. Select **Next**.
 1. Select **Done**. Your policy is now created, and can be viewed and managed from the **Site lifecycle management** dashboard.
 
-#### Inactive external domains activity
+### Inactive external domains activity
 
 The **Inactive external domains activity** widget view shows you how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart representation to see exact counts for that day.
 
@@ -185,7 +176,7 @@ You can change the time frame by choosing from the **Date range** dropdown list 
  
 :::image type="content" source="media/detailed-report-view-external-domains-activity.png" alt-text="The detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-external-domains-activity.png":::
 
-#### Teams by user type
+### Teams by user type
 
 The **Teams by user type** widget view shows you how many active teams are there for the last 7 or 30 days, and how many teams comprise the following user compositions:
 - Your users only
@@ -200,7 +191,7 @@ The **Teams by user type** widget view shows you how many active teams are there
 
 By default, we show the breakdown for teams active for the last 7 days.
 
-#### Channels by user type
+### Channels by user type
 
 The **Channels by user type** widget view shows you how many active channels are there for the last 7 or 30 days, and how many channels comprise the following user compositions:
 - Your users (internal to your organization) only
@@ -225,7 +216,7 @@ For shared channels, you’ll see:
 - How many are made up of your users only
 - How many are made up of your users and guests
 
-#### Teams with the most external user and guest activity
+### Teams with the most external user and guest activity
 
 The **Teams with the most external user and guest activity** widget view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
@@ -242,7 +233,7 @@ By default, we show you the teams who have engaged in external collaboration in 
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
-#### Users with the most external user and guest collaboration
+### Users with the most external user and guest collaboration
 
 The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
@@ -259,7 +250,7 @@ By default, we show you details for the last 7 days.
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
-#### Guests with the most external user and guest collaboration
+### Guests with the most external user and guest collaboration
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
@@ -278,7 +269,7 @@ By default, we show you the guest users who have engaged in external collaborati
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
 
-### Notes
+#### Notes
 
 1. All reports only show users and teams owned by your tenant, but the counts could include activities in cross-tenant collaborations.
     1. For channel events, only the channel’s owning tenant knows about the event. Therefore, if your tenant’s user is participating in channels owned by other tenants, these events don't accrue to any of the reports in your tenant.
@@ -286,14 +277,14 @@ You can change the time frame by choosing from the **Date range** dropdown list 
     1. These are to uphold Microsoft’s promise on privacy and compliance.
 2. These reports honor Microsoft 365 level “admin report setting” about concealing or displaying team/user details. For more information, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide&preserve-view=true). When a global administrator configures “conceal team/user details”, reports show obfuscated user/team names instead of their display names.
 
-### Known Issues
+#### Known issues
 
-1. On time-series charts, last day’s data is empty. For example, on 2/17, time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
-1. Widget location customizations on dashboard have yet been persisted across sessions.
+1. On the time-series charts, last day’s data is empty. For example, on 2/17, time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
+1. Widget location customizations on dashboard are yet to be persisted across sessions.
 1. Csv download hasn’t been enabled.
 1. Very large events may have a small chance of data categorization error. For example, a very large team with very few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
 
-### Remove data obfuscation
+#### Remove data obfuscation
 
 Three widgets - External collaboration activity by team, External collaboration activity by user, and Guest user activity - use data obfuscation (in other words, concealing the data). To reveal the data, perform the following steps.
 
