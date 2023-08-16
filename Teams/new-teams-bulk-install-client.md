@@ -96,12 +96,13 @@ Deploy this installer to a single computer, group of computers, or your entire o
 >Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select **Teams > Teams Update** policies from the left pane.
+2. Select **Teams > Teams Update policies** from the left navigation pane.
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
 |Setting|Description|
 |:-----|:-----|
+|New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
 |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.| 
 
 >[!Note]

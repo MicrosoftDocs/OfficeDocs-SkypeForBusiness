@@ -161,6 +161,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
+| `<EnableCloudIntelliFrame>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
 | `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
