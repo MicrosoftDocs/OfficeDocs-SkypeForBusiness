@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # Bulk deploy the new Microsoft Teams client 
 
 >[!Note]
->**Coming soon:** The Bulk deploy feature will be released in early August 2023.
+>**Coming soon:** The Bulk deploy feature will be released in late August 2023.
 
 Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
@@ -32,9 +32,9 @@ The Teams installer installs the Teams MSIX package on a target computer, making
 
 ## How it works
 
-**TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
+**TeamsBootstrapper** is a lightweight online installer with a headless command-line interface. It allows admins to "provision’"(install) the app for all users on a given target computer.
 
-When **TeamsProvision.exe** is run on a computer:
+When **teamsbootstrapper.exe** is run on a computer:
 
 - The installer downloads the latest Teams MSIX package from Microsoft
 - The installer installs the Teams application for all users on the computer, and any users who may be added afterwards.
@@ -65,7 +65,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 ## Deploy the new Teams application to your organization
 
 >[!Important]
->The Bulk deploy feature will be released in early August, 2023. Please check back at that time.
+>The Bulk deploy feature will be released in late August, 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
@@ -76,10 +76,10 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 1. Download the .exe installer.
 
 >[!Important]
->This download link will be available when the feature goes live in early August, 2023. Please check back then.
+>This download link will be available when the feature goes live in late August, 2023. Please check back then.
 
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsprovision.exe -p**
+3. At the prompt enter: **./teamsbootstrapper.exe -p**
 
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
@@ -90,7 +90,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 Deploy this installer to a single computer, group of computers, or your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy the new Teams.
 
 
-## Step 3: Set Teams Admin Center policy
+## Step 3: Set new Teams as the default 
 
 >[!Note]
 >Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
