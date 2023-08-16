@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 08/10/2023
+ms.date: 08/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -79,10 +79,7 @@ Configure setting via Teams Admin Center
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select **Teams > Teams Update policies** from the left navigation pane. as shown below.
-
-   :::image type="content" source="media/new-teams-update-policies.png" alt-text="step in how to update teams policies":::
-
+2. Select **Teams > Teams Update policies** from the left navigation pane.
 3. Select **Add** to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
