@@ -22,12 +22,21 @@ description: This article describes the Cloud IntelliFrame feature.
 ---
 
 # Cloud IntelliFrame
+> [!IMPORTANT]
+> Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois. 
 
 Cloud IntelliFrame is a new experience that allows online meeting attendees to see people in Teams Rooms more clearly through the smart video feeds of in-room participants. These smart video feeds are created by zooming into the faces of the in-room participants and by eliminating distractions, thereby enhancing the hybrid meeting experience. You can see the expressions and gestures of the people in the room more easily, which helps improve collaboration in hybrid meetings. It creates equity in hybrid meetings as everyone can be seen and heard.
+
+> [!IMPORTANT]
+> You are responsible for compliance with local laws and regulations when you enable Cloud IntelliFrame
+in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention. 
 
 Cloud IntelliFrame will be rolling out across Microsoft Teams Rooms on Windows with the Pro license and can be viewed on Microsoft Teams Desktop (Windows and Mac) with any license.
 
 ## Experience overview
+
+> [!IMPORTANT]
+> Please install appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 
 All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (specified in [Supported cameras](#supported-cameras)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed by default from rooms with these cameras.
 
