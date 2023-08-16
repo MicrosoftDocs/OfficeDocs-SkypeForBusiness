@@ -90,7 +90,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 Deploy this installer to a single computer, group of computers, or your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy the new Teams.
 
 
-## Step 3: Set Teams Admin Center policy
+## Step 3: Set new Teams as the default 
 
 >[!Note]
 >Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
