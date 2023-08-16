@@ -140,7 +140,7 @@ Tasks supports Graph APIs for Planner and Power Automate for To Do. To learn mor
 
 For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
 
-To Do uses Exchange Online for data storage. To learn more, see [Review data storage and compliance in Microsoft To do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
+To Do uses Exchange Online for data storage. To learn more, see [Review data storage and compliance in Microsoft To Do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
 
 ## Give feedback or report an issue
   
