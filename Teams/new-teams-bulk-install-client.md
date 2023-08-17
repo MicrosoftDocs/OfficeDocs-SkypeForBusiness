@@ -55,8 +55,8 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.<</br> </br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
->[!Important]
->Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
+>[!Note]
+>Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 ## Step 1: Deploy the new Teams application
 
