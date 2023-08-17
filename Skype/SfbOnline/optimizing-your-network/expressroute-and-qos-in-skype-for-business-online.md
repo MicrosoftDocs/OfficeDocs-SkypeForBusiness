@@ -56,7 +56,7 @@ When you are getting ready for ExpressRoute for Skype for Business, it's a good 
 
 This case study for Dewey Law, LLC. will show you how to setup a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
   
- **Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
+ **Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country/region. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
   
 Dewy Law LLC. is a relatively young firm and the attorneys and other staff members are very comfortable with technology and greatly depend on it for their daily work. 
   

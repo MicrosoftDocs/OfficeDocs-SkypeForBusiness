@@ -24,6 +24,8 @@ description: Learn to manage who can present and take control in Teams meetings.
 
 # Manage who can present and request control in Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 You can use Teams meeting policies to control who can present in meetings and who can request control of the presentation while a meeting is underway.
 
 The settings described in this article are part of Teams meeting policies.
@@ -52,6 +54,9 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
 
+> [!NOTE]
+> This setting also affects webinars.
+
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
 ![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
@@ -76,7 +81,12 @@ To use PowerShell to control who can give control or accept requests for control
 
 ## External participants can give or request control
 
-This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
+This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.
+
+> [!NOTE]
+> This setting also affects webinars.
+
+External participants in Teams meetings can be categorized as follows:  
 
 - Anonymous participant
 - Guests

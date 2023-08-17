@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams Rooms with Skype for Business Server
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

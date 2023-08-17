@@ -26,7 +26,12 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 # Teams meeting recording
 
-In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user. (Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).)
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
+In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
+
+> [!NOTE]
+> This setting also affects webinars. Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
 
 When a meeting is recorded:
 
@@ -44,14 +49,14 @@ External participants can't record meetings except in the case of [Teams policy-
 
 ## Allow or prevent users from recording meetings
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded. Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting.
+You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting.
 
 Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
 # [**Meeting policy**](#tab/meeting-policy)
 
 To allow or prevent meeting recordings
-1. In the Microsoft Teams admin center, expand **Meetings**.
+1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Turn **Meeting recording** On or Off.
@@ -62,7 +67,7 @@ With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTe
 # [**Calling policy**](#tab/calling-policy)
 
 To allow or prevent call recordings
-1. In the Microsoft Teams admin center, expand **Voice**.
+1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**.
 1. Select **Calling policies**.
 1. Select the policy that you want to edit.
 1. Turn **Cloud recording for calling** On or Off.
@@ -85,7 +90,7 @@ The two values for this setting are:
 
 This setting provides you with a simple tool that reduces the amount of storage older recordings use. OneDrive and SharePoint monitor the expiration setting on all meeting recordings and automatically move recordings to the recycle bin on their expiration date.
 
-You can turn off the **Meetings automatically expire** setting in the Teams admin center, under **Meetings** > **Meeting policies** > **Recording & transcription**.
+You can turn off the **Meetings automatically expire** setting in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) under **Meetings** > **Meeting policies** > **Recording & transcription**.
 
 ### Default expiration time
 

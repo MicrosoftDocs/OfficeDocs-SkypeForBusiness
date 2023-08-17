@@ -56,7 +56,7 @@ For the outbound PSTN caller ID, the following options are available:
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It's assigned to a resource account used by a Teams Auto Attendant or Call Queue.
   
   > [!NOTE]
-  > The use of CallingIDSubstitute Service will be deprecated. You are no longer able to create new caller ID policies using CallingIDSubstitute Service. You should use CallingIDSubstitute Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
+  > The use of CallingIDSubstitute = Service will be deprecated. You are no longer able to create new caller ID policies using CallingIDSubstitute = Service. You should use CallingIDSubstitute = Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
 
 - The Calling Party Name or CNAM set on the outbound PSTN call.
 
@@ -105,8 +105,9 @@ By default, the following caller ID settings are **turned off**.
 |Block incoming caller ID|Off|This setting blocks a user from receiving caller ID on any incoming PSTN calls.|
 |Override the caller ID policy|Off|This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. By turning on this setting, users can choose whether to display their caller ID.</br></br>Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.</br>|
 |Calling Party Name|(empty)|This setting sends a CNAM on outbound PSTN calls.|
-|Replace the caller ID with|User's number|This setting replaces a user's caller ID with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.</br></br>If this is set to **Anonymous**, the outgoing caller ID is blocked from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
-|Replace the caller ID with this resource account/service number|(empty)|This setting lets you choose a resource account or service number to replace the caller ID of users.|
+|Replace the caller ID with Users's number|User's number|This setting replaces a user's caller ID with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.|
+|Replace the caller ID with Anonymous|(empty)|This setting lets you block the outgoing caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
+|Replace the caller ID with Resource account|(empty)|This setting lets you choose a resource account which phone number will be used to replace the caller ID of users.|
 
 You can configure caller ID policies with the [Teams admin center](#use-the-teams-admin-center) or with [PowerShell](#use-powershell).
 
@@ -132,13 +133,11 @@ For more information on each policy, see [configure caller ID policies](#configu
 
       - **User's number:** Display the user's number.
 
-      - **Service number:** Display the service number. (Note: this option will be deprecated. Newly created caller ID policies must use **Resource account**)
-
       - **Anonymous:** Display the caller ID as Anonymous.
 
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
 
-    If you choose **Service number** or **Resource account**, you're prompted to specify a service number or a resource account for the next field, called **Replace the caller ID with this resource account/service number**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection.
+    If you choose **Resource account**, you're prompted to specify a resource account for the next field, called **Replace the caller ID with this resource account**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection.
 
 1. Select **Save**.
 

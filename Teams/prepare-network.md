@@ -116,7 +116,9 @@ For an in-depth discussion of network optimization, including guidance for ident
 <li><p>VPNs are typically not designed or configured to support real-time media.</p></li>
 <li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li>
 <li><p>VPNs also introduce an extra layer of encryption on top of media traffic that's already encrypted.</p></li>
-<li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li></td>
+<li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li>
+<li><p>Traffic may be routed to a service front door location that is further away from the end user, introducing additional latency and jitter.</p></li></td>
+
 </tr>
 <tr class="odd">
 <td>Implement QoS</td>

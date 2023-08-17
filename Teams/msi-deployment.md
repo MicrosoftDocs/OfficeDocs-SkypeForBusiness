@@ -1,12 +1,12 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: jhendr
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
-ms.date: 03/21/2018
+ms.date: 08/03/2023
 audience: admin
 description: Use Windows Installer (MSI) files to distribute the Teams client to multiple users and computers.
 ms.localizationpriority: medium
@@ -36,6 +36,9 @@ We recommend that you deploy the package to computers rather than a specific use
 ## MSI files
 
 The table below provides links to 32-bit, 64-bit, and ARM64 MSI files for Teams. Download the MSI that you want to install on computers in your organization. The x86 architecture (32-bit or 64-bit) Teams supports is independent of other Office apps installed on a computer.
+
+>[!Note]
+>New builds are released regularly. If you have previously downloaded the MSI, confirm if you have the most current version. Learn more: [**Version update history for the Microsoft Teams app**](/officeupdates/teams-app-versioning)
 
 If you have 64-bit computers, we recommend installing the 64-bit Teams MSI even if the computer is running a 32-bit version of Office. The ARM64 MSI can only be installed on computers that use the ARM architecture, such as the Surface Pro X.
 
@@ -69,6 +72,21 @@ Make sure the computers you install Teams on meeting the requirements listed in 
 
 For complete guidance on how to deploy the Teams desktop app on VDI, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md).
 
+### Uninstallation
+
+If a user that had Teams installed via an MSI uninstalls it, a registry key is created:
+
+`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`
+
+While this key is present, Teams won't install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
+
+```
+TeamsMachineUninstallerLocalAppData REG_EXPAND_SZ
+%LOCALAPPDATA%\Microsoft\Teams\Update.exe --uninstall --msiUninstall
+```
+
+This will cause Teams to uninstall the next time the user signs in.
+
 ## Clean up and redeployment procedure
 
 If a user uninstalls Teams from their user profile, the MSI installer will track that the user has uninstalled the Teams app and no longer install Teams for that user profile. To redeploy Teams for this user on a particular computer where it was uninstalled, do the following:
@@ -98,6 +116,9 @@ To learn more, see [Use Group Policy to prevent Teams from starting automaticall
 
 > [!CAUTION]
 > If you've already deployed Teams and want to set this policy to disable Teams autostart, first set the Group Policy setting to the value you want, and then run the [Teams autostart reset script](scripts/powershell-script-teams-reset-autostart.md) on a per-user basis.
+
+> [!NOTE]
+> For information about using Administrative Templates in Microsoft Intune to configure this setting, see [Use Windows 10/11 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows).
 
 ### Disable auto launch for the MSI installer
 

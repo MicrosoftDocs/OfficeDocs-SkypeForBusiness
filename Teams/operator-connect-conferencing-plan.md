@@ -70,7 +70,7 @@ Operator Connect Conferencing might be the right solution for your organization 
 
 - **Microsoft Audio Conferencing isn't available in your geographic location**
 
-- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries not included in your subscription
+- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries/regions not included in your subscription
 
 ## Licensing requirements and billing
 

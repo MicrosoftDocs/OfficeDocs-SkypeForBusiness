@@ -59,7 +59,7 @@ Yes, toll-free phone numbers (service numbers) are available but only in some co
 
 There are local dial-in numbers that are assigned to you when you purchase the licenses for Audio Conferencing. The dial-in numbers will be included in the meeting invite. These local numbers will be only available to your organization. The phone assigned to your organization and that number is shared by the users within that organization that are enabled for Audio Conferencing. That means that Teams meetings scheduled by User A and another User B will both have the same dial-in number.
   
-Local dial-in numbers, and also in some cases international dial-in numbers from the country where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is included in the invite, it will be a shared phone number.
+Local dial-in numbers, and also in some cases international dial-in numbers from the country/region where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is included in the invite, it will be a shared phone number.
   
 ## How many international dial-in numbers does Audio Conferencing in Microsoft 365 or Office 365 support?
 

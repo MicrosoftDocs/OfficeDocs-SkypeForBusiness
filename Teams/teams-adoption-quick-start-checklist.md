@@ -26,8 +26,6 @@ appliesto:
 
 # Microsoft Teams adoption quick start checklist
 
-[Download a copy of the checklist](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
-
 ## Get started driving adoption of Microsoft Teams
 
 - [Adoption prerequisites](teams-adoption-get-started.md)

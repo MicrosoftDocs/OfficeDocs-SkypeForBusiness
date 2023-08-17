@@ -32,12 +32,12 @@ description: In this article, you'll learn how to create, edit, and manage resou
 
 ## Next steps
 
-Once you've completed the resource account setup and assigning a phone number if needed, you're ready to use the resource account with an auto attendant or call queue.
+Once you've completed the resource account setup and assigning a phone number if needed, you're ready to use the resource account with an Auto attendant or Call queue.
 
 See the following references to learn more:
 
-- [Cloud auto attendant](create-a-phone-system-auto-attendant.md)
-- [Cloud call queue](create-a-phone-system-call-queue.md)
+- [Cloud Auto attendant](create-a-phone-system-auto-attendant.md)
+- [Cloud Call queue](create-a-phone-system-call-queue.md)
 
 You can edit the resource account **Display name** and **Resource account** type using the **Edit** option. Select **Save** when you're done.
 
@@ -50,7 +50,7 @@ To switch the licenses on your existing resource account from a **Teams Phone St
 
 ## Skype For Business Server 2019
 
-For resource accounts homed on Skype For Business Server 2019 that can be used with cloud call queues and cloud auto attendants, see [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.
+For resource accounts homed on Skype For Business Server 2019 that can be used with cloud Call queues and cloud Auto attendants, see [Plan Cloud Call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud Auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.
 
 The application IDs that you need to use while creating the application instances are:
 
@@ -58,12 +58,12 @@ The application IDs that you need to use while creating the application instance
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the call queue or auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for `sipfederationtls` resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
+> If you want the Call queue or Auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for `sipfederationtls` resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
 
 For hybrid implementations with Skype for Business Server:
 
-- [Plan Cloud auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).
-- [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue).
+- [Plan Cloud Auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant).
+- [Plan Cloud Call queues](/SkypeforBusiness/hybrid/plan-call-queue).
 - [Configure on-premises resource accounts](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
 ## Delete a resource account
@@ -73,14 +73,14 @@ Make sure you dissociate the telephone number from the resource account before d
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts** page.
 3. Select the resource account to which you want to assign a phone number, and then select **Assign/unassign**.
-4. Select the **X** on the assigned auto attendant or call queue.
+4. Select the **X** on the assigned Auto attendant or Call queue.
 5. Select the **Save** button.
 
 After you do that, you can delete the resource account in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), under the [**Users**](https://go.microsoft.com/fwlink/p/?linkid=834822) tab.
 
 ## Hide resource accounts from Teams users
 
-You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a call queue and bypassing the auto attendant where the hours of operation are configured.
+You may want to hide certain resources accounts from Teams users. For example, you may want to prevent Teams users from directly calling a Call queue and bypassing the Auto attendant where the hours of operation are configured.
 
 [Information barriers](information-barriers-in-teams.md) are used to hide the resource accounts.  Review the information barriers documentation to understand the possible impacts before proceeding with the steps below.
 

@@ -223,7 +223,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Shared notes|On|On|
 ||Participants & guests|Anonymous users and dial-in callers can start a meeting|Off|On|
 |||Roles that have presenter rights in meetings|People in my organization and guests|People in my organization and guests|
-|||Who can bypass the lobby|People in my organization|People in my organization|
+|||Who can bypass the lobby|People in my org|People in my org|
 |||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|Off|On|
 |||Live captions|Off, but organizers and co-organizers can turn them on|Off, but organizers and co-organizers can turn them on|
@@ -296,7 +296,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Shared notes|On|On|
 ||Participants & guests|Anonymous users and dial-in callers can start a meeting|On|On|
 |||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
-|||Who can bypass the lobby|OrganizerOnly|OrganizerOnly|
+|||Who can bypass the lobby|Only organizers and co-organizers|Only organizers and co-organizers|
 |||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|On|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|

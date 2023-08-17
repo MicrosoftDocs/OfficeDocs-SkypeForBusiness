@@ -1,7 +1,7 @@
 ---
 title: Phones and Devices for Microsoft Teams
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: dougand
 ms.date: 03/15/2023
@@ -79,18 +79,22 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated May 2023*
+*Table Updated July 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|B&O                  |Beocom EX MS Earbuds                                       |7/14/2023       |Certified for Microsoft Teams                           | 
+|Yealink              |MP45 USB Phone                                             |7/12/2023       |Certified for Microsoft Teams                           | 
+|Yealink              |BH71 speakerphone/headset                                  |7/10/2023       |Certified for Microsoft Teams                           | 
 |EPOS                 |IMPACT 1030T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Surround 80 UC/85 UC Headset                      |5/12/2023       |Certified for Microsoft Teams                           |
 |Lenovo               |ThinkVision MC60 Monitor Webcam                            |4/13/2023       |Certified for Microsoft Teams                            |
 |Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
 |Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |

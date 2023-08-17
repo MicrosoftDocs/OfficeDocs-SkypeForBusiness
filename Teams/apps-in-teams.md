@@ -9,7 +9,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 03/03/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -56,7 +56,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
 
 > [!NOTE]
-> There is a known limitation in the Teams admin center where you can only view and manage apps that are in the same release channel as the tenant. For example, if your tenant is in the general release channel, you can't manage apps that are deployed in the private or public preview channels. We're working to resolve this issue for future preview app releases. This won't be an issue for apps that are released to the general release channel.
+> A known limitation in the Teams admin center is that you can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
 
 Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
@@ -76,9 +76,9 @@ After an admin allows the use of custom apps, users can find such apps by select
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Screenshot of custom apps in Teams store in the Teams desktop app." lightbox="media/built-for-your-org2.png":::
 
-For more information, see [Understand and manage custom and sideloaded apps](custom-app-overview.md).
+For more information, see [Understand and manage custom apps](custom-app-overview.md).
 
-## About App Templates
+### About App Templates
 
 Using the app development methods, Microsoft creates and provides functional and production-ready sample apps. Collectively, these apps are called App templates for Teams and are provided to:
 
@@ -94,7 +94,7 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 Users can view all the apps available in Teams from the Teams apps store in a Teams desktop or web client. Users can search by name, browse by category, and browse by apps built for your org and built with Power Platform to discover and install apps in Teams.
 
-Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if the app is allowed by Teams admin. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/microsoftteams/teams-app-setup-policies).
+Apps can be pinned to Teams for easy access. Users can [pin apps on their own](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) if their setup policy allows and if an admin allows the app for usage. Admins can pin apps and control the behavior of pinned apps, For more information, see [app setup policies](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Screenshot that shows all the places where the users can browse apps in Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
@@ -104,6 +104,12 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 > [!NOTE]
 > Only individuals can request for an approval to add an app in Teams.
+
+## Teams apps that work across Microsoft 365
+
+App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a third-party app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
+
+To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide).
 
 ## Understand app capabilities
 

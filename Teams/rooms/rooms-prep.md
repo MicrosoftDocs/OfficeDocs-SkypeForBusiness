@@ -1,7 +1,7 @@
 ---
 title: Prepare your Environment
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -40,11 +40,9 @@ A  *resource account*  is an account that the Microsoft Teams Rooms client uses 
   
 ### Check network availability
 
-In order to function properly, Microsoft Teams Rooms  must have access to a wired network that meets these requirements:
+In order to function properly, Microsoft Teams Rooms  must have access to a network that meets these requirements:
   
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, and Microsoft Exchange and Microsoft Teams.
-
-- Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms can't be configured with a static IP address at the first unit startup.
 
 - Access to HTTP ports 80 and 443.
 
@@ -56,7 +54,7 @@ If your network runs through a proxy, you need the proxy address or script infor
 > Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
 
 > [!IMPORTANT]
-> Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
+> Be sure to use a network connection with enough bandwidth (we recommend 10 mbps up/down per Teams Room) to ensure your meetings perform well.
 
 > [!NOTE]
 > Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
-ms.date: 03/03/2023
+ms.date: 06/27/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -61,11 +61,11 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
-If you want to selectively allow the Adobe Acrobat app for a few individuals or for a group, you use [app permission policies](teams-app-permission-policies.md).
+To selectively allow the Adobe Acrobat app for a few individuals or for a group, use [app permission policies](teams-app-permission-policies.md).
 
 ## Considerations and limitations
 
@@ -80,3 +80,4 @@ Know the following information about this functionality:
 * If you face any issues to sign in to the Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
 * Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) to comment or annotate on the PDF files. The app in Teams can offer functionality such as annotating, organizing, compressing, and protecting PDF files. For a complete list of functionality and the prerequisites, see [Manage PDF files in Teams with Acrobat app](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
 * When you collaborate on a PDF document, it's temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you're located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. See [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).
+* Currently available for Commercial cloud instances only.

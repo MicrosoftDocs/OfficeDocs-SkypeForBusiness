@@ -14,7 +14,7 @@ ms.collection:
 ms.reviewer: nakulm
 ms.date: 03/13/2023
 search.appverid: MET150
-ms.localizationpriority: high
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Learn how to configure transcription and caption policies for Teams meetings.
@@ -24,18 +24,25 @@ appliesto:
 
 # Configure transcription and captions for Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 In Microsoft Teams, there's an option for meeting recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers of all abilities.
+
+> [!NOTE]
+> These settings also affects webinars.
 
 ## Transcription
 
 This setting is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of Teams meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
 
-When transcription is turned on, users will have a written copy of the spoken text that is captured in near real time. After the meeting, users can find the searchable transcription stored with the meeting recording. And if transcription was turned on for the recording, Stream will play the video with the transcript next to the recording, showing who is speaking and when as the video plays. If recording is turned on but transcription is turned off, the the recording will not have a transcript file stored next to it and when viewing the recording playback in Stream, captions won't be able to be turned on.
+When transcription is turned on, users will have a written copy of the spoken text that is captured in near real time. After the meeting, users can find the searchable transcription stored with the meeting recording. And if transcription was turned on for the recording, Stream will play the video with the transcript next to the recording, showing who is speaking and when as the video plays. If recording is turned on but transcription is turned off, the recording will not have a transcript file stored next to it and when viewing the recording playback in Stream, captions won't be able to be turned on.
 
 This transcription link will remain for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive or SharePoint site, which would result in captions not displaying on the copied video file.
 
+The transcription is [stored together with the meeting recordings in OneDrive and SharePoint storage](https://support.microsoft.com/en-us/office/3cb9acb6-05b2-4f59-a50d-7df61123aa20#bkmk_how-captions-and-transcripts-are-stored) with an additional copy stored in the meeting organizer's Exchange Online account.
+
 > [!NOTE]
-> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam). The transcription is stored together with the meeting recordings in OneDrive and SharePoint storage.
+> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam).
 
 > [!NOTE]
 > Meeting transcription is not yet available in GCC.

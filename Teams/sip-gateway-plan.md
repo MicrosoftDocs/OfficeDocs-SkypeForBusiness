@@ -1,7 +1,7 @@
 ---
 title: Plan SIP Gateway
-author: CarolynRowe
-ms.author: crowe
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -70,44 +70,57 @@ If you have a 3PIP or SIP device, you must have the following:
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832<sup>1</sup>       |11.3.5MPP   |11-3-7MPP  |   |   |
-|          |6821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8845<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8851<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8865<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
-|          |VVX150<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX201<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX250<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX201<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX250<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX300     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX301<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX301<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX310     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX311<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX350<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX311<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX350<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX400     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX401<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX401<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX410     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX411<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX450<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX411<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX450<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX500     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX501<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX601<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |Rove B1    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B2    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B4    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
 |          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Edge E100  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E220  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E300  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E320  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E350  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E400  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E450  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E500  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E550  |8.1.0.12774  |8.1.0.12774 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |

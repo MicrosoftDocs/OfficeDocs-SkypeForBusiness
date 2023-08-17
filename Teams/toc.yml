@@ -9,18 +9,6 @@ items:
       href: deploy-overview.md
     - name: Teams Premium trial
       href: teams-premium-trial.md
-    - name: Quick start
-      items: 
-        - name: Quick start overview
-          href: get-started-with-teams-quick-start.md
-        - name: "Step 1: Create your first teams and channels"
-          href: get-started-with-teams-create-your-first-teams-and-channels.md
-        - name: "Step 2: Onboard early adopters"
-          href: get-started-with-teams-onboard-early-adopters.md
-        - name: "Step 3: Monitor usage and feedback"
-          href: get-started-with-teams-monitor-usage-and-feedback.md
-        - name: "Step 4: Plan your org-wide rollout"
-          href: get-started-with-teams-resources-for-org-wide-rollout.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -91,102 +79,110 @@ items:
                   href: teams-adoption-schedule-service-health-reviews.md
         - name: Client deployments
           items: 
-            - name: Get Teams clients
-              href: get-clients.md
-            - name: The new Teams client
-              href: new-teams-desktop-admin.md
-            - name: Teams client updates
-              href: teams-client-update.md
-            - name: Bulk install Teams using Windows Installer
-              href: msi-deployment.md
-            - name: Teams for Virtualized Desktop Infrastructure (VDI)
-              href: teams-for-vdi.md
-            - name: Teams for Remote Desktop environment (RDP)
-              href: teams-on-rdp.md
-            - name: Troubleshoot installation and update issues
-              href: troubleshoot-installation.md
-            - name: Reference
+            - name: New Teams client
               items:
-                - name: Microsoft 365 URLs and IP address ranges
-                  href: office-365-urls-ip-address-ranges.md
-                - name: Hardware requirements
-                  href: hardware-requirements-for-the-teams-app.md
-                - name: How Teams uses memory
-                  href: teams-memory-usage-perf.md
-                - name: Hardware decoder and encoder driver recommendations
-                  href: hardware-decoders-and-encoders.md
-                - name: Teams firewall PowerShell script
-                  href: client-firewall-script.md
-    - name: Teams training
+                - name: Overview & rollout schedule
+                  href: new-teams-desktop-admin.md
+                - name: Deploy the new Teams using policies               
+                  href: new-teams-deploy-using-policies.md
+                - name: Bulk deploy the new Teams client
+                  href: new-teams-bulk-install-client.md
+                - name: Deploy the new Teams with Microsoft 365 Apps
+                  href: new-teams-deploy-with-m365apps.md
+                - name: Troubleshooting installation issues          
+                  href: new-teams-troubleshooting-installation.md                 
+                - name: Known issues          
+                  href: new-teams-known-issues.md
+            - name: Classic Teams clients
+              items:
+                - name: Get the classic Teams clients
+                  href: get-clients.md
+                - name: Classic Teams client updates
+                  href: teams-client-update.md
+                - name: Bulk install classic Teams using Windows Installer
+                  href: msi-deployment.md
+                - name: Classic Teams for Virtualized Desktop Infrastructure (VDI)
+                  href: teams-for-vdi.md
+                - name: Classic Teams for Remote Desktop environment (RDP)
+                  href: teams-on-rdp.md
+                - name: Troubleshoot classic Teams installation and update issues
+                  href: troubleshoot-installation.md
+                - name: Teams Reference
+                  items:
+                    - name: Microsoft 365 URLs and IP address ranges
+                      href: office-365-urls-ip-address-ranges.md
+                    - name: Hardware requirements
+                      href: hardware-requirements-for-the-teams-app.md
+                    - name: How Teams uses memory
+                      href: teams-memory-usage-perf.md
+                    - name: Hardware decoder and encoder driver recommendations
+                      href: hardware-decoders-and-encoders.md
+                    - name: Teams firewall PowerShell script
+                      href: client-firewall-script.md
+    - name: Upgrade from Skype for Business
       items: 
-        - name: Admin training for Teams
-          href: itadmin-readiness.md
-        - name: End user training for Teams
-          href: https://aka.ms/teamslivetraining
-- name: Upgrade from Skype for Business
-  items: 
-    - name: Get started
-      href: upgrade-start-here.md
-    - name: About the upgrade framework
-      href: upgrade-framework.md
-    - name: Plan your upgrade journey
-      items: 
-        - name: Plan your project and requirements
+        - name: Get started
+          href: upgrade-start-here.md
+        - name: About the upgrade framework
+          href: upgrade-framework.md
+        - name: Plan your upgrade journey
+          items: 
+            - name: Plan your project and requirements
+              items: 
+                - name: Overview
+                  href: upgrade-plan-journey.md
+                - name: Enlist your project stakeholders
+                  href: upgrade-enlist-stakeholders.md
+                - name: Define your project scope
+                  href: upgrade-define-project-scope.md
+                - name: Understand coexistence and interoperability
+                  href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+                - name: PSTN considerations
+                  href: upgrade-to-teams-on-prem-pstn-considerations.md
+                - name: Choose your upgrade journey
+                  href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+                - name: Plan a user pilot
+                  href: pilot-essentials.md
+            - name: Prepare your environment for Teams
+              items: 
+                - name: Technical readiness overview
+                  href: upgrade-prepare-environment.md
+                - name: Prepare IT staff for Teams
+                  href: upgrade-prepare-IT-pros.md
+                - name: Prerequisites
+                  href: upgrade-plan-journey-prerequisites.md
+                - name: Evaluate your environment
+                  href: upgrade-plan-journey-evaluate-environment.md
+                - name: Prepare your service
+                  href: upgrade-prepare-environment-prepare-service.md
+            - name: Prepare your organization for Teams
+              items: 
+                - name: Organizational readiness overview
+                  href: upgrade-prepare-organization.md
+                - name: Assess organizational change readiness
+                  href: upgrade-org-change-readiness.md
+                - name: Prepare a user readiness plan
+                  href: upgrade-user-readiness.md
+        - name: Implement your upgrade
           items: 
             - name: Overview
-              href: upgrade-plan-journey.md
-            - name: Enlist your project stakeholders
-              href: upgrade-enlist-stakeholders.md
-            - name: Define your project scope
-              href: upgrade-define-project-scope.md
-            - name: Understand coexistence and interoperability
-              href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: PSTN considerations
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: Choose your upgrade journey
-              href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: Plan a user pilot
-              href: pilot-essentials.md
-        - name: Prepare your environment for Teams
+              href: upgrade-to-Teams.md
+            - name: Upgrade Skype for Business Online to Teams
+              href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+            - name: Upgrade Skype for Business on-premises to Teams
+              href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+            - name: Upgrade strategies
+              href: upgrade-to-teams-on-prem-implement.md
+        - name: Operate, adopt, and optimize
+          href: continue-journey.md
+        - name: Skype for Business Online retirement
+          href: skype-for-business-online-retirement.md
+        - name: Skype for Business Online assisted upgrades
+          href: upgrade-assisted.md
+        - name: FAQ
+          href: FAQ-journey.yml
+        - name: Reference
           items: 
-            - name: Technical readiness overview
-              href: upgrade-prepare-environment.md
-            - name: Prepare IT staff for Teams
-              href: upgrade-prepare-IT-pros.md
-            - name: Prerequisites
-              href: upgrade-plan-journey-prerequisites.md
-            - name: Evaluate your environment
-              href: upgrade-plan-journey-evaluate-environment.md
-            - name: Prepare your service
-              href: upgrade-prepare-environment-prepare-service.md
-        - name: Prepare your organization for Teams
-          items: 
-            - name: Organizational readiness overview
-              href: upgrade-prepare-organization.md
-            - name: Assess organizational change readiness
-              href: upgrade-org-change-readiness.md
-            - name: Prepare a user readiness plan
-              href: upgrade-user-readiness.md
-    - name: Implement your upgrade
-      items: 
-        - name: Overview
-          href: upgrade-to-Teams.md
-        - name: Upgrade Skype for Business Online to Teams
-          href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-        - name: Upgrade Skype for Business on-premises to Teams
-          href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-        - name: Upgrade strategies
-          href: upgrade-to-teams-on-prem-implement.md
-    - name: Operate, adopt, and optimize
-      href: continue-journey.md
-    - name: Skype for Business Online retirement
-      href: skype-for-business-online-retirement.md
-    - name: Skype for Business Online assisted upgrades
-      href: upgrade-assisted.md
-    - name: FAQ
-      href: FAQ-journey.yml
-    - name: Reference
-      items: 
             - name: Tools for managing your upgrade
               href: upgrade-to-teams-on-prem-tools.md
             - name: Coexistence modes - Reference
@@ -197,58 +193,65 @@ items:
               href: setting-your-coexistence-and-upgrade-settings.md
             - name: Meetings First
               href: meetings-first.md
-    - name: Hybrid connectivity
-      items: 
-        - name: Plan hybrid connectivity
-          href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
-        - name: Configure hybrid connectivity
+        - name: Hybrid connectivity
           items: 
-            - name: Overview
-              href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
-            - name: Configure Azure AD Connect for hybrid environments
-              href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
-            - name: Configure Skype for Business hybrid
-              href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
-        - name: Move users between on-premises and cloud
-          items: 
-            - name: Overview
-              href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
-            - name: Move users from on-premises to Teams
-              href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
-            - name: Move users from the cloud to on premises
-              href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
-            - name: Manage meeting migration
-              href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
-        - name: Decommission your on-premises Skype for Business environment
-          items: 
-            - name: Overview
-              href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
-            - name: Move users to the cloud
-              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-            - name: Disable hybrid to complete migration to Teams Only
-              items:
+            - name: Plan hybrid connectivity
+              href: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
+            - name: Configure hybrid connectivity
+              items: 
+                - name: Overview
+                  href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
+                - name: Configure Azure AD Connect for hybrid environments
+                  href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
+                - name: Configure Skype for Business hybrid
+                  href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
+            - name: Move users between on-premises and cloud
+              items: 
+                - name: Overview
+                  href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
+                - name: Move users from on-premises to Teams
+                  href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
+                - name: Move users from the cloud to on premises
+                  href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
+                - name: Manage meeting migration
+                  href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
+            - name: Decommission your on-premises Skype for Business environment
+              items: 
+                - name: Overview
+                  href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
+                - name: Move users to the cloud
+                  href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
                 - name: Disable hybrid to complete migration to Teams Only
-                  href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
-                - name: Update DNS entries
-                  href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
-                - name: Decide how to manage attributes after decommissioning
-                  href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
-            - name: Move application endpoints to the cloud
-              href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
-            - name: Remove your Skype for Business deployment
-              href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
-        - name: Deploy a resource forest topology
-          href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
-        - name: Cloud consolidation for Teams and Skype for Business Online
-          items: 
-            - name: Overview
-              href: /SkypeForBusiness/hybrid/cloud-consolidation
-            - name: Update the edge certificate
-              href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
-            - name: Update AAD Connect to include more than one forest
-              href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
-        - name: Integration with Exchange and SharePoint
-          href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+                  items:
+                    - name: Disable hybrid to complete migration to Teams Only
+                      href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                    - name: Update DNS entries
+                      href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
+                    - name: Decide how to manage attributes after decommissioning
+                      href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
+                - name: Move application endpoints to the cloud
+                  href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
+                - name: Remove your Skype for Business deployment
+                  href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
+            - name: Deploy a resource forest topology
+              href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
+            - name: Cloud consolidation for Teams and Skype for Business Online
+              items: 
+                - name: Overview
+                  href: /SkypeForBusiness/hybrid/cloud-consolidation
+                - name: Update the edge certificate
+                  href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
+                - name: Update AAD Connect to include more than one forest
+                  href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
+            - name: Integration with Exchange and SharePoint
+              href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
+
+    - name: Teams training
+      items: 
+        - name: Admin training for Teams
+          href: itadmin-readiness.md
+        - name: End user training for Teams
+          href: https://aka.ms/teamslivetraining
 
 - name: Security, compliance, and privacy
   items: 
@@ -274,6 +277,8 @@ items:
           href: applocker-in-teams.md
         - name: Block Access to SharePoint
           href: block-access-sharepoint.md
+        - name: Teams meeting add-in security when using your Outlook client
+          href: teams-meeting-addin-security-with-outlook.md
     - name: Compliance
       items: 
         - name: Auditing
@@ -364,6 +369,8 @@ items:
           items: 
             - name: Configure external meetings & chat
               href: trusted-organizations-external-meetings-chat.md
+            - name: Cross-cloud meetings
+              href: cross-cloud-meetings.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
@@ -383,8 +390,6 @@ items:
 
     - name: Integrate apps with Teams
       items:
-        - name: Manage Loop components
-          href: loop-components-in-teams.md
         - name: Manage actionable activity emails
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
@@ -445,8 +450,6 @@ items:
 
     - name: Operate your service
       href: upgrade-operate-my-service.md
-    - name: Enhance your service
-      href: upgrade-enhance-my-service.md
     - name: Public preview in Microsoft Teams
       href: public-preview-doc-updates.md
     - name: Use inline message translation
@@ -476,6 +479,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams webinar usage report
+          href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Virtual Appointments usage report
@@ -565,6 +570,8 @@ items:
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
+        - name: Channel policies
+          href: teams-policies.md
 
     - name: Templates
       items:
@@ -604,10 +611,16 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up webinars
+              href: set-up-webinars.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
+            - name: Manage email communications
+              href: manage-email-communications.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
+            - name: Manage the registration form for webinars
+              href: manage-registration-form-webinars.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
@@ -642,7 +655,7 @@ items:
               href: stream-teams-meetings.md
         - name: Standardized meetings
           items: 
-            - name: Meeting customization
+            - name: Custom meetings overview
               href: custom-meetings-overview.md
             - name: Custom meeting backgrounds
               href: custom-meeting-backgrounds.md
@@ -718,8 +731,6 @@ items:
               href: unsupported-browsers.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Set up webinars
-          href: set-up-webinars.md
         - name: Live events
           items: 
             - name: What are Teams live events?
@@ -817,7 +828,7 @@ items:
                   href: change-the-settings-for-an-audio-conferencing-bridge.md
                 - name: See a list of Audio Conferencing numbers
                   href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-                - name: Set auto attendant languages for Audio Conferencing
+                - name: Set Auto attendant languages for Audio Conferencing
                   href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
                 - name: Set up meeting dial-out confirmation for your users
                   href: set-up-meeting-dial-out-confirmation.md
@@ -881,17 +892,17 @@ items:
               href: ./audio-conferencing-in-office-365.md
 
 
-- name: Voice - Phone System and PSTN connectivity
+- name: Voice - Teams Phone and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Phone System
+    - name: Teams Phone
       items: 
-        - name: What is Phone System
+        - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Phone System features
+        - name: Teams Phone features
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Phone System
+        - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Voicemail
           items: 
@@ -911,15 +922,15 @@ items:
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
-        - name: Auto attendants and call queues
+        - name: Auto attendants and Call queues
           items: 
-            - name: Plan auto attendants and call queues
+            - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
             - name: Plan call routing flow
               href: plan-your-call-routing-flow.md
-            - name: Set up auto attendants
+            - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md
-            - name: Set up call queues
+            - name: Set up Call queues
               href: create-a-phone-system-call-queue.md
             - name: Set up authorized users
               href: aa-cq-authorized-users.md
@@ -929,21 +940,25 @@ items:
               href: manage-resource-accounts.md
             - name: Set up holidays
               href: set-up-holidays-in-teams.md
-            - name: Answer auto attendant and call queue calls directly from Teams
+            - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: Reports
               href: aa-cq-cqd-historical-reports.md
-            - name: PowerShell cmdlet reference for auto attendants and call queues
+            - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
+        - name: Routing inbound calls
+          href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
+        - name: Configure call settings for your users
+          href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md
         - name: Call sharing and group call pickup
           href: call-sharing-and-group-call-pickup.md
-        - name: Calling policy
+        - name: Configure calling policies
           href: teams-calling-policy.md
         - name: Shared line appearance
           href: shared-line-appearance.md
@@ -951,8 +966,6 @@ items:
           href: dial-pad-configuration.md
         - name: Music on Hold
           href: music-on-hold.md
-        - name: Configure call settings for your users
-          href: user-call-settings.md
 
     - name: PSTN connectivity options
       items:
@@ -960,7 +973,7 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
-            - name: Calling Plans for Teams Phone System
+            - name: Calling Plans for Teams Phone
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
@@ -1139,14 +1152,10 @@ items:
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
-            - name: Manage an emergency location for your organization
+            - name: Manage emergency locations
               href: add-change-remove-emergency-location-organization.md
-            - name: Manage a place for an emergency location in your organization
+            - name: Add places to emergency locations
               href: add-change-remove-emergency-place-organization.md
-            - name: Assign an emergency location for a user
-              href: assign-change-emergency-location-user.md
-            - name: Assign a place for an emergency location
-              href: assign-change-emergency-place-user.md
             - name: Emergency call labels
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
@@ -1159,7 +1168,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Phone System
+        - name: Teams Phone
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1167,7 +1176,7 @@ items:
           href: voice-case-study-emergency-calling.md
         - name: Audio Conferencing
           href: voice-case-study-audio-conferencing.md
-        - name: Auto attendants and call queues
+        - name: Auto attendants and Call queues
           href: voice-case-study-call-queues.md
   
     - name: Reference
@@ -1296,7 +1305,7 @@ items:
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Honduras
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong
+            - name: Hong Kong SAR
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: Hungary
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -1481,6 +1490,10 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
+                - name: Meetings with SIP and H.323 devices
+                  href: rooms/meetings-with-SIP-H323-devices.md
+                - name: Manage custom backgrounds
+                  href: rooms/custom-backgrounds.md
             - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Find devices with unsupported licenses
@@ -1530,6 +1543,8 @@ items:
               href: devices/xiaomi-push-notifications.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: Hot desking Teams Displays
+              href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: SIP Gateway
@@ -1575,7 +1590,9 @@ items:
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
-              href: flw-realwear.md 
+              href: flw-realwear.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
                   - name: Teams alerting and monitoring
@@ -1639,8 +1656,6 @@ items:
           href: user-requests-approve-apps.md
         - name: Change app branding using app customization
           href: customize-apps.md
-        - name: Manage access to apps across Microsoft 365
-          href: manage-third-party-teams-apps.md
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
@@ -1650,12 +1665,10 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
+        - name: Publish and manage custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish custom apps submitted as a package
-          href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
@@ -1732,18 +1745,6 @@ items:
               href: expand-teams-across-your-org/assignments-in-teams.md
             - name: Set up Parent Connection in Teams
               href: edu-parents-app.md
-            - name: Career Coach
-              items:
-                - name: Get started with Career Coach
-                  href: career-coach.md
-                - name: Set up and configure Career Coach
-                  href: career-coach-set-up-steps.md
-                - name: Troubleshoot Career Coach
-                  href: career-coach-troubleshoot.md
-                - name: Career Coach data compliance
-                  href: privacy-career-coach-data-compliance.md
-                - name: Resources for Career Coach
-                  href: career-coach-resources.md
         - name: LMS and LTI integrations
           items:
             - name: Install Moodle LMS integration
@@ -1842,8 +1843,6 @@ items:
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
           href: connect-teams-essentials-to-email.md
-        - name: Move from Business Voice to Teams Phone
-          href: business-voice-to-teams-phone-licenses.md
     - name: Move from Kaizala
       items: 
         - name: Get started
@@ -1894,6 +1893,8 @@ items:
       href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
+        - name: Overview
+          href: calling-plan-overview.md
         - name: Albania
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
         - name: Algeria
@@ -1988,7 +1989,7 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Honduras
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: Hong Kong
+        - name: Hong Kong SAR
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: Hungary
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
@@ -2140,7 +2141,5 @@ items:
           href: emergency-calling-terms-and-conditions.md
     - name: Shared channels errors
       href: shared-channels-errors.md
-    - name: Upgrade discovery questionnaire
-      href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
       href: /OfficeUpdates/teams-admin
