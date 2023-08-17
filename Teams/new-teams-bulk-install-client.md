@@ -60,8 +60,8 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 
 ## Step 1: Deploy the new Teams application
 
->[!Note]
->All steps must be completed to successfully deploy the new Teams.
+All steps must be completed to successfully deploy the new Teams.
+
 
 #### Option A: Download and install new Teams for a single computer
 
