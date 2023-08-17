@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 08/10/2023
+ms.date: 08/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -79,21 +79,19 @@ Configure setting via Teams Admin Center
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select **Teams > Teams Update** policies from the left pane, as shown below.
-
-   :::image type="content" source="media/new-teams-update-policies.png" alt-text="step in how to update teams policies":::
-
-3. Select Add to create a new policy or select an existing policy to open Update policy.
-
-:::image type="content" source="media/new-teams-update-policies-2.png" alt-text="update policies add a new policy":::
-
+2. Select **Teams > Teams Update policies** from the left navigation pane.
+3. Select **Add** to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
-   |Setting|Description|
-   |:-----|:-----|
-   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
-   |Microsoft controlled|Default. Based on product readiness, use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-rollout-schedule-for-windows-clients).|
+
+   :::image type="content" source="media/new-teams-update-options.png" alt-text="update policies add a new policy":::
+
+|Setting|Description|
+|:-----|:-----|
+|Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+|Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
+|New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
+|Microsoft controlled|Default. Based on product readiness, use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-rollout-schedule-for-windows-clients).|
 
 </br>
 

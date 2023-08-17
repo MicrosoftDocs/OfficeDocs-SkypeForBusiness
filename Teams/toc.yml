@@ -479,6 +479,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams webinar usage report
+          href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Virtual Appointments usage report
@@ -1588,7 +1590,9 @@ items:
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
-              href: flw-realwear.md 
+              href: flw-realwear.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
                   - name: Teams alerting and monitoring
