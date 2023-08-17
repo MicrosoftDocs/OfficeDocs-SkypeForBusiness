@@ -69,7 +69,7 @@ By default, all users in your organization are automatically assigned the global
 
 Say, for example, you want to allow all users in your organization to use SMS notifications in the template except for new hires in training. In this scenario, you create a custom policy to turn off SMS notifications and assign it to new hires. All other users in your organization automatically get the global policy with the feature turned on.
 
-In this example, we create a custom policy called New Hire SMS Policy and we turn off SMS notifications.
+In this example, we create a custom policy named New Hire SMS Policy and we turn off SMS notifications.
 
 ```PowerShell
 New-CsTeamsVirtualAppointmentsPolicy -Identity "New Hire SMS Policy" -EnableSMSNotifications $false
