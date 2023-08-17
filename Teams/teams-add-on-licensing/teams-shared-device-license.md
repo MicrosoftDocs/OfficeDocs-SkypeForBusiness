@@ -69,3 +69,4 @@ The following articles will help you set up the various devices that use the **T
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
+- [Set up a Teams Shared Device license on Android mobiles](../set-up-shared-license-on-android.md#set-up-teams-shared-device-license-on-android-mobiles)
