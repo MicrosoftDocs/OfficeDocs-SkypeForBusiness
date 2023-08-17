@@ -81,7 +81,7 @@ Here, we assign the policy to a user named daniela@contoso.com.
 Grant-CsTeamsVirtualAppointmentsPolicy -Identity daniela@contoso.com -PolicyName "New Hire SMS Policy"
 ```
 
-You can assign the policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies in Teams](policy-assignment-overview.md).
+You can assign policies directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies in Teams](policy-assignment-overview.md).
 
 ### Things to know
 
