@@ -78,7 +78,7 @@ OfficeActivity
 ```
 
 > [!TIP]
-> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md#participant-types) section in the Teams Security Guide.
+> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md) section in the Teams Security Guide.
 
 ### Who recently joined / Whose role changed
 
