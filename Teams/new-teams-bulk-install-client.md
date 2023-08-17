@@ -23,9 +23,6 @@ ms.localizationpriority: high
 
 # Bulk deploy the new Microsoft Teams client 
 
->[!Note]
->This feature is now live.
-
 Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
