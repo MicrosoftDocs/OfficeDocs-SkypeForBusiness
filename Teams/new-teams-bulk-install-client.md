@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 08/17/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # Bulk deploy the new Microsoft Teams client 
 
 >[!Note]
->**Coming soon:** The Bulk deploy feature will be released in late August 2023.
+>This feature is now live.
 
 Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
@@ -59,28 +59,18 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
 >[!Important]
->If you want
-Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
+>Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 ## Deploy the new Teams application to your organization
-
->[!Important]
->The Bulk deploy feature will be released in late August, 2023. Please check back at that time.
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
 
-
 ## Step 1: Download the new Teams installer
 
-1. Download the .exe installer.
-
->[!Important]
->This download link will be available when the feature goes live in late August, 2023. Please check back then.
-
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **./teamsbootstrapper.exe -p**
-
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
