@@ -42,7 +42,6 @@ Use your Teams panels devices to:
 
 - [View meeting space details and availability, meeting details, upcoming reservations](#explore-teams-panels-home-screen)
 - [Reserve an available meeting space](#reserve-meeting-spaces-for-ad-hoc-meetings)
-- [Report a problem](#report-a-problem)
 - [View or update a device setting](#view-or-update-a-device-setting)
 
 ## Explore Teams panels Home screen
@@ -62,7 +61,7 @@ Tile | Description
 **1-Current time, day, date, and meeting space details** | Displays current time, day, date, and meeting space name. The meeting space name is the name of the resource account that signed in to panels.
 **2-Meeting space availability and meeting details** | Indicates meeting space availability and displays meeting details. See [Meeting space availability and meeting details tile](#meeting-space-availability-and-meeting-details-tile).
 **3-Upcoming Calendar** | Displays the meeting space calendar and availability for up to 24 hours from the current hour. Scroll up or down to determine which time slots are available and which are reserved.
-**4-Settings** | Displays the **Settings** icon. Tap it to report a problem or update available device settings.
+**4-Settings** | Displays the **Settings** icon. Tap it to update available device settings.
 
 ### Meeting space availability and meeting details tile
 
@@ -124,25 +123,6 @@ The right tile on the Home screen now appears in purple and displays the **Reser
 
     > [!NOTE]
     > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
-
-### Report a problem
-
-To report an issue with the device or the meeting space, to request a feature update, or to provide any feedback, use the **Setting** icon on the Home screen.
-
-1. Tap the **Settings** gear icon on the Home screen.
-
-2. Tap the **Report an issue** option.
-
-    The **Send Feedback** screen is displayed in a form format.
-3. From the **Type** dropdown, select the type of request.
-4. From the **Issue** dropdown, select the category.
-5. In the **Title** text field, type the title using the panels keypad.
-6. In the text field below **Title**, type additional details, if necessary.
-
-    > [!NOTE]
-    > Do not include any personally identifiable information.
-
-7. Review your entries and tap **Send**.
 
 ### View or update a device setting
 

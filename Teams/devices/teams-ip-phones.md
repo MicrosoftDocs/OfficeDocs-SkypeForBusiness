@@ -56,6 +56,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
 | AudioCodes C470HD   | `2.1.87`  | 	October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
@@ -346,6 +347,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Pad Panel | `NFA1.20230504.0202` | 2023 Update #1  |
 |Logitech Tap Scheduler | `1.9.400` |2023 Update #2  |
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |

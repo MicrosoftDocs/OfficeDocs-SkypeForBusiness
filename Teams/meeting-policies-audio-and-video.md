@@ -24,6 +24,8 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 
 # Meeting policy settings for audio & video
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
@@ -34,6 +36,9 @@ This article describes the meeting policy settings specific to audio and video. 
 1. Select the policy that you want to edit.
 1. Scroll to the **Audio & video** section of the policy page.
 1. When you've completed your changes, select **Save**.
+
+> [!NOTE]
+> These settings also affects webinars.
 
 ## Mode for IP audio
 
