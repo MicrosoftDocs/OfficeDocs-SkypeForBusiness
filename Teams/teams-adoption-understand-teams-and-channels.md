@@ -36,6 +36,7 @@ To read more about teams and channels, see the [Overview of teams and channels i
 
 
 **View this short video**
+<br>
 > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]    
 
 
