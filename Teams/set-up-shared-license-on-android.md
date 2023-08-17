@@ -1,7 +1,7 @@
 ---
 title: Set up a Teams Shared Device license on Android mobiles
-author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,7 +15,6 @@ f1.keywords:
 - CSH
 ms.custom: 
  - Teams-upgrade-guidance
- - seo-marvel-apr2020
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
