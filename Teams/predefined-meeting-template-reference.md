@@ -24,7 +24,7 @@ description: See a list of meeting templates and their settings included with Mi
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. The options in each of these templates can be changed to meet your requirements, or you can [create your own templates](create-custom-meeting-template.md).
+The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. You can use these templates or you can [create your own templates](create-custom-meeting-template.md).
 
 <!---
 Template

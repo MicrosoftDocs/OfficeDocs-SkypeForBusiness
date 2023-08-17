@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: jewilcze
 ms.date: 04/11/2023
 search.appverid: MET150
 searchScope:
@@ -72,13 +72,13 @@ Say, for example, you want to allow all users in your organization to use SMS no
 In this example, we create a custom policy called New Hire SMS Policy and we turn off SMS notifications.
 
 ```PowerShell
-New-CsTeamsVirtualAppointmentsPolicy -identity "New Hire SMS Policy" -EnableSMSNotifications $false
+New-CsTeamsVirtualAppointmentsPolicy -Identity "New Hire SMS Policy" -EnableSMSNotifications $false
 ```
 
 Here, we assign the policy to a user named daniela@contoso.com.
 
 ```PowerShell
-Grant-CsTeamsVirtualAppointmentsPolicy -identity daniela@contoso.com -PolicyName "New Hire SMS Policy"
+Grant-CsTeamsVirtualAppointmentsPolicy -Identity daniela@contoso.com -PolicyName "New Hire SMS Policy"
 ```
 
 You can assign the policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. To learn about the different ways that you can assign policies to users, see [Assign policies in Teams](policy-assignment-overview.md).
