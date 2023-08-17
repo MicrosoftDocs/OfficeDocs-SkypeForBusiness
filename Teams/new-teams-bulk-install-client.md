@@ -58,12 +58,14 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 >[!Important]
 >Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-## Deploy the new Teams application to your organization
+## Step 1: Deploy the new Teams application
 
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
 
-## Step 1: Download the new Teams installer
+### Option 1: Download and install new Teams for a single computer
+
+To install new Teams on a single computer with many users, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
 2. Open the Command Prompt as an Admin.
@@ -72,12 +74,16 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 
    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
-## Step 2: Deploy the app to your organization
+### Option 2: Deploy new Teams across your organization
 
-Deploy this installer to a single computer, group of computers, or your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy the new Teams.
+To deploy this installer to a group of computers, or your entire organization, follow these steps:
+
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
+3. Run the installer on each computer.  
 
 
-## Step 3: Set new Teams as the default 
+## Step 2: Set new Teams as the default 
 
 >[!Note]
 >Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
