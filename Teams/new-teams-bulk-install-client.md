@@ -63,18 +63,19 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 >[!Note]
 >All steps must be completed to successfully deploy the new Teams.
 
-### Option 1: Download and install new Teams for a single computer
+#### Option A: Download and install new Teams for a single computer
 
 To install new Teams on a single computer with many users, follow these steps:
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **./teamsbootstrapper.exe -p**
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
-### Option 2: Deploy new Teams across your organization
+
+#### Option B: Deploy new Teams across your organization
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
