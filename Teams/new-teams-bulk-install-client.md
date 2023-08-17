@@ -74,7 +74,6 @@ To install new Teams on a single computer with many users, follow these steps:
    :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
 
 
-
 #### Option B: Deploy new Teams across your organization
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
