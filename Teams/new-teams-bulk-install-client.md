@@ -73,6 +73,9 @@ To install new Teams on a single computer with many users, follow these steps:
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
 
 
+   :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command line prompt feedback":::
+
+
 #### Option B: Deploy new Teams across your organization
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
