@@ -65,7 +65,8 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 > [!NOTE]
 > Both BlueJeans and Poly are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
-### Cloud Video Interop Release Notes
+
+## Cloud Video Interop Release Notes
 
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
 
@@ -157,5 +158,6 @@ The following PowerShell cmdlets are available for you to (partially) automate t
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
 - **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
 - **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+
 
 
