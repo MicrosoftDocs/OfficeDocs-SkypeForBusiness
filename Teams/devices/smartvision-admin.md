@@ -10,13 +10,13 @@ ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
-  - Microsoft Teams
+  Microsoft Teams
 f1.keywords: 
-  - NOCSH
+  NOCSH
 ms.collection: 
-  - M365-voice
-  - Teams_ITAdmin_Devices
-  - Tier1
+  M365-voice
+  Teams_ITAdmin_Devices
+  Tier1
 ms.topic: reference
 search.appverid: MET150
 description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings.
