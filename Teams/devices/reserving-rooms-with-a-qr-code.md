@@ -46,8 +46,8 @@ When a user scans the QR code, they will be given two actions; they can **Schedu
 
 1. Make sure users have updated the Teams app on their mobile device to the latest version.
 2. Make sure that the mobile device is running:
-  - Android devices: 1416/1.0.0.20231228041.0.76.2023152002 or later.
-  - iOS devices: 5.125.15.0 or later.
+    - Android devices: 1416/1.0.0.20231228041.0.76.2023152002 or later.
+    - iOS devices: 5.125.15.0 or later.
 
 To reserve the room:
 Here are the steps to book the room using the QR code on the Teams Panel:
