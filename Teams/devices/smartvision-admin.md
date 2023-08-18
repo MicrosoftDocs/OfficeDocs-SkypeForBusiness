@@ -10,7 +10,7 @@ ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
-  Microsoft Teams
+  Microsoft_Teams
 f1.keywords: 
   NOCSH
 ms.collection: 
