@@ -1,5 +1,5 @@
 ---
-title: Plan Location-Based Routing for India
+title: Plan Location-Based Routing for Operator Connect for India
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: roykuntz
 ms.date: 03/15/2023
 search.appverid: MET150
-description: Learn how to plan and configure Location-Based Routing for Teams Phone in India.
+description: Learn how to plan and configure Location-Based Routing for Operator Connect for India.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -20,16 +20,16 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan Location-Based Routing for India
+# Plan Location-Based Routing for Operator Connect for India
 
 In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block international calls made or received by customers who are roaming outside of their PSTN connection. 
 
-This article describes what you need to know to use Location-Based Routing with Operator Connect for India. This article applies only to Location Based Routing for India.
+This article describes what you need to know to use Location-Based Routing with Operator Connect for India. This article applies only to Location Based Routing for Operator Connect for India. (Note that the configuration for Location-Based Routing for Operator Connect for India differs from the configuration for Location-Based Routing for Direct Routing.)
 
 > [!NOTE]
 > You shouldn't use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
 
-When you're ready to enable Location-Based Routing, see:
+When you're ready to enable Location-Based Routing for Operator Connect for India, see:
 
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Operator Connect India](location-based-routing-india-enable.md)
@@ -37,19 +37,15 @@ When you're ready to enable Location-Based Routing, see:
 
 ## Overview
 
-Location-Based Routing lets you ensure that Teams users don't violate toll bypass restrictions.
+Location-Based Routing for Operator Connect for India lets you ensure that Teams users don't violate toll bypass restrictions.
 
-For fixed-line numbers, you must configure Location-Based routing. The user must be located at a Network Communication Server (NCS) site associated with the number. Transfers are allowed only to other users with the same carrier 
+For fixed-line numbers, you must configure Location-Based Routing. The user must be located at a Network Communication Server (NCS) site associated with the number. Transfers are allowed only to other users with the same operator. 
 
-Users assigned any of the India number types are allowed in conferences with the following restrictions: 
+Users are allowed in conferences with the following restrictions: 
 
-**Fixed line (wired)**: All Teams users in the conference must be located at the same network site and with the same carrier Teams Phone license when one leg is a PSTN call; users without the same carrier Teams Phone license must be restricted.
+**Fixed line (wired)**: All Teams users in the conference must be located at the same network site and with the same operator Teams Phone license when one leg is a PSTN call; users without the same operator Teams Phone license must be restricted.
 
 Signaling and media from Teams clients must traverse the carrier’s data network between the network site and the Microsoft 365 cloud.
-
-**Mobile**: All Teams users in the conference must be located within India and with the same carrier Teams Phone license when one leg is a PSTN call; users without the same carrier Teams Phone license must be restricted.
-
-**Mobile OCM**: All Teams users in the conference must be located within India and with the same carrier Phone System license when one leg is a PSTN call; users without the same carrier Phone System license must be restricted.
 
 
 ## Configure Location-Based Routing for fixed-line calls
@@ -58,13 +54,15 @@ Location-Based Routing for India fixed-line calls uses the network topology you 
 
 India fixed-line phone numbers must be associated with the network site the phone number corresponds to.
 
-Operator Connect for India doesn't require you to enable users, PSTN gateways, and network sites for Location-Based Routing.
+**I THINK THE FOLLOWING DIAGRAM STIL APPLIES? TRUE?**
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
 At the time of a PSTN call, a user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to. If a user has multiple Teams clients located at different sites, Location-Based Routing enforces each client’s routing separately depending on the location of the Teams endpoints.
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
+
+Note:  Operator Connect for India doesn't require you to enable users, PSTN gateways, and network sites for Location-Based Routing.
 
 
 ### Toll bypass evaluation and outcome
@@ -82,6 +80,8 @@ If a call can't complete, the Teams user is notified as follows:
 - For inbound PSTN calls, the call is routed based on the called Teams user’s unanswered call forwarding settings, typically to voicemail. If the Teams user doesn’t have unanswered call settings configured, the call will disconnect.
 
 ## Apply Location-Based Routing
+
+**NEED SPECIFICS ON WHAT DOES/DOESN'T APPLY**
 
 You must apply Location-Based Routing to the [network sites](#apply-location-based-routing-at-the-network-site). The PSTN gateway must be configured with the flag GatewayLbrEnabledUserOverride set to True.
 
@@ -108,12 +108,9 @@ The location of a user is categorized as follows:
 
 ### Apply Location-Based Routing at the network site 
 
-When users who are enabled for Location-Based Routing are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. The following sections describe specifics for the following: 
+When users are roaming, network sites enabled for Location-Based Routing will help determine which gateways to use. 
 
-- [Users who ARE ENABLED for Location-Based Routing](#user-is-enabled-for-location-based-routing)
-- [Users who ARE NOT ENABLED for Location-Based Routing](#user-is-not-enabled-for-location-based-routing)
-
-For more scenarios, see [Location-Based Routing scenarios](location-based-routing-scenarios.md). 
+For more scenarios, see [Location-Based Routing scenarios for Operator Connect for India.](location-based-routing-india-scenarios.md). 
 
 #### User with Operator Connect for India number
 
@@ -128,13 +125,6 @@ The following tables describe specifics for outbound and inbound PSTN calls for 
 | User at known site  |  Allowed | ? |
 | User at unknown site  | Allowed | Allowed |
 
-
-Outbound PSTN calls are also allowed for users when all the following are true:
-
-- The user is enabled for Location-Based Routing.
-- The user's endpoint is located at a known site that is not enabled for Location-Based Routing.
-- Calls egress through a PSTN gateway that's not enabled for Location-Based Routing.
-- The user's Online Voice Routing Policy allows the call.
 
 ## Conditions for call transfers with Location-Based Routing 
 
@@ -175,10 +165,6 @@ When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice ro
 ## Other planning considerations
 
 The following sections describe other planning considerations for Location-Based-Routing.
-
-### Changes from an on-premises Location-Based Routing deployment
-
-Network site voice routing policy is no longer used. Instead, we use the user’s voice routing policy. To allow users to roam to other sites, the voice routing policy must include the gateways of the roamed sites. 
 
 ### Technical considerations for Location-Based Routing
 

@@ -33,11 +33,11 @@ This article describes benefits and requirements. For a list of operators partic
 
 With Operator Connect for India:
 
-- **You'll need to acquire the appropriate license from your carrier in India.** Whether you have an existing Teams Phone license or not--for example, a phone license included with an E5 license--you'll still need to purchase a license from your India carrier.  For more information, see **ADD LINKS TO OC DIRECTORY CARRIER PAGES.**
+- **You'll need to acquire the appropriate license from your operator in India.** Whether you have an existing Teams Phone license or not--for example, a phone license included with an E5 license--you'll still need to purchase a license from your India operator.  For more information, see **ADD LINKS TO OC DIRECTORY OPERATOR PAGES.**
 
 - **ADD NOTE ABOUT CALL CENTER SUPPORT.**
 
-- If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md). The configuration article describes how to collaborate with your carrier, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
+- If you decide Operator Connect for India is the right solution for your organization, after reading this article, see [Configure Operator Connect for India](operator-connect-india-configure.md). The configuration article describes how to collaborate with your operator, and how to use the Teams admin center and PowerShell to deploy and configure Operator Connect for India.
 
 For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
@@ -60,7 +60,7 @@ With Operator Connect for India, if your existing operator is a participant in t
 
 To enable phone number assignments with Operator Connect for India, make sure your users are:
 
-- **Assigned the appropriate license.** You'll acquire the appropriate license from your carrier in India. To learn more, see [What is Teams Phone?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- **Assigned the appropriate license.** You'll acquire the appropriate license from your operator in India. To learn more, see [What is Teams Phone?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 - **In TeamsOnly mode.** Note that the user needs to be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
