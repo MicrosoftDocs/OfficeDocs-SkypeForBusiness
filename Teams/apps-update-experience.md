@@ -34,7 +34,7 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 
 ## Conditions when an app update requires consent
 
-Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users can provide consent when they try to use the app for the first time.
+Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users must provide consent when they use the app after the update is made available.
 
 * Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that may change the bot's notifications.
@@ -54,8 +54,8 @@ To update their app, users must individually provide their consent. Admins can't
 | Who can consent to app update | How to update | Conditions and scope of update |
 |---|---|---|
 | User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Azure AD admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
-| Admin | Manually update app from Teams client by opening a team. | - |
-| Team owner | Team owners can update an app only in the scope of their team. In other contexts, users still need to provide their consent. | - |
+| Admin | Open a team in Teams client and update an app from the team's settings page. | Team and channel |
+| Team owner | Open a team in Teams client and update an app from their team's settings page. | In the teams that they own. For other contexts, users still need to provide their consent. |
 
 If none of above method is used to update, then an app is never updated. User can update the app in personal context, if team owner doesn't allow app update in team context. However, the user continues to use different versions of the app in personal and team contexts.
 

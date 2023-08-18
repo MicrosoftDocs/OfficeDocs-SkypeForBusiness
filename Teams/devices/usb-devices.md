@@ -79,7 +79,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated July 2023*
+*Table Updated August 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
@@ -94,7 +94,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |IMPACT 1060T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
-|Poly                 |Voyager Surround 80 UC/85 UC Headset                      |5/12/2023       |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Surround 80 UC Headset                      |5/12/2023       |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7410/7420 Office Series headsets                      |4/24/2023       |Certified for Microsoft Teams                            |
+|Poly                 |Savi 8410/8420/8445 Office Series headsets                 |4/24/2023       |Certified for Microsoft Teams                            |
 |Lenovo               |ThinkVision MC60 Monitor Webcam                            |4/13/2023       |Certified for Microsoft Teams                            |
 |Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
 |Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |
