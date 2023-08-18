@@ -78,13 +78,13 @@ To create a new theme, select **Add meeting theme**.
 
 #### Add a custom logo image
 
-Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1). We recommend using a logo with the dimensions of 800 x 800 pixels.
+Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1). We recommend using a square icon style logo with minimal text and the dimensions of 800 x 800 pixels.
 
 Uploads must adhere to the following parameters. An admin can only upload:
 
 - PNG and JPEG image formats for their logo.
 - A logo image with a maximum size of 5 MB.
-- A logo image with a minimum dimensions of 576 x 576 pixels.
+- A logo image with a minimum dimension of 576 x 576 pixels.
 - Upload one image per theme from their device.
 
 #### Add a custom image
@@ -112,7 +112,7 @@ Teams meetings support an organization's primary or secondary color in the meeti
 
 #### Preview a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme looks before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
 
 #### Save meeting theme
 
@@ -189,7 +189,7 @@ Logos and images will be available for Join Launcher in future updates.
 > Images aren't visible on mobile clients.
 
 > [!NOTE]
-> The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
+> Meeting themes don't apply to webinars. The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
 
 ## Who can view a meeting theme
 
