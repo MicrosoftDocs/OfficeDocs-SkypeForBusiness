@@ -208,6 +208,24 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |N870 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N870E IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N870 VI PRO        |2.52.0     |2.52.0     |Base Station |   |
+|**Algo**|       |           |           |   |[Algo Support](https://www.algosolutions.com/post-sale-technical-support/)|
+|          |8180g2        |5.3     |5.3     |Speaker |   |
+|          |8186          |5.3     |5.3     |Speaker |   |
+|          |8188          |5.3     |5.3     |Speaker |   |
+|          |8189          |5.3     |5.3     |Speaker |   |
+|          |8190          |5.3     |5.3     |Speaker |   |
+|          |8190s         |5.3     |5.3     |Speaker |   |
+|          |8196          |5.3     |5.3     |Speaker |   |
+|          |8198          |5.3     |5.3     |Speaker |   |
+|          |8028g2        |5.3     |5.3     |Intercom|   |
+|          |8063          |5.3     |5.3     |Intercom|   |
+|          |8201          |5.3     |5.3     |Intercom|   |
+|          |8128g2        |5.3     |5.3     |Visual Alerter |   |
+|          |8138          |5.3     |5.3     |Visual Alerter |   |
+|          |8301          |5.3     |5.3     |Paging Adapter |   |
+|          |8373          |5.3     |5.3     |Paging Adapter |   |
+|          |8410          |5.3     |5.3     |Display Speaker |   |
+|          |8420          |5.3     |5.3     |Display Speaker |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
@@ -231,3 +249,22 @@ If you have a 3PIP or SIP device, you must have the following:
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
+
+> [!NOTE]
+> For support queries, customers using the above listed Algo Solutions' SIP enabled endpoints with Teams SIP Gateway should reach out to Algo Solutions.
+> [General Information on Algo integration with Teams](https://www.algosolutions.com/solutions/compatibility/msteams/)
+> [Configuration Guide](https://www.algosolutions.com/wp-content/uploads/2023/04/Configuration-Guide-Teams-2023.pdf)
+> [Troubleshooting Guide](https://www.algosolutions.com/wp-content/uploads/2023/07/Troubleshooting-Algo-Devices-in-MS-Teams.pdf)
+
+> [!NOTE]
+> Customers should contact their Tango Extend Reseller for support queries related to Tango Extend eSIM endpoints. Help and Support information are provided in the Tango Extend Teams App.
+> 
+> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams is not notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
+>
+> **Tango Extend Supported Features** - Sign-in/out using Tango Extend Teams App with Teams policy sync, Make/receive calls with hold/resume and DTMF, dial-in to meeting, request to join, voicemail and MWI, Teams DND and Call Forwarding.
+>
+> **Currently Unsupported Features** - Sign-out / sign-in currently creates redundant (signed out) entries for the eSIM endpoint in Teams Admin Center.
+> Remote Sign-in from TAC is currently not supported by Tango Extend.
+> Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
+> Call transfer – where presented by mobile dialler menu option this is not supported by Tango Extend.
+ 
