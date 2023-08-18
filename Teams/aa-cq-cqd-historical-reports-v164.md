@@ -38,9 +38,9 @@ description: Learn about how to use the Teams Auto Attendant & Call Queue Histor
 
 The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** provides the following three reports:
 
-- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v163.png) report shows analytics for calls coming into your auto attendants.
-- The [Call Queue](media/aa-cq-historical-report-sample-cq-v163.png) report shows analytics for calls coming into your call queues.
-- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v163.png) report shows a timeline view of agents being active in call queue calls.
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v164.png) report shows analytics for calls coming into your auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v164.png) report shows analytics for calls coming into your call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v164.png) report shows a timeline view of agents being active in call queue calls.
 
 These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
 
@@ -71,7 +71,7 @@ Perform the following steps:
 
 5. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v164.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
     Public Cloud Customers (Not supported but will work):
 
@@ -96,11 +96,11 @@ Perform the following steps:
  
 10. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
-   :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Screenshot selecting the refresh option.":::
+   :::image type="content" source="media/aa-cq-historical-report-02-v164.png" alt-text="Screenshot selecting the refresh option.":::
 
 11. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
-   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Screenshot showing login for V1.63.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v164.png" alt-text="Screenshot showing login for V1.63.":::
 
 11. Select **Connect**, and the data will refresh.
 
