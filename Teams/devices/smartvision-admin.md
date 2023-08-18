@@ -1,4 +1,5 @@
 ---
+
 title: What is Microsoft Intelligent camera
 ms.author: tonysmit
 author: tonysmit
@@ -18,10 +19,11 @@ ms.collection:
   - Tier1
 ms.topic: reference
 search.appverid: MET150
-description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings. 
+description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings.
+
 --- 
 
-# What is Microsoft Intelligent Camera?
+# What is Microsoft Intelligent Camera
 
 Microsoft Teams AI Camera is a platform which allows users to inspire and share engaging experiences for remote users.
 
@@ -252,9 +254,7 @@ An example of a meeting invite is shown below.
 ## FAQ
 
 - What is the recommended Cable type?
-
- > Yealink provides a 3 meter USB cable along with the camera device. User must use this cable to connect camera to MTR. If you require a longer cable, you may contact Yealink to order. Yealink has two cables available for order at 15 meters and 30 meters. These cables of 3m, 15m, and 30m are particularly for camera at USB3 speed.
+ Yealink provides a 3 meter USB cable along with the camera device. User must use this cable to connect camera to MTR. If you require a longer cable, you may contact Yealink to order. Yealink has two cables available for order at 15 meters and 30 meters. These cables of 3m, 15m, and 30m are particularly for camera at USB3 speed.
 
 - How do I contact Microsoft support if I have any questions regarding the provisioning or Microsoft Intelligent camera?
-
- > You can [contact us](https://support.microsoft.com/en-us/contactus).
+ You can [contact us](https://support.microsoft.com/en-us/contactus).
