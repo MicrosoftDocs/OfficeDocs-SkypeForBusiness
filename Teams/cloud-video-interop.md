@@ -64,9 +64,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
 
 > [!NOTE]
-> Both Poly and BlueJeans are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
+> Both BlueJeans and Poly are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 
-### Cloud Video Interop Release Notes
+## Cloud Video Interop Release Notes
 
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
 
@@ -74,7 +74,7 @@ Microsoft continues to work with Cloud Video Interop (CVI) partners to make meet
 |Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 |CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Planned|TBD|
-|CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Planned|TBD|Available|
+|CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Available|TBD|Available|
 |CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers", now ensures VTC is held in lobby even when VTC lobby bypass is configured|Delivered to CVI Partners|Available|Available|Available|Available|
 |CY22Q4|Support for Long Term Reference Frame (LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
 |CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|
@@ -82,7 +82,7 @@ Microsoft continues to work with Cloud Video Interop (CVI) partners to make meet
 |CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
 |CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Planned|TBD|
 
-*Both BlueJeans and Poly CVI solutions are in maintenance only mode, no new customers are being on-boarded and services are in maintenance only mode.
+*Both BlueJeans and Poly CVI solutions are in maintenance only mode, no new customers are being on-boarded.
 
 ### Cloud Video Interop overview
 
@@ -158,4 +158,6 @@ The following PowerShell cmdlets are available for you to (partially) automate t
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
 - **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
 - **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+
+
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 04/10/2023
+ms.date: 08/17/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
