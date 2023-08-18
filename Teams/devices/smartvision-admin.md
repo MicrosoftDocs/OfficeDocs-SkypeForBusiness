@@ -1,8 +1,8 @@
 ---
-title: What is Microsoft Intelligent camera?
+title: What is Microsoft Intelligent camera
 ms.author: tonysmit
 author: tonysmit
-manager: dansimp
+manager: serdars
 ms.reviewer: vishnuna
 ms.date: 08/18/2023
 ms.service: msteams
@@ -25,7 +25,7 @@ description: Learn how to install and use the Microsoft Teams Intelli Camera for
 
 Microsoft Teams AI Camera is a platform which allows users to inspire and share engaging experiences for remote users.
 
-The IntelliCamera provides an immersive audio and video experience for remote users through better meeting understanding by allowing for identifying the speaker and their role, whiteboard content capture, transcription and translation, and an O365 Graph for remote and hard of hearing users at a low cost easy deployment.
+The IntelliCamera provides an immersive audio and video experience for remote users through better meeting understanding by allowing for identifying the active speaker and their role, whiteboard content capture, transcription and translation, and an O365 Graph for remote and hard of hearing users at a low cost easy deployment.
 
 ## Getting started
 
@@ -34,8 +34,8 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 ### What is in the box?
 
 - A device installation printed guide.
-- Yealink "SmartVision 60" camera.
-- Two USB A to C cables of 3 feet and 10 feet respectively.
+- Yealink SmartVision 60 camera.
+- Two USB A to C cables of 3 feet and 10 feet.
 - A power adapter
 - 3M sticky pads to secure the camera to the table.
 - A tool kit to screw/unscrew the cable covers.
@@ -46,8 +46,7 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 - MTR Pro license:
   - MTR with Pro or Premium license is required to enable IntelliFrame, and people recognition features on MTR.
   - Basic license will not enable IntelliFrame or people recognition. If you have Basic, camera will only show active speaker and panoramic views.
-  - Check the [Teams devices](#check-the-license-of-a-couple-teams-rooms-devices) to determine if you have the right license.
-- MTR Enrolled in TAP (Ring 1.5), and Participant Teams app on PC must also be in Ring 1.5.
+  - Check the [Teams devices](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices) to determine if you have the right license.
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 - Configure MTR for log collection and Feedback for bug filing.
 
@@ -55,9 +54,7 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 
 ### Placing and Fixing SmartVision 60 to conference room table
 
-SmartVision 60 camera is a "Center of room" 360-degree camera. It is
-meant to be placed at the center of the meeting room table where there is a
-clear view between camera and meeting attendees.
+SmartVision 60 camera is a "Center of room" 360-degree camera. It is meant to be placed at the center of the meeting room table where there is a clear view between camera and meeting attendees.
 
 > [!Note]
 > We recommend the device to be placed at the center of the table, but no more than 10 feet from
@@ -83,7 +80,7 @@ image below.
 
 To enable device log collection for feedback log filing:
 
-1. Launch an Admin command prompt in Microsoft Teams Room that the plaza connects.
+1. Launch an Admin command prompt in Microsoft Teams Room that the camera connects.
 1. Run [plazacfg.bat]{.underline} released with this document to config the log collection and windows driver update endpoint settings properly.
 1. Reboot the MTR for changes to take effect.
 
@@ -107,7 +104,7 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 
 1. Locate and double click on **IntelligentIgnore** icon from the desktop.
 
-1. The Calibration App will open a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection. 
+1. The Calibration App will open a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection.
    - Manual mode: You can manually adjust the area using the upper and lower sliders that should be ignored by the camera for face detection.
    ![Monitor ignore region](/Teams/media/set_ignore_region.png)
    - Detect monitor mode: It automatically detects the monitor to be ignored.
@@ -161,7 +158,7 @@ enrollUserOverride = {Disabled | Enabled}
  Default: “Disabled”– No enrollment tab option
 ```
 
-*This policy should already be enabled if tenant has allowed voice enrollment
+*This policy should already be enabled if tenant has allowed voice enrollment.
    ![Voice recognition](/Teams/media/enroll_user_override.png)
 
 ### Enabling People Recognition
@@ -169,17 +166,14 @@ enrollUserOverride = {Disabled | Enabled}
 >[!Note]
 > People Recognition can't be used in the following states: X, Y, and Z.
 
-This step requires the tenant CsTeamsMeetingPolicy **roomPeopleNameUserOverride** to be "**On**" for allowing individual voice and face profiles to be leveraged for recognition in meetings.
+This step requires the tenant CsTeamsMeetingPolicy **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be leveraged for recognition in meetings.
 
-```powershell
-roomPeopleNameUserOverride = {On | Off}
+**roomPeopleNameUserOverride** = {On | Off}
 “On”- Policy value allow “People recognition” option on MTR under call control bar 
- Default: “Off” – No People Recognition option on MTR.
-roomAttributeUserOverride = {Attribute | Off} 
-
-“Attribute”- Policy value allow “Voice identification” option on MTR if transcription is started for the meeting 
- Default: “Off” – No Voice identification option on MTR 
-``````
+Default: “Off” – No People Recognition option on MTR.
+**roomAttributeUserOverride** = {Attribute | Off}
+“Attribute”- Policy value allow “Voice identification” option on MTR if transcription is started for the meeting.
+Default: “Off” – No Voice identification option on MTR.
 
 For more on information on setting meeting policies refer to [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
@@ -189,9 +183,11 @@ PowerShell cmdlet sample for changing CsTeamsMeetingPolicy
 Import-Module MicrosoftTeams
 $credential = Get-Credential   // Enter your admin’s email and password 
 Connect-MicrosoftTeams –Credential $credential
+
 New-CsTeamsMeetingPolicy    // enter identity name and use it in next steps 
 Set-CsTeamsMeetingPolicy -identity {identity_name} –RoomPeopleNameUserOverride On 
-Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed value. 
+Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed value.
+
 New-CsTeamsMeetingPolicy // enter identity name and use it in next steps.
 Set-CsTeamsMeetingPolicy -identity {identity_name} –RoomAttributeUserOverride Attribute
 Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed value. 
@@ -199,12 +195,12 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 
 ## Filing Feedback
 
-In order to provide feedback on SmartVision 60 you will need to "[Send feedback](#sending-the-feedback-to-microsoft) and provide a description of the issue. Feedback must also contain all the
+In order to provide feedback on SmartVision 60 you will need to [send feedback](#sending-the-feedback-to-microsoft) and provide a description of the issue. Feedback must also contain all the
 relevant logs in order for us to properly triage.
 
 ### Sending the feedback to Microsoft
 
-### Report a problem from MTR
+### Report a problem from Microsoft Teams Room
 
 Follow the steps to report a problem via MTR.
 
@@ -215,18 +211,19 @@ Follow the steps to report a problem via MTR.
 1. Enter the description: You will see two categories, select **meetings** from the drop down under **What is this related to?** section.
 
 1. Enter the details that best describes your experience under **What are you seeing? Has it always been that way?** section.
-![details](/Teams/media/description_feedback.png)
+
+![Details](/Teams/media/description_feedback.png)
 
 ### Report a problem from the desktop client
 
 - During the meeting, on the left top window, you will find the **"..."** selection. Click on it to show **Report a problem** and select it to enter the next window.
-   ![report a problem](/Teams/media/report_problem_desktop.png)
+   ![Report a problem](/Teams/media/report_problem_desktop.png)
 - In the next window, you will see options to select the category. Select the category from the drop down that best represents your experience or issues that you are facing.
-   ![description for desktop client](/Teams/media/description_desktop.png)
+   ![Description for desktop client](/Teams/media/description_desktop.png)
 
-> [!Note]
-> To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
-> For accurate diagnostics, provide feedback from both Microsoft Teams Room and Desktop client. We recommend sending two bugs for each issue you encounter.
+>[!Note]
+ > To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
+ > For accurate diagnostics, provide feedback from both Microsoft Teams Room and Desktop client. We recommend sending two bugs for each issue you encounter.
 
 ## Scheduling a meeting
 
@@ -235,10 +232,10 @@ An example of a meeting invite is shown below.
 
 ![Demo meeting schedule](/Teams/media/demo_meeting.png)
 
-> [!Note]
-> Adhoc meetings will not have face identifications, where there is no Outlook appointment with a list of participants.
-> 1:1 meeting will not have IntelliFrame or identification.
-> Always schedule a meeting to use SmartVision 60 features like IntelliFrame and People recongnition.
+>[!Note]
+ > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
+ > 1:1 meeting will not have IntelliFrame or identification.
+ > Always schedule a meeting to use SmartVision 60 features like IntelliFrame and People recongnition.
 
 ## Known issues
 
@@ -249,14 +246,15 @@ An example of a meeting invite is shown below.
 | 3 | The purple bounding box around the room is always highlighted even when there is no voice or sound from the Room. | N/A |
 | 4 | Time taken to switch from IntelliFrame to Active speaker, after IntelliFrame toggle, and for **Name** labels to appear/disappear after people recognition toggle is five to seven seconds. | N/A |
 | 5 | For people Identification, the Outlook invite supports a total of 64 users. This includes users attending online, and 12 concurrent users in the room for **Name** labels. | N/A |
-| 6 | Room participants get identified: <br><ul> If they are part of the outlook meeting invite <\ul><br> <br><ul> If the meeting invite was forwarded to a participant before 30 minutes of the meeting. <\ul><br> | N/A |
+| 6 | Room participants get identified: <br><ul> If they are part of the outlook meeting invite <\ul><br><br><ul> If the meeting invite was forwarded to a participant before 30 minutes of the meeting. <\ul><br> | N/A |
 | 7 |  New Teams 2.1 app is not supported. | Don't select the **Try the new Teams** toggle. |
 
 ## FAQ
 
 - What is the recommended Cable type?
 
-> Yealink provides a 3 meter USB cable along with the Plaza device. User must use this cable to connect Plaza to MTR. If you require a longer cable, you may contact Yealink to order. Yealink has two cables available for order at 15 meters and 30 meters. These cables of 3m/15m/30m, are particularly for camera at USB3 speed.
+ > Yealink provides a 3 meter USB cable along with the camera device. User must use this cable to connect camera to MTR. If you require a longer cable, you may contact Yealink to order. Yealink has two cables available for order at 15 meters and 30 meters. These cables of 3m, 15m, and 30m are particularly for camera at USB3 speed.
 
 - How do I contact Microsoft support if I have any questions regarding the provisioning or Microsoft Intelligent camera?
 
+ > You can [contact us](https://support.microsoft.com/en-us/contactus).
