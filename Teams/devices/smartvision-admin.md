@@ -1,5 +1,4 @@
 ---
-
 title: What is Microsoft Intelligent camera
 ms.author: tonysmit
 author: tonysmit
@@ -10,22 +9,21 @@ ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
-  Microsoft_Teams
+  - Microsoft Teams
 f1.keywords: 
-  NOCSH
+  - NOCSH
 ms.collection: 
-  M365-voice
-  Teams_ITAdmin_Devices
-  Tier1
+  - M365-voice
+  - Teams_ITAdmin_Devices
+  - Tier1
 ms.topic: reference
 search.appverid: MET150
 description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings.
-
 ---
 
-# What is Microsoft Intelligent Camera
+# What is Microsoft Intelligent Camera?
 
-Microsoft Teams AI Camera is a platform which allows users to inspire and share engaging experiences for remote users.
+Microsoft Teams AI Camera is a platform, which allows users to inspire and share engaging experiences for remote users.
 
 The IntelliCamera provides an immersive audio and video experience for remote users through better meeting understanding by allowing for identifying the active speaker and their role, whiteboard content capture, transcription and translation, and an O365 Graph for remote and hard of hearing users at a low cost easy deployment.
 
