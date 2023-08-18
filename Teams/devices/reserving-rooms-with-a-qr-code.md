@@ -53,7 +53,7 @@ To reserve the room:
 Here are the steps to book the room using the QR code on the Teams Panel:
 1. Using their phone's camera app, they should hold it over the QR code found in the upper left hand side of the screen by the date and time and wait for a message to pop up. Tap on the message to open the Teams app.
 
-  :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Reserving a room for an existing meeting.":::
+  :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Reserving a room for an existing meeting.":::
 
 2. Choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select Schedule a new meeting or Reserve for existing meeting.
 
@@ -65,7 +65,7 @@ Here are the steps to book the room using the QR code on the Teams Panel:
 
 3. After they book the room, they will need to click check in on the Teams Panel or join the meeting on the Microsoft Teams Rooms console found in the room if check in is enabled for the room.
 
-:::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Reserving a room for an existing meeting.":::
+:::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Reserving a room for an existing meeting.":::
 
 ### Add the Teams app and camera app to a work profile
 
