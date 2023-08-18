@@ -21,7 +21,7 @@ ms.topic: reference
 search.appverid: MET150
 description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings.
 
---- 
+---
 
 # What is Microsoft Intelligent Camera
 
