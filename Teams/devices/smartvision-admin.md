@@ -79,6 +79,8 @@ Connect the USB C cable to A cable with the USB-C port inserted into the SmartVi
 Log in to the MTR as Admin User and change the settings as shown in the
 image.
 
+:::image type="content" source="../media/ConnectDevice_MTR.png" alt-text="Screenshot that shows connecting device to MTR.":::
+
 > ![Screenshot that shows connecting device to MTR](/Teams/media/ConnectDevice_MTR.png)
 
 ## Firmware update and enable device log collection
@@ -159,9 +161,9 @@ This step requires CsTeamsMeetingPolicy **enrollUserOverride** tenant policy to 
 > - Please install appropriate signage outside any meeting room, where you install an intelligent camera, advising people about the People Recognition, Face Enrollment, and Voice Recognition features.
 > - You must first enroll for Voice recognition before you can enroll for Face recognition.
 
->**enrollUserOverride** = {Disabled | Enabled}
- **Enabled**- Policy value allows Enrollment tab to be see on individual Teams user accounts for registering voice and face profiles  
- Default: **Disabled** – No enrollment tab option
+`enrollUserOverride` = {Disabled | Enabled} 
+**Enabled**- Policy value allows Enrollment tab to be see on individual Teams user accounts for registering voice and face profiles.  
+**Disabled** – No enrollment tab option. This is default.
 
 *This policy should already be enabled if tenant has allowed voice enrollment.
    ![Screenshot that shows the voice recognition](/Teams/media/enroll_user_override.png)
@@ -172,12 +174,13 @@ People Recognition can't be used in the following states: X, Y, and Z.
 
 This requires the tenant CsTeamsMeetingPolicy **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
->**roomPeopleNameUserOverride** = {On | Off} 
-**On** - Policy value allow **People recognition** option on MTR under call control bar.
-Default: **Off** – No People Recognition option on MTR.
-**roomAttributeUserOverride** = {Attribute | Off}
- **Attribute** - Policy value allow **Voice identification** option on MTR if transcription is started for the meeting.
- Default: **Off** – No Voice identification option on MTR.
+`roomPeopleNameUserOverride` = {On | Off}  
+**On** - Policy value allow **People recognition** option on MTR under call control bar.  
+**Off** – No People Recognition option on MTR. This is default.
+
+`roomAttributeUserOverride` = {Attribute | Off}
+**Attribute** - Policy value allow **Voice identification** option on MTR if transcription is started for the meeting.  
+**Off** – No Voice identification option on MTR. This is default.
 
 For more on information on setting meeting policies, refer to [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
