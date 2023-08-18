@@ -20,7 +20,7 @@ ms.custom:
 # Prepare for your Kaizala to Teams move
 
 > [!Important]
-> Microsoft Kaizala will retire on August 31, 2023. We recommend moving to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
+> Microsoft Kaizala has retired on August 31, 2023. We recommend using Microsoft Teams for continued connection, sharing, and collaboration.
 
 You’ve decided to move from Kaizala to Microsoft Teams.
 
