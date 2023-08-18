@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan Location-Based Routing for Operator Connect for India
+# Plan and configure Location-Based Routing for Operator Connect for India
 
 In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block international calls made or received by customers who are roaming outside of their PSTN connection. 
 
@@ -39,7 +39,6 @@ Note that the configuration for Location-Based Routing for Operator Connect for 
 This article describes basic concepts and configuration information.
 
 
-
 ## Configure Location-Based Routing for fixed-line calls
 
 To configure Location-Based Routing for Operator Connect for India fixed-line calls, you must ensure that India fixed-line phone numbers are associated with the network site the phone number corresponds to. The user must be located at a Network Communication Server (NCS) site associated with the number. 
@@ -48,17 +47,13 @@ Note:  Operator Connect for India doesn't require you to enable users, PSTN gate
 
 ### Configure network settings
 
-Location-Based Routing for India fixed-line calls uses the network topology you define for network region, site, subnet, and public IPs. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. 
+Location-Based Routing for Operator Connect for India fixed-line calls uses the network topology you define for network region, site, subnet, and public IPs. A **network site** represents a location where your organization has a physical venue, such as an office, a set of buildings or a campus. When toll bypass is restricted for a geographical location, you associate each IP network subnet and each PSTN gateway for that location to a network site. A **network region** is a collection of network sites. Each network site must be associated with a network region. 
 
 ![Diagram showing network topology for Location-Based Routing.](media/lbr-network-topology.png "Diagram showing network topology for Location-Based Routing")
 
 At the time of a PSTN call, a user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to. If a user has multiple Teams clients located at different sites, Location-Based Routing enforces each client’s routing separately depending on the location of the Teams endpoints.
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md) and [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
-
-
-
-
 
 
 ### Associate phone numbers to network sites
@@ -132,15 +127,7 @@ Delegation capabilities in Teams are affected by Location-Based Routing as follo
 When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice routing policy of the delegate is used to route the call to the PSTN. 
 
 
-## Other planning considerations
-
-The following sections describe other planning considerations for Location-Based-Routing.
-
-### Technical considerations for Location-Based Routing
-
-IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match.
-
-### Client support for Location-Based Routing
+## Client support for Location-Based Routing
 
 The following Teams clients are supported:
 - Teams desktop clients (Windows and Mac)
@@ -149,19 +136,18 @@ The following Teams clients are supported:
 
 The Teams web client is not supported.
 
-### Capabilities not supported by Location-Based Routing
+## Other planning considerations
 
-Location-Based Routing doesn't apply to the following interactions:
+This section describe other planning considerations for Location-Based-Routing for India:
 
-- An on-premises Skype for Business user calls a Teams user  
+- IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match.
 
-
-
-
-
-
+- Location-Based Routing for Operator Connect for Inia doesn't apply when an on-premises Skype for Business user calls a Teams user.
 
 ## Related articles
 
-- [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+- [Plan Operator Connect for India](operator-connect-india-plan.md)
+- [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+

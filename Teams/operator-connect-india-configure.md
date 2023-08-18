@@ -50,7 +50,7 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - If you need to acquire phone numbers for new users in India, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).
 
-- If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
+- If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect-for-india).
 
 ### Assign numbers to emergency addresses
 
