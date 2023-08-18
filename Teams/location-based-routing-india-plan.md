@@ -92,7 +92,7 @@ The following tables describe specifics for outbound and inbound PSTN calls for 
 | Office location​  | Allowed​ | Allowed​ |
 | Remote location | Not allowed​ | Not allowed​ |
 | User at known site  |  Allowed | ? |
-| User at unknown site  | Allowed | Allowed |
+| User at unknown site  | ? | ? |
 
 
 ## Call transfers with Location-Based Routing for Operator Connect for India
@@ -142,7 +142,7 @@ This section describe other planning considerations for Location-Based-Routing f
 
 - IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match.
 
-- Location-Based Routing for Operator Connect for Inia doesn't apply when an on-premises Skype for Business user calls a Teams user.
+- Location-Based Routing for Operator Connect for India doesn't apply when an on-premises Skype for Business user calls a Teams user.
 
 ## Related articles
 
