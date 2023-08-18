@@ -50,7 +50,7 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 - Configure MTR for log collection and Feedback for bug filing.
 
-## Device Provisioning
+## Device provisioning
 
 ### Supported cameras
 
@@ -59,7 +59,7 @@ The Microsoft Teams Room device supports the following cameras for IntelliFrame 
 - Yealink SmartVision 60
 - Jabra Panacast 50 (launching soon)
 
-### Placing and Fixing SmartVision 60 to conference room table
+### Placing and fixing SmartVision 60 to conference room table
 
 SmartVision 60 camera is a "Center of room" 360-degree camera. It's meant to be placed at the center of the meeting room table where there's a clear view between camera and meeting attendees.
 
@@ -69,7 +69,7 @@ the Microsoft Teams Room (MTR) console.
 
 After placing the camera on the table, use the supplied 3M sticky pads to adhere the device to the table and ensure that the device is firmly placed and isn't movable. Ensure the arrow on the device is pointing to the monitor, as the orientation of the device is critical to its functioning.
 
-### Connecting device to your MTR
+### Connecting device to your Microsoft Teams Room
 
 Connect the USB C cable to A cable with the USB-C port inserted into the SmartVision 60 and USB-A port on MTR.
 
@@ -81,8 +81,6 @@ image.
 
 :::image type="content" source="../media/ConnectDevice_MTR.png" alt-text="Screenshot that shows connecting device to MTR.":::
 
-> ![Screenshot that shows connecting device to MTR](/Teams/media/ConnectDevice_MTR.png)
-
 ## Firmware update and enable device log collection
 
 ### Enable device log collection
@@ -91,20 +89,20 @@ To enable device log collection for feedback log filing:
 
 1. Launch an Admin command prompt in Microsoft Teams Room that the camera connects.
 1. Run [plazacfg.bat]{.underline} released with this document to config the log collection and windows driver update endpoint settings properly.
-1. Reboot the MTR for changes to take effect.
+1. Reboot the Microsoft Teams Room for changes to take effect.
 
-### Update Device Firmware
+### Update device firmware
 
-After connecting to MTR, the Device Firmware must be updated.
+Once you are connected to Microsoft Teams Room (MTR), the Device Firmware must be updated.
 
-To ensure you have the latest Firmware, sign in to MTR from the Admin mode, and perform "Windows update" to receive the latest Firmware.
+To ensure you have the latest Firmware, sign in to MTR from the Admin mode, and do a **Windows update** to receive the latest firmware.
 
 ## Calibrate to Ignore room monitors
 
 You must calibrate the device to avoid camera detecting faces on monitors and rendering them on IntelliFrame.
 
 1. To complete the calibration process (Automatic and Manual), [download the application](https://agent.rooms.microsoft.com/files/agent/plaza/builds/prod/IntelligentIgnore.zip).
-1. Sign in to MTR with Admin privilege, right select on **install.bat** and run as administrator. The app starts the installation.
+1. Sign in to MTR with Admin privilege, right select **install.bat** and run as administrator. The app starts the installation.
 
 1. Open Windows Device Manager and look for Yealink camera entry under the Cameras node.
 
@@ -115,38 +113,39 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 
 1. The Calibration App opens a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection.
    - Manual mode: You can manually adjust the area using the upper and lower sliders that should be ignored by the camera for face detection.
-   ![Screenshot that shows the monitor ignore region](/Teams/media/set_ignore_region.png)
+   
+     :::image type="content" source="../media/set_ignore_region.png" alt-text="Screenshot that shows the monitor ignore region.":::
+   
    - Detect monitor mode: It automatically detects the monitor to be ignored.
-   ![Screenshot that shows the detect monitor mode](/Teams/media/Detect_monitor_mode.png)
+   -  :::image type="content" source="../media/Detect_monitor_mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
 
 > [!Note]
 > Ensure monitor(s) are connected to MTR.
 
 After you set the ignore region, it will force the SmartVision 60 to reboot and apply the changes.
 
-
 Steps 1 through 5 complete the installation process and set the ignore region. If reconfiguration is required, you can launch the calibration app from the MTR settings.
 
-![Screenshot that shows the reconfiguration](/Teams/media/callibration_reconfig.png)
+:::image type="content" source="../media/callibration_reconfig.png" alt-text="Screenshot that shows the reconfiguration.":::
 
-Once the ignore region is configured, meeting attendees can walk through the ignore space, or even sit in this space and will continue to be recognized. Ignore logic will apply to faces on the monitors.
+Once the ignore region is configured, meeting attendees can walk through the ignore space, or even sit in this space and will continue to be recognized. Ignore logic applies to faces on monitors.
   
-### Unsupported Ignore region scenarios
+### Unsupported Ignore regions
 
-- **Glass walls**: Some meeting rooms may have glass walls, which allow outside people to be visible to the camera. In such cases there's a possibility of accidentally capturing their faces, which negatively impacts the meeting experience. We recommend frosting and other methods of covering the glass walls to reduce faces outside the meeting room from being detected. This helps in reducing or even eliminating the issue.
+- **Glass walls**: Some meeting rooms may have glass walls, which allow outside people to be visible to the camera. In such cases there's a possibility of accidentally capturing their faces, which negatively impact the meeting experience. We recommend frosting and other methods of covering the glass walls to reduce faces outside the meeting room from being detected. This helps in reducing or even eliminating the issue.
 
-- **Pictures of people:** The camera only detects live people. In case of wind or other unexpected camera movement, posted and pictures of the people on the wall, it may be recognized as a person transiently. This can have a negative impact in the meeting. Report these cases to Microsoft using the feedback link provided.
+- **Pictures of people:** The camera only detects live people. If there is wind or other unexpected camera movement, or pictures of the people on the wall, it may be recognized as a person transiently. This can have a negative affect in the meeting. Report these cases to Microsoft using the feedback link provided.
 
 > [!Note]
 > We are constantly improving our detection mechanisms and tools, any feedback you provide will help us expedite the fixes.
 
-## Enabling Enrollment option and People Recognition
+## Enabling enrollment option and people recognition
 
 You can prepare SmartVision 60 to recognize people's faces and voices in meetings by enabling [Face enrollment](#enabling-face-enrollment) and [People recognition](#enabling-people-recognition).
 
 ### Enabling Face Enrollment
 
- An Intelligent camera uses Face and Voice profile information of an enrolled user to recognize who is speaking from the intelligent camera room to enable the following:
+ An Intelligent camera uses Face and Voice profile information of an enrolled user to recognize who is speaking from the intelligent camera room to enable the following features:
 
 - Name labels on room participant stage videos.
 - Roster entry under call room participants.
@@ -162,11 +161,11 @@ This step requires CsTeamsMeetingPolicy **enrollUserOverride** tenant policy to 
 > - You must first enroll for Voice recognition before you can enroll for Face recognition.
 
 `enrollUserOverride` = {Disabled | Enabled} 
-**Enabled**- Policy value allows Enrollment tab to be see on individual Teams user accounts for registering voice and face profiles.  
+**Enabled**- Policy value allows Enrollment tab to be seen on individual Teams user accounts for registering voice and face profiles.  
 **Disabled** – No enrollment tab option. This is default.
 
 *This policy should already be enabled if tenant has allowed voice enrollment.
-   ![Screenshot that shows the voice recognition](/Teams/media/enroll_user_override.png)
+   :::image type="content" source="../media/enroll_user_override.png" alt-text="Screenshot that shows the voice recognition.":::
 
 ### Enabling People Recognition
 
@@ -175,12 +174,12 @@ People Recognition can't be used in the following states: X, Y, and Z.
 This requires the tenant CsTeamsMeetingPolicy **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
 `roomPeopleNameUserOverride` = {On | Off}  
-**On** - Policy value allow **People recognition** option on MTR under call control bar.  
-**Off** – No People Recognition option on MTR. This is default.
+**On** - Policy value allow **People recognition** option on Microsoft Teams Room under call control bar.  
+**Off** – No People Recognition option on Microsoft Teams Room. This is default.
 
 `roomAttributeUserOverride` = {Attribute | Off}
-**Attribute** - Policy value allow **Voice identification** option on MTR if transcription is started for the meeting.  
-**Off** – No Voice identification option on MTR. This is default.
+**Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Room if transcription is started for the meeting.  
+**Off** – No Voice identification option on Microsoft Teams Room. This is default.
 
 For more on information on setting meeting policies, refer to [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
@@ -212,7 +211,7 @@ Follow the steps to report a problem via MTR.
 
 1. During the meeting, use the **"..."** section as shown in the picture and select "Report a problem".
 
-   ![Screenshot that shows the report from MTR](/Teams/media/report_problem_mtr.png)
+   :::image type="content" source="../media/report_problem_mtr.png" alt-text="Screenshot that shows the report from MTR.":::
 
 1. Enter the description: You see two categories, select **meetings** from the drop-down under **What is this related to?** section.
 
@@ -233,10 +232,10 @@ Follow the steps to report a problem via MTR.
 
 ## Scheduling a meeting
 
-When scheduling a meeting, both room and users who wish to be identified need to be invited to experience IntelliFrame and People Recognition upon enrollment. Else, users will only be identified as "Guest".
+When you schedule a meeting, both room and users who wish to be identified must be invited to experience IntelliFrame and People Recognition upon enrollment. Else, users will only be identified as "Guest".
 An example of a meeting invite is shown below.
 
-![Screenshot that shows the demo meeting schedule](/Teams/media/demo_meeting.png)
+:::image type="content" source="../media/demo_meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
 
 >[!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
@@ -249,17 +248,17 @@ An example of a meeting invite is shown below.
 |---|----------|------------|
 | 1 | When the view from the room is an Active speaker view and not IntelliFrame view, the **Name** label is missing on the participant video. | N/A |
 | 2 | Intermittently room participants fail to get added to the Roster. | Option 1: Close and open the camera lid. Option 2: Restart device |
-| 3 | The purple bounding box around the room is always highlighted even when there is no voice or sound from the Room. | N/A |
+| 3 | The purple bounding box around the room is always highlighted even when there's no voice or sound from the Room. | N/A |
 | 4 | Time taken to switch from IntelliFrame to Active speaker, after IntelliFrame toggle, and for **Name** labels to appear/disappear after people recognition toggle is five to seven seconds. | N/A |
 | 5 | For people Identification, the Outlook invite supports a total of 64 users. This includes users attending online, and 12 concurrent users in the room for **Name** labels. | N/A |
-| 6 | Room participants get identified: <br><li> If they are part of the outlook meeting invite <br><li> If the meeting invite was forwarded to a participant before 30 minutes of the meeting. | N/A |
-| 7 |  New Teams 2.1 app is not supported. | Don't select the **Try the new Teams** toggle. |
+| 6 | Room participants get identified: <br><li> If they're part of the outlook meeting invite <br><li> If the meeting invite was forwarded to a participant before 30 minutes of the meeting. | N/A |
+| 7 |  New Teams 2.1 app isn't supported. | Don't select the **Try the new Teams** toggle. |
 
 ## FAQ
 
 **What is the recommended Cable type?**
 
-   Yealink provides a 3 meter USB cable along with the camera device. User must use this cable to connect camera to MTR. If you require a longer cable, you can contact Yealink to order. Yealink has two cables available for order at 15 meters and 30 meters. These cables of 3 meter, 15 meter, and 30 meter are particularly for camera at USB3 speed.
+   Yealink provides a 3-meter USB cable along with the camera device. User must use this cable to connect camera to MTR. If you require a longer cable, you can contact Yealink to order. Yealink has two cables available for order at 15-meters and 30-meters. These cables of 3-meter, 15-meter, and 30-meter are particularly for camera at USB3 speed.
 
 **How do I contact Microsoft support if I have any questions regarding the provisioning or Microsoft Intelligent camera?**
 
