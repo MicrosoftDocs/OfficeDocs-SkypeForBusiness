@@ -69,7 +69,7 @@ Note:  Operator Connect for India doesn't require you to enable users, PSTN gate
 
 When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or will not complete.   
 
-To determine whether toll bypass is restricted, Teams uses the network site location of the PSTN gateway being used by the call.
+Toll bypass evaluation depends on whether the Teams user is located at the network site their assigned phone number corresponds to.
 
 If a call can't complete, the Teams user is notified as follows:
 
