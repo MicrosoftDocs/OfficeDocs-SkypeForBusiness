@@ -24,7 +24,7 @@ description: This article provides information for admins about using QR codes o
 
 Teams Panels with a Teams Shared Device or Teams Rooms Pro license will allow users to reserve the room by scanning a QR code on the home screen. Users can either schedule a new meeting with the room pre-populated for them or easily see the room’s availability for their meetings and book the room with one touch.
 
-  :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Reserving a room with a QR code.":::
+  :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
 
 This feature is turned on by default for each organization. However, you can turn it off by going to **Settings** > **Device settings** > **Teams Admin Settings** > **Meetings**. With this feature, users will be able to book the room for meetings now, in the future, or as part of a scheduled meeting more conveniently by scanning the QR code.
 
@@ -53,7 +53,7 @@ To reserve the room:
 Here are the steps to book the room using the QR code on the Teams Panel:
 1. Using their phone's camera app, they should hold it over the QR code found in the upper left hand side of the screen by the date and time and wait for a message to pop up. Tap on the message to open the Teams app.
 
-  :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Reserving a room for an existing meeting.":::
+  :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Teams mobile app with two actions being shown.":::
 
 2. Choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select Schedule a new meeting or Reserve for existing meeting.
 
@@ -65,7 +65,7 @@ Here are the steps to book the room using the QR code on the Teams Panel:
 
 3. After they book the room, they will need to click check in on the Teams Panel or join the meeting on the Microsoft Teams Rooms console found in the room if check in is enabled for the room.
 
-:::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Reserving a room for an existing meeting.":::
+:::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Teams mobile app with user's meetings being shown and buttons to reserve the room if free.":::
 
 ### Add the Teams app and camera app to a work profile
 
