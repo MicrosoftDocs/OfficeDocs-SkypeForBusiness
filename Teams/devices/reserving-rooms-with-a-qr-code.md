@@ -35,7 +35,7 @@ Users will need to be in the same organization as the room to be able to reserve
 > [!IMPORTANT]
 > If users are using an Android based mobile device that has Android work profiles enabled, both the Teams app and the camera app must both be listed under the same profile. When they are in separate profiles, the camera app is not able to properly scan and transfer the data over to Teams app. 
 
-> If you don't have the ability to remove profiles or add the camera app or Teams app to the same profile, they will need to contact your organization's admin. Below are the steps required to add the camera app to the work profile. See <How to fix it if your Android device has profiles set>.
+> If you don't have the ability to remove profiles or add the camera app or Teams app to the same profile, they will need to contact your organization's admin. Below are the steps required to add the camera app to the work profile. See [How to fix it if your Android device has profiles set](#add-the-teams-app-and-camera-app-to-a-work-profile).
 
 When a user scans the QR code, they will be given two actions; they can **Schedule a new meeting** or **Reserve for Existing Meeting**. If they choose to schedule a new meeting, the room will be populated for them in the meeting invite so they don't have to spend time finding the room. If they choose to reserve the room for an existing meeting, they will be shown a list of their meetings that are already scheduled (up until the day after tomorrow) along with whether the room is booked or free at those times and the ability to easily reserve the room if it is.
 
