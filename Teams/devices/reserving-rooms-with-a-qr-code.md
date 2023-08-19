@@ -22,22 +22,25 @@ description: This article provides information for admins about using QR codes o
 
 # Reserving a room using a QR code from a Teams Panel
 
-Teams Panels with a Teams Shared Device or Teams Rooms Pro license will allow users to reserve the room by scanning a QR code on the home screen. Users can either schedule a new meeting with the room pre-populated for them or easily see the room’s availability for their meetings and book the room with one touch.
+Teams Panels lets users to reserve the room by scanning a QR code on the home screen. Users can either schedule a new meeting with the room pre-populated or see the room’s availability for their meetings and then book the room with one touch.
 
   :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
 
-This feature is turned on by default for each organization. However, you can turn it off by going to **Settings** > **Device settings** > **Teams Admin Settings** > **Meetings**. With this feature, users will be able to book the room for meetings now, in the future, or as part of a scheduled meeting more conveniently by scanning the QR code.
+This feature is turned on by default in each organization. However, you can turn it off by going to **Settings** > **Device settings** > **Teams Admin Settings** > **Meetings**. Using this feature, users will be able to book the room for meetings now, in the future, or can be added to a scheduled meeting simply by scanning the QR code.
+
+  > [!IMPORTANT]
+  > Teams Panels must have a Teams Shared Device or Teams Rooms Pro license assigned.
 
 ### So how does it work?
 
-Users will need to be in the same organization as the room to be able to reserve a room using a QR code. They can use their phone's camera to scan the QR code and once they scan it, it will open the Teams app.
+Users will need to be in the same organization as the room to be able to reserve a room using a QR code. They can use their phone's camera to scan the QR code, and once they scan it, it will open the Teams app.
 
-> [!IMPORTANT]
-> If users are using an Android based mobile device that has Android work profiles enabled, both the Teams app and the camera app must both be listed under the same profile. When they are in separate profiles, the camera app is not able to properly scan and transfer the data over to Teams app. 
+  > [!IMPORTANT]
+  > If users are using an Android based mobile device and has Android work profiles enabled, both the Teams app and the camera app must both be listed under the same profile. When they are in separate profiles, the camera app isn't able to corretly scan and transfer the information over to Teams app. 
 
 > If you don't have the ability to remove profiles or add the camera app or Teams app to the same profile, they will need to contact your organization's admin. Below are the steps required to add the camera app to the work profile. See [How to fix it if your Android device has profiles set](#add-the-teams-app-and-camera-app-to-a-work-profile).
 
-When a user scans the QR code, they will be given two actions; they can **Schedule a new meeting** or **Reserve for Existing Meeting**. If they choose to schedule a new meeting, the room will be populated for them in the meeting invite so they don't have to spend time finding the room. If they choose to reserve the room for an existing meeting, they will be shown a list of their meetings that are already scheduled (up until the day after tomorrow) along with whether the room is booked or free at those times and the ability to easily reserve the room if it is.
+When a user scans the QR code, they can **Schedule a new meeting** or **Reserve for Existing Meeting**. If they choose to schedule a new meeting, the room will be added for them in the meeting invite so they don't have to spend time finding the room. If they choose to reserve the room for an existing meeting, they will be shown a list of their meetings that are already scheduled. For an existing meeting (up until the day after tomorrow) they can tell if the room is booked or free at those times and can easily reserve the room.
 
   > [!NOTE]
   > Although users can only use the **Reserve** button on the Teams Panel when the room is available, they can scan the QR code at any point to reserve the room regardless of the room's status.
@@ -51,7 +54,7 @@ When a user scans the QR code, they will be given two actions; they can **Schedu
 
 To reserve the room:
 Here are the steps to book the room using the QR code on the Teams Panel:
-1. Using their phone's camera app, they should hold it over the QR code found in the upper left hand side of the screen by the date and time and wait for a message to pop up. Tap on the message to open the Teams app.
+1. Using their phone's camera app, they should hold it over the QR code found in the upper left hand side of the screen (located by the date and time) and wait for a message to pop up. Select the message on their phone to open the Teams app.
 
   :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Teams mobile app with two actions being shown.":::
 
@@ -69,9 +72,7 @@ Here are the steps to book the room using the QR code on the Teams Panel:
 
 ### Add the Teams app and camera app to a work profile
 
-Although there are lots many QR code scanner apps available, we recommend using the built in Camera apps that are available on all Android and iOS devices. 
-
-However, if users are using an Android device to scan the QR code, it may not work if the device has both work and personal profiles set upenabled. If this is the case, and the Teams app is in the work profile, you will need to add the camera app to the work profile.
+Although there are lots many QR code scanner apps available, we recommend using the built in Camera apps that are available on all Android and iOS devices.  However, if users are using an Android device to scan the QR code, it may not work if the device has both work and personal profiles set upenabled. If this is the case, and the Teams app is in the work profile, you will need to add the camera app to the work profile.
 
 To do this:
 1. In the Intune Admin Center, go to **Apps** > **Android** and select **Add**.
