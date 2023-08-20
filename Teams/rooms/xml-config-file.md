@@ -161,6 +161,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
+| `<EnableCloudIntelliFrame>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
 | `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
@@ -179,8 +180,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
 | `<CortanaWakewordEnabled>` | Boolean &#x2777; | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false. |
 | `<SendLogs>` | Container | First &#x2776; |  |
-| `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
-| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs). |
+| `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an email address that receives logs and feedback from Report a problem submissions. |
+| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | If true, Report a problem is available to room users through the application user interface. If false, Report a problem is not available. |
 | `<Devices>` | Container | First &#x2776; | The connected audio device names in the child elements are the same values listed in the Device Manager app. The configuration can contain a device that does not presently exist on the system, such as an A/V device not currently connected to the console. The configuration would be retained for the respective device. |
 | `<MicrophoneForCommunication>` | String  &#x2778; |  | Sets the microphone used as the recording device in a conference. |
 | `<SpeakerForCommunication>` | String  &#x2778; |  | Device to be used as speaker for the conference. This setting is used to set the speaker device used in a call. |
