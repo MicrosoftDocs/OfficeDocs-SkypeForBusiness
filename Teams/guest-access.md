@@ -39,7 +39,7 @@ Global administrators or Teams administrators and team owners can add a new gues
 
 - Add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
 
-- Add guests to your organization without adding them to a team through Azure Active Directory (Azure AD) B2B collaboration. (For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).) Team owners can then add the guests to individual teams.
+- Add guests to your organization without adding them to a team through Azure Active Directory (Azure AD) B2B collaboration. (For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).) Teams Administrators and team owners can then add the guests to individual teams.
 
 Admins can also delegate permissions to add guests to others in their organization by assigning the Guest Inviter role. For more information, see [Limit who can invite guests](/microsoft-365/solutions/limit-who-can-invite-guests).
 
