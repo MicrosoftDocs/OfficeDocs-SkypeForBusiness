@@ -142,5 +142,6 @@ To send us feedback or report an issue, select **Help** near the bottom of the l
 
 ## Related articles
 
+- [What is Virtual Appointments?](https://support.microsoft.com/office/what-is-virtual-appointments-22df0079-e6d9-4225-bc65-22747fb2cb5f) help documentation for your users
 - [Virtual Appointments guided tour](https://guidedtour.microsoft.com/guidedtour/industry-longform/virtual-appointments/1/1)
 - [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md) 
