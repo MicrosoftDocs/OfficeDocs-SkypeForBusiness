@@ -54,6 +54,8 @@ Template
 
 ## Virtual appointment
 
+The Virtual appointment meeting template comes with the following settings. You can't edit the settings in the template.
+
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
 |***Security***||||
@@ -76,6 +78,8 @@ Template
 |Allow reactions|Off|Visible|Unlocked|
 |Enable Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
+
+To learn more, see [Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
 
 ## Related topics
 
