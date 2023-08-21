@@ -24,7 +24,7 @@ ms.custom:
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
   - seo-marvel-apr2020
-description: Learn about how Audio Conferencing in Microsoft 365 allows users call in to meetings from their phones.
+description: Learn about how Audio Conferencing in Microsoft 365 allows users to call in to meetings from their phones.
 ---
 
 # Audio Conferencing in Microsoft 365
