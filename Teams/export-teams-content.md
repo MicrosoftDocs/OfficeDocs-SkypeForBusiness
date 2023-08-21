@@ -214,7 +214,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    Where: 
 
-   - `<id>` represents a single transcript.  
+   - `<id>` represents a single recording.  
 
    - `<meetingId>` represents a meeting or call identifier. 
 
@@ -242,7 +242,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `$top` parameter will also be supported as per current patterns in the Teams Export API.
 
-   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions. 
+   - `DeltaToken` to enable change tracking and syncing scenarios is supported. For an overview and examples of existing delta queries, see [Use delta query to track changes in Microsoft Graph data.](/graph/delta-query-overview)
 
    - The following API can be used to get the actual recording content of the selected `userId`, `meetingId` and `recordingId` that was obtained in the response of the GET `getAllRecordings` API. It returns the content of the recording:
 
@@ -310,8 +310,8 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `$top` parameter will also be supported as per current patterns in the Teams Export API. 
 
-   - `DeltaToken` to enable change tracking and syncing scenarios will be supported in future versions. 
-
+   - `DeltaToken` to enable change tracking and syncing scenarios is supported. For an overview and examples of existing delta queries, see [Use delta query to track changes in Microsoft Graph data](/graph/delta-query-overview)
+   
    - The following API can be used to get the actual transcript content of the selected userId, meetingId and transcriptId that was obtained in the response of the GET getAllTranscripts API. It returns the content of the recording. 
 
    ```
