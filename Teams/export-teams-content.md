@@ -226,7 +226,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - Recordings are in MP4 format. 
 
-   - The average size of the recording content itself in is about 350 MB on disk, based on averages we're seeing for meetings that are in range of 30 mins – 60 mins. 
+   - The average size of the recording content itself is about 350 MB on disk, based on averages we're seeing for meetings that are in range of 30 mins – 60 mins. 
 
    - Results aren't guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they'll share the same `meetingId` value. Additionally, the entries for the multiple recordings are correctly sequenced for the meeting in question. 
 
