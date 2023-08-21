@@ -169,6 +169,9 @@ Direct Routing SIP interface will only trust certificates that are signed by Cer
 
 For more information, see
 [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements) and [Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
+
+> [!NOTE]
+> At the end of August 2023, Microsoft 365 will update its services to use TLS certificates issued by the new CA "DigiCert Global Root G2". To avoid errors that may impact your service, you must update your SBC's certificate root store to include the new Root CA. For more information, see [SIP Certificate To MSPKI Certificate Authority Change](direct-routing-whats-new.md#sip-certificate-to-mspki-certificate-authority-change).
   
  For Direct Routing in Office 365 GCCH and DoD environments, one of the following root certificate authorities needs to generate the certificate:
 
