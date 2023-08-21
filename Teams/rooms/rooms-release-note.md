@@ -66,7 +66,7 @@ Introduced in this update:
 
 <sup>1</sup> The feature is turned on by default. To disable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). ```<IsFrontRowUnifiedBackgroundEnabled>false</IsFrontRowUnifiedBackgroundEnabled>```
 
-<sup>2</sup> You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware#tab=Peripherals.md) and by following guidance on designing a [Signature Teams Room](certified-hardware?tabs=emtr.md). The feature is turned off by default. To enable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). ```<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>```
+<sup>2</sup> You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware.md#tab=Peripherals) and by following guidance on designing a [Signature Teams Room](certified-hardware.md?tabs=emtr). The feature is turned off by default. To enable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). ```<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>```
 
 ### 4.17.51.0 (6/28/2023)
 
