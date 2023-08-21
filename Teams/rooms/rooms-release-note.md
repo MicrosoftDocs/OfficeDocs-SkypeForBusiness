@@ -65,12 +65,10 @@ Introduced in this update:
 - **Spatial audio in the Front Row experience**<sup>2</sup>:::image type="icon" source="../media/mtr-pro-icon.png":::. Spatial Audio brings next-generation audio to the Front Row experience when connected to stereo speakers. This intelligent audio technology delivers a more natural and inclusive experience for in-room participants by playing audio from channel closer to physical location of remote participants on Front row layout, making it feel like remote people are in the room with them and reducing meeting fatigue.
 
 <sup>1</sup> The feature is turned on by default. To disable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). 
-```powershell
-<IsFrontRowUnifiedBackgroundEnabled>false</IsFrontRowUnifiedBackgroundEnabled>
+'<IsFrontRowUnifiedBackgroundEnabled>false</IsFrontRowUnifiedBackgroundEnabled>'
 
 <sup>2</sup> You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware#tab=Peripherals) and by following guidance on designing a [Signature Teams Room](certified-hardware?tabs=emtr). The feature is turned off by default. To enable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). 
-```powershell
-<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>
+'<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>'
 
 ### 4.17.51.0 (6/28/2023)
 
