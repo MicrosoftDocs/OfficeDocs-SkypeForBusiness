@@ -89,7 +89,7 @@ See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlinelis
 
 You can assign emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
 
-To assign an emergency location, be sure the location, users, and phone numbers are all in the same country.
+To assign an emergency location, be sure the location, users, and phone numbers are all in the same country/region.
 
 ### Using the Microsoft Teams admin center
 

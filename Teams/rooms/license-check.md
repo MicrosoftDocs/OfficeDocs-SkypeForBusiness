@@ -263,7 +263,7 @@ $Report = [System.Collections.Generic.List[Object]]::new()
  
  
  
-$Room_UPNs = Get-ExoMailbox -Filter {recipientTypeDetails -eq "RoomMailbox" } | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
+$Room_UPNs = Get-ExoMailbox -Filter {recipientTypeDetails -eq "RoomMailbox" } -ResultSize unlimited | Select-Object DisplayName, PrimarySmtpAddress, ExternalDirectoryObjectId 
  
 Write-Host $Room_UPNs.Length " were found." -ForegroundColor Green
  

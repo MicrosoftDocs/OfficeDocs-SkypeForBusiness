@@ -1,10 +1,10 @@
 ---
 title: Manage the Updates app for your organization
-author: daisyfell
-ms.author: daisyfeller
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: acolonna, diyu
 ms.date: 03/30/2023
-manager: pamgreen
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -64,20 +64,15 @@ You need permission for the following items to deploy Updates:
 
 - An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/).
 
-- Administrator Role in your target environment.
+- Administrator role in your target environment.
 
 - License for Power Automate, Office 365, or Dynamics 365.
-
-- License for Microsoft Forms is required for users to set up new templates.
 
 ## Storage with Microsoft Dataverse
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model](/common-data-model/).
 
-Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Learn more about [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
-
->[!Note]
->If you delete the Form template on the Microsoft Forms site, it'll break your Updates request and users are unable to submit the update. Users get an error "CDB TableNotFound" when trying to open an update request that has been deleted on Microsoft Forms.
+Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. 
 
 ## Updates Teams app permissions
 
@@ -127,19 +122,13 @@ To pin the Updates app for your users, you can edit the global (Org-wide default
 
 ## Retention policy
 
-Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
-
-Data stored in Forms will not be deleted until the template creators clean it up from the **deleted forms** tab in the Microsoft Forms web app.
+Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [back up and restore environments](/power-platform/admin/backup-restore-environments).
 
 ## Conditional access and permission policies
 
 The Updates app in Teams doesn't currently support Conditional Access policies that are set for Microsoft Teams.
 
 You can use [Teams app permission policies](teams-app-permission-policies.md) to manage Updates.
-
-## Data limitations
-
-Each user can create at most 400 Update requests, and each template can collect a maximum of five million update submissions based on the current capability in Microsoft Forms.
 
 ## Security
 
