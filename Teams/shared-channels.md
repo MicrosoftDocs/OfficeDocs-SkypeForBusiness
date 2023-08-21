@@ -3,8 +3,8 @@ title: Shared channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: arundas
-ms.date: 05/30/2019
+ms.reviewer: jasonlewis
+ms.date: 08/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -117,7 +117,7 @@ For information about performing an eDiscovery search for shared channel message
 
 ## Considerations around file access in shared channels
 
-Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+Files and folders in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
@@ -148,7 +148,6 @@ The following apps are supported for use in shared channels.
 - Activity
 - Adobe Acrobat Sign
 - Asana
-- Calendar Pro
 - Calling
 - Chat
 - Code by Vivani
@@ -171,7 +170,6 @@ The following apps are supported for use in shared channels.
 - Monday.com
 - MURAL
 - Nearpod
-- OneNote
 - PDF
 - Pear Deck
 - PowerPoint
@@ -215,3 +213,5 @@ The following apps are supported for use in shared channels.
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
 [Private channels in Microsoft Teams](/microsoftteams/private-channels)
+
+[Shared channels in Microsoft Teams - Microsoft Mechanics](https://youtu.be/rE_QTfkOtnc)

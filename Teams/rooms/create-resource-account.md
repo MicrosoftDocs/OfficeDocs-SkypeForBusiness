@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/03/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -100,3 +100,4 @@ There are no unique requirements to enable calling with resource accounts. You e
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](rooms-licensing.md)
+

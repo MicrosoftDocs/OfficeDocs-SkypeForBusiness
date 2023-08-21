@@ -42,7 +42,7 @@ When a Teams audio conferencing policy is enabled in the tenant, there will be t
 ### Global (Org-wide default)
 
 In this policy the value for **AllowTollfreedialin** will be set to ON and there will not be any phone numbers defined in the policy. This will be the default Policy for all users in the tenant who at the time of launch have **AllowTollfreedialin** set to **On**.
-Since the policy doesn't have any phone numbers defined, when users of this policy create a Teams meeting, the phone numbers available in their meeting will be the same phone numbers that the users had prior to the policy. These phone numbers normally default to the user’s country/location, unless changed by the Tenant admin for individual users.
+Since the policy doesn't have any phone numbers defined, when users of this policy create a Teams meeting, the phone numbers available in their meeting will be the same phone numbers that the users had prior to the policy. These phone numbers normally default to the user’s country/region, unless changed by the Tenant admin for individual users.
 
 For example, if a user based out of Germany had Germany toll and toll-free phone number assigned prior to the launch of the Audio-conferencing policy, then at launch the user will be assigned the Global policy and the phone numbers they'll continue seeing in their meeting invite will be the same as before the policy was applied (That is, the German toll and toll-free numbers). An end user won't see any change when the policy is launched. If, however, a tenant admin modifies the Global Policy, and includes specific phone numbers into the policy that are different from before, then all users of the policy will only see the phone numbers that are included in the policy in any meetings they schedule.
 
@@ -69,7 +69,7 @@ An overview of the steps:
 1. Choose the settings that you want.
 1. Select Save.
 
-For example, you may have a group of users who regularly have meetings with participants from more than one country. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries/regions to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
+For example, you may have a group of users who regularly have meetings with participants from more than one country/region. In our example, the participants are from Canada, Botswana, and Singapore and they all want to join the meeting via audio conferencing by dialing a phone number. You can create a new custom policy named “Canada Botswana Singapore” and select phone numbers from these three countries/regions to be included in the policy through the **Add a phone number** option, and save this policy. You can then assign this policy to the required users.
 
 This ensures phone numbers that you selected for Canada, Botswana, and Singapore will be included in the meetings invites created by users of this policy.
 

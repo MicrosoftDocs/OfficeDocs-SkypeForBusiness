@@ -1,12 +1,12 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
 author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: jhendr
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
-ms.date: 03/21/2018
+ms.date: 08/03/2023
 audience: admin
 description: Use Windows Installer (MSI) files to distribute the Teams client to multiple users and computers.
 ms.localizationpriority: medium
@@ -36,6 +36,9 @@ We recommend that you deploy the package to computers rather than a specific use
 ## MSI files
 
 The table below provides links to 32-bit, 64-bit, and ARM64 MSI files for Teams. Download the MSI that you want to install on computers in your organization. The x86 architecture (32-bit or 64-bit) Teams supports is independent of other Office apps installed on a computer.
+
+>[!Note]
+>New builds are released regularly. If you have previously downloaded the MSI, confirm if you have the most current version. Learn more: [**Version update history for the Microsoft Teams app**](/officeupdates/teams-app-versioning)
 
 If you have 64-bit computers, we recommend installing the 64-bit Teams MSI even if the computer is running a 32-bit version of Office. The ARM64 MSI can only be installed on computers that use the ARM architecture, such as the Surface Pro X.
 

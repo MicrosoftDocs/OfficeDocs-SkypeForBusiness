@@ -43,7 +43,7 @@ When the location is associated to the telephone number depends on the country/r
 
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 
-- For other countries&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
+- For other countries/regions&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
 
 ## Dynamic emergency calling for Calling Plans
 
@@ -81,7 +81,7 @@ For example:
 
 **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.
 
-**For information about how emergency calls are routed in all countries**, see [Emergency call routing for different countries](emergency-calling-availability.md).
+**For information about how emergency calls are routed in all countries/regions**, see [Emergency call routing for different countries](emergency-calling-availability.md).
 
 For more information, see:
 

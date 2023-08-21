@@ -49,10 +49,10 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 ```XML
 <SkypeSettings>
   <AutoScreenShare>1</AutoScreenShare>
-  <HideMeetingName>1</HideMeetingName>
+  <HideMeetingName>0</HideMeetingName>
   <AutoExitMeetingEnabled>true</AutoExitMeetingEnabled>
-  <AudioRenderDefaultDeviceVolume>70</AudioRenderDefaultDeviceVolume>
-  <AudioRenderCommunicationDeviceVolume>30</AudioRenderCommunicationDeviceVolume>
+  <AudioRenderDefaultDeviceVolume>50</AudioRenderDefaultDeviceVolume>
+  <AudioRenderCommunicationDeviceVolume>50</AudioRenderCommunicationDeviceVolume>
   <UserAccount>
     <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
     <ExchangeAddress>username@microsoft.com</ExchangeAddress>
@@ -62,20 +62,21 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <ModernAuthEnabled>true</ModernAuthEnabled>
   </UserAccount>
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
-  <SfbMeetingEnabled>true</SfbMeetingEnabled>
+  <SfbMeetingEnabled>false</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
   <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
+  <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
   <CustomDisplayEmailForThirdPartyMeetings>guest@microsoft.com</CustomDisplayEmailForThirdPartyMeetings>
-  <BluetoothAdvertisementEnabled>false</BluetoothAdvertisementEnabled>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
   <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
   <CortanaWakewordEnabled>true</CortanaWakewordEnabled>
   <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
-  <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
   <EnableRoomCapacityNotification>true</EnableRoomCapacityNotification>
   <FrontRowEnabled>true</FrontRowEnabled>
   <FrontRowVideoSize>medium</FrontRowVideoSize>
@@ -87,7 +88,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
-    <SendLogsAndFeedback>True</SendLogsAndFeedback>
+    <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
   <Devices>
     <MicrophoneForCommunication>Device1</MicrophoneForCommunication>
@@ -149,6 +150,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
 | `<WebExMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings. |
 | `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for Zoom meetings. |
+| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for BlueJeans meetings. |
 | `<UseCustomInfoForThirdPartyMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both `<CustomDisplayNameForThirdPartyMeetings>`, `<CustomDisplayEmailForThirdPartyMeetings>` must be specified. |
 | `<CustomDisplayNameForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<CustomDisplayEmailForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
@@ -159,6 +161,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
+| `<EnableCloudIntelliFrame>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
 | `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
@@ -177,8 +180,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
 | `<CortanaWakewordEnabled>` | Boolean &#x2777; | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false. |
 | `<SendLogs>` | Container | First &#x2776; |  |
-| `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears. |
-| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs). |
+| `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an email address that receives logs and feedback from Report a problem submissions. |
+| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | If true, Report a problem is available to room users through the application user interface. If false, Report a problem is not available. |
 | `<Devices>` | Container | First &#x2776; | The connected audio device names in the child elements are the same values listed in the Device Manager app. The configuration can contain a device that does not presently exist on the system, such as an A/V device not currently connected to the console. The configuration would be retained for the respective device. |
 | `<MicrophoneForCommunication>` | String  &#x2778; |  | Sets the microphone used as the recording device in a conference. |
 | `<SpeakerForCommunication>` | String  &#x2778; |  | Device to be used as speaker for the conference. This setting is used to set the speaker device used in a call. |
@@ -187,7 +190,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ContentCameraInverted>` | Boolean &#x2777; |  | Specify if the content camera is physically installed upside down. For content cameras that support automatic rotation, specify false. |
 | `<ContentCameraEnhancement>` | Boolean &#x2777; |  | When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced, and the person writing on the whiteboard is made transparent.  <br><br> Set to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media. |
 | `<Theming>` | Container | First &#x2776; | One of the features that can be applied with an XML file is a Custom Theme for your organization. You are able to specify a theme name, background image, and color. |
-| `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are `Default`, one of the provided preset themes, or `Custom`. <br/><br>  Custom theme names always use the name `Custom`. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  `Default` <br/>  `Blue Wave` <br/>  `Digital Forest` <br/>  `Dreamcatcher` <br/>  `Limeade` <br/>  `Pixel Perfect` <br/>  `Roadmap` <br/>  `Sunset` <br/>  To disable the current theme, use `No Theme` for the `<ThemeName>`. |
+| `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are ` Vivid Flag Default`, one of the provided preset themes, or `Custom`. <br/><br>  Custom theme names always use the name `Custom`. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  `Vivid Flag Default`  </br>  `Summer Summit`  <br>  `Seaside Bliss`  </br>  `Into The Fold`  </br>  `Creative Conservatory`  <br/>  `Default`  <br/>  `Blue Wave`  <br/>  `Digital Forest` <br/>  `Dreamcatcher` <br/>  `Limeade` <br/>  `Pixel Perfect` <br/>  `Roadmap` <br/>  `Sunset` <br/>  To disable the current theme, use `No Theme` for the `<ThemeName>`. |
 | `<CustomBackgroundMainFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the main/right custom background image on Teams Rooms version 4.17 and later with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced). |
 | `<CustomBackgroundExtendedFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the extended/left custom background image on Teams Rooms version 4.17 with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom` **and** `<DualScreenMode>` is set to `true`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|
 | `<CustomBackgroundConsole>` | String  &#x2778; |  | Used to specify the filename of the touch console custom background image on Teams Rooms version 4.17 and later  with a Microsoft Teams Rooms Pro license. <br/><br> Optional.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|

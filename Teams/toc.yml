@@ -9,18 +9,6 @@ items:
       href: deploy-overview.md
     - name: Teams Premium trial
       href: teams-premium-trial.md
-    - name: Quick start
-      items: 
-        - name: Quick start overview
-          href: get-started-with-teams-quick-start.md
-        - name: "Step 1: Create your first teams and channels"
-          href: get-started-with-teams-create-your-first-teams-and-channels.md
-        - name: "Step 2: Onboard early adopters"
-          href: get-started-with-teams-onboard-early-adopters.md
-        - name: "Step 3: Monitor usage and feedback"
-          href: get-started-with-teams-monitor-usage-and-feedback.md
-        - name: "Step 4: Plan your org-wide rollout"
-          href: get-started-with-teams-resources-for-org-wide-rollout.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -99,6 +87,8 @@ items:
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk deploy the new Teams client
                   href: new-teams-bulk-install-client.md
+                - name: Deploy the new Teams with Microsoft 365 Apps
+                  href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues          
@@ -379,6 +369,8 @@ items:
           items: 
             - name: Configure external meetings & chat
               href: trusted-organizations-external-meetings-chat.md
+            - name: Cross-cloud meetings
+              href: cross-cloud-meetings.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
@@ -487,6 +479,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams webinar usage report
+          href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Virtual Appointments usage report
@@ -576,6 +570,8 @@ items:
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
+        - name: Channel policies
+          href: teams-policies.md
 
     - name: Templates
       items:
@@ -615,10 +611,16 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up webinars
+              href: set-up-webinars.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
+            - name: Manage email communications
+              href: manage-email-communications.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
+            - name: Manage the registration form for webinars
+              href: manage-registration-form-webinars.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
@@ -729,8 +731,6 @@ items:
               href: unsupported-browsers.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Set up webinars
-          href: set-up-webinars.md
         - name: Live events
           items: 
             - name: What are Teams live events?
@@ -892,17 +892,17 @@ items:
               href: ./audio-conferencing-in-office-365.md
 
 
-- name: Voice - Phone System and PSTN connectivity
+- name: Voice - Teams Phone and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Phone System
+    - name: Teams Phone
       items: 
-        - name: What is Phone System
+        - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Phone System features
+        - name: Teams Phone features
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Phone System
+        - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Voicemail
           items: 
@@ -973,7 +973,7 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
-            - name: Calling Plans for Teams Phone System
+            - name: Calling Plans for Teams Phone
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
@@ -1168,7 +1168,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Phone System
+        - name: Teams Phone
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1590,7 +1590,9 @@ items:
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
-              href: flw-realwear.md 
+              href: flw-realwear.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
                   - name: Teams alerting and monitoring
@@ -1663,12 +1665,10 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
+        - name: Publish and manage custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish custom apps submitted as a package
-          href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 

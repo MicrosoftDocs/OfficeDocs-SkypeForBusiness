@@ -22,7 +22,7 @@ description: Learn about managing Microsoft Teams Rooms.
 # Microsoft Teams Rooms maintenance and operations
  
  
-Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams or Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Teams Rooms app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams or Skype for Business into your meeting room.
+Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams interface and IT administrators will appreciate an easily deployed and managed Windows app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams into your meeting room. The below information provide support for managing and operating Teams Rooms on Windows devices.
     
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
@@ -260,6 +260,33 @@ The console is now back in its normal operation mode. The following procedure re
 6. Delete the **Teams** folder.
 7. Restart the Teams Rooms device.
 8. Sign in and restart again, once the Teams Room's interface has appeared.
+
+### Changing the Teams Room console language or date & time format
+
+1. Switch to Admin mode.
+2. Select the Start menu.
+3. Select the gear icon to launch the **Settings** app.
+4. Select **Time &amp; language**.
+5. Select **Language &amp; region**.    
+6. Select **Add a language**.    
+7. Select the language you wish to add.    
+8. Install language features.
+9. Do not check **Set as my Windows display language**      
+10. Select **Install**.    
+11. Select the language you just added to the "Languages" list.    
+12. Set as default- Move up arrow to set default
+13. For any languages you wish to remove:
+    a. Select the language you wish to remove.
+    b. Select Remove.
+14. If you wish to change the date & time format, modify the location selection tied to **Regional format** until Windows displays as desired
+14. Start an elevated command prompt.
+15. Run the following command: 
+    ```PowerShell
+    powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
+17. Restart the system.
+    
+Your desired language is now applied to the Microsoft Teams Rooms console.
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 

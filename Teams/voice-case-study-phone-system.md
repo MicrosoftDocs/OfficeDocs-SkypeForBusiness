@@ -164,15 +164,6 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
   A. The caller ID for a user will be masked to the local number for Contoso. 
 
 
-## Direct Routing
-
-Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects used the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were used: 
-
-- [Plan for success with Microsoft Teams Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
-
-- [Updates for Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
-
-
 ## Configuration
 
 ### Calling Plans sites
