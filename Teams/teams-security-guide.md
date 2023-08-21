@@ -220,6 +220,8 @@ Letting external users participate in Teams meetings can be useful, but also bri
 
 > [!NOTE]
 > For more information on Guest and External Access in Teams, see [this article](/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams.
+
+
 2. Decide who can join the meeting directly and who will need to wait in the Lobby to be admitted by Organizer, co-organizer or authenticated users with Presenter meeting role:
 
     - [IT Admin’s controls](/microsoftteams/who-can-bypass-meeting-lobby)
