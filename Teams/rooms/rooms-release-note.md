@@ -40,7 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|[4.18.33.0](#418330-8182023) | 8/18/2023 |
+|[4.18.35](#418330-8182023) | 8/21/2023 |
 |[4.17.51.0](#417510-6282023) | 6/28/2023 |
 |[4.16.40.0](#416400-3242023) | 3/24/2023 |
 |[4.15.58.0](#415580-1102023) | 1/10/2023 |
@@ -54,7 +54,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
-### 4.18.33.0 (8/18/2023)
+### 4.18.35 (8/21/2023)
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 Introduced in this update:
