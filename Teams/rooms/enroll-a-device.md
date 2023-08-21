@@ -119,7 +119,12 @@ mmrprodapacstor.blob.core.windows.net<br>
 mmrprodemeaiot.azure-devices.net<br>
 mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
-mmrprodnoamstor.blob.core.windows.net
+mmrprodnoamstor.blob.core.windows.net<br>
+
+**GCC customers should also ensure reachability to:**
+
+mmrprodgcciot.azure-devices.net<br>
+mmrprodgccstor.blob.core.windows.net<br>
 
 ## Enrollment process
 
