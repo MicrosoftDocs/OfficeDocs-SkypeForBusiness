@@ -64,7 +64,7 @@ You need permission for the following items to deploy Updates:
 
 - An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/).
 
-- Administrator Role in your target environment.
+- Administrator role in your target environment.
 
 - License for Power Automate, Office 365, or Dynamics 365.
 
@@ -122,7 +122,7 @@ To pin the Updates app for your users, you can edit the global (Org-wide default
 
 ## Retention policy
 
-Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [back up and restore environments](/power-platform/admin/backup-restore-environments).
 
 ## Conditional access and permission policies
 
