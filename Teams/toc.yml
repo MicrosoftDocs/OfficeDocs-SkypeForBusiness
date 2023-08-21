@@ -1547,6 +1547,8 @@ items:
               href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
+            - name: Set up Teams Shared Device license on Android Mobiles
+              href: set-up-shared-license-on-android.md
             - name: SIP Gateway
               items:
                 - name: Plan for SIP Gateway
