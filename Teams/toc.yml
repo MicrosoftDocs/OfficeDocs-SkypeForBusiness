@@ -993,8 +993,6 @@ items:
               items:
                 - name: Plan Location-Based Routing for India
                   href: location-based-routing-india-plan.md
-                - name: Location-Based Routing scenarios
-                  href: location-based-routing-india-scenarios.md
                 - name: Configure network settings for Location-Based Routing
                   href: location-based-routing-configure-network-settings.md
 
