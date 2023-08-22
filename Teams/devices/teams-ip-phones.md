@@ -96,9 +96,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo Thinksmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
-| Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
