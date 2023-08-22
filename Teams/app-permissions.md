@@ -14,7 +14,7 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: tolgaki
 ms.date: 08/22/2023
-description: Learn what permissions Teams apps requests to access data in your organization.
+description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -52,13 +52,13 @@ The program demonstrates that strong security and compliance practices are in pl
 
 ## Graph permissions required by Teams apps to access your organization's information
 
-Microsoft Graph is used to allow app developers access to the requisite Microsoft 365 information but always with the appropriate permissions. App developers choose from a wide variety of Graph APIs to create their apps and fetch the relevant org-wide information to make the app functionality work. However, the permissions for an app to fetch such information isn't available by default. IT admins validate the apps, their use cases, and the permissions that apps seek in their organizations. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of Graph permissions, how Teams apps uses these, and how they can approve or reject the apps that seek a set of such permissions.
+Microsoft Graph is used to allow app developers access to the requisite Microsoft 365 information but always with the appropriate permissions. App developers choose from a wide variety of Graph APIs to create their apps and fetch the relevant org-wide information to make the app functionality work. However, the permissions for an app to fetch such information isn't available by default. IT admins validate the apps, their use cases, and the permissions that apps seek in their organizations. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of Graph permissions, how Teams apps use these, and how they can approve or reject the apps that seek a set of such permissions.
 
 In Teams admin center, you can view Graph permission that an app will request if deployed and you can know what organization's information can an app access, if you grant consent to it.
 
 1. Access Teams admin center and open the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
 
-1. Search for the required app and select its name to open the the app details page.
+1. Search for the required app and select its name to open the app details page.
 
 1. In the app details page, in the **Permissions** tab, notice the permissions required by the app.
 
