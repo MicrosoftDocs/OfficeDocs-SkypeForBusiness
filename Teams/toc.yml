@@ -989,9 +989,9 @@ items:
               href: operator-connect-india-plan.md
             - name: Configure Operator Connect for India
               href: operator-connect-india-configure.md
-            - name: Location-Based Routing for India
+            - name: Location-Based Routing for Operator Connect for India
               items:
-                - name: Plan Location-Based Routing for India
+                - name: Plan and configure Location-Based Routing
                   href: location-based-routing-india-plan.md
                 - name: Configure network settings for Location-Based Routing
                   href: location-based-routing-configure-network-settings.md
