@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 07/25/2023
+ms.date: 08/22/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -348,7 +348,7 @@ You have to refresh the data to see any new data.
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there is a large number of calls being processed each day, it's possible that the report will not show all calls for all days within the selected date range.  There is no notification when this occurs.  Try shortening the date range to avoid this issue.
+Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There's no notification when this occurs.  Try shortening the date range to avoid this issue.
 
 If in the event that shortening the date range is no sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
