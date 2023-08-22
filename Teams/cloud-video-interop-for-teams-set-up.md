@@ -16,6 +16,7 @@ ms.localizationpriority: medium
 ms.collection:
   - M365-voice
   - M365-collaboration
+  - Tier1
 appliesto:
   - Microsoft Teams
 ---

@@ -18,6 +18,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 # Microsoft Teams PSTN blocked users report
 

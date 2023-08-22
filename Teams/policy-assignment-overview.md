@@ -152,6 +152,10 @@ This video shows the steps to view and manage the assigned and effective policie
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
+This video is about differences between global and custom policies.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGV?autoplay=false]
+
 ## Related topics
 
 - [Assign policies to users and groups](assign-policies-users-and-groups.md)

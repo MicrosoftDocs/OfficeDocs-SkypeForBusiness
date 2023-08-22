@@ -18,6 +18,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-voice
+  - Tier1
 ---
 # Microsoft Teams PSTN usage report
 
@@ -75,25 +76,26 @@ These fields can come from the customer SBC(s). There are three formats that the
 - A spammer calls and doesn't present a number, only a name, for example "Internal Revenue Service". This string will be shown in the reports.
 
 #### Phone number obfuscation
-Per-country privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
 
-For the incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the call logs available via Microsoft Graph.
+Per-country/region privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
 
-The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
+For incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN call logs available via Microsoft Graph. Phone number obfuscation rules in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
 
-| Country | Number of obfuscation digits |
+The obfuscation is based on the organization's location (country/region). Full phone numbers are shown for the countries/regions that are not listed in the following table:
+
+| Country/Region | Number of obfuscation digits |
 | :---: | :--- |
 |BE – Belgium | 3 |
 |CH – Switzerland | 4 |
-|DE - Germany | 3 |
+|DE – Germany | 3 |
 |DK – Denmark | 3 |
 |ES – Spain | 3 |
 |FI – Finland | 3 |
 |FR – France | 4 |
 |IT – Italy | 3 |
-|NL - Netherlands | 3 |
-|NO - Norway | 3 |
-|SE - Sweden | 3 |
+|NL – Netherlands | 3 |
+|NO – Norway | 3 |
+|SE – Sweden | 3 |
 
 #### About Shared Correlation ID
 
@@ -104,6 +106,31 @@ The following explains the different scenarios, and when Shared Correlation ID i
 2.    Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
 3.    PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
 4.    Existing call 3 with correlation ID "f45e9a25-9f94-46e7-a457-84f5940efde9". PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+
+#### Data retention
+
+Per-country regulatory requirements specify data retention of detailed call records. Per-country retention period in days is listed in the following table:
+
+| Country | PSTN Calling Plans | Direct Routing |
+| :---: | :--- | :--- |
+| CA – Canada | 150 | 150 |
+| CH – Switzerland | 365 | 365 |
+| DE – Germany | 365 | 100 |
+| DK – Denmark | 365 | 365 |
+| FI – Finland | 365 | 365 |
+| FR – France | 365 | 365 |
+| IT – Italy | 730 | 730 |
+| KR – South Korea | 365 | 365 |
+| MX – Mexico | 720 | 730 |
+| NL – Netherlands | 180 | 180 |
+| NO – Norway | 150 | 150 |
+| SE – Sweden | 180 | 180 |
+| UK – United Kingdom | 450 | 450 |
+| All other countries | 365 | 150 |
+
+Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN and Direct Routing call logs available via Microsoft Graph. Data retention in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
+
+The retention period is based on the user's location (country). If the tenant administrator does not set a user's location, the default value for the location of a user is the location of the tenant.
 
 ## Exporting the reports
 Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready. Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data.
@@ -122,7 +149,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
 ### Exported PSTN usage report
 
- You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
+ You can export data up to one year from the current date unless country/region-specific regulations prohibit retention of the data for 12 months.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
@@ -154,7 +181,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
 ### Exported Direct Routing usage report
 
-You can export data up to five months (150 days) from the current date unless country-specific regulations prohibit retention of the data for that period.
+You can export data up to five months (150 days) from the current date unless country/region-specific regulations prohibit retention of the data for that period.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
@@ -187,5 +214,5 @@ You can export data up to five months (150 days) from the current date unless co
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
-- [PSTN call report in Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)
-- [Direct routing report in Microsoft Graph](/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http)
+- [PSTN call report in Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http&preserve-view=true)
+- [Direct routing report in Microsoft Graph](/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http&preserve-view=true)

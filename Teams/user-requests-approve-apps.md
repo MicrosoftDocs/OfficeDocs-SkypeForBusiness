@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -36,6 +36,9 @@ Users can view all the available apps, including the blocked apps. You can't hid
 * A customization lets you [configure user experience](#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that is displayed in the Teams app store and the request approval option directs the users to an org-specific URL to collect their requests.
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
+
+>[!NOTE]
+> The feature isn't supported in Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD) tenants.
 
 ## View and act on user requests in Teams admin center
 

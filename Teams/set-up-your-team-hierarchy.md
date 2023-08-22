@@ -23,11 +23,13 @@ ms.collection:
 Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
 
 > [!IMPORTANT]
-> For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
+> For the initial release, only the Tasks app supports hierarchical teams. Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
 Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
 ![Screenshot of task publishing.](media/manage-tasks-app-publish.png)
+
+The task publishing experience is available within the Tasks app in Teams but is powered by Microsoft Planner. As a result, task publishing requires users to be assigned licenses that include Microsoft Planner. 
 
 ## Terminology
 

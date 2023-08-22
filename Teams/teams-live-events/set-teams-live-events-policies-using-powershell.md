@@ -1,7 +1,7 @@
 ---
 title: Use PowerShell to set live events policies
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article

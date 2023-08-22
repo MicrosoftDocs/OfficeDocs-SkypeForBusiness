@@ -9,7 +9,9 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-voice
+ms.collection: 
+- M365-voice
+- Tier1
 audience: Admin
 appliesto:
 - Microsoft Teams

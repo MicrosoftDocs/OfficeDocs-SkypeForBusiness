@@ -3,8 +3,8 @@ title: Shared channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: arundas
-ms.date: 05/30/2019
+ms.reviewer: jasonlewis
+ms.date: 08/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,7 +17,7 @@ f1.keywords:
   - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage shared channels in Microsoft Teams.
 ---
@@ -44,7 +44,7 @@ Sharing channels with people outside your organization also requires that you co
 
 ## Shared channel creation
 
-Only team owners can create a shared channel. Team members and guests can't create them. The ability to create shared channels can be managed at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create shared channels.
+Only team owners can create a shared channel. Team members can't create them. The ability to create shared channels can be managed at the organization level. Use policies to control which users in your organization are allowed to create shared channels.
 
 The person who creates a shared channel becomes the shared channel owner and only the shared channel owner can directly add or remove people from it. (You can add more than one owner if you want.) A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that shared channel.
 
@@ -96,7 +96,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ## Shared channel SharePoint sites
 
-Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#1", for easier management through PowerShell and Graph API. 
+Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These sites have a custom template ID, "TEAMCHANNEL#1", for easier management through PowerShell and Graph API. 
 
 A shared channel site inherits the sensitivity label of the parent team. This remains true even if the channel is shared directly with another team.
 
@@ -113,11 +113,11 @@ If a shared channel or a team containing a shared channel is restored, the sites
 
 Shared channel messages are stored in a dedicated system mailbox associated with the Shared channel rather than the group mailbox.
 
-For more information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+For information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
 ## Considerations around file access in shared channels
 
-Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+Files and folders in a shared channel can be shared with people outside the channel (but not outside the organization) by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
@@ -139,10 +139,6 @@ The following articles may be helpful for the users in your organization when th
 
 [Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## Limitations for shared channels
-
-Please refer to [Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels) for more information.
-
 ## Supported apps in shared channels
 
 For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
@@ -152,7 +148,6 @@ The following apps are supported for use in shared channels.
 - Activity
 - Adobe Acrobat Sign
 - Asana
-- Calendar Pro
 - Calling
 - Chat
 - Code by Vivani
@@ -175,7 +170,6 @@ The following apps are supported for use in shared channels.
 - Monday.com
 - MURAL
 - Nearpod
-- OneNote
 - PDF
 - Pear Deck
 - PowerPoint
@@ -210,6 +204,8 @@ The following apps are supported for use in shared channels.
 
 ## Related topics
 
+[Limits for shared channels](limits-specifications-teams.md#limits-for-shared-channels)
+
 [B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
 
 [Configure cross-tenant access settings for B2B direct connect](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-direct-connect)
@@ -217,3 +213,5 @@ The following apps are supported for use in shared channels.
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
 [Private channels in Microsoft Teams](/microsoftteams/private-channels)
+
+[Shared channels in Microsoft Teams - Microsoft Mechanics](https://youtu.be/rE_QTfkOtnc)

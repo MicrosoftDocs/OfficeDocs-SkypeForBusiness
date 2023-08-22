@@ -7,7 +7,7 @@
 /Skype/SfbServer/ @lanachin
 /Skype/SfBServer2019/ @lanachin
 /Skype/SfbOnline/ @lanachin
-/Skype/SfbPartnerCertification/ @dstrome
+/Skype/SfbPartnerCertification/ @mikeplum
 /Skype/Hub/ @samanro
-/Teams/ @lolajacobsen @tonysmit @chuckedmonson @serdarsoysal @microsoftheidi @carolynrowe @dstrome @msdmaguire
+/Teams/ @tonysmit @chuckedmonson @serdarsoysal @microsoftheidi @carolynrowe @mikeplum
 /Lync/ @lanachin

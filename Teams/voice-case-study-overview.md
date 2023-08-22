@@ -11,7 +11,7 @@ ms.collection:
   - M365-voice
   - m365solution-voice
   - highpri
-
+  - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -64,7 +64,7 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
+  With office locations in telephony-regulated countries/regions, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Emergency Calling 
 
@@ -80,4 +80,4 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Auto Attendants and Call Queues
 
-  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).
+  Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).

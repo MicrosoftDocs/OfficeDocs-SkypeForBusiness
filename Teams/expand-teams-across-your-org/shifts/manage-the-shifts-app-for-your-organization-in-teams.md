@@ -1,10 +1,9 @@
 ---
 title: Manage the Shifts app for your organization
-author: samanro
-ms.author: samanro
-ms.reviewer: aaku
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.date: 09/26/2018
-manager: samanro
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -53,7 +52,7 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](https://o365datacentermap.azurewebsites.net/)?
 
 To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
@@ -102,8 +101,6 @@ Shift-based tags let your users reach people who are on-shift in real time. Noti
 You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
 
 ## Search the audit log for Shifts events
-
-**(In preview)**
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 

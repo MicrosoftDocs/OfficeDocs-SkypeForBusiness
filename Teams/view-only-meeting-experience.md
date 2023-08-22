@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: christi.balaki
 ms.date: 10/15/2020
 manager: serdars
@@ -21,16 +21,9 @@ appliesto:
 
 # Teams view-only meeting experience
 
-> [!Note]
-> View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
+**APPLIES TO:** ✔️Meetings ✔️Webinars
 
-> [!Note]
-> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts till June 30, 2023. Webinars currently don't support a view-only broadcast experience.
-
-> [!Note]
-> A Teams Meeting is not a Teams Live Event (TLE) and will not leverage Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
-
-Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
+Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience. Meeting organizers will begin seeing notifications for view-only experience around the 500 user mark.
 
 Attendees who join the meeting first, up to the capacity of the main meeting, will get the full Teams meeting experience. They can share audio and video, see shared videos, and participate in meeting chat.
 
@@ -39,18 +32,14 @@ Attendees who join after the main meeting capacity has been reached will have a 
 Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
 > [!Note]
-> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 1000 and includes GCC and webinars.
+> Teams meetings don't use Microsoft eCDN. For more information, see [Microsoft eCDN onboarding checklist](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [MicrosoftTeams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
-To use the recommended `MicrosoftTeams` module:
-
-```PowerShell
-Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
-Connect-MicrosoftTeams
-```
+> [!NOTE]
+> This setting also affects webinars.
 
 To enable the view-only experience, you can use the following PowerShell snippet:
 
@@ -63,8 +52,6 @@ To disable the view-only experience, you can also use PowerShell.
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
-
-In the future, you'll be able to enable or disable the view-only experience in the Teams admin center.
 
 ## Impact to users
 
@@ -85,7 +72,7 @@ When the capacity of the main meeting has been reached, meeting attendees will b
 
 If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience won't automatically be promoted to the main meeting and can't be manually promoted to the main meeting.
 
-If presenter and attendee roles have been set, and a presenter attempts to join a meeting after the main meeting has reached capacity, they'll join as a view-only attendee and have the same limitations as other view-only attendees. Support to ensure all presenters join the main meeting will roll out at a later date. The organizer will always be guaranteed space in the main meeting.
+If presenter and attendee roles have been set, and a presenter attempts to join a meeting after the main meeting has reached capacity, they'll join as a view-only attendee and have the same limitations as other view-only attendees. Support to ensure all presenters join the main meeting will roll out at a later date. The organizer, presenter, and co-organizer will always be guaranteed space in the main meeting.
 
 ## Impact to meeting presenters and organizers
 
@@ -132,4 +119,8 @@ The view-only attendee won't be able to experience the following options in meet
 - View-only attendees are only supported by the following lobby policies: 'People in my organization,' 'People in my organization and guests,' 'People in my organization, trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
-  <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  
+  <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.
+  
+## Networking Considerations
+
+Teams View-Only meetings utilize the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).

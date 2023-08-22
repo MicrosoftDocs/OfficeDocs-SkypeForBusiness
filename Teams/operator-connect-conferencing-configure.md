@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -138,12 +139,12 @@ Once you assign an Audio Conferencing Routing policy to a user, all calls from t
 
 From the **My operators** tab, you can view your operators, their status, and make the following changes to your selections:
 
-- Manage operator services by country
+- Manage operator services by country/region
 - Suspend an operator
 - Remove an operator
 
 >[!NOTE]
->Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to the users and your Audio Conferencing bridge, then contact the operator to release the numbers.
+>Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to the users and your Audio Conferencing bridge, then contact the operator to release the numbers.
 
 ## Release numbers from your Audio Conferencing bridge
 

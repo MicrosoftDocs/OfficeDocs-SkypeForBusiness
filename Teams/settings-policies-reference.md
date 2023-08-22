@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: serdars
 ms.reviewer: 
-ms.date: 04/05/2023
+ms.date: 04/24/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -165,7 +165,7 @@ Teams policies are used to control what settings or features are available to us
 |AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
 |EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
-##### Related topics for Teams policies
+#### Related topics for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/skype/set-csteamschannelspolicy)
@@ -190,7 +190,7 @@ Template policies control what team templates users see when they create a new t
 - Quality and Safety
 - Retail for Managers
 
-##### Related topics for template policies
+#### Related topics for template policies
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
@@ -207,7 +207,7 @@ Update policies are used to manage Teams and Office preview users that will see 
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 
-##### Related topics for Teams update policies
+#### Related topics for Teams update policies
 
 - [Microsoft Teams Public Preview](public-preview-doc-updates.md)
 - [Public Preview Features - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
@@ -225,7 +225,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Coexistence mode|Teams only|Determines both routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings.|
-|Notify Skype for Business users that an upgrade to Teams is available.|Off|When **On**, your users will see a yellow banner in their Skype for Business app telling them that they will soon be upgraded to Teams.|
+|Notify Skype for Business users that an upgrade to Teams is available.|Off|When **On**, your users see a yellow banner in their Skype for Business app telling them that they'll soon be upgraded to Teams.|
 
 ##### Related topics for coexistence mode
 
@@ -263,7 +263,7 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - **Block specific apps and allow all others** - Add which apps you want to block from the Teams app store and all the other apps would be allowed.
 - **Block all apps** - Users can't install apps that are published by your organization in the Teams app store.
 
-##### Related topics for permission policies
+#### Related topics for permission policies
 
 - [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
 - [Overview of app management and governance in Teams admin center](manage-apps.md)
@@ -287,7 +287,7 @@ App setup policies control how apps are made available to a user with the Teams 
 |Installed apps|(none)|Choose which apps and messaging extensions you want installed in your users' personal Teams environment and in meetings they create. Users can install other available apps from the Teams app store.|
 |Pinned apps|Activity, Chat, Teams, Calendar, Calling, Files|Choose the order apps are pinned in messaging extensions and the Teams app bar.|
 
-##### Related topics for setup policies
+#### Related topics for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
 - [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
@@ -315,8 +315,8 @@ Meeting policies are used to control what features are available in meetings org
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Attendance report|Everyone, unless organizers opt-out|This setting allows meeting organizers the ability to see the toggle that turns on or off Attendance Reports within Meeting options.|
-|Who is in the report|Everyone, but participants can opt out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report.|
-|Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant.|
+|Who is in the report|Everyone, but participants can opt out|This setting controls whether participants in the meeting can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
+|Attendance summary|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting participant. Only the post-meeting report is supported.|
 
 ##### Related topics for meeting scheduling
 
@@ -333,7 +333,7 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|When this setting is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
-|Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or a user from a trusted organization. This setting will work only if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
+|Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or a user from a trusted organization. This setting only works if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
 |Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 
@@ -358,7 +358,7 @@ Meeting policies are used to control what features are available in meetings org
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can read the chat but not post messages. Read more about how to [Manage messaging policies in Teams](messaging-policies-in-teams.md).|
+|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md)|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
@@ -409,7 +409,7 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
-|Recordings automatically expire|On|When **On**, meeting recordings will automatically expire in the number of days shown in the Default expiration time setting.|
+|Recordings automatically expire|On|When **On**, meeting recordings automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Recordings automatically expire** must also be turned **On**.|
 |Store recordings outside your country or region|Off|If you want to store meeting recordings outside of your country or region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
@@ -447,7 +447,7 @@ Meeting policies are used to control what features are available in meetings org
 |IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
 |Local broadcasting|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
-|Network configuration lookup|Off|When **On**, roaming policies in Network topology will be checked.|
+|Network configuration lookup|Off|When **On**, roaming policies in Network topology are checked.|
 |Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
 |Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
 
@@ -497,7 +497,7 @@ Use customization policies to customize the look of Teams meetings with your org
 |:-----|:-----|:-----|
 |Currently Active|No|After adding a theme, this setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
 |Allow organizer to control meeting theme|Off|When this setting is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
-|Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that will appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
+|Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
 
 ##### Related topics for customization policies
 
@@ -509,7 +509,7 @@ Use customization policies to customize the look of Teams meetings with your org
 
 ### Meeting settings
 
-Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic.
+Meeting settings allow you to customize meeting email invitations and configure network settings including port ranges for media traffic. These settings apply to all meetings organized by users in your organization.
 
 #### Participants
 
@@ -551,7 +551,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Insert Quality of Service (QoS) markers for real-time media traffic|Off|When **On**, all real-time media traffic for meetings will be marked so that the network packets can be prioritized.|
+|Insert Quality of Service (QoS) markers for real-time media traffic|Off|When **On**, all real-time media traffic for meetings is marked so that the network packets can be prioritized.|
 |Select a port range for each type of real-time media traffic|Specify port ranges|Allows you to specify port ranges for different types of media traffic or automatically use available ports.|
 |Audio|Starting port: 50000 / Ending port: 50019|Start and end ports for audio traffic. (Only available when **Select a port range for each type of real-time media traffic** is set to **Specify port ranges**)|
 |Video|Starting port: 50020 / Ending port: 50039|Start and end ports for video traffic. (Only available when **Select a port range for each type of real-time media traffic** is set to **Specify port ranges**)|
@@ -579,7 +579,7 @@ Teams live events policies are used to turn on or off features, such as who can 
 > [!NOTE]
 > GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/teams-live-events/set-teams-live-events-policies-using-powershell).
 
-##### Related topics for live events meeting policies
+#### Related topics for live events meeting policies
 
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for live events in Microsoft Teams](teams-live-events/plan-for-teams-live-events.md)
@@ -627,7 +627,7 @@ Meeting templates policies let you create and set up policies that control what 
 
 :::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
 
-##### Related topics for meeting template policies
+#### Related topics for meeting template policies
 
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
@@ -685,20 +685,22 @@ Calling policies are used to control what calling features are available to peop
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Make private calls|On|This setting controls all calling capabilities in Teams. Turn off this setting to turn off all calling functionality in Teams.|
-|Meeting recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
+|Cloud recording for calling|Off|This setting allows you to control whether call recording is available for your users.|
 |Transcription|Off|This setting allows you to control whether post-call transcriptions are available for your users.|
+|Routing for PSTN calls|Use default settings|This setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use default call routing, or you can allow your users to decide.|
+|Routing for federated calls|Use default settings|This setting controls how inbound federated calls should be routed. These federated calls can be sent to voicemail, sent to unanswered settings, or use default call routing.|
 |Call forwarding and simultaneous ringing to people in your organization|On|Controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time.|
 |Call forwarding and simultaneous ringing to external phone numbers|On|Controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time.|
-|Voicemail is available for routing inbound calls|User controlled|When set to **Enabled** or **User controlled**, inbound calls can be sent to voicemail.|
+|Voicemail for inbound calls|Let users decide|When set to **On** or **Let users decide**, inbound calls can be sent to voicemail.|
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
 |Prevent toll bypass and send calls through the PSTN|Off|Turn on this setting to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
-|Music on hold|Enabled|Controls whether music is played when a PSTN caller is placed on hold.|
-|Busy on busy when in a call|Not enabled|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
+|Music on hold for PSTN calls|On|Controls whether music is played when a PSTN caller is placed on hold.|
+|Busy on busy during calls|Off|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
 |Real-time captions in Teams calls|On|This setting allows you to control whether real-time captions in Teams calls are available for your users.|
 |Automatically answer incoming meeting invites|Off|This setting controls whether incoming meeting invites are automatically answered on Teams phones. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.|
-|Spam filtering|Turn on|This setting allows you to control the type of Spam filtering available on incoming calls.|
+|Spam filtering|On|This setting allows you to control the type of Spam filtering available on incoming calls.|
 |SIP devices can be used for calls|Off|This setting enables users to use a SIP device to make and receive calls.|
 |Open apps in browser for incoming PSTN calls|Off|This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This setting can be used to pass the phone of an inbound caller to an app to find the associated customer record while the call is taking place.|
 
@@ -706,13 +708,13 @@ Calling policies are used to control what calling features are available to peop
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users will have the ability to redirect received calls.|
+|AllowCallRedirect|None|This setting provides the ability to configure call redirection capabilities on Teams phones. When set to **Enabled** users have the ability to redirect received calls.|
 |CallRecordingExpirationDays|60|This setting controls the expiration of recorded 1:1 calls, measured in days.|
 
-##### Related topics for calling policies
+#### Related topics for calling policies
 
 - [Plan your Teams voice solution](cloud-voice-landing-page.md)
-- [Calling and call-forwarding features in Teams](teams-calling-policy.md)
+- [Configure calling policies in Microsoft Teams](teams-calling-policy.md)
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 ### Call hold policies
@@ -723,7 +725,7 @@ Call hold policies allow you to specify a custom audio file to play while calls 
 
 :::image type="content" source="media/teams-call-hold-policy.png" alt-text="Screenshot of Teams call hold policies.":::
 
-##### Related topics for call hold policies
+#### Related topics for call hold policies
 
 - [How to setup Music on hold](music-on-hold.md)
 - [Set-CsTeamsCallHoldPolicy](/powershell/module/skype/set-csteamscallholdpolicy)
@@ -739,11 +741,11 @@ Call park lets people put a call on hold and transfer it to other people within 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Call park|Off|Turn on this setting to let your users place a call on hold on one device and pick it up from another device.|
-|Call pickup start of range|10|The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code.|
+|Call pickup start of range|10|The first parked call renders a pickup code of the start of range (for instance 10). The next parked call renders a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code.|
 |Call pickup end of range|99|The pickup code of the last parked call within in the range. After which, the rendered pickup codes start over from the start of the range once again.|
 |Park timeout (seconds)|300|The number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds.|
 
-##### Related topics for call park policies
+#### Related topics for call park policies
 
 - [Configure Call park and retrieve](call-park-and-retrieve.md)
 - [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
@@ -762,9 +764,9 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 |Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. Users can then choose whether or not to display their caller ID.|
 |Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call. Read more about [Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).|
 |Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
-|Replace the caller ID with this service number|(Choose a service number)|Choose a service number to replace the caller ID of users. This option is available if you selected **Service number** in **Replace the caller ID with**.|
+|Replace the caller ID with this resource account/service number|(Choose a resource account/service number)|Choose a resource account or service number to replace the caller ID of users. This option is available if you selected ***Resource account** or **Service number** in **Replace the caller ID with**.|
 
-##### Related topics for Caller ID policies
+#### Related topics for Caller ID policies
 
 - [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md)
 - [Manage caller ID policies in Microsoft Teams](caller-id-policies.md)
@@ -788,12 +790,12 @@ Emergency calling policies are used to control how users in your organization ca
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
 |Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
-##### Related topics for emergency policies
+#### Related topics for emergency policies
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)
-- [Assign or change an emergency location for a user](assign-change-emergency-location-user.md)
-- [Assign or change the place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Manage emergency locations for your organization](add-change-remove-emergency-location-organization.md)
+- [Add places to emergency locations](add-change-remove-emergency-place-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)
 - [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
@@ -802,11 +804,11 @@ Emergency calling policies are used to control how users in your organization ca
 
 **Navigation:** Teams admin center > Voice > Voice routing policies
 
-A voice routing policy for Direct Routing will be linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages will be processed, and assign the voice routing policy to users or resource accounts.
+A voice routing policy for Direct Routing is linked to a voice route using PSTN usage records. You can add existing PSTN usage records, change the order in which the usages are processed, and assign the voice routing policy to users or resource accounts.
 
 :::image type="content" source="media/teams-policies-voice-routing.png" alt-text="Screenshot of Teams voice routing policies.":::
 
-##### Related topics for voice routing policies
+#### Related topics for voice routing policies
 
 - [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md)
 - [Configure call routing for Direct Routing](direct-routing-voice-routing.md)
@@ -836,7 +838,7 @@ Voicemail policies control the available features for the voicemail service in T
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
 |Disconnect the call if preamble or postamble can't be played|Off|If you turn on this setting, the Pre- or Postamble will play before the caller can leave a message.|
 
-##### Related topics for voicemail policies
+#### Related topics for voicemail policies
 
 - [Manage voicemail policies for your users](manage-voicemail-policies.md)
 - [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
@@ -858,7 +860,7 @@ Enhanced encryption policies are used to control if users in your organization c
 |End-to-end call encryption|Not enabled|This setting determines whether end-to-end encrypted calling is available for users. Read more about [how to configure end-to-end encryption for one-to-one Microsoft Teams calls](teams-end-to-end-encryption.md).|
 |End-to-end meeting encryption|Not enabled, but users can enable|This setting determines whether end-to-end encrypted meetings are available for users. This setting requires a Teams Premium license. Read more about [how to require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).|
 
-##### Related topics for end-to-end encryption policies
+#### Related topics for end-to-end encryption policies
 
 - [Security and Microsoft Teams](teams-security-guide.md)
 - [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)

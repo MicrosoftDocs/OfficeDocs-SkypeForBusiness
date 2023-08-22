@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting live streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss troubleshooting options for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -23,7 +23,7 @@ ms.custom:
 # Troubleshooting live events in Microsoft Teams
 
 > [!IMPORTANT]
-> **China**: Users located in China won't be able to set up or attend Teams or Yammer live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
+> **China**: Users located in China won't be able to set up or attend Teams or Viva Engage live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
 >
 > As an administrator, you might need to set up a VPN to connect your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
 
@@ -60,9 +60,14 @@ During live events many people will be joining to watch your event live. This co
 1. Configure existing cache proxies within your network to cache videos from Teams.
 1. Use a third-party eCDN video delivery solution to optimize video traffic.
 
+Viewers receive the Teams live event stream via TCP HTTPS. The following URLs should bypass any proxy servers within your environment, and have SSL inspection disabled:
+
+ - *.media.azure.net
+ - bmc.cdn.office.net
+
 ### I can't create a live event
 
-There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you're using for the live event.
+There are permissions across Microsoft Teams and Viva Engage that a user needs to be able to create a live event depending on which service you're using for the live event.
 
 1. Check that the Teams admin has enabled you to create live events.
 2. Check with your administrator that you have a valid Teams license that allows the creation of live events.
@@ -138,7 +143,7 @@ Select **Stop event** before disconnecting your encoder. If you've already disco
 1. Check that the encoder is sending audio.
 1. Check that the audio device is plugged in.
 1. If on Windows, make sure the correct audio device is selected and unmuted.
-1. If there was an encoder disruption, some browsers or devices may not be able to recover and playback the audio correctly.
+1. If there was an encoder disruption, some browsers or devices may not be able to recover and play back the audio correctly.
 
 > [!NOTE]
 > If you've deployed Microsoft eCDN as your video distribution provider for live events, please refer to [Troubleshooting eCDN performance issues](/ecdn/troubleshooting/troubleshoot-ecdn-performance-issues) for more details on troubleshooting the eCDN performance issues you may be experiencing.

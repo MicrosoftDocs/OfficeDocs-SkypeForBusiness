@@ -16,6 +16,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

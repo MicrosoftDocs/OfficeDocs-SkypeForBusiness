@@ -1,7 +1,7 @@
 ---
 title: Plan SIP Gateway
-author: CarolynRowe
-ms.author: crowe
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -56,55 +57,70 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 
 ### Hardware, software, and licenses
 
-If you have a 3PIP or SIP device, you must have:
+If you have a 3PIP or SIP device, you must have the following:
 
-- A license for Microsoft Teams, Skype for Business Online Plan 2, and Microsoft 365 Phone System (via E5 or standalone licenses)
-- PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
-- A **Microsoft Teams Shared Devices** license for any common area devices
+- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- Skype for Business Online (Plan 2)
+  - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
+- [Microsoft Phone System](what-is-phone-system-in-office-365.md)
+- [PSTN Connectivity](pstn-connectivity.md)
 
 ## Compatible devices
 
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832<sup>1</sup>       |11.3.5MPP   |11-3-7MPP  |   |   |
-|          |6821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7821<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |7861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8811<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8841<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8845<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8851<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8861<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
-|          |8865<sup>1</sup>       |11.1.1MPP   |11-3-7MPP  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
-|          |VVX150<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX201<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX250<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX201<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX250<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX300     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX301<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX301<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX310     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX311<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX350<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX311<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX350<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX400     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX401<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX401<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX410     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX411<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
-|          |VVX450<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX411<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX450<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX500     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX501<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX501<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX601<sup>1</sup>    |5.9.5       |6.3.1.8427 |   |   |
+|          |VVX601<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |Rove B1    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B2    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove B4    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
 |          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Edge E100  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E220  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E300  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E320  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E350  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E400  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E450  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E500  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E550  |8.1.0.12774  |8.1.0.12774 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
@@ -192,6 +208,24 @@ If you have a 3PIP or SIP device, you must have:
 |          |N870 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N870E IP PRO        |2.52.0     |2.52.0     |Base Station |   |
 |          |N870 VI PRO        |2.52.0     |2.52.0     |Base Station |   |
+|**Algo**|       |           |           |   |[Algo Support](https://www.algosolutions.com/post-sale-technical-support/)|
+|          |8180g2        |5.3     |5.3     |Speaker |   |
+|          |8186          |5.3     |5.3     |Speaker |   |
+|          |8188          |5.3     |5.3     |Speaker |   |
+|          |8189          |5.3     |5.3     |Speaker |   |
+|          |8190          |5.3     |5.3     |Speaker |   |
+|          |8190s         |5.3     |5.3     |Speaker |   |
+|          |8196          |5.3     |5.3     |Speaker |   |
+|          |8198          |5.3     |5.3     |Speaker |   |
+|          |8028g2        |5.3     |5.3     |Intercom|   |
+|          |8063          |5.3     |5.3     |Intercom|   |
+|          |8201          |5.3     |5.3     |Intercom|   |
+|          |8128g2        |5.3     |5.3     |Visual Alerter |   |
+|          |8138          |5.3     |5.3     |Visual Alerter |   |
+|          |8301          |5.3     |5.3     |Paging Adapter |   |
+|          |8373          |5.3     |5.3     |Paging Adapter |   |
+|          |8410          |5.3     |5.3     |Display Speaker |   |
+|          |8420          |5.3     |5.3     |Display Speaker |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
@@ -215,3 +249,22 @@ If you have a 3PIP or SIP device, you must have:
 
 > [!NOTE]
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
+
+> [!NOTE]
+> For support queries, customers using the above listed Algo Solutions' SIP enabled endpoints with Teams SIP Gateway should reach out to Algo Solutions.
+> [General Information on Algo integration with Teams](https://www.algosolutions.com/solutions/compatibility/msteams/)
+> [Configuration Guide](https://www.algosolutions.com/wp-content/uploads/2023/04/Configuration-Guide-Teams-2023.pdf)
+> [Troubleshooting Guide](https://www.algosolutions.com/wp-content/uploads/2023/07/Troubleshooting-Algo-Devices-in-MS-Teams.pdf)
+
+> [!NOTE]
+> Customers should contact their Tango Extend Reseller for support queries related to Tango Extend eSIM endpoints. Help and Support information are provided in the Tango Extend Teams App.
+> 
+> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams is not notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
+>
+> **Tango Extend Supported Features** - Sign-in/out using Tango Extend Teams App with Teams policy sync, Make/receive calls with hold/resume and DTMF, dial-in to meeting, request to join, voicemail and MWI, Teams DND and Call Forwarding.
+>
+> **Currently Unsupported Features** - Sign-out / sign-in currently creates redundant (signed out) entries for the eSIM endpoint in Teams Admin Center.
+> Remote Sign-in from TAC is currently not supported by Tango Extend.
+> Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
+> Call transfer – where presented by mobile dialler menu option this is not supported by Tango Extend.
+ 

@@ -24,6 +24,8 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 
 # Meeting policy settings for audio & video
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
@@ -34,6 +36,9 @@ This article describes the meeting policy settings specific to audio and video. 
 1. Select the policy that you want to edit.
 1. Scroll to the **Audio & video** section of the policy page.
 1. When you've completed your changes, select **Save**.
+
+> [!NOTE]
+> These settings also affects webinars.
 
 ## Mode for IP audio
 
@@ -171,7 +176,7 @@ To specify who can use far end camera control in a meeting, create and assign a 
 
 When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from the Teams Room at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
-Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). This feature is not yet supported on cameras with digital PTZ controls.  
+Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals). This feature is not yet supported on cameras with digital PTZ controls.  
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.

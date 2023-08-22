@@ -1,7 +1,7 @@
 ---
 title: Teams devices for Education
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 08/3/2021
 ms.topic: conceptual

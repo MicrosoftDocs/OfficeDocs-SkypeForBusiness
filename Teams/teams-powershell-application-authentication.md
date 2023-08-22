@@ -33,6 +33,8 @@ All cmdlets are supported now, except for the cmdlets mentioned below.
   - \*PolicyPackage\*
   - \*-CsTeamsShiftsConnection\*
   - \*-CsBatchTeamsDeployment\*
+  - [Get|Set]-CsTeamsSettingsCustomApp
+  - Get-MultiGeoRegion
 
 
 ## Examples

@@ -1,7 +1,7 @@
 ---
 title: Learn how to setup content cameras - Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 08/12/2019
 manager: serdars
@@ -34,7 +34,7 @@ See the following video for examples of content camera functionality.
 ## Set up a content camera
 
 > [!NOTE]
-> Always adhere to your country or area's building code, which may define a minimum distance from the floor or a requirement that ceiling-mounted equipment be secured to a rafter or other structure. Follow the mounting instruction for the hardware provided with the camera you've selected. OEM camera mounting kits include a camera, USB 2.0 extenders, and required cabling.
+> Always adhere to your country/region or area's building code, which may define a minimum distance from the floor or a requirement that ceiling-mounted equipment be secured to a rafter or other structure. Follow the mounting instruction for the hardware provided with the camera you've selected. OEM camera mounting kits include a camera, USB 2.0 extenders, and required cabling.
 
 The size of the whiteboard used for sharing affects the placement of the camera. Board size recommendations are:
 
@@ -81,7 +81,7 @@ If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like ful
 
 ## Supported cameras
 
-To determine whether you can use a camera as a content camera, refer to [Certified firmware versions for USB audio and video peripherals](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+To determine whether you can use a camera as a content camera, refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals).
 
 Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
@@ -97,9 +97,3 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 ![Content camera setup.](../media/content-camera1.png)
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
-
-## See also
-
-[Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md)
-
-[Microsoft Teams Rooms requirements](requirements.md)

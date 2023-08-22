@@ -1,7 +1,7 @@
 ---
 title: "Step 5 - Overview"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
@@ -32,9 +32,9 @@ In order for Teams Rooms to work with your organization, you need to complete a 
 
 - You need to be a Global admin and a Teams admin to complete the steps below. For more information, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
-## Set up the Teams Room account
+## Set up the Teams Rooms account
 
-The following steps show you how to purchase a license for your Teams Rooms console, create an account for it, and then assign the license to it. Each Teams Room console needs its own account and license to work properly. The account you create will show up in the organization's address list as a room available for reservation in Outlook.
+The following steps show you how to purchase a license for your Teams Rooms console, create an account for it, and then assign the license to it. Each Teams Rooms console needs its own account and license to work properly. The account you create will show up in the organization's address list as a room available for reservation in Outlook.
 
 [Step 1 - Purchase a license for the Teams Rooms console](hybrid-meetings-device-config-license.md)
 
@@ -44,7 +44,7 @@ The following steps show you how to purchase a license for your Teams Rooms cons
 
 ## Configure mailbox and account properties
 
-To allow people your organization to book the Teams Room, you need to configure a few properties on the account the console uses. Setting these properties allows the Teams Room to process meeting requests automatically the way you want, remove or add information shown about the meeting on the console, and set what should be included in meeting request responses.
+To allow people in your organization to book the Teams Room, you need to configure a few properties on the account the console uses. Setting these properties allows Teams Rooms to process meeting requests automatically the way you want, remove or add information shown about the meeting on the console, and set what should be included in meeting request responses.
 
 Password expiration needs to be turned off on the Teams Rooms resource account so that the console is able to log into the account.
 

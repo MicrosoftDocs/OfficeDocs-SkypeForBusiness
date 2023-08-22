@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
   - M365-voice
   - M365-collaboration
+  - Tier1
 audience: Admin
 appliesto:
   - Skype for Business

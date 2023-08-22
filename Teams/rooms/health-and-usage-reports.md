@@ -167,3 +167,31 @@ The **Calls** table shows meetings in which the room participated in a Teams cal
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 
 To view stream details for the room, click the Session Start Time.
+
+## Insight report
+
+The Insight report is located under the Report section of the pro-management portal. It provides a detailed overview of all the activities completed by our services during a specific time range, including the types of actions performed, such as detection, remediation, and updates. This report highlights the value we provide through actions to resolve rooms issues and how much time and money we help you save by doing that. 
+
+To view the Insight report for all rooms, select **Report** > **Insight Report (Preview)**.
+
+## Actions
+
+ The Actions section of the report shows a timeline view and aggregate count of all actions completed each day by the service. Action types include detection, remediation, and updates. Details on the actions can be viewed by selecting **See details**. Once you have selected **See details**, a new panel will appear with two sections; Tickets and Updates. The Tickets section shows a list of tickets with corresponding hours saved. Select the Tickets section to show an expanded view of each action taken on the respective ticket and the hours saved. the Updates section shows a list of each update applied and the corresponding tally of devices that successfully completed the update.  
+ 
+## Detection, investigation, and remediation
+
+The Detection, investigation, and remediation section displays two counts respective of the specified time range: Meeting issues prevented and Incidents remediated.
+
+## Updates
+ 
+The Updates section provides a count of total updates either scheduled, in progress, or completed across the devices enrolled in the service.
+
+## Estimated savings
+ 
+The estimated hours saved from the actions completed are converted to a monetary amount based on a default rate of $50 USD/hour for IT professionals. To customize the rate, select _See details_ in this section.
+The Detail pane allows you to input a custom hourly rate and corresponding currency to get a better monetary estimate.  
+
+## User experience
+
+This section provides the average call rating by end-users on a scale of 1 to 5 (5 being the best).
+

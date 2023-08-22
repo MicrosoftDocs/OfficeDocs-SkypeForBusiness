@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Learn how to deploy enterprise features of Microsoft Teams.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - NOCSH
@@ -27,6 +27,9 @@ If you're a medium or large business, you need to think about how you're going t
 > If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 After you've read the sections below and are ready to start deploying Teams in your organization, see [Set up Microsoft Teams in your enterprise](deploy-enterprise-setup.md).
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224815) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222975).
 
 ## Architecture
 
@@ -48,7 +51,7 @@ Network planning for Teams is extremely important when you have large numbers of
 
 - Have sufficient bandwidth capacity to accommodate the number of concurrent voice calls, video conferences, meetings, screen sharing, and so on.
 - Have network hardware that supports real-time communication protocols.
-- Allow the required network ports between devices on your networks, Microsoft 365 services, and external users.
+- Allow the required network ports between devices on your networks, Microsoft 365 services, and people outside the network.
 
 See the following articles to help you understand Teams network requirements:
 
@@ -82,7 +85,7 @@ For details about how the Teams advisor works, see [Use Advisor for Teams to hel
 
 ## Lifecycle and governance planning
 
-As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information will be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses have different requirements, which drive questions like the following:
+As you plan your Teams deployment, you need to consider the lifecycle of teams, channels, files, and so on, in your organization. You should also think about what types of information will be stored in them. Teams may be created for a specific project, for a department, or they might be used as a central resource for the entire organization. Each of these uses has different requirements, which drive questions like the following:
 
 - How long will the teams remain active?
 - Who should own and manage the teams and their channels?
@@ -106,3 +109,11 @@ To ensure that your organization and your users get the most out of Teams, you n
 - Report back to the deployment team both successes and difficulties to help improve the adoption process.
 
 For details about setting up an adoption program, see [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md).
+
+## Teams analytics & reports
+
+Teams reports in the Teams admin center give you insights into how Teams is used in your organization. Use the reports to get a view into Teams usage, user activity, and device usage across your organization.
+
+To view these reports, you must be a global administrator or Teams administrator. Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+
+For more information about available reports, see [Microsoft Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md).

@@ -5,7 +5,7 @@ author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
-ms.date: 02/01/2019
+ms.date: 08/10/2023
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020

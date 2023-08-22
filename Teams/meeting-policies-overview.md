@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies in Microsoft Teams
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams

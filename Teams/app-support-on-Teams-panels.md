@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 8/5/2021
 ms.topic: conceptual
@@ -13,6 +13,7 @@ description: Describes the support for Teams apps/LOB apps.
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

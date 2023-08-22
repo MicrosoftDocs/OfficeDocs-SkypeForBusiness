@@ -75,7 +75,7 @@ Educators and education leaders have different ways to access Insights.
 Educators can use these two methods:
 
 - [Personal app](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from Teams left app bar, with the ability to drill down to class data.
-- [Tabs](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights for specific classes they own are available in a tab from a class team's top navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context.
+- [Tabs](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights for specific classes they own are available in a tab from a class team's left navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context.
 
 Insights surfaces activity data from all channels within a class team but can only be added as a tab to public channels. The tab reflects activity from everyone in the class team who isn't an owner (including educators who aren't owners of the class team).
 
@@ -190,10 +190,6 @@ Insights has been designed to support both students and educators in the digital
 ### Licensing
 
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
-
-*Education Insights Premium* is a paid upgrade that provides education leaders an organizational level view of Education Insights data and expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
-
-The Education Insights Premium add-on will be available for organizations based on purchasing licenses for all digitally active students in the tenant.
 
 ## Student Information System (SIS) integration
 
@@ -343,7 +339,3 @@ Also, check that students didn't* [join the class meeting without a Teams accoun
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
-
-### What licenses do I need to activate Education Insights Premium?
-
-In order for Education Insights Premium to be enabled for your organization, the tenant must purchase licenses based on the number of the digitally active students in the organization's tenant. That is, for all students who use a Teams class as part of their school work for activities such as meetings, communication, chat, assignments, editing files, Class Notebook or Reflect.

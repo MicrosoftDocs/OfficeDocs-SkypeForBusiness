@@ -3,7 +3,7 @@ title: PSTN connectivity options
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 07/08/2021
+ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,6 +14,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 ms.reviewer: crowe
 f1.keywords:
 - CSH
@@ -30,31 +31,31 @@ appliesto:
 
 # PSTN connectivity options
 
-Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Phone System. However, to enable users to make calls outside your organization, you need to connect Phone System to the Public Switched Telephone Network (PSTN).
+Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Microsoft Teams Phone. However, to enable users to make calls outside your organization, you need to connect Teams Phone to the Public Switched Telephone Network (PSTN).
 
-This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Phone System features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-To connect Phone System to the PSTN, you can choose from the following options:
+To connect Teams Phone to the PSTN, you can choose from the following options:
 
-- [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
+- [**Calling Plan**](#teams-phone-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
+- [**Operator Connect**](#teams-phone-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
-- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
+- [**Teams Phone Mobile**](#teams-phone-with-teams-phone-mobile). With Microsoft Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams.  
 
-- [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
+- [**Direct Routing**](#teams-phone-with-direct-routing). Enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBCs) to Teams Phone.
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
-The option or options you choose affect how some Phone System features are configured. For more information, see [Configuration considerations](#configuration-considerations) later in this article.
+The option or options you choose affect how some Teams Phone features are configured. For more information, see [Configuration considerations](#configuration-considerations) later in this article.
 
-## Phone System with Calling Plan
+## Teams Phone with Calling Plan
 
-Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN. With this option, Microsoft acts as your PSTN carrier, as shown in the following diagram:
+Teams Phone with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Teams Phone to the PSTN. With this option, Microsoft acts as your PSTN carrier, as shown in the following diagram:
 
-![Diagram 1 shows Phone System with Calling Plan.](media/voice-solutions-simple.png)
+![Diagram 1 shows Teams Phone with Calling Plan.](media/voice-solutions-simple.png)
 
-If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
+If you answer yes to the following, then Teams Phone with Calling Plan is the right solution for you:
 
 - Calling Plan is available in your region.
 - You don't need to retain your current PSTN carrier.
@@ -62,7 +63,7 @@ If you answer yes to the following, then Phone System with Calling Plan is the r
 
 With this option:
 
-- You get Phone System with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
+- You get Teams Phone with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
 
 - You don't require deployment or maintenance of an on-premises deployment&mdash;because Calling Plan operates out of Microsoft 365.
 
@@ -77,7 +78,7 @@ For more information about Calling Plan, see the following articles:
 - [Country and region availability for Calling Plan](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Set up Calling Plan](set-up-calling-plans.md)
 
-## Phone System with Operator Connect
+## Teams Phone with Operator Connect
 
 With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
@@ -89,7 +90,7 @@ Operator Connect might be the right solution for your organization if:
 
 For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
 
-## Phone System with Teams Phone Mobile
+## Teams Phone with Teams Phone Mobile
 
 If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for bringing PSTN calling to Teams. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number.  Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines.  
 
@@ -103,28 +104,28 @@ Teams Phone Mobile might be the right solution for your organization if:
 
 For information on the benefits and requirements of Teams Phone Mobile, and for links to carriers participating in this program, see [Plan Teams Phone Mobile](operator-connect-mobile-plan.md). For information on how to configure Teams Phone Mobile, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 
-## Phone System with Direct Routing
+## Teams Phone with Direct Routing
 
-This option connects Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
+This option connects Teams Phone to your telephony network by using Direct Routing, as shown in the following diagram: 
 
-![Diagram 5 shows Phone System with Direct Routing.](media/voice-solution-with-direct-routing.png)
+![Diagram 5 shows Teams Phone with Direct Routing.](media/voice-solution-with-direct-routing.png)
 
-If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:
+If you answer yes to the following questions, then Teams Phone with Direct Routing is the right solution for you:
 
-- You want to use Teams with Phone System.
+- You want to use Teams with Teams Phone.
 - You need to retain your current PSTN carrier.
 - You want to mix routing, with some calls going through Calling Plan, some through your carrier.
 - You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, analog devices, and so on.
 
 With this option:
 
-- You connect your own supported Session Border Controller (SBC) to Phone System without the need for additional on-premises software.
+- You connect your own supported Session Border Controller (SBC) to Teams Phone without the need for additional on-premises software.
 
-- You can use virtually any telephony carrier with Phone System.
+- You can use virtually any telephony carrier with Teams Phone.
 
 - You can configure and manage this option, or it can be configured and managed by your carrier or partner (ask if your carrier or partner provides this option).
 
-- You can configure interoperability between your telephony equipment&mdash;such as a third-party PBX and analog devices&mdash;and Phone System.
+- You can configure interoperability between your telephony equipment&mdash;such as a third-party PBX and analog devices&mdash;and Teams Phone.
 
 This option requires the following:
 
@@ -133,7 +134,7 @@ This option requires the following:
 - Deploying and maintaining a supported SBC.
 
 - A contract with a third-party carrier.
-  (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.)
+  (Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Teams Phone with Calling Plan.)
 
 For more information about Direct Routing, see the following articles:
 
@@ -145,9 +146,9 @@ For more information about Direct Routing, see the following articles:
 
 ## Configuration considerations
 
-Most Phone System features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
+Most Teams Phone features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md).
 
-There are some differences in functionality, however, that affect how you configure certain Phone System features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR). LBR lets you restrict toll bypass in certain geographic locations where it is not allowed. 
+There are some differences in functionality, however, that affect how you configure certain Teams Phone features. For example, Direct Routing requires additional steps to configure call routing. As another example, Direct Routing provides Location-Based-Routing (LBR). LBR lets you restrict toll bypass in certain geographic locations where it is not allowed. 
 
 The following table highlights the primary configuration differences. The sections that follow the table provide links to more information and details.
 
@@ -156,8 +157,7 @@ The following table highlights the primary configuration differences. The sectio
 | Calling Plans | -Microsoft acts as PSTN carrier.<br>-You don't need to buy or manage SBCs.| Obtained through Microsoft.| -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
 | Operator Connect | -Carrier manages PSTN connectivity and SBCs. <br> -You don't need to buy or manage SBCs. | -Obtained through carrier. <br> - Numbers associated with emergency addresses managed by carrier. | -Managed by carrier. <br>-Admin configures user dial plans for number translation. | -Enabled by carrier. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
 | Teams Phone Mobile | -Carrier manages SIM-Enabled Mobile number, PSTN connectivity, and SBCs. <br> -You don't need to buy or manage SBCs. | -Obtained through carrier. <br> -Numbers associated with emergency addresses managed by carrier. | -Managed by carrier. <br> Admin configures user dial plans for number translation. |- Enabled by carrier. <br> - Admin registers addresses. <br> - Dynamic calling supported. <br> - Carrier supported Native dialer emergency calling. |
-| Direct Routing | -Requires certified SBC purchased from third-party vendor.<br>-Connect your SBC to Phone System.<br> -Use your existing PSTN carrier. | Obtained through carrier. | -Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <br>-LBR available to restrict toll bypass. | -Requires extra configuration by admin. <br>-Registered addresses not supported. <br>-Dynamic calling supported but requires additional configuration. |
-
+| Direct Routing | -Requires certified SBC purchased from third-party vendor.<br>-Connect your SBC to Teams Phone.<br> -Use your existing PSTN carrier. | Obtained through carrier. | -Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <br>-LBR available to restrict toll bypass. | -Requires extra configuration by admin. <br>-Registered addresses not supported. <br>-Dynamic calling supported but requires additional configuration. |
 
 ### Phone number management
 
@@ -201,21 +201,23 @@ In some countries and regions, it's illegal to bypass the PSTN carrier to decrea
 
 ### Emergency calling
 
+Before reading the rest of this section on emergency calling considerations, make sure you've reviewed critical emergency calling concepts and definitions outlined in [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+
 How you configure emergency calling differs depending on your PSTN connectivity option.
 
-- For Calling Plan, each user is automatically enabled for emergency calling. Ths user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) 
+- For Calling Plan, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Calling Plans](considerations-calling-plan.md).
 
-- For Operator Connect, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Operator Connect](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect). 
+- For Operator Connect, each user is automatically enabled for emergency calling. The user is required to have a registered emergency address associated with their assigned telephone number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Operator Connect](considerations-operator-connect.md).
 
-- For Teams Phone Mobile, each user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Teams Phone Mobile carrier for a given number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Teams Phone Mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
+- For Teams Phone Mobile, each user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Teams Phone Mobile carrier for a given number. Dynamic emergency calling (based on the location of the Teams client) is supported. For more information, see [Considerations for Teams Phone Mobile](considerations-teams-phone-mobile.md).
 
-- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy). The policy will define emergency numbers and their associated routing destination. Registered emergency locations aren't supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity. For more information, see [Considerations for Direct Routing](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
+- For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy). The policy will define emergency numbers and their associated routing destination. Registered emergency locations aren't supported for Direct Routing users. For dynamic emergency calling, additional configuration is required for routing emergency calls and possibly for partner connectivity. For more information, see [Considerations for Direct Routing](considerations-direct-routing.md).
 
 #### For more information
 
 For more information about emergency calling concepts and terminology, and how to configure emergency calling and dynamic emergency calling, see the following articles:
 
-- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling - Overview](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
 - [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md)

@@ -3,7 +3,7 @@ title: Configure Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams 
 audience: admin
@@ -11,6 +11,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 
@@ -36,7 +37,7 @@ To enable an operator:
 
 1. Choose an operator that supports Teams Phone Mobile. Under the **All operators** tab, filter available operators by region or service to find the right operator supporting Teams Phone Mobile. Then select the operator you want to enable.
 
-2. Under **Operator settings**, select the countries you want to enable with your selected operator.
+2. Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
 
 3. **Provide contact information.** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Teams Phone Mobile.
 
@@ -50,7 +51,7 @@ If you want to add your existing company paid SIM-enabled phone numbers to Teams
 
 To find your operator's website, see the [Microsoft 365 Teams Phone Mobile directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
-You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id.md). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
+You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
 
 How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans, Operator Connect, or Direct Routing.
 
@@ -210,12 +211,12 @@ You can assign Teams Phone Mobile numbers to users by using the Teams admin cent
 
 From the **My operators** tab, you can view your operators and their status, and make the following changes to your selections:  
 
-- Manage operator services by country
+- Manage operator services by country/region
 - Suspend an operator
 - Remove an operator
 
 > [!NOTE]
-> Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
+> Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to users in the organization or country/region and contact the operator to release the numbers.
 
 ## Release numbers
 

@@ -65,6 +65,9 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 3. Select the resource account to which you want to assign a license. The resource account's user pane will appear.
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 5. Select **Save changes**.
+   
+> [!NOTE]
+> If the resource account requires a phone number, check that the **Select location** dropdown list in the **Licenses and Apps** tab matches the intended country code.
 
 ## Assign a phone number
 
@@ -76,10 +79,4 @@ If you're planning to use the resource account with an auto attendant or call qu
 4. In the **Phone number type** dropdown, choose the type of number that you want to use.
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
-
-To assign a Direct Routing or hybrid number to a resource account, you need to use PowerShell:
-
-```powershell
-Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
-```
 

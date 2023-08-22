@@ -171,7 +171,7 @@ We are a Microsoft Gold partner in communications and application development, c
 
 [CreaLog](http://creaLog.com)
 
-*CreaLog* is the European provider of a seamlessly integrated, multi-channel contact center and IVR platform with customers in 30 countries.
+*CreaLog* is the European provider of a seamlessly integrated, multi-channel contact center and IVR platform with customers in 30 countries/regions.
 
 Features include:
 - Automated distribution of phone, email, IM, and video contacts including enterprise-wide skill-based routing - integrating virtually everyone, even home office workers, into the service process
@@ -284,7 +284,7 @@ Highlights include:
 - Ability to transfer a call to a new queue without losing priority or call data
 - OnCall module for distribution of calls after closing time
 
-Loxysoft AS, part of Loxysoft Group and formerly known as Dolphin Software AS, is the largest supplier of full-service support systems for Contact centers and other contact-intensive organizations in the Nordic countries. Watch our brief [video](https://www.youtube.com/watch?v=eulNwbxgzew) for a product overview.
+Loxysoft AS, part of Loxysoft Group and formerly known as Dolphin Software AS, is the largest supplier of full-service support systems for Contact centers and other contact-intensive organizations in the Nordic countries/regions. Watch our brief [video](https://www.youtube.com/watch?v=eulNwbxgzew) for a product overview.
 
 ## Luware LUCS Contact Center for Microsoft Lync
 * * *

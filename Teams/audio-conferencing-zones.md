@@ -11,6 +11,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -46,7 +47,7 @@ This article lists the country and region zones for Audio Conferencing.
 |France  <br/> |
 |Germany  <br/> |
 |Greece  <br/> |
-|Hong Kong  <br/> |
+|Hong Kong SAR <br/> |
 |Hungary  <br/> |
 |India  <br/> |
 |Ireland  <br/> |

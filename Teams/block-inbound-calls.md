@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
   - M365-voice
+  - Tier1
 audience: Admin
 ms.reviewer: roykuntz
 ms.date: 05/29/2019

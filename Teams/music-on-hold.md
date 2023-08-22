@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 ms.reviewer: roykuntz
 ms.date: 08/31/2021
@@ -131,8 +132,6 @@ The following table indicates which features on which clients and devices suppor
 | Hold on Consultative Transfer on 1:1 Teams call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 
 ## Restrictions
-
-- Music on Hold is only available in commercial and GCC cloud instances.
 
 - Music on Hold is only available when the user is in TeamsOnly mode.
 

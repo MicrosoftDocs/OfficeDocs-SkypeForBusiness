@@ -12,6 +12,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

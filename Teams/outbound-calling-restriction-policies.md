@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -37,7 +38,7 @@ Outbound call controls can be applied on a per-user basis or on a tenant basis a
 To find out which countries and regions are considered Zone A, see [Country and region zones for Audio Conferencing](audio-conferencing-zones.md).
 
    > [!NOTE]
-   > A call is considered domestic if the number dialed is in the same country where Microsoft 365 or Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls).
+   > A call is considered domestic if the number dialed is in the same country/region where Microsoft 365 or Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
