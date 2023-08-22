@@ -123,9 +123,6 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 
 The following devices are certified under the Microsoft Teams Rooms on Android Certification Program:
 
-> [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
 | Logitech Rally Bar Huddle (VR0034) | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
