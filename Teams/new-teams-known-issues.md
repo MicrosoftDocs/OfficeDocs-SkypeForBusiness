@@ -1,5 +1,5 @@
 ---
-title:  Rollout schedule for the new Microsoft Teams desktop client
+title:  New Teams desktop client: Known issues
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -15,7 +15,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the rollout schedule for the new Microsoft Teams desktop client for Windows. 
+description: New Teams desktop client: Known issues 
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
