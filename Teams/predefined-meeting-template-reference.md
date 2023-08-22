@@ -54,6 +54,8 @@ Template
 
 ## Virtual appointment
 
+The Virtual appointment meeting template comes with the following settings. You can't edit the settings in the template.
+
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
 |***Security***||||
