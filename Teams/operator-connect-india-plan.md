@@ -43,7 +43,7 @@ For more information about Teams voice solutions and PSTN connectivity options, 
 
 ## Benefits
 
-With Operator Connect for India, if your existing telecomm operator is a participant in the [Microsoft Operator Connect Program](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory), they will provide your PSTN calling through Teams Phone. If your existing operator is not a participant in the Microsoft Operator Connect Program, check the Operator Connect directory to find an operator in India.
+With Operator Connect for India, if your existing telecom operator is a participant in the [Microsoft Operator Connect Program](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory), they will provide your PSTN calling through Teams Phone. If your existing operator is not a participant in the Microsoft Operator Connect Program, check the Operator Connect directory to find an operator in India.
 
 The Operator Connect program provides the following benefits:
 

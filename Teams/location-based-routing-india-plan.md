@@ -115,7 +115,7 @@ Signaling and media from Teams clients must traverse the carrier’s data networ
 
 
 
-## Delegation with Location-Based Routig for Operator Connect for India
+## Delegation with Location-Based Routing for Operator Connect for India
 
 A Teams user may choose delegates who can make and receive calls on their behalf. Delegates need to be at the same network site as the delegator's phone number in order to be on a PSTN call--whether to answer an incoming PSTN call or make an outgoing PSTN call on behalf of the delegator.
 
