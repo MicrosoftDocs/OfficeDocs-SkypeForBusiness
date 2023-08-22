@@ -55,7 +55,7 @@ When finished, safely eject and remove the USB disk from your computer and proce
 You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
 
 > [!IMPORTANT]
-> Installation is supported only on [certified MTR-W hardware](microsoftteams/rooms/certified-hardware?tabs=Windows). Microsoft will not provide any support for non-certified hardware, even if installation succeeds.
+> Installation is supported only on [certified Microsoft Teams Rooms on Windows hardware](certified-hardwaremd?tabs=Windows). Microsoft will not provide any support for non-certified hardware, even if installation succeeds.
 
 1. If the target device will be installed in a dock (e.g., a Surface Pro), disconnect it from the dock.
 
