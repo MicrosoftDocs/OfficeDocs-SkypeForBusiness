@@ -62,7 +62,7 @@ In Teams admin center, you can view Graph permission that an app will request if
 
 1. In the app details page, in the **Permissions** tab, notice the permissions required by the app.
 
-:::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
+   :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
 
 A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
 
