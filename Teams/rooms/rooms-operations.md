@@ -22,7 +22,7 @@ description: Learn about managing Microsoft Teams Rooms.
 # Microsoft Teams Rooms maintenance and operations
  
  
-Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams interface and IT administrators will appreciate an easily deployed and managed Windows app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams into your meeting room. The below information provide support for managing and operating Teams Rooms on Windows devices.
+Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams interface and IT administrators will appreciate an easily deployed and managed Windows app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams into your meeting room. The below information provides support for managing and operating Teams Rooms on Windows devices.
     
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
@@ -175,7 +175,7 @@ To Get Attached Devices
   
 ```PowerShell
 invoke-command {Write-Host "VIDEO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
+gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image" -or $_.PNPClass -eq "Camera"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table Name,Status,Present} -ComputerName <Device fqdn>
 ```
