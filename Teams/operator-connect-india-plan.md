@@ -55,7 +55,7 @@ The Operator Connect program provides the following benefits:
 
 - **Enhanced support and reliability.** Your operator provides technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
 
-- **Ability to assign wired numbers to Teams users.** For more information, see Plan and Configure Location-Based Routing for India.
+- **Ability to assign wired numbers to Teams users.** For more information, see Plan and configure Location-Based Routing for India.
 
 
 ## Licensing and requirements
