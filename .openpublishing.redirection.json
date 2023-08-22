@@ -4661,6 +4661,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/office-365-urls-ip-address-ranges.md",
+    "redirect_url": "/microsoft-365/enterprise/urls-and-ip-address-ranges",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/contact-tns-service-desk.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
