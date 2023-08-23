@@ -93,7 +93,7 @@ The analytics experience depends on user role. Admins get [organizational analyt
 
 #### Organizational analytics
 
-Admins see an org-level report that shows aggregated analytics across all departments within your organization.
+IT admins see an org-level report that shows aggregated analytics across all departments within your organization.
 
 :::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins." lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
 
