@@ -20,7 +20,6 @@ ms.topic: reference
 search.appverid: MET150
 description: Learn how to install and use the Microsoft Teams Intelli Camera for hybrid meetings.
 ---
-
 # What is Microsoft Intelligent Camera?
 
 Microsoft Teams AI (Artifical Intelligence) Camera is a platform, which allow users to inspire and share experiences for remote users.
