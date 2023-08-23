@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 09/22/2020
+ms.date: 08/22/2023
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -61,7 +61,7 @@ Like Auto attendants, Call queues each have a language setting. You can use diff
 
 For each Call queue, you can specify if agents in the queue can opt out of taking calls and if calls should be routed to them based on their presence indication in Teams.
 
-You can assign a phone number to a Call queue, however Call queues do not provide separate call routing for off hours and holidays. Unless your Call queue is staffed 24/7, we recommend assigning the phone number to an Auto attendant that redirects to the Call queue during business hours.
+You can assign a phone number to a Call queue, however Call queues don't provide separate call routing for off hours and holidays. Unless your Call queue is staffed 24/7, we recommend assigning the phone number to an Auto attendant that redirects to the Call queue during business hours.
 
 ## Prerequisites
 
@@ -75,7 +75,7 @@ To configure Auto attendants and Call queues, you need the following resources:
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-Agents who receive calls from the Call queues must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
+Agents who receive calls from the Call queues must be Enterprise Voice enabled online or on-premises users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses conference mode.
