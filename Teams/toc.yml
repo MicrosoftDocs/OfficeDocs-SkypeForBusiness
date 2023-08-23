@@ -1591,6 +1591,8 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
+            - name: SmartVision
+              href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
             - name: Monitoring
