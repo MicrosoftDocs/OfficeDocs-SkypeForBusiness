@@ -30,9 +30,6 @@ In the Teams admin center, we provide a few dedicated pages to manage your apps 
 
 To use Teams admin center, you must have a Global Administrator or Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
-> [!NOTE]
-> The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
-
 ## App management use cases and the available interfaces
 
 The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals or different pages in the Teams admin center.
