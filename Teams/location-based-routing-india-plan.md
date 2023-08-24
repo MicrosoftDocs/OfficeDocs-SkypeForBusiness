@@ -58,14 +58,12 @@ For more information about network settings, see [Network settings for cloud voi
 
 ### Associate phone numbers to network sites
 
-To associate your Operator Connect India phone numbers to the appropriate network sites, you'll use the [set-csphonenumberassignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as shown in the following example:
+To associate your Operator Connect India phone numbers to the appropriate network sites, you'll use the [Set-CsPhoneNumberAasignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as shown in the following example:
 
-**GET CORRECT SYNTAX/EXAMPLES FROM JENS**
 
 ```powershell
-set-csphonenumberassignment -telephone number '12345' -networksiteid 'dehli'
+Set-CsPhoneNumberAssignment -PhoneNumber <string> -NetworkSiteId <string>
 ```
-
 
 ## Toll bypass evaluation and outcome
 
