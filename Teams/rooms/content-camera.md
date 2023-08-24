@@ -84,6 +84,8 @@ If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like ful
 
 ## Supported cameras
 
+## [Teams Rooms for Windows](#tab/Windows)
+
 To determine whether you can use a camera as a content camera, refer to [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals).
 
 Or, refer to the Microsoft Teams devices marketplace for supported Content Camera Kits at [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
@@ -91,11 +93,6 @@ Or, refer to the Microsoft Teams devices marketplace for supported Content Camer
 ## [Teams Rooms for Android](#tab/Android)
 
 To determine whether your Teams Rooms on Android supports the addition of a content camera, check with your Teams Rooms on Android manufacturer.
-
-1. Navigate to the Teams Admin Settings page on your Microsoft Teams Rooms on Android device. The steps for this will differ depending on the device.
-2. Select Devices, then Content Camera. Select the content camera using the drop down menu.
-3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
-4. Tap away from the dialog to save the settings.
 
 ## Camera settings
 
@@ -112,5 +109,9 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
 
-
+## [Teams Rooms for Android](#tab/Android)
+1. Navigate to the Teams Admin Settings page on your Microsoft Teams Rooms on Android device. The steps for this will differ depending on the device.
+2. Select Devices, then Content Camera. Select the content camera using the drop down menu.
+3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
+4. Tap away from the dialog to save the settings.
 
