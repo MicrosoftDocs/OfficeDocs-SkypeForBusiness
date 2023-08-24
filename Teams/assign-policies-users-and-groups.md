@@ -2,7 +2,7 @@
 title: Assign policies to users and groups
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.reviewer: 
 ms.date: 06/23/2023
 manager: serdars
 ms.topic: article

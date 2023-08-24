@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-ms.reviewer: harij, rafarhi
+ms.reviewer: 
 ms.date: 01/28/2022
 ms.localizationpriority: medium
 search.appverid: MET150

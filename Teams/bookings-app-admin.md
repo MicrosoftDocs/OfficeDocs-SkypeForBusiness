@@ -24,7 +24,7 @@ ms.collection:
   - tier2
   - highpri
   - m365initiative-meetings
-ms.reviewer: revathim, thyagarajans
+ms.reviewer: 
 ms.date: 03/23/2023
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
