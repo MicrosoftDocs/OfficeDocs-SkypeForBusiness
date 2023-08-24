@@ -109,8 +109,6 @@ items:
                   href: troubleshoot-installation.md
                 - name: Teams Reference
                   items:
-                    - name: Microsoft 365 URLs and IP address ranges
-                      href: office-365-urls-ip-address-ranges.md
                     - name: Hardware requirements
                       href: hardware-requirements-for-the-teams-app.md
                     - name: How Teams uses memory
@@ -1591,6 +1589,8 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
+            - name: SmartVision
+              href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
             - name: Monitoring
