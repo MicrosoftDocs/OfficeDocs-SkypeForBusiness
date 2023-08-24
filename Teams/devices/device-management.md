@@ -54,7 +54,7 @@ To manage devices, in the left navigation of the [Microsoft Teams admin center](
 
 ## Manage Teams Rooms in Teams Rooms Pro Management
 
-To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](https://learn.microsoft.com/microsoftteams/rooms/managed-meeting-rooms-portal)
+To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](./rooms/managed-meeting-rooms-portal.md)
 
 ## Manage Teams Rooms on Windows devices in Teams Admin Center
 
