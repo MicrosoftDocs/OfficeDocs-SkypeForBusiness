@@ -163,3 +163,27 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **ITSM integration**                              |                             | &#x2714;                  |
 | **Custom health alerts**                          |                             | &#x2714;                  |
 | **Device analytics**                              |                             | &#x2714;                  |
+
+
+## Pro Management Portal Licensing 
+
+### License Type Overview 
+The Pro Management Portal's license type offer a clear and comprehensive summary of all devices licensing status. To access the licensing information: 
+  1. Log In: Use your credentials to log into the Pro Management Portal. 
+  2. Navigate: Go to Rooms and Inventory views. 
+  3. License Type Column: In both views, locate the License Type column to see device licensing status. 
+### Inventory View 
+In the Inventory view, devices are categorized into: 
+  • Pro: devices with pro licenses 
+  • Premium: devices with premium licenses
+  • Basic: devices with basic licenses 
+  • Standard: devices with standard licenses
+  • Unlicensed: Devices lacking Pro, Premium, Basic, or Standard licenses. 
+### Rooms View 
+In the Rooms view, you'll find:
+  • Pro: Devices with Pro licenses. 
+  • Premium: Devices with Premium licenses. 
+  • Unlicensed: Devices without Pro or Premium licenses. 
+
+Once a license expires, access will be restricted; however, a 30-day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+

@@ -79,7 +79,7 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Metric | Units / Possible values | Description | Possible reasons for blank values|
 |:---|:---|:---|:---|
 | Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
-| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
+| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Received signal strength indicator (RSSI) of the user's current Wi-Fi connection measured in decibel-milliwatts | User isn't connected to Wi-Fi |
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
