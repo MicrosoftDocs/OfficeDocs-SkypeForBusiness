@@ -3,7 +3,7 @@ title: Stream Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: suchakr
+ms.reviewer: 
 ms.date: 08/12/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud

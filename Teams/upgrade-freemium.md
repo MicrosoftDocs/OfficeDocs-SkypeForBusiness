@@ -5,7 +5,7 @@ ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: alyake
+ms.reviewer: 
 ms.date: 12/19/2018
 audience: admin
 search.appverid: MET150
