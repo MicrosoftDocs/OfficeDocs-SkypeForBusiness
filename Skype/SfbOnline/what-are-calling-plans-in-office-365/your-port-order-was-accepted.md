@@ -36,15 +36,16 @@ Your port order is approved! Look for your phone numbers in the **Skype for Busi
 Now that it's approved and your phone numbers are ready, you will need to do a couple things to get everything set up.
   
 - Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). You will need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.
-    
+
 - Create your [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) and, if you want to, your[Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization) (in some countries/regions, you get an emergency address with the phone number).
-    
-- Go ahead and [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+
+- Go ahead and [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-    
+
 ## Related topics
+
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
@@ -52,6 +53,3 @@ Now that it's approved and your phone numbers are ready, you will need to do a c
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
-
