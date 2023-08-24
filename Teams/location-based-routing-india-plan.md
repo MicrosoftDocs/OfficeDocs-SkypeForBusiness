@@ -105,13 +105,41 @@ Transfers are allowed only to other users with the same Operator Connect for Ind
 
 ## Conferencing with Location-Based Routing for Operator Connect for India
 
-**NEED INFO FROM MOHAMMED**
+Conferencing with Location-Based Routing for Operator Connect for India users depends on whether that user also has an Audio Conferencing license.
 
-Users are allowed in conferences with the following restrictions: 
+### User has an Audio Conferencing license
 
-**Fixed line (wired)**: All Teams users in the conference must be located at the same network site and with the same operator Teams Phone license when one leg is a PSTN call; users without the same operator Teams Phone license must be restricted.
+If a user with an assigned Operator Connect for India Teams Phone license also has an Audio Conferencing license, then the following rules apply:
 
-Signaling and media from Teams clients must traverse the carrier’s data network between the network site and the Microsoft 365 cloud.
+- All scheduled meetings created by the user (including meet now) will allow participants to join the meeting by using the dial-in phone numbers available in the meeting invite. 
+
+- If the tenant admin has enabled dial out from meetings for the user, participants can also dial out from the meeting to external PSTN users. 
+
+- If the licensed user is already on a 1:1 PSTN call, the user can't add a participant or escalate the existing call to a conference. In this scenario, the call must be ended. The Operator Connect for India Teams Phone user will need to schedule a meeting--or use meet now in Teams--with relevant participants to allow participants to dial in to or dial out from the meeting.
+
+For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
+
+
+### User does not have an Audio Conferencing license
+
+If a user with an assigned Operator Connect for India Teams Phone license does not have an Audio Conferencing license, then the following rules apply:
+
+- All scheduled meetings created by the user (including meet now) won't allow adding PSTN participants if there is or has been at least one Operator Connect for India Teams Phone user in the meeting. 
+
+- If any one PSTN participant is or was part of such a conference call before any Operator Connect for India Teams Phone users were invited to join the call, the Operator Connect for India Teams Phone users can't be added to the call.
+
+- If the Operator Connect for India Teams Phone user is joining the conference call from an internal site, the restrictions in the preceding paragraphs are not enforced.
+
+### Other considerations
+
+Keep the following considerations in mind:
+
+- On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
+
+- An Operator Connect for India user on a PSTN call is not allowed to merge that call with another call. 
+
+- The following are not supported: recording and compliance recording of the PSTN call.
+ 
 
 
 
