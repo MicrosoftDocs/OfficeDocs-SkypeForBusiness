@@ -36,7 +36,7 @@ All Android and SIP devices certified by Microsoft can be provisioned remotely f
 Refer to the following for the list of certified hardware:
 
 Phones, Displays, Panels - [Devices for Teams | Microsoft certified hardware](./teams-ip-phones.md)
-Microsoft Teams Rooms on Android - [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md#teams-rooms-for-android)
+Microsoft Teams Rooms on Android - [Teams Rooms certified systems and peripherals](../rooms/certified-hardware?tabs=Android)
 SIP devices - [Teams compatible devices](../sip-gateway-plan.md#compatible-devices)
 
 
