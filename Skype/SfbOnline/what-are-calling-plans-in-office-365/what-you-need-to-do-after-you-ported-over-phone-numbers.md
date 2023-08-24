@@ -37,7 +37,7 @@ After you have submitted your port order, we will contact your carrier and work 
     
 - If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization).
     
-- [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+- [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

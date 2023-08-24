@@ -1070,7 +1070,7 @@ items:
           href: manage-phone-numbers-landing-page.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
-        - name: Assign, change, or remove a phone number for a user
+        - name: Manage phone numbers for users
           href: assign-change-or-remove-a-phone-number-for-a-user.md
         - name: Manage the usage of a phone number
           href: manage-the-usage-of-a-phone-number.md

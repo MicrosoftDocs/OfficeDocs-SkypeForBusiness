@@ -92,7 +92,7 @@ In the left navigation of the admin center, go to **Voice** > **Phone numbers** 
   
 ## Assign phone numbers to users
 
-After you get your phone numbers, you'll need to assign a number to each of your users. For more information, see [Assign, change, or remove a phone number for a user](./assign-change-or-remove-a-phone-number-for-a-user.md).
+After you get your phone numbers, you'll need to assign a number to each of your users. For more information, see [Manage phone numbers for users](./assign-change-or-remove-a-phone-number-for-a-user.md).
 
 This video shows the steps to assign a phone number to a user.
 
