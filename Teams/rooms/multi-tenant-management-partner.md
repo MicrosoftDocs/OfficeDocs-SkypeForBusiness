@@ -33,7 +33,7 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 
 ## Pre-requisites for managing your customers through the MTM experience
 
-The Elite program that offered access to the Multitenant Management console has been discontinued and we are not onboarding any new partners to this program. We appreciate your understanding and patience, and will announce a new format soon.
+Partners who meet specific eligibility criteria with a proven track record and the organizational capabilities to deploy, configure, and manage Microsoft Teams Rooms, including Surface Hub. Partners interested in learning more about the requirements for becoming a Microsoft Teams Rooms Partner can submit their request at https://aka.ms/MicrosoftTeamsRoomsPartnerInquiry.
 
 ## On-boarding customers
 
@@ -41,16 +41,18 @@ To manage customers through the Pro Management-MTM portal, a relationship must b
 
 ## Tenant managers
 
-This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. It is recommended to configure the role. Otherwise, only users with the Managed Service Administrator role in your tenant will be able to accept invitations.
+This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. In order to assign Tenant manager permissions in the Pro Management-MTM portal, the assigning account must be set to be a Managed Service Administrator in the Pro Management Customer portal.  Before attempting to set Tenant manager permissions, please ensure your account is appropriately configured in your Customer portal.  This is not configurable from the Pro Management-MTM portal.
+It is recommended to configure this role so designated Tenant managers can accept customer invitations and sub-delegate permissions to others in your organization. Otherwise, only users with the Managed Service Administrator role in your tenant will be able to accept invitations.
 
 **To configure tenant managers**
- 
+
 1.	Log in to the Pro Management-MTM portal as either a Global admin or Managed Service admin.
 2.	Go to Tenant managers.
 3.	Select **Add tenant managers**.
 4.	In the detail pane, search for the users or security groups.
 5.	Select the user or group.
 6.	Select **Add**.
+
 
 ### Invitation from the customer
 
@@ -183,3 +185,10 @@ The MTM portal has two interactive models to navigate between customer data:
   > ![Figure 1](../media/multi-tenant-management-partner-001.png)
 
  - Tenant switching where only data from the **Customer** selected in the dropdown list is displayed.
+
+## Features not offered by Multitenant Management
+
+Due to technical, compliance, or other limitations, some features are not available in the Teams Rooms Pro Multitenant Management portal.  These include:
+
+  - ServiceNow API integration
+  - Room Planner
