@@ -36,6 +36,9 @@ If a cross-tenant connection between organizations already exists in Azure AD cr
 
 If the connection doesn't exist, you can add it in Teams meeting settings. This will add a new organization in the cross-tenant access settings in Azure AD using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings). (This will enable B2B collaboration with the other organization if the defaults allow it.)
 
+> [!NOTE]
+> Cross-cloud meetings between Microsoft 365 China (21Vianet) and other Microsoft 365 cloud environments is not supported during the preview.
+
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
 

@@ -1,10 +1,9 @@
 ---
 title: Shifts data FAQ
-author: samanro
-ms.author: samanro
-ms.reviewer: aaku
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.date: 08/19/2021
-manager: samanro
 ms.topic: conceptual
 audience: admin
 ms.service: msteams

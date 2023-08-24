@@ -1,8 +1,8 @@
 ---
 title: Get started with team templates in the Teams admin center
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams

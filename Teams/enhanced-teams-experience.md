@@ -135,4 +135,4 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 You can find additional resources here:
 
 - [Microsoft Teams Premium product site](https://www.microsoft.com/microsoft-teams/premium)
-- [Microsoft Teams Premium blog](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
+- [Microsoft Teams Premium blog](https://www.microsoft.com/en-us/microsoft-365/blog/2023/02/01/microsoft-teams-premium-cut-costs-and-add-ai-powered-productivity)

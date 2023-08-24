@@ -41,17 +41,17 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## Is the new Teams available for my organization?
 
->[!Note]
->New Teams client for **Education (EDU)** is rolling out starting June 29, 2023, and is expected to complete over the following weeks.
-
 The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
 
 **Platforms:**  Mac, VDI, Web</br>
 **Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 
-## New Teams rollout schedule
+## New Teams rollout schedule for Windows clients
 
+>[!Note]
+>*This rollout schedule is only for **Windows clients**. We will be updating this schedule as other platform support, such as Mac, is available.
+ 
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
@@ -118,7 +118,7 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Current Channel|Early October 2023|
 |Monthly Enterprise Channel|Early November 2023|
 |Semi-Annual Enterprise Channel (Preview)|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.

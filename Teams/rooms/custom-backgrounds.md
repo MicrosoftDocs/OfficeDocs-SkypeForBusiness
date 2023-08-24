@@ -49,8 +49,8 @@ Select the tab that corresponds to the version of Teams Rooms and the Teams Room
 
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|
-| Teams Rooms 4.17 and later                           | Enhanced and Standard | N/A               |
-| Teams Rooms 4.16 and earlier                         | Standard              | N/A               |
+| Teams Rooms 4.17 and later                           | Enhanced and Standard | N/A          |
+| Teams Rooms 4.16 and earlier                         | Standard              | N/A          |
 
 ## [Enhanced backgrounds](#tab/Enhanced)
 
