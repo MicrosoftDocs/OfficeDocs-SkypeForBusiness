@@ -22,13 +22,13 @@ description: Learn how to install and use the Microsoft Teams Intelli Camera for
 ---
 # What is Microsoft Intelligent Camera?
 
-Microsoft Teams AI (Artifical Intelligence) Camera is a platform, which allow users to inspire and share experiences for remote users.
+Microsoft Teams AI (Artificial Intelligence) Camera is a platform, which allows users to inspire and share experiences for remote users.
 
 IntelliCamera provides an immersive audio and video experience for remote users through a better meeting understanding. It allows for identifying the active speaker and their role, whiteboard content capture, transcription and translation, and an Office 365 Graph for remote and hard of hearing users to be deployed easily at a low cost.
 
 ## Getting started
 
-The getting started kit for IntelliFrame provides Microsoft Teams certified camera, which includes loudspeaker and microphones. The IntelliCamera can produce multiple video stream and AI-powered active speaker tracking by recognizing facial movements and gestures.
+The getting started kit for IntelliFrame provides Microsoft Teams certified camera, which includes loudspeaker and microphones. The IntelliCamera can produce multiple video streams and AI-powered active speaker trackings by recognizing facial movements and gestures.
 
 ### What is in the box?
 
@@ -44,7 +44,7 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 - Microsoft Teams Room Windows device or console.
 - Microsoft Teams Room Pro license:
   - Microsoft Teams Room with Pro or Premium license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Room.
-  - Basic license won't enable IntelliFrame or people recognition. If you have Teams Room Basic license, the camera will show only active speaker and panoramic views.
+  - Basic license won't enable IntelliFrame or people recognition. If you have Teams Room Basic license, the camera shows only active speaker and panoramic views.
   - Check the [Teams devices](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 - Configure Microsoft Teams Room for log collection and feedback for filing potential bugs.
