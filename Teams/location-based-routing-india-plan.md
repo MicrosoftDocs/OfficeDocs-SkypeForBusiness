@@ -120,15 +120,15 @@ If a user with an assigned Operator Connect for India Teams Phone license also h
 For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
 
 
-### User does not have an Audio Conferencing license
+### User doesn't have an Audio Conferencing license
 
-If a user with an assigned Operator Connect for India Teams Phone license does not have an Audio Conferencing license, then the following rules apply:
+If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply:
 
-- All scheduled meetings created by the user (including meet now) won't allow adding PSTN participants if there is or has been at least one Operator Connect for India Teams Phone user in the meeting. 
+- If there is or has been at least one Operator Connect for India Teams Phone user in the meeting, all scheduled meetings created by the user (including meet now) won't allow adding PSTN participants. 
 
-- If any one PSTN participant is or was part of such a conference call before any Operator Connect for India Teams Phone users were invited to join the call, the Operator Connect for India Teams Phone users can't be added to the call.
+- If any one PSTN participant is or was part of such a conference call before any Operator Connect for India Teams Phone users were invited to join the call, then Operator Connect for India Teams Phone users can't be added to the call.
 
-- If the Operator Connect for India Teams Phone user is joining the conference call from an internal site, the restrictions in the preceding paragraphs are not enforced.
+- If the Operator Connect for India Teams Phone user is joining the conference call from an internal site, the restrictions in the preceding two list items are not enforced.
 
 ### Other considerations
 
