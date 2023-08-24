@@ -38,7 +38,7 @@ To manage devices, such as change device configuration, restart devices, manage 
 
 For more information about admin roles in Teams, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal] (../rooms-pro-rbac.md)
+For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal] (./rooms-pro-rbac.md)
 
 ## What devices can you manage?
 
@@ -54,7 +54,7 @@ To manage devices, in the left navigation of the [Microsoft Teams admin center](
 
 ## Manage Teams Rooms in Teams Rooms Pro Management
 
-To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](./managed-meeting-rooms-portal.md)
+To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](../managed-meeting-rooms-portal.md)
 
 ## Manage Teams Rooms on Windows devices in Teams Admin Center
 
