@@ -38,7 +38,7 @@ To manage devices, such as change device configuration, restart devices, manage 
 
 For more information about admin roles in Teams, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal] (../rooms/rooms-pro-rbac.md)
+For more information about Teams Rooms Pro management role based access control, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal] (../rooms-pro-rbac.md)
 
 ## What devices can you manage?
 
@@ -54,7 +54,7 @@ To manage devices, in the left navigation of the [Microsoft Teams admin center](
 
 ## Manage Teams Rooms in Teams Rooms Pro Management
 
-To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](./rooms/managed-meeting-rooms-portal.md)
+To manage devices in [Teams Rooms Pro Management], see [Microsoft Teams Rooms Pro Management Portal](./managed-meeting-rooms-portal.md)
 
 ## Manage Teams Rooms on Windows devices in Teams Admin Center
 
@@ -62,7 +62,7 @@ You can use the Teams admin center to view and remotely manage your Teams Rooms 
 
 Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams Devices** > **Teams Rooms on Windows**.
 
-For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](./rooms/rooms-manage.md).
+For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](./rooms-manage.md).
 
 | To do this...                          | Do this                                                                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
