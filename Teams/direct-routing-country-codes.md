@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: 
 ms.date: 06/28/2019
 ms.topic: reference
 ms.service: msteams
