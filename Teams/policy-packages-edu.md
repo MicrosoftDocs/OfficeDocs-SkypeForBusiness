@@ -3,7 +3,7 @@ title: Manage Microsoft Teams policies and policy packages for education
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: prkuch
+ms.reviewer: 
 ms.date: 10/02/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
