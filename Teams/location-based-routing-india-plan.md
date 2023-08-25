@@ -60,7 +60,7 @@ For more information about network settings, see [Network settings for cloud voi
 
 ### Associate phone numbers to network sites
 
-To associate your Operator Connect India phone numbers to the appropriate network sites, you'll use the [Set-CsPhoneNumberAasignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as shown in the following example:
+To associate your Operator Connect India fixed-line phone numbers to the appropriate network sites, you'll use the [Set-CsPhoneNumberAasignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as shown in the following example:
 
 
 ```powershell
@@ -99,7 +99,7 @@ Transfers are allowed only to other users with the same Operator Connect for Ind
 
 - For a 1:1 Teams VoIP call and transfer to PSTN: The transfer is permitted if the user being transferred and the user transferring the call are at the same site. 
 
-- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer is permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.  
+- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer is permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location.  **TRUE?**
 
 ## Delegation with Location-Based Routing for Operator Connect for India
 
@@ -125,7 +125,7 @@ If a user with an assigned Operator Connect for India Teams Phone license also h
 
 - If the tenant admin has enabled dial out from meetings for the user, participants can also dial out from the meeting to external PSTN users. 
 
-- If the licensed user is already on a 1:1 PSTN call, the user can't add a participant or escalate the existing call to a conference. In this scenario, the call must be ended. The Operator Connect for India Teams Phone user will need to schedule a meeting--or use meet now in Teams--with relevant participants to allow participants to dial in to or dial out from the meeting.
+- If a user with an assigned Operator Connect for India Teams Phone license is already on a 1:1 PSTN call, the user can add a participant or escalate the existing call to a conference. 
 
 For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
 
