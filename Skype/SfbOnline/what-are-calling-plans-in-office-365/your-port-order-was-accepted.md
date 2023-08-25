@@ -33,11 +33,11 @@ Your port order is approved! Look for your phone numbers in the **Skype for Busi
   
  **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
   
-Now that it's approved and your phone numbers are ready, you will need to do a couple things to get everything set up.
+Now that it's approved and your phone numbers are ready, you need to do a couple things to get everything set up.
   
-- Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). You will need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.
+- Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). You need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.
 
-- Create your [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) and, if you want to, your[Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization) (in some countries/regions, you get an emergency address with the phone number).
+- Create your [emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) and, if you want to, [add a place to your emergency location](/MicrosoftTeams/add-change-remove-emergency-place-organization). In some countries or regions, you get an emergency address with the phone number.
 
 - Go ahead and [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
