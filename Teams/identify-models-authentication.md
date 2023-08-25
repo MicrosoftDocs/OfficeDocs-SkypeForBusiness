@@ -6,7 +6,7 @@ manager: dansimp
 ms.date: 09/25/2020
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anwara
+ms.reviewer: 
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
