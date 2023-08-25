@@ -1,28 +1,27 @@
 ---
-title: Set up a Teams Shared Device license on Android mobiles
+title: Set up an Android mobile phone as a common area phone
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: landerl
-ms.date: 08/17/2023
+ms.reviewer: vijagan
+ms.date: 08/25/2023
 audience: admin
-description: Learn how to set up Teams Shared Device license on Android mobiles
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
-ms.custom: 
- - Teams-upgrade-guidance
-ms.collection: 
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
-appliesto:
-- Microsoft Teams
+- NOCSH
+- appliesto: 
+  - Microsoft Teams
+description: Learn how to set up common area Android phones
 ---
 
-# Set up Teams Shared Device license on Android Mobiles
+# Set up an Android mobile phone as a common area phone
 
 A Teams Android mobile app singed in with an account tied to **Microsoft Teams Shared Device** license is used as a shared device by frontline workers to make and receive calls as part of their daily work using Teams.
 
