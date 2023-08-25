@@ -100,6 +100,8 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 1. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
 1. Select **Save and exit**. Your device will restart.
 
+     ![Meetings](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/63427703/6503b72c-4482-4ec4-9492-610503d02c36)
+
 ### Use the SkypeSettings.xml configuration file
 
 The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).

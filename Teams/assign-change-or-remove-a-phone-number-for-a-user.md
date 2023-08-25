@@ -3,7 +3,7 @@ title: "Assign, change, or remove a phone number for a user"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davelick, roykuntz, jastark
+ms.reviewer: roykuntz, jastark
 ms.date: 08/10/2023
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7

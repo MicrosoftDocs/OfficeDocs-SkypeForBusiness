@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua, shalenc
+ms.reviewer: 
 ms.date: 04/20/2023
 audience: admin
 ms.localizationpriority: medium

@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-rifer
+ms.reviewer: 
 ms.date: 10/08/2019
 f1.keywords: 
   - NOCSH
