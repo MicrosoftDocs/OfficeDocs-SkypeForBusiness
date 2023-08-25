@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-ms.reviewer: 
+ms.reviewer: rafarhi
 ms.date: 08/11/2017
 ms.localizationpriority: medium
 search.appverid: MET150
