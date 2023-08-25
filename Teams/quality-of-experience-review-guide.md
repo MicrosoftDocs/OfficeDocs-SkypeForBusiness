@@ -5,7 +5,7 @@ ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: siunies, gageames
 ms.date: 04/09/2018
 audience: admin
 description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
