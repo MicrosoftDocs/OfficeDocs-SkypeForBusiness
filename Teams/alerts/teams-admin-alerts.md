@@ -49,4 +49,4 @@ We continue adding to and improving the Teams monitoring experience by adding va
 |---------|---------|---------|
 |[App submissions](../submit-approve-custom-apps.md) |Teams Apps | Proactively monitor Teams apps if they are submitted for approval.|
 |[Device state rule](device-health-status.md)  |Teams Devices | Proactively monitor Teams devices if they go offline.|
-|[In-progress meeting audio quality](alerts-in-progress-meeting-audio.md)|Teams meetings|Specified users' audio quality for in-progress meetings|
+|[Audio quality for in-progress meetings](alerts-in-progress-meeting-audio.md)|Teams meetings|Specified users' audio quality for in-progress meetings|
