@@ -34,10 +34,10 @@ Presence is part of a user's profile in Microsoft Teams and throughout Microsoft
 
 ## Presence states in Teams
 
-|User configured |App configured|
+|User-configured states |App-configured states|
 |:--- |:---|
 | ![Solid green check mark, indicates Presence Available.](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
-|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
+|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies." If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available." |
 |  ![Solid red circle, indicates Busy.](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
 || ![Solid red circle, indicates Busy in a call.](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting.](media/Presence_Busy.png) In a meeting |
@@ -55,33 +55,33 @@ Presence is part of a user's profile in Microsoft Teams and throughout Microsoft
  > [!NOTE]
  > For users who have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
 
-App-configured presence states are based on user activity (**Available**, **Away**), Outlook calendar states (**In a meeting**), or Teams app states (**In a call**, **Presenting**). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
+App-configured presence states are based on user activity (**Available**, **Away**), Outlook calendar states (**In a meeting**), or Teams app states (**In a call**, **Presenting**). When you're in focus mode based on your calendar, **Focusing** is the state people see in Teams. Focus mode displays as **Do not disturb** in other products.
 
 Your current presence state changes to **Away** when you lock your computer or when your computer enters idle or sleep mode. On a mobile device, your presence status changes to **Away** whenever the Teams app is in the background.
 
-Users receive all chat messages sent to them in Teams regardless of their presence state. If a user is offline when someone sends them a message, the chat message appears in Teams the next time the user is online. If a user state is set to **Do not disturb**, the user will still receive chat messages, but banner notifications aren't displayed. 
+Users receive all chat messages sent to them in Teams regardless of their presence state. If a user is offline when someone sends them a message, the chat message appears in Teams the next time the user is online. If a user state is set to **Do not disturb**, the user still receives chat messages, but banner notifications aren't displayed. 
 
 Users can define priority contacts to still receive notifications from people who have priority access when presence is set to **Do not disturb**. Priority contacts can be set up in Teams by navigating to **Settings** > **Privacy** > **Do Not Disturb** > **Manage priority access**.
 
-Users receive calls in all presence states except for **Do not disturb**, in which incoming calls go to voicemail. If the recipient blocked the caller, the call won't be delivered, and the caller sees the recipient's presence as **Offline**.
+Users receive calls in all presence states except for **Do not disturb**, in which incoming calls go to voicemail. If the recipient blocked the caller, the call isn't delivered, and the caller sees the recipient's presence as **Offline**.
 
 Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
 ### Dual presence
 
-The way presence works for most users is motivated by the events in the calendar or device events, such as a call. The user can override this status in the UI by manually setting states, which have some expiration time.
+The events in the calendar or device events, such as a call, drives the way presence works for most users. The user can override this status in the UI by manually setting states, which have some expiration time.
 
 ## User configured states expiration
 
-When a user selects a specific presence state, it takes precedence over any app activity update. For example, if a user sets herself as **Do not disturb**, her presence will remain as **Do not disturb** even if she attends a meeting or answers a call.
+When a user selects a specific presence state, it takes precedence over any app activity update. For example, if a user sets themself as **Do not disturb**, their presence remains as **Do not disturb**, even if they attend a meeting or answer a call.
 
-User configured states have default expiration settings in Teams, in order to prevent users from displaying a status that may not be relevant after a period of time.
+User-configured states have default expiration settings in Teams, in order to prevent users from displaying a status that may not be relevant after a period of time.
 
-|User configured state |Default expiration|
+|User-configured state |Default expiration|
 |:--- |:---|
-| Busy|1 day|
-| Do not disturb|1 day|
-| Others|7 days|
+| Busy|One day|
+| Do not disturb|One day|
+| Others|Seven days|
 
 > [!NOTE]
 > A user can also configure manually a duration for her presence. For instance, a user can set herself as **Appear offline** until tomorrow morning.
@@ -90,7 +90,7 @@ User configured states have default expiration settings in Teams, in order to pr
 
 The following admin settings Skype for Business are different in Teams:
 
-- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence is not visible to external users.
+- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence isn't visible to external users.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat** > **Contacts** or under **Calls** > **Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar (includes out of office and other calendar information) integration  is always enabled for users when Teams is integrated with Outlook.
