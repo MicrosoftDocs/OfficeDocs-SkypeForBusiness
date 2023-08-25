@@ -97,6 +97,8 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
 6. Select **Save and exit**. Your device will restart.
 
+     ![Meetings](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/63427703/6503b72c-4482-4ec4-9492-610503d02c36)
+
 ### Use the SkypeSettings.xml configuration file
 
 The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
@@ -141,7 +143,8 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
       > [!NOTE]
       > Some device manufacturers require an admin password before **Device settings** can be accessed.
 
-    ![Meetings settings for MTR on Android](..\media\mtrandroid.png)
+    ![MTRADGJ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/63427703/d1ac246d-6551-4027-9dae-80b3bbc0312d)
+
 
 3. Select the third-party meeting provider you want to enable.
 4. If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
