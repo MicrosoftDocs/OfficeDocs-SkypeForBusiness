@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
