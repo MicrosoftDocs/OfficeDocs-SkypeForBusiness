@@ -241,7 +241,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - The following API can be used to get the actual recording content of the selected `userId`, `meetingId` and `recordingId` that was obtained in the response of the GET `getAllRecordings` API. It returns the content of the recording:
 
-   ```
+   ```http
    GET users('{userId}')/onlineMeetings('{meetingId}')/recordings('{recordingId}')/content 
    ```
    
@@ -309,7 +309,7 @@ No model declaration enables access to APIs with limited usage per each requesti
    
    - The following API can be used to get the actual transcript content of the selected userId, meetingId and transcriptId that was obtained in the response of the GET getAllTranscripts API. It returns the content of the recording. 
 
-   ```
+   ```http
    GET users('{userId}')/onlineMeetings('{meetingId}')/transcripts('{transcriptId}')/content
    ``` 
 
