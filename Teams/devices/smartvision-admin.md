@@ -211,14 +211,14 @@ To report a problem through Microsoft Teams Room:
 
 1. Enter the details that best describe your experience under **What are you seeing? Has it always been that way?** section.
 
-   ![Screenshot that shows the details pane.](/Teams/media/description_feedback.png)
+   ![Screenshot that shows the details pane.](/Teams/media/description_feedback)
 
 ### Report a problem from the desktop client
 
 - During the meeting, you find the **"..."** selection. Select it to show **Report a problem** and select it to enter the next window.
-   ![Screenshot that shows how to report a problem.](/Teams/media/report_problem_desktop.png)
+   ![Screenshot that shows how to report a problem.](/Teams/media/report_problem_desktop)
 - In the next window, you'll see options to select the category. Select the category from the drop-down that best represents your experience or issues.
-   ![Screenshot that shows the description for desktop client.](/Teams/media/description_desktop.png)
+   ![Screenshot that shows the description for desktop client.](/Teams/media/description_desktop)
 
 >[!Note]
  > To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
