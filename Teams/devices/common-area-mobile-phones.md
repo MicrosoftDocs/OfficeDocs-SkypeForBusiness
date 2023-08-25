@@ -38,14 +38,14 @@ To purchase the license:
 
 > [!NOTE]
 > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Azure Active Directory Premium Plan 1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
-> Teams shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md)
+> Teams shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md)
 
 ## Step 2 - Create a new user account and assign licenses
 
 ### Using the Microsoft 365 admin center
 
 > [!NOTE]
-> If you're deploying more than one phone at a time, you can use only [PowerShell](set-up-common-area-phones.md) to create accounts and assign licenses.
+> If you're deploying more than one phone at a time, you can use only [PowerShell](../set-up-common-area-phones.md) to create accounts and assign licenses.
 > You can use Microsoft 365 admin center to create accounts and assign licenses only if you're deploying one device at a time.
 
 1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), and select **Users > Active Users > Add a user**.
@@ -61,7 +61,7 @@ To purchase the license:
 
 > [!NOTE]
 > You don't need to add a license with Phone System features. These features are included with the **Teams Shared Devices** license.
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### Using PowerShell
 
@@ -72,12 +72,12 @@ one user account at a time. For more information, see [Create Microsoft 365 user
 
 To set up different policies as required, see:
 
-1. [Calling policies in Teams](teams-calling-policy.md)
-1. [Configure Call park and retrieve](call-park-and-retrieve.md)
+1. [Calling policies in Teams](../phone-number-calling-plans/teams-calling-policy.md)
+1. [Configure Call park and retrieve](../phone-number-calling-plans/call-park-and-retrieve.md)
 
 ## Step 4 - Acquire and assign phone numbers
 
-To acquire and assign phone numbers based on your PSTN connectivity option, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
+To acquire and assign phone numbers based on your PSTN connectivity option, see [Manage telephone numbers for your organization](../phone-number-calling-plans/manage-phone-numbers-landing-page.md).
 
 ## Step 5 - Sign in
 
