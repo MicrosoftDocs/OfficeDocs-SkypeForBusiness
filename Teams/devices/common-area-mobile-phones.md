@@ -72,12 +72,12 @@ one user account at a time. For more information, see [Create Microsoft 365 user
 
 To set up different policies as required, see:
 
-1. [Calling policies in Teams](../phone-number-calling-plans/teams-calling-policy.md)
-1. [Configure Call park and retrieve](../phone-number-calling-plans/call-park-and-retrieve.md)
+1. [Calling policies in Teams](../teams-calling-policy.md)
+1. [Configure Call park and retrieve](..//call-park-and-retrieve.md)
 
 ## Step 4 - Acquire and assign phone numbers
 
-To acquire and assign phone numbers based on your PSTN connectivity option, see [Manage telephone numbers for your organization](../phone-number-calling-plans/manage-phone-numbers-landing-page.md).
+To acquire and assign phone numbers based on your PSTN connectivity option, see [Manage telephone numbers for your organization](../manage-phone-numbers-landing-page.md).
 
 ## Step 5 - Sign in
 
