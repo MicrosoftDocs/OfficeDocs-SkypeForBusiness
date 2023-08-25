@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-ms.date: 10/02/2018
+ms.date: 08/25/2023
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: 
   - seo-marvel-apr2020
