@@ -4,7 +4,7 @@ title: Emergency call routing for Calling Plans
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer:     
+ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
