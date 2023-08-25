@@ -3,7 +3,7 @@ title: "Call park and retrieve in Microsoft Teams"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: srividhc
+ms.reviewer: 
 ms.date: 12/13/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud

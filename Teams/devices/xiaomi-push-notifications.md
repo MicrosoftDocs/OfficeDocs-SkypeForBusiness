@@ -3,7 +3,7 @@ title: How to make Teams push notifications work in your Xiaomi phone?
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
-ms.reviewer: gary.lai
+ms.reviewer: 
 ms.service: msteams
 audience: Admin
 appliesto: 
