@@ -128,7 +128,7 @@ Once the ignore region is configured, meeting attendees can walk through the ign
 ### Unsupported Ignore regions
 
 - **Glass walls**: Some meeting rooms may have glass walls, which allow outside people to be visible to the camera. In such cases, there's a possibility of accidentally capturing their faces, which negatively impact the meeting experience. We recommend frosting and other methods of covering the glass walls to reduce faces outside the meeting room from being detected.
-- **Pictures of people**: The camera only detects live people. If there is wind or other unexpected camera movement, or pictures of the people on the wall, it may be recognized as a person transiently. This can have a negative affect in the meeting. Report these cases to Microsoft using the feedback link provided.
+- **Pictures of people**: The camera only detects live people. If there is wind or other unexpected camera movement, or pictures of the people on the wall, it may be recognized as a person transiently. This can have a negative effect for the meeting. Report these cases to Microsoft using the feedback link provided.
 
   > [!Note]
   > To improve the detection mechanisms and tools, provide feedback that will help expedite the fixes.
