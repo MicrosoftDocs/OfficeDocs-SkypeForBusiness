@@ -211,7 +211,7 @@ To report a problem through Microsoft Teams Room:
 
 1. Enter the details that best describe your experience under **What are you seeing? Has it always been that way?** section.
 
-   ![Screenshot that shows the details pane.](./Teams/media/description_feedback.png)
+   ![Screenshot that shows the details pane.](../Teams/media/description_feedback.png)
 
 ### Report a problem from the desktop client
 
