@@ -38,7 +38,7 @@ To purchase the license:
 
 > [!NOTE]
 > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Azure Active Directory Premium Plan 1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
-> Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md)
+> Teams shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md)
 
 ## Step 2 - Create a new user account and assign licenses
 
