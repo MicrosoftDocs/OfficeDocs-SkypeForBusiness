@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: admin
-ms.reviewer: 
-ms.date: 08/31/2018
+ms.reviewer: kelsawi
+ms.date: 08/25/2023
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
