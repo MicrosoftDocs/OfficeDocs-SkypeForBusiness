@@ -7,7 +7,9 @@ ms.date: 10/14/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.custom: chat-teams-channels-revamp
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
   - m365initiative-migratetom365
