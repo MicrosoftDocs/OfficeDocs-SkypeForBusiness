@@ -16,9 +16,10 @@ description: Learn how to manage user access to Teams by assigning or removing a
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
-ms.custom: 
+ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 appliesto: 
   - Microsoft Teams
 ---
@@ -115,4 +116,3 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 - [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](sku-reference-edu.md)
-
