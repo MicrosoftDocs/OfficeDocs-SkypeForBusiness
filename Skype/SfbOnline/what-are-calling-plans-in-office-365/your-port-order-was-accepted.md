@@ -31,10 +31,11 @@ description: "What it means when your port order has been accepted, and what you
 
 Your port order is approved! Look for your phone numbers in the **Skype for Business admin center** > **Voice** > **Phone numbers**.
   
- **IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+> [!IMPORTANT]
+> For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
   
 Now that it's approved and your phone numbers are ready, you need to do a couple things to get everything set up.
-  
+
 - Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). You need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.
 
 - Create your [emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) and, if you want to, [add a place to your emergency location](/MicrosoftTeams/add-change-remove-emergency-place-organization). In some countries or regions, you get an emergency address with the phone number.
@@ -42,7 +43,7 @@ Now that it's approved and your phone numbers are ready, you need to do a couple
 - Go ahead and [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## Related topics
 
