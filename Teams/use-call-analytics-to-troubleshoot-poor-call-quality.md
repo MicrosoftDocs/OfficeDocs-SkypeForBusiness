@@ -1,7 +1,7 @@
 ---
 title: "Use Call Analytics to troubleshoot poor call quality"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: mikedav
 ms.date: 11/28/2017
