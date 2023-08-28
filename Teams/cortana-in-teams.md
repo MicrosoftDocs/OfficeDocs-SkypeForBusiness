@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: akshbhat
+ms.reviewer: 
 ms.date: 06/25/2020
 search.appverid: MET150
 description: Learn how to use Cortana voice assistance with Teams

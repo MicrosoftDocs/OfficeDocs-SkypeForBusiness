@@ -3,7 +3,7 @@ title: Teams device store
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: rahulimi
+ms.reviewer: 
 ms.date: 03/28/2023
 ms.topic: article
 ms.service: msteams
