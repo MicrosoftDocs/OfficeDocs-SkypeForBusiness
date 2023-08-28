@@ -164,7 +164,7 @@ If you have tenant-based organizational Teams Exploratory licenses, you can canc
 
 ### Remove a Teams Exploratory license
 
-You can only remove users' Teams Exploratory licenses if they are tenant-based organizational licenses. For more information, see [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#view-who-has-licenses-for-a-purchase-or-trial-subscription).
+You can only remove users' Teams Exploratory licenses if they are tenant-based organizational licenses. For more information about managing self-service trials, see [Manage self-service purchases and trials (for admins)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins#view-who-has-licenses-for-a-purchase-or-trial-subscription).
 
 - If you would like to remove this license by using PowerShell, see [Remove licenses from user accounts with Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell).
 
@@ -204,4 +204,3 @@ At the end of the trial period, administrators should convert all Teams Explorat
 > Customers will be disabled and blocked from starting a new Exploratory trial licenses for 3 months past the expiration of their previous Exploratory trial license.
 
 For more information, see [Upgrade users from Teams Exploratory](#upgrade-users-from-teams-exploratory), above in this article.
-
