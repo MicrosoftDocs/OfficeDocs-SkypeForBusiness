@@ -95,7 +95,7 @@ Unlimited incoming minutes are included. No outgoing minutes are included. All o
 
 To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How to fund a Pay-As-You-Go Calling Plan](#how-to-fund-a-pay-as-you-go-calling-plan).
 
-There are two **Pay-As-You-Go Calling Plan** options to choose from:
+There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
 - **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico.
 
