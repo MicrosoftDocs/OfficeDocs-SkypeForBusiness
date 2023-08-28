@@ -26,7 +26,7 @@ Users in your organization can send feedback about Microsoft Teams to let us kno
 
 > [!NOTE]
 > Feedback policies aren't available in DOD deployments.
-> Moblie policies are't avilable in GCC, GCC-H, or DOD.
+> Mobile feedback policies aren't available in GCC, GCC High, or DOD deployments.
 
 **The **Give feedback** feature**
 
