@@ -2,8 +2,8 @@
 title: Build a Microsoft Teams Rooms image
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: 
-ms.date: 02/23/2018
+ms.reviewer: Travis-Snoozy
+ms.date: 08/22/2023
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
