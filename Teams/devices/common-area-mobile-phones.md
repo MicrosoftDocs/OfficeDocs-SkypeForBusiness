@@ -5,6 +5,7 @@ author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 ms.reviewer: vijagan
 ms.date: 08/25/2023
 audience: admin
