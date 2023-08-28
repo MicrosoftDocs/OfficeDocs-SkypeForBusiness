@@ -26,9 +26,9 @@ description: Learn how to set up alerts for video quality issues detected in in-
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-You can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
+You can set up alerts for in-progress meeting video issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
-Notifications are available for packet loss, jitter, and round trip time. You can set the the threshold for each of these as well as the frequency of notification.
+Notifications are available for source freeze count, loss recovery attempt rate, and video encoder hardware failure. You can set the the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
@@ -42,7 +42,7 @@ Notifications can  be sent to a Teams channel or a web hook URL.
 
 |Field |Description  |
 |:-----|:------------|
-|**Audio conditions**|Choose the audio issues that you want to monitor for.|
+|**Audio conditions**|Choose the video issues that you want to monitor for.|
 |**Monitoring settings**|Choose the **Notification threshold** and **Monitoring window** to specify how long the condition should exist before an alert is sent.<br>Choose the **Notification waiting period** to specify how often an alert is sent.|
 |**Scope**|Choose the users or groups whose meeting audio quality you want to monitor.|
 |**Network subnet selection for notifications**|Select which networks you want to get alerts for.|

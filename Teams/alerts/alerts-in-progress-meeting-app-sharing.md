@@ -1,5 +1,5 @@
 ---
-title: Alerts for in-progress meeting audio quality issues
+title: Alerts for in-progress meeting screen sharing issues
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -19,16 +19,16 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Tier2
-description: Learn how to set up alerts for audio quality issues detected in in-progress meetings.
+description: Learn how to set up alerts for screen sharing issues detected in in-progress meetings.
 ---
 
-# Alerts for in-progress meeting audio quality issues
+# Alerts for in-progress meeting screen sharing issues
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-You can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
+You can set up alerts for in-progress meeting screen sharing issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
-Notifications are available for packet loss, jitter, and round trip time. You can set the the threshold for each of these as well as the frequency of notification.
+Notifications are available for freeze, frame rate, sync, decoder hardware, and loss recovery attempts. You can set the the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
