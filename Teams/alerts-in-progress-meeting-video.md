@@ -1,10 +1,10 @@
 ---
-title: Alerts for in-progress meeting audio quality issues
+title: Alerts for in-progress meeting video quality issues
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: vapati
-ms.date: 07/15/2023
+ms.date: 07/30/2023
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -19,7 +19,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Tier2
-description: Learn how to set up alerts for audio quality issues detected in in-progress meetings.
+description: Learn how to set up alerts for video quality issues detected in in-progress meetings.
 ---
 
 # Alerts for in-progress meeting audio quality issues
@@ -32,7 +32,7 @@ Notifications are available for packet loss, jitter, and round trip time. You ca
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
-## Set up alerts for audio quality issues
+## Set up alerts for video quality issues
 
 1. In the left navigation of the Microsoft Teams admin center, select **Notifications & alerts** > **Rules**.
 
