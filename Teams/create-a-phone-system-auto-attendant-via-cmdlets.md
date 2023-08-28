@@ -20,8 +20,9 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords: 
   - CSH
-ms.custom: 
+ms.custom:
   - Phone System
+  - has-azure-ad-ps-ref
 description: Learn how to configure auto attendants via cmdlets
 ---
 

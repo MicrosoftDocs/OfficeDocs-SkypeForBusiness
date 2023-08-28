@@ -17,6 +17,7 @@ ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection:
   - M365-collaboration
 appliesto:
