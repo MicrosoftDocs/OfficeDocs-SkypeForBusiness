@@ -1,9 +1,9 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.reviewer: mikedav, vkorlep
+ms.reviewer: mikedav
 ms.date: 09/24/2021
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
