@@ -25,6 +25,9 @@ description: Learn how to set up common area Android phones
 
 A Teams Android mobile app singed in with an account tied to **Microsoft Teams Shared Device** license is used as a shared device by frontline workers to make and receive calls as part of their daily work using Teams.
 
+  > [!IMPORTANT]
+  > To use this feature you must have version 1.0.0.2023143401 (2023143401) or later installed on the Android mobile phone. 
+
 ## Step 1 - Buy the licenses
 
 First, you need to purchase a **Teams Shared Devices** license.
@@ -36,17 +39,17 @@ To purchase the license:
 1. In the product list, find **Microsoft Teams Shared Devices**, and select **Details**.
 1. Enter the number of licenses you need, and select **Buy**.
 
-> [!NOTE]
-> If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Azure Active Directory Premium Plan 1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
-> Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
+  > [!NOTE]
+  > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Azure Active Directory Premium Plan 1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
+  > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
 
 ## Step 2 - Create a new user account and assign licenses
 
 ### Using the Microsoft 365 admin center
 
-> [!NOTE]
-> If you're deploying more than one phone at a time, you can use only [PowerShell](../set-up-common-area-phones.md) to create accounts and assign licenses.
-> You can use Microsoft 365 admin center to create accounts and assign licenses only if you're deploying one device at a time.
+  > [!NOTE]
+  > If you're deploying more than one phone at a time, you can use only [PowerShell](../set-up-common-area-phones.md) to create accounts and assign licenses.
+  > You can use Microsoft 365 admin center to create accounts and assign licenses only if you're deploying one device at a time.
 
 1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), and select **Users > Active Users > Add a user**.
 1. Enter a username like **Main** for the first name and **Reception** for the second name.
@@ -81,6 +84,6 @@ To acquire and assign phone numbers based on your PSTN connectivity option, see 
 
 ## Step 5 - Sign in
 
-Once you create and configure the account, you can sign in to the Teams app (>= version) on Android mobile phone using the account tied to **Teams Shared Device** license.
+Once you create and configure the account, you can sign in to the Teams app on the Android mobile phone using the account tied to **Teams Shared Device** license.
 
 :::image type="content" source="../media/teamsshareddevicelicenseonandroidmobile.png" alt-text="Screenshot showing the Teams app on an Android mobile device." lightbox="../media/teamsshareddevicelicenseonandroidmobile.png":::
