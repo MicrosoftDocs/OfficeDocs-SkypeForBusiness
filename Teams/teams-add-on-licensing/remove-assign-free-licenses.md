@@ -96,4 +96,3 @@ Before you can complete this process, you'll need paid Teams licenses for users 
 1. [Assign paid Teams licenses to users](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell#assigning-licenses-to-user-accounts).
 
 For more information on the Graph PowerShell SDK process, see [Use the Microsoft Graph PowerShell SDK](/microsoft-365/enterprise/view-licenses-and-services-with-microsoft-365-powershell).
-
