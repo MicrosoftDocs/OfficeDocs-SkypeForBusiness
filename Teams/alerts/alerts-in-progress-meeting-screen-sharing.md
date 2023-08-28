@@ -24,7 +24,7 @@ description: Learn how to set up alerts for screen sharing issues detected in in
 
 # Alerts for in-progress meeting screen sharing issues
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+[!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
 You can set up alerts for in-progress meeting screen sharing (also known as application sharing) issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 

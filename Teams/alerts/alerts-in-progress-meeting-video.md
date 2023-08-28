@@ -24,7 +24,7 @@ description: Learn how to set up alerts for video quality issues detected in in-
 
 # Alerts for in-progress meeting audio quality issues
 
-[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
+[!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
 You can set up alerts for in-progress meeting video issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
