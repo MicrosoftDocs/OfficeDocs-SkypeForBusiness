@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 07/22/2020
+ms.date: 08/22/2023
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -93,9 +93,14 @@ To configure Teams Rooms on Windows using the touchscreen console, do the follow
 1. On the Microsoft Teams Rooms console, select **More**.
 2. Select **Settings**, and then enter the device administrator username and password.
 3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
-4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
-5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
-6. Select **Save and exit**. Your device will restart.
+
+:::image type="content" source="../media/use-device-settings.png" alt-text="Turning on and off third party providers.":::
+
+1. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
+1. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
+1. Select **Save and exit**. Your device will restart.
+
+     ![Meetings](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/63427703/6503b72c-4482-4ec4-9492-610503d02c36)
 
 ### Use the SkypeSettings.xml configuration file
 
@@ -141,7 +146,7 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
       > [!NOTE]
       > Some device manufacturers require an admin password before **Device settings** can be accessed.
 
-    ![Meetings settings for MTR on Android](..\media\mtrandroid.png)
+    ![Meetings settings for MTR on Android](..\media\step-3b-enable-third-party-meetings-on-teams-rooms-on-android.png)
 
 3. Select the third-party meeting provider you want to enable.
 4. If you want to join meetings with a custom username and email address, select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
