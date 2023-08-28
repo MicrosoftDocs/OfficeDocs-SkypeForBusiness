@@ -10,7 +10,7 @@ audience: admin
 ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
-ms.reviewer: chhavib, nsuter
+ms.reviewer: nsuter
 search.appverid: MET150
 f1keywords: 
 description: Learn how to purchase paid app licenses in Teams store using a credit card, a debit card, or via invoice billing.
