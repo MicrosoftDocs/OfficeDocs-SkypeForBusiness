@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: islubin, jastark
+ms.reviewer: jastark
 ms.date: 06/12/2023
 ms.localizationpriority: medium
 f1.keywords:
