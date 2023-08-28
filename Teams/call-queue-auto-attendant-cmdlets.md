@@ -18,9 +18,10 @@ appliesto:
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: 
+ms.custom:
   - Phone System
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 description: Reference this article for PowerShell cmdlets to create and manage Auto attendants and Call queues in Microsoft Teams.
 ---
 
