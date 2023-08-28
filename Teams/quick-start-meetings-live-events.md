@@ -108,7 +108,7 @@ Some of the base webinar features and premium webinar features are highlighted i
 |**Assign a co-organizer**                              |X                      |X                          |
 |**Limit the number of people who can register**        |X                      |X                          |
 |**Require attendees to register**                      |X                      |X                          |
-|**Turn on Q&A for webinars with up to 1000 attendees** |X                      |X                          |
+|**Turn on Q&A for webinars with up to 1,000 attendees** |X                      |X                          |
 |**View attendance reports**                            |X                      |X                          |
 |**Create a webinar wait list**                         |                       |X                          |
 |**Limit the day and time when people can register**    |                       |X                          |
