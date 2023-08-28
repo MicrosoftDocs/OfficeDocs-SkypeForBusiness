@@ -117,7 +117,7 @@ The following table compares key features between Teams and Teams Premium.
 | View when a screen was shared in the meeting transcript |  | ✔️ |
 | View time markers in meeting recordings when you joined or left a meeting |  | ✔️ |
 | Jump to different speakers with speaker timeline markers |  | ✔️ |
-| View AI-generated notes and tasks from meetings (*coming soon*) |  | ✔️ |
+| View AI-generated notes and tasks from meetings |  | ✔️ |
 | View when you were mentioned in a meeting\* |  | ✔️ |
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
