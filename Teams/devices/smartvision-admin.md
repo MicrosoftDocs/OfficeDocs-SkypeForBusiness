@@ -76,7 +76,7 @@ Connect the USB-C cable to USB-A cable with the USB-C port inserted into the Sma
 
 Log in to the Microsoft Teams Room as an admin user and change the settings as shown in the image.
 
-:::image type="content" source="../media/ConnectDevice_MTR.png" alt-text="Screenshot that shows connecting device to MTR.":::
+:::image type="content" source="../media/connect-device-mtr.png" alt-text="{Screenshot that shows connecting device to Microsoft Teams Room.}":::
 
 ## Firmware update and enable device log collection
 
@@ -109,10 +109,11 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 5. The Calibration App opens a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection.
    - **Manual mode**: You can manually adjust the area using the upper and lower sliders that should be ignored by the camera for face detection.
    
-     :::image type="content" source="../media/set_ignore_region.png" alt-text="Screenshot that shows the monitor ignore region.":::
-   
+     :::image type="content" source="../media/set-ignore-region.png" alt-text="Screenshot that shows monitor ignore region.":::
+
    - **Detect monitor mode**: It automatically detects the monitor to be ignored.
-      :::image type="content" source="../media/Detect_monitor_mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
+      :::image type="content" source="../media/detect-monitor-mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
+      
 
   > [!Note]
   > Ensure monitor(s) are connected to Microsoft Teams Room.
@@ -121,7 +122,7 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 
 If reconfiguration is required, you can launch the calibration app from the Microsoft Teams Room settings.
 
-:::image type="content" source="../media/callibration_reconfig.png" alt-text="Screenshot that shows the reconfiguration.":::
+:::image type="content" source="../media/callibration-reconfig.png" alt-text="Screenshot that shows the reconfiguration."
 
 Once the ignore region is configured, meeting attendees can walk through the ignore space, or even sit in this space and will continue to be recognized. Ignore logic applies to faces on monitors.
   
@@ -159,7 +160,7 @@ This requires  ```CsTeamsMeetingPolicy``` **enrollUserOverride** tenant policy t
 **Disabled** – No enrollment tab option. This is default.
 
 *This policy should already be enabled if tenant has allowed voice enrollment.
-   :::image type="content" source="../media/enroll_user_override.png" alt-text="Screenshot that shows the voice recognition.":::
+   :::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
 
 ### Enabling people recognition
 
@@ -205,20 +206,20 @@ To report a problem through Microsoft Teams Room:
 
 1. During the meeting, use the **"..."** section as shown in the image and select **Report a problem**.
 
-   :::image type="content" source="../media/report_problem_mtr.png" alt-text="Screenshot that shows the report from MTR.":::
+   :::image type="content" source="../media/report-problem-mtr.png" alt-text="Screenshot that shows the report from Microsoft Teams Room.":::
 
 1. Enter the description: You see two categories, select **meetings** from the drop-down under **What is this related to?** section.
 
 1. Enter the details that best describe your experience under **What are you seeing? Has it always been that way?** section.
 
-   :::image type="content" source="../media/description_feedback.png" alt-text="Screenshot that shows the details pane.":::
+   :::image type="content" source="../media/description-feedback.png" alt-text="Screenshot that shows the details pane.":::
 
 ### Report a problem from the desktop client
 
-- During the meeting, you find the **"..."** selection. Select it to show **Report a problem** and select it to enter the next window.
-   ![Screenshot that shows how to report a problem.](../media/report_problem_desktop.png)
+- During the meeting, you find the **"..."** selection. Select it to show **Report a problem** and enter the next window.
+  :::image type="content" source="../media/report-problem-desktop.png" alt-text="Screenshot that shows how to report a problem.":::
 - In the next window, you'll see options to select the category. Select the category from the drop-down that best represents your experience or issues.
-   ![Screenshot that shows the description for desktop client.](../media/description_desktop.png)
+  :::image type="content" source="../media/description-desktop.png" alt-text="Screenshot that shows the description for desktop client.":::
 
 >[!Note]
  > To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
@@ -229,7 +230,7 @@ To report a problem through Microsoft Teams Room:
 When you schedule a meeting, both room and users who wish to be identified must be invited to experience IntelliFrame and people recognition upon enrollment. Else, users will only be identified as **Guest**.
 Following is an example of a meeting invite.
 
-:::image type="content" source="../media/demo_meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
+:::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
 
 >[!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
