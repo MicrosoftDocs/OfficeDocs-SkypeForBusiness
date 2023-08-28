@@ -25,7 +25,7 @@ description: Learn how to remove the Teams free (classic) licenses and assign pa
 
 # Retire Microsoft Teams Free (classic) for your organization
 
-This article is for IT admins who need to retire their users' **Teams Free (Classic)** licenses and assign them paid Teams licenses.
+This article is for IT admins who already have Microsoft 365 subscriptions and need to retire their users' **Teams Free (Classic)** licenses and assign them paid Teams licenses.
 
 In mid-April 2023, Microsoft retired the **Microsoft Teams Free (classic)** license.
 
