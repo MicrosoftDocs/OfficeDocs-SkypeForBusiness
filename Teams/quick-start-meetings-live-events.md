@@ -102,7 +102,7 @@ In addition to the base webinar features, we offer additional webinar functional
 
 Some of the base webinar features and premium webinar features are highlighted in the following table:
 
-|                                                       | Base Webinar Features | Premium Webinar Features |
+|                                                       | Base webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
 |**Allow registered users to bypass the lobby**         |X                      |X                          |
 |**Assign a co-organizer**                              |X                      |X                          |
