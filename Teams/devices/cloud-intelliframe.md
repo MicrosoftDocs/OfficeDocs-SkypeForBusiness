@@ -44,9 +44,9 @@ Cloud IntelliFrame shows the smart feed when there are nine or less people in th
 
 :::image type="content" source="../media/video-conference.png" alt-text="Screenshot that shows how a video conference looks like." lightbox="../media/video-conference.png":::
 
-This icon ![Icon indicating activation and display of IntelliFrame](image.png) on the top-right of the room video feed indicates that Cloud IntelliFrame is being displayed.
+This icon ![Icon indicating activation and display of IntelliFrame](../media/intelliframe-activation-icon.png) on the top-right of the room video feed indicates that Cloud IntelliFrame is being displayed.
 
-People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enables a switchback to standard view for the room. All online attendees would then see the standard view from the room.
+People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enable a switchback to standard view for the room. All online attendees would then see the standard view from the room.
 
 :::image type="content" source="../media/standard-view-of-teams-room.png" alt-text="Screenshot that shows how the standard view of a Teams room looks on a computer." lightbox="../media/standard-view-of-teams-room.png":::
 

@@ -14,6 +14,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 

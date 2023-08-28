@@ -13,7 +13,9 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ms.custom: chat-teams-channels-revamp
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
 appliesto: 
