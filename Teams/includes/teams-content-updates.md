@@ -2,6 +2,33 @@
 
 
 
+## Week of August 21, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/21/2023 | Microsoft 365 and Office 365 URLs and IP address ranges | removed |
+| 8/21/2023 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | modified |
+| 8/21/2023 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
+| 8/22/2023 | [Auto attendant and call queue historical reports for GCC High and DoD](/MicrosoftTeams/aa-cq-cqd-historical-reports-v164) | added |
+| 8/22/2023 | [Meeting themes for Teams meetings](/MicrosoftTeams/meeting-themes) | modified |
+| 8/22/2023 | [Learn how to setup content cameras - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modified |
+| 8/22/2023 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
+| 8/23/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 8/23/2023 | [Manually update a Microsoft Teams Rooms device](/MicrosoftTeams/rooms/manual-update) | modified |
+| 8/23/2023 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
+| 8/23/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 8/23/2023 | [Application-based authentication in Teams PowerShell Module](/MicrosoftTeams/teams-powershell-application-authentication) | modified |
+| 8/24/2023 | [Manage devices in Microsoft Teams](/MicrosoftTeams/devices/device-management) | modified |
+| 8/24/2023 | [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) | modified |
+| 8/24/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 8/24/2023 | [Learn how to setup content cameras - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modified |
+| 8/24/2023 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+| 8/25/2023 | [Export content with the Microsoft Teams Export APIs](/MicrosoftTeams/export-teams-content) | modified |
+| 8/25/2023 | [Microsoft Teams Rooms licenses](/MicrosoftTeams/rooms/rooms-licensing) | modified |
+| 8/25/2023 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+
+
 ## Week of August 14, 2023
 
 
@@ -113,18 +140,3 @@
 | 7/28/2023 | [Upgrade from the Teams Exploratory trial](/MicrosoftTeams/upgrade-from-teams-exploratory) | modified |
 | 7/28/2023 | [Manage email communications for webinars](/MicrosoftTeams/manage-email-communications) | added |
 | 7/28/2023 | [Custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds) | modified |
-
-
-## Week of July 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/17/2023 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-| 7/17/2023 | [Create a Call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
-| 7/18/2023 | [Set up avatars for Microsoft Teams](/MicrosoftTeams/meeting-avatars) | modified |
-| 7/18/2023 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
-| 7/18/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
-| 7/19/2023 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
-| 7/19/2023 | [Virtual appointment meeting template in Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | modified |
-| 7/21/2023 | [What are dial plans?](/MicrosoftTeams/what-are-dial-plans) | modified |
