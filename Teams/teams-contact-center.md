@@ -41,7 +41,7 @@ If you're an organization looking for an integrated contact center solution, see
 
 ## Next steps
 
-If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
