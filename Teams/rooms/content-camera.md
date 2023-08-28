@@ -115,8 +115,8 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 1. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
 1. Tap away from the dialog to save the settings.
 
-![content-camera-android-800px](media/content-camera/content-camera-android-800px.png)
+**Selecting the content camera**
+:::image type="content" source="..media/content-camera/content-camera-android-800px.png" alt-text="Selecting the camera for use as a content camera for Teams Rooms on Android.":::
 
-![content-camera-android2-800px](media/content-camera/content-camera-android2-800px.png)
-
-
+**Inversing the content camera**
+:::image type="content" source="../media/content-camera/content-camera-android2-800px.png" alt-text="Toggle for inversing the content camera feed for inverse mounted content cameras.":::
