@@ -95,7 +95,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
-| `IPDynamics` | https://www.ipdynamics.de/en/  |
+| `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
