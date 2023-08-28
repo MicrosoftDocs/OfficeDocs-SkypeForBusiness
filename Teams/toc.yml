@@ -449,6 +449,10 @@ items:
               href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
             - name: Alerts for audio quality issues
               href: alerts-in-progress-meeting-audio.md
+            - name: Alerts for video quality issues
+              href: alerts-in-progress-meeting-video.md
+            - name: Alerts for app sharing issues
+              href: alerts-in-progress-meeting-app-sharing.md
 
     - name: Teams alerting and monitoring
       href: alerts/teams-admin-alerts.md 
