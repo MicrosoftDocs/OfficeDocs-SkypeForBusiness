@@ -451,8 +451,8 @@ items:
               href: alerts/alerts-in-progress-meeting-audio.md
             - name: Alerts for video quality issues
               href: alerts/alerts-in-progress-meeting-video.md
-            - name: Alerts for app sharing issues
-              href: alerts/alerts-in-progress-meeting-app-sharing.md
+            - name: Alerts for screen sharing issues
+              href: alerts/alerts-in-progress-meeting-screen-sharing.md
 
     - name: Teams alerting and monitoring
       href: alerts/teams-admin-alerts.md 

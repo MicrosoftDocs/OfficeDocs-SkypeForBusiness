@@ -50,4 +50,8 @@ The following is a list of the Teams monitoring rules available in the Teams adm
 |[Device state rule](device-health-status.md)  |Teams Devices | Proactively monitor Teams devices if they go offline.|
 |[Audio quality for in-progress meetings](alerts-in-progress-meeting-audio.md)|Teams meetings|Specified users' audio quality for in-progress meetings|
 |[Video quality for in-progress meetings](alerts-in-progress-meeting-video.md)|Teams meetings|Specified users' video quality for in-progress meetings|
-|[Application sharing quality for in-progress meetings](alerts-in-progress-meeting-screen-sharing.md)|Teams meetings|Specified users' app sharing quality for in-progress meetings|
+|[Screen sharing quality for in-progress meetings](alerts-in-progress-meeting-screen-sharing.md)|Teams meetings|Specified users' app sharing quality for in-progress meetings|
+
+## Related topics
+
+[Real-time telemetry limitations](/microsoftteams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality#limitations)

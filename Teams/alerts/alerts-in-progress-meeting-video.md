@@ -42,10 +42,17 @@ Notifications can  be sent to a Teams channel or a web hook URL.
 
 |Field |Description  |
 |:-----|:------------|
-|**Audio conditions**|Choose the video issues that you want to monitor for.|
+|**Video conditions**|Choose the video issues that you want to monitor for.|
 |**Monitoring settings**|Choose the **Notification threshold** and **Monitoring window** to specify how long the condition should exist before an alert is sent.<br>Choose the **Notification waiting period** to specify how often an alert is sent.|
 |**Scope**|Choose the users or groups whose meeting audio quality you want to monitor.|
 |**Network subnet selection for notifications**|Select which networks you want to get alerts for.|
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|
 
+## Related topics
+
+[Alerts for audio quality issues](alerts-in-progress-meeting-audio.md)
+
+[Alerts for screen sharing issues](alerts-in-progress-meeting-screen-sharing.md)
+
+[Real-time telemetry limitations](/microsoftteams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality#limitations)

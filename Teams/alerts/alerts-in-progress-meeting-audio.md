@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: vapati
-ms.date: 07/15/2023
+ms.date: 07/30/2023
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -49,3 +49,10 @@ Notifications can  be sent to a Teams channel or a web hook URL.
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|
 
+## Related topics
+
+[Alerts for video quality issues](alerts-in-progress-meeting-video.md)
+
+[Alerts for screen sharing issues](alerts-in-progress-meeting-screen-sharing.md)
+
+[Real-time telemetry limitations](/microsoftteams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality#limitations)
