@@ -25,18 +25,18 @@ f1.keywords:
 ms.custom:
   - Phone System
   - intro-get-started
-description: Learn how to set up Microsoft Teams Phone System for your organization in Microsoft 365.
+description: Learn how to set up Microsoft Teams Phone for your organization in Microsoft 365.
 ---
 
 # Set up Teams Phone in your organization
 
 This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
 
-To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md). 
+To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
 To enable your users to make and receive external calls, you'll need to connect Teams Phone to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
-If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
+If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization.
 
 This article introduces the following steps. Each step contains links to more detailed information.
  
@@ -89,7 +89,7 @@ For information on how to manage phone numbers for your users and services, see 
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types (user and service) with links to specific articles for acquiring and managing numbers.
 
-- [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
+- [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
 
 - [Manage resource accounts for service numbers](manage-resource-accounts.md) - Describes how to create resource accounts for auto attendants and call queues, and assign service numbers to those resource accounts.
 

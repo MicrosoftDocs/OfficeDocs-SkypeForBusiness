@@ -56,6 +56,6 @@ If you still need assistance, please contact the [TNS Service Desk](/MicrosoftTe
 
 ## Related topics
 
-[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
