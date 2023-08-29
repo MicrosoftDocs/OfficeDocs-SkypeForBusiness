@@ -119,4 +119,5 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 ![Select content camera.](../media/mtr-devices/content-camera-android-800px.png)
 
 **Inversing the content camera**
-!Inversing the camera.](../media/mtr-devices/content-camera-android2-800px.png)
+![Inversing the camera.](../media/mtr-devices/content-camera-android2-800px.png)
+
