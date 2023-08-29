@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn how to plan for media bypass with Phone System Direct Routing, which enables you to shorten the path of media traffic and improve performance.
+description: Learn how to plan for media bypass with Teams Phone Direct Routing, which enables you to shorten the path of media traffic and improve performance.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -25,13 +25,13 @@ ms.custom: seo-marvel-apr2020
 
 ## About media bypass with Direct Routing
 
-Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
+Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Teams Phone. To configure media bypass, the SBC and the client must be in the same location or network.
 
 You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.
 
 The diagrams below illustrate the difference in call flow with and without media bypass.
 
-Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Phone System, and the Teams client, as shown in the following diagram:
+Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Teams Phone, and the Teams client, as shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
 > ![Shows signaling and media flow without media bypass.](media/direct-routing-media-bypass-1.png)

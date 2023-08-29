@@ -26,7 +26,7 @@ description: Learn the deployment steps to get the correct firmware, update it i
 # Set up common area phones
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
-A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
+A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Teams Phone with Calling Plans so you can deploy these types of phones for your organization.
 
 ## Prerequisites for common area phones
 
@@ -94,7 +94,7 @@ For more details, see [Add a user](https://support.office.com/article/1970f7d6-0
    > [!Note]
    > Users will only show up if they have a **Phone System** licence applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
 
-For more stuff, see [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
+For more stuff, see [Get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).
 
 If you're wondering, you can also take your phone number that you have with another carrier and "*port*" or transfer them over to Microsoft 365 or Office 365. See, [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 

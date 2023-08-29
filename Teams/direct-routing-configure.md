@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn how to configure Microsoft Direct Routing to connect your on-premises telephony infrastructure to Teams Phone System.
+description: Learn how to configure Microsoft Direct Routing to connect your on-premises telephony infrastructure to Teams Phone.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -43,9 +43,9 @@ Before performing the steps in these articles, Microsoft recommends that you con
 
 For a complete list of supported SBCs, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
-To configure Phone System and enable users to use Direct Routing, follow these steps: 
+To configure Teams Phone and enable users to use Direct Routing, follow these steps: 
 
-- **Step 1.** [Connect the SBC with Phone System and validate the connection](direct-routing-connect-the-sbc.md)
+- **Step 1.** [Connect the SBC with Teams Phone and validate the connection](direct-routing-connect-the-sbc.md)
 - **Step 2.** [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
 - **Step 3.** [Configure call routing](direct-routing-voice-routing.md)
 - **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
@@ -53,7 +53,7 @@ To configure Phone System and enable users to use Direct Routing, follow these s
 If you're configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
 ## Support Boundaries
-Microsoft only supports Phone System with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
+Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
 
 ## Related topics
 
