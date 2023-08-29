@@ -231,7 +231,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    ```
 
    ```powershell
-   PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7
+   PS C:\> Sync-CsOnlineApplicationInstance -ObjectId 5069aae5-c451-4983-9e57-9455ced220b7 -ApplicationId fcc88ff5-a42d-49cf-b3d8-f2e1f609d511
    ```
 
 2. Create a Compliance Recording policy.
