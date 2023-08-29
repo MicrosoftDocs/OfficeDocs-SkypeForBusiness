@@ -60,8 +60,11 @@ To reserve the room:
 
 2. They will then be able to choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select **Schedule a new meeting** or **Reserve for existing meeting**.
 
-    a. If they want to book the room for a new meeting, they can select **Schedule a new meeting**. The room is automatically added as a participant of the meeting. They can then enter the other details of the meeting, such as the title, the date, the time, and the people they want to invite.
-    b. If they want to book the room for an existing meeting, they can select **Reserve for existing meeting**. They will then be given a list of their meetings that are ongoing and starting before midnight the day after tomorrow. Next to each meeting option, they can see if the room is free or busy at that time and can tap 'Reserve' to book the room.
+  - **Schedule a new meeting**  If they want to book the room for a new meeting, they can select **Schedule a new meeting**. The room is automatically added as a participant of the meeting. They can then enter the other details of the meeting, such as the title, the date, the time, and the people they want to invite.
+    
+      OR
+    
+  - **Reserve for existing meeting**If they want to book the room for an existing meeting, they can select **Reserve for existing meeting**. They will then be given a list of their meetings that are ongoing and starting before midnight the day after tomorrow. Next to each meeting option, they can see if the room is free or busy at that time and can tap 'Reserve' to book the room.
 
 :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Teams mobile app with user's meetings being shown and buttons to reserve the room if free.":::
 
