@@ -18,9 +18,13 @@ ms.collection:
   - Tier1
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Plan and configure Location-Based Routing for Operator Connect for India
+
+> [!NOTE]
+> Operator Connect for India is a preview release.
 
 In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block international calls made or received by customers who are roaming outside of their PSTN connection. 
 

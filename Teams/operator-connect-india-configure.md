@@ -22,9 +22,13 @@ ms.custom:
  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure Operator Connect for India
+
+> [!NOTE]
+> Operator Connect for India is a preview release.
 
 This article describes how to configure Operator Connect for India. Before configuring Operator Connect for India, be sure to read [Plan for Operator Connect for India](operator-connect-india-plan.md) for information about prerequisites and licensing.
 
