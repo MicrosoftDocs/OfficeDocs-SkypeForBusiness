@@ -49,13 +49,11 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-
-> [!NOTE]
 > The certification end date for Android 9 based devices has been extended to November 5, 2023. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
 | AudioCodes C470HD   | `2.1.87`  | 	October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
@@ -88,25 +86,19 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-
-> [!NOTE]
 > The certification end date for Android 9 based devices has been extended to November 5, 2023. 
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo Thinksmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
-| Neat Frame nf21f1 | `NFF1.20220914.1210` | September 3, 2024 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
 ## Certified Teams panels
 
 The following devices are Certified under the Microsoft Teams panels Certification Program:
-
-> [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
 
 > [!NOTE]
 > The certification end date for Android 9 based devices has been extended to November 5, 2023. 
@@ -310,6 +302,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20230504.0023` | 2023 Update #2 |
 |Yealink DeskVisionA24 | `156.15.0.24` | 2023 Update #1B|
 |Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
 |Crestron UC-P8-TD     |`1.0.0.60` |2022 Update #3A|

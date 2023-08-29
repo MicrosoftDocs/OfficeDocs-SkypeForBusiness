@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: admin
-ms.reviewer: kelsawi
+ms.reviewer: 
 ms.date: 07/20/2020
 ms.collection: 
   - M365-collaboration

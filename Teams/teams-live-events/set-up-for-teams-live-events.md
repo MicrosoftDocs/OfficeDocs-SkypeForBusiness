@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 09/11/2018
 audience: admin
 search.appverid: MET150

@@ -6,7 +6,7 @@ manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: vkorlep, siunies
+ms.reviewer: siunies
 ms.date: 11/13/2018
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
 ms.localizationpriority: medium

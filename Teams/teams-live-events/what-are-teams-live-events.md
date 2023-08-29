@@ -11,7 +11,7 @@ ms.collection:
   - m365solution-spcomms
   - m365solution-scenario
   - highpri
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 07/10/2018
 audience: admin
 search.appverid: MET150

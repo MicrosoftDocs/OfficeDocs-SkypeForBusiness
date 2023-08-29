@@ -3,7 +3,7 @@ title: Private channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: suchakr
+ms.reviewer: 
 ms.date: 06/20/2023
 ms.topic: article
 ms.service: msteams
@@ -117,7 +117,7 @@ If an existing notebook is added as a tab to a private channel, access to the pr
 
 ## Private channel limitations
 
-Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
+Private channels don't support connectors and tabs in Stream, Planner, Tasks by Planner and To Do, and Forms.
 
 Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
 

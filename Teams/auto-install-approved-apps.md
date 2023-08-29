@@ -6,7 +6,7 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 06/27/2023
+ms.date: 08/22/2023
 search.appverid: 
 description: Auto install apps in Teams that are approved by admins and used by users outside Teams.
 audience: admin
@@ -21,9 +21,6 @@ ms.collection:
 
 >[!IMPORTANT]
 > Some apps supported by Auto install approved apps require setup by admins before turning on the feature. See the [list of these apps and setup instructions](#apps-requiring-setup-before-deployment-to-users).
-
->[!NOTE]
-> The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post MC548106](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC548106). The feature was previously called Zero-touch app install.
 
 Some apps exist as apps on the desktop or in the browser. Users who use these apps may not know that the same app feature is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps feature](#benefits-of-the-feature).
 
