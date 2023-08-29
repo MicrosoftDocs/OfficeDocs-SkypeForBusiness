@@ -41,19 +41,19 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 
 ### Prerequisites
 
-- Microsoft Teams Room Windows device or console.
-- Microsoft Teams Room Pro license:
-  - Microsoft Teams Room with Pro or Premium license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Room.
-  - Basic license won't enable IntelliFrame or people recognition. If you have Teams Room Basic license, the camera shows only active speaker and panoramic views.
+- Microsoft Teams Rooms Windows device or console.
+- Microsoft Teams Rooms Pro license:
+  - Microsoft Teams Rooms with Pro or Premium license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Room.
+  - Basic license won't enable IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
   - Check the [Teams devices](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
-- Configure Microsoft Teams Room for log collection and feedback for filing potential bugs.
+- Configure Microsoft Teams Rooms for log collection and feedback for filing potential bugs.
 
 ## Device provisioning
 
 ### Supported cameras
 
-The Microsoft Teams Room device supports the following cameras for IntelliFrame and people recognition.
+The Microsoft Teams Rooms device supports the following cameras for IntelliFrame and people recognition.
 
 - Yealink SmartVision 60
 - Jabra Panacast 50 (soon)
@@ -63,7 +63,7 @@ The Microsoft Teams Room device supports the following cameras for IntelliFrame 
 SmartVision 60 camera is a "Center of room" 360-degree camera. It's meant to be placed at the center of the meeting room table where there's a clear view between camera and meeting attendees.
 
   > [!Note]
-  > We recommend the device to be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Room (MTR) console.
+  > We recommend the device to be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Rooms (MTR) console.
 
 After placing the camera on the table, use the supplied 3M sticky pads to adhere the device to the table and ensure that the device is firmly placed and isn't movable. Ensure the arrow on the device is pointing to the monitor, as the orientation of the device is critical to its functioning.
 
@@ -74,7 +74,7 @@ Connect the USB-C cable to USB-A cable with the USB-C port inserted into the Sma
   > [!Note]
   > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
 
-Log in to the Microsoft Teams Room as an admin user and change the settings as shown in the image.
+Log in to the Microsoft Teams Rooms as an admin user and change the settings as shown in the image.
 
 :::image type="content" source="../media/connect-device-mtr.png" alt-text="{Screenshot that shows connecting device to Microsoft Teams Room.}":::
 
@@ -84,22 +84,22 @@ Log in to the Microsoft Teams Room as an admin user and change the settings as s
 
 To enable device log collection for feedback log filing:
 
-1. Launch an admin command prompt in Microsoft Teams Room to which the camera is connected.
+1. Launch an admin command prompt in Microsoft Teams Rooms to which the camera is connected.
 2. Run [plazacfg.bat]{.underline} released with this document to config the log collection and windows driver update endpoint settings properly.
-3. Reboot the Microsoft Teams Room for changes to take effect.
+3. Reboot the Microsoft Teams Rooms for changes to take effect.
 
 ### Update device firmware
 
 Once you are connected to Microsoft Teams Room, the device firmware must be updated.
 
-To ensure you have the latest firmware, sign in to Microsoft Teams Room from the Admin mode, and do a **Windows update** to receive the latest firmware.
+To ensure you have the latest firmware, sign in to Microsoft Teams Rooms from the Admin mode, and do a **Windows update** to receive the latest firmware.
 
 ## Calibrate to Ignore room monitors
 
 You must calibrate the device to avoid camera detecting faces on monitors and rendering them on IntelliFrame.
 
 1. To complete the calibration process (Automatic and Manual), [download the application](https://agent.rooms.microsoft.com/files/agent/plaza/builds/prod/IntelligentIgnore.zip).
-2. Sign in to Microsoft Teams Room with admin privilege, right select **install.bat** and run as administrator. The app starts the installation.
+2. Sign in to Microsoft Teams Rooms with admin privilege, right select **install.bat** and run as administrator. The app starts the installation.
 3. Open Windows Device Manager and look for Yealink camera entry under the Cameras node.
 
   > [!Note]
@@ -120,7 +120,7 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 
 6. Once you set the ignore region, the SmartVision 60 will reboot and the changes will be applied.
 
-If reconfiguration is required, you can launch the calibration app from the Microsoft Teams Room settings.
+If reconfiguration is required, you can launch the calibration app from the Microsoft Teams Rooms settings.
 
 :::image type="content" source="../media/callibration-reconfig.png" alt-text="Screenshot that shows the reconfiguration."
 
@@ -169,11 +169,11 @@ In some states, people recognition can't be used.
 This requires the tenant  ```CsTeamsMeetingPolicy``` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
  ```roomPeopleNameUserOverride``` = {On | Off}  
-**On** - Policy value allow **People recognition** option on Microsoft Teams Room under call control bar.  
+**On** - Policy value allow **People recognition** option on Microsoft Teams Rooms under call control bar.  
 **Off** – No People Recognition option on Microsoft Teams Room. This is default.
 
 ```roomAttributeUserOverride``` = {Attribute | Off}
-**Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Room if transcription is started for the meeting.  
+**Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
 **Off** – No Voice identification option on Microsoft Teams Room. This is default.
 
 For more on information on setting meeting policies, see [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
@@ -223,7 +223,7 @@ To report a problem through Microsoft Teams Room:
 
 >[!Note]
  > To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
- > For accurate diagnostics, provide feedback from both Microsoft Teams Room and Desktop client. We recommend sending two bugs for each issue you encounter.
+ > For accurate diagnostics, provide feedback from both Microsoft Teams Rooms and Desktop client. We recommend sending two bugs for each issue you encounter.
 
 ## Scheduling a meeting
 
