@@ -59,7 +59,7 @@ If Calling Plans aren't available for your country or region, see [PSTN connecti
 
 There are three ways to get new user numbers:
 
-- **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Teams admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
+- **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Teams admin center, see [Get phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
