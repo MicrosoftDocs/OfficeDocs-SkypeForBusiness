@@ -9,6 +9,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 search.appverid: MET150
 ms.collection: 
   - M365-voice
