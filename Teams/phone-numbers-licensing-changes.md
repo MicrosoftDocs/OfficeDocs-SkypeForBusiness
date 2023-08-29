@@ -20,7 +20,8 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
+  - has-azure-ad-ps-ref
 
 description: Learn how licensing changes can affect phone number management.
 ---

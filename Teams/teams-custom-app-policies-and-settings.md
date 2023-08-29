@@ -149,14 +149,14 @@ This table summarizes the custom app settings and how the settings work together
 
 | Org-wide setting for custom app interaction | Team-level custom app setting | User-level custom app settings via app setup policy | Effect |
 |---------------------------------------------|-------------------------------|-------------------------------------------------|--------|
-| Off    | Off    | Off     |Interaction with all custom apps is blocked for your organization. Only a Teams Administrator or a Global Administrator can upload a custom app. You can use PowerShell to remove the custom app.   |
-| Off     | Off     | On        |Interaction with all custom apps is blocked for your organization. Only a Teams Administrator or a Global Administrator can upload a custom app. You can use PowerShell to remove the custom app.         |
-| Off    | On        | Off        |Interaction with all custom apps is blocked for your organization. Only a Teams Administrator or a Global Administrator can upload a custom app. You can use Windows PowerShell to delete custom apps. |
-| Off    | On      | On       |Interaction with all custom apps is blocked for your organization. Only a Teams Administrator or a Global Administrator can upload a custom app. You can use PowerShell to remove the custom app. |
-| On    | Off       | Off         |  The user can't upload custom apps for their own use. Users can submit custom apps for admin approval.  |
-| On     | Off       | On         | If the user is a team owner, they can upload custom apps to the team. If the user isn't a team owner, they can't upload custom apps to the team. The user can upload custom apps in the personal context. |
-| On     | On     | Off         | The user can't upload custom apps for their own use. Users can submit custom apps for admin approval. |
-| On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context. |
+| Off    | Off    | Off     | Interaction with all custom apps is blocked for your organization. Users can upload custom apps for admin approval. |
+| Off     | Off     | On        |Interaction with all custom apps is blocked for your organization. Users can upload custom apps for admin approval. |
+| Off    | On        | Off        |Interaction with all custom apps is blocked for your organization. Users can upload custom apps for admin approval. |
+| Off    | On      | On       |Interaction with all custom apps is blocked for your organization. Users can upload custom apps for admin approval. |
+| On    | Off       | Off         |  The user can't upload custom apps for their own use. Users can upload custom apps for admin approval. |
+| On     | Off       | On         | If the user is a team owner, they can upload custom apps to the team. If the user isn't a team owner, they can't upload custom apps to the team. The user can upload custom apps in the personal context. Users can upload custom apps for admin approval. |
+| On     | On     | Off         | The user can't upload custom apps for their own use. Users can upload custom apps for admin approval. |
+| On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context and upload for admin approval. |
 
 ## Samples scenarios for custom app
 

@@ -24,14 +24,11 @@ ms.localizationpriority: high
 ---
 # Overview of app management and governance in Teams admin center
 
-In the Teams admin center, we provide a few dedicated pages to manage your apps with granularity and complete control. You manage apps for your organization in the **Manage apps** page in the Teams admin center portal. Use the URL `https://admin.teams.microsoft.com/policies/manage-apps` to view and govern all Teams apps that are available in your organization's app catalog, define access to apps using policies, cater to prominent use cases for app management, and more.
+In the Teams admin center, we provide a few dedicated pages to manage your apps with granularity and complete control. You manage apps for your organization in the **Manage apps** page in the Teams admin center portal. Use the URL [https://admin.teams.microsoft.com/policies/manage-apps](https://admin.teams.microsoft.com/policies/manage-apps) to view and govern all Teams apps that are available in your organization's app catalog, define access to apps using policies, cater to prominent use cases for app management, and more.
 
 :::image type="content" source="media/manage-apps.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps.png":::
 
 To use Teams admin center, you must have a Global Administrator or Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
-
-> [!NOTE]
-> The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
 
 ## App management use cases and the available interfaces
 
@@ -129,7 +126,7 @@ Use org-wide app settings to control whether users can install third-party apps.
     * **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
     * **Allow any new third-party apps published to the store by default**: This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
+1. Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. A blocked app is not available to any user, regardless of app policies.
 
 1. Select **Save** for org-wide app settings to take effect.
 
@@ -137,9 +134,9 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 ### For GCCH and DoD clouds
 
-1. Sign in to the Teams admin center and access **Teams Apps** > **Permission policies**.
+1. Sign in to the Teams admin center and access **Teams Apps** > **Permission policies**. In GCCH environment, access [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/) and in DoD environment, access [https://admin.dod.teams.microsoft.us](https://admin.dod.teams.microsoft.us/).
 
-1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
+1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. All third-party apps are added to this list by default. A blocked app is not available to any user, regardless of app policies.
 
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
 
@@ -151,7 +148,7 @@ You may have queries about admin settings or configuration, user flows and app f
 
 * We don't provide direct customer support for Teams apps but we provide the following value adds, useful information, platform features, and app quality checks to our customers:
 
-  * We proactively check Teams apps for issues and informs the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
+  * We proactively check Teams apps for issues and inform the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
   * For Publisher Attested and Microsoft 365 certified apps, Microsoft provides the [security and compliance information of apps](overview-of-app-certification.md).
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app or a removal of the app.
   * If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.

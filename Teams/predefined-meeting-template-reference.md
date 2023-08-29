@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 04/10/2023
+ms.date: 08/17/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -24,7 +24,7 @@ description: See a list of meeting templates and their settings included with Mi
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. The options in each of these templates can be changed to meet your requirements, or you can [create your own templates](create-custom-meeting-template.md).
+The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. You can use these templates or you can [create your own templates](create-custom-meeting-template.md).
 
 <!---
 Template
@@ -54,6 +54,8 @@ Template
 
 ## Virtual appointment
 
+The Virtual appointment meeting template comes with the following settings. You can't edit the settings in the template.
+
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
 |***Security***||||
@@ -76,6 +78,8 @@ Template
 |Allow reactions|Off|Visible|Unlocked|
 |Enable Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
+
+To learn more, see [Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
 
 ## Related topics
 

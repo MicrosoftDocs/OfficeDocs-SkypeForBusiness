@@ -1,5 +1,7 @@
 ---
 ms.date: 08/03/2022
+ms.custom:
+  - has-azure-ad-ps-ref
 ---
 Like any Microsoft 365 account, a newly-created resource account's password is set to expire automatically after a period of time. However, if the resource account password expires, the Teams Rooms device it's signed into won't be able to sign in again the expiration date. 
 

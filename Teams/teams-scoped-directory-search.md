@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: 
 ms.date: 10/05/2018
 ms.localizationpriority: medium
 search.appverid: MET150
