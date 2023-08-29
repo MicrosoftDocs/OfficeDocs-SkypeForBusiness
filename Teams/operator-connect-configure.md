@@ -170,7 +170,7 @@ Once your operator completes the order, they'll upload numbers to your tenant. Y
 
 ### Assign numbers
 
-For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+For information on how to assign phone numbers to your users, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Manage your operators
 

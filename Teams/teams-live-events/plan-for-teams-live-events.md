@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
