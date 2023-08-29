@@ -132,7 +132,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 ### Multi-Tenant Multi-Account (MTMA)
 
 - **Issue:** If you enable the sign-in restrictions policy, the new Teams client applies the policy on guest tenants. For example, if the policy is set to only allow sign in to Contoso, then Contoso users won't be able to switch their Teams app to any other org where they have been invited as a Entra B2B guest (formerly known as Azure AD B2B guest).</br>
-**Workaround**: Add all the Azure Active Directory (Azure AD) tenants where your users can be guested to your sign in restrictions policy.
+**Workaround**: Add all the tenants where your users can be guested to your sign in restrictions policy.
 
 - **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
 **Workaround**: Uninstall the new Teams and reinstall.
