@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---
