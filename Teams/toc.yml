@@ -1555,6 +1555,8 @@ items:
               href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
+            - name: Set up a common area mobile phones
+              href: devices/common-area-mobile-phones.md
             - name: SIP Gateway
               items:
                 - name: Plan for SIP Gateway
