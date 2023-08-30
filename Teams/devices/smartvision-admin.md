@@ -174,7 +174,7 @@ This requires the tenant  ```CsTeamsMeetingPolicy``` **roomPeopleNameUserOverrid
 
 ```roomAttributeUserOverride``` = {Attribute | Off}
 **Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
-**Off** – No Voice identification option on Microsoft Teams Room. This is default.
+**Off** – No Voice identification option on Microsoft Teams Rooms. This is the default.
 
 For more on information on setting meeting policies, see [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
