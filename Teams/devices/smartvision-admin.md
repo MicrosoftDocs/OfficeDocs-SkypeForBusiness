@@ -63,7 +63,7 @@ The Microsoft Teams Rooms device supports the following cameras for IntelliFrame
 SmartVision 60 camera is a "Center of room" 360-degree camera. It's meant to be placed at the center of the meeting room table where there's a clear view between camera and meeting attendees.
 
   > [!Note]
-  > We recommend the device to be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Rooms (MTR) console.
+  > We recommend the device be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Rooms console.
 
 After placing the camera on the table, use the supplied 3M sticky pads to adhere the device to the table and ensure that the device is firmly placed and isn't movable. Ensure the arrow on the device is pointing to the monitor, as the orientation of the device is critical to its functioning.
 
