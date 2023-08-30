@@ -51,7 +51,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
      ```
 
@@ -59,7 +59,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
