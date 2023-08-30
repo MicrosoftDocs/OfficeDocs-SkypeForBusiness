@@ -33,7 +33,7 @@ For information about whether Direct Routing is the right solution for your orga
 
 To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
-Before performing the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor: 
+Before you perform the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor:
 
 - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
@@ -43,17 +43,18 @@ Before performing the steps in these articles, Microsoft recommends that you con
 
 For a complete list of supported SBCs, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
-To configure Teams Phone and enable users to use Direct Routing, follow these steps: 
+To configure Teams Phone and enable users to use Direct Routing, follow these steps:
 
 - **Step 1.** [Connect the SBC with Teams Phone and validate the connection](direct-routing-connect-the-sbc.md)
 - **Step 2.** [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
 - **Step 3.** [Configure call routing](direct-routing-voice-routing.md)
-- **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
+- **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md)
 
 If you're configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).
 
 ## Support Boundaries
-Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
+
+Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a noncertified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
 
 ## Related topics
 
