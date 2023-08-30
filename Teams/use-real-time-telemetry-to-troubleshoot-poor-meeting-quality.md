@@ -157,7 +157,7 @@ User signals identify when a user is actively participating in the call, isn't s
 
 ## Teams devices with support for real-time telemetry
 
-- Teams display
+- Teams displays
 - Teams phone
 - Teams Rooms
 - Teams Rooms on Surface Hub
