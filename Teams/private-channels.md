@@ -3,7 +3,7 @@ title: Private channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: suchakr
+ms.reviewer: 
 ms.date: 06/20/2023
 ms.topic: article
 ms.service: msteams

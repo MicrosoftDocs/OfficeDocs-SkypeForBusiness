@@ -6,11 +6,11 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: daryav
+ms.reviewer: 
 ms.date: 04/12/2019
 search.appverid: MET150
 description: Learn about who can manage users in Teams Free (classic) and learn about the differences between the various Teams plans.
-ms.localizationpriority: mediums
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -43,3 +43,4 @@ To find out more about Teams versions and their capabilities, see [Compare Teams
 - As an alternative to Teams Free (classic), check out [Teams Exploratory](teams-exploratory.md).
 
 - EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
+

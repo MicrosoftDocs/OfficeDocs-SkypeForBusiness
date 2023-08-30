@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 01/25/2021
 description: Sync Student Information System (SIS) data with Education Insights in Microsoft Teams.
 ms.localizationpriority: high

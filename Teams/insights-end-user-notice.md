@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 11/22/2021
 description: Education Insights End User Notice
 search.appverid: MET150
