@@ -1595,6 +1595,8 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
+                  - name: Reserve rooms with a QR code
+                    href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices

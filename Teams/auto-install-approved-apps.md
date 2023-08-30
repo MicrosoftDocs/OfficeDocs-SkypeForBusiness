@@ -41,7 +41,7 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 
 ### Allow third-party apps in your organization
 
-The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-and-block-apps).
+The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-or-block-apps).
 
 ### Ensure users can consent or grant admin consent to Azure AD permissions of an app
 
@@ -127,7 +127,7 @@ Consider the following app installation information when following the above dev
 
 ## Related articles
 
-* [How to allow apps in an organization](/microsoftteams/manage-apps#allow-and-block-apps)
+* [How to allow apps in an organization](/microsoftteams/manage-apps#allow-or-block-apps)
 * [Use app permission policies to allow users to use an app](/microsoftteams/teams-app-permission-policies)
 * [How to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center)
 * [Permissions and consent in the Azure AD](/azure/active-directory/develop/permissions-consent-overview)
