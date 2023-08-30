@@ -118,7 +118,7 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
   > [!Note]
   > Ensure monitor(s) are connected to Microsoft Teams Room.
 
-6. Once you set the ignore region, the SmartVision 60 will reboot and the changes will be applied.
+6. Once you set the ignore region, the SmartVision 60 will restart and the changes will be applied.
 
 If reconfiguration is required, you can launch the calibration app from the Microsoft Teams Rooms settings.
 
