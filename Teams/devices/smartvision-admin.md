@@ -86,7 +86,7 @@ To enable device log collection for feedback log filing:
 
 1. Launch an admin command prompt in Microsoft Teams Rooms to which the camera is connected.
 2. Run [plazacfg.bat]{.underline} released with this document to config the log collection and windows driver update endpoint settings properly.
-3. Reboot the Microsoft Teams Rooms for changes to take effect.
+3. Restart Microsoft Teams Rooms for changes to take effect.
 
 ### Update device firmware
 
