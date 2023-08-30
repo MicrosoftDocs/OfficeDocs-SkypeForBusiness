@@ -26,13 +26,13 @@ description: "Learn what is needed to migrate to Direct Routing from a Skype for
 
 This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following:
 
-- Teams Phone with Calling Plans (for Teams and Skype for Business Online) 
+- Teams Phone with Calling Plans (for Teams and Skype for Business Online)
 - Teams Phone with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
 - Teams Phone with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
 
 In addition to these configuration steps, configuration is also required on the Session Border Controller (SBC) to route the calls to the new route. That is outside the scope of this document. For more information, see your SBC vendor documentation.  
 
-## User provisioning end-state for various PSTN connectivity options 
+## User provisioning end-state for various PSTN connectivity options
 
 The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Teams Phone. Only attributes relevant for voice are shown.
 
@@ -64,8 +64,8 @@ For more information, please refer to [Migration and interoperability Guidance f
 For more information about migrating from Calling Plans, see:
 
 - [Set up Calling Plans](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation)  
 
 It is recommended that you remove previously configured licensing plan information as follows:
 
@@ -82,7 +82,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 For more information about migrating from Teams Phone with on-premises PSTN connectivity in Skype for Business Server, see the following:
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 
 It is recommended that you remove previously configured voice routing information as follows:
 
@@ -91,7 +91,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ```
 
 > [!NOTE]
-> If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
+> If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy.
 
 ## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity via Cloud Connector Edition
 
