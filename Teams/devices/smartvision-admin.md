@@ -43,7 +43,7 @@ The getting started kit for IntelliFrame provides Microsoft Teams certified came
 
 - Microsoft Teams Rooms Windows device or console.
 - Microsoft Teams Rooms Pro license:
-  - Microsoft Teams Rooms with Pro or Premium license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Room.
+  - Microsoft Teams Rooms with Pro or Premium license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
   - Basic license won't enable IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
   - Check the [Teams devices](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
