@@ -50,9 +50,9 @@ There are a few policies that could alter these registry keys and block app inst
 
 #### To check this setting for your computer
 
-1. In Windows, search for **Edit Group Policy**.
+1. In Windows, search for **Edit Group Policy** or right-click the Windows Key and select **Run > type "gpedit.msc".**
 2. This opens the Local Group Policy Editor screen.
-3. Go to **Computer Configuration > Windows Components > App package Deployment** to check settings for these policies: 
+3. Go to **Go to Computer Configuration > Administrative Templates > Windows Components > App package Deployment** to check settings for these policies: 
   - *Prevent non-admins users from installing packaged Windows apps*
   - *Allow all trusted apps to install*
 4. Make sure that value for these settings is set as follows:
