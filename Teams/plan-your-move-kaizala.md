@@ -22,7 +22,7 @@ ms.custom:
 > [!Important]
 > Microsoft Kaizala has retired on August 31, 2023. We recommend using Microsoft Teams for continued connection, sharing, and collaboration.
 
-As you embark on your move from Kaizala to Microsoft Teams, it's important to take the time to [plan](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) for a successful transition. A solid transition plan gives you structure for your move and ensures that all stakeholders are working toward a common goal. Using a proven framework to implement the change can help you get started on your transition today.
+As you embark on your move from Kaizala to Microsoft Teams, it's important to take the time to [plan](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) for a successful transition. A solid transition plan gives you structure for your move and ensures that all stakeholders are working towards a common goal. Using a proven framework to implement the change can help you get started on your transition today.
 
 ## Framework for your move
 
@@ -48,7 +48,7 @@ Before getting started, ensure that:
 
 ![Screenshot depicting additional transition guidance.](media/kaizala-framework-guidance.png)
 
-A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning. A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals. Take time to list the current scenarios in which Kaizala is used. Next, envision usage scenarios above and beyond in modern workplace with Microsoft Teams. To get started with defining usage scenarios, see [Define usage scenarios for Microsoft Teams](/microsoftteams/teams-adoption-define-usage-scenarios).
+A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning. A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working towards the same goals. Take time to list the current scenarios in which Kaizala is used. Next, envision usage scenarios above and beyond in modern workplace with Microsoft Teams. To get started with defining usage scenarios, see [Define usage scenarios for Microsoft Teams](/microsoftteams/teams-adoption-define-usage-scenarios).
 
 ### Identify champions and critical stakeholders
 
