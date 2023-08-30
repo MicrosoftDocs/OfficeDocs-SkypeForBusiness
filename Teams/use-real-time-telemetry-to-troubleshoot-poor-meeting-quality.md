@@ -38,7 +38,7 @@ For more information on Teams admin roles, see [Use Microsoft Teams administrato
 
 Real-Time Analytics lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate these issues during meetings and troubleshoot in real time.
 
-You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts-in-progress-meeting-audio.md).
+You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts/alerts-in-progress-meeting-audio.md).
 
 ## What is Real-Time Analytics?
 

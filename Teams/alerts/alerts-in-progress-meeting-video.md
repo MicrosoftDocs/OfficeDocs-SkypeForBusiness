@@ -22,7 +22,7 @@ ms.collection:
 description: Learn how to set up alerts for video quality issues detected in in-progress meetings.
 ---
 
-# Alerts for in-progress meeting audio quality issues
+# Alerts for in-progress meeting video quality issues
 
 [!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
