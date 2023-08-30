@@ -24,7 +24,7 @@ description: This article provides information for admins about using QR codes o
 
 Teams Panels supports the ability for users to reserve the room by scanning a QR code on the home screen. This feature lets users book the room for meetings now, in the future, or as part of a scheduled meeting with a few steps. After scanning the QR code, they can either schedule a new meeting with the room pre-populated or view the room’s availability for their meetings and easily select to book the room.
 
-    :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
+:::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
 
 This feature is turned on by default in each organization. However, you can turn it off by going to **Settings** > **Device settings** > **Teams Admin Settings** > **Meetings** and turning off **Allow room reservations by QR code**. 
 
