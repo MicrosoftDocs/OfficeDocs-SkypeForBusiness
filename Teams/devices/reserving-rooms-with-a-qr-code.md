@@ -24,7 +24,7 @@ description: This article provides information for admins about using QR codes o
 
 Teams Panels supports the ability for users to reserve the room by scanning a QR code on the home screen. This feature lets users book the room for meetings now, in the future, or as part of a scheduled meeting with a few steps. After scanning the QR code, they can either schedule a new meeting with the room pre-populated or view the room’s availability for their meetings and easily select to book the room.
 
-  :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
+    :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
 
 This feature is turned on by default in each organization. However, you can turn it off by going to **Settings** > **Device settings** > **Teams Admin Settings** > **Meetings** and turning off **Allow room reservations by QR code**. 
 
@@ -56,7 +56,7 @@ When a user scans the QR code, they can choose to **Schedule a new meeting** or 
 To reserve the room:
 1. Using the phone's camera app, users should hold it over the QR code found in the upper left hand side of the screen (located by the date and time) and wait for a message to pop up. They can then select the message on their phone to open the Teams app.
 
-  :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Teams mobile app with two actions being shown.":::
+      :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Teams mobile app with two actions being shown.":::
 
 2. They will be able to choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select **Schedule a new meeting** or **Reserve for existing meeting** respectively.
 
@@ -66,7 +66,7 @@ To reserve the room:
     
     - **Reserve for existing meeting**: They will be given a list of their meetings that are ongoing and starting before midnight the day after tomorrow. Next to each meeting option, they can see if the room is free or busy at that time and can tap 'Reserve' to book the room.
 
-:::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Teams mobile app with user's meetings being shown and buttons to reserve the room if free.":::
+        :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Teams mobile app with user's meetings being shown and buttons to reserve the room if free.":::
 
 3. After they book the room, they'll need to remember to check-in if check-in has been enabled for the room.
 
