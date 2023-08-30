@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 04/12/2022
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: anwara
+ms.reviewer: 
 audience: admin
 description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
 ms.localizationpriority: medium

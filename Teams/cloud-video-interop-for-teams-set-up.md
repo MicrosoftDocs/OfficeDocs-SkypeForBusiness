@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: 
 ms.date: 09/19/2018
 f1.keywords:
 - NOCSH

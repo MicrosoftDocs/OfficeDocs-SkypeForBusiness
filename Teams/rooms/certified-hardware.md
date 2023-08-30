@@ -78,7 +78,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
-| [Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 | 16 GB | 128 GB |
+| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 | 16 GB | 128 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) | Core i5 | 8 GB | 128 GB |
 | [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) | Core i5 | 8 GB | 128 GB |
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
@@ -123,11 +123,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 
 The following devices are certified under the Microsoft Teams Rooms on Android Certification Program:
 
-> [!NOTE]
-> The certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025.
-
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar Huddle (VR0034) | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
@@ -135,7 +133,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
-| Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
+| Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
 | Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 Collaboration bar. | 12 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
@@ -170,7 +168,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 
 ## [Peripherals](#tab/Peripherals)
 
@@ -253,7 +250,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) | 1.0.0 |  |  |
 | [Yamaha ADECIA Ceiling Solution](https://uc.yamaha.com/products/microphone-systems/adecia/) | 1.2.0 |  |  |
 | [Yamaha ADECIA Tabletop Solution](https://uc.yamaha.com/products/adecia/adecia-tabletop/) | E1.2.0 for table mic, D1.2.0 for processor (Both same content as V1.5.1) |  |  |
+| [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
+| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
 | [Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) | 128.410.0.10 |  |  |

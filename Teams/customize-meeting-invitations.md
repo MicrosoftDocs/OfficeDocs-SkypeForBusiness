@@ -3,7 +3,7 @@ title: Customize meeting invitations (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 10/15/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
