@@ -74,7 +74,7 @@ Connect the USB-C cable to USB-A cable with the USB-C port inserted into the Sma
   > [!Note]
   > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
 
-Log in to the Microsoft Teams Rooms as an admin user and change the settings as shown in the image.
+Sign in to Microsoft Teams Rooms as an admin and change the settings as shown in the image.
 
 :::image type="content" source="../media/connect-device-mtr.png" alt-text="{Screenshot that shows connecting device to Microsoft Teams Room.}":::
 
