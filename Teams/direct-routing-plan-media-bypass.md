@@ -47,11 +47,11 @@ But let's assume that a user is in the same building or network as the SBC. For 
   > [!div class="mx-imgBorder"]
   > ![Shows signaling and media flow with media bypass.](media/direct-routing-media-bypass-2.png)
 
-Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE lite on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
+Media bypass uses protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE lite on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
 ## Call flow and firewall planning
 
-Call flow and firewall planning depends on whether the user has direct access to the public IP address of the SBC, and whether the user is inside or outside of the network.
+Call flow and firewall planning depend on whether the user has direct access to the public IP address of the SBC, and whether the user is inside or outside of the network.
 
 ### Call flow if the user has direct access to the public IP address of the SBC
 
@@ -74,13 +74,13 @@ The following diagram shows call flow when media bypass is enabled, the client i
 
 ### Call flow if the user does not have access to the public IP address of the SBC
 
-The following describes call flow if the user does not have access to the public IP address of the SBC.
+The following scenario describes call flow if the user does not have access to the public IP address of the SBC.
 
 For example, assume the user is external, and the tenant administrator decided not to open the public IP address of the SBC to everyone in the Internet, but only to the Microsoft Cloud. The internal components of traffic can flow via the Teams Transport Relays. Consider the following:
 
 - Teams Transport Relays are used.
 
-- For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires 3478-3481 ports).
+- For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version that requires 3478-3481 ports).
 
 The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
@@ -148,7 +148,7 @@ The IP ranges are:
 
 \* Transcoding explanation:
 
-- Media Processor is B2BUA, which means it can change a codecs (for example, SILK from Teams client to MP and G.711 between MP and SBC).
+- Media Processor is B2BUA, which means it can change codecs (for example, SILK from Teams client to MP and G.711 between MP and SBC).
 
 - Transport Relays are not B2BUA, which means the codec is never changed between the client and the SBC--even if traffic flows via relays.
 
