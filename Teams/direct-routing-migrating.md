@@ -39,7 +39,7 @@ The following table shows the end-state for a user provisioned for the selected 
 |User object attributes |Teams Phone with Calling Plans|Teams Phone with on-premises PSTN connectivity via Skype for Business Server|Teams Phone with on-premises PSTN connectivity via Cloud Connector|Teams Phone with on-premises PSTN connectivity via Direct Routing|
 |---|---|---|---|---|
 |Client|Skype for Business or Teams |Skype for Business |Skype for Business |Teams|
-|Licenses|Skype Business Online</br>Plan 2</br></br>MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD</br></br></br>Teams Phone (MCOEV)</br></br>Teams|
+|Licenses|Skype Business Online</br>Plan 2</br></br>(MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br>Teams|
 OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Azure Active Directory.|The phone number can be managed either in on-premises Active Directory or in Azure Active Directory. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
 |LineURI|PSTN Calling phone number|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
@@ -67,7 +67,7 @@ For more information about migrating from Calling Plans, see:
 - [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser)
 - [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation)  
 
-It is recommended that you remove previously configured licensing plan information as follows:
+It's recommended that you remove previously configured licensing plan information as follows:
 
 ```powershell
 $companyname = “contoso” 
@@ -84,14 +84,14 @@ For more information about migrating from Teams Phone with on-premises PSTN conn
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 
-It is recommended that you remove previously configured voice routing information as follows:
+It's recommended that you remove previously configured voice routing information as follows:
 
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 
 > [!NOTE]
-> If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy.
+> If a global CsVoiceRoutingPolicy is configured, it's recommended that you remove any PSTN usages associated with this global policy.
 
 ## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity via Cloud Connector Edition
 
@@ -104,7 +104,7 @@ For more information about migrating from Teams Phone with on-premises PSTN conn
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [User configuration](/powershell/module/skype/set-csuserpstnsettings)
 
-It is recommended that you remove previously configured voice routing information as follows:
+It's recommended that you remove previously configured voice routing information as follows:
 
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
