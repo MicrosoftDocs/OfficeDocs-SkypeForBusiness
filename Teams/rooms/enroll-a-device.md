@@ -120,11 +120,16 @@ mmrprodemeaiot.azure-devices.net<br>
 mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
 mmrprodnoamstor.blob.core.windows.net<br>
+mmrprodglobapi.azurewebsites.net<br>
+mmrprodnoamapi.azurewebsites.net<br>
+mmrprodemeaapi.azurewebsites.net<br>
+mmrprodapacapi.azurewebsites.net<br>
 
 **GCC customers should also ensure reachability to:**
 
 mmrprodgcciot.azure-devices.net<br>
 mmrprodgccstor.blob.core.windows.net<br>
+mmrprodgccapi.azurewebsites.net<br>
 
 ## Enrollment process
 
