@@ -28,7 +28,7 @@ description: Learn how to set up alerts for video quality issues detected in in-
 
 You can set up alerts for in-progress meeting video issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
-Notifications are available for source freeze count, loss recovery attempt rate, and video encoder hardware failure. You can set the the threshold for each of these as well as the frequency of notification.
+Notifications are available for source freeze count, loss recovery attempt rate, and video encoder hardware failure. You can set the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 

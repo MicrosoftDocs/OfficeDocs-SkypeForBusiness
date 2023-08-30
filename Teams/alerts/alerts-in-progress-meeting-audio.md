@@ -28,7 +28,7 @@ description: Learn how to set up alerts for audio quality issues detected in in-
 
 You can set up alerts for in-progress meeting audio issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
 
-Notifications are available for packet loss, jitter, and round trip time. You can set the the threshold for each of these as well as the frequency of notification.
+Notifications are available for packet loss, jitter, and round trip time. You can set the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
