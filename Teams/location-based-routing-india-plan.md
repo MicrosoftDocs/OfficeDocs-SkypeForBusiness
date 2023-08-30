@@ -26,7 +26,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > Operator Connect for India is a preview release.
 
-In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block international calls made or received by customers who are roaming outside of their PSTN connection. 
+In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider. Because toll bypass is restricted, telecom service providers in India are required to block PSTN calls made or received by customers who are roaming outside of their PSTN location. 
 
 Location-Based Routing for Operator Connect for India lets you ensure that Teams users don't violate toll bypass restrictions.
 
@@ -41,9 +41,9 @@ Note that the configuration for Location-Based Routing for Operator Connect for 
 This article describes basic concepts and configuration information. The article applies to fixed-line numbers only.
 
 
-## Configure Location-Based Routing for fixed-line calls
+## Configure Location-Based Routing for fixed-line number calls
 
-To configure Location-Based Routing for Operator Connect for India fixed-line calls, you must ensure that India fixed-line phone numbers are associated with the network site the phone number corresponds to. The user must be located at a Network Communication Server (NCS) site associated with the number at the time of the call. 
+To configure Location-Based Routing for Operator Connect for India fixed-line number calls, you must ensure that India fixed-line phone numbers are associated with the network site the phone number corresponds to. The user must be located at a Network Communication Server (NCS) site associated with the number at the time of the call. 
 
 Note:  Operator Connect for India doesn't require you to enable users, PSTN gateways, and network sites for Location-Based Routing.
 
