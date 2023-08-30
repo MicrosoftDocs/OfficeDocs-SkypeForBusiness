@@ -99,7 +99,7 @@ To ensure you have the latest firmware, sign in to Microsoft Teams Rooms from th
 You must calibrate the device to avoid camera detecting faces on monitors and rendering them on IntelliFrame.
 
 1. To complete the calibration process (Automatic and Manual), [download the application](https://agent.rooms.microsoft.com/files/agent/plaza/builds/prod/IntelligentIgnore.zip).
-2. Sign in to Microsoft Teams Rooms with admin privilege, right select **install.bat** and run as administrator. The app starts the installation.
+2. Sign in to Microsoft Teams Rooms with admin privileges, right-select **install.bat**, and run as an administrator. The app starts the installation.
 3. Open Windows Device Manager and look for Yealink camera entry under the Cameras node.
 
   > [!Note]
