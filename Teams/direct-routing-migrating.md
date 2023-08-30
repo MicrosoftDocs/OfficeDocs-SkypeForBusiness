@@ -102,7 +102,7 @@ For more information about migrating from Teams Phone with on-premises PSTN conn
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [User configuration](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [User configuration](/powershell/module/skype/set-csuserpstnsettings)
 
 It is recommended that you remove previously configured voice routing information as follows:
 
