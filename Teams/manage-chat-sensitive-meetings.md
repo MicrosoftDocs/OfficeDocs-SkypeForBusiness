@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how to manage Teams meeting chat options for sensitive meetings by using admin policies, sensitivity labels, and meeting templates.
