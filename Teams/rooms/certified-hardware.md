@@ -250,7 +250,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) | 1.0.0 |  |  |
 | [Yamaha ADECIA Ceiling Solution](https://uc.yamaha.com/products/microphone-systems/adecia/) | 1.2.0 |  |  |
 | [Yamaha ADECIA Tabletop Solution](https://uc.yamaha.com/products/adecia/adecia-tabletop/) | E1.2.0 for table mic, D1.2.0 for processor (Both same content as V1.5.1) |  |  |
+| [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
+| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
 | [Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) | 128.410.0.10 |  |  |
