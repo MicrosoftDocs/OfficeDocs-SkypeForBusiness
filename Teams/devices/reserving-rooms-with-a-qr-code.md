@@ -22,7 +22,7 @@ description: This article provides information for admins about using QR codes o
 
 # Reserving a room using a QR code on a Teams Panel
 
-Teams Panels lets users reserve the room by scanning a QR code on the home screen. This feature lets users to book the room for meetings now, in the future, or as part of a scheduled meeting with a few steps. After scanning the QR code,they can either schedule a new meeting with the room pre-populated or view the room’s availability for their meetings and then easily select it to book the room.
+Teams Panels supports the ability for users to reserve the room by scanning a QR code on the home screen. This feature lets users book the room for meetings now, in the future, or as part of a scheduled meeting with a few steps. After scanning the QR code, they can either schedule a new meeting with the room pre-populated or view the room’s availability for their meetings and easily select to book the room.
 
   :::image type="content" source="../media/mtr-devices/qr-code-reserved.png" alt-text="Teams Panels home screen with a QR code and scan to reserve label in the top left.":::
 
@@ -54,21 +54,21 @@ When a user scans the QR code, they can choose to **Schedule a new meeting** or 
     - iOS devices: 5.15.0 or later.
 
 To reserve the room:
-1. Using the phone's camera app, users should hold it over the QR code found in the upper left hand side of the screen (located by the date and time) and wait for a message to pop up. Then slect the message on their phone to open the Teams app.
+1. Using the phone's camera app, users should hold it over the QR code found in the upper left hand side of the screen (located by the date and time) and wait for a message to pop up. They can then select the message on their phone to open the Teams app.
 
   :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-1.png" alt-text="Teams mobile app with two actions being shown.":::
 
-2. They will then be able to choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select **Schedule a new meeting** or **Reserve for existing meeting**.
+2. They will be able to choose if they want to book the room for a new meeting or for an existing meeting. In the Teams app on their mobile phone, they should select **Schedule a new meeting** or **Reserve for existing meeting** respectively.
 
-    - **Schedule a new meeting** The room is automatically added as a participant of the meeting. They can then enter the other details of the meeting, such as the title, the date, the time, and the people they want to invite.
+    - **Schedule a new meeting**: The room is automatically added as a participant of the meeting. They can then enter the other details of the meeting, such as the title, the date, the time, and the people they want to invite.
     
         OR
     
-    - **Reserve for existing meeting** They will then be given a list of their meetings that are ongoing and starting before midnight the day after tomorrow. Next to each meeting option, they can see if the room is free or busy at that time and can tap 'Reserve' to book the room.
+    - **Reserve for existing meeting**: They will be given a list of their meetings that are ongoing and starting before midnight the day after tomorrow. Next to each meeting option, they can see if the room is free or busy at that time and can tap 'Reserve' to book the room.
 
 :::image type="content" source="../media/mtr-devices/qr-code-app-reserved-2.png" alt-text="Teams mobile app with user's meetings being shown and buttons to reserve the room if free.":::
 
-3. After they book the room, they'll need to remember to check in, if check-in has been enabled for the room.
+3. After they book the room, they'll need to remember to check-in if check-in has been enabled for the room.
 
 ### Add the Teams app and camera app to a work profile
 
@@ -77,5 +77,5 @@ Although there are many QR code scanner apps available, we recommend using the b
 To add the camera app to the work profile:
 1. In the **Intune Admin Center**, go to **Apps** > **Android** and select **Add**.
 2. Select **Android enterprise system app**.
-3. Put in the type of Android device and then paste OS camera package name.
+3. Put in the type of Android device and then paste the OS camera package name.
 4. Assign that package to the users or groups.
