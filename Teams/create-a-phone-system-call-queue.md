@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 06/05/2023
+ms.date: 08/30/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -151,7 +151,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the language selected for the Call queue. The system doesn't perform translation.
 
-Teams provides default music to callers while they are *on hold in a queue*.
+Teams provides default music to callers while they're *on hold in a queue*.
 
 - The default music supplied in Teams Call queues is free of any royalties payable by your organization.
 - If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.

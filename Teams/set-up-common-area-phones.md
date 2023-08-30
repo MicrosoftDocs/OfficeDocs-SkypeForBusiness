@@ -172,6 +172,24 @@ Turning on advanced calling capabilities requires you to purchase hardware model
 1. After signing into your Teams phone device, navigate to **Settings** > **Device settings** > **Admin only** > **Calling**.
 1. Find the **Advanced calling** toggle and turn it on.
 
+## Step 7 - Set up Hotline/PLAR on common area phones (optional)
+
+You can set up common area phones as hotline phones also known as PLAR (Private Line Auto Ringdown) phones. You can program this phone to autodial a pre-configured PSTN number or a directory contact when the phone handset is picked up.
+
+### Turn on hotline from Teams admin center
+
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with a Microsoft 365 admin account.
+1. From the left navigation, select **Teams devices**, select **Phones** and then select the **Configuration profiles** tab.
+1. From the list, select the configuration profile assigned to your common area phone.
+1. Under the **Call settings** section, turn on the **Enable hotline** toggle and then select **Save**.
+
+### Turn on hotline from Teams phone device
+
+1. Sign into your Teams phone device and select **Settings** > **Device settings** > **Admin only** > **Calling** > **Hotline**.
+1. Enter a contact or phone number to be autodialed.
+1. Enter the display name you want to show on the phone's home screen.
+1. Select **Save**.
+
 ## Next steps
 
 Now that you've set up and signed in common area phones for your organization, you can manage them in the Teams admin center. See [Microsoft Teams: Managing your devices](devices/device-management.md) to learn more.
