@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: 
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn how to configure modern authentication for Microsoft Teams Rooms on Windows
 ---
