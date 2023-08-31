@@ -129,12 +129,12 @@ If a user with an assigned Operator Connect for India Teams Phone license also h
 
 - If the tenant admin has enabled dial out from meetings for the user, participants can also dial out from the meeting to external PSTN users. 
 
-- If a user with an assigned Operator Connect for India Teams Phone license is already on a 1:1 PSTN call, the user can add a participant or escalate the existing call to a conference. 
-
 For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
 
 
 ### User doesn't have an Audio Conferencing license
+
+**CAN WE NUKE THIS ONE?**  ADD TO TABLE INSTEAD?
 
 If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply:
 
@@ -144,15 +144,7 @@ If a user with an assigned Operator Connect for India Teams Phone license doesn'
 
 - If the Operator Connect for India Teams Phone user is joining the conference call from an internal site, the restrictions in the preceding two list items are not enforced.
 
-### Other considerations
 
-Keep the following considerations in mind:
-
-- On-network conferencing for Audio Conferencing must NOT be deployed with any telephony equipment in India.
-
-- An Operator Connect for India user on a PSTN call is not allowed to merge that call with another call. 
-
-- The following are not supported: recording and compliance recording of the PSTN call.
  
 
 
@@ -166,13 +158,6 @@ The following Teams clients are supported:
 
 The Teams web client is not supported.
 
-## Other planning considerations
-
-This section describe other planning considerations for Location-Based-Routing for India:
-
-- IPv4 and IPv6 subnets are supported, however, IPv6 takes precedence when checking for a match.
-
-- Location-Based Routing for Operator Connect for India doesn't apply when an on-premises Skype for Business user calls a Teams user.
 
 ## Related articles
 
