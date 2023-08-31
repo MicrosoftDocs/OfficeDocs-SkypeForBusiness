@@ -13,7 +13,7 @@ ms.reviewer:
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier2
 f1.keywords: 
   - NOCSH

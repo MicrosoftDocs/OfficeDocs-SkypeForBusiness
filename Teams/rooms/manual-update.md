@@ -16,7 +16,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn how to manually update your Microsoft Teams Rooms device to the latest version.
 ---
