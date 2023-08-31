@@ -11,7 +11,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier3
 f1.keywords: 
   - NOCSH
