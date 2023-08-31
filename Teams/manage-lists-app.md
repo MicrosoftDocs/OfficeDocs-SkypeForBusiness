@@ -24,7 +24,6 @@ ms.collection:
   - m365initiative-lists
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
