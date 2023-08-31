@@ -186,9 +186,9 @@ Once the user-level external access policies are set correctly for the users in 
 
 ## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-and-block-apps).
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
 
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
 
 The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 

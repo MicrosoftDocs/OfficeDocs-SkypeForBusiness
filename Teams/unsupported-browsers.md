@@ -17,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ---
 
 # Microsoft Teams meetings on unsupported browsers
