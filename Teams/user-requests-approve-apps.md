@@ -59,7 +59,7 @@ Teams admin center displays the user requests by default. We recommend a regular
 1. Follow one or more of the following steps that the pop-up dialog displays. The steps to approve an app vary based on the method used to block it and only the relevant steps are displayed.
 
    * If the app is blocked using permission policies, [modify the permission policies](teams-app-permission-policies.md).
-   * If the app is blocked for all users, [allow the app](manage-apps.md#allow-and-block-apps).
+   * If the app is blocked for all users, [allow the app](manage-apps.md#allow-or-block-apps).
    * If all apps are blocked for all users, [modify org-wide settings](manage-apps.md#manage-org-wide-app-settings).
 
 Users can view the **Add** option for an app in the Teams store to check if the app is allowed. If you allow an app, Teams doesn't inform the users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.
