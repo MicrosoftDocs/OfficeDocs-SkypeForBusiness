@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -39,6 +39,6 @@ There are a few known issues we're working on.
 **Issue**: Users are not muted despite the tooltip message that says they are.  In large meetings of over 600+ attendees the microphone was still active. </br>
 **Workaround:**  Manually mute the call.
 
-**Issue:**  Meeting join shows the wrong call has been joined.
+**Issue:**  Meeting join shows the wrong call has been joined.</br>
 **Workaround:**  Being investigated. No current workaround.
 
