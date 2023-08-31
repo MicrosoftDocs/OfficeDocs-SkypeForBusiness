@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
 ms.custom: 
 keywords: 
 ---
