@@ -21,9 +21,9 @@ ms.collection:
   - m365solution-scenario
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
   - m365initiative-meetings
+  - m365-virtual-appointments 
 ms.reviewer: revathim
 ms.date: 03/23/2023
 description: Learn how to manage the Bookings app in Teams for users in your organization.

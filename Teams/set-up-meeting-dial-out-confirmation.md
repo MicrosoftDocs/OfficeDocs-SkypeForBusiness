@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

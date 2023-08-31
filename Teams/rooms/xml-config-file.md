@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier2
 ms.custom: 
   - seo-marvel-mar2020
