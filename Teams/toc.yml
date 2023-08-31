@@ -81,7 +81,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule
+                - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
                 - name: Deploy the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
@@ -93,6 +93,8 @@ items:
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues for Windows          
                   href: new-teams-known-issues.md
+                - name: Prerequisites and deployment for Mac          
+                  href: new-teams-mac-install-prerequisites.md                 
                 - name: Known issues for Mac          
                   href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
