@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - M365-voice
   - m365initiative-meetings
   - Tier1
 search.appverid: MET150
