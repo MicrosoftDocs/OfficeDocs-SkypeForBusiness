@@ -19,19 +19,18 @@ description: Learn about any known issues for the new Microsoft Teams desktop cl
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
-
 ---
 # New Teams for Mac - Installation and prerequisites
 
+The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
+
+The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 
-
-## How to try new Teams? – App Switcher 
+## How to try new Teams: App Switcher 
 
 1. Launch the Teams app and turn on “Try the new Teams” toggle on the upper-left corner of the desktop app to switch to new Teams. Note that you should be running: 
-
 2. MacOS Big Sur (11) and above (including Monterey (12) and Ventura (13)) 
-
 3. Opt-in by selecting the “Try the new Teams” toggle and hit “Get it now”, and if you ever need to switch back, just flip the toggle 
 
  
@@ -49,7 +48,6 @@ ms.localizationpriority: high
 
 - To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this PKG.  
 
- 
 
 ### Turn ON System Notification 
 
