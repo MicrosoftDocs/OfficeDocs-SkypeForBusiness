@@ -91,8 +91,10 @@ items:
                   href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Known issues          
+                - name: Known issues for Windows          
                   href: new-teams-known-issues.md
+                - name: Known issues for Mac          
+                  href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
