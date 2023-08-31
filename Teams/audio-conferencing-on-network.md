@@ -14,6 +14,7 @@ ms.collection:
   - m365initiative-meetings
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH

@@ -12,6 +12,7 @@ ms.service: msteams
 ms.collection: 
   - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 search.appverid: MET150
 audience: admin

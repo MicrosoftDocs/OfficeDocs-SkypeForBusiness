@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
   - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto:

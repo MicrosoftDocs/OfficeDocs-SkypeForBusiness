@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
