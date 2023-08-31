@@ -13,8 +13,8 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
   - Teams_ITAdmin_Devices
+  - teams-rooms-devices
   - Tier1
 ms.topic: reference
 search.appverid: MET150
