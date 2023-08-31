@@ -69,8 +69,6 @@ The distance of the camera from the whiteboard combines with the camera resoluti
 | 100°        | 1.26 ft. (0.38 m)| 2.52 ft. (0.77 m)   | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
 | 110°        | 1.05 ft. (0.32 m)| 2.10 ft. (0.64 m)   | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
 | 120°        | 0.87 ft. (0.26 m)| 1.73 ft. (0.52 m)   | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
-             
-
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
 If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.
@@ -99,6 +97,10 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate content camera 180°** option.
 4. Select **Save and exit**.
 
+![Content camera setup.](../media/content-camera1.png)
+
+You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
+
 ### [Teams Rooms for Android](#tab/Android)
 
 ### Supported Android cameras
@@ -109,10 +111,13 @@ To determine whether your Teams Rooms on Android supports the addition of a cont
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
 1. Navigate to the Teams Admin Settings page on your Microsoft Teams Rooms on Android device. The steps for this will differ depending on the device.
-2. Select Devices, then Content Camera. Select the content camera using the drop down menu.
-3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
-4. Tap away from the dialog to save the settings.
+1. Select Devices, then Content Camera. Select the content camera using the drop down menu.
+1. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate 180°** option.
+1. Tap away from the dialog to save the settings.
 
-![Content camera setup.](../media/content-camera1.png)
+**Selecting the content camera**
+![Select content camera.](../media/mtr-devices/content-camera-android-800px.png)
 
-You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
+**Inversing the content camera**
+![Inversing the camera.](../media/mtr-devices/content-camera-android2-800px.png)
+

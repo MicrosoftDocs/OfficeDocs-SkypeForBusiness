@@ -15,6 +15,7 @@ ms.collection:
 - Tier1
 - Highpri
 - Tier1
+- m365initiative-meetings
 search.appverid:
 - SPO160
 - MET150
