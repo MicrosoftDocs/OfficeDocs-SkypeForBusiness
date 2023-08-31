@@ -1,7 +1,7 @@
 ---
 title: Manage Microsoft 365 for your organization with the Admin app in Microsoft Teams 
-ms.author: lana-chin
-author: v-chinlana
+ms.author: v-chinlana
+author: lana-chin
 manager: serdars
 ms.topic: article
 ms.service: msteams
