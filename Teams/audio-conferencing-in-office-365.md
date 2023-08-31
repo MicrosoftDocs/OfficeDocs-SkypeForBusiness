@@ -10,7 +10,7 @@ ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
   - Tier1
 search.appverid: MET150

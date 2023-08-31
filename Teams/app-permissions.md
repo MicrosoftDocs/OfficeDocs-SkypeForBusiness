@@ -9,6 +9,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 search.appverid: MET150

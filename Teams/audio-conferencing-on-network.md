@@ -11,7 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
   - Tier1
 ms.localizationpriority: medium
