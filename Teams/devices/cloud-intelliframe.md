@@ -13,7 +13,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 ms.topic: reference
@@ -23,7 +23,7 @@ description: This article describes the Cloud IntelliFrame feature.
 
 # Cloud IntelliFrame
 > [!IMPORTANT]
-> Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois. 
+> Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois.
 
 Cloud IntelliFrame is a new experience that allows online meeting attendees to see people in Teams Rooms more clearly through the smart video feeds of in-room participants. These smart video feeds are created by zooming into the faces of the in-room participants and by eliminating distractions, thereby enhancing the hybrid meeting experience. You can see the expressions and gestures of the people in the room more easily, which helps improve collaboration in hybrid meetings. It creates equity in hybrid meetings as everyone can be seen and heard.
 

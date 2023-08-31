@@ -12,6 +12,7 @@ ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 audience: Admin

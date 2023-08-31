@@ -8,8 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-  - M365-voice
-  - m365initiative-voice
+  - teams-rooms-devices
   - highpri
   - Tier1
 ms.reviewer: crowe

@@ -15,7 +15,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 search.appverid: MET150
@@ -25,7 +25,7 @@ description: This article covers the list of phones that are certified for Micro
 
 # Phones for Microsoft Teams
 
-Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article provides a complete overview of Teams phones and can help in planning, delivering, and managing Microsoft Teams phones as part of your Microsoft Phone System solution. 
+Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article provides a complete overview of Teams phones and can help in planning, delivering, and managing Microsoft Teams phones as part of your Microsoft Phone System solution.
 
 To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Lenovo, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. To get the latest and up-to-date information on Teams devices, go to [Teams Marketplace](https://office.com/teamsdevices).
 
