@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams for Mac - Installation and prerequisites
+# New Teams for Mac - Overview and prerequisites
 
 The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
