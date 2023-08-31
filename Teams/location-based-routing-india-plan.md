@@ -114,7 +114,7 @@ The following table describes behaviors for call transfers with Operator Connect
 | Location | User 1 adds a PSTN user | User 2 adds a VoIP user | User 1 transfers to a PSTN number | User 2 transfers to a VoIP user | 
 | --------- | --------- | --------- | --------- | --------- | 
 | Users are at the same site as the PSTN number of the Operator Connect user | Allowed | Allowed | Allowed | Allowed | 
-| Any user is at a different site than PSTN number of Operator Connect user | Not allowed | Not allowed | Not allowed | Not allowed | 
+| Any user is at a different site than the PSTN number of the Operator Connect user | Not allowed | Not allowed | Not allowed | Not allowed | 
 
 ### Delegation
 
@@ -125,11 +125,11 @@ The following table describes behaviors for delegation with Operator Connect for
 | Same site as number of delegator | Allowed |
 | Different site than number of delegator  | Not allowed |
 
-### Audio Conferencing
+### Audio conferencing
 
-Audio conferencing with Location-Based Routing for Operator Connect for India users depends on whether the Operactor Connect for India user also has an Audio Conferencing license.
+Audio conferencing with Location-Based Routing for Operator Connect for India users depends on whether the Operactor Connect for India user also has an Audio conferencing license.
 
-**With Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license also has an Audio Conferencing license, then the following rules apply:
+**With an Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license also has an Audio Conferencing license, then the following rules apply:
 
 - All scheduled meetings created by the user (including meet now) will allow participants to join the meeting by using the dial-in phone numbers available in the meeting invite. 
 
@@ -137,9 +137,9 @@ Audio conferencing with Location-Based Routing for Operator Connect for India us
 
 For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
 
-**Without Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply.  Assume that **User A** is an Operator Connect for India user.
+**Without an Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply.  Assume that **User A** is an Operator Connect for India user.
 
-| Location | User A schedules a meeting with a VoIP user and adds a PSTN call | User A is in a meeting scheduled by another user who adds a PSTN call |
+| Location | User A schedules a meeting with a VoIP participant and adds a PSTN call | User A is in a meeting scheduled by another user who adds a PSTN user |
 | --------- | --------- | --------- | 
 | Users at same site as PSTN number of User A | Allowed | Allowed |
 | Any user at different site than PSTN number of User A | Not allowed | Not allowed | 
