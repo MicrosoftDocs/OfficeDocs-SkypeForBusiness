@@ -118,10 +118,10 @@ The tables use the following user definitions:
 
 The following table describes behaviors for call transfers with Operator Connect for India:
 
-| Location | User 1 adds User P | User 2 adds User V | User 1 transfers to User P | User 2 transfers to User V | User A schedules a meeting with User V and adds User P | User A in meeting scheduled by another user who adds User P |
-| --------- | --------- | --------- | --------- | --------- | --------- | --------- | 
-| Users at same site as PSTN number of User A | Allowed | Allowed | Allowed | Allowed | Allowed | Allowed |
-| Any user at different site than PSTN number of User A | Not allowed | Not allowed | Not allowed | Not allowed | Not allowed | Not allowed | 
+| Location | User 1 adds a PSTN user | User 2 adds a VoIP user | User 1 transfers to a PSTN number | User 2 transfers to VoIP user | 
+| --------- | --------- | --------- | --------- | --------- | 
+| Users at same site as PSTN number of User A | Allowed | Allowed | Allowed | Allowed | 
+| Any user at different site than PSTN number of User A | Not allowed | Not allowed | Not allowed | Not allowed | 
 
 ### Delegation
 
@@ -146,10 +146,10 @@ For more information, see [Outbound calling restrictions](outbound-calling-restr
 
 **Without Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply:
 
-| Location | User A schedules a meeting with User V and adds User P | User A in meeting scheduled by another user who adds User P |
+| Location | User A schedules a meeting with a VoIP user and adds a PSTN call | User A is in a meeting scheduled by another user who adds a PSTN call |
 | --------- | --------- | --------- | 
 | Users at same site as PSTN number of User A | Allowed | Allowed |
-| Any user at different site than PSTN number of User A | Not allowed | Not allowed | Not allowed | Not allowed | 
+| Any user at different site than PSTN number of User A | Not allowed | Not allowed | 
 
 ## Client support for Location-Based Routing
 
