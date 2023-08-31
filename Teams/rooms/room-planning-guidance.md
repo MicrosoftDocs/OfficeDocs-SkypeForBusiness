@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - Tier1
+  - teams-rooms-devices
 f1.keywords: 
   - NOCSH
 localization_priority: Normal

@@ -16,7 +16,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 appliesto: 
   - Microsoft Teams
