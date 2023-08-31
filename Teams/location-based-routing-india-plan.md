@@ -99,21 +99,22 @@ The following table describe specifics for outbound and inbound PSTN calls for u
 
 ## Call transfers, delegation, and conferencing 
 
-The following sections describe the behavior for transferring and delegating calls, and for conferencing, with Location-Based Routing for Operator Connect for India. Transfers, delegation, and conferencing  are allowed only if the users are located at the same network site. (**LAST SENTENCE TRUE FOR ALL?**)
+The following sections describe the behavior for call transfers, delegation, and conferencing with Location-Based Routing for Operator Connect for India. Transfers, delegation, and conferencing are allowed only if the users are located at the same network site--that is, at the same network site as the PSTN number of the Operator Connect for India user. (**LAST SENTENCE TRUE FOR ALL?**)
 
 Note that transfers are allowed only to other users with the same Operator Connect for India operator. (**SUBTLE NOTE. LEAVE HERE?**)
 
 ### Call transfers
 
-The following table describes behaviors for call transfers with Operator Connect for India.  Assume that 
+The following table describes behaviors for call transfers with Operator Connect for India.  Assume the following: 
 
 - **User 1** is an Operator Connect for India user on a VoIP call.
 - **User 2** is an Operator Connect for India user on a PSTN call.
 
-| Location | User 1 adds a PSTN user | User 2 adds a VoIP user | User 1 transfers to a PSTN number | User 2 transfers to VoIP user | 
+
+| Location | User 1 adds a PSTN user | User 2 adds a VoIP user | User 1 transfers to a PSTN number | User 2 transfers to a VoIP user | 
 | --------- | --------- | --------- | --------- | --------- | 
-| Users are at same site as the PSTN number of Operator Connect user | Allowed | Allowed | Allowed | Allowed | 
-| Any user is at different site than PSTN number of Operator Connect user | Not allowed | Not allowed | Not allowed | Not allowed | 
+| Users are at the same site as the PSTN number of the Operator Connect user | Allowed | Allowed | Allowed | Allowed | 
+| Any user is at a different site than PSTN number of Operator Connect user | Not allowed | Not allowed | Not allowed | Not allowed | 
 
 ### Delegation
 
