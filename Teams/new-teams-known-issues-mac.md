@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams desktop client for the Mac: Known issues 
+# New Teams for the Mac: Known issues 
 
 There are a few known issues we're working on.
 
