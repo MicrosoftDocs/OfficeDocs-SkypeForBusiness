@@ -10,7 +10,7 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier3
 audience: Admin

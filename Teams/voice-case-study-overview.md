@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - m365solution-voice
   - highpri
   - Tier1

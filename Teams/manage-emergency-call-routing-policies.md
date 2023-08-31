@@ -14,6 +14,7 @@ f1.keywords:
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto: 
 - Microsoft Teams
