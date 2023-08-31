@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.reviewer: 
 description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - tier2
 f1.keywords: 
