@@ -1,7 +1,7 @@
 ---
 title: Set up avatars for Microsoft Teams 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: lana-chin
+author: v-chinlana
 manager: serdars
 audience: ITPro
 ms.reviewer: sekerawa
@@ -12,7 +12,6 @@ f1.keywords:
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
-  - Tier2
   - M365-collaboration
   - teams-1p-app-admin
 description: Learn how to set up the avatars for Microsoft Teams app.
