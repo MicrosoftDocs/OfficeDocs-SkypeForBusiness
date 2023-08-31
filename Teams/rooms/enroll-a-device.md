@@ -51,7 +51,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
      ```
 
@@ -59,7 +59,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
@@ -120,11 +120,16 @@ mmrprodemeaiot.azure-devices.net<br>
 mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
 mmrprodnoamstor.blob.core.windows.net<br>
+mmrprodglobapi.azurewebsites.net<br>
+mmrprodnoamapi.azurewebsites.net<br>
+mmrprodemeaapi.azurewebsites.net<br>
+mmrprodapacapi.azurewebsites.net<br>
 
 **GCC customers should also ensure reachability to:**
 
 mmrprodgcciot.azure-devices.net<br>
 mmrprodgccstor.blob.core.windows.net<br>
+mmrprodgccapi.azurewebsites.net<br>
 
 ## Enrollment process
 

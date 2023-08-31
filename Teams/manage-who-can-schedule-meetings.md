@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
