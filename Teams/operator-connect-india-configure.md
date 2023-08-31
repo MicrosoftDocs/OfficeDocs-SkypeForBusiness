@@ -28,7 +28,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Configure Operator Connect for India
 
 > [!NOTE]
-> Operator Connect for India is a preview release.
+> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
 
 This article describes how to configure Operator Connect for India. Before configuring Operator Connect for India, be sure to read [Plan for Operator Connect for India](operator-connect-india-plan.md) for information about prerequisites and licensing.
 

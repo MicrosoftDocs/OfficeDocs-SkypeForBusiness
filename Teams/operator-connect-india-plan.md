@@ -29,7 +29,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Plan Operator Connect for India
 
 > [!NOTE]
-> Operator Connect for India is a preview release.
+> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
 
 Operator Connect for India is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams Phone. Operator Connect for India has been designed to address the telephony regulatory issues specific to India.  
 
