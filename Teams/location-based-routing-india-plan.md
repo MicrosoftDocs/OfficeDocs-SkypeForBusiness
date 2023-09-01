@@ -101,7 +101,7 @@ The following table describe specifics for outbound and inbound PSTN calls for u
 
 The following sections describe the behavior for call transfers, delegation, and conferencing with Location-Based Routing for Operator Connect for India. Transfers, delegation, and conferencing are allowed only if all users involved in the operation are located at the same network site as the PSTN number of the Operator Connect for India user. 
 
-Note that transfers, forwards, and delegation, and conferencing of an Operator Connect for India PSTN call are allowed only to other Operator Connect for India users with the same operator. 
+Note: transfers, forwards, delegation, and conferencing of an Operator Connect for India PSTN call are allowed only to other Operator Connect for India users with the same operator. 
 
 ### Call transfers
 
