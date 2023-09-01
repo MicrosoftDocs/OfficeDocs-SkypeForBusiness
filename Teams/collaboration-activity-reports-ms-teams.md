@@ -79,7 +79,7 @@ SLM (Site Lifecycle Management) is a feature within the SharePoint admin center 
 
 An SLM policy is a mechanism by which a SharePoint administrator can manage SharePoint sites.
 
-You can view the data of inactive teams in an SLM policy report. For more information on SLM and its "policy" feature, see [Site Lifecycle Management (SLM)](#site-lifecycle-management-slm).
+You can view the data of inactive teams in an SLM policy report. For more information, see [Manage site lifecycle policies](/sharepoint/site-lifecycle-management).
 
 SLM provides for policies to manage inactive sites. There can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
 
@@ -127,7 +127,7 @@ Once inactive sites are detected after running the SLM policy, an email notifica
 
 If the site owner wants to keep the site, the site owner should respond by selecting the **Certify site** button on the notification email. 
 
-Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond to the notification within 6 months (from the time the first notification was triggered), this site is listed as **unactioned by site owner** in the policy execution report. The SharePoint administrator can then choose to take action on such sites, based on discretion.
+Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond after three successive notifications, this site is listed as **No owner action** in the policy execution report. The SharePoint administrator can then choose to take action on such sites, based on discretion.
 
 ###### Reports
 
