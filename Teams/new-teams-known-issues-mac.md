@@ -24,21 +24,17 @@ ms.localizationpriority: high
 
 There are a few known issues we're working on.
 
-### Desktop
-
-**Issue**: Teams settings are disabled in the Teams menu bar.</br>
-**Workaround**: Open Teams settings in the app under the main (…) menu.
 
 ### Offline
 
 **Issue**: Offline message edits, delete, and reactions functionality is currently not supported.</br>
-**Workaround:**  Users can still send messages offline in new Teams for Mac.  However for full functionality, use class Teams.
+**Workaround:**  Users can still send messages offline in new Teams for Mac.  However for full functionality, use classic Teams.
 
 ### Meeting Join
 
 **Issue**: Users aren't muted despite the tooltip message that says they are.  In large meetings of over 600+ attendees the microphone was still active. </br>
 **Workaround:**  Manually mute the call.
 
-**Issue:**  Meeting join shows the wrong call has been joined.</br>
+**Issue:**  During call transfer, if the call ends prematurely then the banner is not updated correctly.</br>
 **Workaround:**  Being investigated. No current workaround.
 
