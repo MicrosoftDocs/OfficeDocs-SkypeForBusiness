@@ -45,12 +45,13 @@ Microsoft Teams Rooms is designed to give the best audio, video, and content-sha
 
 Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30 fps (frames per second) for video and content.
 
-|||Bandwidth in kbps (up/down)||
+The following table provides details about "Bandwidth in *kbps* (down/up)
+
+|Feature  |Minimum  |Standard  |Optimal performance  |
 |---------|---------|---------|---------|
-| **Media traffic type**   | **Minimum**         |**Standard**       |**Optimal performance**|
-| Audio     | 64/64    | 128/128       | 256/256         |
-| Video     | 150/200        | 2500/4000         | 8000/4000         |
-| Screen share     | 250/250         | 2500/2500         | 4000/4000         |
+|Audio     |64/64         |128/128         |256/256         |
+|Video     |150/200         |2500/4000         |8000/4000         |
+|Screen share     |250/250         |2500/2500         |4000/4000         |
 
 Teams Rooms can support up to 18 incoming video streams at once, and the number of video streams on the screen(s) can have a large impact on the amount of downstream bandwidth consumed. This impact is because Teams will downscale the incoming streams to provide a high-quality-in-room experience while consuming the least amount of bandwidth possible.  The bandwidth consumption can also vary with the resolution of the cameras the remote participants have connected to the meeting.
 
