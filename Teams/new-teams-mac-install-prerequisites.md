@@ -40,7 +40,7 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ### Minimum Mac and Teams versions 
 
-- You must be running macOS Big Sur (11) or above (including Monterey (12) and Ventura (13)) 
+- You must be running macOS Big Sur (11) or above, including macOS Monterey (12) and macOS Ventura (13). 
 
 - To see the “Try the new Teams” toggle, your current Teams app must be running version 23182.303.2215.7823 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
 
@@ -70,7 +70,7 @@ For Monterey OS:
  :::image type="content" source="media/new-teams-mac-security.png" alt-text="new teams mac security page":::
 
  
-## For Ventura OS: 
+## For macOS Ventura
  
 1. Go to Privacy & Security > Screen Recording.  
 2. Switch the toggle for Microsoft Teams (work preview) to Allow recording of the content of your screen.   
@@ -84,9 +84,10 @@ For Monterey OS:
 
 - Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes. Also, if there's any Windows update pending, please install them before you try new Teams.
 
-- If you’re not seeing the toggle for new Teams, please make sure you have the minimum required versions for Mac and Teams
-  - macOS Big Sur (11) or above (including Monterey (12) and Ventura (13)) and
-  - Microsoft Teams (work or school) version 23182.303.2215.7823  or higher. 
+- If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
+
+  - macOS Big Sur (11) or above (including macOS Monterey (12) and macOS Ventura (13) and
+  - Microsoft Teams (work or school) version 23182.303.2215.7823 or higher. 
 
 - After you successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.   
  
