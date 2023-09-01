@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 09/01/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -123,7 +123,6 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
-
 
 ## What features are still missing?
 
