@@ -29,9 +29,8 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## How to try new Teams: App Switcher 
 
-1. Launch the Teams app and turn on “Try the new Teams” toggle on the upper-left corner of the desktop app to switch to new Teams. Note that you should be running: 
-2. MacOS Big Sur (11) and above (including Monterey (12) and Ventura (13)) 
-3. Opt-in by selecting the “Try the new Teams” toggle and hit “Get it now”, and if you ever need to switch back, just flip the toggle 
+1. Launch the Teams app and turn on **Try the new Teams** toggle on the upper-left corner of the desktop app to switch to new Teams. Note that you should be running: MacOS Big Sur (11) and above; including macOS Monterey (12) and macOS Ventura (13) 
+2. Opt-in by selecting the **Try the new Teams** toggle and select “Get it now”.  To switch back, just flip the toggle.
 
  
 >[!Note]
