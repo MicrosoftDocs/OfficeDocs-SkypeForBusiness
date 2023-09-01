@@ -10,8 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
 ms.collection: 
-  - M365-voice
   - Tier2
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

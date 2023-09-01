@@ -81,7 +81,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule
+                - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
                 - name: Deploy the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
@@ -91,8 +91,12 @@ items:
                   href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Known issues          
+                - name: Known issues for Windows          
                   href: new-teams-known-issues.md
+                - name: Prerequisites and deployment for Mac          
+                  href: new-teams-mac-install-prerequisites.md                 
+                - name: Known issues for Mac          
+                  href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -435,8 +439,6 @@ items:
               href: set-up-call-analytics.md
             - name: Use call analytics to troubleshoot poor call quality
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-            - name: Use real-time telemetry to troubleshoot poor meeting quality
-              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
             - name: Add and update reporting labels
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
@@ -445,7 +447,19 @@ items:
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+        - name: Real-time telemetry
+          items: 
+            - name: Use real-time telemetry to troubleshoot poor meeting quality
+              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Alerts for audio quality issues
+              href: alerts/alerts-in-progress-meeting-audio.md
+            - name: Alerts for video quality issues
+              href: alerts/alerts-in-progress-meeting-video.md
+            - name: Alerts for screen sharing issues
+              href: alerts/alerts-in-progress-meeting-screen-sharing.md
 
+    - name: Teams alerting and monitoring
+      href: alerts/teams-admin-alerts.md 
     - name: Operate your service
       href: upgrade-operate-my-service.md
     - name: Public preview in Microsoft Teams
@@ -1072,7 +1086,7 @@ items:
           href: manage-phone-numbers-landing-page.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
-        - name: Assign, change, or remove a phone number for a user
+        - name: Manage phone numbers for users
           href: assign-change-or-remove-a-phone-number-for-a-user.md
         - name: Manage the usage of a phone number
           href: manage-the-usage-of-a-phone-number.md
@@ -1547,6 +1561,8 @@ items:
               href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
+            - name: Set up a common area mobile phones
+              href: devices/common-area-mobile-phones.md
             - name: SIP Gateway
               items:
                 - name: Plan for SIP Gateway
@@ -1585,18 +1601,20 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
+                  - name: Reserve rooms with a QR code
+                    href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
+            - name: SmartVision
+              href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
-                  - name: Teams alerting and monitoring
-                    href: alerts/teams-admin-alerts.md 
                   - name: Teams device health monitoring
                     href: alerts/device-health-status.md 
                   - name: Teams devices and peripherals
