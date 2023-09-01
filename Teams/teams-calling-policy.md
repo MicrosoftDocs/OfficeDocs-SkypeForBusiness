@@ -13,6 +13,7 @@ description: Learn how to create, modify, and add users to custom calling polici
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 f1.keywords:
 - CSH
