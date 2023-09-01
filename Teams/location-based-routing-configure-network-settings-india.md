@@ -20,6 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure network settings for Location-Based Routing
