@@ -69,9 +69,9 @@ If the user's external IP address doesn't match any IP address that's defined in
 
 ## Next steps
 
-For Direct Routing, see [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).
+- **For Direct Routing**, see [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md).
 
-For Operator Connect for India, see [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md).
+- **For Operator Connect for India**, see [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md).
 
 ## Related topics
 
