@@ -154,4 +154,4 @@ As we improve the client, the experience has been improved to align with similar
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
 |Ability to use tags in the "Add member" dialog.|There is now an advanced flow for tags.|
 |Org chart is a tab in chat|The org chart is now located in the live persona card.|
-|Contact management in chats and calls app|Contanct management is now done in a new dedicated people app that users can pin for easy use.|
+|Contact management in chats and calls app|Contact management is now done in the new dedicated People App that users can pin for easy use.|
