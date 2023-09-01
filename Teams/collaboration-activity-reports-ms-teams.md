@@ -75,11 +75,11 @@ To archive an inactive team, scroll to the extreme right, under **Action** col
 
 #### Site Lifecycle Management (SLM)
 
-SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC) which is compatible only for tenants who have acquired the SAM (Syntex Advanced Management) license.
+SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC). To access and use this feature, tenants must subscribe to the Microsoft Syntex - SharePoint Advanced Management (SAM) license.
 
 An SLM policy is a mechanism by which a SharePoint administrator can manage SharePoint sites.
 
-You can view the data of inactive teams in an SLM policy report. For more information, see [Manage site lifecycle policies](/sharepoint/site-lifecycle-management).
+You can view the data of inactive teams in an SLM policy report. For more information on an SLM policy report, the data it stores, and categorization of its data, see [Manage site lifecycle policies](/sharepoint/site-lifecycle-management).
 
 SLM provides for policies to manage inactive sites. There can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
 
