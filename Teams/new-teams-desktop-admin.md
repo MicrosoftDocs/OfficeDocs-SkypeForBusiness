@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 09/01/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -124,7 +124,6 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
 
-
 ## What features are still missing?
 
 Most of the features you're familiar with in classic Teams are already in new Teams, however a few are still being worked on. </br>
@@ -133,7 +132,7 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you'll see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
@@ -150,6 +149,7 @@ As we improve the client, the experience has been improved to align with similar
 |Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
 |About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
-|Ability to build Teams personsal apps usings Adaptive cards|No longer available.|
+|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in the "Add member" dialog.|There is now an advanced flow for tags.|
+|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
+|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
