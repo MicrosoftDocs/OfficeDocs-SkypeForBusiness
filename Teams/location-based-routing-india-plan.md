@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
-ms.date: 03/15/2023
+ms.date: 09/01/2023
 search.appverid: MET150
 description: Learn how to plan and configure Location-Based Routing for Operator Connect for India.
 ms.localizationpriority: medium
