@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization."
 ---

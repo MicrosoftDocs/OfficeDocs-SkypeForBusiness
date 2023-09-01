@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier3
 ms.custom: 
   - seo-marvel-mar2020
@@ -78,7 +78,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
-| [Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 | 16 GB | 128 GB |
+| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 | 16 GB | 128 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) | Core i5 | 8 GB | 128 GB |
 | [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) | Core i5 | 8 GB | 128 GB |
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
@@ -250,7 +250,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) | 1.0.0 |  |  |
 | [Yamaha ADECIA Ceiling Solution](https://uc.yamaha.com/products/microphone-systems/adecia/) | 1.2.0 |  |  |
 | [Yamaha ADECIA Tabletop Solution](https://uc.yamaha.com/products/adecia/adecia-tabletop/) | E1.2.0 for table mic, D1.2.0 for processor (Both same content as V1.5.1) |  |  |
+| [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
+| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
 | [Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) | 128.410.0.10 |  |  |

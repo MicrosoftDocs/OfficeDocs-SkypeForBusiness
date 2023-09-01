@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - Tier1
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
 description: Learn how to find Teams Rooms devices with unsupported licenses.
 ---
 

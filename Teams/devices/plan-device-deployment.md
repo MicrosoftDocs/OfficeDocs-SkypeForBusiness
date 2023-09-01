@@ -16,7 +16,7 @@ f1.keywords:
 search.appverid: MET150
 description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 ---

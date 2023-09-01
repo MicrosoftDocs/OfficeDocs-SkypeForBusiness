@@ -19,6 +19,7 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
   - Tier2
+  - m365initiative-meetings
 description: Learn how to set up and manage streaming for your Teams meetings.
 ---
 
