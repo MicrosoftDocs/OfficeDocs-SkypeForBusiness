@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
   - m365initiative-meetings
   - Tier1

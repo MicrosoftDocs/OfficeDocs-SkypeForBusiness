@@ -10,7 +10,6 @@ ms.service: msteams
 ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - Tier1
   - m365initiative-meetings
 audience: Admin
