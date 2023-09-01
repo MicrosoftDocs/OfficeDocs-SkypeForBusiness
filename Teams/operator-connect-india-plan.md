@@ -35,6 +35,12 @@ Operator Connect for India is another option for providing Public Switched Telep
 
 This article describes benefits and requirements. For a list of operators participating in the Microsoft Operator Connect Program and the countries or regions where their service is available, see the [Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
+After reading this article, you'll also want to read:
+
+- [Configure Operator Connect for India](operator-connect-india-configure.md)
+- [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+
 With Operator Connect for India:
 
 - **You'll need to acquire the appropriate Teams license from a licensed telecom operator in India (that is, your carrier).** This requirement must be met whether or not you have an existing Teams Phone license. For example, if you have a phone license included with an E5 license, you'll still need to purchase a license from your India operator.  
