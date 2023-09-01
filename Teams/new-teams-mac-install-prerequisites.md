@@ -70,7 +70,7 @@ For Monterey OS:
  :::image type="content" source="media/new-teams-mac-security.png" alt-text="new teams mac security page":::
 
  
-## For macOS Ventura
+#### For macOS Ventura
  
 1. Go to Privacy & Security > Screen Recording.  
 2. Switch the toggle for Microsoft Teams (work preview) to Allow recording of the content of your screen.   
