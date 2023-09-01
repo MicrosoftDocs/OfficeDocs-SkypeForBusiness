@@ -30,7 +30,7 @@ In India, it's illegal to bypass the Public Switched Telephone Network (PSTN) pr
 
 Location-Based Routing for Operator Connect for India lets you ensure that Teams users don't violate toll bypass restrictions.
 
-This article describes what you need to know to use Location-Based Routing with Operator Connect for India. This article applies only to Location Based Routing for Operator Connect for India. 
+This article describes what you need to know to use Location-Based Routing with Operator Connect for India. 
 
 Note that the configuration for Location-Based Routing for Operator Connect for India differs from the configuration for Location-Based Routing for Direct Routing. To configure Location-Based Routing for Operator Connect for India, you'll need to:
 
@@ -45,7 +45,7 @@ This article describes basic concepts and configuration information. The article
 
 To configure Location-Based Routing for Operator Connect for India fixed-line number calls, you must ensure that India fixed-line phone numbers are associated with the network site the phone number corresponds to. The user must be located at a Network Communication Server (NCS) site associated with the number at the time of the call. 
 
-Note:  Operator Connect for India doesn't require you to enable users, PSTN gateways, and network sites for Location-Based Routing.
+Note: Unlike Direct Routing, Operator Connect for India doesn't require you to enable users, PSTN gateways, and network sites for Location-Based Routing.
 
 ### Configure network settings
 
@@ -99,9 +99,9 @@ The following table describe specifics for outbound and inbound PSTN calls for u
 
 ## Call transfers, delegation, and conferencing 
 
-The following sections describe the behavior for call transfers, delegation, and conferencing with Location-Based Routing for Operator Connect for India. Transfers, delegation, and conferencing are allowed only if the users are located at the same network site--that is, at the same network site as the PSTN number of the Operator Connect for India user. (**LAST SENTENCE TRUE FOR ALL?**)
+The following sections describe the behavior for call transfers, delegation, and conferencing with Location-Based Routing for Operator Connect for India. Transfers, delegation, and conferencing are allowed only if all users involved in the operation are located at the same network site as the PSTN number of the Operator Connect for India user. 
 
-Note that transfers are allowed only to other users with the same Operator Connect for India operator. (**SUBTLE NOTE. LEAVE HERE?**)
+Note that transfers, forwards, and delegation, and conferencing of an Operator Connect for India PSTN call are allowed only to other Operator Connect for India users with the same operator. 
 
 ### Call transfers
 
@@ -137,12 +137,13 @@ Audio conferencing with Location-Based Routing for Operator Connect for India us
 
 For more information, see [Outbound calling restrictions](outbound-calling-restriction-policies.md). 
 
-**Without an Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply.  Assume that **User A** is an Operator Connect for India user.
+**Without an Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply.  Assume that **User A** and **User B** are both Operator Connect for India users. 
 
-| Location | User A schedules a meeting with a VoIP participant and adds a PSTN call | User A is in a meeting scheduled by another user who adds a PSTN user |
+| Location | User A is in a VoIP meeting that User A scheduled with User B, and User A attempts to add a PSTN call | User A is in a VoIP meeting scheduled by User B, and User B  attempts to add a PSTN call |  
 | --------- | --------- | --------- | 
-| Users at same site as PSTN number of User A | Allowed | Allowed |
-| Any user at different site than PSTN number of User A | Not allowed | Not allowed | 
+| Other VoIP meeting participants are at the same site as the PSTN number of the meeting organizer | Allowed | Allowed | 
+| Any participant is at a different site than the PSTN number of the meeting organizer | Not allowed | Not allowed | 
+
 
 ## Client support for Location-Based Routing
 
@@ -162,32 +163,4 @@ The Teams web client is not supported.
 - [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 
-**DELETE THE FOLLOWING AFTER ROY APPROVES ABOVE**
-
-**CAN WE NUKE THIS ONE?**  ADD TO TABLE INSTEAD?
-
-If a user with an assigned Operator Connect for India Teams Phone license doesn't have an Audio Conferencing license, then the following rules apply:
-
-- If there is or has been at least one Operator Connect for India Teams Phone user in the meeting, all scheduled meetings created by the user (including meet now) won't allow adding PSTN participants. 
-
-- If any one PSTN participant is or was part of such a conference call before any Operator Connect for India Teams Phone users were invited to join the call, then Operator Connect for India Teams Phone users can't be added to the call.
-
-- If the Operator Connect for India Teams Phone user is joining the conference call from an internal site, the restrictions in the preceding two list items are not enforced.
-
-When a user transfers a call, the system will decide to deny or allow this action based on the following possible scenarios: 
-
-- For a 1:1 Teams VoIP call and transfer to PSTN: The transfer is permitted if the user being transferred and the user transferring the call are at the same site. 
-
-- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer is permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location.  **TRUE?**
-
-**Delegation with Location-Based Routing for Operator Connect for India**
-
-A Teams user may choose delegates who can make and receive calls on their behalf. Delegates need to be at the same network site as the delegator's phone number in order to be on a PSTN call--whether to answer an incoming PSTN call or make an outgoing PSTN call on behalf of the delegator.
-
-Delegation capabilities in Teams are affected by Location-Based Routing as follows: 
-
-- For outbound calls from a delegate on behalf of a delegator, the same rules apply. Call routing is based on the delegate’s call authorization policy, voice routing policy, and location. For more information, see [Teams user places an outbound call to the PSTN](location-based-routing-scenarios.md#teams-user-places-an-outbound-call-to-the-pstn). 
-
-- For inbound PSTN calls to a delegator, the same Location-Based Routing rules that apply for call forwarding or simultaneously ringing to other users also apply to delegates. For more information, see [Teams user transfers or forwards call to another Teams user](location-based-routing-scenarios.md#teams-user-transfers-or-forwards-call-to-another-teams-user), [Teams user transfers or forwards call to PSTN endpoint](location-based-routing-scenarios.md#teams-user-transfers-or-forwards-call-to-pstn-endpoint), and [Simultaneous ringing](location-based-routing-scenarios.md#simultaneous-ringing). 
-When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice routing policy of the delegate is used to route the call to the PSTN. 
 

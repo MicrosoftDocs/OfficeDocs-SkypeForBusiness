@@ -56,21 +56,6 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect-for-india).
 
-### Assign numbers to emergency addresses
-
-The emergency address is a static location associated with a number. Once you create emergency addresses in the Teams admin center, how you assign the addresses, and make changes, will depend on your operator.
-
-To assign numbers to emergency addresses, your operator will implement one of three scenarios:
-
-- The operator assigns emergency addresses to the phone numbers, and allows you to make changes later in the Teams admin center.
-
-- The operator assigns emergency addresses to the phone numbers, and doesn't allow you make changes. In this scenario, you'll need to contact your operator to make changes to phone numbers and their assigned emergency address.
-
-- The operator doesn't assign addresses, and allows you to assign emergency addresses and make changes to the phone numbers in the Teams admin center.
-
-
-
-For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ### Acquire numbers for new Teams users
 
