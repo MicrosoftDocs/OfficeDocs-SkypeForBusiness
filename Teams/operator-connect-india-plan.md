@@ -3,7 +3,7 @@ title: Plan for Operator Connect for India
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 08/15/2023
+ms.date: 09/01/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
