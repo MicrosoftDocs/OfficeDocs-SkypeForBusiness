@@ -18,6 +18,7 @@ MS.collection:
   - M365-collaboration
   - m365-frontline
   - m365initiative-meetings
+  - m365-virtual-appointments 
 appliesto: 
   - Microsoft Teams
 ---
