@@ -20,6 +20,7 @@ ms.custom:
 description: Lists the supported rate centers and coverage for Calling Plans.
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 

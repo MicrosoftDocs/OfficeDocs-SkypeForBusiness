@@ -16,15 +16,13 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 
-
-
-
 # Contact center integrations for Microsoft Teams
 
-  This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected contact center certification program.
+This article provides an overview of how contact center solutions can be integrated with Microsoft Teams and the solution providers participating in the Microsoft Teams Connected contact center certification program.
 
 ## What is contact center integration for Microsoft Teams?
 

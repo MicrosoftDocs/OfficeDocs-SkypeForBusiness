@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 f1.keywords:
 - NOCSH

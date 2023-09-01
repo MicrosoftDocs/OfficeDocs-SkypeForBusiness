@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
