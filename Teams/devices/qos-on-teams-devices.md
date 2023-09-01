@@ -1,5 +1,5 @@
 ---
-title: Quality of service (QoS) configuration on Teams Room devices
+title: Quality of service (QoS) configuration on Teams Rooms
 author: v-smandalika
 ms.author: v-smandalika
 manager: dansimp
@@ -23,13 +23,13 @@ search.appverid: MET150
 description: Learn about how much bandwidth a Teams Room will use, how to control that bandwidth usage, and how to ensure your devices are optimized with the right quality of service configuration to align to your organizations requirements.
 ---
 
-# Quality of service (QoS) configuration on Teams Room devices
+# Quality of service (QoS) configuration on Teams Rooms
 
-Deploying one or many Microsoft Teams Rooms devices requires planning. The key considerations are your organization's network bandwidth and quality of service (QoS) configuration.
+Deploying one or many Microsoft Teams Rooms requires planning. The key considerations are your organization's network bandwidth and quality of service (QoS) configuration.
 
 This article explains:
 
-1. How much bandwidth a Teams Room device will use.
+1. How much bandwidth a Teams Room will use.
 1. How to control that bandwidth usage.
 1. How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements.
 
@@ -39,7 +39,7 @@ Wired network connectivity is recommended for Microsoft Teams Room devices.
 
 If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
-## How much bandwidth a Teams Room device will use
+## How much bandwidth a Teams Room will use
 
 Microsoft Teams Rooms is designed to give the best audio, video, and content-sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
 
@@ -96,7 +96,7 @@ For Teams Rooms on Windows devices, you must configure Windows to add DSCP to th
 
 For more information on this Intune CSP, see [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
-If your Teams Rooms devices are joined to Active Directory, you can use Group Policy to apply the markings. You can follow the same instructions that have been provided for the Teams Desktop application, but don't specify the application name in the configuration; only specify the port range and the DSCP value in the configuration.
+If your Teams Rooms are joined to Active Directory, you can use Group Policy to apply the markings. You can follow the same instructions that have been provided for the Teams Desktop application, but don't specify the application name in the configuration; only specify the port range and the DSCP value in the configuration.
 
 For more information, see [Implement Quality of Service (QoS) in Microsoft Teams clients](../QoS-in-Teams-clients.md).
 
