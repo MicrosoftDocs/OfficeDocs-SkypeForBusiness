@@ -15,7 +15,7 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about any known issues for the new Microsoft Teams desktop client for the Mac
+description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -40,11 +40,11 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Minimum Mac and Teams versions 
 
-- You must be running macOS Big Sur (11) or above, including macOS Monterey (12) and macOS Ventura (13). 
+- You must be running macOS Big Sur (11) or higher, including macOS Monterey (12) and macOS Ventura (13). 
 
-- To see the “Try the new Teams” toggle, your current Teams app must be running version 23182.303.2215.7823 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
+- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
 
-- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this PKG.  
+- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
 
 
 ### Turn ON System Notification 
@@ -60,7 +60,7 @@ After installing the new client, if users don't choose to Allow Notifications wi
 
 ### Turn on Screen Sharing 
 
-Users can enable screen sharing for sharing content on call and in meetings using the regular in-app flow when they first try to screen share, but this requires they restart new Teams. The user will need to drop from the meeting. Alternatively, users can turn on permissions for screen recording under system settings. 
+Users can enable screen sharing for sharing content on call and in meetings using the regular in-app flow when they first try to screen share, but this requires they restart new Teams. The user needs to drop from the meeting. Alternatively, users can turn on permissions for screen recording under system settings. 
 For Monterey OS: 
 
 1. Open macOS System Preferences. 
@@ -87,7 +87,7 @@ For Monterey OS:
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
   - macOS Big Sur (11) or above (including macOS Monterey (12) and macOS Ventura (13) and
-  - Microsoft Teams (work or school) version 23182.303.2215.7823 or higher. 
+  - Microsoft Teams (work or school) version 1.6.00.12303 or higher. 
 
 - After you successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.   
  
