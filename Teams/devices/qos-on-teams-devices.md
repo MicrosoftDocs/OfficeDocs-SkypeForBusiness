@@ -25,41 +25,39 @@ description: Learn about how much bandwidth a Teams Room will use, how to contro
 
 # Quality of service (QoS) configuration on Teams Rooms devices
 
-Deploying one or many Microsoft Teams Rooms devices requires planning. The key considerations are your organization's network bandwidth and quality of service (QoS) configuration.
+Deploying one or many Microsoft Teams Rooms devices requires planning. One of the key considerations is your organization's network capacity and quality of service (QoS) configuration.
 
 This article explains:
 
-1. How much bandwidth a Teams Room device will use.
+1. How much bandwidth a Teams Room device will consume.
 1. How to control that bandwidth usage.
 1. How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements.
 
    :::image type="content" source="../media/teams-room-device-qos-configuration.png" alt-text="Screenshot that shows a Teams Room device with QoS configuration." lightbox="../media/teams-room-device-qos-configuration.png":::
 
-Wired network connectivity is recommended for Microsoft Teams Room devices.
+Wired network connectivity is recommended for Microsoft Teams Room devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
-If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
+## How much bandwidth will a Microsoft Teams Rooms device use?
 
-## How much bandwidth a Teams Room device will use
-
-Microsoft Teams Rooms is designed to give the best audio, video, and content-sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes audio quality over video quality.
+Microsoft Teams Rooms is designed to give the best audio, video, and content-sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes traffic in the following order: audio, content sharing, lastly participant video.
 
 Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30 fps (frames per second) for video and content.
 
-The following table provides details about "Bandwidth in *kbps* (down/up)
+The following table provides rough estimates of bandwidth utilized for the various streams in *kbps* (down/up)
 
 |Feature  |Minimum  |Standard  |Optimal performance  |
 |---------|---------|---------|---------|
 |Audio     |64/64         |128/128         |256/256         |
-|Video     |150/200         |2500/4000         |8000/4000         |
+|Video     |150/200         |2500/4000         |8000/8000         |
 |Screen share     |250/250         |2500/2500         |4000/4000         |
 
-Teams Rooms can support up to 18 incoming video streams at once, and the number of video streams on the screen(s) can have a large impact on the amount of downstream bandwidth consumed. This impact is because Teams will downscale the incoming streams to provide a high-quality-in-room experience while consuming the least amount of bandwidth possible.  The bandwidth consumption can also vary with the resolution of the cameras the remote participants have connected to the meeting.
+Teams Rooms can support up to 18 individual incoming video streams, up to 5 outbound video streams, as well as content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed abd the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras the remote participants have connected to the meeting along with the number of participants with video enabled.
 
-## How to control bandwidth usage on Teams Rooms
+## How do I control Microsoft Teams Rooms bandwidth usage?
 
-By default, Teams Rooms doesn't have a bandwidth-limiting policy assigned. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Room account to set a Teams Meeting Policy to limit the media bitrate. When setting the meeting policy at 10 Mbps, Teams Rooms will still only use the bandwidth required for the meeting, and it will dynamically adjust if its network connection isn't able to sustain 10 Mbps.
+By default, Teams Rooms do not have a bandwidth-limiting policy. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Rooms resource account. This can be accomplished by assigning a Teams meeting policy with a media bitrate limit configured. When setting the meeting policy at 10 Mbps, Teams Rooms will still only use the bandwidth required for the meeting (typically 3-4 Mbps), and it will dynamically adjust if its network connection isn't able to sustain 10 Mbps.
 
-For information on how to configure a Teams Meeting Policy, see [Meeting policy settings for audio and video](../meeting-policies-audio-and-video.md). You’ll want to create a custom policy and assign it to all Microsoft Teams Room resource accounts, which limits the media bitrate to 10,000 kbps.
+For information on how to configure a Teams meeting policy, see [Meeting policy settings for audio and video](../meeting-policies-audio-and-video.md). You’ll want to create a custom policy and assign it to all Microsoft Teams Rooms resource accounts, with the limit for media bitrate configured for 10,000 kbps.
 
 ## Quality of Service (QoS) with Microsoft Teams Rooms
 
@@ -92,7 +90,7 @@ For more information on Teams Media and implementing QoS, see [Implement Quality
 
 ### QoS with Microsoft Teams Rooms on Windows devices
 
-For Teams Rooms on Windows devices, you must configure Windows to add DSCP to the Teams Room application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune “NetworkQoSPolicy” CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune “NetworkQoSPolicy” CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
 
 For more information on this Intune CSP, see [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
@@ -102,7 +100,7 @@ For more information, see [Implement Quality of Service (QoS) in Microsoft Teams
 
 ### QoS with Microsoft Teams Rooms on Android devices
 
-For Teams Rooms on Android devices, you'll need to configure your tenant to insert QoS markings at which point the Teams Room on Android devices will apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings, Teams Rooms on Android devices honor this policy will apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
 
 For instructions on how to configure your tenant to insert QoS markings, see [Teams settings and policies reference](../settings-policies-reference.md).
 
