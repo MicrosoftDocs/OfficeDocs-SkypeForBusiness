@@ -7,10 +7,11 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sherimehmood
-ms.date: 07/26/2023
+ms.date: 08/16/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage email communications for webinars in Microsoft Teams for admins.
 appliesto: 
   - Microsoft Teams
@@ -34,6 +35,19 @@ Your organizers and co-organizers can edit the following email communication tem
 - Attendee registers after waitlist
 
 For more information on the email communications experience for your end users, see [Manage webinar emails in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be).
+
+## Use the Teams admin center to manage email communications
+
+You can use the Teams admin center to manage whether organizers and co-organizers can edit email templates for their webinars.
+
+Follow these steps in the Teams admin center to manage the email communications for webinars:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Events Policies**.
+4. Either select an existing policy or create a new one.
+5. Toggle the **Allow email editing** setting **On** or **Off**.
+6. Select **Save**
 
 ## Manage email communications for webinars with PowerShell
 

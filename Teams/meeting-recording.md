@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - m365initiative-meetings
   - highpri
@@ -26,7 +25,12 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 # Teams meeting recording
 
-In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user. (Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).)
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
+In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
+
+> [!NOTE]
+> This setting also affects webinars. Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
 
 When a meeting is recorded:
 

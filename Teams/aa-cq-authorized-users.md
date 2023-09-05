@@ -11,6 +11,7 @@ audience: admin
 ms.date: 04/05/2023
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 f1.keywords:
 - CSH

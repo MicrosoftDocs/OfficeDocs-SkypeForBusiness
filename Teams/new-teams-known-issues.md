@@ -1,10 +1,10 @@
 ---
-title:  Rollout schedule for the new Microsoft Teams desktop client
+title:  Known issues in the new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 08/29/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -15,7 +15,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the rollout schedule for the new Microsoft Teams desktop client for Windows. 
+description: Learn about any known issues for the new Microsoft Teams desktop client. 
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -131,8 +131,11 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 ### Multi-Tenant Multi-Account (MTMA)
 
+- **Issue:** If you enable the sign-in restrictions policy, the new Teams client applies the policy on guest tenants. For example, if the policy is set to only allow sign in to Contoso, then Contoso users won't be able to switch their Teams app to any other org where they have been invited as a Entra B2B guest (formerly known as Azure AD B2B guest).</br>
+**Workaround**: Add all the tenants where your users can be guested to your sign in restrictions policy.
+
 - **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
-  **Workaround**: Uninstall the new Teams and reinstall.
+**Workaround**: Uninstall the new Teams and reinstall.
 
 - **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner reads: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
   **Workaround**: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).

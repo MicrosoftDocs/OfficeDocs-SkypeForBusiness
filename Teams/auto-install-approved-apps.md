@@ -6,7 +6,7 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 06/27/2023
+ms.date: 08/22/2023
 search.appverid: 
 description: Auto install apps in Teams that are approved by admins and used by users outside Teams.
 audience: admin
@@ -21,9 +21,6 @@ ms.collection:
 
 >[!IMPORTANT]
 > Some apps supported by Auto install approved apps require setup by admins before turning on the feature. See the [list of these apps and setup instructions](#apps-requiring-setup-before-deployment-to-users).
-
->[!NOTE]
-> The feature is gradually being made Generally Available (GA) to all tenants. For more information, see [Microsoft 365 Message Center post MC548106](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC548106). The feature was previously called Zero-touch app install.
 
 Some apps exist as apps on the desktop or in the browser. Users who use these apps may not know that the same app feature is available as a Teams app. Using a Teams app allows them to be more productive as the users work without switching context and with the added benefits of having unique Teams capabilities. For more information, see the [benefits of Auto install approved apps feature](#benefits-of-the-feature).
 
@@ -44,7 +41,7 @@ In addition, the app is only installed if a user signs in to the app outside Tea
 
 ### Allow third-party apps in your organization
 
-The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-and-block-apps).
+The feature respects the app governance controls and installs apps only if admins allow the use of an app. The feature can be turned on independent of your app governance settings. However, to auto install apps, admins must allow the use of third-party apps, allow a particular app, and allow the relevant users to use the app. For more information, see [how to allow Teams apps](/microsoftteams/manage-apps#allow-or-block-apps).
 
 ### Ensure users can consent or grant admin consent to Azure AD permissions of an app
 
@@ -130,7 +127,7 @@ Consider the following app installation information when following the above dev
 
 ## Related articles
 
-* [How to allow apps in an organization](/microsoftteams/manage-apps#allow-and-block-apps)
+* [How to allow apps in an organization](/microsoftteams/manage-apps#allow-or-block-apps)
 * [Use app permission policies to allow users to use an app](/microsoftteams/teams-app-permission-policies)
 * [How to grant admin consent to the app permissions](/microsoftteams/app-permissions-admin-center)
 * [Permissions and consent in the Azure AD](/azure/active-directory/develop/permissions-consent-overview)

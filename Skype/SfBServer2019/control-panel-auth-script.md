@@ -11,6 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: IT_Skype16
 description: "Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol."
 ---

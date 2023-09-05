@@ -4,12 +4,13 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 07/25/2023
+ms.date: 08/22/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -29,7 +30,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 # Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
-> These reports aren't currently available for GCC High and DoD customers.
+> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md)
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
@@ -40,7 +41,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 - The Auto Attendant report shows analytics for calls coming into your Auto attendants.
   - [Original](media/aa-cq-historical-report-sample-aa-v310-orig.png)
   - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-aa-v310-new.png)
- 
+
 - The Call Queue report shows analytics for calls coming into your Call queues.
   - [Original](media/aa-cq-historical-report-sample-cq-v310-orig.png)
   - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-cq-v310-new.png)
@@ -82,7 +83,7 @@ Any CQD role with both **View Reports** and **View EUII fields** set to **Yes** 
 
 This requirement will be removed in a future release.
 
-## V3.x.x desktop installation 
+## V3.x.x desktop installation
 
 The following steps assume you have already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
@@ -98,8 +99,8 @@ Perform the following steps:
 
    :::image type="content" source="media/aa-cq-historical-report-01-v312.png" alt-text="Screenshot showing the DataSource and UTC Offset selections.":::
 
-  - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
-  - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in.
+    - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
+    - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in.
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -109,11 +110,11 @@ Perform the following steps:
 
 > [!NOTE]
 > If you were using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
-> 
-> 1. Open the v3.x.x template to clear the error. 
+>
+> 1. Open the v3.x.x template to clear the error.
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
 > 1. Select the dropdown menu for **Clear Permissions**, and then select **Clear All Permissions**.
-> 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again. 
+> 1. Close the template after they're cleared, and restart Power BI. You'll be asked to authorize again.
 
 ## Data latency for Auto attendant and Call queue analytics
 
@@ -192,7 +193,6 @@ You have to refresh the data to see any new data.
 |Sum of TotalCallCount (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 
-
 ### Cloud Call Queue Analytics report
 
 #### Report description
@@ -206,7 +206,6 @@ You have to refresh the data to see any new data.
 |Abandoned Calls                                       |Distribution of abandoned calls by Call queues                     |
 |Average Session Length (seconds)                      |Call length in seconds grouped by call result                      |
 |Call Overflow/Timeout Destinations                    |Distribution of calls that timed out or overflowed                 |
-
 
 #### Report visual and field mapping
 
@@ -227,7 +226,6 @@ You have to refresh the data to see any new data.
 |Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
 |Call Overflow/Timeout/No Agents Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
-
 
 #### fCallQueueAnalytics table field description
 
@@ -257,7 +255,6 @@ You have to refresh the data to see any new data.
 |Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                                        |
 |TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                             |
 
-
 #### fCallQueueFinalStateAction table field description
 
 |Name                                    |Data Type                |Description                                                                |
@@ -278,7 +275,6 @@ You have to refresh the data to see any new data.
 |Local Date                              |Date/time                |Local date/time (based on selected UTC Offset)                             |
 |UTC Date                                |Date/time                |UTC  date/time                                                             |
 
-
 ### Cloud Call Queue Agent Timeline report
 
 #### Report description
@@ -295,7 +291,6 @@ You have to refresh the data to see any new data.
 |Report Tab            |Report Table Name                  |Global Filter       |
 |:---------------------|:----------------------------------|:-------------------|
 |Agent Timeline        |fAgentTimelineAnalyticsSummary     |None                |
-
 
 |Report Section                                |Field(s) Used                         |Filters Applied       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
@@ -348,7 +343,7 @@ You have to refresh the data to see any new data.
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there is a large number of calls being processed each day, it's possible that the report will not show all calls for all days within the selected date range.  There is no notification when this occurs.  Try shortening the date range to avoid this issue.
+Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There's no notification when this occurs.  Try shortening the date range to avoid this issue.
 
 If in the event that shortening the date range is no sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
@@ -371,11 +366,11 @@ Increasing the limit will result in longer response times.
 
 - In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
-## Customization 
+## Customization
 
 You can customize certain visualization aspects of the reports, such as adding or removing fields to be shown in the various visualizations, changing chart type, and more.
 
-### Change color schema 
+### Change color schema
 
 The following steps assume you have already completed the installation steps.
 
@@ -423,7 +418,6 @@ These dimensions are common to both Auto attendants and Call queues:
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
 - <sup>1</sup> **PSTNConnectivityType** shows the final call leg source rather than the initial call leg source. For example, if an Auto attendant receives an external call and transfers the call to another Auto attendant or Call queue, the **Incoming call source** is reported as **Internal**.
-
 
 ### Auto attendant dimensions
 
@@ -474,7 +468,6 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |shared voicemail               |Transferred to shared voicemail                                   |
 |                                                       |Unknown                        |Unknown action                                                    |
 |HasAA<br>(Boolean)                                     |                               |Is AA involved in call                                            |
-
 
 ### Call queue dimensions
 
@@ -594,7 +587,6 @@ A valid query consists of several attributes in a JSON object:
 
 Any application that can access RESTful web services can use the VAAC API to retrieve historical data. In the following example, [Postman](https://www.postman.com/) is used.
   
-
 ### Preparation
 
 1. Download [Postman](https://www.postman.com/).
@@ -625,8 +617,8 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
 10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
-   - [Compress](#compress-the-json-query) the query as outlined
-   - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined
+    - [Compress](#compress-the-json-query) the query as outlined
+    - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined
 
 11. Fill in your [query](#constructing-a-valid-query) string.
 12. Select **Send**.
@@ -710,13 +702,12 @@ Base64 URL encoded output looks like this:
 
 > [!IMPORTANT]
 > The VAAC API is limited to returning a maximum of 200,000 rows per query.
-> 
+>
 > Requests into the system are throttled based on the IP address making the call, the recognized tenant identity in the auth header, as well as the calling service in order to prevent a single client, tenant, or service from monopolizing the resources.
-
 
 ## Version 3.x.x history
 
-Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes 
+Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes.
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|

@@ -9,12 +9,13 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 search.appverid: MET150
 ms.reviewer: tolgaki
-ms.date: 07/31/2023
-description: Learn what permissions Teams apps requests to access data in your organization.
+ms.date: 08/22/2023
+description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -32,19 +33,39 @@ Depending on their functionality, Teams apps may or may not access your user's o
 
 Based on its permissions, an app can access some information, perform some tasks, and engage with users. To help you understand what apps can do, a compilation of this information is available in [what can apps do in Teams](#what-can-apps-do-in-teams).
 
-| Type of permission for an app | Why are the permissions required | Where can you find details | Remarks |
-|-----|-----|-----|
-| (Not a permission) Actions that an installed app can perform | For an app to work, it can interact with users or message users or read basic user profile by virtue of being installed. | Available in Permissions tab in app details page for each app and also listed in the Teams store when a user installed an app. | NA |
-| Non-RSC Graph permissions | For some features to work, an app can need access to your organization's information or a user's information. | Information is displayed in Permissions tab in app details page of each app. See [Microsoft Graph permissions reference](/graph/permissions-reference) for a list of all possible permissions. | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
-| Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. |
+:::image type="content" source="media/app-permissions.png" alt-text="Screenshot that shows the permissions tab of an app and the Microsoft Graph and RSC permissions that may be required by an app.":::
+
+| Type of permission for an app | Why is it required | Where to find details | Remarks |
+|-------------------------------|----------------------------------|----------------------------|---------|
+| **1** Not permissions but capabilities of an app. Actions that an app can perform and basic information that it can access. | For an app to work, it interacts with users, messages users, or it read basic user profile by virtue of being added to Teams client. | Available in the `Permissions` tab in app details page of each app. This information is also listed in the Teams store when a user installs an app. More details are [here](#what-can-apps-do-in-teams). | Required for app to work. Exists by virtue of app being installed. Only basic and not sensitive information is ever accessed by app via this method. |
+| **2** Non-RSC Graph permissions | For some features to work, an app needs to access the organization's information in the tenant. | The information that is accessed is displayed in the `Permissions` tab in the app details page of each app. See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information) | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
+| **3** Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. | NA |
 
 ## Privacy and data access considerations
 
-In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and what the data is used for. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
+In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it is handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
+
+:::image type="content" source="/media/app-details-urls.png" alt-text="Screenshot that shows privacy and terms of use URLs in the app details page.":::
 
 Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available on Microsoft website at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 The program demonstrates that strong security and compliance practices are in place to protect customer data. See the details in [app compliance program for security, data handling, and privacy](overview-of-app-certification.md).
+
+## Graph permissions required by Teams apps to access your organization's information
+
+Microsoft Graph is used to allow app developers access to the requisite Microsoft 365 information but always with the appropriate permissions. App developers choose from a wide variety of Graph APIs to create their apps and fetch the relevant org-wide information to make the app functionality work. However, the permissions for an app to fetch such information isn't available by default. IT admins validate the apps, their use cases, and the permissions that apps seek in their organizations. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of Graph permissions, how Teams apps use these, and how they can approve or reject the apps that seek a set of such permissions.
+
+In Teams admin center, you can view Graph permission that an app will request if deployed and you can know what organization's information can an app access, if you grant consent to it.
+
+1. Access Teams admin center and open the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+
+1. Search for the required app and select its name to open the app details page.
+
+1. In the app details page, in the **Permissions** tab, notice the permissions required by the app.
+
+   :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
+
+A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
 
 ## What can apps do in Teams
 
@@ -58,7 +79,7 @@ The Azure AD permissions associated with any of the capabilities inside a Teams 
 * Connectors
 * Outgoing webhooks
 
-## Bots and messaging extensions
+### Bots and messaging extensions
 
 Consider the following types of user interaction, required permissions, and data access by bots and messaging extensions:
 
@@ -101,7 +122,7 @@ Consider the following types of user interaction, required permissions, and data
 > [!NOTE]
 > If a bot has its own sign-in, there's a different consent experience the first time the user signs in.
 
-## Tabs
+### Tabs
 
 A tab is a website running inside Teams. It can be as a tab in a meeting, a chat, or a channel.
 
@@ -111,7 +132,7 @@ Consider the following types of user interaction or data access for Tabs:
 
 * A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
 
-## Connectors
+### Connectors
 
 A connector posts messages to a channel when events in an external system occur. The required permission for Connectors is to be able to post messages in channel. An optional permission for Connectors is the permission to reply to a message. Some connectors support actionable messages, which allow users to post targeted replies to the connector message. For example, by adding a response to a GitHub issue or adding a date to a Trello card. Consider the following types of user interaction, required permissions, and data access by Connectors:
 
@@ -129,7 +150,7 @@ A connector posts messages to a channel when events in an external system occur.
 
 * If required, a tenant administrator can prevent new connector instances from being created and Microsoft can block all usage of a connector app.
 
-## Outgoing webhooks
+### Outgoing webhooks
 
 Team owners or team members create Outgoing webhooks. Outgoing webhooks can receive messages from users and reply to them. Consider the following types of user interaction, required permissions, and data access by Outgoing webhooks:
 
