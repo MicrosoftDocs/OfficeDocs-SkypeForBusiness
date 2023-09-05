@@ -73,7 +73,7 @@ Access your appointment calendar to schedule virtual appointments such as health
 ![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 View and monitor all scheduled and on-demand virtual appointments in the appointment calendar, with updates in real time.
-Scheduled appointments are booked for a specific date, time, and duration. On-demand appointments are booked by your customers, clients, or patients through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page) for services that your staff provides upon request, similar to a walk-in waiting room.
+Scheduled appointments are booked for a specific date, time, and duration. On-demand appointments are booked by your customers through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page) for services that your staff provides upon request, similar to a walk-in waiting room.
 
 From here, schedulers can add a new scheduled booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
 
