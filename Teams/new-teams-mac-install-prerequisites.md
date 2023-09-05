@@ -86,7 +86,7 @@ For Monterey OS:
 
 ### App Switcher Toggle
 
-- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes. Also, if there's any Windows update pending, please install them before you try new Teams.
+- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes.
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
