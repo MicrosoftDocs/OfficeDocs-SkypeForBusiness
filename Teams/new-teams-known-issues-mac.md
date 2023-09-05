@@ -22,7 +22,8 @@ ms.localizationpriority: high
 ---
 # New Teams for the Mac: Known issues 
 
-There are a few known issues we're working on.
+>[!Note]
+> The features described in this article are in public preview for targeted release customers only. Features and content are subject to change. Check back for updates.
 
 
 ### Offline
