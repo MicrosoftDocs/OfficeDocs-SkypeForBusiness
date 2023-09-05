@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # New Teams for the Mac: Known issues 
 
 >[!Note]
-> The features described in this article are in public preview for targeted release customers only. Features and content are subject to change. Check back for updates.
+> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
 
 
 ### Offline
