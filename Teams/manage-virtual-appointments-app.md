@@ -73,8 +73,9 @@ Access your appointment calendar to schedule virtual appointments such as health
 ![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
 View and monitor all scheduled and on-demand virtual appointments in the appointment calendar, with updates in real time.
+Scheduled appointments are booked for a specific date, time, and duration. On-demand appointments are booked by your customers, clients, or patients through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page) for services that your staff provides upon request, similar to a walk-in waiting room.
 
-From here, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
+From here, schedulers can add a new scheduled booking, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
 
 To learn more, see [Monitor appointments and get real-time status updates](/microsoft-365/frontline/virtual-appointments-app#monitor-appointments-and-get-real-time-status-updates-in-the-queue-view).
 
@@ -94,7 +95,7 @@ The analytics experience depends on user role. Admins get [organizational analyt
 
 #### Organizational analytics
 
-IT admins see an org-level report that shows aggregated analytics across all departments within your organization.
+If you're a Virtual Appointments admin, you see an org-level report that shows aggregated analytics across all departments within your organization.
 
 :::image type="content" source="media/manage-virtual-appointments-app-analytics-org.png" alt-text="Screenshot of the Analytics page in the Virtual Appointments app, showing the Virtual Appointments usage report for admins." lightbox="media/manage-virtual-appointments-app-analytics-org.png":::
 
@@ -110,7 +111,7 @@ If a staff member isn’t associated with a department, the report shows data fo
 
 ### Manage
 
-Manage calendar details, add services using appointment types, add staff and assign roles, and configure your booking page settings.
+Manage calendar details, add services using appointment types, add staff and assign roles, and configure your booking page settings. To learn more about these settings, see [Use the Virtual Appointments app in Teams](/microsoft-365/frontline/virtual-appointments-app).
 
 :::image type="content" source="media/manage-virtual-appointments-app-manage.png" alt-text="Screenshot of the Manage page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-manage.png":::
 
