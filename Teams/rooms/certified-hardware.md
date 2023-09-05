@@ -106,18 +106,22 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC900 with Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC400](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc400) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC840](https://www.yealink.com/product/microsoft-teams-room-system-mvc840) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC940](https://www.yealink.com/product/microsoft-teams-room-system-mvc940) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC840](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc840-iii) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC940](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-iii) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC940 Bundle with AV Hub](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-avhub) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC860](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc860) | Core i5 | 8 GB | 128 GB |
-| Yealink MVC640 | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC860](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc860-iii) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC640](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640-iii) | Core i5 | 8 GB | 128 GB |
 | Yealink MVC320 | Core i5 | 8 GB | 128 GB |
 | Yealink MVC340 | Core i5 | 8 GB | 128 GB |
 | Yealink MCore 3 Kit | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC S60](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs60) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
+| [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
+
 
 ## [Teams Rooms for Android](#tab/Android)
 
@@ -246,11 +250,6 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209) | 2.10.0 |  |  |
 | [Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
 | [Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
-| [Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) | 100c |  |  |
-| [Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) | 1.0.0 |  |  |
-| [Yamaha ADECIA Ceiling Solution](https://uc.yamaha.com/products/microphone-systems/adecia/) | 1.2.0 |  |  |
-| [Yamaha ADECIA Tabletop Solution](https://uc.yamaha.com/products/adecia/adecia-tabletop/) | E1.2.0 for table mic, D1.2.0 for processor (Both same content as V1.5.1) |  |  |
-| [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
 | [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
@@ -274,8 +273,12 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br>Q-SYS [NL Series Loudspeakers](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/) + </br>Q-SYS Network Camera ([NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/) optional + </br> [Q-SYS I/O Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Microphone, NL Series Loudspeakers, Network Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br>Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 |  |  |
 | [Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |  |  |
 | [Vaddio RoboSHOT 30E-M HD PTZ Camera](https://www.legrandav.com/products/cameras/hd_ptz_camera/roboshot-30e-m) | 1.0.0 |  |  |
-| [Yamaha CS-800 Video Sound Bar](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
-| [Yamaha CS-500 Video Collaboration System](https://uc.yamaha.com/products/video-sound-bar/huddle-room-system/) | 1.0.4 |  |  |
+| [Yamaha CS-500](https://europe.yamaha.com/en/products/unified_communications/video_collaboration/cs-500/index.html) | 1.0.4 |  |  |
+| [Yamaha CS-800](https://europe.yamaha.com/en/products/unified_communications/video_collaboration/cs-800/index.html) | 1.0.4 |  |  |
+| [Yamaha ADECIA Ceiling Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_ceiling/index.html) | 1.2.0 |  |  |
+| [Yamaha ADECIA Tabletop Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_tabletop/index.html) | E1.2.0 for table mic, D1.2.0 for processor (Both same content as V1.5.1) |  |  |
+| [Yamaha ADECIA Wireless Solution](https://europe.yamaha.com/en/products/contents/unified_communications/adecia_wireless/index.html) | 1.9.5 for Wireless mic, 2.1.0 for processor |  |  |
+| [Yamaha YVC-1000MS](https://europe.yamaha.com/en/products/unified_communications/speakerphones/yvc-1000ms/index.html) | 1.0.0 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
 

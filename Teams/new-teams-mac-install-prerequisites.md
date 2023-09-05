@@ -22,6 +22,10 @@ ms.localizationpriority: high
 ---
 # New Teams for Mac - Overview and prerequisites
 
+>[!Note]
+> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
+
+
 The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
 The new Teams ensures more efficient use of device resources. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
@@ -82,7 +86,7 @@ For Monterey OS:
 
 ### App Switcher Toggle
 
-- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes. Also, if there's any Windows update pending, please install them before you try new Teams.
+- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes.
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
