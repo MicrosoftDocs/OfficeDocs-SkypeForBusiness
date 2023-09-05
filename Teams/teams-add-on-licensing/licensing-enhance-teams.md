@@ -121,7 +121,9 @@ The following table compares key features between Teams and Teams Premium.
 | View time markers in meeting recordings when you joined or left a meeting |  | ✔️ |
 | Jump to different speakers with speaker timeline markers |  | ✔️ |
 | View AI-generated notes and tasks from meetings |  | ✔️ |
-| View when you were @mentioned (*coming soon*) |  | ✔️ |
+| View when you were mentioned in a meeting\* |  | ✔️ |
+
+\* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
 ### Virtual Appointments
 
@@ -142,6 +144,21 @@ The following table compares key features between Teams and Teams Premium.
 | Send post-appointment follow-ups (*coming soon*) |  | ✔️ |
 
 \* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.*
+
+### Meet app
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| View and prepare upcoming meetings | ✔️ |  |
+| Join ongoing meetings | ✔️ |  |
+| View and recap meetings you attended | ✔️ |  |
+| Filter meetings by All, with Content, and Recorded | ✔️ |  |
+| View and recap meetings that you missed |  | ✔️ |
+| View and recap meetings that mention you\* |  | ✔️ |
+| View when you were mentioned in a meeting\* |  | ✔️ |
+| View AI-generated tasks from meetings |  | ✔️ |
+
+\* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
 ## Are there previous Teams features that moved to Teams Premium?
 
