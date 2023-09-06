@@ -1,5 +1,7 @@
 ---
 ms.date: 11/28/2017
+ms.custom:
+  - has-azure-ad-ps-ref
 ---
 ## Video demonstration
 

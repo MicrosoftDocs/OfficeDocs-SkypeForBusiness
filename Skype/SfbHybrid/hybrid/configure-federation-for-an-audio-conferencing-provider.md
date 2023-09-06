@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -24,7 +25,6 @@ description: "Summary: Learn how to configure federation for an audio conferenci
 # Configure federation for an audio conferencing provider in your hybrid deployment
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
-
 
 **Summary:** Learn how to configure federation for an audio conferencing provider in Skype for Business Online.
 

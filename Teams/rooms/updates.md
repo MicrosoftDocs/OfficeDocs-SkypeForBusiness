@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.assetid: 
 description: Admin can learn about how to manage Windows Updates and Windows feature updates for Microsoft Teams Rooms.

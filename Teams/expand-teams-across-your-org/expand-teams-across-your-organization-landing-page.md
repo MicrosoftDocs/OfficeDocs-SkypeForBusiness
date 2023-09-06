@@ -12,7 +12,6 @@ f1.keywords:
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - tier2
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

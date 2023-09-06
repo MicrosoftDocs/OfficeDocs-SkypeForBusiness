@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier3
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
@@ -40,6 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[4.18.35.0](#418350-8212023) | 8/21/2023 |
 |[4.17.51.0](#417510-6282023) | 6/28/2023 |
 |[4.16.40.0](#416400-3242023) | 3/24/2023 |
 |[4.15.58.0](#415580-1102023) | 1/10/2023 |
@@ -52,6 +53,20 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 ## Teams Rooms on Windows feature introduction and issue resolution
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
+
+### 4.18.35.0 (8/21/2023)
+
+Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
+Introduced in this update:
+
+- **Cloud IntelliFrame**:::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame makes non-AI cameras smarter. With Cloud IntelliFrame, participants in the room appear similar to remote attendees, creating an immersive and engaging experience for everyone. Whether working from home or in the office, participants are able to see every facial expression and cue, just as if they were there in person. 
+- **Intelligent camera support**:::image type="icon" source="../media/mtr-pro-icon.png":::. IntelliFrame enables multi-stream video, face recognition of in-room participants, active speaker recognition, attributed voice-based transcription, and panoramic video on front-of-room (180-degree view) and center-of-room (360-degree view) cameras, taking Teams Rooms on Windows cameras to the next level of intelligence.
+- **Front Row gallery improvement – video segmentation with a unified background**<sup>1</sup>:::image type="icon" source="../media/mtr-pro-icon.png":::. It removes individual backgrounds, adjusts video participant’s size, and applies a unified background for remote participants to make them appear as if they are in the same room. This reduces distractions and provides in-room meeting participants with better connection to remote participants in Teams meetings.
+- **Spatial audio in the Front Row experience**<sup>2</sup>:::image type="icon" source="../media/mtr-pro-icon.png":::. Spatial Audio brings next-generation audio to the Front Row experience when connected to stereo speakers. This intelligent audio technology delivers a more natural and inclusive experience for in-room participants by playing audio from channel closer to physical location of remote participants on Front row layout, making it feel like remote people are in the room with them and reducing meeting fatigue.
+
+<sup>1</sup> The feature is turned on by default. To disable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). ```<IsFrontRowUnifiedBackgroundEnabled>false</IsFrontRowUnifiedBackgroundEnabled>```
+
+<sup>2</sup> You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware.md?tabs=Peripherals) and by following guidance on designing a [Signature Teams Room](room-planning-guidance.md?tabs=emtr#signature-teams-room-1). The feature is turned off by default. To enable the feature, use the following XML. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md). ```<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>```
 
 ### 4.17.51.0 (6/28/2023)
 
@@ -132,6 +147,7 @@ Introduced in this update:
 > We strongly recommend that you test your Teams Rooms devices prior to end of August by turning on Modern authentication for their room accounts.
 >
 > This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online - May 2022 Update
+
 ](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### 4.12.139.0 (7/14/2022)
@@ -174,6 +190,7 @@ Introduced in this update:
 
 > [!NOTE]
 > Windows 10 21H2 feature update will be updated after 7 days of installing the application or Admins can use manual update instead to install faster. Microsoft Teams Rooms application version 4.12 with these changes, will start to roll out in April 2022 and complete rollout in 2-3 weeks. The application updates are delivered through Windows store and the application is automatically installed. This is rolling out on Microsoft Teams Rooms on Windows only. 
+
 What you need to do to prepare: You might want to notify your users about this updated experience and update your training and documentation as appropriate.
 
 ### 4.11.17.0 (3/3/2022)
@@ -810,6 +827,7 @@ Introduced in this update:
 - Request to speak. Muted participants can now request to be unmuted by raising their hand during meetings
 - Auto-answer. Teams Rooms on Android can answer calls or meeting invites automatically. This setting is available to shared configurations only and is located in Admin settings
 
+
 ---
 
 <a name="See"> </a>
@@ -826,3 +844,4 @@ Introduced in this update:
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
+

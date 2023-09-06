@@ -13,7 +13,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 ms.topic: reference
@@ -23,7 +23,7 @@ description: This article describes the Cloud IntelliFrame feature.
 
 # Cloud IntelliFrame
 > [!IMPORTANT]
-> Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois. 
+> Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois.
 
 Cloud IntelliFrame is a new experience that allows online meeting attendees to see people in Teams Rooms more clearly through the smart video feeds of in-room participants. These smart video feeds are created by zooming into the faces of the in-room participants and by eliminating distractions, thereby enhancing the hybrid meeting experience. You can see the expressions and gestures of the people in the room more easily, which helps improve collaboration in hybrid meetings. It creates equity in hybrid meetings as everyone can be seen and heard.
 
@@ -44,9 +44,9 @@ Cloud IntelliFrame shows the smart feed when there are nine or less people in th
 
 :::image type="content" source="../media/video-conference.png" alt-text="Screenshot that shows how a video conference looks like." lightbox="../media/video-conference.png":::
 
-This icon ![Icon indicating activation and display of IntelliFrame](image.png) on the top-right of the room video feed indicates that Cloud IntelliFrame is being displayed.
+This icon ![Icon indicating activation and display of IntelliFrame](../media/intelliframe-activation-icon.png) on the top-right of the room video feed indicates that Cloud IntelliFrame is being displayed.
 
-People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enables a switchback to standard view for the room. All online attendees would then see the standard view from the room.
+People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enable a switchback to standard view for the room. All online attendees would then see the standard view from the room.
 
 :::image type="content" source="../media/standard-view-of-teams-room.png" alt-text="Screenshot that shows how the standard view of a Teams room looks on a computer." lightbox="../media/standard-view-of-teams-room.png":::
 

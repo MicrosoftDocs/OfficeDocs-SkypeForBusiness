@@ -3,14 +3,14 @@ title: Phones and Devices for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: dougand
+ms.reviewer: 
 ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
@@ -86,6 +86,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH76 Plus Headset                                          |8/24/2023       |Certified for Microsoft Teams                           |
+|Lenovo/EPOS          |Wired VoIP Headset                                         |8/21/2023       |Certified for Microsoft Teams                           |
+|Lenovo/EPOS          |Wired ANC Gen 2 Headsets                                   |8/21/2023       |Certified for Microsoft Teams                           |
 |B&O                  |Beocom EX MS Earbuds                                       |7/14/2023       |Certified for Microsoft Teams                           | 
 |Yealink              |MP45 USB Phone                                             |7/12/2023       |Certified for Microsoft Teams                           | 
 |Yealink              |BH71 speakerphone/headset                                  |7/10/2023       |Certified for Microsoft Teams                           | 
