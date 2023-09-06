@@ -18,7 +18,7 @@ ms.custom:
   - ms.teamsadmincenter.signin.error.nopermissions
   - ms.teamsadmincenter.directrouting.cqd
   - seo-marvel-apr2020
-ms.reviewer: islubin
+ms.reviewer: 
 description: Learn how to use the administrative roles to designate administrators who need different levels of access to manage Teams.
 
 appliesto: 

@@ -55,7 +55,7 @@ A team can have up to 200 tags, up to 200 team members can be assigned to a tag,
 
 ### Set who can manage tags
 
-By default, team owners can create, edit, and delete tags. You can change the **Who can manage tags** setting to allow team owners and team members to manage tags, or you can turn off tags for your organization.
+You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you have not selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is currently team owners but could change in the future.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
@@ -83,4 +83,5 @@ You can configure the following tags settings to control how tags are used acros
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 [Shifts Help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+
 

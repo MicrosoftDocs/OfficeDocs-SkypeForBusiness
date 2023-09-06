@@ -3,7 +3,7 @@ title: Education SKU reference
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 03/10/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud

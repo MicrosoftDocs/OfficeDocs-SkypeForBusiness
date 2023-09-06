@@ -9,6 +9,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 search.appverid: MET150
@@ -32,11 +33,13 @@ Depending on their functionality, Teams apps may or may not access your user's o
 
 Based on its permissions, an app can access some information, perform some tasks, and engage with users. To help you understand what apps can do, a compilation of this information is available in [what can apps do in Teams](#what-can-apps-do-in-teams).
 
+:::image type="content" source="media/app-permissions.png" alt-text="Screenshot that shows the permissions tab of an app and the various types of permissions required." lightbox="media/app-permissions.png":::
+
 | Type of permission for an app | Why are the permissions required | Where can you find details | Remarks |
-|-----|-----|-----|
-| (Not a permission) Actions that an installed app can perform | For an app to work, it can interact with users or message users or read basic user profile by virtue of being installed. | Available in Permissions tab in app details page for each app and also listed in the Teams store when a user installed an app. | NA |
-| Non-RSC Graph permissions | For some features to work, an app can need access to your organization's information or a user's information. | Information is displayed in Permissions tab in app details page of each app. See [Microsoft Graph permissions reference](/graph/permissions-reference) for a list of all possible permissions. | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
-| Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. |
+|-----|-----|-----|-----|
+| **1** (Not a permission) Actions that an installed app can perform | For an app to work, it can interact with users or message users or read basic user profile by virtue of being installed. | Available in Permissions tab in app details page for each app and also listed in the Teams store when a user installed an app. | NA |
+| **2** Non-RSC Graph permissions | For some features to work, an app can need access to your organization's information or a user's information. | Information is displayed in Permissions tab in app details page of each app. See [Microsoft Graph permissions reference](/graph/permissions-reference) for a list of all possible permissions. | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
+| **3** Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. |
 
 ## Privacy and data access considerations
 

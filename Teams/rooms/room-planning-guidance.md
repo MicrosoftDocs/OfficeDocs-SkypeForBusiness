@@ -12,15 +12,16 @@ search.appverid: MET150
 ms.reviewer: 
 description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - Tier1
+  - teams-rooms-devices
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
+
 # Meeting room guidance for Teams
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
@@ -221,7 +222,7 @@ The layout features a curved table for in-person eye contact and orientation to 
 
 Using audio solutions certified for Microsoft Teams Rooms, people are able to hear and be heard clearly.
 
-In the future, Teams Rooms will support audio systems that utilize a concept called spatial audio. With spatial audio, sound emanates from the direction of the person speaking. For example, if a person located on the right side of the meeting gallery speaks, the audio will come from the speaker located closest to that location. This kind of immersive audio experience helps meetings more closely resemble an in-person conversation.
+Teams Rooms support audio systems that utilize a concept called spatial audio. With spatial audio, sound emanates from the direction of the person speaking. For example, if a person located on the right side of the meeting gallery speaks, the audio will come from the speaker located closest to that location. This kind of immersive audio experience helps meetings more closely resemble an in-person conversation.
 
 ### How does the camera work?
 
@@ -341,9 +342,7 @@ Microphone arrays need to be positioned to provide coverage for all meeting room
 
 #### Speaker options
 
-Front-of-room speaker arrays and overhead speakers will work for this type of space.
-
-Note: Spatial audio is not yet available and may require specific audio devices.
+Front-of-room speaker arrays and overhead speakers will work for this type of space. To achieve the best spatial audio experience, use a device from the [Teams-certified stereo speakers](/microsoftteams/rooms/certified-hardware?tab=Peripherals&branch=main&tabs=Windows) list and make sure that the left and right speaker set up is correct. Spatial audio can be enabled using the following XML: `<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>`. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 #### Speaker placement
 
@@ -571,3 +570,4 @@ Content cameras:
 Interactive touch devices:
 
 [Microsoft Surface Hub 2S](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822?)
+

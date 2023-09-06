@@ -11,7 +11,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier3
 f1.keywords: 
   - NOCSH
@@ -53,6 +53,17 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X52 | `4.1.0.382263` | 2023 Update #2 |
+| Poly TC10 | `4.1.0.211200` | 2023 Update #2 |
+| Poly Studio X30 | `4.1.0.382263` | 2023 Update #2 |
+| Poly Studio X50 | `4.1.0.382263` | 2023 Update #2 |
+| Poly Studio X70 | `4.1.0.382263` | 2023 Update #2 |
+| Poly Studio G7500 | `4.1.0.382263` | 2023 Update #2 |
+| Poly TC8 | `4.1.0.211200` | 2023 Update #2 |
+| Neat Bar | `NFB1.20230504.0019` | 2023 Update #2 |
+| Neat Bar Pro| `NFD1.20230504.0025` | 2023 Update #2 |
+| Neat Board | `NFC1.20230504.0019` |  2023 Update #2 |
+| Neat Pad touch console | `NFA1.20230504.0202`  |  2023 Update #2 |
 | DTEN D7X 55" |`1.4.3.3`   | 2023 Update #1C |
 | Logi Rallybar | `1.9.571`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.9.571`   | 2023 Update #2  |
@@ -63,6 +74,7 @@ When you install a new firmware version on your device, you can determine the co
 | EPOS EXPAND Vision 3T |`v1.7.23195.03`   | 2023 Update #2 |
 | EPOS EXPAND Control 3C |`v1.7.23198.05`   | 2023 Update #2 |
 | Audiocodes RXV81 | `2.0.369` | 2023 Update #2 |
+| Audiocodes RX-Pad | `2.0.369` | 2023 Update #2 |
 | Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
 | Cisco Room Bar | `11.5.2.5` | 2023 Update #2 |

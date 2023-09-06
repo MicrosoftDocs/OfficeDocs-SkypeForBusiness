@@ -14,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn about live event recording policies.
 appliesto: 
   - Microsoft Teams

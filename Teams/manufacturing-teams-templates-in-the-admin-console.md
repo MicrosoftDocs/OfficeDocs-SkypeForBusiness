@@ -1,7 +1,7 @@
 ---
 title: Get started with manufacturing team templates in the admin center
 author: lana-chin
-ms.author: v-chinlana
+ms.author: heidip
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -10,6 +10,7 @@ ms.reviewer:
 ms.date: 09/10/2020
 ms.collection: 
   - M365-collaboration
+  - m365-frontline 
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use team templates to create team structures designed for manufacturing needs by providing predefined settings, channels, and pre-installed apps using the admin center.

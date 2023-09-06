@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 audience: Admin
 appliesto: 
@@ -19,10 +20,11 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 description: Learn about the Auto attendant and Call queue dialing and voice recognition options in Teams.
 ---
 # Auto attendant and Call queue dialing and voice recognition reference

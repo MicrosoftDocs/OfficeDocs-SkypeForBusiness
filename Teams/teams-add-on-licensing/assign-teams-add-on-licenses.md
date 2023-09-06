@@ -6,6 +6,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings

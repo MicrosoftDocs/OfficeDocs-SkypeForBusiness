@@ -16,7 +16,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn how to secure your Microsoft Teams Rooms on Windows and Android devices.
 ---
@@ -39,7 +39,7 @@ For information about security on Teams Rooms on Android devices, select the **T
 
 Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end-user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
 
-Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled. Teams Rooms performance is tested with Microsoft Defender. Disabling this or adding endpoint security software can lead to unpredictable results and potential system degradation.
+Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled out of the box. Teams Rooms performance is tested with Microsoft Defender, including enrolling into the Defender for Endpoint portal. Disabling this or adding endpoint security software can lead to unpredictable results and potential system degradation.
 
 ## Hardware security
 
@@ -77,6 +77,8 @@ The Microsoft Teams Rooms app runs using the Assigned Access feature found in Wi
 If you decide to run a security scan or a Center for Internet Security (CIS) benchmark on Teams Rooms, the scan can only run under the context of a local administrator account as the Skype user account doesn't support running applications other than the Teams Rooms app. Many of the security features applied to the Skype user context don't apply to other local users and, as a result, these security scans won't surface the full security lockdown applied to the Skype account. Therefore, it is not recommended to run a local scan on Teams Rooms. However, you can run external penetration tests if so desired. Because of this, we recommend that you run external penetration tests against Teams Rooms devices instead of running local scans.
 
 Additionally, lock down policies are applied to limit non-administrative features from being used. A keyboard filter is enabled to intercept and block potentially insecure keyboard combinations that aren't covered by Assigned Access policies. Only users with local or domain administrative rights are permitted to sign into Windows to manage Teams Rooms. These and other policies applied to Windows on Microsoft Teams Rooms devices are continually assessed and tested during the product lifecycle.
+
+Microsoft Defender is enabled out of the box, the Teams Rooms Pro license also includes Defender for Endpoint which allows customers to enroll their Teams Rooms into Defender for Endpoint to provide security teams visibility into the security posture of Teams Room on Windows devices from the Defender portal. Teams Rooms on Windows can be enrolled following the steps for [Windows devices](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager), we do not recommend modifying Teams Rooms using protection rules (or other Defender policies that make configuration changes) as these can impact Teams Rooms functionality; however, reporting functionality into the portal is supported.
 
 ## Account Security
 
@@ -125,6 +127,11 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - mmrprodemeastor.blob.core.windows.net
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
+
+**GCC customers will also need to enable the following URLs:**
+
+- mmrprodgcciot.azure-devices.net
+- mmrprodgccstor.blob.core.windows.net
 
 Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store.
 
