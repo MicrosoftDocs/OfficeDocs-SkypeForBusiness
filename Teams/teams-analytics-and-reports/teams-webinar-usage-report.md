@@ -11,6 +11,7 @@ ms.date: 08/16/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to use the Teams webinar in the Microsoft Teams admin center to get an overview of Teams webinar in your organization.
 appliesto: 
   - Microsoft Teams

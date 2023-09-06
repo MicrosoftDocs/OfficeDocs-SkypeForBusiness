@@ -14,7 +14,7 @@ f1.keywords:
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
 ms.localizationpriority: medium
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
   - Tier1
 appliesto:

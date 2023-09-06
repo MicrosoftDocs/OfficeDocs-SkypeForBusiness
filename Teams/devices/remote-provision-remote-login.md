@@ -11,6 +11,7 @@ ms.subservice: itpro-devices
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 

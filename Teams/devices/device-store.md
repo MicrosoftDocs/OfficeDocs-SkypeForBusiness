@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 audience: Admin

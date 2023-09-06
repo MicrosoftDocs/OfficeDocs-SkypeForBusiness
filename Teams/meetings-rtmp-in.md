@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - Tier2
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:

@@ -17,6 +17,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020

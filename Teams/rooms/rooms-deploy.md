@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/29/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
