@@ -13,6 +13,7 @@ description: Learn how to create, modify, and add users to custom calling polici
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 f1.keywords:
 - CSH
@@ -116,7 +117,7 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 ### Busy on busy during calls
 
-Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default.
+Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default. This setting does not apply to incoming group call or meeting join request. 
 
 - **Off** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **On** New or incoming calls will be rejected with a busy signal.

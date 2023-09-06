@@ -78,7 +78,7 @@ Emergency call routing determines how an emergency call is routed to the Public 
 
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
-You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
+You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 

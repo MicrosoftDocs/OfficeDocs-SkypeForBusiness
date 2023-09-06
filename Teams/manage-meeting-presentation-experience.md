@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in sensitive Teams meetings.

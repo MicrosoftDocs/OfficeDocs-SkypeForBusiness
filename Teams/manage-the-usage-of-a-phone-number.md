@@ -13,6 +13,7 @@ ms.service: msteams
 search.appverid: 
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto:
   - Microsoft Teams
