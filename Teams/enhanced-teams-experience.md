@@ -103,7 +103,6 @@ Teams Premium provides the following features for an enhanced webinar experience
 | -------------------- | ----------- | ----------- |
 | Custom emails | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
 | RTMP-in | No admin control|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
-| Custom webinar reminder email send times | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
 | Manage what attendees see | No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/en-us/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 | Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
