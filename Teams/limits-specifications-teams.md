@@ -56,7 +56,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
-<sup>7</sup> Any combination of standard and shared channels including up to 30 private channels for total of 1000 channels per team.
+<sup>7</sup> Any combination of standard and shared channels including up to 30 private channels for a total of 1,000 channels per team.
 
 ### Limits for shared channels
 
