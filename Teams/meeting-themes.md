@@ -3,7 +3,7 @@ title: Meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
-ms.date: 08/14/2023
+ms.date: 11/16/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -78,18 +78,18 @@ To create a new theme, select **Add meeting theme**.
 
 #### Add a custom logo image
 
-Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1). We recommend using a square icon style logo with minimal text and the dimensions of 800 x 800 pixels.
+Teams Meetings supports square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1).
 
 Uploads must adhere to the following parameters. An admin can only upload:
 
 - PNG and JPEG image formats for their logo.
 - A logo image with a maximum size of 5 MB.
-- A logo image with a minimum dimension of 576 x 576 pixels.
+- A logo image with a minimum dimension of 576 px X 576 px.
 - Upload one image per theme from their device.
 
 #### Add a custom image
 
-Teams meetings support an organization's images that skin the meetings screen and provide a colorful backdrop to your meetings. We recommend using an image with the dimensions of 1440 x 810 pixels.
+Teams meetings support an organization's images that skin the meetings screen and provide a colorful backdrop to your meetings.
 
 > [!NOTE]
 > These images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)
@@ -99,8 +99,8 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 - PNG and JPEG image formats for brand image.
 - Brand images with max size of 5 MB.
 - Brand images with following dimensions:
-  - Minimum dimensions: 1024 x 574 pixels
-  - Maximum dimensions: 3840 x 2160 pixels
+  - Minimum dimensions: 360 px X 360 px
+  - Maximum dimensions: 2048 px X 2048 px
 - Upload a minimum of 0 and a maximum of one image per theme from their device.
 
 #### Add a custom color
@@ -112,7 +112,7 @@ Teams meetings support an organization's primary or secondary color in the meeti
 
 #### Preview a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme looks before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme will look before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
 
 #### Save meeting theme
 
@@ -164,16 +164,12 @@ To support this use case, Tenant Admins can create two distinct customization po
 
 They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
-:::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
-
-:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
-
 ## Where are meeting themes visible
 
 Supported clients:
 
 - Desktop client
-- Web client (Meeting themes aren't currently supported on Safari or Firefox)
+- Web client
 - Android (Versions 11+ only)
 - iOS
 
@@ -186,10 +182,7 @@ Supported clients:
 Logos and images will be available for Join Launcher in future updates.
 
 > [!NOTE]
-> Images aren't visible on mobile clients.
-
-> [!NOTE]
-> Meeting themes don't apply to webinars. The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
+> The webinar registration page will still be used for configuring the webinar's branding for meeting registration and emails.
 
 ## Who can view a meeting theme
 
