@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: sachung
-ms.date: 07/10/2023
+ms.date: 09/06/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,7 +26,7 @@ description: Learn how to set up and manage town hall policies for IT Admins in 
 
 # Set up town halls in Microsoft Teams
 
-Microsoft Teams offers town halls, a one to many interactive virtual event. This article describes how you, as an admin, can set up and manage town halls for your users.
+Microsoft Teams is introducing town halls, a one-to-many interactive virtual event. This article describes how you, as an admin, can set up and manage town halls for your users.
 
 To learn more about town hall webinar features and capabilities, see [PLACEHOLDER].
 
@@ -36,7 +36,7 @@ To learn more about the end user experience, see [PLACEHOLDER].
 
 You can use the Teams admin center to set up and manage the town hall experience for your organization.
 
-### Turn town halls on or off
+### Manage who can schedule town halls
 
 Follow these steps in the Teams admin center to turn town halls on or off:
 
