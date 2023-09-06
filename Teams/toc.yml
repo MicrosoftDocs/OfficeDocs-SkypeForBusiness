@@ -631,6 +631,8 @@ items:
           items: 
             - name: Set up town halls
               href: set-up-town-halls.md
+            - name: Manage VOD publishing permissions for webinars and town halls 
+              href: manage-vod-publishing.md
             - name: Manage who can schedule webinars
               href: set-up-webinars.md
             - name: Set up meeting registration
