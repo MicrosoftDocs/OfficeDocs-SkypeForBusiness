@@ -21,6 +21,7 @@ MS.collection:
   - m365-frontline
   - teams-1p-app-admin
   - highpri
+  - m365-virtual-appointments
 appliesto: 
   - Microsoft Teams
 ---

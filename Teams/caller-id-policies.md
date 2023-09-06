@@ -11,6 +11,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 f1.keywords:
 - CSH

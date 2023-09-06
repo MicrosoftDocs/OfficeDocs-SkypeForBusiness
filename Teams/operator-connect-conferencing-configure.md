@@ -10,6 +10,7 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - m365initiative-meetings
   - highpri
   - Tier1
 ms.reviewer: crowe

@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: 
   - seo-marvel-mar2020
@@ -116,7 +116,8 @@ Once the camera is installed in the room, set it up on that room's Microsoft Tea
 1. Tap away from the dialog to save the settings.
 
 **Selecting the content camera**
-:::image type="content" source="/media/mtr-devices/content-camera-android-800px.png" alt-text="Selecting the camera for use as a content camera for Teams Rooms on Android.":::
+![Select content camera.](../media/mtr-devices/content-camera-android-800px.png)
 
 **Inversing the content camera**
-:::image type="content" source="/media/mtr-devices/content-camera-android2-800px.png" alt-text="Toggle for inversing the content camera feed for inverse mounted content cameras.":::
+![Inversing the camera.](../media/mtr-devices/content-camera-android2-800px.png)
+
