@@ -96,7 +96,8 @@ You can change the time frame by choosing from the **Date range** dropdown list 
 
 ### Teams by user type
 
-The **Teams by user type** widget view shows you how many active teams are there for the last 7 or 30 days, and how many teams comprise the following user compositions:
+The **Teams by user type** widget view shows you how many active teams are there for the last 7, 30, or 60 days, and how many teams comprise the following user compositions:
+
 - Your users only
 - Your users and guests
 - Your users and external users
@@ -109,9 +110,12 @@ The **Teams by user type** widget view shows you how many active teams are there
 
 By default, we show the breakdown for teams active for the last 7 days.
 
+You can view data of active teams (and of their user compositions) for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
+
 ### Channels by user type
 
-The **Channels by user type** widget view shows you how many active channels are there for the last 7 or 30 days, and how many channels comprise the following user compositions:
+The **Channels by user type** widget view shows you how many active channels are there for the last 7, 30, or 60 days, and how many channels comprise the following user compositions:
+
 - Your users (internal to your organization) only
 - Your users and guests
 - Your users and external users
@@ -120,47 +124,39 @@ The **Channels by user type** widget view shows you how many active channels are
 
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
-> This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition.
+> This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition. For example, for **standard and private channels**, you’ll see **(a) How many are made up of your users only**, and **(b) How many are made up of your users and guests**; for **shared channels**, you’ll see **(a) How many are made up of your users only**, and (b) **How many are made up of your users and guests**.
 
-By default, we show the breakdown for channels active for the last 7 days.
-
-External users can only be in shared channels, and guests can only be in standard and private channels. As a result, you'll only see two counts per type of channel. 
-
-For example, for standard and private channels, you’ll see:
-- How many are made up of your users only
-- How many are made up of your users and guests
-
-For shared channels, you’ll see:
-- How many are made up of your users only
-- How many are made up of your users and guests
+By default, we show the breakdown for channels active for the last 7 days. You can view the data of active channels' breakdown for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
 
 ### Teams with the most external user and guest activity
 
 The **Teams with the most external user and guest activity** widget view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/teams-with-most-external-user-and-guest-activity.png" alt-text="Screenshot that shows the External collaboration activity by team widget." lightbox="media/teams-with-most-external-user-and-guest-activity.png":::
+:::image type="content" source="media/teams-with-most-external-user-and-guest-activity.png" alt-text="Screenshot that shows the Teams with the most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity.png":::
 
 > [!NOTE]
 > The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
-You can click **View details** to see the teams’ names and the "sent message count" for each team. An average message count will also be displayed.
+You can click **View details** to see the teams’ names and the "sent message count" for each team. An average message count will also be displayed. By default, we show you these details for the **last 7 days** time frame.
 
 :::image type="content" source="media/teams-with-most-external-user-and-guest-activity-detailed-report.png" alt-text="Screenshot that shows the detailed report - Teams with most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity-detailed-report.png":::
 
-By default, we show you the teams who have engaged in external collaboration in the last 7 days.
-
-You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and clicking **Run report**.
 
 ### Users with the most external user and guest collaboration
 
 The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration.png" alt-text="Screeenshot that shows the Users with the most external user and guest collaboration." lightbox="media/users-with-most-external-users-and-guest-collaboration.png":::
+:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Users with the most external user and guest collaboration." lightbox="media/users-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
-By default, we show you details for the last 7 days.
+You can click **View details** to see the users’ names and the "sent message count" for each user. An average message count will also be displayed. By default, we show you these details for the **last 7 days** time frame.
+
+:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration-detailed-report.png" alt-text="Screenshot that shows the details of users with the most external user and guest collaboration for the last 7 days." lightbox="media/users-with-most-external-users-and-guest-collaboration-detailed-report.png":::
+
+You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and clicking **Run report**.
 
 You can change the time frame by selecting the **30 days** option, which provides details of those internal users who have collaborated the most with guests and external users for the last 30 days.
 
@@ -168,7 +164,7 @@ You can change the time frame by selecting the **30 days** option, which provide
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
-:::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the GUests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
+:::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Guests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > This insight doesn't capture Guest<>In-tenant user activity, but only the Guest<>Guest and Guest<>External user activities. Guest<>External user activities occur in group chats but not in 1:1 chats.
@@ -237,15 +233,15 @@ Notifications are sent to the site owner for the first 3 months, after which no 
 
 ###### Reports
 
-Once a policy has been created and run, the inactive sites are detected and email notifications are triggered for the site owner.This data is available in the form of a report which can be downloaded by clicking the **Download** link under the **Report** column on the **Site lifecycle management** page.
+Once a policy has been created and run, the inactive sites are detected and email notifications are triggered for the site owner.This data is available in the form of a report that can be downloaded by clicking the **Download** link under the **Report** column on the **Site lifecycle management** page.
 
 :::image type="content" source="media/slm-screen-download-reports.png" alt-text="Screenshot showing the Site lifecycle management page from which you can download the report." lightbox="media/slm-screen-download-reports.png":::
 
 To know which are the inactive sites that are associated with inactive teams, you can look for the value **YES** under the **Connected to Teams** column in the report. An example of a report is shown in the following screenshot:
 
-:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot showing the report of an SLM policy which can be downloaded from the Site lifecycle management page." lightbox="media/report-of-slm-policy.png":::
+:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot showing the report of an SLM policy that can be downloaded from the Site lifecycle management page." lightbox="media/report-of-slm-policy.png":::
 
-The inactive sites in the report which have the value **YES** under the **Connected to Teams** column are those sites which are associated with inactive teams.
+The inactive sites in the report which have the value **YES** under the **Connected to Teams** column are those sites that are associated with inactive teams.
 
 ##### Create a new policy for inactive sites
 
@@ -278,7 +274,7 @@ To create an inactive site policy, perform the following steps:
 1. On the time-series charts, last day’s data is empty. For example, on 2/17, time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
 1. Widget location customizations on dashboard are yet to be persisted across sessions.
 1. Csv download hasn’t been enabled.
-1. Very large events may have a small chance of data categorization error. For example, a very large team with very few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
+1. Large events may have a small chance of data categorization error. For example, a large team with few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
 
 #### Remove data obfuscation
 
