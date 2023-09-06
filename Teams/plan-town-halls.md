@@ -39,7 +39,7 @@ For town hall recordings, organizers have the ability to:
 - Quickly publish a recording with all the right permissions set
 - Dynamically check at video load time if a user has permissions to the file
 - Modify the published recording
-- Ensure the meeting chat and meeting details link to the recording are correct and will work for all town hall attendees
+- Ensure the meeting chat and meeting details link to the recording are correct and work for all town hall attendees
 
 As an admin, you control which types of town halls can have their recordings published.
 
