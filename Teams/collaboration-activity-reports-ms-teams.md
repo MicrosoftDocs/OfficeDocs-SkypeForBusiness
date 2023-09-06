@@ -30,11 +30,13 @@ The Collaboration activity reports for Microsoft Teams aim to give Teams adminis
   
 Through Collaboration activity reports, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
 
+The insights you surface from the Collaboration activity reports doesn't capture signals for meetings or calls. These insights take only messages-sent signals. The enhancement of these insights capturing signals related to meetings or calls will be implemented by the end of 2023.
+
 ## Where to find Collaboration activity reports
 
 The Collaboration activity reports can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
 
-:::image type="content" source="media/dashboard-collaboration-activity-feature.png" alt-text="The dashboard displaying the Collaboration activity reports menu item." lightbox="media/dashboard-collaboration-activity-feature.png":::
+:::image type="content" source="media/collaborative-activity-dashboard.png" alt-text="Screenshot that shows the Collaboration activity reports menu item." lightbox="media/collaborative-activity-dashboard.png":::
 
 ## Components
 
@@ -57,13 +59,13 @@ We recommend the removal of inactive teams to avoid the spread of confidential i
 
 The **Inactive teams** widget view shows only inactive teams whose connected workloads are also inactive. It shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for the specific day that falls in the last 30-60 days timeframe.
 
-:::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
+:::image type="content" source="media/inactive-teams.png" alt-text="Screenshot that shows details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
 Click **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, number of users in the team, and the last activity date.
 
 We began calculating the last activity date from July 10, 2023, and this activity date is the base-activity date. Last activity dates that are after this base-activity date are displayed. For activities that took place on dates earlier to this base-activity date, a **-** is displayed in the **Last activity date (UTC)** column.
 
-:::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
+:::image type="content" source="media/detailed-report-view.png" alt-text="Screenshot that shows the detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
 By default, we show you the teams that have been inactive from the last 30 days.
 
@@ -79,7 +81,7 @@ To archive an inactive team, scroll to the extreme right, under **Action** col
 
 The **Inactive external domains activity** widget view shows you how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart representation to see exact counts for that day.
 
-:::image type="content" source="media/external-domains-activity.png" alt-text="The report displaying the total number of allowed domains." lightbox="media/external-domains-activity.png":::
+:::image type="content" source="media/inactive-external-domains.png" alt-text="SCreenshot that shows the total number of allowed domains." lightbox="media/inactive-external-domains.png":::
 
 > [!NOTE]
 > This insight will not surface for organizations with open federation enabled.
@@ -90,7 +92,7 @@ By default, we show you the domains that have been inactive from the last 30 day
 
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
  
-:::image type="content" source="media/detailed-report-view-external-domains-activity.png" alt-text="The detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-external-domains-activity.png":::
+:::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
 
 ### Teams by user type
 
@@ -100,7 +102,7 @@ The **Teams by user type** widget view shows you how many active teams are there
 - Your users and external users
 - All user types
 
-:::image type="content" source="media/teams-by-user-type.png" alt-text="The Teams by user type widget." lightbox="media/teams-by-user-type.png":::
+:::image type="content" source="media/teams-by-user-type.png" alt-text="SCreenshot that shows the Teams by user type widget." lightbox="media/teams-by-user-type.png":::
 
 > [!NOTE]
 > This insight doesn't tell you how many users are in a team; it shows how many teams have a specific user composition. For example, a team with 100 of your users and one guest counts as one team comprised of “my users and guests”.
@@ -114,7 +116,7 @@ The **Channels by user type** widget view shows you how many active channels are
 - Your users and guests
 - Your users and external users
 
-:::image type="content" source="media/channels-by-user-type.png" alt-text="The Channels by user type widget." lightbox="media/channels-by-user-type.png":::
+:::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type widget." lightbox="media/channels-by-user-type.png":::
 
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
@@ -136,14 +138,14 @@ For shared channels, you’ll see:
 
 The **Teams with the most external user and guest activity** widget view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/external-collaboration-activity-by-team.png" alt-text="The External collaboration activity by team widget." lightbox="media/external-collaboration-activity-by-team.png":::
+:::image type="content" source="media/teams-with-most-external-user-and-guest-activity.png" alt-text="Screenshot that shows the External collaboration activity by team widget." lightbox="media/teams-with-most-external-user-and-guest-activity.png":::
 
 > [!NOTE]
 > The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can click **View details** to see the teams’ names and the "sent message count" for each team. An average message count will also be displayed.
 
-:::image type="content" source="media/external-collaboration-activity-by-team-detailed-report.png" alt-text="The detailed report - External collaboration activity by team." lightbox="media/external-collaboration-activity-by-team-detailed-report.png":::
+:::image type="content" source="media/teams-with-most-external-user-and-guest-activity-detailed-report.png" alt-text="Screenshot that shows the detailed report - Teams with most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity-detailed-report.png":::
 
 By default, we show you the teams who have engaged in external collaboration in the last 7 days.
 
@@ -153,37 +155,29 @@ You can change the time frame by choosing from the **Date range** dropdown list 
 
 The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/external-collaboration-activity-by-user.png" alt-text="The External collaboration activity by user widget." lightbox="media/external-collaboration-activity-by-user.png":::
+:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration.png" alt-text="Screeenshot that shows the Users with the most external user and guest collaboration." lightbox="media/users-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
-You can click **View details** to see the users’ names and the "sent message count" for each user. An average message count will also be displayed.
-
-:::image type="content" source="media/external-collaboration-activity-by-user-detailed-report.png" alt-text="The detailed report - External collaboration activity by user." lightbox="media/external-collaboration-activity-by-user-detailed-report.png":::
-
 By default, we show you details for the last 7 days.
 
-You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+You can change the time frame by selecting the **30 days** option, which provides details of those internal users who have collaborated the most with guests and external users for the last 30 days.
 
 ### Guests with the most external user and guest collaboration
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
-:::image type="content" source="media/guest-user-activity.png" alt-text="The Guest user activity widget." lightbox="media/guest-user-activity.png":::
+:::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the GUests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > This insight doesn't capture Guest<>In-tenant user activity, but only the Guest<>Guest and Guest<>External user activities. Guest<>External user activities occur in group chats but not in 1:1 chats.
 
 > The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
-You can click **View details** to see the guest’s names and the "sent message count" for each guest. An average message count will also be displayed.
-
-:::image type="content" source="media/guest-user-activity-detailed-report.png" alt-text="The detailed report - Guest user activity." lightbox="media/guest-user-activity-detailed-report.png":::
-
 By default, we show you the guest users who have engaged in external collaboration for the last 7 days.
 
-You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
+You can change the time frame by selecting the **30 days** option, which provides details of those guests who have collaborated the most with guests and external users for the last 30 days.
 
 #### Site Lifecycle Management (SLM)
 
