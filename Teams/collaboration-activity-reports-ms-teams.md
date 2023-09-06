@@ -59,7 +59,9 @@ The **Inactive teams** widget view shows only inactive teams whose connected wor
 
 :::image type="content" source="media/inactive-teams.png" alt-text="The screen displaying details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-Click **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, and number of users in the team.
+Click **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, number of users in the team, and the last activity date.
+
+We began calculating the last activity date from July 10, 2023, and this activity date is the base-activity date. Last activity dates that are after this base-activity date are displayed. For activities that took place on dates earlier to this base-activity date, a **-** is displayed in the **Last activity date (UTC)** column.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="The detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
@@ -82,7 +84,7 @@ The **Inactive external domains activity** widget view shows you how many domain
 > [!NOTE]
 > This insight will not surface for organizations with open federation enabled.
 
-You can click **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date from the day your tenant buys the Teams Premium licenses. 
+You can click **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date from the day your tenant buys the Teams Premium licenses. Any activity on the domain prior to purchase of the license isn't counted, and the **Last activity date (UTC)** column displays **-**.
 
 By default, we show you the domains that have been inactive from the last 30 days.
 
