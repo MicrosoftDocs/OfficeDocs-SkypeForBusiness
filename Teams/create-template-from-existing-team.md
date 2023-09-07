@@ -1,7 +1,7 @@
 ---
 title: Create a template from an existing team in Microsoft Teams
 author: lana-chin
-ms.author: v-chinlana
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: aaglick
 ms.date: 07/27/2020

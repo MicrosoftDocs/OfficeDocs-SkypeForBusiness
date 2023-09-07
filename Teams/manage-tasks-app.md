@@ -1,7 +1,7 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
 author: lana-chin
-ms.author: v-chinlana
+ms.author: heidip
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
