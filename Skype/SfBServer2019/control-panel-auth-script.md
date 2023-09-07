@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server 2019 control panel authentication script"
 ms.reviewer: rogupta
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.date: 07/23/2019

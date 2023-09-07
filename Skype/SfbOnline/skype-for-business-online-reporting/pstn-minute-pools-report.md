@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "PSTN minute pools report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney

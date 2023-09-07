@@ -1,7 +1,7 @@
 ---
 ms.date: 03/16/2018
 title: "Office 365 Enterprise E5 (without Audio Conferencing)"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
