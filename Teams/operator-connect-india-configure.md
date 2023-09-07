@@ -52,8 +52,8 @@ To enable an operator:
 
 How you set up phone numbers for Operator Connect for India depends on whether you're:
 
-- Setting up numbers for new Operator Connect for India users
-- Moving existing numbers from Direct Routing to Operator Connect for India
+- Setting up numbers for new Operator Connect for India users.
+- Moving existing numbers from Direct Routing to Operator Connect for India.
 
 **If you're setting up phone numbers for new Operator Connect for India users**, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
@@ -77,7 +77,7 @@ To acquire numbers for new Operator Connect for India users, follow these steps:
 > [!NOTE]
 > In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can also get service numbers including toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers in India, contact your operator.
 
-### Move numbers from Direct Routing to Operator Connect for India
+### Move phone numbers from Direct Routing to Operator Connect for India
 
 **NOTE: Read this section only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
