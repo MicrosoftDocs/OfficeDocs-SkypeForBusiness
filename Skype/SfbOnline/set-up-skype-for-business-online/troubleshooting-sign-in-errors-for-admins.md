@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Troubleshooting Skype for Business Online sign-in errors for administrators"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
