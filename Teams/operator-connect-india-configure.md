@@ -74,8 +74,7 @@ To acquire numbers for new Operator Connect for India users, follow these steps:
 
 4. **Assign numbers.** After your operator completes the number acquisition order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. You can then assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
-> [!NOTE]
-> In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can also get service numbers including toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers in India, contact your operator.
+
 
 ### Move phone numbers from Direct Routing to Operator Connect for India
 
@@ -159,6 +158,10 @@ Once your operator completes the order, they'll upload numbers to your tenant. Y
 ### Assign numbers
 
 For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+
+### Service numbers
+
+In addition to getting phone numbers for your users, you can also get service numbers including toll or toll-free phone numbers for services such as Audio conferencing (for conference bridges), Auto attendants, and Call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers in India, contact your operator.
 
 ## Manage your operators
 
