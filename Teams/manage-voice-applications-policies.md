@@ -126,7 +126,7 @@ You can edit the global policy or any custom policies you create.
 
 - **Business hours**: Turn on this setting to allow authorized users to change the *Auto attendant business hours schedule* for the Auto attendants they're authorized for.
 
-- - **Holiday dates and hours**: Turn on this setting to allow authorized users to change the *Auto attendant holiday schedules* for the Auto attendants they're authorized for.
+- **Holiday dates and hours**: Turn on this setting to allow authorized users to change the *Auto attendant holiday schedules* for the Auto attendants they're authorized for.
 
   > [!WARNING]
   > Holiday sets may be shared across multiple auto attendants.  When an authorized user makes a change to the dates or times in a holiday set, it affects all auto attendants that use that holiday set.
@@ -144,7 +144,7 @@ You can edit the global policy or any custom policies you create.
 - **Real Time Auto Attendant Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time auto attendant metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the auto attendants they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
-   -  
+     
 - **Historical Auto Attendant Metrics**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the auto attendants they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
@@ -208,19 +208,19 @@ You can edit the global policy or any custom policies you create.
 
 #### Reporting
 
- - **Real Time Call Queue Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time call queue metrics.
+- **Real Time Call Queue Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time call queue metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
- - **Real Time Agent Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time agent metrics.
+- **Real Time Agent Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time agent metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
-  - **Historical Call Queue Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access historical call queue metrics.
+- **Historical Call Queue Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access historical call queue metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
 
- - **Historical Agent Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access historical agent metrics.
+- **Historical Agent Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access historical agent metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
    -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
 
