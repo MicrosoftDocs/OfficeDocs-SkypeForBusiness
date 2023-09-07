@@ -48,18 +48,23 @@ To enable an operator:
 
 5. **Add your operator.** Select **Add as my operator** to save.
 
-## Set up phone numbers
+## Set up phone numbers for Operator Connect for India
 
-How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Direct Routing.
+How you set up phone numbers for Operator Connect for India depends on whether you're:
 
-- If you need to acquire phone numbers for new users in India, see [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).
+- Setting up numbers for new Operator Connect for India users
+- Moving existing numbers from Direct Routing to Operator Connect for India
 
-- If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect-for-india).
+- If you're setting up phone numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
+
+- If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india).
 
 
-### Acquire numbers for new Teams users
+### Set up phone numbers for new Operator Connect for India users
 
-To acquire numbers for new Teams users, follow these steps:
+Note: **This section applies only if you are setting up phone numbers for new Operator Connect for India users.** If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india)
+
+To acquire numbers for new Operator Connect for India users, follow these steps:
 
 1. **Assign an India Teams Phone license to each user.** You'll obtain the license from your Operator Connect for India operator. You can assign licenses to your users from the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -74,7 +79,11 @@ To acquire numbers for new Teams users, follow these steps:
 
 ### Move numbers from Direct Routing to Operator Connect for India
 
+Note: **This section applies only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
+
 To move from Direct Routing to Operator Connect for India with on-premises or online phone numbers, follow these steps:
+
+**ADD LICENSING INFO**
 
 #### Step 1 - Identify if the existing Direct Routing numbers are assigned online or on-premises.
 
