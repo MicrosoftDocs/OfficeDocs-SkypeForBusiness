@@ -67,7 +67,7 @@ The order of statuses, from most available to least available, is:
 
 ## Automatic status settings and user experience
 
-App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** is be the state people see in Teams. Focus mode displays as **Do not disturb** in other products.
+App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** is the state people see in Teams. Focus mode displays as **Do not disturb** in other products.
 
 Your current presence state changes to Away when you lock your computer or when your computer enters idle or sleep mode. On a mobile device, your presence status changes to Away whenever the Teams app is in the background.
 
@@ -93,7 +93,7 @@ Users can set a duration for the presence that they set manually. If a user does
 
 The following admin settings Skype for Business are different in Teams:
 
-- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence is not visible to people outside the organization.
+- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence isn't visible to people outside the organization.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar integration (includes out of office and other calendar information) is always enabled for users when Teams is integrated with Outlook.
