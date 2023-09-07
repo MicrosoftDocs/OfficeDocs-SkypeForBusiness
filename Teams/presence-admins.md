@@ -29,14 +29,14 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 For details about Teams user profiles on different platforms, see also [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  > [!NOTE]
- > Teams respects your privacy configuration so if you have enabled the [privacy mode](/powershell/module/skype/set-csprivacyconfiguration#-enableprivacymode), your presence will not be visible to external users.
+ > Teams respects your privacy configuration so if you have enabled the [privacy mode](/powershell/module/skype/set-csprivacyconfiguration#-enableprivacymode), your presence isn't visible to people outside the organization.
 
 ## Presence states in Teams
 
-|User configured|App configured|
+|User-configured|App-configured|
 |:--- |:---|
 | ![Solid green check mark, indicates Presence Available.](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
-|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using Teams during these periods of time, the user's presence will be shown alongside the Out of Office indicator. |
+|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using Teams during these periods of time, the user's presence is shown alongside the Out of Office indicator. |
 |  ![Solid red circle, indicates Busy.](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
 || ![Solid red circle, indicates Busy in a call.](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting.](media/Presence_Busy.png) In a meeting |
@@ -67,7 +67,7 @@ The order of statuses, from most available to least available, is:
 
 ## Automatic status settings and user experience
 
-App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
+App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** is be the state people see in Teams. Focus mode displays as **Do not disturb** in other products.
 
 Your current presence state changes to Away when you lock your computer or when your computer enters idle or sleep mode. On a mobile device, your presence status changes to Away whenever the Teams app is in the background.
 
@@ -83,17 +83,17 @@ Call queues can use presence to route calls to agents. For more information, see
 
 Users can manually select a status as follows:
 
-- Users in a meeting can select any status and it will last for the duration of the meeting.
+- Users in a meeting can select any status and it lasts for the duration of the meeting.
 
-- Users not in a meeting can select any status that is less availble than the automatically calculated status. (For example, if a user's calculated status is **Do not disturb**, they could choose a status of **Away** but not **Available**.)
+- Users not in a meeting can select any status that is less available than the automatically calculated status. (For example, if a user's calculated status is **Do not disturb**, they could choose a status of **Away** but not **Available**.)
 
-Users can set a duration for the presence that they set manually. If a user doesn't set a duration, their presence will be manually set for 1 day if it's **Busy** or **Do not disturb**, and for 7 days if it's any other status.
+Users can set a duration for the presence that they set manually. If a user doesn't set a duration, their presence is manually set for 1 day if it's **Busy** or **Do not disturb**, and for 7 days if it's any other status.
 
 ## Admin settings in Teams compared to Skype for Business
 
 The following admin settings Skype for Business are different in Teams:
 
-- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence is not visible to external users.
+- In Teams, presence sharing is always enabled for users in the organization unless Privacy mode is enabled. In Privacy mode, presence is not visible to people outside the organization.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in Skype for Business) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 - Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
 - Calendar integration (includes out of office and other calendar information) is always enabled for users when Teams is integrated with Outlook.
