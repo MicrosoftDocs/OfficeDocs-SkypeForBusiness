@@ -57,12 +57,12 @@ How you set up phone numbers for Operator Connect for India depends on whether y
 
 **If you're setting up phone numbers for new Operator Connect for India users**, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
-**If you're moving existing numbers from Direct Routing to Operator Connect for India**, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india).
+**If you're moving existing numbers from Direct Routing to Operator Connect for India**, see [Move numbers from Direct Routing to Operator Connect for India](#move-phone-numbers-from-direct-routing-to-operator-connect-for-india).
 
 
 ### Set up phone numbers for new Operator Connect for India users
 
-**NOTE: Read this section only if you're setting up phone numbers for new Operator Connect for India users.** If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india)
+**NOTE: Read this section only if you're setting up phone numbers for new Operator Connect for India users.** If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-phone-numbers-from-direct-routing-to-operator-connect-for-india)
 
 To acquire numbers for new Operator Connect for India users, follow these steps:
 
