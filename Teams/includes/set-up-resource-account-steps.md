@@ -45,7 +45,7 @@ Acceptable phone numbers that can be applied to resource accounts include:
 - **Operator Connect numbers:** To acquire Operator Connect numbers, see [Configure Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 > [!NOTE]
-> We support resource accounts with Direct Routing phone numbers with or without extensions. Currently, Teams admin center only supports assigning Direct Routing phone numbers without extensions. To assign a Direct Routing phone number with extension to an resource account use the Teams PowerShell Module cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+> Resource accounts with Direct Routing phone numbers with or without extensions are supported. Currently, the Teams admin center only supports assigning Direct Routing phone numbers without extensions. To assign a Direct Routing phone number with an extension to a resource account, use the Teams PowerShell cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 To port a number from another carrier, see [Transfer phone numbers to Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
