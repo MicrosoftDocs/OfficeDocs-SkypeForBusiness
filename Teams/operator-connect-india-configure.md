@@ -66,13 +66,13 @@ How you set up phone numbers for Operator Connect for India depends on whether y
 
 To acquire numbers for new Operator Connect for India users, follow these steps:
 
-1. **Assign an India Teams Phone license to each user.** You'll obtain the license from your Operator Connect for India operator. You can assign licenses to your users from the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Assign an Operator Connect for India Teams Phone license to each user.** You'll obtain the license from your Operator Connect for India operator. You can assign licenses to your users from the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 2. **Teams Only mode.** Users who are assigned phone numbers acquired with Operator Connect for India must be in TeamsOnly mode. If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. To check this, in the Teams admin center, go to **Teams > Teams upgrade settings**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
 
-3. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. To find your operator's website, go to the [Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id).
+3. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers.  You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id).
 
-4. **Assign numbers.** After your operator completes the number acquisition order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. You can then assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
+4. **Assign numbers.** After your operator completes the number acquisition order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. You can then assign numbers to users from the Teams admin center or by using PowerShell. For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 
 
@@ -80,84 +80,28 @@ To acquire numbers for new Operator Connect for India users, follow these steps:
 
 **NOTE: Read this section only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
-To move from Direct Routing to Operator Connect for India with on-premises or online phone numbers, follow these steps:
+To move phone numbers from Direct Routing to Operator Connect for India, follow these steps.  You'll need to coordinate with your operator to port your existing Direct Routing numbers to Operator Connect for India numbers.
 
-**ADD LICENSING INFO**
+>[!IMPORTANT]
+> The phone number will be out of service during the migration, so coordinate with your Operator Connect for India operator before you begin.
 
-#### Step 1 - Identify if the existing Direct Routing numbers are assigned online or on-premises.
+1. **Create a list** of all the Direct Routing numbers you want to move.
 
-Check that the user is assigned a Direct Routing number by running the Teams PowerShell Module command:
+2. **Acquire Operator Connect for India Teams Phone user licenses and phone numbers** from your Operator Connect for India operator. Go to your operator's website to order and acquire phone numbers. You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id).
 
-```PowerShell
-Get-CsPhoneNumberAssignment -AssignedPstnTargetId <user> 
-```
+3. **Assign Operator Connect for India Teams Phone licenses to your users** by using the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-Check that `NumberType` is DirectRouting.
+   > [!Important]
+   > Assigning the Operator Connect for India license to a user will remove the user's Direct Routing number. Be sure you have the new licenses and numbers ready to go before you complete this step.
 
-How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following Teams PowerShell Module command:
-    
-```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
-```
+4. **After the Direct Routing number is unassigned, remove the online voice routing policy** associated with your user by running the following Teams PowerShell Module command:
 
-If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Microsoft 365.
+   ```PowerShell
+   Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
+   ```
 
-- **To migrate existing Direct Routing numbers assigned online to Operator Connect for India**, contact your operator. To find your operator's website, see [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). On an agreed date and time, your operator will migrate your numbers from Direct Routing to Operator Connect.
+5. **Assign the Operator Connect for India numbers to your users.** After your operator completes the number acquisition order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. You can then assign numbers to users from the Teams admin center or by using PowerShell. For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
-- **To migrate Direct Routing numbers assigned on-premises to Operator Connect for India**, run the following Skype for Business Server PowerShell command:
-
-  ```PowerShell
-  Set-CsUser -Identity <user> -LineURI $null 
-  ```
-
-  >[!IMPORTANT]
-  > The phone number will be out of service during the migration, so coordinate with your Operator Connect for India operator before you begin.
-
-  The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced from on-premises to Microsoft 365, run the following Teams PowerShell Module command: 
-    
-  ```PowerShell
-  Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
-  ```
-       
-  After the changes have synced to Microsoft 365 online directory, the expected output is: 
-       
-   ```console
-  RegistrarPool                        : pool.infra.lync.com
-  OnPremLineURI                        : 
-  LineURI                              : 
-  ```
-  
-  To remove a number:
-
-  ```PowerShell
-  Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
-  ```
-
-  Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. To check if the phone number was removed, run the following Teams PowerShell Module command: 
-
-  ```PowerShell
-    Get-CsOnlineUser -Identity <user> | fl LineUri
-  ```
-
-#### Step 2 - Remove the online voice routing policy associated with your user
-
-Once the number is unassigned, remove the online voice routing policy associated with your user by running the following Teams PowerShell Module command:
-
-```PowerShell
-Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
-```
-
-#### Step 3 - Acquire phone numbers
-
-Go to your operator's website to order and acquire phone numbers. To find your operators website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
-
-#### Step 4 - Assign phone numbers
-
-Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
-
-### Assign numbers
-
-For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ### Service numbers
 
