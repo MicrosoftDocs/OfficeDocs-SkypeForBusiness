@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: 
 ms.date: 03/23/2023
 f1.keywords:
 - NOCSH

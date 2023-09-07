@@ -1,7 +1,7 @@
 ---
 title: Walkie Talkie usage and performance report
 author: lana-chin
-ms.author: v-chinlana
+ms.author: heidip
 manager: serdars
 audience: admin
 ms.topic: article
@@ -16,7 +16,7 @@ ms.collection:
   - M365-collaboration
   - m365-frontline
   - highpri
-  - tier2
+  - teams-1p-app-admin
 description: Learn how to use the Walkie Talkie usage and performance report in the Microsoft Teams admin center to get an overview of Walkie Talkie usage activity in your organization.
 appliesto: 
   - Microsoft Teams

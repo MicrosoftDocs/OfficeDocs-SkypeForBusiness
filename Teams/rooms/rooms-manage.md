@@ -3,7 +3,7 @@ title: Manage Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/25/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn about how to develop and execute ongoing maintenance and operations to ensure that your Microsoft Teams Rooms systems are available for your users.
 ms.custom: seo-marvel-apr2020
@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Microsoft Teams Rooms and Surface Hubs
 
-If you have Microsoft Teams Rooms device or a Surface Hub in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all your Teams solutions, Microsoft Teams admin center.
+If you have Microsoft Teams Rooms device or a Surface Hub in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all your Teams solutions, Microsoft Teams admin center or in Teams Rooms Pro Management.
 
 With Microsoft Teams admin center, you can:
 
@@ -33,13 +33,16 @@ With Microsoft Teams admin center, you can:
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
 - See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms (only for Teams Rooms on Windows)
 
-To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs**.
+To manage Teams Rooms devices in Teams Room Pro Management, see [Microsoft Teams Rooms Pro Management Portal](rooms-pro-rbac.md)
+
+To manage Teams Rooms devices in Teams Admin Center, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams Rooms summary page in Teams admin center.":::
 
-
 > [!IMPORTANT]
 > To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Devices Administrator roles.
+
+ To manage devices using Teams Rooms Pro management, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal][https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-rbac]
 
 ## Make changes to Teams Rooms devices or Surface Hubs
 
@@ -108,7 +111,7 @@ See [Manage Microsoft Teams configuration on Surface Hubs](surface-hub-manage-co
 
 ### Cortana settings
 
-You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately.
+You can enable Cortana for *Voice Activation* or *Push to talk* using PowerShell for all devices in your organization, or for each device separately.
 
 See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
@@ -132,7 +135,7 @@ Changes to device settings will only take effect after the device has been resta
 
 - **Immediate restart** If you choose this option, all of the devices you're making changes to will restart as soon as you select this option.
 - **Scheduled restart** If you choose this option, you can restart the devices you're making changes to at a time that's less disruptive to your organization.
-  - **Select date and time** - Choose the specific date and time to restart the device. The date and time you choose is local to the device being restarted. 
+  - **Select date and time** - Choose the specific date and time to restart the device. The date and time you choose is local to the device being restarted.
   - **Leave update for nightly reboot** Devices are restarted nightly to perform maintenance. Changes you make to devices will be applied during this restart.
 
 > [!CAUTION]
@@ -199,3 +202,5 @@ The participant summary page shows all of the participants that attended the mee
 The participant details page shows end-to-end diagnostic information for that participant's session. As shown in the following graphic, **Device**, **System**, and **Connectivity** information is provided for the participant and for the Teams Rooms device. **Network** diagnostic information between the participant and the Teams Rooms device is also provided. Select the icon for the context you want more information about. For additional diagnostic information, select the **Advanced** tab.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Rooms device call details.":::
+
+[https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-pro-rbac]: https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-pro-rbac

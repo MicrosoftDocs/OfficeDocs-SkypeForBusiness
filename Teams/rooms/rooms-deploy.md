@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/29/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
@@ -27,7 +27,7 @@ Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 
 - Confirming that your deployment locations (spaces) meet the deployment dependencies
 - Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to Teams Rooms (see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md))
-- (Optional) Setting up Azure Monitor for your systems see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
+- Setting up Teams Rooms Pro Management for your systems see [Enrolling a device into Pro Management](enrolling-mtrp-managed-service.md)
 - Setting up Teams Rooms in meeting spaces and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
 > [!TIP]
@@ -129,7 +129,7 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 Teams Rooms comes pre-installed by the original equipment manufacturer (OEM).
 
-We provide guidance on how to use [Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. If you decide to use Microsoft Operations Management Suite, you should install the Operations Management Suite agent as part of the software installation process and configure the workspace connection information for your workspace. 
+We provide guidance on how to use [Microsoft Teams Rooms Pro Management](/managed-meeting-rooms-portal) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. 
 
 An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Configuring Group Policy for Microsoft Teams Rooms](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms). 
 
@@ -173,7 +173,7 @@ You can use [remote PowerShell](rooms-operations.md#remote-management-using-powe
 
 ### Testing
 
-After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams admin center. It's also important that you make a number of test calls and meetings to check quality.
+After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams admin center and in Teams Rooms Pro Management. It's also important that you make a number of test calls and meetings to check quality.
 
 We recommend that as part of the general Teams or Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see [Improve and monitor call quality for Teams](../monitor-call-quality-qos.md). 
 

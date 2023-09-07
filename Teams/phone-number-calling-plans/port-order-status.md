@@ -20,6 +20,7 @@ ms.custom:
 description: Learn how to get the status of your port orders, and what the different actions you can take on them. 
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 

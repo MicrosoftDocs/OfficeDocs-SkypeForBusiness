@@ -11,6 +11,7 @@ ms.date: 08/16/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage email communications for webinars in Microsoft Teams for admins.
 appliesto: 
   - Microsoft Teams

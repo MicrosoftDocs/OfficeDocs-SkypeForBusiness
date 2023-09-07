@@ -1,7 +1,7 @@
 ---
 ms.date: 06/22/2018
 title: "Plan a Cloud call queue"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars 
 ms.reviewer: wasseemh

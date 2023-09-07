@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 08/25/2022
 search.appverid: MET150

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 07/26/2022
 description: Learn how Insights data is used in Reading Progress to help improve students' reading proficiency.
 search.appverid: MET150
