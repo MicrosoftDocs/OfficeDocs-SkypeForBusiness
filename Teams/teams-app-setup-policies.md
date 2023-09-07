@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
-ms.date: 08/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -24,7 +24,7 @@ ms.custom:
 
 # Use app setup policies to pin and auto-install apps for users
 
-As an admin, you use app setup policies to install and pin apps and control which users can upload custom apps in personal or team context. Pinning helps promote adoption of apps for the users and it provides quick access to the relevant apps. To know more, see [app setup policy](app-policies.md).
+As an admin, you use app setup policies to install and pin apps and control the specific users who can upload custom apps. Pinning helps promote adoption of and provide quick access to the relevant apps in your organization.
 
 * **[Pin apps](#pin-apps):** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the users can pin their own apps or not.
 
