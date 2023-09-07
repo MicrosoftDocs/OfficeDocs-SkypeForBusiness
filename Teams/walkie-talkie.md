@@ -110,8 +110,8 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 - Wireless headsets (iOS and Android)
   - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
-        - B450-XT, firmware version 1.07
-        - C300-XT, firmware version 1.30
+      - B450-XT, firmware version 1.07
+      - C300-XT, firmware version 1.30
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
@@ -150,7 +150,7 @@ The [Walkie Talkie usage and performance report](teams-analytics-and-reports/wal
 
 ## More information
 
-- If users are using mobile data to communicate via Teams, Walkie Talkie uses the same method.
+- If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 To learn more about the end-user experience, see:
