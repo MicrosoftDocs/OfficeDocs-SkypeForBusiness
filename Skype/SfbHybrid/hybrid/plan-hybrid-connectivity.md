@@ -1,7 +1,7 @@
 ---
 ms.date: 03/17/2018
 title: Plan hybrid connectivity | Skype for Business Server and Teams 
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
