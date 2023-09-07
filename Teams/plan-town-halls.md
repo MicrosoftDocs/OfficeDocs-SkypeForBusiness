@@ -30,22 +30,16 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
- Microsoft Teams town halls bring interactive video streaming to a new level. This event format is meant for one-to-many communications where the town hall organizer or co-organizer is leading the interactions. In town halls, the audience participation is primarily to view and react to the content being shared. Town halls encourage community throughout the entire engagement lifecycle with attendees before, during, and after each experience.
+ Microsoft Teams town halls bring interactive video streaming to a new level. This event format is meant for one-to-many communications where the town hall organizer or co-organizer is leading the interactions. In town halls, the audience participation is primarily to view and react to the content being shared.
 
 ## Recordings and publishing
 
 For town hall recordings, organizers have the ability to:
 
 - Quickly publish a recording with all the right permissions set
-- Dynamically check at video load time if a user has permissions to the file
 - Modify the published recording
-- Ensure the meeting chat and meeting details link to the recording are correct and will work for all town hall attendees
 
 As an admin, you control which types of town halls can have their recordings published.
-
-## Streaming
-
-**Town halls have Attendees, by default, set to stream mode? Premium Streaming attendee overflow?... need more details on this area
 
 ## eCDN
 
@@ -61,15 +55,11 @@ For more information about the Microsoft eCDN, see [Introduction to Microsoft eC
 
 ## Attendee interaction
 
-Attendees don't use their cameras or microphones during town halls. Instead, attendees interact and engage through:
-
-- **Q&A**: You can manage which organizers can turn on Q&A for meetings and town halls.
-- Polls
-- **Reactions and hand raise**: You can manage which organizers have reactions available for attendees to use during their meetings and town halls.
+Attendees don't use their cameras or microphones during town halls. Instead, attendees interact and engage through the following **Q&A**. As an admin, you can manage which organizers can turn on Q&A for meetings and town halls.
 
 ## External participants
 
-*Need details on this section
+External attendees can join a town hall if it’s set to public only.
 
 ## Premium town halls
 
@@ -81,51 +71,32 @@ With a Teams premium license, your users have access to extended capabilities. T
 |Attendee reporting|Yes|Yes|
 |eCDN|3rd and 1st party|1st party|
 |Duration|30 hours|30 hours|
-|RTMP in|No|Yes|
-|Producer UX|Meeting views|Manage mode|
+|RTMP in|Yes|Yes|
+|Producer UX|Manage what attendees see |Manage what attendees see |
 |Default audio and video off|Yes|Yes|
-|Layouts|Dynamic grid with spotlight|Focused curated view|
-|Green room|No|Yes|
-|External presenters|Yes|Yes|
+|Layouts|Focused curated view|Focused curated view|
+|Green room|Yes|Yes|
 |Hidden participant list|Yes|Yes|
-|Stream to|Yes(custom)|Yes(custom)|
 |AI generated captions|Yes|Yes|
 |Q&A capacity|10k|20k|
 |VOD|Yes|Yes|
-|Real time monitoring|Yes|Yes|
+|Organizer level|No|Yes|
 |Essential emails|Yes|Yes|
 |Email editing|No|Yes|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
-
-## Production
-
-*Town halls support the mix of RTMP in and video...
-need more details on this... does Teams encoder work for town halls?
-
-Green room
-
-## Theming and communications
-
-*email communications and registration form editing
 
 ## Town hall control comparison
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
 |Attendance reports|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
-|Audio and video|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
-|Chat and Q&A|Can choose if chat and Q&A are available|Can use chat and Q&A if allowed by admin|
-|Collaboration features|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
+|Audio and video|Attendees  can't share their audio or video.|Attendees  can't share their audio or video.|
+|Q&A|Can choose if Q&A is available|Can use Q&A if allowed by admin|
 |Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
-|End-to-end encryption **(Teams Premium)**|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
-|Green room **(Teams Premium)**|No control|Can choose if green room is used for a meeting|
-|Meeting join and lobby|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
-|Recording|Can allow or prevent meeting recording and set recording expiration time|If admin enables recording, they can set who can record and automatic recording|
-|Registration|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
-|Scheduling|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
-|Streaming|Can allow or prevent streaming|Can enforce streaming for a meeting if allowed by admin|
-|Theming **(Teams Premium)**|Can define meeting themes, including colors, images, and logo|Can turn on or off the admin-defined theme|
-|Transcription and captions|Can allow or prevent transcription and closed captions for attendees|Can enable CART captions|
-|Translation **(Teams Premium)**|No control|Can enable live translated captions|
-|Watermarks **(Teams Premium)**|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
+|Green room |No control|Can choose if green room is used for a town hall|
+|Town hall  join and lobby|Can set the defaults for new meetings and town halls. |The organizer can choose their settings while creating a town hall but can't change the settings after. |
+|Recording|Can allow or prevent town hall recording and set recording expiration time. |recordingRecordings start automatically for town halls, but organizers can turn this off. |
+|Transcription and captions|Can allow or prevent transcription and closed captions for attendees|Only AI generated captions are available at this time. |
+|Translation |No control|Can enable live translated captions for themselves. Attendees can always turn on translations. |
+|VOD |Can manage the types of recordings organizers can publish. |Can publish town hall recordings.|
