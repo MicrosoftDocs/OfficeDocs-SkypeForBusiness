@@ -2,7 +2,7 @@
 ms.date: 11/14/2018
 title: "Configure Azure AD Connect"
 ms.reviewer: 
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
