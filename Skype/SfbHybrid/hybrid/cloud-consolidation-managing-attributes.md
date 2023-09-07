@@ -1,7 +1,7 @@
 ---
 ms.date: 11/05/2018
 title: "Decide how to manage attributes after decommissioning"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
