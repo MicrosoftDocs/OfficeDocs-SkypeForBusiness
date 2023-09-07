@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 08/22/2023
+ms.date: 07/25/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,7 +30,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 # Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
-> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md)
+> These reports aren't currently available for GCC High and DoD customers.
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
@@ -343,7 +343,7 @@ You have to refresh the data to see any new data.
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There's no notification when this occurs.  Try shortening the date range to avoid this issue.
+Each report tab is restricted to retrieving 90,000 rows. If there is a large number of calls being processed each day, it's possible that the report will not show all calls for all days within the selected date range.  There is no notification when this occurs.  Try shortening the date range to avoid this issue.
 
 If in the event that shortening the date range is no sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
