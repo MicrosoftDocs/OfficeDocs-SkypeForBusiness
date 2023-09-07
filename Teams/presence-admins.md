@@ -12,7 +12,7 @@ description: Learn the Presence states in Teams and the administrative settings 
 ms.custom: 
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -24,7 +24,7 @@ appliesto:
 
 # User presence in Teams
 
-Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365 or Office 365). Presence indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online. Presence is updated in real time on the web and desktop versions when you refresh the page on mobile.
+Presence is part of a user's profile in Microsoft Teams (and throughout Microsoft 365). Presence indicates the user's current availability and status to other users. By default, anyone in your organization using Teams can see (in nearly real time) if other users are available online. Presence is updated in real time on the web and desktop versions when you refresh the page on mobile.
 
 For details about Teams user profiles on different platforms, see also [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
@@ -51,8 +51,21 @@ For details about Teams user profiles on different platforms, see also [Teams fe
 || ![Open gray circle, indicates status unknown.](media/Presence_Unknown.png) Status unknown|
 || ![Purple circle with arrow, indicates Out of office.](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 
- > [!NOTE]
- > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
+The order of statuses, from most available to least available, is:
+
+1. Available
+1. Busy
+1. In a meeting
+1. In a call
+1. Do not disturb
+1. Be right back
+1. Away
+1. Offline
+
+> [!NOTE]
+> For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
+
+## Automatic status settings and user experience
 
 App-configured presence states are based on user activity (Available, Away), Outlook calendar states (In a meeting), or Teams app states (In a call, Presenting). When you're in focus mode based on your calendar, **Focusing** will be the state people see in Teams. Focus mode will display as **Do not disturb** in other products.
 
@@ -66,17 +79,15 @@ Users can add people to their priority access list by going to **Settings** > **
 
 Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
-## Forced availability
-  
-Normally, users' presence is determined by their activity on devices where they're logged in and by their Outlook calendar. However, users may also set themselves as less available by manually setting their presence in Microsoft Teams. This is known as "forced availability".
+## Manual status settings by users
 
-When a user selects a specific presence state, it takes precedence over presence that would be calculated automatically as long as the manually selected state is "less available". For example, if a user sets herself as **Appear away**, her presence will be Away even if she enters a call or a meeting begins for her. However, if she sets herself as **Available** and then leaves the computer idle, her presence will still be Away because a user can only manually set her presence to be less available.
+Users can manually select a status as follows:
 
-The order of statuses, from least available to most available, is Away, Be right back, Do not disturb, In a call, In a meeting, Busy, Available.
+- Users in a meeting can select any status and it will last for the duration of the meeting.
 
-It is not possible for a user to use forced availability to set herself as more available than she would be normally, but as an exception, if a user sets her status manually after a meeting begins, the manual status will take precedence during that meeting even if it's more available than "In a meeting".
+- Users not in a meeting can select any status that is less availble than the automatically calculated status. (For example, if a user's calculated status is **Do not disturb**, they could choose a status of **Away** but not **Available**.)
 
-Users may set a duration for the presence that they set manually. If a user doesn't set a duration, her presence will be manually set for 1 day if it's Busy or Do not disturb, and for 7 days if it's any other status.
+Users can set a duration for the presence that they set manually. If a user doesn't set a duration, their presence will be manually set for 1 day if it's **Busy** or **Do not disturb**, and for 7 days if it's any other status.
 
 ## Admin settings in Teams compared to Skype for Business
 
