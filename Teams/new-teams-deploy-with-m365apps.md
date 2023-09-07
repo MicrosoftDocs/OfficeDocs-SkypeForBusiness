@@ -47,16 +47,11 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Business||Late September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
 |Enterprise|Current Channel|October 2023|
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
-
-
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
->- New Teams is currently not available on VDI and Mac OS but is planned for release later in this calendar year
 
 ### When will the new Teams become the default app?
 
@@ -65,8 +60,8 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Business||Late September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
 |Enterprise|Current Channel|October 2023|
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
