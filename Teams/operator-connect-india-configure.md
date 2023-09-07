@@ -79,7 +79,7 @@ To acquire numbers for new Operator Connect for India users, follow these steps:
 
 ### Move numbers from Direct Routing to Operator Connect for India
 
-**NOTE: Read this section  only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
+**NOTE: Read this section only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
 To move from Direct Routing to Operator Connect for India with on-premises or online phone numbers, follow these steps:
 
