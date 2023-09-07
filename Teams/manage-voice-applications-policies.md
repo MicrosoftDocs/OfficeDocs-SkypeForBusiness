@@ -162,6 +162,8 @@ You can edit the global policy or any custom policies you create.
 
 - **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the Call queues they're authorized for.
 
+- **No Agents Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the Call queues they're authorized for.
+
 #### General
 
 - **Language**: Turn this setting on to allow authorized users to change the *Call queue language* for Call queues they're authorized for.
