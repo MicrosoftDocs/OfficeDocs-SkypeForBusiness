@@ -27,9 +27,6 @@ This article describes what's new in Direct Routing. Check back often for update
 
 On September 5th (starting 9 AM UTC) Microsoft will perform a 24h test where all Microsoft SIP endpoints will be switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). If your SBC doesn’t trust this CA you might not be able to connect to Teams SIP endpoints.
 
-You are receiving this communication because we have detected that at least one SIP trunk in your tenant is not accepting connections from Microsoft that have been initiated using the new certificates. The tests might be producing false positives if your SBC doesn’t accept all inbound connections and SIP OPTIONS probes from all IPs in the Teams SIP IP ranges (52.112.0.0/14 and 52.122.0.0/15), contrary to the requirements in our public documentation.
-
-
 If you’d like to test and confirm your SBCs certificate configuration prior to the change, Microsoft has prepared a testing endpoint that can be used to verify that SBC appliances trust certificates issued from the new root CA (DigiCert Global Root G2). This endpoint should be used only for SIP OPTIONS ping messages and not for voice traffic. If your SBC can establish a TLS connection to this endpoint, then your connectivity to Teams services should not be affected by the change.
 
 Test endpoint FQDN: sip.mspki.pstnhub.microsoft.com
