@@ -73,7 +73,7 @@ Note that we're not accepting new nominations for certification until further no
 ||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
 ||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
 ||Edge 8000 (w/SBC SWe Edge)|&#10004;|&#10004;|23.06 or higher|&#10004;|&#10004;|
-||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
+||EdgeMarc Series|&#10004;|&#10004;|16.3.2|||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 3900|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
@@ -115,7 +115,6 @@ Note that we're not accepting new nominations for certification until further no
 ||GX-VE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||GX-CE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||GX-3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
-<br/>
 
 \* **911 service providers**
 
