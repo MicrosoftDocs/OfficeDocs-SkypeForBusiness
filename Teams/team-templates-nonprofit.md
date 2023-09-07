@@ -1,8 +1,8 @@
 ---
 title: Use nonprofit team templates
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: heidip
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams

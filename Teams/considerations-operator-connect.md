@@ -43,7 +43,7 @@ The ability for a tenant admin to set the registered address for an Operator Con
 
 ## Dynamic emergency calling for Operator Connect
 
-Dynamic emergency calling for Operator Connect provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+Dynamic emergency calling for Operator Connect provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country/region of usage of the Teams user.
 
 Dynamic location for routing emergency calls is supported in the United States as follows.
 
@@ -63,7 +63,7 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
 
 - Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country
+- The emergency calling network of that country/region
 
 - In the United States and Canada, dynamic routing is part of the carrier's service. You don't need to procure this service from another service provider.
 

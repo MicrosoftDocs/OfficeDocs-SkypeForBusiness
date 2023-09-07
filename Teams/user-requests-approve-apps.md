@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -37,6 +37,9 @@ Users can view all the available apps, including the blocked apps. You can't hid
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
+>[!NOTE]
+> The feature isn't supported in Government Community Cloud (GCC), GCC-High, and Department of Defense (DoD) tenants.
+
 ## View and act on user requests in Teams admin center
 
 Teams admin center displays the user requests by default. We recommend a regular triage to check for user requests. To view and manage the requests and to allow a requested app, follow these steps:
@@ -56,7 +59,7 @@ Teams admin center displays the user requests by default. We recommend a regular
 1. Follow one or more of the following steps that the pop-up dialog displays. The steps to approve an app vary based on the method used to block it and only the relevant steps are displayed.
 
    * If the app is blocked using permission policies, [modify the permission policies](teams-app-permission-policies.md).
-   * If the app is blocked for all users, [allow the app](manage-apps.md#allow-and-block-apps).
+   * If the app is blocked for all users, [allow the app](manage-apps.md#allow-or-block-apps).
    * If all apps are blocked for all users, [modify org-wide settings](manage-apps.md#manage-org-wide-app-settings).
 
 Users can view the **Add** option for an app in the Teams store to check if the app is allowed. If you allow an app, Teams doesn't inform the users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.

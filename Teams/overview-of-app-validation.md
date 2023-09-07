@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 03/03/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -28,13 +28,13 @@ All the apps are mandatorily required to adhere to the Microsoft App Certificati
 To know the detailed validation guidelines that app developers adhere to, see [Validation guidelines for developers](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). The guidance is based on the [Certification policies for Teams apps](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
-> Validation and checks by Microsoft are not available for a custom app as it is developed within your organization and is only available to members of your organization.
+> Validation and checks by Microsoft are available only for app available in the app store and are not available for custom apps. App developers submit these apps within for use in their organization or provide these app to be used in a customer's tenant.
 
 ## App validation and testing
 
 We execute 400+ test cases for every app before it's made available on the Teams Store. The tests ensure appropriate functionality, user experience, and security, and ensure that all apps comply with the publicly listed CMO policies. Following are some of the tests carried out by Microsoft App Validation team for every app before it's published:
 
-* Ensure that Graph permissions requested by the app are really the ones that the app functionality needs and not any extra permissions. Graph permissions for existing apps are regularly checked to ensure no extra permissions are required by an app.
+* Ensure that Graph permissions requested by the app are really the ones that the app functionality needs and not any extra permissions. Graph permissions for existing apps are regularly checked to ensure that apps don't require extra permissions.
 * Apps that require users to sign in have a sign-out option.
 * Developers of all apps undergo a detailed verification process on Microsoft Partner Center. The verification includes email verification, business verification and more. To know more about app publishing, see [How developers create a Partner Center account](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Submission guide for developers](/office/dev/store/add-in-submission-guide), and [How developers publish apps](https://aka.ms/PublishToTeamsStore).
 * Only apps from verified developers can seek Graph permissions from users.

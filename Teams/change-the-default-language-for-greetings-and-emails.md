@@ -1,6 +1,6 @@
 ---
 title: "Change the default language for greetings and emails"
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 audience: Admin

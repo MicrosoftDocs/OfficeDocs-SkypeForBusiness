@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: akshbhat
+ms.reviewer: 
 ms.date: 06/25/2020
 search.appverid: MET150
 description: Learn how to use Cortana voice assistance with Teams
@@ -28,7 +28,7 @@ appliesto:
 > [!NOTE]
 > Cortana voice assistance is supported in Microsoft Teams mobile apps for iOS and Android, Microsoft Teams Displays, and Microsoft Teams Rooms on Windows for users in the United States, United Kingdom, Canada, India, and Australia. Cortana voice assistance in the Teams mobile app is now available for EDU customers in en-US. Expansion to additional languages and regions will happen as part of future releases. Cortana voice assistance isn't currently available for GCC, GCC-High, DoD, and non-US EDU tenants.
 
-Cortana voice assistance in the Teams mobile app, on Microsoft Teams Rooms on Windows, and on Microsoft Teams display devices enables Microsoft 365 Enterprise users to streamline communication, collaboration, and meeting-related tasks using spoken natural language. Users can speak to Cortana by selecting the microphone button located in the upper right of the Teams mobile app, or by saying "Cortana" in the Microsoft Teams Room or when using a Microsoft Teams display. To quickly connect with their team hands-free and while on the go, users can say queries such as "call Megan" or "send a message to my next meeting". Users can also join meetings by saying "join my next meeting" and use voice assistance to share files, check their calendar, and more. These voice assistance experiences are delivered using [Cortana enterprise-grade services](/microsoft-365/admin/misc/cortana-integration) that fully comply with Office 365's privacy, security, and compliance promises as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true).
+Cortana voice assistance in the Teams mobile app, on Microsoft Teams Rooms on Windows, and on Microsoft Teams display devices enables Microsoft 365 Enterprise users to streamline communication, collaboration, and meeting-related tasks using spoken natural language. Users can speak to Cortana by selecting the microphone button located in the upper right of the Teams mobile app, or by saying "Cortana" in Microsoft Teams Rooms or when using a Microsoft Teams display. To quickly connect with their team hands-free and while on the go, users can say queries such as "call Megan" or "send a message to my next meeting". Users can also join meetings by saying "join my next meeting" and use voice assistance to share files, check their calendar, and more. These voice assistance experiences are delivered using [Cortana enterprise-grade services](/microsoft-365/admin/misc/cortana-integration) that fully comply with Office 365's privacy, security, and compliance promises as reflected in the [Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true).
 
 ## Admin control and limitations
 

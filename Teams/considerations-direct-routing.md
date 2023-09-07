@@ -49,7 +49,7 @@ You can assign an emergency call routing policy to a Direct Routing user account
 
 ## Dynamic emergency calling for Direct Routing
 
-Dynamic emergency calling for Direct Routing provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+Dynamic emergency calling for Direct Routing provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country/region of usage of the Teams user.
 
 For Direct Routing users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
@@ -68,7 +68,7 @@ The emergency call routing policy for Direct Routing references an online PSTN u
 > [!NOTE]
 > Teams clients no longer prepend the "+" sign in front of emergency numbers; that is, +911. Consequently, Teams emergency calls will no longer be sending a "+" preceding the 911 number. Be sure your voice route patterns reflect this change.
 
-The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
+The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country/region. There are two solutions available:
 
 - [Emergency Routing Service Providers (US only)](#emergency-routing-service-providers)
 - [Emergency Location Identification Number applications](#emergency-location-identification-number-applications)

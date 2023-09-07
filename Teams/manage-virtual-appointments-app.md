@@ -1,8 +1,8 @@
 ---
 title: Manage the Virtual Appointments app in Microsoft Teams
-author: samanro
-ms.author: samanro
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: megano
@@ -21,6 +21,7 @@ MS.collection:
   - m365-frontline
   - teams-1p-app-admin
   - highpri
+  - m365-virtual-appointments
 appliesto: 
   - Microsoft Teams
 ---

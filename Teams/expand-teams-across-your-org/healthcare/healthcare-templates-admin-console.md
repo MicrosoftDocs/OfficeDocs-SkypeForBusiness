@@ -1,8 +1,8 @@
 ---
 title: Use healthcare team templates
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: heidip
+manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -17,7 +17,6 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams

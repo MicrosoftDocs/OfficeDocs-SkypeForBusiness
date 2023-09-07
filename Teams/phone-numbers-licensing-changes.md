@@ -20,7 +20,8 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
+  - has-azure-ad-ps-ref
 
 description: Learn how licensing changes can affect phone number management.
 ---
@@ -29,7 +30,7 @@ description: Learn how licensing changes can affect phone number management.
 
 How you remove and assign licenses to users can impact a user's ability to make and receive Public Switched Telephone Network (PSTN) calls in Microsoft Teams. This article describes how you can manage licensing changes to ensure your users' ability to make and receive PSTN calls is not impacted.
 
-For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md). For general information on Teams add-on licensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For general information on managing phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md). For general information on Teams add-on licensing, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 
 

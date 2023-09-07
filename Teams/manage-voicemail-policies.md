@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -104,8 +105,10 @@ You can also use PowerShell to configure and assign existing or new voicemail po
   
 - **Enable transcription** - This setting controls whether the Cloud Voicemail service will generate a text transcription of the recorded voicemail and include it in the voicemail message. The transcription will be done based on the language detected in the recorded voicemail.
 
-- **Transcription translation** - This setting controls whether the Cloud Voicemail service will translate the transcription of the recorded voicemail. The translation will be attempted into the
-preferred language of the voicemail receiver.
+> [!NOTE]
+> When transcription is turned off, the email users receive will contain a message indicating that the audio quality wasn't good enough for transcription to take place.
+
+- **Transcription translation** - This setting controls whether the Cloud Voicemail service will translate the transcription of the recorded voicemail. The translation will be attempted in the preferred language of the voicemail receiver.
 
 - **Transcription profanity masking** - This setting controls whether the Cloud Voicemail service will mask profanity found in the transcription of the voicemail.
 

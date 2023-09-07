@@ -6,13 +6,14 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: serdars
+ms.reviewer: margidesai, nraghavan
 ms.date: 04/17/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -25,28 +26,57 @@ description: Learn the different customization options for meetings in Microsoft
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Microsoft Teams has a number of options for meeting customization for organizations with Teams Premium licensing. From templates to meeting themes to custom backgrounds, personalizing the meeting experience and making meeting set-up more efficient has never been easier. If you have a Developer License as well as Teams Premium, Teams Custom Together Mode is also something you can explore.
+Microsoft Teams custom meetings allow organizations to extend their visual identities and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s prejoin screen, lobby, and during the meeting experience.
 
-## Custom meeting templates
+Teams Premium meeting templates, meeting themes, and custom meeting backgrounds are features of Teams that allow admins to customize virtual meetings to better suit the preferences and needs of their users.
 
-With meeting templates, you can preset many of the options that are available to meeting organizers, including security, audio and video, recording and transcription, and meeting engagement settings. This feature can save time and ensure consistency across meetings of a similar nature, such as weekly team meetings or client check-ins.
+**Meeting Templates:** With meeting templates, you can preset many of the options that are available to meeting organizers. These options include security, audio and video, recording and transcription, and meeting engagement settings. This feature can save time and ensure consistency across meetings of a similar nature, such as team meetings or client check-ins.
 
-[Learn more about custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
+To learn more about custom meeting templates in Microsoft Teams, see [Custom meeting templates](custom-meeting-templates-overview.md).
 
-## Meeting themes
+**Meeting Themes:** Meeting themes allow admins to customize the visual appearance of the prejoin and lobby screens by applying a specific theme. Meeting themes consist of your organization’s brand colors, a custom image to represent your branding, and your organization’s logo.
 
-Meeting themes allow admins to customize the visual appearance of the pre-join and lobby screens by applying a specific theme. Meeting themes consist of your organization’s brand colors, a custom image to represent your branding, and your organization’s logo.
+To learn more about meeting themes in Microsoft Teams, see [Meeting themes](meeting-themes.md).
 
-[Learn more about meeting themes in Microsoft Teams](meeting-themes.md).
+**Custom Meeting Backgrounds:** Custom meeting backgrounds allow admins to upload custom organizational images for end-users to use as virtual backgrounds during meetings. This feature helps users maintain privacy, reduce distractions, or add a touch of corporate unity to their meetings. You can use a user or group policy to assign unique corporate backgrounds to specific individuals or departments.
+If you’d like to customize the meeting experience for your users, you use custom meeting backgrounds. To customize the prejoin and lobby experience for your users, use meeting themes. For a cohesive prejoin and meeting experience, use both meeting themes and custom meeting backgrounds. To learn more about custom meeting backgrounds in Microsoft Teams, see [Custom meeting backgrounds](custom-meeting-backgrounds.md).
 
-## Custom meeting backgrounds
+Together, these features enhance the virtual meeting experience by providing admins with greater control over the visual and structural aspects of their users’ meetings. Ultimately, customization makes meetings more engaging, productive, and professional.
 
-Custom meeting backgrounds allow admins to upload custom organizational images to for end-users to use as virtual backgrounds during meetings. This feature can help users maintain privacy, reduce distractions, or add a touch of corporate unity to their meetings. You can use a user or group policy to assign unique corporate backgrounds to specific individuals or departments.
+If you have a Developer License along with Teams Premium, Teams custom together mode is also something you can explore. Teams together mode uses AI segmentation technology to place meeting participants in a shared virtual space. Together mode makes your meetings feel more natural and engaging, and bringing that sense of togetherness to your organization's meetings. To learn more about creating and customizing together mode scenes in Microsoft Teams, see [Teams together mode](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode).
 
-[Learn more about custom meeting backgrounds in Microsoft Teams](custom-meeting-backgrounds.md).
+## Why would you customize your organization’s meetings?
 
-## Custom together mode scenes
+As a Teams admin, there are many reasons why you’d consider using Meeting Templates, Meeting Themes, and Custom Backgrounds to customize your meetings. Here are some key reasons:
 
-Teams together mode uses AI segmentation technology to place meeting participants in a shared virtual space. Teams together mode can help make your meetings feel more natural and engaging, and bringing that sense of togetherness to your organization's meetings. You can create, customize, or accept custom together mode scenes for meetings that are then available to your end users with a Teams Premium license.
+**Compliance**: Your organization has compliance requirements for meetings. You can use meeting templates to manage end-to-end encryption, what attendees can see, whether attendees can unmute and use their microphone, who can record, define sensitivity labels, and more.
 
-[Learn more about together mode in Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode).
+**Branding**: Meeting Themes can be used to apply your brand colors, logo, and images to the prejoin and lobby screens for your meetings. These themes create a consistent and professional look and feel for your brand across all your meetings. Custom meeting backgrounds allow your brand’s logo amongst other custom images to be used as a background during meetings.
+
+**Privacy**: Custom Backgrounds allow you to replace your actual background with a virtual one, which can help your users maintain their privacy and confidentiality. You could use meeting templates to decide manage who can record  meetings and allow meeting organizers to preview and approve content being shared on screen before other meeting participants can see it.
+
+**Engagement**: Custom meeting backgrounds can be used to create a more engaging and interactive experience. For example, you might upload a custom background that reflects the theme of the meeting for members of your organization to use. You could use a specific background image for marketing team meetings and create a user/group policy to assign it to marketing members.  After that, you can use a different specified image for engineering meetings and use a policy to assign it to your engineering team. 
+
+**Professionalism**: When used together, custom Backgrounds and meeting themes create consistently polished and professional appearance for your meetings. You can upload various background images that include your company logo or other branding assets. Users attending a specific meeting or meeting series can agree to use one specific background to show unity and professionalism to attendees outside of the organization. With meeting themes, the custom prejoin or lobby that reflects your brand’s identity greets attendees as they join a meeting.
+
+## Planning Considerations
+
+### Your users
+
+Evaluate how these customization features align with the needs of your organization. Start by assessing the potential benefits and gauge user interest in utilizing meeting templates, custom backgrounds, and themes. You should consider conducting surveys or gathering feedback from users to understand their preferences and expectations. Lastly, set up a process for stakeholders to request changes from Teams admins.
+
+### Marketing and branding
+
+Consult with the marketing team to understand your company's branding guidelines and visual identity. Once you've gathered the approved branding assets like colors, logos, and images,
+send design specifications for custom meeting backgrounds and themes to your branding department. The design specs should cover dimensions, file formats, resolution, and any restrictions or branding requirements. Additionally, you should create an approval process to ensure that all custom backgrounds align with the company's standards and policies.
+
+### Departments
+
+Start by understanding the unique requirements of each department. Consult with department heads or key stakeholders to determine their preferences for custom meeting backgrounds. It's important to consider the nature of their work, branding guidelines, and any specific themes they may require.
+Collaborating with each team to define a standardized set of needs for meetings makes it easier for you to select settings for meeting templates.
+
+### Compliance requirements
+
+Consider the compliance implications of your customization features. Establish policies and guidelines to prevent the use of inappropriate or offensive images. I'ts important to ensure compliance with data protection and privacy regulations.
+Have your compliance team review meeting compliance features to find out which settings need to be on for all users in your company, specific users, or specific groups.
+Keep in mind that meeting background images are visible to external participants, so you should choose images that you’re okay with anyone viewing.

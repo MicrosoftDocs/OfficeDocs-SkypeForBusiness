@@ -2,9 +2,9 @@
 title: Expand Microsoft Teams across your organization
 description: Learn about the resources available for building on the standard Teams deployment to help you get the most out of Teams for specific organization types.
 ms.topic: conceptual
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: heidip
+manager: serdars
 ms.date: 10/30/2018
 audience: admin
 f1.keywords:
@@ -12,7 +12,6 @@ f1.keywords:
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - tier2
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

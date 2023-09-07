@@ -1,16 +1,16 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
@@ -30,6 +30,8 @@ When you're planning Teams live events to hold large meetings in your organizati
 
 > [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+>
+> The Teams client doesn't support Teams live events on Surface hub devices. Users can join the events only as viewers using the Edge web browser on their Surface hub devices.
 
 ## Who can attend, create, and schedule live events
 
@@ -40,7 +42,7 @@ The following prerequisites are required for the user to schedule a Teams live e
 Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license.
-- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) is met.
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) are met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
 
 > [!NOTE]
@@ -95,13 +97,13 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2023, including:**
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through December 31, 2023, including:**
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 Live Event Assistance Program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 | Capability | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|
@@ -109,8 +111,8 @@ The following table highlights core capabilities and features offered in live ev
 |Maximum duration of live event |4 hours |4 hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximum number of concurrent live events per Microsoft 365 or Office 365 organization | 15  | 15  |
-|Live event creation |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
-|Audience engagement – Yammer |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
+|Live event creation |Teams, Viva Engage via Teams | Teams, Viva Engage via Teams, Stream |
+|Audience engagement – Viva Engage |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714; |&#x2714; |
 |Producer client on Windows |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Producer client on Mac |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |

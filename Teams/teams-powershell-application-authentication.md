@@ -33,6 +33,8 @@ All cmdlets are supported now, except for the cmdlets mentioned below.
   - \*PolicyPackage\*
   - \*-CsTeamsShiftsConnection\*
   - \*-CsBatchTeamsDeployment\*
+  - [Get|Set]-CsTeamsSettingsCustomApp
+  - Get-MultiGeoRegion
 
 
 ## Examples
@@ -92,15 +94,15 @@ Teams PowerShell Module fetches the app-based token using the application ID, te
 
 An initial onboarding is required for authentication using application objects. Application and service principal are used interchangeably, but an application is like a class object while a service principal is like an instance of the class. You can learn more about these objects at [Application and service principal objects in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
-Sample steps for creating applications in Azure Ad are mentioned below, for detailed steps refer this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
+Sample steps for creating applications in Azure AD are mentioned below. For detailed steps, refer to this [article](/azure/active-directory/develop/howto-create-service-principal-portal).
 
-1. Register the application in Azure AD
-2. Assign API permissions to the application
+1. Register the application in Azure AD.
+2. Assign API permissions to the application.
    - For \*-Cs cmdlets - the Microsoft Graph API permission needed is `Organization.Read.All`.
    - For Non \*-Cs cmdlets - the Microsoft Graph API permissions needed are `Organization.Read.All`, `User.Read.All`, `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
-3. Generate a self-signed certificate
-4. Attach the certificate to the Azure AD application
-5. Assign [Azure AD roles](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) to the application
+3. Generate a self-signed certificate.
+4. Attach the certificate to the Azure AD application.
+5. Assign [Azure AD roles](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) to the application. Refer to this [Assign a role](/azure/active-directory/roles/manage-roles-portal#assign-a-role) procedure, but search for the application instead of a user.
 
 The application needs to have the appropriate RBAC roles assigned. Because the apps are provisioned in Azure AD, you can use any of the supported built-in roles.
  

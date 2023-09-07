@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -63,7 +64,7 @@ The translation rules assigned to the SBC are summarized in the following table:
 |AddPlus1     |^(\d{10})$          |+1$1          |
 |AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
-|StripPlus1    |^\+1(\d{10})$          | $1         |
+|StripPlus1    |^\\+1(\d{10})$          | $1         |
 
 In the following examples, there are two users, Alice and Bob. Alice is a Teams user whose number is +1 206 555 0100. Bob is a PSTN user whose number is +1 425 555 0100.
 
@@ -76,7 +77,7 @@ SBC uses 2065550100 in the RequestURI and To headers and 4255550100 in the From 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:2065550100@sbc.contoso.com|INVITE sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules ‘AddPlus1’|
-|TO    |TO: \<sip:2065550100@sbc.contoso.com>|TO: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules ‘AddPlus1’|
+|TO    |TO: \<sip:2065550100@sbc.contoso.com>|TO: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranslationRules ‘AddPlus1’|
 |FROM   |FROM: \<sip:4255550100@sbc.contoso.com>|FROM: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules ‘AddPlus1’|
 
 ## Example 2: Inbound call to a four-digit number
@@ -87,23 +88,23 @@ SBC uses 0100 in the RequestURI and To headers and 4255550100 in the From header
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules ‘AddE164SeattleAreaCode’        |
-|TO    |TO: \<sip:0100@sbc.contoso.com>|TO: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules ‘AddE164SeattleAreaCode’         |
-|FROM   |FROM: \<sip:4255550100@sbc.contoso.com>|FROM: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules ‘AddPlus1’        |
+|RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranslationRules ‘AddE164SeattleAreaCode’        |
+|TO    |TO: \<sip:0100@sbc.contoso.com>|TO: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranslationRules ‘AddE164SeattleAreaCode’         |
+|FROM   |FROM: \<sip:4255550100@sbc.contoso.com>|FROM: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules ‘AddPlus1’        |
 
 ## Example 3: Outbound call using a ten-digit non-E.164 number
 
 Alice calls Bob using a ten-digit number. Alice dials 425 555 0100 to reach Bob.
 SBC is configured to use non-E.164 ten-digit numbers for both Teams and PSTN users.
 
-In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan.
+In this scenario, a dial plan translates the number before sending it to the Direct Routing interface. When Alice enters 425 555 0100 in the Teams client, the number is translated to +14255550100 by the country/region dial plan. The resulting numbers are a cumulative normalization of the dial plan rules and Teams translation rules. The Teams translation rules remove the "+1" that was added by the dial plan.
 
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules ‘StripPlus1’         |
-|TO    |TO: \<sip:+14255550100@sbc.contoso.com>|TO: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules ‘StripPlus1’       |
-|FROM   |FROM: \<sip:+12065550100@sbc.contoso.com>|FROM: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules ‘StripPlus1’         |
+|RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranslationRules ‘StripPlus1’         |
+|TO    |TO: \<sip:+14255550100@sbc.contoso.com>|TO: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranslationRules ‘StripPlus1’       |
+|FROM   |FROM: \<sip:+12065550100@sbc.contoso.com>|FROM: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranslationRules ‘StripPlus1’         |
 
 ## Example 4: Outbound call using a four-digit non-E.164 number
 
@@ -113,9 +114,9 @@ SBC is configured to use non-E.164 four-digit numbers for Teams users and ten-di
 
 |Header  |Original |Translated header |Parameter and rule applied  |
 |---------|---------|---------|---------|
-|RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules ‘AddSeattleAreaCode’         |
-|TO    |TO: \<sip:0100@sbc.contoso.com>|TO: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList ‘AddSeattleAreaCode’       |
-|FROM   |FROM: \<sip:+12065550100@sbc.contoso.com>|FROM: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules ‘StripPlus1’ |
+|RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranslationRules ‘AddSeattleAreaCode’         |
+|TO    |TO: \<sip:0100@sbc.contoso.com>|TO: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranslationRulesList ‘AddSeattleAreaCode’       |
+|FROM   |FROM: \<sip:+12065550100@sbc.contoso.com>|FROM: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranslationRules ‘StripPlus1’ |
 
 ## See also
 

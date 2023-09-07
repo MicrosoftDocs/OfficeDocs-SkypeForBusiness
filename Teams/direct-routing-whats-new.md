@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 
@@ -22,9 +23,35 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## SIP certificate to MSPKI Certificate Authority change test
+
+On September 5th (starting 9 AM UTC) Microsoft will perform a 24h test where all Microsoft SIP endpoints will be switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). If your SBC doesn’t trust this CA you might not be able to connect to Teams SIP endpoints.
+
+If you’d like to test and confirm your SBCs certificate configuration prior to the change, Microsoft has prepared a testing endpoint that can be used to verify that SBC appliances trust certificates issued from the new root CA (DigiCert Global Root G2). This endpoint should be used only for SIP OPTIONS ping messages and not for voice traffic. If your SBC can establish a TLS connection to this endpoint, then your connectivity to Teams services should not be affected by the change.
+
+Test endpoint FQDN: sip.mspki.pstnhub.microsoft.com
+
+Port: 5061
+
+## SIP certificate to MSPKI Certificate Authority change
+
+Microsoft 365 is updating services powering messaging, meetings, telephony, voice, and video to use TLS certificates from a different set of Root Certificate Authorities (CAs). This change is being made because the current Root CA will expire in May 2025. Affected endpoints include all Microsoft SIP endpoints used for PSTN traffic that utilize TLS connectivity. The transition to certificates issued by the new CA will begin in late August.
+
+The new Root CA "DigiCert Global Root G2" is widely trusted by operating systems including Windows, macOS, Android, and iOS and by browsers such as Microsoft Edge, Chrome, Safari, and Firefox. However, it is likely that your SBC has a certificate root store that is manually configured, and it needs to be updated. SBCs that do not have the new Root CA in their list of acceptable CAs will receive certificate validation errors, which may impact the availability or function of the service. Please refer to SBC vendor documentation on how to update the accepted certificate list on your SBC.
+
+Today, the TLS certificates used by Microsoft SIP interfaces chain up to the following Root CA: 
+
+Common Name of the CA: Baltimore CyberTrust Root
+Thumbprint (SHA1): d4de20d05e66fc53fe1a50882c78db2852cae474
+New TLS certificates used by Microsoft SIP interfaces will now chain up to the following Root CA:
+
+Common Name of the CA: DigiCert Global Root G2
+Thumbprint (SHA1): df3c24f9bfd666761b268073fe06d1cc8d4f82a4
+The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2
+
 ## New Direct Routing SIP endpoints 
 
-Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.120.0.0/14 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
+Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.122.0.0/15 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
 
 ## Trunk demoting logic based on SIP Options
 

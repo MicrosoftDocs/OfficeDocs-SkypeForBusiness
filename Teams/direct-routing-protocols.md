@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ms.reviewer: nmurav
 search.appverid: MET150
@@ -75,7 +76,8 @@ The following table lists the sections of the RFC(s) in which Microsoft's implem
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place a call on hold. |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”.
-| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
+| [RFC 6337, section 5.4 Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
+| [RFC 3261, section 25 Augmented BNF for the SIP Protocol](https://tools.ietf.org/html/rfc3261#section-25.1) | '#' character should be sent as '%23'| The SIP proxy sends the '#' character in a Request-URI un-escaped. |
 
 ## TCP/TLS transport considerations
 

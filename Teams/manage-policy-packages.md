@@ -48,6 +48,12 @@ Policy packages support the following Teams policy types:
 - App setup policy
 - Calling policy
 - Live events policy
+- Call park policy
+- Teams policy
+- Voice routing policy
+- Caller ID policy
+- Update policy
+- Events policy
 
 ## Policy packages included in Teams
 
@@ -139,6 +145,10 @@ You can edit the settings of a policy through the **Policy packages** page or by
 ### Assign a policy package
 
 You can assign a policy package to an individual user, a group, or a batch of users. For more information on how to assign policy packages, see [Assign policy packages to users and groups](assign-policy-packages.md).
+
+This video is about managing policy packages.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbO?autoplay=false]
 
 ## Related topics
 

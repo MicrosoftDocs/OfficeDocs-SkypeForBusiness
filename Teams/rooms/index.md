@@ -2,8 +2,8 @@
 title: Microsoft Teams Rooms
 ms.reviewer: 
 ms.date: 04/26/2018
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - m365initiative-meetings
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - highpri
   - Tier1
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965

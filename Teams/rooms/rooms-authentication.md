@@ -1,7 +1,7 @@
 ---
 title: "Authentication in Microsoft Teams Rooms on Windows"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 04/06/2020
 manager: serdars
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: 
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn how to configure modern authentication for Microsoft Teams Rooms on Windows
 ---
@@ -30,7 +30,10 @@ Modern authentication is supported on Microsoft Teams Rooms version 4.4.25.0 and
 
 ## Modern authentication
 
-When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business. The modern authentication mechanism uses the [resource owner password credentials](/azure/active-directory/develop/v2-oauth-ropc) authorization grant type in OAuth 2.0, which doesn't require any user intervention. This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by Microsoft Teams Rooms. Because of this, Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).
+When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business. The modern authentication mechanism uses the [resource owner password credentials](/azure/active-directory/develop/v2-oauth-ropc) authorization grant type in OAuth 2.0, which doesn't require any user intervention. This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by Microsoft Teams Rooms. 
+
+> [!IMPORTANT]
+> Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).
 
 The other key difference between how modern authentication works on Microsoft Teams Rooms and end-user devices is that you can't use a resource account to apply device-level conditional access policies in Azure Active Directory and Endpoint Manager as device info is not passed when using this grant type. Instead, you can enroll a device in Microsoft Endpoint Manager and apply compliance policies. See [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md) for more information.
 
@@ -110,3 +113,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
 For more information about device compliance, see [Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md).
+

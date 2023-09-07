@@ -1,38 +1,42 @@
 ---
 title: Set up avatars for Microsoft Teams 
-ms.author: dstrome
-author: dstrome
+ms.author: v-chinlana
+author: lana-chin
 manager: serdars
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 03/18/2023
+ms.date: 06/26/2023
 ms.topic: quickstart
 ms.service: msteams
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
-  - Tier2
   - M365-collaboration
+  - teams-1p-app-admin
 description: Learn how to set up the avatars for Microsoft Teams app.
 ---
 
 # Set up avatars for Microsoft Teams
 
-Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. You can control whether avatars for Teams is available in your organization and who can use them using policies.
-
+Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. To learn more about avatars in Microsoft Teams, see how to [Join a meeting as an avatar](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
 > [!NOTE]
-> There is a known limitation in the Teams admin center where you can only view and manage apps that are in the same release channel as the tenant. For example, if your tenant is in the general release channel, you can't manage apps that are deployed in the private or public preview channels. We're working to resolve this issue for future preview app releases. This won't be an issue for apps that are released to the general release channel.
+> The Avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
+>
+> Teams users can access this feature if they have one of the following licenses: Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
-Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
+As an admin, you can control whether Avatars for Teams is available in your organization and who can use them using policies. Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
 
 Setting up the avatars for Teams app involves the following steps:
 
 1. [Allow the avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
-1. [Ensure essential URLs are allowed](#ensure-essential-urls-are-allowed).
+1. [Ensure endpoints are allowed](#allow-endpoints).
 1. (Optional) [Block the avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
 After you complete these steps, the avatars for Teams app will be available to users in your organization.
+
+> [!NOTE]
+>Users currently need to manually install and pin the avatars for Teams app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
 
 ## Allow the avatars for Teams app in your organization
 
@@ -68,21 +72,15 @@ Now users will see the avatars for Teams app when they search through their apps
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
 
-## Ensure essential URLs are allowed
+## Allow endpoints
 
-To ensure the avatars for Teams app works properly, TCP ports 443 and 80 need to be allowed through your firewall or proxy server for the following URLs:
+To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed by your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
 
-- `https://clients.config.office.net/user/v1.0/web/policies`
-- `https://browser.events.data.microsoft.com/OneCollector/1.0/`
-- `https://global.profile.prod.collab.mixedreality.microsoft.com/ms-graph-obo/accesstoken`
-- `https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.js`
-- `global.profile.prod.collab.mixedreality.microsoft.com`
-- `clients.config.office.net`
-- `catalog.meshxp.net`
-- `browser.events.data.microsoft.com`
-- `avatars.meshxp.net`
+- `*.microsoft.com`
+- `*.office.com`
+- `*.office.net`
 
-TCP port 80 is required to allow requests to automatically redirect to TCP port 443.
+If these endpoints aren't properly allowed, you may run into issues when running the avatars for Teams app. 
 
 ## Block the avatars for Teams app for specific users or groups
 
@@ -111,3 +109,22 @@ In the left navigation of the Microsoft Teams admin center, go to the **Permissi
 1. Select the user you want to block and then select **Add**.
 1. Repeat steps 2 and 3 for each user that you want to block.
 1. When you're finished adding users that you want to block, select **Apply**.
+
+## Manage avatars for user profiles
+
+Global or User admins can view, export, or remove a user's avatar profile from within the Teams Admin Center. This is useful if an incident of an offensive avatar is reported and needs to be removed or investigated for further action. 
+1. Select **Manage users** in the left nav.
+1. Search for and select a user.
+1. At the bottom of their user profile, you will see their avatar(s).
+1. Select **Export profiles** to generate a JSON file of the user's avatar configurations (up-to three).
+1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed will not be visible to the user.
+
+## Where avatars can be used
+
+Avatars for Teams can be used in any Teams meeting that includes the option to use a real-world camera.
+
+Guests invited to meetings will only be able to use avatars for Teams if the app is enabled on their tenant for their account.
+
+If you are invited to a meeting outside your tenant, you will be able to use avatars for Teams if it's enabled on your tenant for your account.
+
+To learn how to use avatars in Teams, see [Join a meeting as an avatar in Microsoft Teams](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).

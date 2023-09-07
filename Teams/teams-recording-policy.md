@@ -1,13 +1,13 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: cabailey
-ms.author: cabailey
-manager: laurawi
+author: MikePlumleyMSFT
+ms.author: mikeplum
+manager: serdars
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: abybee
+ms.reviewer: 
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams Policy-based Recording for Calling & Meetings
@@ -328,4 +328,6 @@ This list will be updated as more partners join and meet the certification crite
 
 ## Next steps
 
-If you are a vendor seeking to join the certification program, fill out [this form](https://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+
+### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)

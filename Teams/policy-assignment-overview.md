@@ -3,7 +3,7 @@ title: Assign policies in Teams
 author: mkbond007
 ms.author: mabond
 manager: serdars
-ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.reviewer: tomkau, ritikag, jastark
 ms.date: 03/10/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -151,6 +151,10 @@ To view your policy operations in the Activity log:
 This video shows the steps to view and manage the assigned and effective policies for a user.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
+
+This video is about differences between global and custom policies.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHGV?autoplay=false]
 
 ## Related topics
 

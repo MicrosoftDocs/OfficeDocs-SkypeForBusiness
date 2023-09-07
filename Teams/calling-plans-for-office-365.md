@@ -3,8 +3,8 @@ title: Microsoft Calling Plans for Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.reviewer: roykuntz
+ms.date: 08/28/2023
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
@@ -29,7 +29,7 @@ ms.custom:
   - Licensing
   - LIL_Placement
   - seo-marvel-apr2020
-description: Learn about Microsoft Calling Plans for Teams and how to get licenses for your organization. 
+description: Learn about Microsoft Calling Plans for Teams and how to get licenses for your organization.
 ---
 
 # Microsoft Calling Plans for Teams
@@ -78,14 +78,10 @@ With the Domestic Calling Plan, licensed users can call out to numbers located i
 There are three **Domestic Calling Plan** options to choose from:
 
 - **Domestic Calling Plan Zone-1 US**: For users in the United States and Puerto Rico.
-
-  Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
   
 - **Domestic Calling Plan Zone-1 Canada/UK**: For users in Canada and the United Kingdom.
 
 - **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
-
-  Note: Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
 
 ### International Calling Plan
 
@@ -99,18 +95,18 @@ Unlimited incoming minutes are included. No outgoing minutes are included. All o
 
 To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How to fund a Pay-As-You-Go Calling Plan](#how-to-fund-a-pay-as-you-go-calling-plan).
 
-There are two **Pay-As-You-Go Calling Plan** options to choose from:
+There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
-- **Pay-As-You-Go Calling Plan Zone-1**: For users in the United States and Puerto Rico, Canada, and the United Kingdom.
+- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico.
 
-  Note: Zone 1 licenses aren't currently available for sale in the United States and Puerto Rico, but they can be provisioned to United States and Puerto Rico users if bought in other countries.
+- **Pay-As-You-Go Calling Plan Zone 1 - UK & Canada**: For users in the United Kingdom and Canada.
 
-- **Pay-As-You-Go Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+- **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
-  Note: Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
+*Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.*
 
 > [!NOTE]
-> Mexico has its own Pay-As-You-Go Calling Plan. It is not part of any zone. You must purchase the independent Pay-As-You-Go Calling Plan.
+> Mexico has its own Pay-As-You-Go Calling Plan. It's not part of any zone. You must purchase the independent Pay-As-You-Go Calling Plan for Mexico.
 
 ## How to buy Calling Plans
 
@@ -142,6 +138,8 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 
 - [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling).
 - [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings).
+- [Microsoft Teams Essentials and Microsoft Teams Phone Bundles](https://www.microsoft.com/en-us/microsoft-teams/teams-essentials-phone-bundles#x0c044f2ce7a4401b8f4f88e1d917522d).
+- [Audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
 
 
 ## Related articles
@@ -149,5 +147,6 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 - [Set up Calling Plans](set-up-calling-plans.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-- [Plan yourvoice solution](cloud-voice-landing-page.md)
+- [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
+

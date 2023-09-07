@@ -1,10 +1,10 @@
 ---
 title: Manage the Lists app for your organization
-author: LanaChin
-ms.author: v-lanachin
-ms.reviewer: anach,v-jasuk
-ms.date: 09/26/2018
-manager: samanro
+author: lana-chin
+ms.author: heidip
+manager: serdars
+ms.reviewer: 
+ms.date: 06/14/2023
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -24,11 +24,10 @@ ms.collection:
   - m365initiative-lists
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
-ms.custom: 
+ms.custom:
 ---
 
 # Manage the Lists app for your organization in Microsoft Teams
@@ -117,6 +116,10 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 Lists supports [Power Automate](/power-automate/flow-types) for workflows and [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
 
+## Lists data
+
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. See [Data Residency for SharePoint Online and OneDrive for Business](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
@@ -124,3 +127,5 @@ To send us feedback or report an issue, select **Help** near the bottom of the l
 ## Related articles
 
 - [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
+
+

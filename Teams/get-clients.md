@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -9,9 +9,9 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-ms.reviewer: harij, rafarhi
+ms.reviewer: rafarhi
 ms.date: 08/11/2017
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
@@ -37,7 +37,7 @@ For information about each client's capabilities on different platforms, see [Te
 ## Desktop clients
 
 >[!Note]
->The new Microsoft Teams desktop client is now available in preview. The minimum system requirements are different. Learn more: [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+>The new Microsoft Teams desktop client is available in preview. The minimum system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
 
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
@@ -66,6 +66,9 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
+> [!NOTE]
+> Teams isn't supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
 - %LocalAppData%\\Microsoft\\Teams
@@ -76,7 +79,7 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 - %LocalAppData%\\SquirrelTemp
 
-When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call will work even when the warning is dismissed.
 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
@@ -107,76 +110,8 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 
 IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
 
-### [Linux](#tab/Linux)
+---
 
-On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't, then you'll need to install any reported requirements before installing Teams on Linux.
-
-Users will be able to install native Linux packages in `.deb` and `.rpm` formats. Installing the DEB or RPM package will automatically install the package repository.
-
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
-
-The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
-
-#### Install Teams using DEB package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install Teams using one of the following methods:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo dpkg -i **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install Teams using RPM package
-
-1. Download the package from <https://aka.ms/getteams>.
-2. Install Teams using one of the following methods:
-    - Open the relevant package management tool and go through the self-guided Linux app installation process.
-    - Or if you love Terminal, type: `sudo yum install **teams download file**`
-
-You can launch Teams via Activities or via Terminal by typing `teams`.
-
-#### Install Teams manually from the command line
-
-Install Teams manually on Debian and Ubuntu distributions:
-
-```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
-
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
-
-sudo apt update
-sudo apt install teams
-```
-
-Install Teams manually on RHEL-, Fedora-, and CentOS-based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
-
-sudo dnf check-update
-sudo dnf install teams
-```
-
-Alternatively, to use `yum` instead of `dnf`:
-
-```bash
-yum check-update
-sudo yum install teams
-```
-
-Install Teams manually on openSUSE-based distributions:
-
-```bash
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
-sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
-
-sudo zypper refresh
-sudo zypper install teams
-```
 ## Mobile clients
 
 The Teams mobile apps are available for Android and iOS; are geared for on-the-go users participating in chat-based conversations; and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores **Google Play** and the **Apple App Store**.
@@ -200,12 +135,12 @@ If you're in China, you can install Teams from the following app stores:
 - **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
 > [!NOTE]
-> When users install Teams from one of the China-based Android app stores and enables push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
->Currently, Microsoft supports push notifications in Xiaomi phones. Hence, you must enable the push notifications in the Xiaomi phones. For information on how do it, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone). 
+> When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
+>Currently, Microsoft supports push notifications in Xiaomi phones. Hence, you must enable the push notifications in the Xiaomi phones. For information on how to do it, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone). 
 
 ## Browser client
 
-The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from various browsers. The browser client supports Calling and Meetings by using webRTC, so there's no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
+The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from various browsers. The browser client supports Calling and Meetings by using webRTC; so there's no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 

@@ -12,8 +12,8 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
   - Tier1
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -101,4 +101,4 @@ Managed Services provides regional data residency support through the data cente
 
 [Data management at Microsoft](https://www.microsoft.com/trust-center/privacy/data-management)
 
-[Microsoft Teams Room Pro management](rooms-pro-management.md)
+[Microsoft Teams Rooms Pro management](rooms-pro-management.md)

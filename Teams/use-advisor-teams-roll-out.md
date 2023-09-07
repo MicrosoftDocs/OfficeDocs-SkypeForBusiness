@@ -2,7 +2,7 @@
 title: Use Advisor for Teams to help you roll out Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: pkrebs
+ms.reviewer: 
 ms.date: 10/11/2019
 manager: serdars
 ms.topic: article
@@ -106,7 +106,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Viva Engage). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
 |Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### Assessments for meetings and conferencing

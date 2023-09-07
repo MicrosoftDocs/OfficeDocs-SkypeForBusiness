@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: rakayala
+ms.reviewer: 
 ms.date: 10/02/2018
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: 
@@ -29,7 +29,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 For details about Teams user profiles on different platforms, see also [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  > [!NOTE]
- > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
+ > Teams respects your privacy configuration so if you have enabled the [privacy mode](/powershell/module/skype/set-csprivacyconfiguration#-enableprivacymode), your presence will not be visible to external users.
 
 ## Presence states in Teams
 
@@ -64,8 +64,10 @@ Users receive calls in all presence states except for Do not disturb, in which i
 
 Users can add people to their priority access list by going to **Settings** > **Privacy** in Teams. People who have priority access can contact the user even when the user's status is set to Do not disturb.
 
-## Forced availability
+Call queues can use presence to route calls to agents. For more information, see [Create a Call Queue in Microsoft Teams](create-a-phone-system-call-queue.md).
 
+## Forced availability
+  
 Normally, users' presence is determined by their activity on devices where they're logged in and by their Outlook calendar. However, users may also set themselves as less available by manually setting their presence in Microsoft Teams. This is known as "forced availability".
 
 When a user selects a specific presence state, it takes precedence over presence that would be calculated automatically as long as the manually selected state is "less available". For example, if a user sets herself as **Appear away**, her presence will be Away even if she enters a call or a meeting begins for her. However, if she sets herself as **Available** and then leaves the computer idle, her presence will still be Away because a user can only manually set her presence to be less available.

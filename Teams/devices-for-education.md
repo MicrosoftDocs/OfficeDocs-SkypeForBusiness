@@ -1,7 +1,7 @@
 ---
 title: Teams devices for Education
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 08/3/2021
 ms.topic: conceptual
@@ -11,7 +11,6 @@ search.appverid: MET150
 ms.reviewer: 
 description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - tier2
 f1.keywords: 

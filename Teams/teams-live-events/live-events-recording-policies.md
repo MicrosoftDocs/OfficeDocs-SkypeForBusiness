@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn about live event recording policies.
 appliesto: 
   - Microsoft Teams
