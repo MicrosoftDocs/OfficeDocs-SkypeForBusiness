@@ -32,7 +32,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 This article describes how to configure Operator Connect for India. Before configuring Operator Connect for India, be sure to read [Plan for Operator Connect for India](operator-connect-india-plan.md) for information about prerequisites and licensing. You'll need to acquire the appropriate Teams license from a licensed telecom operator in India (that is, your carrier). This requirement must be met whether or not you have an existing Teams Phone license.
 
-## Enable an operator
+## Enable an Operator Connect for India operator
 
 You can enable, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
 
@@ -55,14 +55,14 @@ How you set up phone numbers for Operator Connect for India depends on whether y
 - Setting up numbers for new Operator Connect for India users
 - Moving existing numbers from Direct Routing to Operator Connect for India
 
-- If you're setting up phone numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
+**If you're setting up phone numbers for new Operator Connect for India users**, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
-- If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india).
+**If you're moving existing numbers from Direct Routing to Operator Connect for India**, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india).
 
 
 ### Set up phone numbers for new Operator Connect for India users
 
-Note: **This section applies only if you are setting up phone numbers for new Operator Connect for India users.** If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india)
+**NOTE: Read this section only if you're setting up phone numbers for new Operator Connect for India users.** If you're moving existing numbers from Direct Routing to Operator Connect for India, see [Move numbers from Direct Routing to Operator Connect for India](#move-numbers-from-direct-routing-to-operator-connect-for-india)
 
 To acquire numbers for new Operator Connect for India users, follow these steps:
 
@@ -79,7 +79,7 @@ To acquire numbers for new Operator Connect for India users, follow these steps:
 
 ### Move numbers from Direct Routing to Operator Connect for India
 
-Note: **This section applies only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
+**NOTE: Read this section  only if you're moving numbers from Direct Routing to Operator Connect for India.**  If you're setting up numbers for new Operator Connect for India users, see [Set up numbers for new Operator Connect for India users](#set-up-phone-numbers-for-new-operator-connect-for-india-users).
 
 To move from Direct Routing to Operator Connect for India with on-premises or online phone numbers, follow these steps:
 
