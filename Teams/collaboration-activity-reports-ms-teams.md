@@ -23,9 +23,6 @@ description: Learn about the Collaboration activity reports in Microsoft Teams.
 
 # Collaboration activity reports for Microsoft Teams
 
-> [!IMPORTANT]
-> Advanced Collaboration Management Insights Preview is provided for evaluation purposes only and may not include all expected functionality. Data provided during preview will be deleted within 180 days from a tenant deletion action.
-
 The Collaboration activity reports for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
   
 Through Collaboration activity reports, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
@@ -63,7 +60,7 @@ The **Inactive teams** widget view shows only inactive teams whose connected wor
 
 Click **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, number of users in the team, and the last activity date.
 
-We began calculating the last activity date from July 10, 2023, and this activity date is the base-activity date. Last activity dates that are after this base-activity date are displayed. For activities that took place on dates earlier to this base-activity date, a **-** is displayed in the **Last activity date (UTC)** column.
+We began calculating the last activity date on July 10, 2023. A value for the **Last activity date (UTC)** is displayed only if there was an activity on the domain after July 10, 2023. If there was an activity on the domain prior to July 10, 2023, then the **Last activity date (UTC)** column displays a **-**.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="Screenshot that shows the detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
@@ -86,7 +83,7 @@ The **Inactive external domains activity** widget view shows you how many domain
 > [!NOTE]
 > This insight will not surface for organizations with open federation enabled.
 
-You can click **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date from the day your tenant buys the Teams Premium licenses. Any activity on the domain prior to purchase of the license isn't counted, and the **Last activity date (UTC)** column displays **-**.
+You can click **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date on the day your tenant purchases Teams Premium licenses. A value for **Last activity date (UTC)** is displayed only if an activity on the domain takes place after purchase of the Teams Premium license. If the last activity on the domain took place prior to purchase of the Teams Premium license, the **Last activity date (UTC)** column displays a **-**.
 
 By default, we show you the domains that have been inactive from the last 30 days.
 
@@ -124,7 +121,18 @@ The **Channels by user type** widget view shows you how many active channels are
 
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
-> This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition. For example, for **standard and private channels**, you’ll see **(a) How many are made up of your users only**, and **(b) How many are made up of your users and guests**; for **shared channels**, you’ll see **(a) How many are made up of your users only**, and (b) **How many are made up of your users and guests**.
+
+This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition. 
+
+For example, for standard and private channels, you’ll see:
+
+- How many are made up of your users only, and
+- How many are made up of your users and guests 
+
+For shared channels, you’ll see: 
+
+- How many are made up of your users only, and
+- How many are made up of your users and guests.
 
 By default, we show the breakdown for channels active for the last 7 days. You can view the data of active channels' breakdown for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
 
@@ -164,12 +172,13 @@ You can change the time frame by selecting the **30 days** option, which provide
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
+> [!NOTE]
+> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+
 :::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Guests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > This insight doesn't capture Guest<>In-tenant user activity, but only the Guest<>Guest and Guest<>External user activities. Guest<>External user activities occur in group chats but not in 1:1 chats.
-
-> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 By default, we show you the guest users who have engaged in external collaboration for the last 7 days.
 
@@ -289,7 +298,7 @@ Three widgets - External collaboration activity by team, External collaboration 
    The data obfuscation is removed.
 
    > [!NOTE]
-   > Unchecking the **Display concealed user, group, and site names in all reports** checkbox will conceal the data.
+   > Clearing the **Display concealed user, group, and site names in all reports** checkbox will conceal the data.
 
 1. Save the policy.
 1. Navigate back to TAC to verify whether the data is visible.
