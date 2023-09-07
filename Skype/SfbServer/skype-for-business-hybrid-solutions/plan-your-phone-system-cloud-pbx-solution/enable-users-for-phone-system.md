@@ -1,7 +1,7 @@
 ---
 title: "Enable users for Phone System with on-premises PSTN connectivity in Skype for Business Server"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 1/27/2018
