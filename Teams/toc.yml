@@ -539,8 +539,6 @@ items:
       
       - name: Organizing teams
         items:
-          - name: Best practices for organizing teams in Teams
-            href: best-practices-organizing.md
           - name: Set up your teams targeting hierarchy
             href: set-up-your-team-hierarchy.md
           - name: Manage large Teams

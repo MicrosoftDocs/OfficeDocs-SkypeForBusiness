@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 07/24/2023
+ms.date: 09/06/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -74,9 +74,6 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
 Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out. 
-
->[!Important]
->The control feature to opt out will not be live until **August 2023**. Please check back then.
 
 1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account. 
 2. Go to **Customization > Device Configuration > Modern Apps Settings**. 
