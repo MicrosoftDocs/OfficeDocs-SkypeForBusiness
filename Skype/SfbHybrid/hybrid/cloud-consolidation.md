@@ -1,7 +1,7 @@
 ---
 ms.date: 11/05/2018
 title: "Cloud Consolidation for Teams and Skype for Business"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
