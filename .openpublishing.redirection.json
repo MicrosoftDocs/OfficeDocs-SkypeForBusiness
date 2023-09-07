@@ -4666,6 +4666,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/best-practices-organizing.md",
+    "redirect_url": "https://support.microsoft.com/office/b98d533f-118e-4bae-bf44-3df2470c2b12",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/contact-tns-service-desk.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
