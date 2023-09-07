@@ -2,7 +2,7 @@
 ms.date: 03/17/2018
 title: "Configure Skype for Business hybrid"
 ms.reviewer: 
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 audience: ITPro

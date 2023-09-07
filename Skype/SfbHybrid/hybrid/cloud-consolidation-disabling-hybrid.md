@@ -1,7 +1,7 @@
 ---
 ms.date: 11/05/2018
 title: "Disable hybrid to complete migration to Teams Only"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
