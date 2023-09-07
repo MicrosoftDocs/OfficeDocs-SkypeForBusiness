@@ -161,7 +161,7 @@ For information on how to assign phone numbers to your users, see [Assign, chang
 
 ### Service numbers
 
-In addition to getting phone numbers for your users, you can also get service numbers including toll or toll-free phone numbers for services such as Audio conferencing (for conference bridges), Auto attendants, and Call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers in India, contact your operator.
+In addition to getting phone numbers for your users, you can also get service numbers including toll or toll-free phone numbers for services such as Auto attendants and Call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers in India, contact your operator.
 
 ## Manage your operators
 
