@@ -1,7 +1,7 @@
 ---
 title: "Plan Phone System with on-premises PSTN connectivity in Skype for Business Server"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 1/26/2018
