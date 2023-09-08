@@ -52,10 +52,12 @@ Today, the TLS certificates used by Microsoft SIP interfaces chain up to the fol
 
 Common Name of the CA: Baltimore CyberTrust Root
 Thumbprint (SHA1): d4de20d05e66fc53fe1a50882c78db2852cae474
+
 New TLS certificates used by Microsoft SIP interfaces will now chain up to the following Root CA:
 
 Common Name of the CA: DigiCert Global Root G2
 Thumbprint (SHA1): df3c24f9bfd666761b268073fe06d1cc8d4f82a4
+
 The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2.
 
 For more information, see [Office TLS Certificate Changes](/purview/encryption-office-365-tls-certificates-changes)
