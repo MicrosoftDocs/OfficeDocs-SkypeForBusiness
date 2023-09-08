@@ -56,8 +56,9 @@ New TLS certificates used by Microsoft SIP interfaces will now chain up to the f
 
 Common Name of the CA: DigiCert Global Root G2
 Thumbprint (SHA1): df3c24f9bfd666761b268073fe06d1cc8d4f82a4
-The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2
+The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2.
 
+For more information, see [Office TLS Certificate Changes](/purview/encryption-office-365-tls-certificates-changes)
 ## New Direct Routing SIP endpoints 
 
 Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.122.0.0/15 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
