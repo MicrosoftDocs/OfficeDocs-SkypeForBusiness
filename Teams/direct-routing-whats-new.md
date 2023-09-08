@@ -23,6 +23,15 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## SIP certificate to MSPKI Certificate Authority change additional testing
+On September 19th (starting at 4 PM UTC), Microsoft will perform a 24 hour test where all Microsoft SIP endpoints will be switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). New Certificate Authority (CA) must be added in your SBC configuration and old Baltimore CA must be retained; do not replace the old CA.  If your SBC doesn’t trust this CA, you won't be able to connect to Teams SIP endpoints during the test. The final switch to the new Certificate Authority (CA) will be performed on October 3.
+
+If you’d like to test and confirm your SBCs certificate configuration prior to the change, Microsoft has prepared a testing endpoint that you can use to verify that SBC appliances trust certificates issued from the new root CA (DigiCert Global Root G2). This endpoint should be used only for SIP OPTIONS ping messages and not for voice traffic. If your SBC can establish a TLS connection to this endpoint, then your connectivity to Teams services should not be affected by the change.
+
+Test endpoint FQDN: sip.mspki.pstnhub.microsoft.com
+
+Port: 5061
+
 ## SIP certificate to MSPKI Certificate Authority change test
 
 On September 5 (starting at 9 AM UTC), Microsoft will perform a 24-hour test where all Microsoft SIP endpoints will be switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). If your SBC doesn’t trust this CA, you might not be able to connect to Teams SIP endpoints.
@@ -47,8 +56,9 @@ New TLS certificates used by Microsoft SIP interfaces will now chain up to the f
 
 Common Name of the CA: DigiCert Global Root G2
 Thumbprint (SHA1): df3c24f9bfd666761b268073fe06d1cc8d4f82a4
-The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2
+The new CA certificate can be downloaded directly from DigiCert: DigiCert Global Root G2.
 
+For more information, see [Office TLS Certificate Changes](/purview/encryption-office-365-tls-certificates-changes)
 ## New Direct Routing SIP endpoints 
 
 Microsoft will introduce new signaling IPs to Teams Direct Routing SIP endpoints. To ensure this change doesn’t affect your service availability, make sure your Session Border Controller and Firewall are configured to use the recommended subnets 52.112.0.0/14 and 52.122.0.0/15 for classification and ACL rules. For more information, see [Microsoft 365, Office 365, and Office 365 GCC environments](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
