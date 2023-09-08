@@ -57,9 +57,9 @@ You control whether the app is available at the organization level on the [Manag
 
 ### Step 2: Create and assign an app permission policy
 
-Control which users in your organization can use Walkie Talkie by assigning permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+Control which users in your organization can use Walkie Talkie by assigning app permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-Make sure that Walkie Talkie is an allowed app in the permission policy, and that you assign the permission policy to all users who need Walkie Talkie.
+Make sure that Walkie Talkie is an allowed app in the app permission policy, and that you assign the policy to all users who need Walkie Talkie.
 
 ### Step 3: Use an app setup policy to pin Walkie Talkie for your users
 
