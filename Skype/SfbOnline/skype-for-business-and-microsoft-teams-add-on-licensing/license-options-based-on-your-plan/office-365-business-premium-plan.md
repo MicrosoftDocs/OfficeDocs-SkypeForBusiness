@@ -1,7 +1,7 @@
 ---
 ms.date: 03/16/2018
 title: "Microsoft 365 Business Standard "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav

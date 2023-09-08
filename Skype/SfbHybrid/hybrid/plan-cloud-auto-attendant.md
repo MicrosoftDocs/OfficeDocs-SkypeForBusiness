@@ -1,7 +1,7 @@
 ---
 ms.date: 06/22/2018
 title: "Plan a Cloud auto attendant"
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
