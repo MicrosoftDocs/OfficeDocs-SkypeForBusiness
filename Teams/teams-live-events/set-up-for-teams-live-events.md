@@ -27,7 +27,7 @@ ms.custom: seo-marvel-mar2020
 # Set up for live events in Microsoft Teams
 
 > [!NOTE]
-> Teams live events will be deprecated on August 31, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
 When you're setting up for live events, there are several steps that you must take.
 

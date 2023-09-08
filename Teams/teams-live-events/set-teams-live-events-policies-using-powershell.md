@@ -24,7 +24,7 @@ ms.custom: seo-marvel-mar2020
 # Use PowerShell to set live events policies in Microsoft Teams
 
 > [!NOTE]
-> Teams live events will be deprecated on August 31, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
 You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:
 
