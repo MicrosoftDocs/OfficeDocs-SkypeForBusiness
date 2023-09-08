@@ -1,7 +1,7 @@
 ---
 ms.date: 11/09/2018
 title: "Update Azure AD Connect to include more than one forest"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
