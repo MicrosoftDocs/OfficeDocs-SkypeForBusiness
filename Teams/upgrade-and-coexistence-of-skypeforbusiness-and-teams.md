@@ -84,7 +84,7 @@ When using the overlapping capabilities method, the communication traffic for Sk
 
 - Communication initiated from Teams client from a *user in an external organization* will always land in User A's Skype for Business client.
 
-If you have assigned a Microsoft 365 or Office 365 license to your users, this will be the default upgrade experience for your organization. When you assign a Microsoft 365 or Office 365 license, both Teams and Skype for Business Online licenses are assigned by default.<sup>2</sup>
+If you have assigned a Microsoft 365 or Office 365 license to your users, this will be the default upgrade experience for your organization.<sup>2</sup>
 
 For this method to work effectively, all users must run both clients simultaneously. Incoming chats and calls from within the organization to a user in Islands mode can land in either the Skype for Business or Teams client--and this is not under the control of the recipient. It depends on what client the sender uses to initiate the communication. If the sender and recipient are in different organizations, incoming calls and chats to a user in Islands mode always land in the Skype for Business client.
 

@@ -48,7 +48,7 @@ For the overlapping capabilities upgrade option:
 
 - Consider this option if you can do a fast upgrade for your overall organization.  Since there is potential risk of confusion for end users with running both clients, it's best if you can minimize the time period during which users must run both clients. You should ensure your users know to run both clients.
 
-- This option is the out-of-the box model, and doesn't require administrator action to get started with Teams except to assign the Microsoft 365 or Office 365 license. If your users already have Skype for Business Online, you may already be in this model.
+- This option is the out-of-the box model, and doesn't require administrator action to get started with Teams except to assign the Teams license. If your users already have Skype for Business Online, you may already be in this model.
 
 - It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded
 users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that have not started using Teams, they will be exposed to missing messages. Furthermore, they won't see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires upfront planning as well as waiting until all users are ready to be upgraded.
