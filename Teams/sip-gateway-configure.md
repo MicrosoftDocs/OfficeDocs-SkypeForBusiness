@@ -259,7 +259,7 @@ There are two scenarios that bulk sign in can be used.
    - For Cisco IP phones - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml)
    - For analog devices connected to AudioCodes ATAs - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid`>/mac.in](https://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
 
-                        1. for Cisco ATA replace mac.ini with mac.cfg
+For Cisco ATA replace mac.ini with mac.cfg
 
                               1. for Poly ATA replace mac.ini with $mac.cfg
 
@@ -269,53 +269,43 @@ There are two scenarios that bulk sign in can be used.
 4. The accounts must have phone numbers assigned.
 5. The accounts must have [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure) assigned.
 6. The **Global Administrator, Authentication Administrator or the Authentication Administrator** role is needed for running the cmdlets.
-
-> [!NOTE]
-> For using the Bulk sign in feature, the **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`
+7. For using the Bulk sign in feature, the **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`
 
 ### How to create a bulk sign-in request
 
-1. Create an input CSV file with the following details –
-   1. Column headers: Username, HardwareId
+1. Create an input CSV file with the following columns: Username, HardwareId
+   - Username: list of AAD usernames / UPNs that you want to associate with the device HardwareId
+   - HardwareId: list of MAC addresses for IP phones in format 11-22-33-44-55-66; and/or 11-22-33-44-55-66:001 for analog devices where the port number of the analog device on the ATA is 1.
+  - Example CSV
+    |Username|HardwareId|
+    | -------- | -------- |
+    |Lobbyphone1@contoso.com|11-22-33-44-55-66|
+    |Garagephone2@contoso.com|12-23-34-45-56-67|
 
-      1. Username: list of AAD usernames / UPNs that you want to associate with the device HardwareId
+2. The path where the above CSV is stored is known as the __device details path__.
+3. __Region:__ SIP Gateway provisioning region where the devices are onboarded. Values are APAC, EMEA, NOAM.
+4. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
+5. `Run the NewCsSdgBulkSignInRequest` cmdlet to bulk sign in your batch of devices. For example:
+    ```powershell
+    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC Example CSV```
 
-         1. HardwareId: list of MAC addresses for IP phones in format 11-22-33-44-55-66; and/or 11-22-33-44-55-66:001 for analog devices where the port number of the analog device on the ATA is 1.
-
-1. The path where the above CSV is stored is known as the __device details path__
-1. __Region:__ SIP Gateway provisioning region where the devices are onboarded. Values can be APAC, EMEA, NOAM
-1. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale?view=o365-worldwide) and get Microsoft Teams PowerShell module 5.6.0
-1. Run the NewCsSdgBulkSignInRequest cmdlet to bulk sign in your batch of devices as per following syntax
-
-> [!IMPORTANT]
-> Syntax: `NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\DemoRequest.csv  -Region APAC`
-Example CSV –
-
-|Username|HardwareId|
-| -------- | -------- |
-|Lobbyphone1@contoso.com|11-22-33-44-55-66|
-|Garagephone2@contoso.com|12-23-34-45-56-67|
-
-### Bulk Sign-In Errors
-
-1. `User not found in tenant` - please check the username / UPN
-1. `User missing phone number assignment` - please check if the user has phone number assigned
-1. `User missing `_`AllowSIPDevicesCalling`_ `policy assignment` - please see prerequisite 7
-1. `User missing CAP policy assignment` - please see prerequisite 4
-1. `Device not found in records` - Please check if device was correctly provisioned to SIP Gateway.
-1. `Device not found; tenant ID is missing` - Please check if device provisioning url had tenant-ID.
-1. `Device is offline` - device is not reachable, powered off or disconnected from network. Please reconnect the device and try again.
-1. `Device not found, public IP address not valid` - Tenant ID in provisioning URL is incorrect or trusted IP added to Teams Admin Center is incorrect.
-1. `Bulk Sign-in timeline expired` - Device was not signed in within 72 hours of provisioning or 168 hours of signing out.
-1. `Duplicate devices found for bulk sign-in` - please check the MAC addresses / hardware IDs included in the batch. Duplicate MAC addresses result in error.
-1. `On-premises AD configuration failure` - please reach out to your on-premises AD team.
-1. `On-premises AD connectivity failure` - please try a smaller batch, large batches may cause requests to get stuck.
-1. `Password policy error` - the on-premises AD account has one of the following
-   1. The option "User must change password at next login" is selected
-
-      1. Minimum password age is set to a value greater than 0
-
-         1. User's password can't be changed
+### Bulk sign in error messages
+1. **User not found in tenant.** - please check the username or User Principal Name (UPN) is correct.
+2. **User missing phone number assignment.** - please check if the user has a phone number assigned.
+3. **User missing.**_`AllowSIPDevicesCalling`_ `policy assignment` - Verify that `TeamsSipDevicesConfiguration` is set to `Enabled`.
+4. **User missing CAP policy assignment** - The accounts must have a phone numbers assigned.
+5. **Device not found in records.** - Please check if device was correctly provisioned to SIP Gateway.
+6. **Device not found; tenant ID is missing.** - Please check if device provisioning url had tenant ID.
+7. **Device is offline.** - The device is not reachable, powered off or disconnected from network. Please reconnect the device and try again.
+8. **Device not found, public IP address not valid.** - Tenant ID in provisioning URL is incorrect or trusted IP added to Teams Admin Center is incorrect.
+9. **Bulk Sign-in timeline expired** - Device was not signed in within 72 hours of provisioning or 168 hours of signing out.
+10. **Duplicate devices found for bulk sign-in** - please check the MAC addresses / hardware IDs included in the batch. Duplicate MAC addresses result in error.
+11. **On-premises AD configuration failure** - please reach out to your on-premises Active Directory team.
+12. **On-premises AD connectivity failure** - please try a smaller batch, large batches may cause requests to get stuck.
+13. **Password policy error** - the on-premises Active Directory account has one of the following:
+      - The option "User must change password at next login" is selected.
+      - Minimum password age is set to a value greater than 0.
+      - User's password can't be changed.
 
 ## View and monitor SIP devices
 
@@ -352,7 +342,6 @@ How to set German for Polycom, AudioCodes, and Yealink phones:
 How to set Japanese for Cisco phones:
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml` 
 
-
 ### Supported languages
 
 |Language name|Language code]
@@ -365,26 +354,19 @@ How to set Japanese for Cisco phones:
 |Portuguese   |pt           |
 
 > [!Note]
-> - Japanese is not supported by Yealink and partially supported by Polycom VVX.
+> Japanese is not supported by Yealink and partially supported by Polycom VVX.
 > 
-
 > - The system defaults to English if the selected language is not supported by the SIP endpoint.
 > 
-
 > - When the **lang_xx** parameter is not set via the provisioning URL, English is used as the default language.
 > 
-
 > - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
 > 
 
 > - Poly VVX 150, VVX 201
-> 
-
-> 
->    - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
+> - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
 >    
 > - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
-> 
 
 ## Microsoft Teams and IPv6
 
