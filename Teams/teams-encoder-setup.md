@@ -60,6 +60,7 @@ The encoders in the following list have been tested by Microsoft for live stream
 
 ### Event Setup
 
-Refer to [this page](/microsoftteams/teams-stream-create-event) for event creation steps and [here](/microsoftteams/teams-encoder-configuration) for a configuration guide
+- For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
+- For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
 
 
