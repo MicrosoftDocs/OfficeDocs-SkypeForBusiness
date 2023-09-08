@@ -1,7 +1,7 @@
 ---
 title: "Upgrade to a new version of Cloud Connector"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
