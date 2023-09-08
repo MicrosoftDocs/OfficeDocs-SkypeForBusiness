@@ -56,6 +56,7 @@ The encoders in the following list have been tested by Microsoft for live stream
 |StreamYard                             |StreamYard |Live streaming studio in the browser.|
 |Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
 |Brandlive                              |BrandLive |Cloud based production platform.|
+|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit.|
 
 ### Haivision Makito X4 Encoder
 
@@ -94,5 +95,6 @@ If you're an existing user of Wirecast, you can choose this option from the drop
 
 > [!NOTE]
 > The Wirecast app is launched with the RTMPS ingest URL pre-configured.
+
 
 
