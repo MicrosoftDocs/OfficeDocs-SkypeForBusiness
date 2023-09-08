@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Deploy the Skype for Business client in Microsoft 365 aor Office 365"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
