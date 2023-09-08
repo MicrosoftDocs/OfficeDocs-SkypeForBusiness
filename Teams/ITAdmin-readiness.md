@@ -106,14 +106,6 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identity for the frontline workforce: Empower IT, managers, and frontline workers                    | Learn how to integrate Microsoft Teams with existing HR systems, configure lightweight delegated identity management, and configure simplified sign-in and seamless transitions for those using shared devices.                                                                                                                  | [Frontline worker identity guide](https://aka.ms/FLWIdentityIG)              |
 
+## Related topics
 
-<h2>Quick start guides</h2>
-
-- [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
-- [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
-
-<h2>Tutorials</h2>
-
-- [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
-- [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
-- [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
+[Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
