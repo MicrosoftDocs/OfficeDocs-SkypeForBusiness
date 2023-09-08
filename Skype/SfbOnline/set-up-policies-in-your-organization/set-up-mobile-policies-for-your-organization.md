@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Set up mobile policies for your organization"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
