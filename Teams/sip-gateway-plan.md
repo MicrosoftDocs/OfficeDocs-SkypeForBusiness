@@ -186,6 +186,9 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |7642        |PCS22B     |PCS22B     |Handset |   |
 |          |7722        |PCS22B     |PCS22B     |Handset |   |
 |          |7742        |PCS22B     |PCS22B     |Handset |   |
+|          |S33         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S35         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S37         |PCS23Ca    |PCS23Ca    |Handset |   |
 |          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
