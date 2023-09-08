@@ -186,6 +186,9 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |7642        |PCS22B     |PCS22B     |Handset |   |
 |          |7722        |PCS22B     |PCS22B     |Handset |   |
 |          |7742        |PCS22B     |PCS22B     |Handset |   |
+|          |S33         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S35         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S37         |PCS23Ca    |PCS23Ca    |Handset |   |
 |          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
@@ -196,6 +199,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Ascom d63        |2.11.4     |3.0.8     |Handset |   |
 |          |Ascom d81        |4.13.1     |4.17.3     |Handset |   |
 |          |Ascom d83        |1.3.2     |1.5.5     |Handset |   |
+|          |Ascom i63        |5.0.1     |5.0.1     |VoWiFi Handset |   |
 |          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Wireless Handset |   |
 |          |IP-DECT Access Point IPBSx        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
 |          |IP-DECT Gateway IPBL     |11.8.8     |11.9.11     |IP-DECT Gateway |   |
