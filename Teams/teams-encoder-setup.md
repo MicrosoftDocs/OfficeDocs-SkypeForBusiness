@@ -58,43 +58,8 @@ The encoders in the following list have been tested by Microsoft for live stream
 |Brandlive                              |BrandLive |Cloud based production platform.|
 |Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit.|
 
-### Haivision Makito X4 Encoder
+### Event Setup
 
-If you have an existing Haivision X encoder, you can choose the appropriate option from the drop-down list and follow the list of instructions.
-
-1. Select **Start setup** to create a channel for live streaming. Wait for the setup to complete. You'll see a **Ready to connect** message on the screen.
-1. After that's complete, download the preset that contains all of the encoding parameters including the ingest URL and event name. Import the preset into the encoder and start the encoder.
-1. Go back to Teams. After you are able to see the preview from the encoder, select **Start event** to go live so your audience can see the live event.
-
-> [!NOTE]
-> Haivision Makito X4 Encoder does not support RTMPS. The downloaded presets for both encoders contain the RTMP ingest URL.
-
-### Switcher Studio
-
-You can use Switcher Studio to start streaming to Teams using iPhone or iPad.
-
-1. Select **Start setup** to create a channel for live streaming. Wait for the setup to complete. You'll see a **Ready to connect** message on the screen.
-2. Switcher Studio will open the Switcher Studio dashboard to add the live event to your account.
-
-> [!NOTE]
-> If you don't already have a Switcher Studio account, you'll need to create one).
-
-3. When this is complete, you can go to your Switcher Studio app on your iPhone or iPad, select Teams in the Output tab and start streaming to Teams.
-4. Go back to Teams. After you're able to see the preview from the encoder, select **Start event** to go live so your audience can see the live event.
-
-> [!NOTE]
-> Switcher Studio uses the RTMP ingest URL.
-
-### Wirecast
-
-If you're an existing user of Wirecast, you can choose this option from the drop-down list to send a live stream to Teams. Note that you'll need Wirecast version 10 or later.
-
-1. Select **Start setup** to create a channel for live streaming. Wait for the setup to complete. You'll see a **Ready to connect** message on the screen.
-1. The encoder will launch the Wirecast app on your machine pre-configured with the correct encoding parameters and ingest URL for that live event. When ready click the Teams icon in the Wirecast app to start streaming to Teams.
-1. Go back to Teams. After you're able to see the preview from the encoder, select **Start event** to go live so your audience can see the live event.
-
-> [!NOTE]
-> The Wirecast app is launched with the RTMPS ingest URL pre-configured.
-
+Refer to [this page](/microsoftteams/teams-stream-create-event) for event creation steps and [here](/microsoftteams/teams-encoder-configuration) for a configuration guide
 
 
