@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Set up Audio Conferencing for Skype for Business"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

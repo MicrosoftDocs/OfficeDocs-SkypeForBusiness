@@ -1,7 +1,7 @@
 ---
 ms.date: 09/11/2018
 title: "Skype for Business Online Plan 1 retirement "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
