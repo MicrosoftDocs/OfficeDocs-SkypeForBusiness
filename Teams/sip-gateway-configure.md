@@ -241,41 +241,38 @@ To sign out a device on the Teams admin center:
 
 4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
-## Bulk Sign-In
+## Bulk sign in
 
-Bulk Sign-In enables you to sign-in with shared accounts on SIP devices in batches of up to 100 devices each, with a limit of 3 concurrent batches per region.
+Bulk sign ins enable you to sign in with shared accounts on SIP devices in batches of up to 100 devices each but with a limit of 3 concurrent batches per region.
 
-### Bulk Sign-In Scenarios
+### Bulk sign in scenarios
 
-Bulk Sign-In can be used for the following scenarios -
-
-1. For newly onboarded SIP devices within 3 days / 72 hrs of onboarding to SIP Gateway
-1. For signed out devices within 7 days / 168 hrs of getting signed out
-   1. Pre-requisite 2 is not applicable for this scenario.
+There are two scenarios that bulk sign in can be used.
+1. For newly onboarded SIP devices within 3 days or 72 hrs of onboarding to SIP Gateway.
+2. For signed out devices within 7 days or 168 hrs of getting signed out. For this scenario, you don't have to add the tenant ID to the provisioning URL (see prerequisite 2 below).
 
 ### Bulk Sign-In Pre-requisites
 
 1. Site public IPs / IP ranges must be added to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams Admin Center.
-1. Add the tenant-ID to the provisioning URL for the devices (examples below for NOAM region)
-   1. For AudioCodes and Yealink IP phones [http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>](http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>)
-
-      1. For Cisco IP phones - [http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/$PSN.xml](http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/$PSN.xml)
-
-         1. For analog devices connected to AudioCodes ATAs - [http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in](http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
+2. Add your organizations tenant ID to the provisioning URL for the devices. The examples are for the North America region.
+   - For AudioCodes and Yealink IP phones [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`)
+   - For Cisco IP phones - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml)
+   - For analog devices connected to AudioCodes ATAs - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid`>/mac.in](https://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
 
                         1. for Cisco ATA replace mac.ini with mac.cfg
 
                               1. for Poly ATA replace mac.ini with $mac.cfg
 
-1. Install the Microsoft Teams PowerShell Module 5.6.0 or higher. Bulk sign-in cmdlets are not available with previous versions of TPM.
-1. Only accounts with [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones) can be used as part of a bulk sign-in request.
-1. The accounts must not have Multi Factor Authentication enabled.
-1. The accounts must have phone numbers assigned.
-1. The accounts must have [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure) assigned.
-1. **Global Administrator / Authentication Administrator / Privileged Authentication Administrator** role is needed for running the cmdlets.
+1. Install the Microsoft Teams PowerShell Module 5.6.0 or higher. Bulk sign in cmdlets aren't available with previous versions of TPM.
+2. Only accounts with [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones) can be used as part of a bulk sign-in request.
+3. The accounts must not have Multi Factor Authentication (MFA) enabled.
+4. The accounts must have phone numbers assigned.
+5. The accounts must have [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure) assigned.
+6. The **Global Administrator, Authentication Administrator or the Authentication Administrator** role is needed for running the cmdlets.
 
 > [!NOTE]
-> For using the Bulk Sign-In feature, the **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`
+> For using the Bulk sign in feature, the **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`
+
 ### How to create a bulk sign-in request
 
 1. Create an input CSV file with the following details –
@@ -344,7 +341,6 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 ## Sync policy changes to SIP devices to enforce policies
 
 User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Devices must have their registration refreshed with the SIP Gateway periodically. SIP phones depend on Call Redirect, so the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
-
 
 ## Set a SIP device's UI language
 
