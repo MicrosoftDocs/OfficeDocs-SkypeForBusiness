@@ -37,14 +37,13 @@ A live event is scheduled in Teams or Viva Engage, and the **Teams Encoder** opt
 
 ### Common encoders used with live events
 
-The encoders in the following two lists have been tested by Microsoft for live streaming with Teams. The first list is a subset of these encoders, which have been tested with the product for ease of use and quick setup.
+The encoders in the following list have been tested by Microsoft for live streaming with Teams. The list is a subset of these encoders, which have been tested with the product for ease of use and quick setup.
 
-#### Stream-ready encoders
+#### Supported encoders
 
 |Encoder                                |Website  |Details  |
 |---------------------------------------|---------|---------|
-|Haivision                              |[Haivision Makito X](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
-|Haivision                              |[Haivision KB](https://www.haivision.com/microsoft/stream) |H.264 and HEV video encoders deliver high-quality ABR video cascades for resolutions up to 4K. |
+|Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
 |Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
 |vMix                                   |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
 |Wirecast                               |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
@@ -58,16 +57,16 @@ The encoders in the following two lists have been tested by Microsoft for live s
 |Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
 |Brandlive                              |BrandLive |Cloud based production platform.|
 
-### Haivision Makito X Encoder and Makito KB Encoder
+### Haivision Makito X4 Encoder
 
-If you have an existing Haivision X or Makito KB encoder, you can choose the appropriate option from the drop-down list and follow the list of instructions.
+If you have an existing Haivision X encoder, you can choose the appropriate option from the drop-down list and follow the list of instructions.
 
 1. Select **Start setup** to create a channel for live streaming. Wait for the setup to complete. You'll see a **Ready to connect** message on the screen.
 1. After that's complete, download the preset that contains all of the encoding parameters including the ingest URL and event name. Import the preset into the encoder and start the encoder.
 1. Go back to Teams. After you are able to see the preview from the encoder, select **Start event** to go live so your audience can see the live event.
 
 > [!NOTE]
-> Haivision KB Encoder support for RTMPS has not been tested yet. Haivision Makito X Encoder does not support RTMPS. The downloaded presets for both encoders contain the RTMP ingest URL.
+> Haivision Makito X4 Encoder does not support RTMPS. The downloaded presets for both encoders contain the RTMP ingest URL.
 
 ### Switcher Studio
 
@@ -95,3 +94,5 @@ If you're an existing user of Wirecast, you can choose this option from the drop
 
 > [!NOTE]
 > The Wirecast app is launched with the RTMPS ingest URL pre-configured.
+
+
