@@ -6,8 +6,8 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: 
-ms.date: 10/02/2018
+ms.reviewer: petrhudecek
+ms.date: 09/08/2023
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: 
   - seo-marvel-apr2020
@@ -36,7 +36,7 @@ For details about Teams user profiles on different platforms, see also [Teams fe
 |User-configured|App-configured|
 |:--- |:---|
 | ![Solid green check mark, indicates Presence Available.](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
-|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using Teams during these periods of time, the user's presence is shown alongside the Out of Office indicator. |
+|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies." If the user is using Teams during these periods of time, the user's presence is shown alongside the Out of Office indicator. |
 |  ![Solid red circle, indicates Busy.](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
 || ![Solid red circle, indicates Busy in a call.](media/Presence_Busy.png) In a call|
 || ![Solid red circle, indicates Busy in a meeting.](media/Presence_Busy.png) In a meeting |
@@ -49,7 +49,7 @@ For details about Teams user profiles on different platforms, see also [Teams fe
 |![Yellow clock icon, indicates away, be right back.](media/Presence_Away.png) Be right back| |
 |![Gray circle with x, indicates Offline.](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. |
 || ![Open gray circle, indicates status unknown.](media/Presence_Unknown.png) Status unknown|
-|| ![Purple circle with arrow, indicates Out of office.](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set or your calendar has an event that's set to show as "Out of Office". |
+|| ![Purple circle with arrow, indicates Out of office.](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set or your calendar has an event that's set to show as "Out of Office." |
 
 The order of statuses, from most available to least available, is:
 
