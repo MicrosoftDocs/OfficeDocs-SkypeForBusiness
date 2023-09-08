@@ -168,7 +168,7 @@ The tenant must have a _default geography_ in a EUDB country/region or select a 
 
 ### How can I determine customer data location?
 
-See the **Azure Active Directory (AAD)** [Microsoft Power BI dashboard](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
+See [Azure Active Directory and data residency](/azure/active-directory/fundamentals/data-residency).
 
 ## Give feedback or report an issue
 
