@@ -93,8 +93,8 @@ Teams Premium provides the following features for an enhanced webinar experience
 
 - **Real Time Messaging Protocol (RTMP)-in** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
 - **Custom emails** - Organizers and co-organizers can customize the webinar email templates sent to attendees.
-- **Custom webinar reminder email send times** - Webinar reminder emails are automatically to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
-- **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others will be hidden from view
+- **Custom webinar reminder email send times** - Webinar reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
+- **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others will be hidden from view.
 - **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
 - **Enable and manage the waitlist for webinars beyond capacity** - When the webinar's registration reaches capacity, organizers can manage overflow registration requests through a waitlist.
 - **Limit registration start and end times** - Organizers can set a time window during which potential attendees can register for their webinar.
