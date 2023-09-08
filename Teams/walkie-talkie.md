@@ -57,9 +57,9 @@ You control whether the app is available at the organization level on the [Manag
 
 ### Step 2: Create and assign an app permission policy
 
-Control which users in your organization can use Walkie Talkie by assigning permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+Control which users in your organization can use Walkie Talkie by assigning app permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-Make sure that Walkie Talkie is an allowed app in the permission policy, and that you assign the permission policy to all users who need Walkie Talkie.
+Make sure that Walkie Talkie is an allowed app in the app permission policy, and that you assign the policy to all users who need Walkie Talkie.
 
 ### Step 3: Use an app setup policy to pin Walkie Talkie for your users
 
@@ -110,8 +110,8 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 - Wireless headsets (iOS and Android)
   - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
-        - B450-XT, firmware version 1.07
-        - C300-XT, firmware version 1.30
+      - B450-XT, firmware version 1.07
+      - C300-XT, firmware version 1.30
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
@@ -150,7 +150,7 @@ The [Walkie Talkie usage and performance report](teams-analytics-and-reports/wal
 
 ## More information
 
-- If users are using mobile data to communicate via Teams, Walkie Talkie uses the same method.
+- If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 To learn more about the end-user experience, see:
@@ -168,7 +168,7 @@ The tenant must have a _default geography_ in a EUDB country/region or select a 
 
 ### How can I determine customer data location?
 
-See the **Azure Active Directory (AAD)** [Microsoft Power BI dashboard](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
+See [Azure Active Directory and data residency](/azure/active-directory/fundamentals/data-residency).
 
 ## Give feedback or report an issue
 
