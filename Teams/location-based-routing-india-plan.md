@@ -32,7 +32,7 @@ Location-Based Routing for Operator Connect for India lets you ensure that Teams
 
 This article describes what you need to know to use Location-Based Routing with Operator Connect for India. 
 
-Note that the configuration for Location-Based Routing for Operator Connect for India differs from the configuration for Location-Based Routing for Direct Routing. To configure Location-Based Routing for Operator Connect for India, you'll need to:
+The configuration for Location-Based Routing for Operator Connect for India differs from the configuration for Location-Based Routing for Direct Routing. To configure Location-Based Routing for Operator Connect for India, you'll need to:
 
 - Ensure your network configuration settings are accurate.
 
@@ -59,7 +59,7 @@ At the time of a PSTN call, a user’s location is determined by the IP subnet t
 
 Location-Based Routing checks that a user is inside the corporate network by first matching the user's external IP address against the NCS trusted IP address list.  Location-Based Routing then matches the Teams user's local IP address against the NCS site IP address list.
 
-For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md) and [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
+For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md) and [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md).
 
 
 ### Associate phone numbers to network sites
@@ -73,7 +73,7 @@ Set-CsPhoneNumberAssignment -PhoneNumber <string> -NetworkSiteId <string>
 
 ## Toll bypass evaluation and outcome
 
-When Location-Based Routing for Operator Connect for India is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or will not complete.   
+When Location-Based Routing for Operator Connect for India is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or won't complete.   
 
 Toll bypass evaluation depends on whether the Teams user is located at the network site their assigned phone number corresponds to. 
 
@@ -85,7 +85,7 @@ If a call can't complete, the Teams user is notified as follows:
 
 - For inbound PSTN calls, the call is routed based on the called Teams user’s unanswered call forwarding settings, typically to voicemail. If the Teams user doesn’t have unanswered call settings configured, the call will disconnect.
 
-The following table describe specifics for outbound and inbound PSTN calls for users who have an Operator Connect for India number:
+The following table describes specifics for outbound and inbound PSTN calls for users who have an Operator Connect for India number:
 
 **Outbound and inbound PSTN calls**
 
@@ -127,7 +127,7 @@ The following table describes behaviors for delegation with Operator Connect for
 
 ### Audio conferencing
 
-Audio conferencing with Location-Based Routing for Operator Connect for India users depends on whether the Operactor Connect for India user also has an Audio conferencing license.
+Audio conferencing with Location-Based Routing for Operator Connect for India users depends on whether the Operators Connect for India user also has an Audio conferencing license.
 
 **With an Audio conferencing license** - If a user with an assigned Operator Connect for India Teams Phone license also has an Audio Conferencing license, then the following rules apply:
 
@@ -152,7 +152,7 @@ The following Teams clients are supported:
 - Teams mobile clients (iOS and Android)
 - Teams IP phones
 
-The Teams web client is not supported.
+The Teams web client isn't supported.
 
 
 ## Related articles
@@ -160,7 +160,7 @@ The Teams web client is not supported.
 - [Plan Operator Connect for India](operator-connect-india-plan.md)
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
 
 
 

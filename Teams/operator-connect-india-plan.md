@@ -53,7 +53,7 @@ For more information about Teams voice solutions and PSTN connectivity options, 
 
 ## Benefits
 
-With Operator Connect for India, if your existing telecom operator is a participant in the Microsoft Operator Connect Program, they will provide your PSTN calling through Teams Phone. If your existing operator is not a participant in the Microsoft Operator Connect Program, check the Operator Connect directory to find an operator in India.
+With Operator Connect for India, if your existing telecom operator is a participant in the Microsoft Operator Connect Program, they'll provide your PSTN calling through Teams Phone. If your existing operator isn't a participant in the Microsoft Operator Connect Program, check the Operator Connect directory to find an operator in India.
 
 The Operator Connect program provides the following benefits:
 
@@ -65,7 +65,7 @@ The Operator Connect program provides the following benefits:
 
 - **Enhanced support and reliability.** Your operator provides technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability. 
 
-- **Ability to assign wired numbers to Teams users.** For more information, see Plan and configure Location-Based Routing for India.
+- **Ability to assign wired numbers to Teams users.** For more information, see [Plan and configure Location-Based Routing for India](location-based-routing-india-plan.md).
 
 
 ## Licensing and requirements
@@ -74,14 +74,17 @@ To enable phone number assignments with Operator Connect for India, make sure yo
 
 - **Assigned the appropriate license.** You'll acquire the appropriate license from your operator in India for each user located in India. To learn more, see [What is Teams Phone?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-- **In TeamsOnly mode.** Note that the user located in India must be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+- **In TeamsOnly mode.** The user located in India must be in TeamsOnly mode, but your entire organization doesn't. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 
 ## Support boundaries
 
-For technical support, please contact the customer support of your operator first. If needed, your operator can escalate your support case directly to Microsoft engineering through shared support channels. 
+For technical support, contact the customer support of your operator first. If needed, your operator can escalate your support case directly to Microsoft engineering through shared support channels. 
 
-## Related topics
+## Related articles
 
--  [Configure Operator Connect for India](operator-connect-india-configure.md)
+- [Configure Operator Connect for India](operator-connect-india-configure.md)
+- [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+
 
