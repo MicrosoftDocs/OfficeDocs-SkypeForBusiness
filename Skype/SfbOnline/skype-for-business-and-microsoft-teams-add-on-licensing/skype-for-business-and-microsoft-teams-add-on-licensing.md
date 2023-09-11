@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business add-on licensing"
 ms.date: 02/15/2019
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav

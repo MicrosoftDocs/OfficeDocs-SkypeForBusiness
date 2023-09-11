@@ -44,7 +44,7 @@ ms.custom:
 1. Configure required options like **Q&A**, **Captions**, and others under **Event options**.
 1. Select **Schedule** to complete the scheduling for your live event.
 
-## Stream the live event
+## Stream to the live event
 
 1. Once you schedule your live event, you can retrieve the **RTMP server ingest URL** and **RTMP Key** under the **RTMP In details** section of the calendar invite, which you can use to push the content from Encoder through RTMP Ingest.
 1. To set up your encoder, copy the RTMP ingest URL and the RTMP Key into your encoder to start sending the live encoder feed to Team. Using an encoder for live streaming in Microsoft Teams has more information.
@@ -55,3 +55,4 @@ ms.custom:
 1. When you're finished with your event, select **End event** on the producer UI. This ends the event and makes the content immediately available for video-on-demand.
 
 For more information on streaming the live event, review [Produce a live event using Teams encoder](https://support.microsoft.com/office/produce-a-teams-live-event-using-teams-encoder-b0026c9d-fd37-4bb3-bffc-6961f221fbe9).
+
