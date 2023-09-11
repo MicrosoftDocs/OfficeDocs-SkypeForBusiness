@@ -113,3 +113,11 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+- ### Voice applications policies
+
+- [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Get-CsTeamsVoiceApplicationsPolicy)
+- [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Grant-CsTeamsVoiceApplicationsPolicy)
+- [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/New-CsTeamsVoiceApplicationsPolicy)
+- [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Remove-CsTeamsVoiceApplicationsPolicy)
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Set-CsTeamsVoiceApplicationsPolicy)
