@@ -89,6 +89,25 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
+Teams Premium provides the following features for an enhanced town hall experience:
+
+- **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
+- **Custom webinar reminder email send times** - Town hall reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
+- **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
+- **Increased languages for live translated**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
+
+  - English (en-us)
+  - Japanese (ja- jp)
+  - Spanish (es-es)
+  - Portuguese (pt-pt)
+  - French (fr-fr)
+  - Chinese (zh-cn)
+  - German (de-de)
+  - Italian (it-it)
+  - Korean (ko- kr)
+  - Russian (ru-ru)
+- **Real time monitoring** - Troubleshoot town halls while they're live.
+
 Teams Premium provides the following features for an enhanced webinar experience:
 
 - **Real Time Messaging Protocol (RTMP)-in** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
