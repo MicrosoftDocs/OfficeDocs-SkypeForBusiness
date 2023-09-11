@@ -2,6 +2,14 @@
 
 
 
+## Week of September 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/5/2023 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+
+
 ## Week of August 28, 2023
 
 
@@ -19,12 +27,3 @@
 | 8/31/2023 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
 | 8/31/2023 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
 | 8/31/2023 | [Plan hybrid connectivity \| Skype for Business Server and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
-
-
-## Week of July 31, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/31/2023 | [Disable Legacy Control Panel (CSCP)](/SkypeForBusiness/plan/disable-legacy-control-panel) | added |
-| 7/31/2023 | [System requirements for Skype for Business Server 2019](/SkypeForBusiness/plan/system-requirements) | modified |
