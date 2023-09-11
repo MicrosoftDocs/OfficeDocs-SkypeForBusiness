@@ -45,15 +45,15 @@ To allow authorized users to make configuration changes, you can either change t
 
 We recommend you create custom policies that reflect the configuration changes you want to allow authorized users to make to Auto attendants and Call queues.
 
-### Required steps to setup authorized users
+### Required steps to set up authorized users
 
 Changing the global policy or creating a custom policy and assigning to user(s) is only one of two steps required to create authorized users.
 
 In addition to having a voice applications policy assigned, users must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one Auto attendant or Call queue.
 
-Assigning a policy to a user but but not assigning them an authorized user to at least one Auto attendant or Call queue will not enable the user to perform the actions described in this article.
+Assigning a policy to a user but not assigning them an authorized user to at least one Auto attendant or Call queue won't enable the user to perform the actions described in this article.
 
-Similarly, assigning a user as an authorized user to at least one Auto attendant or Call queue but not assigning a policy will not enable the user to perform the actions described in this article.
+Similarly, assigning a user as an authorized user to at least one Auto attendant or Call queue but not assigning a policy won't enable the user to perform the actions described in this article.
 
 ## Create a custom voice applications policy
 
@@ -197,7 +197,7 @@ You can edit the global policy or any custom policies you create.
 
 - **Agent monitor mode**: When set to **Monitor**, **Whisper**, **Barge**, or **Takeover**, this setting allows an authorized user to perform the following actions:
   - When set to **Monitor**, an authorized user can monitor an agent and listen to them while they are on an inbound call queue call.
-  - When set to **Whisper**, an authorized user can monitor an agent and whisper to them while they are on an inbound call queue call. The caller will not hear the authorized user.
+  - When set to **Whisper**, an authorized user can monitor an agent and whisper to them while they are on an inbound call queue call. The caller won't hear the authorized user.
   - When set to **Barge**, an authorized user can monitor an agent, whisper to them, and barge in or join the inbound call queue call.
   - When set to **Takeover**, an authorized user can monitor an agent, whisper to them, barge in, and take over the inbound call queue call.
 
