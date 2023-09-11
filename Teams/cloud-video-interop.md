@@ -53,19 +53,20 @@ third-party systems that are outside of the Office 365 infrastructure and theref
 > [!NOTE]
 > The Pexip Teams Connector must be hosted in the Arizona or Texas Azure regions for GCC High. The Virginia Azure region does not support the hosting of the Pexip Teams Connector for GCC High.
 
-### Partners Certified for Microsoft Teams
+## Partners Certified for Microsoft Teams
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution. 
 
 |Partner|Partner solution|
 |----|---|
-|![The logo representing Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
 |![The logo representing Pexip Infinity.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
+|![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a> |
+|![The logo representing HP Poly CloudConnect.](media/hppoly.png) | <a href="https://aka.ms/PolyCloudConnect" target="_blank">HP Poly CloudConnect</a> |
+|![The logo representing Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolyRealConnect" target="_blank">Poly RealConnect Service</a> |
 |![The logo representing BlueJeans Gateway.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
 
 > [!NOTE]
-> Both BlueJeans and Poly are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
+> Both BlueJeans and Poly (RealConnect Service) are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 
 ## Cloud Video Interop Release Notes
 
@@ -159,6 +160,8 @@ The following PowerShell cmdlets are available for you to (partially) automate t
 - **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
 - **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
 - **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+
+
 
 
 
