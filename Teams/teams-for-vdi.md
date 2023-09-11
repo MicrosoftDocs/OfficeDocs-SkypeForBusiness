@@ -536,26 +536,24 @@ The following are known issues and limitations for calling and meetings:
    - Not supported on Linux endpoints
    For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
-   ## Troubleshooting
+## Troubleshooting
 
-   ### Troubleshoot Citrix components
+### Troubleshoot Citrix components
 
-   #### Teams crashes or the Teams sign in screen is blank
+#### Teams crashes or the Teams sign in screen is blank
 
-   This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry `DWORD` value, and set it to `204` (hexadecimal).
-
-   ```console
+This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry `DWORD` value, and set it to `204` (hexadecimal):
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-```
+Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
-   Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Microsoft Teams](https://support.citrix.com/article/CTX253754).
+## Related topics
 
-   ## Related topics
+[Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
 
-- [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
 
 
