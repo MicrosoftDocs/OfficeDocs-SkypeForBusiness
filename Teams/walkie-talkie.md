@@ -30,7 +30,7 @@ ms.date: 11/17/2022
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
-Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap  **Disconnect**. Walkie Talkie supports communicating in standard, open channels - it does not support or work on shared and private channels.
+Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
 With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -57,9 +57,9 @@ You control whether the app is available at the organization level on the [Manag
 
 ### Step 2: Create and assign an app permission policy
 
-Control which users in your organization can use Walkie Talkie by assigning permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+Control which users in your organization can use Walkie Talkie by assigning app permission policies in the Teams admin center. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-Make sure that Walkie Talkie is an allowed app in the permission policy, and that you assign the permission policy to all users that will need Walkie Talkie.
+Make sure that Walkie Talkie is an allowed app in the app permission policy, and that you assign the policy to all users who need Walkie Talkie.
 
 ### Step 3: Use an app setup policy to pin Walkie Talkie for your users
 
@@ -94,7 +94,7 @@ Walkie Talkie in Teams requires internet connectivity. The following network con
 |Jitter |< 30 ms |
 |Packet Loss |< 1% |
 
-As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
+As noted, the quality of real-time media over an IP network is greatly affected by the quality of the network connectivity, but especially by the amount of:
 
 - **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
 - **Inter-arrival jitter** - The average change in delay between successive packets.
@@ -109,7 +109,9 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie) C300-XT and B450-XT
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
+      - B450-XT, firmware version 1.07
+      - C300-XT, firmware version 1.30
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
@@ -148,7 +150,7 @@ The [Walkie Talkie usage and performance report](teams-analytics-and-reports/wal
 
 ## More information
 
-- If users are using mobile data to communicate via Teams, Walkie Talkie will use the same method.
+- If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
 - Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 To learn more about the end-user experience, see:
@@ -158,23 +160,20 @@ To learn more about the end-user experience, see:
 
 ## Data residency available
 
-Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom will be stored in data centers located in the EU. All other tenants will have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage. 
+Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom is stored in data centers located in the EU. All other tenants have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage.
 
-### To be considered a tenant in the EUDB:
+### To be considered a tenant in the EUDB
 
 The tenant must have a _default geography_ in a EUDB country/region or select a country/region in EUDB country/region as their residence during sign-up.
 
 ### How can I determine customer data location?
 
-Please refer to the **Azure Active Directory (AAD)** [Microsoft Power BI dashboard](https://msit.powerbi.com/view?r=eyJrIjoiZmMyODcxZWMtMWY4ZS00N2Q1LTgzNGQtYzQzODZhMDlmM2NmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9).
+See [Azure Active Directory and data residency](/azure/active-directory/fundamentals/data-residency).
 
 ## Give feedback or report an issue
 
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
+To send feedback, select **Help** at bottom of the navigation bar in Teams, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
 
 ### Allow users to provide feedback
 
-Users in your organization can attach logs while sharing feedback On Microsoft, if you enable the policy to [Set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
-
-
-
+Users in your organization can attach logs while sharing feedback to Microsoft, if you enable the policy to [set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
