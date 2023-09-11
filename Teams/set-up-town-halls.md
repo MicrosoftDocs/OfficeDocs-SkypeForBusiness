@@ -28,7 +28,7 @@ description: Learn how to set up and manage town hall policies for IT Admins in 
 
 Microsoft Teams is introducing town halls, a one-to-many interactive virtual event. This article describes how you, as an admin, can set up and manage town halls for your users.
 
-To learn more about town hall webinar features and capabilities, see [PLACEHOLDER].
+To learn more about town hall features and capabilities, see [Plan for town halls](plan-town-halls.md).
 
 To learn more about the end user experience, see [PLACEHOLDER].
 
@@ -80,9 +80,17 @@ To turn off town halls, use the following script:
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 ```
 
+### Disable public town halls
+
+To turn off town halls, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
+```
+
 ## Related topics
 
-- [Manage email communications for town halls and webinars placeholder] 
+- [Manage email communications for town halls and webinars placeholder](manage-email-communications.md)
 - [Set up webinars](set-up-webinars.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
