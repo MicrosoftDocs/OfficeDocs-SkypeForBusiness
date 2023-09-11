@@ -68,9 +68,11 @@ You can assign a phone number to a Call queue, however Call queues don't provide
 To configure Auto attendants and Call queues, you need the following resources:
 
 - A [Resource Account](manage-resource-accounts.md) for each Auto attendant and each Call queue.
-- A free [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account.
+- A free<sup>1</sup> [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account.
 - At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.
   - The service number may be a toll or toll-free number.
+
+<sup>1</sup> To understand in which situations this license can have a cost, see [Resource Account license allocation](teams-add-on-licensing/virtual-user.md#resource-account-license-allocation).
 
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
