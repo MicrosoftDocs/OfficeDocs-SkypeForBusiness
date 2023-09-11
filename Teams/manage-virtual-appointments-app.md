@@ -32,7 +32,7 @@ appliesto:
 
 The Virtual Appointments app provides a central hub for all your virtual appointments needs in Microsoft Teams. The app enables a seamless end-to-end experience for business-to-customer engagements, integrating schedules, analytics, and management options, all in one place.
 
-You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports to gain insight into virtual appointments activity, and configure calendar, staff, and booking page settings.
+You can schedule, view, and manage virtual appointments, get real-time status updates in a queue view, send appointment reminders, view analytics and reports on virtual appointments activity, and configure calendar, staff, and booking page settings.
 
 With any Microsoft 365 license, you can use basic Virtual Appointments capabilities to schedule and join business-to-customer meetings. For example, you can schedule appointments in the appointment calendar and external attendees can [join through a browser](/microsoft-365/frontline/browser-join) without having to download Teams. [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) unlocks advanced Virtual Appointments capabilities that your organization can use to manage and customize the experience. These features include a queue view of scheduled and on-demand appointments, SMS text notifications, custom waiting rooms, and analytics.
 
@@ -87,7 +87,7 @@ To learn more, see [Monitor appointments and get real-time status updates](/micr
 
 ![Information icon](media/info.png) **This feature requires [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-Get insight into usage activity and trends to help optimize Virtual Appointments and deliver better business outcomes.
+View usage activity and trends to help optimize Virtual Appointments and deliver better business outcomes.
 
 The Teams Virtual Appointments usage report gives admins, decision makers, and users an overview of virtual appointments activity in your organization. The report provides key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
 
