@@ -112,6 +112,8 @@ You can edit the global policy or any custom policies you create.
 
 #### Greetings
 
+***Features are currently available to all customers.***
+
 - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *business hours greeting* for the Auto attendants they're authorized for.
 
 - **After Hours Greeting**: Turn on this setting to allow authorized users to change the *after hours greeting* for the Auto attendants they're authorized for.
@@ -119,6 +121,8 @@ You can edit the global policy or any custom policies you create.
 - **Holiday Greeting**: Turn on this setting to allow authorized users to change the *holiday greeting* for the Auto attendants they're authorized for.
 
 #### General
+
+***Features are currently available to preview customers only.***
 
 - **Time zone**: Turn on this setting to allow authorized users to change the *Auto attendant time zone* for the Auto attendants they're authorized for.
 
@@ -133,6 +137,8 @@ You can edit the global policy or any custom policies you create.
 
 #### Call Flow Routing
 
+***Features are currently available to preview customers only.***
+
 - **Business hours call routing**: Turn on this setting to allow authorized users to change the *Auto attendant business hours call flow* for the Auto attendants they're authorized for.
 
 - **After hours call routing**: Turn on this setting to allow authorized users to change the *Auto attendant after-hours call flow* for the Auto attendants they're authorized for.
@@ -140,6 +146,8 @@ You can edit the global policy or any custom policies you create.
 - **Holiday call routing**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
 
 #### Reporting
+
+***Features are currently available to preview customers only.***
 
 - **Real Time Auto Attendant Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time auto attendant metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the auto attendants they're authorized for.
@@ -154,6 +162,8 @@ You can edit the global policy or any custom policies you create.
 
 #### Greetings
 
+***Features are currently available to all customers.***
+
 - **Welcome Greeting**: Turn on this setting to allow authorized users to change the *welcome greeting* for the Call queues they're authorized for.
 
 - **Music on hold**: Turn on this setting to allow authorized users to change the *music on hold* for the Call queues they're authorized for.
@@ -165,6 +175,8 @@ You can edit the global policy or any custom policies you create.
 - **No Agents Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the Call queues they're authorized for.
 
 #### General
+
+***Features are currently available to preview customers only.***
 
 - **Language**: Turn this setting on to allow authorized users to change the *Call queue language* for Call queues they're authorized for.
 
@@ -187,6 +199,8 @@ You can edit the global policy or any custom policies you create.
 
 #### Exception Handling
 
+***Features are currently available to preview customers only.***
+
 - **Routing for call overflow**: Turn this setting on to allow authorized users to change the *Call queue overflow handling properties* for the Call queues they're authorized for.
 
 - **Routing for call timeout**: Turn this setting on to allow authorized users to change the *Call queue timeout handling properties* for the Call queues they're authorized for.
@@ -194,6 +208,8 @@ You can edit the global policy or any custom policies you create.
 - **Routing for no agents**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
 
 #### Monitor-Whisper-Barge-Takeover
+
+***Features are not currently available.***
 
 - **Agent monitor mode**: When set to **Monitor**, **Whisper**, **Barge**, or **Takeover**, this setting allows an authorized user to perform the following actions:
   - When set to **Monitor**, an authorized user can monitor an agent and listen to them while they are on an inbound call queue call.
@@ -209,6 +225,8 @@ You can edit the global policy or any custom policies you create.
 - **Agent monitor notification mode**: When set to *agent*, a call monitoring banner is presented to the agent who is being actively monitored by an authorized user.
 
 #### Reporting
+
+***Features are currently available to preview customers only.***
 
 - **Real Time Call Queue Metrics**: When set to **AuthorizedOnly** or **All**, this setting allows authorized users to access real-time call queue metrics.
    -  When set to **AuthorizedOnly**, an authorized user sees metrics for the call queues they're authorized for.
