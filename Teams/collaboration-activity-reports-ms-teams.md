@@ -27,8 +27,6 @@ The Collaboration activity reports for Microsoft Teams aim to give Teams adminis
   
 Through Collaboration activity reports, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
 
-The insights you surface from the Collaboration activity reports doesn't capture signals for meetings or calls. These insights take only messages-sent signals. The enhancement of these insights capturing signals related to meetings or calls will be implemented by the end of 2023.
-
 ## Where to find Collaboration activity reports
 
 The Collaboration activity reports can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
@@ -38,6 +36,9 @@ The Collaboration activity reports can be found in the Teams Admin Center dashbo
 ## Components
 
 This section describes the following components of the Collaboration activity reports:
+
+> [!NOTE]
+> Each component captures different type of signals. 
 
 - [Inactive teams](#inactive-teams)
 - [Inactive external domains activity](#inactive-external-domains-activity)
@@ -90,6 +91,27 @@ By default, we show you the domains that have been inactive from the last 30 day
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
  
 :::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
+
+**Signals captured**
+
+The *Inactive external domains activity* component captures the following signals":
+
+- MemberAdded
+- MemberRemoved
+- MemberRoleChanged
+- SettingChanged
+- TabAdded
+- TabUpdated
+- TabRemoved
+- ChannelAdded
+- ChannelDeleted
+- MessageSent
+- MessageRead
+- MessageDeleted
+- ReactedToMessage
+- MeetingCreated
+- MessageCreatedHasLink
+- MessageUpdated
 
 ### Teams by user type
 
@@ -151,6 +173,10 @@ You can click **View details** to see the teams’ names and the "sent message c
 
 You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and clicking **Run report**.
 
+**Signal captured**
+
+The *Teams with the most external user and guest activity* component captures the **MessageSent** signal.
+
 ### Users with the most external user and guest collaboration
 
 The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
@@ -168,6 +194,10 @@ You can change the time frame by choosing **30 days** or **60 days** from the **
 
 You can change the time frame by selecting the **30 days** option, which provides details of those internal users who have collaborated the most with guests and external users for the last 30 days.
 
+**Signal captured**
+
+The *Users with the most external user and guest collaboration* component captures the **MessageSent** signal.
+
 ### Guests with the most external user and guest collaboration
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
@@ -183,6 +213,10 @@ The **Guest with the most external user and guest collaboration** widget shows y
 By default, we show you the guest users who have engaged in external collaboration for the last 7 days.
 
 You can change the time frame by selecting the **30 days** option, which provides details of those guests who have collaborated the most with guests and external users for the last 30 days.
+
+**Signal captured**
+
+The *Guests with the most external user and guest collaboration* component captures the **MessageSent** signal.
 
 #### Site Lifecycle Management (SLM)
 
