@@ -78,7 +78,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
-| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 | 16 GB | 128 GB |
+| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 128 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www.hp.com/us-en/desktops/business/elite-slice.html) | Core i5 | 8 GB | 128 GB |
 | [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) | Core i5 | 8 GB | 128 GB |
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
