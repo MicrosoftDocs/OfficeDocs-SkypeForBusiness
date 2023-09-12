@@ -34,7 +34,7 @@ To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#man
 Teams admin center lets you create two types of permissions policies:
 
 * **Global (Org-wide default)** policy exists by default and applies to all users. Any changes made to this policy impact all users as this policy is applied to all users by default.
-* An admin-created policy applies only to the users that it's applied to. Create a new policy to allow apps for specific users or group of users.
+* An admin-created policy applies only to the users that it's applied to. Create a new policy to allow apps for specific users.
 
    :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created.":::
 
@@ -45,7 +45,7 @@ If your organization is already on Teams, the app settings you configured in **T
 
 ## Create an app permission policy
 
-Use one or more custom app permission policies, if you want to control the apps that are available for different groups of users. You can create and assign separate custom policies based on whether apps are published by Microsoft, third parties, or your organization. After you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings. To create an app permission policy, follow these steps:
+Use one or more custom app permission policies, if you want to control the apps that are available to different users. You can create and assign separate custom policies based on whether apps are published by Microsoft, third parties, or your organization. After you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings. To create an app permission policy, follow these steps:
 
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/app-permission)**.
 1. Select **Add**.
@@ -78,7 +78,7 @@ You can use the Teams admin center to edit the global policy or any custom polic
 
 ## Assign a custom policy for app permissions to users
 
-App permission policies take effect only when you apply a policy to a user or a group of users. See the different ways to [assign the policy to users and groups](policy-assignment-overview.md#ways-to-assign-policies).
+App permission policies take effect only when you apply a policy to a user. See the different ways to [assign the policy to users](policy-assignment-overview.md#ways-to-assign-policies).
 
 ## View the policies already applied to a user
 
@@ -103,7 +103,7 @@ To change existing policies, follow these steps:
 > [!NOTE]
 > To unassign a custom policy from a user, you can set each policy to **Global (Org-wide default)**.
 
-You can also change existing policies for an individual user using PowerShell. For more information, see [assign policies to users and groups](assign-policies-users-and-groups.md).
+You can also change existing policies for an individual user using PowerShell. For more information, see [assign policies to users](assign-policies-users-and-groups.md).
 
 ## Unassign app permission policies in bulk
 
@@ -126,7 +126,7 @@ After you unassign policies, you can review operation details in the [Activity l
 
 The following are a few considerations when using app permissions policies to grant access or to disallow access to apps:
 
-* App permission policies take effect only when you apply a policy to a user or a group of users.
+* App permission policies take effect only when you apply a policy to a user.
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect.
 
@@ -142,4 +142,3 @@ The following are a few considerations when using app permissions policies to gr
 
 * [Assign policies to your users in Teams](policy-assignment-overview.md)
 * [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)
-* [How to create user groups in Microsoft 365](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide)
