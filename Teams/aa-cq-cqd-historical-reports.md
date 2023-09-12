@@ -31,6 +31,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 > [!IMPORTANT]
 > These reports aren't currently available for GCC High and DoD customers.
+> GCC High and DoD customers should use [alskjdfalksdfjalkfj](./aa-cq-cqd-historical-reports)
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
