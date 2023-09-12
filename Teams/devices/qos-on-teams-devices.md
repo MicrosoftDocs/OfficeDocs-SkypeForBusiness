@@ -33,8 +33,6 @@ This article explains:
 1. How to control that bandwidth usage.
 1. How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements.
 
-   :::image type="content" source="../media/teams-room-device-qos-configuration.png" alt-text="Screenshot that shows a Teams Room device with QoS configuration." lightbox="../media/teams-room-device-qos-configuration.png":::
-
 Wired network connectivity is recommended for Microsoft Teams Room devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
 ## How much bandwidth will a Microsoft Teams Rooms device use?
@@ -45,11 +43,14 @@ Where bandwidth isn't limited, Teams optimizes media quality, including high-fid
 
 The following table provides rough estimates of bandwidth utilized for the various streams in *kbps* (down/up)
 
-|Feature  |Minimum  |Standard  |Optimal performance  |
-|---------|---------|---------|---------|
-|Audio     |64/64         |128/128         |256/256         |
-|Video     |150/200         |2500/4000         |8000/8000         |
-|Screen share     |250/250         |2500/2500         |4000/4000         |
+
+|Feature  |Standard  |Advanced  |
+|---------|---------|---------|
+|Audio     | 128/128        |     256/256    |
+|Video    |    2000/4000     |8000/4000         |
+|Screen share     |    2000/2000     |   2000/2000      |
+|Total     |  4128/6128       |10256/6256         |
+
 
 Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras the remote participants have connected to the meeting, along with the number of participants with video enabled.
 
