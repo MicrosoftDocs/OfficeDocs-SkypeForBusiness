@@ -45,7 +45,7 @@ The encoders in the following list have been tested by Microsoft for live stream
 |---------------------------------------|---------|---------|
 |AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Advanced H.264 Streaming and Recording |
 |AWS Elemental Live                     |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
-|Brandlive                              |BrandLive |Cloud based production platform.|
+|BrandLive                              |[BrandLive](https://www.brandlive.com/) |Cloud based production platform. |
 |FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
 |Live Arena AI Producer                 |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
