@@ -37,8 +37,8 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
-|Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
-|Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
+|Number of channels per team    | 1,000 (includes deleted channels)<sup>4,7</sup>         |
+|Number of Private channels per team    | 30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
 |Maximum size of distribution list, security group or Microsoft 365 group that can be imported in to a team    |3,500|
 |Maximum number of members in a Microsoft 365 group that can be converted to a team    |10,000<sup>6</sup>     |
@@ -50,11 +50,13 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 1,000 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts toward the per-team limit.
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+
+<sup>7</sup> Any combination of standard and shared channels including up to 30 private channels for a total of 1,000 channels per team.
 
 ### Limits for shared channels
 
@@ -63,7 +65,7 @@ The following table describes the maximum number of channels and members.
 |Maximum...|Value|Notes|
 |:---------|:----|:----|
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
-|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
+|Shared channels per team|up to 1,000 |Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
 |Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
