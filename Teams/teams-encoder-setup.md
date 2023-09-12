@@ -39,28 +39,29 @@ A live event is scheduled in Teams or Viva Engage, and the **Teams Encoder** opt
 
 The encoders in the following list have been tested by Microsoft for live streaming with Teams. The list is a subset of these encoders, which have been tested with the product for ease of use and quick setup.
 
-#### Supported encoders
+### Supported encoders
 
 |Encoder                                |Website  |Details  |
 |---------------------------------------|---------|---------|
+|AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Advanced H.264 Streaming and Recording |
+|AWS Elemental Live                     |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
+|Brandlive                              |BrandLive |Cloud based production platform.|
+|FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
+|Live Arena AI Producer                 |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
 |Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
+|Production Truck                       |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
+|Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
+|StreamYard                             |StreamYard |Live streaming studio in the browser.|
+|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
 |vMix                                   |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
 |Wirecast                               |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
-|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
-|AWS Elemental Live                     |[AWS Elemental Live](https://www.elemental.com/products/aws-elemental-appliances-software/#elemental-live) |Real-time video and audio recording for live streaming to internet-connected devices |
 |XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
-|FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
-|Production Truck          |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
-|Live Arena AI Producer                 |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
-|StreamYard                             |StreamYard |Live streaming studio in the browser.|
-|Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
-|Brandlive                              |BrandLive |Cloud based production platform.|
-|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit.|
 
 ### Event Setup
 
 - For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
 - For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
+
 
 
