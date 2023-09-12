@@ -33,7 +33,7 @@ To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#man
 
 Teams admin center lets you create two types of permissions policies:
 
-* **Global (Org-wide default)** policy exists by default and applies to all users. Any changes made to this policy impact all users as this policy is applied to all users by default.
+* **Global (Org-wide default)** policy exists by default and applies to all users. Any changes made to this policy affect all users as this policy is applied to all users by default.
 * An admin-created policy applies only to the users that it's applied to. Create a new policy to allow apps for specific users.
 
    :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created.":::
@@ -79,6 +79,8 @@ You can use the Teams admin center to edit the global policy or any custom polic
 ## Assign a custom policy for app permissions to users
 
 App permission policies take effect only when you apply a policy to a user. See the different ways to [assign the policy to users](policy-assignment-overview.md#ways-to-assign-policies).
+
+Teams doesn't support group policy assignments for app permission policies.
 
 ## View the policies already applied to a user
 
