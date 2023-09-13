@@ -31,8 +31,8 @@ This article describes how to build a Microsoft Teams Rooms image for mass deplo
 > [!NOTE]
 > The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
-You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). This topic contains the following sections:
-  
+You should only perform these steps if the necessary Microsoft Teams and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). This topic contains the following sections:
+
 - [Supported hardware](console.md#supported-hardware)
 - [Prepare the installation media](console.md#Prep_Media)
 - [Install a private CA certificate on the console](console.md#Certs)
@@ -125,7 +125,7 @@ In Creator's Update, you'll need to use the ApplyCurrentRegionAndLanguage.ps1 sc
 
 > [!NOTE]
 > The following instructions work only for consoles created using Windows Creator's Update (Windows 10 20H1) or later.
-  
+
 ### To apply your desired language
 
 1. Switch to Admin mode.
@@ -181,21 +181,14 @@ Your desired language is now applied to the Microsoft Teams Rooms app.
 
 After Windows is installed, the Microsoft Teams Rooms app will go into its initial Setup process.
   
-1. The User Account screen appears. Enter the Microsoft Exchange Resource account sign-in address (in user@domain format) of the room account to be used with the console.
+1. The End user license screen appears. Select **Accept** to continue 
+1. The User Account screen appears. Enter the Microsoft Teams/ Microsoft Exchange Resource account sign-in address (in user@domain format) of the room account to be used with the console.
+1. Enter the password for the room account, and re-enter it to verify.
+1. Select **Next**.
+1. Select **Finish**.
 
-2. Enter the password for the room account, and re-enter it to verify.
+The Microsoft Teams Rooms app should signing in to Microsoft Teams with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
-3. Select the supported meeting mode - Microsoft Teams Only, Skype for Business Only, or one of the two mixed-mode options. If necessary, enable Modern Authentication.
-
-4. Select **Next**.
-
-5. If using Skype for Business and if the Skype for Business SIP domain is different from the Exchange domain of the user, set the FQDN for the Skype for Business Server in the Advanced section. If you are not using Skype for Business or the SIP domain matches the Exchange domain, leave this section blank.
-6. Select **Next**.
-
-7. Select **Finish**.
-
-The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
-  
 > [!IMPORTANT]
 > Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check. For more information about supported hardware, see [Supported hardware](console.md#supported-hardware).
 
@@ -205,8 +198,7 @@ The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for 
 ### Install a private CA certificate on the console
 <a name="Certs"> </a>
 > [!NOTE]
-> The following only applies if connecting Teams Rooms to Skype for Business.
-
+> The following only applies if connecting Teams Rooms to on-premise Exchange server.
 Microsoft Teams Rooms needs to trust the certificates used by the servers it connects to. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to Microsoft Teams Rooms in a couple of ways:
 
 - You can join the console to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).
@@ -295,3 +287,4 @@ Use the following checklist while doing a final verification that the console an
 [Configure a Microsoft Teams Rooms console](console.md)
   
 [Manage Microsoft Teams Rooms](rooms-manage.md)
+
