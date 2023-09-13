@@ -57,11 +57,11 @@ You can control whether your users can choose to send SMS text notifications to 
 
 You manage access to this feature for your users through policies that you set using the following PowerShell cmdlets:
 
-- [New-CsTeamsVirtualAppointmentsPolicy]()
-- [Set-CsTeamsVirtualAppointmentsPolicy]()
-- [Grant-CsTeamsVirtualAppointmentsPolicy]()
-- [Get-CsTeamsVirtualAppointmentsPolicy]()
-- [Remove-CsTeamsVirtualAppointmentsPolicy]()
+- [New-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/new-csteamsvirtualappointmentspolicy?view=teams-ps)
+- [Set-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/set-csteamsvirtualappointmentspolicy?view=teams-ps)
+- [Grant-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/grant-csteamsvirtualappointmentspolicy?view=teams-ps)
+- [Get-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/get-csteamsvirtualappointmentspolicy?view=teams-ps)
+- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/remove-csteamsvirtualappointmentspolicy?view=teams-ps)
 
 To enable or disable SMS notifications, set the **EnableSMSNotifications** parameter in the policy to `$true` (the default value) or `$false`.
 
