@@ -51,20 +51,21 @@ The encoders in the following list have been tested by Microsoft for live stream
 |BrandLive                              |[BrandLive](https://www.brandlive.com/) |Cloud based production platform. |
 |FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams. |
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP. |
-|Live Arena AI Producer                 |AI Producer |Production studio integrated in Microsoft Teams as a meeting app.|
+|Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Production studio integrated in Microsoft Teams as a meeting app. |
+|Magewell Ultra Encode AIO              |[Magewell Ultra Encode AIO](https://www.magewell.com/ultra-encode-aio) |Ultra Encode AIO live media encoders take the capabilities of our original Ultra Encode models to a whole new level for advanced use cases |
+|Newtek TriCaster 2 Elite               |[Newtek TriCaster 2 Elite](https://www.vizrt.com/products/tricaster/tricaster-2-elite/) |The TriCaster® 2 Elite is the most complete video production platform available today, and sets a new platinum standard for how much you can achieve with a single system. |
 |Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more. |
-|Production Truck                       |[Production Truck](https://www.blueframetech.com/productiontruck) |Films and streams events on location from a mobile van or truck. |
-|Socialive                              |Socialive |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content.|
-|StreamYard                             |StreamYard |Live streaming studio in the browser.|
-|Switcher Studio                        |[Switcher Studio](https://www.switcherstudio.com/microsoft-stream) |Syncs multiple Apple devices with one or more cameras for real-time video capture and edit. |
+|socialive                              |[socialive](https://socialive.us/) |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content. |
+|StreamYard                             |[StreamYard](https://streamyard.com/) |Live streaming studio in a browser. |
+|telestream Wirecast                    |[telestream Wirecast](https://www.telestream.net/wirecast/overview.htm) |Professional live streaming software for everyone. |
+|Teradek Prism Flex                     |[Teradek Prism Flex](https://teradek.com/pages/prism) |Prism Flex gives you ultra-low latency, 4K HDR streaming in a low-SWaP form factor that fits seamlessly into any video workflow |
 |vMix                                   |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more. |
-|Wirecast                               |[Wirecast](https://www.telestream.net/wirecast) |Webcasting software that covers all the basics + multi-camera production. |
 |XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming. |
-
 ### Event Setup
 
 - For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
 - For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
+
 
 
 
