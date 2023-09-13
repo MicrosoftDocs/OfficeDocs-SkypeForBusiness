@@ -50,7 +50,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 > [!NOTE]
 > This feature is currently only available in the United States. Your users can only send SMS text notifications to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
 
-You can control whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
+You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
 - If the user chooses **Send text notifications** (the default setting), external guests will receive appointment confirmation, update, and reminder text messages that include the Teams meeting join link and appointment details.
 - If the user chooses **Don't send text notifications**, external guests won't receive text messages about their appointment.
@@ -87,9 +87,9 @@ You can assign the policy directly to users, either individually or at scale thr
 
 ### Things to know
 
-- If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license, the SMS notifications option isn't visible in the template when they schedule a new meeting or when they edit an existing meeting in which the feature was previously enabled.
+- If a user doesn't have access to this feature, either through policy restrictions or if they don't have a Teams Premium license, the SMS notifications option isn't visible in the template when they schedule a new appointment or when they edit an existing appointment in which the feature was previously enabled.
 
-- If a user who has access to this feature chose **Send text notifications** when they scheduled a meeting, and then their access is turned off, no additional text messages are sent to the external guest.
+- If a user who has access to this feature chose **Send text notifications** when they scheduled an appointment, and then their access is turned off, no additional text messages are sent to the external guest.
 
 ### SMS notifications usage report
 
