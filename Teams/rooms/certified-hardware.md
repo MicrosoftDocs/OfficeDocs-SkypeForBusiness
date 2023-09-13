@@ -186,6 +186,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
 | [Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) | 0.0.6002.83 |  |  |
 | [Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) | 0.0.8000.51 |  |  |
+| [Aver CAM 570](https://www.averusa.com/products/conference-camera/cam570) | 0.0.8100.98 |  |  | 
 | [Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) | 0.0.1000.73 |  |  |
 | [Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) | 0.0.7200.3 |  |  |
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |
