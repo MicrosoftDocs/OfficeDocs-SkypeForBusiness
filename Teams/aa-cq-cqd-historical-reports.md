@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 07/25/2023
+ms.date: 09/13/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -73,7 +73,7 @@ Once the report is published:
 5. Ensure **Skip test connection** is enabled.
 6. Select **Sign in** and provide your credentials.
 
-When completed, you are able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
+When completed, you're able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
 
 ### Permissions to access the CQD pipeline
 
