@@ -130,7 +130,9 @@ You can use the Microsoft Teams admin center to edit a policy, including the **G
 
 ### Assign a custom policy in app setup policy to users and groups
 
-To know how to assign policies to your users and to groups, see [how to assign policies to users and groups](assign-policies-users-and-groups.md).
+To know how to assign policies to your users and to groups, see [how to assign policies to users and groups](assign-policies-users-and-groups.md) and [admin center UI for group assignments](https://admin.teams.microsoft.com/policies/app-setup/grouppolicyassignments). Groups are distribution list groups, mail-enabled security groups, security groups, and Microsoft 365 groups and are created in [teams and groups UI in admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
+
+A user can have more than one policy assigned either directly or as a part of different groups. However, only one policy is effective at a time for a user. To know what policy applies, see [precedence of applied policies](/microsoftteams/policy-assignment-overview#which-policy-takes-precedence).
 
 ## View the policies already applied to the user
 
