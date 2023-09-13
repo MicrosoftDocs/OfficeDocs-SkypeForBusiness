@@ -33,6 +33,10 @@ The Virtual appointment template is a default meeting template in Microsoft Team
 
 This article gives you an overview of how to manage the Virtual appointment meeting template.
 
+## Template settings
+
+The Virtual appointment template comes with predefined settings. You can't edit the settings in the template. For a list of the settings in the template, see [Predefined meeting templates included with Teams Premium](predefined-meeting-template-reference.md).
+
 ## Use meeting template policies to specify which users can use the template
 
 You use meeting template policies in the Teams admin center to control which meeting templates are available to users in your organization. By default, the Global policy allows users to see and use all meeting templates, including the Virtual appointment template and any custom templates that you created.
@@ -115,5 +119,4 @@ To learn more about how to use the Virtual appointment meeting template and abou
 
 ## Related articles
 
-- [Predefined meeting templates included with Teams Premium](predefined-meeting-template-reference.md)
 - [Manage policies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell)
