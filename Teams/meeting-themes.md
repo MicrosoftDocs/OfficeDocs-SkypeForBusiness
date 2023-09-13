@@ -113,7 +113,7 @@ Teams meetings support an organization's primary or secondary color in the meeti
 
 #### Preview a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme looks before saving. Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme looks before saving. Selecting **Preview** opens the preview dialog and shows the newly defined theme for desktop.
 
 #### Save meeting theme
 
