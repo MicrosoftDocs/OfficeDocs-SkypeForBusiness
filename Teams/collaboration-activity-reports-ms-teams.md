@@ -33,12 +33,9 @@ The Collaboration activity reports can be found in the Teams Admin Center dashbo
 
 :::image type="content" source="media/collaborative-activity-dashboard.png" alt-text="Screenshot that shows the Collaboration activity reports menu item." lightbox="media/collaborative-activity-dashboard.png":::
 
-## Components
+## Insights
 
-This section describes the following components of the Collaboration activity reports:
-
-> [!NOTE]
-> Each component captures different type of signals. 
+This section describes the following insights of the Collaboration activity reports:
 
 - [Inactive teams](#inactive-teams)
 - [Inactive external domains activity](#inactive-external-domains-activity)
@@ -82,7 +79,7 @@ The **Inactive external domains activity** widget view shows you how many domain
 :::image type="content" source="media/inactive-external-domains.png" alt-text="SCreenshot that shows the total number of allowed domains." lightbox="media/inactive-external-domains.png":::
 
 > [!NOTE]
-> This insight will not surface for organizations with open federation enabled.
+> This insight won't surface for organizations with open federation enabled.
 
 You can click **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date on the day your tenant purchases Teams Premium licenses. A value for **Last activity date (UTC)** is displayed only if an activity on the domain takes place after purchase of the Teams Premium license. If the last activity on the domain took place prior to purchase of the Teams Premium license, the **Last activity date (UTC)** column displays a **-**.
 
@@ -91,27 +88,6 @@ By default, we show you the domains that have been inactive from the last 30 day
 You can change the time frame by choosing from the **Date range** dropdown list and clicking **Run report**.
  
 :::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
-
-**Signals captured**
-
-The *Inactive external domains activity* component captures the following signals":
-
-- MemberAdded
-- MemberRemoved
-- MemberRoleChanged
-- SettingChanged
-- TabAdded
-- TabUpdated
-- TabRemoved
-- ChannelAdded
-- ChannelDeleted
-- MessageSent
-- MessageRead
-- MessageDeleted
-- ReactedToMessage
-- MeetingCreated
-- MessageCreatedHasLink
-- MessageUpdated
 
 ### Teams by user type
 
@@ -144,14 +120,14 @@ The **Channels by user type** widget view shows you how many active channels are
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
 
-This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition. 
+This insight doesn't tell you how many users are in a channel; it shows how many channels have a specific user composition.
 
 For example, for standard and private channels, you’ll see:
 
 - How many are made up of your users only, and
-- How many are made up of your users and guests 
+- How many are made up of your users and guests
 
-For shared channels, you’ll see: 
+For shared channels, you’ll see:
 
 - How many are made up of your users only, and
 - How many are made up of your users and guests.
@@ -173,10 +149,6 @@ You can click **View details** to see the teams’ names and the "sent message c
 
 You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and clicking **Run report**.
 
-**Signal captured**
-
-The *Teams with the most external user and guest activity* component captures the **MessageSent** signal.
-
 ### Users with the most external user and guest collaboration
 
 The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
@@ -194,10 +166,6 @@ You can change the time frame by choosing **30 days** or **60 days** from the **
 
 You can change the time frame by selecting the **30 days** option, which provides details of those internal users who have collaborated the most with guests and external users for the last 30 days.
 
-**Signal captured**
-
-The *Users with the most external user and guest collaboration* component captures the **MessageSent** signal.
-
 ### Guests with the most external user and guest collaboration
 
 The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
@@ -213,10 +181,6 @@ The **Guest with the most external user and guest collaboration** widget shows y
 By default, we show you the guest users who have engaged in external collaboration for the last 7 days.
 
 You can change the time frame by selecting the **30 days** option, which provides details of those guests who have collaborated the most with guests and external users for the last 30 days.
-
-**Signal captured**
-
-The *Guests with the most external user and guest collaboration* component captures the **MessageSent** signal.
 
 #### Site Lifecycle Management (SLM)
 
