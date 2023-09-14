@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> Effective October 1, 2023, new customers in the European Economic Area (EEA) and Switzerland can no longer purchase Office 365, Microsoft 365, and Business subscriptions that include Teams. This licensing change affects Enterprise and Frontline customers only. Teams licenses must be purchased separately from these subscriptions to acquire Teams functionality for your users.
+> Starting October 1, 2023, new commercial customers in the EEA and Switzerland who wish to provide information workers with both Microsoft Teams and the value in existing Microsoft 365 or Office 365 enterprise suites (E1/E3/E5) will need to purchase two SKUs: one E1/E3/E5 EEA (no Teams) suite and Microsoft Teams. Microsoft 365 suites for Small Businesses and Frontline workers will be available in versions both with and without Teams in these regions.
 >
-> For existing customers renewing their Office 365, Microsoft 365, or Business subscriptions that currently include Teams, they will continue to be able to renew their subscription that includes Teams.
+> EEA and Switzerland customers who were already subscribed to Microsoft 365 or Office 365 suites that include Teams prior to October 1, 2023 will continue to be able to use and renew those subscriptions.
 >
 > For more information on this licensing change in the EEA and Switzerland, see [New subscription structure for Microsoft 365 in Europe](https://www.microsoft.com/licensing/news/Microsoft365-Teams-EEA).
