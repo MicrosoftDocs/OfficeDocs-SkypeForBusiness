@@ -166,39 +166,39 @@ The Approvals app logs audit events within the Microsoft Purview compliance port
 
 3. Under **Activities**, choose the activities that you want to search for under **Microsoft Teams approvals activities**.
 
-You can search for the following activities:
+    You can search for the following activities:
 
-- Created new approval request
+    - Created new approval request
 
-- Viewed approval request details
+    - Viewed approval request details
 
-- Approved approval request
+    - Approved approval request
 
-- Rejected approval request
+    - Rejected approval request
 
-- Canceled approval request
+    - Canceled approval request
 
-- Shared approval request
+    - Shared approval request
 
-- File attached to approval request
+    - File attached to approval request
 
-- Reassigned approval request
+    - Reassigned approval request
 
-- Added e-signature to approval request
+    - Added e-signature to approval request
 
-- Viewed e-signature request details
+    - Viewed e-signature request details
 
-- Reviewed e-signature request
+    - Reviewed e-signature request
 
-- Canceled e-signature request
+    - Canceled e-signature request
 
-- Create a new template
+    - Create a new template
 
-- Edit an existing template
+    - Edit an existing template
 
-- Enable/disable a template
+    - Enable/disable a template
 
-- Viewed template
+    - Viewed template
 
 For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity).
 
