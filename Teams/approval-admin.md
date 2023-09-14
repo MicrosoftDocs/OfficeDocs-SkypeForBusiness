@@ -200,17 +200,9 @@ The Approvals app logs audit events within the Microsoft Purview compliance port
 
     - Viewed template
 
-For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity).
+For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records.
 
-Auditing can be customized further in the [Microsoft Purview compliance portal](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8).
-
-1. To use the preconfigured reports, sign in to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
-
-2. Select **Search & investigation**.
-
-3. Search the audit log and select the **Dynamics 365 activities** tab.
-
-Learn more about [Microsoft Dataverse and model-driven apps activity logging](/power-platform/admin/enable-use-comprehensive-auditing).
+Learn more about [auditing data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity) and [Microsoft Dataverse and model-driven apps activity logging](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## Security
 
