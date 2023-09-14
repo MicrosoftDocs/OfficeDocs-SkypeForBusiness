@@ -21,7 +21,7 @@ appliesto:
 ms.custom:
 ---
 
-# Using an encoder for live streaming in Microsoft Teams
+# Using an encoder for live streaming with Microsoft Teams
 
 Teams encoders allow users to produce live events directly from an external hardware or software-based encoder with Microsoft Teams.
 
@@ -65,6 +65,7 @@ The encoders in the following list have been tested by Microsoft for live stream
 
 - For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
 - For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
+
 
 
 
