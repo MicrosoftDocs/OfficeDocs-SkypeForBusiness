@@ -1078,11 +1078,11 @@ items:
 
     - name: Shared Calling - A simpler solution
       items:
-        - name: Plan and configure Shared Calling
+        - name: Plan for Shared Calling
           href: shared-calling-plan.md
-        - name: Configure Shared Calling routing policies
+        - name: Configure Shared Calling
           href: shared-calling-setup.md
-        - name: Shared Calling example scenario
+        - name: Shared Calling scenario
           href: shared-calling-scenario.md
               
     - name: Phone numbers
