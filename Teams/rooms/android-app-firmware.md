@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN_MATE | `2.0.2.0` | 2023 Update #1C |
 | Poly Studio X52 | `4.1.0.382263` | 2023 Update #2 |
 | Poly TC10 | `4.1.0.211200` | 2023 Update #2 |
 | Poly Studio X30 | `4.1.0.382263` | 2023 Update #2 |
