@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: jenstr
-ms.date: 7/24/2023
+ms.date: 09/14/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -41,27 +41,27 @@ The Auto attendant phone number used is specified by the resource account associ
 
 For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
-This article describes all the requirements for configuring Shared Calling. You must ensure these requirements are met before creating a new [Shared Calling routing policy](shared-calling-setup.md).  
+To allow emergency services to call back Shared Calling users who've made emergency calls, you can configure one or more emergency numbers.
+
+This article describes all the prerequisites for configuring Shared Calling using the Shared Calling routing policy. The Shared Calling routing policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency call back numbers.
+
+You must ensure these requirements are met before creating a new [Shared Calling routing policy](shared-calling-setup.md).  
 
 ## Prerequisites
 
-- Each user must have a Teams Phone license assigned, and each user must be "voice enabled." To assign the license, use the Microsoft 365 admin portal. To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the **EnterpriseVoiceEnabled** parameter to $true. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Each user must have a Teams Phone license assigned, and each user must be "voice enabled." To assign the license, use the Microsoft 365 admin portal. To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps), and set the -EnterpriseVoiceEnabled parameter to $true. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- You must create a resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
+- You must create or reuse an existing resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
 
 - If inbound calling is required, you must associate this resource account with a configured Auto attendant that is scoped to the users it needs to reach. For more information, see [Manage resource accounts](manage-resource-accounts.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).
 
-- If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan) and fund it to enable outgoing minute billing and to support outbound calling from Shared Calling users.
+- If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan), and assign it to the resource account. In addition, you need to assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan. For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan), [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services.md), [Customers with new commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
-- If the resource account is using a Direct Routing phone number, for routing of outbound calls, you must configure a call routing policy and assign it to all users assigned to the policy using this resource account number. For more information, see [Manage call routing policies for Direct Routing](manage-voice-routing-policies.md). This step is not required for resource accounts using a Calling Plan or Operator Connect number.
+- Shared Calling users must not have an assigned Voice Routing Policy with valid PSTN usages. If you are using Global Voice Routing Policies in your tenant with valid PSTN usages, then you must create a new Online Voice Routing Policy with empty PSTN usages and assign this policy to Shared Calling users.
 
-- You must have Teams PowerShell Module version 5.5.0 to use the new -CsTeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling](shared-calling-setup.md).
+- You must have Teams PowerShell Module version 5.5.0 to use the new TeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling](shared-calling-setup.md).
 
 - You must ensure that users enabled for Shared Calling are able to make emergency calls. For information, see [Configure Shared Calling](shared-calling-setup.md).
-
-## Considerations
-
-- Blocked caller ID might not work.
 
 ## Related topics
 
