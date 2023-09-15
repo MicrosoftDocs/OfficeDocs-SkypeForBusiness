@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/14/2023
+ms.date: 09/15/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,7 +25,7 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 # Plan for Shared Calling
 
-This article describes all the prerequisites for configuring Shared Calling using the Shared Calling routing policy.
+This article describes all the prerequisites for configuring Shared Calling using the new Shared Calling routing policy.
 
 If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
 
@@ -38,9 +38,6 @@ Let's start with some definitions that you'll need to know for Shared Calling te
 |Outbound calls|An outgoing call by a user in your organization to a PSTN. When a Shared Calling user makes an outbound call to the PSTN, the recipients see the caller ID of the Auto attendant.|
 
 With Shared Calling, instead of assigning a phone number to every user, you use the phone number of an Auto attendant for outbound and inbound PSTN calls. The Shared Calling routing policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency callback numbers.
-
-> [!IMPORTANT]
-> To allow emergency services to call back Shared Calling users who've made emergency calls, you must configure one or more emergency numbers.
 
 You must ensure these the following prerequisites are met before creating a new [Shared Calling routing policy](shared-calling-setup.md).
 
@@ -62,7 +59,7 @@ You must ensure these the following prerequisites are met before creating a new 
 
 - **Create voice routing policy without PSTN usages**. Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you are using global voice routing policies in your tenant with valid PSTN usages, then you must create a new online voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
-- **Enable emergency calling for users**. You must ensure that users enabled for Shared Calling are able to make emergency calls. For information, see [Configure Shared Calling](shared-calling-setup.md).
+- **Enable emergency calling for users**. You must ensure that users enabled for Shared Calling are able to make emergency calls. To allow emergency services to call back Shared Calling users who've made emergency calls, you must configure one or more emergency numbers. For information, see [Configure Shared Calling](shared-calling-setup.md).
 
 After reading this article, be sure to read [Configure Shared Calling](shared-calling-setup.md).
 
