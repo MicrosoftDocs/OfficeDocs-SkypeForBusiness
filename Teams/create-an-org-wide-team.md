@@ -57,6 +57,9 @@ The following types of accounts won't be added to your organization-wide team:
 > [!NOTE]
 > Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the organization-wide team. Team owners can easily remove these accounts from the team.
 
+> [!NOTE]
+> If a user's account is disabled and then reenabled, the user my need to be manually added to the orgwide team again in Teams.
+
 ## Options to get the most out of an organization-wide team
 
 To get the most out of your organization-wide team, we recommend that team owners do the following tasks:
