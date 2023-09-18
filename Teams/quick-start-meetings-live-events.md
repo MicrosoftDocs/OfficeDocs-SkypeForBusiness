@@ -52,8 +52,8 @@ The following table shows the main features that are different between meetings,
 |Theme|Premium|✔️|✔️|
 |Streaming|Optional|Optional|Required|
 |Registration|Optional|✔️|✖️|
-|Interactive participants|1,000|1,000|✖️|
-|Streaming participants|10,000*|✖️|10,000*|
+|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|✖️|
+|Streaming participants|10,000* (Enterprise plans only)|✖️|10,000*|
 |Yammer integration|✖️|✖️|✔️|
 |Breakout rooms|✔️|✔️|✖️|
 

@@ -22,6 +22,9 @@ ms.custom:
 ---
 # Live streaming events in Microsoft Teams
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 You can create live events using Microsoft Teams across your organization. You can schedule, produce, and deliver live events for various scenarios such as company-wide events, leadership updates, and more. Live streaming events enable producers to curate and control the content that's broadcast to an audience.
 
 You can create, schedule, and run live events using a single bitrate RTMP or RTMPS stream from an encoder – we’ll take care of all the transcoding for adaptive bitrate delivery to your viewers.

@@ -23,6 +23,9 @@ ms.custom:
 
 # Configuring encoders for live event streaming in Microsoft Teams
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 Teams accepts live feeds from a variety of different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
 To learn how to set up a Live event in Teams, read about creating live events. If you're already using an encoder that's integrated with Teams, read about [configuring encoders for live streaming](teams-encoder-setup.md).
