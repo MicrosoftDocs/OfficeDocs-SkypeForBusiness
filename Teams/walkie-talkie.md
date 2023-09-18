@@ -110,8 +110,10 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 
 - Wireless headsets (iOS and Android)
   - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
-      - B450-XT, firmware version 1.07
-      - C300-XT, firmware version 1.30
+      - [B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07
+      - [C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30
+  - Jabra
+      - [Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 
