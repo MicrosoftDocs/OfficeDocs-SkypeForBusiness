@@ -2,6 +2,19 @@
 
 
 
+## Week of September 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/11/2023 | [Teams for Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | modified |
+| 9/11/2023 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 9/12/2023 | [Manage app permission policies in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modified |
+| 9/13/2023 | [Meeting themes for Teams meetings](/MicrosoftTeams/meeting-themes) | modified |
+| 9/13/2023 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 9/14/2023 | [Manage the Approvals app in Microsoft Teams](/MicrosoftTeams/approval-admin) | modified |
+
+
 ## Week of September 04, 2023
 
 
@@ -115,21 +128,3 @@
 | 8/17/2023 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
 | 8/18/2023 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
 | 8/18/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-
-
-## Week of August 07, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/7/2023 | [Search the audit logs of app management events](/MicrosoftTeams/audit-app-management-activities) | modified |
-| 8/7/2023 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
-| 8/7/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
-| 8/8/2023 | [Manage custom app policies and settings](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modified |
-| 8/9/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
-| 8/10/2023 | [Microsoft Teams apps update experience and admin role](/MicrosoftTeams/apps-update-experience) | modified |
-| 8/10/2023 | [How to use Microsoft Teams panels devices](/MicrosoftTeams/devices/use-teams-panels) | modified |
-| 8/11/2023 | [Scenarios for Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-scenarios) | modified |
-| 8/11/2023 | [Speaker Coach in Microsoft Teams meetings](/MicrosoftTeams/meeting-speaker-coach) | modified |
-| 8/11/2023 | [Manage who can present and request control in Teams meetings](/MicrosoftTeams/meeting-who-present-request-control) | modified |
-| 8/11/2023 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
