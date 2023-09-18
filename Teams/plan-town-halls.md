@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 07/01/2023
+ms.date: 09/11/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -30,7 +30,7 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
- Microsoft Teams town halls bring interactive video streaming to a new level. This event format is meant for one-to-many communications where the town hall organizer or co-organizer is leading the interactions. In town halls, the audience participation is primarily to view and react to the content being shared.
+ Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the organizers or co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
 
 ## Recordings and publishing
 
@@ -39,12 +39,17 @@ For town hall recordings, organizers have the ability to:
 - Quickly publish a recording with all the right permissions set
 - Modify the published recording
 
+By default, recordings start once the town hall begins. Your users can change this setting in their meeting options for town halls.
+
 As an admin, you control which types of town halls can have their recordings published.
+
+## Turning off town halls
+
+Town halls are enabled by default. If you'd like to disable town halls for users in your organization, see [Set up town halls](set-up-town-halls.md).
 
 ## eCDN
 
-An eCDN (Enterprise Content Delivery Network) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If you and your users have a Teams Premium subscription, you must use the Microsoft first-party eCDN solution with town halls.
-For all other Teams subscriptions, you can use the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
+An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they must use the Microsoft first-party eCDN solution with town halls. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
@@ -53,13 +58,16 @@ For all other Teams subscriptions, you can use the Microsoft first-party eCDN so
 
 For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro).
 
+> [!NOTE]
+> The Microsoft first-party eCDN solution is the default and only option for Premium users.
+
 ## Attendee interaction
 
-Attendees don't use their cameras or microphones during town halls. Instead, attendees interact and engage through the following **Q&A**. As an admin, you can manage which organizers can turn on Q&A for meetings and town halls.
+Attendees don't use their cameras or microphones during town halls. Instead, attendees interact and engage through **Q&A**. As an admin, you can manage which organizers can turn on Q&A for meetings and town halls.
 
 ## External participants
 
-External attendees can join a town hall if it’s set to public only.
+External attendees can join a town hall if the organizer sets the event to public.
 
 ## Premium town halls
 

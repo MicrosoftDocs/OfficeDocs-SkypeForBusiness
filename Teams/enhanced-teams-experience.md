@@ -89,19 +89,43 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
-Teams Premium provides an advanced webinar experience for your users with the new Teams Events policy. While continuing to support registration and tracking, the new policy will also provide functionality for meeting hosters and organizers, such as:
+Teams Premium provides the following features for an enhanced town hall experience:
 
-- **Terms and conditions custom question** - To present to attendees.
-- **Presenter bio** - To include information about presenters.
-- **Banner, logo, and predefined color** - To present a customized visual webinar experience.
-- **Advanced registration capabilities** - Including manual approval, waitlist, registration date and time limit.
-- **Registration overview and management** - For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
+- **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
+- **Custom webinar reminder email send times** - Town hall reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
+- **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
+- **Increased languages for live translated**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
+
+  - English (en-us)
+  - Japanese (ja- jp)
+  - Spanish (es-es)
+  - Portuguese (pt-pt)
+  - French (fr-fr)
+  - Chinese (zh-cn)
+  - German (de-de)
+  - Italian (it-it)
+  - Korean (ko- kr)
+  - Russian (ru-ru)
+- **Real time monitoring** - Troubleshoot town halls while they're live.
+
+Teams Premium provides the following features for an enhanced webinar experience:
+
+- **Real Time Messaging Protocol (RTMP)-in** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
+- **Custom emails** - Organizers and co-organizers can customize the webinar email templates sent to attendees.
+- **Custom webinar reminder email send times** - Webinar reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
+- **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others will be hidden from view.
+- **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
+- **Enable and manage the waitlist for webinars beyond capacity** - When the webinar's registration reaches capacity, organizers can manage overflow registration requests through a waitlist.
+- **Limit registration start and end times** - Organizers can set a time window during which potential attendees can register for their webinar.
 
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ----------- |
-| Understand meetings, webinars, and live events | [Quick start](quick-start-meetings-live-events.md) | |
-| Set up webinars | [Set up webinars](set-up-webinars.md) | - [Manage webinar registration](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
-| Meeting policy for webinars | [Meeting policies](meeting-policies-in-teams-general.md) | |
+| Custom emails | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
+| RTMP-in | No admin control|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+| Manage what attendees see | No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/en-us/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Limit registration start and end times|No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 
 ## Advanced Virtual Appointments
 

@@ -1,7 +1,7 @@
 ---
 title: Manage VOD publishing for webinars and town halls
 ms.reviewer: sachung
-ms.date: 09/06/2023
+ms.date: 09/11/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -36,24 +36,17 @@ As an admin, you can control which types of town halls and webinars can have the
 
 You  must use PowerShell to manage VOD publishing permissions for webinars and town halls.
 
-The following table lists the values that you can set for webinar and town hall publishing permissions along with the corresponding behavior.
+### Webinars
+
+To manage VOD publishing permissions for webinars, use the **`-AllowWebinarRecordingPublishing`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+
+The following table lists the values that you can set for webinar publishing permissions along with the corresponding behavior.
 
 |Setting value| Behavior|
 |---------|---------------|
-|None| Recordings can’t be published for any webinar or town hall. |
-|InviteOnly| Webinar and town hall recordings can only be published if they're invite-only.|
-|EveryoneInCompanyIncludingGuests| Only private and invite only webinar recordings can be published. Public webinar recordings can’t be published.|
-|Everyone| **This is the default.** All webinar and town hall recordings can be published.|
-
-## Webinars
-
-To manage VOD publishing permissions for webinars, use the – **`-AllowWebinarRecordingPublishing`** parameter within the PowerShell CsTeamsEventsPolicy cmdlet.
-
-For webinar recordings to only be published if they're invite-only, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinarRecordingPublishing InviteOnly
-```
+|None| Recordings can’t be published for any webinar. |
+|EveryoneInCompanyIncludingGuests| Only private webinar recordings can be published. Public webinar recordings can’t be published.|
+|Everyone| **This is the default.** All webinar recordings can be published.|
 
 To prevent any webinar recordings from being published, use the following script:
 
@@ -61,15 +54,24 @@ To prevent any webinar recordings from being published, use the following script
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinarRecordingPublishing None
 ```
 
-To only allow private and invite only webinar recordings to be published, use the following script:
+To only allow private webinar recordings to be published, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinarRecordingPublishing EveryoneInCompanyIncludingGuests
 ```
 
-## Town halls
+### Town halls
 
-To manage VOD publishing permissions for town halls, use the – **`-AllowTownhallRecordingPublishing`** parameter within the PowerShell CsTeamsEventsPolicy cmdlet.
+To manage VOD publishing permissions for town halls, use the **`-AllowTownhallRecordingPublishing`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+
+The following table lists the values that you can set for town hall publishing permissions along with the corresponding behavior.
+
+|Setting value| Behavior|
+|---------|---------------|
+|None| Recordings can’t be published for any town hall. |
+|InviteOnly| Town hall recordings can only be published if they're invite-only.|
+|EveryoneInCompanyIncludingGuests| Only private and invite only town hall recordings can be published. Public town hall recordings can’t be published.|
+|Everyone| **This is the default.** All town hall recordings can be published.|
 
 For town hall recordings to only be published if they're invite-only, use the following script:
 
@@ -88,3 +90,13 @@ To only allow private and invite only town hall recordings to be published, use 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhallRecordingPublishing EveryoneInCompanyIncludingGuests
 ```
+
+## Related articles
+
+- [Set up webinars](set-up-webinars.md)
+- [Set up town halls](set-up-town-halls.md)
+- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
