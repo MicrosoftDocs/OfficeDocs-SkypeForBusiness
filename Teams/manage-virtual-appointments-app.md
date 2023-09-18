@@ -64,7 +64,7 @@ Get easy access to key actions and information. The Home page provides a quick w
 
 ![Information icon](media/info.png) **SMS notifications are now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-Access your appointment calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings and consultations, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up an appointment calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-an-appointment-calendar).
+Access your appointment calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, virtual fittings, and more. You can connect an existing calendar or create a new one. To learn more, see [Set up an appointment calendar](/microsoft-365/frontline/virtual-appointments-app#set-up-an-appointment-calendar).
 
 :::image type="content" source="media/manage-virtual-appointments-app-bookings-schedule.png" alt-text="Screenshot of the Schedule page in the Virtual Appointments app." lightbox="media/manage-virtual-appointments-app-bookings-schedule.png":::
 
@@ -75,7 +75,7 @@ Access your appointment calendar to schedule virtual appointments such as health
 View and monitor all scheduled and on-demand virtual appointments in the appointment calendar, with updates in real time.
 
 - Scheduled appointments are booked for a specific date, time, and duration. These appointments are booked by schedulers in your organization in the app or by customers through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page).
-- On-demand appointments are booked by your customers through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page) for services that your staff provides upon request, similar to a walk-in waiting room.
+- On-demand appointments are booked by your customers through your online [booking page](/microsoft-365/frontline/virtual-appointments-app#publish-a-booking-page) for services that your staff provide upon request, similar to a walk-in waiting room.
 
 From the queue, schedulers can add a new scheduled appointment, view relevant appointment details, and see appointment statuses throughout the day. They can also send email reminders to assigned staff and attendees and send SMS text notifications to attendees for scheduled appointments. Staff can join appointments directly from the queue.
 
