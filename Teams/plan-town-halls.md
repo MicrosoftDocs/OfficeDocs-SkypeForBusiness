@@ -67,7 +67,7 @@ Attendees don't use their cameras or microphones during town halls. Instead, att
 
 ## External participants
 
-External attendees can join a town hall if it’s set to public only.
+External attendees can join a town hall if the organizer sets the event to public.
 
 ## Premium town halls
 
