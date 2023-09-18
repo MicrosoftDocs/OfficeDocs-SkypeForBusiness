@@ -95,7 +95,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.com for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
   > In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
-  > 3. In order to be able to assign a user with that domain, the configured authentication type of the domain must be "Managed".
+  > 3. To assign a user with that domain, the configured authentication type of the domain must be "Managed".
   > 4. Multiple IPs mapped with the same FQDN on the SBC side are not supported.
   > 5. To provide the best-in-class encryption to our customers, Microsoft will force TLS1.2 usage for the Direct Routing SIP interface.
   > To avoid any service impact, ensure that your SBCs are configured to support TLS1.2 and can connect using one of the following cipher suites:
