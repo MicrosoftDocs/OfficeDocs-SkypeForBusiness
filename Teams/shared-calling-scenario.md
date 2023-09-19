@@ -1,7 +1,7 @@
 ---
 title: "Shared Calling scenario"
 ms.reviewer: jenstr
-ms.date: 09/14/2023
+ms.date: 09/19/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -35,7 +35,7 @@ This article provides a sample scenario for setting up Shared Calling. It provid
 1. Create the emergency call routing policy based on the phone number type of the Auto attendant.
 1. Set the static emergency location on the resource account.
 1. Create the Shared Calling routing policy.
-1. Grant the Shared policy to the user.
+1. Grant the Shared Calling routing policy to the user.
 
 ## Shared Calling PowerShell example
 

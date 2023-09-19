@@ -43,7 +43,7 @@ You must ensure these the following prerequisites are met before creating a new 
 
 ## Prerequisites
 
-- **Check Teams PowerShell Module version**. You must have Teams PowerShell Module version 5.5.0 to use the new TeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling](shared-calling-setup.md).
+- **Check Teams PowerShell Module version**. You must have Teams PowerShell Module version 5.5.0 or higher to use the new TeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. For more information, see [Configure Shared Calling](shared-calling-setup.md).
 
 - **Assign Teams Phone licenses and enable users for voice**. Each user must have a Teams Phone license assigned, and each user must be "voice enabled."
 
@@ -60,7 +60,7 @@ You must ensure these the following prerequisites are met before creating a new 
 
 - **Create voice routing policy without PSTN usages**. Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you are using global voice routing policies in your tenant with valid PSTN usages, then you must create a new online voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
-- **Enable emergency calling for users**. You must ensure that users enabled for Shared Calling are able to make emergency calls. To allow emergency services to call back Shared Calling users who've made emergency calls, you must configure one or more emergency numbers. For information, see [Configure Shared Calling](shared-calling-setup.md).
+- **Enable emergency calling for users**. You can configure one or more emergency numbers to ensure that users enabled for Shared Calling are able to make emergency calls. To allow emergency services to call back Shared Calling users who've made emergency calls, you must configure one or more emergency numbers. For information, see [Configure Shared Calling](shared-calling-setup.md).
 
 After reading this article, be sure to read [Configure Shared Calling](shared-calling-setup.md).
 
