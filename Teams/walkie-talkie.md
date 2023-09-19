@@ -63,12 +63,12 @@ Make sure that Walkie Talkie is an allowed app in the app permission policy, and
 
 ### Step 3: Use an app setup policy to pin Walkie Talkie for your users
 
-Step 3 depends on which license type your users have.
+Step 3 depends on which license your users have.
 
-- [Step 3 for E licenses](#3-for-e-licenses-use-an-app-setup-policy-to-pin-walkie-talkie-to-teams)
-- [Step 3 for F licenses](#3-for-f-licenses-use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams)
+- [If your users have E licenses](#e-license-use-an-app-setup-policy-to-pin-walkie-talkie-to-teams)
+- [If your users have F licenses](#f-license-use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams)
 
-#### 3 for E licenses: Use an app setup policy to pin Walkie Talkie to Teams
+#### E license: Use an app setup policy to pin Walkie Talkie to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
@@ -76,11 +76,11 @@ To pin the Walkie Talkie app for your users, you can edit the global (Org-wide d
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
-#### 3 for F licenses: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
+#### F license: Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
 
-The apps are pinned to the app tray at the bottom of Teams mobile clients where users can quickly and easily access them.
+The apps are pinned to the app bar at the bottom of Teams mobile clients where users can quickly and easily access them.
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
