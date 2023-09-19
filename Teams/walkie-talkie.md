@@ -84,7 +84,7 @@ The apps are pinned to the app bar at the bottom of Teams mobile clients where u
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-## Network documentation
+## Network considerations
 
 Walkie Talkie in Teams requires internet connectivity. The following network conditions are required for an optimal experience.
 
@@ -101,6 +101,11 @@ As noted, the quality of real-time media over an IP network is greatly affected 
 - **Packet loss** - Packet loss is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact, to back-to-back burst losses that cause complete audio cut-out.
 
 Expected data usage from Walkie Talkie is around 20 Kb/s when sending or receiving audio. When idle, expected data usage from Walkie Talkie is negligible.
+
+Also, keep in mind the following:
+
+- Walkie Talkie should work well in low bandwidth situations, or situations where the user's phone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
+- If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
 
 ## Walkie Talkie devices
 
@@ -150,16 +155,6 @@ On devices running Android OS version 12 or later, Bluetooth permissions are req
 
 The [Walkie Talkie usage and performance report](teams-analytics-and-reports/walkie-talkie-usage-report.md) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-## More information
-
-- If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
-- Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
-
-To learn more about the end-user experience, see:
-
-- [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
-- [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
-
 ## Data residency available
 
 Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom is stored in data centers located in the EU. All other tenants have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage.
@@ -172,6 +167,13 @@ The tenant must have a _default geography_ in a EUDB country/region or select a 
 
 See [Azure Active Directory and data residency](/azure/active-directory/fundamentals/data-residency).
 
+## End-user experience
+
+To learn more about the end-user experience, see:
+
+- [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
+
 ## Give feedback or report an issue
 
 To send feedback, select **Help** at bottom of the navigation bar in Teams, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
@@ -179,3 +181,4 @@ To send feedback, select **Help** at bottom of the navigation bar in Teams, and 
 ### Allow users to provide feedback
 
 Users in your organization can attach logs while sharing feedback to Microsoft, if you enable the policy to [set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
+
