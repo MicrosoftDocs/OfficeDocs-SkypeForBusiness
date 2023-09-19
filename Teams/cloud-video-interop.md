@@ -43,7 +43,7 @@ Cloud Video Interop is intended for customers who meet the following criteria:
 - Are supported by one of our Cloud Video Interop partners
 - Want to retain the value of their investment in their current meeting room devices and personal video devices during the migration to a native Microsoft Teams solution
 
-While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Room Systems, for the long term.
+While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Rooms Systems, for the long term.
 
 ### Office 365 US Government and third-party services
 
