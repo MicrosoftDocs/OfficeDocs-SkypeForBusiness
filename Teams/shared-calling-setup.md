@@ -52,11 +52,11 @@ Shared Calling users need to be able to make emergency calls to the emergency se
 
 Emergency service numbers are defined in the emergency call routing policy. If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
 
-In some Calling Plan markets, you are not allowed to set the location on service numbers. For these markets, please contact the [Telephone Number Services service desk](phone-reference/manage-numbers/contact-tns-service-desk.md).
+In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, please contact the [Telephone Number Services service desk](phone-reference/manage-numbers/contact-tns-service-desk.md).
 
 If you are attempting to use a resource account with an Operator Connect phone number assigned, you should confirm support for Shared Calling with your operator.
 
-Shared Calling is not supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](phone-reference/manage-numbers/contact-tns-service-desk.md).
+Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](phone-reference/manage-numbers/contact-tns-service-desk.md).
 
 ### Routing of emergency calls
 
