@@ -81,7 +81,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule
+                - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
                 - name: Deploy the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
@@ -91,8 +91,12 @@ items:
                   href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Known issues          
+                - name: Known issues for Windows          
                   href: new-teams-known-issues.md
+                - name: Prerequisites and deployment for Mac          
+                  href: new-teams-mac-install-prerequisites.md                 
+                - name: Known issues for Mac          
+                  href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -535,8 +539,6 @@ items:
       
       - name: Organizing teams
         items:
-          - name: Best practices for organizing teams in Teams
-            href: best-practices-organizing.md
           - name: Set up your teams targeting hierarchy
             href: set-up-your-team-hierarchy.md
           - name: Manage large Teams
@@ -1595,6 +1597,8 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
+                  - name: Reserve rooms with a QR code
+                    href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: USB audio and video devices

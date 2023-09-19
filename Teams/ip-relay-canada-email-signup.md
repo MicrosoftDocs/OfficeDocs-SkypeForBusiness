@@ -10,6 +10,7 @@ ms.assetid:
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin

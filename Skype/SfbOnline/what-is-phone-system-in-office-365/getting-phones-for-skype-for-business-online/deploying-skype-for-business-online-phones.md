@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Deploying Skype for Business Online phones"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh

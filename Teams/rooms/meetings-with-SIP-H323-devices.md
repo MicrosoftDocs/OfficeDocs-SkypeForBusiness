@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - Tier1
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
 description: Learn about how to set up Teams Rooms to receive and place calls to and from approved SIP and H.323 devices.
 ---
 

@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -41,7 +42,7 @@ When a delegate makes an outbound PSTN call on behalf of a delegator, the delega
 Managers and delegates must have a Teams Phone license. Managers must have a phone number assigned, PSTN connectivity, and a required license for PSTN connectivity: Calling Plan, Operator Connect, or Direct Routing. The shared line experience is part of delegation and is included with Teams Phone. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity <user> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Shared line appearance feature availability
 

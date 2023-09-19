@@ -1,7 +1,7 @@
 ---
 title: "Manage the usage of a phone number"
-author: wlibebe
-ms.author: wlibebe
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: garciadaniel
 ms.date: 08/22/2022
@@ -13,6 +13,7 @@ ms.service: msteams
 search.appverid: 
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto:
   - Microsoft Teams

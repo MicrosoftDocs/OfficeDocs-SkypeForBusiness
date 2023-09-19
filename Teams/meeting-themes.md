@@ -3,7 +3,8 @@ title: Meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
-ms.date: 08/14/2023
+ms.date: 09/13/2023
+ms.reviewer: nraghavan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -89,7 +90,7 @@ Uploads must adhere to the following parameters. An admin can only upload:
 
 #### Add a custom image
 
-Teams meetings support an organization's images that skin the meetings screen and provide a colorful backdrop to your meetings. We recommend using an image with the dimensions of 1440 x 810 pixels.
+Teams meetings support an organization's images that display on the meetings screen and provide a colorful backdrop to your meetings. We recommend using an image with the dimensions of 1440 x 810 pixels.
 
 > [!NOTE]
 > These images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)
@@ -112,7 +113,7 @@ Teams meetings support an organization's primary or secondary color in the meeti
 
 #### Preview a meeting theme
 
-Once you've added your meeting assets, you can preview how your theme looks before saving.  Selecting **Preview** opens the preview dialog and shows the newly defined theme for both desktop and mobile.
+Once you've added your meeting assets, you can preview how your theme looks before saving. Selecting **Preview** opens the preview dialog and shows the newly defined theme for desktop.
 
 #### Save meeting theme
 

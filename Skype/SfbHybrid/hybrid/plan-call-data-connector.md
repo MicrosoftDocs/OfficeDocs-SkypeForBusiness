@@ -2,7 +2,7 @@
 ms.date: 06/22/2018
 title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.reviewer: 
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
