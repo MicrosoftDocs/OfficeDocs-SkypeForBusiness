@@ -42,11 +42,11 @@ To associate a location on resource account number for Calling Plan, Operator Co
 
 ## Emergency calling for Shared Calling users
 
-Shared Calling users need to be able to make emergency calls to the emergency services. In order to do so, 3 things needs to be in place:
+Shared Calling users need to be able to make emergency calls to the emergency services. In order to do so, the following 3 things need to be configured:
 
-1. The Teams client used by the Shared Calling user needs to recognize that a given phone number called is an emergency service number like 911. This is done by configuring the Emergency calling routing policy
-1. The emergency services need to be able to call back to a user that have dialed the emergency services. Since a Shared Calling user does not have a dedicated phone number assigned, either the phone number of the resource account or configured emergency numbers will be used
-1. The emergency services need to be make aware of the location or emergency address of the Shared Calling user making the emergency call.
+1. **[Emergency service number](#configure-emergency-service-numbers)**: The Teams client used by the Shared Calling user needs to recognize that a given phone number called is an emergency service number like 911. This is done by configuring the Emergency call routing policy.
+1. **[Emergency callback number](#emergency-callback-number)**: The emergency services need to be able to call back to a user that have dialed the emergency services. Since a Shared Calling user does not have a dedicated phone number assigned, either the phone number of the resource account or configured emergency numbers will be used.
+1. **[Emergency location](#emergency-location)**: The emergency services need to be make aware of the location or emergency address of the Shared Calling user making the emergency call.
 
 ### Configure emergency service numbers
 
@@ -66,9 +66,9 @@ The routing of the emergency call is based on how the resource account is config
 
 Emergency services must be able to call back the originator of the emergency call. The phone number used for this is called an *emergency callback number* and this number will act as the caller ID or calling number used when an emergency call is made.
 
-You can define a list of emergency callback numbers in the -EmergencyNumbers parameter of the Shared Calling routing policy. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
-
 You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the Shared Calling policy is used.
+
+You can define a list of emergency callback numbers in the -EmergencyNumbers parameter of the Shared Calling routing policy. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
 When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
 
