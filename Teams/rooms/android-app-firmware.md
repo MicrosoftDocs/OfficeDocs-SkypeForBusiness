@@ -53,6 +53,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar | `1.10.369`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.10.369`   | 2023 Update #2  |
+| Logi RoomMate | `1.10.137`   | 2023 Update #2  |
+| Logi Console  | `1.10.121`    | 2023 Update #2  |
 | DTEN_MATE | `2.0.2.0` | 2023 Update #1C |
 | Poly Studio X52 | `4.1.0.382263` | 2023 Update #2 |
 | Poly TC10 | `4.1.0.211200` | 2023 Update #2 |
