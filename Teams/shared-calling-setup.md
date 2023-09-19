@@ -141,6 +141,8 @@ To enable emergency calling for Shared Calling users, you must configure emergen
 
 -  **[Emergency location](#emergency-location)**: The emergency services need to be make aware of the location or emergency address of the Shared Calling user making the emergency call.
 
+Emergency calling for Shared Calling is available globally. There are configuration requirements for customers outside of North America. You need to ensure that the emergency addresses assigned to the phone numbers used for the resource accounts in the Shared Calling policy instances are uploaded to their carrier’s emergency calling database.
+
 ### Configure emergency service numbers
 
 Emergency service numbers are defined in the emergency call routing policy. [NEED A LINK TO INFO ABOUT EMERGENCY CALL ROUTING POLICY] If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
@@ -151,9 +153,9 @@ The routing of the emergency call is based on how the resource account is config
 
 ### Emergency callback number
 
-Emergency services must be able to call back the originator of the emergency call. The phone number used for this is called an *emergency callback number* and this number will act as the caller ID or calling number used when an emergency call is made.
+Emergency services must be able to call back the originator of an emergency call through the *emergency callback number*. The callback number serves as the caller ID or calling number used when an emergency call is made.
 
-You define a list of emergency callback numbers by using the -EmergencyNumbers parameter of the Shared Calling routing policy. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
+You define a list of emergency callback numbers in the Shared Calling routing policy by using the EmergencyNumbers parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
 When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
 
@@ -164,10 +166,12 @@ When an emergency call is made, the next free number in the emergency number lis
 When emergency numbers are added to a policy:
 
 - The emergency numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
-- The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account--that is Calling Plan, Operator Connect, or Direct Routing.
-- The emergency numbers can’t be assigned to any user or resource account
 
-You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
+- The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account--that is Calling Plan, Operator Connect, or Direct Routing.
+
+- The emergency numbers can’t be assigned to any user or resource account.
+
+- You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
 
 You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center. For assigned Direct Routing numbers, you can use [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) -NumberType DirectRouting.
 
@@ -181,16 +185,15 @@ You aren't required to define emergency numbers for a Shared Calling policy. If 
 
 ### Emergency location
 
-The emergency location provided to the emergency services via the emergency call is determined in the following order.
-
-Teams will first attempt to dynamically determine the actual location of the user. If that's not possible, it will default to the location defined on the phone number of the resource account specified in the Shared Calling routing policy:
+The emergency location provided to the emergency services through the emergency call is determined in the following order:
 
 1. Actual location of user -- dynamically obtained by the Teams client.
-1. Location assigned to the phone number assigned to the resource account specified in the Shared Calling routing policy -- statically obtained.
+
+2. Location assigned to the phone number assigned to the resource account specified in the Shared Calling routing policy -- statically obtained.
 
 For more information about emergency calling and how location is determined, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
-Emergency calling for Shared Calling is available globally. There are configuration requirements for customers outside of North America. You need to ensure that the emergency addresses assigned to the phone numbers used for the resource accounts in the Shared Calling policy instances are uploaded to their carrier’s emergency calling database.
+
 
 ## Shared Calling routing policy
 
