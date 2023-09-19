@@ -137,7 +137,6 @@ The following table compares key features between Teams and Teams Premium.
 | Integrate with Microsoft Forms | ✔️ |  |
 | Customize the lobby waiting room with themes and logos |  | ✔️ |
 | Send SMS notifications\* |  | ✔️ |
-| Chat back and forth with attendees in the lobby waiting room (*coming soon*) |  | ✔️ |
 | Organizational and departmental analytics |  | ✔️ |
 | View and manage scheduled appointments in the queue |  | ✔️ |
 | View and manage on-demand appointments in the queue |  | ✔️ |
