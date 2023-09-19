@@ -186,7 +186,7 @@ You can set up common area phones as hotline phones also known as PLAR (Private 
     > [!NOTE]
     > Ensure the Advanced Calling setting is disabled when you are enabling the hotline setting in the Teams admin centre.
 
-### Turn on hotline from Teams phone device
+### Turn on hotline from a Teams phone device
 
 1. Sign into your Teams phone device and select **Settings** > **Device settings** > **Admin only** > **Calling** > **Hotline**.
 1. Enter a contact or phone number to be autodialed.
