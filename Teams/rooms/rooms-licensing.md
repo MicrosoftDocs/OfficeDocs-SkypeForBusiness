@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 audience: Admin
 appliesto: 
@@ -169,25 +169,36 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 
 ### License Type Overview 
 The Pro Management Portal's license type offer a clear and comprehensive summary of all devices licensing status. To access the licensing information: 
-  1. **Log In**: Use your credentials to log into the Pro Management Portal. 
+1. **Log In**: Use your credentials to log into the Pro Management Portal. 
   2. **Navigate**: Go to Rooms and Inventory views. 
   3. **License Type Column**: In both views, locate the License Type column to see device licensing status. 
 ### Inventory View 
 In the Inventory view, devices are categorized into: 
+
 - **Pro**: devices with pro licenses 
 - **Premium**: devices with premium licenses
 - **Basic**: devices with basic licenses
 - **Standard**: devices with standard licenses
+- **Syncing:** for new device, the license information will appear after 24 hours due to syncing
 - **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses
-### Rooms View 
+### Rooms View
 In the Rooms view, you'll find:
 - **Pro**: Devices with Pro licenses
 - **Premium**: Devices with Premium licenses
+- **Basic**: devices with basic licenses
+- **Standard**: devices with standard licenses
+- **Syncing:** for new device, the license information will appear after 24 hours due to syncing
+- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses
 - **Unlicensed**: Devices without Pro or Premium licenses
 
-Once a license expires, access will be restricted; however, a 30-day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+> [!IMPORTANT]
+> Please note that for Basic and Standard licenses, the presence of the red alert sign on the left side indicates that these licenses will not grant access to the pro management capabilities starting October 1. To continue enjoying the benefit with pro management capabilities, an upgrade to Pro license is required by the end of the grace period which is September 30, 2023.
+> Starting October 1, all devices without Pro or Premium licenses assigned to them will lose access to the pro management capabilities until valid licenses are assigned to them.
+> Once a license expires, access will be restricted; however, a 30-day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+### Troubleshooting licensing status:
 
-### Troubleshooting licensing status: 
 If you encounter devices showing an incorrect “unlicensed” status even though they possess the proper licenses, this can result from account sign-out or improper sign-in of your devices. To resolve these issues, follow the steps outlined below: 
 - For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
+
+

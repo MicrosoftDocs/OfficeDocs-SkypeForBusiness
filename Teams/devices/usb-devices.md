@@ -10,7 +10,7 @@ ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 

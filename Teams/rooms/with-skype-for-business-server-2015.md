@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Read this topic for information on how to deploy Microsoft Teams Rooms with Skype for Business Server.
