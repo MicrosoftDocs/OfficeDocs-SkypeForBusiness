@@ -195,40 +195,7 @@ For more information about emergency calling and how location is determined, see
 
 
 
-## Shared Calling routing policy
 
-Once you've created your emergency call routing policy, you'll create your Shared Calling routing policy.
-
-To configure and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets:
-
-- [New-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/new-csteamssharedcallingroutingpolicy)
-- [Get-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/get-csteamssharedcallingroutingpolicy)
-- [Remove-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/remove-csteamssharedcallingroutingpolicy)
-- [Set-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy)
-- [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy)
-
-For example, the following command creates a new Shared Calling policy, called Seattle, and configures the policy with the resource account main-aa@contoso.com. The command also identifies the emergency callback numbers associated with the resource account:
-
-```powershell
-$ecbn1 = '+14255556789'
-$ecbn2 = '+14255554321'
-$ra = Get-CsOnlineUser -Identity main-aa@contoso.com
-New-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -ResourceAccount $ra.Identity -EmergencyNumbers @{add=$ecbn1,$ecbn2}
-```
-
-The next command removes one of the emergency callback numbers, +14255554321, from the policy (required before that number can be deleted or reassigned):
-
-```powershell
-Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{remove='+14255554321'}
-```
-
-The next command adds a new emergency callback number, 1425555433, to the policy:
-
-```powershell
-Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{add='+1425555433'} 
-```
-
-For more examples on configuring Shared Calling policies, see [Shared Calling scenario](shared-calling-scenario.md).
 
 ## Related topics
 
