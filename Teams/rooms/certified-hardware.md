@@ -129,57 +129,56 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Rally Bar Huddle (VR0034) | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
+| DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" Meeting Board | 10 |
+| Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
-| Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Jabra PanaCast 50 TC | `1.1.0-1` | September 4, 2024 | Compatible with Jabra PanaCast 50 VBS | 10 |
+| Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Jabra PanaCast 50 TC | `1.1.0-1` | September 3, 2025 | Compatible with Jabra PanaCast 50 VBS | 10 |
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
 | Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 Collaboration bar. | 12 |
-| Yealink CTP18 touch console | `137.320.0.29` | September 3, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
-| [Audiocodes RXV81 Collaboration Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-blackwire-5200/11221) | `2.0.0` | September 3, 2024 | Small meeting room (4.5 m x 4.5 m) | 12 |
+| Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
+| Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | [Cisco Board Pro 55](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | [Cisco Board Pro 75](https://roomos.cisco.com/doc/MTR) | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
-| EPOS Expand 5T | `1.2.22362.04` | September 3, 2024 | Small meeting room (4.5 m x 4.5 m) | 10 |
-| EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2024 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
+| EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
+| EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2025 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | EPOS EXPAND Vision 3T | `1.2.0.21102.03` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
-| Logitech Tap IP (VR0029) with RoomMate (VR0030) | `1.6.565` | September 3, 2024 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
-| Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar | `NFF1.20220914.1210` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20220914.1206` | August 5, 2023 | Compatible with Neat Bar & Neat Bar Pro | 9 |
-| Neat Board | `NFC1.20220914.1210` | September 3, 2024 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Roommate | `1.4.71` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Logitech Tap Device | `1.2.982` | September 3, 2024 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982` | September 3, 2024 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Rally Bar | `1.2.788` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
+| Logitech Tap IP with RoomMate | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
+| Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Pad touch console | `NFA1.20220914.1206` | November 5, 2023 | Compatible with Neat Bar & Neat Bar Pro | 9 |
+| Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Logitech Roommate | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Logitech Tap Device | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | AudioCodes RXV80 | `1.9.155` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Poly Studio X30 | `4.0.0.100885` | September 4, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Poly Studio X50 | `4.0.0.100885` | September 4, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Poly Studio X70 | `4.0.0-376092` | September 4, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Poly G7500 | `4.0.0.376092` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
-| Poly Studio X52 | `4.1.0.382110` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2024 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Yealink VC210 | `118.15.0.14` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 
 ## [Peripherals](#tab/Peripherals)
 
 The following devices are certified under the Microsoft Teams Rooms peripherals program:
 
-| Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera |
-|:-|:-|:-|:-|
+| Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial Audio |
+|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
 | [Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97 |  |  |
@@ -271,7 +270,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://www.boseprofessional.com/en_us/solutions/work/es1-ceiling-audio-solution.html) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2 |  |  |
 | [Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier +</br> [Sennheiser TCC2 Ceiling Microphone](https://www.boseprofessional.com/en_us/solutions/work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP  Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2 |  |  |
 | [Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [Sennheiser TCC2 Ceiling Microphone](https://www.boseprofessional.com/en_us/solutions/work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2 |  |  |
-| Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS Amplifier ([SPA series](https://www.qsys.com/products-solutions/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsys.com/products-solutions/power-amplifiers/installed/network/cx-q-series/)) + </br> [AcousticDesign Series Loudspeakers](https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/) + </br>Q-SYS Network Camera ([PTZ-IP 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) optional + </br>[Q-SYS I/O USB Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Network Camera, Microphone, Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br> Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 </br> Q-SYS Amplifiers: N/A </br> AcousticDesign Series Loudspeakers: N/A |  |  |
+| Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS Amplifier ([SPA series](https://www.qsys.com/products-solutions/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsys.com/products-solutions/power-amplifiers/installed/network/cx-q-series/)) + </br> [AcousticDesign Series Loudspeakers](https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/) + </br>Q-SYS Network Camera ([PTZ-IP 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC 20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) optional + </br>[Q-SYS I/O USB Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Network Camera, Microphone, Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br> Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 </br> Q-SYS Amplifiers: N/A </br> AcousticDesign Series Loudspeakers: N/A |  |  | &#x2714; |
 | Q-SYS Core ([110f](https://www.qsys.com/products-solutions/q-sys/processing/core-110f/), [8 Flex](https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/), [Nano](https://www.qsys.com/products-solutions/q-sys/processing/core-nano/), or [NV-32-H](https://www.qsys.com/products-solutions/q-sys/processing/nv-32-h-core-capable/)) + </br>Network Microphone ([Q-SYS NM-T1](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/nm-t1/), [Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) or [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br>Q-SYS [NL Series Loudspeakers](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/) + </br>Q-SYS Network Camera ([NC-12x80](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-20x60](https://www.qsys.com/products-solutions/q-sys/video/ptz-ip-conference-cameras/), [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/) optional + </br> [Q-SYS I/O Bridge](https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/io-usb-bridge/) optional | Q-SYS Core, Microphone, NL Series Loudspeakers, Network Camera, and I/O USB Bridge:  Q-SYS Designer 9.7.0 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 </br>Dante 1.2.0 </br> AudioTechnica ATND1061: 1.0.2 |  |  |
 | [Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-m-camera) | 1.0.0 |  |  |
 | [Vaddio RoboSHOT 30E-M HD PTZ Camera](https://www.legrandav.com/products/cameras/hd_ptz_camera/roboshot-30e-m) | 1.0.0 |  |  |
