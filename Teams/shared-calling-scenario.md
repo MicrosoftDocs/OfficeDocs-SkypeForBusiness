@@ -25,7 +25,7 @@ description: "This article provides a Shared Calling example scenario."
 
 # Shared Calling example scenario
 
-Before reading this article, be sure you've read [Plan for Shared Calling](shared-calling-plan.md) and [Configure Shared Calling](shared-calling-setup.md). These articles describe licensing requirements, prerequisite configuration, and how to configure a Shared Calling routing policy.
+Before reading this article, be sure you've read [Plan for Shared Calling](shared-calling-plan.md) and [Configure Shared Calling](shared-calling-setup.md). These articles describe licensing requirements, prerequisite configuration, and how to configure a Shared Calling policy.
 
 This article provides a sample scenario for setting up Shared Calling. It provides a PowerShell example for the following steps:
 
@@ -34,8 +34,8 @@ This article provides a sample scenario for setting up Shared Calling. It provid
 1. Get the phone number of the Auto attendant resource account.
 1. Create the emergency call routing policy based on the phone number type of the Auto attendant.
 1. Set the static emergency location on the resource account.
-1. Create the Shared Calling routing policy.
-1. Grant the Shared Calling routing policy to the user.
+1. Create the Shared Calling policy.
+1. Grant the Shared Calling policy to the user.
 
 ## Shared Calling PowerShell example
 
@@ -76,7 +76,7 @@ else {
 $CivicAddress = Get-CsOnlineLisCivicAddress -City Seattle
 Set-CsPhoneNumberAssignment -LocationId $CivicAddress.DefaultLocationId -PhoneNumber $PhoneNumber.TelephoneNumber
 
-# Create the Shared Calling routing policy
+# Create the Shared Calling policy
 $ecbn1 = '+14255556789'
 $ecbn2 = '+14255554321'
 $ra = Get-CsOnlineUser -Identity $mainaa
@@ -89,7 +89,7 @@ Grant-CsTeamsSharedCallingRoutingPolicy -Identity $user -PolicyName Seattle
 ## Related topics
 
 - [Plan for Shared Calling](shared-calling-plan.md)
-- [Configure Shared Calling routing policies](shared-calling-setup.md)
+- [Configure Shared Calling policies](shared-calling-setup.md)
 - [Set-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy)
 - [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)

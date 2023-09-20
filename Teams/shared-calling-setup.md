@@ -20,7 +20,7 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: 
   - Phone System
-description: "In this article, you'll learn how to configure Teams Phone Shared Calling routing policies."
+description: "In this article, you'll learn how to configure Teams Phone Shared Calling policies."
 ---
 
 # Configure Shared Calling
@@ -99,11 +99,11 @@ You must ensure that users enabled for Shared Calling are able to make emergency
 
 You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the Shared Calling policy is used.
 
-## Step 8: Configure the Shared Calling routing policy
+## Step 8: Configure the Shared Calling policy
 
-Once you've created your emergency call routing policy, you'll create your Shared Calling routing policy.
+Once you've created your emergency call routing policy, you'll create your Shared Calling policy.
 
-To configure and manage Shared Calling routing policies, you'll use the following Teams PowerShell cmdlets:
+To configure and manage Shared Calling policies, you'll use the following Teams PowerShell cmdlets:
 
 - [New-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/new-csteamssharedcallingroutingpolicy)
 - [Get-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/get-csteamssharedcallingroutingpolicy)
@@ -156,7 +156,7 @@ The routing of the emergency call is based on how the resource account is config
 
 Emergency services must be able to call back the originator of an emergency call through the *emergency callback number*. The callback number serves as the caller ID or calling number used when an emergency call is made.
 
-You define a list of emergency callback numbers in the Shared Calling routing policy by using the EmergencyNumbers parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
+You define a list of emergency callback numbers in the Shared Calling policy by using the -EmergencyNumbers parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
 When an emergency call is made, the next free number in the emergency number list will be used as the caller ID and this number will be reserved for the next 60 minutes.
 
@@ -188,7 +188,7 @@ The emergency location provided to the emergency services through the emergency 
 
 1. Actual location of user -- dynamically obtained by the Teams client.
 
-2. Location assigned to the phone number assigned to the resource account specified in the Shared Calling routing policy -- statically obtained.
+2. Location assigned to the phone number assigned to the resource account specified in the Shared Calling policy -- statically obtained.
 
 For more information about emergency calling and how location is determined, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
