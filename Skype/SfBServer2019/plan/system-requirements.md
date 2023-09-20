@@ -186,10 +186,10 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 ## Upgrading to Windows Server 2022
 
-Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation from Windows Server 2019.
+Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation on Windows Server 2019.
 
 > [!Note]
-> When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you need not run the compability script for Windows Server 2022 as in-place OS upgrade usually preserves the existing application configurations.
+> When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you need not run the compability script for Windows Server 2022 as in-place OS upgrade preserves the existing application configurations.
 
 ### Installation of Windows Server 2022
 
