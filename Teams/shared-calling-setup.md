@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/19/2023
+ms.date: 09/20/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -29,16 +29,16 @@ Before reading this article, be sure you've read [Plan for Shared Calling](share
 
 This article describes the following steps to configure Shared Calling:
 
-1. Assign Teams Phone licenses and enable users for voice. 
-2. Assign number to resource account for outbound calling. 
-3. Associate resource account with Auto attendant for inbound calling. 
-4. Assign Pay-As-You-Go Calling Plan to Calling Plan service number. 
-5. Assign and fund a Communication credits license. 
-6. Create voice routing policy without PSTN usages. 
-7. Enable emergency calling for users. 
-8. Create your Shared Calling policy.  
+1. [Assign Teams Phone licenses and enable users for voice.](#step-1-assign-teams-phone-licenses-and-enable-users-for-voice)
+2. [Assign number to resource account for outbound calling.](#step-2-assign-number-to-resource-account-for-outbound-calling)
+3. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
+4. [Assign Pay-As-You-Go Calling Plan to Calling Plan service number.](#step-4-assign-pay-as-you-go-calling-plan-to-calling-plan-service-number)
+5. [Assign and fund a Communication credits license.](#step-5-assign-and-fund-a-communication-credits-license)
+6. [Create voice routing policy without PSTN usages.](#step-6-create-voice-routing-policy-without-pstn-usages)
+7. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
+8. [Create your Shared Calling policy.](#step-8-configure-the-shared-calling-routing-policy)
 
-For a step-by-step example on how to configure Shared Calling, see [Shared Calling scenario](shared-calling-scenario.md).
+For a step-by-step example on how to configure Shared Calling with PowerShell, see [Shared Calling scenario](shared-calling-scenario.md).
 
 Keep the following in mind:
 
@@ -60,17 +60,18 @@ Keep the following in mind:
 
 Each user must have a Teams Phone license assigned, and each user must be "voice enabled."
 
-1. To obtain the license, use the Microsoft 365 admin center and go to **Billing** > **Licenses**. 
+- To assign the Teams Phone license, do the following:
+  1. Use the Microsoft 365 admin center and go to **Billing** > **Licenses**.
+  1. Select your Teams Phone license. On the product details page, select **Assign licenses** and assign the license to your users.
+  1. Select **Assign** once you're finished.
 
-2. To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the -EnterpriseVoiceEnabled parameter to $true
+- To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the -EnterpriseVoiceEnabled parameter to $true.
 
-For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) and [assigning licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
-
+For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) and [assigning licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users.md).
 
 ## Step 2: Assign number to resource account for outbound calling
 
 You must create or reuse an existing resource account and assign a Calling Plan service number, Operator Connect number, or Direct Routing number to this account to be used for outbound calling. For more information about creating resource accounts, see [Manage resource accounts](manage-resource-accounts.md).
-
 
 ## Step 3: Associate resource account with Auto attendant for inbound calling
 
@@ -83,8 +84,8 @@ To associate a location on resource account number for Calling Plan, Operator Co
 If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan), and assign it to the resource account.
 
 ## Step 5: Assign and fund a Communication credits license
- 
-Assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan. 
+
+Assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan.
 
 For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan), [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services.md), [Customers with new commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
@@ -133,19 +134,19 @@ Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{add=
 
 ## Emergency calling for Shared Calling users
 
-To enable emergency calling for Shared Calling users, you must configure emergency numbers and location of the user. 
+To enable emergency calling for Shared Calling users, you must configure emergency numbers and location of the user.
 
--  **[Emergency service number](#configure-emergency-service-numbers)**: The Teams client used by the Shared Calling user needs to recognize that a given phone number called is an emergency service number like 911. 
+- **[Emergency calling number](#configure-emergency-calling-numbers)**: The Teams client used by the Shared Calling user needs to recognize that a given phone number called is an emergency calling number like 911.
 
--  **[Emergency callback number](#emergency-callback-number)**: The emergency services must be able to call back to a user that have dialed the emergency services. Since a Shared Calling user does not have a dedicated phone number assigned, either the phone number of the resource account or configured emergency numbers is used.
+- **[Emergency callback number](#emergency-callback-number)**: The emergency services must be able to call back a user that has dialed the emergency services. Since a Shared Calling user does not have a dedicated phone number assigned, either the phone number of the resource account or configured emergency numbers is used.
 
--  **[Emergency location](#emergency-location)**: The emergency services need to be make aware of the location or emergency address of the Shared Calling user making the emergency call.
+- **[Emergency location](#emergency-location)**: The emergency services need to know the location or emergency address of the Shared Calling user making the emergency call.
 
 Emergency calling for Shared Calling is available globally. There are configuration requirements for customers outside of North America. You need to ensure that the emergency addresses assigned to the phone numbers used for the resource accounts in the Shared Calling policy instances are uploaded to their carrier’s emergency calling database.
 
-### Configure emergency service numbers
+### Configure emergency calling numbers
 
-Emergency service numbers are defined in the emergency call routing policy. [NEED A LINK TO INFO ABOUT EMERGENCY CALL ROUTING POLICY] If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
+Emergency calling numbers are defined in the [emergency call routing policy](manage-emergency-call-routing-policies). If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
 
 ### Routing of emergency calls
 
@@ -175,13 +176,11 @@ When emergency numbers are added to a policy:
 
 You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center. For assigned Direct Routing numbers, you can use [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) -NumberType DirectRouting.
 
-You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the Shared Calling policy is used.
-
 ### Calling Plan service numbers
 
 - If the resource account has assigned a Calling Plan service number, then the emergency callback number must be a Calling Plan subscriber number--not a Calling Plan service number.
 
-- If your resource account is assigned a Calling Plan toll-free service number, you need to add Calling Plan subscriber numbers to emergency numbers in the policy.
+- If your resource account is assigned a Calling Plan toll-free service number, you need to add Calling Plan subscriber numbers to emergency numbers in the Shared Calling policy.
 
 ### Emergency location
 
@@ -192,10 +191,6 @@ The emergency location provided to the emergency services through the emergency 
 2. Location assigned to the phone number assigned to the resource account specified in the Shared Calling routing policy -- statically obtained.
 
 For more information about emergency calling and how location is determined, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
-
-
-
-
 
 ## Related topics
 

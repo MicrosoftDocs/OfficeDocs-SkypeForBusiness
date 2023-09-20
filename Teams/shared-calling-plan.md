@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/19/2023
+ms.date: 09/20/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -39,26 +39,25 @@ Let's start with some definitions that you'll need to know for Shared Calling:
 
 With Shared Calling, instead of assigning a phone number to every user, you use the phone number of an Auto attendant for outbound and inbound PSTN calls. The Shared Calling routing policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency callback numbers.
 
-To set up Shared Calling, you'll need to perform the following steps.  These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md). 
+To set up Shared Calling, you'll need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
-1. Assign Teams Phone licenses and enable users for voice. 
+1. Assign Teams Phone licenses and enable users for voice.
 
-2. Assign number to resource account for outbound calling. 
+2. Assign number to resource account for outbound calling.
 
-3. Associate resource account with Auto attendant for inbound calling. 
+3. Associate resource account with Auto attendant for inbound calling.
 
-4. Assign Pay-As-You-Go Calling Plan to Calling Plan service number. 
+4. Assign Pay-As-You-Go Calling Plan to Calling Plan service number.
 
-5. Assign and fund a Communication credits license. 
+5. Assign and fund a Communication credits license.
 
-6. Create voice routing policy without PSTN usages. 
+6. Create voice routing policy without PSTN usages.
 
-7. Enable emergency calling for users. 
+7. Enable emergency calling for users.
 
-8. Create your Shared Callig policy.  
+8. Create your Shared Calling policy.  
 
-You must have Teams PowerShell Module version 5.5.0 or higher to use the new TeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies. 
-
+You must have Teams PowerShell Module version 5.5.0 or higher to use the new TeamsSharedCallingRoutingPolicy cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
 
 ## Related topics
 
