@@ -1,8 +1,8 @@
 ---
 title: Required desktop client diagnostic data for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin

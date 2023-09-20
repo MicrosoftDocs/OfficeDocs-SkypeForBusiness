@@ -1,8 +1,8 @@
 ---
 title: Location of data in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 audience: admin
 ms.service: msteams
