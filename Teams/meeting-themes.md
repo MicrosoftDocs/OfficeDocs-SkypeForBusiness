@@ -84,7 +84,7 @@ Teams Meetings supports square logos that appear on key surfaces during your mee
 Uploads must adhere to the following parameters. An admin can only upload:
 
 - PNG and JPEG image formats for their logo.
-- Two variations of the logo images that will appear on the Pre-Join and Lobby UI:
+- Two variations of the logo images that appear on the Pre-Join and Lobby UI:
   - Dark theme brand logo
   - Light theme brand logo
 - A logo image with a maximum size of 5 MB.
@@ -101,7 +101,7 @@ Teams meetings support an organization's images that display on the meetings scr
 Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and uploads must follow these parameters:
 
 - PNG and JPEG image formats for brand image.
-- Two variations of the brand images that will appear on the Pre-Join and Lobby UI:
+- Two variations of the brand images that appear on the Pre-Join and Lobby UI:
   - Dark theme brand image
   - Light theme brand image
 - Brand images with max size of 5 MB.
