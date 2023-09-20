@@ -86,6 +86,8 @@ These admin roles can access CQD, but they can't view EUII (end-user identifiabl
 - Microsoft 365 Reports Reader
 - Teams Communications Support Specialist
 
+Additionally, users assigned to one or more [Administrative Units](azure/active-directory/roles/administrative-units) will not see EUII, even if their role would ordinarily allow it.
+
 To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ### I'm trying to use CQD for usage-type reports and find that some of the data is incomplete -- why is that?
