@@ -36,9 +36,9 @@ Review the information in this article to get familiar with number porting. Afte
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+You can port numbers for all countries using the [porting wizard](transfer-phone-numbers-to-teams.md) in the Teams admin center. For a list of countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). In certain cases, the [Telephone Number Services (TNS) service desk](../contact-tns-service-desk.md) may reach out to you for additional information or to resolve any issues.
 
-Currently, [the porting wizard](transfer-phone-numbers-to-teams.md) in the Microsoft Teams admin center supports submitting port orders. However, for orders outside of the United States, United Kingdom and Canada, [port orders must be handled manually](manually-submit-port-order.md) by the TNS service desk.
+You can also [manually submit a port order](manually-submit-port-order.md) if you have a large port request or if you are unable to complete your request through the Teams admin center.
   
 ## What numbers can be transferred?
 
@@ -59,7 +59,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
     > [!NOTE]
     > Universal International Freephone Number (UIFN) can't be transferred to us.
-    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service.
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
@@ -100,7 +100,7 @@ When you're porting phone numbers to Teams, you have the option to transfer all 
 - **Partial-port** This is when you're only transferring some of your phone numbers from your current service provider to Teams. When you want to port some of the phone numbers tied to the same BTN, you ** *must not include* ** the BTN along with all of the other phone numbers on your account.
 
     For example, let's say your BTN is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
-    
+
 ## Can I submit a single number porting request for all of my numbers at one time?
 <a name="bkmk_type_1"> </a>
 
