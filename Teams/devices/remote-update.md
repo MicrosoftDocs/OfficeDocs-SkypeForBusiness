@@ -114,9 +114,9 @@ To manually update remote devices, do the following:
 3. Select one or more devices and then select **Update**.
 4. Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
 
-What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows multiple devices selected while the image on the right shows a single device selected.
+What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows a single device selected while the image on the right shows multiple devices selected.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane.":::
+![Device status update panel with single and multiple devices selected.](../media/mtr-devices/update-manual-together.png)
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select **Update**.
 
@@ -164,4 +164,5 @@ The device count in **Automatic software updates** section shows the number of e
 
 8. **When do automatic updates happen?**
 The updates are scheduled to happen over weekends outside of typical business hours to minimize impact. If the device is offline at that time, the updates will get executed when the device comes back online the next time.
+
 
