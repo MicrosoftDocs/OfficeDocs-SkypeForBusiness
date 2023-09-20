@@ -41,7 +41,7 @@ As you might expect, there are some preparations to make before you begin deploy
 ## Hardware for Skype for Business Server 2019
 <a name="Hardware"> </a>
 
-After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that helps you determine if you need more than these requirements, depending on your circumstances.
+After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 server requires 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that helps you determine if you need more than these requirements, depending on your circumstances.
   
 Recommended hardware for Standard Edition servers:
 
@@ -49,7 +49,7 @@ Recommended hardware for Standard Edition servers:
 |:-----|:-----|
 |CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes (GB).   |
-|Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000-RPM mechanical disk drives.   |
+|Disk   |EITHER:  <br/> • Eight or more 10,000-RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000-RPM mechanical disk drives.   |
 |Network   |One dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they aren't exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it's supported.   |
 
 Recommended hardware for Front End Servers and Back End Servers:
@@ -95,16 +95,15 @@ Anything other than the operating systems listed here won't work properly; don't
 > If you are installing Windows Admin Center 2019 on your Windows Server 2019 machine, it prompts you for a port to listen on. There's a liklihood you might choose port 443, but if that machine has Skype for Business Server 2019 installed on it, or is going to have Skype for Business Server 2019 installed on it, then you must choose a different port number.
 > 
 >Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you won't be able to connect to any Internal Web Service URL. Choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
-> 
+>
 
-  
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
 
 There are some things you're going to need to install or configure for any server running Skype for Business Server 2019. These things are listed below, followed by additional requirements for specific server roles.
 
 > [!IMPORTANT]
-> Skype For Business 2019 supports .Net Framework 4.8. 
+> Skype For Business 2019 supports .Net Framework 4.8.
   
  **All servers:**
   
@@ -183,6 +182,48 @@ And we have some PowerShell code below for this too:
   
 ```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
+```
+
+## Upgrading to Windows Server 2022
+
+Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation from Windows Server 2019.
+
+> [!Note]
+> When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you need not run the compability script for Windows Server 2022 as in-place OS upgrade usually preserves the existing application configurations.
+
+### Installation of Windows Server 2022
+
+When you're setting up the **Skype for Business Server** for the first time for Windows Server 2022, you must run the following script to ensure compatibility with Windows Server 2022.
+
+```powershell
+$providerName = "AesProvider"
+$keyContainerName = "iisCustomConfigurationKey"
+
+$exe = Get-ChildItem -Path "C:\Windows\Microsoft.NET\Framework64" -Filter "aspnet_regiis.exe" -Recurse |
+  Where-Object { $_.FullName -match "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0" }
+
+if ($exe -eq $null) {
+  Write-Error "aspnet_regiis.exe not found. Exiting";
+  Exit
+}
+
+& $exe.FullName -pc $keyContainerName -exp
+& $exe.FullName -pa $keyContainerName "BUILTIN\IIS_IUSRS"
+& $exe.FullName -pa $keyContainerName "NT SERVICE\WMSVC"
+
+Add-WebConfigurationProperty -PSPath 'MACHINE/WEBROOT/APPHOST' -Filter "configProtectedData/providers" -Name "." -Value @{name="$providerName";type='System.Configuration.RsaProtectedConfigurationProvider,System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'}
+
+$applicationHostConfigPath = "C:\Windows\System32\inetsrv\config\applicationHost.config"
+[xml] $applicationHostConfigFile = Get-Content $applicationHostConfigPath
+foreach ($ele in $applicationHostConfigFile.configuration.configProtectedData.providers.add) {
+  if ($ele.name -eq $providerName) {
+    $ele.SetAttribute("keyContainerName", $keyContainerName)
+    $ele.SetAttribute("useMachineContainer", "true")
+    $ele.SetAttribute("useOAEP", "false")
+    $ele.SetAttribute("useFIPS", "true")
+  }
+}
+$applicationHostConfigFile.Save($applicationHostConfigPath) 
 ```
 
 ## Back end databases that will work with Skype for Business Server 2019
@@ -412,11 +453,11 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
     
 - All server certificates must contain a CRL Distribution Point (CDP).
     
-- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2019 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
+- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2019 supports the SHA-1 and SHA-2 suite of digest sizes (224-bit, 256-bit, 384-bit and 512-bit), and meets or exceeds the operating system requirements.
     
 - Auto-enrollment is supported for internal servers running Skype for Business Server 2019.
     
-- Auto-enrollment is not supported for Skype for Business Server 2019 Edge Servers.
+- Auto-enrollment isn't supported for Skype for Business Server 2019 Edge Servers.
     
 > [!NOTE]
 > Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems. 
