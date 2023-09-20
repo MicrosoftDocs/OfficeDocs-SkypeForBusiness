@@ -1,7 +1,7 @@
 ---
 title: Set up the common area phones for Microsoft Teams
-ms.author: danismith
-author: DaniEASmith
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.date: 1/28/2022
 ms.reviewer: kponnus
@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
