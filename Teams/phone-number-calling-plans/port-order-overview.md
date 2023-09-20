@@ -91,7 +91,7 @@ You need to have all the account information for your current carrier. The infor
   
 ## What are full-port and partial-port transfers?
 
-When you're porting phone numbers to Teams, you can to transfer all of your numbers or some of them.
+When you're porting phone numbers to Teams, you can transfer all of your numbers or some of them.
   
 - **Full-port** This is when you transfer all of your numbers from your current service provider to Teams. When you're asked for the phone numbers you want to transfer, you *must include* the billing telephone number (BTN) along with all of the other phone numbers on your account.
 
