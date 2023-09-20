@@ -13,7 +13,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 ms.topic: reference
@@ -103,7 +103,7 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 3. Open Windows Device Manager and look for Yealink camera entry under the Cameras node.
 
   > [!Note]
-  > If the list of Yealink cameras doesn't appear under the cameras section within 2 minutes of plugging in the device, check the USB cable or power supply and ensure that they    are firmly connected.
+  > If the list of Yealink cameras doesn't appear under the cameras section within 2 minutes of plugging in the device, check the USB cable or power supply and ensure that they are firmly connected.
 
 4. Locate and double-click **IntelligentIgnore** icon from the desktop.
 5. The Calibration App opens a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection.
