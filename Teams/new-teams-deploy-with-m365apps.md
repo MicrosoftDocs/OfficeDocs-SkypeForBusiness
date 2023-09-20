@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 07/24/2023
+ms.date: 09/06/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -47,16 +47,11 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Business||Late September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
 |Enterprise|Current Channel|October 2023|
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
-
-
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
->- New Teams is currently not available on VDI and Mac OS but is planned for release later in this calendar year
 
 ### When will the new Teams become the default app?
 
@@ -65,8 +60,8 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|September 2023|
+|Business||Late September 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
 |Enterprise|Current Channel|October 2023|
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
@@ -74,9 +69,6 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 ## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
 
 Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out. 
-
->[!Important]
->The control feature to opt out will not be live until **August 2023**. Please check back then.
 
 1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account. 
 2. Go to **Customization > Device Configuration > Modern Apps Settings**. 

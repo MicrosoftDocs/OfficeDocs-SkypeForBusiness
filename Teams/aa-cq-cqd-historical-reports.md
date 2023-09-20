@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 08/22/2023
+ms.date: 09/13/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,11 +30,11 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 # Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
-> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md)
+> GCC High and DoD customers should use [Auto attendant and call queue historical reports for GCC High and DoD](./aa-cq-cqd-historical-reports-v164.md)
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
-## V3.1.2 published on July 21, 2023
+## V3.1.3 published on September 13, 2023
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -73,7 +73,7 @@ Once the report is published:
 5. Ensure **Skip test connection** is enabled.
 6. Select **Sign in** and provide your credentials.
 
-When completed, you'll be able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
+When completed, you're able to [configure a scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) of the dataset.
 
 ### Permissions to access the CQD pipeline
 
@@ -89,11 +89,11 @@ The following steps assume you have already installed Power BI Desktop on your c
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.2.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.2.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.3.pbit` template file. Power BI Desktop should launch.
 
 4. You're prompted to select the **DataSource** and **UTC Offset**.  
 
@@ -343,9 +343,9 @@ You have to refresh the data to see any new data.
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There's no notification when this occurs.  Try shortening the date range to avoid this issue.
+Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There is no notification when this occurs.  Try shortening the date range to avoid this issue.
 
-If in the event that shortening the date range is no sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
+If shortening the date range is not sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
 1. Right click on the "fAutoAttendant" field on the right, click "Edit Query".
 2. Right click on "CommonQueryParameters" and click "Advanced Editor".
@@ -711,6 +711,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Filename                                                    |Description                                                             |
 |:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.1.3    |September 13, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Accessibility improvements for screen readers   |
 |3.1.2    |July 21, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
 |3.1.1    |May 11, 2023       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
 |3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |

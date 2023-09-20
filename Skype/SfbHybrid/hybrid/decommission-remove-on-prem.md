@@ -1,7 +1,7 @@
 ---
 ms.date: 03/17/2018
 title: Decommission Skype for Business Server
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen

@@ -1,7 +1,7 @@
 ---
 ms.date: 04/03/2021
 title: Move users to the cloud
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
