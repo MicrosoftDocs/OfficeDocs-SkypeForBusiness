@@ -36,7 +36,7 @@ This article describes the following steps to configure Shared Calling:
 5. [Assign and fund a Communication credits license.](#step-5-assign-and-fund-a-communication-credits-license)
 6. [Create voice routing policy without PSTN usages.](#step-6-create-voice-routing-policy-without-pstn-usages)
 7. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
-8. [Create your Shared Calling policy.](#step-8-configure-the-shared-calling-routing-policy)
+8. [Create your Shared Calling policy.](#step-8-configure-the-shared-calling-policy)
 
 For a step-by-step example on how to configure Shared Calling with PowerShell, see [Shared Calling scenario](shared-calling-scenario.md).
 
@@ -146,7 +146,7 @@ Emergency calling for Shared Calling is available globally. There are configurat
 
 ### Configure emergency calling numbers
 
-Emergency calling numbers are defined in the [emergency call routing policy](manage-emergency-call-routing-policies). If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
+Emergency calling numbers are defined in the [emergency call routing policy](manage-emergency-call-routing-policies.md). If you've not already done so, you must create and assign an emergency call routing policy for each user enabled for Shared Calling--regardless of the type of number used for the resource account: Calling Plan, Operator Connect, or Direct Routing.
 
 ### Routing of emergency calls
 
