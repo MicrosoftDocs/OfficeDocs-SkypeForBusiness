@@ -116,7 +116,7 @@ To manually update remote devices, do the following:
 
 What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows a single device selected while the image on the right shows multiple devices selected.
 
-![Device status update panel with single and multiple devices selected.](.media/mtr-devices/update-manual-together.png)
+![Device status update panel with single and multiple devices selected.](../media/mtr-devices/update-manual-together.png)
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select **Update**.
 
