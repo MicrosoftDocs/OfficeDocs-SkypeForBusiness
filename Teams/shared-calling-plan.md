@@ -37,7 +37,7 @@ Let's start with some definitions that you'll need to know for Shared Calling:
 |Inbound calls|An incoming call that comes from a PSTN to a user in your organization. When a Shared Calling user receives an inbound PSTN call, the call connects to the Auto attendant.|
 |Outbound calls|An outgoing call by a user in your organization to a PSTN. When a Shared Calling user makes an outbound call to the PSTN, the recipients see the caller ID of the Auto attendant.|
 
-With Shared Calling, instead of assigning a phone number to every user, you use the phone number of an Auto attendant for outbound and inbound PSTN calls. The Shared Calling policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency callback numbers.
+With Shared Calling, instead of assigning a phone number to every user, you use the phone number of a resource account associated with an Auto attendant for outbound and inbound PSTN calls. The Shared Calling policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency callback numbers.
 
 To set up Shared Calling, you'll need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
@@ -57,7 +57,7 @@ To set up Shared Calling, you'll need to perform the following steps. These step
 
 8. Create your Shared Calling policy.  
 
-You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
+Currently, Shared Calling can only be configured with PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
 
 ## Related topics
 
