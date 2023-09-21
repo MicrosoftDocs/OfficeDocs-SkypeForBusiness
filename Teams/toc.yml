@@ -321,8 +321,6 @@ items:
           href: location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
           href: teams-privacy-feedback.md
-        - name: Block access to SharePoint Online for specific users
-          href: block-access-sharepoint.md
         - name: Policy control overview
           href: policy-control-overview.md
         - name: Mobile diagnostic data
@@ -333,8 +331,6 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
-        - name: Career Coach data compliance
-          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
