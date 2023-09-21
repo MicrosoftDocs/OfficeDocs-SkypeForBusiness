@@ -1597,6 +1597,8 @@ items:
                     href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: QoS on Teams devices
+              href: devices/qos-on-teams-devices.md
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
