@@ -36,6 +36,8 @@ The following table shows the features available to help you manage meeting reco
 
 The Teams Administrator has overall control over whether meeting recording is enabled. Both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
 
+To manage explicit consent for recordings, see [Meeting Recording.](meeting-recording.md)
+
 ## Manage who can record meetings
 
 There are two options for who can record a meeting:
