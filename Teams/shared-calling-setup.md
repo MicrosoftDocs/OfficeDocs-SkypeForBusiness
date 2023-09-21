@@ -180,7 +180,7 @@ For more information, see [Manage emergency call routing policies](manage-emerge
 
 ### Emergency callback number
 
-Emergency services must be able to call back the originator of an emergency call through the *emergency callback number*. The callback number serves as the caller ID or calling number used when an emergency call is made.
+Emergency services must be able to call back the originator of an emergency call through the emergency callback number. The callback number serves as the caller ID or calling number used when an emergency call is made.
 
 You define a list of emergency callback numbers in the Shared Calling policy by using the -EmergencyNumbers parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
