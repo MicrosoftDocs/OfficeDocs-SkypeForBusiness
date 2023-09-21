@@ -122,7 +122,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
       - 3.5mm
-      - UsBc
+      - USBc
 
 #### Rugged Android phones
 
