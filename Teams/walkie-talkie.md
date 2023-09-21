@@ -21,7 +21,7 @@ ms.custom:
 - Security
 appliesto: 
   - Microsoft Teams
-ms.date: 11/17/2022
+ms.date: 09/21/2023
 ---
 
 # Walkie Talkie app in Microsoft Teams
@@ -114,7 +114,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
       - [B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07
       - [C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30
   - Jabra
