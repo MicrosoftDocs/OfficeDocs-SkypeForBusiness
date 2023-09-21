@@ -84,14 +84,14 @@ When joining the meeting, participants are prompted "Yes" or "No" to be included
 
 Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent. When a participant decides to un-mute, turn on their camera, or share content, they are providing consent to be included in the recording.
 
-NOTES:
- If an end user is unable to provide their attendance status on Attendance Report due to the admin settings or their own settings, their consent data will not be able to be displayed in the report either. In meetings which require explicit consent to be recorded, they will not be able to use their microphone, camera, or screen-sharing/content-sharing options when a recording is initiated. Therefore, for customers who cannot enable the Attendance Report for the entire tenant, we recommend waiting for a future update to decouple the Explicit Recording Consent feature from the Attendance Report.
+If a participant can't provide their attendance status on the attendance Report due to the admin's policy or their own settings, their consent choice won't be displayed in the report.
 
-- In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, will not be able to enable their mic, camera, or screenshare/content-sharing during recording.
+Make sure your tenant are using the most recent version of Teams when enabling this policy.
 
-- Make sure your tenant are using the most recent version of Teams when enabling this policy.
+Teams meeting rooms and PSTN users can still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
 
-- Teams meeting rooms user and PSTN users can still get recording notification as today, but they cannot provide explicit recording consent, and their consent data will be logged as "not applicable" or "auto consent".
+>[!NOTE]
+>In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, can't enable their mic, camera, or content-sharing during recordings.
 
 ### Manage explicit recording consent in the Teams admin center
 
@@ -122,12 +122,6 @@ To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
 ```
-
-Anonymous users in supported clients can provide consents but carplay and vdi can't provide consent.
-If they don't give consent in attendance report, they can't actively partake in meeting. Show in meeting report
-Let meeting or webinar organizer know your attendance information.
-Show in meeting report -- do not track. 
-
 
 ## Block or allow download of channel meeting recordings
 
