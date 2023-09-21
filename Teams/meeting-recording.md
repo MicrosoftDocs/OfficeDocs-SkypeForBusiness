@@ -84,11 +84,11 @@ When joining the meeting, participants are prompted to respond "Yes" or "No" to 
 
 Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent. When a participant decides to un-mute, turn on their camera, or share content, they are providing consent to be included in the recording.
 
-If a participant can't provide their attendance status on the attendance Report due to the admin's policy or their own settings, their consent choice won't be displayed in the report.
+If a participant can't provide their attendance status on the attendance report due to the admin's policy or their own settings, their consent choice won't be displayed in the report.
 
 Make sure your tenants are using the most recent version of Teams when enabling this policy.
 
-Teams meeting rooms and PSTN users can still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
+Teams meeting rooms and PSTN users still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
 
 >[!NOTE]
 >In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, can't enable their mic, camera, or content-sharing during recordings.
@@ -107,7 +107,7 @@ Follow these steps in the Teams admin center to turn explicit recording consent 
 
 ### Manage explicit recording consent through PowerShell
 
-Through PowerShell, you can manage explicit recording for users or groups in your organization:
+Through PowerShell, you can manage explicit consent for users or groups in your organization:
 
 The **`-ExplicitRecordingConsent`** parameter in the **CsTeamsMeetingPolicy** cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
 The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
