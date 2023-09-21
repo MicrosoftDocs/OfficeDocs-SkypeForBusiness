@@ -170,7 +170,13 @@ Emergency calling numbers are defined in the [emergency call routing policy](man
 
 ### Routing of emergency calls
 
-The routing of the emergency call is based on how the resource account is configured. If the resource account used in the Shared Calling policy uses a Calling Plan or Operator Connect number, the emergency call routing policy assigned to the Shared Calling user shouldn't have online PSTN usages configured. If the emergency call routing policy used for the emergency call has online PSTN usages configured, the routing of the emergency call will be based on the online PSTN usages. For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
+The routing of emergency calls is based on how a resource account is configured.
+
+- If the resource account used in the Shared Calling policy uses a Calling Plan or Operator Connect number, the emergency call routing policy assigned to the Shared Calling user shouldn't have online PSTN usages configured.
+- If the resource account used in the Shared Calling policy uses a Direct Routing number, the emergency call routing policy assigned to the Shared Calling user must have online PSTN usages configured.
+- If the emergency call routing policy used for the emergency call - either from user or network site assignment - has online PSTN usages configured, the routing of the emergency call will be based on the online PSTN usages.
+
+For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
 ### Emergency callback number
 
@@ -186,7 +192,7 @@ When an emergency call is made, the next free number in the emergency number lis
 
 When emergency numbers are added to a policy:
 
-- The emergency numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the callback numbers must be available within the tenant.
+- The emergency numbers must be routable for inbound PSTN calls. For Calling Plan & Operator Connect, the emergency numbers must be available within the tenant.
 
 - The emergency numbers specified must all be of the same phone number type as the phone number assigned to the specified resource account--that is Calling Plan, Operator Connect, or Direct Routing.
 
@@ -194,7 +200,7 @@ When emergency numbers are added to a policy:
 
 - You can't delete or reassign an emergency number used in any Shared Calling policy. You must first remove the number from the Shared Calling policy before you delete or reassign the number.
 
-You can view all Calling Plan and Operator Connect emergency numbers by country, number sequence, or policy group by using the Teams admin center. For assigned Direct Routing numbers, you can use [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) -NumberType DirectRouting.
+You can view all Calling Plan and Operator Connect numbers by country, number sequence, or policy group by using the Teams admin center. For assigned Direct Routing numbers, you can use [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) -NumberType DirectRouting.
 
 ### Calling Plan service numbers
 
