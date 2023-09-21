@@ -80,13 +80,13 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
 
-When joining the meeting, participants are prompted "Yes" or "No" to be included in the meeting recording. Their answer to this prompt is included in the attendance report. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
+When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
 
 Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent. When a participant decides to un-mute, turn on their camera, or share content, they are providing consent to be included in the recording.
 
 If a participant can't provide their attendance status on the attendance Report due to the admin's policy or their own settings, their consent choice won't be displayed in the report.
 
-Make sure your tenant are using the most recent version of Teams when enabling this policy.
+Make sure your tenants are using the most recent version of Teams when enabling this policy.
 
 Teams meeting rooms and PSTN users can still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
 
@@ -114,7 +114,7 @@ The following table shows the behaviors of the settings for the **`-ExplicitReco
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| For organizers with this policy, all of their meeting will request the explicit consent of all participants to be recorded.|
+|Enabled| For organizers with this policy, all their meeting will request the explicit consent of all participants to be recorded.|
 |Disabled| **This is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
 
 To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
