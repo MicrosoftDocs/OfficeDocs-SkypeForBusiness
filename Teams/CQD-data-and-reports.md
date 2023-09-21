@@ -94,7 +94,7 @@ These RBAC roles **DON'T** have EUII access:
 - Teams Communications Support Specialist
 
 > [!NOTE]
-> Users assigned to one or more [Administrative Units](azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
+> Users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
 ## Date controls
 
