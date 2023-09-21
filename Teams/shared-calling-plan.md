@@ -43,19 +43,23 @@ To set up Shared Calling, you'll need to perform the following steps. These step
 
 1. Assign Teams Phone licenses and enable users for voice.
 
-2. Assign number to resource account for outbound calling.
+1. Assign number to resource account for inbound and outbound calling.
 
-3. Associate resource account with Auto attendant for inbound calling.
+1. Associate resource account with Auto attendant for inbound calling.
 
-4. Assign Pay-As-You-Go Calling Plan to Calling Plan service number.
+1. Assign a location to the resource account for emergency calling.
 
-5. Assign and fund a Communication credits license.
+1. Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.
 
-6. Create voice routing policy without PSTN usages.
+1. Assign and fund a Communication credits license.
 
-7. Enable emergency calling for users.
+1. Create voice routing policy without PSTN usages.
 
-8. Create your Shared Calling policy.  
+1. Enable emergency calling for users.
+
+1. Create your Shared Calling policy.
+
+1. Assign the Shared Calling policy to users.
 
 Currently, Shared Calling can only be configured with PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
 
