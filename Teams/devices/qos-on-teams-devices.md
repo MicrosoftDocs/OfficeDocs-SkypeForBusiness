@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about how much bandwidth a Teams Room will use, how to control that bandwidth usage, and how to ensure your devices are optimized with the right quality of service configuration to align to your organizations requirements.
+description: Learn about the key considerations for deploying Teams Rooms.
 ---
 
 # Quality of service (QoS) configuration on Teams Rooms devices
@@ -29,9 +29,9 @@ Deploying one or many Microsoft Teams Rooms devices requires planning. One of th
 
 This article explains:
 
-1. How much bandwidth a Teams Room device will consume.
-1. How to control that bandwidth usage.
-1. How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements.
+1. [How much bandwidth a Teams Room device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
+1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
+1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
 Wired network connectivity is recommended for Microsoft Teams Room devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
@@ -49,10 +49,10 @@ The following table provides rough estimates of bandwidth utilized for the vario
 |Audio     | 128/128        |     256/256    |
 |Video    |    2000/4000     |8000/4000         |
 |Screen share     |    2000/2000     |   2000/2000      |
-|Total     |  4128/6128       |10256/6256         |
+|**Total**     |  **4128/6128**       |**10256/6256**         |
 
 
-Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras the remote participants have connected to the meeting, along with the number of participants with video enabled.
+Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras that the remote participants have connected to the meeting, along with the number of participants with video enabled.
 
 ## How do I control Microsoft Teams Rooms bandwidth usage?
 
@@ -91,7 +91,7 @@ For more information on Teams Media and implementing QoS, see [Implement Quality
 
 ### QoS with Microsoft Teams Rooms on Windows devices
 
-For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune “NetworkQoSPolicy” CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune `NetworkQoSPolicy` CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
 
 For more information on this Intune CSP, see [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
@@ -111,4 +111,3 @@ For instructions on how to configure your tenant to insert QoS markings, see [Te
 - [Implement Quality of Service (QoS) in Microsoft Teams clients](../QoS-in-Teams-clients.md)
 - [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp)
 - [Prepare your organization's network for Microsoft Teams](../prepare-network.md)
-
