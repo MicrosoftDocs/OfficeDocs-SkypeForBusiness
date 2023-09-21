@@ -82,6 +82,13 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
+## Video demonstration
+
+Watch this video for a walkthrough of the procedures described in this article.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1bXYL]
+
 ## Options for recording meetings
 
 For the *highly sensitive* level of protection, we use watermarking and end-to-end encryption for both meetings and presentations. However, using these features prevents recording the meeting. If you have a need to record highly sensitive meetings, we recommend not configuring watermarks and end-to-end encryption as part of the sensitivity label. They can still be used by meeting organizers for meetings they don't need to record.
