@@ -32,7 +32,7 @@ Notifications are available for freeze, frame rate, sync, decoder hardware, and 
 
 Notifications can  be sent to a Teams channel or a web hook URL.
 
-## Set up alerts for audio quality issues
+## Set up alerts for screen sharing issues
 
 1. In the left navigation of the Microsoft Teams admin center, select **Notifications & alerts** > **Rules**.
 
