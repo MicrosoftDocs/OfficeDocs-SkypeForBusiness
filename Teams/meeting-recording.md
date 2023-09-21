@@ -76,6 +76,59 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 ---
 
+## Manage explicit recording consent
+
+You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
+
+When joining the meeting, participants are prompted "Yes" or "No" to be included in the meeting recording. Their answer to this prompt is included in the attendance report. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
+
+Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent. When a participant decides to un-mute, turn on their camera, or share content, they are providing consent to be included in the recording.
+
+NOTES:
+ If an end user is unable to provide their attendance status on Attendance Report due to the admin settings or their own settings, their consent data will not be able to be displayed in the report either. In meetings which require explicit consent to be recorded, they will not be able to use their microphone, camera, or screen-sharing/content-sharing options when a recording is initiated. Therefore, for customers who cannot enable the Attendance Report for the entire tenant, we recommend waiting for a future update to decouple the Explicit Recording Consent feature from the Attendance Report.
+
+- In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, will not be able to enable their mic, camera, or screenshare/content-sharing during recording.
+
+- Make sure your tenant are using the most recent version of Teams when enabling this policy.
+
+- Teams meeting rooms user and PSTN users can still get recording notification as today, but they cannot provide explicit recording consent, and their consent data will be logged as "not applicable" or "auto consent".
+
+### Manage explicit recording consent in the Teams admin center
+
+Follow these steps in the Teams admin center to turn explicit recording consent on or off for users or groups in your organization:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Within your chosen policy, navigate to the **Recording & Transcription** section.
+6. Toggle the **Require Participant Agreement for Recordings** setting **On** or **Off**.
+7. Select Save
+
+### Manage explicit recording consent through PowerShell
+
+Through PowerShell, you can manage explicit recording for users or groups in your organization:
+
+The **`-ExplicitRecordingConsent`** parameter in the **CsTeamsMeetingPolicy** cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
+The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
+
+|Setting value| Behavior|
+|---------|---------------|
+|Enabled| For organizers with this policy, all of their meeting will request the explicit consent of all participants to be recorded.|
+|Disabled| **This is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
+
+To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
+```
+
+Anonymous users in supported clients can provide consents but carplay and vdi can't provide consent.
+If they don't give consent in attendance report, they can't actively partake in meeting. Show in meeting report
+Let meeting or webinar organizer know your attendance information.
+Show in meeting report -- do not track. 
+
+
 ## Block or allow download of channel meeting recordings
 
 Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
