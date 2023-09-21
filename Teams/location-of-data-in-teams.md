@@ -1,12 +1,12 @@
 ---
 title: Location of data in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 audience: admin
 ms.service: msteams
-ms.reviewer: anach, kehardy
+ms.reviewer: kehardy
 ms.date: 09/24/2018
 description: In this article, you will learn about where does the data resides geographically in Microsoft Teams.
 ms.localizationpriority: medium
@@ -35,7 +35,7 @@ To see which region houses data for your tenant, go to the [Microsoft 365 admin 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-For a detailed list of countries/regions and data stored, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide).
+For a detailed list of countries/regions and data stored, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
 
 ## Data stored with a third-party storage provider
 

@@ -6,7 +6,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: rafarrbronisevsky, alsolom
+ms.reviewer: alsolom
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: normal

@@ -1,7 +1,7 @@
 ---
 title: "Manage the usage of a phone number"
-author: wlibebe
-ms.author: wlibebe
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: garciadaniel
 ms.date: 08/22/2022
@@ -13,6 +13,7 @@ ms.service: msteams
 search.appverid: 
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto:
   - Microsoft Teams
@@ -56,6 +57,6 @@ If you still need assistance, please contact the [TNS Service Desk](/MicrosoftTe
 
 ## Related topics
 
-[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)

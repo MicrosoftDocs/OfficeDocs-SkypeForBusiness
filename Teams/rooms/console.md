@@ -3,7 +3,7 @@ title: Build a Microsoft Teams Rooms image
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: Travis-Snoozy
-ms.date: 02/23/2018
+ms.date: 08/22/2023
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea

@@ -2,7 +2,7 @@
 title: Assign policies to users and groups
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.reviewer: tomkau, ritikag, jastark
 ms.date: 06/23/2023
 manager: serdars
 ms.topic: article
@@ -14,6 +14,8 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 

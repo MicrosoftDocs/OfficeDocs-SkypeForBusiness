@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -14,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and the features available in the events.
 appliesto: 
   - Microsoft Teams

@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - m365initiative-meetings
   - highpri

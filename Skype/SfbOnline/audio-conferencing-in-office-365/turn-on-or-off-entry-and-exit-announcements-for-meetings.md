@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Turn on or off entry and exit announcements for meetings in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

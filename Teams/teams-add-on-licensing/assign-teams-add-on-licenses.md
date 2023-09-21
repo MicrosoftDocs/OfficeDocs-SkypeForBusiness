@@ -6,6 +6,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -117,6 +119,8 @@ Here's an example of how to use a script to assign licenses to your users.
 
 ## Product names and SKU identifiers for licensing
 
+[!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
+
 Here's a partial list of product names and their corresponding SKU part names that you can reference when you use PowerShell to manage licenses in Teams.
 
 To learn more, see [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference), and [Education SKU reference](../sku-reference-edu.md).
@@ -148,6 +152,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 | Microsoft Teams Shared Devices | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
+| Microsoft Teams EEA | Microsoft_Teams_EEA |
 
 ## Related content
 

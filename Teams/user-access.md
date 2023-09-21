@@ -16,14 +16,17 @@ description: Learn how to manage user access to Teams by assigning or removing a
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
-ms.custom: 
+ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage user access to Teams
+
+[!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
@@ -115,4 +118,3 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 - [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](sku-reference-edu.md)
-

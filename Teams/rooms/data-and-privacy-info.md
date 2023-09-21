@@ -12,8 +12,8 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
   - Tier1
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

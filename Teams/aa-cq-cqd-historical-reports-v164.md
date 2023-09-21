@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 search.appverid: MET150
 audience: Admin
@@ -42,11 +43,12 @@ The **Teams Auto Attendant & Call Queue Historical Report Power BI Template** pr
 - The [Call Queue](media/aa-cq-historical-report-sample-cq-v164.png) report shows analytics for calls coming into your call queues.
 - The [Agent Timeline](media/aa-cq-historical-report-sample-at-v164.png) report shows a timeline view of agents being active in call queue calls.
 
-These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store. 
+These reports use data from the [Call Quality Dashboard (CQD)](CQD-Power-BI-query-templates.md) data store.
 
 ## V1.64 Prerequisites
 
 ### Power BI Desktop
+
 You need to have Power BI Desktop installed. You can install and use the free version from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 The minimum compatible version is 2.85.681.0 (September 2020).
@@ -55,7 +57,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 The account you use to view the historical report needs to have permissions to access the CQD data pipeline. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
-## V1.64 Installation 
+## V1.64 Installation
 
 The following steps assume you've already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
@@ -63,19 +65,19 @@ Perform the following steps:
 
 1. Download and save the [CQD Power BI Query Templates](https://www.microsoft.com/download/details.aspx?id=102291) zip file on your computer.
 
-2. Open the zip file.
-   
-3. Navigate to the AACQ sub-folder
+1. Open the zip file.
 
-4. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.64.pbit` template file. Power BI Desktop should launch.
+1. Navigate to the AACQ sub-folder
 
-5. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
+1. Open the `CQD Teams Auto Attendant & Call Queue Historical Report V1.64.pbit` template file. Power BI Desktop should launch.
+
+1. You'll be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
      :::image type="content" source="media/aa-cq-historical-report-01-v164.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
     Public Cloud Customers (Not supported but will work):
 
-6. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
+1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -87,22 +89,22 @@ Perform the following steps:
 
     GCC High and DoD Customers:
 
-8. Select the appropriate CQD data pipeline from the drop down:
+1. Select the appropriate CQD data pipeline from the drop down:
 
    - GCCH: `cqd.gov.teams.microsoft.us/data`
    - DoD: `cqd.dod.teams.microsoft.us/data`
 
-9. The report will launch with sample data.
- 
-10. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
+1. The report will launch with sample data.
+
+1. To see your own data, select **Refresh** on the **Home** tab under **Queries** in Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v164.png" alt-text="Screenshot selecting the refresh option.":::
 
-11. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
+1. You'll be prompted to sign in. Select **Organizational account**, and then select **Sign in**.
 
    :::image type="content" source="media/aa-cq-historical-report-03-v164.png" alt-text="Screenshot showing login for V1.63.":::
 
-11. Select **Connect**, and the data will refresh.
+1. Select **Connect**, and the data will refresh.
 
 ## Data latency for AA and CQ analytics
 
@@ -145,8 +147,6 @@ Perform the following steps:
 |Average Caller Actions                  |Average number of actions callers perform in the AA               |
 |Call Results                            |Distribution of calls by final call state                         |
 |Lower section of report                 |Call flow breakdown                                               |
-
-
 
 #### Report to CQD table and field mapping
 
@@ -193,7 +193,6 @@ Perform the following steps:
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls            |
 |Sum of TotalCallCount (Measure)         |Whole number             |Same as above except will be 0 if no calls instead of blank              |
 
-
 ### Cloud Call Queue Analytics report
 
 #### Report description
@@ -207,7 +206,6 @@ Perform the following steps:
 |Abandoned Calls                         |Distribution of abandoned calls by call queues                     |
 |Average Session Length (seconds)        |Call length in seconds grouped by call result                      |
 |Call Overflow/Timeout Destinations      |Distribution of calls that timed out or overflowed                 |
-
 
 #### Report to CQD table and field mapping
 
@@ -227,7 +225,6 @@ Perform the following steps:
 |Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
 |Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
 |Call Overflow/Timeout Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
-
 
 #### fCallQueueAnalytics CQD fields description
 
@@ -268,7 +265,6 @@ Perform the following steps:
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
 |IsAbandoned                             |True/false               |True if call isn't answered by an agent                                   |
 
-
 ### Cloud Call Queue Agent Timeline report
 
 #### Report description
@@ -285,7 +281,6 @@ Perform the following steps:
 |Report Tab            |Report Table Name           |Source Table Name         |Global Filter       |
 |:---------------------|:---------------------------|:-------------------------|:-------------------|
 |Agent Timeline        |fAgentTimelineAnalytics     |fAgentTimelineAnalytics   |None                |
-
 
 |Report Section                                |Field(s) Used                         |Filters Applied       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
@@ -311,9 +306,8 @@ Perform the following steps:
 |Hour                                    |Whole number             |Hour of call                                             |
 |MM-DD                                   |Text                     |Month and day of call                                    |
 
-
 > [!NOTE]
-> When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report. 
+> When a call arrives at the first call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second call queue, then the agents in the second call queue will be shown as being in the first call queue on this report.
 
 ## Known issues
 
@@ -329,7 +323,7 @@ Perform the following steps:
 
 ## Version 1.xx history
 
-Refer to: CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes                         
+Refer to: CQD Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes
 
 |Version  |Date Published     |Filename                                                           |Description                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------

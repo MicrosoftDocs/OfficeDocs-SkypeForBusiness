@@ -1,8 +1,8 @@
 ---
 title: Teams Optional Connected Experiences 
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: msteams

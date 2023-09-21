@@ -69,3 +69,4 @@ The following articles will help you set up the various devices that use the **T
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
+- [Set up an Android mobile phone as a common area phone](../devices/common-area-mobile-phones.md)

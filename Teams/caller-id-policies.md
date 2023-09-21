@@ -3,7 +3,7 @@ title: Manage caller ID for users
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: jens; roykuntz
+ms.reviewer: roykuntz
 ms.date: 05/30/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -11,6 +11,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 f1.keywords:
 - CSH
