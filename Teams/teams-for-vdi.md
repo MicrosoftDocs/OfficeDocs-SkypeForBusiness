@@ -86,6 +86,8 @@ You can download the latest version of Citrix Virtual Apps and Desktops at the [
 
 For the latest server and client requirements, see the [Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html) article on the Citrix website.
 
+For RemotePC scenarios, please check the Known issues and limitations section.
+
 ### VMware Horizon Workspace and Desktop requirements
 
 VMware Horizon is a modern platform for secure delivery of virtual desktops and apps across the hybrid cloud. To offer a great end-user experience, VMware Horizon provides media optimization for Teams. This optimization improves overall productivity across virtual desktops and apps, and enhances user experience when calling and meeting using Teams.
@@ -485,8 +487,17 @@ if($cleanup){
 
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - In Citrix persistent VDI environments where Teams was installed using the .exe, if the user disconnects from the Virtual Machine while Teams is running, Teams auto-updates can result in the user being in a non-optimized state for Audio/Video when they reconnect to their sessions. We recommend that users quit Teams before they disconnect from Citrix Virtual Desktops to avoid this scenario. This behavior is fixed in Teams 1.6.00.12455.
-
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
+- In Citrix Remote PC environments users might not be optimized if they roam between the office and home.  
+For example, a user launching Microsoft Teams from the office (i.e. connected to the device locally via console) that later locks the device and reconnects to the Windows session via HDX will not be optimized. This requires a Microsoft Teams restart to properly detect the new state. This can be prevented by deploying the following registry key on the Remote PC:  
+HKLM/Software/Microsoft/Teams
+
+Name: VDIOptimizationMode
+
+Type: REG_DWORD
+
+Data: 1
+
 - Azure Virtual Desktop doesn't support Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 - Teams presence functions within VDI Teams client but does not resolve in Outlook.
@@ -504,10 +515,10 @@ The following calling and meeting features are not supported:
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
 - PSTN call ringback tone
-- Shared system audio/computer sound
+- Shared system audio/computer sound (Citrix and VMware only)
 - Media bypass for Direct Routing
-- Zoom control
-- Cross cloud anonymous join in GCC High
+- Zoom +/- control
+- Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
 - QoS
 - Gallery View 3x3
 
@@ -519,11 +530,11 @@ The following are known issues and limitations for calling and meetings:
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
-- Live events are not optimized.
+- Live events are not optimized/offloaded. Instead, the event is rendered on the virtual machine.
 - Give control and take control:
-  - Not supported during application sharing session.
-
-For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
+   - Not supported during application sharing session.
+   - Not supported on Linux endpoints
+   For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
 ## Troubleshooting
 
@@ -531,20 +542,18 @@ For Teams known issues that aren't related to VDI, see [Support Teams in your or
 
 #### Teams crashes or the Teams sign in screen is blank
 
-This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry `DWORD` value, and set it to `204` (hexadecimal).
-
-```console
+This is a known issue with Citrix VDA versions 1906 and 1909. To work around this issue, add the following registry `DWORD` value, and set it to `204` (hexadecimal):
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
-
-```
 
 Then, restart VDA. To learn more, see this Citrix support article, [Troubleshooting HDX optimization for Microsoft Teams](https://support.citrix.com/article/CTX253754).
 
 ## Related topics
 
-- [Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
+[Bulk install Teams using Windows Installer (MSI)](msi-deployment.md)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)
 
 

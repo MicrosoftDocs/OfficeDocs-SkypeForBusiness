@@ -39,6 +39,9 @@ If the connection doesn't exist, you can add it in Teams meeting settings. This 
 > [!NOTE]
 > Cross-cloud meetings between Microsoft 365 China (21Vianet) and other Microsoft 365 cloud environments is not supported during the preview.
 
+> [!NOTE]
+> VDI clients aren't supported for cross-cloud meetings.
+
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
 

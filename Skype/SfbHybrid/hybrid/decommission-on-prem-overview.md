@@ -1,7 +1,7 @@
 ---
 ms.date: 04/03/2021
 title: Decommission your on-premises Skype for Business environment
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen

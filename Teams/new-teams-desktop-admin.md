@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 09/01/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -65,7 +65,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 |License|Rollout begins|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Early August 2023|
+|Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
@@ -78,12 +78,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-Public preview program|Available|
+|Public preview program|Available|
 |Targeted release program|Available|
-|Current Channel|August 2023|
-|Monthly Enterprise Channel|Mid September 2023|
-|Semi-Annual Enterprise Channel (Preview)|August 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
+|Current Channel|Late September 2023|
+|Monthly Enterprise Channel|Late October 2023|
+|Semi-Annual Enterprise Channel (Preview)|October 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
@@ -101,7 +101,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 
 |License|Date|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Mid September 2023
+|Business Licenses and Teams Essentials|October 2023|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
@@ -113,17 +113,16 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|Mid August 2023|
-|Targeted Release Channel|Mid August 2023|
-|Current Channel|Early October 2023|
-|Monthly Enterprise Channel|Early November 2023|
-|Semi-Annual Enterprise Channel (Preview)|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2024|
+|Teams Public Preview|September 2023|
+|Targeted Release Channel|October 2023|
+|Current Channel|Late October 2023|
+|Monthly Enterprise Channel|January 2024|
+|Semi-Annual Enterprise Channel (Preview)|November 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
 >- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
-
 
 ## What features are still missing?
 
@@ -133,7 +132,7 @@ Most of the features you're familiar with in classic Teams are already in new Te
 
 ## What features are changing?
 
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you'll see.
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
 |:-----|:-----|
@@ -150,6 +149,7 @@ As we improve the client, the experience has been improved to align with similar
 |Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
 |About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
-|Ability to build Teams personsal apps usings Adaptive cards|No longer available.|
+|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in the "Add member" dialog.|There is now an advanced flow for tags.|
+|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
+|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
