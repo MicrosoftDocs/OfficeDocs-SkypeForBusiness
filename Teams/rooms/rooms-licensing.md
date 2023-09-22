@@ -180,15 +180,15 @@ In the Inventory view, devices are categorized into:
 - **Basic**: devices with basic licenses
 - **Standard**: devices with standard licenses
 - **Syncing:** for new device, the license information will appear after 24 hours due to syncing
-- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses
+- **Unlicensed**: devices lacking Pro, Premium, Basic, or Standard licenses
 ### Rooms View
 In the Rooms view, you'll find:
-- **Pro**: Devices with Pro licenses
-- **Premium**: Devices with Premium licenses
+- **Pro**: devices with Pro licenses
+- **Premium**: devices with Premium licenses
 - **Basic**: devices with basic licenses
 - **Standard**: devices with standard licenses
 - **Syncing:** for new device, the license information will appear after 24 hours due to syncing
-- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses
+- **Unlicensed**: devices lacking Pro, Premium, Basic, or Standard licenses
 
 > [!IMPORTANT]
 > 
