@@ -43,14 +43,14 @@ The video encoders in the following list have been validated by Microsoft for li
 
 |Encoder                                |Website  |Encoder Type|Native Caption Support|
 |---------------------------------------|---------|---------|---------|
-|AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Advanced H.264 Streaming and Recording |✔️|
-|AWS Elemental Live                     |[AWS Elemental Live](https://aws.amazon.com/elemental-live/) |Encode live on-premises video for events and 24/7 streams ||
-|Blackmagic Web Presenter HD            |[Blackmagic Web Presenter](https://www.blackmagicdesign.com/products/blackmagicwebpresenter) |Live stream from any 12G-SDI video source direct to YouTube, Facebook, Twitter and more ||
-|Blackmagic ATEM Mini with streaming engine               |[Blackmagic ATEM Mini with streaming engine](https://www.blackmagicdesign.com/products/atemmini) |Introducing low cost, multi camera, live production with advanced broadcast features||
-|BrandLive                              |[BrandLive](https://www.brandlive.com/) |Cloud based production platform||
-|Epiphan video Pearl Mini               |[Epiphan video Pearl Mini](https://www.epiphan.com/products/pearl-mini/) |Simplify video for everyone on campus ||
-|FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Open-source suite of software for handling video, audio, and other multimedia files and live streams||
-|Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Delivers high-quality HD video with Haivision Hub, a powerful alternative to RTMP||
+|AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Hardware|✔️|
+|AWS Elemental Live                     |[AWS Elemental Live](https://aws.amazon.com/elemental-live/) |Hardware||
+|Blackmagic Web Presenter HD            |[Blackmagic Web Presenter](https://www.blackmagicdesign.com/products/blackmagicwebpresenter) |Hardware||
+|Blackmagic ATEM Mini with streaming engine               |[Blackmagic ATEM Mini with streaming engine](https://www.blackmagicdesign.com/products/atemmini) |Hardware||
+|BrandLive                              |[BrandLive](https://www.brandlive.com/) |Service||
+|Epiphan video Pearl Mini               |[Epiphan video Pearl Mini](https://www.epiphan.com/products/pearl-mini/) |Hardware||
+|FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Software||
+|Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Hardware||
 |Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Production studio integrated in Microsoft Teams as a meeting app||
 |Magewell Ultra Encode AIO              |[Magewell Ultra Encode AIO](https://www.magewell.com/ultra-encode-aio) |Ultra Encode AIO live media encoders take the capabilities of our original Ultra Encode models to a whole new level for advanced use cases ||
 |Newtek TriCaster 2 Elite               |[Newtek TriCaster 2 Elite](https://www.vizrt.com/products/tricaster/tricaster-2-elite/) |The TriCaster® 2 Elite is the most complete video production platform available today, and sets a new platinum standard for how much you can achieve with a single system||
