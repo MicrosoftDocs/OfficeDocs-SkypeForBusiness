@@ -43,7 +43,7 @@ The video encoders in the following list have been validated by Microsoft for li
 
 |Encoder                                |Website  |Encoder Type|Native Caption Support|
 |---------------------------------------|---------|---------|---------|
-|AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Advanced H.264 Streaming and Recording ||
+|AJA HELO Plus                          |[AJA HELO Plus](https://www.aja.com/products/helo-plus) |Advanced H.264 Streaming and Recording |✔️|
 |AWS Elemental Live                     |[AWS Elemental Live](https://aws.amazon.com/elemental-live/) |Encode live on-premises video for events and 24/7 streams ||
 |Blackmagic Web Presenter HD            |[Blackmagic Web Presenter](https://www.blackmagicdesign.com/products/blackmagicwebpresenter) |Live stream from any 12G-SDI video source direct to YouTube, Facebook, Twitter and more ||
 |Blackmagic ATEM Mini with streaming engine               |[Blackmagic ATEM Mini with streaming engine](https://www.blackmagicdesign.com/products/atemmini) |Introducing low cost, multi camera, live production with advanced broadcast features||
