@@ -66,7 +66,7 @@ The following diagram shows two examples of voice routing policies in a call flo
 
 **Call Flow 2 (on the right):** If a user makes a call to +1 425 XXX XX XX or +1 206 XXX XX XX, the call is first routed to SBC sbc1.contoso.com or sbc2.contoso.com. If neither SBC is available, the route with lower priority will be tried (sbc3.contoso.com and sbc4.contoso.com). If none of the SBCs are available, the call is dropped. 
 
-![Shows voice routing policy examples.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Screenshot that shows voice routing policy examples.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 In both examples, while the voice route is assigned priorities, the SBCs in the routes are tried in random order.
 
@@ -75,7 +75,7 @@ In both examples, while the voice route is assigned priorities, the SBCs in the 
 
 In the example shown in the following diagram, a voice route is added to send calls to all other US and Canadian numbers (calls that go to called number pattern +1 XXX XXX XX XX).
 
-![Shows voice routing policy with a third route.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![Screenshot that shows voice routing policy with a third route.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan. If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
 
@@ -308,11 +308,11 @@ The examples that are shown assign the US Only policy to user Spencer Low, and t
 
 - John Woods – International policy.  Calls are allowed to any number. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will be routed using sbc2.contoso.com and sbc5.contoso.com.
 
-![Shows voice routing policy assigned to user Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Screenshot that shows voice routing policy assigned to user Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed using Microsoft Calling Plan.  If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
 
-![Shows voice routing policy assigned to user John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Screenshot that shows voice routing policy assigned to user John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 The following table summarizes routing policy "No Restrictions" usage designations and voice routes. 
 
@@ -357,7 +357,7 @@ You can use the [Microsoft Teams admin center](#admincenterexample2) or [PowerSh
 
 #### Step 3: Create a voice routing policy named "No Restrictions" and add the "US and Canada" and "International" PSTN usages to the policy
 
-The PSTN usage "US and Canada" are reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
+The PSTN usage "US and Canada" is reused in this voice routing policy to preserve special handling for calls to number "+1 425 XXX XX XX" and "+1 206 XXX XX XX" as local or on-premises calls.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.
 2. Type **No Restrictions** as the name and add a description.
