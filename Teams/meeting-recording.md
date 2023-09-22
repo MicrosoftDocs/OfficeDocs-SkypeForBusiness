@@ -80,13 +80,11 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
 
-When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
+When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by admin and user settings. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
 
-Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent. When a participant decides to un-mute, turn on their camera, or share content, they are providing consent to be included in the recording.
+Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent.
 
-If a participant can't provide their attendance status on the attendance report due to the admin's policy or their own settings, their consent choice won't be displayed in the report.
-
-Make sure your tenants are using the most recent version of Teams when enabling this policy.
+Make sure your tenants are using the most recent version of Teams when enabling this policy. To learn more about the latest Teams client, see [The new Microsoft Teams desktop client.](/MicrosoftTeams/new-teams-desktop-admin)
 
 Teams meeting rooms and PSTN users still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
 
