@@ -27,7 +27,7 @@ This article describes what's new in Direct Routing. Check back often for update
 
 Following two tests on September 5th and 19th, Microsoft will perform the final switch to the new Certificate Authority (CA) on October 3rd, starting at 10 AM UTC. All Microsoft SIP endpoints will be gradually switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). 
 
-If your Session Border Controllers (SBCs) are not properly configured with the new Certificate Authority (CA), your Direct Routing incoming and outgoing calls will fail after the switch. Please work with your SBC vendor directly for further guidance on SBC configuration.
+If your Session Border Controllers (SBCs) aren't properly configured with the new Certificate Authority (CA), your Direct Routing incoming and outgoing calls will fail after the switch. Please work with your SBC vendor directly for further guidance on SBC configuration.
 
 The change requirement and test were communicated to Direct Routing customers through Message Center posts as well as Service Health Incidents in the Microsoft Admin Portal (MC540239, TM614271, MC663640, TM674073, MC674729).
 
