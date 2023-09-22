@@ -47,9 +47,13 @@ Options include:
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
-|Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Settings|Turn on the "Show Notification Banners" setting in **System Settings > Notifications > Microsoft Teams** to receive Teams Notifications.|
 
-
+|Requirement|Version|
+|:-----|:-----|
+|MacOS | MacOS 12 (Monterey) or higher|
+|Teams app|Version 1.6.00.12303 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
+|Settings| Enable notifications in MacOS system settings under **System Settings > Notifications > Microsoft Teams (work or school)** to receive Teams Notifications.|
 #### Required Microsoft 365 Apps Security Updates
 
 |Channel|Version & Build|
@@ -97,6 +101,8 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 >[!Note]
 >The option "Classic Teams as default" was previously called "Users can choose".
+>[!Note]
+>Teams on MacOS will show the new Teams toggle the same for both Classic Teams as default and New Teams as default until 2024.
 
 </br>
 
