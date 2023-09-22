@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: asteele
-ms.date: 07/01/2023
+ms.date: 10/05/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -31,9 +31,7 @@ An encoder takes audio and video content from various sources you use during a s
 
 ## Production workflow when using an encoder
 
-The workflow for producing a Teams streaming event is as follows:
-
-An event is scheduled in Teams or Viva Engage, and the **Teams Encoder** option is selected. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding key. The URL and key are used by the encoder to connect to the RTMP endpoint for the scheduled streaming event.
+When an event is scheduled in Teams or Viva Engage, either the **Teams Encoder** option is selected (for live events) or the the **RTMP-In** meeting option is selected (for town halls). This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding key. The URL and key are used by the encoder to connect to the RTMP endpoint for the scheduled streaming event.
 
 ### Common encoders used with streaming events
 
