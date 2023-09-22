@@ -27,19 +27,19 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 This article describes what you need to know before configuring Shared Calling for Teams Phone.
 
-If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for you organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
+If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
 
 Let's start with some definitions that you'll need to know for Shared Calling:
 
 | Term | Definition |
 |----------|-----------|
-|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options; for example. dial by name or dial by extension. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
+|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options--for example, dial by name or dial by extension. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
 |Inbound calls|An incoming call that comes from a PSTN to a user in your organization. When a Shared Calling user receives an inbound PSTN call, the call connects to the Auto attendant.|
 |Outbound calls|An outgoing call by a user in your organization to a PSTN. When a Shared Calling user makes an outbound call to the PSTN, the recipients see the caller ID of the Auto attendant.|
 
-With Shared Calling, instead of assigning a phone number to every user, you use the phone number of a resource account associated with an Auto attendant for outbound and inbound PSTN calls. The Shared Calling policy configures the resource account used for outbound calls and emergency numbers that will be used as emergency callback numbers.
+With Shared Calling, instead of assigning a phone number to every user, you use the phone number of a resource account associated with an Auto attendant for inbound and outbound PSTN calls. The Shared Calling policy configures the resource account used for outbound calls and emergency numbers that are used as emergency callback numbers.
 
-To set up Shared Calling, you'll need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
+To set up Shared Calling, you need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
 1. Assign Teams Phone licenses and enable users for voice.
 
