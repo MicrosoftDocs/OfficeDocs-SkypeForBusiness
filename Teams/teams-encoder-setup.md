@@ -51,16 +51,16 @@ The video encoders in the following list have been validated by Microsoft for li
 |Epiphan video Pearl Mini               |[Epiphan video Pearl Mini](https://www.epiphan.com/products/pearl-mini/) |Hardware||
 |FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Software||
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Hardware||
-|Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Production studio integrated in Microsoft Teams as a meeting app||
-|Magewell Ultra Encode AIO              |[Magewell Ultra Encode AIO](https://www.magewell.com/ultra-encode-aio) |Ultra Encode AIO live media encoders take the capabilities of our original Ultra Encode models to a whole new level for advanced use cases ||
-|Newtek TriCaster 2 Elite               |[Newtek TriCaster 2 Elite](https://www.vizrt.com/products/tricaster/tricaster-2-elite/) |The TriCaster® 2 Elite is the most complete video production platform available today, and sets a new platinum standard for how much you can achieve with a single system||
-|Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |High-performance real-time video/audio capturing and mixing—supporting all streaming platforms, and more||
-|Socialive                              |[Socialive](https://socialive.us/) |Cloud video production platform, providing an all-in-one experience for producing and distributing studio-quality video content||
-|StreamYard                             |[StreamYard](https://streamyard.com/) |Live streaming studio in a browser||
-|Telestream Wirecast                    |[Telestream Wirecast](https://www.telestream.net/wirecast/overview.htm) |Professional live streaming software for everyone||
-|Teradek Prism Flex                     |[Teradek Prism Flex](https://teradek.com/pages/prism) |Prism Flex gives you ultra-low latency, 4K HDR streaming in a low-SWaP form factor that fits seamlessly into any video workflow ||
-|vMix                                   |[vMix](https://www.vmix.com/) |Software vision mixer that controls recording, mixing, and live streaming of cameras, videos, audio, and more||
-|XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Produces, mixes, and delivers rich video content, including gameplay for live streaming||
+|Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Service||
+|Magewell Ultra Encode AIO              |[Magewell Ultra Encode AIO](https://www.magewell.com/ultra-encode-aio) |Hardware||
+|Newtek TriCaster 2 Elite               |[Newtek TriCaster 2 Elite](https://www.vizrt.com/products/tricaster/tricaster-2-elite/) |Hardware||
+|Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |Software||
+|Socialive                              |[Socialive](https://socialive.us/) |Service||
+|StreamYard                             |[StreamYard](https://streamyard.com/) |Service||
+|Telestream Wirecast                    |[Telestream Wirecast](https://www.telestream.net/wirecast/overview.htm) |Software||
+|Teradek Prism Flex                     |[Teradek Prism Flex](https://teradek.com/pages/prism) |Hardware||
+|vMix                                   |[vMix](https://www.vmix.com/) |Software||
+|XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Software||
 
 ### Event Setup
 
