@@ -80,7 +80,7 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
 
-When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by admin and user settings. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
+When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by the admin policy and user settings. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
 
 Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent.
 
