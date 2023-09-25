@@ -70,7 +70,7 @@ For a step-by-step guide to creating Call queues with PowerShell, see [Creating 
 
 ## Common cmdlets used by both Auto attendants and Call queues
 
-The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with Auto attendants:
+The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported languages that are used with Auto attendants:
 
 ### Users and Teams
 
