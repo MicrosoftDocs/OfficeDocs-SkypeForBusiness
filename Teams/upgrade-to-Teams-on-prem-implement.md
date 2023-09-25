@@ -37,7 +37,7 @@ Before implementing your upgrade, we recommend the following articles which desc
 This section describes how to implement your upgrade by using one of the following upgrade options:
 
 - [Overlapping capabilities upgrade (using Islands mode)](#overlapping-capabilities-upgrade-using-islands-mode)
-- [A select capabilities upgrade for an organization that has not yet started using Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
+- [A select capabilities upgrade for an organization that hasn't yet started using Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [A select capabilities upgrade for an organization that is already using Teams in Islands mode](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
 If you need more information about the options, make sure you have already read [Choose your upgrade journey from Skype for Business to Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
@@ -51,11 +51,11 @@ For the overlapping capabilities upgrade option:
 - This option is the out-of-the box model, and doesn't require administrator action to get started with Teams except to assign the Teams license. If your users already have Skype for Business Online, you may already be in this model.
 
 - It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded
-users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that have not started using Teams, they will be exposed to missing messages. Furthermore, they won't see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires upfront planning as well as waiting until all users are ready to be upgraded.
+users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that haven't started using Teams, they'll be exposed to missing messages. Furthermore, they won't see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires upfront planning as well as waiting until all users are ready to be upgraded.
 
-## A select capabilities upgrade for an organization that has not yet started using Teams
+## A select capabilities upgrade for an organization that hasn't yet started using Teams
 
-If your organization does not yet have any active users in Teams, the first step is to set the default tenant-wide policy for TeamsUpgradePolicy to one of the Skype for Business modes, for example, SfbWithTeamsCollab.  Users who have not yet started using Teams won't notice any difference in behavior. However, setting this policy at the tenant level makes it possible to start upgrading users to TeamsOnly mode, and ensures that the upgraded users can still communicate with non-upgraded users.  Once you have identified your pilot users you can upgrade them to TeamsOnly.  If they are on-premises, use Move-CsUser. If they are online, simply assign them TeamsOnly mode by using Grant-CsTeamsUpgradePolicy. By default, any Skype for Business meetings scheduled by these users will be migrated to Teams.
+If your organization doesn't yet have any active users in Teams, the first step is to set the default tenant-wide policy for TeamsUpgradePolicy to one of the Skype for Business modes, for example, SfbWithTeamsCollab.  Users who haven't yet started using Teams won't notice any difference in behavior. However, setting this policy at the tenant level makes it possible to start upgrading users to TeamsOnly mode, and ensures that the upgraded users can still communicate with non-upgraded users.  Once you have identified your pilot users you can upgrade them to TeamsOnly.  If they're on-premises, use Move-CsUser. If they're online, simply assign them TeamsOnly mode by using Grant-CsTeamsUpgradePolicy. By default, any Skype for Business meetings scheduled by these users will be migrated to Teams.
 
 Following are the key commands:
 
@@ -93,7 +93,7 @@ The diagram below shows the conceptual phases of select capabilities upgrade for
 
 ## A select capabilities upgrade for an organization that is already using Teams in Islands mode
 
-If some users in your organization are actively using Teams in Islands mode, you probably do not want to remove functionality from existing users. Therefore, an extra step is required before changing the tenant-wide policy. The solution is to "grandfather" these existing active Teams users into Islands mode, before setting the tenant-wide policy to SfbWithTeamsCollab.  Once you've done that, you can proceed with deployment as above, however, you'll have two groups of users who are moving to TeamsOnly:  the users who were active in Teams will be in Islands mode, and the remaining users will be in SfbWithTeamsCollab mode. You can progressively move these users to TeamsOnly mode.
+If some users in your organization are actively using Teams in Islands mode, you probably don't want to remove functionality from existing users. Therefore, an extra step is required before changing the tenant-wide policy. The solution is to "grandfather" these existing active Teams users into Islands mode, before setting the tenant-wide policy to SfbWithTeamsCollab.  Once you've done that, you can proceed with deployment as above, however, you'll have two groups of users who are moving to TeamsOnly:  the users who were active in Teams will be in Islands mode, and the remaining users will be in SfbWithTeamsCollab mode. You can progressively move these users to TeamsOnly mode.
 
 1. Find users who are active in Teams as follows:
 
