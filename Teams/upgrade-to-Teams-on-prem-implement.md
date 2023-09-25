@@ -46,7 +46,7 @@ If you need more information about the options, make sure you have already read 
 
 For the overlapping capabilities upgrade option:
 
-- Consider this option if you can do a fast upgrade for your overall organization.  Since there is potential risk of confusion for end users with running both clients, it's best if you can minimize the time period during which users must run both clients. You should ensure your users know to run both clients.
+- Consider this option if you can do a fast upgrade for your overall organization.  Since there's potential risk of confusion for end users with running both clients, it's best if you can minimize the time period during which users must run both clients. You should ensure your users know to run both clients.
 
 - This option is the out-of-the box model, and doesn't require administrator action to get started with Teams except to assign the Teams license. If your users already have Skype for Business Online, you may already be in this model.
 
@@ -98,7 +98,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 1. Find users who are active in Teams as follows:
 
    1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage.
-   2. In the "Select a report" dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams.
+   2. In the "Select a report" dropdown, choose Microsoft Teams, and then User Activity. This provides an exportable table of users who have been active in Teams.
    3. Click Export, open Excel, and filter to show only the users who are active in Teams.
 
 2. For each active Teams user found in step 1, assign them Islands mode in remote PowerShell. This allows you to go to the next step, and ensures you don't change the user experience.
