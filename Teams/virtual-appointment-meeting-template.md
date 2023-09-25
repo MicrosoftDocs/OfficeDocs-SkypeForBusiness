@@ -47,8 +47,6 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 
 ## Manage access to SMS notifications in the template
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
