@@ -321,8 +321,6 @@ items:
           href: location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
           href: teams-privacy-feedback.md
-        - name: Block access to SharePoint Online for specific users
-          href: block-access-sharepoint.md
         - name: Policy control overview
           href: policy-control-overview.md
         - name: Mobile diagnostic data
@@ -333,8 +331,6 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
-        - name: Career Coach data compliance
-          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -1075,6 +1071,15 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
+
+    - name: Shared Calling - A simpler solution
+      items:
+        - name: Plan for Shared Calling
+          href: shared-calling-plan.md
+        - name: Configure Shared Calling
+          href: shared-calling-setup.md
+        - name: Shared Calling scenario
+          href: shared-calling-scenario.md
               
     - name: Phone numbers
       items: 
@@ -1601,6 +1606,8 @@ items:
                     href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: QoS on Teams devices
+              href: devices/qos-on-teams-devices.md
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
