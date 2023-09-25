@@ -41,7 +41,7 @@ The following table shows which features are available in meetings, webinars, an
 |Breakout rooms|✔️|✔️|✖️|
 |CART Captions|✔️|✔️|✔️|
 |Channel meeting scheduling|✔️|✖️|✖️|
-|Choose co-organizers|✔️|✔️|✖️|
+|Choose co-organizers|✔️|✔️|✔️|
 |End-to-end encryption|Premium|✖️|✖️|
 |External participants can give or request control|✔️|✔️|✔️|
 |Green room|✔️|✔️|✔️|
@@ -57,7 +57,7 @@ The following table shows which features are available in meetings, webinars, an
 |Outlook add-in|✔️|✖️|✖️|
 |Participants can give or request control|✔️|✔️|✖️|
 |Participants can use video effects|✔️|✔️|✔️|
-|PowerPoint Live|✔️|✔️|✔️|
+|PowerPoint Live|✔️|✔️|✖️|
 |Q&A|✔️|✔️|✔️|
 |Reactions|✔️|✔️|✔️|
 |Recording|✔️|✔️|✔️|
@@ -67,7 +67,7 @@ The following table shows which features are available in meetings, webinars, an
 |Screen sharing|✔️|✔️|✔️|
 |Shared notes|✔️|✔️|✔️|
 |Streaming|Optional|Optional|Required|
-|Streaming participants|10,000*|✖️|10,000*|
+|Streaming participants|10,000*|✖️|10,000 (base)<br>20,000 (premium)|
 |Theme|Premium|✔️|✔️|
 |Transcription|✔️|✔️|✔️|
 |Viva Engage integration|✖️|✖️|✔️|
