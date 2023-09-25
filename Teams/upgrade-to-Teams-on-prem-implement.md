@@ -53,7 +53,7 @@ For the overlapping capabilities upgrade option:
 - It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded
 users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that haven't started using Teams, they'll be exposed to missing messages. Furthermore, they won't see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires upfront planning as well as waiting until all users are ready to be upgraded.
 
-## A select capabilities upgrade for an organization that hasn't yet started using Teams
+## A select capabilities upgrade for an organization that has not yet started using Teams
 
 If your organization doesn't yet have any active users in Teams, the first step is to set the default tenant-wide policy for TeamsUpgradePolicy to one of the Skype for Business modes, for example, SfbWithTeamsCollab.  Users who haven't yet started using Teams won't notice any difference in behavior. However, setting this policy at the tenant level makes it possible to start upgrading users to TeamsOnly mode, and ensures that the upgraded users can still communicate with non-upgraded users.  Once you have identified your pilot users you can upgrade them to TeamsOnly.  If they're on-premises, use Move-CsUser. If they're online, simply assign them TeamsOnly mode by using Grant-CsTeamsUpgradePolicy. By default, any Skype for Business meetings scheduled by these users will be migrated to Teams.
 
