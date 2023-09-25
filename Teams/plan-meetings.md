@@ -58,7 +58,7 @@ For information about calling policies, see [Calling policies in Teams](teams-ca
 
 You can specify which meeting organizers and attendees can record meetings. For someone to record a meeting, admin policies must allow both the person who starts the recording and the meeting organizer to record.
 
-Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers.
+Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers if they have a Teams Premium license.
 
 You can set meeting recordings to expire after a specified time. This can help save storage space in organizations where a lot of meetings are recorded. When a recording expires, it's moved to the recycle bin and the file owner is notified. They can restore the recording if they need to.
 
@@ -120,7 +120,7 @@ Some meeting features can be controlled by Teams administrators while others are
 |[End-to-end encryption](end-to-end-encrypted-meetings.md) (Teams Premium)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
 |[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5) (Teams Premium)|No control|Can choose if green room is used for a meeting|
 |[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
-|[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record and automatic recording|
+|[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time|If recording is enabled by admin, can set who can record (Teams Premium) and automatic recording|
 |[Registration](set-up-meeting-registration.md)|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
 |[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
 |[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000|No control|
