@@ -53,6 +53,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar Pro| `NFD1.20230504.0027` | 2023 Update #2 |
 | Logi Rallybar | `1.10.369`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.10.369`   | 2023 Update #2  |
 | Logi RoomMate | `1.10.137`   | 2023 Update #2  |
