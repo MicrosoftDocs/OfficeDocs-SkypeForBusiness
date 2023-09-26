@@ -66,7 +66,7 @@ You can change the **Who can manage tags** setting to specify who can manage tag
     - **Not enabled**: Turn off tags.
 
 > [!NOTE]
-> If you are an EDU tenant, non-owner students cannot manage tags as long as the Tenant level settings is Team Owners or **Microsoft Default**. We will continue to respect explicit and preferred tenant settings over **Microsoft Default** settings. Select your preferred tag management setting for your tenant to ensure you are not impacted by future changes.
+> If you are an EDU tenant, non-owner students cannot manage tags as long as the Tenant level settings is **Team owners** or **Microsoft default**. We will continue to respect explicit and preferred tenant settings over **Microsoft default** settings. Select your preferred tag management setting for your tenant to ensure you are not impacted by future changes.
 
 ### Configure tagging settings
 
