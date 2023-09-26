@@ -832,9 +832,6 @@ Introduced in this update:
 - Request to speak. Muted participants can now request to be unmuted by raising their hand during meetings
 - Auto-answer. Teams Rooms on Android can answer calls or meeting invites automatically. This setting is available to shared configurations only and is located in Admin settings
 
-
-
-
 ---
 
 <a name="See"> </a>
@@ -851,6 +848,3 @@ Introduced in this update:
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
-
-
-

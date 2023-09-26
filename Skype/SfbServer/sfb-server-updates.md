@@ -61,7 +61,8 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Skype for Business Server 2015 Cumulative Update 12, Hotfix 4|[KB 3061064](https://support.microsoft.com/kb/3061064)|December 2022 |
 | Description of the security update for Skype for Business Server and Lync Server: July 12, 2022 | [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
 | Description of the security update for Skype for Business Server: April 12, 2022 | [KB 5012686](https://support.microsoft.com/topic/5012686) | April 2022 |
-|Skype for Business Server 2015 Cumulative Update 12, Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
+|Skype for Business Server 2015 Cumulative Update 13|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2023 |
+|Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
 |Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2021 |
 |Skype for Business Server 2015 Cumulative Update 11, Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|November 2020 |
 |Skype for Business Server 2015 Cumulative Update 11, Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|July 2020 |
