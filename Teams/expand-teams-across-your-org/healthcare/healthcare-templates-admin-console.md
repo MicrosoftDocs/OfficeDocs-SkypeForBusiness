@@ -1,7 +1,7 @@
 ---
 title: Use healthcare team templates
 author: lana-chin
-ms.author: heidip
+ms.author: v-chinlana
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
