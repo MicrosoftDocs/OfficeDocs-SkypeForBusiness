@@ -37,6 +37,21 @@ End-users can switch from the default display layout using the view switcher dur
 
 You can control the video height size of Front Row to give more or less space to meeting participant video or to meeting content. To set the size, add `<FrontRowVideoSize>` to your XML configuration file. You can set `<FrontRowVideoSize>` to `small`, `medium`, or `large`. The default is `medium`. For example, to set the front row size to large, use `<FrontRowVideoSize>large</FrontRowVideoSize>`.
 
+## Set the default Front Row panel component
+
+Configure the position of the raise hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays. To manually configure the position of the raise hand and chat components, specify the numeric values of the component that should be shown in the left and right panels respectively, separated by a comma. Panels using the same component will be ignored except for "Hide" (for example, `1,1` can be accepted).
+- `1` Hide the panel.
+- `2` Show meeting chat.
+- `3` Show raised hand list.
+
+If `FrontRowPanelDefaults` isn't specified in dual display mode, the raise hand component is shown in the left panel and chat component is shown in the right panel. In single display mode, the left panel isn't displayed by default for front-of-room displays narrower than 21:9.
+
+For example, to default to have the raised hand list in the left panel and chat in the right panel, use the following:
+
+```xml
+<FrontRowPanelDefaults>3,2</FrontRowPanelDefaults>
+```
+
 ## Turn off Front Row
 
 Front Row is enabled by default. Turn off Front Row if you don't want to allow end-users to use Front Row in a certain room. To disable Front Row, add `<FrontRowEnabled>false</FrontRowEnabled>` to your XML configuration file.
