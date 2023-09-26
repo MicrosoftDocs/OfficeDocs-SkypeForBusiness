@@ -37,7 +37,7 @@ A live event is scheduled in Teams or Viva Engage, and the **Teams Encoder** opt
 
 ### Common video encoders used for live streaming
 
-Microsoft has validated the video encoders in the following list for live streaming with Teams. 
+The video encoders in the following list have been validated by Microsoft for live streaming with Teams.
 
 ### Supported encoders
 
