@@ -1073,6 +1073,15 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
+
+    - name: Shared Calling - A simpler solution
+      items:
+        - name: Plan for Shared Calling
+          href: shared-calling-plan.md
+        - name: Configure Shared Calling
+          href: shared-calling-setup.md
+        - name: Shared Calling scenario
+          href: shared-calling-scenario.md
               
     - name: Phone numbers
       items: 
