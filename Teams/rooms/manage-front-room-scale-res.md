@@ -42,7 +42,7 @@ End-users can switch from the default display layout using the view switcher dur
 
 ## Set default meeting layout for dual display mode
 
-If you have two front of room displays and the Dual monitor mode is turned ON on Teams Admin Center or XML, you can choose the default meeting layout between Gallery and Front Row. "Focus on content" is not available on dual display mode. If you don't set a default meeting layout for a room, the default layout will be set to Gallery. To see Front Row as the default layout, add <DefaultFoRExperience>1</DefaultFoRExperience> to your XML configuration file.
+If you have two front of room displays and the Dual monitor mode is turned ON on Teams Admin Center or XML, you can choose the default meeting layout between Gallery and Front Row. "Focus on content" is not available on dual display mode. If you don't set a default meeting layout for a room, the default layout will be set to Gallery. To see Front Row as the default layout, add `<DefaultFoRExperience>1</DefaultFoRExperience>` to your XML configuration file.
 
 For example, to default to the Gallery layout, use the following:
 
