@@ -92,8 +92,6 @@ Or, refer to the Microsoft Teams devices marketplace for supported Content Camer
 ### Camera settings
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
-## [Teams Rooms for Windows](#tab/Windows)
-
 1. Select **Settings** ![Settings icon.](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Peripherals**.
 2. In the **Content Camera** section, select the content camera and make sure that the **Content enhancements** option is selected.
 3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate content camera 180°** option.
