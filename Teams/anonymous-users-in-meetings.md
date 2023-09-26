@@ -106,6 +106,7 @@ Anonymous participants don’t have all the same capabilities that other meeting
 
 - Don't have access to meeting chat before and after the meeting
 - Don't have access to profile cards (Profile cards in Microsoft 365 - Microsoft Support)
+- Don't have access to Collaborative Meeting Notes.
 
 ### How anonymous participants interact with apps in meetings
 
