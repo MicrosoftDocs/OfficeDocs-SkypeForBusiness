@@ -1,7 +1,7 @@
 ---
 title: Use general team templates in the admin center
 author: lana-chin
-ms.author: heidip
+ms.author: v-chinlana
 manager: serdars
 audience: Admin
 ms.topic: article
