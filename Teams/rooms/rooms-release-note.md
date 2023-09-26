@@ -92,7 +92,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md#enable-refreshed-home-screen-design).
+- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).
 - Enhanced View Switcher <sup>1</sup>
 - Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface
