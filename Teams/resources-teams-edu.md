@@ -51,7 +51,7 @@ Check out the [Digital Toolkit Guidance](https://download.microsoft.com/download
 |---------|---------|
 |[Email templates](https://download.microsoft.com/download/6/d/6/6d6e7e75-993b-4459-bb20-d8d50606c4eb/email-templates.zip)<br> ![Photo of sample handout.](media/edu-adoption-email-templates.png)    |[GIFs](https://download.microsoft.com/download/c/b/3/cb3423a4-5c2d-4512-9068-04f2e0615247/gifs.zip) <br> ![Screenshot from a GIF](media/edu-adoption-gifs.png)      |
 |[Web banners](https://download.microsoft.com/download/d/b/4/db45f6fe-b476-469b-924a-c5f292ddcfcf/web-banners.zip)<br>![Photo of a sample web banner.](media/edu-adoption-web-banners.png)    |[Videos](https://download.microsoft.com/download/f/4/c/f4cd6369-905f-4c58-9776-356ebe5beefa/videos.zip)<br>![Screenshot of sample video opener](media/edu-adoption-videos.png)          |
-|[Digital screen adverts](https:/download.microsoft.com/download/6/0/7/60716ba1-50fb-46e8-9082-12c949c3037f/digital-screen-adverts.zip)<br>![Photo of a digital screen advert.](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Digital screen adverts](https://download.microsoft.com/download/6/0/7/60716ba1-50fb-46e8-9082-12c949c3037f/digital-screen-adverts.zip)<br>![Photo of a digital screen advert.](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## Call to action
 
