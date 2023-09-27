@@ -49,7 +49,6 @@ Before you can configure SIP Gateway, do the following:
   - 13.83.55.36
   - 23.96.103.40
 
-
 The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
@@ -90,13 +89,12 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
-
 ### By using PowerShell
 
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 > [!NOTE]
-> - Policy propagation may take up to 24 hours.
+> Policy propagation may take up to 24 hours.
 
 ## Set the SIP Gateway provisioning server URL
 
@@ -130,7 +128,6 @@ Users who work remotely must manually configure the provisioning server URL into
 > - For Yealink phones, use option 66.
 > - For Cisco, Poly, and AudioCode phones, use option 160. 
 > - For Cisco devices, append **/$PSN.xml** to the provisioning server URL.
-
 
 ## Configure conditional access
 
@@ -245,67 +242,83 @@ To sign out a device on the Teams admin center:
 
 Bulk sign ins enable you to sign in with shared accounts on SIP devices in batches of up to 100 devices each but with a limit of 3 concurrent batches per region.
 
-### Bulk sign in scenarios
+Bulk sign in is very helpful and can be used in these scenarios.
 
-There are two scenarios that bulk sign in can be used.
-1. For newly onboarded SIP devices within 3 days or 72 hrs of onboarding to SIP Gateway.
-2. For signed out devices within 7 days or 168 hrs of getting signed out. For this scenario, you don't have to add the tenant ID to the provisioning URL (see prerequisite 2 below).
+- **Onboarding new SIP devices** When you are onboarding and deploying new SIP devices within 3 days (or 72 hours) of onboarding to SIP gateway.
+- **Devices that are signed out** For signed out devices within 7 days (or 168 hours) of being signed out. In this scenario, you don't have to add the tenant ID to the provisioning URL as in Step 2 below.
 
-### Bulk Sign-In Pre-requisites
+### Bulk sign in perequisites
 
-1. Site public IPs / IP ranges must be added to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams Admin Center.
-2. Add your organizations tenant ID to the provisioning URL for the devices. The examples are for the North America region.
-   - For AudioCodes and Yealink IP phones [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`)
-   - For Cisco IP phones - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml)
-   - For analog devices connected to AudioCodes ATAs - [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid`>/mac.in](https://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
+1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center.
+2. You must add your organization's tenant ID to the provisioning URL for the devices.
 
-For Cisco ATA replace mac.ini with mac.cfg
+    > [!NOTE]
+    > The examples below are for the North America region.
 
-                              1. for Poly ATA replace mac.ini with $mac.cfg
+- For AudioCodes and Yealink IP phones use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`)
+- For Cisco IP phones use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml)
+- For analog devices that connect to AudioCodes ATAs use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid`>/mac.in](https://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
 
-1. Install the Microsoft Teams PowerShell Module 5.6.0 or higher. Bulk sign in cmdlets aren't available with previous versions of TPM.
-2. Only accounts with [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones) can be used as part of a bulk sign-in request.
-3. The accounts must not have Multi Factor Authentication (MFA) enabled.
-4. The accounts must have phone numbers assigned.
-5. The accounts must have [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure) assigned.
-6. The **Global Administrator, Authentication Administrator or the Authentication Administrator** role is needed for running the cmdlets.
-7. For using the Bulk sign in feature, the **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`
+    > [!IMPORTANT]
+    > For Cisco ATA replace mac.ini with mac.cfg.
+    > For Poly ATA replace mac.ini with $mac.cfg.
 
-### How to create a bulk sign-in request
+3. You install Microsoft Teams Power Shell 5.6.0 or later.
 
-1. Create an input CSV file with the following columns: Username, HardwareId
-   - Username: list of AAD usernames / UPNs that you want to associate with the device HardwareId
-   - HardwareId: list of MAC addresses for IP phones in format 11-22-33-44-55-66; and/or 11-22-33-44-55-66:001 for analog devices where the port number of the analog device on the ATA is 1.
-  - Example CSV
+    > [!NOTE]
+    > The bulk sign in cmdlets aren't included with previous versions.
+
+4. The accounts used for common area phones can only be used as part of a bulk sign in request. [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones)
+5. The common area phone accounts must not have Multi Factor Authentication (MFA) enabled.
+6. The common area phone accounts must have a phone number assigned.
+7. The common area phone accounts must have a SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
+8. You use a account that has the **Global Administrator, Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
+9. The **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`.
+
+### How to create a bulk sign in request
+
+1. Create a CSV file that will be used with two columns: **Username** and **HardwareId**.
+  
+  - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
+  - **HardwareId** column: List the MAC address for each IP phones in this format: xx-xx-xx-xx-xx-xx or xx.xx.xx.xx.xx.xx:xxx (where the last three digits are the ATA port number. For analog devices, the ATA port number is 001.) An example for a MAC address without the ATA would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
+
+  - **Example CSV**:
     |Username|HardwareId|
-    | -------- | -------- |
-    |Lobbyphone1@contoso.com|11-22-33-44-55-66|
-    |Garagephone2@contoso.com|12-23-34-45-56-67|
+    |:--------|:--------|
+    |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
+    |SecondFloorLobbyPhone2@contoso.com|2A-3B-4C-5D-6E-7F|
 
-2. The path where the above CSV is stored is known as the __device details path__.
-3. __Region:__ SIP Gateway provisioning region where the devices are onboarded. Values are APAC, EMEA, NOAM.
-4. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
-5. `Run the NewCsSdgBulkSignInRequest` cmdlet to bulk sign in your batch of devices. For example:
-    ```powershell
-    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC Example CSV```
+2. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
+
+3. Run the following:
+
+    ```PowerShell
+    Import-Module MicrosoftTeams
+    $credential = Get-Credential   // Enter your admin’s email and password 
+    Connect-MicrosoftTeams –Credential $credential
+    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC Example CSV
+    ```
+
+The ```DeviceDetailsFilePath``` parameter specifies the location of the CSV you created and saved. The ```Region``` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 ### Bulk sign in error messages
-1. **User not found in tenant.** - please check the username or User Principal Name (UPN) is correct.
-2. **User missing phone number assignment.** - please check if the user has a phone number assigned.
-3. **User missing.**_`AllowSIPDevicesCalling`_ `policy assignment` - Verify that `TeamsSipDevicesConfiguration` is set to `Enabled`.
-4. **User missing CAP policy assignment** - The accounts must have a phone numbers assigned.
-5. **Device not found in records.** - Please check if device was correctly provisioned to SIP Gateway.
-6. **Device not found; tenant ID is missing.** - Please check if device provisioning url had tenant ID.
-7. **Device is offline.** - The device is not reachable, powered off or disconnected from network. Please reconnect the device and try again.
-8. **Device not found, public IP address not valid.** - Tenant ID in provisioning URL is incorrect or trusted IP added to Teams Admin Center is incorrect.
-9. **Bulk Sign-in timeline expired** - Device was not signed in within 72 hours of provisioning or 168 hours of signing out.
-10. **Duplicate devices found for bulk sign-in** - please check the MAC addresses / hardware IDs included in the batch. Duplicate MAC addresses result in error.
-11. **On-premises AD configuration failure** - please reach out to your on-premises Active Directory team.
-12. **On-premises AD connectivity failure** - please try a smaller batch, large batches may cause requests to get stuck.
-13. **Password policy error** - the on-premises Active Directory account has one of the following:
-      - The option "User must change password at next login" is selected.
-      - Minimum password age is set to a value greater than 0.
-      - User's password can't be changed.
+To help you troubleshoot or fixed common issues, these are common error messages that you might see and what you should to do fix it.
+
+|**Error message**|**Potential solution**|
+|:-----|:-----|
+|**User not found in tenant.**|Check the username or User Principal Name (UPN) is correct.|
+|**User missing phone number assignment.**|Verify the user has a phone number assigned.|
+|**User missing.**| Verify that ```TeamsSipDevicesConfiguration``` is set to **Enabled** in the ```AllowSIPDevicesCalling``` policy.|
+|**User missing CAP policy assignment.**|Verify the accounts have a phone numbers assigned.|
+|**Device not found in records.**|Check if the device was correctly provisioned to SIP Gateway.|
+|**Device not found; tenant ID is missing.**| Check to see if the device provisioning URL has the correct tenant ID.|
+|**Device is offline.**|The device can't be found because it's powered off or disconnected from network. Reconnect the device and try it again.|
+| **Device not found, public IP address not valid.**|The tenant ID listed in the provisioning URL is isn't orrect or it isn't listed as a trusted IP in Teams admin center.|
+|**Bulk Sign-in timeline expired.**|The device hasn't been signed in to within 72 hours of provisioning (or 168 hours).|
+| **Duplicate devices found for bulk sign-in.**|Verify the MAC addresses you included in the CSV file are correct and there aren't duplicated addresses.|
+|**On-premises AD configuration failure.** |Contact your on-premises Active Directory team.|
+|**On-premises AD connectivity failure.**|Try it again but with a smaller number of devices. Depending on network connectivity,  large batches will take more time to complete and may get stuck.|
+|**Password policy error**|The user account must have the following: **User must change password an next login** is selected, the minimum password age must not be set to 0, and **User's password can't be changed** must be selected.|
 
 ## View and monitor SIP devices
 
@@ -344,7 +357,7 @@ How to set Japanese for Cisco phones:
 
 ### Supported languages
 
-|Language name|Language code]
+|Language name|Language code|
 |-------------|-------------|
 |English (default)|en       |
 |Spanish      |es           |
