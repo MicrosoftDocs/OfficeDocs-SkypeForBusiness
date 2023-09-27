@@ -47,23 +47,13 @@ For each app, these permissions are listed in the app details page in the admin 
 
 :::image type="content" source="media/app-permissions.png" alt-text="Screenshot that shows the permissions tab of an app and the Microsoft Graph and RSC permissions that may be required by an app.":::
 
-<!----
-
-| Type of permission for an app | Why is it required | Where to find details | Remarks |
-|-------------------------------|----------------------------------|----------------------------|---------|
-| **1** Not permissions but capabilities of an app. Actions that an app can perform and basic information that it can access. | For an app to work, it interacts with users, messages users, or it read basic user profile by virtue of being added to Teams client. | Available in the `Permissions` tab in app details page of each app. This information is also listed in the Teams store when a user installs an app. More details are [here](#what-can-apps-do-in-teams). | Required for app to work. Exists by virtue of app being installed. Only basic and not sensitive information is ever accessed by app via this method. |
-| **2** Non-RSC Graph permissions | For some features to work, an app needs to access the organization's information in the tenant. | The information that is accessed is displayed in the `Permissions` tab in the app details page of each app. See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information) | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
-| **3** Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. | NA |
-
---->
-
-| App permission type | Access context | Declaration | When is consent required? | Who can consent? |
-|---------------------|----------------|-------------|--------------------------|-----------------|
-| Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin |
-| Azure AD for Graph and legacy endpoint access | Application | Azure AD  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin |
-| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | User |
-| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner |
-| Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | User or admin as consent is implied at install |
+| App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
+|---------------------|----------------|-------------|--------------------------|-----------------|-----|
+| Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| Azure AD for Graph and legacy endpoint access | Application | Azure AD  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | User | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) |
+| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) |
+| Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | User or admin as consent is implied at install. | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
 
 ## Privacy and data access considerations
 
