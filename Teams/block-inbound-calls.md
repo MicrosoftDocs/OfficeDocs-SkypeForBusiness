@@ -11,8 +11,8 @@ ms.collection:
   - m365initiative-voice
   - Tier1
 audience: Admin
-ms.reviewer: roykuntz
-ms.date: 05/29/2019
+ms.reviewer: jenstr, roykuntz
+ms.date: 09/27/2023
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -24,7 +24,7 @@ description: Learn how to use PowerShell to manage inbound call blocking.
 
 Microsoft Calling Plans, Direct Routing, and Operator Connect all support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows an administrator to define a list of number patterns and exceptions at the tenant global level so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 
-This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant global level. Individual Teams users can't manipulate this list. The Teams client does allow individual users to block PSTN calls. For information about how your end users can implement call blocking, see [Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant global level. Individual Teams users can't manipulate this list. The Teams client does allow individual users to block PSTN calls. For information about how your end users can implement call blocking, see [Manage call settings in Teams](https://support.microsoft.com/office/456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller's carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
@@ -63,7 +63,6 @@ modifies one or more parameters of a blocked number pattern in the tenant list.
 
 - [Test-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
 tests whether calls from a given phone number will be blocked.
-
 
 ### Examples
 
@@ -200,3 +199,11 @@ Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 ## Using Regex
 
 The pattern matching for blocking callers is done by using Regex. Multiple tools are available online to help validate a Regex pattern match. If you aren't familiar with Regex patterns, we recommend that you take some time to familiarize yourself with the basics. To make sure you get expected results, use a tool for validating pattern matches before you add new blocked number matches to your tenant.
+
+## Related topics
+
+[Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers)
+
+[Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
+
+[Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)

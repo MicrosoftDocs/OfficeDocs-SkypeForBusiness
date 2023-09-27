@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: serdars
 ms.reviewer: jenstr
-ms.date: 11/28/2017
+ms.date: 09/27/2023
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -37,7 +37,7 @@ Cloud Voicemail deposits voicemail messages in a user's Exchange mailbox. Cloud 
 
 For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license is not required for Cloud Voicemail.*
 
-Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Phone System license and were Enterprise Voice enabled by the provisioning system.
+Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Teams Phone license and were Enterprise Voice enabled by the provisioning system.
 
 For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
@@ -69,7 +69,7 @@ You can manage Cloud Voicemail for users by specifying voicemail policies and co
 
 The default setting for all users provisioned for Cloud Voicemail is to allow routing of calls to Cloud Voicemail, and to allow users to forward calls to Cloud Voicemail.
 
-You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell. 
+You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell.
 
 - To use the Teams admin center, go to **Voice** -> **Calling Policies** -> add new or edit existing policy -> **Voicemail for inbound calls**.  
 
@@ -144,5 +144,15 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 To help your users learn about how to use and manage Cloud Voicemail features, you can recommend the following articles:
 
-- [Check your voicemail in Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
-- [Manage your call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Check your voicemail in Teams](https://support.microsoft.com/office/f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
+- [Manage your call settings in Teams](https://support.microsoft.com/office/456cb611-3477-496f-b31a-6ab752a7595f)
+
+## Related topics
+
+[Manage Voicemail policies](manage-voicemail-policies.md)
+
+[Manage Cloud Voicemail settings for users](manage-voicemail-settings.md)
+
+[Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
+
+[Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
