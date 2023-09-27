@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams meetings
 ms.reviewer: bryanyce
-ms.date: 07/01/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -43,9 +43,9 @@ To specify which users in your organization can start or schedule meetings, see 
 
 Your users may use meetings and calls interchangeably depending on their needs at a given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both sets of settings together in order to give your users a consistent experience as they use both calls and meetings.
 
-The following table show the policy settings that are similar between meetings and calls.
+The following table shows the policy settings that are similar between meetings and calls.
 
-|User intent|Meeting polices|Calling policies|
+|User intent|Meeting policies|Calling policies|
 |:------|:--------------|:---------------|
 |Meet with someone by starting a call or instant meeting|[Private meeting scheduling](manage-who-can-schedule-meetings.md)|Make private calls|
 |Record a meeting or call|[Meeting recording](meeting-recording.md)|Cloud recording for calling|
@@ -60,7 +60,7 @@ You can specify which meeting organizers and attendees can record meetings. For 
 
 Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers if they have a Teams Premium license.
 
-You can set meeting recordings to expire after a specified time. This can help save storage space in organizations where a lot of meetings are recorded. When a recording expires, it's moved to the recycle bin and the file owner is notified. They can restore the recording if they need to.
+You can set meeting recordings to expire after a specified time. This can help save storage space in organizations where many meetings are recorded. When a recording expires, it's moved to the recycle bin and the file owner is notified. They can restore the recording if they need to.
 
 Recording files are saved to OneDrive (for private meetings) or SharePoint (for channel meetings). Users who attended the meeting have permissions to view the recording by default. You can [block the download of meeting recording files](block-download-meeting-recording.md) if you need to.
 

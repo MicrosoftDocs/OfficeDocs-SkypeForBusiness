@@ -10,12 +10,12 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: asteele
-ms.date: 09/07/2022
+ms.date: 10/01/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss encoder-based RTMP configuration for Microsoft Teams streaming events.
-localization_priority: Normal
+description: This article discusses encoder-based RTMP configuration for Microsoft Teams streaming events.
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -26,7 +26,7 @@ ms.custom:
 > [!NOTE]
 > Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
-Teams accepts live feeds from a variety of different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
+Teams accepts live feeds from various different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
 To learn how to set up a Live event in Teams, read about creating live events. If you're already using an encoder that's integrated with Teams, read about [configuring encoders for live streaming](teams-encoder-setup.md).
 
@@ -58,9 +58,9 @@ After you've scheduled the live event using Teams or Viva Engage, and selected t
 1. Configure your encoder with the desired audio and video sources.
 1. Open the Teams client and join the live vent as a Producer.
 1. Start streaming from the encoder to the Teams RTMP ingest URL.
-1. In the Teams Producer window, after a few seconds, the encoder's RTMP feed will appear in the presenter area.
+1. In the Teams Producer window, after a few seconds, the encoder's RTMP feed appears in the presenter area.
 1. Click on the RTMP feed in the presenter area to place it into the queue on the left side.
-1. Once you're satisfied with the feed select **Send Live** - the feed will then also appear on right side of the Producer window.
+1. Once you're satisfied with the feed select **Send Live** - the feed then also appears on right side of the Producer window.
 1. Select **Start** to begin the stream.
 
 ## Recommended encoder settings
@@ -89,13 +89,13 @@ After you've scheduled the live event using Teams or Viva Engage, and selected t
 
 ### Playback requirements
 
-- Both an audio and video stream must be present in order to playback content in Teams.
+- Both an audio and video stream must be present in order to play back content in Teams.
 
 ### Configuration tips
 
 - Whenever possible, use a hardwired internet connection.
-- When determining bandwidth requirements is to double the streaming bitrates. While this is not a mandatory requirement, it will help mitigate the impact of network congestion.
+- When determining bandwidth requirements is to double the streaming bitrates. While this isn't a mandatory requirement, it helps mitigate the impact of network congestion.
 - When using software-based encoders, close any unnecessary programs.
 - Don't change your encoder configuration after it has started pushing. It has negative effects on the event and can cause the event to be unstable. If you want to do this before the event has started, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity may cause audio or video issues on certain browsers and devices.
-- Give yourself ample time to setup your event. For high scale events, it's recommended to start the setup an hour before your event.
+- Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.

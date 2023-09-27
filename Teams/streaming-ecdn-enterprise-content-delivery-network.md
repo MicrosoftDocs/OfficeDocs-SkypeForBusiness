@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: asteele
-ms.date: 07/01/2023
+ms.date: 10/01/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -39,7 +39,7 @@ Organizations may want to understand and reduce this network traffic for events 
 
 Get expert help with monitoring and scaling video delivery by teaming up with trusted Microsoft eCDN partners.
 
-Before you can enable an eCDN solution to be used with Teams, you must purchase and set up that eCDN solution outside and separate from Teams. To ensure that the solution will meet your needs, some partners provide free trials of their content delivery and network analytics technologies.
+Before you can enable an eCDN solution to be used with Teams, you must purchase and set up that eCDN solution outside and separate from Teams. To ensure that the solution meets your needs, some partners provide free trials of their content delivery and network analytics technologies.
 
 Several eCDN solutions are pre-integrated and can be enabled for use with Teams. See information from the providers below.
 
@@ -48,7 +48,7 @@ Several eCDN solutions are pre-integrated and can be enabled for use with Teams.
 
 ### Microsoft eCDN (Teams Premium)
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
 
 - Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
 - Silent Testing with Microsoft eCDN allows IT admins to simulate large events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [Perform a silent test](/ecdn/how-to/perform-silent-test).
@@ -68,7 +68,7 @@ All of them work to create full-scope video experiences—from planning to execu
 
 **Kollective Technology** is a cloud-based, content distribution platform that utilizes intelligent peering to deliver live and on-demand enterprise video, providing 100% video quality and 100% engagement at just 1% of the bandwidth. Kollective’s integration with Teams events allows globally dispersed employees to easily consume video, improving employee communication, boosting overall engagement, and increasing training and retention opportunities.
 
-**Kollective IQ** is a sophisticated, user-friendly analytics platform for Microsoft Stream. With customizable reporting, visualizations and dashboards, it is easy to quantify and digest both user experience and engagement across complex global enterprise networks. Communication Managers and Network Administrators can watch real-time events and network activity, so bottlenecks can be addressed quickly, insuring peak network performance.
+**Kollective IQ** is a sophisticated, user-friendly analytics platform for Microsoft Stream. With customizable reporting, visualizations and dashboards, it's easy to quantify and digest both user experience and engagement across complex global enterprise networks. Communication Managers and Network Administrators can watch real-time events and network activity, so bottlenecks can be addressed quickly, insuring peak network performance.
 
 To learn more about these options, check out [Kollective eCDN for Microsoft](https://kollective.com/microsoft-live-events/).
 
@@ -93,7 +93,7 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
 1. Toggle the **Video distribution provider** to **On**.
-1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
+1. Choose an **eCDN/SDN provider** from the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (Not all fields are used by all solution providers).
 1. Select **Save**.
 1. To check if your setup is correct, select **Verify setup**.

@@ -111,7 +111,7 @@ The following table highlights core capabilities and features offered in live ev
 | Capability | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|
 |Maximum audience size |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
-|Maximum duration of live event |4 hours |4 hours |
+|Maximum duration of live event |four hours |four hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximum number of concurrent live events per Microsoft 365 or Office 365 organization | 15  | 15  |
 |Live event creation |Teams, Viva Engage via Teams | Teams, Viva Engage via Teams, Stream |

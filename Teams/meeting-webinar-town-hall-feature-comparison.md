@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
-ms.date: 07/01/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT

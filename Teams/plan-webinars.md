@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 07/01/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -99,7 +99,7 @@ A Teams Premium subscription includes the following features for webinars:
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |[End-to-end encryption (Teams Premium)](end-to-end-encrypted-meetings.md)|Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
-|Email communications (Teams Premium)|Can control if event organizers and coorganizers can edit email templates for their webinars|Can edit email templates  before they're sent out|
+|Email communications (Teams Premium)|Can control if event organizers and co-organizers can edit email templates for their webinars|Can edit email templates  before they're sent out|
 |[Green room (Teams Premium)](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control|Can choose if green room is used for a meeting|
 |[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
 |[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time|If the admin enables recording, organizers can set who can record and automatic recording|

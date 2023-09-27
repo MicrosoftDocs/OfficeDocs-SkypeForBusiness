@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.reviewer: 
-ms.date: 10/05/2022
+ms.date: 10/01/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -97,14 +97,14 @@ Teams Premium provides the following features for an enhanced town hall experien
 - **Increased languages for live translated**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
 
   - English (en-us)
-  - Japanese (ja- jp)
+  - Japanese (ja-jp)
   - Spanish (es-es)
   - Portuguese (pt-pt)
   - French (fr-fr)
   - Chinese (zh-cn)
   - German (de-de)
   - Italian (it-it)
-  - Korean (ko- kr)
+  - Korean (ko-kr)
   - Russian (ru-ru)
 - **Real time monitoring** - Troubleshoot town halls while they're live.
 

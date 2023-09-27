@@ -14,7 +14,7 @@ ms.date: 09/20/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will give an overview of encoder-based RTMP configuration for Microsoft Teams streaming events.
+description: This article gives an overview of encoder-based RTMP configuration for Microsoft Teams streaming events.
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
@@ -27,7 +27,7 @@ ms.custom:
 
 You can create live events using Microsoft Teams across your organization. You can schedule, produce, and deliver live events for various scenarios such as company-wide events, leadership updates, and more. Live streaming events enable producers to curate and control the content that's broadcast to an audience.
 
-You can create, schedule, and run live events using a single bitrate RTMP or RTMPS stream from an encoder – we’ll take care of all the transcoding for adaptive bitrate delivery to your viewers.
+You can create, schedule, and run live events using a single bitrate RTMP or RTMPS stream from an encoder – we take care of all the transcoding for adaptive bitrate delivery to your viewers.
 
 Just like any other video in Teams, you can make the live event open to your entire company or limit the access to specific groups. This provides an end-to-end creation and viewing experience inside of Teams.
 

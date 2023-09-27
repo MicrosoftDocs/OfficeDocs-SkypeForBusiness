@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: sachung
-ms.date: 09/06/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -90,11 +90,18 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompa
 
 ## Related topics
 
-- [Manage email communications for town halls and webinars placeholder](manage-email-communications.md)
-- [Set up webinars](set-up-webinars.md)
-- [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
-- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
+[Manage email communications for town halls and webinars placeholder](manage-email-communications.md)
+
+[Set up webinars](set-up-webinars.md)
+
+[Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+
+[New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+
+[Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+
+[Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+
+[Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+
+[Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)

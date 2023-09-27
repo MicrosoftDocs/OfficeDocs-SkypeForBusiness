@@ -14,7 +14,7 @@ ms.date: 10/03/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss troubleshooting options for Microsoft Teams streaming events.
+description: This article discusses troubleshooting options for Microsoft Teams streaming events.
 localization_priority: medium
 appliesto: 
   - Microsoft Teams
@@ -41,7 +41,7 @@ Teams requires connectivity to the internet. All endpoints listed on [Office 365
 
 #### Teams Encoder live events - RMTP ingest endpoints
 
-To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you'll need the domain name and ports open in your network's firewall:
+To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you need the domain name and ports open in your network's firewall:
 
 - Domains: *.rtmpingest.mcr.teams.microsoft.com
 - Ports: 1935/1936 (for RTMP/RTMPS)
@@ -107,7 +107,7 @@ The easiest way to get started is to follow the instructions outlined from the [
 
 ### I tried to start setup and it's taking a long time
 
-In general, it can take a few minutes to get the setup going before you can start pushing your encoder. It is possible if the service is busy that this can take longer to get going, so it's recommended that you give yourself ample time to start the setup before your scheduled live event.
+In general, it can take a few minutes to get the setup going before you can start pushing your encoder. It's possible if the service is busy that this can take longer to get going, so it's recommended that you give yourself ample time to start the setup before your scheduled live event.
 
 ### I tried to start setup but there are too many events happening
 

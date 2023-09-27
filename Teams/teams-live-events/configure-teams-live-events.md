@@ -3,7 +3,7 @@ title: Configure live event settings in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 03/11/2019
+ms.date: 10/01/2023
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -63,6 +63,8 @@ For information about setting up a software defined network (SDN) solution or en
 
 ## Related topics
 
-- [What are Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Set up for Teams live events](set-up-for-teams-live-events.md)
+[What are Teams live events?](what-are-teams-live-events.md)
+
+[Plan for Teams live events](plan-for-teams-live-events.md)
+
+[Set up for Teams live events](set-up-for-teams-live-events.md)

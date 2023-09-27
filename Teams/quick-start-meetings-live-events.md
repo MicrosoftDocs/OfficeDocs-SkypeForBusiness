@@ -1,7 +1,7 @@
 ---
 title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
-ms.date: 07/01/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -63,7 +63,7 @@ The following table shows the main features that are different between meetings,
 
 RTMP-In allows organizers to produce their Teams meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
 
-Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key which they can use to start streaming from the encoder.
+Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key that they can use to start streaming from the encoder.
 
 For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
 
@@ -96,7 +96,7 @@ For details, see:
 
 Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only streaming experience for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
 
-In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat.
+In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there's a meeting, join the meeting, and use the meeting chat.
 
 Meetings are generally best for situations where participants need to interact with each other via voice or chat and where multiple people may be presenting.
 
