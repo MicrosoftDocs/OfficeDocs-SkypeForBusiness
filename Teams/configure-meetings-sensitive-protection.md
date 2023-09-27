@@ -50,6 +50,13 @@ Settings that are listed as enforced are enforced by the sensitivity label or me
 > [!Note]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
+## Video demonstration
+
+Watch this video for a walkthrough of the procedures described in this article.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c0sf]
+
 ## Presentation options for sensitive meetings
 
 For the *sensitive* level of protection we're enforcing specific settings for who can present, and how content is shared.
