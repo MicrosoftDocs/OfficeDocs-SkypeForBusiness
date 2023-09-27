@@ -29,11 +29,11 @@ This inbound call blocking feature only works on inbound calls that originate fr
 > [!NOTE]
 > Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller's carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
 
-Note that it is currently not possible to manage call blocking by using Teams admin center.
+Note that it's currently not possible to manage call blocking by using Teams admin center.
 
 ## Manage call blocking by using PowerShell
 
-To manage call blocking, you'll need to define one or more number patterns to block calls from, define exceptions to the number patterns, and enable the call blocking feature.
+To manage call blocking, you need to define one or more number patterns to block calls from, define exceptions to the number patterns, and enable the call blocking feature.
 
 Number block patterns are defined as regular expression patterns. The order of the expressions is unimportant--the first pattern matched in the list results in the call being blocked. A new number or pattern that's added or removed in the blocked callers list may take up to 24 hours for the pattern to become active.
 
@@ -112,11 +112,11 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 #### Test whether a number is blocked
 
-To verify whether a number is blocked in the tenant, use the **Test-CsInboundBlockedNumberPattern** cmdlet .
+To verify whether a number is blocked in the tenant, use the **Test-CsInboundBlockedNumberPattern** cmdlet.
 
-The **PhoneNumber** parameter is required, and should be a numeric string without any additional characters, such as +, - or (). The resulting **IsNumberBlocked** parameter returns a value of True if the number is blocked in the tenant; the parameter returns False if it's not blocked.
+The **PhoneNumber** parameter is required, and should be a numeric string without any extra characters, such as +, - or (). The resulting **IsNumberBlocked** parameter returns a value of True if the number is blocked in the tenant; the parameter returns False if it's not blocked.
 
-In the following examples, you can see that the phone number 1 (312) 555-8884 is blocked because it is in the blocked range above. The phone number 1 (312) 555-8883 is allowed based on the exemption created below.
+In the following examples, you can see that the phone number 1 (312) 555-8884 is blocked because it's in the blocked range above. The phone number 1 (312) 555-8883 is allowed based on the exemption created below.
 
 ```PowerShell
 Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558884
