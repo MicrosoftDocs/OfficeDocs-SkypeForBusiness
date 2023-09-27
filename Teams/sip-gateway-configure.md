@@ -281,8 +281,8 @@ Bulk sign in is very helpful and can be used in these scenarios.
   
   - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
   - **HardwareId** column: List the MAC address for each IP phones in this format: xx-xx-xx-xx-xx-xx or xx.xx.xx.xx.xx.xx:xxx (where the last three digits are the ATA port number. For analog devices, the ATA port number is 001.) An example for a MAC address without the ATA would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
-
   - **Example CSV**:
+  
     |Username|HardwareId|
     |:--------|:--------|
     |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
