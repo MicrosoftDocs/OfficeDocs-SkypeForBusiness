@@ -46,7 +46,7 @@ An Auto attendant or Call queue may redirect calls to the following destinations
 - **Voice app** - another Auto attendant or a Call queue. Choose the resource account associated with the destination.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 
-- **Voicemail** - the voice mailbox associated with a Microsoft 365 group, distribution list, or Mail-enabled security group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group, distribution list, or mail-enabled security group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **Operator** (Auto attendant only) - the operator defined for the Auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
 
 Auto attendants offer separate call routing options for calls received outside of business hours and on holidays.
