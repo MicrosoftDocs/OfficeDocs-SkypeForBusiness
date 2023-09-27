@@ -44,9 +44,10 @@ Teams-certified phones have a broad array of features to help your users do thei
 - **Video** Phones with video support let users join calls and video conferences just like they were at their computers. Users can keep their privacy by using a phone's camera shutter and microphone mute switch when available.
 - **Better together** Phones can lock and unlock in an integrated fashion when connected to their Windows PC running a 64-bit Teams desktop client.
 - **Accessibility** Phones have several accessibility features, such as high contrast text, to make it easier for anyone to use them.
-- **Dynamic and enhanced E911 support** Signed-in users who call 911 will see their location on the phone. 
-    > [!IMPORTANT]
-    > If a phone isn't signed in, or if it doesn't have an Internet connection, 911 calls can't be placed. If this happens, a notification is displayed on the phone.
+- **Dynamic and enhanced E911 support** Signed-in users who call 911 will see their location on the phone.
+
+  > [!IMPORTANT]
+  > If a phone isn't signed in, or if it doesn't have an Internet connection, 911 calls can't be placed. If this happens, a notification is displayed on the phone.
 
 In addition to the above features, you can control what capabilities are available depending on the type of license and phone policy that are assigned to the user signing into the phone. For example, users who sign into a phone with their personal accounts can access the full range of features - calling, meetings, voicemail, and so on. Accounts assigned a **Microsoft Teams Shared Devices** license that sign into a phone, however, may only get access to a limited range of features; call history and meeting schedules may not be retained, for example, to protect users' privacy.
 
@@ -66,7 +67,7 @@ Manage and keep your Teams phones up-to-date using the Microsoft Teams admin cen
 
 ## Upgrade your phones to Teams displays
 
-[Microsoft Teams displays](teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction
+[Microsoft Teams displays](teams-displays.md) are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
 ## See also
 
