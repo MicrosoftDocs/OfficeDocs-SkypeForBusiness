@@ -199,8 +199,7 @@ When you're setting up the **Skype for Business Server** for the first time for 
 $providerName = "AesProvider"
 $keyContainerName = "iisCustomConfigurationKey"
 
-$exe = Get-ChildItem -Path "C:\Windows\Microsoft.NET\Framework64" -Filter "aspnet_regiis.exe" -Recurse |
-  Where-Object { $_.FullName -match "C:\\Windows\\Microsoft.NET\\Framework64\\v2.0" }
+$exe = Get-ChildItem -Path "$env:SystemRoot\Microsoft.NET\Framework64" -Filter "aspnet_regiis.exe" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
 
 if ($exe -eq $null) {
   Write-Error "aspnet_regiis.exe not found. Exiting";
@@ -213,7 +212,7 @@ if ($exe -eq $null) {
 
 Add-WebConfigurationProperty -PSPath 'MACHINE/WEBROOT/APPHOST' -Filter "configProtectedData/providers" -Name "." -Value @{name="$providerName";type='System.Configuration.RsaProtectedConfigurationProvider,System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'}
 
-$applicationHostConfigPath = "C:\Windows\System32\inetsrv\config\applicationHost.config"
+$applicationHostConfigPath = "$env:SystemRoot\System32\inetsrv\config\applicationHost.config"
 [xml] $applicationHostConfigFile = Get-Content $applicationHostConfigPath
 foreach ($ele in $applicationHostConfigFile.configuration.configProtectedData.providers.add) {
   if ($ele.name -eq $providerName) {
