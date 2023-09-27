@@ -1,5 +1,5 @@
 ---
-title: Collaboration activity reports for Microsoft Teams
+title: Advanced Collaboration Analytics for Microsoft Teams
 ms.author: v-smandalika
 author: v-smandalika
 manager: dansimp
@@ -21,15 +21,15 @@ search.appverid: MET150
 description: Learn about the Collaboration activity reports in Microsoft Teams.
 ---
 
-# Collaboration activity reports for Microsoft Teams
+# Advanced Collaboration Analytics for Microsoft Teams
 
-The Collaboration activity reports for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
+The Advanced Collaboration Analytics feature for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
   
-Through Collaboration activity reports, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
+Through Advanced Collaboration Analytics, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
 
 ## Where to find Collaboration activity reports
 
-The Collaboration activity reports can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
+The Advanced Collaboration Analytics can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
 
 :::image type="content" source="media/collaborative-activity-dashboard.png" alt-text="Screenshot that shows the Collaboration activity reports menu item." lightbox="media/collaborative-activity-dashboard.png":::
 
