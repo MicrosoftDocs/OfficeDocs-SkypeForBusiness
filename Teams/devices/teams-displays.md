@@ -74,5 +74,4 @@ After you create resource accounts, you can create and assign a policy to enable
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
 
-[Cortana voice assistance in Teams](../cortana-in-teams.md)
 
