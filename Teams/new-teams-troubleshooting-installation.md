@@ -102,6 +102,7 @@ The following list of policies can block users from seeing the app switcher togg
 |SPECIALCLOUD| You're signed in to a special cloud that isn’t supported.|
 |CROSSCLOUD| You're signed in to a government cloud.| 
 |VDI|You're signed in to a VDI machine (VMware, Citrix, AVD/WV).|
+|SIGNINRESTRICTED|You're signed in to the specified tenant but the App switcher toggle does not appear.|
 
 
 ### Update and restart message in title bar
