@@ -69,8 +69,8 @@ A shared channel owner can't be removed through the Teams client if they are the
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
 
 Guests - including those converted to members (in their user type property) - can't be added to a shared channel.
-> [!NOTE]
-> For adding external users when a guest account exist in the host tenant in Teams admin center you will need to search by ext:user@contoso.com in order the external user is selected rather than the guest account.
+
+In the Teams admin center, when adding an external participant who also has a guest account in your organization, you must search on *ext:user@domain.com* to get the external participant's organization account rather than the guest account.
 
 > [!NOTE]
 > External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
