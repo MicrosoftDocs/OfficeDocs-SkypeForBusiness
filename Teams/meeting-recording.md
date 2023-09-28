@@ -80,13 +80,11 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
 
-When joining the meeting, participants are prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by the admin policy and user settings. Any participants that answer the consent prompt with "No" can't use their camera or microphone during the meeting, but their profile pictures and names are still included in the recording.
-
-Once the meeting recording starts, all participants are muted, with their cameras and content-share off, regardless of their chosen consent.
+When the meeting recording starts, all participants are muted, with their cameras and content-share off. For participants joining the meeting after the recording starts, their cameras and microphones are turned off on the pre-join page. Once a participant decides to un-mute, turn on their camera, or share content, they're prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by the admin policy and user settings. If the meeting organizer disables the attendance report, any meetings they organize that require explicit recording consent can't be recorded. Participants that disabled the attendance report (due to the admin policy or their own settings) or answered the consent prompt with "No" can't start the recording, turn on their camera, or use their microphone during the meeting. However, their profile pictures and names are still included in the recording.
 
 Make sure your tenants are using the most recent version of Teams when enabling this policy. To learn more about the latest Teams client, see [The new Microsoft Teams desktop client.](/MicrosoftTeams/new-teams-desktop-admin)
 
-Teams meeting rooms and PSTN users still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent".
+Teams meeting rooms and PSTN users still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent."
 
 >[!NOTE]
 >In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, can't enable their mic, camera, or content-sharing during recordings.
@@ -112,7 +110,7 @@ The following table shows the behaviors of the settings for the **`-ExplicitReco
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| For organizers with this policy, all their meeting will request the explicit consent of all participants to be recorded.|
+|Enabled| For organizers with this policy, all their meetings will require participants to provide explicit consent to be recorded.|
 |Disabled| **This is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
 
 To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
