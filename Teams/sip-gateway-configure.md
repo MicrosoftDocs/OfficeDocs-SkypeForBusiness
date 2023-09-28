@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 12/8/2022
+ms.date: 9/28/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -273,7 +273,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
 6. The accounts must have a phone number assigned.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
 8. You must use a account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
-9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](https://learn.microsoft.com/en-us/powershell/module/teams/set-csteamssipdevicesconfiguration)
+9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
 
 ### How to create a bulk sign in request
 
@@ -308,18 +308,18 @@ To help you troubleshoot and fix common issues, these are common error messages 
 |:-----|:-----|
 |**User not found in tenant.**|Check the username or User Principal Name (UPN) is correct.|
 |**User missing phone number assignment.**|Verify the user has a phone number assigned.|
-|**User missing `AllowSIPDevicesCalling` policy assignment**| Verify that ```AllowSIPDevicesCalling``` policy is set to **Enabled**. See pre-requisite 7.|
-|**User missing CAP policy assignment.**|Verify that the account has `CommonAreaPhone` policy assigned. See pre-requisite 4|
+|**User missing `AllowSIPDevicesCalling` policy assignment**| Verify that ```AllowSIPDevicesCalling``` policy is set to **Enabled**. See prerequisite 7.|
+|**User missing CAP policy assignment.**|Verify that the account has `CommonAreaPhone` policy assigned. See prerequisite 4|
 |**Device not found in records.**|Check if the device was correctly provisioned to SIP Gateway, and the region parameter in bulk sign in request is correct.|
 |**BulkSignIn Tag missing for the device**| Check to see if the device provisioning URL has the correct tenant ID.|
 |**Device is offline.**|The device can't be found because it's powered off or disconnected from network. Reconnect the device and try it again.|
-| **Public IP not configured as Trusted IP.**|The tenant ID listed in the provisioning URL isn't orrect or the public IP of the device isn't listed as a trusted IP in Teams admin center. See pre-requisite 1.|
+| **Public IP not configured as Trusted IP.**|The tenant ID listed in the provisioning URL isn't orrect or the public IP of the device isn't listed as a trusted IP in Teams admin center. See prerequisite 1.|
 |**Bulk Sign-in deadline expired.**|The device hasn't been signed in to within 72 hours of provisioning (or 168 hours).|
 | **Duplicate devices found for bulk sign-in.**|Verify the MAC addresses you included in the CSV file are correct and there aren't duplicated addresses. IP addresses of the duplicate devices are returned.|
 |**Input hardware-ID is of wrong format**|Verify the hardware-ID format. See `How to create a bulk sign in request`.|
 |**On-premises AD configuration failure.** |Contact your on-premises Active Directory team.|
 |**On-premises AD throttling detected**|Try it again but with a smaller number of devices in the batch. Depending on network connectivity, large batches will take more time to complete and may get stuck.|
-|**The Password writeback service failed to set a password on the tenant's local directory**|The user account has one of the following constraints: **User must change password at next login** is selected, `OR` the minimum password age is set to a value greater than 0, `OR` **User's password can't be changed** is selected. Remove the constraint and try again.|
+|**The Password writeback service failed to set a password on the tenant's local directory.**|The user account that is used for the device must not have **User must change password at next login** or **User's password can't be changed** selected, `OR` have the minimum password age must set to a value more than 0. Verify the password options aren't selected and the minimum password age is set to 0 and try again.|
 
 ## View and monitor SIP devices
 
@@ -327,7 +327,7 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 
 1. Log in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
-2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
+2. Select **Teams devices** > **SIP devices**. All signed in SIP devices are listed on the right.
 
 ## Restart a SIP device
 
