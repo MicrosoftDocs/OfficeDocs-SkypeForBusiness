@@ -234,6 +234,9 @@ To **add a user** to the authorized users:
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one Auto attendant or Call queue.
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
 
+> [!NOTE]
+> A maximum of 15 authorized users can be assigned to the Auto attendant.
+
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 
 ---
