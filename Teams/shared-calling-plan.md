@@ -49,9 +49,9 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign a location to the resource account for emergency calling.
 
-1. Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.
+1. (Optional) Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.
 
-1. Assign and fund a Communication credits license.
+1. (Optional) Assign and fund a Communication credits license.
 
 1. Create voice routing policy without PSTN usages.
 
