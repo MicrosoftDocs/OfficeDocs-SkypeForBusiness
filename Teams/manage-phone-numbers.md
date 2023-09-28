@@ -108,7 +108,7 @@ Once you have the **filled and signed** LOA, upload the documents in the Microso
 
 If you need assistance, [contact the TNS Service Desk](contact-tns-service-desk.md).
 
-You can also create a case for directory services. See [Create a new case.](https://learn.microsoft.com/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk#create-a-new-case)
+To create a case for directory services, see [Create a new case.](https://learn.microsoft.com/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk#create-a-new-case)
 
 
 ## Additional resources
