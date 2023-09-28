@@ -33,8 +33,8 @@ This article describes the following steps to configure Shared Calling:
 1. [Assign number to resource account for inbound and outbound calling.](#step-2-assign-number-to-resource-account-for-inbound-and-outbound-calling)
 1. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
 1. [Assign a location to the resource account for emergency calling](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
-1. [Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.](#step-5-assign-pay-as-you-go-calling-plan-to-resource-account-with-calling-plan-service-number)
-1. [Assign and fund a Communication credits license.](#step-6-assign-and-fund-a-communication-credits-license)
+1. [(Optional) Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.](#step-5-assign-pay-as-you-go-calling-plan-to-resource-account-with-calling-plan-service-number)
+1. [(Optional) Assign and fund a Communication credits license.](#step-6-assign-and-fund-a-communication-credits-license)
 1. [Create voice routing policy without PSTN usages.](#step-7-create-voice-routing-policy-without-pstn-usages)
 1. [Enable emergency calling for users.](#step-8-enable-emergency-calling-for-users)
 1. [Create your Shared Calling policy.](#step-9-create-the-shared-calling-policy)
@@ -87,11 +87,11 @@ To assign a location to a resource account number for Calling Plan, Operator Con
 
 For information on the configuration of emergency locations, see [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
-## Step 5: Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number
+## (Optional) Step 5: Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number
 
 If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan), and assign it to the resource account.
 
-## Step 6: Assign and fund a Communication credits license
+## (Optional) Step 6: Assign and fund a Communication credits license
 
 If the resource account is using a Calling Plan service number, assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan.
 
