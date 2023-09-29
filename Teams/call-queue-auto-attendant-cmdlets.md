@@ -116,8 +116,8 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Voice applications policies
 
-- [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Get-CsTeamsVoiceApplicationsPolicy)
-- [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Grant-CsTeamsVoiceApplicationsPolicy)
-- [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/New-CsTeamsVoiceApplicationsPolicy)
-- [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Remove-CsTeamsVoiceApplicationsPolicy)
-- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Set-CsTeamsVoiceApplicationsPolicy)
+- [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Get-CsTeamsVoiceApplicationsPolicy)
+- [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Grant-CsTeamsVoiceApplicationsPolicy)
+- [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/New-CsTeamsVoiceApplicationsPolicy)
+- [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Remove-CsTeamsVoiceApplicationsPolicy)
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Set-CsTeamsVoiceApplicationsPolicy)
