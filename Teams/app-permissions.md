@@ -57,7 +57,7 @@ For each app, these permissions are listed in the app details page in the admin 
 
 ## Privacy and data access considerations
 
-In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it is handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
+In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
 
 :::image type="content" source="/media/app-details-urls.png" alt-text="Screenshot that shows privacy and terms of use URLs in the app details page.":::
 
@@ -69,7 +69,7 @@ The program demonstrates that strong security and compliance practices are in pl
 
 Microsoft Graph is used to allow app developers access to the requisite Microsoft 365 information but always with the appropriate permissions. App developers choose from a wide variety of Graph APIs to create their apps and fetch the relevant org-wide information to make the app functionality work. However, the permissions for an app to fetch such information isn't available by default. IT admins validate the apps, their use cases, and the permissions that apps seek in their organizations. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of Graph permissions, how Teams apps use these, and how they can approve or reject the apps that seek a set of such permissions.
 
-In Teams admin center, you can view Graph permission that an app will request if deployed and you can know what organization's information can an app access, if you grant consent to it.
+In Teams admin center, you can view Graph permission that an app requests if deployed and you can know what organization's information can an app access, if you grant consent to it.
 
 1. Access Teams admin center and open the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
 
@@ -83,9 +83,9 @@ A complete list of all the possible permissions is available at [Microsoft Graph
 
 ## What can apps do in Teams
 
-As an admin, you only manage Teams apps. The apps themselves can use one or more capabilities. These capabilities have differences when it comes to app functionality, user engagement, required permissions and risk profiles. Depending on these, you as an admin must consider the access to the following Teams information by the apps.
+As an admin, you only manage Teams apps. The apps themselves can use one or more capabilities. These capabilities have differences when it comes to app functionality, user engagement, required permissions and risk profiles. Depending on these capabilities, you as an admin must consider the access to the following Teams information by the apps.
 
-The Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are completely separate from the Teams permissions listed here.
+The Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are separate from the Teams permissions listed here.
 
 * Bots
 * Messaging extensions
@@ -107,7 +107,7 @@ Consider the following types of user interaction, required permissions, and data
 
 * When it's used in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], and email address).
 
-* It is possible for an app's bot to send direct or proactive messages to team members even if they haven't interacted with the bot.
+* It's possible for an app's bot to send direct or proactive messages to team members even if they haven't interacted with the bot.
 
 * Depending on settings and functioning of an app that is a bot, it can send and receive files in personal chat only. It isn't supported for group chats or channels.
 
@@ -115,7 +115,7 @@ Consider the following types of user interaction, required permissions, and data
 
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-* If required, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store.
+* If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store.
 
 * A bot can retrieve and may store basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory.
 
@@ -127,7 +127,7 @@ Consider the following types of user interaction, required permissions, and data
 
 * Bots are informed whenever users are added to or deleted from a team.
 
-* Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI will see users' IP addresses and referrer information.)
+* Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI sees users' IP addresses and referrer information.)
 
 * Messaging extensions, on the other hand, do see users' IP addresses and referrer information.
 
@@ -160,9 +160,9 @@ A connector posts messages to a channel when events in an external system occur.
 
 * Connector messages can't contain file attachments.
 
-* The connector instance URL should be treated as secret or confidential. Anyone who has the URL can post to it. If required, team owners can delete the connector instance.
+* The connector instance URL should be treated as secret or confidential. Anyone who has the URL can post to it. If necessary, team owners can delete the connector instance.
 
-* If required, a tenant administrator can prevent new connector instances from being created and Microsoft can block all usage of a connector app.
+* If necessary, a tenant administrator can prevent new connector instances from being created and Microsoft can block all usage of a connector app.
 
 ### Outgoing webhooks
 
