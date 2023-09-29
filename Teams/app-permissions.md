@@ -51,9 +51,9 @@ For each app, these permissions are listed in the app details page in the admin 
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
 | Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
 | Azure AD for Graph and legacy endpoint access | Application | Azure AD  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
-| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | User | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) |
-| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) |
-| Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | User or admin as consent is implied at install. | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
+| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner. | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
+| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
+| Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install. | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
 
 ## Privacy and data access considerations
 
