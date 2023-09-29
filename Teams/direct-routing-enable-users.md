@@ -1,7 +1,7 @@
 ---
 title: "Enable users for Direct Routing"
 ms.reviewer: filippse
-ms.date: 04/30/2018
+ms.date: 08/15/2023
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -34,7 +35,7 @@ For information on all the steps required for setting up Direct Routing, see [Co
 
 When you're ready to enable users for Direct Routing, follow these steps: 
 
-1. Create a user in Microsoft 365 and assign a Phone System license.  
+1. Create a user in Microsoft 365 and assign a Teams Phone license.  
 2. Ensure that the user is homed online.
 3. Configure the phone number and enable enterprise voice. 
 4. Assign Teams Only mode to users.

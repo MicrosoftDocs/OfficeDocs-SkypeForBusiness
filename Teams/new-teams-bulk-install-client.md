@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 06/30/2023
+ms.date: 09/27/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -23,21 +23,18 @@ ms.localizationpriority: high
 
 # Bulk deploy the new Microsoft Teams client 
 
->[!Note]
->**Coming soon:** The Bulk deploy feature will be released at the end of July 2023.
-
 Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
 ## How it works
 
-**TeamsProvision** is a lightweight online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer.
+**TeamsBootstrapper** is a lightweight online installer with a headless command-line interface. It allows admins to "provision’"(install) the app for all users on a given target computer.
 
-When **TeamsProvision.exe** is run on a computer:
+When **teamsbootstrapper.exe** is run on a computer:
 
-- Admin downloads the Teams.exe
-- Installs the new Teams app for **all users on the computer.** 
+- The installer downloads the latest Teams MSIX package from Microsoft
+- The installer installs the Teams application for all users on the computer, and any users who may be added afterwards.
 
 >[!Important]
 >Users who have installed a different Teams version will have their version replaced with the provisioned version.
@@ -57,51 +54,48 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Windows| Windows 10 version 10.0.19041 or higher|
 |Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.<</br> </br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-
->[!Important]
->If you want
-Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
-
-## Deploy the new Teams application to your organization
-
->[!Important]
->The Bulk deploy feature will be released at the end of July 2023. Please check back at that time.
+|App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
 
 >[!Note]
->All steps must be completed to successfully deploy the new Teams.
+>Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
+## Step 1: Deploy the new Teams application
 
-## Step 1: Download the new Teams installer
+All steps must be completed to successfully deploy the new Teams.
 
-1. Download the .exe installer.
+#### Option A: Download and install new Teams for a single computer
 
->[!Important]
->This download link will be available when the feature goes live at the end of July, 2023. Please check back then.
+To install new Teams on a single computer with many users, follow these steps:
 
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsprovision.exe -p**
-
-4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
-
-   :::image type="content" source="media/new-teams-direct-reploy-cmd-feedback.png" alt-text="command prompt feedback when downloading executable for direct deployment":::
-
-## Step 2: Deploy the app to your organization
-
-Deploy this installer to a single computer, group of computers, or your entire organization using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy the new Teams.
+3. At the prompt enter: **./teamsbootstrapper.exe -p**
+4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).</br>
+   :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
 
-## Step 3: Set Teams Admin Center policy
+#### Option B: Deploy new Teams across your organization
+
+To deploy this installer to a group of computers, or your entire organization, follow these steps:
+
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
+3. Run the installer on each computer.  
+
+
+## Step 2: Set new Teams as the default 
 
 >[!Note]
 >Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
-2. Select **Teams > Teams Update** policies from the left pane.
+2. Select **Teams > Teams Update policies** from the left navigation pane.
 3. Select Add to create a new policy or select an existing policy to open Update policy.
 4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
 
 |Setting|Description|
 |:-----|:-----|
+|New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
 |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.| 
 
 >[!Note]

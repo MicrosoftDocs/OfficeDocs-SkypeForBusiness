@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - Tier1
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
 description: Learn about how to set up Teams Rooms to receive and place calls to and from approved SIP and H.323 devices.
 ---
 
@@ -53,7 +53,7 @@ If you haven't use Microsoft Teams PowerShell before, start by going over here t
 To create a new policy, use the Microsoft Teams PowerShell and run:
 
 ```PowerShell
-New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $true -AreaCode `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx` -ReceiveExternalCalls Enabled -ReceiveInternalCalls Enabled -PlaceExternalCalls Enabled -PlaceInternalCalls Enabled
+New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $true -AreaCode "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx" -ReceiveExternalCalls Enabled -ReceiveInternalCalls Enabled 
 ```
 >[!Important]
 >
@@ -63,7 +63,7 @@ New-CsTeamsRoomVideoTeleConferencingPolicy -Identity "TurnOnSIPH323" -Enabled $t
 >
 > `ReceiveExternalCalls` and `ReceiveInternalCalls` parameters are disabled by default. They take only two values either `Enabled` or `Disabled`. If it is set to `Enabled`, then the `AreaCode` parameter is required. This value is provided by the CVI provider that offers this feature.
 
-To get all available Teams Room TeleConferencing policies in your organzation, you need to run the following command:
+To get all available Teams Room TeleConferencing policies in your organization, you need to run the following command:
 
 ```PowerShell
 Get-CsTeamsRoomVideoTeleConferencingPolicy

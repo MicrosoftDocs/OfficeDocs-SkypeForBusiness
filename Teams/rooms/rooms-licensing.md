@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 03/16/2018
+ms.date: 08/1/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 audience: Admin
 appliesto: 
@@ -158,7 +158,51 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 | **Detailed system and configuration information** |                             | &#x2714;                  |
 | **Peripheral health management**                  |                             | &#x2714;                  |
 | **Remote configuration**                          |                             | &#x2714;                  |
+| **Custom backgrounds set up and management**      |                             | &#x2714;                  |
 | **Device history and activity**                   |                             | &#x2714;                  |
 | **ITSM integration**                              |                             | &#x2714;                  |
 | **Custom health alerts**                          |                             | &#x2714;                  |
 | **Device analytics**                              |                             | &#x2714;                  |
+
+
+## Pro Management Portal Licensing 
+
+### License Type Overview 
+The Pro Management Portal's license type offer a clear and comprehensive summary of all devices licensing status. To access the licensing information: 
+1. Use your credentials to log into the Pro Management Portal. 
+2. Go to **Rooms** and **Inventory** views. 
+3. In both views, locate the **License Type** column to see device licensing status. 
+
+### Inventory View 
+In the Inventory view, devices are categorized into: 
+- **Pro**: Devices with pro licenses.
+- **Premium**: Devices with premium licenses.
+- **Basic**: Devices with basic licenses.
+- **Standard**: Devices with standard licenses.
+- **Syncing**: For new devices, the license information will appear 24 hours after room reboot due to syncing.
+- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses.
+
+### Rooms View
+In the Rooms view, you'll find:
+- **Pro**: Devices with Pro licenses.
+- **Premium**: Devices with Premium licenses.
+- **Basic**: Devices with basic licenses.
+- **Standard**: Devices with standard licenses.
+- **Syncing**: For new devices, the license information will appear 24 hours after room reboot due to syncing.
+- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses.
+
+> [!IMPORTANT]
+> 
+> - Please note that for Basic and Standard licenses, the presence of the red alert sign on the left side indicates that these licenses will not grant access to the Pro Management capabilities starting October 2. To continue enjoying the benefit with Pro Management capabilities, an upgrade to Pro license is required by the end of the grace period which is September 30, 2023.
+> - Starting October 2, 2923 all devices without Pro or Premium licenses assigned to them will lose access to the pro management capabilities until valid licenses are assigned to them.
+> - Once a license expires, access will be restricted; however, a 30 day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+> - When changing the account of the device, please ensure that the new account has the valid license to avoid any interruption with the device. The 30 day grace period will not be applying when using an expired account to enroll new devices or changing account on current devices.
+
+### Troubleshooting licensing status:
+
+If you encounter devices showing an incorrect “unlicensed” status even though they possess the proper licenses, this can result from account sign-out or improper sign-in of your devices. To resolve these issues, follow the steps outlined below: 
+- For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
+- For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
+
+
+

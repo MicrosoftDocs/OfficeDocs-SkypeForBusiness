@@ -9,18 +9,6 @@ items:
       href: deploy-overview.md
     - name: Teams Premium trial
       href: teams-premium-trial.md
-    - name: Quick start
-      items: 
-        - name: Quick start overview
-          href: get-started-with-teams-quick-start.md
-        - name: "Step 1: Create your first teams and channels"
-          href: get-started-with-teams-create-your-first-teams-and-channels.md
-        - name: "Step 2: Onboard early adopters"
-          href: get-started-with-teams-onboard-early-adopters.md
-        - name: "Step 3: Monitor usage and feedback"
-          href: get-started-with-teams-monitor-usage-and-feedback.md
-        - name: "Step 4: Plan your org-wide rollout"
-          href: get-started-with-teams-resources-for-org-wide-rollout.md
     - name: Small business setup
       href: deploy-small-business.md     
     - name: Enterprise setup
@@ -93,16 +81,22 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule
+                - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
                 - name: Deploy the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk deploy the new Teams client
                   href: new-teams-bulk-install-client.md
+                - name: Deploy the new Teams with Microsoft 365 Apps
+                  href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Known issues          
+                - name: Known issues for Windows          
                   href: new-teams-known-issues.md
+                - name: Prerequisites and deployment for Mac          
+                  href: new-teams-mac-install-prerequisites.md                 
+                - name: Known issues for Mac          
+                  href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -119,8 +113,6 @@ items:
                   href: troubleshoot-installation.md
                 - name: Teams Reference
                   items:
-                    - name: Microsoft 365 URLs and IP address ranges
-                      href: office-365-urls-ip-address-ranges.md
                     - name: Hardware requirements
                       href: hardware-requirements-for-the-teams-app.md
                     - name: How Teams uses memory
@@ -329,8 +321,6 @@ items:
           href: location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
           href: teams-privacy-feedback.md
-        - name: Block access to SharePoint Online for specific users
-          href: block-access-sharepoint.md
         - name: Policy control overview
           href: policy-control-overview.md
         - name: Mobile diagnostic data
@@ -341,8 +331,6 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
-        - name: Career Coach data compliance
-          href: privacy-career-coach-data-compliance.md
 
 
 - name: Manage and monitor Teams
@@ -379,6 +367,8 @@ items:
           items: 
             - name: Configure external meetings & chat
               href: trusted-organizations-external-meetings-chat.md
+            - name: Cross-cloud meetings
+              href: cross-cloud-meetings.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
             - name: Teams and Skype interoperability
@@ -445,8 +435,6 @@ items:
               href: set-up-call-analytics.md
             - name: Use call analytics to troubleshoot poor call quality
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-            - name: Use real-time telemetry to troubleshoot poor meeting quality
-              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
             - name: Add and update reporting labels
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
@@ -455,7 +443,19 @@ items:
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+        - name: Real-time telemetry
+          items: 
+            - name: Use real-time telemetry to troubleshoot poor meeting quality
+              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Alerts for audio quality issues
+              href: alerts/alerts-in-progress-meeting-audio.md
+            - name: Alerts for video quality issues
+              href: alerts/alerts-in-progress-meeting-video.md
+            - name: Alerts for screen sharing issues
+              href: alerts/alerts-in-progress-meeting-screen-sharing.md
 
+    - name: Teams alerting and monitoring
+      href: alerts/teams-admin-alerts.md 
     - name: Operate your service
       href: upgrade-operate-my-service.md
     - name: Public preview in Microsoft Teams
@@ -487,6 +487,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams webinar usage report
+          href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Virtual Appointments usage report
@@ -533,8 +535,6 @@ items:
       
       - name: Organizing teams
         items:
-          - name: Best practices for organizing teams in Teams
-            href: best-practices-organizing.md
           - name: Set up your teams targeting hierarchy
             href: set-up-your-team-hierarchy.md
           - name: Manage large Teams
@@ -576,6 +576,8 @@ items:
           href: private-channels.md
         - name: Overview of shared channels
           href: shared-channels.md
+        - name: Channel policies
+          href: teams-policies.md
 
     - name: Templates
       items:
@@ -615,10 +617,16 @@ items:
           href: meeting-policies-overview.md
         - name: Presenter & organizer experience
           items: 
+            - name: Set up webinars
+              href: set-up-webinars.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
+            - name: Manage email communications
+              href: manage-email-communications.md
             - name: Manage who can start and schedule meetings
               href: manage-who-can-schedule-meetings.md
+            - name: Manage the registration form for webinars
+              href: manage-registration-form-webinars.md
             - name: Get a meeting attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
@@ -729,8 +737,6 @@ items:
               href: unsupported-browsers.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Set up webinars
-          href: set-up-webinars.md
         - name: Live events
           items: 
             - name: What are Teams live events?
@@ -892,17 +898,17 @@ items:
               href: ./audio-conferencing-in-office-365.md
 
 
-- name: Voice - Phone System and PSTN connectivity
+- name: Voice - Teams Phone and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Phone System
+    - name: Teams Phone
       items: 
-        - name: What is Phone System
+        - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Phone System features
+        - name: Teams Phone features
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Phone System
+        - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Voicemail
           items: 
@@ -973,7 +979,7 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
-            - name: Calling Plans for Teams Phone System
+            - name: Calling Plans for Teams Phone
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
@@ -1065,6 +1071,15 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
+
+    - name: Shared Calling - A simpler solution
+      items:
+        - name: Plan for Shared Calling
+          href: shared-calling-plan.md
+        - name: Configure Shared Calling
+          href: shared-calling-setup.md
+        - name: Shared Calling scenario
+          href: shared-calling-scenario.md
               
     - name: Phone numbers
       items: 
@@ -1072,7 +1087,7 @@ items:
           href: manage-phone-numbers-landing-page.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
-        - name: Assign, change, or remove a phone number for a user
+        - name: Manage phone numbers for users
           href: assign-change-or-remove-a-phone-number-for-a-user.md
         - name: Manage the usage of a phone number
           href: manage-the-usage-of-a-phone-number.md
@@ -1168,7 +1183,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Phone System
+        - name: Teams Phone
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1305,7 +1320,7 @@ items:
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
             - name: Honduras
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong
+            - name: Hong Kong SAR
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
             - name: Hungary
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
@@ -1547,6 +1562,8 @@ items:
               href: devices/hot-desking-teams-displays.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
+            - name: Set up a common area mobile phones
+              href: devices/common-area-mobile-phones.md
             - name: SIP Gateway
               items:
                 - name: Plan for SIP Gateway
@@ -1585,16 +1602,22 @@ items:
                     href: app-support-on-Teams-panels.md
                   - name: Check-in and room release 
                     href: devices/check-in-and-room-release.md
+                  - name: Reserve rooms with a QR code
+                    href: devices/reserving-rooms-with-a-qr-code.md
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
+            - name: QoS on Teams devices
+              href: devices/qos-on-teams-devices.md
             - name: USB audio and video devices
               href: devices/usb-devices.md
             - name: RealWear for Teams
-              href: flw-realwear.md 
+              href: flw-realwear.md
+            - name: SmartVision
+              href: devices/smartvision-admin.md
+            - name: Cloud IntelliFrame
+              href: devices/cloud-intelliframe.md
             - name: Monitoring
               items: 
-                  - name: Teams alerting and monitoring
-                    href: alerts/teams-admin-alerts.md 
                   - name: Teams device health monitoring
                     href: alerts/device-health-status.md 
                   - name: Teams devices and peripherals
@@ -1663,12 +1686,10 @@ items:
 
     - name: Manage custom apps
       items:
-        - name: Manage custom and sideloaded apps
+        - name: Publish and manage custom apps
           href: teams-custom-app-policies-and-settings.md
         - name: Publish custom apps submitted using API
           href: submit-approve-custom-apps.md
-        - name: Publish custom apps submitted as a package
-          href: upload-custom-apps.md
         - name: Manage custom apps created using Power Platform
           href: manage-power-platform-apps.md
 
@@ -1853,7 +1874,7 @@ items:
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
-    - name: Interoperability with Microsoft 365 and Office 365
+    - name: Interoperability with Microsoft 365
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
@@ -1869,6 +1890,8 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Collaboration integration
+          href: collaboration-integration.md
     - name: Teams PowerShell
       items: 
         - name: Overview
@@ -1893,6 +1916,8 @@ items:
       href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
+        - name: Overview
+          href: calling-plan-overview.md
         - name: Albania
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
         - name: Algeria
@@ -1987,7 +2012,7 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
         - name: Honduras
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: Hong Kong
+        - name: Hong Kong SAR
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
         - name: Hungary
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md

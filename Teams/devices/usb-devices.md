@@ -3,14 +3,14 @@ title: Phones and Devices for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: dougand
+ms.reviewer: 
 ms.date: 03/15/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
   - Tier3
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
 audience: Admin
 appliesto: 
@@ -79,13 +79,17 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated July 2023*
+*Table Updated August 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH76 Plus Headset                                          |8/24/2023       |Certified for Microsoft Teams                           |
+|Lenovo/EPOS          |Wired VoIP Headset                                         |8/21/2023       |Certified for Microsoft Teams                           |
+|Lenovo/EPOS          |Wired ANC Gen 2 Headsets                                   |8/21/2023       |Certified for Microsoft Teams                           |
+|B&O                  |Beocom EX MS Earbuds                                       |7/14/2023       |Certified for Microsoft Teams                           | 
 |Yealink              |MP45 USB Phone                                             |7/12/2023       |Certified for Microsoft Teams                           | 
 |Yealink              |BH71 speakerphone/headset                                  |7/10/2023       |Certified for Microsoft Teams                           | 
 |EPOS                 |IMPACT 1030T                                               |5/25/2023       |Certified for Microsoft Teams                           |
@@ -93,7 +97,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |IMPACT 1060T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T ANC                                           |5/25/2023       |Certified for Microsoft Teams                           |
-|Poly                 |Voyager Surround 80 UC/85 UC Headset                      |5/12/2023       |Certified for Microsoft Teams                           |
+|Poly                 |Voyager Surround 80 UC Headset                      |5/12/2023       |Certified for Microsoft Teams                           |
+|Poly                 |Savi 7410/7420 Office Series headsets                      |4/24/2023       |Certified for Microsoft Teams                            |
+|Poly                 |Savi 8410/8420/8445 Office Series headsets                 |4/24/2023       |Certified for Microsoft Teams                            |
 |Lenovo               |ThinkVision MC60 Monitor Webcam                            |4/13/2023       |Certified for Microsoft Teams                            |
 |Jabra                |Evolve2 65 Flex Headset                                    |3/20/2023       |Certified for Microsoft Teams                            |
 |Yealink              |BH71 Pro Headset                                           |3/17/2023       |Certified for Microsoft Teams                            |

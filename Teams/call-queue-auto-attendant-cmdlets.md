@@ -12,15 +12,17 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: 
+ms.custom:
   - Phone System
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 description: Reference this article for PowerShell cmdlets to create and manage Auto attendants and Call queues in Microsoft Teams.
 ---
 
@@ -68,7 +70,7 @@ For a step-by-step guide to creating Call queues with PowerShell, see [Creating 
 
 ## Common cmdlets used by both Auto attendants and Call queues
 
-The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with Auto attendants:
+The following cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported languages that are used with Auto attendants:
 
 ### Users and Teams
 
@@ -111,3 +113,11 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+### Voice applications policies
+
+- [Get-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Get-CsTeamsVoiceApplicationsPolicy)
+- [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Grant-CsTeamsVoiceApplicationsPolicy)
+- [New-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/New-CsTeamsVoiceApplicationsPolicy)
+- [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Remove-CsTeamsVoiceApplicationsPolicy)
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/skype/Set-CsTeamsVoiceApplicationsPolicy)

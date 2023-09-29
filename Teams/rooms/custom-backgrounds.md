@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
@@ -49,8 +49,8 @@ Select the tab that corresponds to the version of Teams Rooms and the Teams Room
 
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|
-| Teams Rooms 4.17 and later                           | Enhanced and Standard | Standard          |
-| Teams Rooms 4.16 and earlier                         | Standard              | Standard          |
+| Teams Rooms 4.17 and later                           | Enhanced and Standard | N/A          |
+| Teams Rooms 4.16 and earlier                         | Standard              | N/A          |
 
 ## [Enhanced backgrounds](#tab/Enhanced)
 
@@ -138,7 +138,7 @@ When you create a custom background:
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom backgroudn showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
 

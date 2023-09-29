@@ -12,6 +12,7 @@ ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 audience: Admin
@@ -105,13 +106,16 @@ To see all of the telephone numbers that are assigned to users, use the [Get-CsO
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
+> [!IMPORTANT]
+> By default, the [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlet returns the first 500 results.
+    
 ## Related topics
 
 [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 
 [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
   

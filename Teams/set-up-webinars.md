@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: justle, ritikag
-ms.date: 05/03/2023
+ms.date: 07/31/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -59,9 +59,24 @@ For instructions on how to set up and manage attendance reports using the Teams 
 > [!NOTE]
 > The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
 
-## Set up webinars
+## Manage webinars using the Teams admin center
 
-If you'd like to set up and manage the webinar experience for your organization, you must use PowerShell.
+You can use the Teams admin center to set up and manage the webinar experience for your organization.
+
+### Turn webinars on or off
+
+Follow these steps in the Teams admin center to turn webinars on or off:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Events Policies**.
+4. Either select an existing policy or create a new one.
+5. Toggle the **Allow webinars** setting **On** or **Off**.
+6. Select **Save**
+
+## Manage webinars using PowerShell
+
+You can use PowerShell to set up and manage the webinar experience for your organization.
 
 To set up webinars, use the **`-AllowWebinars`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
@@ -76,9 +91,7 @@ Before you can run these cmdlets, you must be connected to Microsoft Teams Power
 
 For more information on PowerShell cmdlets for Teams webinars, see the [Related topics](#related-topics) section.
 
-### Create and manage webinars using PowerShell
-
-#### Turn on webinars
+### Turn on webinars
 
 To turn on webinars, use the following script:
 
@@ -86,7 +99,7 @@ To turn on webinars, use the following script:
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinars Enabled
 ```
 
-#### Turn off webinars
+### Turn off webinars
 
 To turn off webinars, use the following script:
 
@@ -112,9 +125,10 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 
 ## Related topics
 
-- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+- [Manage the registration form for webinars](manage-registration-form-webinars.md)
+- [Manage email communications for webinars](manage-email-communications.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+- [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 - [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)

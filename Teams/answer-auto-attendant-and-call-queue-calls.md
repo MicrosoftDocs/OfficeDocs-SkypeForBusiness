@@ -5,7 +5,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 audience: ITPro
-ms.date: 09/20/2018
+ms.date: 08/01/2023
 ms.topic: conceptual
 ms.service: msteams
 description: Describes Cloud Auto attendants and Call queues, and explains how you can answer these calls in Teams.
@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
 appliesto: 
@@ -34,7 +35,7 @@ Cloud Call queues include greetings that are used when someone calls in to a pho
 
 ## Handling an Auto attendant or Call queue call
 
-Users will be able to differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, each call will include information about who the caller was trying to reach, giving users a better context for addressing the caller.
+Users will be able to differentiate incoming calls from an Auto attendant or Call queue before they answer the call. Along with the name and/or number of the caller, each call will include the display name of the resource account assigned to the Auto attendant or the Call queue that the caller was trying to reach, giving users a better context for addressing the caller.
 
 The following illustration shows how an incoming call from an Auto attendant or Call queue will appear to a user.
 
@@ -53,10 +54,10 @@ Once an Auto attendant or Call queue call is answered, the user can process the 
 
 Support for Auto attendant and Call queue calls is available in the following clients:
 
--    Microsoft Teams Windows client (32 and 64-bit versions)
--    Microsoft Teams Mac client
--    Microsoft Teams iPhone app
--    Microsoft Teams Android app
+- Microsoft Teams Windows client (32 and 64-bit versions)
+- Microsoft Teams Mac client
+- Microsoft Teams iPhone app
+- Microsoft Teams Android app
 
 The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
@@ -68,7 +69,6 @@ To receive Auto attendant and Call queue calls on Microsoft Teams, you need to c
 
 When a Call queue agent receives a call on their mobile device, the call may go on hold if the device is locked. Users must unlock the device first and then answer the call.
 
-
 ## Related topics
 
 [Create a Cloud Call queue](create-a-phone-system-call-queue.md)
@@ -76,4 +76,3 @@ When a Call queue agent receives a call on their mobile device, the call may go 
 [What are Cloud Auto attendants?](what-are-phone-system-auto-attendants.md)
 
 [Set up a Cloud Auto attendant](create-a-phone-system-auto-attendant.md)
-

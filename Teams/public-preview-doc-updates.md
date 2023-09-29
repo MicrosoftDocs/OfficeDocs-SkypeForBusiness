@@ -39,13 +39,14 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
-2. Select **Teams** > **Teams Update policies**.
+1. Select **Teams** > **Teams Update policies**.
 
-1. Select **Add** to create a new policy or select an existing policy and then select **Update policy**.
+1. Select an existing policy or select **Add** to create a new one.
 
-2. Name the update policy, add a description, and select the setting for **Show Teams preview features**.
+    ![Screenshot of update policy panel in the Teams admin center.](media/new-update-policy.png)
 
-   :::image type="content" source="media/new-update-policy-screen.png" alt-text="The New update policy screen." lightbox="media/new-update-policy-screen.png":::
+1. Name the update policy and add a description.
+1. Select the setting for **Show Teams preview features**:
 
    -   **On for users in Current Channel (Preview)** (default)
        - This default option turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).
@@ -62,12 +63,9 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
        - This option turns on Teams Public preview regardless of whether a user is enrolled in Office Current Channel (Preview).
        - Users can't turn off Teams Public preview.
 
-5. Select **Apply**.
-1. Ensure that **Microsoft controlled** (default value) is the value selected from the **Use new Teams client** dropdown list.
+1. Select **Apply**.
 
-   :::image type="content" source="media/use-new-teams-client-dropdown-list.png" alt-text="The Use new Teams client dropdown list." lightbox="media/use-new-teams-client-dropdown-list.png":::
-
-You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
+You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet.
 
 ## Enable Public preview
 
@@ -90,10 +88,12 @@ All public preview features are announced at [Microsoft Teams Public preview - M
 
 ### Public preview Indicator
 
-Users who are in the public preview will see **EA** next to their profile picture, indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image).
+Users who are in the public preview will see **EA** next to their profile picture in classic Teams, indicating that they have **E**arly **A**ccess to Teams features (as shown in the following image).
 
 ![Screenshot of the early-access icon.](media/early-access-screenshot.png)
 
 ## Related topics
+
+[Deploy the new Teams using policies](new-teams-deploy-using-policies.md)
 
 [Public developer preview](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

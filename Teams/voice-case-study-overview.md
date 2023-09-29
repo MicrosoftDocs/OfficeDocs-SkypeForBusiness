@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - m365solution-voice
   - highpri
   - Tier1
@@ -64,7 +65,7 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
+  With office locations in telephony-regulated countries/regions, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Emergency Calling 
 

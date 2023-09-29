@@ -4,14 +4,15 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 11/28/2017
+ms.date: 09/07/2022
 ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 search.appverid: MET150
 audience: admin
@@ -24,7 +25,7 @@ ms.custom:
   - Audio Conferencing
   - ms.teamsadmincenter.audioconferencing.overview
   - seo-marvel-apr2020
-description: Learn about how Audio Conferencing in Microsoft 365 allows users call in to meetings from their phones.
+description: Learn about how Audio Conferencing in Microsoft 365 allows users to call in to meetings from their phones.
 ---
 
 # Audio Conferencing in Microsoft 365

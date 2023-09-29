@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/03/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
@@ -100,3 +100,4 @@ There are no unique requirements to enable calling with resource accounts. You e
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](rooms-licensing.md)
+

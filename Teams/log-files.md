@@ -10,11 +10,11 @@ ms.topic: troubleshooting
 ms.service: msteams
 f1.keywords:
 - NOCSH
-ms.collection: 
+ms.collection:
   - M365-collaboration
 search.appverid: MET150
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with monitoring and troubleshooting.
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
@@ -23,19 +23,18 @@ appliesto:
 There are three types of log files automatically produced by the client, which can be leveraged to assist in monitoring and troubleshooting Teams:
 
 -   [Debug logs](#debug-logs)
-
+    - [Continuous Debug/Web logs](#continuous-debug-logs)
 -   [Media logs](#media-logs)
-
 -   [Desktop logs](#desktop-logs)
 
-This article describes these logs and how they are used. For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams). 
+This article describes these logs and how they are used. For information about troubleshooting specific issues, see: [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams).
 
 For information on collecting logs from Microsoft Teams Rooms devices, see [Download device logs](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 For information about how to contact support, see [Get support](/microsoft-365/business-video/get-help-support).
 
 > [!NOTE]
-> In this article, the term **Debug logs** refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.  
+> In this article, the term **Debug logs** (also called Web logs) refers to the logs that are used for troubleshooting. However, the files that are generated for these logs will contain the term **diagnostic logs** in their names.
 
 ## Logs overview
 
@@ -43,55 +42,67 @@ It’s important to collect logs as soon as an issue occurs.
 
 When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having the debug logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. **Media** or **Desktop** logs are only required if requested by Microsoft.
 
-Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
+### Log collection
 
-- Windows:
-  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+Debug/Web, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_ which will be placed in your Downloads directory. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (Web).
 
-- Mac:
-  <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+To collect logs for Windows:
+ - Select the Microsoft Teams icon in your system tray and then select **Collect support files**.
 
+To collect logs for Mac:
+ - Select the Help menu in Microsoft Teams and then select **Collect support files**.
+
+To collect logs for Linux:
+ - Select the Microsoft Teams icon in your system tray and then select **Get Logs**.
+
+You can also collect the files using the following keyboard shortcuts:
+Windows and Linux: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
+Mac: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. The URL provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
-> [!NOTE]
-> If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
-  
-The following table outlines the various clients and their associated logs. Log files are stored in locations specific to the client and operating system.
+The following table outlines the various clients and their associated logs. Prior to being collected, log files are stored in the Teams app folder with the folder's location being specific to the client and operating system.
+- Windows: `%appdata%\Microsoft\Teams\`
+- Mac: `~/Library/Application Support/Microsoft/Teams/`
+- Linux: `~/.config/Microsoft/Microsoft Teams/`
 
-|Client |Debug|Desktop|Media|
-|---------|---------|---------|---------|
-|Web    |X         |-         |-         |
-|Windows     |X         |X         |X         |
-|Mac OSX     |X         |X         |X         |
-|iOS     |-         |-         |-         |
-|Android     |-         |-         |-         |
+|Client   |Debug    | Continuous Debug|Desktop  |Media    |
+|---------|---------|-----------------|---------|---------|
+|Web      |X        |-                |-        |-        |
+|Windows  |X        |X                |X        |X        |
+|Mac OSX  |X        |X                |X        |X        |
+|iOS      |-        |-                |-        |-        |
+|Android  |-        |-                |-        |-        |
+
 
 For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
 ## Debug logs
 
-Debug logs are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
+Debug logs (also called Web logs) are produced by the Windows and Mac desktop clients, as well as by browser-based clients. The logs are text-based and are read from the bottom up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
-
 -   Login
-
 -   Connection requests to middle-tier services
-
 -   Call/conversation
 
-To collect logs for Linux:
-- Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
-- The files will be available in `~/Downloads`
+## Continuous Debug logs
 
-To collect logs for Browser and Windows:
-- Keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
-- The files will be available in `%userprofile%\Downloads`
+Continuous Debug logging (also called Continuous Web logging) is a feature that helps capture log data by automatically transferring logs from memory to the file system in a continuous fashion. On average there will be a full day's worth of log data available when enabled. The logs are read from the top down.
 
-To collect logs for Mac:
-- Keyboard shortcut: <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
-- The files will be available in `~/Downloads`
+Continuous Debug/Web logging is turned on by default on Teams desktop for computers if your CPU is:
+ - Intel Core i3 and Core i5 (generation 10 or higher), Core i7 and Core i9 (any generation), excluding the following suffixes: U, Y, G1-G7, UE, UL, M, and QM
+- Intel Xeon
+- AMD Ryzen 5, 7, 9, and TR series, excluding the U suffix
+- Apple Silicon
+
+Otherwise, it is turned off by default.
+
+### Admin Configuration
+Managing Continuous Debug/Web logging for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to enable and manage Continuous Debug/Web logging for users.
+
+See [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
+
 
 ## Media logs
 
@@ -104,15 +115,19 @@ Media logging is turned on by default for computers if your CPU is:
 - any 6th generation and later Intel i7, except for the U, G7, M, and MQ series
 
 Otherwise, it is turned off by default. There are two ways to log diagnostic data for Teams meetings:
+- Admin configuration - you can manage Media logs for your end users
+- End user configuration - your end users can turn on Media logs
 
-- Admin configuration- you can manage Media logs for your end users
-- End user configuration- your end users can turn on Media logs
+> [!NOTE]
+> Media logs are not available on WebRTC-based platforms (Teams Browser clients and Classic Teams for VDI with optimized media). 
+> Please see [Browser logs and tracing for Teams](/microsoftteams/browser-logs-and-tracing-for-teams) for instructions on gathering additional WebRTC logs on Browser clients.
+> Please contact your VDI provider for instructions on gathering WebRTC logs when using [Teams for VDI](/microsoftteams/teams-for-vdi).
 
 ### Admin configuration
 
-Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to  enable and manage Media logging for users.
+Managing Media logs for your end users provides a seamless troubleshooting experience, especially when issues are intermittent. Admins can use the TeamsMediaLoggingPolicy cmdlet to enable and manage Media logging for users.
 
-Read [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
+See [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedialoggingpolicy) for PowerShell cmdlets and more information.
 
 ### End user configuration
 
@@ -121,50 +136,9 @@ For your end users to log diagnostic data for Teams meetings, they must turn on 
 > [!NOTE]
 > When your users sign out of Teams, Media logging resets to its default.
 
-### Collecting and sending Media logs
-
-Before you send the log files to Microsoft support, verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
-
-To collect logs for Linux:  
-- The files will be available in the following locations:
-  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
-  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
-
-To collect logs for Windows:  
-- The files will be available in the following locations:
-  - `%appdata%\Microsoft\Teams\media-stack\\\*\.blog`
-  - `%appdata%\Microsoft\Teams\skylib\\\*\.blog` 
-
-To collect logs for Mac:
-- The files will be available in the following locations:
-  - `~/Library/Application Support/Microsoft/Teams/media-stack\\\*\.blog`
-  - `~/Library/Application Support/Microsoft/Teams/skylib\\\*\.blog`
-
-Here's a list of the log files that are generated and the information they contain.
-
-<br/>
-
-|Log file name  |Description  |
-|---------|---------|
-|`Teams.msrtc-0-s1039525249.blog`     | Contains information related to the media stack. This includes channel status such as resolution, decoders and encoders used, and the number of frames sent and received, and camera and video-based screen sharing (VBSS) session status.         |
-|`rtmcontrol.msrtc-0-2415069487.blog`      |Records information related to remote control actions, such as the time stamp when control is given, and mouse pointer information.          |
-|`Teams_MediaStackETW-2-U-xr-U.etl`      |Records media stack trace events.         |
-|`Debug-0-s2790420889.blog`    | Contains information related to the media agent, including rendering quality.          |
-|`tscalling-0-2061129496.blog`   |Records events in the ts-calling API.       |
-
 ## Desktop logs
 
 Desktop logs, also known as bootstrapper logs, contain log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top-down format.
-
-To collect logs for Mac:
-- Click the Help menu in Microsoft Teams, and select **Collect support files**.
-- The `logs.txt` file will be in the Desktop folder inside the _MSTeams Diagnostics Log \<local date and time>_ folder.
-
-To collect logs for Windows:
-- Click the Microsoft Teams icon in your system tray, and select **Collect support files**.
-- The `logs.txt` file will be opened in Notepad automatically.
-
-When investigating problems signing into Teams, you might need to manually collect the desktop logs. These log files are located at %appdata%\Microsoft\Teams in Windows.
 
 ## Related topics
 

@@ -2,7 +2,7 @@
 title: "Session Border Controllers certified for Direct Routing"
 ms.author: crowe
 ms.reviewer: FilippSe
-ms.date: 06/26/2018
+ms.date: 07/31/2023
 author: CarolynRowe
 manager: serdars
 audience: ITPro
@@ -12,13 +12,14 @@ ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto:
   - Microsoft Teams
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Learn about which Session Border Controllers (SBCs) have been certified for Direct Routing.
+description: Learn about which Session Border Controllers (SBCs) have been certified for Microsoft Direct Routing.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -46,7 +47,7 @@ Microsoft works with each vendor to:
 
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
-[Learn more about Direct Routing](https://aka.ms/dr).
+For more information about Direct Routing, see [Plan Direct Routing](direct-routing-plan.md).  
 
 Note that we're not accepting new nominations for certification until further notice.
 
@@ -65,15 +66,16 @@ Note that we're not accepting new nominations for certification until further no
 ||Virtual Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
 ||Mediant 3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5400|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
-||SBC 7000|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
-||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommended latest version)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
-||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommended latest version)|&#10004;|&#10004;|
-||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5400|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
+||SBC 7000|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
+||All SBC SWe variants, including hosted offers|&#10004;|&#10004;|Supported on available versions of 11.1 and later, 10.1, 9.2, and 7.2 (Recommend latest version)|&#10004;||
+||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
+||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
+||Edge 8000 (w/SBC SWe Edge)|&#10004;|&#10004;|23.06 or higher|&#10004;|&#10004;|
+||EdgeMarc Series|&#10004;|&#10004;|16.3.2|||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
-|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+|[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 3900|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 4600|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 6300|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
@@ -99,14 +101,24 @@ Note that we're not accepting new nominations for certification until further no
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.8.x (Recommended 6.9.x)|||
-||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.8.x (Recommended 6.9.x)|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.9.x (Recommended 6.10.x)|||
+||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.9.x (Recommended 6.10.x)|||
 |[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Peeredge Orchestrator|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
-
-<br/>
+|[Nuera](https://www.nuera.com/sbc-media-gateway)|GX-500 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-500 Li SBC|&#10004;|&#10004;|Supported 7.2x.xxx (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-800 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-2600 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-4000 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-1000B  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-9000  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-VE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-CE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
 
 \* **911 service providers**
+
+The following emergency services providers are certified and supported by Microsoft.  Microsoft reserves the right to reject support cases where a non-certified provider is used.
 
 - [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
@@ -135,8 +147,9 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 |[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (formerly SWe Lite)|8.1.5 or higher SW version|
 ||SBC 1000|8.1.5 or higher SW version|
 ||SBC 2000|8.1.5 or higher SW version|
+||SBC 8000 (w/SBC SWe Edge)|23.06 or higher SW version|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
-|[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
+|[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 &  9.x|
 ||AP 4600|8.4.0.0.1 &  9.x|
 ||AP 6300|8.4.0.0.1 &  9.x|
@@ -179,3 +192,9 @@ To provide feedback about Teams, such as ideas for new features, see the [Micros
 
 > [!NOTE]
 > Media re-targeting is not supported. During a Direct Routing call, if the SBC sends a new media IP to Teams Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from Teams Direct Routing.
+
+## See also
+
+- [Plan Direct Routing](direct-routing-plan.md)
+- [Configure Direct Routing](direct-routing-configure.md)
+- [Learn more about Direct Routing](https://aka.ms/dr)

@@ -24,7 +24,12 @@ appliesto:
 
 # Configure transcription and captions for Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 In Microsoft Teams, there's an option for meeting recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers of all abilities.
+
+> [!NOTE]
+> These settings also affects webinars.
 
 ## Transcription
 
@@ -80,7 +85,7 @@ For information on how your meeting organizers can set up human-generated captio
 
 By default, live captions are displayed in the language that’s spoken during a meeting. Live translated captions allow your users to see captions translated into the language they’re most comfortable with.
 
-To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
+To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the corresponding meeting policy in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
 
 For information on how your end users can turn on live translated captions, read [Use live translated captions in a teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
 

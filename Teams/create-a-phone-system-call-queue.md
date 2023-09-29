@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
-ms.date: 06/05/2023
+ms.date: 08/30/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -43,6 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- July 17 - **No Agents Opted/Logged In** - this new call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.
 - May 01 - **Authorized users** - authorized users may now update Call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
 
 ## Steps to create a Call queue
@@ -150,7 +151,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the language selected for the Call queue. The system doesn't perform translation.
 
-Teams provides default music to callers while they are *on hold in a queue*.
+Teams provides default music to callers while they're *on hold in a queue*.
 
 - The default music supplied in Teams Call queues is free of any royalties payable by your organization.
 - If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
@@ -343,10 +344,9 @@ This limit applies only to calls that are waiting in queue to be answered.
 
 You can specify a value from 0 seconds to 45 minutes.
 
-### No Agents: Set how to handle calls when no agents
+### No Agents Opted/Logged In: Set how to handle calls when no agents are opted/logged into the queue
 
-> [!NOTE]
-> This feature is currently in private preview and isn't available to all customers.
+This call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.
 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 
@@ -361,7 +361,8 @@ You can specify a value from 0 seconds to 45 minutes.
 >
 > If agents are logged in or opted in, then calls will be queued.
 
-Once you've selected your call overflow, call timeout and no agents handling options, select the **Submit** button at the bottom of the **Add a Call queue** page.
+Once you've selected your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
+
 
 ## [Step 6: Authorized users](#tab/authorized-users)
 
@@ -382,6 +383,8 @@ To **add a user** to the authorized users:
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
 
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
+
+Once you've selected your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
 
 ---
 

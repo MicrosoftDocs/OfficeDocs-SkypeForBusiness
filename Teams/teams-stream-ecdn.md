@@ -8,13 +8,14 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 09/13/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss scale video delivery and enterprise content delivery networks (eCDNs) for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -70,7 +71,7 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ### Riverbed
 
-**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment. Learn more at [this link](https://www.riverbed.com/office365).
+**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected partner eCDN provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.

@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 audience: Admin
 appliesto: 
@@ -35,7 +36,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Bulgarian (Bulgaria)                    |Y                        |N                                      |
 |Catalan (Catalan)                       |Y                        |N                                      |
 |Chinese (Simplified, PRC)               |Y                        |Y                                      |
-|Chinese (Traditional, Hong Kong)        |Y                        |N                                      |
+|Chinese (Traditional, Hong Kong SAR)    |Y                        |N                                      |
 |Chinese (Traditional, Taiwan)           |Y                        |N                                      |
 |Croatian (Croatia)                      |Y                        |N                                      |
 |Czech (Czech Republic)                  |Y                        |N                                      |

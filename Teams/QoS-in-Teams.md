@@ -5,8 +5,8 @@ author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: vkorlep, siunies
-ms.date: 02/16/2018
+ms.reviewer: siunies
+ms.date: 09/27/2023
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 ms.localizationpriority: medium
@@ -20,7 +20,8 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Teams
+  - Classic Microsoft Teams
+  - New Microsoft Teams
 ---
 
 # Implement Quality of Service (QoS) in Microsoft Teams

@@ -32,14 +32,13 @@ description: Learn to set up Calling Plans, including view plans available in yo
 ---
 # Set up Microsoft Calling Plans
 
-This article describes how to set up Microsoft Calling Plans with Teams Phone System. This solution is the simplest option that connects Phone System to the Public Switched Telephone Network (PSTN) for external calling. With this option, **Microsoft acts as your PSTN carrier**.
+This article describes how to set up Microsoft Calling Plans with Teams Phone. This solution is the simplest option that connects Teams Phone to the Public Switched Telephone Network (PSTN) for external calling. With this option, **Microsoft acts as your PSTN carrier**.
 
-This article assumes that you already have Phone System licenses for your users, which is a requirement for purchasing Calling Plans. If you do not have a Phone System license, see [Set up Phone System](setting-up-your-phone-system.md).
+This article assumes that you already have Teams Phone licenses for your users, which is a requirement for purchasing Calling Plans. If you do not have a Teams Phone license, see [Set up Teams Phone](setting-up-your-phone-system.md).
 
 For more information about all Microsoft Calling Plan options, see [Calling Plans for Teams](calling-plans-for-office-365.md).
 
-For more information about Phone System, see [What is Phone System](what-is-phone-system-in-office-365.md).
-
+For more information about Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md).
 
 ## Step 1: Find out if Calling Plans are available in your country/region
 
@@ -49,7 +48,7 @@ If Calling Plans aren't available for your country or region, see [PSTN connecti
   
 ## Step 2: Buy and assign licenses
 
-1. After you buy and assign **Teams Phone** licenses, you can purchase [Calling Plans for Teams Phone System](calling-plans-for-office-365.md). For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. After you buy and assign **Teams Phone** licenses, you can purchase [Calling Plans for Teams Phone](calling-plans-for-office-365.md). For more information, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Assign a Calling Plan license to the people in your organization. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -59,7 +58,7 @@ If Calling Plans aren't available for your country or region, see [PSTN connecti
 
 There are three ways to get new user numbers:
 
-- **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Teams admin center, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
+- **Use the Teams admin center.** For some countries/regions, you can get numbers for your users by using the Teams admin center, see [Get phone numbers for your users](getting-phone-numbers-for-your-users.md).
 
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
@@ -114,4 +113,4 @@ The diagnostic performs a large range of verifications.
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Teams: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Teams: Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

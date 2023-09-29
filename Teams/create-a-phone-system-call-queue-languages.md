@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 audience: Admin
 appliesto: 
@@ -35,7 +36,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Bulgarian (Bulgaria)                    |
 |Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
-|Chinese (Traditional, Hong Kong)        |
+|Chinese (Traditional, Hong Kong SAR)    |
 |Chinese (Traditional, Taiwan)           |
 |Croatian (Croatia)                      |
 |Czech (Czech Republic)                  |

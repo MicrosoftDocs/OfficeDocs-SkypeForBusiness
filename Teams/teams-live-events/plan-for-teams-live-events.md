@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 09/11/2018
 f1.keywords:
 - NOCSH
@@ -30,6 +30,8 @@ When you're planning Teams live events to hold large meetings in your organizati
 
 > [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+>
+> The Teams client doesn't support Teams live events on Surface hub devices. Users can join the events only as viewers using the Edge web browser on their Surface hub devices.
 
 ## Who can attend, create, and schedule live events
 

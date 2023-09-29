@@ -16,7 +16,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -48,9 +48,6 @@ Epos, Sennheiser, and Yealink intelligent speakers are supported.
 ## Set up an Intelligent Speaker
 
 An Intelligent Speaker connects directly using USB to the Teams Rooms console.
-
-> [!NOTE]
-> A Yealink Intelligent Speaker **must** be used with a Yealink console.
 
 > [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.

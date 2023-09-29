@@ -48,6 +48,12 @@ Policy packages support the following Teams policy types:
 - App setup policy
 - Calling policy
 - Live events policy
+- Call park policy
+- Teams policy
+- Voice routing policy
+- Caller ID policy
+- Update policy
+- Events policy
 
 ## Policy packages included in Teams
 
