@@ -259,7 +259,6 @@ Introduced in this update:
 - Chat bubbles provide notifications for in meeting chat to bring attention to what's being said using meeting chat \*
 - Large gallery and Together mode support is now available in GCC High
 - New Skills added to Cortana, Add person by name to the meeting and Call by name
-- Cortana Push to Talk is enabled by default on all devices. To learn more, see [Cortana voice assistance in Teams](../cortana-in-teams.md).
 
 > [!NOTE]
 > Deprecated 19H1 support. Min OS version supported by 4.10 is 19H2.
@@ -320,10 +319,7 @@ Introduced in this update:
 - Share HDMI audio to meeting participants in Teams meeting
 - Cortana voice skills (Preview)
 - Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
-- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
-
-> [!NOTE]
-> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
+- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays.
 
 ### 4.6.23.0 (10/19/2020)
 

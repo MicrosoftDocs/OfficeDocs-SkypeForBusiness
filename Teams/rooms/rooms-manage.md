@@ -113,8 +113,6 @@ See [Manage Microsoft Teams configuration on Surface Hubs](surface-hub-manage-co
 
 You can enable Cortana for *Voice Activation* or *Push to talk* using PowerShell for all devices in your organization, or for each device separately.
 
-See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
-
 ### Front row layout settings
 
 Front row is meeting view layout option for Teams Rooms on Windows.
