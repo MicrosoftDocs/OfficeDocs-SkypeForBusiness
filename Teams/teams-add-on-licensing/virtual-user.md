@@ -54,7 +54,9 @@ Your allocation of **Teams Phone Resource Account** licenses is not automaticall
 Contoso, Inc. purchased 500 licenses that include Phone System (one for each employee) and has 100 devices licensed with the **Teams Shared Devices** license. Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
 
 ## How to obtain Microsoft Teams Phone Resource Account licenses
+You will need to obtain from the same program that you have purchased the subscription containing Teams Phone. (e.g. If purchased from EA, you will need to order through EA.)
 
+For Web Direct customers:
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
 1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
