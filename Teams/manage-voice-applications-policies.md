@@ -103,6 +103,9 @@ You can edit the global policy or any custom policies you create.
 - [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/remove-csteamsvoiceapplicationspolicy):
   - Delete an existing Teams voice applications policy.
 
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Set-CsTeamsVoiceApplicationsPolicy)
+  - Change an existing Teams voice applications policy.
+
 ## Voice applications policy settings
 
 > [!IMPORTANT]
