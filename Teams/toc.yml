@@ -1547,7 +1547,8 @@ items:
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-          
+        - name: Resource accounts
+          href: rooms/resource-accounts.md
     - name: Devices
       items:
         - name: Teams device store
