@@ -37,7 +37,7 @@ The **Resource Accounts** page shows you all the resource accounts that your org
 
 The **Resource Accounts** page also has a **Refresh** option on the command bar to fetch newly created resource accounts from Entra.
 
-### Resource Account settings
+### View settings for each resource account
 
 Select a resource account, which enables you navigate to the page showing its details, and see the mailbox settings; and information pertaining to the location and license.
 
@@ -64,7 +64,7 @@ To configure the settings of a resource account and its mailbox, perform the fol
 1. Select a resource account, and go to the **Details** panel.
 1. Follow the instructions in [Create and configure resource accounts for rooms and shared Teams devices](create-resource-account.md).
 
-Once you've configured the settings of the account and its mailbox, you can navigate to the "details" page and see that the status has been updated, under the **Status** label.
+Once you've configured the settings of the account and mailbox of a resource account, you can select the resource account to navigate to the page displaying its details. In this page, you can see that the status has been updated (to **No action needed**), under the **Status** label.
 
 :::image type="content" source="../media/status-updated-on-configuration-completion.png" alt-text="Screenshot that shows the updated status of a resource account whose settings and that of its mailbox has just been configured." lightbox="../media/status-updated-on-configuration-completion.png":::
 
