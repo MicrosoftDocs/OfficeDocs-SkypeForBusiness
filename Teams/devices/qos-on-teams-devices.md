@@ -93,8 +93,6 @@ For more information on Teams Media and implementing QoS, see [Implement Quality
 
 For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune `NetworkQoSPolicy` CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
 
-[see](../advanced-collaboration-analytics.md#inactive-teams)
-
 For more information on this Intune CSP, see [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
 If your Teams Rooms devices are joined to Active Directory, you can use Group Policy to apply the markings. You can follow the same instructions that have been provided for the Teams Desktop application, but don't specify the application name in the configuration; only specify the port range and the DSCP value in the configuration.
