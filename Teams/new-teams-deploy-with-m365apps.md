@@ -47,7 +47,7 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
 
 
-## How to exclude new Microsoft Teams from new installations
+## How to exclude new Teams from new installations
 
 Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out. 
 
@@ -63,7 +63,7 @@ Admins who don't want new Teams included with Microsoft 365 Apps on devices runn
 If you choose to not have Microsoft manage the new Teams deployment for you, pick a  time that is best for you. Deploy new Teams by following the steps detailed in this article: [**Bulk Deploy the new Teams client**](new-teams-bulk-install-client.md).
 
 
-## What about Office 365 plans that don't include Microsoft Teams? 
+## Office 365 plans that don't include Microsoft Teams
  
 Some Office 365 plans include Microsoft 365 Apps, but don't include the Teams service. Teams will still be installed with Microsoft 365 Apps even if a plan doesn't have the Teams service. 
 
