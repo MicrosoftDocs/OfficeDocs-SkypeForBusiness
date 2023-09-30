@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: 
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -31,42 +31,23 @@ Administrators may exclude new Teams from automatically installing with Microsof
 >[!Important]
 >If the classic Teams app is already installed, the Microsoft 365 Apps deployment will install new Teams alongside classic Teams on the device. The classic Teams installation will not change.
 
-## Is the new Teams available for my organization?
-
-The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
-
-**Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer
-
 
 ## Rollout schedule 
 
-### When will the new Microsoft Teams be included with installations of Microsoft 365 Apps?
+When will the new Microsoft Teams be included with installations of Microsoft 365 Apps?
 
 The date when the new Teams starts being installed with Microsoft 365 Apps depends on which update channel you're using. The following table shows the schedule.
 
 |Plan|Channel|Date|
 |:-----|:-----|:-----|
-|Business||Late September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
+|Business||October 2023|
+|Enterprise|Office Beta Channel and Current Channel (Preview)|October 2023|
 |Enterprise|Current Channel|October 2023|
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
 
-### When will the new Teams become the default app?
 
->[!Note]
->Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
-
-|Plan|Channel|Date|
-|:-----|:-----|:-----|
-|Business||Late September 2023|
-|Enterprise|Office Beta Channel and Current Channel (Preview)|Late September 2023|
-|Enterprise|Current Channel|October 2023|
-|Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
-|Enterprise|Semi-Annual Enterprise Channel|December 2023|
-
-## How to exclude new Microsoft Teams from new installations of Microsoft 365 Apps 
+## How to exclude new Microsoft Teams from new installations
 
 Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out. 
 
