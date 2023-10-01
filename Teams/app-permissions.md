@@ -59,6 +59,8 @@ For each app, these permissions are listed in the app details page in the admin 
 
 In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
 
+:::image type="content" source="media/app-details-tou-url.png" alt-text="Screenshot that shows privacy and terms of use URLs in the app details page." lightbox="media/app-details-large.png":::
+
 Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available on Microsoft website at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 The program demonstrates that strong security and compliance practices are in place to protect customer data. See the details in [app compliance program for security, data handling, and privacy](overview-of-app-certification.md).
