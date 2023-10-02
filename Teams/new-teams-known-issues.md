@@ -23,30 +23,6 @@ ms.localizationpriority: high
 # New Teams desktop client: Known issues 
 
 
-## What features are changing?
-
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
-
-|Classic Teams|New Teams|
-|:-----|:-----|
-|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
-|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
-|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
-|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
-|Activity tab in chat| No longer available.|
-|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
-|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
-|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
-|Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
-|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
-|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
-|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
-|General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
-|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
-
 ## Known issues
 
 
@@ -70,6 +46,9 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, reordering, uninstalling, store navigation are still pending.
 
+- **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
+
+
 ### Calendar
 
 - **Issue:* There's no option to add a Channel calendar to a channel.</br>
@@ -82,10 +61,6 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.</br>
 **Workaround/details**: We're working to resolve this.
-
-- **Issue**: Full HID capabilities (for example, device mute/unmute, LED sync) aren't yet supported.
-
-- **Issue**: When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
 
 - **Issue**: Call toast stacking isn't supported by default in Windows 10.</br>
   **Workaround**: Open the action center to view secondary incoming call toasts.
@@ -103,6 +78,13 @@ If you discover any accessibility gaps, select **Give Feedback**.
 
 - **Issue:** If you receive a message where @mention *Everyone* is used, it shows in your feed as a personal mention.</br>
   Details: The @mention Everyone feature is still pending for this release.
+
+### Global readiness
+
+
+- **Issue:** The UI lanauge and regional parameters are local.  They do not follow the OS, browser, or account. When a user changes the operation system UI language, the new choice is not pushed to the the new Teams app.
+  **Workaround:**  Set the lanugate or regional settings manually, or restart the new Teams app.
+
 
 ### Meetings
 
@@ -137,9 +119,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** Some meeting details won't show up in new Teams.</br>
   Details include forwards, "show as," and assigned meeting categories.
-
-- **Issue:** If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.</br>
-  **Workaround**: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
 
 - **Issue:** In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
@@ -212,3 +191,30 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
 **Workaround**: Before joining a meeting, sign in with primary tenant account.
+
+
+
+
+## What features are changing?
+
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
+
+|Classic Teams|New Teams|
+|:-----|:-----|
+|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
+|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
+|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
+|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
+|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
+|Activity tab in chat| No longer available.|
+|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
+|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
+|Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
+|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
+|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
+|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
+|General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
+|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
+|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
