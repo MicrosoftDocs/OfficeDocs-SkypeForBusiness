@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/20/2023
+ms.date: 10/02/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -52,11 +52,11 @@ Keep the following information in mind:
 
 - If you remove, reassign, or port the number of a resource account used in a Shared Calling policy, the policy remains intact, but outbound calls will fail for any users still configured to make calls from that number.
 
-- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md) for assistance.
+- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk) for assistance.
 
 - If you're attempting to use a resource account with an Operator Connect phone number assigned, you should confirm support for Shared Calling with your operator.
 
-- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md).
+- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk).
 
 ## Step 1: Assign Teams Phone licenses and enable users for voice
 
