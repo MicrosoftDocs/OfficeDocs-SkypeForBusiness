@@ -59,7 +59,8 @@ The new Teams client will be available for the Web soon:
 |Safari/Firefox (target date)|March 2024|
 |Gov/Special Clouds |March 2024|
 
-New Teams is not yet available for these**Customer segments:**  </br>
+
+##### New Teams is not yet available for these Customer segments:
 
 
 - Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
@@ -69,8 +70,6 @@ New Teams is not yet available for these**Customer segments:**  </br>
 
 ## New Teams schedule for clients
 
-
- 
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
