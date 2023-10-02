@@ -1071,6 +1071,15 @@ items:
                       href: direct-routing-protocols-media.md
                 - name: Direct Routing Survivable Branch Appliance
                   href: direct-routing-survivable-branch-appliance.md
+
+    - name: Shared Calling - A simpler solution
+      items:
+        - name: Plan for Shared Calling
+          href: shared-calling-plan.md
+        - name: Configure Shared Calling
+          href: shared-calling-setup.md
+        - name: Shared Calling scenario
+          href: shared-calling-scenario.md
               
     - name: Phone numbers
       items: 
@@ -1865,7 +1874,7 @@ items:
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
-    - name: Interoperability with Microsoft 365 and Office 365
+    - name: Interoperability with Microsoft 365
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
@@ -1881,6 +1890,8 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Collaboration integration
+          href: collaboration-integration.md
     - name: Teams PowerShell
       items: 
         - name: Overview
