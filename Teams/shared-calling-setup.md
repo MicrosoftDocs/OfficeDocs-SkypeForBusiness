@@ -81,7 +81,7 @@ If inbound calling is required, you must associate this resource account with a 
 
 ## Step 4: Assign a location to the resource account for emergency calling
 
-You need the location id to assign the location to a resource account. You can get the location id by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
+You need the location ID to assign the location to a resource account. You can get the location ID by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
 
 To assign a location to a resource account number for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) PowerShell cmdlet.
 
@@ -99,7 +99,7 @@ For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-pla
 
 ## Step 7: Create voice routing policy without PSTN usages
 
-Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you are using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
+Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
 ## Step 8: Enable emergency calling for users
 
