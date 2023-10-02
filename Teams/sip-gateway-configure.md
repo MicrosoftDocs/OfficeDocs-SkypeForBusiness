@@ -161,7 +161,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 3. At the upper right, select **Actions** > **Provision devices** and follow one of these steps:
 
-  - **To provision one device:**
+   - **To provision one device:**
 
      a. Under **Waiting on activation**, select **Add**.
 
@@ -279,14 +279,14 @@ Bulk sign in is very helpful and can be used in these scenarios.
 
 1. Create a CSV file that will be used with two columns: **Username** and **HardwareId**.
   
-  - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
-  - **HardwareId** column: List the MAC address for each IP phone in this format: xx-xx-xx-xx-xx-xx or xx-xx-xx-xx-xx-xx:xxx (where the last three digits are the ATA port number. For analog devices, the port numbers start from 001.) An example for a MAC address without the ATA port number would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
-  - **Example CSV**:
+   - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
+   - **HardwareId** column: List the MAC address for each IP phone in this format: xx-xx-xx-xx-xx-xx or xx-xx-xx-xx-xx-xx:xxx (where the last three digits are the ATA port number. For analog devices, the port numbers start from 001.) An example for a MAC address without the ATA port number would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
+   - **Example CSV**:
   
-    |Username|HardwareId|
-    |:--------|:--------|
-    |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
-    |SecondFloorLobbyPhone2@contoso.com|2A-3B-4C-5D-6E-7F|
+     |Username|HardwareId|
+     |:--------|:--------|
+     |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
+     |SecondFloorLobbyPhone2@contoso.com|2A-3B-4C-5D-6E-7F|
 
 2. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
 
