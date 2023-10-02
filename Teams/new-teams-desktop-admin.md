@@ -41,6 +41,8 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## New Teams availability
 
+New Teams is available for Windows and Mac.
+
 >[!Note]
 >
 >Now in **public preview:**
@@ -57,9 +59,12 @@ The new Teams client will be available for the Web soon:
 |Safari/Firefox (target date)|March 2024|
 |Gov/Special Clouds |March 2024|
 
-Coming soon:
+New Teams is not yet available for these**Customer segments:**  </br>
 
-**Customer segments:**  </br>-DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+- DoD (Government cloud)
+- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
+- Consumer
+- Desktop running a Windows 10 version earlier than 10.0.19041
 
 
 ## New Teams schedule for clients
