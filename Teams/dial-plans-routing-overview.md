@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
-ms.date: 09/29/2023
+ms.date: 10/02/2023
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
@@ -49,7 +49,7 @@ For more information, see [Direct Routing voice routing policy considerations](d
 
 ## Match dialed number to user
 
-A process called **Reverse Number Lookup (RNL)** uses strict string matching to find a user or resource account that matches the dialed phone number for an incoming PSTN call. For example, assume that a user is assigned the phone number +14255551234. If a PSTN call comes from the phone number +14255551234, RNL finds the user and the call is transferred to that user. However, if a PSTN call comes from the phone number 4255551234, RNL won't find the user and the call will fail or be routed to [unassigned number routing](routing-calls-to-unassigned-numbers.md).
+A process called **Reverse Number Lookup (RNL)** uses strict string matching to find a user or resource account that matches the dialed phone number for an incoming PSTN call. For example, assume that a user is assigned the phone number +14255551234;ext=1234. If an incoming PSTN call has the dialed phone number +14255551234;ext=1234, RNL finds the user and the call is transferred to that user. However, if an incoming PSTN call has the dialed phone number +14255551234, RNL won't find the user and the call will fail or be routed to [unassigned number routing](routing-calls-to-unassigned-numbers.md).
 
 ## Related topics
 
