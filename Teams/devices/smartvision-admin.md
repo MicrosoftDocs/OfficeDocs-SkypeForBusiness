@@ -102,8 +102,8 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
 2. Sign in to Microsoft Teams Rooms with admin privileges, right-select **install.bat**, and run as an administrator. The app starts the installation.
 3. Open Windows Device Manager and look for Yealink camera entry under the Cameras node.
 
-  > [!Note]
-  > If the list of Yealink cameras doesn't appear under the cameras section within 2 minutes of plugging in the device, check the USB cable or power supply and ensure that they are firmly connected.
+   > [!Note]
+   > If the list of Yealink cameras doesn't appear under the cameras section within 2 minutes of plugging in the device, check the USB cable or power supply and ensure that they are firmly connected.
 
 4. Locate and double-click **IntelligentIgnore** icon from the desktop.
 5. The Calibration App opens a window and you can **automatically** or **manually** select any region in the room to be ignored for face detection.
@@ -115,8 +115,8 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
       :::image type="content" source="../media/detect-monitor-mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
       
 
-  > [!Note]
-  > Ensure monitor(s) are connected to Microsoft Teams Room.
+     > [!Note]
+    > Ensure monitor(s) are connected to Microsoft Teams Room.
 
 6. Once you set the ignore region, the SmartVision 60 will restart and the changes will be applied.
 
