@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/20/2023
+ms.date: 10/02/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -52,11 +52,11 @@ Keep the following information in mind:
 
 - If you remove, reassign, or port the number of a resource account used in a Shared Calling policy, the policy remains intact, but outbound calls will fail for any users still configured to make calls from that number.
 
-- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md) for assistance.
+- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk) for assistance.
 
 - If you're attempting to use a resource account with an Operator Connect phone number assigned, you should confirm support for Shared Calling with your operator.
 
-- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md).
+- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk).
 
 ## Step 1: Assign Teams Phone licenses and enable users for voice
 
@@ -81,7 +81,7 @@ If inbound calling is required, you must associate this resource account with a 
 
 ## Step 4: Assign a location to the resource account for emergency calling
 
-You need the location id to assign the location to a resource account. You can get the location id by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
+You need the location ID to assign the location to a resource account. You can get the location ID by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
 
 To assign a location to a resource account number for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) PowerShell cmdlet.
 
@@ -99,7 +99,7 @@ For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-pla
 
 ## Step 7: Create voice routing policy without PSTN usages
 
-Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you are using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
+Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
 ## Step 8: Enable emergency calling for users
 
