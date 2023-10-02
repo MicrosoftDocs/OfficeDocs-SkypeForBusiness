@@ -20,13 +20,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams desktop client: Known issues 
+# Known issues for new Teams Windows desktop 
 
 
 ## Known issues
 
+There are a few known issues we're working on.  See [What features are changing in new Teams](#what-features-are-changing) to learn more about changes you will see.
 
-There are a few known issues we're working on.
 
 ### General
 
