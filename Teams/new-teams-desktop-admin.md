@@ -122,8 +122,4 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
 
 
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
-
-
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
