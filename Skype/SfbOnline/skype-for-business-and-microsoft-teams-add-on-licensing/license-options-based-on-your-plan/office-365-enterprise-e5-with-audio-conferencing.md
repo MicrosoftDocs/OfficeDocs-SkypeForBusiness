@@ -1,6 +1,7 @@
 ---
+ms.date: 03/16/2018
 title: "Office 365 Enterprise E5"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -36,3 +37,4 @@ The [Office 365 Enterprise E5](https://products.office.com/business/office-365-e
 |**Audio Conferencing is included!**  |Once you buy the license, Microsoft will be your audio conferencing provider.  |
 |**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world.**  |[Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization)|
 |**Phone System and voicemail is included!**  |Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365. <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing). |
+

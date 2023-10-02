@@ -1,7 +1,7 @@
 ---
 title: Optimize feedback and reporting for Microsoft Teams adoption
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -52,7 +52,7 @@ Best Practice: Have representatives from your internal support department or IT 
 There are three types of reporting you should review as you deploy and adopt Microsoft Teams:
 
 - [Service health](https://status.office365.com/) – from Microsoft 365, Office 365, and your internal IT support department.
-- [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports) – from Microsoft 365 or Office 365 view [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). You may also use information from other systems within your organization.
+- [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports) – from Microsoft 365 or Office 365 view [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](/microsoft-365/admin/activity-reports/activity-reports). You may also use information from other systems within your organization.
 - Service satisfaction – Gathered from internal community forums and surveys on specific experiences
 
 ![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Drive awareness and implement training](teams-adoption-drive-awareness.md)

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Schema (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeploySchemaPrepIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "To start the task to extend the schema for Skype for Business Serv
  
 To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page. Click **Next** to continue with the schema preparation.
   
+
 

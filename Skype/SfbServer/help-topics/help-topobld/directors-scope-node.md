@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.DirectorsScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: "The Director pools node lists the Director pools in your topology. You can perform the following action:"

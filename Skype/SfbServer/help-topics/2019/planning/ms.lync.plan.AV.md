@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Audio Video Conferencing (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
@@ -26,4 +27,5 @@ For planning details about enabling A/V conferencing in your organization, see t
   
 - [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
+
 

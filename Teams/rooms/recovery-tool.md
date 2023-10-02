@@ -1,18 +1,22 @@
 ---
-title: "Use the Microsoft Teams Rooms recovery tool"
-ms.author: dstrome
-author: dstrome
+title: Use the Microsoft Teams Rooms recovery tool
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 04/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - teams-rooms-devices
+  - Tier1
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state."
+description: This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state.
 ---
 
 # Use the Microsoft Teams Rooms recovery tool
@@ -24,7 +28,7 @@ This article discusses how to use the recovery tool for Microsoft Teams Rooms, w
 Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to Microsoft Teams Rooms.
 
 > [!NOTE]
-> Extracting the files from the MSI can be accomplished by many means. Any mechanism that extracts all the files and preserves their directory structure is acceptable. One such way is to use the command `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Room installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.
+> Extracting the files from the MSI can be accomplished by many means. Any mechanism that extracts all the files and preserves their directory structure is acceptable. One such way is to use the command `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Rooms installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.
 
 ## Running the tool
 

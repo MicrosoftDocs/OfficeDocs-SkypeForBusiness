@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System Skype for Business software license"
 ms.author: serdars
 author: SerdarSoysal
@@ -8,7 +9,7 @@ ms.reviewer: sohailta
 ms.topic: quickstart
 f1.keywords:
 - NOCSH
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: "Read this topic to learn how to check whether you have a Skype for Business software volume license."
@@ -51,3 +52,4 @@ If the customer doesn't have a Volume License Agreement, Skype for Business acti
 - Deployment date
     
 - If the customer has a Microsoft Technical Account Manager, the TAM's name and contact information
+

@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Conference participant activity report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -27,6 +28,9 @@ description: "Learn how to get the Skype for Business Conference Participant Act
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 The **Reports** dashboard shows you data on the usage of the Microsoft 365 or Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and dial-in/out conferences are being participated in by users in your organization.
+
+> [!NOTE] 
+> The information and data on the Microsoft 365 Experience insights dashboard helps you to better understand and improve your users' overall experience with Microsoft 365. [Learn more](/microsoft-365/admin/misc/experience-insights-dashboard).
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
@@ -110,3 +114,4 @@ If your organization's policies prevents you from viewing reports where user inf
 
   
  
+

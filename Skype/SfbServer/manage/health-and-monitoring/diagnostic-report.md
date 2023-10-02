@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Diagnostic Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -56,3 +57,4 @@ The following table lists the information provided in the Diagnostic Report for 
 |**Diagnostic header** <br/> |No  <br/> |Diagnostic ID description.  <br/> |
    
 A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3).
+

@@ -1,5 +1,5 @@
 ---
-title:  Phone System Direct Routing
+title: "Teams Phone System Direct Routing: SIP protocol"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,25 +7,26 @@ ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:  
-- Teams_ITAdmin_Help
-- M365-voice
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: nmurav
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-description: Direct Routing protocols
-appliesto:
-- Microsoft Teams
+f1.keywords: 
+  - NOCSH
+description: Direct Routing SIP protocol
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Direct Routing - SIP protocol
 
-This article describes how Direct Routing implements the Session Initiation Protocol (SIP). To properly route traffic between a Session Border Controller (SBC) and the SIP proxy, some SIP parameters must have specific values. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises SBC and the SIP proxy service.
+This article describes how Direct Routing implements the Session Initiation Protocol (SIP). To route traffic between a Session Border Controller (SBC) and the SIP proxy, some SIP parameters must have specific values. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises SBC and the SIP proxy service.
 
 ## Processing the incoming request: finding the tenant and user
 
-Before an incoming or outbound call can be processed, OPTIONS messages are exchanged between SIP Proxy and the SBC. These OPTIONS messages allow SIP Proxy to provide the allowed capabilities to SBC. It is important for OPTIONS negotiation to be successful (200OK response), allowing for further communication between SBC and SIP Proxy for establishing calls. The SIP headers in an OPTIONS messages to SIP Proxy are provided as an example below:
+Before an incoming or outbound call can be processed, OPTIONS messages are exchanged between SIP Proxy and the SBC. These OPTIONS messages allow SIP Proxy to provide the allowed capabilities to SBC. It's important for OPTIONS negotiation to be successful (200OK response), allowing for further communication between SBC and SIP Proxy for establishing calls. The SIP headers in an OPTIONS messages to SIP Proxy are provided as an example:
 
 | Parameter name | Example of the value | 
 | :---------------------  |:---------------------- |
@@ -38,11 +39,11 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 | Contact Header | Contact: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the hosst itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
-> Please note, that SIPS URI should not be used with Direct Routing as it is not supported.
+> The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host doesn't have a notion of users or when the host itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
+> SIPS URI should not be used with Direct Routing because it's not supported.
 > Check your Session Border Controller configuration and make sure that you are not using "Replaces" headers in SIP requests. Direct Routing  will reject SIP requests that have Replaces headers defined.
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it's important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
 This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
@@ -56,7 +57,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | From Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
+| Contact Header | Contact: <sip:+17168712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 On receiving the invite, the SIP proxy performs the following steps:
 
@@ -90,7 +91,7 @@ For all incoming SIP messages (OPTIONS, INVITE) to the Microsoft SIP proxy, the 
 
 Syntax: Contact:  <sip:phone or sip address@FQDN of the SBC;transport=tls> 
 
-As per [RFC 3261, section 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), a Contact header field MAY be present in an OPTIONS message. In Direct Routing the contact header is required. For INVITE messages in format above, for OPTIONS messages the userinfo can be removed from SIP URI and only FQDN sent in format as follows:
+As per [RFC 3261, section 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), a Contact header field MAY be present in an OPTIONS message. In Direct Routing, the contact header is required. For INVITE messages in the format above, for OPTIONS messages the userinfo can be removed from SIP URI and only FQDN sent in format as follows:
 
 Syntax: Contact:  <sip:FQDN of the SBC;transport=tls>
 
@@ -98,11 +99,11 @@ This name (FQDN) must also be in the Common Name or Subject Alternative name fie
 
 The support for wildcards is described in [RFC 2818, section 3.1](https://tools.ietf.org/html/rfc2818#section-3.1). Specifically:
 
-*"Names may contain the wildcard character \* which is considered to match any single domain name component or component fragment. E.g., \*.a.com matches foo.a.com but not bar.foo.a.com. f\*.com matches foo.com but not bar.com."*
+*"Names may contain the wildcard character \*, which is considered to match any single domain name component or component fragment. For example, \*.a.com matches foo.a.com but not bar.foo.a.com. f\*.com matches foo.com but not bar.com."*
 
 If more than one value in the Contact header presented in a SIP message is sent by the SBC, only the FQDN portion of the first value of the Contact header is used.
 
-As rule of thumb for Direct Routing, it is important that FQDN is used to populate SIP URI instead of IP. An incoming INVITE or OPTIONS message to SIP Proxy with Contact header where hostname is represented by IP and not FQDN, the connection will be refused with 403 Forbidden.
+For Direct Routing, it's important that FQDN is used to populate SIP URI instead of IP. An incoming INVITE or OPTIONS message to SIP Proxy with Contact header where hostname is represented by IP and not FQDN, the connection is refused with 403 Forbidden.
 
 #### Request-URI 
 
@@ -115,9 +116,9 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 #### From Header
 
-For all incoming calls, the From Header is used to match the caller's phone number against callee's blocked phone number list.
+For all incoming calls, the From Header is used to match the caller's phone number against the callee's blocked phone number list and used to perform reverse number lookup to find the caller's name from existing tenant and user records. 
 
-The phone number must contain a + as shown in the following example.
+For these lookups to work, the phone number must contain a + as shown in the following example.
 
 ```console
 From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
@@ -127,33 +128,33 @@ From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 
 The SIP proxy needs to calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite), and when replying to SIP Options. Either Contact or Record-Route are used. 
 
-According to [RFC 3261, section 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. If a proxy SBC is in use with [Local Media Optimization for Direct Routing](./direct-routing-media-optimization.md), a record route will need to be configured as the proxy SBC needs to stay in the route. 
+According to [RFC 3261, section 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. If a proxy SBC is in use with [Local Media Optimization for Direct Routing](./direct-routing-media-optimization.md), a record route needs to be configured as the proxy SBC needs to stay in the route. 
 
-Microsoft recommends using only Contact header if a proxy SBC is not used:
+Microsoft recommends using only Contact header if a proxy SBC isn't used:
 
-- Per [RFC 3261, section 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential if no proxy SBC is configured as all traffic goes between the Microsoft SIP proxy and the paired SBC. 
+- Per [RFC 3261, section 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which isn't essential if no proxy SBC is configured as all traffic goes between the Microsoft SIP proxy and the paired SBC. 
 
-- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration if a proxy SBC is not in use. 
+- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration if a proxy SBC isn't in use. 
 
 To calculate the next hop, the SIP proxy uses:
 
 - Priority 1. Top-level Record-Route. If the top-level Record-Route contains the FQDN name, the FQDN name is used to make the outbound in-dialog connection.
 
-- Priority 2. Contact header. If Record-Route does not exist, the SIP proxy will look up the value of the Contact header to make the outbound connection. (This is the recommended configuration.)
+- Priority 2. Contact header. If Record-Route doesn't exist, the SIP proxy will look up the value of the Contact header to make the outbound connection. (This is the recommended configuration.)
 
 If both Contact and Record-Route are used, the SBC administrator must keep their values identical, which causes administrative overhead. 
 
 ### Use of FQDN name in Contact or Record-Route
 
-Use of an IP address is not supported in either Record-Route or Contact. The only supported option is an FQDN, which must match either the Common Name or Subject Alternative Name of the SBC certificate (wildcard values in the certificate are supported).
+Use of an IP address isn't supported in either Record-Route or Contact. The only supported option is an FQDN, which must match either the Common Name or Subject Alternative Name of the SBC certificate (wildcard values in the certificate are supported).
 
 - If an IP address is presented in Record-route or Contact, the certificate check fails and the call fails.
 
-- If the FQDN does not match the value of the Common or Subject Alternative Name in the presented certificate, the call fails. 
+- If the FQDN doesn't match the value of the Common or Subject Alternative Name in the presented certificate, the call fails. 
 
 ## Inbound call: SIP dialog description
 
-The following table below summarizes the call flow differences and similarities between non-bypass and bypass modes:
+The following table summarizes the call flow differences and similarities between non-bypass and bypass modes:
 
 | Parameter name | Non-bypass mode | Bypass mode
 | :---------------------  |:---------------------- |:----------------|
@@ -176,15 +177,15 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 -   Call accepted – converted by the SIP proxy to SIP message 200 with SDP. On receiving message 200, the SBC is expected to send and receive media to and from the provided SDP candidates.
 
     > [!NOTE]
-    > Direct Routing does not support Delayed Offer Invite (Invite without SDP).
+    > Direct Routing doesn't support Delayed Offer Invite (Invite without SDP).
 
 #### Multiple endpoints ringing with provisional answer
 
 1.  On receiving the first Invite from the SBC, the SIP proxy sends the message "SIP SIP/2.0 100 Trying" and notifies all end user endpoints about the incoming call. 
 
-2.  Upon notification, each endpoint will start ringing and sending "Call progress” messages to the SIP proxy. Because a Teams user can have multiple end points, the SIP proxy might receive multiple Call Progress messages.
+2.  Upon notification, each endpoint starts ringing and sending "Call progress” messages to the SIP proxy. Because a Teams user can have multiple endpoints, the SIP proxy might receive multiple Call Progress messages.
 
-3.  For every Call Progress message received from the clients, the SIP proxy converts the Call Progress message to the SIP message "SIP SIP/2.0 180 Trying". The interval for sending such messages is defined by the interval of the receiving messages from the Call Controller. In the following diagram, there are two 180 messages generated by the SIP proxy. These messages come from the two Teams endpoints of the user. The clients each have a unique Tag ID.  Every message coming from a different endpoint will be a separate session (the parameter “tag” in the “To” field will be different). But an endpoint might not generate message 180 and send message 183 right away as shown in the following diagram.
+3.  For every Call Progress message received from the clients, the SIP proxy converts the Call Progress message to the SIP message "SIP SIP/2.0 180 Ringing". The interval for sending such messages is defined by the interval of the receiving messages from the Call Controller. In the following diagram, there are two 180 messages generated by the SIP proxy. These messages come from the two Teams endpoints of the user. The clients each have a unique Tag ID.  Every message coming from a different endpoint is a separate session (the parameter “tag” in the “To” field is different). But an endpoint might not generate message 180 and send message 183 right away as shown in the following diagram.
 
 4.  Once an endpoint generates a Media Answer message with the IP addresses of endpoint’s media candidates, the SIP proxy converts the message received to a "SIP 183 Session Progress" message with the SDP from the client replaced by the SDP from the Media Processor. In the following diagram, the endpoint from Fork 2 answered the call. If the trunk is non-bypassed, the 183 SIP message is generated only once (either Ring Bot or Client End Point). The 183 might come on an existing fork or start a new one.
 
@@ -197,9 +198,9 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 
 1.  On receiving the first Invite from the SBC, the SIP proxy sends the message "SIP SIP/2.0 100 Trying" and notifies all end user endpoints about the incoming call. 
 
-2.  Upon notification, each endpoint will start ringing and sending the message "Call progress” to the SIP proxy. Because a Teams user can have multiple end points, the SIP proxy might receive multiple Call Progress messages.
+2.  Upon notification, each endpoint starts ringing and sending the message "Call progress” to the SIP proxy. Because a Teams user can have multiple end points, the SIP proxy might receive multiple Call Progress messages.
 
-3.  For every Call Progress message received from the clients, the SIP proxy converts the Call Progress message to the SIP message "SIP SIP/2.0 180 Trying".  The interval for sending the messages is defined by the interval of receiving the messages from the Call Controller. On the picture below there are two 180 messages generated by the SIP proxy, meaning that user logged into three Teams clients and each client send the call progress. Every message will be a separate session (parameter “tag” in “To” field is different)
+3.  For every Call Progress message received from the clients, the SIP proxy converts the Call Progress message to the SIP message "SIP SIP/2.0 180 Trying".  The interval for sending the messages is defined by the interval of receiving the messages from the Call Controller. In the following diagram, there are two 180 messages generated by the SIP proxy, meaning that user logged into three Teams clients and each client send the call progress. Every message is a separate session (parameter “tag” in “To” field is different)
 
 4.  A Call Acceptance message is sent with the final candidates of the endpoint that accepted the call. The Call Acceptance message is converted to SIP message 200. 
 
@@ -210,7 +211,7 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 
 The same messages (100 Trying, 180, 183) are used in the media bypass scenario. 
 
-The schema below shows an example of the bypass call flow. 
+The following schema shows an example of the bypass call flow. 
 
 > [!NOTE]
 > The media candidates can come from different endpoints. 
@@ -224,7 +225,7 @@ The SBC must support Invite with Replaces.
 
 ## Size of SDP considerations
 
-The Direct Routing interface might send a SIP message exceeding 1,500 bytes.  The size of SDP primarily causes this. However, if there is a UDP trunk behind the SBC, it might reject the message if it is forwarded from the Microsoft SIP proxy to the trunk unmodified. Microsoft recommends stripping some values in SDP on the SBC when sending the message to the UDP trunks. For example, the ICE candidates or unused codecs can be removed.
+The Direct Routing interface might send a SIP message exceeding 1,500 bytes. The size of SDP primarily causes this. However, if there's a UDP trunk behind the SBC, it might reject the message if it's forwarded from the Microsoft SIP proxy to the trunk unmodified. Microsoft recommends stripping some values in SDP on the SBC when sending the message to the UDP trunks. For example, the ICE candidates or unused codecs can be removed.
 
 ## Call transfer
 
@@ -239,7 +240,7 @@ Direct Routing supports two methods for call transfer:
 
   With this option, the SIP proxy sends a Refer to the SBC and expects the SBC to handle the Transfer fully.
 
-The SIP proxy selects the method based on the capabilities reported by the SBC. If the SBC indicates that it supports the method “Refer”, the SIP proxy will use Option 2 for call transfers.
+The SIP proxy selects the method based on the capabilities reported by the SBC. If the SBC indicates that it supports the method “Refer”, the SIP proxy uses Option 2 for call transfers.
 
 The following is an example of an SBC sending the message that the Refer method is supported:
 
@@ -247,9 +248,9 @@ The following is an example of an SBC sending the message that the Refer method 
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
-If the SBC doesn’t indicate that Refer as a supported method, Direct Routing will use Option 1 (SIP proxy acts as a Referee) . The SBC  must also signal that it supports the Notify method:
+If the SBC doesn’t indicate that Refer as a supported method, Direct Routing uses Option 1 (SIP proxy acts as a Referee) . The SBC  must also signal that it supports the Notify method:
 
-Example of SBC indicating that Refer method is not supported:
+Example of SBC indicating that Refer method isn't supported:
 
 ```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
@@ -257,16 +258,16 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 ### SIP proxy processes Refer from the client locally and acts as a Referee
 
-If the SBC indicated that the Refer method is not supported, the SIP proxy acts as a Referee. 
+If the SBC indicated that the Refer method isn't supported, the SIP proxy acts as a Referee. 
 
-The Refer request that comes from the client will be terminated on the SIP proxy. (The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
+The Refer request that comes from the client is terminated on the SIP proxy. The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
 > ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-4.png)
 
 ### SIP proxy send the Refer to the SBC and acts as a Transferor
 
-This is the preferred method for call transfers, and it is mandatory for devices seeking media bypass certification. Call Transfer without the SBC being able to handle Refer is not supported in media bypass mode. 
+This is the preferred method for call transfers, and it's mandatory for devices seeking media bypass certification. Call Transfer without the SBC being able to handle Refer isn't supported in media bypass mode. 
 
 The standard is explained in Section 6 of RFC 5589. The related RFCs are:
 
@@ -285,13 +286,13 @@ If the call is transferred from one Teams user to another via the SBC, the SBC i
 
 To populate the To/Transferor fields for the transaction of the request internally, the SIP proxy needs to convey this information  inside the REFER-TO/REFERRED-BY headers. 
 
-The SIP proxy will form the REFER-TO as a SIP URI comprised of a SIP proxy FQDN in the hostname and either one of the following:
+The SIP proxy forms the REFER-TO as a SIP URI comprised of a SIP proxy FQDN in the hostname and either one of the following:
 
 - An E.164 phone number in the username part of the URI in case the transfer target is a phone number, or
 
 - x-m and x-t parameters encoding the full transfer target MRI and tenant ID respectively 
 
-The REFERRED-BY header is a SIP URI with transferor MRI encoded in it as well as transferor tenant ID and other transfer context parameters as shown in the following table:
+The REFERRED-BY header is a SIP URI with transferor MRI encoded in it and transferor tenant ID and other transfer context parameters as shown in the following table:
 
 | Parameter | Value | Description |  
 |:---------------------  |:---------------------- |:---------------------- |
@@ -305,13 +306,28 @@ The size of the Refer Header can be up to 400 symbols in this case. The SBC must
 > [!div class="mx-imgBorder"]
 > ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-5.png)
 
+## Call forwarding
+
+A Teams user can forward incoming calls to another number or Teams user, ring other user or users in parallel (simultaneous ring), or ring a group of users or numbers. Consider the following:
+
+- Request-URI in INVITE request from SIP proxy to User C contains the *cause* parameter. 
+
+- Based on trunk configurations (*ForwardCallHistory* parameter), the History-Info header is populated. 
+
+- When User A is another PSTN user, SIP proxy generates the "SIP SIP/2.0 181 Call is being forwarded" provisional response to User A. 
+
+- If User A and User C are PSTN users, SIP proxy preserves the "SIP SIP/2.0 181 Call is being forwarded" provisional response. 
+
+- The History-Info header should be used for loop-prevention.  
+
+
 ## Session timer
 
-The SIP proxy supports (always offers) the Session Timer on non-bypass calls but does not offer it on bypass calls. Use of the Session Timer by the SBC is not mandatory.
+The SIP proxy supports (always offers) the Session Timer on non-bypass calls but doesn't offer it on bypass calls. Use of the Session Timer by the SBC isn't mandatory.
 
 ##  Use of Request-URI parameter user=phone
 
-The SIP proxy analyses the Request-URI and if the parameter user=phone is present, the service will handle the Request-URI as a phone number, matching the number to a user. If parameter is not present the SIP proxy applies heuristics to determine  the Request-URI user type (phone number or a SIP address).
+The SIP proxy analyses the Request-URI and if the parameter user=phone is present, the service handles the Request-URI as a phone number, matching the number to a user. If parameter isn't present the SIP proxy applies heuristics to determine  the Request-URI user type (phone number or a SIP address).
 
 Microsoft recommends always applying the user=phone parameter to simplify the call setup process.
 
@@ -321,41 +337,42 @@ The History-Info header is used for retargeting SIP requests and “provide(s) a
 
 If sending, the History-Info is enabled as follows:
 
-- The SIP proxy will insert a parameter containing the associated phone number in individual History-Info entries that comprise the History-Info header sent to the PSTN Controller.  Using only entries that have the phone number parameter, the PSTN Controller will rebuild a new History-Info header, and pass it on to the SIP trunk provider via SIP proxy.
+- The SIP proxy inserts a parameter containing the associated phone number in individual History-Info entries that comprise the History-Info header sent to the PSTN Controller.  Using only entries that have the phone number parameter, the PSTN Controller rebuilds a new History-Info header, and pass it on to the SIP trunk provider via SIP proxy.
 
-- History-Info header will be added for simultaneous ring and call forwarding cases.
+- History-Info header is added for simultaneous ring and call forwarding cases.
 
-- History-Info header will not be added for call transfer cases.
+- History-Info header won't be added for call transfer cases.
 
-- An individual history entry in the reconstructed History-Info header will have the phone number parameter provided combined with the Direct Routing FQDN (sip.pstnhub.microsoft.com) set as the host part of the URI; a parameter of ‘user=phone’ will be added as part of the SIP URI.  Any other parameters associated with the original History-Info header, except for phone context parameters, will be passed through in the re-constructed History-Info header.  
+- An individual history entry in the reconstructed History-Info header will have the phone number parameter provided combined with the Direct Routing FQDN (sip.pstnhub.microsoft.com) set as the host part of the URI; a parameter of ‘user=phone’ is added as part of the SIP URI.  Any other parameters associated with the original History-Info header, except for phone context parameters, is passed through in the re-constructed History-Info header.  
 
   > [!NOTE]
-  > Entries that are private (as determined by the mechanisms defined in Section 3.3 of RFC 4244) will be forwarded as is because  the SIP trunk provider is a trusted peer.
+  > Entries that are private (as determined by the mechanisms defined in Section 3.3 of RFC 4244) is forwarded as is because  the SIP trunk provider is a trusted peer.
 
-- Inbound History-Info is ignored.
+- Inbound History-Info is preserved when the ForwardCallHistory parameter is enabled. Preserved History-Info can be used for loop-prevention.
 
 Following is the format of the History-info header sent by the SIP proxy:
 
 ```console
-<sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
+<sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3Bcause%3D486>;index=1.2
 ```
 
-If the call was redirected several times, information about every redirect is included with the appropriate reason in chronological order.
-
+If the call was redirected several times, information about every redirect is included with the appropriate reason in chronological order, in a comma-separated list.
 
 Header Example:
 
 ```console
-History-info: 
-<sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
-<sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1
+History-Info:
+  <sip:+14257123456@sip.pstnhub.microsoft.com:5061;user=phone?Reason=SIP%3Bcause%3D302%3Btext%3D%22Moved%20temporarily%22>;index=1,
+  <sip:+14257123456@sip.pstnhub.microsoft.com:5061;user=phone?Reason=SIP%3Bcause%3D496%3Btext%3D%22User%20Busy%22>;index=1.1
 ```
+
+The SIP URI in the History-Info header is formatted as per Section 25 of RFC 3261 (see the definition of `addr-spec`). In the previous example, the original text of the URI header `Reason` is `SIP;cause=496;text="User Busy"`, which gets its `;`, `"`, and `=` characters escaped to their ASCII hex values `%3B`, `%22`, and `3D`, respectively.
 
 The History-Info is protected by a mandatory TLS mechanism. 
 
 ## SBC connection to Direct Routing and failover mechanism
 
-See the section Failover mechanism for SIP signaling in [Plan for Direct Routing](direct-routing-plan.md#failover-mechanism-for-sip-signaling).
+See the section Failover mechanism for SIP signaling in [Plan for Direct Routing](direct-routing-plan.md#sip-signaling-failover-mechanism).
 
 ## Retry-After
 
@@ -365,15 +382,15 @@ When the SBC receives a 503 message with a Retry-After header in response to an 
 ## Handling retries (603 response)
 If an end user observes several missed calls for one call after declining the incoming call, it means that the SBC or PSTN trunk provider's retry mechanism is misconfigured. The SBC must be reconfigured to stop the retry efforts on the 603 response.
 
-## ICE Restart: Media bypass call transferred to an endpoint that does not support media bypass
+## ICE Restart: Media bypass call transferred to an endpoint that doesn't support media bypass
 
 The SBC must support ICE restarts as described in [RFC 5245, section 9.1.1.1](https://tools.ietf.org/html/rfc5245#section-9.1.1.1).
 
 The restart in Direct Routing is implemented according to the following paragraphs of the RFC:
 
-*To restart ICE, an agent MUST change both the ice-pwd and the ice-ufrag for the media stream in an offer.  Note that it is permissible to use a session-level attribute in one offer, but to provide the same ice-pwd or ice-ufrag as a media-level attribute in a subsequent offer.  This is not a change in password, just a change in its representation, and does not cause an ICE restart.*
+*To restart ICE, an agent MUST change both the ice-pwd and the ice-ufrag for the media stream in an offer.  It's permissible to use a session-level attribute in one offer, but to provide the same ice-pwd or ice-ufrag as a media-level attribute in a subsequent offer.  This isn't a change in password, just a change in its representation, and does not cause an ICE restart.*
 
 *An agent sets the rest of the fields in the SDP for this media stream as it would in an initial offer of this media stream (see
-Section 4.3).  Consequently, the set of candidates MAY include some, none, or all of the previous candidates for that stream and MAY include a totally new set of candidates gathered as described in Section 4.1.1.*
+Section 4.3).  So, the set of candidates MAY include some, none, or all of the previous candidates for that stream, and MAY include a new set of candidates gathered as described in Section 4.1.1.*
 
-If the call was initially established with media bypass, and the call is transferred to a Skype for Business client, Direct Routing needs to insert a Media Processor--this is because Direct Routing cannot be used with a Skype for Business client with media bypass. Direct Routing starts the ICE restart process by  changing the ice-pwd and ice-ufrag and offering new media candidates in a reinvite.
+If the call was initially established with media bypass, and the call is transferred to a Skype for Business client, Direct Routing needs to insert a Media Processor--this is because Direct Routing can't be used with a Skype for Business client with media bypass. Direct Routing starts the ICE restart process by  changing the ice-pwd and ice-ufrag and offering new media candidates in a reinvite.

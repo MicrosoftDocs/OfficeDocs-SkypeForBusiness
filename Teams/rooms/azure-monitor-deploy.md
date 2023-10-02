@@ -1,25 +1,31 @@
 ---
 title: Deploy Microsoft Teams Rooms monitoring with Azure Monitor
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: Turgayo
+ms.date: 02/23/2018
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
-f1.keywords:
-- NOCSH
+ms.subservice: itpro-rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: "This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor."
+description: This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Deploy :::no-loc text="Microsoft Teams Rooms"::: monitoring with :::no-loc text="Azure Monitor":::
 
 This article discusses how to set up and deploy integrated, end-to-end monitoring of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure Monitor"::: to provide basic telemetry and alerts that will help you manage :::no-loc text="Microsoft Teams Rooms":::. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
 

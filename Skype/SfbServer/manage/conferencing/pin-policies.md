@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage PIN policies for dial-in conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -201,3 +202,4 @@ Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
 For more information, including a complete syntax description and list of parameters, see [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
+

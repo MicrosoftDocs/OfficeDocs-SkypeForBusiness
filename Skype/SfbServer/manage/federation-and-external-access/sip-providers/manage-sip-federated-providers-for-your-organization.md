@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage SIP federated providers for your organization'
 ms.reviewer: 
 ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -52,13 +53,13 @@ Use the following procedure to create or edit Public providers.
 
 6.  On the **Edit SIP Federated Provider** page, you can type or edit the following settings:
     
-      - **Enable communications with this provider**   Selecting this setting enables IM with this provider’s users.
+      - **Enable communications with this provider**   Selecting this setting enables IM with this provider’s users.
     
-      - **Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.
+      - **Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.
     
-      - **Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the provider that you are configuring. This information is provided as a default item, and should only be changed if the public provider makes a change to the FQDN of the Access Edge service at the public provider.
+      - **Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the provider that you are configuring. This information is provided as a default item, and should only be changed if the public provider makes a change to the FQDN of the Access Edge service at the public provider.
     
-      - **Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.
+      - **Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.
         
         Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite. This setting does not limit who can contact you from the public provider’s network.
 
@@ -86,13 +87,13 @@ Use the following procedure to create or edit hosted providers.
 
 6.  On the **Edit SIP Federated Provider** page, you can type or edit the following settings:
     
-      - **Enable communications with this provider**   Selecting this setting enables communications with this provider’s users.
+      - **Enable communications with this provider**   Selecting this setting enables communications with this provider’s users.
     
-      - **Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.
+      - **Provider name:**   A required property, type the name of the provider as it will be reflected in the listing of SIP Federated Providers.
     
-      - **Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the hosted provider that you are configuring. This information should be provided by the hosted provider, and should only be changed if the hosted provider makes a change to the FQDN of the Access Edge service at the hosted provider.
+      - **Access Edge service (FQDN):**   A required property, type the fully qualified domain name of the Access Edge service of the hosted provider that you are configuring. This information should be provided by the hosted provider, and should only be changed if the hosted provider makes a change to the FQDN of the Access Edge service at the hosted provider.
     
-      - **Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.
+      - **Default verification level:**   The default setting, **Allow users to communicate with people on their Contacts list who use this provider** will limit communication to contacts that you have accepted and are in your contact list.
         
         Selecting **Allow users to communicate with everyone using this provider** removes the restriction that you must have received and accepted a contact invite. This setting does not limit who can contact you from the hosted provider’s network.
 
@@ -105,4 +106,5 @@ Use the following procedure to create or edit hosted providers.
 [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+
 

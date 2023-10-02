@@ -4,6 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -35,7 +38,7 @@ For a complete list of all the countries/regions and cities where Audio Conferen
 
 ## Dial-in phone numbers in a meeting invite
 
-When a Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to **Users**, selecting the user, and editing the user's Audio Conferencing settings. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
+To manage phone numbers that are included When a Microsoft Teams user schedules a meeting in Outlook or the Outlook Web App, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## Dial-in phone numbers set on an audio conferencing bridge
 

@@ -1,20 +1,23 @@
 ---
 title: Tools & workshops - Plan, deliver, & adopt Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
+ms.date: 08/17/2017
 description: Planning tools, workshops, and getting started kits to help organizations get started with Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Tools and workshops: Plan, deliver, and adopt Microsoft Teams

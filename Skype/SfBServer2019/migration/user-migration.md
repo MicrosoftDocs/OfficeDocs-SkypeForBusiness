@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "User migration"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -20,4 +21,5 @@ A generally accepted best practice for migrations is to create several test user
 For additional information on enabling users for Skype for Business Server 2019, see the Deploying Skype for Business Server 2019 documentation. 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
+
 

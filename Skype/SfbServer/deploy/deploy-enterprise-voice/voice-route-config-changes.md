@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Publish pending changes to the voice routing configuration in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -57,4 +58,5 @@ After you make changes to any of the configuration settings in pages in the **Vo
     
     When Skype for Business Server Control Panel has committed the changes, the **Successfully published voice routing configuration** message appears.
     
+
 

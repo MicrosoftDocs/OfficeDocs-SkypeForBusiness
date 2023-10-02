@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
+ms.date: 11/01/2018
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.
 ms.localizationpriority: medium
 search.appverid: MET150

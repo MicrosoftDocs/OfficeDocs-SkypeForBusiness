@@ -1,44 +1,44 @@
 ---
-title: Teams and Outlook email integration
-author: SerdarSoysal
-ms.author: serdars
+title: Manage actionable activity emails
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: kblevens
+ms.reviewer: 
+ms.date: 12/13/2019
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about Teams and Outlook email integration features, including features that let users share information between email in Outlook and chat or channel conversations in Teams.  
+description: Learn about enabling and disabling actionable activity emails of Microsoft Teams conversations  
 ms.collection: 
   - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
   - Microsoft Teams
 ---
 
-# Teams and Outlook email integration
+# Manage actionable activity emails
 
-Microsoft Teams includes features that make it easy for users in your organization to share information between email in Outlook and chat or channel conversations in Teams and to stay on top of missed conversations. This article gives you an overview of these features and the admin controls that apply.
+Actionable activity emails are enabled by default and notify users in your organization of missed conversations on Microsoft Teams.
 
-## Share to Outlook
+A missed activity email shows the latest replies to a conversation, including messages sent after the missed message. This feature lets users reply directly from Outlook by selecting **Reply**.
 
-**Share to Outlook** lets users share a copy of a Teams conversation to an email in Outlook, without having to leave Teams. This feature is handy if users need to share conversations or status updates with users outside their immediate team or even your organization. Go to the top of the conversation in Teams, select **˙˙˙ More options**, and then select **Share to Outlook**.  To learn more, see [Share to Outlook from Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
+## Disable actionability in missed activity emails
 
-![Screenshot showing the Share to Outlook feature in Teams.](media/share-to-outlook.png)
+While this feature is set to enable by default, you can turn off actionability in activity emails across your organization by running the following command:
 
-To use this feature, Outlook on the web must be turned on for the user. If Outlook on the web is turned off, the **Share to Outlook** option isn't displayed in Teams for the user. For steps on how to turn on and turn off Outlook on the web, see [Enable or disable Outlook on the web for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+```Powershell
+Set-OrganizationConfig -SmtpActionableMessagesEnabled $false
+```
 
-## Actionable activity emails
-
-Users automatically get actionable missed activity emails which help them to catch up on missed conversations in Teams. The missed activity emails show the latest replies from a conversation, including messages that were sent after the missed message, and users can click **Reply** to respond directly from within Outlook. To learn more, see [Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
+Once the feature is disabled, the **Reply** option is replaced by **Reply in Teams** making the missed activity emails no longer considered actionable. Users will no longer be able to respond directly from Outlook and are directed to continue the conversation on Teams.
 
 > [!NOTE]
 > This feature isn't supported in Outlook for Mac or some older versions of Outlook for Windows. For more information, see [Actionable messages in Outlook and Office 365 Groups](/outlook/actionable-messages/).
 
-![Screenshot showing a missed activity email.](media/missed-activity-email.png)
+## Related topics
 
-![Screenshot showing how to reply to a missed activity email.](media/missed-activity-email-reply.png)
+[Reply to missed activity emails from Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
 
-You can use the [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet together with the **SmtpActionableMessagesEnabled** parameter to turn off actionable emails. By default, the **SmtpActionableMessagesEnabled** parameter is set to **true**. Setting the parameter to **false** turns off actionable email messages across Office 365. For Teams users, this means that the **Reply** option to respond directly in Outlook isn't available in missed activity emails. Instead, the missed activity emails include a **Reply in Teams** option for users to reply in Teams.
-
-See also [Actionable messages in Outlook and Office 365 Groups](/outlook/actionable-messages/).
+[Actionable messages in Outlook and Office 365 Groups](/outlook/actionable-messages/).

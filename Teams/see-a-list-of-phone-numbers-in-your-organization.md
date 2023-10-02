@@ -4,6 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: davlick, roykuntz, jastark
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
@@ -11,7 +12,9 @@ ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -29,7 +32,7 @@ description: Learn to use the Microsoft Teams admin center to see a list of all 
 
 There are different types of telephone numbers that you can assign to users or voice applications like [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md) or [Call Queues](plan-auto-attendant-call-queue.md). For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
-This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
+This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
 ## To see all telephone numbers in your organization
 
@@ -91,10 +94,10 @@ When you are setting up users in your organization to make and receive telephone
 
 You can use the Teams PowerShell module to get the same information from the previous sections, but version 1.1.6 or later is required, which includes the integration of the Skype for Business Online connector. For more information about the module, see [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
 
-To see a list of all telephone numbers that you have for your organization, use the [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) cmdlet. For example, to see each telephone number and its state, run the following command:
+To see a list of all telephone numbers that you have for your organization, use the [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlet. For example, to see each telephone number, its type and its state, run the following command:
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber | ft Id,ActivationState
+Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 ```
 
 To see all of the telephone numbers that are assigned to users, use the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, to see all users with a telephone number assigned, run the following command:
@@ -103,14 +106,17 @@ To see all of the telephone numbers that are assigned to users, use the [Get-CsO
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
+> [!IMPORTANT]
+> By default, the [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment) cmdlet returns the first 500 results.
+    
 ## Related topics
 
 [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 
-[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
+[Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
   
 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)

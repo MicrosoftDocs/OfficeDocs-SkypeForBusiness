@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "User Registration Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -91,4 +92,5 @@ The following table lists the information provided in the User Registration Repo
 |**Unique logon users** <br/> |No  <br/> |Total number of users who had at least one logon session. A user who had multiple logon sessions counts as one user, the same as a person who had just a single logon session.  <br/> |
 |**Unique active users** <br/> |No  <br/> |Total number of users who were involved in a peer-to-peer or conferencing session. A user who had multiple sessions counts as one user, the same as a person who had just a single session.  <br/> |
    
+
 

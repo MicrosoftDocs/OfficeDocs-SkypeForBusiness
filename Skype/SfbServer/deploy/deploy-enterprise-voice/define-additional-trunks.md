@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define additional trunks in Topology Builder in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -59,4 +60,5 @@ A trunk is a logical connection between a Mediation Server and a gateway.
   
 7. Click **OK**. 
     
+
 

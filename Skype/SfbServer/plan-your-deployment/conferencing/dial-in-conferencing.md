@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for dial-in conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -136,4 +137,5 @@ When scheduling a meeting, the meeting organizer can choose to restrict access t
     > [!NOTE]
     > Participants who join the conference by clicking a link instead of dialing in do not hear personal announcements. 
   
+
 

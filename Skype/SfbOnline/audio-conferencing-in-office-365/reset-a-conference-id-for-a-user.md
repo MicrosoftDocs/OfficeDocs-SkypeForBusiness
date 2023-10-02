@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Reset a conference ID for a user in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -84,3 +85,4 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 ## Related topics
 
 [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md)
+

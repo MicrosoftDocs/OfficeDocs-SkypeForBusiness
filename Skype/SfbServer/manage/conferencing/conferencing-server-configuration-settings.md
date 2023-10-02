@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage conferencing server configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -60,3 +61,4 @@ Set-CsConferencingConfiguration -Instance $x
 ```
 
 If you do not call the **Set-CsConferencingConfiguration** cmdlet, the new settings will never take effect. Instead, they will disappear as soon as you end your Windows PowerShell session or delete the variable $x.
+

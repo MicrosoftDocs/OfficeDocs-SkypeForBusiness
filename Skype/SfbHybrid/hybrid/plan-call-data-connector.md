@@ -1,14 +1,15 @@
 ---
+ms.date: 06/22/2018
 title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 description: "Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario."
@@ -45,7 +46,7 @@ The Call Analytics and CQD tools enable you to monitor the quality of calls and 
 
 - Call Quality Dashboard focuses on network performance and issues across an organization. Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.
 
-For more information, see [Microsoft Teams: Monitor and improve call quality](/monitor-call-quality-qos).
+For more information, see [Microsoft Teams: Monitor and improve call quality](/microsoftteams/monitor-call-quality-qos).
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
 
@@ -88,3 +89,4 @@ The following requirements assume that you already have Skype for Business Serve
 | Video-based screen sharing metrics | Yes | No |
 | Data APIs for programmatic access <br> to CQD | No | Yes |
 ||||
+

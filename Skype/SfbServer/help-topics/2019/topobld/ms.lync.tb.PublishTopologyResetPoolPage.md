@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Publish Topology Reset Pool Page"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
@@ -26,3 +27,4 @@ To add new computers to an existing pool, you must reset the pool to allow the W
 ## See also
 
 [Create and publish new topology in Skype for Business Server](../../../deploy/install/create-and-publish-new-topology.md)
+

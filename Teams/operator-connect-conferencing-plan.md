@@ -10,6 +10,9 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - m365initiative-meetings
+  - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -52,11 +55,11 @@ Operator Connect Conferencing provides the following benefits:
 
 - **Flexible allocation of phone numbers between your operator and Microsoft.** Use phone numbers from both Microsoft and your operator (with a Microsoft Audio Conferencing Standard subscription only), or only use phone numbers from your operator (with an Operator Connect Conferencing license only).
 
-- **Operator-managed infrastructure.** Your operator manages the Session Border Controllers (SBCs) and the interconnectivity with Microsoft, saving you from extra hardware purchases and management.
+- **Operator-managed infrastructure.** Your operator manages the Session Border Controllers (SBCs) and the interconnectivity with Microsoft, saving you from extra hardware purchases and management.
 
-- **Faster, easier deployment.** Quickly connect to your operator and assign phone numbers to your Audio Conferencing bridge from the Teams admin center.
+- **Faster, easier deployment.** Quickly connect to your operator and assign phone numbers to your Audio Conferencing bridge from the Teams admin center.
 
-- **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve service support, and direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
+- **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve service support, and direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
 Operator Connect Conferencing might be the right solution for your organization if:
 
@@ -68,7 +71,7 @@ Operator Connect Conferencing might be the right solution for your organization 
 
 - **Microsoft Audio Conferencing isn't available in your geographic location**
 
-- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries not included in your subscription
+- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries/regions not included in your subscription
 
 ## Licensing requirements and billing
 

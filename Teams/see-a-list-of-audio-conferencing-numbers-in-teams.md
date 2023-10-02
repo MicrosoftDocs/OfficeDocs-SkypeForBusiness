@@ -4,14 +4,16 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/15/2018
 ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -27,8 +29,8 @@ description: Learn how to look up the dial-in conferencing numbers that are avai
 # See a list of Audio Conferencing numbers in Microsoft Teams
 
 When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
-  
- **Looking for prices?** Review the **Audio Conferencing rates** section in [Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
+
+**Looking for prices?** Review the **Audio Conferencing rates** section in [Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Microsoft Teams meeting invitations.
   
@@ -56,6 +58,3 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
   
-## Related topics
-
-[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

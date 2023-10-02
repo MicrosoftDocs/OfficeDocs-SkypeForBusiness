@@ -4,13 +4,15 @@ ms.reviewer: cbland
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 4/2/2019
+ms.date: 02/17/2022
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: "Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in Feature support."
@@ -82,9 +84,8 @@ Save the following text to a PowerShell script file named, for example, ExportAu
 
 ```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
-if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
-{
-md $env:SYSTEMDRIVE\OAuthConfig
+if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false) {
+    md $env:SYSTEMDRIVE\OAuthConfig
 }
 cd $env:SYSTEMDRIVE\OAuthConfig
 $oAuthCert = (dir Cert:\LocalMachine\My) | where {$_.Thumbprint -match $thumbprint}
@@ -105,16 +106,16 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
    ```powershell
-   Connect-MsolService;
-   Import-Module msonlineextended;
+   Connect-MsolService
+   Import-Module MSOnline
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject
    $CertFile = $objFSO.GetAbsolutePathName($CertFile);
    $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-   $cer.Import($CertFile);
+   $cer.Import($CertFile)
    $binCert = $cer.GetRawCertData();
-   $credValue = [System.Convert]::ToBase64String($binCert);
-   $ServiceName = "00000004-0000-0ff1-ce00-000000000000";
+   $credValue = [System.Convert]::ToBase64String($binCert)
+   $ServiceName = "00000004-0000-0ff1-ce00-000000000000"
    $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
    New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
@@ -125,9 +126,10 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 ### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
 1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
-```powershell
-Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
-```
+
+   ```powershell
+   Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+   ```
 2. Press Enter when prompted for ReturnKeyValues
 3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates
 
@@ -143,7 +145,7 @@ Verify that the configuration is correct by verifying some of the features are w
 
 Alternately, look at your traffic. The traffic in an OAuth handshake is really distinctive (and doesn't look like Basic authentication), particularly around realms, where you’ll begin to see issuer traffic that looks like this: 00000004-0000-0ff1-ce00-000000000000@ (sometimes with a / before the @ sign), in the tokens that are being passed. You won’t see a username or password, which is the point of OAuth. But you will see   the ‘Office’ issuer – in this case ‘4’ is Skype for Business – and the realm of your subscription.
 
-If you want to be sure you’re successfully using OAuth, make certain you know what to expect and know what the traffic should look like. So [here’s what to expect](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), here’s a pretty standard [example of OAuth traffic in a Microsoft application](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  (really helpful to read, though it doesn't use Refresh tokens), and there are Fiddler extensions that will let you look into your OAuth JWT (JSON Web Token).
+If you want to be sure you’re successfully using OAuth, make certain you know what to expect and know what the traffic should look like. So [here’s what to expect](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34).
 
 Here's an [example of setting one up](/archive/blogs/kaevans/updated-fiddler-oauth-inspector), but you can use any network tracing tool you like to undertake this process.
 

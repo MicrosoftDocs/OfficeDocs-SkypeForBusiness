@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -38,11 +40,11 @@ To implement a Microsoft Phone System solution for their entire organization, Co
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier through Direct Routing
  
-To determine the right solution for their organization, Contoso used [Plan your Teams voice solution](/SkypeForBusiness/cloud-voice-landing-page) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+To determine the right solution for their organization, Contoso used [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) and the Ignite 2019 session [Calling in Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-for-calling-in-microsoft-teams-ignite-2019-edition/ba-p/974935).  
 
 ## Site Type A: Skype for Business Enterprise Voice 
 
-Contoso Skype for Business Enterprise Voice was set up as a hub and spoke. There was a central location that maintained the PSTN gateway in the region that provided the connection to the PSTN for the Skype for Business Enterprise Voice users in country. Often these satellite offices did not have their own Internet egress. The numbers for these users resided on the SIP trunk connecting to an existing SBC. 
+Contoso Skype for Business Enterprise Voice was set up as a hub and spoke. There was a central location that maintained the PSTN gateway in the region that provided the connection to the PSTN for the Skype for Business Enterprise Voice users in country/region. Often these satellite offices did not have their own Internet egress. The numbers for these users resided on the SIP trunk connecting to an existing SBC. 
 
 To determine if the SBC already deployed is certified for Direct Routing and Media Bypass, Contoso checked the [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).  
 
@@ -57,7 +59,7 @@ Contoso based their decision on the following questions:
   A. No 
 
 - Q. Do we need to retain our current third-party carrier?<br> 
-  A. Yes (regulated countries) and No 
+  A. Yes (regulated countries/regions) and No 
 
 - Q. Do we need to get the ROI on SBCs deployed?<br> 
   A. Yes and No  
@@ -69,7 +71,7 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are located in a region where PSTN calling plans is available to Phone System with Calling Plans. 
 
-- Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country that has telephony regulations to Phone System with Direct Routing. 
+- Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country/region that has telephony regulations to Phone System with Direct Routing. 
 
 The following diagram shows the initial Skype for Business Enterprise Voice deployment and how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
 
@@ -163,15 +165,6 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
   A. The caller ID for a user will be masked to the local number for Contoso. 
 
 
-## Direct Routing
-
-Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects used the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were used: 
-
-- [Plan for success with Microsoft Teams Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
-
-- [Updates for Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
-
-
 ## Configuration
 
 ### Calling Plans sites
@@ -184,7 +177,7 @@ Due to the number of users that needed to be assigned phone numbers, Contoso dec
 
 To connect Contoso's on-premises telephony infrastructure to Microsoft Teams, Contoso's administrator followed the steps in [Configure Direct Routing](direct-routing-configure.md) and reviewed the video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) for guidance.  Contoso also referred to the Direct routing deployment documentation by the certified SBC vendor. 
 
-Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators used the SIP Tester client that was discussed in the [Updates for Direct Routing session at Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
+Once Direct Routing was configured between the SBC and Microsoft Phone System, it was necessary for Contoso to test the configuration. To do this, Contoso administrators used the SIP Tester client that was discussed in the `[Updates for Direct Routing session at Ignite 2019](https://techcommunity.microsoft.com/t5/microsoft-teams-events-blog/ignite-live-blog-session-vce20-updates-for-direct-routing/ba-p/1025138). The SIP Tester client script and documentation was downloaded from the PowerShell script to test Direct Routing Session Border Controller connections.   
 
 
 ### Local Media Optimization

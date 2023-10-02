@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployMSIPath
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 description: "For details about using Deployment Wizard to install Skype for Business Server 2015, see Install Skype for Business Server 2015."

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring federation support for a Skype for Business Online customer'
 ms.reviewer: 
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,7 +36,7 @@ If you deploy Skype for Business in your organization, you can federate with the
 
 To federate with a Skype for Business Online customer, you should have already completed initial deployment and configuration of Skype for Business Server in your organization. This includes the following:
 
-- Deploying at least one Standard Edition server or one Enterprise Edition Front End pool in your organization.
+- Deploying at least one Standard Edition server or one Enterprise Edition Front End pool in your organization.
 - Enabling internal user accounts for Skype for Business Server.
 - Deploying at least one Edge Server and the other components required to support external user access. For details, see [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 - Enabling federation support within your organization and configuring the appropriate method for controlling access by federated domains. For details, see [Enable or disable remote user access](../access-edge/enable-or-disable-remote-user-access.md) and [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
@@ -96,3 +97,4 @@ To enable Skype for Business users in your organization to communicate with user
 - Configured your user accounts to support federation. For details, see [Configure user access for federation with a Skype for Business Online customer](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
 
 After you complete all of these steps and the administrator of the Skype for Business Online customer completes all configuration of their online services to support federation with your organization, verify communications by testing communications between an internal user in your organization and a user of the Skype for Business Online customer. If communication is not successful, use the Logging Tool from your Edge Server to capture log and trace files in order to troubleshoot the problem.
+

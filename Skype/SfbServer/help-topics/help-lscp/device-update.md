@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: "Microsoft periodically releases a new set of device firmware updates for Skype for Business Phone Edition, which you can import to your servers and distribute to users. You can obtain the latest set of device update rules by going to the Help and Support page on the Microsoft website and searching forPhone Edition.Download the latest update package and extract the files to a folder on the computer where the updates are to be uploaded. After the files have been extracted, you can then use the Import-CsDeviceUpdate cmdlet to import the device update rules found in the extracted .CAB file (which will have the name UCUpdates.cab). For details, see Import-CsDeviceUpdate."

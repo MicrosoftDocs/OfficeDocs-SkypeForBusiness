@@ -1,13 +1,14 @@
 ### YamlMime:FAQ
 metadata:
   title: Upgrading from Skype for Business to Teams FAQ
-  author: dstrome
-  ms.author: dstrome
+  author: MikePlumleyMSFT
+  ms.author: mikeplum
   manager: serdars
-  ms.topic: conceptual
+  ms.topic: faq
   ms.service: msteams
   audience: admin
   ms.reviewer: landerl
+  ms.date: 12/17/2020
   description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
   ms.localizationpriority: high
   search.appverid: MET150
@@ -21,7 +22,6 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-    
 title: FAQ — Upgrading from Skype for Business to Microsoft Teams
 summary: |
 
@@ -53,7 +53,7 @@ sections:
 
       - question: Do on-premises Skype for Business Server customers need to upgrade to Microsoft Teams when Skype for Business Online retires? 
         answer: |
-          No. The retirement of Skype for Business Online doesn't impact users homed on-premises. Though we encourage all customer to take advantage of the expanded functionality and performance Microsoft Teams offers, some Skype for Business Server customers may need to use the product stand-alone or as part of a hybrid configuration with Microsoft Teams. Refer to the [Microsoft Lifecycle Policy](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) site for support dates for versions of Skype for Business Server. 
+          No. The retirement of Skype for Business Online doesn't impact users homed on-premises. Though we encourage all customer to take advantage of the expanded functionality and performance Microsoft Teams offers, some Skype for Business Server customers may need to use the product stand-alone or as part of a hybrid configuration with Microsoft Teams. Refer to the [Microsoft Lifecycle Policy](https://learn.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) site for support dates for versions of Skype for Business Server. 
           
       - question: What happens after Skype for Business Online retires?
         answer: |
@@ -168,7 +168,7 @@ sections:
           
       - question: Is Audio Conferencing coverage in Teams different in Skype for Business?
         answer: |
-          There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+          There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries/regions and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
       - question: Will the latest generation of Skype Room Systems v2 support meetings in Teams?
         answer: | 

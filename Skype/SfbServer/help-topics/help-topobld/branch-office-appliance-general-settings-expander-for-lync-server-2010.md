@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: "To edit properties for Survivable Branch Appliance or Survivable Branch Server , under General, you configure:"

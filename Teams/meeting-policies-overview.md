@@ -1,16 +1,18 @@
 ---
 title: Manage meeting policies in Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua, shalenc
+ms.reviewer: 
+ms.date: 06/07/2018
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -37,9 +39,9 @@ You can implement policies in the following ways, which affect the meeting exper
 
 |Implementation type  |Description  |
 |---------|---------|
-|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
-|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Who can bypass the lobby** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
+|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Meet now in channel meetings** is a per-user policy.     |
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Meeting recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
@@ -58,7 +60,7 @@ For example, say you have a bunch of users and you want to limit the amount of b
 
 Under **Audio & video**:
 
-- Turn off Cloud recording.
+- Turn off Meeting recording.
 - Turn off IP video.
 
 Under **Content sharing**:
@@ -68,6 +70,10 @@ Under **Content sharing**:
 - Turn off Shared notes.
 
 Then assign the policy to the users.
+
+This video shows the steps to create and assign a custom meeting policy to a user (or users).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## Edit a meeting policy
 
@@ -81,6 +87,10 @@ You can edit the global policy and any custom policies that you create.
 > [!NOTE]
 > A user can be assigned only one meeting policy at a time.
 
+This video shows the steps to edit an organizational-wide default meeting policy.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
+
 ## Assign a meeting policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
@@ -88,18 +98,8 @@ You can edit the global policy and any custom policies that you create.
 > [!NOTE]
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
 
-## Meeting policy settings
-
-When you select an existing policy on the **Meeting policies** page or select **Add** to add a new policy, you can configure settings for the following.
-
-- [General](meeting-policies-in-teams-general.md)
-- [Audio & video](meeting-policies-audio-and-video.md)
-- [Recording & transcription](meetings-policies-recording-and-transcription.md)
-- [Content sharing](meeting-policies-content-sharing.md)
-- [Participants & guests](meeting-policies-participants-and-guests.md)
-
 ## Related topics
 
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

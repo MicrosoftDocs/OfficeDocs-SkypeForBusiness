@@ -13,7 +13,7 @@ metadata:
   audience: ITPro
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
+  ms.date: 06/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
   ms.custom: 
   - seo-marvel-apr2020
@@ -33,9 +33,9 @@ highlightedContent:
       itemType: how-to-guide
       url: ./upgrade-skype-teams.yml
     # Card
-    - title: Use Advisor for Teams to help you roll out Teams
-      itemType: get-started
-      url: ./use-advisor-teams-roll-out.md
+    - title: Discover Microsoft Teams Premium
+      itemType: overview
+      url: ./enhanced-teams-experience.md
 
 # productDirectory section (optional)
 productDirectory:
@@ -45,37 +45,37 @@ productDirectory:
     # Card
     - title: Pilot
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/list-123-teams.svg
       summary: Plan your rollout and pilot your solutions, so that you can have a smooth experience.
       url: ./get-started-with-teams-quick-start.md
     # Card
-    - title: Prepare for end user adoption 
+    - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
       summary: Get your users on board and share scenarios for success.
       url: ./adopt-microsoft-teams-landing-page.md
     # Card
     - title: Plan for enterprise deployment 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
       summary: Get your environment and infrastructure ready to deploy.
       url: ./deploy-enterprise-overview.md
     # Card
     - title: Deploy
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/deploy-teams.svg
       summary: Deploy Microsoft Teams across your organization.
       url: ./deploy-overview.md
     # Card
     - title: Secure
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/security-teams.svg
       summary: Follow these best practices to secure your data, files, and identities in Microsoft Teams.
       url: ./security-compliance-overview.md
     # Card
     - title: Manage
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/settings-teams.svg
       summary: Perform day to day management tasks for Microsoft Teams.
       url: ./manage-teams-overview.md
 
@@ -87,27 +87,27 @@ tools:
     # Card
     - title: Learn for IT Pros and admins
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-      url: /learn/teams/
+      imageSrc: https://learn.microsoft.com/office/media/icons/administrator.svg
+      url: /training/teams/
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform
-      imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/developer-teams.svg
       url: /microsoftteams/platform/
     # Card
     - title: End user help and learning
-      imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/help.svg
       url: https://support.office.com/Teams
     # Card
     - title: Teams blogs and Tech Community
-      imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/blog-site-teams.svg
       url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
     # Card
     - title: Teams product feedback
-      imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
-      url: https://microsoftteams.uservoice.com/
+      imageSrc: https://learn.microsoft.com/office/media/icons/user.svg
+      url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
     # Card
     - title: Download Microsoft Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/download-teams.svg
       url: https://www.microsoft.com/microsoft-teams/download-app
 
 # additionalContent section (optional)
@@ -154,14 +154,23 @@ additionalContent:
             - text: "Contoso case study: Teams voice migration"
               url: ./voice-case-study-overview.md
         # Card
+        - title: Devices and rooms
+          links:
+            - text: Microsoft Teams Rooms
+              url: ./rooms/index.md
+            - text: Microsoft Teams Rooms Pro
+              url: ./rooms/rooms-pro-management.md
+            - text: Devices
+              url: ./devices/device-store.md
+        # Card
         - title: Extend Teams functionality
           links:
-            - text: Apps, bots, & connectors in Microsoft Teams
-              url: ./deploy-apps-microsoft-teams-landing-page.md
+            - text: Apps in Microsoft Teams
+              url: ./apps-in-teams.md
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform
-              url: ./teams-power-platfom-integration.md
+              url: /microsoftteams/platform/samples/teams-low-code-solutions
             - text: Microsoft Teams app security and compliance
               url: /microsoft-365-app-certification/teams/teams-apps
             - text: Microsoft Viva - Employee Experience and Engagement
@@ -174,11 +183,11 @@ additionalContent:
             - text: Microsoft Teams for Education
               url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
             - text: Healthcare
-              url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
+              url: /microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
             - text: Frontline workers
               url: ./flw-landing-page.md
             - text: Retail
-              url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
+              url: /microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         # Card
         - title: Government
           links:

@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Set up Audio Conferencing for Skype for Business"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -148,3 +149,4 @@ The dial-in numbers that are set for the user will be automatically added to the
 [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md)
   
 [Set options for online meetings and conference calls](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+

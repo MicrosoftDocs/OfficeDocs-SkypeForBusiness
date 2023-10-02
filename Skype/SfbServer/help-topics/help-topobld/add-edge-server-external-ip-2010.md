@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: "You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service."

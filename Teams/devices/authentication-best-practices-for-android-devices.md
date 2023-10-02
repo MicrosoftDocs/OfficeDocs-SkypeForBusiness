@@ -1,22 +1,22 @@
 ---
-title: "Authentication best practices for Microsoft Teams shared device management of Android devices."
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+title: Authentication best practices for Microsoft Teams shared device management of Android devices.
+author: tonysmit
+ms.author: tonysmit
+manager: serdars
 ms.date: 12/16/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
-search.appverid: MET150 
+ms.subservice: itpro-devices
+search.appverid: MET150
 ms.reviewer: 
 description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multi-factor authentication advice and more.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+  - Teams_ITAdmin_Devices
+  - Tier1
+f1.keywords: 
+  - NOCSH
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
@@ -42,7 +42,7 @@ Shared Teams devices can't use the same requirements for enrollment and complian
 
 Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts will stop working on Teams devices until a Teams administrator resets the password and signs back in.
 
-**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they simply change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
+**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
 
 When your organization requires a password reset or enforces password expiration, be sure a Teams administrator is prepared to reset the password so these shared accounts can sign back in.
 
@@ -52,7 +52,8 @@ When your organization requires a password reset or enforces password expiration
 
 For example, if multi-factor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multi-factor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
 
-Multi-factor authentication isn't supported with shared devices. The methods to use instead are outlined below.
+> [!IMPORTANT]
+> Multi-factor authentication isn't supported with shared devices, such as Teams Rooms on Android. The methods to use instead are outlined below.
 
 ## Best practices for the deployment of shared android devices with Teams
 
@@ -60,20 +61,20 @@ Microsoft recommends the following settings when deploying Teams devices in your
 
 ### **Use a Resource account and curtail its password expiration**
 
-Teams shared devices should use an [Exchange resource mailbox](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Creating these mailboxes generates an account automatically. These accounts can either be synced to Azure AD from Active Directory or created directly in Azure AD. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration polices, set the password expiration policy for shared devices to never expire.
+Teams shared devices should use an [Exchange resource mailbox](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Creating these mailboxes generates an account automatically. You can either sync these accounts to Azure AD from Active Directory or create them directly in Azure AD. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
 
-Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. Instead of sharing passwords with technicians to set up devices, Tenant administrators should use remote sign-in to issue verification codes. Sign in can be done for these devices from the Teams admin center.
+Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. Instead of sharing passwords with technicians to set up devices, Tenant administrators should use remote sign-in to issue verification codes. You can sign into these devices from the Teams admin center.
 
 For more information, see [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
 ### **Review these Conditional Access policies**
 
-Azure AD Conditional Access sets additional requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that will allow shared device users to do their work.
+Azure AD Conditional Access sets other requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that will allow shared device users to do their work.
 
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
 
-### Do not use Multi-factor authentication for shared devices
+### Don't use Multi-factor authentication for shared devices
 
 Accounts for shared devices are linked to a room or physical space, rather than to an end user account. Because shared devices don't support multi-factor authentication, exclude shared devices from any multi-factor authentication policies.
 
@@ -94,8 +95,8 @@ If you're enrolling shared devices into Intune, you can configure device complia
 To set compliance setting for your devices using Intune, see [Use compliance policies to set rules for devices you manage with Intune](/intune/protect/device-compliance-get-started).
 
 >[!NOTE]
-> Shared devices being used for *hot desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
-> To increase security, you can also [require multi-factor authentication](/azure/active-directory/authentication/tutorial-enable-azure-mfa) for *hot desking users / user accounts* in addition to the named location policies.
+> Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
+> To increase security, you can also [require multi-factor authentication](/azure/active-directory/authentication/tutorial-enable-azure-mfa) for *hot-desking users / user accounts* in addition to the named location policies.
 
 ### Exclude shared devices from sign-in frequency conditions
 
@@ -107,9 +108,13 @@ In Conditional Access, you can [configure sign-in frequency](/azure/active-direc
 
 Use filters for devices to identify your common-area devices and enable policies in two key scenarios:
 
-1.  Excluding shared devices from policies applied for personal devices. For example, requiring device compliance *isn't enforced* for shared devices used for hot desking, but *is enforced* for all other devices, based on model number.
+1.  Excluding shared devices from policies applied for personal devices. For example, requiring device compliance *isn't enforced* for shared devices used for hot-desking, but *is enforced* for all other devices, based on model number.
 
 2.  Enforcing special policies on shared devices that *should not* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
 
 >[!NOTE] 
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
+
+### Microsoft Teams Rooms usage report
+New capabilities like the camera video minutes and call minutes data have been added to the Teams Rooms Pro management portal in the report section. This data allows users to track engagement during each meeting and have a better understanding of those data. 
+
