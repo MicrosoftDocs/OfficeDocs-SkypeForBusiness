@@ -47,10 +47,11 @@ The new Teams client is not yet available for:
 **Customer segments:**  </br>-DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 
-## New Teams schedule for Windows clients
+## New Teams schedule for clients
 
 >[!Note]
->*This schedule is only for **Windows clients**
+>**VDI**: Public preview starts October 5, 2023.</br>
+>**Government cloud:** Public preview for **GCC** and **GCC High** starts October 5, 2023.
  
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
@@ -113,15 +114,16 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|September 2023|
+|Teams Public Preview|October 2023|
 |Targeted Release Channel|October 2023|
 |Current Channel|Late October 2023|
 |Monthly Enterprise Channel|January 2024|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
 
+
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
->- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
+
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
