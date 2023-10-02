@@ -1,27 +1,26 @@
 ---
-title: "Configure call settings for users"
+title: Configure call settings for users
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 01/28/2022
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
   - M365-voice
-  - m365initiative-voice
+  - Tier1
 audience: Admin
-appliesto:
-  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
+f1.keywords: 
   - CSH
-ms.custom:
-  - ms.teamsadmincenter.callqueues.overview"
+ms.custom: 
+  - ms.teamsadmincenter.callqueues.overview
   - Phone System
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
 description: Learn how to configure user settings for call forwarding and delegation.
 ---
 # Configure call settings for your users
@@ -53,6 +52,10 @@ To configure simultaneous ringing, on the same page select **Ring the user's dev
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
 The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
+
+This video shows the steps to view and edit the voice settings for a user.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## Use PowerShell
 
@@ -145,6 +148,22 @@ To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cm
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
+
+## Diagnosing issues with Call Forwarding
+
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to forward calls recevied in Teams to a specific number. 
+
+1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Forwarding](https://aka.ms/TeamsCallForwardingDiag)
+
+2. In the Run diagnostic pane, enter the email of the user who's having issues forwarding calls in the **Username or Email** field. Enter the phone number (in E.164 format) that the user wants calls to be forwarded to and then select **Run Tests**.
+3. The tests will return the best next steps to address any user settings or configurations to validate that the user is properly configured to forward calls to a specific number in Teams.
+
+## Additional notes
+
+The default behavior for a user (whose call answering rules have not been modified either by the user or a Tenant admin) is that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
 
 ## Related topics
 

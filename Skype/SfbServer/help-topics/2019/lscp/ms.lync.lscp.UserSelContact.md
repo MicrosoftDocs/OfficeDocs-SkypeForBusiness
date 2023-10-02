@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Contacts from Active Directory"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.UserSelContact
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ Use the **Select from Active Directory** dialog box to find contacts who you wan
   
  
   
+
 

@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 description: "To define the public switched telephone network (PSTN) gateway for a Survivable Branch Appliance at a branch site, specify the following:"

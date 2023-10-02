@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: Skype for Business Online audio conferencing providers
 ms.author: serdars
 author: msdmaguire
@@ -86,3 +87,4 @@ For companies that want to certify their Wi-Fi products, contact Ixia, a third-p
 To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, download [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
 An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) is included in this version.
+

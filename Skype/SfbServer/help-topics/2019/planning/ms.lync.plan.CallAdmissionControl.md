@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Admission Control (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
@@ -24,4 +25,5 @@ Call admission control (CAC) determines, based on available network bandwidth, w
   
 For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
+
 

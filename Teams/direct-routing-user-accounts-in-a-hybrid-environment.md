@@ -1,6 +1,7 @@
 ---
 title: "User accounts in hybrid environment with PSTN"
 ms.reviewer:
+ms.date: 06/04/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto:
   - Microsoft Teams
 f1.keywords:

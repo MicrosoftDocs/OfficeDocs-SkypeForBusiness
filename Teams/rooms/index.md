@@ -1,21 +1,27 @@
 ---
 title: Microsoft Teams Rooms
 ms.reviewer: 
-ms.author: dstrome
-author: dstrome
+ms.date: 04/26/2018
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 ms.topic: article
 feedback_system: None
 ms.service: msteams
-f1.keywords:
-- NOCSH
+ms.subservice: itpro-rooms
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-ms.collection:
--  m365initiative-meetings
+ms.collection: 
+  - m365initiative-meetings
+  - M365-collaboration
+  - teams-rooms-devices
+  - highpri
+  - Tier1
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Learn how to set up Microsoft Teams Rooms, including planning, deploying, and managing the system to create your ideal virtual meeting room.
-ms.custom: seo-marvel-may2020
+ms.custom: seo-marvel-may2020; intro-overview
 ---
 # Microsoft Teams Rooms
 
@@ -34,12 +40,11 @@ ms.custom: seo-marvel-may2020
     :::column-end:::
 :::row-end:::
 
-<!-- The following three links to icon images work with site-relative URLs when published on docs.microsoft.com. -->
+<!-- The following three links to icon images work with site-relative URLs when published on learn.microsoft.com. -->
 
 |    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Deploy](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
-
 
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 

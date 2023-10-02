@@ -1,24 +1,24 @@
 ---
-title: "Microsoft Teams apps/Line of Business (LOB) app support on Teams panels"
-author: dstrome
-ms.author: dstrome
+title: Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 8/5/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer:
+ms.reviewer: 
 description: Describes the support for Teams apps/LOB apps.
-ms.collection:
+ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
-  - skype-for-business-itpro
-  - skype-for-business-online
-f1.keywords:
-- NOCSH
+  - Tier1
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-appliesto:
+appliesto: 
   - Microsoft Teams
 ---
 # Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
@@ -54,7 +54,7 @@ After setting up apps, you can use [app permission policies](/microsoftteams/tea
 
 ## Pin apps on Teams panels with app setup policies
 
-Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom app setup policy specifically for Teams panels.
+Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom policy in app setup policy specifically for Teams panels.
 
 ![User interface screenshot of the app setup policies page.](media/appsetup1.png)
 

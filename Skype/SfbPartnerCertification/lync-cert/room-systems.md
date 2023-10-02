@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync Room Systems"
 ms.author: serdars
 author: msdmaguire
@@ -26,7 +27,7 @@ description: "Read about the qualified Lync Room System products have been teste
 Lync Room Systems are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. The hardware includes, at a minimum, one or two large touch-enabled displays, high definition video cameras and microphones, and a console in the conference room that enables participation without a laptop or desktop from within the meeting room. These products have been tested and are optimized for Lync.
 
 > [!NOTE]
-> We recommend that you visit each vendor's website for the latest information regarding product specifications, country support, and documentation including release notes and known issues. Please contact the vendor for more information about these products.
+> We recommend that you visit each vendor's website for the latest information regarding product specifications, country/region support, and documentation including release notes and known issues. Please contact the vendor for more information about these products.
 <br/>
 
 ***Table - Qualified Lync Room Systems***
@@ -64,7 +65,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
                     <li><a href="https://support.microsoft.com/kb/3061980/">Article ID: 3061980 About the SCEP feature in April 2015 Update</a></li>
                     <li><a href="https://support.microsoft.com/kb/3048567/">Article ID: 3048567 April 2015 Update Release Notes</a></li>
                     <li><a href="https://support.microsoft.com/kb/2921197/en-us">Article ID: 2921197 User interface elements are not displayed when you restart Lync Room System</a></li>
-                    <li><a href="https://support.microsoft.com/kb/2926665/en-us">Article ID: 2926665 Lync Room System whiteboard drawing feature</a></li>
+                    <li>Article ID: 2926665 Lync Room System whiteboard drawing feature</li>
                     <li><a href="https://support.microsoft.com/kb/2920614/en-us">Article ID: 2920614 - Lync Room System device cannot sign in automatically when a user restarts the device</a></li>
                     <li><a href="https://support.microsoft.com/kb/2920616">Article ID: 2920616 - January 2014 Update</a></li>
                     <li><a href="https://support.microsoft.com/kb/2933446">Article ID: 2933446 - March Update, using SCOM</a></li>
@@ -100,3 +101,4 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
         </tr>
     </tbody>
 </table>
+

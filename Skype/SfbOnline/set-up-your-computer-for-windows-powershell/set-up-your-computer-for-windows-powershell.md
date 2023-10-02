@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Set up your computer for Windows PowerShell"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -61,3 +62,4 @@ You can find information about downloading and installing these items in the fol
 [Diagnose connection problems with the skype for business online connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
+

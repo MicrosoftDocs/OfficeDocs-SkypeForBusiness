@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "User models in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -157,4 +158,5 @@ We assume that 25% of registered users will be involved in Persistent chat sessi
 
 We assume that 0.15% of registered users belong to response groups. We assume that 0.02% of registered users have parked calls at any given point of time.
   
+
 

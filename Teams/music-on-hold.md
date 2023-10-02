@@ -8,13 +8,16 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 ms.reviewer: roykuntz
+ms.date: 08/31/2021
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-description: Learn how to manage the Music on Hold feature in Phone System.
+description: Learn how to manage the Music on Hold feature in Microsoft Teams Phone System.
 ---
 
 # Music on Hold
@@ -44,11 +47,33 @@ If a Teams user has a Teams calling policy with Music on Hold set to Disabled, t
 ## Configure custom music
 
 In addition to playing default music to callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the caller.
-For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.  
+For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.
+
+The configuration is done using call hold policies.
 
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
+### Use the Teams admin center
+You can use the Teams admin center to configure custom music on hold for your users by creating or editing call hold policies.
+
+To configure a new call hold policy:
+
+1. In the Teams admin center, go to **Voice** > **Call hold policies**.
+
+2. Select the **Add** tab.
+
+3. Give the policy a name and a description.
+
+4. Select **Upload file** to upload the custom music audio file.
+
+5. Select **Apply**.
+
+### Assign a custom call hold policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
+### Use PowerShell
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
 
 For supported audio formats and maximum file size, please see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
@@ -66,7 +91,7 @@ The configuration of custom Music on Hold starts with uploading the audio file. 
 An example of uploading an MP3 audio file using Windows PowerShell 5.1 is shown below. For other examples, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -102,16 +127,16 @@ The following table indicates which features on which clients and devices suppor
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
+| Hold on Transfer on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | 
+| Hold on Transfer on 1:1 Teams call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | 
 | Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Consultative Transfer on 1:1 Teams call |-Music on Hold<br>-Custom Music on Hold || -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 
 ## Restrictions
 
-- Music on Hold is only available in commercial and GCC cloud instances.
-
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
-- If the called Teams user is enabled for Location-Based Routing, Music on Hold cannot be played to the caller.
+- If the called Teams user is enabled for Location-Based Routing, only the standard Music on Hold is played to the caller.
 
 - Custom Music on Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music on Hold will be played.
 

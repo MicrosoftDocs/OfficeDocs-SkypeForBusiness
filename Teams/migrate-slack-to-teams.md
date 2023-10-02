@@ -1,23 +1,26 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: brandber
+ms.date: 10/14/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- m365initiative-migratetom365
+  - M365-collaboration
+  - m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: high
-f1.keywords:
-- NOCSH
-description: "Complete guidance for migrating from Slack to Microsoft Teams."
+f1.keywords: 
+  - NOCSH
+description: Complete guidance for migrating from Slack to Microsoft Teams.
 ---
 
 # Migrate from Slack to Microsoft Teams
@@ -338,7 +341,7 @@ Below are examples of Slack solutions where a Microsoft 365 Connector was used i
   - Check out this user solution for [sending New Relic alerts to Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)
 - Nagios
   - Alerts can be integrated today via Connectors. https://github.com/isaac-galvan/nagios-teams-notify
-- ZenDesk
+- Zendesk
   - App exists in Teams Store
 - Jenkins
   - Alerts can be sent to Teams using [Jenkins’s Office 365 Connector](https://plugins.jenkins.io/Office-365-Connector)

@@ -1,9 +1,10 @@
 ---
 title: Create a new template from an existing team template in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: aaglick
+ms.date: 07/07/2020
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to use an existing team template to create a new team tem
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

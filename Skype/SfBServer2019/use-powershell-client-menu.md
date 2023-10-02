@@ -1,13 +1,13 @@
 ---
 title: "Use PowerShell for tasks on Client menu"
 ms.reviewer: 
-ms.author: v-smandalika
+ms.author: ankum
 author: v-smandalika
 manager: dansimp
 ms.date: 10/12/2021
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

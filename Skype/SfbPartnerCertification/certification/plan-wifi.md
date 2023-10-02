@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
 ms.author: serdars
 author: msdmaguire
@@ -41,3 +42,4 @@ To learn management of the network infrastructure for Lync Server 2010 and 2013,
 Updated version of Delivering Lync 2013 Real-Time Communications over Wi-Fi is included in this version.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

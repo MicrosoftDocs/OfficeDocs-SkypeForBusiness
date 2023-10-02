@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerInternalIpPage2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: "Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server."

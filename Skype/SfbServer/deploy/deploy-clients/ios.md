@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install and test Skype for Business for iOS"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -66,4 +67,5 @@ After you sign in successfully, use the following tests to verify that your Skyp
     
 5. Verify that the IM notification appears on user A's mobile device. 
     
+
 

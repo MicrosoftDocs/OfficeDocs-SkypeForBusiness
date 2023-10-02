@@ -1,12 +1,13 @@
 ---
 title: Archive or delete a team in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
 manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: jastark
+ms.date: 04/12/2019
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
@@ -15,6 +16,8 @@ f1.keywords:
 ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection:
   - M365-collaboration
 appliesto:
@@ -23,7 +26,7 @@ appliesto:
 
 # Archive or delete a team in Microsoft Teams
 
-Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed.
+Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed. (If you're a team owner, you can also [archive a team](https://support.microsoft.com/office/dc161cfd-b328-440f-974b-5da5bd98b5a7).)
 
 When you archive a team, all activity for that team ceases. Archiving a team also archives private channels in the team and their associated site collections.  However, you can still add or remove members and update roles and you can still view all the team activity in standard and private channels, files, and chats.
 
@@ -43,7 +46,7 @@ Follow these steps to archive a team. You must be a Teams service admin to make 
     ![Screenshot of Teams archive message.](media/teams-archive-message.png)
 
 4. To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**. (Teams owners will still be able to edit this content.)
-5. Select **Archive** to archive the team. The team's status will change to **Archived**, it will be moved inside **Hidden teams** located at the bottom of the teams list, and a small icon representing the archived state will be added next to it.
+5. Select **Archive** to archive the team. The team's status will change to **Archived**, it will be temporarily available inside **Hidden teams** located at the bottom of the teams list, and a small icon representing the archived state will be added next to it. Once it is removed from **Hidden teams** it will be available in the **Manage teams** view under **Archived**. To view and search through the content of the archived team, select its name in the **Archived** list.
 
 ## Make an archived team active
 
@@ -121,4 +124,3 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 ## Related topics
 
 - [Archive or restore a team](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
-

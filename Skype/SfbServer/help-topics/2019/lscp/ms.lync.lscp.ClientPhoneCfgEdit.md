@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Device Configuration Create New or Edit Existing"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium

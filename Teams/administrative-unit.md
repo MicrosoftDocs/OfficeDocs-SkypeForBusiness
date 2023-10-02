@@ -1,8 +1,9 @@
 ---
 title: Manage devices with administrative units
-author: mahoffman
-ms.author: serdars
-ms.reviewer: prasad.ghlove
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: 
+ms.date: 07/14/2021
 manager: serdars
 ms.topic: article
 audience: admin
@@ -10,10 +11,11 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to use administrative units in Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 ms.collection: 
   - M365-collaboration
+  - Teams_ITAdmin_Devices
 appliesto: 
   - Microsoft Teams
 ---

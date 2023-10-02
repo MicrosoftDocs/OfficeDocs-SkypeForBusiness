@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Legal and regulatory"
 ms.author: tonysmit
 author: tonysmit
@@ -24,3 +25,4 @@ description: "This is content that must be published to meet requirements for ac
 # Legal and regulatory
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+

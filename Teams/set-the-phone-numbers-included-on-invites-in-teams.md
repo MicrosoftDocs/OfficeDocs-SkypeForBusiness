@@ -4,14 +4,16 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/16/2018
 ms.topic: article
 ms.assetid: 32954439-d365-4125-872f-b37466ecb035
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -45,11 +47,14 @@ The phone numbers included in the meeting invites of users enabled for Audio Con
 
 As noted above, In addition to phone numbers, each meeting invite contains a link that opens the full list of all dial-in phone numbers that can be used to join a given meeting.
 
+> [!IMPORTANT]
+> It can take up to 24 hours for the assigned phone numbers to show up on your meeting invite. If you aren't seeing updated numbers appear, please wait at least 24 hours before contacting support.
+
 ### New users
 
 The toll and toll-free phone numbers included in meeting invites for new users are also defined by the *TeamsAudioconferencingPolicy* that's assigned to those users. By default, all new users are assigned the Global *TeamsAudioconferencingPolicy*. The Global policy doesn't have any phone numbers added (Unless this is changed by the Tenant Administrator). In this case the phone numbers that get included in the meeting invites of users enabled for Audio Conferencing are defined by the default conferencing toll phone number and the default conferencing toll-free phone number found in each user's settings.
 
-For a new user, the default conferencing toll numbers is assigned based on the Usage Location set in the Microsoft 365 administration center of the user when the user is enabled for the Audio Conferencing service. If there's a toll number in the conference bridge that matches the country of the user, that number will be automatically assigned as the default toll number of the user. If there isn't one, the number that's defined as the default toll number of the conference bridge will be assigned as the default toll number of the user.  
+For a new user, the default conferencing toll numbers is assigned based on the Usage Location set in the Microsoft 365 administration center of the user when the user is enabled for the Audio Conferencing service. If there's a toll number in the conference bridge that matches the country/region of the user, that number will be automatically assigned as the default toll number of the user. If there isn't one, the number that's defined as the default toll number of the conference bridge will be assigned as the default toll number of the user.  
 
 Once the user is enabled for the Audio Conferencing service, the default toll and toll-free phone numbers of the user can be changed by the tenant administrator from their initial values as needed.
 
@@ -93,6 +98,6 @@ To set or change the default audio conferencing phone number for a meeting organ
 
 ## Related topics
 
-[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

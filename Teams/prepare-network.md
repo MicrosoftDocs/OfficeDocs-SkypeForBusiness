@@ -1,11 +1,12 @@
 ---
 title: Prepare your organization's network for Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: jastark, kojika
+ms.reviewer: jastark
+ms.date: 08/11/2017
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 ms.localizationpriority: high
@@ -115,7 +116,9 @@ For an in-depth discussion of network optimization, including guidance for ident
 <li><p>VPNs are typically not designed or configured to support real-time media.</p></li>
 <li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li>
 <li><p>VPNs also introduce an extra layer of encryption on top of media traffic that's already encrypted.</p></li>
-<li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li></td>
+<li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li>
+<li><p>Traffic may be routed to a service front door location that is further away from the end user, introducing additional latency and jitter.</p></li></td>
+
 </tr>
 <tr class="odd">
 <td>Implement QoS</td>
@@ -131,6 +134,10 @@ For an in-depth discussion of network optimization, including guidance for ident
 <li><p>When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.</p></li>
 </ul>
 <p>Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your WiFi vendor for specific guidance.</p></td>
+</tr>
+<tr class="odd">
+<td>Allow WebSocket protocol</td>
+<td><p>Teams utilizes long-living bidirectional WebSocket connections to efficiently deliver chat updates, call notifications and signaling, presence status changes, and other real-time notifications from cloud services to the client. If establishing WebSocket connections is not possible, a traditional HTTP long-polling transport is used as a fallback, resulting in increased bandwidth and latency. We recommend that you enable WebSocket traffic for optimal operation.</p></td>
 </tr>
 </tbody>
 </table>

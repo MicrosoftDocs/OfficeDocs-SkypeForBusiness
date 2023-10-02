@@ -1,12 +1,12 @@
 ---
 title: How Exchange and Microsoft Teams interact
-author: dstrome
-ms.author: dstrome
+author: JoanneHendrickson 
+ms.author: jhendr 
 manager: serdars
+ms.date: 08/10/2017
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
 f1.keywords:
 - NOCSH
@@ -55,7 +55,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
-<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
+<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, irrespective of whether their mailbox is homed on-premises or online.
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
@@ -81,12 +81,12 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
   > [!IMPORTANT]
-  > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
+  > If you uninstall the Skype for Business client after you move a user to **Teams Only** mode, presence may stop working in Outlook and other Office apps. Presence works fine in Teams. To resolve this issue, select the ellipses button at the left of your profile picture in the top right-hand corner of Microsoft Teams and then select **Settings**. On the **General** tab under **Application**, select **Register Teams as the chat app for Office (requires restarting Office applications)**. After you select this option, close and re-open all Office apps, including Outlook. After you open Outlook, presence information will be available.
 
 ## Requirements to create and view meetings for mailboxes hosted on-premises
 
   > [!NOTE]
-  > Create and view meetings for mailboxes hosted on-premises is currently only supported within commerical, GCC, and GCC High environments.
+  > The **Create and view meetings for mailboxes hosted on-premises** feature is only supported within commercial, GCC, and GCC High environments.
 
 If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
@@ -124,11 +124,14 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Private meeting scheduling](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
+- If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Private meeting scheduling](./manage-who-can-schedule-meetings.md).
 
 - In an Exchange hybrid deployment, content from chat messages is searchable regardless of whether chat participants have a cloud-based mailbox or an on-premises mailbox. To learn more, read [Searching cloud-based mailboxes for on-premises users](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). To learn about searching for content in Teams, read [Content Search in the Microsoft Purview compliance portal](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - For presence status, Microsoft Teams must check whether the mailbox is hosted on Exchange Online or on-premises. The service then decides where to access the mailbox. To enable the Teams service to check the mailbox location through the REST API call to the Exchange Online service, you have to deploy an Exchange hybrid environment by running the Exchange Hybrid Configuration wizard, as described in [Create a hybrid deployment with the Hybrid Configuration wizard](/exchange/hybrid-deployment/deploy-hybrid).
+
+>[!Important]
+>**GCC-H customers:** *Delegated Teams meeting scheduling* is not supported for GCC-High environments when the user's mailbox is hosted in on-premises Exchange Server.
 
 ## Troubleshooting
 

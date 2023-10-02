@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Create custom external access policies"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -101,3 +102,4 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 [Set up conferencing policies in your organization](set-up-conferencing-policies-for-your-organization.md)
 
   
+

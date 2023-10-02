@@ -1,10 +1,11 @@
 ---
 title: Manage the Lists app for your organization
-author: mkbond007
-ms.author: mabond
-ms.reviewer: anach,v-jasuk
+author: lana-chin
+ms.author: v-chinlana
 manager: serdars
-ms.topic: article
+ms.reviewer: 
+ms.date: 06/14/2023
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,9 +22,12 @@ ms.collection:
   - microsoftcloud-healthcare
   - microsoftcloud-retail
   - m365initiative-lists
+  - m365-frontline
+  - teams-1p-app-admin
+  - highpri
 appliesto: 
   - Microsoft Teams
-ms.custom: 
+ms.custom:
 ---
 
 # Manage the Lists app for your organization in Microsoft Teams
@@ -98,7 +102,7 @@ Lists is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Lists for specific users in your organization
 
-To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## Search the audit log for list events
 
@@ -112,6 +116,10 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 Lists supports [Power Automate](/power-automate/flow-types) for workflows and [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) for list forms. Developers can use the [Lists API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) to connect list data as a source through Microsoft Graph.
 
+## Lists data
+
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. See [Data Residency for SharePoint Online and OneDrive for Business](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
@@ -119,3 +127,5 @@ To send us feedback or report an issue, select **Help** near the bottom of the l
 ## Related articles
 
 - [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
+
+

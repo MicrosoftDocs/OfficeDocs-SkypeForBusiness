@@ -1,6 +1,7 @@
 ---
+ms.date: 04/04/2018
 title: "IP Relay in Canada - sign up"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
@@ -57,3 +58,4 @@ To get an IP Relay account set up for Canada, please complete the information in
 Once your account is ready (within 24 working hours), we will email you back with the User Name and Password. 
 
 Next, see the [IP Relay in Canada - user guide](ip-relay-canada-user-guide.md) to get started. 
+

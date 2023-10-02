@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Conference Activity Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -77,4 +78,5 @@ The following table lists the information in the Conference Activity Report for 
 |**Date/Time** <br/> |No  <br/> |Date and time when the conference was held.  <br/> |
 |**Total** <br/> |No  <br/> |Total participant count, total participant minutes, or total conference count.  <br/> |
    
+
 

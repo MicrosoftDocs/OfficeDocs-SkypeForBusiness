@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
+ms.date: 09/20/2021
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
@@ -15,6 +16,9 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - tier2
+ms.custom:
+  - admindeeplinkTEAMS
 appliesto:
   - Microsoft Teams
 ---
@@ -29,21 +33,20 @@ This article provides guidance to education IT professionals on requirements and
 
 Here are some resources IT admins can share with guardians and educators on how they can get started using the Parent Connection.
 
-- For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting guardians set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting educators set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## Benefits of Parent Connection
 
 The Parents Connection allows educators and guardians to chat, email, and call using Teams.
 
-- Teams guardian contact data stays current with SIS using School Data Sync (SDS).
+- Educators can initiate chats with guardians.
+  - If the guardian doesn't have a Teams consumer account or hasn't yet joined Teams, they'll receive the message from the educator along with an email invite to go to Teams. This only applies in cases where the invite limits haven't been reached, and the chat is a new chat or an existing chat that has been reentered from the Parent Connection.
 - It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
   - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
   - This setting can be changed by the tenant admin.
-- Educators can initiate chats with guardians.
-  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
-- Educators can click a guardian's email to email them using their native email client.
-- Educators can click a guardian's phone number to call them within Teams.
+- Educators can select a guardian's email to email them using their native email client.
+- Educators can select a guardian's phone number to call them within Teams.
 
 > [!IMPORTANT]
 > For click to call functionality in Teams, your tenant needs:
@@ -51,17 +54,27 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 > - Public Branch Exchange (PBX) capabilities.
 > - Connection to the PSTN.
 >
-> Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 >
 > Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You'll still need to [purchase a Teams Calling Plan or use a third-party solution](pstn-connectivity.md) to connect to external numbers on the PSTN.
 >
 > For more information on all your options to get PSTN connectivity, see [PSTN connectivity options](pstn-connectivity.md).
 >
-> For more information on Teams calling licensing, see [Teams add-on licensing options](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> For more information on Teams calling licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## Requirements
 
+You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information.
+
+### Graph API
+
+If you already use [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) to create Student identities, you can easily include [relatedContact resource type](/graph/api/resources/relatedcontact).
+
 ### School Data Sync
+
+Teams guardian contact data stays current with SIS using School Data Sync (SDS), when SDS is set up to sync regularly.
+
+If guardian is removed from a *Student's* records, any existing chats involving them will contain a banner visible to chat owner. This banner will make the chat owner aware of the change, asking them to remove the guardian from the chat. Microsoft won't automatically update chat membership to remove the guardian.
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
   - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
@@ -71,11 +84,14 @@ The Parents Connection allows educators and guardians to chat, email, and call u
   - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
 - Currently, SDS only supports CSV-based data ingestion for Parent Contacts; however, you can use [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) or [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) for all roster data, and just add Parent Contacts using CSV.
-  - Create a second sync profile using the [SDS v1 CSV Sync format](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
+  - Create a second sync profile using the [SDS v1 CSV format](/schooldatasync/school-data-sync-format-csv-files-for-sds) or [SDS v2.1 CSV format](/schooldatasync/sds-v2.1-csv-file-format-classic).
+  - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1/v2.1 files empty (just the headers).
     - User.csv
     - Guardianrelationship.csv
-  - To view a sample set of the v1 CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+      - The *Role* value needs to be completed for each parent and guardian to indicate if they're a `parent` or `guardian`.
+        - Only the values of `parent` or `guardian` are supported in the app. Other values will result in errors.
+        - For the SDS v1 format, it will be labeled as **Role**, but for the SDS v2.1 format, it will be labeled as **relationshipRole**.
+  - To view a sample set of the CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
@@ -83,16 +99,26 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 
 - Class team owners must have Teams chat turned on.
 - Class team owners must have external access with **Teams accounts not managed by an organization** turned on.
-  - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
+  - This must be turned on at the tenant level and the user level. The tenant-level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User-level external access policies can only be accessed via PowerShell. For more information, see the [PowerShell commands below](#allow-external-access-with-teams-accounts-not-managed-by-an-organization).
+- To allow meeting creation from the Parent Connection app, the following policies must be turned on:
+  - [Allow private meeting scheduling](meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+  - [Allow anonymous users to join the meeting](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 #### Parent and guardian restrictions
-Parents and guardians are classified as External users in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're added to as well as files, images, and other content shared in the chat.
 
-Also, External users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+Parents and guardians are classified as *external* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
 
-Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+For external chats, both internal and external people can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
+
+Also, external people can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+
+Even though parents and guardians are external, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+
+> [!IMPORTANT]
+> IT admins should educate all Class Owners on best practices for sharing student information over chat, including risks to student privacy.
 
 #### Blocking a parent or guardian in a chat
+
 Educators can block a guardian in chat initiated in the Parent Connection.
 
 The class owner can:
@@ -100,7 +126,7 @@ The class owner can:
 1. Open the guardian's profile card, select the ellipse and **Block User**.
 2. Then, remove the guardian from the chat.
 
-The blocked user won't be able to start additional chats with the class owner.
+The blocked user won't be able to start other chats with the class owner.
 
 ## Allow external access with Teams accounts not managed by an organization
 
@@ -108,7 +134,7 @@ To allow educators to communicate with parents and guardians in Teams, the educa
 
 Here are the steps to turn on external access for parents and guardians.
 
-1. Install the latest Microsoft Teams PowerShell module preview.
+1. Install the latest Microsoft Teams PowerShell module here [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -134,8 +160,8 @@ Here are the steps to turn on external access for parents and guardians.
 
 4. For each policy other than the 'Global' policy, check which users have the policy assigned.
 
-   > [!NOTE]
-   > Any users who do not have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
+    > [!NOTE]
+    > Any users who do not have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -160,11 +186,57 @@ Once the user-level external access policies are set correctly for the users in 
 
 ## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
 
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
 
 The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
+
+## Set a preferred invitation channel
+
+Admins can choose either email or SMS as their preferred Parent Connection invitation channel.
+
+Messages sent to parents and guardians will be in plain text, without HTML, formatting, or styles applied.
+
+> [!NOTE]
+> If you choose SMS as the preferred channel for sending Parent Connection invites to parents and guardians, be aware that:
+>
+> - Parent and guardian phone numbers must be E.164 formatted for SMS invites and profile look-up to work.
+>   - For example, format phone numbers as `+[country code][area code][phone number]`, like `+12223334444`.
+> - Mobile carrier SMS rates may be charged to parents and guardians who receive SMS invitations.
+
+### Set a preferred invite channel in the Teams admin center
+
+1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Go to **Education** > **Parent and guardian settings**.
+1. In the **Preferred contact method** field, select either **Email** or **Mobile phone - SMS**.
+1. Save your changes.
+
+### Set a preferred invite channel using PowerShell
+
+1. Install the *4.9.0 version or greater* of the Teams PowerShell module at [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+
+1. Run the command below and sign in with admin credentials.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+1. Run the command below to view the current value for `ParentGuardianPreferredContactMethod`.
+
+    ```powershell
+    Get-CsTeamsEducationConfiguration
+    ```
+
+1. Run one of the commands below to change the value.
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod Email
+    ```
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod SMS
+    ```
 
 ## More information
 

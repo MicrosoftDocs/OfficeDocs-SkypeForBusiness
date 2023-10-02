@@ -9,8 +9,10 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - m365solution-voice
-
+  - highpri
+  - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -28,7 +30,7 @@ Contoso has deployed Microsoft 365 Enterprise and addressed major design decisio
 
 This article focuses on how Contoso migrated their on-premises users to Teams for unified communication, collaboration, and voice. For background information about how Contoso accelerated their digital transformation by using Microsoft's cloud services, see all the core articles starting with the [Contoso case study overview](/microsoft-365/enterprise/contoso-case-study).
 
-[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
+[https://learn.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 In the core articles, you'll find information on the following:  
 
@@ -63,7 +65,7 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Location-Based Routing 
 
-  With office locations in telephony-regulated countries, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
+  With office locations in telephony-regulated countries/regions, Contoso needed to recreate the Location-Based Routing that was present in Skype for Business in their Phone System deployment. For more information, see [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Emergency Calling 
 
@@ -79,4 +81,4 @@ To migrate their on-premises users to Teams for unified communication, collabora
 
 - Auto Attendants and Call Queues
 
-  As a result of Covid-19, Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).
+  Contoso wanted to provide receptionist support while their staff was working remotely. Contoso used auto attendants and call queues to manage incoming calls to their receptionist's phone number. For more information, see [Contoso case study: Auto Attendants and Call Queues](voice-case-study-call-queues.md).

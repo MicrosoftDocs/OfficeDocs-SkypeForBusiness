@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Turn on or off entry and exit announcements for meetings in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -74,3 +75,4 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 ## Related topics
 
 [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
+

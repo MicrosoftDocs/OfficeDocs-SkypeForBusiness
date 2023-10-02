@@ -5,12 +5,15 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: filippse
+ms.date: 04/30/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

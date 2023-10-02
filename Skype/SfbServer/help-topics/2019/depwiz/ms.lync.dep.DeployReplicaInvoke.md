@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Local Configuration Store (Invoke)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployReplicaInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ The **Execute Commands** pane displays the status of tasks for installing the lo
   
 After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.
   
+
 

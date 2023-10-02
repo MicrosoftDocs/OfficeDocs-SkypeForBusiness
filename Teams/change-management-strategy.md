@@ -1,20 +1,22 @@
 ---
 title: Create a change management strategy
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 description: Create a change management strategy for Microsoft Teams by identifying key stakeholders, business outcomes, success measures, and management of your campaign.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.collection: 
+  - M365-collaboration
 ---
 
 # Create a change management strategy for Microsoft Teams
@@ -109,7 +111,7 @@ For your pilot phases these are the minimum steps for success:
 
 -   Have a regular scheduled meeting with your project stakeholders for updates.
 
--   Pick a feedback method to gather information from people participating in the pilot. Smaller organizations can use a public channel within Teams to allow users to join and provide feedback. In larger organizations, consider launching a Yammer community to provide product support.  
+-   Pick a feedback method to gather information from people participating in the pilot. Smaller organizations can use a public channel within Teams to allow users to join and provide feedback. In larger organizations, consider launching a Viva Engage community to provide product support.  
 
 -   Make self-help documentation available, including product videos.
 
@@ -138,7 +140,7 @@ On your project team should be IT administrators from your organization. These i
 Learn more about the Microsoft Teams usage reports in the Microsoft 365 admin center [Microsoft Teams usage reports in the Microsoft 365 admin center](/microsoftteams/teams-analytics-and-reports/user-activity-report).
 
 > [!TIP]
-> Use your public team or Yammer community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  
+> Use your public team or Viva Engage community to gather usage insights. Share them using a #TeamsStories tag for easy retrieval.  Share a #TeamsStory per month on your intranet to highlight employees who are embracing the change to increase productivity and collaboration in your environment.  
 
 ## Ongoing adoption
 

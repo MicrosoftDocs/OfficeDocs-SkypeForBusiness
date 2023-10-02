@@ -1,11 +1,13 @@
 ---
 title: Chat, teams, channels, & apps in Microsoft Teams
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+ms.date: 10/30/2018
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
@@ -17,10 +19,10 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+  - intro-get-started
+  - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
-  - seo-marvel-apr2020
-  - seo-marvel-may2020
 ---
 
 # Chat, teams, channels, & apps in Microsoft Teams
@@ -31,12 +33,12 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 
 <br/>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj?autoplay=false]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.
 
  > [!Note]
  > For details about Teams features on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -70,12 +72,12 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 |Ask yourself|Action |
 |------------|-------|
 |Who should be assigned to each role? | To compare the capabilities of each role, see [Assign team owners, moderators, and members in Microsoft Teams](assign-roles-permissions.md).
-|How do I assign a user role? | To assign or change a role, see [Assign a user role](assign-roles-permissions.md#assign-a-user-role).
+|How do I assign a user role? | To assign or change a role, see [Assign a user role](assign-roles-permissions.md).
 |Do I need to control who can post and reply in a channel? | To configure moderation, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### Messaging policies
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -97,7 +99,6 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 > [!NOTE]
 > For more on external access and guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
-
 
 |Ask yourself|Action |
 |------------|-------|
@@ -146,11 +147,11 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 |------------|-------|
 |<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory.|
 
-### Teams default apps 
+### Teams default apps
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
-To learn more about rolling out and managing apps in Teams, see our in-depth [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) guidance.
+To learn more about rolling out and managing apps in Teams, see our in-depth [app management](apps-in-teams.md) guidance.
 
 ## Additional deployment decisions
 
@@ -172,7 +173,7 @@ For the full Teams experience, every user should be enabled for Exchange, ShareP
 |------------|-------|
 | Will I be able to deploy the Teams features that I require with the current Exchange and SharePoint deployments? |For more information about Exchange and SharePoint in Teams, see:<ul><li> [How Exchange and Teams interact](exchange-teams-interact.md)</li><li>[How SharePoint Online and OneDrive interact with Teams](sharepoint-onedrive-interact.md)|
 
-### Teams limits and specifications 
+### Teams limits and specifications
 
 When planning an enterprise deployment of Teams, you should take into account any relevant limitations and specifications, such as the maximum number of members in a team, the maximum number of teams a user can create, and so on.
 
@@ -192,7 +193,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
-
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
@@ -207,7 +207,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 |Should I create preconfigured sets of pinned Teams applications? | Read [Admin settings for apps in Teams](admin-settings.md).|
 |How will I decide which groups receive these app groupings?|Read [Teams apps permissions and considerations](app-permissions.md).|
 
-### Archiving and compliance 
+### Archiving and compliance
 
 Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
@@ -217,7 +217,7 @@ Your organization might require that you implement controls on how teams are arc
 |Will I need to configure team archiving?|To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
 |Will I need to configure additional compliance settings?|For more information about security and compliance, see [Overview of security and compliance in Teams](security-compliance-overview.md).|
 
-### Conditional access 
+### Conditional access
 
 Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
@@ -225,7 +225,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 |--------------|--------|
 |<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
-### Education (EDU) 
+### Education (EDU)
 
 IT pros working in education can take advantage of Teams for Education, which comes with a number of capabilities that have been tailored to meet education-specific scenarios for students, faculty, and the wider business.
 
@@ -244,7 +244,8 @@ The use of Office 365 for Government - GCC (Government Community Cloud) is appro
 | Will I need to deploy Teams in an Office 365 for Government – GCC environment? | For deployment considerations, see [Plan for Office 365 Government - GCC deployments](plan-for-government-gcc.md).|
 
 ## Next steps
+
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of chat, teams, channels, & apps.
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](apps-in-teams.md) as you drive Teams adoption.
 - [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)

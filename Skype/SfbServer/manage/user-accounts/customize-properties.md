@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Customize user account properties for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mathavale
+ms.author: serdars
 author: v-mathavale
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -200,5 +201,6 @@ in your internal deployment.
     ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
+
 
 

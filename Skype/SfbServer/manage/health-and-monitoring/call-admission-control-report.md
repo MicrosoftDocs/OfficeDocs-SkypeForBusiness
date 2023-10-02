@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Admission Control Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -99,4 +100,5 @@ The following table lists the information provided in the Call Admission Control
 |**Leave time** <br/> |No  <br/> |Date and time that the participant left the conference.  <br/> |
 |**Diagnostic ID** <br/> |No  <br/> |Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.  <br/> |
    
+
 

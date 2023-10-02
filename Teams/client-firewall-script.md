@@ -1,20 +1,20 @@
 ---
 title: Sample script - Microsoft Teams firewall PowerShell script
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - m365initiative-deployteams
-ms.reviewer: harij, rafarhi
+ms.reviewer: rafarhi
+ms.date: 01/28/2022
 ms.localizationpriority: medium
 search.appverid: MET150
 description: A sample script that can be used to configure Windows to allow Teams connections through Windows Firewall.
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
   - Microsoft Teams
 ---

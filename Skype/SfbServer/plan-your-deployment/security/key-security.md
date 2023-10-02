@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Key security features in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -73,3 +74,4 @@ Skype for Business Server is designed and developed in compliance with the [Micr
 - **Trustworthy by Default** By default, network communications in Skype for Business Server are encrypted. Because all servers use certificates and Kerberos authentication, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 128-bit Advanced Encryption Standard (AES) encryption, virtually all Skype for Business Server data is protected on the network. In addition, role-based access control makes it possible to deploy servers running Skype for Business Server so that each server role runs only the services, and has only the permissions related to those services, that are appropriate for the server role.
     
 - **Trustworthy by Deployment** All Skype for Business Server documentation includes best practices and recommendations to help you determine and configure the optimal security levels for your deployment and assess the security risks of activating non-default options.
+

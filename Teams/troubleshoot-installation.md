@@ -1,9 +1,10 @@
 ---
 title: Troubleshoot Microsoft Teams installation and update issues on Windows
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: lenatarhun
+ms.reviewer: 
+ms.date: 10/23/2019
 ms.topic: article
 ms.service: msteams
 audience: Admin

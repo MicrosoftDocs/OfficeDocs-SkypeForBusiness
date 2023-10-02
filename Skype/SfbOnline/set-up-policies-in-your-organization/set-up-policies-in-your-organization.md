@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Set up policies in your organization"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -32,3 +33,4 @@ Policies help determine the features of Skype for Business Online that are made 
 - [Set up conferencing policies for your organization](set-up-conferencing-policies-for-your-organization.md)
 - [Set up mobile policies for your organization](set-up-mobile-policies-for-your-organization.md)
 - [Set up client policies for your organization](set-up-client-policies-for-your-organization.md)
+

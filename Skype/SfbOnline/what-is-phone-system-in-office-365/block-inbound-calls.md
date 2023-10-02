@@ -1,4 +1,5 @@
 ---
+ms.date: 05/29/2019
 title: Block inbound calls in Skype for Business Online
 ms.author: serdars
 author: SerdarSoysal
@@ -93,10 +94,10 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 You can add exceptions to blocked number patterns through the ```CsTenantBlockNumberExceptionPattern``` commands, ```New```, ```Get```, ```Set```, and ```Remove```.
 
-- [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) adds a number exception pattern to the tenant list.
-- [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) returns a list of all number exception patterns added to the tenant list.
-- [Set-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/set-cstenantblockednumberexceptionpattern) modifies one or more parameters to a number exception pattern in the tenant list.
-- [Remove-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) removes a number exception pattern from the tenant list.
+- New-CsTenantBlockedNumberExceptionPattern adds a number exception pattern to the tenant list.
+- Get-CsTenantBlockedNumberExceptionPattern returns a list of all number exception patterns added to the tenant list.
+- Set-CsTenantBlockedNumberExceptionPattern modifies one or more parameters to a number exception pattern in the tenant list.
+- Remove-CsTenantBlockedNumberExceptionPattern removes a number exception pattern from the tenant list.
 
 ### Examples
 
@@ -181,3 +182,4 @@ As stated earlier, the pattern matching for blocking callers is done by using Re
 ## Related topics
 
 - [Set up your computer to manage Skype for Business Online by using Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+

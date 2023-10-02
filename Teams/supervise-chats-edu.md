@@ -1,20 +1,24 @@
 ---
 title: Use supervised chats
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: angch
+ms.date: 01/22/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about supervised chats in Microsoft Teams meetings. 
+description: Learn about supervised chats in Microsoft Teams meetings.
+ms.collection: 
+  - M365-collaboration
+  - tier2
 ---
 
 # Supervised chats in Microsoft Teams

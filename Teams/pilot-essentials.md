@@ -1,11 +1,12 @@
 ---
 title: Conduct a user pilot to evaluate and test how Microsoft Teams will work in your organization 
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 09/14/2017
 audience: admin
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization, while you continue to use Skype for Business 
 ms.localizationpriority: medium

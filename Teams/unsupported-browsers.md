@@ -1,21 +1,23 @@
 ---
 title: Microsoft Teams meetings on unsupported browsers
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-MS.collection: 
-- M365-collaboration
 ms.reviewer: nakulm
-f1.keywords:
-- NOCSH
+ms.date: 11/26/2019
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how Teams supports audio and video in unsupported browsers.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - m365initiative-meetings
 ---
 
 # Microsoft Teams meetings on unsupported browsers

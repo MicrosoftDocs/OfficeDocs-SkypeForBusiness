@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 1 - Start
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
+description: In this article, you'll learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -34,7 +34,7 @@ You'll start your Teams adoption with the following activities:
 - [Set up your first teams on Teams](teams-adoption-your-first-teams.md) to build your technical knowledge.
 - [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
 
-The primary goal of this phase is to ensure your readiness for the experimentation phase. You will also determine if you need assistance from Microsoft or from our network of skilled partners.  
+The primary goal of this phase is to ensure your readiness for the experimentation phase. You'll also determine if you need assistance from Microsoft or from our network of skilled partners.  
 
 ## Validate adoption prerequisites
 
@@ -54,19 +54,19 @@ The table below lists the core roles for your project team. In a smaller organiz
 | Department Leads (Stakeholders)<sup>2</sup> | Identify how specific departments will use Teams and encourage engagement. | Any department (management) |
 | IT Specialists<sup>1</sup> | Oversee all technical aspects of implementation, including integrations. | IT |
 | Communication Lead<sup>2</sup> | Oversee company-wide communications about Teams. | Corporate Communications, IT, or other |
-| Community Manager | Manage day-to-day Yammer network activity. Provide guidance and best practices. | Multiple departments |
+| Community Manager | Manage day-to-day Viva Engage network activity. Provide guidance and best practices. | Multiple departments |
 
 <sup>1</sup>These roles are essential to the success of your project.</br>
 <sup>2</sup>These roles are important for the overall program success.
 
-In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
+In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you'll include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
 
 ## Additional resources
 
 The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-provided insights into adoption and technical issues for many Microsoft 365 and Office 365 products. We suggest that you join the following communities:
 
 - [Microsoft Teams Technical Community](https://aka.ms/TeamsCommunity) – Get product questions answered, learn from other Teams customers, and follow our blog to stay up to date on new features and use cases for Teams. 
-- [Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Microsoft 365 or Office 365 workloads such as Teams, SharePoint, Yammer, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
+- [Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Microsoft 365 or Office 365 workloads such as Teams, SharePoint, Viva Engage, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
 
 
 ![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
