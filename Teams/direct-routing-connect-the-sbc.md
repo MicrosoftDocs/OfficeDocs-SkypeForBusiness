@@ -32,7 +32,7 @@ This article describes how to configure a Session Border Controller (SBC) and co
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-To configure and connect an SBC to Direct Routing, you can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-center) or [PowerShell](#using-powershell) .
+To configure and connect an SBC to Direct Routing, you can use the [Microsoft Teams admin center](#use-the-microsoft-teams-admin-center) or [PowerShell](#use-powershell) .
 
 > [!NOTE]
 > For GCC High and DoD clouds, you must use PowerShell. The option to connect the SBC is not available in the Teams admin center.
