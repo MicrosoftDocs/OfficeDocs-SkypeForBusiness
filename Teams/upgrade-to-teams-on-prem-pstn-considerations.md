@@ -72,7 +72,7 @@ The basic steps are listed below.  Steps 1-4 are listed in the suggested sequenc
 
 2. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-direct-routing).
 
-3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, and so on). You can configure poicies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to
+3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, and so on). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to
 TeamsOnly mode.
 
 4. Prepare select users for voice migration:
