@@ -304,7 +304,7 @@ The ```DeviceDetailsFilePath``` parameter specifies the location of the CSV you 
 ### Bulk sign in error messages
 To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should to do to fix it.
 
-|**Error message**|**Potential solution**|
+| Error message | Potential solution |
 |:-----|:-----|
 |**User not found in tenant.**|Check the username or User Principal Name (UPN) is correct.|
 |**User missing phone number assignment.**|Verify the user has a phone number assigned.|
