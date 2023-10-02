@@ -72,7 +72,7 @@ To reserve the room:
 
 ### Add the Teams app and camera app to a work profile
 
-Although there are many QR code scanner apps available, we recommend using the built in camera apps that are available on all Android and iOS devices. However, if users are using an Android device, it may not work if the device has both work and personal profiles enabled. If this is the case, and the Teams app is in the work profile, you need to add the camera app to the work profile as well.
+Although there are many QR code scanner apps available, we recommend using the built-in camera apps that are available on all Android and iOS devices. However, if users are using an Android device, it may not work if the device has both work and personal profiles enabled. If this is the case, and the Teams app is in the work profile, you need to add the camera app to the work profile as well.
 
 To add the camera app to the work profile:
 1. In the **Intune Admin Center**, go to **Apps** > **Android** and select **Add**.
