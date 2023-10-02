@@ -22,10 +22,16 @@ ms.localizationpriority: high
 ---
 # Known issues for new Teams Windows desktop 
 
+This article covers known issues:
+
+|What|Description|
+|[**Known issues**](#known-issues)
+- [**What features are changing in new Teams**](#what-features-are-changing) to learn more about changes you will see.
+- [**Features that are coming soon**](#Features-that-are-coming-soon)
 
 ## Known issues
 
-There are a few known issues we're working on.  See [What features are changing in new Teams](#what-features-are-changing) to learn more about changes you will see.
+There are a few known issues we're working on.  
 
 
 ### General
@@ -193,8 +199,6 @@ Details: The meeting attendees may see preview content in those notifications.</
 **Workaround**: Before joining a meeting, sign in with primary tenant account.
 
 
-
-
 ## What features are changing?
 
 As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
@@ -218,3 +222,7 @@ As we improve the client, the experience has been improved to align with similar
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
 |Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
 |Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
+
+## Features that are coming soon
+
+### 

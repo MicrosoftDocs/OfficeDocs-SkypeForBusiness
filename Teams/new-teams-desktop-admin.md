@@ -43,8 +43,10 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 >[!Note]
 >
->**VDI**: Public preview starts October 5, 2023.</br>
->**Government cloud:** Public preview for **GCC** and **GCC High** starts October 5, 2023.
+>Now in **public preview:**
+>
+>- **VDI**: Public preview starts October 5, 2023.</br>
+>- **GCC and GCC HIGH (Government cloud):** Public preview starts October 5, 2023.  Note:  DoD is not 
 
 The new Teams client will be available for the Web soon:
 
