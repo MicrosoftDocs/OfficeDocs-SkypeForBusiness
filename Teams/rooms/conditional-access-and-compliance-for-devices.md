@@ -95,6 +95,6 @@ In this example for Teams Rooms on Windows
 
 2. Require that Microsoft Defender is running on Teams Rooms.
 
-3. If a Teams Room doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
+3. If Teams Rooms doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
 
 This compliance policy applies to all users, not just Teams resource accounts.
