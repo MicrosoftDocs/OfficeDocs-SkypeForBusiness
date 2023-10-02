@@ -63,7 +63,7 @@ In the example below, the Conditional Access policy works as follows:
     this example, the "Shared devices" group.
 
 2.  The account signing in must only be trying to access Exchange
-    Online, Microsoft Teams, or SharePoint Online. Attempts to sign into
+    Online, Microsoft Teams, SharePoint Online, or Microsoft Whiteboard Services. Attempts to sign into
     any other client app will be rejected.
 
 3.  The resource account must be signing in on the Windows device
