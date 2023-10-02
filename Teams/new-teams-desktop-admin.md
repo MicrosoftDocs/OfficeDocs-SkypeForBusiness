@@ -100,13 +100,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Public preview program|Available|
 |Targeted release program|Available|
 |Current Channel|October 2023|
+|Government Cloud (GCC, GCC High) Preview|October 2023|
+|Government Cloud (DoD) Preview|Mid October 2023|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 2024|
 
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
->- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 ### When will the new Teams become the default client?
 
@@ -135,6 +134,8 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Teams Public Preview|October 2023|
 |Targeted Release Channel|October 2023|
 |Current Channel|Late October 2023|
+|Government Cloud (GCC, GCC High) Preview|October 2023|
+|Government Cloud (DoD) Preview|Mid October 2023|
 |Monthly Enterprise Channel|January 2024|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
