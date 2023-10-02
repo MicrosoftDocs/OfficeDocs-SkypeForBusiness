@@ -7,7 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: sbhatta
+ms.reviewer: 
+ms.date: 07/20/2021
 description: Learn how to sign out of Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
@@ -45,11 +46,20 @@ If you have multiple accounts added, you'll need to sign out of each individual 
 
 ## Sign out of Teams on mobile devices
 
-On mobile, you can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
+On mobile, you can sign out of Teams by going to the user icon, selecting **Settings**, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
 
 ### Global sign-in and sign-out for Frontline workers
 
-The Teams Android app now supports Global sign-in and sign-out, to provide a hassle free sign-in and sign-out experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign-in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode.  Make sure to end any active meeting or call on the device before signing out. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Our improved sign-in experience on shared device provides a hassle free sign-in for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](/microsoftteams/sign-out-of-teams) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be set in shared mode. Make sure to end any active meeting or call on the device before signing out.
+
+**Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+
+**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
+
+> [!NOTE]
+> This feature is in public preview. 
+
+![Sign-out-section](media/signout.png)
 
 ## Manual Cleanup
 

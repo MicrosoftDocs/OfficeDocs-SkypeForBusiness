@@ -1,8 +1,9 @@
 ---
 title: Use OneDrive for Business and SharePoint for meeting recordings
-author: CarolynRowe
-ms.author: crowe
-ms.reviewer: debhag
+ms.author: mikeplum
+author: MikePlumleyMSFT
+ms.reviewer: 
+ms.date: 09/01/2020
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---

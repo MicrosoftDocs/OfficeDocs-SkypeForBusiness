@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 1 Plan your migration"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -29,4 +30,5 @@ This section covers planning topics for migrating to Skype for Business Server 2
     
 - [Migrating XMPP federation](migrating-xmpp-federation.md)
     
+
 

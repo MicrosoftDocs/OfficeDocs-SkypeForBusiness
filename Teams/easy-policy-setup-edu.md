@@ -4,6 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: shajohri, angch
+ms.date: 03/09/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -11,6 +12,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -200,14 +202,14 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||Create shared channels|On|On|
 |||Share channel with external participants|On|On|
 |||Participate in an external shared channel|On|On|
-|Meetings policy|General|Allow Meet now in channels|Off|On|
+|Meetings policy|General|Allow Meet now in channel meetings|Off|On|
 |||Allow the Outlook add-in|Off|On|
 |||Allow channel meeting scheduling|Off|On|
 |||Allow scheduling private meetings|Off|On|
 |||Allow meeting registration|On|On|
-|||Who can register|Everyone in the organization|Everyone in the organization|
+|||Who can register|People in my organization|People in my organization|
 ||Audio & video|Transcription|On|On|
-|||Cloud recording|Off|On|
+|||Meeting recording|Off|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
@@ -219,16 +221,16 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |||PowerPoint sharing|On|On|
 |||Whiteboard|On|On|
 |||Shared notes|On|On|
-||Participants & guests|Let anonymous people start a meeting|Off|On|
-|||Roles that have presenter rights in meetings|EveryoneUserOverride|EveryoneUserOverride|
-|||Automatically admit people|EveryoneInCompany|EveryoneInCompany|
-|||Allow dial-in users to bypass the lobby|Off|Off|
+||Participants & guests|Anonymous users and dial-in callers can start a meeting|Off|On|
+|||Roles that have presenter rights in meetings|People in my organization and guests|People in my organization and guests|
+|||Who can bypass the lobby|People in my org|People in my org|
+|||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|Off|On|
-|||Live captions|Disabled but user can override|Disabled but user can override|
-|||Chat in meetings|On|On|
+|||Live captions|Off, but organizers and co-organizers can turn them on|Off, but organizers and co-organizers can turn them on|
+|||Meeting chat|On|On|
 |Live events policy||Live events scheduling|Off|Off|
 |||Transcription for attendees|On|On|
-|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can join scheduled live events|People in my organization|People in my organization|
 |||Who can record an event|Always|Always|
 |Messaging policy||Owners can delete sent messages|Off|On|
 |||Delete sent messages|Off|On|
@@ -273,14 +275,14 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Create shared channels|On|On|
 |||Share channel with external participants|On|On|
 |||Participate in an external shared channel|On|On|
-|Meetings policy|General|Allow Meet now in channels|On|On|
+|Meetings policy|General|Allow Meet now in channel meetings|On|On|
 |||Allow the Outlook add-in|On|On|
 |||Allow channel meeting scheduling|On|On|
 |||Allow scheduling private meetings|On|On|
 |||Allow meeting registration|On|On|
-|||Who can register|Everyone in the organization|Everyone in the organization|
+|||Who can register|People in my organization|People in my organization|
 ||Audio & video|Transcription|On|On|
-|||Cloud recording|On|On|
+|||Meeting recording|On|On|
 |||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
 |||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
 |||IP video|On|On|
@@ -292,16 +294,16 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||PowerPoint sharing|On|On|
 |||Whiteboard|On|On|
 |||Shared notes|On|On|
-||Participants & guests|Let anonymous people start a meeting|On|On|
+||Participants & guests|Anonymous users and dial-in callers can start a meeting|On|On|
 |||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
-|||Automatically admit people|OrganizerOnly|OrganizerOnly|
-|||Allow dial-in users to bypass the lobby|Off|Off|
+|||Who can bypass the lobby|Only organizers and co-organizers|Only organizers and co-organizers|
+|||People dialing in can bypass the lobby|Off|Off|
 |||Meet now in private meetings|On|On|
 |||Live captions|Disabled but user can override|Disabled but user can override|
-|||Chat in meetings|On|On|
+|||Meeting chat|On|On|
 |Live events policy||Live events scheduling|On|On|
 |||Transcription for attendees|On|On|
-|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can join scheduled live events|People in my organization|People in my organization|
 |||Who can record an event|Always record|Always record|
 |Messaging policy||Owners can delete sent messages|On|On|
 |||Delete sent messages|On|On|

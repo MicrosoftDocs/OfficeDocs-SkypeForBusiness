@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Session details report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -120,3 +121,4 @@ For each session, there is a sub table with different data available depending o
 
   
  
+

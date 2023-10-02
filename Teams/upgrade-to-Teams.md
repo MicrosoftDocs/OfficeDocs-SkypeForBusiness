@@ -1,11 +1,12 @@
 ---
 title: Overview of implementing your upgrade to Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 03/05/2018
 audience: admin
 description: Determine the optimal upgrade path to Microsoft Teams based on your current Skype for Business deployment. 
 ms.localizationpriority: medium

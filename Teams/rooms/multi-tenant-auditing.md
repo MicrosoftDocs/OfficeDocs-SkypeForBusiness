@@ -1,31 +1,34 @@
 ---
-title: Multi-tenant auditing
-author: donnah007
-ms.author: v-donnahill
+title: Audit logging in the MTR Pro Portal
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
+ms.date: 11/30/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Audit logging for TRM.
+description: Audit logging for the MTR Pro Portal.
 f1keywords: 
 ---
 
 
-# Audit logging in the Teams Rooms Managed service
+# Audit logging in the MTR Pro Portal
 
-Audit in Teams Rooms Managed (TRM) service lets you search for audit records for activities performed in the portal by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
+Audit logs from the MTR Pro Portal let you search for audit records for activities performed by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
 
 > [!NOTE]
-> Actions performed in the TRM service are not logged in Microsoft 365 or Office 365 auditing 
+> Actions performed in the MTR Pro Portal are not logged in Microsoft 365 or Office 365 auditing 
 
 ## Exporting logs
 
@@ -63,5 +66,3 @@ The following table describes the properties that are included in the CSV.
 |creationTime|The date and time in Coordinated Universal Time (UTC) in the ISO format when the user performed the activity.|
 |user.userId|The user who performed the action that resulted in the record being logged.|
 |user.userTenantId|The GUID of the tenant for the user who performed the action|
-
-

@@ -3,6 +3,7 @@ title: Set up Microsoft Teams in your enterprise
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 02/23/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -40,7 +41,7 @@ Before you start deploying Teams, make sure you've completed your planning proce
 We strongly recommend using the [Teams advisor](https://admin.teams.microsoft.com/teams-deployment) to help you with your deployment. For details about how the Teams advisor works, see [Use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md).
 
 > [!TIP]
-> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](/learn/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
+> See how you can use Teams advisor to help you plan your Teams deployment by completing the [Roll out using the Teams advisor](/training/modules/m365-teams-rollout-using-advisor/) module on Microsoft Learn.
 
 For information about planning for Teams, see [Teams enterprise deployment overview](deploy-enterprise-overview.md).
 
@@ -53,7 +54,7 @@ There are lots of ways you can customize Teams. The following sections show you 
 Chat, teams, and channels, are the cornerstone of Teams. **Chat** lets one or more users talk to each other, share files, and meet privately. **Teams**, which can be visible to everyone in your organization or only to those in the team, let the right people collaborate whatever the task or occasion, whether it's a long-running project or planning for a birthday party. **Channels** within teams can segment topics, projects, departments, or anything else make sense for your team. For details about chat, teams, and channels, check out [Overview of teams and channels](teams-channels-overview.md).
 
 > [!TIP]
-> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
+> See how you can manage team roles, access, and messaging policies by completing the [Manage Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) module on Microsoft Learn.
 
 ### Administration and team ownership
 
@@ -83,7 +84,7 @@ Meetings and conferencing let people in your organization meet with each other a
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
 > [!TIP]
-> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
+> Get more familiar with meetings and events by completing the [Manage meetings, conferences, and events with Microsoft Teams](/training/modules/m365-teams-collab-manage-meetings) module on Microsoft Learn.
 
 ### Meetings
 
@@ -91,7 +92,7 @@ Meetings and conferencing let people in your organization meet with each other a
 |--|--|
 | What org-wide meeting settings should be applied| Meeting policies control which meeting features are available to organizers and participants of meetings. You can control whether anonymous participants can join meetings, customize meeting invites, control how real-time media is handled, and more. When you make changes to these settings, they apply to all meetings in your organization. <p>[Manage meeting settings in Microsoft Teams](meeting-settings-in-teams.md)|
 | What meeting policies should be applied? | Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can control whether users can schedule private meetings, enable the Meet Now option, allow meetings to be recorded, and so on. Teams has a global policy that applies to everyone.<p> If you want the same policy to apply to everyone, all you need to do is make changes to this global policy (for example, turn off the recording of meetings). <p>If you want different policies for different groups of people (for example, one policy for office workers and another for executives), you can create and assign policies. When you assign a policy to a user, the global policy no longer applies to them.<p> [Manage meeting policies in Teams](meeting-policies-overview.md)|
-| Do you want to allow meeting recording and archiving?| Meeting organizers can record and archive meetings in the cloud. You can turn meeting recording and archiving on or off using meeting policies.<p> [Teams cloud meeting recording](cloud-recording.md) |
+| Do you want to allow meeting recording and archiving?| Meeting organizers can record and archive meetings in the cloud. You can turn meeting recording and archiving on or off using meeting policies.<p> [Teams meeting recording](meeting-recording.md) |
 
 ### Audio conferencing
 
@@ -149,12 +150,12 @@ Teams and Microsoft 365 provide many tools that can help you conform to regulato
 
 ## Clients
 
-When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Make sure everyone who will be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/learn/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
+> Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/training/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.
 
 If your organization uses Microsoft Endpoint Configuration Manager, Group Policy, or a third-party distribution mechanism, to deploy software to your user's computers, see [Install Microsoft Teams using Microsoft Endpoint Configuration Manager](msi-deployment.md).
 

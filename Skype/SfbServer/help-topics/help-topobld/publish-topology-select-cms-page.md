@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: "You publish the topology that you have configured using Topology Builder. You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store. Only one Front End Server or Front End pool can hold this role at any given time."

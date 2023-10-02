@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Manage Skype for Business Online organizations"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -51,3 +52,4 @@ To find information about whether licensing information for the specified tenant
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
+

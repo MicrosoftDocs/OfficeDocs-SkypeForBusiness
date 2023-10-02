@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create or modify a collection of CDR configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -82,3 +83,4 @@ You can create CDR configuration settings can also be created by using Windows P
   ```
 
 For more information, see the help topic for the [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet.
+

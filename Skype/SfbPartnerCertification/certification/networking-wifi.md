@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Skype for Business - Networking Wi-Fi"
 ms.author: serdars
 author: msdmaguire
@@ -33,7 +34,7 @@ In partnership with device partners, Microsoft is proactively certifying Skype f
 
 Enterprises choosing Skype for Business certified Wi-Fi devices can be assured using best of breed products for your wireless Skype for Business experience.
 
-Listed in the table that follows are Wi-Fi infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Skype for Business requirements. Lync qualified Wi-Fi access points will work with Skype for Business. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. Please contact the listed partner for more information on these products.
+Listed in the table that follows are Wi-Fi infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Skype for Business requirements. Lync qualified Wi-Fi access points will work with Skype for Business. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country/region support, and documentation including release notes and known issues. Please contact the listed partner for more information on these products.
 
  ***Wi-Fi Infrastructure***
 <table border="1" cellpadding="5" cellspacing="" class="grid">
@@ -151,7 +152,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
             <td>6.1.2</td>
         </tr>
         <tr>
-            <td><a href="https://atgsupportcentral.motorolasolutions.com/content/emb/docs/manuals/Lync_AP_Test_Results.pdf">Motorola Solutions</a></td>
+            <td><a href="https://www.motorolasolutions.com">Motorola Solutions</a></td>
             <td>802.11n</td>
             <td>NX9510</td>
             <td>WiNG 5.5.0.0</td>
@@ -177,3 +178,4 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 |[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250||
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

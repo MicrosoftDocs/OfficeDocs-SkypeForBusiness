@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: 
+ms.date: 04/05/2019
 search.appverid: MET150
 description: Learn how to install and configure the Moodle open-source Learning Management System (LMS) app for Microsoft Teams.
 keywords: Teams Moodle app integration plugin
@@ -15,6 +16,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020

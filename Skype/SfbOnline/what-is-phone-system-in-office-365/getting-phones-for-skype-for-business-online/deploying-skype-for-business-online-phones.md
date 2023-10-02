@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Deploying Skype for Business Online phones"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
@@ -87,7 +88,6 @@ You can also choose to manage firmware updates using a partner provisioning syst
 
 You can set up the most commonly used phone options and policies using Skype for Business In-band management Windows PowerShell cmdlets. See [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) for details of those parameters and settings.
   
-For network infrastructure planning, see [Skype Operations Framework](https://www.skypeoperationsframework.com/).
   
 ### Step 6 - Preparing for users to sign in
 
@@ -223,4 +223,5 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+
 

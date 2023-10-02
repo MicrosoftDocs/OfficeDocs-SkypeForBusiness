@@ -3,13 +3,15 @@ title: Configure Operator Connect
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/30/2021
+ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams 
 audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -35,7 +37,7 @@ To enable an operator:
 
 1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then select the operator you want to enable.  
 
-2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
+2. **Select countries.** Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
 
 3. **Provide contact information** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect.
 
@@ -53,6 +55,20 @@ How you set up phone numbers depends on whether you're setting up numbers for ne
 
 - If you want to move existing numbers from Direct Routing to Operator Connect, see [Move numbers from Direct Routing to Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
 
+### Assign numbers to emergency addresses
+
+The emergency address is a static location associated with a number. Once you create emergency addresses in the Teams admin center, how you assign the addresses, or change them later, will depend on your operator.
+
+To assign numbers to emergency addresses, your operator will implement one of three scenarios:
+
+- The operator assigns emergency addresses to the phone numbers and allows you to change them later in the Teams admin center.
+
+- The operator doesn't assign addresses and allows you to assign emergency addresses to the phone numbers in the Teams admin center.
+
+- The operator assigns emergency addresses to the phone numbers, and doesn't allow you to change them. In this scenario, you'll need to contact your operator to make changes to phone numbers and their assigned emergency address.
+
+For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+
 ### Acquire numbers for new Teams users
 
 To acquire numbers for new Teams users, follow these steps:
@@ -67,20 +83,6 @@ To acquire numbers for new Teams users, follow these steps:
 
 > [!NOTE]
 > In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers, contact your operator.
-
-### Emergency addresses
-
-The emergency address is a static location associated with a number. Once you create emergency addresses in the Teams admin center, how you assign the addresses, or change them later, will depend on your operator.
-
-To assign numbers to emergency addresses, your operator will implement one of three scenarios:
-
-- The operator assigns emergency addresses to the phone numbers and allows you to change them later in the Teams admin center.
-
-- The operator doesn't assign addresses and allows you to assign emergency addresses to the phone numbers in the Teams admin center.
-
-- The operator assigns emergency addresses to the phone numbers, and doesn't allow you to change them. In this scenario, you'll need to contact your operator to make changes to phone numbers and their assigned emergency address.
-
-For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ### Move numbers from Calling Plans to Operator Connect
 
@@ -168,18 +170,18 @@ Once your operator completes the order, they'll upload numbers to your tenant. Y
 
 ### Assign numbers
 
-For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+For information on how to assign phone numbers to your users, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Manage your operators
 
 From the **My operators** tab, you can view your operators and their status and make the following changes to your selections:  
 
-- Manage operator services by country
+- Manage operator services by country/region
 - Suspend an operator
 - Remove an operator
 
 > [!NOTE]
-> Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
+> Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to users in the organization or country/region and contact the operator to release the numbers.
 
 ## Release numbers
 

@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: filippse
+ms.date: 03/04/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +13,8 @@ f1.keywords:
 - NOCSH
 ms.collection: 
 - M365-voice
+- m365initiative-voice
+- Tier1
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium

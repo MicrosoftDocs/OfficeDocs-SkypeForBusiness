@@ -4,6 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: davlick, roykuntz, jastark
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: cc22c49a-c644-4151-a2fc-a1474148f8ba
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -31,9 +34,9 @@ Before you can assign Microsoft-supplied telephone numbers to your users, you mu
 
 If you select Microsoft as your operator, you can acquire the numbers from the Teams admin center by entering the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. If you select an Operator Connect operator, you will be directed to the landing page of your selected operator to complete the number order.
 
-How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing.
+How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing.
 
-This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans) and [Operator Connect](#search-for-telephone-numbers-for-operator-connect). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+This article applies to [Microsoft Calling Plans](#search-for-telephone-numbers-for-microsoft-calling-plans), [Operator Connect](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile), and [Teams Phone Mobile](#search-for-telephone-numbers-for-operator-connect-or-teams-phone-mobile). For more information about all options, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
 ## Search for telephone numbers for Microsoft Calling Plans
 
@@ -66,7 +69,7 @@ To search for telephone numbers for your users:
 
 9. When you return to the **Phone numbers** page, select the telephone number or numbers that you want to assign and then click **Edit** to assign it to a user.
 
-## Search for telephone numbers for Operator Connect
+## Search for telephone numbers for Operator Connect or Teams Phone Mobile
 
 1. Go to the **Microsoft Teams admin center**.
 
@@ -93,4 +96,4 @@ To search for telephone numbers for your users:
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

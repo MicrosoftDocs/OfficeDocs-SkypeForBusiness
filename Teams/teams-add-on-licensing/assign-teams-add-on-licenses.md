@@ -6,12 +6,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
+  - highpri
+  - tier1
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
+ms.date: 12/14/2018
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
@@ -93,8 +99,8 @@ Here's an example of how to use a script to assign licenses to your users.
     foreach ($user in $users)
         {
         Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
         }
     ```
 
@@ -112,6 +118,8 @@ Here's an example of how to use a script to assign licenses to your users.
       ```
 
 ## Product names and SKU identifiers for licensing
+
+[!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
 Here's a partial list of product names and their corresponding SKU part names that you can reference when you use PowerShell to manage licenses in Teams.
 
@@ -132,12 +140,19 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Teams Phone Standard | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | International Calling Plan | MCOPSTN2 |
-| Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
-| Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
-| Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
+| Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions) | MCOPSTN1 |
+| Domestic Calling Plan (120 minutes per user/month for each country/region) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
+| Domestic Calling Plan (240 minutes per user/month for each country/region) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
 | Pay-As-You-Go Calling Plans (Zone-1 Countries) | MCOPSTN_PAYG_1 |
 | Pay-As-You-Go Calling Plans (Zone-2 Countries) | MCOPSTN_PAYG_2 |
+| Microsoft Teams Rooms Basic | Microsoft_Teams_Rooms_Basic |
+| Microsoft Teams Rooms Basic without Audio Conferencing | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Microsoft Teams Rooms Pro | Microsoft_Teams_Rooms_Pro |
+| Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams Shared Devices | MCOCAP |
+| Microsoft Teams Premium | Microsoft_Teams_Premium |
+| Microsoft Teams EEA | Microsoft_Teams_EEA |
 
 ## Related content
 

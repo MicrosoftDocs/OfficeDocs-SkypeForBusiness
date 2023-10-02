@@ -1,15 +1,17 @@
 ---
 title: Mask phone numbers in Microsoft Teams meetings
-author: heidip
-ms.author: MicrosoftHeidi
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
+ms.date: 08/07/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 f1.keywords: 
   - NOCSH
 appliesto: 
@@ -33,9 +35,17 @@ For specific industry use cases, admins have the ability to choose how the audio
 
 This setting is applied to all the surfaces in the meeting where phone numbers are exposed.
 
+## Use Teams admin center to set phone-number masking
+
+To change the Public Switched Telephone Network (PSTN) masking setting in the Teams admin center, log into the Teams admin center as an administrator, select **Meetings** > **Conference Bridges** in the left-hand navigation panel, and then select **Bridge settings**. **Display masked caller IDs** is a dropdown at the bottom of the Bridge settings pane, and it will allow you to choose the following:
+
+- To participants outside your organization
+- To all meeting participants
+- Disabled
+
 ## Use Microsoft PowerShell to set phone-number masking
 
-To change the Public Switched Telephone Network (PSTN) masking setting, set the **`MaskPstnNumbersType`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet to one of the available options.
+To change the PSTN masking setting in PowerShell, set the **`MaskPstnNumbersType`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) cmdlet to one of the available options.
 
 To mask phone numbers only from external participants, run the following command:
 

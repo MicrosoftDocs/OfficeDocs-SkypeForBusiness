@@ -2,7 +2,8 @@
 title: Use Advisor for Teams to help you roll out Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: pkrebs
+ms.reviewer: 
+ms.date: 10/11/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,6 +19,7 @@ f1.keywords:
   - CSH
 ms.custom: 
   - ms.teamsadmincenter.deploymentadvisor.overview
+  - chat-teams-channels-revamp
 description: Use Advisor for Teams to help you plan and complete your Microsoft Teams deployment.
 ---
 
@@ -104,7 +106,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Yammer). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Viva Engage). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
 |Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### Assessments for meetings and conferencing
@@ -114,7 +116,7 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 |Assessment test  |What it tells you  |
 |---------|---------|
 |Audio Conferencing licenses    |Whether you have an active subscription with Audio conferencing licenses. This is a prerequisite if you're deploying Audio conferencing bridges. Queries the Microsoft Graph to see whether you have Audio Conferencing licenses (with at least one license available to assign) For more information, read [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
-|Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to see whether you have Microsoft Stream licenses (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams cloud meeting recording](cloud-recording.md).
+|Stream licenses     |Whether you have an active subscription with Microsoft Stream licenses. This is a prerequisite if you want to turn on Meeting Recording. Queries the Microsoft Graph to see whether you have Microsoft Stream licenses (with at least one license available to assign). For more information on Stream and how to turn it on, read [Teams meeting recording](tmr-meeting-recording-change.md).
 
 ### Assessments for Skype for Business Upgrade
 

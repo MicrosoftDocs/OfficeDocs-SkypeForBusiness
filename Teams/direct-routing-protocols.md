@@ -1,5 +1,5 @@
 ---
-title: "Teams phone system direct routing: Definitions and RFC standards"
+title: "Teams Phone System Direct Routing: Definitions and RFC standards"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
@@ -18,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Direct routing - definitions and RFC standards
+# Direct Routing - definitions and RFC standards
 
 This article describes how Microsoft Phone System Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
@@ -74,8 +76,55 @@ The following table lists the sections of the RFC(s) in which Microsoft's implem
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place a call on hold. |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”.
-| [RFC 6337, section 5.4 “Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
+| [RFC 6337, section 5.4 Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
+| [RFC 3261, section 25 Augmented BNF for the SIP Protocol](https://tools.ietf.org/html/rfc3261#section-25.1) | '#' character should be sent as '%23'| The SIP proxy sends the '#' character in a Request-URI un-escaped. |
 
+## TCP/TLS transport considerations
+
+When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a new TCP/TLS connection or reuse an existing connection if one exists.  
+
+- There are a maximum of two TCP/TLS connections per remote FQDN/IP, per each SIP proxy virtual machine. Before sending a SIP request, SIP proxy checks for active TCP connections with the target SBC/Trunk FQDN’s resolved IP address. If two connections exist, they're re-used. If two connections don't exist, a new connection is opened.  
+
+  - This logic is per SIP proxy virtual machine.  
+
+  - SIP proxy IPs are serviced by multiple virtual machines per region.  
+
+  - From the SBC perspective, there may be multiple inbound proxy connections from all SIP proxy regions.  
+
+- TCP/TLS connections opened by SIP proxy don't necessarily stay open as long as the call does. However, the connection doesn't close immediately after a response to a SIP request.  If a connection doesn't time out, it may be reused for other SIP requests.  
+
+- SIP Proxy doesn't support connection aliasing as described in [RFC 5923: Connection Reuse in the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5923.html).
+
+  - Outbound SIP proxy TCP connections only service outbound SIP Proxy requests (to SBCs) and related responses.
+
+  - Inbound SIP proxy TCP connections (from SBCs) only service incoming SIP requests and related responses.  
+
+
+### Timeout policies 
+
+- SIP proxy TCP idle timeout is two minutes. The timer resets when a SIP transaction occurs over the connection.  
+
+- SIP proxy sends application CRLF keep-alive per [RFC 5626: Managing Client-Initiated Connections in the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5626).
+
+  - The keep-alive doesn't reset the TCP idle timer.
+
+  - CRLF keep-alive sent by the supplier SBC will reset the TCP idle timer.
+
+- Due to the aliasing constraint mentioned above, the supplier SBC must not use in-dialogue SIP requests for resetting the timer on connections created by SIP Proxy outbound to the supplier SBC. 
+
+- After two minutes of idling, (FIN, ACK) is transmitted to the upplier SBC by SIP Proxy within approximately 10 to 20 seconds. 
+
+### Notes
+
+- It is recommended that the SBC actively re-uses connections, like SIP proxy. This method saves time, which is needed for TCP and TLS connections. 
+
+- The SBC should renew the connection at least once per hour. 
+
+- When a new SBC’s certificate is uploaded, the SBC must renew all connections. 
+
+- When domain configurations are updated, it is recommended that the SBC’s connections are renewed. Otherwise, a new configuration will be applied after the internal SIP proxy cache is renewed – up to four hours. 
+
+ 
 ## Operational modes
 
 There are two operational modes for Direct Routing:
@@ -87,4 +136,5 @@ There are two operational modes for Direct Routing:
 Note that SIP traffic always flows via the SIP proxy. 
 
 ## DTMF
+
 In-band DTMF is not supported by media stack.

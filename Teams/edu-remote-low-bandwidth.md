@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
+ms.date: 03/23/2020
 description: Get help with meeting and video issues relating to low bandwidth problems in Teams. Whether you're a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---

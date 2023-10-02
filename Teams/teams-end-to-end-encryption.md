@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - purview-compliance
 ms.custom: 
 - Security
 appliesto: 
@@ -29,6 +30,8 @@ appliesto:
 End-to-end encryption, or E2EE, happens when content is encrypted before it's sent and decrypted only by the intended recipient. With end-to-end encryption, only the two endpoint systems are involved in encrypting and decrypting the call data. No other party, including Microsoft, has access to the decrypted conversation.
 
 With E2EE for unscheduled one-to-one calls, only the real-time media flow, that is, video and voice data, for one-to-one Teams calls are end-to-end encrypted. Both parties must turn on this setting to enable end-to-end encryption. [Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the call.
+
+End-to-end encrypted calls can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac, they are on a mobile device with the latest update for iOS and Android, or they are on a Teams Rooms on Windows device using the latest update.
 
 If you don't enable end-to-end encryption, Teams still secures a call or meeting using encryption based on industry standards. Data exchanged during calls is always secure while in transit and at rest. For more information, see [Media encryption for Teams](teams-security-guide.md#media-encryption).
 
@@ -58,6 +61,8 @@ The following advanced features aren't available during an E2EE call:
 
 - Recording
 
+- Apps
+
 Also, if your organization uses compliance recording, end-to-end encryption isn't available. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Configure end-to-end encryption for Microsoft Teams
@@ -78,9 +83,9 @@ The global, organization-wide, default policy specifies that end-to-end encrypti
 
 3. Either choose the default policy or choose **Add** to add a new policy and then name the new policy.
 
-4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **Disabled user override**, and then choose **Save**.
+4. To enable end-to-end encryption for your users, for **End-to-end call encryption**, choose **Not enabled, but users can enable**, and then choose **Save**.
 
-   To disable end-to-end encryption, choose **Disabled**.
+   To disable end-to-end encryption, choose **Not enabled**.
 
 Once you’ve finished setting up the policy, assign the policy to users, groups, or your entire tenant the same way you manage other Teams policies. For information about using policies in Teams, see [Manage Teams with policies](manage-teams-with-policies.md).
 

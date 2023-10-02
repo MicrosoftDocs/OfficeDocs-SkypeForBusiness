@@ -1,11 +1,12 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
+ms.date: 04/09/2020
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams
@@ -19,6 +20,8 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
+  - highpri
 ---
 
 # Manage the Tasks app for your organization in Microsoft Teams
@@ -66,7 +69,7 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Tasks for specific users in your organization
 
-To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ### Pin Tasks to Teams
 
@@ -82,7 +85,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ### A user's My tasks is visible if the user is licensed for Exchange Online
 
@@ -127,7 +130,17 @@ For steps on how to set up your team targeting hierarchy, see [Set up your team 
 
 ## Power Automate and Graph API
 
-Tasks supports Power Automate for To Do and Graph APIs for Planner. To learn more, see:
+Tasks supports Graph APIs for Planner and Power Automate for To Do. To learn more, see:
 
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
 - [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+
+## Data location
+
+For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
+
+To Do uses Exchange Online for data storage. To learn more, see [Review data storage and compliance in Microsoft To Do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161)
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Tasks**, and then enter your feedback or details about the issue you're experiencing.

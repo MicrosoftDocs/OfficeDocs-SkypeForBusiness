@@ -1,10 +1,11 @@
 ---
 title: Teams policy packages for healthcare
-ms.author: v-lanachin
-author: LanaChin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 ms.reviewer: aaglick
-ms.topic: article
+ms.date: 06/20/2019
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -12,6 +13,7 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:

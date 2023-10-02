@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords: 
@@ -77,7 +79,7 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 3. Assign the policy to users.
 4. Register an application for the SBA with Azure Active Directory.
 
-All configuration is done by using Skype for Business Online PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
+All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
 (For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.)
 
@@ -203,6 +205,8 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
 
 ## Known issues
+
+- As SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, presently SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
 
 - When you add new Survivable Branch Appliances, it might take some time before you can use them in Survivable Branch Appliance policies.
 

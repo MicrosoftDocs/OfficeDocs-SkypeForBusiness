@@ -1,5 +1,5 @@
 ---
-title: "Azure Sentinel and Microsoft Teams"
+title: "Microsoft Sentinel and Microsoft Teams"
 author: MicrosoftHeidi
 ms.author: tracyp
 manager: dansimp
@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
+ms.date: 04/30/2020
 description: Security advice and learnings for IT admins on using Sentinel to monitor and hunt threats that may arise in Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -21,19 +22,19 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Azure Sentinel and Microsoft Teams
+# Microsoft Sentinel and Microsoft Teams
 
 > [!IMPORTANT]
-> Azure Sentinel now has an integrated connector. For more information, see [Connect Office 365 Logs to Azure Sentinel](/azure/sentinel/connect-office-365). This is the recommended route for collecting these logs and supersedes the collection methods described below.
+> Microsoft Sentinel now has an integrated connector. For more information, see [Connect Office 365 Logs to Microsoft Sentinel](/azure/sentinel/connect-office-365). This is the recommended route for collecting these logs and supersedes the collection methods described below.
 
-Teams serves a central role in communication and data-sharing in the Microsoft 365 Cloud. Since Teams touches on so many technologies in the Cloud, it can benefit from human and automated analysis. This applies to both *hunting in logs*, and *real-time monitoring of meetings*. Azure Sentinel offers admins these solutions.
+Teams serves a central role in communication and data-sharing in the Microsoft 365 Cloud. Since Teams touches on so many technologies in the Cloud, it can benefit from human and automated analysis. This applies to both *hunting in logs*, and *real-time monitoring of meetings*. Microsoft Sentinel offers admins these solutions.
 
 > [!NOTE]
-> Need a refresher on Azure Sentinel? [This article](/azure/sentinel/overview) is just the thing.
+> Need a refresher on Microsoft Sentinel? [This article](/azure/sentinel/overview) is just the thing.
 
 ## Sentinel and Microsoft Teams Activity Logs
 
-This article focuses on collecting Teams activity logs in Azure Sentinel.
+This article focuses on collecting Teams activity logs in Microsoft Sentinel.
 
 Sentinel lets administrators do security management in one location. This includes managing:
 
@@ -44,17 +45,17 @@ Sentinel lets administrators do security management in one location. This includ
 Sentinel workbooks and runbooks can make security monitoring *systematic*. A good first step in this process is collecting the logs needed analysis.
 
 > [!NOTE]
-> More than one Microsoft 365 subscription can be surfaced in the same instance of Azure Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log files. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
+> More than one Microsoft 365 subscription can be surfaced in the same instance of Microsoft Sentinel. This will allow for [realtime monitoring](/azure/sentinel/livestream) and hunting for threats in historical log files. Administrators will be able to hunt using [cross-resource queries](/azure/azure-monitor/log-query/cross-workspace-query), that is within a single resource group, across resource groups, or in another subscription.
 
 ## Step 1: Collect Teams logs: Enable Audit logs in Microsoft 365
 
 Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
-## Step 2: Connect Office 365 logs to Azure Sentinel
+## Step 2: Connect Office 365 logs to Microsoft Sentinel
 
-Azure Sentinel provides a built-in connector for Office 365 logs, which enables you to ingest Teams data into Azure Sentinel together with other Office 365 data.
+Microsoft Sentinel provides a built-in connector for Office 365 logs, which enables you to ingest Teams data into Microsoft Sentinel together with other Office 365 data.
  
-In Azure Sentinel, enable the Office 365 data connector. For more information, see the [Azure Sentinel documentation](/azure/sentinel/connect-office-365).
+In Microsoft Sentinel, enable the Office 365 data connector. For more information, see the [Microsoft Sentinel documentation](/azure/sentinel/connect-office-365).
 
 ## Helpful hunting KQL queries
 
@@ -77,7 +78,7 @@ OfficeActivity
 ```
 
 > [!TIP]
-> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md#participant-types) section in the Teams Security Guide.
+> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md) section in the Teams Security Guide.
 
 ### Who recently joined / Whose role changed
 
@@ -107,31 +108,31 @@ OfficeActivity
 
 In Teams, you can add external users to your environment or channels. Organizations often have a limited number of key partnerships and add users from among these partners. This KQL looks at external users added to teams who come from organizations that haven't been seen or added before.
 
-For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/ExternalUserFromNewOrgAddedToTeams.yaml).
+For more information, see the query in the [Microsoft Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/ExternalUserFromNewOrgAddedToTeams.yaml).
 
 ### External users who were added and then removed
 
 Attackers with some level of existing access may add a new external account to Teams to access and exfiltrate data. They may also quickly remove that user to hide that they made access. This query hunts for external accounts that are added to Teams and swiftly removed to help identify suspicious behavior.
 
-For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Detections/OfficeActivity/ExternalUserAddedRemovedInTeams.yaml).
+For more information, see the query in the [Microsoft Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Detections/OfficeActivity/ExternalUserAddedRemovedInTeams.yaml).
 
 ### New bot or application added
 
 Teams can include apps or bots in a Team to extend the feature set (including custom apps and bots). In some cases, an app or bot can be used for *persistence* in Teams without needing a user account, and can access files and other data. This query hunts for apps or bots that are new to Teams.
 
-For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/NewBotAddedToTeams.yaml).
+For more information, see the query in the [Microsoft Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/NewBotAddedToTeams.yaml).
 
 ### User accounts who are Owners of large numbers of Teams
 
 Attackers looking to elevate their privileges may assign themselves Owner privileges of a large number of diverse teams. *Usually*, users create and own a few teams around specific topics. This KQL query looks for suspicious behavior.
 
-For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultiTeamOwner.yaml).
+For more information, see the query in the [Microsoft Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultiTeamOwner.yaml).
 
 ### Many Team deletions by a single user
 
 Attackers can cause disruptions and jeopardize projects and data by deleting multiple teams. Since teams are usually deleted by individual Owners, central deletion of many teams can be a sign of trouble. This KQL looks for single users who delete multiple teams.
 
-For more information, see the query in the [Azure Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultipleTeamsDeletes.yaml).
+For more information, see the query in the [Microsoft Sentinel community git hub](https://github.com/Azure/Azure-Sentinel/blob/master/Hunting%20Queries/OfficeActivity/MultipleTeamsDeletes.yaml).
 
 ### Expanding your threat hunting opportunities
 

@@ -1,12 +1,13 @@
 ---
 title: Required mobile diagnostic data for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
+ms.date: 05/06/2020
 description: A list of mobile properties and events for the policy controls for Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -35,7 +36,7 @@ For more information about diagnostic data, including how to control what diagno
 
 - **acceptUser** - The user has accepted a 1:1 chat.
 - **accessibilityUserConfiguration** - When a user toggles an accessibility feature.
-- **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
+- **acknowledgeSettingChange** - Acknowledge an update in the **we updated a notification setting** dialog. This property is a feature success metric used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
   - Create message extension usage.
   - Action message extension usage.
@@ -64,8 +65,8 @@ For more information about diagnostic data, including how to control what diagno
 - **admitAll** - The number of times the **Admit all** button is selected from the lobby section.
 - **admitParticipant** - The number of times someone is admitted into a meeting from the meeting roster.
 - **alertsNavAlert** - Tapping on a feed item.
-- **aliasDiscoverabilitySettingOpened** - Entry point to discoverabaility settings.
-- **android: null** - Mute or unmute a bot chat. This is enhancing existing telemetry around chats only adds application information.
+- **aliasDiscoverabilitySettingOpened** - Entry point to discoverability settings.
+- **android: null** - Mute or unmute a bot chat. This property enhances existing telemetry around chats only adds application information.
 - **anonymousMeetingJoin** - **Join meeting** is selected on an anonymous join provide name page or **OK** is tapped in the name dialog.
 - **anonymousMeetingJoinWelcome** - **Join as guest** is selected on an anonymous join meeting landing page.
 - **anonymousMeetingPostMeetingChat** - The number of user views of chat from the call end screen.
@@ -88,24 +89,24 @@ For more information about diagnostic data, including how to control what diagno
 - **autoReconnectCallmebackCallDrop** - The number of times the **Callmeback** button was selected at a call end screen.
 - **autoReconnectDialIn**
   - The **Dial in** button is selected on the reconnect UFD.
-  - The number of times the **Dial In** button was selected while a reconnect is happening.
+  - The number of times the **Dial In** button was selected while a reconnect was happening.
 - **autoReconnectDialInonCallDrop** - The **Dial in** button is selected on the call disconnected UFD.
 - **autoReconnectDialOut** - The **Call me back** button is selected on the reconnect UFD.
 - **autoReconnectRejoinonCallDrop** - The number of times the **Rejoin** or the **Redial** button was selected at the call end screen.
-- **backFromCallMePSTN** - Call Me back PSTN number flow is not completed.
+- **backFromCallMePSTN** - Call Me back PSTN number flow isn't completed.
 - **backToPhotoShare** - Returning to a camera.
 - **backToStageFromWhiteboard** - Returning to a call screen from a whiteboard.
 - **backToWhiteboardFromStage** - Going to a whiteboard from a call screen.
 - **blockAnonymous** - When:
-  - Enables calling setting to block calls without caller id from settings.
-  - Disables calling setting to block calls without caller id from settings.
-  - Enables calling setting to block calls without caller id from action sheet.
-  - Disables calling setting to block calls without caller id from action sheet.
+  - Enables calling setting to block calls without caller ID from settings.
+  - Disables calling setting to block calls without caller ID from settings.
+  - Enables calling setting to block calls without caller ID from action sheet.
+  - Disables calling setting to block calls without caller ID from action sheet.
 - **blockCaller** - Blocking:
   - A number and contact from the new iOS calls action sheet.
   - A contact and number from the contact card.
   - Numbers from settings.
-- **blockChat** - Blocking a bot chat. This enhances existing telemetry around chats and is only adding application information.
+- **blockChat** - Blocking a bot chat. This property enhances existing telemetry around chats and is only adding application information.
 - **botClickCardAction** - Connector card usage.
 - **brbFormOpened** - The user requested to send feedback.
 - **brbFormSubmit** - The user submitted feedback.
@@ -118,7 +119,7 @@ For more information about diagnostic data, including how to control what diagno
 - **calendarLiveChatClicked** - Chat from live meeting on the **Schedule** tab.
 - **calendarMeetingJoin** - **Meeting Join** button selected from a calendar.
 - **calendarTab** - Select the **Meetings** tab in the bottom rail. Useful in understanding the calendar usage and comparing with other apps on the bottom rail, or determining if there was a failure in rendering the calendar post after selecting from the bottom bar.
-- **calendarTabClicked** - In the circumstances listed below, this will show calendar usage and allow you to compare with other navbar apps on the bottom rail. This can be used to determine if there was a failure when:
+- **calendarTabClicked** - In the circumstances listed below, this property shows calendar usage and allows you to compare with other navbar apps on the bottom rail. This property can be used to determine if there was a failure when:
   - The **Schedule** tab is shown.
   - The **Meetings** tab is selected in the bottom rail.
 - **calendarUpcomingChatClicked** - Chat from an upcoming meeting on the **Schedule** tab.
@@ -228,17 +229,17 @@ For more information about diagnostic data, including how to control what diagno
 - **callVoicemailTab** - **Voicemail** tab selected in Calls.
 - **cameraPermissionCancel** - **Cancel** is selected the camera permission dialog.
 - **cameraPermissionGoToSettings** - **Settings** is navigated to from the camera permissions dialog.
-- **cancelEditMeeting** - Select the **Close** button while on the meeting scheduler page, after selecting **Edit meeting**. This logs when a user abandons the edit meeting selection.
+- **cancelEditMeeting** - Select the **Close** button while on the meeting scheduler page, after selecting **Edit meeting**. This property logs when a user abandons the edit meeting selection.
 - **cancelFileShare** - **Cancel** is selected on the confirmation dialog.
 - **cancelFileUpload** - **x** is selected on the upload dialog.
-- **cancelMeeting** - Select **Cancel event** from the meeting details page. Used to get aggregated data on the number of cancelled meetings.
+- **cancelMeeting** - Select **Cancel event** from the meeting details page. Used to get aggregated data on the number of canceled meetings.
 - **cancelNavigationToLink** - Cancel navigation was chosen.
 - **cancelRequestToJoinTeam** - Cancel request to join a team.
 - **cancelRequestToJoinTeamError** - Error with a cancel join request.
 - **cancelNewMeeting** - To log abandoned Create meeting selections and verify what caused them when:
   - The **Close** button is selected while on meeting scheduler page.
   - The **Close** button is selected while on meeting scheduler page after selecting **Edit meeting**.
-- **cardView - No AS assigned** - Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side. This item is required to measure any error with joining a team.
+- **cardView - No AS assigned** - Card view and card rendering. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and to look out for potential issues on the client side. This item is required to measure any error with joining a team.
 - **castPpt** - Event is triggered when:
   - A PowerPoint option is selected.
   - A particular PowerPoint is selected.
@@ -265,7 +266,7 @@ For more information about diagnostic data, including how to control what diagno
 - **channelNav** - Navigating to a channel from anywhere.
 - **channelNavTab** - Provides success and discoverability data for files in Teams when:
   - The **Files** tab is selected in channel.
-  - There is a connector card reply.
+  - There's a connector card reply.
 - **channelNotificationSettings** - Triggered when:
   - The **New Notification settings** dialog is selected.
   - The channel notification settings button is selected in channel view.
@@ -282,7 +283,7 @@ For more information about diagnostic data, including how to control what diagno
 - **chat - No AS Assigned** - Viewing unread chat or editing the chat roster, specifically:
   - Selecting the **Done** button when adding a user to a chat.
   - A chat list filter is selected, to filter by unread.
-- **chatAddChat** - Add a member to chat button tapped (this will be same for 1:1 chat and group chat).
+- **chatAddChat** - Add a member to chat button tapped (this property will be same for 1:1 chat and group chat).
 - **chatAllowJoinViaLink** - Turns the Join Link capabilities in the Chat Details page on or off.
 - **chatAvatarEdit** - Tracks how many groups change their avatar from the Chat Details page.
 - **chatAvatarEditCamera** - Triggered when a user edits the avatar from a live camera feed.
@@ -333,7 +334,7 @@ For more information about diagnostic data, including how to control what diagno
 - **clickPhotoOfficeLens** - Select **Take photo** - Launch camera (Android only).
 - **clockInEntryTeamSelectionShown** - A user selects a team for time clock while not clocked in.
 - **clockInOutClicked** - On the clock in screen, the **Clock In** or **Clock Out** button are selected.
-- **clockInOutTriggered** - Register a user's clock in or out. This will not trigger until you have checked the location, assuming location is required.
+- **clockInOutTriggered** - Register a user's clock in or out. This property won't trigger until you've checked the location, assuming location is required.
 - **closedBannerMessage** - Triggered when the banner message of a notification is closed.
 - **closeLobbyBanner** - Number of times the lobby toast is closed using its **Close** button.
 - **commentAdded** - Confirms that a comment was added to a task.
@@ -344,8 +345,7 @@ For more information about diagnostic data, including how to control what diagno
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
 - **companionJoinProximity** - Joined through the companion banner.
-- **completeVaultFRE** - User completes process of generating a master key which is used to encrypt their Safe data.
-- **completionStateChange** - Triggers when a completed or uncompleted filter toggle is selected in filter view from task list.
+- **completionStateChange** - Triggers when a completed or Incomplete filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
 - **composeFilePick** - Native file picker launched.
 - **composeImagePicker** - **Image** button tapped.
@@ -404,7 +404,7 @@ For more information about diagnostic data, including how to control what diagno
 - **createDefaultPlannerPlan** - A shared list is created automatically when the Tasks app is opened for the first time by anyone in that group, checks auto list created with Planner service. Confirms the default shared task list is successfully created in Planner the first time a user attempts to create a shared task list.
 - **createOrJoinTeam** - The **+** button is selected to create or join a team.
 - **createPersonalPlan** - A personal list is created, checks list created with ToDo service. Confirms a new personal task list is created in ToDo.
-- **createPersonalSubtask** - Confirms a personal sub-task has been successfully created.
+- **createPersonalSubtask** - Confirms a personal subtask has been successfully created.
 - **createPersonalTask** - Confirms a personal task has been successfully created.
 - **createPlan** - Confirms that a shared task list has been successfully created. Confirms that a shared plan has been successfully created through middle tier.
 - **createPlannerPlan** - A shared list is created, checks list created with Planner service. Confirms a new shared task list is created in Planner.
@@ -416,7 +416,7 @@ For more information about diagnostic data, including how to control what diagno
 - **createTeam** - Provides success data around the successful creation or discard action for new team creation, when:
   - The **Done** button is selected on the **Create Team** Page.
   - The **Cancel** button is selected on the **Create Team** Page.
-- **createTeam, createChannel** - This provides success data around the successful addition of members in a team and the successful creation of a new team when:
+- **createTeam, createChannel** - This property provides success data around the successful addition of members in a team and the successful creation of a new team when:
   - The **Skip** button is selected in the **Add Members** page (check existing first).
   - The **Done** button is selected in the **Add Members** page (check existing first).
   - Shows team or channel creation acknowledgement.
@@ -432,8 +432,7 @@ For more information about diagnostic data, including how to control what diagno
 - **deleteContact** - A user deletes an existing private contact.
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
-- **deletePersonalSubtask** - Confirms a personal sub-task has been successfully deleted.
-- **deletePersonalVaultItem** - User requests to delete their personal Safe.
+- **deletePersonalSubtask** - Confirms a personal subtask has been successfully deleted.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
@@ -450,7 +449,7 @@ For more information about diagnostic data, including how to control what diagno
 - **deviceSyncDisabled** - Device sync disabled.
 - **dialIn** - A user chooses to Dial in into a meeting (various locations).
 - **dialInBadNetworkBanner** - **Dial in** is selected for a poor connection banner.
-- **dialInBadNetworkBannerCancel** - The **Dial in** is cancelled on the native dialog.
+- **dialInBadNetworkBannerCancel** - The **Dial in** is canceled on the native dialog.
 - **dialInBadNetworkBannerConfirm** - The **Dial in** is confirmed on the native dialog.
 - **dialInCall** - **Call** is selected on the **Dial in** pop-up.
 - **dialInCancel** - **Cancel** is selected on the **Dial in** pop-up.
@@ -463,13 +462,13 @@ For more information about diagnostic data, including how to control what diagno
 - **dialOutDialog** - **New number** is selected in the action sheet.
 - **dialOutFailRetry** - **Retry** is selected from a failure banner.
 - **DialPad** - The **DialPad** button is selected from the call list.
-- **directShare** - Shared an invite link to a Sms/Email native app.
+- **directShare** - Shared an invite link to an Sms/Email native app.
 - **disableCategory** - Disable a type of notification or disable incoming call notifications.
-- **disabled** - **Skip notifications** is selected in the First-run experience (FRE). This provides key success data for skipping the notification in the FRE flow.
+- **disabled** - **Skip notifications** is selected in the First-run experience (FRE). This selected property provides key success data for skipping the notification in the FRE flow.
 - **disableQuietDays** - Quiet Days disabled. Feature success telemetry for quiet days.
 - **disableQuietHours** - Quiet Hours disabled.
 - **discoverTeams** - Navigate to Browse and Join Teams page.
-- **Dismiss_earlycancelledCQF** - The CQF early cancelled call form is dismissed.
+- **Dismiss_earlycancelledCQF** - The CQF early canceled call form is dismissed.
 - **Dismiss_ratemycallCQF** - The CQF rate my call form is dismissed.
 - **Dismiss_ratemyliveeventCQF** - The CQF rate my live event form is dismissed.
 - **dismissBadNetworkBanner** - **Dismiss**  is selected for a poor connection banner.
@@ -494,13 +493,13 @@ For more information about diagnostic data, including how to control what diagno
   - Determine if a file was downloaded successfully.
 - **dragDatePickerHandle**
 - **dtmfPSTNCall** - DTMF button on DialPad is tapped.
-- **dueDateChanged** - Triggers when a user assigns a duedate to a task.
-- **dueDatePickerClicked** - Triggers when the **Due Date** button is selected in task details, opening the duedate picker page.
-- **dueDateSelected** - Triggers when a user applies a filter by duedate while viewing a tasklist.
+- **dueDateChanged** - Triggers when a user assigns a due date to a task.
+- **dueDatePickerClicked** - Triggers when the **Due Date** button is selected in task details, opening the due date picker page.
+- **dueDateSelected** - Triggers when a user applies a filter by due date while viewing a tasklist.
 - **dueDateUnselected** - Triggers when a user unapplies a filter by dueddate while viewing a tasklist.
 - **edit** - **Edit** button in a chat message.
 - **editChannel** - A user selects a button to edit a channel that they own or administer.
-- **editContact** - A user edits an existing private contact, this can be done by navigating to the contact card.
+- **editContact** - A user edits an existing private contact by navigating to the contact card.
 - **editMeetingResponse** - Edit meeting response from the meeting detail page.
 - **editNavigation** - **Reorder** is selected in the **More** menu to edit the order of bottom bar apps.
 - **editRsvpMeetingOptions** - Select **RSVP** to change from the previous selection.
@@ -521,8 +520,8 @@ For more information about diagnostic data, including how to control what diagno
   - **Enable notifications** is selected in the First-run experience (FRE).
   - Enable is selected in a reminder.
 - **enabled/disabled** - Calling permissions or contact permissions (Android only).
-- **enabled, notNow** - Notification permission prompt **Accept** button, First-run experience (FRE) Notifications Permission (iOS). This captures how many people have enabled the notification feature and provides information.
-- **enablediOSPrompt** - A user actually enables notifications in the iOS notifications permissions prompt. This gives information about users who actually enable notifications in iOS from notifications permissions prompt.
+- **enabled, notNow** - Notification permission prompt **Accept** button, First-run experience (FRE) Notifications Permission (iOS). This property captures how many people have enabled the notification feature and provides information.
+- **enablediOSPrompt** - A user actually enables notifications in the iOS notifications permissions prompt. This property gives information about users who actually enable notifications in iOS from notifications permissions prompt.
 - **enabledQuietDays** - Quiet Days enabled.
 - **enableLocationPermission** - When a user enables location permissions for the share location feature.
 - **enableQuietDays** - A user enables quiet days.
@@ -531,7 +530,7 @@ For more information about diagnostic data, including how to control what diagno
 - **endFileShare** - **Go back** is selected on a file sharing dialog.
 - **endMyShift** - Number of devices in shared mode or number of times signed out.
 - **endPhotoShare** - **x** out from photo share.
-- **entryPointClicked** - Selecting **Requests** in the **Schedule** tab. Requests are for when a Frontline Worker (FLW) is requesting a shift time, etc..
+- **entryPointClicked** - Selecting **Requests** in the **Schedule** tab. Requests are for when a Frontline Worker (FLW) is requesting a shift time, etc.
 - **endPSTNCallSelected** - A user ends a PSTN and a Content call.
 - **endPSTNCallShown** - A user is prompted to end a PSTN or a Content call.
 - **endVideoShare** - **x** out from Video share.
@@ -539,7 +538,7 @@ For more information about diagnostic data, including how to control what diagno
 - **expand/collapse** - Device contacts or company contacts section.
 - **expandCollapseSection** - Tap a section header to expand or collapse a section.
 - **Expected: atMention - Android: chatSendMessage - iOS: sendMsg** - @mention a bot in a compose box.
-- **Expected: botClickCardAction - Android: showCard - iOS: missing** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
+- **Expected: botClickCardAction - Android: showCard - iOS: missing** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and to look out for potential issues on the client side.
 - **Expected: chatSendMessage - iOS: composeSendMessage** - Tap on **Reply** and reply to a bot chat in a channel.
 - **Expected: composeSendMessage - Android: replyChannel - iOS: missing** - Tap on **Reply** and reply to a bot chat in a channel.
 - **Expected: messageLike - Android: reactLike_CM** - Like a bot message.
@@ -555,13 +554,13 @@ For more information about diagnostic data, including how to control what diagno
   - Sign-in success.
   - First sign-in succeeded.
   - Sign-in Errors are seen by a user.
-  - Record telemetry about MAM/MDM policies implemented on first time login.
-  - Record app install referrer parameters after first time successful login.
+  - Record telemetry about MAM/MDM policies implemented on first time sign in.
+  - Record app install referrer parameters after first time successful sign in.
 - **fitToFrameVideo** - Fit to frame from action sheet.
 - **flipCamera** - Flip camera.
 - **forcedUpdateAccept** - A user accepts to update the app version in the force update dialog.
 - **forcedUpdateExit** - A user closes the app instead of updating the app version in the force update dialog.
-- **forcedUpdatePrompt** - Used in situations where users on older versions, that may not have the latest security and privacy fixes, need to be reached.
+- **forcedUpdatePrompt** - Used in situations where users on older versions (that may not have the latest security and privacy fixes) need to be reached.
 - **formattingBold** - A user selects bold formatting.
 - **formattingHighlight** - A user selects highlight formatting.
 - **formattingImportant** - A user selects importance.
@@ -609,7 +608,7 @@ For more information about diagnostic data, including how to control what diagno
 - **inviteFreemium** - Tapping the **+** button in the Invite screen.
 - **inviteGuest** - Tapping the **+** button in the Invite screen.
 - **joinFromDeeplinkInTeams** - A user joined through a deeplink from within the Teams app.
-- **joinFromDeeplinkOutsideTeams** - A user joined through a deeplink from outside the Teams app.
+- **joinFromDeeplinkOutsideTeams** - A user joined through a deep link from outside the Teams app.
 - **joinFromJoinLauncher** - A user joined from a Join Launcher.
 - **joinFromNudge** - A user joined from nudge.
 - **joinFromStore** - A user joined after downloading the app from the app store.
@@ -638,21 +637,21 @@ For more information about diagnostic data, including how to control what diagno
 - **linkPreviewCancel** - Understand the preview closure behavior.
 - **listUserClicked** - When a user selects a user in Working Now.
 - **liveCaptions** - Live captions are turned on or off.
-- **liveEventAdditonalLink** - An additional link is selected.
+- **liveEventAdditonalLink** - An extra link is selected.
 - **liveEventInfo** - The **Info** button is selected.
 - **liveEventJoin** - A user joins a live event.
 - **liveEventLeave** - The **Leave** button is pressed.
 - **liveEventPresenterJoin** - A live event is joined by a presenter.
 - **liveEventPresenterJoinAsAttendee** - A live event presenter joined as an attendee.
 - **liveEventQnA** - The **Q&A** icon is selected.
-- **liveEventYammer** - The **Yammer** icon is selected.
+- **liveEventVivaEngage** - The **Viva Engage** icon is selected.
 - **liveMeetingPushNotificationClicked** - Push notification is selected.
 - **liveMeetingToastClicked** - In-app toast is selected.
 - **live_location_in_chats_from_profile_clicked** - **Live locations** is selected in profile view.
 - **lobbyPickAudio** - Number of times a user switches audio output from lobby.
 - **lobbyToggleMuted** - Number of times a user turned the mic on or off from lobby.
 - **lobbyToggleVideo** - Number of times a user turned video on or off from lobby.
-- **logOutClicked** - When a user logs out.
+- **logOutClicked** - When a user signs out.
 - **location_active_tracking** - A user's device is switched to active tracking.
 - **locationCard** - Select a location card.
 - **location_family_sync** - Showing members of a Family group that were created in MSA family app. Confirms that all family members that can be granted consent are displayed.
@@ -666,11 +665,9 @@ For more information about diagnostic data, including how to control what diagno
 - **location_settings_open** - A user opens location settings.
 - **location_sharing_start** - A user shares their live location in a chat.
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
-- **loginFailed** - User was unable to login.
-- **loginSuccess** - User was able to login.
-- **logoutVault** - User logs out of the app and in turn logs out of Safe. 
+- **loginFailed** - User was unable to sign in.
+- **loginSuccess** - User was able to log in.
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
-- **manageVaultKey** - User changes their Safe key management choice (MSA vs self tracked).
 - **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
@@ -678,13 +675,13 @@ For more information about diagnostic data, including how to control what diagno
 - **markChannelRead** - A user marks a channel read.
 - **messageBookmarkMessage** - Connector card save. Uses existing telemetry with app specific data. Or save a bot message.
 - **markAsLastUnread** - Connector card context menu.
-- **maskCallerId** - A user enables or disables calling setting to mask caller id.
+- **maskCallerId** - A user enables or disables calling setting to mask caller ID.
 - **meetingAttachmentFileClick** - A meeting attachment item is clicked.
-- **meetingAttachmentFileOptions** - A meeting attachment item options is clicked.
+- **meetingAttachmentFileOptions** - A meeting attachment item option is clicked.
 - **meetingAttachmentSeeMoreClick** - A meeting attachment see more button is clicked.
 - **meetingDetailCalendarList** - Meeting Details page selected from calendarList, or select the **Details** tab on the Meeting Details page.
 - **meetingDetailChatWithParticipants** - Chat with participants from the Meeting detail page.
-- **meetingDetailDeleteMeetingforSelf** - Delete a Meeting from Meeting Detail page for oneself.
+- **meetingDetailDeleteMeetingforSelf** - Delete a Meeting from the Meeting Detail page for oneself.
 - **meetingDetailJoin** - The **Meeting Join** button is selected from Meeting Detail page.
 - **meetingDetailParticipants** - See all participants from the Meeting Detail page.
 - **meetingDetailScheduledMeeting** - Meeting details page selected from scheduled meeting object (**...**), or select the **Details** tab of a scheduled meeting.
@@ -732,13 +729,13 @@ For more information about diagnostic data, including how to control what diagno
 - **messageMuteSender** - Mute or unmute sender.
 - **messageLike** - Connector card like. Uses existing telemetry with app specific data.
 - **messageScheduledMeeting** - Meeting object in channel selected (Not only scheduled ones).
-- **messageTriggered** - This is when a notification is triggered for a message.
+- **messageTriggered** - When a notification is triggered for a message.
 - **micPermissionCancel** - **Cancel** is selected on the mic permission dialog.
 - **micPermissionGoToSettings** - A user navigates to settings from the mic permissions dialog.
 - **MicrosoftWhiteboardClicked** - Microsoft whiteboard is selected on the **Channel Files** tab or the **Meeting Chat Files** tab.
 - **moreOptionsClicked** - Triggers when **...** menu on the top-right is selected on the task item editor screen.
 - **moveTaskClicked** - Option inside task item more options list.
-- **msaAddDeleteAliasLinkClicked** - Link to setup an alias on MSA Profile page.
+- **msaAddDeleteAliasLinkClicked** - Link to set up an alias on MSA Profile page.
 - **multiCallEndFromUFD** - Number of times a user ends the call on hold in a multi-call scenario.
 - **multiCallResumeFromUFD** - Number of times a user selects to resume a call from hold.
 - **multiCallSwitch** - Number of times a user selects an option to switch the call and list of calls on hold shows up.
@@ -763,7 +760,7 @@ For more information about diagnostic data, including how to control what diagno
 - **navChat** - A user navigates to the **Chat** tab or app on the bottom bar or app tray.
 - **navContacts** - A user navigates to the **Contacts** or **People** tab or app on the bottom bar or app tray.
 - **navDashboardTab** - A user navigates to the **Dashboard** tab within a conversation.
-- **navDynamics365** - Triggered when the Dynamics365 app is opened.
+- **navDynamics365** - Triggered when the Dynamics 365 app is opened.
 - **navFiles** - Files app is selected, tracks if a user can launch the files app in the app tray (iOS).
 - **navFilesTab** - Files app is selected, tracks if a user can launch the files app in the bottom nav bar (iOS).
 - **navMeetings** - **Calendar** tab tapped.
@@ -799,10 +796,10 @@ For more information about diagnostic data, including how to control what diagno
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
 - **notificationNavPreCall** - A user gets a notification of a meeting starts that navigates them to the precall screen on selection.
 - **ocvFeedback** - Relating to the performance of the OCV feedback form.
-- **ocvFormCancelled** - An event sent when the OCV feedback form is cancelled and the user returns to the app.
+- **ocvFormCancelled** - An event sent when the OCV feedback form is canceled and the user returns to the app.
 - **ocvFormOpened** - An event sent when the OCV form is opened.
 - **ocvFormSubmit** - An event sent when the user clicks submit on the OCV feedback form.
-- **offerRecipientClicked** - Only logged if the request being sent is an offer. The user enters the team member picker to offer a shift. Offering means offering a shift time off.
+- **offerRecipientClicked** - Only logged if the request being sent is an offer. The user enters the team member picker to offer a shift. Offering means to offer a shift time off.
 - **offerSwapShiftFromL1** - The type of shift a user tries to offer or swap from a shifts list. iOS action is a **SwipedRight** and Android action is **LongPressed**.
 - **offerSwapShiftFromL1Triggered** - A user offers to swap a shift with another user.
 - **officeLens** - Fires when the app launches the officeLens camera feature, either when:
@@ -817,8 +814,8 @@ For more information about diagnostic data, including how to control what diagno
 - **openAppDrawer** - **More** is selected at the bottom bar to open the app drawer.
 - **openEditMeetingForm** - The **Edit** button is selected from the Meeting Details page.
 - **openFile** - Helps:
-  - To identify a file was able to be opened in the chat successfully.
-  - To identify a file was able to be opened from a files listing.
+  - To identify that a file was able to be opened in the chat successfully.
+  - To identify that a file was able to be opened from a files listing.
   - To check if files can be opened from a OneDrive list.
   - To identify open files can be opened from a channel list.
   - Determining if files can be opened from group chats.
@@ -837,7 +834,7 @@ For more information about diagnostic data, including how to control what diagno
 - **openInStream** - Open a video in Stream.
 - **openMeetingDetails** - Open the meeting details or the Open Meeting details page of a particular meeting.
 - **openModalityPicker** - X = ChatsAndChannels for chats and channels.
-- **openNewMeetingForm** - Confirms a personal sub-task has been successfully updated.
+- **openNewMeetingForm** - Confirms a personal subtask has been successfully updated.
 - **openNewMeetingForm** - Open the scheduler while setting up a new meeting.
 - **openPhotoLibrary** - Select a photo library.
 - **openQuietDays** - Navigate to Quiet Days page.
@@ -884,7 +881,7 @@ For more information about diagnostic data, including how to control what diagno
 - **preJoinDenied** - A user is unable to join a meeting.
 - **preJoinDeviceAudio** - **Join with device audio** is selected from dropdown.
 - **preJoinDialIn** - The **Dial in** button is selected in the pre-join dropdown.
-- **preJoinDialInCall** - A user confirms the **DIal in** request on prejoin.
+- **preJoinDialInCall** - A user confirms the **Dial in** request on prejoin.
 - **preJoinDialInCancel** - A user cancels the **Dial in** request on prejoin.
 - **preJoinDialOut** - The **Call me back** button is selected the in pre-join dropdown.
 - **preJoinDialOutCall** - A user confirms the **Call me back** request on prejoin.
@@ -937,7 +934,7 @@ For more information about diagnostic data, including how to control what diagno
 - **refreshCalendarList** - Pull down to refresh agenda view.
 - **refreshLinksGallery** - When a user swipes down to refresh the links gallery.
 - **removeAssignee** - Confirms that an assignee is removed from the assignment picker view (as opposed to *assignmentRemoved* which triggers when selecting **x** outside of assignment picker view).
-- **removeMeeting** - Select **Remove from Calendar** from the Meeting Details page of a cancelled meeting.
+- **removeMeeting** - Select **Remove from Calendar** from the Meeting Details page of a canceled meeting.
 - **removeParticipantFromEditMeeting** - Remove a participant after selecting **Edit meeting** from the Meeting Details page.
 - **removeParticipantFromNewMeeting** - Remove a participant from the scheduler page while setting up a new meeting.
 - **removeReplyObject** - A user removed reply object from compose.
@@ -964,7 +961,6 @@ For more information about diagnostic data, including how to control what diagno
 - **requestToJoinTeam** - Request to join team (public or private).
 - **requestToJoinTeamError** - Error with join request.
 - **requestTypeClicked** - Determining the type of request people select from the requests picker.
-- **resetLocalVault** - User resets and clears all Safe data from their device.
 - **resolveIssue** - **Resolve** is selected in the notification troubleshooter flyout to navigate to the blocker app.
 - **responseClicked** - A user selects a response page.
 - **retryButtonClicked** - The **Retry** button is selected.
@@ -992,8 +988,8 @@ For more information about diagnostic data, including how to control what diagno
 - **searchTabClicked** - Determines:
   - Domain information of the search result - for people, chat, messages, and files.
   - If the relevant results are found successfully.
-- **seeAllMeetingParticipants** - Select **See All** from the meeting details page, or view all participants. Logs user data across the calendar funnel, where calendar meeting details play an important role, this helps validate selections for Dial ins, Teams meetings, RSVPs, etc..
-- **seeMeetingDescription** - Opening the Meeting Details page or selecting **See More** on the Meeting description from the Meeting Details page. Data is logged across the calendar funnel, where calendar meeting details play an important role, this helps validate selections for Dial ins, Teams meetings, RSVPs, etc..
+- **seeAllMeetingParticipants** - Select **See All** from the meeting details page, or view all participants. Logs user data across the calendar funnel, where calendar meeting details play an important role; this property helps validate selections for Dial ins, Teams meetings, RSVPs, etc.
+- **seeMeetingDescription** - Opening the Meeting Details page or selecting **See More** on the Meeting description from the Meeting Details page. Data is logged across the calendar funnel, where calendar meeting details play an important role; this property helps validate selections for Dial ins, Teams meetings, RSVPs, etc.
 - **seeRsvpMeetingOptions** - Select **Notify Organizer** from the RSVP pop up, or select **Rsvp** options from the Meeting Details page.
 - **selectActivityType** - Captures select gestures on feed item.
 - **selectCalendarDate** - Select a specific date on the calendar date picker control.
@@ -1009,7 +1005,7 @@ For more information about diagnostic data, including how to control what diagno
 - **selectTheme** - Enable dark theme.
 - **selectUser** - Confirms that an assignee was successfully selected for a task.
 - **selfLongPress** - Long press on myself.
-- **Send_earlycancelledCQF** - A user submits feedback on CQF early cancelled call form.
+- **Send_earlycancelledCQF** - A user submits feedback on CQF early canceled call form.
 - **send_map_pin_clicked** - A user sends a static location.
 - **Send_ratemycallCQF** - A user submits feedback on CQF rate my call form.
 - **Send_ratemyliveeventCQF** - A user submits feedback on CQF rate my live event form.
@@ -1017,20 +1013,19 @@ For more information about diagnostic data, including how to control what diagno
 - **sendImage** - Send image.
 - **sendLocation** - Send location.
 - **sendMsg** - Select **Send** in reply.
-- **sendRequestBulkClicked** - This is logged once for each bulk request send.
+- **sendRequestBulkClicked** - This property helps logging once for each bulk request send.
 - **sendRequestClicked** - **Shift request sent** is selected.
 - **sendVoiceMessage** - **Record** button is released.
 - **Setting/Dismiss** - Device contacts setting.
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
-- **settingsOpened** - This is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
-- **setupPinVault** - User saves a Safe pin for their account. 
+- **settingsOpened** - This option is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
 - **shareCharmCompleted** - User completed sharing of an invite link via application share charm.
 - **shareCharmOpened** - User initiated sharing of an invite link via application share charm. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:
   - The user was able to initiate share file operation.
   - The user can share a file successfully.
 - **shareHistory** - Share history picker selected.
-- **shareInto** -- A user shares something from another app into Teams.
+- **shareInto** - A user shares something from another app into Teams.
 - **sharePlanToChat** - A shared list is manually shared from the tasks app to the group chat as a chicklet, check chicklet sent via the backend messaging service.
 - **sharePPTFromChannels** - **Teams and Channels** is selected.
 - **sharePPTFromOneDrive** - **OneDrive** is selected.
@@ -1040,13 +1035,13 @@ For more information about diagnostic data, including how to control what diagno
 - **shareShiftsClicked** - The details of an open shift.
 - **shareTray** - **Share...** is selected in the action sheet.
 - **shiftAssigneeClicked** - The Shifts Calendar view showing the particular shifts details.
-- **shiftDetails** - This allows you to see the details of a shift.
+- **shiftDetails** - This property allows you to see the details of a shift.
 - **shiftDetailsCalendar** - User goes to shift details.
 - **shiftDetailsMyShifts** - Tapping on **Calendar** from the **Schedules** tab.
 - **shiftDetailsTodaysCoworkers** - On the clock in screen, the **Start** or **End break** button is selected.
 - **shortCircuitContactCount** - The number of address book matched short circuited contacts received from a contacts fetch.
 - **showBanner** - Number of times the **WiFi Connected, No Internet** banner appears.
-- **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
+- **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and to look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
 - **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
@@ -1057,27 +1052,27 @@ For more information about diagnostic data, including how to control what diagno
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
 - **skipVerificationForLink** - The user chose to skip verification.
 - **smartReply** - Smart reply toggle button is clicked.
-- **SMSSendMessage** - The user sends a SMS message.
+- **SMSSendMessage** - The user sends an SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
 - **SSOAccountListItem**: Triggered when the user taps on an SSO account to sign in.
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
 - **startPSTNCall** - Triggered due to:
-  - PSTN Result in Global Search (People).
-  - PSTN call placed from Device contactCard.
-  - PSTN Call placed from callList.
-  - DialPSTN Number using DialPad.
+  - A PSTN Result in Global Search (People).
+  - A PSTN call placed from Device contactCard.
+  - A PSTN Call placed from callList.
+  - A DialPSTN Number using DialPad.
 - **startRecording** - Start recording.
 - **startVoicemailCall** - **Change voicemail greeting** selected.
 - **static_place_selected** - A user drags map to select a static place.
-- **statusCheckBoxClicked** - Triggers when task item is either completed or uncompleted.
+- **statusCheckBoxClicked** - Triggers when task item is either completed or incomplete.
 - **statusMsgCancel** - A user cancels change to status message.
 - **statusMsgExpiry** - A user sets the expiry time.
 - **statusMsgSet** - A user sets a new status message.
 - **statusPageViaContactCard** - A user enters the status compose experience via a contact card.
 - **statusPageViaHamburger** - A user enters the status compose experience via the hamburger.
-- **stop_location_sharing_logout** - A user logs out of the app.
+- **stop_location_sharing_logout** - A user signs out of the app.
 - **stopMeetingButton** - The number of times a user leaves the lobby without being admitted into the meeting.
 - **stopPresentPhoto** - Stop presenting photo.
 - **stopPresentVideo** - Stop presenting video.
@@ -1087,14 +1082,14 @@ For more information about diagnostic data, including how to control what diagno
 - **stuckOnConnectingRetrySelected** - **Retry** is selected on the drawer.
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
-- **Switching**- Tenant or account is switched from the app. This is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
-- **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
+- **Switching**- Tenant or account is switched from the app. This property is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
+- **switchTeamAction** - A user switches teams within the time clock. This property should fire after the user selects which team they want to switch to.
 - **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
 - **tabActionMoreOptions** - Understand ellipsis (**...**) usage from within a tab.
-- **tabActionOpenInBrowser** - Open in browser usage. This is necessary to understand if users prefer opening a tab outside Teams.
+- **tabActionOpenInBrowser** - Open in browser usage. This property is necessary to understand if users prefer opening a tab outside Teams.
 - **tabActionOpenInBrowserFromTab** - Understand open in browser usage from within a Tab for more option - discoverability and usage.
-- **tabActionOpenInTeams** - Open in usage. This is key in understanding if the tab can be by default set to open in Teams.
+- **tabActionOpenInTeams** - Open in usage. This property is the key in understanding if the tab can be by default set to open in Teams.
 - **tabActionRemove** - Understand how discoverable the delete option is and the usage of the feature.
 - **tabActionRename** - Understand how discoverable rename is and the usage of the feature.
 - **tabActionSetting, Android - fix** - How users discover and use tab config on mobile.
@@ -1106,8 +1101,8 @@ For more information about diagnostic data, including how to control what diagno
 - **takePhotoPicker** - **Take photo** selected inside the image picker.
 - **tapChicletExpand** - How users preview cards on mobile.
 - **tapDatePickerHandle** - Expand the calendar date picker control.
-- **tapSettings** - The number of users re-configuring apps on mobile.
-- **tasksAppLaunchAdaptiveCard** - The Tasks app is opened from an adaptivecard in a group chat, check the app launch via the URL of the IC3 service.
+- **tapSettings** - The number of users reconfiguring apps on mobile.
+- **tasksAppLaunchAdaptiveCard** - The Tasks app is opened from an adaptive card in a group chat, check the app launch via the URL of the IC3 service.
 - **tasksAppLaunchComposeExtension** - The Tasks app is opened from the compose extension in a group chat, check the app launch via the MT service.
 - **tasksAppLaunchDashboard** - The Tasks app is opened from the dashboard tile or specific plan, check the app launch via the MT service.
 - **tasksAppLaunchDashboardSeeAll** - The Tasks app is opened from the dashboard **See all** button on the dashboard, check the app launch via the MT service.
@@ -1120,7 +1115,7 @@ For more information about diagnostic data, including how to control what diagno
 - **teamsDeviceCallResumed** - A user with a bluetooth connected peripheral (mobile phone dock) reactivates a call from hold.
 - **teamSelectedClicked** - When a user selects **Team selected** for a timesheet.
 - **teamShiftPickerClicked** - When a user adds a new break entry. The event is logged once the user saves the changes.
-- **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature, this helps identify and fix issues proactively and provide a smooth switching experience.
+- **tenantSwitch** - On Switch Tenant. Feature success metrics for MTMA (multiple tenant and multiple account) feature; this property helps identify and fix issues proactively and provide a smooth switching experience.
 - **tenantSwitchUnsupportedError** - Tenant Unsupported Error (when a user sees the error). Feature success metrics for MTMA (multiple tenant and multiple account), provides telemetry around account or tenant switch errors, so we can identify and fix issues proactively and provide a smooth switching experience.
 - **timeClockClicked** - A user selects the **Time clock** button on the My Shifts tab.
 - **timeOffReasonClicked** - Determining if a reason for time off is cited.
@@ -1131,7 +1126,7 @@ For more information about diagnostic data, including how to control what diagno
 - **timesheetClockAdded** - When a user selects Edit for a timesheet.
 - **timesheetClockEdited**  When a user selects Save on an edited timesheet.
 - **timesheetConfirmed** - When a user adds a note to their timesheet edits. The event is logged once the user saves the changes.
-- **timesheetDeleted** - If a user does or does not have a shift reminder set, and the amount of minutes before a shift a user wants to be alerted.
+- **timesheetDeleted** - If a user does or doesn't have a shift reminder set, and the number of minutes before a shift a user wants to be alerted.
 - **timesheetEditClicked** - User Configuration telemetry.
 - **timesheetEditSaved** - A user taps on a time sheet from a user's profile to open that user's time sheet.
 - **timesheetNoteAdded** - To view an approved time off request.
@@ -1203,7 +1198,7 @@ action.
 - **viewFullAllDayMeetingList** - Agenda view on Mobile.
 - **viewLobbyFromBanner** - The number of times a user selects **View lobby** from a notification banner.
 - **viewMeetingDetails** - Select the **...** menu on the Meeting Details page. Pertaining to the usage of the **More** menu on mobile calendars.
-- **viewMeetingOccurrence** - Open up the meeting details of an instance of a recurring meeting. Telemetry to log user data across the calendar funnel, where calendar meeting details play an important role, that helps validate Selects Dial ins, Teams meetings, RSVPs, and so on.
+- **viewMeetingOccurrence** - Open up the meeting details of an instance of a recurring meeting. Telemetry to log user data across the calendar funnel - where calendar meeting details play an important role - that helps validate Selects Dial ins, Teams meetings, RSVPs, and so on.
 - **viewMeetingSeries** - To log the successful rendering of a meeting series in the following circumstances:
   - When switching from an instance to the series meeting detail page.
   - When selecting **View series** from the meeting details page.
@@ -1249,10 +1244,10 @@ action.
 - **meetNowActionSheet** - Triggered when user creates a Meet Now meeting.
 - **navPersonalFiles** - Triggered when navigation to files screen is performed.
 - **signInSSOPage**: Triggered when the user views a single sign-on page while signed in.
--- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
--- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
--- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
--- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **signInError**: Triggered when the user hits any error while signed in. This property is needed to proactively identify and fix issues that users face during sign-in. 
+-- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This property is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This property is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This property is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
 - **appDrawer** - Triggered when app drawer is opened successfully.
 - **appPolicyChange** - Triggered when a user resets and save new tabs order locally.
 - **app_stageview** - Triggered when a stage view is successfully rendered.
@@ -1262,8 +1257,8 @@ action.
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 > 
-- **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
-- **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
+- **acquire_resource_token_interactive**- Required service call that's triggered when an authentication token is acquired by interactive sign-in. 
+- **acquire_resource_token_silent**- Required service call that's triggered when an authentication token is acquired by silent sign-in.
 - **add_buddy** - Captures status of adding a contact.
 - **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
 - **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
@@ -1278,7 +1273,7 @@ action.
 - **cortanaView** - To monitor Cortana canvas appear.
 - **cortanaRestart** - To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
-- **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
+- **cortanaSpeechRecognization** To monitor Cortana speech recognition latency.
 - **cortanaStart** To monitor Cortana backend start.
 - **cortanaStartListening** To monitor Cortana start listening.
 - **cortanaStopListening** To monitor Cortana stop listening.
@@ -1323,14 +1318,14 @@ action.
 - **open_image** Confirms that the full screen image rendering succeeded or failed.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
-- **save_image** Confirms that the image save action succeeded or failed.
+- **save_image** Confirms that the image-save action succeeded or failed.
 - **saveMeProfile**- Required service call that gets triggered when user saves the profile
 - **share_image** - Confirms that the image share action succeeded or failed.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
-- **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
+- **smart_reply_banned** - Confirms that smart reply can't be displayed for current user.
 - **park_call_for_hold_v2** - Confirms that putting call on hold succeeded or failed using call park.
-- **unpark_call_for_hold_v2** - Confirms that resuming call succeeded or failed using call un-park. 
+- **unpark_call_for_hold_v2** - Confirms that resuming call succeeded or failed using call unpark. 
 - **update_planner_task_and_nav_to_view** - Confirms the successful updating of a shared task item and how long it took for a user to land on resulting view after action.
 - **update_personal_task_and_nav_to_view** - Confirms the successful updating of a personal task item and how long it took for a user to land on resulting view after 
 - **updatePlannerTask** - Confirms that a user has successfully updated a task in a shared task list.
@@ -1358,7 +1353,7 @@ action.
 - **load_channel_tab** - Captures loading of channel tab. (Android  only)
 - **load_messaging_extension_results** - Captures loading of messaging extension search/query result. (Android  only)
 - **load_static_tab** - Captures loading of static tab. (Android  only)
-- **app_authenticated** - Confirms that the authentication is sucessful and a token is fetched. (Android  only)
+- **app_authenticated** - Confirms that the authentication is successful and a token is fetched. (Android  only)
 - **blocked_by_conditional_access** - When receive conditional access blocked error code in authentication. (we try to force refresh the primary token in that case). (Android  only)
 - **get_resource_token_sync** - Triggered when we attempt to fetch token for app resources synchronously. (Android  only)
 - **get_resource_token_async** - Triggered when we attempt to fetch token for app resources asynchronously. (Android  only)
@@ -1384,7 +1379,7 @@ action.
 - **PlayerAction** - Custom action provided by the host app.
 
 ### OnePlayer playback events
-- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
+- **PlayerHeartbeat** - Recurring event that sends the current status of the player and playback to a log.
 
 ## Property lists
 
@@ -1422,7 +1417,7 @@ action.
 | isNetworkIssue                   | Captures info if there was a network issue while serving the request |
 | UserRole                         | User role in a tenant                                                |
 | Tenant_Model                     | Captures if the account is a freemium or enterprise account          |
-| licenseType/UserInfo_LicenseType | Licence type assigned to the user                                    |
+| licenseType/UserInfo_LicenseType | License type assigned to the user                                    |
 | UserLocale                       | Locale in which app is being accessed                                |
 | Intune_sdkVersion                | Version of the Intune SDK                                            |
 | Intune_sdkBundleVersion          | Detailed version of the Intune SDK                                   |
@@ -1439,8 +1434,8 @@ action.
 | Panel_Type            | Panel type accessed by the user                                    |
 | Action_Outcome        | Outcome of the action performed by user                            |
 | Team_Id               | ID of the team in which action was performed by the user           |
-| Module_Type           | Type of the module which hosted user action                        |
-| Module_Name           | Name of the module which hosted user action                        |
+| Module_Type           | Type of the module that hosted user action                        |
+| Module_Name           | Name of the module that hosted user action                        |
 | Module_Summary        | Summary of the module that hosted user action                      |
 | Thread_Id             | ID of the thread that was accessed by user                         |
 | Panel_PreviousUri     | URI of the previous panel                                          |
@@ -1537,7 +1532,7 @@ action.
 ### 2. Properties sent with all OnePlayer User Action Events 
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-| actionType    | Type of action being performed, such as tap, drag, and flick( iOS only)|
+| actionType    | Type of action being performed, such as tap, drag, and flick(iOS only)|
 | isIntentional | Boolean value if the action is intentional or not (iOS only) |
 
 #### 2.1 Properties sent with changePlaybackQuality Event

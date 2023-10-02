@@ -1,9 +1,10 @@
 ---
-title: "Assign, change, or remove a phone number for a user"
+title: "Manage phone numbers for users"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davelick, roykuntz, jastark
+ms.reviewer: julienp, roykuntz, jastark
+ms.date: 08/25/2023
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- m365initiative-voice
+- Tier1
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -22,13 +25,13 @@ ms.custom:
 description: "Learn how to assign, change, or remove a work phone number for your Teams users so outside businesses and clients can call in."
 ---
 
-# Assign, change, or remove a phone number for a user
+# Manage phone numbers for users
 
-When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
+When you set up Calling Plans, Operator Connect, or Teams Phone Mobile, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).
+Before you assign a number for a Calling Plan, Operator Connect, or Teams Phone Mobile user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md), [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers), or [Set up numbers for Teams Phone Mobile users](operator-connect-mobile-configure.md).
 
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
@@ -38,14 +41,11 @@ Before you assign a number for a Calling Plan or Operator Connect user, you must
 
 ## Assign a phone number to a user
 
-When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
+When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country/region.
 
 To assign a number by using the Teams admin center:
 
 [!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
-
-> [!NOTE]
-> For step 4, if you're assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
@@ -61,15 +61,25 @@ For Operator Connect numbers:
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
+For Teams Phone Mobile numbers:
+
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
+```
+
 For example:
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
 > [!NOTE]
 > Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> When you assign a phone number, the EnterpriseVoiceEnabled flag is automatically set to True.
 
 ## Change a phone number for a user
 
@@ -92,7 +102,7 @@ To change a phone number for a user by using the Teams admin center:
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
-      > If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+      > If you are changing numbers for Operator Connect or Teams Phone Mobile users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 9. Click **Save**.
 
@@ -116,14 +126,10 @@ For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/modul
 
 ## Related topics
 
-[What is address validation?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
-
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
-
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Manage the usage of a phone number](/microsoftteams/manage-the-usage-of-a-phone-number)
 
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
-[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
+[Plan your Teams Voice solution](/microsoftteams/cloud-voice-landing-page)

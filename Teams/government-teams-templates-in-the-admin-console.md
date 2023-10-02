@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: 
+ms.date: 09/10/2020
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium

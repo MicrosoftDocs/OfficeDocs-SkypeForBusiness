@@ -4,12 +4,15 @@ ms.author: cabailey
 author: cabailey
 manager: laurawi
 ms.reviewer: shubjain
+ms.date: 09/20/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-collaboration
+- tier1
+- purview-compliance
 appliesto: 
 - Microsoft Teams
 f1.keywords:
@@ -68,8 +71,7 @@ You can use sensitivity labels to control guest access to your teams. Teams crea
 
 ## Microsoft Teams admin center
 
-You can apply sensitivity labels when you create or edit a team in the Microsoft Teams admin center. 
-Sensitivity labels are also visible in team properties and in the **Classification** column on the **Manage teams** page of the Microsoft Teams admin center.
+You can apply sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Classification** column on the **Manage teams** page of the Microsoft Teams admin center.
 
 ## Limitations
 

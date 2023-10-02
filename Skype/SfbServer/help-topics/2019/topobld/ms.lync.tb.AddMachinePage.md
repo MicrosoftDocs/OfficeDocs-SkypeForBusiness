@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Server"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddMachinePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
@@ -68,4 +69,5 @@ Each of the new pool servers has different requirements. In the following sectio
   
 - The FQDN of the new server as it is defined in DNS.
     
+
 

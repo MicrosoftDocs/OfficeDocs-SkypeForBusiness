@@ -2,7 +2,8 @@
 title: Assign policy packages to users and groups
 author: mkbond007
 ms.author: mabond
-ms.reviewer: tomkau, saragava, ritikag, jastark
+ms.reviewer: tomkau, ritikag, jastark
+ms.date: 03/10/2021
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business and Lync"
 ms.author: serdars
 author: msdmaguire
@@ -281,3 +282,4 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 
 Learn about [Skype for Business certification](overview.md).  
 Currently published [test specifications and tools](test-spec.md).
+

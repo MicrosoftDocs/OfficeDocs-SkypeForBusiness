@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
@@ -42,7 +44,7 @@ To determine the right solution for their organization, Contoso used [Plan your 
 
 ## Site Type A: Skype for Business Enterprise Voice 
 
-Contoso Skype for Business Enterprise Voice was set up as a hub and spoke. There was a central location that maintained the PSTN gateway in the region that provided the connection to the PSTN for the Skype for Business Enterprise Voice users in country. Often these satellite offices did not have their own Internet egress. The numbers for these users resided on the SIP trunk connecting to an existing SBC. 
+Contoso Skype for Business Enterprise Voice was set up as a hub and spoke. There was a central location that maintained the PSTN gateway in the region that provided the connection to the PSTN for the Skype for Business Enterprise Voice users in country/region. Often these satellite offices did not have their own Internet egress. The numbers for these users resided on the SIP trunk connecting to an existing SBC. 
 
 To determine if the SBC already deployed is certified for Direct Routing and Media Bypass, Contoso checked the [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).  
 
@@ -57,7 +59,7 @@ Contoso based their decision on the following questions:
   A. No 
 
 - Q. Do we need to retain our current third-party carrier?<br> 
-  A. Yes (regulated countries) and No 
+  A. Yes (regulated countries/regions) and No 
 
 - Q. Do we need to get the ROI on SBCs deployed?<br> 
   A. Yes and No  
@@ -69,7 +71,7 @@ Based on the answers to their questions, Contoso decided to:
 
 - Move the users that are located in a region where PSTN calling plans is available to Phone System with Calling Plans. 
 
-- Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country that has telephony regulations to Phone System with Direct Routing. 
+- Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs have yet to be met, and users that resided in a country/region that has telephony regulations to Phone System with Direct Routing. 
 
 The following diagram shows the initial Skype for Business Enterprise Voice deployment and how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
 
@@ -161,15 +163,6 @@ To determine the configuration requirements for Calling Plans, Contoso reviewed 
 
 - Q. Do I want to mask or disable caller ID?<br> 
   A. The caller ID for a user will be masked to the local number for Contoso. 
-
-
-## Direct Routing
-
-Contoso attended Ignite to stay current on Office 365 features including those available with Phone system and Direct Routing. Technical leadership and architects used the guidance provided during the Ignite 2019 to determine their direction.  Key sessions that were used: 
-
-- [Plan for success with Microsoft Teams Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
-
-- [Updates for Direct Routing](https://docs.shanehoey.com/videos/ignite/ignite19-planfor%20successwithteamsdirectrouting/)
 
 
 ## Configuration

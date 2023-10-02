@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
 ms.localizationpriority: medium
@@ -14,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

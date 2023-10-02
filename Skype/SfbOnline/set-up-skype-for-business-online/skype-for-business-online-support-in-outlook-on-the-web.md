@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Skype for Business Online support in Outlook on the web"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -48,3 +49,4 @@ The following table summarizes the different setups that you may have and the we
 
   
  
+

@@ -1,9 +1,10 @@
 ---
-title: "Set up Communications Credits for your organization"
-ms.author: crowe
-author: CarolynRowe
+title: Set up Communications Credits for your organization
+ms.author: danismith
+author: DaniEASmith
 manager: serdars
 ms.reviewer: mikedav
+ms.date: 04/19/2023
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -21,20 +24,29 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Licensing
-  - seo-marvel-apr2020
-description: "Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization."
+description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
 ---
 
 # Set up Communications Credits for your organization
 
-If you want to use toll-free numbers with Microsoft Teams, you need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Calling Plan (Domestic, International, or Pay-As-You-Go) and Audio Conferencing users who need to dial out to **any destination**. Some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions.
+If you want to use toll-free numbers with Microsoft Teams, you need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Microsoft Teams Calling Plan (Domestic, International, or Pay-As-You-Go) and Audio Conferencing users who need to dial out to **any destination**. Some destinations may not be included in your Calling Plans or Audio Conferencing subscriptions.
 
-When you sign up for Calling Plans and/or Audio Conferencing, you get a certain number of minutes depending on your country/region. For more information, see [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
+When you sign up for Calling Plans and/or Audio Conferencing, you get some minutes depending on your country/region. For more information, see [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization).
 
 If you don't set up Communications Credits, and you run out of minutes for your organization, those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
   
-> [!NOTE]
-> For more information about plans and pricing, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523).
+For more information about plans and pricing, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523).
+
+> [!IMPORTANT]
+> **For customers with new commerce experience calling subscriptions:**
+>
+> The new commerce experience (NCE) allows customers to pay for services after the services have been consumed, also known as post-usage billing.
+>
+> Because Communication Credits is a pre-paid budget to support outgoing minutes, it’s not available to purchase for customers with NCE calling subscriptions.
+>
+> Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
+>
+> For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 To set up Communication Credits for your organization, follow these steps:
 
@@ -77,7 +89,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
 
    - **Auto-recharge** Enabling auto-recharge will automatically refill your account when the balance falls below the threshold that you set.
 
-     Microsoft recommends that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach zero. You'll be sent an email when recharge transactions succeed, when recharge transactions fail (such as an expired credit card), and when your Communications Credits balance reaches zero.
+     Microsoft recommends that you use the **Auto-recharge** setting to avoid any disruption of service if your Communications Credits balance reaches zero. You'll be sent an email when recharge transactions succeed, when recharge transactions fail (such as an expired credit card), and when your Communications Credits balance reaches zero.
 
    - **Recharge amount** Enter the amount in the **Recharge with** box that you want added to your account once it reaches the trigger amount below.
 

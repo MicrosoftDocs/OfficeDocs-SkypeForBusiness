@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection: 
-  - M365-voice
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Lists the combinations of operating system, model, and drivers that are not enabled for hardware acceleration due to driver issues.

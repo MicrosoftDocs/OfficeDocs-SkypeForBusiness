@@ -3,7 +3,8 @@ title: Overview of dynamic membership for teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: kblevens, phlouie
+ms.reviewer: phlouie
+ms.date: 10/19/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -12,7 +13,9 @@ description: Learn how Microsoft Teams supports teams associated with Microsoft 
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.custom: seo-marvel-apr2020
+ms.custom: 
+  - seo-marvel-apr2020
+  - chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 

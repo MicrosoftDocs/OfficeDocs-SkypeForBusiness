@@ -1,10 +1,10 @@
 ---
 title: Shifts data FAQ
-author: lanachin
-ms.author: v-lanachin
-ms.reviewer: aaku
-manager: samanro
-ms.topic: article
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
+ms.date: 08/19/2021
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -19,6 +19,8 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
+  - teams-1p-app-admin
+  - highpri
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -42,7 +44,9 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
 
-You can use the Content Search eDiscovery tool in the Microsoft Purview compliance portal to search for and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
+You can use in Shifts capabilities to export schedule and time clock data to Excel. To learn more, see [Export Shifts schedule data](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) and [Export time reporting in Shifts](https://support.microsoft.com/office/export-time-reporting-in-shifts-c3b06e42-3ad2-4b88-87a0-4e481d432110).
+
+You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method select to bring up the shortcut menu, and selecting **Delete** on that menu.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
@@ -101,7 +105,26 @@ Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
-Shifts data can be migrated from one tenant to another tenant upon specific request. Keep in mind that tenant-to-tenant migration isn't supported out-of-the-box but can be raised as a customer request.
+To migrate your existing Shifts data to another tenant, you'll need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
+
+Before you migrate your Shifts data, make sure the following requirements are met:
+
+- The destination tenant domain, teams, and team members must already exist. The migration doesn't create teams or change team membership or ownership.
+- The Shifts app must be set up in teams in the destination tenant and have an empty schedule. Keep in mind that the migration doesn't replace or delete existing data. This means that if a team has an existing schedule, users may see duplicate or conflicting shifts, which need to be manually resolved.
+- Open requests (such as swap and time off requests) that are pending approval aren't migrated. We recommend closing any open requests before you start migrating data.
+
+Here's an overview of the steps to migrate your Shifts data to another tenant.
+
+1. In the source tenant, for each team, export the Shifts schedule:
+    1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Export schedule**.
+    1. Select a date range.
+    1. Turn on **Export in a format that can be imported**, and then select **Export**. Shifts schedule data is exported to an Excel file.
+1. As part of the migration, if any team members are switching their email domain, manually update the Excel file to change the user principal name (UPN) of those users to the destination tenant domain.
+1. In the destination tenant, import the schedule to each team.
+    1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Import schedule**.
+    1. Select **Upload file**, go to the Excel file for that team, and then select **Open**.
+
+To learn more, see [The Excel template for Shifts](https://support.microsoft.com/office/the-excel-template-for-shifts-6fc6a206-e7cc-4907-87b8-a296bae84ce3).
 
 ## Related articles
 

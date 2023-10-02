@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Current Forrest (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployForestPrepIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "To begin the Prepare Forest task, click Next. Running the Prepare 
  
 To begin the **Prepare Forest** task, click **Next**. Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.
   
+
 

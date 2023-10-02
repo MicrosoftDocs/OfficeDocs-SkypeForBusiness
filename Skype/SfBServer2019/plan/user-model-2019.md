@@ -1,4 +1,5 @@
 ---
+ms.date: 09/18/2018
 title: "Capacity planning for Skype for Business Server 2019"
 ms.reviewer: 
 ms.author: heidip
@@ -6,7 +7,7 @@ author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

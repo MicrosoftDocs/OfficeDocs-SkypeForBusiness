@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Manage user accounts"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -114,3 +115,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+

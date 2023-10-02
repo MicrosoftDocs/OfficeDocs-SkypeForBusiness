@@ -1,17 +1,20 @@
 ---
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: kspiess
+ms.date: 02/28/2022
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
@@ -19,10 +22,12 @@ description: Learn about supported and recommended Conditional Access and Intune
 
 This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms. For best practices and example policies, see [Conditional Access and Intune compliance best practices for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
 
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
+
 > [!NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven't deployed Teams Rooms yet,
-see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
+see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
@@ -33,7 +38,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Assignment                               | Teams Rooms on Windows                                                                                                                                                                              | Teams Rooms on Android and panels                                                                                                                                                                              | Teams phones and displays                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | User or workload identities              | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported<br><br>Teams Android devices needs to access the following three Cloud apps: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams |
+| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported<br><br>Teams Android devices need to access the following three Cloud apps: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams  |
 | **Conditions**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | User risk                                | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Sign-in risk                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
@@ -43,7 +48,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Filter for devices                       | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | **Grant**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            |                                                                                                                                                                      |
+| Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
 | Require multi-factor authentication      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Supported                                                                                                                                                            |
 | Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Require Hybrid Azure AD joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |

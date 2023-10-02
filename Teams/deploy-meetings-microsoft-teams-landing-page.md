@@ -1,10 +1,11 @@
 ---
 title: Meetings and conferencing in Microsoft Teams
 ms.reviewer: 
+ms.date: 10/30/2018
 description: Use these deployment resources to help you roll out meetings and audio conferencing in Microsoft Teams.
 ms.topic: article
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -15,7 +16,8 @@ ms.collection:
   - M365-collaboration
   - remotework
   - m365initiative-meetings
-ms.localizationpriority: high
+  - highpri
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -24,19 +26,11 @@ ms.custom: seo-marvel-apr2020; intro-get-started
 
 # Meetings and conferencing in Microsoft Teams
 
-> [!NOTE]
-> - For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).
-> - Resources to assist educators and students with remote learning are available in [**Remote teaching and learning in Office 365 Education**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
-
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. This article walks you through the rollout of meetings and audio conferencing. Start by watching our Teams meetings, conferencing, and devices video (3:28 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
 To learn more about the meetings experience for your users, see [Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-*New in April 2020*: Meeting organizers can end a meeting for all meeting participants in Teams by clicking **End meeting** in the meeting controls within the meeting.  
-
-*New in November 2019*: You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout, including meetings and conferencing. It assesses your Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out meetings and conferencing in Teams.
 
  > [!NOTE]
  > For details about Teams meetings and conferencing on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -45,18 +39,15 @@ To learn more about the meetings experience for your users, see [Meetings and ca
 
 Teams provides a great out-of-the-box experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
-> [!TIP]
-> Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro).
-
 ## Meetings and conferencing prerequisites
 
 Before scaling your meetings deployment across your organization, take time to review and confirm that your environment is ready to provide users with the best
 possible experience. Review the following information and make any required changes to your environment as needed.
 
-To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online, and you must have a verified domain for O365
+To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online, and you must have a verified domain for Microsoft 365
 such as *contoso.com*.
 
-To scale meetings across your organization you should ensure that all user locations have internet access to connect to the Office 365 Services. At a minimum you should make sure that the following common ports are open to the internet from your user's locations:-
+To scale meetings across your organization you should ensure that all user locations have internet access to connect to Microsoft 365. At a minimum you should make sure that the following common ports are open to the internet from your users' locations:
 
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
@@ -137,16 +128,13 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 ### Meeting recording and archiving
 
-Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
+Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording is saved in OneDrive or SharePoint, so users can share it securely across their organization. To find the recording for a meeting, you can go to the meeting chat.
 
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
-
-To learn more, see [Teams cloud meeting recording](cloud-recording.md).
+To learn more, see [Teams meeting recording](meeting-recording.md) and [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#transcription)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meeting-transcription-captions.md)|
 
 ### Live events policies
 
@@ -203,4 +191,4 @@ It's important that you understand the overall health of the Teams service so th
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of meetings & conferencing throughout your organization.
 - [Add audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](apps-in-teams.md) as you drive Teams adoption.

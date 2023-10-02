@@ -4,6 +4,7 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: jasonlewis
+ms.date: 07/12/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -63,4 +64,3 @@ If users continue to see the error, check with the organization that they're col
 ## We couldn't find any matches. Make sure the email address is correct, or talk to your admin
 
 If your users see this error, then Microsoft 365 is not able to find the specified email address in the external organization. You'll need to confirm the address with the external organization.
-

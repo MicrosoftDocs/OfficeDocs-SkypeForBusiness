@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Location-Based Routing for Conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -158,5 +159,6 @@ After using this cmdlet, restart all Front End servers in the pool or the Standa
 > Location-Based Routing enforcements to conferences or consultative transfers won't be enforced until all the Front End Servers in the applicable pools or the Standard Edition Servers are restarted. If you set **-Critical** to **$true** in the preceding cmdlets, your Skype for Business Server services will be immediately restarted. If you do not want these services to immediately restart, set **-Critical** to **$false** for now, and then use **Set-CsServerApplication** to change **-Critical** to **$true** later, after the services have been restarted.
 
 Once the Location-Based Routing for Conferencing application has been successfully enabled and all applicable servers have been restarted, all conferences organized by Skype for Business users enabled for Location-Based Routing will be monitored to prevent PSTN toll bypass
+
 
 

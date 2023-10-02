@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Reset call admission control"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -29,4 +30,5 @@ If a legacy Front End pool is hosting call admission control (CAC), you must mov
     
 5. Publish the topology.
     
+
 

@@ -1,17 +1,19 @@
 ---
 title: Data and Privacy Information
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 06/01/2022
 ms.reviewer: 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - Tier1
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -19,7 +21,6 @@ search.appverid: MET150
 description: Data and Privacy Information
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 ---
-
 
 # Approach
 
@@ -44,8 +45,6 @@ Managed Services mitigates risks associated with accounts with privileged access
 ## Data handling
 
 Microsoft is governed by strict standards for data transmission, storage, use, and retention. Microsoft has data handling standard policies that regulate how data should be handled based on data classification.
-
-
 
 ## Technology description
 
@@ -96,7 +95,10 @@ Managed Services provides regional data residency support through the data cente
 
 ## More resources
 
-Microsoft Teams Rooms Security:/microsoftteams/rooms/security
-Microsoft Privacy Statement: https://aka.ms/privacy
-Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management
-Managed Services service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md)
+[Microsoft Teams Rooms security](security.md)
+
+[Microsoft Privacy Statement](https://aka.ms/privacy)
+
+[Data management at Microsoft](https://www.microsoft.com/trust-center/privacy/data-management)
+
+[Microsoft Teams Rooms Pro management](rooms-pro-management.md)

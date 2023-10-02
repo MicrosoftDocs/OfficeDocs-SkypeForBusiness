@@ -6,7 +6,8 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
+ms.date: 07/01/2020
 description: An IT Admin guide to Insights in Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection:
   - M365-collaboration
   - m365initiative-edu
+  - tier2
 appliesto:
   - Microsoft Teams
 ---
@@ -63,8 +65,6 @@ Education leaders are identified by faculty licenses, and they also need *explic
 > Insights collects data about student activity in Teams.
 >
 > Students are members of a class team within Teams. They are identified by their license and **do not have access** to the Insights app or tab (even if they are the team owner).
->
-> Guests *cannot* be considered students.
 
 ## Where do users find Insights?
 
@@ -75,7 +75,7 @@ Educators and education leaders have different ways to access Insights.
 Educators can use these two methods:
 
 - [Personal app](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - an overview of all their active classes is available from Teams left app bar, with the ability to drill down to class data.
-- [Tabs](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights for specific classes they own are available in a tab from a class team's top navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context.
+- [Tabs](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights for specific classes they own are available in a tab from a class team's left navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context.
 
 Insights surfaces activity data from all channels within a class team but can only be added as a tab to public channels. The tab reflects activity from everyone in the class team who isn't an owner (including educators who aren't owners of the class team).
 
@@ -127,7 +127,7 @@ Before you start to deploy Insights for your institution, take a quick look at h
 
 ### Data collection
 
-Data is collected for Insights from student and educator activity in Teams. Guest data isn't collected.
+Data is collected for Insights from student and educator activity in Teams.
 
 Insights *doesn't* display data about educators. Analysis of the data provides actionable insights to aid in teaching and learning.
 
@@ -142,7 +142,6 @@ Currently, data is collected from the following areas in class teams:
 |**Meetings**|Attendance (not including meeting content).|
 |**[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)**|Accuracy rate, most challenging words, and words per minute.|
 |**[Reflect](reflect.md)**|Check-ins (including values).|
-|**Career Coach**|Student provided major (field of study) and year of school, student activity in career coach app including: skills, skills interest, career interests, learnings interests and career related activities.|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
@@ -191,10 +190,6 @@ Insights has been designed to support both students and educators in the digital
 ### Licensing
 
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
-
-*Education Insights Premium* is a paid upgrade that provides education leaders an organizational level view of Education Insights data and expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
-
-The Education Insights Premium add-on will be available for organizations based on purchasing licenses for all digitally active students in the tenant.
 
 ## Student Information System (SIS) integration
 
@@ -304,8 +299,8 @@ Insights stores student and educator activities performed in Microsoft Teams for
 
 There are two types of data collected by insights:
 
-- **Comingled data** – data that is generated as part of the class learning activities.
-- **Non-comingled (private) data** – data that is collected by the students activity in Teams for education that isn't part of the class learning activity.
+- **Commingled data** – data that is generated as part of the class learning activities.
+- **Non-commingled (private) data** – data that is collected by the students activity in Teams for education that isn't part of the class learning activity.
 
 The full data collected by insights is listed [here](class-insights.md#data-collection).
 
@@ -314,9 +309,8 @@ In order to provide completeness and integrity of the data for past time frames 
 - Open a [support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted.
 There's no ability to limit the data set or time window of the deletion.
 - In the request the IT Admin should clearly state the type of data that needs to be deleted for that user, out of the following options:
-  - All data (comingled and private)
+  - All data (commingled and private)
   - All private data
-  - Career coach data only
 - Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
 - After one week, the Education Insights team ensures all data related to the user ID of the specific type as described above is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days
 
@@ -334,12 +328,6 @@ To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to
 
 If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
 
-### Why do I see data for some students or classes, not all?
-
-We only collect data for *licensed* students, so the most probable reason is that you have guest students attending classes, and their data isn't collected. You might see their name but without any data.
-
-Check the status of your students to ensure they all have student licenses.
-
 ### Why don't educators see meeting data?
 
 It takes up to 24 hours to see meeting data in Insights reports. So, check that enough time has passed.
@@ -351,7 +339,3 @@ Also, check that students didn't* [join the class meeting without a Teams accoun
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
-
-### What licenses do I need to activate Education Insights Premium?
-
-In order for Education Insights Premium to be enabled for your organization, the tenant must purchase licenses based on the number of the digitally active students in the organization's tenant. That is, for all students who use a Teams class as part of their school work for activities such as meetings, communication, chat, assignments, editing files, Class Notebook or Reflect.

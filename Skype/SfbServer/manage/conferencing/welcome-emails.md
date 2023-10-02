@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Send welcome email to dial-in users in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -68,3 +69,4 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -Pin "383042650" -Force
 -Credential Admin@contoso.com -UseSsl
 ```
+

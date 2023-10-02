@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Set up your network for Skype Meeting Broadcast"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -99,3 +100,4 @@ If you have a Skype for Business Online organization and an on-premises deployme
 [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+

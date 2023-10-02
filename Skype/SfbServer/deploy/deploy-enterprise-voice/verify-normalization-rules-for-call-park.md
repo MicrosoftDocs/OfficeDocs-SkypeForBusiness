@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Verify normalization rules for Call Park in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -30,4 +31,5 @@ Call Park orbits must not be normalized. Check your dial plans to be sure that y
 ## See also
 
 [Create or modify a dial plan in Skype for Business Server](dial-plans.md)
+
 

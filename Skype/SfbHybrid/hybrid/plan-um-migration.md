@@ -1,15 +1,16 @@
 ---
+ms.date: 07/02/2018
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
-author: dstrome
-ms.author: dstrome
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars 
 audience: ITPro 
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 description: "This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to the latest version or to Skype for Business Online or Exchange Online."
 ---
 
@@ -106,4 +107,5 @@ Here are the high-level steps to complete this migration.
 3. Move users from your Skype for Business 2015 server to your Skype for Business 2019 server.
 4. Set the hosted voicemail policy for each user moved to Skype for Business Server 2019 to use Cloud Voicemail.
 5. Decommission your Skype for Business 2015 servers after the last user has been moved off of them.
+
 

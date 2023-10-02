@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure media bypass in Skype for Business Server to always bypass the Mediation Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -45,4 +46,5 @@ If you do not have good connectivity between Skype for Business endpoints and al
 [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)
+
 

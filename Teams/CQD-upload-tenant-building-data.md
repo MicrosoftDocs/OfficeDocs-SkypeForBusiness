@@ -1,14 +1,17 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
+ms.date: 06/02/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -28,7 +31,7 @@ description: Learn how to upload tenant and building data in Call Quality Dashbo
 
 To get the most out of Call Quality Dashboard (CQD), we recommend that you upload your tenant and building data. There are 2 types of tenant data files, [Building](#upload-building-data-file) and [Endpoint](#endpoint-data-file).
 
-You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
+You can download a sample tenant data template [here](https://download.microsoft.com/download/0/b/9/0b9c1610-d421-489a-a3f9-d1ae703c9f1b/locations-template.zip). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
 
 From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the CQD **Settings** menu (a gear icon at the top of CQD). From here, admins can upload their organization's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
 
@@ -78,9 +81,9 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Required<sup>1</sup>  |
   | NetworkRange       | Number    | 26                        | Required              |
   | BuildingName       | String    | SEATTLE-SEA-1             | Required<sup>1</sup>  |
-  | OwnershipType      | String    | Contoso                   | Optional              |
-  | BuildingType       | String    | IT Termination            | Optional              |
-  | BuildingOfficeType | String    | Engineering               | Optional              |
+  | OwnershipType      | String    | Contoso                   | Optional<sup>4</sup>  |
+  | BuildingType       | String    | IT Termination            | Optional<sup>4</sup>  |
+  | BuildingOfficeType | String    | Engineering               | Optional<sup>4</sup>  |
   | City               | String    | Seattle                   | Recommended           |
   | ZipCode            | String    | 98001                     | Recommended           |
   | Country            | String    | US                        | Recommended           |
@@ -95,6 +98,8 @@ The first type of tenant data file in CQD is the **Building** data file. The Sub
   <sup>2</sup> This setting can be used to reflect whether or not the subnet is inside the corporate network. You can customize usage for other purposes.
 
   <sup>3</sup> This setting can be used to reflect whether or not the network uses Azure ExpressRoute. You can customize usage for other purposes.  
+  
+  <sup>4</sup> While these optional columns are named to suggest what values you may want to populate them with, you can customize usage for other purposes. eg: Network Priority - `Tier 1, Tier 2, Tier 3` 
 
   **Sample row:**
 

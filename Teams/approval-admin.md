@@ -1,10 +1,11 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: LanaChin
-ms.author: v-lanachin
-ms.reviewer: farhazk
-manager: samanro
-ms.topic: article
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
+ms.reviewer: corod
+ms.date: 05/11/2023
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -17,11 +18,15 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365-frontline
+  - teams-1p-app-admin
+  - highpri
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage the Approvals app in Microsoft Teams
+
+## Overview of Approvals
 
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
@@ -32,7 +37,7 @@ Users can pin the Approvals app to save it to the menu bar.
 
  ![shows the approvals app with the pin option.](media/approvalApp-pin.png)
 
-The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app will be stored in the default Microsoft Dataverse environment.
+The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment.
 
 This article describes the Approvals app requirements and roles.
 
@@ -45,9 +50,9 @@ To deploy the Approvals app, you need permission for the following items:
 
 - Permissions to create a Microsoft Dataverse database.
 
-- An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
+- An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/).
 
-- Administrator Role in the target environment.
+- Administrator role in the target environment.
 
 - License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
 
@@ -57,7 +62,7 @@ To use the Approvals app, you need a license for Power Automate, and your accoun
 
 ## Storage with Microsoft Dataverse
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enable consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
@@ -132,17 +137,20 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Retention policy
 
 Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
+Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see 
+[Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
+
+Data stored in Forms won't be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
 ## Conditional Access policies
 
-Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+Approvals supports [Continuous Access Evaluation (CAE)](/azure/active-directory/conditional-access/concept-continuous-access-evaluation). With CAE, you can set up any conditional access policy to restrict any user, app, or service from accessing some resources. Once the policy is set, AAD will reject when the selected entity requests tokens of that particular resource.
 
 ## Data limitations
 
@@ -150,65 +158,57 @@ Each team can contain at most 400 approvals templates, and each template can col
 
 ## Auditing
 
-The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
+The Approvals app logs audit events within the Microsoft Purview compliance portal. You can view the audit log.
 
-1. Go to the Microsoft 365 Compliance Site.
+1. Sign in to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
 
-2. Select the **Audit** section.
+2. In the left pane, select **Audit**.
 
-3. Search for activities under **Microsoft Teams approvals activities**.
+3. Under **Activities**, choose the activities that you want to search for under **Microsoft Teams approvals activities**.
 
-You can search for the following activities:
+    You can search for the following activities:
 
-- Create new approval request
+    - Created new approval request
 
-- View approval request details
+    - Viewed approval request details
 
-- Approved approval request
+    - Approved approval request
 
-- Rejected approval request
+    - Rejected approval request
 
-- Canceled approval request
+    - Canceled approval request
 
-- Shared approval request
+    - Shared approval request
 
-- File attached to approval request
+    - File attached to approval request
 
-- Reassigned approval request
+    - Reassigned approval request
 
-- Added e-signature to approval request
+    - Added e-signature to approval request
 
-- Viewed e-signature request details
+    - Viewed e-signature request details
 
-- Reviewed e-signature request
+    - Reviewed e-signature request
 
-- Canceled e-signature request
+    - Canceled e-signature request
 
-- Create a new template
+    - Create a new template
 
-- Edit an existing template
+    - Edit an existing template
 
-- Enable/disable a template
+    - Enable/disable a template
 
-- Viewed template
+    - Viewed template
 
-For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
+For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records.
 
-Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
-
-1. To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.
-
-2. Select **Search & investigation**.
-
-3. Search the Audit log and select the **Dynamics 365 activities** tab.
-
-Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
+Learn more about [auditing data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity) and [Microsoft Dataverse and model-driven apps activity logging](/power-platform/admin/enable-use-comprehensive-auditing).
 
 ## Security
 
 From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
 
-> [!Note]
+>[!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
 
 ## Approvals e-signature integration
@@ -217,7 +217,7 @@ To use the Approvals app e-signature feature, you need a license for the specifi
 
 ### Enable or disable e-signature providers
 
-You can use the Teams admin center to control, which third-party e-signature providers are available to your users in the Approvals app. By default, e-signature providers are enabled in the Approvals app. When you disable an e-signature provider, your users won't have access to that provider when they create approvals. Your users also won't be able to view e-signature requests that were created using that provider.
+You can use the Teams admin center to control which third-party e-signature providers are available to your users in the Approvals app. By default, e-signature providers are enabled in the Approvals app. When you disable an e-signature provider, your users won't have access to that provider when they create approvals. Your users also won't be able to view e-signature requests that were created using that provider.
 
 1. In the left pane of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Search for the Approvals app, and then select it.
@@ -228,3 +228,7 @@ You can use the Teams admin center to control, which third-party e-signature pro
 4. Select **Submit**.
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
+
+## Give feedback or report an issue
+  
+To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.

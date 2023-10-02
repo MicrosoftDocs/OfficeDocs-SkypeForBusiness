@@ -3,7 +3,8 @@ title: Manage feedback policies in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: heprecel
+ms.reviewer: andrewklutz
+ms.date: 06/06/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +25,8 @@ description: Learn how to use feedback policies to control whether Teams users i
 Users in your organization can send feedback about Microsoft Teams to let us know how we're doing directly from within the Teams desktop, web clients, and mobile. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 > [!NOTE]
-> Feedback policies aren't available in GCC, GCC High, or DOD deployments.
+> Feedback policies aren't available in DOD deployments.
+> Mobile feedback policies aren't available in GCC, GCC High, or DOD deployments.
 
 **The **Give feedback** feature**
 
@@ -63,9 +65,13 @@ To turn off and turn on the features, set the following parameters:
 
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
 
+> [!NOTE]
+> **receiveSurveysMode** doesn't control call quality feedback.
+
  - **Screenshots**: Use the **AllowScreenshotCollection** flag to add screenshot collection opt-in for users.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
  - **Log collection**: Use the **AllowLogCollection** flag to add log collection opt-in for users. Log collection is currently enabled only on mobile. For more details on what data is shared via logs, [learn more](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Suggest a feature**: Set the **EnableFeatureSuggestions** parameter to True to allow users who are assigned the policy to suggest a feature. Setting the parameter to disabled turns off the feature and users who are assigned the policy don't have the option to give feedback. The default setting is taken from your Microsoft 365 optional connected experiences policy setting. To learn more about that setting, see [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences).
 
 ## Create a custom feedback policy
 
