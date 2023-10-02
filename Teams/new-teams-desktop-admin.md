@@ -41,16 +41,16 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## Is the new Teams available for my organization?
 
-The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
+The new Teams client is not yet available for:  
 
-**Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
+**Platforms:**  Web</br>
+**Customer segments:**  </br>-DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 
-## New Teams rollout schedule for Windows clients
+## New Teams schedule for Windows clients
 
 >[!Note]
->*This rollout schedule is only for **Windows clients**. We will be updating this schedule as other platform support, such as Mac, is available.
+>*This schedule is only for **Windows clients**
  
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
@@ -63,7 +63,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 ##### Licenses
 
-|License|Rollout begins|
+|License|Availability date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
@@ -80,7 +80,7 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |:-----|:-----|
 |Public preview program|Available|
 |Targeted release program|Available|
-|Current Channel|Late September 2023|
+|Current Channel|October 2023|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 2024|

@@ -31,6 +31,7 @@ You can deploy the new Teams client to your organization by setting policies in 
 |Windows| Windows 10 version 10.0.19041 or higher|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)
 
 
 #### Required Microsoft 365 Apps Security Updates
