@@ -156,13 +156,14 @@ This requires  `CsTeamsMeetingPolicy` **enrollUserOverride** tenant policy to be
 > - Please install appropriate signage outside any meeting room, where you install an IntelliCamera, advising people about the people recognition, face enrollment, and voice recognition features.
 > - You must first enroll for Voice recognition before you can enroll for Face recognition.
 
- `enrollUserOverride` = {Disabled | Enabled} 
-**Enabled**- Policy value allows Enrollment tab to be seen on individual Teams user accounts for registering voice and face profiles.  
-**Disabled** – No enrollment tab option. This is default.
+- `enrollUserOverride` = {Disabled | Enabled}
 
-*This policy should already be enabled if tenant has allowed voice enrollment.
+  - **Enabled**- Policy value allows Enrollment tab to be seen on individual Teams user accounts for registering voice and face profiles.  
+  - **Disabled** – No enrollment tab option. This is default.
 
-:::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
+  *This policy should already be enabled if tenant has allowed voice enrollment.
+
+  :::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
 
 ### Enabling people recognition
 
@@ -170,13 +171,15 @@ In some states, people recognition can't be used.
 
 This requires the tenant  `CsTeamsMeetingPolicy` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
- `roomPeopleNameUserOverride` = {On | Off}  
-**On** - Policy value allow **People recognition** option on Microsoft Teams Rooms under call control bar.  
-**Off** – No People Recognition option on Microsoft Teams Room. This is default.
+- `roomPeopleNameUserOverride` = {On | Off}
 
-`roomAttributeUserOverride` = {Attribute | Off}
-**Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
-**Off** – No Voice identification option on Microsoft Teams Rooms. This is the default.
+  - **On** - Policy value allow **People recognition** option on Microsoft Teams Rooms under call control bar.  
+  - **Off** – No People Recognition option on Microsoft Teams Room. This is default.
+
+- `roomAttributeUserOverride` = {Attribute | Off}
+
+  - **Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
+  - **Off** – No Voice identification option on Microsoft Teams Rooms. This is the default.
 
 For more on information on setting meeting policies, see [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
