@@ -3,6 +3,7 @@ title: Accessibility guide for Microsoft Teams Admins
 ms.author: meghan
 author: meganrmhan
 ms.reviewer: eljones    
+ms.date: 03/15/2022
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -34,18 +35,14 @@ Live captions are real-time auto-generated text of what is said in a meeting. Th
 
 To turn on live captions for users:
 
-1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
-
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 2. Select the policy you want to modify.
-
-3. Go to the **Participants & guests** section.
-
-4. Switch **Live captions** to **Not enabled but the user can override**.
-
+3. Go to the **Recording & transcription** section.
+4. Switch **Live captions** to **Off, but organizers and co-organizers can turn them on**.
 5. Select **Save**.
 
 > [!TIP]
-> Share the following link so users can learn how to [turn on live captions during meetings](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop).
+> Share the following link so users can learn how to [turn on live captions during meetings](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
 
 > [!NOTE]
 > Live captions are available for meetings held in Commercial, and the U.S. Government Community Cloud (GCC) organizations.
@@ -90,30 +87,25 @@ Sign language interpreters and CART captioners likely don't work for your organi
 
 After guest access has been given, to admit sign language interpreters and CART captioners to meetings:
 
-1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
+1. In the Microsoft Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 
 2. Select the policy you want to modify.
 
-3. Go to the **Participants & guests** section.
+3. Go to the **Meeting join & lobby** section.
 
-4. Choose the option under **Automatically admit people** that best fits your organization's compliance and security requirements. You can select one of the following options:
+4. Choose the option under **Who can bypass the lobby** that best fits your organization's compliance and security requirements. You can select one of the following options:
 
    - Everyone (not recommended)
-
    - People in my organization and guests (recommended)
-
    - People in my organization, trusted organizations, and guests
-
    - People in my organization
-
-   - Organizer only
-
-   - Invited users only
+   - Only organizers and co-organizers
+   - People who were invited
 
 5. Select **Save**.
 
 > [!NOTE]
-> The setting **Automatically admit people** doesn't apply to dial-in users.
+> The setting **Who can bypass the lobby** doesn't apply to dial-in users.
 
 ### Turn on IP video feed for your users
 
@@ -121,18 +113,16 @@ Give sign language interpreters the ability to share IP video feed during Micros
 
 To check if IP video feed is turned on:
 
-1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
-
+1. In the Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 2. Select the policy you want to modify.
-
 3. Go to the **Audio & video** section.
-
 4. Check that **IP video** is turned **On**, then select **Save**.
 
 > [!TIP]
 > Share the following links with users so they can adjust how they use Teams to maximize their ability to participate, focus, and collaborate in meetings:
-> - [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
-> - [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
+>
+> - [Customize your meeting view](https://support.microsoft.com/office/95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
+> - [Use CART captions](https://support.microsoft.com/office/2dd889e8-32a8-4582-98b8-6c96cf14eb47)
 
 ### Why it's important to include sign language interpreters and CART captioners
 
@@ -152,26 +142,20 @@ Video filters help reduce distractions during meetings.
 
 To turn on video filters:
 
-1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
-
+1. In the Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 2. Select the policy you want to modify.
-
-3. Go to the **Content sharing** section.
-
-4. Choose the option under **Select video filters** that best fits your organization's compliance and security requirements. Select one of the following options:
-
-   - Background blur only
-
-   - Background blur and default images
-
-   - All filters
-
+3. Go to the **Audio & video** section.
+4. Choose the option under **Participants can use video effects** that best fits your organization's compliance and security requirements. Select one of the following options:
+   - Only background blur
+   - Only background blur and default images
+   - All video effects
 5. Select **Save**.
 
 > [!TIP]
 > Share the following links so users can adjust their Teams meeting preferences to reduce distractions:
-> - [Change background effects in Teams meetings](https://support.microsoft.com/office/change-your-background-for-a-teams-meeting-f77a2381-443a-499d-825e-509a140f4780#ID0EDD=Desktop)
-> - [Reduce background noise in Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
+>
+> - [Change background effects in Teams meetings](https://support.microsoft.com/office/f77a2381-443a-499d-825e-509a140f4780)
+> - [Reduce background noise in Teams meetings](https://support.microsoft.com/office/1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
 
 ### Why it's helpful to reduce distractions
 
@@ -191,7 +175,7 @@ For more information, see [Web Content Accessibility Guideline (WCAG) 1.4.8.: Vi
 
 ## Improve participation in Microsoft Teams meetings
 
-Encourage user participation with more options for control and flexibility by turning on **Chat in meetings**, and messaging policies like chat editing, **Immersive Reader**, and emojis.
+Encourage user participation with more options for control and flexibility by turning on **Meeting chat**, and messaging policies like chat editing, **Immersive Reader**, and emojis.
 
 ### Turn on chat in meetings
 
@@ -199,20 +183,13 @@ Chat makes it easier for many users to ask questions or add info in Teams meetin
 
 To check if in-meeting chat is turned on:
 
-1. In the Microsoft Teams admin center, go to **Meetings**, and then select the dropdown **Meeting policies**.
-
+1. In the Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 2. Select the policy you want to modify.
-
-3. Go to the **Participants & guests** section.
-
-4. Choose the option under **Chat in meetings** that best fits your organization's compliance and security requirements. You can select one of the following options:
-
-   - Turn it on for everyone (recommended)
-
-   - Turn it off for everyone (not recommended)
-
-   - Turn it on for everyone but anonymous users
-
+3. Go to the **Meeting engagement** section.
+4. Choose the option under **Meeting chat** that best fits your organization's compliance and security requirements. You can select one of the following options:
+   - On for everyone (recommended)
+   - Off (not recommended)
+   - On for everyone but anonymous users
 5. Select **Save**.
 
 ### Use messaging policies for increased flexibility and control
@@ -250,7 +227,7 @@ In the **Microsoft Teams admin center**:
 4. Select **Save**.
 
 > [!TIP]
-> Share the link [how to write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2) with your organization to help users understand non-text messages shared in chat.
+> Share the link [how to write effective alt text](https://support.microsoft.com/office/df98f884-ca3d-456c-807b-1a1fa82f5dc2) with your organization to help users understand non-text messages shared in chat.
 
 ### Why alternate participation options matter
 
@@ -288,19 +265,19 @@ There are additional steps users can take to improve their experience in accessi
 
 Microsoft’s Disability Answer Desk has end-user guides to customize their experience to meet their accessibility needs:
 
-- [Turn on live captions during meetings](https://support.microsoft.com/office/use-live-captions-in-a-teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop)
+- [Turn on live captions during meetings](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260#ID0EBD=Desktop)
 
-- [Customize your meeting view](https://support.microsoft.com/office/customize-your-meeting-view-95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
+- [Customize your meeting view](https://support.microsoft.com/office/95aaeaf8-0f22-46cf-a6f9-34ca9b04a1b2)
 
-- [Use CART captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47#:~:text=Use%20CART%20captions%20in%20a%20Microsoft%20Teams%20meeting,out%20of%20your%20captions.%20...%204%20See%20also)
+- [Use CART captions](https://support.microsoft.com/office/2dd889e8-32a8-4582-98b8-6c96cf14eb47)
 
-- [Change background effects in Teams meetings](https://support.microsoft.com/office/change-your-background-for-a-teams-meeting-f77a2381-443a-499d-825e-509a140f4780#ID0EDD=Desktop)
+- [Change background effects in Teams meetings](https://support.microsoft.com/office/f77a2381-443a-499d-825e-509a140f4780)
 
-- [Reduce background noise in Teams meetings](https://support.microsoft.com/office/reduce-background-noise-in-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
+- [Reduce background noise in Teams meetings](https://support.microsoft.com/office/1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)
 
-- [Write effective alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2)
+- [Write effective alt text](https://support.microsoft.com/office/df98f884-ca3d-456c-807b-1a1fa82f5dc2)
 
-- [Accessibility tools for Microsoft Teams](https://support.microsoft.com/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=en-us&rs=en-us&ad=us)
+- [Accessibility tools for Microsoft Teams](https://support.microsoft.com/office/2d4009e7-1300-4766-87e8-7a217496c3d5)
 
 ### Reference Web Content Accessibility Guidelines (WCAG)
 

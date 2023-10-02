@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Qualified Lync Attendant Console applications"
 ms.author: serdars
 author: msdmaguire
@@ -190,3 +191,4 @@ Zylinc Attendant Console is used with Lync by major companies in several industr
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://partner.microsoft.com/support/microsoft-services-premier-support)
 - [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)
+

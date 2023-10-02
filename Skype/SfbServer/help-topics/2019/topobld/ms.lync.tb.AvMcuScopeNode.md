@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "AV MCU Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AvMcuScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
@@ -35,4 +36,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

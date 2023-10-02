@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Last Integration Data"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -68,3 +69,4 @@ This feature is disabled by default and it needs to be enabled by configuring th
 "LastCubeProcessingStart": "01/18/2015 10:30:16"
 }
 ```
+

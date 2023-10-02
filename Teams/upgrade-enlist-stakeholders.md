@@ -1,12 +1,13 @@
 ---
 title: Enlist stakeholders | Skype for Business to Teams upgrade planning
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/23/2018
 description: Learn how to structure your organization's stakeholders to ensure that the Microsoft Teams upgrade is successful. 
 ms.localizationpriority: medium
 search.appverid: MET150

@@ -3,6 +3,7 @@ title: Microsoft Teams Essentials QuickStart guide for small businesses
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+ms.date: 11/19/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---
@@ -61,7 +63,6 @@ The following table lists the major Microsoft Teams features available across pl
 | Meeting attendees can join meetings without an account | Yes  |    Yes     |     Yes    |     Yes    |
 | Send meeting invites to a phone number |   Yes     |  Yes      |         |    |
 | Meeting recordings & transcripts |         |         |   Yes       |     Yes    |
-| Real-time translation |         |         |    Yes     |     Yes    |
 | Breakout rooms |         |         |   Yes      |     Yes    |
 | Whiteboard |         |         |  Yes       |     Yes    |
 | Host webinars that include attendee registration pages, email confirmations, and reporting. |     |     |      | Available in Business Standard|

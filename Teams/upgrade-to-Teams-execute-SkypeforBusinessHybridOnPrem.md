@@ -1,12 +1,13 @@
 ---
 title: Upgrade Skype for Business on-premises to Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
+ms.date: 06/08/2018
 description: Learn how to upgrade your organization to Microsoft Teams from a Skype for Business on-premises deployment.
 ms.localizationpriority: medium
 search.appverid: MET150

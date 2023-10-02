@@ -1,6 +1,7 @@
 ---
 title: Create people manager teams in Microsoft Teams
 ms.reviewer: pbethi
+ms.date: 03/02/2020
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -12,7 +13,9 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ms.custom: chat-teams-channels-revamp
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
 appliesto: 

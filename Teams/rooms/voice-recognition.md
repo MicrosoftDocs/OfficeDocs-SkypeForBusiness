@@ -1,12 +1,14 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: parisataheri
+ms.date: 03/29/2021
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ms.localizationpriority: medium
@@ -14,14 +16,15 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage voice recognition technology controls for an Intelligent Speaker
 
-An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms for Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
+An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms on Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
 
 - Edit the speaker's name in transcripts.
 - Change the speaker of a single utterance in the transcript or change the speaker in all the utterances in the transcript (but not on future transcripts).
@@ -47,9 +50,6 @@ Epos, Sennheiser, and Yealink intelligent speakers are supported.
 An Intelligent Speaker connects directly using USB to the Teams Rooms console.
 
 > [!NOTE]
-> A Yealink Intelligent Speaker **must** be used with a Yealink console.
-
-> [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
 An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
@@ -72,6 +72,9 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 ## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+
+> [!NOTE]
+> If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
 
 The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
@@ -104,8 +107,6 @@ General retention policy is stated in the [Data retention overview](/compliance/
 **Is voice profile data used across Microsoft services?**
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
-
-For example, Microsoft won't use the data in the following situations:
 
 **Is my voice profile data used when I join a meeting in another organization?**
 

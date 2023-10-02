@@ -1,13 +1,13 @@
 ---
 title: "Monitor Cloud Connector using Operations Management Suite (OMS)"
 ms.reviewer:
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

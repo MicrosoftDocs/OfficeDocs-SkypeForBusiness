@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define Persistent Chat FQDN"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW

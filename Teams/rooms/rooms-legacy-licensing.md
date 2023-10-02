@@ -1,16 +1,19 @@
 ---
 title: Microsoft Teams Rooms legacy licenses
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
+ms.date: 09/30/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -33,7 +36,7 @@ This article is provided to customers who purchased Microsoft Teams Rooms Standa
 
 ## Licensing Solutions for Shared Communication Devices
 
-The following licenses were available to customers who purchased Teams Rooms devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and Teams Rooms for Android) prior to September 6th, 2022.
+The following licenses were available to customers who purchased Teams Rooms devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and Teams Rooms on Android) prior to September 6th, 2022.
 
 |&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |
@@ -70,4 +73,4 @@ The following table lists the features available for Teams Rooms with the Teams 
 
  See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
- You can read [Set up the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing Common Area Phones.
+ You can read [Set up common area phones for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing common area phones.

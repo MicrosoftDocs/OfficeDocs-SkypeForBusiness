@@ -1,12 +1,13 @@
 ---
 title: Use general team templates in the admin center
-author: lanachin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 09/18/2020
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium
@@ -28,7 +29,7 @@ appliesto:
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-Use team templates to deploy consistent teams across your organization. Templates can also help users get oriented with how to effectively use Teams. You can also extend the templates to create teams that are tailored to your specific organizational needs.
+Use team templates to deploy consistent teams across your organization. Templates can also help users get oriented with how to effectively use Teams.
 
 Teams includes pre-built templates that we created for specific business needs and projects. In this article, we introduce you to the general category of templates that you can use in your organization for various scenarios.
 

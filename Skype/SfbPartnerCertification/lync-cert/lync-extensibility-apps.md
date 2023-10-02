@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2018
 title: "Lync extensibility applications"
 ms.author: serdars
 author: msdmaguire
@@ -51,4 +52,5 @@ Enterprise Connect also offers the following capabilities:
 - Mobile Call Recording: Enable enforceable recording of all calls to/from the mobile and is integrated with leading recording solutions.
 - Mobile Cost Savings: Provide complete IT control, enable desktop replacement and least cost routing from mobile phones.
 - Business Continuity: Enable employee mobile phones to continue business communications when the corporate voice network is lost.
+
 

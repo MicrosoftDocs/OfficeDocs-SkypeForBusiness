@@ -4,13 +4,16 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, oscarr
+ms.date: 04/10/2019
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -20,24 +23,24 @@ f1.keywords:
 ms.custom: 
   - Licensing
   - seo-marvel-mar2020
-description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 each audio conferencing subscription provides 60 minutes per-user per-month to Zone A countries.
+description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 each audio conferencing subscription provides 60 minutes per-user per-month to Zone A countries and regions.
 ---
 
 # Audio Conferencing subscription "Dial-Out"/"Call Me At" minutes benefit
 
 ## Microsoft Teams and PSTN Audio Conferencing
 
-Each Audio Conferencing standard subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries as described in this document. This benefit applies to Audio Conferencing *monthly subscription* licenses and doesn't extend to Audio Conferencing pay-per-minute licenses.
+Each Audio Conferencing standard subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries and regions as described in this document. This benefit applies to Audio Conferencing *monthly subscription* licenses and doesn't extend to Audio Conferencing pay-per-minute licenses.
 
 > [!NOTE]
 > The dial-out minute pool size of the Audio Conferencing dial-out to USA and Canadian subscriptions is based on the number of licenses *assigned* to users. For example, if a customer has 100 licenses, and 20 of them are assigned to users, the dial-out minute pool of the Audio Conferencing dial-out to USA or Canadian subscription will be 1200 minutes (60 dial-out minutes to the subscription x 20 licenses assigned to users).
 
 > [!NOTE]
-> The end of the [complimentary dial-out period](complimentary-dial-out-period.md) did not take place on November 30, 2019, for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
+> The end of the [complimentary dial-out period](complimentary-dial-out-period.md) did not take place on November 30, 2019, for countries and regions where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries and regions are Russia, South Korea, and Taiwan.
 
 ## Audio Conferencing "Dial Out From a Meeting" & "Call Me At" details
 
-For customers adopting our Audio Conferencing service, Microsoft provides the ability to dial out from meetings organized by users assigned an Audio Conferencing subscription license. Dial-out calls to countries not included in the [Zone A countries and regions](audio-conferencing-zones.md) list are charged per minute using Communications Credits. For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list), the calls and their associated rates are based on the destination of the call and not the organizer's country of residence or the meeting participant initiating the dial-out call. For example, an audio conference dial-out call to a phone number in France, which is a Zone A country, will be billed at the same per-minute rate if it were initiated by a meeting participant in the United States, France, or Zimbabwe.
+For customers adopting our Audio Conferencing service, Microsoft provides the ability to dial out from meetings organized by users assigned an Audio Conferencing subscription license. Dial-out calls to countries and regions not included in the [Zone A countries and regions](audio-conferencing-zones.md) list are charged per minute using Communications Credits. For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list), the calls and their associated rates are based on the destination of the call and not the organizer's country or region of residence or the meeting participant initiating the dial-out call. For example, an audio conference dial-out call to a phone number in France, which is a Zone A country, will be billed at the same per-minute rate if it were initiated by a meeting participant in the United States, France, or Zimbabwe.
 
 |Meeting organizer license usage location |Destination dialed |Can I use my dial-out minute pool minutes?|Do I need Communications Credits?|
 |---------|---------|---------|---------|
@@ -68,7 +71,7 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 
 ## How can I monitor minute my pool usage?
 
-- You can monitor the usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries."
+- You can monitor the usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries and Regions."
 - Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
 
   - Billing Administrator

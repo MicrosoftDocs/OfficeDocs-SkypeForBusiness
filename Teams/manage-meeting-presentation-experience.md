@@ -6,12 +6,14 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 10/07/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in sensitive Teams meetings.
@@ -46,27 +48,27 @@ By using these controls, you can limit who is able to share content on screen in
 
 ### Default value for who can present in meetings
 
-The Teams admin meeting policy **Who can present in meetings** has the following options:
+The Teams admin meeting policy **Who can present** has the following options:
 
-- Organizers
-- Everyone in the organization
+- Only organizers and co-organizers
+- People in my organization and guests
 - Everyone
 
 This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
-The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **Everyone in the organization** or **Organizers** to provide a more secure default for users.
+The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my organization and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
 
-To set the **Who can present in meetings** policy
+To set the **Who can present** policy
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting policies**.
 
 1. Select the policy that you want to modify.
 
-1. Under **Participants & Guests**, select a value for **Who can present in meetings**.
+1. Under **Meeting join & lobby**, select a value for **Who can present**.
 
 1. Select **Save**.
 
-### Manage who can present in meetings with sensitivity labels
+### Manage who can present with sensitivity labels
 
 Meeting organizers can choose from the following options for who can present in a meeting:
 
@@ -75,7 +77,7 @@ Meeting organizers can choose from the following options for who can present in 
 - Specific people
 - Everyone
 
-The default value shown when a user creates a meeting is specified by the **Who can present in meetings** policy mentioned above.
+The default value shown when a user creates a meeting is specified by the **Who can present** policy mentioned above.
 
 You can restrict this setting by using a sensitivity label. For sensitive or highly sensitive meetings, consider restricting this setting to **Only me and co-organizers** or **Specific people** by using a sensitivity label.
 
@@ -99,7 +101,7 @@ To configure who can give control of a shared screen
 
     1. To prevent participants from giving control of a screen share to others, set **Participants can give or request control** to **Off**.
 
-    1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **Off**.
+    1. To prevent external participants from being given control of a screen share, set **External participants can give or request control** to **On**.
 
 1. Select **Save**.
 
@@ -152,11 +154,10 @@ For meetings that are presentations with minimal interaction from attendees, tur
 
 When recording meetings, video from participants might be considered personal data and infer regulatory requirements.
 
-If you choose to turn off meeting reactions, remember that this will disable the hand-raise feature. (For presentation-style meetings, the Q&A feature may allow the needed interaction for attendees to ask questions.)
+If you choose to turn off reactions, remember that this will disable the hand-raise feature. (For presentation-style meetings, the Q&A feature may allow the needed interaction for attendees to ask questions.)
 
 ## Related topics
 
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [Manage access to Microsoft Whiteboard for your organization](/microsoft-365/whiteboard/manage-whiteboard-access-organizations)
-

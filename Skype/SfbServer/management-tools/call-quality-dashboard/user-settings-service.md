@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "User Settings Service for Call Quality Dashboard (CQD)"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -38,4 +39,5 @@ The REST operations are included in the following table.
 |[Get User Settings](get-user-settings.md) <br/> |Get User Settings returns a list of settings for a specified user.  <br/> |
 |[Get User Setting](get-user-setting.md) <br/> |Get User Setting returns a single user setting.  <br/> |
    
+
 

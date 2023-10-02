@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "(Optional) Verify Response Group deployment in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,4 +42,5 @@ After you configure Response Group, you need to verify the configuration to make
     > If the response group does not work as expected please check next link:
     > https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
+
 

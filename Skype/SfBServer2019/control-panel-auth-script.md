@@ -1,16 +1,18 @@
 ---
 title: "Skype for Business Server 2019 control panel authentication script"
 ms.reviewer: rogupta
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: IT_Skype16
 description: "Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol."
 ---

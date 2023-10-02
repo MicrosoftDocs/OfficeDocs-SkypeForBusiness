@@ -1,5 +1,5 @@
 ---
-title: How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviours.
+title: How different technologies effect Microsoft Teams sign-on, including restricting sign-on, and sign-in behaviors.
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -7,8 +7,9 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: anwara
-description: Learn how technologies like Single sign-on, and Modern Authentication effects your sign in behaviour on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
+ms.reviewer: 
+ms.date: 03/26/2018
+description: Learn how technologies like Single sign-on, and Modern Authentication affects your sign in behavior on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection: 
@@ -19,11 +20,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-# How different technologies effect Microsoft Teams sign-on
+# How different technologies affect Microsoft Teams sign-on
 
-If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) effect users' experience of sign-in, this article will help clarify what users and admins can expect to see. It also outlines the log-in behaviour for macOS, android, and iOS devices, how login works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the login screen, and how to restrict sign-on.
+If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article will help clarify what users and admins can expect to see. It also outlines the log-in behavior for macOS, android, and iOS devices, how login works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the login screen, and how to restrict sign-on.
 
-Bookmark this article if your role involves knowing Microsoft Team's expected behaviours during login.
+Bookmark this article if your role involves knowing Microsoft Team's expected behaviors during login.
 
 ## Microsoft Teams and Windows users: sign-in recommendations
 
@@ -31,15 +32,15 @@ Microsoft recommends that organizations use recent versions of Windows 10 with e
 
 Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure. To see how users sign in to Teams, read [Sign in to Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
-### How modern authentication (MA) effects your sign-in: what users will see when MA is on
+### How modern authentication (MA) affects your sign-in: what users will see when MA is on
 
 Modern authentication is part of a process that lets Teams know that users have already entered their credentials -- such as their work email and password -- elsewhere, and they shouldn't be required to enter them again to start the app. The experience varies depending on a couple factors, like if users are working in a Windows operating system, or on a Mac.
 
-Sign-in behaviour will also vary depending on whether your organization has enabled single-factor authentication or multifactor authentication. Multifactor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. 
+Sign-in behavior will also vary depending on whether your organization has enabled single-factor authentication or multifactor authentication. Multifactor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. 
 
 Modern authentication is available for every organization that uses Teams. If users aren't able to complete the process, there might be an underlying issue with your organization's Azure AD configuration. For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-Here's a rundown of the behaviour users can expect with each modern authentication scenario.
+Here's a rundown of the behavior users can expect with each modern authentication scenario.
 
 - If users have already signed in to Windows or to other Office apps with their work or school account, when they start Teams they're taken straight to the app. There's no need for them to enter their credentials.
 
@@ -147,16 +148,24 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 - Data Type: String
 - Comments: Enter comma separate list of Azure AD tenant ID(s)
 
-### Global sign in and Microsoft Teams
+### Global sign in and Microsoft Teams  
 
-The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. Make sure to end any active meeting or call on the device before signing out. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Our improved sign-in experience on shared device provides a hassle free sign-in for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](/microsoftteams/sign-out-of-teams) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be set in shared mode. Make sure to end any active meeting or call on the device before signing out.
+
+**Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+
+**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices). Download Teams app from app store, once the device is set in shared mode. Launch Teams and leave it open for 30 seconds, close the app and relaunch (this step is only needed for public preview phase).
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
+
+> [!NOTE]
+> This feature is in public preview.
+
+![Sign-in-section](media/signin.png)
 
 ## URLs and IP address ranges for Microsoft Teams
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government, and other clouds, read [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
-
 
 ## Related topics
 

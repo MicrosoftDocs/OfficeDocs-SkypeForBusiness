@@ -1,14 +1,17 @@
 ---
 title: Data and reports in Call Quality Dashboard (CQD)
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
+ms.date: 11/28/2017
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto:

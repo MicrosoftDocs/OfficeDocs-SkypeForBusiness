@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: "You have three options when configuring IP addresses in Skype for Business Server 2015. You can configure Skype for Business Server 2015 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack)."

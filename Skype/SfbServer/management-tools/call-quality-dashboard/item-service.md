@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Item Service for Call Quality Dashboard (CQD)"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -53,4 +54,5 @@ The REST operations are included in the following table.
 |[Get Item Ancestors](get-item-ancestors.md) <br/> |Get Item Ancestors returns a specific Item's ancestors.  <br/> |
 |[Update Item](update-item.md) <br/> |Update a specific item in the repository.  <br/> |
    
+
 

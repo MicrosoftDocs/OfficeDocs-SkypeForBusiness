@@ -1,3 +1,8 @@
+---
+ms.date: 11/28/2017
+ms.custom:
+  - has-azure-ad-ps-ref
+---
 ## Video demonstration
 
 This video shows a basic example of how to create an auto attendant in Microsoft Teams.

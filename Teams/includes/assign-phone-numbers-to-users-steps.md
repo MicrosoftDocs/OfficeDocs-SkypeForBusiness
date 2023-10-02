@@ -13,3 +13,4 @@
 
 6. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 7. Click **Save**.
+

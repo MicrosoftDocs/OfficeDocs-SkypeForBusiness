@@ -4,6 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -59,7 +62,7 @@ If you're ready, select a country or region:
 > - [France](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Germany](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Honduras](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [Hong Kong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [Hong Kong SAR](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Hungary](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [India](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
@@ -115,7 +118,7 @@ If you're ready, select a country or region:
   
 - **Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.** The dialing format describes the required access codes within each country/region to place calls using the toll free number.
     
-- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
+- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country/region. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries/regions such as Canada, Puerto Rico, etc. have specific toll free rates.
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

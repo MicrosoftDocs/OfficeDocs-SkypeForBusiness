@@ -7,6 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: rafarhi
+ms.date: 09/26/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -25,7 +26,7 @@ description: This article describes the Microsoft Teams functionality available 
 
 # Guest experience in Teams
 
-When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
+When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation before they can access the team and its channels. They can do this in the Teams client or by selecting **Open Microsoft Teams** in the email message.
 
 > [!NOTE]
 > After a guest is added to a team, it may take a few hours before they have access.

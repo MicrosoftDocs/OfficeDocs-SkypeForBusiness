@@ -4,14 +4,16 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/15/2018
 ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

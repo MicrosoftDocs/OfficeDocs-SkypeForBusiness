@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertAssignIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 description: "To begin assigning a certificate for use in Skype for Business Server, click Next."

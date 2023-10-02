@@ -6,7 +6,8 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith, lakuan
+ms.reviewer: lakuan
+ms.date: 03/03/2020
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
@@ -48,7 +50,7 @@ If user identities don't already exist, follow this process to establish them:
 1. [Create users using School Data Sync](/microsoft-365/education/deploy/school-data-sync).
 2. [Assign licenses to users](teams-edu-licensing.md).
 3. [Create Microsoft 365 groups](Office-365-groups.md).
-4. [Set up Exchange](Exchange-Teams-interact.md).
+4. [Set up Exchange](exchange-teams-interact.md).
 5. [Set up SharePoint and OneDrive](SharePoint-OneDrive-interact.md).
 6. [Set up users who have Google email](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
@@ -90,9 +92,9 @@ Teams policies control the capabilities available for specific users or groups. 
 **Primary-secondary school staff and educators** should be assigned policies that grant key capabilities, like allowing private chat and meeting scheduling. [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the **Automatically admit people** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
+> For meeting policies assigned to any users, we recommend setting the **Who can bypass the lobby** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
 >
-> For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
+> For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 # [Class teams](#tab/class-teams)
 

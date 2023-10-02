@@ -1,13 +1,13 @@
 ---
 title: "Support for the use of SEFAUtil functionality in Skype PowerShell in Skype for Business Server 2019"
 ms.reviewer: rogupta
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

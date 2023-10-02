@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Use the Office Customization Tool (OCT) in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,3 +38,4 @@ Administrators use the OCT to create a setup customization .msp file and can cus
 - **Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\Receive groups.
     
 For information about the OCT, see [Use the OCT to customize Office 2013](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Note that this information also applies to later versions of Office.
+

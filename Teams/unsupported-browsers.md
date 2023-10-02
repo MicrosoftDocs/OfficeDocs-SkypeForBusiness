@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: nakulm
+ms.date: 11/26/2019
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -16,6 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ---
 
 # Microsoft Teams meetings on unsupported browsers

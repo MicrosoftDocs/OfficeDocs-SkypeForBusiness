@@ -1,6 +1,7 @@
 ---
 title: "Configure Session Border Controller - Multiple tenants"
 ms.reviewer: filippse
+ms.date: 06/27/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -136,8 +139,8 @@ After you have registered a domain name, you need to activate it by adding at le
 - User Account with Office 365 F3 or Microsoft 365 F1/F3.
 - User Account with Office 365 G1/G3/G5 or Microsoft 365 G3/G5.
 - User Account with Microsoft 365 Business Basic/Standard/Premium.
-- User Account with Common Area Phone.
-- Resource Account with **Microsoft Teams Phone Resource Account** license.
+- User Account with a **Microsoft Teams Shared Devices** license.
+- Resource Account with a **Microsoft Teams Phone Resource Account** license.
 
 Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created domain.
 
@@ -201,7 +204,7 @@ After you have registered a subdomain name, you need to activate it by adding at
 -	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
 -	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
 -	User Account with Microsoft 365 Business Basic/Standard/Premium and G3/G5 plans
--	User Account with Common Area Phone
+-	User Account with a **Microsoft Teams Shared Devices** license
 -	Resource Account with a **Microsoft Teams Phone Resource Account** license
 
 Additionally the account’s UPN (User Principal Name) or Skype for Business on-premises SIP address must use the same FQDN as the newly created subdomain.
@@ -257,6 +260,7 @@ Examples:
  
 > [!NOTE]
 > Number translation rules applied on the carrier trunk don't apply to derived trunks. This is a known issue. As an alternative solution, number translation rules must be created for each customer's tenant.
+> Some functionality can be configured only by using PowerShell; for example, adding a new voice route. You must use the New-CsOnlineVoiceRoute cmdlet. In such cases, follow the guidance presented in other sections of this documentation related to cmdlets.
 
 **Migration from the previous model to the carrier trunk**
  

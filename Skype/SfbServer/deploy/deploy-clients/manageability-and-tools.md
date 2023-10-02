@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System manageability and tools"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -130,3 +131,4 @@ Import the .crl files on the Skype Room System under the Intermediate Certificat
 Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't you won't be able to share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
   
 Domain membership can simplify some things because you can treat the Skype Room System as a Windows system and it can rely on Active Directory for some of the certificate aspects. However, it's best to manually manage this.
+

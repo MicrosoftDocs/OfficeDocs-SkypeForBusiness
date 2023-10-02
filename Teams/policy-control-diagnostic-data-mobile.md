@@ -1,12 +1,13 @@
 ---
 title: Required mobile diagnostic data for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
+ms.date: 05/06/2020
 description: A list of mobile properties and events for the policy controls for Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -344,7 +345,6 @@ For more information about diagnostic data, including how to control what diagno
 - **companionDismissProximity** - Dismiss the companion banner.
 - **companionJoin** - Join as companion option is selected on the sheet.
 - **companionJoinProximity** - Joined through the companion banner.
-- **completeVaultFRE** - User completes process of generating a master key that is used to encrypt their Safe data.
 - **completionStateChange** - Triggers when a completed or Incomplete filter toggle is selected in filter view from task list.
 - **composeExpandComposer** - **Format** button tapped.
 - **composeFilePick** - Native file picker launched.
@@ -433,7 +433,6 @@ For more information about diagnostic data, including how to control what diagno
 - **deleteMeeting** - Select the **Delete** button from the Meeting Details page.
 - **deletePersonalTask** - Confirms a personal task has been successfully deleted.
 - **deletePersonalSubtask** - Confirms a personal subtask has been successfully deleted.
-- **deletePersonalVaultItem** - User requests to delete their personal Safe.
 - **deletePlannerTask** - Confirms that a shared task delete operation completed successfully.
 - **deleteShift** - Shift deletion.
 - **duration_picker_dismissed** - When the duration picker is dismissed.
@@ -645,7 +644,7 @@ For more information about diagnostic data, including how to control what diagno
 - **liveEventPresenterJoin** - A live event is joined by a presenter.
 - **liveEventPresenterJoinAsAttendee** - A live event presenter joined as an attendee.
 - **liveEventQnA** - The **Q&A** icon is selected.
-- **liveEventYammer** - The **Yammer** icon is selected.
+- **liveEventVivaEngage** - The **Viva Engage** icon is selected.
 - **liveMeetingPushNotificationClicked** - Push notification is selected.
 - **liveMeetingToastClicked** - In-app toast is selected.
 - **live_location_in_chats_from_profile_clicked** - **Live locations** is selected in profile view.
@@ -668,9 +667,7 @@ For more information about diagnostic data, including how to control what diagno
 - **location_sharing_stop** - A user stops sharing their live location in a chat.
 - **loginFailed** - User was unable to sign in.
 - **loginSuccess** - User was able to log in.
-- **logoutVault** - User signs out of the app and in turn signs out of Safe. 
 - **manageBlockedNumbers** - Access blocked numbers through Settings.
-- **manageVaultKey** - User changes their Safe key management choice (MSA vs self tracked).
 - **manualSendMessage** - A message is sent out manually.
 - **mapAppPicker** - When a user selects which mapping app to use when they tap on a location card.
 - **markAsRead** - Mark as read.
@@ -964,7 +961,6 @@ For more information about diagnostic data, including how to control what diagno
 - **requestToJoinTeam** - Request to join team (public or private).
 - **requestToJoinTeamError** - Error with join request.
 - **requestTypeClicked** - Determining the type of request people select from the requests picker.
-- **resetLocalVault** - User resets and clears all Safe data from their device.
 - **resolveIssue** - **Resolve** is selected in the notification troubleshooter flyout to navigate to the blocker app.
 - **responseClicked** - A user selects a response page.
 - **retryButtonClicked** - The **Retry** button is selected.
@@ -1023,7 +1019,6 @@ For more information about diagnostic data, including how to control what diagno
 - **Setting/Dismiss** - Device contacts setting.
 - **settingsNavReadReceiptNotice** - User went to settings from the feature notice.
 - **settingsOpened** - This option is triggered when the user's device time zone doesn't match the team time zone, and the user goes to Settings.
-- **setupPinVault** - User saves a Safe pin for their account. 
 - **shareCharmCompleted** - User completed sharing of an invite link via application share charm.
 - **shareCharmOpened** - User initiated sharing of an invite link via application share charm. 
 - **shareFile** - Triggered when **Share file** is selected. Also helps to check if:

@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
+ms.date: 09/20/2021
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
@@ -15,6 +16,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
   - M365-collaboration
+  - tier2
 ms.custom:
   - admindeeplinkTEAMS
 appliesto:
@@ -31,8 +33,8 @@ This article provides guidance to education IT professionals on requirements and
 
 Here are some resources IT admins can share with guardians and educators on how they can get started using the Parent Connection.
 
-- For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting guardians set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- For guidance on getting educators set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## Benefits of Parent Connection
 
@@ -100,17 +102,17 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - This must be turned on at the tenant level and the user level. The tenant-level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User-level external access policies can only be accessed via PowerShell. For more information, see the [PowerShell commands below](#allow-external-access-with-teams-accounts-not-managed-by-an-organization).
 - To allow meeting creation from the Parent Connection app, the following policies must be turned on:
   - [Allow private meeting scheduling](meeting-policies-in-teams.md#allow-scheduling-private-meetings).
-  - [Allow anonymous users to join the meeting](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting).
+  - [Allow anonymous users to join the meeting](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 #### Parent and guardian restrictions
 
-Parents and guardians are classified as *external users* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
+Parents and guardians are classified as *external* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
 
-For external chats, both internal and external users can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
+For external chats, both internal and external people can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
 
-Also, external users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+Also, external people can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
 
-Even though parents and guardians are external users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+Even though parents and guardians are external, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
 > [!IMPORTANT]
 > IT admins should educate all Class Owners on best practices for sharing student information over chat, including risks to student privacy.
@@ -184,9 +186,9 @@ Once the user-level external access policies are set correctly for the users in 
 
 ## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-and-block-apps).
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
 
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
 
 The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 

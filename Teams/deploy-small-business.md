@@ -6,7 +6,8 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dstrome
+ms.reviewer: mikeplum
+ms.date: 11/06/2018
 description: Set up Teams in your small business to enable your users to collaborate using chat and file sharing, set up and attend small and large meetings, and talk via video and voice.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -54,14 +55,14 @@ As you think about rolling out teams and channels, you need to decide who should
 | [Who should be Team owners and members?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Team owners control who can access a team and its channels. They can decide whether a team or channel is public (to the organization) or private and can set up policies like whether a channel should be moderated. Members can access the team and its channels (unless a channel is set to private and they're not a member of that channel) and can be designated as moderators.<br><br>[Assign team owners and members in Microsoft Teams](assign-roles-permissions.md) |
 | [Should guest access be enabled?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |Guest access lets people in your organization invite people outside your organization access your teams and channels. Guest access is often used to collaborate with people outside your organization who don't have a formal relationship with yours. For example, you might invite a project planner to work on a project temporarily.<br>Guest access is different than external access. Guest access invites specific individuals access to interact with people in your organization.  <br>Guest access is turned **Off** by default. <br><br>[Turn on or turn off guest access to Microsoft Teams](set-up-guests.md)  |
 
-You don't need to do anything else for your users to start using chat, teams, and channels. However, there are lots of options for controlling how Teams is used. You can changes now, or wait until you can see how people are using Teams. For more information, check out the following articles:
+You don't need to do anything else for your users to start using chat, teams, and channels. However, there are lots of options for controlling how Teams is used. You can make the changes now, or wait until you can see how people are using Teams. For more information, check out the following articles:
 
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
 - [Teams settings](enable-features-office-365.md#teams-settings)
 
 ### Meetings and conferencing
 
-Meetings and conferencing lets people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. Using the microphone, camera, and screen of their device lets participants join in the conversation without the need for a phone. Participants can chat, make voice calls, and share video and apps with other participants using a PC or mobile device.
+Meetings and conferencing let people in your organization meet with each other and those outside your organization. Anyone with a Teams or Skype for Business client can join **meetings** to which they've been invited. The participants can join in the conversation without the need for a phone by using the microphone, camera, and screen of their device. Participants can chat, make voice calls, and share video and apps with other participants using a PC or mobile device.
 
 **Audio conferencing** lets participants join to meetings via a regular phone by calling a conference phone number and entering a meeting ID. Audio conferencing is useful when a participant doesn't have a good Internet connection, the meeting is voice-only, or some other circumstance doesn't allow them to join via the Teams client.
 
@@ -80,9 +81,9 @@ For more information on Teams Phone with Calling Plan for small and medium busin
 
 ## Deploy clients
 
-When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
-Make sure everyone who'll be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
+Ensure everyone has a Teams license before they can use Teams. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
 > Get recommendations on how to plan your Teams client deployment by completing the [Deploy Microsoft Teams clients](/training/modules/m365-teams-collab-deploy-clients/) module on Microsoft Learn.

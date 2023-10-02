@@ -3,7 +3,8 @@ title: Overview of dynamic membership for teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: kblevens, phlouie
+ms.reviewer: phlouie
+ms.date: 10/19/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

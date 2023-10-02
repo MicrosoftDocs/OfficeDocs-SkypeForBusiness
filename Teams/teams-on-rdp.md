@@ -3,6 +3,7 @@ title: Use Teams with remote desktop services
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: alivano
+ms.date: 02/02/2021
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,6 +17,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---

@@ -7,6 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
+ms.date: 08/21/2020
 description: Zero Trust guidance for using Microsoft Teams securely from a shared computer in the workplace.
 ms.localizationpriority: high
 search.appverid: MET150

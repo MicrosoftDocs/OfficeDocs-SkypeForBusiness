@@ -4,13 +4,16 @@ author: altsou
 ms.author: altsou
 manager: serdars
 ms.reviewer: 
+ms.date: 10/27/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -39,7 +42,7 @@ Most unexpected failures arise from changes in the base image with uncertain his
 Following simple readiness checks is recommended:  
 
 - **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-10-release-support) for more information.
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
 
 ## Readiness checks
 
@@ -128,7 +131,7 @@ The detailed room view displays the relevant updates and their status under the 
 
 ### Rings  
 
-Rings are used to reduce the risk of issues derived from the deployment of the feature updates. This is done by gradually deploying the update to the entire site. Each ring should have a list of Microsoft Teams Room rooms and a corresponding rollout schedule. Defining rings is generally a one-time event (or at least infrequent), but IT should revisit these groups from time to time to ensure that the sequencing is still correct.  
+Rings are used to reduce the risk of issues derived from the deployment of the feature updates. This is done by gradually deploying the update to the entire site. Each ring should have a list of Microsoft Teams Rooms rooms and a corresponding rollout schedule. Defining rings is generally a one-time event (or at least infrequent), but IT should revisit these groups from time to time to ensure that the sequencing is still correct.  
 
 The **Rings** tab lists  all the rings in your tenant. There are three preconfigured rings:  
 

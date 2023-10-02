@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried, acolonna
+ms.date: 02/05/2020
 search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
@@ -22,11 +23,13 @@ ms.collection:
 Setting up a team targeting hierarchy will allow your organization to publish content to a large set of teams. The team targeting hierarchy defines how all the teams in your hierarchy are related to each other, which users can publish tasks, and which teams users have permissions to publish to. Publishing features are disabled for all users unless a team targeting hierarchy is set up for your organization. To set up a team targeting hierarchy, you'll need to create a file that defines the hierarchy and then upload it to Teams to apply it to your organization. After the schema is uploaded, apps within Teams can use it.
 
 > [!IMPORTANT]
-> For the initial release, only the Tasks app supports hierarchical teams.  Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
+> For the initial release, only the Tasks app supports hierarchical teams. Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Tasks app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
 Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
 ![Screenshot of task publishing.](media/manage-tasks-app-publish.png)
+
+The task publishing experience is available within the Tasks app in Teams but is powered by Microsoft Planner. As a result, task publishing requires users to be assigned licenses that include Microsoft Planner. 
 
 ## Terminology
 
@@ -100,7 +103,7 @@ After you add the three required columns, you can add optional attribute columns
 When you add an attribute column, keep the following in mind:
 
 * The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
-* You can have up to 50 attribute columns in your hierarchy.
+* You can have up to 100 attribute columns in your hierarchy.
 * The column name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9, and spaces. Column names must be unique.
 
 ### Add bucket columns
@@ -114,7 +117,7 @@ When you add a bucket column, note the following:
 * The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy.
 * We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
 * The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
-* A hierarchy may contain up to 25 bucket columns. We plan to work with customers to increase this limit for larger organizations.
+* A hierarchy may contain up to 100 bucket columns. We plan to work with customers to increase this limit for larger organizations.
 
 ### Example
 

@@ -1,6 +1,7 @@
 ---
+ms.date: 09/11/2018
 title: "Skype for Business Online Plan 1 retirement "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -50,3 +51,4 @@ The features that your users enjoy in Skype for Business Online Plan 1 are avail
 ### How to switch 
 
 When it's time to renew your subscription and Skype for Business Online Plan 1 is no longer available to you, you’ll be able to switch to another Office 365 plan as part of the renewal process. If you don’t want to wait until renewal, you can choose to switch now. Either way, you'll work with your account representative or partner to make the switch, or — if you bought Skype for Business Online Plan 1 from Microsoft directly, online — do it yourself in the admin center.
+

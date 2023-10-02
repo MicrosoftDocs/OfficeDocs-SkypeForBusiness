@@ -1,12 +1,13 @@
 ---
 title: "Step 7 - Manage and monitor your Teams meeting space"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Maintain your Teams Room space and devices post-deployment.
 ms.topic: article
@@ -15,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---
@@ -38,7 +41,7 @@ With Microsoft Teams admin center, you can:
 
  :::image type="content" source="media/teams-admin-center-overview.png" alt-text="Teams admin center overview page." lightbox="media/teams-admin-center-overview.png" border="false":::
 
-To see what Teams Rooms console settings you can change from the Teams admin center, see [Make changes to Teams Rooms devices](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices).
+To see what Teams Rooms console settings you can change from the Teams admin center, see [Make changes to Teams Rooms devices](rooms/rooms-manage.md#make-changes-to-teams-rooms-devices-or-surface-hubs).
 
 To see information about Teams Rooms consoles, including health information, meeting details, and participant details, see [View device information](rooms/rooms-manage.md#view-device-information).
 

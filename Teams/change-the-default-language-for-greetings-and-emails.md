@@ -1,9 +1,10 @@
 ---
 title: "Change the default language for greetings and emails"
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -11,7 +12,9 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business

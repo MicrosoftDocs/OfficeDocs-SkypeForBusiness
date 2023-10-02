@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync Room Systems"
 ms.author: serdars
 author: msdmaguire
@@ -26,7 +27,7 @@ description: "Read about the qualified Lync Room System products have been teste
 Lync Room Systems are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. The hardware includes, at a minimum, one or two large touch-enabled displays, high definition video cameras and microphones, and a console in the conference room that enables participation without a laptop or desktop from within the meeting room. These products have been tested and are optimized for Lync.
 
 > [!NOTE]
-> We recommend that you visit each vendor's website for the latest information regarding product specifications, country support, and documentation including release notes and known issues. Please contact the vendor for more information about these products.
+> We recommend that you visit each vendor's website for the latest information regarding product specifications, country/region support, and documentation including release notes and known issues. Please contact the vendor for more information about these products.
 <br/>
 
 ***Table - Qualified Lync Room Systems***
@@ -100,3 +101,4 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
         </tr>
     </tbody>
 </table>
+

@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: kblevens
+ms.reviewer: 
+ms.date: 12/13/2019
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about enabling and disabling actionable activity emails of Microsoft Teams conversations  

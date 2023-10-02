@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Normalization Rule Type a Regular Expression"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceRouteRegexEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ Type a .NET Framework regular expression to specify the matching pattern for des
   
  
   
+
 

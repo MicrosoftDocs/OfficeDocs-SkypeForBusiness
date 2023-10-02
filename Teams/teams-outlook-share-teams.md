@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: kblevens
+ms.reviewer: 
+ms.date: 03/10/2021
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the Share to Teams feature, which allows users to share emails and email attachments from Outlook to any chat or channel in Teams.  
@@ -30,7 +31,7 @@ The Share to Teams feature requires an add-in for Outlook. This add-in is instal
 
 Share to Teams uses the same transport mechanism as when a user emails a channel. For sharing to chats, emails (including email attachments) are copied to the sender's OneDrive. For sharing to channels, emails and attachments are copied to the **Email messages** folder in SharePoint.
 
-The Outlook add-in for Share to Teams uses requirement set 1.7, as detailed in [Outlook add-ins documentation](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), which includes details on Outlook add-ins, environment requirements for Outlook add-ins, and the specific Outlook clients that are supported with requirement set 1.7.
+The Outlook add-in for Share to Teams uses requirement set 1.7, as detailed in [Outlook add-ins documentation](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Outlook add-in API requirement set 1.7](/javascript/api/requirement-sets/outlook/requirement-set-1.7/outlook-requirement-set-1.7), which include details on Outlook add-ins, environment requirements for Outlook add-ins, and the specific Outlook clients that are supported with requirement set 1.7.
 
 ## Enabling or disabling Share to Teams
 

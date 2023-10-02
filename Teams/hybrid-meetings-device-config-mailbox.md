@@ -1,12 +1,13 @@
 ---
 title: "Step 4 - Configure mailbox properties"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Configure mailbox properties of a resource account mailbox for use with Teams Rooms.
 ms.topic: article
@@ -15,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---

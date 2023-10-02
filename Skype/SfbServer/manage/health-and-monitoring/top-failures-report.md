@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Top Failures Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -75,4 +76,5 @@ The following table lists the information provided in the Top Failures Report.
 |**Failure information** <br/> |No  <br/> |Detailed information about the failure, including diagnostic ID, SIP response code, and description of why the session failed.  <br/> |
 |**Trend in the past** <br/> |No  <br/> |Graphs failed sessions over time.  <br/> |
    
+
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -13,6 +14,8 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for a baseline level of protection by using templates and sensitivity labels.
@@ -40,23 +43,23 @@ The following table describes which actions we'll restrict for baseline meetings
 |Meeting chat|**On**|Template|No|
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
-|Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**People in my organization, people in trusted organizations, and guests**|Template|No|
-|Who can present|**Everyone in the organization, but user can override**|Teams admin center|No|
+|Record meetings automatically|**Off**|Template|No|
+|Who can bypass the lobby?|**People in my organization, people in trusted organizations, and guests**|Template|No|
+|Who can present|**People in my organization and guests**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Template|No|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
 
 ## Default values for **Who can present**
 
-The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **Everyone in the organization** which meeting organizers can change if they want.
+The default value for **Who can present** is **Everyone**. For the baseline protection tier, we'll set a more secure default of **People in my organization and guests** which meeting organizers can change if they want.
 
 We can set this value with a sensitivity label, but the value will be enforced for any meetings with that label. This setting isn't available in meeting templates, so we'll set it in the Teams admin center.
 
-To configure who can present in meetings
+To configure who can present 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
-1. Under **Participants & guests**, set **Who can present in meetings** to **Everyone in the organization, but user can override**.
+1. Under **Content sharing**, set **Who can present** to **People in my organization and guests**.
 1. Select **Save**.
 
 ## Watermarks and end-to-end encryption
@@ -75,17 +78,18 @@ If you already have sensitivity labels deployed in your organization, consider h
 
 To create a sensitivity label
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
-1. Under **Solutions**, click **Information protection**.
+1. Under **Solutions**, expand **Information protection** and then select **Labels**.
 1. Click **Create a label**.
 1. Give the label a name. We suggest **Sensitive**, but you can choose a different name if that one is already in use.
 1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. On the **Define the scope for this label** page, make sure **Items** and **Include meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
-1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
-    1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Off**.
-    1. Select **Control watermarks** and set **Apply watermarks to shared content** and **Apply watermarks to everyone's video feed** to **Off**.
+1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Settings for Teams meetings and chats** page, choose the following values:
+    1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Don't apply end-to-end encryption**.
+    1. Select **Control watermarks** and select **Don't apply watermark to shared content** and **Don't apply watermark to everyone's video feed**.
     1. Configure any other settings that you need for your organization.
-    <!--:::image type="content" source="media/teams-meeting-sensitivity-label-baseline-small.png" alt-text="Screenshot of sensitivity label meeting settings." lightbox="media/teams-meeting-sensitivity-label-baseline-large.png":::-->
+    ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-baseline-small.png)
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
 
@@ -108,7 +112,7 @@ To create a custom meeting template
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. In the **Lobby** dropdown, select **Everyone in my organization, trusted organizations, and guests**.
+1. In the **Lobby** dropdown, select **People in my organization, trusted organizations, and guests**.
 1. Make sure **People calling in my phone can bypass the lobby** is set to **Off**, then select it and select **Lock**.
 1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those settings here and selecting **Hide** so meeting organizers won't see them.
 1. Change any additional settings if desired.

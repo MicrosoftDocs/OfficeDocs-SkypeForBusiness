@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 09/22/2022
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Find Teams apps that undergo Microsoft 365 app compliance program for security, compliance, and privacy
+# Know about apps that undergo app compliance program for security, data handling, and privacy
 
-Microsoft compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
+Microsoft 365 app compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
 
 * [Publisher verification](#publisher-verification).
 * [Publisher attestation](#publisher-attestation).
@@ -29,15 +29,15 @@ Microsoft compliance program checks and audits an app against controls that are 
 
 ## Publisher verification
 
-Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A developer verifies their identity using their Microsoft Partner Network (MPN) account and associates this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers. Publisher verification provides the following benefits:
+Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A developer verifies their identity using their Microsoft Partner Network (MPN) account and associates this MPN account with their app registration. Publisher verification helps admins and users understand the authenticity of application developers. Publisher verification provides the following benefits:
 
 * Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
-* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
+* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by users and admins.
 * Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
 
 ## Publisher attestation
 
-Publisher attestation is the next tier in the app compliance program. Publisher attested apps provide confidence to admins about security and compliance measures of an app. It also helps reduce the time to review this information for an app. The attestation will reflect an app's security, data handling, and compliance practices against more than 80 risk factors identified by [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security). Publisher attestation process can start before Publisher verification is complete.
+Publisher attestation is the next tier in the app compliance program. Publisher attested apps provide confidence to admins about security and compliance measures of an app. It also helps reduce the time to review this information for an app. The attestation will reflect an app's security, data handling, and compliance practices against more than 80 risk factors identified by [Microsoft Defender for Cloud Apps](/defender-cloud-apps/). Publisher attestation process can start before Publisher verification is complete.
 
 App developers are asked to complete a self-assessment that includes questions frequently asked by customers and IT admins to evaluate the security and compliance of an app. Microsoft then publishes this information for easier and more timely evaluation. To know more, see [Attestation guide](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide).
 
@@ -68,7 +68,7 @@ App certification is achieved through:
 
 We check the app against a series of security controls derived from leading industry-standard frameworks.
 
-The certificate demonstrates the strong security and compliance practices that are in place to protect customer data when the app is used in an organization. More information about how admins and end-users benefit from the certification is available at [Overview of Microsoft 365 app compliance program](/microsoft-365-app-certification/docs/enterprise-app-certification-guide).
+The certificate demonstrates the strong security and compliance practices that are in place to protect customer data when the app is used in an organization. More information about how admins and users benefit from the certification is available at [Overview of Microsoft 365 app compliance program](/microsoft-365-app-certification/docs/enterprise-app-certification-guide).
 
 Administrators can quickly check for Microsoft 365 certified apps in the following ways.
 
@@ -100,12 +100,12 @@ You can find the details about security, privacy, compliance, and more for each 
 
 ### Teams admin center
 
-When evaluating an app, you can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps. Check this information in the app details page, to verify if the app meets your security needs.
+When evaluating an app, you can use independent Cloud Access Security Brokers (CASB), such as Microsoft Defender for Cloud Apps, to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from Defender for Cloud Apps for Microsoft 365 Certified apps. Check this information in the app details page, to verify if the app meets your security needs.
 
 > [!NOTE]
-> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
+> This feature is available to all admins, whether or not your organization has a license that supports Defender for Cloud Apps.
 
-To access MCAS information for an app:
+To access Defender for Cloud Apps information for an app:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
@@ -115,7 +115,7 @@ To access MCAS information for an app:
 
 1. Select the **Security and compliance** tab.
 
-   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab.":::
+   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab." lightbox="media/mcas.png":::
 
    To get more details on the supported capabilities for the app, select the dropdown list for each category.
 

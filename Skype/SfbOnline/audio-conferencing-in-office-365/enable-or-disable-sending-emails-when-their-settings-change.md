@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -124,3 +125,4 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
 [Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md)
 
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
+

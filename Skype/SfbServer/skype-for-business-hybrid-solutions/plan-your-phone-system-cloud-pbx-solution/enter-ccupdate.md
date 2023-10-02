@@ -1,13 +1,13 @@
 ---
 title: "Enter-CcUpdate"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 ms.date: 3/31/2017
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

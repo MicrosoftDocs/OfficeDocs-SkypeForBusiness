@@ -1,6 +1,7 @@
 ---
+ms.date: 03/16/2018
 title: "Microsoft 365 Apps for enterprise or Skype for Business Online Standalone Plan 2"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -41,3 +42,4 @@ If you have already purchased [Microsoft 365 Apps for enterprise](https://produc
 |**Phone System**  |1. [Switch to a different Microsoft 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). If you have Microsoft 365 Apps for enterprise, or Skype for Business Online Standalone Plan 2 we recommend upgrading your plan to an Enterprise E5 plan to get cloud voice features. If you upgrade to an Enterprise E1 or E3 plan, you'll see the option to buy the **Phone System** add-on. <br/> 2. **Phone System** add-on <br/>  3. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) . <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).   |
 |**Calling Plans**  |1. [Switch to a different Microsoft 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. **Phone System** add-on <br/> 3. [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on.  |
    
+

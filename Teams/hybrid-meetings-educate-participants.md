@@ -1,12 +1,13 @@
 ---
 title: "Teams hybrid meeting participant best practices"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/15/2022
 audience: ITPro
 description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.
 ms.topic: article
@@ -15,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---
@@ -74,7 +77,7 @@ Remote users need to be treated as equal participants in meetings so they can co
 
 ## In-room participants
 
-In-room participants might feel that it's more natural to discuss matters with those next to them. However, by applying these best practices, they can easily increase the scope of their discussions to include someone working from home or across the country.
+In-room participants might feel that it's more natural to discuss matters with those next to them. However, by applying these best practices, they can easily increase the scope of their discussions to include someone working from home or across the country/region.
 
 | Tasks                                             | Notes                                                                                                                                                                                                                                                                                                      |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

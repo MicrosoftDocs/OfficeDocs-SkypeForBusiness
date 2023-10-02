@@ -1,17 +1,19 @@
 ---
 title: "Enable users to record their name for a meeting"
-ms.author: heidip
-author: MicrosoftHeidi
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 08/14/2018
 ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - Tier1
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

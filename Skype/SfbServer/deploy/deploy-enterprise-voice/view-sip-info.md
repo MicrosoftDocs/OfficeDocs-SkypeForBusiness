@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View SIP trunk information in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium 
@@ -49,3 +50,4 @@ In Skype for Business Server, however, multiple trunks can now be assigned to a 
   ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```
+

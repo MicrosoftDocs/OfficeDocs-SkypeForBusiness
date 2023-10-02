@@ -1,11 +1,13 @@
 ---
 title: Plan your deployment for Teams phone devices and Displays
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: tony.woodruff
+ms.date: 12/17/2021
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -14,8 +16,9 @@ f1.keywords:
 search.appverid: MET150
 description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
+  - Tier1
 ---
 
 # Plan your deployment for Teams phone devices and Displays
@@ -51,7 +54,7 @@ Personal and shared devices have different roles and uses.
 - Perform a specific function, like a common area phone or meeting room device and require a dedicated account and feature license to access the service.
 - Think of shared devices as having a one-to-many relationship: one device shared by many users.
 - Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
-- Their user interfaces (UI) are specific to their function, such as Common Area Phone UI, or meeting room UI depend upon the function and placement of the shared device.
+- Their user interfaces (UI) are specific to their function, such as common area phone UI, or meeting room UI depend upon the function and placement of the shared device.
 - Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
 - Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
 
@@ -71,7 +74,7 @@ Now that you've identified your device personas, you need to determine which cer
 
 Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
 
-Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) and a [Microsoft Teams Rooms license](../rooms/rooms-licensing.md).
+Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable license is [the Microsoft Teams Shared Devices license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
 For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 

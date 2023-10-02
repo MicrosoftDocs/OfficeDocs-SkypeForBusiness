@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -98,3 +99,4 @@ The following steps are **optional**, but a lot of admins like to do them:
 [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md)
 
 [Set options for online meetings and conference calls](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+

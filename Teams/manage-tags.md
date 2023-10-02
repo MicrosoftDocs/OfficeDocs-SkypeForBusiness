@@ -4,6 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: acolonna, salu
+ms.date: 07/17/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -50,11 +51,13 @@ As an admin, you can control how tags are used across your organization in the M
 
 :::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Screenshot of tagging settings in the Microsoft Teams admin center.":::
 
-A team can have up to 100 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team be assigned to a single user.
+A team can have up to 200 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team be assigned to a single user.
 
 ### Set who can manage tags
 
-By default, team owners can create, edit, and delete tags. You can change the **Who can manage tags** setting to allow team owners and team members to manage tags, or you can turn off tags for your organization.
+You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you have not selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is set to both team owners and members. If you're using Teams for Education, non-owner students cannot manage tags as long as **Who can manage tags** is set to **Team owners** or **Microsoft default**.
+
+We recommend you select a specific value other than **Microsoft default** to ensure that your preferred tag settings are used if the **Microsoft default** setting changes in the future.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
@@ -82,3 +85,5 @@ You can configure the following tags settings to control how tags are used acros
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 [Shifts Help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+
+

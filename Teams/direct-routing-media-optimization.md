@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection:
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords:
@@ -45,13 +47,13 @@ For information on which SBC vendors support Local Media Optimization, see [Sess
 
 For this discussion, assume that Contoso runs multiple businesses across the globe as follows. (Note that Europe and APAC regions are used as examples only. A company might have several different regions with similar requirements.)
 
-- **In Europe**, Contoso has offices in approximately 30 countries. Each office has its own Private Branch Exchange (PBX).
+- **In Europe**, Contoso has offices in approximately 30 countries/regions. Each office has its own Private Branch Exchange (PBX).
 
   Contoso was offered an option to centralize the trunks in one location--Amsterdam--for all 30 European offices. Contoso deployed the SBC in Amsterdam, provided enough bandwidth to run calls through the centralized location, connected a central SIP trunk to the centralized location, and started serving all European locations from Amsterdam.
 
-- **In the APAC region**, Contoso has multiple offices in different countries.
+- **In the APAC region**, Contoso has multiple offices in different countries/regions.
 
-  In many countries, the company still has time-division multiplexing (TDM) trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to SIP is not possible. Assume there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
+  In many countries/regions, the company still has time-division multiplexing (TDM) trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to SIP is not possible. Assume there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries/regions impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
 
 Based on their business requirements, Contoso implemented two solutions with Local Media Optimization for Direct Routing:
 
@@ -192,7 +194,7 @@ To distinguish between Local Media Optimization modes, the tenant administrator 
 
 If you have good connection between branch offices, the recommended mode is Always bypass.
 
-For example, assume a company has a centralized SIP trunk in Amsterdam, which serves 30 countries and has good connectivity between all 30 sites and local users. There is also a branch in Germany where a local SBC is deployed.
+For example, assume a company has a centralized SIP trunk in Amsterdam, which serves 30 countries/regions and has good connectivity between all 30 sites and local users. There is also a branch in Germany where a local SBC is deployed.
 
 The SBC in Germany can be configured in "Always bypass" mode. Users, regardless of their location, will connect to the SBC directly through the internal IP address of the SBC (for example from France to Germany; see the diagram below for reference).
 
@@ -256,7 +258,7 @@ Diagram 6.  Traffic flow with "Always Bypass" mode and the user is not in "home"
 
 If there are bad connections between local branch offices but good connections between each local branch office and regional office, then the recommended mode is "Only For Local Users".
 
-For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible because the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs).
+For example, in the APAC region, assume Contoso has multiple offices in different countries/regions. For many countries/regions, switching to SIP is not possible because the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs).
 
 To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. The direct connection between the local branch offices is not good, but there is a good connection between each local branch office and the regional SBC in Singapore. For the regional SBC, the administrator chooses 'Always Bypass' mode, and for the local downstream SBCs, the administrator chooses 'Only For Local Users' mode.
 
@@ -333,4 +335,4 @@ The following is a list of known issues that are currently present in Local Medi
 | Call escalations from 1 to 1 call between internal customers to multiparty call with external customer/resource result in dropped calls | Work in progress on a fix. Alternatively, disable Local Media Optimization on the Direct Routing SBC.|
 | Teams user puts the call On Hold. Music plays on the PSTN end and Local Media Optimization is working. The Teams user resumes the call. The call to PSTN resumes but Local Media Optimization is not working and the call continues via Central (Proxy) SBC | When a user parks a call to initiate music on hold (MoH), it is being escalated from 1:1 to a multiparty call by the Call Controller to invoke Media Controller and Media Processor (serving as AVMCU mixer) through which MoH reaches a user who has been put on hold. De-escalation to a 1:1 call after the call resumes never happens as per design. Disable Local Media Optimization on the Direct Routing SBC.|
 |While a call is being established for a few seconds, the user might hear silence.| Due to the complexity of Local Media Optimization architecture, this might occur in some cases.|
-|Voice apps (e.g. Auto Attendant, Call Queue) do not work.| LMO does not support Voice Apps, as they reside in the cloud and require external connectivity. No workaround for now.|
+|Voice apps (e.g. Auto Attendant, Call Queue) do not work.| Local Media Optimization does not support Voice Apps because they reside in the cloud and require external connectivity. For Location-Based Routing scenarios, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).|

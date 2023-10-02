@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 08/23/2021
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

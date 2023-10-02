@@ -1,15 +1,17 @@
 ---
 title: Mask phone numbers in Microsoft Teams meetings
-author: heidip
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
+ms.date: 08/07/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 f1.keywords: 
   - NOCSH
 appliesto: 

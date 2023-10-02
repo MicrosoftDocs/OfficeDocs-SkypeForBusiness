@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select a Region Link"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.NcsSelRegionLink
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ Use the **Region Link** dialog box to find region links available in your enviro
   
  
   
+
 

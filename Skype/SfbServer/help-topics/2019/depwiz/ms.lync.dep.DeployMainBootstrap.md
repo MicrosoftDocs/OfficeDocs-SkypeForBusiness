@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Setup or Remove Skype for Business Server Components"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainBootstrap
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -27,4 +28,5 @@ To install and activate, or deactivate or uninstall Skype for Business Server co
 > [!NOTE]
 > If you have previously installed Skype for Business Server components on this computer, the Deployment Wizard will recognize this, and the button in step 2 will be displayed as **Run Again**. This enables you to run the step as many times as needed to correctly configure or modify the server. 
   
+
 

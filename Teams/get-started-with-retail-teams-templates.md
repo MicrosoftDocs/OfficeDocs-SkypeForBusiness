@@ -1,16 +1,16 @@
 ---
 title: Use retail team templates
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 02/01/2019
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-  - tier2
   - highpri
 ms.localizationpriority: high
 search.appverid: MET150

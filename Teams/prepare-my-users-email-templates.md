@@ -18,6 +18,8 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ---
 
 

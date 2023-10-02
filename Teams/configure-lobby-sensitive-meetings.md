@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 05/19/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -13,6 +14,8 @@ f1.keywords:
 ms.collection: 
   - m365solution-compliantmeetings
   - m365initiative-meetings
+  - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure the Teams meeting lobby to enhance security for sensitive meetings by using admin policies, sensitivity labels, and meeting templates.
@@ -45,14 +48,16 @@ For information about how to use templates and sensitivity labels to configure m
 
 ## Lobby settings for different types of meetings
 
-The following settings are available for who can bypass the lobby:
+The following settings are available for **Who can bypass the lobby**:
 
 - Everyone
-- People in my organization, trusted organizations, and guests
-- People in my organization and guests
-- People in my organization
+- People in my org, trusted orgs, and guests
+- People in my org and guests
+- People in my org
 - People who were invited
-- Organizers and co-organizers
+- Only organizers and co-organizers
+
+An additional setting, **People dialing in can bypass the lobby**, controls if people calling in by phone can bypass the lobby.
 
 While the meeting organizer normally chooses which setting to use for each meeting, you can enforce a particular setting using either a meeting template or a sensitivity label.
 
@@ -62,11 +67,13 @@ If your organization has meetings where highly sensitive information is shared a
 
 For sensitive meetings in general, consider using the **People who were invited** option. This ensures that people who don't have a meeting invite (included forwarded invites) go through the lobby. (The meeting organizer can also prevent forwarding when they create the meeting.)
 
+For more information about the meeting lobby, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
+
 For information about using meeting templates and sensitivity labels together, see [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md).
 
 ### Attendees calling in by phone
 
-By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **Dial-in users can bypass the lobby** admin meeting policy. If you want to enforce this setting to be on or off, you must use a meeting template or sensitivity label.
+By default, attendees who are dialing in by phone go through the lobby. Administrators can change this default with the **People dialing in can bypass the lobby** admin meeting policy. If you want to enforce this setting to be on or off, you must use a meeting template or sensitivity label.
 
 If there are circumstances where you want to allow callers to bypass the lobby, meeting organizers can control this setting, or you can enforce it through a meeting template or sensitivity label.
 
@@ -80,7 +87,7 @@ Unless you allow everyone to bypass the lobby, anonymous participants must go th
 
 If your organization does not allow anonymous participants to join meetings at all, you can turn off the **Anonymous users can join a meeting** setting in the Teams admin center. For more information, see [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams).
 
-If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Meeting policy settings - Participants & guests](/microsoftteams/meeting-policies-participants-and-guests).
+If you have certain groups in your organization - such as marketing - who need to organize meetings with anonymous participants and others - such as research - who should not, you can use Teams meeting policies to configure anonymous meeting join for different groups. (You'll need to turn the **Anonymous users can join a meeting** setting mentioned above on for this to work.) For details, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
 
 ## Related topics
 

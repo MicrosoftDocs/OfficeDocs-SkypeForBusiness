@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 05/21/2021
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -96,5 +99,3 @@ You can also use PowerShell to manage voicemail settings as follows:
 - **Share data for service improvements** - Specifies whether voicemail and transcription data is shared with the service for training and improving accuracy. If set to false, voicemail data will not be shared, regardless of user choice.
 
 - **Call transfer** - Specifies the user or phone number that the caller is transferred to.
-
-

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Server Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MediationServerScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
@@ -33,4 +34,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

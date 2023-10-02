@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage external access policy for your organization'
 ms.reviewer: 
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -69,3 +70,4 @@ These options include the following types of external access:
     EnablePublicCloudAudioVideoAccess : False
     EnableOutsideAccess               : False
     ```
+

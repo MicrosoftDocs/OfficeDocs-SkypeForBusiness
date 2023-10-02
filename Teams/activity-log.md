@@ -3,6 +3,7 @@ title: View your policy assignments in the Activity log in the Microsoft Teams a
 ms.author: mabond
 author: mkbond007
 ms.reviewer: jastark
+ms.date: 05/21/2020
 manager: serdars
 ms.topic: article
 ms.service: msteams

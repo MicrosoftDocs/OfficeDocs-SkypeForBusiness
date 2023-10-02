@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
+ms.date: 08/22/2019
 description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence.
 ms.localizationpriority: medium
 search.appverid: MET150
