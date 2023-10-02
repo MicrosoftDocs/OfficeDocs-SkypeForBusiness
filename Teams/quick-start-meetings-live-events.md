@@ -80,8 +80,6 @@ Teams Premium features require the Microsoft eCDN, so streaming events organized
 
 For details, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md)
 
-## Streaming
-
 ## Manage who can create meetings, webinars, and town halls
 
 You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all of your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
