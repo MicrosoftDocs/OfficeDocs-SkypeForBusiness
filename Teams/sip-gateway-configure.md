@@ -8,8 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-voice
-  - m365initiative-voice
+  - teams-rooms-devices
   - highpri
   - Tier1
 ms.reviewer: crowe
@@ -49,7 +48,6 @@ Before you can configure SIP Gateway, do the following:
   - 13.74.250.91
   - 13.83.55.36
   - 23.96.103.40
-
 
 The following sections describe what you must do as an administrator to configure SIP Gateway.
 
@@ -91,13 +89,12 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
-
 ### By using PowerShell
 
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 > [!NOTE]
-> - Policy propagation may take up to 24 hours.
+> Policy propagation may take up to 24 hours.
 
 ## Set the SIP Gateway provisioning server URL
 
@@ -131,7 +128,6 @@ Users who work remotely must manually configure the provisioning server URL into
 > - For Yealink phones, use option 66.
 > - For Cisco, Poly, and AudioCode phones, use option 160. 
 > - For Cisco devices, append **/$PSN.xml** to the provisioning server URL.
-
 
 ## Configure conditional access
 
@@ -242,6 +238,88 @@ To sign out a device on the Teams admin center:
 
 4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
+## Bulk sign in
+
+Bulk sign ins enable you to sign in with shared accounts on SIP devices in batches of up to 100 devices each but with a limit of 3 concurrent batches per region.
+
+Bulk sign in is very helpful and can be used in these scenarios.
+
+- **Onboarding new SIP devices** When you are onboarding and deploying new SIP devices within 3 days (or 72 hours) of onboarding to SIP gateway.
+- **Devices that are signed out** For signed out devices within 7 days (or 168 hours) of being signed out. In this scenario, you don't have to add the tenant ID to the provisioning URL as in Step 2 below.
+
+### Bulk sign in perequisites
+
+1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center.
+2. You must add your organization's tenant ID to the provisioning URL for the devices.
+
+    > [!NOTE]
+    > The examples below are for the North America region.
+
+- For AudioCodes and Yealink IP phones use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`)
+- For Cisco IP phones use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml](https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid>`/$PSN.xml)
+- For analog devices that connect to AudioCodes ATAs use: [https://noam.ipp.sdg.teams.microsoft.com/tenantid/`<your-tenant-ID-guid`>/mac.in](https://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.in)
+
+    > [!IMPORTANT]
+    > For Cisco ATA replace mac.ini with mac.cfg.
+    > For Poly ATA replace mac.ini with $mac.cfg.
+
+3. You install Microsoft Teams Power Shell 5.6.0 or later.
+
+    > [!NOTE]
+    > The bulk sign in cmdlets aren't included with previous versions.
+
+4. The accounts used for common area phones can only be used as part of a bulk sign in request. [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones)
+5. The common area phone accounts must not have Multi Factor Authentication (MFA) enabled.
+6. The common area phone accounts must have a phone number assigned.
+7. The common area phone accounts must have a SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
+8. You use a account that has the **Global Administrator, Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
+9. The **BulkSignIn** attribute must be set to `Enabled` in `TeamsSipDevicesConfiguration`.
+
+### How to create a bulk sign in request
+
+1. Create a CSV file that will be used with two columns: **Username** and **HardwareId**.
+  
+  - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
+  - **HardwareId** column: List the MAC address for each IP phones in this format: xx-xx-xx-xx-xx-xx or xx.xx.xx.xx.xx.xx:xxx (where the last three digits are the ATA port number. For analog devices, the ATA port number is 001.) An example for a MAC address without the ATA would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
+  - **Example CSV**:
+  
+    |Username|HardwareId|
+    |:--------|:--------|
+    |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
+    |SecondFloorLobbyPhone2@contoso.com|2A-3B-4C-5D-6E-7F|
+
+2. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
+
+3. Run the following:
+
+    ```PowerShell
+    Import-Module MicrosoftTeams
+    $credential = Get-Credential   // Enter your admin’s email and password 
+    Connect-MicrosoftTeams –Credential $credential
+    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC Example CSV
+    ```
+
+The ```DeviceDetailsFilePath``` parameter specifies the location of the CSV you created and saved. The ```Region``` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
+
+### Bulk sign in error messages
+To help you troubleshoot or fixed common issues, these are common error messages that you might see and what you should to do fix it.
+
+|**Error message**|**Potential solution**|
+|:-----|:-----|
+|**User not found in tenant.**|Check the username or User Principal Name (UPN) is correct.|
+|**User missing phone number assignment.**|Verify the user has a phone number assigned.|
+|**User missing.**| Verify that ```TeamsSipDevicesConfiguration``` is set to **Enabled** in the ```AllowSIPDevicesCalling``` policy.|
+|**User missing CAP policy assignment.**|Verify the accounts have a phone numbers assigned.|
+|**Device not found in records.**|Check if the device was correctly provisioned to SIP Gateway.|
+|**Device not found; tenant ID is missing.**| Check to see if the device provisioning URL has the correct tenant ID.|
+|**Device is offline.**|The device can't be found because it's powered off or disconnected from network. Reconnect the device and try it again.|
+| **Device not found, public IP address not valid.**|The tenant ID listed in the provisioning URL is isn't orrect or it isn't listed as a trusted IP in Teams admin center.|
+|**Bulk Sign-in timeline expired.**|The device hasn't been signed in to within 72 hours of provisioning (or 168 hours).|
+| **Duplicate devices found for bulk sign-in.**|Verify the MAC addresses you included in the CSV file are correct and there aren't duplicated addresses.|
+|**On-premises AD configuration failure.** |Contact your on-premises Active Directory team.|
+|**On-premises AD connectivity failure.**|Try it again but with a smaller number of devices. Depending on network connectivity,  large batches will take more time to complete and may get stuck.|
+|**Password policy error**|The user account must have the following: **User must change password an next login** is selected, the minimum password age must not be set to 0, and **User's password can't be changed** must be selected.|
+
 ## View and monitor SIP devices
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
@@ -267,7 +345,6 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 
 User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Devices must have their registration refreshed with the SIP Gateway periodically. SIP phones depend on Call Redirect, so the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 
-
 ## Set a SIP device's UI language
 
 A SIP device can usually display information in many languages. Setting its UI language affects its interface, including softkeys and sign-in/sign-out system messages. Setting the UI language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
@@ -278,10 +355,9 @@ How to set German for Polycom, AudioCodes, and Yealink phones:
 How to set Japanese for Cisco phones:
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml` 
 
-
 ### Supported languages
 
-|Language name|Language code]
+|Language name|Language code|
 |-------------|-------------|
 |English (default)|en       |
 |Spanish      |es           |
@@ -291,13 +367,19 @@ How to set Japanese for Cisco phones:
 |Portuguese   |pt           |
 
 > [!Note]
-> - Japanese is not supported by Yealink and partially supported by Polycom VVX.
+> Japanese is not supported by Yealink and partially supported by Polycom VVX.
+> 
 > - The system defaults to English if the selected language is not supported by the SIP endpoint.
+> 
 > - When the **lang_xx** parameter is not set via the provisioning URL, English is used as the default language.
+> 
 > - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
->   - Poly VVX 150, VVX 201
->   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
->   - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
+> 
+
+> - Poly VVX 150, VVX 201
+> - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
+>    
+> - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
 
 ## Microsoft Teams and IPv6
 
@@ -310,3 +392,4 @@ SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP
 ## Report problems to Microsoft
 
 To report problems, contact [Microsoft Support](https://support.microsoft.com).
+

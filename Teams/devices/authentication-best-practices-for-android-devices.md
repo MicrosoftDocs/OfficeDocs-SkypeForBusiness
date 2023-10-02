@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.reviewer: 
 description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multi-factor authentication advice and more.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - Teams_ITAdmin_Devices
   - Tier1

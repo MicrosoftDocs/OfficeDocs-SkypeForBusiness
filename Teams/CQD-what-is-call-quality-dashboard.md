@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -51,7 +52,7 @@ Don't miss our [Manage call and meeting quality](quality-of-experience-review-gu
 
 ## Use Power BI to analyze CQD data
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in January 2020: [Download Power BI query templates for CQD](https://download.microsoft.com/download/f/b/f/fbf2527c-f392-410e-aeb6-1a02ac1b5dd1/CQD-Power-BI-query-templates.zip). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 

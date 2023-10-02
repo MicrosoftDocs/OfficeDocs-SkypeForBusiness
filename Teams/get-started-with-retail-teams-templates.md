@@ -11,7 +11,6 @@ ms.date: 02/01/2019
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-  - tier2
   - highpri
 ms.localizationpriority: high
 search.appverid: MET150

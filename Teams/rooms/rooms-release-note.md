@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier3
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
@@ -40,6 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[4.18.44.0](#418440-9202023) | 9/20/2023 |
 |[4.18.35.0](#418350-8212023) | 8/21/2023 |
 |[4.17.51.0](#417510-6282023) | 6/28/2023 |
 |[4.16.40.0](#416400-3242023) | 3/24/2023 |
@@ -53,6 +54,10 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 ## Teams Rooms on Windows feature introduction and issue resolution
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
+
+### 4.18.44.0 (9/20/2023)
+
+- This update resolves a problem that prevents the room display resolution and scaling setting (configured using XML) from working on version 4.18.35.0 when sometimes Windows resets it to the default display settings.
 
 ### 4.18.35.0 (8/21/2023)
 
@@ -87,7 +92,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md#enable-refreshed-home-screen-design).
+- A revitalized Teams Rooms user interface. For more information, see [Microsoft Teams Rooms home screen design refresh](mtr-home-refresh.md).
 - Enhanced View Switcher <sup>1</sup>
 - Support for Teams premium meetings protection policies (watermark, end-to-end encryption for meetings, and sensitivity labels) <sup>2</sup>
 - Increased default font size for the meeting interface
@@ -827,7 +832,6 @@ Introduced in this update:
 - Request to speak. Muted participants can now request to be unmuted by raising their hand during meetings
 - Auto-answer. Teams Rooms on Android can answer calls or meeting invites automatically. This setting is available to shared configurations only and is located in Admin settings
 
-
 ---
 
 <a name="See"> </a>
@@ -844,4 +848,3 @@ Introduced in this update:
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
-

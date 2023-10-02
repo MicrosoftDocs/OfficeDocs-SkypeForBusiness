@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
@@ -45,7 +45,7 @@ To check which version of Teams is installed and which Teams Rooms license is ap
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
-Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
+Select the tab that corresponds to the version of Teams Rooms and the Teams Rooms license that applies to your device.
 
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|

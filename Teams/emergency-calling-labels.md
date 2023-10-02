@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -28,7 +29,7 @@ description: You can download and print these labels for emergency calling when 
 
 These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.
 
-[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
+[Click to download a .zip file for Emergency Calling labels (en-us)](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip).
 
 ## Related topics
 

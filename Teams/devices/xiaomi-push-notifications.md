@@ -11,7 +11,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
 ms.topic: reference
 search.appverid: MET150
