@@ -1,5 +1,5 @@
 ---
-title: Audio Conferencing in Microsoft 365
+title: Audio Conferencing in Microsoft Teams
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -28,9 +28,9 @@ ms.custom:
 description: Learn about how Audio Conferencing in Microsoft 365 allows users to call in to meetings from their phones.
 ---
 
-# Audio Conferencing in Microsoft 365
+# Audio Conferencing in Microsoft Teams
 
-Audio Conferencing in Microsoft 365 enables users to call in to meetings from their phones. Audio Conferencing allows up to 1000 phone attendees.
+Audio Conferencing in Microsoft Teams enables users to call in to Teams meetings from their phones. Audio Conferencing allows up to 1000 phone attendees.
 
 ## What is Audio Conferencing?
 
