@@ -39,19 +39,30 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 >[!Note]
 >Ready to deploy?  Follow these step by step instructions: [**Deploy the new Teams using policies**](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
 
-## Is the new Teams available for my organization?
+## New Teams availability
 
-The new Teams client is not yet available for:  
+>[!Note]
+>
+>**VDI**: Public preview starts October 5, 2023.</br>
+>**Government cloud:** Public preview for **GCC** and **GCC High** starts October 5, 2023.
 
-**Platforms:**  Web</br>
+The new Teams client will be available for the Web soon:
+
+|Browser|Date|
+|:-----|:-----|
+|R4, Chrome/Edge, Non-EDU|Mid November 2023
+|Chrome/Edge, EDU|November 2023
+|Safari/Firefox (target date)|March 2024|
+|Gov/Special Clouds |March 2024|
+
+Coming soon:
+
 **Customer segments:**  </br>-DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
 
 
 ## New Teams schedule for clients
 
->[!Note]
->**VDI**: Public preview starts October 5, 2023.</br>
->**Government cloud:** Public preview for **GCC** and **GCC High** starts October 5, 2023.
+
  
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
