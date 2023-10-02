@@ -62,8 +62,8 @@ The Microsoft Teams Rooms device supports the following cameras for IntelliFrame
 
 IntelligentCamera 60 camera is a "Center of room" 360-degree camera. It's meant to be placed at the center of the meeting room table where there's a clear view between camera and meeting attendees.
 
-  > [!Note]
-  > We recommend the device be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Rooms console.
+> [!Note]
+> We recommend the device be placed at the center of the table, but no more than 10 feet from the Microsoft Teams Rooms console.
 
 After placing the camera on the table, use the supplied 3M sticky pads to adhere the device to the table and ensure that the device is firmly placed and isn't movable. Ensure the arrow on the device is pointing to the monitor, as the orientation of the device is critical to its functioning.
 
@@ -71,8 +71,8 @@ After placing the camera on the table, use the supplied 3M sticky pads to adhere
 
 Connect the USB-C cable to USB-A cable with the USB-C port inserted into the IntelligentCamera 60 and USB-A port on Microsoft Teams Room.
 
-  > [!Note]
-  > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
+> [!Note]
+> Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
 
 Sign in to Microsoft Teams Rooms as an admin and change the settings as shown in the image.
 
@@ -112,11 +112,12 @@ You must calibrate the device to avoid camera detecting faces on monitors and re
      :::image type="content" source="../media/set-ignore-region.png" alt-text="Screenshot that shows monitor ignore region.":::
 
    - **Detect monitor mode**: It automatically detects the monitor to be ignored.
-      :::image type="content" source="../media/detect-monitor-mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
+  
+     :::image type="content" source="../media/detect-monitor-mode.png" alt-text="Screenshot that shows the detect monitor mode.":::
       
 
      > [!Note]
-    > Ensure monitor(s) are connected to Microsoft Teams Room.
+     > Ensure monitor(s) are connected to Microsoft Teams Room.
 
 6. Once you set the ignore region, the SmartVision 60 will restart and the changes will be applied.
 
@@ -160,7 +161,8 @@ This requires  ```CsTeamsMeetingPolicy``` **enrollUserOverride** tenant policy t
 **Disabled** – No enrollment tab option. This is default.
 
 *This policy should already be enabled if tenant has allowed voice enrollment.
-   :::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
+
+:::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
 
 ### Enabling people recognition
 
@@ -217,13 +219,16 @@ To report a problem through Microsoft Teams Room:
 ### Report a problem from the desktop client
 
 - During the meeting, you find the **"..."** selection. Select it to show **Report a problem** and enter the next window.
+
   :::image type="content" source="../media/report-problem-desktop.png" alt-text="Screenshot that shows how to report a problem.":::
+
 - In the next window, you'll see options to select the category. Select the category from the drop-down that best represents your experience or issues.
+
   :::image type="content" source="../media/description-desktop.png" alt-text="Screenshot that shows the description for desktop client.":::
 
->[!Note]
- > To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
- > For accurate diagnostics, provide feedback from both Microsoft Teams Rooms and Desktop client. We recommend sending two bugs for each issue you encounter.
+> [!Note]
+> To report a problem using the desktop client, you must be on a meeting window to send the correct diagnostics logs.
+> For accurate diagnostics, provide feedback from both Microsoft Teams Rooms and Desktop client. We recommend sending two bugs for each issue you encounter.
 
 ## Scheduling a meeting
 
@@ -232,7 +237,7 @@ Following is an example of a meeting invite.
 
 :::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
 
->[!Note]
+> [!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
 > 1:1 meeting will not have IntelliFrame or identification.
 > Always schedule a meeting to use IntelligentCamera 60 features like IntelliFrame and People recongnition.
@@ -250,11 +255,11 @@ Following is an example of a meeting invite.
 | 7 | New Teams app isn't supported. | Don't select the **Try the new Teams** toggle. |
 
 ## Frequently asked questions
+
 **What is the recommended Cable type?**
 
 Yealink provides a 3-meter USB cable along with the camera device. User must use this cable to connect camera to Microsoft Teams Room. If you require a longer cable, you can contact Yealink to order. Yealink has two cables available for order at 15-meters and 30-meters. These cables of 3-meter, 15-meter, and 30-meter are particularly for camera at USB3 speed.
 
 **How do I contact Microsoft support if I have any questions regarding the provisioning or Microsoft Intelligent camera?**
-
 
 If you have any questions, you can reach out to [Microsoft support team](https://support.microsoft.com/en-us/contactus).
