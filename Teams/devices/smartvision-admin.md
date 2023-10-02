@@ -147,7 +147,7 @@ You can prepare IntelligentCamera 60 to recognize people's faces and voices in m
 - Roster entry under call room participants.
 - Live transcription with recognition (who said what).
 
-This requires  ```CsTeamsMeetingPolicy``` **enrollUserOverride** tenant policy to be **Enabled**. When an Admin applies the policy, face enrollment option shows up under **Recognition** tab along with voice enrollment.
+This requires  `CsTeamsMeetingPolicy` **enrollUserOverride** tenant policy to be **Enabled**. When an Admin applies the policy, face enrollment option shows up under **Recognition** tab along with voice enrollment.
 
 > [!IMPORTANT]
 >
@@ -156,7 +156,7 @@ This requires  ```CsTeamsMeetingPolicy``` **enrollUserOverride** tenant policy t
 > - Please install appropriate signage outside any meeting room, where you install an IntelliCamera, advising people about the people recognition, face enrollment, and voice recognition features.
 > - You must first enroll for Voice recognition before you can enroll for Face recognition.
 
- ```enrollUserOverride``` = {Disabled | Enabled} 
+ `enrollUserOverride` = {Disabled | Enabled} 
 **Enabled**- Policy value allows Enrollment tab to be seen on individual Teams user accounts for registering voice and face profiles.  
 **Disabled** – No enrollment tab option. This is default.
 
@@ -168,13 +168,13 @@ This requires  ```CsTeamsMeetingPolicy``` **enrollUserOverride** tenant policy t
 
 In some states, people recognition can't be used.
 
-This requires the tenant  ```CsTeamsMeetingPolicy``` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
+This requires the tenant  `CsTeamsMeetingPolicy` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
- ```roomPeopleNameUserOverride``` = {On | Off}  
+ `roomPeopleNameUserOverride` = {On | Off}  
 **On** - Policy value allow **People recognition** option on Microsoft Teams Rooms under call control bar.  
 **Off** – No People Recognition option on Microsoft Teams Room. This is default.
 
-```roomAttributeUserOverride``` = {Attribute | Off}
+`roomAttributeUserOverride` = {Attribute | Off}
 **Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
 **Off** – No Voice identification option on Microsoft Teams Rooms. This is the default.
 
