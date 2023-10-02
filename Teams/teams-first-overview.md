@@ -286,7 +286,7 @@ For specifics on each of the services listed above, please follow the links belo
 
 ## Related topics
 
-[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md)
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 
