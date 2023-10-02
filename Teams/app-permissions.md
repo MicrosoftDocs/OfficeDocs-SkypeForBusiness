@@ -45,8 +45,6 @@ In addition, the permissions are defined in the following two places:
 
 For each app, these permissions are listed in the app details page in the admin center.
 
-:::image type="content" source="media/app-permissions.png" alt-text="Screenshot that shows the permissions tab of an app and the Microsoft Graph and RSC permissions that may be required by an app.":::
-
 | App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
 | Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
