@@ -76,7 +76,7 @@ Connect the USB-C cable to USB-A cable with the USB-C port inserted into the Int
 
 Sign in to Microsoft Teams Rooms as an admin and change the settings as shown in the image.
 
-:::image type="content" source="../media/connect-device-mtr.png" alt-text="{Screenshot that shows connecting device to Microsoft Teams Room.}":::
+:::image type="content" source="../media/connect-device-mtr.png" alt-text="Screenshot that shows connecting device to Microsoft Teams Room.":::
 
 ## Firmware update and enable device log collection
 
