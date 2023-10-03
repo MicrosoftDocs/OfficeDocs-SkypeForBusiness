@@ -17,7 +17,7 @@ appliesto:
 
 # Teams PowerShell Module - Supported Versions
 
-Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired in commercial environments since June 15, 2022 & will stop working (Message center post for reference - MC350371). 
+Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later are the only versions supported now. All earlier versions are fully retired in commercial, GCC, GCC High & DoD environments (Message center post for reference - MC350371/MC540151). 
 
 It’s recommended to update to the latest Teams PowerShell Module version.
 
@@ -55,6 +55,7 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 ## Deprecated cmdlets
 
 - Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations.
+  - [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (deprecated only in commercial & GCC environments currently)
   - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)

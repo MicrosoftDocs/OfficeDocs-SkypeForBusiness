@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 6 Move from pilot deployment into production"
 ms.reviewer: 
 ms.author: serdars
@@ -27,4 +28,5 @@ The topics in this section describe tasks you must complete before moving your d
     
 - [Move remaining users to Skype for Business Server 2019](move-remaining-users.md)
     
+
 

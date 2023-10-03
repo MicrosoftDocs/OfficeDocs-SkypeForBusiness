@@ -24,6 +24,11 @@ appliesto:
 
 # Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
 
+> [!IMPORTANT]
+> Try the "Use your existing email with Teams" setup available at [https://admin.microsoft.com.](https://admin.microsoft.com) It automates some of the steps in this article.
+
+:::image type="content" source="media/bring-your-own-email.png" alt-text="Screenshot that displays bring your own email wizard." lightbox="media/bring-your-own-email.png":::
+
 This guide provides configuration steps for connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar.
 
 Microsoft Teams Essentials (AAD Identity) brings together the best of Teams with meetings, chat, calling, and collaboration. Teams Essentials (AAD Identity) can connect to your existing email system to provide an integrated experience like having all Teams notifications in an existing email inbox, all calendar events in Teams, and the ability to sign into Teams with your existing email address.

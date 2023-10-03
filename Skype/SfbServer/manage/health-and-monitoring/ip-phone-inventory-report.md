@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "IP Phone Inventory Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -119,4 +120,5 @@ The following table lists the information provided in the IP Phone Inventory Rep
 |**Last logoff time** <br/> |Yes  <br/> |Date and time that the IP phone last logged off from Skype for Business Server.  <br/> |
 |**Last activity** <br/> |Yes  <br/> |Date and time that the IP phone was last used.  <br/> |
    
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Archiving Server Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "In Topology Builder, you can perform tasks related to the server r
  
 In Topology Builder, you can perform tasks related to the server running Archiving by right-clicking the pool in the console tree, and selecting **Edit Properties**. From the **Edit Properties** page you can change the fully qualified domain name (FQDN) of the server running Archiving, the archiving SQL Server database, and the archiving file store.
   
+
 

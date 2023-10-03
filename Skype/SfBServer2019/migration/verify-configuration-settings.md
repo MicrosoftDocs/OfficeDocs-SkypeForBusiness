@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -19,4 +20,5 @@ You can validate the replication of configuration information to the Edge server
   
 Initial results may indicate the status as "False" instead of "True" for replication. If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again. 
   
+
 

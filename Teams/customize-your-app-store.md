@@ -4,7 +4,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
-ms.date: 02/22/2023
+ms.date: 06/27/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,7 +25,7 @@ description: Learn how to customize your organization's Teams app store by addin
 
 You can customize your organization's app store to reflect your company branding. You can add your logo, a custom background, and custom text colors to make it more inviting for users. Viewing a trusted logo and color scheme in an app store leads to increased user trust and user satisfaction.
 
-You can customize the store in the Teams admin center by accessing **Teams apps** > **[Customize store](https://admin.teams.microsoft.com/policies/customize-appstore)**. Follow the link below the instructions for details about the changes.
+You can customize the store in the Teams admin center by accessing **Teams apps** > **[Customize store](https://admin.teams.microsoft.com/policies/customize-appstore)**.
 
 ## Customize your organization logo
 
@@ -50,7 +50,7 @@ Make sure that the background has enough contrast with the text so the users can
 Your options are:
 
 * Use Teams client default background theme
-* Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212x100 pixels, or it will be scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
+* Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212 x 100 pixels, or it's scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
 * Choose a custom background. When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
 The background image or color is used as the background for the top banner in the Teams tenant app catalog.
@@ -61,7 +61,7 @@ The background image or color is used as the background for the top banner in th
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Provide enough contrast to the text color as compared to the background so that the end-users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
+Provide enough contrast to the text color as compared to the background so that the users can read the name of your organization clearly. The text appears in the Teams client in **Apps** > **Built for your org** header.
 
 When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 

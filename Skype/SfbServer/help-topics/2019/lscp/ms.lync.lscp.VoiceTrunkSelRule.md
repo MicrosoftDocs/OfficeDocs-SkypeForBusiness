@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Translation Rules"
 ms.reviewer: 
 ms.author: serdars
@@ -28,4 +29,5 @@ To use an existing translation rule, click a rule in the list and then click **O
   
  
   
+
 

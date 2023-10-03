@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Returned)"
 ms.reviewer: 
 ms.author: serdars
@@ -34,4 +35,5 @@ Click **Finish** to complete the online certificate request process. If you sele
 > [!IMPORTANT]
 > If the issuing certification authority (CA) root certificate is not in the computer's Trusted Root Certification Authority store, or if intermediate CA certificates are not in the proper store, you will see the summary status, as illustrated in the following image. You do not have the option to assign the certificate. To complete the certificate assignment process, you must import the issuing CA root certificate and any intermediate CA certificates, and then assign the certificate by clicking **Assign** on the main Certificate Wizard page.
   
+
 

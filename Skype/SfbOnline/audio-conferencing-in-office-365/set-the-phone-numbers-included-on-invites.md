@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Set the phone numbers included on invites in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -146,3 +147,4 @@ By default, when you change a user's conferencing settings, an email is sent to 
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

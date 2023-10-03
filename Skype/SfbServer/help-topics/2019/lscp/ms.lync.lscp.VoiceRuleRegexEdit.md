@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Translation Rule Type a Regular Expression"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ In the **Match this pattern** field, specify the pattern that will be used to ma
   
  
   
+
 

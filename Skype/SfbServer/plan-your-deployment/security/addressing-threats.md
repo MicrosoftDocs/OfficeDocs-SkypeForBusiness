@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Addressing threats to your core infrastructure for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -22,4 +23,5 @@ In addition to following best practices for your Skype for Business Server deplo
 
 - [Best practices for your core infrastructure in Skype for Business Server](best-practices.md)
     
+
 

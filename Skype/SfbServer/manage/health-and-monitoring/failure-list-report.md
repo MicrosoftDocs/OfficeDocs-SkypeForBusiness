@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Failure List Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -107,4 +108,5 @@ The following table lists the information provided in the Failure List Report fo
 |**From user agent** <br/> |No  <br/> |Software used by the endpoint of the user who initiated the call.  <br/> |
 |**To user** <br/> |No  <br/> |SIP address of the user who was being called.  <br/> |
    
+
 

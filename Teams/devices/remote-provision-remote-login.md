@@ -1,16 +1,19 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.date: 01/04/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 appliesto: 
@@ -24,32 +27,19 @@ description: Learn how to remote provision and sign in for Teams Android devices
 
 IT admins can remotely provision and sign in to a Teams Android device. To provision a device remotely, the admin needs to upload the MAC IDs of the devices being provisioned and create a verification code. The entire process can be completed remotely from the Teams admin center.
 
-## Review the supported devices
+> [!NOTE]
+> Once you've signed in to a Teams Android device, this feature isn't available. To use it again, the device must be reset to factory default settings.
 
-The following list shows the Android device firmware requirements.
+## Supported devices
 
-|Device category|Device model|Firmware version|
-|---|---|---|
-|Teams phones|Yealink T55/T56/T58|58.15.0.124|
-|Teams phones|Yealink VP59|91.15.0.58|
-|Teams phones|Yealink CP960|73.15.0.117|
-|Teams phones|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams phones|Crestron UC-2|1.0.3.52|
-|Teams phones|Poly Trio C60|7.0.2.1071|
-|Teams phones|CCX400/CCX500/CCX600 |7.0.2.1072|
-|Teams phones|Audio Codes C448HD/C450HD/C470HD|1.10.120|
-|Teams panels|Crestron 770/1070|1.004.0115|
-|Teams Rooms on Android|Logitech Rally Bar Mini|1.2.982|
-|Teams Rooms on Android|Logitech Rally Bar|1.2.982|
-|Teams Rooms on Android|AudioCodes RXV80|1.13.361|
-|Teams Rooms on Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Teams Rooms on Android|Yealink MeetingBar A30|133.15.0.60|
-|Teams Rooms on Android|Yealink MeetingBar A20|133.15.0.60|
-|Teams Rooms on Android|Yealink CTP18 touch console|137.15.0.37|
-|Teams Rooms on Android|Poly Studio X30|3.5.0.344025|
-|Teams Rooms on Android|Poly Studio X50|3.5.0.344025|
-|Teams Rooms on Android|Poly TC8 touch console |3.5.0.210489|
-|Teams Rooms on Android|Yealink VC210|118.15.0.54|
+All Android and SIP devices certified by Microsoft can be provisioned remotely from Teams admin center. 
+
+Refer to the following for the list of certified hardware:
+
+Phones, Displays, Panels - [Devices for Teams | Microsoft certified hardware](./teams-ip-phones.md)
+Microsoft Teams Rooms on Android - [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android)
+SIP devices - [Teams compatible devices](../sip-gateway-plan.md#compatible-devices)
+
 
 ## Add a device MAC address
 
@@ -113,10 +103,15 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-   ![the Sign in a user window for individual device.](../media/sign-in-user.png)
+   ![The Sign in a user window for individual device.](../media/sign-in-user.png)
+
+   This video shows how admins can remotely provision Android-based and SIP devices.
+
+   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fRYe?autoplay=false]
 
 ## Related articles
 
 - [Manage your devices in Teams](device-management.md)
 - [Remote sign in and sign out](remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](remote-update.md)
+

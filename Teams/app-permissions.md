@@ -9,11 +9,13 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
+  - Tier1
 search.appverid: MET150
-ms.reviewer: rowille
-ms.date: 03/03/2023
-description: Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
+ms.reviewer: tolgaki
+ms.date: 08/22/2023
+description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,138 +24,147 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Information accessed and actions performed by apps and related admin considerations
+# Understand the permissions of and the information accessed by Teams apps
 
-Microsoft Teams apps aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
+Depending on their functionality, Teams apps may or may not access your user's or organization's information.
+
+* Some apps that don't seek access to internal data, don't require admin approval. Users can use such apps without admin approval or consent as these apps can't get any internal data.
+* Apps that require permissions on your organization's information can't be used unless an admin permits it. Admins can grant their consent to the permissions required by the app in Teams admin center. You must do your diligence to evaluate apps based on the access an app needs on your organization's information and the reason an app needs it.
+
+Apps can access organization's information, perform some tasks, and engage with users. To help you understand what apps can do, a compilation of this information is available in [what can apps do in Teams](#what-can-apps-do-in-teams). An app can only access the information that it has been granted access to. Users or you provide consent for apps to have access to information in your organization. You can also revoke the consent granted to an app.
+
+An application can access organization's information in the following two ways that leads to two types of permissions:
+
+* **Delegated access**: An application accesses the resource on behalf of the user. This access requires delegated permissions. The application can access only the information that the user can access themselves.
+* **App-only access**: An application acts on its own with no user signed in, when it's undesirable to have a specific user signed in or when the data required can't be scoped to a single user. This access required applications permissions. An application if granted consent is able to access data that the permission is associated with.
+
+In addition, the permissions are defined in the following two places:
+
+* Graph permissions for org-wide resources are defined in Azure AD. Permissions that are needed for an app to work are selected in Azure AD by the app developers. As an admin you must consent to these permissions otherwise the app can't be used in your tenant.
+* RSC permissions to access local resources within Teams such as information in a group or a team are defined in the app manifest file by the developers. Only those users who have access to the resources, can consent for these permissions.
+
+For each app, these permissions are listed in the app details page in the admin center.
+
+| App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
+|---------------------|----------------|-------------|--------------------------|-----------------|-----|
+| Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| Azure AD for Graph and legacy endpoint access | Application | Azure AD  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner. | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
+| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
+| Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install. | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
+
+## Privacy and data access considerations
+
+In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
+
+:::image type="content" source="media/app-details-tou-url.png" alt-text="Screenshot that shows privacy and terms of use URLs in the app details page." lightbox="media/app-details-large.png":::
+
+Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available on Microsoft website at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+
+The program demonstrates that strong security and compliance practices are in place to protect customer data. See the details in [app compliance program for security, data handling, and privacy](overview-of-app-certification.md).
+
+## Graph permissions required by Teams apps to access your organization's information
+
+Microsoft Graph is used to allow app developers access to the requisite Microsoft 365 information but always with the appropriate permissions. App developers choose from a wide variety of Graph APIs to create their apps and fetch the relevant org-wide information to make the app functionality work. However, the permissions for an app to fetch such information isn't available by default. IT admins validate the apps, their use cases, and the permissions that apps seek in their organizations. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of Graph permissions, how Teams apps use these, and how they can approve or reject the apps that seek a set of such permissions.
+
+In Teams admin center, you can view Graph permission that an app requests if deployed and you can know what organization's information can an app access, if you grant consent to it.
+
+1. Access Teams admin center and open the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
+
+1. Search for the required app and select its name to open the app details page.
+
+1. In the app details page, in the **Permissions** tab, notice the permissions required by the app.
+
+   :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
+
+A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
+
+## What can apps do in Teams
+
+As an admin, you only manage Teams apps. The apps themselves can use one or more capabilities. These capabilities have differences when it comes to app functionality, user engagement, required permissions and risk profiles. Depending on these capabilities, you as an admin must consider the access to the following Teams information by the apps.
+
+The Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are separate from the Teams permissions listed here.
 
 * Bots
 * Messaging extensions
 * Tabs
 * Connectors
+* Outgoing webhooks
 
-As an admin, you only manage apps. However, the article focuses on permissions and considerations at the capability level as capabilities in an app affect the required permissions and risk profiles of the app. For usage, apps are consented to by users and managed by IT professionals from a policy perspective.
+### Bots and messaging extensions
 
-<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
+Consider the following types of user interaction, required permissions, and data access by bots and messaging extensions:
 
-## Global app permissions and considerations
+* A bot can receive messages from users and reply to them. Bots only receive messages in chats where users explicitly mention a bot by its name. This data leaves the corporate network.
 
-### Considerations
-
-* An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.
-
-* [Resource-specific consent](resource-specific-consent.md) provides a set of permissions that apps can request, which appears on the installation screen of the app. To learn more about resource-specific consent permissions, see [Graph permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions).
-
-* Apps may also need permissions other than resource-specific consent permissions. After an app is installed, the app may request Graph permissions through a consent prompt. To learn more, see [Understanding Azure AD application consent experiences](/azure/active-directory/develop/application-consent-experience). You can configure API permissions and consent in the Azure portal. To learn more, see [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework).
-
-## Bots and messaging extensions
-
-### Required permissions for bots and messaging extensions
-
-* A bot can receive messages from users and reply to them. Some bots only send messages. They're called notification-only bots, but the term doesn't refer to what a bot is allowed or not allowed to do. It means that the bot doesn't offer a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled. The bot isn't restricted in what it's allowed to do as compared to the bots that expose a conversational experience.
 * After a user has sent a message to a bot, the bot can send the user direct or proactive messages at any time.
+
+* Some bots only send messages. They're called notification-only bots and the bot doesn't offer a conversational experience.
+
 * A bot added to teams can get a list of names and IDs of the channels in a team.
 
-### Optional permissions for bots and messaging extensions
+* When it's used in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], and email address).
 
-* When it's used in a channel, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], email address). When it's used in a personal or group chat, the bot can access the same information for those users.
+* It's possible for an app's bot to send direct or proactive messages to team members even if they haven't interacted with the bot.
 
-* An app's bot can send direct or proactive messages to team members even if they haven't interacted with the bot.
-
-* The following aren't explicit permissions, but are implied by ability to receive and reply to messages and also the scopes into which the bots can be used.
-
-  * Receive a personal message and reply to it.
-  * Receive a group chat and reply to it.
-  * Receive a channel message and reply to it.
-
-* SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
-
-### Considerations for bots and messaging extensions
+* Depending on settings and functioning of an app that is a bot, it can send and receive files in personal chat only. It isn't supported for group chats or channels.
 
 * Bots only have access to teams to which they've been added or to users who have installed them.
 
-* Bots only receive messages in which they're explicitly mentioned by users. This data leaves the corporate network.
-
-* Bots can only reply to conversations in which they're mentioned.
-
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-* Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft. [App verification and validation checks](overview-of-app-validation.md) ensures that any spurious apps aren't available in Teams store.
+* If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store.
 
-* A bot can retrieve (and might store) basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory (Azure AD).
+* A bot can retrieve and may store basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory.
 
-* Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
+* Bots can retrieve and may store the list of channels in a team. This data leaves the corporate network.
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do other things. Exactly what those other things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot has an access token with which it can do other tasks. The tasks depend on the bot and where the user signs in: a bot is an Azure AD app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
 * Bots are informed whenever users are added to or deleted from a team.
 
-* Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI will see users' IP addresses and referrer information.)
+* Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI sees users' IP addresses and referrer information.)
 
 * Messaging extensions, on the other hand, do see users' IP addresses and referrer information.
 
-* App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. In the event of abuse, users can block the bot, tenant admins can block the app, and Microsoft can block bots centrally if necessary.
-
-<sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that expose a conversational experience.
-
-<sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the `manifest.json` file for the app.
+* App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. If necessary, users can block the bot, tenant admins can block the app, and Microsoft can remove the app that works as a bot.
 
 > [!NOTE]
-> If a bot has its own sign-in, there's a second—different—consent experience the first time the user signs in.
->
->Currently, the Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are completely separate from the Teams permissions listed here.
+> If a bot has its own sign-in, there's a different consent experience the first time the user signs in.
 
-## Tabs
+### Tabs
 
-A tab is a website running inside Teams.
+A tab is a website running inside Teams. It can be as a tab in a meeting, a chat, or a channel.
 
-### Required permissions
+Consider the following types of user interaction or data access for Tabs:
 
-SEND_AND_RECEIVE_WEB_DATA
+* Users opening a tab in a browser or in Teams is exactly the same. The website itself can't have access to any organization's information on its own.
 
-### Optional permissions
+* A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
 
-None (currently)
+### Connectors
 
-### Considerations for tabs
+A connector posts messages to a channel when events in an external system occur. The required permission for Connectors is to be able to post messages in channel. An optional permission for Connectors is the permission to reply to a message. Some connectors support actionable messages, which allow users to post targeted replies to the connector message. For example, by adding a response to a GitHub issue or adding a date to a Trello card. Consider the following types of user interaction, required permissions, and data access by Connectors:
 
-* The risk profile for a tab is almost identical to that same website running in a browser tab.
-
-* A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 Group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
-
-## Connectors
-
-A connector posts messages to a channel when events in an external system occur. The required permission for Connectors is to be able to post messages in channel. An optional permission for Connectors is the permission to reply to a message. Some connectors support actionable messages, which allow users to post targeted replies to the connector message. For example, by adding a response to a GitHub issue or adding a date to a Trello card.
-
-### Considerations for Connectors
-
-* The system that posts connector messages doesn't know who it's posting to or who receives the messages: no information about the recipient is disclosed. (Microsoft is the actual recipient, not the tenant; Microsoft does the actual post to the channel.)
+* The system that posts connector messages doesn't know who it's posting to or who receives the messages. No information about the recipient is disclosed. (Microsoft is the actual recipient, not the tenant; Microsoft does the actual post to the channel.)
 
 * No data leaves the corporate network when connector messages are posted to a channel.
 
-* Connectors that support actionable messages (REPLYTO_CONNECTOR_MESSAGE permission) also don't see IP address and referrer information; this information is sent to Microsoft and then routed to HTTP endpoints that were previously registered with Microsoft in the Connectors portal.
+* Connectors that support actionable messages also don't see IP address and referrer information; this information is sent to Microsoft and then routed to HTTP endpoints that were previously registered with Microsoft in the Connectors portal.
 
 * Each time a connector is configured for a channel, a unique URL for that connector instance is created. If that connector instance is deleted, the URL can no longer be used.
 
 * Connector messages can't contain file attachments.
 
-* The connector instance URL should be treated as secret/confidential: anyone who has that URL can post to it, like an email address. Therefore, there's some risk of spam or links to phishing or malware sites. If that happens, then team owners can delete the connector instance.
+* The connector instance URL should be treated as secret or confidential. Anyone who has the URL can post to it. If necessary, team owners can delete the connector instance.
 
-* If the service that sends connector messages were to become compromised and start sending spam/phishing/malware links, a tenant administrator can prevent new connector instances from being created and Microsoft can block them centrally.
+* If necessary, a tenant administrator can prevent new connector instances from being created and Microsoft can block all usage of a connector app.
 
-> [!NOTE]
-> It's not currently possible to know which Connectors support actionable messages (REPLYTO_CONNECTOR_MESSAGE permission).
+### Outgoing webhooks
 
-## Outgoing webhooks
-
-Outgoing webhooks are created by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
-
-### Required permissions for Outgoing webhooks
-
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. Can receive messages from users and reply to them.
-
-### Considerations for Outgoing webhooks
+Team owners or team members create Outgoing webhooks. Outgoing webhooks can receive messages from users and reply to them. Consider the following types of user interaction, required permissions, and data access by Outgoing webhooks:
 
 * Outgoing webhooks are similar to bots but have fewer privileges. They must be explicitly mentioned, just like bots.
 

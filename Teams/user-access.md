@@ -1,6 +1,6 @@
 ---
 title: Manage user access to Microsoft Teams
-manager: SerdarSoysal
+manager: serdars
 author: DaniEASmith
 ms.author: danismith
 ms.topic: article
@@ -16,14 +16,17 @@ description: Learn how to manage user access to Teams by assigning or removing a
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
-ms.custom: 
+ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage user access to Teams
+
+[!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
@@ -41,7 +44,8 @@ Teams user-level licenses are managed directly through the Microsoft 365 admin c
 
 > [!IMPORTANT]
 > The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
-Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at at time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
+
+Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at a time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use PowerShell](#using-powershell) or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 

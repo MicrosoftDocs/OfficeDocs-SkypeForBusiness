@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Mobility performance counters in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -113,3 +114,4 @@ The category name for the counters in the Mcx Mobility Service table is **LS:WEB
    
 > [!NOTE]
 > MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
+

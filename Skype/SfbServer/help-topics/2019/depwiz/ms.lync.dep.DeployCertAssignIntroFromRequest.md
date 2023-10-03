@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Assignment (From Request)"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ The **Certificate Assignment** page starts the process of assigning a certificat
   
 Click **Next** to continue.
   
+
 

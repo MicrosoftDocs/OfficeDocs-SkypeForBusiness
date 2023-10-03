@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get User"
 ms.reviewer: 
 ms.author: serdars
@@ -60,4 +61,5 @@ Get User returns a user record from the repository.
 > [!NOTE]
 > Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.
   
+
 

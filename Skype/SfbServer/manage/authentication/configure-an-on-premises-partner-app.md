@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure an on-premises partner application for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -106,5 +107,6 @@ To configure Skype for Business Server as a partner application for Exchange, op
 ```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"
 ```
+
 
 

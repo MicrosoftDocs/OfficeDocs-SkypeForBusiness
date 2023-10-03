@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Rate my Call in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -229,5 +230,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
 ```
+
 
 

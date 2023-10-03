@@ -7,10 +7,10 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 03/03/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
-ms.reviewer: lucarras
+ms.reviewer: vivg
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -48,7 +48,7 @@ For more information on PowerShell module exchange, see [Set-OrganizationConfig]
 
 ## Publish connectors for your organization
 
-To make a custom connector available to your organization's users, upload a custom connector app to your org's app catalog. End-users within the org can install, configure, and use the connector in a team.
+To make a custom connector available to your organization's users, upload a custom connector app to your org's app catalog. Users within the org can install, configure, and use the connector in a team.
 
 > [!IMPORTANT]
 > Custom connectors are not available in Government Community Cloud (GCC), Government Community Cloud-High (GCCH), and Department of Defense (DOD) environments.
@@ -59,6 +59,10 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+* If the user who added a connector to a team leaves the team, the connector continues to work.
+
 * You can't configure new connections for the following connectors:
 
   * Aha!
@@ -67,11 +71,8 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * App Links
   * AppSignal
   * Beanstalk
-  * Bing News
   * Bitbucket
-  * Bitbucket Server
   * Buddy
-  * BugSnag
   * Buildkite
   * CATS
   * Chatra
@@ -80,7 +81,6 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Constant Contact
   * GetResponse
   * Ghost Inspector
-  * Google Analytics
   * Groove
   * Heroku
   * Honeybadger
@@ -88,24 +88,19 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Logentries
   * Mailchimp
   * Microsoft Forms
-  * New Relic
   * Opsgenie
   * PagerDuty
   * Papertrail
-  * Pingdom
-  * ivotal Tracker
+  * Pivotal Tracker
   * Raygun
   * Rollbar
   * Runscope
   * SatisMeter
   * Semaphore
   * Sentry
-  * SharePoint News
   * Simple In/Out
   * Stack Exchange
-  * status.io
   * SUBVERSION
-  * Team Foundation Server (TFS)
   * TestFairy
   * Travis CI
   * Trello
@@ -114,26 +109,6 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Wrike
   * XP-Dev
   * Zendesk
-
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-
-* If the user who added a connector to a team leaves the team, the connector continues to work.
-
-## Update URL of a connector
-
-The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
-
-1. In the connectors configuration page, check for **Attention Required** message next to the configured connector.
-
-   :::image type="content" source="media/teams-attention-required-message.png" alt-text="Screenshot of the Attention Required message.":::
-
-1. To recreate the connection for incoming webhook connectors, select **Update URL** and use the generated webhook URL.
-
-   :::image type="content" source="media/teams-update-url-option.png" alt-text="Screenshot of the Update URL button.":::
-
-1. For other connector types, remove the connector and recreate the connector configuration. A **URL is up-to-date** message appears.
-
-   :::image type="content" source="media/teams-url-updated.png" alt-text="Screenshot of the URL is up-to-date message.":::
 
 ## Related articles
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage user accounts for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -302,3 +303,4 @@ For more information, see the help topic for the [Disable-CsUser](/powershell/mo
 [Enable-CsUser](/powershell/module/skype/enable-csuser)
 
 [Disable-CsUser](/powershell/module/skype/disable-csuser)
+

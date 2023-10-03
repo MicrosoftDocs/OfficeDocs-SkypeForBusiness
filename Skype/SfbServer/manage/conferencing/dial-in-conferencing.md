@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage dial-in conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -84,3 +85,4 @@ To manage dial-in conferencing by using Skype for Business Server Management She
 |[New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |Creates a new client personal identification number (PIN) policy.  <br/> |
 |[Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |Removes the specified personal identification number (PIN) policy.  <br/> |
 |[Set-CsPinPolicy](/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |Modifies one or more existing client personal identification number (PIN) policies.  <br/> |
+

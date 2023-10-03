@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Call Park in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -130,4 +131,5 @@ The following table describes the Call Park user model that you can use as the b
 |Retrieve parked call rate  <br/> |8 per minute  <br/> |1 per minute  <br/> |
 |Average park duration  <br/> |60 seconds  <br/> |60 seconds  <br/> |
    
+
 

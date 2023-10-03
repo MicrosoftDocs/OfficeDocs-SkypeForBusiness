@@ -10,8 +10,9 @@ ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -30,8 +31,6 @@ description: Learn about how to send your users an email with their audio confer
 Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information. You can do this by clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
   
 - The conference phone or dial-in phone number for the user.
-
-- The user's conference ID.
 
 Here is an example of the email that is sent:
 
@@ -57,8 +56,6 @@ Here is an example of the email that is sent:
   - When an **Audio Conferencing** license is assigned to them.
 
   - When you manually reset the user's audio conferencing PIN.
-
-  - When you manually reset the user's conference ID.
 
   - When an **Audio Conferencing** license is removed from them.
 

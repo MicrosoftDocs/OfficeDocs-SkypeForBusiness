@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Export or import a voice route configuration file in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -57,4 +58,5 @@ If you have made any uncommitted changes to the settings on any page within the 
     > [!NOTE]
     > Whenever you import a voice configuration file, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
   
+
 

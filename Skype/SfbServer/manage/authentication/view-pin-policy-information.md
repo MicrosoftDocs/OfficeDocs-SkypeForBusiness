@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View PIN policy information in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

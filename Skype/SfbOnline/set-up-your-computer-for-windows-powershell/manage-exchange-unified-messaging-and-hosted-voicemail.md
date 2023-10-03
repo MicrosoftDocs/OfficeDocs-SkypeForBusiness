@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Manage Exchange Unified Messaging and hosted voicemail"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -41,3 +42,4 @@ The following cmdlets can be used to manage Exchange Unified Messaging (UM) and 
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for instant messaging and presence in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -69,4 +70,5 @@ The only components required for instant messaging (IM) and presence are:
 
 Collocation is defined as having a single server, or group of servers, with multiple roles installed. For details on collocation, see [Topology Basics for Skype for Business Server](topology-basics/topology-basics.md). 
   
+
 

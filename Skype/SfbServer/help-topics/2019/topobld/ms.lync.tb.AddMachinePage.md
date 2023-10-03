@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Server"
 ms.reviewer: 
 ms.author: serdars
@@ -68,4 +69,5 @@ Each of the new pool servers has different requirements. In the following sectio
   
 - The FQDN of the new server as it is defined in DNS.
     
+
 

@@ -4,13 +4,15 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 10/02/2019
+ms.date: 08/10/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
 - M365-voice
+- m365initiative-voice
+- Tier1
 f1.keywords:
 - CSH
 appliesto: 

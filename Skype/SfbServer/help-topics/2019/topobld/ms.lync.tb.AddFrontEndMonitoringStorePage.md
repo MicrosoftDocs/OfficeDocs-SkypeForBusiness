@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Front End Monitoring Store Page"
 ms.reviewer: 
 ms.author: serdars
@@ -46,3 +47,4 @@ Click **Help** to access context sensitive help, such as this page.
 ## See also
 
 [Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+

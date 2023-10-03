@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 5 Add Skype for Business Server 2019 Edge Server to pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ The topics in this section explain how to add a Skype for Business Server 2019 E
     
 - [Verify configuration settings](verify-configuration-settings.md)
     
+
 

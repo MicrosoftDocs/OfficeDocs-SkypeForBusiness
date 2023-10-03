@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Deploy pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -57,3 +58,4 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->
+

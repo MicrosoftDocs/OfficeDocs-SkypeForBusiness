@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Users New Lync Server User"
 ms.reviewer: 
 ms.author: serdars

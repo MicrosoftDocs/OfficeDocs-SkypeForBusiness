@@ -1,4 +1,5 @@
 ---
+ms.date: 11/01/2018
 title: "Manage trusted applications"
 ms.reviewer: 
 ms.author: serdars

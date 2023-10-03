@@ -5,8 +5,8 @@ author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: vkorlep, siunies
-ms.date: 02/19/2019
+ms.reviewer: siunies
+ms.date: 09/27/2023
 audience: admin
 description: Learn how to use Quality of Service (QoS) to optimize network traffic for the Microsoft Teams desktop client.
 ms.localizationpriority: medium
@@ -16,7 +16,8 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Teams
+  - Classic Microsoft Teams
+  - New Microsoft Teams
 ms.custom: 
   - seo-marvel-mar2020
   - seo-marvel-apr2020
@@ -51,7 +52,7 @@ To create a QoS audio policy for domain-joined Windows 10 computers, first log o
 
 1. In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy in the **Name** box. Select **Specify DSCP Value** and set the value to **46**. Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.
 
-1. On the next page, select **Only applications with this executable name** and enter the name **Teams.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Teams client.
+1. On the next page, select **Only applications with this executable name** and enter the name **Teams.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Teams client.  **Note:** The executable name for new Teams is *ms-teams.exe*.
 
 1. On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected, and then click **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Schema (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "To start the task to extend the schema for Skype for Business Serv
  
 To start the task to extend the schema for Skype for Business Server, you begin on the **Prepare Schema** page. Click **Next** to continue with the schema preparation.
   
+
 

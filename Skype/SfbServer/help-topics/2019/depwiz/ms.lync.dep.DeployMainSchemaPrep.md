@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Schema"
 ms.reviewer: 
 ms.author: serdars
@@ -44,4 +45,5 @@ To perform a backup of the schema master domain controller and a complete backup
 > [!NOTE]
 > If you need to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find the files on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory user who ran the step. For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
+
 

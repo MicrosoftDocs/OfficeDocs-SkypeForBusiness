@@ -1,8 +1,9 @@
 ---
+ms.date: 07/02/2018
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
-author: dstrome
-ms.author: dstrome
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars 
 audience: ITPro 
 f1.keywords:
@@ -106,4 +107,5 @@ Here are the high-level steps to complete this migration.
 3. Move users from your Skype for Business 2015 server to your Skype for Business 2019 server.
 4. Set the hosted voicemail policy for each user moved to Skype for Business Server 2019 to use Cloud Voicemail.
 5. Decommission your Skype for Business 2015 servers after the last user has been moved off of them.
+
 

@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for a baseline level of protection by using templates and sensitivity labels.
@@ -42,8 +43,8 @@ The following table describes which actions we'll restrict for baseline meetings
 |Meeting chat|**On**|Template|No|
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
-|Record automatically|**Off**|Template|No|
-|Who can bypass the lobby|**People in my organization, people in trusted organizations, and guests**|Template|No|
+|Record meetings automatically|**Off**|Template|No|
+|Who can bypass the lobby?|**People in my organization, people in trusted organizations, and guests**|Template|No|
 |Who can present|**People in my organization and guests**|Teams admin center|No|
 |Who can record|**Organizers and presenters**|Template|No|
 
@@ -77,13 +78,14 @@ If you already have sensitivity labels deployed in your organization, consider h
 
 To create a sensitivity label
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
-1. Under **Solutions**, click **Information protection**.
+1. Under **Solutions**, expand **Information protection** and then select **Labels**.
 1. Click **Create a label**.
 1. Give the label a name. We suggest **Sensitive**, but you can choose a different name if that one is already in use.
 1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. On the **Define the scope for this label** page, make sure **Items** and **Include meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
-1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
+1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Don't apply end-to-end encryption**.
     1. Select **Control watermarks** and select **Don't apply watermark to shared content** and **Don't apply watermark to everyone's video feed**.
     1. Configure any other settings that you need for your organization.

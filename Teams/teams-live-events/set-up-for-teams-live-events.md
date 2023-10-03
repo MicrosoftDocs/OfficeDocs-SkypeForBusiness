@@ -1,11 +1,11 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 09/11/2018
 audience: admin
 search.appverid: MET150
@@ -78,7 +78,7 @@ If you created a custom live events policy, assign it to users for the policy to
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
 
 - **Microsoft eCDN**
-Microsoft eCDN is integrated into Teams and is also compatible with Stream and Yammer. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
+Microsoft eCDN is integrated into Teams and is also compatible with Stream and Viva Engage. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
 
 - **Purchase and set up your solution outside of Teams**
 Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. 

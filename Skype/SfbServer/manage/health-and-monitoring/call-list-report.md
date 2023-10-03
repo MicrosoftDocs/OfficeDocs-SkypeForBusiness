@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Response Group Call List Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -109,5 +110,6 @@ The following table lists the information provided in the Response Group Call Li
 |**End time** <br/> |No  <br/> |Date and time that the call ended.  <br/> |
 |**Response code** <br/> |No  <br/> |SIP response code sent when the session failed.  <br/> |
 |**Diagnostic ID** <br/> |No  <br/> |Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.  <br/> |
+
 
 

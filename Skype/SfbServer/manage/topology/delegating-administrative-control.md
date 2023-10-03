@@ -1,4 +1,5 @@
 ---
+ms.date: 09/28/2018
 title: "Delegate administrative control of Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -44,3 +45,4 @@ To assign an RBAC role to a user, you must add that user to the appropriate Acti
 To verify that the RBAC role has been assigned, use the Get-CsAdminRoleAssignment cmdlet, passing the cmdlet the SamAccountName (Active Directory logon name) of the user. For example, run this command from within the Skype for Business Server Management Shell:
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`
+

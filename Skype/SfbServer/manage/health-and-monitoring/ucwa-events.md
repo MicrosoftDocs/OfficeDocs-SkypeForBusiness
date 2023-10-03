@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "UCWA events in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -52,4 +53,5 @@ UCWA will write records of operational behavior as event types Informational, Wa
 |20026  <br/> |Informational  <br/> |Recovered from failing to access active directory for photo  <br/> |N/A  <br/> |
 |20027  <br/> |Warning  <br/> |Cannot deserialize  <br/> |Cannot deserialize  <br/> If the problem persists contact product support  <br/> |
    
+
 

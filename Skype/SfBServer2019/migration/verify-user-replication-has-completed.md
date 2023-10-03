@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify user replication has completed"
 ms.reviewer: 
 ms.author: serdars
@@ -35,4 +36,5 @@ When running the **Move-CsUser** cmdlet, you may experience a failure if user in
     
 8. In the filtered events list, on the **General** tab, look for an entry that states that user replication has completed successfully. 
     
+
 

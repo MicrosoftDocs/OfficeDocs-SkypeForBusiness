@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure DNS records for pilot pool deployment"
 ms.reviewer: 
 ms.author: serdars
@@ -33,4 +34,5 @@ Before deploying the pilot pool, you must update the DNS Host A entries for the 
     
 7. When you are finished, click **Done**.
     
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server: Delete an existing collection of SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: serdars
@@ -81,3 +82,4 @@ You can delete trunk configuration settings by using Skype for Business Server M
   ```
 
 For more information, see the help topic for the [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet.
+

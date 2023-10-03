@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move multiple users to the pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -97,4 +98,5 @@ In this example, all users have been returned to the legacy pool (pool01.contoso
     
      ![Skype for Business Server 2019 Control Panel user list.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
+
 

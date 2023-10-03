@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create a new collection of trunk configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -73,3 +74,4 @@ When creating SIP trunk configuration settings using Skype for Business Server C
 6. In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.
     
 7. In the **Skype for Business Server Control Panel** dialog box click **OK**.
+

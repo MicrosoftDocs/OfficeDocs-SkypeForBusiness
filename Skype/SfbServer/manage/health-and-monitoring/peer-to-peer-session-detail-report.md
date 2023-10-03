@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Peer-to-Peer Session Detail Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -104,4 +105,5 @@ The following table lists the information provided in the Peer-to-Peer Session D
 |**Content type** <br/> |No  <br/> |Type of media content used in the conference. For example, a common content type is Application/sdp. Session Description Protocol (SDP) is a standard Internet protocol used for session announcements, session invitations, and other forms of multimedia session initiation.  <br/> |
 |**Reported by** <br/> |No  <br/> |Computer (that is, client or server) that reported the problem.  <br/> |
    
+
 

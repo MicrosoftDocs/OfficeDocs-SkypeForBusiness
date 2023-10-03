@@ -7,15 +7,16 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: 
 ms.date: 09/19/2018
 f1.keywords:
 - NOCSH
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
 ms.localizationpriority: medium
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - Tier1
 appliesto:
   - Microsoft Teams
 ---
@@ -85,7 +86,7 @@ When these steps are complete, the users who are individually enabled via the Gr
 |Name|Application Permission Short Description| Description|
 |---|---|---|
 |Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your tenant.|
-|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest user (preview)|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your tenant.|
+|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your tenant.|
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
@@ -93,7 +94,7 @@ When these steps are complete, the users who are individually enabled via the Gr
 
 Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
 
-- [Teams Meeting add-in for Outlook](teams-add-in-for-outlook.md)
+- [Teams Meeting add-in for Outlook](outlook-add-in-authentication-policy-requirements.md)
 - Teams client desktop and mobile
 
 ## Join

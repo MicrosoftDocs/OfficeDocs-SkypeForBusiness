@@ -12,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -34,21 +36,23 @@ After you plan the dial plans for your organization and figured out all the norm
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
 2. Click **Add**, and then enter a name and description for the dial plan.
-    ![Screenshot showing the Add page for creating a dial plan.](media/create-dial-plan.png)
-3. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. To do this:
+
+   :::image type="content" alt-text="Screenshot showing the Add page for creating a dial plan." source="media/create-dial-plan.png" lightbox="media/create-dial-plan.png":::
+
+4. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. To do this:
     1. In the **External dialing prefix** box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
     2. Turn on **Optimized device dialing**. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
-4. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it.  To do this, do one or more of the following:
+5. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it.  To do this, do one or more of the following:
     - To create a new normalization rule and associate it with the dial plan, click **Add**, and then define the rule.
     - To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then click **Edit**. Make the changes you want, and then click **Save**.
     - To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then click **Remove**.
-5. Arrange the normalization rules in the order that you want. Click **Move up** or **Move down** to change the position of rules in the list.
+6. Arrange the normalization rules in the order that you want. Click **Move up** or **Move down** to change the position of rules in the list.
 
     > [!NOTE]
     > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones. If you set up a dial plan that normalizes a dialed number without a "+", the calling service will attempt to normalize the number again using Tenant and regional dial plan rules. To avoid double normalization, it's recommended that all normalization rules result in numbers starting with a "+". Direct Routing customers can use [trunk translation](direct-routing-translate-numbers.md) rules to remove the "+" if required. 
 
-6. Click **Save**.
-7. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.
+7. Click **Save**.
+8. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.
 
 ### Edit a dial plan
 
@@ -160,7 +164,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
   
 ```PowerShell
-Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
+(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
 Translation         : +1426666$1
@@ -220,5 +224,5 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
-- [Emergency calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Emergency calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 - [Teams PowerShell overview](teams-powershell-overview.md)

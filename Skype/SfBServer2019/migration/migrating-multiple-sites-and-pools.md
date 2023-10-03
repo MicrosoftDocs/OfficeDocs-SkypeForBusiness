@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrating multiple sites and pools"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ Skype for Business Server 2019 supports multi-site and multi-pool deployments. T
     
     For details about how to deactivate the legacy pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).
     
+
 

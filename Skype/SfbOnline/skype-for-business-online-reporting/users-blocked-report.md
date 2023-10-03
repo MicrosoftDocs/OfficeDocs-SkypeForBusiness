@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Users blocked report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -87,3 +88,4 @@ This exports data of all users and enables you to do simple sorting and filterin
 
   
  
+

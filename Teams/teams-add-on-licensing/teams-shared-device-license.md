@@ -3,7 +3,8 @@ title: Microsoft Teams Shared Devices licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.date: 12/08/2022
+ms. reviewer: chester, sirigudur
+ms.date: 06/21/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -26,24 +27,17 @@ description: Learn about the Microsoft Teams Shared Devices licensing for common
 
 # Microsoft Teams Shared Devices licensing
 
-Microsoft Teams can support hybrid work scenarios and enable users to work in flexible spaces. The **Microsoft Teams Shared Devices** add-on license allows offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces.
+Microsoft Teams can support hybrid work scenarios and enable users to work in flexible spaces. The **Microsoft Teams Shared Devices** add-on license allows offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, Teams panels for meeting spaces, and Android phones through the Teams mobile app. With this license, common area phones have the ability to join audio conferences via a dial-in number provided by the meeting organizer.
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
-The **Microsoft Teams Shared Devices** license supports:
+The **Microsoft Teams Shared Devices** license includes the following service plans:
 
 - Microsoft Teams
-- Microsoft Teams Phone &sup1;
-- Audio Conferencing &sup2;
-- Teams panels
-- Teams displays
-- Microsoft Intune
+- Microsoft Teams Phone (Previously known as *Phone System*)
+- Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
 - Azure Active Directory Premium Plan 1
-- Exchange Online Plan 2 &sup3;
-
-&sup1; Previously known as *Phone System*. </br>
-&sup2; Common area phones can join audio conferences via a dial-in number provided by the meeting organizer. </br>
-&sup3; Cloud-based voicemail capabilities only.
+- Exchange Online Plan (Cloud-based voicemail capabilities only.)
 
 ## Teams Shared Devices license availability
 
@@ -71,6 +65,8 @@ The **Teams Shared Devices** license can be purchased in the [Microsoft admin ce
 
 The following articles will help you set up the various devices that use the **Teams Shared Devices** license.
 
+- [Introducing the Microsoft Teams Shared Device License](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-the-microsoft-teams-shared-device-license/ba-p/3677138)
 - [Set up common area phones](/microsoftteams/set-up-common-area-phones)
 - [Microsoft Teams panels](/microsoftteams/devices/teams-panels)
 - [Microsoft Teams displays](/microsoftteams/devices/teams-displays)
+- [Set up an Android mobile phone as a common area phone](../devices/common-area-mobile-phones.md)

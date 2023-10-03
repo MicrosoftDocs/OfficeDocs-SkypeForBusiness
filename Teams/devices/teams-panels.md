@@ -1,20 +1,22 @@
 ---
 title: Microsoft Teams panels
-author: CarolynRowe
-ms.author: crowe
+author: tonysmit
+ms.author: tonysmit
 manager: serdars
 ms.reviewer: weizxue
 ms.date: 02/15/2021
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides an overview of and features supported by Microsoft Teams panels.
@@ -48,12 +50,22 @@ To learn more about partners certified for Teams panels, see [Currently certifie
 
 The hardware, software, and network requirements to deploy panels devices may differ depending on which type of panels devices you're deploying. Refer to the Original Equipment Manufacturer (OEM) documentation to know what's required for your set of devices.
 
+Teams panels are supported in the following Microsoft Cloud environments:
+
+- Worldwide
+- GCC
+- GCC-H
+
 ## License requirement
 
 Each Teams panel needs a [Microsoft Teams Rooms Pro license](../rooms/rooms-licensing.md) or a [Teams Shared Device license](../teams-add-on-licensing/teams-shared-device-license.md). The license you use depends on how you're going to use your Teams panel:
 
 - **Teams Rooms Pro** - Use this license if your meeting room has a Teams Rooms system or a Surface Hub. You can share one Teams Rooms Pro license with one Teams Rooms system or Surface Hub and your Teams panel. For more information, see [Resource account provisioning](#resource-account-provisioning).
 - **Teams Shared Device** - Use this license if your meeting room doesn't have a Teams Rooms system or Surface Hub.
+
+> [!IMPORTANT]
+>
+> Microsoft 365 or Office 365 user licenses are no longer supported for use with meeting devices. User licenses that have been assigned to Teams Panels need to be replaced by a Teams Rooms Pro or Teams Shared Device license prior to July 1, 2023. Panels that do not have one of these licenses after July 1, 2023 will be granted a 90-day grace period ending on September 30, 2023. After the 90-day grace period, Panels will be blocked from signing in until one of the above licenses is assigned.
 
 ## Deploy Teams panels devices
 
@@ -100,7 +112,7 @@ Planning for configuration and deployment covers the following key areas:
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
 To set up a Microsoft 365 resource account for Teams panels, you need to purchase a [Microsoft Teams Rooms license](#license-requirement).
-For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md).
+For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md).
 
 > [!NOTE]
 >

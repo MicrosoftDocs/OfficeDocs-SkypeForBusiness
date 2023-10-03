@@ -1,7 +1,8 @@
 ---
+ms.date: 11/09/2018
 title: "Update the edge certificate"
-ms.author: crowe
-author: CarolynRowe
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
@@ -10,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online

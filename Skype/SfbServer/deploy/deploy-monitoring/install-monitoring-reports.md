@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Monitoring Reports in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -95,4 +96,5 @@ In the preceding command, the ReportingUrl property should be set to the Report 
     
 If you have set up a mirror database for your monitoring database then you must also associate the Monitoring Reports with the mirror database. See the article [Associate Monitoring Reports with a mirror database in Skype for Business Server](monitoring-reports-with-a-mirror-database.md) for details.
   
+
 

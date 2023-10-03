@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Server FQDN"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ You must specify a fully qualified domain name (FQDN) for the Access Edge servic
   
 Also, if you selected the **Use a single FQDN &amp; IP address** option, you must specify a different port number for each of the Edge services (recommended port settings: 444 for Access Edge service, 8057 for Web Conferencing Edge service, and 443 for A/V Edge service). If you did not select the option, you can use the same port number (such as 443) for all three services.
   
+
 

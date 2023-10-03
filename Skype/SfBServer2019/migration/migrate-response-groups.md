@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrate response groups"
 ms.reviewer: 
 ms.author: serdars
@@ -115,3 +116,4 @@ The following procedure for migrating Response Group configurations assumes that
    ```
 
 8. Verify that all the workflows in your legacy environment are included in the list.
+

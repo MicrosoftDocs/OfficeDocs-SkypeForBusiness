@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Users View or Configure Location Policy"
 ms.reviewer: 
 ms.author: serdars

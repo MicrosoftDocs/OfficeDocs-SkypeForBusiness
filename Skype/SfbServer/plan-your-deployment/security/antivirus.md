@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Antivirus scanning exclusions for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

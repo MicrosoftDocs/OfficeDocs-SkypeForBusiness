@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Organization Information)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ The **Organization Information** pane enables you to specify the name of your or
 > [!NOTE]
 > The OU name on a certificate is not necessarily the same as an OU in Active Directory Domain Services. Depending on how you have configured Active Directory, the name that you use may or may not be the same. 
   
+
 

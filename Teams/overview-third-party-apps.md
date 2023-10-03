@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 ---
 # Overview of third-party apps in Microsoft Teams
 
-Teams Store provides many useful apps created by third-party software developers, in addition to apps provided by Microsoft. To use these apps, as an admin, you set an app governance process that balances wide-ranging requirements of end-users along with your organization's IT policies, standards, and risk-profiles. While these apps are created by third-party providers, Microsoft does rigorous validation of the functionality, usability, and security of these apps. Only after the validation, Microsoft makes the apps available in Teams store. For end-users to benefit from the rich app ecosystem, app governance by admins is a key step.
+Teams Store provides many useful apps created by third-party software developers, in addition to apps provided by Microsoft. To use these apps, as an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles. While these apps are created by third-party providers, Microsoft does rigorous validation of the functionality, usability, and security of these apps. Only after the validation, Microsoft makes the apps available in Teams store. For the users to benefit from the rich app ecosystem, app governance by admins is a key step.
 
 Third-party apps in Microsoft Teams aren't controlled or owned by Microsoft and aren't governed by the Microsoft Online Subscription Agreement. Your organization's use of each third-party app is subject to that app's terms and conditions and privacy statement. Teams admin center allows you to verify app permissions, privacy statements, and terms of use before you allow its use. As always, you can allow use of an app for a few specific users or all users. For third-party apps, as for custom apps, Teams let admins allow, block, govern, and analyze the use of the apps.
 

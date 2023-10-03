@@ -63,7 +63,6 @@ The following table lists the major Microsoft Teams features available across pl
 | Meeting attendees can join meetings without an account | Yes  |    Yes     |     Yes    |     Yes    |
 | Send meeting invites to a phone number |   Yes     |  Yes      |         |    |
 | Meeting recordings & transcripts |         |         |   Yes       |     Yes    |
-| Real-time translation |         |         |    Yes     |     Yes    |
 | Breakout rooms |         |         |   Yes      |     Yes    |
 | Whiteboard |         |         |  Yes       |     Yes    |
 | Host webinars that include attendee registration pages, email confirmations, and reporting. |     |     |      | Available in Business Standard|

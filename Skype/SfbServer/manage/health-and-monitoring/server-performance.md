@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Server Performance Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -124,4 +125,5 @@ The following table lists the information provided in the Server Performance Rep
 |**Avg. RDP tile processing latency** <br/> |No  <br/> |The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.  <br/> |
 |**Total spoiled tile %** <br/> |No  <br/> |Total percentage of spoiled RDP tiles.  <br/> |
    
+
 

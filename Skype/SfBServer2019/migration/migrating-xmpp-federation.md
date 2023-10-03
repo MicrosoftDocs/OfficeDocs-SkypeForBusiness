@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrating XMPP federation"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ From a migration perspective, users who want to avail the XMPP feature should re
   
 
     
+
 

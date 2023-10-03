@@ -3,15 +3,17 @@ title: Audio Conferencing dial-out usage report
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.reviewer: fafan
+ms.reviewer: 
 ms.date: 04/08/2022
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -34,7 +36,7 @@ In the left navigation of the Microsoft Teams admin center, select **Analytics &
 
 Under **Date range**, you can select a predefined range of 7 or 28 days, or set a custom range.
 
-Under **Country Previsioned**, select a preferred country, or select all, and then select **Run report**.
+Under **Country Previsioned**, select a preferred country/region, or select all, and then select **Run report**.
 
 ## Report details
 
@@ -51,19 +53,19 @@ Each report has a date for when it was generated. The reports usually reflect a 
 
 ### Cost tab
 
-At the top of this tab section is a chart displaying a line that shows cost information over the date range and for the country or countries selected.
+At the top of this tab section is a chart displaying a line that shows cost information over the date range and for the country/region or countries/regions selected.
 
 There's a **Cost** section underneath the chart showing a price, which is the total cost per minutes of calls within the select time range.
 
 ### Minutes of use tab
 
-At the top of this tab section is a chart displaying a line that shows minutes of use over the date range and for the country or countries selected.
+At the top of this tab section is a chart displaying a line that shows minutes of use over the date range and for the country/region or countries/regions selected.
 
 There's a **Minutes of use** section underneath the chart showing the total minutes of calls used within the select time range.
 
 ### Dial-out calls
 
-At the top of this tab section is a chart displaying a line that shows dial-out calls over the date range and for the country or countries selected.
+At the top of this tab section is a chart displaying a line that shows dial-out calls over the date range and for the country/region or countries/regions selected.
 
 There's a **Dial-out calls** section underneath the chart showing the total number of dial-out calls within the select time range.
 

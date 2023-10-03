@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View conferencing policies in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -84,3 +85,4 @@ EnableMultiViewJoin                       : True
 </pre>
 
 For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
+

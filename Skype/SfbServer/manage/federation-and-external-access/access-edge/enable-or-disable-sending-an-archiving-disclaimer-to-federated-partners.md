@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable sending an Archiving disclaimer to federated partners'
 ms.reviewer: 
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
@@ -53,4 +54,5 @@ The use of the archiving disclaimer can be managed by using Windows PowerShell a
 ## To disable the archiving disclaimer
 
   - To disable the archiving disclaimer, set the value of the **EnableArchivingDisclaimer** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
+
 

@@ -1,20 +1,21 @@
 ---
 title: Scale video delivery in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 09/13/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will discuss scale video delivery and enterprise content delivery networks (eCDNs) for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -54,11 +55,11 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ### Microsoft eCDN
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
 
-- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [this link](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
-- Silent Testing with Microsoft eCDN allows IT admins to simulate large live events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [this link](/ecdn/how-to/perform-silent-test).
-- Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drilldowns, per-user analytics, and a back-end API. Learn more at [this link](/ecdn/technical-documentation/analytics).
+- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [this link](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
+- Silent Testing with Microsoft eCDN allows IT admins to simulate large live events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [this link](/ecdn/how-to/perform-silent-test).
+- Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drilldowns, per-user analytics, and a back-end API. Learn more at [this link](/ecdn/technical-documentation/analytics).
 
 ### Ramp
 
@@ -70,30 +71,30 @@ To learn more about these options, check out [this link](https://kollective.com/
 
 ### Riverbed
 
-**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment. Learn more at [this link](https://www.riverbed.com/office365).
+**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
 
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected partner eCDN provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
 
 ## Configure Stream encoder type events for your eCDN solution
 
-After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Yammer.
+After purchasing and setting up your eCDN solution, you can enable it for use with Microsoft Stream, including Stream encoder live events that are created through Microsoft Teams or Viva Engage.
 
-1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
-1. Toggle the **Video distribution provider** to **On**.
-1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
+1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
+1. Toggle the **Video distribution provider** to **On**.
+1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (Not all fields are used by all solution providers).
 1. Select **Save**.
-1. To check if your setup is correct, select **Verify setup**.
+1. To check if your setup is correct, select **Verify setup**.
     - Search for any video in your organization to validate with.
     - If your eCDN provider is set up correctly, you'll see a **Success** message on the verify setup tool.
     - If you aren't set up correctly, you'll see a **Failure** message. Copy the event message to share with your provider for troubleshooting.
 
 After you configure Teams for an eCDN solution, any video or live event that is played in Teams will take advantage of that solution automatically.
 
-## Configure Teams production type events through Teams and Yammer for your eCDN solution
+## Configure Teams production type events through Teams and Viva Engage for your eCDN solution
 
-If you plan to create Teams live events through Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+If you plan to create Teams live events through Teams or Viva Engage, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
 
 ### Get to video analytics reports for your eCDN solution
 

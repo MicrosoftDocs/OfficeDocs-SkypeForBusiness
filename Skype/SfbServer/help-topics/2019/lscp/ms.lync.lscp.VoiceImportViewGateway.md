@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "View Gateways (Import Configuration)"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ In **Deployed gateway**, click the gateway where you want to import the voice co
   
  
   
+
 

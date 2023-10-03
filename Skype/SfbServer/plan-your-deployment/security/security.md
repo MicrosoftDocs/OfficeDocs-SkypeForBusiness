@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for security in Skype For Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -33,4 +34,5 @@ This content relates to Skype for Business Server security. Security is a very b
     
 - [Addressing threats to your core infrastructure for Skype for Business Server](addressing-threats.md)
     
+
 

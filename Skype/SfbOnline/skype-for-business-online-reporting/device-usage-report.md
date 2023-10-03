@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Device usage report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -111,3 +112,4 @@ If your organization's policies prevents you from viewing reports where user inf
 
   
  
+

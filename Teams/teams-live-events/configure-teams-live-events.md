@@ -1,12 +1,12 @@
 ---
 title: Configure live event settings in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: medium

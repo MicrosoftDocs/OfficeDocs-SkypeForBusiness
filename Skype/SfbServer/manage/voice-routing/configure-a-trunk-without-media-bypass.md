@@ -1,4 +1,5 @@
 ---
+ms.date: 10/02/2018
 title: "Skype for Business Server - Configure a trunk without media bypass"
 ms.reviewer: 
 ms.author: serdars
@@ -103,3 +104,4 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
     > [!Note]
     > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see Publish pending changes to the voice routing configuration in Lync Server 2013 in the Operations documentation. 
+

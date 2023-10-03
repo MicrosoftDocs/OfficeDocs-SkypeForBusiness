@@ -11,8 +11,10 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -37,7 +39,7 @@ When you are setting up and configuring Audio Conferencing in Microsoft 365 or O
 |:-----|:-----|:-----|
 |Arabic  <br/> |Saudi Arabia  <br/> |ar-SA  <br/> |
 |Bulgarian  <br/> |Bulgaria  <br/> |bg-BG  <br/> |
-|Cantonese  <br/> |Hong Kong  <br/> |zh-HK  <br/> |
+|Cantonese  <br/> |Hong Kong SAR  <br/> |zh-HK  <br/> |
 |Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
 |Chinese (Traditional)  <br/> |Taiwan  <br/> |zh-TW  <br/> |
 |Croatian  <br/> |Croatia  <br/> |hr-HR  <br/> |

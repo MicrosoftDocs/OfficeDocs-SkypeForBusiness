@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan network requirements for Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -283,3 +284,4 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
 [Load balancing requirements for Skype for Business](load-balancing.md)
 
 [DNS requirements for Skype for Business Server](dns.md)
+

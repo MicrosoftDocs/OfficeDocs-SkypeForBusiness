@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "License options based on your plan"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -24,5 +25,6 @@ description: "Learn about Cloud Voicemail."
 # License options based on your plan
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
 
 

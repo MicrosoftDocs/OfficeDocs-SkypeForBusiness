@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Dial-in Conferencing (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ For planning details about enabling dial-in conferencing for your organization, 
   
 - [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
+
 

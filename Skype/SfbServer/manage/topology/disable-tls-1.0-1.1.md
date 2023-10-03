@@ -1,4 +1,5 @@
 ---
+ms.date: 06/21/2018
 title: Disable TLS 1.0/1.1 in Skype for Business Server 2015
 ms.reviewer: 
 ms.author: serdars
@@ -527,3 +528,4 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
     - Review the log using View Log, and validate that setup completed without issues. 
     - Click **Finish**.
 10. Proceed with additional installation and configuration as required (you can resume normal installation procedures at this point).
+

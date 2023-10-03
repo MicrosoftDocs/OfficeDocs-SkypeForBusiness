@@ -1,7 +1,7 @@
 ---
 title: Evaluate your environment before upgrading to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams

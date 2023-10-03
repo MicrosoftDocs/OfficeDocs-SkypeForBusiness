@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 1 Plan your migration"
 ms.reviewer: 
 ms.author: serdars
@@ -29,4 +30,5 @@ This section covers planning topics for migrating to Skype for Business Server 2
     
 - [Migrating XMPP federation](migrating-xmpp-federation.md)
     
+
 

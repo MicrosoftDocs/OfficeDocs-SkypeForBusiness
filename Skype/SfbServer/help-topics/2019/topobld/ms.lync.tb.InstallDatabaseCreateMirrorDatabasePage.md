@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Database Create Mirror Database Page"
 ms.reviewer: 
 ms.author: serdars
@@ -21,3 +22,4 @@ description: "This is preliminary documentation and is subject to change. Blank 
  
 > [!NOTE]
 > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
+

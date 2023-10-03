@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deployment guidelines for Mediation Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -54,3 +55,4 @@ Finally, if your central site has a TDM PBX, or if your IP-PBX does not eliminat
   
 > [!NOTE]
 > To improve the media performance of standalone Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on these servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling Enhancements in Windows Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". For details about how to enable RSS, see your network adapter documentation. 
+

@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
 - M365-collaboration
 appliesto: 
@@ -35,7 +35,7 @@ When a Microsoft Power Platform app is created or shared, users can view and ins
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built with Power Platform.":::
 
-End-users see an app in **Built with Power Platform** if the app meets one of the following conditions.
+Users see an app in **Built with Power Platform** if the app meets one of the following conditions.
 
 |Power Apps |Power Virtual Agents  |
 |---------|---------|
@@ -54,7 +54,7 @@ Keep in mind that you can control access to all apps created in Power Apps and P
 If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use Microsoft Power Platforms apps that they installed before you blocked the app or apps. However, the user can no longer install any apps from those platforms in **Built with Power Platform**.
 
 > [!NOTE]
-> The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. If this setting is turned off, users in your organization can't install any custom apps, including Microsoft Power Platform apps. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+> The **Interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. If this setting is turned off, users in your organization can't install any custom apps, including Microsoft Power Platform apps. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 ### Allow or block Microsoft Power Platform apps for your organization
 

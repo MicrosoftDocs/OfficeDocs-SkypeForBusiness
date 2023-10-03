@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify legacy environment"
 ms.reviewer: 
 ms.author: serdars
@@ -83,4 +84,5 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
      ![Office Communications Server XMPP Gateway Service.](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
+
 

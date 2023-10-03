@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith, lakuan
+ms.reviewer: lakuan
 ms.date: 03/03/2020
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
@@ -50,7 +50,7 @@ If user identities don't already exist, follow this process to establish them:
 1. [Create users using School Data Sync](/microsoft-365/education/deploy/school-data-sync).
 2. [Assign licenses to users](teams-edu-licensing.md).
 3. [Create Microsoft 365 groups](Office-365-groups.md).
-4. [Set up Exchange](Exchange-Teams-interact.md).
+4. [Set up Exchange](exchange-teams-interact.md).
 5. [Set up SharePoint and OneDrive](SharePoint-OneDrive-interact.md).
 6. [Set up users who have Google email](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 

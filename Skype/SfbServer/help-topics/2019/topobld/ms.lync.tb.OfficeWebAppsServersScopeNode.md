@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Office Web Apps Servers Scope Node"
 ms.reviewer: 
 ms.author: serdars

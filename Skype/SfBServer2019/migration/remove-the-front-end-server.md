@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove the Enterprise Edition Front End Server or Standard Edition Front End Server"
 ms.reviewer: 
 ms.author: serdars
@@ -29,4 +30,5 @@ The procedures outlined in this section are designed to guide you through the pr
     
 - [Remove Front End pool or Standard Edition server](remove-front-end-pool-or-standard-edition-server.md)
     
+
 

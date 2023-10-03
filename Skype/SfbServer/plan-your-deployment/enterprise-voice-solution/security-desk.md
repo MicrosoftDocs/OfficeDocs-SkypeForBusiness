@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Include the security desk in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -35,4 +36,5 @@ If supported by the emergency services service provider, you can configure the l
 > [!NOTE]
 > If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify. 
   
+
 

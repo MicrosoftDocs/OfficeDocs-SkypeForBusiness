@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Capacity planning for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -32,4 +33,5 @@ The topics in this section help you understand how to plan and deploy Skype for 
     
 - [User models in Skype for Business Server](user-models.md)
     
+
 

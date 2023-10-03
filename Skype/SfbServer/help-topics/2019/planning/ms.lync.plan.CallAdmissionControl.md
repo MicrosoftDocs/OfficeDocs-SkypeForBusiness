@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Admission Control (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ Call admission control (CAC) determines, based on available network bandwidth, w
   
 For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
+
 

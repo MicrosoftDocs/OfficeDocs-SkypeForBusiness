@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Prepare Active Directory"
 ms.reviewer: 
 ms.author: serdars
@@ -27,4 +28,5 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you must
 3. Complete steps 1 through 5 in the wizard.
 
   
+
 

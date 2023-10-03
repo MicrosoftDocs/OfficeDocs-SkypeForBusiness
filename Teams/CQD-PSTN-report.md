@@ -3,13 +3,15 @@ title: "Using the CQD PSTN Direct Routing report"
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.reviewer: siunies, fan.fan
+ms.reviewer: siunies
 ms.date: 03/06/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -38,9 +40,9 @@ The CQD PSTN Direct Routing Report has four sections:
 
 ## Highlights
 
-1. Analyze by call type, SBC, caller and callee country
+1. Analyze by call type, SBC, caller and callee country/region
 
-   The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all SBCs on your tenant for the last 7, 30, or 180 days (6 months). You can analyze data by call type, SBC, caller and callee country. If you're interested in a particular SBC or country, you'll be able to identify changes in trends over the selected time range.
+   The CQD PSTN Direct Routing report aggregates reliability and usage metrics for all SBCs on your tenant for the last 7, 30, or 180 days (6 months). You can analyze data by call type, SBC, caller and callee country/region. If you're interested in a particular SBC or country/region, you'll be able to identify changes in trends over the selected time range.
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot of filters available in the CQD PSTN Direct Routing report.":::
    
 2. Track trends
@@ -59,11 +61,11 @@ The CQD PSTN Direct Routing Report has four sections:
 The CQD PSTN Direct Routing Report provides the following information related to overall health of the service for the past 180 days.
 ![Screenshot: PSTN CQD report.](media/CQD-PSTN-report1.png)
 
-For example, if you are interested in the overall usage and health about all inbound calls going through SBC abc.bca.adatum.biz with US as the internal country:
+For example, if you are interested in the overall usage and health about all inbound calls going through SBC abc.bca.adatum.biz with US as the internal country/region:
 
 | **Call Out** | **Description**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1            | You can use the filters at the top to drill down and select ByotIn as call type, abc.bca.contoso.com as Session Boarder Controller, and US as internal country. |
+| 1            | You can use the filters at the top to drill down and select ByotIn as call type, abc.bca.contoso.com as Session Boarder Controller, and US as internal country/region. |
 | 2            | Usage trend for the past 180 days. You can find usage detail report on Service Detail page.                                                                     |
 | 3            | Post Dial Delay, Latency, Jitter, and Packet Loss trend for the past 180 days. You can find detail report on Network Parameters page.                           |
 | 4            | Concurrent Call and Daily Active User trend for the past 180 days. This chart can help you understand the max volume of the service.                            |

@@ -1,9 +1,10 @@
 ---
+ms.date: 01/31/2019
 title: "Exchange Unified Messaging Online migration support" 
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.reviewer: waseemh, dstrome, balinger
+ms.reviewer: waseemh, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.service: skype-for-business-server

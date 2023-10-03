@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Delete an existing collection of CDR configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

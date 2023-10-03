@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Assign Skype for Business licenses"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -19,7 +20,8 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
-- Licensing
+  - Licensing
+  - has-azure-ad-ps-ref
 description: "Learn how to assign Skype for Business licenses for Phone System, Audio Conferencing, Calling Plans, and Communications Credits. "
 ---
 

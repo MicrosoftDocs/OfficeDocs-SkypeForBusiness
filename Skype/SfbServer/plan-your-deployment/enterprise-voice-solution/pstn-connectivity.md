@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "PSTN connectivity components in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -58,3 +59,4 @@ The supported Enterprise Voice-PBX integration scenarios are as follows:
 For details about partners who offer Enterprise Voice solutions, see the [Microsoft Unified Communications Partners website](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
 For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the [Microsoft Unified Communications Partners website](https://go.microsoft.com/fwlink/p/?linkId=202836).
+

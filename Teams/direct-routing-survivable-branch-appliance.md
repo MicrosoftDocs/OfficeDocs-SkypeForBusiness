@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords: 
@@ -77,7 +79,7 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 3. Assign the policy to users.
 4. Register an application for the SBA with Azure Active Directory.
 
-All configuration is done by using Skype for Business Online PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
+All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
 (For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.)
 

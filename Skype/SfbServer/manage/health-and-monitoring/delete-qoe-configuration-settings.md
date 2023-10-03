@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Delete Quality of Experience configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for large meetings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -216,4 +217,5 @@ Additionally, you need to configure the dedicated large-meeting pool so that eac
     
 For more information about creating a conferencing policy, see [Manage conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
   
+
 

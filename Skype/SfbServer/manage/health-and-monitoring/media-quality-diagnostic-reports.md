@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Media Quality Diagnostic Reports in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -42,4 +43,5 @@ The Media Quality Diagnostic Reports provide information about call quality, and
     
 - [Location Trend Report in Skype for Business Server](location-trend-report.md) Provides call quality trend information for network locations.
     
+
 

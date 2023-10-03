@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for conferencing in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -185,4 +186,5 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
     If so, you should configure the meeting join page so that only the client options that you want to support are available. Each time a user clicks a link to join a scheduled meeting, Skype for Business Server detects whether a client is already installed on the computer. It then starts the default client and opens the meeting join page, which contains links for alternate clients. The meeting join page always contains the option to use Skype for Business Web App. In addition to this option, you can decide whether to include links for Attendee and previous versions of Communicator. 
     
+
 

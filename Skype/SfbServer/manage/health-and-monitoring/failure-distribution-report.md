@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Failure Distribution Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -187,4 +188,5 @@ The following table lists the information provided in the Failure Distribution R
 |**Top user agents** <br/> |No  <br/> |Name of the user agent involved in the failed session.  <br/> |
 |**Sessions** <br/> |No  <br/> |Total number of failed sessions per user agent.  <br/> |
    
+
 

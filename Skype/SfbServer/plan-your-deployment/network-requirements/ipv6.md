@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for IPv6 in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -208,3 +209,4 @@ The following scenarios are supported during migration and coexistence:
 [IPv6 Global Unicast Address Format](https://tools.ietf.org/html/rfc3587)
   
 [Unique Local IPv6 Unicast Addresses](https://tools.ietf.org/html/rfc4193)
+

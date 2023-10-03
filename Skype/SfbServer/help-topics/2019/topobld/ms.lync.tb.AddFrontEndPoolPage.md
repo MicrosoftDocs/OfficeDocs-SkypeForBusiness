@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Front End Pool FQDN"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ Specify the fully qualified domain name (FQDN) of the Front End pool that you ar
 > [!TIP]
 > If you plan to implement a Front End pool in the future, select **Multiple computer pool**. Even though a pool is defined as two or more computers that are load balanced, you can create a single computer pool and create a pool FQDN for the single computer. When you are ready to add more computers to the pool later, you must run Topology Builder again to define the new pool member, publish the new topology, and then set up the new Front End pool member through the Skype for Business Server Deployment Wizard. You must also add the new pool member to the appropriate load balancers for the pool, Domain Name System (DNS) load balancing, or hardware load balancers. In many cases, you would have both load balancing systems in place. Be sure that you are adding the new member server to both. 
   
+
 

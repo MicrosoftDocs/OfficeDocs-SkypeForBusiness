@@ -1,4 +1,5 @@
 ---
+ms.date: 07/23/2018
 title: "Latest updates for versions of Skype for Business that use Windows Installer (MSI)"
 ms.author: phillipg
 author: PhillipGarding

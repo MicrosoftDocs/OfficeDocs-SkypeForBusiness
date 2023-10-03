@@ -1,4 +1,5 @@
 ---
+ms.date: 06/19/2018
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
 ms.author: serdars
 author: msdmaguire
@@ -386,3 +387,4 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 * * *
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](/archive/blogs/uc/what-devices-have-been-certified-for-mac)
+

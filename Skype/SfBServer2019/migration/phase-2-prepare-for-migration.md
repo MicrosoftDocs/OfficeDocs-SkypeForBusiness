@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 2 Prepare for migration"
 ms.reviewer: 
 ms.author: serdars
@@ -30,4 +31,5 @@ Before you begin your migration to Skype for Business Server 2019, follow the st
     
 - [Verify the legacy environment](verify-environment.md)
     
+
 

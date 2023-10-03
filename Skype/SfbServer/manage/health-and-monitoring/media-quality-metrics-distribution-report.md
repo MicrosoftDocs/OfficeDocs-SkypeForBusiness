@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "The Media Quality Metrics Distribution Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -55,4 +56,5 @@ Filters provide a way for you to return a more finely-targeted set of data or to
 |**VPN** <br/> | Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following: <br/>  [All] <br/>  VPN <br/>  Non-VPN <br/> |
 |**Network type** <br/> | Indicates the type of network the client was connected to when the call was placed. Select one of the following: <br/>  [All] <br/>  Wired <br/>  Wireless <br/> |
    
+
 

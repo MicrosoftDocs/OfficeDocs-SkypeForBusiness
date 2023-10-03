@@ -1,10 +1,10 @@
 ---
-title: "Assign, change, or remove a phone number for a user"
+title: "Manage phone numbers for users"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: davelick, roykuntz, jastark
-ms.date: 11/28/2017
+ms.reviewer: julienp, roykuntz, jastark
+ms.date: 08/25/2023
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -13,6 +13,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- m365initiative-voice
+- Tier1
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -23,7 +25,7 @@ ms.custom:
 description: "Learn how to assign, change, or remove a work phone number for your Teams users so outside businesses and clients can call in."
 ---
 
-# Assign, change, or remove a phone number for a user
+# Manage phone numbers for users
 
 When you set up Calling Plans, Operator Connect, or Teams Phone Mobile, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
@@ -39,12 +41,11 @@ Before you assign a number for a Calling Plan, Operator Connect, or Teams Phone 
 
 ## Assign a phone number to a user
 
-When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
+When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country/region.
 
 To assign a number by using the Teams admin center:
 
 [!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
-
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
@@ -78,7 +79,7 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 > Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
 > [!NOTE]
-> When you assign a phone number the EnterpriseVoiceEnabled flag is automatically set to True.
+> When you assign a phone number, the EnterpriseVoiceEnabled flag is automatically set to True.
 
 ## Change a phone number for a user
 
@@ -125,14 +126,10 @@ For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/modul
 
 ## Related topics
 
-[What is address validation?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
-
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
-
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Manage the usage of a phone number](/microsoftteams/manage-the-usage-of-a-phone-number)
 
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
-[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
+[Plan your Teams Voice solution](/microsoftteams/cloud-voice-landing-page)

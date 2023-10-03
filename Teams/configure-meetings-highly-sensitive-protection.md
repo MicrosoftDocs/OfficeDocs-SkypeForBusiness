@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-compliantmeetings
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for protection for highly sensitive information by using templates and sensitivity labels.
@@ -45,11 +46,11 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Apply a watermark to shared content|**On**|Label|Yes|
 |End-to-end encryption|**On**|Label|Yes|
 |Manage what attendees see|**On**|Template|Yes|
-|Meeting chat|**Only in meeting**|Template|Yes|
+|Meeting chat|**In-meeting only**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
-|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
 
@@ -74,12 +75,19 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Meeting chat|**Off**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
-|Who can bypass the lobby|**Only organizers and co-organizers**|Label|Yes|
+|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
 |Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
 
 Settings that are listed as enforced are enforced by the sensitivity label or meeting template. Settings that are not enforced can be changed by the meeting organizer.
+
+## Video demonstration
+
+Watch this video for a walkthrough of the procedures described in this article.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1bXYL]
 
 ## Options for recording meetings
 
@@ -107,7 +115,7 @@ While we'll leave attendee mic and camera enabled for meetings, we'll turn them 
 
 ## Sensitivity labels
 
-For the sensitive level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
+For the highly sensitive level of protection, we'll be using a sensitivity label that you can use directly in a meeting or as part of a meeting template. Depending on the configuration you choose, this label can also be used to classify teams and individual files.
 
 If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings if needed to meet the needs of your organization. If you already have a label that you use for sensitive information, you can edit the label and add Teams meetings to it.
 
@@ -120,9 +128,10 @@ To create a sensitivity label
 1. Click **Create a label**.
 1. Give the label a name. We suggest **Highly sensitive**, but you can choose a different name if that one is already in use.
 1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, select **Items** and **Include meetings**. (Note that you can select other options if you want to use this label for other purposes.)
+1. On the **Define the scope for this label** page, make sure **Items** and **Include meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
-1. Continue to select the options that you want to use with this label, and then on the **Settings for Teams meetings and chats** page, choose the following values:
+1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
+1. On the **Settings for Teams meetings and chats** page, choose the following values:
     1. Select **Control who can bypass the lobby** and select **Only organizers and co-organizers** from the dropdown list.
     1. Ensure that **People dialing in can bypass the lobby** is unchecked
     1. Select **Control who can present** and select **Only organizers and co-organizers** from the dropdown list.
@@ -142,12 +151,12 @@ For additional information about using sensitivity labels with meetings, see [Us
 
 In the *highly sensitive* level of protection, we're configuring the following settings by using a meeting template:
 
-- **Allow camera for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
-- **Allow mic for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
+- **Enable camera for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
+- **Enable mic for attendees** - **On** but not enforced for meetings and enforced **Off** for presentations.
 - **Manage what attendees can see** - Enforced **On** for both meetings and presentations.
 - **Meeting chat** - Enforced to **In-meeting only** for meetings and enforced to **Off** for presentations.
 
-Since these setting differ between meetings and presentations, we'll create a template for each which share the same sensitivity label.
+Since these settings differ between meetings and presentations, we'll create one template for meetings and another for presentations. Both templates can use the sensitivity label that we create above.
 
 #### Highly sensitive meetings template
 
@@ -158,7 +167,7 @@ To create a meeting template for highly sensitive meetings
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. Set **Meeting chat** to **In-meeting only** and then select the setting and select **Lock**.
+1. Set **Allow meeting chat** to **Enabled only in meeting** and then select the setting and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the setting and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
@@ -174,9 +183,9 @@ To create a meeting template for highly sensitive presentations
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
-1. Set **Allow mic for attendees** to **On** and then select the setting and select **Lock**.
-1. Set **Allow camera for attendees** to **On** and then select the setting and select **Lock**.
-1. Set **Meeting chat** to **Off** and then select the setting and select **Lock**.
+1. Set **Enable mic for attendees** to **Off** and then select the setting and select **Lock**.
+1. Set **Enable camera for attendees** to **Off** and then select the setting and select **Lock**.
+1. Set **Allow meeting chat** to **Disabled** and then select the setting and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the setting and select **Lock**.
 1. Change any additional settings if desired.
 1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.

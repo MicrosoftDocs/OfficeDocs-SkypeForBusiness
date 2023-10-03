@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (SIP Domains)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ On the **SIP Domain setting on Subject Alternate Names (SANs)** page, you should
 > [!NOTE]
 > You can choose not to select any of the SIP domains listed. But we recommend that you select the primary SIP domain that you will use. If you choose not to select any of the listed SIP domains and your configuration or requirements change, you must request a new certificate and select the SIP domains that are required with the new configuration. 
   
+
 

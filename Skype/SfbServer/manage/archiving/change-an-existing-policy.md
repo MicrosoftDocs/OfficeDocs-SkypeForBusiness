@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Change an existing archiving policy in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -78,3 +79,4 @@ To disable archiving altogether, set the value of both the ArchiveInternal and A
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 ```
+

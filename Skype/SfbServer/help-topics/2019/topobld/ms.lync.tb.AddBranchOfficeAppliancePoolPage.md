@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Survivable Branch Appliance Pool"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ To **Define the Survivable Branch Appliance FQDN**, type the fully qualified dom
 > [!NOTE]
 > Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure. 
   
+
 

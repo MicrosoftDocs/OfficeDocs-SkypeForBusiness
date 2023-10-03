@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Edge Server deployments in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -57,4 +58,5 @@ The planning articles are:
     
 - [Edge Server scenarios in Skype for Business Server 2015](scenarios.md)
     
+
 

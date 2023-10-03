@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure two-factor authentication in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -342,3 +343,4 @@ The following steps describe how to create a custom proxy configuration for Edge
 [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
 
 [Use two-factor authentication with Skype for Business client and Skype for Business Server](use-two-factor.md)
+

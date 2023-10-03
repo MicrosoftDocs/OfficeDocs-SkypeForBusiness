@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrate existing meetings and meeting content"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ The following user account information does not move to the new server.
   
 - **Meeting content**. In order to move the content shared during a meeting, such as PowerPoint, Whiteboard, attachments, or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet. 
     
+
 

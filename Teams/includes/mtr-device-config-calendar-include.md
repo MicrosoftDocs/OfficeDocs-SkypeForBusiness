@@ -21,3 +21,4 @@ Using a combination of room lists and place attributes selected by a user, Room 
 To create a room list, follow the instructions in [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 To configure the place attributes for a resource account, see [Set-Place](/powershell/module/exchange/set-place).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Import Certificate (Summary)"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "On the Import Certificate Summary page, you are presented with a s
  
 On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click **Next** to continue.
   
+
 

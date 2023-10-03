@@ -16,6 +16,7 @@ ms.collection:
   - m365solution-overview
   - m365initiative-meetings
   - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how to configure Teams meetings for better security using three tiers of protection, balancing security with ease of collaboration.
@@ -57,8 +58,8 @@ The following table summarizes the configurations for each tier. Use these confi
 |Meeting chat|**On**|**On**|**In-meeting only**|**Off**|
 |People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
-|Record automatically|**Off**|**Off**|**Off**|**Off**|
-|Who can bypass the lobby|**People in my organization, people in trusted domains, and guests**|**People who were invited**|**Only me and co-organizers**|**Only me and co-organizers**|
+|Record meetings automatically|**Off**|**Off**|**Off**|**Off**|
+|Who can bypass the lobby?|**People in my organization, people in trusted domains, and guests**|**People who were invited**|**Only me and co-organizers**|**Only me and co-organizers**|
 |Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
 |Who can record|**Organizers and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 
@@ -142,16 +143,14 @@ For the baseline tier, we allow everyone except anonymous attendees to bypass th
 
 As an admin, you can control the lobby in the following ways:
 
-- The **Who can bypass the lobby** admin meeting policy (per user or group)
+- The **Who can bypass the lobby?** admin meeting policy (per user or group)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group)
-- The **Who can bypass the lobby** setting in sensitivity labels and meeting templates (per meeting)
+- The **Who can bypass the lobby?** setting in sensitivity labels and meeting templates (per meeting)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group) or in sensitivity labels and meeting templates (per meeting)
 
 These settings are also available to the meeting organizer unless they've been locked by a sensitivity label or template.
 
-
 While the admin policy sets a default, you need a template or label to enforce
-
 
 If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these settings.
 

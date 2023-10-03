@@ -1,6 +1,7 @@
 ---
+ms.date: 06/22/2018
 title: "Plan a Cloud auto attendant"
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
@@ -112,3 +113,4 @@ Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mai
 [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: Calls to Subscriber Access or auto attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+

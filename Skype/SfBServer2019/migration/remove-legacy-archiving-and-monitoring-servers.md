@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove legacy Archiving and Monitoring servers"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ You can move users to Skype for Business Server 2019 by following the procedures
   
 After you have confirmed that all users have been removed from any remaining pools, decommision the server and remove roles. A dated, but relevant, example is "Uninstalling Microsoft Lync Server and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).
   
+
 

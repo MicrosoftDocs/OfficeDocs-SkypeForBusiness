@@ -37,8 +37,8 @@ This article describes some of the limits, specifications, and other requirement
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 10,000       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams a Microsoft 365 or Office 365 organization can have    | 500,000&sup3;     |
-|Number of channels per team    | 200 (includes deleted channels)<sup>4</sup>        |
-|Number of Private channels per team    |30 (includes deleted channels)<sup>4</sup>        |
+|Number of channels per team    | 1,000 (includes deleted channels)<sup>4,7</sup>         |
+|Number of Private channels per team    | 30 (includes deleted channels)<sup>4</sup>        |
 |Number of members in a Private channel    |250|
 |Maximum size of distribution list, security group or Microsoft 365 group that can be imported in to a team    |3,500|
 |Maximum number of members in a Microsoft 365 group that can be converted to a team    |10,000<sup>6</sup>     |
@@ -50,11 +50,13 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
 
-<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 200 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts towards the per team limit.
+<sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 1,000 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts toward the per-team limit.
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
 <sup>6</sup> Shared channels members from outside the team count toward this limit. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+
+<sup>7</sup> Any combination of standard and shared channels including up to 30 private channels for a total of 1,000 channels per team.
 
 ### Limits for shared channels
 
@@ -63,7 +65,7 @@ The following table describes the maximum number of channels and members.
 |Maximum...|Value|Notes|
 |:---------|:----|:----|
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
-|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
+|Shared channels per team|up to 1,000 |Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
 |Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
@@ -118,8 +120,8 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 > [!NOTE]
 > There is a throttling limit on how many emails you can send to a channel. The limit is six emails per ten seconds per channel per user and eight emails per ten seconds per tenant per user.
-<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
+<sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.<br/>
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
 
 For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
@@ -143,10 +145,10 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300).|
+|Number of people in a meeting (can chat and call in)  | With Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, and Microsoft 365 A1 plans, you can host online meetings and video calls for up to 300 people using Microsoft Teams. With Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans, this limit increases up to 1,000 people.|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
-|Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+|Teams keeps [meeting recordings](meeting-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 | Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording will end and automatically restart.
 
 For more information, see [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events).  
@@ -180,7 +182,7 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 4 hours |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 15 |
 
-<sup>1</sup> The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).  
+<sup>1</sup> The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).  
   
 <sup>2</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
@@ -189,7 +191,7 @@ For more information about live events, go to [Teams live events](teams-live-eve
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2023, including:**
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through December 31, 2023, including:**
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
@@ -247,7 +249,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 
 |Feature  |Maximum limit  |
 |---------|---------|
-|Number of tags per team    | 100        |
+|Number of tags per team    | 200        |
 |Number of suggested default tags per team    | 25        |
 |Number of team members assigned to a tag    |200         |
 |Number of tags assigned to a user per team    |25         |

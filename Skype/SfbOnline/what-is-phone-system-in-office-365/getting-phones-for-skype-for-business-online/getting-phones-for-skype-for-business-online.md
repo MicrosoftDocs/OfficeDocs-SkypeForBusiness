@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Getting phones for Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
@@ -124,3 +125,4 @@ For step-by-step setup instructions, see [Deploying Skype for Business Online ph
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
+

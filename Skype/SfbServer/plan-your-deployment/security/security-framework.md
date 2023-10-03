@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Security framework for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -53,4 +54,5 @@ The topics in this section describe how each of these fundamental elements works
     
 - [Windows PowerShell and Skype for Business Server management tools](management-tools.md)
     
+
 

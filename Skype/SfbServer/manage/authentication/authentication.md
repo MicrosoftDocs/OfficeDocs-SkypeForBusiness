@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage authentication in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -40,3 +41,4 @@ Use the following procedures to manage Skype for Business Server security and au
 - [Manage PIN settings in Skype for Business Server](pin-settings.md)
     
 - [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
+

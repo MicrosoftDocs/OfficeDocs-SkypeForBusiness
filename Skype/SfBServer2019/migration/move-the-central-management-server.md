@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move the Central Management Server"
 ms.reviewer: 
 ms.author: serdars
@@ -127,4 +128,5 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
 
     Where the  _\<FQDN of SQL Server\>_ is either the legacy install Back End Server in an Enterprise Edition deployment or the FQDN of the Standard Edition server. 
     
+
 

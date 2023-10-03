@@ -1,19 +1,21 @@
 ---
 title: Deploy Microsoft Teams Rooms on Android
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
-ms.reviewer: payurevi
+ms.reviewer: 
 ms.date: 04/21/2020
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-devices
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
@@ -34,8 +36,6 @@ To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Te
 While the ordered devices are being delivered to your organization, work with your networking, facilities, and audio-visual teams to make sure that deployment requirements are met and each site and room is ready in terms of power, networking, and display.
 
 Our recommendations for Teams Rooms on Android sites are:
-
-- Rooms up to 5 people in size
 - Dedicated resource accounts
 - Touch-enabled displays
 - Ethernet cabling
@@ -117,4 +117,6 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 ## Related topics
 
-[Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md)
+[Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md)
+
+

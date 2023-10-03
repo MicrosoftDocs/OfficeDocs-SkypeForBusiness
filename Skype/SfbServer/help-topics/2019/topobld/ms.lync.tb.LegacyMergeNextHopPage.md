@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge Next Hop"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "The Next Hop FQDN identifies the next hop server to which the lega
  
 The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic. Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**. 
   
+
 

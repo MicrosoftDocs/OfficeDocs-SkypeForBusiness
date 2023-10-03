@@ -1,7 +1,8 @@
 ---
+ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business"
-ms.author: dstrome
-author: dstrome
+ms.author: serdars
+author: tonysmit
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -70,3 +71,4 @@ Browse all [devices Certified for Teams](https://products.office.com/microsoft-t
 Learn about [Skype for Business certification](overview.md).
 
 Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
+

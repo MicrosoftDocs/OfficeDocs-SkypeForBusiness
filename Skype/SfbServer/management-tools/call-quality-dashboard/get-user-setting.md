@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get User Setting"
 ms.reviewer: 
 ms.author: serdars
@@ -58,4 +59,5 @@ Get User Setting returns a single user setting.
   
  *value*  - Value of the setting.
   
+
 

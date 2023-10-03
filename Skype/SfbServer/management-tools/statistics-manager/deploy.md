@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Statistics Manager for Skype for Business Server"
 ms.reviewer:
 ms.author: serdars
@@ -302,3 +303,4 @@ For more information, see the following topics:
 - [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
 
 - [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Move remaining users"
 ms.reviewer: 
 ms.author: serdars
@@ -39,4 +40,5 @@ When you move a user to a Skype for Business Server 2019 pool, the data for the 
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
     
+
 

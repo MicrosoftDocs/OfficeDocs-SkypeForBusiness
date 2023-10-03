@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Item Ancestors"
 ms.reviewer: 
 ms.author: serdars
@@ -63,4 +64,5 @@ Get Item Ancestors returns a specific items ancestors from the repository.
   
  *Item3*  - Title of the item.
   
+
 

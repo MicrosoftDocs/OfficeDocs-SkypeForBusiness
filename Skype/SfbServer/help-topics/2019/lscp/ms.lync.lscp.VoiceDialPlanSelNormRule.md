@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Normalization Rules"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ To use an existing normalization rule, click a rule in the list and then click *
   
  
   
+
 

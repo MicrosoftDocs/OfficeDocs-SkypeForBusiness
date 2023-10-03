@@ -1,11 +1,12 @@
 ---
+ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: rafarrbronisevsky, alsolom
+ms.reviewer: alsolom
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: normal
@@ -25,32 +26,32 @@ description: Learn how to plan for meetings with people outside your organizatio
 
 # Plan for meetings with external participants in Microsoft Teams
 
-You can allow people from outside your organization to join Teams meetings that are hosted by users in your organization. This article describes the options available for hosting meetings with people outside your organization, which types of external meeting participants can be validated, and which Teams features are used to control their access to meetings.
+You can allow people from outside your organization to join Teams meetings that are hosted by users in your organization. This article describes the options available for hosting meetings with people outside your organization, which types of external meeting participants can be verified, and which Teams features are used to control their access to meetings.
 
-How external participants can attend meetings depends on a combination of your Teams admin configuration and their identity provider. Some external participants can be validated by Teams and others are considered anonymous.
+How external participants can attend meetings depends on a combination of your Teams admin configuration and their identity provider. Some external participants can be verified by Teams and others are considered anonymous.
 
 There are three types of external participants who can attend meetings hosted by your organization:
 
 - **Guests** - people who are logged in to Teams in your organization using a guest account
 - **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a two-way trust relationship with
-- **Anonymous** - people whose identity can't be validated. They may be logged in to an organization without a two-way trust relationship or they may not have an account.
+- **Anonymous** - people whose identity can't be verified. They may be logged in to an organization without a two-way trust relationship or they may not have an account.
 
-## Meeting with validated external participants
+## Meeting with verified external participants
 
-A *validated* external meeting participant is one that is logged in to Teams in Microsoft 365 in way that you trust. There are two types of validated external meeting participants:
+A *verified* external meeting participant is one that is logged in to Teams in Microsoft 365 in way that you trust. There are two types of verified external meeting participants:
 
 - **Guests** - people who are logged in to Teams with a [guest account](guest-access.md) in your directory. Guests can be anyone with an email address, including people from other Microsoft 365 organizations.
-- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](manage-external-access.md) and who have the required user-level external access permissions
+- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
-External participants who are not validated in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
+External participants who are not verified in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
 
 People who don't have a work or school account in Microsoft 365 must be invited as guests to your organization and can join meetings using guest access. People in other Microsoft 365 organizations can join meetings through the external access feature. (They can also join as guests if they have guest accounts.)
 
-When planning your configuration for external meetings, consider the types of meetings where you want all participants to be validated and which can allow anonymous participants. You might want all confidential meetings to have only validated participants, whereas there may be marketing or sales meetings where anonymous participants are fine.
+When planning your configuration for external meetings, consider the types of meetings where you want all participants to be verified and which can allow anonymous participants. You might want all confidential meetings to have only verified participants, whereas there may be marketing or sales meetings where anonymous participants are fine.
 
 ### Meetings with non-Microsoft 365 organizations
 
-When meeting with people from non-Microsoft 365 organizations, you must add each individual who you want to meet with to your organization's directory as guests in order for them to be validated meeting participants.
+When meeting with people from non-Microsoft 365 organizations, you must add each individual who you want to meet with to your organization's directory as guests in order for them to be verified meeting participants.
 
 [Guest access in Teams must be enabled](/microsoft-365/solutions/collaborate-as-team) in order for guests to be able to join meetings. Your users can invite guests to their teams (which will add them to the directory), or you can [add them directly in the Azure AD portal](/azure/active-directory/external-identities/add-users-administrator).
 
@@ -58,7 +59,7 @@ Guests must log in to Teams with their guest account in order to join meetings. 
 
 ### Meetings with other Microsoft 365 organizations
 
-To have meetings with validated participants in other Microsoft 365 organizations, you can either use guest access as described above, or you can use the external access feature in Teams. For more information about the differences between guest access and external access, see [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
+To have meetings with verified participants in other Microsoft 365 organizations, you can either use guest access as described above, or you can use the external access feature in Teams. For more information about the differences between guest access and external access, see [Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md).
 
 In external access, you define which Microsoft 365 organizations you want to trust and which users in your organization you want to allow to host meetings with them. The other organization must similarly configure external access to trust your organization and to allow their users to communicate with external Teams and Skype for Business users.
 
@@ -68,13 +69,27 @@ Similarly, if a meeting organizer in your organization doesn't have external acc
 
 If [anonymous meeting join](anonymous-users-in-meetings.md) is turned off, anonymous participants won't be able to join meetings at all.
 
-For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](manage-external-access.md).
+For information on how to configure external access, see [Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
+
+### Meetings with Microsoft 365 organizations in other clouds
+
+Cross-cloud meetings are supported as follows:
+
+|Meet with:|Commercial|GCC|GCC High|DoD|China|
+|:---------|:--------:|:-:|:------:|:-:|:---:|
+|Commercial|          |✔️|✔️      |✔️ |✔️  |  
+|GCC       |✔️       |   |✔️      |✔️ |✔️  |  
+|GCC High  |✔️       |✔️|         |✔️ |     |  
+|DoD       |✔️       |✔️|✔️      |    |     |  
+|China     |✔️       |✔️|         |    |     |  
+
+[Meet with people in other Microsoft 365 clouds](cross-cloud-meetings.md)
 
 ## Meetings with anonymous participants
 
-Any participant attempting to join a Teams meeting who can't be validated will be considered anonymous. Anonymous meeting access is turned on by default. If your compliance requirements or business rules require that all meeting participants be validated, you can turn anonymous access off for certain meeting organizers or for everyone.
+Any participant attempting to join a Teams meeting who can't be verified will be considered anonymous. Anonymous meeting access is turned on by default. If your compliance requirements or business rules require that all meeting participants be verified, you can turn anonymous access off for certain meeting organizers or for everyone.
 
-For details about configuring anonymous meeting access, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md).
+For details about configuring anonymous meeting access, see [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md) and [Manage chat in Teams meetings](manage-meeting-chat.md).
 
 ## Dial-in users
 
@@ -91,3 +106,4 @@ The lobby can be configured by the meeting organizer before or during the meetin
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
+

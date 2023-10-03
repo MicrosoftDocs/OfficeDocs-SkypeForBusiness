@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Viewing network interface information'
 ms.reviewer: 
 ms.author: serdars
@@ -38,3 +39,4 @@ ConfiguredIPv6Address :
 ```
 
 For details, see [Get-CsNetworkInterface](/powershell/module/skype/Get-CsNetworkInterface).
+

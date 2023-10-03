@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Assign a per-user PIN policy in Skype for Business Server"
 ms.reviewer:
 ms.author: serdars
@@ -106,3 +107,4 @@ For details, see [Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy)
 ## See also
 
 [Create a new PIN policy in Skype for Business Server](create-a-new-pin-policy.md)
+

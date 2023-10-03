@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage Registrar configuration settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -126,3 +127,4 @@ You can delete the Registrar configuration settings by using Windows PowerShell 
   ```
 
 For details, see [Remove-CsProxyConfiguration](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps).
+

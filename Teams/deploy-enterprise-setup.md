@@ -92,7 +92,7 @@ Meetings and conferencing let people in your organization meet with each other a
 |--|--|
 | What org-wide meeting settings should be applied| Meeting policies control which meeting features are available to organizers and participants of meetings. You can control whether anonymous participants can join meetings, customize meeting invites, control how real-time media is handled, and more. When you make changes to these settings, they apply to all meetings in your organization. <p>[Manage meeting settings in Microsoft Teams](meeting-settings-in-teams.md)|
 | What meeting policies should be applied? | Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can control whether users can schedule private meetings, enable the Meet Now option, allow meetings to be recorded, and so on. Teams has a global policy that applies to everyone.<p> If you want the same policy to apply to everyone, all you need to do is make changes to this global policy (for example, turn off the recording of meetings). <p>If you want different policies for different groups of people (for example, one policy for office workers and another for executives), you can create and assign policies. When you assign a policy to a user, the global policy no longer applies to them.<p> [Manage meeting policies in Teams](meeting-policies-overview.md)|
-| Do you want to allow meeting recording and archiving?| Meeting organizers can record and archive meetings in the cloud. You can turn meeting recording and archiving on or off using meeting policies.<p> [Teams cloud meeting recording](cloud-recording.md) |
+| Do you want to allow meeting recording and archiving?| Meeting organizers can record and archive meetings in the cloud. You can turn meeting recording and archiving on or off using meeting policies.<p> [Teams meeting recording](meeting-recording.md) |
 
 ### Audio conferencing
 
@@ -150,7 +150,7 @@ Teams and Microsoft 365 provide many tools that can help you conform to regulato
 
 ## Clients
 
-When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 Make sure everyone who will be using Teams has a Teams license. For more information about assigning a Teams license, see [Manage user access to Teams](user-access.md#using-the-microsoft-365-admin-center).
 

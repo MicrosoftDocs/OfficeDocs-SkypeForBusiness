@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Certificate Authority)"
 ms.reviewer: 
 ms.author: serdars
@@ -32,4 +33,5 @@ If you select the second option, type in the fully qualified domain name (FQDN) 
 > [!IMPORTANT]
 > Be sure to confirm the group memberships that you need to be successful with the certificate request. Typically, certification authorities have a different permission requirement from the requirements for installing Skype for Business Server on servers. Confirm the requirements for requesting the certificate with your CA administrator. 
   
+
 

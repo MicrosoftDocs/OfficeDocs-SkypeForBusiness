@@ -1,4 +1,5 @@
 ---
+ms.date: 09/27/2018
 title: "Testing admin topology rights in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

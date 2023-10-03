@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Configure federation routes and media traffic"
 ms.reviewer: 
 ms.author: serdars
@@ -175,4 +176,5 @@ Use the following procedures to transition the federation route and the media tr
     
 8. Click **OK** to close the **Properties** window. 
     
+
 

@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Emails sent to users when their settings change in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -166,3 +167,4 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
 [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
+

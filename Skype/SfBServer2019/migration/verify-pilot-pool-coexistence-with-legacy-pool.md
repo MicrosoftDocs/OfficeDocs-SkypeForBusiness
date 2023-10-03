@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify pilot pool coexistence with legacy pool"
 ms.reviewer: 
 ms.author: serdars
@@ -65,4 +66,5 @@ This topology now includes legacy and Skype for Business Server 2019 server role
 The topology can only be viewed using Skype for Business Server 2019 Topology Builder. The Skype for Business Server 2019 Topology Builder must be used to create pools for both Skype for Business Server 2019 and the legacy install.
 
   
+
 

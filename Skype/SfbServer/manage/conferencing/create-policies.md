@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create conferencing policies in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -122,3 +123,4 @@ New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
 For more information, including a complete syntax description and list of parameters, see [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+

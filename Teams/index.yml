@@ -13,7 +13,7 @@ metadata:
   audience: ITPro
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
+  ms.date: 06/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
   ms.custom: 
   - seo-marvel-apr2020
@@ -154,10 +154,19 @@ additionalContent:
             - text: "Contoso case study: Teams voice migration"
               url: ./voice-case-study-overview.md
         # Card
+        - title: Devices and rooms
+          links:
+            - text: Microsoft Teams Rooms
+              url: ./rooms/index.md
+            - text: Microsoft Teams Rooms Pro
+              url: ./rooms/rooms-pro-management.md
+            - text: Devices
+              url: ./devices/device-store.md
+        # Card
         - title: Extend Teams functionality
           links:
             - text: Apps in Microsoft Teams
-              url: ./deploy-apps-microsoft-teams-landing-page.md
+              url: ./apps-in-teams.md
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform

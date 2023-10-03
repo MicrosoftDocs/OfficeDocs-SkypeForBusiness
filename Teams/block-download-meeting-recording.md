@@ -14,6 +14,8 @@ ms.date: 03/01/2023
 ms.collection:
 - Tier1
 - Highpri
+- Tier1
+- m365initiative-meetings
 search.appverid:
 - SPO160
 - MET150

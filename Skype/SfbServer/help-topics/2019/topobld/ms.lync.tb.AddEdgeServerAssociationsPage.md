@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Server Associations"
 ms.reviewer: 
 ms.author: serdars
@@ -25,4 +26,5 @@ Each Front End pool can be associated with only one Edge pool. If you select a p
   
 You can also choose to associate this Edge Server or Edge pool with Mediation Servers or Mediation Server pools to configure and enable Enterprise Voice for external users.
   
+
 

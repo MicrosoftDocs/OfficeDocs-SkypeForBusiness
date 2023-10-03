@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "User experience during pool failure in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -61,4 +62,5 @@ The term affected user refers to any user who was failed over from the home pool
 |Ongoing conferences organized by unaffected user  <br/> |Conference continues, and affected user can stay in the conference and all modalities work.  <br/> |Conference continues, and affected user can stay in the conference and all modalities work.  <br/> |
 |All peer-to-peer sessions and modalities  <br/> |Available  <br/> |Available  <br/> |
    
+
 

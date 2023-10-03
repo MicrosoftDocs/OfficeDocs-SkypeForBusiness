@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
@@ -52,7 +53,7 @@ Meetings can be set to record automatically when they start. Normally, the meeti
 
 If there are certain types of meetings that should always be recorded, you can enforce this option by using a meeting template or a sensitivity label.
 
-If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meeting need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
+If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meetings need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
 
 ## Recording lifecycle
 
@@ -67,7 +68,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For information about configuring admin meeting policies for meeting recordings, see [Teams cloud meeting recording](/microsoftteams/cloud-recording).
+For information about configuring admin meeting policies for meeting recordings, see [Teams meeting recording](/microsoftteams/meeting-recording).
 
 For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 

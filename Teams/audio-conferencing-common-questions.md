@@ -12,8 +12,10 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -58,7 +60,7 @@ Yes, toll-free phone numbers (service numbers) are available but only in some co
 
 There are local dial-in numbers that are assigned to you when you purchase the licenses for Audio Conferencing. The dial-in numbers will be included in the meeting invite. These local numbers will be only available to your organization. The phone assigned to your organization and that number is shared by the users within that organization that are enabled for Audio Conferencing. That means that Teams meetings scheduled by User A and another User B will both have the same dial-in number.
   
-Local dial-in numbers, and also in some cases international dial-in numbers from the country where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is included in the invite, it will be a shared phone number.
+Local dial-in numbers, and also in some cases international dial-in numbers from the country/region where your organization is located, will be included on the meeting invite. If a meeting attendee uses a different number that is included in the invite, it will be a shared phone number.
   
 ## How many international dial-in numbers does Audio Conferencing in Microsoft 365 or Office 365 support?
 
@@ -94,12 +96,7 @@ No, a user can't get any operator assistance or support by pressing *0 during th
   
 ## How does a user access or change their conference ID?
 
-Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up.
-  
-> [!NOTE]
-> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization.
-  
-We're working on a solution that will let the user access and reset a conference ID without help from an organization's admin.
+Teams users can find the conference ID assigned to them by scheduling a meeting in Outlook and Outlook on the web. Users won't be able to reset the conference ID associated with a meeting.
 
 ## How do users access or change their PIN?
 

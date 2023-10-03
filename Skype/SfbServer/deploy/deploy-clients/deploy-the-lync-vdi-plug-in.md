@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy the Lync VDI plug-in with Skype for Business Server"
 ms.author: serdars
 author: SerdarSoysal

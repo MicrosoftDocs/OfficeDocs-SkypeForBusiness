@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Users View or Configure External Access Policy"
 ms.reviewer: 
 ms.author: serdars

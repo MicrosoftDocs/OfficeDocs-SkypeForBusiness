@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Registrar Security Settings"
 ms.reviewer: 
 ms.author: serdars

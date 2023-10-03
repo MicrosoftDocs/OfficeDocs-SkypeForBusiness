@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Public Key Infrastructure for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -36,4 +37,5 @@ Skype for Business Server requires all server certificates to contain one or mor
 
 Skype for Business Server requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.
   
+
 

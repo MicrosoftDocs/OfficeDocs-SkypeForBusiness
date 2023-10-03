@@ -1,4 +1,5 @@
 ---
+ms.date: 07/06/2018
 title: "Desktop client feature comparison for Skype for Business Server 2019"
 ms.author: serdars
 author: SerdarSoysal

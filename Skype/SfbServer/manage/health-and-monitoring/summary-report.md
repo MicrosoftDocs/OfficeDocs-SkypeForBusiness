@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Diagnostic Summary Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -86,4 +87,5 @@ The following table lists the information provided in the Call Diagnostic Report
 |**MCU sessions** <br/> |No  <br/> |Total number of conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.  <br/> |
 |**MCU failure rate** <br/> |No  <br/> |Percentage of the conferencing server-based (formerly known as Multipoint Control Unit or MCU) conferences that failed.  <br/> |
    
+
 

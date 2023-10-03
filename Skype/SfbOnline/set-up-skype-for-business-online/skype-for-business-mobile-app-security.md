@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Skype for Business mobile app security"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -43,3 +44,4 @@ This article covers data encryption information on Skype for Business Mobile App
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
   
+

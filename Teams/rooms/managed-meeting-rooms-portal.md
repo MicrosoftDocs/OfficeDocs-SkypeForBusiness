@@ -3,15 +3,17 @@ title: Microsoft Teams Rooms Pro Management Portal
 author: altsou
 ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: tonysmit
 ms.date: 10/27/2021
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

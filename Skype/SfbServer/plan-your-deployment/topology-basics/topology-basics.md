@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Topology Basics for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars

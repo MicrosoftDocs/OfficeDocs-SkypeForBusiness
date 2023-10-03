@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Video Gateway General Settings"
 ms.reviewer: 
 ms.author: serdars
@@ -32,3 +33,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
 ## See also
 
 [Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+

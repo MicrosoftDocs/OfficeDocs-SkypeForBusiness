@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Update DNS SRV records"
 ms.reviewer: 
 ms.author: serdars
@@ -43,4 +44,5 @@ This topic describes how to update the Domain Name System (DNS) records after mi
     
 5. Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.
     
+
 

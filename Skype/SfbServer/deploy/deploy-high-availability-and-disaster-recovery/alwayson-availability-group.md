@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -430,3 +431,4 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
       ```
 
       - Repeat the previous two steps (fail over the group to a secondary replica, then use  `Install-CsDatabase -Update`) for each replica in the group.
+
