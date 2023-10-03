@@ -190,3 +190,29 @@ Issues from classic Teams are now fixed in new Teams:
 
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
+
+
+## VDI Feature comparison between classic Teams and new Teams
+
+All the multimedia features that work on the classic Teams client are expected to work in the new Teams client. For specific feature matrix, please check your VDI Provider website.
+ 
+|Provider|Details|
+|:-----|:-----|
+|Azure Virtual Desktops and Windows 365|[Supported features for Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-supported-features)|
+|Citrix|[Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)|
+|VMware|[MS Teams Optimization Feature Compatibility Matrix for Horizon 7 and Horizon 8 Recent Releases. (86475) (vmware.com)](https://kb.vmware.com/s/article/86475)|
+
+## Features not supported in VDI (either Classic or New Teams)
+
+- QoS
+- 1080p
+- Custom Backgrounds
+- Gallery View 3x3 and 7x7
+- Noise Suppression
+- Zoom In / Out
+- Location Based Routing
+- Media Bypass
+- HID (Citrix only)
+- Share System Audio (Citrix and VMware)
+- Broadcast and live event producer and presenter roles
+- Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
