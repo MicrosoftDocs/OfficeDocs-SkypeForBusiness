@@ -1643,6 +1643,8 @@ items:
           href: manage-admin-app.md
         - name: Manage the avatars app
           href: meeting-avatars.md
+        - name: Manage the immersive spaces app
+          href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
