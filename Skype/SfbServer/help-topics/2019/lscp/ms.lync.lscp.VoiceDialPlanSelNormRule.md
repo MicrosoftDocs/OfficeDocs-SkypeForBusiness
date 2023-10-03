@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Select Normalization Rules"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceDialPlanSelNormRule
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -25,4 +26,5 @@ To use an existing normalization rule, click a rule in the list and then click *
   
  
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/19/2018
 title: "Infrastructure qualified for Microsoft Lync"
 ms.author: serdars
 author: msdmaguire
@@ -29,5 +30,6 @@ description: "Infrastructure partner qualification requirements for Lync."
 Find out more about the Microsoft Unified Communications Open Interoperability Program (UCOIP) for enterprise telephony services and infrastructure, including finding qualified SIP trunking services, E911 service providers, survivable branch appliances, SIP-PSTN gateways, session border controllers (SBCs), and IP-PBXs.
 
 These topics detail infrastructure and services qualified with Lync Server. <!-- note that this was the landing page with tiles that have  become pages -->
+
 
 

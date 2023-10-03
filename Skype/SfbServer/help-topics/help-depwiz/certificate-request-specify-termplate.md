@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: "The Specify Alternate Certificate Template page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box Use alternate certificate template for selected certification authority, and then define the name of the alternate certificate template in the text box Certificate template name. You must use the name of the template as it is defined in the certification authority (CA). Click Back to go back to the previous page. Click Cancel to end the certificate request process."

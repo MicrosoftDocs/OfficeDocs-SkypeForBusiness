@@ -3,13 +3,16 @@ title: "Complaint handling code for U.K. - Microsoft 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, allancar
+ms.reviewer: mikedav
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -57,7 +60,7 @@ Ombudsman Services is independent of Microsoft and will render an impartial deci
 
 All complaints must be sent to Ombudsman Services within twelve (12) months of filing the complaint with Skype for Business.
 
-The steps for referring a complaint to Ombudsman Services can be found on the Ombudsman Services' [website](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
+The steps for referring a complaint to Ombudsman Services can be found on the Ombudsman Services' [Ombudsman Services' website](https://www.ombudsman-services.org/).
 
 You may reach Ombudsman Services by filling out a contact form on the Ombudsman Services' website or by phone, letter, or email:
 
@@ -84,4 +87,3 @@ You may reach Ombudsman Services by filling out a contact form on the Ombudsman 
 
 ## Related topics
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

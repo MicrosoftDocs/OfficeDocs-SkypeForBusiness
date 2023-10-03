@@ -1,11 +1,12 @@
 ---
 title: Live events recording policies
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
+ms.date: 06/10/2020
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -13,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn about live event recording policies.
 appliesto: 
   - Microsoft Teams
@@ -64,4 +66,4 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 - [What is Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
-- [Teams clouds meeting recording](../cloud-recording.md)
+- [Teams clouds meeting recording](../meeting-recording.md)

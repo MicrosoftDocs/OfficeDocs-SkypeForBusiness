@@ -1,12 +1,12 @@
 ---
 title: Use the Network planner for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: 
 audience: admin
 description: Admin can learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 ms.localizationpriority: medium

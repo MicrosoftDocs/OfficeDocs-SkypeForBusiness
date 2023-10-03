@@ -1,12 +1,13 @@
 ---
+ms.date: 01/31/2019
 title: "Exchange Unified Messaging Online migration support" 
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
-ms.reviewer: waseemh, dstrome, balinger
+ms.reviewer: waseemh, balinger
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -132,7 +133,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | Service | Feature level | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Service Features| Support 3rd-party PBX    | Including all features provided to third party PBX such as MWI (Message Waiting Indicator) using SIP notify messages from Exchange UM Online | N   | Y    |
-| VM | Service Features  | Support Skype for Business Server   |  | Y | Y    |
+| VM | Service Features  | Support Skype for Business Server   |  | Y | Y    |
 | VM | Service Features | Support Microsoft Teams|  | Y | N    |
 | VM | Service Features | eDiscovery and Hold  | For security and compliance  | Y | Y    |
 | VM | Service Features | Exchange Rules support | For security and compliance  | Y | Y    |

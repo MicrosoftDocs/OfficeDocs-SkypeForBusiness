@@ -1,6 +1,7 @@
 ---
+ms.date: 04/04/2018
 title: "IP Relay Canada User Guide"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
@@ -81,6 +82,7 @@ Please contact Special Projects at [specialprojects@northern911.com](mailto:spec
 ## Related topics
 
 [IP Relay in Canada - sign up](ip-relay-canada-email-signup.md)
+
 
 
 

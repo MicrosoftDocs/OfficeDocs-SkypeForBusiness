@@ -3,7 +3,8 @@ title: Assign policies to large sets of users in your school
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: karsmith, angch, cebulnes
+ms.reviewer: angch
+ms.date: 03/09/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -11,9 +12,12 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - remotework
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 search.appverid: MET150
 description: Learn how to assign policies to large sets of users in your educational institution based on group membership or directly through a batch assignment for remote school (teleschool, tele-school) purposes. 
 f1keywords: 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Schema (Invoke)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeploySchemaPrepInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ The **Executing Commands** page displays a summary of the commands that are issu
   
 Click **Finish** to complete the task.
   
+
 

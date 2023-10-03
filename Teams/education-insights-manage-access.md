@@ -6,7 +6,8 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
+ms.date: 02/05/2021
 description: Manage user access to Education Insights in Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -14,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
@@ -32,7 +34,7 @@ To provide organization-level Insights, you must [import data from the Student I
 > [!TIP]
 > We recommend that you enable Insights for all your education leaders so that they have the data to understand each school, and the ability to quickly identify problems and provide support to their educators. Even if you're running a pilot, it may still be helpful to keep Insights enabled for all education leaders, but only target communications to the pilot group of users.
 
-## Manange permissions
+## Manage permissions
 
 * Open the Insights app, click **Settings**, and select **User permissions**
 
@@ -43,6 +45,9 @@ To provide organization-level Insights, you must [import data from the Student I
 > 
 > Only provide permission to those education leaders that need them and only to the organizational units they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
 
+> [!IMPORTANT]
+> After assigning permissions for the first time, users will be able to view the data within the app only if at least **two** users have accessed the app. This requirement helps to ensure that the time zone for the data is configured correctly and the data is displayed accurately for all users. If users are experiencing issues accessing the data after permissions have been granted, check if at least two users have accessed the app.
+
 ## Role-based permissions
 
 If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
@@ -51,7 +56,6 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 > When a user is assigned a role, they automatically receive the correct permissions to see the data relevant to them.
 >
 > If a user is no longer in a role, their permission for that role is automatically revoked (though they may still have individual permissions).
-
 
 * If required, click the **Role-based permissions** tab.
 

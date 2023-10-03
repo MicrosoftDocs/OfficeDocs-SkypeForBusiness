@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Turn on or off Offline Messages for admins"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -96,3 +97,4 @@ To enable or disable Offline Messages send Offline Messages for a user, set  _En
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+

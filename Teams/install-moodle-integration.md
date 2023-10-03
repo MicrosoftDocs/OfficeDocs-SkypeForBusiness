@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: 
+ms.date: 04/05/2019
 search.appverid: MET150
 description: Learn how to install and configure the Moodle open-source Learning Management System (LMS) app for Microsoft Teams.
 keywords: Teams Moodle app integration plugin
@@ -15,6 +16,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -27,7 +29,7 @@ appliesto:
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle](https://moodle.org/), the most popular and open-source Learning Management System (LMS) in the world, is now integrated with Microsoft Teams! This integration helps educators and teachers collaborate around Moodle courses, ask questions about their grades and assignments and stay updated with notifications -- right within Teams!
+[Moodle](https://moodle.org/), the most popular and open-source Learning Management System (LMS) in the world, is now integrated with Microsoft Teams! This integration helps teachers and students collaborate around Moodle courses, ask questions about their grades and assignments and stay updated with notifications -- right within Teams!
 
 To help IT admins easily set this integration up, we have updated our open-source Moodle Plugin with the following capabilities:
 

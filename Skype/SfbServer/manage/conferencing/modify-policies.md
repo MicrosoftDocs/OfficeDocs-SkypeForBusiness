@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Modify conferencing policies in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -45,3 +46,4 @@ Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecor
 ```
 
 For more information, including complete syntax and a list of parameters, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+

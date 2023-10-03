@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Voice Routing Status of Commit Changes for Voice Routing Configuration"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoicePublishSum
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ If the changes were not completed, review the messages in this dialog box, chang
   
  
   
+
 

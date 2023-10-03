@@ -1,4 +1,5 @@
 ---
+ms.date: 11/01/2018
 title: "Manage trusted applications"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,7 +36,7 @@ Use this article to learn how to configure a new trusted application server, vie
 
 6.  Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.
 
-7.  On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.
+7.  On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.
 
 8.  Click **Finish**.
 

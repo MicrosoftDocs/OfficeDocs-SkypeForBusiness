@@ -1,8 +1,8 @@
 ---
 title: Configure the Skype Meetings App to work with Teams
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
+author: wlibebe
+ms.author: wlibebe
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -14,6 +14,7 @@ f1.keywords:
 description: Admins can use the Microsoft Teams admin center to configure the Skype Meetings App to work with Teams
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

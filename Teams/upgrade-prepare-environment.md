@@ -1,11 +1,12 @@
 ---
 title: Prepare your environment for upgrading to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 05/29/2018
 audience: admin
 description: Validate your environment and network readiness before beginning your upgrade from Skype for Business to Teams. 
 ms.localizationpriority: medium

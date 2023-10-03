@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Reset the global policy for external user access'
 ms.reviewer: 
 ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -50,3 +51,4 @@ The global external access policy can be reset by using Windows PowerShell and t
   - This command resets the global external access policy:<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
 For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.
+

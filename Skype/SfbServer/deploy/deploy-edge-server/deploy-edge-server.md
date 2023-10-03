@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Edge Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -43,4 +44,5 @@ These are the high-level steps you'll need to follow, and the places you'll find
     
 - [Validate your Edge deployment in Skype for Business Server](validate-edge-deployment.md)
     
+
 

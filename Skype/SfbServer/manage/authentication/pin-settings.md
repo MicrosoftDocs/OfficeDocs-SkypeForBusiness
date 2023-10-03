@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage PIN settings in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,4 +42,5 @@ Use the following procedures to manage users' dial-in conferencing PINs from the
     
 - [Lock or unlock a user PIN in Skype for Business Server](lock-or-unlock-a-user-pin.md)
     
+
 

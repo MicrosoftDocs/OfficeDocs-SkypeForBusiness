@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Skype Connectivity in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -129,7 +130,7 @@ No, since you are already federating with Skype for Business Online, this change
 **Does this change mean that our company has to enable federation with Skype for Business Online?**
 No. If your edge server proxy settings do not enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change will not affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
  
-**Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons … what can we do?**
+**Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons ... what can we do?**
 Any on-premises organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
 
 ### Enabling Federation and Public IM Connectivity (PIC)
@@ -242,3 +243,4 @@ The following table outlines the status of interop between the latest version of
 |Lync Phone Edition   |N/A   |N/A   |
 |Lync Attendant   |N/A   |N/A   |
    
+

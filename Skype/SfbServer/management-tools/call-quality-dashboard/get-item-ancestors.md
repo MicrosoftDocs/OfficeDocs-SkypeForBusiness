@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Item Ancestors"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -63,4 +64,5 @@ Get Item Ancestors returns a specific items ancestors from the repository.
   
  *Item3*  - Title of the item.
   
+
 

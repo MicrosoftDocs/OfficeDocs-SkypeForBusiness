@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Test your Skype for Business Online installation"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -138,5 +139,6 @@ Can't sign in? See [Troubleshooting Skype for Business sign-in for users](/skype
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+
 
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy media bypass in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -45,3 +46,4 @@ The following table provides an overview of the media bypass deployment process.
 |Configure trunks for media bypass  <br/> |If you have not already done so, configure one or more trunks for media bypass.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) <br/> |
 |Configure media bypass globally  <br/> |Configure media bypass for either all calls to the PSTN, or certain calls based on network sites and network regions.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure media bypass in Skype for Business Server to always bypass the Mediation Server](bypass-the-mediation-server.md) <br/> [Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) <br/> |
 |Associate subnets with network sites, if necessary  <br/> |If you configure media bypass to use site and region information, you must associate the subnets of your deployment with network sites and regions (If you have not already done so for another voice feature.)  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+

@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.TopoExtAppSvrMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: "What do you want to do? Click the link to the task that you want to perform."

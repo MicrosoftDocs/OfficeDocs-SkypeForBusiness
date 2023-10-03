@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migration phases"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,4 +38,5 @@ The following phases describe the process of a pool migration to Skype for Busin
     
 8. [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md)
     
+
 

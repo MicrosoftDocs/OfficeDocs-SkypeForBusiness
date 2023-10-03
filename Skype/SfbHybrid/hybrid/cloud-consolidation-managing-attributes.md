@@ -1,15 +1,17 @@
 ---
+ms.date: 11/05/2018
 title: "Decide how to manage attributes after decommissioning"
-ms.author: crowe
-author: CarolynRowe
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -27,8 +29,7 @@ description: "This article describes how to manage attributes after decommission
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-
-By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory. 
+By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory.
 
 These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync into Azure AD. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Azure AD. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
 
@@ -36,8 +37,7 @@ There are two options available for handling this situation:
 
 1. Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. This method ensures no loss of service for migrated users, and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning. However, newly licensed users won't have these attributes populated in your on-premises Active Directory and will need to be managed online.
 
-2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users. However, it may result in a temporary loss of service during the on-premises decommissioning process.
-
+2. Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users. However, it may result in a temporary loss of service during the on-premises decommissioning process.
 
 ## Method 1 - Manage sip addresses and phone numbers for users in Active Directory
 
@@ -54,11 +54,9 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
   ![Active Directory users and computers tool.](../media/disable-hybrid-1.png)
 
-
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
-
 
 ## Method 2 - Clear Skype for Business attributes for all on-premises users in Active Directory
 
@@ -139,7 +137,7 @@ This option requires more effort and proper planning because users who were move
 7. Wait for user provisioning to complete. You can monitor user provisioning progress by running the following Teams PowerShell command. The following Teams PowerShell command returns an empty result as soon process is completed.
 
    ```PowerShell
-   Get-CsOnlineUser -Filter {Enabled -eq $True -and (UserValidationErrors -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+   Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | Where {$_.UserValidationErrors -ne $null} | Select SipAddress,InterpretedUserType,UserValidationErrors
    ```
 
 8. To assign phone numbers and enable users for Phone System, execute the following Teams PowerShell command:
@@ -169,7 +167,7 @@ This option requires more effort and proper planning because users who were move
                 $u=Get-CsOnlineUser -Identity $user.SipAddress
                 if ($u.LineURI -ne $user.LineUri -or $u.EnterpriseVoiceEnabled -ne $true)
                 {
-                Get-CsOnlineUser -Identity $user.SipAddress | fl SipAddress, InterpretedUserType, OnPremLineURI, LineURI, EnterpriseVoiceEnabled, HostedVoicemail
+                Get-CsOnlineUser -Identity $user.SipAddress | fl SipAddress, InterpretedUserType, OnPremLineURI, LineURI, EnterpriseVoiceEnabled
                 }
         }
    }
@@ -188,7 +186,7 @@ This option requires more effort and proper planning because users who were move
     Teams PowerShell command:
 
     ```PowerShell
-    Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+    Get-CsOnlineUser -Filter {IsSipEnabled -eq $True} | where {$_.UserValidationErrors -ne $null} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, UserValidationErrors
     ``` 
 
 12. After you have completed all steps in Method 2, see [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md) and [Remove your on-premises Skype for Business Server](decommission-remove-on-prem.md) for additional steps to remove your Skype for Business Server on-premises deployment.
@@ -199,4 +197,5 @@ This option requires more effort and proper planning because users who were move
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configure policies to control federated user access'
 ms.reviewer: 
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
@@ -10,7 +11,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -132,3 +133,4 @@ If this is a user policy, you must also apply the policy to users that you want 
 [Get-CsExternalAccessPolicy](/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [Grant-CsExternalAccessPolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy)  
+

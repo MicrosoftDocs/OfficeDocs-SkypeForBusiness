@@ -1,18 +1,19 @@
 ---
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
+ms.date: 01/23/2018
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - Tier1
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -37,7 +38,7 @@ Outbound call controls can be applied on a per-user basis or on a tenant basis a
 To find out which countries and regions are considered Zone A, see [Country and region zones for Audio Conferencing](audio-conferencing-zones.md).
 
    > [!NOTE]
-   > A call is considered domestic if the number dialed is in the same country where Microsoft 365 or Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls).
+   > A call is considered domestic if the number dialed is in the same country/region where Microsoft 365 or Office 365 has been set up for the organizer of the meeting (in the case of audio conferencing), or the end user (in the case of end user PSTN calls).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -69,7 +70,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **Set the policy on the tenant level with the following cmdlet**.
 
 ```powershell
-Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.

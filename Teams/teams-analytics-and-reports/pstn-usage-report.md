@@ -1,26 +1,29 @@
 ---
 title: Microsoft Teams PSTN usage report
-author: SerdarSoysal    
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-rifer
-f1.keywords:
-- NOCSH
+ms.reviewer: 
+ms.date: 12/21/2018
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection: 
-- M365-voice
 description: Learn how to use the Teams PSTN usage report in the Microsoft Teams admin center to get an overview of calling and audio conferencing usage in your organization.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.collection: 
+  - M365-voice
+  - m365initiative-voice
+  - Tier1
 ---
 # Microsoft Teams PSTN usage report
 
-The Teams PSTN (Public Switched Telephone Network) usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
+The Teams PSTN (Public Switched Telephone Network) and SMS usage report in the Microsoft Teams admin center gives you an overview of calling and audio conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier and for Direct Routing if you use your own telephony carrier.
 
 The **Calling Plans** tab shows information including the number of minutes that users spent in inbound and outbound PSTN calls and the cost of these calls. The **Direct Routing** tab shows you information including the SIP address and call start and end times. Use the information in this report to gain insight into PSTN usage in your organization and help you to investigate, plan, and make business decisions.
 
@@ -29,17 +32,17 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ## View the PSTN usage report
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN usage report**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN and SMS (preview) usage**.
 2. Under **Date range**, select a predefined range of 7 or 28 days, or set a custom range, and then select **Run report**.
 
 ## Interpret the report
 
 ### Calling Plans
 
-   ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png)![Screenshot of the PSTN    usage report in the Microsoft Teams admin center with numbered callouts](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+   ![Screenshot of the Calling Plans PSTN usage report report in the admin center.](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png)![Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts.](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |Description  |
-|--------|-------------|
+|:--------|:-------------|
 |**1**   |The report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
 |**2**   |Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |The X axis is the selected date range for the specific report. The Y axis is the total number of calls over the selected time period. <br>Hover over the dot on a given date to see the total calls on that date.  |
@@ -54,11 +57,11 @@ The **Calling Plans** tab shows information including the number of minutes that
    ![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png)![Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |Description  |
-|--------|-------------|
+|:--------|:-------------|
 |**1**   |The report can be viewed for trends over the last 7 days or 28 days. |
 |**2**   |Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from time of activity. |
 |**3**   |The X axis is the selected date range for the specific report. The Y axis is the total number of calls over the selected time period.<br>Hover over the dot on a given date to see the total calls on that date.  |
-|**4**   |The table gives you a breakdown of PSTN usage per call. <ul><li>**Time stamp (UTC)** is the time the call started.</li><li>**Display name** is the display name of the user. You can click the display name to go to the user's settings page in the Microsoft Teams admin center. The name can also be the name of a bot, for example the Call Queue or Cloud Auto Attendant. </li><li>**SIP address** is the SIP address of the user or a bot who received or made the call.</li><li>**Caller number** is the number of the user or the bot who made the call. </li><li>**Callee number** is the number of the user or the bot who received the call. On an inbound call to a Teams user it will be the Teams user, on an outbound call from a Teams user it will be the PSTN User. </li><li>**Call type** is whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference. The call types you may see include:<br><br>**Teams user call types**<ul><li>**dr_in** - the user received an inbound PSTN call</li><li>**dr_out** - the user placed an outbound PSTN call</li><li>**dr_out_user_conf** - the user added a PSTN participant to the call</li><li>**user_out_transfer** - the user transferred the call to a PSTN number</li><li>**dr_out_user_forwarding** - the user forwarded the call to a PSTN number</li><li>**dr_out_user_transfer** - the user transferred the call to a PSTN number</li><li>**dr_emergency_out** - the user made an emergency call</li><li>**dr_unassigned_in** - an inbound PSTN call via Direct Routing to an unassigned number</li></ul><br>**Teams bots call types**<ul><li>**dr_in_ucap** - an inbound PSTN call to a Teams bot such as auto attendant or call queue</li><li>**dr_out_ucap** - an outbound PSTN call from a Teams bot such as auto attendant or call queue</li></ul><br><li>**Called to** is the number of the user who received the call.</li><li>**Start time (UTC)** is the time when the SIP proxy received the final answer (SIP Message  "200 OK") from the SBC on an outbound call (Teams/Bot to a PSTN User), or after the SIP Proxy send the Invite to the next hop within the Teams backend on an inbound call (PSTN User to a Teams/Bot). </li><li>**Invite time (UTC)** is the time when the initial Invite was sent on an outbound call from a Teams user or bot call to the SBC, or received on an inbound call to a Teams or bot call by the SIP Proxy component of Direct Routing from the SBC.</li><li>**Failure time (UTC)** is the time the call failed. For failed calls only. Final SIP Code, Final Microsoft Subcode, and Final SIP Phrase provide the reasons why the call failed and can help with troubleshooting. </li><li>**End time (UTC)** is the time the call ended (for successful calls only).</li><li>**Duration** is how long the call was connected, from invite to the call end or failure. For call forwarding, duration includes ringing in the Call Queue.</li><li>**Number type** is the user's phone number type, such as a service of toll-free number. </li><li>**Media bypass** indicates whether the trunk was enabled for media bypass. </li> <li>**SBC FQDN** is the fully qualified domain name (FQDN) of the Session Border Controller (SBC). </li><li>**Azure region for Media** is the data center that was used as media path in a non-bypass call. </li><li>**Azure region for Signaling** is the data center that was used for signaling for both bypass and non-bypass calls. </li><li>**Event type** is the event type of the call. You'll see Success for successful calls and Attempt for failed calls. </li><li>**Final SIP code** is the code with which the call ended.</li><li>**Final Microsoft subcode** is a code that indicates specific actions that occurred.</li><li>**Final SIP phrase** is the description of the SIP code and Microsoft subcode.</li><li>**Correlation ID** is a unique identifier for the call that you can use when calling Microsoft Support.</li><li>**Shared Correlation ID** is only visible in the downloadable CSV file and does not exist in the portal. The shared correlation ID exists in at least two calls which are related. Please see detailed description below.</li></ul> To see the information that you want in the table, make sure to add the columns to the table.|
+|**4**   |The table gives you a breakdown of PSTN usage per call. <ul><li>**Time stamp (UTC)** is the time the call started.</li><li>**Display name** is the display name of the user. You can click the display name to go to the user's settings page in the Microsoft Teams admin center. The name can also be the name of a bot, for example the Call Queue or Cloud Auto Attendant. </li><li>**SIP address** is the SIP address of the user or a bot who received or made the call.</li><li>**Caller number** is the number of the user or the bot who made the call. </li><li>**Callee number** is the number of the user or the bot who received the call. On an inbound call to a Teams user it will be the Teams user, on an outbound call from a Teams user it will be the PSTN User. </li><li>**Call type** is whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference. The call types you may see include:<br><br>**Teams user call types**<ul><li>**dr_in** - the user received an inbound PSTN call</li><li>**dr_out** - the user placed an outbound PSTN call</li><li>**dr_out_user_conf** - the user added a PSTN participant to the call</li><li>**dr_out_user_forwarding** - the user forwarded the call to a PSTN number</li><li>**dr_out_user_transfer** - the user transferred the call to a PSTN number</li><li>**dr_emergency_out** - the user made an emergency call</li><li>**dr_unassigned_in** - an inbound PSTN call via Direct Routing to an unassigned number</li></ul><br>**Teams bots call types**<ul><li>**dr_in_bot** - an inbound PSTN call to a Teams bot such as auto attendant or call queue</li><li>**dr_out_bot** - an outbound PSTN call from a Teams bot such as auto attendant or call queue</li></ul><br><li>**Called to** is the number of the user who received the call.</li><li>**Start time (UTC)** is the time when the SIP proxy received the final answer (SIP Message  "200 OK") from the SBC on an outbound call (Teams/Bot to a PSTN User), or after the SIP Proxy send the Invite to the next hop within the Teams backend on an inbound call (PSTN User to a Teams/Bot). </li><li>**Invite time (UTC)** is the time when the initial Invite was sent on an outbound call from a Teams user or bot call to the SBC, or received on an inbound call to a Teams or bot call by the SIP Proxy component of Direct Routing from the SBC.</li><li>**Failure time (UTC)** is the time the call failed. For failed calls only. Final SIP Code, Final Microsoft Subcode, and Final SIP Phrase provide the reasons why the call failed and can help with troubleshooting. </li><li>**End time (UTC)** is the time the call ended (for successful calls only).</li><li>**Duration** is how long the call was connected, from invite to the call end or failure. For call forwarding, duration includes ringing in the Call Queue.</li><li>**Number type** is the user's phone number type, such as a service of toll-free number. </li><li>**Media bypass** indicates whether the trunk was enabled for media bypass. </li> <li>**SBC FQDN** is the fully qualified domain name (FQDN) of the Session Border Controller (SBC). </li><li>**Azure region for Media** is the data center that was used as media path in a non-bypass call. </li><li>**Azure region for Signaling** is the data center that was used for signaling for both bypass and non-bypass calls. </li><li>**Event type** is the event type of the call. You'll see Success for successful calls and Attempt for failed calls. </li><li>**Final SIP code** is the code with which the call ended.</li><li>**Final Microsoft subcode** is a code that indicates specific actions that occurred.</li><li>**Final SIP phrase** is the description of the SIP code and Microsoft subcode.</li><li>**Correlation ID** is a unique identifier for the call that you can use when calling Microsoft Support.</li><li>**Shared Correlation ID** is only visible in the downloadable CSV file and does not exist in the portal. The shared correlation ID exists in at least two calls which are related. Please see detailed description below.</li></ul> To see the information that you want in the table, make sure to add the columns to the table.|
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
 |**6**   |Select **Full screen** to view the report in full screen mode. |
 |**7**   |Select **Export to Excel** to download the data in a comma separated file (CSV) for offline analysis or to use it as input for your billing system. |
@@ -73,22 +76,69 @@ These fields can come from the customer SBC(s). There are three formats that the
 - Call from a non-E.164 number. A user from a third-party PBX interconnected with Direct Routing makes a call to a Teams user. In this case, the caller number might be any non-E.164 number, for example +1001. 
 - A spammer calls and doesn't present a number, only a name, for example "Internal Revenue Service". This string will be shown in the reports.
 
+#### Phone number obfuscation
+
+Per-country/region privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
+
+For incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN call logs available via Microsoft Graph. Phone number obfuscation rules in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
+
+The obfuscation is based on the organization's location (country/region). Full phone numbers are shown for the countries/regions that are not listed in the following table:
+
+| Country/Region | Number of obfuscation digits |
+| :---: | :--- |
+|BE – Belgium | 3 |
+|CH – Switzerland | 4 |
+|DE – Germany | 3 |
+|DK – Denmark | 3 |
+|ES – Spain | 3 |
+|FI – Finland | 3 |
+|FR – France | 4 |
+|IT – Italy | 3 |
+|NL – Netherlands | 3 |
+|NO – Norway | 3 |
+|SE – Sweden | 3 |
+
 #### About Shared Correlation ID
 
 The Shared Correlation ID only exists in the exported Excel file that you download and indicates that two or more calls are related. 
 The following explains the different scenarios, and when Shared Correlation ID is present.
 
-1.    PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID    57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID.
-2.    Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type    Dr_Out    2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
-3.    PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type    Dr_In    f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.    Existing call 3 with correlation ID "f45e9a25-9f94-46e7-a457-84f5940efde9". PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type    Dr_Out_User_Transfer    45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID    f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    PSTN User 1 on a PSTN endpoint called Teams User 1 on Teams client, call type Dr_In, correlation ID 57f28917-42k5-4c0c-9433-79734873f2ac, no shared correlation ID.
+2.    Teams User 1 on Teams client called PSTN User 1 on a PSTN endpoint, call type Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, no shared correlation ID.
+3.    PSTN User 1 on a PSTN endpoint called a Teams User 2 on Teams client, call type Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    Existing call 3 with correlation ID "f45e9a25-9f94-46e7-a457-84f5940efde9". PSTN User 1 in a call with Teams User 2. Teams User 2 transferred (blind or consultative) a call to Teams or PSTN User, call type Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, shared correlation ID f45e9a25-9f94-46e7-a457-84f5940efde9.
+
+#### Data retention
+
+Per-country regulatory requirements specify data retention of detailed call records. Per-country retention period in days is listed in the following table:
+
+| Country | PSTN Calling Plans | Direct Routing |
+| :---: | :--- | :--- |
+| CA – Canada | 150 | 150 |
+| CH – Switzerland | 365 | 365 |
+| DE – Germany | 365 | 100 |
+| DK – Denmark | 365 | 365 |
+| FI – Finland | 365 | 365 |
+| FR – France | 365 | 365 |
+| IT – Italy | 730 | 730 |
+| KR – South Korea | 365 | 365 |
+| MX – Mexico | 720 | 730 |
+| NL – Netherlands | 180 | 180 |
+| NO – Norway | 150 | 150 |
+| SE – Sweden | 180 | 180 |
+| UK – United Kingdom | 450 | 450 |
+| All other countries | 365 | 150 |
+
+Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN and Direct Routing call logs available via Microsoft Graph. Data retention in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
+
+The retention period is based on the user's location (country). If the tenant administrator does not set a user's location, the default value for the location of a user is the location of the tenant.
 
 ## Exporting the reports
 Click **Export to Excel**, and then on the **Downloads** tab, click **Download** to download the report when it's ready. Export process can take from a few seconds to several minutes to complete, depending on the quantity of the data.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis. Exported files contain additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
- You will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being a unique ID for the export that can be used for troubleshooting.
+ You'll receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being a unique ID for the export that can be used for troubleshooting.
 
 If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.`[UTC date]`.csv**" and Direct Routing "**DirectRouting.calls.`[UTC date]`.csv**".
 
@@ -100,7 +150,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 
 ### Exported PSTN usage report
 
- You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
+ You can export data up to one year from the current date unless country/region-specific regulations prohibit retention of the data for 12 months.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
@@ -114,21 +164,25 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
 > | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
 > | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
-> | 9 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
-> | 10 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
-> | 11 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
-> | 12 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
-> | 13 | Start Time | `datetimeoffset` | Call start time |
-> | 14 | End Time | `datetimeoffset` | Call end time |
-> | 15 | Duration Seconds | `int` | How long the call was connected |
-> | 16 | Connection Fee | `numeric(16, 2)` | Connection fee price |
-> | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
-> | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-> | 19 | Capability | `nvarchar(32)` | The license used for the call |
+> | 9 | Call Direction | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call | 
+> | 10 | Number Type | `nvarchar(16)` | User's phone number type, such as a service of toll-free number |
+> | 11 | Domestic/International | `nvarchar(16)` | Whether the call was domestic (within a country or region) or international (outside a country or region) based on the user's location |
+> | 12 | Destination Dialed | `nvarchar(64)` | Country or region dialed |
+> | 13 | Destination Number | `nvarchar(32)` | Number dialed in [E.164](https://en.wikipedia.org/wiki/E.164) format |
+> | 14 | External Country | `nvarchar(16)` | Two digits country code dialed |
+> | 15 | Start Time | `datetimeoffset` | Call start time |
+> | 16 | End Time | `datetimeoffset` | Call end time |
+> | 17 | Duration Seconds | `int` | How long the call was connected |
+> | 18 | Connection Fee | `numeric(16, 2)` | Connection fee price |
+> | 19 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
+> | 20 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 21 | Capability | `nvarchar(32)` | The license used for the call |
+> | 22 | Operator | `nvarchar(32)` | Microsoft |
+> | 23 | Source of Call Duration | `nvarchar(32)` | Microsoft |
 
 ### Exported Direct Routing usage report
 
-You can export data up to five months (150 days) from the current date unless country-specific regulations prohibit retention of the data for that period.
+You can export data up to five months (150 days) from the current date unless country/region-specific regulations prohibit retention of the data for that period.
 
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
@@ -147,18 +201,19 @@ You can export data up to five months (150 days) from the current date unless co
 > | 11 | Caller Number | `nvarchar(32)` | Number of the user or bot who made the call. On inbound to a Team user call it will be a PSTN User, on outbound from Teams user call it will be the Teams user number |
 > | 12 | Callee Number | `nvarchar(32)` | Number of the user or bot who received the call. On inbound to a Team user call it will be the Teams user, on outbound from Teams user call it will be the PSTN User |
 > | 13 | Call type | `nvarchar(32)` | Call type and direction |
-> | 14 | Azure region for Media | `nvarchar(8)` | The datacenter used for media path in non-bypass call |
-> | 15 | Azure region for Signaling | `nvarchar(8)` | The datacenter used for signaling for both bypass and non-bypass calls |
-> | 16 | Final SIP code | `int` | The code with which the call ended, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-> | 17 | Final Microsoft subcode | `int` | In addition to the SIP codes, Microsoft has own subcodes that indicate the specific issue |
-> | 18 | Final SIP Phrase | `nvarchar(256)` | Description of the SIP code and Microsoft subcode |
-> | 19 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
-> | 20 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
-> | 21 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
+> | 14 | Call Direction | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call |
+> | 15 | Azure region for Media | `nvarchar(8)` | The datacenter used for media path in non-bypass call |
+> | 16 | Azure region for Signaling | `nvarchar(8)` | The datacenter used for signaling for both bypass and non-bypass calls |
+> | 17 | Final SIP code | `int` | The code with which the call ended, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 18 | Final Microsoft subcode | `int` | In addition to the SIP codes, Microsoft has own subcodes that indicate the specific issue |
+> | 19 | Final SIP Phrase | `nvarchar(256)` | Description of the SIP code and Microsoft subcode |
+> | 20 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
+> | 21 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
+> | 22 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
 
 
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
-- [PSTN call report in Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)
-- [Direct routing report in Microsoft Graph](/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http)
+- [PSTN call report in Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http&preserve-view=true)
+- [Direct routing report in Microsoft Graph](/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http&preserve-view=true)

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Migrate analog devices"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -34,5 +35,6 @@ Skype for Business Server provides support for analog devices. Specifically, the
    ```
 
 4. Verify that all the contact objects are now associated with the Skype for Business Server 2019 pool.
+
 
 

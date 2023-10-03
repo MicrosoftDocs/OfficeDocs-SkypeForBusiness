@@ -1,11 +1,12 @@
 ---
 title: Advanced Communications add-on for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
 ms.reviewer: nogaro
+ms.date: 07/24/2020
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
@@ -15,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - tier1
 appliesto: 
   - Microsoft Teams
 ---
@@ -28,7 +30,7 @@ If your organization is looking to further enhance your communication experience
 Advanced Communications includes advanced meetings customization, tools to manage your organization's communication policies, premium manageability with custom policy packages, and custom branded meeting lobby to tailor your meetings.
 
 - Customize your meeting pre-join experience with your company's logo in pre-join and the lobby. 
-- Create unifying meeting experiences with custom Together Mode scenes designed to the needs of your company and the meeting.
+- Create unifying meeting experiences with custom Together Mode scenes and custom organizational-defined backgrounds designed to the needs of your company and the meeting.
 - Tailored experiences with custom policy packages by bundling your own set of policies for users with similar roles in your organization using the Teams Admin Center or PowerShell. Each user will require a license in order to receive a custom policy package assignment. 
 
 Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription. Features included in Advanced Communications won't be added to other Microsoft 365 or Office 365 plans and can't be purchased separately. These features are temporarily available in public preview for all Microsoft Teams customers. To get the features after the preview, users will be informed in advance on how to continue their service via the add-on license.
@@ -42,3 +44,4 @@ Advanced Communications is available in all Microsoft 365 markets as an add-on t
 ## Related articles
 
 [Introduction to Teams policy-based recording for callings & meetings](../teams-recording-policy.md)
+

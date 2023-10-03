@@ -1,11 +1,12 @@
 ---
 title: Conduct a user pilot to evaluate and test how Microsoft Teams will work in your organization 
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 09/14/2017
 audience: admin
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization, while you continue to use Skype for Business 
 ms.localizationpriority: medium
@@ -108,4 +109,5 @@ If your results indicate:
 - **Your pilot didn't achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]
-> Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout.
+> Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. Learn more about [champions](
+https://adoption.microsoft.com/become-a-champion/) and how you might use them within your own rollout.

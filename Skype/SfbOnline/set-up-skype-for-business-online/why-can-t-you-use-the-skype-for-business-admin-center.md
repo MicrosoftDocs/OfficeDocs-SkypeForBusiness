@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Why can't I use the Skype for Business Online admin center right now?"
 ms.reviewer: 
 ms.author: tonysmit
@@ -70,3 +71,4 @@ Sure. While we're migrating your Skype for Business Online service, you can stil
 
   
  
+

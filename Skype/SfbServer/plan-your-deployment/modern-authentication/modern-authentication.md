@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Modern Authentication in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -32,4 +33,5 @@ Today, many technologies consider these processes (AuthN and AuthZ) to be one me
 [Skype for Business topologies supported with Modern Authentication](topologies-supported.md)
 
 [Planning to turn off Legacy authentication methods internally and externally to your network.](turn-on-modern-auth.md)
+
 

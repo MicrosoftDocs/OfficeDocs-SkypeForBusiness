@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertRequestBasics
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: "The Name and Security Settings page provides a text box to define a Friendly Name, a drop-down list for the Bit length of the private and public key pair, and a check box that enables you to Mark the certificate's private key as exportable."

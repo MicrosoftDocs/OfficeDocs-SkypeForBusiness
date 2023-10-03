@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Save Voice Routing Test Case Information"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ You can use the **Save Voice Routing Test Case Information** dialog box to save 
   
  
   
+
 

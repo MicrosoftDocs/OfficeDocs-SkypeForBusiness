@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Pending Certificate (Returned)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -27,4 +28,5 @@ If the certification authority administrator denies the certificate request, the
   
 Click **Finish** to complete the pending certificate processing.
   
+
 

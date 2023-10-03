@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Manage the Audio Conferencing settings for my organization in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -331,3 +332,4 @@ Here are the organization-level settings:
 ## Related topics
 
 [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user.md)
+

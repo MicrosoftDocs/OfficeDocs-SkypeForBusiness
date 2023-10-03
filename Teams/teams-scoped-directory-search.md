@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: 
+ms.date: 10/05/2018
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
@@ -45,3 +46,5 @@ To turn on search by name
 
 > [!Note]
 > It may take a few hours for this change to take effect.
+> 
+> Turning on search by name hides the **Search teams** box and public teams listing in **Join or create a team** in Teams. It will also disable joining a team by typing `/join` in the command box at the top of Teams.

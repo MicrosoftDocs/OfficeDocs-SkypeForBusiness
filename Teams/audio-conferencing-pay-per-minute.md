@@ -4,17 +4,19 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, oscarr
+ms.date: 11/28/2017
 ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -53,7 +55,7 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 
 ## Why is it best for you?
 
-- Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using Skype for Business or Teams application in a mobile device or PC.
+- Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using the Teams application in a mobile device or PC.
 
 - Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer. See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](./outbound-calling-restriction-policies.md)
 

@@ -1,8 +1,9 @@
 ---
 title: Broadcast meeting content
-author: CarolynRowe
-ms.author: crowe
-ms.reviewer: aalinne
+ms.author: mikeplum
+author: MikePlumleyMSFT
+ms.reviewer: 
+ms.date: 07/28/2020
 manager: serdars
 ms.topic: article
 audience: admin
@@ -14,13 +15,12 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---
 
 # Broadcast meeting content 
-
-
 
 Teams provides two options for broadcasting Teams meeting content: Network Device Interface (NewTek NDI®) and Serial Digital Interface (SDI):
 
@@ -42,14 +42,14 @@ Access to using NDI and SDI is determined by the meeting policy for the user att
 
 To enable NDI® and SDI broadcast features for a user:
 
-1. The tenant admin must enable the end user to have local streaming turned on for their meeting policy. 
+1. You must enable **Local broadcasting** for the user's meeting policy. 
 
-2. The end user must turn on local streaming for their specific client.
+2. The user must turn on local broadcasting for their specific client.
 
 
 To enable the end user, you can use the Teams Admin center or Teams PowerShell as follows.
 
-In the Teams admin center, go to **Meeting policies > Audio & video** and select **Allow NDI Streaming**.
+In the Teams admin center, go to **Meeting policies > Audio & video** and select **Local broadcasting**.
 
 To use PowerShell, use the Set-CsTeamsMeetingPolicy cmdlet as follows:
 
@@ -58,8 +58,3 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
 After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**. For more information, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
-
-
-
-
-

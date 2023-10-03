@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Integration Log"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -51,5 +52,6 @@ This operation is disabled by default for security reasons. When disabled, it re
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]
 ```
+
 
 

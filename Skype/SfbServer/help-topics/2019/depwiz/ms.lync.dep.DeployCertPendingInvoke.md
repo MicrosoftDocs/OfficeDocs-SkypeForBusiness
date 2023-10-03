@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Pending Certificate (Invoke)"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertPendingInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -24,4 +25,5 @@ The **Executing Commands** page displays the status of the commands that are ret
 > [!IMPORTANT]
 > If the certificate has not yet been approved by the certification authority administrator, the Retrieve Pending Request log file will indicate that there are pending requests. If the certification authority administrator has denied the request, the log file will indicate a failure and will report the error, indicating that the request was denied and the user name of the person who denied the request. 
   
+
 

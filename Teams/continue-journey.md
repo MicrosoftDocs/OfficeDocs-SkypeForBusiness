@@ -1,12 +1,13 @@
 ---
 title: How to use Microsoft Teams effectively
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 09/20/2017
 search.appverid: MET150
 description: Learn how to use Teams to monitor network health, to keep users engaged, and to prepare for new functionality.
 ms.localizationpriority: medium

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create a new PIN policy in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -58,4 +59,5 @@ Follow these steps to create a user-level or a site-level PIN policy.
   
 13. Click **Commit**.
     
+
 

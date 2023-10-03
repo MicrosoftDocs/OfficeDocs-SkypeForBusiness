@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how Teams uses Office 365 flows in various topologies, as well as unique Team flows used for peer-to-peer media communication.
@@ -68,7 +69,7 @@ Typically, a customer network has several network perimeters with firewalls and/
 
 ### Connectivity to Microsoft 365 or Office 365
 
-Teams requires [connectivity to the Internet](/office365/enterprise/assessing-network-connectivity). Teams endpoint URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). (Note that open connectivity to TCP ports 80 and 443, and to UDP ports 3478 through 3481, is required.) Furthermore, Teams has a dependency on Skype for Business Online, which must also be connected to the Internet.
+Teams requires [connectivity to the Internet](/office365/enterprise/assessing-network-connectivity). Teams endpoint URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). Note that open connectivity to TCP ports 80 and 443, and to UDP ports 3478 (STUN), 3479 (Audio), 3480 (Video), and 3481 (sharing/VBSS) are required. 
 
 Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) procedures.
 

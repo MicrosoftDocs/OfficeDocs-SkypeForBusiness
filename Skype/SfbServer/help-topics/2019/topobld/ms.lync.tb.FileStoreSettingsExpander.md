@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "File Store Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.FileStoreSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
@@ -26,4 +27,5 @@ For the File Share name, you can define the name of a new share. You must then c
 > [!NOTE]
 > You cannot change the FQDN of the server that is specified in the File Server FQDN property. If you need to place the file store file share on a different server, you create a new file store entry. 
   
+
 
