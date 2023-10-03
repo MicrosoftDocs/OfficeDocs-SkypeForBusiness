@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 09/01/2023
+ms.date: 10/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -65,7 +65,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 |License|Rollout begins|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Early August 2023|
+|Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
@@ -78,12 +78,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-Public preview program|Available|
+|Public preview program|Available|
 |Targeted release program|Available|
-|Current Channel|August 2023|
-|Monthly Enterprise Channel|Mid September 2023|
-|Semi-Annual Enterprise Channel (Preview)|August 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|Early November 2023|
+|Current Channel|In rollout|
+|Monthly Enterprise Channel|Late October 2023|
+|Semi-Annual Enterprise Channel (Preview)|October 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
@@ -101,7 +101,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 
 |License|Date|
 |:-----|:-----|
-|Business Licenses and Teams Essentials|Mid September 2023
+|Business Licenses and Teams Essentials|October 2023|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
 ##### Update channels
@@ -113,12 +113,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|Mid August 2023|
-|Targeted Release Channel|Mid August 2023|
-|Current Channel|Early October 2023|
-|Monthly Enterprise Channel|Early November 2023|
-|Semi-Annual Enterprise Channel (Preview)|Early October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|Mid January 2024|
+|Teams Public Preview|October 2023|
+|Targeted Release Channel|October 2023|
+|Current Channel|Late October 2023|
+|Monthly Enterprise Channel|December 2023|
+|Semi-Annual Enterprise Channel (Preview)|November 2023|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
