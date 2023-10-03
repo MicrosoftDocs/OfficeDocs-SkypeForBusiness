@@ -163,27 +163,27 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
    - **To provision one device:**
 
-     a. Under **Waiting on activation**, select **Add**.
+     1. Under **Waiting on activation**, select **Add**.
 
-     b. On the **Add MAC addresses** pane, enter the **MAC address** and **Location** of the device, and then select **Apply**.
+     1. On the **Add MAC addresses** pane, enter the **MAC address** and **Location** of the device, and then select **Apply**.
      
-     c. Under **Waiting on activation**, select the device you just added, and then select **Generate verification code**.
+     1. Under **Waiting on activation**, select the device you just added, and then select **Generate verification code**.
      
-     d. On the **Provision devices** pane, under **Verification code**, note the verification code for the SIP device.
+     1. On the **Provision devices** pane, under **Verification code**, note the verification code for the SIP device.
 
    - **To provision many devices:**
 
-     a. Under **Waiting on activation**, at the right, select **Export** (the Microsoft Excel icon).
+     1. Under **Waiting on activation**, at the right, select **Export** (the Microsoft Excel icon).
      
-     b. On the **Provision devices** pane, under **Upload multiple MAC addresses**, select **download a template**.
+     1. On the **Provision devices** pane, under **Upload multiple MAC addresses**, select **download a template**.
      
-     c. Save **Template_Provisioning.csv** to your computer and fill in the **MAC id** and **Location** fields.
+     1. Save **Template_Provisioning.csv** to your computer and fill in the **MAC id** and **Location** fields.
     
-     d. On the **Provision devices** pane, select **Upload multiple MAC addresses**. 
+     1. On the **Provision devices** pane, select **Upload multiple MAC addresses**. 
 
-     e. At the right on the **Upload MAC addresses** pane, select **Select a file**, and select the **Template_Provisioning.csv** file that contains your data.
+     1. At the right on the **Upload MAC addresses** pane, select **Select a file**, and select the **Template_Provisioning.csv** file that contains your data.
 
-     f. On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. Note the verification code for each SIP device.
+     1. On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. Note the verification code for each SIP device.
 
 4. On the SIP device, dial the enrollment feature code followed by the verification code. On the SIP device, dial the enrollment feature code \*55* (used by SIP Gateway for enrollment one-time-verification code validation), followed by the verification code that is generated in Teams Admin Center for this particular device. For example, if the verification code is 123456, dial \*55\*123456 to enroll the device.
 
