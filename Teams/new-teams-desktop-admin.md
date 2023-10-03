@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/02/2023
+ms.date: 10/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -98,12 +98,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |:-----|:-----|
 |Public preview program|Available|
 |Targeted release program|Available|
-|Current Channel|October 2023|
+|Current Channel|In rollout|
 |Government Cloud (GCC, GCC High) Preview|October 2023|
 |Government Cloud (DoD) Preview|Mid October 2023|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 2024|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
 
 ### When will the new Teams become the default client?
@@ -135,9 +135,9 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Current Channel|Late October 2023|
 |Government Cloud (GCC, GCC High) Preview|October 2023|
 |Government Cloud (DoD) Preview|Mid October 2023|
-|Monthly Enterprise Channel|January 2024|
+|Monthly Enterprise Channel|December 2023|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
 
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
