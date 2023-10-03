@@ -1,7 +1,7 @@
 ---
 title: "Connect your Session Border Controller (SBC) to Direct Routing"
 ms.reviewer: 
-ms.date: 02/13/2020
+ms.date: 10/03/2023
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -45,9 +45,7 @@ To configure and connect an SBC to Direct Routing, you can use the [Microsoft Te
 
 3. Enter an FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant. Keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
 
-4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
-
-    ![Screenshot of add SBC page in the Microsoft Teams admin center.](media/direct-routing-add-sbc.png)
+4. Configure the settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
 5. When you're done, click **Save**.
 
@@ -55,15 +53,15 @@ To configure and connect an SBC to Direct Routing, you can use the [Microsoft Te
 
 To connect your SBC to Direct Routing, you'll need to:
 
-1. [Connect to Skype for Business Online by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+1. [Connect to Teams by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
 
 2. [Connect the SBC to the tenant](#connect-the-sbc-to-the-tenant).
 
 3. [Verify the SBC connection](#verify-the-sbc-connection).
 
-### Connect to Skype for Business Online by using PowerShell
+### Connect to Teams by using PowerShell
 
-To pair the SBC to the Direct Routing interface, use a PowerShell session connected to the tenant. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+To pair the SBC to the Direct Routing interface, use a Teams PowerShell module session connected to the tenant. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
  
 After you establish a remote PowerShell session, verify that you can see the commands to manage the SBC. To verify the commands, type or copy and paste the following command in the PowerShell session, and then press Enter: 
 
@@ -187,7 +185,6 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Concurrent call capacity**|MaxConcurrentSessions |When you set a value, the alerting system will notify you when the number of concurrent sessions is 90 percent or higher than this value. If you don't set a value, alerts aren't generated. However, the monitoring system will report the number of concurrent sessions every 24 hours. |Null|Null<br/>1 to 100,000 ||
 |No|**Failover response codes**|FailoverResponseCodes<br>|If Direct Routing receives any 4xx or 6xx SIP error code in response to an outgoing Invite, the call is considered completed by default. Outgoing means a call from a Teams client to the PSTN with traffic flow: Teams client -> Direct Routing -> SBC -> telephony network). When you specify a failover response code, this forces Direct Routing to try another SBC (if another SBC exists in the voice routing policy of the user) when it receives the specified codes if the SBC can't make a call because of network or other issues. To learn more, see [Failover of specific SIP codes received from the Session Border Controller (SBC)](direct-routing-trunk-failover-on-outbound-call.md).|408, 503, 504||Int|
 |No|**Failover times (seconds)**|FailoverTimeSeconds |When you set a value, outbound calls that aren't answered by the gateway within the time that you set are routed to the next available trunk. If there are no additional trunks, the call is automatically dropped. The default value is 10 seconds. In an organization with slow networks and gateway responses, this could potentially result in calls being dropped unnecessarily.|10|Number|Int|
-|No|**Preferred country or region for media traffic**|MediaRelayRoutingLocationOverride | Not applicable to Direct Routing. This parameter is reserved for use with managed carriers in Calling Plans |None|||
 |No|**SBC supports PIDF/LO for emergency calls**|PidfloSupported|Specify whether the SBC supports Presence Information Data Format Location Object (PIDF/LO) for emergency calls.||||
 |No| - |MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
 
