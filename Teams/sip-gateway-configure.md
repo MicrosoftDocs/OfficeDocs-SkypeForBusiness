@@ -247,7 +247,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
 - **Activating new SIP devices** When you want to activate and deploy new SIP devices within 3 days (or 72 hours) of onboarding to SIP gateway.
 - **Devices that are signed out** To sign in devices that got signed out for any reason, within 7 days (or 168 hours) of being signed out. In this scenario, you don't have to add the tenant ID to the provisioning URL as in Step 2 below.
 
-### Bulk sign in perequisites
+### Bulk sign in prerequisites
 
 1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center.
 2. You must add your organization's tenant ID to the provisioning URL for the devices.
@@ -313,7 +313,7 @@ To help you troubleshoot and fix common issues, these are common error messages 
 |**Device not found in records.**|Check if the device was correctly provisioned to SIP Gateway, and the region parameter in bulk sign in request is correct.|
 |**BulkSignIn Tag missing for the device**| Check to see if the device provisioning URL has the correct tenant ID.|
 |**Device is offline.**|The device can't be found because it's powered off or disconnected from network. Reconnect the device and try it again.|
-| **Public IP not configured as Trusted IP.**|The tenant ID listed in the provisioning URL isn't orrect or the public IP of the device isn't listed as a trusted IP in Teams admin center. See prerequisite 1.|
+| **Public IP not configured as Trusted IP.**|The tenant ID listed in the provisioning URL isn't correct or the public IP address of the device isn't listed as a trusted IP address in Teams admin center. See prerequisite 1.|
 |**Bulk Sign-in deadline expired.**|The device hasn't been signed in to within 72 hours of provisioning (or 168 hours).|
 | **Duplicate devices found for bulk sign-in.**|Verify the MAC addresses you included in the CSV file are correct and there aren't duplicated addresses. IP addresses of the duplicate devices are returned.|
 |**Input hardware-ID is of wrong format**|Verify the hardware-ID format. See `How to create a bulk sign in request`.|
