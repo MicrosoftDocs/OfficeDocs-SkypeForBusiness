@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Video Interop Server in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -39,4 +40,5 @@ Configuring interoperability between a VIS server or pool and VTC systems requir
 
 [Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
+
 

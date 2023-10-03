@@ -6,9 +6,11 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
   - M365-collaboration
 ms.reviewer: vinbel
+ms.date: 10/24/2019
 search.appverid: MET150
 description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users.
 ms.localizationpriority: medium
@@ -68,7 +70,7 @@ Blocked Skype users, along with other people and public switched telephone netwo
 
 ## Set whether Teams users can communicate with Skype users
 
-As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants. However, there's a prerequisite that the following DNS SRV record needs to be configured by the IT Admin if not already available for your domain, for example _sipfederationtls.contoso.com.  
+As an admin, you use the Microsoft Teams admin center or PowerShell to set external access settings to control whether Teams users in your organization can communicate with Skype users. By default, this capability is turned on for new tenants. However, there's a prerequisite that the following DNS SRV record needs to be configured by the IT Admin if not already available for your domain, for example _sipfederationtls._tcp.contoso.com.  
 
 **Service**: sipfederationtls<br/>
 **Protocol**: TCP<br/>
@@ -81,7 +83,7 @@ If you upgraded from Skype for Business to Teams, the external communications se
 
 ### In the Microsoft Teams admin center
 
-In the Microsoft Teams admin center, go to **Org-wide settings** > **External access**, and then turn on **Users can communicate with Skype users**. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](./manage-external-access.md#allow-or-block-domains).
+In the Microsoft Teams admin center, go to **Users** > **External access**, and then turn on **Users can communicate with Skype users**. For step-by-step guidance on how to configure this and other external access settings, see [Manage external access in Teams](./manage-external-access.md).
 
 ### Using PowerShell
 

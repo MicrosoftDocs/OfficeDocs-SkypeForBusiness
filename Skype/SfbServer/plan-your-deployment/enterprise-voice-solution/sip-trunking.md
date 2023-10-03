@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "SIP trunking in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -146,7 +147,7 @@ The following figure depicts the SIP trunking topology in Skype for Business Ser
 
 **SIP trunking topology**
 
-![SIP Trunking Topology](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![SIP Trunking Topology.](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 As shown in the diagram, an IP virtual private network (VPN) is used for connectivity between the enterprise network and the public switched telephone network (PSTN) service provider. The purpose of this private network is to provide IP connectivity, enhance security, and (optionally) obtain Quality of Service (QoS) guarantees. Because of the nature of a VPN, you do not need to use Transport Layer Security (TLS) for SIP signaling traffic or secure real-time transport protocol (SRTP) for the media traffic. Connections between the enterprise and the service provider therefore consist of plain TCP connections for SIP and plain real-time transport protocol (RTP) (over UDP) for media tunneled through an IP VPN. Ensure that all firewalls between the VPN routers have ports open to allow the VPN routers to communicate, and that the IP addresses on the external edges of the VPN routers are publicly routable.
 

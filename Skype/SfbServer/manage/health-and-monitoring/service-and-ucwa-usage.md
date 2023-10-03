@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Monitor Mobility Service and UCWA usage in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -63,3 +64,4 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
 ## See also
 
 [Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md)
+

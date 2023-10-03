@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for private telephone lines with Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -93,4 +94,5 @@ For details about cmdlets and Skype for Business Server Management Shell, see th
 
 Private telephone lines should be configured only for deployments of Skype for Business Server or Lync Server 2013. In a deployment in which there are servers running earlier versions of Lync Server, when a user on earlier version attempts to call a private telephone line, routing of the call fails because the server cannot perform a reverse number lookup on a private telephone line.
   
+
 

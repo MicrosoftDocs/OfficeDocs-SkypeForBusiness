@@ -1,8 +1,8 @@
 ---
 title: "Response Groups Workflow"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsWorkFlowMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: "Response groups consist of agent groups, queues, and workflows. Response Group workflows define the actions that are taken when the Response Group application receives a phone call."

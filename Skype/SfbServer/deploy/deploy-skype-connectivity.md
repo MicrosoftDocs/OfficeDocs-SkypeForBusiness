@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Skype Connectivity in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -47,11 +48,11 @@ Skype Directory Search functionality provides Skype for Business users with the 
 The following table outlines support for Skype Directory Search.
   
 
-||**Skype for Business Server Front End**|**Lync Server 2013 (or older) Front End**|**Comments**|
+|&nbsp;|Skype for Business Server Front End|Lync Server 2013 (or older) Front End|Comments|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Edge  <br/> |Supported  <br/> |Not Supported  <br/> |Skype for Business Server and Edge are prerequisites for Skype Directory Search  <br/> |
-|Skype for Business Server Edge + Lync Server 2013 Edge deployed side-by-side  <br/> |Supported  <br/> |Not Supported  <br/> |Skype Directory Search traffic flows through Skype for Business Server Edge servers. Federation traffic goes through edge configured by the administrator. For example, the administrator could choose to continue to send federation traffic through Lync Server 2013 Edge servers which would not support Skype Directory Search.  <br/> |
-|Lync Server 2013 (or older) Edge  <br/> |Not Supported  <br/> |Not Supported  <br/> ||
+|Skype for Business Server Edge   |Supported   |Not Supported   |Skype for Business Server and Edge are prerequisites for Skype Directory Search   |
+|Skype for Business Server Edge + Lync Server 2013 Edge deployed side-by-side   |Supported   |Not Supported   |Skype Directory Search traffic flows through Skype for Business Server Edge servers. Federation traffic goes through edge configured by the administrator. For example, the administrator could choose to continue to send federation traffic through Lync Server 2013 Edge servers which would not support Skype Directory Search.   |
+|Lync Server 2013 (or older) Edge   |Not Supported   |Not Supported   ||
    
 > [!NOTE]
 > Addressbook service running on Skype for Business Server Front End finds the Edge by the existence of the Skype Search port 4443 in the Edge server. 
@@ -129,7 +130,7 @@ No, since you are already federating with Skype for Business Online, this change
 **Does this change mean that our company has to enable federation with Skype for Business Online?**
 No. If your edge server proxy settings do not enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change will not affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
  
-**Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons … what can we do?**
+**Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons ... what can we do?**
 Any on-premises organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
 
 ### Enabling Federation and Public IM Connectivity (PIC)
@@ -153,7 +154,7 @@ Federation is required to enable Skype users to communicate with Skype for Busin
   
 Federation is required to enable Skype users to communicate with Skype for Business users in your organization. Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Skype for Business Server users to communicate with Skype users. Federation and PIC are configured by using the Edge configuration dialog of the Skype for Business Server Control Panel as shown in the figure.
   
-![Define New Edge Pool](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![Define New Edge Pool.](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > EnableSkypeIdRouting and EnableSkypeDirectorySearch attributes need to be set to true in the public provider settings (see later instructions) for Search to work. 
@@ -173,7 +174,7 @@ Using the Skype for Business Server Management Shell, an administrator must conf
   
 For new installations you can configure Skype Connectivity by enabling a Skype Public Provider using the Skype for Business Server Control Panel as shown in the figure.
   
-![SIP Federated Providers](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![SIP Federated Providers.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > To configure Skype Connectivity when upgrading to Skype for Business Server you must remove and re-add the existing Skype public provider. 
@@ -216,29 +217,30 @@ Configuring Skype Connectivity can also be done using only PowerShell. To config
 The following table outlines the status of interop between the latest version of Skype consumer and the latest version of Skype for Business.
   
 
-|**Skype Clients**|**Add contacts, IM, presence, audio, and video calling**|**Comment**|
+|Skype Clients|Add contacts, IM, presence, audio, and video calling|Comment|
 |:-----|:-----|:-----|
-|Skype Windows Desktop  <br/> |7.6 or higher, Windows XP and higher  <br/> |**NEW**: Support added for Windows Skype client running on Windows XP, and Windows Vista **(requires latest client version 7.26 or higher)** <br/> |
-|Skype Mobile - Android Phone and Tablet  <br/> |6.19 or higher, running Android OS version 4.0.3 or higher  <br/> |Low spec devices may not support video calling  <br/> |
-|Skype Mobile - iOS  <br/> |6.11 or higher, on IOS 7 or higher  <br/> |Not supported are iPhone 4 and earlier, iPod 4th generation and earlier, iPad 1st generation  <br/> |
-|Skype Mac  <br/> |7.19 or higher, on Mac OS X 10.9 (Mavericks) or higher  <br/> |Requires Mac OSX 10.9 or higher  <br/> |
-|Skype Universal Windows App (Windows 10) Desktop and Mobile  <br/> |Windows 10 (Redstone 1 update or later)  <br/> |Windows Universal App will receive update in Fall 2016 adding interop support  <br/> |
+|Skype Windows Desktop   |7.6 or higher, Windows XP and higher   |**NEW**: Support added for Windows Skype client running on Windows XP, and Windows Vista **(requires latest client version 7.26 or higher)**  |
+|Skype Mobile - Android Phone and Tablet   |6.19 or higher, running Android OS version 4.0.3 or higher   |Low spec devices may not support video calling   |
+|Skype Mobile - iOS   |6.11 or higher, on IOS 7 or higher   |Not supported are iPhone 4 and earlier, iPod 4th generation and earlier, iPad 1st generation   |
+|Skype Mac   |7.19 or higher, on Mac OS X 10.9 (Mavericks) or higher   |Requires Mac OSX 10.9 or higher   |
+|Skype Universal Windows App (Windows 10) Desktop and Mobile   |Windows 10 (Redstone 1 update or later)   |Windows Universal App will receive update in Fall 2016 adding interop support   |
    
 The following table outlines the status of interop between the latest version of Skype for Business and the latest version of Skype consumer. 
   
-|**Client**|**Skype Directory Search and Add Contacts**|**Skype A/V, IM interop**|
+|Client|Skype Directory Search and Add Contacts|Skype A/V, IM interop|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Yes  <br/> |Yes  <br/> |
-|Skype for Business on Mac  <br/> |Can add (no search)  <br/> |Yes  <br/> |
-|Lync Desktop 2013  <br/> |Can add (no search)  <br/> |Yes  <br/> |
-|Lync Web App - online and on-premises  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Mobile - Windows Phone  <br/> |Coming Soon  <br/> |Yes  <br/> |
-|Lync Mobile - Android  <br/> |Coming Soon  <br/> |Yes  <br/> |
-|Lync Mobile - iOS  <br/> |Coming Soon  <br/> |Yes  <br/> |
-|Lync Room System  <br/> |Coming Soon  <br/> |Yes  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Yes  <br/> |Yes  <br/> |
-|Lync Mac 2011  <br/> |Can add (no search)  <br/> |Yes  <br/> |
-|Lync Desktop 2010  <br/> |Can add (no search)  <br/> |Yes  <br/> |
-|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
+|Skype for Business   |Yes   |Yes   |
+|Skype for Business on Mac   |Can add (no search)   |Yes   |
+|Lync Desktop 2013   |Can add (no search)   |Yes   |
+|Lync Web App - online and on-premises   |N/A   |N/A   |
+|Lync Mobile - Windows Phone   |Coming Soon   |Yes   |
+|Lync Mobile - Android   |Coming Soon   |Yes   |
+|Lync Mobile - iOS   |Coming Soon   |Yes   |
+|Lync Room System   |Coming Soon   |Yes   |
+|Lync Modern App (Win 8.1)   |Yes   |Yes   |
+|Lync Mac 2011   |Can add (no search)   |Yes   |
+|Lync Desktop 2010   |Can add (no search)   |Yes   |
+|Lync Phone Edition   |N/A   |N/A   |
+|Lync Attendant   |N/A   |N/A   |
    
+

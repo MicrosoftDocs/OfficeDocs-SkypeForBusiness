@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Intro)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRequestIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "To continue with the certificate request process, click Next. To e
  
 To continue with the certificate request process, click **Next**. To exit the process with no changes to the system, click **Cancel**.
   
+
 

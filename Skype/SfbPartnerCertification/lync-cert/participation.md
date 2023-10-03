@@ -1,6 +1,7 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+ms.date: 06/11/2018
+title: "Lync ISV Qualification Program"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,11 +19,11 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync ISV Qualification program helps ensure that qualified applications meet customer expectations for specific scenarios."
 ---
 
-# Lync ISV qualification program participation
-Microsoft Lync ISV Qualification Program, qualifies ISV solutions that integrate the Lync 2013 APIs, UCMA 4.0, Lync Client SDK, Lync Server SDK, UCWA, and Persistent Chat. After successful completion, qualified applications are listed on this page.
+# Lync ISV Qualification Program overview 
+Microsoft Lync ISV Qualification Program qualifies ISV solutions that integrate the Lync 2013 APIs, UCMA 4.0, Lync Client SDK, Lync Server SDK, UCWA, and Persistent Chat. After successful completion, qualified applications are listed on this page.
 
 An initial API validation self-test will confirm Lync 2013 APIs are being used in the application. These results are then used to submit an application for qualification.
 Lync 2013 applications that fall under certain categories are eligible for and may require comprehensive third-party testing. Validated applications not subject to third-party testing are listed as validated applications.

@@ -1,8 +1,8 @@
 ---
 title: "Trunk Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.TrunkSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: "To edit or modify the settings for a SIP trunk, you do the following:"
@@ -36,7 +36,7 @@ To edit or modify the settings for a SIP trunk, you do the following:
 
  **Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.
 
-![Trunk Settings Expander](../../media/Trunk_Settings_Expander.jpg)
+![Trunk Settings Expander.](../../media/Trunk_Settings_Expander.jpg)
 
 ## See also
 

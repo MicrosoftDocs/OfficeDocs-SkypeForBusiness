@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Office Web Apps Server Scope Node Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,10 +26,11 @@ You right click on **Office Web Apps Servers** in Topology Builder to perform th
     
 In addition to the New Office Web Apps Server option, you can perform the following general tasks:
   
-![Office WebApps Server Scope Node](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server Scope Node.](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

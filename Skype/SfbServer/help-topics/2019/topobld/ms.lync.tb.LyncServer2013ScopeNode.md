@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Lync Server 2013 Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
@@ -32,3 +33,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
 ## See also
 
 [Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business and Lync"
 ms.author: serdars
 author: msdmaguire
@@ -176,7 +177,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 | Plantronics  | Calisto P610-M                           | 2/1/2015   | Lync               |
 | Plantronics  | Voyager 3200                             | 2/1/2015   | Lync               |
 | Polycom      | CX5500 Unified Conference Station        | 11/19/2014 | Skype for Business |
-| Sennheiser   | D 10 USB ML                              | 11/18/2014 | Lync               |
+| Sennheiser   | Impact D series                          | 11/18/2014 | Lync               |
 | Jabra        | EVOLVE 20 MS Mono                        | 10/7/2014  | Lync               |
 | Jabra        | EVOLVE 20 MS Stereo                      | 10/7/2014  | Lync               |
 | Jabra        | EVOLVE 40 MS Mono                        | 10/7/2014  | Lync               |
@@ -281,3 +282,4 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 
 Learn about [Skype for Business certification](overview.md).  
 Currently published [test specifications and tools](test-spec.md).
+

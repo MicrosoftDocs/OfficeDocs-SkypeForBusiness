@@ -43,8 +43,7 @@
         "Microsoft Teams"
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
-      "uhfHeaderId": "MSDocsHeader-M365-IT",
+      "uhfHeaderId": "MSDocsHeader-MicrosoftTeams",
       "ms.suite": "office",
       "titleSuffix": "Microsoft Teams",
       "contributors_to_exclude": [
@@ -56,11 +55,13 @@
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "beccarobins",
+        "dstrome"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://microsoftteams.uservoice.com",
+      "feedback_product_url": "https://aka.ms/TeamsFeedback",
       "recommendations": true
     },
     "fileMetadata": {

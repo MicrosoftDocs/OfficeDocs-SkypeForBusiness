@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server Root Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.RootScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
@@ -47,4 +48,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

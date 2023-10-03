@@ -1,8 +1,8 @@
 ---
 title: "Remove Deployment Introduction"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: "Run the Remove Deployment Wizard only if you want to decommission your entire deployment. This wizard creates an empty topology that consists of a single Front End Server. After you run this wizard and publish the empty topology, you cannot revert to your original topology."

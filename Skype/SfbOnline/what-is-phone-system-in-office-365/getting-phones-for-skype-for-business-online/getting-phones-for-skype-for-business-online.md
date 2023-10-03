@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Getting phones for Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
@@ -31,7 +32,7 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> Skype For Business will slowly be replaced by Microsoft Teams as the primary communication method in Microsoft 365 and Office 365.  See [A new vision for intelligent communications in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) for more information.
+> Skype for Business will slowly be replaced by Microsoft Teams as the primary communication method in Microsoft 365 and Office 365.  See [A new vision for intelligent communications in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) for more information.
 >
 >To get the latest updates and most up-to-date information on supported devices, see the [Microsoft Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
@@ -41,12 +42,11 @@ Microsoft is partnering and working closely with Polycom, Yealink, and AudioCode
   
 When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
-|||
+|Phone Partner  |Skype for Business specific product ID  |
 |:-----|:-----|
-|**Phone Partner** <br/> |**Skype for Business specific product ID** <br/> |
-|Polycom  <br/> |Product ID -019  <br/> |
-|Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |Product ID -019   |
+|Yealink   |SIP-TXXG Skype for Business Edition   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 For more details on Polycom phones, see [Poly Documentation Library](https://documents.polycom.com/category/voice).
   
@@ -63,13 +63,13 @@ For more details on AudioCodes phones, see [Skype for Business IP Phones](https:
 
 This is the minimum software release required for supported phones to work with Phone System:
   
-||||
+
+|Phone type |Minimum firmware |Release date |
 |:-----|:-----|:-----|
-|**Phone type** <br/> |**Minimum firmware** <br/> |**Release date** <br/> |
-|Optimized (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |May 2015  <br/> |
-|Certified Polycom VVX Series  <br/> |5.4.0A  <br/> |December 2015  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |February 2017  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |December 2016  <br/> |
+|Optimized (Lync Phone Edition)   |4.0.7577.4463   |May 2015   |
+|Certified Polycom VVX Series   |5.4.0A   |December 2015   |
+|Yealink   |X.8.1.52   |February 2017   |
+|AudioCodes   |3.0.0.459.1   |December 2016   |
 
 For more details on current certified firmware versions, see [Skype for Business IP Phones](../../../SfbPartnerCertification/certification/devices-ip-phones.md).
 
@@ -86,29 +86,29 @@ Manufacturer licensing models might vary between open SIP and Skype for Business
 
 For full device features and capabilities, check the manufacturer user guides.
   
-||||||
+
+|Feature  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**Feature** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Sign in with user credentials  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Sign in via PC (Pairing), Windows Only  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Sign in using (Web Sign-in)  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Single-click join meeting  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Click to dial (Pairing)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Meeting Controls  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Visual Voicemail  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Phone Lock  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Device Update  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|In-band Provisioning  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|QoE  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Log Upload  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Modern Authentication  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Multiple Emergency Number  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Exchange Calendar Integration*  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> <br/> **Note:** Requires PC tethering           |
-|Presence Integration  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Corporate Directory  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Delegation  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Contact Picture Integration  <br/> |No  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
-||||||
+|Sign in with user credentials   |Yes  |Yes   |Yes   |No   |
+|Sign in via PC (Pairing), Windows Only   |Yes   |Yes   |Yes   |Yes   |
+|Sign in using (Web Sign-in)  <br/>  <br/> **Note:** Check the supportability matrix in deployment guide.  |Yes   |Yes   |Yes   |No   |
+|Single-click join meeting   |Yes   |Yes   |Yes   |Yes   |
+|Click to dial (Pairing)   |Yes   |Yes   |Yes   |Yes  > |
+|Meeting Controls   |Yes   |Yes   |Yes   |Yes   |
+|Visual Voicemail   |Yes   |Yes   |Yes   |Yes   |
+|Phone Lock   |Yes   |Yes   |Yes   |Yes   |
+|Device Update   |Yes   |Yes   |Yes   |Yes   |
+|In-band Provisioning   |Yes   |Yes   |Yes   |Yes   |
+|QoE   |Yes   |Yes   |Yes   |No  |
+|Log Upload  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Yes   |Yes   |Yes   |Yes   |
+|Modern Authentication   |Yes   |Yes   |Yes   |No   |
+|Multiple Emergency Number   |Yes   |No   |No   |Yes   |
+|Exchange Calendar Integration*   |Yes   |Yes   |Yes   |Yes  <br/> <br/> **Note:** Requires PC tethering           |
+|Presence Integration   |Yes   |Yes   |Yes   |Yes   |
+|Corporate Directory   |Yes   |Yes   |Yes   |Yes   |
+|Delegation   |Yes   |Yes   |Yes   |No   |
+|Contact Picture Integration   |No   |Yes  |No   |Yes   |
+
 
      
 > [!NOTE]
@@ -125,3 +125,4 @@ For step-by-step setup instructions, see [Deploying Skype for Business Online ph
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
+

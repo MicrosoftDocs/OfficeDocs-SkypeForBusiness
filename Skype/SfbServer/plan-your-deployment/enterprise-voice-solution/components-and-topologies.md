@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Components and topologies for call admission control in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -30,13 +31,13 @@ In a Multiprotocol Label Switching (MPLS) network, all sites are connected by a 
 
 **Example MPLS network**
 
-![CAC with MPLS](../../media/CAC_MPLS_1.jpg)
+![CAC with MPLS.](../../media/CAC_MPLS_1.jpg)
 
 To deploy call admission control (CAC) in an MPLS network, you create a network region to represent the MPLS cloud, and create a network site to represent each MPLS satellite site. The following figure illustrates how the network region and network sites should be configured to represent the example MPLS network in the previous figure. The overall bandwidth limits and bandwidth session limits are then based on the capacity of the WAN link from each network site to the network region that represents the MPLS cloud.
 
 **Network region and network sites for an MPLS network**
 
-![Call Admission Control (CAC) with MPLS diagram](../../media/CAC_MPLS_2.jpg)
+![Call Admission Control (CAC) with MPLS diagram.](../../media/CAC_MPLS_2.jpg)
 
 ## Call admission control on a SIP trunk
 
@@ -46,7 +47,7 @@ The following figure shows an example CAC deployment on a SIP trunk.
 
 **CAC configuration on a SIP trunk**
 
-![Call Admission Control SIP Trunking diagram](../../media/CAC_SIP_trunk_1.jpg)
+![Call Admission Control SIP Trunking diagram.](../../media/CAC_SIP_trunk_1.jpg)
 
 To configure CAC on a SIP trunk, you will have to perform the following tasks during CAC deployment:
 
@@ -69,7 +70,7 @@ CAC can be deployed on the WAN link from the Mediation Server's gateway interfac
 
 **Case 1: CAC between the Mediation Server and a PSTN gateway**
 
-![Case 1: CAC between Mediation Server PSTN Gateway](../../media/CAC_gateways_1.jpg)
+![Case 1: CAC between Mediation Server PSTN Gateway.](../../media/CAC_gateways_1.jpg)
 
 In this example, CAC is applied between the Mediation Server and a PSTN gateway. If a Skype for Business client user at Network Site 1 places a PSTN call through the PSTN gateway in Network Site 2, the media flows through the WAN link. Therefore, two CAC checks are performed for each PSTN session:
 
@@ -94,7 +95,7 @@ This configuration is similar to Case 1. In both the cases, the Mediation Server
 
 **Case 2: CAC between the Mediation Server and a third-party PBX with MTP**
 
-![Case 2: CAC between Mediation Server PBX with MTP](../../media/CAC_gateways_2.jpg)
+![Case 2: CAC between Mediation Server PBX with MTP.](../../media/CAC_gateways_2.jpg)
 
 In this example, CAC is applied between the Mediation Server and the PBX/MTP. If a Skype for Business client user at the Network Site 1 places a PSTN call through the PBX/MTP located in Network Site 2, the media flows through the WAN link. Therefore, for each PSTN session two CAC checks are performed:
 
@@ -119,7 +120,7 @@ Case 3 is slightly different from the first two cases. If there is no MTP on the
 
 **Case 3: CAC between the Mediation Server and a third-party PBX without MTP**
 
-![Case 3: CAC between Mediation Server PBX no MTP](../../media/CAC_gateways_3.jpg)
+![Case 3: CAC between Mediation Server PBX no MTP.](../../media/CAC_gateways_3.jpg)
 
 In this example, if a Skype for Business client user at Network Site 1 places a call to a user through the PBX, the Mediation Server is able to perform CAC checks only on the proxy leg (between the Skype for Business client application and Mediation Server). Because the Mediation Server does not have information about the endpoint device while the session is being requested, CAC checks cannot be performed on the WAN link (between the Mediation Server and the third-party endpoint) prior to call establishment. After the session is established, however, the Mediation Server facilitates in accounting for the bandwidth used on the trunk.
 

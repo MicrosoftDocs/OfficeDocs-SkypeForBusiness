@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan your conferencing topology for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -98,7 +99,7 @@ A single large meeting requires at least one Front End Server and one Back End S
   
 **Large meeting topology**
 
-![Large meeting topology](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![Large meeting topology.](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 The user who hosts the large meetings must have their user account homed in Front End pool. However, we do not recommend that you host other user accounts in this pool. Instead, use it only for the large meetings. The best practice is to create a special user account in this pool to be used only to host large meetings. Since the large meeting setting is optimized for performance, using it as a normal user could have problems such as the inability to promote a P2P session to a meeting when a PSTN endpoint is involved.
   
@@ -115,3 +116,4 @@ Additional notes about the topology include:
 - Load balancing of the Front End Servers requires hardware load balancing for the HTTP traffic (such as meeting content download). DNS load balancing is recommended for SIP traffic. For details see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - If you want to use Monitoring Server for the dedicated large-meeting pool, we recommend using the Monitoring Server and its database that are shared across all of the Front End Server pools in your Skype for Business Server deployment. For more information, see [Plan for monitoring in Skype for Business Server](../../plan-your-deployment/monitoring.md).
+

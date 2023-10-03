@@ -1,30 +1,30 @@
 ---
 title: How to install and configure watcher nodes
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: "How to install and configure watcher nodes for Skype for Business Server synthetic transactions."
+description: "Describes the process to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Learn how to install and configure watcher nodes
+# Installing and configuring watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
 Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions. Synthetic transactions are Windows PowerShell cmdlets that verify that key user scenarios, such as the ability to sign in or to exchange instant messages, are working as expected. For Skype for Business Server 2015, System Center Operations Manager can run the synthetic transactions shown in the following table, which includes three synthetic transaction types:
   
-- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node will run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you do not use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and will not run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but will not be configured to run the Test-CsExumConnectivity test.
+- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node will run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and won't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
     
-- **Non-default** Tests that watcher nodes do not run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or any time after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
+- **Non-default** Tests that watcher nodes don't run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or anytime after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
 - **Extended** A special type of Non-default synthetic transaction. Unlike other synthetic transactions, Extended tests can be run multiple times during each pass. This is useful when verifying behavior, such as multiple public switched telephone network (PSTN) voice routes for a pool. You can configure this simply by adding multiple instances of an extended test to a watcher node.
     
@@ -57,13 +57,13 @@ The synthetic transactions available to watcher nodes include the following:
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirms that a user's contacts can be accessed through the unified contact store. The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Skype for Business Server 2015, Outlook messaging and collaboration client, and/or Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirms that an instant message can be sent across the Extensible Messaging and Presence Protocol (XMPP) gateway.  <br/> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.  |
 
-You do not need to install watcher nodes to use System Center Operations Manager. If you do not install these nodes, you can still get real-time alerts from Skype for Business Server 2015 components whenever an issue occurs. (The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.
+You don't need to install watcher nodes to use System Center Operations Manager. If you don't install these nodes, you can still get real-time alerts from Skype for Business Server 2015 components whenever an issue occurs. (The Component and User Management Pack doesn't use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.
   
 > [!NOTE]
-> Administrators can also run synthetic transactions manually, without using or installing Operations Manager. Depending on the size of your Skype for Business Server deployment, synthetic transactions can use a large amount of computer memory and processor time. Because of this, we recommend that you use a dedicated computer as a watcher node. For example, you should not configure a Skype for Business Server Front End Server to act as a watcher node. Watcher nodes should meet the same basic hardware requirements as any other computer in your Skype for Business Server topology. 
+> Administrators can also run synthetic transactions manually, without using or installing Operations Manager. Depending on the size of your Skype for Business Server deployment, synthetic transactions can use a large amount of computer memory and processor time. Because of this, we recommend that you use a dedicated computer as a watcher node. For example, you shouldn't configure a Skype for Business Server Front End Server to act as a watcher node. Watcher nodes should meet the same basic hardware requirements as any other computer in your Skype for Business Server topology. 
   
 > [!NOTE]
-> A legacy Lync Server 2013 watcher node cannot be collocated on the same machine as a Skype for Business Server 2015 watcher node because the core system files for Lync Server 2013 and Skype for Business Server 2015 cannot be installed on the same computer. However, Skype for Business Server 2015 watcher nodes can simultaneously monitor Skype for Business Server 2015 and Lync Server 2013. Default synthetic transactions are supported for both product versions. 
+> A legacy Lync Server 2013 watcher node can't be collocated on the same machine as a Skype for Business Server 2015 watcher node because the core system files for Lync Server 2013 and Skype for Business Server 2015 can't be installed on the same computer. However, Skype for Business Server 2015 watcher nodes can simultaneously monitor Skype for Business Server 2015 and Lync Server 2013. Default synthetic transactions are supported for both product versions. 
   
 Lync Server 2013 watcher nodes may be deployed inside or outside an enterprise to help verify:
   
@@ -101,7 +101,7 @@ After the prerequisites are met, you can configure the watcher node by following
     
 ## Install the Skype for Business Server 2015 Core Files and the RTCLocal Database
 
-To install the Skype for Business Server 2015 core files on a computer, complete the following procedure. The RTCLocal database will automatically be installed when you install the core files. Note that you do not need to install SQL Server on the watcher nodes. SQL Server Express will be automatically installed.
+To install the Skype for Business Server 2015 core files on a computer, complete the following procedure. The RTCLocal database will automatically be installed when you install the core files. Note that you don't need to install SQL Server on the watcher nodes. SQL Server Express will be automatically installed.
   
 To install the Skype for Business Server 2015 core files and the RTCLocal database:
   
@@ -115,11 +115,11 @@ Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> The first time you run this command, no data will be returned because you have not yet configured any watcher node computers. If the command runs without returning an error, you can assume that the Skype for Business Server setup completed successfully. 
+> The first time you run this command, no data will be returned because you've not yet configured any watcher node computers. If the command runs without returning an error, you can assume that the Skype for Business Server setup completed successfully. 
   
 If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Skype for Business Server 2015:
   
-Get-CsPinPolicyYou will receive information similar to this, depending on the number of PIN policies configured for use in your organization:
+Get-CsPinPolicy You'll receive information similar to this, depending on the number of PIN policies configured for use in your organization:
   
 Identity : Global
   
@@ -153,7 +153,7 @@ When you configure a watcher node, you must also choose the type of authenticati
 |&nbsp;|**Description**|**Locations supported**|
 |:-----|:-----|:-----|
 |TrustedServer  <br/> |Uses a certificate to impersonate an internal server and bypass authentication challenges.  <br/> Useful for administrators who prefer to manage a single certificate, instead of many user passwords on each watcher node.  <br/> |Inside the enterprise.  <br/> With this method, the watcher node must be in the same domain as the pools being monitored. If the watcher node and the pools are in different domains, use Credential Authentication instead.  <br/> |
-|Negotiate  <br/> |Stores user names and passwords securely in Windows Credential Manager on each watcher node.  <br/> This mode requires more password management, but is the only option for watcher nodes outside the enterprise. These watcher nodes cannot be treated as an endpoint trusted for authentication.  <br/> |Outside the enterprise.  <br/> Inside the enterprise.  <br/> |
+|Negotiate  <br/> |Stores user names and passwords securely in Windows Credential Manager on each watcher node.  <br/> This mode requires more password management, but is the only option for watcher nodes outside the enterprise. These watcher nodes can't be treated as an endpoint trusted for authentication.  <br/> |Outside the enterprise.  <br/> Inside the enterprise.  <br/> |
    
 ## Configure a Watcher Node to Use Trusted Server Authentication
 <a name="enable_synthetic_trans"> </a>
@@ -243,7 +243,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
-TrustedServer mode can be used only with computers that lie inside the perimeter network. When a watcher node runs in TrustedServer mode, administrators do not have to maintain test user passwords on the computer.
+TrustedServer mode can be used only with computers that lie inside the perimeter network. When a watcher node runs in TrustedServer mode, administrators don't have to maintain test user passwords on the computer.
   
 ## Configure a Watcher Node to Use Negotiate
 <a name="enable_synthetic_trans"> </a>
@@ -287,6 +287,6 @@ Your next step is to run the file Watchernode.msi:
 > [!NOTE]
 > As mentioned previously, Watchernode.msi can also be run from a command window. To open a command window, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**. When the command window opens, type the same command shown in step 2, above. 
   
-The Negotiate mode is used any time the watcher node cannot be set up as a trusted application pool. In this mode, administrators will need to manage test user passwords on the watcher node.
+The Negotiate mode is used any time the watcher node can't be set up as a trusted application pool. In this mode, administrators will need to manage test user passwords on the watcher node.
   
 

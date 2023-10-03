@@ -1,8 +1,8 @@
 ---
 title: "Add Branch Site Name"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddBranchSiteNamePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: "To define a new branch site, specify the following:"

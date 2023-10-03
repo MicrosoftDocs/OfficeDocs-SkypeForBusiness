@@ -1,13 +1,13 @@
 ---
 title: "Review the Administrator Reports in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,7 +35,7 @@ The Administrator reports feature allows you to:
 
 The Skype for Business Administrator Report is the first of four valuable reports that document your design in detail. The information in this report, and the other three associated reports, is useful for your Information Technology Teams:
 
-![General Summary Admin Report](../../media/General_Summary_Report_Admin_Report.png)
+![General Summary Admin Report.](../../media/General_Summary_Report_Admin_Report.png)
 
 The Summary Report lists general configuration information associated with your Edge network. The location, fully qualified domain name (FQDN) and IP address, type of network, and comments specific to a given role are documented.
 
@@ -54,7 +54,7 @@ You can also view more detailed reports:
 
 The Certificates Report contains all certificates that are required in the recommended Skype for Business Server 2015 deployment. The Planning Tool accounts for the subject names and subject alternative names that are entered. Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates. Certificate information also contains information about where the certificate can typically be issued from. If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider. Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.
 
-![Certificates Admin Report](../../media/Certificates_Report_Admin_Report.png)
+![Certificates Admin Report.](../../media/Certificates_Report_Admin_Report.png)
 
 Carefully review, and be sure to understand, the use and purpose of each certificate in the deployment. If there is a question about what a certificate does, determine which server or service is talking to what. Certificates in Skype for Business Server 2015 are used for two primary purposes:
 
@@ -69,14 +69,14 @@ Skype for Business Server 2015 has a potentially complex set of firewall rules. 
 
 From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.
 
-![Firewall Admin Report](../../media/Firewall_Report_Admin_Report.png)
+![Firewall Admin Report.](../../media/Firewall_Report_Admin_Report.png)
 
 ## Review the DNS Report
 <a name="DNS_Report"> </a>
 
 The DNS Report, which is part of the Administrator Report, details all of the recommended and known entries for the Domain Name System (DNS) in the internal, perimeter, and external networks. If the designer has completed the edits to the network diagram, and all IP addresses and fully qualified domain names (FQDNs) are defined to their production values, the DNS Report provides an excellent configuration resource. This report can also serve as an operational troubleshooting document.
 
-![DNS Admin Report](../../media/DNS_Report_Admin_Report.png)
+![DNS Admin Report.](../../media/DNS_Report_Admin_Report.png)
 
 You should have your DNS management team review the DNS Report thoroughly to make sure that there are no errors that may cause difficulty during deployment or that may complicate a troubleshooting session.
 

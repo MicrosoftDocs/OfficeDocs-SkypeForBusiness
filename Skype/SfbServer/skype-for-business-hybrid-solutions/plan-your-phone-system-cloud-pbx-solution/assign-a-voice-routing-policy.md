@@ -1,13 +1,13 @@
 ---
 title: "Assign a Voice Routing Policy"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,7 +24,7 @@ description: "Summary: Read this topic to learn how to assign a voice policy for
 # Assign a Voice Routing Policy
  
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online was retired on July 31, 2021 and PSTN connectivity between your on-premises environment, whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online, is no longer supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 **Summary:** Read this topic to learn how to assign a voice policy for users using Phone System with on-premises PSTN connectivity. 
   
@@ -32,10 +32,10 @@ Once a user is on Skype for Business Online and using Phone System with on-premi
   
 The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System with on-premises PSTN connectivity users. It is automatically assigned to Phone System users.
   
-||**On-premises user**|**Phone System with on-premises PSTN connectivity user**|
+|&nbsp;|On-premises user|Phone System with on-premises PSTN connectivity user|
 |:-----|:-----|:-----|
-|Calling features defined in  <br/> |Voice policy  <br/> |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System.  <br/> |
-|PSTN usage records associated with  <br/> |Voice policy  <br/> |Voice routing policy, assigned while the user is still homed on-premises.  <br/> |
+|Calling features defined in   |Voice policy   |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System.   |
+|PSTN usage records associated with   |Voice policy   |Voice routing policy, assigned while the user is still homed on-premises.   |
    
 You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.
   
@@ -107,4 +107,4 @@ No matter whether you use the global voice routing policy, or user-specific ones
 
 In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.
   
-For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy), and [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy).

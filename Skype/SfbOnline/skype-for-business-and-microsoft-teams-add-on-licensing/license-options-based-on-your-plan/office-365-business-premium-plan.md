@@ -1,6 +1,7 @@
 ---
+ms.date: 03/16/2018
 title: "Microsoft 365 Business Standard "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
@@ -76,3 +77,4 @@ If you have [Microsoft 365 Business Standard](https://products.office.com/en/bus
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
 4. After you buy a **Phone System** license, you'll see the price and option to buy a Calling Plan.
+

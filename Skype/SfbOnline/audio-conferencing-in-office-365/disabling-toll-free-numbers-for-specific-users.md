@@ -1,6 +1,7 @@
 ---
+ms.date: 02/21/2018
 title: "Disabling toll-free numbers for specific Skype for Business Online users"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -64,3 +65,4 @@ From the **Microsoft Teams admin center**:
 You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
 
 - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+

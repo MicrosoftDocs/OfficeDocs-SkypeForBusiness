@@ -1,9 +1,10 @@
 ---
-title: Manage teams policies in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Manage channel policies in Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
+ms.date: 06/26/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,16 +24,28 @@ ms.custom:
   - ms.teamsadmincenter.teamsandchannelpolicies.overview
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
+  - chat-teams-channels-revamp
+description: Learn how to use and manage teams channel policies in your organization to control what users can do in teams and channels.
 ---
 
-# Manage teams policies in Microsoft Teams
+# Manage channel policies in Microsoft Teams
 
-As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private channels.
+As an admin, you can use policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private or shared channels.
 
 You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
+You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a policy, it may take 24 hours for changes to take effect.
+
+## Channel policies
+
+The following policies are available for teams channels:
+
+|Policy|Description|
+|:-----|:----------|
+|**Create private channels**|When **On**, team owners and members can create private channels. (Team owners can control if members can create private channels in each team.)|
+|**Create shared channels**|When **On**, team owners can create shared channels. Teams apps that are available for your organization are also available in shared channels.|
+|**Invite external users to shared channels**|When **On**, owners and members of shared channels can invite external participants from organizations where a cross-organization trust has been configured. Teams policies for your organization apply to these channels.|
+|**Join external shared channels**|When **On**, users can participate in shared channels created by other organizations where a cross-organization trust has been configured. Teams policies for the other organization apply to these channels.|
 
 ## Create a custom teams policy
 
@@ -40,8 +53,8 @@ You can edit the global policy or create and assign a custom policy. After you e
 2. Click **Add**.
 3. Enter a name and description for the policy.
 
-    ![Screenshot of teams policy settings](media/teams-policies.png)
-4. Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.
+    ![Screenshot of teams policy settings.](media/teams-policies.png)
+4. Turn on or turn off the settings that you want, and then click **Save**.
 
 5. Click **Save**.
 
@@ -63,6 +76,6 @@ You can edit the global policy or any custom policies that you create.
 
 [Private channels in Teams](private-channels.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)

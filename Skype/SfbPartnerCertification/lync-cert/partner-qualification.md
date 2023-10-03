@@ -1,5 +1,6 @@
 ---
-title: Solutions qualified with Lync Online Dedicated
+ms.date: 06/22/2018
+title: Lync Online Dedicated partner qualified solutions and technical requirements
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,7 +23,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 ---
 
 
-# Partner qualification processes
+# Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
 With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
@@ -57,7 +58,7 @@ The timeline that follows shows the approximate timeline for the qualification p
 
 ***Partner qualification timeline for Microsoft Partner Program***
 
-![Qualification timeline for Skype for Business](../media/OIPpartneringTimeline.jpg)
+![Qualification timeline for Skype for Business.](../media/OIPpartneringTimeline.jpg)
 
 To begin the process, vendors should:
 - Download the trial versions of the product.
@@ -114,7 +115,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 
 ***Technical qualifications timeline***
 
-![timeline](../media/timeline4technicalqualification.png)
+![timeline.](../media/timeline4technicalqualification.png)
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
@@ -167,3 +168,4 @@ Partners meeting these criteria can email lynclogo@microsoft.com for more inform
 The Unified Communication Specification for H.264 AVC and SVC Encoder Implementation is published by Microsoft as a result of Microsoft’s participation in the Unified Communications Interoperability Forum (UCIF) H.264/MPEG4 AVC/SVC Task Group. It defines and constrains the H.264 AVC/SVC levels, configurations, and tools used for video communication scenarios. This specification can be used for designing an end-to-end video communication system, or for designing an H.264 AVC/SVC encoder (such as a Webcam) for real-time communication purposes.
 
 Download the [Unified Communication Specification for H.264 AVC and SVC Encoder Implementation](https://download.microsoft.com/download/A/F/B/AFBF8CBE-3A45-472A-93F3-AD8521FBD502/UC_Specification_for_H264_AVC_and_SVC_encoder.pdf).
+

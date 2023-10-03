@@ -1,12 +1,13 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring and monitoring the Backup Service'
 ms.reviewer: 
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -62,3 +63,4 @@ Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost
 Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
 The process is done when this cmdlet returns a value of Steady State for the data conference module.
+

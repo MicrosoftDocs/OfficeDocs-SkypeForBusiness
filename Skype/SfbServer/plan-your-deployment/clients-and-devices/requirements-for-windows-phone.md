@@ -1,13 +1,13 @@
 ---
 title: "System requirements for Skype for Business for Windows Phone"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

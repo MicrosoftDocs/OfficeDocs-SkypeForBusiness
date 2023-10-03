@@ -1,8 +1,8 @@
 ---
 title: "Edit Office Web Apps Server Settings"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/19/2016
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: "You edit the properties of the configured Office Web Apps Server. The following properties are available to edit:"
@@ -27,7 +27,7 @@ You edit the properties of the configured Office Web Apps Server. The following 
 
 Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.
 
-![Office Web Apps Settings Expander](../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web Apps Settings Expander.](../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## See also
 

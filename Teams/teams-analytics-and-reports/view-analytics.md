@@ -1,21 +1,23 @@
 ---
 title: View analytics in Teams
-author: cichur    
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rahulmi
-f1.keywords:
-- NOCSH
+ms.date: 05/28/2019
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection: 
-- M365-collaboration
 description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they are part of.
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
+ms.collection: 
+  - M365-collaboration
 ---
 # View analytics in Teams
 
@@ -33,7 +35,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for all teams that you're a member or owner of.
 
-    ![Screenshot of cross-team analytics view](../media/view-analytics-cross-team.png)
+    ![Screenshot of cross-team analytics view.](../media/view-analytics-cross-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -51,7 +53,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 4. Select a date range to show usage data for the team.  
 
-    ![Screenshot of per-team analytics view](../media/view-analytics-per-team.png)
+    ![Screenshot of per-team analytics view.](../media/view-analytics-per-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -70,7 +72,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for the channel.  
 
-    ![Screenshot of per-channel analytics view](../media/view-analytics-per-channel.png)
+    ![Screenshot of per-channel analytics view.](../media/view-analytics-per-channel.png)
 
     |Item |Description  |
     |--------|-------------|

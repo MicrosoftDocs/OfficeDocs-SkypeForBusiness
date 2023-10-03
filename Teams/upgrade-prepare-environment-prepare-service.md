@@ -1,12 +1,13 @@
 ---
 title: Prepare your service for an upgrade to Microsoft Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 06/07/2018
 description: Learn about the requirements for preparing your organization for collaboration and cloud voice services with Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -24,7 +25,7 @@ appliesto:
 
 # Prepare your service for upgrading to Teams
 
-![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage.](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
@@ -58,10 +59,8 @@ Use the provided checklists to track the status of each individual activity and 
 
 Although we recommend that you follow the checklists in order, the exact sequence will depend on the scope of your deployment and the configuration and complexity of your environment. They're organized to support either a "greenfield" Teams deployment (one with no previous Skype for Business Online presence) or upgrading from Skype for Business Online to Teams. If you're upgrading from Skype for Business Online, you might have already completed some of these activities and can ignore them now.
 
-When you're onboarding users on a per-site basis, we highly recommended that you use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a supplementary guide to these checklists.
-
 >[!NOTE]
->Most of the configuration settings are common between Teams and Skype for Business Online. You use the Microsoft Teams admin center to configure those settings.
+> Most of the configuration settings are common between Teams and Skype for Business Online. You use the Microsoft Teams admin center to configure those settings.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Decision point</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
@@ -74,7 +73,3 @@ When you're onboarding users on a per-site basis, we highly recommended that you
 
 After you complete this checklist, proceed to the next step: [Conduct a user pilot](pilot-essentials.md)
 
-[//]: # (@Turgay, I commented out this next paragraph because it's cloud voice-specific.)
-<!--
-As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
--->

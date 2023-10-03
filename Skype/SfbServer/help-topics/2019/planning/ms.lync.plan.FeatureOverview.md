@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Feature Overview (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
@@ -173,3 +174,4 @@ The remaining elements have either been populated with the answers you provided 
     > CAC only controls real-time traffic and does not affect data traffic. 
   
     If a new voice or video session exceeds the bandwidth limits that you have allocated on a WAN, the session is either blocked or (for phone calls only) rerouted to the PSTN.
+

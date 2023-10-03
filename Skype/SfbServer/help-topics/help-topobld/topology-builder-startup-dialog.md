@@ -1,8 +1,8 @@
 ---
 title: "Topology Builder Startup Dialog"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.StartupDialog
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: "You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment. On startup, Topology Builder displays a dialog that asks what the source of the topology document will be. You select one of three options:"
@@ -27,7 +27,7 @@ You start Topology Builder to configure the properties and configuration of your
 
 - **New Topology** Select this option to begin the configuration of a new topology document. This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.
 
-![Topology Builder Startup Dialog](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Topology Builder Startup Dialog.](../../media/Topology_Builder_Startup_Dialog.jpg)
 
 ## See also
 

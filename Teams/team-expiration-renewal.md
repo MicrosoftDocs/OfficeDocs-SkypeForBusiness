@@ -1,14 +1,16 @@
 ---
 title: Team expiration and renewal in Microsoft Teams
-author: cichur    
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abgupta
+ms.reviewer: 
+ms.date: 10/08/2019
 ms.localizationpriority: medium
 search.appverid: MET150
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
 - M365-collaboration
 description: Learn about team expiration and renewal and how to use Microsoft 365 group expiration policy to automatically clean up unused teams in Microsoft Teams.
@@ -25,7 +27,7 @@ To curb the number of unused teams, as an admin, you can use [Microsoft 365 grou
 
 When you apply an expiration policy to a team, a team owner receives a notification for team renewal 30 days, 15 days and 1 day before the team's expiration date. When the team owner receives the notification, they can click **Renew now** in team settings to renew the team.
 
-![Screenshot of the Renew Now button to renew a team in team settings](media/team-expiration.png "Screenshot of the Renew Now button to renew a team in team settings")
+![Screenshot of the Renew Now button to renew a team in team settings.](media/team-expiration.png "Screenshot of the Renew Now button to renew a team in team settings")
 
 If the team owner doesn't renew the team and there is no further activity on the team until the end of the expiration policy, the team is put in a "soft-deleted" state, which means it can be restored within the next 30 days.
 

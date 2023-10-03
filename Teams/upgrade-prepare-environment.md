@@ -1,11 +1,12 @@
 ---
 title: Prepare your environment for upgrading to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 05/29/2018
 audience: admin
 description: Validate your environment and network readiness before beginning your upgrade from Skype for Business to Teams. 
 ms.localizationpriority: medium
@@ -24,7 +25,7 @@ appliesto:
 
 # Prepare your environment for upgrading to Teams
 
-![Upgrade journey diagram, emphasizing the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
+![Upgrade journey diagram, emphasizing the Technical Readiness stage.](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 

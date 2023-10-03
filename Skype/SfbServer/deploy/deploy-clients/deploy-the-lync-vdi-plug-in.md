@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy the Lync VDI plug-in with Skype for Business Server"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

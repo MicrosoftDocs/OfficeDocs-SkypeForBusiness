@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan to integrate Skype for Business and Exchange"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -84,29 +85,29 @@ If you are integrating Skype for Business Server with Exchange Online, your next
 <a name="feature_support"> </a>
 
 >[!Important]
-> Skype for Business Online will be retired on July 31, 2021 after the Exchange integrations listed below that include the service will no longer be supported.
+> Skype for Business Online was retired on July 31, 2021. The Exchange integrations listed below that include the service are no longer supported.
 
 The following table details the features supported under various combinations of online or on premises for Exchange and Skype for Business.
   
-||**Exchange 2016/2013/2010 (on premises) + Skype for Business Server (on premises)**|**Exchange Online + Skype for Business Server (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online**|**Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
+|&nbsp;|Exchange 2016/2013/2010 (on premises) + Skype for Business Server (on premises)|Exchange Online + Skype for Business Server (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online|Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Presence in Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Respond via IM, PSTN Call, Skype Call or Video Call from an Outlook email  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Schedule and join online meetings through Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Presence in Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Respond via IM, PSTN Call, Skype Call or Video Call from an OWA email  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Schedule and join online meetings through Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|IM/Presence in Mobile Clients  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Join online meetings in Mobile clients  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Publish status based on Outlook calendar free/busy information  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Contact List (via Unified Contact Store)  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|High-resolution Contact Photo (Requires Lync 2013 or Skype for Business clients at a minimum. Not supported for LWA, mobile apps, Lync 2010, Lync for Mac, and other older clients.)  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-|Meeting delegation  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Archiving Content (IM and Meeting) in Exchange  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Search archived content  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange UM Voice Mail  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Server Side Conversation History  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
+|Presence in Outlook   |Y   |Y   |Y   |Y   |Y   |
+|Respond via IM, PSTN Call, Skype Call or Video Call from an Outlook email   |Y   |Y   |Y   |Y   |Y   |
+|Schedule and join online meetings through Outlook   |Y   |Y   |Y   |Y   |Y   |
+|Presence in Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|Respond via IM, PSTN Call, Skype Call or Video Call from an OWA email   |Y   |Y   |N   |N   |Y   |
+|Schedule and join online meetings through Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|IM/Presence in Mobile Clients   |Y   |Y   |Y   |Y   |Y   |
+|Join online meetings in Mobile clients   |Y   |Y   |Y   |Y   |Y   |
+|Publish status based on Outlook calendar free/busy information   |Y   |Y   |Y   |Y   |Y   |
+|Contact List (via Unified Contact Store)   |Y (need Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|High-resolution Contact Photo (Requires Lync 2013 or Skype for Business clients at a minimum. Not supported for LWA, mobile apps, Lync 2010, Lync for Mac, and other older clients.)   |Y (need Exchange 2016/2013)   |Y   |N   |Y   |Y   |
+|Meeting delegation   |Y   |Y   |Y   |Y   |Y   |
+|Missed Conversations history and Call Logs are written to user's exchange mailbox   |Y   |Y   |Y   |Y   |Y   |
+|Archiving Content (IM and Meeting) in Exchange   |Y (need Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Search archived content   |Y (need Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Exchange UM Voice Mail   |Y   |Y   |N   |N   |N   |
+|Server Side Conversation History   |Y   |Y   |N   |Y   |Y   |
 
 > [!NOTE]
 > There is a Cloud Voicemail service which is supported for Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, and Lync Server 2013.

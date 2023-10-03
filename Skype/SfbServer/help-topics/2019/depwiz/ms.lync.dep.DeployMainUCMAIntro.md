@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Deployment Wizard Unified Communications API"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainUCMAIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "For details about using Deployment Wizard to install Skype for Bus
  
 For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).
   
+
 

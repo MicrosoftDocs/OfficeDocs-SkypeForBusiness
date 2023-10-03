@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Subject Alternate Names)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ The **Subject Name / Subject Alternative Names** page presents a summary of the 
   
 If you must make changes to the subject name or any of the subject alternative names, click **Cancel** to exit the Certificate Request Wizard and rerun Topology Builder. Then republish the new configuration with the correctly defined subject and subject alternative names.
   
+
 

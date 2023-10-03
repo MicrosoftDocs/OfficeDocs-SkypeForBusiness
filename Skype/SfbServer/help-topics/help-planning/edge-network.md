@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server Edge Network planning tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: "Most Edge components are deployed in a perimeter network. These components make up the Edge topology of the perimeter network. Except where noted, the components noted here are part of Edge Server scenarios in Skype for Business Server 2015 and are in the perimeter network."

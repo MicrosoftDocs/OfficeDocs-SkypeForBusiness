@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Web Conferencing (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
@@ -34,3 +35,4 @@ For planning details about enabling web conferencing in your organization, see t
 - [Plan for dial-in conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
 - [Plan for large meetings in Skype for Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
+

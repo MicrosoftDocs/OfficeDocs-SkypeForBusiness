@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "PSTN usage report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -36,7 +37,7 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN usage details report
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
     
@@ -49,10 +50,10 @@ You can get a view into your user's Skype for Business PSTN usage by looking at 
   
 This is what the report looks like.
   
-[ ![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[ ![Skype for Business PSTN usage report.](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
+![Number 1.](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
 *    **Call ID** is the call ID for a call. It is an identifier for the call that is used when calling Microsoft service support.
 *    **User ID** is the user's sign in name.
 *    **Phone number** is the Skype for Business phone number that received the call for inbound calls or the number dialed for outbound calls.
@@ -102,12 +103,12 @@ This is what the report looks like.
 > [!NOTE]
 > If you have a Telstra or Softbank calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra or Softbank for your reporting needs. 
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
+![Number 2.](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
 
 ## Exporting PSTN usage report
 
-Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
+Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country/region-specific regulations prohibit retention of the data for 12 months.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis.
 
@@ -170,3 +171,4 @@ Exported file contains additional fields that are not available in the online re
 [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
+

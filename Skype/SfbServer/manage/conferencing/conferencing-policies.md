@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage conferencing policies in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -49,3 +50,4 @@ To manage meetings by using Skype for Business Server Management Shell, use the 
 |[New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> |Creates a new conferencing policy for use in your organization.  <br/> |
 |[Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps) <br/> |Removes the specified conferencing policy.  <br/> |
 |[Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> |Modifies an existing conferencing policy.  <br/> |
+

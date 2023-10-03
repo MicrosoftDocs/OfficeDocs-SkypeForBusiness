@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "PSTN minute pools report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -39,7 +40,7 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN minute pools report
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN minute pools**.
     
@@ -52,13 +53,13 @@ You can get a view into your user's Skype for Business minute pools by looking a
   
 This is what the report looks like.
 
-![Skype for Business PSTN minute pools report](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for Business PSTN minute pools report.](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
+![Number 1.](../images/sfbcallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
 *    **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
      * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans
-     * MCOPSTN2 - Domestic & International Calling Plan from which you will see a domestic pool (3000-minute US/Canada/PR, 1200-minute European countries) and an international pool (600-minutes). Minute cap is reached whenever the domestic -OR- international cap is reached within the calendar month. 
+     * MCOPSTN2 - Domestic & International Calling Plan from which you will see a domestic pool (3000-minute US/Canada/PR, 1200-minute European countries/regions) and an international pool (600-minutes). Minute cap is reached whenever the domestic -OR- international cap is reached within the calendar month. 
      * MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
      * MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)
      * MCOMEETADD - Audio Conferencing
@@ -68,9 +69,9 @@ This is what the report looks like.
 *    **Total Minutes** is the total number of minutes available for the month. 
 *    **Percent Used** is the percent of minutes used for the month. 
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
+![Number 2.](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns. 
 ***
-![Number 3](../images/sfbcallout3.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
+![Number 3.](../images/sfbcallout3.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button. <br/><br/> This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
    
 ## Want to see other Skype for Business reports?
 
@@ -93,3 +94,4 @@ This is what the report looks like.
 
   
    
+

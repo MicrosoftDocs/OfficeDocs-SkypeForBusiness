@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Machine Internal IP 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: "Use this page to specify the internal IP address and the internal fully qualified domain name (FQDN) for the Edge Server."

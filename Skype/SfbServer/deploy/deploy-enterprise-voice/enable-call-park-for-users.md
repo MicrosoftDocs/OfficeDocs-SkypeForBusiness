@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Enable Call Park for users in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -65,4 +66,5 @@ You can enable Call Park at the global scope, or at the site scope or user scope
 
 
 [Create or modify a voice policy and configure PSTN usage records in Skype for Business](voice-policy-and-pstn-usage-records.md)
+
 

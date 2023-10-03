@@ -1,13 +1,13 @@
 ---
 title: "Skype for Business on Mac client requirements"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -26,7 +26,7 @@ The [Skype for Business on Mac Client](https://products.office.com/skype-for-bus
   
 ## Hardware and software requirements for Skype for Business on Mac
 
-The Skype for Business on Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be in the [Skype for Business Solutions Catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+The Skype for Business on Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be listed at [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices/devices). 
   
 > [!NOTE]
 > This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac. 

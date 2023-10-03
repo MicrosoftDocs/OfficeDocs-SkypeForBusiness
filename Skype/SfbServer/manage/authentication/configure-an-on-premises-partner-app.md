@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure an on-premises partner application for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -69,7 +70,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-After copying the code, save the script using a .PS1 file extension (for example, C:\Scripts\ServerToServerAuth.ps1). Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively. See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.
+After copying the code, save the script using a .PS1 file extension (for example, C:\Scripts\ServerToServerAuth.ps1). Note that, before you run this script, you must replace the metadata URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` and `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively. See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.
   
 If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:
   
@@ -106,5 +107,6 @@ To configure Skype for Business Server as a partner application for Exchange, op
 ```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"
 ```
+
 
 

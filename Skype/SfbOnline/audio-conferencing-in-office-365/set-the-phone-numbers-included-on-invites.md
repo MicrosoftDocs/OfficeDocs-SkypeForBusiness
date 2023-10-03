@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Set the phone numbers included on invites in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -51,7 +52,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
 3. Choose **Users**.
     
-    ![Shows selecting users in the Skype for Business admin center](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Shows selecting users in the Skype for Business admin center.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Choose the users you want to edit:
     
@@ -146,3 +147,4 @@ By default, when you change a user's conferencing settings, an email is sent to 
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

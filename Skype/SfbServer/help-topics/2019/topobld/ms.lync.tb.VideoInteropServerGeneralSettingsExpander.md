@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Video Interop Server General Settings"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.VideoInteropServerGeneralSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 ROBOTS: NOINDEX, NOFOLLOW
@@ -32,3 +33,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
 ## See also
 
 [Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+

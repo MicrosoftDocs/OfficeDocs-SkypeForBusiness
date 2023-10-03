@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (Returned)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/1/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: "The Online Certificate Request Status page presents you with important information that results from the successful creation and issuing of the online certificate request. This page provides the certificate thumbprint that uniquely identifies the certificate. By default, the check box Assign this certificate to Skype for Business Server certificate usages is selected. If you click Finish, the certificate will be automatically assigned to Lync Server 2013 for the purposes that you defined during the creation steps of the certificate request. By default, the purposes that the certificate will be assigned are:"

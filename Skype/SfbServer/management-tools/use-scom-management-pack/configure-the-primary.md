@@ -1,13 +1,13 @@
 ---
 title: How to configure the Primary Management Server
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -39,13 +39,10 @@ When you install System Center Operations Manager, you will need to install all 
 - Data warehouse
 
 > [!IMPORTANT]
-> The "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)" needs to be installed before you install System Center Operations Manager 2012.
+> The Microsoft Report Viewer 2010 Redistributable Package must be installed before you install System Center Operations Manager 2012.
 
-For details about these products and their installation, see the following links:
+For details about these products and their installation, see [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 Keep in mind that you can have only one Root Management Server per Skype for Business Server deployment.
 

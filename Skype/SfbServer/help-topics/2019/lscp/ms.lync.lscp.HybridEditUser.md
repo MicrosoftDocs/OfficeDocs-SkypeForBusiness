@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Hybrid Wizard Edit Users"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.HybridEditUser
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -20,5 +21,6 @@ description: "Use the Edit Users wizard to modify the user accounts in your depl
 # Hybrid Wizard: Edit Users
 
 Use the Edit Users wizard to modify the user accounts in your deployment. For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+
 
 

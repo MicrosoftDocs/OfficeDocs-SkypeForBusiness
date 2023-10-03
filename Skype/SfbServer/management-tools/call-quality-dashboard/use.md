@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Use Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,7 +36,7 @@ Also, CQD exposes web APIs that give users programmatic access to the cube data 
 
 When you visit the Call Quality Dashboard, you see the following screen:
 
-![Use CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Use CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. The "Summary Pane" is where context for the "Report Set" (to the right) can be found.
 2. Click "Edit" in the Summary PaneReport to set level properties (including Y-axis height).
@@ -58,7 +59,7 @@ Click the title of any of the reports to navigate into reports with more filters
 
 Click "Edit" in the action menu of a report to see the Report Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Report Editor helps you edit these queries and the display options of the report. When you open the Report Editor, you  see:
 
-![Use CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Use CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Dimensions, measures, and filters are chosen in the left pane. Hover over one of the existing values to show an "x" button that allows the value to be removed. Click the "plus" button next to a heading to open the dialog where you can add a new dimension, measure, or filter.
 2. Options for chart customization are displayed at the top.
@@ -69,7 +70,7 @@ Click "Edit" in the action menu of a report to see the Report Editor. Each repor
 
 When StartDate.Month is added as a dimension and the data is rendered as a trend in table form, bar charts and sparklines can be shown inside the table cells. Move the mouse pointer over the bar chart and the sparklines to show the values for individual months.
 
-![Use CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Use CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 In order for the bar charts and the sparklines to appear, the "Show sparklines" checkbox at the top of the Report Editor must be checked. This selects the Trend option and moves Month down to be the last dimension, which can also be accomplished by clicking on Month and using the up and down arrows to shift StartDate.Month up or down.
 
@@ -77,7 +78,7 @@ In order for the bar charts and the sparklines to appear, the "Show sparklines" 
 
 The settings menu contains links to useful pages like the System Health and About pages, and is located in the top-right corner of the dashboard.
 
-![Use CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Use CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 Whether to show descriptions and time stamps is up to individual users, and these settings only affect the individual's version of the dashboard, and do not modify the report set or what other users see. Clearing the cache causes all queries to reload their data from the cube, while restoring defaults deletes all of user-created or modified reports and recreates the system report set — what a user would see when they log in for the first time.
 
@@ -114,7 +115,7 @@ The data used for these tables are defined as follows:
 |InsideCorp |bit |Yes |Bit indicates whether the building is part of the corporate network. |
 |BuildingOfficeType |nvarchar(150) |Yes |Description of the building office type. |
 |Region |varchar(25) |Yes |Region where the building is located. |
-|||||
+
 
 **CqdNetwork**
 
@@ -125,7 +126,7 @@ The data used for these tables are defined as follows:
 |NetworkNameID |int |Yes |Optionally maps to a row in CqdNetworkName table. |
 |BuildingKey |int |Yes |Foreign key, matches one of the entries in the CqdBuilding table. |
 |UpdatedDate |datetime |No |Datetime for when the entry was last updated. |
-||||||
+
 
 By default this next table has one entry (0, 'Unknown').
 
@@ -135,7 +136,7 @@ By default this next table has one entry (0, 'Unknown').
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |No |Primary key for the CqdBuildingType table. |
 |BuildingTypeDesc |char(18) |No |Building type description. |
-|||||
+
 
 By default this next table has one entry (0, 'Unknown', 0, null).
 
@@ -147,7 +148,7 @@ By default this next table has one entry (0, 'Unknown', 0, null).
 |OwnershipTypeDesc |varchar(25) |No |Ownership type description. |
 |LeaseInd |tinyint |Yes |Index referencing another row in the CqdBuildingOwnershipType table, used for identifying leased buildings. |
 |Owner |varchar(50) |Yes |Building owner. |
-|||||
+
 
 By default this next table has one entry (0, 'Unknown', 0, null).
 
@@ -160,7 +161,7 @@ By default this next table has one entry (0, 'Unknown', 0, null).
 |phy |nvarchar(50) |Yes |Phy information. |
 |ap |nvarchar(50) |Yes |Wifi Access Point Name. |
 |Building |nvarchar(500) |Yes |The Building Name the WiFi Access Point is located in. |
-||||
+
 
 ## CQD Streams
 
@@ -181,7 +182,7 @@ A CQD stream is considered good, poor, or unclassified. CQM 1.5 now uses the fol
 |PacketLossRate |Greater than 0.1 (10%) |
 |JitterInterArrival |Greater than 30 |
 |RatioConcealedSamplesAvg |Greater than 0.07 |
-|||
+
 
 JPDR definition = Poor call definition minus RatioConcealedSamplesAvg
 
@@ -200,7 +201,7 @@ CQD doesn't use Caller/Callee fields, instead it uses "First" and "Second" becau
 |2 (AVMCU) |4 (Skype for Business) |Endpoint 1 |Endpoint 2 |
 |2 (AVMCU) |1 (mMediationServer) |Endpoint 2 |Endpoint 1 |
 |4 (Skype for Business) |4 (Skype for Business) |The Caller in MediaLine |The Callee in MMediaLine |
-|||||
+
 
 If both endpoints are the same type, CQD makes the Caller entry First and the Callee Second. For more information about endpoint names, see [this blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
@@ -231,7 +232,7 @@ Example: To get all streams from a building, UNION provides a distinct view of t
 
 If Wireless is managed internally, you can recreate the Wireless reports in the Managed bucket.
 
-![CQD Report Breakdown](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![CQD Report Breakdown.](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## Operational Processes
 

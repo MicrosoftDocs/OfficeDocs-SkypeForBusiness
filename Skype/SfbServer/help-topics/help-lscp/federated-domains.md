@@ -1,8 +1,8 @@
 ---
 title: "Federated Domains"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ExtDomainMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 description: "What do you want to do? Click the link to the task that you want to perform."

@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select Translation Rules"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelRule
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -28,4 +29,5 @@ To use an existing translation rule, click a rule in the list and then click **O
   
  
   
+
 

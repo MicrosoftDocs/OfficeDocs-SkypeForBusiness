@@ -1,8 +1,8 @@
 ---
 title: "Quality of Experience (QoE) Data Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.MonArchQoeEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 description: "What do you want to do? Click the link to the task that you want to perform."

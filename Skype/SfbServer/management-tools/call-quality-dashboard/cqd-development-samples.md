@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "CQD Development Samples"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,7 +38,7 @@ CQD offers quick and easy access to aggregated call quality information for on-p
 
 The reports shown on the web portal are grouped into "report sets". The figure shows a report set with two reports. Each report in this dashboard below shows query results on number of good calls, poor calls and poor call percentage for several months, with various filters applied. 
 
-![CQD Sample Report](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![CQD Sample Report.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD is created following the Call Quality Methodology (CQM), so the default set of reports is designed to align with the investigation flow introduced by CQM. Users also have the flexibility to edit or create custom reports to meet their needs. However, since there are multiple ways to visualize the data, the visualization provided by CQD may not fully address the needs of every user. In such situations, a user can leverage the Data APIs and Repository APIs to create custom report pages. We will go through a series of examples in this tutorial.
 
@@ -49,7 +50,7 @@ When navigating to the CQD homepage (e.g. http://localhost/cqd), the report set 
 
 CQD already has a lot of flexibility in customizing reports, but there could be situations where users may want to aggregate data across multiple reports created in CQD. For example, there could be a need to create a report that shows the poor call percentages of all possible combinations of wired calls in a table (a result like the figure):
 
-![CQD Table](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![CQD Table.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 Using the Portal provided by CQD, a user would have to navigate to multiple reports to extract and record the poor call % for each one, which can be laborious if there are many data points that need to be collected. The Data APIs provide users with a programmatic way to accomplish this, by retrieving data from the Data Service (e.g. via AJAX calls). 
 
@@ -57,7 +58,7 @@ Using the Portal provided by CQD, a user would have to navigate to multiple repo
 
 Let us take a simple example first. If we want to show the Audio Good Stream and the Audio Bad stream count of February 2015 on an HTML page like the figure:
 
-![CQD Example Report](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![CQD Example Report.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 What we need is to send a call to the Data Service with the proper parameters, and show the query results in an HTML table. The following is a sample of the JavaScript code:
 
@@ -194,7 +195,7 @@ It might be difficult for someone to figure out how to write the full list of me
 
 In this example, we will create a web page like the one shown in the figure where a user can enter the ID of any existing report set (or report) and show the definition of the report set or report on the web page. The user can then plug the JSON string of each report into code similar to the one shown in Example 1 and construct any customized report the user desires. 
 
-![CQD Example](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD Example.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 To create the report definition viewer tool, we need to send calls to Repository Service to retrieve the JSON string representations of the definitions of every report-set we want. The Repository API will return report-set definition based on a given report set ID. 
 
@@ -729,3 +730,4 @@ HTML code for Example 3 (Scorecard sample):
 </body>
 </html>
 ```
+

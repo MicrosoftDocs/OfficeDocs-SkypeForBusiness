@@ -1,12 +1,13 @@
 ---
 title: Use government team templates in the admin center
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: 
+ms.date: 09/10/2020
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium

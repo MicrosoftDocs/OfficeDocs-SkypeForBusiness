@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -27,3 +28,4 @@ The following topics are included in this section and should be reviewed before 
 - [Deploy Call Quality Dashboard for Skype for Business Server](deploy-0.md)
 - [Use Call Quality Dashboard for Skype for Business Server](use.md)
 - [Develop Call Quality Dashboard for Skype for Business Server](develop.md)
+

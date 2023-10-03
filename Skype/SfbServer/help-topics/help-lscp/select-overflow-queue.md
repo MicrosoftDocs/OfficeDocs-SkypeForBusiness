@@ -1,8 +1,8 @@
 ---
 title: "Select Overflow Queue"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsSelOverflowQueue
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: "Use the Select an overflow queue dialog box to select a queue where calls are forwarded when a response group queue is full."

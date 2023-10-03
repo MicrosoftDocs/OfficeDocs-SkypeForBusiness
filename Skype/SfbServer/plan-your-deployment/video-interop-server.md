@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Video Interop Server in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 f1.keywords:
 - ms.lync.plan.VideoInterop
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: "Summary: Review this topic while planning to integrate Skype for Business Server with third-party teleconferencing devices."
@@ -51,7 +52,7 @@ The currently supported VTCs are:
 
 The Video Interop Server functions in SIP trunk mode, where the VTCs continue to register with the existing Cisco infrastructure - for example, Cisco Call Manager (CUCM). A video SIP trunk is defined between CUCM and the VIS so that calls can be routed between the two systems. Only calls over the SIP trunk from the VTC to the VIS are supported. Thus, VTCs can dial into a Skype for Business conference (by dialing the phone number associated with the Call Automated Attendant), but cannot be dragged and dropped into the conference.
   
-![Diagram of VIS in SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![Diagram of VIS in SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## Features
 
@@ -96,7 +97,7 @@ The VIS supports incoming calls from a CUCM that are carried over a video SIP tr
   
 1. **VIS Pool Failover** If the main VIS pool that the video gateway points to is down, recovery is possible if the video gateway has defined trunks to two (or more) VIS pools. If the video gateway determines it cannot make calls to the primary VIS pool, it simply routes the calls to a secondary VIS pool.
     
-     ![Diagram of VIS pool failover](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![Diagram of VIS pool failover.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     A particular VIS pool can have trunks to multiple gateways, but normally a particular gateway can't have trunks to multiple VIS pools, so a trick needs to be done to support this failover: Define 2 FDQNs in DNS which resolve to the same IP address of a video gateway. Represent each FQDN as a separate video gateway in the Topology Document where each video gateway has a trunk to a different VIS pool, and recovery is now possible. (If TLS is used, the multiple names will need to be in the SAN of the video gateway certificate.)
     
@@ -105,7 +106,7 @@ The VIS supports incoming calls from a CUCM that are carried over a video SIP tr
   
 2. **Front End failover** If a VIS pool receives a call from CUCM but cannot reach its primary next-hop Registrar or Front End pool, calls are routed to a backup Front End pool.
     
-     ![Diagram of Front end failover](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![Diagram of Front end failover.](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     The VIS will keep track of the status of its primary Front End pool and its backup Front End pool (the setting is found in the backup setting for the Registrar service in the Topology Document). It sends Options polls once a minute to both pools, and if there are five consecutive failures the VIS assumes that a particular Front End pool is down. If the primary Front End pool is marked as down and there is an available configured backup the VIS sends new calls from the gateway to the backup Front End pool. Once the primary Front End pool comes back, the VIS will resume using the primary Front End pool for new calls.
     
@@ -183,3 +184,4 @@ Support for VTCs joining federated meetings via VIS is not part of Skype for Bus
 <a name="resiliency"> </a>
 
 [Deploy Video Interop Server in Skype for Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+

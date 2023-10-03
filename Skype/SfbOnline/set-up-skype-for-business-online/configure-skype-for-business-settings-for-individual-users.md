@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Admins Configure Skype for Business settings for individual users"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -45,7 +46,7 @@ To allow (or block) everyone in your business to communicate with external peopl
 
 You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
   
 1. Sign in with your work or school account.
     
@@ -76,7 +77,7 @@ To configure these settings in bulk, use PowerShell. See [Set up your computer f
 
 After you [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) for everyone in your company, you can selectively block external communications for specific individuals using these steps.
   
-1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit** ![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Choose **External communications**, and then clear the options as appropriate:
     
@@ -91,7 +92,7 @@ To configure these settings in bulk, use PowerShell. See [Set up your computer f
 ## Edit audio conferencing settings for one user
 <a name="__toc314837483"> </a>
 
-1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Choose **Audio conferencing**, select your audio conferencing provider, type or change the requested information, and then click **Save**.
     
@@ -115,3 +116,4 @@ To configure these settings in bulk, use PowerShell. See [Set the phone numbers 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
+

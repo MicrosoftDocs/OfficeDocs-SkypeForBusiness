@@ -1,19 +1,20 @@
 ---
 title: "Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization."
 ---
@@ -61,7 +62,7 @@ Add the following DNS records to your Microsoft 365 or Office 365 organization. 
     
 2. SRV records will automatically be created by Microsoft 365 or Office 365 and the deployment scripts. Confirm that you can look up the following two SIP services on the Edge: \_sip and \_sipfederationtls.
     
-     ![SRV Records confirmation](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
+     ![SRV Records confirmation.](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
 ## Set up hybrid connectivity between Cloud Connector Edition and Microsoft 365 or Office 365
 

@@ -1,8 +1,8 @@
 ---
 title: "Verify Replication of Forest Preparation"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployMainVerifyForestPrep
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: "To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:"

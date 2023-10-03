@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Deploy pilot Edge Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -26,11 +27,11 @@ As you navigate through the **Define New Edge Pool** wizard, review the key conf
     
 2. Navigate to the Skype for Business Server 2019 node. Right-click **Edge pools**, and click **New Edge pool**.
     
-     ![Define the New Edge Pool dialog box](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Define the New Edge Pool dialog box.](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. An Edge pool can be a **Multiple computer pool** or **Single computer pool**.
     
-     ![Define the Edge Pool FQDN dialog box](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![Define the Edge Pool FQDN dialog box.](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. On the **Select features** page, do not enable federation or XMPP federation. Federation and XMPP federation are both currently routed through the legacy Edge Server. These features will be configured in a later phase of migration. 
 
@@ -39,11 +40,11 @@ As you navigate through the **Define New Edge Pool** wizard, review the key conf
     
 6. On the **Define the next hop server** page, select the Director for the next hop of the legacy Edge pool. 
     
-     ![Define the Next Hop dialog box](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Define the Next Hop dialog box.](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. On the **Associate Front End or Mediation pools** page, do not associate a pool with this Edge pool at this time. External media traffic is currently routed through the legacy Edge Server. This setting will be configured in a later phase of migration. 
     
-     ![Associate Front End Pools dialog box](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![Associate Front End Pools dialog box.](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. Click **Finish**, and then **Publish** the topology. 
     
@@ -55,4 +56,5 @@ It's very important that you follow the guidelines in the topics in the Deployme
   
 You should now have a legacy Edge Server deployed in parallel with a Skype for Business Server 2019 Edge server deployment. Verify that both deployments are running properly, services are started, and you can administer each deployment prior to moving to the next phase. 
   
+
 

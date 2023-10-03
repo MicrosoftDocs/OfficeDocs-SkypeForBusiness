@@ -1,8 +1,8 @@
 ---
 title: "Save Voice Routing Test Case Information"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: "You can use the Save Voice Routing Test Case Information dialog box to save a temporary voice routing test case. In Save Voice Routing Test Case Information, type the name you want to give this test case in Name and then click OK."

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 3 - Scale
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -36,4 +36,4 @@ In this phase, you will use your learnings, talented project team, and relations
 7. Prepare for ongoing business engagement.
 8. Prepare for ongoing service health & adoption reviews.
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Define outcomes and success](teams-adoption-define-outcomes.md)

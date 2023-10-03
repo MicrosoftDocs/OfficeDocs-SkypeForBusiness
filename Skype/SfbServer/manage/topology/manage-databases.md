@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage databases with an AlwaysOn Availability Group in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -47,3 +48,4 @@ After patching a Back End Server that is part of an AlwaysOn Availability Group,
     ```
 
     Where [sqlpool.contoso.com] is replaced with the fully qualified domain name (FQDN) of your AlwaysOn availability group.
+

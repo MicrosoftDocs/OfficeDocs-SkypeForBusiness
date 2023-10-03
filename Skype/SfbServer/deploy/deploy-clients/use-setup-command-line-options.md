@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Use Setup command-line options with Skype for Business clients"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -33,5 +34,6 @@ The Office Setup.exe command line recognizes the command-line options described 
 |/repair Skype  <br/> |Runs Setup from the user's computer to repair Skype for Business.  <br/> |
 |/uninstall Skype  <br/> |Runs Setup to remove Skype for Business from the user's computer.  <br/> |
    
+
 
 

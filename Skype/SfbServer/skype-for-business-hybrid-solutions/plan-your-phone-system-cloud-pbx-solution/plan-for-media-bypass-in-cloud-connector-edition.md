@@ -1,13 +1,13 @@
 ---
 title: "Plan for media bypass in Cloud Connector Edition"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -36,7 +36,7 @@ For example, in the following topology—which does not employ media bypass—a 
   
 **Media and signaling pathways without media bypass**
 
-![signaling Without Media Bypass](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
+![signaling Without Media Bypass.](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
 An inbound call from the PSTN uses the same signaling path in the reverse direction. For internal users, media will still ultimately flow between the Skype for Business client and the Cloud Connector Mediation Server and then the SBC or gateway.
   
@@ -44,7 +44,7 @@ In the next topology—which does employ media bypass—signaling takes the same
   
 **Media and signaling pathways with media bypass**
 
-![signaling With Media Bypass](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
+![signaling With Media Bypass.](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
 ## Multi-site scenario and media bypass
 
@@ -52,7 +52,7 @@ Media bypass is also useful when you want to provide telephony services to multi
   
 **Multi-site application**
 
-![Cloud Connector Multisite Example](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
+![Cloud Connector Multisite Example.](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
 1. The SIP traffic flows from the user in Zurich to Microsoft 365 or Office 365.
     
@@ -66,7 +66,7 @@ Media bypass is also useful when you want to provide telephony services to multi
   
 If a client is outside the corporate network placing an outbound call, the media traffic flows via the Edge and Mediation servers of Cloud Connector and WAN link between Zurich and Amsterdam, as shown in the following diagram:
   
-![Cloud Connector Multisite Example 2](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
+![Cloud Connector Multisite Example 2.](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   
 ## Supported clients for media bypass
 
@@ -99,7 +99,7 @@ For more information, see [Plan for Skype for Business Cloud Connector Edition](
   
 For example, in the diagram below, Europe users must be well connected to the three Session Border Controllers (SBCs) in Amsterdam while US West users must be well connected to the two SBCs in Seattle. Well connected means that they are either located in the same network sites as the SBCs or gateways, or over WAN links that have proper bandwidth.
   
-![Cloud Connector Capacity](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
+![Cloud Connector Capacity.](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
 > If a user from Zurich travels to the Seattle office, and you want to use the internal network to deliver media traffic between the traveling user and gateways in Europe (as opposed to going over the Internet), then you must make sure the Seattle office and the Amsterdam office where European SBCs or gateways are located qualify as well connected. 

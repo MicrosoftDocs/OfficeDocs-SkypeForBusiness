@@ -1,9 +1,10 @@
 ---
 title: Data transfers between carriers and Microsoft for Operator Connect
-author: MicrosoftHeidi
-ms.author: heidip
-ms.reviewer: alaina, creager
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
+ms.reviewer: 
+ms.date: 05/27/2021
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -20,17 +21,17 @@ appliesto:
 
 # Data transfers between carriers and Microsoft for Operator Connect
 
-## Provisioned and Assigned Numbers
+Microsoft is the controller of Personal Data it processes in connection with Operator Connect. Customer must notify its end users of the following information:
 
-To ensure the proper functioning of the Operator Connect program, Microsoft will inform each participating carrier, through an API, which of the carrier’s phone numbers have been assigned within the Teams admin center, as well as the SIP URI (Session Initiation Protocol Uniform Resource Identifiers) of that phone number.
+- Microsoft’s Operator Connect functionality for Microsoft Teams enables Teams end users to communicate with others through calling networks via Microsoft Teams.
+- When this feature is enabled by your organization, Microsoft shares information with your organization’s communication services carrier/s (each, an Operator) to ensure proper functioning of the service and for troubleshooting purposes.
 
-## Call Detail Records and Quality Data
+Information Microsoft shares with the Operator when you use Operator Connect includes:
 
-Microsoft will provide call detail records and quality data to each participating carrier through an API. This is necessary for Microsoft and the carrier to perform troubleshooting and ensure the proper functioning of the service.
+- your phone number and, if applicable, the Microsoft-assigned SIP URI (Session Initiation Protocol Uniform Resource Identifiers) assigned to your phone number;
+- call details and call quality data, such as caller and call recipient phone numbers; call invite and end times; certain caller identifiers; call duration; and information about service connections (for example, IP addresses and operating systems of the caller and call recipient); and
+- emergency calling location information.
 
-## Call Duration Data
+Operators will be able to export and download the information listed above.
 
-Each carrier will provide to Microsoft, through an API, the duration of calls placed by their customers using Microsoft Teams. Microsoft will use these records to provide customers with usage information and to ensure our records are consistent with that of the carrier. Microsoft will store and process these records in compliance with applicable laws and regulations, as well as the Microsoft Privacy Statement.
-
-For more information:
-[Purchase, configure, and enable Career Coach for Microsoft Teams](career-coach.md)
+This information will be handled by your Operator in accordance with your Operator’s privacy practices. For more information, see your Operator’s privacy policy and terms of use. For information about Microsoft’s privacy practices, refer to the Microsoft privacy notice applicable to Teams at [this link](https://go.microsoft.com/fwlink/?LinkId=521839).

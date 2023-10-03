@@ -1,8 +1,8 @@
 ---
 title: "Add Video Gateway IP"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddVideoGatewayIPPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: "The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server 2015."

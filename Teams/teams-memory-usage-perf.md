@@ -1,21 +1,22 @@
 ---
 title: How Microsoft Teams uses memory
-author: msdmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
+ms.date: 01/23/2020
 audience: admin
 description: Learn about Microsoft Teams system memory usage, and why memory usage is the same between the desktop application and the web application.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
-- Teams_ITAdmin_PracticalGuidance
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-jun2020
 ---
 
@@ -25,13 +26,13 @@ Some Microsoft Teams users have questions about how Teams uses memory. This arti
 
 ## How Teams works
 
-Teams being designed on Electron allows for faster development, and it also maintains parity between Teams versions across different operating systems (Windows, Mac, and Linux). This parity is possible because Electron and Chromium maintain a similar code base across all versions. Another advantage of this architecture is there's a similar memory usage profile between the Teams web app and the desktop version. Both the web app and the desktop versions use memory in a similar way to how a browser would use it. More information about Electron is available at [their Web site](https://electronjs.org/).
+Teams being designed on Electron allows for faster development, and it also maintains parity between Teams versions across different operating systems (Windows and Mac). This parity is possible because Electron and Chromium maintain a similar code base across all versions. Another advantage of this architecture is there's a similar memory usage profile between the Teams web app and the desktop version. Both the web app and the desktop versions use memory in a similar way to how a browser would use it. More information about Electron is available at [their Web site](https://electronjs.org/).
 
 See [Chromium Memory Usage](https://www.chromium.org/developers/memory-usage-backgrounder) and [Key Concepts in Chrome Memory](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) for more information.
 
 The following image shows side-by-side memory usages of the Teams desktop app for Windows and the Teams Web app (in this example, running in Google Chrome).
 
-![Teams memory usage for the desktop app and Web app](media/teams-memory-clientweb.png)
+![Teams memory usage for the desktop app and Web app.](media/teams-memory-clientweb.png)
 
 ## Memory usage in Teams
 
@@ -45,7 +46,7 @@ In this way, similar Chromium workloads can utilize varying amounts of memory, d
 
 The following graph depicts memory usage by Teams on four separate systems, each with different amounts of memory available. Each of the systems is processing similar workloads (same apps open and running).
 
-![Teams memory usage across different systems](media/teams-memory-usage.png)
+![Teams memory usage across different systems.](media/teams-memory-usage.png)
 
 When computers have more memory, Teams will use that memory. In systems where memory is scarce, Teams will use less.
 
@@ -59,6 +60,6 @@ If you see one or more of the following symptoms on your computer, you could hav
 
 The following images show examples of views in Task Manager when system memory usage is abnormally high.
 
-![Teams memory usage view in Task Manager](media/teams-memory-high-mem-process-list.png)
+![Teams memory usage view in Task Manager.](media/teams-memory-high-mem-process-list.png)
 
-![Teams memory usage graph in Task Manager](media/teams-memory-high-mem-process-list2.png)
+![Teams memory usage graph in Task Manager.](media/teams-memory-high-mem-process-list2.png)

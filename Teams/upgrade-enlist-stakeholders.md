@@ -1,12 +1,13 @@
 ---
 title: Enlist stakeholders | Skype for Business to Teams upgrade planning
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/23/2018
 description: Learn how to structure your organization's stakeholders to ensure that the Microsoft Teams upgrade is successful. 
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -24,7 +25,7 @@ appliesto:
 
 # Enlist your project stakeholders
 
-![Illustration showing the stakeholder state of the upgrade journey](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
+![Illustration showing the stakeholder state of the upgrade journey.](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
 
 This article is part of the Project Stakeholders stage of your upgrade journey, the first and most essential activity you complete for your project's success.
 
@@ -37,8 +38,8 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn't all-inclusive.<br><strong>Tip</strong><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li> |
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Who are the right people to serve as your stakeholder team for this project?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Consider the scope of your project and assign the relevant stakeholders.</li><li>Use the following table as a guideline, but note that this list isn't all-inclusive.<br><strong>Tip</strong><br>Build a responsible-accountable-consulted-informed [(RACI) matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) to further distinguish those who will be held accountable from those who simply need to be kept informed in a particular area of the project.</li> |
 | <li>Decide whether to create a steering committee, and assign roles as appropriate.</li></ul> | |
 
 | Roles | Responsibility |

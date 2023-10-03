@@ -1,6 +1,7 @@
 ---
+ms.date: 06/22/2018
 title: "Plan a Cloud auto attendant"
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019"
@@ -22,17 +23,17 @@ The auto attendant used with Exchange Unified Messaging (Exchange Server 2013 or
 
 This inherently means that you will have a hybrid implementation of Skype for Business Server 2019 if you wish to use Unified Messaging features like auto attendants. See [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md) for details.
 
-An auto attendant is a cloud service that accepts customer calls and plays greetings, provides them with menu options, and interacts with callers using speech or the dial pad to route their calls to the right destination. Each auto attendant is assigned a *resource account* (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to an auto attendant in the Microsoft Teams admin center. See [What are Cloud auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what auto attendants are and what options and features exist for auto attendants.
+An auto attendant is a cloud service that accepts customer calls and plays greetings, provides them with menu options, and interacts with callers using speech or the dial pad to route their calls to the right destination. Each auto attendant is assigned a *resource account* (see [Configure resource accounts](configure-onprem-ra.md)) on your Skype for Business Server 2019 system that will be linked directly to an auto attendant in the Microsoft Teams admin center. See [Set up an auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) for more detail on what auto attendants are and what options and features exist for auto attendants.
 
 > [!NOTE]
 > You can assign multiple Microsoft service numbers, Direct Routing numbers, or hybrid numbers to an auto attendant.
 
 An incoming call to a Cloud auto attendant can take one of several paths, as shown here:
 
-![Diagram for auto attendants](../../SfBServer2019/media/AA-plan-concept.png)
+![Diagram for auto attendants.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) and [Direct Routing](/MicrosoftTeams/direct-routing-plan.md)
+2. Via a [Session Border Controller](/microsoftteams/direct-routing-border-controllers) and [Direct Routing](/microsoftteams/direct-routing-plan-media-bypass).
 3. Via a number homed online in Microsoft 365 or Office 365.
 
 Also see:
@@ -55,7 +56,7 @@ In addition to the requirements above, the below requirements must be configured
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
 - If you're assigning a phone number to to your auto attendant, you will need an [Office 365 Enterprise E5](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md) license.
-- Create an online [resource account](/MicrosoftTeams/manage-resource-accounts.md) or on-premises [resource account](configure-onprem-ra.md) for each auto attendant, and assign phone numbers and licenses. 
+- Create an online [resource account](/MicrosoftTeams/manage-resource-accounts) or on-premises [resource account](configure-onprem-ra.md) for each auto attendant, and assign phone numbers and licenses. 
 
 ## Migration and interoperability
 
@@ -112,3 +113,4 @@ Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mai
 [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: Calls to Subscriber Access or auto attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Front End pool disaster recovery in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -21,7 +22,7 @@ For disaster recovery, Skype for Business Server offers pool pairing with failov
   
 For the most robust disaster recovery options in Skype for Business Server, deploy pairs of Front End pools across two geographically dispersed sites. Each site has a Front End pool which is paired with a corresponding Front End pool in the other site. Both sites are active, and the Backup Service provides real-time data replication to keep the pools synchronized. See [Deploy paired Front End pools for disaster recovery in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) if you want to implement Front End pool pairing.
   
-![Shows Front End Pools at two different sites, paired with each other](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Shows Front End Pools at two different sites, paired with each other.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 If the pool in one site fails, you can fail over the users from that pool to the pool in the other site, which then serves all the users in both pools. For capacity planning, you should design each pool to be able to handle the workload of all users in both pools in the event of a disaster.
   
@@ -61,7 +62,7 @@ The Central Management store contains configuration data about the servers and s
   
 If you pair the pool that hosts the Central Management store, a backup Central Management store database is set up in the backup pool. At any point, one of the two Central Management store databases is active, and the other is a standby. The content is replicated by the Backup Service from the active database to the standby.
   
-![Shows two Front End Pools, one with the active CMS store and the other with the passive backup CMS store](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Shows two Front End Pools, one with the active CMS store and the other with the passive backup CMS store.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 During a pool failover that involves the pool hosting the Central Management store, you must fail over the Central Management store before you fail over the Front End pool.
   

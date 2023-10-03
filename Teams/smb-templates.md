@@ -1,7 +1,7 @@
 ---
-title: Teams templates for Small and Medium Businesses built with Microsoft Graph
-author: serdarsoysal
-ms.author: serdars
+title: Team templates for small and medium businesses built with Microsoft Graph
+author: lana-chin
+ms.author: v-chinlana
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,28 +15,37 @@ f1.keywords:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: lavenkat
+ms.date: 07/01/2019
 description: Use Microsoft Teams predefined templates built in Microsoft Graph to quickly and easily create teams for small and medium businesses.
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+  - seo-marvel-mar2020
+  - chat-teams-channels-revamp
 ---
 
-# Teams templates built in Microsoft Graph for Small and Medium Businesses
+# Team templates built in Microsoft Graph for small and medium businesses
 
-Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-For small and medium businesses, templates can be especially powerful, as they help administrators to quickly deploy Teams across their organization. Templates also help orient users and get started with using Teams effectively. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
+For small and medium businesses, templates can be especially powerful, as they help you to quickly deploy Teams across your organization. Templates also help users to get oriented with how to effectively use Teams. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
-We currently offer three first-party SMB templates that you can leverage for a variety of situations. All templates will create *Private* Teams. Once you have created the Teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, see [Get started with Teams templates](get-started-with-teams-templates.md).
+We currently offer three pre-built templates for small and medium businesses that you can use for various situations. All templates create *private* teams. After you create the teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate.
+
+> [!NOTE]
+> You can also use Microsoft Graph to create your own custom templates. To learn more, see [teamTemplate resource type](/graph/api/resources/teamtemplate).
+
+To learn more about team templates in general, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Company-Wide template
-The Company-Wide template is meant for communication and collaboration that are relevant for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training, and development. The Fun Stuff channel provides a social platform for all random and fun posts.
 
-| Base template type  | baseTemplateId | Properties that come with this base template |
+The Company-Wide template is meant for communication and collaboration for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training, and development. The Fun Stuff channel provides a social platform for all random and fun posts.
+
+| Template type  | TemplateId | Properties that come with this template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Company-wide | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| Channels <ul><li>General\*</li><li>Human Resources\*</li><li>Fun Stuff\*</li></ul><br> Apps<ul><li>Company Portal (Website pinned to the **Human Resources** channel) </li> </UL><br>Team properties <ul><li>Team visibility set to Private</li></ul> |
 
 *Auto-favorited channels 
 
-To create the Company-Wide team by taking defaults from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy Teams templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Company-Wide team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -52,15 +61,15 @@ Content-Type: application/json
 
 ## Executive Team template
 
-The Executive Team template is ideal for creating a team for company executives to communicate and collaborate on company initiatives like annual priorities, fiscal budgets, strategic initiatives, and top clients. This template comes with a *Private* channel to invite select users for specific topics.
+The Executive Team template is ideal for creating a team for company executives to communicate and collaborate on company initiatives like annual priorities, fiscal budgets, strategic initiatives, and top clients. This template comes with a *private* channel to invite select users for specific topics.
 
-| Base template type  | baseTemplateId | Properties that come with this base template |
+| Template type  | TemplateId | Properties that come with this template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Executives Team | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Channels <ul><li>General\*</li><li>Private \*</li></ul> Apps<ul><li>OneNote (pinned to the **Private** channel)</li> <li>Planner (pinned to the **Private** channel) </li></ul><br>Team properties <ul><li>Team visibility set to Private</li></ul> | 
 
 *Auto-favorited channels<br>
 
-To create the Executives team by taking defaults from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy Teams templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Executives team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -76,15 +85,17 @@ Content-Type: application/json
 
 ## Departmental Team template
 
-The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *Private* channel to invite select users for specific topics. We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
+The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *private* channel to invite select users for specific topics.
 
-| Base template type | baseTemplateId | Properties that come with this base template |
+We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
+
+| Template type | TemplateId | Properties that come with this template |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Channels <ul><li>General\*</li><li>Private \*</li></ul><br> Apps<ul><li>OneNote (pinned to the **Private** channel)</li> <li>Planner (pinned to the **Private** channel) </li> </ul><br>Team properties <ul><li>Team visibility set to Private</li></ul> | 
 
 *Auto-favorited channels
 
-To create the Finance team by taking defaults from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy Teams templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Finance team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true).
 
 #### Request 
 ```http 
@@ -171,6 +182,6 @@ Content-Type: application/json
 
 ## Related topics
 
-- [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
-- [Get started with Teams templates](get-started-with-teams-templates.md)
-- [Create team](/graph/api/team-post?view=graph-rest-beta) (in preview)
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
+- [Create team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (in preview)

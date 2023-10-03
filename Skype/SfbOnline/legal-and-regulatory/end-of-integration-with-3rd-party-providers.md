@@ -1,6 +1,7 @@
 ---
+ms.date: 03/14/2018
 title: "End of life program for the integration of Skype for Business with third-party audio conferencing providers "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
@@ -44,7 +45,7 @@ As part of the announcement of the start of the end of life program, the followi
 
 To prepare for this change, we encourage affected organizations to notify their enabled users of this planned update prior to July 31, 2021. 
 
-After July 31, 2021, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing). 
+After July 31, 2021, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing). 
 
 Depending on the desired end state of an organization, there are three paths that can be followed:
 
@@ -125,3 +126,4 @@ These organizations would need to disable their users from using a third-party a
 - To disable the integration of third-party audio conferencing for a given organizer, use the Remove-CsUserAcp cmdlet. For additional information, see [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - To automatically reschedule the meetings of users after disabling integration with third-party audio conferencing providers, see “How do I run Meeting Migration manually for a user?” in [Setting up the Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+

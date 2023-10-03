@@ -1,6 +1,7 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+ms.date: 06/12/2018
+title: "Qualified Lync applications for persistent chat"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,10 +19,11 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps ensure that qualified applications for persistent chat meet customer expectations for specific scenarios"
 ---
 
-# Persistent chat applications
+# Persistent chat: qualified Lync applications
+
 Collaborate with a group in topic-based persistent discussion rooms. Share ideas and information by posting messages. Find ideas and information by browsing or searching the chat history. Search for content within and across rooms. Create notifications and filters to track conversations in particular rooms and about specific topics.
 
 ## MindLink anywhere
@@ -44,10 +46,3 @@ MindLink allows real-time collaboration across the business and improves team ef
 
 ***Lingo*** connects disparate systems and processes, extending your line of business applications to Lync 2013 persistent chat. Lingo seamlessly allows for collaboration within a persistent chat room by enabling the use of multiple add-ins and easy file transfer and storage of documents to SharePoint 2010 or 2013 document libraries. In addition, Lingo extends persistent chat by providing real-time analytics to room managers and persistent chat administrators based on activity.
 
-* * *
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

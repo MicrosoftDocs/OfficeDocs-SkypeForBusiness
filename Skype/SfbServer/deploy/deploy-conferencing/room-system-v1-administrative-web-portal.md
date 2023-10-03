@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy SRS v1 Administrative Web Portal in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -58,7 +59,7 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 
     Create the group with Group Scope as Global and Group Type as Security.SIP enabled users who are added to this group are authorized to use all admin portal functionality on a single Skype room. To include support for bulk management of Skype rooms, refer to step 5.
 
-     ![List of Admin Groups with security group role](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![List of Admin Groups with security group role.](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. Create an Active Directory security group with name LRSPowerUserAdminsGroup.
 
@@ -66,11 +67,11 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 
 6. Add LRSFullAccessAdminGroup as a member of LRSSupportAdminGroup.
 
-     ![LRSSupportAdminGroup Properties Members page](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![LRSSupportAdminGroup Properties Members page.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. Create a SIP enabled Active Directory user with name LRSSupport. Add this user to LRSSupportAdminGroup.
 
-     ![LRSSupportAdminGroup Properties Members page](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![LRSSupportAdminGroup Properties Members page.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. Install [ASP.NET MVC 4 for Visual Studio 2010 SP1 and Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 
@@ -121,7 +122,7 @@ To verify installation of the SRS v1 Administrative Web Portal, do the following
 
     You should not see any errors, as shown in the following image:
 
-     ![Lync Room System Admin Portal Sign In screen](../../media/LRS_AdminPortalSignIn.png)
+     ![Lync Room System Admin Portal Sign In screen.](../../media/LRS_AdminPortalSignIn.png)
 
 2. If you do not see any errors, try accessing the following URL from any other computer in the topology:
 
@@ -142,7 +143,7 @@ After you deploy SRS on the server, you can check the status of all SRS rooms by
 
 2. Enter the credentials for the LRSSupport account or an account that was added to the LRSSupportAdminGroup security group.
 
-![Lync Room System Admin Portal Sign In screen](../../media/LRS_AdminPortalSignIn.png)
+![Lync Room System Admin Portal Sign In screen.](../../media/LRS_AdminPortalSignIn.png)
 
 ### SRS Administrative Web Portal Summary Page
 
@@ -158,7 +159,7 @@ The summary page provides the following information for all of the SRS rooms dep
 
 - **Last Refresh** Displays the last time the web page was refreshed.
 
-![Lync Room System Admin Portal Summary View](../../media/LRS_AdminPortal_Summary_view.png)
+![Lync Room System Admin Portal Summary View.](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > You will only see the Bulk Management menu if you are part of the LRSPowerUserAdminsGroup security group.
@@ -171,13 +172,13 @@ The Room Info section of the portal allows you to view and configure individual 
 
 In the Settings section, you can set the password, room tag, and default volume levels for the room. If you configure these settings, the changes are replicated only after you restart the SRS console. You will only see System Updates settings for SRS devices using release 15.12 and later.
 
-![Lync Room System Admin Portal Room Settings](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync Room System Admin Portal Room Settings.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### Details
 
 The Details section provides a read-only summary of the SRS room's settings, including: the time of last refresh; next meeting; last updates, maintenance and calibration; default speaker, mic, and ringer settings; version; SIP URI; number of screens and details about each screen; status, and activity.
 
-![Lync Room System Admin Portal Detail View](../../media/LRS_AdminPortal_Detail_view.png)
+![Lync Room System Admin Portal Detail View.](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### Troubleshooting
 
@@ -187,7 +188,7 @@ The Troubleshooting section can be used to remotely collect logs and save them t
 
 The Health section gives a visual indication of the health of the Skype for Business Server connection, audio device, video device, resiliency state, and screen device.
 
-![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System Admin Portal Room Health.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### Additional Notes about the Administrative Web Portal
 

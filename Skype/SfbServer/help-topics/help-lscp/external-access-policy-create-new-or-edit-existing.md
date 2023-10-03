@@ -1,8 +1,8 @@
 ---
 title: "External Access Policy Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ExtPolicyEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: "What do you want to do? Click the link to the task that you want to perform."

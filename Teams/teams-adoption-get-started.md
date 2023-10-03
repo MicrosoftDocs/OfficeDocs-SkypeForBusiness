@@ -1,7 +1,7 @@
 ---
 title: Get started driving adoption of Microsoft Teams
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -55,4 +55,4 @@ Every adoption project varies in size and complexity based on your environment, 
 Each of these adoption phases depends on your technical and environmental readiness for Teams. Let's get started!
 
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|

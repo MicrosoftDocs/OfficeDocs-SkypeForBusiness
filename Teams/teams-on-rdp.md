@@ -1,8 +1,9 @@
 ---
 title: Use Teams with remote desktop services
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: alivano
+ms.date: 02/02/2021
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,6 +16,8 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - highpri
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---
@@ -42,7 +45,7 @@ You can set policies by using the Microsoft Teams admin center or PowerShell. It
 
 [**Calling polices**](teams-calling-policy.md): Teams includes the built-in DisallowCalling calling policy, in which all calling features are turned off. Assign the DisallowCalling policy to all users in your organization who use Teams in a virtualized environment.
 
-[**Meeting policies**](meeting-policies-in-teams.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.
+[**Meeting policies**](meeting-policies-overview.md): Teams includes the built-in AllOff meeting policy, in which all meeting features are turned off. Assign the AllOff policy to all users in your organization who use Teams in a virtualized environment.
 
 #### Assign policies using the Microsoft Teams admin center
 

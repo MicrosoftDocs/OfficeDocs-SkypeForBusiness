@@ -1,9 +1,10 @@
 ---
 title: "Microsoft Teams call queue supported languages"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
+ms.date: 02/05/2021
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -29,29 +32,44 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Language                                |
 |:---------------------------------------|
 |Arabic (Egypt)                          |
-|Catalan (Catalan)	                     |
+|Arabic (Saudi Arabia)                   |
+|Bulgarian (Bulgaria)                    |
+|Catalan (Catalan)                       |
 |Chinese (Simplified, PRC)               |
-|Chinese (Traditional, Hong Kong)        |
+|Chinese (Traditional, Hong Kong SAR)    |
 |Chinese (Traditional, Taiwan)           |
 |Croatian (Croatia)                      |
 |Czech (Czech Republic)                  |
 |Danish (Denmark)                        |
+|Danish (Belgium)                        |
 |Dutch (Netherlands)                     |
 |English (Australia)                     |
 |English (Canada)                        |
 |English (India)                         |
+|English (Ireland)                       |
+|English (Philippines)                    |
+|English (South Africa)                  |
 |English (United Kingdom)                |
 |English (United States)                 |
+|Estonian (Estonia)                      |
 |Finnish (Finland)                       |
+|French (Belgium)                        |
 |French (Canada)                         |
 |French (France)                         |
+|French (Switzerland)                    |
+|German (Austria)                        |
 |German (Germany)                        |
+|German (Switzerland)                    |
 |Greek (Greece)                          |
+|Hebrew (Israel)                         |
+|Hindi (India)                           |
 |Hungarian (Hungary)                     |
 |Indonesian (Indonesia)                  |
 |Italian (Italy)                         |
 |Japanese (Japan)                        |
 |Korean (Korea)                          |
+|Latvian (Latvia)                        |
+|Lithuanian (Lithuania)                  |
 |Norwegian Bokmal (Norway)               |
 |Polish (Poland)                         |
 |Portuguese (Brazil)                     |
@@ -66,6 +84,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Thai (Thailand)                         |
 |Turkish (Turkey)                        |
 |Vietnamese (Vietnam)                    |
+|Welsh (United Kingdom)                  |
 
 > [!NOTE]
 > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/12/2018
 title: "Qualified Lync apps"
 ms.author: serdars
 author: msdmaguire
@@ -170,7 +171,7 @@ We are a Microsoft Gold partner in communications and application development, c
 
 [CreaLog](http://creaLog.com)
 
-*CreaLog* is the European provider of a seamlessly integrated, multi-channel contact center and IVR platform with customers in 30 countries.
+*CreaLog* is the European provider of a seamlessly integrated, multi-channel contact center and IVR platform with customers in 30 countries/regions.
 
 Features include:
 - Automated distribution of phone, email, IM, and video contacts including enterprise-wide skill-based routing - integrating virtually everyone, even home office workers, into the service process
@@ -283,7 +284,7 @@ Highlights include:
 - Ability to transfer a call to a new queue without losing priority or call data
 - OnCall module for distribution of calls after closing time
 
-Loxysoft AS, part of Loxysoft Group and formerly known as Dolphin Software AS, is the largest supplier of full-service support systems for Contact centers and other contact-intensive organizations in the Nordic countries. Watch our brief [video](https://www.youtube.com/watch?v=eulNwbxgzew) for a product overview.
+Loxysoft AS, part of Loxysoft Group and formerly known as Dolphin Software AS, is the largest supplier of full-service support systems for Contact centers and other contact-intensive organizations in the Nordic countries/regions. Watch our brief [video](https://www.youtube.com/watch?v=eulNwbxgzew) for a product overview.
 
 ## Luware LUCS Contact Center for Microsoft Lync
 * * *
@@ -371,7 +372,7 @@ The T-Metrics Contact Center can support agents off of legacy switches and Lync 
 
   **Interact with customers swiftly and efficiently.**
 
-[Trio Enterprise](http://trio.com)
+Trio Enterprise
 
 A multimedia Contact Center with Attendant functionality, Trio Enterprise from Enghouse Interactive is developed upon a Scandinavian model. Integrating fully with the voice telephony and collaboration capabilities of MS Lync it also supports Microsoft Exchange and Active Directory. Manage all types of customer interactions such as Voice Call, Exchange UM Voicemail, SMS, e-mail, Web Chat & Web Callback, in one single application.
 Additional Functions:
@@ -455,10 +456,5 @@ With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has t
 
 Zylinc Contact Center is used with Lync for successful contact centers in several industries and around the world.
 
-* * *
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)
+

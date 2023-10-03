@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Verify Replication of Schema Partition"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainVerifySchemaPrep
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -39,4 +40,5 @@ To verify that the schema extension have been successfully replicated in your Ac
 > [!NOTE]
 > If your check of the replication of the schema does not yet show a successful replication, wait approximately 15 minutes and then check again. Active Directory replication is based on a loose consistency model and some replication latency can occur, based on a number of factors in the server and infrastructure. 
   
+
 

@@ -11,7 +11,7 @@ metadata:
   ms.topic: landing-page # Required
   ms.collection: collection # Optional; Remove if no collection is used.
   author: lanachin #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-lanac #Required; microsoft alias of author; optional team alias.
+  ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 06/23/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -32,10 +32,6 @@ landingContent:
             url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
           - text: Technical diagrams
             url: ./technical-diagrams.md
-      - linkListType: download
-        links:
-          - text: Download now!
-            url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 
   # Card (optional)
   - title: Plan
@@ -75,8 +71,6 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Skype for Business readiness series
-            url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
           - text: Skype for Business Server 2019 documentation
             url: ../SfBServer2019/skype-for-business-server-2019.yml
           - text: Lync Server 2013 documentation

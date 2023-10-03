@@ -1,6 +1,7 @@
 ---
+ms.date: 06/11/2018
 title: "PCs optimized for Lync"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -32,3 +33,4 @@ All of these form factors are tested to deliver:
 
 > [!NOTE]
 > Monitors require an embedded camera and an embedded speakerphone both passing Lync Logo specs (including USB HID support). The display is not tested.
+

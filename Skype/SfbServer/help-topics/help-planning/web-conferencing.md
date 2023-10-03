@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server Web Conferencing planning tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: "Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing."

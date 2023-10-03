@@ -1,13 +1,13 @@
 ---
 title: "Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -79,7 +79,7 @@ Figure 1 shows a stretched Persistent Chat Server pool topology where data cente
     
 **Stretched Persistent Chat Server pool when data centers are geo-located with high bandwidth/low latency**
 
-![Persistent Chat Stretched Pool with high bandwidth/low latency](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Persistent Chat Stretched Pool with high bandwidth/low latency.](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 Figure 2 shows a stretched Persistent Chat Server pool topology where data centers are geo-located with low bandwidth/high latency.
   
@@ -103,6 +103,6 @@ Figure 2 shows a stretched Persistent Chat Server pool topology where data cente
     
 **Stretched Persistent Chat Server pool when data centers are geo-located with low bandwidth/high latency**
 
-![Persistent Chat Stretched Pool with low bandwidth/high latency](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Persistent Chat Stretched Pool with low bandwidth/high latency.](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

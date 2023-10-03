@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Switching between the Skype for Business and the Lync client user interfaces"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -36,7 +37,7 @@ For Skype for Business Online organizations, you can use the Remote PowerShell i
   
 ## Switching the Skype for Business user interface for users
 
-The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). For other information, see [Configuring your computer for Skype for Business Online management](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers can be downloaded from the Microsoft Download Center at [Download and install the Teams PowerShell module](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md). For other information, see [Configuring your computer for Skype for Business Online management](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 > [!IMPORTANT]
 > The  _Global_ policy setting for switching the user interface won't be applied to a user that already has a custom policy applied. To be able to change the user interface, you will need to run the following for each user that has a custom policy applied:
@@ -56,7 +57,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 If you set the policy right, you will see:
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled.](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 To enable all of the users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following: 
   
@@ -66,7 +67,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 If you set the policy right, you will see:
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled.](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 To allow a single user in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
@@ -76,7 +77,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype for Business Online - Enable UI.](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 To allow a single user in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
@@ -86,7 +87,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype for Business Online - UI Disabled.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 To allow multiple users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
@@ -281,3 +282,4 @@ You can also verify that the GPO has successfully updated the registry on a user
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
   
+

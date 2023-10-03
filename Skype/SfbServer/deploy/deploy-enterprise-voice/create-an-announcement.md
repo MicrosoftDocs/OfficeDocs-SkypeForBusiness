@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Create or delete an announcement in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -68,7 +69,7 @@ To create a new announcement, you need to perform the following steps:
     For example, to specify an audio prompt:
 
    ```powershell
-   $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
+   $a = [System.IO.File]::ReadAllBytes('.\PromptFile.wav')
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
@@ -79,7 +80,7 @@ To create a new announcement, you need to perform the following steps:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
+   For more detail about these cmdlets, and to see a list of the language codes to use in the **TextToSpeechPrompt** parameter, see [New-CsAnnouncement](/powershell/module/skype/new-csannouncement).
 
 ## Delete an announcement for unassigned numbers
 
@@ -108,16 +109,17 @@ To create a new announcement, you need to perform the following steps:
    ```
 
     > [!NOTE]
-    > For details about more options, see [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) and [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > For details about more options, see [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement) and [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement).
 
 ## See also
 
 [Create or delete an announcement in Skype for Business Server](create-an-announcement.md)
 
-[Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile)
 
-[New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](/powershell/module/skype/new-csannouncement)
 
-[Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement)
 
-[Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps)
+[Get-CsAnnouncement](/powershell/module/skype/get-csannouncement)
+

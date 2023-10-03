@@ -1,13 +1,13 @@
 ---
 title: "Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,27 +37,27 @@ You would typically use this tool after you use the [Skype for Business Server 2
 
 The Stress and Performance Tool can simulate these types of user load:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|Instant Messaging (IM) and presence  <br/> |Audio conferencing  <br/> |
-|Application sharing  <br/> |Voice over IP (VoIP), including public switched telephone network (PTSN) simulation  <br/> |
-|Web Access Client conferencing  <br/> |Conference auto attendant  <br/> |
-|Response Groups  <br/> |Distribution list expansion  <br/> |
-|Address book download and address book query  <br/> |Enhanced 911 (E911) calls and location profile (dial plan)  <br/> |
-|MultiView  <br/> |Data collaboration  <br/> |
-|Mobility  <br/> ||
+|Instant Messaging (IM) and presence   |Audio conferencing   |
+|Application sharing   |Voice over IP (VoIP), including public switched telephone network (PTSN) simulation   |
+|Web Access Client conferencing   |Conference auto attendant   |
+|Response Groups   |Distribution list expansion   |
+|Address book download and address book query   |Enhanced 911 (E911) calls and location profile (dial plan)   |
+|MultiView   |Data collaboration   |
+|Mobility   ||
    
 ## Applications and files included with the Skype for Business Server 2015 Stress and Performance Tool
 
 These applications are a part of the Skype for Business Server Stress and Performance Tool:
   
-|**Tool**|**Description**|
+|Tool|Description|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |This tool is used to create users and contacts.  <br/> |
-|UserProfileGenerator.exe  <br/> |Used to configure the characteristics of the user load you're simulating.  <br/> |
-|LyncPerfTool.exe  <br/> |The tool that simulates user load.  <br/> |
-|Default.tmx  <br/> |Required to use the Skype for Business Server 2015 Logging Tool.  <br/> |
-|Provisioning script examples  <br/> |Used to configure the topology for running load tests, based on specific scenarios. You'll likely need to modify them to make them relevant for your particular environment.  <br/> |
+|UserProvisioningTool.exe   |This tool is used to create users and contacts.   |
+|UserProfileGenerator.exe   |Used to configure the characteristics of the user load you're simulating.   |
+|LyncPerfTool.exe   |The tool that simulates user load.   |
+|Default.tmx   |Required to use the Skype for Business Server 2015 Logging Tool.   |
+|Provisioning script examples   |Used to configure the topology for running load tests, based on specific scenarios. You'll likely need to modify them to make them relevant for your particular environment.   |
    
 ## Topics in this section
 

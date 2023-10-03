@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Enable users for E9-1-1 in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -38,4 +39,5 @@ Skype for Business Server can assign a location policy to clients based on subne
   
 > If users are assigned a global, site, or per-user location policy, they can be required to manually enter a location into the client if the client is not located within a defined subnet or no location has been found by the Location Information service. For details, see [Define the user experience for manually acquiring a location in Skype for Business Server](manually-acquiring-a-location.md).
     
+
 

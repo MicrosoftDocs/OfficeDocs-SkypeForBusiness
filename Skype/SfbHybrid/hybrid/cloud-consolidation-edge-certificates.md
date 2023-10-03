@@ -1,15 +1,17 @@
 ---
+ms.date: 11/09/2018
 title: "Update the edge certificate"
-ms.author: crowe
-author: CarolynRowe
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 search.appverid: MET150
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -34,7 +36,7 @@ The subject alternate name (SAN) of the certificate on all edge servers in the o
 
 **Steps:**
 
-1.	Obtain a new External Edge certificate for the edge that has all existing entries plus additional entries in the SAN for all SIP domains in the cloud environment (excluding *.onmicrosoft.com domains) in the form “sip.<DomainName>”.
+1.	Obtain a new External Edge certificate for the edge that has all existing entries plus additional entries in the SAN for all SIP domains in the cloud environment (excluding *.onmicrosoft.com domains) in the form `sip.<DomainName>`.
 2.	Install the certificate locally on each edge server and assign it to the Skype Edge service on each of the edge service.  For detailed steps, see the section “External Edge interface certificates” in [Deploy Edge Service in Skype for Business Server 2015](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md).
 3.	Restart the Edge service on each of the edge servers. You can do this for a single box with the following PowerShell commands:
 

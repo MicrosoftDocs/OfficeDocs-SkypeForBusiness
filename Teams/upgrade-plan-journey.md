@@ -1,11 +1,12 @@
 ---
 title: Plan for your Skype for Business to Microsoft Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 04/26/2018
 audience: admin
 description: Learn about how to plan for your upgrade by enlisting stakeholders, and then scoping the project.
 ms.localizationpriority: medium
@@ -24,7 +25,7 @@ appliesto:
 
 # Plan for your upgrade
 
-![Diagram of the Teams upgrade journey](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
+![Diagram of the Teams upgrade journey.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 A healthy technical environment, sustained user adoption, and the realization of your business goals all begin with proper planning. A solid plan gives you a framework for your upgrade project and ensures that all stakeholders are working toward the same goals. By taking time to properly define success, you can measure results as you progress through your deployment and verify that you're achieving the outcomes you wanted. Planning your journey includes:
 

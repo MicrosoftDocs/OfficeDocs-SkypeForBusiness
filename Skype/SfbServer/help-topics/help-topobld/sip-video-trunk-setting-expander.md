@@ -1,8 +1,8 @@
 ---
 title: "SIP Video Trunk Setting Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.SipVideoTrunkSettingExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: "The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server 2015."

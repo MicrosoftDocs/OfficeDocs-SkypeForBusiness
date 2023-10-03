@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Mobile Client Create or Edit Push Notification Configuration"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -39,4 +40,5 @@ To enable Push Notification, you do the following:
     
 3. When you have completed the edits of the policy, click **Commit** to save your changes. If you need to delete the changes you have made, select **Cancel**. No changes will be saved to the policy.
     
+
 

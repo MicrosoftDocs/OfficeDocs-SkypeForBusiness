@@ -1,15 +1,18 @@
 ---
+ms.date: 03/17/2018
 title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
@@ -52,7 +55,7 @@ For the Skype Room account, the following licensing is required:
 
 The following diagram provides an overview of the Skype Room System account provisioning flow.
   
-![Skype Room System Provisioning steps](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Room System Provisioning steps.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## Identify a new conference room
 

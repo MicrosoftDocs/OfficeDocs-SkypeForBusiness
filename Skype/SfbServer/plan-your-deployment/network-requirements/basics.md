@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "DNS basics"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -54,3 +55,4 @@ An organization's SIP domain name usually aligns with the email addresses given 
 You can use DNS to share traffic load among several servers that are set up as a server pool. To do this, you would create several A records for the pool's FQDN, each of which points to the IP address of a node in the pool.
   
 See [DNS load balancing](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB) for additional discussions of load balancing.
+

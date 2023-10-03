@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Server component in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -52,7 +53,7 @@ The following figure shows the signaling and media protocols that are used by th
   
 **Signaling and media protocols used by the Mediation Server**
 
-![Mediation Server Protocols diagram](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![Mediation Server Protocols diagram.](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > If you are using TCP or RTP/RTCP (instead of SRTP or SRTCP) on the network between the PSTN gateway and the Mediation Server, we recommend that you take measures to help ensure the security and privacy of the network. 
@@ -117,13 +118,13 @@ The following figure shows a simple topology consisting of two sites connected b
   
 **Example of sites connected by a WAN link with a Mediation Server at Site 1 and a PSTN gateway at Site 2**
 
-![Voice Topology with Mediation Server WAN Gateway](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
+![Voice Topology with Mediation Server WAN Gateway.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 The next figure shows a simple topology where Mediation Server is collocated on Front End pool at Site 1 and has a Direct SIP connection to the IP-PBX at Site 1. In this figure, the Mediation Server also controls a PSTN gateway at Site 2. Assume that Skype for Business users exist at both Sites 1 and 2. Also assume that the IP-PBX has an associated media processor that must be traversed by all media originating from Skype for Business endpoints before being sent to media endpoints controlled by the IP-PBX. In this topology, media bypass is enabled globally to use site and region information, and the trunks to the PBX and PSTN gateway have media bypass enabled.
   
 **Example of sites connected by a WAN link with a Mediation Server at Site 1 and a PBX at Site 2**
 
-![Voice Topology Mediation Server WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![Voice Topology Mediation Server WAN PBX.](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 The last figure in this topic shows a topology where the Mediation Server is connected to the SBC of an Internet Telephony Service Provider. 
   
@@ -166,3 +167,4 @@ Finally, if your central site has a TDM PBX, or if your IP-PBX does not eliminat
   
 > [!NOTE]
 > To improve the media performance of standalone Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on these servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see ["Receive-Side Scaling Enhancements in Windows Server"](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). For details about how to enable RSS, see your network adapter documentation. 
+

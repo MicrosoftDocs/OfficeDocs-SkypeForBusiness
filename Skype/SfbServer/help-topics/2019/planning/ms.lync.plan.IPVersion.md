@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "IP Version (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
@@ -24,4 +25,5 @@ You have three options when configuring IP addresses in Skype for Business Serve
   
 For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).
   
+
 

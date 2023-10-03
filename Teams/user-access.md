@@ -1,27 +1,32 @@
 ---
 title: Manage user access to Microsoft Teams
-author: cichur
-ms.author: v-cichur
 manager: serdars
+author: DaniEASmith
+ms.author: danismith
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - tier1
 ms.reviewer: ritikag
+ms.date: 08/11/2017
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
-ms.custom: 
+ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
 appliesto: 
   - Microsoft Teams
 ---
 
 # Manage user access to Teams
+
+[!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
@@ -35,11 +40,12 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 
 ## Using the Microsoft 365 admin center
 
-Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. 
+Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.
 
 > [!IMPORTANT]
 > The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
-Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at at time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
+
+Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at a time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use PowerShell](#using-powershell) or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
 
@@ -49,7 +55,7 @@ The steps are different depending on whether you use the **Licenses** page or **
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot 1 of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Screenshot 2 of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
+|![Screenshot 1 of Teams license enabled for a user.](media/assign-teams-licenses-1.png)    | ![Screenshot 2 of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
@@ -60,7 +66,7 @@ When you remove a Teams license from a user, Teams is disabled for that user, an
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot 1 of the Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Screenshot 2 of the Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
+|![Screenshot 1 of the Teams license disabled for a user.](media/remove-teams-licenses-1.png)    | ![Screenshot 2 of the Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
 
 ## Using PowerShell
 
@@ -95,7 +101,7 @@ Get-MsolAccountSku
 Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, ContosoSchool:ENTERPRISEPACK_STUDENT.
 
 ```powershell
-$acctSKU="<CompanyName:License>
+$acctSKU="<CompanyName:License>"
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 

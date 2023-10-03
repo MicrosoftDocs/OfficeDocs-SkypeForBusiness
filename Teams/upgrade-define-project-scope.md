@@ -1,12 +1,13 @@
 ---
 title: Define the project scope for your Skype for Business to Microsoft Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 04/26/2018
 description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -24,7 +25,7 @@ appliesto:
 
 # Define your project scope
 
-![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
+![Upgrade journey diagram, highlighting the Project Definition stage.](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you've identified are key to your project's success. Before proceeding, confirm that you've completed the following activities:
 
@@ -34,8 +35,8 @@ Taking time to define your project vision, scope, goals, and governance will hel
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
 
 ## Project vision
 
@@ -120,4 +121,4 @@ As a reference point, a sample timeline is provided for the pre-upgrade, upgrade
 
 After you've completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](./upgrade-prepare-environment.md) and [organizational readiness](./upgrade-prepare-organization.md) planning activities.
 
-Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.
+Skype for Business Online was retired on July 31, 2021. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.

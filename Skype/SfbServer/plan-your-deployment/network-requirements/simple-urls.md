@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "DNS requirements for simple URLs in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,14 +38,14 @@ Defining a simple URL will also require setting an A and/or AAAA record in your 
 
 Topology Builder and the Skype for Business Server Management Shell cmdlets enforce several validation rules for your simple URLs. You are required to set simple URLs for Meet and Dialin, but setting one for Admin is optional. Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.
 
-Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set SfB2015.contoso.com/Meet as your Meet simple URL and SfB2015.contoso.com/Meet/Dialin as your Dialin simple URL). Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed). All simple URLs must start with the https:// prefix. 
+Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set `SfB2015.contoso.com/Meet` as your Meet simple URL and `SfB2015.contoso.com/Meet/Dialin` as your Dialin simple URL). Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed). All simple URLs must start with the https:// prefix. 
 
 Simple URLs can contain only alphanumeric characters (that is, a-z, A-Z, 0-9, and the period (.). If you use other characters, the simple URLs might not work as expected.
 
 ## Changing Simple URLs after deployment
 <a name="BK_Valid"> </a>
 
-If you change a simple URL after initial deployment, you must be aware of how the change impacts your DNS records and certificates for simple URLs. If the base of a simple URL changes, then you must change the DNS records and certificates as well. For example, changing from https://SfB2015.contoso.com/Meet to https://meet.contoso.com changes the base URL from SfB2015.contoso.com to meet.contoso.com, so you would need to change the DNS records and certificates to refer to meet.contoso.com. If you changed the simple URL from https://SfB2015.contoso.com/Meet to https://SfB2015.contoso.com/Meetings, the base URL of SfB2015.contoso.com stays the same, so no DNS or certificate changes are needed.
+If you change a simple URL after initial deployment, you must be aware of how the change impacts your DNS records and certificates for simple URLs. If the base of a simple URL changes, then you must change the DNS records and certificates as well. For example, changing from `https://SfB2015.contoso.com/Meet` to `https://meet.contoso.com` changes the base URL from `SfB2015.contoso.com` to `meet.contoso.com`, so you would need to change the DNS records and certificates to refer to `meet.contoso.com`. If you changed the simple URL from `https://SfB2015.contoso.com/Meet` to `https://SfB2015.contoso.com/Meetings`, the base URL of `SfB2015.contoso.com` stays the same, so no DNS or certificate changes are needed.
 
 Whenever you change a simple URL name, however, you must run **Enable-CsComputer** on each Director and Front End Server to register the change.
 
@@ -64,20 +65,20 @@ If you use this option, you need a separate DNS A record for each simple URL, an
 
 | **Simple URL** <br/> | **Example** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, and so on (one for each SIP domain in your organization)  <br/> |
-| Dial-in  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Meet  <br/>          | `https://meet.contoso.com`, `https://meet.fabrikam.com`, and so on (one for each SIP domain in your organization)  <br/> |
+| Dial-in  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
+| Admin  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-With Option 2, simple URLs are based on the domain name SfB2015.contoso.com. Therefore, you need only one DNS A record which enables all three types of simple URLs. This DNS A record references SfB2015.contoso.com. Additionally, you still need separate DNS A records for other SIP domains in your organization. 
+With Option 2, simple URLs are based on the domain name `SfB2015.contoso.com`. Therefore, you need only one DNS A record which enables all three types of simple URLs. This DNS A record references `SfB2015.contoso.com`. Additionally, you still need separate DNS A records for other SIP domains in your organization. 
 
 **Simple URL Naming Option 2**
 
 
 | **Simple URL** <br/> | **Example** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, and so on (one for each SIP domain in your organization)  <br/> |
-| Dial-in  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`, `https://SfB2015.fabrikam.com/Meet`, and so on (one for each SIP domain in your organization)  <br/> |
+| Dial-in  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
+| Admin  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
 Option 3 is most useful if you have many SIP domains, and you want them to have separate Meet simple URLs but want to minimize the DNS record and certificate requirements for these simple URLs. 
 
@@ -86,9 +87,9 @@ Option 3 is most useful if you have many SIP domains, and you want them to have 
 
 | **Simple URL** <br/> | **Example** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
-| Dial-in  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Meet  <br/>          | `<https://SfB2015.contoso.com/contosoSIPdomain/Meet>`  <br/> `<https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>`  <br/> |
+| Dial-in  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                            |
+| Admin  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                             |
 
 ## Disaster Recovery option for simple URLs
 <a name="BK_Valid"> </a>
@@ -109,7 +110,7 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Then create CNAME records that resolve your Meet simple URL (such as meet.contoso.com) to the two GeoDNS addresses.
+Then create CNAME records that resolve your Meet simple URL (such as `meet.contoso.com`) to the two GeoDNS addresses.
 
 > [!NOTE]
 > If your network uses hairpinning (routing all your Simple URL traffic through the external link, including traffic that comes from within your organization), then you can just configure the external GeoDNS address and resolve your Meet simple URL to only that external address.
@@ -118,7 +119,7 @@ When you use this method, you can configure each GeoDNS address to use either a 
 
 You can set up the same configuration for the Dial-In simple URL. To do so, create additional records like those in the previous example, substituting  `dialin` for `meet` in the DNS records. For the Admin simple URL, use one of the three options listed earlier in this section.
 
-Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET lyncdiscover.<sipdomain> requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
+Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET lyncdiscover.\<sipdomain> requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
@@ -126,5 +127,6 @@ HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/
 ```
 
 For internal access, you must monitor port 5061 on the internal web FQDN or load balancer IP address for the two pools. If any connectivity failures are detected, the VIP for these pools must close ports 80, 443 and 4443.
+
 
 

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Install SQL Server Reporting Services in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -27,3 +28,4 @@ If you intend to use Skype for Business Server Monitoring Reports (see the next 
 To learn how to install SQL Server Reporting Services, see [SQL Server Reporting Services (SSRS)](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
   
 If you have already installed SQL Server but did not install SQL Server Reporting Services you can add that feature by following the appropriate set of instructions for SQL Server Reporting Services. 
+

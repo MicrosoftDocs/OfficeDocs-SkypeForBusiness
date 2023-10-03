@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Call detail recording (CDR) in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,3 +36,4 @@ Call detail recording (CDR) records usage and diagnostic information about peer-
 ## See also
 
 [Configure call detail recording and Quality of Experience settings in Skype for Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+

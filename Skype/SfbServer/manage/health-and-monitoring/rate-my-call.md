@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Rate my Call in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -62,7 +63,7 @@ Data from users is collected in two tables in the monitoring database.
 
 Token definitions are coded as follows:
 
-|||
+|#|Definition|
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
@@ -229,5 +230,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
 ```
+
 
 

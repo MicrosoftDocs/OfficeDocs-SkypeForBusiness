@@ -1,13 +1,13 @@
 ---
 title: "Create DNS records for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: "Summary: Learn how to configure DNS and create DNS records for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at:  https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server."
+description: "Summary: Learn how to configure DNS and create DNS records for an installation of Skype for Business Server."
 ---
 
 # Create DNS records for Skype for Business Server
  
-**Summary:** Learn how to configure DNS and create DNS records for an installation of Skype for Business Server. Download a free trial of Skype for Business Server from the Microsoft Evaluation center at: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Summary:** Learn how to configure DNS and create DNS records for an installation of Skype for Business Server.
   
 For Skype for Business Server to work properly, a number of Domain Name System (DNS) settings must be in place. This is so that clients know how to access the services and that the servers know about each other. These settings need to be completed only once per deployment because once you assign a DNS entry, it is available throughout the domain. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Creating DNS records comprises step 5 of 8. For more information about planning DNS, see [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
 > It is important to note that this is just an example of how to create DNS records in a Windows Server DNS environment. There are many other DNS entries that are required for Skype for Business Server, and the procedure for creating DNS records depends on the system you are using to manage DNS in your organization. For a complete list of requirements for DNS, see [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
-![Overview diagram](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![Overview diagram.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## Configure DNS
 
@@ -63,7 +63,7 @@ This example is using a DNS load balanced FQDN named pool.contoso.local. This po
     
 4. Right-click the SIP domain, and select **New Host (A or AAAA)**, as shown in the figure.
     
-     ![selecting new A record](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![selecting new A record.](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. In the **Name** box, type the name of the host record (the domain name will be automatically appended).
     

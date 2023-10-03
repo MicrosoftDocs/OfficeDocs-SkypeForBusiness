@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Remove Certificate (Invoke)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRemoveInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "The Executing Commands page provides details for removing the cert
  
 The **Executing Commands** page provides details for removing the certificate. Review the summary information from the certificate removal. Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal. When you have finished reviewing the summary and the log file, click **Finish**.
   
+
 

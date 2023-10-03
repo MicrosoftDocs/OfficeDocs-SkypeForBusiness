@@ -1,12 +1,13 @@
 ---
-title: "Plan for Location-Based Routing in Skype for Business"
+ms.date: 03/17/2018
+title: "Plan for location-based routing in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,7 +19,7 @@ ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: "Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing."
 ---
 
-# Plan for Location-Based Routing in Skype for Business
+# Plan for location-based routing in Skype for Business
 
 Planning for location-based routing in Skype for Business Server Enterprise Voice, including interaction with simultaneous ringing and delegation, and supported scenarios for location-based routing.
 
@@ -82,10 +83,10 @@ The routing of outbound calls of users enabled for Location-Based Routing is aff
 
 **Caller placing an outbound call to the PSTN**
 
-||**User endpoint located in a network site enabled for Location-Based Routing**|**User endpoint located in unknown network site or not enabled for Location-Based Routing**|
+|&nbsp;|User endpoint located in a network site enabled for Location-Based Routing|User endpoint located in unknown network site or not enabled for Location-Based Routing|
 |:-----|:-----|:-----|
-|Authorization of outbound calls  <br/> |Call is authorized based on user's voice policy  <br/> |Call is authorized based on user's voice policy  <br/> |
-|Routing of outbound call  <br/> |Call is routed according to the network site's voice routing policy  <br/> |Call is routed according to user's voice policy and only through trunks not enabled for Location-Based Routing (if available)  <br/> |
+|Authorization of outbound calls   |Call is authorized based on user's voice policy   |Call is authorized based on user's voice policy   |
+|Routing of outbound call   |Call is routed according to the network site's voice routing policy   |Call is routed according to user's voice policy and only through trunks not enabled for Location-Based Routing (if available)   |
 
 ### Incoming Calls
 
@@ -97,9 +98,9 @@ The following table illustrates how Location-Based Routing affects the routing o
 
 **Callee receiving an inbound call from the PSTN**
 
-||**Callee's endpoint located in the same network site as PSTN gateway**|**Callee's endpoint not located in the same network site as PSTN gateway**|**Callee's endpoint located in unknown network site or not enabled for Location-Based Routing**|
+|&nbsp;|Callee's endpoint located in the same network site as PSTN gateway|Callee's endpoint not located in the same network site as PSTN gateway|Callee's endpoint located in unknown network site or not enabled for Location-Based Routing|
 |:-----|:-----|:-----|:-----|
-|Routing of inbound PSTN call  <br/> |Incoming call is routed to callee's endpoints  <br/> |Incoming call is not routed to callee's endpoints  <br/> |Incoming call is not routed to callee's endpoints  <br/> |
+|Routing of inbound PSTN call   |Incoming call is routed to callee's endpoints   |Incoming call is not routed to callee's endpoints   |Incoming call is not routed to callee's endpoints   |
 
 ### Call transfers and call forwarding
 
@@ -109,9 +110,9 @@ The following table illustrates the scenario of a Skype for Business user in a c
 
 **Initiating call transfer or forward**
 
-|**User initiating the call transfer/forward**|**Target endpoint is in same network site as user initiating call transfer or forward**|**Target endpoint is in different network site as user initiating call transfer or forward**|**Target endpoint is in unknown network site or network site not enabled for Location-Based Routing**|
+|User initiating the call transfer/forward|Target endpoint is in same network site as user initiating call transfer or forward|Target endpoint is in different network site as user initiating call transfer or forward|Target endpoint is in unknown network site or network site not enabled for Location-Based Routing
 |:-----|:-----|:-----|:-----|
-|Skype for Business user  <br/> |Call forward or transfer is allowed  <br/> |Call forward or transfer is not allowed  <br/> |Call forward or transfer is not allowed  <br/> |
+|Skype for Business user   |Call forward or transfer is allowed   |Call forward or transfer is not allowed   |Call forward or transfer is not allowed   |
 
 For example: a Skype for Business user in a call with a PSTN endpoint transfers the call to another Skype for Business user that is in the same network site. In this case, the call transfer is allowed.
 
@@ -119,9 +120,9 @@ The following table illustrates the scenario of a Skype for Business user in a c
 
 **Call transfer or forward to PSTN endpoint**
 
-|**Call transfer/forward endpoint target**|**Skype for Business users in same network site**|**Skype for Business users in different network sites**|**One or both Skype for Business users in unknown network site or network site not enabled for Location-Based Routing**|
+|Call transfer/forward endpoint target|Skype for Business users in same network site|Skype for Business users in different network sites|One or both Skype for Business users in unknown network site or network site not enabled for Location-Based Routing|
 |:-----|:-----|:-----|:-----|
-|PSTN endpoint  <br/> |Call forward or transfer allowed by the transferred user's site voice routing policy  <br/> |Call forward or transfer allowed by the transferred user's site voice routing policy  <br/> |Call forward or transfer allowed by the transferred user's voice policy only through trunks not enabled for Location-Based Routing  <br/> |
+|PSTN endpoint   |Call forward or transfer allowed by the transferred user's site voice routing policy   |Call forward or transfer allowed by the transferred user's site voice routing policy   |Call forward or transfer allowed by the transferred user's voice policy only through trunks not enabled for Location-Based Routing   |
 
 For example: a Skype for Business user in a call with another Skype for Business user that is in the same network site transfers the call to a PSTN endpoint and the call transfer is allowed.
 
@@ -133,17 +134,17 @@ The following table illustrates a user configured with simultaneous ringing, and
 
 ****
 
-|**Incoming PSTN call for**|**Located in the same network site as callee**|**Located in different network site than callee**|**Located in unknown network site or not enabled for Location-Based Routing**|
+|Incoming PSTN call for|Located in the same network site as callee|Located in different network site than callee|Located in unknown network site or not enabled for Location-Based Routing|
 |:-----|:-----|:-----|:-----|
-|Skype for Business user  <br/> |Simultaneous ring allowed  <br/> |Simultaneous ring not allowed  <br/> |Simultaneous ring not allowed  <br/> |
+|Skype for Business user   |Simultaneous ring allowed   |Simultaneous ring not allowed   |Simultaneous ring not allowed   |
 
 The following table illustrates a call from a Skype for Business user (i.e. Skype for Business caller) in the same network site, in a different network site, or from an unknown network site. The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target. In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.
 
 ****
 
-|**Simultaneous ring target**|**Located in the same network site as callee**|**Located in different network site than callee**|**Located in unknown network site or not enabled for Location-Based Routing**|
+|Simultaneous ring target|Located in the same network site as callee|Located in different network site than callee|Located in unknown network site or not enabled for Location-Based Routing|
 |:-----|:-----|:-----|:-----|
-|PSTN endpoint  <br/> |Simultaneous ring allowed through the caller's site voice routing policy  <br/> |Simultaneous ring allowed through the caller's site voice routing policy  <br/> |Simultaneous ring allowed through the caller's voice policy to trunks not enabled for Location-Based Routing  <br/> |
+|PSTN endpoint   |Simultaneous ring allowed through the caller's site voice routing policy   |Simultaneous ring allowed through the caller's site voice routing policy   |Simultaneous ring allowed through the caller's voice policy to trunks not enabled for Location-Based Routing   |
 
 ### Skype for Business Cumulative Update 4
 
@@ -157,17 +158,17 @@ With Cumulative Update 4, you're going to see the following:
 
 The following table will walk you through some of the post-Cumulative Update 4 scenarios:
 
-|**Location-Based Routing User**|**Other Party**|**Action**|**Result**|
+|Location-Based Routing User|Other Party|Action|Result|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile receives an incoming PSTN call.  <br/> |The call is routed via Call via Work (CvW), and not VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile makes an outgoing PSTN call.  <br/> |The call is routed via CvW, and not VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile is in a PSTN call. Skype for Business Mobile then escalates the call to another user or contact.  <br/> |The call is routed via VoIP if the user or contact is local to the PSTN gateway leg.  <br/> If the user or contact is remote from the PSTN gateway leg, the call is routed via CvW.  <br/> If the target user is not reachable via the PSTN, then the call fails.  <br/> If the target contact is a Conference Auto Attendant (CAA), the call is blocked.  <br/> |
-|Skype for Business Mobile  <br/> |Skype for Business client or Federated user  <br/> |A Skype for Business Mobile initiates a voice call to another Skype for Business client or Federated user.  <br/> |The call is completed via VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Skype for Business client or Federated user  <br/> | A Skype for Business client or Federated user initiates a voice call to a Skype for Business Mobile Location-Based Routing user. <br/> |The call is completed via VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Skype for Business client or Federated user  <br/> |A Skype for Business client or Federated user is on a VoIP call to a Skype for Business Mobile user. Either party escalates to an additional Skype for Business or Federated user.  <br/> |The call is completed via VoIP.  <br/> |
-|Skype for Business Mobile  <br/> |Federated User  <br/> |A Federated User is on voice call to a Skype for Business Mobile Location-Based Routing user; a Skype for Business Mobile party escalates to a PSTN user.  <br/> |The call is blocked.  <br/> |
-|Skype for Business Mobile  <br/> |Federated User  <br/> |A Federated user is on a VoIP call to a Skype for Business Mobile Location-Based Routing user; either party escalates to a CAA contact.  <br/> |The escalated call is blocked, with an appropriate error message.  <br/> |
-|Skype for Business Mobile  <br/> |Federated User  <br/> |A Federated user is on a VoIP call to a Skype for Business Mobile Location-Based Routing user, and the Federated user escalates to a PSTN user.  <br/> |The escalation will be allowed or disallowed based on the Location-Based Routing of the Federated user. The Skype for Business Mobile Location-Based Routing user's application doesn't take any action.  <br/> |
+|Skype for Business Mobile   |PSTN   |Skype for Business Mobile receives an incoming PSTN call.   |The call is routed via Call via Work (CvW), and not VoIP.   |
+|Skype for Business Mobile   |PSTN   |Skype for Business Mobile makes an outgoing PSTN call.   |The call is routed via CvW, and not VoIP.   |
+|Skype for Business Mobile   |PSTN   |Skype for Business Mobile is in a PSTN call. Skype for Business Mobile then escalates the call to another user or contact.   |The call is routed via VoIP if the user or contact is local to the PSTN gateway leg.  <br/> If the user or contact is remote from the PSTN gateway leg, the call is routed via CvW.  <br/> If the target user is not reachable via the PSTN, then the call fails.  <br/> If the target contact is a Conference Auto Attendant (CAA), the call is blocked.   |
+|Skype for Business Mobile   |Skype for Business client or Federated user   |A Skype for Business Mobile initiates a voice call to another Skype for Business client or Federated user.   |The call is completed via VoIP.   |
+|Skype for Business Mobile   |Skype for Business client or Federated user   | A Skype for Business client or Federated user initiates a voice call to a Skype for Business Mobile Location-Based Routing user.  |The call is completed via VoIP.   |
+|Skype for Business Mobile   |Skype for Business client or Federated user   |A Skype for Business client or Federated user is on a VoIP call to a Skype for Business Mobile user. Either party escalates to an additional Skype for Business or Federated user.   |The call is completed via VoIP.   |
+|Skype for Business Mobile   |Federated User   |A Federated User is on voice call to a Skype for Business Mobile Location-Based Routing user; a Skype for Business Mobile party escalates to a PSTN user.   |The call is blocked.   |
+|Skype for Business Mobile   |Federated User   |A Federated user is on a VoIP call to a Skype for Business Mobile Location-Based Routing user; either party escalates to a CAA contact.   |The escalated call is blocked, with an appropriate error message.   |
+|Skype for Business Mobile   |Federated User   |A Federated user is on a VoIP call to a Skype for Business Mobile Location-Based Routing user, and the Federated user escalates to a PSTN user.   |The escalation will be allowed or disallowed based on the Location-Based Routing of the Federated user. The Skype for Business Mobile Location-Based Routing user's application doesn't take any action.   |
 
 ### Delegation
 
@@ -205,15 +206,15 @@ The following table identifies the combination of server roles and versions that
 
 ****
 
-|**Pool version**|**Mediation Server version**|**Supported**|
+|Pool version|Mediation Server version|Supported|
 |:-----|:-----|:-----|
-|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update  <br/> |Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update  <br/> |yes  <br/> |
-|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update  <br/> |Lync Server 2013  <br/> |no  <br/> |
-|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update  <br/> |Lync Server 2010  <br/> |no  <br/> |
-|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update  <br/> |Office Communications Server 2007 R2  <br/> |no  <br/> |
-|Lync Server 2013  <br/> |any  <br/> |no  <br/> |
-|Lync Server 2010  <br/> |any  <br/> |no  <br/> |
-|Office Communications Server 2007 R2  <br/> |any  <br/> |no  <br/> |
+|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update   |Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update   |yes   |
+|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update   |Lync Server 2013   |no   |
+|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update   |Lync Server 2010   |no   |
+|Skype for Business Server or Lync Server 2013 February 2013 Cumulative Update   |Office Communications Server 2007 R2   |no   |
+|Lync Server 2013   |any   |no   |
+|Lync Server 2010   |any   |no   |
+|Office Communications Server 2007 R2   |any   |no   |
 
 ### Client Support
 
@@ -221,20 +222,20 @@ The following table identifies the clients that Location-Based Routing supports.
 
 ****
 
-|**Client type**|**Supported**|**Details**|
+|Client type|Supported|Details|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |yes  <br/> ||
-|Lync 2013  <br/> |yes  <br/> ||
-|Lync 2010  <br/> |yes  <br/> ||
-|Office Communicator 2007 R2  <br/> |no  <br/> ||
-|Lync Phone Edition  <br/> |yes  <br/> ||
-|Lync Attendant  <br/> |yes  <br/> ||
-|Lync for Windows 8  <br/> |no  <br/> ||
-|Lync Mobile 2013  <br/> |no  <br/> |VoIP must be disabled for Lync Mobile 2013 clients if used by users with Location-Based Routing enabled.  <br/> |
-|Lync Mobile 2010  <br/> |yes  <br/> ||
+|Skype for Business   |yes   ||
+|Lync 2013   |yes   ||
+|Lync 2010   |yes   ||
+|Office Communicator 2007 R2   |no   ||
+|Lync Phone Edition   |yes   ||
+|Lync Attendant   |yes   ||
+|Lync for Windows 8   |no   ||
+|Lync Mobile 2013   |no   |VoIP must be disabled for Lync Mobile 2013 clients if used by users with Location-Based Routing enabled.   |
+|Lync Mobile 2010   |yes   ||
 
 > [!NOTE]
-> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> To disable VoIP for Skype for Business clients, assign a mobility policy with the setting, IP Audio/Video, disabled for all users enabled for Location-Based Routing. For more details about mobility policy, see [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy).
 
 ## Capabilities not supported by Location-Based Routing
 

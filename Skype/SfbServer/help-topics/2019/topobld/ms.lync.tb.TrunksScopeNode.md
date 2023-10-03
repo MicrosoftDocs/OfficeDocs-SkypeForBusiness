@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Trunks Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.TrunksScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,10 +26,11 @@ Right-click **Trunks** in Topology Builder to perform the following:
     
 In addition to the New Trunk option, you can perform the following general tasks:
   
-![Trunks Scope Node](../../../media/Trunks_Scope_Node.jpg)
+![Trunks Scope Node.](../../../media/Trunks_Scope_Node.jpg)
   
 - **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

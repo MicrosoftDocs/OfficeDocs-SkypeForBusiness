@@ -1,8 +1,8 @@
 ---
 title: "Network Configuration Global Setting"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.NcsGlobalMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: "What do you want to do? Click the link to the task that you want to perform."

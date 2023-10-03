@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select Routes"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceUsageSelRoute
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ Use the **Select Routes** dialog box to find existing voice routes that you can 
   
  
   
+
 

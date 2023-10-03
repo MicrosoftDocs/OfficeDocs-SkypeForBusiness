@@ -1,32 +1,38 @@
 ---
-title: "Add, change, remove places for emergency locations"
-author: cichur
-ms.author: v-cichur
+title: Add places to emergency locations
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
+ms.date: 06/26/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- M365-voice
+  - M365-voice
+  - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- NOCSH
-description: "Learn how to add, change, or remove a place for an emergency location for your organization in the Microsoft Teams admin center."
+f1.keywords: 
+  - NOCSH
+description: Learn how to add a place for an emergency location and assign a place to your users.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Add, change, or remove a place for an emergency location in your organization
+# Add places to emergency locations
 
-Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
-  
-To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+This article is about adding places to an emergency location. It also describes how to assign a place for an emergency location to a user or phone number. Before reading this article, be sure you've read [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
-You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
+Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location.
+
+This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.
+
+You can manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
 ## Add a place to an emergency location
 
@@ -40,7 +46,7 @@ You manage emergency locations for your organization in the Microsoft Teams admi
 ### Using PowerShell
 
 See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
-    
+
 ## Change a place for an emergency location
 
 ### Using the Microsoft Teams admin center
@@ -52,8 +58,8 @@ See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
-    
+See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation). If you need to update the Emergency Location Identification Number (ELIN), don't set the ELIN attribute to an empty or null string - otherwise, you will receive an error.
+
 ## Remove a place from an emergency location
 
 ### Using the Microsoft Teams admin center
@@ -65,9 +71,32 @@ See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
 ### Using PowerShell
 
 See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
-    
+
+## Assign a place to your users
+
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Phone numbers**.
+
+2. On the **Phone numbers** page, click the **Numbers** tab, select a user number in the list, and then click **Edit**.
+
+3. On the **Edit** pane, under **Emergency location**, do one of the following:
+
+    - To assign a place, search for the location or place, and then select the place in the search results.
+
+    - To change the place that's already assigned to the user, click **X** to remove the existing location and place, search for and then select the place you want to assign.
+
+4. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this setting is **On**.
+
+5. Click **Apply**.
+
+### Using PowerShell
+
+See [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+
 ## Related topics
 
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency locations](add-change-remove-emergency-location-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "AV MCU General Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
@@ -35,4 +36,5 @@ To associate an A/V Conferencing Server pool, select the Front End pool or pools
 
 When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings. Click **Cancel** to discard any changes.
   
+
 

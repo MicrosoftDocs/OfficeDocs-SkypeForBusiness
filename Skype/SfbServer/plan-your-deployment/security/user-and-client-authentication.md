@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "User and client authentication for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -56,3 +57,4 @@ Other supported values are:
 - HMACSHA512
     
   The values AES, 3DES, and MD5 are no longer allowed, as they once were in ASP.NET 4. [Cryptographic Improvements in ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) has more details.
+

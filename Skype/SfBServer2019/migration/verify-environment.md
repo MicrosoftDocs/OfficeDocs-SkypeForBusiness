@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Verify legacy environment"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -31,7 +32,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 2. Verify that the following services are running on the Front End Server:
     
-     ![List of services running on Front End Server](../media/migration_lyncserver_config_w14_services.jpg)
+     ![List of services running on Front End Server.](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## Review the legacy topology in Skype for Business Server Control Panel
 
@@ -41,7 +42,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 3. Select **Topology**. Verify that the various servers in your legacy deployment are listed.
     
-     ![Control Panel topology page](../media/migration_lyncserver_2010_topology.JPG)
+     ![Control Panel topology page.](../media/migration_lyncserver_2010_topology.JPG)
   
 ## Review legacy users in Skype for Business Server Control Panel
 
@@ -51,7 +52,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 3. Verify that the **Registrar Pool** column points to the legacy pool for each user listed. 
     
-     ![Control Panel listing users](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Control Panel listing users.](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## Verify legacy Edge and federation settings
 
@@ -65,15 +66,15 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 5. Select the site node and verify that a **Site federation route assignment** value is set. 
     
-     ![Topology Builder, Site Federation Route](../media/migration_lyncserver_w14_federation.jpg)
+     ![Topology Builder, Site Federation Route.](../media/migration_lyncserver_w14_federation.jpg)
   
 6. Select the Standard Edition Server or Enterprise Edition front end pool. Determine whether an Edge pool has been configured for media below **Associations**. 
     
-     ![Topology Builder showing servers and pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![Topology Builder showing servers and pools.](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
 7. Select the Edge pool and identify whether a Next hop pool is configured below **Next hop selection**.
     
-     ![Topology Builder, Next hop selection](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Topology Builder, Next hop selection.](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## Verify legacy XMPP federated partner Configuration
 
@@ -81,6 +82,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 2. Verify that the Office Communications Server XMPP Gateway service is started. 
     
-     ![Office Communications Server XMPP Gateway Service](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Communications Server XMPP Gateway Service.](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
+
 

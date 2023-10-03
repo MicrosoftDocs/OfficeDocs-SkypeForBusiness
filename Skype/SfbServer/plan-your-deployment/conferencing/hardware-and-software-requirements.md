@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Hardware and software requirements for conferencing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,7 +25,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
 
 **Conferencing capabilities and requirements**
 
-![Conferencing components](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![Conferencing components.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  For more information about topology considerations, see [Plan your conferencing topology for Skype for Business Server](conferencing-topology.md).
 
@@ -103,8 +104,6 @@ Conferencing Attendant application and Conferencing Announcement application req
 ### Audio file requirements for dial-in conferencing
 
 Skype for Business Server does not support customization of voice prompts and music for dial-in conferencing. However, if you have a strong business need that requires you to change the default audio files, see Microsoft Knowledge Base article 961177, [How to customize voice prompts or music files for dial-in audio conferencing](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
-
-You can also use the [Microsoft Lync Server Conferencing Attendant Custom Voice Prompts](https://go.microsoft.com/fwlink/p/?LinkId=396880) management utility, which enables administrators to replace the default voice prompts used when a phone caller joins a Skype for Business meeting with custom prompts to provide a different meeting entry experience. The custom voice prompts can be installed on either an Enterprise or Standard Edition server.
 
 Conferencing Attendant application and Conferencing Announcement application have the following requirements for music on hold, recorded name, and audio prompt files:
 

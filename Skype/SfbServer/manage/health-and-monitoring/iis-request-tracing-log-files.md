@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Monitoring IIS request tracing log files in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -34,3 +35,4 @@ To turn off IIS request tracing for an entire server, at the command line, type 
 ```
 
 For details about the **httpLogging** command, see [the command reference](/previous-versions/iis/settings-schema/aa347466(v=vs.90)).
+

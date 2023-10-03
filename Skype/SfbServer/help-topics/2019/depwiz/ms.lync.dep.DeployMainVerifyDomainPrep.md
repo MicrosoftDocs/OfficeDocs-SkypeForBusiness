@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Verify Replication in the Domain"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployMainVerifyDomainPrep
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -40,4 +41,5 @@ To verify replication of the domain preparation accomplished in **Step 1: Prepar
   
     If you do not specify the Domain parameter, the value is set to the local domain. This cmdlet returns a value of **LC_DOMAIN_SETTINGS_STATE_READY** if domain preparation was successful.
     
+
 

@@ -1,6 +1,7 @@
 ---
+ms.date: 04/04/2018
 title: "IP Relay Canada User Guide"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
@@ -65,7 +66,7 @@ Once logged in, you will see instructions displayed on the left side of your scr
 ### How to place a 911 call:
 If you experience an emergency, you may select the appropriate emergency button located at the bottom of your screen (as shown below).
 
-![Emergency buttons](../images/ip-relay-emergency-buttons.png)
+![Emergency buttons.](../images/ip-relay-emergency-buttons.png)
 
 The IP Message Relay Operator will contact 911, confirm your address and translate with various emergency centers until he or she is no longer required, and the appropriate department has been dispatched to your location.
 
@@ -81,6 +82,7 @@ Please contact Special Projects at [specialprojects@northern911.com](mailto:spec
 ## Related topics
 
 [IP Relay in Canada - sign up](ip-relay-canada-email-signup.md)
+
 
 
 

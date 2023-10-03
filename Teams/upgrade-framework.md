@@ -1,11 +1,12 @@
 ---
 title: About the upgrade framework - Skype for Business to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 12/17/2018
 audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams.
 ms.localizationpriority: medium
@@ -28,7 +29,7 @@ To help take the guesswork out of your upgrade journey, we've employed a proven 
 
 Begin by bringing together the right stakeholders and defining your upgrade plan (e.g. scope, goals and timeline). With a plan in place, confirm your technical environment and your end-users are ready for Teams. Then, implement your upgrade in stages, moving from a pilot to an organization-wide upgrade when ready. Once your organization is on Teams, establish an operational plan that monitors for quality and accelerates user adoption.
 
-![Illustration of the upgrade journey framework](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
+![Illustration of the upgrade journey framework.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 Look for this framework graphic on related pages to identify where you are in the upgrade process.
 
@@ -37,16 +38,16 @@ Look for this framework graphic on related pages to identify where you are in th
 Your upgrade journey begins when you start planning for the change. Leveraging the success framework as a guideline, below is a sample timeline that take you from the pre-upgrade phase where you will plan and prepare for your upgrade, through the upgrade and into the post-upgrade operational phase, designed to sustain and amplify your outcomes. 
 
 > [!NOTE]
-> We understand that your journey to Teams might involve leveraging multiple [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams.  
+> We understand that your journey to Teams might involve leveraging multiple [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams.  
 
-To help demonstrate how your upgrade journey might unfold, we've provided a sample plan below that defines a journey going from Skype for Business Online to Islands mode to Teams only. In addition, the sample plan outlines an organization that has divided their users into four upgrade groups, or cohorts. Using this as a template, customize the plan to encompass your specific journey to Teams, incorporating the various [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) you'll use and the number of upgrade groups you'll segment your users into. 
+To help demonstrate how your upgrade journey might unfold, we've provided a sample plan below that defines a journey going from Skype for Business Online to Islands mode to Teams only. In addition, the sample plan outlines an organization that has divided their users into four upgrade groups, or cohorts. Using this as a template, customize the plan to encompass your specific journey to Teams, incorporating the various [modes](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) you'll use and the number of upgrade groups you'll segment your users into. 
 
 ## Pre-upgrade
 
 **Prepare your organization for Teams**. To help ensure a successful upgrade to Teams, it's important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you'll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. If you've already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization's readiness before you upgrade users to Teams. 
 
 > [!TIP]
-> Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan. Items that are available in the kit are marked with an asterisk (*) in the lists below.
+> Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan. Items that are available in the kit are marked with an asterisk (*) in the lists below.
 
 ### Plan: Create your upgrade plan to help ensure your organization is set up for long-term success
 
@@ -124,4 +125,4 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 > Our Upgrade content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
+> Skype for Business Online was retired on July 31, 2021. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.

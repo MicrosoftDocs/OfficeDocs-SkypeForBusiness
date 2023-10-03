@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Example Gathering requirements for call admission control in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -52,7 +53,7 @@ To prepare for call admission control, gather the information described in the f
 
    **An example enterprise network divided into three network regions**
 
-     ![Network Topology Example with 3 Network Regions](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Network Topology Example with 3 Network Regions.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see [Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
@@ -104,7 +105,7 @@ To prepare for call admission control, gather the information described in the f
 
    **CAC network region North America with three network sites that are unconstrained by bandwidth (Chicago, New York, and Detroit) and three network sites that are constrained by WAN bandwidth (Portland, Reno, and Albuquerque)**
 
-     ![Example network sites constrained by WAN bandwidth](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Example network sites constrained by WAN bandwidth.](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. For each bandwidth-constrained WAN link, determine the following:
 
@@ -182,7 +183,7 @@ To prepare for call admission control, gather the information described in the f
 
    **Network Region links with associated bandwidth limits**
 
-     ![Example of Limitations between 3 Regions](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Example of Limitations between 3 Regions.](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Region Link Bandwidth Information (Bandwidth in kbps)**
 
@@ -220,7 +221,7 @@ To prepare for call admission control, gather the information described in the f
 
    **CAC network region North America showing the bandwidth capacities and bandwidth limits for the inter-site link between Reno and Albuquerque**
 
-     ![Network Sites Constrained by WAN Bandwidth example](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Network Sites Constrained by WAN Bandwidth example.](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Bandwidth Information for an Inter-Site Link between Two Network Sites (Bandwidth in kbps)**
 

@@ -4,13 +4,16 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: 
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -42,7 +45,7 @@ You can switch all users at once or you can implement a phased approached (recom
 
   This is the recommended approach because it allows for a smoother transition and uninterrupted user experience. This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
-![Migrate from non-bypassed trunks to bypass-enabled trunks)](media/direct-routing-media-bypass-8.png)
+![Migrate from non-bypassed trunks to bypass-enabled trunks).](media/direct-routing-media-bypass-8.png)
 
 For instructions on how to configure the trunks and perform migration, see the documentation from your SBC vendor:
 
@@ -58,6 +61,3 @@ For a list of Session Border Controllers (SBCs) certified for Direct Routing, se
 ## Related topics
 
 [Plan media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
-
-
-

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for emergency services in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -73,7 +74,7 @@ The Skype for Business client includes the PIDF-LO data as part of an emergency 
 
 The following diagram shows how a Skype for Business client acquires a location (except for the third-party client MAC address-based location method):
 
-![How Client Acquires a Location diagram](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![How Client Acquires a Location diagram.](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 For a client to acquire a location, the following steps must take place:
 
@@ -93,7 +94,7 @@ The following diagram shows how an emergency call is routed from Skype for Busin
 
 **Routing E9-1-1 calls through a SIP trunk**
 
-![Emergency Call Routing from Lync Server to PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Emergency Call Routing from Lync Server to PSAP.](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 When an emergency call is placed from a compatible Skype for Business Server client:
 

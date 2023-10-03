@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Add VIS Machine"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddVisMachinePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
@@ -32,3 +33,4 @@ The configuration steps for a new Video Interop Server using Windows PowerShell 
 ## See also
 
 [Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+

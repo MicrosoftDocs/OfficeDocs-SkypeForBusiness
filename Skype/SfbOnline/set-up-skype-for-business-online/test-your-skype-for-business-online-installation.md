@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Test your Skype for Business Online installation"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -48,7 +49,7 @@ Here's what you need:
 ## Set up test accounts
 <a name="__toc328126910"> </a>
 
-1. Go to **Admin** > **Microsoft 365** or **Office 365** > **Users and groups**, and then select add![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
+1. Go to **Admin** > **Microsoft 365** or **Office 365** > **Users and groups**, and then select add![Add.](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) and enter the required information.
 
 2. When you come to Step 4 (Email), enter your own email address. You'll then have a record of the new user's name and password.
 
@@ -61,7 +62,7 @@ On each test computer:
 
 1. Go to the Microsoft 365 or Office 365 home page and sign in with credentials from one of your test accounts.
 
-2. Go to **Settings**![Settings: update your profile, install software and connect it to the cloud](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), and then click **Install software and connect it to the cloud**.
+2. Go to **Settings**![Settings: update your profile, install software and connect it to the cloud.](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), and then click **Install software and connect it to the cloud**.
 
 ## Set up Audio Conferencing
 <a name="__toc328126912"> </a>
@@ -78,7 +79,7 @@ After setting up your users for audio conferencing, they receive an automated em
 
 1. Click **Audio Conferencing** > **Users**.
 
-2. Click the names of the users you want to set up for dial-in conferencing, and then click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Click the names of the users you want to set up for dial-in conferencing, and then click **Edit**![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 
 3. Select your audio conferencing provider, type the requested information, and then click **Save**.
 
@@ -102,7 +103,7 @@ Verify that the major Skype for Business Online features are working as expected
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business sign-in screen is displayed  <br/> |
 |[Sign in to and out of Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |The Skype for Business window closes, and the Skype for Business icon no longer appears in the Windows notification area.  <br/> |
 
-Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Online](https://support.microsoft.com/kb/2541980).
+Can't sign in? See [Troubleshooting Skype for Business sign-in for users](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users).
 
  **Contacts, presence, and instant messaging**
 
@@ -138,5 +139,6 @@ Can't sign in? See [How to troubleshoot sign-in issues in Skype for Business Onl
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+
 
 

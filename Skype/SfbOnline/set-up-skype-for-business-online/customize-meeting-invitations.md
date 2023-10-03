@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Customize meeting invitations"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -43,7 +44,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 ## Customize your meeting invitations
 <a name="__top"> </a>
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your work or school account.
     
@@ -68,7 +69,7 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
     
 6. Wait an hour or so for the changes to get populated across all Microsoft 365 or Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like. 
     
-    ![Here's what a custom invitation looks like, without the graphic](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Here's what a custom invitation looks like, without the graphic.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## Related topics
 <a name="__top"> </a>
@@ -77,3 +78,4 @@ As an admin, you can ensure that all Skype for Business meeting invitations incl
 
   
  
+

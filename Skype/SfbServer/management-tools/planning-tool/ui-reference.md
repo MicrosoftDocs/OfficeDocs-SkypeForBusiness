@@ -1,13 +1,13 @@
 ---
 title: "Planning Tool UI Reference"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,7 +19,7 @@ ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
  
 ## In this section
 
-These topics document the interface for the Planning Tool available from the [Microsoft Downloads Center](https://go.microsoft.com/fwlink/p/?LinkID=282725). 
+These topics document the interface for the Planning Tool.
   
 - [Audio Video Conferencing (Planning Tool)](../../help-topics/help-planning/audio-video-conferencing.md)
     

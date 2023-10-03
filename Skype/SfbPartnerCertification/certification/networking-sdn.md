@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business - networking - wired"
 ms.author: serdars
 author: msdmaguire
@@ -34,9 +35,9 @@ This table lists the SDN solutions certified for Skype for Business.
 | Vendor  | Certified Product  |
 |:---------|:---------|
 | [Aruba, a Hewlett Packard Enterprise Company](https://www.arubanetworks.com/) |  Wi-Fi, Network Optimizer  |
-|[Arrow Systems](http://www.arrowsi.com/) | Prism OneView |
+|Arrow Systems | Prism OneView |
 |[Dell](https://www.dell.com/us/business/p/w-series-airwave/pd) |Wi-Fi |
-|[Extreme Networks](https://www.extremenetworks.com/product/microsoft-lync-solutions) |  OneFabric Connect |
+|[Extreme Networks](https://www.extremenetworks.com/) |  OneFabric Connect |
 |[IR](http://ir.com/) |Prognosis|
 |[Meru Networks](http://www.merunetworks.com/Products/Software/Meru-Center.html) |Meru Collaborator |
 |[Nectar](http://nectarcorp.com/)  |   UC Diagnostics      |
@@ -46,3 +47,4 @@ This table lists the SDN solutions certified for Skype for Business.
 All SDN solutions qualified on Lync 2013 will be considered certified for Skype for Business.
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

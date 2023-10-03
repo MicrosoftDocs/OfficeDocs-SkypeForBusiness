@@ -1,16 +1,17 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable remote user access'
 ms.reviewer: 
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,9 +42,9 @@ To support remote user access, you must enable remote user access. When you enab
 
 5.  In **Edit Access Edge Configuration**, do one of the following:
     
-      - To enable remote user access for your organization, select the **Enable remote user access** check box.
+    - To enable remote user access for your organization, select the **Enable remote user access** check box.
     
-      - To disable remote user access for your organization, clear the **Enable remote user access** check box.
+    - To disable remote user access for your organization, clear the **Enable remote user access** check box.
 
 6.  Click **Commit**.
 
@@ -56,14 +57,17 @@ Remote user access can be managed by using Windows PowerShell and the Set-CsAcce
 
 ## To enable remote user access
 
-  - To enable remote user access, set the value of the **AllowOutsideUsers** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+To enable remote user access, set the value of the **AllowOutsideUsers** property to True ($True):
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## To disable remote user access
 
-  - To disable remote user access, set the value of the **AllowOutsideUsers** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+To disable remote user access, set the value of the **AllowOutsideUsers** property to False ($False):
 
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```
 

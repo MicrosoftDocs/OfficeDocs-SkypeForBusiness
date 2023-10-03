@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Federation (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
@@ -29,3 +30,4 @@ Edge Servers can be configured to allow your internal and external users access 
 - [Planning for public instant messaging connectivity in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     
 - [Planning for extensible messaging and presence protocol (XMPP) federation in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation)
+

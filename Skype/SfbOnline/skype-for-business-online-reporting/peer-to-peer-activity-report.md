@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Peer-to-peer activity report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -28,7 +29,10 @@ description: "Get a Skype for Business Peer-to-peer activity report, and learn h
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files. 
+The **Reports** dashboard shows you the activity overview across the Microsoft 365 or Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product. For example, you can use the **Skype for Business peer-to-peer activity** report to see how much your users are using IM, audio, video, application sharing, and transferring files.
+
+> [!NOTE] 
+> The information and data on the Microsoft 365 Experience insights dashboard helps you to better understand and improve your users' overall experience with Microsoft 365. [Learn more](/microsoft-365/admin/misc/experience-insights-dashboard).
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
@@ -50,30 +54,30 @@ You can get a view into your Skype for Business peer-to-peer activity by looking
 ![Skype peer to peer report with callouts.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
+![Number 1.](../images/sfbcallout1.png)<br/>The **Skype for Business peer-to-peer activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you click into a particular day in the report, the table (see number 7) will show data for 30 days, up to the date (see number 2) for when the report was generated.
 
 > [!NOTE]
 > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
 
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
+![Number 2.](../images/sfbcallout2.png)<br/>Each report has a date for when this report was generated. The reports usually reflect a 24- to 48-hour latency from time of activity. 
 ***
-![Number 3](../images/sfbcallout3.png)<br/>Use the interactive chart data on the **Activity** chart to understand usage trends and to see the total number of sessions per session type being held in your organization. It will show you the total number and types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** sessions across your organization. 
+![Number 3.](../images/sfbcallout3.png)<br/>Use the interactive chart data on the **Activity** chart to understand usage trends and to see the total number of sessions per session type being held in your organization. It will show you the total number and types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** sessions across your organization. 
 ***
-![Number 4](../images/sfbcallout4.png)<br/>Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in peer-to-peer activities that are being held in your organization. It will show you the total number of users along with the types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** in peer-to-peer sessions.
+![Number 4.](../images/sfbcallout4.png)<br/>Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in peer-to-peer activities that are being held in your organization. It will show you the total number of users along with the types of **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** in peer-to-peer sessions.
 ***
-![Number 5](../images/sfbcallout5.png)<br/>Use the interactive chart data on the **Minutes** chart to understand usage trends and to see the number of minutes that are used by users doing peer-to-peer activities using audio and video. It will show you the total number of minutes of **Audio** and **Video** that is used in peer-to-peer sessions.
+![Number 5.](../images/sfbcallout5.png)<br/>Use the interactive chart data on the **Minutes** chart to understand usage trends and to see the number of minutes that are used by users doing peer-to-peer activities using audio and video. It will show you the total number of minutes of **Audio** and **Video** that is used in peer-to-peer sessions.
 ***
-![Number 6](../images/sfbcallout6.png)<br/>Each chart has an 'X' (horizontal) and 'Y' (vertical) axis. 
+![Number 6.](../images/sfbcallout6.png)<br/>Each chart has an 'X' (horizontal) and 'Y' (vertical) axis. 
 *    On the **Activity** activity chart, the Y axis is the total number of IM, audio, video, application sharing and transferring files sessions that your users held in your organization.
 *    On the **Users** activity chart, the Y axis is the total number users that held IM, audio, video, application sharing, and transferring files sessions. 
 *    On the **Minutes** activity chart, the Y axis is the total number of minutes that users across your organization spent using audio and video peer-to-peer sessions. 
 
 The X axis on both charts is the selected date range for this specific report.
 ***
-![Number 7](../images/sfbcallout7.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
+![Number 7.](../images/sfbcallout7.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio**, **Video**, **Application sharing**, and **File transfers** to see only the info related to each one. Changing this selection doesn't change the info in the grid table. 
 ***
-![Number 8](../images/sfbcallout8.png)<br/>The table shows you a breakdown of the peer-to-peer activities per user. This shows all users that have Skype for Business assigned to them and their peer-to-peer activities. You can add additional columns to the table.
+![Number 8.](../images/sfbcallout8.png)<br/>The table shows you a breakdown of the peer-to-peer activities per user. This shows all users that have Skype for Business assigned to them and their peer-to-peer activities. You can add additional columns to the table.
 *    **User name** is the name of the user.
 *    **Deleted** indicates that the user's license was removed. <br/> <br/> **Note:**  Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.  <br/><br/>
 *    **Deleted date** is the date on which the user's license was removed. 
@@ -88,9 +92,9 @@ The X axis on both charts is the selected date range for this specific report.
 
 If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
-![Number 9](../images/sfbcallout9.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
+![Number 9.](../images/sfbcallout9.png)<br/>You can also export the report data into an Excel .csv file, by clicking or tapping **Export**.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
 ***
-![Number 10](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.         
+![Number 10.](../images/sfbcallout10.png)<br/>![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)<br/>Click or tap the **Columns** icon in any of the columns to add or remove columns from the report.         
    
 ## Want to see other Skype for Business reports?
 
@@ -115,3 +119,4 @@ If your organization's policies prevents you from viewing reports where user inf
 
   
  
+

@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server Exchange Unified Messaging planning tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.ExchagneUM
 - ms.lync.plan.ExchagneUM
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: "Skype for Business Server supports integration with Exchange Unified Messaging to combine voice messaging and email messaging into a single messaging infrastructure."

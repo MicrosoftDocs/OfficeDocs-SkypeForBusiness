@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Skype for Business Online admin center users page limitations"
 ms.reviewer: 
 ms.author: tonysmit
@@ -27,18 +28,18 @@ description: "Learn how to work within the limitations of Skype for Business Onl
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list. If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.
+For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list. If you have more than 1,000 users, use **Filter**![Filter.](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.
   
 ## Bulk editing
 <a name="__top"> </a>
 
 1. Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.
     
-2. Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Click **Edit**![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 You can change the number of users shown on each page with the control at the bottom of the list:
   
-![Users page navigation for changing the amount of users on the page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![Users page navigation for changing the amount of users on the page.](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
 ## Related topics
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
@@ -47,3 +48,4 @@ You can change the number of users shown on each page with the control at the bo
 
   
  
+

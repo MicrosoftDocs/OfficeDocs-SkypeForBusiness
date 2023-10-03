@@ -1,13 +1,13 @@
 ---
 title: "Port and protocol requirements for servers"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -25,7 +25,7 @@ description: "Summary: Review the port usage considerations before implementing 
   
 Skype for Business Server requires that specific ports on the external and internal firewalls are open. Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. 
   
-While this might seem a bit daunting, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create your firewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
+While this might seem a bit daunting, the heavy lifting for planning this can be done using the Skype for Business Server 2015 Planning Tool. Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the Firewall Report within the Edge Admin Report, and use the information listed there to create your firewall rules. You can also make adjustments to many of the names and IP addresses used, for details see [Review the Firewall Report](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the Firewall Report will be one of the worksheets in the file. 
   
 You find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
 

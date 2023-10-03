@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Enable users for Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -49,7 +50,7 @@ After you deploy Enterprise Voice or Call Via Work, you can use the following pr
     
 7. On the **Edit Skype for Business Server User** page, under **Telephony**, click **Enterprise Voice**.
     
-8. Click **Line URI**, and then type a unique, normalized phone number (for example, tel:+14255550200).
+8. Click **Line URI**, and then type a unique, normalized phone number (for example, `tel:+14255550200`).
     
 9. Click **Commit**.
     
@@ -103,4 +104,5 @@ To complete user account configuration for either users of Enterprise Voice or u
 
     In this example, the user with the display name Bob Kelly is assigned the user dial plan with the name **DialPlanJapan**.
     
+
 

@@ -1,13 +1,13 @@
 ---
 title: "Plan for call admission control in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -93,7 +93,7 @@ The following figure illustrates how CAC is enforced on PSTN connections with an
 
 **Call admission control enforcement on connections to the PSTN**
 
-![Voice CAC Media Bypass Connection Enforcement](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## Defining your requirements for call admission control
 
@@ -116,7 +116,7 @@ To explain these concepts, we'll use the example network topology shown in the f
 
 **Example topology for call admission control**
 
-![Litware Inc. Network Topology Example](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Litware Inc. Network Topology Example.](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > All network sites are associated with a network region. For example, Portland, Reno, and Albuquerque are included in the North America region. In this figure, only WAN links that have CAC policies applied are shown, with bandwidth limits. The network sites of Chicago, New York, and Detroit are shown inside the North America region oval because they are not bandwidth-constrained, and therefore do not require CAC policies.

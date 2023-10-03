@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Statistics Manager for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -117,7 +118,7 @@ In an on-premises deployment, a single server hosts all of the server-side Stati
 
 The following diagram shows an on-premises deployment, in which the Statistics Manager Website, Hub, Listener, and Redis caching system are hosted on a single machine. Statistics Manager is monitoring three Skype for Business servers, each of which have a single Agent transmitting data to the Listener. Users connect to a single Website to view all data aggregated by Statistics Manager:
 
-![Stats Manager On-premises deployment](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Stats Manager On-premises deployment.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## Requirements
 <a name="BKMK_Requirements"> </a>
@@ -179,3 +180,4 @@ For more information, see the following:
 - [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
 
 - [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
+

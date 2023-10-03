@@ -1,8 +1,8 @@
 ---
 title: "Registrar Security Settings Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: "What do you want to do? Click the link to the task that you want to perform."

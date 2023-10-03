@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "See, change, and reset a conference ID assigned to a user in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -43,7 +44,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### To view the conference ID
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 You can view their conference ID and send it to users.
 
@@ -73,7 +74,7 @@ See [Get-CsOnlineDialInConferencingUser](/powershell/module/skype/Get-CsOnlineDi
 
 You can reset a conference ID for a user if, for example, they forget it.
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your work or school account.
 
@@ -122,3 +123,4 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

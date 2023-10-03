@@ -1,7 +1,7 @@
 ---
 title: Understand teams and channels in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -35,9 +35,9 @@ The concepts of teams and channels are fundamental to a healthy, productive impl
 To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). For comprehensive Teams adoption guidance, get the [Teams Adoption Guide](https://aka.ms/teamstoolkit). To learn more about Teams and Microsoft 365 Groups, see [Microsoft 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Microsoft 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
-| &nbsp; |&nbsp;  |
-|---------|---------|
-| View this short video   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+**View this short video**
+<br>
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]    
 
 
 
@@ -51,10 +51,10 @@ Team access types determine who can join a team:
 
 It's a best practice to use teams to improve cross-organization collaboration, and many projects will lend themselves to this model. In addition, leaders or divisions inside of an organization might want a dedicated team for their own people. Consider the organizational and project models shown in the following illustration.
 
-![Organization and project models](media/teams-adoption-organization-project.png)
+![Organization and project models.](media/teams-adoption-organization-project.png)
 
 In an organizational team (shown on the left), key information about the way that organization runs its business, team events, core strategies, and other operational information, such as business reviews, might be shared. For the team shown on the right, the district's information is broken down into channels that represent the categories of work that are being accomplished by that team. Members of this team may or may not report to the same person, but they are all engaged in driving the results for the district.
   
 You will work more on the structure of your teams in [phase 2](teams-adoption-phase2-experiment.md) of your implementation.
 
-![An icon depicting the next step](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)
+![An icon depicting the next step.](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)

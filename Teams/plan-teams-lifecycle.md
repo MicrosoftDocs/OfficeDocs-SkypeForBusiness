@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
 ms.localizationpriority: high
@@ -60,49 +61,7 @@ Team user types determine how much control a team member has:
 > [!Note]
 > You can learn more about team owner and team member capabilities in the article [Assign role and permissions in Microsoft Teams](assign-roles-permissions.md).
 
-Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">Role&nbsp;&nbsp;</th>
-    <th width="25%">Description</th>
-    <th width="60%">Can do the following tasks, using tools as noted</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams Administrator</td>
-    <td valign="top">Manage the Teams service, and create and manage Microsoft 365 Groups</td>
-    <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Administrator</td>
-<td valign="top">Manage calling and meetings features within the Microsoft Teams service</td>
-<td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Specialist</td>
-<td valign="top">Troubleshoot communications issues within Teams by using basic tools</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Support Engineer</td>
-<td valign="top">Troubleshoot communications issues within Teams by using advanced tools</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
-</tr>
-</tfoot>
-</table>
-
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following article: [Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
 
 ## IT decisions to make before getting started
 
@@ -146,10 +105,10 @@ Use these links to get more information about organizing your teams:
 -   [Deploy cloud voice](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What's the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What's the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
 
 
 #### Set up channels
@@ -160,10 +119,10 @@ To spark interest, the channel owner can post a welcome message, upload relevant
 
 Consider channel names before creating them as renaming a channel in the team will not rename the corresponding folder in the SharePoint document library which can lead to end-user confusion. 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
 
 ### Stage 2: Middle
 
@@ -181,16 +140,16 @@ Because teams are living organisms, they occasionally need to be checked on and 
 - Try different channel collaborations, such as channel meetings or tab conversations around documents.
 - Use the Microsoft Teams mobile app to increase engagement.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
+| ![An icon depicting the next step.](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
 
 ### Stage 3: End
 
 When the work of a team has run its course, it's important to formally acknowledge that it's over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 30 days. Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
+You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 30 days. Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 30 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren't active any longer or whose owners have left the organization.
 
@@ -198,10 +157,10 @@ Retention policies applied to Teams or associated services such as SharePoint ma
 
 For information about setting up expiration and retention policies, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team's life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team's life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
 ## Related topics
 

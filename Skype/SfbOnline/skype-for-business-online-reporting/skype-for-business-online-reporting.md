@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Skype for Business Online reporting"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -60,3 +61,4 @@ In the admin centers, you can use different types of reports, including those fo
 
   
  
+

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Dial-in Conferencing (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
@@ -26,4 +27,5 @@ For planning details about enabling dial-in conferencing for your organization, 
   
 - [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
+
 

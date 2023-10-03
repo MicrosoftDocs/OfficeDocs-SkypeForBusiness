@@ -1,13 +1,13 @@
 ---
 title: "Skype for Business Server 2015 Resource Kit Tools Documentation"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -226,8 +226,8 @@ There are two phases when using Bandwidth Utilization Analyzer:
 
 - Customize reports, which are performed by using BandwidthUtilizationAnalyzer.xlsm
 
-	> [!IMPORTANT]
-	> We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
+  > [!IMPORTANT]
+  > We strongly recommend that BandwidthUtilizationAnalyzer.xlsm not be manually launched by end users.
 
 #### Starting Bandwidth Utilization Analyzer
 
@@ -251,7 +251,7 @@ Logging the timeline allows the tool user to specify the following as shown in t
 
 2. **End date** This is the end date of the timeline that the report is to be generated for; for example, September 30, 2010.
 
-     ![Start and End dates in the Bandwidth Utilization A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Start and End dates in the Bandwidth Utilization A.](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### Step 2 - Specify the file directories
 
@@ -261,20 +261,20 @@ The following file directories can be specified by the user as shown.
 
 - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
-	![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+  ![File directories in the Bandwidth Utilization Anal.](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-	> [!NOTE]
-	> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
+  > [!NOTE]
+  > Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
 
 #### Step 3 - Collect the logs and start the report viewer
 
 To collect the logs and start the report viewer, click **Execute** as shown below. This step collects the required data.
 
-![Collecting data in the Bandwidth Utilization Analy](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Collecting data in the Bandwidth Utilization Analy.](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 When the input validation is successful, the message shown below is displayed.
 
-![Logs collected notification in the Bandwidth Utili](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Logs collected notification in the Bandwidth Utili.](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Click **OK**. BandwidthUtilizationAnalyzer.xlsm is automatically started. Follow the instructions in the message box. For details, see **Using BandwidthUtilizationAnalyzer.xlsm** in the next section.
 
@@ -283,7 +283,7 @@ Click **OK**. BandwidthUtilizationAnalyzer.xlsm is automatically started. Follow
 
 1. When BandwidthUtilizationAnalyzer.xlsm is automatically started, click **Refresh** as shown below.
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. When a file folder is opened, select consolidated.csv from the location that is specified in the message box as shown below. It also shows the location as **C:\Temp**.
 
@@ -897,7 +897,7 @@ Save and Store CAC network topology diagram in JPG or BMP format: Skype for Busi
 
  **Define custom connectors for CAC network topology links (such as site-to-region, region-to-region, and site-to-site links):** Skype for Business Server 2015 administrators can define custom graphical connectors for CAC network configuration WAN links by using the Settings option as shown below. This helps differentiate between various types of network links that are provisioned in the network configuration.
 
-![Tools](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![Tools.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  **View CAC network topology site information, region information, and provisioned bandwidth policies:** Skype for Business Server 2015 administrators can view related CAC network region information, site information, and CAC bandwidth provisioning information by using options shown below. (For example, click **Info** in a network region or network site object.)
 
@@ -1071,7 +1071,7 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 4. If needed, install the Skype for Business Server 2015 Resource Kit Tools in the server that will be used to run the SEFAUtil tool (the server must be part of a trusted application pool).
 
-5. Verify the SEFAUtil is running correctly. To do this, run the tool from a windows command prompt with administrator privileges to display the call forwarding settings of a user in the deployment. By default the tool will be located in: "…\Program Files\Skype for Business Server 2015\Reskit". To display the call forwarding settings of a user, use the following command:
+5. Verify the SEFAUtil is running correctly. To do this, run the tool from a windows command prompt with administrator privileges to display the call forwarding settings of a user in the deployment. By default the tool will be located in: "...\Program Files\Skype for Business Server 2015\Reskit". To display the call forwarding settings of a user, use the following command:
 
    ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
@@ -1427,9 +1427,9 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 | **Prerequisite**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
-| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=30438>  <br/> |
 | Windows PowerShell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
-| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Visual C++ 2010 Redistributable  <br/>          | <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>  <br/>  |
 | Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | Skype for Business Server 2015 Setup.exe  <br/> | Copy from Skype for Business Server 2015 media  <br/>                   |
@@ -1533,8 +1533,8 @@ This tool allows the administrator to perform the following operations:
 
 4. Move all Web conferencing data associated with a single user when that user is moved from one pool to another.
 
-	> [!NOTE]
-	> The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](/powershell/module/skype/move-csuser?) cmdlet.
+  > [!NOTE]
+  > The Resource Kit Tools for Lync Server 2010 supported moving all Web conferencing data associated with a single user when that user is moved from one pool to another. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. For details about this parameter, see the [Move-CsUser](/powershell/module/skype/move-csuser?) cmdlet.
 
 The tool deletes meeting data only for meetings that are inactive. Active meetings (or meetings in sessions) cannot be deleted.
 

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Reference topologies for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -32,7 +33,7 @@ The reference topology for small organizations shows how you can deploy a robust
 
 **Reference topology for small organizations**
 
-![Reference topology deploying three servers diagram](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![Reference topology deploying three servers diagram.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **Pair of Standard Edition Servers Deployed** This organization has 4,000 users at their central site. They have deployed two Standard Edition servers and paired them together to enable high availability and disaster recovery. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. For more information about high availability and disaster recovery features in Skype for Business Server, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
@@ -58,7 +59,7 @@ The reference topology with high availability and a single data center is design
 
 **Reference topology for medium organizations**
 
-![Reference topology for single data center diagram](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
+![Reference topology for single data center diagram.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
 - **Accommodate more users by adding more Front End Servers.** The exact topology in this diagram has three Front End Servers to provide support for 20,000 users. If you have a single central site and more users, you can simply add more Front End Servers to the pool. The maximum number of users per pool is 80,000, with twelve Front End Servers.
 
@@ -96,19 +97,19 @@ This topology is shown in multiple diagrams, with an overview first followed by 
 
 **Overview of the reference topology for large organizations with multiple data centers**
 
-![Reference topology for multiple data centers](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
+![Reference topology for multiple data centers.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
 **Reference topology for large organizations: Detailed view of Central Site A**
 
-![Topology 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
+![Topology 3-2.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
 
 **Reference topology for large organizations: Detailed view of Central Site B**
 
-![Topology 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
+![Topology 3-3.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
 
 **Reference topology for large organizations: Detailed view of Central Site C**
 
-![Topology 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![Topology 3-4.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **Front End pools Are Paired to Enable Disaster Recovery.** The Front End pools at Site A and Site B are paired with each other, to provide disaster recovery support. If the pool at one site fails, the administrator can fail over the users from that site to the paired Front End pool at the other site, with a minimum of service interruption for users. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. For more information, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 

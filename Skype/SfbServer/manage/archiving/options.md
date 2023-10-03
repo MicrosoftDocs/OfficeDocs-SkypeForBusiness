@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage archiving options in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -63,3 +64,4 @@ You can also configure archiving options by using the Windows PowerShell cmdlets
 |New-CsArchivingConfiguration  <br/> |Creates a new set of instant messaging (IM) settings, which can be used to enable or disable the automatic saving of IM sessions, and to block any instant messages that cannot be archived.  <br/> |
 |Remove-CsArchivingConfiguration  <br/> |Removes the specified collection of archiving settings that are used to enable or disable the automatic saving of instant messaging (IM) sessions, and to optionally block any instant message that cannot be archived.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifies an existing collection of instant messaging (IM) archiving configuration options.  <br/> |
+

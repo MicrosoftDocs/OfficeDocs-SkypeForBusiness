@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select PSTN Usage Record"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoicePolicySelUsage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ Use the **Select PSTN Usage Record** dialog box to find an existing public switc
   
  
   
+
 

@@ -1,9 +1,10 @@
 ---
 title: Create a custom team template in Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+author: lana-chin
+ms.author: v-chinlana
 manager: serdars
+ms.reviewer: aaglick
+ms.date: 07/07/2020
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to create a custom team template in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -31,7 +33,7 @@ A custom team template is a predefined team structure with a set of channels, ta
 
 To get started:
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
@@ -81,11 +83,11 @@ To get started:
 
 3. In the **Add an app for this template** section, add a Website app.
 
-    ![add an app for this template option](media/add-an-app-template.png)
+    ![add an app for this template option.](media/add-an-app-template.png)
 
 4. Select the edit icon and input the URL of your choice.
 
-    ![add an app url](media/add-url-app-template.png)
+    ![add an app url.](media/add-url-app-template.png)
 
 5. Select **Save** for your tab app edits, and then select **Apply** to save your changes.
 
@@ -99,7 +101,7 @@ We're currently working on a fix for future teams created from custom templates.
 
 **Problem**: When using Teams in the browser, some websites don't support being rendered within a Teams tab.
 
-![browser error message](media/browser-error-message.png)
+![browser error message.](media/browser-error-message.png)
 
 **Solution**: If you have trouble viewing the contents of the website tab, you'll be redirected to either open the tab in a separate webpage, or open Teams in the desktop app instead to view your website tab app.
 

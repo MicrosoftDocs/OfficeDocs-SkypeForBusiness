@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Configure presence privacy mode"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -49,3 +50,4 @@ The Skype for Business Online presence setting gives people more control over wh
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
   
+

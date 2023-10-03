@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure your on-premises deployment for Skype Meeting Broadcast"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -43,12 +44,10 @@ To enable federation with Skype for Business Online resources, you need to confi
     
 3. Configure the new provider with the following settings:
     
-|||
-|:-----|:-----|
-|**Enable communications with this provider:** <br/> |Selected  <br/> |
-|**Provider name:** <br/> |LyncOnlineResources  <br/> |
-|**Access Edge service (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
-|**Default verification level:** <br/> |Allow users to communicate with everyone using this provider.  <br/> |
+   - **Enable communications with this provider:** Selected
+   - **Provider name:** LyncOnlineResources
+   - **Access Edge service (FQDN):** sipfed.resources.lync.com
+   - **Default verification level:** Allow users to communicate with everyone using this provider. 
    
 You can also enable federation with Skype for Business Online resources by running the following cmdlet in the Skype for Business Server Management Shell:
   
@@ -84,3 +83,4 @@ New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
 Once you've completed these configuration steps you can start using Skype Meeting Broadcast in your deployment. For more information about Skype Meeting Broadcast, see [What is a Skype Meeting Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and [Skype Meeting Broadcast Admin Guide](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).
+

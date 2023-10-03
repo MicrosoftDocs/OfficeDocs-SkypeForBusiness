@@ -1,4 +1,5 @@
 ---
+ms.date: 09/18/2018
 title: "Capacity planning for Skype for Business Server 2019"
 ms.reviewer: 
 ms.author: heidip
@@ -6,12 +7,12 @@ author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
-description: "The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
+description: "Understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
 ---
 
 # Capacity Planning for Skype for Business Server 2019
@@ -24,12 +25,12 @@ We've done our performance testing on the hardware described in the table below.
 
 **Hardware Used in Performance Testing**
 
-|**Hardware component**|**Recommended**|
+|Hardware component|Recommended|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
-|Memory  <br/> |32 gigabytes (GB).  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|Memory   |32 gigabytes (GB).   |
+|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
 
 ## Summary of Results
 
@@ -37,13 +38,13 @@ The following table summarizes our recommendations.
 
 |**Server role**|**Maximum number of users supported**|
 |:-----|:-----|
-|Front End pool with sixteen Front End Servers and Back End Server or a pair of Back End Servers with SQL Always On for High Availability.  <br/> |106,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 210,000 endpoints.  <br/> |
-|A/V Conferencing  <br/> |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see [Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
-|One Edge Server  <br/> |18,000 concurrent remote users.  <br/> |
-|One Director  <br/> |18,000 concurrent remote users.  <br/> |
-|Monitoring and Archiving  <br/> |The Monitoring and Archiving front end services run on each Front End Server, instead of on separate server roles.  <br/> Monitoring and Archiving each still require their own database stores. If you also run Exchange 2013 or later, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.  <br/> |
-|One Mediation Server  <br/> |Mediation Server collocated with Front End Server runs on every Front End Server in a pool, and should provide enough capacity for the users in the pool. For stand-alone Mediation Server, see the "Mediation Server" section later in this topic.  <br/> |
-|One Standard Edition server  <br/> |We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in [Planning for High Availability and Disaster Recovery](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.  <br/>  If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server. In this case, you should consider adding more Standard Edition servers or moving to Skype for Business Server Enterprise Edition. <br/> |
+|Front End pool with sixteen Front End Servers and Back End Server or a pair of Back End Servers with SQL Always On for High Availability.   |106,000 unique users simultaneously logged in, plus 50% multiple points of presence (MPOP) representing non-mobile instances, plus 40% of users enabled for Mobility for a total of 210,000 endpoints.   |
+|A/V Conferencing   |The A/V Conferencing service provided by a Front End pool supports the pool's conferences assuming a maximum conference size of 250 users, and only one such large conference running at a time.  <br/> **Note:** Additionally, you can support large conferences of between 250 and 1000 users by deploying a separate Front End pool with two Front End Servers to host the large conferences. For details, see [Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md).  |
+|One Edge Server   |18,000 concurrent remote users.   |
+|One Director   |18,000 concurrent remote users.   |
+|Monitoring and Archiving   |The Monitoring and Archiving front end services run on each Front End Server, instead of on separate server roles.  <br/> Monitoring and Archiving each still require their own database stores. If you also run Exchange 2013 or later, you can keep your Archiving data in Exchange, rather than in a dedicated SQL database.   |
+|One Mediation Server   |Mediation Server collocated with Front End Server runs on every Front End Server in a pool, and should provide enough capacity for the users in the pool. For stand-alone Mediation Server, see the "Mediation Server" section later in this topic.   |
+|One Standard Edition server   |We strongly recommend that if you use Standard Edition servers to host users, you always use two servers, paired using the recommendations in [Planning for High Availability and Disaster Recovery](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Each server in the pair can host up to 2,500 users, and if one server fails the remaining server can support 5,000 users in a failover scenario.  <br/>  If your deployment includes a significant amount of audio or video traffic, server performance may suffer with more than 2,500 users per server. In this case, you should consider adding more Standard Edition servers or moving to Skype for Business Server Enterprise Edition.  |
 
 ## Front End Server
 
@@ -72,7 +73,7 @@ The following table shows the average bandwidth for IM and presence, given the u
 
 |**Average bandwidth per user**|**Bandwidth requirements per Front End Server with 6,660 users**|
 |:-----|:-----|
-|3-3.75 KBps  <br/> |13 MBps  <br/> |
+|3-3.75 KBps   |13 MBps   |
 
 > [!NOTE]
 > To improve the media performance of the co-located A/V Conferencing and Mediation Server functionality on your Front End Servers, you should enable receive-side scaling (RSS) on the network adapters on your Front End Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see [Receive Side Scaling (RSS) in the Windows Server 2012 documentation](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). For details about how to enable RSS, you'll need to refer to your network adapter documentation.
@@ -128,8 +129,8 @@ All the following tables assume usage as summarized in [User models in Skype for
 
 |**Server hardware**|**Maximum number of calls**|**Maximum number of T1 lines**|**Maximum number of E1 lines**|
 |:-----|:-----|:-----|:-----|
-|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher **with hyper-threading disabled**, with 64 GB memory and one dual-port network adapter card.  <br/> |1500  <br/> |64  <br/> |49  <br/> |
-|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher, with 64 GB memory and one dual-port network adapter card.  <br/> |2000  <br/> |88  <br/> |66  <br/> |
+|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher **with hyper-threading disabled**, with 64 GB memory and one dual-port network adapter card.   |1500   |64   |49   |
+|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher, with 64 GB memory and one dual-port network adapter card.   |2000   |88   |66   |
 
 > [!NOTE]
 > Although servers with 64 GB of memory were used for performance testing, servers with 32 GB of memory are supported for stand-alone Mediation Server, and are sufficient to provide the performance shown in this table.
@@ -138,7 +139,7 @@ All the following tables assume usage as summarized in [User models in Skype for
 
 |**Server hardware**|**Maximum number of calls**|
 |:-----|:-----|
-|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher., with 64 GB memory and 2 1GB network adapter cards.  <br/> |200  <br/> |
+|Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher., with 64 GB memory and 2 1GB network adapter cards.   |200   |
 
 > [!NOTE]
 > This number is much smaller than the numbers for the stand-alone Mediation Server. That's because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls.
@@ -158,29 +159,29 @@ If you deploy Monitoring or Archiving, the front end functionality of these serv
 
 The following table indicates approximately how much database storage is required per user per day for Monitoring and Archiving data.
 
-||**CDR (Monitoring)** <br/> |**QoE (Monitoring)** <br/> |**Archiving** <br/> |
+|&nbsp;|CDR (Monitoring)  |QoE (Monitoring)  |Archiving  |
 |:-----|:-----|:-----|:-----|
-|Disk space required per user per day  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
+|Disk space required per user per day   |49 KB   |28 KB   |57 KB   |
 
 Microsoft used the hardware in the following table for the database server for Monitoring and Archiving during its performance testing. The testing collected the data of two Front End pools, each of which contained 80,000 users.
 
 **Hardware Used in Monitoring and Archiving Performance Testing**
 
-|**Hardware component**|**Recommended**|
+|Hardware component|Recommended|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> |
-|Memory  <br/> |48 GB  <br/> |
-|Disk  <br/> | EITHER:<br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration). <br/>OR <br/>• Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   <br/> |
-|Network  <br/> | 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.   |
+|Memory   |48 GB   |
+|Disk   | EITHER:<br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration). <br/>OR <br/>• Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.    |
+|Network   | 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).   |
 
 **Recommended Disk configurations**
 
-|**Drive** <br/> |**RAID Configuration** <br/> |**Number of disks** <br/> |
+|Drive  |RAID Configuration  |Number of disks  |
 |:-----|:-----|:-----|
-|CDR, QoE, and Archiving database data files, on a single drive  <br/> |1+0  <br/> |16  <br/> |
-|CDR database log file  <br/> |1  <br/> |2  <br/> |
-|QoE database log file  <br/> |1  <br/> |2  <br/> |
-|Archiving database log file  <br/> |1  <br/> |2  <br/> |
+|CDR, QoE, and Archiving database data files, on a single drive   |1+0   |16   |
+|CDR database log file   |1   |2   |
+|QoE database log file   |1   |2   |
+|Archiving database log file   |1   |2   |
 
 ## Video Interop Server capacity
 

@@ -10,7 +10,7 @@ metadata:
   ms.topic: landing-page # Required
   audience: ITPro
   author: LanaChin #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-lanac #Required; microsoft alias of author; optional team alias.
+  ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 06/23/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
@@ -29,12 +29,8 @@ landingContent:
         links:
           - text: System requirements
             url: ./plan/system-requirements.md
-          - text: Network requirements	
+          - text: Network requirements
             url: ../SfbServer/plan-your-deployment/network-requirements/network-requirements.md
-      - linkListType: download
-        links:
-          - text: Download now!
-            url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
 
   # Card (optional)
   - title: Plan

@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Users blocked report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -34,7 +35,7 @@ The new Skype for Business **Reports** dashboard shows you the activity overview
   
 ## How to get to the Skype for Business users blocked report
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **Users blocked**.
     
@@ -44,21 +45,21 @@ You can get a view into blocked users by looking at each of the columns displaye
   
 This is what the report looks like. 
   
-![Blocked users report](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![Blocked users report.](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 The table shows you a breakdown of the all of the users that are blocked from making calls. This shows all users who have Phone System or Audio Conferencing assigned to them. You can add/remove columns to the table.
 ***
-![Number 1](../images/sfbcallout1.png)
+![Number 1.](../images/sfbcallout1.png)
 *   **User ID** is the user's sign-in.
 *   **Phone number** is the number that is assigned to a user. 
 *   **Block action time** is the time (UTC) that the user was blocked from making calls.
 *   **Block action** is the type of action that was taken to block the user.
 *   **Block action reason** is the reason the user has been blocked from making calls.
 ***
-![Number 2](../images/sfbcallout2.png)<br/>
+![Number 2.](../images/sfbcallout2.png)<br/>
 Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
 ***
-![Number 3](../images/sfbcallout3.png)<br/>
+![Number 3.](../images/sfbcallout3.png)<br/>
 You can also export the report data into an Excel .csv file, by clicking or tapping the **Export to Excel** button.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have fewer than 2000 users, you can sort and filter within the table in the report itself. If you have more than 2000 users, in order to filter and sort, you will need to export the data.
@@ -87,3 +88,4 @@ This exports data of all users and enables you to do simple sorting and filterin
 
   
  
+

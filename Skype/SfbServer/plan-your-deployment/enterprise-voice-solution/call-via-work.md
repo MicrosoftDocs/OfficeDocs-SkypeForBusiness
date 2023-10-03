@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Call Via Work in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -42,7 +43,7 @@ Call Via Work uses Unified Communications Web API (UCWA) as the back-to-back use
 
 The following illustrates how a user enabled for Call Via Work can use the Skype for Business Server to make a call:
   
-![Shows the steps during a Call Via Work call; first the caller clicks to call someone in the Skype for Business client; then the UCWA rings the caller's phone. When the caller picks up the phone, the recipient is called](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Shows the steps during a Call Via Work call; first the caller clicks to call someone in the Skype for Business client; then the UCWA rings the caller's phone. When the caller picks up the phone, the recipient is called.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. The user selects a user in their Skype for Business client, and clicks the phone icon to call them. Or, during an IM conversation, the user clicks to call the user they are having the session with.
     
@@ -99,4 +100,5 @@ To enable any users for Call Via Work, you must have some pre-requisites in plac
 [Plan for remote call control in Skype for Business](remote-call-control.md)
   
 [Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
+
 

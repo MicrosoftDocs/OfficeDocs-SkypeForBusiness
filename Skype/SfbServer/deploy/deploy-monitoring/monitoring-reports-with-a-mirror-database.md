@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Monitoring Reports with a mirror database in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -28,15 +29,15 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
     
    - The **http:** prefix.
     
-   - The fully qualified domain name (FQDN) of the computer where the Reporting Services are installed (for example, **atl-sql-001.litwareinc.com**).
+   - The fully qualified domain name (FQDN) of the computer where the Reporting Services are installed (for example, `atl-sql-001.litwareinc.com`).
     
    - The character string **/Reports_**.
     
    - The name of the database instance where the Monitoring Reports are installed (for example, **archinst**).
     
-     For example, if SQL Server Reporting Services was installed on the computer atl-sql-001.litwareinc.com and the Monitoring Reports use the database instance archinst, the home page URL would look like this:
+     For example, if SQL Server Reporting Services was installed on the computer `atl-sql-001.litwareinc.com` and the Monitoring Reports use the database instance archinst, the home page URL would look like this:
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. After you have accessed the Reporting Services home page, click **ServerReports**, and then click **Reports_Content**. That will take you to the **Reports_Content** page for the Skype for Business Server Monitoring Reports.
     
@@ -58,7 +59,7 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
     
 7. On the **CDRDB** page, click the **Reports_Content** link. Click the **QMSDB** data source, and then edit the connection string for the QoE database. For example:
     
-    Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Click **Apply**.
     
@@ -67,3 +68,4 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
 [Install Monitoring Reports in Skype for Business Server](install-monitoring-reports.md)
   
 [Using Monitoring Reports in Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)
+

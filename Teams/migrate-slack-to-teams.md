@@ -1,23 +1,26 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: brandber
+ms.date: 10/14/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
-- m365initiative-migratetom365
+  - M365-collaboration
+  - m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.localizationpriority: high
-f1.keywords:
-- NOCSH
-description: "Complete guidance for migrating from Slack to Microsoft Teams."
+f1.keywords: 
+  - NOCSH
+description: Complete guidance for migrating from Slack to Microsoft Teams.
 ---
 
 # Migrate from Slack to Microsoft Teams
@@ -28,7 +31,7 @@ When planning your organization’s move to Teams from Slack, it's important to 
 
 The diagram below shows the Slack architecture at a high level.
 
-![Image that slows Slack architecture at a high level](media/migrate-slack-to-teams-image1.png)
+![Image that slows Slack architecture at a high level.](media/migrate-slack-to-teams-image1.png)
 
 ## Plan your migration from Slack
 ### What you can and can’t migrate
@@ -50,7 +53,7 @@ When you're done with this section, you should understand:
 ### Assess your Slack workspaces
 Before you can plan your organization’s migration plan, you need to pull together some information about your Slack workspaces. Understanding how your Slack workspaces are being used helps you determine the scope of your migration. For example, how many workspaces are being moved? Are they used by a specific department, many, or in use by an entire organization?
 
-If you’re a member of the Slack Workspaces you want to migrate, you can analyze the usage yourself by going to *<your Slack workspace>.slack.com/stats*. Review the Channels and Members tabs to look for usage patterns. Decide which workspaces you want to migrate (and which ones you want to leave behind). 
+If you’re a member of the Slack Workspaces you want to migrate, you can analyze the usage yourself by going to *\<your Slack workspace\>.slack.com/stats*. Review the Channels and Members tabs to look for usage patterns. Decide which workspaces you want to migrate (and which ones you want to leave behind). 
 
 > [!NOTE]
 > If you don’t have access to the stats page, you’re not an admin or owner. 
@@ -59,7 +62,7 @@ If you’re a member of the Slack Workspaces you want to migrate, you can analyz
 
 In Slack, users join a channel which is part of a Slack Workspace, whereas in Teams users join a team which is a collection of channels. We recommend that you use Slack analytics to see how much activity happens in each channel to help you decide which channels to move. You’ll use the resulting list to figure out how to group your Slack channels into teams in Teams as well as who should be members of each team.
 
-If you have a paid Slack service plan (anything other than Free), you can use Slack’s analytics (<your Slack workspace>.slack.com/admin/stats#channels) to see how active a channel is, when it was last used, and how many people are members. This can help you decide whether to migrate the channel. 
+If you have a paid Slack service plan (anything other than Free), you can use Slack’s analytics (\<your Slack workspace\>.slack.com/admin/stats#channels) to see how active a channel is, when it was last used, and how many people are members. This can help you decide whether to migrate the channel. 
 By default, public channels content (messages and files) can be exported. Depending on your Slack service plan and whether you’ve requested Private Channels and Direct Messages from Slack, those can be exported.
 
 To learn more about Slack export options, go to the Slack website: https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
@@ -76,7 +79,7 @@ For exporting Direct Messages, check out tools, such as Export, in the Slack App
 
 Apps in Slack are like apps in Teams. Once you have a list of apps and their configurations in the Workspace, you can search in the Teams App store to see if they’re available for Teams*. 
 
-Go to <your Slack workspace>.slack.com/apps/manage to get a list of Apps and Custom Integrations. This page also shows you the number of configurations where each app is in use. 
+Go to \<your Slack workspace\>.slack.com/apps/manage to get a list of Apps and Custom Integrations. This page also shows you the number of configurations where each app is in use. 
 Custom Integrations vary in their “migrate-ability.” If it’s a Web Hook, you can usually send it to a Microsoft 365 or Office 365 Connector to shift the workflow into Teams. Assess bots and other apps on a case-by-case basis to plan for moving them to Teams.
 
 \* If your administrator has restricted apps usage, you may not be looking at the full list of available apps.
@@ -84,7 +87,7 @@ Custom Integrations vary in their “migrate-ability.” If it’s a Web Hook, y
 ### Users
 The identity schemes you used in Slack might not map directly to Microsoft 365 or Office 365. For example, the email addresses of your Slack users may not map to Microsoft 365 or Office 365 work or school accounts. You should create a user-ID map before you start planning your Teams rollout.
 
-If you’re on a paid Slack service plan, you can go to *<your Slack workspace>.slack.com/admin/stats#members* to get member details such as email address and account type for each user (for example, single vs. multi-channel guest).
+If you’re on a paid Slack service plan, you can go to *\<your Slack workspace\>.slack.com/admin/stats#members* to get member details such as email address and account type for each user (for example, single vs. multi-channel guest).
 
 Here’s a script you can use to compare email addresses from a Slack export against Azure AD to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
 
@@ -156,8 +159,6 @@ foreach ($slackUser in $users) {
 
 $output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
 Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
-$output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
-Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 ```
 
 When you’re done with this section, you should have:
@@ -178,7 +179,7 @@ The diagram below gives you a high-level outline of the things you’ll address 
 A Slack Workspace may represent a single team, multiple teams or an entire organization. It’s important to understand the scope of the Workspaces as you determine the structure. The closest relationship to a Teams team in Slack is the Workspace, which contains a collection of channels. The diagram below demonstrates 3 different Slack-to-Teams mappings, and guidance for picking the right one for each Workspace.
 
 
-|Slack-to-Teams mapping |  |
+|Slack-to-Teams mapping | Description |
 |---------|---------|
 |1 Slack Workspace :arrow_right: 1 team   | For smaller Slack workspaces that need fewer than 200 channels<br>Include a buffer for growth and private channel planning  |
 |1 Slack Workspace :arrow_right: multiple teams     | Use your Slack Workspace analytics data to create logical channel groupings, which become the basis of your teams        |
@@ -190,7 +191,7 @@ Third-party solutions have usage statistics to help you assess how active the ch
 > Retain only what is required in your approach to determine which channels to recreate in Teams. To learn more, read [Overview of teams and channels](teams-channels-overview.md). 
 
 #### Team Planning
-Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or PowerBI to help with this analysis - both can provide additional insights to help drive these discussions on which channels to retain.
+Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or Power BI to help with this analysis - both can provide additional insights to help drive these discussions on which channels to retain.
 
 > [!TIP]
 > Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
@@ -340,7 +341,7 @@ Below are examples of Slack solutions where a Microsoft 365 Connector was used i
   - Check out this user solution for [sending New Relic alerts to Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)
 - Nagios
   - Alerts can be integrated today via Connectors. https://github.com/isaac-galvan/nagios-teams-notify
-- ZenDesk
+- Zendesk
   - App exists in Teams Store
 - Jenkins
   - Alerts can be sent to Teams using [Jenkins’s Office 365 Connector](https://plugins.jenkins.io/Office-365-Connector)

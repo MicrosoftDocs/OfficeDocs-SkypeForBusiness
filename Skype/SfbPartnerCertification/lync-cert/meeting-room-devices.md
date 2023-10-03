@@ -1,6 +1,7 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync - Meeting room devices and solutions"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -42,3 +43,4 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 Always check if your Lync version was tested to interoperate with the video systems.
 Just want to search for tested hardware?
+

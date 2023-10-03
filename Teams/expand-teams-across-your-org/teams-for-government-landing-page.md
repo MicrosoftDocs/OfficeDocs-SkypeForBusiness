@@ -1,10 +1,11 @@
 ---
 title: Teams for Government
 description: Learn how to plan and deploy Teams in Microsoft 365 Government environments.
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: article
 manager: serdars
+ms.date: 05/25/2018
 audience: admin
 f1.keywords:
 - NOCSH
@@ -22,7 +23,7 @@ Use these resources to learn about specific considerations for deploying Teams i
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
-| ![Screenshot of numbered list icon](../media/list-123-teams.svg)  |  [Plan for Microsoft 365 Government - GCC deployments](../plan-for-government-gcc.md) |
-| ![Screenshot of clipboard with a list of tasks icon](../media/tasks-teams.svg) | [Plan for Microsoft 365 Government - GCC High](../plan-for-government-gcc-high.md) |
-| ![Screenshot of bulleted list items icon](../media/task-list-planning-teams.svg)  |  [Plan for Microsoft 365 Government - DOD deployments](../plan-for-government-dod.md) |
-| ![Screenshot of right arrow icon](../media/arrow-right-2-teams.svg)  |  [Audio Conferencing with Direct Routing for GCC High and DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |
+| ![Screenshot of numbered list icon.](../media/list-123-teams.svg)  |  [Plan for Microsoft 365 Government - GCC deployments](../plan-for-government-gcc.md) |
+| ![Screenshot of clipboard with a list of tasks icon.](../media/tasks-teams.svg) | [Plan for Microsoft 365 Government - GCC High](../plan-for-government-gcc-high.md) |
+| ![Screenshot of bulleted list items icon.](../media/task-list-planning-teams.svg)  |  [Plan for Microsoft 365 Government - DOD deployments](../plan-for-government-dod.md) |
+| ![Screenshot of right arrow icon.](../media/arrow-right-2-teams.svg)  |  [Audio Conferencing with Direct Routing for GCC High and DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

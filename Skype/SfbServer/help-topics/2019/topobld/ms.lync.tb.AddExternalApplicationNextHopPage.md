@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Add NextHop Trusted Application Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddExternalApplicationNextHopPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,4 +26,5 @@ In the **Next Hop pool** drop-down list, select the Enterprise Edition pool or S
   
 Click **Finish** to complete the Trusted Application pool creation.
   
+
 

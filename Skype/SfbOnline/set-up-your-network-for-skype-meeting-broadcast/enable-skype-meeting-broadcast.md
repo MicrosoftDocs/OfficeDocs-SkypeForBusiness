@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Enable Skype Meeting Broadcast"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -38,7 +39,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
   
 ## Enable Skype Meeting Broadcast using the Skype for Business admin center
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
@@ -99,3 +100,4 @@ To skip this step and instead add another business to your federation, see [Allo
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
+

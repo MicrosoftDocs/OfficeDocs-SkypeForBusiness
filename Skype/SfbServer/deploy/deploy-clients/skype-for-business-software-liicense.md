@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Skype Room System Skype for Business software license"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 f1.keywords:
 - NOCSH
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: "Read this topic to learn how to check whether you have a Skype for Business software volume license."
@@ -25,8 +26,6 @@ Skype Room System uses an installed Skype for Business client, which requires a 
 If KMS are in place and will distribute Skype for Business Volume License activations, the Skype Room System will automatically activate the Skype for Business client. To find out if KMS are in place:
   
 From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-For more information, see [How to discover Office and Windows KMS hosts via DNS and remove unauthorized instances](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
 To set up a KMS, see [KMS activation of Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) and [GVLKs for KMS and Active Directory activation of Office 2013](/DeployOffice/vlactivation/gvlks)
   
@@ -53,3 +52,4 @@ If the customer doesn't have a Volume License Agreement, Skype for Business acti
 - Deployment date
     
 - If the customer has a Microsoft Technical Account Manager, the TAM's name and contact information
+

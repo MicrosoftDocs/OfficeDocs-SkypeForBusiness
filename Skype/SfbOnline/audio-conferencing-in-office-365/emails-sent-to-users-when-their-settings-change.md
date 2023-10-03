@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Emails sent to users when their settings change in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -43,7 +44,7 @@ By default, there are four types of email that will be sent to your users who ar
   
     Here is an example of this email:
     
-     ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
+     ![Skype for Business Verify License.](../images/audio-conferencing-user-enabled.png)
   
     You can find out more about Skype for Business licensing by seeing [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
@@ -109,7 +110,7 @@ When you disable sending emails to users, email won't be sent even when a user g
   
 By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use the Skype for Business admin center or Windows PowerShell. 
  
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
@@ -138,7 +139,7 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
     
     Here is an example of this email that will be sent to them:
     
-     ![Dial-in conferencing email](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![Dial-in conferencing email.](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## Want to know how to manage with Windows PowerShell?
 
@@ -159,10 +160,11 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](/previous-version
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Download and install the Teams PowerShell module][HELP](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)(/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector).
   
 ## Related topics
 
 [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md)
   
 [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
+

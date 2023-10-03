@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure archiving policies for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -136,4 +137,5 @@ A user policy applies only to users to whom you assign the policy.
   
 6. Click **Commit**.
     
+
 

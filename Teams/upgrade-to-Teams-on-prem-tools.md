@@ -1,12 +1,13 @@
 ---
 title: Tools for upgrading to Teams from a Skype for Business on-premises deployment
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
+ms.date: 07/23/2020
 description: Tools for upgrade from Skype for Business to Teams 
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -75,7 +76,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 Administrators have the option to provide end user notifications in the Skype for Business client to inform users that they will soon be upgraded to Teams, as shown in the following diagram. For example, a week before the administrator plans to upgrade a group of users to TeamsOnly mode, the administrator might want to turn on these notifications for that group of users. These notifications are enabled using an instance of TeamsUpgradePolicy with NotifySfbUsers=true.  For all modes other than TeamsOnly, there are actually two instances per mode, corresponding to the two values of NotifySfbUsers.  For all modes other than TeamsOnly, there are actually two instances per mode, corresponding to the two values of NotifySfbUsers. 
 
-![Diagram showing notifications](media/teams-upgrade-sfb-with-notifications.png)
+![Diagram showing notifications.](media/teams-upgrade-sfb-with-notifications.png)
 
 If your users are homed in Skype for Business Online, simply assign the policy instance that has the same mode as the user, but with NotifySfbUsers=true. 
 

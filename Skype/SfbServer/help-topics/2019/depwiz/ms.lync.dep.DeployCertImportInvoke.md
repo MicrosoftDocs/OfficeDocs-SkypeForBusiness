@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Import Certificate (Invoke)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertImportInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "On the Executing Commands page, review the summary information for
  
 On the **Executing Commands** page, review the summary information for the imported certificate. In the drop-down list, select the Import Certificate log file. Be sure that the Import Certificate log file is visible in the drop-down list. Click **View Log** to review the details of the certificate import. When you are finished reviewing the summary and the log file, click **Finish**.
   
+
 

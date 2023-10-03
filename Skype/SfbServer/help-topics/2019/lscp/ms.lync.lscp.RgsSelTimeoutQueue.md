@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select Time-out Queue"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.RgsSelTimeoutQueue
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -25,4 +26,5 @@ In the search box, type all or part of the name of the queue you want to use. To
   
 In the list of queues returned by the search, select the queue you want to use for timed-out calls.
   
+
 

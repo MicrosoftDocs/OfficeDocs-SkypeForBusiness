@@ -1,8 +1,8 @@
 ---
 title: "Dial Plan Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceDialPlanEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: "What do you want to do? Click the link to the task that you want to perform."

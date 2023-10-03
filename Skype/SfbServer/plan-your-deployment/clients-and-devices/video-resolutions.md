@@ -1,13 +1,13 @@
 ---
 title: "Skype for Business client video resolutions"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,7 +24,7 @@ description: "Summary: Review the client video requirements while planning for S
   
 This article describes video hardware support for Skype for Business video calls and describes how to determine the expected video quality for various computer, tablet, and mobile device configurations. 
   
-IT Professionals will find this information useful in assessing the suitability of laptops already in use in their organization, or under consideration for use. They can also search the [Solutions Catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog) for information on specific devices.
+IT Professionals will find this information useful in assessing the suitability of laptops already in use in their organization, or under consideration for use. They can also search at [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices/devices) for information on specific devices.
   
 ## Windows desktop, Mac and tablet video requirements and capabilities
 

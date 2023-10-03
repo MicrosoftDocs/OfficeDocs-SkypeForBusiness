@@ -1,13 +1,13 @@
 ---
 title: "Virtualization support for Skype for Business Server 2019 "
 ms.reviewer: corbinm
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

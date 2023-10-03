@@ -1,12 +1,13 @@
 ---
 title: How to use Microsoft Teams effectively
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 09/20/2017
 search.appverid: MET150
 description: Learn how to use Teams to monitor network health, to keep users engaged, and to prepare for new functionality.
 ms.localizationpriority: medium
@@ -24,7 +25,7 @@ appliesto:
 
 # How to use Microsoft Teams effectively
 
-![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage.](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
@@ -55,4 +56,4 @@ The lifecycle of any given technology has shifted to a dynamic growth cycle. Thi
 - Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
 
-![Example form showing expected release dates and notes](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")
+![Example form showing expected release dates and notes.](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")

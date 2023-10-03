@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Get Dimension Members"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -80,3 +81,4 @@ Get Dimension Members operation returns the list of members of a specific dimens
 "January 2031"]]
 }
 ```
+

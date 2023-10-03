@@ -1,13 +1,13 @@
 ---
 title: "Manage Skype for Business Server 2015 using SCOM Management pack"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -40,23 +40,23 @@ The Management Packs can be used with System Center Operations Manager 2007 R2 (
   
 |Configuration|Supported?|
 |:-----|:-----|
-|Windows Server 2008 R2 operating system  <br/> Windows Server 2012 R2 operating system  <br/> |Yes. Both on Skype for Business Server 2015 server and synthetic transaction watcher nodes.  <br/> |
-|Clustered servers  <br/> |Not supported.  <br/> |
-|Agentless monitoring  <br/> |Not supported.  <br/> |
-|Virtual environment  <br/> |Yes.  <br/> |
-|Domain-joined server roles  <br/> |All internal Skype for Business Server 2015 server roles must be domain-joined.  <br/> |
-|Stand-alone server roles  <br/> |Skype for Business Server 2015 Edge Servers are not required to be domain-joined.  <br/> |
-|Topology limitations  <br/> |All server roles in a deployment must be monitored from the same Operations Manager Management Group.  <br/> |
-|Synthetic transactions watcher node  <br/> |Monitoring scenario availability with a synthetic transactions watcher node is supported (additional configuration required). Watcher nodes are not required to be domain-joined.  <br/> |
+|Windows Server 2008 R2 operating system  <br/> Windows Server 2012 R2 operating system   |Yes. Both on Skype for Business Server 2015 server and synthetic transaction watcher nodes.   |
+|Clustered servers   |Not supported.   |
+|Agentless monitoring   |Not supported.   |
+|Virtual environment   |Yes.   |
+|Domain-joined server roles   |All internal Skype for Business Server 2015 server roles must be domain-joined.   |
+|Stand-alone server roles   |Skype for Business Server 2015 Edge Servers are not required to be domain-joined.   |
+|Topology limitations   |All server roles in a deployment must be monitored from the same Operations Manager Management Group.   |
+|Synthetic transactions watcher node   |Monitoring scenario availability with a synthetic transactions watcher node is supported (additional configuration required). Watcher nodes are not required to be domain-joined.   |
    
 The following table shows the capacity and operating system requirements for a synthetic transaction watcher node:
   
 |Hardware component|Minimum requirement|
 |:-----|:-----|
-|CPU  <br/> |One of the following:  <br/> 64-bit processor, quad-core, 2.33 GHz or higher  <br/> 64-bit 2-way processor, dual-core, 2.33 GHz or higher  <br/> |
-|Memory  <br/> |8 GB  <br/> |
-|Operating system  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|Network  <br/> |1 network adapter at 1 Gbps  <br/> |
+|CPU   |One of the following:  <br/> 64-bit processor, quad-core, 2.33 GHz or higher  <br/> 64-bit 2-way processor, dual-core, 2.33 GHz or higher   |
+|Memory   |8 GB   |
+|Operating system   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
+|Network   |1 network adapter at 1 Gbps   |
    
 ## Prerequisites
 
@@ -98,12 +98,12 @@ The Skype for Business Server 2015 Management Pack leverages a variety of featur
   
 |Monitoring scenario|Description|
 |:-----|:-----|
-|Synthetic transactions  <br/> | Windows PowerShell cmdlets to test and help ensure high availability of scenarios such as sign in, presence, IM, and conferencing for users. <br/> The synthetic transactions can be run from any geographic location including inside the enterprise, outside of the enterprise and in branch offices.  <br/> When a synthetic transaction fails, HTML log s are created to help determine the exact nature of the failure. This includes understanding which action failed, the latency of each action, the command line used to run the test, and the specific error that occurred.  <br/> |
-|Call reliability alerts  <br/> |Call Detail Records (CDRs) written by Skype for Business Server 2015 Servers reflect whether users are able to connect to a call or why a call is terminated. Call reliability alerts query the CDR database to produce alerts that indicate when a high number of users experience connectivity issues for peer-to-peer calls or basic conferencing functionality.  <br/> Scenario coverage includes audio calls, peer-to-peer instant messaging (IM) and other conferencing features.  <br/> |
-|Media quality alerts  <br/> |Database queries that look at Quality of Experience (QoE) reports published by Skype for Business Server 2015 clients at the end of each call. These queries produce alerts that pinpoint scenarios where users are most likely to experience compromised media quality during calls and conferences. The data is built on key metrics, such as packet latency and loss, which directly contribute to the quality of user experience.  <br/> |
-|Component health alerts  <br/> |Individual server components raise alerts via event logs and performance counters to indicate failure conditions that may significantly affect user scenarios. These alerts indicate a variety of conditions, such as services not running, high failure rates, high message latency, or connectivity issues.  <br/> |
-|Dependency health monitoring  <br/> |Skype for Business Server can fail for a variety of external reasons. The Management Pack monitors and collects data for critical external dependencies that can indicate severe issues. These dependencies include Internet Information Services (IIS) availability, and CPU of servers used for Skype for Business Server.  <br/> |
-|||
+|Synthetic transactions   | Windows PowerShell cmdlets to test and help ensure high availability of scenarios such as sign in, presence, IM, and conferencing for users. <br/> The synthetic transactions can be run from any geographic location including inside the enterprise, outside of the enterprise and in branch offices.  <br/> When a synthetic transaction fails, HTML log s are created to help determine the exact nature of the failure. This includes understanding which action failed, the latency of each action, the command line used to run the test, and the specific error that occurred.   |
+|Call reliability alerts   |Call Detail Records (CDRs) written by Skype for Business Server 2015 Servers reflect whether users are able to connect to a call or why a call is terminated. Call reliability alerts query the CDR database to produce alerts that indicate when a high number of users experience connectivity issues for peer-to-peer calls or basic conferencing functionality.  <br/> Scenario coverage includes audio calls, peer-to-peer instant messaging (IM) and other conferencing features.   |
+|Media quality alerts   |Database queries that look at Quality of Experience (QoE) reports published by Skype for Business Server 2015 clients at the end of each call. These queries produce alerts that pinpoint scenarios where users are most likely to experience compromised media quality during calls and conferences. The data is built on key metrics, such as packet latency and loss, which directly contribute to the quality of user experience.   |
+|Component health alerts   |Individual server components raise alerts via event logs and performance counters to indicate failure conditions that may significantly affect user scenarios. These alerts indicate a variety of conditions, such as services not running, high failure rates, high message latency, or connectivity issues.   |
+|Dependency health monitoring   |Skype for Business Server can fail for a variety of external reasons. The Management Pack monitors and collects data for critical external dependencies that can indicate severe issues. These dependencies include Internet Information Services (IIS) availability, and CPU of servers used for Skype for Business Server.   |
+
    
 ### Alert Prioritization
 
@@ -121,45 +121,46 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
   
 
 
-|Supported Synthetic Transactions for Registration, Presence, and Contacts|||
+|Supported Synthetic Transactions for Registration, Presence, and Contacts|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|1  <br/> |Registration (user login)  <br/> |Available Lync Server 2010 and beyond  <br/> |
-|2  <br/> |Address Book Service (file download)  <br/> |Available Lync Server 2010 and beyond  <br/> |
-|3  <br/> |Address Book Web Query  <br/> |Available Lync Server 2010 and beyond  <br/> |
-|4  <br/> |Presence  <br/> |Available Lync Server 2010 and beyond  <br/> |
-|5  <br/> |Unified Contact Store  <br/> |Available Lync Server 2013 and beyond  <br/> |
-||||   
+|1   |Registration (user login)   |Available Lync Server 2010 and beyond   |
+|2   |Address Book Service (file download)   |Available Lync Server 2010 and beyond   |
+|3   |Address Book Web Query   |Available Lync Server 2010 and beyond   |
+|4   |Presence   |Available Lync Server 2010 and beyond   |
+|5   |Unified Contact Store   |Available Lync Server 2013 and beyond   |
 
-|Supported Synthetic Transactions for Peer-to-Peer Services|||
+  
+
+|Supported Synthetic Transactions for Peer-to-Peer Services|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|6  <br/> |Peer-to-Peer Instant Messaging  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|7  <br/> |Peer-to-Peer Audio Video  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|8  <br/> |MCX Peer-to-Peer Instant Message (mobile)  <br/> |Available in the September 2011 release of Lync Server 2010 to Skype for Business 2015  <br/> |
+|6   |Peer-to-Peer Instant Messaging   |Available in Lync Server 2010 and beyond   |
+|7   |Peer-to-Peer Audio Video   |Available in Lync Server 2010 and beyond   |
+|8   |MCX Peer-to-Peer Instant Message (mobile)   |Available in the September 2011 release of Lync Server 2010 to Skype for Business 2015   |
  
 > [!NOTE]
 > MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
 
 
-|Supported Synthetic Transactions for Conferencing and Persistent Chat|||
+|Supported Synthetic Transactions for Conferencing and Persistent Chat|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|9  <br/> |Audio Video Conferencing  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|10  <br/> |Data Conferencing  <br/> |Available in Lync Server 2013 and beyond  <br/> |
-|11  <br/> |Instant Message Conferencing  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|12  <br/> | Persistent Chat <br/> |Available in Lync Server 2013 and beyond  <br/> |
-|13  <br/> |Join Launcher (scheduled meetings)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
-|14  <br/> |Dial in Conferencing  <br/> |New in Skype for Business Server 2015  <br/> |
-|15  <br/> |Application Sharing Conferencing  <br/> |New in Skype for Business Server 2015  <br/> |
-|16  <br/> |UCWA Conference (web meeting join)  <br/> |New in Skype for Business Server 2015  <br/> |
-||||
+|9   |Audio Video Conferencing   |Available in Lync Server 2010 and beyond   |
+|10   |Data Conferencing   |Available in Lync Server 2013 and beyond   |
+|11   |Instant Message Conferencing   |Available in Lync Server 2010 and beyond   |
+|12   | Persistent Chat  |Available in Lync Server 2013 and beyond   |
+|13   |Join Launcher (scheduled meetings)   |Available in Lync Server 2013 and beyond   |
+|14   |Dial in Conferencing   |New in Skype for Business Server 2015   |
+|15   |Application Sharing Conferencing   |New in Skype for Business Server 2015   |
+|16   |UCWA Conference (web meeting join)   |New in Skype for Business Server 2015   |
 
-|Supported Synthetic Transactions for Network and Partner Dependencies|||
+
+|Supported Synthetic Transactions for Network and Partner Dependencies|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|17  <br/> |AV Edge Connectivity  <br/> |Available in Lync Server 2013 and beyond  <br/> |
-|18  <br/> |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
-|19  <br/> |PSTN Peer-to-Peer Call  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|20  <br/> |XMPP Instant Messaging (federation)  <br/> |Available in Lync Server 2013 and Skype for Business 2015  <br/> |
-|21  <br/> |Video Interop Server  <br/> |New in Skype for Business Server 2015  <br/> |
-||||
+|17   |AV Edge Connectivity   |Available in Lync Server 2013 and beyond   |
+|18   |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)   |Available in Lync Server 2013 and beyond   |
+|19   |PSTN Peer-to-Peer Call   |Available in Lync Server 2010 and beyond   |
+|20   |XMPP Instant Messaging (federation)   |Available in Lync Server 2013 and Skype for Business 2015   |
+|21   |Video Interop Server   |New in Skype for Business Server 2015   |
+
    
 ## How Health Rolls Up
 
@@ -167,26 +168,26 @@ The following Table shows the health states of objects the Skype for Business Se
   
 |Management Pack Object|Description|
 |:-----|:-----|
-|Skype for Business Server Deployment  <br/> |Represents the deployment of Skype for Business Server 2015 in the organization.  <br/> |
-|Skype for Business Server Site  <br/> |Represents different geographical locations where services are deployed.  <br/> |
-|Skype for Business Server Pool  <br/> |A Pool (within a Site) that provides communications services, such as instant messaging and conferencing, to users. Applicable to Front End pools, Edge pools, and Director pools, even if there is only a single machine in a given pool.  <br/> |
-|Skype for Business Server Role  <br/> |A server role that hosts Skype for Business Server Service.  <br/> |
-|Skype for Business Server Service  <br/> |Represents a functionality deployed on a specific machine (for example, user service on fp01.contoso.com).  <br/> |
-|Skype for Business Server Component  <br/> |A component of the Service (for example, the Address Book Download component is a part of the Web Service).  <br/> |
-|Skype for Business Server Pool Watcher  <br/> |An instance of synthetic transactions that are running against one pool.  <br/> |
-|Skype for Business Server Registrar Watcher  <br/> |An instance of synthetic transactions that run against one Registrar pool.  <br/> |
-|Skype for Business Server User Services Pool Watcher  <br/> |An instance of synthetic transactions that run against one User Services pool.  <br/> |
-|Skype for Business Server Voice Pool Watcher  <br/> |An instance of synthetic transactions that run against one Voice pool.  <br/> |
-|Skype for Business Server Port Watcher  <br/> |An instance of Port checks running against one pool.  <br/> |
-|Simple URL Watcher  <br/> |Performs HTTPS probing of the configured simple URLs in a deployment.  <br/> |
+|Skype for Business Server Deployment   |Represents the deployment of Skype for Business Server 2015 in the organization.   |
+|Skype for Business Server Site   |Represents different geographical locations where services are deployed.   |
+|Skype for Business Server Pool   |A Pool (within a Site) that provides communications services, such as instant messaging and conferencing, to users. Applicable to Front End pools, Edge pools, and Director pools, even if there is only a single machine in a given pool.   |
+|Skype for Business Server Role   |A server role that hosts Skype for Business Server Service.   |
+|Skype for Business Server Service   |Represents a functionality deployed on a specific machine (for example, user service on fp01.contoso.com).   |
+|Skype for Business Server Component   |A component of the Service (for example, the Address Book Download component is a part of the Web Service).   |
+|Skype for Business Server Pool Watcher   |An instance of synthetic transactions that are running against one pool.   |
+|Skype for Business Server Registrar Watcher   |An instance of synthetic transactions that run against one Registrar pool.   |
+|Skype for Business Server User Services Pool Watcher   |An instance of synthetic transactions that run against one User Services pool.   |
+|Skype for Business Server Voice Pool Watcher   |An instance of synthetic transactions that run against one Voice pool.   |
+|Skype for Business Server Port Watcher   |An instance of Port checks running against one pool.   |
+|Simple URL Watcher   |Performs HTTPS probing of the configured simple URLs in a deployment.   |
    
-![SCOM Rollup](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM Rollup.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 A Skype for Business Server pool can contain multiple individual Skype for Business Server systems (with more than one Skype for Business Server role, Skype for Business Server service, and Skype for Business Server component). Therefore, the failure of an individual server or component is less critical to the overall health of the Skype for Business Server pool, because other servers in the same pool can provide the application service to the client. The health will roll up on a percentage level to the Skype for Business Server pool. 
   
 The Skype for Business Server Pool Watcher performs synthetic transactions against a Skype for Business Server pool. Consecutive failure of one or more synthetic transactions (a process known as the consecutive polling interval) will roll up the critical health state to the pool level (worst of any synthetic transaction), as shown in the following diagram. 
   
-![SCOM Rollup consecutive polling](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM Rollup consecutive polling.](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## Best Practice: Create a Management Pack for Customizations
 
@@ -238,16 +239,9 @@ For additional information about Operations Manager, see the following blogs:
   
 - [Operations Manager Team Blog](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman's OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Raphael Burri's blog](https://rburri.wordpress.com/)
-    
-- [BWren's Management Space](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
-    
+   
 > [!IMPORTANT]
 > All information and content on non-Microsoft sites is provided by the owner or the users of the website. Microsoft makes no warranties, express, implied, or statutory, as to the information at this website. 
   

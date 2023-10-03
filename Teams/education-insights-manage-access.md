@@ -1,12 +1,13 @@
 ---
 title: Manage user access to Education Insights
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
+ms.date: 02/05/2021
 description: Manage user access to Education Insights in Microsoft Teams.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -14,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 appliesto: 
   - Microsoft Teams
 ---
@@ -32,16 +34,19 @@ To provide organization-level Insights, you must [import data from the Student I
 > [!TIP]
 > We recommend that you enable Insights for all your education leaders so that they have the data to understand each school, and the ability to quickly identify problems and provide support to their educators. Even if you're running a pilot, it may still be helpful to keep Insights enabled for all education leaders, but only target communications to the pilot group of users.
 
-## Manange permissions
+## Manage permissions
 
 * Open the Insights app, click **Settings**, and select **User permissions**
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Settings":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Settings.":::
 
 > [!NOTE]
 > When you provide permission for an organizational level, the user can see all the org units below it.
 > 
 > Only provide permission to those education leaders that need them and only to the organizational units they are responsible for. If you are unsure whether user permission for a specific organization is required, consult your institution's privacy subject matter experts, such as legal or HR personnel.
+
+> [!IMPORTANT]
+> After assigning permissions for the first time, users will be able to view the data within the app only if at least **two** users have accessed the app. This requirement helps to ensure that the time zone for the data is configured correctly and the data is displayed accurately for all users. If users are experiencing issues accessing the data after permissions have been granted, check if at least two users have accessed the app.
 
 ## Role-based permissions
 
@@ -52,19 +57,18 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 >
 > If a user is no longer in a role, their permission for that role is automatically revoked (though they may still have individual permissions).
 
-
 * If required, click the **Role-based permissions** tab.
 
   You'll see a list of the roles in your educational organization, the level in that hierarchy for each one, how many users are assigned that role, and the role's permission level. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions.":::
   
-  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at both the school and district level, so there are two lines for 'principal'.
+  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at the school, district and department level, so there are three lines for 'principal'.
   
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
 * Select the permission level – **View data for their organization** or **None**.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel.":::
   
   If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#grant-individual-permission-to-a-user) (if needed).
 
@@ -81,7 +85,7 @@ Use individual permissions to adjust the permission for a user or to assign perm
   
   You'll see the users in your educational organization granted individual permission. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individual permissions":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individual permissions.":::
   
 ### Grant individual permission to a user
 * Click **Grant individual permission** at the top left of the screen.
@@ -98,6 +102,6 @@ Use individual permissions to adjust the permission for a user or to assign perm
   * **Specific organization** means the user sees the selected org unit, and all the org units below it. Start typing and select the org unit from the list.
   * **None** means that the user only sees the org units automatically assigned by their role (if any).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Individual permissions panel":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Individual permissions panel.":::
 
 * Click **Save changes** to save.

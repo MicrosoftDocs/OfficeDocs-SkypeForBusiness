@@ -1,16 +1,19 @@
 ---
 title: Teams policy packages for healthcare
-author: cichur
-ms.author: v-cichur
+author: lana-chin
+ms.author: v-chinlana
 manager: serdars
 ms.reviewer: aaglick
-ms.topic: article
+ms.date: 06/20/2019
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - m365-frontline
+  - highpri
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -47,11 +50,11 @@ Teams currently includes the following healthcare policy packages.
 |Healthcare information worker  |Information workers in your healthcare organization |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Patient room devices|Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
 
-![Screenshot of healthcare policy packages](media/policy-packages-healthcare.png)
+![Screenshot of healthcare policy packages.](media/policy-packages-healthcare.png)
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Healthcare clinical worker policy package to clinicians in your organization, a policy named Healthcare_ClinicalWorker is created for each policy in the package.
 
-![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-healthcare-clinical-worker.png)
+![Screenshot of policies in the Healthcare clinical worker package.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## Get started with policy packages
 
@@ -88,25 +91,23 @@ Assign the policy package to users. If a user has a policy assigned, and then la
 
 To assign a policy package to one or multiple users, in the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select **Manage users**.  
 
-![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
+![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
-To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+To learn more, see [Assign a policy package](assign-policy-packages.md).
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 #### Assign a policy package to a group
 
-**This feature is in private preview**
+Policy package assignment to groups lets you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
-Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
-
-To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
+To learn more, see [Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 
 Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
-A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+A batch can contain up to 5,000 users. You can specify users by their object ID, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## Related topics
 

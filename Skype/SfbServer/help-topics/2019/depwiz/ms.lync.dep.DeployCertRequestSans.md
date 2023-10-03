@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Additional Subject Alternate Names)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRequestSans
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -24,4 +25,5 @@ The **Configure Additional Subject Alternate Names** option provides the opportu
 > [!NOTE]
 > The **Remove** or **Clear All** buttons work only on SAN entries that are added on this page. The buttons will not affect SAN entries that are currently on the certificate.
   
+
 

@@ -1,16 +1,17 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers'
 ms.reviewer: 
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -185,3 +186,4 @@ To help ensure that network packets are marked with the appropriate DSCP value, 
 6.  Double-click **Do not use NLA**. In the **Edit String** dialog box, type **1** in the **Value data** box, and then click **OK**.
 
 7.  Close the Registry Editor and reboot your computer.
+

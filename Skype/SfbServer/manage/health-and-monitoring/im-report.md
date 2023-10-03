@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Peer-to-Peer IM Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -69,4 +70,5 @@ The following table lists the information provided in the Peer-to-Peer IM Report
 |**Date/Time** <br/> |No  <br/> |Date and time that the sessions took place.  <br/> |
 |**Total** <br/> |No  <br/> |Total number of sessions or total message count.  <br/> |
    
+
 

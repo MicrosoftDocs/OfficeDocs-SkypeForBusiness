@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Mobile Client Push Notification Configuration"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -32,7 +33,7 @@ Two selections are available for policy creation and editing:
     
 2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
     
-   - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+   - **Show details...**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
     
    - **Select all**: If you have a number of policies and need to select all policies, click Select all
     
@@ -49,4 +50,5 @@ Creating a new policy or editing an existing policy is associated with two actio
     
 Two settings are possible for **Push Notification Configuration**. The settings are associated with the push notification services for Microsoft and for Apple. You enable push notification for either service by selecting the check box next to the name of the service. You can clear the check box by selecting it to clear it. Once you have made your selections, you either commit or cancel. Clicking commit will save the changes to the policy.
   
+
 

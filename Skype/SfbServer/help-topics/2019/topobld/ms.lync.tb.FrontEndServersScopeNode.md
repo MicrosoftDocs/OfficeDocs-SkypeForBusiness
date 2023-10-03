@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Front End Servers Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

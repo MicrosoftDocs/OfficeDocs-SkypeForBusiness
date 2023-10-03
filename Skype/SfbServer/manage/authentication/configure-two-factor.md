@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure two-factor authentication in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -176,7 +177,7 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication. For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
-> When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375).
+> When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the [Active Directory Federation Services](/troubleshoot/windows-server/identity/availability-description-afds).
 
 ### To configure AD FS for two-factor Authentication
 
@@ -342,3 +343,4 @@ The following steps describe how to create a custom proxy configuration for Edge
 [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
 
 [Use two-factor authentication with Skype for Business client and Skype for Business Server](use-two-factor.md)
+

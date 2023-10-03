@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage dial-in conferencing access numbers in Skype for Business Server "
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -92,7 +93,7 @@ You can modify dial-in access numbers by using Skype for Business Server Control
     
     This name is displayed in the client when a user calls the access number. 
     
-7. In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, tel:+14255550200.
+7. In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, `tel:+14255550200`.
     
     > [!NOTE]
     > The same Line URI cannot be reused by another dial-in conferencing access number. 
@@ -182,3 +183,4 @@ Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-
 ```
 
 For more information, see [Remove-CsDialInConferencingAccessNumber](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
+

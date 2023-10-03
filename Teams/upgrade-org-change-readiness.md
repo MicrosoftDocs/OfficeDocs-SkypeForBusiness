@@ -1,12 +1,13 @@
 ---
 title: Assess organizational change readiness for your Skype for Business to Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/17/2018
 description: Learn how to assess your organization's readiness for a successful transition to Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -24,7 +25,7 @@ appliesto:
 
 # Assess organizational change readiness
 
-![Upgrade journey diagram, emphasizing the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
+![Upgrade journey diagram, emphasizing the User Readiness stage.](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you've completed these activities from previous stages:
 
@@ -43,8 +44,8 @@ After you've secured your project team and defined your vision, scope, and goals
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization's user readiness profile.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What is the culture of your organization when it comes to change?</li><li>How can the new technology optimize the way users work?</li><li>Which users are likely to require special attention to get them to change the way they work?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the following guidance and associated activities to capture your organization's user readiness profile.</li></ul>|
 
 ## Organizational change readiness
 
@@ -69,7 +70,7 @@ Use the following conversation starters to conduct an organizational readiness a
 | These users request the solution before it's available. | These users accept the solution as soon as its value is demonstrated. | These users reject the solution, even when pushed into change. |
 
 > [!Tip]
-> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations.
+> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://adoption.microsoft.com/files/assets/M365AdoptionGuide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations.
 
 #### What percentage of users fall into each competency?
 
@@ -103,8 +104,8 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### Examples
 
@@ -124,9 +125,9 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 | Consideration | Notes |
 |----|---|
 | Core attributes | <ul><li>Work remotely (on the road, hotels, customer sites)</li><li>Relationship-focused – core external</li></ul> |
-| Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can't get everyone together at once</li><li>Missed opportunities to learn from sales "wins" – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Yammer</li></ul></ul> |
+| Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can't get everyone together at once</li><li>Missed opportunities to learn from sales "wins" – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Viva Engage</li></ul></ul> |
 | Teamwork requirements |<ul><li>Quick access to sales collateral</li><li>Reach an expert quickly</li><li>Fast turn-around for questions and approvals </li><li>Sales meetings, pipeline reviews</li><li>Sales training resources</li><li>Customer database management</li></ul> |
-| Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Yammer for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
+| Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Viva Engage for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
 
 <sup>1</sup> Supporting app integration or alignment in Teams.
 

@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Phone numbers for Audio Conferencing in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -38,7 +39,7 @@ When you are setting up **Audio Conferencing** for Skype for Business, dial-in p
   
 ## Audio Conferencing coverage and pricing
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For more information, see [audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 ## Dial-in phone numbers in a meeting invite
 
@@ -87,3 +88,4 @@ To see a list of those countries/regions that have phone numbers automatically a
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

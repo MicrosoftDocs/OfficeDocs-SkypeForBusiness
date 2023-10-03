@@ -1,18 +1,22 @@
 ---
-title: "Manage Microsoft Teams configuration on Surface Hub"
-ms.author: dstrome
-author: dstrome
+title: Manage Microsoft Teams configuration on Surface Hub
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: rahulmi
+ms.date: 08/06/2020
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-f1.keywords:
-- NOCSH
+  - teams-rooms-devices
+  - Tier1
+f1.keywords: 
+  - NOCSH
 ms.localizationpriority: medium
-description: "Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer"
+description: Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer
 ---
 
 # Manage Microsoft Teams settings on Surface Hub
@@ -22,7 +26,7 @@ You can manage Microsoft Teams settings on a Surface Hub using Windows Configura
 - [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [What is Microsoft Intune device management?](/mem/intune/remote-actions/device-management)
 
-Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file for make changes to Teams settings on Surface Hub.
+Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if it's deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file to make changes to Teams settings on Surface Hub.
 
 ## Teams configuration file syntax
 
@@ -51,7 +55,7 @@ The following table describes all the configuration settings available in the co
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Determines whether Teams will automatically accept proximity-based meetings.<br>Accepted values: `true`, `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | Contains all configuration elements for Coordinated Meetings.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                         |                                           | `enabled` | Determines whether Teams is configured to participate in Coordinated Meetings with other devices.<br>Accepted values: `true`, `false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | This is a comma-separated list of UPNs for each Teams Room device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent.<br>Accepted values: string                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | This is a comma-separated list of UPNs for each Teams Rooms device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent.<br>Accepted values: string                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | Contains configuration audio and video configuration elements for Coordinated Meetings                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | Controls audio configuration for Teams on a Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                         |                                           | `default` | Determines on which device the microphone will be active when a meeting starts. Only one device (typically a Teams Rooms device) can have this field set to `true` while the rest of the devices must have this field set to `false` to avoid audio echo and feedback.<br>Accepted values: `true`, `false`                                                                                                                                                                                                           |

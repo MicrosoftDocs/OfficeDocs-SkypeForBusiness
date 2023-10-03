@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for remote call control in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,11 +25,11 @@ Remote call control was a feature in previous versions of Lync Server which enab
   
  Remote call control users in your organization who are homed on Front End Servers running Lync Server can continue to use remote call control, even if they are using a Skype for Business client. However, for any users homed on Skype for Business Server, remote call control is not supported. See the following table for server/client combinations and whether they can support remote call control or Call via Work.
   
-||**Skype for Business Client With Skype UI enabled**|**Skype for Business Client With Lync UI enabled**|**Skype for Business 2016 Client**|**Lync 2013 Client**|**Lync 2010 Client**|
+|&nbsp;|Skype for Business Client With Skype UI enabled|Skype for Business Client With Lync UI enabled|Skype for Business 2016 Client|Lync 2013 Client|Lync 2010 Client|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype for Business Server <br/> |Call via Work  <br/> |1 <br/> |Call via Work  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
-| Lync Server 2010 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |1 <br/> |Remote Call Control  <br/> |Remote Call Control  <br/> |
+| Skype for Business Server  |Call via Work   |1  |Call via Work   |1  |1  |
+| Lync Server 2013  |Remote Call Control   |Remote Call Control   |1  |Remote Call Control   |Remote Call Control   |
+| Lync Server 2010  |Remote Call Control   |Remote Call Control   |1  |Remote Call Control   |Remote Call Control   |
    
 1. Neither feature is supported.
   

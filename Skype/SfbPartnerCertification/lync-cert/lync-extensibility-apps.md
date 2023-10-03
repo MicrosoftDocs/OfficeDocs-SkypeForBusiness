@@ -1,6 +1,7 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+ms.date: 06/12/2018
+title: "Lync extensibility applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 
 # Lync extensibility applications
@@ -52,10 +53,4 @@ Enterprise Connect also offers the following capabilities:
 - Mobile Cost Savings: Provide complete IT control, enable desktop replacement and least cost routing from mobile phones.
 - Business Continuity: Enable employee mobile phones to continue business communications when the corporate voice network is lost.
 
-* * *
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

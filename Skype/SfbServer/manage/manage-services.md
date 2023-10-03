@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage services for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -50,7 +51,7 @@ You can use Skype for Business Server Control Panel to view all the services tha
     
 ### Viewing service status with Windows Powershell cmdlets
 
-You can also view service status by using Windows PowerShell and the **Get-CsWindowsService** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can also view service status by using Windows PowerShell and the **Get-CsWindowsService** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). The process is the same in Skype for Business Server.
   
 ### To view service status
 
@@ -72,7 +73,7 @@ This command returns information similar to the following:
 |{ConferencingServer}  <br/> |Running  <br/> |
 |{MediationServer}  <br/> |Running  <br/> |
    
-For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
+For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice).
   
 ## View details about a service
 <a name="view_details"> </a>
@@ -148,3 +149,4 @@ You can use Skype for Business Server Control Panel to prevent new sessions for 
 7. Click **Action**.
 8. Click **Prevent new sessions for service**.
 9. Click **Close**.
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 07/01/2019
 title: "SSL Certificate providers for Skype for Business or Teams"
 ms.author: serdars
 author: msdmaguire
@@ -38,3 +39,4 @@ The following table includes the names and websites for the certification author
 |           |     |
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

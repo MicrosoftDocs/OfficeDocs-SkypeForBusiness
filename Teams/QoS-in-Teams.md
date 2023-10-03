@@ -1,11 +1,12 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: vkorlep, siunies
+ms.reviewer: siunies
+ms.date: 09/27/2023
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 ms.localizationpriority: medium
@@ -19,7 +20,8 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Teams
+  - Classic Microsoft Teams
+  - New Microsoft Teams
 ---
 
 # Implement Quality of Service (QoS) in Microsoft Teams
@@ -40,7 +42,7 @@ For QoS to be effective, you must apply consistent QoS settings throughout your 
 
 _Figure 1. The relationship between an organization's networks and Microsoft 365 or Office 365 services_
 
-![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
+![Illustration of the relationship between networks and services.](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
 
 ## QoS implementation checklist
 
@@ -97,7 +99,7 @@ When you implement QoS, you define multiple queues using one of several congesti
 
 _Figure 2. Examples of QoS queues_
 
-![Illustration of QoS queues and bandwidth division](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+![Illustration of QoS queues and bandwidth division.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
 A simple analogy is that QoS creates virtual "carpool lanes" in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
@@ -146,7 +148,7 @@ Be aware of the following when you use these settings:
 
 - All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (clients that let participants join meetings by using their browsers).
 
-- Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video (AF41). These values aren't configurable.
+- Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video and application/screen sharing (AF41). These values aren't configurable.
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 

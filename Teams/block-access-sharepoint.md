@@ -1,20 +1,20 @@
 ---
 title: Block access to SharePoint for specific users
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: Nigolc
+ms.date: 07/23/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
-- M365-collaboration
-- Teams_ITAdmin_Help
-f1.keywords:
-- NOCSH
+  - M365-collaboration
+f1.keywords: 
+  - NOCSH
 appliesto: 
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about how to block access to SharePoint for specific users
@@ -41,13 +41,13 @@ When access is blocked, users will see an error message. Blocking access helps p
 
 3. In the **Unmanaged Devices** section,  select **Block Access** and select **Save**.
 
-   ![the Unmanaged devices section for Policies](media/no-sharepoint-access1.png)
+   ![the Unmanaged devices section for Policies.](media/no-sharepoint-access1.png)
 
 4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies**.
 
     You'll see a new policy has been created by SharePoint that's similar to this example:
 
-    ![a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
+    ![a new policy that's named Use app-enforced Restrictions for browser access.](media/no-sharepoint-access2.png)
 
 5. Update the policy to target only specific users or a group.
 

@@ -1,15 +1,18 @@
 ---
 title: What is Call Quality Dashboard (CQD)?
-ms.author: serdars
-author: SerdarSoysal
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
+ms.date: 06/09/2020
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -46,16 +49,10 @@ In CQD, we encourage you to upload building and endpoint information, which lets
 
 Don't miss our [Manage call and meeting quality](quality-of-experience-review-guide.md) article, which offers in-depth guidance for the Teams admin or support engineer responsible for managing service quality in Teams.
 
-## Legacy version of CQD (CQD.lync.com)
-
-The current version of CQD (https://CQD.Teams.microsoft.com) has replaced the legacy version of CQD (https://CQD.lync.com). You can still use CQD.lync.com (available from the Skype for Business admin center), but as of July 1, 2020, it's using the data from CQD.Teams.microsoft.com and you can no longer view or modify your building or query data from the old CQD (CQD.lync.com). If you haven't already migrated this data from CQD.lync.com and still need it, log a support ticket.
-
-> [!IMPORTANT]
-> As of July 31, 2021, we are retiring the legacy version of CQD (CQD.lync.com). After that date, you will be automatically redirected to CQD.Teams.microsoft.com when attempting to access CQD.lync.com, and any unmigrated building or query data will be lost.
 
 ## Use Power BI to analyze CQD data
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in January 2020: [Download Power BI query templates for CQD](https://download.microsoft.com/download/f/b/f/fbf2527c-f392-410e-aeb6-1a02ac1b5dd1/CQD-Power-BI-query-templates.zip). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
 

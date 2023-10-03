@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Audio Conferencing troubleshooting and known issues"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -46,3 +47,4 @@ For now, use this as a reference when you are troubleshooting potential issues w
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+

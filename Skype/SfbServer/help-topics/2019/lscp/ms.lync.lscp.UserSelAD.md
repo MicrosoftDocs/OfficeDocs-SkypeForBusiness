@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select from Active Directory"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.UserSelAD
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ Use the **Select from Active Directory** dialog box to find users who you want t
   
  
   
+
 

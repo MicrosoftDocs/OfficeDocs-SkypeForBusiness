@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for multiple emergency numbers in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,7 +23,7 @@ description: "Read this topic to learn how to plan for multiple emergency number
  
 Read this topic to learn how to plan for multiple emergency numbers in Skype for Business Server.
   
-Skype for Business Server now supports the configuration of multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. While the United States has a single emergency number, 911, many countries support multiple emergency numbers. The United Kingdom, for example, supports both 999, the emergency number specific to the United Kingdom, and 112, the emergency number for the European Union. 
+Skype for Business Server now supports the configuration of multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. While the United States has a single emergency number, 911, many countries/regions support multiple emergency numbers. The United Kingdom, for example, supports both 999, the emergency number specific to the United Kingdom, and 112, the emergency number for the European Union. 
   
 This feature is also useful for health care providers within the United States who want to have roaming support for multiple code blue emergency numbers.
   
@@ -103,3 +104,4 @@ The following table shows client support for multiple emergency numbers. Microso
 || Aastra 6721ip and Aastra 6725ip telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 and HP 4120 telephones - September 2016 cumulative update (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
 ||Polycom CX500, Polycom CX600, and Polycom CX3000 telephones - September 2016 cumulative update (Build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
+

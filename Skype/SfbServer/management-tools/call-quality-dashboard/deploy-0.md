@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy Call Quality Dashboard for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -29,7 +30,7 @@ Call Quality Dashboard (CQD) consists of three major components:
     
 - **Portal**, where users can easily query and visualize QoE data.
     
-![CQD components](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD components.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 The setup process for QoE Archive involves creating the QoE Archive database, deploying a SQL Server stored procedure that will move the data from the source QoE Metrics database into QoE Archive database, and setting up the SQL Server Agent job to execute the stored procedure at a regular interval. 
   
@@ -141,18 +142,18 @@ For managing user authorization to the Portal, we recommend using URL Authorizat
   
 Any web site or web application inherit the default URL Authorization configured for the entire IIS, which is typically "Allow All Users". If access to the Portal needs to be more restrictive, then administrators can grant access to only the specific group of users by editing the "Authorization Rules".
   
-![Deploy Call Quality - Authorization Rules in IIS](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![Deploy Call Quality - Authorization Rules in IIS.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > The Authorization Rules icon is not to be confused with the ".NET Authorization" under the ASP.NET section, which is a different authorization mechanism. 
   
 Administrators should first remove the inherited "Allow All Users" rule. This prevents any non-authorized users from accessing the Portal.
   
-![Deploy CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![Deploy CQD.](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 Next, administrators should add new Allow Rules and give specific users the permission to access the Portal. It is recommended that a local Group called "CQDPortalUsers" be created to manage the users.
   
-![Deploy Call Quality Dashboard](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![Deploy Call Quality Dashboard.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 The configuration details are stored in the web.config located at the Portal's physical directory.
   
@@ -169,15 +170,15 @@ The next step is to configure the dashboard of the CQD. After users are authenti
 
 1. Open the Configuration Editor for CQD.
     
-     ![Deploy Call Quality Dashboard](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![Deploy Call Quality Dashboard.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. Under Section, choose **system.webServer/serverRuntime**.
     
-     ![Deploy Call Quality Dashboard](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![Deploy Call Quality Dashboard.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. Change authenticatedUserOverride to **UseWorkerProcessUser**.
     
-     ![Deploy Call Quality Dashboard - Configuration Editor](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![Deploy Call Quality Dashboard - Configuration Editor.](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. Click **Apply** on the right-hand side of the page.
     
@@ -208,19 +209,19 @@ In rare cases, the installer fails to create the correct settings in IIS. Manual
   
 1. Open up IIS Manager, and navigate to Default Web Site.
     
-     ![Deploy Call Quality Dashboard](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![Deploy Call Quality Dashboard.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. Click on "Authentication". If the "Anonymous Authentication", "ASP.NET Impersonation", "Form Authentication", and "Windows Authentication" do not match the settings shown below, manually change them to match the settings below. All other authentication mechanisms should be disabled.
     
-     ![Deploy Call Quality Dashboard](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![Deploy Call Quality Dashboard.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. For "Windows Authentication", click on Advanced Settings on the right-hand side.
     
-     ![Deploy Call Quality Dashboard](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![Deploy Call Quality Dashboard.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. Set "Extended Protection" to Accept and check the "Enable Kernel-mode authentication" box.
     
-     ![Deploy Call Quality Dashboard](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![Deploy Call Quality Dashboard.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Repeat the above steps for each of the "CQD", "QoEDataService", and "QoERepositoryService" entries below "Default Web Site".
     
@@ -439,3 +440,4 @@ To tag all the previous records with this new data, you will need to run the Cqd
 Give it the date of your first record (identify that using the Select MIN(StartTime) FROM CqdPartitionedStreamView SQL command ), an EndDate of tomorrow, then NULL for the last two values.
   
 Once the data is associated with stream data, the SSIS Cube needs to reprocess all records. This also applies when bulk adding BSSID/ISP data. Ensure that "Process Full" is selected.
+
