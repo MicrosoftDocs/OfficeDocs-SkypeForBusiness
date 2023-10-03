@@ -89,7 +89,7 @@ Teams Phone Mobile users can leverage existing [Phone System features](here-s-wh
 
 Ensure your organization has eligible Microsoft 365 services:
 
-- Teams Phone System SKU/E5
+- Teams Phone System SKU or E5 with Teams
 - Teams Phone Mobile add-on SKU
 
 To enable phone number assignments with Teams Phone Mobile, make sure your users:
