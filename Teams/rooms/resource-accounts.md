@@ -57,7 +57,7 @@ The following statuses are supported for resource account settings:
 - **Needs Action**: This status implies that the account hasn't been configured correctly, and that we must review our account information.
 - **N/A**: This status implies that the account information isn't available.
 
-## Configuring Resource Accounts
+## Configure Resource Accounts
 
 To configure the settings of a resource account and its mailbox, perform the following steps:
 
