@@ -55,7 +55,9 @@ A team can have up to 200 tags, up to 200 team members can be assigned to a tag,
 
 ### Set who can manage tags
 
-You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you have not selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is currently team owners but could change in the future.
+You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you have not selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is set to both team owners and members. If you're using Teams for Education, non-owner students cannot manage tags as long as **Who can manage tags** is set to **Team owners** or **Microsoft default**.
+
+We recommend you select a specific value other than **Microsoft default** to ensure that your preferred tag settings are used if the **Microsoft default** setting changes in the future.
 
 1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
 
