@@ -47,7 +47,7 @@ When a user scans the QR code, they can choose to **Schedule a new meeting** or 
 
 ### What are the requirements for devices?
 
-1. Make sure that the Teams Panels is running on Teams app version 1449/1.0.97.2023080401 or later and has a Teams Shared Device or Teams Room Pro license assigned.
+1. Make sure that the Teams Panels is running on Teams app version 1449/1.0.97.2023080401 or later and has a Teams Shared Device or Teams Rooms Pro license assigned.
 2. Make sure users have updated the Teams app on their mobile device to the latest version.
 3. Make sure that the mobile device is running:
     - Android devices: 1416/1.0.0.2023153001 or later.
