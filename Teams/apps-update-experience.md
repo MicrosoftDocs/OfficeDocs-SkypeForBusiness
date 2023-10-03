@@ -25,7 +25,7 @@ description: Learn how third-party and custom apps get updated in Teams to a new
 When an app is installed for the first time it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenario occurs:
 
 * If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-update-requires-consent), then the app update requires consent from the app user.
-* If the updated version of the app doesn't require new permissions and doesn't have only basic functionality changes, then it updates automatically.
+* If the updated version of the app doesn't require new permissions and has only basic functionality changes, then it updates automatically.
 
 As a Teams administrator, you can update Teams apps to help the users get the latest version of apps by performing one of the following tasks:
 
@@ -41,7 +41,7 @@ Apps update on their own if there's no change in functionality or request for or
 * Change `SupportsCalling`, `SupportsVideo`, and `SupportsFiles` properties of an existing bot to add capability to call, play video, and upload or download files.
 * Change parameters in the `webApplicationInfo` in the manifest file.
 * Add or remove permissions in authorization.
-* Add or remove a messaging extension, group tab, connector, or channel.
+* Add a messaging extension.
 
 When creating the new version of an app, the developer can change the above values in the [app manifest file](/microsoftteams/platform/resources/schema/manifest-schema). Any of these changes lead to a change in app permissions. Hence, an update requires admin approval.
 
