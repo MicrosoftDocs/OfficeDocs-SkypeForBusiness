@@ -48,6 +48,9 @@ The following table lists the values that you can set for webinar publishing per
 |EveryoneInCompanyIncludingGuests| Only private webinar recordings can be published. Public webinar recordings can’t be published.|
 |Everyone| **This is the default.** All webinar recordings can be published.|
 
+>[!NOTE]
+> Private webinars can't be viewed by guests.
+
 To prevent any webinar recordings from being published, use the following script:
 
 ```powershell
