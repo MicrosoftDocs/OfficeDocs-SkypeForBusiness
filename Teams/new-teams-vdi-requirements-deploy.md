@@ -202,7 +202,9 @@ All the multimedia features that work on the classic Teams client are expected t
 |Citrix|[Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)|
 |VMware|[MS Teams Optimization Feature Compatibility Matrix for Horizon 7 and Horizon 8 Recent Releases. (86475) (vmware.com)](https://kb.vmware.com/s/article/86475)|
 
-## Features not supported in VDI (either Classic or New Teams)
+## Features not supported in VDI 
+
+The following features are not supported in either classic Teams or new Teams.
 
 - QoS
 - 1080p
