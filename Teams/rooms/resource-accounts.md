@@ -33,7 +33,7 @@ Resource Accounts is a feature that enables you to see the status of your resour
 
 ## View Resource Accounts
 
-The **Resource Accounts** page shows you all the resource accounts that your organization created for your Teams Rooms. You can see the account name, UPN, location, and **Readiness** status in different columns for each resource account.
+The **Resource Accounts** page shows you all the resource accounts that your organization created for your Teams Rooms. You can see the account name, UPN, location in different columns for each resource account.
 
 The **Resource Accounts** page also has a **Refresh** option on the command bar to fetch newly created resource accounts from Entra.
 
@@ -62,7 +62,7 @@ The following statuses are supported for resource account settings:
 To configure the settings of a resource account and its mailbox, perform the following steps:
 
 1. Select a resource account to navigate to the page containing the resource account's settings and other details.
-1. Follow the instructions in [Create and configure resource accounts for rooms and shared Teams devices](create-resource-account.md).
+1. Enable the settings under the **Account settings** and **Mailbox settings** panes.
 
 Once you've configured the settings of the account and its other associated settings, you can navigate to the page displaying the settings and other details to verify the status. You can see that the status has been updated (to **No action needed**), under the **Status** label.
 
