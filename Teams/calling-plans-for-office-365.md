@@ -85,7 +85,7 @@ There are three **Domestic Calling Plan** options to choose from:
 
 ### International Calling Plan
 
-With the International Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+The International Calling Plan includes both domestic and international minutes for outbound calls. Domestic minutes allow users to call numbers in the country or region where their Microsoft 365 license is assigned. International minutes allow users to call international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
 ### Pay-As-You-Go Calling Plan
 
