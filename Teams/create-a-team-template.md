@@ -1,7 +1,7 @@
 ---
 title: Create a custom team template in Microsoft Teams
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: aaglick
 ms.date: 07/07/2020
