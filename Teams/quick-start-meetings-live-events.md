@@ -115,6 +115,7 @@ The following table lists meetings training available to the end users in your o
 Webinars are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
 
 In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of the base webinar features and premium webinar features are highlighted in the following table:
+
 |                                                       | Base webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
 |**Allow registered users to bypass the lobby**         |✔️                      |✔️                          |
