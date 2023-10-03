@@ -27,11 +27,11 @@ ms.custom:
 description: Learn how to see the status of your resource accounts information; and the information pertaining to mailbox settings, location, and license.
 ---
 
-# Resource Accounts
+# Resource accounts
 
-Resource Accounts is a feature that enables you to see the status of your resource accounts; and the information pertaining to mailbox settings, location, and license.
+Resource accounts is a feature that enables you to see the status of your resource accounts; and the information pertaining to mailbox settings, location, and license.
 
-## View Resource Accounts
+## View resource accounts
 
 The **Resource Accounts** page shows you all the resource accounts that your organization created for your Teams Rooms. You can see the account name, UPN, location in different columns for each resource account.
 
@@ -57,7 +57,7 @@ The following statuses are supported for resource account settings:
 - **Needs Action**: This status implies that the account hasn't been configured correctly, and that we must review our account information.
 - **N/A**: This status implies that the account information isn't available.
 
-## Configure Resource Accounts
+## Configure resource accounts
 
 To configure the settings of a resource account and its mailbox, perform the following steps:
 
