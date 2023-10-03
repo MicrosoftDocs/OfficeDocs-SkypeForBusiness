@@ -299,7 +299,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
     NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
     ```
 
-The ```DeviceDetailsFilePath``` parameter specifies the location of the CSV you created and saved. The ```Region``` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
+The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 ### Bulk sign in error messages
 To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should to do to fix it.
@@ -308,7 +308,7 @@ To help you troubleshoot and fix common issues, these are common error messages 
 |:-----|:-----|
 |**User not found in tenant.**|Check the username or User Principal Name (UPN) is correct.|
 |**User missing phone number assignment.**|Verify the user has a phone number assigned.|
-|**User missing `AllowSIPDevicesCalling` policy assignment**| Verify that ```AllowSIPDevicesCalling``` policy is set to **Enabled**. See prerequisite 7.|
+|**User missing `AllowSIPDevicesCalling` policy assignment**| Verify that `AllowSIPDevicesCalling` policy is set to **Enabled**. See prerequisite 7.|
 |**User missing CAP policy assignment.**|Verify that the account has `CommonAreaPhone` policy assigned. See prerequisite 4|
 |**Device not found in records.**|Check if the device was correctly provisioned to SIP Gateway, and the region parameter in bulk sign in request is correct.|
 |**BulkSignIn Tag missing for the device**| Check to see if the device provisioning URL has the correct tenant ID.|
