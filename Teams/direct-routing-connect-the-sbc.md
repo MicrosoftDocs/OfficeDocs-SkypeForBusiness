@@ -53,7 +53,7 @@ To configure and connect an SBC to Direct Routing, you can use the [Microsoft Te
 
 To connect your SBC to Direct Routing, you'll need to:
 
-1. [Connect to Teams by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+1. [Connect to Teams by using PowerShell](#connect-to-teams-by-using-powershell).
 
 2. [Connect the SBC to the tenant](#connect-the-sbc-to-the-tenant).
 
