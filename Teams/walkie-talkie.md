@@ -21,7 +21,7 @@ ms.custom:
 - Security
 appliesto: 
   - Microsoft Teams
-ms.date: 11/17/2022
+ms.date: 09/21/2023
 ---
 
 # Walkie Talkie app in Microsoft Teams
@@ -30,7 +30,7 @@ ms.date: 11/17/2022
 
 The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
-Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users will continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
+Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
 With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -104,7 +104,7 @@ Expected data usage from Walkie Talkie is around 20 Kb/s when sending or receivi
 
 Also, keep in mind the following:
 
-- Walkie Talkie should work well in low bandwidth situations, or situations where the user's phone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
+- Walkie Talkie should work well in low bandwidth situations, or situations where the user's phone is connected and working. Walkie Talkie doesn't work when there's no connectivity at all.
 - If users are using mobile data to communicate in Teams, Walkie Talkie will use the same method.
 
 ## Walkie Talkie devices
@@ -114,13 +114,15 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 #### Headsets
 
 - Wireless headsets (iOS and Android)
-  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie):
+  - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
       - [B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07
       - [C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30
   - Jabra
       - [Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)
 - Wired headsets (Android only)
   - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+      - 3.5mm
+      - USBc
 
 #### Rugged Android phones
 
@@ -130,9 +132,9 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
   - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
 - Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer), 
 
-- Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
-   > [!IMPORTANT]
-   > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
+    - Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
+       > [!IMPORTANT]
+       > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app** and select **Teams**.
   - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -149,7 +151,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 > [!NOTE]
 > If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
 
-On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions to connect using the BLE stack are no longer required. If "nearby permissions" aren't granted at the Teams level, a user will receive a prompt for Bluetooth permissions. This prompt is displayed, whether or not a Bluetooth accessory, such as a headset, is connected to their device. If a Bluetooth accessory is connected, tapping **Allow** connects Walkie Talkie to the Bluetooth accessory.
+On devices running Android OS version 12 or later, Bluetooth permissions are required and location permissions to connect using the BLE stack are no longer required. If "nearby permissions" aren't granted at the Teams level, a user receives a prompt for Bluetooth permissions. This prompt is displayed, whether or not a Bluetooth accessory, such as a headset, is connected to their device. If a Bluetooth accessory is connected, tapping **Allow** connects Walkie Talkie to the Bluetooth accessory.
 
 ## Get insight into Walkie Talkie usage and performance
 

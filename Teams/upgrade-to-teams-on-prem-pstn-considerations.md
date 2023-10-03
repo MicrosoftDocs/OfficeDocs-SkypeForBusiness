@@ -58,7 +58,7 @@ This article provides a high-level overview only. For more information, see [Pho
 
 This scenario is the simplest upgrade scenario involving voice.
 
-1. Make sure users have been assigned a Teams license. By default, when you assign a Microsoft 365 or Office 365 license, Teams is enabled. Unless you previously disabled the Teams license, no action should be necessary.
+1. Make sure users have been assigned a Teams license.
 
 2. If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy. Before assigning TeamsOnly mode, incoming PSTN calls will land in the user's Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user's Teams client.
 
@@ -72,7 +72,7 @@ The basic steps are listed below.  Steps 1-4 are listed in the suggested sequenc
 
 2. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-direct-routing).
 
-3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, and so on). You can configure poicies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to
+3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, and so on). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to
 TeamsOnly mode.
 
 4. Prepare select users for voice migration:
@@ -98,7 +98,7 @@ The basic steps are listed below. Steps 1-5 are listed in the suggested sequence
 
 4. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to TeamsOnly.
 
-5. Assign the Microsoft 365 or Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2 and Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.
+5. Assign licenses if necessary. The user should have both Teams and Skype for Business Online Plan 2 and Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.
 
 6. Upgrade the user: These steps should be coordinated.
 
@@ -120,7 +120,7 @@ The basic steps are listed below. Steps 1-5 are listed in the suggested sequence
 
 3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, and so on). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to TeamsOnly.
 
-4. Assign the Microsoft 365 or Office 365 licenses if necessary. The user should have both Teams and Skype for Business Online Plan 2 and Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.
+4. Assign licenses if necessary. The user should have both Teams and Skype for Business Online Plan 2 and Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.
 
 5. Get phone numbers for your users. (For details see [Manage phone numbers for your organization](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).)
 
