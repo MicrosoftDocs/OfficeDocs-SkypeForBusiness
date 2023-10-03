@@ -1,7 +1,7 @@
 ---
 title: Manage the Lists app for your organization
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: 
 ms.date: 06/14/2023
