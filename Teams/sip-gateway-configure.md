@@ -288,7 +288,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
      |FirstFloorLobbyPhone1@contoso.com|1A-2B-3C-D4-E5-F6|
      |SecondFloorLobbyPhone2@contoso.com|2A-3B-4C-5D-6E-7F|
 
-2. Set up PowerShell environment as mentioned [here](/microsoft-365/frontline/deploy-teams-at-scale) and get Microsoft Teams PowerShell module 5.6.0.
+2. Set up the PowerShell environment, as described in [Deploy frontline static teams at scale with PowerShell for frontline workers](/microsoft-365/frontline/deploy-teams-at-scale), and get Microsoft Teams PowerShell module 5.6.0.
 
 3. Run the following:
 
