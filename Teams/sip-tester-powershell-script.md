@@ -1,10 +1,11 @@
 ---
 title: PowerShell script to test Direct Routing Session Border Controller connections
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
+ms.date: 10/03/2019
 ms.service: msteams
 audience: admin
 description: Use this PowerShell script sample to test Direct Routing Session Border Controller connections in Microsoft Teams.
@@ -12,6 +13,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- m365initiative-voice
+- Tier1
 f1.keywords:
 - NOCSH
 appliesto: 

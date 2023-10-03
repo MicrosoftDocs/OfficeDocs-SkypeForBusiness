@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Get User Setting"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -58,4 +59,5 @@ Get User Setting returns a single user setting.
   
  *value*  - Value of the setting.
   
+
 

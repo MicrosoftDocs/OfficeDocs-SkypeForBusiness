@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Setup or Remove Skype for Business Server Components (Intro)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployBootstrapIntro
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -23,4 +24,5 @@ You are preparing to install and activate or deactivate and uninstall Skype for 
   
 Click **Next** to continue to the **Executing Commands** screen.
   
+
 

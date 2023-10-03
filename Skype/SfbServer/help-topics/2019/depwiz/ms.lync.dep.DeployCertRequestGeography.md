@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Geography)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployCertRequestGeography
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -21,4 +22,5 @@ description: "The Geographical Information page requests additional information 
  
 The **Geographical Information** page requests additional information for the certificate request. On this page, you select **Country**, and then you type **State/Province** and **City/Locality** in a text box. Note that you should not use abbreviations and should spell out the complete name of the state/province and city/locality.
   
+
 

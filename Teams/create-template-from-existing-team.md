@@ -1,9 +1,10 @@
 ---
 title: Create a template from an existing team in Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+author: lana-chin
+ms.author: v-chinlana
 manager: serdars
+ms.reviewer: aaglick
+ms.date: 07/27/2020
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -12,6 +13,7 @@ description: Learn how to use an existing team to create a new template in Micro
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
+ms.custom: chat-teams-channels-revamp
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -26,7 +28,7 @@ appliesto:
 
 Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.
 
-1. Sign in to the Teams admin center.
+1. Sign in to the Teams admin center.
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 

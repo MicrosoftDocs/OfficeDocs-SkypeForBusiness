@@ -1,8 +1,8 @@
 ---
 title: "Test Voice Routing Create New or Edit Existing Test Cases"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceTestCaseEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: "UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)"

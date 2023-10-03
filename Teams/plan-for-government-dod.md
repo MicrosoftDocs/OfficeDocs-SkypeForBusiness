@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+ms.date: 11/01/2018
 audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.
 ms.localizationpriority: medium

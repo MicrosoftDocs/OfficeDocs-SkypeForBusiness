@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "Blocked user licenses for Skype Meeting Broadcast"
 ms.author: tonysmit
 author: tonysmit
@@ -66,3 +67,4 @@ Hosting Skype Meeting Broadcast events will be blocked if any of the following u
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
+

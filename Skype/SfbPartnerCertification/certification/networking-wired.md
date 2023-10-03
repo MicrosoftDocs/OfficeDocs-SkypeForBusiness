@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Skype for Business - wired networking"
 ms.author: serdars
 author: msdmaguire
@@ -23,7 +24,7 @@ description: "Planning the optimal Skype for Business experience in a wired worl
  
 # Wired networking in for Skype for Business
 
-Listed in the table that follows are the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s website for the latest information about product specifications, capacity, country support, and documentation such as release notes and known issues. Contact the listed partner for more information on these products.
+Listed in the table that follows are the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s website for the latest information about product specifications, capacity, country/region support, and documentation such as release notes and known issues. Contact the listed partner for more information on these products.
 
 If you're looking to optimize your network using Microsoft Lync, see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
@@ -41,3 +42,4 @@ If you're looking to optimize your network using Microsoft Lync, see the white p
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
  
+

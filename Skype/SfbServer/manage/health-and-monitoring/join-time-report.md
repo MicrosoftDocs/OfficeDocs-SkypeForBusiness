@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Conference Join Time Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -58,4 +59,5 @@ The following table lists the information provided in the Conference Join Time R
 |**Sessions \> 10 seconds, Volume** <br/> |No  <br/> |Number of participants who required more than 10 seconds to join the conference.  <br/> |
 |**Sessions \> 10 seconds, Percentage** <br/> |No  <br/> |Percentage of the total call participants who required more than 10 seconds to join the conference.  <br/> |
    
+
 

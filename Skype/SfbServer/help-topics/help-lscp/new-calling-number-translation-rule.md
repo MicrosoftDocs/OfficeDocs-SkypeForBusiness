@@ -1,8 +1,8 @@
 ---
 title: "New Calling Number Translation Rule"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: "You can use the New Trunk Configuration: New Calling Number Translation Rule to create a new translation rule. For details about translation rules, see the following topics:"

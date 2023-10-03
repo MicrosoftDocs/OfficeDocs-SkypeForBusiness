@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Monitoring Server General Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,4 +26,5 @@ In Topology Builder, you can edit the properties for an individual Monitoring Se
     
 - **SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.
     
+
 

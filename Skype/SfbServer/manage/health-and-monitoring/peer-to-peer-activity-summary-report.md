@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Peer-to-Peer Activity Summary Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -85,4 +86,5 @@ The following table lists the information provided in the Peer-to-Peer Activity 
 |**Total peer-to-peer file transfer sessions** <br/> |No  <br/> |Total number of peer-to-peer sessions that included file transfers.  <br/> |
 |**Total peer-to-peer application sharing sessions** <br/> |No  <br/> |Total number of peer-to-peer sessions that included application sharing.  <br/> |
    
+
 

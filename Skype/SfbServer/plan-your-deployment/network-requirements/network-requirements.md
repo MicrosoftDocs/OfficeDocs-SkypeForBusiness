@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan network requirements for Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -283,3 +284,4 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
 [Load balancing requirements for Skype for Business](load-balancing.md)
 
 [DNS requirements for Skype for Business Server](dns.md)
+

@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Call Detail Recording Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.MonArchCdrEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ What do you want to do? Click the link to the task that you want to perform.
 - [Specify retention of CDR data in Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
+
 

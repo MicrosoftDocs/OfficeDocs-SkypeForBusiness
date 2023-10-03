@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Security and configuration prerequisites for Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -60,4 +61,5 @@ After verifying software and environmental prerequisites for Enterprise Voice yo
     
 - Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configure trunks in Skype for Business Server](configure-trunks.md).
     
+
 

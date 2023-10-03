@@ -1,8 +1,8 @@
 ---
 title: "Response Groups Queue Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsQueueEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: "Response Group queues hold calls to a response group until an agent answers the call."
@@ -41,11 +41,11 @@ The following list describes the fields on the page.
 
   - **Disconnect**
 
-  - **Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).
+  - **Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:\<username>@\<domainname> (for example, sip:bob@contoso.com).
 
-  - **Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).
+  - **Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:\<number>@\<domainname> (for example, sip:+14255550121@contoso.com).
 
-  - **Forward to SIP address** Select this option to forward the call to another user. In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.
+  - **Forward to SIP address** Select this option to forward the call to another user. In **SIP address**, type the URI for the user in the format sip:\<username>@\<domainname>.
 
   - **Forward to another queue** If you select this option, browse to the queue that is to receive calls when the calls time out.
 
@@ -59,11 +59,11 @@ The following list describes the fields on the page.
 
   - **Disconnect**
 
-  - **Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:<username>@<domainname> (for example, sip:bob@contoso.com).
+  - **Forward to voice mail** If you select this option, in **SIP address**, type a voice mail address in the format sip:\<username>@\<domainname> (for example, sip:bob@contoso.com).
 
-  - **Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:<number>@<domainname> (for example, sip:+14255550121@contoso.com).
+  - **Forward to telephone number** If you select this option, in **SIP address** type the telephone number in the format sip:\<number>@\<domainname> (for example, sip:+14255550121@contoso.com).
 
-  - **Forward to SIP address** Select this option to forward the call to another user. In **SIP address**, type the URI for the user in the format sip:<username>@<domainname>.
+  - **Forward to SIP address** Select this option to forward the call to another user. In **SIP address**, type the URI for the user in the format sip:\<username>@\<domainname>.
 
   - **Forward to another queue** If you select this option, browse to the queue that is to receive calls when the queue overflow threshold is met.
 

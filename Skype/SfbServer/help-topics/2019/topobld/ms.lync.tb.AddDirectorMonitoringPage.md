@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Add Director Monitoring"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
@@ -43,4 +44,5 @@ Click **Cancel** to discard all changes and end the wizard.
   
 Click **Help** to access context-sensitive help, such as this page.
   
+
 

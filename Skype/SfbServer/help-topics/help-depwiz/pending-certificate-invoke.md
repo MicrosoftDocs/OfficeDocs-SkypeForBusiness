@@ -1,8 +1,8 @@
 ---
 title: "Pending Certificate (Invoke)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.dep.DeployCertPendingInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: "The Executing Commands page displays the status of the commands that are retrieving the pending certificate. When the task is completed, the Retrieve Pending Certificates log file is available. Click View Log to review the processing and task completion status. Click Next to continue."

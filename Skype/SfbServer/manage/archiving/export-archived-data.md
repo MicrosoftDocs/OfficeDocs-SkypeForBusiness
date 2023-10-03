@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Export archived data in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -39,3 +40,4 @@ Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -St
 ```
 
 For more information, see the help topic for the [Export-CsArchivingData](/powershell/module/skype/export-csarchivingdata?view=skype-ps) cmdlet.
+

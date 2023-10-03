@@ -1,15 +1,18 @@
 ---
 title: More information about porting
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: tonysmit,jastark
+ms.date: 10/23/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -27,7 +30,7 @@ Here you'll find more information about porting your phone numbers to Microsoft 
 
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-If you need help or if you need to get more phone numbers, contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need help or if you need to get more phone numbers, contact the [TNS Service Desk help](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## Port order account information
 
@@ -111,4 +114,4 @@ See [What's the status of your port orders?](port-order-status.md)
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-- [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

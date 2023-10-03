@@ -1,8 +1,9 @@
 ---
 title: Set up Microsoft Teams meeting add-on for Google Workspace
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: aravin
+ms.date: 01/11/2021
 manager: serdars
 ms.topic: article
 audience: admin
@@ -12,10 +13,13 @@ searchScope:
 search.appverid: MET150
 description: Learn how to Set up Microsoft Teams meeting add-on for Google Workspace.
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---
@@ -63,7 +67,7 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
@@ -73,3 +77,25 @@ For more information, see [Create an Azure service principal with Azure PowerShe
 ## Delete the Microsoft Teams meeting add-on for Google Workspace
 
 See the Google documentation [Delete a Google Workspace Marketplace app](https://support.google.com/a/answer/6216211?hl=en) for instructions.
+
+## Create the Microsoft Teams meeting add-on for Google Workspace using PowerShell
+
+In case the Microsoft Teams meeting add-on is not present in your tenant, you can create it using PowerShell: 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```

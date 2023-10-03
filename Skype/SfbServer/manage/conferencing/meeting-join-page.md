@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure the meeting join page in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -31,4 +32,5 @@ You can modify the behavior of the meeting join page if you want to allow users 
 |ShowJoinUsingLegacyClientLink  <br/> |This parameter has been deprecated for use with the on-premises version of Skype for Business Server.  <br/> If set to True, users joining a meeting by using a client application other than Skype for Business will be given the opportunity to join the meeting by using their current client application. The default value is False.  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |This parameter has been deprecated for use with the on-premises version of Skype for Business Server.  <br/>  If set to True, alternate options for joining an online conference are automatically expanded and shown to users. If set to False (the default value), these options will be available, but the user will have to display the list of options for themselves.  <br/> |
    
+
 

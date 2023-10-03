@@ -1,5 +1,5 @@
 ---
-title:  Direct Routing SBA
+title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,15 +10,16 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords:
-- NOCSH
-- ms.teamsadmincenter.directrouting.overview
+f1.keywords: 
+  - NOCSH
+  - ms.teamsadmincenter.directrouting.overview
 description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
 ms.custom: 
- - seo-marvel-apr2020
- - seo-marvel-jun2020
+  - seo-marvel-apr2020
+  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
 ---
@@ -41,6 +42,11 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 - The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
 - TLS1.2 should be enabled on the SBA VM OS.
+- Ports 3443, 4444 and 8443 are used by Microsoft SBA Server to communicate with the Teams client and should be allowed on the firewall. 
+- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with the SBC and should be allowed on the firewall. 
+- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the firewall.
+- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the firewall.
+- Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## Supported Teams clients
 
@@ -48,7 +54,9 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 
-- Microsoft Teams macOS desktop 
+- Microsoft Teams macOS desktop
+- Teams for Mobile 
+- Teams Phones
 
 ## How it works
 
@@ -71,7 +79,7 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 3. Assign the policy to users.
 4. Register an application for the SBA with Azure Active Directory.
 
-All configuration is done by using Skype for Business Online PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
+All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
 (For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.)
 
@@ -184,7 +192,7 @@ Then follow these steps:
 
 For step-by-step guidance on how to configure your Session Border Controller with the embedded Survivable Branch Appliance, see the documentation provided by your SBC vendor: 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
@@ -197,6 +205,8 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
 
 ## Known issues
+
+- As SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, presently SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
 
 - When you add new Survivable Branch Appliances, it might take some time before you can use them in Survivable Branch Appliance policies.
 

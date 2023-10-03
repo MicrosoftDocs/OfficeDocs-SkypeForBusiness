@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 7 Complete post-migration tasks"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -45,4 +46,5 @@ The topics in this section describe tasks that you will need to perform after yo
     
 - [Migrate analog devices](migrate-analog-devices.md)
     
+
 

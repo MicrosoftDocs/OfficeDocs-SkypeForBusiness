@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure archiving options for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -153,4 +154,5 @@ You can specify archiving options for a specific pool. A pool configuration over
     
 8. Click **Commit**.
     
+
 

@@ -1,8 +1,8 @@
 ---
 title: "Topology View Computer Detail"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.TopoStatusCompEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 description: "What do you want to do? Click the link to the task that you want to perform."

@@ -1,8 +1,8 @@
 ---
 title: "Add Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddMachinePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: "To add a new server to an existing pool of servers, where the pool is one of the following:"

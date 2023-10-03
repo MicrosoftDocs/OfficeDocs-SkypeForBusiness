@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Call Via Work in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -99,4 +100,5 @@ To enable any users for Call Via Work, you must have some pre-requisites in plac
 [Plan for remote call control in Skype for Business](remote-call-control.md)
   
 [Deploy Call Via Work in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
+
 

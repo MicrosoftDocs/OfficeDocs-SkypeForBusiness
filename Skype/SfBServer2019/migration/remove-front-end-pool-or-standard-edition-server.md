@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Remove Front End pool or Standard Edition server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -42,4 +43,5 @@ This article guides you through the process of removing a Front End pool or a St
   
 5. Publish the topology, check replication status, and then run the Deployment Wizard as needed. 
     
+
 

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Branch Office Appliances Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the Survivable Branch Appliance option, you can perform the follo
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

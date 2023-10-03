@@ -1,12 +1,13 @@
 ---
+ms.date: 07/03/2018
 title: What's new in Skype for Business Server 2019 | Features
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -50,3 +51,4 @@ See [Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) 
 ### See also
 
 [What's deprecated from Skype for Business Server 2019](deprecated.md)
+

@@ -1,15 +1,17 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-ms.author: serdars
-author: SerdarSoysal
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.reviewer: mikedav, vkorlep
+ms.reviewer: mikedav
+ms.date: 09/24/2021
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -26,9 +28,6 @@ description: Use real-time telemetry with details about devices, networks, and c
 
 # Use real-time telemetry to troubleshoot poor meeting quality
 
-> [!NOTE]
-> This feature is currently in public preview until the end of 2021. After this time, the Advanced Communications add-on for Microsoft Teams will be required for each user whose telemetry you wish to view in real time. For more information, see [Advanced Communications add-on for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
-
 This article explains how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users. You can access Real-Time Analytics if you have one of the following roles:
 
 - Teams Administrator
@@ -39,59 +38,139 @@ For more information on Teams admin roles, see [Use Microsoft Teams administrato
 
 Real-Time Analytics lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate these issues during meetings and troubleshoot in real time.
 
+You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts/alerts-in-progress-meeting-audio.md).
+
 ## What is Real-Time Analytics?
 
 Today, individual meeting troubleshooting is available for Teams administrators through [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) after the meeting ends. Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress.
 
-Real-Time Analytics shows detailed information about Teams meetings for each user in your Office 365 account, updated in real time. It includes information about devices, network, connectivity, audio, video, and content sharing issues, which will help admins troubleshoot call quality more effectively.
+Real-Time Analytics shows detailed information about Teams meetings for each user in your Microsoft 365 account, updated in real time. It includes information about devices, network, connectivity, audio, video, and content sharing issues, which will help admins troubleshoot call quality more effectively.
 
 As a Teams admin, you get full access to all real-time telemetry data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, see [Give permission to support and help desk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
 
 ## Where to find per-user real-time troubleshooting telemetry
 
-To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting is not in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
 
-![Screenshot of recent meetings table.](media/recent-meetings.png)
+:::image type="content" alt-text="Screenshot of recent meetings table." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
+
+> [!NOTE]
+> For a meeting to show up under "Recent Meetings", a Teams admin must have clicked on the meeting in Real-Time Analytics while the meeting was in progress to begin the flow of real-time client telemetry.
+
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
-![Screenshot of participant details table.](media/participant-details.png)
+:::image type="content" alt-text="Screenshot of participant details table." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 To look at the telemetry of a given user for an in-progress meeting, including information around device, network, audio, video, and content sharing details, select the **Meeting ID**.
 
-![Screenshot of call analytics user session data.](media/real-time-telemetry.png)
+:::image type="content" alt-text="Screenshot of call analytics user session data." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
-## Measures available in Real-Time Analytics
+## Details and measures available in Real-Time Analytics
 
+### Device information
+| Name | Description | Possible reasons for blank values|
+|:---|:---|:---|
+| Audio capture device | Name of the audio capture device (eg: microphone) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio render device | Name of the audio render device (eg: speakers or headphones) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Video capture device | Name of the video capture device in use | User isn't sending video from the endpoint being monitored |
+
+### Connectivity information
+| Metric | Units / Possible values | Description | Possible reasons for blank values|
+|:---|:---|:---|:---|
+| Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
+| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Received signal strength indicator (RSSI) of the user's current Wi-Fi connection measured in decibel-milliwatts | User isn't connected to Wi-Fi |
+| Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
+| Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
+| Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
+| Location | String | Country/Region in which the user is located | User's location information is blocked or unavailable |
+| Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
+| Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
+| Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |
+
+### User signals
+User signals identify when a user is actively participating in the call, isn't speaking but unmuted, or is muted. Currently, user signals are only available for audio.
+
+| Modality | Possible values | Description |
+|:---|:---|:---|
+| Audio | &bull; Unmuted, participant speaking <br/> &bull; Unmuted, not speaking <br/> &bull; Muted | Indicates the behavior of the user for the audio portion of the call  |
+
+
+### Audio
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
-|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When this is too high, audio can become choppy. | 
+|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. Real-Time Analytics displays network inter-arrival jitter, not audio jitter. | 
 |Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
-|Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. |
-|Bitrate (Audio) |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
-|Bitrate (Video & App sharing) |Megabits per second (Mbps) | Information only |Throughput of the video stream expressed in megabits per second. |
+|Round Trip Time (RTT) |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
+|Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
+| Codec | String <br/> &bull; Example: SATIN | Information only | Displays the audio codec being sent and received. A different codec can be received than the one being sent. |
+| Local Healed Ratio | Ratio | Less than 0.07 | Indicates when the audio healer is being invoked on the local endpoint for the inbound audio stream. High healer usage is experienced by end-users as "choppy audio".|
+
+
+### Video
+|Measure Name |Units |Good Threshold |Description |
+|:---|:---|:---|:---|
+|Round Trip Time (RTT) |Milliseconds | Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. |
+|Bitrate |Megabits per second (Mbps) | Information only |Throughput of the video stream expressed in megabits per second. |
 |Frame Rate (Video) |Frames per second |360p or better: 25-30 FPS <br/> 270p or lower: 7-15 FPS |For outbound video streams, frame rate (FPS) is the number of frames per second of video the client is sending. Lower than expected values here may suggest system resource constraints, insufficient network bandwidth, or misbehaving video capture devices. Different resolutions have different acceptable FPS ranges. |
-|Frame Rate (App sharing) |Frames per second (FPS) |Information only |For app sharing, frame rate is content-aware to ensure as many frames as necessary are sent to ensure a good experience while avoiding sending frames if they're not needed. For example, sharing a text document on-screen only requires 1 frame-per-second to produce a good experience, whereas sharing a video or content with more activity will increase frames per second to a maximum of 30 FPS to produce a smoother experience. |
+|Codec |String | Information only |Displays the video codec and rendering mode of the outbound video stream. (Example: H264 SW HW indicates an H264 video stream using both software and hardware rendering.)|
+|Resolution |Pixels | Information only |The resolution of the video being sent. Outbound video resolution is dynamic, based on the highest requirement from an endpoint in the meeting. A client capable of 1920 x 1080 video will only send 640 x 360 video if no clients are displaying that user's video in a frame larger than 640 x 360 |
+| Source Freeze Count | Count | Less than 2 | The number of times the camera didn’t generate a new frame for more than one second at a stretch. For video, this metric is typically indicative of an issue with the device generating content at the asked format. |
+| Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This value is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
+| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding component. Typically, Teams handles video encoder errors by falling back to software encoding, but software encoding can result in degraded performance if the endpoint doesn’t have sufficient processing power. |
+
+
+
+### Application Sharing (VBSS)
+|Measure Name |Units |Good Threshold |Description |
+|:---|:---|:---|:---|
+|Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
+|Round Trip Time (RTT) |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. |
+|Bitrate |Megabits per second (Mbps) | Information only |Throughput of the VBSS stream expressed in megabits per second. |
+|Frame Rate |Frames per second (FPS) | Information only |For VBSS, frame rate is content-aware to ensure as many frames as necessary are sent to ensure a good experience while avoiding sending frames if they're not needed. For example, sharing a text document on-screen only requires one frame-per-second to produce a good experience, whereas sharing a video or content with more activity will increase frames per second to a maximum of 30 FPS to produce a smoother experience. |
+|Codec |String | Information only |Displays the codec and rendering mode of the VBSS stream. (Example: H264 SW HW indicates an H264 VBSS stream using both software and hardware rendering.)|
+|Resolution |Pixels | Information only |The resolution of the VBSS stream being sent and received. |
+| Normalized Freeze Duration | Milliseconds per minute| Less than 25 | This metric is the rate of video freezing that is observed on the receiver side and is represented in milliseconds of freeze per minute of active video. Loss-free networks should have a value of 0. Video freeze is typically caused by network loss. Larger percentages of loss or short, high bursts of loss may lead to higher normalized freeze. |
+| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but -- although rare -- can also be caused by devices not producing consistent output framerates.|
+| Audio / Video Sync | Milliseconds | Between -900 ms to 900 ms | This metric indicates the audio / video sync in milliseconds. The sync value is calculated as (audioDelay – videoDelay). A positive value indicates audio is behind while a negative value indicates video is behind. Audio video sync issues may be caused by various factors, most common of which include bad capture devices and network issues delaying one modality more than the other. |
+| Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This metric is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
+| Source Freeze Count | Count | Less than 75 | The number of times the outbound screen share didn’t generate a new frame for more than one second at a stretch. For screen sharing, this value can potentially relate to permissions of screen capture, and can also result from performance issues causing glitches while capturing screen content. |
+| Video Encoder / Decoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding (or decoding) component. Typically, such errors are handled by the application by falling back to software encoding / decoding but it can result in degraded performance if the endpoint doesn’t have a CPU with sufficient processing power. |
+
+### CPU and Battery Details
+|Measure Name |Units |Good Threshold |Description |
+|:---|:---|:---|:---|
+|System CPU Usage | Percentage | Less than 80% | The percentage of system CPU resources being consumed during the call. If System CPU usage is high relative to the Teams app CPU usage, it can indicate resource contention on the host. |
+|Teams app CPU Usage | Percentage |Less than 80% | The percentage of system CPU resources being consumed specifically by the Teams app during the call. |
+| Battery level | Charging or Percentage | Greater than 10% | Where an endpoint includes a battery as a power source, this metric indicates the percentage of the battery remaining or if the device is plugged in and charging. |
 
 
 ## Client platforms supported for real-time telemetry
 
 - Windows
 - macOS
-- Linux
 - Android
 - iOS
 
+> [!NOTE]
+> Teams Web client (including VDI) does not support delivery of telemetry in real time.
+
 ## Teams devices with support for real-time telemetry
 
-- MTR - Surface Hub
-- MTR - Teams Display
-- MTR - Collaboration bar
-- IP Phone devices
+- Teams displays
+- Teams phone
+- Teams Rooms
+- Teams Rooms on Surface Hub
+
+> [!NOTE]
+> Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
+
 
 ## Limitations
 
-- Real-time telemetry is only available for scheduled meetings. For ad hoc meetings like Meet Now, PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
+- Real-time telemetry subscription isn't automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
+- Real-time telemetry will only be available for a meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
+- Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
 - Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.

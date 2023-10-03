@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Getting phones for Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
@@ -31,7 +32,7 @@ description: "Learn which phones work with Skype for Business from Polycom, HP, 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> Skype For Business will slowly be replaced by Microsoft Teams as the primary communication method in Microsoft 365 and Office 365.  See [A new vision for intelligent communications in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) for more information.
+> Skype for Business will slowly be replaced by Microsoft Teams as the primary communication method in Microsoft 365 and Office 365.  See [A new vision for intelligent communications in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) for more information.
 >
 >To get the latest updates and most up-to-date information on supported devices, see the [Microsoft Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
@@ -124,3 +125,4 @@ For step-by-step setup instructions, see [Deploying Skype for Business Online ph
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
+

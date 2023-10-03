@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "AV MCUs Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AvMcusScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the A/V Conferencing pool options, you can perform the following 
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

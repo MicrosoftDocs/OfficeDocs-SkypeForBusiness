@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Lync Online Dedicated-qualified solutoins"
 ms.author: serdars
 author: msdmaguire
@@ -21,13 +22,13 @@ ms.custom:
 description: "Read about solutions qualified with Lync Online Dedicated."
 ---
 
-# Lync Online Dedicated-qualified solutions
+# Solutions qualified with Lync Online Dedicated
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 
 Lync Online Dedicated offers interoperability with customer's on-premises session border controllers and provides connectivity with IP telephony service providers for SIP trunking.
 
-It is recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
+It is recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes and any known issues.
 
 ## USB audio and video devices
 

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Edge Servers Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the Edge pool options, you can perform the following general task
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Hybrid wizard Sign in to Microsoft 365 or Office 365"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.HybridSignIntoO365
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium

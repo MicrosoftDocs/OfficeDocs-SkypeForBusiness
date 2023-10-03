@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Device Log Configuration Edit"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -51,3 +52,4 @@ The following lists describe the menus, commands, fields, and properties on the 
 ## See also
 
 [Device Log Configuration](ms.lync.lscp.ClientDeviceCfgMain.md)
+

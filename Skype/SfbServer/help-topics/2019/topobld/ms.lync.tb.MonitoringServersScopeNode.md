@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Monitoring Servers Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
@@ -31,4 +32,5 @@ In addition to the Monitoring Server options, you can perform the following gene
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

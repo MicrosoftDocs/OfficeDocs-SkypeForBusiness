@@ -1,12 +1,13 @@
 ---
+ms.date: 10/02/2018
 title: "Configuring trunks in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -28,3 +29,4 @@ For details, see [Plan for PSTN connectivity in Skype for Business Server](../..
 
 > [!NOTE]
 > As a part of trunk configuration, you can enable the Skype for Business Server media bypass feature, which enables media to bypass the Mediation Server. Trunks can be configured either with or without media bypass enabled, but we strongly recommend that you enable it. For details, see [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+

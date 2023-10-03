@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: In this article, you will learn about how to plan for implementing governance capabilities in Teams.
 ms.localizationpriority: medium
@@ -56,7 +57,7 @@ After you’ve determined your requirements, you can implement them by using Azu
 
 - [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [End of lifecycle options for groups, teams, and Viva Engage](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-viva-engage)
 
 ## Group and team expiration, retention, and archiving
 
@@ -137,7 +138,8 @@ For detailed lists of all settings, including technical guidance on how to imple
 - [Manage Microsoft Teams settings for your organization](enable-features-office-365.md)
 - [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
 - [Private channels in Microsoft Teams](private-channels.md)
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Shared channels in Microsoft Teams](shared-channels.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Manage messaging policies in Teams](messaging-policies-in-teams.md)
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 

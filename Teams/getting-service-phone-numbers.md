@@ -1,9 +1,10 @@
 ---
 title: "Get service phone numbers for Calling Plans"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, makolomi
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -35,40 +38,44 @@ There are three ways to get service numbers:
   
 - **Use the Microsoft Teams admin center.** For some countries and regions, you can get service numbers using the Microsoft Teams admin center. See [Get new service numbers](#get-new-service-numbers).
 
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. See [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier. For more information, see [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
+- **Use a request form for new numbers.** Sometimes you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you're transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
+> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you're transferring the number over to us, you can [contact the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
   
 ## Get new service numbers
 
 To get new service numbers, in the Teams admin center:
 
-1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
+1. In the left navigation, go to **Voice** > **Phone numbers**, and then select **Add**.
 
 2. Enter a name for the order and add a description.
 
-3. On the Location and quantity page, do the following:
+3. On the **Location and quantity** page, complete the following steps:
     - Under **Country or region**, select a country or region.
-    - Under **Number type**, select the type of service number that you want.
-    - Under **Location**, select a location. If you need to create a new location, click **Add a location**.
+    - Under **Number type**, select the type of service number you want.
+    - Under **Location**, select a location. If you need to create a new location, select **Add a location**.
     - Under **Area code**, select an area code. 
-    - Under **Quantity**, enter the number of numbers that you want for your organization, and then click **Next** to select your numbers.
+    - Under **Quantity**, enter the number of numbers you want for your organization, and then select **Next** to select your numbers.
 
 4. Select the numbers you want. You have 10 minutes to select your phone numbers and place your order. If you take more than 10 minutes, the phone numbers will be returned to the pool of numbers.
 
-5. When you're ready to place your order, click **Place order**.
+5. When you're ready to place your order, select **Place order**.
 
 ## Port or transfer existing service numbers
 
 To transfer your phone numbers from your current service provider or carrier to Teams, you can use the porting wizard in the Microsoft Teams admin center. Follow the steps in [Transfer phone numbers to Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
-If your country or region isn't listed in the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
+If you experience issues with the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>To port/transfer 999 or fewer phone numbers for your users, upload the completed and signed LOAs in the Microsoft Teams admin center for further processing. You can also purchase extra phone numbers in the Microsoft Teams admin center.
+>
+> To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 ## View the phone numbers for your organization
 
@@ -78,7 +85,7 @@ In the Teams admin center, in the left navigation, go to **Voice** > **Phone num
 
 After you get your service numbers, assign each number to an Audio Conferencing bridge. See [Change the toll or toll free numbers on your Audio Conferencing bridge](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-## Related topics
+## Related articles
 
 [Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
 

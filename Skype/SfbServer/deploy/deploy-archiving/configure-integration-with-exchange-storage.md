@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure integration with Exchange storage for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -46,4 +47,5 @@ If you use Microsoft Exchange integration and Microsoft Exchange Server is not d
     
 This is a multi-value attribute. When synchronizing this attribute, you need to merge the values, not replace them to ensure the existing values are not lost.
   
+
 

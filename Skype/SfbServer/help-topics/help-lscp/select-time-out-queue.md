@@ -1,8 +1,8 @@
 ---
 title: "Select Time-out Queue"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.RgsSelTimeoutQueue
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: "Use the Select a time-out queue dialog box to select a queue where calls are forwarded when they time out."

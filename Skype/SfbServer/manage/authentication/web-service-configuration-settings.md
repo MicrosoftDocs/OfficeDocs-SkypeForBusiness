@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage Web Service configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -124,3 +125,4 @@ The following command removes all the Web Service security settings that allow t
   ```
 
 For details, see [Remove-CsWebServiceConfiguration](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).
+

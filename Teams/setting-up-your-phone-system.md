@@ -1,153 +1,149 @@
 ---
-title: "Setting up Phone System in your organization"
+title: "Set up Teams Phone in your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: roykuntz
+ms.date: 03/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-voice
   - m365initiative-voice
   - m365solution-voice
   - m365solution-scenario
+  - highpri
+  - Tier1
 audience: Admin
-appliesto: 
-  - Skype for Business
+appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
   - Phone System
-  - seo-marvel-apr2020
-description: Step-by-step guide detailing how to set up Phone System (Cloud PBX) for your organization in Microsoft 365 or Office 365.
+  - intro-get-started
+description: Learn how to set up Microsoft Teams Phone for your organization in Microsoft 365.
 ---
 
-# Set up Phone System in your organization
+# Set up Teams Phone in your organization
 
-The following is a step-by-step guide for setting up Phone System in Microsoft 365 or Office 365. Links to additional, detailed information are available at the end of each step.
+This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
 
-## Step 1: Make sure that Phone System is available in your country or region
+To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
-1.    First go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
-2.    Under **Phone System**, review the list of features and details. 
-3.    If Phone System is available, go to step 2. 
+To enable your users to make and receive external calls, you'll need to connect Teams Phone to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
-## Step 2: Buy and assign Phone System and Calling Plan licenses
+If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization.
 
-To assign a Phone System and Calling Plan license to a single user, the steps are the same as assigning a Microsoft 365 or Office 365 license.  You can also assign licenses to multiple users in bulk. For more information, see [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+This article introduces the following steps. Each step contains links to more detailed information.
+ 
+- [Step 1: Buy and assign a Teams Phone license](#step-1-buy-and-assign-a-teams-phone-license)
+- [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
+- [Step 3: Get and assign phone numbers for your users and services](#step-3-get-and-assign-phone-numbers-for-your-users-and-services)
+- [Step 4: Set up emergency calling](#step-4-set-up-emergency-calling)
+- [Step 5: If you want to set up an auto attendant](#step-5-if-you-want-to-set-up-an-auto-attendant)
+- [Step 6: If you want to set up a call queue](#step-6-if-you-want-to-set-up-a-call-queue)
+- [Step 7: Set up other Teams Phone features](#step-7-set-up-other-teams-phone-features)
+- [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
-If Calling Plans are not available for your country or region, consider using Direct Routing to connect your on-premises telephony infrastructure to Phone System.  For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
+> [!NOTE]
+> Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, the steps and sequence for phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
 
-## Step 3: Get phone numbers for your users
+## Step 1: Buy and assign a Teams Phone license
+
+For each user who uses Teams Phone, you must assign a Teams Phone license to that user.
+
+Don't assign the **Microsoft Teams Phone Resource Account** license to any user other than resource accounts.
+
+You can assign a license to a single user or you can assign licenses to multiple users in bulk. For more information about available Teams Phone licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+
+The Teams Phone with Calling Plan license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
+
+## Step 2: Choose a PSTN connectivity option
+
+Microsoft options for making external calls to the PSTN include:
+
+- [Microsoft Calling Plan](calling-plans-for-office-365.md). An all-in-the-cloud solution with Microsoft as your PSTN carrier. If you choose Microsoft Calling Plan as your connectivity option, you have a choice of Calling Plan options, including Domestic, International, and Pay-as-you-go plans.
+
+- [Operator Connect](operator-connect-plan.md). If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling for you.
+
+- [Teams Phone Mobile](operator-connect-mobile-plan.md). If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams.
+
+- [Direct Routing](direct-routing-plan.md). This option lets you use your own PSTN carrier by connecting your SBCs to Teams Phone.
+
+For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing#voice-and-pstn-connectivity).
+
+
+## Step 3: Get and assign phone numbers for your users and services
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
-You have three ways of getting numbers for your users:
+In addition to getting phone numbers for your users, you can acquire toll or toll-free phone numbers for services such as auto attendants and call queues. A service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
 
-- Get new numbers using the Teams admin center.
-- Get new numbers that aren't available in the Teams admin center.
-- Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365.
+How you acquire and manage phone numbers differs depending on your PSTN connectivity option.
 
-You must use the **Add numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
+For information on how to manage phone numbers for your users and services, see the following articles. 
 
-### Get new user phone numbers using the Teams admin center
+- [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types (user and service) with links to specific articles for acquiring and managing numbers.
 
-1. Sign in to Microsoft 365 with your work or school account.
+- [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
 
-2. Go to the **Teams admin center**.
-    
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add**, and then follow the prompts.
-    
-### Get new numbers that aren't available in the Teams admin center
-  
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you'll need to download a form and send it back to us. To learn how to request new user numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).   
-  
-### Port or transfer phone numbers from your service provider or phone carrier
-  
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Teams admin center. Follow the steps found in [Transfer phone numbers to  Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) to transfer your phone numbers.
-    
-- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order. 
+- [Manage resource accounts for service numbers](manage-resource-accounts.md) - Describes how to create resource accounts for auto attendants and call queues, and assign service numbers to those resource accounts.
 
-For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get, depending on the types of telephone numbers and types of licenses you've bought and assigned.
 
-## Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
+## Step 4: Set up emergency calling
 
-In addition to getting phone numbers for your users from Microsoft 365 or Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues. Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+To set up emergency calling, you--or your PSTN carrier--must define emergency locations and ensure that emergency locations are assigned to each user.  
 
-### Get new service numbers using the Teams admin center
+An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. 
 
+How you set up emergency locations and assign these locations to users differs depending on the PSTN connectivity option you choose. For some options, your carrier assumes much of the responsibility for setting up emergency calling.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-1. Sign in with your work or school account.
+Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more information, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
-2. Go to the **Teams admin center**.
+For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
-3. In the left navigation pane go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
+## Step 5: If you want to set up an auto attendant
 
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation pane in the Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+Auto attendants let people who call in to your organization navigate a menu system to get them to the right department, call queue, person, or operator.
 
-### Get new numbers that aren't available in the Teams admin center
-  
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Teams admin center. In this case, you will need to download a form and send it back to us. To learn how to request new numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+For information about setting up auto attendants, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Set up an auto attendant](create-a-phone-system-auto-attendant.md).
 
-### Port or transfer existing service numbers
+## Step 6: If you want to set up a call queue
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You need to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call. You can create single or multiple call queues for your organization.
 
-## Step 5: If you want to set up Calling Plans
-
-If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. To complete the procedures for setting up Calling Plan, see [Set up Calling Plans](set-up-calling-plans.md).
+For more information about call queues, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Create a call queue](create-a-phone-system-call-queue.md).
 
 
-## Step 6: If you want to set up Audio Conferencing
+## Step 7: Set up other Teams Phone features
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation. People can call in to  Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
-For information about how to set up Audio Conferencing, see [Set up Audio Conferencing for Teams](set-up-audio-conferencing-in-teams.md).
+There are numerous Teams Phone features, which are summarized in [Teams Phone features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to auto attendants and call queues, some of the more common features you might want to configure include:
 
-## Step 7: If you want to set up a Cloud call queue
+- [Cloud voicemail](set-up-phone-system-voicemail.md)
+- [Caller ID](caller-id-policies.md)
+- [Call forwarding and delegation](user-call-settings.md)
 
-Cloud call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Calling policies control which calling and call forwarding features are available to your users. For more information, see [Calling policies](teams-calling-policy.md).
 
-For more information about call queues, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).
+## Step 8: Manage your deployment
 
-## Step 8: If you want to set up a Cloud auto attendant
+A successful Teams Phone deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Teams admin center.
+- [Manage devices](./devices/device-management.md)
+- [Manage and monitor call quality](monitor-call-quality-qos.md)
 
-For information about setting up a Cloud auto attendendant, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
 
+## Related articles
 
-## Step 9: Assign service phone numbers (audio conferencing, call queues, auto attendants)
+- [What is Teams Phone](what-is-phone-system-in-office-365.md)
 
-Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you'll need to assign the number to the conferencing bridge.
+- [Teams Phone features](here-s-what-you-get-with-phone-system.md)
 
-- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Teams admin center** > **Meetings** > **Conference bridges** and follow the prompts.  For more information, see  [Change the toll or toll-free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to  **Teams admin center** > **Voice** > **Auto attendants** and follow the prompts.  For more information, see [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md).
-
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Teams admin center** > **Voice** > **Call queues** and follow the prompts. For more information, see [Create a Cloud call queue](create-a-phone-system-call-queue.md).
-
-For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).
-
-## Step 10: Set up Communications Credits for your organization
-
-If you would like to use toll-free numbers with Microsoft Teams, You'll need to set up Communications Credits. Microsoft recommends that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to any destination. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. 
-
-If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. For more information, including recommended funding amounts, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
-  
-
-## Related topics
-[Here's what you get with Phone System in Microsoft 365 or Office 365](here-s-what-you-get-with-phone-system.md)
-
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-
-[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
-
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-    
-  
- 
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)

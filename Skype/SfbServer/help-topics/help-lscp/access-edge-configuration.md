@@ -1,8 +1,8 @@
 ---
 title: "Access Edge Configuration"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ExtEdgeMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: "What do you want to do? Click the link to the task that you want to perform."

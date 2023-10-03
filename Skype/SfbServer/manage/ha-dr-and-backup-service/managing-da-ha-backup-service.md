@@ -1,12 +1,13 @@
 ---
+ms.date: 11/02/2018
 title: 'Managing disaster recovery, high availability, and Backup Service'
 ms.reviewer: 
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,3 +42,4 @@ The disaster recovery procedures in this section assume the following:
 
 [Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   
+

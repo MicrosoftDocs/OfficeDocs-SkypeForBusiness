@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Peer-to-Peer Activity Diagnostic Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -76,4 +77,5 @@ The following table lists the information provided in the Peer-to-Peer Activity 
 |**Unexpected failure percentage** <br/> |No  <br/> |Percentage of peer-to-peer sessions that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.  <br/> |
 |**Total sessions** <br/> |No  <br/> |Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.  <br/> |
    
+
 

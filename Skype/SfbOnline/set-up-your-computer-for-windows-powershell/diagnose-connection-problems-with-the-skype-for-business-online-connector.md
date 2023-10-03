@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Diagnose connection problems in the Skype for Business Online Connector"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -95,8 +96,6 @@ One of the prerequisites for using PowerShell to manage Skype for Business Onlin
 
 - **Error**: *Get-CsWebTicket : Can not load Live Id module. Make sure correct version of Live Id Sign-in assistant is installed.*
 
-- **Resolution**: The Microsoft Online Services Sign-in Assistant is available in the Microsoft Download Center at [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/download/details.aspx?id=28177)
-
 ## Logon failed for the user
 <a name="BKMKLogonFailed"> </a>
 
@@ -147,3 +146,4 @@ Although each administrator can have as many as three simultaneous connections t
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
+

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy emergency services in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -41,4 +42,5 @@ The following table provides an overview of the E9-1-1 deployment process.
 |Configure the location database  <br/> |1. Populate the database with a mapping of network elements to locations.  <br/> 2. For ELIN gateways, add the ELINs to the \<CompanyName\> column.  <br/> 3. Configure the connection to the E9-1-1 service provider for validating addresses.  <br/> 4. Validate the addresses with the E9-1-1 service provider.  <br/> 5. Publish the updated database.  <br/> 6. For ELIN gateways, upload the ELINs to your PSTN carrier's Automatic Location Identification (ALI) database.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[Configure the location database in Skype for Business Server](configure-the-location-database.md) <br/> |
 |Configure Advanced Features (optional)  <br/> |1. Configure the URL for the SNMP application.  <br/> 2. Configure the URL for the location of the Secondary Location Information service.  <br/> |CSVoiceAdmin  <br/> |[Configure an SNMP application in Skype for Business Server](configure-an-snmp-application.md) <br/> [Configure a secondary Location Information service in Skype for Business Server](secondary-location-information-service.md) <br/> |
    
+
 

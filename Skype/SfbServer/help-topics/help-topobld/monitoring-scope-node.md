@@ -1,8 +1,8 @@
 ---
 title: "Monitoring Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: "In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking Action in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:"

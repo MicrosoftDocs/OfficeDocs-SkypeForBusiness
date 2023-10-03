@@ -1,5 +1,6 @@
 ---
-title: Lync Online Dedicated partner qualified solutions
+ms.date: 06/22/2018
+title: Lync Online Dedicated partner qualified solutions and technical requirements
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,7 +23,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 ---
 
 
-# Lync Online Dedicated partner qualified solutions
+# Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
 With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
@@ -167,3 +168,4 @@ Partners meeting these criteria can email lynclogo@microsoft.com for more inform
 The Unified Communication Specification for H.264 AVC and SVC Encoder Implementation is published by Microsoft as a result of Microsoft’s participation in the Unified Communications Interoperability Forum (UCIF) H.264/MPEG4 AVC/SVC Task Group. It defines and constrains the H.264 AVC/SVC levels, configurations, and tools used for video communication scenarios. This specification can be used for designing an end-to-end video communication system, or for designing an H.264 AVC/SVC encoder (such as a Webcam) for real-time communication purposes.
 
 Download the [Unified Communication Specification for H.264 AVC and SVC Encoder Implementation](https://download.microsoft.com/download/A/F/B/AFBF8CBE-3A45-472A-93F3-AD8521FBD502/UC_Specification_for_H264_AVC_and_SVC_encoder.pdf).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/16/2018
 title: "GOV, EDU, and non-profit organizations"
 ms.author: tonysmit
 author: tonysmit
@@ -37,3 +38,4 @@ Most Skype for Business features are available to .gov, .edu, and nonprofit orga
 |Office 365 Calling Plan  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
    
 Please see this blog post: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+

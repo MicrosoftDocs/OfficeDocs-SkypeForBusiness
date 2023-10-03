@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for security in Skype For Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -33,4 +34,5 @@ This content relates to Skype for Business Server security. Security is a very b
     
 - [Addressing threats to your core infrastructure for Skype for Business Server](addressing-threats.md)
     
+
 

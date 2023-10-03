@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Location Trend Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -37,4 +38,5 @@ The following table lists the filters that you can use with the Location Trend R
 |**Network type** <br/> | Indicates the type of network the client was connected to when the call was placed. Select one of the following: <br/>  [All] <br/>  Wired <br/>  Wireless <br/> |
 |**VPN** <br/> | Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following: <br/>  [All] <br/>  VPN <br/>  Non-VPN <br/> |
    
+
 

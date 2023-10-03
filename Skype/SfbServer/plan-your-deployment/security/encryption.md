@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Encryption for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -48,3 +49,4 @@ Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Trans
 ## FIPS
 
 Skype for Business Server and Microsoft Exchange Server 2016 operate with support for Federal Information Processing Standard (FIPS) 140-2 algorithms if the Windows Server operating systems are configured to use the FIPS 140-2 algorithms for system cryptography. To implement FIPS support, you must configure each server running Skype for Business Server to support it.
+

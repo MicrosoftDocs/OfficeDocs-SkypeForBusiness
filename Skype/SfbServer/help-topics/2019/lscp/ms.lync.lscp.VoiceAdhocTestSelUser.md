@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Select Enterprise Voice Users"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -26,4 +27,5 @@ Use the **Select Enterprise Voice Users** dialog box to find users who are enabl
   
  
   
+
 

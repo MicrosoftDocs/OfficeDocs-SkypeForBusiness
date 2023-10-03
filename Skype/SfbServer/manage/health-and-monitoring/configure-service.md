@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Configure Mobility Service for high performance in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,4 +36,5 @@ Here are the performance settings:
     
 4. HTTP.sys queue limit is set to 1,000 (by default).
     
+
 

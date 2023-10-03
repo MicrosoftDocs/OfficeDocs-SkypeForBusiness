@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Allow users to contact external Skype for Business users"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -48,7 +49,7 @@ Use the steps in this article when:
 
 You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 or Office 365 in both organizations to do this communication.
 
-![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Teams admin center**
+ **Using the Teams admin center**
   
 1. Sign in with your Microsoft 365 or Office 365 admin account.
 
@@ -152,3 +153,4 @@ After you enable external communication for your entire business, you can turn i
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
   
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
+

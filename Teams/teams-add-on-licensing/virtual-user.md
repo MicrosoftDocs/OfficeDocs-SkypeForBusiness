@@ -1,14 +1,16 @@
 ---
-title: "Microsoft 365 Phone System – Virtual User licenses"
-ms.author: dstrome
-author: dstrome
+title: Microsoft Teams Phone Resource Account licenses
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: roykuntz
+ms.date: 02/24/2023
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -18,52 +20,64 @@ ms.localizationpriority: medium
 ms.custom: 
   - Licensing
   - LIL_Placement
-  - seo-marvel-apr2020
-description: "Learn about how to assign free Phone System–Virtual User license or a paid Phone System user license to resource accounts in your organization."
+  - admindeeplinkMAC
+description: Learn how to assign Microsoft Teams Phone Resource Account licenses to resource accounts for auto attendants and call queues in your organization.
 ---
 
-# Microsoft 365 Phone System – Virtual User license
+# Microsoft Teams Phone Resource Account licenses
 
-Organizations with Phone System licensed users can assign either a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan isn't always required (see [Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transferring calls to an external phone number). All auto attendants or call queues require an associated resource account. Resource accounts that require a phone number need a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
+In Microsoft Teams, all auto attendants and call queues require an associated resource account. Each resource account must be assigned a **Microsoft Teams Phone Resource Account** license to ensure they're correctly identified by the system and properly function, *regardless of whether the resource account will be assigned a telephone number*.
 
-> [!TIP]
-> No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference.
+Organizations with a subscription that includes Teams Phone are allocated a certain amount of **Teams Phone Resource Account** licenses at no extra cost. A Microsoft calling plan isn't required unless you want to be able to dial out using that resource account. For more information, see [Plan for Teams auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites).
 
-:::image type="content" alt-text="Virtual User licenses." source="../media/resource-account.png":::
-
-## Virtual User license allocation
-
-Your organization is allotted Microsoft 365 Phone System – Virtual User licenses depending on its overall size. Any organization that has at least one license including Phone System or has Phone System added has 25 Virtual User licenses available at no cost. When you add 10 Phone System user licenses in your organization, one more Microsoft 365 Phone System – Virtual User license becomes available.
+The **Teams Phone Resource Account** license should never be assigned to users that aren't resource accounts.
 
 > [!NOTE]
-> Phone System is an add-on license available with Microsoft 365 and Office 365 E1 and E3. Phone System is also included as part of Microsoft 365 E5, Office 365 E5, and Microsoft 365 Business Voice licenses.
+> All resource accounts must be assigned a **Teams Phone Resource Account** license, regardless of whether they'll be assigned a phone number or not.
+>
+> If you're currently using resource accounts that aren't assigned any license, you should revisit them to ensure they're assigned a **Teams Phone Resource Account** license.
+>
+> Don't assign a **Teams Phone Standard** license to a resource account. If you currently have resource accounts configured with **Teams Phone Standard** licenses, you must [switch to a **Teams Phone Resource Account** license as described below](#change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license).
 
-If your organization uses up the available free Microsoft 365 Phone System – Virtual User licenses in creating auto attendant or call queue nodes, you can still use the paid Phone system licenses with a resource account. Most organizations will have enough Virtual User licenses based on the scaling plan. 
+## Resource Account license allocation
+
+Your organization is allotted **Teams Phone Resource Account** licenses based on its overall size. Any organization that has a subscription with Phone System features, such as **Teams Phone Standard**, **Teams Phone with Calling Plan**, and **Teams Shared Devices** licenses, is allocated 25 **Teams Phone Resource Account** licenses available at no cost.
+
+For every 10 user licenses of **Teams Phone Standard**, **Teams Phone with Calling Plan**, or devices with **Teams Shared Devices** license in your organization, one more **Teams Phone Resource Account** license becomes available.  Most organizations will have enough **Teams Phone Resource Account** licenses based on this scaling plan.
+
+In the event more **Teams Phone Resource Account** licenses are required, you can purchase more **Teams Phone Resource Account** licenses beyond the standard allocation through EA, EAS, EES, CSP, Web Direct, NCE – Customer led, and NCE – Partner led or your Microsoft account representative at a cost.
+
+Your allocation of **Teams Phone Resource Account** licenses is not automatically added to your tenant. You will need to go through the purchasing process for **Teams Phone Resource Account** licenses. Licenses within your allocation of **Teams Phone Resource Account** licenses will be zero cost. Any **Teams Phone Resource Account** license that exceeds your allocation of licenses will have a cost.
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 Microsoft 365 Phone System – Virtual User licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the Microsoft 365 Phone System – Virtual User licenses and obtain five regular-priced Phone System licenses.
+Contoso, Inc. purchased 500 licenses that include Phone System (one for each employee) and has 100 devices licensed with the **Teams Shared Devices** license. Contoso is allotted an initial 25 plus 60 **Teams Phone Resource Account** licenses, 85 in total. Their organization has 90 call queues and auto attendants. They need to assign all the **Teams Phone Resource Account** licenses and purchase five extra **Teams Phone Resource Account** licenses.
 
-Contoso should consider redesigning the auto attendant and call queue system. If they use fewer phone numbers and more nested nodes that don't need a phone number, they simplify the implementation and reduce costs.
+## How to obtain Microsoft Teams Phone Resource Account licenses
 
-## How to buy Microsoft 365 Phone System – Virtual User licenses
-
-1. Sign in to the Microsoft 365 admin center.
-2. Go to **Billing** > **Purchase services** > **Add-ons**
-3. Scroll to the end to find the **Microsoft 365 Phone System – Virtual User** license. Select **Buy now**.
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
+1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
+1. Select the **Details** button.
+1. Choose the number of licenses you wish to purchase and your billing frequency.
+1. Select the **Buy** button.
+1. Fill in the purchasing details.
+1. Select the **Place order** button.
 
    > [!NOTE]
-   > Keep in mind you must still **Buy** the license even though it has a cost of zero.
+   > Keep in mind, even if you're within your allocation, you must still **Buy** the license even though it has a cost of zero.
 
-## Change an existing resource account to use a Microsoft 365 Phone System – Virtual User license
+## Change an existing resource account to use a Microsoft Teams Phone Resource Account license
 
-If you decide to switch the license on your resource account from a Phone System license to a Microsoft 365 Phone System – Virtual User license:
+If you have existing resource accounts using a **Teams Phone Standard** license, you must switch to using to a **Teams Phone Resource Account** license:
 
-1. Get the new Microsoft 365 Phone System – Virtual User license.
-2. Follow the linked steps in the Microsoft 365 Admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+1. Purchase the new **Teams Phone Resource Account** license.
+2. Follow the linked steps in the Microsoft 365 admin center to [Move users to a different subscription](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Always remove a full Phone System License and assign the Microsoft 365 Phone System – Virtual User license in the same license activity. If you remove the old license, save the account changes, add the new license, and then save the account settings again, the resource account may no longer function as expected. If this happens, we recommend you create a new resource account for the Microsoft 365 Phone System – Virtual User license and remove the broken resource account. 
+> Always remove a **Teams Phone Standard** license and assign the **Teams Phone Resource Account** license in the same license activity. If you remove the old license, save the account changes, add the new license, and save the account settings again, the resource account may no longer function as expected, like your organization's auto attendants and call queues not working anymore.
+>
+> If this happens, we recommend you create a new resource account using the **Teams Phone Resource Account** license and remove the broken resource account.
 
 ## Related information
 

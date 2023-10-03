@@ -1,11 +1,12 @@
 ---
 title: Live events recording policies
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
+ms.date: 06/10/2020
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -13,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn about live event recording policies.
 appliesto: 
   - Microsoft Teams
@@ -56,7 +58,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 | Recording available for attendees | Selected     | DVR is available and the Azure Media Services (AMS) asset is stored for 180 days | Attendee can access and watch the event                     |                              |
 |                                                  | Not Selected | DVR is available and the AMS asset is stored for 180 days | Attendee won't get access into the event after it's over |                              |
 ||Disabled (Not selected)|DVR is available and the AMS asset is deleted after the event|Attendee won't get access into the event after it's over||
-| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored |
+| Recording available to producers and presenters | Selected     |                                                           |                                                             | An MP4 is created and stored for 180 days |
 |                                                  | Not Selected |                                                           |                                                             | No file is created           |
 
 ### Related topics
@@ -64,4 +66,4 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 - [What is Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
 - [Configure live events settings in Teams](configure-teams-live-events.md)
-- [Teams clouds meeting recording](../cloud-recording.md)
+- [Teams clouds meeting recording](../meeting-recording.md)

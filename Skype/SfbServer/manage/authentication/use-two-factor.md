@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Use two-factor authentication with Skype for Business client and Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -143,3 +144,4 @@ Before you use your smart card for the first time, it's recommended that you cli
 [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
   
 [Configure two-factor authentication in Skype for Business Server](configure-two-factor.md)
+

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Collocation (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,3 +26,4 @@ The Mediation Server is collocated with the Front End Server by default. The Med
 - [Supported server collocation in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)
     
 - [Mediation Server component in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+

@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Create Database"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
@@ -38,3 +39,4 @@ Topology Builder provides a way to install databases on a SQL Server store. When
 5. On the **Create Database** page, click **Next**.
     
 6. On the **Database Creation Complete** page, click **Finish**.
+

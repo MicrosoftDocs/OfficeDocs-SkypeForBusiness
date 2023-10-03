@@ -1,8 +1,8 @@
 ---
 title: "Front End General Settings Expander for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: "You edit the properties of the Front End Server or Front End pool by editing or configuring the following attributes. The configuration page is separated into the following sections:"

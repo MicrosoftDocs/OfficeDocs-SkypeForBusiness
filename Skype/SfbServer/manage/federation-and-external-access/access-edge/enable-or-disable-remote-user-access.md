@@ -1,16 +1,17 @@
 ---
+ms.date: 09/26/2018
 title: 'Enable or disable remote user access'
 ms.reviewer: 
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -69,3 +70,4 @@ To disable remote user access, set the value of the **AllowOutsideUsers** proper
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 ```
+

@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Machine External IPv4"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv4Page
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: "In External IPv4, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service."

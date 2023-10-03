@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Get Item"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -63,4 +64,5 @@ Get Item returns a specific item in the repository.
   
  *subItemIds*  - The IDs of sub-Items, if any. This is a short-circuit of Get Sub-Items operation to save a call. Applications can alternatively obtain the same information using Get Sub-Items operation.
   
+
 

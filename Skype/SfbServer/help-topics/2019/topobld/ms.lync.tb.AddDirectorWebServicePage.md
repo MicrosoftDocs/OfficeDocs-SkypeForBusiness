@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Add Director Web Service"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AddDirectorWebServicePage
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
@@ -25,4 +26,5 @@ You cannot override the internal Web Services pool fully qualified domain name (
   
 You can specify an external base URL that is different it from your internal base URL to differentiate domain naming. For example, your internal domain is `contoso.net`, but your external domain name is `contoso.com`. You would define the external base URL by using the `contoso.com domain name`. This is important for reverse proxy servers for an edge deployment. The external base URL domain name should be the same as the domain name of the FQDN of the reverse proxy. 
   
+
 

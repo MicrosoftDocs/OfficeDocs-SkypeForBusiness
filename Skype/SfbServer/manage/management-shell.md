@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Skype for Business Server Management Shell"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,7 +23,7 @@ The Skype for Business Server Management Shell provides the command line interfa
 Windows PowerShell allows you to manage Microsoft applications from the command line. It includes a command-line environment, product-specific commands, and a full scripting language. Windows PowerShell was first introduced as a downloadable release for the Windows operating system late in 2006, and was incorporated as the command-line interface for manageability of Microsoft Exchange Server 2007. It has been incorporated into most of the Microsoft Server products, including Lync and Skype servers beginning with Lync Server 2010. There are over 700 Lync and Skype specific cmdlets available in the Skype for Business Server Management Shell.
   
 > [!NOTE]
-> Skype for Business cmdlet reference has moved to docs.microsoft.com. Clicking on the links below will take you to the new docs.microsoft.com page. The content is now open sourced and available for community contributions through GitHub. Interested in contributing? Check out the README in the repo here: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Skype for Business cmdlet reference has moved to learn.microsoft.com. Clicking on the links below will take you to the new learn.microsoft.com page. The content is now open sourced and available for community contributions through GitHub. Interested in contributing? Check out the README in the repo here: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
 Skype for Business Server ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
   
@@ -70,3 +71,4 @@ Things to know about Windows PowerShell in Skype for Business Server:
     
     > [!NOTE]
     > If you are using PowerShell remotely you may need to allow communication through a firewall. To learn more about the ports PowerShell remoting uses, see [What Port Does PowerShell Remoting Use?](/archive/blogs/christwe/what-port-does-powershell-remoting-use).
+

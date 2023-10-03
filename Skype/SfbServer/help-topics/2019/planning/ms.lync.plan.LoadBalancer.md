@@ -1,8 +1,9 @@
 ---
+ms.date: 03/17/2018
 title: "Load Balancer (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
@@ -26,4 +27,5 @@ If you have Front End pools, Director pools, or Edge Server pools, you need to d
     
 
     
+
 

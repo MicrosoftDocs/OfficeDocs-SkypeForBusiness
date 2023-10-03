@@ -1,8 +1,8 @@
 ---
 title: "Associate Director With Monitoring Page for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.AssociateDirectorWithMonitoringPage2010
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: "To configure a Monitoring Server and associate it with the Director or Director pool:"

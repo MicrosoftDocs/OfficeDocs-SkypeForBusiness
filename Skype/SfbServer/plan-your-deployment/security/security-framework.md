@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Security framework for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -53,4 +54,5 @@ The topics in this section describe how each of these fundamental elements works
     
 - [Windows PowerShell and Skype for Business Server management tools](management-tools.md)
     
+
 

@@ -1,8 +1,8 @@
 ---
 title: "Archiving Policy"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.MonArchPolicyMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: "You use Archiving policies to enable and disable archiving for users homed on Skype for Business Server. In each Archiving policy, you can enable or disable archiving for either or both of the following:"

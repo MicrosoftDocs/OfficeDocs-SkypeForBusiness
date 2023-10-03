@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Clear Cache"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -44,4 +45,5 @@ Clear Cache operation deletes the cache on server for queries and data. This wil
   
  **Response Body** - None.
   
+
 

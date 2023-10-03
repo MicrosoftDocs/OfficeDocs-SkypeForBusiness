@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Manage archiving in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -73,4 +74,5 @@ You can manage archiving by using the Control Panel or by using Windows PowerShe
 |Set-CsArchivingPolicy  <br/> |Modifies an existing instant messaging (IM) archiving policy. An archiving policy gives you the ability to archive all IM sessions and conferences that take place between internal users; you can also archive sessions that take place between internal users and federated partners.  <br/> |
 |Set-CsArchivingServer  <br/> |Enables you to specify a new database location for one or more Archiving Servers.  <br/> |
    
+
 

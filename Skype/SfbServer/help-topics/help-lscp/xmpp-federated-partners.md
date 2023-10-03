@@ -1,8 +1,8 @@
 ---
 title: "XMPP Federated Partners"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.lscp.ExtXmppPartnerMain
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: "What do you want to do? Click the link to the task that you want to perform."

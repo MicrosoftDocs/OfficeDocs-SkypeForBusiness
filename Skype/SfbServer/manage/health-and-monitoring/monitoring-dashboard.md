@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Using the Monitoring Dashboard in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -191,3 +192,4 @@ You will then need to refresh the Monitoring Dashboard before the changes take e
 You can also create an Excel spreadsheet that includes live data feeds, which includes links to the latest Monitoring Dashboard data. To create a live data feed file, click the orange **Export to Data Feed** icon in the toolbar.
   
 If you would prefer to print the current Dashboard then click the printer icon in the toolbar.
+

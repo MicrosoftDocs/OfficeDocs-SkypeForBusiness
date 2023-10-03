@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Create your Edge topology for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -281,4 +282,5 @@ To deploy successfully, the Skype for Business Server Deployment Wizard needs ac
 
 3. Copy the exported file to external media (for example, a USB drive or network share that you can reach from the Edge Server's location).
     
+
 

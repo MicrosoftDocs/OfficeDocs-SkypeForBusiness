@@ -1,8 +1,8 @@
 ---
 title: "PSTN Gateway Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: "This node shows the fully qualified domain name (FQDN), associated Mediation Server, and other basic information about this public switched telephone network (PSTN) gateway. You can perform the following actions:"

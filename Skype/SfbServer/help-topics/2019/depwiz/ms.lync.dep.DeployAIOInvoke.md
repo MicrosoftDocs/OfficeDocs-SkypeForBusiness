@@ -1,14 +1,15 @@
 ---
+ms.date: 03/17/2018
 title: "Prepare Single Standard Edition Server (Invoke)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
 - ms.lync.dep.DeployAIOInvoke
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - CSH
 ms.localizationpriority: medium
@@ -24,4 +25,5 @@ On the **Executing commands** page, the tasks of installing the SQL Server Expre
 > [!IMPORTANT]
 > The installation of the SQL Server Express can take some time to complete. During the installation, there is no progress visible on the screen or the task pane. To monitor the installation, you should use Windows Task Manager and look for the MSIExec processes and the Setup files for SQL Server. In this way, you can view the status of the install and be sure that the install is proceeding. Depending on factors beyond the scope of this help topic, it can take up to 15 minutes or more for the install the SQL Server instance to complete. 
   
+
 

@@ -1,6 +1,7 @@
 ---
+ms.date: 06/22/2018
 title: "Plan a Cloud auto attendant"
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars 
 ms.reviewer: wasseemh
@@ -8,7 +9,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.collection: 
 description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019"
@@ -32,7 +33,7 @@ An incoming call to a Cloud auto attendant can take one of several paths, as sho
 ![Diagram for auto attendants.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) and [Direct Routing](/microsoftteams/direct-routing-plan-media-bypass).
+2. Via a [Session Border Controller](/microsoftteams/direct-routing-border-controllers) and [Direct Routing](/microsoftteams/direct-routing-plan-media-bypass).
 3. Via a number homed online in Microsoft 365 or Office 365.
 
 Also see:
@@ -112,3 +113,4 @@ Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mai
 [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: Calls to Subscriber Access or auto attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
+

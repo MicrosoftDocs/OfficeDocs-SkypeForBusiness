@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Associate a monitoring store with a Front End pool in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -81,4 +82,5 @@ Alternatively, you can install the monitoring database by running the Skype for 
     
 To ensure that all the required Skype for Business Server services have started, click **Run** under the heading **Step 4: Start Services** on the **Deploy** page
   
+
 

@@ -1,12 +1,13 @@
 ---
+ms.date: 03/17/2018
 title: "Get User"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -60,4 +61,5 @@ Get User returns a user record from the repository.
 > [!NOTE]
 > Supply the  `defaultItemId` value to Get Item operation to retrieve the details of the default Item.
   
+
 
