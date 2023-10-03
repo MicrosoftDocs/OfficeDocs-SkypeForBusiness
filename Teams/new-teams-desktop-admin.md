@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 09/01/2023
+ms.date: 10/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -80,10 +80,10 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |:-----|:-----|
 |Public preview program|Available|
 |Targeted release program|Available|
-|Current Channel|Late September 2023|
+|Current Channel|In rollout|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|January 2024|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
@@ -113,12 +113,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 
 |Update channel|Date|
 |:-----|:-----|
-|Teams Public Preview|September 2023|
+|Teams Public Preview|October 2023|
 |Targeted Release Channel|October 2023|
 |Current Channel|Late October 2023|
-|Monthly Enterprise Channel|January 2024|
+|Monthly Enterprise Channel|December 2023|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|March 2024|
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
 
 >[!Note]
 >- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
