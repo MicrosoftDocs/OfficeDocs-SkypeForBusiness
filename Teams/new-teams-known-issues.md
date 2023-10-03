@@ -25,14 +25,12 @@ ms.localizationpriority: high
 This article covers known issues:
 
 |What|Description|
-|[**Known issues**](#known-issues)
-- [**What features are changing in new Teams**](#what-features-are-changing) to learn more about changes you will see.
-- [**Features that are coming soon**](#Features-that-are-coming-soon)
+|:-----|:-----|
+|[**Known issues**](#known-issues)|Known issues we are working on.|
+[**What features are changing in new Teams**](#what-features-are-changing)|Find out the changes you see in your improved customer experience.|
+|[**Features that are coming soon**](#Features-that-are-coming-soon)|There are a few features that we are still working on.|
 
 ## Known issues
-
-There are a few known issues we're working on.  
-
 
 ### General
 
