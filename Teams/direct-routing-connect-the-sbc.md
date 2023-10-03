@@ -186,7 +186,9 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Failover response codes**|FailoverResponseCodes<br>|If Direct Routing receives any 4xx or 6xx SIP error code in response to an outgoing Invite, the call is considered completed by default. Outgoing means a call from a Teams client to the PSTN with traffic flow: Teams client -> Direct Routing -> SBC -> telephony network). When you specify a failover response code, this forces Direct Routing to try another SBC (if another SBC exists in the voice routing policy of the user) when it receives the specified codes if the SBC can't make a call because of network or other issues. To learn more, see [Failover of specific SIP codes received from the Session Border Controller (SBC)](direct-routing-trunk-failover-on-outbound-call.md).|408, 503, 504||Int|
 |No|**Failover times (seconds)**|FailoverTimeSeconds |When you set a value, outbound calls that aren't answered by the gateway within the time that you set are routed to the next available trunk. If there are no additional trunks, the call is automatically dropped. The default value is 10 seconds. In an organization with slow networks and gateway responses, this could potentially result in calls being dropped unnecessarily.|10|Number|Int|
 |No|**SBC supports PIDF/LO for emergency calls**|PidfloSupported|Specify whether the SBC supports Presence Information Data Format Location Object (PIDF/LO) for emergency calls.||||
-|No| - |MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
+
+For information about Loction-Based Routing and media optimization settings, see [Plan for Location-Based Routing](location-based-routing-plan.md) and [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
+
 
 ## See also
 
