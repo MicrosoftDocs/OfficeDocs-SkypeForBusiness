@@ -80,13 +80,13 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 <a name="OS"> </a>
 
 After you have the hardware in place, you need to the install operating system (OS) that allows you to install and successfully use Skype for Business Server 2019.
-  
+
+- Windows Server 2022  
 - Windows Server 2019
 - Windows Server 2016
-- Windows Server 2022
 
 > [!NOTE]
-> Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update (Build Number 2046.52) and subsequent versions.
+> Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update (Build Number 2046.524) and subsequent versions.
 
 Anything other than the operating systems listed here won't work properly; don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
 
@@ -284,17 +284,17 @@ Although much of the configuration data for servers and services is stored in th
 ||Data published for backward compatibility   |
 ||A service control point (SCP) for the Central Management store   |
 ||Kerberos Authentication Account (an optional computer object)   |
-   
+
 ### OS for Domain Controllers
 
 The following Domain Controller operating systems can be used:
-  
+
+- Windows Server 2022  
 - Windows Server 2019
 - Windows Server 2016
 - Windows Server 2012 R2
 - Windows Server 2012
-- Windows Server 2022
-    
+
 The domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2019 into, must be one of the following:
   
 - Windows Server 2016
