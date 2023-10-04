@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/03/2023
+ms.date: 10/04/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -37,7 +37,6 @@ This article covers known issues:
 
 - **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
 
-
 ### Calendar
 
 - **Issue:** There's no option to add a Channel calendar to a channel.</br>
@@ -59,7 +58,6 @@ This article covers known issues:
 
 ### Global readiness
 
-
 - **Issue:** The UI lanauge and regional parameters are local.  They do not follow the OS, browser, or account. When a user changes the operation system UI language, the new choice is not pushed to the the new Teams app.
   **Workaround:**  Set the lanugate or regional settings manually, or restart the new Teams app.
 
@@ -69,8 +67,7 @@ This article covers known issues:
 - **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
   Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
 
-- **Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
-Details: The meeting attendees may see preview content in those notifications.</br>
+- **Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted. The meeting attendees may see preview content in those notifications.</br>
   **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 - **Issue:** Some meeting details won’t appear in new Teams.</br>
@@ -79,17 +76,9 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
   **Workaround**: Select Join in the channel conversation to join the meeting.
 
-- **Issue:** When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.</br>
-  Details: Meeting attendees may see preview content in those notifications.</br>
-  **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop."
-
 - **Issue:** In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
 - **Issue:** Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
-
-- **Issue:** Users won't be able to start a "Screen sharing call".</br>
-  Details: Users on Windows 11 can’t share the app using the taskbar. </br>
-  **Workaround**: Share the app or window using the share tray within Teams meeting. 
 
 
 ### Notifications
@@ -100,11 +89,13 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 ### Presence
 
-- **Issue**: Occasionally when a user is in a meeting, their Presence Status shows as Available.
+- **Issue:** Occasionally when a user is in a meeting, their Presence Status shows as Available.
 
-- **Issue**: Sometimes users aren't able to reset presence status.
+- **Issue:**  Sometimes users aren't able to reset presence status.
 
-- **Issue**: The preview thumbnail for Teams appears but there are no presence buttons.
+- **Issue:** The preview thumbnail for Teams appears but there are no presence buttons.
+
+- **Issue:**  When users switch from new Teams to classic, classic Teams crashes.
 
 ### Teams and Channels
 
@@ -112,24 +103,11 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue**: Member and guest counts are occasionally displayed incorrectly in the members' tab.
 
-- **Issue**: Limited options on Team Channel properties Dialog, including:
-  - Pin, Manage Channel and Get Email Address available
-  - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
-  - Adding a tab to a channel isn't currently available.
-  - Webhooks not supported
-
-- **Issue**: Attendance report doesn't show after a meeting.</br>
-  **Workaround**: To download, go to **Edit Meeting Details** > **Attendance** > **Download**. It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
 
 ## Other areas:
 
-- **Issue**: Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
-
-- **Issue**: If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.</br>
-  **Workaround**: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
-
 - **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
-**Workaround**: Before joining a meeting, sign in with primary tenant account.
+  **Workaround**: Before joining a meeting, sign in with primary tenant account.
 
 
 ## What features are changing?
