@@ -45,6 +45,7 @@ Downloaded logs on the device can take up disk space. If logs are not regularly 
 |Setting|Allows|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold   |Cleans up logs after 30 days.   |
+
 ## Front of Room display settings
 <a name="Display"> </a>
 
@@ -99,7 +100,8 @@ The following table summarizes the possible remote operations and the methods yo
 |Update OS   |Windows Update   |Windows Update  <br/> WSUS   |
 |App update   |Windows Store   |Windows Store  <br/> Configuration Manager   |
 |Account Config   |Teams admin center   |Teams admin center   |
-|Access logs   |Teams admin center  <br/> PowerShell   |Teams admin center <br/> PowerShell  <br/>  |
+|Access logs   |Teams admin center  <br/> PowerShell   |Teams admin center <br/> PowerShell  |
+
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
 
@@ -149,7 +151,7 @@ You can perform the following management operations remotely by using PowerShell
 - Reboot system
 - Retrieve logs
 - Transfer files (requires a domain-joined Microsoft Teams Rooms)
-    
+
 > [!NOTE]
 > This functionality is off by default. You need to enable remote PowerShell for your environment on the Microsoft Teams Rooms system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** for information about how to enable remote PowerShell.
 
@@ -225,8 +227,6 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
 
 
 
-
-
 ## Admin mode and device management
 <a name="AdminMode"> </a>
 
@@ -241,7 +241,7 @@ Some management functions, like manually installing a private CA certificate, re
 5. Select **Windows Settings** in the left column.
 6. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
 7. Perform the necessary administrative tasks.
-8.  Restart the machine when you're finished.
+8. Restart the machine when you're finished.
     
 The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
 
@@ -275,15 +275,17 @@ The console is now back in its normal operation mode. The following procedure re
 11. Select the language you just added to the "Languages" list.    
 12. Set as default- Move up arrow to set default
 13. For any languages you wish to remove:
-    a. Select the language you wish to remove.
-    b. Select Remove.
+    1. Select the language you wish to remove.
+    1. Select Remove.
 14. If you wish to change the date & time format, modify the location selection tied to **Regional format** until Windows displays as desired
 14. Start an elevated command prompt.
 15. Run the following command: 
+
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
-17. Restart the system.
+
+1. Restart the system.
     
 Your desired language is now applied to the Microsoft Teams Rooms console.
  
@@ -298,8 +300,9 @@ Your desired language is now applied to the Microsoft Teams Rooms console.
     > This method doesn't log the Skype user off or gracefully terminate the app, but you'd use it if the app wasn't responding and the other method wasn't available. 
 
    The console restarts into its normal operation mode, running the Microsoft Teams Rooms app. You can remove the keyboard, if you attached one to complete this procedure.
-   ## Troubleshooting tips
-   <a name="TS"> </a>
+
+## Troubleshooting tips
+<a name="TS"> </a>
 
 - Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting. See the article for the Exchange PowerShell cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), specifically the 'ProcessExternalMeetingMessages' parameter.
 - Microsoft Teams Rooms doesn't support Exchange AutoDiscover redirects via Exchange 2010.
