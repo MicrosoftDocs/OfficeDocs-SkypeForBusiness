@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/02/2023
+ms.date: 10/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,7 +26,7 @@ ms.localizationpriority: high
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error: 
 
-:::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
+:::image type="content" source="media/new-teams-troubleshooting-org-policies.png" alt-text="error when policies restrict install":::
 
 It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
 
@@ -126,7 +126,3 @@ If the toggle still doesn't appear, then
 1. Delete all contents of the folder (don’t worry, Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 1. Relaunch the Teams app, then right-click on the icon and select Quit.
 1. Relaunch the Teams app one more time, and you should see the toggle switch.
-
-
-
-
