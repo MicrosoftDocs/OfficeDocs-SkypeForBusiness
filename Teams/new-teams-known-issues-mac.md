@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/02/2023
+ms.date: 10/04/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -28,30 +28,21 @@ ms.localizationpriority: high
 
 ### General
 
-**Issue:**  Custom backgrounds not yet available.
-
 **Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
 **Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.
 
 
 ### Apps
 
-- **Issue**: If custom apps are used, their icons are broken on the left pane.
-
-- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
-
-- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, reordering, uninstalling, store navigation are still pending.
-
 - **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
-
 
 ### Calendar
 
-- **Issue:* There's no option to add a Channel calendar to a channel.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
+- **Issue:** There's no option to add a Channel calendar to a channel.</br>
+  **Workaround**: Use classic Teams to use this feature.</br>
 
 - **Issue**: Unable to add an app in scheduling form.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
+  **Workaround**: Use classic Teams to use this feature.</br>
 
 ### Calls
 
@@ -63,13 +54,8 @@ ms.localizationpriority: high
 
 ### Chats
 
-- **Issue:** CHat Notifications have a "send" button instead than a "reply" button.
-  Workaround:  Select the send button if you want to reply.
-
-- **Issue:** The Organization tab isn't available on chat.</br>
-  Details: The organization tab has moved to a person's Microsoft 365 contact card. To view your organization tab, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
-
-- **Issue:** When you pop out a chat, the window may appear blank for a few moments.
+- **Issue:** Chat Notifications have a "send" button instead than a "reply" button.</br>
+  **Workaround:**  Select the send button if you want to reply.
 
 - **Issue:** You may still receive notifications on the muted meeting chats.
 
@@ -125,8 +111,7 @@ Details: The meeting attendees may see preview content in those notifications.</
 
 - **Issue:** In Settings->Devices, users can't preview their video. 
 
-- **Issue:** Users won't be able to start a "Screen sharing call".</br>
-  Details: Users on Windows 11 can’t share the app using the taskbar. </br>
+- **Issue:** Users won't be able to start a "Screen sharing call". Users on Windows 11 can’t share the app using the taskbar. </br>
   **Workaround**: Share the app or window using the share tray within Teams meeting. 
 
 - **Issue:** Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo).
@@ -134,22 +119,21 @@ Details: The meeting attendees may see preview content in those notifications.</
 - **Issue:** Users won't see the presenter toolbar when a screen sharing session is active.
 
 -- **Issue**: Users aren't muted despite the tooltip message that says they are.  In large meetings of over 600+ attendees the microphone was still active. </br>
-**Workaround:**  Manually mute the call.
+   **Workaround:**  Manually mute the call.
 
-- **Issue:**  During call transfer, if the call ends prematurely then the banner is not updated correctly.
-**Workaround:**  Being investigated. No current workaround.
+- **Issue:**  During call transfer, if the call ends prematurely then the banner is not updated correctly.</br>
+  **Workaround:**  Being investigated. No current workaround.
 
 - **Issue:**  Previously ended meeting shows as still running; Timer is still counting.
 
 - **Issue:**  The hover state is missing in the video icon in the channels header.
 
-
 - **Issue:**  Meeting branding not working on Mac.
 
 - **Issue:**  Cannot navigate to "join meeting" using keyboard actions.
 
-- **Issue:**  At the top of the meeting window, the meeting title is not shown when joining for the first time. It only shows "Meeting now". 
-Workaround:  If you rejoing the meeting, the meeting title is shown as expected.
+- **Issue:**  At the top of the meeting window, the meeting title is not shown when joining for the first time. It only shows "Meeting now". </br>
+  **Workaround:**  Rejoin the meeting; the meeting title shows as expected.
 
 - **Issue:**  Presenter Modes are not available.
 
@@ -186,11 +170,6 @@ Workaround:  If you rejoing the meeting, the meeting title is shown as expected.
 - **Issue**: Some Teams users aren't receiving notifications of chat mentions, meetings or calls.</br>
   Details: Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
 
-### Offline
-
-- **Issue**: Offline message edits, delete, and reactions functionality is currently not supported.</br>
-**Workaround:**  Users can still send messages offline in new Teams for Mac.  However for full functionality, use classic Teams.
-
 ### Presence
 
 - **Issue**: Occasionally when a user is in a meeting, their Presence Status shows as Available.
@@ -203,23 +182,8 @@ Workaround:  If you rejoing the meeting, the meeting title is shown as expected.
 
 - **Issue**: You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
 
-- **Issue**: Member and guest counts are occasionally displayed incorrectly in the members' tab.
-
-- **Issue**: Limited options on Team Channel properties Dialog, including:
-  - Pin, Manage Channel and Get Email Address available
-  - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
-  - Adding a tab to a channel isn't currently available.
-  - Webhooks not supported
-
-- **Issue**: Attendance report doesn't show after a meeting.</br>
-  **Workaround**: To download, go to **Edit Meeting Details** > **Attendance** > **Download**. It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
 
 ## Other areas:
-
-- **Issue**: Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
-
-- **Issue**: If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.</br>
-  **Workaround**: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
 
 - **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
 **Workaround**: Before joining a meeting, sign in with primary tenant account.

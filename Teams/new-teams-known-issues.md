@@ -32,7 +32,6 @@ This article covers known issues:
 
 ## Known issues
 
-
 ### Apps
 
 - **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
@@ -80,6 +79,7 @@ This article covers known issues:
 
 - **Issue:** Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
 
+- **Issue:** Network Device Interface (NDI) streaming is still pending and will be available later this year.  Live events present and attendee presenter and attendee are supported, however TLE Producer is not. Users will need to use classic Teams for TLE producer.
 
 ### Notifications
 
