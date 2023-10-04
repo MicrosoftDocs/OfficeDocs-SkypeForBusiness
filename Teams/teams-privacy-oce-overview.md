@@ -34,7 +34,7 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 ## Ratings and reviews for Teams apps
 
-Ratings and reviews allow Teams users to provide feedback about their experience with using a Teams app. Reviews are anonymous unless the user chooses otherwise. All Teams users can view these ratings and reviews on the details page for the app. Users are only allowed to provide ratings and reviews for apps they’ve installed and only for apps that are publicly available from Microsoft or other companies. The ratings are powered by Microsoft AppSource and are shown on the app’s page on the [AppSource website](https://appsource.microsoft.com/). AppSource is provided under the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and the [Microsoft Commercial Marketplace Terms of Use](https://learn.microsoft.com/legal/marketplace/marketplace-terms).
+Ratings and reviews allow Teams users to provide feedback about their experience with using a Teams app. Reviews are anonymous unless the user chooses otherwise. All Teams users can view these ratings and reviews on the details page for the app. Users are only allowed to provide ratings and reviews for apps they’ve installed and only for apps that are publicly available from Microsoft or other companies. The ratings are powered by Microsoft AppSource and are shown on the app’s page on the [AppSource website](https://appsource.microsoft.com/). AppSource is provided under the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and the [Microsoft Commercial Marketplace Terms of Use](/legal/marketplace/marketplace-terms).
 
 ## Search Coach Tab App
 
