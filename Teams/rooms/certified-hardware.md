@@ -87,10 +87,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Lenovo ThinkSmart Hub 500 | Core i5 | 8 GB | 128 GB |
 | [Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) | Core i5 | 8 GB | 128 GB |
 | [Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) | Core i5 | 8 GB | 128 GB |
-| [Lenovo Thinksmart One AIO Bar + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) | Core i5 | 8 GB | 256 GB |
-| Lenovo Core + MIMO IP Controller Kit | Core i5 | 8 GB | 256 GB |
-| [Lenovo Core + MIMO WAVE 2 IP Controller Kit](https://support.lenovo.com/us/en/solutions/ht515195-lenovo-ip-controller-overview-and-service-parts) | Core i5 | 8 GB | 256 GB |
-| [Lenovo AIO Bar + MIMO IP Controller (Wave2) Kit](https://support.lenovo.com/us/en/solutions/ht515195-lenovo-ip-controller-overview-and-service-parts) | Core i5 | 8 GB | 256 GB |
+| [Lenovo Thinksmart One + Lenovo Core Bundle](https://www.lenovo.com/us/en/p/coming-soon/thinksmart-one-plus-controller-for-teams/len102e0006?orgRef=https%253A%252F%252Flearn.microsoft.com%252F&sortBy=priceUp) | Core i5 | 8 GB | 256 GB |
+| Lenovo Core + IP Controller Kit | Core i5 | 8 GB | 256 GB |
+| [Lenovo Core + WAVE 2 IP Controller Kit](https://support.lenovo.com/us/en/solutions/ht515195-lenovo-ip-controller-overview-and-service-parts) | Core i5 | 8 GB | 256 GB |
+| [Lenovo AIO + IP Controller (Wave2) Kit](https://support.lenovo.com/us/en/solutions/ht515195-lenovo-ip-controller-overview-and-service-parts) | Core i5 | 8 GB | 256 GB |
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
