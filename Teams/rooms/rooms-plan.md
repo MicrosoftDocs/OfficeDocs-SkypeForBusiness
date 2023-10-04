@@ -117,7 +117,8 @@ For guidance for the type of system and peripheral devices by room type and size
 
 Based on the vendor you prefer, use the information provided in the requirements article to define your Microsoft Teams Rooms and supported peripheral device configuration per room type, and use this as a template for your deployment.
 
-**Pro Tip** - Some room types might not be applicable for your deployment.
+> [!TIP]
+> Some room types might not be applicable for your deployment.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -133,7 +134,8 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'  | 6&ndash;12       |                              |                    |                 |
 | Large 15' by 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro Tip -** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
+> [!TIP]
+> Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
 
 ### Wireless network considerations
 
