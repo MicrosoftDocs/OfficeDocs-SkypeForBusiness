@@ -83,17 +83,17 @@ items:
               items:
                 - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
-                - name: Deploy the new Teams using policies               
+                - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
-                - name: Bulk deploy the new Teams client
+                - name: Bulk upgrade to the new Teams client
                   href: new-teams-bulk-install-client.md
-                - name: Deploy the new Teams with Microsoft 365 Apps
+                - name: Upgrade to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues for Windows          
                   href: new-teams-known-issues.md
-                - name: Prerequisites and deployment for Mac          
+                - name: Upgrade to the new Teams for Mac          
                   href: new-teams-mac-install-prerequisites.md                 
                 - name: Known issues for Mac          
                   href: new-teams-known-issues-mac.md
@@ -1874,7 +1874,7 @@ items:
           href: plan-your-move-kaizala.md
         - name: Navigate Microsoft Teams
           href: navigate-teams.md
-    - name: Interoperability with Microsoft 365 and Office 365
+    - name: Interoperability with Microsoft 365
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
@@ -1890,6 +1890,8 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Collaboration integration
+          href: collaboration-integration.md
     - name: Teams PowerShell
       items: 
         - name: Overview
