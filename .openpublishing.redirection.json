@@ -4686,6 +4686,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/quick-start-meetings-live-events.md",
+    "redirect_url": "/microsoftteams/overview-meetings-webinars-town-halls",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/contact-tns-service-desk.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false

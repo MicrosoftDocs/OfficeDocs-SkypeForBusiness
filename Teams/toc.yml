@@ -609,8 +609,8 @@ items:
     
     - name: Meetings, webinars, and town halls
       items:
-        - name: Overview 
-          href: quick-start-meetings-live-events.md
+        - name: Overview
+          href: overview-meetings-webinars-town-halls.md
         - name: Meetings
           href: plan-meetings.md
         - name: Webinars
