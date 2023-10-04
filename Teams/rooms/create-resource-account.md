@@ -34,10 +34,6 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 > [!NOTE]
 > If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
 
-> [!NOTE]
-> **Skype for Business** <br><br>
-> If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
-
 ## Before you begin
 
 ### Requirements
@@ -100,4 +96,5 @@ There are no unique requirements to enable calling with resource accounts. You e
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](rooms-licensing.md)
+
 
