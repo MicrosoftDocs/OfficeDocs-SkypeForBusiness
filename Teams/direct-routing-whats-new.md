@@ -1,7 +1,7 @@
 ---
 title: What's New Direct Routing
 ms.reviewer: CarolynRowe
-ms.date: 09/08/2023
+ms.date: 09/22/2023
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -23,7 +23,16 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## SIP certificate final switch to new MSPKI Certificate Authority
+
+Following two tests on September 5th and 19th, Microsoft will perform the final switch to the new Certificate Authority (CA) on October 3rd, starting at 10 AM UTC. All Microsoft SIP endpoints will be gradually switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). 
+
+If your Session Border Controllers (SBCs) aren't properly configured with the new Certificate Authority (CA), your Direct Routing incoming and outgoing calls will fail after the switch. Please work with your SBC vendor directly for further guidance on SBC configuration.
+
+The change requirement and test were communicated to Direct Routing customers through Message Center posts as well as Service Health Incidents in the Microsoft Admin Portal (MC540239, TM614271, MC663640, TM674073, MC674729).
+
 ## SIP certificate to MSPKI Certificate Authority change additional testing
+
 On September 19th (starting at 4 PM UTC), Microsoft will perform a 24 hour test where all Microsoft SIP endpoints will be switched over to use certificates where the certificate chain will roll up to “DigiCert Global Root G2” Certificate Authority (CA). New Certificate Authority (CA) must be added in your SBC configuration and old Baltimore CA must be retained; do not replace the old CA.  If your SBC doesn’t trust this CA, you won't be able to connect to Teams SIP endpoints during the test. The final switch to the new Certificate Authority (CA) will be performed on October 3.
 
 If you’d like to test and confirm your SBCs certificate configuration prior to the change, Microsoft has prepared a testing endpoint that you can use to verify that SBC appliances trust certificates issued from the new root CA (DigiCert Global Root G2). This endpoint should be used only for SIP OPTIONS ping messages and not for voice traffic. If your SBC can establish a TLS connection to this endpoint, then your connectivity to Teams services should not be affected by the change.

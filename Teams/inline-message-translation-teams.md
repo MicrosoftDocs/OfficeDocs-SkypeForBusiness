@@ -1,7 +1,7 @@
 ---
 title: Turn on inline message translation
-author: ChuckEdmonson
-ms.author: chucked
+author: serdars
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 audience: Admin
