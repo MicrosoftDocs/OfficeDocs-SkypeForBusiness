@@ -1,10 +1,10 @@
 ---
-title:  Deploy the new Teams client using policies
+title:  Upgrade to the new Teams client using policies
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 08/16/2023
+ms.date: 10/3/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -15,31 +15,14 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how to deploy the new Microsoft Teams client.
+description: Learn about how to upgrade the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Deploy the new Teams using policies
+# Upgrade to the new Teams using policies
 
-You can deploy the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell. 
-
-## Policy settings for deployment
-
->[!Important]
->The new policy setting is now rolling out that lets you make the new Teams your default version.
->
->By setting the policy to **New Teams as default**, new Teams will become your default. Users can switch back to classic Teams using the toggle.
-
-Options include:
-
-   |Setting|Description|
-   |:-----|:-----|
-   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
-   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
-   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |**New Teams as default </br>Rollout for the feature began in early August, 2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
-
+You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell. 
 
 ## Prerequisites
 
@@ -48,6 +31,7 @@ Options include:
 |Windows| Windows 10 version 10.0.19041 or higher|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)
 
 
 #### Required Microsoft 365 Apps Security Updates
@@ -62,11 +46,9 @@ Options include:
 
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-## Set the policies to deploy the new Teams client
+## Set the policies to upgrade to the new Teams client
 
-As an admin, you can manage which users in your organizations see or don't see the **Try the new Teams** toggle to use the new Teams.
-
-:::image type="content" source="media/new-teams-toggle.png" alt-text="new teams try me toggle at the top of the screen":::
+As an admin, you can manage how new Teams to your users.
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy. 
 
@@ -74,7 +56,17 @@ Manage this setting in the **Teams Admin Center** or using **Teams PowerShell**.
 
 # [**Teams Admin Center**](#tab/teams-admin-center)
 
-Configure setting via Teams Admin Center
+Configure setting via Teams Admin Center.
+
+## Policy settings for upgrade
+
+   |Setting|Description|
+   |:-----|:-----|
+   |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
+   |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
+   |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
+   |**New Teams as default </br>Rollout for the feature began in early August, 2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
+
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
@@ -91,7 +83,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
 |New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
-|Microsoft controlled|Default. Based on product readiness, use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-rollout-schedule-for-windows-clients).|
+|**Microsoft controlled**|**Default. Use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-schedule-for-clients).**|
 
 </br>
 
@@ -100,7 +92,9 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 
 </br>
 
-5. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
+5.	Select new Teams as default from this setting to ensure users can get the new Teams experience when they launch
+
+6. Once the policy is defined, you can assign it to a **user or user group** with the Group policy assignment. To assign it to a group, select **Group policy assignment** and then **Add**,  or select one of the groups listed.
 
 :::image type="content" source="media/new-teams-update-policies-group.png" alt-text="update policies by group":::
 
@@ -109,7 +103,7 @@ Select a policy to assign to the group.
 
 :::image type="content" source="media/new-teams-update-policies-group-assign.png" alt-text="update policy and assign by group":::
 
-6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
+7. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
 
 :::image type="content" source="media/new-teams-update-policies-manage-users.png" alt-text="update policy per user":::
 
