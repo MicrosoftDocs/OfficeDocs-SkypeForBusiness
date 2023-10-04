@@ -43,12 +43,13 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tip** - If you must use proxy servers to provide access to Teams, first review [Proxy servers for Teams and Skype for Business Online](../proxy-servers-for-skype-for-business-online.md). When it comes to Microsoft Teams real-time media traffic over proxy servers, we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don't make it more secure and they add latency to real-time traffic. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
+> [!TIP]
+> If you must use proxy servers to provide access to Teams, first review [Proxy servers for Teams and Skype for Business Online](../proxy-servers-for-skype-for-business-online.md). When it comes to Microsoft Teams real-time media traffic over proxy servers, we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don't make it more secure and they add latency to real-time traffic. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![confirm sites.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the key requirements for Microsoft Teams Rooms.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>| 
-| ![plan device deployment.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>| 
+| ![plan device deployment.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment and configuration.</li></ul>|
 
 ## Service readiness
 
@@ -117,7 +118,8 @@ Planning for configuration and deployment covers the following key areas:
 
 Each Microsoft Teams Rooms device requires a dedicated and unique resource account that must be enabled for both Microsoft Teams and Exchange. This account must have a room mailbox hosted on Exchange. Calendar processing must be configured so that the device can automatically accept incoming meeting requests. For more information about creating these accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md). 
 
-**Pro Tip** - Each Microsoft Teams Rooms must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it's important to develop a naming convention for Microsoft Teams Rooms deployments that allows support personnel to easily locate the Microsoft Teams Rooms that has been flagged as requiring an action. An example might be using a pattern of MTR-*Site*-*Room Name* (MTR-LON-CURIE). 
+> [!TIP]
+> Each Microsoft Teams Rooms must have a valid and unique machine name on your network. Many monitoring and alerting systems display the machine name as a key identifier, so it's important to develop a naming convention for Microsoft Teams Rooms deployments that allows support personnel to easily locate the Microsoft Teams Rooms that has been flagged as requiring an action. An example might be using a pattern of MTR-*Site*-*Room Name* (MTR-LON-CURIE). 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
