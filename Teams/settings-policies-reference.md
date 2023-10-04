@@ -381,7 +381,7 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Who can present|Everyone|Controls who can be a presenter in Teams meetings. Organizers and co-organizers can change this when they set up Teams meetings.|
-|Screen sharing mode|Entire screen|Controls whether desktop and window sharing is allowed in the user's meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
+|Screen sharing mode|Entire screen|Controls whether a user is allowed to share a desktop and a window in a Teams meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|This setting controls whether external participants, anonymous users, and guests can be given control or request control of people in your organization's shared screen during a Teams meeting. This setting must be turned on in both organizations for an external participant to take control.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
