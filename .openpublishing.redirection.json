@@ -3166,6 +3166,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary",
     "redirect_document_id": false
