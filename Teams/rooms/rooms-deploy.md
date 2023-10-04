@@ -43,7 +43,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tip** - If you must use proxy servers to provide access to Teams, first [review this article](../proxy-servers-for-skype-for-business-online.md). When it comes to Microsoft Teams real-time media traffic over proxy servers, we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don't make it more secure and they add latency to real-time traffic. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
+**Pro Tip** - If you must use proxy servers to provide access to Teams, first review [Proxy servers for Teams and Skype for Business Online](../proxy-servers-for-skype-for-business-online.md). When it comes to Microsoft Teams real-time media traffic over proxy servers, we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don't make it more secure and they add latency to real-time traffic. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
