@@ -98,21 +98,25 @@ The following table lists training available to the end users in your organizati
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include (Premium features are bolded and marked with an asterisk):
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. 
 
-- Allow registered users to bypass the lobby
-- Assign a co-organizer
-- ***Create a webinar wait list**
-- ***Limit the day and time when people can register**
-- Limit the number of people who can register
-- ***Manage attendees’ view**
-- ***Manually approve registrants**
-- Require attendees to register
-- ***Send reminder emails to registrants**
-- ***Set up a green room for webinar presenters**
-- Turn on Q&A for webinars with up to 1000 attendees
-- ***Use RTMP-In for webinars**
-- View attendance reports
+Some of the base webinar features and premium webinar features are highlighted in the following table:
+
+|                                                       | Base webinar features | Premium webinar features |
+|-------------------------------------------------------|:---------------------:|:-------------------------:|
+|**Allow registered users to bypass the lobby**         |X                      |X                          |
+|**Assign a co-organizer**                              |X                      |X                          |
+|**Limit the number of people who can register**        |X                      |X                          |
+|**Require attendees to register**                      |X                      |X                          |
+|**Turn on Q&A for webinars with up to 1,000 attendees** |X                      |X                          |
+|**View attendance reports**                            |X                      |X                          |
+|**Create a webinar wait list**                         |                       |X                          |
+|**Limit the day and time when people can register**    |                       |X                          |
+|**Manage attendees’ view**                             |                       |X                          |
+|**Manually approve registrants**                       |                       |X                          |
+|**Send reminder emails to registrants**                |                       |X                          |
+|**Set up a green room for webinar presenters**         |                       |X                          |
+|**Use RTMP-In for webinars**                           |                       |X                          |
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
