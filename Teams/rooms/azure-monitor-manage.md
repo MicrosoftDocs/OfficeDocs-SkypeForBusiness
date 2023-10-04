@@ -1,7 +1,7 @@
 ---
 title: Monitor Microsoft Teams Rooms devices with Azure Monitor
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: This article discusses how to monitor Microsoft Teams Rooms devices in an integrated manner using Azure Monitor.
 ms.custom: seo-marvel-apr2020

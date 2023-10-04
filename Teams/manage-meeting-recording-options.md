@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
@@ -52,7 +53,7 @@ Meetings can be set to record automatically when they start. Normally, the meeti
 
 If there are certain types of meetings that should always be recorded, you can enforce this option by using a meeting template or a sensitivity label.
 
-If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meeting need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
+If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meetings need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
 
 ## Recording lifecycle
 

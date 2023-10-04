@@ -1,13 +1,14 @@
 ---
 title: Creating a stream in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 10/03/2022
 search.appverid: MET150
@@ -23,12 +24,12 @@ ms.custom:
 # Create a live event in Microsoft Teams
 
 > [!IMPORTANT]
-> **China**: Currently, users located in China will not be able to set up or attend Microsoft Teams or Yammer live events or view videos on-demand without their IT administrator's help.
+> **China**: Currently, users located in China will not be able to set up or attend Microsoft Teams or Viva Engage live events or view videos on-demand without their IT administrator's help.
 >
 > Before you start, check with your admin to see whether they need to set up a VPN to connect your corporate network so that these apps can work seamlessly in your organization.
 
 > [!IMPORTANT]
-> When setting up a live event, we recommend that you configure your video, community, and user permissions at least 24 hours before the event for the best experience. This includes such settings as adding users, updating video permissions, and changing a community from private to public. It can take up to two (2) hours for certain changes to propagate across Microsoft Stream, Microsoft Teams, and Microsoft Yammer. Allowing 24 hours or more can provide time for testing and making adjustments if needed.
+> When setting up a live event, we recommend that you configure your video, community, and user permissions at least 24 hours before the event for the best experience. This includes such settings as adding users, updating video permissions, and changing a community from private to public. It can take up to two (2) hours for certain changes to propagate across Microsoft Stream, Microsoft Teams, and Microsoft Viva Engage. Allowing 24 hours or more can provide time for testing and making adjustments if needed.
 
 ## Schedule the live event
 
@@ -43,7 +44,7 @@ ms.custom:
 1. Configure required options like **Q&A**, **Captions**, and others under **Event options**.
 1. Select **Schedule** to complete the scheduling for your live event.
 
-## Stream the live event
+## Stream to the live event
 
 1. Once you schedule your live event, you can retrieve the **RTMP server ingest URL** and **RTMP Key** under the **RTMP In details** section of the calendar invite, which you can use to push the content from Encoder through RTMP Ingest.
 1. To set up your encoder, copy the RTMP ingest URL and the RTMP Key into your encoder to start sending the live encoder feed to Team. Using an encoder for live streaming in Microsoft Teams has more information.
@@ -54,3 +55,4 @@ ms.custom:
 1. When you're finished with your event, select **End event** on the producer UI. This ends the event and makes the content immediately available for video-on-demand.
 
 For more information on streaming the live event, review [Produce a live event using Teams encoder](https://support.microsoft.com/office/produce-a-teams-live-event-using-teams-encoder-b0026c9d-fd37-4bb3-bffc-6961f221fbe9).
+

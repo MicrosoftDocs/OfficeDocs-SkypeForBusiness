@@ -1,15 +1,15 @@
 ---
 title: Teams Optional Connected Experiences 
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 09/29/2020
+ms.date: 05/12/2023
 ms.localizationpriority: high
 search.appverid: MET150
 description: This article outlines the optional connected experiences you will see in Microsoft Teams.
@@ -34,7 +34,7 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 ## URL Preview service
 
-The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it'll send a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to the Microsoft Teams while using these services can be sent to Microsoft Bing. They are not linked to you by the Bing organization.
+The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it'll send a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to Microsoft Teams while using these services can be sent to Microsoft Bing, including Bing Content Validation Service for evaluation of harmful content. They are not linked to you by the Bing organization.
 
 :::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
@@ -49,6 +49,10 @@ Teams device store is in the Teams admin center and it enables discovery and pur
 :::image type="content" source="media/teams-device-store-buttons.png" alt-text="A screenshot of a portion of the Teams device store page with Checkout options provided by UnifiedCommunications.com, a third-party company that enables device purchasing from the Teams admin center.":::
 
 To learn more about Teams device store, check out: [Purchase devices in the Teams device store](devices/device-store.md)
+
+## Search Coach Tab App
+
+The Search Coach Teams tab app available in Microsoft EDU Class Teams makes search requests to Bing search through the Bing API when a user sends a query, returning ad-free SafeSearch results. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement).
 
 ## Related articles
 

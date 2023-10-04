@@ -29,7 +29,7 @@ Policies are used to accomplish many tasks in your organization across different
 
 Policies can be assigned in several different ways depending on what your organization is trying to accomplish. You can make and view assignments in the Teams admin center.
 
-:::image type="content" source="media/group-policy-assignment.png" alt-text="Screenshot of Teams group policy assignment." lightbox="media/group-policy-assignment.png":::
+:::image type="content" source="media/group-policy-assignment-small.png" alt-text="Screenshot of Teams group policy assignment." lightbox="media/group-policy-assignment.png":::
 
 Learn more about assigning policies [here](policy-assignment-overview.md).
 
@@ -42,17 +42,17 @@ Policies are managed with the Microsoft Teams admin center or [using PowerShell]
 
 For example, an app setup policy can allow you to enable users to upload custom apps, install apps on behalf of your users, and pin apps to the Teams app bar. These policies are configured in the Teams admin center.
 
-:::image type="content" source="media/app-setup-policy.png" alt-text="Screenshot of app setup policy." lightbox="media/app-setup-policy.png":::
+:::image type="content" source="media/app-setup-policy-small.png" alt-text="Screenshot of app setup policy." lightbox="media/app-setup-policy.png":::
 
-Additionally, a meeting policy can be used to control audio and video settings in Teams meetings such as transcriptions, meeting recordings, and IP audio/video.
+Each policy has multiple controls which you can use to choose the options you want to use for your organization. For example, meeting policies allow you to specify meeting scheduling options for the people in your organization.
 
-:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Screenshot of meeting policy." lightbox="media/engineering-meeting-policy.png":::
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Screenshot of meeting policy." lightbox="media/engineering-meeting-policy.png":::
 
 ### Teams for Education
 
 You can also use the [Teams for Education policy wizard](easy-policy-setup-edu.md) to easily set up and manage policies for your learning environment.
 
-:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of Teams for Education policy wizard." lightbox="media/easy-policy-setup-quick-setup.png":::
+:::image type="content" source="media/easy-policy-setup-quick-setup-small.png" alt-text="Screenshot of Teams for Education policy wizard." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## Types of policies
 
@@ -65,6 +65,10 @@ Policy type | Description
 [Voice and calling policies](voice-and-calling-policies.md)| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.
 [App policies](app-policies.md)| App policies are used to control applications in Microsoft Teams. Admins can allow or block which apps users can install, pin applications to a user's Teams app bar, and install application on behalf of your users.
 [Messaging policies](messaging-policies-in-teams.md)| Messaging policies control chat and channel feature availability.
+
+This video is about differences between policies and settings.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbP?autoplay=false]
 
 ## Related topics
 

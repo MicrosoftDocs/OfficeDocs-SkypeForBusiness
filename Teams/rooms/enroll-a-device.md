@@ -11,7 +11,7 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
 appliesto: 
   - Microsoft Teams
@@ -23,9 +23,19 @@ f1keywords:
 
 
 
-# Enroll device into Pro Management
+# Enrolling a device into Pro Management
 
-Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Room (MTR) systems and peripherals.
+**With the upcoming Teams Rooms on Windows app update (version 4.17), which is scheduled for release by the end of June 2023, we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17, IT admins will no longer need to manually download and install the Pro management admin agent on each device.**
+
+Instead of performing the steps in this article, the Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
+
+Once the Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible on the Pro Management portal. This eliminates the need for any additional user action, making the process more efficient.
+
+> [!IMPORTANT]
+>
+> If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
+
+Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
@@ -41,7 +51,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
      ```
 
@@ -49,7 +59,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
@@ -76,7 +86,7 @@ Some configuration/installation procedures require you to log in to the device a
 To log in to the device as Administrator (local administrator):
 
 1. Ensure you hang up any ongoing calls and return to the home screen.
-1. In the Microsoft Teams Room user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
+1. In the Microsoft Teams Rooms user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
 1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.
 
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device).
@@ -109,7 +119,17 @@ mmrprodapacstor.blob.core.windows.net<br>
 mmrprodemeaiot.azure-devices.net<br>
 mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
-mmrprodnoamstor.blob.core.windows.net
+mmrprodnoamstor.blob.core.windows.net<br>
+mmrprodglobapi.azurewebsites.net<br>
+mmrprodnoamapi.azurewebsites.net<br>
+mmrprodemeaapi.azurewebsites.net<br>
+mmrprodapacapi.azurewebsites.net<br>
+
+**GCC customers should also ensure reachability to:**
+
+mmrprodgcciot.azure-devices.net<br>
+mmrprodgccstor.blob.core.windows.net<br>
+mmrprodgccapi.azurewebsites.net<br>
 
 ## Enrollment process
 
@@ -239,6 +259,6 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |||
 |You receive an error message stating: </p><p> ***TPM data cannot be found***|Ensure that your device has TPM (Trusted Platform Module) turned on in its BIOS. This is usually found in the security settings of the device BIOS.|
 |||
-|You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Room systems device.|
+|You receive an error message: </p><p> ***ERROR: Local user account named 'Admin' or 'Skype' not found***|Ensure that the user accounts exist on the certified Microsoft Teams Rooms systems device.|
 |||
 |You receive any error state messages that are not covered above.|Please provide a copy of your installation log to your Microsoft Teams System support agent.|

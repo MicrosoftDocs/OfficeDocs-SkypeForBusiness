@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 02/23/2023
+ms.date: 06/27/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -24,7 +24,7 @@ description: Learn how to change the metadata and appearance of an app to rebran
 
 Microsoft Teams admins can modify the appearance of some Teams apps to provide a personalized branded experience to their organization's users. Such modifications can enhance Teams store experience for users and help adhere to organization's branding. For example, admins can modify the description and icon of an app. The customization makes it easy for users to identify the app as internal tooling, to understand its org-specific use case, and to use it with confidence. Admins make these updates by changing some metadata or properties of an app. The changes are available only within their organization. This functionality is called app customization.
 
-Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize the following properties, app developers control which  properties can actually be customized by any admin.
+Admins can only customize apps if the app developer allows their app to be customized. While Teams provides an option to customize the following properties, app developers control the specific properties in their app that can be customized.
 
 * Short name
 * Short description
@@ -150,13 +150,13 @@ The limitations on some of the customizable fields are below:
 | My updates aren't available to my users. | Wait a few hours for changes to propagate. |
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
 | I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
-| Manage apps page not loading properly. List of apps is not displayed. | Admin account in use must have the Teams license assigned. |
+| Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned. |
 
 <!--- Check ICM for error string. --->
 
 ## Reset app details to default values
 
-You can reset the app details to the original values provided by the app developer. The option is only available for app that you customize.
+You can reset your customizations to the original values provided by the app developer. The option is only available for the apps that you customize.
 
 1. In Teams admin center, access **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 

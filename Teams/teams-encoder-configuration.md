@@ -1,13 +1,14 @@
 ---
 title: Encoder configuration for streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 09/07/2022
 search.appverid: MET150
@@ -28,7 +29,7 @@ To learn how to set up a Live event in Teams, read about creating live events. I
 
 ## Configuration Steps
 
-After you've scheduled the live event using Teams or Yammer, and selected the **Teams Encoder** option, you'll be able to retrieve the RTMP URL and key from the meeting invite and use them to send the feed into the Teams producer UI.
+After you've scheduled the live event using Teams or Viva Engage, and selected the **Teams Encoder** option, you'll be able to retrieve the RTMP URL and key from the meeting invite and use them to send the feed into the Teams producer UI.
 
 ### Gather the RTMP information
 
@@ -40,9 +41,9 @@ After you've scheduled the live event using Teams or Yammer, and selected the **
 1. Select the **Get RTMP** link to copy the RTMP ingest URL to the clipboard.
 1. Select the **Get RTMP key** to copy the RTMP key to the clipboard.
 
-#### Scheduled in Yammer
+#### Scheduled in Viva Engage
 
-1. Navigate to the Yammer community where the event was scheduled.
+1. Navigate to the Viva Engage community where the event was scheduled.
 1. Select the **Events** tab to see upcoming scheduled events.
 1. Select the desired event to bring up the details page.
 1. On the right side, under **Produce**, Select the **RTMP information** link to expose the RTMP URL and key.

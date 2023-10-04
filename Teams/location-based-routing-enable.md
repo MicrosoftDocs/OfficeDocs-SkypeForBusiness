@@ -5,7 +5,7 @@ author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
-ms.date: 02/01/2019
+ms.date: 08/10/2023
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -15,6 +15,8 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -24,7 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 This article describes how to enable Location-Based Routing for Direct Routing. Before you follow the steps in this article, make sure you've read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) and completed the steps in [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
- After you deploy Direct Routing and set up network regions, sites, and subnets, you're ready to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md)
+After you deploy Direct Routing and set up network regions, sites, and subnets, you're ready to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md)
 
  You have to enable Location-Based Routing for the following:
 

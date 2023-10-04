@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms maintenance and operations
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 ms.reviewer: sohailta
 ms.date: 02/23/2018
 manager: serdars
@@ -11,7 +11,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH
@@ -22,7 +22,7 @@ description: Learn about managing Microsoft Teams Rooms.
 # Microsoft Teams Rooms maintenance and operations
  
  
-Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams or Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Teams Rooms app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams or Skype for Business into your meeting room.
+Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams interface and IT administrators will appreciate an easily deployed and managed Windows app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams into your meeting room. The below information provides support for managing and operating Teams Rooms on Windows devices.
     
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
@@ -45,13 +45,12 @@ Downloaded logs on the device can take up disk space. If logs are not regularly 
 |Setting|Allows|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
-  
 ## Front of Room display settings
 <a name="Display"> </a>
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
-If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
+If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-4K-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-4K-210-C-E) from Crestron, the [DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC) from Liberty, or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
 
 ### Scale and resolution
 
@@ -86,12 +85,13 @@ If Microsoft Teams Rooms isn't running well, performing a factory reset might he
 
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
-  
+
 ## Supported Remote Options
 <a name="RemoteOptions"> </a>
 
 The following table summarizes the possible remote operations and the methods you can use to accomplish them.
   
+
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
@@ -100,7 +100,6 @@ The following table summarizes the possible remote operations and the methods yo
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
 |Access logs  <br/> |Teams admin center  <br/> PowerShell  <br/> |Teams admin center <br/> PowerShell  <br/>  |
-   
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
 
@@ -111,8 +110,6 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 - Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you will not have to remember the local machine level administrator account password.
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
-
-- If using Skype for Business, domain-joining the Teams Rooms automates importing your organization's private root certificate chain.
 
 When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
 
@@ -155,7 +152,7 @@ You can perform the following management operations remotely by using PowerShell
     
 > [!NOTE]
 > This functionality is off by default. You need to enable remote PowerShell for your environment on the Microsoft Teams Rooms system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** for information about how to enable remote PowerShell.
-  
+
 For example, you can enable Remote PowerShell as follows:
   
 1. Sign in as Admin on a Microsoft Teams Rooms device.
@@ -175,7 +172,7 @@ To Get Attached Devices
   
 ```PowerShell
 invoke-command {Write-Host "VIDEO DEVICES:" 
-gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
+gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image" -or $_.PNPClass -eq "Camera"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table Name,Status,Present} -ComputerName <Device fqdn>
 ```
@@ -228,6 +225,8 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
 
 
 
+
+
 ## Admin mode and device management
 <a name="AdminMode"> </a>
 
@@ -258,7 +257,35 @@ The console is now back in its normal operation mode. The following procedure re
    1. Select **Sign Off**.
 5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
 6. Delete the **Teams** folder.
-7. Restart the Teams Room when you're finished.
+7. Restart the Teams Rooms device.
+8. Sign in and restart again, once the Teams Room's interface has appeared.
+
+### Changing the Teams Room console language or date & time format
+
+1. Switch to Admin mode.
+2. Select the Start menu.
+3. Select the gear icon to launch the **Settings** app.
+4. Select **Time &amp; language**.
+5. Select **Language &amp; region**.    
+6. Select **Add a language**.    
+7. Select the language you wish to add.    
+8. Install language features.
+9. Do not check **Set as my Windows display language**      
+10. Select **Install**.    
+11. Select the language you just added to the "Languages" list.    
+12. Set as default- Move up arrow to set default
+13. For any languages you wish to remove:
+    a. Select the language you wish to remove.
+    b. Select Remove.
+14. If you wish to change the date & time format, modify the location selection tied to **Regional format** until Windows displays as desired
+14. Start an elevated command prompt.
+15. Run the following command: 
+    ```PowerShell
+    powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
+17. Restart the system.
+    
+Your desired language is now applied to the Microsoft Teams Rooms console.
  
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
@@ -280,3 +307,5 @@ The console is now back in its normal operation mode. The following procedure re
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera settings.
 - Loss of console touchscreen access has been known to occur. In such cases, the issue is sometimes resolved by restarting Teams Rooms.
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
+
+

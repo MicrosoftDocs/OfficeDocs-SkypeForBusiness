@@ -1,13 +1,14 @@
 ---
 title: Overview of the encoder for streaming in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 09/20/2022
 search.appverid: MET150
@@ -34,7 +35,7 @@ After the event, the video will be available on demand with intelligent features
 
 ## Live events in Microsoft 365
 
-You can create a live steaming event in Teams or Yammer, wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
+You can create a live steaming event in Teams or Viva Engage, wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
 
 ## Get started
 
@@ -67,7 +68,7 @@ The following are capabilities of live streaming events:
 |Attendee DVR controls                                |Pause, playback speed (2x catch up, 1x at live), seek                |
 |Real-time captions                                   |708 caption pass-through from encoder                                |
 |Automatic speech-to-text and captions                |Processed after the event                                            |
-|Interactive discussions                              |Supported via Yammer when the event is created from Yammer           |
+|Interactive discussions                              |Supported via Viva Engage when the event is created from Viva Engage           |
 |Teams comments                                       |Available after the event ends                                       |
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
 |Downloadable recording                               |Processed and available after the live event by owners               |

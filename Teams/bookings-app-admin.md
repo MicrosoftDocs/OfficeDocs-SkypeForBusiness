@@ -1,8 +1,8 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: samanro
-ms.author: samanro
-manager: samanro
+author: MicrosoftHeidi
+ms.author: heidip
+manager: serdars
 audience: ITPro
 ms.topic: how-to 
 ms.service: msteams 
@@ -21,10 +21,10 @@ ms.collection:
   - m365solution-scenario
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
   - m365initiative-meetings
-ms.reviewer: revathim, thyagarajans
+  - m365-virtual-appointments 
+ms.reviewer: revathim
 ms.date: 03/23/2023
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
@@ -64,9 +64,6 @@ For more information about meeting policies, see [Manage meeting policies in Tea
 ## SMS text notifications
 
 ![Information icon](media/info.png) **This feature is now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
-
-> [!NOTE]
-> We'll be providing unlimited SMS notifications through April 3, 2023 (previously March 1, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide more details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
 
 SMS text notifications are currently available in Canada, the United Kingdom, and the United States.
 

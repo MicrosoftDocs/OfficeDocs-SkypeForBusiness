@@ -79,7 +79,7 @@ additionalContent:
         # Card
         - title: Prepare your users
           summary: Get your users up and running with Teams Live Training.
-          url: ./instructor-led-training-teams-landing-page.yml
+          url: https://aka.ms/teamslivetraining
         # Card
         - title: New to Teams? 
           summary: Learn more about getting started with Teams.

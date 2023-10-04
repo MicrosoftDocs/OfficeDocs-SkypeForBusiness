@@ -1,7 +1,7 @@
 ---
 ms.date: 03/14/2018
 title: "End of life program for the integration of Skype for Business with third-party audio conferencing providers "
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar

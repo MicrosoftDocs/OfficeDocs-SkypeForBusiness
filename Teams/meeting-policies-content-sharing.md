@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua, shalenc
+ms.reviewer: 
 ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Tier2
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -24,7 +25,12 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 
 # Manage meeting policies for content sharing
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars
+
 Content sharing settings control how users present a screen or app during a meeting or chat. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
+
+> [!NOTE]
+> Meeting policies for content sharing also apply to webinars.
 
 To change a content sharing setting
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -46,22 +52,13 @@ You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-cst
 
 ## Screen sharing mode
 
-This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
+This setting is a per-user policy. The setting controls whether a user can share a desktop and window in a Teams meeting.
 
 |Setting value |Behavior  |
 |---------|---------|
 |**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting. |
 |**Single application**   | Application sharing is allowed in the meeting. If your users are using Teams in a web browser and are assigned this value, this setting will function as **Not enabled**.  |
 |**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
-
-Let's look at the following example.
-
-|User |Meeting policy |Screen sharing mode |
-|---------|---------|---------|
-|Daniela  | Global   | Entire screen |
-|Amanda   | Location1MeetingPolicy  | Not enabled |
-
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is **Not enabled**. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings. 
 
 ### PowerPoint Live
 
@@ -105,9 +102,28 @@ For information for your end users about how to use Whiteboard, see [Use Whitebo
 
 Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is installed on your Surface Hub device. If Whiteboard isn't installed, on the Surface Hub device, go to the Microsoft Store app, and get [Microsoft Whiteboard](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, see [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
-#### Annotation
+#### Annotations
 
-When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotation.
+When whiteboard is enabled, users will have the option to use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard is not enabled, users will not have access to annotations.
+
+Use the following to turn on/off collaborative annotations:
+
+```
+Set-SPOTenant -IsWBFluidEnabled
+```
+
+> [!NOTE]
+> This will also turn on/off Whiteboard in meetings.
+
+The admin policy for collaborative annotations is a user-level policy and following are its details:
+
+  - **Policy name**: CSTeamsMeetingPolicy
+  
+  - **Setting name**: AllowCollaborativeAnnotations
+
+  - **Setting type**: ENUM true/false
+
+The admin can either run the PowerShell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 

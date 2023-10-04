@@ -12,7 +12,8 @@ search.appverid: MET150
 description: Learn how to set up Teams to request a dial-out confirmation to prevent voicemail systems from connecting to meetings when the called person is unable to answer the call.
 ms.localizationpriority: medium
 ms.collection: 
-  - M365-voice
+  - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

@@ -1,8 +1,8 @@
 ---
 ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business"
-ms.author: dstrome
-author: dstrome
+ms.author: serdars
+author: tonysmit
 manager: serdars
 ms.reviewer: divank
 ms.topic: article

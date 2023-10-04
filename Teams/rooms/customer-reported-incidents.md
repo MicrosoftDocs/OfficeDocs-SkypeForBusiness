@@ -4,7 +4,7 @@ author: altsou
 ms.author: altsou
 ms.date: 09/28/2022
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: tonysmit
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,8 +12,9 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

@@ -1,5 +1,5 @@
 ---
-title: "Set up Phone System in your organization"
+title: "Set up Teams Phone in your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,6 +15,7 @@ ms.collection:
   - m365solution-voice
   - m365solution-scenario
   - highpri
+  - Tier1
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -24,40 +25,42 @@ f1.keywords:
 ms.custom:
   - Phone System
   - intro-get-started
-description: Learn how to set up Teams Phone System for your organization in Microsoft 365.
+description: Learn how to set up Microsoft Teams Phone for your organization in Microsoft 365.
 ---
 
-# Set up Phone System in your organization
+# Set up Teams Phone in your organization
 
-This article provides a roadmap to content for setting up Phone System--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
+This article provides a roadmap to content for setting up Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. 
 
-To learn more about Phone System features and requirements, see [What is Phone System](what-is-phone-system-in-office-365.md) and [Phone System features](here-s-what-you-get-with-phone-system.md). 
+To learn more about Teams Phone features and requirements, see [What is Teams Phone](what-is-phone-system-in-office-365.md) and [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
-To enable your users to make and receive external calls, you'll need to connect Phone System to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
+To enable your users to make and receive external calls, you'll need to connect Teams Phone to the Public Switched Telephone Network (PSTN). PSTN connectivity options are also introduced in this article.  
 
-If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization. 
+If you're still planning your voice solution, start by reading [Plan your voice solution](cloud-voice-landing-page.md), which helps you decide which Microsoft voice solution is right for your organization.
 
 This article introduces the following steps. Each step contains links to more detailed information.
  
-- [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)
+- [Step 1: Buy and assign a Teams Phone license](#step-1-buy-and-assign-a-teams-phone-license)
 - [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option)
 - [Step 3: Get and assign phone numbers for your users and services](#step-3-get-and-assign-phone-numbers-for-your-users-and-services)
 - [Step 4: Set up emergency calling](#step-4-set-up-emergency-calling)
 - [Step 5: If you want to set up an auto attendant](#step-5-if-you-want-to-set-up-an-auto-attendant)
 - [Step 6: If you want to set up a call queue](#step-6-if-you-want-to-set-up-a-call-queue)
-- [Step 7: Set up other Phone System features](#step-7-set-up-other-phone-system-features)
+- [Step 7: Set up other Teams Phone features](#step-7-set-up-other-teams-phone-features)
 - [Step 8: Manage your deployment](#step-8-manage-your-deployment)
 
 > [!NOTE]
 > Be aware that some steps will differ depending on the PSTN connectivity option you choose. For example, the steps and sequence for phone number management and emergency calling management might differ. These differences are described in detail in the associated articles.
 
-## Step 1: Buy and assign a Phone System license
+## Step 1: Buy and assign a Teams Phone license
 
-For each user who uses Phone System, you must assign a Phone System license to that user.   
+For each user who uses Teams Phone, you must assign a Teams Phone license to that user.
 
-You can assign a license to a single user or you can assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Don't assign the **Microsoft Teams Phone Resource Account** license to any user other than resource accounts.
 
-The Microsoft Teams Phone System with Calling Plan license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Phone System with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
+You can assign a license to a single user or you can assign licenses to multiple users in bulk. For more information about available Teams Phone licenses and how to acquire and assign licenses, see [Teams add-on licenses](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+
+The Teams Phone with Calling Plan license bundle is Microsoft’s all-in-the-cloud solution. This option provides Private Branch Exchange (PBX) capabilities and external calls to the Public Switched Telephone Network (PSTN) with Microsoft as your carrier. If the Teams Phone with Calling Plan bundle is available in your location, you should consider this option. But if your PSTN calling requirements are more complex, Microsoft offers several PSTN connectivity options for making external calls.
 
 ## Step 2: Choose a PSTN connectivity option
 
@@ -69,9 +72,10 @@ Microsoft options for making external calls to the PSTN include:
 
 - [Teams Phone Mobile](operator-connect-mobile-plan.md). If your existing carrier participates in the Microsoft Teams Phone Mobile program, they can manage the service for using SIM-enabled mobile phone numbers with Teams.
 
-- [Direct Routing](direct-routing-plan.md). This option lets you use your own PSTN carrier by connecting your SBCs to Phone System.
+- [Direct Routing](direct-routing-plan.md). This option lets you use your own PSTN carrier by connecting your SBCs to Teams Phone.
 
-For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/teams-add-on-licensing/microsoft-teams-add-on-licensing?branch=crowe-phone-system#voice-and-pstn-connectivity.md).
+For more information about all connectivity options and which one is the best solution for your organization, see [PSTN connectivity options](pstn-connectivity.md) and [Voice and PSTN connectivity license options](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing#voice-and-pstn-connectivity).
+
 
 ## Step 3: Get and assign phone numbers for your users and services
 
@@ -85,7 +89,7 @@ For information on how to manage phone numbers for your users and services, see 
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types (user and service) with links to specific articles for acquiring and managing numbers.
 
-- [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
+- [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the user phone numbers you've acquired.  
 
 - [Manage resource accounts for service numbers](manage-resource-accounts.md) - Describes how to create resource accounts for auto attendants and call queues, and assign service numbers to those resource accounts.
 
@@ -99,7 +103,7 @@ An emergency location is used when someone in your organization calls emergency 
 
 How you set up emergency locations and assign these locations to users differs depending on the PSTN connectivity option you choose. For some options, your carrier assumes much of the responsibility for setting up emergency calling.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more inforation, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
+Dynamic emergency calling provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client. Setting up dynamic emergency calling also requires you to configure your network settings and topology. For more information, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md) and [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 For information about assigning emergency locations to users, see [Assign an emergency location](assign-change-emergency-location-user.md).
 
@@ -116,9 +120,9 @@ Call queues include greetings that are used when someone calls in to a phone num
 For more information about call queues, see [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and [Create a call queue](create-a-phone-system-call-queue.md).
 
 
-## Step 7: Set up other Phone System features
+## Step 7: Set up other Teams Phone features
 
-There are numerous Phone System features, which are summarized in [Phone System features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to auto attendants and call queues, some of the more common features you might want to configure include:
+There are numerous Teams Phone features, which are summarized in [Teams Phone features](here-s-what-you-get-with-phone-system.md). Some of these features require configuration, others do not. In addition to auto attendants and call queues, some of the more common features you might want to configure include:
 
 - [Cloud voicemail](set-up-phone-system-voicemail.md)
 - [Caller ID](caller-id-policies.md)
@@ -128,17 +132,17 @@ Calling policies control which calling and call forwarding features are availabl
 
 ## Step 8: Manage your deployment
 
-A successful Phone System deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
+A successful Teams Phone deployment also involves managing your devices and monitoring call quality and performance. For more information, see:
 
-- [Manage devices](/devices/device-management.md)
+- [Manage devices](./devices/device-management.md)
 - [Manage and monitor call quality](monitor-call-quality-qos.md)
 
 
 ## Related articles
 
-- [What is Phone System](what-is-phone-system-in-office-365.md)
+- [What is Teams Phone](what-is-phone-system-in-office-365.md)
 
-- [Phone System features](here-s-what-you-get-with-phone-system.md)
+- [Teams Phone features](here-s-what-you-get-with-phone-system.md)
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 

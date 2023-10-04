@@ -31,12 +31,12 @@ If you have already rolled out other Microsoft 365 or Office 365 services and Te
 
 ## Start here
 
-To get started with your Teams First deployment you will need to meet at minimum some pre-requisites. The following list will show what you must have in place for your organization before Teams can be enabled:
+To get started with your Teams First deployment you will need to meet at minimum some prerequisites. The following list will show what you must have in place for your organization before Teams can be enabled:
 
 1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
-2.  Azure Active Directory connectivity (AAD connect) or similar cloud identity sync solution – with all required attributes synched with your tenant  
-    To understand the attributes synchronized with AAD sync, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Azure Active Directory connectivity or similar cloud identity sync solution – with all required attributes synched with your tenant  
+    To understand the attributes synchronized with Azure AD Connect, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
     To understand Teams licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
@@ -54,17 +54,17 @@ To get started with your Teams First deployment you will need to meet at minimum
 
 ## Migration Starting points
 
-Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the pre-requisites above. We have broken down the starting point scenarios to the following topics:
+Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the prerequisites above. We have broken down the starting point scenarios to the following topics:
 
 **Tenant Teams Configuration**: Tenant and user modes are used to control the recipient's behavior. These settings can be assigned on the tenant level or the user level in an organization. To learn more, read [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
 
-**Chat / External communication in Teams**: Chat services refer to peer to peer or group chat conversations within and organization or externally to the organization. External communication is also referred to as federation in Skype for Business.
+**Chat / External communication in Teams**: Chat services refer to peer-to-peer or group chat conversations within and organization or externally to the organization. External communication is also referred to as federation in Skype for Business.
 
 **Create and view meetings in Teams**: A user can always create online meetings via the Outlook Teams add-in and PSTN dial-in is available in all scenarios once the user is licensed. Teams and Skype for Business store calendaring information in the user's Exchange mailbox. On premises Exchange server must be Exchange Server 2016 CU3 or above for the Teams client to be able to interact with the user's mailbox. Without Exchange mailbox access the Calendar icon in Teams will not appear and they user will not be able to view, create or modify meetings in the Teams client.
 
 **Calling features VoIP / PSTN in Teams**: Calling can be Voice over IP (VoIP) or Public Switched Telephone Network (PSTN). VoIP connectivity happens natively between Teams clients, while PSTN connectivity happen when a user dials an outside phone number.  
 
-Teams support two types of PSTN connectivity. Microsoft Calling Plan, when Microsoft provides telephony infrastructure including the phone number for a user, or Direct Routing configuration, where the customer provides the telephony connectivity over a Session Border Controller (SBC) for the Teams user.  
+Teams supports two types of PSTN connectivity. Microsoft Calling Plan, when Microsoft provides telephony infrastructure including the phone number for a user, or Direct Routing configuration, where the customer provides the telephony connectivity over a Session Border Controller (SBC) for the Teams user.  
 To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-page.md) and [Phone System Direct Routing](direct-routing-landing-page.md).
 
 **Teams and Channels collaboration in Teams**: In Teams, teams are groups of people brought together for work, projects, or common interests. Teams are made up of channels. Each channel is built around a topic, like "Team Events," a department name, or just for fun. Channels are where you hold meetings, have conversations, and work on files together. During collaboration
@@ -107,7 +107,7 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <tr class="odd">
 <td>Create and view Meetings in Teams</td>
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
-<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>PSTN Dial-in and Dial-out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
 
 In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
@@ -148,7 +148,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 
 ### Enablement steps for organizations without Skype for Business or Lync Server
 
-1.  Meet pre-requisites detailed in the Start Here section above
+1.  Meet prerequisites detailed in the Start Here section above
 
 2.  Switch tenant into Teams Only mode (for existing tenants only): [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
 
@@ -186,7 +186,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <tr class="odd">
 <td>Create and view Meetings in Teams</td>
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
-<p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
+<p>PSTN Dial-in and Dial-out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
 <p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy's PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
@@ -230,7 +230,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 
 ### Enablement steps for organizations with Skype for Business Server  
 
-1.  Meet pre-requisites detailed in the Start Here section above.
+1.  Meet prerequisites detailed in the Start Here section above.
 
 2.  Switch tenant into Islands mode (for tenants provisioned AFTER 9/1/2019, please contact support to make this change)  
     [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
@@ -254,11 +254,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 
 Microsoft Teams can be an enabler for your organization to bring all the employees, information workers and Frontline workers, together on a single platform. You can [get started](https://products.office.com/microsoft-teams/group-chat-software) today. You can keep in touch with all our latest announcements and monthly product updates [here](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog).
 
-Additionally, as companies around the world are managing the current COVID-19 situation, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
-
-  - Our [commitment to customers during COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
-
-  - [2 weeks in: what we've learned about remote work](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/18/making-the-switch-to-remote-work-5-things-weve-learned/)
+Additionally, we have created a series of content that will help you utilize Teams for the maximum impact in your organization.
 
   - [Delivering online meetings and events](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
@@ -270,13 +266,11 @@ Additionally, as companies around the world are managing the current COVID-19 si
 
   - [Work remotely, stay secure—tips for CISOs](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
-  - [Helping teachers and students make the switch to remote learning](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/11/helping-teachers-students-switch-remote-learning/)
-
   - [Staying productive while working remotely with Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
 
 ## Support Services reference
 
-Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Microsoft 365 or Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its pre-requisites here: [Welcome to Teams](teams-overview.md).
+Teams relies on Exchange Online, SharePoint Online, OneDrive for Business and Microsoft 365 Groups to provide your users with a fully integrated Microsoft 365 or Office 365 experience. As noted above, Teams will work without full deploying these services – with limited capabilities. You can read more about Teams and its prerequisites here: [Welcome to Teams](teams-overview.md).
 
 For specifics on each of the services listed above, please follow the links below:
 
@@ -292,7 +286,7 @@ For specifics on each of the services listed above, please follow the links belo
 
 ## Related topics
 
-[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md)
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 

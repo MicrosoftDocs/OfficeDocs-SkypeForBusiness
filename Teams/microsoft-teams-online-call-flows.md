@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 06/08/2018
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -14,6 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 description: Learn how Teams uses Office 365 flows in various topologies, as well as unique Team flows used for peer-to-peer media communication.

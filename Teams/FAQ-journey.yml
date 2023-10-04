@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
   title: Upgrading from Skype for Business to Teams FAQ
-  author: dstrome
-  ms.author: dstrome
+  author: MikePlumleyMSFT
+  ms.author: mikeplum
   manager: serdars
   ms.topic: faq
   ms.service: msteams
@@ -156,7 +156,7 @@ sections:
           
       - question: What does this mean from a licensing perspective? How will customers pay for capabilities such as Audio Conferencing and calling in Teams?
         answer: |
-          Teams is available in Microsoft 365 and Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
+          Teams is available in most Microsoft 365 and Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
       
       - question: What is the guidance for customers already deployed on Phone System (Cloud PBX) in Skype for Business Online?
         answer: |
@@ -168,7 +168,7 @@ sections:
           
       - question: Is Audio Conferencing coverage in Teams different in Skype for Business?
         answer: |
-          There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+          There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries/regions and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
       - question: Will the latest generation of Skype Room Systems v2 support meetings in Teams?
         answer: | 

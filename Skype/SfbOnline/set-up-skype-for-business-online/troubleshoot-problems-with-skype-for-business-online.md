@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Troubleshoot problems with Skype for Business Online"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article

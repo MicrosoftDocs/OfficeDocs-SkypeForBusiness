@@ -44,6 +44,9 @@ Acceptable phone numbers that can be applied to resource accounts include:
 - **Direct Routing numbers:** To acquire Direct Routing numbers, see [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
 - **Operator Connect numbers:** To acquire Operator Connect numbers, see [Configure Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
+> [!NOTE]
+> Resource accounts with Direct Routing phone numbers with or without extensions are supported. Currently, the Teams admin center only supports assigning Direct Routing phone numbers without extensions. To assign a Direct Routing phone number with an extension to a resource account, use the Teams PowerShell cmdlet [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+
 To port a number from another carrier, see [Transfer phone numbers to Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ## Create a resource account
@@ -65,6 +68,9 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 3. Select the resource account to which you want to assign a license. The resource account's user pane will appear.
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 5. Select **Save changes**.
+   
+> [!NOTE]
+> If the resource account requires a phone number, check that the **Select location** dropdown list in the **Licenses and Apps** tab matches the intended country code.
 
 ## Assign a phone number
 
@@ -76,10 +82,4 @@ If you're planning to use the resource account with an auto attendant or call qu
 4. In the **Phone number type** dropdown, choose the type of number that you want to use.
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
-
-To assign a Direct Routing or hybrid number to a resource account, you need to use PowerShell:
-
-```powershell
-Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
-```
 

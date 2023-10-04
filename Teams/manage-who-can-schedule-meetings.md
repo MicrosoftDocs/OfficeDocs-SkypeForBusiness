@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -25,12 +26,12 @@ description: Learn how to use Teams meeting policy settings to control who can s
 
 As an admin, you can control which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and compliance reasons, where you may not want particular users setting up meetings.
 
-The meeting scheduling policy settings are turned on by default. These settings are per-user policies and they apply before a meeting starts. These settings can be found in the Teams admin center under **Meetings** > **Meeting scheduling**.
+The meeting scheduling policy settings are turned on by default. These settings are per-user policies and they apply before a meeting starts. These settings can be found in the **Meeting scheduling** section of meeting policies in the Teams admin center.
 
 - **Private meeting scheduling**: Controls whether a user can schedule a private meeting in Teams.
-- **Meet now in channel meetings**: Controls whether a user can start an instant meeting in a channel.
+- **Meet now in private meetings**: Controls whether a user can start an instant private meeting.
 - **Channel meeting scheduling**: Controls whether a user can schedule a meeting in a channel.
-- **Meet now in channel meetings**: Controls whether a user can start an instant private meeting.
+- **Meet now in channel meetings**: Controls whether a user can start an instant meeting in a channel.
 - **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook.
 
 You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to update these meeting policy settings.

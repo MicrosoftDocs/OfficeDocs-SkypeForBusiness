@@ -1,8 +1,8 @@
 ---
 title: Set up the Call me feature for your users
-author: CarolynRowe
-ms.author: crowe
-ms.reviewer: macai, phedry
+ms.author: mikeplum
+author: MikePlumleyMSFT
+ms.reviewer: 
 ms.date: 05/28/2019
 manager: serdars
 ms.topic: article
@@ -12,7 +12,8 @@ search.appverid: MET150
 description: Learn how to set up the Call me feature in Teams so that users can join the audio portion by phone when using their computer for audio might not be possible.
 ms.localizationpriority: medium
 ms.collection: 
-  - M365-voice
+  - Tier1
+  - m365initiative-meetings
 f1.keywords:
 - NOCSH
 appliesto: 
@@ -23,10 +24,6 @@ ms.custom: seo-marvel-mar2020
 # Set up the Call me feature for your users
 
 In Microsoft Teams, the **Call me** feature gives users a way to join the audio portion of a meeting by phone. This is handy in scenarios when using a computer for audio might not be possible. Users get the audio portion of the meeting through their cell phone or land line and the content portion of the meeting&mdash;such as when another meeting participant shares their screen or plays a video&mdash;through their computer.
-
-> [!IMPORTANT]
-> 
-> During periods of high meeting volume (which we've been experiencing in conjunction with the COVID-19 outbreak), we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This helps ensure quality audio during times when high meeting volume is causing congestion on the PSTN network.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

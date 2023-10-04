@@ -1,16 +1,17 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.reviewer: mikedav, vkorlep
+ms.reviewer: mikedav
 ms.date: 09/24/2021
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -37,11 +38,13 @@ For more information on Teams admin roles, see [Use Microsoft Teams administrato
 
 Real-Time Analytics lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate these issues during meetings and troubleshoot in real time.
 
+You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts/alerts-in-progress-meeting-audio.md).
+
 ## What is Real-Time Analytics?
 
 Today, individual meeting troubleshooting is available for Teams administrators through [Call Analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) after the meeting ends. Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress.
 
-Real-Time Analytics shows detailed information about Teams meetings for each user in your Office 365 account, updated in real time. It includes information about devices, network, connectivity, audio, video, and content sharing issues, which will help admins troubleshoot call quality more effectively.
+Real-Time Analytics shows detailed information about Teams meetings for each user in your Microsoft 365 account, updated in real time. It includes information about devices, network, connectivity, audio, video, and content sharing issues, which will help admins troubleshoot call quality more effectively.
 
 As a Teams admin, you get full access to all real-time telemetry data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, see [Give permission to support and help desk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
 
@@ -76,11 +79,11 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 | Metric | Units / Possible values | Description | Possible reasons for blank values|
 |:---|:---|:---|:---|
 | Network type | &bull; Ethernet <br/> &bull; Wi-Fi | Type of network connection in use | |
-| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Strength of the user's current Wi-Fi connection | User isn't connected to Wi-Fi |
+| Wi-Fi strength | &bull; Excellent: -50 dBm or greater <br/> &bull; Good: -51 dBm to -64 dBm<br/> &bull; Poor: -65 dBm or lower | Received signal strength indicator (RSSI) of the user's current Wi-Fi connection measured in decibel-milliwatts | User isn't connected to Wi-Fi |
 | Wi-Fi channel | Integer | Channel over which the Wi-Fi network's access point is broadcasting | User isn't connected to Wi-Fi |
 | Physical type | String <br/> &bull; Example: 802.11ac | Wireless infrastructure type in use | User isn't connected to Wi-Fi |
 | Wi-Fi band | 2.4 GHz or 5 GHz | Wi-Fi band to which the user is connected | User isn't connected to Wi-Fi |
-| Location | String | Country in which the user is located | User's location information is blocked or unavailable |
+| Location | String | Country/Region in which the user is located | User's location information is blocked or unavailable |
 | Local IP address | String (IP:Port) | Local IP address of the user's endpoint and the media port | |
 | Server reflexive IP address | String (IP:Port) | Public IP address of the user's endpoint and the media port | |
 | Connectivity type | UDP or TCP | Transport layer protocol in use; UDP is preferred for real-time media | |
@@ -96,7 +99,7 @@ User signals identify when a user is actively participating in the call, isn't s
 ### Audio
 |Measure Name |Units |Good Threshold |Description |
 |:---|:---|:---|:---|
-|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. | 
+|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When jitter is too high, audio can become choppy. Real-Time Analytics displays network inter-arrival jitter, not audio jitter. | 
 |Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
 |Round Trip Time (RTT) |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of high RTT is when two people in a meeting are unintentionally speaking over each other due to the delay. Shown for outbound audio only. |
 |Bitrate |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
@@ -146,7 +149,6 @@ User signals identify when a user is actively participating in the call, isn't s
 
 - Windows
 - macOS
-- Linux
 - Android
 - iOS
 
@@ -155,7 +157,7 @@ User signals identify when a user is actively participating in the call, isn't s
 
 ## Teams devices with support for real-time telemetry
 
-- Teams display
+- Teams displays
 - Teams phone
 - Teams Rooms
 - Teams Rooms on Surface Hub

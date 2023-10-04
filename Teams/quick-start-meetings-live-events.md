@@ -4,8 +4,8 @@ ms.reviewer:
 ms.date: 04/01/2020
 description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: wlibebe
+author: wlibebe
 manager: serdars
 ms.service: msteams
 ms.subservice: meetings
@@ -20,7 +20,7 @@ ms.collection:
 - m365initiative-meetings-enabler
 - enabler-strategic
 - highpri
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -40,21 +40,22 @@ The following table summarizes the three types of meetings, the number of recomm
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* | - Participants up to 1,000 have fully interactive equal meeting capabilities. <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes, with Meetings with registration (webinars 1.0) |
+| Meetings  | Up to 20,000* |**Microsoft 365 Business Basic, Microsoft 365 Business Standard, and Microsoft 365 Business Premium:** <br> - You can host online meetings and video calls for up to [300 people](limits-specifications-teams.md) using Microsoft Teams. <br>  <br> **Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans:** <br> - You can host online meetings and video calls for up to 1,000 people using Microsoft Teams. <br>  - Participants up to 1,000 have fully interactive equal meeting capabilities.*** <br> - Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | Yes |
 | Webinars | - Up to 1,000<br>- Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |- Participants up to 1,000 have fully interactive capabilities.<br> - Audience interaction configurable.<br> - Can specify presenters. | Yes |
 | Live events | Up to 20,000** |- Broadcast to large audiences. <br>- Moderated Q&A for audience interaction. <br> - Can specify producers and presenters, including external presenters.<br>- Supports more advanced production capabilities. | No |
 
-*The usual 10,000 is increased to 20,000 through June 30, 2023.
-
-**The usual 10,000 is increased to 20,000 through June 30, 2023. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+**The usual 10,000 is increased to 20,000 through December 30, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
-> [!NOTE]
-> For additional information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
+***The view-only meeting experience is only available for Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans.
 
 > [!NOTE]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
+> [!NOTE]
+> For more information and to get guidance by role for delivering online events using Microsoft Teams, see the [Virtual Event Playbook](https://aka.ms/VirtualEventPlaybook). You can also join the [Virtual Event Forum](https://aka.ms/VirtualEventForum) on the Microsoft Tech Community.
+
 
 ## Meetings
 
@@ -64,6 +65,8 @@ As the administrator, you'll configure meeting settings and control which meetin
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
+Your users can also require attendees to register for meetings. To learn more about how to manage meetings with registration, see [Set up meeting registration](set-up-meeting-registration.md)
+
 For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
 ### Articles for administrators
@@ -72,11 +75,12 @@ The following table highlights key articles that you'll want to review:
 
 | Article | Description |
 |----------|--------|
-| [Meeting settings](meeting-settings-in-teams.md) |  Describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
 | [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. |
 | [Manage Teams meeting recording](meeting-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 | [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users.|
+| [Set up meeting registration](set-up-meeting-registration.md)  | Describes how to allow your users to create meetings with registration. |
+| [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their meetings, whether participants can opt out, and what information is in the attendance summary. |
 
 ### Key training for end users
 
@@ -88,32 +92,42 @@ The following table lists training available to the end users in your organizati
 | [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Article that describes how to schedule different types of meetings. |
 | [Run effective meetings with Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) | A free instructor-led class about how to make meetings more engaging, productive, and meaningful. |
 | [Change participant settings for a Teams meeting](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) | Article about  managing meeting options. |
+| [Schedule a Teams meeting with registration](https://support.microsoft.com/office/schedule-a-teams-meeting-with-registration-435b2b67-c1bd-411e-9be6-9ed1b4a9f04a#:~:text=Schedule%20the%20meeting%201%20In%20the%20Teams%20calendar%2C,start%20and%20end%20times%2C%20and%20a%20description.%20) | Article that describes how to require registration when creating meetings. |
 
 ## Webinars
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, customizable event and registration site, and event-oriented default meeting options.
 
-If your organization is already using webinars, you're familiar with the Teams Meeting policy and the following settings that allow you to support meeting registration and track engagement data:
+In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of these functionalities include (Premium features are bolded and marked with an asterisk):
 
-- AllowMeetingRegistration (enabled or disabled)
-- WhoCanRegister (everyone in the company excluding guests or everyone)
+- Allow registered users to bypass the lobby
+- Assign a co-organizer
+- ***Create a webinar wait list**
+- ***Limit the day and time when people can register**
+- Limit the number of people who can register
+- ***Manage attendees’ view**
+- ***Manually approve registrants**
+- Require attendees to register
+- ***Send reminder emails to registrants**
+- ***Set up a green room for webinar presenters**
+- Turn on Q&A for webinars with up to 1000 attendees
+- ***Use RTMP-In for webinars**
+- View attendance reports
 
-With the release of the new webinar experience, there will be a new Teams Events policy with the following settings:
-
-- AllowWebinars  (enabled or disabled)
-- EventAccessType (everyone in the company excluding guests or everyone)
-
-The new policy will continue to support registration and tracking, and it will provide additional functionality to the webinar experience. Initially, the following will be available:
-
-- Terms and conditions custom question
-- Presenter bio
-- Banner, logo, and predefined color
-- Advanced registration capabilities: manual approval, waitlist, registration date and time limit
-- Registration overview and management: For each event, a summary of registration status with lists of attendees in different registration states--depending on which registration features have been enabled.
-
-You'll want to start using the new policy to take advantage of new functionality as it becomes available.
+To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
 For more information about functionality and how to set up webinars, see [Set up webinars](set-up-webinars.md).
+
+### Articles for administrators 
+
+The following table highlights key articles that you'll want to review:
+
+| Article | Description |
+|----------|--------|
+| [Set up webinars](set-up-webinars.md)  | An article that describes how to allow your users to create webinars. |
+| [Manage email communications for webinars](manage-email-communications.md) | An article that describes how to manage whether organizers and co-organizers can use email templates for their webinars.|
+| [Manage the registration form for webinars](manage-registration-form-webinars.md) | An article that describes how to manage the types of questions an organizer can require attendees to answer when registering for webinars. |
+| [Attendance report for meetings and webinars in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report.md) | An article that describes how to manage whether organizers can download the attendance report for their webinars, whether participants can opt out, and what information is in the attendance summary. |
 
 ### Key training for end users
 

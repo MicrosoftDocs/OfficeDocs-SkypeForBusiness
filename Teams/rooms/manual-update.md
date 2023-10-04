@@ -1,13 +1,13 @@
 ---
 title: Manually update a Microsoft Teams Rooms device
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
 appliesto: 
   - Microsoft Teams
 ms.reviewer: sohailta
-ms.date: 12/17/2020
+ms.date: 08/29/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -16,19 +16,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
-description: Learn how to manually update your Microsoft Teams Rooms device to a specific version.
+description: Learn how to manually update your Microsoft Teams Rooms device to the latest version.
 ---
 
 # Manually update a Microsoft Teams Rooms device
 
-The Microsoft Teams Rooms app is distributed through the Microsoft Store. Updates to the app are installed from the Microsoft Store automatically during nightly maintenance; this is the recommended method to get updates. However, there are some situations where a Teams Rooms device can't receive updates from the Microsoft Store. For example, security policies may not allow devices to connect to the Internet or may not allow apps to be downloaded from the Microsoft Store. Or, you may want to update a device before performing setup, during which the Microsoft Store isn't available.
+The Microsoft Teams Rooms app is distributed through the Microsoft Store, and update automatically through Windows; this is the recommended method to get updates. However, there are some situations where a Teams Rooms device can't receive updates from the Microsoft Store.
 
 If you can't get updates from the Microsoft Store, you can use an offline app update PowerShell script to manually update your Teams Rooms devices to a newer version of the Teams Rooms app. Follow the steps in this article to manually update your Teams Rooms devices.
 
 > [!NOTE]
-> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version. To perform a new installation of the Teams Rooms app, contact your device's manufacturer for media specific to it.
+> This process can only update a Teams Rooms device with the Teams Rooms app already installed. It can't be used to perform a new installation. It also can't be used to downgrade the app to an older version.
 
 ## Step 1: Download the offline app update script
 
@@ -41,7 +41,7 @@ Downloaded files may be marked as blocked by Windows. If you need to run the scr
 3. Select **Unblock**
 4. Click **OK**
 
-To unblock the script using PowerShell, see [Unblock-File](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
+To unblock the script using PowerShell, see [Unblock-File](/powershell/module/microsoft.powershell.utility/unblock-file).
 
 After the offline app update script is downloaded, transfer the file to the Teams Rooms device. You can transfer a file to the device by using a USB drive or by accessing the file from a network file share while in Admin Mode on the device. Be sure to note where you save the file on the device.
 
@@ -65,12 +65,12 @@ For example, if the script file is located in `C:\Users\Admin\Downloads`, and th
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"
 ```
 
-Allow the script to run. When it's finished, the script will reboot the Teams Rooms device.
-
-You can also run the script by using Remote PowerShell. For more information about using Remote PowerShell with Teams Rooms devices, see [Remote Management using PowerShell](rooms-operations.md#remote-management-using-powershell).
+Allow the script to run.
 
 ## Step 3: Verify the app has been updated successfully
 
-If the script runs successfully, the device will reboot into the Teams Rooms app.
+Check the output from the script - it will indicate if the script did or did not complete successfully.
 
-If the script encounters a problem, it will indicate what the problem is on the command line and record its output to a file. Follow any instructions that the script provides. If you need to contact Microsoft Support, make sure to include the log file along with the support request. The script will provide you with the path to the log file.
+If the script completes successfully, the Teams Rooms device will run the updated version of the Teams Rooms app on next reboot.
+
+If the script encounters a problem, it will indicate what the problem is on the command line and record its output to a file. Follow any instructions that the script provides. If you need to contact Microsoft Support, make sure to include the log file along with the support request. The log file can be found in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\Tracing\MTR-Update`.

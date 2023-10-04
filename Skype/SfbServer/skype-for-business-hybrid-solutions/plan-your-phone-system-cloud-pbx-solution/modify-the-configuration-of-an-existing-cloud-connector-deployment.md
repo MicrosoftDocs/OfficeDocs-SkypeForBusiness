@@ -1,7 +1,7 @@
 ---
 title: "Modify the configuration of an existing Cloud Connector deployment"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018

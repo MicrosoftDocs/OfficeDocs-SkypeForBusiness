@@ -85,7 +85,7 @@ Here are the messaging policy settings that you can configure.
   - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
 
-- **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
+- **Chat** Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people. When this setting is off, chat is disabled for new one-on-one and group chats.
 - **Chat with groups** Users can start a chat with distribution groups, mail-enabled security groups, and Microsoft 365 groups.
 - **Use Giphy in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
 - **Giphy content rating**
@@ -95,6 +95,7 @@ Here are the messaging policy settings that you can configure.
 - **Memes in conversations** If you turn Memes on, users can include Memes in chat conversations with other people.
 - **Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **URL previews** Use this setting to turn automatic URL previewing on or off in messages.
+- **Report inappropriate content** When this is on, users can report inappropriate content for review by communication compliance reviewers. Reviewers can remove the message if appropriate. For more information, see [Create and manage communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 - **Translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Immersive reader for messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
 - **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient. This feature increases the likelihood that the message is acted upon in a timely manner. You can't edit an urgent message after you send it.
@@ -114,6 +115,46 @@ Here are the messaging policy settings that you can configure.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
+
+## Closed captions for video messages in Teams Chat
+
+Teams Chat supports closed captions for video messages. Users can disable captions at any point in time if they don't wish to see them.
+
+> [!NOTE]
+> Captions are auto-generated and currently available only in English.
+
+As an administrator, you can hide or show captions for users by using the PowerShell cmdlet.
+
+-	Use the following command to enable captions:
+
+     
+    ```powershell
+    Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $true
+          
+    ```
+
+
+-	Use the following command to disable captions:
+
+    
+    ```powershell
+    Set-CsTeamsMessagingConfiguration -EnableVideoMessageCaptions $false
+        
+    ```
+
+
+- Use the following command to get the value for `TeamsMessagingConfiguration`:	
+
+    
+    ```powershell
+    Get-CsTeamsMessagingConfiguration
+        
+    ```
+
+
+For more information about PowerShell, see [Microsoft Teams PowerShell Overview - Microsoft Teams | Microsoft Learn](teams-powershell-overview.md)
+
+
 
 ### Related topics
 

@@ -1,8 +1,8 @@
 ---
 ms.date: 03/17/2018
-title: Configure hybrid connectivity | Deploy Skype for Business Server 2019 connect
-ms.author: crowe
-author: CarolynRowe
+title: Configure hybrid connectivity 
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -40,21 +41,21 @@ The following table lists the tasks required to configure Skype for Business hyb
 | Configure Skype for Business hybrid. | There are three basic steps: <br><br> 1. Configure your on-premises environment to federate with Microsoft 365. <br> 2. Configure your on-premises environment to trust Microsoft 365 and enable shared SIP address space with Microsoft 365.<br> 3. Enable shared SIP address space in your Microsoft 365 organization. <br><br> In addition, if you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and online environments. <br> <br>For more information, see [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 |Move pilot users.  <br/> |After you have completed the steps to prepare and configure your environment for Teams, you can start moving pilot users to your online Microsoft 365 organization. For more information, see [Move users from on premises to Teams](move-users-from-on-premises-to-Teams.md).  <br/> |
 
-
 ## DNS implications for on-premises organizations that become hybrid
 
 By default, tenants are created as TeamsOnly mode. Administrators cannot change this configuration. However, hybrid organizations must not be TeamsOnly mode because this would break federation for their on-premises users. Teams has a built-in mechanism to ensure the tenant-wide TeamsOnly configuration is not applied for new hybrid tenants, and also that tenant-wide TeamsOnly configuration is *removed from existing tenants that become hybrid*. This mechanism is based on the value of the LyncDiscover DNS record for any verified Microsoft 365 domain (because a Skype for Business Server on-premises deployment will in most cases have that record), as described below.
 
 When a new Microsoft 365 subscription is first processed, the following occurs:
+
 - If there are not yet any verified Microsoft 365 domains, the tenant is created as TeamsOnly mode. The value is set through the TeamsUpgradeOverridePolicy, which can only be set by Microsoft. If the policy value is UpgradeToTeams, it takes precedence over any value of TeamsUpgradePolicy.
 - If there are verified Microsoft 365 domains, but there are no public DNS LyncDiscover records detected, or if any LyncDiscover records that are detected all point to Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc), the tenant is created as TeamsOnly mode (via the TeamsUpgradeOverridePolicy).
 - If there is at least one verified Microsoft 365 domain for which a LyncDiscover record is detected, and that record points somewhere other than Microsoft 365, the tenant is created as Islands mode.
 
 When an existing Microsoft 365 tenant is re-provisioned (typically because of a change in verified domains or in subscription details), the following occurs:
+
 - If a LyncDiscover record is found for one or more of the Microsoft 365 verified domains, and that record does not point to Microsoft 365, the tenant-wide TeamsOnly mode (through the TeamsUpgradeOverridePolicy) is removed. The tenant mode will revert to whatever is specified at the tenant level for TeamsUpgradePolicy, which, by default, is Islands mode.
 
-
 There are some limitations for this automatic detection mechanism:
+
 - If your organization does not have any public DNS records, the TeamsOnly mode will not be removed since Microsoft 365 will not be able to detect the records. If your organization has on-premises Skype for Business Server with no public DNS entries, you will need to contact Microsoft Support to have your tenant downgraded.
 - If you add/update a public DNS record to a domain that is *already* a Microsoft 365 verified domain, this DNS change is not detected, and TeamsOnly mode won’t be removed. TeamsOnly mode is only removed if the tenant is re-provisioned, which typically happens when there is a change to Microsoft 365 verified domains or to the subscription.  
-

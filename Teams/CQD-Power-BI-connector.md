@@ -10,6 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -109,7 +111,7 @@ Unlike Call Quality Dashboard, Power BI supports non-sequential drillthrough. If
 
 ### Best practice
 
-You should design Microsoft Call Quality connector queries with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries that contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
+You should design Microsoft Call Quality connector queries with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries/regions that contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
 
 ## Limitations
 

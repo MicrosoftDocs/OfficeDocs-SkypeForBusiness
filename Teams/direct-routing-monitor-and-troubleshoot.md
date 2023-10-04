@@ -12,6 +12,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:

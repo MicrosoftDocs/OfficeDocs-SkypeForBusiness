@@ -2,8 +2,8 @@
 ms.date: 06/22/2018
 title: "Configure Call Data Connector"
 ms.reviewer: 
-ms.author: crowe
-author: CarolynRowe
+ms.author: serdars
+author: MicrosoftHeidi
 manager: serdars
 audience: ITPro
 f1.keywords:

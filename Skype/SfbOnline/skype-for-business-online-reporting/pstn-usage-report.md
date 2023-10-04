@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "PSTN usage report"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, wlooney
@@ -108,7 +108,7 @@ This is what the report looks like.
 
 ## Exporting PSTN usage report
 
-Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country-specific regulations prohibit retention of the data for 12 months.
+Clicking or tapping the **Export to Excel** button lets you to download the PSTN usage report. You can export data up to one year from the current date unless country/region-specific regulations prohibit retention of the data for 12 months.
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis.
 

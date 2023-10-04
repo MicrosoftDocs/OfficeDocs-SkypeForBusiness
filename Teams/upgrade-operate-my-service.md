@@ -435,7 +435,7 @@ to determine the interval in which your organization will seek out feedback:
 
 - **Ongoing**: Continue to measure user sentiment indefinitely. Changes in user sentiment might be due to changes in your organization's environment or changes in the Teams service. By gauging user sentiment at regular intervals, you can understand how well your service management teams are performing and how your organization is responding to changes in the Teams service.
 
-User sentiment can be assessed through many different methods. These can include email surveys, in-person or telephone-style interviews, or simply creating a feedback channel in Teams or Yammer. For more information, see [Best practices for user feedback methods in Microsoft Teams](best-practices-feedback.md).
+User sentiment can be assessed through many different methods. These can include email surveys, in-person or telephone-style interviews, or simply creating a feedback channel in Teams or Viva Engage. For more information, see [Best practices for user feedback methods in Microsoft Teams](best-practices-feedback.md).
 
 You can also use an industry-wide approach to assess user sentiment called net
 promotor score (NPS), which is described in the following section.
@@ -475,14 +475,14 @@ online survey tool.
 
 | Activity | Description | Cadence | Team assigned |
 |---|---|---|---|
-| Assess user sentiment | Capture and assess user sentiment by using surveys or interviews, or through a feedback channel in Teams or Yammer. | As needed | |
+| Assess user sentiment | Capture and assess user sentiment by using surveys or interviews, or through a feedback channel in Teams or Viva Engage. | As needed | |
 | Update adoption plans | Drive change in your organization based on user feedback; this can include changes to your communication plans, training programs, or the way that you offer support to your users. | As needed | |
 
 ### References
 
 [Net Promoter Score](https://en.wikipedia.org/wiki/Net_Promoter)
 
-[Using Yammer to collect feedback](https://techcommunity.microsoft.com/t5/Yammer-Blog/The-Microsoft-Teams-team-uses-Yammer/ba-p/55210)
+[Using Viva Engage to collect feedback](https://techcommunity.microsoft.com/t5/yammer-Blog/The-Microsoft-Teams-team-uses-yammer/ba-p/55210)
 
 [Best practices for user feedback](best-practices-feedback.md)
 
