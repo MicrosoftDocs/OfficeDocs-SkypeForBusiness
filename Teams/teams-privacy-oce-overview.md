@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 09/29/2020
+ms.date: 05/12/2023
 ms.localizationpriority: high
 search.appverid: MET150
 description: This article outlines the optional connected experiences you will see in Microsoft Teams.

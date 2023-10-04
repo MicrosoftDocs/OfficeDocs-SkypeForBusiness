@@ -117,7 +117,8 @@ For guidance for the type of system and peripheral devices by room type and size
 
 Based on the vendor you prefer, use the information provided in the requirements article to define your Microsoft Teams Rooms and supported peripheral device configuration per room type, and use this as a template for your deployment.
 
-**Pro Tip** - Some room types might not be applicable for your deployment.
+> [!TIP]
+> Some room types might not be applicable for your deployment.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -133,7 +134,8 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'  | 6&ndash;12       |                              |                    |                 |
 | Large 15' by 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro Tip -** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
+> [!TIP]
+> Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
 
 ### Wireless network considerations
 
@@ -182,11 +184,11 @@ Many organizations have an AV team or partner who manages their conference rooms
 Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
 > [!NOTE]
-> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
+> Microsoft Teams Rooms sign in to Microsoft Teams and allows joining meetings hosted by Microsoft Teams services. Microsoft Teams rooms may also connect to third party meeting services anonymously as guest, depending on your configuration of the device.
 >
-> Earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+> Skype for Business Server 2019, Skype for Business Server 2015 or earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
 >
-> If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
+> If you have an on-prem Exchange server, Microsoft Teams Rooms requirements for connecting to Exchange can be found here: [https://learn.microsoft.com/en-us/microsoftteams/exchange-teams-interact](/microsoftteams/exchange-teams-interact)
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -198,3 +200,4 @@ Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls t
 Microsoft Teams Rooms systems introduce new capabilities to your users. It's important that you recognize that this will be a change for your users, and you should ensure your internal marketing campaign identifies the benefits the new system will have for your users and the key talking points leads can use to discuss with their teams.
 
 Consider scheduling show-and-tell events and poster drops at each site to inform your users of the new capabilities. You might also create in-room "quick start guides." Consider finding a meetings champion at each site who can help others get up to speed and start using the devices.
+
