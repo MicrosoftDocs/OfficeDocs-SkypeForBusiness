@@ -3,7 +3,7 @@ title: Manage Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 08/25/2023
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article

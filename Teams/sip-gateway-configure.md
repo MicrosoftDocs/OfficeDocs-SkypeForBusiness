@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 12/8/2022
+ms.date: 10/04/2023
 ms.topic: article
 ms.service: msteams
 audience: admin

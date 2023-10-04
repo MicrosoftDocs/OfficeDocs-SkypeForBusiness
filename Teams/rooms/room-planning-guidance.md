@@ -3,7 +3,7 @@ title: Meeting room guidance for Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 2/2/2022
+ms.date: 10/04/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams

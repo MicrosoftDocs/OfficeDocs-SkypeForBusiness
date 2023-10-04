@@ -3,7 +3,7 @@ title: Microsoft Teams Rooms maintenance and operations
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
