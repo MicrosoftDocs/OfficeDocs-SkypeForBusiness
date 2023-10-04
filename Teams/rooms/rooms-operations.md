@@ -72,7 +72,7 @@ To set the scale and resolution manually in the Teams Rooms admin settings:
 
 6. Run the following command:
 
-```cmdlet
+```powershell
  Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
 ```
 
