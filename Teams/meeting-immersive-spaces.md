@@ -48,16 +48,14 @@ Immersive spaces work well for these types of meetings:
 
 - *Onboarding meet-and-greets* for new team members
 
+## License requirements
+
+Mesh immersive spaces is available with the following licenses: Teams Essentials, Microsoft 36I5 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
+
 ## Verify endpoints and ports
 
 > [!IMPORTANT]
 > If you disallow the Mesh immersive spaces app after allowing it, the UI entry point for Immersive space will **still be visible for up-to 24 hours** after its disallowed.
-
-
-> [!IMPORTANT]
-> Starting in Public Preview, IT Admins will need to take action in the Teams admin center. Specifically, review the app description and allow the Mesh Immersive Spaces app in the Teams Admin Center for it to continue functioning as expected. This applies even if you have previously allowed the app for your organization or a select group of users or if the app was automatically allowed because of a general policy on your tenant.
->
-> If the app appears to be in the **Allowed** state, we highly recommend you toggle the status to **Blocked** then back to **Allowed** to ensure the app continues to work as expected.
 
 To ensure immersive spaces for Teams works properly, access to the following endpoints must be allowed by your firewall or proxy server.
 
