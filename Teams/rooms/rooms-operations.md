@@ -44,7 +44,7 @@ Downloaded logs on the device can take up disk space. If logs are not regularly 
 
 |Setting|Allows|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold   |Cleans up logs after 30 days.   |
 ## Front of Room display settings
 <a name="Display"> </a>
 
@@ -72,9 +72,9 @@ To set the scale and resolution manually in the Teams Rooms admin settings:
 
 6. Run the following command:
 
-```powershell
- Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
-```
+   ```powershell
+   Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+   ```
 
 7. Restart the device.
   
@@ -95,11 +95,11 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote PowerShell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote PowerShell (requires further configuration)  <br/> Configuration Manager  <br/> |
-|Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
-|Access logs  <br/> |Teams admin center  <br/> PowerShell  <br/> |Teams admin center <br/> PowerShell  <br/>  |
+|Restart   |Teams admin center  <br/> Remote desktop  <br/> Remote PowerShell   | <br/>Remote desktop (requires further configuration)  <br/> Remote PowerShell (requires further configuration)  <br/> Configuration Manager   |
+|Update OS   |Windows Update   |Windows Update  <br/> WSUS   |
+|App update   |Windows Store   |Windows Store  <br/> Configuration Manager   |
+|Account Config   |Teams admin center   |Teams admin center   |
+|Access logs   |Teams admin center  <br/> PowerShell   |Teams admin center <br/> PowerShell  <br/>  |
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
 
@@ -118,22 +118,22 @@ When you join Teams Rooms to a domain, it is required that you create a separate
 
 Many organizations have the following GPOs, which affect Teams Rooms functionality. Ensure that you override or block the inheritance of these:
 
-  - Timeout of logon sessions (auto lockout)
-  - Power management related policies
-  - Requiring additional authentication steps
-  - Denying access to local drives
-  - Prompting users for slow network connections
-  - Start a certain program at logon
-  - Create another domain user account on all domain-joined machines
-  - Push Windows Update to Teams Rooms
+- Timeout of logon sessions (auto lockout)
+- Power management related policies
+- Requiring additional authentication steps
+- Denying access to local drives
+- Prompting users for slow network connections
+- Start a certain program at logon
+- Create another domain user account on all domain-joined machines
+- Push Windows Update to Teams Rooms
 
 When joining Microsoft Teams Rooms to a domain, ensure that your group policies don't override the settings in the following table.
 
 |Setting|Allows|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
-|Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1   |Enables Microsoft Teams Rooms to boot up   |
+|Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep   |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically   |
+|net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.   |Enables Skype account to always log in   |
 
 > [!NOTE]
 > When Microsoft Teams Rooms is compatible with the next version of Windows 10 OS, Teams Rooms automatically updates to the next version through Windows Update. Microsoft Teams Rooms should not be upgraded to the next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. Teams Rooms with these group policies enabled is known to run into issues with Windows 10 OS updates.
