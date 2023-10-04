@@ -62,7 +62,7 @@ To prepare for your Microsoft Teams Rooms deployment, do the following key, cent
 
 Depending on the collaboration scenarios that you've decided to enable with your Microsoft Teams Rooms deployment, you'll need to determine the features and capabilities that you assign to each Microsoft Teams Rooms that you enable.
 
-| **Scenario** | **Description** | **Microsoft Teams Rooms service account feature** |
+| Scenario | Description | Microsoft Teams Rooms service account feature |
 |---------- |------------- | --- |
 | Interactive meetings            | Using voice, video, and screen sharing; making the Microsoft Teams Rooms a bookable resource                     | Enabled for Microsoft Teams; enabled for Exchange (Resource Mailbox) |
 | Dial-in conferencing            | Have an audio conferencing phone number when tapping "New meeting" on the console | Enabled for Audio Conferencing                                          |
@@ -79,7 +79,7 @@ For more information about Microsoft Teams Rooms accounts, see [Configure accoun
 
 _Sample Microsoft Teams Rooms resource account planning table_
 
-| **Site**  | **Room name** | **Room type** | **Future room capabilities**                                                 | **Microsoft Teams Rooms account features**                                                                                         |
+| Site | Room name | Room type | Future room capabilities | Microsoft Teams Rooms account features |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | London HQ | Curie         | Medium        | 1 screen, audio and video plus presentation <br>Dial-in conferencing access<br> PSTN access  | Enabled for Exchange (Resource Mailbox) <br>Enabled for Audio Conferencing <br>Enabled for Phone System |
 | Sydney HQ | Hill          | Large         | 2 Screens, audio and video plus presentation<br>Dial-in conferencing access<br> PSTN access  | Enabled for Skype for Business <br>Enabled for Exchange (Resource Mailbox)<br> Enabled for Audio Conferencing <br>Enabled for Phone System |
@@ -151,7 +151,7 @@ After you've decided how to create and manage your Microsoft Teams Rooms resourc
 
 _Sample deployment table_
 
-| **Site**  | **Room name** | **Room type** | **Microsoft Teams Rooms system**  | **Peripheral devices**  | **Microsoft Teams Rooms computer name**  | **Microsoft Teams Rooms resource account**  |
+| Site | Room name | Room type | Microsoft Teams Rooms system | Peripheral devices | Microsoft Teams Rooms computer name | Microsoft Teams Rooms resource account |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
 | London HQ | Curie         | Medium        |                                   |                  |                                          |                                             |
 | Sydney HQ | Hill          | Large         |                                   |                  |                                          |                                             |
@@ -183,7 +183,7 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 _Sample asset table_
 
-| **Site**  | **Room name** | **Room type** | **Microsoft Teams Rooms serial no.**  | **Peripheral devices/ Serial nos./ Ports**  | **Microsoft Teams Rooms computer name**  | **Microsoft Teams Rooms service account**  | **Date deployed** |
+| Site | Room name | Room type | Microsoft Teams Rooms serial no. | Peripheral devices/ Serial nos./ Ports | Microsoft Teams Rooms computer name | Microsoft Teams Rooms service account | Date deployed |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | London HQ | Curie         | Medium        |                                          |                                          |                                          |                                            |                   |
 | Sydney HQ | Hill          | Large         |                                          |                                          |                                          |                                            |                   |
