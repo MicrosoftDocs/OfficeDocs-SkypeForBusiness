@@ -183,7 +183,9 @@ Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls t
 
 > [!NOTE]
 > Microsoft Teams Rooms sign in to Microsoft Teams and allows joining meetings hosted by Microsoft Teams services. Microsoft Teams rooms may also connect to third party meeting services anonymously as guest, depending on your configuration of the device.
+>
 > Skype for Business Server 2019, Skype for Business Server 2015 or earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+>
 > If you have an on-prem Exchange server, Microsoft Teams Rooms requirements for connecting to Exchange can be found here: [https://learn.microsoft.com/en-us/microsoftteams/exchange-teams-interact](/microsoftteams/exchange-teams-interact)
 
 | &nbsp; | &nbsp; |
