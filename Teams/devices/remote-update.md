@@ -147,7 +147,7 @@ The following conditions should be satisfied for the device to be eligible for a
 3. **How fast does the rollout happen?**
 Eligible devices receive updates in weekly cycles based on the update phase they are in. For example, devices in General phase start receiving Firmware updates only after 30 days have elapsed since the new version was published. To ensure a stable rollout, the devices are updated gradually for a tenant and not all at once. Overall, the rollout of each new version takes a few weeks after the start of each update phase.
 
-Also, if the device is on an older version, like N-3. It will be updated step-wise to intermediate versions, like N-2 and N-1, before it is updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
+   Also, if the device is on an older version, like N-3. It will be updated step-wise to intermediate versions, like N-2 and N-1, before it is updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
 
 5. **How do I check if a device has received an update?**
 Whenever a device receives an update (or has one scheduled), the History tab on the device page will show corresponding details for a software update operation.
