@@ -26,7 +26,7 @@ ms.localizationpriority: high
 
 If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error: 
 
-:::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
+:::image type="content" source="media/new-teams-troubleshooting-org-policies.png" alt-text="error with org policies":::
 
 It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
 
