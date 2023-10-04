@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sherimehmood
-ms.date: 10/01/2023
+ms.date: 10/03/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration

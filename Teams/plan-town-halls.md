@@ -30,7 +30,7 @@ description: Learn how to plan for town halls in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
- Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the organizers or co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
+ Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
 
 ## Recordings and publishing
 
@@ -79,12 +79,12 @@ With a Teams premium license, your users have access to extended capabilities. T
 |Attendee reporting|Yes|Yes|
 |eCDN|3rd and 1st party|1st party|
 |Duration|30 hours|30 hours|
-|RTMP in|Yes|Yes|
+|RTMP-in|Yes|Yes|
 |Producer UX|Manage what attendees see |Manage what attendees see |
 |Default audio and video off|Yes|Yes|
 |Layouts|Focused curated view|Focused curated view|
 |Green room|Yes|Yes|
-|Hidden participant list|Yes|Yes|
+|Manage what attendees see|Yes|Yes|
 |AI generated captions|Yes|Yes|
 |Q&A capacity|10k|20k|
 |VOD|Yes|Yes|
@@ -99,12 +99,12 @@ For more information on Teams premium, see [Teams Premium licensing](/microsoftt
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
 |Attendance reports|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
-|Audio and video|Attendees  can't share their audio or video.|Attendees  can't share their audio or video.|
-|Q&A|Can choose if Q&A is available|Can use Q&A if allowed by admin|
-|Content sharing|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
-|Green room |No control|Can choose if green room is used for a town hall|
-|Town hall  join and lobby|Can set the defaults for new meetings and town halls. |The organizer can choose their settings while creating a town hall but can't change the settings after. |
-|Recording|Can allow or prevent town hall recording and set recording expiration time. |recordingRecordings start automatically for town halls, but organizers can turn this off. |
-|Transcription and captions|Can allow or prevent transcription and closed captions for attendees|Only AI generated captions are available at this time. |
-|Translation |No control|Can enable live translated captions for themselves. Attendees can always turn on translations. |
-|VOD |Can manage the types of recordings organizers can publish. |Can publish town hall recordings.|
+|Audio and video|Attendees can't share their audio or video.|Attendees can't share their audio or video.|
+|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control|Can choose if green room is used for a town hall|
+|[Live translated transcription](https://support.microsoft.com/en-us/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |No control. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
+|[Q&A](manage-qna-for-teams.md)|Can choose if Q&A is available|Can use Q&A if allowed by admin|
+|[Town hall  join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and town halls. |The organizer can choose their settings while creating a town hall but can't change the settings after. |
+|[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
+|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees| Only AI generated captions are available at this time. |
+|[VOD](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish town hall recordings.|

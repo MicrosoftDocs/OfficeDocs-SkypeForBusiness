@@ -50,12 +50,12 @@ The following table shows the main features that are different between meetings,
 |End-to-end encryption|Premium|✖️|✖️|
 |Watermarks|Premium|✖️|✖️|
 |Theme|Premium|Premium|Premium|
-|Streaming|Optional|Optional|Required|
+|Streaming|Above 1,000 participants|✖️|Automatic|
 |Registration|Optional|✔️|✖️|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|✖️|
-|Streaming participants|10,000* (Enterprise plans only)|✖️|10,000*|
-|Yammer integration|✖️|✖️|✔️|
-|Breakout rooms|✔️|✔️|✖️|
+|Streaming participants|9,000 (Enterprise plans only)|✖️|Base: 10,000*<br> Premium: 20,000|
+|Maximum total participants|10,000* (Enterprise plans only)|1,000|10,000*|
+|Breakout rooms|✔️|✖️|✖️|
 
 *The usual 10,000 is increased to 20,000 through December 30, 2023.
 
@@ -64,6 +64,8 @@ The following table shows the main features that are different between meetings,
 RTMP-In allows organizers to produce their Teams meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
 
 Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key that they can use to start streaming from the encoder.
+
+RTMP is a Teams Premium feature for meetings and webinars, but is included in base town halls.
 
 For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
 
@@ -122,7 +124,7 @@ In addition to the base webinar features, we offer additional webinar functional
 |**Assign a co-organizer**                              |✔️                      |✔️                          |
 |**Limit the number of people who can register**        |✔️                      |✔️                         |
 |**Require attendees to register**                      |✔️                      |✔️                          |
-|**Set up a green room for webinar presenters**                      |✔️                      |✔️                          |
+|**Set up a green room for webinar presenters**                      |✔️                     |✔️                          |
 |**Turn on Q&A for webinars with up to 1,000 attendees** |✔️                      |✔️                          |
 |**View attendance reports**                            |✔️                      |✔️                          |
 |**Create a webinar wait list**                         |                       |✔️                          |
@@ -149,8 +151,7 @@ The following table lists webinars training available to the end users in your o
 
 Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed.
 
-Town halls are streaming events, so attendees can't use their cameras and mics. Organizers can use the Q&A feature for interaction with attendees or schedule town halls through Viva Engage.
-
+Town halls are streaming events, so attendees can't use their cameras and mics.
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
 #### Key training for end users
