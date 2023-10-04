@@ -22,7 +22,7 @@ description: Learn how to configure modern authentication for Microsoft Teams Ro
 
 # Authentication in Microsoft Teams Rooms on Windows
 
-Microsoft Teams Rooms on Windows shares authentication component with Teams desktop client and uses the same underlying authentication libraries to connect to Teams and other Microsoft 365 services. As such, Teams rooms requirements for authentication are based on Microsoft Teams requirements. Learn more about [Identity models and authentication for Microsoft Teams](Identity%20models%20and%20authentication%20for%20Microsoft%20Teams).   
+Microsoft Teams Rooms on Windows shares authentication component with Teams desktop client and uses the same underlying authentication libraries to connect to Teams and other Microsoft 365 services. As such, Teams rooms requirements for authentication are based on Microsoft Teams requirements. Learn more about [Identity models and authentication for Microsoft Teams](/microsoftteams/identify-models-authentication).
   
 However, Teams rooms on Windows have some key differences compared to an end user personal computer where Teams desktop runs. These differences may impact authentication configurations for Teams rooms.
 
