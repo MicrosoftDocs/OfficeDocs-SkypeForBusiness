@@ -78,7 +78,7 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
 1. Toggle the **Video distribution provider** to **On**.
-1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
+1. Choose an **eCDN/SDN provider** from the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (Not all fields are used by all solution providers).
 1. Select **Save**.
 1. To check if your setup is correct, select **Verify setup**.
