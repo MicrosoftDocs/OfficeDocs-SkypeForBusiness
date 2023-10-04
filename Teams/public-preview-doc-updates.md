@@ -63,17 +63,6 @@ Public preview is enabled on a per-user basis, and the option to turn on Public 
        - This option turns on Teams Public preview regardless of whether a user is enrolled in Office Current Channel (Preview).
        - Users can't turn off Teams Public preview.
 
-1. Select a setting for **Use new Teams client**.
-
-   -   **Microsoft controlled** (default)
-       - The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness.
-
-   -   **Not enabled**
-       - Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.
-
-   -   **Classic teams as default**
-       - Use this value to have classic Teams as the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed.
-
 1. Select **Apply**.
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet.
@@ -99,7 +88,7 @@ All public preview features are announced at [Microsoft Teams Public preview - M
 
 ### Public preview Indicator
 
-Users who are in the public preview will see **EA** next to their profile picture, indicating that they have **E**arly **A**ccess to Teams features (as shown in the below image).
+Users who are in the public preview will see **EA** next to their profile picture in classic Teams, indicating that they have **E**arly **A**ccess to Teams features (as shown in the following image).
 
 ![Screenshot of the early-access icon.](media/early-access-screenshot.png)
 
