@@ -199,6 +199,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
 | [Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
 | [Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
+| Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
 | [Huddly Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
 | [Huddly IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
