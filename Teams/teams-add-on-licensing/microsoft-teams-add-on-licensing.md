@@ -48,7 +48,9 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 
 ## Which Microsoft capabilities are available with my plan?
 
-All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
+Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
+
+[!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
 ### Voice and PSTN connectivity
 
@@ -65,7 +67,7 @@ Whether you're a small business, enterprise organization, educational institutio
   - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 
 - Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
+  - Most Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
 Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
 
@@ -105,7 +107,6 @@ For instructions on how to unassign licenses, see [Unassign licenses from users]
 
 Learn more about Microsoft plans and get guidance according to your organization type:
 
-- [Guidance for small and medium businesses](../business-voice/whats-business-voice.md)
 - [Plans for enterprise organizations](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 - [Guidance for educational institutions](https://www.microsoft.com/education/buy-license/microsoft365)
 - [Plans for governments and governmental agencies](https://www.microsoft.com/microsoft-365/government/)
