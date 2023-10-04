@@ -96,7 +96,7 @@ ms.localizationpriority: high
 
 ### MTMA
 
-- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.
+- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.</br>
   **Workaround:** Switch to classic Teams if you need to access that new tenant in less than 24 hours.
 
 ### NDI

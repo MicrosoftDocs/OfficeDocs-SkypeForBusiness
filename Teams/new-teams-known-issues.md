@@ -84,7 +84,7 @@ This article covers known issues:
 
 ### MTMA
 
-- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.
+- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.</br>
   **Workaround:** Switch to classic Teams if you need to access that new tenant in less than 24 hours.
 
 ### Notifications
@@ -166,17 +166,3 @@ As we improve the client, the experience has been improved to align with similar
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
 |Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
 |Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
-
-## Features that are coming soon
-</br>
-
-|Area|Description|
-|:-----|:-----|
-|Presence|-Manual hybrid presence in MeControl</br>- Duration for presence status</br>- Custom duratino for status message|
-|People|Ability to @mention users in status note|
-|LPC|Support opening of LPC from an @mention in status message in new Teams Me control|
-|Teams Native Shell|- Set presence on taskbar and system tray</br>|
-|Native Shell Auth|Show Account name and tenant name while displaying Presence information|
-|Toasts|Show presence in system tray|
-|Meeting|- Meeting start notification Support for Channel Meeting for anyone other than the original invite list </br>- Meetings Extensibility: Add annotations entry point in Presenter toolbar V2 in new Teams (Mac)|
-|Rooms & Devices|- Enable pairing between Desktop App and companion devices (IPPhones, Displays)</br>- Native Bluetooth call control functions (aka HFP) - Integration/testing only</br>- Native Bluetooth Teams button (aka ASP over GATT)|
