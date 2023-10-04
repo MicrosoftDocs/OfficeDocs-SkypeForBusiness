@@ -85,6 +85,9 @@ After you have the hardware in place, you need to the install operating system (
 - Windows Server 2016
 - Windows Server 2022
 
+> [!NOTE]
+> Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update 7 and higher versions.
+
 Anything other than the operating systems listed here won't work properly; don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
 
 > [!NOTE]
