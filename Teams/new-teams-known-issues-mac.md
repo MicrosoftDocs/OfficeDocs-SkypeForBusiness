@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams for the Mac: Known issues 
+# Known issues in new Teams for the Mac
 
 >[!Note]
 > The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
@@ -58,7 +58,7 @@ ms.localizationpriority: high
 - **Issue:** The UI lanauge and regional parameters are local.  They don't follow the OS, browser, or account. When a user changes the operation system UI language, the new choice isn't pushed to the new Teams app.
   **Workaround:**  Set the language or regional settings manually, or restart the new Teams app.
 
-## Messages
+### Messages
 
 - **Issues:** Message extensions in Powerbar aren't yet available.
 
@@ -150,7 +150,7 @@ ms.localizationpriority: high
 - **Issue:** Can't create Team from the grid layout. </br>
   **Workaround:**  User the list view layout to create teams.
 
-## Other areas:
+### Other areas:
 
 - **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
   **Workaround**: Before joining a meeting, sign in with primary tenant account.

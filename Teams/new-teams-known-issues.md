@@ -61,7 +61,7 @@ This article covers known issues:
 - **Issue:** The UI lanauge and regional parameters are local.  They don't follow the OS, browser, or account. When a user changes the operation system UI language, the new choice isn't pushed to the new Teams app.
   **Workaround:**  Set the language or regional settings manually, or restart the new Teams app.
 
-## Messages
+### Messages
 
 - **Issues:** Message extensions in Powerbar aren't yet available.
 
@@ -131,7 +131,7 @@ This article covers known issues:
 - **Issue:** Can't create Team from the grid layout. </br>
   **Workaround:**  User the list view layout to create teams.
 
-## Other areas:
+### Other areas:
 
 - **Issue:** If a user has more than one tenant in their account, and if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account. It signs in with any one of their accounts (including guest accounts).</br>
   **Workaround**: Before joining a meeting, sign in with primary tenant account.
