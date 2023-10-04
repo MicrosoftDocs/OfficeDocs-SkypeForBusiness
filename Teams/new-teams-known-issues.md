@@ -26,48 +26,46 @@ This article covers known issues:
 
 |What|Description|
 |:-----|:-----|
-|[**Known issues**](#known-issues)|Known issues we are working on.|
+|[**Known issues**](#known-issues)|Known issues we're working on.|
 [**What features are changing in new Teams**](#what-features-are-changing)|Find out the changes you see in your improved customer experience.|
-|[**Features that are coming soon**](#Features-that-are-coming-soon)|There are a few features that we are still working on.|
+|[**Features that are coming soon**](#Features-that-are-coming-soon)|There are a few features that we're still working on.|
 
 ## Known issues
+
+### General
+
+- **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+  **Workaround:** Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.
 
 ### Apps
 
 - **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
 
-### Calendar
+###  Calls
 
-- **Issue:** There's no option to add a Channel calendar to a channel.</br>
-  **Workaround**: Use classic Teams to use this feature.</br>
-
-- **Issue**: Unable to add an app in scheduling form.</br>
-  **Workaround**: Use classic Teams to use this feature.</br>
+- **Issue:**  Increased power usage during calls may impact battery life.
 
 
 ### Chats
 
-- **Issue:** You may still receive notifications on the muted meeting chats.
-
-- **Issue:** You can't search for external users even if you enter full email address.
+- **Issue:** You may still receive notifications on muted meeting chats.
 
 - **Issue:** If you receive a message where @mention *Everyone* is used, it shows in your feed as a personal mention.</br>
   Details: The @mention Everyone feature is still pending.
 
+- **Issue:** Possible duplication of Group Chats where non-blocking Group Chat call fails.  User could potentially create a new GroupChat with the same membership as one that already exists.
+
 
 ### Global readiness
 
-- **Issue:** The UI lanauge and regional parameters are local.  They do not follow the OS, browser, or account. When a user changes the operation system UI language, the new choice is not pushed to the the new Teams app.
-  **Workaround:**  Set the lanugate or regional settings manually, or restart the new Teams app.
+- **Issue:** The UI lanauge and regional parameters are local.  They don't follow the OS, browser, or account. When a user changes the operation system UI language, the new choice isn't pushed to the new Teams app.
+  **Workaround:**  Set the language or regional settings manually, or restart the new Teams app.
 
+## Messages
+
+- **Issues:** Message extensions in Powerbar aren't yet available.
 
 ### Meetings
-
-- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
-  Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
-
-- **Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted. The meeting attendees may see preview content in those notifications.</br>
-  **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 - **Issue:** Some meeting details won’t appear in new Teams.</br>
   Details you won't see include forwards, "show as," and assigned meeting categories. 
@@ -77,15 +75,40 @@ This article covers known issues:
 
 - **Issue:** In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
-- **Issue:** Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
+- **Issue:** Network Device Interface (NDI) streaming is still pending and will be available later this year.  Live events present and attendee presenter and attendee are supported, however TLE Producer isn't. Users need to use classic Teams for TLE producer.
 
-- **Issue:** Network Device Interface (NDI) streaming is still pending and will be available later this year.  Live events present and attendee presenter and attendee are supported, however TLE Producer is not. Users will need to use classic Teams for TLE producer.
+- **Issue:** Give and Take control not available.
+
+- **Issue:** Currently there's no support of Cameo rendering, Sandaout/Weatherson layout in PowerPoint Live.
+
+
+### MTMA
+
+- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.
+  **Workaround:** Switch to classic Teams if you need to access that new tenant in less than 24 hours.
 
 ### Notifications
 
 - **Issue**: If a user receives a message where @mention *Everyone* is used, it shows in their feed as a personal mention.</br>
-  Details: The @mention Everyone feature is still pending for this release.
+   Details: The @mention Everyone feature is still pending for this release.
 
+### Offline
+
+- **Issue:** Some offline experiences are impacted if user has poor network 
+- 
+### Peripherals
+
+- **Issue:**  BetterTogether calling and meeting support isn't available yet in new Teams.
+
+- **Issue:**  If an audio device is connected to a PC over native bluetooth (without a dongle), call control buttons won't sync with new Teams.
+
+- **Issue:** Teams button functionality (Raise Hands, Join Meeting, bring Teams app to foreground) not available. 
+
+-  **Issue:**  Using running a side-by-side scenario may experience mute sync issues, call drops, and other syncing issues between their Peripheral and new Teams.
+
+- **Issue:** While casting, the include audio radio button currently doesn't transfer audio.
+
+- **Issue:**  Certified collaboration controller type device (that is, Presenter+) functionality unavailable.
 
 ### Presence
 
@@ -99,16 +122,26 @@ This article covers known issues:
 
 ### Teams and Channels
 
-- **Issue**: You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
+- **Issue:** You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
 
-- **Issue**: Member and guest counts are occasionally displayed incorrectly in the members' tab.
+- **Issue:**  Users of GCC High and DoD government clouds may see the option to create a shared channel, but it isn't yet available.  If you try to create a shared channel, an error will occur and the channel won't be created. 
 
+- **Issue:** Toast notifications won't appear when Creating a team. The team is created.
+
+- **Issue:** Can't create Team from the grid layout. </br>
+  **Workaround:**  User the list view layout to create teams.
 
 ## Other areas:
 
-- **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
+- **Issue:** If a user has more than one tenant in their account, and if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account. It signs in with any one of their accounts (including guest accounts).</br>
   **Workaround**: Before joining a meeting, sign in with primary tenant account.
 
+- **Issue:** If a tenant has deployed proxy server, proxy server isn't supported yet and therefore the video background images download through proxy server will fail, user sees gray video background in this scenario.</br>
+  **Workaround:** Use Background Blur as an alternative.
+
+- **Issue:** Proxy authentication is currently in beta release. Contact support if you experience issues or switch to classic Teams.
+
+- **Issue:** Signing out from Admin Disabled page doesn't go back to the sign in page - Admin Disabled page continues to show.
 
 ## What features are changing?
 
@@ -135,5 +168,15 @@ As we improve the client, the experience has been improved to align with similar
 |Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
 
 ## Features that are coming soon
+</br>
 
-### 
+|Area|Description|
+|:-----|:-----|
+|Presence|-Manual hybrid presence in MeControl</br>- Duration for presence status</br>- Custom duratino for status message|
+|People|Ability to @mention users in status note|
+|LPC|Support opening of LPC from an @mention in status message in new Teams Me control|
+|Teams Native Shell|- Set presence on taskbar and system tray</br>|
+|Native Shell Auth|Show Account name and tenant name while displaying Presence information|
+|Toasts|Show presence in system tray|
+|Meeting|- Meeting start notification Support for Channel Meeting for anyone other than the original invite list </br>- Meetings Extensibility: Add annotations entry point in Presenter toolbar V2 in new Teams (Mac)|
+|Rooms & Devices|- Enable pairing between Desktop App and companion devices (IPPhones, Displays)</br>- Native Bluetooth call control functions (aka HFP) - Integration/testing only</br>- Native Bluetooth Teams button (aka ASP over GATT)|
