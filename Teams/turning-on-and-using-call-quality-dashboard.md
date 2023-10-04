@@ -43,7 +43,7 @@ Assign [roles](/microsoft-365/admin/add-users/about-admin-roles) for accessing C
 
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD.
 
-Due to the fact that CQD is an aggregate reporting tool, users assigned to one or more [Administrative Units](https://learn.microsoft.com/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
+Due to the fact that CQD is an aggregate reporting tool, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
 |&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
