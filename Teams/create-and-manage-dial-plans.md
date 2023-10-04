@@ -156,7 +156,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.
 ```PowerShell
-$nr1=New-CsVoiceNormalizationRule -Parent Global -Name NR1 -InMemory
+$nr1=New-CsVoiceNormalizationRule -Identity Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
