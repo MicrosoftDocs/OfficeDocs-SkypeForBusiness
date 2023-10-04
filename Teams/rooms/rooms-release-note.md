@@ -210,17 +210,15 @@ Introduced in this update:
 - Default video camera setting
 - Cortana push-to-talk icon update on MTR console
 - Azure AD Premium 1 license inclusion in Room Standard and Premium SKUs
-- Azure AD conditional access policies support<sup>3</sup>
+- Azure AD conditional access policies support
 - Cortana voice activation enabled by default in OOBE
-- Remote PTZ controls support<sup>4</sup>
+- Remote PTZ controls support<sup>3</sup>
 
 <sup>1</sup> These features are rolling out using Teams web client and will complete rollout in next couple of weeks. Read more about [Teams updates](../teams-client-update.md) for details.
 
 <sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes aren't impacted by this update.
 
-<sup>3</sup> See addition details on setting up  [Azure AD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
-
-<sup>4</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
+<sup>3</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
 
 ### Teams Rooms Web client update (December 2021)
 
