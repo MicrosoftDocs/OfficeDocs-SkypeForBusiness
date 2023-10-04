@@ -30,7 +30,7 @@ Device firmware updates happen automatically by default. You can, however, updat
 
 #### Software versions on Teams admin center
 
-All new software versions for Teams devices are made available on Teams admin center once they are published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfils the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
+All new software versions for Teams devices are made available on Teams admin center once they are published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfills the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
 
 Only software versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Software versions tested by Microsoft are labeled **Verified by Microsoft**.
 
