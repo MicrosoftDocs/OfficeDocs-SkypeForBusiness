@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
-ms.date: 11/28/2017
+ms.date: 09/27/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +24,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.voice.dialplans.overview
   - Calling Plans
-description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Teams and how to choose one for your organization.  "
+description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Teams and how to choose one for your organization. "
 ---
 
 # What are dial plans?
@@ -39,7 +39,7 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 A dial plan's scope determines the hierarchical level at which the dial plan can be applied. Clients get the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell.
 
-In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization). A service-scoped dial plan is defined for every country or region where Phone System is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan, but you can create tenant scoped dial plans, which augment the service country/region dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country/region dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country/region dial plan.
+In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization). A service-scoped dial plan is defined for every country or region where Teams Phone is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan, but you can create tenant scoped dial plans, which augment the service country/region dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country/region dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country/region dial plan.
 
 Tenant dial plans can be further broken into two scopes - tenant-scope or user-scope. If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan.
 
@@ -161,4 +161,4 @@ The following table shows sample normalization rules that are written as .NET Fr
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

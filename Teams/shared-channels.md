@@ -70,6 +70,8 @@ If the last shared channel owner leaves your organization or if they are removed
 
 Guests - including those converted to members (in their user type property) - can't be added to a shared channel.
 
+In the Teams admin center, when adding an external participant who also has a guest account in your organization, you must search on *ext:user@domain.com* to get the external participant's organization account rather than the guest account.
+
 > [!NOTE]
 > External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
 
