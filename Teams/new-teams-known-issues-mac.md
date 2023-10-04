@@ -82,14 +82,14 @@ ms.localizationpriority: high
 
 - **Issue:**  Meeting branding not working on Mac.
 
-- **Issue:**  Cannot navigate to "join meeting" using keyboard actions.
+- **Issue:**  Can't navigate to "join meeting" using keyboard actions.
 
-- **Issue:**  At the top of the meeting window, the meeting title is not shown when joining for the first time. It only shows "Meeting now". </br>
+- **Issue:**  At the top of the meeting window, the meeting title isn't shown when joining for the first time. It only shows "Meeting now". </br>
   **Workaround:**  Rejoin the meeting; the meeting title shows as expected.
 
-- **Issue:**  Presenter Modes are not available.
+- **Issue:**  Presenter Modes aren't available.
 
-- **Issue:** Call Monitor Jumps. If you switch between virtual desktop, the call monitor will pull users back to the original desktop that the meeting is on.
+- **Issue:** Call Monitor Jumps. If you switch between virtual desktop, the call monitor pulls users back to the original desktop that the meeting is on.
 
 - **Issue:**  Presenter bar can't be unpinned.
 
@@ -125,7 +125,7 @@ ms.localizationpriority: high
 
 -  **Issue:**  Using running a side-by-side scenario may experience mute sync issues, call drops, and other syncing issues between their Peripheral and new Teams.
 
-- **Issue:** While casting, the include audio radio button doesn't transfer audio.
+- **Issue:** The include audio radio button doesn't transfer audio when casting.
 
 - **Issue:**  Certified collaboration controller type device (for example, Presenter+) functionality is unavailable.
 
@@ -158,6 +158,6 @@ ms.localizationpriority: high
 - **Issue:** Proxy server isn't supported yet. If a tenant has deployed proxy server, video background images downloaded through proxy server fail. The user sees only a gray video background.</br>
   **Workaround:** User can used Background Blur as an alternative.
 
-- **Issue:** Proxy authentication is currently in beta release. Contact support if you experience issues or switch to classic Teams.
+- **Issue:** Proxy authentication is currently in beta release. Contact support if your experience issues or switch to classic Teams.
 
 - **Issue:** Signing out from Admin Disabled page doesn't go back to the sign in page - Admin Disabled page continues to show.
