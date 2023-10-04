@@ -1,5 +1,5 @@
 ---
-title:  Deploy the new Teams client using policies
+title:  Upgrade to the new Teams client using policies
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -15,14 +15,14 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how to deploy the new Microsoft Teams client.
+description: Learn about how to upgrade the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Deploy the new Teams using policies
+# Upgrade to the new Teams using policies
 
-You can deploy the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell. 
+You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell. 
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ You can deploy the new Teams client to your organization by setting policies in 
 
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-## Set the policies to deploy the new Teams client
+## Set the policies to upgrade to the new Teams client
 
 As an admin, you can manage how new Teams to your users.
 
@@ -58,7 +58,7 @@ Manage this setting in the **Teams Admin Center** or using **Teams PowerShell**.
 
 Configure setting via Teams Admin Center.
 
-## Policy settings for deployment
+## Policy settings for upgrade
 
    |Setting|Description|
    |:-----|:-----|

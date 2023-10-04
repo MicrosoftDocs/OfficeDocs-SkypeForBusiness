@@ -80,10 +80,8 @@ ms.localizationpriority: high
 
 ### Global readiness
 
-
 - **Issue:** The UI lanauge and regional parameters are local.  They do not follow the OS, browser, or account. When a user changes the operation system UI language, the new choice is not pushed to the the new Teams app.
   **Workaround:**  Set the lanugate or regional settings manually, or restart the new Teams app.
-
 
 ### Meetings
 

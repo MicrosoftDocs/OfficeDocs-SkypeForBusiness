@@ -92,12 +92,6 @@ Details: The meeting attendees may see preview content in those notifications.</
   **Workaround**: Share the app or window using the share tray within Teams meeting. 
 
 
-### Multi-Tenant Multi-Account (MTMA)
-
-- **Issue:** If you enable the sign-in restrictions policy, the new Teams client applies the policy on guest tenants. For example, if the policy is set to only allow sign in to Contoso, then Contoso users won't be able to switch their Teams app to any other org where they have been invited as a Entra B2B guest (formerly known as Azure AD B2B guest).</br>
-**Workaround**: Add all the tenants where your users can be guested to your sign in restrictions policy.
-
-
 ### Notifications
 
 - **Issue**: If a user receives a message where @mention *Everyone* is used, it shows in their feed as a personal mention.</br>
