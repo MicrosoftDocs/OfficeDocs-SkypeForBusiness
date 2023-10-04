@@ -51,7 +51,6 @@ The following table shows which features are available in meetings, webinars, an
 |[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
 |[Live transcriptions](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|✔️|✔️|✔️|
 |[Lobby](who-can-bypass-meeting-lobby.md)|✔️|✔️|✖️|
-|Local broadcasting|✔️|✔️|✔️|
 |[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|Premium|Premium|✔️|
 |[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Organizers and co-organizers can use video effects](https://products.support.services.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
