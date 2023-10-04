@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how Microsoft Teams Administrators can specify which meeting templates are available to their users.

@@ -1,10 +1,10 @@
 ---
-title: "Getting phone numbers for your users"
+title: "Get phone numbers for your users"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 08/16/2023
+ms.date: 08/29/2023
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
@@ -26,7 +26,7 @@ ms.custom:
 description: "Learn how to get new, port, or transfer existing numbers for Teams, and how to show the changes to your users."
 ---
 
-# Getting phone numbers for your users
+# Get phone numbers for your users
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
   
@@ -108,4 +108,4 @@ This video shows the steps to assign a phone number to a user.
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

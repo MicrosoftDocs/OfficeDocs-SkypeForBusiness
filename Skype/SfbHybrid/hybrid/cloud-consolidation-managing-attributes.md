@@ -1,7 +1,7 @@
 ---
 ms.date: 11/05/2018
 title: "Decide how to manage attributes after decommissioning"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen
@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -28,8 +29,7 @@ description: "This article describes how to manage attributes after decommission
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-
-By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory. 
+By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory.
 
 These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync into Azure AD. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Azure AD. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
 
@@ -37,8 +37,7 @@ There are two options available for handling this situation:
 
 1. Leave users that were enabled for Skype for Business server accounts as is, and manage the msRTCSIP attributes using Active Directory tools. This method ensures no loss of service for migrated users, and allows you to remove the Skype for Business Server deployment by eliminating (for example, wiping) the servers, without a full decommissioning. However, newly licensed users won't have these attributes populated in your on-premises Active Directory and will need to be managed online.
 
-2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users. However, it may result in a temporary loss of service during the on-premises decommissioning process.
-
+2. Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. This method allows for a consistent management approach for existing and new users. However, it may result in a temporary loss of service during the on-premises decommissioning process.
 
 ## Method 1 - Manage sip addresses and phone numbers for users in Active Directory
 
@@ -55,11 +54,9 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
   ![Active Directory users and computers tool.](../media/disable-hybrid-1.png)
 
-
 - If the user didn't originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you're comfortable using the mix of these methods and with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
-
 
 ## Method 2 - Clear Skype for Business attributes for all on-premises users in Active Directory
 

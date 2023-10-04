@@ -13,6 +13,7 @@ description: Learn how to route inbound PSTN & federated calls in Microsoft Team
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 f1.keywords:
 - CSH

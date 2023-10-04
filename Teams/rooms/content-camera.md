@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: 
   - seo-marvel-mar2020
@@ -64,11 +64,12 @@ The distance of the camera from the whiteboard combines with the camera resoluti
 
 | Camera HFoV |3 ft. (0.91 m)     | 6 ft. (1.8 m)    | 9 ft. (2.74 m)        |12 ft.  (3.65 m)         | Max distance from Whiteboard  |
 |:---         |:---               |:---                |:---                 |:---             | :--- |
-| 80°         | 1.79 ft. (0.54 m) | 3.58 ft. (1.09 m)  | 5.36 ft. (1.6 m)    |7.15 ft. (2.17 m) |7.51 ft. (2.28 m) |
-| 90°         | 1.5 ft. (0.45 m) | 3.00 ft. (0.91 m)   | 4.5 ft. (1.37 m)    |6.0 ft. (1.82 m)    |6.3 ft. (1.92 m) |
-| 100°        | 1.26 ft. (0.38 m)| 2.52 ft. (0.77 m)   | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
-| 110°        | 1.05 ft. (0.32 m)| 2.10 ft. (0.64 m)   | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
-| 120°        | 0.87 ft. (0.26 m)| 1.73 ft. (0.52 m)   | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
+| 80°         | 1.79 ft. (0.54 m) | 3.58 ft. (1.09 m)  | 5.36 ft. (1.6 m)    |7.15 ft. (2.17 m)   |7.51 ft. (2.28 m) |
+| 90°         | 1.5 ft. (0.45 m)  | 3.00 ft. (0.91 m)  | 4.5 ft. (1.37 m)    |6.0 ft. (1.82 m)    |6.3 ft. (1.92 m) |
+| 100°        | 1.26 ft. (0.38 m) | 2.52 ft. (0.77 m)  | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
+| 110°        | 1.05 ft. (0.32 m) | 2.10 ft. (0.64 m)  | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
+| 120°        | 0.87 ft. (0.26 m) | 1.73 ft. (0.52 m)  | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
+
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
 If you have whiteboards larger than 12 ft. (3.65 m) or with no corners (like full wall whiteboards), you can place the camera anywhere in the middle. The enhancement software selects an area in the middle if it fails to find whiteboard corners.

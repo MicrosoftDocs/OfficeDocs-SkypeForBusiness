@@ -130,7 +130,9 @@ You can use the Microsoft Teams admin center to edit a policy, including the **G
 
 ### Assign a custom policy in app setup policy to users and groups
 
-To know how to assign policies to your users and to groups, see [how to assign policies to users and groups](assign-policies-users-and-groups.md).
+To know how to assign policies to your users and to groups, see [how to assign policies to users and groups](assign-policies-users-and-groups.md) and [admin center UI for group assignments](https://admin.teams.microsoft.com/policies/app-setup/grouppolicyassignments). Groups are distribution list groups, mail-enabled security groups, security groups, and Microsoft 365 groups and are created in [teams and groups UI in admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
+
+A user can have more than one policy assigned either directly or as a part of different groups. However, only one policy is effective at a time for a user. To know what policy applies, see [precedence of applied policies](/microsoftteams/policy-assignment-overview#which-policy-takes-precedence).
 
 ## View the policies already applied to the user
 
@@ -191,7 +193,7 @@ After you unassign policies, you can review operation details in the [Activity l
 
 * There's no limit on the maximum number of pinned apps you can add to a policy. However, at least two apps must be pinned to the Teams mobile client (iOS and Android). If a policy has fewer than two apps, the mobile client won't reflect the policy settings, and instead will continue to use the existing configuration.
 
-* After you edit or assign a policy, it can take a few hours for changes to take effect.
+* After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to rollback the policy application.
 
 * Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane. While the Teams app store lists all Teams apps, the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy.
 

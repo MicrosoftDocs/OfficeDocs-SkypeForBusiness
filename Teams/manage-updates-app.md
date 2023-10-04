@@ -1,7 +1,7 @@
 ---
 title: Manage the Updates app for your organization
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: acolonna, diyu
 ms.date: 03/30/2023
@@ -19,7 +19,6 @@ ms.collection:
   - M365-collaboration
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams

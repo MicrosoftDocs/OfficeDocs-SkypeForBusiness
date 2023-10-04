@@ -14,7 +14,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 search.appverid: MET150
@@ -24,7 +24,7 @@ description: This article provides an overview of and features supported by Micr
 
 # Microsoft Teams displays
 
-Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
+Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
 
 Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
 
@@ -36,7 +36,6 @@ In addition to the [features supported by Teams phones](phones-for-teams.md#feat
 
 - **Dedicated displays for Teams** Users can access all core Teams features including chat, meetings, calls, teams and channels, files and more.
 - **Ambient experience** Users can easily stay on top of their work with always-on and glanceable displays to see important activities and notifications without context-switching on their primary work device. Users can also personalize Teams displays by customizing the background through settings.
-- **Hands-free with Cortana** Users can interact with Teams displays using their voice to effortlessly join and present in meetings, dictate replies to a Teams chat, check what’s on the calendar, and more.
 - **Leave a note on lock screen** Guests can choose to leave audio, video, and text notes, and users can check the notes left by guests and see who’s stopped by.  
 - **Virtual front desk experience on Teams-certified displays** Enables staff to greet and serve visitors or employees via video call on a Teams display. It can be used for virtual reception, helpdesk, and a variety of use cases across industries.
   
@@ -75,4 +74,4 @@ After you create resource accounts, you can create and assign a policy to enable
 
 [IP Phones certified for Microsoft Teams](teams-ip-phones.md)
 
-[Cortana voice assistance in Teams](../cortana-in-teams.md)
+

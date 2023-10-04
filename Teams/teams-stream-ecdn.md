@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 09/13/2022
 search.appverid: MET150
@@ -68,10 +69,6 @@ To learn more about these options, check out [this link](https://kollective.com/
 - **Ramp OmniCache™** is video-specific caching software that uses local caches to serve live and VOD video to nearby audiences, drastically reducing the number of video streams traveling across your internet connections and WAN links. Learn more at [this link](https://www.rampecdn.com/altitudecdn/video-cache/).
 - **Ramp Peer-to-Peer (P2P)** lets you optimize bandwidth even at locations with limited infrastructure. P2P builds a peer network of client devices watching the same content to redistribute the video streams from one viewing device to another. Learn more at [this link](https://www.rampecdn.com/altitudecdn/p2p/).
 
-### Riverbed
-
-**Riverbed**, the industry standard in network optimization, has extended its acceleration solutions to Teams. Microsoft 365 customers can confidently accelerate Microsoft 365 traffic, including Teams, along with a wealth of other leading enterprise SaaS services to increase workforce productivity from anywhere. Teams acceleration can be enabled through an effortless setup that comes with all the assurance of Riverbed’s world-class support and ongoing investment.
-
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected partner eCDN provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.
 
@@ -81,7 +78,7 @@ After purchasing and setting up your eCDN solution, you can enable it for use wi
 
 1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [Live events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
 1. Toggle the **Video distribution provider** to **On**.
-1. Choose an **eCDN/SDN provider** from the the **Video distribution provider** dropdown list.
+1. Choose an **eCDN/SDN provider** from the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (Not all fields are used by all solution providers).
 1. Select **Save**.
 1. To check if your setup is correct, select **Verify setup**.

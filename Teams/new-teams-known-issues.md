@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 08/29/2023
+ms.date: 10/04/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -20,167 +20,148 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams desktop client: Known issues 
+# Known issues for new Teams Windows desktop 
 
-There are a few known issues we're working on.
+This article covers known issues:
+
+|What|Description|
+|:-----|:-----|
+|[**Known issues**](#known-issues)|Known issues we're working on.|
+[**What features are changing in new Teams**](#what-features-are-changing)|Find out the changes you see in your improved customer experience.|
+
+## Known issues
 
 ### General
 
-**Issue**: Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
-**Fix**: Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.</br>Learn more about prerequisites here: [**Prerequisites for new Teams**](new-teams-deploy-using-policies.md#prerequisites).
-
-### Accessibility
-
-**Issue**: There may be accessibility gaps between new and classic Teams.
-If you discover any accessibility gaps, select **Give Feedback**.
+- **Issue:** Presence and Chat/Call from a user's live persona card (LPC) in Outlook doesn't work when non-admin users install the new Teams client. These experiences are also broken while switching between new Teams and classic Teams.</br>
+  **Workaround:** Confirm that the minimum prerequisites have been met, including installing the Office and Windows security updates as it applies to your organization.
 
 ### Apps
 
-- **Issue**: If custom apps are used, their icons are broken on the left pane.
+- **Issue**: Pin/Unpin and Apps "Drag and Drop" are missing in new Teams.
 
-- **Issue**: You can't install or uninstall any app in new Teams yet. Only apps installed in classic Teams show up in new Teams. </br>Workaround: Add your app in classic Teams. It will then appear in new Teams. 
+###  Calls
 
-- **Issue**: While all the basic capabilities within the app bar and flyout are supported, other advanced capabilities such as pinning, reordering, uninstalling, store navigation are still pending.
+- **Issue:**  Increased power usage during calls may impact battery life.
 
-### Calendar
-
-- **Issue:* There's no option to add a Channel calendar to a channel.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
-
-- **Issue**: Unable to add an app in scheduling form.</br>
-  **Workaround**: Switch back to classic Teams to use this feature.</br>
-
-### Calls
-
-- **Issue**: Increased power usage during calls may cause CPU throttling and negatively impact performance.</br>
-**Workaround/details**: We're working to resolve this.
-
-- **Issue**: Full HID capabilities (for example, device mute/unmute, LED sync) aren't yet supported.
-
-- **Issue**: When using the “share screen” option to share content or in DND mode, call toast notifications will still pop up.
-
-- **Issue**: Call toast stacking isn't supported by default in Windows 10.</br>
-  **Workaround**: Open the action center to view secondary incoming call toasts.
 
 ### Chats
 
-- **Issue:** The Organization tab isn't available on chat.</br>
-  Details: The organization tab has moved to a person's Microsoft 365 contact card. To view your organization tab, select a user's profile picture and then Organization on their card. This aligns with how you view org charts in other Microsoft 365 apps, creating a more consistent experience.
-
-- **Issue:** When you pop out a chat, the window may appear blank for a few moments.
-
-- **Issue:** You may still receive notifications on the muted meeting chats.
-
-- **Issue:** You can't search for external users even if you enter full email address.
+- **Issue:** You may still receive notifications on muted meeting chats.
 
 - **Issue:** If you receive a message where @mention *Everyone* is used, it shows in your feed as a personal mention.</br>
-  Details: The @mention Everyone feature is still pending for this release.
+  Details: The @mention Everyone feature is still pending.
+
+- **Issue:** Possible duplication of Group Chats where non-blocking Group Chat call fails.  User could potentially create a new GroupChat with the same membership as one that already exists.
+
+
+### Global readiness
+
+- **Issue:** The UI lanauge and regional parameters are local.  They don't follow the OS, browser, or account. When a user changes the operation system UI language, the new choice isn't pushed to the new Teams app.
+  **Workaround:**  Set the language or regional settings manually, or restart the new Teams app.
+
+### Messages
+
+- **Issues:** Message extensions in Powerbar aren't yet available.
 
 ### Meetings
-
-- **Issue** Commercial cloud customers are unable to join a meeting hosted in a Government cloud (including GCC, GCC High, DoD) using Cross Cloud Anon (CCA).</br>
-  Details: This feature is still pending in new Teams. Switch back to classic Teams for this meeting.
-
-- **Issue:** When using the “Share screen” option to share content, notifications will still pop up, even if you have notifications muted.</br>
-Details: The meeting attendees may see preview content in those notifications.</br>
-  **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop".
 
 - **Issue:** Some meeting details won’t appear in new Teams.</br>
   Details you won't see include forwards, "show as," and assigned meeting categories. 
 
-- **Issue:** When you close a meeting window by selecting "X" in the upper-right corner, you won’t receive a prompt saying, “Are you sure you want to leave?”</br>
-  **Workaround**: If you leave a meeting by accident, rejoin.
-
 - **Issue:** For channel meetings, you won’t see a banner at the top of a channel when a meeting hosted there's active.</br>
   **Workaround**: Select Join in the channel conversation to join the meeting.
 
-- **Issue:** When you disable attendee mic/camera, it may not look like it's disabled to attendees.</br>
-  Details: When you disable attendee mic/camera for a meeting, attendees will still be able to select the microphone and camera icons in the meeting toolbar. However nothing happens until they come off mute or turn on their video.
-
-- **Issue:** Some people are experiencing poor resolution when screen-sharing during a meeting.</br>
-  Details: The product group is investigating this issue.
-
-- **Issue:** An error occurs when joining a meeting whose organizer is from an organization for which you either (1) don't have an account signed-in into the new Teams client or (2) none of your signed-in accounts are guests there.</br>
-  Details: Before joining the meeting, turn off preview using the toggle button on the title bar.
-
-- **Issue:** When using the "Share screen" option to share content, toast notifications will still pop up, even if you have notifications muted.</br>
-  Details: Meeting attendees may see preview content in those notifications.</br>
-  **Workaround**: Use "Share window" or "PowerPoint Live" instead of "Share desktop."
-
-- **Issue:** Some meeting details won't show up in new Teams.</br>
-  Details include forwards, "show as," and assigned meeting categories.
-
-- **Issue:** If you're using new Teams, you can't join or be assigned to a Breakout room as a participant. Meeting organizers: If you set up the Breakout Room in classic Teams, you won't be able to manage and open Breakout Rooms from new Teams.</br>
-  **Workaround**: As an organizer, if you plan to run Breakout sessions, switch back to classic Teams and inform all participants that the meeting includes Breakout Rooms, and they all must switch to classic Teams to participate.
-
 - **Issue:** In Restricted Meetings, attendee Microphone/Camera UBAR buttons appear enabled, however Attendees Audio/Video doesn't flow into the meeting.
 
-- **Issue:** When a user raises their hand in Gallery view, two hands are displayed raised on their gallery (bottom left and upper right).
+- **Issue:** Network Device Interface (NDI) streaming is still pending and will be available later this year.  Live events present and attendee presenter and attendee are supported, however TLE Producer isn't. Users need to use classic Teams for TLE producer.
 
-- **Issue:** Selecting Room Audio has a blank UI, and it's unable to detect rooms or search on the Join screen.
+- **Issue:** Give and Take control not available.
 
-- **Issue:** In Settings->Devices, users can't preview their video. 
+- **Issue:** Currently there's no support of Cameo rendering, Sandaout/Weatherson layout in PowerPoint Live.
 
-- **Issue:** Users won't be able to start a "Screen sharing call".</br>
-  Details: Users on Windows 11 can’t share the app using the taskbar. </br>
-  **Workaround**: Share the app or window using the share tray within Teams meeting. 
 
-- **Issue:** Users can’t use the advanced presenter modes (Standout, Side-by-side, Reporter, Cameo).
+### MTMA
 
-- **Issue:** Users won't see the presenter toolbar when a screen sharing session is active.
-
-### Multi-Tenant Multi-Account (MTMA)
-
-- **Issue:** If you enable the sign-in restrictions policy, the new Teams client applies the policy on guest tenants. For example, if the policy is set to only allow sign in to Contoso, then Contoso users won't be able to switch their Teams app to any other org where they have been invited as a Entra B2B guest (formerly known as Azure AD B2B guest).</br>
-**Workaround**: Add all the tenants where your users can be guested to your sign in restrictions policy.
-
-- **Issue:** After successfully seeing the toggle and installing the new Teams, a user switches to a different tenant that doesn't have new Teams enabled. The user can't sign back into their home tenant.</br>
-**Workaround**: Uninstall the new Teams and reinstall.
-
-- **Issue:** When you open an app, you may see a banner saying you're signed in to that app and Teams with different accounts. For example, if you go to the Approvals app, the banner reads: "There’s a small chance you’re signed in to Approvals and Teams with different accounts."</br>
-  **Workaround**: If you sign out and back in, the banner shouldn't appear anymore. [Learn more about this issue](https://support.microsoft.com/en-us/office/troubleshooting-sign-in-to-apps-in-teams-943e9035-6225-4b23-b902-e0118cec7841).
-
-- **Issue:** New tenant invitations may not appear or get updated for 24 hours.</br>
-  **Workaround**: Switch back to classic Teams if the user needs access earlier than 24 hours.
-
+- **Issues:** New tenant invitations or status may not appear or get updated in the Me control for 24 hours.</br>
+  **Workaround:** Switch to classic Teams if you need to access that new tenant in less than 24 hours.
 
 ### Notifications
 
 - **Issue**: If a user receives a message where @mention *Everyone* is used, it shows in their feed as a personal mention.</br>
-  Details: The @mention Everyone feature is still pending for this release.
+   Details: The @mention Everyone feature is still pending for this release.
 
-- **Issue**: Some Teams users aren't receiving notifications of chat mentions, meetings or calls.</br>
-  Details: Review your Windows Notification settings. From the upper-right corner of the Teams desktop app, select the ellipsis (...) > Settings & Notifications > Open Windows notification settings. Find Microsoft Teams (work preview) in the apps list and set your preferences.
+### Offline
+
+- **Issue:** Some offline experiences are impacted if user has poor network 
+- 
+### Peripherals
+
+- **Issue:**  BetterTogether calling and meeting support isn't available yet in new Teams.
+
+- **Issue:**  If an audio device is connected to a PC over native bluetooth (without a dongle), call control buttons won't sync with new Teams.
+
+- **Issue:** Teams button functionality (Raise Hands, Join Meeting, bring Teams app to foreground) not available. 
+
+-  **Issue:**  Using running a side-by-side scenario may experience mute sync issues, call drops, and other syncing issues between their Peripheral and new Teams.
+
+- **Issue:** While casting, the include audio radio button currently doesn't transfer audio.
+
+- **Issue:**  Certified collaboration controller type device (that is, Presenter+) functionality unavailable.
 
 ### Presence
 
-- **Issue**: Occasionally when a user is in a meeting, their Presence Status shows as Available.
+- **Issue:** Occasionally when a user is in a meeting, their Presence Status shows as Available.
 
-- **Issue**: Sometimes users aren't able to reset presence status.
+- **Issue:**  Sometimes users aren't able to reset presence status.
 
-- **Issue**: The preview thumbnail for Teams appears but there are no presence buttons.
+- **Issue:** The preview thumbnail for Teams appears but there are no presence buttons.
+
+- **Issue:**  When users switch from new Teams to classic, classic Teams crashes.
 
 ### Teams and Channels
 
-- **Issue**: You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
+- **Issue:** You won't see a banner at the top of a channel for channel meetings when a meeting hosted is active. You can still join the meeting from the channel.
 
-- **Issue**: Member and guest counts are occasionally displayed incorrectly in the members' tab.
+- **Issue:**  Users of GCC High and DoD government clouds may see the option to create a shared channel, but it isn't yet available.  If you try to create a shared channel, an error will occur and the channel won't be created. 
 
-- **Issue**: Limited options on Team Channel properties Dialog, including:
-  - Pin, Manage Channel and Get Email Address available
-  - Limited team site properties dialog – Hide, Manage Team, and Manage Tags available
-  - Adding a tab to a channel isn't currently available.
-  - Webhooks not supported
+- **Issue:** Toast notifications won't appear when Creating a team. The team is created.
 
-- **Issue**: Attendance report doesn't show after a meeting.</br>
-  **Workaround**: To download, go to **Edit Meeting Details** > **Attendance** > **Download**. It will always download the latest meeting's report. Currently, there's no option to download a report of an older channel meeting.
+- **Issue:** Can't create Team from the grid layout. </br>
+  **Workaround:**  User the list view layout to create teams.
 
-## Other areas:
+### Other areas:
 
-- **Issue**: Right-clicking on the back button (next to Search) doesn't bring the old history for you to navigate.
+- **Issue:** If a user has more than one tenant in their account, and if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account. It signs in with any one of their accounts (including guest accounts).</br>
+  **Workaround**: Before joining a meeting, sign in with primary tenant account.
 
-- **Issue**: If Windows (Focus/Do not Disturb) mode is on you won’t receive Teams notifications.</br>
-  **Workaround**: Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications and enable it with Focus/Do not Disturb mode.
+- **Issue:** If a tenant has deployed proxy server, proxy server isn't supported yet and therefore the video background images download through proxy server will fail, user sees gray video background in this scenario.</br>
+  **Workaround:** Use Background Blur as an alternative.
 
-- **Issue:** If a user has more than one tenant to their account, if they sign out of their accounts and then join a meeting, it will not sign in with their primary tenant account, but any one of their accounts (including guest accounts).</br>
-**Workaround**: Before joining a meeting, sign in with primary tenant account.
+- **Issue:** Proxy authentication is currently in beta release. Contact support if you experience issues or switch to classic Teams.
+
+- **Issue:** Signing out from Admin Disabled page doesn't go back to the sign in page - Admin Disabled page continues to show.
+
+## What features are changing?
+
+As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
+
+|Classic Teams|New Teams|
+|:-----|:-----|
+|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
+|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
+|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
+|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
+|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
+|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
+|Activity tab in chat| No longer available.|
+|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
+|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
+|Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
+|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
+|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
+|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
+|General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
+|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
+|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|

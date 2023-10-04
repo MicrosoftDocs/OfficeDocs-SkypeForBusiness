@@ -1,7 +1,7 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: rjam
 ms.date: 06/14/2023
@@ -14,7 +14,6 @@ ms.collection:
   - M365-collaboration
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 ---
 

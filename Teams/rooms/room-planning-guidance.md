@@ -12,9 +12,9 @@ search.appverid: MET150
 ms.reviewer: 
 description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - Tier1
+  - teams-rooms-devices
 f1.keywords: 
   - NOCSH
 localization_priority: Normal

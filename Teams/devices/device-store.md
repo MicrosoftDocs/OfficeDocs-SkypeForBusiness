@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 audience: Admin
@@ -38,7 +38,7 @@ The device store includes all devices that are certified for Teams, including he
 
 ## Purchase devices
 
-When you purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com, a Microsoft third-party fulfillment partner.  
+When you purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com (a Microsoft third-party fulfillment partner), under their [terms of service](https://unifiedcommunications.com/docs/teams-marketplace/en-US/terms-of-service) and [privacy policy](https://unifiedcommunications.com/docs/teams-marketplace/en-US/privacy-policy).
 
 You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider.
 
@@ -46,7 +46,7 @@ All orders can be returned up to 30 days after they're delivered.
 
 ## Order tracking and history
 
-You can view the order history by going to **Store > Order history**, which includes all orders placed by you and other admins in the organization. Order history also includes the shipping status of your orders. For questions about order tracking, returns, or refunds, contact UnifiedCommunications.com. Their contact information is available on the Order history page.
+You can view the order history by going to **Store > Order history**, which includes all orders placed by you and other admins in the organization. Order history also includes the shipping status of your orders. For questions about order tracking, returns, or refunds, contact UnifiedCommunications.com. Their contact information is available on the invoice sent to the email address mentioned during order placement.
 
 Orders placed in the Teams device store and any data associated with them are classified as tenant orders and tenant data.
 

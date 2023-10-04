@@ -11,6 +11,7 @@ ms.service: msteams
 audience: Admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 f1.keywords: 
   - NOCSH
 appliesto: 

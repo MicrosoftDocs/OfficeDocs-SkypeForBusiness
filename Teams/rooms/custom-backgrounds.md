@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
@@ -45,7 +45,7 @@ To check which version of Teams is installed and which Teams Rooms license is ap
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
-Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
+Select the tab that corresponds to the version of Teams Rooms and the Teams Rooms license that applies to your device.
 
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|
@@ -184,12 +184,12 @@ To tell Teams to use custom backgrounds and which files to use, you need to add 
 > [!NOTE]
 > If the `<CustomThemeImageUrl>` element is also included in the XML configuration file, the following elements override the value provided in that element.
 
-| Element                                | Description                                                                           | Required?                                                                                                                                                       |
-|----------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Element | Description | Required? |
+|---------|-------------|-----------|
 | `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
-| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
-| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
+| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>e.g., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>e.g., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
+| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>e.g., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
 Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
 
@@ -218,12 +218,15 @@ Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines diffe
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
 **16:9 - Single front-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Custom background showing a single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
 
 **16:9 - Dual front-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
 
 **21:9 - Single front-of-room display dimensions**
+
 :::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
 
 When you create a custom background, use the following guidelines:
