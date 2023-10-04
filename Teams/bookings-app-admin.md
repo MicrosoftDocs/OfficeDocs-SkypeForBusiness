@@ -1,7 +1,7 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: lana-chin
-ms.author: v-chinlana
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: ITPro
 ms.topic: how-to 
