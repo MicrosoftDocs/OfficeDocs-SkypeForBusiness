@@ -28,7 +28,6 @@ This article covers known issues:
 |:-----|:-----|
 |[**Known issues**](#known-issues)|Known issues we're working on.|
 [**What features are changing in new Teams**](#what-features-are-changing)|Find out the changes you see in your improved customer experience.|
-|[**Features that are coming soon**](#Features-that-are-coming-soon)|There are a few features that we're still working on.|
 
 ## Known issues
 
