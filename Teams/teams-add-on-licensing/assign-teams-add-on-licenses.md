@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -69,53 +70,54 @@ Here's an example of how to use a script to assign licenses to your users.
 
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is `MCOMEETADV`. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
 
-    ```powershell
-    #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
-    #Example of text file:''
-    #user1@domain.com
-    #user2@domain.com
-
-    #Import Module
-    ipmo MSOnline
-
-    #Authenticate to MSOLservice
-    Connect-MSOLService
-    #File prompt to select the userlist txt file
+```powershell
+    # Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
+    # Example of text file:
+    # user1@domain.com
+    # user2@domain.com
+    
+    # Import Module
+    ipmo Microsoft.Graph.PowerShell
+    
+    # Authenticate to Microsoft Graph
+    Connect-MgGraph
+    
+    # File prompt to select the userlist txt file
     [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-      $OFD = New-Object System.Windows.Forms.OpenFileDialog
-      $OFD.filter = "text files (*.*)| *.txt"
-      $OFD.ShowDialog() | Out-Null
-      $OFD.filename
-
+        $OFD = New-Object System.Windows.Forms.OpenFileDialog
+        $OFD.filter = "text files (*.*)| *.txt"
+        $OFD.ShowDialog() | Out-Null
+        $OFD.filename
+    
     If ($OFD.filename -eq '')
     {
     Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-
-    #Create a variable of all users
+    
+    # Create a variable of all users
     $users = Get-Content $OFD.filename
-
-    #License each user in the $users variable
+    
+    # License each user in the $users variable
     foreach ($user in $users)
         {
-        Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
+            Write-host "Assigning License: $user"
+            Set-MgUserLicense -UserId $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
+            Set-MgUserLicense -UserId $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
         }
-    ```
+```
 
-    For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
+  For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
-      ```
+```powershell
+    Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
+    Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
+```
 
-    To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
+  To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
-      ```
+  ```powershell
+      Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
+  ```
 
 ## Product names and SKU identifiers for licensing
 
