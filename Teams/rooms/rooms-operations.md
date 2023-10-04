@@ -45,7 +45,6 @@ Downloaded logs on the device can take up disk space. If logs are not regularly 
 |Setting|Allows|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
-  
 ## Front of Room display settings
 <a name="Display"> </a>
 
@@ -86,12 +85,13 @@ If Microsoft Teams Rooms isn't running well, performing a factory reset might he
 
 > [!NOTE]
 > There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
-  
+
 ## Supported Remote Options
 <a name="RemoteOptions"> </a>
 
 The following table summarizes the possible remote operations and the methods you can use to accomplish them.
   
+
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
@@ -100,7 +100,6 @@ The following table summarizes the possible remote operations and the methods yo
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
 |Access logs  <br/> |Teams admin center  <br/> PowerShell  <br/> |Teams admin center <br/> PowerShell  <br/>  |
-   
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
 
@@ -111,8 +110,6 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 - Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you will not have to remember the local machine level administrator account password.
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
-
-- If using Skype for Business, domain-joining the Teams Rooms automates importing your organization's private root certificate chain.
 
 When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
 
@@ -155,7 +152,7 @@ You can perform the following management operations remotely by using PowerShell
     
 > [!NOTE]
 > This functionality is off by default. You need to enable remote PowerShell for your environment on the Microsoft Teams Rooms system to perform the operations below. Refer to the documentation on **[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** for information about how to enable remote PowerShell.
-  
+
 For example, you can enable Remote PowerShell as follows:
   
 1. Sign in as Admin on a Microsoft Teams Rooms device.
@@ -225,6 +222,8 @@ By default, Microsoft Teams Rooms connects to Windows Update to retrieve operati
 If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
 
 By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
+
+
 
 
 
@@ -308,3 +307,5 @@ Your desired language is now applied to the Microsoft Teams Rooms console.
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera settings.
 - Loss of console touchscreen access has been known to occur. In such cases, the issue is sometimes resolved by restarting Teams Rooms.
 - Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
+
+
