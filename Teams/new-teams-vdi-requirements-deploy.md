@@ -15,24 +15,17 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about deploying the new Teams for virtualized Desktop Infrastructure (VDI)
+description: Learn about upgrading to the new Teams for Virtualized Desktop Infrastructure (VDI)
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# New Teams for Virtualized Desktop Infrastructure 
-
- 
+# Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
 
- 
-
 ## Requirements
-
-
-Virtual desktop Operative System requirements 
 
 For new Teams to be successfully installed, virtual machines must meet the minimum requirements listed here: 
 
