@@ -53,6 +53,52 @@ To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland
 
 See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
 
+### Required information
+
+To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland, Netherlands, and Spain, the address set up in the emergency location must match the phone number's area code.
+
+**All countries require the following information**:
+
+- House or building name or number 
+- Street name
+- City or town
+- Postal code or zip code
+- Latitude
+- Longitude
+- Organization or Company name
+
+In addition, some countries require additional information as shown in the following table:
+
+| Information | Required by |
+| :------------|:-------|
+| State or Province | Canada, Israel, Italy, United States |
+| Company tax ID | Belgium, Czech Republic, Italy, Netherlands, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Spain, Sweden |
+| Street type | Italy |
+
+**The following countries also require State or Province**:
+
+- Canada
+- Israel
+- Italy (selective list)
+- United States
+
+**The following countries require company tax ID**:
+
+- Belgium
+- Czech Republic
+- Italy
+- Netherlands
+- Norway
+- Poland
+- Portugal
+- Romania
+- Singapore
+- Slovakia
+- Spain
+- Sweden
+
+
+
 ## Change an emergency location
 
 You can change emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
