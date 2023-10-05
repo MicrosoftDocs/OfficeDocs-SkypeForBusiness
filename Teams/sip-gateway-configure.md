@@ -205,7 +205,7 @@ Only local sign-in is supported for users’ personal devices. To sign out a dev
 
 3. At the right, select a SIP device, and then select **Sign out**.
 
-### Zero Touch Common Area Phone Sign-In
+### Zero Touch Common Area Phone sign in
 
 You can remotely sign in common area phones to SIP Gateway without any physical intervention on the device.
 
@@ -213,9 +213,9 @@ You can remotely sign in common area phones to SIP Gateway without any physical 
 
 2. Open the [SIP remote login portal](https://aka.ms/sipremotelogin) in a browser tab.
 
-3. Authenticate with common area phone credentials that you want to associate with device.
+3. Authenticate with common area phone credentials that you want to associate with the device.
 
-4. Select appropriate device region, possible values are NOAM, EMEA, APAC.
+4. Select appropriate device region. You can use NOAM, EMEA, or APAC.
 
 5. Enter the MAC address of device in XX-XX-XX-XX-XX-XX format. 
 
