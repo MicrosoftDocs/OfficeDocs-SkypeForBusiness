@@ -20,21 +20,24 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Known issues for new Teams
+# Known issues for new Microsoft Teams
 
 - **Apps can't be pinned.**  Apps currently can't be pinned to the left rail.
 
+- **Meeting start notification for additional channel meeting attendees.** Users who were not included in the original invite for a channel meeting, don't see a notification when the meeting starts.
 
-## Coming soon 
+- **Set and show presence in taskbar and system tray.** Users currently can't set or show presence in the taskbar or system tray.
 
-After October 5th, these features will be available:
+- **Adding annotations from the Presenter toolbar.** The annotations palette in the Presenter toolbar is currently not available.
 
-- **Meeting start notification for additional attendees.** Users/Invitees who were not included in the original invite will soon see a notification when the meeting starts. Currently they do not.
+- **PowerPoint Live Standout.** PowerPoint Live standout is not yet available.
 
-- **Set and show presence in taskbar and system tray.**  Currently you aren't able to set or show your in the taskbar or system tray, including  account name and tenant name.
+- **Broadcasting Teams content to media.** NDI,SDI, and ISO streaming of Teams media content is not yet available.
 
-- **Adding annotations from the Presenter toolbar.**  An annotations palette in the Presenter toolbar will be available to add annotations in a presentation. 
+## Coming in October
 
-- **PowerPoint Live Standout.**  Support for PowerPoint Live standout.
-
-- **NDI support.** Network Device Infrastructure (NDI) support controls for broadcasting Teams meeting content to media.
+- Manual Hybrid Presence
+- Custom duration for status message
+- Ability to @mention users in status note
+- Ability to use Teams and Skype for Business in side-by-side scenarios
+- On Air Teams screen share
