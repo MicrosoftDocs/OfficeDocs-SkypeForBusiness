@@ -14,22 +14,22 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - teams-1p-app-admin
-description: Learn ho to set up immersive spaces for teams.
+description: Learn how to set up immersive spaces for teams.
 ---
 
 
 # Set up immersive spaces in Teams
 
-The Mesh immersive spaces app is by default allowed in the Teams Admin Center. However, unlike other apps, users do not need to search for or pin it in Teams. Instead, access an immersive space in the View menu in any Microsoft Teams meeting.
+The Mesh immersive spaces app is by default allowed in the Teams admin center. However, unlike other apps, users don't need to search for or pin it in Teams. Instead, they can access an immersive space in the View menu in any Microsoft Teams meeting.
 
 To set up immersive spaces in Teams, you should:
 
 - [Verify URLs, endpoints, and ports](#verify-endpoints-and-ports) are properly set up.
 - [Create or edit app permission policy](#create-or-edit-app-permission-policy) to block specific people from accessing the app.
 
-## What is an immersive space
+## What is an immersive space?
 
-Connect in a 3D immersive space, helping hybrid meetings *feel more like face-to-face connections*. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meetings.
+Connect in a 3D immersive space, helping hybrid meetings *feel more like face-to-face connections*. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
 
 :::image type="content" source="media/meeting-immersive-spaces-view-selector.png" alt-text="Immersive spaces view selector in Teams View menu":::
 
@@ -51,7 +51,7 @@ Immersive spaces work well for these types of meetings:
 
 Mesh immersive spaces is available with the following licenses:
 
-Teams Essentials, Microsoft 36I5 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
+Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
 ## Verify endpoints and ports
 
@@ -59,9 +59,7 @@ To ensure immersive spaces for Teams works properly, access to the following end
 
 ### Ensure endpoints can be allowed for Mesh immersive spaces
 
-To ensure the Mesh features work properly, the following endpoints must
-be allowed through your firewall or proxy server.
-All endpoints need to allow traffic on TCP ports 80 and 443:
+To ensure the Mesh features work properly, the following endpoints must be allowed through your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443:
 
 - *.microsoft.com
 - *.office.com
@@ -77,21 +75,21 @@ In addition to the endpoints above, Mesh also requires the following outgoing po
 
 - UDP ports 3478-3481
 
-Mesh traffic will use IP addresses in the AzureCloud service tag.
+Mesh traffic usees IP addresses in the AzureCloud service tag.
 
-For more information about service tags, see the [Azure service tags overview | Microsoft Learn](/azure/virtual-network/service-tags-overview).
+For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
 
 ## Disallow or allow the app
 
 > [!IMPORTANT]
-> If you disallow or allow the Mesh immersive spaces app, the UI entry point for Immersive space will **still be visible for up-to 24 hours**.
+> If you disallow or allow the Mesh immersive spaces app, the UI entry point for Immersive space will still be visible for up-to 24 hours.
 
 ## Create or edit app permission policy
 
 If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh immersive spaces app.
 
 > [!NOTE]
-> It may be more complicated if the tenant already has different app permission policies for users/groups.
+> It may be more complicated if the tenant already has different app permission policies for users or groups.
 
 1. In the left panel, go to **Teams apps** > **Permission policies**.
 1. In **App permission policies**, select **Add**.
@@ -104,7 +102,7 @@ If you want to allow or block the app for specific user groups, create or edit a
 > [!NOTE]
 > Users may need to restart Teams for the App setup policy to take effect.
 
-**Now users in Teams should be able to join an immersive space in Microsoft Teams!**
+Now users in Teams should be able to join an immersive space in Microsoft Teams.
 
 ## Next steps for immersive spaces
 
