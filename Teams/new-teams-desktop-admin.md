@@ -133,11 +133,11 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Teams Public Preview|October 2023|
 |Targeted Release Channel|October 2023|
 |Current Channel|Late October 2023|
-|Government Cloud (GCC, GCC High) Preview|October 2023|
-|Government Cloud (DoD) Preview|Mid October 2023|
 |Monthly Enterprise Channel|December 2023|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
+|Government Cloud (GCC, GCC High) Preview|March 2024|
+|Government Cloud (DoD) Preview|March 2024|
 
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
