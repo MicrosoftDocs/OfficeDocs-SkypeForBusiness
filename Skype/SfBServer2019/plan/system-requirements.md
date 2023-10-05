@@ -86,7 +86,9 @@ After you have the hardware in place, you need to the install operating system (
 - Windows Server 2016
 
 > [!NOTE]
-> Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update (Build Number 2046.524) and subsequent versions.
+> Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update 7 and higher versions (minimum Build Number 2046.524).
+
+Additional steps are required for clean installation of Windows Server 2022. For more information, see [Upgrading to Windows Server 2022](#upgrading-to-windows-server-2022).
 
 Anything other than the operating systems listed here won't work properly; don't try it for installs of Skype for Business Server 2019. For example, Server Core option isn't listed, and is thus not supported.
 
@@ -102,6 +104,9 @@ Anything other than the operating systems listed here won't work properly; don't
 
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
+
+> [!Note]
+> As a pre-requisite to installing the Skype for Business Server 2019, while using Windows Server 2022, you must run the [compatibility script for Windows Server 2022](#installation-of-compatibility-script-for-windows-server-2022).
 
 There are some things you're going to need to install or configure for any server running Skype for Business Server 2019. These things are listed below, followed by additional requirements for specific server roles.
 
@@ -192,9 +197,10 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation on Windows Server 2019.
 
 > [!Note]
-> When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you need not run the compability script for Windows Server 2022 as in-place OS upgrade preserves the existing application configurations.
+> - When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you do **not** need to run the compatibility script for Windows Server 2022 as in-place OS upgrade preserves the existing application configurations.
+> - If the script is run more than once in an upgrade scenario, there is no harm as the script will only make the required updates.
 
-### Installation of Windows Server 2022
+### Installation of Compatibility Script for Windows Server 2022
 
 When you're setting up the **Skype for Business Server** for the first time for Windows Server 2022, you must run the following script to ensure compatibility with Windows Server 2022.
 
