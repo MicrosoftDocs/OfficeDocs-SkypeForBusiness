@@ -29,9 +29,9 @@ ms.localizationpriority: high
 
 After October 5th, these features will be available:
 
-- **Meeting start notification not displaying for additional attendees.** Users/Invitees who were not included in the original invite will soon see a notification when the meeting starts. Currently they do not.
+- **Meeting start notification for additional attendees.** Users/Invitees who were not included in the original invite will soon see a notification when the meeting starts. Currently they do not.
 
-- **Presence in taskbar and system tray.**  Currently you can't see your presence in the taskbar or system tray, including the account name and tenant name.
+- **Set and show presence in taskbar and system tray.**  Currently you aren't able to set or show your in the taskbar or system tray, including  account name and tenant name.
 
 - **Adding annotations from the Presenter toolbar.**  An annotations palette in the Presenter toolbar will be available to add annotations in a presentation. 
 
