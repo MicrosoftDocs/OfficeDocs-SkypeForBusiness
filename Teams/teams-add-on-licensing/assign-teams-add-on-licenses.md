@@ -98,25 +98,40 @@ Here's an example of how to use a script to assign licenses to your users.
     $users = Get-Content $OFD.filename
     
     # License each user in the $users variable
-    foreach ($user in $users)
-        {
-            Write-host "Assigning License: $user"
-            Set-MgUserLicense -UserId $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-            Set-MgUserLicense -UserId $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        }
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq ''
+      $addLicenses = @(
+      @{SkuId = $EmsSku.SkuId}
+      )
+
+      foreach ($user in $users){
+      Write-host "Assigning License: $user"
+      Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -ErrorAction SilentlyContinue
+      }
 ```
 
   For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
 
 ```powershell
-    Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-    Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
+    Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
+
+    $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'ENTERPRISEPACK'
+    $FlowSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOMEETADV'
+    $addLicenses = @(
+    @{SkuId = $EmsSku.SkuId},
+    @{SkuId = $FlowSku.SkuId}
+    )
+
+    Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -RemoveLicenses @()
 ```
 
   To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
 
   ```powershell
-      Set-MgUserLicense -UserId $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
+      Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
+
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOTEAMS_ESSENTIALS'
+
+      Set-MgUserLicense -UserId $user -AddLicenses @() -RemoveLicenses @()
   ```
 
 ## Product names and SKU identifiers for licensing
