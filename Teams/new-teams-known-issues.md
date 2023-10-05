@@ -36,4 +36,4 @@ ms.localizationpriority: high
 
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set and show presence in taskbar and system tray.
-- Meeting start notification for additional channel meeting attendees.- Users who weren't included in the original invite for a channel meeting, don't see a notification when the meeting starts.
+- Meeting start notification for additional channel meeting attendees. Users who weren't included in the original invite for a channel meeting, currently don't see a notification when the meeting starts.
