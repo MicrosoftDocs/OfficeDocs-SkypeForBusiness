@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/04/2023
+ms.date: 10/05/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -35,5 +35,6 @@ ms.localizationpriority: high
 ## Coming in November
 
 - Support for NDI, SDI, and ISO streaming of Teams media content.
-- Set and show presence in taskbar and system tray.
-- Meeting start notification for additional channel meeting attendees. Users who weren't included in the original invite for a channel meeting, currently don't see a notification when the meeting starts.
+- Set presence in taskbar.
+- Show and set presence in system tray.
+- Channel meeting start notifications for users added after the original meeting invite.
