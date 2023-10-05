@@ -30,6 +30,9 @@ ms.localizationpriority: medium
 
 ## Overview
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
 
 Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides using Teams or Viva Engage.  
