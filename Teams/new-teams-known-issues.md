@@ -21,3 +21,20 @@ appliesto:
 ms.localizationpriority: high
 ---
 # Known issues for new Teams
+
+- **Apps can't be pinned.**  Apps currently can't be pinned to the left rail.
+
+
+## Coming soon 
+
+After October 5th, these features will be available:
+
+- **Meeting start notification not displaying for additional attendees.** Users/Invitees who were not included in the original invite will soon see a notification when the meeting starts. Currently they do not.
+
+- **Presence in taskbar and system tray.**  Currently you can't see your presence in the taskbar or system tray, including the account name and tenant name.
+
+- **Adding annotations from the Presenter toolbar.**  An annotations palette in the Presenter toolbar will be available to add annotations in a presentation. 
+
+- **PowerPoint Live Standout.**  Support for PowerPoint Live standout.
+
+- **NDI support.** Networkwork Device Infrastructure (NDI) support controls for broadcasting Teams meeting content to media.
