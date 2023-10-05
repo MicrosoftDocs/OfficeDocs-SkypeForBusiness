@@ -91,6 +91,8 @@ items:
                   href: new-teams-deploy-with-m365apps.md
                 - name: Upgrade to the new Teams for Mac       
                   href: new-teams-mac-install-prerequisites.md
+                - name: Upgrade to the new Teams for VDI
+                  href: new-teams-vdi-requirements-deploy.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
@@ -606,17 +608,27 @@ items:
 - name: Meetings and audio conferencing
   items: 
     
-    - name: Plan your deployment
-      href: deploy-meetings-microsoft-teams-landing-page.md
-    - name: Meetings, webinars, and live events
+    - name: Meetings, webinars, and town halls
       items:
-        - name: Quick start 
-          href: quick-start-meetings-live-events.md
-        - name: Meeting policies overview
+        - name: Overview
+          href: overview-meetings-webinars-town-halls.md
+        - name: Meetings
+          href: plan-meetings.md
+        - name: Webinars
+          href: plan-webinars.md
+        - name: Town halls
+          href: plan-town-halls.md
+        - name: Policies overview
           href: meeting-policies-overview.md
+        - name: Feature comparison
+          href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
-            - name: Set up webinars
+            - name: Set up town halls
+              href: set-up-town-halls.md
+            - name: Manage VOD publishing permissions for webinars and town halls 
+              href: manage-vod-publishing.md
+            - name: Manage who can schedule webinars
               href: set-up-webinars.md
             - name: Set up meeting registration
               href: set-up-meeting-registration.md
@@ -656,8 +668,6 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
-            - name: Stream Teams meetings
-              href: stream-teams-meetings.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -714,6 +724,10 @@ items:
               href: cloud-video-interop.md
             - name: Real-time media traffic
               href: meetings-real-time-media-traffic.md
+            - name: Stream Teams meetings
+              href: stream-teams-meetings.md
+            - name: Streaming encoders
+              href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
             - name: Teams meeting recording
@@ -724,6 +738,8 @@ items:
               href: tmr-meeting-recording-change.md
         - name: Integration
           items:
+            - name: eCDN
+              href: streaming-ecdn-enterprise-content-delivery-network.md
             - name: Teams Meeting add-in in Outlook
               href: outlook-add-in-authentication-policy-requirements.md
             - name: Configure the Skype Meetings App to work with Teams
@@ -734,34 +750,6 @@ items:
               href: meeting-provider-islands-mode.md
             - name: Teams meetings on unsupported browsers
               href: unsupported-browsers.md
-        - name: Set up the Meeting Migration Service (MMS)
-          href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Live events
-          items: 
-            - name: What are Teams live events?
-              href: teams-live-events/what-are-teams-live-events.md
-            - name: Plan for Teams live events
-              href: teams-live-events/plan-for-teams-live-events.md
-            - name: Set up for Teams live events
-              href: teams-live-events/set-up-for-teams-live-events.md
-            - name: Use PowerShell to set Teams live events policies
-              href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-            - name: Configure Teams live events settings
-              href: teams-live-events/configure-teams-live-events.md
-            - name: Live events recording policies
-              href: teams-live-events/live-events-recording-policies.md
-            - name: Streaming overview
-              href: teams-stream-overview.md
-            - name: Teams encoder
-              href: teams-encoder-setup.md
-            - name: Configuration
-              href: teams-encoder-configuration.md
-            - name: Creating an event
-              href: teams-stream-create-event.md
-            - name: Scale video delivery
-              href: teams-stream-ecdn.md
-            - name: Troubleshooting
-              href: teams-stream-troubleshooting.md
 
         - name: Create a Teams hybrid meeting experience
           items:
@@ -1642,6 +1630,8 @@ items:
           href: manage-admin-app.md
         - name: Manage the avatars app
           href: meeting-avatars.md
+        - name: Manage the immersive spaces app
+          href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
@@ -1833,6 +1823,28 @@ items:
       href: limits-specifications-teams.md            
     - name: Meeting templates reference
       href: predefined-meeting-template-reference.md
+
+    - name: Live events
+      items: 
+        - name: What are Teams live events?
+          href: teams-live-events/what-are-teams-live-events.md
+        - name: Plan for Teams live events
+          href: teams-live-events/plan-for-teams-live-events.md
+        - name: Set up for Teams live events
+          href: teams-live-events/set-up-for-teams-live-events.md
+        - name: Use PowerShell to set Teams live events policies
+          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+        - name: Configure Teams live events settings
+          href: teams-live-events/configure-teams-live-events.md
+        - name: Live events recording policies
+          href: teams-live-events/live-events-recording-policies.md
+        - name: Streaming overview
+          href: teams-stream-overview.md
+        - name: Configuration
+          href: teams-encoder-configuration.md
+        - name: Troubleshooting
+          href: teams-stream-troubleshooting.md
+
     - name: Licensing
       items: 
         - name: Manage user access to Teams

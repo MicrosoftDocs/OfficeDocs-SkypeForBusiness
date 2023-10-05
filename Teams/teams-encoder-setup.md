@@ -10,18 +10,20 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: asteele
-ms.date: 08/25/2022
+ms.date: 10/01/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article discusses encoder-based RTMP setup for Microsoft Teams streaming events.
-localization_priority: Normal
+localization_priority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
 ---
 
 # Using an encoder for live streaming with Microsoft Teams
+
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✔️Town halls ✔️Live events
 
 Video encoders allow users to produce Microsoft Teams live events via external hardware or software-based solutions.
 
@@ -33,11 +35,11 @@ An encoder takes audio and video content from various sources you use during a l
 
 The workflow for producing a Teams Live Event is as follows:
 
-A live event is scheduled in Teams or Viva Engage, and the **Teams Encoder** option is selected. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding stream key. The URL and stream key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
+For a live event scheduled in Teams or Viva Engage, the **Teams Encoder** option must be selected. For a town hall, the **RTMP-In** meeting option must be turned on. This provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding stream key. The URL and stream key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
 
 ### Common video encoders used for live streaming
 
-The video encoders in the following list have been validated by Microsoft for live streaming with Teams.
+Microsoft has validated the video encoders for live streaming with Teams in the following list.
 
 ### Supported encoders
 
@@ -66,10 +68,3 @@ The video encoders in the following list have been validated by Microsoft for li
 
 - For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
 - For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
-
-
-
-
-
-
-
