@@ -29,7 +29,7 @@ To set up immersive spaces in Teams, you should:
 
 ## What is an immersive space?
 
-Connect in a 3D immersive space, helping hybrid meetings *feel more like face-to-face connections*. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
+Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-face connections. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
 
 :::image type="content" source="media/meeting-immersive-spaces-view-selector.png" alt-text="Immersive spaces view selector in Teams View menu":::
 
