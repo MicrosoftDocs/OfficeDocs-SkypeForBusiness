@@ -197,7 +197,7 @@ Upgrading your **Skype for Business Server** to the latest operating system is a
 
 > [!Note]
 > - When you're upgrading your existing Windows Server 2019 to Windows Server 2022, you do **not** need to run the compatibility script for Windows Server 2022 as in-place OS upgrade preserves the existing application configurations.
-> - If the script is run more than once in an upgrade scenario, there is no harm as the script will only make the required updates.
+> - If the script is run more than once in an upgrade scenario or otherwise, there is no harm as the script will only make the required updates.
 
 ### Installation of Compatibility Script for Windows Server 2022
 
