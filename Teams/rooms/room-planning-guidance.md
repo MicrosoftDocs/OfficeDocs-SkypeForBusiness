@@ -3,7 +3,7 @@ title: Meeting room guidance for Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 2/2/2022
+ms.date: 10/04/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -342,7 +342,7 @@ Microphone arrays need to be positioned to provide coverage for all meeting room
 
 #### Speaker options
 
-Front-of-room speaker arrays and overhead speakers will work for this type of space. To achieve the best spatial audio experience, use a device from the [Teams-certified stereo speakers](/microsoftteams/rooms/certified-hardware?tab=Peripherals&branch=main&tabs=Windows) list and make sure that the left and right speaker set up is correct. Spatial audio can be enabled using the following XML: `<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>`. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
+Front-of-room speaker arrays and overhead speakers will work for this type of space. To achieve the best spatial audio experience, use a device from the [Teams-certified stereo speakers](/microsoftteams/rooms/certified-hardware?tab=Peripherals&branch=main&tabs=Windows) list and make sure that the left and right speaker setup is correct. Spatial audio can be enabled using the following XML: `<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>`. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 #### Speaker placement
 
