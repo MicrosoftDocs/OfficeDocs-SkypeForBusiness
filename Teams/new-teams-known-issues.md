@@ -37,4 +37,4 @@ After October 5th, these features will be available:
 
 - **PowerPoint Live Standout.**  Support for PowerPoint Live standout.
 
-- **NDI support.** Networkwork Device Infrastructure (NDI) support controls for broadcasting Teams meeting content to media.
+- **NDI support.** Network Device Infrastructure (NDI) support controls for broadcasting Teams meeting content to media.
