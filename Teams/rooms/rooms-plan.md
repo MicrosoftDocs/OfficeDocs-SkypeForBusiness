@@ -3,7 +3,7 @@ title: Plan for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -73,7 +73,7 @@ Use the approach illustrated below to guide you through your deployment, and cus
 
 Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
 
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
+:::image type="content" alt-text="Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures." source="../media/room-systems-image2.png" lightbox="../media/room-systems-image2.png":::
 
 You might need to coordinate these activities across several teams. We provide a high-level view of the main activities that you should cover, and also suggestions for the teams who are typically involved in deploying and managing conference room systems, to help you decide who you need to work with.
 
