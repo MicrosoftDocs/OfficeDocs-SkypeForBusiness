@@ -54,7 +54,6 @@ An Enterprise Content Delivery Network (eCDN) takes the video content from the i
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com/)
-- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro).
 

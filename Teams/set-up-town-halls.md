@@ -30,8 +30,6 @@ Microsoft Teams is introducing town halls, a one-to-many interactive virtual eve
 
 To learn more about town hall features and capabilities, see [Plan for town halls](plan-town-halls.md).
 
-To learn more about the end user experience, see [PLACEHOLDER].
-
 ## Manage town halls using the Teams admin center
 
 You can use the Teams admin center to set up and manage the town hall experience for your organization.
