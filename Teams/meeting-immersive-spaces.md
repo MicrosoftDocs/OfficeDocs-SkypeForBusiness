@@ -59,22 +59,24 @@ Mesh immersive spaces is available with the following licenses: Teams Essentials
 
 To ensure immersive spaces for Teams works properly, access to the following endpoints must be allowed by your firewall or proxy server.
 
-### Allow endpoints
+### Ensure endpoints can be allowed for Mesh immersive spaces
 
+To ensure the Mesh features work properly, the following endpoints must
+be allowed through your firewall or proxy server.
 All endpoints need to allow traffic on TCP ports 80 and 443:
 
 - *.microsoft.com
-- *.meshxp.net
 - *.office.com
 - *.office.net
-- js.monitor.azure.com
 
-### Firewall ports
+### Firewall Ports for Mesh immersive spaces
 
 In addition to the endpoints above, Mesh also requires the following outgoing ports to be opened in your firewall:
 
 - TCP ports 80, 443
-- TCP & UDP ports 30,000-31,000
+
+- TCP & UDP ports 30,000-30,499
+
 - UDP ports 3478-3481
 
 Mesh traffic will use IP addresses in the AzureCloud service tag.
