@@ -24,7 +24,7 @@ ms.localizationpriority: high
 # The new Microsoft Teams desktop client 
 
 > [!TIP]
->Ready to deploy the new Teams? Step by step instructions are here: [**Deploy the new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
+>Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
 >
 >Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
 >
@@ -37,21 +37,39 @@ The new Teams desktop client for Windows has been reimagined from the ground up
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 >[!Note]
->Ready to deploy?  Follow these step by step instructions: [**Deploy the new Teams using policies**](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
+>Ready to upgrade?  Follow these step by step instructions: [**Upgrade to new Teams using policies**](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
 
-## Is the new Teams available for my organization?
+## New Teams availability
 
-The new Teams client **is not** yet available for the following customers but is planned for release later in this calendar year:
-
-**Platforms:**  Mac, VDI, Web</br>
-**Customer segments:**  </br>- Government clouds: GCC, GCC High, DoD</br>- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China </br>- Consumer</br>- Desktop running a Windows 10 version earlier than 10.0.19041
-
-
-## New Teams rollout schedule for Windows clients
+New Teams is available for Windows and Mac.
 
 >[!Note]
->*This rollout schedule is only for **Windows clients**. We will be updating this schedule as other platform support, such as Mac, is available.
- 
+>
+>Now in **public preview:**
+>
+>- **VDI**: Public preview starts October 5, 2023.</br>
+>- **GCC and GCC HIGH (Government cloud):** Public preview starts October 5, 2023.  Note:  **DoD** will roll out to public preview later in October.
+
+The new Teams client will be available for the Web soon:
+
+|Browser|Date|
+|:-----|:-----|
+|R4, Chrome/Edge, Non-EDU|Mid November 2023
+|Chrome/Edge, EDU|November 2023
+|Safari/Firefox (target date)|March 2024|
+|Gov/Special Clouds |March 2024|
+
+
+**New Teams is not yet available for these Customer segments:**
+
+
+- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
+- Consumer
+- Desktop running a Windows 10 version earlier than 10.0.19041
+
+
+## New Teams schedule for clients
+
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
@@ -63,7 +81,7 @@ The new Teams client **is not** yet available for the following customers but is
 
 ##### Licenses
 
-|License|Rollout begins|
+|License|Availability date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
@@ -81,13 +99,12 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Public preview program|Available|
 |Targeted release program|Available|
 |Current Channel|In rollout|
+|Government Cloud (GCC, GCC High) Preview|October 2023|
+|Government Cloud (DoD) Preview|Mid October 2023|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds follow the schedule for the Semi-Annual channels
->- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year
 
 ### When will the new Teams become the default client?
 
@@ -119,37 +136,8 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Monthly Enterprise Channel|December 2023|
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
+|Government Cloud (GCC, GCC High) Preview|March 2024|
+|Government Cloud (DoD) Preview|March 2024|
 
->[!Note]
->- Teams for Government includes GCC, GCCH, DoD and other special clouds will follow the schedule for the Semi-Annual channels.
->- New Teams is not currently available on VDI and Mac OS but is planned for release later in this calendar year.
-
-## What features are still missing?
-
-Most of the features you're familiar with in classic Teams are already in new Teams, however a few are still being worked on. </br>
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
-
-## What features are changing?
-
-As we improve the client, the experience has been improved to align with similar features. Here are some of the changes you see.
-
-|Classic Teams|New Teams|
-|:-----|:-----|
-|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
-|Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
-|Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
-|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries will automatically convert to a SharePoint document library on first use.|
-|Activity tab in chat| No longer available.|
-|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
-|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, and work location (remote or office).|
-|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
-|Settings dialog|Settings is now an app accessed from the More options menu **(...)** in the title bar. |
-|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
-|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
-|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
-|General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
-|Organization chart is a tab in chat|The organization chart is now located in the live persona card (LPC).|
