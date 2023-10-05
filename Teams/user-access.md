@@ -101,8 +101,8 @@ Get-MgSubscribedSku
 Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, `ContosoSchool:ENTERPRISEPACK_STUDENT`.
 
 ```powershell
-$acctSKU="<CompanyName:License>"
-$x = Set-MgUserLicense -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+    $acctSKU="<CompanyName:License>"
+    $x = Set-MgUserLicense -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 
 Run the following command to disable Teams for all users who have an active license for the licensing plan.
