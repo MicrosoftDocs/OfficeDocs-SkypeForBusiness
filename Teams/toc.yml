@@ -89,10 +89,13 @@ items:
                   href: new-teams-bulk-install-client.md
                 - name: Upgrade to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
+                - name: Upgrade to the new Teams for Mac       
+                  href: new-teams-mac-install-prerequisites.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Upgrade to the new Teams for Mac          
-                  href: new-teams-mac-install-prerequisites.md                 
+                - name: Known issues in new Teams
+                  href: new-teams-known-issues.md 
+             
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients

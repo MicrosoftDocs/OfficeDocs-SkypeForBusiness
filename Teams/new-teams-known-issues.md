@@ -23,17 +23,17 @@ ms.localizationpriority: high
 # Known issues for new Microsoft Teams
 
 - Annotations from the Presenter toolbar is currently not available.
-- PowerPoint Live Standout is not yet available.
+- PowerPoint Live Standout isn't yet available.
 
 ## Coming in October
 
-- Pinning Apps on the App bar
-- Setting Hybrid Presence and custom duration for status message
-- Ability to @mention users in status note
-- Initiating screen share from Windows taskbar
+- Pinning Apps on the App bar.
+- Setting Hybrid Presence and custom duration for status message.
+- Ability to @mention users in status note.
+- Initiating screen share from Windows taskbar.
 
 ## Coming in November
 
-- Support for NDI,SDI, and ISO streaming of Teams media content.
+- Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set and show presence in taskbar and system tray.
-- Meeting start notification for additional channel meeting attendees.- Users who were not included in the original invite for a channel meeting, don't see a notification when the meeting starts.
+- Meeting start notification for additional channel meeting attendees.- Users who weren't included in the original invite for a channel meeting, don't see a notification when the meeting starts.
