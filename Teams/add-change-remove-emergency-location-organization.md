@@ -55,47 +55,23 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 
 ### Required information
 
-To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland, Netherlands, and Spain, the address set up in the emergency location must match the phone number's area code.
-
-**All countries require the following information**:
+All countries require the following information:
 
 - House or building name or number 
-- Street name
+- Street name or number
 - City or town
 - Postal code or zip code
 - Latitude
 - Longitude
 - Organization or Company name
 
-In addition, some countries require additional information as shown in the following table:
+In addition, some countries require additional information, as shown in the following table:
 
-| Information | Required by |
+| Addition information required | Country |
 | :------------|:-------|
 | State or Province | Canada, Israel, Italy, United States |
 | Company tax ID | Belgium, Czech Republic, Italy, Netherlands, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Spain, Sweden |
 | Street type | Italy |
-
-**The following countries also require State or Province**:
-
-- Canada
-- Israel
-- Italy (selective list)
-- United States
-
-**The following countries require company tax ID**:
-
-- Belgium
-- Czech Republic
-- Italy
-- Netherlands
-- Norway
-- Poland
-- Portugal
-- Romania
-- Singapore
-- Slovakia
-- Spain
-- Sweden
 
 
 
