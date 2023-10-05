@@ -89,16 +89,12 @@ items:
                   href: new-teams-bulk-install-client.md
                 - name: Upgrade to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
-                - name: Upgrade to new teams for Virtual Desktop Infrastructure (VDI)
-                  href: new-teams-vdi-requirements-deploy.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues for Windows          
                   href: new-teams-known-issues.md
                 - name: Upgrade to the new Teams for Mac          
                   href: new-teams-mac-install-prerequisites.md                 
-                - name: Known issues for Mac          
-                  href: new-teams-known-issues-mac.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
