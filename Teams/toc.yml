@@ -89,14 +89,13 @@ items:
                   href: new-teams-bulk-install-client.md
                 - name: Upgrade to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
+                - name: Upgrade to the new Teams for Mac       
+                  href: new-teams-mac-install-prerequisites.md
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
-                - name: Known issues for Windows          
-                  href: new-teams-known-issues.md
-                - name: Upgrade to the new Teams for Mac          
-                  href: new-teams-mac-install-prerequisites.md                 
-                - name: Known issues for Mac          
-                  href: new-teams-known-issues-mac.md
+                - name: Known issues in new Teams
+                  href: new-teams-known-issues.md 
+             
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -1644,6 +1643,8 @@ items:
           href: manage-admin-app.md
         - name: Manage the avatars app
           href: meeting-avatars.md
+        - name: Manage the immersive spaces app
+          href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
