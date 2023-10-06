@@ -97,7 +97,7 @@ If you're ready, select a country or region:
 > - [Switzerland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 > - [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [Thailand](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
-> - [Turkey](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
+> - [Türkiye](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [United Arab Emirates (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [United Kingdom](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [United States](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md)
