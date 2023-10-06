@@ -28,6 +28,8 @@ description: Learn how to manage video on demand (VOD) publishing for webinars a
 
 # Manage VOD publishing for webinars and town halls
 
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✔️Town halls
+
 Video on demand (VOD) for Microsoft Teams allows webinar and town hall organizers to quickly publish and share recordings. When your users record webinars and town halls, the recordings are uploaded to OneDrive. Once the video is published, it’s copied from OneDrive into Azure Media Services (AMS) and made available to attendees. Once the organizer publishes a recording, all attendees automatically receive an email with a link to view the recording.
 
 As an admin, you can control which types of town halls and webinars can have their recordings published.
