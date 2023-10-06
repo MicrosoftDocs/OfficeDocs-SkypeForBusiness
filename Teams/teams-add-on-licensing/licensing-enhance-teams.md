@@ -3,8 +3,8 @@ title: Microsoft Teams Premium licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: jogruszc
-ms.date: 09/11/2023
+ms.reviewer: jogruszc, margidesai
+ms.date: 10/06/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
