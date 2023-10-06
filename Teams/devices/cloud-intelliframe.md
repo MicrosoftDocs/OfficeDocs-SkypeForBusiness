@@ -22,6 +22,7 @@ description: This article describes the Cloud IntelliFrame feature.
 ---
 
 # Cloud IntelliFrame
+
 > [!IMPORTANT]
 > Cloud IntelliFrame is not intended for use in Illinois. Please do not enable Cloud IntelliFrame in a meeting room in Illinois.
 
@@ -38,13 +39,11 @@ Cloud IntelliFrame will be rolling out across Microsoft Teams Rooms on Windows w
 > [!IMPORTANT]
 > Please install appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 
-All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (specified in [Supported cameras](#supported-cameras)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed by default from rooms with these cameras.
+All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (specified in [Supported cameras](#supported-cameras)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed as a secondary option from rooms with these cameras.
 
 Cloud IntelliFrame shows the smart feed when there are nine or less people in the room. It automatically switches between the standard room view and IntelliFrame view based on in-room activity. For example, if someone enters the meeting room, the view would automatically switch to standard room view until the individual settles down.
 
 :::image type="content" source="../media/video-conference.png" alt-text="Screenshot that shows how a video conference looks like." lightbox="../media/video-conference.png":::
-
-This icon ![Icon indicating activation and display of IntelliFrame](../media/intelliframe-activation-icon.png) on the top-right of the room video feed indicates that Cloud IntelliFrame is being displayed.
 
 People in the room can disable IntelliFrame by using the in-meeting settings on the console. These settings turn off Cloud IntelliFrame and enable a switchback to standard view for the room. All online attendees would then see the standard view from the room.
 
