@@ -624,7 +624,7 @@ items:
           href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
-            - name: Set up town halls
+            - name: Manage who can schedule town halls
               href: set-up-town-halls.md
             - name: Manage VOD publishing permissions for webinars and town halls 
               href: manage-vod-publishing.md
