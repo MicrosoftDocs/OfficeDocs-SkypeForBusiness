@@ -1,5 +1,5 @@
 ---
-title: Set up town halls
+title:  Manage who can schedule town halls in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
@@ -24,7 +24,7 @@ ms.collection:
 description: Learn how to set up and manage town hall policies for IT Admins in Teams.
 ---
 
-# Set up town halls in Microsoft Teams
+# Manage who can schedule town halls in Microsoft Teams
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
