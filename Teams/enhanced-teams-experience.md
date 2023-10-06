@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Premium - Overview for administrators
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikep
 manager: serdars
 ms.reviewer: 
-ms.date: 10/05/2022
+ms.date: 10/03/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -89,6 +89,29 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
+### Town halls
+
+Teams Premium provides the following features for an enhanced town hall experience:
+
+- **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
+- **Custom town hall reminder email send times** - Town hall reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
+- **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
+- **Increased languages for live translations**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
+
+  - English (en-us)
+  - Japanese (ja-jp)
+  - Spanish (es-es)
+  - Portuguese (pt-pt)
+  - French (fr-fr)
+  - Chinese (zh-cn)
+  - German (de-de)
+  - Italian (it-it)
+  - Korean (ko-kr)
+  - Russian (ru-ru)
+- **Real time monitoring** - Troubleshoot town halls while they're live.
+
+### Webinars
+
 Teams Premium provides the following features for an enhanced webinar experience:
 
 - **Real Time Messaging Protocol (RTMP)-in** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
@@ -102,7 +125,7 @@ Teams Premium provides the following features for an enhanced webinar experience
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ----------- |
 | Custom emails | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
-| RTMP-in | No admin control|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+| RTMP-in | [Manage RTMP-in for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 | Manage what attendees see | No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/en-us/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 | Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
