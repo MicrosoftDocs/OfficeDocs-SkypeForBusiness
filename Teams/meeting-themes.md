@@ -24,6 +24,8 @@ description: Using approved corporate assets like images and logos to create som
 
 # Meeting themes for Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview

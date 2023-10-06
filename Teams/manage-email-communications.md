@@ -18,6 +18,8 @@ appliesto:
 ---
 # Manage email communications for Teams town halls and webinars
 
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✔️Town halls
+
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview
