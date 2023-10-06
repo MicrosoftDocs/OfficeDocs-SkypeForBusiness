@@ -60,7 +60,7 @@ A user's experience will vary depending on several factors.
 
 When the capacity of the main meeting has been reached, an attendee will be unable to join the meeting if any of the following are true:
 
-- An administrator has disabled the Teams view-only experience for either the organizer or for the entire tenant.
+- An administrator has not enabled the Teams view-only experience for either the organizer or for the entire tenant.
 - The view-only attendee can't bypass the lobby. As an example, if an organizer of a meeting chooses to have only **People in my organization** bypass the lobby, and an attendee who is outside of the organization attempts to join as a view-only attendee, they won't be able to join.
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees will join as view-only attendees.
