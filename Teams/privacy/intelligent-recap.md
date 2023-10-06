@@ -7,9 +7,10 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: meajam
 audience: ITPro
-ms.date: 10/09/2023
+hideEdit: true
 description: Learn about what content is used to provide intelligent recap and how intelligent recap uses AI
 ms.localizationpriority: medium
+ms.date: 10/09/2023
 ---
 
 # Data, privacy, and security for intelligent recap in Teams Premium
