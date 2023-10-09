@@ -121,6 +121,9 @@ To block specific domains
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
 
+> [!NOTE]
+> These diagnostics are not currently supported for GCC High, DoD, or Microsoft 365 operated by 21Vianet.
+
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
 
    > [!div class="nextstepaction"]
