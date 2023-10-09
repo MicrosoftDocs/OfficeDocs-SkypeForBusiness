@@ -33,9 +33,9 @@ There are different types of telephone numbers that you can assign to users or v
 
 This article applies to Calling Plans, Operator Connect, and Teams Phone Mobile. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
   
-## To see all telephone numbers in your organization
+## To see telephone numbers in your organization
 
-To see a list of all telephone numbers in your organization:
+To see the telephone numbers in your organization:
 
 1. Go to the **Microsoft Teams admin center**.
 
@@ -44,7 +44,7 @@ To see a list of all telephone numbers in your organization:
    > [!IMPORTANT]
    > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Teams Phone** add-on license, or one **Audio Conferencing** add-on license.
 
-3. To view the telephone numbers that are assigned, see the **Assignment Status** column, which also shows what type of service the number is assigned to. You can click the filter icon to see telephone numbers that are already assigned to users, or to see unassigned numbers. You can filter by:
+3. To view the assignment status of a number, see the **Assignment Status** column, which also shows what type of service the number is assigned to. You can click the filter icon to filter by:
 
    - **Assigned to user**
    - **Assigned to conference bridge** 
