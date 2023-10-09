@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: sachung
-ms.date: 10/03/2023
+ms.date: 10/009/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -82,11 +82,14 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 
 ### Disable public town halls
 
-To turn off town halls, use the following script:
+To disable public town halls, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
 ```
+
+> [!NOTE]
+> The EveryoneInCompanyExcludingGuests setting allows only in org attendees to join town halls created by organizers with this policy. In org attendees include guests in town halls.
 
 ## Related topics
 
