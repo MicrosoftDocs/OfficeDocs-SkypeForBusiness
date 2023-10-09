@@ -22,6 +22,8 @@ description: Learn how admins can configure the meeting lobby in Microsoft Teams
 
 # IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+
 The Teams meeting lobby prevents certain types of participants from joining a meeting until a meeting organizer, co-organizer, or presenter admits them. When a participant goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
 
 Using the lobby settings in the Teams admin center, you can create defaults for which types of meeting participants are able to bypass the lobby and which participants must wait there until admitted to the meeting. You can control how the following types of participants interact with the lobby:
