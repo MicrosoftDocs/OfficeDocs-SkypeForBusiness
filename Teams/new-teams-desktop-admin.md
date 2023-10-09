@@ -37,7 +37,7 @@ The new Teams desktop client for Windows has been reimagined from the ground up
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 >[!Note]
->See [What's features are changing?](new-teams-known-issues#what-features-are-changing) to review some of the changes you will see.
+>See [What's features are changing?](new-teams-known-issues.md) to review some of the changes you will see.
 
 ## New Teams availability
 
