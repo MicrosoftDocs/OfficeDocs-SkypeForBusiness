@@ -172,8 +172,34 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 > [!NOTE]
 > Microsoft Teams meetings have a time limit of 30 hours.
 
+## Webinars
+  
+Webinars are a two-way interactive virtual event where the presenters deliver information to attendees. Webinars can be used to help build engagement and relationships, enable hybrid work, enable communication and collaboration with remote employees, and to inform, demonstrate, and teach.
+
+|Feature     | Maximum limit |
+|------------|---------------|
+|Audience size | Up to 1,000 attendees <sup>1</sup> |
+|Duration of event | ? |
+|Concurrent webinars running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 15 |
+
+## Town halls
+  
+Town halls provide a new one-to-many format to host and deliver large-scale, internal events to build connections. This event format allows organizers to create professionally produced experience and manage audience engagement to maximize participation and maintain focus on the event.  
+
+|Feature     | Maximum limit |
+|------------|---------------|
+|Audience size | Up to 20,000 attendees |
+|Duration of event | ? |
+|Concurrent town halls running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 50 |
+
+<sup>1</sup> You can schedule as many town halls as you want, but you can only run 50 at a time. As soon as the organizer joins a town hall, it's considered to be running.
+
+For more information about town halls, see [Plan for town halls](plan-town-halls.md).
+
 ## Live Events
   
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](plan-town-halls.md).
 Live events are structured meetings that enable your organization to schedule and produce events that stream to large online audiences—up to 20,000 people. With live events, the audience interaction is a managed Q&A experience.
 
 |Feature     | Maximum limit |
@@ -182,11 +208,11 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 4 hours |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 15 |
 
-<sup>1</sup> The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).  
-  
+<sup>1</sup>  The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](https://learn.microsoft.com/stream/live-event-retirement). Note that events over 20,000 attendees require the [Live Events Assistance Program](https://learn.microsoft.com/stream/live-event-retirement).
+
 <sup>2</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-For more information about live events, go to [Teams live events](teams-live-events/plan-for-teams-live-events.md#teams-live-events). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+For more information about live events, go to [Teams live events](plan-for-teams-live-events.md). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-live-event-in-microsoft-teams-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
