@@ -21,7 +21,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up and manage town hall policies for IT Admins in Teams.
+description: Learn how to set up and manage town hall policies for IT Admins in Microsoft Teams. Learn how to manage who can schedule town halls in your organization.
 ---
 
 # Manage who can schedule town halls in Microsoft Teams
