@@ -18,6 +18,8 @@ appliesto:
 ---
 # Manage the registration form for webinars
 
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
+
 ## Overview
 
 The registration form allows organizers to collect information from attendees when they register for webinars. As an admin, you can manage whether organizers can require attendees to answer predefined and custom questions on the registration form.

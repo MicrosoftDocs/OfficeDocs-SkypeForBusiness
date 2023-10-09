@@ -1,7 +1,7 @@
 ---
 title: Set up avatars for Microsoft Teams 
-ms.author: v-chinlana
-author: lana-chin
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: ITPro
 ms.reviewer: sekerawa

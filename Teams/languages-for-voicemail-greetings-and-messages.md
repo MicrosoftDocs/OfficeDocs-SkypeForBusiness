@@ -85,7 +85,7 @@ Teams supports the following languages for voicemail greetings.
 |Spanish       |Mexico             |es-MX  |Yes                                          |Yes                                   |Yes, but Spanish (Spain) is used.   |
 |Swedish       |Sweden             |sv-SE  |Yes                                          |Yes                                   |No  |
 |Thai          |Thailand           |th-TH  |Yes                                          |Yes                                   |No  |
-|Turkish       |Turkey             |tr-TR  |Yes                                          |Yes                                   |No  |
+|Turkish       |Türkiye            |tr-TR  |Yes                                          |Yes                                   |No  |
 |Vietnamese    |Vietnam            |vi-VN  |Yes                                          |Yes                                   |No  |
 |Welsh         |Wales              |cy-GB  |Yes                                          |Yes                                   |No  |
 

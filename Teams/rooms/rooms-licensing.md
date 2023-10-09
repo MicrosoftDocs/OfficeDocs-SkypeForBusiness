@@ -194,7 +194,7 @@ In the Rooms view, you'll find:
 > [!IMPORTANT]
 > 
 > - Please note that for Basic and Standard licenses, the presence of the red alert sign on the left side indicates that these licenses will not grant access to the Pro Management capabilities starting October 2. To continue enjoying the benefit with Pro Management capabilities, an upgrade to Pro license is required by the end of the grace period which is September 30, 2023.
-> - Starting October 2, 2923 all devices without Pro or Premium licenses assigned to them will lose access to the pro management capabilities until valid licenses are assigned to them.
+> - Starting October 2, 2023 all devices without Pro or Premium licenses assigned to them will lose access to the pro management capabilities until valid licenses are assigned to them.
 > - Once a license expires, access will be restricted; however, a 30 day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
 > - When changing the account of the device, please ensure that the new account has the valid license to avoid any interruption with the device. The 30 day grace period will not be applying when using an expired account to enroll new devices or changing account on current devices.
 
