@@ -89,6 +89,9 @@ Guests are subject to  [Microsoft 365 or Office 365](/office365/servicedescripti
 
 To troubleshoot issues with inviting guests in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that guest access is correctly configured for use in Teams. 
 
+> [!NOTE]
+> These diagnostics are not currently supported for GCC High, DoD, or Microsoft 365 operated by 21Vianet.
+
 1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
 
    > [!div class="nextstepaction"]
