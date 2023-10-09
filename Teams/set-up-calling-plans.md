@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz, jastark
-ms.date: 11/28/2017
+ms.date: 10/02/2023
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -108,8 +108,6 @@ The diagnostic performs a large range of verifications.
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
-
-[Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

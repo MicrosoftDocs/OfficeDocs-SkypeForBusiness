@@ -79,13 +79,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated August 2023*
+*Table Updated October 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|HP                   |430/435 FHD Webcam                                         |9/29/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Plus Headset                                          |8/24/2023       |Certified for Microsoft Teams                           |
 |Lenovo/EPOS          |Wired VoIP Headset                                         |8/21/2023       |Certified for Microsoft Teams                           |
 |Lenovo/EPOS          |Wired ANC Gen 2 Headsets                                   |8/21/2023       |Certified for Microsoft Teams                           |
