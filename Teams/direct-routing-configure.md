@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 
 # Configure Direct Routing
 
-Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams Phone. The article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
+Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams Phone. This article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
 
 For information about whether Direct Routing is the right solution for your organization, see [PSTN connectivity options](pstn-connectivity.md). For information about prerequisites and planning your deployment, see [Plan Direct Routing](direct-routing-plan.md).
 
