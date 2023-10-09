@@ -33,7 +33,7 @@ There are several options for setting up Teams. To help you find the information
 
 If you're a larger organization, pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. Later, use the guidance on the [Microsoft Teams Adoption](https://adoption.microsoft.com/microsoft-teams) site to help you roll out Teams across your organization.
 
-We recommend rolling out Teams in stages, workload by workload, as your organization is ready. You don't have to wait until you've completed one step before you move to the next. Some organizations may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
+We recommend rolling out Teams in stages, workload by workload, as your organization is ready. You don't have to wait until you've completed one step before you move to the next. Some organizations might want to roll out all Teams features at once, while others might prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
 
 - [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md)
@@ -46,7 +46,7 @@ See these additional resources to help you get started:
 
 |Section  |Description  |
 |---------|---------|
-|[Small business setup](deploy-small-business.md)| This article guides smaller businesses through setting up Teams. Small business may want all the core features of Teams (such as chat, teams, channels, meetings, and phone support), but don't need to plan for multiple office locations, rolling out Teams to large numbers of users, and so on.
+|[Small business setup](deploy-small-business.md)| This article guides smaller businesses through setting up Teams. Small business might want all the core features of Teams (such as chat, teams, channels, meetings, and phone support), but don't need to plan for multiple office locations, rolling out Teams to large numbers of users, and so on.
 |[Enterprise setup](deploy-enterprise-overview.md)     | This article guides larger business through setting up Teams in situations where network planning, lifecycle management, and wide-scale adoption, are critical factors to successful deployment. This article also helps you understand the requirements for audio and video conferencing, and configuring Phone System and PSTN connectivity.         |
 |[Deploy Team clients](new-teams-desktop-admin.md)     | This article provides instructions for setting up the new Teams client in your organization. |
 |[Teams training](training-microsoft-teams-landing-page.md)     | This article provides training materials for end-users who use the Teams clients, and also for organization admins who need to manage Teams across your organization.        |
