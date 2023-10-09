@@ -58,7 +58,7 @@ Contoso, Inc. purchased 500 licenses that include Phone System (one for each emp
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
     > [!NOTE]
-    > If Purchase Services is not available, go to Marketplace and search on "Resource". Select the "Microsoft Teams Phone Resource Account".
+    > If Purchase Services is not available, go to Marketplace and search on "Resource". Select the **Microsoft Teams Phone Resource Account**.
 1. Scroll to find the **Microsoft Teams Phone Resource Account** license.
 1. Select the **Details** button.
 1. Choose the number of licenses you wish to purchase and your billing frequency.
