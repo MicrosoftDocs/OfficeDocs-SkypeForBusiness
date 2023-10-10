@@ -79,7 +79,7 @@ When a developer publishes an app to the Teams store, some apps may need an admi
 
 ## Stop app usage and remove app
 
-You as an admin can delete custom apps from your organization's store but can't remove apps in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
+As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Azure AD admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
