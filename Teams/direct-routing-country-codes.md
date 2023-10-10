@@ -236,7 +236,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Saint Vincent and the Grenadines | VC |
 | Samoa           | WS |
 | San Marino      | SM |
-| Sao Tome and Principe | ST |
+| São Tomé and Príncipe | ST |
 | Saudi Arabia    | SA |
 | Senegal         | SN |
 | Serbia          | RS |
@@ -271,7 +271,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Tonga           | TO |
 | Trinidad and Tobago | TT |
 | Tunisia         | TN |
-| Turkey          | TR |
+| Türkiye         | TR |
 | Turkmenistan    | TM |
 | Turks and Caicos Islands | TC |
 | Tuvalu          | TV |

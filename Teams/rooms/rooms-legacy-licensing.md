@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 09/30/2022
+ms.date: 10/10/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,7 +29,7 @@ description: Learn about and compare the licenses previously available for diffe
 
 # Microsoft Teams Rooms legacy licenses
 
-This article is provided to customers who purchased Microsoft Teams Rooms Standard or Microsoft Teams Rooms Premium legacy licenses prior to September 6th, 2022. Teams Rooms Standard and Teams Rooms Premium legacy licenses are no longer available for purchase. If your legacy licenses are expiring soon, or if you need to purchase new licenses for your Teams Rooms devices, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
+This article is provided to customers who purchased Microsoft Teams Rooms Standard or Microsoft Teams Rooms Premium legacy licenses prior to September 6th, 2022. Teams Rooms Standard and Teams Rooms Premium legacy licenses are no longer available for purchase. If your legacy licenses are expiring soon, or if you need to purchase new licenses for your Teams Rooms devices, see [Microsoft Teams Rooms licenses](rooms-licensing.md). 
 
 > [!IMPORTANT]
 > The information in this article is specific to the Teams Rooms Standard and Teams Rooms Premium legacy licenses and isn't applicable to the Teams Rooms Basic and Teams Rooms Pro licenses. For information about the Teams Rooms Basic and Teams Rooms Pro licenses, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
@@ -74,3 +74,4 @@ The following table lists the features available for Teams Rooms with the Teams 
  See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
  You can read [Set up common area phones for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing common area phones.
+

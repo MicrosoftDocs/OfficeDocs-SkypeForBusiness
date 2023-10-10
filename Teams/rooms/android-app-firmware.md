@@ -3,7 +3,7 @@ title: Teams Rooms on Android app and firmware versions
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 05/02/2018
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
 | 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
 | 2023 Update #1B  | May 05, 2023 |`1449/1.0.96.2023050203`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
@@ -53,6 +54,20 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X52 | `4.1.0_00.180034` | 2023 Update #2A |
+| Poly TC10 | `4.1.0.211230` | 2023 Update #2A |
+| Poly Studio X30 | `4.1.0_00.180034` | 2023 Update #2A |
+| Poly Studio X50 | `4.1.0_00.180034` | 2023 Update #2A |
+| Poly Studio X70 | `4.1.0_00.180034` | 2023 Update #2A |
+| Poly Studio G7500 | `4.1.0_00.180034` | 2023 Update #2A |
+| Poly TC8 | `4.1.0.211230` | 2023 Update #2A |
+|Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2|
+| Neat Bar Pro| `NFD1.20230504.0027` | 2023 Update #2 |
+| Logi Rallybar | `1.10.369`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.10.369`   | 2023 Update #2  |
+| Logi RoomMate | `1.10.137`   | 2023 Update #2  |
+| Logi Console  | `1.10.121`    | 2023 Update #2  |
+| DTEN_MATE | `2.0.2.0` | 2023 Update #1C |
 | Poly Studio X52 | `4.1.0.382263` | 2023 Update #2 |
 | Poly TC10 | `4.1.0.211200` | 2023 Update #2 |
 | Poly Studio X30 | `4.1.0.382263` | 2023 Update #2 |

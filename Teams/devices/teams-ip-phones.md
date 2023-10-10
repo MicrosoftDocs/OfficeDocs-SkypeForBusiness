@@ -162,6 +162,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+| Yealink CP965 | `143.15.0.48 `|2023 Update #2D |
 |Yealink MP54/MP56/MP58  | `122.15.0.139`     | 2023 Update #2D |
 |Poly CCX 350/400/500/505/600 | `8.1.3.1301` | 2023 Update #2C |
 |Poly Trio C60 | `8.1.3.1300 ` | 2023 Update #2C |
@@ -304,6 +305,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View Plus | `10.1.t.2.38` | 2023 Update #2A|
+|Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2A|
 |Neat Frame nf21f1 | `NFF1.20230504.0023` | 2023 Update #2 |
 |Yealink DeskVisionA24 | `156.15.0.24` | 2023 Update #1B|
 |Crestron UC-P10-TD     |`1.0.0.60` |2022 Update #3A|
@@ -342,6 +345,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
+|Poly TC10 | `5.0.0.211238` | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.10 ` | 2023 Update #2 |
 |Neat Pad Panel | `NFA1.20230504.0202` | 2023 Update #1  |
 |Logitech Tap Scheduler | `1.9.400` |2023 Update #2  |

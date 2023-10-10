@@ -1,7 +1,7 @@
 ---
 ms.date: 03/17/2018
 title: "Move users from on premises to Skype for Business Online"
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: bjwhalen

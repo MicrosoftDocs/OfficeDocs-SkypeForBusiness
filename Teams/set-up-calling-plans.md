@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: roykuntz, jastark
-ms.date: 11/28/2017
+ms.date: 10/02/2023
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -109,8 +109,6 @@ The diagnostic performs a large range of verifications.
 
 [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 
-[Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Teams: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Teams: Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

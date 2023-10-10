@@ -72,7 +72,8 @@ Note that we're not accepting new nominations for certification until further no
 ||SBC 1000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
 ||SBC SWe Edge (formerly SWe Lite)|&#10004;|&#10004;|Supported on available versions of 12.x and later, 11.x, or 9.x (Recommend latest version)|&#10004;|&#10004;|
-||EdgeMarc Series|&#10004;|&#10004;|16.3.2||
+||Edge 8000 (w/SBC SWe Edge)|&#10004;|&#10004;|23.06 or higher|&#10004;|&#10004;|
+||EdgeMarc Series|&#10004;|&#10004;|16.3.2|||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 3900|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
@@ -104,8 +105,16 @@ Note that we're not accepting new nominations for certification until further no
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.9.x (Recommended 6.10.x)|||
 |[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Peeredge Orchestrator|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
-
-<br/>
+|[Nuera](https://www.nuera.com/sbc-media-gateway)|GX-500 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-500 Li SBC|&#10004;|&#10004;|Supported 7.2x.xxx (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-800 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-2600 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-4000 SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-1000B  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-9000  SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-VE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-CE SBC|&#10004;|&#10004;|Supported 7.20A.258 (Recommended 7.40A.400)|&#10004;|&#10004;|
+||GX-3100|&#10004;|&#10004;|Supported 7.20A.250 (Recommended 7.40A.400)|&#10004;|&#10004;|
 
 \* **911 service providers**
 
@@ -138,6 +147,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 |[Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (formerly SWe Lite)|8.1.5 or higher SW version|
 ||SBC 1000|8.1.5 or higher SW version|
 ||SBC 2000|8.1.5 or higher SW version|
+||SBC 8000 (w/SBC SWe Edge)|23.06 or higher SW version|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/communications/partner-microsoft/)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 &  9.x|

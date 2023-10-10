@@ -85,6 +85,8 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |          |8861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
+|          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
@@ -120,6 +122,8 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Edge E450  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |Edge E500  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |Edge E550  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
+|          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
@@ -176,6 +180,16 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
 |          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
 |          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
+|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
+|          |MP114-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
+|          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
+|          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
+|          |MP118-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
+|          |MP124-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 18 out of 24 ports available  |
+|          |MP1288-FXS             |7.40A.400.063      |7.40A.400.063  |ATA   | All ports available  |
+|          |MP502                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
+|          |MP504                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
+|          |MP508                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Handset |   |
 |          |7212        |PCS22B     |PCS22B     |Handset |   |
@@ -186,6 +200,9 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |7642        |PCS22B     |PCS22B     |Handset |   |
 |          |7722        |PCS22B     |PCS22B     |Handset |   |
 |          |7742        |PCS22B     |PCS22B     |Handset |   |
+|          |S33         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S35         |PCS23Ca    |PCS23Ca    |Handset |   |
+|          |S37         |PCS23Ca    |PCS23Ca    |Handset |   |
 |          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
 |          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
@@ -196,6 +213,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Ascom d63        |2.11.4     |3.0.8     |Handset |   |
 |          |Ascom d81        |4.13.1     |4.17.3     |Handset |   |
 |          |Ascom d83        |1.3.2     |1.5.5     |Handset |   |
+|          |Ascom i63        |5.0.1     |5.0.1     |VoWiFi Handset |   |
 |          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Wireless Handset |   |
 |          |IP-DECT Access Point IPBSx        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
 |          |IP-DECT Gateway IPBL     |11.8.8     |11.9.11     |IP-DECT Gateway |   |

@@ -3,7 +3,7 @@ title: Update Microsoft Teams devices remotely
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: rahulmi
-ms.date: 06/24/2020
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -30,7 +30,7 @@ Device firmware updates happen automatically by default. You can, however, updat
 
 #### Software versions on Teams admin center
 
-All new software versions for Teams devices are made available on Teams admin center once they are published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfils the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
+All new software versions for Teams devices are made available on Teams admin center once they're published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device fulfills the requirements. Ensure that the device is meeting the criteria, especially, that the firmware is updated.
 
 Only software versions that have been tested by Microsoft are available for automatic or manual updates via the Teams admin center. Software versions tested by Microsoft are labeled **Verified by Microsoft**.
 
@@ -52,7 +52,7 @@ MTRA - [MTRA - Product release information](/microsoftteams/rooms/android-app-fi
 
 ### Assign devices to update phases
 
-Assigning devices to an automatic update phase is a Teams Rooms Pro feature for Teams Rooms on Android devices. Devices with a Teams Rooms Basic license will be assigned to the General phase. Any pre-configured phase will be maintained, and no further change will be allowed. For more information, see [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md).  
+Assigning devices to an automatic update phase is a Teams Rooms Pro feature for Teams Rooms on Android devices. Devices with a Teams Rooms Basic license will be assigned to the General phase. Any preconfigured phase will be maintained, and no further change will be allowed. For more information, see [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md).  
 
 Automatic updates of Teams devices using the Teams admin center isn't available in GCC High. Organizations in GCC High can, however, [manually update Teams devices](#manually-update-remote-devices) using the Teams admin center.
 
@@ -88,14 +88,14 @@ If you want to check which firmware versions are currently rolling out for your 
     - Current version and new version
     - Number of eligible devices
     - Active phase
-        - Devices assigned to this update phase are being currently updated. Any device from a previous phase that is not updated yet will also be included.
+        - Devices assigned to this update phase are being currently updated. Any device from a previous phase that isn't updated yet will also be included.
 
 > [!NOTE]
 > The new version may not always be the latest available version. Devices on older versions are updated in a step-wise approach, until they reach the latest version.
 
 ### Pause automatic updates
 
-You can temporarily pause automatic updates for your tenant. When paused, Android based devices will not be automatically updated for the next 15 days. To pause the updates, do the following:
+You can temporarily pause automatic updates for your tenant. When paused, Android based devices won't be automatically updated for the next 15 days. To pause the updates, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
@@ -114,9 +114,9 @@ To manually update remote devices, do the following:
 3. Select one or more devices and then select **Update**.
 4. Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
 
-What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows multiple devices selected while the image on the right shows a single device selected.
+What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows a single device selected while the image on the right shows multiple devices selected.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane.":::
+![Device status update panel with single and multiple devices selected.](../media/mtr-devices/update-manual-together.png)
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select **Update**.
 
@@ -147,7 +147,7 @@ The following conditions should be satisfied for the device to be eligible for a
 3. **How fast does the rollout happen?**
 Eligible devices receive updates in weekly cycles based on the update phase they are in. For example, devices in General phase start receiving Firmware updates only after 30 days have elapsed since the new version was published. To ensure a stable rollout, the devices are updated gradually for a tenant and not all at once. Overall, the rollout of each new version takes a few weeks after the start of each update phase.
 
-Also, if the device is on an older version, like N-3. It will be updated step-wise to intermediate versions, like N-2 and N-1, before it is updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
+   Also, if the device is on an older version, like N-3. It will be updated step-wise to intermediate versions, like N-2 and N-1, before it is updated to the latest version (N). Therefore, this device may take longer to reach the latest version than usual, but no intervention is required.
 
 5. **How do I check if a device has received an update?**
 Whenever a device receives an update (or has one scheduled), the History tab on the device page will show corresponding details for a software update operation.
@@ -157,11 +157,12 @@ Sometimes the updates can fail due to transient conditions. In such cases, no in
 If updates are consistently failing across your inventory, you can check a few things:
     - Devices are online at the time when updates are scheduled.
     - Network configuration is done appropriately to allow download of updates. Refer to [URLs and IP address ranges for Microsoft Teams](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) for the URLs and IP address ranges that need to be allowed for Teams.
-    - If this does not help, reach out to Microsoft support with the logs. Device logs can be found in the History tab of the device page as part of the Device diagnostics operation run with the software update operation.
+    - If this doesn't help, reach out to Microsoft support with the logs. Device logs can be found in the History tab of the device page as part of the Device diagnostics operation run with the software update operation.
 
 7. **The eligible count of devices doesn't seem to match the available devices.**
-The device count in **Automatic software updates** section shows the number of eligible devices that are ready to be updated. Those that have already been updated to the **New version** are not counted. It can also include devices from the previous phase that could not get updated.
+The device count in **Automatic software updates** section shows the number of eligible devices that are ready to be updated. Those that have already been updated to the **New version** aren't counted. It can also include devices from the previous phase that couldn't get updated.
 
 8. **When do automatic updates happen?**
 The updates are scheduled to happen over weekends outside of typical business hours to minimize impact. If the device is offline at that time, the updates will get executed when the device comes back online the next time.
+
 
