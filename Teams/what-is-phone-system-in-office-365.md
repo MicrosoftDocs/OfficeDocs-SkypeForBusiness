@@ -78,7 +78,7 @@ The Plan and implement your Microsoft Teams Phone deployment guide will help you
 > [!div class="nextstepaction"]
 > [Plan and implement your Microsoft Teams Phone deployment Guide](https://aka.ms/tpguide)
 
-> You must be assigned an admin role such as Global Reader to access advanced deployment guides in the Microsoft 365 admin center. Only admins with the Global Administrator role can use the guides to change settings in the tenant.
+> You must be assigned an admin role such as Global Reader to access advanced deployment guides in the Microsoft 365 admin center. Only admins with the Global Administrator role can use the guides to change settings in the organization.
 
 ## Related topics
 
