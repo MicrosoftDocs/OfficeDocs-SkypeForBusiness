@@ -5,7 +5,7 @@ ms.author: camillepack
 manager: scotv
 audience: ITPro
 ms.topic: how-to 
-ms.service: msteams 
+ms.service: bookings 
 search.appverid: 
 searchScope:
   - Microsoft Teams

@@ -1,5 +1,5 @@
 ---
-title: Block the download of Teams meeting recording files from SharePoint or OneDrive (Preview)
+title: Block the download of Teams meeting recording files from SharePoint or OneDrive 
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -23,7 +23,7 @@ search.appverid:
 description: Learn how administrators can block the download of Teams meeting recording files from SharePoint and OneDrive.
 ---
 
-# Block the download of Teams meeting recording files from SharePoint or OneDrive (Preview)
+# Block the download of Teams meeting recording files from SharePoint or OneDrive
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
