@@ -1,11 +1,11 @@
 ---
-title: Manage RTMP-In for Teams meetings
+title: Manage RTMP-In for Teams meetings, webinars, and town halls
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: srajay
 ms.date: 04/20/2023
 audience: admin
 ms.localizationpriority: medium
@@ -22,11 +22,13 @@ ms.custom:
 description: Learn to set up RTMP-In for Teams meetings.
 ---
 
-# Manage RTMP-In for Teams meetings
+# Manage RTMP-In for Teams meetings, webinars, and town halls
 
-RTMP-In allows meeting organizers to produce their Teams Meeting directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key which they can use to start streaming from the encoder.
+RTMP-In allows meeting, webinar, and town hall organizers to produce their meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the organizer via a Teams meeting policy.
+
+Organizers who are enabled for RTMP-In can choose the option in meeting or event options and can access the RTMP link and key which they can use to start streaming from the encoder.
 
 The incoming RTMP feed must deliver:  
 - H.264 Advanced Video Coding (AVC)
