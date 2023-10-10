@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 9/28/2023
+ms.date: 10/04/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -205,6 +205,19 @@ Only local sign-in is supported for users’ personal devices. To sign out a dev
 
 3. At the right, select a SIP device, and then select **Sign out**.
 
+### Zero Touch Common Area Phone sign in
+
+You can remotely sign in common area phones to SIP Gateway without any physical intervention on the device.
+
+1. Ensure that [bulk sign in pre-requisites](/microsoftteams/sip-gateway-configure#bulk-sign-in-prerequisites) are in place.
+
+2. Open the [SIP remote login portal](https://aka.ms/sipremotelogin) in a browser tab.
+
+3. Authenticate with common area phone credentials that you want to associate with the device.
+
+4. Select appropriate device region. You can use NOAM, EMEA, or APAC.
+
+5. Enter the MAC address of device in XX-XX-XX-XX-XX-XX format. 
 
 ### User pairing and sign-in
 
@@ -242,7 +255,7 @@ To sign out a device on the Teams admin center:
 
 Bulk sign ins enable you to sign in with shared accounts on SIP devices in batches of up to 100 devices each but with a limit of 3 concurrent batches per region.
 
-Bulk sign in is very helpful and can be used in these scenarios.
+Bulk sign-in is very helpful and can be used in these scenarios.
 
 - **Activating new SIP devices** When you want to activate and deploy new SIP devices within 3 days (or 72 hours) of onboarding to SIP gateway.
 - **Devices that are signed out** To sign in devices that got signed out for any reason, within 7 days (or 168 hours) of being signed out. In this scenario, you don't have to add the tenant ID to the provisioning URL as in Step 2 below.
@@ -272,7 +285,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
 5. The accounts must not have Multi Factor Authentication (MFA) enabled.
 6. The accounts must have a phone number assigned.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
-8. You must use a account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
+8. You must use an account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
 9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
 
 ### How to create a bulk sign in request
@@ -302,7 +315,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
 The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 ### Bulk sign in error messages
-To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should to do to fix it.
+To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should do to fix it.
 
 | Error message | Potential solution |
 |:-----|:-----|

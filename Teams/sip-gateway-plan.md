@@ -180,7 +180,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
 |          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
 |          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
-|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available  |
+|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
 |          |MP114-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
 |          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
 |          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
