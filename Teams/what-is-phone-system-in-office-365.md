@@ -73,7 +73,7 @@ For more information about features, see [Here's what you get with Teams Phone](
 
 ## Microsoft Teams Phone advanced deployment guide
 
-The Plan and implement your Microsoft Teams Phone deployment guide will help you transition from your existing voice solution to ‎Microsoft‎ ‎Teams Phone‎. You'll be guided through discovery and planning phases, or you can go straight to deployment. You'll be able to configure a calling plan, ‎Operator Connect‎, ‎Teams Phone Mobile‎, ‎Direct Routing‎, caller ID, and other features.
+The Plan and implement your Microsoft Teams Phone deployment guide will help you transition from your existing voice solution to ‎Microsoft‎ ‎Teams Phone‎. You'll be guided through the discovery and planning phases, or you can go straight to deployment. You'll be able to configure a calling plan, ‎Operator Connect‎, ‎Teams Phone Mobile‎, ‎Direct Routing‎, caller ID, and other features.
 
 > [!div class="nextstepaction"]
 > [Plan and implement your Microsoft Teams Phone deployment Guide](https://aka.ms/tpguide)
