@@ -44,8 +44,7 @@ ms.localizationpriority: high
 As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
-|:-----|:-----|
-|Purple toast notifications|You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
+|:-----|:-----|Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings. You'll no longer see the purple "toast" notifications, and the taskbar icon will behave a little different. Notifications are via Windows native notifications to provide a consistent experience.|
 |Adding a Wiki to a channel tab|You'll no longer see a Wiki app. Instead, select the Notes app.|
 |Adding third party cloud storage service from Files app and Files tab in channels|You'll no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
