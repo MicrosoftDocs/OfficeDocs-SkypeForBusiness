@@ -25,6 +25,8 @@ appliesto:
 
 # Manage the Virtual appointment meeting template in Microsoft Teams
 
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+
 ![Information icon](media/info.png) **Some features described in this article require [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md)**.
 
 ## Overview
