@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: sachung
-ms.date: 10/009/2023
+ms.date: 10/09/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
