@@ -106,7 +106,7 @@ For more information on Teams premium, see [Teams Premium licensing](/microsoftt
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](meeting-attendance-report.md)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin|
+|[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin|
 |Audio and video|No control.|Attendees can't share their audio or video.|
 |[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
