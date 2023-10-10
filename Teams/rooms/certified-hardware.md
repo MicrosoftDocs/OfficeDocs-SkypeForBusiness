@@ -3,7 +3,7 @@ title: Teams Rooms certified systems and peripherals
 author: tonysmit
 ms.author: tonysmit
 ms.reviewer: sohailta
-ms.date: 4/28/2023
+ms.date: 10/10/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
