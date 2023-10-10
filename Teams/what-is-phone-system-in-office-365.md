@@ -71,7 +71,7 @@ Teams Phone can be used for services and voicemail, such as:
 
 For more information about features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Teams Phone in your organization](setting-up-your-phone-system.md).
 
-## Microsoft Teams Phone Advanced Deployment Guide
+## Microsoft Teams Phone advanced deployment guide
 
 The Plan and implement your Microsoft Teams Phone deployment guide will help you transition from your existing voice solution to ‎Microsoft‎ ‎Teams Phone‎. You'll be guided through discovery and planning phases, or you can go straight to deployment. You'll be able to configure a calling plan, ‎Operator Connect‎, ‎Teams Phone Mobile‎, ‎Direct Routing‎, caller ID, and other features.
 
