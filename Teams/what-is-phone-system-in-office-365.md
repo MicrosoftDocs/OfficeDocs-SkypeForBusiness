@@ -76,7 +76,7 @@ For more information about features, see [Here's what you get with Teams Phone](
 The Plan and implement your Microsoft Teams Phone deployment guide will help you transition from your existing voice solution to ‎Microsoft‎ ‎Teams Phone‎. You'll be guided through the discovery and planning phases, or you can go straight to deployment. You'll be able to configure a calling plan, ‎Operator Connect‎, ‎Teams Phone Mobile‎, ‎Direct Routing‎, caller ID, and other features.
 
 > [!div class="nextstepaction"]
-> [Plan and implement your Microsoft Teams Phone deployment Guide](https://aka.ms/tpguide)
+> [Plan and implement your Microsoft Teams Phone deployment guide.](https://aka.ms/tpguide)
 
 > You must be assigned an admin role such as Global Reader to access advanced deployment guides in the Microsoft 365 admin center. Only admins with the Global Administrator role can use the guides to change settings in the organization.
 
