@@ -1,5 +1,5 @@
 ---
-title: Set up town halls
+title:  Manage who can schedule town halls in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
@@ -21,10 +21,12 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up and manage town hall policies for IT Admins in Teams.
+description: Learn how to set up and manage town hall policies for IT Admins in Microsoft Teams. Learn how to manage who can schedule town halls in your organization.
 ---
 
-# Set up town halls in Microsoft Teams
+# Manage who can schedule town halls in Microsoft Teams
+
+**APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
 Microsoft Teams is introducing town halls, a one-to-many interactive virtual event. This article describes how you, as an admin, can set up and manage town halls for your users.
 
