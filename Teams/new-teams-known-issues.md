@@ -62,4 +62,4 @@ As we improved the client, the experience also improved to align with similar fe
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
 |Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
 |Teams Theme Setting|The Teams theme setting now follows the OS theme by default. Users can changes the default in Teams Settings.|
-|Contacts in chat|You no longer can access Contacts from Chat. Instead, install the **People** app from the Teams App Store.|
+|Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
