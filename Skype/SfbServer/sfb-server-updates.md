@@ -28,6 +28,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
+|Description of the security update for Skype for Business Server: October 10, 2023| [KB 5032429](https://support.microsoft.com/help/5032429) | October 2023 |
 | Skype for Business Server 2019 Cumulative Update 7, Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124) | July 2023 |
 | Skype for Business Server 2019 Cumulative Update 7 |[KB 4470124](https://support.microsoft.com/kb/4470124) | June 2023 |
 | Skype for Business Server 2019 Cumulative Update 6, Hotfix 3 |[KB 4470124](https://support.microsoft.com/kb/4470124) | October 2022 |
@@ -57,9 +58,10 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
+|Description of the security update for Skype for Business Server: October 10, 2023| [KB 5032429](https://support.microsoft.com/help/5032429) | October 2023 |
 |Skype for Business Server 2015 Cumulative Update 13|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2023 |
 |Skype for Business Server 2015 Cumulative Update 12, Hotfix 4|[KB 3061064](https://support.microsoft.com/kb/3061064)|December 2022 |
-| Description of the security update for Skype for Business Server and Lync Server: July 12, 2022 | [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
+|Description of the security update for Skype for Business Server and Lync Server: July 12, 2022| [KB 5016714](https://support.microsoft.com/help/5016714) | July 2022 |
 | Description of the security update for Skype for Business Server: April 12, 2022 | [KB 5012686](https://support.microsoft.com/topic/5012686) | April 2022 |
 |Skype for Business Server 2015 Cumulative Update 13|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2023 |
 |Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
