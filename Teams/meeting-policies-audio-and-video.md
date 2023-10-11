@@ -25,12 +25,12 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 
 # Meeting policy settings for audio & video
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-This article describes the meeting policy settings specific to audio and video. To access these settings:
+This article describes the meeting policy settings specific to audio and video for meetings, webinars, and town halls. To access these settings:
 
 1. In the Teams admin center, expand **Meetings**.
 1. Select **Meeting policies**.
