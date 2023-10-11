@@ -70,7 +70,7 @@ You can also archive the team directly from the report. However, archiving a tea
 
 To archive an inactive team, scroll to the extreme right, under **Action** column, select the **bin** icon. In the *Archive team?* dialog box, select **Archive**.
 
-:::image type="content" source="media/archive-option.png" alt-text="The option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
+:::image type="content" source="media/archive-option.png" alt-text="Screenshot showing the option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
 
 ### Inactive external domains activity
 
@@ -291,7 +291,7 @@ Three widgets - External collaboration activity by team, External collaboration 
 1. Select **ShowAll < Settings < Org settings**.
    The **Reports** page is displayed.
 1. Check the **Display concealed user, group, and site names in all reports** checkbox.
-   :::image type="content" source="media/unconcealing-data.png" alt-text="The option to unconceal the data." lightbox="media/unconcealing-data.png":::
+   :::image type="content" source="media/unconcealing-data.png" alt-text="Screenshot showing the option to unconceal the data." lightbox="media/unconcealing-data.png":::
 
    The data obfuscation is removed.
 
