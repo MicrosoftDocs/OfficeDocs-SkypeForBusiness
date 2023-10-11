@@ -64,9 +64,8 @@ To purchase the license:
 6. Select the usage location of the device and assign the **Teams Shared Devices** license to the account. If any other licenses are needed, such as **Callings Plans**, assign those licenses too to the account.
 
 > [!NOTE]
-> You don't need to add a license with Phone System features. These features are included with the **Teams Shared Devices** license.
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-
+> **Teams Shared Device** License can be used as a standalone license for calling**.** You don't need to add a license with Phone System features. These features are included with the Teams Shared Devices license.
+> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Chat is not supported on Teams Shared Device license.  For chat use other licenses. 
 ### Using PowerShell
 
 Use PowerShell when you want to create and assign licenses for more than
@@ -88,3 +87,4 @@ To acquire and assign phone numbers based on your PSTN connectivity option, see 
 Once you create and configure the account, you can sign in to the Teams app on the Android mobile phone using the account tied to **Teams Shared Device** license.
 
 :::image type="content" source="../media/teamsshareddevicelicenseonandroidmobile.png" alt-text="Screenshot showing the Teams app on an Android mobile device." lightbox="../media/teamsshareddevicelicenseonandroidmobile.png":::
+
