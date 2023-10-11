@@ -109,7 +109,7 @@ Explicit recording consent is supported on the following endpoints:
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams phone devices (including audio conferencing phone devices)
+- Microsoft Teams Phone System devices (including audio conferencing phone devices)
 - Teams Displays
 - VDI
 - CarPlay
@@ -125,7 +125,7 @@ The following table shows the behaviors of the settings for the **`-ExplicitReco
 |Setting value| Behavior|
 |---------|---------------|
 |Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
-|Disabled| **This is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
+|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
 
 To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
 
