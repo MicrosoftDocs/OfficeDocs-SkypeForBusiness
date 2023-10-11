@@ -87,7 +87,7 @@ For more information about the Microsoft eCDN, see [Introduction to Microsoft eC
 > [!NOTE]
 > The Microsoft first-party eCDN solution is the default and only option for Premium users.
 
-## Monitor town halls in your org
+## Monitor town halls in your organization
 
 ### Real time monitoring
 
