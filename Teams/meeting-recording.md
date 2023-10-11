@@ -84,7 +84,7 @@ When the explicit recording policy is enabled, once the meeting recording starts
 
 The consent choice for each attendee is included in the attendance report. If the organizer has disabled the attendance report, the meeting can't be recorded. If an attendee isn't included in the attendance report - because they've opted out or the admin attendance report policy prevents it, they have a view-only meeting experience.
 
-Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](../teams-analytics-and-reports/meeting-attendance-report.md)
+Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](../teams-analytics-and-reports/meeting-attendance-report)
 
 ### Supported and unsupported endpoints
 
