@@ -214,7 +214,7 @@ Live events are structured meetings that enable your organization to schedule an
 
 <sup>2</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-<sup>1</sup>  The usual 15 is increased to 50 through December 31, 2023.
+<sup>3</sup>  The usual 15 is increased to 50 through December 31, 2023.
 
 For more information about live events, go to [Teams live events](teams-live-events/plan-for-teams-live-events.md#teams-live-events). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-live-event-in-microsoft-teams-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
