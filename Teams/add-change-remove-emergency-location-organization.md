@@ -53,9 +53,9 @@ To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland
 
 See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
 
-### Required information
+### Required information for Microsoft Calling Plans
 
-All countries require the following information:
+For Microsoft Calling plans, all countries require the following information:
 
 - House or building name or number 
 - Street name or number
