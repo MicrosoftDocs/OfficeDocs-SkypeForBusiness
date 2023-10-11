@@ -69,11 +69,9 @@ For the outbound PSTN caller ID, the following options are available:
 
 - End user control that overrides the caller ID policy.
 
-  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy, unless the parameter CallingIDSubstitute is set to **Anonymous**.
+  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy.
 
   - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID will be blocked and Anonymous will be used.
-
-  - If a policy instance has substitution set to **Anonymous** and EnableUserOverride is enabled, then the outbound caller ID will always be Anonymous, regardless of the end user setting.
 
 You can't assign the following types of phone numbers for the outbound caller ID:
 
