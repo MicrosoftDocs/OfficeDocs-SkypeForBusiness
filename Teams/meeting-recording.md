@@ -84,7 +84,7 @@ When the explicit recording policy is enabled, once the meeting recording starts
 
 The consent choice for each attendee is included in the attendance report. If the organizer has disabled the attendance report, the meeting can't be recorded. If an attendee isn't included in the attendance report - because they've opted out or the admin attendance report policy prevents it, they have a view-only meeting experience.
 
-Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](../teams-analytics-and-reports/meeting-attendance-report)
+Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
 
 ### Supported and unsupported endpoints
 
@@ -94,7 +94,7 @@ The following user types are auto consented for recording without any participan
 - Teams Rooms on Android
 - Third party video conferencing devices via Cloud Video Interop (CVI)
 - Third party video conferencing devices connecting via Direct Guest Join (DGJ)
-- Meeting Participants dialing in using the PSTN conferencing dial in
+- Meeting participants dialing in using the PSTN conferencing dial in
 
 #### Supported endpoints
 
