@@ -85,7 +85,7 @@ Blocked apps may still have access to data from the teams that the apps were add
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization.
+Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload custom apps in your organization.
 
 1. On **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
 
@@ -103,7 +103,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
     * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Custom apps**, turn off or turn on **Interaction with custom apps** option. This setting controls whether users can use custom apps or not. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
+1. Under **Custom apps**, turn off or turn on **Upload custom apps for personal use** option. This setting controls whether users can upload custom apps or not. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
 1. Select **Save**. The settings take effect after a few hours.
 
