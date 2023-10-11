@@ -70,7 +70,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For information about configuring admin meeting policies for meeting recordings, see [Teams meeting recording](/microsoftteams/meeting-recording).
+For information about configuring admin meeting policies for meeting recordings and enabling explicit recording consent, see [Teams meeting recording](/microsoftteams/meeting-recording).
 
 For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 
