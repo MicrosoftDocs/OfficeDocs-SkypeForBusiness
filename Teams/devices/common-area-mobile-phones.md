@@ -64,8 +64,9 @@ To purchase the license:
 6. Select the usage location of the device and assign the **Teams Shared Devices** license to the account. If any other licenses are needed, such as **Callings Plans**, assign those licenses too to the account.
 
 > [!NOTE]
-> **Teams Shared Device** License can be used as a standalone license for calling**.** You don't need to add a license with Phone System features. These features are included with the Teams Shared Devices license.
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Chat is not supported on Teams Shared Device license.  For chat use other licenses. 
+>
+> When you assign a **Teams Shared Device** license to a device, you don't need to assign an additional Phone System license to get other features. To get inbound and outbound calling minutes with Microsoft Phone System you must add a Calling Plan and set up billing. However, if you are using Operator Connect or Direct Routing, you don't need a Calling Plan. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+
 ### Using PowerShell
 
 Use PowerShell when you want to create and assign licenses for more than
