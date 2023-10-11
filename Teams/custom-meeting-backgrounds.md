@@ -23,6 +23,8 @@ description: Using approved corporate assets like backgrounds to create custom b
 
 # Custom meeting backgrounds for Teams Meetings
 
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 ## Overview
