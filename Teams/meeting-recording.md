@@ -88,7 +88,7 @@ Before enabling this policy, make sure you check your chosen policy for the atte
 
 ### Supported and unsupported endpoints
 
-The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent:
+The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent":
 
 - Teams Rooms on Windows
 - Teams Rooms on Android
