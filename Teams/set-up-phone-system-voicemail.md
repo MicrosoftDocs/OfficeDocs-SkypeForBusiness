@@ -140,6 +140,10 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 2. In the Run diagnostic pane, enter the email of the user who is having issues receiving voicemail in the **Username or Email** field, and then select **Run Tests**.
 3. The tests return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to receive voicemail in Teams.
 
+>[!NOTE]
+> There could be certain situations where the voicemail form does not get displayed in the UI in Outlook Desktop, the following registry key needs to be set: [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001, for users, enterprises, and organizations that want the Voicemail form to appear.
+
+
 ## Help your users learn about Cloud Voicemail features
 
 To help your users learn about how to use and manage Cloud Voicemail features, you can recommend the following articles:
