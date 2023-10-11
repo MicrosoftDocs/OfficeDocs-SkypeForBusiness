@@ -55,7 +55,7 @@ See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivica
 
 ### Required information for Microsoft Calling Plans
 
-For Microsoft Calling plans, all countries require the following information:
+For Microsoft Calling Plans, all countries require the following information:
 
 - House or building name or number 
 - Street name or number
