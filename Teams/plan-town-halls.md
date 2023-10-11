@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-description: Learn how to plan for town halls in Microsoft Teams.
+description: Learn what is a town hall in Microsoft Teams. Understand how to plan for town halls in Microsoft Teams for IT Admins.
 ---
 
 # Plan for Teams town halls
@@ -68,11 +68,11 @@ Attendees don't use their cameras or microphones during town halls. Instead, att
 
 External attendees can join a town hall if the organizer sets the event to public.
 
-## Premium town halls
+## Advanced town halls
 
-With a Teams premium license, your users have access to extended capabilities. The following table shows a comparison of capabilities between standard and premium town halls.
+With a Teams premium license, your users have access to extended capabilities. The following table shows a comparison of capabilities between town halls and advanced town halls.
 
-|Capability|Town halls|Premium town halls|
+|Capability|Town halls|Advanced town halls|
 |:------|:-----|:---------|
 |Broadcast capacity|10k|20k|
 |Attendee reporting|Yes|Yes|

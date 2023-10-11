@@ -152,8 +152,6 @@ Which returns:
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com
 SipSignalingPort     : 5067
-CodecPriority         : SILKWB,SILKNB,PCMU,PCMA
-ExcludedCodecs        :  
 FailoverTimeSeconds   : 10
 ForwardCallHistory    : False
 ForwardPai            : False
