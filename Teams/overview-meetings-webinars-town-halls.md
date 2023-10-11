@@ -154,29 +154,6 @@ Teams Premium offers additional town hall functionality through the Teams Premiu
 |Essential emails|Yes|Yes|
 |Email editing|No|Yes|
 
-## RTMP
-
-RTMP-In allows organizers to produce their Teams meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
-
-Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key that they can use to start streaming from the encoder.
-
-RTMP is a Teams Premium feature for meetings and webinars, but is included in both tiers for town halls.
-
-For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
-
-## eCDN
-
-Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
-
-- Town halls
-- Meetings with more than 1,000 participants
-
-eCDN solutions include self-managing delivery technologies, real-time monitoring, and in-depth network analytics. Organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
-
-Teams Premium features require the Microsoft eCDN, so streaming events organized by people with a Teams Premium license always use the Microsoft eCDN.
-
-For details, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md)
-
 ## Best practices for large meetings
 
 This section provides guidance for admins, along with tips that admins can share with their presenters and organizers.
