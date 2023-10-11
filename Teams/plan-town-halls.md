@@ -32,11 +32,30 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 
  Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
 
+## Town hall control comparison
+
+|Feature|Admins|Organizers|
+|:------|:-----|:---------|
+|[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
+|[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters an organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
+|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
+|[Live translated transcription](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |No control. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
+|[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
+[Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
+|[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can use Q&A if allowed by admin. This is the only way attendees can interact and engage with presenters and organizers.|
+|[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
+|[Town hall  join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and town halls. |While creating the town hall, organizers can choose if people dialing in can bypass the lobby. Organizers can't change the settings after the town hall has been created. |
+|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are available at this time. |
+
+> [!NOTE]
+> External attendees can only join a town hall if the organizer sets the event to public.
+
 ## Turn off town halls
 
 Town halls are enabled by default. If you'd like to disable town halls for users in your organization, see [Manage who can schedule town halls](set-up-town-halls.md).
 
-## Networking
+## Get your network ready for town halls
 
 There are four steps you must follow to ensure your network is set up to support town halls.
 
@@ -58,30 +77,15 @@ For more information about the Microsoft eCDN, see [Introduction to Microsoft eC
 > [!NOTE]
 > The Microsoft first-party eCDN solution is the default and only option for Premium users.
 
-## Recordings and publishing
+## Monitor your event
 
-For town hall recordings, organizers have the ability to:
+Filler text about monitoring
 
-- Quickly publish a recording with all the right permissions set
-- Modify the published recording
-
-By default, recordings start once the town hall begins. Your users can change this setting in their meeting options for town halls.For information on the recording experience for your end users, see [Manage town hall recordings in Microsoft Teams](https://support.microsoft.com/office/manage-town-hall-recordings-in-microsoft-teams-88ac3af7-db67-4556-a202-b73a1d6c2e46)
-
-As an admin, you control which types of town halls can have their recordings published through the VOD policy.
-
-## Attendee interaction
-
-Attendees don't use their cameras or microphones during town halls. Instead, attendees interact and engage through **Q&A**. As an admin, you can manage which organizers can turn on Q&A for meetings and town halls.
-
-## External participants
-
-External attendees can join a town hall if the organizer sets the event to public.
-
-## Advanced town halls
+## Premium town halls
 
 With a Teams premium license, your users have access to extended capabilities. The following table shows a capability comparison:
 
-|Capability|Town halls|Advanced town halls|
+|Capability|Town halls|Premium town halls|
 |:------|:-----|:---------|
 |Broadcast capacity|10k|20k|
 |Attendee reporting|Yes|Yes|
@@ -101,19 +105,3 @@ With a Teams premium license, your users have access to extended capabilities. T
 |Email editing|No|Yes|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
-
-## Town hall control comparison
-
-|Feature|Admins|Organizers|
-|:------|:-----|:---------|
-|[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin|
-|Audio and video|No control.|Attendees can't share their audio or video.|
-|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
-|[Live translated transcription](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |No control. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
-|[Manage who can schedule town halls](set-up-town-halls.md)|Can control which organizers can schedule town halls.|Can schedule town halls if allowed by admin.|
-|[Q&A](manage-qna-for-teams.md)|Can choose if Q&A is available.|Can use Q&A if allowed by admin.|
-|[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
-|[Town hall  join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and town halls. |While creating the town hall, organizers can choose if people dialing in can bypass the lobby. Organizers can't change the settings after the town hall has been created. |
-|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are available at this time. |
-|[VOD](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish town hall recordings.|
