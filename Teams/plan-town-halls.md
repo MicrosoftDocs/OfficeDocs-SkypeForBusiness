@@ -39,12 +39,14 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 |[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters an organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
 |[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers.|No control.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
 |[Live translated transcription](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |No control. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
 [Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can use Q&A if allowed by admin. This is the only way attendees can interact and engage with presenters and organizers.|
 |[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
+|[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams meetings and events directly from an external hardware or software-based encoder. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Town hall  join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and town halls. |While creating the town hall, organizers can choose if people dialing in can bypass the lobby. Organizers can't change the settings after the town hall has been created. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are available at this time. |
 
