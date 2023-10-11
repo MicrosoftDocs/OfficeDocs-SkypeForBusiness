@@ -33,6 +33,9 @@ A Teams Android mobile app singed in with an account tied to **Microsoft Teams S
 
 First, you need to purchase a **Teams Shared Devices** license.
 
+  > [!NOTE]
+  > Chat is not supported with a **Teams Shared Devices** license.
+
 To purchase the license:
 
 1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), and select **Billing > Purchase services**.
