@@ -78,16 +78,42 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 ## Manage explicit recording consent
 
-You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy require participants to provide explicit consent to be recorded.
+You can use Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
 
-When the meeting recording starts, all participants are muted, with their cameras and content-share off. For participants joining the meeting after the recording starts, their cameras and microphones are turned off on the pre-join page. Once a participant decides to un-mute, turn on their camera, or share content, they're prompted to respond "Yes" or "No" to consent to be included in the meeting recording. Their answer to this prompt is included in the attendance report if allowed by the admin policy and user settings. If the meeting organizer disables the attendance report, any meetings they organize that require explicit recording consent can't be recorded. Participants that disabled the attendance report (due to the admin policy or their own settings) or answered the consent prompt with "No" can't start the meeting recording, turn on their camera, or use their microphone during the meeting. However, their profile pictures and names are still included in the recording.
+When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off.  When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond "Yes" or "No" to consent to be included in the meeting recording. If an attendee responds “No” to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
 
-Make sure your tenants are using the most recent version of Teams when enabling this policy. . If you’re using T1, the minimum required version of Teams is 1.0.02023040509. To learn more about the latest Teams client, see [The new Microsoft Teams desktop client.](/MicrosoftTeams/new-teams-desktop-admin)
+The consent choice for each attendee is included in the attendance report. If the organizer has disabled the attendance report, the meeting can't be recorded. If an attendee isn't included in the attendance report - because they've opted out or the admin attendance report policy prevents it, they have a view-only meeting experience.
 
-Teams meeting rooms and PSTN users still get recording notifications, but they can't provide explicit recording consent. Their consent data is logged as "not applicable" or "auto consent."
+Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](../teams-analytics-and-reports/meeting-attendance-report.md)
 
->[!NOTE]
->In meetings requiring explicit consent, users joining from unsupported endpoints, such as older client versions and CarPlay, can't enable their mic, camera, or content-sharing during recordings.
+### Supported and unsupported endpoints
+
+The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent:
+
+- Teams Rooms on Windows
+- Teams Rooms on Android
+- Third party video conferencing devices via Cloud Video Interop (CVI)
+- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
+- Meeting Participants dialing in using the PSTN conferencing dial in
+
+#### Supported endpoints
+
+Explicit recording consent is supported on the following endpoints:
+
+- Teams native Windows
+- Teams native Mac
+- Teams Web
+- Mobile Teams (Android and iOS)
+
+#### Unsupported endpoints
+
+In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
+
+- Teams Desk Phones
+- Teams Displays
+- VDI
+- CarPlay
+- Old version native clients
 
 ### Manage explicit recording consent in the Teams admin center
 
@@ -99,18 +125,18 @@ Follow these steps in the Teams admin center to turn explicit recording consent 
 4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Recording & Transcription** section.
 6. Toggle the **Require Participant Agreement for Recordings** setting **On** or **Off**.
-7. Select Save
+7. Select Save.
 
 ### Manage explicit recording consent through PowerShell
 
-Through PowerShell, you can manage explicit consent for users or groups in your organization:
+Through PowerShell, you can manage explicit recording consent for users or groups in your organization:
 
 The **`-ExplicitRecordingConsent`** parameter in the **CsTeamsMeetingPolicy** cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
 The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| For organizers with this policy, all their meetings will require participants to provide explicit consent to be recorded.|
+|Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
 |Disabled| **This is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
 
 To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
