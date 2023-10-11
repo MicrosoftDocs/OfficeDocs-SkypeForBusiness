@@ -1,10 +1,10 @@
 ---
-title: Private channels in Microsoft Teams
+title: IT Admins - Private channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: jasonlewis
-ms.date: 10/10/2023
+ms.date: 10/11/2023
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -16,12 +16,12 @@ f1.keywords:
   - NOCSH
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage private channels in Microsoft Teams.
 ---
 
-# Private channels in Microsoft Teams
+# IT Admins - Private channels in Microsoft Teams
 
 Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they're existing members of the team.
 
@@ -46,7 +46,7 @@ By default, any team owner or team member can create a private channel. Guests c
 
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that private channel.
 
-Team owners can only see private channels in their team if they're owners or members of the channel. A private channel owner or team owner who is a member of the private channel can delete the private channel. (A deleted private channel can be restored within 30 days after it's deleted).
+Team owners who aren't a member of a private channel can see the channel under **Manage team** but not in the channel list in the left pane. A private channel owner or team owner (whether or not they are a member of the private channel) can delete the private channel. A deleted private channel can be restored within 30 days after it's deleted.
 
 Team members can only see private channels that they've been added to.
 
