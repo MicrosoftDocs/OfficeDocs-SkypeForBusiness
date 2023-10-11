@@ -109,7 +109,7 @@ Explicit recording consent is supported on the following endpoints:
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams Phone devices
+- Teams phone devices
 - Teams Displays
 - VDI
 - CarPlay
