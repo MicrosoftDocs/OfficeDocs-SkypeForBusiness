@@ -178,9 +178,8 @@ Webinars are a two-way interactive virtual event where the presenters deliver in
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Audience size | Up to 1,000 attendees <sup>1</sup> |
-|Duration of event | ? |
-|Concurrent webinars running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 15 |
+|Audience size | Up to 1,000 attendees |
+|Duration of event | 30 hours |
 
 ## Town halls
   
@@ -188,11 +187,11 @@ Town halls provide a new one-to-many format to host and deliver large-scale, int
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Audience size | Up to 20,000 attendees |
-|Duration of event | ? |
-|Concurrent town halls running in a Microsoft 365 or Office 365 organization <sup>1</sup> | 50 |
+|Audience size | Town halls: 10,000<br>Premium town halls: 20,000 |
+|Duration of event | 30 hours |
+|Concurrent town halls running in a Microsoft 365 or Office 365 organization <sup>1</sup> | Town halls: 15<br>Premium town halls: 50 |
 
-<sup>1</sup> You can schedule as many town halls as you want, but you can only run 50 at a time. As soon as the organizer joins a town hall, it's considered to be running.
+<sup>1</sup> You can schedule as many town halls as you want, but organizers with a Teams Premium subscription can run 50 at a time. Organizers without a Teams Premium subscription can run 15 at a time. As soon as the organizer joins a town hall, it's considered to be running.
 
 For more information about town halls, see [Plan for town halls](plan-town-halls.md).
 
@@ -200,6 +199,7 @@ For more information about town halls, see [Plan for town halls](plan-town-halls
   
 > [!NOTE]
 > Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](plan-town-halls.md).
+
 Live events are structured meetings that enable your organization to schedule and produce events that stream to large online audiences—up to 20,000 people. With live events, the audience interaction is a managed Q&A experience.
 
 |Feature     | Maximum limit |
