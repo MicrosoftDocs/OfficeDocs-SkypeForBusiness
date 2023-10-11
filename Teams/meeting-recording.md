@@ -110,6 +110,7 @@ Explicit recording consent is supported on the following endpoints:
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
 - Teams Desk Phones
+- IP Phones
 - Teams Displays
 - VDI
 - CarPlay
@@ -119,7 +120,7 @@ In meetings requiring explicit consent, users joining from unsupported endpoints
 
 Through PowerShell, you can manage explicit recording consent for users or groups in your organization:
 
-The **`-ExplicitRecordingConsent`** parameter in the **CsTeamsMeetingPolicy** cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
+The **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
 The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
 
 |Setting value| Behavior|
