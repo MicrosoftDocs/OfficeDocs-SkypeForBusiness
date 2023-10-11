@@ -86,8 +86,6 @@ To update and existing custom app, follow these steps:
 
 1. On the banner of the app, select **Upload file**, and provide the updated app package.
 
-When a new version of an app is published, the existing policies for that app remain enforced for the updated app.
-
 ## Allow users to upload custom apps
 
 Microsoft Teams provides granular control over who can add custom apps to a team. To control if custom apps can be added to a team or not, admins and team owners use the following two settings. These settings don't affect the ability to block third-party apps.
@@ -101,6 +99,16 @@ Microsoft Teams provides granular control over who can add custom apps to a team
 | Off               | On                          | Only Team owners                     | Any user |
 | On                | Off                         | No user                              | Any user |
 | On                | On                          | Anybody                              | Any user |
+
+## Update a custom app to a new version
+
+Just like third-party apps in the Teams store get updates, developers update custom apps. You can update a custom app in your org catalog to a newer version by uploading a new version of the app. To update, select **Upload file** from the app details page.
+
+:::image type="content" source="media/update-custom-app-version.png" alt-text="Screenshot showing the option to upload a new version of a custom app in admin center.":::
+
+When a new version of an app is published, the existing policies that applied to the previous version of the app continue to be in effect for the updated version.
+
+Alternatively, a user can submit an updated custom app for your approval. When you approve the app, the app updates to a newer version in the organization catalog.
 
 ### App setup policy settings for custom apps
 
@@ -142,6 +150,12 @@ The **Interaction with custom apps** option in the org-wide setting applies to e
     :::image type="content" source="media/teams-custom-app-policy-and-settings-org-wide.png" alt-text="Screenshot showing the org-wide custom app settings.":::
 
 Custom apps that are available for entire organization are the apps that an admin directly uploads or a user requests that an admin approves. Such apps aren't limited in scope to a user's personal or team scope. All permitted users can use such tenant-wide custom apps, even if interaction is turned off using the following setting.
+
+## Delete custom apps from your organization's catalog
+
+You as an admin can delete custom apps from your organization's store. On the app details page, select **More commands** > **Actions** > **Delete**.
+
+:::image type="content" source="media/delete-custom-app.png" alt-text="Screenshot showing the option in admin center to delete or remove a custom app.":::
 
 ## Understand how all the custom app settings work together
 
