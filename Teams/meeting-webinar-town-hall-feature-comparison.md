@@ -40,9 +40,10 @@ The following table shows which features are available in meetings, webinars, an
 |[Attendee mic and camera](https://products.support.services.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16#:~:text=To%20manage%20what%20attendees%20see%3A%201%20In%20Teams%2C,for%20attendees%3F%20and%20Allow%20camera%20for%20attendees%3F%20toggles.)|✔️|✔️|✖️|
 |[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|✔️|✖️|✖️|
 |[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|✔️|✔️|✖️|
-|[Channel meeting scheduling](https://support.microsoft.com/en-us/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
+|[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
