@@ -138,8 +138,6 @@ For town hall organizers that don't have a Teams Premium license, they can check
 
 Teams admins and organizers have different policies and settings to control the town hall experience. The following table lists the types of features available for town halls and how the admin and organizer controls interact.
 
-
-
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
 |[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
