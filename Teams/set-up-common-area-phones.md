@@ -3,7 +3,7 @@ title: Set up the common area phones for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 1/28/2022
+ms.date: 10/11/2023
 ms.reviewer: kponnus
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -155,7 +155,7 @@ The following advanced calling features are available for supported Teams phone 
 - [Group call pick-up](call-sharing-and-group-call-pickup.md).
 - [Forwarding rules](teams-calling-policy.md).
 
-To use these advanced calling features on supported Teams phone device models, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account.
+To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.
 
 Turning on advanced calling capabilities requires you to purchase hardware models that can support all required capabilities.
 
@@ -184,8 +184,8 @@ You can set up common area phones as hotline phones also known as PLAR (Private 
 1. From the list, select the configuration profile assigned to your common area phone.
 1. Under the **Call settings** section, turn on the **Enable hotline** toggle and then select **Save**.
 
-    > [!NOTE]
-    > Ensure the Advanced Calling setting is disabled when you are enabling the hotline setting in Teams admin centre.
+ > [!NOTE]
+ > Verify the Advanced Calling setting is disabled when you are enabling the hotline setting in Teams admin center. Also verify the Team app version on the Android phone is version 1449/1.0.94.2023082303 or later.
 
 ### Turn on Hotline from a Teams phone device
 
