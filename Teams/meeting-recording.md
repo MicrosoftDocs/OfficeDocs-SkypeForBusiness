@@ -25,9 +25,9 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 # Teams meeting recording
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
+In Microsoft Teams, users can record their Teams meetings, webinars, and town halls to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
 
 > [!NOTE]
 > This setting also affects webinars. Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
@@ -41,6 +41,13 @@ When a meeting is recorded:
 - It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
+
+Town halls and webinars follow the same process for recording. However there are a few key differences:
+
+- In town halls, the recording isn't linked in the chat.
+- Webinars and town halls use video on demand (VOD) to publish recordings.
+
+To learn more about VOD, see [Manage VOD publishing for webinars and town halls](manage-vod-publishing.md).
 
 There's also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
