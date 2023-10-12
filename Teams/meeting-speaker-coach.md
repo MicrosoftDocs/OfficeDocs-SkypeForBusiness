@@ -32,9 +32,15 @@ This setting lets users turn on Speaker Coach during a Teams meeting. Speaker Co
 > [!NOTE]
 > This setting also affects webinars.
 
-You can only set and edit this policy in PowerShell by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, you can create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+You can only set and edit this policy in PowerShell by using the **`-AllowMeetingCoach`** parameter within the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, you can create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **False**.
+This setting is enabled by default. To turn off speaker coach, use the following script:
+
+To turn off meeting reactions, use the following script:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingCoach False
+```
 
 ## Related topics
 
