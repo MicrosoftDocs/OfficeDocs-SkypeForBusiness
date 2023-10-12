@@ -84,24 +84,24 @@ Teams live events will be deprecated on September 30, 2024. If you've been using
 |:------| :---: | :---: | :---: |
 |Broadcast capacity|10k|10k|20k|
 |Concurrent events|15|15|50|
-|Attendee reporting|Yes| Yes|Yes|
+|Attendee reporting|✔️| ✔️|✔️|
 |eCDN|3rd and 1st party|3rd and 1st party|1st party|
 |Duration|4 hours|30 hours|30 hours|
-|RTMP-in|Yes|Yes|Yes|
-|Producer UX|Yes |Manage what attendees see|Manage what attendees see |
-|Default audio and video off|Yes|10k|Yes|
+|RTMP-in|✔️|✔️|✔️|
+|Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
+|Default audio and video off|✔️|10k|✔️|
 |Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
-|Green room|Yes|Yes|Yes|
-|Live translated captions|Yes|6 languages|10 languages|
-|Manage what attendees see|No??|Yes|Yes|
-|External presenters|Yes|No|No|
-|AI generated captions|Yes|Yes|Yes|
-|DVR|Yes|No|No|
+|Green room|✔️|✔️|✔️|
+|Live translated captions|✔️|6 languages|10 languages|
+|Manage what attendees see|✖️??|✔️|✔️|
+|External presenters|✔️|✖️|✖️|
+|AI generated captions|✔️|✔️|✔️|
+|DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|
-|VOD|Yes|Yes|Yes|
-|Organizer level real time monitoring|No??|No|Yes|
-|Essential emails|No|Yes|Yes|
-|Email editing|No|No|Yes|
+|VOD|✔️|✔️|✔️|
+|Organizer level real time monitoring|✖️??|✖️|✔️|
+|Essential emails|✖️|✔️|✔️|
+|Email editing|✖️|✖️|✔️|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
@@ -133,17 +133,6 @@ With a Teams Premium license, during a town hall, organizers and co-organizers c
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
 
 For town hall organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
-
-## Town hall vs live events
-
-Teams live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events and town halls. The following table is a comparison of live events town hall features:
-
-|Capability|Live events|Premium town halls|
-|:------|:-----|:---------|
-|Broadcast capacity|10k|20k|
-|Attendee reporting|Yes|Yes|
-|eCDN|3rd and 1st party|1st party|
-|Duration|30 hours|30 hours|
 
 ## Town hall control comparison
 
