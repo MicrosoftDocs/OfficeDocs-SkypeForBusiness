@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
-ms.date: 10/03/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -64,12 +64,11 @@ The following table shows which features are available in meetings, webinars, an
 |[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|✔️|✔️|✔️|
 |[Recordings automatically expire](meeting-recording.md)|✔️|✔️|✔️|
 |[Registration](set-up-webinars.md)| Optional|✔️|✖️|
-|[RTMP-in](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
+|[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[Streaming](stream-teams-meetings.md)|Optional|✖️|Default|
 |[Streaming participants](view-only-meeting-experience.md)|10,000*|✖️|10,000 (town halls) <br> 20,000 (Premium town halls)|
-|[Themes](meeting-themes.md)|[Premium](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e)|[Premium](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10)|[Premium](https://support.microsoft.com/office/customize-a-town-hall-in-microsoft-teams-ce5dbdff-d5ea-456e-87da-5fdcd93ae2d2)|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
