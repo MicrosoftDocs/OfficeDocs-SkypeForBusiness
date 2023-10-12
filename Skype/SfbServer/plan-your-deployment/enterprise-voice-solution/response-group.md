@@ -209,6 +209,6 @@ The following table describes the Response Group user model that you can use as 
 |Concurrent calls connected to IVR or MoH  <br/> |480  <br/> |60  <br/> |
 |Concurrent anonymous sessions (without IM)  <br/> |224  <br/> |28  <br/> |
 |Concurrent anonymous sessions (with IM)  <br/> |64  <br/> |8  <br/> |
-|Active agents (formal and informal)  <br/> |2400  <br/> |2400  <br/> |
+|Agents (formal and informal)  <br/> |2400  <br/> |2400  <br/> |
 |Number of hunt groups  <br/> |800  <br/> |800  <br/> |
 |Number of IVR groups (use speech recognition)  <br/> |400  <br/> |400  <br/> |
