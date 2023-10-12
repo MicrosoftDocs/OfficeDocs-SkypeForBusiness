@@ -53,7 +53,9 @@ An Enterprise Content Delivery Network (eCDN) takes the video content from the i
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com/)
 
-For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro).
+For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
+
+For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 > [!NOTE]
 > The Microsoft first-party eCDN solution is the default and only option for Premium users.
@@ -66,13 +68,14 @@ If you'd like to get familiar with how policies work for Teams meetings and even
 
 For a full list of admin policies and organizer settings for town halls, see the [Town hall control comparison](#town-hall-control-comparison) section in this article.
 
-## External presenters and attendees
+## In-org vs public town halls
 
 When managing the event access type for town halls to decide whether organizers can schedule public town halls, consider the following points:
 
 - External attendees can only join a town hall if the organizer sets the event to public.
 - In town halls, guests are considered in-org.
 - Town halls don't support external presenters.
+- Attendees who aren't in your org(this includes anonymous and external access users) can't join private town halls.
 
 ## Premium town halls
 
@@ -153,7 +156,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes amongst other during town halls. |Can use shared notes with co-organizers during town halls |
 |[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can us speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
-|[Town hall  join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and town halls. |When organizers create the town hall, they can choose if people dialing in can bypass the lobby. Organizers can't change the settings after the town hall has been created. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are available at this time. |
 
 ## Need help with your town hall?
