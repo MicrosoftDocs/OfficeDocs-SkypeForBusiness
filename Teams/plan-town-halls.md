@@ -58,7 +58,7 @@ For more information about the Microsoft eCDN, see [Introduction to Microsoft eC
 For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 > [!NOTE]
-> The Microsoft first-party eCDN solution is the default and only option for Premium users.
+> The Microsoft first-party eCDN solution is the default and only option for Teams Premium users using town halls.
 
 ## Understand your policies
 
@@ -74,31 +74,34 @@ When managing the event access type for town halls to decide whether organizers 
 
 - External attendees can only join a town hall if the organizer sets the event to public.
 - In town halls, guests are considered in-org.
-- Town halls don't support external presenters.
-- Attendees who aren't in your org(this includes anonymous and external access users) can't join private town halls.
+- Attendees who aren't in your org(including anonymous and external access users) can't join in-org town halls.
 
-## Premium town halls
+## Premium town halls and live events
 
-With a Teams premium license, your users have access to extended capabilities. The following table shows a capability comparison:
+Teams live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features: 
 
-|Capability|Town halls|Premium town halls|
-|:------|:-----|:---------|
-|Broadcast capacity|10k|20k|
-|Attendee reporting|Yes|Yes|
-|eCDN|3rd and 1st party|1st party|
-|Duration|30 hours|30 hours|
-|RTMP-in|Yes|Yes|
-|Producer UX|Manage what attendees see |Manage what attendees see |
-|Default audio and video off|Yes|Yes|
-|Layouts|Focused curated view|Focused curated view|
-|Green room|Yes|Yes|
-|Manage what attendees see|Yes|Yes|
-|AI generated captions|Yes|Yes|
-|Q&A capacity|10k|20k|
-|VOD|Yes|Yes|
-|Organizer level real time monitoring|No|Yes|
-|Essential emails|Yes|Yes|
-|Email editing|No|Yes|
+|Capability|Live Events|Town halls|Premium town halls|
+|:------| :---: | :---: | :---: |
+|Broadcast capacity|10k|10k|20k|
+|Concurrent events|15|15|50|
+|Attendee reporting|Yes| Yes|Yes|
+|eCDN|3rd and 1st party|3rd and 1st party|1st party|
+|Duration|4 hours|30 hours|30 hours|
+|RTMP-in|Yes|Yes|Yes|
+|Producer UX|Yes |Manage what attendees see|Manage what attendees see |
+|Default audio and video off|Yes|10k|Yes|
+|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
+|Green room|Yes|Yes|Yes|
+|Live translated captions|Yes|6 languages|10 languages|
+|Manage what attendees see|No??|Yes|Yes|
+|External presenters|Yes|No|No|
+|AI generated captions|Yes|Yes|Yes|
+|DVR|Yes|No|No|
+|Q&A capacity|10k|10k|20k|
+|VOD|Yes|Yes|Yes|
+|Organizer level real time monitoring|No??|No|Yes|
+|Essential emails|No|Yes|Yes|
+|Email editing|No|No|Yes|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
@@ -131,9 +134,22 @@ For more information on how organizers in your org can use insights for their to
 
 For town hall organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
 
+## Town hall vs live events
+
+Teams live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events and town halls. The following table is a comparison of live events town hall features:
+
+|Capability|Live events|Premium town halls|
+|:------|:-----|:---------|
+|Broadcast capacity|10k|20k|
+|Attendee reporting|Yes|Yes|
+|eCDN|3rd and 1st party|1st party|
+|Duration|30 hours|30 hours|
+
 ## Town hall control comparison
 
 Teams admins and organizers have different policies and settings to control the town hall experience. The following table lists the types of features available for town halls and how the admin and organizer controls interact.
+
+
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
