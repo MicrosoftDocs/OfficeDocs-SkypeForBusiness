@@ -36,6 +36,8 @@ The following table shows the features available to help you manage meeting reco
 
 The Teams Administrator has overall control over whether meeting recording is enabled. Both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
 
+To manage explicit consent for recordings, see [Meeting Recording.](meeting-recording.md)
+
 ## Manage who can record meetings
 
 There are two options for who can record a meeting:
@@ -68,7 +70,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For information about configuring admin meeting policies for meeting recordings, see [Teams meeting recording](/microsoftteams/meeting-recording).
+For information about configuring admin meeting policies for meeting recordings and enabling explicit recording consent, see [Teams meeting recording](/microsoftteams/meeting-recording).
 
 For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 

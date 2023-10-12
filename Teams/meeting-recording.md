@@ -76,6 +76,63 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 ---
 
+## Manage explicit recording consent
+
+You can use PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
+
+When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off.  When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond "Yes" or "No" to consent to be included in the meeting recording. If an attendee responds “No” to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
+
+The consent choice for each attendee is included in the attendance report. If the organizer has disabled the attendance report, the meeting can't be recorded. If an attendee isn't included in the attendance report - because they've opted out or the admin attendance report policy prevents it, they have a view-only meeting experience.
+
+Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
+
+### Supported and unsupported endpoints
+
+The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent":
+
+- Teams Rooms on Windows
+- Teams Rooms on Android
+- Third party video conferencing devices via Cloud Video Interop (CVI)
+- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
+- Meeting participants dialing in using the PSTN conferencing dial in
+
+#### Supported endpoints
+
+Explicit recording consent is supported on the following endpoints:
+
+- Teams native Windows
+- Teams native Mac
+- Teams Web
+- Mobile Teams (Android and iOS)
+
+#### Unsupported endpoints
+
+In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
+
+- Microsoft Teams Phone System devices (including audio conferencing phone devices)
+- Teams Displays
+- VDI
+- CarPlay
+- Old version native clients
+
+### Manage explicit recording consent through PowerShell
+
+Through PowerShell, you can manage explicit recording consent for users or groups in your organization:
+
+The **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
+The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
+
+|Setting value| Behavior|
+|---------|---------------|
+|Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
+|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
+
+To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
+```
+
 ## Block or allow download of channel meeting recordings
 
 Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
