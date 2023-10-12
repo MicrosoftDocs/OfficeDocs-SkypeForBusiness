@@ -20,16 +20,16 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.general
-description: IT admins - Learn to turn speaker coach on or off for Teams meetings
+description: IT admins - Learn to turn speaker coach on or off for Teams meetings, webinars, and town halls.
 ---
 
-# Speaker Coach in Microsoft Teams meetings
+# Manage Speaker Coach for Microsoft Teams meetings, webinars, and town halls
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
- Speaker Coach processes the audio of the user while they present, and of all unmuted participants during the meeting and provides private real-time feedback and suggestions for improvement. The user who turned on the Speaker Coach also gets a summary report of the feedback after the meeting. Only the user can view the summary report of feedback. Administrators don't have access to any of this data.
+ Speaker Coach processes the audio of the user while they present, and of all unmuted participants during the meeting and provides private real-time feedback and suggestions for improvement. The user who turned on the Speaker Coach also gets a summary report of the feedback after the meeting. Only the user can view the summary report of feedback. Admins don't have access to any of this data.
 
-For town halls, speaker coach only applies to organizers, co-organizers, and presenters.
+For town halls, Speaker Coach only applies to organizers, co-organizers, and presenters.
 
 As an admin, you can manage whether users can turn on Speaker Coach during Teams meetings, webinars, and town halls.
 
