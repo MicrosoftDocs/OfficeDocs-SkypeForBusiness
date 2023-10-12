@@ -86,6 +86,9 @@ The consent choice for each attendee is included in the attendance report. If th
 
 Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
 
+> [!NOTE]
+> The explicit recording consent policy doesn't apply to meetings started with transcription.
+
 ### Supported and unsupported endpoints
 
 The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent":
