@@ -22,9 +22,9 @@ ms.custom:
 description: Learn how to use Teams meeting policy settings to control who can start instant meetings and schedule meetings.
 ---
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
-
 # Manage who can start instant meetings and schedule meetings
+
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 As an admin, you can control which users can start instant meetings and schedule meetings in Teams. This can be especially useful for privacy and compliance reasons, where you may not want particular users setting up meetings.
 
