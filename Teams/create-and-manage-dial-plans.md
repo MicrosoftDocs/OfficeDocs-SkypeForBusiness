@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 10/28/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
@@ -213,7 +213,7 @@ ForEach($nr in $dp.NormalizationRules)
  $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
  $NormRules += $nr2
 }
-New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
+New-CsTenantDialPlan -Identity $dp.SimpleName -Description $dp.Description -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
 ## Related topics
