@@ -108,7 +108,7 @@ Teams Premium provides the following features for an enhanced town hall experien
   - Italian (it-it)
   - Korean (ko-kr)
   - Russian (ru-ru)
-- **Real time monitoring** - Troubleshoot town halls while they're live.
+- **Real time monitoring** - Town hall organizers can troubleshoot town halls while they're live.
 
 ### Webinars
 
