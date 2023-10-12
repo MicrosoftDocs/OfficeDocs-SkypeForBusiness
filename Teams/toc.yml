@@ -638,7 +638,7 @@ items:
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
-            - name: Get a meeting attendance report
+            - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
               href: who-can-bypass-meeting-lobby.md
@@ -652,11 +652,11 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
-            - name: Manage Q&A in Teams meetings, webinars, and town halls
+            - name: Manage Q&A
               href: manage-qna-for-teams.md
-            - name: Meeting chat
+            - name: Manage meeting chat
               href: manage-meeting-chat.md
-            - name: Reactions
+            - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Enable users to record their name when they join a meeting
               href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
@@ -718,7 +718,7 @@ items:
           items:
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
-            - name: RTMP
+            - name: Manage RTMP-In
               href: meetings-rtmp-in.md
             - name: Use NDI® technology in Teams
               href: use-NDI-in-meetings.md
