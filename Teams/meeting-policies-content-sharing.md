@@ -25,12 +25,14 @@ description: Learn to manage meeting policy settings in Teams for content sharin
 
 # Manage meeting policies for content sharing
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Content sharing settings control how users present a screen or app during a meeting or chat. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
+Content sharing settings control how users present a screen or app during a chat, meeting, webinar, or town hall. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
+
+For town halls, only presenters, organizers, and co-organizers can use shared notes and screen sharing.
 
 > [!NOTE]
-> Meeting policies for content sharing also apply to webinars.
+> Meeting policies for content sharing also apply to webinars and town halls.
 
 To change a content sharing setting
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
