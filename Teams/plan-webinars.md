@@ -30,6 +30,58 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
+## Turn webinars halls on or off
+
+Webinars are enabled by default. If you'd like to disable or manage webinars for users in your organization, see [Manage who can schedule webinars](set-up-webinars.md).
+
+## Understand your policies
+
+Webinars are managed by a combination of admin meeting and event policies with organizer and attendee settings.
+
+If you'd like to get familiar with how policies work for Teams meetings and events, see [Manage meeting and event policies in Microsoft Teams](meeting-policies-overview.md).
+
+For a full list of admin policies and organizer settings for webinars, see the [Webinar control comparison](#webinar-control-comparison) below.
+
+## In-org vs public webinars
+
+There are a few key differences between in-org and public webinars. When managing the event access type for webinars to decide whether organizers can schedule public webinars, consider the information in the following table:
+
+|Capability|In-org webinar|Public webinar|
+|:----|:-----:|:-------:|
+|Includes guests|✖️|✔️|
+|Accessible to members of the organization that created the webinar|✔️|✔️|
+|Accessible to anyone with a registration link|✖️|✔️|
+|Anonymous users can register|✖️|✔️|
+|Attendees type their name on the registration form when registering|✖️|✔️|
+|Attendees must reenter their information after selecting the join link|✖️|✔️|
+|Attendees have unique join links|✔️|✔️|
+|Organizers can decide if attendees with a registration link can bypass the lobby|✔️|✔️|
+|Organizers can decide if anyone who can't bypass the lobby is automatically rejected|✔️|✔️|
+|Attendees can dial in to join|✖️|✖️|
+
+## Webinar attendee interaction
+
+Registered attendees join the webinar with their cameras and mics off; webinar organizers choose when to let attendees turn on their cameras or un-mute.
+
+As an admin, you can manage the following features attendees use for interaction during webinars:
+
+- **Chat:** You can set chat to be on for everyone, off for everyone, or on for everyone but anonymous users. When chat is set to **On for everyone**, all meeting and webinar participants can read and write chat messages; the organizer's **Meeting chat** settings control the chat experience.
+
+- **Q&A**: You can manage which organizers can turn on Q&A for meetings and webinars.
+- **Reactions and hand raise**: You can manage which organizers have reactions available for attendees to use during their meetings and webinars.
+
+## Premium webinars
+
+A Teams Premium subscription includes the following features for webinars:
+
+- Create a webinar wait list
+- Limit the day and time when people can register.
+- Manage attendees’ view
+- Manually approve registrants
+- Use RTMP-in
+- Send reminder emails to registrants
+- Set up a green room for webinar presenters.
+
 ## Webinar control comparison
 
 Some webinar features can be controlled by Teams administrators while others are controlled by the webinar organizer. The following table lists the types of features available for webinars and how the admin and organizer controls interact.
@@ -57,46 +109,6 @@ Some webinar features can be controlled by Teams administrators while others are
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
 |[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View the activity overview for webinars created in your organization.|No control.|
 
-## External participants
-
-There are a few key differences between in-org and public webinars.
-
-|Capability|In-org webinar|Public webinar|
-|:----|:-----:|:-------:|
-|Includes guests|✖️|✔️|
-|Accessible to members of the organization that created the webinar|✔️|✔️|
-|Accessible to anyone with a registration link|✖️|✔️|
-|Anonymous users can register|✖️|✔️|
-|Attendees type their name on the registration form when registering|✖️|✔️|
-|Attendees must reenter their information after selecting the join link|✖️|✔️|
-|Attendees have unique join links|✔️|✔️|
-|Organizers can decide if attendees with a registration link can bypass the lobby|✔️|✔️|
-|Organizers can decide if anyone who can't bypass the lobby is automatically rejected|✔️|✔️|
-|Attendees can dial in to join|✖️|✖️|
-
-## Attendee interaction
-
-Registered attendees join the webinar with their cameras and mics off; webinar organizers choose when to let attendees turn on their cameras or un-mute.
-
-As an admin, you can manage the following features attendees use for interaction during webinars:
-
-- **Chat:** You can set chat to be on for everyone, off for everyone, or on for everyone but anonymous users. When chat is set to **On for everyone**, all meeting and webinar participants can read and write chat messages; the organizer's **Meeting chat** settings control the chat experience.
-
-- **Q&A**: You can manage which organizers can turn on Q&A for meetings and webinars.
-- **Reactions and hand raise**: You can manage which organizers have reactions available for attendees to use during their meetings and webinars.
-
-## Premium webinars
-
-A Teams Premium subscription includes the following features for webinars:
-
-- Create a webinar wait list
-- Limit the day and time when people can register.
-- Manage attendees’ view
-- Manually approve registrants
-- Use RTMP-in
-- Send reminder emails to registrants
-- Set up a green room for webinar presenters.
-
-- ## Need help with your webinar?
+## Need help with your webinar?
 
 Whether you and your organizers new to hosting webinars or just need some extra help, the Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running webinars. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
