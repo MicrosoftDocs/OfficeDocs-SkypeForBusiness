@@ -120,6 +120,8 @@ You can use the Call Quality Dashboard(CQD) to monitor town hall quality at the 
 
 To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD).](CQD-what-is-call-quality-dashboard.md)
 
+
+
 ### Town hall insights for organizers
 
 With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
