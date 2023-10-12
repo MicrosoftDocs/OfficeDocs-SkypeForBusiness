@@ -40,7 +40,6 @@ To access audio and video settings, follow these steps:
 1. Scroll to the **Audio & video** section of the policy page.
 1. When you've completed your changes, select **Save**.
 
-
 ## Mode for IP audio
 
 This is a per-user policy. This setting controls whether audio can be turned on in meetings and group calls. Here are the values for this setting.
