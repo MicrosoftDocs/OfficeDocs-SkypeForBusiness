@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 10/11/2023
+ms.date: 10/12/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -123,15 +123,15 @@ You can use the Call Quality Dashboard(CQD) to monitor town hall quality at the 
 
 To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD).](CQD-what-is-call-quality-dashboard.md)
 
-
-
 ### Town hall insights for organizers
 
 With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
 
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
 
-For meeting organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
+For town hall organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
+
+
 
 ## Town hall control comparison
 
