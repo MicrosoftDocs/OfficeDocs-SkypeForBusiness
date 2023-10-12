@@ -35,7 +35,7 @@ Customization in Teams meetings allows organizations to extend their visual iden
 
 By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom meeting  backgrounds. These custom backgrounds are only available for end users within your organization who have a Teams Premium license to use. These users can still upload their own custom backgrounds.
 
-In town halls, organizers, co-organizers, and presenters can use the custom meeting backgrounds that you've created.
+In town halls, organizers, co-organizers, and presenters in your org can use the custom meeting backgrounds that you've created.
 
 ## Prerequisites
 
