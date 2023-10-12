@@ -99,9 +99,7 @@ The following table describes specifics for outbound and inbound PSTN calls for 
 The location and call completion behavior described in the table applies to both of the following:
 
 - PSTN calls to and from numbers assigned directly to the user. 
-- PSTN calls indirectly assigned through an Auto attendant or Call queue. 
-
-The user on the PSTN call must be located at the same site that the Auto attendant or Call queue number is associated with. 
+- PSTN calls indirectly assigned through an Auto attendant or Call queue. The user on the PSTN call must be located at the same site that the Auto attendant or Call queue number is associated with. 
 
 
 ## Call transfers, delegation, and conferencing 
