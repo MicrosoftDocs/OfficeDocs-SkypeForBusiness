@@ -67,7 +67,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[Streaming](stream-teams-meetings.md)|Optional|✖️|Default|
-|[Streaming participants](view-only-meeting-experience.md)|10,000*|✖️|10,000* (base) <br> 20,000 (premium)|
+|[Streaming participants](view-only-meeting-experience.md)|10,000*|✖️|10,000* (town halls) <br> 20,000 (Premium town halls)|
 |[Theme](meeting-themes.md)|[Premium](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e)|[Premium](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10)|Premium|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
