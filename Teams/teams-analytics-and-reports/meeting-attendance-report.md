@@ -1,5 +1,5 @@
 ---
-title: Attendance report for meetings and webinars in Microsoft Teams
+title: Attendance report for meetings, webinars, and town halls in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
