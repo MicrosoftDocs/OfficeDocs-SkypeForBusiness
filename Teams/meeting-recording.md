@@ -44,7 +44,7 @@ When a meeting is recorded:
 
 Town halls and webinars follow the same process for recording. However there are a few key differences:
 
-- In town halls, the recording isn't linked in the chat.
+- In town halls, attendees can't access the recording through the chat.
 - Webinars and town halls use video on demand (VOD) to publish recordings.
 
 To learn more about VOD, see [Manage VOD publishing for webinars and town halls](manage-vod-publishing.md).
