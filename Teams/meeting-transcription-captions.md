@@ -24,9 +24,9 @@ appliesto:
 
 # Configure transcription and captions for Teams meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, there's an option for meeting recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers of all abilities.
+In Microsoft Teams, there's an option for meeting, webinar, and town hall recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers of all abilities.
 
 > [!NOTE]
 > These settings also affects webinars.
@@ -63,7 +63,7 @@ For information on how your end users can use transcription, read [View live tra
 
 ## Live captions
 
-Teams can detect what’s said in a meeting and present real-time captions. And, if you've turned on the new meeting experience, your users' captions will include speaker attribution — so you'll see not only what's being said, but who's saying it and when.
+Teams can detect what’s said in a meeting, webinar, or town hall and present real-time captions. And, if you've turned on the new meeting experience, your users' captions will include speaker attribution — so you'll see not only what's being said, but who's saying it and when.
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on or turn off automatically generated live captions in meetings that the user attends. These captions will not be saved alongside the video file.
 
@@ -83,7 +83,7 @@ For information on how your meeting organizers can set up human-generated captio
 > [!NOTE]
 > This feature is temporarily available in public preview. After the preview, the meeting organizer must have a Teams Premium license for attendees to use live translated captions.
 
-By default, live captions are displayed in the language that’s spoken during a meeting. Live translated captions allow your users to see captions translated into the language they’re most comfortable with.
+By default, live captions are displayed in the language that’s spoken during a meeting, webinar, or town hall. Live translated captions allow your users to see captions translated into the language they’re most comfortable with.
 
 To enable **Live translated captions**, **Live captions** must be set to **Off, but organizers and co-organizers can turn them on** in the corresponding meeting policy in the Teams admin center. To turn off **Live translated captions**, set this to **Off**.
 
