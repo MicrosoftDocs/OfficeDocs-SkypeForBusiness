@@ -48,7 +48,7 @@ This article gives you an overview of working with team templates in the Teams a
 
 Most properties in a team are included and supported by team templates. But there are a few properties and features that aren't currently supported. Here's a summary of what's included and what's not included in team templates.
 
-| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
+| Team properties supported by team templates | Team properties not yet supported by team templates |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Template type | Team membership |
 | Team name | Team picture |
