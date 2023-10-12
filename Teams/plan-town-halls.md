@@ -74,7 +74,7 @@ When managing the event access type for town halls to decide whether organizers 
 
 - External attendees can only join a town hall if the organizer sets the event to public.
 - In town halls, guests are considered in-org.
-- Attendees who aren't in your org(including anonymous and external access users) can't join in-org town halls.
+- Attendees who aren't in your org (including anonymous and external access users) can't join in-org town halls.
 
 ## Premium town halls and live events
 
