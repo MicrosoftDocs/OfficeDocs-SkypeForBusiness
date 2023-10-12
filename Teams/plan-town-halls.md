@@ -110,8 +110,8 @@ There are two types of real time monitoring for town halls.
 1. **Real time monitoring of the presenter and organizer experience**<br>
 You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.<br>
 To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality.](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)
-1. **Real time monitoring of the attendee experience**<br>
- You can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.<br>
+1. **Real time monitoring of the attendee experience (Teams Premium)**<br>
+ With a Teams premium license, ou can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.<br>
 To learn more about real time monitoring of attendees, see [eCDN analytics.](/ecdn/technical-documentation/analytics)
 
 ### Call Quality Dashboard
@@ -125,6 +125,8 @@ To learn more about using CQD for town halls in your org, see [What is Call Qual
 With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
 
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
+
+For meeting organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
 
 ## Town hall control comparison
 
