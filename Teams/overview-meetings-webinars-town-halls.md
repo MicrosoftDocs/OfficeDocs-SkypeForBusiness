@@ -53,7 +53,7 @@ The following table shows the main features that are different between meetings,
 |Streaming|Above 1,000 participants|✖️|Automatic|
 |Registration|Optional|✔️|✖️|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|✖️|
-|Streaming participants|9,000 (Enterprise plans only)|✖️|Base: 10,000*<br> Premium: 20,000|
+|Streaming participants|9,000 (Enterprise plans only)|✖️|Town halls: 10,000*<br> Premium town halls: 20,000|
 |Maximum total participants|10,000* (Enterprise plans only)|1,000|10,000*|
 |Breakout rooms|✔️|✖️|✖️|
 
@@ -65,7 +65,7 @@ RTMP-In allows organizers to produce their Teams meetings and events directly fr
 
 Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key that they can use to start streaming from the encoder.
 
-RTMP is a Teams Premium feature for meetings and webinars, but is included in base town halls.
+RTMP is a Teams Premium feature for meetings and webinars, but is included in both tiers for town halls.
 
 For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
 
@@ -116,9 +116,9 @@ The following table lists meetings training available to the end users in your o
 
 Webinars are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of the base webinar features and premium webinar features are highlighted in the following table:
+In addition to the webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of the webinar and Premium webinar features are highlighted in the following table:
 
-|                                                       | Base webinar features | Premium webinar features |
+|                                                       | Webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
 |**Allow registered users to bypass the lobby**         |✔️                      |✔️                          |
 |**Assign a co-organizer**                              |✔️                      |✔️                          |
@@ -153,15 +153,6 @@ Town halls are generally best for situations where a limited number of presenter
 
 Town halls are streaming events, so attendees can't use their cameras and mics.
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
-
-#### Key training for end users
-
-The following table lists town halls training available to the end users in your organization:
-
-| Training | Description |
-|:----------|:--------|
-|||
-
 
 ## Best practices for large meetings
 

@@ -19,7 +19,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 ---
 # Manage Q&A in Teams Meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
 Q&A allows presenters to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings – like Town Halls, Webinars, All Hands, and trainings. This is a per-organizer setting.
 

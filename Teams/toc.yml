@@ -472,6 +472,8 @@ items:
           href: teams-analytics-and-reports/teams-reporting-reference.md
         - name: Teams usage report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-usage-activity?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Advanced Collaboration Analytics
+          href: advanced-collaboration-analytics.md
         - name: Teams user activity report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Teams app usage report
@@ -624,7 +626,7 @@ items:
           href: meeting-webinar-town-hall-feature-comparison.md
         - name: Presenter & organizer experience
           items: 
-            - name: Set up town halls
+            - name: Manage who can schedule town halls
               href: set-up-town-halls.md
             - name: Manage VOD publishing permissions for webinars and town halls 
               href: manage-vod-publishing.md
@@ -1377,7 +1379,7 @@ items:
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
             - name: Thailand
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: Turkey
+            - name: Türkiye
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
             - name: United Arab Emirates (UAE)
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
@@ -2135,7 +2137,7 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: Tunisia
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
-        - name: Turkey
+        - name: Türkiye
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
         - name: Turks and Caicos Islands
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
