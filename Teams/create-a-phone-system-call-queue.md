@@ -44,7 +44,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - July 17 - **No Agents Opted/Logged In** - this new call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.
-- May 01 - **Authorized users** - authorized users may now update Call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
+- May 01 - **Authorized users** - authorized users can update Call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
 
 ## Steps to create a Call queue
 
