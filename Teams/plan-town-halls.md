@@ -40,13 +40,17 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 
 There are four steps you must follow to ensure your network is set up to support town halls.
 
-1. **Ensure your teams environment is set up to connect to our services.**<br>
+1. **Ensure your teams environment is set up to connect to our services**<br>
 Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
-2. **Ensure your devices are optimized to connect to our services.**<br>
+2. **Ensure your devices are optimized to connect to our services**<br>
 As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-3. **Special considerations for events in VPN environments.**<br>
+3. **Understand special considerations for events in VPN environments**<br>
 If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
-4. **Optimize your Internal network via eCDN.**<br>
+4. **Plan for bandwidth considerations for town halls**<br>
+Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for organizers, co-organizers, presenters.<br><br>
+Each attendee stream consumes approximately 1.5 Mbps of bandwidth; attendee connectivity  utilizes HTTP. Physical locations that have a large/densely populated attendee profile should explore using an eCDN for optimizing bandwidth usage.
+
+5. **Optimize your Internal network via eCDN**<br>
 An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft  eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
@@ -76,14 +80,14 @@ When managing the event access type for town halls to decide whether organizers 
 
 ## Premium town halls and live events
 
-Teams live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features: 
+Live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
 |Broadcast capacity|10k|10k|20k|
 |Concurrent events|15|15|50|
 |Attendee reporting|✔️| ✔️|✔️|
-|eCDN|3rd and 1st party|3rd and 1st party|1st party|
+|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft only|
 |Duration|4 hours|30 hours|30 hours|
 |RTMP-in|✔️|✔️|✔️|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
