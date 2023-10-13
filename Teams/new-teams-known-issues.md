@@ -22,8 +22,9 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar is currently not available.
+- Annotations from the Presenter toolbar isn't currently available.
 - PowerPoint Live Standout isn't yet available.
+- Detecting multiple languages for spellchecker isn't currently available.
 
 ## Coming in October
 
