@@ -110,7 +110,7 @@ When whiteboard is enabled, users will have the option to use annotations, a fea
 
 Use the following to turn on/off collaborative annotations:
 
-```
+```powershell
 Set-SPOTenant -IsWBFluidEnabled
 ```
 
