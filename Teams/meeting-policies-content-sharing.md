@@ -106,7 +106,7 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 #### Annotations
 
-When whiteboard is enabled, users have the option to use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard isn't enabled, users won't have access to annotations.
+When whiteboard is enabled, users can use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard isn't enabled, users don't have access to annotations.
 
 Use the following to turn on/off collaborative annotations:
 
