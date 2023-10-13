@@ -218,7 +218,7 @@ To **add a group** to the queue:
 >
 > If you already have private channels assigned to Call queue they will continue to work. This problem only affects new assignments.
 >
-> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the second half of 2023 (July to November 2023).
+> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the first half of 2024 (January to June 2024).
 
 ### Conference mode
 
@@ -239,19 +239,18 @@ Once you've selected your call answering options, select the **Next** button at 
 >
 > Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 >
+> Conference mode isn't supported if the agents have a [Compliance recording](teams-recording-policy.md) policy assigned. 
+>
 > Conference mode is required if Teams users need to consult/transfer calls with Call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
->
-> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of Conference mode and Attendant routing isn't supported. If you need to use Conference mode, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use Attendant routing, set Conference mode to **Off**.
+
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
 ## Step 4: Select your agent routing options
 
 > [!NOTE]
-> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** isn't supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
->
 > When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
 >
 > When using **Longest idle**, there may be times when an agent receives a call from the queue shortly after becoming unavailable, or a short delay in receiving a call from the queue after becoming available.
@@ -432,7 +431,7 @@ The following settings are recommended:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 4. It's not possible to set the order the agents are presented with calls.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).<br>Conference mode isn't supported if the agents have a [Compliance recording](teams-recording-policy.md) policy assigned.
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
