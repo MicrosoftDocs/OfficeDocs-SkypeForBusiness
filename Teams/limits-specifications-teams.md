@@ -75,21 +75,21 @@ The following limitations also apply:
 
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
-- Bots, connectors, and message extensions are not supported.
+- Bots, connectors, and message extensions aren't supported.
 
-- Org-wide teams are not supported to be added as members of a shared channel.
+- Org-wide teams aren't supported to be added as members of a shared channel.
 
-- When you create a team from an existing team, any shared channels in the existing team won't be copied over.
+- When you create a team from an existing team, any shared channels in the existing team aren't copied over.
 
-- Notifications from shared channels are not included in missed activity emails.
+- Notifications from shared channels aren't included in missed activity emails.
 
-- Shared channels are not supported in class teams.
+- Shared channels aren't supported in class teams.
 
 ## Messaging
 
 ### Chat
 
-Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
+Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin can't search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 
 |Feature  | Maximum limit  |
@@ -101,7 +101,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. [See this article for more information](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members at a time can be added to a group chat. For more information, see [Error when sending messages to a group chat in Teams: Failed to send](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -149,7 +149,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](meeting-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording will end and automatically restart.
+| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.
 
 For more information, see [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events).  
   
@@ -172,31 +172,6 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 > [!NOTE]
 > Microsoft Teams meetings have a time limit of 30 hours.
 
-## Webinars
-  
-Webinars are a two-way interactive virtual event where the presenters deliver information to attendees. Webinars can be used to help build engagement and relationships, enable hybrid work, enable communication and collaboration with remote employees, and to inform, demonstrate, and teach.
-
-|Feature     | Maximum limit |
-|------------|---------------|
-|Audience size | Up to 1,000 attendees |
-|Duration of webinar | 30 hours |
-
-For more information about webinars, see [Plan for webinars](plan-webinars.md).
-
-## Town halls
-  
-Town halls provide a new one-to-many format to host and deliver large-scale, internal events to build connections. This event format allows organizers to create professionally produced experience and manage audience engagement to maximize participation and maintain focus on the event.  
-
-|Feature     | Maximum limit |
-|------------|---------------|
-|Audience size | Town halls: 10,000<br>Premium town halls: 20,000 |
-|Duration of town hall | 30 hours |
-|Concurrent town halls running in a Microsoft 365 or Office 365 organization <sup>1</sup> | Town halls: 15<br>Premium town halls: 50 |
-
-<sup>1</sup> You can schedule as many town halls as you want, but organizers with a Teams Premium subscription can run 50 at a time. Organizers without a Teams Premium subscription can run 15 at a time.
-
-For more information about town halls, see [Plan for town halls](plan-town-halls.md).
-
 ## Live Events
   
 > [!NOTE]
@@ -210,7 +185,7 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 4 hours |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>2</sup> | 50<sup>3</sup> |
 
-<sup>1</sup>  The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+<sup>1</sup>  The usual 10,000 is increased to 20,000 through December 31, 2023. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 <sup>2</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
@@ -240,9 +215,9 @@ Each team in Microsoft Teams has a team site in SharePoint Online, and each chan
 > [!NOTE]
 > Each [private channel](./private-channels.md) has its own SharePoint site (previously called "site collection").
 
-If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users cannot always share files in teams. Users in private chat also cannot share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
+If you don't have SharePoint Online enabled in your tenant, Microsoft Teams users can't always share files in teams. Users in private chat also can't share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
 
-By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
+By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level are followed. (For more, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).)
 
 Because Teams runs on a SharePoint Online backend for file sharing, SharePoint limitations apply to the Files section within a Team. Here are the applicable storage limits for SharePoint Online.
 
@@ -273,7 +248,7 @@ Limits for class teams are listed in the following table:
 |Number of members to use Assignments in a class team    | 300        |
 |Number of members to use a OneNote Class Notebook in a class team     |300         |
 
-A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you need to keep the number of members below the maximum limits above.
 
 ## Tags
 
