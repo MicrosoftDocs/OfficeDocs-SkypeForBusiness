@@ -97,7 +97,7 @@ Webinars are structured meetings where presenters and participants have clear ro
 
 Teams Premium offers additional webinar functionality through the Teams Premium subscription. The breakdown of features is  highlighted in the following table:
 
-|                                                       | Webinar features | Premium webinar features |
+|Feature name | Webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
 |Allow registered users to bypass the lobby         |✔️                      |✔️                          |
 |Assign a co-organizer                              |✔️                      |✔️                          |
