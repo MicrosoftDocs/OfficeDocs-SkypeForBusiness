@@ -265,7 +265,7 @@ Choose from these options:
 
 - **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent. This cycle repeats until the call is answered, times out, or the caller hangs up.
 
-- **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+- **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is *Available*. Agents who aren't available won't receive calls until they change their presence to *Available*.
 
