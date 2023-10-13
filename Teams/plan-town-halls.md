@@ -122,7 +122,7 @@ To learn more about real time monitoring of attendees, see [eCDN analytics.](/ec
 
 ### Call Quality Dashboard
 
-You can use the Call Quality Dashboard(CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
+You can use the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
 
 To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD).](CQD-what-is-call-quality-dashboard.md)
 
