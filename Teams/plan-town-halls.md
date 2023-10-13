@@ -47,7 +47,7 @@ As part of the network connectivity principles, ensure that the Microsoft 365 en
 3. **Understand special considerations for events in VPN environments**<br>
 If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
 4. **Plan for bandwidth considerations for town halls**<br>
-Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for organizers, co-organizers, presenters.<br>
+Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for your organizers, co-organizers, presenters.<br>
 Each attendee stream consumes approximately 1.5 Mbps of bandwidth; attendee connectivity  utilizes HTTP. Physical locations that have a large/densely populated attendee profile should explore using an eCDN to optimize bandwidth usage.
 
 5. **Optimize your Internal network via eCDN**<br>
