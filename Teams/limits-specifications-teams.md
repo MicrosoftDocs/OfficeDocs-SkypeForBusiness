@@ -172,31 +172,6 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 > [!NOTE]
 > Microsoft Teams meetings have a time limit of 30 hours.
 
-## Webinars
-  
-Webinars are a two-way interactive virtual event where the presenters deliver information to attendees. Webinars can be used to help build engagement and relationships, enable hybrid work, enable communication and collaboration with remote employees, and to inform, demonstrate, and teach.
-
-|Feature     | Maximum limit |
-|------------|---------------|
-|Audience size | Up to 1,000 attendees |
-|Duration of webinar | 30 hours |
-
-For more information about webinars, see [Plan for webinars](plan-webinars.md).
-
-## Town halls
-  
-Town halls provide a new one-to-many format to host and deliver large-scale, internal events to build connections. This event format allows organizers to create professionally produced experience and manage audience engagement to maximize participation and maintain focus on the event.  
-
-|Feature     | Maximum limit |
-|------------|---------------|
-|Audience size | Town halls: 10,000<br>Premium town halls: 20,000 |
-|Duration of town hall | 30 hours |
-|Concurrent town halls running in a Microsoft 365 or Office 365 organization <sup>1</sup> | Town halls: 15<br>Premium town halls: 50 |
-
-<sup>1</sup> You can schedule as many town halls as you want, but organizers with a Teams Premium subscription can run 50 at a time. Organizers without a Teams Premium subscription can run 15 at a time.
-
-For more information about town halls, see [Plan for town halls](plan-town-halls.md).
-
 ## Live Events
   
 > [!NOTE]
