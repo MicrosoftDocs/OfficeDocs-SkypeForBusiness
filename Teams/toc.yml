@@ -112,15 +112,15 @@ items:
                   href: teams-on-rdp.md
                 - name: Troubleshoot classic Teams installation and update issues
                   href: troubleshoot-installation.md
-                - name: Teams Reference
+                - name: Classic Teams Reference
                   items:
-                    - name: Hardware requirements
+                    - name: Classic Teams hardware requirements
                       href: hardware-requirements-for-the-teams-app.md
-                    - name: How Teams uses memory
+                    - name: How Classic Teams uses memory
                       href: teams-memory-usage-perf.md
-                    - name: Hardware decoder and encoder driver recommendations
+                    - name: Classic Teams hardware decoder and encoder driver recommendations
                       href: hardware-decoders-and-encoders.md
-                    - name: Teams firewall PowerShell script
+                    - name: Classic Teams firewall PowerShell script
                       href: client-firewall-script.md
     - name: Upgrade from Skype for Business
       items: 
