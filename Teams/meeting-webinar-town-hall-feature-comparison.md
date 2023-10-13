@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
-ms.date: 10/03/2023
+ms.date: 10/12/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -40,9 +40,10 @@ The following table shows which features are available in meetings, webinars, an
 |[Attendee mic and camera](https://products.support.services.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16#:~:text=To%20manage%20what%20attendees%20see%3A%201%20In%20Teams%2C,for%20attendees%3F%20and%20Allow%20camera%20for%20attendees%3F%20toggles.)|✔️|✔️|✖️|
 |[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|✔️|✖️|✖️|
 |[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|✔️|✔️|✖️|
-|[Channel meeting scheduling](https://support.microsoft.com/en-us/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
+|[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
@@ -63,12 +64,11 @@ The following table shows which features are available in meetings, webinars, an
 |[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|✔️|✔️|✔️|
 |[Recordings automatically expire](meeting-recording.md)|✔️|✔️|✔️|
 |[Registration](set-up-webinars.md)| Optional|✔️|✖️|
-|[RTMP-in](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
+|[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[Streaming](stream-teams-meetings.md)|Optional|✖️|Default|
-|[Streaming participants](view-only-meeting-experience.md)|10,000*|✖️|10,000* (town halls) <br> 20,000 (Premium town halls)|
-|[Theme](meeting-themes.md)|[Premium](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e)|[Premium](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10)|Premium|
+|[Streaming participants](view-only-meeting-experience.md)|10,000*|✖️|10,000 (town halls) <br> 20,000 (Premium town halls)|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|

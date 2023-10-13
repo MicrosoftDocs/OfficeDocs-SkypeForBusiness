@@ -1,5 +1,5 @@
 ---
-title: Manage Q&A in Teams Meetings
+title: Manage Q&A in Teams meetings, webinars, and town halls
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
@@ -15,9 +15,9 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A for a structured approach to gathering questions, organizing discussions, deleting individual messages, using available languages, and understanding the data lifecycle as well as data retention and deletion policies.
+description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A for Teams meetings, webinars, and town halls for a structured approach to gathering questions, organizing discussions, deleting individual messages, using available languages, and understanding the data lifecycle as well as data retention and deletion policies.
 ---
-# Manage Q&A in Teams Meetings
+# Manage Q&A in Teams meetings, webinars, and town halls
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
