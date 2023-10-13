@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 10/12/2023
+ms.date: 10/13/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -41,11 +41,11 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 There are four steps you must follow to ensure your network is set up to support town halls.
 
 1. **Ensure your teams environment is set up to connect to our services.**<br>
-Filler text description
+Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
 2. **Ensure your devices are optimized to connect to our services.**<br>
-Filler text description
+As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 3. **Special considerations for events in VPN environments.**<br>
-Filler text description
+If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
 4. **Optimize your Internal network via eCDN.**<br>
 An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft first-party eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
 
@@ -89,17 +89,17 @@ Teams live events will be deprecated on September 30, 2024. If you've been using
 |Duration|4 hours|30 hours|30 hours|
 |RTMP-in|✔️|✔️|✔️|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
-|Default audio and video off|✔️|10k|✔️|
+|Default audio and video off|✔️|✔️|✔️|
 |Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
 |Green room|✔️|✔️|✔️|
 |Live translated captions|✔️|6 languages|10 languages|
-|Manage what attendees see|✖️??|✔️|✔️|
+|Manage what attendees see|✖️|✔️|✔️|
 |External presenters|✔️|✖️|✖️|
 |AI generated captions|✔️|✔️|✔️|
 |DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|
 |VOD|✔️|✔️|✔️|
-|Organizer level real time monitoring|✖️??|✖️|✔️|
+|Microsoft town hall insights|✖️|✖️|✔️|
 |Essential emails|✖️|✔️|✔️|
 |Email editing|✖️|✖️|✔️|
 
@@ -161,4 +161,4 @@ Teams admins and organizers have different policies and settings to control the 
 
 ## Need help with your town hall?
 
-Whether you and your organizers new to hosting town halls or just need some extra help, the Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running town halls. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
+Are you and your organizers are new to hosting town halls or just need some extra help? The Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running town halls. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
