@@ -42,7 +42,7 @@ When a meeting is recorded:
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
-Town halls and webinars follow the same process for recording. However there are a few key differences:
+Town halls and webinars follow the same process for recording. However, there are a few key differences:
 
 - In town halls, attendees can't access the recording through the chat.
 - Webinars and town halls use video on demand (VOD) to publish recordings.
