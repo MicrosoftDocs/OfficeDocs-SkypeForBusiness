@@ -77,7 +77,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Descriptio
 In the next example, the tenant administrator wants to block all calls coming from the number 1 (412) 555-1234. To turn on the number pattern, the **Enabled** parameter is set to True.
 
 ```PowerShell
-New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
+New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+14125551234"
 ```
 
 Creating a new pattern adds the pattern as enabled by default. The description is an optional field to provide more information.
