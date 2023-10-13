@@ -36,7 +36,7 @@ Webinars are enabled by default. If you'd like to disable or manage webinars for
 
 ## Understand your policies
 
-A combination of admin meeting and event policies with organizer and attendee settings manage webinars.
+A combination of admin meeting and event policies with organizer and attendee settings to manage webinars.
 
 If you'd like to get familiar with how policies work for Teams meetings and events, see [Manage meeting and event policies in Microsoft Teams](meeting-policies-overview.md).
 
@@ -88,7 +88,7 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](teams-analytics-and-reports/meeting-attendance-report.md) |Can enforce on or off or allow the organizer to choose.|Can turn on or off if allowed by admin.|
+|[Attendance reports](teams-analytics-and-reports/meeting-attendance-report.md) |Can turn on or off, or allow the organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers, and attendees can read and write chat messages.|Can manage whether chat is available for their webinars.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
@@ -111,4 +111,4 @@ Teams admins and organizers have different policies and settings to control the 
 
 ## Need help with your webinar?
 
-Whether you and your organizers new to hosting webinars or just need some extra help, the Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running webinars. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
+Are you and your organizers new to hosting webinars or just need some extra help? The Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running webinars. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
