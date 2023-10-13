@@ -49,7 +49,7 @@ This is a per-user policy. This setting controls whether audio can be turned on 
 |**Outgoing and incoming audio enabled**|Outgoing and incoming audio is allowed in the meeting. This is the default setting.|
 |**Not enabled**|Outgoing and incoming audio is turned off in the meeting.|
 
-If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting isn't enabled, the user has to dial in to the meeting.
+If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they must dial in or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting isn't enabled, the user has to dial in to the meeting.
 
 This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting. This setting also doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
