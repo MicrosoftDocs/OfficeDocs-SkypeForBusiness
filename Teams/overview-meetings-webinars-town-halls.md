@@ -1,7 +1,7 @@
 ---
 title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
-ms.date: 10/09/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -63,7 +63,7 @@ For more information on limits and specifications for Teams webinars, meetings, 
 
 ## Manage who can create meetings, webinars, and town halls
 
-You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all of your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
+You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
 
 For details, see:
 
@@ -99,19 +99,19 @@ Teams Premium offers additional webinar functionality through the Teams Premium 
 
 |                                                       | Webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
-|**Allow registered users to bypass the lobby**         |✔️                      |✔️                          |
-|**Assign a co-organizer**                              |✔️                      |✔️                          |
-|**Limit the number of people who can register**        |✔️                      |✔️                         |
-|**Require attendees to register**                      |✔️                      |✔️                          |
-|**Set up a green room for webinar presenters**                      |✔️                     |✔️                          |
-|**Turn on Q&A for webinars with up to 1,000 attendees** |✔️                      |✔️                          |
-|**View attendance reports**                            |✔️                      |✔️                          |
-|**Create a webinar wait list**                         |                       |✔️                          |
-|**Limit the day and time when people can register**    |                       |✔️                         |
-|**Manage attendees’ view**                             |                       |✔️                          |
-|**Manually approve registrants**                       |                       |✔️                          |
-|**Send reminder emails to registrants**                |                       |✔️                          |
-|**Use RTMP-In for webinars**                           |                       |✔️                         |
+|Allow registered users to bypass the lobby         |✔️                      |✔️                          |
+|Assign a co-organizer                              |✔️                      |✔️                          |
+|Limit the number of people who can register        |✔️                      |✔️                         |
+|Require attendees to register                      |✔️                      |✔️                          |
+|Set up a green room for webinar presenters                      |✔️                     |✔️                          |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️                      |✔️                          |
+|View attendance reports                            |✔️                      |✔️                          |
+|Create a webinar wait list                         |                       |✔️                          |
+|Limit the day and time when people can register    |                       |✔️                         |
+|Manage attendees’ view                             |                       |✔️                          |
+|Manually approve registrants                       |                       |✔️                          |
+|Send reminder emails to registrants                |                       |✔️                          |
+|Use RTMP-In for webinars                           |                       |✔️                         |
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
@@ -128,14 +128,13 @@ The following table lists webinars training available to the end users in your o
 
 ## Town halls
 
-Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed.
+Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event format, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
 
-Town halls are streaming events, so attendees can't use their cameras and mics.
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
 Teams Premium offers additional town hall functionality through the Teams Premium subscription. The breakdown of features is  highlighted in the following table:
 
-|Capability|Town halls|Advanced town halls|
+|Capability|Town halls|Premium town halls|
 |:------|:-----|:---------|
 |Broadcast capacity|10k|20k|
 |Attendee reporting|Yes|Yes|
@@ -166,7 +165,6 @@ To run a successful event, follow the practices outlined below:
 - Use [real-time data telemetry](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) to monitor the event and identify any possible issues and its source.
   - Designate meeting monitors to [analyze](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) telemetry for users facing poor experience caused by metrics exceeding thresholds.
   - Set meeting monitors as presenters to disable rogue video streams, mute accidental live mics, and remove attendees if needed.
-
 
 ## Related topics
 
