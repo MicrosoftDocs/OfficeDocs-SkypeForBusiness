@@ -12,7 +12,6 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - m365-frontline
   - tier2
   - highpri
 description: Learn about the team templates that are available only with Microsoft Graph. 
@@ -37,14 +36,14 @@ With Microsoft Graph, you can [create your own templates](/graph/api/resources/t
 
 This article is for you if you're:
 
-- Responsible for planning, deploying, and managing multiple teams across your organization<br>
+- Responsible for planning, deploying, and managing multiple teams across your organization
 - A developer wanting to programmatically create a team with predefined channels and apps
 
 ## Team template capabilities
 
 Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. Here's a quick summary of what's included and what's not included in team templates.
 
-| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
+| Team properties supported by team templates | Team properties not yet supported by team templates |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Template type | Team membership |
 | Team name | Team picture |
