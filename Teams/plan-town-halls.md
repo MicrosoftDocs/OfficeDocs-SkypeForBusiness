@@ -55,8 +55,6 @@ An Enterprise Content Delivery Network (eCDN) takes the video content from the i
 
 For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
 
-For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
-
 > [!NOTE]
 > The Microsoft first-party eCDN solution is the default and only option for Teams Premium users using town halls.
 
@@ -125,6 +123,8 @@ To learn more about real time monitoring of attendees, see [eCDN analytics.](/ec
 You can use the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
 
 To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD).](CQD-what-is-call-quality-dashboard.md)
+
+For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### Town hall insights for organizers
 
