@@ -547,12 +547,14 @@ items:
           - name: Create people manager teams
             href: create-manager-directs-teams.md
            
-      - name: Managing teams
+      - name: Manage teams
         items:
           - name: Manage teams and policies
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
