@@ -47,7 +47,7 @@ As part of the network connectivity principles, ensure that the Microsoft 365 en
 3. **Special considerations for events in VPN environments.**<br>
 If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
 4. **Optimize your Internal network via eCDN.**<br>
-An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft first-party eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft first-party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
+An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft first party eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft first party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
@@ -132,7 +132,7 @@ With a Teams Premium license, during a town hall, organizers and co-organizers c
 
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
 
-For town hall organizers that don't have a Teams Premium license, they can check to see if their third party providers offer insights during town halls.
+For town hall organizers that don't have a Teams Premium license, they can check to see if their third-party providers offer insights during town halls.
 
 ## Town hall control comparison
 
@@ -157,7 +157,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes amongst other during town halls. |Can use shared notes with co-organizers during town halls |
 |[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can us speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
-|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are available at this time. |
+|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
 
 ## Need help with your town hall?
 
