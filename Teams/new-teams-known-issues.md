@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/12/2023
+ms.date: 10/13/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,8 +22,9 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar is currently not available.
+- Annotations from the Presenter toolbar isn't currently available.
 - PowerPoint Live Standout isn't yet available.
+- Detecting multiple languages for spellchecker isn't currently available.
 
 ## Coming in October
 
