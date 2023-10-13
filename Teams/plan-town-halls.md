@@ -47,7 +47,7 @@ As part of the network connectivity principles, ensure that the Microsoft 365 en
 3. **Special considerations for events in VPN environments.**<br>
 If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
 4. **Optimize your Internal network via eCDN.**<br>
-An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft first party eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft first party eCDN solution or, alternatively, one of the following certified eCDN partners to optimize your network for town halls held within your organization:
+An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft  eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partners solutions to optimize your network for town halls held within your organization:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
@@ -56,7 +56,7 @@ An Enterprise Content Delivery Network (eCDN) takes the video content from the i
 For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
 
 > [!NOTE]
-> The Microsoft first-party eCDN solution is the default and only option for Teams Premium users using town halls.
+> The Microsoft eCDN is required for Teams Premium users and is used automatically.
 
 ## Understand your policies
 
@@ -132,7 +132,7 @@ With a Teams Premium license, during a town hall, organizers and co-organizers c
 
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
 
-For town hall organizers that don't have a Teams Premium license, they can check to see if their third-party providers offer insights during town halls.
+For town hall organizers that don't have a Teams Premium license, you can check to see if your eCDN provider offers insights during town halls.
 
 ## Town hall control comparison
 
