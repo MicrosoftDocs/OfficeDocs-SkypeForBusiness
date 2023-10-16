@@ -44,9 +44,6 @@ The transcription is [stored together with the meeting recordings in OneDrive an
 > [!NOTE]
 > Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam).
 
-> [!NOTE]
-> Meeting transcription is not yet available in GCC.
-
 ### Use the Teams admin center to turn on or turn off transcription
 
 In the Teams admin center, you can turn on or turn off the **Transcription** setting within a meeting policy located under **Meetings** > **Meeting policies**. This setting is off by default.
