@@ -177,8 +177,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 The following devices are certified under the Microsoft Teams Rooms peripherals program:
 
-| Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial Audio |
-|:-|:-|:-|:-|:-|
+| Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial audio | Intelligent speaker |
+|:-|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
 | [Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97 |  |  |
@@ -212,7 +212,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
 | [Huddly S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
 | [Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
-| [Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 4.0.15 | &#x2714; | &#x2714; |
+| [Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
 | [Jabra Speak2 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
