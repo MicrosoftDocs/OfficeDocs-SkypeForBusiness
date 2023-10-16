@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams apps permissions and considerations
+title: Teams apps permissions and consent
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -13,9 +13,9 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.reviewer: tolgaki
-ms.date: 08/22/2023
-description: Learn what permissions Teams apps request to access data in your organization.
+ms.reviewer: mhayrapetyan
+ms.date: 10/17/2023
+description: Understand permissions and manage consent for Teams apps to access the required org information.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,16 +24,14 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Understand the permissions of and the information accessed by Teams apps
+# Understand Teams app permissions and grant consent
 
 Depending on their functionality, Teams apps may or may not access your user's or organization's information.
 
-* Some apps that don't seek access to internal data, don't require admin approval. Users can use such apps without admin approval or consent as these apps can't get any internal data.
-* Apps that require permissions on your organization's information can't be used unless an admin permits it. Admins can grant their consent to the permissions required by the app in Teams admin center. You must do your diligence to evaluate apps based on the access an app needs on your organization's information and the reason an app needs it.
+* Apps that don't seek access to organization's data, don't require an approval or consent. Users can use such apps without admin approval or consent as these apps can't get any internal data.
+* Apps that require access to your organization's or user's information can't be used unless a user or an admin permits it. Users may be allowed to grant consent based on admin configuration. You must do your diligence to evaluate apps based on the access it needs on your organization's information and the reason why it needs the access. You can also revoke consent that you've granted to some permissions of an app.
 
-Apps can access organization's information, perform some tasks, and engage with users. To help you understand what apps can do, a compilation of this information is available in [what can apps do in Teams](#what-can-apps-do-in-teams). An app can only access the information that it has been granted access to. Users or you provide consent for apps to have access to information in your organization. You can also revoke the consent granted to an app.
-
-An application can access organization's information in the following two ways that leads to two types of permissions:
+A compilation of [what can apps do in Teams](#what-can-apps-do-in-teams) helps you understand the correlation between app functionality, app permissions, and impact of granting consent to those permissions. An application can access organization's information in the following two ways that leads to two types of permissions:
 
 * **Delegated access**: An application accesses the resource on behalf of the user. This access requires delegated permissions. The application can access only the information that the user can access themselves.
 * **App-only access**: An application acts on its own with no user signed in, when it's undesirable to have a specific user signed in or when the data required can't be scoped to a single user. This access required applications permissions. An application if granted consent is able to access data that the permission is associated with.
@@ -78,6 +76,83 @@ In Teams admin center, you can view Graph permission that an app requests if dep
    :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
 
 A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
+
+
+
+
+
+
+
+
+## Grant org-wide admin consent to app permissions
+
+
+
+Admins (Global Administrator and Cloud Administrator) can configure their organization to let users grant consent to specific permissions that any app may require.
+
+ org-wide admin consent to apps that request permissions to access data and view resource-specific consent (RSC) permissions for apps.
+
+If you're a Global Administrator, you can review app permissions and grant consent to those on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's [consent settings](/azure/active-directory/manage-apps/configure-user-consent) in Azure Active Directory (Azure AD), some users may not be allowed to grant consent to apps that access company data.
+
+Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
+
+The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. The link isn't available for apps provided by Microsoft. Also, admins don't have to grant consent for such apps.
+
+To grant org-wide consent to an app, follow these steps:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. Do one of the following:
+    * Search for the app you want, select the app name to go to the app details page, and then select the **Permissions** tab.
+    * Sort the **Permissions** column in descending order to find the app, and then select **View details**. Doing this takes you to the **Permissions** tab of the app details page.
+
+1. Under **Org-wide permissions**, select **Review permissions and consent**.
+
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app.":::
+
+    You must be a global admin to do this. This option isn't available to Teams service admins.
+
+1. On the **Permissions** tab, review the permissions requested by the app.
+
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
+
+    > [!IMPORTANT]
+    > Granting org-wide consent to an app allows the app to access your organization's data. Carefully review the permissions requested by the app before you grant consent.
+
+1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
+
+After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, select the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
+
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot of message displayed when consent granted.":::
+
+If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll also see the same message to let you know that consent was granted and the Azure Active Directory link to the app's page in the Azure AD portal.
+
+> [!NOTE]
+> Although, the **Review permissions and consent** option isn't available to Teams service admins and they can't grant org-wide admin consent to apps, Teams service admins can view the content on the **Permissions** tab for an app. For example, a Teams service admin can click the **Azure Active Directory** link to view app permissions details in the Azure AD portal.
+
+## View resource-specific consent permissions of an app
+
+RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+
+RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+
+Global admins and Teams service admin can view RSC permissions for an app on the **Permissions** tab of the app details page.
+
+To view RSC permissions for an app, follow these steps:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. Search for the app you want, select the app name to go to the app details page, and then select the **Permissions** tab.
+1. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
+
+    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
+
+
+
+
+
+
+
+
 
 ## What can apps do in Teams
 

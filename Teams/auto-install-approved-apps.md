@@ -45,7 +45,7 @@ The feature respects the app governance controls and installs apps only if admin
 
 ### Ensure users can consent or grant admin consent to Azure AD permissions of an app
 
-Some apps require access to the relevant information about your users and organization. Accessing this information requires users to grant their consent and/or admins to consent on behalf of their users. Admins can grant consent on behalf of the users as well. To use the Auto install approved apps feature, we recommend that you understand the required Azure AD permission and [grant consent as a Global Administrator](app-permissions-admin-center.md). Each user isn't prompted for consent if admins do so.
+Some apps require access to the relevant information about your users and organization. Accessing this information requires users to grant their consent and/or admins to consent on behalf of their users. Admins can grant consent on behalf of the users as well. To use the Auto install approved apps feature, we recommend that you understand the required Azure AD permission and [grant consent as a Global Administrator](app-permissions.md). Each user isn't prompted for consent if admins do so.
 
 Alternately, you can let the individual users provide the consent themselves. By default, users can provide their consent for apps. Ensure that the [user consent setting in Azure AD portal](/azure/active-directory/manage-apps/configure-user-consent?tabs=azure-portal&pivots=portal) permits it.
 
