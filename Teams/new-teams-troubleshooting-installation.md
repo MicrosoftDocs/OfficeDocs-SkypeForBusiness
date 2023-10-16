@@ -65,8 +65,8 @@ There are a few policies that could alter these registry keys and block app inst
 </br>
 
 >[!Note]
->Admins bulk deploying the new Teams to their organizations computers, see: 
->[**Bulk upgrade to the new Microsoft Teams client**](new-teams-bulk-install-client.md)
+>Admins who are bulk deploying the new Teams to their organizations computers, refer to this article for full instructions:</br>
+>- [**Bulk upgrade to the new Microsoft Teams client**](new-teams-bulk-install-client.md)
 
 ## Troubleshooting the App switcher toggle
 
