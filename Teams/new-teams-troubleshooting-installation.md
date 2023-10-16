@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Policy settings restricting download & install
 
-If your users are experiencing issues installing the app, as an administrator you may have set some restrictions preventing them from downloading and installing it. They may see this error: 
+If your users are experiencing issues installing the app, as an administrator you can set some restrictions preventing them from downloading and installing it. They could see this error: 
 
 :::image type="content" source="media/new-teams-troubleshooting-org-policies.png" alt-text="error when policies restrict install":::
 
@@ -43,7 +43,7 @@ These registry keys can be found at one of these locations:
   - Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx
 
 </br>
-There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that may be preventing installation include:
+There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that could be preventing installation include:
 
 - Prevent non-admins users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
@@ -72,7 +72,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams
-- After you successfully switch to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by going to Start menu and searching for it or by clicking on it from the task bar. 
+- After you successfully switch to new Teams: If you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), start the version you want by going to Start menu and searching for it or by clicking on it from the task bar.
 
 
 ## Policies that could block the user from seeing the App switcher toggle
@@ -106,7 +106,7 @@ The following list of policies can block users from seeing the app switcher togg
 |SPECIALCLOUD| You're signed in to a special cloud that isn’t supported.|
 |CROSSCLOUD| You're signed in to a government cloud.| 
 |VDI|You're signed in to a VDI machine (VMware, Citrix, AVD/WV).|
-|SIGNINRESTRICTED|You're signed in to the specified tenant but the App switcher toggle does not appear.|
+|SIGNINRESTRICTED|You're signed in to the specified tenant but the App switcher toggle doesn't appear.|
 
 
 ### Update and restart message in title bar
@@ -114,9 +114,9 @@ The following list of policies can block users from seeing the app switcher togg
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
 Action: This is expected behavior. Select the link to restart.
 
-### Windows 10 users may receive an error message
+### Windows 10 users can receive an error message
 
-Issue: Windows 10 users may receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
+Issue: Windows 10 users could receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
 Action: [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
 ### Some people don't see the toggle to opt in
