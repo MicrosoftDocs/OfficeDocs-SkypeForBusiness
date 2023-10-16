@@ -12,12 +12,12 @@ ms.collection:
   - highpri
   - Tier1
 ms.reviewer: roykuntz
-ms.date: 03/06/2023
+ms.date: 10/16/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency calling feature.
+description: Learn how to configure the Teams Phone dynamic emergency calling feature.
 ms.custom: seo-marvel-mar2020
 appliesto: 
 - Microsoft Teams
