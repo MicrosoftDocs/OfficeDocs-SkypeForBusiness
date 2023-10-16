@@ -1,9 +1,9 @@
 ---
 title: "Shared Calling scenario"
 ms.reviewer: jenstr
-ms.date: 10/16/2023
-author: mkbond007
-ms.author: mabond
+ms.date: 09/20/2023
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
