@@ -64,6 +64,10 @@ There are a few policies that could alter these registry keys and block app inst
 
 </br>
 
+>[!Note]
+>Admins bulk deploying the new Teams to their organizations computers, see: 
+>[**Bulk upgrade to the new Microsoft Teams client**](new-teams-bulk-install-client.md)
+
 ## Troubleshooting the App switcher toggle
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
