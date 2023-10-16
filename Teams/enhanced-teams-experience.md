@@ -108,7 +108,15 @@ Teams Premium provides the following features for an enhanced town hall experien
   - Italian (it-it)
   - Korean (ko-kr)
   - Russian (ru-ru)
-- **Real time monitoring** - Troubleshoot town halls while they're live.
+- **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
+- **Real time monitoring of the attendee experience** - Admins can use the analytics dashboard to troubleshoot the attendee experience during live town halls.
+
+| Feature/Task | Documentation for administrators | Documentation for your end users
+| -------------------- | ----------- | ----------- |
+| Custom emails | [Manage email communications](manage-email-communications.md) |[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_town_hall_invites) |
+| Town hall insights | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
+| Live translated captions | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
+| Real time monitoring of the attendee experience | [Analytics](/ecdn/technical-documentation/analytics)|No end user control |
 
 ### Webinars
 
@@ -124,12 +132,12 @@ Teams Premium provides the following features for an enhanced webinar experience
 
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ----------- |
-| Custom emails | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
-| RTMP-in | [Manage RTMP-in for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/en-us/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
-| Manage what attendees see | No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/en-us/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
-| Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
-| Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
-| Limit registration start and end times|No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Custom emails | [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
+| RTMP-in | [Manage RTMP-in for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+| Manage what attendees see | No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Limit registration start and end times|No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 
 ## Advanced Virtual Appointments
 

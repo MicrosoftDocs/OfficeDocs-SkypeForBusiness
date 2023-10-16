@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/05/2023
+ms.date: 10/13/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -23,6 +23,9 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
+>[!Note]
+>VDI for new Teams is currently in public preview and subject to change. Check back for updates.
+
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
 
 ## Requirements
@@ -31,10 +34,12 @@ For new Teams to be successfully installed, virtual machines must meet the minim
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) coming soon </br>-Windows Server 2022 (10.0.20348) coming soon</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment| 
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) coming soon </br>-Windows Server 2022 (10.0.20348) coming soon</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
+|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly.  Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
 
 ## Virtualization provider requirements 
 
@@ -105,7 +110,7 @@ In addition, you must deploy the following registry key on the VDA for the new T
 - Key (REG_Multi_SZ): ProcessWhitelist 
 - Value: msedgewebview2.exe  
 
-If this registry key is missing, the new Teams client will function in nonoptimized mode (server-side rendering). 
+If this registry key is missing, the new Teams client functions in nonoptimized mode (server-side rendering). 
 
 >[!Note]
 >Citrix Virtual Apps (also known as published apps) is currently not supported.
@@ -124,7 +129,7 @@ To learn more on the latest requirements and instructions, including how to conf
  
 ## Deploy the new Microsoft Teams client 
 
-To rollout the new Microsoft Teams client to your organization, you can either: 
+To roll out the new Microsoft Teams client to your organization, you can either: 
 
 **Option 1: Uninstall the classic Teams client and install the new one**. Recommended. 
  The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
@@ -138,7 +143,7 @@ You can control who sees the toggle by configuring the Teams Admin Center policy
 If the toggle is being used for the new Teams client rollout, Admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-IT administrators may have set restrictions for MSIX or deploy GPOs that may prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
@@ -155,12 +160,11 @@ The classic Teams client and the new Teams client have different install locatio
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
 
 
-
 ### Profile and Cache location for new Teams Client 
 
 All the user settings and configurations are now stored in: 
  
-- C:\<user>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\Teams 
+- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
 
 Make sure this folder is persisted for proper Teams functioning. 
 
@@ -176,7 +180,6 @@ Make sure this folder is persisted for proper Teams functioning.
 - “Record video clip” doesn't capture screen share 
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
 
- 
 ## Enhancements in new Teams 
 
 Issues from classic Teams are now fixed in new Teams:
@@ -187,7 +190,7 @@ Issues from classic Teams are now fixed in new Teams:
 
 ## VDI Feature comparison between classic Teams and new Teams
 
-All the multimedia features that work on the classic Teams client are expected to work in the new Teams client. For specific feature matrix, please check your VDI Provider website.
+All the multimedia features that work on the classic Teams client are expected to work in the new Teams client. For specific feature matrix, check your VDI Provider website.
  
 |Provider|Details|
 |:-----|:-----|
@@ -197,7 +200,7 @@ All the multimedia features that work on the classic Teams client are expected t
 
 ## Features not supported in VDI 
 
-The following features are not supported in either classic Teams or new Teams.
+The following features aren't supported in either classic Teams or new Teams.
 
 - QoS
 - 1080p
