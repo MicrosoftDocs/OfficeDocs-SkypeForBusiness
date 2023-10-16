@@ -168,13 +168,13 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
-2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
+2. In the **Domain name** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
 
-3. Select **Next**.
+3. Select **Use this domain**.
 
-4. The FQDN has never been registered in the tenant. In the next step, you'll need to verify the domain. Select **Add a TXT record instead**. 
+4. The FQDN has never been registered in the tenant. In the next step, you'll need to verify the domain. Select **Add a TXT record to the domain's DNS records**. 
 
-5. Select **Next**, and note the TXT value generated to verify the domain name.
+5. Select **Continue**, and note the TXT value generated to verify the domain name.
 
     ![Screenshot of text records on the Verify domain page.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
@@ -184,13 +184,13 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 7. Go to the customer's Microsoft 365 admin center and select **Verify**. 
 
-8. On the next page, select **I'll add the DNS records myself** and select **Next**.
+8. On the next page, select **Add your own DNS records** and select **Continue**.
 
-9. On the **Choose your online services** page, clear all options and select **Next**.
+9. On the **Choose your online services** page, clear all options and select **Continue**.
 
-10. Select **Finish** on the **Update DNS settings** page.
+10. Select **Done** on the **Domain setup is complete** page.
 
-11. Ensure that the status is **Setup complete**.
+11. Ensure that the status is **Healthy**.
 
     ![Screenshot of page showing status of Setup complete.](media/direct-routing-12-sbc-setup-complete.png)
 
