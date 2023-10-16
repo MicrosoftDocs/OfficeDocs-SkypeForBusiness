@@ -1,10 +1,10 @@
 ---
-title: Configure call settings for users
+title: Configure call forwarding and delegation settings for users
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
-ms.date: 01/28/2022
+ms.date: 10/12/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 ms.localizationpriority: medium
