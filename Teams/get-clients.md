@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -10,17 +10,17 @@ ms.collection:
   - M365-collaboration
   - m365initiative-deployteams
 ms.reviewer: rafarhi
-ms.date: 08/11/2017
+ms.date: 10/13/2023
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
+description: Learn how to install the various clients available for classic Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
 - CSH
 appliesto: 
   - Microsoft Teams
 ---
 
-# Get clients for Microsoft Teams
+# Get clients for classic Microsoft Teams
 
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
@@ -36,10 +36,10 @@ For information about each client's capabilities on different platforms, see [Te
 
 ## Desktop clients
 
->[!Note]
->The new Microsoft Teams desktop client is available in preview. The minimum system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+>[!Important]
+>The new Microsoft Teams desktop client is now available. The system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
 
-The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
+The classic Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
 - 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC) 
 - ARM64 for Windows 10 on ARM 
