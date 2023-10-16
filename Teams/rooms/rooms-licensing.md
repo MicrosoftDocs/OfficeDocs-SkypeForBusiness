@@ -69,11 +69,11 @@ The following table shows the services included in each Teams Rooms license.
 | **Segment availability**                  | Commercial, Worldwide Public Sector, Education, Charity, GCC         | Commercial, Worldwide Public Sector, Education, Charity, GCC, GCC-High |
 | **Channel availability**                  | Web Direct, New commerce experience (NCE) - Customer led<sup>4</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Customer led, NCE - Partner led   |
 
-<sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing. C[onference Phones with Meeting Interface](/microsoftteams/devices/teams-android-devices-user-interface) requires Microsoft Teams Rooms Pro License.
+<sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing. [Conference Phones with Meeting Interface](/microsoftteams/devices/teams-android-devices-user-interface) requires Microsoft Teams Rooms Pro License.
 
 <sup>2</sup> Microsoft Intune Plan 1 and Plan 2.
 
-<sup>3</sup> Included to enable certain legacy authentication methods. Effective October 1, 2023 Teams Rooms will no longer support connections to the Skype for Business server.
+<sup>3</sup> Included to enable certain legacy authentication methods. Effective October 1, 2023 Microsoft Teams Rooms will no longer support connections to Skype for Business server.
 
 <sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
 
