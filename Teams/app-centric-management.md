@@ -27,31 +27,31 @@ ms.custom: seo-marvel-apr2020
 
 # Use app centric management to govern apps
 
-The new app centric management feature let admins define who in the tenant can install Teams apps, with the granularity of users and groups. This feature evolves the existing app permission policies and org-wide app settings for third-party apps. It provides admins with the ability to manage access to the app individually. The app permission policies for existing customers are migrated to maintain existing app availability in the tenant.
+The new app centric management feature let admins specify the users and group in their organization who can add Teams apps. This feature evolves the existing app permission policies and Org-wide app settings for third-party apps. Admins can now manage access to the apps individually without using policies. The existing app permission policies in an organization are migrated to maintain the existing app access in the organization.
 
 ## What changes with this feature
 
-Currently, three settings determine the ability of a user to add an app. These settings are app permission policy applied to a user, allow or block settings for an app, and an org-wide setting for third-party apps for the tenant. App centric management feature simplifies these settings by having each app define who can use the app. When defining app assignments, admins have the following three options to choose from:
+Currently, three settings determine the ability of a user to add an app. These settings are app permission policy applied to a user, allow or block settings for an app, and an org-wide setting for third-party apps for the org. App centric management feature simplifies these settings by having each app define who can use the app. When you define app assignments, you have the following three options to choose from:
 
-* **Everyone in the organization**: Anyone in the tenant can add and use the app.
+* **Everyone in the organization**: Anyone in your org can add and use the app.
 * **Specific users or groups**: Only the selected users and groups can use the app. The supported group types are Security, Microsoft 365, Dynamic, and Distributed Lists (DLs).
 * **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
 
-The default value of app assignment is Everyone in the organization. Admins can change the default value to no one. During private preview, this is achieved by modifying the org-wide setting for new third-party apps and will apply to Microsoft and custom apps. This means that if the setting for new third-party apps is checked, new Microsoft, custom and third-party apps will continue to enter the catalog with `everyone` assignment type; if it is unchecked, the new apps will enter the catalog with “no one” assignment type.
+The default value of app assignment is **Everyone in the organization** in the organization. Admins can change the default value to **No one**. It's achieved by modifying the Org-wide app settings for new third-party apps and applies to Microsoft and custom apps too. It means that if the setting for new third-party apps is checked, new Microsoft, custom and third-party apps have **Everyone in the organization** assignment type. If the option is unchecked, the new apps enter the catalog with **No one** assignment type.
 
 ## Onboard to the new app management feature with four easy steps
 
-When you participate in the private preview program, you must migrate your tenant from policy-based management to App centric management. Admin center provides a step-by-step migration and a method to check your migration information.
+To migrate your org from policy-based management to App centric management, Teams admin center provides a step-by-step migration dialog-based UI. We also include a method to verify your migration information before you finalize the change.
 
-Before you get onboard to use this feature, consider the following:
+Before you get onboard to use this feature, understand the following considerations:
 
 * Before proceeding with the migration, determine which apps must be assigned to which groups or users.
-* During migration, you cannot change org-wide app settings or existing policies. To make any changes to the existing policies or settings during migration, you can stop the migration process and reset the migration.
+* During migration, you can't change org-wide app settings or existing policies. To make any changes to the existing policies or settings during migration, you can stop the migration process and reset the migration.
 * During the preview program, app assignments have an upper limit of 2000 assignments for each app. Users and groups are both counted towards this limit.
-* Migration can take up to 72 hours to complete. During the migration, access to apps for users is governed by the existing permission policies and tenant settings.
+* Migration can take up to 72 hours to complete. During the migration, the existing permission policies and org settings govern the access to apps.
 * App assignment changes become effective within 72 hours.
 
-Once your tenant is enabled for app centric management feature, the Manage apps page displays a welcome message and a prompt to migrate.
+Once your organization is enabled for app centric management feature, the Manage apps page displays a welcome message and an option to migrate.
 
 The migration process uses a dialog-based UI that guides you through the following steps:
 
@@ -82,7 +82,7 @@ The **Global (Org-wide default) policy** is always migrated. An unused permissio
 
 ### Step2: Assign and block apps
 
-Based on the policies you select to migrate and based on your org-wide app settings, three tabs of apps are populated in this step.
+Based on the policies, you select to migrate and based on your org-wide app settings, three tabs of apps are populated in this step.
 
 * **Allowed org-wide**: List of apps that are allowed for everyone in your organization.
 * **Allowed for users and groups**: List of apps based on the differences between the selected policies. To move to the next step, you must manually provide the assignments to the apps displayed under this tab.
@@ -90,7 +90,7 @@ Based on the policies you select to migrate and based on your org-wide app setti
 
 :::image type="content" source="media/assign-block-apps.png" alt-text="Screenshot showing the three tabs available for app assignments to everyone, to some users and group, or to no one.":::
 
-To proceed, make assignments for the list of presented apps. You can’t do bulk assignments for apps in the private preview program.
+To proceed, make assignments for the list of presented apps. You can’t do bulk assignments for apps.
 
 #### Allow everyone to use an app
 
@@ -106,7 +106,7 @@ To assign an app to everyone, follow these steps:
 
 #### Assign an app to users and groups
 
-You can assign an app to some users and groups. To assign, follow the steps below.
+You can assign an app to some users and groups. To assign, follow these steps:
 
 1. Search and select an app from one of tabs and select **Manage access**. To filter apps before searching, consider using the filter option.
 
@@ -133,7 +133,7 @@ To block an app for all your users, follow these steps:
 
 #### Reset the migration
 
-During the migration, you can do either of the following:
+During the migration, you can choose either of the following options:
 
 * Select **Close** to leave the dialog and return to it later. Admin center automatically saves a draft of the migration progress and you can continue it later. You can’t edit or add permission policies if you have a drafted migration.
 * Select **Reset all changes** to discard the progress and discard the draft. Removing migration draft lets you edit or add permission policies and you can restart migration process later.
@@ -144,12 +144,12 @@ During the migration, you can do either of the following:
 
 Before you finalize the migration, you can validate the migration by testing it in the following two ways. The validation ensures that you’ve assigned the app to the right users or groups before completing the migration process.
 
-* **Test by app**: Select an app and verify the list of all users who will get access to it. Verify all three types of assignments for each app, one app at a time.
+* **Test by app**: Select an app and verify the list of all users who get access to the app. Verify all three types of assignments for each app, one app at a time.
 
    :::image type="content" source="media/acm-test-app.png" alt-text="Screenshot showing validation step in which admin can check the policies assigned to each user.":::
 
-* **Test by user**: Select one user at a time and verify the list of apps that the user will get access to.
-If the selected user is not permitted to use any apps, admin center displays, **This user can’t access any apps**.
+* **Test by user**: Select one user at a time and verify the list of apps that the user gets access to the app.
+If the selected user isn't permitted to use any apps, admin center displays, **This user can’t access any apps**.
 
    :::image type="content" source="media/acm-test-user.png" alt-text="Screenshot showing validation step in which admin can check the app access of each user.":::
 
@@ -157,16 +157,16 @@ If you want to change any assignments, select **Back** and change the assignment
 
 ### Step4: Finalize the migration
 
-After you complete the app assignments and validate those, select **Finish**. Select the check box to agree to the terms and conditions, and then select **Continue** to complete the migration process.
+After you complete the app assignments and validate the assignments, select **Finish**. Select the check box to agree to the terms and conditions, and then select **Continue** to complete the migration process.
 
-:::image type="content" source="media/acm-confirmation-post-validation.png" alt-text="Screenshot showing the final prompt in the migration step to finalize the change.":::
+:::image type="content" source="media/acm-confirmation-post-validation.png" alt-text="Screenshot showing the final dialog in the migration step to finalize the change.":::
 
 <!---
-### Step5: Preparation for large tenants
+### Step5: Preparation for large organization
 
-For large production tenants with more than 10,000 users, the migration process includes an additional step called, the ‘tenant warm-up’, that is performed right after the migration. Microsoft completes this step in the background and requires admin participation.
+For large production organizations with more than 10,000 users, the migration process includes an additional step called, the ‘tenant warm-up’, that is performed right after the migration. Microsoft completes this step in the background and requires admin participation.
 
-During the tenant warm-up we will place your tenant back on permission policy for up to 2 weeks and the app centric management experience will not be available in the UI. The tenant continues to work on the existing app permission policies without disruption for the users.
+During the organization warm-up we place your tenant back on permission policy for up to 2 weeks and the app centric management experience will not be available in the UI. The organization continues to work on the existing app permission policies without disruption for the users.
 
 Once the tenant is ready, we’ll contact you. We’ll make app centric management functionality available with the app assignments you configured during the migration.
 
@@ -174,7 +174,7 @@ Once the tenant is ready, we’ll contact you. We’ll make app centric manageme
 
 ## Manage apps after the migration
 
-Once your tenant is migrated, you can manage the apps in Teams admin center by assigning apps from Manage apps, App details and User details pages.
+Once your org is migrated, you can manage the apps in Teams admin center by assigning apps from Manage apps, App details and User details pages.
 
 ### View and modify access to an app
 
@@ -221,24 +221,23 @@ On the **[Manage users](https://admin.teams.microsoft.com/users)** page, select 
 
 Consider the following limitations about the functionality:
 
-* You can’t migrate a policy but only an entire tenant. During migration you can choose some policies and ignore the others, but migration is of the complete tenant.
-* You can request migration of a test tenant before you migrate your production tenant.
+* You can’t migrate one or a few policies. You must migrate your entire org and all policies in your tenant. During migration you can choose some policies and ignore the others, but migration is of the complete org.
 * While the migration is in progress, you can’t modify third-party app settings and policies.
 
-   :::image type="content" source="{source}" alt-text="Screenshot showing that org-wide app settings can't be changed if a migration progress is drafted.":::
+   :::image type="content" source="media/acm-migration-settings-unavailable.png" alt-text="Screenshot showing that org-wide app settings can't be changed if a migration progress is drafted.":::
 
-* During the private preview program, PowerShell commands or APIs are not available for the above use cases. If you are interested in these methods, indicate your interest in your feedback.
-* Bulk operations on multiple apps aren’t supported during the private preview but will be available closer to the general availability.
+* PowerShell commands or APIs aren't available. If you're interested in these methods, provide product feedback to Microsoft from within the Teams admin center.
+* Bulk operations on multiple apps aren’t supported.
 * You can’t export the app assignments outside the Teams admin center.
 * App assignments are limited to 2000 users and groups.
-* Nested groups are not supported.
+* Nested groups aren't supported.
 
-Consider the following tips to troubleshoot any issues that you may encounter during the migration:
+Consider the following tips to troubleshoot any issues that you can encounter during the migration:
 
 * To roll back a migrated tenant, contact Microsoft support.
-* App assignments to specific users and groups currently allow guest users to be individually assigned. While this is displays as assigned, only the apps that are allowed for the entire org users are actually available to the guest users.
-* If the expected changes are not implemented consider waiting up to 72 hours for app assignments to take effect.
-* During the migration, if you see too many apps in the **Allowed for users and groups** tab awaiting admin inputs, then consider checking your permission policies. The selected policies have opposite assignments for these apps in your tenant.
+* App assignments to specific users and groups currently allow guest users to be individually assigned. While it displays as assigned, only the apps that are allowed for the entire org users are available to the guests.
+* If the expected changes aren't implemented consider waiting up to 72 hours for app assignments to take effect.
+* During the migration, if you see too many apps in the **Allowed for users and groups** tab awaiting admin inputs, then consider checking your permission policies. The selected policies have opposite assignments for these apps in your org.
 * To block new apps for everyone, see [Set default behavior for new apps published in Teams store](#set-default-behavior-for-new-apps-published-in-teams-store).
 
 <!---
