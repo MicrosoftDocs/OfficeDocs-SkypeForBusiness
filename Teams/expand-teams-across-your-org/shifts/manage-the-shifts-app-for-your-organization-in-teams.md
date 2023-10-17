@@ -51,7 +51,7 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](https://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America.
 
 To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
@@ -61,7 +61,7 @@ To learn more about Shifts data, including storage, retention, retrieval, and en
 
 Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](../../manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Shifts app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
 ### Enable or disable Shifts for specific users in your organization
@@ -103,7 +103,7 @@ You can turn the feature on or off in the Microsoft Teams admin center. To learn
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview compliance portal. To learn more, see [Turn audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Give feedback or report an issue
 
