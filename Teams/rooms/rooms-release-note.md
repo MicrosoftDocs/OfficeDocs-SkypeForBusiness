@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 05/08/2023
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -64,7 +64,7 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 Introduced in this update:
 
-- **Cloud IntelliFrame**:::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame makes non-AI cameras smarter. With Cloud IntelliFrame, participants in the room appear similar to remote attendees, creating an immersive and engaging experience for everyone. Whether working from home or in the office, participants are able to see every facial expression and cue, just as if they were there in person. 
+- **Cloud IntelliFrame**:::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame makes non-AI cameras smarter. With Cloud IntelliFrame, participants in the room appear similar to remote attendees, creating an immersive and engaging experience for everyone. Whether working from home or in the office, participants are able to see every facial expression and cue, as if they were there in person. 
 - **Intelligent camera support**:::image type="icon" source="../media/mtr-pro-icon.png":::. IntelliFrame enables multi-stream video, face recognition of in-room participants, active speaker recognition, attributed voice-based transcription, and panoramic video on front-of-room (180-degree view) and center-of-room (360-degree view) cameras, taking Teams Rooms on Windows cameras to the next level of intelligence.
 - **Front Row gallery improvement – video segmentation with a unified background**<sup>1</sup>:::image type="icon" source="../media/mtr-pro-icon.png":::. It removes individual backgrounds, adjusts video participant’s size, and applies a unified background for remote participants to make them appear as if they are in the same room. This reduces distractions and provides in-room meeting participants with better connection to remote participants in Teams meetings.
 - **Spatial audio in the Front Row experience**<sup>2</sup>:::image type="icon" source="../media/mtr-pro-icon.png":::. Spatial Audio brings next-generation audio to the Front Row experience when connected to stereo speakers. This intelligent audio technology delivers a more natural and inclusive experience for in-room participants by playing audio from channel closer to physical location of remote participants on Front row layout, making it feel like remote people are in the room with them and reducing meeting fatigue.
@@ -175,12 +175,12 @@ Introduced in this update:
 
 Introduced in this update:
 
-- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device starts to receive preview features. All features that go to preview are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
 - IT admin can override download folder cleanup on the device through registry key setting<sup>4</sup>
-- Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa)
-- Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
+- Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
+- Teams Rooms now blocks launching Microsoft Edge from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
 - Support for Windows 10 21H2 feature release for Teams rooms
 
@@ -220,9 +220,7 @@ Introduced in this update:
 
 <sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes aren't impacted by this update.
 
-<sup>3</sup> See addition details on setting up  [Azure AD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
-
-<sup>4</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
+<sup>3</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
 
 ### Teams Rooms Web client update (December 2021)
 
@@ -645,6 +643,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023090601](#144910962023090601-october-2023) | October 2023 |
 |[1449/1.0.96.2023062301](#144910962023062301-june-2023)     | June 2023        |
 |[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
 |[1449/1.0.96.2023050203](#144910962023050203-may-2023)     | May 2023        |
@@ -664,6 +663,13 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023090601 (October 2023)
+
+Introduced in this update:
+
+- Improvements to the pairing resiliency of the room system and the touch console.
+- Other reliability improvements and bug fixes on authentication, smart camera controls, and proximity join.
 
 ### 1449/1.0.96.2023062301 (June 2023)
 

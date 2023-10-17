@@ -3,7 +3,7 @@ title: Manage Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 08/25/2023
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -42,7 +42,7 @@ To manage Teams Rooms devices in Teams Admin Center, open the [Microsoft Teams a
 > [!IMPORTANT]
 > To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Devices Administrator roles.
 
- To manage devices using Teams Rooms Pro management, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal][https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-rbac]
+ To manage devices using Teams Rooms Pro management, see [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](/microsoftteams/rooms/rooms-pro-rbac).
 
 ## Make changes to Teams Rooms devices or Surface Hubs
 

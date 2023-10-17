@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 09/27/2023
+ms.date: 10/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -15,15 +15,15 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Bulk deploy the new Microsoft Teams client.
+description: Bulk upgrade to the new Microsoft Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Bulk deploy the new Microsoft Teams client 
+# Bulk upgrade to the new Microsoft Teams client 
 
-Direct or "bulk"  deployments are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can deploy the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
+Direct or "bulk" upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
@@ -52,16 +52,18 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
-|Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.<</br> </br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
+|Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.</br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
+|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)|
 
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-## Step 1: Deploy the new Teams application
+## Step 1: Upgrade the new Teams application
 
-All steps must be completed to successfully deploy the new Teams.
+All steps must be completed to successfully upgrade to the new Teams.
 
 #### Option A: Download and install new Teams for a single computer
 
@@ -74,7 +76,7 @@ To install new Teams on a single computer with many users, follow these steps:
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
 
-#### Option B: Deploy new Teams across your organization
+#### Option B: Upgrade to the new Teams across your organization
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
@@ -86,7 +88,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 ## Step 2: Set new Teams as the default 
 
 >[!Note]
->Admin policies may also be set using PowerShell. Learn more: [Set the policies to deploy the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
+>Admin policies may also be set using PowerShell. Learn more: [Set the policies to upgrade to the new Teams client - Powershell method](new-teams-deploy-using-policies.md)
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 2. Select **Teams > Teams Update policies** from the left navigation pane.
