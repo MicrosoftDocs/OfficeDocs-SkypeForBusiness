@@ -26,7 +26,11 @@ description: Learn to set up RTMP-In for Teams meetings.
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
 RTMP-In allows meeting, webinar, and town hall organizers to produce their meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the organizer via a Teams meeting policy.
+
+RTMP-In is a Teams Premium feature for all meetings and event formats, except town halls.
 
 Organizers who are enabled for RTMP-In can choose the option in meeting or event options and can access the RTMP link and key which they can use to start streaming from the encoder.
 

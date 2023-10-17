@@ -1,7 +1,7 @@
 ---
 title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
-ms.date: 10/01/2023
+ms.date: 10/13/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -53,38 +53,17 @@ The following table shows the main features that are different between meetings,
 |Streaming|Above 1,000 participants|✖️|Automatic|
 |Registration|Optional|✔️|✖️|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|✖️|
-|Streaming participants|9,000 (Enterprise plans only)|✖️|Base: 10,000*<br> Premium: 20,000|
-|Maximum total participants|10,000* (Enterprise plans only)|1,000|10,000*|
+|Streaming participants|10,000 (Enterprise plans only)|✖️|Town halls: 10,000<br> Premium town halls: 20,000|
+|Maximum total participants|11,000* (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 |Breakout rooms|✔️|✖️|✖️|
 
-*The usual 10,000 is increased to 20,000 through December 30, 2023.
+*The usual 10,000 is increased to 20,000 through December 30, 2023. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
 
-## RTMP
-
-RTMP-In allows organizers to produce their Teams meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP). RTMP-In must be turned on for the meeting organizer via a Teams meeting policy.
-
-Meeting organizers who are enabled for RTMP-In can choose the option in meeting options and can access the RTMP link and key that they can use to start streaming from the encoder.
-
-RTMP is a Teams Premium feature for meetings and webinars, but is included in base town halls.
-
-For details, see [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md).
-
-## eCDN
-
-Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
-
-- Town halls
-- Meetings with more than 1,000 participants
-
-eCDN solutions include self-managing delivery technologies, real-time monitoring, and in-depth network analytics. Organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
-
-Teams Premium features require the Microsoft eCDN, so streaming events organized by people with a Teams Premium license always use the Microsoft eCDN.
-
-For details, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md)
+For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 
 ## Manage who can create meetings, webinars, and town halls
 
-You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all of your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
+You can manage which of your users can create meetings, webinars, and town halls by using meeting and event policies. For example, you might want to allow all your users to create meetings, but only people in marketing to create webinars, and only executives to create town halls. Anyone invited can attend these types of meetings, but only those you specify can create them.
 
 For details, see:
 
@@ -116,23 +95,23 @@ The following table lists meetings training available to the end users in your o
 
 Webinars are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support robust registration management, a customizable event and registration site, and event-oriented default meeting options.
 
-In addition to the base webinar features, we offer additional webinar functionality through the Teams Premium subscription. Some of the base webinar features and premium webinar features are highlighted in the following table:
+Teams Premium offers additional webinar functionality through the Teams Premium subscription. The breakdown of features is  highlighted in the following table:
 
-|                                                       | Base webinar features | Premium webinar features |
+|Feature name | Webinar features | Premium webinar features |
 |-------------------------------------------------------|:---------------------:|:-------------------------:|
-|**Allow registered users to bypass the lobby**         |✔️                      |✔️                          |
-|**Assign a co-organizer**                              |✔️                      |✔️                          |
-|**Limit the number of people who can register**        |✔️                      |✔️                         |
-|**Require attendees to register**                      |✔️                      |✔️                          |
-|**Set up a green room for webinar presenters**                      |✔️                     |✔️                          |
-|**Turn on Q&A for webinars with up to 1,000 attendees** |✔️                      |✔️                          |
-|**View attendance reports**                            |✔️                      |✔️                          |
-|**Create a webinar wait list**                         |                       |✔️                          |
-|**Limit the day and time when people can register**    |                       |✔️                         |
-|**Manage attendees’ view**                             |                       |✔️                          |
-|**Manually approve registrants**                       |                       |✔️                          |
-|**Send reminder emails to registrants**                |                       |✔️                          |
-|**Use RTMP-In for webinars**                           |                       |✔️                         |
+|Allow registered users to bypass the lobby         |✔️                      |✔️                          |
+|Assign a co-organizer                              |✔️                      |✔️                          |
+|Limit the number of people who can register        |✔️                      |✔️                         |
+|Require attendees to register                      |✔️                      |✔️                          |
+|Set up a green room for webinar presenters                      |✔️                     |✔️                          |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️                      |✔️                          |
+|View attendance reports                            |✔️                      |✔️                          |
+|Create a webinar wait list                         |                       |✔️                          |
+|Limit the day and time when people can register    |                       |✔️                         |
+|Manage attendees’ view                             |                       |✔️                          |
+|Manually approve registrants                       |                       |✔️                          |
+|Send reminder emails to registrants                |                       |✔️                          |
+|Use RTMP-In for webinars                           |                       |✔️                         |
 
 To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams#webinars)
 
@@ -149,33 +128,43 @@ The following table lists webinars training available to the end users in your o
 
 ## Town halls
 
-Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed.
+Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event format, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
 
-Town halls are streaming events, so attendees can't use their cameras and mics.
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
-#### Key training for end users
+Teams Premium offers additional town hall functionality through the Teams Premium subscription. The breakdown of features is  highlighted in the following table:
 
-The following table lists town halls training available to the end users in your organization:
-
-| Training | Description |
-|:----------|:--------|
-|||
-
+|Capability|Town halls|Premium town halls|
+|:------|:-----|:---------|
+|Broadcast capacity|10k|20k|
+|Attendee reporting|Yes|Yes|
+|eCDN|3rd and 1st party|1st party|
+|Duration|30 hours|30 hours|
+|RTMP-in|Yes|Yes|
+|Producer UX|Manage what attendees see |Manage what attendees see |
+|Default audio and video off|Yes|Yes|
+|Layouts|Focused curated view|Focused curated view|
+|Green room|Yes|Yes|
+|Manage what attendees see|Yes|Yes|
+|AI generated captions|Yes|Yes|
+|Q&A capacity|10k|20k|
+|VOD|Yes|Yes|
+|Organizer level real time monitoring|No|Yes|
+|Essential emails|Yes|Yes|
+|Email editing|No|Yes|
 
 ## Best practices for large meetings
 
-This section provides guidance for administrators, along with tips that administrators can share with their presenters and organizers.
+This section provides guidance for admins, along with tips that admins can share with their presenters and organizers.
 
 To run a successful event, follow the practices outlined below:
 
-- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients.
+- For the best experience in large meetings, webinars, and town halls, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients.
 
-- Ensure that all Microsoft [Network Connectivity Principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) have been followed both on-premises and for remote users.
+- Ensure that all Microsoft [Network Connectivity Principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) have been followed both on-premises and for remote users. The network connectivity principles apply to meetings, webinars, and town halls.
 - Use [real-time data telemetry](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) to monitor the event and identify any possible issues and its source.
   - Designate meeting monitors to [analyze](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) telemetry for users facing poor experience caused by metrics exceeding thresholds.
   - Set meeting monitors as presenters to disable rogue video streams, mute accidental live mics, and remove attendees if needed.
-
 
 ## Related topics
 

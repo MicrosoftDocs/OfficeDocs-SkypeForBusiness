@@ -33,6 +33,9 @@ A Teams Android mobile app singed in with an account tied to **Microsoft Teams S
 
 First, you need to purchase a **Teams Shared Devices** license.
 
+  > [!NOTE]
+  > Chat is not supported with a **Teams Shared Devices** license.
+
 To purchase the license:
 
 1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), and select **Billing > Purchase services**.
@@ -64,8 +67,8 @@ To purchase the license:
 6. Select the usage location of the device and assign the **Teams Shared Devices** license to the account. If any other licenses are needed, such as **Callings Plans**, assign those licenses too to the account.
 
 > [!NOTE]
-> You don't need to add a license with Phone System features. These features are included with the **Teams Shared Devices** license.
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>
+> When you assign a **Teams Shared Device** license to a device, you don't need to assign an additional Phone System license to get other features. To get inbound and outbound calling minutes with Microsoft Phone System you must add a Calling Plan and set up billing. However, if you are using Operator Connect or Direct Routing, you don't need a Calling Plan. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ### Using PowerShell
 
@@ -88,3 +91,4 @@ To acquire and assign phone numbers based on your PSTN connectivity option, see 
 Once you create and configure the account, you can sign in to the Teams app on the Android mobile phone using the account tied to **Teams Shared Device** license.
 
 :::image type="content" source="../media/teamsshareddevicelicenseonandroidmobile.png" alt-text="Screenshot showing the Teams app on an Android mobile device." lightbox="../media/teamsshareddevicelicenseonandroidmobile.png":::
+

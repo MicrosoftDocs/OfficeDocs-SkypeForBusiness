@@ -3,7 +3,7 @@ title: Meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: serdars
-ms.date: 09/20/2023
+ms.date: 10/13/2023
 ms.reviewer: nraghavan
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -23,6 +23,8 @@ description: Using approved corporate assets like images and logos to create som
 ---
 
 # Meeting themes for Teams meetings
+
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
