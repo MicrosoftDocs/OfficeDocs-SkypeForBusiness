@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 10/17/2023
+ms.date: 10/18/2023
 ms.reviewer: mhayrapetyan
 description: Govern Teams apps using app centric management instead of permissions policies.
 f1.keywords:
