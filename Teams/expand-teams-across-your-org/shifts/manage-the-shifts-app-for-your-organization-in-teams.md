@@ -86,7 +86,7 @@ You can create a [custom policy in app setup policy](../../teams-app-setup-polic
 
 A [policy package](../../manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. The set of policies in the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
-We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
+We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce. To learn more, see [Teams policy packages for frontline workers](../../policy-packages-flw.md).
 
 ### Enable shift-based tags in Teams
 
