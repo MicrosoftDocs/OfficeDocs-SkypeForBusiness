@@ -43,7 +43,7 @@ As you might expect, there are some preparations to make before you begin deploy
 
 After you have your topology established (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 server requires 64-bit hardware. Our recommendations for hardware are listed in the following tables. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that helps you determine whether you need more than these requirements, depending on your circumstances.
   
-Recommended hardware for Standard Edition servers:
+Recommended hardware for Standard Edition servers
 
 |Hardware component|Recommended|
 |:-----|:-----|
@@ -52,7 +52,7 @@ Recommended hardware for Standard Edition servers:
 |Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to eight 10,000 RPM mechanical disk drives.   |
 |Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are being used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.   |
 
-Recommended hardware for Front End and Back End Servers:
+Recommended hardware for Front End and Back End Servers
   
 |Hardware component|Recommended|
 |:-----|:-----|
@@ -189,6 +189,10 @@ And we have some PowerShell code for this, too:
 ```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
 ```
+
+## Upgrading to Windows Server 2022
+
+Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation on Windows Server 2019.
 
 ### Installation of Compatibility Script for Windows Server 2022
 
