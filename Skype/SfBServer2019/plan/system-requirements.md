@@ -50,7 +50,7 @@ Recommended hardware for Standard Edition servers
 |CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or greater.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes (GB).   |
 |Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to eight 10,000 RPM mechanical disk drives.   |
-|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are being used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.   |
+|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.   |
 
 Recommended hardware for Front End and Back End Servers
   
@@ -59,7 +59,7 @@ Recommended hardware for Front End and Back End Servers
 |CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or greater. <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |64 gigabytes (GB).   |
 |Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to eight 10,000 RPM mechanical disk drives.   |
-|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are being used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.
+|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.
 
 Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors
   
@@ -68,7 +68,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 |CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or greater.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2019 roles.   |
 |Memory   |32 gigabytes.   |
 |Disk   |EITHER:  <br/> • Four or more 10,000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to four 10,000 RPM mechanical disk drives.   |
-|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers require two network interfaces that are dual-port network adapters, 1 Gbps or greater (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
+|Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers require two network interfaces that are dual-port network adapters, 1 Gbps or greater (or two paired network adapters, for a total of four, each pair that is teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
 
 > [!NOTE]
 > Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (this may vary depending on the brand of hardware you've purchased, so refer to manufacturer documentation for specifics):
@@ -228,7 +228,7 @@ foreach ($ele in $applicationHostConfigFile.configuration.configProtectedData.pr
 $applicationHostConfigFile.Save($applicationHostConfigPath) 
 ```
 
-## Back-end databases that will work with Skype for Business Server 2019
+## Back-end databases that work with Skype for Business Server 2019
 <a name="DBs"> </a>
 
 When installing Skype for Business Server 2019 Standard Edition, you have SQL Server 2016 Express (64-bit edition).
@@ -408,7 +408,7 @@ Skype for Business Server 2019 requires DNS for the following reasons:
   
 - DNS enables Skype for Business Server 2019 to discover internal servers or pools, allowing for server-to-server communications.
     
-- DNS allows client computers to discover the Front End pool or Standard Edition server being used for SIP transactions.
+- DNS allows client computers to discover the Front End pool or Standard Edition server that is used for SIP transactions.
     
 - It associates simple URLs for conferences with the servers hosting those conferences.
     
@@ -422,7 +422,7 @@ Skype for Business Server 2019 requires DNS for the following reasons:
     
 It's important to note that Skype for Business Server 2019 doesn't support internationalized domain names (IDNs).
   
-And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server being used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
+And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server that is used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
   
 This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool, for that matter.
   
@@ -474,11 +474,11 @@ That's a lot to think about, and there are a variety of comfort levels with requ
 
 You need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
   
-You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, need to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
+You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, have to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
   
 Skype for Business Server 2019 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
   
-To keep things straightforward, we've put the certificate requirements for Standard Edition servers, Front End pools, and other roles, into the following tables, with the fictional contoso.com being used for examples (you'll probably be using something else for your environment). These are all standard web server certificates, with private keys that are non-exportable. Some additional things to note:
+To keep things straightforward, we've put the certificate requirements for Standard Edition servers, Front End pools, and other roles into the following tables, and we used the fictional contoso.com for examples (you'll probably be using something else for your environment). These are all standard web server certificates, with private keys that are non-exportable. Some additional things to note:
   
 - Server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.
     
