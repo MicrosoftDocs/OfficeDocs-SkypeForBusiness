@@ -109,10 +109,6 @@ If you select more than one, settings that support bulk editing show the two fol
 
 See [Manage Microsoft Teams configuration on Surface Hubs](surface-hub-manage-config.md) for more options to configure Surface Hubs.
 
-### Cortana settings
-
-You can enable Cortana for *Voice Activation* or *Push to talk* using PowerShell for all devices in your organization, or for each device separately.
-
 ### Front row layout settings
 
 Front row is meeting view layout option for Teams Rooms on Windows.

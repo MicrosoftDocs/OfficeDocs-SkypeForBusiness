@@ -179,11 +179,10 @@ Introduced in this update:
 - IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
 - IT admin can override download folder cleanup on the device through registry key setting<sup>4</sup>
-- Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
+- Enabling users to join Teams meeting hosted on another cloud (that is, GCCH customer can join Teams meetings hosted on commercial cloud and vice versa)
 - Teams Rooms now blocks launching Edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
-- Support for Windows 10 21H2 feature release for Teams rooms   
-- New Cortana entry point on home screen, Share/ present button is back 
+- Support for Windows 10 21H2 feature release for Teams rooms
 
 <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview).
 
@@ -213,10 +212,8 @@ Introduced in this update:
 - Meet Now and call app update for Teams only, Teams default client modes<sup>1,2</sup>
 - Switch between multiple video cameras in Teams meetings<sup>1</sup>
 - Default video camera setting
-- Cortana push-to-talk icon update on MTR console
 - Azure AD Premium 1 license inclusion in Room Standard and Premium SKUs
 - Azure AD conditional access policies support<sup>3</sup>
-- Cortana voice activation enabled by default in OOBE
 - Remote PTZ controls support<sup>4</sup>
 
 <sup>1</sup> These features are rolling out using Teams web client and will complete rollout in next couple of weeks. Read more about [Teams updates](../teams-client-update.md) for details.
@@ -258,7 +255,6 @@ Introduced in this update:
 - Logitech scribe content camera support for BLE button for sharing into meeting
 - Chat bubbles provide notifications for in meeting chat to bring attention to what's being said using meeting chat \*
 - Large gallery and Together mode support is now available in GCC High
-- New Skills added to Cortana, Add person by name to the meeting and Call by name
 
 > [!NOTE]
 > Deprecated 19H1 support. Min OS version supported by 4.10 is 19H2.
@@ -317,7 +313,6 @@ Introduced in this update:
 Introduced in this update:
 
 - Share HDMI audio to meeting participants in Teams meeting
-- Cortana voice skills (Preview)
 - Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays.
 
@@ -399,7 +394,6 @@ Introduced in this update:
 
 - A fix for a Window resizing/flickering issue that's seen in certain configurations
 - Calendar processing for third-party meetings removed
-- Cortana status setting removed
 
 ### 4.3.23.0 (12/13/2019)
 
