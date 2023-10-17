@@ -77,6 +77,13 @@ To allow an app for specific users, see [app permission policies](teams-app-perm
 
 When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. After following the publisher's guidance to set up the app, you can make it available to users by allowing it.
 
+## Allow access to an app for users and groups
+
+As an admin, you use one of the following methods to define access to apps for your users:
+
+* [App permission policies](teams-app-permission-policies.md) if you use policy-based method to define app access.
+* App assignment if you use [app centric management](app-centric-management.md) to define app access.
+
 ## Stop app usage and remove app
 
 As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.

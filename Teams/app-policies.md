@@ -17,15 +17,17 @@ ms.collection:
   - M365-collaboration
 ---
 
-# Know about policies to manage access to and use of Teams apps
+# Know how to manage access to and install Teams apps
 
-Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams and Global administrators control the following app behavior:
+Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams Administrator and Global Administrators control the following app behavior:
 
 * Configure the access of apps for each individual user or for a group of users. You control the apps that are permitted for each user.
 
 * Pin the allowed apps for the desired users. Also, admins can install apps for users without user intervention. It helps users easily get started with the relevant apps.
 
 * Allow or disallow upload and use of custom apps for a few or all the users.
+
+As an alternate, you can use [app centric management](app-centric-management.md) to configure the access to apps on a per-app basis. The app centric management feature let admins specify the users and group in their organization who can add Teams apps on a per-app basis, instead of relying on permission policies.
 
 ## App permission policies
 

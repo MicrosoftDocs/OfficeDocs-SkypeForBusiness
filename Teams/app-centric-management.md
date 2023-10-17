@@ -26,7 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 # Use app centric management to govern apps
 
-The new app centric management feature let admins specify the users and group in their organization who can add Teams apps. This feature evolves the existing app permission policies and Org-wide app settings for third-party apps. Admins can now manage access to the apps individually without using policies. The existing app permission policies in an organization are migrated to maintain the existing app access in the organization.
+The new app centric management feature let admins specify the users and group in their organization who can add Teams apps on a per-app basis. This feature evolves the existing app permission policies and Org-wide app settings for third-party apps. Admins can now manage access to the apps individually without using policies. The existing app permission policies in an organization are migrated to maintain the existing app access in the organization.
 
 ## What changes with this feature
 
