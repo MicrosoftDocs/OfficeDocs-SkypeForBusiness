@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 10/13/2023
+ms.date: 10/17/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -38,7 +38,7 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 
 ## Get your network ready for town halls
 
-There are four steps you must follow to ensure your network is set up to support town halls.
+There are five steps you must follow to ensure your network is set up to support town halls.
 
 1. **Ensure your teams environment is set up to connect to our services**<br>
 Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
