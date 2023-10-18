@@ -71,7 +71,7 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 |Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers require two network interfaces that are dual-port network adapters, 1 Gbps or greater (or two paired network adapters, for a total of four, each pair that is teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
 
 > [!NOTE]
-> Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (this may vary depending on the brand of hardware you've purchased, so refer to manufacturer documentation for specifics):
+> Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (the settings may vary depending on the brand of hardware you've purchased, so refer to manufacturer documentation for specifics):
 > - BIOS config - should be set to FLAT from NUMA.
 > - Enable Hyperthreading.
 > - The RSS queue setting should be set to 8 queue.
@@ -94,7 +94,7 @@ Anything other than the operating systems that are listed here won't work correc
 > 
 > - If you are installing Windows Admin Center 2019 on your Windows Server 2019 computer, the program prompts you for a port to listen on. There's a likelihood that you might choose port 443. However, if that computer has Skype for Business Server 2019 installed, or is going to have Skype for Business Server 2019 installed, then you must choose a different port number.
 > 
->   Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server by using the Skype for Business Control Panel, nor will you be able to connect to any internal web service that's running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, and so on). In fact, you won't be able to connect to any Internal Web Service URL. In the event that you might need or want to put Windows Admin Center 2019 on a server that has Skype for Business Server 2019, choose a different port.
+>   Why? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server by using the Skype for Business Control Panel, nor will you be able to connect to any internal web service that's running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, and so on). In fact, you won't be able to connect to any Internal Web Service URL. In the event that you might need or want to put Windows Admin Center 2019 on a server that has Skype for Business Server 2019, choose a different port.
 
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
@@ -111,7 +111,7 @@ There are some things that you must install or configure for any server that's r
   
 |Software/role|Details|
 |:-----|:-----|
-|Windows PowerShell 3.0   |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016. |
+|Windows PowerShell 3.0   |All Skype for Business Server servers must have Windows PowerShell 3.0 installed.  <br/> • PowerShell 3.0 should be installed by default with Windows Server 2016. |
 |Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**. Initially, no downloads are needed. <br/> • When you install this feature, or if it's already installed and you're checking it, you must make sure that the **HTTP Activation** option is also selected and installed, as follows.<br/><br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/><br/> Don't worry if you get another pop-up window that states that some other things have to be installed in order for HTTP Activation to be installed. That's normal. Select OK and continue. If you don't get this pop-up window, you can assume that those things are already installed.  <br/> Microsoft .NET Framework is installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably have to update it. You can find the update [here](https://support.microsoft.com/topic/the-net-framework-4-7-offline-installer-for-windows-f32bcb33-5f94-57ce-6120-62c9526a91f2) |
 |Media Foundation   |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
 |Windows Identity Foundation   |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected,  all set. Otherwise, select it, and then select **Next** to reach the **Install** button.  |
@@ -122,11 +122,11 @@ There are some things that you must install or configure for any server that's r
 |Software/role|Details|
 |:-----|:-----|
 |Internet Information Services (IIS)   |IIS is needed on all Front End Servers and all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select it on the list.   |
-|Windows Media Format Runtime   | For Windows Server 2016, you have to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this, but you are prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. It's better to do it ahead of time.  |
+|Windows Media Format Runtime   | For Windows Server 2016, you have to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this feature. However, you're prompted to install it, and then restart the server before the Skype for Business Server 2019 installation can continue. It's better to do it ahead of time.  |
 |Silverlight   |You can install the latest version of Silverlight [here](https://www.microsoft.com/silverlight/).   |
-|For users in China region   |[Run PowerShell script](disable-legacy-control-panel.md#disable-legacy-control-panel-cscp)  after updating server to min build number Skype for Business Server 2019 Cumulative Update 7 Hotfix 1 (2046.524).   |
+|For users in China region |[Run PowerShell script](disable-legacy-control-panel.md#disable-legacy-control-panel-cscp) after you update the server to the minimum build number Skype for Business Server 2019 Cumulative Update 7 Hotfix 1 (2046.524).   |
    
-To help you out, here's a sample PowerShell script that you can run to automate this:
+To help you out, here's a sample PowerShell script that you can run to automate this process:
   
 ```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
@@ -180,7 +180,7 @@ IIS, with the following modules selected:
     
 (In case you're wondering, it's the same module set as the Front End Servers and Standard Edition servers, not including the Dynamic Content Compression and Management Tools.)
   
-And we have some PowerShell code for this, too:
+And we also have some PowerShell code for this process:
   
 ```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
@@ -333,7 +333,7 @@ It doesn't get easier than this. It's a single domain forest, a common topology.
 
 ![A single forest, single tree and mutiple domains diagram.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-This diagram shows a single forest, again, but it has one or more child domains also (there are three in this specific example). S,o the domain the users are created in might be different from the domain Skype for Business Server 2019 is deployed to. Why worry about this? It's important to remember that when you deploy a Skype for Business Server Front End pool, all the servers in that pool need to be in a single domain. You can have cross-domain administration via Skype for Business Server support of Windows universal administrator groups.
+This diagram shows a single forest, again, but it has one or more child domains also (there are three in this specific example). S,o the domain the users are created in might be different from the domain Skype for Business Server 2019 is deployed to. Why worry about this situation? It's important to remember that when you deploy a Skype for Business Server Front End pool, all the servers in that pool need to be in a single domain. You can have cross-domain administration via Skype for Business Server support of Windows universal administrator groups.
   
 In the previous diagram, you can see that users from one domain are able to access Skype for Business Server pools from the same domain or from different domains, even if those users are in a child domain.
   
@@ -364,7 +364,7 @@ A resource forest topology is also supported; it's where a forest is dedicated t
   
 Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
-To deploy Skype for Business Server 2019 in this type of topology, you would create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
+To deploy Skype for Business Server 2019 in this type of topology, you would create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this action might be done for you). Then you need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
   
 #### Multiple forests in a Skype for Business resource forest topology with Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
@@ -416,11 +416,11 @@ It's important to note that Skype for Business Server 2019 doesn't support inter
   
 And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server that is used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
   
-This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool, for that matter.
+This seems like it would be logical for any computer already joined to a domain. But if you have an Edge Server that's not joined to your domain, by default, it may have a short name without a domain suffix. Make sure that this is not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool.
   
-Definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are supported by external DNS and public Certificate Authorities (you have to assign FQDNs to the SN in the certificate, it's important to remember), so you'll spare yourself a lot of trouble if you name with this in mind from the start.
+Definitely don't use Unicode characters or underscores in domain names. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are supported by external DNS and public Certificate Authorities (you have to assign FQDNs to the SN in the certificate, it's important to remember). Therefore, you'll spare yourself a lot of trouble if you keep this rule in mind from the start.
   
-For further reading on DNS requirements for Networking, check out the [Networking](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
+For more information about DNS requirements for Networking, check out the [Networking](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
   
 ## Certificates
 <a name="Certs"> </a>
@@ -466,7 +466,7 @@ That's a lot to think about, and there are a variety of comfort levels with requ
 
 You need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
   
-You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, have to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested in this, we have an additional planning article for OAuth and Skype for Business Server 2019.
+You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, have to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested, we have an additional planning article for OAuth and Skype for Business Server 2019.
   
 Skype for Business Server 2019 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
   
@@ -536,7 +536,7 @@ The specifics are listed in the tables that follow.
   
 This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricey.
   
-If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md) article has more information on this.
+If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). For more information, see [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md).
   
 Director pool and Front End pool certificate requirements:
   
@@ -563,7 +563,7 @@ This SAN needs to be assigned to the certificate that's assigned to the SSL List
 
 Skype for Business Server 2019 can use the same file share for all file storage. You do need to keep the following in mind:
   
-- A file share has to be on either direct attached storage (DAS) or a storage area network (SAN). This includes the Distributed File System (DFS) and also a redundant array of independent disks (RAID) for file stores. For more information about DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
+- A file share has to be on either direct attached storage (DAS) or a storage area network (SAN). This requirement includes the Distributed File System (DFS) and also a redundant array of independent disks (RAID) for file stores. For more information about DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
 - We recommend a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions.
 
