@@ -82,7 +82,7 @@ Uploaded images must adhere to the following parameters. You can upload:
 
 ### Save custom background images
 
-You'll find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your users with a Teams Premium license.
+You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
 ## Show only custom backgrounds in your users' gallery
 
