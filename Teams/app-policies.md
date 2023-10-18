@@ -6,7 +6,8 @@ manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 07/29/2023
+ms.date: 10/18/2023
+ms.reviewer: mhayrapetyan
 search.appverid: 
 description: Learn about app permission policies and setup policies that are used to manage apps in Microsoft Teams.
 audience: admin
