@@ -295,7 +295,7 @@ The domain functional level of any domain that you deploy Skype for Business Ser
 
 Can you have read-only domain controllers in these environments? Yes, you can — as long as writable domain controllers are also available.
   
-It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are these? If you have a root domain that's labeled "contoso.local," that will work. If you have a root domain that's named "local," that will not work, and it's not supported. For more information, see [Deployment and operation of Active Directory domains that are configured by using single-label DNS names](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/deployment-operation-ad-domains).
+It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are these? If you have a root domain that's labeled "contoso.local," that will work. If you have a root domain that's named "local," that will not work, and it's not supported. For more information, see [Deployment and operation of Active Directory domains that are configured by using single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains).
   
 Skype for Business Server 2019 also doesn't support renaming domains. If you must rename your domain, you have to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
   
