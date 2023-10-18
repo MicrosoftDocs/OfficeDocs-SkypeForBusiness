@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 06/27/2023
+ms.date: 10/17/2023
 ms.collection: 
   - M365-collaboration
   - tier2
