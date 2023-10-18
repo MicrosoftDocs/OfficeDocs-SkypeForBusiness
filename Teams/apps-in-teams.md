@@ -1,6 +1,5 @@
 ---
 title: Know about apps in Microsoft Teams
-ms.reviewer: 
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: conceptual
 author: ashishguptaiitb
