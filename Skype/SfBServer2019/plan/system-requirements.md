@@ -19,7 +19,7 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers and d
 
 **Summary:** Prepare to install Skype for Business Server 2019 with the help of this article. Hardware, OS, software, databases, certificates, Active Directory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful installation and deployment of your server farm.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article walks you through planning for:
+As you might expect, there are some preparations to make before you begin to deploy Skype for Business Server 2019. This article walks you through planning for:
   
 - [Hardware](system-requirements.md#Hardware)
   
@@ -85,28 +85,24 @@ After you have the hardware set, you have to install the operating system (OS) t
 - Windows Server 2019
 - Windows Server 2016
 
+Anything other than the operating systems that are listed here won't work correctly. Don't try to use anything else for installations of Skype for Business Server 2019. For example, Server Core option isn't listed. Therefore, it's not supported.
+
 > [!NOTE]
 > - Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update 7 and later versions (minimum Build Number 2046.524).
-
-Anything other than the operating systems that are listed here won't work correctly. Don't try to use it for installations of Skype for Business Server 2019. For example, Server Core option isn't listed. Therefore, it's not supported.
-
-> [!NOTE]
-> In-place upgrade of the OS is not supported with Lync Server 2013. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
-
-> [!NOTE]
 > 
-> If you are installing Windows Admin Center 2019 on your Windows Server 2019 computer, the program prompts you for a port to listen on. There's a likelihood that you might choose port 443. However, if that computer has Skype for Business Server 2019 installed, or is going to have Skype for Business Server 2019 installed, then you must choose a different port number.
+> - An in-place upgrade of the OS is not supported. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
 > 
->Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server by using the Skype for Business Control Panel, nor will you be able to connect to any internal web service that's running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, and so on). In fact, you won't be able to connect to any Internal Web Service URL. In the event that you might need or want to put Windows Admin Center 2019 on a server that has Skype for Business Server 2019, choose a different port.
->
+> - If you are installing Windows Admin Center 2019 on your Windows Server 2019 computer, the program prompts you for a port to listen on. There's a likelihood that you might choose port 443. However, if that computer has Skype for Business Server 2019 installed, or is going to have Skype for Business Server 2019 installed, then you must choose a different port number.
+> 
+>   Why is this the case? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server by using the Skype for Business Control Panel, nor will you be able to connect to any internal web service that's running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, and so on). In fact, you won't be able to connect to any Internal Web Service URL. In the event that you might need or want to put Windows Admin Center 2019 on a server that has Skype for Business Server 2019, choose a different port.
 
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
 
-> [!Note]
+> [!NOTE]
 > As a prerequisite to installing the Skype for Business Server 2019, while using Windows Server 2022, you must run the [compatibility script for Windows Server 2022](#installation-of-compatibility-script-for-windows-server-2022).
 
-There are some things you're going to have to install or configure for any server running Skype for Business Server 2019. These things are listed in the following tables, followed by additional requirements for specific server roles.
+There are some things that you must install or configure for any server that's running Skype for Business Server 2019. These things are listed in the following tables, followed by additional requirements for specific server roles.
 
 > [!IMPORTANT]
 > Skype For Business 2019 supports .Net Framework 4.8.
@@ -116,9 +112,9 @@ There are some things you're going to have to install or configure for any serve
 |Software/role|Details|
 |:-----|:-----|
 |Windows PowerShell 3.0   |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016. |
-|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You have to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows.<br/><br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/><br/> Don't worry if you get another pop-up window that states that some other things have to be installed in order for HTTP Activation to be installed. That's normal. Select OK and continue. If you don't get this pop-up window, you can assume that those things are already installed.  <br/> Microsoft .NET Framework is installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably have to update it. You can find the update [here](https://support.microsoft.com/topic/the-net-framework-4-7-offline-installer-for-windows-f32bcb33-5f94-57ce-6120-62c9526a91f2) |
+|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**. Initially, no downloads are needed. <br/> • When you install this feature, or if it's already installed and you're checking it, you must make sure that the **HTTP Activation** option is also selected and installed, as follows.<br/><br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/><br/> Don't worry if you get another pop-up window that states that some other things have to be installed in order for HTTP Activation to be installed. That's normal. Select OK and continue. If you don't get this pop-up window, you can assume that those things are already installed.  <br/> Microsoft .NET Framework is installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably have to update it. You can find the update [here](https://support.microsoft.com/topic/the-net-framework-4-7-offline-installer-for-windows-f32bcb33-5f94-57ce-6120-62c9526a91f2) |
 |Media Foundation   |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
-|Windows Identity Foundation   |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected, you're all set. Otherwise, select it, and then select **Next** to reach the **Install** button.  |
+|Windows Identity Foundation   |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected,  all set. Otherwise, select it, and then select **Next** to reach the **Install** button.  |
 |Remote Server Administration Tools   |Role Administration Tools: AD DS and AD LDS tools   |
    
  **Front End Servers and Standard Edition server**
@@ -182,7 +178,7 @@ IIS, with the following modules selected:
     
   - ISAPI Filters
     
-(If you're wondering, it's the same module set as the Front End Servers and Standard Edition servers, with the Dynamic Content Compression and Management Tools left out.)
+(In case you're wondering, it's the same module set as the Front End Servers and Standard Edition servers, not including the Dynamic Content Compression and Management Tools.)
   
 And we have some PowerShell code for this, too:
   
@@ -190,13 +186,9 @@ And we have some PowerShell code for this, too:
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
 ```
 
-## Upgrading to Windows Server 2022
+## Installation of compatibility script for Windows Server 2022
 
-Upgrading your **Skype for Business Server** to the latest operating system is a critical step in ensuring continued functionality and security. For **Skype for Business Server**, the process varies depending on whether you're performing a fresh installation on Windows Server 2022 or upgrading an existing Skype for Business installation on Windows Server 2019.
-
-### Installation of Compatibility Script for Windows Server 2022
-
-When you're setting up the **Skype for Business Server** for the first time for Windows Server 2022, you must run the following script to ensure compatibility with Windows Server 2022.
+When you set up the **Skype for Business Server** for Windows Server 2022, you must run the following script to ensure compatibility with Windows Server 2022:
 
 ```powershell
 $providerName = "AesProvider"
@@ -231,7 +223,7 @@ $applicationHostConfigFile.Save($applicationHostConfigPath)
 ## Back-end databases that work with Skype for Business Server 2019
 <a name="DBs"> </a>
 
-When installing Skype for Business Server 2019 Standard Edition, you have SQL Server 2016 Express (64-bit edition).
+When you install Skype for Business Server 2019 Standard Edition, you have SQL Server 2016 Express (64-bit edition).
 
 Skype for Business Server 2019 Enterprise Edition requires full SQL Server, as indicated here (only 64-bit edition; don't use 32-bit editions):
   
@@ -242,13 +234,13 @@ Skype for Business Server 2019 Enterprise Edition requires full SQL Server, as i
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
 > [!NOTE]
-> You also need to install SQL Server Reporting Services for the Monitoring Server role. 
+> You also must install SQL Server Reporting Services for the Monitoring Server role. 
   
-### SQL Clustering, and SQL Always On
+### SQL Clustering and SQL Always On
 
 SQL Clustering with Skype for Business Server 2019 is supported. If you want to set up SQL Clustering, that's done in SQL Server.
   
-Make sure you have an active/passive configuration for SQL Clustering, which is supported. Don't share the passive node with any other SQL instance.
+Make sure that you have an active/passive configuration for SQL Clustering, which is supported. Don't share the passive node with any other SQL instance.
   
 For failover clustering, you can have:
   
@@ -273,7 +265,7 @@ Don't install any Microsoft Internet Security and Acceleration (ISA) Server clie
 ## Active Directory
 <a name="AD"> </a>
 
-Although much of the configuration data for servers and services is stored in the Skype for Business Server 2019 Central Management store, there are some things still stored in Active Directory:
+Although much of the configuration data for servers and services is stored in the Skype for Business Server 2019 Central Management store, some things are still stored in Active Directory.
   
 |Active Directory objects|Object types|
 |:-----|:-----|
@@ -295,23 +287,23 @@ The following Domain Controller operating systems can be used:
 - Windows Server 2012 R2
 - Windows Server 2012
 
-The domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2019 into, must be one of the following:
+The domain functional level of any domain that you deploy Skype for Business Server 2019 into, and the forest functional level of any forest that you deploy Skype for Business Server 2019 into, must be one of the following:
   
 - Windows Server 2016
 - Windows Server 2012 R2
 - Windows Server 2012
 
-Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controllers available.
+Can you have read-only domain controllers in these environments? Yes, you can — as long as writable domain controllers are also available.
   
-It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/).
+It's important to know that Skype for Business Server 2019 doesn't support single-labeled domains. What are these? If you have a root domain that's labeled "contoso.local," that will work. If you have a root domain that's named "local," that will not work, and it's not supported. For more information, see [Deployment and operation of Active Directory domains that are configured by using single-label DNS names](../troubleshoot/windows-server/identity/deployment-operation-ad-domains).
   
-Skype for Business Server 2019 also doesn't support renaming domains. If you really have to rename your domain, you need to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
+Skype for Business Server 2019 also doesn't support renaming domains. If you must rename your domain, you have to uninstall Skype for Business Server 2019, do the domain rename, and then reinstall Skype for Business Server 2019.
   
-Finally, you may be dealing with a domain with a locked-down AD DS environment, and that's alright. We have more information on how to deploy Skype for Business Server 2019 into a locked-down AD DS environment in the Deployment documentation.
+Finally, you may be dealing with a domain that has a locked-down AD DS environment, and that's acceptable. We have more information about how to deploy Skype for Business Server 2019 into a locked-down AD DS environment in the Deployment documentation.
   
 ### AD Topologies
 
-Supported topologies in Skype for Business Server 2019 are:
+Supported topologies in Skype for Business Server 2019 are as follows:
   
 - Single forest with single domain
     
