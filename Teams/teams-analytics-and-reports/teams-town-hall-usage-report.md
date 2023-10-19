@@ -18,6 +18,8 @@ appliesto:
 ---
 # Microsoft Teams town hall usage report
 
+**APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
+
 The Teams town hall usage report in the Microsoft Teams admin center shows you the activity overview for town hall created in your organization. You can view usage information, including the event title, event ID, start time, end time, event access type, and the names of the organizers, presenters, and co-organizers for each event. You can gain insight into usage trends and see who in your organization schedules and produces town halls.
 
 ## View the town hall usage report
