@@ -111,11 +111,11 @@ You must ensure the following:
 
 
 
-### Microsoft Calling Plan considerations
+### Direct Routing combined with Calling Plans and Operator Connect
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
+Direct Routing also supports users who are licensed for Microsoft Calling Plan or assigned an Operator Connect phone number. Teams Phone with Calling Plan or Operator Connect enabled users can route some calls using the Direct Routing interface. 
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan. Calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
+Mixing Calling Plan or Operator Connect and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan or Operator Connect number but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs. With this configuration, calls to the phones connected to the third-party PBX are routed using Direct Routing and therefore stay within the enterprise network, not traversing the PSTN. Meanwhile, all other calls are routed to the PSTN based on the users’ assigned PSTN connectivity method: Microsoft Calling Plan or Operator Connect.
 
 For more information about Teams Phone licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
