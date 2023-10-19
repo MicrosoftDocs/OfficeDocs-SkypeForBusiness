@@ -27,7 +27,7 @@ The Teams town hall usage report in the Microsoft Teams admin center shows you t
 3. Under **Organizer**, you can choose to show only town halls organized by a specific user.
 4. Select **Run report**.  
 
-   :::image type="content" alt-text="Screenshot of the Teams town hall usage report in the Teams admin center with callouts." source="../media/townhall-usage-small.png" lightbox="../media/townhall-usage-expand.png":::
+   :::image type="content" alt-text="Screenshot of the Teams town hall usage report in the Teams admin center with callouts." source="../media/towhall-usage-small.png" lightbox="../media/townhall-usage-expand.png":::
 
 ## Interpret the report
 
