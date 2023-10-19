@@ -92,10 +92,10 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 
 ### Restore the deleted Microsoft 365 group
 
-1. Connect to Azure AD by running the following:
+1. Connect to Microsoft Graph by running the following:
 
     ```PowerShell
-    Connect-AzureAD
+    Connect-MgGraph
     ```
 
     When you're prompted, sign in using your admin account and password.
@@ -103,20 +103,20 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 1. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have many groups.
 
     ```PowerShell
-    Get-AzureADMSDeletedGroup
+    Get-MgDirectoryDeletedItem
     ```
 
 1. Find the group that you want to restore, and then make a note of the `Id`.
 1. Run the following to restore the group, where `[Id]` is the group ID.
 
     ```PowerShell
-    Restore-AzureADMSDeletedDirectoryObject -Id [Id]
+    Restore-MgDirectoryDeletedItem -Id [Id]
     ```
 
 1. Run the following to verify the group was successfully restored, where `[Id]` is the group ID.
 
     ```PowerShell
-    Get-AzureADGroup -ObjectId [Id]
+    Get-MgGroup -ObjectId [Id]
     ```
 
     It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
