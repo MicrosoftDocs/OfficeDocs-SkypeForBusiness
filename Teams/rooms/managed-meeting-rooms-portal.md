@@ -114,7 +114,7 @@ Following are some of the types of incidents that you might see and the explanat
 
 |Type |Explanation |
 | :- | :- |
-|**App version** |The version of the Microsoft Teams Rooms App running on the device isn't current. Stale versions are known causes to problems experienced by users. |
+|**App version** |The version of the Microsoft Teams Rooms App running on the device isn't current. Stale versions are known causes of problems experienced by users. |
 |**OS version** |The version of Windows operating system running in the meeting room is no longer recommended. |
 |**Network** |This will be removed as a type of warning in the near term due to additional work required after evaluation. |
 
