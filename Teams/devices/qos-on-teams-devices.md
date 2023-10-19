@@ -29,11 +29,11 @@ Deploying one or many Microsoft Teams Rooms devices requires planning. One of th
 
 This article explains:
 
-1. [How much bandwidth a Teams Room device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
+1. [How much bandwidth a Teams Rooms device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
 1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
 1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
-Wired network connectivity is recommended for Microsoft Teams Room devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
+Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
 ## How much bandwidth will a Microsoft Teams Rooms device use?
 
