@@ -18,6 +18,8 @@ appliesto:
 ---
 # Microsoft Teams webinar usage report
 
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
+
 The Teams webinar usage report in the Microsoft Teams admin center shows you the activity overview for webinars created in your organization. You can view usage information, including the event title, event ID, start time, end time, event access type, and the names of the organizers, presenters, and co-organizers for each event. You can gain insight into usage trends and see who in your organization schedules and produces webinars.
 
 ## View the webinar usage report
