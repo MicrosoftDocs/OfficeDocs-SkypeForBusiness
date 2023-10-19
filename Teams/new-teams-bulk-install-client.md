@@ -28,7 +28,7 @@ Direct or "bulk" upgrades are helpful because users don't need to manually downl
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
 >[!Note]
->An **offline install mode of the bootstrapper** will be available soon.  Check back for updates.
+>An **offline install mode of the bootstrapper** will be available soon. Check back for updates.
 
 ## How it works
 
