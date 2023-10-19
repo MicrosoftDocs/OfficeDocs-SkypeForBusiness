@@ -491,7 +491,7 @@ items:
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
         - name: Teams town hall usage report
-          href: teams-analytics-and-reports/teams-hall-usage-report.md
+          href: teams-analytics-and-reports/teams-town-hall-usage-report.md
         - name: Teams webinar usage report
           href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
