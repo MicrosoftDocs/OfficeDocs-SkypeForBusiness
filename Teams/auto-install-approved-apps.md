@@ -6,7 +6,8 @@ manager: prkosh
 ms.service: msteams
 ms.subservice: teams-apps
 ms.topic: article
-ms.date: 08/22/2023
+ms.date: 10/18/2023
+ms.reviewer: nguyenb
 search.appverid: 
 description: Auto install apps in Teams that are approved by admins and used by users outside Teams.
 audience: admin

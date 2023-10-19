@@ -16,6 +16,7 @@ search.appverid: MET150
 ms.reviewer: mhayrapetyan
 ms.date: 10/17/2023
 description: Understand permissions and manage consent for Teams apps to access the required org information.
+ms.reviewer: Orion.OMalley
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
