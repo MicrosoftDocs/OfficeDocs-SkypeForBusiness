@@ -33,7 +33,7 @@ Organizers with a Teams Premium license can see engagement information that capt
 
 As an admin, you control whether organizers can download an attendance report. By default, the ability to download the report is on.
 
-During the meeting or event, organizers can find the attendance and engagement report in the **People** > **Participants** pane of the meeting, in areas within the invite, and in the chat. After the meeting or event has ended, organizers can view and download the attendance and engagement report under the **Attendance** tab of the meeting invite or meeting chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+During the meeting or event, organizers can find the attendance and engagement report in the **People** > **Participants** pane of the meeting, in areas within the invite, and in the chat. After the meeting or event has ended, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 For education tenants, the attendance and engagement report can be used to track student attendance and engagement in online classes. For example, a teacher can download the attendance report at the start of class as a simple way to do a roll call. If the teacher has a Teams Premium license, they can also see how many students reacted, raised their hand, unmuted, interacted with Q&A and turned on their cameras during the online class.
 
