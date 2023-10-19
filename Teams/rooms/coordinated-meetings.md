@@ -153,7 +153,7 @@ To set up Coordinated Meetings on a device, do the following:
 6. Restart the device. You can do this a couple ways:
 
     - **Remote PowerShell** You can run the Shutdown command on the device using Remote PowerShell. For more information, see [Remote Management using PowerShell](../rooms/rooms-operations.md).
-    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
+    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](/powershell/module/microsoft.powershell.management/restart-computer).
 
 ## Step 5: Configure Surface Hub
 
