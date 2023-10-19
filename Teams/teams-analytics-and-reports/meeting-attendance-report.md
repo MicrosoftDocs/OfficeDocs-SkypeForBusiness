@@ -25,6 +25,8 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
+[!INCLUDE[Teams Premium](../includes/teams-premium-ecm.md)]
+
 The attendance and engagement report for Teams meetings and events shows organizers who attended a meeting, webinar, or town hall, what time each attendee joined, left, and more.
 
 Organizers with Teams Premium license can see engagement information that captures how attendees reacted and interacted during the meeting or event. The engagement data shows the total count of attendees that unmuted, turned on their cameras, raised their hands, used each type of meeting reaction, and the total of questions, answers and discussions initiated by anyone through Q&A.
