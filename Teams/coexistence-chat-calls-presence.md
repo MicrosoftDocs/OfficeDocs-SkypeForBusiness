@@ -80,7 +80,7 @@ In the tables that follow:
 - **Skype for Business*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 - *Italic text* highlights an interop conversation.
 - **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-premises and hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point for their upgrade journey to Teams.
-
+-islands users using microsoft teams client can initiate federated group chats.
 
 ### In-tenant routing for new chats or calls
 
