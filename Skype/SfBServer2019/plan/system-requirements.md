@@ -43,7 +43,7 @@ As you might expect, there are some preparations to make before you begin to dep
 
 After you have your topology established (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 server requires 64-bit hardware. Our recommendations for hardware are listed in the following tables. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that helps you determine whether you need more than these requirements, depending on your circumstances.
   
-Recommended hardware for Standard Edition servers
+**Recommended hardware for Standard Edition servers**
 
 |Hardware component|Recommended|
 |:-----|:-----|
@@ -52,7 +52,7 @@ Recommended hardware for Standard Edition servers
 |Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to eight 10,000 RPM mechanical disk drives.   |
 |Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.   |
 
-Recommended hardware for Front End and Back End Servers
+**Recommended hardware for Front End and Back End Servers**
   
 |Hardware component|Recommended|
 |:-----|:-----|
@@ -61,7 +61,7 @@ Recommended hardware for Front End and Back End Servers
 |Disk   |EITHER:  <br/> • Eight or more 10,000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to eight 10,000 RPM mechanical disk drives.   |
 |Network   |One dual-port network adapter, 1 Gbps or greater (two network adapters can be used, but they have to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> You can have out-of-band management systems, such as DRAC or ILO, as long as they aren't exposed to the operating system and are used to monitor and manage server hardware. This scenario doesn't constitute a multi-homed server, and it's supported.
 
-Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors
+**Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors**
   
 |Hardware component|Recommended|
 |:-----|:-----|
@@ -90,9 +90,9 @@ Anything other than the operating systems that are listed here won't work correc
 > [!NOTE]
 > - Windows Server 2022 qualifies only with Skype for Business Server 2019 for Cumulative Update 7 and later versions (minimum Build Number 2046.524).
 > 
-> - An in-place upgrade of the OS is not supported. You must deploy a separate pool and migrate users to the new pool with a different OS. All servers in a pool must have the same OS version.
+> - An in-place upgrade of the OS is not supported. You must deploy a separate pool that's running a different OS, and then migrate users to the new pool. All servers within a pool must have the same OS version.
 > 
-> - If you are installing Windows Admin Center 2019 on your Windows Server 2019 computer, the program prompts you for a port to listen on. There's a likelihood that you might choose port 443. However, if that computer has Skype for Business Server 2019 installed, or is going to have Skype for Business Server 2019 installed, then you must choose a different port number.
+> - If you are installing Windows Admin Center 2019 on your Windows Server 2019 computer, the program prompts you for a port to listen on. There's a likelihood that you might choose port 443. However, if that computer has Skype for Business Server 2019 installed, or will have Skype for Business Server 2019 installed, then you must choose a different port number.
 > 
 >   Why? If Windows Admin Center 2019 is running on port 443, you won't be able to connect to the server by using the Skype for Business Control Panel, nor will you be able to connect to any internal web service that's running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, and so on). In fact, you won't be able to connect to any Internal Web Service URL. In the event that you might need or want to put Windows Admin Center 2019 on a server that has Skype for Business Server 2019, choose a different port.
 
@@ -221,20 +221,20 @@ $applicationHostConfigFile.Save($applicationHostConfigPath)
 ```
 
 ## Back-end databases that work with Skype for Business Server 2019
-<a name="DBs"> </a>
+<a name="DBs"></a>
 
-When you install Skype for Business Server 2019 Standard Edition, you have SQL Server 2016 Express (64-bit edition).
+When you install Skype for Business Server 2019 Standard Edition, SQL Server 2016 Express (64-bit edition) is also installed.
 
-Skype for Business Server 2019 Enterprise Edition requires full SQL Server, as indicated here (only 64-bit edition; don't use 32-bit editions):
+Skype for Business Server 2019 Enterprise Edition requires the full version of SQL Server, as indicated here (only 64-bit edition; don't use 32-bit editions):
   
-- Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.
-- Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.
-- Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.
+- Microsoft SQL Server 2019 (64-bit edition) - must be run together with the latest updates
+- Microsoft SQL Server 2017 (64-bit edition) - must be run together with the latest updates
+- Microsoft SQL Server 2016 (64-bit edition) - must be run together with the latest updates
 
-If you don't see the SQL Server edition you want to use listed here, you can't use it.
+If you don't see the SQL Server edition that you want to use listed here, you can't use it.
   
 > [!NOTE]
-> You also must install SQL Server Reporting Services for the Monitoring Server role. 
+> You must also install SQL Server Reporting Services for the Monitoring Server role. 
   
 ### SQL Clustering and SQL Always On
 
@@ -425,7 +425,7 @@ For more information about DNS requirements for Networking, check out the [Netwo
 ## Certificates
 <a name="Certs"> </a>
 
-One of the most important things you can do before deploying is make sure you have your certificates in order. Skype for Business Server 2019 needs a public key infrastructure (PKI) for transport layer security (TLS) and mutual transport layer security (MTLS) connections. Basically, to communicate securely in a standardized way, Skype for Business Server uses certificates issued by Certificate Authorities (CAs).
+One of the most important things you can do before deploying is to make sure that you have your certificates in order. Skype for Business Server 2019 needs a public key infrastructure (PKI) for transport layer security (TLS) and mutual transport layer security (MTLS) connections. Basically, to communicate securely in a standardized way, Skype for Business Server uses certificates that are issued by Certificate Authorities (CAs).
   
 These are some of the things that Skype for Business Server 2019 uses certificates for:
   
@@ -454,19 +454,19 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
 - Auto-enrollment isn't supported for Skype for Business Server 2019 Edge Servers.
     
 > [!NOTE]
-> Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems. 
+> Using the RSASSA-PSS signature algorithm is unsupported and may cause errors on login and call forwarding issues, among other problems. 
   
 - Encryption key lengths of 1024, 2048, and 4096 are supported. Key lengths of 2048 and greater are recommended.
     
 - The default digest, or hash signing, algorithm is RSA. The ECDH_P256, ECDH_P384, and ECDH_P521 algorithms are also supported.
     
-That's a lot to think about, and there are a variety of comfort levels with requesting certificates from a CA. We'll give you some further guidance in the following sections to make your planning as painless as possible.
+That's a lot to think about, and there are various comfort levels for requesting certificates from a CA. We'll give you some further guidance in the following sections to make your planning as painless as possible.
   
 ### Certificates for your internal servers
 
-You need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want to, you can request these certificates from an external CA (one located on the Internet). If you're wondering what public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
+You need certificates for most of your internal servers, and most likely, you'll get them from an internal CA (that's a CA located in your domain). If you want, you can request these certificates from an external CA (one located on the Internet). If you're wondering which public CA you should go to, you can check out the [Unified Communications certificate partners](../../SfbPartnerCertification/certification/services-ssl.md) list.
   
-You're also going to need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, have to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested, we have an additional planning article for OAuth and Skype for Business Server 2019.
+You will also need certificates when Skype for Business Server 2019 communicates with other applications and servers, such as Microsoft Exchange Server. This will, obviously, have to be a certificate that these other apps and servers can use in a supported way. Skype for Business Server 2019 and other Microsoft products support the Open Authorization (OAuth) protocol for server-to-server authentication and authorization. If you're interested, we have an additional planning article for OAuth and Skype for Business Server 2019.
   
 Skype for Business Server 2019 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
   
@@ -478,37 +478,37 @@ To keep things straightforward, we've put the certificate requirements for Stand
     
 - As per the following sample names, if you've configured sipinternal.contoso.com, or sipexternal.contoso.com in your DNS, they have to be added to the certificate's Subject Alternative Name (SAN).
     
-Certificates for Standard Edition servers:
+**Certificates for Standard Edition servers**
   
 |Certificate|Subject name/common name|Subject alternative name|Example|Comments|
 |:-----|:-----|:-----|:-----|:-----|
-|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |On Standard Edition servers, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
+|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain that you have).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |On Standard Edition servers, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
 |Web internal   |FQDN of the server   |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com   |You can't override the Internal web FQDN in Topology Builder.  <br/> If you have multiple Meet simple URLs, you must include all of them as SANs.  <br/> Wildcard entries are supported for the simple URL entries.   |
 |Web external   |FQDN of the server   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Meet simple URLs per SIP domain  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
    
-Certificates for Front End Servers in a Front End pool:
+**Certificates for Front End Servers in a Front End pool**
   
 |Certificate|Subject name/common name|Subject alternative name|Example|Comments|
 |:-----|:-----|:-----|:-----|:-----|
-|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
+|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain that you have).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
 |Web internal   |FQDN of the pool   |Each of the following:  <br/> • Internal web FQDN (which is NOT the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
 |Web external   |FQDN of the pool   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
    
-Certificates for the Director:
+**Certificates for the Director**
   
 |Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
-|Default   |Director pool   |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain you have).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
+|Default   |Director pool   |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain that you have).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
 |Web internal   |FQDN of the server   |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com   |
 |Web external   |FQDN of the server   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Meet simple URLs per SIP domain  <br/> • Dial-in simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |The Director external web FQDN must be different from the Front End pool or Front End Server.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com   |
    
-Certificates for Stand-alone Mediation Server:
+**Certificates for Stand-alone Mediation Server**
   
 |Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
 |Default   |FQDN of the pool   |FQDN of the pool  <br/> FQDN of the pool member server   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
-Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Appliance 2015 for Skype for Business Server 2019):
+**Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Appliance 2015 for Skype for Business Server 2019)**
   
 |Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
@@ -518,11 +518,11 @@ Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Ap
 
 Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface uses a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this also, if it's from a trusted CA.
   
-Your reverse proxy (RP) is also going to use a public certificate, and it encrypts the communication from your RP to clients, and the RP to internal servers by using HTTP (or more precisely, TLS over HTTP).
+Your reverse proxy (RP) will also use a public certificate, and it encrypts the communication from your RP to clients, and the RP to internal servers by using HTTP (or more precisely, TLS over HTTP).
   
 ### Certificates for mobility
 
-If you're deploying mobility and you're supporting automatic discovery for mobile clients, you're going to need to include some additional subject alternate name entries on your certificates to support the secure connections from the mobile clients.
+If you're deploying mobility and you're supporting automatic discovery for mobile clients, you will have to include some additional subject alternate name entries on your certificates to support the secure connections from the mobile clients.
   
 You need SAN names for automatic discovery on the following certificates:
   
@@ -534,41 +534,41 @@ You need SAN names for automatic discovery on the following certificates:
     
 The specifics are listed in the tables that follow.
   
-This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricey.
+This is where a little pre-planning is good. But sometimes, you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing the certificates through an internal CA is typically pretty easy. But for public certificates from a public CA, that can be a little more pricey.
   
-If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). For more information, see [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md).
+If that's the situation that you're looking at, and if you have lots of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request instead of using HTTPS (the default configuration). For more information, see [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md).
   
-Director pool and Front End pool certificate requirements:
+**Director pool and Front End pool certificate requirements**
   
 |Description|SAN entry|
 |:-----|:-----|
 |Internal Autodiscover service URL   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
 |External Autodiscover service URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
-You can alternatively use SAN=\*.\<sipdomain\>
+You can, alternatively, use SAN=\*.\<sipdomain\>
   
-Reverse Proxy (Public CA) certificate requirements:
+**Reverse Proxy (Public CA) certificate requirements**
   
 |Description|SAN entry|
 |:-----|:-----|
 |External Autodiscover service URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
-This SAN needs to be assigned to the certificate that's assigned to the SSL Listener on your reverse proxy.
+This SAN must be assigned to the certificate that's assigned to the SSL Listener on your reverse proxy.
   
 > [!NOTE]
-> Your reverse proxy listener is going to have SANs for your external Web Services URL(s). Some examples would be SAN=skypewebextpool01.contoso.com and dirwebexternal.contoso.com, if you've deployed the Director, (which is optional). 
+> Your reverse proxy listener will have SANs for your external Web Services URL(s). Some examples would be SAN=skypewebextpool01.contoso.com and dirwebexternal.contoso.com, if you've deployed the Director (optional). 
   
 ## File share
 <a name="Fileshare"> </a>
 
-Skype for Business Server 2019 can use the same file share for all file storage. You do need to keep the following in mind:
+Skype for Business Server 2019 can use the same file share for all file storage. You should keep the following in mind:
   
-- A file share has to be on either direct attached storage (DAS) or a storage area network (SAN). This requirement includes the Distributed File System (DFS) and also a redundant array of independent disks (RAID) for file stores. For more information about DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
+- A file share has to be on either direct attached storage (DAS) or a storage area network (SAN). This requirement includes the Distributed File System (DFS) and also a redundant array of independent disks (RAID) for file stores. For more information about DFS for Windows Server 2012, see [DFS Namespaces and DFS Replication Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- We recommend a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions.
+- We recommendthat you use a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions.
 
 > [!Note]
-> **Why the latest Windows?** Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares. See this support article [How to create file shares on a cluster](https://support.microsoft.com/help/224967) for more details.
+> **Why the latest Windows?** Earlier versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares. For more information, see [How to create file shares on a cluster](https://support.microsoft.com/help/224967).
     
 > [!CAUTION]
 > You should know that using network attached storage (NAS) as a file share isn't supported. Therefore, use one of the options that are listed here. This support limitation is caused by the variable design of NAS devices that have to provide file system adaptability to the Windows Server-based computer that accesses the devices' shared file system.
