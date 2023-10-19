@@ -11,7 +11,7 @@ ms.date: 08/16/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: 
+ms.reviewer: mbmanoj
 search.appverid: 
 f1keywords: 
 description: Learn how to set Adobe Acrobat as a default PDF viewer to view and edit PDF files in Microsoft Teams.
