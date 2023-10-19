@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.reviewer: tolgaki
+ms.reviewer: Orion.OMalley
 ms.date: 08/22/2023
 description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
