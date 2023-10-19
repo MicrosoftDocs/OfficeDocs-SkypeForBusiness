@@ -25,7 +25,8 @@ ms.localizationpriority: high
 - Annotations from the Presenter toolbar isn't currently available.
 - PowerPoint Live Standout isn't yet available.
 - Detecting multiple languages for spellchecker isn't currently available. Users need to change both their OS and app language to recognize the language in new Teams.
-- Scheduling redirects you to classic Teams web. Producing isn't currently available.
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
+- Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 
 ## Coming in October
 
