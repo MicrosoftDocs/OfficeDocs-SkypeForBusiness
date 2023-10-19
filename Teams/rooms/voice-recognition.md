@@ -40,23 +40,23 @@ The following items are Intelligent Speaker requirements:
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
-Epos, Sennheiser, and Yealink intelligent speakers are supported.
+Epos, Jabra, Sennheiser, and Yealink Intelligent Speakers are supported.
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console or compute module.
 
 > [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
-An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
+An Intelligent Speaker that is of a speakerphone design should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
-   You can also do this through the TAC portal instead of at the room console.
+   You can also do this through the Microsoffot Teams admin center(TAC) portal instead of at the room console.
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
@@ -68,6 +68,8 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 > [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
+>The Jabra Panacast 50 connects directly into the Microsoft Teams Rooms compute module and not the center of table console. For the Jabra PanaCast 50, make sure you set the Playback Deviee Type to ?Microsoft Teams Rooms device. After rebooting the Jabra PanaCast 50, you should see devices with "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name.
+> 
 
 ## Enable an Intelligent Speaker user recognition
 
