@@ -58,7 +58,7 @@ For education tenants, the attendance and engagement report can be used to track
 
 ## Manage attendance report policies with PowerShell
 
-In PowerShell, you can use the `-AllowEngagementReport` parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) to turn on attendance reports. This policy is on by default.
+In PowerShell, you can use the `-AllowEngagementReport` parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) to turn on attendance and engagement reports. This policy is on by default.
 
 To turn off attendance reports, use the following script:
 
@@ -66,14 +66,14 @@ To turn off attendance reports, use the following script:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Disabled
 ```
 
-To turn on attendance reports that initially exclude all participants, but provide participants the ability to opt in, use the following script:
+To turn on attendance and engagement reports that initially exclude all attendees, but provide attendees the ability to opt in, use the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport ForceEnabled
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTrackingInReport DisabledUserOverride
 ```
 
-To give organizers the option to turn on or turn off attendance reports that only show who attended and exclude other data, run the following script:
+To give organizers the option to turn attendance and engagement reports that only show who attended and exclude other data on or off, run the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowEngagementReport Enabled
