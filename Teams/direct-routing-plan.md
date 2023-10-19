@@ -49,7 +49,7 @@ For more information about voice solutions, see [Plan your Teams voice solution]
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user doesn't have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
 
-Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plan-and-operator-connect). 
+Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect). 
 
 ## Infrastructure requirements
 
@@ -83,7 +83,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Microsoft Calling Plan considerations](#microsoft-calling-plan-considerations).
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
 ### Audio Conferencing requirements and considerations
 
