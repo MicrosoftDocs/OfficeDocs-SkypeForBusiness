@@ -46,17 +46,17 @@ For education tenants, the attendance and engagement report can be used to track
     - **Everyone** - The attendance report is available for all webinars, town halls, or meetings organizers create; organizers can't turn off attendance reports.
 
 1. For **Include attendees in the report**, choose one of the following options:
-    - **Everyone, but attendees can opt-out** -  This option is the **default setting.** The attendance report initially includes all participants. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
-    - **No one, but attendees can opt-in** - The attendance report initially excludes all participants. To opt in, Participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
-    - **Everyone** - The attendance report includes all participants, and participants can't opt out.
-    - **No one** - The attendance report excludes all participants, and participants can't opt in.
+    - **Yes, but attendees can opt-out** -  This option is the **default setting.** The attendance report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
+    - **No, but attendees can opt-in** - The attendance report initially excludes all attendees. To opt in, attendees can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
+    - **Always** - The attendance report includes all attendees, and attendees can't opt out.
+    - **Never** - The attendance report excludes all attendees, and attendees can't opt in.
 1. For **Attendance information**, choose one of the following options:
     - **Show everything** - Include attendees' join times, leave times, and in-meeting duration. This setting is on by default.
     - **Only show who attended** - Doesn't include attendees' join times, leave times, and in-meeting duration.
 1. Once you've made your policy setting selections, select **Save** at the bottom of the page.
 
 > [!NOTE]
-> As an administrator, you can’t view the attendance report for meetings, webinars, or town halls that you don’t organize. However, you can view participant details for a given meeting, webinar, or town hall within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
+> As an administrator, you can’t view the attendance report for meetings, webinars, or town halls that you don’t organize. However, you can view attendees details for a given meeting, webinar, or town hall within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
 
 ## Manage attendance report policies with PowerShell
 
