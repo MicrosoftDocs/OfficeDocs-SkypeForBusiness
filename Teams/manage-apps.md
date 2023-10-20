@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - tier2
   - highpri
-ms.reviewer: tolgaki
+ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
