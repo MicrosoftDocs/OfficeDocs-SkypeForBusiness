@@ -29,16 +29,16 @@ The Teams town hall usage report in the Microsoft Teams admin center shows you t
 3. Under **Organizer**, you can choose to show only town halls organized by a specific user.
 4. Select **Run report**.  
 
-   :::image type="content" alt-text="Screenshot of the Teams town hall usage report in the Teams admin center with callouts." source="../media/towhall-usage-small.png" lightbox="../media/townhall-usage-expand.png":::
-
 ## Interpret the report
+
+   :::image type="content" alt-text="Screenshot of the Teams town hall usage report in the Teams admin center with callouts." source="../media/towhall-usage-small.png" lightbox="../media/townhall-usage-expand.png":::
 
 |Callout |Description  |
 |--------|-------------|
 |**1**   |The Teams town hall usage report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
 |**2**   |Each report has a date for when it was generated. The report reflects near real time activity when the page is refreshed. |
 |**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the total view count.</li> </ul>Hover over the dot on a given date to see the number of views across all town halls on that date.|
-|**4**   |The table gives you a breakdown of each town hall. <ul><li>**Event ID** is the unique ID of the town hall</li> <li>**Event Title** is the name the organizer created for the town hall.</li><li>**Start Time(UTC)** refers to the start date and time of the town hall.</li><li>**End Time(UTC)** refers to the end date and time of the town hall.</li><li>**Organizer** is the name of the town hall organizer.</li> <li>**Co-organizer** is the name of the town hall co-organizer.</li></li><li>**Presenters** is the name of the town hall presenter.</li></li><li>**Event access type** specifies whether the town hall access was in org or private.</li></li> </ul>If a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>
+|**4**   |The table gives you a breakdown of each town hall. <ul><li>**Event ID** is the unique ID of the town hall</li> <li>**Event Title** is the name the organizer created for the town hall.</li><li>**Start Time(UTC)** refers to the start date and time of the town hall.</li><li>**End Time(UTC)** refers to the end date and time of the town hall.</li><li>**Organizer** is the name of the town hall organizer.</li> <li>**Co-organizer** is the name of the town hall co-organizer.</li></li><li>**Presenters** is the name of the town hall presenter.</li></li><li>**Event access type** specifies whether the town hall access was in org or public.</li></li> </ul>If a user account no longer exists in Azure AD, the user name is displayed as "--" in the table. <br><br>
 
 > [!NOTE]
 > We show a maximum of up to 100 town halls that match the current report criteria. To see more town halls, apply date filters to reduce the list size.
