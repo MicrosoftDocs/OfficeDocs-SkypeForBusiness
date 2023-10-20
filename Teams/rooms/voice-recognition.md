@@ -56,7 +56,7 @@ An Intelligent Speaker that is of a speakerphone design should be placed at leas
 
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
-   You can also do this through the Microsoffot Teams admin center(TAC) portal instead of at the room console.
+   You can also do this through the Microsoft Teams admin center (TAC) portal instead of at the room console.
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
