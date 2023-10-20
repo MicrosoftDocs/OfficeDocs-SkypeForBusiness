@@ -69,7 +69,6 @@ An Intelligent Speaker that is of a speakerphone design should be placed at leas
 > [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
 > The Jabra Panacast 50 connects directly to the Microsoft Teams Rooms compute module and not the center of table console. For the Jabra PanaCast 50, make sure you set the Playback Device Type to Microsoft Teams Rooms device. After restarting the Jabra PanaCast 50 you should see devices with "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name.
-> 
 
 ## Enable an Intelligent Speaker user recognition
 
