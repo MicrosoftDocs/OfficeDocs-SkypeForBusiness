@@ -11,7 +11,7 @@ ms.collection:
   - m365solution-spcomms
   - m365solution-scenario
   - highpri
-ms.reviewer: 
+ms.reviewer: sachung, bryanyce
 ms.date: 07/10/2018
 audience: admin
 search.appverid: MET150
@@ -27,8 +27,6 @@ ms.localizationpriority: medium
 ---
 
 # What are Microsoft Teams live events
-
-## Overview
 
 > [!NOTE]
 > Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
@@ -96,7 +94,6 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
-- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### Attendee experience
 

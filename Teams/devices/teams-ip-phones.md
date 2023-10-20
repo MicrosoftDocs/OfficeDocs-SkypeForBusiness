@@ -347,6 +347,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
+|Audiocodes RXPanel | '2.2.311' |2023 Update #3|
 |Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
 |Poly TC10 | `5.0.0.211238` | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.10 ` | 2023 Update #2 |
