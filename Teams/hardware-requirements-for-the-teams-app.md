@@ -55,7 +55,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Operating system  |    One of the three most recent versions of macOS. You can find information about the latest macOS versions, and how to upgrade your version of macOS, [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE requires Bluetooth to be enabled on the client device.</li></ul>
+|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE requires Bluetooth to be enabled on the client device.</li></ul>
 |
 
 ## Hardware requirements for Teams on Linux
