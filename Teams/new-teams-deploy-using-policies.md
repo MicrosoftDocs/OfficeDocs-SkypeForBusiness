@@ -182,13 +182,14 @@ After they opt out, the toggle won't appear when they relaunch Teams. To prevent
 
 ### Remove new Teams
 
-To remove the new Teams from all users' on a computer, use the following PowerShell command:
+To remove the new Teams from all users on a computer, use the following PowerShell command:
 
 ```powershell
 Get-AppxPackage *MSTeams* -AllUsers | Remove-AppxPackage -AllUsers
 ```
 
 To remove the new teams for an individual user without administrator privilege, use this command:
+
 ```powershell
 Get-AppxPackage *MSTeams* | Remove-AppxPackage
 ```
