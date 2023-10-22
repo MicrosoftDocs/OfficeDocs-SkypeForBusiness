@@ -160,9 +160,9 @@ The vision for the future of meetings is grounded in a simple belief: meetings s
 
 ## What is a Signature Teams Room?
 
-In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. A Signature Teams Room is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. A Signature Teams Rooms is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
-The concept for the Signature Teams Room is designed around two key goals that are supported by a set of experience principles.
+The concept for the Signature Teams Rooms is designed around two key goals that are supported by a set of experience principles.
 
 **Goal 1: Everyone in the meeting feels included, represented, and productive.**
 
@@ -180,7 +180,7 @@ Design principles:
 
 - Experiences are scaled for human connection, enabling interactions that feel like everyone is in the same room.
 
-A Signature Teams Room experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our Signature Teams Rooms may also be deployed on their own.
+A Signature Teams Rooms experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our Signature Teams Rooms may also be deployed on their own.
 
 Examples of specific feature deployment:
 
@@ -192,11 +192,11 @@ Examples of specific feature deployment:
 
 Signature Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the Signature Teams Room experiences. It's the combination of these components that comprise a Signature Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to a Signature Teams Room, consider the following:
+Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the Signature Teams Rooms experiences. It's the combination of these components that comprise a Signature Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to a Signature Teams Room, consider the following:
 
 - What hardware upgrades and/or investments would need to be made.
 
-- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. A Signature Teams Room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
+- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. A Signature Teams Rooms prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space
 
@@ -230,7 +230,7 @@ An ultrawide-angle camera is positioned at the front of the room below the displ
 
 The ultrawide-angle camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
-![Rendering of a Signature Teams Room from an overhead view.](../media/emr5.png)
+![Rendering of a Signature Teams Rooms from an overhead view.](../media/emr5.png)
 
 ### How do the front-of-room displays work?
 
@@ -242,13 +242,13 @@ To give people in the room a greater sense of connection to remote participants 
 
 Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In a Signature Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in a Signature Teams Room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in a Signature Teams Room, front row can be used in any Teams Rooms running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
 
-## Signature Teams Room design guidance
+## Signature Teams Rooms design guidance
 
 This section is intended to cover building a room from scratch.
 
@@ -256,13 +256,13 @@ This section is intended to cover building a room from scratch.
 
 #### Room size
 
-![Blueprint of a Signature Teams Room design.](../media/emr10.png)
+![Blueprint of a Signature Teams Rooms design.](../media/emr10.png)
 
 25 ft x 14 ft
 
 #### Room capacity
 
-This Signature Teams Room is optimized for between 6 - 8 people.
+This Signature Teams Rooms is optimized for between 6 - 8 people.
 
 #### Room furniture
 
@@ -374,7 +374,7 @@ Signature Teams Rooms, as with all other Microsoft Teams Rooms solutions, requir
 
 #### Display placement
 
-A Signature Teams Room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+A Signature Teams Rooms requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
@@ -382,7 +382,7 @@ The vertical center line of the display must be no more than +/- 15 degrees offs
 
 #### Display count
 
-A Signature Teams Room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+A Signature Teams Rooms requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Co-create options
 
