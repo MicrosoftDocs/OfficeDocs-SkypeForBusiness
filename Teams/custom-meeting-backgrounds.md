@@ -3,7 +3,7 @@ title: Manage and upload custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
-ms.date: 10/18/2023
+ms.date: 10/23/2023
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -60,7 +60,7 @@ To enable the custom background policy, follow these steps:
 3. Under **Meetings**, there are two ways to access the custom background policy:
 
    - You could select **Customization Policies** to select an existing policy, the global default, or create a new policy.
-   - Alternatively, you could select **Meeting Policies** and then select the **Custom meeting images** button in the upper right-hand corner.
+   - Alternatively, you could select **Meeting Policies** and then select the **Customize meeting visuals** button in the upper right-hand corner.
 
 4. Within your chosen policy, navigate to the **Meeting Backgrounds** section.
 5. Toggle the **Use background images from my organization** setting from **Off** to **On** to enable the setting.
