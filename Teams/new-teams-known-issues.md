@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/11/2023
+ms.date: 10/19/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,8 +22,11 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar is currently not available.
+- Annotations from the Presenter toolbar isn't currently available.
 - PowerPoint Live Standout isn't yet available.
+- Detecting multiple languages for spellchecker isn't currently available. 
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
+- Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 
 ## Coming in October
 
@@ -63,3 +66,4 @@ As we improved the client, the experience also improved to align with similar fe
 |Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
 |Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
 |Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
+|Search box commands  |The following commands are no longer available in the new Teams search box:</br> /activity, /files, /goto, /help, /join, /keys, /mentions, /org, /saved, /testcall, /unread, /whatsnew, /who.|

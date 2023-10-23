@@ -2,7 +2,7 @@
 title: Availability and use of Teams apps by different types of users
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: tolgaki
+ms.reviewer: mhayrapetyan
 manager: prkosh
 ms.topic: article
 audience: admin
