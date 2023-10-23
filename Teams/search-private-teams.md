@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: shubjain
-ms.date: 10/19/2023
+ms.date: 11/01/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -36,7 +36,7 @@ Policy changes may take several hours to take effect.
 
 ## Restrict private team discovery by using sensitivity labels
 
-If you want to enable private team discovery but restrict the discovery of certain teams, such as those containing sensitive information, you can prevent private team discovery by using a sensitivity label. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
+If you want to enable private team discovery but restrict the discovery of certain teams, such as those containing sensitive information, you can prevent private team discovery by using a sensitivity label. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites#how-to-configure-groups-and-site-settings).
 
 ## Related topics
 
