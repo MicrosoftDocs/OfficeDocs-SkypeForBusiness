@@ -76,10 +76,12 @@ The following clients are currently supported.  Check back often to see updates 
 
 - Teams desktop client for Microsoft Windows
 - Teams desktop client for Apple macOS
+- Teams Web client
 - Teams mobile client for Apple iOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
 - Teams mobile client for Android client and Google Play store version 1416/1.0.0.2019121201 and greater
 - Teams phone version 1449/1.0.94.2019110802 and greater
 - Teams Rooms version 4.4.25.0 and greater
+
 
 > [!NOTE]
 > Subnet locations are supported on all Teams clients.  WiFi-based locations are supported on all Teams clients except Teams phone.
@@ -90,8 +92,6 @@ The following clients are currently supported.  Check back often to see updates 
 > - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
 > - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
-> [!NOTE]
-> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 ## Assign emergency addresses
 
