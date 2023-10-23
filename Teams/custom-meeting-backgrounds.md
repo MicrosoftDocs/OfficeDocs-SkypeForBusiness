@@ -84,11 +84,11 @@ Uploaded images must adhere to the following parameters. You can upload:
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
-## Show only custom backgrounds in your users' gallery
+## Require users to only use backgrounds you've uploaded
 
 You can decide to only show custom backgrounds you've uploaded in your users' gallery.
 
-To only show custom backgrounds you've uploaded, follow these steps:
+To show only custom backgrounds you've uploaded, follow these steps:
 
 1. Select **Meetings** from the navigation pane in the Teams Admin Center
 2. Under Meetings, select **Meeting Policies** and select an existing policy, or create a new one.
