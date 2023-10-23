@@ -75,7 +75,7 @@ In addition to the endpoints above, Mesh also requires the following outgoing po
 
 - UDP ports 3478-3481
 
-Mesh traffic usees IP addresses in the AzureCloud service tag.
+Mesh traffic uses IP addresses in the AzureCloud service tag.
 
 For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
 
