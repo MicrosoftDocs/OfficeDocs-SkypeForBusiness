@@ -96,18 +96,20 @@ Teams endorses security ideas like Zero Trust, and principles of Least Privilege
 
 Core elements are:
 
-- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
+- Microsoft Entra ID, which provides a single trusted back-end repository for user accounts. User profile information is stored in Microsoft Entra ID through the actions of Microsoft Graph.
   - There may be multiple tokens issued which you may see if tracing your network traffic. Including Skype tokens you might see in traces while looking at chat and audio traffic.
-- Transport Layer Security (TLS) encrypts the channel in motion. Authentication takes place using either mutual TLS (MTLS), based on certificates, or using Service-to-Service authentication based on Azure AD.
+- Transport Layer Security (TLS) encrypts the channel in motion. Authentication takes place using either mutual TLS (MTLS), based on certificates, or using Service-to-Service authentication based on Microsoft Entra ID.
 - Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - You will see OAuth traffic in your trace, particularly around token exchanges and negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [see this document](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
 
 The next sections discuss some of these core technologies.
 
-### Azure Active Directory
+<a name='azure-active-directory'></a>
 
-Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user and application directory information and policy assignments.
+### Microsoft Entra ID
+
+Microsoft Entra ID functions as the directory service for Microsoft 365 and Office 365. It stores all user and application directory information and policy assignments.
 
 ### Traffic Encryption in Teams
 
@@ -163,20 +165,20 @@ Teams uses FIPS compliant algorithms for encryption key exchanges. For more info
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by Azure AD in Microsoft 365 or Office 365.
+A trusted user is one whose credentials have been authenticated by Microsoft Entra ID in Microsoft 365 or Office 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
 - **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as multifactor authentication and Conditional Access. To use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, and the web client, [all support MA](./sign-in-teams.md).
 
 > [!NOTE]
-> If you want more information on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
+> If you want more information on Microsoft Entra authentication and authorization methods, this article's Introduction and 'Authentication basics in Microsoft Entra ID' sections will help.
 
-Teams authentication is accomplished through Azure AD and OAuth. The process of authentication can be simplified to:
+Teams authentication is accomplished through Microsoft Entra ID and OAuth. The process of authentication can be simplified to:
 
 - User sign in > token issuance > next request use issued token.
 
-Requests from client to server are authenticated and authorized by Azure AD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
+Requests from client to server are authenticated and authorized by Microsoft Entra ID with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
@@ -198,7 +200,7 @@ Federation provides your organization with the ability to communicate with other
 
 ## Addressing threats to Teams Meetings
 
-Enterprise users can create and join real-time meetings and invite external users who don't have an Azure AD, Microsoft 365, or Office 365 account, to participate in these meetings.
+Enterprise users can create and join real-time meetings and invite external users who don't have a Microsoft Entra ID, Microsoft 365, or Office 365 account, to participate in these meetings.
 
 Letting external users participate in Teams meetings can be useful, but also brings up some security risks. To address these risks, Teams uses these safeguards:
 
@@ -254,5 +256,3 @@ Letting external users participate in Teams meetings can be useful, but also bri
 [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementing VPN split tunneling](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
-
-

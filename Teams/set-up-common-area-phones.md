@@ -49,7 +49,7 @@ First, you need to purchase a **Teams Shared Devices** license and make sure tha
 4. Enter the number of licenses you need, and select **Buy**.
 
 > [!NOTE]
-> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Azure Active Directory Premium Plan 1**, and **Intune** license to the device account for the common area phone.
+> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Microsoft Entra ID P1**, and **Intune** license to the device account for the common area phone.
 >
 > Common area phones can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md) to learn more.
 

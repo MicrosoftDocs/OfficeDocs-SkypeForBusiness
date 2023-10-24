@@ -131,7 +131,7 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following SIP Gateway service IP addresses:
+Conditional Access is a Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following SIP Gateway service IP addresses:
 
 - North America:
     - East US: 52.170.38.140
@@ -230,7 +230,7 @@ To pair a SIP device after the user authenticates using corporate credentials, a
 3. Enter the pairing code displayed on the SIP phone into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 > [!NOTE]
-> The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
+> The location of the device shown on the Microsoft Entra web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 > [!NOTE]
 > We are introducing a new authentication experience progressively for SIP Gateway compatible devices. Users with the new experience will see a [new authentication URL](https://aka.ms/siplogin).
@@ -292,7 +292,7 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 
 1. Create a CSV file that will be used with two columns: **Username** and **HardwareId**.
   
-   - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
+   - **Username** column: Put in the list of Microsoft Entra user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
    - **HardwareId** column: List the MAC address for each IP phone in this format: xx-xx-xx-xx-xx-xx or xx-xx-xx-xx-xx-xx:xxx (where the last three digits are the ATA port number. For analog devices, the port numbers start from 001.) An example for a MAC address without the ATA port number would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
    - **Example CSV**:
   
@@ -406,4 +406,3 @@ SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP
 ## Report problems to Microsoft
 
 To report problems, contact [Microsoft Support](https://support.microsoft.com).
-
