@@ -305,7 +305,7 @@ To navigate to the admin center, visit [Microsoft Teams Admin Center](https://ad
 
 You can monitor your organization's security and compliance across Microsoft 365 with the [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center) and [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center).
 
-Protect your business and empower your users in the [Azure Active Directory admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
+Protect your business and empower your users in the [Microsoft Entra admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
 
 ## Kaizala Management Portal to Teams Admin Center
 
