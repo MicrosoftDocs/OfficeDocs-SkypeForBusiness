@@ -4701,10 +4701,14 @@
     "redirect_document_id": false
   },
   {
+  "source_path": "Teams/cortana-in-teams.md",
+  "redirect_url": "https://techcommunity.microsoft.com/t5/microsoft-teams-support/cortana-voice-assistance-deprecation-in-microsoft-teams-rooms/ba-p/3931593",
+  "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/known-issues-for-mac.md",
     "redirect_url": "/microsoftteams/new-teams-known-issues",
     "redirect_document_id": false
   }
  ] 
 }
-
