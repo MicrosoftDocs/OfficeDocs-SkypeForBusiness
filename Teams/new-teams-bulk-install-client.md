@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/19/2023
+ms.date: 10/24/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
