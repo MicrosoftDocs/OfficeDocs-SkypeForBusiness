@@ -91,7 +91,7 @@ The following list of policies can block users from seeing the app switcher togg
 1. Open logs in this path: %appdata%/Microsoft/Teams 
 1. Open logs.txt 
 1. Search for **appswitcher_appstateservice_check**.
-1. Check the **enggComplete** flag:  
+1. Check the **enggCompleteFlag** value:  
    - If true, the Microsoft has turned the setting for you. 
    - If false, you didn’t the settings from MSFT yet or need an app relaunch (see below for steps to relaunch the app) 
 1. Check **isAboveWin10Vibranium**.
