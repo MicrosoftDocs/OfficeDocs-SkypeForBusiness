@@ -32,7 +32,7 @@ ms.localizationpriority: high
 
 > [!TIP]
 >- Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)</br>
->- Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).</br>
+>- Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](https://support.microsoft.com/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).</br>
 >- Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
 
 ## What is the new Teams?
@@ -42,7 +42,7 @@ The new Teams desktop client for Windows has been reimagined from the ground up
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 >[!Note]
->See [What's features are changing?](new-teams-known-issues.md) to review some of the changes you will see.
+>See [What features are changing?](new-teams-known-issues.md#what-features-are-changing) to review some of the changes you will see.
 
 ## New Teams availability
 
