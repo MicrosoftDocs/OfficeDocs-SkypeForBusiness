@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/19/2023
+ms.date: 10/24/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -48,6 +48,7 @@ As we improved the client, the experience also improved to align with similar fe
 
 |Classic Teams|New Teams|
 |:-----|:-----|
+|Post level notifications within a channel|Users can no longer opt in or opt out of receiving notifications at a channel level|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
 |Adding a Wiki to a channel tab|You no longer see a Wiki app. Instead, select the Notes app.|
 |Adding third party cloud storage service from Files app and Files tab in channels|You no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
