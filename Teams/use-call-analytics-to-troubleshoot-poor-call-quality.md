@@ -40,7 +40,7 @@ Call Analytics shows detailed information about Teams calls and meetings for eac
 
 Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
 
-As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
+As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user Call Analytics
 
