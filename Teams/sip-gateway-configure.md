@@ -131,7 +131,9 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is a Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following SIP Gateway service IP addresses:
+Conditional Access is an Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence stricter conditional access checks are applied to them. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, you should do one of the following: 
+
+1. Exclude your site public IP addresses and the following SIP Gateway service IP addresses from Conditional Access checks:
 
 - North America:
     - East US: 52.170.38.140
@@ -143,8 +145,7 @@ Conditional Access is a Microsoft Entra feature that helps ensure that devices t
     - Australia East: 20.92.120.71
     - Australia Southeast: 13.73.115.90
 
-> [!Note]
-> With the new authentication experience, conditional access checks for SIP Gateways will apply to users instead of devices. However, yo must exclude them **either by using the Teams app or by adding SIP Gateway service IP addresses to your list of site public IP addresses**.
+2. Exclude the Teams app from Conditional Access checks.
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
