@@ -92,7 +92,7 @@ If you’re on a paid Slack service plan, you can go to *\<your Slack workspace\
 Here’s a script you can use to compare email addresses from a Slack export against Azure AD to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
 
 ```azurepowershell
-Connect-AzureAD
+Connect-MgGraph
 Function Get-TimeStamp {
     return "[{0:MM/dd/yy} {0:HH:mm:ss}]" -f (Get-Date)
 }
@@ -123,7 +123,7 @@ foreach ($slackUser in $users) {
             $user.email = $slackUser.profile.email
             $emailSplit = $slackUser.profile.email.Split('@')
             $mailNickName = $emailSplit[0]
-            $result = Get-AzureADUser -Filter "MailNickName eq '$($mailNickName)' or UserPrincipalName eq '$($slackUser.profile.email)' or proxyAddresses/any(c:c eq 'smtp:$($slackUser.profile.email)')"
+            $result = Get-MgUser -Filter "MailNickName eq '$($mailNickName)' or UserPrincipalName eq '$($slackUser.profile.email)' or proxyAddresses/any(c:c eq 'smtp:$($slackUser.profile.email)')"
             if ($null -ne $result) {
                 $user.ExistsAzureAD = $true
                 $user.UPN = $result.UserPrincipalName
