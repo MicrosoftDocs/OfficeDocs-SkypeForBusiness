@@ -119,15 +119,17 @@ The following tables list the data that is required for SfBO to operate.
 ## Security Framework for SfBO
 This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. 
 These elements are as follows:
-- Azure Active Directory (AAD) provides a single trusted back-end repository for user accounts. 
+- Microsoft Entra ID provides a single trusted back-end repository for user accounts. 
 - Public key infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.
 - Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - Industry-standard protocols for user authentication, where possible.
 
 The topics in this section describe how each of these fundamental elements works to enhance the security of the SfBO service.
  
-### Azure Active Directory
-Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments. 
+<a name='azure-active-directory'></a>
+
+### Microsoft Entra ID
+Microsoft Entra ID functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments. 
 
 ### Public Key Infrastructure for SfBO
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.
@@ -185,7 +187,7 @@ SfBO generates username/passwords for secure access to media relays over TURN. M
 SfBO uses FIPS (Federal Information Processing Standard) compliant algorithms for encryption key exchanges. 
 
 ### User and Client Authentication 
-A trusted user is one whose credentials have been authenticated by AAD in Microsoft 365 or Office 365. 
+A trusted user is one whose credentials have been authenticated by Microsoft Entra ID in Microsoft 365 or Office 365. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
 - **Modern Authentication** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as Certificate Based Authentication, Multi-Factor Authentication, and Conditional Access. In order to use MA, both the online tenant and the clients need to be enabled for MA. SfBO tenants created after May 2017 have MA enabled by default. For tenants created before this time, follow the instructions here to turn it on. The following clients all support MA: Skype for Business 2015 or 2016 client, Skype for Business on Mac, Lync 2013 client, 3PIP IP Phones, iOS, and Android. 
@@ -245,13 +247,13 @@ Federation provides your organization with the ability to communicate with other
 
 ## Addressing Threats to SfBO Conferences
 
-SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have a Microsoft Entra ID, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
 
 Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
 - Participant roles determine conference control privileges.
 - Participant types allow you to limit access to specific meetings.
 - Defined meeting types determine which types of participants can attend.
-- Conference scheduling is restricted to users who have an AAD account and an SfBO license.
+- Conference scheduling is restricted to users who have a Microsoft Entra account and an SfBO license.
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
 ### Participant Roles
@@ -265,9 +267,9 @@ A presenter can also promote an attendee to the role of presenter during the mee
 ### Participant Types
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **Users that belong to the tenant** &nbsp;&nbsp;These users have a credential in Azure Active Directory for the tenant.<br/>
+1.  **Users that belong to the tenant** &nbsp;&nbsp;These users have a credential in Microsoft Entra ID for the tenant.<br/>
     a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users do not have credentials in Azure Active Directory for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
+2.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users do not have credentials in Microsoft Entra ID for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
@@ -291,4 +293,3 @@ Meeting organizers control whether participants can present during a meeting. Ea
 
 ## Related topics
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
-
