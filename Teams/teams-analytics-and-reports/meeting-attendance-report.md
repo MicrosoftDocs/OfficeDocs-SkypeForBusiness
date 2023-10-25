@@ -35,7 +35,7 @@ For education tenants, the attendance report can be used to track student attend
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you'd like to update. To create a new policy, select **Add**.
 1. Under **Meeting scheduling**, choose one of the following options for **Attendance report**:
-    - **On , but organizers can turn it off** - Organizers control whether attendance reports are on or off for their meetings, town halls or webinars.
+    - **On, but organizers can turn it off** - Organizers control whether attendance reports are on or off for their meetings, town halls, or webinars.
     - **Off** - Organizers can't view or download attendance reports for webinars, town halls, or meetings they've organized.
     - **On** - The attendance report is available for all webinars, town halls, or meetings organizers create; organizers can't turn off attendance reports.
 
