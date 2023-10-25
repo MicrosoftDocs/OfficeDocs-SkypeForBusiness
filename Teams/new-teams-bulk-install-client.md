@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/19/2023
+ms.date: 10/24/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -74,7 +74,7 @@ To install new Teams on a single computer with many users, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsbootstrapper.exe -p**
+3. At the prompt enter: **.\teamsbootstrapper.exe -p**
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).</br>
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
