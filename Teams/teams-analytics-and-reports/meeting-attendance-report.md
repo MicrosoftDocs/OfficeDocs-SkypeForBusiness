@@ -41,7 +41,7 @@ For education tenants, the attendance report can be used to track student attend
 
 1. For **Include attendees in the report**, choose one of the following options:
     - **Yes, but allow opt out** -  This option is the **default setting.** The attendance report initially includes the participants who have been assigned this policy value. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
-    - **No, but allow opt in** - The attendance report initially excludes the participants who have been assigned this policy value. To opt in, Participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
+    - **No, but allow opt in** - The attendance report initially excludes the participants who have been assigned this policy value. To opt in, participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
     - **Always** - The attendance report includes the participants who have been assigned this policy value, and participants can't opt out.
     - **Never** - The attendance report excludes the participants who have been assigned this policy value, and participants can't opt in.
 1. For **Attendance summary**, choose one of the following options:
