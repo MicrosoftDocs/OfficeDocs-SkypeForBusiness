@@ -672,7 +672,7 @@ items:
           items: 
             - name: Custom meetings overview
               href: custom-meetings-overview.md
-            - name: Custom meeting backgrounds
+            - name: Manage and upload custom meeting backgrounds
               href: custom-meeting-backgrounds.md
             - name: Meeting themes
               href: meeting-themes.md
