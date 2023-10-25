@@ -33,12 +33,11 @@ This article describes the following steps to configure Shared Calling:
 1. [Assign number to resource account for inbound and outbound calling.](#step-2-assign-number-to-resource-account-for-inbound-and-outbound-calling)
 1. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
 1. [Assign a location to the resource account for emergency calling](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
-11. [If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account.](#step-5-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-pay-as-you-go-calling-plan-to-the-resource-account)
-1. [If you're using a resource account with Calling Plan service number, assign and fund a Communication credits license to the resource account.](#step-6-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-and-fund-a-communication-credits-license)
-1. [Create voice routing policy without PSTN usages.](#step-7-create-voice-routing-policy-without-pstn-usages)
-1. [Enable emergency calling for users.](#step-8-enable-emergency-calling-for-users)
-1. [Create your Shared Calling policy.](#step-9-create-the-shared-calling-policy)
-1. [Assign the Shared Calling policy to users](#step-10-assign-the-shared-calling-policy-to-users)
+1. [If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account and fund it.](#step-5-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-pay-as-you-go-calling-plan-to-the-resource-account-and-fund-it)
+1. [Create voice routing policy without PSTN usages.](#step-6-create-voice-routing-policy-without-pstn-usages)
+1. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
+1. [Create your Shared Calling policy.](#step-8-create-the-shared-calling-policy)
+1. [Assign the Shared Calling policy to users](#step-9-assign-the-shared-calling-policy-to-users)
 
 For a step-by-step example on how to configure Shared Calling with PowerShell, see [Shared Calling scenario](shared-calling-scenario.md).
 
@@ -87,27 +86,24 @@ To assign a location to a resource account number for Calling Plan, Operator Con
 
 For information on the configuration of emergency locations, see [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
-## Step 5: If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account
+## Step 5: If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account and fund it
 
-If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan), and assign it to the resource account.
+If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan) assigned to the resource account, and fund calls either by [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services#buy-a-pay-as-you-go-product-or-service-and-enable-overage), if your tenant has [New commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and you want to post pay for calls, or [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 
-## Step 6: If you're using a resource account with Calling Plan service number, assign and fund a Communication credits license
+> [!NOTE]
+> If funding is not available for a call, the caller will hear a voice treatment stating that "You are not setup to use this calling feature, please contact your admin". If only a Pay-As-You-Go Calling Plan is assigned to the Resource Account, be sure it's correctly enabled to fund calls. If Communication Credits are assigned, confirm that the Communication Credits have a funded balance. 
 
-If the resource account is using a Calling Plan service number, assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan.
-
-For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#how-to-fund-a-pay-as-you-go-calling-plan), [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services.md), [Customers with new commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
-
-## Step 7: Create voice routing policy without PSTN usages
+## Step 6: Create voice routing policy without PSTN usages
 
 Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
-## Step 8: Enable emergency calling for users
+## Step 7: Enable emergency calling for users
 
 You must ensure that users enabled for Shared Calling are able to make emergency calls to emergency services--and that emergency services are able to call back Shared Calling users who have made emergency calls. How you enable emergency calling is described in detail in [Emergency calling](#emergency-calling-for-shared-calling-users).
 
 You aren't required to define emergency numbers for a Shared Calling policy. If you don't define emergency numbers, when an emergency call is made, the number associated with the resource account in the Shared Calling policy is used.
 
-## Step 9: Create the Shared Calling policy
+## Step 8: Create the Shared Calling policy
 
 Once you've created your emergency call routing policy, you'll create your Shared Calling policy.
 
@@ -142,7 +138,7 @@ The next command adds a new emergency callback number, 1425555433, to the policy
 Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{add='+1425555433'} 
 ```
 
-## Step 10: Assign the Shared Calling policy to users
+## Step 9: Assign the Shared Calling policy to users
 
 Once you've [created your Shared Calling policy](#step-9-create-the-shared-calling-policy), you need to assign it to users with [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy).
 
@@ -175,6 +171,9 @@ The routing of emergency calls is based on how a resource account is configured.
 - If the resource account used in the Shared Calling policy uses a Calling Plan or Operator Connect number, the emergency call routing policy assigned to the Shared Calling user shouldn't have online PSTN usages configured.
 - If the resource account used in the Shared Calling policy uses a Direct Routing number, the emergency call routing policy assigned to the Shared Calling user must have online PSTN usages configured.
 - If the emergency call routing policy used for the emergency call - either from user or network site assignment - has online PSTN usages configured, the routing of the emergency call will be based on the online PSTN usages.
+
+> [!NOTE]
+> If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used. 
 
 For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
