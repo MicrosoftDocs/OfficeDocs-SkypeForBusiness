@@ -392,8 +392,8 @@ items:
         - name: Manage actionable activity emails
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
-          href: teams-outlook-share-teams.md  
-
+          href: teams-outlook-share-teams.md
+                    
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
