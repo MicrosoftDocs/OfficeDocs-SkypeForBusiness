@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/24/2023
+ms.date: 10/25/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -85,7 +85,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. Depending on where your MSIX is located follow these steps:
+3. Depending on where your MSIX is located, do the following:
 </br>
 
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
