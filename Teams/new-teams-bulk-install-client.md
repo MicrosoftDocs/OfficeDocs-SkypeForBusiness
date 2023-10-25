@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: 
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -68,7 +68,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 
 All steps must be completed to successfully upgrade to the new Teams.
 
-#### Option A: Download and install new Teams for a single computer
+#### Option 1A: Download and install new Teams for a single computer
 
 To install new Teams on a single computer with many users, follow these steps:
 
@@ -79,6 +79,27 @@ To install new Teams on a single computer with many users, follow these steps:
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
 
+#### Option 1B: Download and upgrade to new Teams using an offline installer
+
+Admins can also use an the offline installer option to provision new Teams using a local teams MSIX. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
+
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+2. Open the Command Prompt as an Admin.
+3. Depending on where your MSIX is located, enter:
+ - **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
+
+   :::image type="content" source="media/new-teams-bulk-offline-localpath.png" alt-text="local path location for offline installer"::: 
+ 
+
+ - **For UNC, enter:** *.\teamsbootstrapper.exe -p -o "\\unc\path\to\teams.msix"*
+ 
+   :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
+ 
+ - **For URI, enter:**  *.\teamsbootstrapper.exe -p -o https://location_of_teams.com/...*
+ 
+   :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
+ 
+
 #### Option B: Upgrade to the new Teams across your organization
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
@@ -87,26 +108,20 @@ To deploy this installer to a group of computers, or your entire organization, f
 2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.  
 
-#### Option C: Upgrade to the new Teams using an offline installer
 
-Admins also have the option of using an offline installer ption for the bootstrapper gives admins the option the provision Teams using a local teams MSIX. This option minimizes the amount of bandwidth needed for the initial install of new Teams. The downloaded MSIX can exist in one of three locations: Local path, UNC, or URI.
 
-Examples:
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+2. 
 
-**Local path**
-
-:::image type="content" source="media/new-teams-bulk-offline-localpath.png" alt-text="local path location for offline installer":::
 
 
 **UNC**
 
-:::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
+
 
 **URI**
 
 :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
-
-
 
 
 ## Step 2: Set new Teams as the default 
