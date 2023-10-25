@@ -28,7 +28,7 @@ Role-based access control (RBAC) in the Microsoft Teams Rooms Pro Management por
 
 To create, edit, or assign roles, your account must have one of the following permissions:
 
-- Global Administrator through Azure Active Directory (Azure AD)
+- Global Administrator through Microsoft Entra ID
 - Teams Rooms Pro Manager through the Microsoft Teams Rooms Pro Management portal
 
 ## What is a role?

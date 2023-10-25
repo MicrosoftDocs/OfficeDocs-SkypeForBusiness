@@ -36,7 +36,7 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Teams
 - Microsoft Teams Phone (Previously known as *Phone System*)
 - Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
-- Azure Active Directory Premium Plan 1
+- Microsoft Entra ID P1
 - Exchange Online Plan (Cloud-based voicemail capabilities only.)
 
 ## Teams Shared Devices license availability
