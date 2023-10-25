@@ -1,9 +1,9 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/20/2023
-author: CarolynRowe
-ms.author: crowe
+ms.date: 10/16/2023
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
@@ -33,8 +33,8 @@ This article describes the following steps to configure Shared Calling:
 1. [Assign number to resource account for inbound and outbound calling.](#step-2-assign-number-to-resource-account-for-inbound-and-outbound-calling)
 1. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
 1. [Assign a location to the resource account for emergency calling](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
-1. [Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.](#step-5-assign-pay-as-you-go-calling-plan-to-resource-account-with-calling-plan-service-number)
-1. [Assign and fund a Communication credits license.](#step-6-assign-and-fund-a-communication-credits-license)
+11. [If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account.](#step-5-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-pay-as-you-go-calling-plan-to-the-resource-account)
+1. [If you're using a resource account with Calling Plan service number, assign and fund a Communication credits license to the resource account.](#step-6-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-and-fund-a-communication-credits-license)
 1. [Create voice routing policy without PSTN usages.](#step-7-create-voice-routing-policy-without-pstn-usages)
 1. [Enable emergency calling for users.](#step-8-enable-emergency-calling-for-users)
 1. [Create your Shared Calling policy.](#step-9-create-the-shared-calling-policy)
@@ -52,11 +52,11 @@ Keep the following information in mind:
 
 - If you remove, reassign, or port the number of a resource account used in a Shared Calling policy, the policy remains intact, but outbound calls will fail for any users still configured to make calls from that number.
 
-- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md) for assistance.
+- In some Calling Plan markets, you aren't allowed to set the location on service numbers. For these markets, contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk) for assistance.
 
 - If you're attempting to use a resource account with an Operator Connect phone number assigned, you should confirm support for Shared Calling with your operator.
 
-- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk.md).
+- Shared Calling isn't supported for Calling Plan service phone numbers in Romania, the Czech Republic, Hungary, Singapore, New Zealand, Australia, and Japan. A limited number of existing Calling Plan service phone numbers in other countries are also not supported for Shared Calling. For information about these service phone numbers, please contact the [Telephone Number Services service desk](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk).
 
 ## Step 1: Assign Teams Phone licenses and enable users for voice
 
@@ -81,17 +81,17 @@ If inbound calling is required, you must associate this resource account with a 
 
 ## Step 4: Assign a location to the resource account for emergency calling
 
-You need the location id to assign the location to a resource account. You can get the location id by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
+You need the location ID to assign the location to a resource account. You can get the location ID by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
 
 To assign a location to a resource account number for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) PowerShell cmdlet.
 
 For information on the configuration of emergency locations, see [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
-## Step 5: Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number
+## Step 5: If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account
 
 If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan), and assign it to the resource account.
 
-## Step 6: Assign and fund a Communication credits license
+## Step 6: If you're using a resource account with Calling Plan service number, assign and fund a Communication credits license
 
 If the resource account is using a Calling Plan service number, assign a Communications credits license to the resource account and fund it to support outbound Shared Calling calls via the Pay-As-You-Go Calling Plan.
 
@@ -99,7 +99,7 @@ For more information, see [How to fund a Pay-As-You-Go Calling Plan](calling-pla
 
 ## Step 7: Create voice routing policy without PSTN usages
 
-Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you are using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
+Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
 ## Step 8: Enable emergency calling for users
 

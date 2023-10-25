@@ -60,6 +60,7 @@ For information about how many phone numbers you can get, see [How many phone nu
 > - [Finland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-finland)
 > - [France](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-france)
 > - [Germany](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany)
+> - [Hong Kong](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong)   
 > - [Hungary](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary)
 > - [Ireland](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-ireland)
 > - [Italy](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-italy)
@@ -107,6 +108,8 @@ Once you have the **filled and signed** LOA, upload the documents in the Microso
 ## Still need assistance?
 
 If you need assistance, [contact the TNS Service Desk](contact-tns-service-desk.md).
+
+To create a case for directory services, see [Create a new case.](/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk)
 
 ## Additional resources
 

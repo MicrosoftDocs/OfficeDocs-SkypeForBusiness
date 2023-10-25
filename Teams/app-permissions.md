@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.reviewer: tolgaki
+ms.reviewer: Orion.OMalley
 ms.date: 08/22/2023
 description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
@@ -44,8 +44,6 @@ In addition, the permissions are defined in the following two places:
 * RSC permissions to access local resources within Teams such as information in a group or a team are defined in the app manifest file by the developers. Only those users who have access to the resources, can consent for these permissions.
 
 For each app, these permissions are listed in the app details page in the admin center.
-
-:::image type="content" source="media/app-permissions.png" alt-text="Screenshot that shows the permissions tab of an app and the Microsoft Graph and RSC permissions that may be required by an app.":::
 
 | App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
@@ -134,7 +132,9 @@ Consider the following types of user interaction, required permissions, and data
 * App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. If necessary, users can block the bot, tenant admins can block the app, and Microsoft can remove the app that works as a bot.
 
 > [!NOTE]
-> If a bot has its own sign-in, there's a different consent experience the first time the user signs in.
+>
+> * If a bot has its own sign-in, there's a different consent experience the first time the user signs in.
+> * Users can search apps with the `botId` that was available in the app. While users can view the app name but they can't interact with such bots.
 
 ### Tabs
 

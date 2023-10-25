@@ -9,10 +9,10 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 09/29/2020
+ms.date: 10/04/2023
 ms.localizationpriority: high
 search.appverid: MET150
-description: This article outlines the optional connected experiences you will see in Microsoft Teams.
+description: This article outlines the optional connected experiences you'll see in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ---
@@ -32,11 +32,13 @@ GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If y
 
 :::image type="content" source="media/giphy-menu.png" alt-text="This is a menu showing the Giphy selection button and textbox for typing information in to retrieve a Giphy image or images.":::
 
-## URL Preview service
+## Ratings and reviews for Teams apps
 
-The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it'll send a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to Microsoft Teams while using these services can be sent to Microsoft Bing, including Bing Content Validation Service for evaluation of harmful content. They are not linked to you by the Bing organization.
+Ratings and reviews allow Teams users to provide feedback about their experience with using a Teams app. Reviews are anonymous unless the user chooses otherwise. All Teams users can view these ratings and reviews on the details page for the app. Users are only allowed to provide ratings and reviews for apps they’ve installed and only for apps that are publicly available from Microsoft or other companies. The ratings are powered by Microsoft AppSource and are shown on the app’s page on the [AppSource website](https://appsource.microsoft.com/). AppSource is provided under the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and the [Microsoft Commercial Marketplace Terms of Use](/legal/marketplace/marketplace-terms).
 
-:::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
+## Search Coach Tab App
+
+The Search Coach Teams tab app available in Microsoft EDU Class Teams makes search requests to Bing search through the Bing API when a user sends a query, returning ad-free SafeSearch results. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement).
 
 ## Teams apps link previews
 
@@ -50,9 +52,11 @@ Teams device store is in the Teams admin center and it enables discovery and pur
 
 To learn more about Teams device store, check out: [Purchase devices in the Teams device store](devices/device-store.md)
 
-## Search Coach Tab App
+## URL Preview service
 
-The Search Coach Teams tab app available in Microsoft EDU Class Teams makes search requests to Bing search through the Bing API when a user sends a query, returning ad-free SafeSearch results. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement).
+The URL Preview service automatically generates a preview snippet and attaches under the snippet the URL when a user sends a URL string. This service will make a request to the service URL as the user is typing the message. If the service URL doesn't have any schema.org data, it will send a request to Bing search to get the data it needs to generate the preview snippet. Experiences that rely on Bing are licensed to you under the terms of the [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and covered by the [privacy statement](https://privacy.microsoft.com/privacystatement). Any URLs you provide to Microsoft Teams while using these services can be sent to Microsoft Bing, including Bing Content Validation Service for evaluation of harmful content. They aren't linked to you by the Bing organization.
+
+:::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
 ## Related articles
 

@@ -63,7 +63,7 @@ In the example below, the Conditional Access policy works as follows:
     this example, the "Shared devices" group.
 
 2.  The account signing in must only be trying to access Exchange
-    Online, Microsoft Teams, or SharePoint Online. Attempts to sign into
+    Online, Microsoft Teams, SharePoint Online, or Microsoft Whiteboard Services. Attempts to sign into
     any other client app will be rejected.
 
 3.  The resource account must be signing in on the Windows device
@@ -95,6 +95,6 @@ In this example for Teams Rooms on Windows
 
 2. Require that Microsoft Defender is running on Teams Rooms.
 
-3. If a Teams Room doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
+3. If Teams Rooms doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
 
 This compliance policy applies to all users, not just Teams resource accounts.
