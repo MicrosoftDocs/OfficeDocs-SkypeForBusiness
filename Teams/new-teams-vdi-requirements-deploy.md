@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/13/2023
+ms.date: 10/25/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -122,7 +122,7 @@ For additional information, learn more at [Optimization for Microsoft Teams](h
 
 The following minimum versions are necessary to support the new Teams client: 
 
--Horizon Agent 7.13.1, or 2103 
+- Horizon Agent 2103 
 
 To learn more on the latest requirements and instructions, including how to configure media optimization for Teams, see [Configuring Media Optimization for Microsoft Teams](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
