@@ -49,7 +49,7 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
+> The certification end date for Android 9 Teams audio phones has been extended to March 30, 2024. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -58,20 +58,19 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP54 | `122.15.0.135 `|October 4, 2026   | 12 |
-| Poly CCX350                            | `8.0.1.4670`                                                  | 	November 5, 2023              | 9 |
-| Poly CCX505                            | `7.3.1.0811`                                                  | 	November 5, 2023              | 9 |
-| Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
-| Crestron UC-P10/T/CT                   | `1.0.0.80`                                                    |November 5, 2023            | 9 |
-| Crestron UC-P8/T /CT                   | `1.0.0.56`                                                    | November 5, 2023            | 9 |
-| Yealink MP52                           | `145.15.0.6 `                                              | November 5, 2023                | 9 |
-| AudioCodes C435HD                      | `1.12.33`                                                  | November 5, 2023              | 9 |
-| AudioCodes C455HD                      | `1.14.404`                                                 |November 5, 2023                | 9 |
-| Crestron UC-2                          |`1.0.1.46`                                                  | November 5, 2023              | 9 |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | November 5, 2023             | 9 |
-| Poly CCX400                            | `1.0.0.0200`                                               | November 5, 2023               | 9 |
-| Poly CCX600                            | `5.9.12.1122`                                              | November 5, 2023               | 9 |
-| Poly CCX500                            | `5.9.12.1122`                                              | November 5, 2023                | 9 |
-| Yealink EXP50 supported on MP56, MP58, VP59| For each supported device model, see update #7 firmware version | November 5, 2023       | 9 |
+| Poly CCX350  | `8.0.1.4670`                                                  | 	March 30, 2024              | 9 |
+| Poly CCX505  | `7.3.1.0811`                                                  | 	March 30, 2024              | 9 |
+| Crestron Audio: UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024            | 9 |
+| Crestron Video: UC-P8-C, UC-P8-C-I, UC-P10-C, UC-P10-C-I | `1.0.0.56` | November 5, 2023            | 9 |
+| Yealink MP52         | `145.15.0.6 ` | November 5, 2023                | 9 |
+| AudioCodes C435HD    | `1.12.33`     | March 30, 2024              | 9 |
+| AudioCodes C455HD    | `1.14.404`    |March 30, 2024                | 9 |
+| Crestron UC-2        |`1.0.1.46`     | March 30, 2024              | 9 |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155` | March 30, 2024             | 9 |
+| Poly CCX400  | `1.0.0.0200`  | March 30, 2024               | 9 |
+| Poly CCX600  | `5.9.12.1122` | March 30, 2024               | 9 |
+| Poly CCX500  | `5.9.12.1122` | March 30, 2024                | 9 |
+| Yealink EXP50 supported on MP56, MP58| For each supported device model, see update #7 firmware version | March 30, 2024       | 9 |
 | Yealink VP59 | `91.15.0.16` |November 5, 2023   | 9 |
 
 
@@ -105,6 +104,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
