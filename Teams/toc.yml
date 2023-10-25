@@ -393,9 +393,7 @@ items:
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
           href: teams-outlook-share-teams.md
-        - name: Cortana in Teams
-          href: cortana-in-teams.md     
-
+                    
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
