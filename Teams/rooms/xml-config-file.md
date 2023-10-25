@@ -73,7 +73,6 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
   <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
-  <CortanaWakewordEnabled>true</CortanaWakewordEnabled>
   <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
@@ -178,7 +177,6 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ShowMeetingChat>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If disabled, meeting chat isn't shown in any meeting layout on the Teams Rooms device. |
 | `<EnablePublicPreview>` | Boolean &#x2777; | First &#x2776; | Disabled by default. If true, public preview is enabled and end-users can access features in public preview on enabled Teams Rooms. See [Public preview for Microsoft Teams Rooms on Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) for more information. |
 | `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
-| `<CortanaWakewordEnabled>` | Boolean &#x2777; | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false. |
 | `<SendLogs>` | Container | First &#x2776; |  |
 | `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an email address that receives logs and feedback from Report a problem submissions. |
 | `<SendLogsAndFeedback>` | Boolean &#x2777; |  | If true, Report a problem is available to room users through the application user interface. If false, Report a problem is not available. |
