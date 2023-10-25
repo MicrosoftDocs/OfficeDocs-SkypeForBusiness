@@ -63,7 +63,7 @@ Cloud Voicemail will generate the voicemail message using a language template ba
 default tenant language.
 
 ## Setting the preferred language for a user
-You can set the preferred language for a user using PowerShell either in Azure Active Directory or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+You can set the preferred language for a user using PowerShell either in Microsoft Entra ID or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
 Users can change their own preferred language through their settings after they sign in. For more information, see [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
