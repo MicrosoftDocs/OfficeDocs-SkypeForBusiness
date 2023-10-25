@@ -114,7 +114,7 @@ Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams media messages (images, code snippets, videos, and wiki images)
 - Teams call and meeting recordings stored in Teams storage
 - Teams chat notifications
-- Teams chat suggestions by Cortana
+- Teams chat suggestions
 - Teams status messages
 
 For more information, see [Overview of Customer Key at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). 
