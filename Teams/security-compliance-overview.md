@@ -174,11 +174,11 @@ At Microsoft, protecting your data is our highest priority. To learn about our p
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
 
-![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+:::image type="content" alt-text="Diagram of the workflow of Teams data to Exchange and SharePoint." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png" lightbox="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png":::
 
 The following figure indicates the ingestion flow of Teams Meetings and calling data to Exchange.
 
-![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+:::image type="content" alt-text="Diagram of the workflow of Teams Meetings and calling data to Exchange." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png" lightbox="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png":::
 
 > [!IMPORTANT]
 > There can be up to a 24-hour delay to discover Teams content.
@@ -198,7 +198,7 @@ Data in Teams resides in the geographic region associated with your Microsoft 36
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
-![Screenshot of Data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+:::image type="content" alt-text="Screenshot of Data location table including Teams in the admin center." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png":::
 
 ## Compliance standards
 
