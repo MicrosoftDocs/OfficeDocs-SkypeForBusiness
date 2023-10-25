@@ -405,7 +405,7 @@ For more information about diagnostic data, including how to control what diagno
 - **createTeam, createChannel** - This property provides success data around the successful addition of members in a team and the successful creation of a new team when:
   - The **Skip** button is selected in the **Add Members** page (check existing first).
   - The **Done** button is selected in the **Add Members** page (check existing first).
-  - Shows team or channel creation acknowledgement.
+  - Shows team or channel creation acknowledgment.
 - **crossCloudDialogCancel** - **Cancel** is selected for a cross-cloud dialog.
 - **crossCloudDialogJoin** - **Join as guest** is selected for a cross-cloud dialog.
 - **dashboardNav** - A user navigates to a tile on the chat dashboard.
