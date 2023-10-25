@@ -79,13 +79,14 @@ To install new Teams on a single computer with many users, follow these steps:
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
 
-#### Option 1B: Download and upgrade to new Teams using an offline installer
+#### Option 1B: Download and install new Teams using an offline installer
 
 Admins can also use an the offline installer option to provision new Teams using a local teams MSIX. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. Depending on where your MSIX is located:</br>
+3. Depending on where your MSIX is located follow these steps:</br>
+
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
 
    *Example:*
