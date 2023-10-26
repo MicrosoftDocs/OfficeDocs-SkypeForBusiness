@@ -167,7 +167,7 @@ The tenant must have a _default geography_ in a EUDB country/region or select a 
 
 ### How can I determine customer data location?
 
-See [Azure Active Directory and data residency](/azure/active-directory/fundamentals/data-residency).
+See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals/data-residency).
 
 ## End-user experience
 
@@ -183,4 +183,3 @@ To send feedback, select **Help** at bottom of the navigation bar in Teams, and 
 ### Allow users to provide feedback
 
 Users in your organization can attach logs while sharing feedback to Microsoft, if you enable the policy to [set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
-
