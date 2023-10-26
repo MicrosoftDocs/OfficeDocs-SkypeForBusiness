@@ -37,7 +37,7 @@ The registry keys that could block new Teams MSIX package installation are:
 - *AllowDevelopmentWithoutDevLicense*
 
 >[!Important]
->If **AllowAllTrustedApps** is disabled, the new Teams app (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455. Apply the update for your system to resolve this issue.
+>If **AllowAllTrustedApps** is disabled, the new Teams app (MSIX) installation fails. This issue has been fixed in the Windows October cumulative update KB5031455. This optional update is not yet available for all builds of Windows. If the October update is not available for your OS build, the November security update will include the fix.
 >
 >- [**Windows 10: October 26, 2023—KB5031445 (OS Build 19045.3636)**](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa) 
 >- [**Windows 11: October 26, 2023—KB5031455 (OS Build 22621.2506)** ](https://support.microsoft.com/topic/october-26-2023-kb5031455-os-build-22621-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4)
