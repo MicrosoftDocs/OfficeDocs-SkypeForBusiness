@@ -153,9 +153,6 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 - **Upper left corner** - Time and room information.
   - **Size**: 260 x 104
   - **Upper-left corner coordinates**: 48, 48
-- **Bottom left corner** - Cortana.
-  - **Size**: 400 x 48
-  - **Upper-left corner coordinates**: 56, 616
 - **Middle** - Action buttons.
   - **Size**: 408 x 336
   - **Upper-left corner coordinates**: 156, 221
