@@ -131,12 +131,12 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To roll out the new Microsoft Teams client to your organization, you can either: 
 
-**Option 1: Uninstall the classic Teams client and install the new one**. Recommended. 
- The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
- 
-or
+#### Option 1: Uninstall the classic Teams client and install the new one**
 
-**Option 2: Install both apps 'side by side'**. 
+**Recommended.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
+
+
+#### Option 2: Install both apps 'side by side' 
 Let the user switch between them by using the toggle on the top left of the Teams UI.  
 You can control who sees the toggle by configuring the Teams Admin Center policy "Teams update policy".
   
@@ -149,7 +149,33 @@ IT administrators could have set restrictions for MSIX or deploy GPOs that could
 
 This error might be seen in non-persistent or multi-user OS deployments if the Admin didn't sideload the new Teams client on the Golden/Master Image.
 
-## Classic Teams versus new Teams installers in VDI environments 
+## Download and install using an offline installer
+
+Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
+
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+2. Open the Command Prompt as an Admin.
+3. Depending on where your MSIX is located, do the following:
+</br>
+
+ **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
+
+   *Example:*
+
+   :::image type="content" source="media/new-teams-bulk-offline-localpath.png" alt-text="local path location for offline installer"::: 
+ 
+   **For UNC, enter:** *.\teamsbootstrapper.exe -p -o "\\unc\path\to\teams.msix"*
+
+   *Example:*
+
+   :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
+ 
+   **For URI, enter:**  *.\teamsbootstrapper.exe -p -o https://location_of_teams.com/...*
+ 
+   *Example:*
+
+   :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
+ ## Classic Teams versus new Teams installers in VDI environments 
 
 The classic Teams client and the new Teams client have different install locations and profile management requirements. It's important to understand the differences and plan accordingly.
 
