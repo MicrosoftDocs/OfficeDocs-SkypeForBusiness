@@ -87,7 +87,7 @@ For more information, see [configure caller ID policies](#configure-caller-id-po
 
 ## Inbound caller ID options
 
-Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number isn't in Azure AD or a personal contact, the telco-provided display name will be shown if it's available.
+Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Microsoft Entra ID or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number isn't in Microsoft Entra ID or a personal contact, the telco-provided display name will be shown if it's available.
 
 The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
 

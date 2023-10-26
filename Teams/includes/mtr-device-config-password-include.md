@@ -26,7 +26,9 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
 ```
 
-#### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
+<a name='azure-active-directory-20'></a>
+
+#### [**Microsoft Entra ID 2.0**](#tab/azure-active-directory2-password/)
 
 First, connect to Active Directory PowerShell:
 
@@ -42,7 +44,9 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
 ```
 
-#### [**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
+<a name='azure-active-directory-10'></a>
+
+#### [**Microsoft Entra ID 1.0**](#tab/azure-active-directory1-password/)
 
  1. Connect to MSOnline PowerShell:
 
@@ -50,7 +54,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
+       For details about Active Directory, see [Microsoft Entra ID (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Set the password to never expire by using the following syntax:
 
