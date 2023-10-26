@@ -310,9 +310,9 @@ Connect-MicrosoftTeams
 
 When you're prompted, sign in using your admin credentials.
 
-#### Install and connect to the Azure AD PowerShell for Graph module (optional)
+#### Install and connect to the Microsoft Graph PowerShell module (optional)
 
-You might also want to [download and install the Azure AD PowerShell for Graph module](/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Microsoft Entra ID so that you can retrieve a list of users in your organization.
+You might also want to [download and install Microsoft Graph PowerShell module](/powershell/microsoftgraph/installation) (if you haven't already) and connect to Microsoft Entra ID so that you can retrieve a list of users in your organization.
 
 Run the following to connect to Microsoft Entra ID.
 
