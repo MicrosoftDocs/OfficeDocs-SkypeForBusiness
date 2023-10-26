@@ -1,9 +1,9 @@
 ---
 title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.reviewer: siunies, mikedav, gageames
+ms.reviewer: jamp
 ms.date: 10/26/2023
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
