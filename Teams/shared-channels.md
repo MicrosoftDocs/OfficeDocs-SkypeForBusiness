@@ -24,7 +24,7 @@ description: Learn how to use and manage shared channels in Microsoft Teams.
 
 # Shared channels in Microsoft Teams
 
-Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. Only the users who are owners or members of the shared channel can access the channel. While guests (people with Azure Active Directory guest accounts in your organization.) can't be added to a shared channel, you can invite people outside your organization to participate in a shared channel by using Azure AD B2B direct connect.
+Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. Only the users who are owners or members of the shared channel can access the channel. While guests (people with Microsoft Entra guest accounts in your organization.) can't be added to a shared channel, you can invite people outside your organization to participate in a shared channel by using Microsoft Entra B2B direct connect.
 
 You might want to use a shared channel if you want to collaborate with a group of people who are all members of different teams. For example, people from engineering, sales, and support who all work on different aspects of the same project or product could use a shared channel to collaborate.
 
@@ -40,7 +40,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 If you plan to share channels with people outside your organization, read [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration) for important planning considerations.
 
-Sharing channels with people outside your organization also requires that you configure cross-tenant access settings in Azure AD. Each organization that you want to share channels with must also complete this configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for details.
+Sharing channels with people outside your organization also requires that you configure cross-tenant access settings in Microsoft Entra ID. Each organization that you want to share channels with must also complete this configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for details.
 
 ## Shared channel creation
 
@@ -73,7 +73,7 @@ Guests - including those converted to members (in their user type property) - ca
 In the Teams admin center, when adding an external participant who also has a guest account in your organization, you must search on *ext:user@domain.com* to get the external participant's organization account rather than the guest account.
 
 > [!NOTE]
-> External participants must be added using their UPN, rather than their email address, if the two don't match in Azure Active Directory.
+> External participants must be added using their UPN, rather than their email address, if the two don't match in Microsoft Entra ID.
 
 ## Channel owner settings
 

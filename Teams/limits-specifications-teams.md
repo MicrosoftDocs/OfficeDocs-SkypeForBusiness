@@ -44,11 +44,11 @@ This article describes some of the limits, specifications, and other requirement
 |Maximum number of members in a Microsoft 365 group that can be converted to a team    |10,000<sup>6</sup>     |
 |Channel conversation post size | Approximately 28 KB per post<sup>5</sup> |
 
-<sup>1</sup> Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
+<sup>1</sup> Any directory object in Microsoft Entra ID counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
 <sup>2</sup> This limit includes archived teams. 
 
-<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Azure Active Directory objects in your tenant. Increase is only made for real-life production scenarios.
+<sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Microsoft Entra objects in your tenant. Increase is only made for real-life production scenarios.
 
 <sup>4</sup> Deleted channels can be restored within 30 days. During these 30 days, a deleted channel continues to be counted towards the 1,000 channel or 30 private channel per team limit. After 30 days, a deleted channel and its content are permanently deleted and the channel no longer counts toward the per-team limit.
 
@@ -71,7 +71,7 @@ The following table describes the maximum number of channels and members.
 
 The following limitations also apply:
 
-- Only Azure AD work or school accounts are supported for external participants.
+- Only Microsoft Entra work or school accounts are supported for external participants.
 
 - Shared channels support tabs except for Stream, Planner, and Forms.
 

@@ -31,7 +31,7 @@ description: "This article describes how to manage attributes after decommission
 
 By default, all users that were enabled for Skype for Business Server and then moved to the cloud still have msRTCSIP attributes configured in your on-premises Active Directory.
 
-These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync into Azure AD. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Azure AD. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
+These attributes, in particular sip address (msRTCSIP-PrimaryUserAddress) and phone number (msRTCSIP-Line), continue to sync into Microsoft Entra ID. If changes are required to any of the msRTCSIP attributes, these changes must be made in the on-premises Active Directory and then sync'd to Microsoft Entra ID. However, once the Skype for Business Server deployment has been removed, the Skype for Business Server tools won't be available to manage these attributes.
 
 There are two options available for handling this situation:
 
@@ -43,7 +43,7 @@ There are two options available for handling this situation:
 
 Administrators can manage users who were moved from an on-premises Skype for Business Server to the cloud, even after the on-premises deployment is decommissioned. 
 
-If you want to make changes to a user’s sip address or to a user’s phone number (and the sip address or phone number already has a value in the on-premises Active Directory), you must make the change in the on-premises Active Directory and let the value(s) flow up to Azure AD. This method does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in (as shown below), or by using PowerShell. If you're using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
+If you want to make changes to a user’s sip address or to a user’s phone number (and the sip address or phone number already has a value in the on-premises Active Directory), you must make the change in the on-premises Active Directory and let the value(s) flow up to Microsoft Entra ID. This method does NOT require on-premises Skype for Business Server. Rather, you can modify these attributes directly in the on-premises Active Directory, using either the Active Directory Users and Computers MMC snap-in (as shown below), or by using PowerShell. If you're using the MMC snap-in, open the properties page of the user, click Attribute Editor tab, and find the appropriate attributes to modify:
 
 - To modify a user’s sip address, modify the `msRTCSIP-PrimaryUserAddress`.
 
@@ -96,7 +96,7 @@ This option requires more effort and proper planning because users who were move
 4. Delete the attribute information related to Skype for Business Server from active Directory for the set of users you're ready to update.  There are two steps to this process, as shown below.
 
    > [!Important] 
-   > After the next AAD Sync cycle after running this step, users with Phone System who were moved from an on-premises Skype for Business Server to the cloud will lose the ability to make and receive calls until step 8 is successfully completed and confirmed in step 9. In addition, make sure you have saved user's phone numbers and related information as per step 2, since that information is required for that step.
+   > After the next Azure AD Sync cycle after running this step, users with Phone System who were moved from an on-premises Skype for Business Server to the cloud will lose the ability to make and receive calls until step 8 is successfully completed and confirmed in step 9. In addition, make sure you have saved user's phone numbers and related information as per step 2, since that information is required for that step.
 
  
    ```PowerShell
@@ -197,5 +197,3 @@ This option requires more effort and proper planning because users who were move
 - [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)
 
 - [Decommission your on-premises Skype for Business environment](decommission-on-prem-overview.md)
-
-
