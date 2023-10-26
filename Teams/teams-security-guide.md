@@ -101,7 +101,6 @@ Phishing attacks in Teams are costly monetarily and to peace of mind. These atta
     - [Attack Simulation helps admins train Teams users and protect the vulnerable](/microsoft-365/security/office-365-security/attack-simulation-training-teams)
     - [And there is useer suspicious message reporting available for Teams](/microsoft-365/security/office-365-security/submissions-teams)
 
-
 ## Security Framework for Teams
 
 Teams endorses security ideas like Zero Trust, and principles of Least Privilege access. This section gives an overview of fundamental elements that form a security framework for Microsoft Teams.
