@@ -27,7 +27,7 @@ ms.localizationpriority: high
 >[!Important]
 >We have updated the offical name of classic Teams as follows:</br>
 >- "**Microsoft Teams classic**" for Windows 10 and Mac devices.</br>
->- "**Micrsoft Teams classic (work or school)**" for Windows 11 devices.
+>- "**Microsoft Teams classic (work or school)**" for Windows 11 devices.
 
 
 > [!TIP]
