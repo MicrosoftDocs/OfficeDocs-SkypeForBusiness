@@ -60,7 +60,7 @@ To set up devices by using an OTP, perform the following steps:
 
    The screen displaying the status of the device sign in appears.
 
-   :::image type="content" source="../media/otp-status.png" alt-text="Screenshot that shows the boxes in which you must enter the OTP to sign in the device." lightbox="../media/otp-status.png":::
+   :::image type="content" source="../media/otp-status.png" alt-text="Screenshot that shows the status of the device sign in after the OTP has been entered." lightbox="../media/otp-status.png":::
 
    This screen indicates whether the OTP has been approved automatically or whether the OTP is pending for approval from the IT administrator.
 
