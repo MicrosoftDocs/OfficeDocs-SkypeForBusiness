@@ -88,7 +88,7 @@ For information on the configuration of emergency locations, see [Manage emergen
 
 ## Step 5: If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account and fund it
 
-If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan) assigned to the resource account, and fund calls either by [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services#buy-a-pay-as-you-go-product-or-service-and-enable-overage), if your tenant has [New commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and you want to post pay for calls, or [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
+If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan) assigned to the resource account, and fund calls either with [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services#buy-a-pay-as-you-go-product-or-service-and-enable-overage), if your tenant has [New commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and you want to post pay for calls, or [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 > [!NOTE]
 > If funding is not available for a call, the caller will hear a voice treatment stating that "You are not setup to use this calling feature, please contact your admin". If only a Pay-As-You-Go Calling Plan is assigned to the Resource Account, be sure it's correctly enabled to fund calls. If Communication Credits are assigned, confirm that the Communication Credits have a funded balance. 
@@ -140,7 +140,7 @@ Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{add=
 
 ## Step 9: Assign the Shared Calling policy to users
 
-Once you've [created your Shared Calling policy](#step-9-create-the-shared-calling-policy), you need to assign it to users with [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy).
+Once you've [created your Shared Calling policy](#step-8-create-the-shared-calling-policy), you need to assign it to users with [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy).
 
 The following cmdlet assigns the Shared Calling policy to a user:
 
