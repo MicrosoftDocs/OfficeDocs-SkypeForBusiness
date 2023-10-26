@@ -204,7 +204,7 @@ items:
               items: 
                 - name: Overview
                   href: /SkypeForBusiness/hybrid/configure-hybrid-connectivity
-                - name: Configure Azure AD Connect for hybrid environments
+                - name: Configure Microsoft Entra Connect for hybrid environments
                   href: /SkypeForBusiness/hybrid/configure-azure-ad-connect
                 - name: Configure Skype for Business hybrid
                   href: /SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online
@@ -244,7 +244,7 @@ items:
                   href: /SkypeForBusiness/hybrid/cloud-consolidation
                 - name: Update the edge certificate
                   href: /SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates
-                - name: Update AAD Connect to include more than one forest
+                - name: Update Microsoft Entra Connect to include more than one forest
                   href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
             - name: Integration with Exchange and SharePoint
               href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
@@ -393,9 +393,7 @@ items:
           href: teams-outlook-email-integration.md
         - name: Share to Teams from Outlook
           href: teams-outlook-share-teams.md
-        - name: Cortana in Teams
-          href: cortana-in-teams.md     
-
+                    
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -1879,7 +1877,7 @@ items:
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
-        - name: Connect Teams Essentials (AAD Identity) to email
+        - name: Connect Teams Essentials (Microsoft Entra identity) to email
           href: connect-teams-essentials-to-email.md
     - name: Move from Kaizala
       items: 

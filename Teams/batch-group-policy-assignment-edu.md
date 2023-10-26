@@ -149,7 +149,7 @@ Run the following to connect to Teams and start a session.
 Connect-MicrosoftTeams
 ```
 
-When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
+When you're prompted, sign in using the same admin credentials you used to connect to Microsoft Entra ID.
 
 #### Unassign a policy that was directly assigned to users
 
@@ -204,7 +204,7 @@ Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an
 Install-Module -Name AzureAD
 ```
 
-Run the following to connect to Azure AD.
+Run the following to connect to Microsoft Entra ID.
 
 ```powershell
 Connect-AzureAD
@@ -228,7 +228,7 @@ Run the following to connect to Teams and start a session.
 Connect-MicrosoftTeams
 ```
 
-When you're prompted, sign in using the same admin credentials you used to connect to Azure AD.
+When you're prompted, sign in using the same admin credentials you used to connect to Microsoft Entra ID.
 
 #### Identify your users
 
