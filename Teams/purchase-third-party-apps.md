@@ -22,7 +22,7 @@ ms.localizationpriority: high
 
 Some Teams apps require purchasing a service subscription to use app functionality. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase through [AppSource](https://appsource.microsoft.com/) and through the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
-Paid apps require users to authenticate to prevent unwarranted access. Also, user sign-in is required to check for entitlement and to make the corresponding app functionality available for the logged-in user. For authentication, app developers can use single sign-on (SSO) using Azure Active Directory or use third-party OAuth Identity Provider. The authentication mechanism is similar for Teams or web apps. For more information, see [How apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication).
+Paid apps require users to authenticate to prevent unwarranted access. Also, user sign-in is required to check for entitlement and to make the corresponding app functionality available for the logged-in user. For authentication, app developers can use single sign-on (SSO) using Microsoft Entra ID or use third-party OAuth Identity Provider. The authentication mechanism is similar for Teams or web apps. For more information, see [How apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication).
 
 You can purchase licenses for services offered by third-party apps from the Manage apps page in the Teams admin center. The **Licenses** column in the table indicates if an app offers a SaaS subscription for purchase. You can purchase apps using a credit card, debit card, or with invoice billing.
 
@@ -155,5 +155,5 @@ After you have assigned licenses to the users or team, you can view the list of 
 
 * [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 * [Create a SaaS offer](/partner-center/marketplace/create-new-saas-offer)
-* [Azure Active Directory built-in roles](/azure/active-directory/roles/permissions-reference)
+* [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference)
 * [Understand how apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication)
