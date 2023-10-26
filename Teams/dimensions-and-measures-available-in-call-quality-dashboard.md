@@ -402,6 +402,22 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the second loudspeaker rendering.| |
 | First Send Mute Percent | Range (Percentage) | Percentage of the audio stream from the first endpoint where the client was muted.| &bull; Stream isn't an audio stream <br/> &bull; Data wasn't reported by the first endpoint|
 | Second Send Mute Percent | Range (Percentage) |Percentage of the audio stream from the second endpoint where the client was muted.| &bull; Stream isn't an audio stream <br/> &bull; Data wasn't reported by the second endpoint|
+| First System CPU Resource Usage Average	| Range (percentage) | The average of the system's overall CPU usage measured for the first endpoint.||
+| Second System CPU Resource Usage Average|	Range (percentage) | The average of the system's overall CPU usage measured for the second endpoint.||
+| First Process CPU Resource Usage Average|	Range (percentage) | The average of the CPU usage by the Teams process measured for the first endpoint.||
+| Second Process CPU Resource Usage Average	|Range (percentage)	|The average of the CPU usage by the Teams process measured for the second endpoint.||
+| First System Memory Resource Usage Average	|Range (percentage)	|The average of the system's overall memory usage measured for the first endpoint.||
+| Second System Memory Resource Usage Average	|Range (percentage)	|The average of the system's overall memory usage measured for the second endpoint.||
+| First Process Memory Resource Usage Average	|Range (percentage)	|The average of the memory usage by the Teams process measured for the first endpoint.||
+| Second Process Memory Resource Usage Average|	Range (percentage)|	The average of the memory usage by the Teams process measured for the second endpoint.||
+| First System CPU Resource Usage Max	|Range (percentage)	|The maximum value of the system's overall CPU usage measured for the first endpoint.||
+| Second System CPU Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall CPU usage measured for the second endpoint.||
+| First Process CPU Resource Usage Max|	Range (percentage)|	The maximum value of the CPU usage by the Teams process measured for the first endpoint.||
+| Second Process CPU Resource Usage Max|	Range (percentage)|	The maximum value of the CPU usage by the Teams process measured for the second endpoint.||
+| First System Memory Resource Usage Max|	Range (percentage)	|The maximum value of the system's overall memory usage measured for the first endpoint.||
+| Second System Memory Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall memory usage measured for the second endpoint.||
+| First Process Memory Resource Usage Max	|Range (percentage)	|The maximum value of the memory usage by the Teams process measured for the first endpoint.||
+| Second Process Memory Resource Usage Max|	Range (percentage)|	The maximum value of the memory usage by the Teams process measured for the second endpoint.||
 |**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) was used at some point during the call. False otherwise     | &bull; The stream wasn't an audio stream <br/>&bull; The data wasn't reported by the endpoint sending the stream  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the first endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
