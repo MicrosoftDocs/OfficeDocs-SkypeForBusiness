@@ -136,6 +136,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second VTC Device Name | String | The friendly name of the VTC device used by the second endpoint | <br/>&bull; Data wasn't reported by the endpoint <br/>&bull; Field is EUII and 28 days has passed |
 | First VTC Device Detail | String | The platform and version information of the VTC device used by the first endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; Data wasn't reported by the endpoint |
 | Second VTC Device Detail | String | The platform and version information of the VTC device used by the second endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; Data wasn't reported by the endpoint |
+|First Media Bypass	| Boolean|	Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and first endpoint.| &bull; Stream was not destined for a PSTN endpoint. <br/> &bull; Stream was not an audio stream. |
+Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and second endpoint.| &bull; Stream was not destined for a PSTN endpoint. <br/> &bull; Stream was not an audio stream. |
 | First Endpoint Make |String |Device manufacturer, information is read from an Endpoint Data file EndpointMake field. | <br/>&bull; No data file for the endpoint |
 | First Endpoint Model |String|Device model, information is read from an Endpoint Data file EndpointModel field.| <br/>&bull; No data file for the endpoint |
 | First Endpoint Type|String|Device type, information is read from an Endpoint Data file EndpointType field.| <br/>&bull; No data file for the endpoint |
