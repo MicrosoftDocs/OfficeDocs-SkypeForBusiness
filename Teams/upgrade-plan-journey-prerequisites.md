@@ -42,7 +42,7 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see [Domains FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
-- If your organization hasn't synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
+- If your organization hasn't synchronized identities to Microsoft Entra ID, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
 
 - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
 

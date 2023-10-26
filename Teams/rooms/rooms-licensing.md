@@ -63,7 +63,7 @@ The following table shows the services included in each Teams Rooms license.
 | **Whiteboard**                            | &#x2714;                                                             | &#x2714;                                                               |
 | **Teams Phone**                           |                                                                      | &#x2714;                                                               |
 | **Microsoft Intune<sup>2</sup>**          |                                                                      | &#x2714;                                                               |
-| **Azure Active Directory Premium Plan 1** |                                                                      | &#x2714;                                                               |
+| **Microsoft Entra ID P1** |                                                                      | &#x2714;                                                               |
 | **Skype for Business Plan 2<sup>3</sup>** |                                                                      | &#x2714;                                                               |
 | **Geographic availability**               | Worldwide                                                            | Worldwide                                                              |
 | **Segment availability**                  | Commercial, Worldwide Public Sector, Education, Charity, GCC         | Commercial, Worldwide Public Sector, Education, Charity, GCC, GCC-High |
@@ -147,7 +147,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 |:--------------------------------------------------------------------|:---------------------------:|:-------------------------:|
 | **Secure operating system**                                         | &#x2714;                    | &#x2714;                  |
 | **System level security (Secure boot, Assigned Access mode, etc.)** | &#x2714;                    | &#x2714;                  |
-| **Azure AD conditional access policies**                              |                             | &#x2714;                  |
+| **Microsoft Entra Conditional Access policies**                              |                             | &#x2714;                  |
 
 ### Device management
 
@@ -203,7 +203,3 @@ In the Rooms view, you'll find:
 If you encounter devices showing an incorrect “unlicensed” status even though they possess the proper licenses, this can result from account sign-out or improper sign-in of your devices. To resolve these issues, follow the steps outlined below: 
 - For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
-
-
-
-
