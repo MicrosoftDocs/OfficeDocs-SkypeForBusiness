@@ -47,7 +47,7 @@ Currently, new Teams on VDI with audio/video (AV) optimization is certified with
 
 Review the information in this section to ensure that you meet all requirements for proper functionality. 
 
-##  Azure Virtual Desktop 
+## Azure Virtual Desktop 
 
 Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more on requirements and installation, see Use Teams on Azure Virtual Desktop. 
 
