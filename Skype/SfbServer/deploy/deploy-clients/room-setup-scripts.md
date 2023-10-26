@@ -43,7 +43,7 @@ Make sure you've reviewed the following prerequisites before running the script:
   
 - Microsoft Online Services Sign-In Assistant for IT Professionals BETA
     
-- Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)
+- Windows Azure Active Directory module for Windows PowerShell (64-bit version) or (32-bit version)
     
 - Teams PowerShell Module
     
