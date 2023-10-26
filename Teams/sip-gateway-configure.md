@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 9/28/2023
+ms.date: 10/04/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -131,7 +131,9 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence conditional access checks applied to them are stricter than those applied to users. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following SIP Gateway service IP addresses:
+Conditional Access is an Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence stricter conditional access checks are applied to them. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, you should do one of the following: 
+
+1. Exclude your site public IP addresses and the following SIP Gateway service IP addresses from Conditional Access checks:
 
 - North America:
     - East US: 52.170.38.140
@@ -143,8 +145,7 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - Australia East: 20.92.120.71
     - Australia Southeast: 13.73.115.90
 
-> [!Note]
-> With the new authentication experience, conditional access checks for SIP Gateways will apply to users instead of devices. However, yo must exclude them **either by using the Teams app or by adding SIP Gateway service IP addresses to your list of site public IP addresses**.
+2. Exclude the Teams app from Conditional Access checks.
 
 For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
@@ -205,6 +206,19 @@ Only local sign-in is supported for users’ personal devices. To sign out a dev
 
 3. At the right, select a SIP device, and then select **Sign out**.
 
+### Zero Touch Common Area Phone sign in
+
+You can remotely sign in common area phones to SIP Gateway without any physical intervention on the device.
+
+1. Ensure that [bulk sign in pre-requisites](/microsoftteams/sip-gateway-configure#bulk-sign-in-prerequisites) are in place.
+
+2. Open the [SIP remote login portal](https://aka.ms/sipremotelogin) in a browser tab.
+
+3. Authenticate with common area phone credentials that you want to associate with the device.
+
+4. Select appropriate device region. You can use NOAM, EMEA, or APAC.
+
+5. Enter the MAC address of device in XX-XX-XX-XX-XX-XX format. 
 
 ### User pairing and sign-in
 
@@ -217,7 +231,7 @@ To pair a SIP device after the user authenticates using corporate credentials, a
 3. Enter the pairing code displayed on the SIP phone into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 > [!NOTE]
-> The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
+> The location of the device shown on the Microsoft Entra web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 > [!NOTE]
 > We are introducing a new authentication experience progressively for SIP Gateway compatible devices. Users with the new experience will see a [new authentication URL](https://aka.ms/siplogin).
@@ -242,7 +256,7 @@ To sign out a device on the Teams admin center:
 
 Bulk sign ins enable you to sign in with shared accounts on SIP devices in batches of up to 100 devices each but with a limit of 3 concurrent batches per region.
 
-Bulk sign in is very helpful and can be used in these scenarios.
+Bulk sign-in is very helpful and can be used in these scenarios.
 
 - **Activating new SIP devices** When you want to activate and deploy new SIP devices within 3 days (or 72 hours) of onboarding to SIP gateway.
 - **Devices that are signed out** To sign in devices that got signed out for any reason, within 7 days (or 168 hours) of being signed out. In this scenario, you don't have to add the tenant ID to the provisioning URL as in Step 2 below.
@@ -272,14 +286,14 @@ Bulk sign in is very helpful and can be used in these scenarios.
 5. The accounts must not have Multi Factor Authentication (MFA) enabled.
 6. The accounts must have a phone number assigned.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
-8. You must use a account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
+8. You must use an account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
 9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
 
 ### How to create a bulk sign in request
 
 1. Create a CSV file that will be used with two columns: **Username** and **HardwareId**.
   
-   - **Username** column: Put in the list of Azure Active Directory user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
+   - **Username** column: Put in the list of Microsoft Entra user names or user principal names (UPNs) to use to associate with the device's MAC address found in the **HardwareId** column.
    - **HardwareId** column: List the MAC address for each IP phone in this format: xx-xx-xx-xx-xx-xx or xx-xx-xx-xx-xx-xx:xxx (where the last three digits are the ATA port number. For analog devices, the port numbers start from 001.) An example for a MAC address without the ATA port number would be: 1A-2B-3C-D4-E5-F6. An example for a MAC address for an analog device would be: 1A-2B-3C-D4-E5-F6:001
    - **Example CSV**:
   
@@ -302,7 +316,7 @@ Bulk sign in is very helpful and can be used in these scenarios.
 The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 ### Bulk sign in error messages
-To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should to do to fix it.
+To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should do to fix it.
 
 | Error message | Potential solution |
 |:-----|:-----|
@@ -393,4 +407,3 @@ SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP
 ## Report problems to Microsoft
 
 To report problems, contact [Microsoft Support](https://support.microsoft.com).
-

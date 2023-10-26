@@ -29,16 +29,17 @@ You can upgrade to the new Teams client to your organization by setting policies
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)
+|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)|
 
 
 #### Required Microsoft 365 Apps Security Updates
 
 |Channel|Version & Build|
 |:-----|:-----|
-|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)</br>Version 2202 (Build 14931.20944)</br> |
+|Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)|
 |Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
 |Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
 

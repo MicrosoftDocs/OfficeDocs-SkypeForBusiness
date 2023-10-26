@@ -31,15 +31,16 @@ ms.custom:
 If you've deployed [Direct Routing](direct-routing-landing-page.md) in your organization, you can use emergency call routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. An emergency call routing policy determines whether enhanced emergency services are enabled for users who are assigned the policy, the numbers used to call emergency services (for example, 911 in the United States), and how calls to emergency services are routed.
 
 > [!NOTE]
-> These call routing policies apply only to Direct Routing--they do not apply to Calling Plans or Operator Connect.
->
-> However, this policy is used with Shared Calling - no matter which PSTN connectivity option you use. For more information, see [Configure Shared Calling](shared-calling-setup.md).
+> These call routing policies are used to identify emergency numbers and PSTN routes for Direct Routing. When Shared Calling is in use with Calling Plans and Operator Connect, these policies are only used to identify emergency numbers. For more information, see [Configure Shared Calling](shared-calling-setup.md).
 
 You manage emergency call routing policies by going to **Voice** > **Emergency policies** in the Microsoft Teams admin center or by using Windows PowerShell. The policies can be assigned to users and [network sites](cloud-voice-network-settings.md).
 
 For users, you can use the global (Org-wide default) policy or create and assign custom policies. Users automatically get the global policy unless you create and assign a custom policy. Keep in mind that you can edit the settings in the global policy but you can't rename or delete it. For network sites, you create and assign custom policies.
 
 If you assigned an emergency call routing policy to a network site and to a user and if that user is at that network site, the policy that's assigned to the network site overrides the policy that's assigned to the user.
+
+> [!NOTE]
+> If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used. 
 
 ## Create a custom emergency call routing policy
 
@@ -58,6 +59,7 @@ If you assigned an emergency call routing policy to a network site and to a user
 
     > [!NOTE]
     > Dial strings and dial masks must be unique within a policy. This means that for a policy, you can define multiple emergency numbers and you can set multiple dial masks for a dial string, but each dial string and dial mask must only be used one time.
+    > PSTN usages should not be added for policies assigned to Shared Calling users for Calling Plans or Operator Connect.
 
 6. Click **Save**.
 

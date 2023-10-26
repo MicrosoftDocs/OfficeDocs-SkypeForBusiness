@@ -312,9 +312,9 @@ When you're prompted, sign in using your admin credentials.
 
 #### Install and connect to the Azure AD PowerShell for Graph module (optional)
 
-You might also want to [download and install the Azure AD PowerShell for Graph module](/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Azure AD so that you can retrieve a list of users in your organization.
+You might also want to [download and install the Azure AD PowerShell for Graph module](/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Microsoft Entra ID so that you can retrieve a list of users in your organization.
 
-Run the following to connect to Azure AD.
+Run the following to connect to Microsoft Entra ID.
 
 ```powershell
 Connect-AzureAD
@@ -331,7 +331,7 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
-In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
+In this example, we connect to Microsoft Entra ID to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
 
 ```powershell
 Connect-AzureAD
