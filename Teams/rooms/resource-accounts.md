@@ -75,7 +75,7 @@ To view the licenses assigned to a resource account, perform the following steps
 1. Select a resource account and navigate to the page displays its settings and other details.
 1. Select **Licenses** tab. You can view the Teams Rooms licenses that are assigned to the chosen resource account.
 
-:::image type="content" source="../media/licenses-assigned-to-resource-account.png" alt-text="Screenshot that shows the page displaying details of licenses assigned to a resource account." lightbox="../media/licenses-assigned-to-resource-account.png":::
+   :::image type="content" source="../media/licenses-assigned-to-resource-account.png" alt-text="Screenshot that shows the page displaying details of licenses assigned to a resource account." lightbox="../media/licenses-assigned-to-resource-account.png":::
 
 ### Other information
 
