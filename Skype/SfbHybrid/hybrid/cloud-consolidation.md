@@ -42,7 +42,7 @@ You can consolidate all on-premises users from multiple Skype for Business deplo
 
 - There must be at most one Microsoft 365 organization involved. Consolidation in scenarios with more than one organization isn't supported.
 
-- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). These on-premises organizations *can* sync to Azure AD if desired if you [disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain).
+- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). These on-premises organizations *can* sync to Microsoft Entra ID if desired if you [disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain).
 
 Customers with deployments of Skype for Business in multiple forests must fully migrate all users of a single hybrid Skype for Business forest individually into the Microsoft 365 organization using Shared SIP Address Space functionality. You must then disable hybrid with that on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that aren't represented in the same user’s on-premises directory.  
 
@@ -52,29 +52,29 @@ Consider an organization with two separate federated on-premises deployments of 
 
 |Original state details |Desired state details |
 |---------|---------|
-|<ul><li>Two independent Skype for Business on-premises deployments in separate AD forests<li>At most, one  forest is in hybrid with Teams <li> Orgs are federated with each other <li>Users aren't synced across these forests<li> The org may have an Microsoft 365 organization and may be syncing their directory into Azure AD</ul>|<ul> <li>One Microsoft 365 organization<li>No more on-premises deployments, so no hybrid remaining<li>All users from on premises have been moved to Teams Only mode <li>No on-premises footprint of Skype for Business Server anywhere <li>Users still have on-premises authentication</ul> |
+|<ul><li>Two independent Skype for Business on-premises deployments in separate AD forests<li>At most, one  forest is in hybrid with Teams <li> Orgs are federated with each other <li>Users aren't synced across these forests<li> The org may have a Microsoft 365 organization and may be syncing their directory into Microsoft Entra ID</ul>|<ul> <li>One Microsoft 365 organization<li>No more on-premises deployments, so no hybrid remaining<li>All users from on premises have been moved to Teams Only mode <li>No on-premises footprint of Skype for Business Server anywhere <li>Users still have on-premises authentication</ul> |
 
 ![Consolidating two separate federated on-premises deployments.](../media/cloudconsolidationfig1.png)  
 
 The basic steps to get from the original state to the desired end state are below. Some organizations may find that their starting point is somewhere in the middle of these steps. See [Other starting points](#other-starting-points), later in this article. Finally, in some cases the order can be adjusted, depending on need. [Key constraints and limitations](#limitations) are described later.
 
-1. Get an Microsoft 365 organization if one doesn't yet exist.
+1. Get a Microsoft 365 organization if one doesn't yet exist.
 2. Make sure all relevant SIP domains across both on-premises deployments are verified Microsoft 365 domains.
 3. Pick one Skype for Business deployment that will be hybrid with Microsoft 365. In this example, we’ll use OriginalCompany.<span>com.
-4. [Enable Azure AD Connect for the forest](configure-azure-ad-connect.md) that will first become hybrid (OriginalCompany.<span>com).
+4. [Enable Microsoft Entra Connect for the forest](configure-azure-ad-connect.md) that will first become hybrid (OriginalCompany.<span>com).
 5. Set the tenant-wide policy for [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy) to SfBWithTeamsCollab or one of the other Skype for Business modes (SfBOnly or SfBWithTeamsCollabAndMeetings). This step is critical to ensure routing of calls and chats from users who move to Teams Only to users who remain on premises.
-6. It's recommended at this point (but not yet required until step 11) to [enable Azure AD Connect for the other forest](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com). Assuming Azure AD Connect is enabled in both forests, the org looks like **[Figure A](#figure-a)**, which may be a common starting point for some orgs.
+6. It's recommended at this point (but not yet required until step 11) to [enable Microsoft Entra Connect for the other forest](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com). Assuming Microsoft Entra Connect is enabled in both forests, the org looks like **[Figure A](#figure-a)**, which may be a common starting point for some orgs.
 7. For any SIP domains hosted by other on-premises deployments (in this case, AcquiredCompany.<span>com), [disable these online SIP domains in your Microsoft 365 organization](/powershell/module/skype/disable-csonlinesipdomain) using `Disable-CsOnlineSipDomain` in the Teams PowerShell Module. 
 8. [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) for OriginalCompany.<span>com (the one deployment that still has enabled online SIP domains).
 9. In the hybrid deployment (OriginalCompany.<span>com), start [moving users from Skype for Business on premises to the cloud](move-users-between-on-premises-and-cloud.md) (whether Teams Only or not) so that user is Teams Only. Now the organization looks like **[Figure B](#figure-b)**. The key changes from Figure A are:
-    - Users from both on-premises directories are now in Azure AD.
+    - Users from both on-premises directories are now in Microsoft Entra ID.
     - AcquiredCompany.<span>com is a disabled online SIP domain.
     - Some users have been moved online to Teams Only. (See purple user A.)
 10. Once all users are moved to the cloud, [disable hybrid with the Skype for Business on-premises deployment](cloud-consolidation-disabling-hybrid.md) for OriginalCompany.<span>com from Microsoft 365:  
     - Disable split domain in the Microsoft 365 organization.
     - Disable the ability to communicate with Microsoft 365 in OriginalCompany.<span>com on-premises.
     - Update DNS records for OriginalCompany.<span>com to point to Microsoft 365.
-11. If not done already, [enable Azure AD Connect for the next forest](cloud-consolidation-aad-connect.md) that will go hybrid (AcquiredCompany.<span>com). At this point, the organization looks like **[Figure C](#figure-c)**. This configuration may be another common starting point for some organizations. 
+11. If not done already, [enable Microsoft Entra Connect for the next forest](cloud-consolidation-aad-connect.md) that will go hybrid (AcquiredCompany.<span>com). At this point, the organization looks like **[Figure C](#figure-c)**. This configuration may be another common starting point for some organizations. 
 12. In Teams PowerShell, [enable the SIP domains for the next on-premises deployment](/powershell/module/skype/enable-csonlinesipdomain) that will go hybrid, AcquiredCompany.<span>com. This is done using `Enable-CsOnlineSipDomain`, which is new functionality available as of December 2018.
 13. If you're using closed federation, you must add any SIP domains (excluding \*.microsoftonline.com)  of the pure online tenant as Allowed Domains in **same** Microsoft 365. It can take some time before the change takes effect and there's no harm in doing this early, so we suggest doing this well in advance of moving to step 14.
 14. Update the on-premises environment to accept any SIP domains from the online tenant, so they match.
@@ -88,7 +88,7 @@ The diagrams below show the configuration at various key points during this proc
 
 ##### Figure A
 
-- Both organizations sync via Azure AD Connect, so Azure AD now has all users from both on-premises deployments.
+- Both organizations sync via Microsoft Entra Connect, so Microsoft Entra ID now has all users from both on-premises deployments.
 - All users homed on-premises.  
 - Skype for Business Hybrid is *not* yet configured.
 - If users in either deployment use Teams, they won’t be able to federate with each other (or any organization), nor will they have interoperability with any Skype for Business users. While in this stage, Microsoft recommends using Teams for Channels only.<br><br>
@@ -106,7 +106,7 @@ The diagrams below show the configuration at various key points during this proc
 
 - All users from OriginalCompany.<span>com are now Teams Only mode in the cloud.
 - Skype for Business hybrid configuration with the OriginalCompany.<span>com deployment has been disabled. The on-premises deployment is gone.
-- If AcquiredCompany.<span>com wasn’t previously syncing to Azure AD, to continue from here it needs to be synced now. But it's not yet hybrid (shared SIP address space). Until the organization is ready to move to hybrid, the online SIP domain for the pure on-premises organization (AcquiredCompany.com) should remain disabled, so that online Teams users can communicate with on-premises users.
+- If AcquiredCompany.<span>com wasn’t previously syncing to Microsoft Entra ID, to continue from here it needs to be synced now. But it's not yet hybrid (shared SIP address space). Until the organization is ready to move to hybrid, the online SIP domain for the pure on-premises organization (AcquiredCompany.com) should remain disabled, so that online Teams users can communicate with on-premises users.
 
     ![Figure C diagram.](../media/cloudconsolidationfigc.png)
 
@@ -124,20 +124,20 @@ The diagrams below show the configuration at various key points during this proc
 The steps in the canonical example above assume that the organization starts with two federated on-premises deployments with no Microsoft 365 presence. However, some organizations may have an existing Microsoft 365 footprint, and there can be different entry points into the sequence above. There are four typical configurations:
 
 - Multiple federated on-premises organizations with no Microsoft 365 organization. In this case, start at step 1.
-- Multiple federated on-premises organizations that are already syncing multiple Skype for Business forest into a single Azure AD tenant. Such an organization resembles the hypothetical organization in Figure A, which has completed steps 1-6 and should start at step 7.
-- A hybrid organization that federates with one or more other pure on-premises organizations, none of which sync to Azure AD. Such an organization would resemble the hypothetical organization in **Figure E**, shown below.
+- Multiple federated on-premises organizations that are already syncing multiple Skype for Business forest into a single Microsoft Entra tenant. Such an organization resembles the hypothetical organization in Figure A, which has completed steps 1-6 and should start at step 7.
+- A hybrid organization that federates with one or more other pure on-premises organizations, none of which sync to Microsoft Entra ID. Such an organization would resemble the hypothetical organization in **Figure E**, shown below.
   - This organization is similar to Figure B, which has completed steps 1-9, except:
-        - Its non-hybrid Skype for Business deployments are *NOT* yet syncing to Azure AD.
+        - Its non-hybrid Skype for Business deployments are *NOT* yet syncing to Microsoft Entra ID.
         -  Online SIP domains aren't yet disabled.
   - These organizations should either:
         - Complete migration of the existing hybrid organization and enter the above sequence at step 10.  OR,
-        - If you want to sync any other Skype for Business forests into Azure AD prior to completing migration of the hybrid organization, then you must perform step 7 to disable all online SIP domains in any other on-premises Skype for Business deployment that will sync into Azure AD. Then you must enable Azure AD Connect, and only then continue with step 10 (decommission the original hybrid deployment).
+        - If you want to sync any other Skype for Business forests into Microsoft Entra prior to completing migration of the hybrid organization, then you must perform step 7 to disable all online SIP domains in any other on-premises Skype for Business deployment that will sync into Microsoft Entra ID. Then you must enable Microsoft Entra Connect, and only then continue with step 10 (decommission the original hybrid deployment).
 
 ##### Figure E
 
 ![Figure E diagram.](../media/cloudconsolidationfige.png)
 
-- A pure Teams Only organization that federates with a separate on-premises Skype for Business organization. Once this organization disables the online SIP domain for the on-premises organization and enables Azure AD Connect for the on-premises Skype for Business organization, it resembles the hypothetical organization shown in **[Figure C](#figure-c)** that has completed steps 1-11.
+- A pure Teams Only organization that federates with a separate on-premises Skype for Business organization. Once this organization disables the online SIP domain for the on-premises organization and enables Microsoft Entra Connect for the on-premises Skype for Business organization, it resembles the hypothetical organization shown in **[Figure C](#figure-c)** that has completed steps 1-11.
 
 ## Limitations
 
@@ -160,7 +160,7 @@ The steps in the canonical example above assume that the organization starts wit
   - In **[Figure D](#figure-d)** above, user E is on-premises, and calls with users A, B, or C will be supported only as peer to peer. (Calls with user D would not have support limitations.)  However, after the on-premises user E is moved to the cloud, this restriction no longer applies.
 - If you have more than one deployment of Skype for Business Server 2019 in your environment, only one of those deployments can be configured to use Organizational Auto Attendant, since that feature requires Skype for Business Server hybrid configuration.
 - The order of some of the previous steps can be adjusted. The key requirement is that if all of these are true:
-  - More than one on-premises Skype for Business forest syncing to a single Microsoft 365 tenant in Azure AD.
+  - More than one on-premises Skype for Business forest syncing to a single Microsoft 365 tenant in Microsoft Entra ID.
   - Split domain is enabled with one on-premises forest.
   - At least one user in the hybrid organization has been migrated to the cloud. Then, you *must* disable all other online SIP domains from any other on-premises Skype for Business forest. Otherwise, federation between online users in the hybrid organization and on-premises users in other organizations will break in one direction.
 
@@ -187,6 +187,6 @@ When you move users from on premises to the cloud in a hybrid environment, these
 
 [Update the edge certificate](cloud-consolidation-edge-certificates.md)
 
-[Update Azure AD Connect to include more than one forest](cloud-consolidation-aad-connect.md)
+[Update Microsoft Entra Connect to include more than one forest](cloud-consolidation-aad-connect.md)
 
 [Disable hybrid to complete migration to the cloud](cloud-consolidation-disabling-hybrid.md)

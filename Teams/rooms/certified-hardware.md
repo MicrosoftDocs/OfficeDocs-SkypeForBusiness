@@ -78,7 +78,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
 | [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
-| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 128 GB |
+| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 256 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www.hp.com/us-en/desktops/business/elite-slice.html) | Core i5 | 8 GB | 128 GB |
 | [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) | Core i5 | 8 GB | 128 GB |
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
@@ -225,6 +225,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
 | [Logitech Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
+| [Logitech Rally Bar Huddle](https://www.logitech.com/en-us/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
 | [Logitech Group](https://www.logitech.com/product/conferencecam-group) | 8.5.778 |  |  |
