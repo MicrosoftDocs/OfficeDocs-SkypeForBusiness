@@ -99,7 +99,7 @@ Phishing attacks in Teams are costly monetarily and to peace of mind. These atta
 
 - [Microsoft Defender for Office 365 also secures Teams](/microsoft-365/security/office-365-security/mdo-support-teams-about)
     - [Attack Simulation helps admins train Teams users and protect the vulnerable](/microsoft-365/security/office-365-security/attack-simulation-training-teams)
-    - [And there is user suspicious message reporting available for Teams](/microsoft-365/security/office-365-security/submissions-teams)
+    - [And there is suspicious message reporting available for Teams users](/microsoft-365/security/office-365-security/submissions-teams)
 
 ## Security Framework for Teams
 
