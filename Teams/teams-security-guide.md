@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/14/2023
+ms.date: 10/30/2023
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -89,6 +89,18 @@ Spim is unsolicited commercial instant messages or presence subscription request
 ### Viruses and worms
 
 A virus is a unit of code whose purpose is to reproduce more, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that reproduces more, similar code units, but that unlike a virus doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
+
+## Phishing attempts
+
+Phishing attacks in Teams are costly monetarily and to peace of mind. These attacks operate by means of tricking users into revealing information such as passwords, codes, credit card numbers, and other critical information, through fake website links, and attachments that appear innocuous but can download dangerous software on click. Because many of these attacks target users, even high value targets with a lot of access, they can be pervasive. However, there are anti-phishing strategies for both Teams administrators and users.
+
+- [There are security Best Practices for Teams that everyone should know about and use](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging)
+    - [Users can learn how to spot and protect themselves from phishing](https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44)
+
+- [Microsoft Defender for Office 365 also secures Teams](/microsoft-365/security/office-365-security/mdo-support-teams-about)
+    - [Attack Simulation helps admins train Teams users and protect the vulnerable](/microsoft-365/security/office-365-security/attack-simulation-training-teams)
+    - [And there is useer suspicious message reporting available for Teams](/microsoft-365/security/office-365-security/submissions-teams)
+
 
 ## Security Framework for Teams
 
