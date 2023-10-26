@@ -9,7 +9,7 @@ ms.reviewer: jenstr
 ms.date: 10/24/2023
 audience: admin
 search.appverid: MET150
-description: Learn how to configure private telephone lines in Microsoft Teams.
+description: Learn how to configure private telephone lines for users in Microsoft Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
@@ -24,9 +24,9 @@ appliesto:
 
 # Private telephone lines with Microsoft Teams
 
-This article describes what you need to know to configure private lines in Microsoft Teams. A private line is a second phone number assigned to a user to allow them to make and receive calls from a different number than their primary line. Private lines are also known as secondary lines or secondary numbers. Private lines are typically configured for executives who give out the number to only people they wish to receive direct communications from.
+This article describes what you need to know to configure private lines for users in Microsoft Teams. A private line is a second phone number assigned to a user to allow them to make and receive calls from a different number than their primary line. Private lines are also known as secondary lines or secondary numbers. Private lines are typically configured for executives who give out the number to only people they wish to receive direct communications from.
 
-Private lines only support inbound calling, When a user makes an outbound call, the call will be made from the user's primary line.
+Private lines only support inbound calling. When a user makes an outbound call, the call will be made from the user's primary line.
 
 ## Requirements
 
