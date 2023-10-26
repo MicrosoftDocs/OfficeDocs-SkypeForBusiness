@@ -25,13 +25,13 @@ appliesto:
 
 Collaboration through instant messaging and video conferencing has allowed many industries and schools to move their interactions online. However, online real-time collaboration at such a broad scale also comes with *risks* that must be addressed. Otherwise, bad actors take advantage of this change in work and life with **phishing** and **spam** campaigns.
 
-The numbered reference list in this article acts as a primer for general security when using Teams to interact with others, and is training guidance for people new to Teams, or to any online collaboration, security.
+The numbered reference list in this article acts as a primer for general security when using Teams to interact with others, and is security training guidance for people new to Teams, or to any online collaboration solutions.
 
 ## Security at a user level
 
 **The same phishing risks that exist in email exist in instant messaging and collaboration apps** so the same user-awareness and guidance should be applied to safeguard Teams users.
 
-At a user level, some measures can be simple, and users should feel empowered to rely on them. 
+At a user level, some measures can be simple, and users should feel empowered to rely on them.
 
 - Users shouldn’t click to open links from anyone that they don’t know, or whose identity they can't verify per the article [Protect yourself from phishing](https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44).
 
@@ -41,7 +41,7 @@ At a user level, some measures can be simple, and users should feel empowered to
 
 The Teams collaboration feature set allows messaging, file collaboration, meetings, whiteboards, and many other opportunities to connect. These features work across Teams for Enterprise, Teams for Life, Skype, Skype for Business, Azure Communication Services (ACS), and more. That also means it’s necessary to protect yourself, your peers, and your customers across the breadth of these capabilities. Here, again, *every user should be empowered to make the safest decision for themselves, their peers, and their customers*.
 
-## As with email, online safety must be practiced in Microsoft Teams messaging
+## As with email messages, online safety must be practiced with Microsoft Teams messages
 
 Standard safety measures should become ingrained while working in Teams.
 
@@ -55,7 +55,7 @@ Standard safety measures should become ingrained while working in Teams.
 
 Maintaining your vigilance is important. Don't take your security or the security of those you work with lightly or for granted. You should always feel empowered to protect yourself, your peers, and your customers by verifying before you trust.
 
-Finally, recognizing that everyone makes mistakes is critical. Users are prone to clicking when in a hurry or tired, for example. Admins must provide users in their organization with resources to escalate problematic link clicks and other security incidents and make those resources known so that if a user makes a mistake, the user has recourse and further security actions are available.
+**Finally, recognizing that everyone makes mistakes is critical**. Users are prone to clicking when in a hurry or tired, for example. Admins must provide users in their organization with resources to escalate problematic link clicks and other security incidents and make those resources known so that if a user makes a mistake, the user has recourse and further security actions are available.
 
 > [!TIP]
 > Check the [Profile card](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) of any contact you’re not sure about, particularly if the email is external to your company (for example, an account ending in *@litware.com* if your organization is not *Litware*). A user can verify that people they don't know are welcome Guests to a meeting by checking the Profile card for **(GUEST)**. Guests are expressly invited to participate.
