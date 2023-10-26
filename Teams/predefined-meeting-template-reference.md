@@ -79,7 +79,7 @@ The Virtual appointment meeting template comes with the following settings. You 
 |Enable Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
 
-To learn more, see [Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
+To learn more, see [Manage the Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
 
 ## Related topics
 
