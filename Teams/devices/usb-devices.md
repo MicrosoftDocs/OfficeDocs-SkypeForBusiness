@@ -86,6 +86,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |WL3024 Headset     |                                       |10/23/2023      |Certified for Microsoft Teams                           | 
 |HP                   |430/435 FHD Webcam                                         |9/29/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Plus Headset                                          |8/24/2023       |Certified for Microsoft Teams                           |
 |Lenovo/EPOS          |Wired VoIP Headset                                         |8/21/2023       |Certified for Microsoft Teams                           |
