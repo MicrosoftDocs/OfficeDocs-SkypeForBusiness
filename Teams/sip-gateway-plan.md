@@ -247,6 +247,9 @@ If you have a 3PIP or SIP device, you must have the following:
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
 > [!NOTE]
+> - Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only. 
+
+> [!NOTE]
 > Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.
 
 > [!NOTE]
