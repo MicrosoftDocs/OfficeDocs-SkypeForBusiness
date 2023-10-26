@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/03/2023
+ms.date: 10/24/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,6 +26,9 @@ ms.localizationpriority: high
 Direct or "bulk" upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization using your choice of software management tools, such as Intune or Configuration Manager.
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
+
+>[!Note]
+>An **offline install mode of the bootstrapper** will be available soon. Check back for updates.
 
 ## How it works
 
@@ -71,7 +74,7 @@ To install new Teams on a single computer with many users, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsbootstrapper.exe -p**
+3. At the prompt enter: **.\teamsbootstrapper.exe -p**
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).</br>
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 

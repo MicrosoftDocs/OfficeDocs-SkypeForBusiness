@@ -30,7 +30,7 @@ Teams users can add apps when they host meetings or chats with people from other
 
 The following types of users can be present in a Teams chat or meeting and if you allow it, they can use apps in Teams.
 
-* A **guest** is someone who has an [Azure Active Directory (Azure AD) B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) guest account your organization.
+* A **guest** is someone who has an [Microsoft Entra B2B collaboration](/azure/active-directory/external-identities/what-is-b2b) guest account your organization.
 
 * An **external access user** is from another domain and doesn't have access to your organization's Teams resources.
 
