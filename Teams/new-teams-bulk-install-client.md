@@ -28,7 +28,7 @@ Direct or "bulk" upgrades are helpful because users don't need to manually downl
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
 >[!Note]
->**New.** An offline install method is now avaiable. Learn more: [Download and install new Teams using an offline installer](#option-1b-download-and-install-new-teams-using-an-offline-installer)
+>**New.** An offline installer option is now available. Learn more: [Download and install new Teams using an offline installer](#option-1b-download-and-install-new-teams-using-an-offline-installer)
 
 ## How it works
 
@@ -82,7 +82,7 @@ To install new Teams on a single computer with many users, follow these steps:
 
 #### Option 1B: Download and install new Teams using an offline installer
 
-Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
+Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
 1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. [Download the MSIX.](https://go.microsoft.com/fwlink/?linkid=219606)
@@ -101,12 +101,6 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
    *Example:*
 
    :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
- 
-   **For URI, enter:**  *.\teamsbootstrapper.exe -p -o https://location_of_teams.com/...*
- 
-   *Example:*
-
-   :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
  
 
 #### Option B: Upgrade to the new Teams across your organization
