@@ -129,7 +129,7 @@ To learn more on the latest requirements and instructions, including how to conf
  
 ## Deploy the new Microsoft Teams client 
 
-To roll out the new Microsoft Teams client to your organization, you can either: 
+To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
 #### Option 1: Uninstall the classic Teams client and install the new one
 
