@@ -405,7 +405,7 @@ For more information about diagnostic data, including how to control what diagno
 - **createTeam, createChannel** - This property provides success data around the successful addition of members in a team and the successful creation of a new team when:
   - The **Skip** button is selected in the **Add Members** page (check existing first).
   - The **Done** button is selected in the **Add Members** page (check existing first).
-  - Shows team or channel creation acknowledgement.
+  - Shows team or channel creation acknowledgment.
 - **crossCloudDialogCancel** - **Cancel** is selected for a cross-cloud dialog.
 - **crossCloudDialogJoin** - **Join as guest** is selected for a cross-cloud dialog.
 - **dashboardNav** - A user navigates to a tile on the chat dashboard.
@@ -1269,8 +1269,8 @@ action.
 - **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
 - **fetch_me_profile** - The users profile creation status.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
-- **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
-- **get_resource_token_sync**: Required service call to acquire tokens for Azure Active Directory resources synchronously.
+- **get_resource_token_async**: Required service call to acquire tokens for Microsoft Entra resources asynchronously.
+- **get_resource_token_sync**: Required service call to acquire tokens for Microsoft Entra resources synchronously.
 - **get_sender_sub_scenario** - Get sender sub scenario in activity.
 - **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
