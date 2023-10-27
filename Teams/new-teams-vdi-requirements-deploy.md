@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/26/2023
+ms.date: 10/27/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -133,23 +133,13 @@ To roll out the new Microsoft Teams client to your organization, you can either:
 
 #### Option 1: Uninstall the classic Teams client and install the new one**
 
-**Recommended.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
+**Recommended The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
 
+**Recommended way to deploy new Teams in VDI.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md).
 
-#### Option 2: Install both apps 'side by side' 
-Let the user switch between them by using the toggle on the top left of the Teams UI.  
-You can control who sees the toggle by configuring the Teams Admin Center policy "Teams update policy".
-  
-If the toggle is being used for the new Teams client rollout, Admins must make sure that the VDI environments meet the minimum requirements described here: 
-Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
+Using the teamsbootstrapper.exe -p command always guarantees the latest new Teams client is installed.
 
-IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
-
-  :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
-
-This error might be seen in non-persistent or multi-user OS deployments if the Admin didn't sideload the new Teams client on the Golden/Master Image.
-
-#### Option 3: Download and install using an offline installer
+A phased and controlled rollout can then be achieved by selectively expanding the new computer catalogue/delivery group assignments to more users.
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
 
@@ -175,6 +165,23 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
    *Example:*
 
    :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
+
+
+
+#### Option 2: Install both apps 'side by side' 
+Let the user switch between them by using the toggle on the top left of the Teams UI.  
+You can control who sees the toggle by configuring the Teams Admin Center policy "Teams update policy".
+  
+If the toggle is being used for the new Teams client rollout, Admins must make sure that the VDI environments meet the minimum requirements described here: 
+Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
+
+IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+
+  :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
+
+This error might be seen in non-persistent or multi-user OS deployments if the Admin didn't sideload the new Teams client on the Golden/Master Image.
+
+
  ## Classic Teams versus new Teams installers in VDI environments 
 
 The classic Teams client and the new Teams client have different install locations and profile management requirements. It's important to understand the differences and plan accordingly.
