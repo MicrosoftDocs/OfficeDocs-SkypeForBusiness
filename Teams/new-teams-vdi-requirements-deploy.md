@@ -149,7 +149,7 @@ IT administrators could have set restrictions for MSIX or deploy GPOs that could
 
 This error might be seen in non-persistent or multi-user OS deployments if the Admin didn't sideload the new Teams client on the Golden/Master Image.
 
-## Download and install using an offline installer
+#### Option 3: Download and install using an offline installer
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
 
