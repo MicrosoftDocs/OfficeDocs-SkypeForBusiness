@@ -164,7 +164,7 @@ The classic Teams client and the new Teams client have different install locatio
 
 All the user settings and configurations are now stored in: 
  
-- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- %LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
 
 Make sure this folder is persisted for proper Teams functioning. 
 
