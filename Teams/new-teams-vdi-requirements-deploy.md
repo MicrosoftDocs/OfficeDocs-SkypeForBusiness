@@ -131,9 +131,7 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To roll out the new Microsoft Teams client to your organization, you can either: 
 
-#### Option 1: Uninstall the classic Teams client and install the new one**
-
-**Recommended The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md)</br>A phased and controlled rollout can then be achieved by selectively expanding the new machine catalogue/delivery group assignments to more users. 
+#### Option 1: Uninstall the classic Teams client and install the new one
 
 **Recommended way to deploy new Teams in VDI.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md).
 
@@ -145,7 +143,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. Depending on where your MSIX is located, do the following:
+3. Depending on where your MSIX is located, enter as shown::
 </br>
 
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
