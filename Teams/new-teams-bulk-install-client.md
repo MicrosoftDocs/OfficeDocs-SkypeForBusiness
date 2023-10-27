@@ -28,7 +28,7 @@ Direct or "bulk" upgrades are helpful because users don't need to manually downl
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
 >[!Note]
->**New.** An offline install method is now avaiable. Learn more: [Download and install new Teams using an offline installer](#option-1b-download-and-install-new-teams-using-an-offline-installer)
+>**New.** An offline installer option is now available. Learn more: [Download and install new Teams using an offline installer](#option-1b-download-and-install-new-teams-using-an-offline-installer)
 
 ## How it works
 
