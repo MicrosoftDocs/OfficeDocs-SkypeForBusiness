@@ -1,10 +1,10 @@
 ---
-title:  Classic Teams users will be automatically updated to new Teams
+title:  Classic Teams users to be automatically updated to new Teams
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/27/2023
+ms.date: 10/31/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -15,7 +15,7 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how the new Microsoft Teams will replace classic Teams as the default version in your environment.
+description: Learn about how the classic Teams will be automatically upgraded to new Teams as the default version in your environment.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -23,7 +23,7 @@ ms.localizationpriority: high
 
 # Classic Teams users will be automatically updated to new Teams after March 31, 2024
 
-After March 31, 2024, any classic Teams users who have not switched to new Teams, will be automatically updated to new Teams. 
+After March 31, 2024, any classic Teams users who haven't switched to new Teams, will be automatically upgraded to new Teams. 
 
 >[!Note]
 >This automatic upgrade date does not apply to Virtualized Desktop Infrastructure (VDI) users.
