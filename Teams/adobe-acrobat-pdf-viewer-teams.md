@@ -61,7 +61,7 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+1. Optionally, you can allow SSO with Microsoft Entra identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 

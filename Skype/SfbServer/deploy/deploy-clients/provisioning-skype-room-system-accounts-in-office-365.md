@@ -39,7 +39,7 @@ Your online tenant must meet the following requirements:
     
   - Skype for Business Online Remote PowerShell access
     
-  - Windows Azure Active Directory Module for Windows PowerShell to access Microsoft 365 or Office 365 directory access
+  - Windows Azure Active Directory module for Windows PowerShell to access Microsoft 365 or Office 365 directory access
     
 For the Skype Room account, the following licensing is required:
   

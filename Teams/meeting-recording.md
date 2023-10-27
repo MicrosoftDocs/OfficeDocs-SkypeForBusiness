@@ -203,7 +203,7 @@ Migrated recordings from Stream (Classic) won't come with an expiration set on t
 
 ## Set a custom privacy policy URL
 
-You can update the Teams recording and transcription privacy policy URL with a custom link for people in your organization in Azure Active Directory. For details, see [Add your organization's privacy info using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-properties-area).
+You can update the Teams recording and transcription privacy policy URL with a custom link for people in your organization in Microsoft Entra ID. For details, see [Add your organization's privacy info using Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-properties-area).
 
 After adding your privacy policy URL, the default Teams meeting recording and transcription privacy statement will be replaced with the URL you provided. (People from outside your organization who join Teams meetings hosted by your organization will still have the default Teams meeting recording and transcription privacy policy.)
 
