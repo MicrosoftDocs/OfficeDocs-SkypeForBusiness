@@ -50,7 +50,7 @@ The default policies for users are:
 You can use the global (Org-wide default) policy that's created automatically or create and assign custom policies.
 
 > [!IMPORTANT]
-> The voicemail service in Microsoft 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
+> The voicemail service in Microsoft 365 caches voicemail policies and updates the cache every 5 minutes. So, policy changes that you make can take up to 5 minutes to be applied.
 
 ## Use Teams admin center
 

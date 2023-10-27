@@ -54,6 +54,12 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
+| Audiocodes RX-Pad | `2.2.311` | 2023 Update #2 |
+| Neat Bar | `NFB1.20230504.0021` | 2023 Update #2A |
+| Neat Bar Pro| `NFD1.20230504.0029` | 2023 Update #2A |
+| Neat Board | `NFC1.20230504.0021` |  2023 Update #2A |
+| Neat Pad touch console | `NFA1.20230504.0204`  |  2023 Update #2A |
 | Poly Studio X52 | `4.1.0_00.180034` | 2023 Update #2A |
 | Poly TC10 | `4.1.0.211230` | 2023 Update #2A |
 | Poly Studio X30 | `4.1.0_00.180034` | 2023 Update #2A |
