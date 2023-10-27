@@ -79,7 +79,7 @@ When you are setting up and configuring Audio Conferencing in Microsoft 365 or O
 |Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |
 |Thai  <br/> |Thailand  <br/> |th-TH  <br/> |
-|Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |
+|Turkish  <br/> |Türkiye  <br/> |tr-TR  <br/> |
 |Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
 
 If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).

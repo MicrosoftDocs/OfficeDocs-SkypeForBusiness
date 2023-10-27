@@ -300,7 +300,7 @@ Highly complex. A multi-purpose space as described requires a knowledgeable AV d
 
 ## Don't forget security
 
-It's vital to ensure your solutions are secure against cyber threats. Microsoft uses cutting-edge AI and automation to keep data and private information safe when using a Teams Rooms system or device. Protecting your school or institution starts with identity and access management (via the Azure Active Directory) and device management (via Intune/AutoPilot).
+It's vital to ensure your solutions are secure against cyber threats. Microsoft uses cutting-edge AI and automation to keep data and private information safe when using a Teams Rooms system or device. Protecting your school or institution starts with identity and access management (via the Microsoft Entra ID) and device management (via Intune/AutoPilot).
 
 ## More information
 

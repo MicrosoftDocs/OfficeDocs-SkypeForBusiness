@@ -2,6 +2,70 @@
 
 
 
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/2/2023 | [Microsoft Teams apps permissions and considerations](/MicrosoftTeams/app-permissions) | modified |
+| 10/2/2023 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+| 10/2/2023 | [Choose your upgrade journey from Skype for Business to Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | modified |
+| 10/2/2023 | [Upgrade strategies for IT administrators](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | modified |
+| 10/2/2023 | [Configure Shared Calling](/MicrosoftTeams/shared-calling-setup) | modified |
+| 10/2/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 10/3/2023 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
+| 10/3/2023 | [Reserve a room from a Teams Panel](/MicrosoftTeams/devices/reserving-rooms-with-a-qr-code) | modified |
+| 10/3/2023 | [What is Microsoft Intelligent Camera](/MicrosoftTeams/devices/smartvision-admin) | modified |
+| 10/3/2023 | [Set up and manage Teams Rooms on Windows custom backgrounds](/MicrosoftTeams/rooms/custom-backgrounds) | modified |
+| 10/3/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 10/3/2023 | [Connect your Session Border Controller (SBC) to Direct Routing](/MicrosoftTeams/direct-routing-connect-the-sbc) | modified |
+| 10/3/2023 | [Get started with team templates using Microsoft Graph](/MicrosoftTeams/get-started-with-teams-templates) | modified |
+| 10/3/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
+| 10/3/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
+| 10/3/2023 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
+| 10/3/2023 | [Upgrade to the new Teams client using policies](/MicrosoftTeams/new-teams-deploy-using-policies) | modified |
+| 10/3/2023 | [Upgrade to new Microsoft Teams with Microsoft 365 Apps](/MicrosoftTeams/new-teams-deploy-with-m365apps) | modified |
+| 10/3/2023 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 10/3/2023 | [Authentication in Microsoft Teams Rooms on Windows](/MicrosoftTeams/rooms/rooms-authentication) | modified |
+| 10/3/2023 | [Deploy Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-deploy) | modified |
+| 10/3/2023 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
+| 10/3/2023 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
+| 10/3/2023 | [Prepare your Environment](/MicrosoftTeams/rooms/rooms-prep) | modified |
+| 10/3/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 10/4/2023 | [Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 10/4/2023 | [Teams Optional Connected Experiences](/MicrosoftTeams/teams-privacy-oce-overview) | modified |
+| 10/4/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | added |
+| 10/4/2023 | [Known issues in the new Microsoft Teams for the Mac](/MicrosoftTeams/new-teams-known-issues-mac) | modified |
+| 10/4/2023 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 10/4/2023 | Known issues in the new Microsoft Teams for the Mac | removed |
+| 10/5/2023 | [Set up immersive spaces for Teams](/MicrosoftTeams/meeting-immersive-spaces) | added |
+| 10/5/2023 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
+| 10/5/2023 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
+| 10/5/2023 | [Manage VOD publishing for webinars and town halls](/MicrosoftTeams/manage-vod-publishing) | added |
+| 10/5/2023 | [Meetings, webinars, and town halls feature comparison](/MicrosoftTeams/meeting-webinar-town-hall-feature-comparison) | added |
+| 10/5/2023 | [Overview of meetings, webinars, and town halls](/MicrosoftTeams/overview-meetings-webinars-town-halls) | added |
+| 10/5/2023 | [Plan for Teams meetings](/MicrosoftTeams/plan-meetings) | added |
+| 10/5/2023 | [Plan for Teams town halls](/MicrosoftTeams/plan-town-halls) | added |
+| 10/5/2023 | [Plan for Teams webinars](/MicrosoftTeams/plan-webinars) | added |
+| 10/5/2023 | [Set up town halls](/MicrosoftTeams/set-up-town-halls) | added |
+| 10/5/2023 | [Enterprise content delivery networks for streaming Microsoft Teams events](/MicrosoftTeams/streaming-ecdn-enterprise-content-delivery-network) | renamed |
+| 10/5/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 10/5/2023 | Meetings, webinars, and live events | removed |
+| 10/5/2023 | [Set up Meeting Registration in Microsoft Teams](/MicrosoftTeams/set-up-meeting-registration) | modified |
+| 10/5/2023 | [Admin- Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
+| 10/5/2023 | [Encoder configuration for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-configuration) | modified |
+| 10/5/2023 | [Encoder setup for streaming in Microsoft Teams](/MicrosoftTeams/teams-encoder-setup) | modified |
+| 10/5/2023 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
+| 10/5/2023 | [Live events recording policies](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | modified |
+| 10/5/2023 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
+| 10/5/2023 | Creating a stream in Microsoft Teams | removed |
+| 10/5/2023 | [Manage RTMP-In for Teams meetings, webinars, and town halls](/MicrosoftTeams/meetings-rtmp-in) | modified |
+| 10/5/2023 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |
+| 10/5/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 10/6/2023 | [Overview of meetings, webinars, and town halls](/MicrosoftTeams/overview-meetings-webinars-town-halls) | modified |
+| 10/6/2023 | [Manage and monitor Teams](/MicrosoftTeams/manage-teams-overview) | modified |
+
+
 ## Week of September 25, 2023
 
 
@@ -91,42 +155,3 @@
 | 9/8/2023 | [Cloud Video Interop for Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modified |
 | 9/8/2023 | [What's New Direct Routing](/MicrosoftTeams/direct-routing-whats-new) | modified |
 | 9/8/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
-
-
-## Week of August 28, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/28/2023 | [What is Microsoft Intelligent Camera](/MicrosoftTeams/devices/smartvision-admin) | added |
-| 8/28/2023 | [Microsoft Calling Plans for Teams](/MicrosoftTeams/calling-plans-for-office-365) | modified |
-| 8/28/2023 | [Retire Microsoft Teams Free (classic) for your organization](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | modified |
-| 8/28/2023 | [Upgrade Microsoft Teams Free (classic) to subscription](/MicrosoftTeams/upgrade-freemium) | modified |
-| 8/28/2023 | [Set up an Android mobile phone as a common area phone](/MicrosoftTeams/devices/common-area-mobile-phones) | added |
-| 8/28/2023 | [Manage phone numbers for users](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
-| 8/28/2023 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/calling-plan-overview) | modified |
-| 8/28/2023 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
-| 8/28/2023 | [Learn how to setup content cameras - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modified |
-| 8/28/2023 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | modified |
-| 8/28/2023 | [Manage the Microsoft Teams Exploratory experience](/MicrosoftTeams/teams-exploratory) | modified |
-| 8/30/2023 | [Alerts for in-progress meeting audio quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-audio) | added |
-| 8/30/2023 | [Alerts for in-progress meeting screen sharing issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-screen-sharing) | added |
-| 8/30/2023 | [Alerts for in-progress meeting video quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-video) | added |
-| 8/30/2023 | [Microsoft Teams Monitoring and Alerting](/MicrosoftTeams/alerts/teams-admin-alerts) | modified |
-| 8/30/2023 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
-| 8/30/2023 | [Reserve a room from a Teams Panel](/MicrosoftTeams/devices/reserving-rooms-with-a-qr-code) | added |
-| 8/30/2023 | [Set up a Microsoft Teams Auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 8/30/2023 | [Configure Direct Routing](/MicrosoftTeams/direct-routing-configure) | modified |
-| 8/30/2023 | [Migrate to Direct Routing](/MicrosoftTeams/direct-routing-migrating) | modified |
-| 8/30/2023 | [Plan for media bypass with Direct Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | modified |
-| 8/30/2023 | [Set up Microsoft Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
-| 8/30/2023 | [Set up the common area phones for Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modified |
-| 8/31/2023 | [Navigate through Microsoft Teams](/MicrosoftTeams/navigate-teams) | modified |
-| 8/31/2023 | [Plan for a successful move from Kaizala to Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | modified |
-| 8/31/2023 | [Prepare for your Kaizala to Teams move](/MicrosoftTeams/prepare-for-teams-kaizala) | modified |
-| 8/31/2023 | [Known issues in the new Microsoft Teams for the Mac](/MicrosoftTeams/new-teams-known-issues-mac) | added |
-| 8/31/2023 | [Install and prerequisites for the Microsoft new Teams for the Mac](/MicrosoftTeams/new-teams-mac-install-prerequisites) | added |
-| 8/31/2023 | [Auto attendant and call queue historical reports for GCC High and DoD](/MicrosoftTeams/aa-cq-cqd-historical-reports-v164) | modified |
-| 8/31/2023 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
-| 8/31/2023 | [Answer Auto attendant and Call queue calls](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modified |
-| 9/1/2023 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | modified |

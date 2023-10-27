@@ -3166,6 +3166,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hungary",
     "redirect_document_id": false
@@ -4626,6 +4631,21 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/teams-stream-ecdn.md",
+    "redirect_url": "/microsoftteams/streaming-ecdn-enterprise-content-delivery-network",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/deploy-meetings-microsoft-teams-landing-page.md",
+    "redirect_url": "/microsoftteams/overview-meetings-webinars-town-halls",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-stream-create-event.md",
+    "redirect_url": "https://support.microsoft.com/office/f92363a0-6d98-46d2-bdd9-f2248075e502",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/scripts/powershell-script-create-teams-from-managers-export-managers.md",
     "redirect_url": "/microsoftteams/manage-teams-overview",
     "redirect_document_id": false
@@ -4671,6 +4691,16 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/quick-start-meetings-live-events.md",
+    "redirect_url": "/microsoftteams/overview-meetings-webinars-town-halls",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/cortana-in-teams.md",
+    "redirect_url": "https://techcommunity.microsoft.com/t5/microsoft-teams-support/cortana-voice-assistance-deprecation-in-microsoft-teams-rooms/ba-p/3931593",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/contact-tns-service-desk.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
@@ -4682,4 +4712,3 @@
   }
  ] 
 }
-
