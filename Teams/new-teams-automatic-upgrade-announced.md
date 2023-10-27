@@ -35,7 +35,6 @@ Between now and March 31, 2024, you can continue to use classic Teams. However, 
 We recently announced general availability of new Teams for Windows and Mac users. The new Teams app is reimagined from the ground up to deliver improved performance and enhanced reliability, security, and IT management. The result is a faster, simpler, smarter, and more flexible app that is up to two times faster while using 50% less memory.
  
 
-
 ## Servicing agreement
 
 Teams is governed by the Modern Lifecycle Policy, and it's expected that users remain on the most up-to-date version of the desktop client. Automatic updates ensure that users have the latest capabilities, performance enhancements, security, and service reliability. An in-app alert is displayed if the user’s current version is between one and three months old, and if there's a new version available.
@@ -53,6 +52,8 @@ As an admin, you can manage how new Teams becomes available to your users. Users
 - Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate. 
 - Admins who currently have the Teams update policy set to 'Not enabled' for the 'Use new Teams client' setting, we suggest choosing **New Teams as default** or **Microsoft controlled**.  
 
-[**Review prerequisites.** ](/microsoftteams/new-teams-deploy-using-policies)  Make sure your organization meets the system requirements
+[**Review prerequisites** ](/microsoftteams/new-teams-deploy-using-policies)
+- Make sure your organization meets the system requirements.
 
-[**Bulk upgrade.**](/microsoftteams/new-teams-bulk-install-client)  Bulk upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization.
+[**Bulk upgrade**](/microsoftteams/new-teams-bulk-install-client)
+- Bulk upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization.
