@@ -55,5 +55,5 @@ As an admin, you can manage how new Teams becomes available to your users. Users
 [**Review prerequisites** ](/microsoftteams/new-teams-deploy-using-policies)
 - Make sure your organization meets the system requirements.
 
-[**Bulk upgrade**](/microsoftteams/new-teams-bulk-install-client)
-- Bulk upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization.
+[**Review bulk upgrade options**](/microsoftteams/new-teams-bulk-install-client)
+- Bulk upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization. An offline option is also available. 
