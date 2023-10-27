@@ -46,7 +46,7 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 
 ## How to prepare
 
-As an admin, you can manage how new Teams becomes available to your users. Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
+**End users will not see any change.**  End users won't see any change, except for faster performance and less memory use. No training is needed.  As an admin, you can manage how new Teams becomes available to your users. Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
 
 [**Review policies**](/microsoftteams/new-teams-deploy-using-policies). 
 - Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate. 
