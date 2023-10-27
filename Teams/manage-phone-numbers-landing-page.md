@@ -103,7 +103,7 @@ your on-premises Active Directory is most likely synchronizing with Microsoft 36
 
 If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the account contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user or resource account that has a Direct Routing phone number assigned in on-premises Active Directory.   
 
-After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Azure AD Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet.
+After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Microsoft Entra Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet.
 
 | Where | Parameter | Value |
 | :------------| :-------| :---------|

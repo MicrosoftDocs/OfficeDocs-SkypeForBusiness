@@ -92,7 +92,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 
 ### Restore the deleted Microsoft 365 group
 
-1. Connect to Microsoft Graph by running the following:
+1. Connect to Microsoft Entra ID by running the following:
 
     ```PowerShell
     Connect-MgGraph

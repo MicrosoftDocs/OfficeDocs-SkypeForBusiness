@@ -111,11 +111,11 @@ Callers can say names in the following formats:
 
 ### Dial by Extension
 
-Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Azure AD Connect) or Azure Active Directory. (See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.)
+Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. (See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.)
 
-- TelephoneNumber (AD and Azure AD)
+- TelephoneNumber (AD and Microsoft Entra ID)
 - HomePhone (AD)
-- Mobile (AD and Azure AD)
+- Mobile (AD and Microsoft Entra ID)
 - OtherTelephone (AD)
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
@@ -128,7 +128,7 @@ The required format to enter the extension in the user phone number field can be
 - Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to Auto attendants and Call queues.
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to Auto attendants and Call queues.
 
 > [!NOTE]
 >  If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. If the user is also assigned a Teams Phone Number, you should define both numbers the same way.

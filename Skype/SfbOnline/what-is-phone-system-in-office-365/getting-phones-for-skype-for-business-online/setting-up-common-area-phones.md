@@ -138,7 +138,7 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
         Following this last step, the phone should sign in automatically.
 
 > [!NOTE]
-> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Azure Active Directory (AAD) account. If you created the account in AAD only then the process is straightforward. If you have synced an on premises Active Directory to AAD and you use a third-party IDP or ADFS, CAP provisioning will fail. In this case, you need to use a Microsoft 365 or Office 365/Azure Active Directory account only (for example, an account with **onmicrosoft.com** domain) for CAP provisioning to work.
+> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Microsoft Entra account. If you created the account in Microsoft Entra-only then the process is straightforward. If you have synced an on premises Active Directory to Microsoft Entra ID and you use a third-party IDP or ADFS, CAP provisioning will fail. In this case, you need to use a Microsoft 365 or Office 365/Microsoft Entra account only (for example, an account with **onmicrosoft.com** domain) for CAP provisioning to work.
 
 ### Related topics
 

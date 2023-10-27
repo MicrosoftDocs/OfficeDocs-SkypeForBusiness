@@ -97,7 +97,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Show organization tab for users|On|When **On**, users see the **Organization** tab in their personal chat in Teams. The **Organization** tab shows the organizational hierarchy as defined in Azure Active Directory.|
+|Show organization tab for users|On|When **On**, users see the **Organization** tab in their personal chat in Teams. The **Organization** tab shows the organizational hierarchy as defined in Microsoft Entra ID.|
 
 ##### Related topics for Organization
 
@@ -155,8 +155,8 @@ Teams policies are used to control what settings or features are available to us
 |:-----|:-----|:-----|
 |Create private channels|On|When **On**, team owners and members can create private channels that contain a subset of team members.|
 |Create shared channels|On|When **On**, team owners can create shared channels for people within and outside the organization.|
-|Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Azure AD organizations to join the channel, if Azure AD cross-tenant access settings are configured.|
-|Join external shared channels|On|When **On**, users and teams can be invited to external shared channels, if Azure AD cross-tenant access settings are configured.|
+|Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Microsoft Entra organizations to join the channel, if Microsoft Entra cross-tenant access settings are configured.|
+|Join external shared channels|On|When **On**, users and teams can be invited to external shared channels, if Microsoft Entra cross-tenant access settings are configured.|
 
 **PowerShell-only Teams policies**
 
