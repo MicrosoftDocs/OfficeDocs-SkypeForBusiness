@@ -139,7 +139,7 @@ Using the teamsbootstrapper.exe -p command always guarantees the latest new Team
 
 A phased and controlled rollout can then be achieved by selectively expanding the new computer catalogue/delivery group assignments to more users.
 
-Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path, UNC, or URI.
+Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
@@ -157,13 +157,6 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
    *Example:*
 
    :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
- 
-   **For URI, enter:**  *.\teamsbootstrapper.exe -p -o https://location_of_teams.com/...*
- 
-   *Example:*
-
-   :::image type="content" source="media/new-teams-bulk-offline-uri.png" alt-text="uri location for offline installer":::
-
 
 
 #### Option 2: Install both apps 'side by side' 
