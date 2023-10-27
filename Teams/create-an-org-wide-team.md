@@ -2,7 +2,7 @@
 title: Use organization-wide teams in Microsoft Teams to help everyone collaborate
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: phlouie
+ms.reviewer: jasonlewis
 ms.date: 09/26/2018
 manager: serdars
 ms.topic: article
