@@ -191,7 +191,15 @@ All the user settings and configurations are now stored in:
  
 - C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
 
-Make sure this folder is persisted for proper Teams functioning. 
+Make sure this folder is persisted for proper Teams functioning.
+
+Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
+ 
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
+
+ 
+>[!Note]
+>Currently, the new Teams client in VDI is not compatible with FSLogix Profile containers and ODFC containers. Microsoft is working on a solution and plan to remove these limitations soon.
 
 ## Control fallback mode in Teams
 
