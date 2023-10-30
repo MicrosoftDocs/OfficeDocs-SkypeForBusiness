@@ -15,7 +15,7 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how the classic Teams will be automatically upgraded to new Teams as the default version in your environment.
+description: Learn about how the classic Teams will be automatically upgraded to new Teams after March 31, 2024.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -23,17 +23,21 @@ ms.localizationpriority: high
 
 # Classic Teams users will be automatically updated to new Teams after March 31, 2024
 
-After March 31, 2024, any classic Teams users who haven't switched to new Teams, will be automatically upgraded to new Teams. 
+After March 31, 2024, any classic Teams users who haven't updated to new Teams, will be automatically upgraded to new Teams. 
 
->[!Note]
->This automatic upgrade date does not apply to Virtualized Desktop Infrastructure (VDI) users.
+>[!Important]
+>This automatic upgrade date does not apply to Virtualized Desktop Infrastructure (VDI) users. Microsoft Teams Room (MTR) devices will also not be affected by the March 31, 2024, timeline.
 
 Between now and March 31, 2024, you can continue to use classic Teams. However, we suggest that classic Teams users update to new Teams as soon as possible to benefit from the new features and capabilities that are only available in new Teams.
 
 ## New Teams is now generally available
 
-We recently announced general availability of new Teams for Windows and Mac users. The new Teams app is reimagined from the ground up to deliver improved performance and enhanced reliability, security, and IT management. The result is a faster, simpler, smarter, and more flexible app that is up to two times faster while using 50% less memory.
- 
+We recently announced the general availability of new Teams for Windows and Mac users. The new Teams app is reimagined from the ground up to deliver improved performance and enhanced reliability, security, and IT management. The result is a faster, simpler, smarter, and more flexible app that is up to two times faster while using 50% less memory.
+
+New Teams includes support for multitenant organizations (MTO) and multitenant, multi-account (MTMA), that enable seamless cross-tenant communication and collaboration beyond organizational boundaries across multiple tenants and accounts.
+
+New Teams allows us to release new capabilities to market faster. With the move to general availability, new features, capabilities, and enhancements to existing features are available exclusively on new Teams.
+
 
 ## Servicing agreement
 
@@ -46,7 +50,7 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 
 ## How to prepare
 
-**End users will not see any change.**  End users won't see any change, except for faster performance and less memory use. No training is needed.  As an admin, you can manage how new Teams becomes available to your users. Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
+**No change for End users.**  End users see minor to no change to Teams, except for faster performance and less memory use. No training is needed. As an admin, you can manage how new Teams becomes available to your users. Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
 
 [**Review policies**](/microsoftteams/new-teams-deploy-using-policies). 
 - Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate. 
