@@ -185,7 +185,7 @@ The classic Teams client and the new Teams client have different install locatio
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
 
 
-### Profile and Cache location for new Teams Client 
+## Profile and cache location for new Teams Client 
 
 All the user settings and configurations are now stored in: 
  
@@ -193,8 +193,19 @@ All the user settings and configurations are now stored in:
 
 Make sure this folder is persisted for proper Teams functioning. 
 
+## Control fallback mode in Teams
 
-##  Features currently not available in VDI 
+When users connect from an unsupported endpoint, the users are in fallback mode, in which Audio/Video isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
+`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
+
+
+- To disable fallback mode, set the value to 1. 
+- To enable audio only, set the value to 2. 
+- If the value isn't present or is set to 0 (zero), fallback mode is enabled.
+
+## Features currently not available in VDI 
 
 - All the features available in new Teams Windows client are supported on VDI except: 
 - Multitenant Multi-Account (MTMA) 
