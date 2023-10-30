@@ -34,7 +34,7 @@ Between now and March 31, 2024, you can continue to use classic Teams. However, 
 
 We recently announced the general availability of new Teams for Windows and Mac users. The new Teams app is reimagined from the ground up to deliver improved performance and enhanced reliability, security, and IT management. The result is a faster, simpler, smarter, and more flexible app that is up to two times faster while using 50% less memory.
 
-New Teams includes support for multitenant organizations (MTO) and multitenant, multi-account (MTMA), that enable seamless cross-tenant communication and collaboration beyond organizational boundaries across multiple tenants and accounts.
+New Teams includes support for multitenant organizations (MTO) and multitenant, multiaccount (MTMA), that enable seamless cross-tenant communication and collaboration beyond organizational boundaries across multiple tenants and accounts.
 
 New Teams allows us to release new capabilities to market faster. With the move to general availability, new features, capabilities, and enhancements to existing features are available exclusively on new Teams.
 
