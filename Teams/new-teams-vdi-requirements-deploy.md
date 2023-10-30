@@ -200,6 +200,7 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
 
+
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
