@@ -21,7 +21,7 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Classic Teams users to be updated to new Teams March 2024
+# Classic Teams users to be updated to new Teams after March 31, 2024
 
 After March 31, 2024, any classic Teams users who haven't updated to new Teams, will be automatically updated to new Teams. 
 
