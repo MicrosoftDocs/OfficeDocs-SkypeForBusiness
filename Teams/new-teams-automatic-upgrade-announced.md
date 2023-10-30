@@ -45,8 +45,6 @@ Teams is governed by the Modern Lifecycle Policy, and it's expected that users r
 
 Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**](/microsoftteams/teams-client-update#servicing-agreement) for Microsoft Teams.
 
->[!Note]
->As stated in the service agreement, Teams desktop app users in government clouds are exempt from this service agreement until further notice.
 
 ## How to prepare
 
