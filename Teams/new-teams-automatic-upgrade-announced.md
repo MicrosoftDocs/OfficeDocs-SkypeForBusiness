@@ -15,18 +15,18 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about how the classic Teams will be automatically upgraded to new Teams after March 31, 2024.
+description: Learn about how the classic Teams will be automatically updated to new Teams after March 31, 2024.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Classic Teams users will be automatically updated to new Teams after March 31, 2024
+# Classic Teams users to be updated to new Teams March 2024
 
-After March 31, 2024, any classic Teams users who haven't updated to new Teams, will be automatically upgraded to new Teams. 
+After March 31, 2024, any classic Teams users who haven't updated to new Teams, will be automatically updated to new Teams. 
 
 >[!Important]
->This automatic upgrade date does not apply to Virtualized Desktop Infrastructure (VDI) users. Microsoft Teams Room (MTR) devices will also not be affected by the March 31, 2024, timeline.
+>This automatic update does not apply to Virtualized Desktop Infrastructure (VDI) users. Microsoft Teams Room (MTR) devices will also not be affected by the March 31, 2024, timeline.
 
 Between now and March 31, 2024, you can continue to use classic Teams. However, we suggest that classic Teams users update to new Teams as soon as possible to benefit from the new features and capabilities that are only available in new Teams.
 
@@ -59,5 +59,5 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 [**Review prerequisites** ](/microsoftteams/new-teams-deploy-using-policies)
 - Make sure your organization meets the system requirements.
 
-[**Review bulk upgrade options**](/microsoftteams/new-teams-bulk-install-client)
-- Bulk upgrades are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can upgrade the application directly to the computers in your organization. An offline option is also available. 
+[**Review bulk update options**](/microsoftteams/new-teams-bulk-install-client)
+- Bulk updates are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can update the application directly to the computers in your organization. An offline option is also available. 
