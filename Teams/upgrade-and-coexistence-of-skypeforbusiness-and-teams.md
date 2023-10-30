@@ -181,7 +181,7 @@ The following table summarizes the upgrade methods:
 |Interop between Skype for Business and Teams doesn't exist while both users are in Islands mode. Once some users are upgraded to TeamsOnly interop conversation may occur between those users and others users who are still in Islands mode. However, Islands users could choose to use Teams and avoid the interop conversation.      |Interop is required for communication between Skype for Business and Teams users.         |
 
 > [!NOTE]
-> If you're unable to follow supported methods for migrating your Skype for Business Server users to Teams, it would be possible to transition your users to Teams by removing Skype for Business Server and all related user attributes in Active Directory. Once the users Azure Active Directory attributes have been cleared of the Skype for Business Server attributes and DNS records have been re-pointed to Microsoft 365 or Office 365, it would then be possible to license the users in Microsoft 365 or Office 365 and upgrade them to Teams. 
+> If you're unable to follow supported methods for migrating your Skype for Business Server users to Teams, it would be possible to transition your users to Teams by removing Skype for Business Server and all related user attributes in Active Directory. Once the users Microsoft Entra attributes have been cleared of the Skype for Business Server attributes and DNS records have been re-pointed to Microsoft 365 or Office 365, it would then be possible to license the users in Microsoft 365 or Office 365 and upgrade them to Teams. 
 
 > [!IMPORTANT]
 > With the cutover migration, contact data and meetings data won't be migrated from on premises environment to Microsoft Teams.

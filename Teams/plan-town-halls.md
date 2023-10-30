@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 10/13/2023
+ms.date: 10/17/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -38,7 +38,7 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 
 ## Get your network ready for town halls
 
-There are four steps you must follow to ensure your network is set up to support town halls.
+There are five steps you must follow to ensure your network is set up to support town halls.
 
 1. **Ensure your teams environment is set up to connect to our services**<br>
 Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
@@ -151,7 +151,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers.|No control.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates  before they're sent out.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
-|[Live translated transcription](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b) |No control. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
+|[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their town halls. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 [Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
 |[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
 [Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |

@@ -32,7 +32,7 @@ This article is for IT admins without a Microsoft 365 subscription but who need 
 > [!IMPORTANT]
 > You must upgrade from **Teams Free (classic)** to a subscription version of Teams because the **Teams Free (classic)** license was deprecated on April 12, 2023. Upgrading from **Teams Free (classic)** requires upgrading to a business subscription.
 > 
-> Microsoft provides a free Teams experience for personal and small business use through a Microsoft Account rather than Azure Active Directory. Only new customers can sign up for the new **Teams (Free)** license.
+> Microsoft provides a free Teams experience for personal and small business use through a Microsoft Account rather than Microsoft Entra ID. Only new customers can sign up for the new **Teams (Free)** license.
 
 If your organization is using **Teams Free (classic)**, you can upgrade to the full version by purchasing a Microsoft 365 or Office 365 subscription plan for your users. The full version provides other Teams features — audio conferencing, enhanced administration, and security capabilities — that the free version doesn't provide. Microsoft 365 and Office 365 combine the familiar Microsoft Office desktop suite with cloud-based versions of Microsoft's next-generation communications and collaboration services — including Exchange Online, SharePoint Online, and Office — to help users be productive from anywhere through the internet. When you upgrade Teams, your existing Teams data won't be lost; all your teams, channels, chats, files, and permissions come with you.
 
@@ -44,7 +44,7 @@ If your organization is using **Teams Free (classic)**, you can upgrade to the f
 You can upgrade to the full version of Teams if you meet the following requirements:
 
 - You're the person who signed up for the existing **Teams Free (classic)** subscription.
-- If you're bringing your own domain, it isn't already associated with Azure Active Directory (via trial or purchased Microsoft 365 or Office 365 subscription).
+- If you're bringing your own domain, it isn't already associated with Microsoft Entra ID (via trial or purchased Microsoft 365 or Office 365 subscription).
 
 > [!NOTE]
 > Learn about your upgrade options on the page [Microsoft Teams Free (classic) is retiring](https://www.microsoft.com/microsoft-teams/free-classic-retirement).
