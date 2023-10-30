@@ -14,11 +14,7 @@ ms.collection:
   - Tier1
 search.appverid: MET150
 ms.date: 10/27/2023
-description: Understand permissions and manage consent for Teams apps to access the required org information.
 ms.reviewer: Orion.OMalley
-
-ms.reviewer: mhayrapetyan
-ms.date: 10/17/2023
 description: Understand permissions and manage consent for Teams apps to access the required org information.
 
 
