@@ -28,7 +28,7 @@ You can allow users to block new incoming chats from people in your organization
 
 This feature only affects chats from other people inside your organization. (All users can [block chats from people outside your organization](https://support.microsoft.com/office/5b590992-c938-4ed9-933b-37ee1fb84d32).) This feature does't affect channel or meeting chats.
 
-Users must use the [new Teams desktop client](new-teams-desktop-admin.md) to use this feature.
+Users must be using the [new Teams desktop client](new-teams-desktop-admin.md) to use this feature.
 
 ## Manage who can block new incoming chats
 
