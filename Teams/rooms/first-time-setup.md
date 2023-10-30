@@ -51,6 +51,8 @@ To set up devices by using an OTP, perform the following steps:
 
    :::image type="content" source="../media/otp-screen.png" alt-text="Screenshot that shows the OTP the user has to enter to sign in the device." lightbox="../media/otp-screen.png":::
 
+   For information on how to procure the OTP from the IT administrator, see [Generating a one-time password (OTP)](generate-otp.md#generating-a-one-time-password-otp).
+
 1. Enter the OTP provided to you by the IT administrator, and select **Continue**.
 
    :::image type="content" source="../media/enter-otp-select-continue.png" alt-text="Screenshot that shows the boxes in which you must enter the OTP to sign in the device." lightbox="../media/enter-otp-select-continue.png":::
