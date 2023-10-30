@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/27/2023
+ms.date: 10/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -142,7 +142,7 @@ A phased and controlled rollout can then be achieved by selectively expanding th
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
-2. [Download the New Teams MSIX](https://go.microsoft.com/fwlink/?linkid=219606)
+2. [Download the MSIX](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, enter as shown::
 </br>
@@ -185,7 +185,7 @@ The classic Teams client and the new Teams client have different install locatio
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
 
 
-### Profile and Cache location for new Teams Client 
+## Profile and cache location for new Teams Client 
 
 All the user settings and configurations are now stored in: 
  
@@ -193,8 +193,19 @@ All the user settings and configurations are now stored in:
 
 Make sure this folder is persisted for proper Teams functioning. 
 
+## Control fallback mode in Teams
 
-##  Features currently not available in VDI 
+When users connect from an unsupported endpoint, the users are in fallback mode, in which Audio/Video isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
+`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
+
+
+- To disable fallback mode, set the value to 1. 
+- To enable audio only, set the value to 2. 
+- If the value isn't present or is set to 0 (zero), fallback mode is enabled.
+
+## Features currently not available in VDI 
 
 - All the features available in new Teams Windows client are supported on VDI except: 
 - Multitenant Multi-Account (MTMA) 
