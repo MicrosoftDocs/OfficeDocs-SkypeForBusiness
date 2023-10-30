@@ -317,7 +317,7 @@ Supported topologies in Skype for Business Server 2019 are as follows:
     
 - Multiple forests in a Skype for Business resource forest topology with Exchange Online
     
-- Multiple forests in a resource forest topology with Skype for Business Online and Azure Active Directory Connect
+- Multiple forests in a resource forest topology with Skype for Business Online and Microsoft Entra Connect
     
 We have diagrams and descriptions to help you determine what topology you have in your environment, or what you may have to set up prior to installing Skype for Business Server 2019. To keep it simple, we're also including a key:
   
@@ -373,14 +373,16 @@ This topology is similar to the topology described in [Multiple forests in a Sky
   
 In this topology, there are one or more user forests, and Skype for Business Server is deployed in a dedicated resource forest. Exchange Server can be deployed on-premises in the same resource forest or a different forest and configured for hybrid with Exchange Online, or email services may be provided exclusively by Exchange Online for the on-premises accounts. There is no diagram available for this topology.
   
-#### Multiple forests in a resource forest topology with Skype for Business Online and Azure Active Directory Connect
+<a name='multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect'></a>
+
+#### Multiple forests in a resource forest topology with Skype for Business Online and Microsoft Entra Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Microsoft 365 using Azure AD Connect. All users are enabled for Skype for Business via Microsoft 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Microsoft 365 using Microsoft Entra Connect. All users are enabled for Skype for Business via Microsoft 365.](../../SfbServer/media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Microsoft 365 or Office 365.
+With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Microsoft Entra Connect tool is used to synchronize accounts between the on-premises user forests and Microsoft 365 or Office 365.
   
- The organization also has Microsoft 365 or Office 365, and uses [Azure Active Directory Connect](/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Microsoft 365 or Office 365. Users who are enabled for Skype for Business are enabled via Microsoft 365 or Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Microsoft 365 or Office 365, and uses [Microsoft Entra Connect](/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Microsoft 365 or Office 365. Users who are enabled for Skype for Business are enabled via Microsoft 365 or Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   
