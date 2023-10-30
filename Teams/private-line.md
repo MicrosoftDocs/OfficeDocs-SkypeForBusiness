@@ -44,6 +44,7 @@ Keep the following requirements for private lines in mind:
 The automated provisioning and deprovisioning of private line licenses must match the user's primary line. The following table provides a mapping of the user license combinations that are simultaneously supported for private line and primary lines.
 
 |User license combinations|Simultaneous phone number types allowed|
+|-----|-----|
 |Phone System|Direct Routing, Operator Connect, Teams Phone Mobile|
 |Phone System + Calling Plans|Direct Routing, Operator Connect, Calling Plans|
 |?|?|
