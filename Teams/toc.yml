@@ -97,7 +97,7 @@ items:
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
-                - name: Automatic upgrade schedule
+                - name: Automatic upgrade announcement
                   href: new-teams-automatic-upgrade-announced.md                  
             - name: Classic Teams clients
               items:
