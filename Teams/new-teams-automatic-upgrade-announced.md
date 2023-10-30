@@ -50,7 +50,7 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 
 ## How to prepare
 
-**No change for End users.**  End users see minor to no change to Teams, except for faster performance and less memory use. No training is needed. As an admin, you can manage how new Teams becomes available to your users. Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
+New Teams is a performance-focused update. This doesn’t require you to invest in any additional training. As an admin, you can [manage how new Teams becomes available to your users](https://aka.ms/newTeamsUpgrade). Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
 
 [**Review policies**](/microsoftteams/new-teams-deploy-using-policies). 
 - Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate. 
