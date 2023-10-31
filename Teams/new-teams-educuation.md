@@ -37,26 +37,27 @@ Administrators can choose to update their users to new Teams on a different sche
 
 Updating to new Teams is quick and easy. Users will be able to pick up exactly where they left off after updating to new Teams.  
 
-It's important that school administrators set the policy to update to new Teams for their users. 
 
 ### Setting the policy
+
+It's important that school administrators set the policy to update to new Teams for their users. 
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/). 
 2. Select **Teams > Teams Update policies** from the left navigation pane. 
 3. Select **Add to create a new policy or select an existing policy to open Update policy 
 4. Name the update policy, add a description, and select the setting for “Use the new Teams client”.
 
-:::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
+  :::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
 
 5. Select New Teams as default and apply this policy to users in your organization.  
 6. Once the policy is set, users see the following message that lets them select "Switch now" to update to new Teams, or "Switch when I'm not using Teams" to automatically install the update once they've finished with their current session.
 
-:::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
+  :::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
 
 >[!Note]
 >There are different policy settings which you can use to update to new Teams, based on the needs within your school. For detailed information about how to update to new Teams via policy and for various other policy settings, learn more at: [Update to the new Teams client using policies](new-teams-deploy-using-policies.md).
 
-## How to update to the new Teams where administrators have blocked software downloads or installations by users 
+## When dministrators have blocked software downloads or installations by users 
 
 If Administrators have blocked software downloads or installs for users in their tenant:  Administrators must allow software download or installations of new Teams before setting the policy in the Teams Admin Center to deploy new Teams. To unblock software downloads for their users, learn more at: [Troubleshooting the new Teams installation](new-teams-troubleshooting-installation.md)
 
