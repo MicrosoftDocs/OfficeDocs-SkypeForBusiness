@@ -39,7 +39,7 @@ Administrators can choose to update their users to new Teams on a different sche
 All remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.  
 
 
-## Set policies
+## Set policies for update
 
 It's important that school administrators set the policy to update to new Teams for their users. 
 
