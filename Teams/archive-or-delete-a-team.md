@@ -95,7 +95,7 @@ For more information on restoring a deleted team from Teams Admin Center, see [M
 
 ### Restore the deleted Microsoft 365 group
 
-1. Connect to Azure AD by running the following:
+1. Connect to Microsoft Entra ID by running the following:
 
     ```PowerShell
     Connect-AzureAD

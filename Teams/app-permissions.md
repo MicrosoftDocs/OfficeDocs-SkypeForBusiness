@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.reviewer: tolgaki
+ms.reviewer: Orion.OMalley
 ms.date: 08/22/2023
 description: Learn what permissions Teams apps request to access data in your organization.
 f1.keywords:
@@ -40,15 +40,15 @@ An application can access organization's information in the following two ways t
 
 In addition, the permissions are defined in the following two places:
 
-* Graph permissions for org-wide resources are defined in Azure AD. Permissions that are needed for an app to work are selected in Azure AD by the app developers. As an admin you must consent to these permissions otherwise the app can't be used in your tenant.
+* Graph permissions for org-wide resources are defined in Microsoft Entra ID. Permissions that are needed for an app to work are selected in Microsoft Entra ID by the app developers. As an admin you must consent to these permissions otherwise the app can't be used in your tenant.
 * RSC permissions to access local resources within Teams such as information in a group or a team are defined in the app manifest file by the developers. Only those users who have access to the resources, can consent for these permissions.
 
 For each app, these permissions are listed in the app details page in the admin center.
 
 | App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
-| Azure AD for Graph and legacy endpoint access | Delegated | Azure AD  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
-| Azure AD for Graph and legacy endpoint access | Application | Azure AD  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
 | RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner. | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
 | RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
 | Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install. | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
@@ -83,7 +83,7 @@ A complete list of all the possible permissions is available at [Microsoft Graph
 
 As an admin, you only manage Teams apps. The apps themselves can use one or more capabilities. These capabilities have differences when it comes to app functionality, user engagement, required permissions and risk profiles. Depending on these capabilities, you as an admin must consider the access to the following Teams information by the apps.
 
-The Azure AD permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are separate from the Teams permissions listed here.
+The Microsoft Entra permissions associated with any of the capabilities inside a Teams app (bot, tab, connector, or messaging extension) are separate from the Teams permissions listed here.
 
 * Bots
 * Messaging extensions
@@ -115,11 +115,11 @@ Consider the following types of user interaction, required permissions, and data
 
 * If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store.
 
-* A bot can retrieve and may store basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory.
+* A bot can retrieve and may store basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Microsoft Entra ID.
 
 * Bots can retrieve and may store the list of channels in a team. This data leaves the corporate network.
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot has an access token with which it can do other tasks. The tasks depend on the bot and where the user signs in: a bot is an Azure AD app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot has an access token with which it can do other tasks. The tasks depend on the bot and where the user signs in: a bot is a Microsoft Entra app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
@@ -144,7 +144,7 @@ Consider the following types of user interaction or data access for Tabs:
 
 * Users opening a tab in a browser or in Teams is exactly the same. The website itself can't have access to any organization's information on its own.
 
-* A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
+* A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Microsoft Entra Object ID for the current user, the ID of the Microsoft 365 group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Microsoft Entra ID.
 
 ### Connectors
 

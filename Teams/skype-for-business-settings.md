@@ -39,7 +39,7 @@ You'll only see the **Skype for Business** page if the coexistence mode for your
 > [!NOTE]
 > Skype for Business settings were previously in **Legacy portal** in the Microsoft Teams admin center. With the retirement of the legacy portal, we migrated the settings to these new locations in the Teams admin center for Skype for Business management.
 
-You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Microsoft Teams admin center.
+You must be assigned the [Microsoft Entra admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Microsoft Teams admin center.
 
 ## Manage Skype for Business settings for your organization
 

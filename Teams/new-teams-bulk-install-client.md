@@ -4,14 +4,14 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/03/2023
+ms.date: 10/27/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: 
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -27,9 +27,12 @@ Direct or "bulk" upgrades are helpful because users don't need to manually downl
 
 The Teams installer installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.
 
+>[!Note]
+>**New.** An offline installer option is now available. Learn more: [Download and install new Teams using an offline installer](#option-1b-download-and-install-new-teams-using-an-offline-installer)
+
 ## How it works
 
-**TeamsBootstrapper** is a lightweight online installer with a headless command-line interface. It allows admins to "provision’"(install) the app for all users on a given target computer.
+**TeamsBootstrapper** is a lightweight online installer with a headless command-line interface. It allows admins to provision (install) the app for all users on a given target computer.
 
 When **teamsbootstrapper.exe** is run on a computer:
 
@@ -65,16 +68,40 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 
 All steps must be completed to successfully upgrade to the new Teams.
 
-#### Option A: Download and install new Teams for a single computer
+#### Option 1A: Download and install new Teams for a single computer
 
 To install new Teams on a single computer with many users, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Open the Command Prompt as an Admin.
-3. At the prompt enter: **./teamsbootstrapper.exe -p**
-4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).</br>
+3. At the prompt enter: **.\teamsbootstrapper.exe -p**
+4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
+</br>
    :::image type="content" source="media/new-teams-direct-deploy-cmd-feedback.png" alt-text="command line prompt feedback":::
 
+
+#### Option 1B: Download and install new Teams using an offline installer
+
+Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
+
+1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+2. [Download the MSIX.](https://go.microsoft.com/fwlink/?linkid=219606)
+3. Open the Command Prompt as an Admin.
+4. Depending on where your MSIX is located, do the following:
+</br>
+
+ **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
+
+   *Example:*
+
+   :::image type="content" source="media/new-teams-bulk-offline-localpath.png" alt-text="local path location for offline installer"::: 
+ 
+   **For UNC, enter:** *.\teamsbootstrapper.exe -p -o "\\unc\path\to\teams.msix"*
+
+   *Example:*
+
+   :::image type="content" source="media/new-teams-bulk-offline-unc.png" alt-text="offline location using unc":::
+ 
 
 #### Option B: Upgrade to the new Teams across your organization
 

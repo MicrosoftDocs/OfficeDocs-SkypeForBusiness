@@ -7,7 +7,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 10/18/2023
+ms.reviewer: Orion.OMalley
 search.appverid: MET150
 description: Learn how to view permissions requested by apps and grant admin consent to apps on the Manage apps page of the Microsoft Teams admin center. 
 ms.localizationpriority: medium
@@ -24,11 +25,11 @@ Here, you can also grant org-wide admin consent to apps that request permissions
 
 ## Grant org-wide admin consent to an app
 
-If you're a global admin, you can review, and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's [consent settings](/azure/active-directory/manage-apps/configure-user-consent) in Azure Active Directory (Azure AD), some users may not be allowed to grant consent to apps that access company data.
+If you're a global admin, you can review, and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's [consent settings](/azure/active-directory/manage-apps/configure-user-consent) in Microsoft Entra ID, some users may not be allowed to grant consent to apps that access company data.
 
 Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
 
-The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Azure AD that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. The link isn't available for apps provided by Microsoft. Also, admins don't have to grant consent for such apps.
+The **Permissions** column indicates whether an app has permissions that need consent. You'll see a **View details** link for each app registered in Microsoft Entra ID that has permissions that need consent. Keep in mind that this applies only to custom and third-party apps. The link isn't available for apps provided by Microsoft. Also, admins don't have to grant consent for such apps.
 
 To grant org-wide consent to an app, follow these steps:
 
@@ -53,20 +54,20 @@ To grant org-wide consent to an app, follow these steps:
 
 1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
 
-After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, select the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
+After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, select the **Microsoft Entra ID** link to go to the app's page in the Microsoft Entra admin center.
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot of message displayed when consent granted.":::
 
-If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll also see the same message to let you know that consent was granted and the Azure Active Directory link to the app's page in the Azure AD portal.
+If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll also see the same message to let you know that consent was granted and the Microsoft Entra ID link to the app's page in the Microsoft Entra admin center.
 
 > [!NOTE]
-> Although, the **Review permissions and consent** option isn't available to Teams service admins and they can't grant org-wide admin consent to apps, Teams service admins can view the content on the **Permissions** tab for an app. For example, a Teams service admin can click the **Azure Active Directory** link to view app permissions details in the Azure AD portal.
+> Although, the **Review permissions and consent** option isn't available to Teams service admins and they can't grant org-wide admin consent to apps, Teams service admins can view the content on the **Permissions** tab for an app. For example, a Teams service admin can click the **Microsoft Entra ID** link to view app permissions details in the Microsoft Entra admin center.
 
 ## View resource-specific consent permissions of an app
 
 RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific team. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
 
-RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+RSC permissions are defined in the app manifest and not in Microsoft Entra ID. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
 Global admins and Teams service admin can view RSC permissions for an app on the **Permissions** tab of the app details page.
 
@@ -82,11 +83,11 @@ To view RSC permissions for an app, follow these steps:
 
 ### The "View details" link isn't displayed in the Permissions column for some third-party apps that request permissions
 
-The ability to review permissions and grant consent isn't available for all third-party apps. Typically, the third-party apps are registered in Azure Active Directory when the apps request permissions. Instead of the **View details** link, you'll see `--` in the **Permissions** column.
+The ability to review permissions and grant consent isn't available for all third-party apps. Typically, the third-party apps are registered in Microsoft Entra ID when the apps request permissions. Instead of the **View details** link, you'll see `--` in the **Permissions** column.
 
 ## Related articles
 
-* [Understand user and admin consent in Azure AD](/azure/active-directory/manage-apps/user-admin-consent-overview)
+* [Understand user and admin consent in Microsoft Entra ID](/azure/active-directory/manage-apps/user-admin-consent-overview)
 * [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent)
 * [Resource-specific consent in Teams](resource-specific-consent.md)
 * [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)

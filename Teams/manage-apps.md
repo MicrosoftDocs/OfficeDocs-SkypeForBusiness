@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - tier2
   - highpri
-ms.reviewer: tolgaki
+ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
@@ -54,7 +54,7 @@ App management tasks that are supported on other portals are in the table below.
 |:----|:----|:----|
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
-| Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Azure AD portal](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
+| Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 ## Allow or block apps
 
@@ -81,7 +81,7 @@ When a developer publishes an app to the Teams store, some apps may need an admi
 
 As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
 
-Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Azure AD admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
+Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
 ## Manage org-wide app settings
 
