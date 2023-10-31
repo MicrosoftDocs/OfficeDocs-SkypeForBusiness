@@ -22,7 +22,7 @@ ms.localizationpriority: high
 ---
 # Update to the new Microsoft Teams for Education 
  
-As announced on October 5, 2023, ([New Microsoft Teams for Educatino is now available for Windows and Mac - Community Hub](https://techcommunity.microsoft.com/t5/education-blog/new-microsoft-teams-for-education-is-now-available-for-windows/ba-p/3945610)), new Teams for Education is ready for users in our Education community.  
+As announced on October 5, 2023, ([New Microsoft Teams for Educatino is now available for Windows and Mac](https://techcommunity.microsoft.com/t5/education-blog/new-microsoft-teams-for-education-is-now-available-for-windows/ba-p/3945610)), new Teams for Education is ready for users in our Education community.  
 
 Along with our latest innovations in speed, performance, flexibility, and intelligence, this update to new Teams allows us to deliver features and capabilities to our education customers more quickly. All new features and capabilities, including enhancements to existing features, will be available exclusively in the new Teams. 
 
