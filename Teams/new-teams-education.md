@@ -28,7 +28,7 @@ Along with our latest innovations in speed, performance, flexibility, and intell
  
 ### Update timeline
 
-**In early January 2024, Microsoft will update your classic Teams client to the new Teams client for all tenants where Administrators have not taken explicit action to update to new Teams via Teams Admin Center policy**. Administrators will still have the option to set classic Teams for their users via policy settings.
+In early January 2024, Microsoft will update all tenants to the new Teams client where administrators have not taken any explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
