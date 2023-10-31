@@ -26,9 +26,9 @@ As announced on October 5, 2023, [New Microsoft Teams for Education is now avail
 
 Along with our latest innovations in speed, performance, flexibility, and intelligence, this update to new Teams allows us to deliver features and capabilities to our education customers more quickly. All new features and capabilities, including enhancements to existing features, will be available exclusively in the new Teams. 
  
-### Timeline
+### Update timeline
 
-In early January 2024, Microsoft will update your classic Teams client to the new Teams client for all tenants. Administrators still need to take explicit action to update to new Teams via Teams Admin Center policy. Administrators will still have the option to set classic Teams for their users via policy settings.
+**In early January 2024, Microsoft will update your classic Teams client to the new Teams client for all tenants where Administrators have not taken explicit action to update to new Teams via Teams Admin Center policy**. Administrators will still have the option to set classic Teams for their users via policy settings.
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
