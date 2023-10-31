@@ -44,7 +44,7 @@ To manage internal message blocking for your organization
 To manage internal message blocking for specific users or groups
 1. In the Teams admin center, expand **Messaging** and select **Messaging policies**.
 1. Select the policy that you want to update or create a new one.
-1. Choose a value for **Priority account chat control**.
+1. Set **Priority account chat control** to **On** or **Off**.
 1. Select **Save**.
 
 The messaging setting and the messaging policy must both be enabled for a user to be able to block new incoming chats.
