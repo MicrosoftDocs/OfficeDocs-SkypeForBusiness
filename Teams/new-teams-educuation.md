@@ -70,6 +70,6 @@ If Administrators have blocked software downloads or installs for users in their
 
 ### Known issues and latest updates
 
-For other known issues, see: [Known issues in the new Microsoft Teams](new-teams-known-issues.md)
+Check here fo: [Known issues in the new Microsoft Teams](new-teams-known-issues.md)
 
 Check back here for the latest details, as Microsoft continues to provide the most current information on updating to new Teams for Education.  Or, if you have any feedback you’d like to provide, do so on our Education Support page. 
