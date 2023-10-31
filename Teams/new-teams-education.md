@@ -72,4 +72,4 @@ Administrators who have blocked software downloads or installs for users in thei
 
 Check here for: [Known issues in the new Microsoft Teams](new-teams-known-issues.md)
 
-Check back here for the latest details, as Microsoft continues to provide the most current information on updating to new Teams for Education.  Or, if you have any feedback you’d like to provide, do so on our Education Support page. 
+Check back here for the latest details, as Microsoft continues to provide the most current information on updating to new Teams for Education.  Or, if you have any feedback you’d like to provide, do so on our [Education Support page](https://edusupport.microsoft.com/support). 
