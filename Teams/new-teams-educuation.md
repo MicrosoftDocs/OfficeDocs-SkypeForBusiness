@@ -47,12 +47,12 @@ It's important that school administrators set the policy to update to new Teams 
 3. Select **Add to create a new policy or select an existing policy to open Update policy 
 4. Name the update policy, add a description, and select the setting for “Use the new Teams client”.
 
-  :::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
+   :::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
 
 5. Select New Teams as default and apply this policy to users in your organization.  
 6. Once the policy is set, users see the following message that lets them select "Switch now" to update to new Teams, or "Switch when I'm not using Teams" to automatically install the update once they've finished with their current session.
 
-  :::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
+   :::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
 
 >[!Note]
 >There are different policy settings which you can use to update to new Teams, based on the needs within your school. For detailed information about how to update to new Teams via policy and for various other policy settings, learn more at: [Update to the new Teams client using policies](new-teams-deploy-using-policies.md).
