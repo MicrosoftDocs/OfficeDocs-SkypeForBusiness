@@ -48,7 +48,7 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 
 ## How to prepare
 
-Users will experience little change in new Teams, which means you won't need to invest in any further training. Instead, users will experience faster performance and less memory use.
+There is no major impact to the user experience for new Teams which means you won't need to invest in any further training. Instead, users will experience faster performance and less memory use.
 
 As an admin, you can [manage how new Teams becomes available to your users](https://aka.ms/newTeamsUpgrade). 
 Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
