@@ -40,7 +40,7 @@ To move users from the on-premises Skype for Business Server deployment to the c
 
 Prerequisites to move a user to TeamsOnly mode:
 
-- The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
+- The organization must have Microsoft Entra Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Microsoft Entra Connect](configure-azure-ad-connect.md).
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 - The user must be assigned a license for Teams and Skype for Business Online (Plan 2). Even after retirement of Skype for Business Online, the Skype for Business Online license is still required.  In addition:
   - If the user is enabled for dial-in conferencing in on premises, the user must also have an Audio Conferencing license assigned in Teams before you move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud.
@@ -97,7 +97,7 @@ To move users between on-premises and the cloud, you must use an account with su
   > [!IMPORTANT]
   > If you are using the Skype for Business Admin Control Panel, you will be prompted to provide credentials for a Microsoft 365 account with the appropriate roles, as noted above. You must supply an account that ends in .onmicrosoft.com. If that is not possible, then use the Move-CsUser cmdlet.
   >
-  > If you are using Move-CsUser in PowerShell, you can either use an account that ends in .onmicrosoft.com, or you can use any on-premises account that is synchronized into Azure AD, provided that you also specify the HostedMigrationOverrideUrl parameter in the cmdlet. The value of the hosted migration override URL is a variant of the following URL: `https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc` In the above URL, replace the XX with either two or three characters, determined as follows:
+  > If you are using Move-CsUser in PowerShell, you can either use an account that ends in .onmicrosoft.com, or you can use any on-premises account that is synchronized into Microsoft Entra ID, provided that you also specify the HostedMigrationOverrideUrl parameter in the cmdlet. The value of the hosted migration override URL is a variant of the following URL: `https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc` In the above URL, replace the XX with either two or three characters, determined as follows:
   >
   > - In a Teams PowerShell session, run the following cmdlet:<br>`Get-CsTenant | ft ServiceInstance`
   > - The resulting value will be in the following format:<br>`MicrosoftCommunicationsOnline/YYYY-XX-ZZ`

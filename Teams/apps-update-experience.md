@@ -54,7 +54,7 @@ To update their app, users must individually provide their consent. Admins can't
 
 | Who can consent to app update | How to update | Conditions and scope of update |
 |---|---|---|
-| User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Azure AD admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
+| User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Microsoft Entra admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
 | Admin | Open a team in Teams client and update an app from the team's settings page. | Team and channel |
 | Team owner | Open a team in Teams client and update an app from their team's settings page. | In the teams that they own. For other contexts, users still need to provide their consent. |
 
@@ -93,7 +93,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 * App policies, usage reporting, audit logs, and other governance apply to all versions of an app. Admins retain complete control irrespective of the app versions used in the tenant.
 
-* For updated apps, Teams administrators can't consent on behalf of the users. Users must individually provide their consent if it's required. Azure AD admin must [allow users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
+* For updated apps, Teams administrators can't consent on behalf of the users. Users must individually provide their consent if it's required. Microsoft Entra admin must [allow users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal).
 
 * A team owner can add an app in a team and view the update option when there's an available app update. It can be done from the **Manage team** page in their Teams client.
 
@@ -110,5 +110,5 @@ For custom apps to update, after you upload the new version of the app to Teams,
 ## Related articles
 
 * [Understand manifest schema for updates done in apps](/microsoftteams/platform/resources/schema/manifest-schema).
-* [How Azure AD admin allows users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal)
+* [How Microsoft Entra admin allows users to consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal)
 * [Know about custom app management](teams-custom-app-policies-and-settings.md).

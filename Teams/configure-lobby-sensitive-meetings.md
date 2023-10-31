@@ -27,7 +27,7 @@ description: Learn how to configure the Teams meeting lobby to enhance security 
 
 The meeting lobby is a tool that you can use to ensure that inappropriate people are not admitted to meetings. By holding different types of participants in the lobby, meeting organizers can vet them and make sure it's appropriate for them to attend the meeting.
 
-By default, people in your organization and [guests](guest-access.md) are admitted to meetings directly and participants from trusted domains and anonymous participants must wait in the lobby to be admitted by a meeting organizer. Meeting organizers can change this default setting for each meeting they create.
+By default, people in your organization and [guests](guest-access.md) are admitted to meetings directly and participants from [trusted organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) and [anonymous participants](anonymous-users-in-meetings.md) must wait in the lobby to be admitted by a meeting organizer. Meeting organizers can change this default setting for each meeting they create.
 
 The lobby and other related settings can be controlled by the Teams Administrator by using meeting policies, meeting templates, and sensitivity labels to customize the experience for different users and different types of meetings.
 
