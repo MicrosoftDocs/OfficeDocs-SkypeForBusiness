@@ -57,7 +57,7 @@ It's important that school administrators set the policy to update to new Teams 
 >[!Note]
 >There are different policy settings which you can use to update to new Teams, based on the needs within your school. For detailed information about how to update to new Teams via policy and for various other policy settings, learn more at: [Update to the new Teams client using policies](new-teams-deploy-using-policies.md).
 
-## When dministrators have blocked software downloads or installations by users 
+## When administrators have blocked downloads or installations
 
 If Administrators have blocked software downloads or installs for users in their tenant:  Administrators must allow software download or installations of new Teams before setting the policy in the Teams Admin Center to deploy new Teams. To unblock software downloads for their users, learn more at: [Troubleshooting the new Teams installation](new-teams-troubleshooting-installation.md)
 
