@@ -30,14 +30,13 @@ The new Teams update is seamless for our Education users. Updating is quick and 
  
 ## Coming soon
 
-In early January 2024, Microsoft will update the client to new Teams on tenants where administrators haven't taken any explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.  
+In early January 2024, Microsoft will update the client to new Teams on tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
 Administrators can choose to update their users to new Teams on a different schedule. However, we highly recommend they complete the update by the end of February 2024 to avoid disrupting classes. 
 
 All remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.  
-
 
 ## Set policies for update
 
@@ -51,14 +50,14 @@ It's important that school administrators set the policy to update to new Teams 
    :::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
 
 5. Select New Teams as default and apply this policy to users in your organization.  
-6. Once the policy is set, users see the following message that lets them select "Switch now" to update to new Teams, or "Switch when I'm not using Teams" to automatically install the update once they've finished with their current session.
+6. Once the policy is set, users select when it will update. Select **Switch now** to update immediately, or **Switch when I'm not using Teams** to automatically install the update after they finish with their current session.
 
    :::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
 
 >[!Note]
 >There are different policy settings which you can use to update to new Teams, based on the needs within your school. For detailed information about how to update to new Teams via policy and for various other policy settings, learn more at: [Update to the new Teams client using policies](new-teams-deploy-using-policies.md).
 
-## When administrators have blocked downloads or installations
+## Blocked downloads or installations
 
 If Administrators have blocked software downloads or installs for users in their tenant:  Administrators must allow software download or installations of new Teams before setting the policy in the Teams Admin Center to deploy new Teams. To unblock software downloads for their users, learn more at: [Troubleshooting the new Teams installation](new-teams-troubleshooting-installation.md)
 
