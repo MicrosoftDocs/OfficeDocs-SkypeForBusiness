@@ -28,7 +28,9 @@ Along with our latest innovations in speed, performance, flexibility, and intell
 
 The new Teams update is seamless for our Education users. Updating is quick and easy and users will be able to pick up exactly where they left off after updating to new Teams.  
  
-**Timeline.** In early January 2024, Microsoft will update the client to new Teams on tenants where administrators haven't taken any explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.  
+## Coming soon
+
+In early January 2024, Microsoft will update the client to new Teams on tenants where administrators haven't taken any explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
