@@ -6,8 +6,8 @@ author: MikePlumleyMSFT
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: jastark
-ms.date: 04/12/2019
+ms.reviewer: divyasrirk
+ms.date: 10/30/2023
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
@@ -54,7 +54,7 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Unarchive**. It might take some time for the team's status to change back to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+3. Select **Restore**. It might take some time for the team's status to change back to **Active**. Note that it will not be moved back inside **Your teams** automatically.
 
 
 ## Delete a team
