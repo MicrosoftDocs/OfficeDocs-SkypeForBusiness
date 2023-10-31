@@ -56,13 +56,22 @@ Several eCDN solutions are preintegrated and can be enabled for use with Teams. 
 
 ### Hive Streaming
 
-The **Hive Streaming Video Experience Platform** comprises three core products:
+Hive Streaming enables superior video experience (VX) to drive change in the enterprise by maximizing the reach and quality of internal video communications.  
 
-- **Hive Video Optimization** is based on a patented software-only, zero-configuration algorithm. Optimization automatically maximizes the quality and reach of live and on-demand video (VOD) for the whole organization.
-- **Hive Video Analytics** helps customers understand trends in live event and on-demand video performance to improve viewer engagement over time. As engagement improves, so does video adoption across the company.
-- **Hive Video Operations** provides powerful capabilities aiming to proactively secure streaming video success before and during live video events. The operational tools empower your video streaming and UC teams to find and correct problems before they happen.
+Hive’s next-generation VX products are designed to empower companies before, during, and after each internal live video stream by enabling stakeholders across the organization to:
 
-All of them work to create full-scope video experiences—from planning to execution and analysis. Maximizing the experience of streaming video communication is crucial for employee engagement and alignment on your company mission. To learn more, check out [Hive Streaming](https://www.hivestreaming.com/partners/microsoft).
+- **Pressure-test the network** and the entire video infrastructure chain to secure events
+- Access advanced stream control features, such as **modifying stream bitrate in real time**
+- Receive and **act on disruption alerts during live video events**
+- Get **enhanced and actionable analytics** individually tailored to IT or Communications stakeholders
+- Gain unique **insights into video performance, viewer experience & engagement**
+- Unlock **advanced eCDN capabilities to address weak network links globally** with an elegant software-only solution that eliminates the need for edge caching at low bandwidth sites
+
+Hive’s ingenious peer-to-peer algorithm helps achieve the highest streaming quality while efficiently offloading the corporate network with up to 99% bandwidth savings. Hive’s VX solutions work out of the box and are 100% software-based, requiring nothing but viewer machines to reliably deliver video to even the most bandwidth-restricted sites.  
+
+With a stellar track record of 99.99% service uptime, 24/7 white-glove support and comprehensive Service- and Experience-Level Agreements, Hive Streaming plays an integral role in the video experience and networking infrastructure of Fortune 500 companies across the globe.  
+
+For more information, visit [Hive Streaming](https://www.hivestreaming.com/partners/microsoft).
 
 ### Kollective
 
