@@ -30,6 +30,8 @@ This feature only affects chats from other people inside your organization. (All
 
 Users must be using the [new Teams desktop client](new-teams-desktop-admin.md) to use this feature.
 
+This feature requires Teams Premium.
+
 ## Manage who can block new incoming chats
 
 Configuring internal message blocking requires two admin controls:
