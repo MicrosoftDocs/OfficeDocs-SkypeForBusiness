@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: smylavarapu
+ms.reviewer: shajohri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -22,7 +22,7 @@ ms.localizationpriority: high
 ---
 # Update to the new Microsoft Teams for Education 
  
-As announced on October 5, 2023, ([New Microsoft Teams for Education is now available for Windows and Mac](https://techcommunity.microsoft.com/t5/education-blog/new-microsoft-teams-for-education-is-now-available-for-windows/ba-p/3945610)), new Teams for Education is ready for users in our Education community.  
+As announced on October 5, 2023 ([New Microsoft Teams for Education is now available for Windows and Mac](https://techcommunity.microsoft.com/t5/education-blog/new-microsoft-teams-for-education-is-now-available-for-windows/ba-p/3945610)), new Teams for Education is ready for users in our Education community.  
 
 Along with our latest innovations in speed, performance, flexibility, and intelligence, this update to new Teams allows us to deliver features and capabilities to our education customers more quickly. All new features and capabilities, including enhancements to existing features, will be available exclusively in the new Teams. 
 
@@ -30,16 +30,16 @@ The new Teams update is seamless for our Education users. Updating is quick and 
  
 ## Update schedule
 
-**In early January 2024, Microsoft will update the classic Teams client to new Teams client** for all tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy. Administrators still have the option to set classic Teams for their users via policy.  
+**In early January 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy (they still are using the default setting *Microsoft Controlled*). IT administrators still have the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
-Administrators can choose to update their users to new Teams on a different schedule. However, we highly recommend they complete the update by the end of February 2024 to avoid disrupting classes, as all remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.
+Administrators can choose to update their users to new Teams on a different schedule. However, we highly recommend they complete the update **by the end of February 2024** to avoid disrupting classes, as all remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.
 
 
 |When|What|
 |:-----|:-----|
-|Early January 2024|All tenants whose IT administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams.|
+|Early January 2024|All tenants whose IT administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams. IT administrators can still choose to set classic Teams for their users via policy.  |
 |March 31, 2024|All remaining users of classic Teams will be automatically updated to new Teams after March 31, 2024.|
 
 
@@ -55,7 +55,7 @@ It's important that school IT administrators set the policy to update to new Tea
    :::image type="content" source="media/new-teams-update-options.png" alt-text="user the new teams options ":::
 
 5. Select New Teams as default and apply this policy to users in your organization.  
-6. Once the policy is set, users select when it will update. Select **Switch now** to update immediately, or **Switch when I'm not using Teams** to automatically install the update after they finish with their current session.
+6. Once the policy is set, users decide when it will update. Select **Switch now** to update immediately, or **Switch when I'm not using Teams** to automatically install the update after they finish with their current session.
 
    :::image type="content" source="media/new-teams-edu-switch-now.png" alt-text="switch now or later":::
 
