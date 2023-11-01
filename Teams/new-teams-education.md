@@ -38,7 +38,7 @@ Administrators can choose to update their users to new Teams on a different sche
 
 |When|What|
 |:-----|:-----|
-|Early January 2024|Microsoft will update classic Teams client to the new Teams client for all tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy. Administrators still the option to set classic Teams for their users via policy.|
+|Early January 2024|All tenants whose administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams.|
 |March 31, 2024|All remaining users of classic Teams will be automatially updated to new Teams after March 31, 2024.|
 
 ## Set policies for update
