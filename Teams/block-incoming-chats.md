@@ -50,3 +50,7 @@ To manage internal message blocking for specific users or groups
 1. Select **Save**.
 
 The messaging setting and the messaging policy must both be enabled for a user to be able to block new incoming chats.
+
+## Related topics
+
+[Manage Teams with policies](manage-teams-with-policies.md)
