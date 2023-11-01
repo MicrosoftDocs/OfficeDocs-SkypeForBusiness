@@ -1,5 +1,5 @@
 ---
-title: "Walkie Talkie app in Microsoft Teams"
+title: "Manage the Walkie Talkie app in Microsoft Teams"
 author: lana-chin
 ms.author: v-chinlana
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: prastogi
-description: How to configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
+description: How to manage and configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -24,15 +24,15 @@ appliesto:
 ms.date: 09/21/2023
 ---
 
-# Walkie Talkie app in Microsoft Teams
+# Manage the Walkie Talkie app in Microsoft Teams
 
 ## Overview of Walkie Talkie
 
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is available on Android and iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
+The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows your users to connect with their team using the same underlying Teams channels that they're members of.
 
 Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
-With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
+With Walkie Talkie, users can securely communicate with a familiar PTT experience without needing to carry bulky radios. Walkie Talkie works anywhere that there's WiFi or cellular internet connectivity.
 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.
@@ -96,7 +96,7 @@ Walkie Talkie in Teams requires internet connectivity. The following network con
 
 As noted, the quality of real-time media over an IP network is greatly affected by the quality of the network connectivity, but especially by the amount of:
 
-- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
+- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to the physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
 - **Inter-arrival jitter** - The average change in delay between successive packets.
 - **Packet loss** - Packet loss is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact, to back-to-back burst losses that cause complete audio cut-out.
 
