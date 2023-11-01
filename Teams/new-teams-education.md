@@ -30,7 +30,7 @@ The new Teams update is seamless for our Education users. Updating is quick and 
  
 ## Update schedule
 
-**In early January 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (they still are using the default setting *Microsoft Controlled*). IT administrators still have the option to set classic Teams for their users via policy.  
+**In early January 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (meaning, they still are using the default setting *Microsoft Controlled*). IT administrators still have the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
