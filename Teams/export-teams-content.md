@@ -51,7 +51,7 @@ Here are some examples on how you can use these export APIs:
 
 ## What is not supported by the Teams Export APIs?
 
-- **Teams Copilot Interactions & M365 Chat:** Export API does not support user to Copilot interaction messages and M365 Chat messages sent by the bot.
+- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API does not support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
 
 ## How to access Teams Export APIs
 
