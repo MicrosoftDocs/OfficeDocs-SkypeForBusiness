@@ -87,13 +87,13 @@ items:
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
                   href: new-teams-bulk-install-client.md
-                - name: Upgrade to the new Teams with Microsoft 365 Apps
+                - name: Update to the new Teams with Microsoft 365 Apps
                   href: new-teams-deploy-with-m365apps.md
                 - name: Upgrade to the new Teams for Mac       
                   href: new-teams-mac-install-prerequisites.md
-                - name: Upgrade to the new Teams for VDI
+                - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
-                - name: Upgrade to the new Teams for Education
+                - name: Update to the new Teams for Education
                   href: new-teams-education.md                  
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
