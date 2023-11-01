@@ -30,22 +30,22 @@ The new Teams update is seamless for our Education users. Updating is quick and 
  
 ## Update schedule
 
-**In early January 2024, Microsoft will update the client to new Teams client** for all tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy. Administrators still have the option to set classic Teams for their users via policy.  
+**In early January 2024, Microsoft will update the classic Teams client to new Teams client** for all tenants where administrators took no explicit action to update to new Teams via Teams Admin Center policy. Administrators still have the option to set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
-Administrators can choose to update their users to new Teams on a different schedule. However, we highly recommend they complete the update by the end of February 2024 to avoid disrupting classes. as all remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.
+Administrators can choose to update their users to new Teams on a different schedule. However, we highly recommend they complete the update by the end of February 2024 to avoid disrupting classes, as all remaining users of classic Teams will be automatically updated to new Teams after **March 31, 2024**.
 
 
 |When|What|
 |:-----|:-----|
-|Early January 2024|All tenants whose administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams.|
-|March 31, 2024|All remaining users of classic Teams will be automatially updated to new Teams after March 31, 2024.|
+|Early January 2024|All tenants whose IT administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams.|
+|March 31, 2024|All remaining users of classic Teams will be automatically updated to new Teams after March 31, 2024.|
 
 
 ## Set policies for update
 
-It's important that school administrators set the policy to update to new Teams for their users. 
+It's important that school IT administrators set the policy to update to new Teams for their users. 
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/). 
 2. Select **Teams > Teams Update policies** from the left navigation pane. 
@@ -64,13 +64,13 @@ It's important that school administrators set the policy to update to new Teams 
 
 ## Blocked downloads or installations
 
-Administrators who have blocked software downloads or installationss for users in their tenant, must allow software download or installations of new Teams before setting the policy in the Teams Admin Center to deploy new Teams. To unblock software downloads for their users, learn more at: [Troubleshooting the new Teams installation](new-teams-troubleshooting-installation.md)
+IT administrators who have blocked software downloads or installations for users in their tenant, must allow software download or installations of new Teams before setting the policy in the Teams Admin Center to deploy new Teams. To unblock software downloads for their users, learn more at: [Troubleshooting the new Teams installation](new-teams-troubleshooting-installation.md)
 
 
 ## Bulk update to the new Teams 
 
-- If administrators prefer to bulk update to new Teams using their choice of software management tools, learn more at: [Bulk deploy the new Microsoft Teams desktop client](new-teams-bulk-install-client.md).
-- If administrators prefer to update to new Teams via other Microsoft 365 apps, learn more at [Upgrade to new Microsoft Teams with Microsoft 365 Apps](new-teams-deploy-with-m365apps.md).
+- If IT administrators prefer to bulk update to new Teams using their choice of software management tools, learn more at: [Bulk deploy the new Microsoft Teams desktop client](new-teams-bulk-install-client.md).
+- If IT administrators prefer to update to new Teams via other Microsoft 365 apps, learn more at [Upgrade to new Microsoft Teams with Microsoft 365 Apps](new-teams-deploy-with-m365apps.md).
 
 
 ### Known issues and latest updates
