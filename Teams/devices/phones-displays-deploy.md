@@ -28,7 +28,7 @@ This article gives you an overview of how to deploy Teams phones, Teams displays
 
 ## Conditional Access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps you to ensure devices accessing your Office 365 resources are properly managed and secure. If you apply Conditional Access policies to the Teams service, Android devices (including Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android) that access Teams need to be enrolled into Intune and their settings need to comply with your policies. If the device isn't enrolled into Intune, or if it's enrolled but its settings don't comply with your policies, Conditional Access prevents a user from signing in to or using the Teams app on the device.
+Conditional Access is a Microsoft Entra feature that helps you to ensure devices accessing your Office 365 resources are properly managed and secure. If you apply Conditional Access policies to the Teams service, Android devices (including Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android) that access Teams need to be enrolled into Intune and their settings need to comply with your policies. If the device isn't enrolled into Intune, or if it's enrolled but its settings don't comply with your policies, Conditional Access prevents a user from signing in to or using the Teams app on the device.
 
 Typically, compliance policies defined within Intune are assigned to groups of users.  This means that if you assign an Android compliance policy to user@contoso.com, that policy applies equally to their Android smartphone and to any Android-based Teams device that user@contoso.com signs into.
 
@@ -63,7 +63,7 @@ Teams Android-based devices are managed by Intune via Android Device Administrat
 
    1. Create an Android Device Administrator compliance policy.
 
-   1. Assign it to the Azure Active Directory group that contains the users that are signing into the Teams devices. See [Use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
+   1. Assign it to the Microsoft Entra group that contains the users that are signing into the Teams devices. See [Use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
 
 ## See also
 

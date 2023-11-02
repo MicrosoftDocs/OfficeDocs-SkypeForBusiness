@@ -34,10 +34,6 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 > [!NOTE]
 > If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
 
-> [!NOTE]
-> **Skype for Business** <br><br>
-> If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
-
 ## Before you begin
 
 ### Requirements
@@ -46,8 +42,8 @@ Depending on your environment, you need one or more roles to create resource acc
 
 |**Environment**|**Required Roles**|
 |-----|-----|
-|Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
+|Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
+|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
@@ -100,4 +96,3 @@ There are no unique requirements to enable calling with resource accounts. You e
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](rooms-licensing.md)
-

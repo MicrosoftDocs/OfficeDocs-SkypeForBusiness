@@ -59,21 +59,23 @@ The following table shows the services included in each Teams Rooms license.
 |:------------------------------------------|:--------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 | **Maximum number of licenses**            | 25                                                                   | Unlimited                                                              |
 | **Microsoft Teams**                       | &#x2714;                                                             | &#x2714;                                                               |
+|**Microsoft Teams Rooms Pro Management**||✔|
 | **Audio Conferencing<sup>1</sup>**        | &#x2714;                                                             | &#x2714;                                                               |
 | **Whiteboard**                            | &#x2714;                                                             | &#x2714;                                                               |
-| **Teams Phone**                           |                                                                      | &#x2714;                                                               |
+| **Teams Phone** **Standard**                          |                                                                      | &#x2714;                                                               |
 | **Microsoft Intune<sup>2</sup>**          |                                                                      | &#x2714;                                                               |
-| **Azure Active Directory Premium Plan 1** |                                                                      | &#x2714;                                                               |
+| **Microsoft Entra ID P1** |                                                                      | &#x2714;                                                               |
+|**Microsoft Defender for Endpoint Plan 2**||✔|
 | **Skype for Business Plan 2<sup>3</sup>** |                                                                      | &#x2714;                                                               |
 | **Geographic availability**               | Worldwide                                                            | Worldwide                                                              |
 | **Segment availability**                  | Commercial, Worldwide Public Sector, Education, Charity, GCC         | Commercial, Worldwide Public Sector, Education, Charity, GCC, GCC-High |
 | **Channel availability**                  | Web Direct, New commerce experience (NCE) - Customer led<sup>4</sup> | EA, EAS, EES, CSP, Web Direct, NCE - Customer led, NCE - Partner led   |
 
-<sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing.
+<sup>1</sup> To verify service availability, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). [Communication Credits](../what-are-communications-credits.md) may apply for additional services, such as toll-free, international minutes for domestic plans, and so on. You can disable these features to avoid additional billing. [Conference Phones with Meeting Interface](/microsoftteams/devices/teams-android-devices-user-interface) requires Microsoft Teams Rooms Pro License.
 
 <sup>2</sup> Microsoft Intune Plan 1 and Plan 2.
 
-<sup>3</sup> Included to enable certain legacy authentication methods.
+<sup>3</sup> Included to enable certain legacy authentication methods. Effective October 1, 2023 Microsoft Teams Rooms will no longer support connections to Skype for Business server.
 
 <sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
 
@@ -147,7 +149,7 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 |:--------------------------------------------------------------------|:---------------------------:|:-------------------------:|
 | **Secure operating system**                                         | &#x2714;                    | &#x2714;                  |
 | **System level security (Secure boot, Assigned Access mode, etc.)** | &#x2714;                    | &#x2714;                  |
-| **Azure AD conditional access policies**                              |                             | &#x2714;                  |
+| **Microsoft Entra Conditional Access policies**                              |                             | &#x2714;                  |
 
 ### Device management
 
@@ -169,25 +171,38 @@ The following tables compare the Teams Rooms Basic and Teams Rooms Pro licenses 
 
 ### License Type Overview 
 The Pro Management Portal's license type offer a clear and comprehensive summary of all devices licensing status. To access the licensing information: 
-  1. **Log In**: Use your credentials to log into the Pro Management Portal. 
-  2. **Navigate**: Go to Rooms and Inventory views. 
-  3. **License Type Column**: In both views, locate the License Type column to see device licensing status. 
+1. Use your credentials to log into the Pro Management Portal. 
+2. Go to **Rooms** and **Inventory** views. 
+3. In both views, locate the **License Type** column to see device licensing status. 
+
 ### Inventory View 
 In the Inventory view, devices are categorized into: 
-- **Pro**: devices with pro licenses 
-- **Premium**: devices with premium licenses
-- **Basic**: devices with basic licenses
-- **Standard**: devices with standard licenses
-- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses
-### Rooms View 
+- **Pro**: Devices with pro licenses.
+- **Premium**: Devices with premium licenses.
+- **Basic**: Devices with basic licenses.
+- **Standard**: Devices with standard licenses.
+- **Syncing**: For new devices, the license information will appear 24 hours after room reboot due to syncing.
+- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses.
+
+### Rooms View
 In the Rooms view, you'll find:
-- **Pro**: Devices with Pro licenses
-- **Premium**: Devices with Premium licenses
-- **Unlicensed**: Devices without Pro or Premium licenses
+- **Pro**: Devices with Pro licenses.
+- **Premium**: Devices with Premium licenses.
+- **Basic**: Devices with basic licenses.
+- **Standard**: Devices with standard licenses.
+- **Syncing**: For new devices, the license information will appear 24 hours after room reboot due to syncing.
+- **Unlicensed**: Devices lacking Pro, Premium, Basic, or Standard licenses.
 
-Once a license expires, access will be restricted; however, a 30-day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+> [!IMPORTANT]
+> 
+> - Please note that for Basic and Standard licenses, the presence of the red alert sign on the left side indicates that these licenses will not grant access to the Pro Management capabilities starting October 2. To continue enjoying the benefit with Pro Management capabilities, an upgrade to Pro license is required by the end of the grace period which is September 30, 2023.
+> - Starting October 2, 2023 all devices without Pro or Premium licenses assigned to them will lose access to the pro management capabilities until valid licenses are assigned to them.
+> - Once a license expires, access will be restricted; however, a 30 day grace period follows, preventing immediate disruptions. During this grace period, licenses can be renewed to reinstate access. Failure to renew within this period will result in loss of access.
+> - When changing the account of the device, please ensure that the new account has the valid license to avoid any interruption with the device. The 30 day grace period will not be applying when using an expired account to enroll new devices or changing account on current devices.
 
-### Troubleshooting licensing status: 
+### Troubleshooting licensing status:
+
 If you encounter devices showing an incorrect “unlicensed” status even though they possess the proper licenses, this can result from account sign-out or improper sign-in of your devices. To resolve these issues, follow the steps outlined below: 
 - For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
+

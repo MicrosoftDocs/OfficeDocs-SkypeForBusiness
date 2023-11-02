@@ -1,6 +1,6 @@
 ---
 title: Use nonprofit team templates
-author: lana-chin
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 audience: Admin

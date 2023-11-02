@@ -27,7 +27,7 @@ description: Learn about the Microsoft Teams Shared Devices licensing for common
 
 # Microsoft Teams Shared Devices licensing
 
-Microsoft Teams can support hybrid work scenarios and enable users to work in flexible spaces. The **Microsoft Teams Shared Devices** add-on license allows offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces. With this license, common area phones have the ability to join audio conferences via a dial-in number provided by the meeting organizer.
+Microsoft Teams can support hybrid work scenarios and enable users to work in flexible spaces. The **Microsoft Teams Shared Devices** add-on license allows offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, Teams panels for meeting spaces, and Android phones through the Teams mobile app. With this license, common area phones have the ability to join audio conferences via a dial-in number provided by the meeting organizer.
 
 For information about other Teams add-on licenses, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
@@ -36,7 +36,7 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Teams
 - Microsoft Teams Phone (Previously known as *Phone System*)
 - Microsoft Intune (Microsoft Intune Plan 1 and Plan 2)
-- Azure Active Directory Premium Plan 1
+- Microsoft Entra ID P1
 - Exchange Online Plan (Cloud-based voicemail capabilities only.)
 
 ## Teams Shared Devices license availability

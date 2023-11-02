@@ -196,3 +196,8 @@ Note that it may take up to 72 hours for Teams Premium sensitivity label setting
 ## Related topics
 
 [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
+
+[Teams Premium deployment guide](https://aka.ms/TeamsPremiumDeployment)
+
+[Teams Premium user guide](https://adoption.microsoft.com/files/microsoft-teams/Microsoft-Teams-Premium-user-guide.pptx)
+
