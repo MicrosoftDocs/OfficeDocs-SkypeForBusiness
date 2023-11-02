@@ -76,7 +76,7 @@ The following table shows the services included in each Teams Rooms license.
 
 <sup>3</sup> Included to enable certain legacy authentication methods. Effective October 1, 2023 Microsoft Teams Rooms will no longer support connections to Skype for Business server.
 
-<sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center. You need to provide payment details, although no charge will be made for Teams Rooms Basic licenses. see [subscriptions and billing documentation](/microsoft-365/commerce/?view=o365-worldwide) for details. 
+<sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center. You need to provide payment details, although no charge will be made for Teams Rooms Basic licenses. see [subscriptions and billing documentation](/microsoft-365/commerce) for details. 
 
 ## Switching from Teams Rooms Standard and Teams Rooms Premium
 
