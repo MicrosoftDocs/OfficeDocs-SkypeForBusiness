@@ -41,7 +41,7 @@ description: Learn how to configure call queues via cmdlets
      Install-Module -Name MicrosoftTeams -Force -AllowClobber
      ```
 
-   - MSOnline module installed
+   - Microsoft Graph module installed
 
      ```powershell
      Install-Module -Name Microsoft.Graph -Force -AllowClobber
