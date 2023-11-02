@@ -192,34 +192,34 @@ Follow these steps to assign a custom meeting policy named EducatorMeetingPolicy
 
 ### Using PowerShell
 
-#### Connect to the Azure AD PowerShell for Graph module and the Teams PowerShell module
+#### Connect to the Microsoft Graph PowerShell and the Teams PowerShell module
 
-Before you perform the steps in this article, you'll need to install and connect to the Azure AD PowerShell for Graph module (to identify users by their assigned licenses) and the Microsoft Teams PowerShell module (to assign the policies to those users).
+Before you perform the steps in this article, you'll need to install and connect to the Microsoft Graph PowerShell (to identify users by their assigned licenses) and the Microsoft Teams PowerShell module (to assign the policies to those users).
 
-##### Install and connect to the Azure AD PowerShell for Graph module
+##### Install and connect to the Microsoft Graph PowerShell
 
-Open an elevated Windows PowerShell command prompt (run Windows PowerShell as an administrator), and then run the following to install the Azure Active Directory PowerShell for Graph module.
+Run Windows PowerShell as an administrator, and then run the following to install the Microsoft Graph PowerShell.
 
 ```powershell
-Install-Module -Name AzureAD
+Install-Module Microsoft.Graph -Scope CurrentUser
 ```
 
 Run the following to connect to Microsoft Entra ID.
 
 ```powershell
-Connect-AzureAD
+Connect-MgGraph
 ```
 
 When you're prompted, sign in using your admin credentials.
 
-To learn more, see [Connect with the Azure Active Directory PowerShell for Graph module](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+To learn more, see [Get started with the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/get-started).
 
 ##### Install and connect to the Microsoft Teams PowerShell module
 
 Run the following to install the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams) (if it's not already installed). Make sure you install version 1.0.5 or later.
 
 ```powershell
-Install-Module -Name MicrosoftTeams
+Install-Module MicrosoftTeams
 ```
 
 Run the following to connect to Teams and start a session.
@@ -235,7 +235,7 @@ When you're prompted, sign in using the same admin credentials you used to conne
 First, run the following to identify your staff and educators by license type. This tells you what SKUs are in use in your organization. You can then identify staff and educators that have a Faculty SKU assigned.
 
 ```powershell
-Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
+Get-MgSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 Which returns:
@@ -255,7 +255,7 @@ In this example, the output shows that the Faculty license SkuId is "e97c048c-37
 Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
+$faculty = Get-MgUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 #### Assign a policy in bulk
