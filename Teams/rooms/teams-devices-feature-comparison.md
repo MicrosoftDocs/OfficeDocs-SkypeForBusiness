@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
-ms.reviewer: 
+ms.reviewer: sohailta
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
   - M365-collaboration
