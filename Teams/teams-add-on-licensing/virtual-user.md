@@ -55,6 +55,9 @@ Contoso, Inc. purchased 500 licenses that include Phone System (one for each emp
 
 ## How to obtain Microsoft Teams Phone Resource Account licenses
 
+You obtain Teams Phone Resource Account licenses from the same purchasing channel you purchased the subscription containing Teams Phone. For example, if you purchased Resource Account licenses through an Enterprise Agreement (EA), you need to order through EA.
+
+For Web Direct customers:
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. Go to **Billing** > [**Purchase services**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **Add-ons**.
     > [!NOTE]

@@ -4,14 +4,14 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/13/2023
+ms.date: 11/02/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: microthk
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -24,14 +24,9 @@ ms.localizationpriority: high
 
 - Annotations from the Presenter toolbar isn't currently available.
 - PowerPoint Live Standout isn't yet available.
-- Detecting multiple languages for spellchecker isn't currently available.
-
-## Coming in October
-
-- Pinning Apps on the App bar.
-- Setting Hybrid Presence and custom duration for status message.
-- Ability to @mention users in status note.
-- Initiating screen share from Windows taskbar.
+- Detecting multiple languages for spellchecker isn't currently available. 
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
+- Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 
 ## Coming in November
 
@@ -46,6 +41,7 @@ As we improved the client, the experience also improved to align with similar fe
 
 |Classic Teams|New Teams|
 |:-----|:-----|
+|Post level notifications within a channel|Users can no longer opt in or opt out of receiving notifications at a channel post level.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
 |Adding a Wiki to a channel tab|You no longer see a Wiki app. Instead, select the Notes app.|
 |Adding third party cloud storage service from Files app and Files tab in channels|You no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|

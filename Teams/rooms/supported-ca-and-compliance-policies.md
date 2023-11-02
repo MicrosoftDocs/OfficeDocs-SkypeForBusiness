@@ -2,14 +2,14 @@
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: kspiess
+ms.reviewer: altsou
 ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
+f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
@@ -52,7 +52,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Require multi-factor authentication      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Supported                                                                                                                                                            |
 | Require authentication strength      | Not supported   | Not Supported                                                                                                                                                                         | Not supported 
 | Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Require Microsoft Entra Hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Require Microsoft Entra hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require approved client app              | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require app protection policy            | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                       

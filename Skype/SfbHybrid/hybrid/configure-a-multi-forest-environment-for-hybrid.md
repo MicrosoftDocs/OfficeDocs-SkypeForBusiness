@@ -57,7 +57,7 @@ If you have Exchange Server deployed in an another forest and Exchange provides 
 
 Assume Skype for Business Server is deployed in one forest (a resource forest), but provides functionality to users in one or more other forests (account forests). In this case, users in the other forests must be represented as disabled user objects in the forest where Skype for Business Server is deployed.
 
-You need to use an identity management product, such as Microsoft Identity Manager, to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Azure Active Directory Connect will not properly synchronize contacts into Azure AD for use with Skype.
+You need to use an identity management product, such as Microsoft Identity Manager, to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Microsoft Entra Connect will not properly synchronize contacts into Microsoft Entra ID for use with Skype.
   
 Regardless of any multi-forest configuration, the forest hosting Skype for Business Server can also provide functionality for any enabled users that exist in the same forest.
   
@@ -70,7 +70,7 @@ To get proper identity synchronization, the following attributes need to be sync
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
 
-The [chosen account link attribute](/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the AAD Connect configuration.
+The [chosen account link attribute](/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the Microsoft Entra Connect configuration.
   
 Do not sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
   
@@ -102,23 +102,25 @@ Once deployed, you need to edit the claims rule to match the Source Anchor selec
   
 ![Multi-forest Edit Rules Screen.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
-## Configure AAD Connect
+<a name='configure-aad-connect'></a>
 
-In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Azure AD. Microsoft recommends that Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+## Configure Microsoft Entra Connect
 
-Note that Azure AD Connect does not provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
+In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Microsoft Entra ID. Microsoft recommends that Microsoft Entra Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Microsoft Entra Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+
+Note that Microsoft Entra Connect does not provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
   
-When finished and Azure AD Connect is merging, if you look at an object in the metaverse, you should see something similar to the following:
+When finished and Microsoft Entra Connect is merging, if you look at an object in the metaverse, you should see something similar to the following:
   
 ![Multi-forest Metaverse Object Screen.](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 The green highlighted attributes were merged from Microsoft 365, the yellow are from the user forest, and the blue are from the resource forest.
   
-In this example, Azure AD Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Microsoft 365, in this case 1101--the employeeNumber selected earlier. Azure AD Connect was them able to merge this object into what you see above.
+In this example, Microsoft Entra Connect has identified the sourceAnchor and the cloudSourceAnchor from the user and the resource forest objects from Microsoft 365, in this case 1101--the employeeNumber selected earlier. Microsoft Entra Connect was them able to merge this object into what you see above.
   
-For more information, see [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
+For more information, see [Integrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/hybrid/whatis-hybrid-identity).
   
-Azure AD Connect should be installed using the defaults, except for the following situations:
+Microsoft Entra Connect should be installed using the defaults, except for the following situations:
   
 1. Single sign-in - with AD FS already deployed and working: Select **Do not configure**.
 
@@ -126,7 +128,7 @@ Azure AD Connect should be installed using the defaults, except for the followin
 
 3. Identify users in on-premises directories: Select **User identities exist across multiple directories**, and select the **ObjectSID** and **msExchangeMasterAccountSID** attributes.
 
-4. Identify users in Azure AD: Source Anchor: Select the attribute you've chosen after reading [Selecting a good sourceAnchor attribute](/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), User Principal Name - **userPrincipalName**.
+4. Identify users in Microsoft Entra ID: Source Anchor: Select the attribute you've chosen after reading [Selecting a good sourceAnchor attribute](/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), User Principal Name - **userPrincipalName**.
 
 5. Optional features: Select whether you have Exchange hybrid deployed.
 

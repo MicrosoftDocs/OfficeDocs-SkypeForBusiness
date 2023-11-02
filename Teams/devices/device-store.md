@@ -3,8 +3,8 @@ title: Teams device store
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: 
-ms.date: 03/28/2023
+ms.reviewer: pauljuricic
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -24,7 +24,7 @@ description: Learn how to browse and purchase devices in the Teams admin center 
 
 # Purchase devices in the Teams device store
 
-The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, Germany, the United States, and the United Kingdom.
+The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, France, Germany, Ireland, Italy, Portugal, the United States, and the United Kingdom.
 
 To use the devices store in the Teams admin center, go to **Devices > Store**.
 
@@ -57,4 +57,4 @@ When you purchase devices that support remote provisioning, the MAC address of t
 Once your devices are delivered, see [Remotely provision devices](remote-provision-remote-login.md#generate-a-verification-code) to complete the provision and sign-in process.
 
 > [!NOTE]
-> For devices purchased from the store, the automatic addition of the device MAC address to the Teams admin center isn't supported in United Kingdom and Germany. For information about manually adding a device using its MAC address, see [Add a device MAC address](remote-provision-remote-login.md#add-a-device-mac-address).
+> For devices purchased from the store, the automatic addition of the device MAC address to the Teams admin center is supported in United States and Canada only. For information about manually adding a device using its MAC address, see [Add a device MAC address](remote-provision-remote-login.md#add-a-device-mac-address).

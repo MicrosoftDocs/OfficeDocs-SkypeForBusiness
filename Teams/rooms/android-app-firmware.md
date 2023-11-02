@@ -2,8 +2,8 @@
 title: Teams Rooms on Android app and firmware versions
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
-ms.date: 10/04/2023
+ms.reviewer: divank
+ms.date: 11/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -54,6 +54,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
+| Audiocodes RX-Pad | `2.2.311` | 2023 Update #2 |
 | Neat Bar | `NFB1.20230504.0021` | 2023 Update #2A |
 | Neat Bar Pro| `NFD1.20230504.0029` | 2023 Update #2A |
 | Neat Board | `NFC1.20230504.0021` |  2023 Update #2A |
