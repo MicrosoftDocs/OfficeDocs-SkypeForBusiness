@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-  - has-azure-ad-ps-ref
+  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 search.appverid: MET150
 description: Learn how to assign policies to large sets of users in your educational institution based on group membership or directly through a batch assignment for remote school (teleschool, tele-school) purposes. 
 f1keywords: 
