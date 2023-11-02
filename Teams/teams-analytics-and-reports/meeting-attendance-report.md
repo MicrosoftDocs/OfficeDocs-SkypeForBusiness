@@ -35,15 +35,15 @@ For education tenants, the attendance report can be used to track student attend
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you'd like to update. To create a new policy, select **Add**.
 1. Under **Meeting scheduling**, choose one of the following options for **Attendance report**:
-    - **Everyone, unless organizers opt-out** - Organizers control whether attendance reports are on or off for their meetings, town halls or webinars.
-    - **No one** - Organizers can't view or download attendance reports for webinars, town halls, or meetings they've organized.
-    - **Everyone** - The attendance report is available for all webinars, town halls, or meetings organizers create; organizers can't turn off attendance reports.
+    - **On, but organizers can turn it off** - Organizers control whether attendance reports are on or off for their meetings, town halls, or webinars.
+    - **Off** - Organizers can't view or download attendance reports for webinars, town halls, or meetings they've organized.
+    - **On** - The attendance report is available for all webinars, town halls, or meetings organizers create; organizers can't turn off attendance reports.
 
-1. For **Who is in the report**, choose one of the following options:
-    - **Everyone, but participants can opt-out** -  This option is the **default setting.** The attendance report initially includes all participants. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
-    - **No one, but participants can opt-in** - The attendance report initially excludes all participants. To opt in, Participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
-    - **Everyone** - The attendance report includes all participants, and participants can't opt out.
-    - **No one** - The attendance report excludes all participants, and participants can't opt in.
+1. For **Include attendees in the report**, choose one of the following options:
+    - **Yes, but allow opt out** -  This option is the **default setting.** The attendance report initially includes the participants who have been assigned this policy value. To opt out, participants can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
+    - **No, but allow opt in** - The attendance report initially excludes the participants who have been assigned this policy value. To opt in, participants can set the **Identify me in attendance reports** toggle to on or off in their Teams privacy settings.
+    - **Always** - The attendance report includes the participants who have been assigned this policy value, and participants can't opt out.
+    - **Never** - The attendance report excludes the participants who have been assigned this policy value, and participants can't opt in.
 1. For **Attendance summary**, choose one of the following options:
     - **Show everything** - Include attendees' join times, leave times, and in-meeting duration. This setting is on by default.
     - **Only show who attended** - Doesn't include attendees' join times, leave times, and in-meeting duration.

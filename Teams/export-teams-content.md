@@ -49,6 +49,10 @@ Here are some examples on how you can use these export APIs:
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
 
+## What is not supported by the Teams Export APIs?
+
+- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API does not support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
+
 ## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
