@@ -26,6 +26,7 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: Learn how to configure call queues via cmdlets
 ---
 # Create a call queue via cmdlets
@@ -43,7 +44,7 @@ description: Learn how to configure call queues via cmdlets
    - MSOnline module installed
 
      ```powershell
-     Install-Module -Name MSOnline -Force -AllowClobber
+     Install-Module -Name Microsoft.Graph -Force -AllowClobber
      ```
 
 2. You have tenant administration rights
@@ -131,7 +132,7 @@ You will be prompted to enter your Teams administrator credentials.
 ```powershell
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
-Connect-MsolService -Credential $credential
+Connect-MgGraph -Credential $credential
 ```
 
 ## Sales Queue
@@ -168,7 +169,7 @@ New-CsCallQueue -Name "Sales" -AgentAlertTime 15 -AllowOptOut $true -MusicOnHold
 ### Get license types
 
 ```powershell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
 ### Create and Assign Resource Account
@@ -179,14 +180,14 @@ Note: Phone number not required here as call queue is front ended by an Auto Att
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the `Get-MgSubscribedSku` cmdlet above.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
-Set-MsolUserLicense -UserPrincipalName "Sales-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+Set-MgUserLicense -UserPrincipalName "Sales-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
@@ -232,7 +233,7 @@ New-CsCallQueue -Name "Support" -AgentAlertTime 15 -AllowOptOut $false -Distribu
 ### Get license types
 
 ```powershell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
 ### Create and Assign Resource Account
@@ -243,14 +244,14 @@ Note: Phone number not required here as call queue is front-ended by an Auto Att
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the `Get-MgSubscribedSku` cmdlet above.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
-Set-MsolUserLicense -UserPrincipalName "Support-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+Set-MgUserLicense -UserPrincipalName "Support-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
@@ -300,7 +301,7 @@ New-CsCallQueue -Name "Facilities" -AgentAlertTime 15 -AllowOptOut $false -Chann
 ### Get license types
 
 ```powershell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
 ### Create and Assign Resource Account
@@ -311,14 +312,14 @@ Get-MsolAccountSku
   - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
   - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the `Get-MgSubscribedSku` cmdlet above.
 
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
-Set-MsolUserLicense -UserPrincipalName "Facilities-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+Set-MgUserLicense -UserPrincipalName "Facilities-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
