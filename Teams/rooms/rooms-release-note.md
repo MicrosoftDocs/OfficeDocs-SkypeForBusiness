@@ -3,7 +3,7 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 10/04/2023
+ms.date: 11/01/2023
 manager: serdars
 audience: ITPro
 ms.topic: article

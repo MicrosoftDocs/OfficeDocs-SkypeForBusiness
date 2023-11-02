@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
-ms.reviewer: 
+ms.reviewer: sohailta
 description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
   - M365-collaboration
