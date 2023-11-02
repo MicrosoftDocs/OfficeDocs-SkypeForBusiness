@@ -91,6 +91,9 @@ The following table summarizes the configuration using three voice routes. In th
 |US and Canada|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.com<br/>sbc6.contoso.com|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
 
+  > [!NOTE]
+  > In case of call forwarding or call transfer of an incoming PSTN call, when the ingress SBC is also listed as a potential egress SBC, its priority value is ignored, and it is prioritized above other SBCs. For example, in this table, if a forwarded call is ingressed over sbc5.contoso.com, the first SBC attempted for egress will be sbc5.contoso.com, even though its priority value is 3.
+
 ## Example 1: Configuration steps
 
 The following example shows how to:
