@@ -36,10 +36,9 @@ Microsoft offers two licenses for Teams Rooms systems that participate in Teams 
     Teams Rooms Pro is a great fit for medium and enterprise organizations, as well as smaller organizations with larger room counts or more advanced needs. Teams Rooms Pro licenses can be used to license both certified Teams Rooms systems and Teams Panels.
 
 - **Microsoft Teams Rooms Basic** provides core meeting experiences to organizations that purchase a certified Microsoft Teams Rooms system, at no additional cost. The Teams Rooms Basic license includes scheduling, joining meetings, content sharing, and collaborative white boarding, as well as basic security and management capabilities out-of-the-box.
+- A Teams Rooms Basic license can be used to license a single certified Teams Rooms system in a room. If you want to log into more than one Teams Rooms system in a room using the same resource account, you need to use a Teams Rooms Pro license.
 
-    A Teams Rooms Basic license can be used to license a single certified Teams Rooms system in a room. If you want to log into more than one Teams Rooms system in a room using the same resource account, you need to use a Teams Rooms Pro license.
-
-    You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms systems in your organization. If you need to license more than 25 Teams Rooms systems, those additional licenses need to be Teams Rooms Pro licenses. Teams Rooms Basic licenses can be used to license Teams Rooms systems only and not Teams Panels.
+- You can assign up to 25 Microsoft Teams Rooms Basic licenses to Teams Rooms systems in your organization. If you need to license more than 25 Teams Rooms systems, those additional licenses need to be Teams Rooms Pro licenses. Teams Rooms Basic licenses can be used to license Teams Rooms systems only and not Teams Panels.
 
 A Teams Room system can be one of the following:
 
@@ -77,7 +76,7 @@ The following table shows the services included in each Teams Rooms license.
 
 <sup>3</sup> Included to enable certain legacy authentication methods. Effective October 1, 2023 Microsoft Teams Rooms will no longer support connections to Skype for Business server.
 
-<sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center.
+<sup>4</sup> You need to add and assign a free Teams Rooms Basic license for each device via the Microsoft 365 admin center. You need to provide payment details, although no charge will be made for Teams Rooms Basic licenses. see [subscriptions and billing documentation](/microsoft-365/commerce/?view=o365-worldwide) for details. 
 
 ## Switching from Teams Rooms Standard and Teams Rooms Premium
 
@@ -205,4 +204,5 @@ In the Rooms view, you'll find:
 If you encounter devices showing an incorrect “unlicensed” status even though they possess the proper licenses, this can result from account sign-out or improper sign-in of your devices. To resolve these issues, follow the steps outlined below: 
 - For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
+
 
