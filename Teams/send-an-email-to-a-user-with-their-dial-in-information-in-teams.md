@@ -28,11 +28,11 @@ description: Learn about how to send your users an email with their audio confer
 
 # Send an email to a user with their Audio Conferencing information in Microsoft Teams
 
-Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information. You can do this by clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
+Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information. You can do this by clicking **Send conference info via email** under the properties for a user. When you send this email, it contains all of the audio conferencing information, including:
   
 - The conference phone or dial-in phone number for the user.
 
-Here is an example of the email that is sent:
+Here's an example of the email that is sent:
 
 ![Example of a dial-in conferencing email message.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
@@ -43,15 +43,15 @@ Here is an example of the email that is sent:
 
 ### Sending an email using the Microsoft Teams admin center
 
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
+1. In the left navigation, select **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. At the top of the page, select **Edit**.
 
-3. Under **Audio Conferencing**, click **Send conference info in email**.
+3. Under **Audio Conferencing**, select **Send conference info in email**.
 
 ## What else should you know about this email?
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- There are several emails that are sent to users in your organization after they're enabled for audio conferencing:
 
   - When an **Audio Conferencing** license is assigned to them.
 

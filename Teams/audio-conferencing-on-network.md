@@ -25,7 +25,7 @@ description: The following describes On-network for Audio Conferencing.
 
 # On-network Conferencing for Audio Conferencing
 
-On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge.
+On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability isn't intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing isn't supported if it's used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge.
 
 This article describes the prerequisites and configuration steps required to enable On-network Conferencing for your organization.
 
@@ -40,11 +40,11 @@ Before configuring On-network Conferencing, make sure your organization meets th
 
 - Assign Audio Conferencing licenses to all users who will be using On-network Conferencing.
 
-- Set up the Audio Conferencing service. For additional information, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md).
+- Set up the Audio Conferencing service. For more information, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
-- Set up your Session Border Controller (SBC) for Direct Routing. For additional information, see [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure.md).
+- Set up your Session Border Controller (SBC) for Direct Routing. For more information, see [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure.md).
 
-  If you are setting up Direct Routing only for the purposes of Audio Conferencing, then you need only complete "Step 1: Connect your SBC" for On-network Conferencing.
+  If you're setting up Direct Routing only for the purposes of Audio Conferencing, then you need only complete "Step 1: Connect your SBC" for On-network Conferencing.
 
 ## Enable the routing of dial-in calls to Microsoft Audio Conferencing through Direct Routing
 
@@ -52,7 +52,7 @@ To route dial-in calls made by your on-premises users to the Audio Conferencing 
 
 You need to configure the telephony equipment of your sites to route calls to any service number of the conference bridge of your organization through a Direct Routing trunk.
 
-You can find the service numbers in Teams admin center under **Meetings -> Conferencing Bridges** or by using the Teams PowerShell cmdlet Get-CsOnlineDialInConferencingBridge. For additional information, see a list of [Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+You can find the service numbers in Teams admin center under **Meetings -> Conferencing Bridges** or by using the Teams PowerShell cmdlet Get-CsOnlineDialInConferencingBridge. For more information, see a list of [Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 > [!NOTE]
 > This feature is not available to users with the pay-per-minute Audio Conferencing license.
@@ -79,11 +79,11 @@ To enable the routing of meeting dial-out calls through Direct Routing, you need
 - Configure the routing on the telephony equipment of your organization
 - (Optional) Configure a dial plan
 
-Dial-out calls from Teams meetings are coming from the default service number on the conference bridge. For additional information on the default service number of your Audio Conferencing bridge, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+Dial-out calls from Teams meetings are coming from the default service number on the conference bridge. For more information on the default service number of your Audio Conferencing bridge, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ### Configure Audio Conferencing routing policies
 
-The Audio Conferencing routing policy OnlineAudioConferencingRoutingPolicy determines which meeting dial-out calls are routed to Direct Routing trunks. If you are familiar with the CsOnlineVoiceRoutingPolicy policy, this policy works in a very similar way.
+The Audio Conferencing routing policy OnlineAudioConferencingRoutingPolicy determines which meeting dial-out calls are routed to Direct Routing trunks. If you're familiar with the CsOnlineVoiceRoutingPolicy policy, this policy works in a very similar way.
 
 The following steps are needed to set up Audio Conferencing routing policies:
 
@@ -122,7 +122,7 @@ You can create an Audio Conferencing voice routing policy by using the "New- CsO
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
-After the policy is assigned to a user, and when a meeting dial-out call is initiated from one of the user's meetings, the voice routes in the PSTN usages that are associated to the organizer through the user's voice routing policy will be evaluated. If the meeting dial-out call destination matches a regex in one of the voice routes that are associated to the organizer, the meeting dial-out call will be routed to the PSTN gateway defined in the voice route. If the meeting dial-out call destination does not match any of the voice routes associated to the organizer, the meeting dial-out call will be routed by Microsoft.
+After the policy is assigned to a user, and when a meeting dial-out call is initiated from one of the user's meetings, the voice routes in the PSTN usages that are associated to the organizer through the user's voice routing policy will be evaluated. If the meeting dial-out call destination matches a regex in one of the voice routes that are associated to the organizer, the meeting dial-out call will be routed to the PSTN gateway defined in the voice route. If the meeting dial-out call destination doesn't match any of the voice routes associated to the organizer, the meeting dial-out call will be routed by Microsoft.
 
 #### Assign a policy to your users
 

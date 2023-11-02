@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number in Microsoft Teams."
+description: "See how to select the audio conferencing auto attendant languages for an audio conferencing number in Microsoft Teams."
 ---
 
 # Set auto attendant languages for Audio Conferencing in Microsoft Teams
@@ -44,14 +44,14 @@ Using the Microsoft Teams admin center:
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**. It is only possible to change the languages of Dedicated audio conferencing numbers. The **Edit** option is only shown when a Dedicated audio conferencing number is selected.
+2. Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, select **Edit**. It's only possible to change the languages of Dedicated audio conferencing numbers. The **Edit** option is only shown when a Dedicated audio conferencing number is selected.
 
 3. In the pane on the right, choose the default language you want and any alternate languages.
 
     > [!NOTE]
     > The default and alternate languages that are supported are listed. The order in which you select them in the lists will be the order of the languages presented to callers.
 
-4. Click **Save**.
+4. Select **Save**.
 
 ## Want else should I know?
 
