@@ -25,21 +25,20 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 
 # Meeting policy settings for audio & video
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-This article describes the meeting policy settings specific to audio and video. To access these settings:
+This article describes the meeting policy settings specific to audio and video for meetings, webinars, and town halls. In town halls, only presenters, organizers, and co-organizers can use their cameras and microphones.
+
+To access audio and video settings, follow these steps:
 
 1. In the Teams admin center, expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Scroll to the **Audio & video** section of the policy page.
 1. When you've completed your changes, select **Save**.
-
-> [!NOTE]
-> These settings also affects webinars.
 
 ## Mode for IP audio
 
@@ -50,7 +49,7 @@ This is a per-user policy. This setting controls whether audio can be turned on 
 |**Outgoing and incoming audio enabled**|Outgoing and incoming audio is allowed in the meeting. This is the default setting.|
 |**Not enabled**|Outgoing and incoming audio is turned off in the meeting.|
 
-If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they have to dial in or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting is not enabled, the user has to dial in to the meeting.
+If set to **Not enabled** for a user, that user can still schedule and organize meetings but they can't use audio. To join a meeting, they must dial in or have the meeting call and join them by phone. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming audio enabled** by default. On Teams mobile clients, if this setting isn't enabled, the user has to dial in to the meeting.
 
 This setting doesn't apply to 1:1 calls. To restrict 1:1 calls, configure a Teams [calling policy](teams-calling-policy.md) and turn off the **Make private calls** setting. This setting also doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
@@ -65,7 +64,7 @@ This is a per-user policy. This setting controls whether video can be turned on 
 |Setting value|Behavior|
 |---|---|
 |**Outgoing and incoming video enabled**|Outgoing and incoming video is allowed in the meeting. This is the default setting.|
-|**Not enabled**|Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** is not enabled, then **Mode for IP video** will also remain not enabled.|
+|**Not enabled**|Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** isn't enabled, then **Mode for IP video** will also remain not enabled.|
 
 If set to **Not enabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
@@ -135,7 +134,7 @@ For users on Teams mobile clients, the ability to share photos and videos during
 
 ## Media bit rate (Kbps)
 
-This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
+This is a per-user policy. This setting determines the media bit rate for audio, video, and video-based app-sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. (For example, if you set a value of 2,000 Kbps, it is 2,000 Kbps for the uplink media and 2,000 Kbps for the downlink media.) This setting gives you granular control over managing bandwidth in your organization. Depending on the meetings scenarios required by users, we recommend having enough bandwidth in place for a good quality experience. The minimum value is 30 Kbps and the maximum value depends on the meeting scenario. To learn more about the minimum recommended bandwidth for good quality meetings, calls, and live events in Teams, see [Bandwidth requirements](prepare-network.md#bandwidth-requirements).
 
 If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
@@ -177,7 +176,7 @@ To specify who can use far end camera control in a meeting, create and assign a 
 
 When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from Teams Rooms at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
-Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals). This feature is not yet supported on cameras with digital PTZ controls.  
+Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Teams Rooms certified systems and peripherals](/microsoftteams/rooms/certified-hardware?tabs=Peripherals). This feature isn't yet supported on cameras with digital PTZ controls.  
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.

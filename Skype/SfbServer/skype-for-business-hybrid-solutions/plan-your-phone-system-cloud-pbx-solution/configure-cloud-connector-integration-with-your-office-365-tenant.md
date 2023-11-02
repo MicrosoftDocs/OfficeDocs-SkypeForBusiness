@@ -173,7 +173,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
-2. Start a tenant Azure AD remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Azure AD user account configured in step 1 to "HybridMediationServer":
+2. Start a tenant Microsoft Entra ID remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Microsoft Entra user account configured in step 1 to "HybridMediationServer":
 
    ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"

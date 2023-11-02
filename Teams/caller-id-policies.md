@@ -69,11 +69,9 @@ For the outbound PSTN caller ID, the following options are available:
 
 - End user control that overrides the caller ID policy.
 
-  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy, unless the parameter CallingIDSubstitute is set to **Anonymous**.
+  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy.
 
   - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID will be blocked and Anonymous will be used.
-
-  - If a policy instance has substitution set to **Anonymous** and EnableUserOverride is enabled, then the outbound caller ID will always be Anonymous, regardless of the end user setting.
 
 You can't assign the following types of phone numbers for the outbound caller ID:
 
@@ -89,7 +87,7 @@ For more information, see [configure caller ID policies](#configure-caller-id-po
 
 ## Inbound caller ID options
 
-Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Azure AD or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number isn't in Azure AD or a personal contact, the telco-provided display name will be shown if it's available.
+Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Microsoft Entra ID or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number isn't in Microsoft Entra ID or a personal contact, the telco-provided display name will be shown if it's available.
 
 The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
 

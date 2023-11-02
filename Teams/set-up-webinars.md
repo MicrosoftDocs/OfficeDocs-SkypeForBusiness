@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: justle, ritikag
-ms.date: 07/31/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,11 +26,15 @@ description: Learn how to set up and manage webinar policies for IT Admins in Te
 
 # Admin- Set up webinars in Microsoft Teams
 
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
+
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can set up and manage webinars, including managing webinar features.
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
+
+For more information on how to plan for webinars in your org, see [Plan for Teams meetings](plan-webinars.md)
 
 In addition to the base webinar features, we offer extra webinar functionality through the Teams Premium subscription.
 
@@ -125,12 +129,20 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 
 ## Related topics
 
-- [Manage the registration form for webinars](manage-registration-form-webinars.md)
-- [Manage email communications for webinars](manage-email-communications.md)
-- [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
-- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
-- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
+[Manage the registration form for webinars](manage-registration-form-webinars.md)
+
+[Manage email communications for webinars](manage-email-communications.md)
+
+[Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+
+[Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md)
+
+[New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+
+[Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+
+[Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+
+[Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+
+[Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)

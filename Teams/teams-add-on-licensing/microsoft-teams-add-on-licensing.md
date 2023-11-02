@@ -56,12 +56,12 @@ Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within you
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Teams Essentials with AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
+- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
   - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
   - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Buy a Teams Essentials with AAD, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
+- Buy a Teams Essentials with Microsoft Entra ID, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
   - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
   - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
@@ -81,7 +81,7 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 </thead>
 <tbody>
 <tr>
-<td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
+<td>Teams Essentials (Microsoft Entra ID) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
 <td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>

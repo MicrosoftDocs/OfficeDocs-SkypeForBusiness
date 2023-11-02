@@ -11,8 +11,8 @@ ms.collection:
   - m365solution-spcomms
   - m365solution-scenario
   - highpri
-ms.reviewer: 
-ms.date: 07/10/2018
+ms.reviewer: sachung, bryanyce
+ms.date: 10/31/2023
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content too large online audiences in Teams, Viva Engage, and Stream.
@@ -28,7 +28,8 @@ ms.localizationpriority: medium
 
 # What are Microsoft Teams live events
 
-## Overview
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
 With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
 
@@ -93,7 +94,6 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
-- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### Attendee experience
 

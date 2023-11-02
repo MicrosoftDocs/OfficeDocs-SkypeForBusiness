@@ -25,20 +25,19 @@ appliesto:
 
 # Manage the Microsoft Teams Exploratory license
 
-The Microsoft Teams Exploratory experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
+The Microsoft Teams Exploratory experience lets users in your organization who have Microsoft Entra ID and aren't licensed for Teams initiate an exploratory experience of Teams. Admins can switch this feature on or off for users in their organization.
 
 ## What's in the Teams Exploratory experience
 
 The service plans that an admin will see as part of the Teams Exploratory experience are:
 
 - Exchange Online (Plan 1)
-- Flow for Microsoft 365 or Office 365
-- Insights by MyAnalytics
+- Power Automate
+- Microsoft Viva Insights
 - Microsoft Forms (Plan E1)
 - Microsoft Planner
 - Microsoft Search
-- Microsoft StaffHub
-- Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs
+- Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs <sup>1</1>
 - Microsoft Teams
 - Mobile Device Management for Microsoft 365 or Office 365
 - Office Mobile Apps for Office 365
@@ -54,7 +53,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 
 Users fit the criteria for a Teams Exploratory experience if they:
 
-- Have a managed Azure AD domain email address.
+- Have a managed Microsoft Entra domain email address.
 - Belong to a tenant with a paid subscription.
 - Don't have an active Teams license.
 - Aren't in a tenant where a license assignment policy was created.
@@ -158,7 +157,7 @@ You must have admin privileges to move users from a Teams Exploratory license to
 If you have tenant-based organizational Teams Exploratory licenses, you can cancel users' Teams Exploratory licenses. For more information, see [Remove a Teams Exploratory license](#remove-a-teams-exploratory-license).
 
 > [!NOTE]
-> If the Teams Exploratory license ends and a user isn't immediately moved to a subscription that includes Teams, they lose access to Teams, OneDrive, and Sharepoint after a 30-day grace period. After another 30 days, the associated Teams, OneDrive, and SharePoint data is deleted. The user still exists in Azure Active Directory.
+> If the Teams Exploratory license ends and a user isn't immediately moved to a subscription that includes Teams, they lose access to Teams, OneDrive, and Sharepoint after a 30-day grace period. After another 30 days, the associated Teams, OneDrive, and SharePoint data is deleted. The user still exists in Microsoft Entra ID.
 >
 > Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
 
