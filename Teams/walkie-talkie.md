@@ -45,7 +45,7 @@ Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Of
 
 Walkie Talkie requires connectivity to the internet. Use the following guidance to set up your organization's network for Walkie Talkie:
 
-- Make sure that all endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users in your network.
+- Make sure that all endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users on your network.
 
 - Prepare your network:
 
