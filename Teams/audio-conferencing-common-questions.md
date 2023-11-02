@@ -1,8 +1,8 @@
 ---
 title: "Audio Conferencing common questions"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 11/28/2017
 ms.topic: conceptual
