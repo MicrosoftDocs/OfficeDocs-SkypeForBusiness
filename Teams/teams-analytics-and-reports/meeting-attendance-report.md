@@ -69,7 +69,6 @@ As an admin, you control whether organizers can view and download the attendance
     |:------|:-----|
     |Show everything|**This is the default.** Include attendees' join times, leave times, and in-meeting duration.|
     |Only show who attended|Excludes attendees' join times, leave times, and in-meeting duration.
-    |
 1. Select **Save**
 
 > [!NOTE]
