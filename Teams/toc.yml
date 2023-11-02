@@ -904,9 +904,6 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
             - name: Audio Conferencing Complimentary Dial Out Period
               href: complimentary-dial-out-period.md
-            - name: Videos - Audio Conferencing in Teams
-              href: ./audio-conferencing-in-office-365.md
-
 
 - name: Voice - Teams Phone and PSTN connectivity
   items: 
