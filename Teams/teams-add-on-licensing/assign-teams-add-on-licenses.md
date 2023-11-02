@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -64,58 +65,74 @@ Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign l
 
 Here's an example of how to use a script to assign licenses to your users.
 
-1. [Install the Microsoft Azure Active Directory module for Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+1. [Install the Microsoft Graph PowerShell Module](/powershell/microsoftgraph/installation).
 2. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where `CompanyName:License` is your organization name and the identifier for the license that you want to assign. For example, `litwareinc:MCOMEETADV`.
 
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is `MCOMEETADV`. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
 
-    ```powershell
-    #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
-    #Example of text file:''
-    #user1@domain.com
-    #user2@domain.com
-
-    #Import Module
-    ipmo MSOnline
-
-    #Authenticate to MSOLservice
-    Connect-MSOLService
-    #File prompt to select the userlist txt file
+```powershell
+    # Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
+    # Example of text file:
+    # user1@domain.com
+    # user2@domain.com
+    
+    # Import Module
+    Import-Module Microsoft.Graph.Users.Actions
+    
+    # Authenticate to Microsoft Graph
+    Connect-MgGraph
+    
+    # File prompt to select the userlist txt file
     [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-      $OFD = New-Object System.Windows.Forms.OpenFileDialog
-      $OFD.filter = "text files (*.*)| *.txt"
-      $OFD.ShowDialog() | Out-Null
-      $OFD.filename
-
+        $OFD = New-Object System.Windows.Forms.OpenFileDialog
+        $OFD.filter = "text files (*.*)| *.txt"
+        $OFD.ShowDialog() | Out-Null
+        $OFD.filename
+    
     If ($OFD.filename -eq '')
     {
     Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-
-    #Create a variable of all users
+    
+    # Create a variable of all users
     $users = Get-Content $OFD.filename
+    
+    # License each user in the $users variable
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq ''
+      $addLicenses = @(
+      @{SkuId = $EmsSku.SkuId}
+      )
 
-    #License each user in the $users variable
-    foreach ($user in $users)
-        {
-        Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        }
-    ```
+      foreach ($user in $users){
+      Write-host "Assigning License: $user"
+      Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -ErrorAction SilentlyContinue
+      }
+```
 
-    For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
+  For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
-      ```
+```powershell
+    Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
 
-    To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
+    $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'ENTERPRISEPACK'
+    $FlowSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOMEETADV'
+    $addLicenses = @(
+    @{SkuId = $EmsSku.SkuId},
+    @{SkuId = $FlowSku.SkuId}
+    )
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
-      ```
+    Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -RemoveLicenses @()
+```
+
+  To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
+
+  ```powershell
+      Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
+
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOTEAMS_ESSENTIALS'
+
+      Set-MgUserLicense -UserId $user -AddLicenses @() -RemoveLicenses @()
+  ```
 
 ## Product names and SKU identifiers for licensing
 
