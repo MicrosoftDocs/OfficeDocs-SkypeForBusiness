@@ -215,7 +215,8 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 ## Features currently not available in VDI 
 
-- All the features available in new Teams Windows client are supported on VDI except: 
+All the features available in new Teams Windows client are supported on VDI except: 
+
 - Multitenant Multi-Account (MTMA) 
 - Teams Premium features (E2EE, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations) 
 - Screen sharing from chat 
