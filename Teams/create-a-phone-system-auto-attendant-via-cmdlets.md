@@ -24,6 +24,7 @@ f1.keywords:
 ms.custom:
   - Phone System
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: Learn how to configure auto attendants via cmdlets
 ---
 
@@ -40,10 +41,10 @@ description: Learn how to configure auto attendants via cmdlets
      Install-Module -Name MicrosoftTeams -Force -AllowClobber
      ```
 
-   - MSOnline module installed
+   - Microsoft Graph module installed
 
      ```powershell
-     Install-Module -Name MSOnline -Force -AllowClobber
+     Install-Module -Name Microsoft.Graph -Force -AllowClobber
      ```
 
 2. You have tenant administration rights
@@ -88,7 +89,7 @@ You will be prompted to enter your Teams administrator credentials.
 ```PowerShell
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
-Connect-MsolService -Credential $credential
+Connect-MgGraph -Credential $credential
 ```
 
 ## Get Operator Information
@@ -106,7 +107,7 @@ $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type 
 ### Get license types
 
 ```PowerShell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
 ### Create and assign Resource Account
@@ -120,9 +121,9 @@ Get-MsolAccountSku
 ```PowerShell
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoDialByNameAA-RA@contoso.com -DisplayName "Contoso Dial By Name AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
-Set-MsolUser -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -UsageLocation US
 
-Set-MsolUserLicense -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+Set-MgUserLicense -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").Identity
 ```
@@ -150,7 +151,7 @@ $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this i
 ### Create Holiday Prompts and Menu Options
 
 ```PowerShell
-$christmasGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices ae currently closed for the Christmas holiday. Our Sales and Support teams will be happy to take your call on the next business day. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time. Thank you for calling Contso."
+$christmasGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices ae currently closed for the Christmas holiday. Our Sales and Support teams will be happy to take your call on the next business day. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time. Thank you for calling Contoso."
 
 $christmasMenuOption = New-CsAutoAttendantMenuOption -Action DisconnectCall -DtmfResponse Automatic
 
@@ -160,7 +161,7 @@ $christmasCallFlow = New-CsAutoAttendantCallFlow -Name "Christmas" -Greetings @(
 
 $christmasCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type Holiday -ScheduleId $christmasSchedule.Id -CallFlowId $christmasCallFlow.Id
 
-$newyearGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices ae currently closed for the New Year's holiday. Our Sales and Support teams will be happy to take your call on the next business day. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time. Thank you for calling Contso."
+$newyearGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices ae currently closed for the New Year's holiday. Our Sales and Support teams will be happy to take your call on the next business day. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time. Thank you for calling Contoso."
 
 $newyearMenuOption = New-CsAutoAttendantMenuOption -Action DisconnectCall -DtmfResponse Automatic
 
@@ -186,7 +187,7 @@ $afterHoursSchedule = New-CsOnlineSchedule -Name "After Hours Schedule" -WeeklyR
 ```PowerShell
 $afterHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices are now closed. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time."
 
-$afterHoursMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To leave a voicemail for our sales team press 1.To leave a message for our support team press 2.If you know the name of the person you would like to reach, press 3.For our address, email and fax information press 4."
+$afterHoursMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To leave a voicemail for our sales team press 1. To leave a message for our support team press 2. If you know the name of the person you would like to reach, press 3. For our address, email and fax information press 4."
 
 $afterHoursMenuOption1Target = (Get-Team -displayname "Sales").GroupID
 
@@ -200,7 +201,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity "ContosoDialByNameAA-RA@contso.com").Identity
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity "ContosoDialByNameAA-RA@contoso.com").Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -260,7 +261,7 @@ $autoAttendant = New-CsAutoAttendant -Name "Contoso Main" -DefaultCallFlow $open
 ### Get license types
 
 ```PowerShell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
 ### Create and assign Resource Account
@@ -272,9 +273,9 @@ Get-MsolAccountSku
 ```PowerShell
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoMainAA-RA@contoso.com -DisplayName "Contoso Main AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
-Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
-Set-MsolUserLicense -UserPrincipalName "ContosoMainAA-RA@contoso.com" -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+Set-MgUserLicense -UserPrincipalName "ContosoMainAA-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
@@ -290,7 +291,8 @@ Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContai
 ```
 
 #### Assign available phone number
-Note: Usage location assigned to the phone number must match the usage location assigned to the Resource Account.
+
+**Note:** Usage location assigned to the phone number must match the usage location assigned to the Resource Account.
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
@@ -311,7 +313,7 @@ $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID,
 ### Create Prompts and Menu Options
 
 ```PowerShell
-$dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9"
+$dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9."
 
 $dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
