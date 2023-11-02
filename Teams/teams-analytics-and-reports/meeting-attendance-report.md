@@ -48,6 +48,7 @@ As an admin, you control whether organizers can view and download the attendance
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you'd like to update. To create a new policy, select **Add**.
 1. Under **Meeting scheduling**, choose one of the following options for **Attendance and engagement report**:
+
     |Option|Behavior|
     |:------|:-----|
     |On, but organizers can turn it off|**This is the default.** Organizers with this policy can view and download the attendance and engagement reports for all meetings and events they create. They can also disable the attendance report in their meeting options.|
@@ -55,6 +56,7 @@ As an admin, you control whether organizers can view and download the attendance
     |On|Organizers with this policy can view and download the attendance and engagement report for all meetings and events they create; organizers can't turn off attendance and engagement reports.|
 
 1. For **Include attendees in the report**, choose one of the following options:
+
     |Option|Behavior|
     |:------|:-----|
     |Yes, but attendees can opt-out|**This is the default.** The attendance and engagement report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **Off** in their Teams privacy settings.|
@@ -62,6 +64,7 @@ As an admin, you control whether organizers can view and download the attendance
     |Always|The attendance and engagement report includes all attendees, and attendees can't opt out.|
     |Never|The attendance and engagement report excludes all attendees, and attendees can't opt out.|
 1. For **Attendance information**, choose one of the following options:
+
     |Option|Behavior|
     |:------|:-----|
     |Show everything|**This is the default.** Include attendees' join times, leave times, and in-meeting duration.|
