@@ -28,7 +28,7 @@ ms.date: 09/21/2023
 
 ## Overview of Walkie Talkie
 
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows users to connect with their team using the same underlying Teams channels they're members of.
+The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows users to connect with their team using the same underlying Teams channels they're members of.
 
 Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
@@ -43,14 +43,16 @@ Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Of
 
 ## Prepare your network
 
-Walkie Talkie requires connectivity to the internet. Make sure that the endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users in your organization's network.
+Walkie Talkie requires connectivity to the internet. Use the following guidance to set up your organization's network for Walkie Talkie:
 
-Use the following guidance to prepare your network:
+- Make sure that all endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users in your network.
 
-- [Prepare your organization's network for Teams](prepare-network.md)
-- [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
+- Prepare your network:
 
-Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
+  - [Prepare your organization's network for Teams](prepare-network.md)
+  - [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
+
+- Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
 
 ## Deploy Walkie Talkie
 
@@ -97,7 +99,7 @@ To learn more, including how the experience works with app policies that you set
 
 ## Network considerations
 
-Walkie Talkie in Teams requires internet connectivity. The following network conditions are required for an optimal experience.
+The following network conditions are required for an optimal experience.
 
 |Metric | Required |
 |---|---|
@@ -107,7 +109,7 @@ Walkie Talkie in Teams requires internet connectivity. The following network con
 
 As noted, the quality of real-time media over an IP network is greatly affected by the quality of the network connectivity, but especially by the amount of:
 
-- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
+- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is tied to the physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
 - **Inter-arrival jitter** - The average change in delay between successive packets.
 - **Packet loss** - Packet loss is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact, to back-to-back burst losses that cause complete audio cut-out.
 
