@@ -59,8 +59,8 @@ As an admin, you control whether organizers can view and download the attendance
 
     |Option|Behavior|
     |:------|:-----|
-    |Yes, but attendees can opt-out|**This is the default.** The attendance and engagement report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **Off** in their Teams privacy settings.|
-    |No, but attendees can opt-in|The attendance and engagement report initially excludes all attendees. To opt in, attendees can set the **Identify me in attendance reports** toggle to **On** or **Off** in their Teams privacy settings.|
+    |Yes, but attendees can opt out|**This is the default.** The attendance and engagement report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **Off** in their Teams privacy settings.|
+    |No, but attendees can opt in|The attendance and engagement report initially excludes all attendees. To opt in, attendees can set the **Identify me in attendance reports** toggle to **On** or **Off** in their Teams privacy settings.|
     |Always|The attendance and engagement report includes all attendees, and attendees can't opt out.|
     |Never|The attendance and engagement report excludes all attendees, and attendees can't opt out.|
 1. For **Attendance information**, choose one of the following options:
