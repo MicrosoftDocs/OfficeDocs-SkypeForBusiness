@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams information protection license report
 author: anandab-msft
-ms.author: anandab
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
