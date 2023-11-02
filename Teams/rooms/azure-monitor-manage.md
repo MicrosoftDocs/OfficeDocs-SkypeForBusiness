@@ -23,6 +23,9 @@ ms.custom: seo-marvel-apr2020
 
 # Monitor Microsoft Teams Rooms devices with Azure Monitor
 
+> [!IMPORTANT]
+> This feature is being deprecated and being replaced by functionality found in the Teams admin center and Teams Rooms Pro Management portal. See [Overview of the Teams Rooms Pro Management portal](../rooms/rooms-pro-management.md) for more information.
+
 This article discusses how to monitor Microsoft Teams Rooms in an integrated manner using Azure Monitor.
 
 [!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
