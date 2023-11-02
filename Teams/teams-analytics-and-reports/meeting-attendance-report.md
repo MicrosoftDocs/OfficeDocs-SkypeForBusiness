@@ -41,9 +41,9 @@ As an admin, you control whether organizers can view and download the attendance
 
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you'd like to update. To create a new policy, select **Add**.
 1. Under **Meeting scheduling**, choose one of the following options for **Attendance and engagement report**:
-    - **Everyone, unless organizers opt-out** - **This is the default.** Organizers with this policy can view and download the attendance and engagement reports for all meetings and events they create. However, they can also disable the attendance report in their meeting options.
-    - **No one** - Organizers with this policy can't view or download attendance and engagement reports for webinars, town halls, or meetings they've organized.
-    - **Everyone** - The attendance and engagement report is available to view and download for all webinars, town halls, and meetings organizers with this policy create; organizers can't turn off attendance and engagement reports.
+    - **On, but organizers can turn it off** - **This is the default.** Organizers with this policy can view and download the attendance and engagement reports for all meetings and events they create. They can also disable the attendance report in their meeting options.
+    - **Off** - Organizers with this policy can't view or download attendance and engagement reports for meetings and events they've organized.
+    - **On** - Organizers with this policy can view and download the attendance and engagement report for all meetings and events they create; organizers can't turn off attendance and engagement reports.
 
 1. For **Include attendees in the report**, choose one of the following options:
     - **Yes, but attendees can opt-out** -  **This is the default.** The attendance and engagement report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **off** in their Teams privacy settings.
@@ -86,7 +86,8 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identity
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
 - [Teams usage report](teams-usage-report.md)
-- [Manage who can schedule webinars](../set-up-webinars.md)
-- [Manage who can schedule town halls](../set-up-town-halls.md)
+- [Plan for webinars](../plan-webinars.md)
+- [Plan for town halls](../plan-town-halls.md)
+- [Plan for meetings](../plan-meetings.md)
 - [Teams policies reference - Meeting policies](../settings-policies-reference.md#meeting-policies)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
