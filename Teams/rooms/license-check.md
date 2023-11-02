@@ -5,7 +5,7 @@ author: tonysmit
 manager: serdars
 audience: ITPro
 ms.reviewer: kspiess
-ms.date: 1`1/02/2023
+ms.date: 11/02/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
