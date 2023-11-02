@@ -43,16 +43,16 @@ Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Of
 
 ## Prepare your network
 
-Walkie Talkie requires connectivity to the internet. Make sure that the endpoints listed for Teams in [Office 365 URLs and IP address ranges](microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users in your organization's network.
+Walkie Talkie requires connectivity to the internet. Make sure that the endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users in your organization's network.
 
-Use the following guidance to prepare your network and proxy servers:
+Use the following guidance to prepare your network:
 
 - [Prepare your organization's network for Teams](prepare-network.md)
 - [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
 
 Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
 
-## Deploying Walkie Talkie
+## Deploy Walkie Talkie
 
 You can deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
