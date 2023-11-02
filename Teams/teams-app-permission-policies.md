@@ -8,7 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 08/23/2023
+ms.date: 10/18/2023
+ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
 appliesto: 
@@ -128,6 +129,8 @@ After you unassign policies, you can review operation details in the [Activity l
 
 The following are a few considerations when using app permissions policies to grant access or to disallow access to apps:
 
+* Teams doesn't support group policy assignments for app permission policies.
+
 * App permission policies take effect only when you apply a policy to a user.
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect.
@@ -138,7 +141,7 @@ The following are a few considerations when using app permissions policies to gr
 
 * App setup policies work together with app permission policies. You select apps to pin in setup policy from a set of allowed apps. However, if a user has an app permission policy that blocks the use of a pinned app, then the user can't use the app.
 
-* App policies apply to users using any Teams on web, mobile, or desktop.
+* App policies apply to users using Teams on web, mobile, or desktop clients.
 
 ## Related articles
 

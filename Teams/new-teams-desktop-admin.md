@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/03/2023
+ms.date: 10/18/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -23,12 +23,17 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams desktop client 
 
+
+>[!Important]
+>We have updated the offical name of classic Teams as follows:</br>
+>- "**Microsoft Teams classic**" for Windows 10 and Mac devices.</br>
+>- "**Micrsoft Teams classic (work or school)**" for Windows 11 devices.
+
+
 > [!TIP]
->Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
->
->Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).
->
->Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
+>- Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)</br>
+>- Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).</br>
+>- Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
 
 ## What is the new Teams?
 
@@ -37,7 +42,7 @@ The new Teams desktop client for Windows has been reimagined from the ground up
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
 >[!Note]
->Ready to upgrade?  Follow these step by step instructions: [**Upgrade to new Teams using policies**](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)
+>See [What's features are changing?](new-teams-known-issues.md) to review some of the changes you will see.
 
 ## New Teams availability
 

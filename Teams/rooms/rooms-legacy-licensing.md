@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: sohailta
-ms.date: 09/30/2022
+ms.date: 10/10/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -44,7 +44,7 @@ The following licenses were available to customers who purchased Teams Rooms dev
 |Phone System|  &#x2714;|  &#x2714;|
 |Audio Conferencing|&#x2714; &sup1;|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|&#x2714;|  
-|Azure Active Directory P1|&#x2714;|&#x2714;| 
+|Microsoft Entra ID P1|&#x2714;|&#x2714;| 
 |Worldwide Availability | &#x2714; &sup2;| &#x2714; &sup2;|
 |Channel Availability | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
 |Managed Services | | &#x2714; &sup3;|
@@ -74,4 +74,3 @@ The following table lists the features available for Teams Rooms with the Teams 
  See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
 
  You can read [Set up common area phones for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing common area phones.
-

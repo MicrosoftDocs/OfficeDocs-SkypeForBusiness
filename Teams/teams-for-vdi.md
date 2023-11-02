@@ -1,14 +1,14 @@
 ---
-title: Teams for Virtualized Desktop Infrastructure
-author: MikePlumleyMSFT
-ms.author: mikeplum
+title: Classic Teams for Virtualized Desktop Infrastructure
+author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
-ms.date: 03/21/2019
+ms.date: 10/13/2023
 audience: admin
-description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
+description: Learn how to run classic Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -21,9 +21,12 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams for Virtualized Desktop Infrastructure
+# Classic Teams for Virtualized Desktop Infrastructure
 
-This article describes the requirements and limitations of using Microsoft Teams in a virtualized environment.
+>[!Important]
+>This article describes the requirements and limitations of using classic Microsoft Teams in a virtualized environment.
+>
+>To learn about new Teams for VDI, see: [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
 
 ## What is VDI?
 
