@@ -788,6 +788,26 @@ items:
                 href: hybrid-meetings-device-config-calendar.md
           - name: "Step 6 - Manage and monitor rooms and meetings"
             href: hybrid-meetings-manage.md
+    - name: Live events
+      items: 
+        - name: What are Teams live events?
+          href: teams-live-events/what-are-teams-live-events.md
+        - name: Plan for Teams live events
+          href: teams-live-events/plan-for-teams-live-events.md
+        - name: Set up for Teams live events
+          href: teams-live-events/set-up-for-teams-live-events.md
+        - name: Use PowerShell to set Teams live events policies
+          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+        - name: Configure Teams live events settings
+          href: teams-live-events/configure-teams-live-events.md
+        - name: Live events recording policies
+          href: teams-live-events/live-events-recording-policies.md
+        - name: Streaming overview
+          href: teams-stream-overview.md
+        - name: Configuration
+          href: teams-encoder-configuration.md
+        - name: Troubleshooting
+          href: teams-stream-troubleshooting.md
     - name: Audio conferencing
       items: 
         - name: Audio Conferencing in Microsoft 365
@@ -1828,27 +1848,6 @@ items:
       href: limits-specifications-teams.md            
     - name: Meeting templates reference
       href: predefined-meeting-template-reference.md
-
-    - name: Live events
-      items: 
-        - name: What are Teams live events?
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams live events
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Set up for Teams live events
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: Use PowerShell to set Teams live events policies
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Configure Teams live events settings
-          href: teams-live-events/configure-teams-live-events.md
-        - name: Live events recording policies
-          href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
-        - name: Configuration
-          href: teams-encoder-configuration.md
-        - name: Troubleshooting
-          href: teams-stream-troubleshooting.md
 
     - name: Licensing
       items: 
