@@ -1,8 +1,8 @@
 ---
 title: On-network Conferencing for Audio Conferencing
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 08/24/2020
 ms.topic: conceptual

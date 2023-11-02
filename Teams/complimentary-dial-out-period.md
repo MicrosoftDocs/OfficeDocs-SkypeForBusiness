@@ -1,8 +1,8 @@
 ---
 title: "Complimentary dial-out period"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: mikedav, OscarR
 ms.date: 11/28/2017
 ms.topic: conceptual
