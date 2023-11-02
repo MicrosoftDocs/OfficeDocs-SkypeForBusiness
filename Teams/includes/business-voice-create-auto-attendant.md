@@ -98,9 +98,9 @@ The required format to enter the extension in the user phone number field can be
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Example 1: Set-MgUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
-- Example 2: Set-MgUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
-- Example 3: Set-MgUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+- Example 1: Set-MgUser -UserPrincipalName usern@domain.com -BusinessPhones "+15555555678;ext=5678"
+- Example 2: Set-MgUser -UserPrincipalName usern@domain.com -BusinessPhones "+15555555678x5678"
+- Example 3: Set-MgUser -UserPrincipalName usern@domain.com -Extensions "x5678"
 
 You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
