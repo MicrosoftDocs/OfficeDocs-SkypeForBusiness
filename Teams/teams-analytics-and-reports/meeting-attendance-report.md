@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: richardzhang
-ms.date: 10/25/2023
+ms.date: 11/2/2023
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -29,9 +29,16 @@ appliesto:
 
 The attendance and engagement report for Teams meetings and events shows organizers who attended a meeting, webinar, or town hall, what time each attendee joined, left, and more.
 
-Organizers with a Teams Premium license can see engagement information that captures how attendees reacted and interacted during the meeting or event. The engagement data shows the total count of attendees that unmuted, turned on their cameras, raised their hands, used each type of meeting reaction, as well as the total of questions, answers, and discussions initiated by anyone through Q&A.
+Organizers with a Teams Premium license can see engagement information that captures how attendees reacted and interacted during the meeting or event.
+The engagement data shows the total count of attendees that performed the following actions:
 
-During the meeting or event, organizers can find the attendance and engagement report in the **People** > **Participants** pane of the meeting, in areas within the invite, and in the chat. After the meeting or event has ended, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+- Unmuted during the meeting or event
+- Turned on their cameras
+- Raised their hands
+- Used each type of meeting reaction
+- Initiated questions, answers, and discussions through Q&A.
+
+During the meeting or event, organizers can find the attendance and engagement report in the **People** > **Participants** pane of the meeting, in areas within the invite, and in the chat. After the meeting or event ends, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 For education tenants, the attendance and engagement report can be used to track student attendance and engagement in online classes. For example, a teacher can download the attendance report at the start of class as a simple way to do a roll call. If the teacher has a Teams Premium license, they can also see how many students reacted, raised their hand, unmuted, interacted with Q&A and turned on their cameras during the online class.
 
@@ -42,7 +49,7 @@ As an admin, you control whether organizers can view and download the attendance
 1. From the Teams admin center, go to **Meetings** > **Meeting policies** and choose the policy you'd like to update. To create a new policy, select **Add**.
 1. Under **Meeting scheduling**, choose one of the following options for **Attendance and engagement report**:
     - **On, but organizers can turn it off** - **This is the default.** Organizers with this policy can view and download the attendance and engagement reports for all meetings and events they create. They can also disable the attendance report in their meeting options.
-    - **Off** - Organizers with this policy can't view or download attendance and engagement reports for meetings and events they've organized.
+    - **Off** - Organizers with this policy can't view or download attendance and engagement reports for meetings and events they organize.
     - **On** - Organizers with this policy can view and download the attendance and engagement report for all meetings and events they create; organizers can't turn off attendance and engagement reports.
 
 1. For **Include attendees in the report**, choose one of the following options:
