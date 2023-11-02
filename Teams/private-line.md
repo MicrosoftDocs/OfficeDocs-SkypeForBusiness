@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Private telephone lines with Microsoft Teams
+# Private telephone lines in Microsoft Teams
 
 This article describes what you need to know to configure private lines for users in Microsoft Teams. A private line is a second phone number assigned to a user to allow them to make and receive calls from a different number than their primary line. Private lines are typically configured for executives who give out the number to only people they wish to receive direct communications from.
 
