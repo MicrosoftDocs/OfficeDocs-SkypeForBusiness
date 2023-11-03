@@ -94,7 +94,9 @@ items:
                 - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
                 - name: Update to the new Teams for Education
-                  href: new-teams-education.md                  
+                  href: new-teams-education.md
+                - name: Update to the new Teams for the Web
+                  href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
