@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Monitoring Reports with a mirror database in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -67,3 +68,4 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
 [Install Monitoring Reports in Skype for Business Server](install-monitoring-reports.md)
   
 [Using Monitoring Reports in Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)
+

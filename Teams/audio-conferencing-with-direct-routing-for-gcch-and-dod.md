@@ -4,12 +4,14 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 07/12/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

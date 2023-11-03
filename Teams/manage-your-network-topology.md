@@ -4,6 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
+ms.date: 11/11/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +13,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 - highpri
+- Tier1
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.networktopology.overview
@@ -27,6 +29,9 @@ description: Learn how to configure network settings for cloud voice features in
 If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or [dynamic emergency calling](configure-dynamic-emergency-calling.md), you must configure network settings for use with these cloud voice features in Microsoft Teams. Network settings are used to determine the location of a Teams client and include network regions, network sites, subnets, and trusted IP addresses. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
+
+> [!NOTE]
+> Network configuration data may be used across Microsoft 365 services to provide additional services your organization has subscribed to.
 
 ## Configure network settings in the Microsoft Teams admin center
 

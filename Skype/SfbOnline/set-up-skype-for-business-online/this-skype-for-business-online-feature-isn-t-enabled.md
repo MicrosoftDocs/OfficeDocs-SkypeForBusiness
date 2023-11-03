@@ -1,4 +1,5 @@
 ---
+ms.date: 11/28/2017
 title: "This Skype for Business Online feature isn't enabled"
 ms.reviewer: 
 ms.author: tonysmit
@@ -42,3 +43,4 @@ Sorry, it looks like the user isn't licensed for this feature.
 
   
  
+

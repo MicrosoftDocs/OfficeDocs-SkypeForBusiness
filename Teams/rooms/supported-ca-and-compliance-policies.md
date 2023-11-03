@@ -1,17 +1,20 @@
 ---
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
-ms.reviewer: kspiess
+ms.author: tonysmit
+author: tonysmit
+ms.reviewer: altsou
+ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-f1.keywords: 
+ms.subservice: itpro-rooms
+f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
@@ -24,7 +27,7 @@ This article provides supported Conditional Access and Intune device compliance 
 > [!NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven't deployed Teams Rooms yet,
-see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
+see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
@@ -47,12 +50,27 @@ The following list includes the supported Conditional Access policies for Teams 
 | Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
 | Require multi-factor authentication      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Supported                                                                                                                                                            |
+| Require authentication strength      | Not supported   | Not Supported                                                                                                                                                                         | Not supported 
 | Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Require Hybrid Azure AD joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Require Microsoft Entra hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require approved client app              | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require app protection policy            | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                       
+| **Sessions**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                      
+| Use app enforced restrictions      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not Supported                                                                                                                                                            |
+| Use Conditional Access App Control      | Not supported   | Not Supported                                                                                                                                                                         | Not supported 
+| Sign-in frequency | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
+| Persistent browser session    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Customize conditional access evaluation          | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Disable resiliency defaults          | Not supported                        | Not supported                                                                                                                                                 | Not supported 
+| Require token protection for sign-in sessions (Preview)         | Not supported                      | Not supported                                                                                                                                                   | Not supported 
 
+> [!NOTE]
+> Using Conditional Access policies with Sign-in frequency configured, will make all Teams Android devices periodicly sign out.  This is expected behavior.
+> 
+> [!NOTE]
+> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policys that will affect all Teams Devices.
+> 
 > [!NOTE]
 > Skype for Business Online is retired and not supported. Skype for
 Business Online cloud app is not supported for device compliance based

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Statistics Manager for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -179,3 +180,4 @@ For more information, see the following:
 - [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
 
 - [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
+

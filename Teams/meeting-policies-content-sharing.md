@@ -1,98 +1,66 @@
 ---
 title: Manage meeting policies for content sharing
-ms.author: mabond
-author: mkbond007
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua, shalenc
+ms.reviewer: 
+ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - Tier2
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.contentsharing
-  - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams for content sharing.
 ---
 
+# Manage meeting policies for content sharing
 
-# Meeting policy settings - Content sharing
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-<a name="bkcontentsharing"> </a>
+Content sharing settings control how users present a screen or app during a chat, meeting, webinar, or town hall. You can configure admin settings for screen sharing mode, PowerPoint sharing, whiteboard, and shared notes. (For information about how to manage who can present and who can request control, see [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md).)
 
-This article describes the following meeting policy settings related to content sharing:
+For town halls, only presenters, organizers, and co-organizers can use shared notes and screen sharing.
 
-- [Screen sharing mode](#screen-sharing-mode)
-- [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
-- [External participants can give or request control](#external-participants-can-give-or-request-control)
-- [PowerPoint Live](#powerpoint-live)
-- [Whiteboard](#whiteboard)
-- [Shared notes](#shared-notes)
+> [!NOTE]
+> Meeting policies for content sharing also apply to webinars and town halls.
+
+To change a content sharing setting
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+1. Select the policy that you want to edit.
+1. Scroll to the **Content sharing** section.
+1. Select the settings you want to use (described in the following sections).
+1. Select **Save**.
+
+#### Use PowerShell to configure content sharing
+
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
+
+- ScreenSharingMode
+- AllowPowerPointSharing
+- AllowWhiteboard
+- AllowSharedNotes
+
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## Screen sharing mode
 
-This setting is a combination of a per-organizer and per-user policies. This setting controls whether desktop and window sharing is allowed in the user's meeting. Meeting participants who don't have any policies assigned (for example, external participants) inherit the policy of the meeting organizer.
+This setting is a per-user policy. The setting controls whether a user can share a desktop and window in a Teams meeting.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting |
-|**Single application**   | Application sharing is allowed in the meeting        |
-|**Disabled**     |Screen sharing and application sharing turned off in the meeting.       |
-
-Let's look at the following example.
-
-|User |Meeting policy |Screen sharing mode |
-|---------|---------|---------|
-|Daniela  | Global   | Entire screen |
-|Amanda   | Location1MeetingPolicy  | Disabled |
-
-Meetings hosted by Daniela allow meeting participants to share their entire screen or a specific application. If Amanda joins Daniela's meeting, Amanda can't share her screen or a specific application as her policy setting is disabled. In meetings hosted by Amanda, no one is allowed to share their screen or a single application, regardless of the screen sharing mode policy assigned to them.  Consequently, Daniela can't share her screen or a single application in Amanda's meetings.  
-
-Currently, users can't play video or share their screen in a Teams meeting if they're using Google Chrome.
-
-## Allow a participant to give or request control
-
-This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
-
-If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
-
-![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
-
-If the setting is turned off for the user, the **Give Control** option isn't available.
-
-![Screenshot showing that the Give Control option is not available.](media/meeting-policies-give-control-not-available.png)
-
-Let's look at the following example.
-
-|User |Meeting policy  |Allow participant to give or request control |
-|---------|---------|---------|
-|Daniela   | Global   | On       |
-|Babek    | Location1MeetingPolicy        | Off   |
-
-Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek. However, Babek can't give control to other participants.
-
-To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
-
-> [!NOTE]
-> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
-
-## External participants can give or request control
-
-This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies. External participants in Teams meetings can be categorized as follows:  
-
-- Anonymous participant
-- Guests
-- External access users
-
-Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization.
-
-To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
+|**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting. |
+|**Single application**   | Application sharing is allowed in the meeting. If your users are using Teams in a web browser and are assigned this value, this setting functions as **Not enabled**.  |
+|**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
 
 ### PowerPoint Live
 
@@ -105,11 +73,19 @@ Let's look at the following example.
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
-Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
+Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if Amanda organizes the meeting . Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
 ## Whiteboard
 
-This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
+Microsoft Whiteboard is a free-form, digital canvas where people, content, and ideas come together. Whiteboard integration in Microsoft Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
+
+Users can share a whiteboard to make it available to all participants in a Teams meeting. That same whiteboard is simultaneously available in all the Whiteboard applications on Windows 10, iOS, and the web app.
+
+To turn the Whiteboard app on or off, see [Enable Microsoft Whiteboard for your organization](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Keep in mind that this setting enables or disables Whiteboard for your entire organization, and not just for Teams.
+
+Whiteboards are created in the OneDrive of the person who starts the whiteboard. For more information, see [Manage data for Microsoft Whiteboard](/microsoft-365/whiteboard/manage-data-organizations).
+
+The Whiteboard setting for Teams meetings is a per-user setting. This setting controls whether a user can share the whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
@@ -118,13 +94,38 @@ Let's look at the following example.
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
-Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.
+Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if Amanda organizes a meeting.
 
-To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+To enable Whiteboard using PowerShell, set the IsWBFluidEnabled cmdlet to $true from [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
 
-### Annotation
+For information for your end users about how to use Whiteboard, see [Use Whiteboard in Microsoft Teams](https://support.office.com/article/7a6e7218-e9dc-4ccc-89aa-b1a0bb9c31ee).
 
-When whiteboard is enabled, your users will have the option to use [annotation](/office/use-annotation-while-sharing-your-screen-in-teams), a feature that allows participants to  collaborate while sharing their screen in a Teams meeting. If whiteboard is disabled, users will not have access to annotation.
+#### Whiteboard on Surface Hub
+
+Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is installed on your Surface Hub device. If Whiteboard isn't installed, on the Surface Hub device, go to the Microsoft Store app, and get [Microsoft Whiteboard](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, see [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+
+#### Annotations
+
+When whiteboard is enabled, users can use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard isn't enabled, users don't have access to annotations.
+
+Use the following to turn on/off collaborative annotations:
+
+```powershell
+Set-SPOTenant -IsWBFluidEnabled
+```
+
+> [!NOTE]
+> This will also turn on/off Whiteboard in meetings.
+
+The admin policy for collaborative annotations is a user-level policy and following are its details:
+
+  - **Policy name**: CSTeamsMeetingPolicy
+  
+  - **Setting name**: AllowCollaborativeAnnotations
+
+  - **Setting type**: ENUM true/false
+
+The admin can either run the PowerShell syntax above or turn on/off the policy in the Teams admin center through **Meetings** > **Meeting policies** > **Collaborative Annotations**.
 
 ## Shared notes
 
@@ -139,11 +140,10 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-
-
-
 ## Related topics
 
-- [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
+[Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
+
+[Teams PowerShell overview](teams-powershell-overview.md)
+
+[Assign policies to your users in Teams](policy-assignment-overview.md)

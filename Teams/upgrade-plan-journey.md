@@ -1,11 +1,12 @@
 ---
 title: Plan for your Skype for Business to Microsoft Teams upgrade
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
+ms.date: 04/26/2018
 audience: admin
 description: Learn about how to plan for your upgrade by enlisting stakeholders, and then scoping the project.
 ms.localizationpriority: medium

@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: Download and install the Skype for Business Online Connector module
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -44,3 +45,4 @@ description: Download, install, and then use the Skype for Business Online Conne
   
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+

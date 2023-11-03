@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync: E-911 services"
 ms.author: serdars
 author: msdmaguire
@@ -50,3 +51,4 @@ Learn more about E911 services here: [Emergency Services (E9-1-1)](/previous-ver
 |Audiocodes|Mediant Gateway & SBA version 6.4|
 |Sonus |SBC 1000 & SBC 2000|
 ||
+

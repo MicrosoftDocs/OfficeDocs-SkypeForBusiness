@@ -1,6 +1,7 @@
 ---
+ms.date: 11/28/2017
 title: "Dialing out from a Skype for Business meeting so other people can join it"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -62,3 +63,4 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 ## Related topics
 
 [Install Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+

@@ -4,6 +4,7 @@ ms.author: mabond
 author: mkbond007
 manager: serdars
 ms.reviewer: sekrantz, aaglick
+ms.date: 06/20/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,7 +27,7 @@ description: Learn how to use, manage, and customize policy packages in Microsof
 
 # Managing policy packages in Teams
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
@@ -47,6 +48,12 @@ Policy packages support the following Teams policy types:
 - App setup policy
 - Calling policy
 - Live events policy
+- Call park policy
+- Teams policy
+- Voice routing policy
+- Caller ID policy
+- Update policy
+- Events policy
 
 ## Policy packages included in Teams
 
@@ -138,6 +145,10 @@ You can edit the settings of a policy through the **Policy packages** page or by
 ### Assign a policy package
 
 You can assign a policy package to an individual user, a group, or a batch of users. For more information on how to assign policy packages, see [Assign policy packages to users and groups](assign-policy-packages.md).
+
+This video is about managing policy packages.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbO?autoplay=false]
 
 ## Related topics
 

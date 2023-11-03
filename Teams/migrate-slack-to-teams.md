@@ -3,10 +3,13 @@ title: Migrate from Slack to Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: brandber
+ms.date: 10/14/2019
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.custom: chat-teams-channels-revamp
+ms.custom:
+  - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
 ms.collection: 
   - M365-collaboration
   - m365initiative-migratetom365
@@ -86,7 +89,7 @@ The identity schemes you used in Slack might not map directly to Microsoft 365 o
 
 If you’re on a paid Slack service plan, you can go to *\<your Slack workspace\>.slack.com/admin/stats#members* to get member details such as email address and account type for each user (for example, single vs. multi-channel guest).
 
-Here’s a script you can use to compare email addresses from a Slack export against Azure AD to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
+Here’s a script you can use to compare email addresses from a Slack export against Microsoft Entra ID to help solve for name ambiguity. It’ll also report if the user is enabled for Teams. If you need help with PowerShell, read [Get started with Azure PowerShell](/powershell/azure/get-started-azureps).
 
 ```azurepowershell
 Connect-AzureAD

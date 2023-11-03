@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Configuring federation support for a Skype for Business Online customer'
 ms.reviewer: 
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
@@ -96,3 +97,4 @@ To enable Skype for Business users in your organization to communicate with user
 - Configured your user accounts to support federation. For details, see [Configure user access for federation with a Skype for Business Online customer](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
 
 After you complete all of these steps and the administrator of the Skype for Business Online customer completes all configuration of their online services to support federation with your organization, verify communications by testing communications between an internal user in your organization and a user of the Skype for Business Online customer. If communication is not successful, use the Logging Tool from your Edge Server to capture log and trace files in order to troubleshoot the problem.
+

@@ -1,8 +1,8 @@
 ---
 title: Plan for Operator Connect Conferencing
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,9 @@ audience: admin
 ms.collection: 
   - M365-voice
   - m365initiative-voice
+  - m365initiative-meetings
   - highpri
+  - Tier1
 ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
@@ -69,7 +71,7 @@ Operator Connect Conferencing might be the right solution for your organization 
 
 - **Microsoft Audio Conferencing isn't available in your geographic location**
 
-- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries not included in your subscription
+- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries/regions not included in your subscription
 
 ## Licensing requirements and billing
 

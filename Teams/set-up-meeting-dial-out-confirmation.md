@@ -1,9 +1,10 @@
 ---
 title: Set up meeting dial-out-confirmation for your users in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
-manager: serdars
+ms.date: 09/26/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -11,7 +12,8 @@ search.appverid: MET150
 description: Learn how to set up Teams to request a dial-out confirmation to prevent voicemail systems from connecting to meetings when the called person is unable to answer the call.
 ms.localizationpriority: medium
 ms.collection: 
-  - M365-voice
+  - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

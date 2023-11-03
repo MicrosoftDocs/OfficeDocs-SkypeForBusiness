@@ -4,12 +4,14 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: oscarr
+ms.date: 03/08/2019
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -19,14 +21,14 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Learn how to set up holidays in Microsoft Teams for use with your auto attendants.
+description: Learn how to set up holidays in Microsoft Teams for use with your Auto attendants.
 ---
 
 # Set up holidays in Microsoft Teams
 
-You can use the Teams Holidays feature to provide alternate messages and routing to callers for specific dates and times when departments, call queues or people in your organization will be following different working hours or won't be available. For example, you might create a holiday for New Year's day when your organization may be closed.
+You can use the Teams Holidays feature to provide alternate messages and routing to callers for specific dates and times when departments, Call queues or people in your organization will be following different working hours or won't be available. For example, you might create a holiday for New Year's day when your organization may be closed.
 
-The holidays you create here are available when you [set up an auto attendant](create-a-phone-system-auto-attendant.md), each with its own greeting and call routing settings.
+The holidays you create here are available when you [set up an Auto attendant](create-a-phone-system-auto-attendant.md), each with its own greeting and call routing settings.
 
 ## Create a holiday
 
@@ -51,7 +53,7 @@ To create a holiday
    > [!NOTE]
    > If the holiday is for one full day (i.e., a 24 hour period), the **End time** should be set to the next day and the time to 12:00 AM. For example, if your organization is closed on January 1 for New Year's day, set the **Start time** to January 1 12:00 AM and set the **End time** to January 2 @ 12:00 AM.
 
-9. Optionally, add more dates for recurring holidays. Up to 10 separate date ranges can be added to a single holiday.  
+9. Optionally, add more dates for recurring holidays. Up to 50 separate date ranges can be added to a single holiday.  
 
 10. Select **Save**.
 
@@ -77,4 +79,4 @@ To change a holiday
 
 ## Related topics
 
-[Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)?
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)?

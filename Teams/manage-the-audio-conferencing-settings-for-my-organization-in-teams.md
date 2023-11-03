@@ -1,9 +1,10 @@
 ---
 title: Manage Audio Conferencing settings
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
+ms.date: 08/14/2018
 ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
@@ -12,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -21,7 +24,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings.
+description: See Microsoft Teams steps to assign a dial-in conferencing license to a user and many other dial-in conferencing settings.
 ---
 
 # Manage the Audio Conferencing settings for your organization in Microsoft Teams
@@ -67,18 +70,6 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ### Enable or disable using Windows PowerShell
 
 See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-  
-## Reset the meeting conference ID
-
-### Reset the meeting conference ID using the Microsoft Teams admin center
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. Under **Audio Conferencing**, click **Reset conference ID**.  
-
-3. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
-
-See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
 
 ## Reset a conference organizer's PIN
 
@@ -161,7 +152,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 
     You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.
 
-    If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
+    If you do this, an email will be sent that only includes the conference phone number, but the PIN won't be included.
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
 
@@ -190,6 +181,29 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
    - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
 
 See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+
+## Setting audio conferencing dial-in numbers in PowerShell
+
+You can set a user's audio conferencing toll and toll-free number in PowerShell.
+
+1. Connect to the Microsoft Teams service.
+
+```powershell
+PS C:\> Connect-MicrosoftTeams
+```
+2. Assign a toll number to a user (for example, assign the toll number +612 800 0000 to sarah@contoso.com).
+
+```powershell
+PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
+```
+
+3. Optional: assign a toll-free number to a user (for example, assign the toll-free number +61 1800 000 000 to sarah@contoso.com).
+
+```powershell
+PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 61280001234
+```
+> [!NOTE]
+> You can only assign toll or toll-free numbers that are registered within your tenant. 
 
 ## Want to know more about Windows PowerShell?
 

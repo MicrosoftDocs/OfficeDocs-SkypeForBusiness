@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync - IP PBXs"
 ms.author: serdars
 author: msdmaguire
@@ -317,3 +318,4 @@ Microsoft has done sufficient internal testing to identity specific, supported c
 </table>
 
 For more information on Direct SIP Configurations with Lync Server, see: [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).
+

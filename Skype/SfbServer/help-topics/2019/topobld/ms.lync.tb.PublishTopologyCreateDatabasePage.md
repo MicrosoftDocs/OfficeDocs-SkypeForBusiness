@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Create Database"
 ms.reviewer: 
 ms.author: serdars
@@ -38,3 +39,4 @@ Topology Builder provides a way to install databases on a SQL Server store. When
 5. On the **Create Database** page, click **Next**.
     
 6. On the **Database Creation Complete** page, click **Finish**.
+

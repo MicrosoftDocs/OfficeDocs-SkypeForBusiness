@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SQL Store Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -37,4 +38,5 @@ To change the instance of SQL Server that is used by any database other than the
     
 When you are working in the **Edit Properties** dialog box, Topology Builder will not verify that the database instance that you have entered is a valid instance. For example, if you inadvertently typeArchivingInstanec as the instance name and then click **OK**, Topology Builder will accept that invalid instance. Before you can publish this topology, you must correct this mistake: if a SQL Server instance cannot be found, Topology Builder will not create that instance for you.
   
+
 

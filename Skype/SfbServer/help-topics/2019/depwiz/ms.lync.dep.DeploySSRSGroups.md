@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SQL Server Reporting Services (Groups)"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ In the **Specify Read-Only Group**, specify the group to whom you want to grant 
   
 Assigning a group read-only access is optional. If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.
   
+
 

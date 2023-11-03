@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Quality of Experience (QoE) in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -35,3 +36,4 @@ Quality of Experience (QoE) records numeric data that indicates the media qualit
 ## See also
 
 [Configure call detail recording and Quality of Experience settings in Skype for Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Persistent Chat Scope Node"
 ms.reviewer: 
 ms.author: serdars

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Local Configuration Store Invoke (Configure)"
 ms.reviewer: 
 ms.author: serdars
@@ -28,4 +29,5 @@ If you are installing a replica of the Central Management store on an Edge Serve
   
 After you have selected the appropriate option, click **Next**.
   
+
 

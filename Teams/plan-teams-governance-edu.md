@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
 ms.localizationpriority: medium
@@ -14,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - tier2
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -33,7 +35,7 @@ To avoid inappropriate or misleading names, or just to provide more structure fo
 - **Classification** You can create classifications that the users in your organization can set when they create a Microsoft 365 Group.
 
 > [!IMPORTANT]
-> Using the Microsoft 365 Groups Naming Policy requires Azure Active Directory Premium P1 licenses or Azure AD Basic EDU licenses for each unique user that is a member of one or more Microsoft 365 groups.
+> Using the Microsoft 365 Groups Naming Policy requires Microsoft Entra ID P1 licenses or Microsoft Entra Basic EDU licenses for each unique user that is a member of one or more Microsoft 365 groups.
 
 For detailed instructions, see [Office groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
@@ -73,7 +75,7 @@ We recommend that you first think about how you want to handle Teams data when t
 - **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (preview)](/graph/api/resources/teams-api-overview) to archive or restore a team.
 
 > [!IMPORTANT]
-> Using the Microsoft 365 Groups Expiration Policy requires Azure Active Directory Premium P1 licenses for each unique user that is a member of one or more Microsoft 365 groups.
+> Using the Microsoft 365 Groups Expiration Policy requires Microsoft Entra ID P1 licenses for each unique user that is a member of one or more Microsoft 365 groups.
 
 ## Are there team templates for my faculty members to use when creating a team?
 

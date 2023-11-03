@@ -1,11 +1,11 @@
 ---
 title: "Manage the Bookings app in Microsoft Teams"
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: ITPro
-ms.topic: how-to 
-ms.service: msteams 
+ms.topic: conceptual
+ms.service: bookings 
 search.appverid: 
 searchScope:
   - Microsoft Teams
@@ -20,16 +20,20 @@ ms.collection:
   - m365solution-healthcare
   - m365solution-scenario
   - m365-frontline
-  - tier2
+  - teams-1p-app-admin
   - highpri
   - m365initiative-meetings
-ms.reviewer: 
+  - m365-virtual-appointments 
+ms.reviewer: revathim
+ms.date: 03/23/2023
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For example, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual Appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-appointments).
+## Overview of Bookings
+
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For example, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [What is Bookings?](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Teams meetings that offer robust videoconferencing capabilities.
 
@@ -53,24 +57,24 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 
 ## Recommended meeting policy settings
 
-To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **Everyone in your organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [how to automatically admit people to meetings](meeting-policies-participants-and-guests.md#automatically-admit-people).
+To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **People in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [who can bypass the lobby to meetings](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
 
 For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
 
 ## SMS text notifications
 
-![Information icon](media/info.png) **This feature is moving to [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (Preview). Users can continue using this feature during the preview period. After the preview, users need a Teams Premium license.**
+![Information icon](media/info.png) **This feature is now part of [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).**
 
-> [!NOTE]
-> We'll be providing unlimited SMS notifications through March 1, 2023 (previously January 31, 2023) for customers with Bookings licenses. As we get closer to the end of the promotion period, we'll provide additional details on licensing requirements. Contact your account team or support to receive pricing details after the promotion period.
+SMS text notifications are currently available in Canada, the United Kingdom, and the United States.
 
 You can control whether SMS text notifications can be sent to external attendees for virtual appointments scheduled by your staff in your organization.
 
-By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in [scheduled appointment types](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) and scheduled individual appointments.
+By default, this setting is on, and SMS text notifications are enabled for all Bookings calendars in your organization. Keep in mind that Bookings admins and schedulers can later choose to turn off or turn on SMS notifications on an as-needed basis in scheduled appointment types and scheduled individual appointments.
 
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
 Learn more about how to [configure SMS text notifications for your organization](/microsoft-365/bookings/turn-bookings-on-or-off).
+Use the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) to understand how your organization is using SMS notifications.
 
 ## Optional staff approvals setting
 
@@ -84,7 +88,7 @@ Learn more about [how to configure the staff approvals setting](/microsoft-365/b
 
 ## Changing your default domain when setting up a Bookings mailbox
 
-When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain may cause problems when sending meeting invites to external recipients. For example, your invite may get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
+When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain might cause problems when sending meeting invites to external recipients. For example, your invite might get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
 We recommend that you change the default domain before you create your Bookings mailbox. See [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
@@ -99,15 +103,9 @@ To learn more, see [Set Mailbox](/powershell/module/exchange/mailboxes/set-mailb
 > [!NOTE]
 > If you're using an Exchange hybrid configuration, we recommend that you thoroughly test mail flow between on-premises Exchange and Exchange Online when changing the default domain.
 
-## Send feedback
+## Give feedback or report an issue
 
-We welcome your feedback on:
-
-* User experience or ease of use
-* Feature gaps or missing functionality
-* Bugs or issues
-  
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem** for **ALL** issues. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
+To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
 
 ## Related articles
 

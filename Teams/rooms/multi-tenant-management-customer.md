@@ -8,10 +8,12 @@ ms.date: 06/09/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
+  - Tier3
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -123,13 +125,13 @@ As the end customer, you retain control over access to your data and can complet
 
 With the delegated access feature, a partner does not gain any other privileges outside of the Pro Management portal. However, any data present in the Pro Management service derived from other Microsoft products is considered data in the service. As an example, while call quality reports are derived from Teams call quality data, any data in the Pro Management portal is in the permission scope. 
 
-No permissions are granted to AAD or the Teams Admin Center or any other Microsoft product. Furthermore, partners do not have any access to view or modify rooms not defined in the invitation scope. 
+No permissions are granted to Microsoft Entra ID or the Teams Admin Center or any other Microsoft product. Furthermore, partners do not have any access to view or modify rooms not defined in the invitation scope. 
 
 Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
 
-The MTM portal uses Azure AD authentication to validate the login credentials of the partner. Note that at this time, the customer’s authentication policies do not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner. 
+The MTM portal uses Microsoft Entra authentication to validate the login credentials of the partner. Note that at this time, the customer’s authentication policies do not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner. 
 
 To pull logs on partner activity, see [Auditing](multi-tenant-auditing.md). 
 
 > [!NOTE]
-> AAD auditing and O365 auditing do not capture logs from the Pro Management portal. 
+> Microsoft Entra auditing and O365 auditing do not capture logs from the Pro Management portal. 

@@ -1,12 +1,14 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
-author: dstrome
-ms.author: dstrome
+author: tonysmit
+ms.author: tonysmit
 ms.reviewer: parisataheri
+ms.date: 03/29/2021
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: itpro-rooms
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ms.localizationpriority: medium
@@ -14,7 +16,8 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ---
@@ -37,26 +40,23 @@ The following items are Intelligent Speaker requirements:
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
-Epos, Sennheiser, and Yealink intelligent speakers are supported.
+Epos, Jabra, Sennheiser, and Yealink Intelligent Speakers are supported.
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console.
-
-> [!NOTE]
-> A Yealink Intelligent Speaker **must** be used with a Yealink console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console or compute module.
 
 > [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
-An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
+An Intelligent Speaker that is of a speakerphone design should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
-   You can also do this through the TAC portal instead of at the room console.
+   You can also do this through the Microsoft Teams admin center (TAC) portal instead of at the room console.
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
@@ -68,10 +68,14 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 > [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
+> The Jabra Panacast 50 connects directly to the Microsoft Teams Rooms compute module and not the center of table console. For the Jabra PanaCast 50, make sure you set the Playback Device Type to Microsoft Teams Rooms device. After restarting the Jabra PanaCast 50 you should see devices with "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name.
 
 ## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+
+> [!NOTE]
+> If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
 
 The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
@@ -104,8 +108,6 @@ General retention policy is stated in the [Data retention overview](/compliance/
 **Is voice profile data used across Microsoft services?**
 
 No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
-
-For example, Microsoft won't use the data in the following situations:
 
 **Is my voice profile data used when I join a meeting in another organization?**
 

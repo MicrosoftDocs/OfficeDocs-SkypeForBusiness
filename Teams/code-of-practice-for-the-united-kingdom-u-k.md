@@ -3,13 +3,16 @@ title: "Code of practice for U.K. - Microsoft 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, allancar
+ms.reviewer: mikedav
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Qualified Lync applications: Billing and enhanced reporting applications"
 ms.author: serdars
 author: msdmaguire
@@ -186,7 +187,7 @@ tigercomms.com
 
 Scalable from 100 to 100,000+ extensions, Tiger 2020 Pro, is a centralized billing and reporting platform for Lync 2013, empowering customers to measure and manage fixed line and mobile networks.
 
-Incorporating powerful Active Directory integration, rich multi-lingual graphical user interfaces, flexible multi-country billing tariffs and customizable reporting facilities, it enables customers to monitor and control network capacity, areas of over and under-utilization, and staff performance. Further cost savings can be identified through assessment of actual versus alternative carrier pricing. A Silverlight web interface allows secure access for all users and administrators network-wide.
+Incorporating powerful Active Directory integration, rich multi-lingual graphical user interfaces, flexible multi-country/region billing tariffs and customizable reporting facilities, it enables customers to monitor and control network capacity, areas of over and under-utilization, and staff performance. Further cost savings can be identified through assessment of actual versus alternative carrier pricing. A Silverlight web interface allows secure access for all users and administrators network-wide.
 
 Options include integration to Financial Systems and Data Warehouses via standard or customized interfaces and Voice Network Security for pro-active call alerting to fraudulent activity and unusual traffic patterns.
 
@@ -224,4 +225,5 @@ PowerView is a comprehensive reporting and billing solution for Lync that enable
 PowerView includes a scalable data warehouse that produces rich reports on the operation and management of Lync Server across an entire deployment over an unlimited period of time. Instant Messaging, voice, application sharing, audio and video conferencing, are all tracked and reported.
 
 Administrators can drill down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
+
 

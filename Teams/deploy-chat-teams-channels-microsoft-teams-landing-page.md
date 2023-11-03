@@ -1,6 +1,7 @@
 ---
 title: Chat, teams, channels, & apps in Microsoft Teams
 ms.reviewer: 
+ms.date: 10/30/2018
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -37,7 +38,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [Teams apps](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+> We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.
 
  > [!Note]
  > For details about Teams features on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -144,13 +145,13 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 
 |Ask yourself|Action |
 |------------|-------|
-|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory.|
+|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Microsoft Entra ID.|
 
 ### Teams default apps
 
 Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
-To learn more about rolling out and managing apps in Teams, see our in-depth [app management](deploy-apps-microsoft-teams-landing-page.md) guidance.
+To learn more about rolling out and managing apps in Teams, see our in-depth [app management](apps-in-teams.md) guidance.
 
 ## Additional deployment decisions
 
@@ -190,12 +191,12 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 ### Governance (naming conventions, who can create teams)
 
-Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
+Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Microsoft Entra ID to configure each of these areas.
 
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 Groups in Azure AD](/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 Groups in Microsoft Entra ID](/azure/active-directory/users-groups-roles/groups-naming-policy).|
 
 ### Teams application policy (side-rail control)
 
@@ -222,7 +223,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Microsoft Entra Conditional Access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Microsoft Entra Conditional Access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
 ### Education (EDU)
 
@@ -245,6 +246,6 @@ The use of Office 365 for Government - GCC (Government Community Cloud) is appro
 ## Next steps
 
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of chat, teams, channels, & apps.
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams app](apps-in-teams.md) as you drive Teams adoption.
 - [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)

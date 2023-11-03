@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy archiving for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -42,4 +43,5 @@ The following table provides an overview of the steps required to deploy archivi
 |**Configure server-to-server authentication (only if using Microsoft Exchange integration)** <br/> |Configure servers to enable authentication between Skype for Business Server and Exchange. We recommend running **Test-CsExchangeStorageConnectivity testuser_sipUri -Folder Dumpster** to validate Exchange archiving storage connectivity before enabling archiving. <br/> |An account with the appropriate permissions for managing certificates on the servers.  <br/> |Manage server-to-server authentication  <br/> |
 |**Configure archiving options and policies** <br/> |Configure archiving, including whether to use Microsoft Exchange integration, the global policy and any site and user policies (when not using Microsoft Exchange integration for all data storage), and specific archiving options, such as critical mode and data export and purging.  <br/> If using Microsoft Exchange integration, configure Exchange In-Place Hold policies as appropriate.  <br/> |RTCUniversalServerAdmins group (Windows PowerShell only) or assign users to the CSArchivingAdministrator or CSAdministrator role.  <br/> |[Configure archiving options for Skype for Business Server](configure-archiving-options.md) <br/> Exchange product documentation (if using Microsoft Exchange integration).  <br/> |
    
+
 

@@ -1,18 +1,21 @@
 ---
 title: Deploy Microsoft Teams Rooms on Android
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 audience: ITPro
-ms.reviewer: payurevi
+ms.reviewer: tjaved
+ms.date: 11/04/2023
 ms.topic: quickstart
 ms.service: msteams
+ms.subservice: itpro-devices
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
+  - Tier1
 ms.custom: 
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
@@ -22,9 +25,9 @@ description: Read this article to learn about deploying Microsoft Teams Rooms on
 
 Deployment of Microsoft Teams Rooms on Android can be broken down into the following phases:
 
-- **Site readiness** Confirm that your deployment locations (rooms) meet the deployment requirements.
-- **Service readiness** Create resource accounts and assign them to the devices ([see Create a resource account using the Microsoft 365 admin center](resource-account-ui.md)). While we recommend using a dedicated room license, a properly licensed end user account can also sign in to Teams Rooms on Android.
-- **Configuration and deployment** Set up Teams Rooms and connect the peripheral devices you need (see the manufacturer's documentation for details).
+- **Site readiness** - Confirm that your deployment locations (rooms) meet the deployment requirements.
+- **Service readiness** - Create resource accounts and assign them to the devices. (See [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).)
+- **Configuration and deployment** - Set up Teams Rooms and connect the peripheral devices you need. (See the manufacturer's documentation for details.)
 
 To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
@@ -33,8 +36,6 @@ To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Te
 While the ordered devices are being delivered to your organization, work with your networking, facilities, and audio-visual teams to make sure that deployment requirements are met and each site and room is ready in terms of power, networking, and display.
 
 Our recommendations for Teams Rooms on Android sites are:
-
-- Rooms up to 5 people in size
 - Dedicated resource accounts
 - Touch-enabled displays
 - Ethernet cabling
@@ -58,9 +59,9 @@ Before you deploy Teams Rooms, you need to decide if they'll use Microsoft 365 r
 
 ### Using a resource account
 
-If you decide to set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
+To set up a Microsoft 365 resource account, you'll need to purchase a Meeting Room license for it. The Meeting Room license includes a resource mailbox that enables people in your organization to book the meeting room via Outlook or Teams. The license also enables video and audio conferencing and screen sharing among meeting participants.
 
-If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room SKU.
+If you need to receive or make calls to or from an external telephone number, you may need a Calling Plan or Microsoft 365 Business Voice [add-on license](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). If you have Direct Routing enabled in your organization, you only need the Meeting Room Pro SKU.
 
 When you create a resource account, you can choose whether to let the account automatically accept or decline meeting requests, allow recurring meetings, specify how far in advance people can book the resource, and so on.
 
@@ -86,8 +87,6 @@ Planning for configuration and deployment covers the following key areas:
 ### Account provisioning
 
 If you plan on using Microsoft 365 resource accounts to let users book Teams Rooms on Android devices, follow the instructions in [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md) to create a Microsoft 365 resource account for each Teams Rooms on Android device that needs one. This is also where you'll need to add a Meeting Room license to the resource account and, if you want to make or receive calls to or from external phone numbers, a Calling Plan or Business Voice license if your organization is not using Direct Routing.
-
-If you want to assign Teams Rooms to individual users for their private use, you don't need to set up any additional accounts. Users can sign into Teams Rooms on Android devices using their personal accounts.
 
 > [!TIP]
 > Make the display names for your Microsoft 365 resource accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Teams Rooms to meetings. You could use a convention like *Site*-*Room Name*(*Max Room Capacity*), so for example Curie, a 4-person meeting room in London, might have the display name LON-CURIE(4).
@@ -118,4 +117,6 @@ As part of the deployment, you'll want to update your asset register with the ro
 
 ## Related topics
 
-[Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md)
+[Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md)
+
+

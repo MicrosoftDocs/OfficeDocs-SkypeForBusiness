@@ -1,12 +1,13 @@
 ---
 title: Use general team templates in the admin center
-author: lanachin
-ms.author: v-lanachin
-manager: samanro
+author: MicrosoftHeidi
+ms.author: heidip
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 09/18/2020
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium

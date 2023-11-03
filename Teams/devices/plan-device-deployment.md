@@ -1,11 +1,13 @@
 ---
 title: Plan your deployment for Teams phone devices and Displays
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
 ms.reviewer: tony.woodruff
+ms.date: 12/17/2021
 ms.topic: reference
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -14,8 +16,9 @@ f1.keywords:
 search.appverid: MET150
 description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
-  - M365-voice
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
+  - Tier1
 ---
 
 # Plan your deployment for Teams phone devices and Displays
@@ -71,7 +74,7 @@ Now that you've identified your device personas, you need to determine which cer
 
 Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
 
-Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable licenses are [the Microsoft Teams Shared Devices license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license) and a [Microsoft Teams Rooms license](../rooms/rooms-licensing.md).
+Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable license is [the Microsoft Teams Shared Devices license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
 For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
@@ -89,11 +92,11 @@ Identities enable devices to access Microsoft 365 services, and they should make
 
 ### Objective: Review Conditional Access policies
 
-Azure Active Directory Conditional Access policies are additional requirements that must be met before a device can be signed in.
+Microsoft Entra Conditional Access policies are additional requirements that must be met before a device can be signed in.
 
 As you plan your deployment
 
-- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Azure AD Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
+- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Microsoft Entra Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
 
 - Plan for new rules if needed
 
@@ -130,9 +133,11 @@ Key aspects include
 
 Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
 
-#### Azure Active Directory Admin Center
+<a name='azure-active-directory-admin-center'></a>
 
-Use the Azure AD Admin Center to manage
+#### Microsoft Entra Admin Center
+
+Use the Microsoft Entra Admin Center to manage
 
 - All identity-related tasks for Teams phones and displays
 - Conditional Access policies 

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Associate Front End With Archiving"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ Each Front End pool and Survivable Branch Appliance can have only one Archiving 
   
 All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server. 
   
+
 

@@ -6,12 +6,14 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
+ms.date: 11/10/2022
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how Microsoft Teams Administrators can specify which meeting templates are available to their users.
@@ -19,7 +21,7 @@ description: Learn how Microsoft Teams Administrators can specify which meeting 
 
 # Manage meeting templates in Microsoft Teams
 
-[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 You can use meeting template policies in Microsoft Teams to determine which meeting templates are available to users in your organization.
 

@@ -1,8 +1,8 @@
 ---
 title: Use healthcare team templates
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -17,11 +17,11 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
 ms.reviewer: yinchang
+ms.date: 09/10/2020
 description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your healthcare organization.
 ms.custom: seo-marvel-mar2020
 ---

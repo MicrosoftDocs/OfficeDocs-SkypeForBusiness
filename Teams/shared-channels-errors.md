@@ -4,6 +4,7 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: jasonlewis
+ms.date: 07/12/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -49,10 +50,10 @@ For more information about Teams channel policies, see [Manage channel policies 
 
 ## You can't share this channel with people from this org
 
-If your users see this error, then they're prevented from sharing the channel with people in the other organization by the Azure Active Directory cross-tenant access settings. This may be due to the inbound settings in your organization or the outbound settings in the other organization.
+If your users see this error, then they're prevented from sharing the channel with people in the other organization by the Microsoft Entra cross-tenant access settings. This may be due to the inbound settings in your organization or the outbound settings in the other organization.
 
 To check the inbound settings for your organization
-1. In [Azure Active Directory](https://aad.portal.azure.com), select **External Identities**, and then select **Cross-tenant access settings**.
+1. In [Microsoft Entra ID](https://aad.portal.azure.com), select **External Identities**, and then select **Cross-tenant access settings**.
 1. Select the inbound access link for the organization that you want to check.
 1. On the **B2B direct connect** tab, choose **Customize settings**.
 1. On the **External users and groups** tab, ensure that **Allow access** and **All external users and groups** are selected, or if you've chosen **Select external users and groups**, make sure that the user being invited is a member of the selected groups.
@@ -63,4 +64,3 @@ If users continue to see the error, check with the organization that they're col
 ## We couldn't find any matches. Make sure the email address is correct, or talk to your admin
 
 If your users see this error, then Microsoft 365 is not able to find the specified email address in the external organization. You'll need to confirm the address with the external organization.
-

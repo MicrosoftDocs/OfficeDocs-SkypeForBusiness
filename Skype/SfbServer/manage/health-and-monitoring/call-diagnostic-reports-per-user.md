@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Call Diagnostic Reports (per user) in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -166,4 +167,5 @@ The following table lists the information provided in the User Activity Report p
 |**Join time** <br/> |No  <br/> |Date and time that the user joined the conference.  <br/> |
 |**Leave time** <br/> |No  <br/> |Date and time that the user left the conference.  <br/> |
 |**Diagnostic ID** <br/> |No  <br/> |Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.  <br/> |
+
 

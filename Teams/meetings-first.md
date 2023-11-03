@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
+ms.date: 08/22/2019
 description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -67,7 +68,7 @@ The only hard requirements for Meetings First are the same as the requirements f
 
 - [General pre-requisites for Teams](upgrade-plan-journey-prerequisites.md), including
 - [Identity and authentication in Teams](identify-models-authentication.md) and
-- [Configure Azure Active Directory for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
+- [Configure Microsoft Entra ID for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
 
 A [Skype for Business hybrid topology](/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) isn't required, but it's recommended. Some capabilities such as Meetings Migration Service and interoperability rely on that topology.
 

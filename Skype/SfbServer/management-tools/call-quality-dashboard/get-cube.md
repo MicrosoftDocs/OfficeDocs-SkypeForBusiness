@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Get Cube"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -94,4 +95,5 @@ Get Cube operation returns the list of available dimensions and measurements.
   
  *Measurements*  - The list of measurements that may be used in Measurements section of a request payload for Run Query operation.
   
+
 

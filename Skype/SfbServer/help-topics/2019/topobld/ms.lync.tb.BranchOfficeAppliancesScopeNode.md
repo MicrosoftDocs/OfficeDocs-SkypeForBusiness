@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Branch Office Appliances Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ In addition to the Survivable Branch Appliance option, you can perform the follo
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

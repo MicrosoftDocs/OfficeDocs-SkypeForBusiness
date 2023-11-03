@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "IP Version (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ You have three options when configuring IP addresses in Skype for Business Serve
   
 For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).
   
+
 

@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Load balancer partner qualification for Lync"
 ms.author: serdars
 author: msdmaguire
@@ -24,7 +25,7 @@ description: "Load balancer partner qualification requirements for Lync."
 # Load balancer partner qualification requirements for Lync Server
 
 ## Hardware load balancers for Lync Server
-Hardware load balancers listed in the table that follows have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
+Hardware load balancers listed in the table that follows have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend you visit the vendor's web site for the latest information regarding product specifications, capacity, country/region support and documentation including release notes and known issues. 
 
 ### Usage
 
@@ -61,7 +62,7 @@ Load balancer vendors interested in qualification of their load balancer solutio
 
 ## Software load balancers for Lync Server
 
-Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. Please contact the vendor for more information on these products.
+Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country/region support, and documentation including release notes and known issues. Please contact the vendor for more information on these products.
 
 ***Software load balancers for Lync Server***
 
@@ -78,3 +79,4 @@ Software load balancers listed in the table that follows  have been tested by th
 |     |         |         | |
 
 Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.
+

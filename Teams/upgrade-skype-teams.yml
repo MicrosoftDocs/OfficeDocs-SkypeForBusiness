@@ -85,11 +85,11 @@ productDirectory:
       summary: Learn how to roll out and manage Teams, and prepare your users for new communications and collaboration experiences.
       url: ./index.yml
     # Card
-    - title: Instructor-led Teams training
+    - title: Teams Instructor-led training
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://learn.microsoft.com/office/media/icons/presenter-with-podium.svg
       summary: Free, live, online training classes designed to get you up and running with Teams.
-      url: ./instructor-led-training-teams-landing-page.yml
+      url: https://aka.ms/teamslivetraining
     # Card
     - title: Expand your Teams scenarios
       # imageSrc should be square in ratio with no whitespace

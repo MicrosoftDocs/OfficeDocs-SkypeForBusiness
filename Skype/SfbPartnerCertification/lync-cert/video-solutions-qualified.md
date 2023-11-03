@@ -1,4 +1,5 @@
 ---
+ms.date: 06/19/2018
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
 ms.author: serdars
 author: msdmaguire
@@ -34,7 +35,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 
 ***Video Endpoints***
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="720">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="720">
     <colgroup>
         <col width="240" />
         <col width="90" />
@@ -142,7 +143,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***LifeSize Video Endpoints***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="62%">
     <colgroup>
         <col width="240" />
         <col width="90" />
@@ -238,7 +239,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***Video Infrastructure***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="62%">
     <colgroup>
         <col width="240" />
         <col width="110" />
@@ -386,3 +387,4 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 * * *
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](/archive/blogs/uc/what-devices-have-been-certified-for-mac)
+

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kponnus
+ms.date: 01/04/2022
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -40,7 +41,7 @@ Set-CsTeamsCallingPolicy -AutoAnswerEnabledType Enabled
 
 ### 2. Set the device sign-in mode
 
-You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy) for more information on the cmdlet.
+You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the Teams video phone device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy) for more information on the cmdlet.
 
 There are three options for sign-in mode:
 

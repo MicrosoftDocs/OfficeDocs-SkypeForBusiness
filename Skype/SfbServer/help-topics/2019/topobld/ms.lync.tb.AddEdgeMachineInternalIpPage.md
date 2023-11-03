@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Machine Internal IP"
 ms.reviewer: 
 ms.author: serdars

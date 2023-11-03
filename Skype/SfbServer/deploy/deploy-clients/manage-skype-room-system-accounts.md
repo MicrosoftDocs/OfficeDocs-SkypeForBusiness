@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manage Skype Room System accounts"
 ms.author: serdars
 author: SerdarSoysal
@@ -41,3 +42,4 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ## Optional: Create a Skype Room System administrator group in Active Directory
 
 Each Skype Room System client that joins the domain can be fully managed by a domain user with local administrator rights on the Skype Room System appliance PC. Therefore, you can create a dedicated administrators' group in Active Directory and give this group administrative rights during set up of the new Skype Room System machine.
+

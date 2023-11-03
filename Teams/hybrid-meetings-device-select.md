@@ -1,12 +1,13 @@
 ---
 title: "Step 4 - Select devices that enable your space for hybrid meetings"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Learn about the various that can be used to create an immersive Teams Rooms meeting experience.
 ms.topic: article
@@ -15,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---
@@ -40,7 +43,7 @@ If you want more flexibility than a sound bar provides, you can choose cameras, 
 
 ## Touchscreen console and compute module
 
-The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of the Teams Room and runs Windows 10 Enterprise IoT.
+The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of Teams Rooms and runs Windows 10 Enterprise IoT.
 
 Most consoles and compute modules are bundled into a single product. Some manufacturers combine the console and compute module into a single unit that sits on the conference table. Other manufacturers have a smaller console that sits on the conference table while the compute module is hidden away.
 
@@ -163,7 +166,7 @@ The following are examples of audio systems for Teams Rooms:
 
 ## Signature Teams Rooms touchscreen consoles and compute modules
 
-The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of the Teams Room and runs Windows 10 Enterprise IoT.
+The touchscreen console is the device that users interact with when joining and managing a meeting. The compute module is the brains of Teams Rooms and runs Windows 10 Enterprise IoT.
 
 Most consoles and compute modules are bundled into a single product. Some manufacturers combine the console and compute module into a single unit that sits on the conference table. Other manufacturers have a smaller console that sits on the conference table while the compute module is hidden away.
 

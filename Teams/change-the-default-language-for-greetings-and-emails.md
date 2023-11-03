@@ -1,9 +1,10 @@
 ---
 title: "Change the default language for greetings and emails"
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -11,7 +12,9 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
+  - Tier1
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -60,7 +63,7 @@ Cloud Voicemail will generate the voicemail message using a language template ba
 default tenant language.
 
 ## Setting the preferred language for a user
-You can set the preferred language for a user using PowerShell either in Azure Active Directory or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+You can set the preferred language for a user using PowerShell either in Microsoft Entra ID or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
 Users can change their own preferred language through their settings after they sign in. For more information, see [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 

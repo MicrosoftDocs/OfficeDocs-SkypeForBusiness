@@ -1,9 +1,10 @@
 ---
 title: "Get service phone numbers for Calling Plans"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, makolomi
+ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
@@ -13,6 +14,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - highpri
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams

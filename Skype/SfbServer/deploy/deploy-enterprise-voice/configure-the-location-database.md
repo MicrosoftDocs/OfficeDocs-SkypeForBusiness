@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure the location database in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -147,5 +148,6 @@ If you use Emergency Location Identification Number (ELIN) gateways, you also ne
   ```powershell
   Publish-CsLisConfiguration
   ```
+
 
 

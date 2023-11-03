@@ -8,13 +8,14 @@ audience: admin
 level: Intermediate
 displayType: one-column
 ms.date: 08/30/2018
-ms.reviewer: ninadara
+ms.reviewer: 
 ms.service: msteams
 ms.topic: tutorial
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
+  - tier2
 f1.keywords:
   - CSH
 ms.custom:
@@ -111,7 +112,7 @@ Here’s a quick checklist of our best practices to get you started.
 
 2. **Study [Microsoft 365 activity reports](teams-activity-reports.md)** to understand usage across your school. If you aren’t a Microsoft 365 admin, ask your admin to give you Reports Reader permissions so you can access activity reports.
 
-3. **Capture feedback from your educators** on their experience with Microsoft 365 and Teams. Use a channel in Teams when your school has fewer than 5000 individuals. Use a public group in Yammer when your school is larger than the membership limit in Teams.
+3. **Capture feedback from your educators** on their experience with Microsoft 365 and Teams. Use a channel in Teams when your school has fewer than 5000 individuals. Use a public group in Viva Engage when your school is larger than the membership limit in Teams.
 
 4. **Nurture your champions and highlight your wins.** Reward educators for embracing these new tools and using them in innovative ways. This ensures continued use of Microsoft 365 and Teams.
 
@@ -199,9 +200,9 @@ End users with mobile devices can download the Microsoft Teams app from the mobi
 
 ### Operating system requirements
 
-|Windows |macOS |Linux |iOS |Android |
-|--------|------|------|----|--------|
-|7 and later |10.10 and later |DEB or RPM |10 or later |4.4 and later |
+|Windows |macOS |iOS |Android |
+|--------|------|----|--------|
+|7 and later |10.10 and later |10 or later |4.4 and later |
 
 ### Internet browser support
 

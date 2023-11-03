@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Assign location policy scope in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -29,4 +30,5 @@ Each network site has a location policy assigned to it, and each policy will hav
 > [!NOTE]
 > The reason for this special policy scoping behavior is so that when a user homed on a pool at one office site visits another site and has to make an emergency call, the E9-1-1 call routing settings appropriate to that network site will apply no matter what pool or site the user is assigned to. 
   
+
 

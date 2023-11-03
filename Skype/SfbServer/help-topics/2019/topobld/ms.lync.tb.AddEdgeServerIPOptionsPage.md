@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Add Edge Server IP Options"
 ms.reviewer: 
 ms.author: serdars
@@ -33,4 +34,5 @@ You can also configure the Edge Server or Edge pool to use a network address tra
   
 NAT support. Network address translation (NAT) is not supported when you are using hardware load balancing, so do not select the NAT option if you are deploying an Edge Server pool with hardware load balancing.
   
+
 

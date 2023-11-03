@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Archiving Configuration Create New or Edit Existing"
 ms.reviewer: 
 ms.author: serdars
@@ -69,4 +70,5 @@ To configure the settings for a new or existing Archiving configuration, specify
     > If you enable Microsoft Exchange integration, purging for users homed on Exchange and with their mailboxes placed on In-Place Hold is controlled by Exchange. The only exception is for conferencing files, which are stored on the Lync Server file share. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
   
 For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+
 

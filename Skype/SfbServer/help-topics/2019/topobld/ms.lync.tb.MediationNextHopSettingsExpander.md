@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Mediation Next Hop Settings Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ You specify the Mediation Server pool or Mediation Server next hop by selecting 
   
 For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.
   
+
 

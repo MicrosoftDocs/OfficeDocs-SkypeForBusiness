@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Configure trunks in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -46,4 +47,5 @@ New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="
 
 The administrator must select a default trunk associated with a Mediation Server. From the Topology Builder, right-click the associated Mediation Server, and then click **Properties**. Specify the default gateway for the Mediation Server. 
   
+
 

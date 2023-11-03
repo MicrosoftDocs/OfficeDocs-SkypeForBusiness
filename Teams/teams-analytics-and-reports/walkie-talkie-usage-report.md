@@ -1,12 +1,13 @@
 ---
 title: Walkie Talkie usage and performance report
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: serdars
 audience: admin
 ms.topic: article
 ms.service: microsoft-365-frontline
 ms.reviewer: prastogi
+ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -15,7 +16,7 @@ ms.collection:
   - M365-collaboration
   - m365-frontline
   - highpri
-  - tier2
+  - teams-1p-app-admin
 description: Learn how to use the Walkie Talkie usage and performance report in the Microsoft Teams admin center to get an overview of Walkie Talkie usage activity in your organization.
 appliesto: 
   - Microsoft Teams
@@ -44,7 +45,6 @@ The report gives you a breakdown of each transmission made during the date range
 |UserId|User ID.|
 |DeviceId|Device ID.|
 |ChannelId|The Walkie Talkie channel in which communication happens.|
-|clientCallStatus | Indicates if the device was able to receive the transmission without any issue.|
 |ConversationId|ID of each PTT transmission.|
 |TeamId|ID of the team that corresponds to the Walkie Talkie channel in which the user connects to.|
 |UnreachableParticipantsCount|Number of participants flagged as unreachable and hidden from the roster because they weren't able to receive any of the last five transmissions.|
@@ -62,6 +62,7 @@ The report gives you a breakdown of each transmission made during the date range
 |ParticipantType|Whether the participant was the transmitter or a receiver of the transmission.|
 |WebSocketState|Whether the status of the connection between the device and the service was already established when the transmission started.|
 |AppVersion|Version of the Teams app installed on the device.|
+|ClientCallStatus |Indicates if the device was able to receive the transmission without any issue.|
 
 ## Related articles
 

@@ -1,12 +1,13 @@
 ---
 title: Evaluate your environment before upgrading to Teams
-author: dstrome
-ms.author: dstrome
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
+ms.date: 05/29/2018
 description: Learn about the requirements for properly evaluating your current environment for upgrading to Teams.
 ms.localizationpriority: medium
 search.appverid: MET150

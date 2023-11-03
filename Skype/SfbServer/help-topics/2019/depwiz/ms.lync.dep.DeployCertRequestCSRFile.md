@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate Request (Certificate Signing Request)"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ Click **Back** to go back to the previous screen. Click **Cancel** to exit witho
 > [!IMPORTANT]
 > The file that is created in this step is sent to your public certification authority (CA), to your internal offline CA, or submitted to your CA administrator for processing. Note the file location and name so that you can retrieve it and submit the CSR to the CA. The default location is the Documents directory of the person running the Certificate Wizard. 
   
+
 

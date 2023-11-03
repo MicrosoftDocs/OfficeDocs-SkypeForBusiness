@@ -1,6 +1,7 @@
 ---
 title: Manage large teams in Microsoft Teams - best practices
-ms.reviewer: abgupta
+ms.reviewer: 
+ms.date: 04/07/2020
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -73,7 +74,7 @@ To prevent addition of distracting applications or bots, team owners can disable
 
 ![Screen image that shows the Member permissions section of the Settings pane.](media/disable-bots-connectors.png "Screen image that shows the Member permission section of the Settings pane. The options for allow members to add apps or connectors are unchecked.")
 
-See [overview of Teams apps](deploy-apps-microsoft-teams-landing-page.md).
+See [overview of Teams apps](apps-in-teams.md).
 
 ## Regulate team and channel mentions
 

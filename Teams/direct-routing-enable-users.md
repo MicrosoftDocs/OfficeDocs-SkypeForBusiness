@@ -1,6 +1,7 @@
 ---
 title: "Enable users for Direct Routing"
 ms.reviewer: filippse
+ms.date: 08/15/2023
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -32,7 +35,7 @@ For information on all the steps required for setting up Direct Routing, see [Co
 
 When you're ready to enable users for Direct Routing, follow these steps: 
 
-1. Create a user in Microsoft 365 and assign a Phone System license.  
+1. Create a user in Microsoft 365 and assign a Teams Phone license.  
 2. Ensure that the user is homed online.
 3. Configure the phone number and enable enterprise voice. 
 4. Assign Teams Only mode to users.
@@ -41,7 +44,7 @@ When you're ready to enable users for Direct Routing, follow these steps:
 
 There are two options for creating a new user in Microsoft 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
-- Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
+- Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/connect/active-directory-aadconnect).
 - Create the user directly in the Microsoft 365 admin center. See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
 If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 

@@ -1,4 +1,5 @@
 ---
+ms.date: 09/26/2018
 title: 'Manage SIP federated domains for your organization'
 ms.reviewer: 
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
@@ -94,4 +95,5 @@ Additionally, you must configure and apply the policy to users that you want to 
 
 [Enable or disable discovery of federation partners](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
+
 

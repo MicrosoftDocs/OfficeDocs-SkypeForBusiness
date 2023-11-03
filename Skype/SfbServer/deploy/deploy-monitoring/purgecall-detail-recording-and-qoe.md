@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -66,5 +67,6 @@ To purge the QoE database, use the Invoke-CsQoEDatabasePurge cmdlet and specify 
 ```powershell
 Invoke-CsQoEDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeQoEDataOlderThanDays 10
 ```
+
 
 

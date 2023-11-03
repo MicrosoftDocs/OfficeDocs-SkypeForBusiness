@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Disaster Recovery (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -24,4 +25,5 @@ Skype for Business Server includes disaster recovery measures by enabling you to
   
 For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
+
 

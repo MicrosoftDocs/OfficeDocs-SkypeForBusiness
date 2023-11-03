@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: "You can configure Edge Servers to allow your internal and external users access to contacts at partner organizations or services."

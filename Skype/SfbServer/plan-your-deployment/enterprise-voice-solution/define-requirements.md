@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Define your requirements for emergency calls in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -39,4 +40,5 @@ Before you begin a Skype for Business Server E9-1-1 deployment, you should first
 |[Plan location policies for Skype for Business Server](location-policies.md) <br/> ||
 |[Assign location policy scope in Skype for Business Server](location-policy-scope.md) <br/> ||
    
+
 

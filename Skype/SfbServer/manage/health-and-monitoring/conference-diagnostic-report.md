@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Conference Diagnostic Report in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -76,4 +77,5 @@ The following table lists the information provided in the Conference Diagnostic 
 |**Unexpected failure percentage** <br/> |No  <br/> |Percentage of conferences that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.  <br/> |
 |**Total sessions** <br/> |No  <br/> |Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.  <br/> |
    
+
 

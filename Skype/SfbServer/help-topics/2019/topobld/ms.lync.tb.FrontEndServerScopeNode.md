@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Front End Server Scope Node"
 ms.reviewer: 
 ms.author: serdars
@@ -35,4 +36,5 @@ In addition to these options, you can perform the following general tasks:
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

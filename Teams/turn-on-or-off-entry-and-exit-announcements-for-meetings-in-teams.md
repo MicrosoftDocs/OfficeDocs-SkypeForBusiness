@@ -1,9 +1,10 @@
 ---
 title: "Turn on or off entry and exit announcements for meetings in Teams"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
+ms.date: 08/16/2018
 ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
@@ -11,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

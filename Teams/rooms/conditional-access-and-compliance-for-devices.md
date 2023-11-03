@@ -1,17 +1,20 @@
 ---
 title: Conditional Access and compliance best practices for Microsoft Teams Rooms
-ms.author: dstrome
-author: dstrome
-ms.reviewer: sohailta
+ms.author: tonysmit
+author: tonysmit
+ms.reviewer: tjaved
+ms.date: 11/02/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: itpro-rooms
 f1.keywords: 
   - NOCSH
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 description: Learn about recommended Conditional Access and Intune device compliance policies and best practices for Microsoft Teams Rooms.
 ---
 
@@ -25,16 +28,16 @@ This article provides requirements and best practices for Conditional Access and
 
 Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven't deployed Teams Rooms yet,
-see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
+see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
-An Azure Active Directory P1 Service Plan is required to use Conditional
+A Microsoft Entra ID P1 Service Plan is required to use Conditional
 Access. It's included in the Microsoft Teams Rooms license.
 
 ## Teams Rooms Conditional Access best practices
 
-Conditional Access policies can secure the sign-in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Azure Active Directory (Azure AD), see [What is Conditional Access in Azure Active Directory?](/azure/active-directory/conditional-access/overview).
+Conditional Access policies can secure the sign-in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Microsoft Entra ID, see [What is Conditional Access in Microsoft Entra ID?](/azure/active-directory/conditional-access/overview).
 
 When using Conditional Access to secure Teams Rooms, consider the
 following best practices:
@@ -46,7 +49,7 @@ following best practices:
 -   Have a naming standard for all Teams Rooms resource accounts. For
     example, the account names 'mtr-room1@contoso.com' and
     'mtr-room2@contoso.com' both start with the prefix 'mtr-'.
-    When account names are standardized, you can use dynamic groups in Azure AD
+    When account names are standardized, you can use dynamic groups in Microsoft Entra ID
     to automatically apply Conditional Access policies to all of these
     accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
 
@@ -60,7 +63,7 @@ In the example below, the Conditional Access policy works as follows:
     this example, the "Shared devices" group.
 
 2.  The account signing in must only be trying to access Exchange
-    Online, Microsoft Teams, or SharePoint Online. Attempts to sign into
+    Online, Microsoft Teams, SharePoint Online, or Microsoft Whiteboard Services. Attempts to sign into
     any other client app will be rejected.
 
 3.  The resource account must be signing in on the Windows device
@@ -92,6 +95,6 @@ In this example for Teams Rooms on Windows
 
 2. Require that Microsoft Defender is running on Teams Rooms.
 
-3. If a Teams Room doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
+3. If Teams Rooms doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
 
 This compliance policy applies to all users, not just Teams resource accounts.

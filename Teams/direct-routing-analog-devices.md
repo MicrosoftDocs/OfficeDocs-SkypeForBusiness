@@ -5,12 +5,15 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.reviewer: filippse
+ms.date: 04/30/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -50,7 +53,7 @@ For information on how to connect an ATA to an SBC and configure the SBC, see yo
 - [Ribbon configuration documentation](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Oracle configuration documentation](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## Step 1. Connect the SBC to Direct Routing
+## Step 1: Connect the SBC to Direct Routing
 
 The following command configures the SBC connection as follows:
 

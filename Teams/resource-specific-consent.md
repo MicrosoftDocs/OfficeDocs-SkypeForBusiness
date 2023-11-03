@@ -7,10 +7,13 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 09/26/2022
+ms.date: 06/27/2023
+ms.reviewer: Orion.OMalley
 search.appverid: MET150
 description: Learn about the settings you need to configure to control whether teams owners in your organization can give consent to apps. 
 ms.localizationpriority: high
+ms.custom:
+  - has-azure-ad-ps-ref
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
@@ -26,7 +29,9 @@ As an admin, you control whether team owners in your organization can give conse
 
 Here are the settings that you must set to control whether team owners can give consent to apps. Be sure to review all the following settings.
 
-### Settings in Azure Active Directory portal
+<a name='settings-in-azure-active-directory-portal'></a>
+
+### Settings in Microsoft Entra admin center
 
 The following two settings determine whether team owners can give consent to apps.
 
@@ -48,7 +53,7 @@ This setting controls whether users in your organization can consent to apps acc
 
 ### Settings in the Microsoft Teams admin center
 
-In addition to settings in Azure AD, [org-wide app settings](manage-apps.md#manage-org-wide-app-settings) on the [Manage apps](manage-apps.md) page, whether an app is blocked or allowed on the [Manage apps](manage-apps.md#allow-and-block-apps) page, and the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
+In addition to settings in Microsoft Entra ID, [org-wide app settings](manage-apps.md#manage-org-wide-app-settings) on the [Manage apps](manage-apps.md) page, whether an app is blocked or allowed on the [Manage apps](manage-apps.md#allow-or-block-apps) page, and the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.
 
 > [!IMPORTANT]
 > Changing any of these settings doesn't affect data access for apps that were already granted consent. For example, if you disable third-party apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.  
@@ -66,7 +71,7 @@ It may take up to 24 hours for your changes to take effect.
 
 #### Allow or block the app at the org level
 
-When you block or allow an app on the [Manage apps](manage-apps.md#allow-and-block-apps) page, that app is blocked or allowed for all users in your organization. Team owners can only give consent to an app if the app is allowed. To allow or block an app at the org level, do the following:
+When you block or allow an app on the [Manage apps](manage-apps.md#allow-or-block-apps) page, that app is blocked or allowed for all users in your organization. Team owners can only give consent to an app if the app is allowed. To allow or block an app at the org level, do the following:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. On the Manage apps page, select the app, and then select **Block** to block it or select **Allow** to allow it.
@@ -84,7 +89,7 @@ Team owners can only give consent to apps that their app permission policy allow
 
 ## Upload custom apps
 
-When uploading a custom app (also known sideloading) that uses resource-specific consent, the app must come from the tenant that it's being installed to. In other words, the Azure AD app registration must be from this tenant. Global admins are exempted from this restriction, and can upload custom apps from any tenant, either directly to a team (sideloading) or to the tenant app catalog.
+When uploading a custom app that uses resource-specific consent, the app must come from the tenant that it's being installed to. In other words, the Microsoft Entra app registration must be from this tenant. Global admins are exempted from this restriction, and can upload custom apps from any tenant, either directly to a team or to the tenant app catalog.
 
 ## Related articles
 

@@ -1,11 +1,12 @@
 ---
 title: Live events recording policies
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
+ms.date: 06/10/2020
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -13,6 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn about live event recording policies.
 appliesto: 
   - Microsoft Teams
@@ -20,6 +22,9 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Live event recording policies in Microsoft Teams
+
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
 You have several options for recording a Microsoft Teams live event. The recording options are set using recording policies. This article describes the various settings.
 
@@ -61,7 +66,10 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 
 ### Related topics
 
-- [What is Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Configure live events settings in Teams](configure-teams-live-events.md)
-- [Teams clouds meeting recording](../cloud-recording.md)
+[What is Teams live events?](what-are-teams-live-events.md)
+
+[Plan for Teams live events](plan-for-teams-live-events.md)
+
+[Configure live events settings in Teams](configure-teams-live-events.md)
+
+[Teams clouds meeting recording](../meeting-recording.md)

@@ -3,15 +3,18 @@ title: Configure Audio Conferencing settings - Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out audio conferencing as part of the meetings workload in Microsoft Teams.
 ms.topic: article
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
+  - Tier1
+  - m365initiative-meetings
 ms.custom: 
   - seo-marvel-mar2020
 f1.keywords: 
@@ -147,4 +150,4 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 - [Drive adoption](adopt-microsoft-teams-landing-page.md) of audio conferencing in your organization.
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams apps](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.

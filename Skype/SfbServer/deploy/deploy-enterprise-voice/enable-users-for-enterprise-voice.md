@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Enable users for Enterprise Voice in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -103,4 +104,5 @@ To complete user account configuration for either users of Enterprise Voice or u
 
     In this example, the user with the display name Bob Kelly is assigned the user dial plan with the name **DialPlanJapan**.
     
+
 

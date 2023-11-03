@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Office Web Apps Server Scope Node Expander"
 ms.reviewer: 
 ms.author: serdars
@@ -31,4 +32,5 @@ In addition to the New Office Web Apps Server option, you can perform the follow
     
 - **Help**. You can use this option to access Help for the active node.
     
+
 

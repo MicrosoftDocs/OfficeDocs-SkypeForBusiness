@@ -1,12 +1,13 @@
 ---
 title: Use nonprofit team templates
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: MicrosoftHeidi
+ms.author: heidip
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: yinchang
+ms.date: 09/28/2021
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: high

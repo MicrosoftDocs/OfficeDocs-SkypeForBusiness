@@ -18,7 +18,7 @@ ms.custom:
   - ms.teamsadmincenter.signin.error.nopermissions
   - ms.teamsadmincenter.directrouting.cqd
   - seo-marvel-apr2020
-ms.reviewer: islubin
+ms.reviewer: 
 description: Learn how to use the administrative roles to designate administrators who need different levels of access to manage Teams.
 
 appliesto: 
@@ -27,7 +27,7 @@ appliesto:
 
 # Use Microsoft Teams administrator roles to manage Teams
 
-Using Azure Active Directory (Azure AD), you can designate administrators who need different levels of access for managing Microsoft Teams. Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs.
+Using Microsoft Entra ID, you can designate administrators who need different levels of access for managing Microsoft Teams. Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs.
 
 ## Teams roles and capabilities
 
@@ -51,7 +51,7 @@ To follow along, you must be an admin. The instructions for getting the permissi
 <sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) (The public release 1.1.6 or later is integrated with Skype for Business Online Connector.)<br>
 <sup>2</sup> [Microsoft Teams admin center](./manage-teams-skypeforbusiness-admin-center.md)
 <sup>3</sup> Teams administrator account must have a valid Teams license.
-<!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<!-- <sup>3</sup> Microsoft Entra admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md).
@@ -60,7 +60,7 @@ For more information about limits, specifications, and other requirements that a
 
 ## Assign users to each role
 
-You can assign users to these roles in Azure AD. To learn how to assign administrative roles to a user in Azure AD, see [Assign a user to administrator roles in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign a user to administrator roles in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 

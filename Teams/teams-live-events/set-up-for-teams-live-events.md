@@ -1,11 +1,12 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
+ms.date: 09/11/2018
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -24,6 +25,9 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Set up for live events in Microsoft Teams
+
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
 
 When you're setting up for live events, there are several steps that you must take.
 
@@ -63,7 +67,7 @@ Live events policies are used to control who in your organization can hold live 
 |**Description**    |Use this to add a friendly description for the policy.         |
 |**Live events scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams.     |
 |**Transcription for attendees** |This setting can only be applied to events produced in Teams. Turning this on enables live event attendees to see live captions and subtitles during the event.         |
-|**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **Everyone in the organization** Users can create live events that people in your organization, including [guest users](../add-guests.md) added to your organization, can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
+|**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **People in my organization** Users can create live events that people in your organization, including [guests](../add-guests.md) added to your organization, can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
 |**Recording setting**  <br>     | This setting can only be applied to events produced in Teams. Choose one of the following. <br><br> **Always record** Live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** Live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it's recorded, after the event is over, event team members can download the recording and attendees can watch the event.
 
 You can also do this by using Windows PowerShell, and, currently, GCC High and DoD customers must use this method. For more information, see [Use PowerShell to set live events policies in Teams](set-teams-live-events-policies-using-powershell.md).
@@ -77,12 +81,12 @@ If you created a custom live events policy, assign it to users for the policy to
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, Microsoft offers a first-party solution, [Microsoft eCDN](/ecdn) (enterprise content delivery network). Live events solutions are also integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or eCDNs. These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end-user viewing experiences. These solutions can help enable a more scalable and efficient video distribution across your enterprise network.
 
 - **Microsoft eCDN**
-Microsoft eCDN is integrated into Teams and is also compatible with Stream and Yammer. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
+Microsoft eCDN is integrated into Teams and is also compatible with Stream and Viva Engage. It employs peer-to-peer technology within a corporate network to offload bandwidth from the WAN connection.
 
 - **Purchase and set up your solution outside of Teams**
 Get expert help with scaling video delivery by leveraging Microsoft's trusted video delivery partners. 
 
-The following SDN/eCDN solutions are pre-integrated and can be set up to be used with Teams streaming:
+The following SDN/eCDN solutions are preintegrated and can be set up to be used with Teams streaming:
 
 - **Hive Streaming** provides a simple and powerful solution for live and on-demand enterprise video distribution. Hive is a software-based solution that requires no additional hardware or bandwidth and provides a secure way to enable thousands of simultaneous video viewers without impact to your network. For customers looking to understand the impact video is having on their network prior to purchasing an SDN/eCDN solution, Hive Streaming also provides a browser-based analytics solution for Microsoft customers. [Learn more](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
@@ -103,6 +107,8 @@ Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 
 ### Related topics
 
-- [What is Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Configure live events settings in Teams](configure-teams-live-events.md)
+[What is Teams live events?](what-are-teams-live-events.md)
+
+[Plan for Teams live events](plan-for-teams-live-events.md)
+
+[Configure live events settings in Teams](configure-teams-live-events.md)

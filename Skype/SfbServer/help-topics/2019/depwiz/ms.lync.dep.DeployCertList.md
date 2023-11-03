@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Certificate List"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ The certificate or certificates that are available for selection in the **Select
 > [!IMPORTANT]
 > It is possible that no certificate will be listed in the selection pane. When this occurs, the typical cause is that there are no trusted root certificate or intermediate certification authority certificates installed on the intended server to verify the certificate and therefore maintain the chain of trust created by the certificate to the certification authority. To resolve this issue, request and import a certificate chain, which typically includes the root certification authority (CA) certificate and any intermediate CA certificates and issuing CA certificates. 
   
+
 

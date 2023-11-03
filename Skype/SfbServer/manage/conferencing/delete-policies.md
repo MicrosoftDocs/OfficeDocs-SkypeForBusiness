@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Delete conferencing policies in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -47,3 +48,4 @@ Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -
 ```
 
 For more information, including complete syntax and a list of parameters, see [Remove-CsConferencingPolicy](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps).
+

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "User Service for CQD"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -49,4 +50,5 @@ The REST operations are included in the following table.
 |[Get Users](get-users.md) <br/> |Returns a list of users in the repository.  <br/> |
 |[Get User](get-user.md) <br/> |Returns a user record.  <br/> |
    
+
 

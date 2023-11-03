@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "SQL Server Reporting Services (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ Each Front End pool and Survivable Branch Appliance can have only one Monitoring
   
 All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server. For details about designing a topology to support monitoring, see [Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) in the Deployment documentation.
   
+
 

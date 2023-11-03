@@ -1,19 +1,20 @@
 ---
 title: "Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
+  - has-azure-ad-ps-ref
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization."
 ---
@@ -172,7 +173,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
-2. Start a tenant Azure AD remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Azure AD user account configured in step 1 to "HybridMediationServer":
+2. Start a tenant Microsoft Entra ID remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Microsoft Entra user account configured in step 1 to "HybridMediationServer":
 
    ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"

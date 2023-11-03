@@ -1,12 +1,13 @@
 ---
 title: "Step 3 - Design and build a Signature Teams Rooms meeting space or update an existing space"
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
 manager: serdars
+ms.date: 07/08/2022
 audience: ITPro
 description: Learn about the different types of meeting spaces you can set up for Teams Rooms meetings.
 ms.topic: article
@@ -15,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---

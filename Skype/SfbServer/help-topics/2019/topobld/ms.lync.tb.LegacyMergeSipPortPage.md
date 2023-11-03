@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Legacy Merge SIP Port"
 ms.reviewer: 
 ms.author: serdars
@@ -23,4 +24,5 @@ The default Transmission Control Protocol (TCP) SIP port for communicating with 
   
 If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.
   
+
 

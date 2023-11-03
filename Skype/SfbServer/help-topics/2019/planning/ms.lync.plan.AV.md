@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Audio Video Conferencing (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -26,4 +27,5 @@ For planning details about enabling A/V conferencing in your organization, see t
   
 - [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
+
 

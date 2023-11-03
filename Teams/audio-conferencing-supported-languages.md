@@ -1,17 +1,20 @@
 ---
 title: "Audio Conferencing supported languages"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
+ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -36,7 +39,7 @@ When you are setting up and configuring Audio Conferencing in Microsoft 365 or O
 |:-----|:-----|:-----|
 |Arabic  <br/> |Saudi Arabia  <br/> |ar-SA  <br/> |
 |Bulgarian  <br/> |Bulgaria  <br/> |bg-BG  <br/> |
-|Cantonese  <br/> |Hong Kong  <br/> |zh-HK  <br/> |
+|Cantonese  <br/> |Hong Kong SAR  <br/> |zh-HK  <br/> |
 |Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
 |Chinese (Traditional)  <br/> |Taiwan  <br/> |zh-TW  <br/> |
 |Croatian  <br/> |Croatia  <br/> |hr-HR  <br/> |
@@ -76,7 +79,7 @@ When you are setting up and configuring Audio Conferencing in Microsoft 365 or O
 |Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 |Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |
 |Thai  <br/> |Thailand  <br/> |th-TH  <br/> |
-|Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |
+|Turkish  <br/> |Türkiye  <br/> |tr-TR  <br/> |
 |Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
 
 If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).

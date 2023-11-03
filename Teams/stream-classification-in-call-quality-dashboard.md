@@ -4,11 +4,13 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
+ms.date: 05/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - Tier1
 search.appverid: MET150
 audience: Admin
 appliesto: 

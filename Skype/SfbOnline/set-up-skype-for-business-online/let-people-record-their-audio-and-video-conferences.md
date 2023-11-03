@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Let people record their audio and video conferences"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -51,3 +52,4 @@ For details, see [Lync recording save and publish](https://support.office.com/ar
 
   
  
+

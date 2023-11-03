@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Modify an existing PIN policy in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -52,4 +53,5 @@ Follow these steps to modify a user-level or a site-level PIN policy.
   
 12. Click **Commit**.
     
+
 

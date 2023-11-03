@@ -1,9 +1,10 @@
 ---
 title: "Email options when Audio Conferencing settings change"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
+ms.date: 08/14/2018
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
@@ -25,17 +26,17 @@ description: "Learn how to enable or disable Microsoft Teams from sending emails
 
 # Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users. In such cases, you can disable sending email.
+Users are automatically notified by email when they're enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users. In such cases, you can disable sending email.
   
 If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
   
-Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
+Here's an example of the email that is sent to users when they're enabled for Audio Conferencing:
   
 ![Example of an Audio Conferencing email message.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## When are emails being sent to your users?
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- There are several emails that are sent to users in your organization after they're enabled for audio conferencing:
 
   - When an **Audio Conferencing** license is assigned to them.
 
@@ -57,11 +58,11 @@ You can use Microsoft Teams or Windows PowerShell to enable or disable email sen
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. At the top of the **Conference Bridges** page, click **Bridge settings**.
+2. At the top of the **Conference Bridges** page, select **Bridge settings**.
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
-4. Click **Save**.
+4. Select **Save**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

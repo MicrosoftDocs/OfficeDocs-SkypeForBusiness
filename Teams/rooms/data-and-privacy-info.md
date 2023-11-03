@@ -8,10 +8,12 @@ ms.reviewer:
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - Tier1
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -93,8 +95,10 @@ Managed Services provides regional data residency support through the data cente
 
 ## More resources
 
-Microsoft Teams Rooms on Windows security: [[Microsoft Teams for Windows security](/microsoftteams/rooms/security-windows) \
-Microsoft Teams Rooms on Android security: [Microsoft Teams for Android security](/microsoftteams/rooms/security-android) \
-Microsoft Privacy Statement: https://aka.ms/privacy \
-Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
-Managed Services service description: [Microsoft Teams Room managed service](rooms-pro-management.md)
+[Microsoft Teams Rooms security](security.md)
+
+[Microsoft Privacy Statement](https://aka.ms/privacy)
+
+[Data management at Microsoft](https://www.microsoft.com/trust-center/privacy/data-management)
+
+[Microsoft Teams Rooms Pro management](rooms-pro-management.md)

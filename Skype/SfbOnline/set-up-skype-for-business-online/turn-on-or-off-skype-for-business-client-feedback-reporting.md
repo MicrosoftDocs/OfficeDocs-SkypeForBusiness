@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Turn on or off Skype for Business client feedback reporting"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -84,3 +85,4 @@ To enable feedback reporting for users in your organization and allow them to su
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
 
   
+

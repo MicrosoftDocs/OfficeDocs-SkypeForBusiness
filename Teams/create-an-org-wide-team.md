@@ -2,7 +2,8 @@
 title: Use organization-wide teams in Microsoft Teams to help everyone collaborate
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: phlouie
+ms.reviewer: jasonlewis
+ms.date: 10/27/2023
 manager: serdars
 ms.topic: article
 audience: admin
@@ -56,6 +57,9 @@ The following types of accounts won't be added to your organization-wide team:
 > [!NOTE]
 > Rooms that aren't a part of a room list, equipment, and resource accounts might be added or synced to the organization-wide team. Team owners can easily remove these accounts from the team.
 
+> [!NOTE]
+> If a user's account is disabled and then re-enabled, the user may need to be manually added to the organization-wide team again in Teams.
+
 ## Options to get the most out of an organization-wide team
 
 To get the most out of your organization-wide team, we recommend that team owners do the following tasks:
@@ -82,9 +86,9 @@ Show important channels to ensure everyone in your organization engages in speci
 
 Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can:
 
-- Control who can start a new post in a channel
-- Add and remove moderators
-- Control whether team members can reply to existing channel messages
+- Control who can start a new post in a channel.
+- Add and remove moderators.
+- Control whether team members can reply to existing channel messages.
 - Control whether bots and connectors can submit channel messages.
 
 For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).

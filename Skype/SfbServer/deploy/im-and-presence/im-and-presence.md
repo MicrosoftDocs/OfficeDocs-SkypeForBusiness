@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Deploy instant messaging and presence in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -28,4 +29,5 @@ In this section you learn about some of the deployment steps that you can custom
 
 > [Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server](enable-or-disable-offline-im.md)
     
+
 

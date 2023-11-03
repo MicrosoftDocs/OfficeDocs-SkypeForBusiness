@@ -1,6 +1,7 @@
 ---
 title: "Configure Session Border Controller - Multiple tenants"
 ms.reviewer: filippse
+ms.date: 06/27/2018
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,6 +12,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -257,6 +260,7 @@ Examples:
  
 > [!NOTE]
 > Number translation rules applied on the carrier trunk don't apply to derived trunks. This is a known issue. As an alternative solution, number translation rules must be created for each customer's tenant.
+> Some functionality can be configured only by using PowerShell; for example, adding a new voice route. You must use the New-CsOnlineVoiceRoute cmdlet. In such cases, follow the guidance presented in other sections of this documentation related to cmdlets.
 
 **Migration from the previous model to the carrier trunk**
  

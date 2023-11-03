@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Plan for Video Interop Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
@@ -8,7 +9,7 @@ audience: ITPro
 ms.topic: conceptual
 f1.keywords:
 - ms.lync.plan.VideoInterop
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: "Summary: Review this topic while planning to integrate Skype for Business Server with third-party teleconferencing devices."
@@ -183,3 +184,4 @@ Support for VTCs joining federated meetings via VIS is not part of Skype for Bus
 <a name="resiliency"> </a>
 
 [Deploy Video Interop Server in Skype for Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+

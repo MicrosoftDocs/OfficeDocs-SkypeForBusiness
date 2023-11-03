@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Install Local Configuration Store"
 ms.reviewer: 
 ms.author: serdars

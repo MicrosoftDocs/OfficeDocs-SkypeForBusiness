@@ -1,15 +1,18 @@
 ---
 title: Use the Microsoft Teams Rooms recovery tool
-ms.author: dstrome
-author: dstrome
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
-ms.reviewer: sohailta
+ms.reviewer: travis-snoozy
+ms.date: 11/02/2023
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

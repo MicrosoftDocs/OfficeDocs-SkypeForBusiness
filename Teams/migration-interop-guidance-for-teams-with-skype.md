@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
+ms.date: 05/24/2018
 description: Understand the fundamental concepts for managing your organization's transition to Teams from Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150

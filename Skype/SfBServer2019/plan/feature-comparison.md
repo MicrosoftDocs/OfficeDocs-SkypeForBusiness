@@ -1,4 +1,5 @@
 ---
+ms.date: 07/06/2018
 title: "Desktop client feature comparison for Skype for Business Server 2019"
 ms.author: serdars
 author: SerdarSoysal
@@ -6,7 +7,7 @@ ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium

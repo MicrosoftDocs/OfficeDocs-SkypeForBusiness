@@ -1,4 +1,5 @@
 ---
+ms.date: 06/13/2018
 title: "Audio conferencing providers for Skype for Business Online"
 ms.author: serdars
 author: msdmaguire
@@ -38,3 +39,4 @@ Vendors in the following table have been certified with Skype for Business Onlin
 |[AT&T](https://www.business.att.com/)|Y|N|N|
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+

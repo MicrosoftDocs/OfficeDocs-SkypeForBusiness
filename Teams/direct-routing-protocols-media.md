@@ -1,5 +1,5 @@
 ---
-title: Phone system direct routing overview
+title: Direct Routing support for media bypass
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -9,16 +9,18 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: hHw Direct Routing supports media bypass with a Session Border Controller enabled for ICE Lite.
+description: How Direct Routing supports media bypass with a Session Border Controller enabled for ICE Lite.
 appliesto: 
   - Microsoft Teams
 ---
 
-# Overview
+# Direct Routing - media protocols
 
 This article describes how Direct Routing supports media bypass with a Session Border Controller (SBC) enabled for ICE Lite as described in [RFC 5245](https://tools.ietf.org/html/rfc5245). This article is intended for voice administrators who are responsible for configuring the connection between the on-premises SBC and the SIP proxy service.
 

@@ -1,16 +1,18 @@
 ---
 title: Set up the common area phones for Microsoft Teams
-ms.author: danismith
-author: DaniEASmith
+ms.author: tonysmit
+author: tonysmit
 manager: serdars
-ms.date: 1/28/2022
-ms.reviewer: kponnus
+ms.date: 10/11/2023
+ms.reviewer: kvijagan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -47,7 +49,7 @@ First, you need to purchase a **Teams Shared Devices** license and make sure tha
 4. Enter the number of licenses you need, and select **Buy**.
 
 > [!NOTE]
-> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Azure Active Directory Premium Plan 1**, and **Intune** license to the device account for the common area phone.
+> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Microsoft Entra ID P1**, and **Intune** license to the device account for the common area phone.
 >
 > Common area phones can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md) to learn more.
 
@@ -153,7 +155,7 @@ The following advanced calling features are available for supported Teams phone 
 - [Group call pick-up](call-sharing-and-group-call-pickup.md).
 - [Forwarding rules](teams-calling-policy.md).
 
-To use these advanced calling features on supported Teams phone device models, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account.
+To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.
 
 Turning on advanced calling capabilities requires you to purchase hardware models that can support all required capabilities.
 
@@ -170,6 +172,27 @@ Turning on advanced calling capabilities requires you to purchase hardware model
 
 1. After signing into your Teams phone device, navigate to **Settings** > **Device settings** > **Admin only** > **Calling**.
 1. Find the **Advanced calling** toggle and turn it on.
+
+## Step 7 - Set up Hotline/PLAR on common area phones (optional)
+
+You can set up common area phones as hotline phones also known as PLAR (Private Line Auto Ringdown) phones. You can program this phone to autodial a pre-configured PSTN number or a directory contact when the phone handset is picked up.
+
+### Turn on Hotline in the Teams admin center
+
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with a Microsoft 365 admin account.
+1. From the left navigation, select **Teams devices**, select **Phones** and then select the **Configuration profiles** tab.
+1. From the list, select the configuration profile assigned to your common area phone.
+1. Under the **Call settings** section, turn on the **Enable hotline** toggle and then select **Save**.
+
+ > [!NOTE]
+ > Verify the Advanced Calling setting is disabled when you are enabling the hotline setting in Teams admin center. Also verify the Team app version on the Android phone is version 1449/1.0.94.2023082303 or later.
+
+### Turn on Hotline from a Teams phone device
+
+1. Sign into your Teams phone device and select **Settings** > **Device settings** > **Admin only** > **Calling** > **Hotline**.
+1. Enter a contact or phone number to be autodialed.
+1. Enter the display name you want to show on the phone's home screen.
+1. Select **Save**.
 
 ## Next steps
 

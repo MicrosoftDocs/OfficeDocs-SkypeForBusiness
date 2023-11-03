@@ -3,13 +3,16 @@ title: "Call park and retrieve in Microsoft Teams"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: srividhc
+ms.reviewer: 
+ms.date: 12/13/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -131,4 +134,3 @@ PS C:\> Remove-CsTeamsCallParkPolicy -Identity "SalesPolicy"
 [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
-

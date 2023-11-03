@@ -1,12 +1,13 @@
 ---
 title: Microsoft Teams information protection license report
 author: anandab-msft
-ms.author: anandab
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+ms.date: 05/19/2021
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -67,7 +68,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 ## Make the user-specific data anonymous
 
-To make the data in the Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email, and Azure AD ID in reports and their exports.
+To make the data in the Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email, and Microsoft Entra ID in reports and their exports.
 
 1. In the Microsoft 365 admin center, go to **Settings** \> **Org Settings**, and under the **Services** tab, choose **Reports**.
     

@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "Director (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
@@ -28,4 +29,5 @@ This role is optional, you would choose to deploy a Director in the following tw
     
 - If you deploy multiple Front End pools at a central site, by adding a Director to that site you can streamline authentication requests and improve performance. In this scenario, all requests go first to the Director, which then routes them to the correct Front End pool.
     
+
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+ms.date: 07/27/2018
 audience: admin
 description: In this article, you will learn about how to plan for implementing governance capabilities in Teams.
 ms.localizationpriority: medium
@@ -28,7 +29,7 @@ Teams provides a rich set of tools to implement any governance capabilities your
 
 ## Group and team creation, naming, classification, and guest access
 
-Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure these areas by using Azure Active Directory (Azure AD) and sensitivity labels. 
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure these areas by using Microsoft Entra ID and sensitivity labels. 
 
 <br>
 
@@ -46,17 +47,17 @@ Your organization might require that you implement strict controls on how teams 
 
 #### Additional information
 
-After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
+After you’ve determined your requirements, you can implement them by using Microsoft Entra ID controls. For technical guidance on how to implement these settings, see:
 
-- [Azure Active Directory cmdlets for configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Microsoft Entra cmdlets for configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Enforce a naming policy for Microsoft 365 groups in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Enforce a naming policy for Microsoft 365 groups in Microsoft Entra ID](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 - [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [End of lifecycle options for groups, teams, and Viva Engage](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-viva-engage)
 
 ## Group and team expiration, retention, and archiving
 
@@ -70,14 +71,14 @@ Your organization might have additional requirements for setting policies for ex
 > [!TIP]
 > Use the following table to capture your organization’s requirements.
 
-|Capability |Details |Azure AD Premium license required |Decision |
+|Capability |Details |Microsoft Entra ID P1 or P2 license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Microsoft 365 groups by setting an expiration policy. |P1 |TBD|
 |Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Microsoft 365 or Office 365 Enterprise E3 or above. |No |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
-> Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
+> Group expiration is a Microsoft Entra ID P1 or P2 feature. For this feature to be available, your tenant must have a subscription to Microsoft Entra ID P1 or P2 and licenses for the administrator who configures the settings and the members of the affected groups.
 
 #### Additional information
 
@@ -103,7 +104,7 @@ Consistently managing members of project based, or restricted groups are necessa
 > [!TIP]
 > Use the following table to capture your organization’s requirements.
 
-| Capability | Details | Azure AD Premium license required | Decision |
+| Capability | Details | Microsoft Entra ID P1 or P2 license required | Decision |
 |:-|:-|:-|:-|
 | Access reviews | Setup access reviews to recertify the membership of specific teams at regular interval | P2 | TBD |
 | Entitlement management | Setup access package to allow users and guests to request access to teams | P2 | TBD |

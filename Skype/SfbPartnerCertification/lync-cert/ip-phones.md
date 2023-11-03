@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync: Phones and devices"
 ms.author: serdars
 author: msdmaguire
@@ -32,7 +33,7 @@ The Compatible Devices Program is used by vendors to  qualify their devices for 
 It is important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (refer to the table that follows).
 
 > [!NOTE]
-> If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country support, and documentation including release notes and known issues. 
+> If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country/region support, and documentation including release notes and known issues. 
 
 Contact the vendors for more information about these products.
 
@@ -69,5 +70,6 @@ Contact the vendors for more information about these products.
 | Yealink SIP-T22P                          | March 2015         | 7.7.0.26                                                                                      | Not tested                                 | 7.7.0.26                                                                                      |
 | Yealink SIP-T48G                          | March 2015         | 35.7.0.26                                                                                     | Not tested                                 | 35.7.0.26                                                                                     |
 |                                           |                    |                                                                                               |                                            |                                                                                               |
+
 
 

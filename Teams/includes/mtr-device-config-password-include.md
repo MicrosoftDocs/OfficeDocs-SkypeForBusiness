@@ -1,4 +1,8 @@
-
+---
+ms.date: 08/03/2022
+ms.custom:
+  - has-azure-ad-ps-ref
+---
 Like any Microsoft 365 account, a newly-created resource account's password is set to expire automatically after a period of time. However, if the resource account password expires, the Teams Rooms device it's signed into won't be able to sign in again the expiration date. 
 
 To avoid having to reset the resource account's password and then logging into each Teams Rooms device again, you can turn off password expiration for the account.
@@ -8,9 +12,25 @@ To avoid having to reset the resource account's password and then logging into e
 
 Follow the steps in one of the following tabs to turn off password expiration:
 
-#### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
+#### [**Microsoft Graph PowerShell**](#tab/graph-powershell-password/)
 
-First, Connect to Active Directory PowerShell:
+First, connect to Graph PowerShell:
+
+```PowerShell
+   Connect-MgGraph -Scopes "User.ReadWrite.All"
+```
+
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+
+```PowerShell
+Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
+```
+
+<a name='azure-active-directory-20'></a>
+
+#### [**Microsoft Entra ID 2.0**](#tab/azure-active-directory2-password/)
+
+First, connect to Active Directory PowerShell:
 
 ```PowerShell
    Connect-AzureAD
@@ -24,7 +44,9 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
 ```
 
-#### [**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
+<a name='azure-active-directory-10'></a>
+
+#### [**Microsoft Entra ID 1.0**](#tab/azure-active-directory1-password/)
 
  1. Connect to MSOnline PowerShell:
 
@@ -32,7 +54,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
+       For details about Active Directory, see [Microsoft Entra ID (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Set the password to never expire by using the following syntax:
 

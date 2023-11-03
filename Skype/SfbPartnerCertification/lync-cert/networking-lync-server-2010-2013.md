@@ -1,4 +1,5 @@
 ---
+ms.date: 06/11/2018
 title: "Partner qualification for Lync"
 ms.author: serdars
 author: SerdarSoysal
@@ -23,7 +24,7 @@ description: "Partner qualification requirements for Lync."
 
 # Networking for Lync Server 2010 and 2013
 
-The tables that follow show the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. 
+The tables that follow show the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country/region support, and documentation including release notes and known issues. 
 
 Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control, and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
@@ -206,3 +207,4 @@ For more information about these products, contact the listed partner.
         <td>Juniper 10.2R2.11</td>
     </tr>
 </table>
+

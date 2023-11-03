@@ -1,7 +1,8 @@
 ---
+ms.date: 11/28/2017
 title: "Set up Skype for Business Online"
 ms.reviewer: 
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.topic: article
@@ -172,3 +173,4 @@ The quality of audio, video, and application sharing in Skype for Business is gr
 <a name="bkmk_more"> </a>
 
 [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+

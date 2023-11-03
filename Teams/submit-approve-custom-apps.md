@@ -8,7 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 09/19/2022
+ms.date: 10/17/2023
+ms.reviewer: mhayrapetyan
 ms.collection: 
 - M365-collaboration
 appliesto: 
@@ -24,25 +25,17 @@ description: Learn how to approve your custom apps that are submitted using the 
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. You'll get an overview of the connected experiences that Teams provides across the app lifecycle to streamline how to develop, deploy, and manage custom apps in your organization's app store.
 
-We'll cover each step of the lifecycle, including how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
+Developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve. You can set policies to manage apps for users in your organization and your users discover these apps in Teams client.
 
 :::image type="content" source="media/custom-app-lifecycle.png" alt-text="Overview of your app from development to deployment.":::
 
-This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform).
+When you publish a custom Teams app, it's available to users in your organization's app store. There are three ways to publish a custom app and your approval method depends on how you receive the app from the app developer.
 
-> [!NOTE]
-> When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. This article focuses on how to approve and publish a custom app that a developer submits through the Teams App Submission API. The other method, uploading a custom app, is used when a developer sends you an app package in .zip format. To learn more about that method, see [Publish a custom app by uploading an app package](/microsoftteams/upload-custom-apps). The approve app widget isn't available in GCC tenants.
+* Developer submits the app using the Teams App Submission API.
+* Developer sends you an [app package in .zip format](teams-custom-app-policies-and-settings.md). The approve app widget isn't available in GCC tenants.
+* [Developer uploads custom app using Teams client](/microsoftteams/platform/m365-apps/publish#single-tenant-distribution) for your approval.
 
-> [!IMPORTANT]
-> This method is not available in GCC environments. [Upload a custom app](upload-custom-apps.md) to publish it in GCC environments.
-
-## Develop
-
-### Create the app
-
-The Microsoft Teams developer platform makes it easy for developers to integrate your own apps and services to improve productivity, make decisions faster, and create collaboration around existing content and workflows. Apps built on the Teams platform are bridges between the Teams client and your services and workflows, bringing them directly into the context of your collaboration platform. For more information, go to the [Teams developer documentation](/microsoftteams/platform).
-
-### Submit the app
+## App developer submits the app
 
 When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Teams admin center, where you can review and approve it.
 
@@ -56,7 +49,7 @@ Keep in mind that this doesn't publish the app to your organization's app store 
 
 For more information about using the Graph API to submit apps, see [here](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true).
 
-## Notify
+## Notification for app submissions
 
 You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **[Rules](https://admin.teams.microsoft.com/notifications/rules)** > **App submissions**, and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
 
@@ -81,7 +74,7 @@ You can also set up notifications to an external webhook by specifying a public 
 
 After you set up the app submissions rule, you can review notification cards in the specified channel to see app details and select **View details** to open apps in the Teams admin center.
 
-## Validate
+## Approve the submitted app
 
 The [Manage apps](/microsoftteams/manage-apps) page in the Teams admin center (in the left navigation, go to [**Teams apps** > **Manage apps**](https://admin.teams.microsoft.com/manage-apps)), gives you a view into all Teams apps for your organization. The **Pending approval** widget at the top of the page lets you know when a custom app is submitted for approval.
 
@@ -89,13 +82,13 @@ In the table, a newly submitted app automatically shows a **Publishing status** 
 
 :::image type="content" source="media/custom-app-lifecycle-validate-app.png" alt-text="Publishing status." lightbox="media/custom-app-lifecycle-validate-app.png":::
 
-Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
+Select the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
 :::image type="content" source="media/custom-app-lifecycle-app-details.png" alt-text="App details page for a submitted app." lightbox="media/custom-app-lifecycle-app-details.png":::
 
 For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true).
 
-## Publish
+## Publish the app to your users
 
 When you're ready to make the app available to users, publish the app.
 
@@ -124,24 +117,22 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Discover and adopt
 
-Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
+Users who have permissions to the app can find it in your organization's app store. In the Teams client, in the Apps page, these apps are available in the **Built for your org** section.
 
 :::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Apps page showing published app." lightbox="media/custom-app-lifecycle-discovery.png":::
 
-If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
+You can create an app setup policy and assign it to all or a few users to pin one ore more apps in Teams client. It improves easy of access and app adoption for the apps that are relevant to the needs of your users.
 
-## Update
+## Update a custom app
 
-To update an app, developers should continue to follow the steps in the [Develop](#develop) section.
+When the developer submits an update to a published custom app, you get notified in the **Pending approval** widget on the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps) in admin center. In app listing on Manage apps page, the **Publishing status** of the app is set to **Update submitted**.
 
-When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the [Manage apps](/microsoftteams/manage-apps) page. In the table, the **Publishing status** of the app will be set to **Update submitted**. You'll also be notified in the **Admin Alerts and Notifications** team under the **App submission** channel if you turned on app submission notifications. The notification card will have a link to take you directly to the app in the Teams admin center. For more information on how to turn on app submission notifications, see [Notify](#notify).
-
-:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Manage apps page showing pending requests and app status." lightbox="media/custom-app-lifecycle-update-submitted.png":::
+:::image type="content" source="media/custom-app-lifecycle-update-submitted.png" alt-text="Screenshot shows Manage apps page with a pending request and status of a newly submitted app." lightbox="media/custom-app-lifecycle-update-submitted.png":::
 
 To review and publish an app update:
 
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
-1. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
+1. Select the app name to go to the app details page, and then select **Update available** to review details of the update.
 
    :::image type="content" source="media/custom-app-lifecycle-update-app.png" alt-text="App details page." lightbox="media/custom-app-lifecycle-update-app.png":::
 
@@ -158,8 +149,7 @@ For more information about using the Graph API to update apps, see [here](/graph
 
 ## Related articles
 
-* [Publish a custom app by uploading an app package](upload-custom-apps.md)
-* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+* [Publish a custom app by uploading an app package](teams-custom-app-policies-and-settings.md)
 * [Manage policies and settings for custom apps](teams-custom-app-policies-and-settings.md)
 * [Manage app permission policies in Teams](teams-app-permission-policies.md)
 * [Manage app setup policies in Teams](teams-app-setup-policies.md)

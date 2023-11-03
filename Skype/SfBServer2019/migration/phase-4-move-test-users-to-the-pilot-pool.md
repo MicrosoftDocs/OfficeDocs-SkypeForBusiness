@@ -1,4 +1,5 @@
 ---
+ms.date: 06/22/2018
 title: "Phase 4 Move test users to the pilot pool"
 ms.reviewer: 
 ms.author: serdars
@@ -6,7 +7,7 @@ author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -27,4 +28,5 @@ You can move a single user or groups of users to your new Microsoft Skype for Bu
     
 - [Move multiple users to the pilot pool](move-multiple-users-to-the-pilot-pool.md)
     
+
 

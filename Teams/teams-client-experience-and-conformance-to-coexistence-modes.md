@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
+ms.date: 02/12/2019
 audience: admin
 description: Learn about Teams client experience and conformance to coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 ms.localizationpriority: medium

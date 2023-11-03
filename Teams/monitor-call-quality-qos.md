@@ -1,17 +1,20 @@
 ---
 title: 'Monitor and improve call quality for Microsoft Teams'
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: vkorlep, siunies
+ms.reviewer: siunies
+ms.date: 11/13/2018
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
+  - Tier1
 f1.keywords:
  - NOCSH
 appliesto: 

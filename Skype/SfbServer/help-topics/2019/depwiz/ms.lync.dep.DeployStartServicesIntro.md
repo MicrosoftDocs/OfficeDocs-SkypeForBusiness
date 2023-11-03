@@ -1,4 +1,5 @@
 ---
+ms.date: 03/17/2018
 title: "StartServices (Intro)"
 ms.reviewer: 
 ms.author: serdars
@@ -21,4 +22,5 @@ description: "To start services on the Skype for Business Server role server tha
  
 To start services on the Skype for Business Server role server that you are deploying, review the introduction screen. Notice that the commands issued to start the Skype for Business Server do not wait for the service to start. This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC). Click **Next** to begin the **Start Services** task.
   
+
 
