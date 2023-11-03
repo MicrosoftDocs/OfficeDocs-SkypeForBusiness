@@ -1,7 +1,7 @@
 ---
 title: Manage VOD publishing for webinars and town halls
 ms.reviewer: sachung
-ms.date: 10/12/2023
+ms.date: 11/3/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
