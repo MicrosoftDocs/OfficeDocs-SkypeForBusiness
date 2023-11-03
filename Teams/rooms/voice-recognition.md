@@ -128,29 +128,29 @@ End-users can enroll their voices for recognition in the following locales:
 
 | Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
-|Arabic  <br/> |Saudi Arabia <br/> |ar-SA  <br/> |
-|Chinese  <br/> |China <br/> |zh-CN  <br/> |
-|Chinese  <br/> |Taiwan <br/> |zh-TW  <br/> |
-|Danish  <br/> |Denmark <br/> |da-DK  <br/> |
-|Dutch  <br/> |Netherlands <br/> |nl-NL  <br/> |
-|English  <br/> |Australia <br/> |en-AU  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
-|English  <br/> |India  <br/> |en-IN  <br/> |
-|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|Finnish  <br/> |Finland  <br/> |fi-FI  <br/> |
-|French  <br/> |Canada <br/> |fr-CA  <br/> |
-|French  <br/> |France <br/> |fr-FR  <br/> |
-|Italian  <br/> |Italy <br/> |it-IT  <br/> |
-|Japanese  <br/> |Japan <br/> |ja-JP  <br/> |
-|Norwegian  <br/> |Norway <br/> |nb-NO  <br/> |
-|Polish  <br/> |Poland <br/> |pl-PL  <br/> |
-|Portuguese      <br/> |Brazil <br/> |pt-BR  <br/> |
-|Russian  <br/> |Russia <br/> |ru-RU  <br/> |
-|Swedish  <br/> |Sweden <br/> |sv-SE  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
+|Arabic  |Saudi Arabia |ar-SA  |
+|Chinese  |China |zh-CN  |
+|Chinese  |Taiwan |zh-TW  |
+|Danish  |Denmark |da-DK  |
+|Dutch  |Netherlands |nl-NL  |
+|English  |Australia |en-AU  |
+|English  |Canada  |en-CA |
+|English  |India  |en-IN  |
+|English  |New Zealand  |en-NZ  |
+|English  |United Kingdom  |en-GB  |
+|English  |United States  |en-US  |
+|Finnish  |Finland  |fi-FI  |
+|French  |Canada |fr-CA  |
+|French  |France |fr-FR  |
+|Italian  |Italy |it-IT  |
+|Japanese  |Japan |ja-JP  |
+|Norwegian  |Norway |nb-NO  |
+|Polish  |Poland |pl-PL  |
+|Portuguese      |Brazil |pt-BR  |
+|Russian  |Russia |ru-RU  |
+|Swedish  |Sweden |sv-SE  |
+|Spanish  |Mexico  |es-MX  |
+|Spanish  |Spain  |es-ES  |
 
 ### In-meeting transcription locales
 
@@ -158,22 +158,22 @@ Once an end-user enrolls, their voice can be recognized during meetings and iden
 
 | Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
-|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
-|English  <br/> |Australia <br/> |en-AU  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
-|English  <br/> |India  <br/> |en-IN  <br/> |
-|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|French  <br/> |Canada  <br/> |fr-CA  <br/> |
-|French  <br/> |France  <br/> |fr-FR  <br/> |
-|German  <br/> |Germany  <br/> |de-DE  <br/> |
-|Italian  <br/> |Italy  <br/> | it-IT <br/> |
-|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
-|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
-|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
+|Chinese (Simplified)  |China  |zh-CN  |
+|English  |Australia |en-AU  |
+|English  |Canada  |en-CA |
+|English  |India  |en-IN  |
+|English  |New Zealand  |en-NZ  |
+|English  |United Kingdom  |en-GB  |
+|English  |United States  |en-US  |
+|French  |Canada  |fr-CA  |
+|French  |France  |fr-FR  |
+|German  |Germany  |de-DE  |
+|Italian  |Italy  | it-IT |
+|Japanese  |Japan  |ja-JP  |
+|Korean  |Korea  |ko-KR  |
+|Portuguese  |Brazil  |pt-BR  |
+|Spanish  |Mexico  |es-MX  |
+|Spanish  |Spain  |es-ES  |
 
 ## Related topics
 
