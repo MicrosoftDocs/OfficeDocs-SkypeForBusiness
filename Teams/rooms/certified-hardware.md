@@ -201,19 +201,19 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Biamp Vidi 250 camera](https://support.biamp.com/Vidi/Cameras/Vidi_250_overview) | 1.1.1 | | |
 | [Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
 | [Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
-| [Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
+| [:::no-loc text="Crestron Huddly"::: IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
 | Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
-| [Huddly Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
-| [Huddly IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
-| [Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |
-| [Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |
-| [Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |  |  |
-| Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUSTek Computer INC 9934 1.00.20.246 or above |  |  |
-| Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| [Huddly S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
+| [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
+| [:::no-loc text="Huddly"::: IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
+| [:::no-loc text="Huddly"::: IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |
+| [:::no-loc text="Huddly"::: IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |
+| [:::no-loc text="Huddly"::: L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUSTek Computer INC 9934 1.00.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with Crestron UC-M70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with Crestron UC-MX70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| [:::no-loc text="Huddly"::: S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
 | [Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
 | [Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
 | [Jabra Speak2 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
