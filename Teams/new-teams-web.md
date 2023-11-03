@@ -67,4 +67,4 @@ The following issues from classic Teams Web are now fixed in new Teams Web:
 
 - Support for more than two concurrent Teams tabs
 - Screen reader challenges with notifications
-- Various stability performance issues
+- Various stability and performance issues
