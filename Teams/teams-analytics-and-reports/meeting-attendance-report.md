@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: richardzhang
-ms.date: 11/2/2023
+ms.date: 11/3/2023
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -38,7 +38,7 @@ The engagement data shows the total count of attendees that performed the follow
 - Used each type of meeting reaction
 - Initiated questions, answers, and discussions through Q&A.
 
-During the meeting or event, organizers can find the attendance and engagement report in the **People** > **Participants** pane of the meeting, in areas within the invite, and in the chat. After the meeting or event ends, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. Read more about [how meeting organizers can view and download attendance reports in Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+During the meeting or event, organizers can find the attendance report in the **People** > **Participants** pane of the meeting. After the meeting or event ends, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. To learn more about how meeting and event organizers can view and download the attendance report, see [Manage meeting attendance reports in Microsoft Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 For education tenants, the attendance and engagement report can be used to track student attendance and engagement in online classes. For example, a teacher can download the attendance report at the start of class as a simple way to do a roll call. If the teacher has a Teams Premium license, they can also see how many students reacted, raised their hand, unmuted, interacted with Q&A and turned on their cameras during the online class.
 
@@ -62,8 +62,8 @@ As an admin, you control whether organizers can view and download the attendance
     |Yes, but attendees can opt out|**This is the default.** The attendance and engagement report initially includes all attendees. To opt out, attendees can set the **Identify me in attendance reports** toggle to **Off** in their Teams privacy settings.|
     |No, but attendees can opt in|The attendance and engagement report initially excludes all attendees. To opt in, attendees can set the **Identify me in attendance reports** toggle to **On** or **Off** in their Teams privacy settings.|
     |Always|The attendance and engagement report includes all attendees, and attendees can't opt out.|
-    |Never|The attendance and engagement report excludes all attendees, and attendees can't opt out.|
-1. For **Attendance information**, choose one of the following options:
+    |Never|The attendance and engagement report excludes all attendees, and attendees can't opt in.|
+1. For **Attendee information**, choose one of the following options:
 
     |Option|Behavior|
     |:------|:-----|
