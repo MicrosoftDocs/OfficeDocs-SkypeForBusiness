@@ -255,8 +255,8 @@ In this example, the output shows that the Faculty license SkuId is "e97c048c-37
 Next, we run the following to identify the users that have this license and collect them all together.
 
 ```powershell
-$SkuId = "e97c048c-37a4-45fb-ab50-922fbf07a370"
-$faculty = Get-MgUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
++$SkuId = "e97c048c-37a4-45fb-ab50-922fbf07a370"
+$faculty = Get-MgUser -Filter "assignedLicenses/any(x:x/skuId eq $($SkuId) )" -ConsistencyLevel eventual -CountVariable skuIdUserCount -All
 ```
 
 #### Assign a policy in bulk
