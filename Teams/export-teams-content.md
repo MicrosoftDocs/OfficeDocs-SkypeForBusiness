@@ -118,7 +118,8 @@ Restricted to applications performing security and/or compliance functions, user
 |Partner Name|Partner Solution|
 |---|---|
 |![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
-|![logo-of-ProofPoint](media/proofpoint-logo-whitetype-final.png) |[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/us/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
+|:::image type="icon" source="media/export-API-teams/proofpoint-logo-blacktype-final-5.png" border="false":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/us/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
+
 
 ### General usage/Model B scenarios
 
