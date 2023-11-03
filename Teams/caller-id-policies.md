@@ -71,7 +71,7 @@ For the outbound PSTN caller ID, the following options are available:
 
   - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy.
 
-  - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID will be blocked and Anonymous will be used.
+  - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID is blocked and Anonymous is used.
 
 You can't assign the following types of phone numbers for the outbound caller ID:
 
@@ -81,13 +81,13 @@ You can't assign the following types of phone numbers for the outbound caller ID
 
 - A Skype for Business Server on-premises telephone number.
 
-For Direct Routing, the phone number substitution and the CNAM are sent in the `From` Session Information Protocol (SIP) header. If the corresponding [OnlinePstnGateway](/powershell/module/skype/set-csonlinepstngateway) policy is configured with `-ForwardPai $true`, the P-Asserted-Identity (PAI) SIP header will contain the real calling user.
+For Direct Routing, the phone number substitution and the CNAM are sent in the `From` Session Information Protocol (SIP) header. If the corresponding [OnlinePstnGateway](/powershell/module/skype/set-csonlinepstngateway) policy is configured with `-ForwardPai $true`, the P-Asserted-Identity (PAI) SIP header contains the real calling user.
 
 For more information, see [configure caller ID policies](#configure-caller-id-policies).
 
 ## Inbound caller ID options
 
-Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Microsoft Entra ID or a personal contact, the Skype for Business and Teams clients will show the caller ID based on that information. If the phone number isn't in Microsoft Entra ID or a personal contact, the telco-provided display name will be shown if it's available.
+Phone System shows the incoming external phone number as the caller ID. If the number is associated with a user or contact in Microsoft Entra ID or a personal contact, the Skype for Business and Teams clients shows the caller ID based on that information. If the phone number isn't in Microsoft Entra ID or a personal contact, the telco-provided display name is shown if it's available.
 
 The **Block incoming caller ID** setting allows for blocking the caller ID on incoming PSTN calls. You can turn on this setting, but it isn't available to your end users on the user settings page. When this setting is turned on, the incoming PSTN caller is displayed as coming from Anonymous.
 
@@ -105,7 +105,7 @@ By default, the following caller ID settings are **turned off**.
 |Override the caller ID policy|Off|This setting allows users to override the settings in the policy that decide whether or not they display their number to the callee. By turning on this setting, users can choose whether to display their caller ID.</br></br>Your end users can set their caller ID to Anonymous by going to **Settings** > **Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. It takes a few minutes for this setting change to reflect on new calls.</br>|
 |Calling Party Name|(empty)|This setting sends a CNAM on outbound PSTN calls.|
 |Replace the caller ID with Users's number|User's number|This setting replaces a user's caller ID with another phone number. For example, you can change the user's caller ID from their phone number to a main phone number for your business or to a main phone number for the legal department. You can set the calling ID number to any Calling Plan, Operator Connect, or Direct Routing phone number assigned to a resource account used by an Auto Attendant or a Call Queue.|
-|Replace the caller ID with Anonymous|(empty)|This setting lets you block the outgoing caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called. This means that the call is seen as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
+|Replace the caller ID with Anonymous|(empty)|This setting lets you block the outgoing caller ID from being sent on a user's outgoing PSTN calls. Turning on this setting blocks the outgoing caller's phone number from being displayed on the phone of a person being called and that call is displayed as coming from Anonymous. If the outbound caller ID is set to **Anonymous**, **Override the caller ID policy** will have no effect, and the caller ID will still show as Anonymous.|
 |Replace the caller ID with Resource account|(empty)|This setting lets you choose a resource account which phone number will be used to replace the caller ID of users.|
 
 You can configure caller ID policies with the [Teams admin center](#use-the-teams-admin-center) or with [PowerShell](#use-powershell).
@@ -136,7 +136,7 @@ For more information on each policy, see [configure caller ID policies](#configu
 
       - **Resource account:** Set a resource account associated with an Auto Attendant or Call Queue.
 
-    If you choose **Resource account**, you're prompted to specify a resource account for the next field, called **Replace the caller ID with this resource account**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it may take a few minutes before the resource account is available for selection.
+    If you choose **Resource account**, you're prompted to specify a resource account for the next field, called **Replace the caller ID with this resource account**. Only resource accounts with an assigned phone number will be displayed. If you just assigned a phone number to the resource account, it might take a few minutes before the resource account is available for selection.
 
 1. Select **Save**.
 
@@ -204,7 +204,7 @@ This example grants the Anonymous caller ID policy to Amos Marble:
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Anonymous"
 ```
 
-## Related topics
+## Related articles
 
 - [Teams policies reference - Caller ID](settings-policies-reference.md#caller-id-policies)
 - [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md)
