@@ -57,7 +57,7 @@ For the outbound PSTN caller ID, the following options are available:
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It's assigned to a resource account used by a Teams Auto Attendant or Call Queue.
   
   > [!NOTE]
-  > The use of CallingIDSubstitute = Service has been deprecated. You are no longer able to create new caller ID policies using CallingIDSubstitute = Service and existing caller ID policies with CallingIDSubstitute = Service are not being honored. You should use CallingIDSubstitute = Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
+  > The use of CallingIDSubstitute = Service has been deprecated. You're no longer able to create new caller ID policies using CallingIDSubstitute = Service and existing caller ID policies with CallingIDSubstitute = Service are not being honored. You should use CallingIDSubstitute = Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
 
 - The Calling Party Name or CNAM set on the outbound PSTN call.
 
