@@ -26,7 +26,7 @@ ms.localizationpriority: high
 > The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
 
 
-The new Teams for Web has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
+The new Teams for Web is reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
 ## How to try new Teams: App Switcher 
 
@@ -53,7 +53,13 @@ New Teams for the Web follows the same [browser requirements](/microsoftteams/ge
 The new Teams web client supports the same features as the classic Teams web client except:
 
 - Tenant switching (coming soon)
-- The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure. The following notable features, however, aren't available on new Teams or classic Teams clients: - Simultaneous availability and notifications across multiple accounts and tenants - Popout windows for chat and channel content - Avatars and video background effects, except for background blur
+- The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure. 
+
+The following notable features aren't available on new Teams or classic Teams clients:
+
+- Simultaneous availability and notifications across multiple accounts and tenants
+- Popout windows for chat and channel content
+- Avatars and video background effects, except for background blur
 
 ## Enhancements in new Teams
 
