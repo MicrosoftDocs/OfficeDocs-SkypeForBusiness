@@ -126,7 +126,7 @@ The following enrollment and in-meeting transcription locales are supported in a
 
 End-users can enroll their voices for recognition in the following locales:
 
-|**Language**|**Country/Region**|**Culture ID**|
+| Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
 |Arabic  <br/> |Saudi Arabia <br/> |ar-SA  <br/> |
 |Chinese  <br/> |China <br/> |zh-CN  <br/> |
@@ -156,7 +156,7 @@ End-users can enroll their voices for recognition in the following locales:
 
 Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following locales:
 
-|**Language**|**Country/Region**|**Culture ID**|
+| Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
 |Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
 |English  <br/> |Australia <br/> |en-AU  <br/> |
