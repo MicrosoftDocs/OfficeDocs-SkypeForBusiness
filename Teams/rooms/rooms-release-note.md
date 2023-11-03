@@ -151,9 +151,7 @@ Introduced in this update:
 >
 > We strongly recommend that you test your Teams Rooms devices prior to end of August by turning on Modern authentication for their room accounts.
 >
-> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online - May 2022 Update
-
-](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
+> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online - May 2022 Update](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### 4.12.139.0 (7/14/2022)
 

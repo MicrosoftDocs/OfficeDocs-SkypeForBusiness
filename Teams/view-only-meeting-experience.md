@@ -111,8 +111,8 @@ The view-only attendee won't be able to experience the following options in meet
 ## View-only feature limitations
 
 - View-only attendees will only be able to see Live Captions on Desktop and Web. Only English Captions are supported at this time.
-- View-only attendees cannot register for Webinars.
-- View-only attendees will not have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature. 
+- View-only attendees can't register for Webinars.
+- View-only attendees won't have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature. 
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.
