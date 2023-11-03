@@ -1536,6 +1536,8 @@ items:
           href: rooms/update-management.md 
         - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
+        - name: Resource accounts
+          href: rooms/resource-accounts.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
@@ -1550,7 +1552,6 @@ items:
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-          
     - name: Devices
       items:
         - name: Teams device store
