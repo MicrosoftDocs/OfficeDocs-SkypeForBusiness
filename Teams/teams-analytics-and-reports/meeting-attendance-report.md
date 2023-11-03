@@ -40,7 +40,9 @@ The engagement data shows the total count of attendees that performed the follow
 
 During the meeting or event, organizers can find the attendance report in the **People** > **Participants** pane of the meeting. After the meeting or event ends, organizers can view and download the attendance and engagement report under the **Attendance** tab of the invite or chat. To learn more about how meeting and event organizers can view and download the attendance report, see [Manage meeting attendance reports in Microsoft Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-For education tenants, the attendance and engagement report can be used to track student attendance and engagement in online classes. For example, a teacher can download the attendance report at the start of class as a simple way to do a roll call. If the teacher has a Teams Premium license, they can also see how many students reacted, raised their hand, unmuted, interacted with Q&A and turned on their cameras during the online class.
+After the meeting or event ends, organizers can access the engagement report from the **Analytics** tab of the invite.
+
+For education tenants, the attendance and engagement report can be used to track student attendance and engagement in online classes. For example, a teacher can download the attendance report at the start of class as a simple way to do a roll call. If the teacher has a Teams Premium license, they can also use the engagement report to see how many students reacted, raised their hand, unmuted, interacted with Q&A and turned on their cameras during the online class.
 
 As an admin, you control whether organizers can view and download the attendance and engagement report, who can be included in the report, and what information can be included.
 
