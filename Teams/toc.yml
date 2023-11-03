@@ -94,7 +94,9 @@ items:
                 - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
                 - name: Update to the new Teams for Education
-                  href: new-teams-education.md                  
+                  href: new-teams-education.md
+                - name: Update to the new Teams for Web
+                  href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
@@ -1536,6 +1538,8 @@ items:
           href: rooms/update-management.md 
         - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
+        - name: Resource accounts
+          href: rooms/resource-accounts.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
@@ -1550,7 +1554,6 @@ items:
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-          
     - name: Devices
       items:
         - name: Teams device store

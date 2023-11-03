@@ -135,8 +135,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" Meeting Board | 10 |
 | Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
-| Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Jabra PanaCast 50 TC | `1.1.0-1` | September 3, 2025 | Compatible with Jabra PanaCast 50 VBS | 10 |
+| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 TC | `1.1.0-1` | September 3, 2025 | Compatible with :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | 10 |
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
@@ -158,10 +158,10 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad touch console | `NFA1.20230928.0108` | September 3, 2024 | Compatible with Neat Bar & Neat Bar Pro | 10 |
-| Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| [Neat Bar Pro](https://neat.no/bar-pro/) | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| [Neat Bar](https://neat.no/bar) | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| [Neat Pad touch console](https://neat.no/pad) | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar & Neat Bar Pro | 10 |
+| [Neat Board](https://neat.no/board) | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Logitech Tap Device | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
@@ -199,24 +199,24 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) | 19.2 |  |  |
 | [Bose VB-S AV Bar](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb-s.html) | 1.1.2 |  |  |
 | [Biamp Vidi 250 camera](https://support.biamp.com/Vidi/Cameras/Vidi_250_overview) | 1.1.1 | | |
-| [Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
-| [Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
-| [Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
+| [Biamp :::no-loc text="Devio"::: SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
+| [Biamp :::no-loc text="Devio"::: SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) | 2.2.0.9 |  |  |
+| [:::no-loc text="Crestron Huddly"::: IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
 | Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
-| [Huddly Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
-| [Huddly IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
-| [Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |
-| [Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |
-| [Huddly L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |  |  |
-| Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with ASUSTek Computer INC 9934 1.00.20.246 or above |  |  |
-| Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUSTek Computer INC 9934 compute 1.0.20.246 or above |  |  |
-| [Huddly S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
-| [Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
-| [Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
-| [Jabra Speak2 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
+| [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
+| [:::no-loc text="Huddly"::: IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
+| [:::no-loc text="Huddly"::: IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |
+| [:::no-loc text="Huddly"::: IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |
+| [:::no-loc text="Huddly"::: L1](https://www.huddly.com/conference-cameras/l1/) | 1.2.9 |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.9 </br> Crestron UC-CX100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 1.00.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with Crestron UC-M70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-M70-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| :::no-loc text="Huddly"::: L1 Camera with Crestron UC-MX70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 compute 1.0.20.246 or above |  |  |
+| [:::no-loc text="Huddly"::: S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
+| [:::no-loc text="Jabra Panacast3"::: Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
+| [:::no-loc text="Jabra Panacast"::: 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
+| [:::no-loc text="Jabra Speak2"::: 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |
@@ -255,9 +255,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [EPOS EXPAND VISION 1M camera](https://www.eposaudio.com/en/us/enterprise/products/expand-vision-1m-usb-meeting-room-video-camera-1001197) | 9.24.0 |  |  |
 | [Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |  |  |
 | [Extron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08 |  |  |
-| [Jabra 510](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510##7510-209) | 2.10.0 |  |  |
-| [Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
-| [Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
+| [:::no-loc text="Jabra"::: 510](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510##7510-209) | 2.10.0 |  |  |
+| [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
+| [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
 | [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
@@ -267,12 +267,12 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) | 151.410.0.5 |  |  |
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
 | Shure Microflex Ecosystem:  [MXA910 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920W-S) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/en-US/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/en-US/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/en-US/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
-|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920W-S) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/en-US/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/en-US/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/en-US/products/software/intellimix_room) on Crestron UC-C100-T with ASUStek Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
+|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920W-S) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/en-US/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/en-US/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/en-US/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
 | [Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Ex-UBT]() | Audio FW version: 3.15 |  |  |
-| [Biamp Devio SCX Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones) + </br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Devio SCX Series: 4.2.5 |  |  |
+| [Biamp :::no-loc text="Devio"::: SCX Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones) + </br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | :::no-loc text="Devio"::: SCX Series: 4.2.5 |  |  |
 | [Biamp Tesira Forte X Series  Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones) + </br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Tesira FORTE X Series: 4.2.5 |  |  |
 | [Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://www.boseprofessional.com/en_us/solutions/work/es1-ceiling-audio-solution.html) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2 |  |  |
 | [Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://www.boseprofessional.com/en_us/solutions/work/es1-ceiling-audio-solution.html) | Bose DSP: 2.290  </br> P2600A: 1.160  </br> TCC2: 1.4.2 |  |  |
