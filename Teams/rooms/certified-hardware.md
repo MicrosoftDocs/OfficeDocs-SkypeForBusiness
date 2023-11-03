@@ -176,7 +176,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 
-## [Peripherals](#tab/Devices)
+## [Room devices for Windows](#tab/Devices)
 
 The following devices are certified under the Microsoft Teams Rooms peripherals program:
 
