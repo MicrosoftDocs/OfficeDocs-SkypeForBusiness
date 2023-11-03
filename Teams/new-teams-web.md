@@ -33,7 +33,7 @@ The new Teams for Web has been reimagined from the ground up with performance in
 1. Navigate to the Teams web client at https://teams.microsoft.com using Microsoft Edge or Chrome browsers.
 2. Select the **Try the new Teams** toggle on the upper-left corner of the app to switch to new Teams.
 
-[!Note] 
+>[!Note] 
 >This experience is currently optimized for non-EDU users. If you're an EDU user, you'll see the App switcher and are welcome to try it out, but we don't recommend you use it for primary scenarios yet.
 
 
