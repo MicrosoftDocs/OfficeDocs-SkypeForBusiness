@@ -2,14 +2,14 @@
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: kspiess
+ms.reviewer: altsou
 ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
+f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-collaboration
