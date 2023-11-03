@@ -15,12 +15,12 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about new Teams for the Web - Overview and prerequisites
+description: Learn about new Teams for Web - Overview and prerequisites
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# New Teams for the Web - Overview and prerequisites
+# New Teams for Web - Overview and prerequisites
 
 >[!Note]
 > The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
@@ -41,7 +41,7 @@ The new Teams for Web is reimagined from the ground up with performance in mind,
 
 ### Minimum Browser versions
 
-New Teams for the Web follows the same [browser requirements](/microsoftteams/get-clients?tabs=Windows#browser-client) and [hardware requirements](/microsoftteams/hardware-requirements-for-the-teams-app) as classic Teams for Microsoft Edge and Chrome Browsers:
+New Teams for Web follows the same [browser requirements](/microsoftteams/get-clients?tabs=Windows#browser-client) and [hardware requirements](/microsoftteams/hardware-requirements-for-the-teams-app) as classic Teams for Microsoft Edge and Chrome Browsers:
 
 - The browser must be configured to allow third-party cookies
 - The browser runs on a desktop computer
