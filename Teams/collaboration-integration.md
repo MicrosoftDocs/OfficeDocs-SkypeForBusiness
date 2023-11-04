@@ -31,7 +31,7 @@ Microsoft 365 provides standard application programming interfaces (APIs) to all
 
 Microsoft 365 uses Microsoft Entra ID for authentication and authorization of users, including people outside your organization (B2B guests), and for maintaining user profile information.
 
-Microsoft Entra ID authentication is used by Microsoft 365 web applications such as SharePoint and OneDrive, and by client applications such as Outlook and Teams. User profile information is viewable by users in a variety of places in Microsoft 365 and its associated applications.
+Microsoft Entra authentication is used by Microsoft 365 web applications such as SharePoint and OneDrive, and by client applications such as Outlook and Teams. User profile information is viewable by users in a variety of places in Microsoft 365 and its associated applications.
 
 Microsoft documents and makes available the APIs necessary to create these experiences in your custom applications:
 
