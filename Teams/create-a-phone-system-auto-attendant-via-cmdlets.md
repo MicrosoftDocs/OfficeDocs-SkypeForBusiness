@@ -48,20 +48,20 @@ description: Learn how to configure auto attendants via cmdlets
      ```
 
 2. You have tenant administration rights
-3. You have purchased Microsoft Teams Phone
-4. The call queues referred to below have already been setup following the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
+3. You purchased Microsoft Teams Phone
+4. The following call queues were setup using the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
 
-**Note**: Some of the cmdlets referenced below may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
+**Note**: Some of the following cmdlets may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
 Users who already have the MicrosoftTeams module installed should `Update-Module MicrosoftTeams` to ensure the most up-to-date version is installed.
 
 ## Scenario
 
-The following auto attendant call flow will be built:
+The following auto attendant call flow is built:
 
 ![Diagram of Auto Attendant call flow being built with cmdlets.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
-Additional configuration information:
+Useful configuration information:
 
 - Auto Attendant: Contoso Main
   - Operator: Adele Vance
@@ -102,7 +102,7 @@ $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type 
 
 ## Dial By Name Auto Attendant - Resource Account Creation
 
-**Note**: Creating resource account here so it can be referenced on the main auto attendant. The actual Dial By Name auto attendant will be created later.
+**Note**: Creating resource account here so it can be referenced on the main auto attendant. The actual Dial By Name auto attendant is created later.
 
 ### Get license types
 
