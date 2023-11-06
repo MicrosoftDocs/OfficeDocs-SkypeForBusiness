@@ -72,7 +72,7 @@ if ($servicePrincipal) {
     Write-Host "Created and disabled the Service Principal \n"
 }
 
-For more information, see [Create an MS Graph service principal with MS Graph PowerShell](/powershell/module/microsoft.graph.applications/add-mgserviceprincipalkey).
+For more information, see [Create an MS Graph service principal with MS Graph PowerShell](/powershell/module/microsoft.graph.applications/get-mgserviceprincipal).
 
 ## Delete the Microsoft Teams meeting add-on for Google Workspace
 
