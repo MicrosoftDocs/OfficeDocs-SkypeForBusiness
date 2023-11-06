@@ -1,7 +1,7 @@
 ---
 title: Manage VOD publishing for webinars and town halls
 ms.reviewer: sachung
-ms.date: 10/12/2023
+ms.date: 11/3/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -42,7 +42,7 @@ You  must use PowerShell to manage VOD publishing permissions for webinars and t
 
 ### Webinars
 
-To manage VOD publishing permissions for webinars, use the **`-AllowWebinarRecordingPublishing`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+To manage VOD publishing permissions for webinars, use the **`-AllowedWebinarTypesForRecordingPublish`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
 The following table lists the values that you can set for webinar publishing permissions along with the corresponding behavior.
 
@@ -58,18 +58,18 @@ The following table lists the values that you can set for webinar publishing per
 To prevent any webinar recordings from being published, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinarRecordingPublishing None
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedWebinarTypesForRecordingPublish None
 ```
 
 To only allow private webinar recordings to be published, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowWebinarRecordingPublishing EveryoneInCompanyIncludingGuests
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedWebinarTypesForRecordingPublish EveryoneInCompanyIncludingGuests
 ```
 
 ### Town halls
 
-To manage VOD publishing permissions for town halls, use the **`-AllowTownhallRecordingPublishing`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
+To manage VOD publishing permissions for town halls, use the **`-AllowedTownhallTypesForRecordingPublish`** parameter within the PowerShell [CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
 
 The following table lists the values that you can set for town hall publishing permissions along with the corresponding behavior.
 
@@ -83,19 +83,19 @@ The following table lists the values that you can set for town hall publishing p
 For town hall recordings to only be published if they're invite-only, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhallRecordingPublishing InviteOnly
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedTownhallTypesForRecordingPublish InviteOnly
 ```
 
 To prevent any town hall recordings from being published, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhallRecordingPublishing None
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedTownhallTypesForRecordingPublish None
 ```
 
 To only allow private and invite only town hall recordings to be published, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhallRecordingPublishing EveryoneInCompanyIncludingGuests
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedTownhallTypesForRecordingPublish EveryoneInCompanyIncludingGuests
 ```
 
 ## Related articles
