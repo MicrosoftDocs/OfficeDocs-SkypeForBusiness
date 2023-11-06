@@ -121,6 +121,7 @@ Restricted to applications performing security and/or compliance functions, user
 |:::image type="icon" source="media/export-API-teams/proofpoint-logo-blacktype-final-5A.png" border="false":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
 |![logo-of-proofpoint](media/export-API-teams/proofpoint-logo-blacktype-final-5A.png)|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
 |:::image type="content" source="media/export-API-teams/proofpoint-logo-blacktype-final-5A.png" border="false" alt-text="Proofpoint Content Capture for Microsoft Teams":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
+|:::image type="content" source="media/export-API-teams/proofpoint-logo-blacktype-final-5A1.png" border="false" alt-text="Proofpoint Content Capture for Microsoft Teams":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
 
 ### General usage/Model B scenarios
 
