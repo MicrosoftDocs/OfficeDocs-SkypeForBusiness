@@ -51,7 +51,8 @@ description: Learn how to configure auto attendants via cmdlets
 3. You purchased Microsoft Teams Phone
 4. The following call queues were set up using the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
 
-**Note**: Some of the following cmdlets may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
+> [!NOTE]
+> Some of the following cmdlets may be part of the Public Preview version of Teams PowerShell Module. For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
 Users who already have the MicrosoftTeams module installed should `Update-Module MicrosoftTeams` to ensure the most up-to-date version is installed.
 
