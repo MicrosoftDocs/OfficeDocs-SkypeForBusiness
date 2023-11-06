@@ -1,5 +1,5 @@
----
-title:  Overview and schedule for new Microsoft Teams client
+
+title:  Overview of the new Microsoft Teams client
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
