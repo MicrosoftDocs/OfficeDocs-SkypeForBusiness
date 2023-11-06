@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/18/2023
+ms.date: 11/06/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,7 +26,6 @@ ms.localizationpriority: high
 >We have updated the offical name of classic Teams as follows:</br>
 >- "**Microsoft Teams classic**" for Windows 10 and Mac devices.</br>
 >- "**Micrsoft Teams classic (work or school)**" for Windows 11 devices.
-
 
 > [!TIP]
 >- Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)</br>
