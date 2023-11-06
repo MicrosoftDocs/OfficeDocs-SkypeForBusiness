@@ -1,4 +1,4 @@
-
+---
 title:  Overview of the new Microsoft Teams client
 ms.author: jhendr
 author: JoanneHendrickson
@@ -34,7 +34,7 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Teams desktop client has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Teams desktop client is reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -51,7 +51,7 @@ New Teams is available for Windows, Mac, VDI, Edu, and Web.
 >- **VDI**: Public preview starts October 5, 2023.</br>
 >- **GCC and GCC HIGH (Government cloud):** Public preview starts October 5, 2023.  Note:  **DoD** will roll out to public preview later in October.
 
-The new Teams client will be available for the Web soon:
+The new Teams client is now available for the Web.
 
 |Browser|Date|
 |:-----|:-----|
@@ -62,7 +62,6 @@ The new Teams client will be available for the Web soon:
 
 
 **New Teams is not yet available for these Customer segments:**
-
 
 - Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
 - Consumer
