@@ -1,8 +1,8 @@
 ---
 title: Audio Conferencing in Microsoft Teams
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 09/07/2022
 ms.topic: conceptual
