@@ -16,7 +16,6 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn about the new Microsoft Teams client.
-- Microsoft Teams
 ms.localizationpriority: high
 ---
 
