@@ -121,9 +121,9 @@ Get-MgSubscribedSku
 ```PowerShell
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoDialByNameAA-RA@contoso.com -DisplayName "Contoso Dial By Name AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
-Update-MgUser -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserId "ContosoDialByNameAA-RA@contoso.com" -UsageLocation US
 
-Set-MgUserLicense -UserPrincipalName "ContosoDialByNameAA-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
+Set-MgUserLicense -UserId "ContosoDialByNameAA-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").Identity
 ```
@@ -273,9 +273,14 @@ Get-MgSubscribedSku
 ```PowerShell
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoMainAA-RA@contoso.com -DisplayName "Contoso Main AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
-Update-MgUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserId "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
-Set-MgUserLicense -UserPrincipalName "ContosoMainAA-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
+$Sku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'contoso:PHONESYSTEM_VIRTUALUSER'
+$addLicenses = @(
+@{SkuId = $Sku.SkuId}
+)
+
+Set-MgUserLicense -UserId 'ContosoDialByNameAA-RA@contoso.com' -AddLicenses $addLicenses -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
