@@ -15,6 +15,7 @@ description: Learn how to Set up Microsoft Teams meeting add-on for Google Works
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -71,7 +72,7 @@ if ($servicePrincipal) {
     Write-Host "Created and disabled the Service Principal \n"
 }
 
-For more information, see [Create an Azure service principal with Azure PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0).
+For more information, see [Create an MS Graph service principal with MS Graph PowerShell](/powershell/module/microsoft.graph.applications/add-mgserviceprincipalkey).
 
 ## Delete the Microsoft Teams meeting add-on for Google Workspace
 
