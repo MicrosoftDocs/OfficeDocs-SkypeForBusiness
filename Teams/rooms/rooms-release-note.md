@@ -151,9 +151,7 @@ Introduced in this update:
 >
 > We strongly recommend that you test your Teams Rooms devices prior to end of August by turning on Modern authentication for their room accounts.
 >
-> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online - May 2022 Update
-
-](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
+> This change helps prepare for the upcoming update in Exchange Online to turn off basic authentication starting October 1, 2022. For more information, see [Basic Authentication Deprecation in Exchange Online - May 2022 Update](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### 4.12.139.0 (7/14/2022)
 
@@ -312,7 +310,7 @@ Introduced in this update:
 
 - Share HDMI audio to meeting participants in Teams meeting
 - Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
-- Spotlight someone's video from Teams Room console and consume spotlighted video on room displays.
+- Spotlight someone's video from Teams Rooms console and consume spotlighted video on room displays
 
 ### 4.6.23.0 (10/19/2020)
 
