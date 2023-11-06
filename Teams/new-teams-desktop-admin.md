@@ -1,5 +1,5 @@
 ---
-title:  The new Microsoft Teams desktop client
+title:  The new Microsoft Teams client
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -15,14 +15,12 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the new Microsoft Teams desktop client for Windows. Try out new features and provide feedback.
-appliesto: 
+description: Learn about the new Microsoft Teams client.
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
 # The new Microsoft Teams desktop client 
-
 
 >[!Important]
 >We have updated the offical name of classic Teams as follows:</br>
@@ -37,7 +35,7 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Teams desktop client for Windows has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Teams desktop client has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
 
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -46,10 +44,9 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## New Teams availability
 
-New Teams is available for Windows and Mac.
+New Teams is available for Windows, Mac, VDI, Edu, and Web.
 
 >[!Note]
->
 >Now in **public preview:**
 >
 >- **VDI**: Public preview starts October 5, 2023.</br>
