@@ -185,9 +185,9 @@ Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Update-MgUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserId "Sales-RA@contoso.com" -UsageLocation US
 
-Set-MgUserLicense -UserPrincipalName "Sales-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
+Set-MgUserLicense -UserId "Sales-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
@@ -249,9 +249,9 @@ Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Update-MgUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserId "Support-RA@contoso.com" -UsageLocation US
 
-Set-MgUserLicense -UserPrincipalName "Support-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
+Set-MgUserLicense -UserId "Support-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
@@ -317,9 +317,9 @@ Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is
 ```powershell
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
-Update-MgUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
+Update-MgUser -UserId "Facilities-RA@contoso.com" -UsageLocation US
 
-Set-MgUserLicense -UserPrincipalName "Facilities-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
+Set-MgUserLicense -UserId "Facilities-RA@contoso.com" -AddLicenses @(contoso:PHONESYSTEM_VIRTUALUSER) -RemoveLicenses @()
 
 $applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
