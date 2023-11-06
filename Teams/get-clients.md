@@ -81,7 +81,7 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call will work even when the warning is dismissed.
 
-![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
+:::image type="content" alt-text="Screenshot of a Windows Security Alert dialog." source="media/Get_clients_for_Microsoft_Teams_image3.png":::
 
 > [!NOTE]
 > Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with:
@@ -132,7 +132,7 @@ If you're in China, you can install Teams from the following app stores:
 - **Xiaomi** <https://aka.ms/TeamsXiaomi>
 - **Huawei** <https://aka.ms/TeamsHuawei>
 - **Oppo** Search for "Teams" in the Oppo store
-- **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+- **Baidu** <https://aka.ms/TeamsBaidu>
 
 > [!NOTE]
 > When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
