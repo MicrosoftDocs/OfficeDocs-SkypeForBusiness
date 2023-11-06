@@ -21,14 +21,14 @@ ms.custom:
 - Security
 appliesto: 
   - Microsoft Teams
-ms.date: 09/21/2023
+ms.date: 11/03/2023
 ---
 
 # Manage the Walkie Talkie app in Microsoft Teams
 
 ## Overview of Walkie Talkie
 
-The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows your users to connect with their team using the same underlying Teams channels that they're members of.
+The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
 Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
@@ -41,7 +41,20 @@ With Walkie Talkie, users can securely communicate with a familiar PTT experienc
 
 Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## Deploying Walkie Talkie
+## Prepare your network
+
+Walkie Talkie requires connectivity to the internet. Use the following guidance to set up your organization's network for Walkie Talkie:
+
+- Make sure that all endpoints listed for Teams in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) are reachable by Teams users on your network.
+
+- Prepare your network:
+
+  - [Prepare your organization's network for Teams](prepare-network.md)
+  - [Proxy servers for Teams](proxy-servers-for-skype-for-business-online.md)
+
+- Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
+
+## Deploy Walkie Talkie
 
 You can deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
@@ -86,7 +99,7 @@ To learn more, including how the experience works with app policies that you set
 
 ## Network considerations
 
-Walkie Talkie in Teams requires internet connectivity. The following network conditions are required for an optimal experience.
+The following network conditions are required for an optimal experience.
 
 |Metric | Required |
 |---|---|
@@ -96,7 +109,7 @@ Walkie Talkie in Teams requires internet connectivity. The following network con
 
 As noted, the quality of real-time media over an IP network is greatly affected by the quality of the network connectivity, but especially by the amount of:
 
-- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to the physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
+- **Latency** - The time it takes to get an IP packet from point A to point B on the network. This network propagation delay is tied to the physical distance between the two points and the speed of light, including more overhead taken by the various routers in between. Latency is measured as Round-trip Time (RTT).
 - **Inter-arrival jitter** - The average change in delay between successive packets.
 - **Packet loss** - Packet loss is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact, to back-to-back burst losses that cause complete audio cut-out.
 
@@ -136,7 +149,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
        > [!IMPORTANT]
        > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-  - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app** and select **Teams**.
+  - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app**, and select **Teams**.
   - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 - Sonim XP8
   - Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.
