@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/app-permissions-admin-center.md",
+      "redirect_url": "/microsoftteams/app-permissions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/upload-custom-apps.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false

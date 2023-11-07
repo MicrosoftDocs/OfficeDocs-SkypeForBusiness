@@ -16,8 +16,6 @@ search.appverid: MET150
 ms.date: 10/27/2023
 ms.reviewer: Orion.OMalley
 description: Understand permissions and manage consent for Teams apps to access the required org information.
-
-
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -39,19 +37,26 @@ Depending on their functionality, Teams apps may or may not access your user's o
 
 An application can access an organization's information in the following ways depending on the permissions used by the developer. Understand it to know the different ways in which you can provide consent or enable users to consent for Teams apps in your org.
 
-|                              | Delegated permissions                     | Application permissions         | Remarks           |
-|------------------------------|-------------------------------------------|--------------------------------|---------------------|
-| How apps access information  | App accesses info using its identity      | App access information on behalf of a user  |                 |
-| What information is accessed | Any info that a consented permission is associated with | Permissions that app is granted consent to and signed-in user's access to information. |       |
-| What roles can consent      | Admins or users or group owners depending on Azure AD configuration | Only admins |     |
-| Can users consent            | Users can consent depending on Azure AD configuration | Only admins can consent |     |
-| Can admins let users consent for some permissions | Admins can classify some or all Delegated permissions as low-risk to let users consent to these in any app | Admins can't classify any Application permissions as low-risk |    |
+|                              | Delegated permissions                                               | Application permissions         | Remarks           |
+|------------------------------|---------------------------------------------------------------------|--------------------------------|---------------------|
+| How apps access information  | App accesses info using its identity                                | App access information on behalf of a user.    |                 |
+| What information is accessed | Any info that a consented permission is associated with             | Permissions that app is granted consent to and signed-in user's access to information.   |       |
+| What roles can consent       | Admins or users or group owners depending on Azure AD configuration | Only admins   |     |
+| Can users consent            | Users can consent depending on Azure AD configuration               | Only admins can consent   |     |
+| Can admins let users consent for some permissions | Admins can classify some or all Delegated permissions as low-risk to let users consent to these in any app   |   Admins can't classify any Application permissions as low-risk   |    |
+
+
 
 
 Teams app permissions are defined in the following two places:
 
 * **Azure Active Directory**: Graph permissions lets an app access org-wide resources. Permissions that are needed for an app to work are added in Azure AD by the app developers. As an admin, you must consent to these permissions otherwise the app can't be used in your tenant. Admins can define if users can consent to these permissions or not.
 * **Teams app manifest**: RSC permissions are defined in the app manifest file by the app developers. RSC permissions lets an app access local resources within Teams such as information in a group or a team. These allow only for Application access and not for Delegated access. Only those users who have access to the resources, can consent for these permissions. Admin consent at org-level is not required though admins control how users consent to these permissions or can block users from consenting.
+
+
+
+
+
 
 
 For each app, these permissions are listed in the app details page in the admin center.
@@ -90,46 +95,41 @@ In Teams admin center, you can view Graph permission that an app requests if dep
 
 A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
 
-
-
-
-
-
-
-
-
 ## Settings related to consent for permissions
 
-Azure Active Directory configuration controls flow of consent for an entire tenant. Global Administrator and Cloud Application Administrator configure a tenant with granularity to achieve the following use cases:
+Azure AD configurations control the flow of consent for an organization. Global Administrator and Cloud Application Administrator can configure a tenant to achieve the following use cases for Teams apps:
 
-* Let resource owners consent to RSC permissions for any app.
-* Let users grant consent to low risk Graph permissions for any app.
-* Let users grant consent only for applications that have been published by a [verified publisher](overview-of-app-certification.md).
+* [Let resource owners consent to RSC permissions](#let-resource-owners-consent-to-rsc-permissions) for any app.
+* [Let users grant consent to low risk Graph permissions](#let-users-grant-consent-to-low-risk-graph-permissions) for any app.
 * [Grant org-wide consent for a Teams app](#grant-org-wide-admin-consent-to-app-permissions).
 
 
-## Let resource owners consent to RSC permissions for any app
 
 
 
-### Let users grant consent to low risk Graph permissions for any app
+## Let resource owners consent to RSC permissions
+
+
+
+
+
+
+
+### Let users grant consent to low risk Graph permissions
 
 You can configure user consent settings in way that lets users to:
 
 * Not be able to consent to any apps.
-* Consent to a few configured permissions for publisher verified apps (recommended approach).
+* Consent to selected permissions (recommended approach).
 * Consent to all apps.
 
-The recommended approach works together with Permissions Classification that allows admins to categorize some or all of the Delegated Graph permissions as low risk permissions in their organization. Admins decide low risk permissions based on their organization's risk posture and Azure AD doesn't allow permissions that require admin consent to be categorized as low risk. That is, if an app require an Application Permission then users can't consent to it on their own. For more information, see [configure how users consent to applications](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal) and [how to classify permissions as low or high risk](/azure/active-directory/manage-apps/configure-permission-classifications?pivots=portal).
+The recommended approach works together with permissions classification. The classification let admins define some or all of the Delegated Graph permissions as low risk permissions within their organization. Admins decide low risk permissions based on their organization's risk posture. As a safety measure, you can't categorize Application permissions low risk. Application permissions require only an admin to consent. For more information, see [configure how users consent to applications](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal) and [how to classify permissions as low or high risk](/azure/active-directory/manage-apps/configure-permission-classifications?pivots=portal).
 
 To accomplish this configuration, you must have a Global Administrator, Application Administrator, or Cloud Application Administrator role in your tenant.
 
+This configuration applies to all Teams apps as all Teams apps are from verified publishers. Before an app developer can submit their app to Microsoft, a developer is required to undergo a verification. Publisher verification helps admins and users understand the authenticity of application developers. For more details, see [publisher verification](overview-of-app-certification.md).
+
 ### Grant org-wide admin consent to app permissions
-
-A Global Administrator can grant consent to all the required permissions of an app if they want to allow the app in their org and don't want each user to spend time granting consent.
-
-
-
 
 If you're a Global Administrator, you can review app permissions and grant consent to those on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app. Additionally, depending on the user's [consent settings](/azure/active-directory/manage-apps/configure-user-consent) in Azure Active Directory (Azure AD), some users may not be allowed to grant consent to apps that access company data.
 
