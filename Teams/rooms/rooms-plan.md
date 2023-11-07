@@ -148,7 +148,7 @@ Here are some examples of wireless network configuration best practices recommen
 
 - Deploy wireless equipment, such as access points and routers, that can handle and distribute the bandwidth load across all connected devices in the network.
 - As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
-- Ensure wireless equipment is installed in a way that reduces or eliminates inference from objects and other equipment.
+- Ensure wireless equipment is installed in a way that reduces or eliminates interference from objects and other equipment.
 - Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
 - Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
 - Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
