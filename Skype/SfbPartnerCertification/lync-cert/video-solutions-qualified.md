@@ -35,7 +35,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 
 ***Video Endpoints***
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="720">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="720">
     <colgroup>
         <col width="240" />
         <col width="90" />
@@ -143,7 +143,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***LifeSize Video Endpoints***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="62%">
     <colgroup>
         <col width="240" />
         <col width="90" />
@@ -239,7 +239,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***Video Infrastructure***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
+<table border="1" cellpadding="5" cellspacing="0" class="grid" width="62%">
     <colgroup>
         <col width="240" />
         <col width="110" />

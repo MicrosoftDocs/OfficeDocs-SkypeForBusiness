@@ -1,8 +1,8 @@
 ---
 title: Plan for Operator Connect Conferencing
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 10/28/2021
 ms.topic: article
 ms.service: msteams

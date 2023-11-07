@@ -23,6 +23,7 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: Reference this article for PowerShell cmdlets to create and manage Auto attendants and Call queues in Microsoft Teams.
 ---
 
@@ -94,8 +95,8 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Teams Phone Resource Account licenses
 
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+- [Get-MgSubscribedSku](/powershell/module/microsoft.graph.identity.directorymanagement/get-mgsubscribedsku)
+- [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense)
 
 ### Phone number assignment
 
