@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: henrikalim
 ms.date: 10/04/2023
 ms.topic: quickstart
 ms.service: msteams

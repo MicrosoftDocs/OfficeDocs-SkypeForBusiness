@@ -2,8 +2,8 @@
 title: Plan Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: Turgayo
-ms.date: 01/15/2019
+ms.reviewer: tjaved
+ms.date: 11/02/2023
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -22,8 +22,11 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Plan Microsoft Teams Rooms monitoring with Azure Monitor
- 
- This article discusses planning considerations for using Azure Monitor to administer Microsoft Teams Rooms devices in your Microsoft Teams implementation.
+
+> [!IMPORTANT]
+> This feature is being deprecated and being replaced by functionality found in the Teams admin center and Teams Rooms Pro Management portal. See [Overview of the Teams Rooms Pro Management portal](../rooms/rooms-pro-management.md) for more information.
+
+This article discusses planning considerations for using Azure Monitor to administer Microsoft Teams Rooms devices in your Microsoft Teams implementation.
 
 > [!NOTE]
 > You can also [set up health monitoring of Teams Rooms](../alerts/device-health-status.md) using Teams admin center.

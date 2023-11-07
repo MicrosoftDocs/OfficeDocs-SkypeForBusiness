@@ -144,7 +144,7 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
+|[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters and organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat amongst presenters and co-organizers. Attendees don't use chat during town halls.|
 |[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode, who can request control, and can set a default for who can present.|Can control who can present amongst presenters, organizers, and co-organizers. Attendees can't share content in town halls.|

@@ -3,14 +3,14 @@ title: Authentication best practices for Microsoft Teams shared device managemen
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 12/16/2021
+ms.date: 11/02/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 ms.subservice: itpro-devices
 search.appverid: MET150
-ms.reviewer: 
-description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multi-factor authentication advice and more.
+ms.reviewer: tjaved
+description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multifactor authentication advice and more.
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Devices
@@ -36,11 +36,11 @@ Security administrators and operations teams must plan for the devices that can 
 
 ## Authentication recommendations are different for personal versus shared android devices
 
-Shared Teams devices can't use the same requirements for enrollment and compliance that are used on personal devices. Applying personal device authentication requirements to shared devices will cause sign in issues.
+Shared Teams devices can't use the same requirements for enrollment and compliance that are used on personal devices. Applying personal device authentication requirements to shared devices cause sign in issues.
 
 1.  **Devices are signed out due to password policies.**
 
-Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts will stop working on Teams devices until a Teams administrator resets the password and signs back in.
+Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts stop working on Teams devices until a Teams administrator resets the password and signs back in.
 
 **Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
 
@@ -48,9 +48,9 @@ When your organization requires a password reset or enforces password expiration
 
 2.  **Devices fail to sign in due to conditional access policies.**
 
-**Challenge**: Shared devices can't comply to Microsoft Entra Conditional Access policies for user accounts or personal devices. If shared devices are grouped with user accounts or personal devices for a Conditional Access policy, the sign-in will *fail*.
+**Challenge**: Shared devices can't comply with Microsoft Entra Conditional Access policies for user accounts or personal devices. If shared devices are grouped with user accounts or personal devices for a Conditional Access policy, the sign-in will *fail*.
 
-For example, if multi-factor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multi-factor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
+For example, if multifactor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multifactor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
 
 > [!IMPORTANT]
 > Multi-factor authentication isn't supported with shared devices, such as Teams Rooms on Android. The methods to use instead are outlined below.
@@ -69,14 +69,14 @@ For more information, see [Remote provisioning and sign in for Teams Android dev
 
 ### **Review these Conditional Access policies**
 
-Microsoft Entra Conditional Access sets other requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that will allow shared device users to do their work.
+Microsoft Entra Conditional Access sets other requirements that devices must meet in order to sign in. For Teams devices, review the guidance that follows to determine if you have authored the policies that allow shared device users to do their work.
 
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
 
-### Don't use Multi-factor authentication for shared devices
+### Don't use multifactor authentication for shared devices
 
-Accounts for shared devices are linked to a room or physical space, rather than to an end user account. Because shared devices don't support multi-factor authentication, exclude shared devices from any multi-factor authentication policies.
+Accounts for shared devices are linked to a room or physical space, rather than to an end user account. Because shared devices don't support multifactor authentication, exclude shared devices from any multifactor authentication policies.
 
 >[!TIP]
 >Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) to secure shared devices.
@@ -100,7 +100,7 @@ To set compliance setting for your devices using Intune, see [Use compliance pol
 
 ### Exclude shared devices from sign-in frequency conditions
 
-In Conditional Access, you can [configure sign-in frequency](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) to require users to sign in again to access a resource after a specified time period. If sign-in frequency is enforced for room accounts, shared devices will sign out until they are signed in again by an admin. Microsoft recommends excluding shared devices from any sign-in frequency policies.
+In Conditional Access, you can [configure sign-in frequency](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) to require users to sign in again to access a resource after a specified time period. If sign-in frequency is enforced for room accounts, shared devices sign out until they're signed in again by an admin. Microsoft recommends excluding shared devices from any sign-in frequency policies.
 
 ### Using Filters for devices
 
@@ -110,7 +110,7 @@ Use filters for devices to identify your common-area devices and enable policies
 
 1.  Excluding shared devices from policies applied for personal devices. For example, requiring device compliance *isn't enforced* for shared devices used for hot-desking, but *is enforced* for all other devices, based on model number.
 
-2.  Enforcing special policies on shared devices that *should not* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
+2.  Enforcing special policies on shared devices that *shouldn't* be applied to personal devices. For example, requiring named locations as policy only for common-area devices based on an extension attribute you set for these devices (for example: “CommonAreaPhone”).
 
 >[!NOTE] 
 > Some attributes such as **model**, **manufacturer**, and **operatingSystemVersion** can only be set when devices are managed by Intune. If your devices are not managed by Intune, use extension attributes.
