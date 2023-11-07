@@ -26,17 +26,24 @@ ms.custom: seo-marvel-apr2020
 
 # Use app centric management to govern apps
 
+> [!IMPORTANT]
+> If you're using app permission policies to govern access to apps, then see [Use app permission policies to control user access to apps](teams-app-permission-policies.md). We recommend that you migrate to this new and more admin-friendly functionality to govern access to apps.
+
 The new app centric management feature let admins specify the users and group in their organization who can add Teams apps on a per-app basis. This feature evolves the existing app permission policies and Org-wide app settings for third-party apps. Admins can now manage access to the apps individually without using policies. The existing app permission policies in an organization are migrated to maintain the existing app access in the organization.
 
 ## What changes with this feature
 
-Currently, three settings determine the ability of a user to add an app. These settings are app permission policy applied to a user, allow or block settings for an app, and an org-wide setting for third-party apps for the org. App centric management feature simplifies these settings by having each app define who can use the app. When you define app assignments, you have the following three options to choose from:
+When using policies, the following three settings determine if a user can add and use an app:
+
+* App permission policy applied to a user
+* Allow or block settings for an app
+* Org-wide setting for third-party apps usage in the org
+
+App centric management feature simplifies these settings by having each app define who can use the app, so that you can handle each app differently based on your user's needs and organization's compliance and risk posture. When using this functionality, you define app assignments that is just a selection of one of the following options:
 
 * **Everyone in the organization**: Anyone in your org can add and use the app.
 * **Specific users or groups**: Only the selected users and groups can use the app. The supported group types are Security, Microsoft 365, Dynamic, and Distributed Lists (DLs).
 * **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
-
-The default value of app assignment is **Everyone in the organization** in the organization. Admins can change the default value to **No one**. It's achieved by modifying the Org-wide app settings for new third-party apps and applies to Microsoft and custom apps too. It means that if the setting for new third-party apps is checked, new Microsoft, custom and third-party apps have **Everyone in the organization** assignment type. If the option is unchecked, the new apps enter the catalog with **No one** assignment type.
 
 ## Onboard to the new app management feature with four easy steps
 
@@ -63,7 +70,7 @@ The migration process uses a dialog-based UI that guides you through the followi
 1. [Tenant preparation for large tenants](#step5-preparation-for-large-tenants)
 --->
 
-### Step1: Start the migration and select policies to migrate
+### Step 1: Start the migration and select policies to migrate
 
 On the **Select app permission policies** page, the Global (Org-wide default) policy is selected by default. You must select the custom policies you want to migrate in addition to the Global (Org-wide default). The apps in the selected policies are checked against org-wide app settings to create a list of allowed and blocked apps. This process can take a few minutes.
 
@@ -79,7 +86,7 @@ On the **Select app permission policies** page, the Global (Org-wide default) po
 
 The **Global (Org-wide default) policy** is always migrated. An unused permission policy that isn’t assigned to any user can’t be migrated.
 
-### Step2: Assign and block apps
+### Step 2: Assign and block apps
 
 Based on the policies, you select to migrate and based on your org-wide app settings, three tabs of apps are populated in this step.
 
@@ -139,7 +146,7 @@ During the migration, you can choose either of the following options:
 
    :::image type="content" source="media/acm-migration-reset.png" alt-text="Screenshot showing the option to reset the migration progress.":::
 
-### Step3: Validate assignments
+### Step 3: Validate assignments
 
 Before you finalize the migration, you can validate the migration by testing it in the following two ways. The validation ensures that you’ve assigned the app to the right users or groups before completing the migration process.
 
@@ -154,14 +161,14 @@ If the selected user isn't permitted to use any apps, admin center displays, **T
 
 If you want to change any assignments, select **Back** and change the assignments.
 
-### Step4: Finalize the migration
+### Step 4: Finalize the migration
 
 After you complete the app assignments and validate the assignments, select **Finish**. Select the check box to agree to the terms and conditions, and then select **Continue** to complete the migration process.
 
 :::image type="content" source="media/acm-confirmation-post-validation.png" alt-text="Screenshot showing the final dialog in the migration step to finalize the change.":::
 
 <!---
-### Step5: Preparation for large organization
+### Step 5: Preparation for large organization
 
 For large production organizations with more than 10,000 users, the migration process includes an additional step called, the ‘tenant warm-up’, that is performed right after the migration. Microsoft completes this step in the background and requires admin participation.
 
@@ -173,14 +180,16 @@ Once the tenant is ready, we’ll contact you. We’ll make app centric manageme
 
 ## Manage apps after the migration
 
-Once your org is migrated, you can manage the apps in Teams admin center by assigning apps from Manage apps, App details and User details pages.
+Once your org is migrated, you can manage the apps in Teams admin center by assigning apps from Manage apps, App details and User details pages. The default value of app assignment is **Everyone in the organization** in the organization. Admins can change the default value to **No one**. It's achieved by modifying the Org-wide app settings for new third-party apps and applies to [Microsoft apps](apps-in-teams.md#apps-created-by-microsoft) and [custom apps](apps-in-teams.md#custom-apps-created-within-an-organization-for-internal-use). It means that if the setting for new third-party apps is checked, new apps have **Everyone in the organization** assignment type. If the option is unchecked, the new apps enter the catalog with **No one** assignment type.
 
 ### View and modify access to an app
 
 To modify access to an app, follow these steps:
 
 1. In Teams admin center, go to the **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, search for the required app, and select the app name to open its app details page.
+
 1. Select the **Assignments** tab.
+
 1. To assign a new user or a group, follow these steps:
 
    1. Select **Manage access** or **Assign**.
