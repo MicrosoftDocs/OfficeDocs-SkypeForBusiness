@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sachung
-ms.date: 11/2/2023
+ms.date: 11/7/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
