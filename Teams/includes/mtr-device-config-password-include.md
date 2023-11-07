@@ -15,7 +15,7 @@ Follow the steps in one of the following tabs to turn off password expiration:
 
 #### [**Microsoft Graph PowerShell**](#tab/graph-powershell-password/)
 
-First, connect to Graph PowerShell:
+First, connect to the Microsoft Graph PowerShell:
 
 ```PowerShell
    Connect-MgGraph -Scopes "User.ReadWrite.All"
