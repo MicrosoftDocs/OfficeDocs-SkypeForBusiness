@@ -57,6 +57,25 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
+- [Guests can start private calls](set-up-guests.md)
+- [Cloud recording for calling]()
+- [Transcription](accessibility-guide-admin.md)
+- [Routing for PSTN calls](inbound-call-routing.md)
+- [Routing for federated calls](inbound-call-routing.md)
+- [Call forwarding and simultaneous ringing to people in your organization](inbound-call-routing.md)
+- [Call forwarding and simultaneous ringing to external phone numbers](inbound-call-routing.md)
+- [Voicemail for inbound calls](inbound-call-routing.md)
+- [Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)
+- [Delegation for inbound and outbound calls](shared-line-appearance.md)
+- [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
+- [Music on hold for PSTN calls](music-on-hold.md)
+- [Busy on busy during calls]()
+- [Web PSTN calling]()
+- [Real-time captions in Teams calls](accessibility-guide-admin.md)
+- [Spam filtering]()
+- [SIP devices can be used for calls](sip-gateway-configure.md)
+- [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
+
 ### Guests can start private calls
 
 This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
