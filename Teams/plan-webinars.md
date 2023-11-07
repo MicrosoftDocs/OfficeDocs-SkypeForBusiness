@@ -108,7 +108,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
-|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all town halls created in your organization.|No control.|
+|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
 
 ## Need help with your webinar?
 
