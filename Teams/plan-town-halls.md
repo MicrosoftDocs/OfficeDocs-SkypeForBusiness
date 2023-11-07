@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 10/17/2023
+ms.date: 11/7/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -96,7 +96,7 @@ Live events will be deprecated on September 30, 2024. If you've been using live 
 |Green room|✔️|✔️|✔️|
 |Live translated captions|✔️|6 languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
-|External presenters|✔️|✖️|✖️|
+|External presenters|✔️|✔️|✔️|
 |AI generated captions|✔️|✔️|✔️|
 |DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|
@@ -149,7 +149,8 @@ Teams admins and organizers have different policies and settings to control the 
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat amongst presenters and co-organizers. Attendees don't use chat during town halls.|
 |[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode, who can request control, and can set a default for who can present.|Can control who can present amongst presenters, organizers, and co-organizers. Attendees can't share content in town halls.|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers.|No control.|
-|[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates  before they're sent out.|
+|[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates before they're sent out.|
+|[External presenters](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the town hall without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their town halls. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 [Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
