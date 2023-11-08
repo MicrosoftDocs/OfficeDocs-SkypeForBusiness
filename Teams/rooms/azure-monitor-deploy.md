@@ -393,13 +393,13 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
- ```
- Event
- | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
- | summarize arg_max(TimeGenerated, *) by Computer
- | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
- | sort by TimeGenerated desc
- ```
+```
+Event
+| where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+| summarize arg_max(TimeGenerated, *) by Computer
+| project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+| sort by TimeGenerated desc
+```
 
 Now you've completed defining alerts. You can define additional alerts by using the examples above.
 
