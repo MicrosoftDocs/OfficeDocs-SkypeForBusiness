@@ -42,7 +42,7 @@ To generate an OTP, perform the following steps:
 
 1. Select **Next**.
 
-## Verify and approve OTP
+## Verify and approve/reject OTP
 
 You can verify and approve an OTP that was entered by the setup personnel while trying to sign in their Teams Rooms device into the app.
 
