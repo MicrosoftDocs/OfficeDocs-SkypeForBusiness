@@ -353,8 +353,9 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 3. Select **Add condition** and then **Custom log search**
 
-4.  Enter the following query to the Search query text box.<br>
-    ```
+4.  Enter the following query to the Search query text box.
+
+    ```kusto
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
@@ -393,7 +394,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
-```
+```kusto
 Event
 | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
 | summarize arg_max(TimeGenerated, *) by Computer
