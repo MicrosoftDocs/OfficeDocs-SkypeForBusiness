@@ -2,9 +2,9 @@
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
 ms.date: 01/23/2018
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.tgt.pltfrm: cloud

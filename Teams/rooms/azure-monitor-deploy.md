@@ -2,7 +2,7 @@
 title: Deploy Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: Turgayo
+ms.reviewer: tjaved
 ms.date: 10/10/2023
 manager: serdars
 audience: ITPro
@@ -22,6 +22,9 @@ ms.custom: seo-marvel-mar2020
 ---
 
 # Deploy :::no-loc text="Microsoft Teams Rooms"::: monitoring with :::no-loc text="Azure Monitor":::
+
+> [!IMPORTANT]
+> This feature is being deprecated and being replaced by functionality found in the Teams admin center and Teams Rooms Pro Management portal. See [Overview of the Teams Rooms Pro Management portal](../rooms/rooms-pro-management.md) for more information.
 
 This article discusses how to set up and deploy integrated, end-to-end monitoring of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
 

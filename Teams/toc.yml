@@ -94,7 +94,9 @@ items:
                 - name: Update to the new Teams for VDI
                   href: new-teams-vdi-requirements-deploy.md
                 - name: Update to the new Teams for Education
-                  href: new-teams-education.md                  
+                  href: new-teams-education.md
+                - name: Update to the new Teams for Web
+                  href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
@@ -493,6 +495,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams town hall usage report
+          href: teams-analytics-and-reports/teams-town-hall-usage-report.md
         - name: Teams webinar usage report
           href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
@@ -790,6 +794,26 @@ items:
                 href: hybrid-meetings-device-config-calendar.md
           - name: "Step 6 - Manage and monitor rooms and meetings"
             href: hybrid-meetings-manage.md
+    - name: Live events
+      items: 
+        - name: What are Teams live events?
+          href: teams-live-events/what-are-teams-live-events.md
+        - name: Plan for Teams live events
+          href: teams-live-events/plan-for-teams-live-events.md
+        - name: Set up for Teams live events
+          href: teams-live-events/set-up-for-teams-live-events.md
+        - name: Use PowerShell to set Teams live events policies
+          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+        - name: Configure Teams live events settings
+          href: teams-live-events/configure-teams-live-events.md
+        - name: Live events recording policies
+          href: teams-live-events/live-events-recording-policies.md
+        - name: Streaming overview
+          href: teams-stream-overview.md
+        - name: Configuration
+          href: teams-encoder-configuration.md
+        - name: Troubleshooting
+          href: teams-stream-troubleshooting.md
     - name: Audio conferencing
       items: 
         - name: Audio Conferencing in Microsoft 365
@@ -886,9 +910,6 @@ items:
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
             - name: Audio Conferencing Complimentary Dial Out Period
               href: complimentary-dial-out-period.md
-            - name: Videos - Audio Conferencing in Teams
-              href: ./audio-conferencing-in-office-365.md
-
 
 - name: Voice - Teams Phone and PSTN connectivity
   items: 
@@ -1441,8 +1462,6 @@ items:
                   href: rooms/admin-center-license-overview.md
                 - name: Teams Rooms legacy licensing
                   href: rooms/rooms-legacy-licensing.md
-            - name: Plan management with Azure Monitor
-              href: rooms/azure-monitor-plan.md
             - name: Release notes
               href: rooms/rooms-release-note.md
         - name: Deploy
@@ -1461,8 +1480,6 @@ items:
                 href: rooms/conditional-access-and-compliance-for-devices.md
               - name: Supported Conditional Access and Intune compliance policies
                 href: rooms/supported-ca-and-compliance-policies.md
-            - name: Deploy Azure Monitor
-              href: rooms/azure-monitor-deploy.md
             - name: Surface Hub
               items: 
                 - name: Set up Coordinated Meetings
@@ -1503,8 +1520,6 @@ items:
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds
                   href: rooms/custom-backgrounds.md
-            - name: Manage devices with Azure Monitor
-              href: rooms/azure-monitor-manage.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
             - name: Use the recovery tool
@@ -1527,6 +1542,8 @@ items:
           href: rooms/update-management.md 
         - name: Configure ServiceNow
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
+        - name: Resource accounts
+          href: rooms/resource-accounts.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
@@ -1541,7 +1558,6 @@ items:
           href: rooms/customer-reported-incidents.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
-          
     - name: Devices
       items:
         - name: Teams device store
@@ -1623,7 +1639,13 @@ items:
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md 
+          href: devices/plan-device-deployment.md
+        - name: Plan management with Azure Monitor
+          href: rooms/azure-monitor-plan.md
+        - name: Deploy Azure Monitor
+          href: rooms/azure-monitor-deploy.md
+        - name: Manage devices with Azure Monitor
+          href: rooms/azure-monitor-manage.md
         - name: Resource accounts for Skype for Business Server
           href: rooms/with-skype-for-business-server-2015.md           
               
@@ -1830,27 +1852,6 @@ items:
       href: limits-specifications-teams.md            
     - name: Meeting templates reference
       href: predefined-meeting-template-reference.md
-
-    - name: Live events
-      items: 
-        - name: What are Teams live events?
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Plan for Teams live events
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Set up for Teams live events
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: Use PowerShell to set Teams live events policies
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Configure Teams live events settings
-          href: teams-live-events/configure-teams-live-events.md
-        - name: Live events recording policies
-          href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
-        - name: Configuration
-          href: teams-encoder-configuration.md
-        - name: Troubleshooting
-          href: teams-stream-troubleshooting.md
 
     - name: Licensing
       items: 
