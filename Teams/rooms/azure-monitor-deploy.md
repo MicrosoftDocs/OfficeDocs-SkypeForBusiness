@@ -135,7 +135,7 @@ To extract your custom fields out of the captured event logs, follow these steps
 > 
 **Table 1**
 
-| **JSON field**                   | **:::no-loc text="Log Analytics"::: custom field** | **Event ID** | **Query to use with the extraction**                   |
+|   JSON field                     | :::no-loc text="Log Analytics"::: custom field | Event ID | Query to use with the extraction           |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
 | Description                      | SRSEventDescription         | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
