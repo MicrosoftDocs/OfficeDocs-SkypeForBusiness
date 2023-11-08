@@ -114,26 +114,26 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose|Can turn on or off if allowed by admin|
-|[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings|Can allow or prevent attendee mic and cameras|
+|[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
+|[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
 |[Chat](manage-meeting-chat.md)|Can manage whether users in the org can read and write chat messages. Admins can also manage chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with.|Can manage whether chat is available for their meetings.|
-|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
-|[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
+|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control|
+|[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for meetings with over 1,000 participants. |No control.|
-|[End-to-end encryption(Teams Premium)](end-to-end-encrypted-meetings.md) |Can allow or prevent end-to-end encryption|Can enforce end-to-end encryption if allowed by the admin|
-|[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)|No control|Can choose if green room is used for a meeting|
+|[End-to-end encryption(Teams Premium)](end-to-end-encrypted-meetings.md) |Can allow or prevent end-to-end encryption.|Can enforce end-to-end encryption if allowed by the admin.|
+|[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a meeting.|
+|[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their meetings. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 [Manage what attendees see(Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
-|[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings|Can choose meeting join and lobby settings for each meeting|
+|[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings.|Can choose meeting join and lobby settings for each meeting.|
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in meetings.|Can decide if Q&A is available for their meetings if allowed by admins.|
 |[Reactions and hand raise](manage-reactions-meetings.md)| Manage whether reactions and hand raise can be used in meetings created by organizers with this policy. |Can control whether reactions and hand raise can be used in their meetings. |
-|[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time|If the admin enables recording, organizers can set who can record (Teams Premium) and automatic recording|
-|[Registration](set-up-meeting-registration.md)|Can allow or prevent meeting registration|Can require meeting registration if allowed by admin|
+|[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time.|If the admin enables recording, organizers can set who can record (Teams Premium) and automatic recording.|
+|[Registration](set-up-meeting-registration.md)|Can allow or prevent meeting registration.|Can require meeting registration if allowed by admin.|
 |[RTMP-In(Premium)](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their meetings. |Can produce their Teams meetings directly from an external hardware or software-based encoder to integrate different types of media. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
-|[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings|Can schedule meetings if allowed by admin|
-|[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000|No control|
-|[Theme(Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo|Can turn the admin-defined theme on or off|
-|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees|Can enable CART captions|
-|[Translation(Teams Premium)](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)|No control|Can enable live translated captions|
+|[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings.|Can schedule meetings if allowed by admin.|
+|[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000.|No control.|
+|[Meeting Theme(Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
+|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 |[Watermarks(Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 
 ## Related topics

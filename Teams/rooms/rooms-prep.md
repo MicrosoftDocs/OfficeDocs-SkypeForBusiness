@@ -2,7 +2,7 @@
 title: Prepare your Environment
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
+ms.reviewer: kimmatlock
 ms.date: 10/04/2023
 manager: serdars
 audience: ITPro
