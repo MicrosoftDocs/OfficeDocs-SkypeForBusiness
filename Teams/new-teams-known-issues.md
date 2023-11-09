@@ -27,6 +27,7 @@ ms.localizationpriority: high
 - Detecting multiple languages for spellchecker isn't currently available. 
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
+- Setting up the Home Page in a newly created Class team in Microsoft Teams for Education currently doesn't work on desktop.
 
 ## Coming in November
 
