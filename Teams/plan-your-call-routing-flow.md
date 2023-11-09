@@ -33,7 +33,7 @@ Let's look at how Auto attendants and Call queues route calls.
 Auto attendants route all calls in one of the following ways:
 
 - **Redirect immediately** - calls can be redirected to one of the call routing destinations (listed below) immediately upon answering or after an initial greeting.
-- **Redirect based on dial options** - callers can be directed to choose between options that are assigned to the numbers on their telephone keypad, 0-9. Each dial key can be assigned a call routing destinations.
+- **Redirect based on dial options** - callers can be directed to choose between options that are assigned to the numbers on their telephone keypad, 0-9, \* and \#. Each dial key can be assigned a call routing destinations.
 - **Dial people by name or extension** - callers can be directed to dial the extension number of the person they're trying to reach in your organization's directory, or by spelling the person's name.
 - **Disconnect** - an Auto attendant can hang up the call.
 
