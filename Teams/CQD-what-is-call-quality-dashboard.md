@@ -1,7 +1,7 @@
 ---
 title: What is Call Quality Dashboard (CQD)?
-author: MicrosoftHeidi
-ms.author: heidip
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 06/09/2020

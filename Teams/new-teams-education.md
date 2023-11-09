@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 11/01/2023
+ms.date: 11/03/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -30,7 +30,7 @@ The new Teams update is seamless for our Education users. Updating is quick and 
  
 ## Update schedule
 
-**In early January 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (meaning, they still are using the default setting *Microsoft Controlled*). IT administrators still have the option to set classic Teams for their users via policy.  
+**In early January 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (meaning, they still are using the default setting *Microsoft Controlled*). IT administrators can still set classic Teams for their users via policy.  
 
 We encourage you to update to new Teams today. You don't need to wait until January to update. 
 
@@ -39,8 +39,8 @@ Administrators can choose to update their users to new Teams on a different sche
 
 |When|What|
 |:-----|:-----|
-|Early January 2024|All tenants whose IT administrators haven't taken action to update to new Teams via Teams Admin Center policy will be updated to new Teams. IT administrators can still choose to set classic Teams for their users via policy.  |
-|March 31, 2024|All remaining users of classic Teams will be automatically updated to new Teams after March 31, 2024.|
+|Early January 2024|- Microsoft will update the classic Teams client to the new Teams client for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (meaning, they still are using the default setting Microsoft Controlled in Teams Admin center policies). IT administrators still have the option to set classic Teams for their users via policy.</br></br>- Tenants who have set other policy values (apart from Microsoft controlled) in Teams Admin center, won't have their policy overridden. These tenants won't be impacted by this change. |
+|March 31, 2024|- All remaining users of classic Teams will be automatically updated to new Teams after March 31, 2024.</br>- IT Administrators won't have the option to move back to classic Teams via policy.|
 
 
 ## Set policies for update

@@ -1,7 +1,7 @@
 ---
 title: Add and update reporting labels
-author: tonysmit
-ms.author: tonysmit
+author: mkbond007
+ms.author: mabond
 manager: serdars
 audience: Admin
 ms.topic: article

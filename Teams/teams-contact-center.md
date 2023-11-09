@@ -75,6 +75,7 @@ The following providers offer contact center solutions that are integrated into 
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
+| `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
@@ -96,7 +97,6 @@ The following providers offer contact center solutions that are integrated into 
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
-| `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Telia` | https://ace-showcase.com/                  |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |

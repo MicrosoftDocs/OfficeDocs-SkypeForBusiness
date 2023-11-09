@@ -6,8 +6,8 @@ manager: serdars
 audience: ITPro
 appliesto: 
   - Microsoft Teams
-ms.reviewer: sohailta
-ms.date: 04/18/2023
+ms.reviewer: kspiess
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
