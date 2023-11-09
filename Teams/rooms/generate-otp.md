@@ -30,17 +30,42 @@ One-time passwords (OTPs) are passwords that are valid for only one sign-in sess
 To generate an OTP, perform the following steps:
 
 1. Sign in to the Pro Management portal.
-1. On the left navigation pane, select **Resource accounts**. The **Resource accounts** page appears.
+1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
 1. Select the **Generate OTP** wizard on the command bar.
-1. Select the resource accounts for which you want to generate an OTP.
+
+   :::image type="content" source="../media/resource-accounts-screen.png" alt-text="Screenshot that shows the Resource accounts page." lightbox="../media/resource-accounts-screen.png":::
+
+   The **Account selection** page appears.
+
+1. Select the resource accounts for which you want to generate an OTP, and then select **Next**.
 
    > [!NOTE]
-   > You can also search for specific resource accounts using the search bar.
+   > You must select a resource account for which the value in the **Readiness status** column is **No action needed**.
+   > You can also search for specific resource accounts using the search bar. However, for this resource account that you've searched for, the **Readiness status** must have the value **No action needed**.
+
+   :::image type="content" source="../media/account-selection.png" alt-text="Screenshot that shows the Account selection page." lightbox="../media/account-selection.png":::
+
+   The **Configuration** page appears.
+
+   :::image type="content" source="../media/configuration-screen.png" alt-text="Screenshot that shows the Configuration page." lightbox="../media/configuration-screen.png":::
+  
+1. Select the **Automatically generate passwords for all selected accounts** radio button. You'll select this option if you want reset/delete the existing password for the resource accounts that you chose to generate an OTP for, OR
+1. Select the **Upload sign in data from CSV file** radio button. You'll select this option if you want to retain the existing password for the resource accounts that you chose to generate an OTP for.
+1. Select **Next**. The **Review** page appears.
+
+   :::image type="content" source="../media/review-screen.png" alt-text="Screenshot that shows the Review page." lightbox="../media/review-screen.png":::
+
+1. Review the settings you have configured, and then select **Generate**.
 
    > [!NOTE]
-   > For the resource accounts to which you want to assign an OTP, check how well that account has been set up by referring to the **Readiness Status** column. You can only select those resource accounts for OTP assignation that show a status **Ready** in the **Readiness Status** column. The status **Ready** implies that those accounts have been properly configured for Teams Rooms, and are ready to get an OTP assigned. If a resource account shows the status **Change settings** and **No valid license** in its **Readiness status** column, you can't select those resource accounts for OTP assignation. The **Change settings** and **No valid license** statuses imply that the account hasn't been set up correctly or doesn't have a valid license. You can't assign an OTP to such a resource account.
+   > On the **Review** page, if you want to edit the Auto generate passwords setting, select the **Edit** icon next to **Configuration**. Then, select **Generate**.
 
-1. Select **Next**.
+     :::image type="content" source="../media/edit-auto-generate-passwords.png" alt-text="Screenshot that shows the page on which you can edit the auto generate passwords option." lightbox="../media/edit-auto-generate-passwords.png":::
+
+   > [!NOTE]
+   > On the **Review** page, if you want to change the resource accounts for which you want to generate an OTP, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
+
+     :::image type="content" source="../media/edit-account-selection.png" alt-text="Screenshot that shows the page on which you can edit the accounts selected for OTP generation." lightbox="../media/edit-account-selection.png":::
 
 ## Verify and approve/reject OTP
 
