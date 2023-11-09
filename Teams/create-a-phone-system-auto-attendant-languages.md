@@ -82,7 +82,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Spanish (Spain, International)          |Y                        |Y                                      |
 |Swedish (Sweden)                        |Y                        |N                                      |
 |Thai (Thailand)                         |Y                        |N                                      |
-|Turkish (Turkey)                        |Y                        |N                                      |
+|Turkish (Türkiye)                       |Y                        |N                                      |
 |Vietnamese (Vietnam)                    |Y                        |N                                      |
 |Welsh (United Kingdom)                  |Y                        |N                                      |
 

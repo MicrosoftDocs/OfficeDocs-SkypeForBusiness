@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom:
-  - has-azure-ad-ps-ref
+  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 
@@ -310,14 +310,14 @@ Connect-MicrosoftTeams
 
 When you're prompted, sign in using your admin credentials.
 
-#### Install and connect to the Azure AD PowerShell for Graph module (optional)
+#### Install and connect to the Microsoft Graph PowerShell module (optional)
 
-You might also want to [download and install the Azure AD PowerShell for Graph module](/powershell/azure/active-directory/install-adv2) (if you haven't already) and connect to Azure AD so that you can retrieve a list of users in your organization.
+You might also want to [download and install Microsoft Graph PowerShell module](/powershell/microsoftgraph/installation) (if you haven't already) and connect to Microsoft Entra ID so that you can retrieve a list of users in your organization.
 
-Run the following to connect to Azure AD.
+Run the following to connect to Microsoft Entra ID.
 
 ```powershell
-Connect-AzureAD
+Connect-MgGraph
 ```
 
 When you're prompted, sign in using the same admin credentials that you used to connect to Teams.
@@ -331,11 +331,11 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
-In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
+In this example, we connect to Microsoft Entra ID to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.
 
 ```powershell
-Connect-AzureAD
-$users = Get-AzureADUser
+Connect-MgGraph
+$users = Get-MgUser
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
 ```
 

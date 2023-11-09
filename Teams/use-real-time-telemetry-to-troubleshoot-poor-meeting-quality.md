@@ -1,7 +1,7 @@
 ---
 title: "Use real-time telemetry to troubleshoot poor meeting quality"
-author: MicrosoftHeidi
-ms.author: heidip
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: mikedav
 ms.date: 09/24/2021
@@ -46,7 +46,7 @@ Today, individual meeting troubleshooting is available for Teams administrators 
 
 Real-Time Analytics shows detailed information about Teams meetings for each user in your Microsoft 365 account, updated in real time. It includes information about devices, network, connectivity, audio, video, and content sharing issues, which will help admins troubleshoot call quality more effectively.
 
-As a Teams admin, you get full access to all real-time telemetry data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, see [Give permission to support and help desk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
+As a Teams admin, you get full access to all real-time telemetry data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, see [Give permission to support and help desk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
 
 ## Where to find per-user real-time troubleshooting telemetry
 

@@ -82,7 +82,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Spanish (Spain, International)          |
 |Swedish (Sweden)                        |
 |Thai (Thailand)                         |
-|Turkish (Turkey)                        |
+|Turkish (Türkiye)                       |
 |Vietnamese (Vietnam)                    |
 |Welsh (United Kingdom)                  |
 

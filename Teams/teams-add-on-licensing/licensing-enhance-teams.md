@@ -63,11 +63,14 @@ The following table compares key features between Teams and Teams Premium.
 | Experience Teams' standard look and feel | ✔️ |  |
 | Use standard and custom meeting backgrounds at the user level| ✔️ |  |
 | Read live captions during meetings and live events | ✔️ |  |
+| Set up a green room for meeting presenters and organizers| ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization | | ✔️ |
 | Customize Together mode scenes for your organization |  | ✔️ |
 | Read live translated captions during meetings |  | ✔️ |
+| Manage what attendees see |  | ✔️ |
+| Use RTMP-In for meetings |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN for Live Events\* |  | ✔️ |
 
@@ -83,13 +86,13 @@ The following table compares key features between Teams and Teams Premium.
 | Allow registered users to bypass the lobby | ✔️ |  |
 | Turn on Q&A for webinars with up to 1000 attendees | ✔️ |  |
 | View attendance reports | ✔️ |  |
-| Set up a green room for webinar presenters |  | ✔️ |
-| Manage attendees' view |  | ✔️ |
-| Send reminder emails to registrants |  | ✔️ |
+| Set up a green room for webinar presenters and organizers| ✔️ |  |
+| Manage what attendees see |  | ✔️ |
+| Send custom and reminder emails to registrants |  | ✔️ |
 | Create a webinar wait list |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
-| Use RTMP-In for Webinars |  | ✔️ |
+| Use RTMP-In for webinars |  | ✔️ |
 
 ### Meetings protection
 

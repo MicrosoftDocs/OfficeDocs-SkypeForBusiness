@@ -35,7 +35,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 ## Teams architecture
 
-Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Azure Active Directory (Azure AD).
+Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Microsoft Entra ID.
 
 When you create a team, here's what gets created:
 - A new [Microsoft 365 group](office-365-groups.md)
@@ -46,7 +46,7 @@ When you create a team, here's what gets created:
 
 When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams.
 
-To customize and extend Teams, add third-party apps using [app management tasks](apps-in-teams.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Microsoft 365 and, Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization.
+To customize and extend Teams, add third-party apps using [app management tasks](apps-in-teams.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization.
 
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
@@ -67,9 +67,7 @@ To stay on top of what's coming for Teams and all other Microsoft 365 products a
 
 ## Teamwork
 
-Every team is different; there's no one-size-fits-all approach to collaboration. Microsoft 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications.
-
-When deciding which Microsoft 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
+Every team is different; there's no one-size-fits-all approach to collaboration. When deciding which apps and services to use, think about the work your organization does and the types of conversations your teams need to have.
 
 - **Teams**, as the hub for teamwork, is where people - including people outside your organization - can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
 

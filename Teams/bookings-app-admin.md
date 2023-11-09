@@ -4,8 +4,8 @@ author: lana-chin
 ms.author: v-chinlana
 manager: serdars
 audience: ITPro
-ms.topic: how-to 
-ms.service: msteams 
+ms.topic: conceptual
+ms.service: bookings 
 search.appverid: 
 searchScope:
   - Microsoft Teams
@@ -88,7 +88,7 @@ Learn more about [how to configure the staff approvals setting](/microsoft-365/b
 
 ## Changing your default domain when setting up a Bookings mailbox
 
-When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain may cause problems when sending meeting invites to external recipients. For example, your invite may get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
+When setting up a Bookings mailbox, the default email domain of your Microsoft 365 or Office 365 organization is used. However, the default domain might cause problems when sending meeting invites to external recipients. For example, your invite might get flagged as spam and moved to the recipient’s junk folder, so the recipient might never see your invite.
 
 We recommend that you change the default domain before you create your Bookings mailbox. See [Domains FAQ](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
