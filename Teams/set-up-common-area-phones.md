@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.date: 10/11/2023
-ms.reviewer: kponnus
+ms.reviewer: kvijagan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

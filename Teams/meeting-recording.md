@@ -83,9 +83,9 @@ With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [
 
 ---
 
-## Manage explicit recording consent
+## Require participant agreement for recording
 
-You can use PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
+You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
 
 When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off.  When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond "Yes" or "No" to consent to be included in the meeting recording. If an attendee responds “No” to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
 
@@ -124,6 +124,18 @@ In meetings requiring explicit consent, users joining from unsupported endpoints
 - VDI
 - CarPlay
 - Old version native clients
+
+### Manage explicit recording consent in the Teams admin center
+
+Follow these steps in the Teams admin center to turn explicit recording consent on or off for users or groups in your organization:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Within your chosen policy, navigate to the **Recording & Transcription** section.
+6. Toggle the **Require participant agreement for recording** setting **On** or **Off**.
+7. Select Save.
 
 ### Manage explicit recording consent through PowerShell
 

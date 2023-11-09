@@ -4,14 +4,14 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/24/2023
+ms.date: 11/02/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: microthk
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -27,13 +27,6 @@ ms.localizationpriority: high
 - Detecting multiple languages for spellchecker isn't currently available. 
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
-
-## Coming in October
-
-- Pinning Apps on the App bar.
-- Setting Hybrid Presence and custom duration for status message.
-- Ability to @mention users in status note.
-- Initiating screen share from Windows taskbar.
 
 ## Coming in November
 
