@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 10/30/2023
+ms.date: 11/06/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -250,6 +250,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - QoS
 - 1080p
 - Custom Backgrounds
+- Avatars
 - Gallery View 3x3 and 7x7
 - Noise Suppression
 - Zoom In / Out

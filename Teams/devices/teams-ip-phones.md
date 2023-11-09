@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: divank
-ms.date: 05/02/2023
+ms.date: 11/02/2023
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
@@ -162,6 +162,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 400/500/505/600 | `8.1.4.1480` | 2023 Update #3 |
+|Poly Trio C60 | `8.1.4.1456 ` | 2023 Update #3 |
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | 2023 Update #3C    |
 | Yealink CP965 | `143.15.0.54 `|2023 Update #3B |
 |Yealink MP54/MP56/MP58  | `122.15.0.142`     | 2023 Update #3B |
 | Yealink CP965 | `143.15.0.48 `|2023 Update #2D |
@@ -289,6 +292,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #3 | November 8, 2023 | `1449/1.0.95.2023101102` | `5.0.5484.0` | `1.0.0.202306202019.product (486)`|
 |2023 Update #2A | June 28, 2023 | `1449/1.0.95.2023061601` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #2 | May 24, 2023 | `1449/1.0.95.2023042701` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #1A | February 9, 2023 | `1449/1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|

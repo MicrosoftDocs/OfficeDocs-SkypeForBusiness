@@ -1,8 +1,8 @@
 ---
 title: Audio Conferencing toll-free number policies
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: mshaikh
 ms.date: 03/04/2022
 ms.topic: conceptual
