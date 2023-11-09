@@ -1,7 +1,7 @@
 ---
 title: "Set up call analytics for Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav
 ms.date: 11/28/2017
