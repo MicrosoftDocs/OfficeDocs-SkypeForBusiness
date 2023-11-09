@@ -3,8 +3,8 @@ title: Microsoft Teams Premium licensing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: jogruszc
-ms.date: 08/30/2023
+ms.reviewer: jogruszc, margidesai
+ms.date: 11/09/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -33,7 +33,7 @@ Microsoft Teams Premium is a Teams add-on license that allows organizations with
 - Advanced management and reporting capabilities for IT.
 - Advanced Virtual Appointments.
 
-This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article will provide answers to questions like:
+This article is for IT admins who wish to understand Teams Premium licensing and purchase Teams Premium licenses for their users. This article provides answers to questions like:
 
 - [How does Teams Premium compare to Teams?](#how-does-teams-premium-compare-to-teams)
 - [Are there previous Teams features that moved to Teams Premium?](#are-there-previous-teams-features-that-moved-to-teams-premium)
@@ -44,7 +44,7 @@ This article is for IT admins who wish to understand Teams Premium licensing and
 - [How do I purchase Teams Premium licenses?](#how-do-i-purchase-teams-premium-licenses)
 - [Is admin configuration required after assigning users licenses?](#is-admin-configuration-required-after-assigning-users-licenses)
 
-To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which will also include links to end-user documentation as it becomes available.
+To learn how to set up and configure Teams Premium features, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience), which also includes links to end-user documentation.
 
 > [!IMPORTANT]
 > For admins to be able to manage Teams Premium features, their tenant needs at least one user with an active Teams Premium license.
@@ -161,6 +161,8 @@ Customers must acquire and assign Teams Premium licenses to each user in their t
 
 ### Meet app
 
+The Meet app in Teams allows users to view important details of their meetings including upcoming meetings, meeting recaps, meeting recordings, and meeting @mentions. To learn how to use the Meet app, see [Stay on top of meetings with Meet in Microsoft Teams](https://support.microsoft.com/office/stay-on-top-of-meetings-with-meet-in-microsoft-teams-ec6d712e-82a9-4c01-b106-b95486180b5d).
+
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
 | View and prepare upcoming meetings | ✔️ |  |
@@ -188,24 +190,24 @@ With the general release of Teams Premium on February 1, 2023, the following Tea
 
 ## What are the requirements to purchase Teams Premium?
 
-At release, Teams Premium will be available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE - Customer led, and NCE - Partner led.
+Teams Premium is available to purchase worldwide through all Microsoft purchasing channels, including EA, EAS, CSP, Web Direct, NCE - Customer led, and NCE - Partner led.
 
 Before you can purchase Teams Premium licenses for your users, ensure your tenant and users meet the requirements.
 
 The **tenant requirement** is:
 
 - Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
-  - Teams Premium for GCC became available on March 1, 2023.
-  - At general release, Microsoft won't offer an EDU-specific license or EDU discounts for Teams Premium.
+  - Currently, Microsoft doesn't offer an EDU-specific license or EDU discounts for Teams Premium.
   - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
-- An Office 365 or Microsoft 365 subscription with Teams.
+- An Office 365 or Microsoft 365 subscription with a Teams license.
+  - For new customers in the European Economic Area (EEA), Teams licenses must be purchased separately from Office 365/Microsoft 365 licenses, but both licenses are still required for Teams Premium. For more information on this licensing change in the EEA, see [New subscription structure for Microsoft 365 in Europe](https://www.microsoft.com/licensing/news/Microsoft365-Teams-EEA).
 
 ### Can I acquire Teams Premium features without the Teams Premium license?
 
-Teams Premium bundles a large set of Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experience.
+Teams Premium bundles a large set of advanced Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experience.
 
 ## Which users should be assigned Teams Premium licenses?
 
@@ -220,33 +222,55 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
-Teams Premium licenses are assigned to your organization's users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren't dependent on one another, don't overlap features, and won't cause license enforcement conflicts.
+Teams Premium licenses are assigned to your organization's users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren't dependent on one another, don't overlap features, and don't cause license enforcement conflicts.
 
 Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has been retired and isn't related to Teams Premium.
 
 ## Can I experience Teams Premium before buying licenses?
 
-Starting in December 2022, organizations can try Teams Premium by purchasing the zero-cost Teams Premium 30-day trial license available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=868433).
+Organizations can try Teams Premium by admins purchasing the zero-cost Teams Premium 30-day trial license available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=868433). Users can also acquire a Teams Premium self-service trial license that lasts for 60 days.
 
-Organizations with a Teams Premium trial license will have 25 licenses to assign to users. Those 25 users can experience and test Teams Premium features as they become available. Also, the admin can manage Teams Premium features for the 25 licensed users.
+When admins purchase a Teams Premium trial license, they have 25 licenses to assign to users. Those 25 users can experience and test Teams Premium features as they become available.
 
-Most organization segments can purchase and use the Teams Premium trial license, excluding GCC High and DoD tenants.
+Admins can manage Teams Premium features for their licensed users, whether they were acquired by the admin or users.
 
-### What will happen if my users' trial licenses expire?
+Most admins for organization segments can purchase and use the Teams Premium trial license, excluding GCC High and DoD tenants.
 
-After the 30-day trial licenses expire, the 25 licensed users will lose all Teams Premium functionality. There's currently no grace period between the expiration of the trial license and the loss of functionality.
+### How does the Teams Premium self-service trial license work?
+
+Microsoft offers users the ability to acquire their own Teams Premium trial licenses, also referred to as self-service trial licenses.
+
+Individuals can sign up for Teams Premium self-service trials on their organization’s existing Microsoft 365 tenants with their business sign-ins. They can try out the full functionality of the product for 60 days before requesting their admins purchase paid licenses. Individuals can start the trial directly from Microsoft Teams (Desktop and Web).
+
+There's no requirement to input payment information when signing up for a trial. Admins maintain full control of paying for subscriptions. Admins can't sign up for self-service trials and should refer to the guidance for admins trials discussed in the following section.
+
+These self-service trials are available worldwide. They aren't available for Government or EDU customers.
+
+#### Can I manage my users' self-service trial licenses?
+
+The self-service trials for Teams Premium don't compromise IT oversight or control. If you're an admin, you can use subscription management capabilities to oversee and manage trial licenses on the **Licenses** page in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=842264).
+
+For more information on enabling or disabling self-service trials for your users, see [Manage self-service purchases and trials](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
+
+### What are the terms and conditions of the Teams Premium self-service trial?
+
+By participating in this free trial (“Trial”) of the Microsoft 365 services, you agree to be bound by our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2108910) and the following terms (“Trial Terms”), provided that in the event of a conflict the Trial Terms shall govern. The Trial period will be for thirty (30) or sixty (60) days from the date you activate the Trial depending on the trial you start. Unless you purchase a subscription to the Microsoft 365 services prior to the expiration or termination of your Trial period, you will no longer have access to (i) any data related to the features of the Trial that you entered into your account, and (ii) configurations or customizations made by you or for you using the features of the Trial. Microsoft reserves the right to terminate or modify the Trial and/or these Trial Terms at any time without prior notice and without liability. Trial offer is not available for customers in all regions and countries.
+
+### What happens if my users' trial licenses expire?
+
+After the trial licenses expire, the licensed users lose all Teams Premium functionality. There's no grace period between the expiration of the trial license and the loss of functionality.
 
 For this reason, we recommend organizations plan their Teams Premium trial period, ensuring all necessary test scenarios are thoroughly vetted before the trial period expires.
 
-When the trial licenses expire, the tenant's uploaded Teams Premium assets like custom templates and meeting backgrounds will remain in the tenant but will be grayed out and unusable.
+When the trial licenses expire, the tenant's uploaded Teams Premium assets like custom templates and meeting backgrounds remain in the tenant but are grayed out and unusable.
 
-If your organization wishes to keep Teams Premium features after the trial period, you'll need to purchase Teams Premium licenses when they become available and reassign the licenses to your users.
+If your organization wishes to keep Teams Premium features after the trial period, you need to purchase Teams Premium licenses and reassign the licenses to your users.
 
 ## How do I purchase Teams Premium licenses?
 
-If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel once Teams Premium becomes generally available.
+If your tenant and users meet [the requirements for Teams Premium](#what-are-the-requirements-to-purchase-teams-premium), you can purchase Teams Premium add-on licenses through your preferred purchasing channel.
 
-After you purchase your Teams Premium licenses, you'll assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822). It can take up to 24 hours before the assignment takes effect.
+After you purchase your Teams Premium licenses, assign the licenses to your users in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822). It can take up to 24 hours before the assignment takes effect.
 
 For instructions on assigning licenses in the Microsoft 365 admin center, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
