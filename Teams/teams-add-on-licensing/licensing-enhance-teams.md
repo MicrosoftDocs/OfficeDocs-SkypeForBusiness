@@ -98,13 +98,13 @@ The following table compares key features between Teams and Teams Premium.
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| View insights on inactive external domains |  | ✔️ |
-| View insights on inactive teams |  | ✔️ |
-| View insights on external collaboration by user |  | ✔️ |
-| View insights on external collaboration by team |  | ✔️ |
-| View insights on external collaboration by guest |  | ✔️ |
+| Admin can view insights on inactive external domains |  | ✔️ |
+| Admin can view insights on inactive teams |  | ✔️ |
+| Admin can view insights on external collaboration by user |  | ✔️ |
+| Admin can view insights on external collaboration by team |  | ✔️ |
+| Admin can view insights on external collaboration by guest |  | ✔️ |
 
-Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of ACT Advanced Collaboration Analytics.
+*Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of ACT Advanced Collaboration Analytics.*
 
 ### Meetings protection
 
