@@ -2,7 +2,7 @@
 title: Manage voice applications policies for Microsoft Teams
 ms.author: danismith
 author: DaniEASmith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -136,7 +136,7 @@ You can edit the global policy or any custom policies you create.
 - **Holiday dates and hours**: Turn on this setting to allow authorized users to change the *Auto attendant holiday schedules* for the Auto attendants they're authorized for.
 
   > [!WARNING]
-  > Holiday sets may be shared across multiple auto attendants.  In order to successfully make a change to a holiday schedule that is shared across multiple auto attendants, the user must be configured as an authorized user for all the auto attendants that reference the holiday.
+  > Holiday sets can be shared across multiple auto attendants.  In order to successfully make a change to a holiday schedule that is shared across multiple auto attendants, the user must be configured as an authorized user for all the auto attendants that reference the holiday.
 
 #### Call Flow Routing
 
