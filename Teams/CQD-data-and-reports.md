@@ -1,7 +1,7 @@
 ---
 title: Data and reports in Call Quality Dashboard (CQD)
-author: MicrosoftHeidi
-ms.author: heidip
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 11/28/2017
@@ -92,6 +92,9 @@ These RBAC roles **DON'T** have EUII access:
 
 - Reports Reader
 - Teams Communications Support Specialist
+
+> [!NOTE]
+> Users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
 ## Date controls
 
@@ -240,7 +243,7 @@ We recommend that you upload your tenant, building, and location data so CQD can
 
 ## Create custom detailed reports
 
-If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports ](cqd-power-bi-query-templates.md)instead.
+If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports](cqd-power-bi-query-templates.md)instead.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 
@@ -365,7 +368,7 @@ The tenant ID in CQD corresponds to the Directory ID in Azure. If you don't know
 
 1. Sign in to the Microsoft Azure portal: <https://portal.azure.com>
 
-2. Select **Azure Active Directory**.
+2. Select **Microsoft Entra ID**.
 
 3. Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
 
