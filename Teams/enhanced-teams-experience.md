@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium - Overview for administrators
-author: MicrosoftHeidi
-ms.author: mikep
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: 
 ms.date: 10/19/2023
@@ -62,6 +62,8 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 
 - **Manage what attendees see** - Meeting organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others will be hidden from view.
 
+- **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
+
 | Feature/Task  | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
@@ -70,6 +72,7 @@ Teams Premium provides additional ways to safeguard meetings with the following 
 | Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
 | Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 | Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
 
 ## Custom meetings
 
