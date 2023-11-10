@@ -124,7 +124,7 @@ Note that for privacy reasons the data is hidden by default in this card. To rev
 
 ## Known issues
 
-1. Card location customizations on dashboard are not saved across sessions.
+1. Card location customizations on dashboard aren't saved across sessions.
 1. CSV download hasn't been enabled.
 1. Large events have a small chance of data categorization error. For example, a large team with few guests might not be categorized as "with guest users."
 
