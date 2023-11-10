@@ -99,14 +99,10 @@ Shared channels
 
 The **Teams with the most external user and guest activity** card view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/teams-with-most-external-user-and-guest-activity.png" alt-text="Screenshot that shows the Teams with the most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity.png":::
-
 > [!NOTE]
 > The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can select **View details** to see the teams’ names and the "sent message count" for each team. An average message count is also displayed. By default, we show you these details for the **last 7 days** time frame.
-
-:::image type="content" source="media/teams-with-most-external-user-and-guest-activity-detailed-report.png" alt-text="Screenshot that shows the detailed report - Teams with most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity-detailed-report.png":::
 
 You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and selecting **Run report**.
 
@@ -114,14 +110,10 @@ You can change the time frame by choosing **30 days** or **60 days** from the **
 
 The **Users with the most external user and guest collaboration** card view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
-:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Users with the most external user and guest collaboration." lightbox="media/users-with-most-external-users-and-guest-collaboration.png":::
-
 > [!NOTE]
 > The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can select **View details** to see the users’ names and the "sent message count" for each user. An average message count is also displayed. By default, we show you these details for the **last 7 days** time frame.
-
-:::image type="content" source="media/users-with-most-external-users-and-guest-collaboration-detailed-report.png" alt-text="Screenshot that shows the details of users with the most external user and guest collaboration for the last 7 days." lightbox="media/users-with-most-external-users-and-guest-collaboration-detailed-report.png":::
 
 You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and selecting **Run report**.
 
@@ -133,8 +125,6 @@ The **Guest with the most external user and guest collaboration** card shows you
 
 > [!NOTE]
 > The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
-
-:::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Guests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
 > This insight doesn't capture Guest<>In-tenant user activity, but only the Guest<>Guest and Guest<>External user activities. Guest<>External user activities occur in group chats but not in 1:1 chats.
@@ -163,16 +153,4 @@ You can change the time frame by selecting the **30 days** option, which provide
 
 Three cards - External collaboration activity by team, External collaboration activity by user, and Guest user activity - use data obfuscation (in other words, concealing the data). To reveal the data, perform the following steps.
 
-1. Launch the URL [https://admin.microsoft.com/](https://admin.microsoft.com/Adminportal/Home).
-1. Select **ShowAll < Settings < Org settings**.
-   The **Reports** page is displayed.
-1. Check the **Display concealed user, group, and site names in all reports** checkbox.
-   :::image type="content" source="media/unconcealing-data.png" alt-text="Screenshot showing the option to unconceal the data." lightbox="media/unconcealing-data.png":::
-
-   The data obfuscation is removed.
-
-   > [!NOTE]
-   > Clearing the **Display concealed user, group, and site names in all reports** checkbox will conceal the data.
-
-1. Save the policy.
-1. Navigate back to TAC to verify whether the data is visible.
+[Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports)
