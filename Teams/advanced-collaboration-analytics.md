@@ -1,10 +1,10 @@
 ---
-title: Advanced Collaboration Analytics for Microsoft Teams
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
-ms.reviewer: roykuntz; jens
-ms.date: 08/16/2023
+title: Advanced collaboration analytics for Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+ms.reviewer: izzychun
+ms.date: 11/10/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,63 +18,45 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about the Collaboration activity reports in Microsoft Teams.
+description: Learn about the collaboration activity reports in Microsoft Teams.
 ---
 
-# Advanced Collaboration Analytics for Microsoft Teams
+# Advanced collaboration analytics for Microsoft Teams
 
-The Advanced Collaboration Analytics feature for Microsoft Teams aim to give Teams administrators visibility into their organization’s external collaboration habits, such that they can facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration. In future iterations of the Collaboration activity reports, this feature will enable Teams administrators to automate their work.
-  
-Through Advanced Collaboration Analytics, you can surface insights about your teams, federated domains, channels, guests, and users internal to your organization.
+[!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-## Where to find Collaboration activity reports
+Advanced collaboration analytics gives you visibility into your organization’s external collaboration habits. These reports include information about your teams, trusted domains, channels, guests, and internal users. You can use this information to facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
 
-The Advanced Collaboration Analytics can be found in the Teams Admin Center dashboard under the **Collaboration activity** tab, as depicted in the following screenshot:
+Advanced collaboration analytics requires Teams Premium.
+
+## View the collaboration activity dashboard
+
+Advanced collaboration analytics can be found in the Teams admin center dashboard on the **Collaboration activity** tab.
 
 :::image type="content" source="media/collaborative-activity-dashboard.png" alt-text="Screenshot that shows the Collaboration activity reports menu item." lightbox="media/collaborative-activity-dashboard.png":::
 
-## Insights
+## Inactive teams
 
-This section describes the following insights of the Collaboration activity reports:
-
-- [Inactive teams](#inactive-teams)
-- [Inactive external domains activity](#inactive-external-domains-activity)
-- [Teams by user type](#teams-by-user-type)
-- [Channels by user type](#channels-by-user-type)
-- [Teams with the most external user and guest activity](#teams-with-the-most-external-user-and-guest-activity)
-- [Users with the most external user and guest collaboration](#users-with-the-most-external-user-and-guest-collaboration)
-- [Guests with the most external user and guest collaboration](#guests-with-the-most-external-user-and-guest-collaboration)
-
-### Inactive teams
-
-We recommend the removal of inactive teams to avoid the spread of confidential information when not necessary.
-
-> [!NOTE]
-> Every team has an associated site automatically created for it on Teams. An inactive team's associated site will also be inactive. To view the inactive teams whose associated sites are also inactive, you can use Site Lifecycle Management (SLM) policies. For more information about SLM and how to create policies for tracking inactive sites, see [Site Lifecycle Management (SLM)](#site-lifecycle-management-slm).
-
-The **Inactive teams** widget view shows only inactive teams whose connected workloads are also inactive. It shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for the specific day.
+The **Inactive teams** card shows inactive teams whose connected workloads are also inactive. It shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for the specific day.
 
 :::image type="content" source="media/inactive-teams.png" alt-text="Screenshot that shows details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
-Select **View details** to see which teams these are. For each team, you can see the privacy type, number of channels in the team, number of users in the team, and the last activity date.
-
-We began calculating the last activity date on July 10, 2023. A value for the **Last activity date (UTC)** is displayed only if there was an activity on the domain after July 10, 2023. If there was an activity on the domain prior to July 10, 2023, then the **Last activity date (UTC)** column displays a **-**.
+Select **View details** to see which teams these are. For each team, you can see the privacy type, number of channels, number of users, and the last activity date.
 
 :::image type="content" source="media/detailed-report-view.png" alt-text="Screenshot that shows the detailed report of teams that are inactive." lightbox="media/detailed-report-view.png":::
 
-By default, we show you the teams that have been inactive from the last 30 days.
+To change the time frame, select the range of date from the **Date range** drop-down, and select **Run report**.
 
-To change the time frame, select the range of date from the **Date range** drop-down list, and select **Run report**.
+You can also archive the team directly from the report. However, archiving a team has no impact on the connected workloads. Only the team itself will become read-only.
 
-You can also archive the team directly from the report. However, archiving a team has no impact on the connected workloads, with the team only going into a read-only mode.
+To archive an inactive team, under the **Action** column, select the **bin** icon. In the *Archive team?* dialog box, select **Archive**. For more information about archiving teams, see [Archive or delete a team in Microsoft Teams](archive-or-delete-a-team.md).
 
-To archive an inactive team, scroll to the extreme right, under **Action** column, select the **bin** icon. In the *Archive team?* dialog box, select **Archive**.
+> [!NOTE]
+> SharePoint Administrators with a [Microsoft Syntex - SharePoint Advanced Management](/sharepoint/advanced-management) license can use [site lifecycle policies](/sharepoint/site-lifecycle-management) in the SharePoint admin center to detect inactive sites, including team-connected sites.
 
-:::image type="content" source="media/archive-option.png" alt-text="Screenshot showing the option to archive the details of an inactive team." lightbox="media/archive-option.png":::.
+## Inactive external domains activity
 
-### Inactive external domains activity
-
-The **Inactive external domains activity** widget view shows you how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart representation to see exact counts for that day.
+The **Inactive external domains activity** card view shows you how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart representation to see exact counts for that day.
 
 :::image type="content" source="media/inactive-external-domains.png" alt-text="Screenshot that shows the total number of allowed domains." lightbox="media/inactive-external-domains.png":::
 
@@ -89,16 +71,16 @@ You can change the time frame by choosing a date range from the **Date range** d
  
 :::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
 
-### Teams by user type
+## Teams by user type
 
-The **Teams by user type** widget view shows you how many active teams are there for the last 7, 30, or 60 days, and how many teams comprise the following user compositions:
+The **Teams by user type** card view shows you how many active teams are there for the last 7, 30, or 60 days, and how many teams comprise the following user compositions:
 
 - Your users only
 - Your users and guests
 - Your users and external users
 - All user types
 
-:::image type="content" source="media/teams-by-user-type.png" alt-text="Screenshot that shows the Teams by user type widget." lightbox="media/teams-by-user-type.png":::
+:::image type="content" source="media/teams-by-user-type.png" alt-text="Screenshot that shows the Teams by user type card." lightbox="media/teams-by-user-type.png":::
 
 > [!NOTE]
 > This insight doesn't tell you how many users are there in a team; it shows how many teams have a specific user composition. For example, a team with 100 of your users and one guest counts as one team comprising “my users and guests”.
@@ -107,15 +89,15 @@ By default, we show the breakdown for teams active for the last 7 days.
 
 You can view data of active teams (and of their user compositions) for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
 
-### Channels by user type
+## Channels by user type
 
-The **Channels by user type** widget view shows you how many active channels are there for the last 7, 30, or 60 days, and how many channels comprise the following user compositions:
+The **Channels by user type** card view shows you how many active channels are there for the last 7, 30, or 60 days, and how many channels comprise the following user compositions:
 
 - Your users (internal to your organization) only
 - Your users and guests
 - Your users and external users
 
-:::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type widget." lightbox="media/channels-by-user-type.png":::
+:::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type card." lightbox="media/channels-by-user-type.png":::
 
 > [!NOTE]
 > The supported types of channels are standard, private, and shared.
@@ -134,14 +116,14 @@ For shared channels, you’ll see:
 
 By default, we show the breakdown for channels active for the last 7 days. You can view the data of active channels for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
 
-### Teams with the most external user and guest activity
+## Teams with the most external user and guest activity
 
-The **Teams with the most external user and guest activity** widget view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
+The **Teams with the most external user and guest activity** card view shows you which teams in your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
 :::image type="content" source="media/teams-with-most-external-user-and-guest-activity.png" alt-text="Screenshot that shows the Teams with the most external user and guest activity." lightbox="media/teams-with-most-external-user-and-guest-activity.png":::
 
 > [!NOTE]
-> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can select **View details** to see the teams’ names and the "sent message count" for each team. An average message count is also displayed. By default, we show you these details for the **last 7 days** time frame.
 
@@ -149,14 +131,14 @@ You can select **View details** to see the teams’ names and the "sent message 
 
 You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and selecting **Run report**.
 
-### Users with the most external user and guest collaboration
+## Users with the most external user and guest collaboration
 
-The **Users with the most external user and guest collaboration** widget view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
+The **Users with the most external user and guest collaboration** card view shows you which of the users internal to your organization have the most collaboration with guests and external users for the last 7 or 30 days.
 
 :::image type="content" source="media/users-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Users with the most external user and guest collaboration." lightbox="media/users-with-most-external-users-and-guest-collaboration.png":::
 
 > [!NOTE]
-> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 You can select **View details** to see the users’ names and the "sent message count" for each user. An average message count is also displayed. By default, we show you these details for the **last 7 days** time frame.
 
@@ -166,12 +148,12 @@ You can change the time frame by choosing **30 days** or **60 days** from the **
 
 You can change the time frame by selecting the **30 days** option, which provides details of those internal users who have collaborated the most with guests and external users for the last 30 days.
 
-### Guests with the most external user and guest collaboration
+## Guests with the most external user and guest collaboration
 
-The **Guest with the most external user and guest collaboration** widget shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
+The **Guest with the most external user and guest collaboration** card shows you which of your guests have the most collaboration with users who are internal to your organization for the last 7 or 30 days.
 
 > [!NOTE]
-> The data is concealed by default in this widget. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
+> The data is concealed by default in this card. To reveal the data, see [Remove data obfuscation](#remove-data-obfuscation).
 
 :::image type="content" source="media/guests-with-most-external-users-and-guest-collaboration.png" alt-text="Screenshot that shows the Guests with the most external user and guest collaboration." lightbox="media/guests-with-most-external-users-and-guest-collaboration.png":::
 
@@ -182,7 +164,7 @@ By default, we show you the guest users who have engaged in external collaborati
 
 You can change the time frame by selecting the **30 days** option, which provides details of those guests who have collaborated the most with guests and external users for the last 30 days.
 
-#### Site Lifecycle Management (SLM)
+### Site Lifecycle Management (SLM)
 
 SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC). To access and use this feature, tenants must subscribe to the Microsoft Syntex - SharePoint Advanced Management (SAM) license.
 
@@ -279,13 +261,13 @@ To create an inactive site policy, perform the following steps:
 #### Known issues
 
 1. On the time-series charts, last day’s data is empty. For example, on 2/17, a time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
-1. Widget location customizations on dashboard are yet to be persisted across sessions.
+1. card location customizations on dashboard are yet to be persisted across sessions.
 1. Csv download hasn’t been enabled.
 1. Large events may have a small chance of data categorization error. For example, a large team with few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
 
 #### Remove data obfuscation
 
-Three widgets - External collaboration activity by team, External collaboration activity by user, and Guest user activity - use data obfuscation (in other words, concealing the data). To reveal the data, perform the following steps.
+Three cards - External collaboration activity by team, External collaboration activity by user, and Guest user activity - use data obfuscation (in other words, concealing the data). To reveal the data, perform the following steps.
 
 1. Launch the URL [https://admin.microsoft.com/](https://admin.microsoft.com/Adminportal/Home).
 1. Select **ShowAll < Settings < Org settings**.
