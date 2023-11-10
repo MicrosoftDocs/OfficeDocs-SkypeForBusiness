@@ -165,7 +165,7 @@ The following table compares key features between Teams and Teams Premium.
 | View and manage on-demand appointments in the queue |  | ✔️ |
 | Send post-appointment follow-ups (*coming soon*) |  | ✔️ |
 
-\* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.*
+\* *SMS notifications for Virtual Appointments are currently available in the US, Canada, and UK.*
 
 ### Meet app
 
