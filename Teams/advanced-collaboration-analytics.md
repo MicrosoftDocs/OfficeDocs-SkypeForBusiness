@@ -3,7 +3,7 @@ title: Advanced collaboration analytics for Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.reviewer: izzychun
+ms.reviewer: izzychun, charup
 ms.date: 11/10/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
