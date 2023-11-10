@@ -56,7 +56,7 @@ Call routing is made up of the following elements:
 If a user has a Calling Plan license, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign an online voice routing policy to a Calling Plan user, that user’s outgoing calls are checked to determine whether the dialed number matches a number pattern defined in the online voice routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
 
 > [!CAUTION]
-> If you configure and apply the global (Org-wide default) online voice routing policy, all voice-enabled users in your organization will inherit that policy, which may result in PSTN calls from Calling Plan and Operator Connect users being inadvertently routed to a Direct Routing trunk. If you don't want all users to use the global online voice routing policy, configure a custom online voice routing policy and assign it to individual voice-enabled users.
+> If you configure and apply the global (Org-wide default) online voice routing policy, all voice-enabled users in your organization will inherit that policy, which might result in PSTN calls from Calling Plan and Operator Connect users being inadvertently routed to a Direct Routing trunk. If you don't want all users to use the global online voice routing policy, configure a custom online voice routing policy and assign it to individual voice-enabled users.
 
 ## Example 1: Voice routing with one PSTN usage
 
@@ -90,6 +90,9 @@ The following table summarizes the configuration using three voice routes. In th
 |US and Canada|"Redmond 2"|^\\+1(425\|206)(\d{7})$|2|sbc3.contoso.com<br/>sbc4.contoso.com|Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
 |US and Canada|"Other +1"|^\\+1(\d{10})$|3|sbc5.contoso.com<br/>sbc6.contoso.com|Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |||||||
+
+  > [!NOTE]
+  > In case of call forwarding or call transfer of an incoming PSTN call, when the ingress SBC is also listed as a potential egress SBC, its priority value is ignored, and it is prioritized above other SBCs. For example, in this table, if a forwarded call is ingressed over sbc5.contoso.com, the first SBC attempted for egress will be sbc5.contoso.com, even though its priority value is 3.
 
 ## Example 1: Configuration steps
 

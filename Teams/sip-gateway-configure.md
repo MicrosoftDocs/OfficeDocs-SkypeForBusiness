@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/04/2023
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -11,7 +11,7 @@ ms.collection:
   - teams-rooms-devices
   - highpri
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: chasing
 search.appverid: MET150
 f1.keywords:
 - NOCSH
