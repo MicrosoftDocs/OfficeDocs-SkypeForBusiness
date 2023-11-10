@@ -42,7 +42,7 @@ The **Inactive teams** card shows inactive teams whose connected workloads are a
 
 Note that you can set inactive teams to expire automatically by using [expiration policies for Microsoft 365 groups](/microsoft-365/solutions/microsoft-365-groups-expiration-policy). You can also [archive or delete a team in the Teams admin center](archive-or-delete-a-team.md).
 
-:::image type="content" source="media/inactive-teams.png" alt-text="Screenshot that shows details of teams that are inactive." lightbox="media/inactive-teams.png":::
+:::image type="content" source="media/inactive-teams.png" alt-text="Screenshot that shows details of teams that are inactive.":::
 
 Select **View details** to see which teams these are. For each team, you can see the privacy type, number of channels, number of users, and the last activity date.
 
@@ -63,13 +63,13 @@ The **Inactive external domains activity** card shows how many domains are allow
 
 This card is only available if you've configured an allowlist in [external access](trusted-organizations-external-meetings-chat.md).
 
-:::image type="content" source="media/inactive-external-domains.png" alt-text="Screenshot that shows the total number of allowed domains." lightbox="media/inactive-external-domains.png":::
+:::image type="content" source="media/inactive-external-domains.png" alt-text="Screenshot that shows the total number of allowed domains.":::
 
 Select **View details** to see which domains are inactive, including the last activity date. A value for **Last activity date (UTC)** is displayed only if domain activity has taken place after the purchase of Teams Premium.
 
 You can change the time frame by choosing a date range from the **Date range** dropdown and selecting **Run report**.
 
-:::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
+:::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity.":::
 
 ## Teams by user type
 
@@ -80,7 +80,7 @@ The **Teams by user type** card shows how many active teams have a particular us
 - Your users and external shared channel users
 - All user types
 
-:::image type="content" source="media/teams-by-user-type.png" alt-text="Screenshot that shows the Teams by user type card." lightbox="media/teams-by-user-type.png":::
+:::image type="content" source="media/teams-by-user-type.png" alt-text="Screenshot that shows the Teams by user type card.":::
 
 ## Channels by user type
 
@@ -94,7 +94,7 @@ Shared channels
 - Only your users
 - Your users and external channel participants
 
-:::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type card." lightbox="media/channels-by-user-type.png":::
+:::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type card.":::
 
 ## Teams with the most external user and guest activity
 
