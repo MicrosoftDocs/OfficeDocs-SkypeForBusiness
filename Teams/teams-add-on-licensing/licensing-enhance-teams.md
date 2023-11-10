@@ -53,7 +53,7 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 Customers who purchase a Microsoft 365 subscription also receive Teams licenses for their users. Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams with their Microsoft 365 subscription.
 
-The following table compares key features between Teams and Teams Premium.
+The following tables compares key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed below. Teams Premium licenses don't replace users' standard Teams licenses.
 
 ### Meetings
 
@@ -101,16 +101,20 @@ The following table compares key features between Teams and Teams Premium.
 | Broadcast town halls to 10k attendees | ✔️ |  |
 | Host up to 15 town halls simultaneously | ✔️ |  |
 | View attendance reports | ✔️ |  |
-| Turn on eCDN for town halls\* | ✔️ |  |
+| Manage what attendees see | ✔️ |  |
+| Provide a unique join link for presenters | ✔️ |  |
+| Set up a green room for presenters and organizers | ✔️ |  |
+| Turn on Microsoft eCDN for town halls\* | ✔️ |  |
 | Use RTMP-In for town halls | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
-| Live translated captions in 6 languages | ✔️ |  |
+| View live translated captions in 6 languages | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
+| Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
-| Live translated captions in 10 languages |  | ✔️ |
+| View live translated captions in 10 languages |  | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
