@@ -104,7 +104,7 @@ You can select **View details** to see the team names and the sent message count
 
 By default, we show you these details for the last 7 days. You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down and selecting **Run report**.
 
-Note that the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
+Note that for privacy reasons the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
 
 ## Users with the most external user and guest collaboration
 
@@ -114,13 +114,13 @@ You can select **View details** to see the users' names and the sent message cou
 
 By default, we show you these details for the last 7 days. You can change the time frame by choosing **30 days** or **60 days** from the **Date range** drop-down list and selecting **Run report**.
 
-Note that the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
+Note that for privacy reasons the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
 
 ## Guests with the most external user and guest collaboration
 
 The **Guest with the most external user and guest collaboration** card shows you which guests have the most collaboration with other guests or external shared channel users over the last 7 or 30 days.
 
-Note that the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
+Note that for privacy reasons the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
 
 ## Known issues
 
