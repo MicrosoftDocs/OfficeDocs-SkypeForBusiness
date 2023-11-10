@@ -54,6 +54,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Audiocodes RXV200 | `2.2.335` | 2023 Update #2 |
+| Audiocodes RXV81 | `2.2.335` | 2023 Update #2 |
+| Audiocodes RX-Pad | `2.2.335` | 2023 Update #2 |
 | Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
 | Audiocodes RX-Pad | `2.2.311` | 2023 Update #2 |
 | Neat Bar | `NFB1.20230504.0021` | 2023 Update #2A |
