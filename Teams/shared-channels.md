@@ -41,7 +41,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 If you plan to share channels with people outside your organization, read [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration) for important planning considerations.
 
-Sharing channels with people outside your organization also requires that you configure cross-tenant access settings in Microsoft Entra ID. Each organization that you want to share channels with must also complete this configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for details.
+Sharing channels with people outside your organization also requires that you configure cross-tenant access settings in Microsoft Entra ID. Each organization that you want to share channels with must also complete this configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for details. Note that while shared channels with external participants don't use guest accounts, [guest access in Teams](set-up-guests.md) must be enabled to invite them.
 
 ## Shared channel creation
 
@@ -64,8 +64,7 @@ Deleted teams can be restored within 30 days after deletion. When a team is dele
 When a team is archived, individual sharing will remain intact, but sharing with teams other than the parent team will be removed. When archived team is unarchived, all shared channels will be restored with individual sharing only.
 
 ## Adding and removing owners and members
-> [!NOTE]
-> For adding external members into a shared channel settings for allowing guest users should be turned on, even thought guest users are not a supported object in shared channels.
+
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
@@ -129,7 +128,7 @@ If an existing notebook is added as a tab to a shared channel, access to the sha
 
 ## Resources for your users
 
-The following articles may be helpful for the users in your organization when they use shared channels.
+The following articles might be helpful for the users in your organization when they use shared channels.
 
 [Create a shared channel in Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
 
