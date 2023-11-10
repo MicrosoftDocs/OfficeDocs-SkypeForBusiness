@@ -34,6 +34,7 @@ When a shared channel is created, it's linked to the parent team and can't be mo
 
 [Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
+
 ## Getting started with shared channels
 
 Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
@@ -63,7 +64,8 @@ Deleted teams can be restored within 30 days after deletion. When a team is dele
 When a team is archived, individual sharing will remain intact, but sharing with teams other than the parent team will be removed. When archived team is unarchived, all shared channels will be restored with individual sharing only.
 
 ## Adding and removing owners and members
-
+> [!NOTE]
+> For adding external members into a shared channel settings for allowing guest users should be turned on, even thought guest users are not a supported object in shared channels.
 A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
 If the last shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel from your organization is automatically promoted to be the shared channel owner. If there are no members from your organization to promote, the shared channel will remain ownerless. A Teams admin will have to manually assign a channel owner. Consider adding more than one owner to avoid this situation.
