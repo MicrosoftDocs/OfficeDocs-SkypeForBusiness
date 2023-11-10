@@ -72,7 +72,7 @@ The following table compares key features between Teams and Teams Premium.
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
-| Turn on eCDN for Live Events\* |  | ✔️ |
+| Turn on eCDN Meetings\* |  | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -93,6 +93,26 @@ The following table compares key features between Teams and Teams Premium.
 | Manually approve registrants |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
+
+### Town halls
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| Broadcast town halls to 10k attendees | ✔️ |  |
+| Host up to 15 town halls simultaneously | ✔️ |  |
+| View attendance reports | ✔️ |  |
+| Turn on eCDN for town halls\* | ✔️ |  |
+| Use RTMP-In for town halls | ✔️ |  |
+| Town hall Q&A capacity of 10k attendees | ✔️ |  |
+| Live translated captions in 6 languages | ✔️ |  |
+| Broadcast town halls to 20k attendees |  | ✔️ |
+| Host up to 50 town halls simultaneously |  | ✔️ |
+| Town hall Q&A capacity of 20k attendees |  | ✔️ |
+| View Microsoft Town hall insights |  | ✔️ |
+| Edit town hall emails |  | ✔️ |
+| Live translated captions in 10 languages |  | ✔️ |
+
+\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Meetings protection
 
