@@ -3,7 +3,7 @@ title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/04/2023
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -11,7 +11,7 @@ ms.collection:
   - teams-rooms-devices
   - highpri
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: chasing
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -403,6 +403,9 @@ SIP Gateway only supports IPv4. Microsoft Teams service and client support both 
 ## Emergency calling
 
 SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP devices that share network attributes over the wire. These attributes are provisioned in the Teams admin center and can be a combination of local IP and subnet length, or chassis ID and network port number. For devices that do not share location attributes, or if the location is not resolved dynamically for any reason, SIP Gateway will continue to support emergency calling based on registered addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+
+> [!NOTE]
+> Compatible Cisco SIP IP phones only support dynamic location discovery over LLDP. 
 
 ## Report problems to Microsoft
 

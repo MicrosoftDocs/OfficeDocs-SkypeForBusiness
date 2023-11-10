@@ -1,8 +1,8 @@
 ---
 title: "Change phone numbers on Audio Conferencing bridge"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 11/28/2017
 ms.topic: article
