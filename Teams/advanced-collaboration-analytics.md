@@ -39,6 +39,8 @@ Advanced collaboration analytics can be found in the Teams admin center dashboar
 
 The **Inactive teams** card shows inactive teams whose connected workloads are also inactive. It shows you how many teams in your organization have been inactive for the last 30 or 60 days. You can hover over each bar to see the exact counts for the specific day.
 
+Note that you can set inactive teams to expire automatically by using [expiration policies for Microsoft 365 groups](/microsoft-365/solutions/microsoft-365-groups-expiration-policy).
+
 :::image type="content" source="media/inactive-teams.png" alt-text="Screenshot that shows details of teams that are inactive." lightbox="media/inactive-teams.png":::
 
 Select **View details** to see which teams these are. For each team, you can see the privacy type, number of channels, number of users, and the last activity date.
@@ -56,19 +58,16 @@ To archive an inactive team, under the **Action** column, select the **bin**
 
 ## Inactive external domains activity
 
-The **Inactive external domains activity** card view shows you how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart representation to see exact counts for that day.
+The **Inactive external domains activity** card shows how many domains are allowed and how many of your allowed domains have been active and inactive for the last 30 or 60 days. You can hover over each part of the pie chart to see exact counts.
+
+This card is only available if you've configured an allowlist in [external access](trusted-organizations-external-meetings-chat.md).
 
 :::image type="content" source="media/inactive-external-domains.png" alt-text="Screenshot that shows the total number of allowed domains." lightbox="media/inactive-external-domains.png":::
 
-> [!NOTE]
-> This insight won't surface for organizations with open federation enabled.
+Select **View details** to see which domains are inactive, including the last activity date. A value for **Last activity date (UTC)** is displayed only if domain activity has taken place after the purchase of Teams Premium.
 
-You can select **View details** to see which domains are inactive. For each domain, we show the last activity date. We begin calculating the last activity date on the day your tenant purchases Teams Premium licenses. A value for **Last activity date (UTC)** is displayed only if an activity on the domain takes place after purchase of the Teams Premium license. If the last activity on the domain took place prior to the purchase of the Teams Premium license, the **Last activity date (UTC)** column displays a **-**.
+You can change the time frame by choosing a date range from the **Date range** dropdown and selecting **Run report**.
 
-By default, we show you the domains that have been inactive from the last 30 days.
-
-You can change the time frame by choosing a date range from the **Date range** dropdown list and selecting **Run report**.
- 
 :::image type="content" source="media/detailed-report-view-inactive-external-domains.png" alt-text="Screenshot that shows the detailed report view regarding the external domains activity." lightbox="media/detailed-report-view-inactive-external-domains.png":::
 
 ## Teams by user type
@@ -164,91 +163,6 @@ By default, we show you the guest users who have engaged in external collaborati
 
 You can change the time frame by selecting the **30 days** option, which provides details of those guests who have collaborated the most with guests and external users for the last 30 days.
 
-### Site Lifecycle Management (SLM)
-
-SLM (Site Lifecycle Management) is a feature within the SharePoint admin center (SPAC). To access and use this feature, tenants must subscribe to the Microsoft Syntex - SharePoint Advanced Management (SAM) license.
-
-An SLM policy is a mechanism by which a SharePoint administrator can manage SharePoint sites.
-
-You can view the data of inactive teams in an SLM policy report. For more information on an SLM policy report, the data it stores, and categorization of its data, see [Manage site lifecycle policies](/sharepoint/site-lifecycle-management).
-
-SLM provides policies to manage inactive sites. There can be 5 inactive site policies at a given time on SPAC. The Teams admin center (TAC) administrator can search for policies of inactive sites whose associated teams are also inactive. In other words, they can search for policies whose scope includes **Teams connected sites**.
-
-To check the scope for a policy:
-
-1. Select a policy on the **Site lifecycle management** page. The panel containing the details of the policy is displayed.
-1. Select the **Scope** tab.
-
-   :::image type="content" source="media/finding-scope-of-policy.png" alt-text="Screenshot showing the scope that an SLM policy has." lightbox="media/finding-scope-of-policy.png":::
-
-   The inactive sites connected to inactive teams in the policy are indicated by the highlighted section.
-
-You can download the report of this policy, which returns data of inactive sites. In this report, those inactive sites which have the value **TRUE** under the **Connected to Teams** column are the inactive sites whose associated teams are also inactive.
-
-:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot of the report of an SLM policy." lightbox="media/report-of-slm-policy.png":::
-
-An SLM policy is of the following types:
-
-- **Simulation**: A simulation policy is one that runs once, based on the parameters you have provided. If this policy fails, you have to delete this policy and create a new one.
-- **Active**: An active policy is one that runs monthly. When you run this policy, it leads to:
-    - generation of reports
-    - notifications to site owners of the inactive sites. For more information on the notifications to the owners of the inactive sites, see [Notification to site owners](#notification-to-site-owners).
-
-##### Functionalities
-
-An SLM policy has the following functionalities:
-- [Detection of inactive sites](#detection-of-inactive-sites)
-- [Notification to site owners](#notification-to-site-owners)
-- [Reports](#reports)
-
-###### Detection of inactive sites
-
-An SLM policy when run detects sites that have been inactive for a specified period of time.
-
-> [!NOTE]
-> The value for the "specified period of time" is defined by the SharePoint administrator when they create a policy. Based on this threshold value, inactive sites are detected and an email notification to the site owner is triggered.
-
-For example, if the specified period of time is 6 months, you select **6 months** under **How long after the last activity should a site be considered inactive?** on the **Set policy scope** page.
-
-:::image type="content" source="media/set-policy-scope-page.png" alt-text="Screenshot showing the Set policy scope page." lightbox="media/set-policy-scope-page.png":::
-
-###### Notification to site owners
-
-Once inactive sites are detected after running the SLM policy, an email notification is triggered to the owners of the sites. These notifications inform the site owners that their sites have been inactive for the specified period of time. These notifications prompt the site owners to confirm if their site is "active" or "inactive".
-
-If the site owner wants to keep the site, they should respond by selecting the **Certify site** button on the notification email. 
-
-Notifications are sent to the site owner for the first 3 months, after which no notification is sent for the next 3 months. If the site owner doesn't respond after three successive notifications, this site is listed as **No owner action** in the policy execution report. The SharePoint administrator can then choose to take action on such sites, based on discretion.
-
-###### Reports
-
-Once a policy has been created and run, the inactive sites are detected and email notifications are triggered for the site owner.This data is available in the form of a report that can be downloaded by selecting the **Download** link under the **Report** column on the **Site lifecycle management** page.
-
-:::image type="content" source="media/slm-screen-download-reports.png" alt-text="Screenshot showing the Site lifecycle management page from which you can download the report." lightbox="media/slm-screen-download-reports.png":::
-
-To know which are the inactive sites that are associated with inactive teams, you can look for the value **YES** under the **Connected to Teams** column in the report. An example of a report is shown in the following screenshot:
-
-:::image type="content" source="media/report-of-slm-policy.png" alt-text="Screenshot showing the report of an SLM policy that can be downloaded from the Site lifecycle management page." lightbox="media/report-of-slm-policy.png":::
-
-The inactive sites in the report which have the value **YES** under the **Connected to Teams** column are those sites that are associated with inactive teams.
-
-##### Create a new policy for inactive sites
-
-To create an inactive site policy, perform the following steps:
-
-1. Go to SharePoint admin center.
-1. Select **Policies > Site lifecycle management**.
-1. Select **+ Create policy** and then select **Next**.
-1. Enter the policy scope parameters based on which you want to retrieve data, and select **Next**.
-
-   :::image type="content" source="media/setting-parameters-for-slm-policy.png" alt-text="Screenshot showing the page on which you can set the parameters that will determine the data of the SLM policy report." lightbox="media/setting-parameters-for-slm-policy.png":::
-
-1. Provide a name for your policy, (optional) provide a description, and select a policy mode.
-
-   :::image type="content" source="media/define-details-of-policy.png" alt-text="Screenshot on which you define the details for the SLM policy, such as name, description, and the policy mode." lightbox="media/define-details-of-policy.png":::
-
-1. Select **Next**.
-1. Select **Done**. Your policy is now created, and can be viewed and managed from the **Site lifecycle management** dashboard.
 
 #### Notes
 
