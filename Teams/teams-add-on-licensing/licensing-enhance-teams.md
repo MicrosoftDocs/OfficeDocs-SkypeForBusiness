@@ -102,6 +102,7 @@ The following tables compares key features between Teams and Teams Premium. Beca
 | Host up to 15 town halls simultaneously | ✔️ |  |
 | View attendance reports | ✔️ |  |
 | Manage what attendees see | ✔️ |  |
+| Provide town hall video on demand | ✔️ |  |
 | Provide a unique join link for presenters | ✔️ |  |
 | Set up a green room for presenters and organizers | ✔️ |  |
 | Turn on Microsoft eCDN for town halls\* | ✔️ |  |
