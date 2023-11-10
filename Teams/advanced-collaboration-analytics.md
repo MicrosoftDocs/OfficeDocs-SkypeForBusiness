@@ -72,7 +72,7 @@ You can change the time frame by choosing a date range from the **Date range** d
 
 ## Teams by user type
 
-The **Teams by user type** card view shows you how many active teams are there for the last 7, 30, or 60 days, and how many teams comprise the following user compositions:
+The **Teams by user type** card shows how many active teams have a particular user composition:
 
 - Your users only
 - Your users and guests
@@ -81,39 +81,19 @@ The **Teams by user type** card view shows you how many active teams are there f
 
 :::image type="content" source="media/teams-by-user-type.png" alt-text="Screenshot that shows the Teams by user type card." lightbox="media/teams-by-user-type.png":::
 
-> [!NOTE]
-> This insight doesn't tell you how many users are there in a team; it shows how many teams have a specific user composition. For example, a team with 100 of your users and one guest counts as one team comprising “my users and guests”.
-
-By default, we show the breakdown for teams active for the last 7 days.
-
-You can view data of active teams (and of their user compositions) for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
-
 ## Channels by user type
 
-The **Channels by user type** card view shows you how many active channels are there for the last 7, 30, or 60 days, and how many channels comprise the following user compositions:
+The **Channels by user type** card shows you how many active channels have a particular user composition:
 
-- Your users (internal to your organization) only
+Standard and private channels
+- Only your users
 - Your users and guests
-- Your users and external users
+
+Shared channels
+- Only your users
+- Your users and external channel participants
 
 :::image type="content" source="media/channels-by-user-type.png" alt-text="Screenshot showing the Channels by user type card." lightbox="media/channels-by-user-type.png":::
-
-> [!NOTE]
-> The supported types of channels are standard, private, and shared.
-
-This insight doesn't tell you how many users are there in a channel; it shows how many channels have a specific user composition.
-
-For example, for standard and private channels, you’ll see:
-
-- How many are made up of your users only, and
-- How many are made up of your users and guests
-
-For shared channels, you’ll see:
-
-- How many are made up of your users only, and
-- How many are made up of your users and guests.
-
-By default, we show the breakdown for channels active for the last 7 days. You can view the data of active channels for other time frames such as 30 or 60 days by selecting **30 days** or **60 days**, respectively.
 
 ## Teams with the most external user and guest activity
 
