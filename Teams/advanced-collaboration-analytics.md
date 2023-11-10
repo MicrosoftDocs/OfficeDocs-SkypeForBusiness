@@ -26,6 +26,8 @@ description: Learn about the collaboration activity reports in Microsoft Teams.
 
 Advanced collaboration analytics gives you visibility into your organization’s external collaboration habits. These reports include information about your teams, trusted domains, channels, guests, and internal users. You can use this information to facilitate successful collaboration and mitigate potential risks that come with allowing external collaboration.
 
+Reports only show users and teams owned by your organization, but the counts could include activities in cross-tenant collaborations. Reports include chat events (1:1, group, and meeting) initiated by your users and by people outside your organization. Reports include channel events from Teams channels in your organization, but not channel events that your users participate in that are hosted by other organizations.
+
 Advanced collaboration analytics requires Teams Premium.
 
 ## View the collaboration activity dashboard
@@ -120,17 +122,12 @@ The **Guest with the most external user and guest collaboration** card shows you
 
 Note that the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
 
-#### Notes
+## Known issues
 
-1. All reports only show users and teams owned by your tenant, but the counts could include activities in cross-tenant collaborations.
-    1. For channel events, only the channel’s owning tenant knows about the event. Therefore, if your tenant’s user is participating in channels owned by other tenants, these events don't accrue to any of the reports in your tenant.
-    1. For chat (1:1, group, meeting) events, all participating tenants know about the events. So, your tenant’s report knows events initiated not only by users in your tenant but also by others in other tenants.
-    1. These are to uphold Microsoft’s promise on privacy and compliance.
-2. These reports honor Microsoft 365 level “admin report setting” about concealing or displaying team/user details. For more information, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide&preserve-view=true). When a global administrator configures “conceal team/user details”, reports show obfuscated user/team names instead of their display names.
+1. Card location customizations on dashboard are not saved across sessions.
+1. CSV download hasn't been enabled.
+1. Large events have a small chance of data categorization error. For example, a large team with few guests might not be categorized as "with guest users."
 
-#### Known issues
+## Related articles
 
-1. On the time-series charts, last day’s data is empty. For example, on 2/17, a time-series chart doesn’t have data for 2/17; so, the data of 2/16 is shown since the lines stop at 2/16.
-1. card location customizations on dashboard are yet to be persisted across sessions.
-1. Csv download hasn’t been enabled.
-1. Large events may have a small chance of data categorization error. For example, a large team with few guest users may not be categorized as “with guest users”. We're making improvements to address this issue.
+[Microsoft Teams analytics and reporting](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
