@@ -337,6 +337,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Intelligent recap
+          href: privacy/intelligent-recap.md
 
 
 - name: Manage and monitor Teams

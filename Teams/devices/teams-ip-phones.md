@@ -54,14 +54,13 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
-| AudioCodes C470HD   | `2.1.87`  | 	October 26, 2026  | 12 |
+| AudioCodes C470HD   | `2.1.87`  |October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP54 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Poly CCX350  | `8.0.1.4670`                                                  | 	March 30, 2024              | 9 |
 | Poly CCX505  | `7.3.1.0811`                                                  | 	March 30, 2024              | 9 |
 | Crestron Audio: UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024            | 9 |
-| Crestron Video: UC-P8-C, UC-P8-C-I, UC-P10-C, UC-P10-C-I | `1.0.0.56` | November 5, 2023            | 9 |
 | Yealink MP52         | `145.15.0.6 ` | November 5, 2023                | 9 |
 | AudioCodes C435HD    | `1.12.33`     | March 30, 2024              | 9 |
 | AudioCodes C455HD    | `1.14.404`    |March 30, 2024                | 9 |
@@ -71,7 +70,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX600  | `5.9.12.1122` | March 30, 2024               | 9 |
 | Poly CCX500  | `5.9.12.1122` | March 30, 2024                | 9 |
 | Yealink EXP50 supported on MP56, MP58| For each supported device model, see update #7 firmware version | March 30, 2024       | 9 |
-| Yealink VP59 | `91.15.0.16` |November 5, 2023   | 9 |
+
 
 
 ## Certified Teams Rooms on Android
@@ -292,6 +291,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #3 | November 8, 2023 | `1449/1.0.95.2023101102` | `5.0.5484.0` | `1.0.0.202306202019.product (486)`|
 |2023 Update #2A | June 28, 2023 | `1449/1.0.95.2023061601` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #2 | May 24, 2023 | `1449/1.0.95.2023042701` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #1A | February 9, 2023 | `1449/1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
