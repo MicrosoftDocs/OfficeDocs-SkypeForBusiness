@@ -310,7 +310,7 @@ Bulk sign-in is very helpful and can be used in these scenarios.
     Import-Module MicrosoftTeams
     $credential = Get-Credential   // Enter your admin’s email and password 
     Connect-MicrosoftTeams –Credential $credential
-    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
+    New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
     ```
 
 The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
