@@ -65,7 +65,7 @@ The following table shows the behaviors of the settings for the **`-JoinMeetings
 |Setting value| Behavior|
 |---------|---------------|
 |All| **This is the default.**Users with this policy can join any meeting they’re invited to. |
-|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings that organizations you have a trusted relationship with host.|
+|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings organizations that you have a trusted relationship with host.|
 |CurrentOrgOnly| Users with this policy can only join in org meetings.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
