@@ -1,7 +1,7 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
-ms.date: 10/12/2023
+ms.date: 11/13/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -46,7 +46,8 @@ The following table shows which features are available in meetings, webinars, an
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
+|[Green room](hide-attendee-names.md)|✔️|✔️|✖️|
+|[Hide attendee names](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
 |[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✔️|
 |[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
