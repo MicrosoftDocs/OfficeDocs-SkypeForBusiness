@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 11/13/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -16,7 +16,7 @@ ms.collection:
   - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
-description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle.
+description: Learn how to manage who can record Teams meetings, automatic recording, and the recording lifecycle for sensitive meetings.
 ---
 
 # Manage Microsoft Teams meeting recording options for sensitive meetings
@@ -36,8 +36,6 @@ The following table shows the features available to help you manage meeting reco
 
 The Teams Administrator has overall control over whether meeting recording is enabled. Both meeting organizers and administrators can configure who can record and whether meetings are automatically recorded by using sensitivity labels, meeting templates, and meeting organizer settings.
 
-To manage explicit consent for recordings, see [Meeting Recording.](meeting-recording.md)
-
 ## Manage who can record meetings
 
 There are two options for who can record a meeting:
@@ -55,7 +53,7 @@ Meetings can be set to record automatically when they start. Normally, the meeti
 
 If there are certain types of meetings that should always be recorded, you can enforce this option by using a meeting template or a sensitivity label.
 
-If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meetings need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the *sensitive* label, one which automatically records and another which doesn't.
+If all of a particular type of meeting must be recorded (for example, all sensitive meetings), consider enforcing this by using a sensitivity label. If only certain sensitive meetings need to be recorded, consider using meeting templates to configure this setting. You can create two templates that both use the same label, one which automatically records and another which doesn't.
 
 ## Recording lifecycle
 
@@ -70,7 +68,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For information about configuring admin meeting policies for meeting recordings and enabling explicit recording consent, see [Teams meeting recording](/microsoftteams/meeting-recording).
+For information about configuring admin meeting policies for meeting recordings and enabling explicit recording consent, see [Teams meeting recording](meeting-recording.md).
 
 For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 
@@ -79,3 +77,9 @@ For details about enforcing settings by using meeting templates and sensitivity 
 [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md)
 
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+
+[Options for meeting organizers in Microsoft Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e)
+
+[Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
+
+[Use sensitivity labels to protect calendar items, Teams meetings, and chat](/purview/sensitivity-labels-meetings)
