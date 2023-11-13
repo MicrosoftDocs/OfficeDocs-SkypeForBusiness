@@ -71,6 +71,7 @@ The following table compares key features between Teams and Teams Premium.
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
+| Hide attendee names |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN for Live Events\* |  | ✔️ |
 
