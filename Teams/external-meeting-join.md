@@ -64,7 +64,7 @@ The following table shows the behaviors of the settings for the **`-JoinMeetings
 
 |Setting value| Behavior|
 |---------|---------------|
-|All| **This is the default.**Users with this policy can join any meeting they’re invited to. |
+|All| **This is the default.** Users with this policy can join any meeting they’re invited to. |
 |Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings organizations that you have a trusted relationship with host.|
 |CurrentOrgOnly| Users with this policy can only join in org meetings.|
 
