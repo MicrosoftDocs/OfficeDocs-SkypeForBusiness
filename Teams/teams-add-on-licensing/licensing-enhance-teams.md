@@ -66,7 +66,7 @@ The following tables compares key features between Teams and Teams Premium. Beca
 | Set up a green room for meeting presenters and organizers| ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
-| Customize meeting backgrounds for your organization | | ✔️ |
+| Customize meeting backgrounds for your organization |  | ✔️ |
 | Customize Together mode scenes for your organization |  | ✔️ |
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
@@ -113,7 +113,7 @@ The following tables compares key features between Teams and Teams Premium. Beca
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Automatic Microsoft eCDN for town halls\* | ✔️ |  |
+| Automatic Microsoft eCDN for town halls\* |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
