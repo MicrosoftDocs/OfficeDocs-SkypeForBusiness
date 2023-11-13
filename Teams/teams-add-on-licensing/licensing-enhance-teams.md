@@ -28,7 +28,7 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
-- More personalized and intelligent meetings and webinars.
+- More personalized and intelligent meetings, webinars, and town halls.
 - Enhanced protection for meetings.
 - Advanced management and reporting capabilities for IT.
 - Advanced Virtual Appointments.
@@ -51,9 +51,9 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 ## How does Teams Premium compare to Teams?
 
-Customers who purchase a Microsoft 365 subscription also receive Teams licenses for their users. Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams with their Microsoft 365 subscription.
+Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams along with their Microsoft 365 subscription.
 
-The following table compares key features between Teams and Teams Premium.
+The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed below. Teams Premium licenses don't replace users' standard Teams licenses.
 
 ### Meetings
 
@@ -66,13 +66,13 @@ The following table compares key features between Teams and Teams Premium.
 | Set up a green room for meeting presenters and organizers| ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
-| Customize meeting backgrounds for your organization | | ✔️ |
+| Customize meeting backgrounds for your organization |  | ✔️ |
 | Customize Together mode scenes for your organization |  | ✔️ |
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
-| Turn on eCDN for Live Events\* |  | ✔️ |
+| Turn on eCDN Meetings\* |  | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -90,9 +90,36 @@ The following table compares key features between Teams and Teams Premium.
 | Manage what attendees see |  | ✔️ |
 | Send custom and reminder emails to registrants |  | ✔️ |
 | Create a webinar wait list |  | ✔️ |
+| Webinar organizers can view engagement reports |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
+
+### Town halls
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| Broadcast town halls to 10k attendees | ✔️ |  |
+| Host up to 15 town halls simultaneously | ✔️ |  |
+| View attendance reports | ✔️ |  |
+| Manage what attendees see | ✔️ |  |
+| Provide town hall video on demand | ✔️ |  |
+| Provide a unique join link for presenters | ✔️ |  |
+| Set up a green room for presenters and organizers | ✔️ |  |
+| Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
+| Use RTMP-In for town halls | ✔️ |  |
+| Town hall Q&A capacity of 10k attendees | ✔️ |  |
+| View live translated captions in 6 languages | ✔️ |  |
+| Broadcast town halls to 20k attendees |  | ✔️ |
+| Host up to 50 town halls simultaneously |  | ✔️ |
+| Town hall Q&A capacity of 20k attendees |  | ✔️ |
+| Automatic Microsoft eCDN for town halls\* |  | ✔️ |
+| View Microsoft Town hall insights |  | ✔️ |
+| Town hall organizers can view engagement reports |  | ✔️ |
+| Edit town hall emails |  | ✔️ |
+| View live translated captions in 10 languages |  | ✔️ |
+
+\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Meetings protection
 
@@ -145,7 +172,7 @@ The following table compares key features between Teams and Teams Premium.
 | View and manage on-demand appointments in the queue |  | ✔️ |
 | Send post-appointment follow-ups (*coming soon*) |  | ✔️ |
 
-\* *SMS notifications for Virtual Appointments is currently available in the US, Canada, and UK.*
+\* *SMS notifications for Virtual Appointments are currently available in the US, Canada, and UK.*
 
 ### Meet app
 
@@ -202,7 +229,7 @@ Teams Premium bundles a large set of advanced Teams features under a single lice
 Teams Premium is licensed on a per-user subscription basis and is subject to the [Universal Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all). You should plan to assign a Teams Premium user subscription license to every user you want to provide Teams Premium features for.
 
 > [!NOTE]
-> When the organizer of a Teams meeting or live event is licensed for Teams Premium, the *Live translation (for captions)*, *advanced Meetings protection*, and *advanced Webinars* features are extended to all meeting participants, including external and guest users.
+> When the organizer of a Teams meeting, webinar, or town hall is licensed for Teams Premium, the *Live translation (for captions)*, *advanced Meetings protection*, and *advanced Webinars* features are extended to all meeting participants, including external and guest users.
 >
 > External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
 >
@@ -278,7 +305,7 @@ The following list indicates Teams Premium features that require admin configura
 - Being assigned a custom policy package.
 - Using organization customized meeting templates.
 - Seeing organization customized branding.
-- Using eCDN for Live Events.
+- Using eCDN for webinars and town halls.
 - Using RTMP-In.
 - Customizing Virtual Appointment lobby rooms with branding.
 
