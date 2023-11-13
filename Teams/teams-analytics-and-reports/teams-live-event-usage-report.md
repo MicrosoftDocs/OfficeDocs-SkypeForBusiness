@@ -2,12 +2,11 @@
 title: Microsoft Teams live event usage report
 author: wlibebe
 ms.author: wlibebe
-ms.reviewer: sachung
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: sachung
 ms.date: 11/13/2023
 f1.keywords:
 - NOCSH
