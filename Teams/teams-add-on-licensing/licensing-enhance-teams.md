@@ -28,7 +28,7 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
-- More personalized and intelligent meetings and webinars.
+- More personalized and intelligent meetings, webinars, and town halls.
 - Enhanced protection for meetings.
 - Advanced management and reporting capabilities for IT.
 - Advanced Virtual Appointments.
@@ -51,7 +51,7 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 ## How does Teams Premium compare to Teams?
 
-Customers who purchase a Microsoft 365 subscription also receive Teams licenses for their users. Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams with their Microsoft 365 subscription.
+Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams along with their Microsoft 365 subscription.
 
 The following tables compares key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed below. Teams Premium licenses don't replace users' standard Teams licenses.
 
@@ -90,6 +90,7 @@ The following tables compares key features between Teams and Teams Premium. Beca
 | Manage what attendees see |  | ✔️ |
 | Send custom and reminder emails to registrants |  | ✔️ |
 | Create a webinar wait list |  | ✔️ |
+| Webinar organizers can view engagement reports |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
@@ -105,13 +106,14 @@ The following tables compares key features between Teams and Teams Premium. Beca
 | Provide town hall video on demand | ✔️ |  |
 | Provide a unique join link for presenters | ✔️ |  |
 | Set up a green room for presenters and organizers | ✔️ |  |
-| Turn on Microsoft eCDN for town halls\* | ✔️ |  |
+| Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
 | Use RTMP-In for town halls | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
 | View live translated captions in 6 languages | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
+| Automatic Microsoft eCDN for town halls\* | ✔️ |  |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
@@ -303,7 +305,7 @@ The following list indicates Teams Premium features that require admin configura
 - Being assigned a custom policy package.
 - Using organization customized meeting templates.
 - Seeing organization customized branding.
-- Using eCDN for Live Events.
+- Using eCDN for webinars and town halls.
 - Using RTMP-In.
 - Customizing Virtual Appointment lobby rooms with branding.
 
