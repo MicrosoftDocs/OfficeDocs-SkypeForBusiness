@@ -21,6 +21,7 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
+
 # Health and usage reports
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
@@ -155,6 +156,9 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
+> > [!NOTE]
+> > The metrics for Panels that are not sharing an account with MTR are not showing yet in the usage report.  
 
 ## Usage details of a room
 
