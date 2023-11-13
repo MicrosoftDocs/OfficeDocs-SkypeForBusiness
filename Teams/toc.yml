@@ -663,6 +663,8 @@ items:
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
               href: manage-meeting-chat.md
+            - name: Prevent users from joining external meetings
+              href: external-meeting-join.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Enable users to record their name when they join a meeting
