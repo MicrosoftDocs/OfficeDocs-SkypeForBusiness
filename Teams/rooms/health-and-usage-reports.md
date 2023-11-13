@@ -89,7 +89,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all Microsoft Teams Rooms Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -158,7 +158,7 @@ Call performance|Percentage of calls with a "Good" rating. Each call is evaluate
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
 
 > > [!NOTE]
-> > The metrics for Panels that are not sharing an account with MTR are not showing yet in the usage report.  
+> > The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 
