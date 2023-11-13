@@ -44,7 +44,7 @@ Now that you have your logo, you can customize your meeting invitations.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
-    :::image type="content" source="media/meeting-settings-invitation.png" alt-text="This image is a screenshot of the meeting invitation settings that you can customize for Teams meetings.":::
+    :::image type="content" source="media/meeting-settings-invitation.png" alt-text="Screenshot of the meeting invitation settings that you can customize for Teams meetings.":::
 
     - **Logo URL** Enter the URL where your logo is stored.
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
