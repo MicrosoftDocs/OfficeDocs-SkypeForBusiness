@@ -42,7 +42,7 @@ Teams Premium is an add-on license that provides the following enhancements to T
 
 The following sections describe the Teams Premium enhancements for:
 
-- [Protected meetings](#protected-meetings)
+- [Advanced protection](#advanced-protection)
 - [Custom meetings](#custom-meetings)
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
@@ -50,9 +50,9 @@ The following sections describe the Teams Premium enhancements for:
 >[!Note]
 >We will continue to update this article. Check back often for links to new content.
 
-## Protected meetings
+## Advanced protection
 
-Teams Premium provides additional ways to safeguard meetings with the following key features:
+Teams Premium provides additional ways to safeguard and monitor users' Teams experiences with the following key features:
 
 - **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
 
