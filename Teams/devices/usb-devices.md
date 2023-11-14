@@ -79,13 +79,15 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated October 2023*
+*Table Updated November 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|HP                   |FHD 620/625 Webcam                                         |11/10/2023      |Certified for Microsoft Teams       |
+|Lenovo               |ThinkSmart View Plus Monitor – Peripheral Mode             |11/10/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WL3024 Headset                                             |10/23/2023      |Certified for Microsoft Teams                           | 
 |HP                   |430/435 FHD Webcam                                         |9/29/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Plus Headset                                          |8/24/2023       |Certified for Microsoft Teams                           |

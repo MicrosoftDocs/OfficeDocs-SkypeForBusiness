@@ -3,7 +3,7 @@ title: Teams Rooms certified systems and peripherals
 author: tonysmit
 ms.author: tonysmit
 ms.reviewer: sohailta
-ms.date: 10/10/2023
+ms.date: 11/13/2023
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -233,6 +233,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Logitech PTZ Pro | 1.1.219 |  |  |
 | [Logitech PTZ Pro 2](https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
 | [Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
+| [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : MS07A_6MIC_Teams_RK3308_LINUX_32BIT_20231008_151715_V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
+| MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |

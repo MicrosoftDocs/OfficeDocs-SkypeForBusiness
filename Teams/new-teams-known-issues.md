@@ -22,11 +22,12 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar isn't currently available.
+- Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
 - Detecting multiple languages for spellchecker isn't currently available. 
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
+- Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 
 ## Coming in November
 
