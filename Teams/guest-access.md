@@ -53,7 +53,7 @@ Shared channels offer an alternative to guest access, allowing you to invite peo
 
 ## Set up guest access
 
-Guest access in Teams is an organization-wide setting and is turned on by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Guest access in Teams is an organization-wide setting. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 Guest access in Teams requires configuring other settings in Microsoft 365, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint. If you're ready to start inviting guests to teams, read one of the following:
 
