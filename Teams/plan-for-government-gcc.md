@@ -25,7 +25,7 @@ appliesto:
 
 # Plan for Microsoft 365 Government - GCC deployments
 
-This guidance is for IT pros who are driving deployments of Microsoft 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements. New March 26, 2020: Don't miss our downloadable [Quick Start guide for GCC](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
+This guidance is for IT pros who are driving deployments of Microsoft 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that's subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements. New March 26, 2020: Don't miss our downloadable [Quick Start guide for GCC](https://download.microsoft.com/download/a/7/3/a73633b9-9be8-42b2-adc3-7809ad924495/Quick-Start-Guide-for-GCC.pdf).
 
 > [!NOTE]
 > If your organization has already met the Microsoft 365 Government - GCC eligibility requirements and applied for and been accepted into the program, you can skip steps 1 and 2 and go directly to step 3. 
