@@ -36,6 +36,10 @@ ms.localizationpriority: high
 - Show and set presence in system tray.
 - Channel meeting start notifications for users added after the original meeting invite.
 
+## Coming in January
+
+- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
+
 ## What features are changing?
 
 As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
