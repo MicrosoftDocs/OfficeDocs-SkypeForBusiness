@@ -18,6 +18,7 @@ ms.custom:
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection:
   - M365-collaboration
 appliesto:
