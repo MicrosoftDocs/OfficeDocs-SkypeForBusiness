@@ -40,7 +40,7 @@ Auto attendants route all calls in one of the following ways:
 > [!NOTE]
 > A single Auto attendant can only support a single "dial by" method.  To allow callers to dial by name and by number, you will need to create an Auto attendant that has an option for dial by name and the another for dial by extension.  Each of these options will route to separate Auto attendants configured for these "dial by" scenarios.
 
-An Auto attendant or Call queue may redirect calls to the following destinations:
+An Auto attendant or Call queue can redirect calls to the following destinations:
 
 - **Person in the organization** - a person in your organization who is able to receive voice calls. This can be an online user or a user hosted on-premises using Skype for Business Server.
 - **Voice app** - another Auto attendant or a Call queue. Choose the resource account associated with the destination.
@@ -84,7 +84,7 @@ Here are some call routing best practices:
 - If you receive numerous calls requesting basic information about your company, such as business hours, location, or web site address, consider creating an Auto attendant to answer these questions with recorded messages.
 - Keep the list of menu items to five or fewer. Callers can have trouble remembering more than five options. Use nested Auto attendants if more options are needed to properly route a call.
 - Describe the service first, followed by the option to press (for example: For Sales press 1) rather than the other way around (for example: Press 1 for Sales).
-- User terminology your callers will understand rather than what you may use internally.
+- User terminology your callers will understand rather than what you might use internally.
 - Avoid frequent updates to call routing. If you change your menu options for an Auto attendant in the future, call that out in the voice prompts for the first 30 days.
 
 > [!IMPORTANT]
