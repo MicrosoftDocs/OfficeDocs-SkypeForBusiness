@@ -49,7 +49,7 @@ To turn on live captions for users:
 
 ### Turn on transcription for calls
 
-Transcription is auto-generated, recorded text of what was said in a call. When turned on, the transcript is available to users to review after a call has ended.
+Transcription is auto-generated, recorded text of what was said in a call. When turned on, the transcript is available to users to review after a call has ended. This setting is off by default.
 
 To turn on transcription for users:
 

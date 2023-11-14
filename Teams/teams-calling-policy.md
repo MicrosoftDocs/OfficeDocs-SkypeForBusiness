@@ -57,14 +57,14 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
-- [Guests can start private calls](set-up-guests.md)
+- [Make private calls]()
 - [Cloud recording for calling]()
 - [Transcription](accessibility-guide-admin.md)
 - [Routing for PSTN calls](inbound-call-routing.md)
 - [Routing for federated calls](inbound-call-routing.md)
-- [Call forwarding and simultaneous ringing to people in your organization](inbound-call-routing.md)
-- [Call forwarding and simultaneous ringing to external phone numbers](inbound-call-routing.md)
-- [Voicemail for inbound calls](inbound-call-routing.md)
+- [Call forwarding and simultaneous ringing to people in your organization](user-call-settings.md)
+- [Call forwarding and simultaneous ringing to external phone numbers](user-call-settings.md)
+- [Voicemail for inbound calls](user-call-settings.md)
 - [Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)
 - [Delegation for inbound and outbound calls](shared-line-appearance.md)
 - [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
@@ -76,29 +76,9 @@ Here are the settings that you can configure for calling policies.
 - [SIP devices can be used for calls](sip-gateway-configure.md)
 - [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
 
-### Guests can start private calls
-
-This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
-
 ### Cloud recording for calling
 
 This setting controls whether users can record calls. This setting is off by default.
-
-### Transcription
-
-This setting controls whether the transcription of calls is available for your users. This setting is off by default.
-
-### Routing for PSTN calls
-
-This setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use default call routing, or you can allow your users to decide. **Use default settings** is on by default.
-
-For more information, see [Routing inbound calls](inbound-call-routing.md).
-
-### Routing for federated calls
-
-This setting controls how inbound federated calls should be routed. These federated calls can be sent to voicemail, sent to unanswered settings, or use default call routing. **Use default settings** is on by default.
-
-Federated calls are calls that don't originate from the PSTN and that are outside your tenant.
 
 For more information, see [Routing inbound calls](inbound-call-routing.md).
 

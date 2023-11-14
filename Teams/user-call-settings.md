@@ -33,7 +33,7 @@ This article describes how you, the administrator, can change call forwarding an
 
 You can use the Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
 
-To set call settings for a user, the user must have an assigned Microsoft Phone System license.
+To set call settings for a user, the user must have an assigned Teams Phone license.
 
 ## Use the Teams admin center
 

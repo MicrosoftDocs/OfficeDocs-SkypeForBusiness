@@ -34,7 +34,7 @@ This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone M
 
 ## Routing for PSTN calls
 
-This policy setting controls how inbound PSTN calls should be routed.
+This policy setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use default call routing, or you can allow your users to decide.
 
 You can configure this setting by using the Teams admin center or PowerShell.
 
@@ -67,7 +67,7 @@ For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/se
 
 ## Routing for federated calls
 
-This policy setting controls how inbound federated calls should be routed.
+This policy setting controls how inbound federated calls should be routed. These federated calls can be sent to voicemail, sent to unanswered settings, or use default call routing.
 
 You can configure this setting by using the Teams admin center or PowerShell.
 
