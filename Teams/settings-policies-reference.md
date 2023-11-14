@@ -414,6 +414,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country or region|Off|If you want to store meeting recordings outside of your country or region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
+|Copilot|On with transcript|Controls whether Copilot will be enabled with a persisted transcript or a non-persisted transcript.|
 
 **PowerShell-only recording & transcription policies**
 
