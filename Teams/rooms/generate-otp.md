@@ -74,7 +74,7 @@ You can verify and approve an OTP that was entered by the setup personnel while 
 To verify and approve an OTP, perform the following steps:
 
 1. Sign in to the Pro Management portal.
-1. On the left navigation pane, select **Resource accounts**. The **Resource accounts** page appears.
+1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
 1. Select a resource account which has the value **Awaiting OTP Approval**. The page displaying the details of the chosen resource account appears.
 1. Verify the details such as:
    - who made the OTP, which is displayed in the **Requested by** column.
