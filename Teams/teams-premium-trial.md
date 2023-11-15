@@ -2,7 +2,7 @@
 title: Roll out a Teams Premium trial
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sanjayra
