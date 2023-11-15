@@ -2,7 +2,7 @@
 title: Set up a Microsoft Teams Auto attendant
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/30/2023
 ms.topic: article
@@ -55,7 +55,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 ## What's new for Auto attendants in the past six months
 
 - June 26 - **Holidays** - holiday sets now support up to 50 date ranges.
-- May 01 - **Authorized users** - authorized users may now update Auto attendant business, after hours, and holiday greetings.
+- May 01 - **Authorized users** - authorized users can now update Auto attendant business, after hours, and holiday greetings.
 
 ## Steps to create an Auto attendant
 
@@ -154,7 +154,7 @@ Business hours can be set for each Auto attendant.
 - Business hours can be set with breaks in time during the day, and all of the hours that aren't set as business hours are considered after-hours.
 - You can set different incoming call-handling options and greetings for after-hours.
 
-Depending on how you've configured your Auto attendants and Call queues, you may only need to specify after-hours call routing for Auto attendants with direct phone numbers.
+Depending on how you've configured your Auto attendants and Call queues, you might only need to specify after-hours call routing for Auto attendants with direct phone numbers.
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day.
 
@@ -197,7 +197,7 @@ The *dial scope* defines which users are available in the directory when a calle
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory.
 
-If a user is in both lists or if they are hidden from the Exchange GAL, they are excluded from the directory.
+If a user is in both lists or if they're hidden from the Exchange GAL, they're excluded from the directory.
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
@@ -233,6 +233,9 @@ To **add a user** to the authorized users:
 >
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one Auto attendant or Call queue.
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
+
+> [!NOTE]
+> A maximum of 15 authorized users can be assigned to the Auto attendant.
 
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 

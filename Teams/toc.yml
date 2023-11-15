@@ -337,6 +337,8 @@ items:
           href: teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
           href: operator-connect-data-transfer.md
+        - name: Intelligent recap
+          href: privacy/intelligent-recap.md
 
 
 - name: Manage and monitor Teams
@@ -493,6 +495,8 @@ items:
           href: audio-conferencing-dial-out-usage-report.md
         - name: Teams live event usage report
           href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams town hall usage report
+          href: teams-analytics-and-reports/teams-town-hall-usage-report.md
         - name: Teams webinar usage report
           href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report

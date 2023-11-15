@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 ms.topic: article
-ms.date: 11/02/2023
+ms.date: 11/09/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,11 +22,13 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar isn't currently available.
+- Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
 - Detecting multiple languages for spellchecker isn't currently available. 
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
+- Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
+- Adding a sensitivity label during team creation is currently not available in Teams for Education.
 
 ## Coming in November
 
@@ -34,6 +36,10 @@ ms.localizationpriority: high
 - Set presence in taskbar.
 - Show and set presence in system tray.
 - Channel meeting start notifications for users added after the original meeting invite.
+
+## Coming in January
+
+- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
 
 ## What features are changing?
 
@@ -49,7 +55,7 @@ As we improved the client, the experience also improved to align with similar fe
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
 |Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries automatically convert to a SharePoint document library on first use.|
 |Activity tab in chat| No longer available.|
-|Ability to save messages and files in Teams|No longer available. Will be replaced later this year by a similar feature.|
+|Ability to save messages and files in Teams|No longer available. Will be replaced with a new feature in the future.|
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, or work location (remote or office).|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
 |Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
