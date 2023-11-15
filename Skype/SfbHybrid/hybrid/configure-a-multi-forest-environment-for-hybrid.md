@@ -2,9 +2,9 @@
 ms.date: 03/17/2018
 title: "Deploy a resource forest topology"
 ms.reviewer: 
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 ms.topic: article
 f1.keywords:

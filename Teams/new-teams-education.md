@@ -1,8 +1,8 @@
 ---
 title:  New Microsoft Teams for Education (EDU)
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.date: 11/09/2023
 ms.service: msteams
