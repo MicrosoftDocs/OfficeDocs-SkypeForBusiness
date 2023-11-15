@@ -29,23 +29,9 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > If you're using app permission policies to manage access to apps, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
-App centric management introduces new admin settings to control who in the tenant can add and use Teams apps. This feature replaces the existing app permission policies and provides admins with the ability to manage access to the app individually. We retain the existing access of apps in your organization.
+App centric management introduces new admin settings to control who in the tenant can add and use Teams apps. This feature replaces the existing app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
 
-You control and can set default access for the new apps that are published to the Teams app store. You can manage access to apps for users, groups, or everyone in the organization.
-
-## What changes with this feature
-
-When using policies, the following three settings determined if a user can add and use an app:
-
-* Permission policy: Applied to a user to define apps that are allowed or blocked for a specific user.
-* App status: Allow or block settings for a specific app.
-* Org-wide setting for third-party apps: Applied for the entire organization.
-
-App centric management feature simplifies these settings by having each app define who can use the app, so that you can handle each app differently based on your user's needs and organization's compliance and risk posture. When using this functionality, you define app assignments by choosing one of the following options for each app:
-
-* **Everyone in the organization**: Anyone in your org can add and use the app.
-* **Specific users or groups**: Only the selected users and groups can use the app. The supported group types are Security, Microsoft 365, Dynamic, and Distributed Lists (DLs).
-* **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
+You control it and can set the default settings to access the new apps that are published to the Teams app store. You can manage access to apps for users, groups, or everyone in the organization.
 
 ## Manage app availability
 
