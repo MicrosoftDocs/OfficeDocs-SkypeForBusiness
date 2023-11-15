@@ -53,7 +53,7 @@ To assign users or groups to an app, follow these steps:
 
 1. To remove one or more users or groups from an app, select the rows and select **Remove**.
 
-    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignments from the app details page.":::
+    :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignment from the app details page.":::
 
 ## Block an app
 
@@ -80,7 +80,7 @@ If you make any app assignments, then the assignments supersede the default orga
 
 ## View apps in your organization
 
-You can view all apps in the catalog and easily access the app assignments from the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page. You can sort and filter using all 3 types of app assignments. You can combine this filter with other types of available filters.
+You can view all apps in the catalog and easily access the app assignments from the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page. You can sort and filter using all three types of app assignments. You can combine this filter with other types of available filters.
 
 :::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combing various criteria.":::
 
@@ -96,7 +96,7 @@ You can remove app assignment for a user. Select an app that is directly assigne
 
 ## App access controls for apps before and after migration
 
-If you tenant had only Global permission policy and not any custom policies then the following changes are made to the settings after the migration.
+If your tenant had only Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after the migration.
 
 | App access settings before migration | Settings after migration |
 |--------------------------------------|--------------------------|
@@ -105,7 +105,7 @@ If you tenant had only Global permission policy and not any custom policies then
 |  Third party app setting in the org-wide settings was set to on; New third-party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
 |  Third party app setting in the org-wide settings was set to off; New third-party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
-|  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps will be set to off |
+|  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 
 > [!NOTE]
 > This change retires the third-party apps settings and the new third-party apps in the catalog settings.
