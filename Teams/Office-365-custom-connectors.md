@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 06/27/2023
+ms.date: 11/15/2023
 ms.collection: 
   - M365-collaboration
 ms.reviewer: vivg
@@ -59,7 +59,7 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Considerations when using Connectors in Teams
 
-* Connectors are disabled by default in the Government Cloud Community (GCC) environments. To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+* Connectors are disabled by default in the Government Cloud Community (GCC) environments and Government Community Cloud-High (GCCH). To enable connectors, set the `ConnectorsEnabled` or `ConnectorsEnabledForTeams` parameters to `$true` with the `SetOrganizationConfig` cmdlet. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 * If the user who added a connector to a team leaves the team, the connector continues to work.
 
@@ -93,7 +93,6 @@ To use connectors in a team or a channel, open the More Options menu from the up
   * Papertrail
   * Pivotal Tracker
   * Raygun
-  * Rollbar
   * Runscope
   * SatisMeter
   * Semaphore
