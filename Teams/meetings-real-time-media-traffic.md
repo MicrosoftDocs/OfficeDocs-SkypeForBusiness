@@ -68,7 +68,7 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
         >
         > Selecting a port range that is too narrow will lead to dropped calls and poor call quality. The following recommendations should be a bare minimum.
 
-If you're unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These settings are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
+If you're unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
 
 ### Port ranges and DSCP markings
 
