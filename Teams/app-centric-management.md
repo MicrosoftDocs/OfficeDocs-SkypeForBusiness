@@ -37,7 +37,7 @@ You control it and can set the default settings to access the new apps that are 
 
 As an admin, you can manage app availability, deciding which users can add Teams apps in your organization from the Teams app store. You have complete control over who can or can't add and use apps in your organization.
 
-## Add or modify app assignments
+### Add or modify app assignments
 
 To assign users or groups to an app, follow these steps:
 
@@ -55,7 +55,7 @@ To assign users or groups to an app, follow these steps:
 
     :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignment from the app details page.":::
 
-## Block an app
+### Block an app
 
 You can block an app for all users in the organization and restrict them from adding and using the app in Teams.
 
@@ -67,7 +67,7 @@ You can block an app for all users in the organization and restrict them from ad
 
 When you block an app, you can still view and modify the assignments but the assignments take effect only when you allow the app.
 
-## Customize the default settings for app availability
+### Customize the default settings for app availability
 
 You can control the default app assignments of any new and incoming app in your organization for all types of apps. The default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
@@ -84,7 +84,7 @@ You can view all apps in the catalog and easily access the app assignments from 
 
 :::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combing various criteria.":::
 
-### View and modify app access for a user
+### View and modify apps assigned to a user
 
 On the **[Manage users](https://admin.teams.microsoft.com/users)** page, select a user to open the user details page, and select the **Apps** tab. The tab lists the apps that the user has access to. To easily locate the type of access for an app, you can search for the name of the app.
 
