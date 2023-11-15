@@ -645,6 +645,8 @@ items:
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
+            - name: Hide attendee names
+              href: hide-attendee-names.md
             - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
