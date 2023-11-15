@@ -51,11 +51,11 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AttendeeIdentityMasking Disable
 
 To learn more about **`-AttendeeIdentityMasking`**, see the following cmdlet topics:
 
-- [Set-CsTeamsEventsPolicy](/powershell/module/skype/set-csteamseventspolicy)
-- [New-CsTeamsEventsPolicy](/powershell/module/skype/new-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/skype/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/skype/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/skype/remove-csteamseventspolicy)
+- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
 
 ## Related articles
 
