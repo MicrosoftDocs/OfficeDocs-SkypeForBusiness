@@ -75,12 +75,25 @@ To verify and approve an OTP, perform the following steps:
 
 1. Sign in to the Pro Management portal.
 1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
-1. Select a resource account which has the value **Awaiting OTP Approval**. The page displaying the details of the chosen resource account appears.
+1. Select a resource account that has the value **Awaiting OTP Approval**.
+
+   :::image type="content" source="../media/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting otp approval as its provisioning status." lightbox="../media/resource-account-provisioning-status.png":::
+
+   The page displaying the details of the chosen resource account appears.
+
+1. Select the **OTP** tab. The screen displaying the details of the OTP appears.
+
+   :::image type="content" source="../media/otp-details.png" alt-text="Screenshot that shows the page containing details of the OTP that is to be verified." lightbox="../media/otp-details.png":::
+  
 1. Verify the details such as:
-   - who made the OTP, which is displayed in the **Requested by** column.
    - date when this OTP was entered on the device, which is displayed in the **Requested date** column.
    - expiration date, which is displayed in the **Expiration date** column.
    - device-related information such as make, model, and serial number, which is displayed in the **Device information** pane.
 1. Select the **Approve the request** radio button, if you want to approve the OTP request.
 1. Select the **Reject the request** radio button, if you want to reject the OTP request.
-1. Select **Resolve OTP request**.
+    1. Provide the reason for rejecting the OTP request by choosing a value from the **Reason for rejection** drop-down list.
+
+   :::image type="content" source="../media/select-reason-for-rejection.png" alt-text="Screenshot that shows the page containing details of the OTP that is to be verified." lightbox="../media/select-reason-for-rejection.png":::
+
+1. Select **Submit**.
+
