@@ -93,7 +93,7 @@ To verify and approve an OTP, perform the following steps:
 1. Select the **Reject the request** radio button, if you want to reject the OTP request.
     1. Provide the reason for rejecting the OTP request by choosing a value from the **Reason for rejection** drop-down list.
 
-   :::image type="content" source="../media/select-reason-for-rejection.png" alt-text="Screenshot that shows the page containing details of the OTP that is to be verified." lightbox="../media/select-reason-for-rejection.png":::
+   :::image type="content" source="../media/select-reason-for-rejection.png" alt-text="Screenshot that shows the page on which you choose the reason for rejecting the OTP request." lightbox="../media/select-reason-for-rejection.png":::
 
 1. Select **Submit**.
 
