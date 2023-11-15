@@ -1,8 +1,8 @@
 ---
 title: Plan for governance in Teams - Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
