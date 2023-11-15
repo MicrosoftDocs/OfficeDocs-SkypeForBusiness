@@ -1,5 +1,5 @@
 ---
-title: Allow meeting and webinar organizers to hide the names of attendees
+title: Allow meeting and webinar organizers to hide the names of attendees (Preview)
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: xonatia.lee
-ms.date: 11/13/2023
+ms.date: 11/15/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -15,7 +15,7 @@ description: Learn how to allow meeting and webinar organizers to hide the names
 appliesto: 
   - Microsoft Teams
 ---
-# Allow meeting and webinar organizers to hide the names of attendees
+# Allow meeting and webinar organizers to hide the names of attendees (Preview)
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
