@@ -1,8 +1,8 @@
 ---
 title: Onboard support for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual

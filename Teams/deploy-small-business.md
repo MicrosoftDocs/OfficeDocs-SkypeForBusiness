@@ -1,8 +1,8 @@
 ---
 title: Set up Microsoft Teams in your small business
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 audience: admin
 ms.service: msteams
