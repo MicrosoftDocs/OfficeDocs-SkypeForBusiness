@@ -2,7 +2,7 @@
 title: Customize meeting invitations (IT admins)
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 11/13/2023
 ms.topic: article

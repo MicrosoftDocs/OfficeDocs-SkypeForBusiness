@@ -2,7 +2,7 @@
 title: "Emails sent to users when their settings change"
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 11/28/2017
 ms.topic: article
