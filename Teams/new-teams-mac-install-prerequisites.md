@@ -48,7 +48,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 - To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
 
-- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
+- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://go.microsoft.com/fwlink/?linkid=2252571).  
 
 
 ### Turn ON System Notification 
