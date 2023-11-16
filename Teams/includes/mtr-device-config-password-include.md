@@ -27,7 +27,7 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
 ```
 
-#### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
+#### [**Microsoft Entra ID 2.0**](#tab/azure-active-directory2-password/)
 
 First, connect to Active Directory PowerShell:
 
@@ -42,6 +42,7 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 ```PowerShell
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
 ```
+
 
 #### [**Active Directory (On premises)**](#tab/active-directory1-password/)
 

@@ -1,8 +1,8 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
-author: MikePlumleyMSFT
+author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
@@ -21,7 +21,10 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Bulk install Teams using Windows Installer (MSI)
+# Bulk install classic Teams using Windows Installer (MSI)
+
+>[!Important]
+>This article is for classic Teams only. To bulk deploy to new Teams, see: [Bulk upgrade to the new Microsoft Teams client](new-teams-bulk-install-client.md)
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients).

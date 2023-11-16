@@ -1,9 +1,9 @@
 ---
 ms.date: 11/16/2018
 title: "Move users from the cloud to on-premises"
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -33,7 +33,7 @@ If needed, you can move a user who was previously migrated from on-premises to T
 
 ## Prerequisites
 
-- The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user, as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
+- The organization must have Microsoft Entra Connect properly configured and be syncing all relevant attributes for the user, as described in [Configure Microsoft Entra Connect](configure-azure-ad-connect.md).
 - The user being moved from online back to on-premises must already exist in the on-premises Active Directory.
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 

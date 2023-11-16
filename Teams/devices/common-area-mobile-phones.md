@@ -33,6 +33,9 @@ A Teams Android mobile app singed in with an account tied to **Microsoft Teams S
 
 First, you need to purchase a **Teams Shared Devices** license.
 
+  > [!NOTE]
+  > Chat is not supported with a **Teams Shared Devices** license.
+
 To purchase the license:
 
 1. Sign in to [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), and select **Billing > Purchase services**.
@@ -41,7 +44,7 @@ To purchase the license:
 1. Enter the number of licenses you need, and select **Buy**.
 
   > [!NOTE]
-  > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Azure Active Directory Premium Plan 1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
+  > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Microsoft Entra ID P1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
   > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
 
 ## Step 2 - Create a new user account and assign licenses
@@ -64,8 +67,8 @@ To purchase the license:
 6. Select the usage location of the device and assign the **Teams Shared Devices** license to the account. If any other licenses are needed, such as **Callings Plans**, assign those licenses too to the account.
 
 > [!NOTE]
-> You don't need to add a license with Phone System features. These features are included with the **Teams Shared Devices** license.
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>
+> When you assign a **Teams Shared Device** license to a device, you don't need to assign an additional Phone System license to get other features. To get inbound and outbound calling minutes with Microsoft Phone System you must add a Calling Plan and set up billing. However, if you are using Operator Connect or Direct Routing, you don't need a Calling Plan. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ### Using PowerShell
 

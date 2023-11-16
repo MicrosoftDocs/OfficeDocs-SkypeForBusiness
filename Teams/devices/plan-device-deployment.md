@@ -92,11 +92,11 @@ Identities enable devices to access Microsoft 365 services, and they should make
 
 ### Objective: Review Conditional Access policies
 
-Azure Active Directory Conditional Access policies are additional requirements that must be met before a device can be signed in.
+Microsoft Entra Conditional Access policies are additional requirements that must be met before a device can be signed in.
 
 As you plan your deployment
 
-- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Azure AD Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
+- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Microsoft Entra Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
 
 - Plan for new rules if needed
 
@@ -133,9 +133,11 @@ Key aspects include
 
 Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
 
-#### Azure Active Directory Admin Center
+<a name='azure-active-directory-admin-center'></a>
 
-Use the Azure AD Admin Center to manage
+#### Microsoft Entra Admin Center
+
+Use the Microsoft Entra Admin Center to manage
 
 - All identity-related tasks for Teams phones and displays
 - Conditional Access policies 

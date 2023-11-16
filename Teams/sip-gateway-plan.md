@@ -11,7 +11,7 @@ ms.collection:
   - teams-rooms-devices
   - highpri
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: chasing
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -243,8 +243,16 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
+|**Alcatel**|       |     |              |                |   |
+|          |M3          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M8          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
+
+> [!NOTE]
+> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only. 
 
 > [!NOTE]
 > Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.

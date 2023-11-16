@@ -1,7 +1,7 @@
 ---
 title: Data and reports in Call Quality Dashboard (CQD)
-author: MicrosoftHeidi
-ms.author: heidip
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 11/28/2017
@@ -368,7 +368,7 @@ The tenant ID in CQD corresponds to the Directory ID in Azure. If you don't know
 
 1. Sign in to the Microsoft Azure portal: <https://portal.azure.com>
 
-2. Select **Azure Active Directory**.
+2. Select **Microsoft Entra ID**.
 
 3. Under **Manage**, select **Properties**. Your tenant ID is in the **Directory ID** box.
 

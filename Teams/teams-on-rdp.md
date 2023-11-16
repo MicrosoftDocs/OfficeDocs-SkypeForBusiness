@@ -1,10 +1,10 @@
 ---
-title: Use Teams with remote desktop services
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: Use classic Teams with remote desktop services
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 ms.reviewer: alivano
-ms.date: 02/02/2021
-manager: serdars
+ms.date: 10/13/2023
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,9 +22,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams in Remote Desktop Services
+# Classic Teams in Remote Desktop Services
 
-This article describes the requirements and limitations for using Microsoft Teams in a remote desktop services (RDS) environment.
+This article describes the requirements and limitations for using classic Microsoft Teams in a remote desktop services (RDS) environment.
 
 ## What is RDS?
 

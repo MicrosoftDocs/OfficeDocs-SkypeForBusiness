@@ -1,8 +1,8 @@
 ---
 title: Teams updates
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -20,7 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Teams update process
+# Classic Teams update process
 
 Teams web app updates are typically released on the 4th Monday of each month.
 
