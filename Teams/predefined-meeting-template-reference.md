@@ -28,7 +28,7 @@ The following predefined [meeting templates](custom-meeting-templates-overview.m
 
 ## Virtual appointment
 
-The Virtual appointment meeting template comes with the following settings. You can't edit the settings in the template.
+The Virtual appointment meeting template comes with the following settings. You can't edit the template, but meeting organizers can change these setting when they create the meeting.
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
