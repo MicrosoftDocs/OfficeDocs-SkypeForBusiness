@@ -2,7 +2,7 @@
 title: Configure the Microsoft Teams meeting lobby for sensitive meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 

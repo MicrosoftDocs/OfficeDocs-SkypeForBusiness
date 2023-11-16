@@ -4,9 +4,9 @@ ms.reviewer: karuanag
 ms.date: 10/30/2018
 description: Learn about the adoption resources available to help you plan and deploy Microsoft Teams in your organization.
 ms.topic: overview
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: admin 
 ms.service: msteams
 ms.collection: 

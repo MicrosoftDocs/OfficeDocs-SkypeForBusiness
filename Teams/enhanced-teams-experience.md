@@ -61,6 +61,7 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 - **End-to-end encryption** - Enforced through a sensitivity label. End-to-end encryption provides increased security for meetings that require a higher level of protection.
 
 - **Manage what attendees see** - Meeting organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others will be hidden from view.
+- **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 
 - **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
 
@@ -73,6 +74,7 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 | Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 | Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
+| Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) ||
 
 ## Custom meetings
 
@@ -138,6 +140,8 @@ Teams Premium provides the following features for an enhanced webinar experience
 - **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
 - **Enable and manage the waitlist for webinars beyond capacity** - When the webinar's registration reaches capacity, organizers can manage overflow registration requests through a waitlist.
 - **Limit registration start and end times** - Organizers can set a time window during which potential attendees can register for their webinar.
+- **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
+
 
 | Feature/Task | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ----------- |
@@ -147,6 +151,7 @@ Teams Premium provides the following features for an enhanced webinar experience
 | Manually approve registrants |No admin control |[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 | Enable and manage the waitlist for webinars beyond capacity | No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
 | Limit registration start and end times|No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | |
 
 ## Advanced Virtual Appointments
 

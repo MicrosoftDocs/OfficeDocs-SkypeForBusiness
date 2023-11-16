@@ -64,6 +64,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Use standard and custom meeting backgrounds at the user level| ✔️ |  |
 | Read live captions during meetings and live events | ✔️ |  |
 | Set up a green room for meeting presenters and organizers| ✔️ |  |
+| View attendance reports | ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization |  | ✔️ |
@@ -71,6 +72,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
+| Hide attendee names |  | ✔️ |
+| View engagement reports |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
 
@@ -92,6 +95,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Create a webinar wait list |  | ✔️ |
 | Webinar organizers can view engagement reports |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
+| View engagement reports |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
 

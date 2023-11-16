@@ -1,8 +1,8 @@
 ---
 title: Understand Microsoft Teams and Skype for Business coexistence and interoperability
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
