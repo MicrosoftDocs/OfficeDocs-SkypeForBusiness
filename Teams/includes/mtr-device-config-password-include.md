@@ -27,6 +27,22 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
 ```
 
+#### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
+
+First, connect to Active Directory PowerShell:
+
+```PowerShell
+   Connect-AzureAD
+```
+
+Then, see [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
+
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+
+```PowerShell
+Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
+```
+
 #### [**Active Directory (On premises)**](#tab/active-directory1-password/)
 
 1. Connect to Active Directory PowerShell:
