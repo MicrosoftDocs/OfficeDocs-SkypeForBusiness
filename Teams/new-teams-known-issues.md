@@ -2,7 +2,7 @@
 title:  Known issues in the new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.date: 11/09/2023
 ms.service: msteams
