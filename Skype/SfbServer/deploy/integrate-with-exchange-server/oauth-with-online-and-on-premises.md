@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.custom:
-  - has-azure-ad-ps-ref
+  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: "Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in Feature support."
@@ -108,7 +108,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
    ```powershell
-   Connect-MsolService
+   Connect-MgGraph
    Import-Module MSOnline
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    $objFSO = New-Object -ComObject Scripting.FileSystemObject
@@ -118,8 +118,8 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert)
    $ServiceName = "00000004-0000-0ff1-ce00-000000000000"
-   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   $p = Get-MgServicePrincipal -ServicePrincipalName $ServiceName
+   Add-MgServicePrincipalKey -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
 3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
@@ -130,7 +130,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 1. In the PowerShell opened and authenticated to Microsoft Entra ID, run the following
 
    ```powershell
-   Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+   Get-MgServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
    ```
 2. Press Enter when prompted for ReturnKeyValues
 3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates
