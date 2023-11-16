@@ -3,7 +3,7 @@ title: Block the download of Teams meeting recording files from SharePoint or On
 ms.reviewer: samust
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 recommendations: true
 audience: Admin
 f1.keywords: NOCSH

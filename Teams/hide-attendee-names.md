@@ -2,7 +2,7 @@
 title: Allow meeting and webinar organizers to hide the names of attendees (Preview)
 author: wlibebe
 ms.author: wlibebe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
