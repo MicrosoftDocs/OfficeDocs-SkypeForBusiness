@@ -287,6 +287,8 @@ items:
           href: block-access-sharepoint.md
         - name: Teams meeting add-in security when using your Outlook client
           href: teams-meeting-addin-security-with-outlook.md
+        - name: Remove external chat for a user
+          href: security-remove-external-chat.md
     - name: Compliance
       items: 
         - name: Auditing
