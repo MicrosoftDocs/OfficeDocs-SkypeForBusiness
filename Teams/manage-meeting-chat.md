@@ -2,7 +2,7 @@
 title: Manage chat in Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: heiris

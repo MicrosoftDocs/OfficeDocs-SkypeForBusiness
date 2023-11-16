@@ -2,7 +2,7 @@
 title: Set how you want to handle real-time media traffic for Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 10/15/2018
 ms.topic: article
