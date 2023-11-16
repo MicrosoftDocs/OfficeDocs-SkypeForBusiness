@@ -1,12 +1,12 @@
 ---
-ms.date: 08/03/2022
+ms.date: 11/16/2022
 ms.custom:
   - has-azure-ad-ps-ref
 ---
 
-Like any Microsoft 365 account, a newly-created resource account's password is set to expire automatically after a period of time. However, if the resource account password expires, the Teams Rooms device it's signed into won't be able to sign in again the expiration date. 
+Like any Microsoft 365 account, a newly created resource account's password is set to expire automatically after a period of time. However, if the resource account password expires, the Teams Rooms device it's signed into won't be able to sign in again after the expiration date. 
 
-To avoid having to reset the resource account's password and then logging into each Teams Rooms device again, you can turn off password expiration for the account.
+To avoid resetting the resource account's password and togging into each Teams Rooms device again, you can turn off password expiration for the account.
   
 > [!NOTE]
 > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules prohibit passwords that don't expire, you'll need to create an exception for each Teams device resource account.
@@ -27,7 +27,7 @@ This example sets the password for the account ConferenceRoom01@contoso.com to n
 Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
 ```
 
-#### [**Microsoft Entra ID 2.0**](#tab/azure-active-directory2-password/)
+#### [**Microsoft Entra ID 2.0/AzureAD**](#tab/azure-active-directory2-password/)
 
 First, connect to Active Directory PowerShell:
 
