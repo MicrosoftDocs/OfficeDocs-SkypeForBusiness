@@ -70,7 +70,7 @@ Microsoft Entra Conditional Access sets other requirements that devices must mee
 
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
-### 
+
 
 >[!TIP]
 >Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) to secure shared devices.
