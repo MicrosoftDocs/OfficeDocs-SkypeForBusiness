@@ -56,6 +56,17 @@ Walkie Talkie requires connectivity to the internet. Use the following guidance 
 
 ## Pilot Walkie Talkie
 
+- Prerequisites
+    - Channels
+    - Devices
+    - Network requirements
+- Pilot
+    - Plan
+        - Supported devices
+        - Unsupported devices
+     - Get your people together
+     - Communicate
+     - Measure
 
 
 ## Deploy Walkie Talkie
