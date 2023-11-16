@@ -2,7 +2,7 @@
 title: Manage the attendance and engagement report for meetings and events in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
