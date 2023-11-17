@@ -1815,8 +1815,6 @@ items:
       items: 
         - name: Get started with Government team templates
           href: government-teams-templates-in-the-admin-console.md
-        - name: Manage the Office 365 G1 Trial offer
-          href: g1-trial-license.md
         - name: Plan for Microsoft 365 Government - GCC
           href: plan-for-government-gcc.md
         - name: Plan for Microsoft 365 Government - GCC High
