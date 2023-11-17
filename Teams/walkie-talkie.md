@@ -2,7 +2,7 @@
 title: "Manage the Walkie Talkie app in Microsoft Teams"
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
