@@ -2,7 +2,7 @@
 title: Manage call notifications for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: msteams
