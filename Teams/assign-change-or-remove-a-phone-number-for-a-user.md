@@ -2,7 +2,7 @@
 title: "Manage phone numbers for users"
 author: CarolynRowe
 ms.author: crowe
-manager: manager: pamgreen
+manager: pamgreen
 ms.reviewer: julienp, roykuntz, jastark
 ms.date: 08/25/2023
 ms.topic: article
