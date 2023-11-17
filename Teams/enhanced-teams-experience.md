@@ -7,6 +7,7 @@ ms.reviewer:
 ms.date: 10/19/2023
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-premium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
