@@ -5,7 +5,7 @@ ms.date: 10/13/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
 ms.custom: intro-overview

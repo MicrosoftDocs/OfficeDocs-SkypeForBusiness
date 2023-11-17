@@ -1,10 +1,10 @@
 ---
 title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
-ms.date: 11/06/2023
+ms.date: 11/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -141,10 +141,10 @@ A phased and controlled rollout can then be achieved by selectively expanding th
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
-2. [Download the MSIX](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)
+1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)
 3. Open the Command Prompt as an Admin.
-4. Depending on where your MSIX is located, enter as shown::
+4. Depending on where your MSIX is located, do the following:
 </br>
 
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
