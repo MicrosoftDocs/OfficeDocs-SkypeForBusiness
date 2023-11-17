@@ -52,9 +52,6 @@ When your organization requires a password reset or enforces password expiration
 
 For example, if multifactor authentication is required for accessing Teams, user entry of a code is needed to complete that authentication. Shared devices don't generally have a single user that can configure and complete multifactor authentication. Also, if the account must reauthenticate every X days, a shared device can't resolve the challenge without a user's intervention.
 
-> [!IMPORTANT]
-> Multi-factor authentication isn't supported with shared devices, such as Teams Rooms on Android. The methods to use instead are outlined below.
-
 ## Best practices for the deployment of shared android devices with Teams
 
 Microsoft recommends the following settings when deploying Teams devices in your organization.
@@ -74,9 +71,6 @@ Microsoft Entra Conditional Access sets other requirements that devices must mee
 > [!TIP]
 > For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
 
-### Don't use multifactor authentication for shared devices
-
-Accounts for shared devices are linked to a room or physical space, rather than to an end user account. Because shared devices don't support multifactor authentication, exclude shared devices from any multifactor authentication policies.
 
 >[!TIP]
 >Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) to secure shared devices.
