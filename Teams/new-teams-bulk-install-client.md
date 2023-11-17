@@ -1,10 +1,10 @@
 ---
 title:  Bulk deploy the new Microsoft Teams desktop client
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
-ms.date: 10/30/2023
+ms.date: 11/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -85,7 +85,7 @@ To install new Teams on a single computer with many users, follow these steps:
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
 1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
-2. [Download the MSIX.](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)
+2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, do the following:
 </br>
@@ -134,7 +134,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
 
 >[!Note]
->If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
+>If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 ## End user experience:  Launching the new Teams 
 
