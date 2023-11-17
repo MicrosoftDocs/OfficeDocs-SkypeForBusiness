@@ -27,7 +27,7 @@ To use the RemoveAllAccessForUser Graph API, you need to provide three parameter
 You can obtain these three parameters from the new Unified Audit Log (UAL) events that are generated when an external user communicates with a user in your tenant. The UAL events contain information about the sender, the recipient, the chat thread, and the message. You can use the UAL events to identify the chat thread that you want to revoke access from, and then extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the event details. 
 
 ## Steps to use the RemoveAllAccessForUser Graph API
-- Step 1: Search for the [UAL events](/purview/audit-teams-audit-log-events.md) that match your criteria.  If you want to find all events where a user was added to a chat, you can use the “MemberAdded” event in your search query. 
+- Step 1: Search for the [UAL events](/purview/audit-teams-audit-log-events) that match your criteria.  If you want to find all events where a user was added to a chat, you can use the “MemberAdded” event in your search query. 
 - Step 2: Extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the UAL event details 
 - Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
 
