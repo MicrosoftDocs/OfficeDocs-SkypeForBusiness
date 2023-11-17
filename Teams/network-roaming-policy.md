@@ -2,7 +2,7 @@
 title: Network roaming policy
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 03/23/2021
 ms.topic: article

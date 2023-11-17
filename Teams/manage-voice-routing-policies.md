@@ -2,7 +2,7 @@
 title: Manage call routing policies for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: filippse
 ms.date: 03/04/2020
 ms.topic: article
