@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 02/12/2020
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
