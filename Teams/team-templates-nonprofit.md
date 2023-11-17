@@ -2,7 +2,7 @@
 title: Use nonprofit team templates
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
