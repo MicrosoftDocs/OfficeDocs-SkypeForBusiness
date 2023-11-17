@@ -2,7 +2,7 @@
 title: "Emergency calling disclaimer labels"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 04/23/2018
 ms.topic: article
