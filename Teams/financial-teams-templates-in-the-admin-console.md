@@ -2,7 +2,7 @@
 title: Use financial team templates
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
