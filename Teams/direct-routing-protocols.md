@@ -2,7 +2,7 @@
 title: "Teams Phone System Direct Routing: Definitions and RFC standards"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: msteams
