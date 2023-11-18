@@ -2,7 +2,7 @@
 title: "Set up Cloud Voicemail"
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 09/27/2023
 ms.topic: article
