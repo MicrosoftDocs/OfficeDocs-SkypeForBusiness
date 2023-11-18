@@ -1,7 +1,7 @@
 ---
 title: "Configure call routing for Direct Routing"
 ms.reviewer: 
-ms.date: 02/12/2020
+ms.date: 11/17/2023
 ms.author: crowe
 author: CarolynRowe
 manager: pamgreen
@@ -25,7 +25,7 @@ description: "Learn how to configure call routing with Microsoft Direct Routing.
 
 This article describes how to configure call routing for Direct Routing. This is step 3 of the following steps for configuring Direct Routing:
 
-- Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
+- Step 1. [Connect the SBC with Teams Phone and validate the connection](direct-routing-connect-the-sbc.md) 
 - Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
 - **Step 3. Configure call routing** (This article)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
@@ -34,7 +34,7 @@ For information on all the steps required for setting up Direct Routing, see [Co
 
 ## Call routing overview
 
-Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
+Teams Phone has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
 - The called number pattern 
 - The called number pattern plus the specific user who makes the call
@@ -77,12 +77,12 @@ In the example shown in the following diagram, a voice route is added to send ca
 
 ![Screenshot that shows voice routing policy with a third route.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), the automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan. If the user only has Microsoft Phone System, the call is dropped because no matching rules are available.
+For all other calls, if a user has both licenses (Teams Phone and Microsoft Calling Plan), the automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed through Microsoft Calling Plan. If the user only has Teams Phone, the call is dropped because no matching rules are available.
 
   > [!NOTE]
   > The Priority value for route "Other +1" doesn't matter in this case because there is only one route that matches the pattern +1 XXX XXX XX XX. If a user makes a call to +1 324 567 89 89 and both sbc5.contoso.com and sbc6.contoso.com are unavailable, the call is dropped.
 
-The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN usage, "US and Canada".  All routes are associated with the "US and Canada" PSTN usage  and the PSTN usage is associated with the "US Only" voice routing policy.
+The following table summarizes the configuration using three voice routes. In this example, all three routes are part of the same PSTN usage, "US and Canada".  All routes are associated with the "US and Canada" PSTN usage, and the PSTN usage is associated with the "US Only" voice routing policy.
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -92,7 +92,7 @@ The following table summarizes the configuration using three voice routes. In th
 |||||||
 
   > [!NOTE]
-  > In case of call forwarding or call transfer of an incoming PSTN call, when the ingress SBC is also listed as a potential egress SBC, its priority value is ignored, and it is prioritized above other SBCs. For example, in this table, if a forwarded call is ingressed over sbc5.contoso.com, the first SBC attempted for egress will be sbc5.contoso.com, even though its priority value is 3.
+  > In case of call forwarding or call transfer of an incoming PSTN call, when the ingress SBC is also listed as a potential egress SBC, its priority value is ignored, and it's prioritized above other SBCs. For example, in this table, if a forwarded call is ingressed over sbc5.contoso.com, the first SBC attempted for egress will be sbc5.contoso.com, even though its priority value is 3.
 
 ## Example 1: Configuration steps
 
@@ -101,7 +101,7 @@ The following example shows how to:
 1. Create a single PSTN usage.
 2. Configure three voice routes.
 3. Create a voice routing policy.
-4. Assign the policy to a user named Spencer Low.
+4. Assign the policy to user1@contoso.com.
 
 You can use the [Microsoft Teams admin center](#admincenterexample1) or [PowerShell](#powershellexample1) to perform these steps.
 
@@ -111,33 +111,33 @@ You can use the [Microsoft Teams admin center](#admincenterexample1) or [PowerSh
 #### Step 1: Create the "US and Canada" PSTN usage
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Direct Routing**, and then in the upper-right corner, select **Manage PSTN usage records**.
-2. Click **Add**, type **US and Canada**, and then click **Apply**.
+2. Select **Add**, type **US and Canada**, and then select **Apply**.
 
 #### Step 2: Create three voice routes (Redmond 1, Redmond 2, and Other +1)
 
 The following steps describe how to create a voice route. Use these steps to create the three voice routes named Redmond 1, Redmond 2, and Other +1 for this example by using the settings outlined in the earlier table.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Direct Routing**, and then select the **Voice routes** tab.
-2. Click **Add**, and then enter a name and description for the voice route.
+2. Select **Add**, and then enter a name and description for the voice route.
 3. Set the priority and specify the dialed number pattern.
-4. To enroll an SBC with the voice route, under **SBCs enrolled (optional)**, click **Add SBCs**, select the SBCs you want to enroll, and then click **Apply**.
-5. To add PSTN usage records, under **PSTN usage records (optional)**, click **Add PSTN usage**, select the PSTN records you want to add, and then click **Apply**.
-6. Click **Save**.
+4. To enroll an SBC with the voice route, under **SBCs enrolled (optional)**, select **Add SBCs**, select the SBCs you want to enroll, and then select **Apply**.
+5. To add PSTN usage records, under **PSTN usage records (optional)**, select **Add PSTN usage**, select the PSTN records you want to add, and then select **Apply**.
+6. Select **Save**.
 
 #### Step 3: Create a voice routing policy named "US Only" and add the "US and Canada" PSTN usage to the policy
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then select **Add**.
 2. Type **US Only** as the name and add a description.
-3. Under **PSTN usage records**, click **Add PSTN usage**, select the "US and Canada" PSTN usage record, and then click **Apply**.
-4. Click **Save**.
+3. Under **PSTN usage records**, select **Add PSTN usage**, select the "US and Canada" PSTN usage record, and then select **Apply**.
+4. Select **Save**.
 
 To learn more, see [Manage voice routing policies](manage-voice-routing-policies.md).
 
-#### Step 4: Assign the voice routing policy to a user named Spencer Low
+#### Step 4: Assign the voice routing policy to user1@contoso.com
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
-3. Under **Voice routing policy**, select the "US Only" policy, and then click **Save**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+2. Select **Policies**, and then next to **Assigned policies**, select **Edit**.
+3. Under **Voice routing policy**, select the "US Only" policy, and then select **Save**.
 
 To learn more, see [Manage voice routing policies](manage-voice-routing-policies.md).
 
@@ -147,7 +147,7 @@ To learn more, see [Manage voice routing policies](manage-voice-routing-policies
 
 #### Step 1: Create the "US and Canada" PSTN usage
 
-In a remote PowerShell session in Skype for Business Online, type:
+In a remote PowerShell session in Teams, type:
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
@@ -182,7 +182,7 @@ The following example shows the result of running the `(Get-CSOnlinePSTNUsage).u
 
 #### Step 2: Create three voice routes (Redmond 1, Redmond 2, and Other +1)
 
-To create the "Redmond 1" route, in a PowerShell session in Skype for Business Online, enter:
+To create the "Redmond 1" route, in a PowerShell session in Teams, enter:
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
@@ -262,7 +262,7 @@ In the example, the route "Other +1" was automatically assigned priority 4.
 
 #### Step 3: Create a voice routing policy named "US Only" and add the "US and Canada" PSTN usage to the policy
 
-In a PowerShell session in Skype for Business Online, type:
+In a PowerShell session in Teams, type:
 
 ```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
@@ -277,18 +277,18 @@ Description         :
 RouteType           : BYOT
 ```
 
-#### Step 4: Assign the voice routing policy to a user named Spencer Low
+#### Step 4: Assign the voice routing policy to user1@contoso.com
 
-In a PowerShell session in Skype for Business Online, type:
+In a PowerShell session in Teams, type:
 
 ```PowerShell
-Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+Grant-CsOnlineVoiceRoutingPolicy -Identity "user1@contoso.com" -PolicyName "US Only"
 ```
 
 Validate the policy assignment by entering this command:
 
 ```PowerShell
-Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
+Get-CsOnlineUser "user1@contoso.com" | select OnlineVoiceRoutingPolicy
 ```
 
 The command returns the following:
@@ -301,21 +301,21 @@ US Only
 
 ## Example 2: Voice routing with multiple PSTN usages
 
-The voice routing policy created in Example 1 only allows calls to phone numbers in the US and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
+The voice routing policy created in Example 1 only allows calls to phone numbers in the United States and Canada--unless the Microsoft Calling Plan license is also assigned to the user.
 
 In the example that follows, you can create the "No Restrictions" voice routing policy. The policy reuses the "US and Canada" PSTN usage created in Example 1, as well as the new "International" PSTN usage. This policy routes all other calls to the SBCs sbc2.contoso.com and sbc5.contoso.com.
 
-The examples that are shown assign the US Only policy to user Spencer Low, and the No Restrictions policy to the user John Woods so that routing occurs as follows:
+The examples that are shown assign the US Only policy to user user1@contoso.com, and the No Restrictions policy to user2@contoso.com so that routing occurs as follows:
 
-- Spencer Low – US Only policy.  Calls are allowed only to US and Canadian numbers. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will not be routed unless the Calling Plan license is assigned to the user.
+- user1@contoso.com – US Only policy.  Calls are allowed only to United States and Canadian numbers. When calling to the Redmond number range, the specific set of SBCs must be used. Non-United States numbers will not be routed unless the Calling Plan license is assigned to the user.
 
-- John Woods – International policy.  Calls are allowed to any number. When calling to the Redmond number range, the specific set of SBCs must be used. Non-US numbers will be routed using sbc2.contoso.com and sbc5.contoso.com.
+- user2@contoso.com – International policy.  Calls are allowed to any number. When calling to the Redmond number range, the specific set of SBCs must be used. Non-United States numbers will be routed using sbc2.contoso.com and sbc5.contoso.com.
 
-![Screenshot that shows voice routing policy assigned to user Spencer Low.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Screenshot that shows voice routing policy assigned to user1@contoso.com.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed using Microsoft Calling Plan.  If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
+For all other calls, if a user has both licenses (Teams Phone and Microsoft Calling Plan), automatic route is used. If nothing matches the number patterns in the administrator-created online voice routes, then the call is routed using Microsoft Calling Plan.  If the user has only Teams Phone, the call is dropped because no matching rules are available.
 
-![Screenshot that shows voice routing policy assigned to user John Woods.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Screenshot that shows voice routing policy assigned to user2@contoso.com.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 The following table summarizes routing policy "No Restrictions" usage designations and voice routes. 
 
@@ -337,7 +337,7 @@ The following example shows how to:
 1. Create a new PSTN usage called International.
 2. Create a new voice route called International.
 3. Create a voice routing policy called No Restrictions.
-4. Assign the policy to user John Woods.
+4. Assign the policy to user2@contoso.com.
 
 You can use the [Microsoft Teams admin center](#admincenterexample2) or [PowerShell](#powershellexample2) to perform these steps.
 
@@ -376,20 +376,20 @@ The PSTN usage "US and Canada" is reused in this voice routing policy to preserv
 
 To learn more, see [Manage voice routing policies](manage-voice-routing-policies.md).
 
-#### Step 4: Assign the voice routing policy to a user named John Woods
+#### Step 4: Assign the voice routing policy to user2@contoso.com
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.
-2. Click **Policies**, and then next to **Assigned policies**, click **Edit**.
-3. Under **Voice routing policy**, select the "No Restrictions" policy, and then click **Save**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+2. Select **Policies**, and then next to **Assigned policies**, select **Edit**.
+3. Under **Voice routing policy**, select the "No Restrictions" policy, and then select **Save**.
 
-The result is that the voice policy applied to John Woods' calls is unrestricted and will follow the logic of call routing available for US, Canada, and International calling.
+The result is that the voice policy applied to the calls for user2@contoso.com is unrestricted and will follow the logic of call routing available for United States, Canada, and International calling.
 
 ### Using PowerShell
 <a name="powershellexample2"></a>
 
 #### Step 1: Create the "International" PSTN usage
 
-In a remote PowerShell session in Skype for Business Online, enter:
+In a remote PowerShell session in Teams, enter:
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
@@ -421,9 +421,9 @@ The PSTN usage "Redmond 1" and "Redmond" are reused in this voice routing policy
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
   ```
 
-Take note of the order of PSTN usages:
+Note the order of PSTN usages:
 
-  - If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.com and sbc2.contoso.com first, and then sbc3.contoso.com and sbc4.contoso.com as the backup routes.
+  - If a call is made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.com and sbc2.contoso.com first, and then sbc3.contoso.com and sbc4.contoso.com as the backup routes.
 
   - If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.com and sbc5.contoso.com as part of the routing logic. Enter the command:
 
@@ -440,16 +440,16 @@ Which returns:
     RouteType               : BYOT
 ```
 
-#### Step 4: Assign the voice routing policy to the user named John Woods
+#### Step 4: Assign the voice routing policy to user2@contoso.com
 
 ```PowerShell
-Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions"
+Grant-CsOnlineVoiceRoutingPolicy -Identity "user2@contoso.com" -PolicyName "No Restrictions"
 ```
 
 Then verify the assignment using the command: 
 
 ```PowerShell
-Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+Get-CsOnlineUser "user2@contoso.com" | Select OnlineVoiceRoutingPolicy
 ```
 
 Which returns:
@@ -460,7 +460,7 @@ OnlineVoiceRoutingPolicy
 No Restrictions
 ```
 
-The result is that the voice policy applied to John Woods' calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
+The result is that the voice policy applied to the calls for user2@contoso.com is unrestricted, and will follow the logic of call routing available for United States, Canada, and International calling.
 
 ## Run a Self-diagnostics tool
 
@@ -469,7 +469,7 @@ Microsoft 365 admin users have access to diagnostics that can be run within the 
 > [!NOTE]
 >This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
 
-Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 admin center.
 >> [!div class="nextstepaction"]
 >> [Run Tests: Teams Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
 
