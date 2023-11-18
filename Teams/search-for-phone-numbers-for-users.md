@@ -2,7 +2,7 @@
 title: "Search for telephone numbers for users"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, roykuntz, jastark
 ms.date: 11/28/2017
 ms.topic: article

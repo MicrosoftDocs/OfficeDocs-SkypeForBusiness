@@ -2,7 +2,7 @@
 title: Routing calls to unassigned numbers
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 08/23/2021
 ms.topic: article
