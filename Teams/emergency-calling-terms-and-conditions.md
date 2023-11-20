@@ -2,7 +2,7 @@
 title: "Emergency calling terms and conditions"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 11/28/2017
 ms.topic: conceptual

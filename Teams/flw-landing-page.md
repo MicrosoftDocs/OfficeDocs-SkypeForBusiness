@@ -2,7 +2,7 @@
 title: Get started with Teams for frontline workers
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.reviewer: aaglick
 ms.topic: landing-page
 audience: admin

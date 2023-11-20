@@ -1,8 +1,8 @@
 ---
 title: Audio Conferencing dial-out usage report
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: 
 ms.date: 11/16/2023
 ms.topic: conceptual
