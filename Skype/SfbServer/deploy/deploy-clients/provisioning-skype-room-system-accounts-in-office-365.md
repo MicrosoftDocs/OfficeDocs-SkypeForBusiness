@@ -13,6 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
@@ -132,13 +133,13 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
     
     ```powershell
     $cred=Get-Credential admin@$org
-    Connect-MsolService -Credential $cred
+    Connect-MgGraph -Credential $cred
     ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
     
    ```powershell
-   Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
+   	Update-MgUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
 For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
