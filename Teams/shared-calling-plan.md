@@ -4,7 +4,7 @@ ms.reviewer: jenstr
 ms.date: 10/16/2023
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams

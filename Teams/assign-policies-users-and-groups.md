@@ -1,10 +1,10 @@
 ---
 title: Assign policies to users and groups
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: tomkau, ritikag, jastark
 ms.date: 06/23/2023
-manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

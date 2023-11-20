@@ -477,7 +477,7 @@ items:
           href: teams-analytics-and-reports/teams-reporting-reference.md
         - name: Teams usage report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-usage-activity?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Advanced Collaboration Analytics
+        - name: Advanced collaboration analytics
           href: advanced-collaboration-analytics.md
         - name: Teams user activity report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
@@ -540,8 +540,6 @@ items:
             href: teams-overview.md
           - name: Assign team owners and members in Teams
             href: assign-roles-permissions.md
-          - name: Overview of dynamic membership for teams
-            href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
       
       - name: Organizing teams
         items:
@@ -645,6 +643,8 @@ items:
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
+            - name: Hide attendee names
+              href: hide-attendee-names.md
             - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
             - name: Who can bypass the lobby
@@ -1715,7 +1715,7 @@ items:
       items:
         - name: Overview of app management
           href: manage-apps.md
-        - name: App policies
+        - name: App access and admin installation
           items: 
           - name: Understand app policies
             href: app-policies.md
@@ -1723,6 +1723,8 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
+        - name: App centric management
+          href: app-centric-management.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Understand app permissions and access to resources
@@ -1813,8 +1815,6 @@ items:
       items: 
         - name: Get started with Government team templates
           href: government-teams-templates-in-the-admin-console.md
-        - name: Manage the Office 365 G1 Trial offer
-          href: g1-trial-license.md
         - name: Plan for Microsoft 365 Government - GCC
           href: plan-for-government-gcc.md
         - name: Plan for Microsoft 365 Government - GCC High
