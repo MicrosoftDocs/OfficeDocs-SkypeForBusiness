@@ -2,6 +2,34 @@
 
 
 
+## Week of November 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/13/2023 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
+| 11/13/2023 | [Manage Microsoft Teams meeting recording options for sensitive meetings](/MicrosoftTeams/manage-meeting-recording-options) | modified |
+| 11/13/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 11/13/2023 | [Customize meeting invitations (IT admins)](/MicrosoftTeams/customize-meeting-invitations) | modified |
+| 11/13/2023 | [Predefined meeting templates included with Microsoft Teams Premium](/MicrosoftTeams/predefined-meeting-template-reference) | modified |
+| 11/13/2023 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |
+| 11/13/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 11/13/2023 | [Microsoft Teams live event usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | modified |
+| 11/13/2023 | [Upgrade to new Microsoft Teams with Microsoft 365 Apps](/MicrosoftTeams/new-teams-deploy-with-m365apps) | modified |
+| 11/14/2023 | [Plan your call routing flow for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | modified |
+| 11/15/2023 | [Allow meeting and webinar organizers to hide the names of attendees (Preview)](/MicrosoftTeams/hide-attendee-names) | added |
+| 11/15/2023 | [App centric management to manage app access](/MicrosoftTeams/app-centric-management) | added |
+| 11/16/2023 | [Audio Conferencing dial-out usage report](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | modified |
+| 11/16/2023 | [Set how you want to handle real-time media traffic for Teams meetings](/MicrosoftTeams/meetings-real-time-media-traffic) | modified |
+| 11/16/2023 | [Local Media Optimization for Direct Routing](/MicrosoftTeams/direct-routing-media-optimization) | modified |
+| 11/17/2023 | [Set up Cloud Video Interop for Microsoft Teams](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | modified |
+| 11/17/2023 | [Configure media bypass with Direct Routing](/MicrosoftTeams/direct-routing-configure-media-bypass) | modified |
+| 11/17/2023 | [Direct Routing support for media bypass](/MicrosoftTeams/direct-routing-protocols-media) | modified |
+| 11/17/2023 | [Teams Phone Direct Routing: Definitions and RFC standards](/MicrosoftTeams/direct-routing-protocols) | modified |
+| 11/17/2023 | [Emergency calling disclaimer labels](/MicrosoftTeams/emergency-calling-labels) | modified |
+| 11/17/2023 | [IP Relay in Canada - user guide](/MicrosoftTeams/ip-relay-canada-user-guide) | modified |
+
+
 ## Week of November 06, 2023
 
 
