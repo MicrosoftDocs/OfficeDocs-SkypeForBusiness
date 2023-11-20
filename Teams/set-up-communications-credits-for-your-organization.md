@@ -2,7 +2,7 @@
 title: Set up Communications Credits for your organization
 ms.author: danismith
 author: DaniEASmith
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 04/19/2023
 ms.topic: article
