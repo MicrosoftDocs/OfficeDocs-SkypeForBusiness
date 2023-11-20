@@ -2,7 +2,7 @@
 title: Configure Operator Connect
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams 

@@ -2,7 +2,7 @@
 title: Plan your call routing flow for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 06/09/2022
 ms.topic: article
