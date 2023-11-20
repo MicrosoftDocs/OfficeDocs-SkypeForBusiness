@@ -128,7 +128,7 @@ After you select **Update**, updates are applied to your devices at the date and
 
 
 > [!NOTE]
-> To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+> To manage devices, you need to be a Global Administrator, Teams Administrator, or Teams Device Administrator. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
 
 This video shows how to update Teams devices.
