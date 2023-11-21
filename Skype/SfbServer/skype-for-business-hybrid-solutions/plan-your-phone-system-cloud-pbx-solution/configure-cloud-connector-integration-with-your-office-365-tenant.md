@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization."
 ---
@@ -176,7 +177,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
 2. Start a tenant Microsoft Entra ID remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Microsoft Entra user account configured in step 1 to "HybridMediationServer":
 
    ```powershell
-   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   Update-MgUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
 3. Start a tenant Skype for Business remote PowerShell session using your Skype for Business tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created in step 1:
