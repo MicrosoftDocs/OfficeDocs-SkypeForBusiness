@@ -2,7 +2,7 @@
 title: Plan SIP Gateway
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 08/22/2023
 ms.topic: article
 ms.service: msteams
