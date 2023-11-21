@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 Government - GCC High deployments
-author: SerdarSoysal
+author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin

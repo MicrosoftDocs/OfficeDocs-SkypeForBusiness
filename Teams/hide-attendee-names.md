@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: xonatia.lee
-ms.date: 11/15/2023
+ms.date: 11/17/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -23,7 +23,9 @@ appliesto:
 
 ## Overview
 
-With a Teams Premium license, you, as an admin can decide if meeting and webinar organizers can hide the names of attendees  from other attendees in the stage, roster, and chat.
+With a Teams Premium license, you, as an admin can decide if meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat.
+
+To learn more about how your organizers can hide attendee names, see [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed).
 
 ## Allow meeting and webinar organizers to hide the names of attendees through PowerShell
 

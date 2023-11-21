@@ -1,8 +1,8 @@
 ---
 title: Turn on inline message translation
-author: serdars
-ms.author: serdars
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
