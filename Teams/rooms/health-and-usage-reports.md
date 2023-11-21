@@ -2,7 +2,7 @@
 title: Health and usage reports
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.date: 04/07/2022
 ms.reviewer: altsou
 ms.topic: article
