@@ -13,6 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: "Read this topic to find sample scripts for provisioning Skype Room System accounts."
 ---
@@ -60,14 +61,14 @@ Import-PSSession $sess
 Import-Module MicrosoftTeams
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
-Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
+Connect-MgGraph -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
 
 Set-CalendarProcessing -Identity $rmURI -DeleteSubject $false -AutomateProcessing AutoAccept 
 Set-CalendarProcessing -Identity $rmURI -RemovePrivateProperty $false -AddOrganizerToSubject $false -AddAdditionalResponse $true -AdditionalResponse
  "This is an LRS room!"# Configure the Account to Not Expire
-Set-MsolUser -UserPrincipalName $rm -PasswordNeverExpires $true# You need to detect your Lync Pool Registrar name. Using a normal Offic365/LyncOnline user account from your tenant, run the next command and update the RegistrarPool value for the second command coming up
+Update-MgUser -UserPrincipalName $rm -PasswordNeverExpires $true# You need to detect your Lync Pool Registrar name. Using a normal Offic365/LyncOnline user account from your tenant, run the next command and update the RegistrarPool value for the second command coming up
 Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registrar*# Update with above result
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
