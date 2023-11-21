@@ -2,7 +2,7 @@
 title: Cloud IntelliFrame
 ms.author: v-smandalika
 author: v-smandalika
-manager: dansimp
+manager: pamgreen
 ms.reviewer: dansimp
 ms.date: 08/09/2023
 ms.service: msteams

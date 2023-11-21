@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 ms.reviewer: tjaved
 ms.date: 10/10/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
