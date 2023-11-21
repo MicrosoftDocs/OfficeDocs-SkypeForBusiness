@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms legacy licenses
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 10/10/2023
 ms.topic: article

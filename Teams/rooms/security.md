@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms security
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
 appliesto: 
   - Microsoft Teams
