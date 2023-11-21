@@ -4,7 +4,7 @@ author: tonysmit
 ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 11/13/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
