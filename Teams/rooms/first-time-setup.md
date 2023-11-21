@@ -1,5 +1,5 @@
 ---
-title: Setting up Microsoft Teams Rooms devices for the first time
+title: Set up Microsoft Teams Rooms devices through one-time passwords
 ms.author: v-smandalika
 author: v-smandalika
 manager: serdars
@@ -21,7 +21,7 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about how to set up Microsoft Teams Rooms devices for the first time.
 ---
 
-# Setting up Microsoft Teams Rooms devices for the first time
+# Set up Microsoft Teams Rooms devices through one-time passwords
 
 This article describes how you can set up Microsoft Teams devices for the first time.
 
@@ -45,7 +45,7 @@ To set up devices by using an OTP, perform the following steps:
    :::image type="content" source="../media/eula-screen.png" alt-text="Screenshot that shows the End user agreement screen a user sees." lightbox="../media/eula-screen.png":::
 
 
-   On selecting **Get started**, you might be presented with a screen that contains a message stating that the device verification process is a failure. For information on how to troubleshoot in this scenario, see [Device verification failure and troubleshooting](#device-verification-failure-and-troubleshooting).
+   On selecting **Get started**, you might be presented with a screen that contains a message stating that the device verification information couldn't be found. For information on how to troubleshoot in this scenario, see [Device verification failure and troubleshooting](#device-verification-failure-and-troubleshooting).
 
 1. Select **Accept**. The screen on which you're to enter the OTP (one-time passcode) appears.
 
@@ -86,22 +86,13 @@ To set up the Microsoft Teams Rooms devices manually, perform the following step
 
    :::image type="content" source="../media/manual-setup-option.png" alt-text="Screenshot that shows the OTP screen in which the Manual setup option is available to select." lightbox="../media/manual-setup-option.png":::
 
-   The **Account** screen appears.
+   The **Account setup** screen appears.
 
 1. Enter your username and password in the **Email** and **Password** fields, respectively, and enable the **Modern authentication** option.
 
    :::image type="content" source="../media/account-information-manual-setup.png" alt-text="Screenshot that shows the Account screen in which the user must enter credentials." lightbox="../media/account-information-manual-setup.png":::
 
-1. Select **Next**.  The **Advanced** screen appears.
-1. Enter details such as your Exchange address and the domains to be configured.
-
-   :::image type="content" source="../media/advanced-screen.png" alt-text="Screenshot that shows the Advanced screen in which the user must enter details." lightbox="../media/advanced-screen.png":::
-
-1. Select **Next**. The **Finish** screen appears.
-
-   :::image type="content" source="../media/finish-screen.png" alt-text="Screenshot that shows the Finish screen in which the user can complete the manual setup process." lightbox="../media/finish-screen.png":::
-
-1. Select **Finish**.  The following screen appears, indicating that the manual setup process has been successfully completed, and that the device has successfully signed in.
+1. Select **Finish**. The following screen appears, indicating that the manual setup process has been successfully completed, and that the device has successfully signed in.
 
    :::image type="content" source="../media/device-signed-in-notification.png" alt-text="Screenshot that shows the user that the device has been signed in." lightbox="../media/device-signed-in-notification.png":::
 
@@ -113,6 +104,6 @@ The device verification is actually an automatic process. However, sometimes the
 
 If the device verification process fails, you can implement the following troubleshooting options:
 
-- Insert an HDMI cable, and restart the device
+- Insert an HDMI Ingest module that came with the device
 - Contact your IT administrator
 
