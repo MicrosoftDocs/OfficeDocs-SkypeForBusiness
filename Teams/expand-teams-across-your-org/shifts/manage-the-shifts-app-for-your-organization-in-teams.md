@@ -3,8 +3,9 @@ title: Manage the Shifts app for your organization
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 09/26/2018
+ms.date: 11/22/2023
 ms.topic: conceptual
+ms.reviewer: imarquesgil
 audience: admin
 ms.service: msteams
 search.appverid: MET150
