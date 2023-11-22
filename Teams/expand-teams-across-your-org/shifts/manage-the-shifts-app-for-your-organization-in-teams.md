@@ -33,9 +33,9 @@ ms.custom: seo-marvel-mar2020
 
 ## Overview of Shifts
 
-The Shifts app in Microsoft Teams keeps frontline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts let frontline workers and their managers use their mobile devices to manage schedules and keep in touch.
+The Shifts app in Microsoft Teams keeps frontline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Frontline workers and their managers can use their mobile devices to manage schedules and keep in touch.
 
-- Managers create, update, and manage shift schedules for teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
+- Managers create, update, and manage shift schedules for their teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
 - Employees view their upcoming shifts, see who else is scheduled for the day, request to swap or offer a shift, and request time off.
 
 It's important to know that Shifts currently don't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
@@ -113,7 +113,6 @@ To send feedback, in **Teams**, go to **Help** > **Report a Problem**. Select **
 ## Related articles
 
 - [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
-- [Shifts data FAQ](shifts-data-faq.md)
 - [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
