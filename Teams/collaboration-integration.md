@@ -4,7 +4,7 @@ ms.reviewer: daro
 ms.date: 09/27/2023
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 audience: admin
 ms.service: msteams

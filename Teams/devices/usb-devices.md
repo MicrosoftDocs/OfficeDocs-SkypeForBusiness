@@ -2,7 +2,7 @@
 title: Phones and Devices for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: slamprianou
 ms.date: 11/02/2023
 ms.topic: article
@@ -86,6 +86,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|HP                   |960 4K Streaming Webcam                                    |11/20/2023      |Certified for Microsoft Teams                           |
+|Anker                |PowerConf S3 Speakerphone                                  |11/17/2023      |Certified for Microsoft Teams                           |
+|Dell                 |WH3024 Headset                                             |11/10/2023      |Certified for Microsoft Teams                           |
 |HP                   |FHD 620/625 Webcam                                         |11/10/2023      |Certified for Microsoft Teams       |
 |Lenovo               |ThinkSmart View Plus Monitor – Peripheral Mode             |11/10/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WL3024 Headset                                             |10/23/2023      |Certified for Microsoft Teams                           | 
