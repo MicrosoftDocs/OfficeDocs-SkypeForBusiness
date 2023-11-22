@@ -2,7 +2,7 @@
 title: "Manage phone numbers for your organization"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, roykuntz, jenstr
 ms.date: 08/10/2023
 ms.topic: conceptual
