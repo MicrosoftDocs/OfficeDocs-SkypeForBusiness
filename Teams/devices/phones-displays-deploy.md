@@ -2,7 +2,7 @@
 title: Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Rooms on Android using Intune
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: weizxue
 ms.date: 08/24/2020
 ms.topic: reference

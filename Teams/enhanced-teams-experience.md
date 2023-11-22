@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Premium - Overview for administrators
-author: MicrosoftHeidi
-ms.author: mikep
-manager: serdars
+author: DaniEASmith
+ms.author: danismith
+manager: pamgreen
 ms.reviewer: 
 ms.date: 10/19/2023
 ms.topic: conceptual
