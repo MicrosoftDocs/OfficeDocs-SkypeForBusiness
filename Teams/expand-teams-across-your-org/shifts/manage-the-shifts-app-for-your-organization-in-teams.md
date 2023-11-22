@@ -38,7 +38,7 @@ The Shifts app in Microsoft Teams keeps frontline workers connected and in sync.
 - Managers create, update, and manage shift schedules for their teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
 - Employees view their upcoming shifts, see who else is scheduled for the day, request to swap or offer a shift, and request time off.
 
-It's important to know that Shifts currently don't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
+It's important to know that Shifts currently doesn't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
 
 > [!Note]
 > For details about Shifts capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
