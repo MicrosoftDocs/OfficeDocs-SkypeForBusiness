@@ -45,6 +45,9 @@ The different types of apps that your users can use in Teams are:
 * [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
 * [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
 
+> [!NOTE]
+> Adaptive Card tabs aren't supported in the [new Teams client](new-teams-desktop-admin.md). If your users use an app that uses Adaptive Card tabs, we recommend that you reach out to the app developer and request them to rebuild the [tab as a web-based tab](/microsoftteams/platform/tabs/what-are-tabs).
+
 ## Core apps
 
 Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
