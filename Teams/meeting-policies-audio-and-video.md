@@ -2,7 +2,7 @@
 title: Manage meeting policies for audio and video
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 

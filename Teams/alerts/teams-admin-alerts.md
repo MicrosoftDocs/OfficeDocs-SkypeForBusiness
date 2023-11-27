@@ -2,7 +2,7 @@
 title: Microsoft Teams Monitoring and Alerting 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams

@@ -2,7 +2,7 @@
 title: Configure SIP Gateway
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
@@ -310,10 +310,20 @@ Bulk sign-in is very helpful and can be used in these scenarios.
     Import-Module MicrosoftTeams
     $credential = Get-Credential   // Enter your admin’s email and password 
     Connect-MicrosoftTeams –Credential $credential
-    NewCsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
+    $newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
     ```
 
 The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
+
+4. To check the status of a bulk sign-in batch, run the following:
+
+ ```PowerShell
+$newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
+$newBatchResponse.BatchId
+$getBatchStatusResponse = Get-CsSdgBulkSignInRequestStatus -Batchid $newBatchResponse.BatchId
+$getBatchStatusResponse | ft
+$getBatchStatusResponse.BatchItem
+``` 
 
 ### Bulk sign in error messages
 To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should do to fix it.

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 06/27/2023
+ms.date: 11/23/2023
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -29,6 +29,8 @@ In the Teams admin center, we provide a few dedicated pages to manage your apps 
 :::image type="content" source="media/manage-apps.png" alt-text="Screenshot showing the Manage apps page in Teams admin center." lightbox="media/manage-apps.png":::
 
 To use Teams admin center, you must have a Global Administrator or Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
+
+App developers [extend Microsoft Copilot](/microsoft-365-copilot/extensibility/) for Microsoft 365 by creating plugins, for example, Microsoft Teams message extension or a Power Platform connector. These plugins increase user productivity across daily tasks and workflows. Admins manage plugins for Copilot in the [Integrated apps](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) section of the Microsoft 365 admin center.
 
 ## App management use cases and the available interfaces
 
@@ -77,6 +79,13 @@ To allow an app for specific users, see [app permission policies](teams-app-perm
 
 When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. After following the publisher's guidance to set up the app, you can make it available to users by allowing it.
 
+## Allow access to an app for users and groups
+
+As an admin, you use one of the following methods to define access to apps for your users:
+
+* [App permission policies](teams-app-permission-policies.md) if you use policy-based method to define app access.
+* App assignment if you use [app centric management](app-centric-management.md) to define app access.
+
 ## Stop app usage and remove app
 
 As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
@@ -85,7 +94,7 @@ Blocked apps may still have access to data from the teams that the apps were add
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload custom apps in your organization.
+Use org-wide app settings to control whether users with an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline) get the tailored frontline app experience, whether users can install third-party apps, and whether users can upload custom apps in your organization.
 
 1. On **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page, select **Org-wide app settings**. You can then configure the settings you want in the pane.
 

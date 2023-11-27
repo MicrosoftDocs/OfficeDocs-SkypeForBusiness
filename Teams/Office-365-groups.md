@@ -4,7 +4,7 @@ ms.reviewer: rahulnayak
 ms.date: 08/10/2017
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 audience: admin
 ms.service: msteams

@@ -2,7 +2,7 @@
 title: Manage emergency call routing policies for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jastark, roykuntz
 ms.date: 10/02/2019
 ms.topic: article

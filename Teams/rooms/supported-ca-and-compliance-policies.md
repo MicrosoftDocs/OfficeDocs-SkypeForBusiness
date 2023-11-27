@@ -3,8 +3,8 @@ title: Supported Conditional Access and Intune device compliance policies for Mi
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: altsou
-ms.date: 10/04/2023
-manager: serdars
+ms.date: 11/13/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -145,9 +145,10 @@ their use with Teams Rooms.
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
-| Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
+| Maximum minutes of inactivity before password are required                                                                              | Not supported |             
+                                                                  |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |
 | [**Android 10 and later**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
 | [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
@@ -178,7 +179,7 @@ Below is a table of device compliance settings and recommendations for their use
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
 | Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |
@@ -213,7 +214,7 @@ Below is a table of device compliance settings and recommendations for their use
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
 | Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |

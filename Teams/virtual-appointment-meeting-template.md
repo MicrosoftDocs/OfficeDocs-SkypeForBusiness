@@ -2,7 +2,7 @@
 title: Manage the Virtual appointment meeting template in Microsoft Teams
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jewilcze
@@ -37,7 +37,7 @@ This article gives you an overview of how to manage the Virtual appointment meet
 
 ## Template settings
 
-The Virtual appointment template comes with predefined settings. You can't edit the settings in the template. For a list of the settings in the template, see [Predefined meeting templates included with Teams Premium](predefined-meeting-template-reference.md).
+The Virtual appointment meeting template comes with predefined settings. To learn more, see [Predefined meeting templates included with Teams Premium](predefined-meeting-template-reference.md).
 
 ## Use meeting template policies to specify which users can use the template
 

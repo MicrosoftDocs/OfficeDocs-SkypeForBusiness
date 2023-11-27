@@ -2,7 +2,7 @@
 title: Devices for Teams
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: divank
 ms.date: 11/02/2023
 ms.topic: article
@@ -54,14 +54,13 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
-| AudioCodes C470HD   | `2.1.87`  | 	October 26, 2026  | 12 |
+| AudioCodes C470HD   | `2.1.87`  |October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP54 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Poly CCX350  | `8.0.1.4670`                                                  | 	March 30, 2024              | 9 |
 | Poly CCX505  | `7.3.1.0811`                                                  | 	March 30, 2024              | 9 |
 | Crestron Audio: UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024            | 9 |
-| Crestron Video: UC-P8-C, UC-P8-C-I, UC-P10-C, UC-P10-C-I | `1.0.0.56` | November 5, 2023            | 9 |
 | Yealink MP52         | `145.15.0.6 ` | November 5, 2023                | 9 |
 | AudioCodes C435HD    | `1.12.33`     | March 30, 2024              | 9 |
 | AudioCodes C455HD    | `1.14.404`    |March 30, 2024                | 9 |
@@ -71,7 +70,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX600  | `5.9.12.1122` | March 30, 2024               | 9 |
 | Poly CCX500  | `5.9.12.1122` | March 30, 2024                | 9 |
 | Yealink EXP50 supported on MP56, MP58| For each supported device model, see update #7 firmware version | March 30, 2024       | 9 |
-| Yealink VP59 | `91.15.0.16` |November 5, 2023   | 9 |
+
 
 
 ## Certified Teams Rooms on Android
@@ -89,9 +88,9 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
-| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2024 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2024 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
@@ -162,6 +161,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 400/500/505/600 | `8.1.4.1480` | 2023 Update #3 |
+|Poly Trio C60 | `8.1.4.1456 ` | 2023 Update #3 |
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | 2023 Update #3C    |
 | Yealink CP965 | `143.15.0.54 `|2023 Update #3B |
 |Yealink MP54/MP56/MP58  | `122.15.0.142`     | 2023 Update #3B |
 | Yealink CP965 | `143.15.0.48 `|2023 Update #2D |
@@ -289,6 +291,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #3 | November 8, 2023 | `1449/1.0.95.2023101102` | `5.0.5484.0` | `1.0.0.202306202019.product (486)`|
 |2023 Update #2A | June 28, 2023 | `1449/1.0.95.2023061601` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #2 | May 24, 2023 | `1449/1.0.95.2023042701` | `5.0.5484.0` | `1.0.0.202301162118.product (413)`|
 |2023 Update #1A | February 9, 2023 | `1449/1.0.95.2023011903` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
