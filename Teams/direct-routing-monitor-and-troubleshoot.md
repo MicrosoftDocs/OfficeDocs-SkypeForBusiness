@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 07/11/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams

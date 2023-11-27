@@ -2,9 +2,9 @@
 title: Configure call settings for users
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
-ms.date: 01/28/2022
+ms.date: 11/17/2023
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -29,11 +29,11 @@ This article describes how you, the administrator, can change call forwarding an
 
 - A user is out on sick leave, and you need to ensure that incoming calls to the user are forwarded to a colleague.
 - You need to inspect the call forward settings for all users in a department and potentially correct them as appropriate.
-- A new assistant has been employed and you need to add the assistant as a delegate for a group of employees.
+- A new assistant has been employed, and you need to add the assistant as a delegate for a group of employees.
 
 You can use the Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
 
-To set call settings for a user, the user must have an assigned Microsoft Phone System license.
+To set call settings for a user, the user must have an assigned Microsoft Teams Phone license.
 
 ## Use the Teams admin center
 
@@ -51,7 +51,7 @@ To configure simultaneous ringing, on the same page select **Ring the user's dev
 
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
-The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
+The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure calls to also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and selecting **Save**.
 
 This video shows the steps to view and edit the voice settings for a user.
 

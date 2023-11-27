@@ -2,7 +2,7 @@
 title: "Call sharing and group call pickup"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 02/19/2019
 ms.reviewer: jenstr
 ms.topic: article
