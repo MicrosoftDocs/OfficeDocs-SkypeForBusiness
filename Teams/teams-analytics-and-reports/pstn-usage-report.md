@@ -2,7 +2,7 @@
 title: Microsoft Teams PSTN usage report
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -159,8 +159,8 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
 > | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
 > | 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign-in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 4 | Microsoft Entra ObjectId | `uniqueidentifier` | Calling user's ID in Microsoft Entra ID.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign-in name) in Microsoft Entra ID.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
 > | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
 > | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
 > | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
@@ -188,8 +188,8 @@ You can export data up to five months (150 days) from the current date unless co
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Call identifier. Multiple legs of the same call can share the same CorrelationId |
-> | 1 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info can be null/empty for bot call types |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (sign-in name, Azure Active Directory) of the user or bot that made or received the call.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 1 | Microsoft Entra ObjectId | `uniqueidentifier` | Calling user's ID in Microsoft Entra ID.<br/> This and other user info can be null/empty for bot call types |
+> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (sign-in name, Microsoft Entra ID) of the user or bot that made or received the call.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
 > | 3 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Microsoft 365 admin center |
 > | 4 | User country | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Invite time | `datetimeoffset` | When the initial Invite send on outbound from Teams user or bot call to the SBC, or received on inbound to Teams or bot call by the SIP Proxy component of Direct Routing from the SBC |

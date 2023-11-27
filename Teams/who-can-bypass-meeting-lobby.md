@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
 ms.date: 05/19/2023
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -121,8 +121,8 @@ By default, the **People dialing in can bypass the lobby** policy is **Off**, bu
 
 There are two types of people outside your organization who can join meetings as verified participants:
 
-- Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
-- External access users - people who have Azure AD accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
+- Guests - people who have an [Microsoft Entra B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
+- External access users - people who have Microsoft Entra accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
 
 If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my org** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **People in my org and guests**.
 

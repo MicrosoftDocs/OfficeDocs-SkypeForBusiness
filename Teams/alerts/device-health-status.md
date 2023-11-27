@@ -2,12 +2,12 @@
 title: Microsoft Teams Devices Monitoring and Alerting
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vapati
-ms.date: 03/15/2021
+ms.date: 10/10/2023
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.custom:
 
 Device health monitoring in the Microsoft Teams admin center gives you an ability to proactively monitor the health of various Teams devices. Monitor the offline state of a device and receive alerts in real time if the monitored device in your organization goes offline.  
 
-Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
+Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](/microsoft-365/solutions/manage-creation-of-groups).
 
 ## Configure device state rule
 
@@ -60,7 +60,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 
 2. Select one or more users for which you want to monitor device health state
 
-   ![add user in device health status rule.](../media/select-device-users.png )
+   ![add user in device health status rule.](../media/select-device-users.png)
 
    The selected list of users shows in **Device users** section. You can modify this list by adding or removing users.
 

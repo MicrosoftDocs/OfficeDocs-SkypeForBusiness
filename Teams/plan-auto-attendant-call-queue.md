@@ -2,7 +2,7 @@
 title: Plan for Teams Auto attendants and Call queues
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/22/2023
 ms.topic: article
@@ -173,7 +173,7 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 6. Create the groups that you want to use to contain the call agents for the Call queues.
 
-7. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Azure Active Directory (Azure AD) profile.
+7. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Microsoft Entra profile.
 
 Once you've completed the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
 
@@ -183,14 +183,14 @@ See the following articles for information on how to create Auto attendants and 
 - [Create a Call queue](create-a-phone-system-call-queue.md)
 
 > [!IMPORTANT]
-> A user's Azure AD GUID token is stored as part of the Auto attendant or Call queue configuration when the user is configured as:
+> A user's Microsoft Entra GUID token is stored as part of the Auto attendant or Call queue configuration when the user is configured as:
 >
 >  - an Auto attendant or Call queue **Authorized user**.
 >  - an Auto attendant **Operator**.
 >  - a **Person in Organization** transfer point.
 >  - an individual member of a Call queue.
 > 
-> The Auto attendant and Call queue configurations aren't synchronized with Azure AD lifecycle events.  Teams administrators need to manually update Auto attendant and Call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
+> The Auto attendant and Call queue configurations aren't synchronized with Microsoft Entra lifecycle events.  Teams administrators need to manually update Auto attendant and Call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
 >
 > This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 

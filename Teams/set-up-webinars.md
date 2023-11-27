@@ -2,7 +2,7 @@
 title: Admin- Set up webinars
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: justle, ritikag
 ms.date: 10/01/2023
 ms.topic: article
@@ -33,6 +33,8 @@ description: Learn how to set up and manage webinar policies for IT Admins in Te
 Microsoft Teams offers webinars, a two-way interactive virtual event. This article describes how you, as an admin, can set up and manage webinars, including managing webinar features.
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
+
+For more information on how to plan for webinars in your org, see [Plan for Teams meetings](plan-webinars.md)
 
 In addition to the base webinar features, we offer extra webinar functionality through the Teams Premium subscription.
 

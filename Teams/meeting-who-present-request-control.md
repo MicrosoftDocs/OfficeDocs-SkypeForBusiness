@@ -2,7 +2,7 @@
 title: Manage who can present and request control in Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -25,7 +25,7 @@ description: Learn to manage who can present and take control in Teams meetings.
 
 # Manage who can present and request control in Teams meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
 You can use Teams meeting policies to control who can present in meetings and who can request control of the presentation while a meeting is underway.
 

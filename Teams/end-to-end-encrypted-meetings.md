@@ -2,7 +2,7 @@
 title: Require end-to-end encryption for sensitive Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -29,7 +29,7 @@ End-to-end encryption is the encryption of information at its origin and decrypt
 
 End-to-end encrypted meetings can be made between two parties when: the parties are using the latest version of the Teams desktop client for Windows or Mac or they are on a mobile device with the latest update for iOS and Android.
 
-Web, Virtual Desktop (VDI), Cloud Video Interoperability(CVI), Windows and Android Teams Room devices, and Surface Hub are not currently supported. If trying to join from one of these platforms, you will be blocked from joining the end-to-end encrypted meeting.
+Web, Virtual Desktop (VDI), Cloud Video Interoperability(CVI), Android Teams Room devices, and Surface Hub are not currently supported. If trying to join from one of these platforms, you will be blocked from joining the end-to-end encrypted meeting.
 
 > [!Note]
 > End-to-end meeting encryption requires Teams Premium.

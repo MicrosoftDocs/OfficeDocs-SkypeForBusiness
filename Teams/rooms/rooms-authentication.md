@@ -3,8 +3,8 @@ title: "Authentication in Microsoft Teams Rooms on Windows"
 ms.author: tonysmit
 author: tonysmit
 ms.reviewer: sohailta
-ms.date: 04/06/2020
-manager: serdars
+ms.date: 10/04/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.assetid: 
 ms.collection: 
   - M365-collaboration
-  - teams-rooms-devices
+  - Teams_ITAdmin_Rooms
   - Tier1
 description: Learn how to configure modern authentication for Microsoft Teams Rooms on Windows
 ---
@@ -37,4 +37,6 @@ It’s important to note that Microsoft Teams Rooms resource accounts shouldn't 
 
 Teams rooms resource account access to Microsoft 365 service can be set up using Conditional Access policies.  Since Windows has no knowledge of resource account that is used by Teams room application, to apply device-level conditional access policies, you must enroll Teams Rooms on Windows devices with Microsoft Endpoint Manager. Learn more about [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986). When device is enrolled in Endpoint Manager, Teams Room application uses Windows enrolled account using Web access management (WAM) to send device compliance status for conditional access evaluation. To learn more about Conditional access and End Manager device compliance policies, see [Conditional Access and Intune compliance for Microsoft Teams Rooms](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) and [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/microsoftteams/rooms/supported-ca-and-compliance-policies?tabs=mtr-w)
 
+You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
+For more information about device compliance, see [Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md).

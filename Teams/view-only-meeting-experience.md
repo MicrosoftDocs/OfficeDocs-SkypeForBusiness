@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: christi.balaki
 ms.date: 10/15/2020
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -63,7 +63,7 @@ When the capacity of the main meeting has been reached, an attendee will be unab
 - An administrator hasn't enabled the Teams view-only experience for either the organizer or for the entire tenant.
 - The view-only attendee can't bypass the lobby. As an example, if an organizer of a meeting chooses to have only **People in my organization** bypass the lobby, and an attendee who is outside of the organization attempts to join as a view-only attendee, they won't be able to join.
 
-When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees will join as view-only attendees.
+When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees might join as view-only attendees.
 
   ![the Teams client and banner message for organizers and presenters.](media/chat-and-banner-message.png)
 
@@ -111,8 +111,8 @@ The view-only attendee won't be able to experience the following options in meet
 ## View-only feature limitations
 
 - View-only attendees will only be able to see Live Captions on Desktop and Web. Only English Captions are supported at this time.
-- View-only attendees cannot register for Webinars.
-- View-only attendees will not have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature. 
+- View-only attendees can't register for Webinars.
+- View-only attendees won't have Information Barrier support. If you need Information Barrier support in your organization, you should disable this feature. 
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.

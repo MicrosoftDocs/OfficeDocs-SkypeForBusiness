@@ -1,17 +1,17 @@
 ---
-title: Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: Connect Microsoft Teams Essentials (Microsoft Entra ID) to an existing email system with calendar
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jimmyw
 ms.date: 11/13/2021
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
   - Microsoft Teams
 search.appverid: MET150
-description: Learn how to connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar like Google Workspace
+description: Learn how to connect Microsoft Teams Essentials (Microsoft Entra ID) to an existing email system with calendar like Google Workspace
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -22,16 +22,16 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
+# Connect Microsoft Teams Essentials (Microsoft Entra ID) to an existing email system with calendar
 
 > [!IMPORTANT]
 > Try the "Use your existing email with Teams" setup available at [https://admin.microsoft.com.](https://admin.microsoft.com) It automates some of the steps in this article.
 
 :::image type="content" source="media/bring-your-own-email.png" alt-text="Screenshot that displays bring your own email wizard." lightbox="media/bring-your-own-email.png":::
 
-This guide provides configuration steps for connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar.
+This guide provides configuration steps for connecting Microsoft Teams Essentials (Microsoft Entra ID) to an existing email system with calendar.
 
-Microsoft Teams Essentials (AAD Identity) brings together the best of Teams with meetings, chat, calling, and collaboration. Teams Essentials (AAD Identity) can connect to your existing email system to provide an integrated experience like having all Teams notifications in an existing email inbox, all calendar events in Teams, and the ability to sign into Teams with your existing email address.
+Microsoft Teams Essentials (Microsoft Entra ID) brings together the best of Teams with meetings, chat, calling, and collaboration. Teams Essentials (Microsoft Entra ID) can connect to your existing email system to provide an integrated experience like having all Teams notifications in an existing email inbox, all calendar events in Teams, and the ability to sign into Teams with your existing email address.
 
 Once connected, you can see responses to scheduled meetings and invitations to collaborate in your mailbox and Microsoft Teams. You can also view and interact with incoming meetings from your calendar using Teams and third-party meeting software like Google Workspace.
 
@@ -53,7 +53,7 @@ To learn more about configuring outbound spam policies, visit [Configure outboun
 
 ## Connect Teams Essentials to Exchange Online with Exchange on-premises
 
-You can enjoy all that Teams Essentials (AAD) has to offer by using a hybrid approach to configure the connection between Microsoft Teams and Exchange Online with Exchange on-premises.
+You can enjoy all that Teams Essentials (Microsoft Entra ID) has to offer by using a hybrid approach to configure the connection between Microsoft Teams and Exchange Online with Exchange on-premises.
 
 To make calendar access work for your on-prem mailboxes, follow the guidance provided at[Configuring Teams calendar access for Exchange on-premises mailboxes - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
@@ -360,7 +360,7 @@ If you already have an existing account, you can proceed to the next step. If no
 
 #### 2. Set up your Microsoft 365 tenant
 
-*Configure Teams AAD users:*
+*Configure Teams Microsoft Entra users:*
 
 1. Follow the guidance at[Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) to add multiple users
 

@@ -2,7 +2,7 @@
 title: Enterprise content delivery networks for streaming Microsoft Teams events
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: asteele
-ms.date: 10/01/2023
+ms.date: 10/13/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -31,9 +31,9 @@ Teams streaming events can use enterprise content delivery networks (eCDNs), inc
 - Live events
 - Meetings with more than 1,000 participants
 
-Playback of videos from Microsoft Teams events use adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that every viewer is getting their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
+Playback of videos from Microsoft Teams events uses adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that every viewer is getting their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
-Organizations may want to understand and reduce this network traffic for events and popular videos. If so, Teams can be enabled to integrate with trusted Microsoft partners that offer enterprise content delivery network (eCDN) solutions that include self-managing delivery technologies, real-time monitoring, and in-depth network analytics. These eCDN platforms let organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
+Organizations might want to understand and reduce this network traffic for events and popular videos. If so, you can enable Teams to integrate with trusted Microsoft partners that offer enterprise content delivery network (eCDN) solutions. The eCDN solutions from our trusted partners include capabilities like self-managing delivery technologies, real-time monitoring, and in-depth network analytics. These eCDN platforms let organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
 
 ## Acquire and set up your eCDN solution outside of Teams
 
@@ -41,34 +41,43 @@ Get expert help with monitoring and scaling video delivery by teaming up with tr
 
 Before you can enable an eCDN solution to be used with Teams, you must purchase and set up that eCDN solution outside and separate from Teams. To ensure that the solution meets your needs, some partners provide free trials of their content delivery and network analytics technologies.
 
-Several eCDN solutions are pre-integrated and can be enabled for use with Teams. See information from the providers below.
+Several eCDN solutions are preintegrated and can be enabled for use with Teams. See information about the providers in the next section.
 
 > [!IMPORTANT]
 > Teams Premium features require the Microsoft eCDN. Streaming events organized by people with a Teams Premium license always use the Microsoft eCDN even if you've configured a different option.
 
 ### Microsoft eCDN (Teams Premium)
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN is the only eCDN option for Teams Premium town hall organizers. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
 
-- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic won't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
-- Silent Testing with Microsoft eCDN allows IT admins to simulate large events on their corporate network, permitting thorough and non-disruptive testing and troubleshooting before a real event. Learn more at [Perform a silent test](/ecdn/how-to/perform-silent-test).
+- Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic doesn't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
+- Silent Testing with Microsoft eCDN allows IT admins to simulate large events on their corporate network, permitting thorough and nondisruptive testing and troubleshooting before a real event. Learn more at [Perform a silent test](/ecdn/how-to/perform-silent-test).
 - Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drilldowns, per-user analytics, and a back-end API. Learn more at [Analytics](/ecdn/technical-documentation/analytics).
 
 ### Hive Streaming
 
-The **Hive Streaming Video Experience Platform** comprises three core products:
+Hive Streaming enables superior video experience (VX) to drive change in the enterprise by maximizing the reach and quality of internal video communications.  
 
-- **Hive Video Optimization** is based on a patented software-only, zero-configuration algorithm. Optimization automatically maximizes the quality and reach of live and on-demand video (VOD) for the whole organization.
-- **Hive Video Analytics** helps customers understand trends in live event and on-demand video performance to improve viewer engagement over time. As engagement improves, so does video adoption across the company.
-- **Hive Video Operations** provides powerful capabilities aiming to proactively secure streaming video success before and during live video events. The operational tools empower your video streaming and UC teams to find and correct problems before they happen.
+Hive’s next-generation VX products are designed to empower companies before, during, and after each internal live video stream by enabling stakeholders across the organization to:
 
-All of them work to create full-scope video experiences—from planning to execution and analysis. Maximizing the experience of streaming video communication is crucial for employee engagement and alignment on your company mission. To learn more, check out [Hive Streaming](https://www.hivestreaming.com/partners/microsoft).
+- **Pressure-test the network** and the entire video infrastructure chain to secure events
+- Access advanced stream control features, such as **modifying stream bitrate in real time**
+- Receive and **act on disruption alerts during live video events**
+- Get **enhanced and actionable analytics** individually tailored to IT or Communications stakeholders
+- Gain unique **insights into video performance, viewer experience & engagement**
+- Unlock **advanced eCDN capabilities to address weak network links globally** with an elegant software-only solution that eliminates the need for edge caching at low bandwidth sites
+
+Hive’s ingenious peer-to-peer algorithm helps achieve the highest streaming quality while efficiently offloading the corporate network with up to 99% bandwidth savings. Hive’s VX solutions work out of the box and are 100% software-based, requiring nothing but viewer machines to reliably deliver video to even the most bandwidth-restricted sites.  
+
+With a stellar track record of 99.99% service uptime, 24/7 white-glove support and comprehensive Service- and Experience-Level Agreements, Hive Streaming plays an integral role in the video experience and networking infrastructure of Fortune 500 companies across the globe.  
+
+For more information, visit [Hive Streaming](https://www.hivestreaming.com/partners/microsoft).
 
 ### Kollective
 
 **Kollective Technology** is a cloud-based, content distribution platform that utilizes intelligent peering to deliver live and on-demand enterprise video, providing 100% video quality and 100% engagement at just 1% of the bandwidth. Kollective’s integration with Teams events allows globally dispersed employees to easily consume video, improving employee communication, boosting overall engagement, and increasing training and retention opportunities.
 
-**Kollective IQ** is a sophisticated, user-friendly analytics platform for Microsoft Stream. With customizable reporting, visualizations and dashboards, it's easy to quantify and digest both user experience and engagement across complex global enterprise networks. Communication Managers and Network Administrators can watch real-time events and network activity, so bottlenecks can be addressed quickly, insuring peak network performance.
+**Kollective IQ** is a sophisticated, user-friendly analytics platform for Microsoft Stream. With customizable reporting, visualizations and dashboards, it's easy to quantify and digest both user experience and engagement across complex global enterprise networks. Communication Managers and Network Administrators can watch real-time events and network activity, so bottlenecks can be addressed quickly, ensuring peak network performance.
 
 To learn more about these options, check out [Kollective eCDN for Microsoft](https://kollective.com/microsoft-live-events/).
 
@@ -101,13 +110,13 @@ After you configure Teams for an eCDN solution, any video or live event that is 
 
 ## Configure Teams production type events through Teams and Yammer for your eCDN solution
 
-If you plan to create Teams events through Teams or Yammer, you'll need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
+If you plan to create Teams events through Teams or Yammer, you need to [configure your eCDN provider to be integrated with Microsoft Teams](teams-live-events/what-are-teams-live-events.md#enterprise-content-delivery-network-ecdn) as well.
 
 ### Get to video analytics reports for your eCDN solution
 
-As noted above, some eCDN solutions also provide analytics reports that give deeper information about playback sessions, viewers, and quality of service. If your provider gave you an analytics report URL template to configure when you set up the provider in the Teams admin center, then owners of videos or events can easily get to the analytics report for a specific video or event.
+As noted earlier in this article, some eCDN solutions also provide analytics reports that give deeper information about playback sessions, viewers, and quality of service. If your provider gave you an analytics report URL template to configure when you set up the provider in the Teams admin center, then owners of videos or events can easily get to the analytics report for a specific video or event.
 
-Owners of videos will see an Analytics tab directly under the video. On this tab, there will be a link for owners to access the analytics report for this specific video in the eCDN provider's system.
+Owners of videos can see an Analytics tab directly under the video. On this tab, there is a link for owners to access the analytics report for this specific video in the eCDN provider's system.
 
 If you're a Teams admin, you can also elevate your access to see the Analytics tab and get to the eCDN analytics report link, even if you aren't an owner of the live event or video.
 
@@ -118,7 +127,7 @@ If you're a Teams admin, you can also elevate your access to see the Analytics t
 
 ## Troubleshooting issues
 
-Make sure that your eCDN solution is set up correctly in your network and that you've properly configured Teams to enable the provider per their instructions and specific configuration strings. If you're still having issues, some of the information below might help.
+Make sure that your eCDN solution is set up correctly in your network and that you've properly configured Teams to enable the provider per their instructions and specific configuration strings. If you're still having issues, some of the information in the next section might help.
 
 ### Verify setup tool
 
@@ -135,7 +144,7 @@ To determine if an issue you're seeing is with the eCDN solution or with Teams, 
 
 ### View eCDN info in browser console
 
-If your eCDN solution provider supports it, they may print debug information during initialization of playback through their solution. This extra info may be helpful in determining what is going wrong. You can enable extra console debug messages via the query string.
+If your eCDN solution provider supports it, they might print debug information during initialization of playback through their solution. This extra info could be helpful in determining what is going wrong. You can enable extra console debug messages via the query string.
 
 - If your playback URL already has a question mark, **?**, in it, then add **&isSDNDebug=true**.
 - If your playback URL doesn't have a question mark, **?**, in it then add **?isSDNDebug=true**.
@@ -159,7 +168,7 @@ If you purchased and set up a software defined network (SDN) solution or enterpr
 
 ### Using Windows PowerShell
 
-Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:
+Get the license ID or API token and API template from your provider contact. Next, run one of the following, depending on the provider you're using:
 
 **Microsoft eCDN**
 ```PowerShell
@@ -172,10 +181,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Kollective** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
-```
-**Riverbed** 
-```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 **Ramp** 
 ```PowerShell

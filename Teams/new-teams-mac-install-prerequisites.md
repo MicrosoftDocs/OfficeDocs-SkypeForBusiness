@@ -1,8 +1,8 @@
 ---
 title:  Install and prerequisites for the Microsoft new Teams for the Mac
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.date: 10/02/2023
 ms.service: msteams
@@ -44,7 +44,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Minimum Mac and Teams versions 
 
-- You must be running macOS Big Sur (11) or higher, including macOS Monterey (12) and macOS Ventura (13). 
+- You must be running on macOS Monterey (12) or higher. 
 
 - To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
 

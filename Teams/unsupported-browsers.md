@@ -2,7 +2,7 @@
 title: Microsoft Teams meetings on unsupported browsers
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

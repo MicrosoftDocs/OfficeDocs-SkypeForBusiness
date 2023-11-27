@@ -1,13 +1,13 @@
 ---
 title: Archive or delete a team in Microsoft Teams
-manager: serdars
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: jastark
-ms.date: 04/12/2019
+ms.reviewer: divyasrirk
+ms.date: 10/30/2023
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
@@ -54,7 +54,8 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Restore**. The team's status will change to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+3. Select **Restore**. It might take some time for the team's status to change back to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+
 
 ## Delete a team
 
@@ -70,6 +71,8 @@ If the team will not be required in the future, then you can delete it rather th
 Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team. Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.
 
 By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
+
+For more information on restoring a deleted team from Teams Admin Center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
 
 ### Install the AzureADPreview module
 
@@ -92,7 +95,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 
 ### Restore the deleted Microsoft 365 group
 
-1. Connect to Azure AD by running the following:
+1. Connect to Microsoft Entra ID by running the following:
 
     ```PowerShell
     Connect-AzureAD
@@ -120,6 +123,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     ```
 
     It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
+
 
 ## Related topics
 

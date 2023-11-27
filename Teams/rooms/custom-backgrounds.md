@@ -2,10 +2,10 @@
 title: Set up and manage Teams Rooms on Windows custom backgrounds
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: sohailta
-ms.date: 05/30/2023
+ms.reviewer: henrikalim
+ms.date: 11/02/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -153,9 +153,6 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 - **Upper left corner** - Time and room information.
   - **Size**: 260 x 104
   - **Upper-left corner coordinates**: 48, 48
-- **Bottom left corner** - Cortana.
-  - **Size**: 400 x 48
-  - **Upper-left corner coordinates**: 56, 616
 - **Middle** - Action buttons.
   - **Size**: 408 x 336
   - **Upper-left corner coordinates**: 156, 221

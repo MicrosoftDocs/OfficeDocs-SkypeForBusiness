@@ -1,8 +1,8 @@
 ---
 title: Export content with the Microsoft Teams Export APIs
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 audience: admin
 ms.service: msteams
@@ -48,6 +48,10 @@ Here are some examples on how you can use these export APIs:
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
+
+## What is not supported by the Teams Export APIs?
+
+- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API does not support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
 
 ## How to access Teams Export APIs
 
@@ -114,6 +118,7 @@ Restricted to applications performing security and/or compliance functions, user
 |Partner Name|Partner Solution|
 |---|---|
 |![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
+|:::image type="content" source="media/export-API-teams/proofpoint-logo-blacktype-final-5b.png" border="false" alt-text="Screenshot of logo of Proofpoint.":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
 
 ### General usage/Model B scenarios
 
