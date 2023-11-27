@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams adoption quick start checklist
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 11/09/2018
 audience: Admin
 ms.topic: article

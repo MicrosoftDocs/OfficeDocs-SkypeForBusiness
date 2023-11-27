@@ -1,8 +1,8 @@
 ---
 title: Assign policies in Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: tomkau, ritikag, jastark
 ms.date: 03/10/2021
 ms.topic: article

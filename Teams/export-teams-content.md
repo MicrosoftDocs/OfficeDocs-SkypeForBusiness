@@ -1,8 +1,8 @@
 ---
 title: Export content with the Microsoft Teams Export APIs
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 audience: admin
 ms.service: msteams

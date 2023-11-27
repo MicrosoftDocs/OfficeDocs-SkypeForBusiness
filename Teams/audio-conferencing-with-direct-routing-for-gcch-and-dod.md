@@ -1,8 +1,8 @@
 ---
 title: "Audio Conferencing with Direct Routing, GCCH and DoD"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 07/12/2019
 ms.topic: article

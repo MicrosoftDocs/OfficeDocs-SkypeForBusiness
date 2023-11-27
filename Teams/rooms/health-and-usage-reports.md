@@ -1,8 +1,8 @@
 ---
 title: Health and usage reports
 author: altsou
-ms.author: tonysmit
-manager: serdars
+ms.author: altsou
+manager: pamgreen
 ms.date: 04/07/2022
 ms.reviewer: altsou
 ms.topic: article

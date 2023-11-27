@@ -5,7 +5,7 @@ ms.date: 10/11/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
 ms.custom: intro-overview

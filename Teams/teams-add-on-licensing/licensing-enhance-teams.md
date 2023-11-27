@@ -64,6 +64,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Use standard and custom meeting backgrounds at the user level| ✔️ |  |
 | Read live captions during meetings and live events | ✔️ |  |
 | Set up a green room for meeting presenters and organizers| ✔️ |  |
+| View attendance reports | ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization |  | ✔️ |
@@ -71,6 +72,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
+| Hide attendee names |  | ✔️ |
+| View engagement reports |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
 
@@ -92,6 +95,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Create a webinar wait list |  | ✔️ |
 | Webinar organizers can view engagement reports |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
+| View engagement reports |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
 
@@ -120,6 +124,18 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View live translated captions in 10 languages |  | ✔️ |
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+
+### Analytics
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| Admin can view insights on inactive external domains |  | ✔️ |
+| Admin can view insights on inactive teams |  | ✔️ |
+| Admin can view insights on external collaboration by user |  | ✔️ |
+| Admin can view insights on external collaboration by team |  | ✔️ |
+| Admin can view insights on external collaboration by guest |  | ✔️ |
+
+*Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of ACT Advanced Collaboration Analytics.*
 
 ### Meetings protection
 

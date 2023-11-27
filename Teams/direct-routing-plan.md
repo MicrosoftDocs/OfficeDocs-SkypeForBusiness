@@ -2,7 +2,7 @@
 title: "Plan Direct Routing"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
 ms.date: 07/31/2023
