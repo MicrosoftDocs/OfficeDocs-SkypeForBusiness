@@ -2,7 +2,7 @@
 title: Plan SIP Gateway
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 08/22/2023
 ms.topic: article
 ms.service: msteams
@@ -243,6 +243,11 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
+|**Alcatel**|       |     |              |                |   |
+|          |M3          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M8          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 

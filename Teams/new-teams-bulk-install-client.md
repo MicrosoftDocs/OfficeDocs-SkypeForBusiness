@@ -1,10 +1,10 @@
 ---
 title:  Bulk deploy the new Microsoft Teams desktop client
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
-ms.date: 10/30/2023
+ms.date: 11/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -59,7 +59,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
-|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)|
 
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
@@ -85,7 +85,7 @@ To install new Teams on a single computer with many users, follow these steps:
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
 1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
-2. [Download the MSIX.](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)
+2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, do the following:
 </br>
@@ -134,7 +134,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 6. Once the policy is defined, you can assign it to a specific user under **Users> Manage users**.
 
 >[!Note]
->If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
+>If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 ## End user experience:  Launching the new Teams 
 

@@ -2,7 +2,7 @@
 title: Guest access in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rafarhi

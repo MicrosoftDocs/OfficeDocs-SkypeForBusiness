@@ -2,7 +2,7 @@
 title: Teams dial pad configuration
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: bjwhalen
 ms.date: 06/24/2020
 ms.topic: article

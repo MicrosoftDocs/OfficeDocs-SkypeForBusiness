@@ -2,7 +2,7 @@
 title: Network settings for cloud voice features
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.date: 11/12/2019
