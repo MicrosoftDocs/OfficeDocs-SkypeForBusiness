@@ -33,6 +33,22 @@ App centric management introduces new admin settings to control who in the tenan
 
 You control it and can set the default settings to access the new apps that are published to the Teams app store. You can manage access to apps for users, groups, or everyone in the organization.
 
+## What changes with this feature
+
+When you used permission policies, the following three settings determined if a user can add and use an app:
+
+* Permission policy: Applied to a user to define apps that are allowed or blocked for a specific user.
+* App status: Allow or block settings for a specific app.
+* Org-wide setting for third-party apps: Applied for the entire organization.
+
+App centric management feature simplifies these settings by having each app define who can use the app, so that you can handle each app differently based on your user's needs and organization's compliance and risk posture. When using this functionality, you define app assignments by choosing one of the following options for each app:
+
+* **Everyone in the organization**: Anyone in your org can add and use the app.
+* **Specific users or groups**: Only the selected users and groups can use the app. The supported group types are Security, Microsoft 365, Dynamic, and Distributed Lists (DLs).
+* **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
+
+The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you simply modify the app assignments of an app to allow a user. You can deny everyone access or you can explicitly specify the list of users or groups who get access to an app.
+
 ## Manage app availability
 
 As an admin, you can manage app availability, deciding which users can add Teams apps in your organization from the Teams app store. You have complete control over who can or can't add and use apps in your organization.
@@ -94,12 +110,12 @@ Each app displays the assignment type, which indicates how the user was assigned
 
 You can remove app assignment for a user. Select an app that is directly assigned to the user and select **Remove**. You can’t remove assignments for a user if the app is available to everyone or to a group.
 
-## App access controls for apps before and after migration
+## App management settings before and after migration
 
 If your tenant had only Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after the migration.
 
-| App access settings before migration | Settings after migration |
-|--------------------------------------|--------------------------|
+| App permission policy and tenant settings before migration | Org-wide app settings after migration |
+|------------------------------------------------------------|--------------------------|
 |  Global permission policy for Microsoft apps was `Allow all` or Global permission policy for Microsoft apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for Microsoft apps is set to on |
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
 |  Third party app setting in the org-wide settings was set to on; New third-party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
@@ -108,14 +124,14 @@ If your tenant had only Global permission policy and doesn't have any custom pol
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 
 > [!NOTE]
-> This change retires the third-party apps settings and the new third-party apps in the catalog settings.
+> This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
 
-| App status before migration | Permission policy definition before migration | App assignment after migration |
-|-----------------------------|-----------------------------------------------|--------------------------------|
-| Blocked                     | Blocked                                       | No one can install             |
-| Blocked                     | Allowed                                       | No one can install             |
-| Allowed                     | Blocked                                       | No one can install             |
-| Allowed                     | Allowed                                       | Everyone                       |
+| App status before migration | Global permission policy definition before migration | App assignment after migration |
+|-----------------------------|------------------------------------------------------|--------------------------------|
+| Blocked                     | Blocked                                              | No one can install             |
+| Blocked                     | Allowed                                              | No one can install             |
+| Allowed                     | Blocked                                              | No one can install             |
+| Allowed                     | Allowed                                              | Everyone                       |
 
 ## Related article
 
