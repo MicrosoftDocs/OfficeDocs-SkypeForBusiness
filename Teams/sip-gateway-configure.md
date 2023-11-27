@@ -125,7 +125,7 @@ Users who work remotely must manually configure the provisioning server URL into
 > [!NOTE]
 > - Only compatible SIP devices can be onboarded to SIP Gateway. 
 > - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. To learn how, see [Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html).
-> - For Yealink phones, use option 66.
+> - For Yealink and Alcatel-Lucent Enterprise phones, use option 66.
 > - For Cisco, Poly, and AudioCode phones, use option 160. 
 > - For Cisco devices, append **/$PSN.xml** to the provisioning server URL.
 
@@ -263,13 +263,13 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 
 ### Bulk sign in prerequisites
 
-1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center.
+1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center at least 24 hours prior to running the bulk sign in cmdlets.
 2. You must add your organization's tenant ID to the provisioning URL for the devices.
 
     > [!NOTE]
     > The examples below are for the North America region.
 
-- For AudioCodes and Yealink IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>`
+- For Alcatel-Lucent Enterprise, AudioCodes, and Yealink IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>`
 - For Cisco IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/$PSN.xml`
 - For analog devices that connect to AudioCodes ATAs use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.ini`
 
@@ -288,6 +288,9 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
 8. You must use an account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
 9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
+
+> [!NOTE]
+> As a best practice, try running bulk sign in cmdlet at least 1 hour and at most 70 hours after device provisioning.
 
 ### How to create a bulk sign in request
 
@@ -374,7 +377,7 @@ User details and policies will be fetched to SIP devices when users sign in. Any
 
 A SIP device can usually display information in many languages. Setting its UI language affects its interface, including softkeys and sign-in/sign-out system messages. Setting the UI language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
 
-How to set German for Polycom, AudioCodes, and Yealink phones:
+How to set German for Polycom, AudioCodes, Alcatel-Lucent Enterprise, and Yealink phones:
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_de`
 
 How to set Japanese for Cisco phones:
