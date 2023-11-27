@@ -2,7 +2,7 @@
 title: Check-in and room release on Microsoft Teams panels
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: eviegrimshaw
 ms.date: 4/21/2023
 ms.service: msteams

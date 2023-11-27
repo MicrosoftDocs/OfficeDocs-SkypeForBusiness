@@ -1,8 +1,8 @@
 ---
 title: Introduction to Microsoft Teams for admins
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -35,7 +35,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 
 ## Teams architecture
 
-Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Azure Active Directory (Azure AD).
+Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Microsoft Entra ID.
 
 When you create a team, here's what gets created:
 - A new [Microsoft 365 group](office-365-groups.md)

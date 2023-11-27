@@ -2,9 +2,9 @@
 title: Manage Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
+ms.reviewer: kimmatlock
 ms.date: 10/04/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -108,12 +108,6 @@ If you select more than one, settings that support bulk editing show the two fol
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                | Teams Rooms on Windows |
 
 See [Manage Microsoft Teams configuration on Surface Hubs](surface-hub-manage-config.md) for more options to configure Surface Hubs.
-
-### Cortana settings
-
-You can enable Cortana for *Voice Activation* or *Push to talk* using PowerShell for all devices in your organization, or for each device separately.
-
-See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
 ### Front row layout settings
 

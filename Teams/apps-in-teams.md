@@ -1,6 +1,5 @@
 ---
 title: Know about apps in Microsoft Teams
-ms.reviewer: 
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: conceptual
 author: ashishguptaiitb
@@ -10,6 +9,7 @@ audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
 ms.date: 06/27/2023
+ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -44,6 +44,9 @@ The different types of apps that your users can use in Teams are:
 * Other [apps created by Microsoft](#apps-created-by-microsoft).
 * [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
 * [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
+
+> [!NOTE]
+> Adaptive Card tabs aren't supported in the [new Teams client](new-teams-desktop-admin.md). If your users use an app that uses Adaptive Card tabs, we recommend that you reach out to the app developer and request them to rebuild the [tab as a web-based tab](/microsoftteams/platform/tabs/what-are-tabs).
 
 ## Core apps
 

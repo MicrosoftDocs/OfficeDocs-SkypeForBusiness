@@ -1,10 +1,10 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: jenstr
-ms.date: 09/20/2023
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+ms.date: 10/16/2023
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -49,9 +49,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign a location to the resource account for emergency calling.
 
-1. Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.
-
-1. Assign and fund a Communication credits license.
+1. If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account. Communication Credits may  be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
 
 1. Create voice routing policy without PSTN usages.
 

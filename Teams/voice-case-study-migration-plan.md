@@ -2,7 +2,7 @@
 title: Teams voice Contoso case study upgrade plan
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams

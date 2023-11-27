@@ -2,9 +2,9 @@
 title: Conditional Access and compliance best practices for Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
-ms.date: 02/28/2022
-manager: serdars
+ms.reviewer: tjaved
+ms.date: 11/02/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -32,12 +32,12 @@ see [Create resource accounts for rooms and shared Teams devices](create-resourc
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
-An Azure Active Directory P1 Service Plan is required to use Conditional
+A Microsoft Entra ID P1 Service Plan is required to use Conditional
 Access. It's included in the Microsoft Teams Rooms license.
 
 ## Teams Rooms Conditional Access best practices
 
-Conditional Access policies can secure the sign-in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Azure Active Directory (Azure AD), see [What is Conditional Access in Azure Active Directory?](/azure/active-directory/conditional-access/overview).
+Conditional Access policies can secure the sign-in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Microsoft Entra ID, see [What is Conditional Access in Microsoft Entra ID?](/azure/active-directory/conditional-access/overview).
 
 When using Conditional Access to secure Teams Rooms, consider the
 following best practices:
@@ -49,7 +49,7 @@ following best practices:
 -   Have a naming standard for all Teams Rooms resource accounts. For
     example, the account names 'mtr-room1@contoso.com' and
     'mtr-room2@contoso.com' both start with the prefix 'mtr-'.
-    When account names are standardized, you can use dynamic groups in Azure AD
+    When account names are standardized, you can use dynamic groups in Microsoft Entra ID
     to automatically apply Conditional Access policies to all of these
     accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
 

@@ -2,16 +2,16 @@
 title:  Upgrade to the new Teams client using policies
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
-ms.date: 10/3/2023
+ms.date: 11/07/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: 
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -29,9 +29,10 @@ You can upgrade to the new Teams client to your organization by setting policies
 |Requirement|Version|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)|
 
 
 #### Required Microsoft 365 Apps Security Updates
@@ -107,7 +108,7 @@ Select a policy to assign to the group.
 
 :::image type="content" source="media/new-teams-update-policies-manage-users.png" alt-text="update policy per user":::
 
-   If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
+   If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 # [**PowerShell**](#tab/powershell)
 
@@ -167,7 +168,7 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 ```
 
   > [!NOTE]
-  > This **new policy assignment method** should take effect within one minute. Users don't need to restart the app.
+  > Allow up to 24 hours for the **new policy assignment method** to go into effect. Users don't need to restart the app.
 
 ---
 

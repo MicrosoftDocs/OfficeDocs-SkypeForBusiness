@@ -2,7 +2,7 @@
 title: Enroll a Teams Room device into Pro Management
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -176,10 +176,10 @@ The following components are pre-requisites for successful installation:
 
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
+- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
   
 > [!NOTE]
-> You may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+> You may consider using Dynamic groups in Microsoft Entra ID for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **Download MTR Pro agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
 
 **To install using Intune**

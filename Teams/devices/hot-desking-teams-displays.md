@@ -2,7 +2,7 @@
 title: Hot desking Teams displays
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -42,7 +42,7 @@ First, you need to purchase a  **Teams Shared Devices**  license and make sure t
 
 > [!NOTE]
 >
->If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an  **Azure Active Directory Premium Plan 1** , and  **Intune**  license to the device account for the Teams Display.
+>If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign a **Microsoft Entra ID P1** , and  **Intune**  license to the device account for the Teams Display.
 
 Teams Displays can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication (MFA). See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
 

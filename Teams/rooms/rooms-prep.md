@@ -2,9 +2,9 @@
 title: Prepare your Environment
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
+ms.reviewer: kimmatlock
 ms.date: 10/04/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -42,7 +42,7 @@ A  *resource account*  is an account that the Microsoft Teams Rooms client uses 
 
 In order to function properly, Microsoft Teams Rooms  must have access to a network that meets these requirements:
   
-- Access to your Active Directory or Azure Active Directory (Azure AD) instance, and Microsoft Exchange and Microsoft Teams.
+- Access to your Active Directory or Microsoft Entra instance, and Microsoft Exchange and Microsoft Teams.
 
 - Access to HTTP ports 80 and 443.
 
@@ -112,7 +112,7 @@ See the [Network Security](security.md#network-security) article for full detail
   
 ### Admin group management
 
-If you choose to join a domain (Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+If you choose to join a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
@@ -151,4 +151,3 @@ If you would like to rename the computer after joining it to a domain, use [Rena
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business)
-

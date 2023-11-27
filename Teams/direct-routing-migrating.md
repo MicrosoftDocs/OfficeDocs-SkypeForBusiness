@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 06/04/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -41,7 +41,7 @@ The following table shows the end-state for a user provisioned for the selected 
 |---|---|---|---|---|
 |Client|Skype for Business or Teams |Skype for Business |Skype for Business |Teams|
 |Licenses|Skype Business Online</br>Plan 2</br></br>(MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br>Teams|
-OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Azure Active Directory.|The phone number can be managed either in on-premises Active Directory or in Azure Active Directory. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
+OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID.|The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
 |LineURI|PSTN Calling phone number|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|

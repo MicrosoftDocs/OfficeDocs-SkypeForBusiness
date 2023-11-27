@@ -2,7 +2,7 @@
 title: Microsoft Teams displays
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: weizxue
 ms.date: 08/24/2020
 ms.topic: reference

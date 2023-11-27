@@ -1,10 +1,10 @@
 ---
 title: Use organization-wide teams in Microsoft Teams to help everyone collaborate
-ms.author: mikeplum
-author: MikePlumleyMSFT
-ms.reviewer: phlouie
-ms.date: 09/26/2018
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
+ms.reviewer: jasonlewis
+ms.date: 10/27/2023
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -86,9 +86,9 @@ Show important channels to ensure everyone in your organization engages in speci
 
 Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can:
 
-- Control who can start a new post in a channel
-- Add and remove moderators
-- Control whether team members can reply to existing channel messages
+- Control who can start a new post in a channel.
+- Add and remove moderators.
+- Control whether team members can reply to existing channel messages.
 - Control whether bots and connectors can submit channel messages.
 
 For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).

@@ -2,7 +2,7 @@
 title: Transfer phone numbers to Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: tonysmit
 ms.date: 10/23/2019
 ms.topic: article

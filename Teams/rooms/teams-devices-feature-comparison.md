@@ -2,14 +2,14 @@
 title: Teams Rooms on Windows and Android feature comparison
 author: tonysmit
 ms.author: tonysmit
-manager: jsarrasin
+manager: pamgreen
 ms.date: 10/04/2023
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
-ms.reviewer: 
+ms.reviewer: sohailta
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ms.collection: 
   - M365-collaboration
@@ -58,7 +58,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Companion mode                                                                                               | Available                                                                                                                                      | Available                                           |
 |                                          | Live closed captions                                                                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Participate in breakout rooms                                                                                | Not available                                                                                                                                  | Not available                                       |
-|                                          | Meeting recording and meeting transcription                                                                  | Available                                                                                                                                      | Available                                           |
+|                                          | Start meeting recording and transcription                                                                    | Not available                                                                                                                                  | Not available                                       |
 |                                          | Teams Live Event (Presenter role)                                                                            | Available                                                                                                                                      | Not available                                       |
 |                                          | Teams Live Event (Attendee role)                                                                             | Not available                                                                                                                                  | Not available                                       |
 |                                          | Overflow Meeting Join                                                                                        | Available                                                                                                                                      | Not available                                       |
@@ -109,3 +109,5 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Medium (6-12 people)                                                                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Large (12-16 people)                                                                                         | Available                                                                                                                                      | Available                                           |
 |                                          | Multi-purpose room (16+ people)                                                                              | Available                                                                                                                                      | Available                                           |
+
+
