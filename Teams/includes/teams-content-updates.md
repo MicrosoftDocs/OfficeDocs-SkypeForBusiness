@@ -2,6 +2,26 @@
 
 
 
+## Week of November 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/20/2023 | [Configure call routing for Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | modified |
+| 11/20/2023 | [Manage call routing policies for Direct Routing](/MicrosoftTeams/manage-voice-routing-policies) | modified |
+| 11/20/2023 | [Microsoft Teams call flows](/MicrosoftTeams/microsoft-teams-online-call-flows) | modified |
+| 11/20/2023 | [Network roaming policy](/MicrosoftTeams/network-roaming-policy) | modified |
+| 11/20/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 11/20/2023 | [Routing calls to unassigned numbers](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | modified |
+| 11/20/2023 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
+| 11/20/2023 | [Toll-free dialing limitations and restrictions](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | modified |
+| 11/20/2023 | [Configure call settings for users](/MicrosoftTeams/user-call-settings) | modified |
+| 11/21/2023 | [Cloud IntelliFrame](/MicrosoftTeams/devices/cloud-intelliframe) | modified |
+| 11/21/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
+| 11/22/2023 | [Manage the Shifts app for your organization](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modified |
+| 11/22/2023 | [App centric management to manage app access](/MicrosoftTeams/app-centric-management) | modified |
+
+
 ## Week of November 13, 2023
 
 
