@@ -28,14 +28,20 @@ ms.date: 11/03/2023
 
 ## Overview of Walkie Talkie
 
-The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows users to connect with their team using the same underlying channels that they're members of.
+<!--The Walkie Talkie app in Microsoft Teams provides clear, instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Users connect with their team through the same underlying Teams channels that they're already members of.
 
 Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
-With Walkie Talkie, users can securely communicate with a familiar PTT experience without needing to carry bulky radios. Walkie Talkie works anywhere that there's WiFi or cellular internet connectivity.
+With Walkie Talkie, users can securely communicate with a familiar PTT experience without needing to carry bulky radios. Walkie Talkie works anywhere there's WiFi or cellular internet connectivity.
 
 > [!NOTE]
-> Walkie Talkie currently is not available in China.
+> Walkie Talkie currently is not available in China.-->
+
+The Walkie Talkie app in Microsoft Teams provides clear, instant push-to-talk (PTT) communication for your teams. Users connect with with their team through the same underlying Teams channels that they're already members of.
+
+Users who connect to Walkie Talkie in a channel become participants and can communicate with each other using PTT. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
+
+With Walkie Talkie, users can securely communicate through a familiar PTT experience without needing to carry bulky radios. Walkie Talkie is available on Android and iOS devices and works anywhere there's Wi-Fi or cellular internet connectivity.
 
 ## License requirements
 
@@ -54,27 +60,12 @@ Walkie Talkie requires connectivity to the internet. Use the following guidance 
 
 - Download and run the [Microsoft Teams Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=103017) to test your network performance and connectivity to determine how well your network will perform with Walkie Talkie.
 
-## Pilot Walkie Talkie
-
-- Prerequisites
-    - Channels
-    - Devices
-    - Network requirements
-- Pilot
-    - Plan
-        - Supported devices
-        - Unsupported devices
-     - Get your people together
-     - Communicate
-     - Measure
-
-
 ## Deploy Walkie Talkie
 
 You can deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
->[!IMPORTANT]
->Deployment is a three-step process. You'll need to complete all three steps for your users to have access to Walkie Talkie.
+> [!IMPORTANT]
+> Deployment is a three-step process. You'll need to complete all three steps for your users to have access to Walkie Talkie.
 
 ### Step 1: Make sure Walkie Talkie is enabled in your organization
 
@@ -89,9 +80,9 @@ Control which users in your organization can use Walkie Talkie by assigning app 
 
 Make sure that Walkie Talkie is an allowed app in the app permission policy, and that you assign the policy to all users who need Walkie Talkie.
 
-### Step 3: Use an app setup policy to pin Walkie Talkie for your users
+### Step 3: Pin Walkie Talkie for your users
 
-Step 3 depends on which license your users have.
+Pin Walkie Talkie to Teams for easy access. This step depends on which license your users have.
 
 - [If your users have E licenses](#e-license-use-an-app-setup-policy-to-pin-walkie-talkie-to-teams)
 - [If your users have F licenses](#f-license-use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams)
@@ -137,9 +128,9 @@ Also, keep in mind the following:
 
 ## Walkie Talkie devices
 
-Frontline workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
+Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through specialized devices and accessories that have a dedicated PTT button. Here's a list of these devices.
 
-#### Headsets
+### Headsets
 
 - Wireless headsets (iOS and Android)
   - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
@@ -152,7 +143,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
       - 3.5mm
       - USBc
 
-#### Rugged Android phones
+### Rugged Android phones
 
 - Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), and [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - Manual setup: With Teams installed, go to **Settings** > **Buttons**. On the Dedicated button (1 or 2), select **Long press**, and then choose **PTT App**. Select the blue wheel next to **Custom**, and select **Teams**.
@@ -174,7 +165,7 @@ Frontline workers often need to speak and receive Walkie Talkie calls even when 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
 
-## Bluetooth devices
+### Bluetooth devices
 
 > [!NOTE]
 > If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
