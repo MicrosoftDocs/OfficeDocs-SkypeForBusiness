@@ -1,8 +1,8 @@
 ---
 title: User presence in Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

@@ -2,7 +2,7 @@
 title: "Manage phone numbers for Calling Plan and services"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 03/15/2023
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb

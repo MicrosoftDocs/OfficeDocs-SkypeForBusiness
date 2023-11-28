@@ -2,7 +2,7 @@
 title: Meeting provider for Islands mode
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 

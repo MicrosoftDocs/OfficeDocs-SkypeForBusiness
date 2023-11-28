@@ -1,8 +1,8 @@
 ---
 title: Prepare your organization's network for Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark

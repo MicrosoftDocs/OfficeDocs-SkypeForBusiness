@@ -2,7 +2,7 @@
 title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams

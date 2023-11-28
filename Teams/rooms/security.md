@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms security
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
 appliesto: 
   - Microsoft Teams
@@ -34,7 +34,7 @@ Microsoft works with our partners to deliver a solution that is secure and doesn
 For information about security on Teams Rooms on Android devices, select the **Teams Rooms on Android** tab.
 
 > [!NOTE]
-> Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different, we recommend treating them as appliances.
+> Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different, we recommend treating them as appliances. Installing additional software on your Teams Rooms devices is not supported by Microsoft.
 > This article applies to Microsoft Teams Rooms devices running on Windows.
 
 Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end-user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
@@ -103,7 +103,7 @@ Windows Configuration Designer can be used to create Windows provisioning packag
 
 You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. However, you can enable Modern Authentication for additional security for this account. In addition, Microsoft Entra Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md)
 
-We recommend that you create the resource account in Microsoft Entra ID, if possible. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`.
+We recommend that you create the resource account in Microsoft Entra ID, if possible as a cloud-only account. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`. If your organization does not want to use WS-Trust, please leverage cloud-only accounts.
 
 ## Network Security
 

@@ -2,7 +2,7 @@
 title: IT admin information for Microsoft Teams for RealWear client (Preview)
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
