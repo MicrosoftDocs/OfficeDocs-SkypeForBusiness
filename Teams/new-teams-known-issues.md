@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 11/09/2023
+ms.date: 11/28/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -29,6 +29,8 @@ ms.localizationpriority: high
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 - Adding a sensitivity label during team creation is currently not available in Teams for Education.
+- Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve.  Still an issue for offline contacts.
+- Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
 
 ## Coming in November
 
