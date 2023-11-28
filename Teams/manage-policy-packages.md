@@ -1,8 +1,8 @@
 ---
 title: Manage policy packages in Teams
-ms.author: mabond
-author: mkbond007
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: sekrantz, aaglick
 ms.date: 06/20/2019
 ms.topic: article

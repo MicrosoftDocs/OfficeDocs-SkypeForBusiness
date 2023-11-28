@@ -4,7 +4,7 @@ ms.reviewer: CarolynRowe
 ms.date: 09/22/2023
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams

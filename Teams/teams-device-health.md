@@ -1,8 +1,8 @@
 ---
 title: Managing the health of Teams devices
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: tonysmit
+author: tonysmit
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

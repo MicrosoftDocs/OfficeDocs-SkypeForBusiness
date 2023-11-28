@@ -2,7 +2,7 @@
 title: Music on Hold
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

@@ -2,7 +2,7 @@
 title: Hot desking Teams displays
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices

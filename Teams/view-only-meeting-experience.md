@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: christi.balaki
 ms.date: 10/15/2020
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams

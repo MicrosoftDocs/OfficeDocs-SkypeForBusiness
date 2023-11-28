@@ -1,11 +1,11 @@
 ---
 title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
-ms.date: 10/12/2023
+ms.date: 11/13/2023
 ms.topic: article
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
 ms.custom: intro-overview
@@ -43,10 +43,12 @@ The following table shows which features are available in meetings, webinars, an
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
+|[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
+|[Green room](hide-attendee-names.md)|✔️|✔️|✔️|
+|[Hide attendee names](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
 |[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✔️|
 |[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
@@ -54,6 +56,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Lobby](who-can-bypass-meeting-lobby.md)|✔️|✔️|✖️|
 |[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|Premium|Premium|✔️|
 |[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
+|[Meeting themes](meeting-themes.md)|Premium|✖️|✖️|
 |[Organizers and co-organizers can use video effects](https://products.support.services.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
 |[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✖️|✖️|
 |[Participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|

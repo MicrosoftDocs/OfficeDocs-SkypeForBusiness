@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
 ms.date: 06/13/2022
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
