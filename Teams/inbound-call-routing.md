@@ -1,5 +1,5 @@
 ---
-title: 'Routing inbound calls in Microsoft Teams'
+title: 'Route inbound calls in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
