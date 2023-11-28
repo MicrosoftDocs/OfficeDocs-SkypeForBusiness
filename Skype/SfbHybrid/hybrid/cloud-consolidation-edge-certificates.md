@@ -1,9 +1,9 @@
 ---
 ms.date: 11/09/2018
 title: "Update the edge certificate"
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 ms.topic: article
 ms.service: skype-for-business-server

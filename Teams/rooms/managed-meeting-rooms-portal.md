@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Pro Management Portal
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.reviewer: tonysmit
 ms.date: 10/27/2021
 ms.topic: article

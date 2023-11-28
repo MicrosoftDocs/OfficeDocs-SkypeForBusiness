@@ -28,6 +28,9 @@ ms.custom:
 
 # Use app permission policies to control user access to apps
 
+> [!IMPORTANT]
+> If you're using app centric management to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md).
+
 As an admin, you can use app permission policies to control the apps that are available to each user in your organization. The permissions you set to allow or block all apps or specific apps are applicable to all [types of apps in Teams](apps-in-teams.md). To understand policies, see [app permission policies](app-policies.md). You must be a Global Administrator or Teams Administrator to manage these policies.
 
 To allow an app, you must allow it in [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings), [individual app's setting](manage-apps.md#allow-or-block-apps), and app permission policy. While the first two settings just allow an app for use in your organization, the permission policies allow you to control which users can use a specific app. You control the access on a per-user and per-app basis by creating and applying the policy to specific users.
@@ -40,6 +43,8 @@ Teams admin center lets you create two types of permissions policies:
    :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Screenshot showing a new app permission policy being created.":::
 
 If your organization is already on Teams, the app settings you configured in **Tenant-wide settings** in the Microsoft 365 admin center are reflected in **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. If you're new to Teams and just getting started, by default, all apps are allowed in the org-wide global setting. It includes apps published by Microsoft, third-party software providers, and your organization.
+
+Alternately, you can use [app centric management](app-centric-management.md) to configure the access to apps on a per-app basis. It offers an easier method to configure access to apps. The app centric management functionality replaces app permissions policies by making it easier for admins to specify the users and group in their organization who can add or install Teams apps on a per-app basis. You can use only one method to define access to apps in your organization. If you choose to, you can migrate from app permission policies to app centric management using our migration UI.
 
 > [!NOTE]
 > To know about third-party app settings in Microsoft 365 Government Community Cloud High (GCCH) and Department of Defense (DoD) environment, see [Manage org-wide app settings for Microsoft 365 Government](manage-apps.md#manage-org-wide-app-settings-for-microsoft-365-government).

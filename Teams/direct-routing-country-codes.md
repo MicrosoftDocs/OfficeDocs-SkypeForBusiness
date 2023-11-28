@@ -2,7 +2,7 @@
 title: "Direct Routing country codes"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: 
 ms.date: 06/28/2019

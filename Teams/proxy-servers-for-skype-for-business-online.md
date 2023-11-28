@@ -1,8 +1,8 @@
 ---
 title: "Proxy servers for Teams or Skype for Business Online"
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jastark
 ms.date: 11/28/2017
 ms.topic: reference

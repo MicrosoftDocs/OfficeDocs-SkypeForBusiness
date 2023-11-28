@@ -2,7 +2,7 @@
 title: Manage the Updates app for your organization
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 ms.reviewer: acolonna, diyu
 ms.date: 03/30/2023
 ms.topic: how-to

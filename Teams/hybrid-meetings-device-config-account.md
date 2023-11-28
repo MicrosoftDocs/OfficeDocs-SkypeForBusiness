@@ -6,7 +6,7 @@ f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Create a resource account for use with Teams Rooms devices.

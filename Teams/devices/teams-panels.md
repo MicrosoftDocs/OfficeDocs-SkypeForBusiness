@@ -2,7 +2,7 @@
 title: Microsoft Teams panels
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: weizxue
 ms.date: 02/15/2021
 ms.topic: reference

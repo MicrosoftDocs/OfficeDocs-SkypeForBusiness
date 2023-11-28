@@ -2,7 +2,7 @@
 title: Considerations for Operator Connect
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 04/14/2023
 ms.topic: article

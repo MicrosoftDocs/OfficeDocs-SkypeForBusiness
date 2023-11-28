@@ -2,7 +2,7 @@
 title: "Teams Phone System Direct Routing: SIP protocol"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
