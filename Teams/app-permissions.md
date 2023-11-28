@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 10/27/2023
+ms.date: 12/01/2023
 ms.reviewer: Orion.OMalley
 description: Understand permissions and manage consent for Teams apps to access the required org information.
 f1.keywords:
@@ -51,7 +51,7 @@ An application can access an organization's information in the following ways de
 Teams app permissions are defined in the following two places:
 
 * **Azure Active Directory**: Graph permissions lets an app access org-wide resources. Permissions that are needed for an app to work are added in Azure AD by the app developers. As an admin, you must consent to these permissions otherwise the app can't be used in your tenant. Admins can define if users can consent to these permissions or not.
-* **Teams app manifest**: RSC permissions are defined in the app manifest file by the app developers. RSC permissions lets an app access local resources within Teams such as information in a group or a team. These allow only for Application access and not for Delegated access. Only those users who have access to the resources, can consent for these permissions. Admin consent at org-level is not required though admins control how users consent to these permissions or can block users from consenting.
+* **Teams app manifest**: RSC permissions are defined in the app manifest file by the app developers. RSC permissions let an app access local resources within Teams such as information in a group or a team. These allow only for Application access and not for Delegated access. Only those users who have access to the resources, can consent for these permissions. Admin consent at org-level is not required though admins control how users consent to these permissions or can block users from consenting.
 
 
 
@@ -103,17 +103,14 @@ Azure AD configurations control the flow of consent for an organization. Global 
 * [Let users grant consent to low risk Graph permissions](#let-users-grant-consent-to-low-risk-graph-permissions) for any app.
 * [Grant org-wide consent for a Teams app](#grant-org-wide-admin-consent-to-app-permissions).
 
-
-
-
-
 ## Let resource owners consent to RSC permissions
 
+Admins can configure whether users can let apps access their groups' or teams' data or not. Global Administrators can change the **Group owner consent for apps accessing data** settings in Entra ID, to [let users to consent to RSC permissions](/entra/identity/enterprise-apps/configure-user-consent-groups#manage-group-owner-consent-to-apps-by-directory-settings).
 
+If you don't let group owner consent for apps, then users can't consent to RSC permissions in an app, if RSC permissions are used.
 
-
-
-
+<!--- Will the app completely stop working OR will it work with limited functionality? 
+--->
 
 ### Let users grant consent to low risk Graph permissions
 
@@ -192,6 +189,10 @@ To view RSC permissions for an app, follow these steps:
 
 
 
+<!---
+Review below section using GPT/Acrolinx.
+--->
+
 
 
 
@@ -234,9 +235,9 @@ Consider the following types of user interaction, required permissions, and data
 
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-* If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store.
+* If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store and that bots don't spam their users.
 
-* A bot can retrieve and may store basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Microsoft Entra ID.
+* A bot can retrieve and may store basic identity information for the team members the app is added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Microsoft Entra ID.
 
 * Bots can retrieve and may store the list of channels in a team. This data leaves the corporate network.
 
@@ -248,9 +249,7 @@ Consider the following types of user interaction, required permissions, and data
 
 * Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI sees users' IP addresses and referrer information.)
 
-* Messaging extensions, on the other hand, do see users' IP addresses and referrer information.
-
-* App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. If necessary, users can block the bot, tenant admins can block the app, and Microsoft can remove the app that works as a bot.
+* Messaging extensions, on the other hand, can see users' IP addresses and referrer information.
 
 > [!NOTE]
 >
