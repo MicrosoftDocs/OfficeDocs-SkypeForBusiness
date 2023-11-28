@@ -1,8 +1,8 @@
 ---
 title: Chat with distribution lists (DLs)
-ms.author: mabond
-author: mkbond007
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jastark
 ms.date: 01/27/2023
 ms.topic: article

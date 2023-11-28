@@ -1,10 +1,10 @@
 ---
 title:  New Microsoft Teams for Education (EDU)
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
-ms.date: 11/03/2023
+ms.date: 11/09/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,6 +27,10 @@ As announced on October 5, 2023 ([New Microsoft Teams for Education is now avail
 Along with our latest innovations in speed, performance, flexibility, and intelligence, this update to new Teams allows us to deliver features and capabilities to our education customers more quickly. All new features and capabilities, including enhancements to existing features, will be available exclusively in the new Teams. 
 
 The new Teams update is seamless for our Education users. Updating is quick and easy and users will be able to pick up exactly where they left off after updating to new Teams.  
+
+>[!Note]
+>The new Microsoft Teams for Education is currently only available for Windows and Mac. The web version of new Teams for Education is not yet available, but coming soon.
+
  
 ## Update schedule
 

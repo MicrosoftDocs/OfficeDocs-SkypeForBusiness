@@ -1,11 +1,11 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 10/11/2023
+ms.date: 11/7/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
 ms.custom: intro-overview
@@ -74,12 +74,12 @@ As an admin, you can manage the following features attendees use for interaction
 
 A Teams Premium subscription includes the following features for webinars:
 
-- Create a webinar wait list
+- Create a webinar wait list.
 - Limit the day and time when people can register.
 - Manage attendees’ view
 - Manually approve registrants
 - Use RTMP-in
-- Send reminder emails to registrants
+- Send reminder emails to registrants.
 - Set up a green room for webinar presenters.
 
 ## Webinar control comparison
@@ -94,6 +94,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|
+|[External presenters](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the webinar without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control|Can choose if green room is used for a webinar.|
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
@@ -108,7 +109,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
-|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View the activity overview for webinars created in your organization.|No control.|
+|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
 
 ## Need help with your webinar?
 

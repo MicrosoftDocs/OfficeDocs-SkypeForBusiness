@@ -1,8 +1,8 @@
 ---
 title: IT Admins - Private channels in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jasonlewis
 ms.date: 10/11/2023
 ms.topic: article

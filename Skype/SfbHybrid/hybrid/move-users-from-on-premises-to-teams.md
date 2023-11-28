@@ -1,9 +1,9 @@
 ---
 ms.date: 07/02/2018
 title: Move users from Skype for Business Server 2019 to Teams
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:

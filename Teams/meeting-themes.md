@@ -2,7 +2,7 @@
 title: Meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.date: 10/23/2023
 ms.reviewer: nraghavan
 ms.topic: article
