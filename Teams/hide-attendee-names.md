@@ -30,7 +30,7 @@ To learn more about how your organizers can hide attendee names, see [Hide atten
 ## Allow meeting and webinar organizers to hide the names of attendees through PowerShell
 
 Through PowerShell, you can manage whether meeting and webinar organizers with a Premium license can hide the names of attendees.
-The **`-AttendeeIdentityMasking`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can hide attendee names in their meetings and webinars.
+The **`-AttendeeIdentityMasking`** parameter in the **CsTeamsMeetingPolicy** cmdlet controls whether your users can hide attendee names in their meetings and webinars.
 The following table shows the behaviors of the settings for the **`-AttendeeIdentityMasking`** parameter:
 
 |Setting value| Behavior|
@@ -42,22 +42,22 @@ The following table shows the behaviors of the settings for the **`-AttendeeIden
 To enable **`-AttendeeIdentityMasking`**, so attendee names are always hidden in meetings and webinars that organizers with this policy create, run the following script:
 
 ```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AttendeeIdentityMasking Enabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AttendeeIdentityMasking Enabled
 ```
 
 To disable **`-AttendeeIdentityMasking`** so attendee names are always shown in meetings and webinars organizers with this policy create, run the following script:
 
 ```PowerShell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AttendeeIdentityMasking Disabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AttendeeIdentityMasking Disabled
 ```
 
 To learn more about **`-AttendeeIdentityMasking`**, see the following cmdlet topics:
 
-- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
-- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
-- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
-- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamseventspolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamseventspolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamseventspolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamseventspolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamseventspolicy)
 
 ## Related articles
 
