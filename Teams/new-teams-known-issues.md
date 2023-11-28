@@ -2,7 +2,7 @@
 title:  Known issues in the new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.date: 11/09/2023
 ms.service: msteams
@@ -28,6 +28,7 @@ ms.localizationpriority: high
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
+- Adding a sensitivity label during team creation is currently not available in Teams for Education.
 
 ## Coming in November
 
@@ -35,6 +36,10 @@ ms.localizationpriority: high
 - Set presence in taskbar.
 - Show and set presence in system tray.
 - Channel meeting start notifications for users added after the original meeting invite.
+
+## Coming in January
+
+- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
 
 ## What features are changing?
 

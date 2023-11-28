@@ -1,8 +1,8 @@
 ---
 title: Plan for a successful move from Kaizala to Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 ms.service: msteams
 audience: admin

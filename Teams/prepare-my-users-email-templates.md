@@ -2,7 +2,7 @@
 title: User notification email templates for online phone system rollout
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
