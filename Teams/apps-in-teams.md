@@ -112,7 +112,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a third-party app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
 
-To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide).
+To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide&preserve-view=true).
 
 ## Understand app capabilities
 
