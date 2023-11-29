@@ -117,7 +117,7 @@ Video-based Screen Sharing requires Skype for Business Server 2015 CU3 or later,
 There are situations where screen-sharing will transition to RDP, like these:
   
 - If your account is hosted in an environment where the ASMCU doesn't meet the minimum build that supports VbSS.
-- If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000, Skype for Business Room System Devices, or Skype for Business Mobile Apps. 
+- If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000 for click-to-run installations or 16.0.4401.1000 for MSI installations, Skype for Business Room System V1 Devices, or Skype for Business Mobile Apps. 
 - If a user is sharing from the Skype for Business Web App.
 - If someone is using Skype for Business on Mac and not is homed on Skype for Business Online or Skype for Business Server 2015 with the July, 2018 cumulative update (or later).
 - If someone starts any Program/Windows Sharing.
