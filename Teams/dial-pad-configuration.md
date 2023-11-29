@@ -29,7 +29,7 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User has an enabled Teams Phone ("MCOEV") license
 - User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
 - User has Enterprise Voice enabled
-- User is homed online and not in Skype for Business on-premises
+- User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
 
 > [!NOTE]
@@ -120,9 +120,9 @@ EnterpriseVoiceEnabled
                   True
 ```
 
-## User is homed online and not in Skype for Business on-premises
+## User is homed online and not in Skype for Business on premises
 
-To ensure the user is homed online and not in Skype for Business on-premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online." To check the values, use the following command:
+To ensure the user is homed online and not in Skype for Business on premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online." To check the values, use the following command:
 
 ```PowerShell
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
