@@ -1,5 +1,5 @@
 ---
-title: Predefined meeting templates included with Microsoft Teams Premium
+title: Predefined meeting templates in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -17,10 +17,10 @@ ms.collection:
   - Tier2
 appliesto: 
   - Microsoft Teams
-description: See a list of meeting templates and their settings included with Microsoft Teams Premium.
+description: See a list of Microsoft Teams meeting templates and their settings.
 ---
 
-# Predefined meeting templates included with Microsoft Teams Premium
+# Predefined meeting templates in Microsoft Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
