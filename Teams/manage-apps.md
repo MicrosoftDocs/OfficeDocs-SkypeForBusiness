@@ -58,23 +58,6 @@ App management tasks that are supported on other portals are in the table below.
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
-## Simplify app rollout and adoption based on organization needs
-
-As an admin you can't just allow apps and authorize users to use the apps, you can also make app rollout and app adoption much smoother for the admin team and for your organization's users. To facilitate friction-free app rollout and adoption, Teams provides conceptual guidance and suggestions to app developers so that [developers can enable admins to drive adoption](/microsoftteams/platform/promote-app-adoption#understand-how-you-can-drive-app-adoption). Also, Teams admin center provides various features that help you evaluate apps, allow apps, auto-install apps, pin apps for users, and so on.
-
-We recommend a few approaches below that can cater to your organization’s need and the recommendations are based on the following guiding principles:
-
-* Respect and support IT and security requirements around app permissions, access, and availability across all options.
-* Improve app adoption so that the authorized users can use the app in Teams as soon as the app is required and continue their work efficiently.
-* Don’t interrupt or burden the users who aren’t using the app.
-
-| Org needs | Admin actions | Impact | Benefits | Supported [app types](apps-in-teams.md#types-of-teams-apps) |
-|:----------|:--------------|:-------|:---------|:------------------------------------------------------------|
-| Priority apps that are a must-see and must-use for a department or the org. | [Install and pin apps](teams-app-setup-policies.md) using setup policy applied to users. | App icon shows in [app bar](teams-app-setup-policies.md#pin-apps) for authorized users. | High visibility, faster adoption, and longer retention by users. No actions needed for end-users. | All apps |
-| Apps that are good-to-have for a department or the org | [Install apps](teams-app-setup-policies.md) via setup policy but don't pin it. | App shows at the bottom of or in the overflow of the [app bar](teams-app-setup-policies.md#pin-apps). | Reduced barrier to add app for users and doesn't change their app bar. | All apps |
-| Priority apps for a team | Include the [apps in a custom team template](create-a-team-template.md). | Apps show in the header of the team that's created using this template. | Reduced barrier to add app for users and doesn't change their app bar but applicable only for a team. | Microsoft apps |
-| Apps already in use outside Teams, for example web apps | Automatically install the apps using [Auto install approved apps feature](auto-install-approved-apps.md). | If users use the app outside of Teams, it gets added to their Teams client and shows in the app bar. Permissions or data access doesn't change from admin perspective. | Align with the user intent to use the app in Teams or outside Teams without no extra user action required. | Applicable for only [these apps](auto-install-approved-apps.md#apps-requiring-setup-before-deployment-to-users) |
-
 ## Allow or block apps
 
 As an admin, you control access to all types of apps that are used across all context by all your users. Teams provides granular controls to configure access for each app and for each user.
@@ -103,11 +86,22 @@ As an admin, you use one of the following methods to define access to apps for y
 * [App permission policies](teams-app-permission-policies.md) if you use policy-based method to define app access.
 * App assignment if you use [app centric management](app-centric-management.md) to define app access.
 
-## Stop app usage and remove app
+## Simplify app rollout and adoption based on organization needs
 
-As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
+As an admin you can't just allow apps and authorize users to use the apps, you can also make app rollout and app adoption much smoother for the admin team and for your organization's users. To facilitate friction-free app rollout and adoption, Teams provides conceptual guidance and suggestions to app developers so that [developers can enable admins to drive adoption](/microsoftteams/platform/promote-app-adoption#understand-how-you-can-drive-app-adoption). Also, Teams admin center provides various features that help you evaluate apps, allow apps, auto-install apps, pin apps for users, and so on.
 
-Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
+We recommend a few approaches below that can cater to your organization’s need and the recommendations are based on the following guiding principles:
+
+* Respect and support IT and security requirements around app permissions, access, and availability across all options.
+* Improve app adoption so that the authorized users can use the app in Teams as soon as the app is required and continue their work efficiently.
+* Don’t interrupt or burden the users who aren’t using the app.
+
+| Org needs | Admin actions | Impact | Benefits | Supported [app types](apps-in-teams.md#types-of-teams-apps) |
+|:----------|:--------------|:-------|:---------|:------------------------------------------------------------|
+| Priority apps that are a must-see and must-use for a department or the org. | [Install and pin apps](teams-app-setup-policies.md) using setup policy applied to users. | App icon shows in [app bar](teams-app-setup-policies.md#pin-apps) for authorized users. | High visibility, faster adoption, and longer retention by users. No actions needed for end-users. | All apps |
+| Apps that are good-to-have for a department or the org | [Install apps](teams-app-setup-policies.md) via setup policy but don't pin it. | App shows at the bottom of or in the overflow of the [app bar](teams-app-setup-policies.md#pin-apps). | Reduced barrier to add app for users and doesn't change their app bar. | All apps |
+| Priority apps for a team | Include the [apps in a custom team template](create-a-team-template.md). | Apps show in the header of the team that's created using this template. | Reduced barrier to add app for users and doesn't change their app bar but applicable only for a team. | Microsoft apps |
+| Apps already in use outside Teams, for example web apps | Automatically install the apps using [Auto install approved apps feature](auto-install-approved-apps.md). | If users use the app outside of Teams, it gets added to their Teams client and shows in the app bar. Permissions or data access doesn't change from admin perspective. | Align with the user intent to use the app in Teams or outside Teams without no extra user action required. | Applicable for only [these apps](auto-install-approved-apps.md#apps-requiring-setup-before-deployment-to-users) |
 
 ## Manage org-wide app settings
 
@@ -138,6 +132,12 @@ Admin center settings may allow your users to collaborate with users from other 
 ## Auto install approved apps based on admin approval
 
 Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users have used although outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
+
+## Stop app usage and remove app
+
+As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
+
+Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
@@ -199,3 +199,5 @@ You may have queries about admin settings or configuration, user flows and app f
 ## Related article
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md).
+* [Auto install approved apps in Teams](auto-install-approved-apps.md)
+* [Install and pin apps via setup policies](teams-app-setup-policies.md)
