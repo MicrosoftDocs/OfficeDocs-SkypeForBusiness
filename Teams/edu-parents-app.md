@@ -62,9 +62,17 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 >
 > For more information on Teams calling licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
+## Turn on the Parents app in the Teams admin center
+
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
+
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
+
+The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
+
 ## Requirements
 
-You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information.
+You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information. If your school doesn't use SDS, you can allow teachers to manually update students’ parent contact information.  
 
 ### Graph API
 
@@ -94,6 +102,30 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - To view a sample set of the CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
+
+### Manually Update Parent Contact Information 
+
+Schools can allow teachers to manually update the parent contact information corresponding to each child.  
+
+1. The teacher opens the parent app for the class inside class team. 
+
+1. They can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e). 
+
+1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
+
+1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, you can visit the azure portal. In azure portal, under Privileged Identity Management | Microsoft Entra roles, both Global and Teams Administrative roles can be found with admin details. 
+
+1. Once the admin approves the request, teacher can start communicating with parents using the newly updated contact details.
+
+Both SDS and manually updated parent information are stored in substrate eventually. However, before the parent data update approval request is approved, in the interim, the data will be stored in the Approval’s store (dataverse). 
+
+If your school uses both SDS and manual ingestion, you may want to note the following points: 
+
+1. Manually updated information for parent contact details doesn't update the SDS contact information. It also doesn't update or tamper with the information stored in the SIS your school is using. 
+
+1. If there's a change in the parent contact details in SDS and is manually updated as well, the latest change will be honoured and stored in the final data storage of substrate. 
+
+1. If a class teacher or class student is deleted, the parent contact information is not deleted automatically. To delete the contact information for parent, see Data deletion inside dataverse.docx (sharepoint.com). Note that if the teacher leaves the school, her pending requests will still persist and can be approved or rejected by the admins. 
 
 ### Teams admin center policies
 
@@ -184,13 +216,7 @@ Once the user-level external access policies are set correctly for the users in 
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
-
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
-
-The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
 ## Set a preferred invitation channel
 
@@ -242,3 +268,7 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 
 - [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 - [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+
+## Feedback
+
+Share your feedback at [aka.ms/parentFeedback](https://aka.ms/parentFeedback)  
