@@ -78,7 +78,7 @@ For more information on restoring a deleted team from Teams Admin Center, see [M
 ### Install the Microsoft Graph PowerShell module
 
 1. Open Windows PowerShell as an admin.
-2. If you have an earlier version of the Microsoft Graph PowerShell module installed, update it by running one of the following:
+2. If you have an earlier version of the Microsoft Graph PowerShell module installed, update it by running the following:
 
     ```PowerShell
     Update-Module Microsoft.Graph
