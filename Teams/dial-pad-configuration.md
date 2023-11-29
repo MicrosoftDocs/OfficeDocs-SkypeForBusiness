@@ -29,11 +29,11 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User has an enabled Teams Phone ("MCOEV") license
 - User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
 - User has Enterprise Voice enabled
-- User is homed online and not in Skype for Business on premises
+- User is homed online and not in Skype for Business on-premises
 - User has Teams Calling Policy enabled
 
 > [!NOTE]
-> If Shared Calling is available in your tenant and you have users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
+> If Shared Calling is available in your tenant and you've users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
 
 The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
 
@@ -120,9 +120,9 @@ EnterpriseVoiceEnabled
                   True
 ```
 
-## User is homed online and not in Skype for Business on premises
+## User is homed online and not in Skype for Business on-premises
 
-To ensure the user is homed online and not in Skype for Business on premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online." To check the values, use the following command:
+To ensure the user is homed online and not in Skype for Business on-premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online." To check the values, use the following command:
 
 ```PowerShell
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
@@ -165,9 +165,9 @@ MusicOnHoldEnabledType     : Enabled
 
 ## Additional notes
 
-- You may need to restart the Teams client after making any of these configuration changes.
+- You might need to restart the Teams client after making any of these configuration changes.
 
-- If you recently updated any of the above criteria, you may need to wait a few hours for the client to receive the new settings.
+- If you recently updated any of the above criteria, you might need to wait a few hours for the client to receive the new settings.
 
 - If you still don't see the dial pad, check if there's a provisioning error by using the following command:
 
