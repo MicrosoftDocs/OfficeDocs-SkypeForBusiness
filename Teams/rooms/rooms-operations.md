@@ -255,33 +255,30 @@ The console is now back in its normal operation mode. The following procedure re
 ### Changing the Teams Room console language or date & time format
 
 1. Switch to Admin mode.
-1. Select the **Start** menu.
-1. Select the gear icon to launch the **Settings** app.
-1. Select **Time &amp; language** tab.
-1. Select **Language &amp; region**. 
-1. Under Regional format, select **Recommended**.
-1. Under Preferred languages, select **Add a language**.   
-1. Select the language you want to add.    
-1. Select **Next**.
-
-1. Under Language preferences, check **Set as my Windows display language**.      
-1. Select **Install**.    
-1. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language.   
-1. Optionally, if you want to remove any languages:
+2. Select the **Start** menu.
+3. Select the gear icon to launch the **Settings** app.
+4. Select **Time &amp; language** tab.
+5. Select **Language &amp; region**.
+6. Under Regional format, select **Recommended**.
+7. Under Preferred languages, select **Add a language**.
+8. Select the language you want to add.
+9. Select **Next**.
+10. Under Language preferences, check **Set as my Windows display language**.
+11. Select **Install**.
+12. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language.
+13. Optionally, if you want to remove any languages:
    1. Select the three-dot menu next to the language you wish to remove.
    1. Select **Remove**.
-   1. Sign out.
-   1. Sign back in to your admin account.
-
-   1. Start an elevated command prompt.
-   1. Run the following command: 
-       
+14. Sign out.
+15. Sign back in to your admin account.
+16. Start an elevated command prompt.
+17. Run the following command:
 ```PowerShell
-       powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1```
+       powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+```
+18. Restart the system.
 
-   1. Restart the system.
-   
-   Your desired language is now applied to the Microsoft Teams Rooms app.
+Your desired language is now applied to the Microsoft Teams Rooms app.
 
    ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
