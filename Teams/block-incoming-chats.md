@@ -4,7 +4,7 @@ author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
 ms.reviewer: 
-ms.date: 11/15/2023
+ms.date: 11/29/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,9 +26,9 @@ description: Learn how to allow users to block chats from people inside your org
 
 You can allow users to block new incoming chats from people in your organization. When someone initiates a chat, users who have this policy assigned to them have the option to block that person. That person then can't communicate with the user or see their status. Users can unblock people from their chat history.
 
-This feature only affects chats from other people inside your organization. (All users can [block chats from people outside your organization](https://support.microsoft.com/office/5b590992-c938-4ed9-933b-37ee1fb84d32).) This feature doesn't affect channel or meeting chats.
+This feature only affects 1:1 chats from other people inside your organization. (All users can [block chats from people outside your organization](https://support.microsoft.com/office/5b590992-c938-4ed9-933b-37ee1fb84d32).) This feature doesn't affect channel or meeting chats.
 
-Users must be using the [new Teams desktop client](new-teams-desktop-admin.md) to use this feature.
+Users must be using the [new Teams desktop client](new-teams-desktop-admin.md) or the web client to use this feature.
 
 This feature requires Teams Premium.
 
