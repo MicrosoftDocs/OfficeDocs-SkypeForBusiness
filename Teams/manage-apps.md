@@ -39,7 +39,7 @@ The options to accomplish most of app management use cases are available in Team
 App management tasks that are supported in admin center are in the table below.
 
 | App management use cases | Link to the interface | Documentation |
-|:----|:----|:----|
+|:-------------------------|:----------------------|:--------------|
 | Control which apps are available to users in your organization by allowing and blocking apps. You can also upload and approve custom apps. After managing apps on this page, you can use app permission and app setup policies to configure what apps are available for specific users in your organization's app store. | [Manage apps in Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps) | Current article |
 | App permission policies control what apps you want to make available to Teams users in your organization. You can use the Global (Org-wide) default policy and customize it, or you can create one or more policies to meet the needs of your organization. | [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) | [Manage app permission policies](teams-app-permission-policies.md) |
 | App setup policies control how apps are made available to a user with the Teams app. Use the Global (Org-wide default) policy and customize it or create custom policies and assign them to a set of users. | [Setup policies](https://admin.teams.microsoft.com/policies/app-setup) | [Manage app setup policies](teams-app-setup-policies.md) |
@@ -53,10 +53,27 @@ App management tasks that are supported in admin center are in the table below.
 App management tasks that are supported on other portals are in the table below.
 
 | App management use cases | Link to the interface | Documentation |
-|:----|:----|:----|
+|:-------------------------|:----------------------|:--------------|
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
 | Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
+
+## Simplify app rollout and adoption based on organization needs
+
+As an admin you can't just allow apps and authorize users to use the apps, you can also make app rollout and app adoption much smoother for the admin team and for your organization's users. To facilitate friction-free app rollout and adoption, Teams provides conceptual guidance and suggestions to app developers so that [developers can enable admins to drive adoption](/microsoftteams/platform/promote-app-adoption#understand-how-you-can-drive-app-adoption). Also, Teams admin center provides various features that help you evaluate apps, allow apps, auto-install apps, pin apps for users, and so on.
+
+We recommend a few approaches below that can cater to your organization’s need and the recommendations are based on the following guiding principles:
+
+* Respect and support IT and security requirements around app permissions, access, and availability across all options.
+* Improve app adoption so that the authorized users can use the app in Teams as soon as the app is required and continue their work efficiently.
+* Don’t interrupt or burden the users who aren’t using the app.
+
+| Org needs | Admin actions | Impact | Benefits | Supported [app types](apps-in-teams.md#types-of-teams-apps) |
+|:----------|:--------------|:-------|:---------|:------------------------------------------------------------|
+| Priority apps that are a must-see and must-use for a department or the org. | [Install and pin apps](teams-app-setup-policies.md) using setup policy applied to users. | App icon shows in [app bar](teams-app-setup-policies.md#pin-apps) for authorized users. | High visibility, faster adoption, and longer retention by users. No actions needed for end-users. | All apps |
+| Apps that are good-to-have for a department or the org | [Install apps](teams-app-setup-policies.md) via setup policy but don't pin it. | App shows at the bottom of or in the overflow of the [app bar](teams-app-setup-policies.md#pin-apps). | Reduced barrier to add app for users and doesn't change their app bar. | All apps |
+| Priority apps for a team | Include the [apps in a custom team template](create-a-team-template.md). | Apps show in the header of the team that's created using this template. | Reduced barrier to add app for users and doesn't change their app bar but applicable only for a team. | Microsoft apps |
+| Apps already in use outside Teams, for example web apps | Automatically install the apps using [Auto install approved apps feature](auto-install-approved-apps.md). | If users use the app outside of Teams, it gets added to their Teams client and shows in the app bar. Permissions or data access doesn't change from admin perspective. | Align with the user intent to use the app in Teams or outside Teams without no extra user action required. | Applicable for only [these apps](auto-install-approved-apps.md#apps-requiring-setup-before-deployment-to-users) |
 
 ## Allow or block apps
 
@@ -141,7 +158,7 @@ Use org-wide app settings to control whether users can install third-party apps.
     * **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
     * **Allow any new third-party apps published to the store by default**: This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. A blocked app is not available to any user, regardless of app policies.
+1. Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. A blocked app isn't available to any user, regardless of app policies.
 
 1. Select **Save** for org-wide app settings to take effect.
 
@@ -151,7 +168,7 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 1. Sign in to the Teams admin center and access **Teams Apps** > **Permission policies**. In GCCH environment, access [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/) and in DoD environment, access [https://admin.dod.teams.microsoft.us](https://admin.dod.teams.microsoft.us/).
 
-1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. All third-party apps are added to this list by default. A blocked app is not available to any user, regardless of app policies.
+1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. All third-party apps are added to this list by default. A blocked app isn't available to any user, regardless of app policies.
 
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
 
