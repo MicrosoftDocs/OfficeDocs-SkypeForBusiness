@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 08/17/2023
+ms.date: 11/29/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -24,11 +24,11 @@ description: See a list of meeting templates and their settings included with Mi
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. You can use these templates or you can [create your own templates](create-custom-meeting-template.md).
+The following predefined [meeting templates](custom-meeting-templates-overview.md) are available in Teams. Some of them require Teams Premium. You can use these templates or you can [create your own templates](create-custom-meeting-template.md).
 
 ## Virtual appointment
 
-The Virtual appointment meeting template comes with the following settings. You can't edit the template, but meeting organizers can change these setting when they create the meeting.
+The Virtual appointment meeting template comes with the following settings. You can't edit the template, but meeting organizers can change these setting when they create the meeting. This template requires Teams Premium.
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
