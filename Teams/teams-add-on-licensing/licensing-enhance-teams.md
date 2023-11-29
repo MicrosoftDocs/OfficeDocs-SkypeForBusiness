@@ -125,7 +125,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 \* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
-### Analytics
+### Advanced Collaboration Tools
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
@@ -134,6 +134,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Admin can view insights on external collaboration by user |  | ✔️ |
 | Admin can view insights on external collaboration by team |  | ✔️ |
 | Admin can view insights on external collaboration by guest |  | ✔️ |
+| Users can block incoming chats from people in your organization |  | ✔️ |
 
 *Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of ACT Advanced Collaboration Analytics.*
 

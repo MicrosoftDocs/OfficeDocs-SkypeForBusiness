@@ -67,6 +67,8 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 
 - **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
 
+- **Priority account chat controls** - Allow users to block chats from people inside your organization.
+
 | Feature/Task  | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
@@ -77,6 +79,7 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 | Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | |
 | Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
+| Priority account chat controls | [Allow users to block Microsoft Teams chat messages](block-incoming-chats.md) |  |
 
 ## Custom meetings
 
