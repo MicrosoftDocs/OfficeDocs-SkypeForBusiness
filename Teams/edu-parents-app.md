@@ -269,6 +269,5 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 - [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 - [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Feedback
 
-Share your feedback at [aka.ms/parentFeedback](https://aka.ms/parentFeedback)  
+For feedback, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback)  
