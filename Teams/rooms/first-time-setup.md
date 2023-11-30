@@ -74,14 +74,14 @@ To set up devices by using a one-time password, perform the following steps:
 
 You can set up Teams Rooms devices manually if you don't have a one-time password.
 
-The process of setting up devices manually (without an OTP) is the same as the Out Of Box Experience (OOBE), that is, the same as specified in [Set up devices through OTP](#set-up-devices-through-otp), with the difference being that you won't see:
+The process of setting up devices manually (without an OTP) is the same as the Out Of Box Experience (OOBE), that is, the same as specified in [Set up devices through one-time password](#set-up-devices-through-one-time-password), with the difference being that you won't see:
 
 - The page containing a notification message about device verification, which appeared when setting up the device through a one-time password.
 - The **End user agreement** page.
 
 To set up the Microsoft Teams Rooms devices manually, perform the following steps:
 
-1. Repeat Steps 1-4 in [Set up devices through OTP](#set-up-devices-through-otp).
+1. Repeat Steps 1-4 in [Set up devices through one-time password](#set-up-devices-through-one-time-password).
 1. Select **Manual setup** from the one-time password screen.
 
    :::image type="content" source="../media/manual-setup-option.png" alt-text="Screenshot that shows the OTP screen in which the Manual setup option is available to select." lightbox="../media/manual-setup-option.png":::
