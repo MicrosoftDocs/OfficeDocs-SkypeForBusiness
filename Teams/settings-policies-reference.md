@@ -139,7 +139,7 @@ Teams settings are used to control notification, tagging, email integration, and
 |:-----|:-----|:-----|
 |Role-based chat permissions|Off|When **On**, supervised chat is available for all users.|
 
-##### Related topics for safety and communication
+##### Related topics for safety and communications
 
 [Supervised chats in Microsoft Teams](supervise-chats-edu.md)
 
@@ -163,7 +163,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 Teams policies are used to control what settings or features are available to users when they're using teams and channels.
 
-:::image type="content" source="media/teams-policies-teams.png" alt-text="Screenshot of Teams team policies.":::
+:::image type="content" source="media/teams-policies-tac.png" alt-text="Screenshot of Teams team policies in the Teams admin center." lightbox="media/teams-policies-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
