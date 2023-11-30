@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 11/30/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -29,7 +29,7 @@ description: Learn how to configure Teams meetings for better security using thr
 The articles in this series provide options for using the compliance features available in Teams and Microsoft 365 to create a meeting environment that meets your compliance requirements. We'll look at the options available with sensitivity labels and templates and how you can use them together with other Teams admin settings.
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
+> Meeting sensitivity labels and custom meeting templates require Teams Premium.
 
 This article defines four different configurations, starting with a baseline configuration for meetings that don't have specific compliance requirements. Each additional configuration represents a meaningful step up in protection as meeting options become more restricted. The configurations in this article provide examples of how to configure protection for meetings with different levels of sensitivity. Use these examples to understand what's possible and modify the specific settings as needed for your organization.
 
@@ -59,9 +59,9 @@ The following table summarizes the configurations for each tier. Use these confi
 |People dialing in can bypass the lobby|**Off**|**Off**|**Off**|**Off**|
 |Prevent copying chat content to clipboard|**Off**|**Off**|**On**|**On**|
 |Record meetings automatically|**Off**|**Off**|**Off**|**Off**|
-|Who can bypass the lobby?|**People in my organization, people in trusted domains, and guests**|**People who were invited**|**Only me and co-organizers**|**Only me and co-organizers**|
-|Who can present|**People in my organization and guests**|**People in my organization and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
-|Who can record|**Organizers and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
+|Who can bypass the lobby?|**People in my org, trusted orgs, and guests**|**People who were invited**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
+|Who can present|**People in my org and guests**|**People in my org and guests**|**Only organizers and co-organizers**|**Only organizers and co-organizers**|
+|Who can record|**Organizers, co-organizers, and presenters**|**Organizers and co-organizers**|Disabled due to watermarking|Disabled due to watermarking|
 
 Details on how to configure each tier are covered in:
 
@@ -71,12 +71,12 @@ Details on how to configure each tier are covered in:
 
 ## Managing compliance with sensitivity labels and meeting templates
 
-Both meeting templates and sensitivity labels have the ability to enforce certain meeting settings. Most settings can be enforced as either on or off or can be left unconfigured so the meeting organizer can set them.
+Both meeting templates and sensitivity labels have the ability to enforce certain meeting options. Most options can be enforced as either on or off or can be left unconfigured so the meeting organizer can set them.
 
 > [!Important]
 > Some features are [controlled by admin policies](meeting-templates-sensitivity-labels-policies.md#policies-labels-templates-and-meetings-settings) and must be enabled there before they can be controlled by meeting templates and sensitivity labels.
 
-Some settings are only available in sensitivity labels and some are only available in templates. Several are available in both:
+Some settings are only available in sensitivity labels and some are only available in templates. The following are available in both:
 
 - Chat
 - End-to-end encryption
@@ -93,8 +93,8 @@ Meeting chat can be an important part of collaboration during a meeting. However
 As an admin, you can control meeting chat in the following ways:
 
 - **Teams admin meeting policy** (per user or group) can be used to allow chat, allow chat for everyone except anonymous participants, or turn chat off.
-- **Sensitivity label setting** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This setting can be left unconfigured to be controlled by a template or the meeting organizer.
-- **Meeting template setting** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This setting can be left unconfigured to be controlled by the meeting organizer.
+- **Sensitivity label meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This option can be left unconfigured to be controlled by a template or the meeting organizer.
+- **Meeting template meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This option can be left unconfigured to be controlled by the meeting organizer.
 
 For the three tiers of protection, we allow chat for baseline and sensitive meetings and restrict it in highly sensitive meetings to in-meeting only.
 
@@ -106,8 +106,8 @@ As an admin, you can control meeting recordings in the following ways:
 
 - The **Meeting recording** admin meeting policy (per user or group)
 - The **Recordings automatically expire** (recording deletion) admin meeting policy (per user or group)
-- The **Who can record** setting in sensitivity labels and meeting templates (per meeting)
-- The **Record automatically** setting in sensitivity labels and meeting templates (per meeting)
+- The **Who can record** option in sensitivity labels and meeting templates (per meeting)
+- The **Record automatically** option in sensitivity labels and meeting templates (per meeting)
 
 If your organization or certain people or groups within it should never be able to record meetings, you can turn off the feature by using the **Meeting recording** admin meeting policy.
 
@@ -123,17 +123,17 @@ For information about policy-based recording of meetings for compliance, see [In
 
 There are three kinds of external participants who can join meetings:
 
-- Participants from trusted domains
+- Participants from trusted organizations
 - Guests
 - Anonymous participants
 
-Participants from trusted domains join meetings via the [external access](manage-external-access.md) feature. You can control what domains, if any, your organization wants to trust. (This setting also affects 1:1 and group chat with people in those domains.)
+Participants from trusted organizations join meetings via the [external access](manage-external-access.md) feature. You can control what domains, if any, your organization wants to trust. (This setting also affects 1:1 and group chat with people in those domains.)
 
 If [Teams guest access](guest-access.md) is enabled for your organization, then guests will be able to join meetings. Guest access settings can also be used to control guests' screen sharing mode, including disabling screen sharing. (Guest access is also used for inviting guests to teams.)
 
-If the **Anonymous users can join a meeting** Teams admin setting is turned on, anonymous participants will be able to join meetings.
+If the [**Anonymous users can join a meeting** Teams admin setting](anonymous-users-in-meetings.md) is turned on, anonymous participants will be able to join meetings.
 
-While you can turn anonymous join off completely without affecting features other than meetings, both guest access and trusted domains are used in scenarios outside of meetings. If you want to restrict meeting access to these participants but need to leave the features turned on for other reasons, you must use the lobby.
+While you can turn anonymous join off completely without affecting features other than meetings, both guest access and trusted organizations are used in scenarios other than meetings. If you want to restrict meeting access for these participants but need to leave the features turned on for other reasons, you must use the lobby to prevent these participants from joining a meeting.
 
 ## Lobby options
 
@@ -145,14 +145,14 @@ As an admin, you can control the lobby in the following ways:
 
 - The **Who can bypass the lobby?** admin meeting policy (per user or group)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group)
-- The **Who can bypass the lobby?** setting in sensitivity labels and meeting templates (per meeting)
+- The **Who can bypass the lobby?** option in sensitivity labels and meeting templates (per meeting)
 - The **People dialing in can bypass the lobby** admin meeting policy (per user or group) or in sensitivity labels and meeting templates (per meeting)
 
-These settings are also available to the meeting organizer unless they've been locked by a sensitivity label or template.
-
-While the admin policy sets a default, you need a template or label to enforce
+These options are also available to the meeting organizer unless they've been locked by a sensitivity label or template.
 
 If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these settings.
+
+While the admin policy sets a default, you need a template or label to enforce a lobby setting.
 
 For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md)
 
