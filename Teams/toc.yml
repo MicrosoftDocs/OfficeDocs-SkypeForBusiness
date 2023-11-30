@@ -1537,7 +1537,7 @@ items:
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
         - name: Create a one-time password
-          href: rooms/generate-otp.md
+          href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
