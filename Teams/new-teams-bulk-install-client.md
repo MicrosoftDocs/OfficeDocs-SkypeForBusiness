@@ -59,7 +59,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
-|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) is not supported.||
 
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
@@ -136,6 +136,19 @@ To deploy this installer to a group of computers, or your entire organization, f
 >[!Note]
 >If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
+
+## How to uninstall
+
+To uninstall the new Teams bootstrapper.exe, use the following command. 
+
+```powershell
+./teamsbootstrapper -x
+```
+
+>[!Important]
+>Using this command will deprovision new Teams for all users.
+
+
 ## End user experience:  Launching the new Teams 
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
@@ -148,13 +161,3 @@ After new Teams is deployed to your target computers, users will sign in as usua
 3. Once confirmed, the new Teams launches and is the default version.
 
 
-## How to uninstall
-
-To uninstall the new Teams bootstrapper.exe, use the following command. 
-
-```powershell
-./teamsbootstrapper -x
-```
-
->[!Important]
->Using this command will deprovision new Teams for all users.
