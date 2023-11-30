@@ -49,8 +49,8 @@ The following table lists the values that you can set for webinar publishing per
 |Setting value| Behavior|
 |---------|---------------|
 |None| Organizers with this policy can't publish any webinar recordings. |
-|EveryoneInCompanyIncludingGuests| Organizers with this policy can only publish recordings for private webinars. Organizers can't publish public webinar recordings.|
-|Everyone| **This is the default.** Organizers with this policy can publish all webinar recordings.|
+|EveryoneInCompanyIncludingGuests| Organizers with this policy can only publish recordings for private webinars. These organizers can't publish any recordings for public webinars.|
+|Everyone| **This is the default.** Organizers with this policy can publish any webinar recordings.|
 
 > [!NOTE]
 > Guests can't view private webinar recordings.
@@ -76,9 +76,9 @@ The following table lists the values that you can set for town hall publishing p
 |Setting value| Behavior|
 |---------|---------------|
 |None| Organizers with this policy can't publish any town hall recordings. |
-|InviteOnly| Organizers with this policy can only publish recordings for invite-only town halls.|
-|EveryoneInCompanyIncludingGuests| Organizers with this policy can only publish recordings for private and invite-only town halls. Organizers can't publish public town hall recordings.|
-|Everyone| **This is the default.** Organizers with this policy can publish all town hall recordings.|
+|InviteOnly| Organizers with this policy can only publish recordings for invite-only town halls. These organizers can't publish any recordings for public town halls.|
+|EveryoneInCompanyIncludingGuests| Organizers with this policy can only publish recordings for private and invite-only town halls. These organizers can't publish any recordings for public town halls.|
+|Everyone| **This is the default.** Organizers with this policy can publish any town hall recordings.|
 
 To only allow organizers to publish invite-only town hall recordings, use the following script:
 
