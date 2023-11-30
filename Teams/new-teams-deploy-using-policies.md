@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 11/07/2023
+ms.date: 11/28/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -28,7 +28,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 |Requirement|Version|
 |:-----|:-----|
-|Windows| Windows 10 version 10.0.19041 or higher|
+|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
