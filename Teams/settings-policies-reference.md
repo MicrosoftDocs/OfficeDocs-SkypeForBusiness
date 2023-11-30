@@ -274,9 +274,9 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 **Navigation:** Teams admin center > Teams apps > Permission policies
 
-App permission policies control what apps you want to make available to Teams users in your organization.
+App permission policies control which apps you want to make available to Teams users in your organization.
 
-:::image type="content" source="media/teams-apps-permission-policies.png" alt-text="Screenshot of Teams apps permission policies.":::
+:::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
 
 The types of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
 
@@ -300,7 +300,7 @@ The types of apps to permission are divided into three categories - Microsoft ap
 
 App setup policies control how apps are made available to a user with the Teams app.
 
-:::image type="content" source="media/teams-apps-setup-policies-small.png" alt-text="Screenshot of Teams apps setup policy." lightbox="media/teams-apps-setup-policies.png":::
+:::image type="content" source="media/app-setup-tac.png" alt-text="Screenshot of Teams app setup policies in the Teams admin center." lightbox="media/app-setup-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
