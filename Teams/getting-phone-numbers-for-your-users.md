@@ -2,7 +2,7 @@
 title: "Get phone numbers for your users"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 08/29/2023
 ms.topic: article

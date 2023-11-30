@@ -1,8 +1,8 @@
 ---
 title: PowerShell script sample - Teams deployment cleanup
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.reviewer: amitsri
 ms.date: 10/16/2020

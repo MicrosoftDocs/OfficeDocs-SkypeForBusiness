@@ -2,7 +2,7 @@
 title: Plan for Teams Auto attendants and Call queues
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/22/2023
 ms.topic: article

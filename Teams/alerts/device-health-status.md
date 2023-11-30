@@ -2,7 +2,7 @@
 title: Microsoft Teams Devices Monitoring and Alerting
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams

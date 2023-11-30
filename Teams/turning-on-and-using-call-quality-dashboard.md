@@ -2,7 +2,7 @@
 title: Call Quality Dashboard (CQD) setup
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 11/28/2017
 ms.topic: article

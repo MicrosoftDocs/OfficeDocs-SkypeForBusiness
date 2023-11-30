@@ -2,7 +2,7 @@
 title: More information about porting
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: tonysmit,jastark
 ms.date: 10/23/2019
 ms.topic: article

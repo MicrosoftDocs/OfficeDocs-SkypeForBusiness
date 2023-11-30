@@ -2,7 +2,7 @@
 title: Teams settings and policies reference
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 04/24/2023
 ms.topic: article
