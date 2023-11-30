@@ -36,7 +36,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-notifications-feeds.png" alt-text="Screenshot of Teams notifications and feeds settings.":::
+:::image type="content" source="media/notifications-tac.png" alt-text="Screenshot of Teams notifications and feeds settings in the Teams admin center." lightbox="media/notifications-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -46,11 +46,11 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-tagging.png" alt-text="Screenshot of Teams tagging settings.":::
+:::image type="content" source="media/tagging-tac.png" alt-text="Screenshot of Teams tagging settings in the Teams admin center." lightbox="media/tagging-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Who can manage tags|Team owners|Specifies who can manage tags in new teams.|
+|Who can manage tags|Microsoft Default|Specifies who can manage tags in new teams.|
 |Team owners can change who can manage tags|On|When **On**, team owners can change who can manage tags. When **Off**, team owners can't change the value set in **Who can manage tags** above.|
 |Suggested tags|(none)|Used to specify suggested tag names to team owners or members who are creating tags.|
 |Custom tags|On|When **On**, team owners and members can create custom tags. When **Off**, only suggested tags can be used.|
