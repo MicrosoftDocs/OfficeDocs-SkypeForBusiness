@@ -1,5 +1,5 @@
 ---
-title: Allow meeting and webinar organizers to hide the names of attendees (Preview)
+title: Allow meeting and webinar organizers to hide the names of attendees
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: xonatia.lee
-ms.date: 11/17/2023
+ms.date: 11/30/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -15,7 +15,7 @@ description: Learn how to allow meeting and webinar organizers to hide the names
 appliesto: 
   - Microsoft Teams
 ---
-# Allow meeting and webinar organizers to hide the names of attendees (Preview)
+# Allow meeting and webinar organizers to hide the names of attendees
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
@@ -51,14 +51,13 @@ To disable **`-AttendeeIdentityMasking`** so attendee names are always shown in 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AttendeeIdentityMasking Disabled
 ```
 
-To learn more about **`-AttendeeIdentityMasking`**, see the following cmdlet topics:
+## Related articles
 
+- [Update Teams PowerShell module](/MicrosoftTeams/teams-powershell-install#update-teams-powershell-module)
+- [Plan for webinars](plan-webinars.md)
+- [Plan for meetings](plan-meetings.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamseventspolicy)
 - [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamseventspolicy)
 - [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamseventspolicy)
 - [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamseventspolicy)
 - [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamseventspolicy)
-
-## Related articles
-
-- [Set up webinars](set-up-webinars.md)
