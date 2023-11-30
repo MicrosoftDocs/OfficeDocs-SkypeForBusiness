@@ -333,6 +333,8 @@ The defaults for all the customization options use Teams app default backgrounds
 
 ### Conference bridges
 
+**Navigation:** Teams admin center > Meetings > Conference bridges
+
 Conference bridges let people dial into meetings using a phone. You can use the default settings for a conference bridge or change the phone numbers (toll and toll-free) and other settings such as the PIN or entry/exit announcement types.
 
 :::image type="content" source="media/bridge-settings-tac.png" alt-text="Screenshot of Teams conference bridges policies in the Teams admin center." lightbox="media/bridge-settings-tac-expand.png":::
@@ -354,6 +356,8 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 - [Mask phone numbers in Microsoft Teams meetings](ptsn-mask-phone-numbers.md)
 
 ### Audio conferencing
+
+**Navigation:** Teams admin center > Meetings > Audio Conferencing
 
 Manage audio conferencing toll and toll-free numbers to be displayed in meeting invites that users in your org create.
 
