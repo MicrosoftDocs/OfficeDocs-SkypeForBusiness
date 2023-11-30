@@ -100,8 +100,8 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedTownhallTypesForRecordin
 
 ## Related articles
 
-- [Set up webinars](set-up-webinars.md)
-- [Set up town halls](set-up-town-halls.md)
+- [Plan for webinars](plan-webinars.md)
+- [Plan for town halls](plan-town-halls.md)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 - [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 - [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
