@@ -379,8 +379,6 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-meeting-scheduling.png" alt-text="Screenshot of Teams meeting scheduling policies.":::
-
 :::image type="content" source="media/meeting-scheduling-tac.png" alt-text="Screenshot of Teams meeting scheduling policies in the Teams admin center." lightbox="media/meeting-scheduling-tac-expand.png":::
 
 | Setting | Default | Description |
