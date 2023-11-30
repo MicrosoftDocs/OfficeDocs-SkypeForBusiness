@@ -333,7 +333,7 @@ The defaults for all the customization options use Teams app default backgrounds
 
 ### Conference bridges
 
-Conference bridges let people dial into meetings using a phone. You can use the default settings for a conference bridge or change the phone numbers (toll and toll-free) and other settings such as the PIN or the languages that are used.
+Conference bridges let people dial into meetings using a phone. You can use the default settings for a conference bridge or change the phone numbers (toll and toll-free) and other settings such as the PIN or entry/exit announcement types.
 
 :::image type="content" source="media/bridge-settings-tac.png" alt-text="Screenshot of Teams conference bridges policies in the Teams admin center." lightbox="media/bridge-settings-tac-expand.png":::
 
@@ -341,7 +341,7 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 |:-----|:-----|:-----|
 |Meeting entry and exit notifications|On|When **On**, users who have already joined the meeting are notified when someone enters or leaves the meeting.|
 |Entry/exit announcement type|Tones|When **On**, a tone is played when someone enters or leaves the meeting.|
-|PIN length|5|When **On**, the PIN that meeting organizers use to start meetings if they can't join using the Microsoft Teams app is five characters long.|
+|PIN length|5|When **On**, the PIN meeting organizers use to start meetings if they can't join using the Microsoft Teams app is five characters long.|
 |Automatically send emails to users if their dial-in settings change|On|When **On**, your users get an email when: <br>-You assign an Audio Conferencing license to them or when you're changing the audio conferencing provider to Microsoft. <br>-Their conference ID or default conference phone number changes. <br>-Their  audio conferencing PIN is reset. <br>-Their license is removed or when the audio conferencing provider changes from Microsoft to another provider or none.|
 |Mask phone numbers|From participants outside your organization|When **On**, only meeting attendees inside the meeting organizer's org can see the full phone number.|
 
