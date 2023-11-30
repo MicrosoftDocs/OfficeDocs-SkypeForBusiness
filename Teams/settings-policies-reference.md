@@ -339,7 +339,7 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meeting entry and exit notifications|On|When **On**, users who have already joined the meeting are notified when someone enters or leaves the meeting.|
+|Meeting entry and exit notifications|On|When **On**, users who've already joined the meeting are notified when someone enters or leaves the meeting.|
 |Entry/exit announcement type|Tones|When **On**, a tone is played when someone enters or leaves the meeting.|
 |PIN length|5|When **On**, the PIN meeting organizers use to start meetings if they can't join using the Microsoft Teams app is five characters long.|
 |Automatically send emails to users if their dial-in settings change|On|When **On**, your users get an email when: <br>-You assign an Audio Conferencing license to them or when you're changing the audio conferencing provider to Microsoft. <br>-Their conference ID or default conference phone number changes. <br>-Their  audio conferencing PIN is reset. <br>-Their license is removed or when the audio conferencing provider changes from Microsoft to another provider or none.|
