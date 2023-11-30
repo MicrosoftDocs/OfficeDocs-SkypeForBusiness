@@ -64,7 +64,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-email-integration.png" alt-text="Screenshot of Teams email integration settings.":::
+:::image type="content" source="media/email-integration-tac.png" alt-text="Screenshot of Teams email integration settings in the Teams admin center." lightbox="media/email-integration-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -75,7 +75,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-files.png" alt-text="Screenshot of Teams cloud storage service files settings.":::
+:::image type="content" source="media/files-tac.png" alt-text="Screenshot of Teams cloud storage service files settings in the Teams admin center." lightbox="media/files-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -93,7 +93,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-organization.png" alt-text="Screenshot of Teams organization settings.":::
+:::image type="content" source="media/organization-tac.png" alt-text="Screenshot of Teams organization settings in the Teams admin center." lightbox="media/organization-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -107,7 +107,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-devices.png" alt-text="Screenshot of Teams devices settings.":::
+:::image type="content" source="media/devices-tac.png" alt-text="Screenshot of Teams devices settings in the Teams admin center." lightbox="media/devices-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -119,7 +119,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/teams-settings-search-by-name.png" alt-text="Screenshot of Teams search by name settings.":::
+:::image type="content" source="media/search-by-name-tac.png" alt-text="Screenshot of Teams search by name settings in the Teams admin center." lightbox="media/search-by-name-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -131,7 +131,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 #### Safety and communications
 
-:::image type="content" source="media/teams-settings-safety-communications.png" alt-text="Screenshot of Teams safety and communications settings.":::
+:::image type="content" source="media/safety-and-communications-tac.png" alt-text="Screenshot of Teams safety and communications settings in the Teams admin center." lightbox="media/safety-and-communications-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
@@ -142,6 +142,20 @@ Teams settings are used to control notification, tagging, email integration, and
 ##### Related topics for safety and communication
 
 [Supervised chats in Microsoft Teams](supervise-chats-edu.md)
+
+#### Shared channels
+
+:::image type="content" source="media/shared-channels-tac.png" alt-text="Screenshot of Teams shared channel settings in the Teams admin center." lightbox="media/shared-channelss-tac-expand.png":::
+
+**Navigation:** Teams admin center > Teams > Teams settings
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Provide a link to my support request page|Off|When **On**, you can provide users a link to your designated support request page for external collaboration assistance.|
+
+##### Related topics for shared channels
+
+[Shared channels in Microsoft Teams](shared-channels.md)
 
 ### Teams policies
 
