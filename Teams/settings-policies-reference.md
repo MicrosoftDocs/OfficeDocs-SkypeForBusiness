@@ -213,18 +213,26 @@ Template policies control what team templates users see when they create a new t
 
 ### Teams update policies
 
-**Navigation:** Teams admin center > Teams > Template policies
+**Navigation:** Teams admin center > Teams > Update policies
 
-Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. Public preview isn't enabled by default.
+Update policies are used to manage Teams and Office preview users who can see pre-release or preview features in the Teams app. Public preview isn't enabled by default.
 
-:::image type="content" source="media/teams-update-policy.png" alt-text="Screenshot of Teams update policy.":::
+:::image type="content" source="media/update-policy-tac.png" alt-text="Screenshot of Teams update policy in the Teams admin center." lightbox="media/update-policy-tac-expand.png":::
 
-You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
+|Setting | Default | Description |
+|:-----|:-----|:-----|
+Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
+|Use new Teams client|Microsoft controlled| Allows Microsoft to: <br>- Control whether the "Try the new Teams" toggle switch is shown. <br>- Manage the installation of the new Teams client and determine default client behavior based on the rollout schedule.|
+
+You could set the preview policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
+
+To set the new Teams client policy using PowerShell, use the `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-UseNewTeamsClient` parameter.
 
 #### Related topics for Teams update policies
 
 - [Microsoft Teams Public Preview](public-preview-doc-updates.md)
 - [Public Preview Features - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+- [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md)
 
 ### Teams upgrade settings
 
