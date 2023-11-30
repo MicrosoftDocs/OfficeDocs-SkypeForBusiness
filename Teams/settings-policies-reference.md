@@ -145,7 +145,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 #### Shared channels
 
-:::image type="content" source="media/shared-channels-tac.png" alt-text="Screenshot of Teams shared channel settings in the Teams admin center." lightbox="media/shared-channelss-tac-expand.png":::
+:::image type="content" source="media/shared-channels-tac.png" alt-text="Screenshot of Teams shared channel settings in the Teams admin center." lightbox="media/shared-channels-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
