@@ -137,9 +137,10 @@ To deploy this installer to a group of computers, or your entire organization, f
 >If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 
-## How to uninstall
 
-To uninstall the new Teams bootstrapper.exe, use the following command. 
+## Remove new Teams for all users
+
+To uninstall and deprovision the new Teams for all users, use the following command: 
 
 ```powershell
 ./teamsbootstrapper -x
