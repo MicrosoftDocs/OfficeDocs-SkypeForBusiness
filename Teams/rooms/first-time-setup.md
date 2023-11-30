@@ -51,7 +51,7 @@ To set up devices by using a one-time password, perform the following steps:
 
    :::image type="content" source="../media/otp-screen.png" alt-text="Screenshot that shows the one-time password the user has to enter to sign in the device." lightbox="../media/otp-screen.png":::
 
-   For information on how to procure the one-time password from the IT administrator, see [Creating a one-time password](create-otp.md#create-a-one-time-password).
+   For information on how to procure the one-time password from the IT administrator, see [Create a one-time password](create-otp.md#create-a-one-time-password).
 
 1. Enter the one-time password provided to you by the IT administrator, and select **Continue**.
 
