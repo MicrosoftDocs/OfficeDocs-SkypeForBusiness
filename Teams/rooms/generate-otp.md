@@ -51,9 +51,9 @@ To generate a one-time password, perform the following steps:
 
    :::image type="content" source="../media/configuration-screen.png" alt-text="Screenshot that shows the Configuration page." lightbox="../media/configuration-screen.png":::
   
-1. Select the **Automatically generate passwords for all selected accounts** radio button. You'll select this option if you want to reset/delete the existing password for the resource accounts for which you are generating a one-time password.
+1. Select the **Automatically generate passwords for all selected accounts** radio button. You'll select this option if you want to reset/delete the existing password for the resource accounts for which you're generating a one-time password.
    OR
-1. Select the **Upload sign in data from CSV file** radio button. You'll select this option if you want to retain the existing password for the resource accounts for which you are generating a one-time password.
+1. Select the **Upload sign in data from CSV file** radio button. You'll select this option if you want to retain the existing password for the resource accounts for which you're generating a one-time password.
 1. Select **Next**. The **Review** page appears.
 
    :::image type="content" source="../media/review-screen.png" alt-text="Screenshot that shows the Review page." lightbox="../media/review-screen.png":::
@@ -80,7 +80,7 @@ To verify and approve a one-time password, perform the following steps:
 1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
 1. Select a resource account that has the value **Awaiting OTP Approval**.
 
-   :::image type="content" source="../media/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting otp approval as its provisioning status." lightbox="../media/resource-account-provisioning-status.png":::
+   :::image type="content" source="../media/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting one-time password approval as its provisioning status." lightbox="../media/resource-account-provisioning-status.png":::
 
    The page displaying the details of the chosen resource account appears.
 
