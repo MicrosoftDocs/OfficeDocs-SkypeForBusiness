@@ -148,3 +148,16 @@ II.  Users can directly launch new Teams:
 1. In Windows, select **Start** **> new Microsoft Teams**.
 2. Select "Yes" at the confirmation prompt screen. 
 3. Once confirmed, the new Teams launches and is the default version.
+
+
+## How to uninstall the bootstrapper
+
+To uninstall the bootstrapper.exe, use the following command:  
+
+```powershell
+
+./teamsbootstrapper -x
+
+```
+
+It will deprovision new Teams for all users.
