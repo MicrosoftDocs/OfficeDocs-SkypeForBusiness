@@ -1472,7 +1472,7 @@ items:
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
-            - name: Set up Microsoft Teams Rooms devices through one-time passwords 
+            - name: Set up using one-time passwords 
               href: rooms/first-time-setup.md
             - name: Authentication
               items:
@@ -1536,7 +1536,7 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
-        - name: Generating a one-time password (OTP)
+        - name: Create a one-time password
           href: rooms/generate-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
