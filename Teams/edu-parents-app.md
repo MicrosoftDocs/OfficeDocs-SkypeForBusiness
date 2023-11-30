@@ -105,27 +105,27 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to manually update the parent contact information corresponding to each child.  
+Schools can allow teachers to update manually the parent contact information corresponding to each child.  
 
-1. The teacher opens the parent app for the class inside class team. 
+1. The teacher opens the parent app for the class inside the class team. 
 
-1. They can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e). 
+1. The teacher can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e). 
 
 1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
 
-1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, you can visit the azure portal. In azure portal, under Privileged Identity Management | Microsoft Entra roles, both Global and Teams Administrative roles can be found with admin details. 
+1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, you can visit the Azure portal. In Azure portal, under Privileged Identity Management | Microsoft Entra roles, both Global and Teams Administrative roles can be found with admin details. 
 
-1. Once the admin approves the request, teacher can start communicating with parents using the newly updated contact details.
+1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
-Both SDS and manually updated parent information are stored in substrate eventually. However, before the parent data update approval request is approved, in the interim, the data will be stored in the Approval’s store (dataverse). 
+Both SDS and manually updated parent information are stored in the substrate eventually. However, before the parent data update approval request is approved, in the interim, the data will be stored in the Approval’s store (data verse). 
 
 If your school uses both SDS and manual ingestion, you may want to note the following points: 
 
 1. Manually updated information for parent contact details doesn't update the SDS contact information. It also doesn't update or tamper with the information stored in the SIS your school is using. 
 
-1. If there's a change in the parent contact details in SDS and is manually updated as well, the latest change will be honoured and stored in the final data storage of substrate. 
+1. If there's a change in the parent contact details in SDS and is manually updated as well, the latest change is considered and stored in the final data storage of the substrate. 
 
-1. If a class teacher or class student is deleted, the parent contact information is not deleted automatically. To delete the contact information for parent, see Data deletion inside dataverse.docx (sharepoint.com). Note that if the teacher leaves the school, her pending requests will still persist and can be approved or rejected by the admins. 
+1. If a class teacher or class student is deleted, the parent contact information is not deleted automatically. To delete the contact information for parent, see Data deletion inside dataverse.docx (sharepoint.com). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
 
 ### Teams admin center policies
 
