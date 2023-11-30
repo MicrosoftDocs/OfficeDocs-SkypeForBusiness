@@ -343,7 +343,7 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 |:-----|:-----|:-----|
 |Meeting entry and exit notifications|On|When **On**, users who've already joined the meeting are notified when someone enters or leaves the meeting.|
 |Entry/exit announcement type|Tones|When **On**, a tone is played when someone enters or leaves the meeting.|
-|PIN length|5|When **On**, the PIN meeting organizers use to start meetings if they can't join using the Microsoft Teams app is five characters long.|
+|PIN length|5|When **On**, if organizers can't join their meeting using the Teams app, the PIN they'll use to start their meeting is five numbers long.|
 |Automatically send emails to users if their dial-in settings change|On|When **On**, your users get an email when: <br>-You assign an Audio Conferencing license to them or when you're changing the audio conferencing provider to Microsoft. <br>-Their conference ID or default conference phone number changes. <br>-Their  audio conferencing PIN is reset. <br>-Their license is removed or when the audio conferencing provider changes from Microsoft to another provider or none.|
 |Mask phone numbers|From participants outside your organization|When **On**, meeting participants outside the meeting organizer's org can't see the full phone number.|
 
@@ -359,7 +359,7 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 **Navigation:** Teams admin center > Meetings > Audio Conferencing
 
-Manage audio conferencing toll and toll-free numbers to be displayed in meeting invites that users in your org create.
+Manage the audio conferencing toll and toll-free numbers to display in meeting invites that users in your org create.
 
 :::image type="content" source="media/audio-conferencing-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/audio-conferencing-tac-expand.png":::
 
@@ -380,6 +380,8 @@ Meeting policies are used to control what features are available in meetings org
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
 :::image type="content" source="media/teams-meetings-meeting-scheduling.png" alt-text="Screenshot of Teams meeting scheduling policies.":::
+
+:::image type="content" source="media/meeting-scheduling-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/meeting-scheduling-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
