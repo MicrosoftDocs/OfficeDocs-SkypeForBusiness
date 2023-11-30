@@ -1,5 +1,5 @@
 ---
-title: Generating a one-time password
+title: Create a one-time password
 ms.author: v-smandalika
 author: v-smandalika
 manager: serdars
@@ -18,18 +18,18 @@ ms.collection:
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: This article is for the IT administrator to learn about how to generate an OTP that will be shared with the system installer personnel.
+description: This article is for the IT administrator to learn about how to create a one-time password that will be shared with the system installer personnel.
 ---
 
-# Generating a one-time password
+# Create a one-time password
 
 A one-time password is used to provide authentication when someone is setting up and deploying Teams Rooms consoles that run on Windows without the need for a specific username and password used on the device. The one-time password is created in the Pro Management portal and only used for a first setup session of a Microsoft Teams Rooms. Each Teams Rooms console you're deploying in your organization will need its own one-time password.
 
 When someone is adding Teams Rooms consoles to your organization, the one-time password will be used for device authentication instead of a username and password that in the past was required to set up the console.
 
-## How to generate a one-time password
+## How to create a one-time password
 
-To generate a one-time password, perform the following steps:
+To create a one-time password, perform the following steps:
 
 1. Sign in to the Pro Management portal.
 1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
@@ -39,7 +39,7 @@ To generate a one-time password, perform the following steps:
 
    The **Account selection** page appears.
 
-1. Select the resource accounts for which you want to generate a one-time password, and then select **Next**.
+1. Select the resource accounts for which you want to create a one-time password, and then select **Next**.
 
    > [!NOTE]
    > You must select a resource account for which the value in the **Readiness status** column is **No action needed**.
@@ -66,7 +66,7 @@ To generate a one-time password, perform the following steps:
      :::image type="content" source="../media/edit-auto-generate-passwords.png" alt-text="Screenshot that shows the page on which you can edit the auto generate passwords option." lightbox="../media/edit-auto-generate-passwords.png":::
 
    > [!NOTE]
-   > On the **Review** page, if you want to change the resource accounts for which you want to generate a one-time password, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
+   > On the **Review** page, if you want to change the resource accounts for which you want to create a one-time password, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
 
      :::image type="content" source="../media/edit-account-selection.png" alt-text="Screenshot that shows the page on which you can edit the accounts selected for OTP generation." lightbox="../media/edit-account-selection.png":::
 
