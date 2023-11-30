@@ -242,7 +242,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 **Navigation:** Teams admin center > Teams > Teams upgrade settings
 
-:::image type="content" source="media/teams-upgrade-settings-coexistence-mode.png" alt-text="Screenshot of Teams upgrade coexistence mode settings.":::
+:::image type="content" source="media/coexistence-mode-tac.png" alt-text="Screenshot of Teams upgrade coexistence mode settings in the Teams admin center." lightbox="media/coexistence-mode-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -257,7 +257,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 **Navigation:** Teams admin center > Teams > Teams upgrade settings
 
-:::image type="content" source="media/teams-upgrade-settings-app-preferences.png" alt-text="Screenshot of Teams upgrade app preferences.":::
+:::image type="content" source="media/app-preferences-tac.png" alt-text="Screenshot of Teams upgrade app preferences settings in the Teams admin center." lightbox="media/app-preferences-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
