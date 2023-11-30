@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 11/29/2023
+ms.date: 11/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -145,10 +145,6 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 ```powershell
 ./teamsbootstrapper -x
 ```
-
->[!Important]
->Using this command will deprovision new Teams for all users.
-
 
 ## End user experience:  Launching the new Teams 
 
