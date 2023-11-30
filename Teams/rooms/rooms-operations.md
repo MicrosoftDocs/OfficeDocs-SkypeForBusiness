@@ -101,6 +101,7 @@ The following table summarizes the possible remote operations and the methods yo
 |Access logs   |Teams admin center  <br/> PowerShell   |Teams admin center <br/> PowerShell  |
 
 ## Configuring Group Policy for Microsoft Teams Rooms
+<a name="GroupPolicy"> </a>
 
 This section covers system settings that Microsoft Teams Rooms depends on to function properly. 
 
@@ -138,6 +139,7 @@ When joining Microsoft Teams Rooms to a domain, ensure that your group policies 
 > When Microsoft Teams Rooms is compatible with the next version of Windows 10 OS, Teams Rooms automatically updates to the next version through Windows Update. Microsoft Teams Rooms should not be upgraded to the next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. Teams Rooms with these group policies enabled is known to run into issues with Windows 10 OS updates.
 
 ## Remote Management using PowerShell
+<a name="RemotePS"> </a>
 
 You can perform the following management operations remotely by using PowerShell (see the table below for script samples):
   
@@ -213,6 +215,7 @@ Copy-Item $movefile $targetDevice
 ```
 
 ## Software updates
+<a name="SWupdate"> </a>
 
 By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the **Settings** app.
   
@@ -225,6 +228,7 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
 Some management functions, like manually installing a private CA certificate, require placing Teams Rooms in Admin mode. 
   
 ### Switching to Admin mode and back when the Microsoft Teams Rooms app is running
+<a name="AdminMode"> </a>
 
 1. Hang up any ongoing calls, and return to the home screen.
 2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
