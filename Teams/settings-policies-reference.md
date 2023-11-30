@@ -331,6 +331,16 @@ The defaults for all the customization options use Teams app default backgrounds
 
 ## Meetings
 
+### Conference bridges
+
+Conference bridges let people dial into meetings using a phone. You can use the default settings for a conference bridge or change the phone numbers (toll and toll-free) and other settings such as the PIN or the languages that are used.
+
+:::image type="content" source="media/bridge-settings-tac.png" alt-text="Screenshot of Teams app setup policies in the Teams admin center." lightbox="media/bridge-settings-tac-expand.png":::
+
+#### Related topics for conference bridges
+
+- [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+
 ### Meeting policies
 
 Meeting policies are used to control what features are available in meetings organized by users who have the policy assigned to them. Meeting policies also affect the meeting join experience of meeting participants.
