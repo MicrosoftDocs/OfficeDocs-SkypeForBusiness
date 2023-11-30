@@ -36,7 +36,7 @@ The following table shows the behaviors of the settings for the **`-AttendeeIden
 |Setting value| Behavior|
 |---------|---------------|
 |Enabled| For organizers with this policy, attendee names are always hidden in their meetings and webinars.|
-|DisabledUserOverride| **This is the default value.** Attendee names are visible, but meeting and webinar organizers can choose to hide attendee names in their meetings and webinars through their meeting options.|
+|DisabledUserOverride| **This is the default value.** Attendee names are visible in meetings and webinars organizers with this policy create. However, organizers can choose to hide attendee names in their meetings and webinars through their meeting options.|
 |Disabled| For organizers with this policy, attendee names are always shown in their meetings and webinars.|
 
 To enable **`-AttendeeIdentityMasking`**, so attendee names are always hidden in meetings and webinars that organizers with this policy create, run the following script:
