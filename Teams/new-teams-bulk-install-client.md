@@ -52,7 +52,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 
 ##### Required system and app requirements
 
-|Requirement|Version|
+|Requirement|Version/Description|
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
 |Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.</br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
