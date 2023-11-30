@@ -150,7 +150,7 @@ OR
 - 3. Once confirmed, the new Teams launches and is the default version.
 
 
-## How to uninstall the bootstrapper
+## How to uninstall
 
 To uninstall the new Teams bootstrapper.exe, use the following command. 
 
