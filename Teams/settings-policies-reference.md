@@ -315,17 +315,15 @@ App setup policies control how apps are made available to a user with the Teams 
 - [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
 - [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
-### Customize store
+### Customize app store
 
 **Navigation:** Teams admin center > Teams apps > Customize store
 
 Customize store settings allow you to customize the Teams app store with your organization's logo, logomark, and custom background or color.
 
-:::image type="content" source="media/app-setup-tac.png" alt-text="Screenshot of Teams app setup policies in the Teams admin center." lightbox="media/app-setup-tac-expand.png":::
+:::image type="content" source="media/customize-app-store-tac.png" alt-text="Screenshot of Teams app setup policies in the Teams admin center." lightbox="media/ustomize-app-store-expand.png":::
 
-| Setting | Default | Description |
-|:-----|:-----|:-----|
-|Upload custom apps|Off|This setting determines if a user can upload a custom app package in the Teams app. Turning it on lets you create or develop a custom app to be used personally or across your organization without having to submit it to the Teams app store. Uploading a custom app also lets you test an app before you distribute it more widely by only assigning it to a single user or group of users. Read more about how to [Manage custom and sideloaded apps in Teams admin center](teams-custom-app-policies-and-settings.md).|
+The defaults for all the customization options use Teams app default backgrounds and colors. You can upload your org's logo, logomark, background image, and select a custom text color.
 
 #### Related topics for customize store
 
