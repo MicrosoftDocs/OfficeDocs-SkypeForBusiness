@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 11/29/2023
+ms.date: 11/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -183,6 +183,15 @@ The classic Teams client and the new Teams client have different install locatio
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
+
+
+## Remove new Teams for all users
+
+To uninstall and deprovision the new Teams for all users, use the following command: 
+
+```powershell
+./teamsbootstrapper -x
+```
 
 
 ## Profile and cache location for new Teams Client 
