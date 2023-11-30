@@ -155,11 +155,8 @@ OR
 To uninstall the new Teams bootstrapper.exe, use the following command. 
 
 ```powershell
-
 ./teamsbootstrapper -x
-
 ```
-
 :::image type="content" source="media/new-teams-bootstrapper-uninstall.png" alt-text="uninstall bootstrapper":::
 
 >[!Important]
