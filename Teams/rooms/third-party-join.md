@@ -35,9 +35,12 @@ Supported devices and services:
 > [!NOTE]
 > To join a Cisco Webex meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later.
 
+> [!NOTE]
+> Joining a Zoom meeting from a Teams Rooms device is supported, however Zoom Webinars and Zoom Events are not supported at this time.
+
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
-1. Configure the Teams Rooms' Exchange Online room mailbox to process invites for third-party meetings.
+1. Configure the Teams Rooms' Exchange mailbox to process invites for third-party meetings.
 2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
 3. Configure Teams Rooms to allow third-party meetings.
 
