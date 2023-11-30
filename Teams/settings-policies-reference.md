@@ -321,7 +321,7 @@ App setup policies control how apps are made available to a user with the Teams 
 
 Customize store settings allow you to customize the Teams app store with your organization's logo, logomark, and custom background or color.
 
-:::image type="content" source="media/customize-app-store-tac.png" alt-text="Screenshot of Teams app setup policies in the Teams admin center." lightbox="media/ustomize-app-store-expand.png":::
+:::image type="content" source="media/customize-app-store-tac.png" alt-text="Screenshot of Teams customize app store policies in the Teams admin center." lightbox="media/customize-app-store-tac-expand.png":::
 
 The defaults for all the customization options use Teams app default backgrounds and colors. You can upload your org's logo, logomark, background image, and select a custom text color.
 
