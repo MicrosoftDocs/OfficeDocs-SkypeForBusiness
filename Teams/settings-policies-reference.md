@@ -355,7 +355,7 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 ### Audio conferencing
 
-Hey
+Manage audio conferencing toll and toll-free numbers to be displayed in meeting invites that users in your org create.
 
 :::image type="content" source="media/audio-conferencing-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/audio-conferencing-tac-expand.png":::
 
