@@ -127,6 +127,8 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 
 1. If a class teacher or class student is deleted, the parent contact information is not deleted automatically. To delete the contact information for parent, see Data deletion inside dataverse.docx (sharepoint.com). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
 
+For more questions, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback).
+
 ### Teams admin center policies
 
 - Class team owners must have Teams chat turned on.
@@ -270,4 +272,4 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 - [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 
-For feedback, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback)  
+  
