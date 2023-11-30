@@ -2,11 +2,12 @@
 title: Microsoft Teams Premium licensing
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
-ms.reviewer: jogruszc, margidesai
-ms.date: 11/09/2023
+manager: pamgreen
+ms.reviewer: margidesai, spraveen
+ms.date: 11/30/2023
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-premium
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
@@ -129,14 +130,14 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
-| Admin can view insights on inactive external domains |  | ✔️ |
-| Admin can view insights on inactive teams |  | ✔️ |
-| Admin can view insights on external collaboration by user |  | ✔️ |
-| Admin can view insights on external collaboration by team |  | ✔️ |
-| Admin can view insights on external collaboration by guest |  | ✔️ |
+| Admin can view insights on inactive external domains\* |  | ✔️ |
+| Admin can view insights on inactive teams\* |  | ✔️ |
+| Admin can view insights on external collaboration by user\* |  | ✔️ |
+| Admin can view insights on external collaboration by team\* |  | ✔️ |
+| Admin can view insights on external collaboration by guest\* |  | ✔️ |
 | Users can block incoming chats from people in your organization |  | ✔️ |
 
-*Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of ACT Advanced Collaboration Analytics.*
+\* *Customers must acquire and assign Teams Premium licenses to each user in their tenant for its use of Advanced collaboration analytics.*
 
 ### Meetings protection
 
@@ -325,5 +326,7 @@ The following list indicates Teams Premium features that require admin configura
 - Using eCDN for webinars and town halls.
 - Using RTMP-In.
 - Customizing Virtual Appointment lobby rooms with branding.
+- Hiding attendees names from meetings and webinars.
+- Using Priority account chat controls.
 
 For links to instructions, see [Microsoft Teams Premium - Overview for administrators](/microsoftteams/enhanced-teams-experience).
