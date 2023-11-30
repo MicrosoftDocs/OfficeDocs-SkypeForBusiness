@@ -357,6 +357,16 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 Hey
 
+:::image type="content" source="media/audio-conferencing-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/audio-conferencing-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Include toll-free numbers in meeting invites created by users of this policy|On|When **On**, any meetings users with this policy create include toll-free numbers.|
+
+#### Related topics for audio conferencing
+
+- [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
+
 ### Meeting policies
 
 Meeting policies are used to control what features are available in meetings organized by users who have the policy assigned to them. Meeting policies also affect the meeting join experience of meeting participants.
