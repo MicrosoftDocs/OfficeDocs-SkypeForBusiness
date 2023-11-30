@@ -31,7 +31,6 @@ Administrators may exclude new Teams from automatically installing with Microsof
 >[!Important]
 >If the classic Teams app is already installed, the Microsoft 365 Apps deployment will install new Teams alongside classic Teams on the device. The classic Teams installation will not change.
 
-
 ## Rollout schedule 
 
 When will the new Microsoft Teams be included with installations of Microsoft 365 Apps?
