@@ -75,7 +75,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 } 
 ``` 
 
-  **Sample JSON payload**:
+**Sample JSON payload**:
 
 ```json
 {
