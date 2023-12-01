@@ -2,7 +2,7 @@
 title: Shifts data FAQ
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.date: 08/19/2021
 ms.topic: conceptual
 audience: admin

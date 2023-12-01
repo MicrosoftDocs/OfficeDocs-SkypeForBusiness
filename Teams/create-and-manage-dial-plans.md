@@ -2,9 +2,9 @@
 title: "Create and manage dial plans"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 11/28/2017
+ms.date: 10/12/2023
 ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
@@ -86,7 +86,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
 - To create a new dial plan, run:
     
   ```PowerShell
-  New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
+  New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -SimpleName "Dial-Plan-for-Redmond"
   ```
 
     For other examples and parameters, see [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
@@ -94,8 +94,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
 - To edit the settings of an existing dial plan, run:
     
   ```PowerShell
-  Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
-    -SimpleName "Dial-Plan-for-Redmond"
+  Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -SimpleName "Dial-Plan-for-Redmond"
   ```
 
     For other examples and parameters, see [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
@@ -114,7 +113,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    For other examples and parameters, see [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan).
     
 - To delete a dial plan, run:
     
@@ -122,7 +121,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    For other examples and parameters, see [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan).
     
 - To see the settings of the effective dial plan, run:
     
@@ -138,7 +137,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan).
     
 #### Using a PowerShell script
 
@@ -157,7 +156,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.
 ```PowerShell
-$nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
+$nr1=New-CsVoiceNormalizationRule -Identity Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
@@ -194,7 +193,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-
 
 Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
   
-Run this to save the on-premises dial plan to the .xml file.
+Run this in Skype for Business Server Management Shell on-premises to save the on-premises dial plan to the .xml file.
   
 ```PowerShell
 $DPName = "OPDP1"
@@ -202,7 +201,7 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-Run this to create the new tenant dial plan.
+Run this in Teams PowerShell Module online to create the new tenant dial plan.
   
 ```PowerShell
 $DPFileName = "dialplan.xml"
@@ -214,7 +213,7 @@ ForEach($nr in $dp.NormalizationRules)
  $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
  $NormRules += $nr2
 }
-New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
+New-CsTenantDialPlan -Identity $dp.SimpleName -Description $dp.Description -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
 ## Related topics

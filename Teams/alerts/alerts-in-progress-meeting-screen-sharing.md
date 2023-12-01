@@ -2,7 +2,7 @@
 title: Alerts for in-progress meeting screen sharing issues
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: vapati
 ms.date: 07/30/2023
 ms.topic: article
@@ -44,7 +44,7 @@ Notifications can  be sent to a Teams channel or a web hook URL.
 |:-----|:------------|
 |**Application sharing (VBSS) conditions**|Choose the screen sharing issues that you want to monitor for.|
 |**Monitoring settings**|Choose the **Notification threshold** and **Monitoring window** to specify how long the condition should exist before an alert is sent.<br>Choose the **Notification waiting period** to specify how often an alert is sent.|
-|**Scope**|Choose the users or groups whose meeting audio quality you want to monitor.|
+|**Scope**|Choose the users whose meeting audio quality you want to monitor.|
 |**Network subnet selection for notifications**|Select which networks you want to get alerts for.|
 |**Actions**|Choose if you want to send alerts to a specific channel or to a web hook URL.|
 |**Status**|Choose if the rule is active and alerts should be sent.|

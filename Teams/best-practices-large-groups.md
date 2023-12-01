@@ -2,9 +2,9 @@
 title: Manage large teams in Microsoft Teams - best practices
 ms.reviewer: 
 ms.date: 04/07/2020
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

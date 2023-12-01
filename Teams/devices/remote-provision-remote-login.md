@@ -2,8 +2,9 @@
 title: Remote provisioning and sign in for Teams Android devices
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
-ms.date: 01/04/2021
+manager: pamgreen
+ms.reviewer: kimmatlock
+ms.date: 11/02/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

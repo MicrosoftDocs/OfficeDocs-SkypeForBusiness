@@ -1,9 +1,9 @@
 ---
 ms.date: 03/17/2018
 title: Plan hybrid connectivity | Skype for Business Server and Teams 
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -82,11 +82,11 @@ This type of configuration relies on shared SIP address space functionality, and
 
 When shared SIP address space is configured:
 
-- Azure Active Directory Connect is used to synchronize your on-premises directory with Microsoft 365.
+- Microsoft Entra Connect is used to synchronize your on-premises directory with Microsoft 365.
 - Users who are homed on premises interact with on-premises Skype for Business servers.
 - Users who are homed online interact with Teams.
 - Users from both environments can communicate with each other.
-- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users.
+- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Microsoft Entra ID. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users.
 
 Before a user can be moved online, the user must be assigned a Teams license as well as Skype for Business Online (Plan 2). **Assignment of the Skype for Business Online license is required even after retirement of Skype for Business Online.** If your users want to take advantage of additional online features, such as Audio Conferencing or Phone System, you need to assign them the appropriate license in Microsoft 365.
 
@@ -103,7 +103,7 @@ To implement hybrid connectivity between your on-premises environment and Micros
   > [!NOTE]
   > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
-- Azure Active Directory Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Azure AD Connect: Accounts and permissions](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Microsoft Entra Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Microsoft Entra Connect: Accounts and permissions](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
 - Skype for Business Server administrative tools. These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet.
 - Online administrative tools. You can use either the Teams admin center or Windows PowerShell to manage Teams. To use PowerShell to manage Teams, download and install the Teams PowerShell Module. (The Skype for Business Online Connector has been retired).
@@ -151,7 +151,7 @@ Microsoft supports the following types of multi-forest hybrid scenarios:
 
 - **Multiple deployments of Skype for Business Server in multiple forests.** This configuration can arise as a result of merger and acquisition scenarios, and in more complex enterprises. Consolidation of all users from on premises to the cloud in a single Microsoft 365 organization can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met:
   - There must be at most one Microsoft 365 organization involved. Consolidation in scenarios with more than one organization is not supported.
-  - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space). All other on-premises Skype for Business forests must remain fully on premises (and presumably federated with each other). Note that these other on-premises organizations can sync to AAD if desired with [new functionality to disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain) available as of December 2018.
+  - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space). All other on-premises Skype for Business forests must remain fully on premises (and presumably federated with each other). Note that these other on-premises organizations can sync to Microsoft Entra ID if desired with [new functionality to disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain) available as of December 2018.
 
     Customers with deployments of Skype for Business in multiple forests must fully migrate each Skype for Business forest individually into the Microsoft 365  organization using split-domain (Shared SIP Address Space) functionality. After the forest migration is complete, customers must then disable hybrid with the on-premises deployment before moving on to migrate the next on-premises Skype for Business deployment. Furthermore, prior to being migrated to the cloud, on-premises users remain in a federated state with any users that aren't represented in the same user’s on-premises directory. For more information, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
 

@@ -2,9 +2,9 @@
 title: Deploy Microsoft Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: kimmatlock
 ms.date: 08/29/2023
 ms.topic: quickstart
 ms.service: msteams
@@ -56,7 +56,7 @@ You can find out more about these dependencies in the planning guidance links be
 To prepare for your Microsoft Teams Rooms deployment, do the following key, central tasks:
 
 -   Define Microsoft Teams Rooms resource accounts.
--   If joining Teams Rooms to Azure Active Directory, prepare an Azure AD group with dynamic membership to hold all of the Teams Rooms resource accounts. This will simplify future management, such as applying Conditional Access policies. In order to most easily leverage Azure AD dynamic groups, determine a naming convention that will uniquely identify your Teams Rooms resource accounts.
+-   If joining Teams Rooms to Microsoft Entra ID, prepare a Microsoft Entra group with dynamic membership to hold all of the Teams Rooms resource accounts. This will simplify future management, such as applying Conditional Access policies. In order to most easily leverage Microsoft Entra dynamic groups, determine a naming convention that will uniquely identify your Teams Rooms resource accounts.
 -   If joining Teams Rooms to Active Directory, prepare an organizational unit and Active Directory group to hold your Microsoft Teams Rooms machine and resource accounts, and—optionally—prepare Group Policy objects (GPOs) to enable PowerShell remoting.
 
 ### Define Microsoft Teams Rooms resource account features 
@@ -88,9 +88,9 @@ _Sample Microsoft Teams Rooms resource account planning table_
 
 ### Prepare to host Microsoft Teams Rooms and resource accounts (optional)
 
-To enable you to manage and report on your Microsoft Teams Rooms and resource accounts, prepare your on-premises Active Directory or Azure Active Directory (Azure AD). 
+To enable you to manage and report on your Microsoft Teams Rooms and resource accounts, prepare your on-premises Active Directory or Microsoft Entra ID. 
 
-Define an on-premises Active Directory or Azure Active Directory group to add all Microsoft Teams Rooms resource accounts to. If using Azure Active Directory, consider using a dynamic group to automatically add and remove resource accounts from the group.
+Define an on-premises Active Directory or Microsoft Entra group to add all Microsoft Teams Rooms resource accounts to. If using Microsoft Entra ID, consider using a dynamic group to automatically add and remove resource accounts from the group.
 
 Define one organizational unit in your on-premises Active Directory hierarchy to hold all Microsoft Teams Rooms machine accounts (if they're joined to the domain) and one organizational unit to hold all the Microsoft Teams Rooms user accounts. Disable Group Policy inheritance to ensure that you apply only the policies you intended to apply to the domain-joined Microsoft Teams Rooms.
 
@@ -189,4 +189,3 @@ _Sample asset table_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | London HQ | Curie         | Medium        |                                          |                                          |                                          |                                            |                   |
 | Sydney HQ | Hill          | Large         |                                          |                                          |                                          |                                            |                   |
-

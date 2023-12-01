@@ -2,7 +2,7 @@
 title: Cloud Video Interop for Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

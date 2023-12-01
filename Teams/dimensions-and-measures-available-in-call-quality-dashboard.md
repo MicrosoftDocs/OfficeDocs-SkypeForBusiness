@@ -1,10 +1,10 @@
 ---
 title: "Dimensions and measurements - Call Quality Dashboard (CQD)"
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
-ms.reviewer: siunies, mikedav, gageames
-ms.date: 11/28/2017
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
+ms.reviewer: jamp
+ms.date: 10/26/2023
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -136,6 +136,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second VTC Device Name | String | The friendly name of the VTC device used by the second endpoint | <br/>&bull; Data wasn't reported by the endpoint <br/>&bull; Field is EUII and 28 days has passed |
 | First VTC Device Detail | String | The platform and version information of the VTC device used by the first endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; Data wasn't reported by the endpoint |
 | Second VTC Device Detail | String | The platform and version information of the VTC device used by the second endpoint <br/> **Example value:** Tandberg, 529 | <br/>&bull; Data wasn't reported by the endpoint |
+|First Media Bypass	| Boolean|	Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and first endpoint.| &bull; Stream was not destined for a PSTN endpoint. <br/> &bull; Stream was not an audio stream. |
+Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the Teams service endpoint and flowing directly between the session border controller and second endpoint.| &bull; Stream was not destined for a PSTN endpoint. <br/> &bull; Stream was not an audio stream. |
 | First Endpoint Make |String |Device manufacturer, information is read from an Endpoint Data file EndpointMake field. | <br/>&bull; No data file for the endpoint |
 | First Endpoint Model |String|Device model, information is read from an Endpoint Data file EndpointModel field.| <br/>&bull; No data file for the endpoint |
 | First Endpoint Type|String|Device type, information is read from an Endpoint Data file EndpointType field.| <br/>&bull; No data file for the endpoint |
@@ -302,7 +304,16 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Roaming Trigger | Enumeration (String) | Indicates number of times the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. <br/>**Possible values:** <br/> &bull; **Remote** - Sending packets to Peer, but Peer isn't receiving them <br/> &bull; **ConsentKA** - Keep-Alive Failures; 7 second time-out if no response to keep-alive packets <br/> &bull; **Interface** - Local Interface change or flap <br/> &bull; **RelayDraining** - Service maintenance (Expected) | &bull; No roams occurred <br/> &bull; Data wasn't sent by endpoint |
 | First Roaming Count | Range (Integer) | Indicates number of times the first endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. <br/>**Example value:** 064: [1 - 2) | |
 | Second Roaming Count | Range (Integer) | Indicates number of times the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. <br/>**Example value:** 064: [1 - 2) | |
+| First Recv AV Sync Distance Avg | Milliseconds | The average difference between audio and video modality (video or VBSS) network delays in milliseconds for the first endpoint. A positive value would mean that audio arrived later than the video.||
+| Second Recv AV Sync Distance Avg| Milliseconds | The average difference between audio and video modality (video orVBSS) network delays in milliseconds for the second endpoint. A positive value would mean that audio arrived later than the video.||
+| First Recv AV Sync Distance Max| Milliseconds |The maximum difference value of how much video or VBSS was ahead of the audio for the first endpoint in milliseconds.||
+| Second Recv AV Sync Distance Max| Milliseconds |The maximum difference value of how much video or VBSS was ahead of the audio for the second endpoint in milliseconds.||
+| First Recv AV Sync Distance Min| Milliseconds| The minimum difference value of how much video or VBSS was ahead of the audio for the first endpoint in milliseconds.||
+| Second Recv AV Sync Distance Min| Milliseconds| The minimum difference value of how much video or VBSS was ahead of the audio for the second endpoint in milliseconds.||
+| First Recv AV Sync Distance Std Dev| Milliseconds| The standard deviation of the difference in audio/video sync delay for the first endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission.||
+| Second Recv AV Sync Distance Std Dev| Milliseconds | The standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission.||
 | Outbound Bit Rate Avg | Kilobits per second (Integer) | The average bit rate of the outbound audio stream in kbps. Must be used with Stream Direction. | &bull; The stream wasn't an audio stream.|
+| Network Score | Range (Decimal) | Network Score is a value computed from network round-trip time, packet loss, and jitter. It is a ranking of the network quality for a Teams call or stream in a single number, with higher values being better.||
 |**Device**| |||
 | First Capture Dev  | String  | Name of the capture device used by the first endpoint. For: <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000)  | &bull; The data wasn't reported by the endpoint <br/>&bull; The media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing.  |
 | Second Capture Dev  | String  | Name of the capture device used by the second endpoint.  <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000) | <br/>&bull; Data wasn't reported by the endpoint <br/>&bull; Media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing   |
@@ -312,6 +323,20 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Render Dev  | String  | Name of the render device used by the second endpoint. For: <br/> Audio streams - device used for the speaker <br/> Video and video-based-screen-sharing streams - device used for the display <br/> App sharing streams - blank <br/> **Example value:** Headset Earphone (Microsoft LifeChat LX-6000) | <br/>&bull; This data wasn't reported by the endpoint, <br/>&bull; Media path wasn't established <br/>&bull; The stream was application sharing     |
 | First Render Dev Driver  | String  | Name of the render device driver used by the first endpoint. For: <br/> Audio streams - driver used for the speaker <br/> Video and video-based-screen-sharing streams - driver used for the display <br/> App sharing streams - blank  <br/> **Example value:** Microsoft: 10.0.14393.0 | <br/>&bull; This data wasn't reported by the endpoint <br/>&bull; Media path wasn't established <br/>&bull; The stream was application sharing    |
 | Second Render Dev Driver  | String  | Name of the render device driver used by the second endpoint. For: <br/> Audio streams - driver used for the speaker <br/> Video and video-based-screen-sharing streams - driver used for the display <br/> App sharing streams - blank <br/> **Example value:** Microsoft: 10.0.14393.0  | <br/>&bull; This data wasn't reported by the endpoint <br/>&bull; Media path wasn't established <br/>&bull; The stream was application sharing   |
+| First Audio Devices Connection Type	| Enumeration string | The connection interface or type of the audio device used on the first endpoint <br/> Possible values: BlueTooth, HDAudio, Internal, Mixed, PCI, USB, Other||
+| Second Audio Devices Connection Type | Enumeration string |	The connection interface or type of the audio device used on the first endpoint <br/> Possible values: BlueTooth, HDAudio, Internal, Mixed, PCI, USB, Other||
+| First Audio Device General Failure | Boolean | Indicates if a general hardware failure was detected on the audio device of the first endpoint. ||
+| Second Audio Device General Failure | Boolean | Indicates if a general hardware failure was detected on the audio device of the second endpoint. ||
+| First Mic Device Failure | Boolean | Indicates if an audio capture device failure was detected on the first endpoint. ||
+| Second Mic Device Failure | Boolean | Indicates if an audio capture device failure was detected on the second endpoint. ||
+| First No Mic Devices Enumerated Failure | Boolean	| Indicates that no audio capture devices were detected on the first endpoint. ||
+| Second No Mic Devices Enumerated Failure	| Boolean	| Indicates that no audio capture devices were detected on the second endpoint. ||
+| First Mic Initialization Failure| Boolean	| Indicates that a failure occurred during the hardware initialization of the microphone device on the first endpoint. ||
+| Second Mic Initialization Failure| Boolean	| Indicates that a failure occurred during the hardware initialization of the microphone device on the second endpoint. ||
+| First Mic Connection Type | Enumeration string |The connection interface or type of the microphone device used on the first endpoint <br/> Possible values: BlueTooth, HDAudio, Internal, PCI, USB, Virtual, Other||
+| Second Mic Connection Type | Enumeration string | The connection interface or type of the microphone device used on the second endpoint <br/> Possible values: BlueTooth, HDAudio, Internal, PCI, USB, Virtual, Other||
+| First Compute Device Name | String |	The detected system manufacturer and system model of the first endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model were not detected.|
+| Second Compute Device Name	| String |The detected system manufacturer and system model of the second endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model were not detected.|
 |**WiFi**||||
 | First WiFi Microsoft Driver  | String  | Name of Microsoft WiFi driver used reported by the first endpoint. Value may be localized based on the language used by endpoint. <br/> **Example value:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi wasn't used by the endpoint <br/>&bull; The driver information wasn't reported|
 | Second WiFi Microsoft Driver  | String  | Name of Microsoft WiFi driver used reported by the second endpoint. Value may be localized based on the language used by endpoint. <br/> **Example value:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi wasn't used by the endpoint <br/>&bull; The driver information wasn't reported|
@@ -377,6 +402,22 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the second loudspeaker rendering.| |
 | First Send Mute Percent | Range (Percentage) | Percentage of the audio stream from the first endpoint where the client was muted.| &bull; Stream isn't an audio stream <br/> &bull; Data wasn't reported by the first endpoint|
 | Second Send Mute Percent | Range (Percentage) |Percentage of the audio stream from the second endpoint where the client was muted.| &bull; Stream isn't an audio stream <br/> &bull; Data wasn't reported by the second endpoint|
+| First System CPU Resource Usage Average	| Range (percentage) | The average of the system's overall CPU usage measured for the first endpoint.||
+| Second System CPU Resource Usage Average|	Range (percentage) | The average of the system's overall CPU usage measured for the second endpoint.||
+| First Process CPU Resource Usage Average|	Range (percentage) | The average of the CPU usage by the Teams process measured for the first endpoint.||
+| Second Process CPU Resource Usage Average	|Range (percentage)	|The average of the CPU usage by the Teams process measured for the second endpoint.||
+| First System Memory Resource Usage Average	|Range (percentage)	|The average of the system's overall memory usage measured for the first endpoint.||
+| Second System Memory Resource Usage Average	|Range (percentage)	|The average of the system's overall memory usage measured for the second endpoint.||
+| First Process Memory Resource Usage Average	|Range (percentage)	|The average of the memory usage by the Teams process measured for the first endpoint.||
+| Second Process Memory Resource Usage Average|	Range (percentage)|	The average of the memory usage by the Teams process measured for the second endpoint.||
+| First System CPU Resource Usage Max	|Range (percentage)	|The maximum value of the system's overall CPU usage measured for the first endpoint.||
+| Second System CPU Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall CPU usage measured for the second endpoint.||
+| First Process CPU Resource Usage Max|	Range (percentage)|	The maximum value of the CPU usage by the Teams process measured for the first endpoint.||
+| Second Process CPU Resource Usage Max|	Range (percentage)|	The maximum value of the CPU usage by the Teams process measured for the second endpoint.||
+| First System Memory Resource Usage Max|	Range (percentage)	|The maximum value of the system's overall memory usage measured for the first endpoint.||
+| Second System Memory Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall memory usage measured for the second endpoint.||
+| First Process Memory Resource Usage Max	|Range (percentage)	|The maximum value of the memory usage by the Teams process measured for the first endpoint.||
+| Second Process Memory Resource Usage Max|	Range (percentage)|	The maximum value of the memory usage by the Teams process measured for the second endpoint.||
 |**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) was used at some point during the call. False otherwise     | &bull; The stream wasn't an audio stream <br/>&bull; The data wasn't reported by the endpoint sending the stream  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the first endpoint.  | <br/>&bull; The data wasn't reported by the endpoint  |
@@ -413,11 +454,17 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Good  | Boolean  | True if the stream has sufficient data to be classified as good or poor and stream is classified as good. False otherwise.   |   |
 | Unclassified  | Boolean  | False if the stream has sufficient data to be classified as good or poor. True otherwise. <br/>**Example value:** 1 |   |
 | OnePercent PacketLoss  | Boolean  | True if packet loss exceeded 1%, False otherwise.  |   |
+| Is Dominant Participant | Boolean | If true, indicates high confidence that the stream originated from an endpoint with a high rate of speaker participation. | &bull; Calculated only for Conferencing participants <br/> &bull; PSTN participants are excluded from this model |
+| Is Dominant Participant Probability | Decimal (Percentage) | The probability that the stream originated from an endpoint with a high rate of speaker participation; values closer to 1 indicate a higher probability. | &bull; Calculated only for Conferencing participants <br/> &bull; PSTN participants are excluded from this model |
 | Detected Inbound Network Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the inbound network. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
 | Detected Uplink Problem| Boolean | If true, indicates high confidence that a media stream may have been impacted due to the network uplink. | &bull; This dimension doesn't apply to P2P calls. |
-| Detected Other User Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the remote capture device. |
+|Detected Other User Uplink Problem | Boolean | If true, indicates high confidence that a user's media stream may have been impacted due to a dominant participant's network uplink issues.| &bull; This dimension doesn't apply to P2P calls. |
+| Detected Input Device Causing Problem | Boolean	| If true, indicates high confidence that the quality of sent media may have been impacted due to the user's media capture device. ||
+| Detected Other User Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the remote capture device. ||
 | Detected Local Input Device Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to the render device on the first endpoint. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
+| Detected Leaking Echo Problem	| Boolean	| If true, indicates high confidence that the endpoint's outbound media stream has been impacted due to echo.||
 | Detected Hearing Echo Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to echo.||
+| Detected Compute Device Causing Problem | Boolean | If true, indicates high confidence that the endpoint's outbound media stream may have been impacted due to compute resources on the sender's side.||
 | Detected Other User Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to compute resources on the remote side. ||
 | Detected Local Compute Problem | Boolean | If true, indicates high confidence that a media stream may have been impacted due to local compute resources. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
 | Detected Media Modality Problem | Boolean | If true, indicates high confidence that the user's experience of the inbound media stream was poor. | &bull; This dimension only applies to streams where *Stream Direction == First-to-Second* |
@@ -523,8 +570,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Client Endpoint Name|String|The machine name of the second endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
 | First Endpoint Product Name|String|The product name of the first endpoint (either Skype for Business or Microsoft Teams).||
 | Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).||
-| First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
-| Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server. <br/>**Voicemail** - the endpoint was answered by voicemail service.||
+| First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - a Microsoft Entra User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
+| Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - a Microsoft Entra User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server. <br/>**Voicemail** - the endpoint was answered by voicemail service.||
 | Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
@@ -547,7 +594,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |PSTN Trunk FQDN|String|FQDN is the fully qualified domain name (FQDN) of the Session Border Controller (SBC).<br/>**Example:** sbcgw.contoso.com||
 |PSTN Carrier Name|String|The company that is authorized by regulatory agencies to operate a telecommunications system.<br/>**Example:** Colt|Direct Routing doesn't have a carrier. Only a calling plan has a carrier.|
 |PSTN Call Type|String|This string combines the service type and call type.<br/><br/>Service type:<br/>user -> calling plan<br/>byot -> direct routing<br/>conf -> audio conferencing<br/>ucap -> voice app<br/>emergency -> emergency number<br/><br/>Call type:<br/>In -> inbound call<br/>Out -> outbound call<br/>Out_transfer -> outbound call gets transferred to third person<br/>Out_forward -> outbound call gets forwarded to third person<br/>Out_conf ->  outbound call with ad-hoc PSTN participant<br/><br/>**Example:** ByotIn||
-|PSTN Connectivity Type|String|PSTN connectivity type includes Direct Routing, Calling Plan, or Audio Conferencing. At this time, only Direct Routing is available in the Call Quality Dashboard (CQD).<br/>**Example:** Direct Routing||
+|PSTN Connectivity Type|String|PSTN connectivity type includes Direct Routing, Calling Plan, Operator Connect, or Teams Phone Mobile.<br/>**Example:** Direct Routing||
 |PSTN Final SIP Code Phrase|String|The reason phrase corresponding to the SIP response code and Microsoft response code.<br/>**Example:** BYE||
 |PSTN Call End Sub Reason|Int|A response code sent out from the Microsoft component that indicates specific actions that occurred.<br/>**Example:** 540000||
 |PSTN Event Type|String|An event type that provides telemetry.<br/>**Example:** End||
@@ -556,6 +603,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |PSTN Trunk Call Id|String|The SIP Call ID between the PSTN SIP Trunk and the SIP Proxy. Direct Routing customers can use this value to troubleshoot PSTN calling scenarios. Cross-reference the Trunk Call ID with the logs of the Session Border Controller or Media Gateway.||
 |PSTN Trunk User Agent|String|The manufacturer and model information for the PSTN SIP trunk's Session Border Controller or Media Gateway.<br/>**Example:** Mediant 1000/v.7.20A.258.750 ||
 |PSTN Call End Reason|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP call end reasons, see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
+| Is PSTN Conferencing | Boolean | Indicates if a call or stream was involved in a PSTN conferencing scenario||
 |**Voice Apps (Preview)**||For this category, see [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md) for more information.)||
 |Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.|&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Auto Attendant Chain Index|Integer| Order of the Auto Attendant in the call.||
@@ -826,7 +874,10 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the second endpoint was invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently reported by WebRTC-based clients. |
 | Avg First Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the first endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
 | Avg Second Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the second endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
-
+| Avg First Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the first capture device as measured in dBFS. |
+| Avg Second Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the second capture device as measured in dBFS. |
+| Avg First Input Speech Level | dBFS (Decimal) |The RMS level of the speech detected in the audio signal Teams receives from the first capture device as measured in dBFS. |
+| Avg Second Input Speech Level | dBFS (Decimal) | The RMS level of the speech detected in the audio signal Teams receives from the second capture device as measured in dBFS. |
 ### Notes on measurements
 
 #### Accuracy limitations

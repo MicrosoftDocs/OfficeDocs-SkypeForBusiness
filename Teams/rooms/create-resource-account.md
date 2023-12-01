@@ -2,7 +2,7 @@
 title: Create resource accounts for rooms and shared Teams devices
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: sohailta
 ms.date: 08/03/2023
@@ -42,8 +42,8 @@ Depending on your environment, you need one or more roles to create resource acc
 
 |**Environment**|**Required Roles**|
 |-----|-----|
-|Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
+|Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
+|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
@@ -96,5 +96,3 @@ There are no unique requirements to enable calling with resource accounts. You e
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
 [Microsoft Teams Rooms Licensing](rooms-licensing.md)
-
-

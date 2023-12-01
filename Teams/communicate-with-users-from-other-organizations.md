@@ -2,7 +2,7 @@
 title: Use guest access and external access to collaborate with people outside your organization
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: vinbel, luises
 ms.date: 03/31/2023
 ms.topic: article
@@ -28,7 +28,7 @@ description: Learn how to call, chat, find, and add users from outside the organ
 This article describes two of the options for collaborating with people outside your organization:
 
 - **External access** - A feature that allows users to find, call, and chat with people who have Microsoft identities, including those from other organizations.
-- **Guest access** - A feature that allows you to invite people from outside your organization to join a team. Guests can also call, chat, and meet with people in your organization and you can share files and folders with them. Invited people get an [Azure AD B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory.
+- **Guest access** - A feature that allows you to invite people from outside your organization to join a team. Guests can also call, chat, and meet with people in your organization and you can share files and folders with them. Invited people get an [Microsoft Entra B2B collaboration guest account](/azure/active-directory/external-identities/what-is-b2b) in your directory.
 
 For a complete overview of the external collaboration options in Microsoft 365, see [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
@@ -58,7 +58,7 @@ Use guest access to add a person from outside your organization to a team, where
 
 If you need to have meetings with people outside your organization who aren't part of another Microsoft 365 organization, you can use guest access to allow them to log in to your organization for meetings.
 
-Guests are added to your organization's Azure Active Directory as B2B collaboration users. They must sign in to Teams using their guest account. If the normally use Teams with another Microsoft 365 organization, they need to switch organizations in Teams to interact with your organization.
+Guests are added to your organization's Microsoft Entra ID as B2B collaboration users. They must sign in to Teams using their guest account. If the normally use Teams with another Microsoft 365 organization, they need to switch organizations in Teams to interact with your organization.
 
 Guest access is available to the following tenants:
 

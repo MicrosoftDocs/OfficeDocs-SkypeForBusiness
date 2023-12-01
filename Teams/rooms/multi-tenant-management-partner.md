@@ -3,7 +3,7 @@ title: Multi-tenant customer management for partners
 author: altsou
 ms.author: altsou
 ms.date: 07/25/2022
-manager: serdars
+manager: pamgreen
 ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -160,18 +160,18 @@ As a partner, you can create custom roles to suit your operational requirements.
 
 End customers retain control over access to their data and can completely remove a partner or specific roles at any time.
 
-With the delegated access feature, a partner does not gain any other privileges outside of the Pro Management portal. For example, by using this feature to invite a partner to manage rooms in the Pro Management portal, no permissions are granted to AAD or the Teams Admin Center or any other Microsoft product. In addition, partners do not have any access to view  or modify rooms not defined in the invitation scope.
+With the delegated access feature, a partner does not gain any other privileges outside of the Pro Management portal. For example, by using this feature to invite a partner to manage rooms in the Pro Management portal, no permissions are granted to Microsoft Entra ID or the Teams Admin Center or any other Microsoft product. In addition, partners do not have any access to view  or modify rooms not defined in the invitation scope.
 
 Once the partner—customer relationship is established—as described in the “Onboarding customers” of this doc – the partner can view room data in the Pro Management portal. This includes any data present in the Pro Management portal but derived from other Microsoft products. For example, call quality reports in the Pro Management portal are derived from Teams call quality data.
 
 Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
 
-The MTM portal uses AAD authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
+The MTM portal uses Microsoft Entra authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
 
 The customer can pull audit logs for the Pro Management portal, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](multi-tenant-auditing.md).
 
 > [!Note]
-> AAD auditing and O365 auditing does not capture logs from the Pro Management portal.
+> Microsoft Entra auditing and O365 auditing does not capture logs from the Pro Management portal.
 
 ## Navigating the MTM portal
 
