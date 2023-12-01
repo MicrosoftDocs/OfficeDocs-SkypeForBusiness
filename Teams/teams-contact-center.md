@@ -97,7 +97,6 @@ The following providers offer contact center solutions that are integrated into 
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
-| `Telia` | https://ace-showcase.com/                  |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
