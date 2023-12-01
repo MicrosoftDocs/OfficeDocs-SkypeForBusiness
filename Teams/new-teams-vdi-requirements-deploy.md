@@ -144,7 +144,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409)
 3. Open the Command Prompt as an Admin.
-4. Depending on where your MSIX is located, do the following:
+4. Depending on where your MSIX is located, do the following steps:
 </br>
 
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
@@ -204,7 +204,11 @@ Make sure this folder is persisted for proper Teams functioning.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
+
+Excluding the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.) can reduce storage significantly. It can also have an impact on performance as users would lose caching benefits.
 
  
 >[!Note]
@@ -229,7 +233,6 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 - Teams Premium features (E2EE, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations) 
 - Screen sharing from chat 
 - Presenter toolbar during a screen sharing session isn't shown. 
-- The self-preview in Settings / Devices isn't shown 
 - “Record video clip” doesn't capture screen share 
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
 
