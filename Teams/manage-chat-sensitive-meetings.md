@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 12/01/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -23,7 +23,7 @@ description: Learn how to manage Teams meeting chat options for sensitive meetin
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-By default, all meeting attendees can chat both during and after the meeting. Meeting organizers can turn this feature off or allow chat only during the meeting.
+By default, all meeting attendees can chat both during and after a meeting. Meeting organizers can turn this feature off or allow chat only during the meeting.
 
 If you have compliance requirements for certain types of meetings, you can manage how and when chat is enabled by using a combination of Teams admin policies, meeting templates, and sensitivity labels.
 
@@ -34,10 +34,9 @@ The following table show what chat-related controls are available and where they
 |Meeting chat|Yes|Yes|Yes|Yes|
 |Prevent copying chat content to clipboard|No|Yes|No|No|
 |Q&A|Yes|No|No|Yes|
-|Shared notes|Yes|No|No|No|
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
+> Meeting options in sensitivity labels and custom meeting templates require Teams Premium.
 
 By default, chat is turned on for meeting participants. There are several ways you can manage chat:
 
@@ -60,7 +59,7 @@ For meetings where sensitive or highly sensitive information is shared and you w
 
 In meetings where the chat is not available, meeting organizers can turn on the [Q&A feature](https://support.microsoft.com/office/f3c84c72-57c3-4b6d-aea5-67b11face787). This allows attendees to ask questions or comment in writing. This feature is available but off by default for meeting organizers. Teams administrators can prevent meeting organizers from using it by turning off the **Q&A** admin meeting policy.
 
-By default, Teams also allows meeting attendees to [create shared meeting notes](https://support.microsoft.com/office/3eadf032-0ef8-4d60-9e21-0691d317d103) and use the [whiteboard](https://support.microsoft.com/whiteboard). While the meeting organizer can't turn these features off, you can turn them off for people and groups by using the **Shared notes** and **Whiteboard** admin meeting policies in the Teams admin center.
+By default, Teams also allows meeting attendees to [create shared meeting notes](https://support.microsoft.com/office/3eadf032-0ef8-4d60-9e21-0691d317d103), [use annotation while sharing your screen](https://support.microsoft.com/office/876ba527-7112-437e-b410-5aec7363c473) and use the [whiteboard](https://support.microsoft.com/whiteboard). While the meeting organizer can't turn these features off, you can turn them off for people and groups by using meeting policies in the Teams admin center.
 
 ## Related topics
 
