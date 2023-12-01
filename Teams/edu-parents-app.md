@@ -141,9 +141,10 @@ To delete student data stored in the Dataverse:
 
 1. In the **Approvals** table, add the **Partner Id Hash** column.
     :::image type="content" source="media/delete-data-verse/delete-student-3.png" alt-text="Screenshot of Approvals table." lightbox="media/delete-data-verse/delete-student-3.png":::
-1. Select the **Partner Id Hash** dropdown and in the **Filter by window**, enter **student object ID**, and select **Apply**.
+1. Select the **Partner Id Hash** dropdown and select **Filter by**.
+1. In the **Filter by window**, enter **student object ID** in the field, and select **Apply**.
     :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student id column." lightbox="media/delete-data-verse/delete-student-4.png":::
-1. From the displayed list, select the rows to delete the required student data.
+1. From the displayed list, select the required rows to be deleted.
     :::image type="content" source="media/delete-data-verse/delete-student-5.png" alt-text="Screenshot of displayed data." lightbox="media/delete-data-verse/delete-student-5.png":::
 
 For more questions, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback).
