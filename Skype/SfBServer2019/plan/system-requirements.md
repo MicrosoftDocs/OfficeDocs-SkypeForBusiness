@@ -201,6 +201,12 @@ if ($exe -eq $null) {
   Exit
 }
 
+$existingProvider = Get-WebConfiguration -PSPath 'MACHINE/WEBROOT/APPHOST' -Filter "configProtectedData/providers/add[@name='$providerName']"
+if ($null -ne $existingProvider) { # Provider already exists
+  Write-Host "Script has already run. $providerName already exists. Exiting"
+  Exit 0
+} 
+
 & $exe.FullName -pc $keyContainerName -exp
 & $exe.FullName -pa $keyContainerName "BUILTIN\IIS_IUSRS"
 & $exe.FullName -pa $keyContainerName "NT SERVICE\WMSVC"
@@ -217,7 +223,8 @@ foreach ($ele in $applicationHostConfigFile.configuration.configProtectedData.pr
     $ele.SetAttribute("useFIPS", "true")
   }
 }
-$applicationHostConfigFile.Save($applicationHostConfigPath) 
+$applicationHostConfigFile.Save($applicationHostConfigPath)
+Write-Host "Script ran successfully. Key container $keyContainerName created. Provider $providerName added." 
 ```
 
 ## Back-end databases that work with Skype for Business Server 2019
