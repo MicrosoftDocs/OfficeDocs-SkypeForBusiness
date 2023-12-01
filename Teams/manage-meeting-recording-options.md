@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 11/13/2023
+ms.date: 12/01/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -31,6 +31,7 @@ The following table shows the features available to help you manage meeting reco
 |:------|:----------:|:---------------:|:------:|:---------------:|
 |Meeting recording overall|Yes|No|No|No|
 |Who can record|No|Yes|Yes|Yes|
+|Require participant agreement for recording|Yes|No|No|No|
 |Record automatically|No|Yes|Yes|Yes|
 |Recording expiration|Yes|No|No|No|
 
@@ -41,11 +42,15 @@ The Teams Administrator has overall control over whether meeting recording is en
 There are two options for who can record a meeting:
 
 - Organizers and co-organizers
-- Organizers and presenters
+- Organizers, co-organizers, and presenters
 
-This choice is normally made by the meeting organizer when they create the meeting. If you have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a meeting template or sensitivity label. 
+This choice is normally made by the meeting organizer when they create the meeting. If you have meetings where sensitive information is being shared and you want to limit the ability to record to organizers only, you can enforce this setting by using a meeting template or sensitivity label.
 
-If you need to prevent meetings from being recorded entirely, you must configure the **Meeting recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify and can't be applied via a meeting template or sensitivity label.
+If you need to prevent meetings from being recorded entirely, you must configure the **Meeting recording** meetings policy in the Teams admin center. This setting applies to the people or groups that you specify. It can't be applied via a meeting template or sensitivity label.
+
+## Require participant agreement for recording
+
+You can require participants to agree to being recorded before they can unmute or turn on their camera. Consent results are stored in the meeting attendance report. This is controlled through a Teams meeting policy. For details, see [Require participant agreement for recording](meeting-recording.md#require-participant-agreement-for-recording).
 
 ## Automatic recording
 
@@ -68,7 +73,7 @@ The expiration feature is meant for removing old recordings to save storage spac
 
 ## Configure recording options for your organization
 
-For information about configuring admin meeting policies for meeting recordings and enabling explicit recording consent, see [Teams meeting recording](meeting-recording.md).
+For information about configuring admin meeting policies for meeting recordings, see [Teams meeting recording](meeting-recording.md).
 
 For details about enforcing settings by using meeting templates and sensitivity labels, see [Configure Teams meetings with protection for sensitive data](configure-meetings-sensitive-protection.md) and [Configure Teams meetings with protection for highly sensitive data](configure-meetings-highly-sensitive-protection.md).
 
