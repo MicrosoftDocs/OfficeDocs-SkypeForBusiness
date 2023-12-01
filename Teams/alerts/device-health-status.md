@@ -79,9 +79,9 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 
 ```json
 {
-    "AlertTitle":"*sample_device_name* of *User_Name* has become offline",
-    "DeviceLoggedInUserId": *User_GUID* ,
-    "DeviceId": *Device_GUID* ,  
+    "AlertTitle":"sample_device_name of User_Name has become offline",
+    "DeviceLoggedInUserId": User_GUID ,
+    "DeviceId": Device_GUID ,  
     "MetricValues": { 
        "DeviceHealthStatus": "offline" 
            },
@@ -90,7 +90,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
     "RuleDescription": "Alerts when device health status is detected as offline" ,
     "RuleFrequency": "Real-time" ,
     "RuleType": "Device Management" ,
-    "TenantId": *Tenant_GUID* , 
+    "TenantId": Tenant_GUID , 
     "RuleCondition": "DeviceHealthStatus = Offline" , 
     "AlertRaisedAt": "2020-02-28T12:49:06Z" 
  }
