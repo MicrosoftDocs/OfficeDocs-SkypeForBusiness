@@ -125,7 +125,7 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 
 1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
 
-1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from Dataverse](#delete-student-information-from-data-verse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from Dataverse](#delete-student-information-from-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
 
 #### Delete student information from Dataverse
 
