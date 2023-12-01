@@ -123,9 +123,28 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 
 1. Manually updated information for parent contact details doesn't update the SDS contact information. It also doesn't update or tamper with the information stored in the SIS your school is using. 
 
-1. If there's a change in the parent contact details in SDS and is manually updated as well, the latest change is considered and stored in the final data storage of the substrate. 
+1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
 
-1. If a class teacher or class student is deleted, the parent contact information is not deleted automatically. To delete the contact information for parent, see Data deletion inside dataverse.docx (sharepoint.com). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from Dataverse](#delete-student-information-from-data-verse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+
+#### Delete student information from Dataverse
+
+To delete student data stored in the Dataverse:
+
+1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
+
+1. In the left panel, navigate to **Tables** under **Data**.
+    :::image type="content" source="media/delete-data-verse/delete-student-1.png" alt-text="Screenshot of selecting tables from Power Automate.":::
+
+1. Under **Tables**, select the **All** tab, and then select the **Approval** table.
+   :::image type="content" source="media/delete-data-verse/delete-student-2.png" alt-text="Screenshot of Tables view."::: 
+
+1. In the **Approvals** table, add the **Partner Id Hash** column.
+    :::image type="content" source="media/delete-data-verse/delete-student-3.png" alt-text="Screenshot of Approvals table.":::
+1. Select the **Partner Id Hash** dropdown and in the **Filter by window**, enter **student object ID**, and select **Apply**.
+    :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student id column.":::
+1. From the displayed list, select the rows to delete the required student data.
+    :::image type="content" source="media/delete-data-verse/delete-student-5.png" alt-text="Screenshot of displayed data.":::
 
 For more questions, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback).
 
