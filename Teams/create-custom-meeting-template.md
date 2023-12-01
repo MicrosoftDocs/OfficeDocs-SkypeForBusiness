@@ -1,5 +1,5 @@
 ---
-title: Create a custom meeting template in Microsoft Teams
+title: IT admins - Create a custom meeting template in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -21,7 +21,7 @@ appliesto:
 description: Learn how Microsoft Teams administrators can create a custom meeting template to set or enforce meeting organizer options for enhanced meeting security and compliance.
 ---
 
-# Create a custom meeting template in Microsoft Teams
+# IT admins - Create a custom meeting template in Microsoft Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
@@ -32,7 +32,7 @@ You can create up to 50 custom templates. See [Manage meeting templates in Micro
 For each option in the template, you can define the following:
 
 - **Default value** - This is the value that is applied to a meeting when the template is used.
-- **Visible** - This determines if the meeting organizer can see this option.
+- **Visibility** - This determines if the meeting organizer can see this option.
 - **Lock status** - This determines if the meeting organizer can change the option that was set by the template. If the option is locked, the meeting organizer can't change it.
 
 ## Video demonstration
@@ -64,12 +64,12 @@ Note that if you change the options of an existing template, it will affect new 
 
 |Option|Description|
 |:------|:----------|
-|Sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain options in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the option unlocked.|
+|Apply sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain options in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the option unlocked.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
-|End-to-end encryption|Specify if you want the meeting to use end-to-end encryption. Recording and transcription won't work if this is on.|
+|End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription won't work if this is on.|
 |Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
-|Enable watermark for video|Specifies if a watermark is overlaid on attendees video feeds in the meeting.|
+|Enable watermark for video|Specifies if a watermark is overlaid on attendees' video feeds in the meeting.|
 
 #### Audio & video
 
@@ -83,13 +83,14 @@ Note that if you change the options of an existing template, it will affect new 
 |Option|Description|
 |:------|:----------|
 |Record meetings automatically|When **On** meetings are recorded automatically.|
-|Who can record|Specifies whether meetings can be recorded by organizers only or by organizers and presenters.|
+|Who can record|Specifies whether meetings can be recorded by organizers and co-organizers only or by organizers, co-organizers, and presenters.|
+|Copilot|Specifies if Copilot uses a meeting transcript.|
 
 #### Roles
 
 |Option|Description|
 |:------|:----------|
-|Announce when people dialing in join or leave|Specify if you want a sound to play when people calling in by phone join or leave the meeting.|
+|Announce when people dialing in join or leave|Specifies if a sound is played when people calling in by phone join or leave the meeting.|
 
 #### Meeting engagement
 
