@@ -76,11 +76,11 @@ Both meeting templates and sensitivity labels have the ability to enforce certai
 > [!Important]
 > Some features are [controlled by admin policies](meeting-templates-sensitivity-labels-policies.md#policies-labels-templates-and-meetings-settings) and must be enabled there before they can be controlled by meeting templates and sensitivity labels.
 
-Some settings are only available in sensitivity labels and some are only available in templates. The following are available in both:
+Some options are only available in sensitivity labels and some are only available in templates. The following are available in both:
 
 - Chat
 - End-to-end encryption
-- Lobby settings
+- Lobby options
 - Meeting recording
 - Watermarking
 
@@ -111,7 +111,7 @@ As an admin, you can control meeting recordings in the following ways:
 
 If your organization or certain people or groups within it should never be able to record meetings, you can turn off the feature by using the **Meeting recording** admin meeting policy.
 
-If there are certain types of meetings that must always be recorded, you can enforce the **Record automatically** setting using either a meeting template or a sensitivity label.
+If there are certain types of meetings that must always be recorded, you can enforce the **Record automatically** option using either a meeting template or a sensitivity label.
 
 Within the three tiers discussed here, recording is disabled in highly sensitive meetings because we're using end-to-end encryption and watermarks on shared content and video. If you need to be able to record highly sensitive meetings, make sure you don't enforce watermarks or end-to-end encryption with the sensitivity label. Meeting organizers can still use end-to-end encryption and apply watermarks if a given meeting isn't being recorded.
 
@@ -150,9 +150,9 @@ As an admin, you can control the lobby in the following ways:
 
 These options are also available to the meeting organizer unless they've been locked by a sensitivity label or template.
 
-If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these settings.
+If you're in a highly regulated industry and you need to manually admit each attendee to all meetings in your organization, you can configure the lobby by using admin meeting policies in the Teams admin center. If your organization has different types of meetings that have different lobby requirements, then we recommend using meeting templates or sensitivity labels to configure these options.
 
-While the admin policy sets a default, you need a template or label to enforce a lobby setting.
+While the admin policy sets a default, you need a template or label to enforce a lobby option.
 
 For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md)
 

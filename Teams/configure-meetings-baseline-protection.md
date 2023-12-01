@@ -28,11 +28,11 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 For the *baseline* level of protection, we restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
 > [!Note]
-> Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
+> Meeting options in sensitivity labels and custom meeting templates require Teams Premium.
 
-The following table describes which actions we restrict for baseline meetings and where those settings are configured.
+The following table describes which actions we restrict for baseline meetings and where those options are configured.
 
-|Feature|Setting|Location|Enforced|
+|Feature|Option|Location|Enforced|
 |:------|:------|:-------|:-------|
 |Allow camera for attendees|**On**|Template|No|
 |Allow mic for attendees|**On**|Template|No|
@@ -54,7 +54,7 @@ Options that are listed as enforced are enforced by the sensitivity label or mee
 
 The default value for **Who can present** is **Everyone**. For the baseline protection tier, we set a more secure default of **People in my org and guests** which meeting organizers can change if they want.
 
-We can set this value with a sensitivity label, but the value would be enforced for any meetings with that label. This setting isn't available in meeting templates, so we set it in the Teams admin center.
+We can set this value with a sensitivity label, but the value would be enforced for any meetings with that label. This option isn't available in meeting templates, so we set it in the Teams admin center.
 
 To configure who can present 
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
@@ -79,10 +79,10 @@ If you already have sensitivity labels deployed in your organization, consider h
 To create a sensitivity label
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
 1. Under **Solutions**, expand **Information protection** and then select **Labels**.
-1. Click **Create a label**.
+1. Select **Create a label**.
 1. Give the label a name. We suggest **Sensitive**, but you can choose a different name if that one is already in use.
-1. Add a display name and description, and then click **Next**.
-1. On the **Define the scope for this label** page, make sure **Items** and **Meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
+1. Add a display name and description, and then select **Next**.
+1. On the **Define the scope for this label** page, make sure **Items**, **Files**, **Emails**, and **Meetings** are selected. (Note that you can select other options if you want to use this label for other purposes.)
 1. Select **Next**.
 1. On the **Choose protection settings for labeled items** page, select **Protect Teams meetings and chats** and then select **Next**
 1. On the **Settings for Teams meetings and chats** page, choose the following values:
@@ -91,9 +91,9 @@ To create a sensitivity label
     1. Configure any other settings that you need for your organization.
     ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-baseline-small.png)
 1. Select **Next**.
-1. Complete the wizard with any additional settings you want to use, and then select **Create label**, and then select **Done**.
+1. Complete the wizard with any additional settings you want to use, select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** tab of the **Information protection** page. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
 For additional information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 
@@ -103,7 +103,7 @@ In the *baseline* level of protection, we use the template to set a default valu
 
 We also prevent people dialing in by phone from bypassing the lobby. You can omit this setting if your organization frequently holds meetings where dial-in participants should be able to join directly. If there are certain types of meetings where this is true, consider using a separate template for those meetings.
 
-If you've chosen to disable watermarks and end-to-end encryption in the sensitivity label, you can also use the template to hide those settings from the meeting organizer.
+If you've chosen to disable watermarks and end-to-end encryption in the sensitivity label, you can also use the template to hide those options from the meeting organizer.
 
 To create a custom meeting template
 
@@ -114,10 +114,10 @@ To create a custom meeting template
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. In the **Lobby** dropdown, select **People in my org, trusted orgs, and guests**.
 1. Make sure **People dialing in can bypass the lobby** is set to **Off**, then select it and select **Lock**.
-1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those settings here and selecting **Hide** so meeting organizers won't see them.
-1. Change any additional settings if desired.
-1. To prevent the meeting organizer from changing a setting, select the setting and then select **lock**.
-1. To prevent the meeting organizer from seeing a setting, select the setting and then select **Hide**.
+1. If you've disabled watermarks and end-to-end encryption with the sensitivity label, consider selecting those options here and selecting **Hide** so meeting organizers won't see them.
+1. Change any additional options if desired.
+1. To prevent the meeting organizer from changing an option, select the option and then select **lock**.
+1. To prevent the meeting organizer from seeing an option, select the option and then select **Hide**.
 1. Select **Save**.
 
 ## Related topics
