@@ -244,19 +244,19 @@ Teams Premium bundles a large set of advanced Teams features under a single lice
 
 Teams Premium is licensed on a per-user subscription basis and is subject to the [Universal Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all). You should plan to assign a Teams Premium user subscription license to every user you want to provide Teams Premium features for.
 
-### Which features provide value to organizers or attendees?
+### Which features are applied to organizers, attendees/users, or admins?
 
 Which Teams experience a user has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
 
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
 - **Organizer-based features:** Some Teams Premium features are applied at the organizer level. If an event organizer has a Teams Premium license, the organizer-based features are shared and made accessible to the attendees only during the event.
-- **Attendee-based features:** Some Teams Premium features are applied at the attendee level. These Teams Premium features aren't shared or made accessible to other attendees during the event and only benefit the Teams Premium licensed users.
+- **Attendee-based features:** Some Teams Premium features are applied at the attendee/user level. These Teams Premium features aren't shared or made accessible to other attendees during the event and only benefit the Teams Premium licensed users.
 - **Admin-based features:** Some Teams Premium features primarily benefit an organization's IT admins. These features are only accessible to Teams admins with a Teams Premium license.
 
 The following table shows which Teams Premium features provide primary value to organizers, attendees, or IT admins.
 
-| Premium Value | Features Applied at Organizer Level | Features Applied at Attendee Level | Features Applied at the IT Admin Level |
+| Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
 | **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
 | **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding | ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages |  |
