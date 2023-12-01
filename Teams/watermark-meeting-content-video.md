@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: sadafbadar
 ms.date: 04/14/2023
 audience: admin
 ms.localizationpriority: medium
@@ -25,7 +25,7 @@ description: Learn how to enable or require watermarks on attendee video and sha
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Each participant will see their own email address overlaid on the meeting video or shared content. This deters participants from taking unauthorized screenshots of the meeting content. 
+You can enable a watermark to be displayed in Teams meetings both for content shared on screen and for attendee video. The watermark displays the email address of the meeting participant. Each participant will see their own email address overlaid on the meeting video or shared content. This deters participants from taking unauthorized screenshots of the meeting content.
 
 Watermarks are supported on Teams desktop, mobile, and Microsoft Teams Rooms. People joining meetings from unsupported platforms will have an audio-only experience.
 
@@ -89,7 +89,7 @@ To configure watermarking for meetings
 
     ![Screenshot of Teams admin policy for watermarks](media/watermark-admin-policy.png)
 
-1. To see how the watermark will look on desktop and mobile devices, select **Preview**.
+1. To set the watermark pattern or transparency, or see a preview, select **Edit settings**. Select **Apply** if you make changes.
 
 1. Select **Save**.
 

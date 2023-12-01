@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: maahma
 ms.date: 09/28/2022
 audience: admin
 ms.localizationpriority: medium
@@ -48,9 +48,9 @@ During an end-to-end encrypted meeting, Teams secures the following features:
 
 The following features aren't available during an end-to-end encrypted meeting:
 
-- Live captions and transcription
-
 - Recording
+
+- Live captions and transcription
 
 - Together mode, companion mode, large gallery
 
@@ -60,7 +60,7 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 - Excel Live
 
-If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. For an end-to-end encrypted meeting if an individual who needs compliance recording tries to join, they will be blocked from joining. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
+If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. An individual who needs compliance recording can't join an end-to-end encrypted meeting. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
 ## Enable end-to-end encryption for meetings
 
@@ -74,7 +74,7 @@ To enable end-to-end encryption for meetings
 
 1. Select the policy you want to update.
 
-1. Set **End-to-end meeting encryption**, to **Off, but organizers and co-organizers can turn them on**.
+1. Set **End-to-end meeting encryption**, to **Not enabled, but users can enable**.
 
 1. Select **Save**.
 
