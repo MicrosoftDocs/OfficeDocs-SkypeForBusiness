@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 11/09/2023
+ms.date: 12/01/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -29,7 +29,7 @@ Along with our latest innovations in speed, performance, flexibility, and intell
 The new Teams update is seamless for our Education users. Updating is quick and easy and users will be able to pick up exactly where they left off after updating to new Teams.  
 
 >[!Note]
->The new Microsoft Teams for Education is currently only available for Windows and Mac. The web version of new Teams for Education is not yet available, but coming soon.
+>New Teams for Education is available for web for Edge and Chrome. It will be available for other web browsers in early 2024.
 
  
 ## Update schedule
@@ -49,7 +49,7 @@ Administrators can choose to update their users to new Teams on a different sche
 
 ## Set policies for update
 
-It's important that school IT administrators set the policy to update to new Teams for their users. 
+It's important that school IT administrators set the policy to update to new Teams for their users. The same policies apply when updating to new Teams for Education for all platforms: Windows, Mac, and Web.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/). 
 2. Select **Teams > Teams Update policies** from the left navigation pane. 
