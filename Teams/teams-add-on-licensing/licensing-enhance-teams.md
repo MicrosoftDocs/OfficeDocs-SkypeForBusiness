@@ -256,8 +256,8 @@ For example, in a Teams meeting, Teams checks each users’ type of Teams licens
 
 The following table shows which Teams Premium features provide primary value to organizers, attendees, or IT admins.
 
-| Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
-| ------------- | :---------------------------------- | :-------------------------------------- | :------------------------------------- |
+| Premium Value | Features Applied at Organizer Level | Features Applied at Attendee Level | Features Applied at the IT Admin Level |
+| ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
 | **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
 | **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding | ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages |  |
 | **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization |  |
