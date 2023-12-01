@@ -75,7 +75,26 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 } 
 ``` 
 
-  **Sample JSON payload**:<br/> <br/> <pre lang="JSON">    { <br/>      "AlertTitle":"*sample_device_name* of *User_Name* has become offline",<br/>      "DeviceLoggedInUserId": *User_GUID* ,<br/>      "DeviceId": *Device_GUID* , <br/>      "MetricValues": { <br/>         "DeviceHealthStatus": "offline" <br/>            }, <br/>        <br/>       "RuleName": "Device state rule" ,<br/>       "RuleDescription": "Alerts when device health status is detected as offline" ,<br/>       "RuleFrequency": "Real-time" ,<br/>       "RuleType": "Device Management" ,<br/>       "TenantId": *Tenant_GUID* , <br/>       "RuleCondition": "DeviceHealthStatus = Offline" , <br/>       "AlertRaisedAt": "2020-02-28T12:49:06Z" <br/>    }  </pre> <br/> 
+  **Sample JSON payload**:
+
+```json
+{
+    "AlertTitle":"*sample_device_name* of *User_Name* has become offline",
+    "DeviceLoggedInUserId": *User_GUID* ,
+    "DeviceId": *Device_GUID* ,  
+    "MetricValues": { 
+       "DeviceHealthStatus": "offline" 
+           },
+
+    "RuleName": "Device state rule" ,
+    "RuleDescription": "Alerts when device health status is detected as offline" ,
+    "RuleFrequency": "Real-time" ,
+    "RuleType": "Device Management" ,
+    "TenantId": *Tenant_GUID* , 
+    "RuleCondition": "DeviceHealthStatus = Offline" , 
+    "AlertRaisedAt": "2020-02-28T12:49:06Z" 
+ }
+```
 
 ## Select devices for configuration
 
