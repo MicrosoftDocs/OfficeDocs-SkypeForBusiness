@@ -40,6 +40,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 
 | Console | Processor | RAM | Disk |
 |:-|:-|:-|:-|
+| [Arena NUC (compute) with Logitech TAP Console](https://www.logitech.com/en-us/video-collaboration/partners/microsoft.html) | Core i5 | 16 GB | 256 GB |
 | [Crestron Flex UC-M130-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T) | Core i5 | 8 GB | 128 GB |
 | [Crestron Flex UC- B130-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T) | Core i5 | 8 GB | 128 GB |
 | [Crestron Flex UC-B140-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T) | Core i5 | 8 GB | 128 GB |
@@ -84,11 +85,11 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
 | [HP Presence Small Space Solution with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
 | [HP Presence Small Space Solution Plus AI Camera with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
-| Lenovo ThinkSmart Hub Gen 2 | Core i5 | 16 GB | 128 GB |
+| [Lenovo ThinkSmart Hub Gen 2](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-hub-60/11sp1tshb60) | Core i5 | 16 GB | 128 GB |
 | [Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) | Core i5 | 16 GB | 128 GB |
-| Lenovo ThinkSmart One + Controller | Core i5 | 16 GB | 256 GB |
-| Lenovo ThinkSmart Core + IP Controller | Core i5 | 16 GB | 256 GB |
-| Lenovo ThinkSmart One + IP Controller | Core i5 | 16 GB | 256 GB |
+| [Lenovo ThinkSmart One + Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-one-plus-controller-for-teams/len102e0006) | Core i5 | 16 GB | 256 GB |
+| [Lenovo ThinkSmart Core + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-core-plus-ip-controller-for-microsoft-teams-rooms/len102e0015) | Core i5 | 16 GB | 256 GB |
+| [Lenovo ThinkSmart One + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-one-plus-ip-controller-for-teams/12bw0002us) | Core i5 | 16 GB | 256 GB |
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
@@ -100,6 +101,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Poly GC8 Console with Lenovo Thinksmart Core | Core i5 | 8 GB | 128 GB |
 | Poly GC8 Console with Dell Optiplex 7080 | Core i5 | 8 GB | 128 GB |
 | [Poly GC8 Console with HP 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows) | Core i7 | 16 GB | 256 GB |
+| [Yealink Core2 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html) | Core i5 | 8 GB | 128 GB |
@@ -116,7 +118,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Yealink MVC640](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640-iii) | Core i5 | 8 GB | 128 GB |
 | Yealink MVC320 | Core i5 | 8 GB | 128 GB |
 | Yealink MVC340 | Core i5 | 8 GB | 128 GB |
-| Yealink MCore 3 Kit | Core i5 | 8 GB | 128 GB |
+| [Yealink MCore 3 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S60](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs60) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
