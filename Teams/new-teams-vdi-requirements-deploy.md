@@ -208,7 +208,7 @@ Excluding these items helps reduce the user caching size to further optimize a n
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
 
-Excluding the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.) can reduce storage significantly. It can also have an impact on performance as users would lose caching benefits.
+Excluding the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.) can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
  
 >[!Note]
