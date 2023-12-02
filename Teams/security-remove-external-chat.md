@@ -3,7 +3,7 @@ title: Remove an external chat from a user's view in Microsoft Teams (admin)
 author: dansimp
 ms.author: dansimp
 manager: dansimp
-ms.date: 11/16/2023
+ms.date: 12/01/2023
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
