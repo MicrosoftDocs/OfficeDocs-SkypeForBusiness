@@ -34,7 +34,7 @@ Custom meeting backgrounds are images that you, as an admin, can upload for your
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. Using custom meeting backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of your organization's brand management and corporate communications teams, you can easily set up and create custom meeting backgrounds for various business units and departments within a single tenant.
 
-Custom meeting backgrounds are only available for you and Teams Premium licensed users that you assign this custom background policy to. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
+Only you and Teams Premium licensed users that you assign this custom background policy can use custom meeting backgrounds during meetings. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
 
 In town halls, organizers, co-organizers, and presenters in your org can use the custom meeting backgrounds that you created.
 
