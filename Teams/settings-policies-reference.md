@@ -823,20 +823,20 @@ Choose who can attend events and customize registration options for webinars.
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Webinars|On|When **On**, organizers can create webinars.|
-|Who can attend webinars|Everyone|When **On**, attendees can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
+|Who can attend webinars|Everyone|When **On**, all attendees can attend webinars.|
 |Town halls|On| When **On**, organizers can create town halls.|
 |Customize event emails|On| When **On**, organizers can customize event email templates for webinars and town halls.|
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
 
-**PowerShell-only calling policies**
+#### PowerShell-only events policies
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |EventAccessType|None|This setting controls which users can join events, access event registration pages, and register on  event sites.|
 
-#### Related topics for events policies
+##### Related topics for events policies
 
 - [Plan for town halls](plan-town-halls.md)
 - [Plan for webinars](plan-webinars.md)
