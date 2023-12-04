@@ -128,7 +128,7 @@ There are two types of real time monitoring for town halls.
 
    You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.
 
-   To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality.](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
+   To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
 
 1. **Real time monitoring of the attendee experience (Teams Premium)**
 
