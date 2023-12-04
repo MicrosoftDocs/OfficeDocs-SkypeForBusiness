@@ -40,7 +40,7 @@ Only you and Teams Premium licensed users that you assign this custom background
 
 Before setting up custom meeting backgrounds for your Teams meetings, check to make sure you have the following items:
 
-- The users you'd like to use custom backgrounds have a Teams Premium license.
+- The users who need to use custom backgrounds have a Teams Premium license.
 - You’re an admin with access to the Teams admin center or you were assigned a customization policy.
 - Your background images meet the [required specifications](#add-custom-background-images).
 
