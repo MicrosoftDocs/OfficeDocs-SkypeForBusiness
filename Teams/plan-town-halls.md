@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 11/7/2023
+ms.date: 12/4/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -70,7 +70,7 @@ If you'd like to get familiar with how policies work for Teams meetings and even
 
 For a full list of admin policies and organizer settings for town halls, see the [Town hall control comparison](#town-hall-control-comparison) section in this article.
 
-## In-org vs public town halls
+## Decide the types of town halls that organizers can create
 
 When managing the event access type for town halls to decide whether organizers can schedule public town halls, consider the following points:
 
@@ -155,7 +155,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their town halls. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 [Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
 |[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
-[Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can decide if Q&A is available for their town halls if allowed by admins. Q&A is the only way attendees can interact and engage with presenters and organizers.|
 |[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
 |[Recording expiration](meeting-recording.md)|Can manage whether recordings automatically expire. |By default, published recordings expire after 30 days. Organizers can extend the expiration date to 60 days. After the new date passes, they must reupload and republish the file to keep sharing.|
@@ -164,6 +163,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can us speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
 |[Town hall usage report](teams-analytics-and-reports/teams-town-hall-usage-report.md)|View activity and usage trends for all town halls created in your organization.| No control. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
+[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 
 ## Need help with your town hall?
 
