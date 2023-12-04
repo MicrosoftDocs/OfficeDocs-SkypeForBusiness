@@ -3,7 +3,7 @@ title: Manage and upload custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
-ms.date: 10/23/2023
+ms.date: 12/4/2023
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -64,11 +64,10 @@ To enable the custom background policy, follow these steps:
 
 4. Within your chosen policy, navigate to the **Meeting Backgrounds** section.
 5. Toggle the **Use background images from my organization** setting from **Off** to **On** to enable the setting.
-6. Select **Save**
 
 ### Add custom background images
 
-When you’ve saved the policy, an **+Add** button appears. Once you select **+Add**, a pane called **Managing Backgrounds** opens, allowing you to add your custom background images.  These images are displayed on the end users’ interfaces, ordered by the time of upload.
+When you toggle **Use background images from my organization** to **On**, an **+Add** button appears. Once you select **+Add**, a pane called **Managing Backgrounds** opens, allowing you to add your custom background images.  These images are displayed on the end users’ interfaces, ordered by the time of upload.
 
 Uploaded images must adhere to the following parameters. You can upload:
 
@@ -78,7 +77,7 @@ Uploaded images must adhere to the following parameters. You can upload:
 - A maximum of 50 custom background images.
 
 > [!NOTE]
-> Only end users with a Teams Premium license have these images in their Background Settings panel to use during meetings.
+> Only end users with a Teams Premium license have these images in their background settings panel to use during meetings.
 
 ### Save custom background images
 
