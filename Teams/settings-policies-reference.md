@@ -572,8 +572,6 @@ Meeting policies are used to control what features are available in meetings org
 
 Use customization policies to customize the look of Teams meetings with your organization's logo, colors, or other visuals. These settings require a Teams Premium license.
 
-:::image type="content" source="media/teams-meetings-customization-policies-small.png" alt-text="Screenshot of Teams meetings customization policies." lightbox="media/teams-meetings-customization-policies.png":::
-
 :::image type="content" source="media/customization-policies-tac.png" alt-text="Screenshot of Teams meeting customization policies in the Teams admin center." lightbox="media/customization-policies-tac-expand.png":::
 
 #### Custom meeting visuals
@@ -582,15 +580,15 @@ Use customization policies to customize the look of Teams meetings with your org
 |:-----|:-----|:-----|
 |Currently Active|No|After adding a theme, you'll see this toggle. This setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
 |Allow organizer to control meeting theme|Off|When this setting is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
-|Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
+|Apply background blur when no effect is selected|Off|When **On**, you can automatically apply a background blur to any users that aren't using any video effects or background images during meetings.|
+|Use background images from my organization|Off|When **On** you can upload custom background images for Teams meetings that appear on your end users' interfaces, ordered by the time of upload.|
 
 ##### Related topics for customization policies
 
-- [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
-- [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
-- [Set up webinars in Microsoft Teams](set-up-webinars.md)
 - [Meeting themes for Teams meetings](meeting-themes.md)
 - [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
+- [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
+- [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
 
 ### Meeting settings
 
@@ -600,7 +598,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/teams-meeting-settings-participants.png" alt-text="Screenshot of Teams meeting settings for anonymous participants.":::
+:::image type="content" source="media/participants-tac.png" alt-text="Screenshot of Teams meeting settings for anonymous participants in the Teams admin center." lightbox="media/participants-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -611,11 +609,31 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 [Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md)
 
+#### Cross-cloud meetings
+
+**Navigation:** Teams admin center > Meetings > Meeting settings
+
+:::image type="content" source="media/cross-cloud-tac.png" alt-text="Screenshot of Teams meeting cross cloud settings in the Teams admin center." lightbox="media/cross-cloud-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Microsoft Azure Government|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Government.|
+|Microsoft Azure China|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure China.|
+|Microsoft Azure Commercial|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Commercial.|
+|Add with tenant ID |None|Add the tenant ID of the organization you want to connect to.|
+|Add with tenant FQDN |None|Add the tenant FQDN of the organization you want to connect to.|
+|Inbound connections|Off|When **On**, users from another organization in a different cloud environment can join meetings hosted by your organization.|
+|Outbound connections|Off|When **On**, users in your organization can join meetings hosted by an organization in another cloud environment.|
+
+##### Related topics for cross-cloud meetings
+
+[Meet with people in other Microsoft 365 cloud environments](cross-cloud-meetings.md)
+
 #### Email invitation
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/teams-meeting-settings-email-invitation.png" alt-text="Screenshot of Teams meeting settings for email invitations.":::
+:::image type="content" source="media/email-invitation-tac.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-invitation-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -632,7 +650,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/teams-meeting-settings-network.png" alt-text="Screenshot of Teams meeting settings for network.":::
+:::image type="content" source="media/network-tac.png" alt-text="Screenshot of Teams meeting network settings in the Teams admin center." lightbox="media/network-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
