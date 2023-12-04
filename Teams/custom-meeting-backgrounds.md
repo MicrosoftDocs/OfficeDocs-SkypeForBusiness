@@ -34,9 +34,7 @@ Custom meeting backgrounds are images that you, as an admin, can upload for your
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. Using custom meeting backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of your organization's brand management and corporate communications teams, you can easily set up and create custom meeting backgrounds for various business units and departments within a single tenant.
 
-Only you and Teams Premium licensed users that you assign this custom background policy can use custom meeting backgrounds during meetings. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
-
-In town halls, organizers, co-organizers, and presenters in your org can use the custom meeting backgrounds that you created.
+Only you and Teams Premium licensed users that you assign this custom background policy to can use custom meeting backgrounds during meetings. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
 
 ## Prerequisites
 
@@ -86,7 +84,7 @@ You can find previews of your uploaded images in a new table under the **Meeting
 
 You can decide to only show the custom backgrounds you upload in your users' gallery.
 
-To only show the custom backgrounds you upload, follow these steps:
+To only show the custom backgrounds that you upload, follow these steps:
 
 1. Select **Meetings** from the navigation pane in the Teams Admin Center
 2. Under Meetings, select **Meeting Policies** and select an existing policy, or create a new one.
@@ -97,7 +95,7 @@ To only show the custom backgrounds you upload, follow these steps:
 7. Select **Save**
 
 > [!NOTE]
-> You must set **Participants can use video effects** to **Off** or **Only background blur** to only show custom backgrounds in your users' gallery.
+> You must set **Participants can use video effects** to **Off** or **Only background blur** to only show your custom backgrounds in your users' gallery.
 
 ## Apply a blur for users with no backgrounds
 
