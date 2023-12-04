@@ -830,6 +830,12 @@ Choose who can attend events and customize registration options for webinars.
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
 
+**PowerShell-only calling policies**
+
+|Parameter|Default|Description|
+|:-----|:-----|:-----|
+|EventAccessType|None|This setting controls which users can join events, access event registration pages, and register on  event sites.|
+
 #### Related topics for events policies
 
 - [Plan for town halls](plan-town-halls.md)
