@@ -141,7 +141,7 @@ The Teams app updates for paired Microsoft Teams Rooms running Android and their
 
 **For manual updates** - Whenever an update is being done for Microsoft Teams Rooms running Android  or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
 
-**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](https://https://learn.microsoft.com/en-us/microsoftteams/devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
+**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](/../devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
 
 #### Conditions for updates to happen during sync
 
