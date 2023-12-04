@@ -1,7 +1,7 @@
 ---
 title: Manage VOD publishing for webinars and town halls
 ms.reviewer: sachung
-ms.date: 11/30/2023
+ms.date: 12/4/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -41,11 +41,16 @@ For more information on publishing webinar and town halls for your end users, se
 You can use the Teams admin center to manage VOD publishing permissions for webinars and town halls.
 
 1. Open the Teams admin center.
-2. Select Meetings from the navigation pane.
-3. Under Meetings, select Events Policies.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
-5. Choose your setting for **Allowed webinar types for recordings** and **Allowed town hall types for recordings**.
-6. Select Save
+5. Choose one of the following values for **Allowed webinar types for recordings** and **Allowed town hall types for recordings**:
+
+    - Not allowed
+    - Invite only
+    - Your organization
+
+6. Select Save.
 
 ## Manage VOD publishing permissions using PowerShell
 
