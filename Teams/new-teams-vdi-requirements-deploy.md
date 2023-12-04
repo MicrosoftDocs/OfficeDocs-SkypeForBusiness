@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 11/29/2023
+ms.date: 11/30/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -144,7 +144,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
 2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409)
 3. Open the Command Prompt as an Admin.
-4. Depending on where your MSIX is located, do the following:
+4. Depending on where your MSIX is located, do the following steps:
 </br>
 
  **For local path, enter:** *.\teamsbootstrapper.exe -p -o "c:\path\to\teams.msix"*
@@ -185,6 +185,15 @@ The classic Teams client and the new Teams client have different install locatio
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
 
 
+## Remove new Teams for all users
+
+To uninstall and deprovision the new Teams for all users, use the following command: 
+
+```powershell
+./teamsbootstrapper -x
+```
+
+
 ## Profile and cache location for new Teams Client 
 
 All the user settings and configurations are now stored in: 
@@ -195,7 +204,11 @@ Make sure this folder is persisted for proper Teams functioning.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
+
+Excluding the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.) can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
  
 >[!Note]
@@ -220,7 +233,6 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 - Teams Premium features (E2EE, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations) 
 - Screen sharing from chat 
 - Presenter toolbar during a screen sharing session isn't shown. 
-- The self-preview in Settings / Devices isn't shown 
 - “Record video clip” doesn't capture screen share 
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
 
