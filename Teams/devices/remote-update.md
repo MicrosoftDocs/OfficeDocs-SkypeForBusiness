@@ -137,19 +137,18 @@ This video shows how to update Teams devices.
 
 ## Teams app updates for paired devices
 
-The Teams app updates for paired Microsoft Teams Rooms - Android (MTRoA) and their paired touch consoles will happen in sync to ensure a streamlined experience. This is applicable for both automatic and manual updates.
+The Teams app updates for paired Microsoft Teams Rooms running Android and their paired touch consoles will happen in sync to ensure a streamlined experience. This is applicable for both automatic and manual updates.
 
-**For manual updates** - Whenever an update is being done for an MTRoA or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
+**For manual updates** - Whenever an update is being done for Microsoft Teams Rooms running Android  or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
 
-**For automatic updates** - Automatic updates for MTRoA and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](https://https://learn.microsoft.com/en-us/microsoftteams/devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired MTRoA. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
+**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](https://https://learn.microsoft.com/en-us/microsoftteams/devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
 
-#### Conditions for updates to happen in sync
+#### Conditions for updates to happen during sync
 
-- If an MTRoA and the paired touch console(s) are on the same version and have an update available, they will both be updated in sync when one of them is updated.
-- If MTRoA and the paired touch console(s) are on different versions -
+- If Microsoft Teams Rooms on Android device and the paired touch console(s) are on the same version and have an update available, they will both be updated in sync when one of them is updated.
+- If Microsoft Teams Rooms on Android and the paired touch console(s) are on different versions -
    - **Manual updates** - Administrators should ensure that the device(s) on the lower version is brought to parity for the devices to be updated in sync to the new version.
-
-      - **Automatic updates** - The device(s) on the lower version will be first brought to parity automatically. Once the devices are on the same version, they will be updated to the new version together. In this scenario, the move to the new version may be delayed as the parity updates will happen first. This will be done to minimise conflicts between MTRoA and the paired console(s).
+   - **Automatic updates** - The device(s) on the lower version will be first brought to parity automatically. Once the devices are on the same version, they will be updated to the new version together. In this scenario, the move to the new version may be delayed as the parity updates will happen first. This will be done to minimise conflicts between MTRoA and the paired console(s).
 
 #### Tracking update status
 
@@ -157,7 +156,7 @@ Administrators can track the status of these update operations from the 'History
 
 ## Frequently asked questions about automatic updates
 
-1. **Which software components are automatically updated?** Both Firmware and Teams app are automatically updated for eligible devices. Automatic updates for Teams app is a feature still in early phase, therefore you might see some delays in device reaching the update phase. The gradual rollo-out of the feature is being done to ensure minimal impact on devices.
+1. **Which software components are automatically updated?** Both Firmware and Teams app are automatically updated for eligible devices. Automatic updates for Teams app is a feature still in early phase, therefore you might see some delays in device reaching the update phase. The gradual roll out of the feature is being done to ensure minimal impact on devices.
 
 2. **What makes a device eligible to receive automatic updates?** The following conditions should be satisfied for the device to be eligible for automatic updates:
    - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
