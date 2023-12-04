@@ -2,7 +2,7 @@
 title: "Microsoft Teams auto attendant supported languages"
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 02/05/2021
 ms.topic: article

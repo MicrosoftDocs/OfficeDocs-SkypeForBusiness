@@ -2,7 +2,7 @@
 title: Enterprise content delivery networks for streaming Microsoft Teams events
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

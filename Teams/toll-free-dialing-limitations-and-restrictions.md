@@ -1,8 +1,8 @@
 ---
 title: "Toll-free dialing limitations and restrictions"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
+ms.author: crowe
+author: CarolynRowe
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.date: 11/28/2017
 ms.topic: reference
@@ -25,12 +25,12 @@ ms.custom:
   - Calling Plans
   - Strat_SB_PSTN
   - seo-marvel-mar2020
-description: Learn about dialing toll-free numbers in a country/region, including availability, wired/fixed-line and mobile network availability, and restrictions.
+description: Learn about dialing toll-free numbers in a country/region, including availability, wired and fixed-line number, and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing limitations and restrictions
 
-This will help you find out how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
+This article describes how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that lists where toll free service is available including specific details, restrictions, and limits. The dialing format or formats  show you the required access codes within each country/region to dial the toll-free number.
   
 If you're ready, select a country or region:
   

@@ -2,7 +2,7 @@
 title: "Set up holidays in Microsoft Teams"
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 03/08/2019
 ms.topic: article

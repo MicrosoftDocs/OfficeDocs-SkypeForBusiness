@@ -1,8 +1,8 @@
 ---
 title: Export content with the Microsoft Teams Export APIs
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 audience: admin
 ms.service: msteams
@@ -118,6 +118,7 @@ Restricted to applications performing security and/or compliance functions, user
 |Partner Name|Partner Solution|
 |---|---|
 |![logo-of-smarsh](media/smarsh-logo.png) |[Microsoft Teams Archiving and Compliance](https://www.smarsh.com/channel/microsoft-teams/)|
+|:::image type="content" source="media/export-API-teams/proofpoint-logo-blacktype-final-5b.png" border="false" alt-text="Screenshot of logo of Proofpoint.":::|[Proofpoint Content Capture for Microsoft Teams](https://www.proofpoint.com/resources/data-sheets/proofpoint-content-capture-microsoft-teams)|
 
 ### General usage/Model B scenarios
 

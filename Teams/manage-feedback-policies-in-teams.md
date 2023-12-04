@@ -1,8 +1,8 @@
 ---
 title: Manage feedback policies in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: andrewklutz
 ms.date: 06/06/2019
 ms.topic: article

@@ -6,7 +6,7 @@ f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/15/2022
 audience: ITPro
 description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.

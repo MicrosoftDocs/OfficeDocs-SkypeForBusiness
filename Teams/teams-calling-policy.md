@@ -2,7 +2,7 @@
 title: 'Configure calling policies in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark

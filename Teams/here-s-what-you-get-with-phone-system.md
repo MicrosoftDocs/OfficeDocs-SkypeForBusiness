@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 08/15/2023
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 msreviewer: jastarck, roykuntz
 ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c

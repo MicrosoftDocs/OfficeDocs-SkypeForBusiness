@@ -4,7 +4,7 @@ author: tonysmit
 ms.author: tonysmit
 ms.reviewer: parisataheri
 ms.date: 03/29/2021
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams

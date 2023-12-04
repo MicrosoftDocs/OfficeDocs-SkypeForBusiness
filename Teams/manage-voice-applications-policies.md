@@ -2,7 +2,7 @@
 title: Manage voice applications policies for Microsoft Teams
 ms.author: danismith
 author: DaniEASmith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -31,7 +31,7 @@ Voice applications policies can be managed in the Microsoft Teams admin center.
 1. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 1. Navigate to **Voice** > **Voice applications policies**.
 
-Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cmdlets) in this article may be used.
+Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cmdlets) in this article can be used.
 
 ## Before creating and assigning voice applications policies
 
@@ -103,6 +103,9 @@ You can edit the global policy or any custom policies you create.
 - [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/remove-csteamsvoiceapplicationspolicy):
   - Delete an existing Teams voice applications policy.
 
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Set-CsTeamsVoiceApplicationsPolicy)
+  - Change an existing Teams voice applications policy.
+
 ## Voice applications policy settings
 
 > [!IMPORTANT]
@@ -133,7 +136,7 @@ You can edit the global policy or any custom policies you create.
 - **Holiday dates and hours**: Turn on this setting to allow authorized users to change the *Auto attendant holiday schedules* for the Auto attendants they're authorized for.
 
   > [!WARNING]
-  > Holiday sets may be shared across multiple auto attendants.  In order to successfully make a change to a holiday schedule that is shared across multiple auto attendants, the user must be configured as an authorized user for all the auto attendants that reference the holiday.
+  > Holiday sets can be shared across multiple auto attendants.  In order to successfully make a change to a holiday schedule that is shared across multiple auto attendants, the user must be configured as an authorized user for all the auto attendants that reference the holiday.
 
 #### Call Flow Routing
 
@@ -218,9 +221,9 @@ You can edit the global policy or any custom policies you create.
   - When set to **Takeover**, an authorized user can monitor an agent, whisper to them, barge in, and take over the inbound call queue call.
 
     > [!NOTE]
-    > An agent may only be monitored by one authorized user at a time.
+    > An agent can only be monitored by one authorized user at a time.
     >
-    > An authorized user may only be in one monitor session at a time.
+    > An authorized user can only be in one monitor session at a time.
 
 - **Agent monitor notification mode**: When set to *agent*, a call monitoring banner is presented to the agent who is being actively monitored by an authorized user.
 

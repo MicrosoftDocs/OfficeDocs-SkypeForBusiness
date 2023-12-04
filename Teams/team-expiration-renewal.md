@@ -1,8 +1,8 @@
 ---
 title: Team expiration and renewal in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams

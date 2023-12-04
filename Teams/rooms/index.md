@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 10/04/2023
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 feedback_system: None

@@ -1,8 +1,8 @@
 ---
 title: Use the Network planner for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams

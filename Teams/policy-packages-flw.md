@@ -2,7 +2,7 @@
 title: Teams policy packages for frontline workers
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.reviewer: 
 ms.date: 06/20/2019
 ms.topic: conceptual

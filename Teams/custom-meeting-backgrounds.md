@@ -2,7 +2,7 @@
 title: Manage and upload custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.date: 10/23/2023
 ms.reviewer: margidesai
 ms.topic: article

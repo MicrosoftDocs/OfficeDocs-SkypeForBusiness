@@ -2,7 +2,7 @@
 title: Auto attendant and call queue historical reports for GCC High and DoD
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/22/2023
 ms.topic: article

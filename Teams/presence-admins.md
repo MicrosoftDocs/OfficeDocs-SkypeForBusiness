@@ -1,8 +1,8 @@
 ---
 title: User presence in Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -87,7 +87,11 @@ Users can manually select a status as follows:
 
 - Otherwise, users can select any status that is less available than the automatically calculated status. (For example, if a user's calculated status is **Do not disturb**, they could choose a status of **Away** but not **Available**.)
 
-Users can set a duration for the presence that they set manually. If a user doesn't set a duration, their presence is manually set for 1 day if it's **Busy** or **Do not disturb**, and for 7 days if it's any other status.
+Users can set a duration for the presence that they set manually. If a user doesn't set a duration, their presence remains manually set as follows:
+
+- Indefinitely if it's **Appear offline**
+- For 1 day if it's **Busy** or **Do not disturb**
+- For 7 days if it's any other status
 
 ## Admin settings in Teams compared to Skype for Business
 

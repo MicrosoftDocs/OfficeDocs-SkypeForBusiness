@@ -2,7 +2,7 @@
 title: Configure dynamic emergency calling
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

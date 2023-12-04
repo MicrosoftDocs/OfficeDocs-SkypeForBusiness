@@ -2,9 +2,9 @@
 ms.date: 03/17/2018
 title: "Configure Skype for Business hybrid"
 ms.reviewer: 
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

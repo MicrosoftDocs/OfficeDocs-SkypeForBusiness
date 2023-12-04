@@ -2,7 +2,7 @@
 title: Plan Location-Based Routing for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

@@ -2,7 +2,7 @@
 title: Classic Teams for Virtualized Desktop Infrastructure
 author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri

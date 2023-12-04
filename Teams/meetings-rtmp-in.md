@@ -2,7 +2,7 @@
 title: Manage RTMP-In for Teams meetings, webinars, and town halls
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: srajay

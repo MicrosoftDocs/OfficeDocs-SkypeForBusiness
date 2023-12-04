@@ -2,7 +2,7 @@
 title: Configure Operator Connect for India
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 09/01/2023
 ms.topic: article
 ms.service: msteams 
