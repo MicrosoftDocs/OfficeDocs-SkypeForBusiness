@@ -102,7 +102,7 @@ See also [Set-CsTenantNetworkRegion](/powershell/module/skype/set-cstenantnetwor
 
 ### Define network sites
 
-Use the [New-CsTenantNetworkSite](/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites. Each network site must be associated with a network region.
+Use the [New-CsTenantNetworkSite](/powershell/module/skype/new-cstenantnetworksite) cmdlet to define network sites. Each network site must be associated with a network region.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -126,7 +126,7 @@ See also [Set-CsTenantNetworkRegion](/powershell/module/skype/set-cstenantnetwor
 
 ### Define network subnets
 
-Use the [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
+Use the [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -167,7 +167,7 @@ See also [Set-CsTenantNetworkSubnet](/powershell/module/skype/set-cstenantnetwor
 
 ### Define external subnets (external trusted IP addresses)
 
-Use the [New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
+Use the [New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
