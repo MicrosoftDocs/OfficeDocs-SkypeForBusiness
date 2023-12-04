@@ -390,27 +390,28 @@ Meeting policies are used to control what features are available in meetings org
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
 |Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
-|Attendance and engagement report|On, but organizers turn it off|This setting allows meeting and webinar organizers the ability to see the toggle that turns on or off attendance and engagement reports within Meeting options.|
-|Who is in the report|Everyone, but attendees can opt out|This setting controls whether participants in the meeting or webinar can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
-|Attendee information|Show everything|This setting controls whether to show attendance time information - such as join times, leave times, and in-meeting duration - for each meeting or webinar attendee. Only the post-meeting report is supported.|
+|Attendance and engagement report|On, but organizers turn it off|This setting gives meeting and event organizers the ability to see the toggle that turns attendance and engagement reports on or off within their Meeting options.|
+|Include attendees in the report|Yes, but attendees can opt out|This setting controls whether participants in the meeting or webinar can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
+|Attendee information|Show everything|This setting controls whether to attendance time information - such as join times, leave times, and in-meeting duration - can be included for each meeting or event attendee. Only the post-meeting report is supported.|
 
 ##### Related topics for meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+- [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
 
 #### Meeting join & lobby
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-meeting-join-lobby.png" alt-text="Screenshot of Teams meeting join & lobby policies.":::
+:::image type="content" source="media/meeting-join-lobby-tac.png" alt-text="Screenshot of Teams meeting join & lobby policies in the Teams admin center." lightbox="media/meeting-join-lobby-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|When this setting is on, anyone can join Teams meetings, including Teams users in other organizations that aren't on your allowed domains list. If anonymous join is turned off in org-wide meeting settings, anonymous users can't join any meetings, regardless of what you set here.|
 |Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until the meeting is started by someone in your organization, a guest, or a user from a trusted organization. This setting only works if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
-|Who can bypass the lobby|People in my organization and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
+|Who can bypass the lobby|People in my org and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this when they set up Teams meetings.|
 
 **PowerShell-only meeting join & lobby policies**
@@ -430,12 +431,12 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-meeting-engagement.png" alt-text="Screenshot of Teams meeting engagement policies.":::
+:::image type="content" source="media/meeting-engagement-tac.png" alt-text="Screenshot of Teams meeting engagement policies in the Teams admin center." lightbox="media/meeting-engagement-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md)|
-|External meeting chat|On|When this is turned on, people can read or write messages in external meeting chats from untrusted organizations.|
+|External meeting chat|On|When this is turned on, users in your org can read or write chat messages in Teams meetings that organizations you don't have a trusted relationship with host.|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
@@ -453,16 +454,17 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-content-sharing.png" alt-text="Screenshot of Teams meetings content sharing policies.":::
+:::image type="content" source="media/content-sharing-tac.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/content-sharing-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Who can present|Everyone|Controls who can be a presenter in Teams meetings. Organizers and co-organizers can change this when they set up Teams meetings.|
-|Screen sharing mode|Entire screen|Controls whether a user is allowed to share a desktop and a window in a Teams meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
+|Screen sharing|Entire screen|Controls whether a user is allowed to share a desktop and a window in a Teams meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|This setting controls whether external participants, anonymous users, and guests can be given control or request control of people in your organization's shared screen during a Teams meeting. This setting must be turned on in both organizations for an external participant to take control.|
 |PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
+|Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 
 **PowerShell-only content sharing policies**
@@ -481,7 +483,7 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-recording-and-transcription.png" alt-text="Screenshot of Teams meetings recording & transcription policies.":::
+:::image type="content" source="media/recording-transcription-tac.png" alt-text="Screenshot of Teams meeting recording & transcription policies in the Teams admin center." lightbox="media/recording-transcription-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
