@@ -2,7 +2,7 @@
 title: Health and usage reports
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.date: 04/07/2022
 ms.reviewer: altsou
 ms.topic: article
@@ -21,6 +21,7 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
+
 # Health and usage reports
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
@@ -88,7 +89,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all Microsoft Teams Rooms Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -155,6 +156,9 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
+> > [!NOTE]
+> > The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 

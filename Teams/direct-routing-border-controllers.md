@@ -4,7 +4,7 @@ ms.author: crowe
 ms.reviewer: FilippSe
 ms.date: 07/31/2023
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

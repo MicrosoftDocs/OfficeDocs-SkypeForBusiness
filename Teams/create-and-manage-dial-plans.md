@@ -2,7 +2,7 @@
 title: "Create and manage dial plans"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 10/12/2023
 ms.topic: article

@@ -2,7 +2,7 @@
 title: Guest experience in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 audience: admin
 ms.service: msteams

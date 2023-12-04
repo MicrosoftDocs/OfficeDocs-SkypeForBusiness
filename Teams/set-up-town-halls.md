@@ -2,7 +2,7 @@
 title:  Manage who can schedule town halls in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: sachung
 ms.date: 11/8/2023
 ms.topic: article

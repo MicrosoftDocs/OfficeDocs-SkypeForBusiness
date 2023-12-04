@@ -1,8 +1,8 @@
 ---
 title:  Overview of the new Microsoft Teams client
-ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.date: 11/06/2023
 ms.service: msteams

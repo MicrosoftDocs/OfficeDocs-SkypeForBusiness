@@ -2,7 +2,7 @@
 title: Encoder configuration for streaming in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -71,6 +71,7 @@ After you've scheduled the live event using Teams or Viva Engage, and selected t
 
 ### Video format
 
+- Aspect Ratio: 16:9
 - Codec: H.264
 - Profile: High (Level 4.0)
 - Bitrate: Up to 5 Mbps (5000 kbps)
@@ -99,3 +100,4 @@ After you've scheduled the live event using Teams or Viva Engage, and selected t
 - Don't change your encoder configuration after it has started pushing. It has negative effects on the event and can cause the event to be unstable. If you want to do this before the event has started, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity may cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.
+

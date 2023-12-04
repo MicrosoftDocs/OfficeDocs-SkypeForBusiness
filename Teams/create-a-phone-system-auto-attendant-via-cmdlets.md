@@ -2,7 +2,7 @@
 title: Create an auto attendant via cmdlets
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 01/20/2022
 ms.topic: article

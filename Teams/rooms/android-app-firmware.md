@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 ms.reviewer: divank
 ms.date: 11/04/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

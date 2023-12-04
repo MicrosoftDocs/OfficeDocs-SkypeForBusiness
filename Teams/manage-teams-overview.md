@@ -1,8 +1,8 @@
 ---
 title: Manage and monitor Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 10/06/2023
 ms.topic: article
 ms.service: msteams

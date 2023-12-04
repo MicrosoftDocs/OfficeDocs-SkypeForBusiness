@@ -2,7 +2,7 @@
 title: Alerts for in-progress meeting audio quality issues
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: vapati
 ms.date: 07/30/2023
 ms.topic: article

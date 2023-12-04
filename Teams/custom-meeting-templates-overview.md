@@ -2,7 +2,7 @@
 title: Overview of custom meeting templates in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari

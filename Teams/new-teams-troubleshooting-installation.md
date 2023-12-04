@@ -2,7 +2,7 @@
 title:  Troubleshooting the new Teams installation
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.date: 10/26/2023
 ms.service: msteams

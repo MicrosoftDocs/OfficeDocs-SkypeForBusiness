@@ -2,9 +2,9 @@
 title:  Known issues in the new Microsoft Teams desktop client
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
-ms.date: 11/09/2023
+ms.date: 11/28/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,11 +22,15 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- Annotations from the Presenter toolbar isn't currently available.
+- Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
 - Detecting multiple languages for spellchecker isn't currently available. 
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
+- Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
+- Adding a sensitivity label during team creation is currently not available in Teams for Education.
+- Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
+- Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
 
 ## Coming in November
 
@@ -34,6 +38,10 @@ ms.localizationpriority: high
 - Set presence in taskbar.
 - Show and set presence in system tray.
 - Channel meeting start notifications for users added after the original meeting invite.
+
+## Coming in January
+
+- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
 
 ## What features are changing?
 

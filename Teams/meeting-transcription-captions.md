@@ -2,7 +2,7 @@
 title: Configure transcription and captions for Teams meetings
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

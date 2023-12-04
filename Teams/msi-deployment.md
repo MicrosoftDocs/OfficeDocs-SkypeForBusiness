@@ -1,8 +1,8 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
-author: MikePlumleyMSFT
+author: JoanneHendrickson
 ms.author: jhendr
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri

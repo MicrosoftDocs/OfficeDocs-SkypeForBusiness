@@ -2,9 +2,9 @@
 ms.date: 11/14/2018
 title: "Configure Microsoft Entra Connect"
 ms.reviewer: 
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

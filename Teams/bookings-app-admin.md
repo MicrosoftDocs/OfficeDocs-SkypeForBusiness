@@ -2,7 +2,7 @@
 title: "Manage the Bookings app in Microsoft Teams"
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 audience: ITPro
 ms.topic: conceptual
 ms.service: bookings 

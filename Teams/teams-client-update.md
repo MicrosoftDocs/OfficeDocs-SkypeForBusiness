@@ -1,8 +1,8 @@
 ---
 title: Teams updates
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
