@@ -113,11 +113,11 @@ Schools can allow teachers to update manually the parent contact information cor
 
 1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
 
-1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, you can visit the Azure portal. In Azure portal, under Privileged Identity Management | Microsoft Entra roles, both Global and Teams Administrative roles can be found with admin details. 
+1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, visit [Azure portal](https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). Search for the administrative role you want to check. Select Assignments from the Manage menu to view who are the admins. 
 
 1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
-Both SDS and manually updated parent information are stored in the substrate eventually. However, before the parent data update approval request is approved, in the interim, the data will be stored in the Approval’s store (data verse). 
+Both SDS and manually supplied parent information are stored in substrate eventually. However, before the educator submitted parent data approval request is approved, in the interim, the data will be stored in Approval’s store (Dataverse). 
 
 If your school uses both SDS and manual ingestion, you may want to note the following points: 
 
@@ -150,7 +150,7 @@ To delete student data stored in the Dataverse:
 
     :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student id column." lightbox="media/delete-data-verse/delete-student-4.png":::
 
-1. From the displayed list, select the required rows- of student data to be deleted.
+1. From the displayed list, select the rows of student data to be deleted.
 
     :::image type="content" source="media/delete-data-verse/delete-student-5.png" alt-text="Screenshot of displayed data." lightbox="media/delete-data-verse/delete-student-5.png":::
 
