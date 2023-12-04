@@ -488,10 +488,11 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
+|Require participant agreement for recording|Off|When **On**, participants are required to provide explicit consent to be recorded in meetings.|
 |Recordings automatically expire|On|When **On**, meeting recordings automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99999 days. **Recordings automatically expire** must also be turned **On**.|
 |Store recordings outside your country or region|Off|If you want to store meeting recordings outside of your country or region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
-|Transcription|On|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
+|Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
 |Copilot|On with transcript|Controls whether Copilot will be enabled with a persisted transcript or a non-persisted transcript.|
 
@@ -518,18 +519,19 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/teams-meetings-audio-and-video.png" alt-text="Screenshot of Teams meetings audio and video policies.":::
+:::image type="content" source="media/audio-video-tac.png" alt-text="Screenshot of Teams meeting audio and video policies in the Teams admin center." lightbox="media/audio-video-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Mode for IP audio|Outgoing and incoming audio enabled|This setting controls whether incoming and outgoing audio can be turned on in meetings and group calls.|
 |Mode for IP video|Outgoing and incoming video enabled|This setting controls whether incoming and outgoing video can be turned on in meetings and group calls.|
-|IP video|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
-|Local broadcasting|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
+|Video conferencing|On|This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.|
+|Broadcast production with NDI and SDI hardware|Off|Use NDI or SDI technology to capture and deliver broadcast-quality audio and video over your network.|
 |Media bit rate (Kbs)|50000|This setting determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting. This setting gives you granular control over managing bandwidth in your organization.|
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology are checked.|
 |Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
 |Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
+|Allow streaming media input|N/A| When **On**,  meeting, webinar, and town hall organizers can produce their meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
 
 **PowerShell-only audio & video meeting policies**
 
@@ -542,6 +544,7 @@ Meeting policies are used to control what features are available in meetings org
 ##### Related topics for audio & video meeting policies
 
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
+- [Manage RTMP-In for Teams meetings and events](meetings-rtmp-in.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Watermark
@@ -550,12 +553,12 @@ Meeting policies are used to control what features are available in meetings org
 
  Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. These settings require a Teams Premium license.
 
-:::image type="content" source="media/teams-meetings-watermark.png" alt-text="Screenshot of Teams meetings watermark policies.":::
+:::image type="content" source="media/watermark-tac.png" alt-text="Screenshot of Teams meeting watermark policies in the Teams admin center." lightbox="media/watermark-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Watermark videos|Off|This setting controls watermarks on attendee videos.|
-|Watermark shared content|Off|This setting controls watermarks on content shared on screen in a meeting.|
+|Watermark videos|On|This setting controls watermarks on attendee videos.|
+|Watermark shared content|On|This setting controls watermarks on content shared on screen in a meeting.|
 
 ##### Related topics for watermark policies
 
@@ -571,11 +574,13 @@ Use customization policies to customize the look of Teams meetings with your org
 
 :::image type="content" source="media/teams-meetings-customization-policies-small.png" alt-text="Screenshot of Teams meetings customization policies." lightbox="media/teams-meetings-customization-policies.png":::
 
+:::image type="content" source="media/customization-policies-tac.png" alt-text="Screenshot of Teams meeting customization policies in the Teams admin center." lightbox="media/customization-policies-tac-expand.png":::
+
 #### Custom meeting visuals
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Currently Active|No|After adding a theme, this setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
+|Currently Active|No|After adding a theme, you'll see this toggle. This setting allows admins to define their branding by enabling a custom meeting theme. Read more on [Meeting themes for Teams meetings](meeting-themes.md).|
 |Allow organizer to control meeting theme|Off|When this setting is on, meeting organizers can turn off meeting themes for specific meeting instances through the meeting options.|
 |Custom backgrounds|Off|This setting gives you the ability to upload custom background images for Teams meetings that appear on your end users' interfaces, ordered by the time of upload. Read how to enable [Custom meeting backgrounds for Teams meetings](custom-meeting-backgrounds.md).|
 
