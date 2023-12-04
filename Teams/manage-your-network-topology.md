@@ -41,26 +41,26 @@ You define network regions, network sites, and subnets on the **Network sites** 
 
 #### Add and configure a network site
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
-2. Click **Add**, and then enter a name and description for the site.
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Network sites** tab.
+2. Select **Add**, and then enter a name and description for the site.
 
     ![Screenshot of the Add network site page.](media/manage-network-topology-add-site.png)
 
-3. To associate the site with a network region, click **Add network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
+3. To associate the site with a network region, select **Add network region**, select an existing region or select **Add** to add a region, and then select **Link**.  
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
 5. To assign emergency services policies to the site, do one or both of the following:
 
     - If your organization uses Calling Plans, Operator Connect, or Direct Routing, under **Emergency calling policy**, select the policy that you want.
     - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
-6. To associate a subnet to the site, under **Subnets**, click **Add subnets**. Specify the IP version, IP address, network range, add a description, and then click **Apply**. Each subnet must be associated with a specific site.
-7. Click **Save**.
+6. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
+7. Select **Save**.
 
 #### Modify a network site
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
-2. Select the site by clicking to the left of the site name, and then click **Edit**.
-3. Make the changes that you want, and then click **Save.**
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Network sites** tab.
+2. Select the site by clicking to the left of the site name, and then select **Edit**.
+3. Make the changes that you want, and then select **Save.**
 
 ### Manage external trusted IP addresses
 
@@ -68,21 +68,21 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 
 #### Add a trusted IP address
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Trusted IPs** tab.
-2. Click **New**.
-3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then click **Apply**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
+2. Select **New**.
+3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 
     ![Screenshot of the Add trusted IP address pane.](media/manage-network-topology-add-trusted-ip.png)
 
 #### Edit a trusted IP address
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Trusted IPs** tab.
-2. Select the IP address by clicking to the left of it, and then click **Edit**.
-3. In the **Edit trusted IP address** pane, make the changes that you want, and then click **Apply**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
+2. Select the IP address by clicking to the left of it, and then select **Edit**.
+3. In the **Edit trusted IP address** pane, make the changes that you want, and then select **Apply**.
 
 ## Configure network settings using PowerShell
 
-To complete the steps in this section, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
+To complete the steps in this section, you need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
 ### Define network regions
 
@@ -183,9 +183,9 @@ See also [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttru
 
 ## Enabling Network Roaming Policies
 
-Once you have configured your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams Admin Center under **Meetings > Meeting Policies.**
+Once you configure your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams Admin Center under **Meetings > Meeting Policies.**
 
-You may wish to either edit the global policy, or create a new policy and assign the policy to specific users.
+You can either edit the global policy or create a new policy and assign the policy to specific users.
 
 ## Related articles
 
