@@ -40,24 +40,33 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 
 There are five steps you must follow to ensure your network is set up to support town halls.
 
-1. **Ensure your teams environment is set up to connect to our services**<br>
+1. **Ensure your teams environment is set up to connect to our services**
+
 Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
-2. **Ensure your devices are optimized to connect to our services**<br>
+
+2. **Ensure your devices are optimized to connect to our services**
+
 As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-3. **Understand special considerations for events in VPN environments**<br>
+
+3. **Understand special considerations for events in VPN environments**
+
 If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
-4. **Plan for bandwidth considerations for town halls**<br>
-Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for your organizers, co-organizers, presenters.<br>
+
+4. **Plan for bandwidth considerations for town halls**
+
+Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for your organizers, co-organizers, presenters.
+
 Each attendee stream consumes approximately 1.5 Mbps of bandwidth; attendee connectivity  utilizes HTTPS. Physical locations that have a large/densely populated attendee profile should explore using an eCDN to optimize bandwidth usage.
 
-5. **Optimize your Internal network via eCDN**<br>
-An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft  eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
+5. **Optimize your Internal network via eCDN**
 
-- [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [Ramp](https://rampecdn.com/)
+   An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft  eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
 
-For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
+   - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+   - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
+   - [Ramp](https://rampecdn.com/)
+
+   For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
 
 > [!NOTE]
 > The Microsoft eCDN is required for Teams Premium users and is used automatically.
@@ -68,7 +77,7 @@ A combination of admin meeting and event policies with organizer and attendee se
 
 If you'd like to get familiar with how policies work for Teams meetings and events, see [Manage meeting and event policies in Microsoft Teams](meeting-policies-overview.md).
 
-For a full list of admin policies and organizer settings for town halls, see the [Town hall control comparison](#town-hall-control-comparison) section in this article.
+For a full list of admin policies and organizer settings for town halls, see [Town hall control comparison](#town-hall-control-comparison) later in this article.
 
 ## Decide the types of town halls that organizers can create
 
@@ -115,12 +124,17 @@ You can use real-time data telemetry to monitor town halls and troubleshoot tech
 
 There are two types of real time monitoring for town halls.
 
-1. **Real time monitoring of the presenter and organizer experience**<br>
-You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.<br>
-To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality.](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)
-1. **Real time monitoring of the attendee experience (Teams Premium)**<br>
- With a Teams premium license, you can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.<br>
-To learn more about real time monitoring of attendees, see [eCDN analytics.](/ecdn/technical-documentation/analytics)
+1. **Real time monitoring of the presenter and organizer experience**
+
+   You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.
+
+   To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality.](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
+
+1. **Real time monitoring of the attendee experience (Teams Premium)**
+
+   With a Teams premium license, you can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
+
+   To learn more about real time monitoring of attendees, see [eCDN analytics.](/ecdn/technical-documentation/analytics).
 
 ### Call Quality Dashboard
 
