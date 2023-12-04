@@ -34,17 +34,16 @@ Custom meeting backgrounds are images that you, as an admin, can upload for your
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. Using custom meeting backgrounds helps foster internal corporate culture building and increase overall brand awareness with both internal and external meeting participants. With the help of your organization's brand management and corporate communications teams, you can easily set up and create custom meeting backgrounds for various business units and departments within a single tenant.
 
-By default, Teams premium licensed users who are either admins or have been assigned a meeting customization policy can create meetings that feature custom meeting  backgrounds. Custom backgrounds are only available for end users within your organization who have a Teams Premium license to use. Your users can still upload their own custom backgrounds.
+Custom meeting backgrounds are only available for you and Teams Premium licensed users that you assign this custom background policy to. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
 
-In town halls, organizers, co-organizers, and presenters in your org can use the custom meeting backgrounds that you've created.
+In town halls, organizers, co-organizers, and presenters in your org can use the custom meeting backgrounds that you created.
 
 ## Prerequisites
 
-Before setting up custom meeting backgrounds for your Teams Meetings, check to make sure you have the following items:
+Before setting up custom meeting backgrounds for your Teams meetings, check to make sure you have the following items:
 
-- Access to the Teams Premium SKU.
-- You’re an admin with access to the Teams admin center or you’ve been assigned a customization policy.
-- You’ve enabled the [custom background policy](#enable-the-custom-background-policy).
+- The users you'd like to use custom backgrounds have a Teams Premium license.
+- You’re an admin with access to the Teams admin center or you were assigned a customization policy.
 - Your background images meet the [required specifications](#add-custom-background-images).
 
 ## Set up and manage custom meeting backgrounds in the Teams admin center
@@ -81,13 +80,13 @@ Uploaded images must adhere to the following parameters. You can upload:
 
 ### Save custom background images
 
-You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Now that you’ve selected save, your uploaded backgrounds are visible to your users with a Teams Premium license.
+You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
-## Require users to only use backgrounds you've uploaded
+## Require users to only use the backgrounds you upload
 
-You can decide to only show custom backgrounds you've uploaded in your users' gallery.
+You can decide to only show the custom backgrounds you upload in your users' gallery.
 
-To show only custom backgrounds you've uploaded, follow these steps:
+To only show the custom backgrounds you upload, follow these steps:
 
 1. Select **Meetings** from the navigation pane in the Teams Admin Center
 2. Under Meetings, select **Meeting Policies** and select an existing policy, or create a new one.
@@ -100,9 +99,9 @@ To show only custom backgrounds you've uploaded, follow these steps:
 > [!NOTE]
 > You must set **Participants can use video effects** to **Off** or **Only background blur** to only show custom backgrounds in your users' gallery.
 
-## Apply blur for users with no backgrounds
+## Apply a blur for users with no backgrounds
 
-You can use the Teams Admin Center to automatically apply a background blur to any users that aren't using any video effects or background images. Meeting and customization policies both control meeting backgrounds. Customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
+You can use the Teams Admin Center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
 
 Use the following steps to apply blurred backgrounds for users that aren't using any backgrounds or video effects:
 
@@ -130,7 +129,7 @@ Only Teams Premium licensed users can use the meeting backgrounds in their Backg
 
 ### Who can view custom meeting backgrounds
 
-While only licensed end users can select their choice of uploaded backgrounds, anyone can view the background that's applied to a meeting. These users include:
+While only licensed end users can select their choice of uploaded backgrounds, anyone can view the backgrounds that are applied to a meeting. These users include:
 
 - In-tenant, Teams Premium licensed users
 - In-tenant, nonlicensed users
