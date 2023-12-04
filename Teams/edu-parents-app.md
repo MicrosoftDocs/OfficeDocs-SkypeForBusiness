@@ -117,7 +117,7 @@ Schools can allow teachers to update manually the parent contact information cor
 
 1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
-Both SDS and manually supplied parent information are stored in substrate eventually. However, before the educator submitted parent data approval request is approved, in the interim, the data will be stored in Approval’s store (Dataverse). 
+Both SDS and manually supplied parent information are stored in the substrate eventually. However, before the parent data approval request submitted by the educator is approved, in the interim, the data will be stored in Approval’s store (Dataverse). 
 
 If your school uses both SDS and manual ingestion, you may want to note the following points: 
 
@@ -125,9 +125,9 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 
 1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
 
-1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from Dataverse](#delete-student-information-from-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from the Dataverse](#delete-student-information-from-the-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
 
-#### Delete student information from Dataverse
+#### Delete student information from the Dataverse
 
 To delete student data stored in the Dataverse:
 
