@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 11/7/2023
+ms.date: 12/4/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -42,7 +42,7 @@ If you'd like to get familiar with how policies work for Teams meetings and even
 
 For a full list of admin policies and organizer settings for webinars, see the [Webinar control comparison](#webinar-control-comparison) section in this article.
 
-## In-org vs public webinars
+## Decide the types of webinars that organizers can create
 
 There are a few key differences between in-org and public webinars. When managing the event access type for webinars to decide whether organizers can schedule public webinars, consider the information in the following table:
 
@@ -58,6 +58,7 @@ There are a few key differences between in-org and public webinars. When managin
 |Organizers can decide if attendees with a registration link can bypass the lobby|✔️|✔️|
 |Organizers can decide if anyone who can't bypass the lobby is automatically rejected|✔️|✔️|
 |Attendees can dial in to join|✖️|✖️|
+|Includes external presenters|✔️|✔️|
 
 ## Webinar attendee interaction
 
@@ -99,7 +100,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
 |[Manage who can schedule webinars](set-up-webinars.md)|Can disable webinars for users and groups, control which organizers can schedule webinars,  and decide whether organizers can schedule public webinars.|Can schedule webinars if allowed by admin.|
-[Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in webinars.|Can decide if Q&A is available for their webinars if allowed by admins.|
 |[Reactions and hand raise](manage-reactions-meetings.md)| Manage whether organizers can use reactions and hand raise in their webinars with this policy. |Can control whether reactions and hand raise can be used in their webinars. |
 |[Recording](meeting-recording.md)| Can allow or prevent webinar recording. |If the admin enables recording, organizers can set who can record and automatic recording. |
@@ -108,6 +108,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[RTMP-in (Premium)](meetings-rtmp-in.md)| Can allow or disable RTMP-in for organizers. | Can produce their Teams webinar directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
 |[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
 
