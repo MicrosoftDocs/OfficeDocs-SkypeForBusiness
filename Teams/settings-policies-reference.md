@@ -532,7 +532,7 @@ Meeting policies are used to control what features are available in meetings org
 |Network configuration lookup|Off|When **On**, roaming policies in Network topology are checked.|
 |Participants can use video effects|All video effects|Controls if participants can customize their camera feed with video background images and filters.|
 |Live streaming|Off|Determines whether you provide support for your users to stream their Teams meetings to large audiences through Real-Time Messaging Protocol (RTMP).|
-|Allow streaming media input|N/A| When **On**,  meeting, webinar, and town hall organizers can produce their meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
+|Allow streaming media input|(blank)| When **On**,  meeting, webinar, and town hall organizers can produce their meetings and events directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
 
 **PowerShell-only audio & video meeting policies**
 
