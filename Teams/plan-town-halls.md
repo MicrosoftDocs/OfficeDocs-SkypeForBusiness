@@ -134,7 +134,7 @@ There are two types of real time monitoring for town halls.
 
    With a Teams premium license, you can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
 
-   To learn more about real time monitoring of attendees, see [eCDN analytics.](/ecdn/technical-documentation/analytics).
+   To learn more about real time monitoring of attendees, see [eCDN analytics](/ecdn/technical-documentation/analytics).
 
 ### Call Quality Dashboard
 
