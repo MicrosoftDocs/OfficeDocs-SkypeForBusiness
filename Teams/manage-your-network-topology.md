@@ -30,6 +30,8 @@ If your organization is deploying [Location-Based Routing for Direct Routing](lo
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
+Note that it can take some time (up to four hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.
+
 > [!NOTE]
 > Network configuration data may be used across Microsoft 365 services to provide additional services your organization has subscribed to.
 
@@ -161,9 +163,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-
 See also [Set-CsTenantNetworkSubnet](/powershell/module/skype/set-cstenantnetworksubnet).
-
 
 ### Define external subnets (external trusted IP addresses)
 
@@ -187,6 +187,6 @@ Once you have configured your network roaming policies, you need to enable **Net
 
 You may wish to either edit the global policy, or create a new policy and assign the policy to specific users.
 
-## Related topics
+## Related articles
 
-- [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
+[Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)

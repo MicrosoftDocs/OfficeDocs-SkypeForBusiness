@@ -29,6 +29,8 @@ Learn about network regions, network sites, network subnets, and trusted IP addr
 
 This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
+Note that it can take some time (up to four hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.
+
 > [!NOTE]
 > Any feature-specific requirements for network settings are documented in the configuration topics for that feature.
 
@@ -60,5 +62,5 @@ If the user's external IP address matches an IP address that's in the trusted IP
 
 If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
 
-> [!Important]
+> [!IMPORTANT]
 > Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
