@@ -670,7 +670,7 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 Teams live events policies are used to turn on or off features, such as who can join a live event, if transcription is provided for attendees, or if recording live events is available for people who schedule and hold live events.
 
-:::image type="content" source="media/teams-live-events-policies.png" alt-text="Screenshot of Teams live events policies.":::
+:::image type="content" source="media/live-events-policies-tac.png" alt-text="Screenshot of Teams live events policies in the Teams admin center." lightbox="media/live-events-policies-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -698,7 +698,7 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/teams-live-events-settings-support-url.png" alt-text="Screenshot of Teams live event support URL setting.":::
+:::image type="content" source="media/support-url-tac.png" alt-text="Screenshot of Teams live events support URL setting in the Teams admin center." lightbox="media/support-url-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -708,7 +708,7 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/teams-live-events-settings-video-distribution-providers.png" alt-text="Screenshot of Teams live event settings for video distribution providers.":::
+:::image type="content" source="media/video-distribution-provider-tac.png" alt-text="Screenshot of Teams live events settings for video distribution providers in the Teams admin center." lightbox="media/video-distribution-provider-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -724,17 +724,65 @@ Teams live events settings let you control org-wide settings for all live events
 
 ### Meeting template policies
 
-**Navigation:** Teams admin center > Meetings > Meeting template policies
-
 Meeting templates policies let you create and set up policies that control what templates people in your organization can see. Microsoft Teams custom meeting templates require a Teams Premium license.
 
-:::image type="content" source="media/teams-meeting-template-policies.png" alt-text="Screenshot of Teams messaging template policies.":::
+#### Security
 
-#### Related topics for meeting template policies
+:::image type="content" source="media/security-template-tac.png" alt-text="Screenshot of Teams security meeting template policies in the Teams admin center." lightbox="media/security-template-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Lobby|People in my org and guests| Sets the default value of who can bypass the lobby in the organizer's Meeting options to **People in my org and guests**; organizers and co-organizers can change this when they set up Teams meetings.|
+|People dialing in can bypass the lobby|Off|When **On**, people who dial in by phone join the meeting directly or wait in the lobby.|
+|End-to-end encryption|Off|When **On**, only meeting participants can hear or see the communications.|
+|Enable watermark for screenshare|Off|When **On**, each meeting participant sees their own email address overlaid on the shared content.|
+|Enable watermark for video|Off|When **On**, each meeting participant sees their own email address overlaid on the meeting video.|
+
+#### Audio & video
+
+:::image type="content" source="media/audio-template-tac.png" alt-text="Screenshot of Teams audio and video meeting template policies in the Teams admin center." lightbox="media/audio-template-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Allow mic for attendees|On|When **On**, all attendees can use their microphones during meetings.|
+|Allow camera for attendees|On|When **On**, all attendees can use their cameras during meetings.|
+
+#### Recording & transcription
+
+:::image type="content" source="media/recording-template-tac.png" alt-text="Screenshot of Teams recording meeting template policies in the Teams admin center." lightbox="media/recording-template-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Record meetings automatically |Off|When **On**, meetings are automatically recorded. |
+|Who can record|Only organizers and co-organizers| Only organizers and co-organizers can record meetings.|
+|Copilot|On with transcript|Copilot is enabled with a persisted transcript.|
+
+#### Roles
+
+:::image type="content" source="media/roles-template-tac.png" alt-text="Screenshot of Teams role meeting template policies in the Teams admin center." lightbox="media/roles-template-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Announce when people dialing in join or leave|Off|No tone is played when someone dialing in on a phone to a meeting joins or leaves.|
+
+#### Meeting engagement
+
+:::image type="content" source="media/engagement-template-tac.png" alt-text="Screenshot of Teams meeting engagement template policies in the Teams admin center." lightbox="media/engagement-template-tac-expand.png":::
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Meeting chat|On|When **On**, participants can read and write chat messages in a meeting.|
+|Allow reactions|Off|When **On**, attendees can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
+|Q&A|Off| When **On**, organizers can enable a question and answer experience for their meetings.|
+|Manage what attendees see|Off|When **On**, organizers can decide whose avatars or video feeds to spotlight during the town hall.|
+
+##### Related topics for meeting template policies
 
 - [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 - [Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md)
 - [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md)
+- [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md)
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
 ## Messaging policies
