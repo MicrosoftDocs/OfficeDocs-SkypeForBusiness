@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 06/09/2022
+ms.date: 12/04/2023
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -24,7 +24,7 @@ ms.custom:
 description: Learn how to plan your call routing flow for Auto attendants and Call queues in Microsoft Teams.
 --- 
 
-# Plan your call routing flow
+# Plan call routing for Auto attendant and Call queues
 
 As part of the planning process, we recommend that you work out the call routing for your organization in a diagram. The diagram helps determine the most efficient routing for people calling in to your organization. You can also use the diagram to determine the Auto attendants and Call queues that you need to create, along with related requirements such as service numbers, licenses, and resource accounts.
 
@@ -89,7 +89,13 @@ Here are some call routing best practices:
 
 > [!IMPORTANT]
 > The maximum number of transitions a single call is permitted to make through Auto attendants and Call queues is twenty-five (25). After this, the call is disconnected. This is done to prevent a call from infinitely looping through a series of Auto attendants and Call queues.
-> 
+>  
 > For example, if a call arrives on Auto attendant #1 and the caller selects an option that sends them to Auto attendant #2, this counts as one transition. If the caller selects an option on Auto attendant #2 that returns them to Auto attendant #1 or sends them to Call queue #1, then this would count as a second transition.
-> 
+>  
 > Calls that remain in the same Auto attendant but return to the main menu multiple times, for example when an announcement is played or there is a configured menu option to repeat, are also counted as a transition and are impacted by this maximum transition limit.
+
+## Related articles
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+[Set up Auto attendants](create-a-phone-system-auto-attendant.md)
+[Set up Call queues](create-a-phone-system-call-queue.md)
