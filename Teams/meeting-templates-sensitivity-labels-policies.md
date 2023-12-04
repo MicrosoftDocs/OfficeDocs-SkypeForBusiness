@@ -66,7 +66,7 @@ As you plan for your meeting templates and sensitivity labels, ensure that the s
 
 ## Sensitivity labels and templates together
 
-Some settings are only available in sensitivity labels and some are only available in templates. Several are available in both:
+Some settings are only available in sensitivity labels and some are only available in templates. The following are available in both:
 
 - Chat
 - End-to-end encryption
@@ -95,6 +95,7 @@ If you want watermarks available only for governance officials, you can enable t
 ## Different meeting types with the same sensitivity
 
 Using templates and labels together can be useful if you have different types of meetings that have the same sensitivity. For example, if some of your sensitive meetings are interactive and some are presentations where there is minimal interaction from attendees, you can create two templates:
+
 - One that turns off attendee video and audio to use for presentations
 - One that leaves video and audio at the discretion of the meeting organizer to use for interactive meetings
 
