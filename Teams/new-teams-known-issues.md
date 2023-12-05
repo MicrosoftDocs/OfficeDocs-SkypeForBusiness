@@ -32,14 +32,9 @@ ms.localizationpriority: high
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
 
-
 ## Coming in December
 
 - Support for NDI, SDI, and ISO streaming of Teams media content.
-- Support for external shared channels when using grid view in Microsoft Teams for Education.
-
-## Coming in December
-
 - Support for external shared channels when using grid view in Microsoft Teams for Education.
 
 ## Coming in January
