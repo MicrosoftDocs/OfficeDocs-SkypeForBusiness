@@ -1,10 +1,10 @@
 ---
-title: Plan your call routing flow for Microsoft Teams
+title: Routing calls with Auto attendants and Call queues for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 12/04/2023
+ms.date: 12/05/2023
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -24,7 +24,7 @@ ms.custom:
 description: Learn how to plan your call routing flow for Auto attendants and Call queues in Microsoft Teams.
 --- 
 
-# Plan call routing for Auto attendant and Call queues
+# Routing calls with Auto attendants and Call queues
 
 As part of the planning process, we recommend that you work out the call routing for your organization in a diagram. The diagram helps determine the most efficient routing for people calling in to your organization. You can also use the diagram to determine the Auto attendants and Call queues that you need to create, along with related requirements such as service numbers, licenses, and resource accounts.
 

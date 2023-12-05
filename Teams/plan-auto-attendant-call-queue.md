@@ -107,11 +107,11 @@ Which resource account to license:
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
 >
 > Direct Routing service numbers for Auto attendant and Call queues are supported for Microsoft Teams users and call agents only.
-> 
+>
 > Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.
-> 
+>
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
-> 
+>
 > New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
@@ -155,7 +155,7 @@ Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the require
 
 Conference mode is enabled by default. If you have agents who don't meet the requirements, then conference mode must be manually disabled during Call queue configuration.
 
-**Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
+Call routing flow plans for Auto attendants and Call queues help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md).
 
 ## Getting started
 
@@ -185,19 +185,19 @@ See the following articles for information on how to create Auto attendants and 
 > [!IMPORTANT]
 > A user's Microsoft Entra GUID token is stored as part of the Auto attendant or Call queue configuration when the user is configured as:
 >
->  - an Auto attendant or Call queue **Authorized user**.
->  - an Auto attendant **Operator**.
->  - a **Person in Organization** transfer point.
->  - an individual member of a Call queue.
-> 
+> - an Auto attendant or Call queue **Authorized user**.
+> - an Auto attendant **Operator**.
+> - a **Person in Organization** transfer point.
+> - an individual member of a Call queue.
+>
 > The Auto attendant and Call queue configurations aren't synchronized with Microsoft Entra lifecycle events.  Teams administrators need to manually update Auto attendant and Call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
 >
 > This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
 
-## Related topics
+## Related articles
 
+[Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
 [Plan Direct Routing](direct-routing-plan.md)
-
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
