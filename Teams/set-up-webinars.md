@@ -34,31 +34,31 @@ Microsoft Teams offers webinars, a two-way interactive virtual event. This artic
 
 A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
 
-For more information on how to plan for webinars in your org, see [Plan for Teams meetings](plan-webinars.md)
+For more information on how to plan for webinars in your org, see [Plan for Teams webinars](plan-webinars.md).
 
 In addition to the base webinar features, we offer extra webinar functionality through the Teams Premium subscription.
 
 The following list displays webinar features; the Premium features are bolded and marked with an asterisk:
 
-- Allow registered users to bypass the lobby
-- Assign a co-organizer
-- ***Create a webinar wait list**
-- ***Limit the day and time when people can register**
-- Limit the number of people who can register
-- ***Manage attendees’ view**
-- ***Manually approve registrants**
-- Require attendees to register
-- ***Send reminder emails to registrants**
-- ***Set up a green room for webinar presenters**
-- Turn on Q&A for webinars with up to 1000 attendees
-- ***Use RTMP-In for webinars**
-- View attendance reports
+- Allow registered users to bypass the lobby.
+- Assign a co-organizer.
+- ***Create a webinar wait list**.
+- ***Limit the day and time when people can register**.
+- Limit the number of people who can register.
+- ***Manage attendees’ view**.
+- ***Manually approve registrants**.
+- Require attendees to register.
+- ***Send reminder emails to registrants**.
+- ***Set up a green room for webinar presenters**.
+- Turn on Q&A for webinars with up to 1000 attendees.
+- ***Use RTMP-In for webinars**.
+- View attendance reports.
 
-To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams)
+To learn more about advanced webinar features, see [Microsoft Teams Premium licensing.](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
-To learn more about the end user experience, see [Get Started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3)
+To learn more about the end user experience, see [Get Started with Teams webinars](https://support.microsoft.com/office/42f3f874-22dc-4289-b53f-bbc1a69013e3).
 
-For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+For instructions on how to set up and manage attendance reports using the Teams admin center or PowerShell, see [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report).
 
 > [!NOTE]
 > The webinar experience isn't available for Microsoft 365 GCC High or Microsoft 365 DoD.
@@ -76,7 +76,7 @@ Follow these steps in the Teams admin center to turn webinars on or off:
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
 5. Toggle the **Allow webinars** setting **On** or **Off**.
-6. Select **Save**
+6. Select **Save**.
 
 ## Manage webinars using PowerShell
 
@@ -93,7 +93,7 @@ The following table shows the behaviors of the settings for the **`-AllowWebinar
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-For more information on PowerShell cmdlets for Teams webinars, see the [Related topics](#related-topics) section.
+For more information on PowerShell cmdlets for Teams webinars, see [Related articles](#related-articles).
 
 ### Turn on webinars
 
@@ -127,7 +127,7 @@ To allow organizers to create public or private webinars, use the following scri
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 ```
 
-## Related topics
+## Related articles
 
 [Manage the registration form for webinars](manage-registration-form-webinars.md)
 
