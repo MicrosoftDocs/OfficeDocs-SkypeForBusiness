@@ -834,7 +834,7 @@ Choose who can attend events and customize registration options for webinars.
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|EventAccessType|None|This setting controls which users can join events, access event registration pages, and register on  event sites.|
+|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.|
 
 ##### Related topics for events policies
 
