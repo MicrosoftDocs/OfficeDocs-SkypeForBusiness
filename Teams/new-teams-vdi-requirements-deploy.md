@@ -257,7 +257,7 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
  
 >[!Important]
->Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
+>Customers using FSLogix need to install hotfix [2.9.8716.30241](https://download.microsoft.com/download/6/a/1/6a14498e-56e8-4653-bea6-b71ddeaec43f/FSLogix_Apps_2.9.8716.30241.zip) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
 >- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers
 >
