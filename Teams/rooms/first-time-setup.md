@@ -88,7 +88,7 @@ To set up a Microsoft Teams Rooms console manually,  follow these steps:
 
    The **Account setup** page appears.
 
-1. On the **Account setup** page, put in the email and password that is used for the console or device in the **Email** and **Password** fields. If you don't know what those are, please contact your IT admin. You must enable the **Modern authentication** option.
+1. On the **Account setup** page, put in the email and password that is used for the console or device in the **Email** and **Password** fields. If you don't know what those are, please contact your IT admin.
 
    :::image type="content" source="../media/account-information-manual-setup.png" alt-text="Screenshot that shows the Account screen in which the user must enter credentials." lightbox="../media/account-information-manual-setup.png":::
 
