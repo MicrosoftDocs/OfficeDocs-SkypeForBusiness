@@ -30,7 +30,7 @@ ms.localizationpriority: high
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
 - Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
-- Some spellchecker suggestion can be inaccurate. A Windows fix is pending, with an estimated rollout date of January.
+- Some spellchecker suggestions can be inaccurate. A Windows fix is pending, with an estimated rollout date of January.
 
 ## Coming in December
 
