@@ -56,7 +56,7 @@ Call queues place the caller on hold until an agent assigned to the queue is ava
 - **Call overflow** - if the number of calls in the queue exceeds the limit that you set, then new callers are redirected out of the queue.
 - **Call timeout** - if a caller stays in the queue longer than the configured timeout setting, they're redirected out of the queue.
 
-Calls redirected out of a queue can be sent to any of the call routing destinations listed above except for an operator. (Call queues don't have operators, but you can redirect callers to the same destination as an operator that you've configured for an Auto attendant.)
+Calls redirected out of a queue can be sent to any of the call routing destinations listed above except for an operator. Call queues don't have operators, but you can redirect callers to the same destination as an operator that's configured for an Auto attendant.
 
 The following diagram shows an example of call routing using Auto attendants and Call queues.
 
