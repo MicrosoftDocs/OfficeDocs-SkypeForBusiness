@@ -38,6 +38,10 @@ ms.localizationpriority: high
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Support for external shared channels when using grid view in Microsoft Teams for Education.
 
+## Coming in December
+
+- Support for external shared channels when using grid view in Microsoft Teams for Education.
+
 ## Coming in January
 
 - Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
