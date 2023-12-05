@@ -34,8 +34,6 @@ ms.localizationpriority: high
 
 ## Coming in December
 
-- Set presence in taskbar.
-- Show and set presence in system tray.
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Support for external shared channels when using grid view in Microsoft Teams for Education.
 
