@@ -230,7 +230,7 @@ This command unregisters and deprovisions the new Teams for all users. Teams use
 ## Disable new Teams autoupdate
 
 To prevent new Teams from autoupdating, use the following registry key on the virtual machine.
-Only new Teams builds higher than 223306.3314.2555.9628 in VDI can process this registry key. 
+Only new Teams builds higher than 23306.3314.2555.9628 in VDI can process this registry key. 
 
 ```Registry editor
 Location: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams
