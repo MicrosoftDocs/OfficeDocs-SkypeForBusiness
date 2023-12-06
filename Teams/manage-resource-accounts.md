@@ -1,7 +1,7 @@
 ---
 title: Manage resource accounts for service numbers
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 02/24/2023

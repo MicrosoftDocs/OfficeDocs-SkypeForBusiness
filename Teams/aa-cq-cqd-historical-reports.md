@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and Call queue historical reports
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 09/13/2023
