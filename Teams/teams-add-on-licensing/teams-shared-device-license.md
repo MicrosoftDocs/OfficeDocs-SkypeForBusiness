@@ -2,7 +2,7 @@
 title: Microsoft Teams Shared Devices licensing
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms. reviewer: chester, sirigudur
 ms.date: 06/21/2023
 ms.topic: conceptual
