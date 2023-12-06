@@ -2,7 +2,7 @@
 title: Upgrade Microsoft Teams Free (classic) to subscription
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
