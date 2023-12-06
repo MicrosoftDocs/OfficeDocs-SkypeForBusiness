@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and Call queue dialing and voice recognition reference
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 12/05/2023
