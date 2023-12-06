@@ -199,5 +199,7 @@ If you need more extensive capabilities, such as integration with workflows, bot
 ## Related articles
 
 [Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
+
 [Plan Direct Routing](direct-routing-plan.md)
+
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

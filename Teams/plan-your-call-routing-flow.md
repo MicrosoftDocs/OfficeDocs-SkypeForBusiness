@@ -97,5 +97,7 @@ Here are some call routing best practices:
 ## Related articles
 
 [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+
 [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
+
 [Set up Call queues](create-a-phone-system-call-queue.md)
