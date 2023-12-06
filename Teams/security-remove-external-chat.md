@@ -52,7 +52,7 @@ Once complete, review the search results and identify the UAL events that involv
 
 ### Step 2: Extract the tenantId, the userId, and the chatsId/threadId from the UAL event details 
 
-To extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the UAL event details, you can use the **OrganizationId**, **UserKey**, and **ChatThreadId** fields of the event.  If you searched for the **MemberAdded** event, you might see events where your users were added to an external chat and also where your users added an external user to a chat.  You'll want to find the events where your user in your tenant is in the **Members** detail section (this indicates that this is the user that was added – see figure 2 below).  To do this, follow these steps: 
+To extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the UAL event details, you can use the **OrganizationId**, **UserKey**, and **ChatThreadId** fields of the event.  If you searched for the **MemberAdded** event, you might see events where your users were added to an external chat and also where your users added an external user to a chat.  You'll want to find the events where your user in your tenant is in the **Members** detail section (this indicates that this is the user that was added—see figure 2 below).  To do this, follow these steps: 
 
 1. Select one of the UAL events that involve the external user that you want to revoke access from. 
 2. On the Event details pane: 
@@ -63,10 +63,10 @@ To extract the **tenantId**, the **userId**, and the **chatsId/threadId** from t
 
 See the following screenshot showing an example of a Purview search result detail:
 
-:::image type="content" source="./media/graph-delete-purview-search-detail.png" alt-text="Microsoft Purview search details" lightbox="./media/graph-delete-purview-search-detail.png":::
+:::image type="content" source="./media/graph-delete-purview-search-detail.png" alt-text="Microsoft Purview search details" lightbox="./media/graph-delete-purview-search-detail.png":::<br/>
 *Figure 1 (details from UAL MemberAdded event)*
 
-:::image type="content" source="./media/graph-delete-purview-member-detail.png" alt-text="Microsoft Purview member details" lightbox="./media/graph-delete-purview-member-detail.png":::
+:::image type="content" source="./media/graph-delete-purview-member-detail.png" alt-text="Microsoft Purview member details" lightbox="./media/graph-delete-purview-member-detail.png":::<br/>
 *Figure 2 (Members detail from MemberAdded UAL event)*
 
 ### Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
