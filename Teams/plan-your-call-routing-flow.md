@@ -1,10 +1,10 @@
 ---
-title: Plan your call routing flow for Microsoft Teams
+title: Routing calls with Auto attendants and Call queues for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 06/09/2022
+ms.date: 12/05/2023
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -24,7 +24,7 @@ ms.custom:
 description: Learn how to plan your call routing flow for Auto attendants and Call queues in Microsoft Teams.
 --- 
 
-# Plan your call routing flow
+# Routing calls with Auto attendants and Call queues
 
 As part of the planning process, we recommend that you work out the call routing for your organization in a diagram. The diagram helps determine the most efficient routing for people calling in to your organization. You can also use the diagram to determine the Auto attendants and Call queues that you need to create, along with related requirements such as service numbers, licenses, and resource accounts.
 
@@ -56,7 +56,7 @@ Call queues place the caller on hold until an agent assigned to the queue is ava
 - **Call overflow** - if the number of calls in the queue exceeds the limit that you set, then new callers are redirected out of the queue.
 - **Call timeout** - if a caller stays in the queue longer than the configured timeout setting, they're redirected out of the queue.
 
-Calls redirected out of a queue can be sent to any of the call routing destinations listed above except for an operator. (Call queues don't have operators, but you can redirect callers to the same destination as an operator that you've configured for an Auto attendant.)
+Calls redirected out of a queue can be sent to any of the call routing destinations listed above except for an operator. Call queues don't have operators, but you can redirect callers to the same destination as an operator that's configured for an Auto attendant.
 
 The following diagram shows an example of call routing using Auto attendants and Call queues.
 
@@ -89,7 +89,13 @@ Here are some call routing best practices:
 
 > [!IMPORTANT]
 > The maximum number of transitions a single call is permitted to make through Auto attendants and Call queues is twenty-five (25). After this, the call is disconnected. This is done to prevent a call from infinitely looping through a series of Auto attendants and Call queues.
-> 
+>  
 > For example, if a call arrives on Auto attendant #1 and the caller selects an option that sends them to Auto attendant #2, this counts as one transition. If the caller selects an option on Auto attendant #2 that returns them to Auto attendant #1 or sends them to Call queue #1, then this would count as a second transition.
-> 
+>  
 > Calls that remain in the same Auto attendant but return to the main menu multiple times, for example when an announcement is played or there is a configured menu option to repeat, are also counted as a transition and are impacted by this maximum transition limit.
+
+## Related articles
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+[Set up Auto attendants](create-a-phone-system-auto-attendant.md)
+[Set up Call queues](create-a-phone-system-call-queue.md)

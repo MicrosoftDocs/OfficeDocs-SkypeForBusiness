@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 11/03/2023
+ms.date: 11/29/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,19 +22,17 @@ ms.localizationpriority: high
 ---
 # New Teams for Web - Overview and prerequisites
 
->[!Note]
-> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
-
-
 The new Teams for Web is reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
+
+## Classic Teams for Web users to be updated to New Teams for Web after March 31, 2024
+
+New Teams for Web is now generally available. New Teams allows us to release new capabilities to market faster. With the move to general availability, new features, capabilities, and enhancements to existing features are available exclusively on new Teams.
+After March 31, 2024, any classic Teams for Web users who haven't updated to new Teams will be [automatically updated to new Teams for Web](/microsoftteams/new-teams-automatic-upgrade-announced). 
 
 ## How to try new Teams: App Switcher 
 
 1. Navigate to the Teams web client at https://teams.microsoft.com using Microsoft Edge or Chrome browsers.
 2. Select the **Try the new Teams** toggle on the upper-left corner of the app to switch to new Teams.
-
->[!Note] 
->This experience is currently optimized for non-EDU users. If you're an EDU user, you'll see the App switcher and are welcome to try it out, but we don't recommend you use it for primary scenarios yet.
 
 
 ## Prerequisites
@@ -47,13 +45,9 @@ New Teams for Web follows the same [browser requirements](/microsoftteams/get-cl
 - The browser runs on a desktop computer
 - The browser is updated to one of the three most-recent versions of Microsoft Edge or Chrome
 
+The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure. 
 
 ## Features currently not available
-
-The new Teams web client supports the same features as the classic Teams web client except:
-
-- Tenant switching (coming soon)
-- The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure. 
 
 The following notable features aren't available on new Teams or classic Teams clients:
 
