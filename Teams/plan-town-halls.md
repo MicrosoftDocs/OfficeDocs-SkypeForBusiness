@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 12/4/2023
+ms.date: 12/6/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-description: Learn what is a town hall in Microsoft Teams. Understand how to plan for town halls in Microsoft Teams for IT Admins.
+description: Learn what is a town hall in Microsoft Teams. Understand how to plan for town halls in Microsoft Teams for IT Admins. Guidance and tips for Teams town halls.
 ---
 
 # Plan for Teams town halls
@@ -31,6 +31,8 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
  Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
+
+As an admin, this article guides you through how to plan and prepare for town halls in your organization.
 
 ## Turn town halls on or off
 
@@ -132,9 +134,9 @@ There are two types of real time monitoring for town halls.
 
 1. **Real time monitoring of the attendee experience (Teams Premium)**
 
-   With a Teams premium license, you can use the analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
+   With a Teams premium license, you can use the Microsoft eCDN analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
 
-   To learn more about real time monitoring of attendees, see [eCDN analytics](/ecdn/technical-documentation/analytics).
+   To learn more about real time monitoring of attendees, see [Microsoft eCDN Real Time analytics](/ecdn/technical-documentation/analytics).
 
 ### Call Quality Dashboard
 
