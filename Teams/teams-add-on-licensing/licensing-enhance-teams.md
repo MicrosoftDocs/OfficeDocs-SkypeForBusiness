@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.reviewer: jogruszc, margidesai
-ms.date: 11/09/2023
+ms.date: 12/07/2023
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -171,6 +171,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+> ![NOTE]
+> Some intelligent recap features may also be available as part of the Copilot for Microsoft 365 license.
+
 ### Virtual Appointments
 
 | Feature | Teams | Teams Premium |
@@ -227,9 +230,8 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
+- Must be a commercial, worldwide public sector, EDU, GCC, GCC High, DoD, or non-profit tenant.
   - Currently, Microsoft doesn't offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
@@ -279,8 +281,6 @@ Organizations can try Teams Premium by admins purchasing the zero-cost Teams Pre
 When admins purchase a Teams Premium trial license, they have 25 licenses to assign to users. Those 25 users can experience and test Teams Premium features as they become available.
 
 Admins can manage Teams Premium features for their licensed users, whether they were acquired by the admin or users.
-
-Most admins for organization segments can purchase and use the Teams Premium trial license, excluding GCC High and DoD tenants.
 
 ### How does the Teams Premium self-service trial license work?
 
