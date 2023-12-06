@@ -83,13 +83,14 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2024 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
-| Neat Frame | `NFF1.20220914.1210` | September 3, 2024 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
@@ -98,11 +99,12 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
 |Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
