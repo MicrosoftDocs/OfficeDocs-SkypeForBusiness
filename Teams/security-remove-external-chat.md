@@ -73,7 +73,7 @@ See the following screenshot showing an example of a Purview search result detai
 
 To call the RemoveAllAccessForUser Graph API with the parameters, you need to use an HTTP POST request to the graph API:
 
-```rest
+```http
 POST https://graph.microsoft.com/beta/chats/{chatsId}/removeAllAccessForUser 
 ```
 
@@ -84,7 +84,7 @@ Replace **{chatsId}** with the **Id** of the chat you want to act on.  The reque
 
 For example, a request might look like this: 
 
-```rest
+```http
 POST https://graph.microsoft.com/v1.0/chats/19:7d8980.........f94061cf8c2@unq.gbl.spaces/removeAllAccessForUser 
 Content-Type: application/json 
 
