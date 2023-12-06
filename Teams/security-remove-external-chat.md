@@ -18,6 +18,7 @@ appliesto:
 ---
 
 # Remove an external chat from a user's view in Microsoft Teams (admin)
+
 As a tenant administrator, you can use the new [RemoveAllAccessForUser](/graph/api/chat-removeallaccessforuser) Graph API to remove an externally initiated chat from your user’s view.  
 
 Microsoft Teams admins might need to remove user chats created by people outside of your organization.  For example, one of your users might have received a chat request from someone outside of your company. That chat could contain inappropriate or malicious content, and, as an admin, you can remove that chat to help protect your user.
@@ -27,20 +28,22 @@ To use the RemoveAllAccessForUser Graph API, you need to provide three parameter
 You can obtain these three parameters from the new Unified Audit Log (UAL) events that are generated when an external user communicates with a user in your tenant. The UAL events contain information about the sender, the recipient, the chat thread, and the message. You can use the UAL events to identify the chat thread that you want to revoke access from, and then extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the event details. 
 
 ## Steps to use the RemoveAllAccessForUser Graph API
+
 - Step 1: Search for the [UAL events](/purview/audit-teams-audit-log-events) that match your criteria.  If you want to find all events where a user was added to a chat, you can use the “MemberAdded” event in your search query. 
 - Step 2: Extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the UAL event details 
 - Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
 
 ### Step 1: Search for the UAL events that match your criteria 
+
 To search for the UAL events that match your criteria, you can use the Search-UnifiedAuditLog graph API, or you can use the audit log search feature in the Microsoft Purview compliance portal. The rest of this document assumes you're using the interactive version in the Microsoft Purview compliance portal. Use the following steps: 
 
 1. Sign in to https://compliance.microsoft.com as a global administrator or an audit log administrator. 
 2. In the left navigation, select **Audit**.
 3. On the Audit log search page, specify the following criteria:
 
-  - On the Audit page, select Search.
-  - Activities: Select MemberAdded (and optionally MessageReceived) from the **Activities – operation names** field and choose **MicrosoftTeams** for the **Workload**.
-  - Date range: Select a date range that covers the time period when the external user communicated with the user in your tenant.
+   - On the Audit page, select Search.
+   - Activities: Select MemberAdded (and optionally MessageReceived) from the **Activities – operation names** field and choose **MicrosoftTeams** for the **Workload**.
+   - Date range: Select a date range that covers the time period when the external user communicated with the user in your tenant.
 (optional) Users: Enter the UPN of the user in your tenant who you are interested in.
 
 4. Select **Search**.  This queues a search to run in the background. 
@@ -48,14 +51,15 @@ To search for the UAL events that match your criteria, you can use the Search-Un
 Once complete, review the search results and identify the UAL events that involve the chat and user that you're interested in (Step 3 below). 
 
 ### Step 2: Extract the tenantId, the userId, and the chatsId/threadId from the UAL event details 
+
 To extract the **tenantId**, the **userId**, and the **chatsId/threadId** from the UAL event details, you can use the **OrganizationId**, **UserKey**, and **ChatThreadId** fields of the event.  If you searched for the **MemberAdded** event, you might see events where your users were added to an external chat and also where your users added an external user to a chat.  You'll want to find the events where your user in your tenant is in the **Members** detail section (this indicates that this is the user that was added – see figure 2 below).  To do this, follow these steps: 
 
 1. Select one of the UAL events that involve the external user that you want to revoke access from. 
 2. On the Event details pane: 
 
-  - Copy the value of the **OrganizationId** field. This is the **tenantId** of your Teams tenant. 
-  - Copy the value of the **UserKey** field. This is the **userId** of the user in your tenant that was added to the chat.  
-  - Copy the value of the **ChatThreatId** field. This is the **chatsId/threadId** of the Teams chat thread that the message belongs to. 
+   - Copy the value of the **OrganizationId** field. This is the **tenantId** of your Teams tenant. 
+   - Copy the value of the **UserKey** field. This is the **userId** of the user in your tenant that was added to the chat.  
+   - Copy the value of the **ChatThreatId** field. This is the **chatsId/threadId** of the Teams chat thread that the message belongs to. 
 
 See the following screenshot showing an example of a Purview search result detail:
 
@@ -66,6 +70,7 @@ See the following screenshot showing an example of a Purview search result detai
 *Figure 2 (Members detail from MemberAdded UAL event)*
 
 ### Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
+
 To call the RemoveAllAccessForUser Graph API with the parameters, you need to use an HTTP POST request to the graph API:
 
 ```rest
@@ -99,6 +104,7 @@ If the request is successful, the response has a status code of “204 No Conten
 There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. -->
 
 ### Sample Code
+
 The following PowerShell code can be used as a starting point.  This code shows how to acquire the User token, create a client App that has the necessary permissions, and how to use that client App to call the Graph API to remove the message.
 
 ```powershell
