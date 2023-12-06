@@ -2,7 +2,7 @@
 title: Microsoft Teams add-on licenses
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 07/07/2023
 ms.topic: conceptual
