@@ -137,7 +137,7 @@ If the toggle still doesn't appear, then
 5. Relaunch the Teams app, then right-click on the icon and select Quit.
 6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
-## "Allow all Trusted apps" group policy set to disbled blocking
+### Group policy "Allow all Trusted apps" set to disabled
 
 You may still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
 
