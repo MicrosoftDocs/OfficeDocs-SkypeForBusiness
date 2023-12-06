@@ -45,19 +45,10 @@ An application can access an organization's information in the following ways de
 | Can users consent            | Users can consent depending on Azure AD configuration               | Only admins can consent   |     |
 | Can admins let users consent for some permissions | Admins can classify some or all Delegated permissions as low-risk to let users consent to these in any app   |   Admins can't classify any Application permissions as low-risk   |    |
 
-
-
-
 Teams app permissions are defined in the following two places:
 
 * **Azure Active Directory**: Graph permissions lets an app access org-wide resources. Permissions that are needed for an app to work are added in Azure AD by the app developers. As an admin, you must consent to these permissions otherwise the app can't be used in your tenant. Admins can define if users can consent to these permissions or not.
 * **Teams app manifest**: RSC permissions are defined in the app manifest file by the app developers. RSC permissions let an app access local resources within Teams such as information in a group or a team. These allow only for Application access and not for Delegated access. Only those users who have access to the resources, can consent for these permissions. Admin consent at org-level is not required though admins control how users consent to these permissions or can block users from consenting.
-
-
-
-
-
-
 
 For each app, these permissions are listed in the app details page in the admin center.
 
@@ -92,6 +83,12 @@ In Teams admin center, you can view Graph permission that an app requests if dep
 1. In the app details page, in the **Permissions** tab, notice the permissions required by the app.
 
    :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
+
+| Type of permission for an app | Why is it required | Where to find details | Remarks |
+|-------------------------------|----------------------------------|----------------------------|---------|
+| **1** Not permissions but capabilities of an app. Actions that an app can perform and basic information that it can access. | For an app to work, it interacts with users, messages users, or it read basic user profile by virtue of being added to Teams client. | Available in the `Permissions` tab in app details page of each app. This information is also listed in the Teams store when a user installs an app. More details are [here](#what-can-apps-do-in-teams). | Required for app to work. Exists by virtue of app being installed. Only basic and not sensitive information is ever accessed by app via this method. |
+| **2** Non-RSC Graph permissions | For some features to work, an app needs to access the organization's information in the tenant. | The information that is accessed is displayed in the `Permissions` tab in the app details page of each app. See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information) | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
+| **3** Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. | NA |
 
 A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
 
@@ -181,26 +178,6 @@ To view RSC permissions for an app, follow these steps:
 1. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
-
-
-
-
-
-
-
-
-<!---
-Review below section using GPT/Acrolinx.
---->
-
-
-
-
-
-
-
-
-
 
 ## What can apps do in Teams
 
