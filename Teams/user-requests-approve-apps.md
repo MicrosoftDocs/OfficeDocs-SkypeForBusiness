@@ -54,7 +54,7 @@ You can view the user requests at the following UIs:
 
 * To view email contact of each requesters for an app, see the `User requests` tab in the app details page.
 
-   :::image type="content" source="media/user-requests-tab.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app." lightbox="media/user-requests-tab-large.png":::
+   :::image type="content" source="media/user-request-allow-apps-options.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app.":::
 
 We recommend a regular triage to check for user requests. To view and manage the requests and to allow a requested app, follow these steps:
 
@@ -82,7 +82,7 @@ After you evaluate an app, you can either allow it or [ignore the requests](#dis
 
    * If the app is blocked using permission policies, [modify the permission policies](teams-app-permission-policies.md).
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-or-block-apps).
-   * If all apps are blocked for all users, [modify Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+   * If third-party apps are blocked for the entire organization, [modify Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 After you allow an app, the following happens:
 
