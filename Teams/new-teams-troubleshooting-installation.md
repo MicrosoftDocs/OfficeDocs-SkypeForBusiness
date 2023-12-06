@@ -141,6 +141,6 @@ If the toggle still doesn't appear, then
 
 You may still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
 
-- If you are running Windows 10 or Windows 11 patch 10D version or higher, you can still download and install the new Teams app
+- If you are running **Windows 10 or Windows 11 patch 10D version or higher**, you can still download and install the new Teams app
  
-- Windows 11 21H1 SV1 (Build 10.0.22000) will continue to remain blocked.  You must upgrade to a newer version of Windows 11 to use new Teams.
+- Windows 11 21H1 SV1 (Build 10.0.22000) users will remain blocked. You must upgrade to a newer version of Windows 11 to use new Teams.
