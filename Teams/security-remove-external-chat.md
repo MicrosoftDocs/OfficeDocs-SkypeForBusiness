@@ -63,10 +63,10 @@ To extract the **tenantId**, the **userId**, and the **chatsId/threadId** from t
 
 See the following screenshot showing an example of a Purview search result detail:
 
-:::image type="content" source="./media/graph-delete-purview-search-detail.png" alt-text="Microsoft Purview search details" lightbox="./media/graph-delete-purview-search-detail.png":::<br/>
+:::image type="content" source="./media/graph-delete-purview-search-detail.png" alt-text="Microsoft Purview search details":::<br/>
 *Figure 1 (details from UAL MemberAdded event)*
 
-:::image type="content" source="./media/graph-delete-purview-member-detail.png" alt-text="Microsoft Purview member details" lightbox="./media/graph-delete-purview-member-detail.png":::<br/>
+:::image type="content" source="./media/graph-delete-purview-member-detail.png" alt-text="Microsoft Purview member details":::<br/>
 *Figure 2 (Members detail from MemberAdded UAL event)*
 
 ### Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
