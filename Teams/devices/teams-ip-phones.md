@@ -61,7 +61,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX350  | `8.0.1.4670`                                                  | 	March 30, 2024              | 9 |
 | Poly CCX505  | `7.3.1.0811`                                                  | 	March 30, 2024              | 9 |
 | Crestron Audio: UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024            | 9 |
-| Yealink MP52         | `145.15.0.6 ` | November 5, 2023                | 9 |
 | AudioCodes C435HD    | `1.12.33`     | March 30, 2024              | 9 |
 | AudioCodes C455HD    | `1.14.404`    |March 30, 2024                | 9 |
 | Crestron UC-2        |`1.0.1.46`     | March 30, 2024              | 9 |
@@ -84,13 +83,14 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2024 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
-| Neat Frame | `NFF1.20220914.1210` | September 3, 2024 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
@@ -99,11 +99,12 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
 |Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
@@ -122,6 +123,9 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #3C1 | November 28, 2023 | `1449/1.0.94.2023111407` | `5.0.5954.0` | `486`|
+| 2023 Update #3C | November 6, 2023 | `1449/1.0.94.2023100602` | `5.0.5954.0` | `486`|
+| 2023 Update #3B | October 9, 2023 | `1449/1.0.94.2023091801` | `5.0.5484.0` | `486`|
 | 2023 Update #3A | August 29, 2023 | `1449/1.0.94.2023082303` | `5.0.5484.0` | `463`|
 | 2023 Update #3 | July 31, 2023 | `1449/1.0.94.2023072509` | `5.0.5484.0` | `413`|
 | 2023 Update #2D | July 12, 2023 | `1449/1.0.94.2023063003` | `5.0.5484.0` | `413`|
@@ -350,6 +354,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
 |Audiocodes RXPanel | '2.2.311' |2023 Update #3|
 |Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
