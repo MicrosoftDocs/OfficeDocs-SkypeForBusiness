@@ -29,11 +29,11 @@ This functionality provides you with a signal about the demand for an app within
 
 You can't hide blocked apps, but you retain complete control of the apps that users can or can't use. If you choose to allow an app, the controls and user interface to manage apps remain the same.
 
-* The default option sends the user requests to Teams admin center. You can [view user requests](#view-user-requests-in-teams-admin-center) and [allow the requested apps](#act-on-the-user-requests).
+* The default option sends the user requests to Teams admin center. You can [view user requests](#view-user-requests-in-teams-admin-center) and [allow the requested apps](#act-on-the-user-requests-to-allow-apps).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
-* Admin center lets you [configure the user request experience](#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that displays for each blocked app and user requests are made on a org-specific URL.
+* Admin center lets you [configure the user request experience](#receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that displays for each blocked app and user requests are made on a org-specific URL.
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
@@ -68,39 +68,29 @@ We recommend a regular triage to check for user requests. To view and manage the
    * Click the number of requests that the column **Requests by users** displays.
    * Open the app details page from the Manage apps page and select the **User requests** tab.
 
+## Act on the user requests to allow apps
 
-
-
-
-## Act on the user requests
-
-You can contact the users who request an app via email or you can allow the app. To allow an app:
+After you evaluate an app, you can either allow it or [ignore the requests](#dismiss-user-requests). To allow an app, follow these steps:
 
 1. Sign into the Teams admin center and go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
 1. Open the app details page for the requested app.
 
-1. Select **Manage requests**.
+1. Select **Manage requests** or select the **User requests** tab.
 
-   :::image type="content" source="media/apps-manage-user-requests.png" alt-text="Screenshot showing the manage requests option on the app details page." lightbox="media/apps-manage-user-requests-expanded.png":::
-
-1. Follow one or more of the following steps that the pop-up dialog displays. The steps to approve an app vary based on the method used to block it and only the relevant steps are displayed.
+1. Follow the options that are displayed to allow the app. These options vary based on the method you used to block it as admin center displays only the relevant options. Follow one or more of the following steps to allow the app:
 
    * If the app is blocked using permission policies, [modify the permission policies](teams-app-permission-policies.md).
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-or-block-apps).
-   * If all apps are blocked for all users, [modify org-wide settings](manage-apps.md#manage-org-wide-app-settings).
+   * If all apps are blocked for all users, [modify Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
-Users can view the **Add** option for an app in the Teams store to check if the app is allowed. If you allow an app, Teams doesn't inform the users that their request is acted upon. When you allow an app, the request counter isn't reset to zero.
+After you allow an app, the following happens:
 
+* Users can see the **Add** option for the allowed app in the Teams app store.
+* Teams doesn't inform the users that their request is acted upon.
+* The request counter isn't reset to zero.
 
-
-
-
-
-
-
-
-## Modify the default setting to receive user requests on your custom webpage
+## Receive user requests on your custom webpage
 
 Teams provides a default message for users to request approval to an app. You can modify the default setting to add a custom message with instructions, org-specific URL, or both. The modifications are displayed for each app in Teams store.
 
@@ -117,24 +107,15 @@ To configure a custom message and redirect users to an org-specific URL, follow 
    1. Turn on the **Redirect requests to external link** toggle.
    1. Provide your org-specific URL.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot to toggle the customization of URL for the user requests in the org-wide settings UI.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Screenshot to toggle the customization of URL for the user requests in the Org-wide app settings UI.":::
 
 1. Select **Save**.
 
 If you choose to use this custom method to receive requests, the methods to evaluate apps and govern the requested apps remain the same.
 
-
-
-
 ## Dismiss user requests
 
-To dismiss the requests, follow the steps:
-
-1. Select the name of the app for which you want to dismiss the user requests.
-1. Select **Manage requests**.
-1. In the Manage user requests dialog, select **Dismiss all requests**.
-
-   :::image type="content" source="media/dismiss-user-requests-apps.png" alt-text="Admins can approve a user request by allowing an app or dismiss the request and not take any action.":::
+To dismiss the requests, select the **Dismiss all** option available in the **User requests** tab in the app details page. 
 
 When you dismiss requests for an app, the following happens:
 
