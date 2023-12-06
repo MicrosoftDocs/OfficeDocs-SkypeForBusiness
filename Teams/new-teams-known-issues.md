@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 12/05/2023
+ms.date: 12/06/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -35,6 +35,8 @@ ms.localizationpriority: high
 ## Coming in December
 
 - Support for NDI, SDI, and ISO streaming of Teams media content.
+- Set presence in taskbar.
+- Show and set presence in system tray.
 - Support for external shared channels when using grid view in Microsoft Teams for Education.
 
 ## Coming in January
