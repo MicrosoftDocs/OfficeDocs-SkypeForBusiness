@@ -99,9 +99,9 @@ If the request is successful, the response has a status code of “204 No Conten
 There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. -->
 
 ### Sample Code
-The below powershell code can be used as a starting point reference.  This code demonstrates how to acquire the User token, create a client App which has the necessary permissions, and how to use that client App in order to call the Graph API to perform the remove action.
+The following PowerShell code can be used as a starting point.  This code shows how to acquire the User token, create a client App that has the necessary permissions, and how to use that client App to call the Graph API to remove the message.
 
-```
+```powershell
 param(
     # Tenant id for the user whom the chat access is going to be removed
     [Parameter(Mandatory=$true)]
