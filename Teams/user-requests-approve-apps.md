@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
   - tier2
   - highpri
-ms.reviewer: mhayrapetyan
+ms.reviewer: eddieqiao
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
@@ -21,19 +21,19 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 ---
-# Manage user requests
+# View and manage user requests
 
-The apps that are blocked in your organization may affect user productivity and collaboration. Users can't use blocked apps but view such apps and their information in the Teams store, and request approval from admins. After you evaluate the request, you may choose to allow an app or dismiss the request.
+The apps that are blocked in your organization may affect user productivity and collaboration. Users can't use blocked apps but view such apps and app information in the Teams store. Teams lets users request an approval from admins to allow the usage of blocked apps. After you evaluate an app, you can either allow it or dismiss the requests.
 
 This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested app. It helps you make an informed decision about which apps to evaluate for allowing.
 
-Users can view all the available apps, including the blocked apps. You can't hide blocked apps, but you retain complete control of the apps that users can or can't use. If you choose to allow an app, the controls and user interface to manage apps remain the same.
+You can't hide blocked apps, but you retain complete control of the apps that users can or can't use. If you choose to allow an app, the controls and user interface to manage apps remain the same.
 
-* The default option sends the user requests to Teams admin center where you can [view user requests](#view-user-requests-in-teams-admin-center) and [allow the requested apps](#act-on-the-user-requests).
+* The default option sends the user requests to Teams admin center. You can [view user requests](#view-user-requests-in-teams-admin-center) and [allow the requested apps](#act-on-the-user-requests).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
-* A customization lets you [configure user experience](#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that is displayed in the Teams app store and the request approval option directs the users to an org-specific URL to collect their requests.
+* Admin center lets you [configure the user request experience](#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that displays for each blocked app and user requests are made on a org-specific URL.
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
@@ -42,19 +42,19 @@ Users can view all the available apps, including the blocked apps. You can't hid
 
 ## View user requests in Teams admin center
 
-You can view the requests to allow blocked apps in the following UIs:
+You can view the user requests at the following UIs:
 
-* For a quick view of the up to three most requested apps, see the notification in the [Teams admin center dashboard](https://admin.teams.microsoft.com/dashboard).
+* To get a quick view of up to three most requested apps, see the notification in the [Teams admin center dashboard](https://admin.teams.microsoft.com/dashboard).
 
    :::image type="content" source="media/tac-dashboard-user-requests.png" alt-text="Screenshot showing the user request review option on the admin center dashboard." lightbox="media/tac-dashboard-user-requests-large.png":::
 
-* For the number of requests received for each app, see the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps?category=userAppRequest). You can sort the `Requests by users` column.
+* To know the number of requests received for each app, see the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps?category=userAppRequest). You can sort the `Requests by users` column.
 
    :::image type="content" source="media/user-requests-tac.png" alt-text="Screenshot showing the column for user requests in Teams admin center and that it can be sorted." lightbox="media/user-requests-tac-expanded.png":::
 
-* For a detailed list of requesters for each app, see the `User requests` tab in the app details page.
+* To view email contact of each requesters for an app, see the `User requests` tab in the app details page.
 
-   :::image type="content" source="media/user-requests-tab.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app.":::
+   :::image type="content" source="media/user-requests-tab.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app." lightbox="media/user-requests-tab-large.png":::
 
 We recommend a regular triage to check for user requests. To view and manage the requests and to allow a requested app, follow these steps:
 
@@ -65,7 +65,7 @@ We recommend a regular triage to check for user requests. To view and manage the
 1. To view details of the requests of a specific app, use any one of the following methods:
 
    * Select **Review** on the admin center dashboard.
-   * Click the number of requests that the column displays.
+   * Click the number of requests that the column **Requests by users** displays.
    * Open the app details page from the Manage apps page and select the **User requests** tab.
 
 
@@ -121,9 +121,7 @@ To configure a custom message and redirect users to an org-specific URL, follow 
 
 1. Select **Save**.
 
-If you choose to do so, the methods to evaluate third-party apps and allow the requested apps remain the same.
-
-
+If you choose to use this custom method to receive requests, the methods to evaluate apps and govern the requested apps remain the same.
 
 
 
