@@ -115,17 +115,17 @@ The following list of policies can block users from seeing the app switcher togg
 |SIGNINRESTRICTED|You're signed in to the specified tenant but the App switcher toggle doesn't appear.|
 
 
-### Update and restart message in title bar
+## Update and restart message in title bar
 
 Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
 Action: This is expected behavior. Select the link to restart.
 
-### Windows 10 users can receive an error message
+## Windows 10 users can receive an error message
 
 Issue: Windows 10 users could receive the error “We’ve run into an issue” when they download and install the new Teams.</br>
 Action: [Download and install WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section). Then restart the Teams desktop app and try again.
 
-### Some people don't see the toggle to opt in
+## Some people don't see the toggle to opt in
 
 Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
 If the toggle still doesn't appear, then 
@@ -137,7 +137,7 @@ If the toggle still doesn't appear, then
 5. Relaunch the Teams app, then right-click on the icon and select Quit.
 6. Relaunch the Teams app one more time, and you should see the toggle switch.
 
-### Download and install even if group policy is set to disabled
+## Download and install even if group policy is set to disabled
 
 You may still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
 
