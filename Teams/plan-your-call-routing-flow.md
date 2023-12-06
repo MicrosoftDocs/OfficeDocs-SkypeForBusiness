@@ -1,7 +1,7 @@
 ---
 title: Routing calls with Auto attendants and Call queues for Microsoft Teams
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 12/05/2023
@@ -97,5 +97,7 @@ Here are some call routing best practices:
 ## Related articles
 
 [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+
 [Set up Auto attendants](create-a-phone-system-auto-attendant.md)
+
 [Set up Call queues](create-a-phone-system-call-queue.md)
