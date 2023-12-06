@@ -70,7 +70,7 @@ To set up consoles by using a one-time password, perform the following steps:
 
 ## Set up consoles manually
 
-If you don't have a one-time password, you can still set up a Teams Rooms console but you will need to do it manually.
+If you don't have a one-time password, you can still set up a Teams Rooms console but you'll need to do it manually.
 
 The process of setting up consoles manually (without a one-time password) is the same as the Out Of Box Experience (OOBE), that is, the same as specified in [Set up consoles using one-time password](#set-up-consoles-using-a-one-time-password). However, you won't see:
 
@@ -98,11 +98,11 @@ To set up a Microsoft Teams Rooms console manually,  follow these steps:
 
 ### Device verification failure and troubleshooting
 
-The device verification is an automatic process. However, sometimes the process may fail and you'll see the following page:
+The device verification is an automatic process to ensure that the device being deployed is a certified Microsoft Teams Rooms device. However, sometimes the process may fail and you'll see an error message as depicted in the following screenshot:
 
 :::image type="content" source="../media/device-verification-screen.png" alt-text="Screenshot that shows the error that occurred in the device verification process." lightbox="../media/device-verification-screen.png":::
 
 If the device verification process fails, you can try one or more of the following troubleshooting options:
 
-- Insert an HDMI Ingest module that came with the device.
-- Contact your IT administrator.
+- Use the HDMI ingest module that came with the Teams Rooms console. Connect this HDMI ingest module to the Teams Rooms console and restart the console.
+- If you continue to have problems after connecting the HDMI ingest module to the console, contact the manufacturer or the seller.
