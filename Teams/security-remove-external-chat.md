@@ -65,11 +65,11 @@ See the following screenshot showing an example of a Purview search result detai
 :::image type="content" source="./media/graph-delete-purview-member-detail.png" alt-text="Microsoft Purview member details" lightbox="./media/graph-delete-purview-member-detail.png":::
 *Figure 2 (Members detail from MemberAdded UAL event)*
 
-### Step 3 Call the RemoveAllAccessForUser Graph API with the desired parameters 
+### Step 3: Call the RemoveAllAccessForUser Graph API with the desired parameters 
 To call the RemoveAllAccessForUser Graph API with the parameters, you need to use an HTTP POST request to the graph API:
 
 ```rest
-POST https://graph.microsoft.com/v1.0/chats/{chatsId}/removeAllAccessForUser 
+POST https://graph.microsoft.com/beta/chats/{chatsId}/removeAllAccessForUser 
 ```
 
 Replace **{chatsId}** with the **Id** of the chat you want to act on.  The request body should contain a JSON **user** object with the following properties: 
@@ -91,8 +91,139 @@ Content-Type: application/json
 } 
 ```
 
-To authenticate the request, you need to provide a valid access token in the Authorization header. The access token should have the Chat.ReadWrite.All permissions. To obtain the access token, you can use the Azure AD OAuth 2.0 endpoint. For more information, see [Microsoft Graph - Get access without a user](/graph/auth-v2-service). 
+To authenticate the request, you need to provide a valid access token in the Authorization header. The access token should have the Chat.ReadWrite.All permissions. To obtain the access token, you can use the Azure AD OAuth 2.0 endpoint. For more information, see [Microsoft Graph - Get access on behalf of a user](/graph/auth-v2-user). 
 
 If the request is successful, the response has a status code of “204 No Content” and an empty body. If the request fails, the response has an error code and a message that explains the reason for the failure. 
 
-There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. 
+<!--
+There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. -->
+
+### Sample Code
+The below powershell code can be used as a starting point reference.  This code demonstrates how to acquire the User token, create a client App which has the necessary permissions, and how to use that client App in order to call the Graph API to perform the remove action.
+
+```
+param(
+    # Tenant id for the user whom the chat access is going to be removed
+    [Parameter(Mandatory=$true)]
+    [String]
+    $TenantId,
+ 
+    # User id for the user whom the chat access is going to be removed
+    [Parameter(Mandatory=$true)]
+    [String]
+    $UserId,
+ 
+    # Id of the chat that from which access will be removed
+    [Parameter(Mandatory=$true)]
+    [String]
+    $ThreadId
+)
+ 
+ 
+# These may not all be necessary in your environment
+# Install Microsoft.Graph.Authentication module for all users (requires admin rights)
+if (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication) {
+    Write-Host "Microsoft.Graph.Authentication module found." -ForegroundColor "Green"
+} 
+else {
+    Write-Host "Microsoft.Graph.Authentication module not found. Installing"
+    Install-Module Microsoft.Graph.Authentication -Scope AllUsers -Force -ForegroundColor "Yellow"
+}
+ 
+# Install Microsoft.Graph.Applications module for all users (requires admin rights)
+if (Get-Module -ListAvailable -Name Microsoft.Graph.Applications) {
+    Write-Host "Microsoft.Graph.Applications module found." -ForegroundColor "Green"
+} 
+else {
+    Write-Host "Microsoft.Graph.Application module not found. Installing"
+    Install-Module Microsoft.Graph.Applications -Scope AllUsers -Force -ForegroundColor "Yellow"
+}
+ 
+# Install MSAL.PS module for all users (requires admin rights)
+if (Get-Module -ListAvailable -Name MSAL.PS) {
+    Write-Host "MSAL module found."  -ForegroundColor "Green"
+} 
+else {
+    Write-Host "MSAL module not found. Installing"
+    Install-Module MSAL.PS -Scope AllUsers -Force -ForegroundColor "Yellow"
+}
+ 
+ 
+# Connect to graph and verify that a client application exists for this purpose - if not, create one
+Connect-MgGraph -Scopes "Application.ReadWrite.All", "DelegatedPermissionGrant.ReadWrite.All"
+ 
+# Get client app info
+$App = Get-MgApplication -Filter "DisplayName eq 'RemoveAllAccessForUserApp'"
+$createAppParams = @{
+    publicClient = @{
+		redirectUris = "https://login.microsoftonline.com/common/oauth2/nativeclient"
+	}
+}
+ 
+# If client app is not found. Create it
+if ($null -eq $App)
+{
+    Write-Host "Client app not found. Creating new one." -ForegroundColor "Yellow"
+    $App = New-MgApplication -DisplayName 'RemoveAllAccessForUserApp' @createAppParams
+    Write-Host "Client app created. Waiting for 5 seconds before continuing." -ForegroundColor "Yellow"
+    Start-Sleep -Seconds 5
+}
+else 
+{
+    $AppId = $App.AppId
+    Write-Host "Client app with id '$AppId' found'" -ForegroundColor "Green"
+}
+
+$ClientId = $App.AppId
+Write-Host "debug clientID == $ClientId"
+
+ 
+# Now that we have the ID for our client application, we can call the RemoveAccessForUser API...
+# Msal parameters required to get access token.
+$MsalParams = @{
+    ClientId = $ClientId
+    TenantId = $TenantId
+    Scopes   = 'Chat.ReadWrite.All'
+}
+ 
+ 
+# Get access token, it will prompt for interactive login   
+$MsalResponse = Get-MsalToken @MsalParams
+$AccessToken  = $MsalResponse.AccessToken
+ 
+ 
+# Request authorization header containing the access token
+$AuthHeader = @{
+    Authorization = "Bearer $AccessToken"
+}
+ 
+# Request url
+$apiUrl = "https://graph.microsoft.com/beta/chats/$ThreadId/removeAllAccessForUser"
+ 
+# Prepare request body
+$Body = @{
+	user = @{
+		id = "$UserId"
+		tenantId = "$TenantId"
+	}
+}
+ 
+$Body = $Body | ConvertTo-Json
+ 
+# Execute request
+Write-Host "Executing RemoveAllAccessForUser request."
+ 
+try {
+    Invoke-RestMethod  -Headers $AuthHeader -Uri $apiUrl -Method POST -ContentType 'application/json' -Body $Body 
+    Write-Host "Rquest to RemoveAllAccessForUser api succeeded." -ForegroundColor "Green"
+} catch {
+    Write-Host "Request to RemoveAllAccessForUser api failed." -ForegroundColor "Red"
+    Write-Host "StatusCode:" $_.Exception.Response.StatusCode.value__ 
+    Write-Host "StatusDescription:" $_.Exception.Response.StatusDescription
+    $receiveStream = $_.Exception.Response.GetResponseStream();
+    Write-Host ([System.Text.Encoding]::ASCII).GetString($receiveStream.ToArray())
+}
+ 
+Write-Host "Disconnecting from Microsoft Graph!"
+Disconnect-MgGraph
+```
