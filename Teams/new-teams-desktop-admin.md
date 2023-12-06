@@ -28,7 +28,8 @@ ms.localizationpriority: high
 
 > [!TIP]
 >- Ready to upgrade to the new Teams? Step by step instructions are here: [**Upgrade to new Teams using policies**.](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-deploy-the-new-teams-client)</br>
->- Looking for tips on using the new Teams? See [**Try the new Microsoft Teams**](/office/try-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).</br>
+>- Looking for tips on using the new Teams? See [**Switch to the new Microsoft Teams**](/office/switch-to-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5).</br>
+<!--- Not sure of the above syntax or if the abreviated path above will work since this page is on learn.microsoft and the destination is on support.microsoft. If full URL is needed, here it is: https://support.microsoft.com/en-us/office/switch-to-the-new-microsoft-teams-2d4a0c96-fa52-43f8-a006-4bfbc62cf6c5 -->
 >- Visit our **[new Teams microsite](https://aka.ms/newTeams)** to learn more and see a more detailed list of upcoming features.
 
 ## What is the new Teams?
