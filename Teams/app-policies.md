@@ -35,7 +35,7 @@ As an alternate, you can use [app centric management](app-centric-management.md)
 > [!IMPORTANT]
 > If you're using app centric management to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md).
 
-With app permission policies, Teams admin control what apps are available to each user in their organization. You can allow a few apps for all users, you can allow a few apps for a specific group of users, or you can allow specific apps for specific users. App permission policies work in tandem with org-wide settings and allow or block status of each individual app.
+With app permission policies, Teams admin control what apps are available to each user in their organization. You can allow a few apps for all users, you can allow a few apps for a specific group of users, or you can allow specific apps for specific users. App permission policies work in tandem with Org-wide app settings and allow or block status of each individual app.
 
 The app permission policies apply to all the [types of apps available in Teams](apps-in-teams.md). Some example scenarios in which you use app permission policies are:
 
@@ -63,9 +63,9 @@ To know more, see [how to manage app setup policies](teams-app-setup-policies.md
 
 ### Option to upload custom apps
 
-Your organization may commission the creation of custom apps for org-specific requirements. Developers within your organization can build, test, and deploy custom apps for organization's internal users of Teams. You use app setup policy to control who in your organization can upload custom apps. You use org-wide settings to allow users to use custom apps. You use permission policies to allow only specific users to use a custom app.
+Your organization may commission the creation of custom apps for org-specific requirements. Developers within your organization can build, test, and deploy custom apps for organization's internal users of Teams. You use app setup policy to control who in your organization can upload custom apps. You use Org-wide app settings to allow users to use custom apps. You use permission policies to allow only specific users to use a custom app.
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Screenshot that shows how to allow custom apps in your organization in the org-wide settings panel." lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Screenshot that shows how to allow custom apps in your organization in the Org-wide app settings panel." lightbox="media/custom-app-policy.png":::
 
 To know more, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
