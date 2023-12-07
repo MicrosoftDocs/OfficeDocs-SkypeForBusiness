@@ -48,11 +48,11 @@ You can view the user requests at the following UIs:
 
    :::image type="content" source="media/tac-dashboard-user-requests.png" alt-text="Screenshot showing the user request review option on the admin center dashboard." lightbox="media/tac-dashboard-user-requests-large.png":::
 
-* To know the number of requests received for each app, see the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps?category=userAppRequest). You can sort the `Requests by users` column.
+* To know the number of requests received for each app, see the [Manage apps page](https://admin.teams.microsoft.com/policies/manage-apps?category=userAppRequest). You can sort the **Requests by users** column.
 
    :::image type="content" source="media/user-requests-tac.png" alt-text="Screenshot showing the column for user requests in Teams admin center and that it can be sorted." lightbox="media/user-requests-tac-expanded.png":::
 
-* To view email contact of each requesters for an app, see the `User requests` tab in the app details page.
+* To view email contact of each requesters for an app, see the **User requests** tab in the app details page.
 
    :::image type="content" source="media/user-request-allow-apps-options.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app.":::
 
