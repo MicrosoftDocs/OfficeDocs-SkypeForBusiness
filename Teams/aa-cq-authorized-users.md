@@ -1,7 +1,7 @@
 ---
 title: Set up Auto attendant and Call queue authorized users
-ms.author: danismith
-author: DaniEASmith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.topic: article

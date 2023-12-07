@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 12/4/2023
+ms.date: 12/6/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -29,6 +29,10 @@ description: Learn how to plan for webinars in Microsoft Teams.
 # Plan for Teams webinars
 
 **APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
+
+A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
+
+As an admin, this article guides you through how to plan and prepare for webinars in your organization.
 
 ## Turn webinars on or off
 

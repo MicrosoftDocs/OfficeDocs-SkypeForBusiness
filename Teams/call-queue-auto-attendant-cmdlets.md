@@ -1,7 +1,7 @@
 ---
 title: PowerShell cmdlet reference for Auto attendants and Call queues
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 12/05/2023
