@@ -33,7 +33,7 @@ You can't hide blocked apps, but you retain complete control of the apps that us
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Screenshot showing the option to request an admin to approve a blocked app.":::
 
-* Admin center lets you [configure the user request experience](#receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that displays for each blocked app and user requests are made on a org-specific URL.
+* Admin center lets you [configure the user request experience](#receive-user-requests-on-your-custom-webpage) that is best suited for your organization. You can provide an instruction or a custom message that displays for each blocked app and user requests are made on an org-specific URL.
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Screenshot showing the user experience for apps in store when an admin redirects the allow app request URL to an org-specific URL.":::
 
