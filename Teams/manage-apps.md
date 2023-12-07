@@ -198,6 +198,6 @@ You may have queries about admin settings or configuration, user flows and app f
 
 ## Related article
 
-* [Manage user requests to allow apps](user-requests-approve-apps.md).
+* [Manage user requests to allow apps](user-requests-approve-apps.md)
 * [Auto install approved apps in Teams](auto-install-approved-apps.md)
 * [Install and pin apps via setup policies](teams-app-setup-policies.md)
