@@ -58,8 +58,10 @@ Connect-MgGraph
 
 $displayName = 'Microsoft Teams meeting add-on for Google Workspace'
 $appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+```
 
-# Check if a service principal already exists for the app
+## Check if a service principal already exists for the app
+```powershell
 $servicePrincipal = Get-MgServicePrincipal -Filter "appId eq '$appId'"
 if ($servicePrincipal) {
     # Service principal exists already, disable it
@@ -71,6 +73,7 @@ if ($servicePrincipal) {
     Get-MgServicePrincipal -Filter "appId eq '$appId'" | Update-MgServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
+```
 
 For more information, see [Create an MS Graph service principal with MS Graph PowerShell](/powershell/module/microsoft.graph.applications/get-mgserviceprincipal).
 
