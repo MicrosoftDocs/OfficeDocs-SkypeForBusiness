@@ -141,11 +141,11 @@ Admin center settings may allow your users to collaborate with users from other 
 
 ## Auto install approved apps based on admin approval
 
-Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users have used although outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
+Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users use outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
 ## Stop app usage and remove app
 
-As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are already added by users. Blocking the apps prevents users from using it.
+As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
@@ -165,7 +165,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
-    * **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
+    * **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users aren't able to add or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
     * **Allow any new third-party apps published to the store by default**: This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 1. Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. A blocked app isn't available to any user, regardless of app policies.
