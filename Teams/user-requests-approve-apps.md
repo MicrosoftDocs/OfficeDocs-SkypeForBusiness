@@ -23,7 +23,7 @@ ms.localizationpriority: high
 ---
 # View and manage user requests
 
-The apps that are blocked in your organization may affect user productivity and collaboration. Users can't use blocked apps but view such apps and app information in the Teams store. Teams lets users request an approval from admins to allow the usage of blocked apps. After you evaluate an app, you can either allow it or dismiss the requests.
+The apps that are blocked in your organization may affect user productivity and collaboration. Users can't use blocked apps but can view such apps and app information in the Teams store. Teams lets users request an approval from admins to allow the usage of blocked apps. After you evaluate an app, you can either allow it or dismiss the requests.
 
 This functionality provides you with a signal about the demand for an app within your organization. You can easily view the aggregate number of requests for each requested app. It helps you make an informed decision about which apps to evaluate for allowing.
 
@@ -52,7 +52,7 @@ You can view the user requests at the following UIs:
 
    :::image type="content" source="media/user-requests-tac.png" alt-text="Screenshot showing the column for user requests in Teams admin center and that it can be sorted." lightbox="media/user-requests-tac-expanded.png":::
 
-* To view email contact of each requesters for an app, see the **User requests** tab in the app details page.
+* To view email contact of each requester of an app, see the **User requests** tab in the app details page.
 
    :::image type="content" source="media/user-request-allow-apps-options.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app.":::
 
@@ -89,8 +89,8 @@ After you evaluate an app, you can either allow it or ignore the requests. To al
 After you allow an app, the following happens:
 
 * Users can see the **Add** option for the allowed app in the Teams app store.
-* Teams doesn't inform the users that their request is acted upon.
-* The request counter isn't reset to zero.
+* Teams doesn't inform requesters when admins act on their requests. We recommend manually letting the requesters know of your decision and action, especially if you approve an app for use. Use the requesters' contact email before you [dismiss the requests](#dismiss-user-requests).
+* The request counter doesn't reset after you approve an app. To reset it and remove all requests, you can [dismiss the requests](#dismiss-user-requests).
 
 ## Receive user requests on your custom webpage
 
