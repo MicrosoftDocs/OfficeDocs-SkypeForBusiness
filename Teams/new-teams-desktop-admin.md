@@ -47,7 +47,6 @@ New Teams is available for Windows, Mac, VDI, Edu, and Web.
 >[!Note]
 >Now in **public preview:**
 >
->- **VDI**: Public preview starts October 5, 2023.</br>
 >- **GCC and GCC HIGH (Government cloud):** Public preview starts October 5, 2023.  Note:  **DoD** will roll out to public preview later in October.
 
 The new Teams client is now available for the Web.
