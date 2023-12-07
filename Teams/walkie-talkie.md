@@ -28,20 +28,20 @@ ms.date: 11/03/2023
 
 ## Overview of Walkie Talkie
 
-<!--The Walkie Talkie app in Microsoft Teams provides clear, instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Users connect with their team through the same underlying Teams channels that they're already members of.
+<!--The Walkie Talkie app in Microsoft Teams provides instant push-to-talk (PTT) communication for your teams and is available on Android and iOS devices. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of.
 
-Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
+Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other by using PTT. Users continue to receive transmissions until they tap Stop listening. Walkie Talkie supports communicating in standard, open channels. It doesn't support or work on shared and private channels.
 
-With Walkie Talkie, users can securely communicate with a familiar PTT experience without needing to carry bulky radios. Walkie Talkie works anywhere there's WiFi or cellular internet connectivity.
+With Walkie Talkie in Teams, users can securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.-->
 
-The Walkie Talkie app in Microsoft Teams provides clear, instant push-to-talk (PTT) communication for your teams. Users connect with with their team through the same underlying Teams channels that they're already members of.
+The Walkie Talkie app in Microsoft Teams provides a push-to-talk (PTT) experience that enables clear, instant, and secure voice communications – turning Android and iOS devices into a walkie talkie. Your users connect with their teams through the same underlying Teams channels that they're already members of.
 
 Users who connect to Walkie Talkie in a channel become participants and can communicate with each other using PTT. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
 
-With Walkie Talkie, users can securely communicate through a familiar PTT experience without needing to carry bulky radios. Walkie Talkie is available on Android and iOS devices and works anywhere there's Wi-Fi or cellular internet connectivity.
+With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. Walkie Talkie works over Wi-Fi or cellular data, making it easy for your users to stay connected with each other from anywhere. 
 
 ## License requirements
 
@@ -128,9 +128,11 @@ Also, keep in mind the following:
 
 ## Walkie Talkie devices
 
+Walkie Talkie is available on iOS and Android devices.  
+
 Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through specialized devices and accessories that have a dedicated PTT button. Here's a list of these devices.
 
-### Headsets
+### Headsets 
 
 - Wireless headsets (iOS and Android)
   - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
@@ -176,17 +178,15 @@ On devices running Android OS version 12 or later, Bluetooth permissions are req
 
 The [Walkie Talkie usage and performance report](teams-analytics-and-reports/walkie-talkie-usage-report.md) in the Teams admin center gives you and overview of Walkie Talkie activity and performance in your organization. The report provides information such as the number of PTT transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-## Data residency available
+## Data residency
 
 Walkie Talkie customer data for tenants in the European Union Data Boundary (EUDB) and in the United Kingdom is stored in data centers located in the EU. All other tenants have their Walkie Talkie customer data stored in data centers located in the United States. Tenants aren't provided with a choice for the specific deployment region for data storage.
 
-### To be considered a tenant in the EUDB
+To be considered a tenant in the EUDB, the tenant must have a _default geography_ in a EUDB country/region or select a country/region in EUDB country/region as their residence during sign-up.
 
-The tenant must have a _default geography_ in a EUDB country/region or select a country/region in EUDB country/region as their residence during sign-up.
+<!--### How can I determine customer data location?
 
-### How can I determine customer data location?
-
-See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals/data-residency).
+See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals/data-residency).-->
 
 ## End-user experience
 
