@@ -1,7 +1,7 @@
 ---
 title: Manage resource accounts for service numbers
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 02/24/2023
@@ -86,7 +86,7 @@ You may want to hide certain resources accounts from Teams users. For example, y
 
 ### Required subscriptions and permissions
 
-To access and use information barriers, your organization must have one of the following subscriptions or add ons:
+To access and use information barriers, your organization must have one of the following subscriptions or add-ons:
 
 - Microsoft 365 E5/A5 subscription (paid or trial version).
 - Office 365 E5/A5/A3/A1 subscription (paid or trial version).

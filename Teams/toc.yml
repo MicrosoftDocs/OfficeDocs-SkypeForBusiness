@@ -575,6 +575,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: Manage chat blocking
+          href: block-incoming-chats.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -947,7 +949,7 @@ items:
           items: 
             - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Plan call routing flow
+            - name: Routing calls with Auto attendants and Call queues
               href: plan-your-call-routing-flow.md
             - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md

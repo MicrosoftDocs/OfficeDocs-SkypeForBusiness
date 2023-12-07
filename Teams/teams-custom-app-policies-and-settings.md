@@ -78,7 +78,7 @@ To make the app available to users in your organization's app store, follow thes
 
 ## Update a custom app using Teams admin center
 
-To update and existing custom app, follow these steps:
+To update an existing custom app, follow these steps:
 
 1. Access Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
