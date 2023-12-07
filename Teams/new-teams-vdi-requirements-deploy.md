@@ -266,12 +266,14 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
 ## Publish applications with RemoteApp in Azure Virtual Desktop
  
-There are two ways to make new Teams available to users in Azure Virtual Desktop: as part of a full desktop or as individual application with RemoteApp. Learn more on RemoteApp 
-[Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
+There are two ways to make new Teams available to users in Azure Virtual Desktop:
 
-You can publish new Teams using the Windows shell:appsFolder location in the format: 
+- As part of a full desktop or 
+- As an individual application with RemoteApp. Learn more on RemoteApp see: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
 
-  shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams
+You can publish new Teams using the Windows shell:appsFolder location using this format: 
+
+-  `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`
 
 
 ## Control fallback mode in Teams
