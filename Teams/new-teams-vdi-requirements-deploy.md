@@ -269,7 +269,7 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 There are two ways to make new Teams available to users in Azure Virtual Desktop:
 
 - As part of a full desktop or 
-- As an individual application with RemoteApp. Learn more on RemoteApp see: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
+- As an individual application with RemoteApp. Learn more: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
 
 You can publish new Teams using the Windows shell:appsFolder location using this format: 
 
