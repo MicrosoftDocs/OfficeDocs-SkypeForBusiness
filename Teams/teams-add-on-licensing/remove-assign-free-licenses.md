@@ -2,7 +2,7 @@
 title: Retire Microsoft Teams Free (classic) for your organization
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 08/28/2023
 ms.topic: conceptual
