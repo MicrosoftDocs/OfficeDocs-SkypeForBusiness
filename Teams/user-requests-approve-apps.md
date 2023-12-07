@@ -84,6 +84,8 @@ After you evaluate an app, you can either allow it or ignore the requests. To al
    * If the app is blocked for all users, [allow the app](manage-apps.md#allow-or-block-apps).
    * If third-party apps are blocked for the entire organization, [modify Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
+   :::image type="content" source="media/user-request-allow-apps-options.png" alt-text="Screenshot showing the user requests tab in the app details page and the admin actions needed to allow an app.":::
+
 After you allow an app, the following happens:
 
 * Users can see the **Add** option for the allowed app in the Teams app store.
