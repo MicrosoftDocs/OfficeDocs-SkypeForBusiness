@@ -37,7 +37,7 @@ In addition, virtual machines must meet the minimum requirements listed here:
 |Requirement |Version|
 |:-----|:-----|
 |Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
-|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
+|Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
@@ -257,13 +257,23 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
  
 >[!Important]
->Customers using FSLogix need to install hotfix [2.9.8716.30241](https://download.microsoft.com/download/6/a/1/6a14498e-56e8-4653-bea6-b71ddeaec43f/FSLogix_Apps_2.9.8716.30241.zip) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
+>Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
 >- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
-  
+
+## Publish applications with RemoteApp in Azure Virtual Desktop
+ 
+There are two ways to make new Teams available to users in Azure Virtual Desktop: as part of a full desktop or as individual application with RemoteApp. Learn more on RemoteApp 
+[Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
+
+You can publish new Teams using the Windows shell:appsFolder location in the format: 
+
+  shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams
+
+
 ## Control fallback mode in Teams
 
 When users connect from an unsupported endpoint, the users are in fallback mode, in which Audio/Video isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
