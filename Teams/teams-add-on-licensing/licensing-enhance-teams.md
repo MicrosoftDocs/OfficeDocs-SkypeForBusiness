@@ -173,7 +173,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
-> ![NOTE]
+> [!NOTE]
 > Some intelligent recap features may also be available as part of the Copilot for Microsoft 365 license.
 
 ### Virtual Appointments
