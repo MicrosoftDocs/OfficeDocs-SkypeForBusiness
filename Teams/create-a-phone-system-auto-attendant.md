@@ -1,7 +1,7 @@
 ---
 title: Set up a Microsoft Teams Auto attendant
-author: DaniEASmith
-ms.author: danismith
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/30/2023
