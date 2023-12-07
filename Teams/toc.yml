@@ -949,7 +949,7 @@ items:
           items: 
             - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Plan call routing flow
+            - name: Routing calls with Auto attendants and Call queues
               href: plan-your-call-routing-flow.md
             - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md
