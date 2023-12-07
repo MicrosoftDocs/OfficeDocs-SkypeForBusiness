@@ -44,7 +44,7 @@ You can't hide blocked apps, but you retain complete control of the apps that us
 
 You can view the user requests at the following UIs:
 
-* To get a quick view of up to three most requested apps, see the notification in the [Teams admin center dashboard](https://admin.teams.microsoft.com/dashboard).
+* To quickly see a list of up to three most requested apps, see the notification in the [Teams admin center dashboard](https://admin.teams.microsoft.com/dashboard).
 
    :::image type="content" source="media/tac-dashboard-user-requests.png" alt-text="Screenshot showing the user request review option on the admin center dashboard." lightbox="media/tac-dashboard-user-requests-large.png":::
 
@@ -70,7 +70,7 @@ We recommend a regular triage to check for user requests. To view and manage the
 
 ## Act on the user requests to allow apps
 
-After you evaluate an app, you can either allow it or [ignore the requests](#dismiss-user-requests). To allow an app, follow these steps:
+After you evaluate an app, you can either allow it or ignore the requests. To allow an app, follow these steps:
 
 1. Sign into the Teams admin center and go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
