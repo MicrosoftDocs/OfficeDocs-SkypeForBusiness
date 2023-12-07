@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.audioandvideo
-description: Learn to set up RTMP-In for Teams meetings.
+description: Learn to set up RTMP-In for Teams meetings for admins.
 ---
 
 # Manage RTMP-In for Teams meetings, webinars, and town halls
