@@ -75,7 +75,7 @@ For information about using watermarks with other meeting features to help prote
 
 ## Configure watermarks
 
-For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled in the Teams admin center. (Watermarks are enabled by default.)
+For watermarks to be available to the meeting organizer, they must be enabled in the Teams admin center. (Watermarks are enabled by default.) Note that sensitivity labels can enforce watermarks even if they're turned off for the meeting organizer in the Teams admin meeting policy.
 
 To configure watermarking for meetings
 

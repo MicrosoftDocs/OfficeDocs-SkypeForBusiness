@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: maahma
-ms.date: 09/28/2022
+ms.date: 12/07/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
