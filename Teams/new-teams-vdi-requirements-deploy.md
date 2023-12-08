@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 12/06/2023
+ms.date: 12/08/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -67,6 +67,20 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Name: IsWVDEnvironment 
 - Type: DWORD 
 - Value: 1 
+
+
+## Publish applications with RemoteApp in Azure Virtual Desktop
+ 
+There are two ways to make new Teams available to users in Azure Virtual Desktop:
+
+- As part of a full desktop or 
+- As an individual application with RemoteApp. Learn more: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
+
+You can publish new Teams using the Windows shell:appsFolder location using this format: 
+
+-  `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`
+
+
 
 ## Windows 365 
 
@@ -172,7 +186,7 @@ You can control who sees the toggle by configuring the Teams Admin Center policy
 If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+If IT administrators set restrictions for MSIX or deploy GPOs, that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
@@ -187,7 +201,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, see section "Disable new Teams autoupdate" below)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 
 ## Troubleshooting new Teams deployment errors
@@ -264,16 +278,6 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
 
-## Publish applications with RemoteApp in Azure Virtual Desktop
- 
-There are two ways to make new Teams available to users in Azure Virtual Desktop:
-
-- As part of a full desktop or 
-- As an individual application with RemoteApp. Learn more: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
-
-You can publish new Teams using the Windows shell:appsFolder location using this format: 
-
--  `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`
 
 
 ## Control fallback mode in Teams
