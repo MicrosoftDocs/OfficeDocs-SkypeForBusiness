@@ -96,6 +96,8 @@ Phishing attacks in Teams are costly monetarily and to peace of mind. These atta
 
 - [There are security Best Practices for Teams that everyone should know about and use](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging)
     - [Users can learn how to spot and protect themselves from phishing](https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44)
+ 
+- If a user in your organization received a phishing message from an external sender, tenant admins can [remove this message from the user's view by using the graph API 'RemoveAllAccessForUser'](security-remove-external-chat.md).
 
 - [Microsoft Defender for Office 365 also secures Teams](/microsoft-365/security/office-365-security/mdo-support-teams-about)
     - [Attack Simulation helps admins train Teams users and protect the vulnerable](/microsoft-365/security/office-365-security/attack-simulation-training-teams)

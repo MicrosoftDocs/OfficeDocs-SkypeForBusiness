@@ -83,13 +83,14 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2024 | 10 |
-| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2024 | 10 |
-| Neat Frame | `NFF1.20220914.1210` | September 3, 2024 | 10 |
+| Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
+| Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
+| Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
 | Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
 | Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
@@ -98,11 +99,12 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 > [!NOTE]
-> The certification end date for Android 9 based devices has been extended to November 5, 2023. 
+> The certification end date for Android 9 based devices has been extended to November 5, 2023.
+> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
 |Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
@@ -121,6 +123,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #3D | December 6, 2023 | `1449/1.0.94.2023112704` | `5.0.5954.0` | `486`|
 | 2023 Update #3C1 | November 28, 2023 | `1449/1.0.94.2023111407` | `5.0.5954.0` | `486`|
 | 2023 Update #3C | November 6, 2023 | `1449/1.0.94.2023100602` | `5.0.5954.0` | `486`|
 | 2023 Update #3B | October 9, 2023 | `1449/1.0.94.2023091801` | `5.0.5484.0` | `486`|
@@ -312,6 +315,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20230928.0015` | 2023 Update #2A |
+|Lenovo ThinkSmart View Plus | `10.1.t.2.44` | 2023 Update #2A|
 |Lenovo ThinkSmart View Plus | `10.1.t.2.38` | 2023 Update #2A|
 |Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2A|
 |Neat Frame nf21f1 | `NFF1.20230504.0023` | 2023 Update #2 |
@@ -352,6 +357,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.520.0.15 ` | 2023 Update #3 |
 |Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
 |Audiocodes RXPanel | '2.2.311' |2023 Update #3|
