@@ -226,13 +226,14 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |
+| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; | &#x2714; |  | &#x2714; |
 | [Logitech Brio](https://www.logitech.com/product/brio) | V2.2.50 | &#x2714; |  |
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) | Rally Bar: </br> Logi CollabOS: 1.10.409 </br> System Image: 0.918.459 </br> Audio: 1.0.790 </br> Housekeeping: 1.1.79 </br> Pan & Tilt: 1.0.80 </br> Zoom & Focus: 1.0.79 </br> Sight: </br> Logi CollabOS: 1.10.208 </br> System Image: 0.901.258 |  | &#x2714; |
+| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
 | [Logitech Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Rally Bar Mini: </br> Logi CollabOS: 1.10.409 </br> System Image: 0.918.459 </br> Audio: 1.0.790 </br> Housekeeping: 1.1.79 </br> Pan & Tilt: 1.1.29 </br> Sight: </br> Logi CollabOS: 1.10.208 </br> System Image: 0.901.258 |  | &#x2714; |
+| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
 | [Logitech Rally Bar Huddle](https://www.logitech.com/en-us/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
