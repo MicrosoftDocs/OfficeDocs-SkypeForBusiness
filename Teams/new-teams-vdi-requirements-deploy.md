@@ -23,11 +23,16 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
+This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+
+
+### Important timeline for classic Teams for VDI
+
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
+
 >[!Note]
 >VDI for new Teams is now generally available for customers in public clouds.
->GCC,GCC HIGH and DOD (Government cloud) is currently not supported. Check back for updates.
-
-This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+>However, GCC,GCC HIGH and DOD (Government cloud) is currently not supported. Check back for updates.
 
 ## Requirements
 
