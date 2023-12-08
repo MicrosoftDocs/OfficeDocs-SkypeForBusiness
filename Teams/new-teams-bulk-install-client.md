@@ -45,6 +45,8 @@ When **teamsbootstrapper.exe** is run on a computer:
 - Modifies the registry to allow Teams to work with Office and other computer applications.
 - Displays success or failure message on the command line
 
+>[!Important]
+>You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloadeded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and the latest download.
 
 ## Prerequisites for target computers
 
