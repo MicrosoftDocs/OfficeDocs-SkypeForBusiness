@@ -26,30 +26,41 @@ description: Guest access in Microsoft Teams allows teams in your organization t
 
 # Guest access in Microsoft Teams
 
-With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams.
-
-When you invite a guest to Teams, a guest account is created for them in Microsoft Entra ID and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Microsoft Entra ID and Microsoft 365 service limits.
-
-If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
+With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams. If you haven't set up guest access yet, go through the steps in the [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
 > [!NOTE]
 > If you just want to find, call, chat, and set up meetings with people in other Microsoft 365 organizations, use [external access](trusted-organizations-external-meetings-chat.md).
 
-Global administrators or Teams administrators and team owners can add a new guest to the organization in a couple of ways:
+When you invite a guest to Teams, a guest account is created for them in Microsoft Entra ID and they are covered by the same compliance and auditing protection as other Microsoft 365 users. With Microsoft Entra B2B collaboration, you can enforce conditional access and multi-factor authentication (MFA) policies for B2B users. These policies can be enforced at the organization, app, or individual user level, the same way that they are enabled for people inside your organization. For more information, see  [Authentication and Conditional Access for External Identities](/azure/active-directory/external-identities/authentication-conditional-access). Guest access is subject to Microsoft Entra ID and Microsoft 365 service limits.
 
-- Add a guest to a team in the Teams clients or in the Teams admin center. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
+In Teams, guests are clearly identified. A guest's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).
+  
+Guests can leave the team at any time from within Teams. For details, see  [How do I leave a team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076). (Leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or a Microsoft Entra admin.)
 
-- Add guests to your organization without adding them to a team through Microsoft Entra B2B collaboration. (For details, check out [Quickstart: Add a guest and send an invitation](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal).) Teams Administrators and team owners must then add the guests to individual teams. Note: After adding guests to a team, it can take up to 12 hours to take effect.
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest experience in Microsoft Teams](guest-experience.md).
 
-Admins can also delegate permissions to add guests to others in their organization by assigning the Guest Inviter role. For more information, see [Limit who can invite guests](/microsoft-365/solutions/limit-who-can-invite-guests).
+> [!NOTE]
+> Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Microsoft Entra ID. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
-With Microsoft Entra B2B collaboration, organizations can enforce conditional access and multi-factor authentication (MFA) policies for B2B users. These policies can be enforced at the organization, app, or individual user level, the same way that they are enabled for people inside your organization. For more information, see  [Authentication and Conditional Access for External Identities](/azure/active-directory/external-identities/authentication-conditional-access). Individual guests can't be blocked.
+## Guest invitation process
+
+Team owners can add guests to a team in the Teams client. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
+
+Global Administrators or Teams Administrators can also add guests to a team in the Teams admin center.
 
 Guests you have already added via Microsoft Entra B2B, Microsoft 365 Groups, or SharePoint are ready to go. Team owners can add those guests to their teams. If you add a guest directly to the Microsoft 365 group associated with a team, the guest will get access to the team but the Microsoft 365 group doesn't generate an invitation email to the guest, so someone on the team should notify the guest.
 
-### Shared channels
+After a guest has been added to a team, it can take up to 12 hours for them to have access.
 
-Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Microsoft Entra ID. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
+You can delegate the ability to add guests to specific people in your organization by assigning the Guest Inviter role. For more information, see [Limit who can invite guests](/microsoft-365/solutions/limit-who-can-invite-guests).
+
+The guest invitation process works as follows:
+
+1. A team owner adds a guest to a team.
+1. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they've been added.
+1. The guest accepts the invitation.
+  Guests who have a work or school account in Microsoft Entra ID can accept the invitation and authenticate directly. Other users are sent a one-time pass code to validate their identity ([One-time passcode authentication](/azure/active-directory/external-identities/one-time-passcode) required).
+1. After accepting the invitation, the guest can participate in teams and channels, receive and respond to channel messages, [access files in channels](https://support.office.com/article/c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more.
 
 ## Set up guest access
 
@@ -61,20 +72,6 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 - To collaborate with a partner organization that uses Microsoft Entra ID and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
 See [Set up secure collaboration with Microsoft 365 and Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams) for overall information about secure collaboration using Teams.
-
-## Guest invitation process from Teams
-
-1. A team owner [adds a guest to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
-1. The guest receives a welcome email from the team owner, with information about the team and what to expect now that they've been added.
-1. The guest accepts the invitation.
-  Guests who have a work or school account in Microsoft Entra ID can accept the invitation and authenticate directly. Other users are sent a one-time pass code to validate their identity ([One-time passcode authentication](/azure/active-directory/external-identities/one-time-passcode) required).
-1. After accepting the invitation, the guest can participate in teams and channels, receive and respond to channel messages, [access files in channels](https://support.office.com/article/c593c78a-27c4-4661-a598-682baa30ca7e), participate in chats, join meetings, collaborate on documents, and more.
-
-In Teams, guests are clearly identified. A guest's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).
-  
-Guests can leave the team at any time from within Teams. For details, see  [How do I leave a team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076). (Leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or a Microsoft Entra admin.)
-
-The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest experience in Microsoft Teams](guest-experience.md).
 
 ## Licensing for guest access
 
