@@ -231,16 +231,16 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
-| [Logitech Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
-| [Logitech Rally Bar Huddle](https://www.logitech.com/en-us/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
+| [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
+| [Logitech Rally Bar Huddle](https://www.logitech.com/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
 | [Logitech Group](https://www.logitech.com/product/conferencecam-group) | 8.5.778 |  |  |
 | Logitech PTZ Pro | 1.1.219 |  |  |
-| [Logitech PTZ Pro 2](https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
-| [Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
+| [Logitech PTZ Pro 2](https://www.logitech.com/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
+| [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
 | Microsoft Surface Hub 3 50" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
