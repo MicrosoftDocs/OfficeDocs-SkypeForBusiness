@@ -157,7 +157,7 @@ To learn more on the latest requirements and instructions, including how to conf
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
 >[!Important]
->You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloadeded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and the latest download.
+>You must use the latest version of the bootstrapper.exe. If you have downloadeded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 #### Option 1: Uninstall the classic Teams client and install the new one
 
