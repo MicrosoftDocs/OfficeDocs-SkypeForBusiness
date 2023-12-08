@@ -46,7 +46,7 @@ When **teamsbootstrapper.exe** is run on a computer:
 - Displays success or failure message on the command line
 
 >[!Important]
->You must use the latest version of the bootstrapper.exe. If you have downloadeded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+>You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 ## Prerequisites for target computers
 
@@ -61,7 +61,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
-|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) is not supported.|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
 
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
@@ -71,13 +71,13 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 All steps must be completed to successfully upgrade to the new Teams.
 
 >[!Important]
->You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloadeded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download.
+>You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download.
 
 #### Option 1A: Download and install new Teams for a single computer
 
 To install new Teams on a single computer with many users, follow these steps:
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **.\teamsbootstrapper.exe -p**
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
@@ -89,7 +89,7 @@ To install new Teams on a single computer with many users, follow these steps:
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
-1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
+1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
 2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409)
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, do the following:
@@ -112,7 +112,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
 2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.  
 
