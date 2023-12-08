@@ -75,19 +75,6 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Value: 1 
 
 
-## Publish applications with RemoteApp in Azure Virtual Desktop
- 
-There are two ways to make new Teams available to users in Azure Virtual Desktop:
-
-- As part of a full desktop or 
-- As an individual application with RemoteApp. Learn more: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
-
-You can publish new Teams using the Windows shell:appsFolder location using this format: 
-
--  `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`
-
-
-
 ## Windows 365 
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc). 
@@ -157,7 +144,7 @@ To learn more on the latest requirements and instructions, including how to conf
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
 >[!Important]
->You must use the latest version of the bootstrapper.exe. If you have downloadeded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+>You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 #### Option 1: Uninstall the classic Teams client and install the new one
 
