@@ -88,7 +88,7 @@ The controlled-content meeting template comes with the following options. You ca
 
 ## Related topics
 
-[Overview of custom meeting templates in Microsoft Teams]((custom-meeting-templates-overview.md))
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
 
