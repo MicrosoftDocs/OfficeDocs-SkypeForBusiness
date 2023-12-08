@@ -58,10 +58,10 @@ This image shows a user account with a [Microsoft Teams Rooms license](/Microsof
 
 ## Override automatic user interface detection
 
-In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy) and apply to it to that account.
+In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy) and apply to it to that account.  
 
 > [!NOTE]
-> The license assigned to the user account must have at least the same license entitlements as the desired user interface. The **Microsoft Teams Shared Devices** license only allows the common area phone user interface. The **Teams Rooms** license only allows meeting room interfaces. An E3 or E5 license supports all sign-in modes. 
+> The license assigned to the user account must have at least the same license entitlements as the desired user interface. The **Microsoft Teams Shared Devices** license only allows the common area phone user interface. The **Teams Rooms** license only allows meeting room interfaces. An E3 or E5 license supports all sign-in modes. Learn more about [deploying Teams Phone devices](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/how-to-deploy-teams-phone-devices/ba-p/3994979). 
 The following is an example of how to override automatic license detection. In this example, assume that a meeting room resource account named conf-adams@contoso.com has been assigned an E3 license. When this account is signed-in, you want users to see the meeting room user interface.
 
 ### Create a new policy and assign to user
