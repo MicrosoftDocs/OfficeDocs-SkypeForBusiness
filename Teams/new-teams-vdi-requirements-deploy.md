@@ -4,14 +4,14 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 11/30/2023
+ms.date: 12/08/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: smylavarapu
+ms.reviewer: fklurfan
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -23,19 +23,27 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
->[!Note]
->VDI for new Teams is currently in public preview and subject to change. Check back for updates.
-
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+
+
+### Important announcement for classic Teams for VDI
+
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+
+After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
+
+>[!Note]
+>VDI for new Teams is now generally available for customers in public clouds. **Government clouds including GCC, GCC HIGH,and DOD**, are currently not supported. Check back for updates.
 
 ## Requirements
 
-For new Teams to be successfully installed, virtual machines must meet the minimum requirements listed here: 
+For new Teams to be successfully installed, you need version 23306.3314.2555.9628 or higher.
+In addition, virtual machines must meet the minimum requirements listed here: 
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) coming soon </br>-Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
-|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
+|Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
@@ -49,13 +57,15 @@ Review the information in this section to ensure that you meet all requirements 
 
 ## Azure Virtual Desktop 
 
-Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more on requirements and installation, see Use Teams on Azure Virtual Desktop. 
+Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more on requirements and installation, see [Use Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-avd). 
 
 The following minimum versions are necessary to support the new Teams client: 
 
-- Remote Desktop Client for Windows 1.2.1755 (ideally the latest version) 
-- Remote Desktop Client for Mac 10.7.7 (ideally the latest version) 
-- WebRTC Redirector Service 1.1.2110.16001 (ideally the latest version) 
+- Remote Desktop Client for Windows 1.2.1755
+- Remote Desktop Client for Mac 10.7.7
+- WebRTC Redirector Service 1.1.2110.16001
+
+Microsoft recommends using the latest available versions.
 
 In addition, you must deploy the following registry key on the virtual desktop for the new Teams client to be optimized: 
 
@@ -64,18 +74,19 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Type: DWORD 
 - Value: 1 
 
+
 ## Windows 365 
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc). 
 
-The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your cloud PC, you get an optimized experience. 
+The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
 
-If you want to create custom images that that include the optimizations for Microsoft Teams, you need you perform the steps described in [Create a custom Cloud PC image to support Microsoft Teams](/windows-365/enterprise/create-custom-image-support-teams). 
+If you want to create custom images that include optimizations for Microsoft Teams, you need to perform the steps described in [Create a custom Cloud PC image to support Microsoft Teams](/windows-365/enterprise/create-custom-image-support-teams). 
 
 The following minimum versions are necessary to support the new Teams client: 
 
-- Remote Desktop Client for Windows 1.2.1755 (ideally the latest version) 
-- Remote Desktop Client for Mac 10.7.7 (ideally the latest version) 
+- Remote Desktop Client for Windows 1.2.1755 
+- Remote Desktop Client for Mac 10.7.7
 - Windows 365 app for Windows via the Microsoft Store 
 
 In addition, you must deploy the following registry key on the virtual desktop for the new Teams client to be optimized: 
@@ -100,7 +111,7 @@ Citrix Workspace app:
 
 Citrix Virtual Delivery Agent (VDA): 
 
-- 1912 CU6 (and any subsequent CU) 
+- 1912 CU6
 - 2203 LTSR (and any CU) 
 - 2212 CR 
 
@@ -110,7 +121,7 @@ In addition, you must deploy the following registry key on the VDA for the new T
 - Key (REG_Multi_SZ): ProcessWhitelist 
 - Value: msedgewebview2.exe  
 
-If this registry key is missing, the new Teams client functions in nonoptimized mode (server-side rendering). 
+If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering). 
 
 >[!Note]
 >Citrix Virtual Apps (also known as published apps) is currently not supported.
@@ -122,7 +133,8 @@ For additional information, learn more at [Optimization for Microsoft Teams](h
 
 The following minimum versions are necessary to support the new Teams client: 
 
-- Horizon Agent 2103 
+- Horizon 8 2111 ESB (8.4)
+    
 
 To learn more on the latest requirements and instructions, including how to configure media optimization for Teams, see [Configuring Media Optimization for Microsoft Teams](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
@@ -130,6 +142,9 @@ To learn more on the latest requirements and instructions, including how to conf
 ## Deploy the new Microsoft Teams client 
 
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
+
+>[!Important]
+>You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 #### Option 1: Uninstall the classic Teams client and install the new one
 
@@ -164,14 +179,14 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 Let the user switch between them by using the toggle on the top left of the Teams UI.  
 You can control who sees the toggle by configuring the Teams Admin Center policy "Teams update policy".
   
-If the toggle is being used for the new Teams client rollout, Admins must make sure that the VDI environments meet the minimum requirements described here: 
+If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
-This error might be seen in non-persistent or multi-user OS deployments if the Admin didn't sideload the new Teams client on the Golden/Master Image.
+This error might be seen in non-persistent or multi-user OS deployments if the admin didn't sideload the new Teams client on the golden/master Image.
 
 
  ## Classic Teams versus new Teams installers in VDI environments 
@@ -182,8 +197,36 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23125.600.2069.5679_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, coming soon)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
+
+## Troubleshooting new Teams deployment errors
+
+Administrators can rely on the teamsbootstrapper.exe [error code](/windows/win32/seccrypto/common-hresult-values) that describes the problem. If the error code doesn't provide enough information, more diagnostic information can be found in the detailed event logs.
+
+1. Go the Event Viewer (Local) **> Applications and Services Logs > Microsoft > Windows**.
+2. Check for available logs under these categories:
+
+  - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
+  - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+
+3. Review logs under **AppXDeployment-Server**
+
+Learn more here: [Common error codes](/windows/win32/appxpkg/troubleshooting#common-error-codes)
+
+
+## Installation instructions for Windows Server 2019
+
+For Windows Server 2019, the only supported installation method is:  
+
+```Command Line
+Dism /Online /Add-ProvisionedAppxPackage /PackagePath:<MSIX package path> /SkipLicense
+```
+Make sure sideloading is enabled, and that WebView2 is installed. See 'Requirements' section above. 
+
+Known limitations:
+- Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
+- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown if the virtual machine doesn't have the Classic Teams client installed as well.
 
 ## Remove new Teams for all users
 
@@ -192,7 +235,19 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 ```powershell
 ./teamsbootstrapper -x
 ```
+This command unregisters and deprovisions the new Teams for all users. Teams user profile/cache is deleted.
 
+## Disable new Teams autoupdate
+
+To prevent new Teams from autoupdating, use the following registry key on the virtual machine.
+Only new Teams builds higher than 23306.3314.2555.9628 in VDI can process this registry key. 
+
+```Registry editor
+Location: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams
+Name: disableAutoUpdate
+Type: DWORD
+Value: 1
+```
 
 ## Profile and cache location for new Teams Client 
 
@@ -208,11 +263,18 @@ Excluding these items helps reduce the user caching size to further optimize a n
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
 
-Excluding the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.) can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
+When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
  
->[!Note]
->Currently, the new Teams client in VDI is not compatible with FSLogix Profile containers and ODFC containers. Microsoft is working on a solution and plan to remove these limitations soon.
+>[!Important]
+>Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
+>- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
+>- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers
+>
+>*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
+
+
+
 
 ## Control fallback mode in Teams
 
@@ -225,16 +287,18 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
+- On Fallback, screen sharing functionality is supported with a different screen picker UI (similar to the experience a user would see on Teams for Web)
 
-## Features currently not available in VDI 
+## Features currently not available in VDI with the new Teams
 
-- All the features available in new Teams Windows client are supported on VDI except: 
 - Multitenant Multi-Account (MTMA) 
-- Teams Premium features (E2EE, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations) 
-- Screen sharing from chat 
-- Presenter toolbar during a screen sharing session isn't shown. 
-- “Record video clip” doesn't capture screen share 
-- The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365
+- HID support in headsets
+- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1)
+  
+>[!Note]
+>Microsoft is working on a solution and plan to remove these limitations soon.
+
 
 ## Enhancements in new Teams 
 
@@ -242,6 +306,7 @@ Issues from classic Teams are now fixed in new Teams:
 
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
+- Sharing toolbar can now be pinned/unpinned.
 
 
 ## VDI Feature comparison between classic Teams and new Teams
@@ -260,7 +325,8 @@ The following features aren't supported in either classic Teams or new Teams.
 
 - QoS
 - 1080p
-- Custom Backgrounds
+- Custom Backgrounds uploaded by users
+- Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations) 
 - Avatars
 - Gallery View 3x3 and 7x7
 - Noise Suppression
@@ -271,3 +337,5 @@ The following features aren't supported in either classic Teams or new Teams.
 - Share System Audio (Citrix and VMware)
 - Broadcast and live event producer and presenter roles
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
+- “Record video clip” doesn't capture screen share 
+- The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 

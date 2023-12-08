@@ -66,7 +66,7 @@ For more information on PowerShell cmdlets for Teams town halls, see the [Relate
 
 ### Turn off town halls
 
-To turn off town halls, use the following script:
+To prevent organizers with this policy from creating town halls, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
@@ -74,7 +74,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 
 ### Disable public town halls
 
-To disable public town halls, use the following script:
+To prevent organizers with this policy from scheduling public town halls, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
