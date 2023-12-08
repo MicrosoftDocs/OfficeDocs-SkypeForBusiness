@@ -2,7 +2,7 @@
 title: Enroll a Teams Room device into Pro Management
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud

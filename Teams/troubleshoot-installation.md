@@ -1,8 +1,8 @@
 ---
 title: Troubleshoot classic Microsoft Teams installation and update issues on Windows
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 ms.reviewer: 
 ms.date: 10/23/2019
 ms.topic: article

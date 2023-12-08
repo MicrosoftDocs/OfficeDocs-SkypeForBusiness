@@ -3,7 +3,7 @@ title: Microsoft Teams Rooms Record an issue
 author: altsou
 ms.author: altsou
 ms.date: 09/28/2022
-manager: serdars
+manager: pamgreen
 ms.reviewer: tonysmit
 ms.topic: article
 ms.tgt.pltfrm: cloud

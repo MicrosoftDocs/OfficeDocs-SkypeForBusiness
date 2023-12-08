@@ -2,7 +2,7 @@
 title: Meet with people in other Microsoft 365 cloud environments
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

@@ -2,11 +2,11 @@
 title: Manually update a Microsoft Teams Rooms device
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
 appliesto: 
   - Microsoft Teams
-ms.reviewer: sohailta
+ms.reviewer: tavis-snoozy
 ms.date: 08/29/2023
 ms.topic: article
 ms.service: msteams

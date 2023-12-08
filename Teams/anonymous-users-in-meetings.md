@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: rbronisevsky
 ms.date: 10/01/2023
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

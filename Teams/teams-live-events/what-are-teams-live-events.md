@@ -2,7 +2,7 @@
 title: What are Microsoft Teams live events?
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.collection: 
@@ -12,7 +12,7 @@ ms.collection:
   - m365solution-scenario
   - highpri
 ms.reviewer: sachung, bryanyce
-ms.date: 07/10/2018
+ms.date: 10/31/2023
 audience: admin
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content too large online audiences in Teams, Viva Engage, and Stream.

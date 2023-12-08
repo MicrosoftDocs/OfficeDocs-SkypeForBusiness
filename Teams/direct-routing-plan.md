@@ -2,7 +2,7 @@
 title: "Plan Direct Routing"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
 ms.date: 07/31/2023
@@ -165,7 +165,7 @@ Alternatively, Direct Routing supports a wildcard in the CN and/or SAN, and the 
 
 An example would be using \*.contoso.com, which would match the SBC FQDN sbc.contoso.com, but wouldn't match with sbc.test.contoso.com.
 
-Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that a CA that is part of the program signs your SBC certificate. Also make sure that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication.
+Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that a CA that is part of the program signs your SBC certificate. Also make sure that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication and Client Authentication.
 
 For more information, see
 [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements) and [Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).

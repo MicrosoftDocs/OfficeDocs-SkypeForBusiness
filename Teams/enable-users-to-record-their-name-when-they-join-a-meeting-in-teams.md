@@ -2,7 +2,7 @@
 title: "Enable users to record their name for a meeting"
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 08/14/2018
 ms.topic: article

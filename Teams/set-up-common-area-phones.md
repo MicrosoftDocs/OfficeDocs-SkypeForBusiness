@@ -2,9 +2,9 @@
 title: Set up the common area phones for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 10/11/2023
-ms.reviewer: kponnus
+ms.reviewer: kvijagan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

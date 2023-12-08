@@ -1,8 +1,8 @@
 ---
 title: See a list of Audio Conferencing numbers
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 08/15/2018
 ms.topic: article

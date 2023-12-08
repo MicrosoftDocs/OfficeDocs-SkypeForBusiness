@@ -2,7 +2,7 @@
 title: Set up avatars for Microsoft Teams 
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 audience: ITPro
 ms.reviewer: sekerawa
 ms.date: 06/26/2023

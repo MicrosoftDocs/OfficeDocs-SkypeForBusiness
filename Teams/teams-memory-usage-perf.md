@@ -1,8 +1,8 @@
 ---
 title: How Microsoft Teams uses memory
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: JoanneHendrickson
+ms.author: jhendr
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa

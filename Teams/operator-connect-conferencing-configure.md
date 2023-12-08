@@ -1,8 +1,8 @@
 ---
 title: Configure Operator Connect Conferencing
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams

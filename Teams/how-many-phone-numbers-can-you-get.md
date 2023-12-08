@@ -2,7 +2,7 @@
 title: "How many telephone numbers can you get?"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, roykuntz, jastark
 ms.date: 08/10/2023
 ms.topic: conceptual

@@ -1,9 +1,9 @@
 ---
 ms.date: 06/22/2018
 title: "Configure a resource account in Skype for Business Server 2019"
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars 
+ms.author: heidip
+manager: jtremper
 ms.reviewer: wasseemh
 ms.audience: ITPro
 audience: ITPro

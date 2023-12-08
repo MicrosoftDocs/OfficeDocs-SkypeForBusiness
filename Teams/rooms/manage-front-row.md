@@ -2,9 +2,9 @@
 title: Remotely configure front row layout on Teams Rooms
 ms.author: tonysmit
 author: tonysmit
-ms.reviewer: sohailta
+ms.reviewer: yoojinjung
 ms.date: 10/10/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -66,7 +66,7 @@ To turn off the unified background, add `<IsFrontRowUnifiedBackgroundEnabled>fal
 
 Spatial Audio in Teams Rooms on Windows brings next-generation audio to the Front Row experience when connected to stereo speakers. This intelligent audio technology delivers a more natural and inclusive experience for in-room participants by playing audio from channel closer to physical location of remote participants on Front row layout, making it feel like remote people are in the room with them and reducing meeting fatigue.
 
-You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware.md?tabs=Peripherals) and by following guidance on designing a [Signature Teams Room](room-planning-guidance.md?tabs=emtr#signature-teams-room-1).
+You can achieve the best spatial audio experience with [Teams-certified stereo speakers](certified-hardware.md?tabs=Peripherals) and by following guidance on designing a [Signature Teams Rooms](room-planning-guidance.md?tabs=emtr#signature-teams-room-1).
 
 Spatial audio is turned OFF by default. To enable the feature, add `<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>` to your XML configuration file. Once the feature is enabled, you can also turn it ON or OFF using the audio setting under … (More) menu during a meeting. This toggle affects every meeting joining from the device. 
 

@@ -2,7 +2,7 @@
 title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: alsolom
 ms.date: 06/01/2023
 ms.topic: article

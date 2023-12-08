@@ -2,9 +2,9 @@
 title: Microsoft Teams Rooms home screen design refresh
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: henrikalim
 ms.date: 10/04/2023
 ms.topic: quickstart
 ms.service: msteams
