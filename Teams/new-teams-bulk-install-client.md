@@ -46,7 +46,7 @@ When **teamsbootstrapper.exe** is run on a computer:
 - Displays success or failure message on the command line
 
 >[!Important]
->You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloadeded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and the latest download.
+>You must use the latest version of the bootstrapper.exe. If you have downloadeded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 ## Prerequisites for target computers
 
@@ -74,7 +74,7 @@ All steps must be completed to successfully upgrade to the new Teams.
 
 To install new Teams on a single computer with many users, follow these steps:
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
 2. Open the Command Prompt as an Admin.
 3. At the prompt enter: **.\teamsbootstrapper.exe -p**
 4. A success or fail status displays. If you receive an error, learn more at [Common HRESULT values](/windows/win32/seccrypto/common-hresult-values).
@@ -86,7 +86,7 @@ To install new Teams on a single computer with many users, follow these steps:
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
-1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
+1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
 2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409)
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, do the following:
@@ -109,7 +109,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
-1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have download this file previously confirm you have the latest version by comparing the properties on each file.
 2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.  
 
