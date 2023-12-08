@@ -170,8 +170,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | AudioCodes RXV80 | `1.9.155` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Poly Studio X30 | `4.0.0.100885` | September 3, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Poly Studio X50 | `4.0.0.100885` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
