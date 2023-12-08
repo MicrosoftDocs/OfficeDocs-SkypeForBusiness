@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 04/14/2023
+ms.date: 12/08/2023
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -80,6 +80,8 @@ Security desk notification is available with both Microsoft Calling Plans, Opera
 
 You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
+You can also configure extended notification settings per emergency number. For example, you can specify how a call to the emergency test number 933 is handled without notifying the security desk. For more information about extended notications see [Extended notfications](#create-extended-notifications).
+
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
 - If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
@@ -89,6 +91,26 @@ An emergency calling policy can be granted to a Teams user account, assigned to 
 - If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
 During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification. If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
+
+## Create extended notifications
+
+You specify default notification settings using the Teams emergency calling policy. By using the extended notification parameter, you can add specific extended notification settings to the policy per defined emergency number.  
+
+Extended notifications allow you to have appropriate settings for both the emergency number 911 and for the test emergency number 933. With this added functionality, you can avoid notifying your security desk for test emergency calls. 
+
+The following example describes how to create default emergency call notification settings for both 911 emergency calls and 933 test calls:
+
+1. First, create the extended notification for the test emergency number 933 with no settings for notification. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
+
+2. Then, create a second emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call.  The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
+
+With this emergency calling policy, when an emergency call is made to any defined emergency number except 993, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
+
+```powershell
+$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"  
+
+New-CsTeamsEmergencyCallingPolicy -Identity Default911 -Description "Default Emergency notification" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceMuted -ExtendedNotifications @{add=$en1} 
+```
 
 ## Create a custom emergency service disclaimer
 
