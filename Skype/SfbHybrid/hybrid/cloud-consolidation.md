@@ -29,16 +29,16 @@ description: "This article is for organizations with an on-premises deployment o
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Many large enterprises have more than one on-premises AD forest. In some cases, customers have more than one Exchange and/or Skype for Business Server (or Lync Server) deployment. Organizations with only one on-premises forest may be in a similar situation because of a business merger or acquisition. As these customers move to the cloud, they want to consolidate multiple instances of a given on-premises workload into a single online Microsoft 365 organization. This article is for organizations with multiple on-premises deployments of Skype for Business (or Lync) who want to move their organization entirely to Microsoft Teams (all users are Teams Only).
+Many large enterprises have more than one on-premises AD forest. In some cases, customers have more than one Exchange and/or Skype for Business Server (or Lync Server) deployment. Organizations with only one on-premises forest might be in a similar situation because of a business merger or acquisition. As these customers move to the cloud, they want to consolidate multiple instances of a given on-premises workload into a single online Microsoft 365 organization. This article is for organizations with multiple on-premises deployments of Skype for Business (or Lync) who want to move their organization entirely to Microsoft Teams (all users are Teams Only).
 
-Historically, the guidance has been for customers to consolidate deployments on-premises first and then move to the cloud. While this guidance is still an option, this article describes a solution that enables organizations with multiple Skype for Business deployments to migrate one deployment at a time into a single Microsoft 365 organization, without doing on-premises consolidation. Microsoft Teams doesn't support multiple Skype for Business or Lync Server forests in hybrid mode with a single Microsoft 365 organization.
+Historically, the guidance for customers is to consolidate deployments on-premises first and then move to the cloud. While this guidance is still an option, this article describes a solution that enables organizations with multiple Skype for Business deployments to migrate one deployment at a time into a single Microsoft 365 organization, without doing on-premises consolidation. Microsoft Teams doesn't support multiple Skype for Business or Lync Server forests in hybrid mode with a single Microsoft 365 organization.
 
 > [!IMPORTANT]
 > Before using this guide for configuration, be sure to review and understand the [Limitations](#limitations), as they may affect your organization.
 
 ## Overview of cloud consolidation
 
-You can consolidate all on-premises users from multiple Skype for Business deployments into a single online Microsoft 365 organization, provided that the following key requirements are met:
+You can consolidate all on-premises users from multiple Skype for Business deployments into a single online Microsoft 365 organization, if the following key requirements are met:
 
 - There must be at most one Microsoft 365 organization involved. Consolidation in scenarios with more than one organization isn't supported.
 
@@ -52,15 +52,15 @@ Consider an organization with two separate federated on-premises deployments of 
 
 |Original state details |Desired state details |
 |---------|---------|
-|<ul><li>Two independent Skype for Business on-premises deployments in separate AD forests<li>At most, one  forest is in hybrid with Teams <li> Orgs are federated with each other <li>Users aren't synced across these forests<li> The org may have a Microsoft 365 organization and may be syncing their directory into Microsoft Entra ID</ul>|<ul> <li>One Microsoft 365 organization<li>No more on-premises deployments, so no hybrid remaining<li>All users from on premises have been moved to Teams Only mode <li>No on-premises footprint of Skype for Business Server anywhere <li>Users still have on-premises authentication</ul> |
+|<ul><li>Two independent Skype for Business on-premises deployments in separate AD forests<li>At most, one  forest is in hybrid with Teams <li> Orgs are federated with each other <li>Users aren't synced across these forests<li> The org might have a Microsoft 365 organization and may be syncing their directory into Microsoft Entra ID</ul>|<ul> <li>One Microsoft 365 organization<li>No more on-premises deployments, so no hybrid remaining<li>All users from on premises are to Teams Only mode <li>No on-premises footprint of Skype for Business Server anywhere <li>Users still have on-premises authentication</ul> |
 
 ![Consolidating two separate federated on-premises deployments.](../media/cloudconsolidationfig1.png)  
 
-The basic steps to get from the original state to the desired end state are below. Some organizations may find that their starting point is somewhere in the middle of these steps. See [Other starting points](#other-starting-points), later in this article. Finally, in some cases the order can be adjusted, depending on need. [Key constraints and limitations](#limitations) are described later.
+The basic steps to get from the original state to the desired end state are below. Some organizations might find that their starting point is somewhere in the middle of these steps. See [Other starting points](#other-starting-points), later in this article. Finally, in some cases the order can be adjusted, depending on need. [Key constraints and limitations](#limitations) are described later.
 
 1. Get a Microsoft 365 organization if one doesn't yet exist.
 2. Make sure all relevant SIP domains across both on-premises deployments are verified Microsoft 365 domains.
-3. Pick one Skype for Business deployment that will be hybrid with Microsoft 365. In this example, we’ll use OriginalCompany.<span>com.
+3. Pick one Skype for Business deployment that is hybrid with Microsoft 365. In this example, use OriginalCompany.<span>com.
 4. [Enable Microsoft Entra Connect for the forest](configure-azure-ad-connect.md) that will first become hybrid (OriginalCompany.<span>com).
 5. Set the tenant-wide policy for [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy) to SfBWithTeamsCollab or one of the other Skype for Business modes (SfBOnly or SfBWithTeamsCollabAndMeetings). This step is critical to ensure routing of calls and chats from users who move to Teams Only to users who remain on premises.
 6. It's recommended at this point (but not yet required until step 11) to [enable Microsoft Entra Connect for the other forest](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com). Assuming Microsoft Entra Connect is enabled in both forests, the org looks like **[Figure A](#figure-a)**, which may be a common starting point for some orgs.
