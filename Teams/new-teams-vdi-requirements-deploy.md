@@ -23,11 +23,17 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
->[!Note]
->VDI for new Teams is now generally available for customers in public clouds.
->GCC,GCC HIGH and DOD (Government cloud) is currently not supported. Check back for updates.
-
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+
+
+### Important announcement for classic Teams for VDI
+
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+
+After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
+
+>[!Note]
+>VDI for new Teams is now generally available for customers in public clouds. **Government clouds including GCC, GCC HIGH,and DOD**, are currently not supported. Check back for updates.
 
 ## Requirements
 
@@ -150,6 +156,9 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
+>[!Important]
+>You must use the latest version of the bootstrapper.exe. If you have downloadeded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+
 #### Option 1: Uninstall the classic Teams client and install the new one
 
 **Recommended way to deploy new Teams in VDI.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md).
@@ -186,7 +195,7 @@ You can control who sees the toggle by configuring the Teams Admin Center policy
 If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-If IT administrators set restrictions for MSIX or deploy GPOs, that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
