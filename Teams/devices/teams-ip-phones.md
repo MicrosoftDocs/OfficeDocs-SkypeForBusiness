@@ -315,6 +315,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20230928.0015` | 2023 Update #2A |
+|Lenovo ThinkSmart View Plus | `10.1.t.2.44` | 2023 Update #2A|
 |Lenovo ThinkSmart View Plus | `10.1.t.2.38` | 2023 Update #2A|
 |Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2A|
 |Neat Frame nf21f1 | `NFF1.20230504.0023` | 2023 Update #2 |
