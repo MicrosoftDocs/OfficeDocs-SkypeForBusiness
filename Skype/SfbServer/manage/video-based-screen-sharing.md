@@ -21,9 +21,9 @@ Video-based Screen Sharing (VbSS) in Skype For Business Server 2015 is now avail
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, makes use of User Datagram Protocol (UDP).
   
-Skype for Business Server wanted to improve people's 1-to-1, and their 1-to-many (multi-party) conversations and meeting experiences. VbSS makes use of the media platform which relies on UDP as the underlying protocol. Its goal is to improve your video start times, the viewing quality of what you're watching (especially if what you're watching is moving fast), and reliability overall.
+Skype for Business Server wanted to improve people's one-to-one, and their one-to-many (multi-party) conversations and meeting experiences. VbSS makes use of the media platform which relies on UDP as the underlying protocol. Its goal is to improve your video start times, the viewing quality of what you're watching (especially if what you're watching is moving fast), and reliability overall.
   
-Part of the goal of improving screen-sharing is that transitions between VbSS and RDP are as seamless as possible when they occur. Since VbSS is an update to underlying technology that is used in screen sharing for Skype for Business Server, it may be difficult to detect which technology you're using unless you're looking at SIP details in the network traffic, or you're sharing content that is fast moving or 3-D. If, for example, your workplace has a lot of legacy clients, RDP is still available as a failsafe to your meetings and conversations. Skype for Business Server uses internal logic to decide which of the two methods (VbSS or traditional screen-sharing) to apply when clients connect. RDP can, and will, be substituted for VbSS when the situation calls for it, so that your viewing experience isn't interrupted.
+Part of the goal of improving screen-sharing is that transitions between VbSS and RDP are as seamless as possible when they occur. Since VbSS is an update to underlying technology that is used in screen sharing for Skype for Business Server, it may be difficult to detect which technology you're using unless you're looking at SIP details in the network traffic, or you're sharing content that is fast moving or 3-D. If for example, your workplace has numerous legacy clients, RDP is still available as a failsafe to your meetings and conversations. Skype for Business Server uses internal logic to decide which of the two methods (VbSS or traditional screen-sharing) to apply when clients connect. RDP can, and will, be substituted for VbSS when the situation calls for it, so that your viewing experience isn't interrupted.
   
 ## Planning
 
@@ -84,11 +84,11 @@ Assuming:
     
 - All the users in your Skype for Business Server environment have screen resolutions higher than 1920x1080.
     
-At full capacity (which as noted above, is 375 screen sharing participants per Front End Server in total, though only 250 per meeting), your Front End Server may be utilizing ~89% of the 1 Gigabit of network card. This is because the existing screen sharing technology in Skype for Business Server CU2 (RDP) transmits the on-screen content at the native resolution of the presenter's PC. So with higher screen resolutions factored in, you may already be experiencing network bottlenecks for screen sharing with Skype for Business Server 2015 CU2.
+At full capacity (which as noted above, is 375 screen sharing participants per Front End Server in total, though only 250 per meeting), your Front End Server may be utilizing ~89% of the 1-Gigabit of network card. This is because the existing screen sharing technology in Skype for Business Server CU2 (RDP) transmits the on-screen content at the native resolution of the presenter's PC. So with higher screen resolutions factored in, you may already be experiencing network bottlenecks for screen sharing with Skype for Business Server 2015 CU2.
   
 To mitigate this, one or more of the following options may be helpful:
   
-- Upgrade your Front End Server from a 1 Gigabit network card to a 10 Gigabit Ethernet card.
+- Upgrade your Front End Server from a 1 Gigabit network card to a 10-Gigabit Ethernet card.
 
 - Increase the number of Front End Servers to load-balance traffic.
 
@@ -119,13 +119,13 @@ There are situations where screen-sharing transitions to RDP, like these:
 - If your account is hosted in an environment where the ASMCU doesn't meet the minimum build that supports VbSS.
 - If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000 for click-to-run installations or 16.0.4401.1000 for MSI installations, Skype for Business Room System V1 Devices, or Skype for Business Mobile Apps. 
 - If a user is sharing from the Skype for Business Web App.
-- If someone is using Skype for Business on Mac and not is homed on Skype for Business Online or Skype for Business Server 2015 with the July, 2018 cumulative update (or later).
+- If someone is using Skype for Business on Mac and not is homed on Skype for Business Online or Skype for Business Server 2015 with the July 2018 cumulative update (or later).
 - If someone starts any Program/Windows Sharing.
 - If someone starts recording the session.
 - If someone invokes Remote Screen Control during the session. 
-- Meetings with more than 250 participants (where VbSS is not currently supported).
+- Meetings with more than 250 participants (where VbSS isn't currently supported).
 
-Once the session transitions to RDP, it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
+Once the session transitions to RDP, it won't transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, won't be easy to detect in most situations.
     
 > [!NOTE]
 > It's not supported to block, or attempt to block, transition from VbSS to RDP in Skype for Business screen-sharing. 
