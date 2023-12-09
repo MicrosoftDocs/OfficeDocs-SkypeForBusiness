@@ -181,7 +181,7 @@ else
 }
 
 $ClientId = $App.AppId
-Write-Host "debug clientID == $ClientId"
+Write-Host "clientID == $ClientId"
 
  
 # Now that we have the ID for our client application, we can call the RemoveAccessForUser API...
