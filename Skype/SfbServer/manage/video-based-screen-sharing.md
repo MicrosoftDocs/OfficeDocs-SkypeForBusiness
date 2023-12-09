@@ -21,9 +21,9 @@ Video-based Screen Sharing (VbSS) in Skype For Business Server 2015 is now avail
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, makes use of User Datagram Protocol (UDP).
   
-Skype for Business Server wanted to improve people's 1-to-1, and their 1-to-many (multi-party) conversations and meeting experiences. VbSS makes use of the media platform, which relies on UDP as the underlying protocol, with the goal of improving your video start times, the viewing quality of what you're watching (especially if what you're watching is moving fast), and reliability overall.
+Skype for Business Server wanted to improve people's 1-to-1, and their 1-to-many (multi-party) conversations and meeting experiences. VbSS makes use of the media platform which relies on UDP as the underlying protocol. Its goal is to improve your video start times, the viewing quality of what you're watching (especially if what you're watching is moving fast), and reliability overall.
   
-Part of the goal of improving screen-sharing is that transitions between VbSS and RDP are as seamless as possible when they occur. Since VbSS is an update to underlying technology that is used in screen sharing for Skype for Business Server, it may be difficult to detect which technology you're leveraging unless you're looking at SIP details in the network traffic, or you're sharing content that is fast moving or 3-D. If, for example, your workplace has a lot of legacy clients, RDP is still available as a failsafe to your meetings and conversations. Skype for Business Server uses internal logic to decide which of the two methods (VbSS or traditional screen-sharing) to apply when clients connect. RDP can, and will, be substituted for VbSS when the situation calls for it, so that your viewing experience won't be interrupted.
+Part of the goal of improving screen-sharing is that transitions between VbSS and RDP are as seamless as possible when they occur. Since VbSS is an update to underlying technology that is used in screen sharing for Skype for Business Server, it may be difficult to detect which technology you're using unless you're looking at SIP details in the network traffic, or you're sharing content that is fast moving or 3-D. If, for example, your workplace has a lot of legacy clients, RDP is still available as a failsafe to your meetings and conversations. Skype for Business Server uses internal logic to decide which of the two methods (VbSS or traditional screen-sharing) to apply when clients connect. RDP can, and will, be substituted for VbSS when the situation calls for it, so that your viewing experience isn't interrupted.
   
 ## Planning
 
@@ -39,7 +39,7 @@ Switching to VbSS aims to make three key improvements:
     
 Keep in mind that these numbers rely on the health and proper performance tuning of your network, and may involve networks external to your own, if your clients are on mobile devices.
   
-You should be aware that some fidelity/crispness of your shared content has been traded for reliability, speed, and efficiency. In most cases this will not be readily visible to users.
+You should be aware that some fidelity/crispness of your shared content is traded for reliability, speed, and efficiency. In most cases this isn't readily visible to users.
   
 ### Ports and protocols
 
@@ -94,13 +94,13 @@ To mitigate this, one or more of the following options may be helpful:
 
 - Limit the bandwidth (bitrate) used for VbSS and RDP by putting a cap on the maximum bandwidth used by either channels.
     
-The numbers in this table are influenced by individual networks and by the content being shared. Test to establish baselines for your network or networks.
+Individual networks and the content being shared influence the numbers in this table. Test to establish baselines for your network or networks.
   
 |**1080p Content**|**RDP Average**|**RDP Peak**|**VbSS Average**|**VbSS Peak**|
 |:-----|:-----|:-----|:-----|:-----|
-|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
-|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
-|Video  <br/> |5mbps  <br/> |7mbps  <br/> |1.3mbps  <br/> |2.2mbps  <br/> |
+|PPT  <br/> |200 kbps  <br/> |12 mbps  <br/> |100 kbps  <br/> |3 mbps  <br/> |
+|CAD  <br/> |3 mbps  <br/> |7 mbps  <br/> |1 mbps  <br/> |3 mbps  <br/> |
+|Video  <br/> |5 mbps  <br/> |7 mbps  <br/> |1.3 mbps  <br/> |2.2 mbps  <br/> |
    
 ### Network bandwidth requirements for media traffic
 
@@ -125,7 +125,7 @@ There are situations where screen-sharing transitions to RDP, like these:
 - If someone invokes Remote Screen Control during the session. 
 - Meetings with more than 250 participants (where VbSS is not currently supported).
 
-Once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
+Once the session transitions to RDP, it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
     
 > [!NOTE]
 > It's not supported to block, or attempt to block, transition from VbSS to RDP in Skype for Business screen-sharing. 
@@ -142,7 +142,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
-- You also can update the global conferencing policy, which will affect all users without an assigned policy:
+- You also can update the global conferencing policy, which affects all users without an assigned policy:
     
   ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
@@ -150,7 +150,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
 
     For more information on this command, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
-- If you need to turn VbSS off completely, you can run this command:
+- If you need to turn off VbSS completely, you can run this command:
     
   ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
@@ -169,7 +169,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
-- You also can update the global conferencing policy, which will affect all users without an assigned policy:
+- You also can update the global conferencing policy, which affects all users without an assigned policy:
     
   ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
