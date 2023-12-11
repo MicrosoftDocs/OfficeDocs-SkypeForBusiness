@@ -761,8 +761,6 @@ items:
               href: google-workspace-addon-teams.md
             - name: Island mode
               href: meeting-provider-islands-mode.md
-            - name: Teams meetings on unsupported browsers
-              href: unsupported-browsers.md
 
         - name: Create a Teams hybrid meeting experience
           items:
