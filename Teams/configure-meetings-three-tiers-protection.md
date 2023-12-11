@@ -154,7 +154,7 @@ If you're in a highly regulated industry and you need to manually admit each att
 
 While the admin policy sets a default, you need a template or label to enforce a lobby option.
 
-For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md)
+For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
 ## Related topics
 
