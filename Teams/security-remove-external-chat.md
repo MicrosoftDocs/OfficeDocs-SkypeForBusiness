@@ -85,7 +85,7 @@ Replace **{chatsId}** with the **Id** of the chat you want to act on.  The reque
 For example, a request might look like this: 
 
 ```http
-POST https://graph.microsoft.com/v1.0/chats/19:7d8980.........f94061cf8c2@unq.gbl.spaces/removeAllAccessForUser 
+POST https://graph.microsoft.com/beta/chats/19:7d8980.........f94061cf8c2@unq.gbl.spaces/removeAllAccessForUser 
 Content-Type: application/json 
 
 { 
