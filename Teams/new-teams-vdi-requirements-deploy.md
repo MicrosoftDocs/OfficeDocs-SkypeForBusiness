@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 12/06/2023
+ms.date: 12/08/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -23,11 +23,17 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
->[!Note]
->VDI for new Teams is now generally available for customers in public clouds.
->GCC,GCC HIGH and DOD (Government cloud) is currently not supported. Check back for updates.
-
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+
+
+### Important announcement for classic Teams for VDI
+
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+
+After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
+
+>[!Note]
+>VDI for new Teams is now generally available for customers in public clouds. **Government clouds including GCC, GCC HIGH,and DOD**, are currently not supported. Check back for updates.
 
 ## Requirements
 
@@ -37,7 +43,7 @@ In addition, virtual machines must meet the minimum requirements listed here:
 |Requirement |Version|
 |:-----|:-----|
 |Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
-|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
+|Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
@@ -67,6 +73,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Name: IsWVDEnvironment 
 - Type: DWORD 
 - Value: 1 
+
 
 ## Windows 365 
 
@@ -136,6 +143,9 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
+>[!Important]
+>You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+
 #### Option 1: Uninstall the classic Teams client and install the new one
 
 **Recommended way to deploy new Teams in VDI.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md).
@@ -172,7 +182,7 @@ You can control who sees the toggle by configuring the Teams Admin Center policy
 If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
@@ -187,7 +197,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, see section "Disable new Teams autoupdate" below)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 
 ## Troubleshooting new Teams deployment errors
@@ -257,13 +267,15 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
  
 >[!Important]
->Customers using FSLogix need to install hotfix [2.9.8716.30241](https://download.microsoft.com/download/6/a/1/6a14498e-56e8-4653-bea6-b71ddeaec43f/FSLogix_Apps_2.9.8716.30241.zip) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
+>Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
 >- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
-  
+
+
+
 ## Control fallback mode in Teams
 
 When users connect from an unsupported endpoint, the users are in fallback mode, in which Audio/Video isn't optimized. You can disable or enable fallback mode by setting one of the following registry DWORD values:
