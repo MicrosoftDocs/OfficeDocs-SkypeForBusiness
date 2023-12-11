@@ -54,7 +54,7 @@ The Teams admin meeting policy **Who can present** has the following options:
 - People in my org and guests
 - Everyone
 
-This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
+This setting doesn't enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
 The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my org and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
 
@@ -85,9 +85,9 @@ You can restrict this setting by using a sensitivity label. For sensitive or hig
 
 By default, meeting participants can give control of their shared screen to another participant in the meeting. This is controlled by two Teams admin meeting policies:
 
-- **Participants can give or request control** - This setting determines if meeting participants can give control of their shared screen to another participant or request control from another participant. It is **On** by default.
+- **Participants can give or request control** - This setting determines if meeting participants can request control of a shared screen from another participant. It's **On** by default.
 
-- **External participants can give or request control** - This setting determines an external participant can be given control of a shared screen. It is **Off** by default.
+- **External participants can give or request control** - This setting determines a guest or anonymous participant can be given control of an internal user's shared screen. It's **Off** by default.
 
 Depending on the compliance requirements of your organization, you can change these settings for some or all of your users.
 
@@ -136,7 +136,7 @@ If you have meetings where sensitive information is being shared, you may want t
 
 PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's presented by the organizer.
 
-Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information.
+Consider if there are users or groups in your organization who shouldn't use these features to avoid sharing sensitive information.
 
 ## Manage how meeting attendees interact
 

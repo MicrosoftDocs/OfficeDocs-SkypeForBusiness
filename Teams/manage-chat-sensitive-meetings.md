@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 12/01/2023
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -57,7 +57,7 @@ Some organizations require that meeting chat be turned off entirely for certain 
 
 For meetings where sensitive or highly sensitive information is shared and you want to turn off the meeting chat, you can enforce this by using a meeting template or sensitivity label.
 
-In meetings where the chat is not available, meeting organizers can turn on the [Q&A feature](https://support.microsoft.com/office/f3c84c72-57c3-4b6d-aea5-67b11face787). This allows attendees to ask questions or comment in writing. This feature is available but off by default for meeting organizers. Teams administrators can prevent meeting organizers from using it by turning off the **Q&A** admin meeting policy.
+In meetings where the chat isn't available, meeting organizers can turn on the [Q&A feature](https://support.microsoft.com/office/f3c84c72-57c3-4b6d-aea5-67b11face787). This allows attendees to ask questions or comment in writing. This feature is available but off by default for meeting organizers. Teams administrators can prevent meeting organizers from using it by turning off the **Q&A** admin meeting policy.
 
 By default, Teams also allows meeting attendees to [create shared meeting notes](https://support.microsoft.com/office/3eadf032-0ef8-4d60-9e21-0691d317d103), [use annotation while sharing your screen](https://support.microsoft.com/office/876ba527-7112-437e-b410-5aec7363c473) and use the [whiteboard](https://support.microsoft.com/whiteboard). While the meeting organizer can't turn these features off, you can turn them off for people and groups by using meeting policies in the Teams admin center.
 

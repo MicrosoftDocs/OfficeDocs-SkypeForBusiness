@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/28/2022
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -69,7 +69,7 @@ We also restrict recording to organizer and co-organizers by using the sensitivi
 
 ## Lobby options for sensitive meetings
 
-We use the sensitivity label to prevent anyone other than invited attendees (people directly invited by the organizer, or to whom an invitation was forwarded) from bypassing the lobby. This gives an extra level of protection by letting the organizer vet anyone not directly sent an invite before admitting them to the meeting. You can further restrict this options by choosing **Only organizers and co-organizers**. (We do that for the *highly sensitive* level of protection.)
+We use the sensitivity label to prevent anyone other than invited attendees (people directly invited by the organizer, or to whom an invitation was forwarded) from bypassing the lobby. This gives an extra level of protection by letting the organizer vet anyone not directly sent an invite before admitting them to the meeting. You can further restrict this option by choosing **Only organizers and co-organizers**. (We do that for the *highly sensitive* level of protection.)
 
 ## Sensitivity labels
 

@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 12/01/2023
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -48,7 +48,7 @@ The following table describes which actions we restrict for baseline meetings an
 |Who can present|**People in my org and guests**|Teams admin center|No|
 |Who can record|**Organizers, co-organizers, and presenters**|Template|No|
 
-Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
+Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that aren't enforced can be changed by the meeting organizer.
 
 ## Default values for **Who can present**
 

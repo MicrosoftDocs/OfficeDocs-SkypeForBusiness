@@ -10,7 +10,7 @@ f1.keywords: NOCSH
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-ms.date: 12/01/2023
+ms.date: 12/11/2023
 ms.collection:
 - Tier1
 - Highpri
@@ -46,7 +46,7 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
 
 ## Turn on the policy for your organization
 
-Open the the SharePoint Online Management Shell and connect to SharePoint as a Global Administrator or SharePoint Administrator. To learn how, see [Get started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Open the SharePoint Online Management Shell and connect to SharePoint as a Global Administrator or SharePoint Administrator. To learn how, see [Get started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 Run the following command:
 
