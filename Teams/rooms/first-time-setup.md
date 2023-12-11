@@ -72,11 +72,7 @@ To set up consoles by using a one-time password, perform the following steps:
 
 If you don't have a one-time password, you can still set up a Teams Rooms console but you'll need to do it manually.
 
-The process of setting up consoles manually (without a one-time password) is the same as the Out Of Box Experience (OOBE), that is, the same as specified in [Set up consoles using one-time password](#set-up-consoles-using-a-one-time-password). However, you won't see:
-
-- The page containing a notification message about device verification, which appeared when setting up the device through a one-time password.
-  OR
-- The **End user agreement** page.
+The process of setting up consoles manually (without a one-time password) is the same as the Out Of Box Experience (OOBE), that is, the same as specified in [Set up consoles using one-time password](#set-up-consoles-using-a-one-time-password).
 
 To set up a Microsoft Teams Rooms console manually,  follow these steps:
 
