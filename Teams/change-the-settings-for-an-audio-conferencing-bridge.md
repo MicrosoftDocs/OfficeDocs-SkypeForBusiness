@@ -42,7 +42,7 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 
 ## Using the Microsoft Teams admin center
 
-1. In the left navigation, go to **Meetings** > **Conference bridges**.
+1. Go to **Meetings** > **Conference bridges**.
 
 2. At the top of the **Conference bridges** page, select **Bridge settings**.
 
@@ -64,7 +64,7 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 
 ## Want to know how to manage with Windows PowerShell?
 
-- To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) cmdlet.
+- To save time or automate this process, you can use the [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) cmdlet.
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
 
