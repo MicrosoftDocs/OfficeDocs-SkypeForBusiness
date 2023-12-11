@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 10/07/2022
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -85,7 +85,7 @@ You can restrict this setting by using a sensitivity label. For sensitive or hig
 
 By default, meeting participants can give control of their shared screen to another participant in the meeting. This is controlled by two Teams admin meeting policies:
 
-- **Participants can give or request control** - This setting determines if meeting participants can request control of a shared screen from another participant. It's **On** by default.
+- **Participants can give or request control** - This setting determines whether the user with this policy can give control of their shared desktop or window to other meeting participants. It's **On** by default.
 
 - **External participants can give or request control** - This setting determines a guest or anonymous participant can be given control of an internal user's shared screen. It's **Off** by default.
 
