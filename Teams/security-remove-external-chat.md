@@ -85,7 +85,7 @@ Replace **{chatsId}** with the **Id** of the chat you want to act on.  The reque
 For example, a request might look like this: 
 
 ```http
-POST https://graph.microsoft.com/v1.0/chats/19:7d8980.........f94061cf8c2@unq.gbl.spaces/removeAllAccessForUser 
+POST https://graph.microsoft.com/beta/chats/19:7d8980.........f94061cf8c2@unq.gbl.spaces/removeAllAccessForUser 
 Content-Type: application/json 
 
 { 
@@ -100,8 +100,8 @@ To authenticate the request, you need to provide a valid access token in the Aut
 
 If the request is successful, the response has a status code of “204 No Content” and an empty body. If the request fails, the response has an error code and a message that explains the reason for the failure. 
 
-<!--
-There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. -->
+
+There are many ways to call a Microsoft Graph API – if you're unfamiliar with how to do this, you might want to start with an interactive tool such as [Graph Explorer](/graph/graph-explorer/graph-explorer-overview).  Some admins create an app or use PowerShell to interact with Graph APIs as well. 
 
 ### Sample Code
 
@@ -133,7 +133,7 @@ if (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication) {
 } 
 else {
     Write-Host "Microsoft.Graph.Authentication module not found. Installing"
-    Install-Module Microsoft.Graph.Authentication -Scope AllUsers -Force -ForegroundColor "Yellow"
+    Install-Module Microsoft.Graph.Authentication -Scope AllUsers -Force 
 }
  
 # Install Microsoft.Graph.Applications module for all users (requires admin rights)
@@ -142,7 +142,7 @@ if (Get-Module -ListAvailable -Name Microsoft.Graph.Applications) {
 } 
 else {
     Write-Host "Microsoft.Graph.Application module not found. Installing"
-    Install-Module Microsoft.Graph.Applications -Scope AllUsers -Force -ForegroundColor "Yellow"
+    Install-Module Microsoft.Graph.Applications -Scope AllUsers -Force 
 }
  
 # Install MSAL.PS module for all users (requires admin rights)
@@ -151,7 +151,7 @@ if (Get-Module -ListAvailable -Name MSAL.PS) {
 } 
 else {
     Write-Host "MSAL module not found. Installing"
-    Install-Module MSAL.PS -Scope AllUsers -Force -ForegroundColor "Yellow"
+    Install-Module MSAL.PS -Scope AllUsers -Force 
 }
  
  
@@ -181,7 +181,7 @@ else
 }
 
 $ClientId = $App.AppId
-Write-Host "debug clientID == $ClientId"
+Write-Host "clientID == $ClientId"
 
  
 # Now that we have the ID for our client application, we can call the RemoveAccessForUser API...
