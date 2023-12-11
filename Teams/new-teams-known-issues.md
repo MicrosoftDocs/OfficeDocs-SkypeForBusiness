@@ -61,6 +61,8 @@ As we improved the client, the experience also improved to align with similar fe
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, or work location (remote or office).|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
 |Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
+|Edit team name and change team picture from Edit team view.|Team owners can edit team name and change team picture in the team **Settings tab** by selecting **More options (...) > Manage team**.|
+|Ability to choose EDU themed team avatar from a list in the Edit team view In Microsoft Teams for Education|No longer available.|
 |About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
 |Ability to build Teams personal apps usings Adaptive cards|No longer available.|

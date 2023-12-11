@@ -62,7 +62,7 @@ As Teams administrator, you have the following controls on upload and use of cus
 | Custom app governance | Setting available to admins | Impact on users |
 |----------------------------|-----------------------------|-----------------|
 | Allow or disallow specific users from uploading custom apps | Use [app setup policy](#allow-users-to-upload-custom-apps) | You apply app setup policy to specific users to allow or disallow them from uploading custom app in personal context or in a team. Users can still submit custom apps for your approval. |
-| Allow or disallow all users from uploading custom apps | Use [custom app setting in org-wide settings](manage-apps.md#manage-org-wide-app-settings) | Users can't upload custom apps even in their personal context. Users can still submit custom apps for your approval. |
+| Allow or disallow all users from uploading custom apps | Use [custom app setting in Org-wide app settings](manage-apps.md#manage-org-wide-app-settings) | Users can't upload custom apps even in their personal context. Users can still submit custom apps for your approval. |
 | Restrict app access for a few users | Use [app permission policy](teams-app-permission-policies.md) | You granularly control which users have access to what particular custom app (also applies to third-party apps). |
 | Delete a custom app | [Delete an app](#delete-custom-apps-from-your-organizations-catalog) | The deleted app isn't available in your org. It's removed for existing users too. |
 
