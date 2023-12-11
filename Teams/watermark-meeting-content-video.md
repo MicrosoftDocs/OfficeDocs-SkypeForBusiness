@@ -67,7 +67,7 @@ When a watermark is being used in a meeting, the following features are turned o
 
 ## Watermarks for sensitive and highly sensitive meetings
 
-Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who do not normally have access to the information. For example, a member of the finance organization might use watermarks when sharing quarterly estimates with managers from different divisions.
+Watermarks can be useful for protecting confidential information shared in meetings. This is most useful when sharing information with people who don't normally have access to the information. For example, a member of the finance organization might use watermarks when sharing quarterly estimates with managers from different divisions.
 
 Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared may not add to security.
 
