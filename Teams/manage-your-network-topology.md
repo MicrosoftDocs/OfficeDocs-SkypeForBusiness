@@ -3,8 +3,8 @@ title: Manage your network topology for cloud voice features in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.reviewer: jastark, roykuntz
-ms.date: 11/11/2019
+ms.reviewer: roykuntz
+ms.date: 12/08/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -42,24 +42,28 @@ You define network regions, network sites, and subnets on the **Network sites** 
 #### Add and configure a network site
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Network sites** tab.
+
 2. Select **Add**, and then enter a name and description for the site.
 
-    ![Screenshot of the Add network site page.](media/manage-network-topology-add-site.png)
-
 3. To associate the site with a network region, select **Add network region**, select an existing region or select **Add** to add a region, and then select **Link**.  
+
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
+
 5. To assign emergency services policies to the site, do one or both of the following:
 
     - If your organization uses Calling Plans, Operator Connect, or Direct Routing, under **Emergency calling policy**, select the policy that you want.
     - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
 6. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
+
 7. Select **Save**.
 
 #### Modify a network site
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Network sites** tab.
+
 2. Select the site by clicking to the left of the site name, and then select **Edit**.
+
 3. Make the changes that you want, and then select **Save.**
 
 ### Manage external trusted IP addresses
@@ -69,15 +73,17 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 #### Add a trusted IP address
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
-2. Select **New**.
-3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 
-    ![Screenshot of the Add trusted IP address pane.](media/manage-network-topology-add-trusted-ip.png)
+2. Select **New**.
+
+3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 
 #### Edit a trusted IP address
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
+
 2. Select the IP address by clicking to the left of it, and then select **Edit**.
+
 3. In the **Edit trusted IP address** pane, make the changes that you want, and then select **Apply**.
 
 ## Configure network settings using PowerShell
@@ -86,13 +92,13 @@ To complete the steps in this section, you need some familiarity with PowerShell
 
 ### Define network regions
 
- Use the [New-CsTenantNetworkRegion](/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
+Use the [New-CsTenantNetworkRegion](/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-In this example, we create a network region named India.
+This example creates a network region named India:
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
@@ -108,14 +114,14 @@ Use the [New-CsTenantNetworkSite](/powershell/module/skype/new-cstenantnetworksi
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-In this example, we create two new network sites, Delhi and Hyderabad, in the India region.
+This example creates two new network sites, Delhi and Hyderabad, in the India region:
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
 
-The following table shows the network sites defined in this example.
+The following table shows the network sites defined in this example:
 
 |&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
@@ -132,14 +138,14 @@ Use the [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetwork
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-In this example, we create an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site.
+This example creates an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site:
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
 ```
 
-The following table shows the subnets defined in this example.
+The following table shows the subnets defined in this example:
 
 |&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
@@ -147,7 +153,7 @@ The following table shows the subnets defined in this example.
 |Mask  |     24    |   120      |
 |Site ID  | Site (Delhi) | Site 2 (Hyderabad) |
 
-For multiple subnets, you can import a CSV file by using a script such as the following.
+For multiple subnets, you can import a CSV file by using a script such as the following:
 
 ```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
@@ -181,9 +187,9 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 See also [Set-CsTenantTrustedIPAddress](/powershell/module/skype/set-cstenanttrustedipaddress).
 
-## Enabling Network Roaming Policies
+## Enabling network roaming policies
 
-Once you configure your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams Admin Center under **Meetings > Meeting Policies.**
+Once you configure your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams admin center under **Meetings > Meeting Policies.**
 
 You can either edit the global policy or create a new policy and assign the policy to specific users.
 
