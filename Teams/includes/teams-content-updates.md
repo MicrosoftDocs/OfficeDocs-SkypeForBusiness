@@ -2,6 +2,53 @@
 
 
 
+## Week of December 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/4/2023 | [Allow users to block Microsoft Teams chat messages](/MicrosoftTeams/block-incoming-chats) | added |
+| 12/4/2023 | [Manage and upload custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds) | modified |
+| 12/4/2023 | [Local Media Optimization for Direct Routing](/MicrosoftTeams/direct-routing-media-optimization) | modified |
+| 12/4/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 12/4/2023 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
+| 12/4/2023 | [Manage VOD publishing for webinars and town halls](/MicrosoftTeams/manage-vod-publishing) | modified |
+| 12/4/2023 | [Plan for Teams town halls](/MicrosoftTeams/plan-town-halls) | modified |
+| 12/4/2023 | [Plan for Teams webinars](/MicrosoftTeams/plan-webinars) | modified |
+| 12/4/2023 | [Admin- Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
+| 12/4/2023 | [Manage your network topology for cloud voice features in Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modified |
+| 12/5/2023 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 12/5/2023 | [Teams settings and policies reference](/MicrosoftTeams/settings-policies-reference) | modified |
+| 12/5/2023 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 12/5/2023 | [Auto attendant and Call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
+| 12/5/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 12/5/2023 | [Plan for Teams Auto attendants and Call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 12/5/2023 | [Routing calls with Auto attendants and Call queues for Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | modified |
+| 12/5/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
+| 12/5/2023 | [Customize meeting invitations (IT admins)](/MicrosoftTeams/customize-meeting-invitations) | modified |
+| 12/5/2023 | [Predefined meeting templates included with Microsoft Teams Premium](/MicrosoftTeams/predefined-meeting-template-reference) | modified |
+| 12/5/2023 | [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modified |
+| 12/5/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 12/5/2023 | [Microsoft Teams live event usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | modified |
+| 12/6/2023 | [Plan for Teams town halls](/MicrosoftTeams/plan-town-halls) | modified |
+| 12/6/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
+| 12/6/2023 | [Admin- Set up webinars](/MicrosoftTeams/set-up-webinars) | modified |
+| 12/6/2023 | [Troubleshooting the new Teams installation](/MicrosoftTeams/new-teams-troubleshooting-installation) | modified |
+| 12/6/2023 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 12/6/2023 | [Remove an external chat from a user's view in Microsoft Teams (admin)](/MicrosoftTeams/security-remove-external-chat) | modified |
+| 12/7/2023 | [Manage RTMP-In for Teams meetings, webinars, and town halls](/MicrosoftTeams/meetings-rtmp-in) | modified |
+| 12/7/2023 | [User requests for admins](/MicrosoftTeams/user-requests-approve-apps) | modified |
+| 12/7/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 12/7/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 12/8/2023 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 12/8/2023 | [Manage your network topology for cloud voice features in Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modified |
+| 12/8/2023 | [Set Microsoft Teams Android devices user interface](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modified |
+| 12/8/2023 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
+| 12/8/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 12/8/2023 | [Predefined meeting templates in Microsoft Teams](/MicrosoftTeams/predefined-meeting-template-reference) | modified |
+| 12/8/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
+
+
 ## Week of November 27, 2023
 
 

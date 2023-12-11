@@ -54,6 +54,11 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar | `1.10.409`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
+| Logi RoomMate | `1.10.175`   | 2023 Update #2  |
+| Logi Rallybar Huddle | `1.10.277`   | 2023 Update #2  |
+| Logi Console  | `1.10.129`    | 2023 Update #2  |
 | Audiocodes RXV81 | `2.2.335` | 2023 Update #2 |
 | Audiocodes RX-Pad | `2.2.335` | 2023 Update #2 |
 | Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
