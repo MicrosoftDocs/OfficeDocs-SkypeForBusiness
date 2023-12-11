@@ -29,6 +29,9 @@ description: Learn how to see the status of your resource accounts information; 
 
 # Resource accounts
 
+> [!IMPORTANT]
+> The option of managing resource accounts isn't available for GCC tenants.
+
 Resource accounts is a feature that enables you to see the status of your resource accounts for Teams Rooms; and the information pertaining to mailbox settings, location, and license.
 
 ## View resource accounts
