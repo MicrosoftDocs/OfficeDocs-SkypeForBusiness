@@ -148,7 +148,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    For more information on this command, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    For more information on this command, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps&preserve-view=true).
     
 - If you need to turn off VbSS completely, you can run this command:
     
@@ -156,7 +156,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    For more information on this command, see [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    For more information on this command, see [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps&preserve-view=true).
     
 > [!NOTE]
 > In a multiparty Skype for Business meeting, all client endpoints will respect the policy setting for the meeting organizer. 
@@ -175,7 +175,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    For more information on this command, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    For more information on this command, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps&preserve-view=true).
     
 - If you need to turn VbSS back on after turning it off (it's on by default), you can run this command:
     
@@ -183,7 +183,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    For more information on this command, see [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    For more information on this command, see [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps&preserve-view=true).
     
 > [!NOTE]
 > In a multi-party Skype for Business meeting, all client endpoints will respect the policy setting for the meeting organizer. 
