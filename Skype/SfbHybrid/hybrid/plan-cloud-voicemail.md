@@ -33,7 +33,7 @@ Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing 
 
 - Support for Exchange mailboxes on premises or in the cloud
 
-- Leveraging of existing user greetings from Exchange Online Unified Messaging
+- Using existing user greetings from Exchange Online Unified Messaging
 
 > [!Important]
 > Skype for Business Online was retired on July 31, 2021. Users can no longer access voicemail in their Exchange mailbox through the Skype for Business Online client.
@@ -44,7 +44,7 @@ Skype for Business Server 2019 continues to use Exchange UM for users whose mail
 
 With Cloud Voicemail, your administration tasks are greatly simplified because:
 
-- There is no need to configure the Exchange UM role.
+- There's no need to configure the Exchange UM role.
 - The setup tasks for Cloud Voicemail are simpler.
 - Updates to voicemail functionality are delivered directly in the cloud, so your users always have access to the latest features and updates with less dependency on Cumulative Updates (CUs).
 - You have the same set of controls for both on-premises and online Exchange mailboxes. For more information on these controls, see [Set up Phone System voicemail](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d).
@@ -64,13 +64,13 @@ Unanswered calls are handled as follows:
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online and you upgrade to Skype for Business 2019, you will need to modify your hosted voicemail policy and verify that your hosting providers are set correctly. For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
+- If you're already using Exchange UM online and you upgrade to Skype for Business 2019, you'll need to modify your hosted voicemail policy and verify that your hosting providers are set correctly. For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
-- If you are using Exchange UM on premises, or you have a mix of users using Exchange UM online and on premises, you will need modify both your hosted voicemail policy and hosting provider.  For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
+- If you're using Exchange UM on premises, or you have a mix of users using Exchange UM online and on premises, you need to modify both your hosted voicemail policy and hosting provider.  For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
 - For a new configuration of Cloud Voicemail, follow the steps outlined in [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
-In addition to the requirements above, the below requirements must be configured to connect to the Microsoft Cloud Voicemail service:
+In addition to the given requirements, the below requirements must be configured to connect to the Microsoft Cloud Voicemail service:
 
 - Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
@@ -84,7 +84,7 @@ In addition to the requirements above, the below requirements must be configured
 
 ## Migration and interoperability
 
-If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued service for voice messaging. Keep the following in mind:
+If you're planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued service for voice messaging. Keep the following in mind:
 
 - Exchange Server 2019 no longer provides Exchange UM functionality
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
