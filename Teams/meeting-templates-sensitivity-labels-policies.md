@@ -52,15 +52,15 @@ The following table shows a list of Teams features that may be useful for managi
 |Record automatically|Meeting recording can be disabled completely using a meeting policy, but there's no admin policy for *Record automatically*.|Can enforce or prevent automatic meeting recording or be left uncontrolled. Can enforce automatic recording even if admin policy for recording is **Off**.|If meeting recording is allowed by admin policy and automatic recording is not controlled by a sensitivity label, can be set to **On** or **Off** and can enforce the setting or allow the meeting organizer to change it.|Meeting organizer can turn **On** or **Off** unless the setting is enforced **On** or **Off** by a meeting template or sensitivity label or admin policy prevents recording.|
 |Who can bypass the lobby|Sets the default setting for new meetings.|Can enforce a particular option for who can bypass the lobby, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting for who can bypass the lobby. Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can bypass the lobby unless the setting is enforced by a label or template.|
 |Who can present|Sets the default setting for new meetings. Available values are **Everyone**, **People in my org and guests**, and **Only organizers and co-organizers**.|Can enforce settings of **Everyone**, **People in my org and guests**, **Let meeting organizer select specific people**, or **Only organizers and co-organizers**, or can be left uncontrolled.|No setting|Meeting organizer can select who can present unless enforced by a sensitivity label.|
-|Who can record|Meeting recording can be disabled completely using a meeting policy, but there's no admin policy for *Who can record*.|Can enforce settings of **Organizers and co-organizers** or **Organizers and presenters**, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting of **Organizers and co-organizers** or **Organizers, co-organizers, and presenters**. Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can record - **Organizers and co-organizers** or **Organizers, co-organizers, and presenters** - unless the setting is enforced by a label or template.|
+|Who can record|Meeting recording can be disabled completely using a meeting policy, but there's no admin policy for *Who can record*.|Can enforce settings of **Organizers and co-organizers** or **Organizers and presenters**, or can be left uncontrolled.|If not controlled by a sensitivity label, selects a setting of **Organizers and co-organizers** or **Organizers, co-organizers, and presenters**. Setting can be enforced or meeting organizer can be allowed to change.|Meeting organizer can choose who can record—**Organizers and co-organizers** or **Organizers, co-organizers, and presenters**—unless the setting is enforced by a label or template.|
 
 ## Admin policies' effect on sensitivity labels and meeting templates
 
-While some admin policies - such as lobby settings and who can present - specify defaults that the meeting organizer can change, most admin policies determine if a given feature is available to users at all.
+While some admin policies—such as lobby settings and who can present—specify defaults that the meeting organizer can change, most admin policies determine if a given feature is available to users at all.
 
-Sensitivity labels can enforce end-to-end encryption, watermarks, and automatic recording even if the related admin policy is turned off for the meeting organizer. Templates can't do this, however. Admin policies takes precedence over template settings.
+Sensitivity labels can enforce end-to-end encryption, watermarks, and automatic recording even if the related admin policy is turned off for the meeting organizer. Templates can't do this, however. Admin policies take precedence over template settings.
 
-For example, if you create a *highly sensitive* label and configure it to enforce watermarking and end-to-end encryption, that enforcement will take place if even if watermarking and end-to-end encryption are disabled for the meeting organizer in the admin policy. However, if you use a template to turn on watermarking and end-to-end encryption for that same meeting organizer, those features won't be available in the meeting because the admin policy takes precedence over them.
+For example, if you create a *highly sensitive* label and configure it to enforce watermarking and end-to-end encryption, that enforcement will take place even if watermarking and end-to-end encryption are disabled for the meeting organizer in the admin policy. However, if you use a template to turn on watermarking and end-to-end encryption for that same meeting organizer, those features won't be available in the meeting because the admin policy takes precedence over them.
 
 As you plan for your meeting templates and sensitivity labels, ensure that the settings that you want to control with them are enabled in admin policies where required.
 
@@ -78,13 +78,13 @@ Whenever a sensitivity label is used, the settings configured in the label take 
 
 The settings in a sensitivity label can be left uncontrolled when the label is created, allowing a template or the meeting organizer to control these settings.
 
-Sensitivity labels are often used for multiple purposes - labeling documents, sites, and emails, as well as meetings. You can avoid creating additional labels that are just for meetings by using templates along with the labels to account for variations within a particular type of meeting.
+Sensitivity labels are often used for multiple purposes—labeling documents, sites, and emails, as well as meetings. You can avoid creating additional labels that are just for meetings by using templates along with the labels to account for variations within a particular type of meeting.
 
 For example your marketing department might have different requirements than the research department for sensitive meetings. You can configure the settings that are common to both in a sensitivity label and then make separate templates available to the two groups which further refine the meeting settings for that group. Both templates could use the same label.
 
 ## User-based policies and meeting-based policies
 
-Teams policies - including meeting policies - apply at the user or group level. Sensitivity label and template settings apply at the individual meeting level where those labels and templates are used. Consider where it makes sense to configure settings in Teams admin policies versus sensitivity labels or templates.
+Teams policies—including meeting policies—apply at the user or group level. Sensitivity label and template settings apply at the individual meeting level where those labels and templates are used. Consider where it makes sense to configure settings in Teams admin policies versus sensitivity labels or templates.
 
 Here are a few examples:
 
@@ -96,8 +96,8 @@ If you want watermarks available only for governance officials, you can enable t
 
 Using templates and labels together can be useful if you have different types of meetings that have the same sensitivity. For example, if some of your sensitive meetings are interactive and some are presentations where there's minimal interaction from attendees, you can create two templates:
 
-- One to use for presentations that turns off attendee video and audio.
-- One to use for interactive meetings that leaves video and audio at the discretion of the meeting organizer.
+- One to use for presentations that turn off attendee video and audio.
+- One to use for interactive meetings that leave video and audio at the discretion of the meeting organizer.
 
 Both templates could use the *Sensitive* label which would control additional settings such as who can bypass the lobby and who can present.
 
