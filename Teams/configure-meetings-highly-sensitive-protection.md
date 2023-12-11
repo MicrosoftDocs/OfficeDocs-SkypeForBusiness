@@ -139,7 +139,9 @@ To create a sensitivity label
     1. Select **Control watermarks** and then select **Apply watermark to shared content** and **Apply watermark to everyone's video feed**.
     1. Select **Prevent copying chat content to clipboard**.
     1. Configure any other settings that you need for your organization.
-    ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-highly-sensitive-small.png)
+
+       :::image type="content" alt-text="Screenshot of meeting sensitivity label settings showing configuration in this procedure." source="media/teams-meeting-sensitivity-label-highly-sensitive-small.png":::
+
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, select **Create label**, and then select **Done**.
 

@@ -56,7 +56,7 @@ The default value for **Who can present** is **Everyone**. For the baseline prot
 
 We can set this value with a sensitivity label, but the value would be enforced for any meetings with that label. This option isn't available in meeting templates, so we set it in the Teams admin center.
 
-To configure who can present 
+To configure who can present
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
 1. Under **Content sharing**, set **Who can present** to **People in my org and guests**.
@@ -89,7 +89,9 @@ To create a sensitivity label
     1. Select **Control end-to-end encryption for meeting video and audio** and set **Apply end-to-end encryption** to **Don't apply end-to-end encryption**.
     1. Select **Control watermarks** and select **Don't apply watermark to shared content** and **Don't apply watermark to everyone's video feed**.
     1. Configure any other settings that you need for your organization.
-    ![Screenshot of meeting sensitivity label settings showing configuration in this procedure.](media/teams-meeting-sensitivity-label-baseline-small.png)
+
+       :::image type="content" alt-text="Screenshot of meeting sensitivity label settings showing configuration in this procedure." source="media/teams-meeting-sensitivity-label-baseline-small.png":::
+
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, select **Create label**, and then select **Done**.
 

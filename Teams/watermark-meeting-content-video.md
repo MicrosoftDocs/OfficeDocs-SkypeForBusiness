@@ -87,7 +87,7 @@ To configure watermarking for meetings
 
 1. To configure watermark on content shared on screen in a meeting, set **Watermark shared content** to **On** or **Off**.
 
-    ![Screenshot of Teams admin policy for watermarks](media/watermark-admin-policy.png)
+    :::image type="content" alt-text="Screenshot of Teams admin policy for watermarks" source="media/watermark-admin-policy.png":::
 
 1. To set the watermark pattern or transparency, or see a preview, select **Edit settings**. Select **Apply** if you make changes.
 
