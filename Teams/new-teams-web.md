@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: smylavarapu
+ms.reviewer: sburkman
 search.appverid: MET150
 f1.keywords:
 - NOCSH
