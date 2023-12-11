@@ -24,7 +24,7 @@ description: This article is for the IT administrator to learn about how to crea
 # Create a one-time password
 
 > [!IMPORTANT]
-> The option of creating a one-time password is not available on GCC tenants.
+> The option of creating a one-time password isn't available for GCC tenants.
 
 A one-time password (OTP) is used to provide authentication when someone is setting up and deploying Teams Rooms consoles that run on Windows without the need for a specific username and password used on the device. The one-time password is created in the Microsoft Teams Rooms Pro Management portal and only used for a single sign in session. Each Teams Rooms console you're deploying in your organization will need its own one-time password, else, its credentials will need to be added during a manual setup.
 
