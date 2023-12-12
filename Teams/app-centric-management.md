@@ -90,7 +90,7 @@ You can control the default app assignments of any new and incoming app in your 
 The default tenant settings apply in the following cases:
 
 * All new and incoming Teams apps.
-* All apps published in the past that weren't managed by you.
+* All apps published in the past that you didn't manage.
 
 If you make any app assignments, then the assignments supersede the default organization settings. Teams admin center honors the admin changes over the default settings.
 
