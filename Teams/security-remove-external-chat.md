@@ -181,8 +181,6 @@ else
 }
 
 $ClientId = $App.AppId
-Write-Host "clientID == $ClientId"
-
  
 # Now that we have the ID for our client application, we can call the RemoveAccessForUser API...
 # Msal parameters required to get access token.
