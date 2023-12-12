@@ -53,6 +53,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| March 30, 2024| 9 |
 | Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
 | AudioCodes C470HD   | `2.1.87`  |October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
