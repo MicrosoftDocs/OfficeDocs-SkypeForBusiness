@@ -44,7 +44,7 @@ When you used permission policies, the following three settings determined if a 
 App centric management feature simplifies these settings by having each app define who can use the app, so that you can handle each app differently based on your user's needs and organization's compliance and risk posture. When using this functionality, you define app assignments by choosing one of the following options for each app:
 
 * **Everyone in the organization**: Anyone in your org can add and use the app.
-* **Specific users or groups**: Only the selected users and groups can use the app. The supported group types are Security, Microsoft 365, Dynamic, and Distributed Lists (DLs).
+* **Specific users or groups**: Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists.
 * **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
 
 The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you simply modify the app assignments of an app to allow a user. You can deny everyone access or you can explicitly specify the list of users or groups who get access to an app.
