@@ -2,7 +2,7 @@
 title: Emergency addresses for remote locations
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 08/22/2019
 ms.topic: article

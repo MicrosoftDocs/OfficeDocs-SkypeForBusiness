@@ -2,7 +2,7 @@
 title: What's the status of your port orders?
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 11/28/2017
 ms.topic: article

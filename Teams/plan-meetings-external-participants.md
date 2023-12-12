@@ -3,7 +3,7 @@ ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: alsolom

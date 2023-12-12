@@ -1,10 +1,10 @@
 ---
 title: Migrate from Slack to Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: brandber
 ms.date: 10/14/2019
-manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.custom:

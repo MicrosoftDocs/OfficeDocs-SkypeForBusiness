@@ -2,7 +2,7 @@
 title: Create a call queue via cmdlets
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 01/17/2022
 ms.topic: article

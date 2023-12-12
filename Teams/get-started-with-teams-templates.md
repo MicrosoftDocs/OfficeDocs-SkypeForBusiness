@@ -2,7 +2,7 @@
 title: Get started with team templates using Microsoft Graph
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams

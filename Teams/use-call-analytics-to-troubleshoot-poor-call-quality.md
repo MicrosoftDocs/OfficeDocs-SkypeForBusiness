@@ -2,7 +2,7 @@
 title: "Use Call Analytics to troubleshoot poor call quality"
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 11/28/2017
 ms.topic: article

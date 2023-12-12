@@ -2,7 +2,7 @@
 title: "Code of practice for U.K. - Microsoft 365 calling plans"
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 11/28/2017
 ms.topic: reference

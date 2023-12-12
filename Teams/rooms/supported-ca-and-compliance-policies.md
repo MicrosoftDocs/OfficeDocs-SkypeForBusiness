@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 ms.reviewer: altsou
 ms.date: 11/13/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams

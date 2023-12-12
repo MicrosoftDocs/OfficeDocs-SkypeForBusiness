@@ -2,7 +2,7 @@
 title: Use CQD to manage call and meeting quality in Microsoft Teams 
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies, gageames
