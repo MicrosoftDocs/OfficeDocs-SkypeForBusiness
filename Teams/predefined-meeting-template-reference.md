@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ralphmaamari
-ms.date: 11/29/2023
+ms.date: 12/08/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -24,11 +24,13 @@ description: See a list of Microsoft Teams meeting templates and their settings.
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The following predefined [meeting templates](custom-meeting-templates-overview.md) are available in Teams. Some of them require Teams Premium. You can use these templates or you can [create your own templates](create-custom-meeting-template.md).
+The following predefined meeting templates are available in Teams. You can determine which of these templates are available to your users by using [meeting template policies](manage-meeting-templates.md). 
+
+If your organization has Teams Premium, you can edit these templates (if noted below) or [create your own meeting templates](create-custom-meeting-template.md). You can also configure Teams Premium settings in editable templates and meeting organizers with a Teams Premium license can use those settings in their meetings.
 
 ## Virtual appointment
 
-The Virtual appointment meeting template comes with the following settings. You can't edit the template, but meeting organizers can change these setting when they create the meeting. This template requires Teams Premium.
+The Virtual appointment meeting template comes with the following options. You can't edit this template.
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
@@ -58,7 +60,7 @@ To learn more, see [Manage the Virtual appointment meeting template in Teams](vi
 
 ## Controlled-content meeting
 
-The controlled-content meeting template comes with the following settings. You can edit these settings in the template.
+The controlled-content meeting template comes with the following options. You can edit this template if your organization has Teams Premium.
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
@@ -85,6 +87,8 @@ The controlled-content meeting template comes with the following settings. You c
 |Manage what attendees see|Off|Visible|Unlocked|
 
 ## Related topics
+
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
 

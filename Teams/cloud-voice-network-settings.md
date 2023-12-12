@@ -5,7 +5,7 @@ ms.author: crowe
 manager: pamgreen
 ms.topic: conceptual
 ms.reviewer: roykuntz
-ms.date: 11/12/2019
+ms.date: 12/08/2023
 ms.service: msteams
 audience: admin
 search.appverid: MET150
