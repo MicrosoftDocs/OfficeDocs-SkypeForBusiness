@@ -62,7 +62,9 @@ To configure immediate call forward settings:
 
 1. On the user details page, go to the **Voice** tab.
 
-1. Under **Call answering rules**, select **Ring user's devices** or **Be immediately forwarded**. If you select **Ring user's devices**, you must also select **Group call pickup** from the **Also allow** dropdown. If you select **Be immediately forwarded**, you must also select **Group call pickup** from the **Call forward type** dropdown.
+1. Under **Call answering rules**, you can select either:
+    - **Ring user's devices** and select **Group call pickup** from the **Also allow** dropdown
+    - **Be immediately forwarded** and select **Group call pickup** from the **Call forward type** dropdown
 
 1. Select **Manage call group** and select **Add people** to add the appropriate users to the call group.
 
