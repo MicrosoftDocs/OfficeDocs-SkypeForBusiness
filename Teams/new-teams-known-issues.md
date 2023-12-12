@@ -52,7 +52,7 @@ As we improved the client, the experience also improved to align with similar fe
 |Post level notifications within a channel|Users can no longer opt in or opt out of receiving notifications at a channel post level.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
 |Adding a Wiki to a channel tab|You no longer see a Wiki app. Instead, select the Notes app.|
-|Files app on Teams navigation pane|The OneDrive app replaces the Files app on the left navigation pane.|
+|Files app on Teams left navigation pane|The OneDrive app replaces the Files app on the left navigation pane.|
 |Adding third party cloud storage service from Files app and Files tab in channels|You no longer see the "Add cloud storage" in the OneDrive app on Teams' left navigation bar or within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
