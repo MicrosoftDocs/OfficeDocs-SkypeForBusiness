@@ -152,7 +152,7 @@ The following advanced calling features are available for supported Teams phone 
   - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
 - [Call queues](create-a-phone-system-call-queue.md).
 - [Auto attendants](create-a-phone-system-auto-attendant.md).
-- [Group call pick-up](call-sharing-and-group-call-pickup.md).
+- [Group call pickup](call-sharing-and-group-call-pickup.md).
 - [Forwarding rules](teams-calling-policy.md).
 
 To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.

@@ -975,7 +975,7 @@ items:
           href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
-        - name: Configure call settings for your users
+        - name: Configure call forwarding and delegation settings
           href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md
