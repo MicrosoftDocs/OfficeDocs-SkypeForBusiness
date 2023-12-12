@@ -3,7 +3,7 @@ title: "Call sharing and group call pickup"
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 02/19/2019
+ms.date: 12/08/2023
 ms.reviewer: jenstr
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -38,7 +38,7 @@ Group call pickup is less disruptive to recipients than other forms of call shar
 
 ## License required
 
-Users must be assigned a Microsoft Teams Phone System license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+Users must be assigned a Microsoft Teams Phone license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Teams Phone](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 ## Limitations
 
@@ -48,13 +48,29 @@ Note that mobile devices will only get notified if they're set for banner and ri
 
 ## Enable the use of group call pickup
 
-You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client. 
+You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client.
 
-Important: When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing. 
+Important: When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing.
 
 ## Use Teams admin center
 
-To configure group call pickup for users by using Teams admin center, see [Configure call settings for your users](/MicrosoftTeams/user-call-settings).
+You can use the Teams admin center to configure group call pickup for your users.
+
+To configure immediate call forward settings:
+
+1. In the Teams admin center, go to **Users** > **Manage users** and select a user.
+
+1. On the user details page, go to the **Voice** tab.
+
+1. Under **Call answering rules**, select **Ring user's devices** or **Be immediately forwarded**. If you select **Ring user's devices**, you must also select **Group call pickup** from the **Also allow** dropdown. If you select **Be immediately forwarded**, you must also select **Group call pickup** from the **Call forward type** dropdown.
+
+1. Select **Manage call group** and select **Add people** to add the appropriate users to the call group.
+
+1. For each user in the call group, select the type of notification that the user will see when they get an incoming call. **Ring** is the default notification type.
+
+1. From the dropdown, select the appropriate call group order.
+
+1. Select **Save**.
 
 ## Use PowerShell
 
@@ -64,7 +80,7 @@ To configure call groups for users, use the following Teams PowerShell Module cm
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 
-### Examples
+### PowerShell examples
 
 The following example creates a call group for user1@contoso.com with the members user2@contoso.com and user3@contoso.com, and
 sets immediate call forwarding to the call group for user1@contoso.com:

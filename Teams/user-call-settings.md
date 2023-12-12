@@ -1,5 +1,5 @@
 ---
-title: Configure call forwarding and delegation settings for users
+title: Configure call forwarding and delegation settings
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
@@ -24,7 +24,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn how to configure user settings for call forwarding and delegation.
 ---
-# Configure call settings for your users
+# Configure call forwarding and delegation settings
 
 This article describes how you, the administrator, can change call forwarding and delegation settings for your users. You might want to change these settings, for example, if:
 
