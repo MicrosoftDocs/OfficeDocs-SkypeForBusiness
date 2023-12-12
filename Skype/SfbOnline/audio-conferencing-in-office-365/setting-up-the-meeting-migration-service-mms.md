@@ -41,6 +41,8 @@ By default, MMS is automatically triggered in each of these cases. In addition, 
 - The user’s mailbox is hosted in Exchange on-premises.
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
+> [!NOTE]
+> Cloud Video Interop (CVI) meeting coordinates are only preserved (and newly created), when migrating from Skype for Business to Microsoft Teams. For meetings migrated from Microsoft Teams to Microsoft Teams, CVI coordinates are not updated. In the case whereby customers are moving from one CVI partner to another, meetings will need to be re-scheduled for CVI coordinates to be updated.
 ## How MMS works
 
 When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have gone by. Once MMS processes the request, it performs the following tasks:
@@ -48,9 +50,9 @@ When MMS is triggered for a given user, a migration request for that user is pla
 1. It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.
 2. Based on the information found in the user’s mailbox, it either updates or schedules new meetings in Teams for that user, depending on the exact scenario.
 3. In the email message, it replaces the online meeting block in the meeting details.
-4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email.
+1. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email.
 
-    ![The meeting block that gets updated by MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+ ![The meeting block that gets updated by MMS.](/skypeforbusiness/sfbonline/images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.
 
