@@ -1,9 +1,9 @@
 ---
 title: "Call sharing and group call pickup"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
-ms.date: 12/08/2023
+ms.date: 12/12/2023
 ms.reviewer: jenstr
 ms.topic: article
 ms.tgt.pltfrm: cloud
