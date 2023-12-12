@@ -109,7 +109,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
    ```powershell
    Connect-MgGraph
-   Import-Module MSOnline
+   Import-Module Microsoft.Graph
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    $objFSO = New-Object -ComObject Scripting.FileSystemObject
    $CertFile = $objFSO.GetAbsolutePathName($CertFile);
@@ -118,8 +118,8 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert)
    $ServiceName = "00000004-0000-0ff1-ce00-000000000000"
-   $p = Get-MgServicePrincipal -ServicePrincipalName $ServiceName
-   Add-MgServicePrincipalKey -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   $p = Get-MgServicePrincipal -ServicePrincipalId $ServicePrincipalNames
+   Add-MgServicePrincipalKey -ServicePrincipalId $servicePrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
 3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
@@ -130,7 +130,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 1. In the PowerShell opened and authenticated to Microsoft Entra ID, run the following
 
    ```powershell
-   Get-MgServicePrincipal -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+   Get-MgServicePrincipal -ServicePrincipalId 00000004-0000-0ff1-ce00-000000000000
    ```
 2. Press Enter when prompted for ReturnKeyValues
 3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates
