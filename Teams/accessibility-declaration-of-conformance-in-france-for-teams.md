@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams: Accessibility Declaration of Conformance - France"
 author: pamgreen
-msauthor: pamgreen
+ms.author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.date: 07/18/2018

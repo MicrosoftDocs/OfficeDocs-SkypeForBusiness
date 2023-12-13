@@ -19,6 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
+- description: "You can set up policies on how your users connect to Skype for Business Online using the Skype for Business."
 ---
 
 # Set up policies in your organization
