@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 audience: ITPro
 ms.reviewer: kimmatlock
