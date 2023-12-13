@@ -198,9 +198,9 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 ### User settings migration
 
-End user settings are automatically migrated from classic Teams during the intial switch to new Teams.  
+End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
 
-Settings are only migrated once, the first time a user updates to new Teams. After that, there are no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams. 
+Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams. 
 
 
 **Migrated settings**
@@ -229,5 +229,5 @@ Local settings that are automatically migrated when switching from classic Teams
 
 **When settings won't be migrated**
 
-- If new Teams is sideloaded and not launched via the classic Teams App Switcher flows
+- If new Teams is sideloaded or not launched via the classic Teams App Switcher flows
 - Any incremental changes made to settings in classic Teams after the initial switch to new Teams.
