@@ -681,7 +681,7 @@ Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are onl
 
 Introduced in this update:
 
-- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM in its local time zone. If the device is in use during this window and the window lapses, the restart is rescheduled to the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on it's local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
 - Bug fixes for app crashes and devices not showing up on Intune.
 - Significant reduction in sign out errors and pairing issues due to Workplace Join failures, timeout issues, and memory leaks. 
 
