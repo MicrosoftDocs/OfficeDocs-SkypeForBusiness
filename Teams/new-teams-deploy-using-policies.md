@@ -196,7 +196,7 @@ For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 
-### User settings migrated
+### End user settings migrated
 
 End user settings are automatically be migrated from classic Teams to new Teams during the intial switch.
 
