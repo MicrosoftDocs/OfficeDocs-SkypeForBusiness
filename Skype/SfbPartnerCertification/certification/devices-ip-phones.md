@@ -2,7 +2,7 @@
 ms.date: 06/13/2018
 title: "Phones and Devices for Skype for Business"
 ms.author: serdars
-author:
+author: pamgreen
 manager: serdars
 ms.reviewer: divank
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "What do you need to do after you have ported over your phone numbers?"
-ms.author:
-author:
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Skype for Business Online support in Outlook on the web"
 ms.reviewer: 
 ms.author: serdars
-author: 
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d

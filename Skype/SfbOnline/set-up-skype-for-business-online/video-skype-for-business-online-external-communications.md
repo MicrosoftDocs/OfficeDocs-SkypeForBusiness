@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Video Skype for Business Online external communications"
 ms.reviewer: 
 ms.author: serdars
-author:
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: a4fa9dea-1de3-461c-a32a-f1bf54596c16

@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Session details report"
 ms.author: serdars
-author:
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article

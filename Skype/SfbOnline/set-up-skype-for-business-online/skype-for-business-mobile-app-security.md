@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Skype for Business mobile app security"
 ms.reviewer: 
 ms.author: serdars
-author: 
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8

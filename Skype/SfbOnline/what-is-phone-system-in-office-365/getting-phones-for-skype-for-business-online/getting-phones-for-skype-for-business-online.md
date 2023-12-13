@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Getting phones for Skype for Business Online"
 ms.author: serdars
-author:
+author: pamgreen
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article

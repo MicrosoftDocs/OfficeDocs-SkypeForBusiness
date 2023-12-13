@@ -2,7 +2,7 @@
 ms.date: 03/16/2018
 title: "Office 365 Enterprise E5"
 ms.author: serdars
-author:
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
