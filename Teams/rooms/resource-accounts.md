@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Resource Accounts
-ms.author: v-smandalika
-author: v-smandalika
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: dansimp
 ms.date: 09/29/2023
