@@ -1,7 +1,7 @@
 ---
 title: Devices for Teams
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: divank
 ms.date: 11/02/2023
