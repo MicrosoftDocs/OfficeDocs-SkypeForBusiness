@@ -132,8 +132,12 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
 1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
     
     ```powershell
-    $cred=Get-Credential admin@$org
-    Connect-MgGraph -Credential $cred
+    $clientId = "your-app-client-id"
+    $clientSecret = "your-app-client-secret"
+    $tenantId = "your-tenant-id"
+    $secret = ConvertTo-SecureString -String $clientSecret -AsPlainText -Force
+    $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $clientId, $secret
+    Connect-MgGraph -ClientSecretCredential $cred -TenantId $tenantId
     ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
