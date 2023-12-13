@@ -209,7 +209,7 @@ Users have no control over the settings being migrated.
 The following are the local settings that are automatically moved when switching from classic Teams to new Teams: 
 
 |Area|Item| 
-|:-----|:-----|
+|:----|:-----|
 |General| Chat density |
 ||Show message previews in your chat list |
 ||App Language |
