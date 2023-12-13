@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Submitting a service request for local number porting"
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

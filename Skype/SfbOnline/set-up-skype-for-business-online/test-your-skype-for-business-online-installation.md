@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Test your Skype for Business Online installation"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: 
 manager: serdars
 ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e

@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Why has number activation failed?"
-ms.author: tonysmit
-author: tonysmit
+ms.author:
+author:
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

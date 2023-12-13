@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Switching between the Skype for Business and the Lync client user interfaces"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.topic: article
 ms.assetid: a2394a4c-7522-484c-a047-7b3289742be0

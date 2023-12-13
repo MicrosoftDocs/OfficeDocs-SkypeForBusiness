@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Turn on or off allowing content to be preloaded for meetings using Outlook"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.topic: article
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca

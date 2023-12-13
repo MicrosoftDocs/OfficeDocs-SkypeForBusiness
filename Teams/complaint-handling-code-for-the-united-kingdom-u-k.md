@@ -1,7 +1,7 @@
 ---
 title: "Complaint handling code for U.K. - Microsoft 365 calling plans"
-ms.author: tonysmit
-author: tonysmit
+ms.author:
+author:
 manager: pamgreen
 ms.reviewer: mikedav
 ms.date: 11/28/2017

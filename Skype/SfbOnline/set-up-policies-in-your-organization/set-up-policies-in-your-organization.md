@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Set up policies in your organization"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: 
 manager: serdars
 ms.topic: article
 ms.assetid: 91f9655f-1e9d-4688-9801-a6dc8d6efd87

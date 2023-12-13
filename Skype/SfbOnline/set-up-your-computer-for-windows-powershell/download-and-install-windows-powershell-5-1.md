@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Download and install Windows PowerShell 5.1"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4

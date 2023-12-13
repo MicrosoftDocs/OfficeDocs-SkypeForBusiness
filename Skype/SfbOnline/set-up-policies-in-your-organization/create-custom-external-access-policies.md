@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Create custom external access policies"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: 
 manager: serdars
 ms.topic: article
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b

@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Conference organizer activity report"
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Create an inclusive Teams meeting experience for all participants"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work

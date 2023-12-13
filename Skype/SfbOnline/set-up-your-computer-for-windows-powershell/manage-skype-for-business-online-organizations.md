@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Manage Skype for Business Online organizations"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.topic: article
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a

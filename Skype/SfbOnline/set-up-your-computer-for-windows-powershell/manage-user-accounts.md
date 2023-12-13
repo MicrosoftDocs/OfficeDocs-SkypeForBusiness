@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Manage user accounts"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.topic: article
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b

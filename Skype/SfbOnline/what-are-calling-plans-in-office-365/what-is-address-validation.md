@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "What is address validation?"
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

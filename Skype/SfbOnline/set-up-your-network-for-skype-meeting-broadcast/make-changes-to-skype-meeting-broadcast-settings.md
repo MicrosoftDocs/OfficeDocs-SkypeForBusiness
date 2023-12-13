@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Make changes to Skype Meeting Broadcast settings for your organization"
-ms.author: tonysmit
-author: tonysmit
+ms.author:
+author:
 manager: serdars
 ms.reviewer: micchan
 ms.topic: article

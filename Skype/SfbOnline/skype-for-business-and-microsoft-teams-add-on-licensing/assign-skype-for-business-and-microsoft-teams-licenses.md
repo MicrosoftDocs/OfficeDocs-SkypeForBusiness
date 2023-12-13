@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Assign Skype for Business licenses"
 ms.author: serdars
-author: tonysmit
+author:
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

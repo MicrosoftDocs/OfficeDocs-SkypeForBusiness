@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Blocked user licenses for Skype Meeting Broadcast"
-ms.author: tonysmit
-author: tonysmit
+ms.author:
+author:
 manager: serdars
 ms.reviewer: micchan
 ms.topic: article
