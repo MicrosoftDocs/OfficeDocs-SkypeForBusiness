@@ -1,5 +1,5 @@
 ---
-title:  What is changing in the new Teams
+title:  What is changing in the new Microsoft Teams
 ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
@@ -16,9 +16,10 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn what changes have been made in the new Microsoft Teams and how they compare to classic Teams.
-- Microsoft Teams
+appliesto: Microsoft Teams
 ms.localizationpriority: high
 ---
+
 # Features that are changing in the new Microsoft Teams
 
 
