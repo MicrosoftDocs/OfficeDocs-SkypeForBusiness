@@ -53,6 +53,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| March 30, 2024| 9 |
 | Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
 | AudioCodes C470HD   | `2.1.87`  |October 26, 2026  | 12 |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
@@ -315,6 +316,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Neat Frame nf21f1 | `NFF1.20230928.0015` | 2023 Update #2A |
+|Lenovo ThinkSmart View Plus | `10.1.t.2.44` | 2023 Update #2A|
 |Lenovo ThinkSmart View Plus | `10.1.t.2.38` | 2023 Update #2A|
 |Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2A|
 |Neat Frame nf21f1 | `NFF1.20230504.0023` | 2023 Update #2 |
@@ -337,6 +340,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2023 Update #3A  | December 11, 2023 | `1449/1.0.97.2023111003` | `5.0.5484.0` | `486`|
 |2023 Update #3  | August 28, 2023 | `1449/1.0.97.2023080401` | `5.0.5484.0` | `486`|
 |2023 Update #2  | April 19, 2023 | `1449/1.0.97.2023060102` | `5.0.5484.0` | `413`|
 |2023 Update #1  | April 19, 2023 | `1449/1.0.97.2023041403` | `5.0.5484.0` | `413`|
@@ -355,6 +359,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Poly TC10 | `5.0.1.211321` | 2023 Update #3 |
 |Yealink RoomPanel | ` 147.520.0.15 ` | 2023 Update #3 |
 |Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
