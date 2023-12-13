@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's Skype for Business Online users."
+description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get information about your organization's users."
 ---
 
 # Manage user accounts

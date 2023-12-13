@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams panels
-author: pamgreen
-msauthor: pamgreen
+author: mstonysmith
+msauthor: tonysmit
 manager: pamgreen
 ms.reviewer: weizxue
 ms.date: 02/15/2021
