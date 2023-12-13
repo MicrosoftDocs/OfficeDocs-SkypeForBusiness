@@ -3,8 +3,8 @@ title: "Call park and retrieve in Microsoft Teams"
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.reviewer: 
-ms.date: 12/13/2018
+ms.reviewer: roykuntz
+ms.date: 12/13/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,7 +28,7 @@ description: Learn about how to use call park and retrieve to place a call on ho
 
 # Configure Call park and retrieve
 
-Call park and retrieve lets a user place a call on hold. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code with a supported app or device to retrieve the call. (For more information, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).)
+Call park and retrieve lets a user place a call on hold. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code with a supported app or device to retrieve the call. (For more information, see [Park a call in Teams](https://support.office.com/article/8538c063-d676-4e9a-8045-fc3b7299bb2f).)
 
 Some of the common scenarios for using call park are:
 
@@ -40,7 +40,7 @@ Some of the common scenarios for using call park are:
 
 To park and retrieve calls, a user must be an Enterprise Voice user and must be included in a call park policy.
 
-By default, the range of call pickup numbers is from 10-99. You can also create your own custom range between 10-9999. The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code. After which, the rendered pickup codes start over from the start of the range once again. 
+By default, the range of call pickup numbers is from 10-99. You can also create your own custom range between 10-9999. The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code. After which, the rendered pickup codes start over from the start of the range once again.
 
 You can specify a timeout as the number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds, and the default value is 300 seconds.
 
@@ -57,9 +57,9 @@ To create a new call park policy instance:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 
-2. On the **Manage policies** tab, click **Add**.
+2. On the **Manage policies** tab, select **Add**.
 
-3. Give the policy a name, and then switch **Allow call park** to **On**.
+3. Give the policy a name, and then switch **Call park** to **On**.
 
 4. Change the range and park timeout as required.
 
@@ -95,7 +95,7 @@ To manage call park and retrieve policies by using PowerShell, use the following
 
 - [Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
 
-### Examples
+### PowerShell examples
 
 #### New custom call park policy
 
@@ -129,8 +129,8 @@ The following example removes the call park policy:
 PS C:\> Remove-CsTeamsCallParkPolicy -Identity "SalesPolicy"
 ```
 
-## Related topics
+## Related articles
 
-[Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+[Park a call in Teams](https://support.office.com/article/8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
