@@ -55,6 +55,7 @@ Microsoft has validated the video encoders for live streaming with Teams in the 
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Hardware|✔️|
 |Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Service||
 |Magewell Ultra Encode AIO              |[Magewell Ultra Encode AIO](https://www.magewell.com/ultra-encode-aio) |Hardware|✔️|
+|Matrox Monarch EDGE Series             |[Matrox Monarch EDGE Series](https://video.matrox.com/en/products/encoders-decoders/monarch-edge-series) |Hardware|✔️*|
 |Newtek TriCaster 2 Elite               |[Newtek TriCaster 2 Elite](https://www.vizrt.com/products/tricaster/tricaster-2-elite/) |Hardware||
 |Open Broadcaster Software (OBS Studio) |[Open Broadcaster Software](https://obsproject.com/) |Software||
 |Socialive                              |[Socialive](https://socialive.us/) |Service||
@@ -63,6 +64,8 @@ Microsoft has validated the video encoders for live streaming with Teams in the 
 |Teradek Prism Flex                     |[Teradek Prism Flex](https://teradek.com/pages/prism) |Hardware|✔️|
 |vMix                                   |[vMix](https://www.vmix.com/) |Software||
 |XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Software||
+
+*Native caption support coming soon
 
 ### Event Setup
 
