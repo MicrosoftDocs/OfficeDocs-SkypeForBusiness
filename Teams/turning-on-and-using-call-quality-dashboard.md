@@ -2,9 +2,9 @@
 title: Call Quality Dashboard (CQD) setup
 author: mkbond007
 ms.author: mabond
-manager: serdars
-ms.reviewer: mikedav, siunies, gageames
-ms.date: 11/28/2017
+manager: pamgreen
+ms.reviewer: mikedav, siunies, gageames, jamp
+ms.date: 12/12/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams

@@ -287,6 +287,8 @@ items:
           href: block-access-sharepoint.md
         - name: Teams meeting add-in security when using your Outlook client
           href: teams-meeting-addin-security-with-outlook.md
+        - name: Remove external chat for a user
+          href: security-remove-external-chat.md
     - name: Compliance
       items: 
         - name: Auditing
@@ -573,6 +575,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: Manage chat blocking
+          href: block-incoming-chats.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -945,7 +949,7 @@ items:
           items: 
             - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Plan call routing flow
+            - name: Routing calls with Auto attendants and Call queues
               href: plan-your-call-routing-flow.md
             - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md
@@ -971,7 +975,7 @@ items:
           href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
-        - name: Configure call settings for your users
+        - name: Configure call forwarding and delegation settings
           href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md

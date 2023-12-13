@@ -2,7 +2,7 @@
 title: Health and usage reports
 author: altsou
 ms.author: altsou
-manager: serdars
+manager: pamgreen
 ms.date: 04/07/2022
 ms.reviewer: altsou
 ms.topic: article
@@ -21,6 +21,7 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
+
 # Health and usage reports
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
@@ -88,7 +89,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all Microsoft Teams Rooms Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -148,13 +149,16 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 
 |Column|Description|
 |---|---|
-|Utilization|Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours|
+|Utilization|Percentage of time the room was booked during business hours (Max of 8hours/ per day) in the selected period.  Utilization= (total hours)/ (number of selected days set in the report * 8).   Ex: Time period set to 7 days in the report. The room was booked for 5 days during that period and the total hours= 8*5 = 40 hours. In this case, utilization = (8*5)/ (7*8) = 40/56= 71%|
 |Booked online|Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80%|
 |Scheduled meetings|Absolute number of meetings scheduled in the room|
 |Total calls|Absolute number of calls with the room as a participant.|
-Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
+|Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
+> > [!NOTE]
+> > The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 

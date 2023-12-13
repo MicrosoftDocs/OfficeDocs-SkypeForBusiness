@@ -2,7 +2,7 @@
 title: How Exchange and Microsoft Teams interact
 author: JoanneHendrickson 
 ms.author: jhendr 
-manager: serdars
+manager: jtremper
 ms.date: 08/10/2017
 ms.topic: conceptual
 audience: admin

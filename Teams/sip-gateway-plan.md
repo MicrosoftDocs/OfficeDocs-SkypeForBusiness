@@ -2,7 +2,7 @@
 title: Plan SIP Gateway
 author: tonysmit
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 08/22/2023
 ms.topic: article
 ms.service: msteams
@@ -113,15 +113,15 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
 |          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Edge E100  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E220  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E300  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E320  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E350  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E400  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E450  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E500  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E550  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E100<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E220<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E300<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E320<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E350<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E400<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E450<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E500<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E550<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
 |          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
@@ -243,7 +243,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
-|**Alcatel**|       |     |              |                |   |
+|**Alcatel-Lucent Enterprise**|       |     |              |                |   |
 |          |M3          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
 |          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
 |          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |

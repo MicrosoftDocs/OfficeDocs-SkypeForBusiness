@@ -2,7 +2,7 @@
 title: What is Microsoft Intelligent Camera
 ms.author: tonysmit
 author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: vishnuna
 ms.date: 08/18/2023
 ms.service: msteams
