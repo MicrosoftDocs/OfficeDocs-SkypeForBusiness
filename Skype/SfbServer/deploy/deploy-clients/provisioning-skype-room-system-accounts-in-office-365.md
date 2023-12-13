@@ -139,7 +139,8 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
     
    ```powershell
-   	Update-MgUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
+    Connect-MgGraph -Scopes "User.ReadWrite"
+   	Update-MgUser -UserId confrm1@skypelrs.onmicrosoft.com -PasswordPolicies "DisablePasswordExpiration"
    ```
 
 For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
