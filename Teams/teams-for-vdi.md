@@ -524,6 +524,7 @@ The following calling and meeting features are not supported:
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
 - QoS
 - Gallery View 3x3
+- Users can't upload their own video backgrounds
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
