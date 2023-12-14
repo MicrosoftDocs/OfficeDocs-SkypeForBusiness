@@ -1,6 +1,6 @@
 ---
 title: Teams Rooms certified systems and peripherals
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 11/13/2023

@@ -1,7 +1,7 @@
 ---
 title: "Step 5 - Turn off password expiration"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work

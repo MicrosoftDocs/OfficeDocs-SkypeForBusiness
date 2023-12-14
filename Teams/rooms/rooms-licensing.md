@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms licenses
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: kspiess
 ms.date: 08/1/2023
