@@ -72,6 +72,8 @@ To manage audio conferencing bridges with PowerShell, use the **`-CsOnlineDialIn
 
 For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge).
 
+To manage entry and exit announcements through PowerShell, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-csonlinedialinconferencingtenantsettings).
+
 ## Related articles
 
 - [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
