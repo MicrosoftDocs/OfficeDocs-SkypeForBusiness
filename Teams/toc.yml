@@ -83,6 +83,8 @@ items:
               items:
                 - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
+                - name: Features that are changing in new Teams
+                  href: new-teams-whats-changing.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -761,8 +763,6 @@ items:
               href: google-workspace-addon-teams.md
             - name: Island mode
               href: meeting-provider-islands-mode.md
-            - name: Teams meetings on unsupported browsers
-              href: unsupported-browsers.md
 
         - name: Create a Teams hybrid meeting experience
           items:
@@ -854,7 +854,7 @@ items:
                   href: change-the-settings-for-an-audio-conferencing-bridge.md
                 - name: See a list of Audio Conferencing numbers
                   href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-                - name: Set Auto attendant languages for Audio Conferencing
+                - name: Set auto attendant languages
                   href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
                 - name: Set up meeting dial-out confirmation for your users
                   href: set-up-meeting-dial-out-confirmation.md

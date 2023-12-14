@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Configure presence privacy mode"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8

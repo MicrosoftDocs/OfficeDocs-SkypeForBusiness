@@ -1,7 +1,7 @@
 ---
 title: Multi-tenant customer management for partners
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 ms.date: 07/25/2022
 manager: pamgreen
 ms.reviewer: altsou
