@@ -28,7 +28,7 @@ description: "Learn how to select the audio conferencing auto attendant language
 
 # Set auto attendant languages for Audio Conferencing in Microsoft Teams
 
-The Audio Conferencing auto attendant for Microsoft Teams greets audio callers in different languages when they join a meeting.
+The Audio Conferencing auto attendant for Microsoft Teams can greet audio callers in different languages when they join a meeting.
   
 As an admin, you can choose one default and up to four alternate languages. The auto attendant uses your chosen default language first, followed by the alternate languages in the order that you picked.
   
