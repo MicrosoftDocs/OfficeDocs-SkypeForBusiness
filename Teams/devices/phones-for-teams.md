@@ -1,7 +1,7 @@
 ---
 title: Phones for Microsoft Teams
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: kponnus
 ms.date: 11/05/2018
