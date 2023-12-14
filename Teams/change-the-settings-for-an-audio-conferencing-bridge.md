@@ -52,6 +52,7 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
      When you turn on **Meeting entry and exit notifications**, you can select one of these options:
 
      - **Names or phone numbers**- When users join a meeting by dialing in, their phone number is played.
+       - Toggle **Ask callers to record their name before joining the meeting** **On** or **Off**. If you turn this off, callers aren't asked to record their name before they join a meeting.
 
      - **Tones**- When users join a meeting by dialing in, an audio tone is played.
 
@@ -61,6 +62,9 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
     For more information, see [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md).
 
 6. Select **Save**.
+
+ > [!NOTE]
+   > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
 
 ## Manage audio conferencing bridges with PowerShell
 
