@@ -16,7 +16,8 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Learn what changes have been made in the new Microsoft Teams and how they compare to classic Teams.
-appliesto: Microsoft Teams
+appliesto: 
+- Microsoft Teams
 ms.localizationpriority: high
 ---
 
