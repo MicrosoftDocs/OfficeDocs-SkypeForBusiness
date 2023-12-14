@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: Download and install the Skype for Business Online Connector module
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 9c1cc3dc-7d6d-43ca-8e4a-7763a3f78cb3
