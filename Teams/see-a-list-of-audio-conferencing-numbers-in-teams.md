@@ -28,13 +28,13 @@ description: Learn how to look up the dial-in conferencing numbers that are avai
 
 # See a list of Audio Conferencing numbers in Microsoft Teams
 
-When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
+When you set up Audio Conferencing for your Microsoft Teams users, you can see the phone numbers that are available to them for audio conferencing. This list has all the audio conferencing phone numbers that are available to your organization.
 
 **Looking for prices?** Review the **Audio Conferencing rates** section in [Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
-If there's only one phone number available in your organization, its used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number is included in Microsoft Teams meeting invitations.
+When there's only one phone number available in your organization, it serves as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. The default number is included in Microsoft Teams meeting invitations.
   
-You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.
+To change the dial-in phone number for a single user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -47,3 +47,7 @@ Using the Microsoft Teams admin center:
 2. View the phone numbers that are available for audio conferencing.
 
       - You can also see the location and primary language that the audio conferencing auto attendant uses.
+
+## Related topics
+
+- [Change the settings for an audio conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
