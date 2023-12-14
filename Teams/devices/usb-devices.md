@@ -1,7 +1,7 @@
 ---
 title: Phones and Devices for Microsoft Teams
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: slamprianou
 ms.date: 11/02/2023
