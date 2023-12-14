@@ -83,6 +83,8 @@ items:
               items:
                 - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
+                - name: Features that are changing in new Teams
+                  href: new-teams-whats-changing.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client

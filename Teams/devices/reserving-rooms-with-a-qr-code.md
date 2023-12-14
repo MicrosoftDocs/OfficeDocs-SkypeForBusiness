@@ -1,7 +1,7 @@
 ---
 title: Reserve a room from a Teams Panel
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: weizxue
 ms.date: 08/18/2023
 manager: pamgreen
