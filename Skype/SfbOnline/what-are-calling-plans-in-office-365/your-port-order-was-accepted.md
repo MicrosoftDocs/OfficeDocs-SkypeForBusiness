@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Your port order was accepted"
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

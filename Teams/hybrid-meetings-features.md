@@ -1,7 +1,7 @@
 ---
 title: "Step 1 - Get familiar with Teams meeting features"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
