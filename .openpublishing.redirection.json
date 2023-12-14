@@ -4712,8 +4712,8 @@
   },
   {
     "source_path": "Teams/unsupported-browsers",
-        "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
-        "redirect_document_id": false
+    "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
+    "redirect_document_id": false
   }
  ] 
 }
