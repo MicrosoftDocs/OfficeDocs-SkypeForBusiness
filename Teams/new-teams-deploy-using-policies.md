@@ -200,7 +200,8 @@ Get-AppxPackage *MSTeams*|Remove-AppxPackage
 
 End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
 
-Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams. 
+>[Note!]
+>Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams. 
 
 
 **Migrated settings**
@@ -226,8 +227,3 @@ Local settings that are automatically migrated when switching from classic Teams
 ||File open preference: Always open word/ppt/excel files in... |
 |Custom Background image files |On-disk image files |
 |Call/Meeting Stage|Background Effects, blur |
-
-**When settings won't be migrated**
-
-- If new Teams is sideloaded or not launched via the classic Teams App Switcher flows
-- Any incremental changes made to settings in classic Teams after the initial switch to new Teams.
