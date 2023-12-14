@@ -31,7 +31,6 @@ As we improved the client, the experience also improved to align with similar fe
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, or work location (remote or office).|
 |Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
-
 |Ability to save messages and files in Teams|The Save feature is no longer available, but will be replaced with a new feature in the future. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. |
 |Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
