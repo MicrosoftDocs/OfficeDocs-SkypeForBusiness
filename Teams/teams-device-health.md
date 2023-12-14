@@ -1,7 +1,7 @@
 ---
 title: Managing the health of Teams devices
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.topic: article
 ms.service: msteams

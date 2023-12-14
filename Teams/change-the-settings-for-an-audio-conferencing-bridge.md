@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 12/11/2023
+ms.date: 12/13/2023
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -40,7 +40,7 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## Using the Microsoft Teams admin center
+## Manage audio conferencing bridges in the Teams admin center
 
 1. Go to **Meetings** > **Conference bridges**.
 
@@ -62,9 +62,9 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 
 6. Select **Save**.
 
-## Want to know how to manage with Windows PowerShell?
+## Manage audio conferencing bridges with PowerShell
 
-To manage whether conference bridges, use the **`-CsOnlineDialInConferencingBridge`** cmdlet.
+To manage audio conferencing bridges with PowerShell, use the **`-CsOnlineDialInConferencingBridge`** cmdlet.
 
 For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge).
 
