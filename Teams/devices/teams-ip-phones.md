@@ -48,8 +48,7 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-> [!NOTE]
-> The certification end date for Android 9 Teams audio phones has been extended to March 30, 2024. There are exceptions to this and they are marked with '*'. For more information, see [0427 Product Notice - EoS for Specific IP Phone Models](https://www.audiocodes.com/media/ts4ojh4n/0427-product-notice-eos-for-specific-ip-phone-models.pdf)".
+> The certification end date for Android 9 Teams audio phones has been extended to March 30, 2024. There are exceptions to this and they are marked with '*'.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -83,7 +82,7 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
-> [!NOTE]
+
 > The certification end date for Android 9 based devices has been extended to November 5, 2023.
 > The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
@@ -92,14 +91,11 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 | Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
 | Yealink DeskVision A24  | `156.15.0.20` | September 3, 2025 | 10 |
 | Neat Frame | `NFF1.20220914.1210` | September 3, 2025 | 10 |
-| Crestron UC-P8-TD |`1.0.0.42`| November 5, 2023  |  9  |
-| Crestron UC-P10-TD |`1.0.0.42`| November 5, 2023  |  9  |
 
 ## Certified Teams panels
 
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-> [!NOTE]
 > The certification end date for Android 9 based devices has been extended to November 5, 2023.
 > The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
 
