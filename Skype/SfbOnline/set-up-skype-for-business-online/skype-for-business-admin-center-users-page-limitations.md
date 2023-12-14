@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Skype for Business Online admin center users page limitations"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f

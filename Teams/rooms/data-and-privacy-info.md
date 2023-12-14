@@ -1,7 +1,7 @@
 ---
 title: Data and Privacy Information
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.date: 06/01/2022
 ms.reviewer: 
