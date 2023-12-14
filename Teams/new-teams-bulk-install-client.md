@@ -148,7 +148,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 To uninstall and deprovision the new Teams for all users, use the following command: 
 
 ```powershell
-./teamsbootstrapper -x
+.\teamsbootstrapper.exe -x
 ```
 
 ## End user experience:  Launching the new Teams 
