@@ -78,7 +78,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
 
-\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Webinars
 
@@ -124,7 +124,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Edit town hall emails |  | ✔️ |
 | View live translated captions in 10 languages |  | ✔️ |
 
-\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
 
