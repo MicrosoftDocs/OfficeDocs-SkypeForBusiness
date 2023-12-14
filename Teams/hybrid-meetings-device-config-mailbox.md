@@ -1,7 +1,7 @@
 ---
 title: "Step 4 - Configure mailbox properties"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
