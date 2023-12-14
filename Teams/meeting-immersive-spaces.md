@@ -32,7 +32,7 @@ To set up immersive spaces in Teams, you should:
 
 Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-face connections. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
 
-:::image type="content" alt-text="Immersive spaces view selector in Teams View menu" source="media/meeting-immersive-spaces-view-selector.png" lightbox="media/meeting-immersive-spaces-view-selector.png":::
+:::image type="content" alt-text="Immersive spaces view selector in Teams View menu." source="media/meeting-immersive-spaces-view-selector.png" lightbox="media/meeting-immersive-spaces-view-selector.png":::
 
 Use your avatar and join with a Meta Quest VR device to bring even more richness to the experience.  To learn more, [set up avatars for Microsoft Teams](meeting-avatars.md).
 
@@ -98,7 +98,7 @@ The Mesh app is by default allowed in the Teams admin center. If you want to all
 1. Under **Microsoft apps**, select **Block specific apps and allow all others**.
 1. Search for and select the **Mesh** app, then select **Block**.
 
-    :::image type="content" alt-text="Block the immersive spaces app in permissions policies window in teams admin center" source="media/meetings-immersive-spaces-block-app2.png" lightbox="media/meetings-immersive-spaces-block-app2.png":::
+    :::image type="content" alt-text="Block the immersive spaces app in permissions policies window in teams admin center." source="media/meetings-immersive-spaces-block-app2.png" lightbox="media/meetings-immersive-spaces-block-app2.png":::
 
 > [!NOTE]
 > Users may need to restart Teams for the App setup policy to take effect.
