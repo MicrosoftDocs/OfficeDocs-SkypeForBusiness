@@ -229,6 +229,22 @@ You can use the Teams admin center to control which third-party e-signature prov
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
 
+## Approvals - Parent App integration
+
+For teachers and admins using Teams for education, they can use [Parent App](/https://aka.ms/parentapp) to update the contact information for class students’ parents. 
+
+Admins can use the approvals app to view and approve/ reject the request raised by schoolteachers to update the parent contact information accordingly. Once admin approves this request, the new contact details will start reflecting inside the parent app and allow teachers to communicate with the parent.
+
+### Frequently Asked Questions:
+
+#### Question: How does the teacher track the status of the approval request?
+
+The teacher can navigate to the Approvals app within Teams -> Select “sent” tab -> Select Filter and search by title “Approval request to update Parent/Guardian details”. This allows a view of all sent requests for parent information update.
+
+#### Question: How long does it take for new contact details to reflect inside the Parent App?
+
+Once the admin has approved the request, new contact details should be available after 60 minutes.
+
 ## Give feedback or report an issue
   
 To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.
