@@ -110,18 +110,14 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 Turning on this setting sends calls through the Public Switched Telephone Network (PSTN) and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
 
-### Music on hold for PSTN calls
-
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features. Read more about how to [configure custom music](music-on-hold.md).
-
 ### Busy on busy during calls
 
-Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default. This setting does not apply to incoming group call or meeting join request. 
+Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default. This setting does not apply to incoming group call or meeting join request.
 
 - **Off** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
 - **On** New or incoming calls will be rejected with a busy signal.
 - **Use unanswered settings** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **Let users decide** Users can determine their busy options choice from call settings in the Teams app. 
+- **Let users decide** Users can determine their busy options choice from call settings in the Teams app.
 
 ### Web PSTN calling
 
