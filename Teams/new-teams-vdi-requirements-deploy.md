@@ -275,19 +275,17 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
 ## New Teams and Outlook integration
  
-When the "Register the new Teams as the chat app for Microsoft 365" checkbox is marked under Settings/General/System,
-this allows the new Teams client to integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP and so on).
-For example, Outlook goes through the following discovery process to integrate with the default IM client application
-Integrating IM applications with Office | Microsoft Learn
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
+
+For example, Outlook goes through the discovery process outlined here to integrate with the default IM client application:  [Integrating IM applications with Office](/office/client-developer/shared/integrating-im-applications-with-office#discovering-the-im-application)
  
+>[!Note]
+>If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
  
->[!Note]If the new Teams is installed on a virtual machine where the classic Teams is not installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
- 
- 
-Additionally, the new Teams MSIX package bundles the Teams Meeting Add-In MSI ("MicrosoftTeamsMeetingAddinInstaller.msi").
-The teamsbootstrapper.exe installer will install this msi machine-wide for all users.
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). The teamsbootstrapper.exe installer installs this msi machine-wide for all users.
+
 Installation logs for this MSI are stored here:
-AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
  
  
 ## Troubleshooting new Teams and Outlook integration
@@ -296,9 +294,9 @@ AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \
 
 You see any of the following issues when you check the presence status for a user in Outlook:
 
-- The presence indicator is not visible.
+- The presence indicator isn't visible.
 - The displayed presence is incorrect.
-- The presence status is Status unknown.
+- The presence status is **Status unknown**.
  
 #### Troubleshooting steps
 
@@ -319,7 +317,7 @@ You see any of the following issues when you check the presence status for a use
   -Name: UpAndRunning
   -Type: REG_DWORD
   -Data: 2
-  -(0—Not running , 1—Starting , 2—Running)
+  -(0—Not running, 1—Starting, 2—Running)
 
 6. If the issues persist, contact Microsoft Support.
 
