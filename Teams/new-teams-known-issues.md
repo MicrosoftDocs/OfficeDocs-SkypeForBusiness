@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 12/13/2023
+ms.date: 12/15/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -24,11 +24,11 @@ ms.localizationpriority: high
 
 - Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
-- Detecting multiple languages for spellchecker isn't currently available. 
-- Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
-- Some spellchecker suggestions can be inaccurate. A Windows fix is pending, with an estimated rollout date of January.
+- Detecting multiple languages for spell checker isn't currently available. 
+- On Windows, spell checking is limited to English (United States) dictionaries. Until this is fixed, users can disable spell checking from the settings page.
+- Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users may choose to disable spell checking from the settings page until then.
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
-- Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
+- Producing a Teams Live Event isn't currently available; you need to switch back to classic Teams.
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
 
@@ -41,7 +41,7 @@ ms.localizationpriority: high
 
 ## Coming in January
 
-- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
+- Custom backgrounds for announcement posts in channels is delayed in *Teams for Education* pending the availability of policy controls.
 
 ## What features are changing?
 
