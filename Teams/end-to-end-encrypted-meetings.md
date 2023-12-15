@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: maahma
-ms.date: 12/11/2023
+ms.date: 12/15/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -64,19 +64,19 @@ The following features aren't available during an end-to-end encrypted meeting:
 
 If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. An individual who needs compliance recording can't join an end-to-end encrypted meeting. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 
-## Enable end-to-end encryption for meetings
+## Manage who can create meetings with end-to-end encryption
 
-By default, end-to-end encryption for meetings isn't enabled. You can enable it by using a Teams admin enhanced encryption policy.
+End-to-end meeting encryption is controlled by Teams admin enhanced encryption policies. It is on by default in the Global (Org-wide default) policy, giving meeting organizers who have a Teams Premium license the ability to schedule meetings, including channel meetings, that use end-to-end encryption. You can update the default policy or create additional policies as needed to manage end-to-end meeting encryption for different users.
 
-Once end-to-end encryption is enabled, meeting organizers have the option of choosing end-to-end encryption then they create a meeting, including channel meetings. You can also enforce end-to-end encryption by using a meeting template. Note that sensitivity labels can enforce end-to-end encryption even if the Teams admin enhanced encryption policy isn't enabled for the meeting organizer.
+If the policy is turned on for a meeting organizer, you can enforce end-to-end meeting encryption by using a meeting template. Sensitivity labels can enforce end-to-end encryption even if the policy isn't enabled for the meeting organizer.
 
-To enable end-to-end encryption for meetings
+To manage the end-to-end meeting encryption policy
 
 1. In the Teams admin center, select **Enhanced encryption policy**.
 
 1. Select the policy you want to update.
 
-1. Set **End-to-end meeting encryption**, to **Not enabled, but users can enable**.
+1. Set **End-to-end meeting encryption**, to **Not enabled** or **Not enabled, but users can enable**.
 
 1. Select **Save**.
 
