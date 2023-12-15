@@ -273,7 +273,51 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
+## New Teams and Outlook integration
+ 
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is marked under Settings/General/System,
+this allows the new Teams client to integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP and so on).
+For example, Outlook goes through the following discovery process to integrate with the default IM client application
+Integrating IM applications with Office | Microsoft Learn
+ 
+ 
+>[!Note]If the new Teams is installed on a virtual machine where the classic Teams is not installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
+ 
+ 
+Additionally, the new Teams MSIX package bundles the Teams Meeting Add-In MSI ("MicrosoftTeamsMeetingAddinInstaller.msi").
+The teamsbootstrapper.exe installer will install this msi machine-wide for all users.
+Installation logs for this MSI are stored here:
+AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+ 
+ 
+## Troubleshooting new Teams and Outlook integration
 
+**Symptoms:** You see any of the following issues when you check the presence status for a user in Outlook:
+- The presence indicator is not visible.
+- The displayed presence is incorrect.
+- The presence status is Status unknown.
+ 
+**Troubleshooting steps:**
+1. Make sure new Teams is running. Then launch Outlook.
+2. Check the registry settings on your computer to verify that new Teams is registered as the default instant messaging (IM) app.
+- Start Registry Editor.
+- Locate the following subkey:
+  - HKEY_CURRENT_USER\Software\IM Providers
+- Verify the following values:
+  - Name: DefaultIMApp
+  - Type: REG_SZ
+  - Data: MsTeams (If you see Teams, it means classic Teams is still the default IM app)
+
+4. Locate the following subkey:
+  - HKEY_CURRENT_USER\Software\IM Providers\MsTeams   (Outlook monitors this registry key for value changes)
+
+5. Verify the following values:
+  -Name: UpAndRunning
+  -Type: REG_DWORD
+  -Data: 2
+  -(0—Not running , 1—Starting , 2—Running)
+
+6. If the issues persist, contact Microsoft Support.
 
 
 ## Control fallback mode in Teams
@@ -294,7 +338,7 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 - Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
 - HID support in headsets
-- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1)
+- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). This issue is now fixed on new Teams version 23320.3021.2567.4799 or higher.
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
