@@ -71,7 +71,6 @@ The following camera models when deployed in a Microsoft Teams Room on Windows w
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
-- Huddly IQ
 - Huddly L1
 - Jabra PanaCast 
 - Lenovo ThinkSmart Cam 
@@ -107,7 +106,7 @@ To switch off Cloud IntelliFrame in a room, perform the following steps:
 1. Add the following element in the *SkypeSettings.xml* file.
 
    ```XML
-   <EnableCloudIntelliFrame>false</EnableCloudIntelliFrame>
+   <EnableCloudIntelliframe>false</EnableCloudIntelliframe>
    ```
 
 1. Restart the console for the configuration changes to take effect.
