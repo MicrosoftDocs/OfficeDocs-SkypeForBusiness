@@ -231,17 +231,17 @@ E-signature approvals created from the Approvals app are stored in the selected 
 
 ## Approvals - Parent App integration
 
-For teachers and admins using Teams for education, they can use [Parent App](/https://aka.ms/parentapp) to update the contact information for class students’ parents. 
+Teachers and admins using Teams for education can use the [Parent App](/https://aka.ms/parentapp) to update the contact information for class students’ parents. 
 
-Admins can use the approvals app to view and approve/ reject the request raised by schoolteachers to update the parent contact information accordingly. Once admin approves this request, the new contact details will start reflecting inside the parent app and allow teachers to communicate with the parent.
+Admins can use the approvals app to view and approve or reject the request raised by schoolteachers to update the parent contact information accordingly. Once the admin approves this request, the new contact details will reflect in the parent app and allow teachers to communicate with the parent.
 
 ### Frequently Asked Questions:
 
 #### Question: How does the teacher track the status of the approval request?
 
-The teacher can navigate to the Approvals app within Teams -> Select “sent” tab -> Select Filter and search by title “Approval request to update Parent/Guardian details”. This allows a view of all sent requests for parent information update.
+The teacher should navigate to the Approvals app within Teams. Select **Sent** > **Filter** and search for the title **Approval request to update Parent/Guardian details**. This allows a view of all sent requests for parent information updates.
 
-#### Question: How long does it take for new contact details to reflect inside the Parent App?
+#### Question: How long does it take for new contact details to reflect in the Parent App?
 
 Once the admin has approved the request, new contact details should be available after 60 minutes.
 
