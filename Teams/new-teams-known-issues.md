@@ -31,6 +31,8 @@ ms.localizationpriority: high
 - Producing a Teams Live Event isn't currently available; you need to switch back to classic Teams.
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
+- New Teams client is not respecting the date time formats set in the OS. This affects both 12h/24h time formatting as well as date formatting in the product. A fix is pending; check back for updates.
+ 
 
 ## Coming in December
 
