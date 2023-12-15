@@ -292,12 +292,16 @@ AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \
  
 ## Troubleshooting new Teams and Outlook integration
 
-**Symptoms:** You see any of the following issues when you check the presence status for a user in Outlook:
+#### Symptoms:
+
+You see any of the following issues when you check the presence status for a user in Outlook:
+
 - The presence indicator is not visible.
 - The displayed presence is incorrect.
 - The presence status is Status unknown.
  
-**Troubleshooting steps:**
+#### Troubleshooting steps
+
 1. Make sure new Teams is running. Then launch Outlook.
 2. Check the registry settings on your computer to verify that new Teams is registered as the default instant messaging (IM) app.
 - Start Registry Editor.
@@ -338,7 +342,7 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 - Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
 - HID support in headsets
-- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). This issue is now fixed on new Teams version 23320.3021.2567.4799 or higher.
+- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
