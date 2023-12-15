@@ -4,7 +4,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
-ms.date: 06/27/2023
+ms.date: 12/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -69,12 +69,4 @@ When you select **Choose a custom color**, a color chooser opens. Select the col
 
 ## Complete the customization of your team apps store
 
-When you've finished customizing your apps store, select **Save** to save your changes.
-To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
-
-:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot showing an example of a customized apps store.":::
-
-<!--- confirm:
-> [!NOTE]
-> The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
---->
+When you've finished customizing your apps store, select **Preview** to see a representation of your customized apps store. Select **Save** to save your changes.
