@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Customize meeting invitations"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 9af52080-dd56-4b66-b056-41ed1a7aaae3

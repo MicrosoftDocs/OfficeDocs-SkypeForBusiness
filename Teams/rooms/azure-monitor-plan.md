@@ -1,7 +1,7 @@
 ---
 title: Plan Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: tjaved
 ms.date: 11/02/2023
 manager: pamgreen
