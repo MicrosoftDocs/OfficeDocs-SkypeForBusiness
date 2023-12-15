@@ -69,7 +69,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 720. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
 
 ### Recommended resolutions
 
@@ -82,9 +82,9 @@ The recommended custom background resolution for front-of-room displays and touc
   - 16:9 displays - 1280 x 720
   - 16:10 displays - 1280 x 800
   - 3:2 displays - 1920 x 800
-- Touch board
-  - 16:9, 4K-enabled displays – 3840 x 2160
-  - 3:2, 4K-enabled displays – 3840 x 2560
+- Touch boards
+  - 16:9 (4K-enabled displays) – 3840 x 2160
+  - 3:2 (4K-enabled displays) – 3840 x 2560
 
 If you're not sure what the aspect ratio of your display is, check your display's specifications.
 
@@ -104,9 +104,9 @@ The graphics and text you place on your custom backgrounds needs to follow conte
 - Content remains legible when placed in front of visual elements in the custom background
 - Content remains visible if a custom background is cropped
 
-The following guidelines apply for both front-of-room and touch console displays:
+The following guidelines apply for front-of-room, touch console, and touch board displays:
 
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
+- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and tips in those locations.
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
 If you want to set up two front-of-room displays, both displays need to have an aspect ratio of 16:9. When you have two front-of-room displays, the right one is the "main" display while the left one is the "extended" display.
@@ -184,7 +184,7 @@ When you create a custom background, avoid placing text, logos, or icons, on the
 
 ### Custom background template
 
-To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://microsoft-my.sharepoint-df.com/personal/crystalchu_microsoft_com/_layouts/15/onedrive.aspx).
+To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/en-us/download/details.aspx?id=105251).
 
 The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
@@ -232,18 +232,6 @@ Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines diffe
 
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
-**16:9 - Single front-of-room display dimensions**
-
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
-
-**16:9 - Dual front-of-room display dimensions**
-
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
-
-**21:9 - Single front-of-room display dimensions**
-
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
-
 #### Front-of-room displays
 
 When you create a custom background, use the following guidelines:
@@ -256,7 +244,21 @@ When you create a custom background, use the following guidelines:
     - **Size**: 650 x 90
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
-  
+
+Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`.
+
+**16:9 - Single front-of-room display dimensions**
+
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+
+**16:9 - Dual front-of-room display dimensions**
+
+:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+
+**21:9 - Single front-of-room display dimensions**
+
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+
 #### Touch board displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
@@ -278,14 +280,9 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 :::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions.":::
 
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
-- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
-
-Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`.
-
 ### Custom background template
 
-To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://microsoft-my.sharepoint-df.com/personal/crystalchu_microsoft_com/_layouts/15/onedrive.aspx).
+To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/en-us/download/details.aspx?id=105251).
 
 The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
