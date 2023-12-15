@@ -2,7 +2,7 @@
 title: Upgrade from the Teams Exploratory trial
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.topic: reference
 audience: Admin
 ms.reviewer: 

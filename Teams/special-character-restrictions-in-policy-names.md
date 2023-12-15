@@ -1,7 +1,7 @@
 ---
 title: Special character restrictions in Teams policies
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: jastark
 ms.date: 07/03/2018

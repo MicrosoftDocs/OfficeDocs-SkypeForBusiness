@@ -1,8 +1,8 @@
 ---
 title: Remote sign in and sign out for Teams Android devices
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 10/10/2023
 ms.topic: article

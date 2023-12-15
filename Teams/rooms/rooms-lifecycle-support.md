@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Rooms app version support
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
+author: mstonysmith
+ms.reviewer: raginis
 ms.date: 10/04/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

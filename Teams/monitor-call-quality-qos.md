@@ -1,8 +1,8 @@
 ---
 title: 'Monitor and improve call quality for Microsoft Teams'
-author: MicrosoftHeidi
-ms.author: heidip
-manager: Serdars
+author: CarolynRowe
+ms.author: crowe
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

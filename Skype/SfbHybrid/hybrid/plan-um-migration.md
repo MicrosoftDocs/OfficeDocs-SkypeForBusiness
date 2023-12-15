@@ -2,9 +2,9 @@
 ms.date: 07/02/2018
 title: Plan for Skype for Business Server and Exchange Server migration 
 ms.reviewer: 
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars 
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro 
 f1.keywords:
 - NOCSH

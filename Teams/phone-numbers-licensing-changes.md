@@ -2,7 +2,7 @@
 title: "Phone numbers and licensing changes"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 07/28/2021
 ms.topic: conceptual

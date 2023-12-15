@@ -4,7 +4,7 @@ ms.reviewer: roykuntz
 ms.date: 08/15/2023
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams

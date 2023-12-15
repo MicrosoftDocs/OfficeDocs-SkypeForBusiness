@@ -2,7 +2,7 @@
 title: Configure an Exchange hybrid organization
 author: JoanneHendrickson 
 ms.author: jhendr 
-manager: serdars
+manager: jtremper
 ms.date: 09/25/2017
 ms.topic: article
 audience: admin

@@ -2,9 +2,9 @@
 title:  Manage who can schedule town halls in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: sachung
-ms.date: 10/09/2023
+ms.date: 11/8/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -57,24 +57,16 @@ The following table shows the behaviors of the settings for the **`-AllowTownhal
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| Users with this policy can create town halls. |
+|Enabled| **This is the default.** Users with this policy can create town halls. |
 |Disabled| Users with this policy can't create town halls.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
-For more information on PowerShell cmdlets for Teams webinars, see the [Related topics](#related-topics) section.
-
-### Turn on town halls
-
-To turn on town halls, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Enabled
-```
+For more information on PowerShell cmdlets for Teams town halls, see the [Related topics](#related-topics) section.
 
 ### Turn off town halls
 
-To turn off town halls, use the following script:
+To prevent organizers with this policy from creating town halls, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
@@ -82,7 +74,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 
 ### Disable public town halls
 
-To disable public town halls, use the following script:
+To prevent organizers with this policy from scheduling public town halls, use the following script:
 
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
@@ -93,18 +85,18 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompa
 
 ## Related topics
 
-[Manage email communications for town halls and webinars placeholder](manage-email-communications.md)
+- [Plan for town halls](plan-town-halls.md)
 
-[Set up webinars](set-up-webinars.md)
+- [Meetings, webinars, and live events overview](quick-start-meetings-live-events.md)
 
-[Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+- [Feature comparison](meeting-webinar-town-hall-feature-comparison.md)
 
-[New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
+- [New-CsTeamsEventsPolicy](/powershell/module/teams/new-csteamseventspolicy)
 
-[Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 
-[Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
+- [Grant-CsTeamsEventsPolicy](/powershell/module/teams/grant-csteamseventspolicy)
 
-[Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
+- [Get-CsTeamsEventsPolicy](/powershell/module/teams/get-csteamseventspolicy)
 
-[Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)
+- [Remove-CsTeamsEventsPolicy](/powershell/module/teams/remove-csteamseventspolicy)

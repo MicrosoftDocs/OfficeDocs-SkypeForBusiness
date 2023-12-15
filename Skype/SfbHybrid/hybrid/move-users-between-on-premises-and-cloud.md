@@ -1,9 +1,9 @@
 ---
 ms.date: 06/22/2018
 title: "Move users between on-premises and cloud"
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:

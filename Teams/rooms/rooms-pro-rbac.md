@@ -1,8 +1,8 @@
 ---
 title: Role-based access control in the Microsoft Teams Rooms Pro Management Portal
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
 ms.date: 03/25/2020
 ms.topic: article

@@ -4,7 +4,7 @@ description: Learn about the resources available for building on the standard Te
 ms.topic: conceptual
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.date: 10/4/2023
 audience: admin
 f1.keywords:

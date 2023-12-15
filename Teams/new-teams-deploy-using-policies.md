@@ -2,16 +2,16 @@
 title:  Upgrade to the new Teams client using policies
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
-ms.date: 10/3/2023
+ms.date: 12/14/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
-ms.reviewer: dansteve
+ms.reviewer: 
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -28,11 +28,11 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 |Requirement|Version|
 |:-----|:-----|
-|Windows| Windows 10 version 10.0.19041 or higher|
+|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app. |
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
-|Delivery optimization (DO)|Learn more at [Delivery Optimization](/windows/deployment/do/waas-delivery-optimization)|
+|Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
 
 
 #### Required Microsoft 365 Apps Security Updates
@@ -40,8 +40,8 @@ You can upgrade to the new Teams client to your organization by setting policies
 |Channel|Version & Build|
 |:-----|:-----|
 |Semi-Annual Enterprise Channel| Version 2302 (Build 16130.20306)</br>Version 2208 (Build 15601.20578)|
-|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version2212 (Build 15928.20294)</br> |
-|Windows LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
+|Monthly Enterprise Channel|Version 2301 (Build 16026.20222)</br>Version 2212 (Build 15928.20294)</br> |
+|Office LTSB|Version 2018 (Build 10396.20023)</br>Version 2021 (Build 14332.20481)</br>|
 
 </br>
 
@@ -66,7 +66,7 @@ Configure setting via Teams Admin Center.
    |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
-   |**New Teams as default </br>Rollout for the feature began in early August, 2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
+   |**New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams as the default version. Users can switch back to classic Teams using the toggle.|
 
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
@@ -74,7 +74,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 2. Select **Teams > Teams Update policies** from the left navigation pane.
 3. Select **Add** to create a new policy or select an existing policy to open Update policy.
-4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown below.
+4. Name the update policy, add a description, and select the setting for “Use new Teams client”, as shown here.
 
 
    :::image type="content" source="media/new-teams-update-options.png" alt-text="update policies add a new policy":::
@@ -84,7 +84,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
 |New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
-|**Microsoft controlled**|**Default. Use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsof to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-schedule-for-clients).**|
+|**Microsoft controlled**|**Default. Use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsoft to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-schedule-for-clients).**|
 
 </br>
 
@@ -108,7 +108,7 @@ Select a policy to assign to the group.
 
 :::image type="content" source="media/new-teams-update-policies-manage-users.png" alt-text="update policy per user":::
 
-   If you update the policy setting in the Teams Admin Center, the new setting goes into effect within one minute. The user doesn't have to restart the app.
+   If you update the policy setting in the Teams Admin Center, the new setting can take up to 24 hours to go into effect. The user doesn't have to restart the app.
 
 # [**PowerShell**](#tab/powershell)
 
@@ -168,7 +168,7 @@ Grant-CsTeamsUpdateManagementPolicy -identity admin@contoso.org -PolicyName MySe
 ```
 
   > [!NOTE]
-  > This **new policy assignment method** should take effect within one minute. Users don't need to restart the app.
+  > Allow up to 24 hours for the **new policy assignment method** to go into effect. Users don't need to restart the app.
 
 ---
 
@@ -194,3 +194,35 @@ PowerShell cmdlet to remove new Teams from all users on all computers:
 Get-AppxPackage *MSTeams* -AllUsers |Remove-AppxPackage -AllUsers
 For an individual user without administrator privilege, use this command:
 Get-AppxPackage *MSTeams*|Remove-AppxPackage
+
+
+### User settings migration
+
+End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
+
+>[!Note]
+>Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams. 
+
+##### Migrated settings
+
+Local settings that are automatically migrated when switching from classic Teams to new Teams: 
+
+|Area|Item| 
+|:----|:-----|
+|General| Chat density |
+||Show message previews in your chat list |
+||App Language |
+| |> Display > Turn off animations |
+|Devices |Audio devices |
+| |> Audio devices > Speaker |
+| |> Audio devices > Microphone |
+| |Noise suppression |
+||High fidelity music mode |
+||Secondary ringer |
+| |Camera |
+||Automatically adjust mic sensitivity |
+|Files and Links| Downloads: Location |
+||Downloads: Always as where to save downloaded files |
+||File open preference: Always open word/ppt/excel files in... |
+|Custom Background image files |On-disk image files |
+|Call/Meeting Stage|Background Effects, blur |

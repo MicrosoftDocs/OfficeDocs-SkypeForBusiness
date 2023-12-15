@@ -1,12 +1,12 @@
 ---
 title: "Step 4 - Select devices that enable your space for hybrid meetings"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Learn about the various that can be used to create an immersive Teams Rooms meeting experience.

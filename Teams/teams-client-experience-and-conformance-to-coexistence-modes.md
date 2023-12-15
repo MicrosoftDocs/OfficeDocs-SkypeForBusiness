@@ -1,8 +1,8 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen

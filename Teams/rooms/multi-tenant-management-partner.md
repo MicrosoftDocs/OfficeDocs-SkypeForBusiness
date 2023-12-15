@@ -1,9 +1,9 @@
 ---
 title: Multi-tenant customer management for partners
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 ms.date: 07/25/2022
-manager: serdars
+manager: pamgreen
 ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud

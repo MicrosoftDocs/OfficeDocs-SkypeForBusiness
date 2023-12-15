@@ -1,10 +1,10 @@
 ---
 title: What is Call Quality Dashboard (CQD)?
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
-ms.reviewer: mikedav, siunies, gageames
-ms.date: 06/09/2020
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
+ms.reviewer: mikedav, siunies, gageames, jamp
+ms.date: 12/12/2023
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -30,7 +30,7 @@ description: Learn about Call Quality Dashboard (CQD) and how to use it to  see 
 
 # What is Call Quality Dashboard (CQD)?
 
-The Microsoft Call Quality Dashboard (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - shows call and meeting quality, at an **org-wide level**, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019. 
+The Microsoft Call Quality Dashboard (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - shows call and meeting quality, at an **org-wide level**, for Microsoft Teams, and Skype for Business Server. 
 
   
 The latest version of CQD features a [near-real-time (NRT) data feed](CQD-data-and-reports.md), which means that call records are available in CQD within 30 minutes of the end of a call.

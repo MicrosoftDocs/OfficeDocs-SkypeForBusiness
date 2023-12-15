@@ -1,12 +1,12 @@
 ---
 title: "Step 7 - Manage and monitor your Teams meeting space"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Maintain your Teams Room space and devices post-deployment.

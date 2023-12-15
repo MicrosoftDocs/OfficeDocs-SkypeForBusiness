@@ -105,14 +105,14 @@ Anything other than the operating systems that are listed here won't work correc
 There are some things that you must install or configure for any server that's running Skype for Business Server 2019. These things are listed in the following tables, followed by additional requirements for specific server roles.
 
 > [!IMPORTANT]
-> Skype For Business 2019 supports .Net Framework 4.8.
+> Skype For Business 2019 supports .Net Framework 4.8. and .Net Framework 4.8.1
   
  **All servers**
   
 |Software/role|Details|
 |:-----|:-----|
 |Windows PowerShell 3.0   |All Skype for Business Server servers must have Windows PowerShell 3.0 installed.  <br/> • PowerShell 3.0 should be installed by default with Windows Server 2016. |
-|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**. Initially, no downloads are needed. <br/> • When you install this feature, or if it's already installed and you're checking it, you must make sure that the **HTTP Activation** option is also selected and installed, as follows.<br/><br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/><br/> Don't worry if you get another pop-up window that states that some other things have to be installed in order for HTTP Activation to be installed. That's normal. Select OK and continue. If you don't get this pop-up window, you can assume that those things are already installed.  <br/> Microsoft .NET Framework is installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably have to update it. You can find the update [here](https://support.microsoft.com/topic/the-net-framework-4-7-offline-installer-for-windows-f32bcb33-5f94-57ce-6120-62c9526a91f2) |
+|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**. Initially, no downloads are needed. <br/> • When you install this feature, or if it's already installed and you're checking it, you must make sure that the **HTTP Activation** option is also selected and installed, as follows.<br/><br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/><br/> Don't worry if you get another pop-up window that states that some other things have to be installed in order for HTTP Activation to be installed. That's normal. Select OK and continue. If you don't get this pop-up window, you can assume that those things are already installed.  <br/> Microsoft .NET Framework is installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7, 4.8 or 4.8.1 though, so you'd probably have to update it. You can find the update [here](https://support.microsoft.com/topic/the-net-framework-4-7-offline-installer-for-windows-f32bcb33-5f94-57ce-6120-62c9526a91f2) |
 |Media Foundation   |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
 |Windows Identity Foundation   |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected,  all set. Otherwise, select it, and then select **Next** to reach the **Install** button.  |
 |Remote Server Administration Tools   |Role Administration Tools: AD DS and AD LDS tools   |
@@ -201,6 +201,12 @@ if ($exe -eq $null) {
   Exit
 }
 
+$existingProvider = Get-WebConfiguration -PSPath 'MACHINE/WEBROOT/APPHOST' -Filter "configProtectedData/providers/add[@name='$providerName']"
+if ($null -ne $existingProvider) { # Provider already exists
+  Write-Host "Script has already run. $providerName already exists. Exiting"
+  Exit 0
+} 
+
 & $exe.FullName -pc $keyContainerName -exp
 & $exe.FullName -pa $keyContainerName "BUILTIN\IIS_IUSRS"
 & $exe.FullName -pa $keyContainerName "NT SERVICE\WMSVC"
@@ -217,7 +223,8 @@ foreach ($ele in $applicationHostConfigFile.configuration.configProtectedData.pr
     $ele.SetAttribute("useFIPS", "true")
   }
 }
-$applicationHostConfigFile.Save($applicationHostConfigPath) 
+$applicationHostConfigFile.Save($applicationHostConfigPath)
+Write-Host "Script ran successfully. Key container $keyContainerName created. Provider $providerName added." 
 ```
 
 ## Back-end databases that work with Skype for Business Server 2019
@@ -567,7 +574,7 @@ Skype for Business Server 2019 can use the same file share for all file storage.
   
 - A file share has to be on either direct attached storage (DAS) or a storage area network (SAN). This requirement includes the Distributed File System (DFS) and also a redundant array of independent disks (RAID) for file stores. For more information about DFS for Windows Server 2012, see [DFS Namespaces and DFS Replication Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- We recommendthat you use a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions.
+- We recommend that you use a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions.
 
 > [!Note]
 > **Why the latest Windows?** Earlier versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares. For more information, see [How to create file shares on a cluster](https://support.microsoft.com/help/224967).
