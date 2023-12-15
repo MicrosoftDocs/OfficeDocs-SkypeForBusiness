@@ -1,6 +1,6 @@
 ---
 title: Configure SIP Gateway
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 11/02/2023

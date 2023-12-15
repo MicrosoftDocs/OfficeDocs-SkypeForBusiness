@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: sohailta
 ms.date: 11/01/2023
 manager: pamgreen
@@ -657,6 +657,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023111001](#144910962023120801-december-2023) | December 2023 |
+|[1449/1.0.96.2023111001](#144910962023111001-december-2023) | December 2023 |
 |[1449/1.0.96.2023090601](#144910962023090601-october-2023) | October 2023 |
 |[1449/1.0.96.2023062301](#144910962023062301-june-2023)     | June 2023        |
 |[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
@@ -677,6 +679,20 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023120801 (December 2023)
+
+Introduced in this update:
+
+- Bug fixes for app crashes and issues with daily maintenance restart window. 
+
+### 1449/1.0.96.2023111001 (December 2023)
+
+Introduced in this update:
+
+- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on it's local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- Bug fixes for app crashes and devices not showing up on Intune.
+- Significant reduction in sign out errors and pairing issues due to Workplace Join failures, timeout issues, and memory leaks. 
 
 ### 1449/1.0.96.2023090601 (October 2023)
 
@@ -730,9 +746,6 @@ Introduced in this update:
 ### 1449/1.0.96.2022120503 (December 2022)
 
 Introduced in this update:
-
-> [!NOTE]
-> This release is an app only update. Availability may vary depending on device model and make. Please work with device manufacturers to confirm app support timelines on your devices.
 
 - Whenever you want to brainstorm in the office, simply walk up and start whiteboarding using the new whiteboard button on the home screen. With just one touch, you can quickly launch Microsoft Whiteboard and start collaborating outside of a Teams meeting. Admins can enable and control this feature with the **Allow initiate Whiteboard** setting on the device.
 - Seamlessly switch from local to online collaboration by selecting Start meeting on the local whiteboarding screen. This quickly kicks off an ad-hoc meeting and automatically presents the existing whiteboard. From there, you can add participants into the meeting and contribute across the same whiteboard in real-time.

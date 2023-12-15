@@ -1,7 +1,7 @@
 ---
 title: Quality of service (QoS) configuration on Teams Rooms devices
-author: v-smandalika
-ms.author: v-smandalika
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.date: 09/01/2023
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Step 2 - Create a resource account"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
