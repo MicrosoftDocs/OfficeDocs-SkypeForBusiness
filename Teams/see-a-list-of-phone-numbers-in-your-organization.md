@@ -2,7 +2,7 @@
 title: "See a list of telephone numbers in your organization"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, roykuntz, jastark
 ms.date: 10/09/2023
 ms.topic: article

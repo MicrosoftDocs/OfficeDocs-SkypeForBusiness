@@ -2,7 +2,7 @@
 title: Manage chat in Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: heiris
@@ -90,11 +90,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Enabled
 ```
 
 To disable meeting chat for everyone with an assigned policy, run the following script:
-To disable meeting chat for everyone with an assigned policy, run the following script:
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
-```
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
 ```

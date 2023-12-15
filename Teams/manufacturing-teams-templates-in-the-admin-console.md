@@ -2,7 +2,7 @@
 title: Get started with manufacturing team templates in the admin center
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams

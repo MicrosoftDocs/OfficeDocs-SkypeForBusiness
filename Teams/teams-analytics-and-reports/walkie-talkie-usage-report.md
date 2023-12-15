@@ -2,7 +2,7 @@
 title: Walkie Talkie usage and performance report
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 audience: admin
 ms.topic: article
 ms.service: microsoft-365-frontline

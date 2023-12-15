@@ -1,8 +1,8 @@
 ---
 title: Audio Conferencing Dial-Out/Call Me At minutes
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 04/10/2019
 ms.topic: conceptual

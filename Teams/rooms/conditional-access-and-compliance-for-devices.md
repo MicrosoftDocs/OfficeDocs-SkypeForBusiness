@@ -1,10 +1,10 @@
 ---
 title: Conditional Access and compliance best practices for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 02/28/2022
-manager: serdars
+author: mstonysmith
+ms.reviewer: tjaved
+ms.date: 11/02/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams

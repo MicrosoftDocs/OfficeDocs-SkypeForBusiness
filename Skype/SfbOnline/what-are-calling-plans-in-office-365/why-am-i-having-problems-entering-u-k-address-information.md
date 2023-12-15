@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Why am I having problems entering U.K. address information?"
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

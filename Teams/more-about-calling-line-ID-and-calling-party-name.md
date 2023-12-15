@@ -2,7 +2,7 @@
 title: "More about Calling Line ID and Calling Party Name"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz, jenstr
 ms.date: 04/20/2018
 ms.topic: article

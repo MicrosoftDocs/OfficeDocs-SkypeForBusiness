@@ -4,7 +4,7 @@ description: Learn about the admin resources available to manage and get the mos
 ms.topic: conceptual
 author: MicrosoftHeidi
 ms.author: heidip
-manager: serdars
+manager: jtremper
 audience: admin
 ms.date: 10/20/2021
 f1.keywords:

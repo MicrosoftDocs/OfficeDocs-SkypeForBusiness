@@ -1,10 +1,10 @@
 ---
 title: Deploy Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
-ms.reviewer: sohailta
+ms.reviewer: kimmatlock
 ms.date: 08/29/2023
 ms.topic: quickstart
 ms.service: msteams

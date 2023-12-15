@@ -1,10 +1,10 @@
 ---
 title: Teams Rooms on Android app and firmware versions
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 10/04/2023
-manager: serdars
+author: mstonysmith
+ms.reviewer: divank
+ms.date: 11/04/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -54,6 +54,13 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar | `1.10.409`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
+| Logi RoomMate | `1.10.175`   | 2023 Update #2  |
+| Logi Rallybar Huddle | `1.10.277`   | 2023 Update #2  |
+| Logi Console  | `1.10.129`    | 2023 Update #2  |
+| Audiocodes RXV81 | `2.2.335` | 2023 Update #2 |
+| Audiocodes RX-Pad | `2.2.335` | 2023 Update #2 |
 | Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
 | Audiocodes RX-Pad | `2.2.311` | 2023 Update #2 |
 | Neat Bar | `NFB1.20230504.0021` | 2023 Update #2A |
