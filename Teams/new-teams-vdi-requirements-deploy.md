@@ -302,13 +302,13 @@ You see any of the following issues when you check the presence status for a use
 
 1. Make sure new Teams is running. Then launch Outlook.
 2. Check the registry settings on your computer to verify that new Teams is registered as the default instant messaging (IM) app.
-- Start Registry Editor.
-- Locate the following subkey:
-  - HKEY_CURRENT_USER\Software\IM Providers
-- Verify the following values:
-  - Name: DefaultIMApp
-  - Type: REG_SZ
-  - Data: MsTeams (If you see Teams, it means classic Teams is still the default IM app)
+  a. Start Registry Editor.
+  b. Locate the following subkey:
+    - HKEY_CURRENT_USER\Software\IM Providers
+  c. Verify the following values:
+    - **Name:** DefaultIMApp
+    - **Type:** REG_SZ
+    - **Data:** MsTeams (If you see Teams, it means classic Teams is still the default IM app)
 
 4. Locate the following subkey:
   - HKEY_CURRENT_USER\Software\IM Providers\MsTeams   (Outlook monitors this registry key for value changes)
@@ -316,8 +316,7 @@ You see any of the following issues when you check the presence status for a use
 5. Verify the following values:
   -Name: UpAndRunning
   -Type: REG_DWORD
-  -Data: 2
-  -(0—Not running, 1—Starting, 2—Running)
+  -Data: 2   (0—Not running, 1—Starting, 2—Running)
 
 6. If the issues persist, contact Microsoft Support.
 
