@@ -4,7 +4,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: jtremper
 ms.topic: article
-ms.date: 12/13/2023
+ms.date: 12/15/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -25,8 +25,8 @@ ms.localizationpriority: high
 - Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
 - Detecting multiple languages for spellchecker isn't currently available. 
-- Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
-- Some spellchecker suggestions can be inaccurate. A Windows fix is pending, with an estimated rollout date of January.
+- On Windows, spellchecking is limited to English (United States) dictionaries. Until this is fixed, users can disable spellchecking from the settings page.
+- Some spellchecker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users may choose disable spellchecking from the settings page until then.
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
 - Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
