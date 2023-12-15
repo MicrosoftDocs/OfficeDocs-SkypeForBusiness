@@ -288,7 +288,7 @@ Installation logs for this MSI are stored here:
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
  
  
-## Troubleshooting new Teams and Outlook integration
+### Troubleshooting new Teams and Outlook integration
 
 #### Symptoms:
 
