@@ -78,11 +78,11 @@ The recommended custom background resolution for front-of-room displays and touc
 - Single and dual front-of-room displays (per display)
   - 16:9 displays - 1920 x 1080 or 3840 x 2160 for 4K-enabled displays (up to two 16:9 displays are supported)
   - 21:9 displays - 2560 x 1080 or 3840 x 1645 for 4K-enabled displays (only one 21:9 display is supported)
-- Touch consoles
+- Touch console displays
   - 16:9 displays - 1280 x 720
   - 16:10 displays - 1280 x 800
   - 3:2 displays - 1920 x 800
-- Touch boards
+- Touch board displays
   - 16:9 (4K-enabled displays) – 3840 x 2160
   - 3:2 (4K-enabled displays) – 3840 x 2560
 
@@ -111,7 +111,7 @@ The following guidelines apply for front-of-room, touch console, and touch board
 
 If you want to set up two front-of-room displays, both displays need to have an aspect ratio of 16:9. When you have two front-of-room displays, the right one is the "main" display while the left one is the "extended" display.
 
-Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+Save the custom background image file in one of the following formats: `jpg`, `jpeg`, and `png`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
@@ -244,8 +244,6 @@ When you create a custom background, use the following guidelines:
     - **Size**: 650 x 90
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
-
-Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`.
 
 **16:9 - Single front-of-room display dimensions**
 
