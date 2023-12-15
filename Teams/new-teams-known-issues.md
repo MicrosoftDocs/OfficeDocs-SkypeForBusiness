@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 - Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
-- Detecting multiple languages for spell checker isn't currently available. 
+- Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - On Windows, spell checking is limited to English (United States) dictionaries. Until this is fixed, users can disable spell checking from the settings page.
 - Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users may choose to disable spell checking from the settings page until then.
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
