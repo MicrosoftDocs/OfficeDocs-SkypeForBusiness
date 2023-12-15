@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Configure presence in Skype for Business Online"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: ce59ac0b-8115-4c6b-8174-e3aef982d3cb
