@@ -2,7 +2,7 @@
 title: Advanced Communications add-on for Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.topic: reference
 audience: Admin
 ms.reviewer: nogaro

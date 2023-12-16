@@ -83,6 +83,8 @@ items:
               items:
                 - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
+                - name: Features that are changing in new Teams
+                  href: new-teams-whats-changing.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -575,8 +577,6 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
-        - name: Manage chat blocking
-          href: block-incoming-chats.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -761,8 +761,6 @@ items:
               href: google-workspace-addon-teams.md
             - name: Island mode
               href: meeting-provider-islands-mode.md
-            - name: Teams meetings on unsupported browsers
-              href: unsupported-browsers.md
 
         - name: Create a Teams hybrid meeting experience
           items:
@@ -854,7 +852,7 @@ items:
                   href: change-the-settings-for-an-audio-conferencing-bridge.md
                 - name: See a list of Audio Conferencing numbers
                   href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-                - name: Set Auto attendant languages for Audio Conferencing
+                - name: Set auto attendant languages
                   href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
                 - name: Set up meeting dial-out confirmation for your users
                   href: set-up-meeting-dial-out-confirmation.md
@@ -975,7 +973,7 @@ items:
           href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
-        - name: Configure call settings for your users
+        - name: Configure call forwarding and delegation settings
           href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md

@@ -1,6 +1,6 @@
 ---
 title: Teams Rooms certified systems and peripherals
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 11/13/2023
@@ -136,8 +136,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
 | DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
-| Yealink DeskVision A24 | `156.15.0.29` | September 3, 2024 | Phone room (2 m x 2 m) | 10 |
-| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
+| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | `1.1.0-1` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
 | :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 TC | `1.1.0-1` | September 3, 2024 | Compatible with :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | 10 |
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
@@ -152,26 +152,23 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2024 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
-| EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
-| EPOS EXPAND Vision 3T | `1.2.0.21102.03` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
 | Logitech Tap IP with RoomMate | `1.6.565` | September 3, 2024 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar & Neat Bar Pro | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2024 | Compatible with Neat Bar & Neat Bar Pro | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Logitech Tap Device | `1.2.982` | September 3, 2024 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| AudioCodes RXV80 | `1.9.155` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| Poly Studio X30 | `4.0.0.100885` | September 3, 2024 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Poly Studio X50 | `4.0.0.100885` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
+| Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
@@ -226,20 +223,21 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |
+| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; | &#x2714; |  | &#x2714; |
 | [Logitech Brio](https://www.logitech.com/product/brio) | V2.2.50 | &#x2714; |  |
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) | Rally Bar: </br> Logi CollabOS: 1.10.409 </br> System Image: 0.918.459 </br> Audio: 1.0.790 </br> Housekeeping: 1.1.79 </br> Pan & Tilt: 1.0.80 </br> Zoom & Focus: 1.0.79 </br> Sight: </br> Logi CollabOS: 1.10.208 </br> System Image: 0.901.258 |  | &#x2714; |
-| [Logitech Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
-| [Logitech Sight](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Rally Bar Mini: </br> Logi CollabOS: 1.10.409 </br> System Image: 0.918.459 </br> Audio: 1.0.790 </br> Housekeeping: 1.1.79 </br> Pan & Tilt: 1.1.29 </br> Sight: </br> Logi CollabOS: 1.10.208 </br> System Image: 0.901.258 |  | &#x2714; |
-| [Logitech Rally Bar Huddle](https://www.logitech.com/en-us/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
+| [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
+| [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: </br> Logi CollabOS: 1.10.208 |  | &#x2714; |
+| [Logitech Rally Bar Huddle](https://www.logitech.com/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 </br> System Image: 0.903.271 </br> Audio: 0.2.67 |  |  |
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
 | [Logitech Group](https://www.logitech.com/product/conferencecam-group) | 8.5.778 |  |  |
 | Logitech PTZ Pro | 1.1.219 |  |  |
-| [Logitech PTZ Pro 2](https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
-| [Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
+| [Logitech PTZ Pro 2](https://www.logitech.com/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
+| [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
 | Microsoft Surface Hub 3 50" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |

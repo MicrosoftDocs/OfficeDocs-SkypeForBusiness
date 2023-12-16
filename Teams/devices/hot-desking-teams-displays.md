@@ -1,6 +1,6 @@
 ---
 title: Hot desking Teams displays
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.topic: article
