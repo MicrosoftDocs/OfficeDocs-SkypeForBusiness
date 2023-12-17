@@ -290,7 +290,8 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
 - [Overview of app management and governance in Teams admin center](manage-apps.md)
 - [Information accessed and actions performed by apps and related admin considerations](app-permissions.md)
-- [View app permissions and grant admin consent in Teams admin center](app-permissions.md)
+- [View and understand app permissions](app-permissions.md)
+- [Grant and manage consent to app permissions](manage-consent-app-permissions.md)
 - [Resource-specific consent in Microsoft Teams](resource-specific-consent.md)
 - [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy)
 
