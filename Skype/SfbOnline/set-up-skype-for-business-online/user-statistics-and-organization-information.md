@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "User statistics and organization information"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
