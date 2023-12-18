@@ -35,11 +35,11 @@ The end of life program will conclude on July 31, 2021. When the program conclud
  
 - Users enabled for a third-party ACP service will no longer have their dial-in information automatically included in any new Skype for Business meeting invites.
 
-As part of the announcement of the start of the end of life program, the following change have taken effect and will continue to be in place until the conclusion of the end of life program: 
+As part of the announcement of the start of the end of life program, the following changes have taken effect and continue to be in place until the conclusion of the end of life program: 
 
-- Customers with no Skype for Business users configured to use a third-party ACP service will not be able to configure any users to use a third-party ACP service.
+- Customers with no Skype for Business users configured to use a third-party ACP service won't be able to configure any users to use a third-party ACP service.
 
-- Existing customers with Skype for Business users configured to use a third-party ACP service will continue to be able to add new users for the duration of the end of life period. Please note that we do not recommend setting up additional Skype for Business users to use a third-party ACP service, as the changes that will come into effect on July 31, 2021 will also apply to them.
+- Existing customers with Skype for Business users configured to use a third-party ACP service continues to be able to add new users during the end of life period. Note that we don't recommend setting up other Skype for Business users to use a third-party ACP service, as the changes that will come into effect on July 31, 2021 will also apply to them.
 
 ## Preparing for this change
 
@@ -55,9 +55,9 @@ Depending on the desired end state of an organization, there are three paths tha
 
 ### Path #1: Migrate to Microsoft Audio Conferencing   
 
-Organizations that decide to migrate to Microsoft Audio Conferencing and complete their migration prior to July 31, 2021, will not experience any service impact during or after that date. The migration to Microsoft Audio Conferencing will introduce the following changes to an organization: 
+Organizations that decide to migrate to Microsoft Audio Conferencing and complete their migration prior to July 31, 2021, won't experience any service impact during or after that date. The migration to Microsoft Audio Conferencing will introduce the following changes to an organization: 
 
-- The service will be billed with all other Microsoft 365 or Office 365 services. 
+- The service is billed with all other Microsoft 365 or Office 365 services. 
 
 - If the standard subscription is purchased, toll dial-in cost will be included in the per-user monthly subscription cost. 
 
@@ -65,7 +65,7 @@ Organizations that decide to migrate to Microsoft Audio Conferencing and complet
  
 - Meetings that have already been scheduled by users enabled with a third-party ACP will be automatically rescheduled to include Microsoft Audio Conferencing dial-in information.
  
-- The conference IDs of each meeting will be dynamic, meaning that each meeting will have its own dedicated conference ID. Dynamic conference IDs provide enhanced security and an improved experience for back-to-back meetings.
+- The conference IDs of each meeting are dynamic, meaning that each meeting will have its own dedicated conference ID. Dynamic conference IDs provide enhanced security and an improved experience for back-to-back meetings.
 
 - All usage of the service is subject to the Audio Conferencing services use terms. 
 
@@ -83,7 +83,7 @@ Migrating to Microsoft Audio Conferencing is simple, and it can be done in just 
 
 Organizations that decide to continue using a third-party ACP on and after July 31, 2021, will experience service impact because the third-party ACP dial-in information will no longer be able to be used to join the audio portion of a Skype for Business meeting. 
 
-To prevent the fragmentation of audio in Skype for Business meetings by having some participants joining via VoIP and other via the third-party ACP, it’s recommended for these organizations to disable using VoIP on their users’ meetings. This way, all participants will need to join the audio portion of a meeting using the third-party ACP and all other workloads of the meeting (such as chat or screen sharing) can continue to be supported over Skype for Business. 
+To prevent the fragmentation of audio in Skype for Business meetings by having some participants joining via VoIP and other via the third-party ACP, it is recommended for these organizations to disable using VoIP on their users’ meetings. This way, all participants will need to join the audio portion of a meeting using the third-party ACP and all other workloads of the meeting (such as chat or screen sharing) can continue to be supported over Skype for Business. 
 
 - To disable VoIP from all meetings of a given organizer, set the AllowIPAudio parameter of his or her Conferencing Policy to false via the Set-CsConferencingPolicy cmdlet. For additional information, see [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
