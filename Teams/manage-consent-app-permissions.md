@@ -28,13 +28,15 @@ ms.custom: seo-marvel-apr2020
 
 <!---
 
+Objective: Know controls and tools available to you to customize and manage consent. This will address your corner cases and help you get a full inventory of the tools at your disposal.
+
+
 Add content:
 1 para summary of permissions
-Link back to [View and understand app permissions](app-permissions.md)
+
 related articles from AAD:
-- Review and revoke granted consent
 - Grant consent by constructing your own AAD URL
-- Re-grant permissions after app update. Screenshot already available locally. Link to [conditions when an app update requires re-consenting](apps-update-experience.md)
+- Re-grant permissions after app update. Screenshot already available locally. Link to 
 - Consent for self vs for users when using the app (screenshot available locally)
 
  
@@ -47,15 +49,17 @@ Add this content later; move this list to an ADO:
 - Will the app completely stop working OR will it work with limited functionality if limited consent is granted? Example of both? Vantage Rewards continued to work but Talview stopped working.
 - Verify if delegated admin eval mentioned in AAD docs is applicable for Teams app or not.
 - How can users request admins for consent? Does consent workflow apply to Teams apps? https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/user-admin-consent-overview
- 
+- Add headings from here -> https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-consent-requests
+- What if net new RSC perms are added that users haven't consented to before?
+
+
 --->
 
-Examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
+Use of Teams apps can provide an incredible boost to the productivity of and collaboration between your organization's users. Teams apps bring information at the tips of your users, without any context switching, and help them do great work. As an admin, you play a critical role to empower your users with the right type of apps while balancing your company's need for security and compliance. Once you decide to approve the use of an app, you must make sure that the app adoption is smooth for the users.
 
-If you're a Global Administrator, you can review, and grant consent to apps that request permissions on behalf of all users in your organization. You do this so that users don't have to review and accept the permissions requested by the app when they start the app.
+A crucial part is to grant consent to the permissions that an app needs to work. You consent for approved apps so that each user in your organization doesn't have to review permissions and consent individually, when they start the app. A few examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more about permissions and consent, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
 
-On the [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) page, the **Permissions** column indicates whether an app has permissions that need consent. Click the **View details** link for an app to view its permissions registered in Microsoft Entra ID that need consent. The option to view details and grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
-
+To safeguard company's needs and adhere to its policies, only a Global Administrator can grant consent to apps permissions on behalf of all users in your organization. The option to view details and requirement to grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
 
 
 <!--- Where to mention this - in a new section about when users can consent to which permissions?
@@ -64,6 +68,35 @@ Additionally, depending on the [user consent settings](/azure/active-directory/m
 
 --->
 
+## View Microsoft Graph permissions requested by an app
+
+On the [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) page, the **Permissions** column indicates whether an app has permissions that need consent. Click the **View details** link for an app to view its permissions registered in Microsoft Entra ID that need consent. The option to view details and grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
+
+## Grant org-wide admin consent to an app's permissions
+
+Granting consent to such permissions allows an app to access your organization's information. Carefully review the permissions requested by the app before you grant consent. For more information, see [Teams apps permissions and consent](app-permissions.md). Only Global Administrators can grant consent to the Graph permissions that an app requests. Teams Administrators can view the required permissions in admin center and in the Microsoft Entra ID portal to help evaluate an app.
+
+To view and grant consent for all users in your organization, follow these steps:
+
+1. In Teams admin center, access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. Search for the required app and then do one of the following actions:
+    * Click the **View details** link in the Permissions column of the app, to open the **Permissions** tab.
+    * Select the app name to go to the app details page and select the **Permissions** tab.
+
+1. Under **Org-wide permissions**, select **Review permissions and consent**.
+
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app.":::
+
+1. In the dialog that opens, review the permissions requested by the app.
+
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
+
+1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions are granted for the app. The app now has access to the specified resources for all users in your organization for whom the app is allowed. Users aren't prompted now to review the permissions.
+
+After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted. If you want to view the app's permissions in Microsoft Entra ID, click the link to open the app's permissions in Microsoft Entra admin center.
+
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Entra after granting consent to Graph permissions.":::
 
 ## Let resource owners consent to RSC permissions
 
@@ -84,57 +117,53 @@ To accomplish this configuration, you must have a Global Administrator, Applicat
 
 This configuration applies to all Teams apps as all Teams apps are from verified publishers. Before an app developer can submit their app to Microsoft, a developer is required to undergo a verification. Publisher verification helps admins and users understand the authenticity of application developers. For more information, see [publisher verification](overview-of-app-certification.md).
 
-## Grant org-wide admin consent to app permissions
-
-Granting consent to such permissions allows an app to access your organization's information. Carefully review the permissions requested by the app before you grant consent. For more information, see [Teams apps permissions and consent](app-permissions.md). Only Global Administrators can grant consent to the Graph permissions that an app requests. Teams Administrators can view the required permissions in admin center and in the Microsoft Entra ID portal to help evaluate an app.
-
-To view and grant consent for all users in your organization, follow these steps:
-
-1. In Teams admin center, access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-1. Search for the required app and then do one of the following actions:
-    * Click the **View details** link in the Permissions column of the app, to open the **Permissions** tab.
-    * Select the app name to go to the app details page and select the **Permissions** tab.
-
-1. Under **Org-wide permissions**, select **Review permissions and consent**.
-
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app.":::
-
-1. In the dialog that opens, review the permissions requested by the app.
-
-    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
-
-1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
-
-After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, select the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
-
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot of message displayed when consent granted.":::
-
-If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll also see the same message to let you know that consent was granted and the Azure Active Directory link to the app's page in the Azure AD portal.
-
 ## View resource-specific consent permissions of an app
 
-RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular, Teams-specific permissions that define what an app can do in a specific resource. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+RSC permissions let team owners grant consent for an app to access and modify a team's data. RSC permissions are granular and specific to the Teams team in which an app is added. A few examples of RSC permissions are the ability to create and delete channels in a team, get the settings for a team, and create and remove channel tabs.
 
-RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+RSC permissions are defined in the app manifest and not in Microsoft Entra admin center. Users grant consent to RSC permissions when they add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-Global admins and Teams service admin can view RSC permissions for an app on the **Permissions** tab of the app details page.
+Global Administrators and Teams Administrators can view RSC permissions for an app on the **Permissions** tab of the app details page. To view RSC permissions for an app, follow these steps:
 
-To view RSC permissions for an app, follow these steps:
+1. In Teams admin center, go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-1. Search for the app you want, select the app name to go to the app details page, and then select the **Permissions** tab.
-1. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
+1. Search for the required app in the catalog.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
+1. Click the app name to go to the app details page and then select the **Permissions** tab. Alternately, click the **View details** link of the app.
 
+1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
+    :::image type="content" source="media/view-rsc-perms.png" alt-text="Screenshot showing an example of RSC permissions of an app in the Permissions tab.":::
 
+## Check and verify granted consent to permissions
 
+After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted.
 
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Entra after granting consent to Graph permissions.":::
 
+If you want to view the app's permissions in Microsoft Entra ID, select the link to open the app's permissions in Microsoft Entra admin center.
 
+:::image type="content" source="media/consented-perms-entra.png" alt-text="Screenshot showing Entra UI used to view and manage the granted consent to an app's permissions." lightbox="media/consented-perms-entra-large.png":::
 
+Select a permission to know more details about it.
+
+:::image type="content" source="media/graph-permission-details.png" alt-text="Screenshot showing details of a selected permission.":::
+
+## Revoke granted consent to permissions
+
+To revoke the consent that you have granted to an app previously, follow these steps:
+
+1. In the Permissions tab, click the **Microsoft Entra ID** link to open the app's permissions in Microsoft Entra admin center.
+1. In the **Admin consent** tab, choose the permission you would like to revoke and then select the `...`.
+1. Select **Revoke Permission** and then select **Yes, revoke** in the confirmation dialog.
+
+If you revoke To again provide consent after you revoke it, see [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
+
+## Grant consent to new Graph permissions after an app update
+
+Developers update apps to add new functionality, enhance existing functionality, or fix bugs. Some app updates may add new permissions that were not part of the previous version of the app. If the developer adds any new permissions that require admin consent, you must consent to the new permissions. Re-consent flow is the same as described in [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
+
+To know about app changes that require consent from a user or an admin, see [conditions when an app update requires consenting](apps-update-experience.md). Depending on your organization's configuration, users may be able to grant consent to some types of permissions.
 
 ## Related articles
 
