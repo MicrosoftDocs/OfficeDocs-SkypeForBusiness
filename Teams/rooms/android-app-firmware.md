@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2B1  | Dec 14, 2023 |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
 | 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
@@ -54,6 +55,29 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Cisco Board Pro 55 | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Board Pro 75 | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Room Bar | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Room Kit Pro | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Desk Pro | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Room Bar Pro | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Room Kit EQ | `11.10.1.9` | 2023 Update #2B1 |
+| Cisco Navigator | `11.10.1.9` | 2023 Update #2B1 |
+| Yealink MeetingBar A10 | `278.320.0.32`   | 2023 Update #2B1  |
+| Yealink MeetingBar A20 | `133.320.0.35`   | 2023 Update #2B1  |
+| Yealink MeetingBar A30 | `133.320.0.35`   | 2023 Update #2B1  |
+| Yealink CTP18 | `137.320.0.40`   | 2023 Update #2B1  |
+| Yealink MeetingBoard 65" | `155.15.0.59` | 2022 Update #2B1 |
+| Yealink MeetingBoard 86" | `155.15.0.59` | 2022 Update #2B1 |
+| Poly Studio X52 | `4.1.2-388101` | 2023 Update #2B1 |
+| Poly TC10 | `4.1.2-211367` | 2023 Update #2B1 |
+| Poly Studio X30 | `4.1.2-388101` | 2023 Update #2B1 |
+| Poly Studio X50 | `4.1.2-388101` | 2023 Update #2B1 |
+| Poly Studio X70 | `4.1.2-388101` | 2023 Update #2B1 |
+| Poly Studio G7500 | `4.1.2-388101` | 2023 Update #2B1 |
+| Poly TC8 | `4.1.2-211367` | 2023 Update #2B1 |
+| DTEN D7X 75" |`1.4.5.2`   | 2023 Update #1C |
+| DTEN_MATE | `2.0.3.0` | 2023 Update #1C |
 | Logi Rallybar | `1.10.409`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
 | Logi RoomMate | `1.10.175`   | 2023 Update #2  |

@@ -2,6 +2,68 @@
 
 
 
+## Week of December 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/11/2023 | [Remove an external chat from a user's view in Microsoft Teams (admin)](/MicrosoftTeams/security-remove-external-chat) | modified |
+| 12/11/2023 | [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | modified |
+| 12/11/2023 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
+| 12/11/2023 | [Manage resource accounts for service numbers](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 12/11/2023 | [Set up Communications Credits for your organization](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modified |
+| 12/11/2023 | [Migrating from Skype for Business Online Connector to the Teams PowerShell module](/MicrosoftTeams/teams-powershell-move-from-sfbo) | modified |
+| 12/11/2023 | [Teams security best practices for safer messaging](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging) | modified |
+| 12/11/2023 | [What are Communications Credits?](/MicrosoftTeams/what-are-communications-credits) | modified |
+| 6/21/2023 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+| 12/11/2023 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
+| 12/11/2023 | [Enroll a Teams Room device into Pro Management](/MicrosoftTeams/rooms/enroll-a-device) | modified |
+| 12/11/2023 | [Find Teams Rooms devices with unsupported licenses](/MicrosoftTeams/rooms/license-check) | modified |
+| 12/11/2023 | [Block the download of Teams meeting recording files from SharePoint or OneDrive](/MicrosoftTeams/block-download-meeting-recording) | modified |
+| 12/11/2023 | [Configure the Microsoft Teams meeting lobby for sensitive meetings](/MicrosoftTeams/configure-lobby-sensitive-meetings) | modified |
+| 12/11/2023 | [Configure Teams meetings with baseline protection](/MicrosoftTeams/configure-meetings-baseline-protection) | modified |
+| 12/11/2023 | [Configure Teams meetings with protection for highly sensitive data](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | modified |
+| 12/11/2023 | [Configure Teams meetings with protection for sensitive data](/MicrosoftTeams/configure-meetings-sensitive-protection) | modified |
+| 12/11/2023 | [Configure Teams meetings with three tiers of protection](/MicrosoftTeams/configure-meetings-three-tiers-protection) | modified |
+| 12/11/2023 | [IT admins - Create a custom meeting template in Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | modified |
+| 12/11/2023 | [Overview of custom meeting templates in Microsoft Teams](/MicrosoftTeams/custom-meeting-templates-overview) | modified |
+| 12/11/2023 | [Require end-to-end encryption for sensitive Teams meetings](/MicrosoftTeams/end-to-end-encrypted-meetings) | modified |
+| 12/11/2023 | [Manage chat for sensitive Teams meetings](/MicrosoftTeams/manage-chat-sensitive-meetings) | modified |
+| 12/11/2023 | [Manage the meeting presentation experience for sensitive Teams meetings](/MicrosoftTeams/manage-meeting-presentation-experience) | modified |
+| 12/11/2023 | [Manage Microsoft Teams meeting recording options for sensitive meetings](/MicrosoftTeams/manage-meeting-recording-options) | modified |
+| 12/11/2023 | [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | modified |
+| 12/11/2023 | [New Teams for Web - Overview and prerequisites](/MicrosoftTeams/new-teams-web) | modified |
+| 12/11/2023 | [Require a watermark for sensitive Teams meetings](/MicrosoftTeams/watermark-meeting-content-video) | modified |
+| 12/12/2023 | [Manage voice applications policies for Microsoft Teams](/MicrosoftTeams/manage-voice-applications-policies) | modified |
+| 12/12/2023 | [Call sharing and group call pickup](/MicrosoftTeams/call-sharing-and-group-call-pickup) | modified |
+| 12/12/2023 | [Shared line appearance in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modified |
+| 12/12/2023 | [Configure call forwarding and delegation settings](/MicrosoftTeams/user-call-settings) | modified |
+| 12/13/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
+| 12/13/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+| 12/13/2023 | [What is changing in the new Microsoft Teams](/MicrosoftTeams/new-teams-whats-changing) | added |
+| 12/13/2023 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 12/13/2023 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
+| 12/13/2023 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 12/13/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 12/14/2023 | [Enable users to record their name for a meeting](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | modified |
+| 12/14/2023 | [See a list of Audio Conferencing numbers](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modified |
+| 12/14/2023 | [Set Audio Conferencing auto attendant languages](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modified |
+| 12/14/2023 | [Set up meeting dial-out-confirmation for your users in Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modified |
+| 12/14/2023 | [Turn on or off entry and exit announcements for meetings in Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | modified |
+| 12/14/2023 | Microsoft Teams meetings on unsupported browsers | removed |
+| 12/14/2023 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
+| 12/14/2023 | [What is changing in the new Microsoft Teams](/MicrosoftTeams/new-teams-whats-changing) | modified |
+| 12/14/2023 | [Set up immersive spaces for Teams](/MicrosoftTeams/meeting-immersive-spaces) | modified |
+| 12/14/2023 | [Upgrade to the new Teams client using policies](/MicrosoftTeams/new-teams-deploy-using-policies) | modified |
+| 12/15/2023 | [Customize your app store in Teams](/MicrosoftTeams/customize-your-app-store) | modified |
+| 12/15/2023 | [Create a call queue via cmdlets](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | modified |
+| 12/15/2023 | [Require end-to-end encryption for sensitive Teams meetings](/MicrosoftTeams/end-to-end-encrypted-meetings) | modified |
+| 12/15/2023 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 12/15/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 12/15/2023 | [Teams Rooms on Android app and firmware versions](/MicrosoftTeams/rooms/android-app-firmware) | modified |
+| 12/15/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
+
+
 ## Week of December 04, 2023
 
 
@@ -124,28 +186,3 @@
 | 11/17/2023 | [Teams Phone Direct Routing: Definitions and RFC standards](/MicrosoftTeams/direct-routing-protocols) | modified |
 | 11/17/2023 | [Emergency calling disclaimer labels](/MicrosoftTeams/emergency-calling-labels) | modified |
 | 11/17/2023 | [IP Relay in Canada - user guide](/MicrosoftTeams/ip-relay-canada-user-guide) | modified |
-
-
-## Week of November 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/6/2023 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 11/6/2023 | [Manage VOD publishing for webinars and town halls](/MicrosoftTeams/manage-vod-publishing) | modified |
-| 11/6/2023 | [Plan for Teams meetings](/MicrosoftTeams/plan-meetings) | modified |
-| 11/6/2023 | [Manage the attendance and engagement report for meetings and events in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
-| 11/6/2023 | [Create an auto attendant via cmdlets](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | modified |
-| 11/6/2023 | [Overview of the new Microsoft Teams client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
-| 11/7/2023 | [Microsoft Teams town hall usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-town-hall-usage-report) | added |
-| 11/7/2023 | [Upgrade to the new Teams client using policies](/MicrosoftTeams/new-teams-deploy-using-policies) | modified |
-| 11/7/2023 | [Microsoft Teams webinar usage report](/MicrosoftTeams/teams-analytics-and-reports/teams-webinar-usage-report) | modified |
-| 11/8/2023 | [Data, privacy, and security for intelligent recap in Teams Premium](/MicrosoftTeams/privacy/intelligent-recap) | added |
-| 11/8/2023 | [Manage who can schedule town halls in Microsoft Teams](/MicrosoftTeams/set-up-town-halls) | modified |
-| 11/8/2023 | [Deploy Microsoft Teams Rooms monitoring with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-deploy) | modified |
-| 11/9/2023 | [PowerShell cmdlet reference for Auto attendants and Call queues](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | modified |
-| 11/9/2023 | [Manage voice applications policies for Microsoft Teams](/MicrosoftTeams/manage-voice-applications-policies) | modified |
-| 11/9/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 11/9/2023 | [Set up a Microsoft Teams Auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 11/10/2023 | [Advanced collaboration analytics for Microsoft Teams](/MicrosoftTeams/advanced-collaboration-analytics) | modified |
-| 11/10/2023 | [Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels) | modified |
