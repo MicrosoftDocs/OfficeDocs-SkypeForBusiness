@@ -36,6 +36,8 @@ Customization in Teams meetings allows organizations to extend their visual iden
 
 By default, Teams premium licensed users who have been assigned a meeting customization policy can create meeting themes-enabled meetings. These meetings feature themes by default, and anyone who joins the meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
 
+:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
+
 > [!NOTE]
 > Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting. To stop displaying your images, you must delete the images from your meeting theme. To remove images from a meeting theme, navigate to the Meeting Customization Policy in the Teams Admin Center, select the chosen meeting theme, and select "Edit Meeting Theme”.
 
@@ -49,7 +51,7 @@ Before setting up meeting themes in Teams Meetings, check to make sure you have 
 
 ## Set up and manage meeting themes
 
-Meeting themes houses the following assets for your theme:
+Meeting themes house the following assets for your theme:
 
 - Logo - your organization's logo image.
 - Custom image - a brand image from your organization (custom images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)).
@@ -171,8 +173,6 @@ To support this use case, Tenant Admins can create two distinct customization po
 They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
 :::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
-
-:::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
 
 ## Where are meeting themes visible
 
