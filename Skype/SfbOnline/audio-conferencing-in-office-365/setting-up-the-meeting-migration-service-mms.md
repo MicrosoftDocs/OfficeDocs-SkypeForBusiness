@@ -43,24 +43,24 @@ By default, MMS is automatically triggered in each of these cases. In addition, 
 
 ## How MMS works
 
-When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have gone by. Once MMS processes the request, it performs the following tasks:
+When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have passed by. Once MMS processes the request, it performs the following tasks:
 
 1. It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.
 2. Based on the information found in the user’s mailbox, it either updates or schedules new meetings in Teams for that user, depending on the exact scenario.
 3. In the email message, it replaces the online meeting block in the meeting details.
-4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email.
+4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees receive a meeting update with updated meeting coordinates in their email.
 
     ![The meeting block that gets updated by MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
-From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.
+From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it periodically retries up to nine times over the span of 24 hours.
 
 **Notes**:
 
-- MMS replaces everything in the online meeting information block when a meeting is migrated. Therefore, if a user has edited that block, their changes will be overwritten. Any content they have in the meeting details outside of the online meeting information block won't be affected. This means any files attached to the meeting invite will still be included.
-- Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated. If a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated since there is no meeting in the original service.
+- MMS replaces everything in the online meeting information block when a meeting is migrated. Therefore, if a user has edited that block, their changes are overwritten. Any content they have in the meeting details outside of the online meeting information block won't be affected. This means any files attached to the meeting invite will still be included.
+- Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated. If a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated since there's no meeting in the original service.
 - Meeting content that was created or attached to the meeting (whiteboards, polls, and so on) won't be retained after MMS runs. If your meeting organizers have attached content to the meetings in advance, the content will need to be recreated after MMS runs.
-- The link to the shared meeting notes in the calendar item and also from within the Skype meeting also will be overwritten. Note that the actual meeting notes stored in OneNote will still be there; it is only the link to the shared notes that is overwritten.
-- Meetings with more than 250 attendees (including the organizer) won't be migrated.
+- The link to the shared meeting notes in the calendar item and also from within the Skype meeting are overwritten. The actual meeting notes stored in OneNote will still be there; it's only the link to the shared notes that is overwritten.
+- Meetings with more than 250 attendees (including the organizer) will not be migrated.
 - Some UNICODE characters in the body of the invite might be incorrectly updated to one of the following special characters: ï, ¿, ½, �.
 
 ## Triggering MMS for a user
@@ -69,20 +69,20 @@ This section describes what happens when MMS is triggered in each of the followi
 
 - When a user is migrated from on-premises to the cloud
 - When an admin makes a change to the user’s audio conferencing settings
-- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (using either Powershell or the Teams Admin Portal)
+- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (using either PowerShell or the Teams Admin Portal)
 - When you use the PowerShell cmdlet, Start-CsExMeetingMigration
 
 ### Updating meetings when you move an on-premises user to the cloud
 
 This is the most common scenario where MMS helps create a smoother transition for your users. Without meeting migration, existing meetings organized by a user in Skype for Business Server on-premises would no longer work once the user is moved online. Therefore, when you use the on-premises admin tools (either `Move-CsUser` or the Admin Control Panel) to move a user to the cloud, existing meetings are automatically moved to the cloud and converted to TeamsOnly.
 
-If the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.
+If the user is assigned an Audio Conferencing license before being moved to the cloud, the meetings are created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only one meeting migration is triggered.
 
 ### Updating meetings when a user's audio conferencing settings change
 
-In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
+In the following cases, MMS updates existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
 
-- When you assign or remove a Microsoft Audio Conferencing service license to a user, and that user is not enabled for a third-party audio conferencing provider.
+- When you assign or remove a Microsoft Audio Conferencing service license to a user, and that user isn't enabled for a third-party audio conferencing provider.
 - When you change the audio conferencing provider of a user from any other provider to Microsoft, provided the user is assigned a Microsoft Audio Conferencing license. For more information, see [Assign Microsoft as the audio conferencing provider](./assign-microsoft-as-the-audio-conferencing-provider.md). Also note that support for third party audio conferencing providers [ACP] is scheduled for end of life on April 1, 2019, as [previously announced](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md).
 - When you enable or disable audio conferencing for a user.
 - When you change or reset the conference ID for a user configured to use public meetings.

@@ -31,11 +31,11 @@ description: "Learn how to enable or disable anonymous callers from joining a me
 > [!Note]
 > For information about starting an Audio Conference without a PIN in Microsoft Teams, see [Start an Audio Conference over the phone without a PIN  in Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
-It might be frustrating for users who dial in to a meeting to be held in the meeting's lobby listening to music because the Skype for Business meeting organizer hasn't started the meeting. 
+It might be frustrating for users who dial in to a meeting to be held in the meeting's lobby listening to music because the Skype for Business meeting organizer has not started the meeting.
   
 If a meeting organizer calls in to the meeting, by default, a PIN is required to start a meeting. You can set it up so that anyone can dial in to a meeting and not be prompted for a PIN to start the meeting. You can use the Skype for Business admin center to enable or disable this setting for a single user.
   
-A PIN isn't required for the meeting organizer if someone has started the meeting from the Skype for Business app. A PIN is only required when a meeting organizer joins their meeting over a phone. The PIN for meetings is sent to the audio user when they are assigned the **Audio Conferencing** license and are enabled for Audio Conferencing. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) and [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
+A PIN isn't required for the meeting organizer if someone is starting the meeting from the Skype for Business app. A PIN is only required when a meeting organizer joins their meeting over a phone. The PIN for meetings is sent to the audio user when they're assigned the **Audio Conferencing** license and are enabled for Audio Conferencing. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) and [Emails that are automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -44,7 +44,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**. 
     
-2. In the list, select the user and in the Action pane click **Edit**. 
+2. In the list, select the user and in the Action pane select **Edit**.
     
 3. On the user's properties page, under **Meeting options**, select or clear **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
     
@@ -66,15 +66,15 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     
 - If anonymous access, or not requiring a PIN to start a meeting, is disabled:
     
-  - If the meeting hasn't started (there's no one in the meeting yet): A caller will be prompted if he's the organizer; if he says yes, he'll be prompted for his PIN, and after he inputs the PIN, the meeting will start and the user will join the meeting.
+  - If the meeting hasn't started (there's no one in the meeting yet): A caller will be prompted if they're the organizer; if they say yes, they'll be prompted for their PIN, and after they input the PIN, the meeting will start and the user can join the meeting.
     
-  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if he's the organizer and he'll never be prompted for the PIN; the meeting is already started, and the caller will join it.
+  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if they're the organizer and he'll never be prompted for the PIN; the meeting is already started, and the caller will join it.
     
 - If anonymous access, or not requiring a PIN to start a meeting, is enabled:
     
-  - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
+  - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if they're the organizer, and they'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting starts and the anonymous callers join the meeting.
     
-  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN,;the meeting is already started, and the caller will join it.
+  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if they're the organizer, and they'll never be prompted for the PIN,; the meeting is already started, and the caller joins it.
     
 ## Want to know how to manage with Windows PowerShell?
 

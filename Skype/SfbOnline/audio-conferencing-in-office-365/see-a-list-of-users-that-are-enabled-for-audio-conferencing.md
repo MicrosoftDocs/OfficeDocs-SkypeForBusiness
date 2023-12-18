@@ -31,7 +31,7 @@ description: "Learn how to view a list of users in your organization that are en
 > [!NOTE]
 > For information about enabled users in Microsoft Teams, see [See a list of users that are enabled for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-After you have enabled Skype for Business users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+After you enable Skype for Business users in your organization for Audio Conferencing, you can view the list of users who have been enabled. When you look at the list, you'll also see for each user in the list the type of audio conferencing provider that they're using, the default dial-in phone number for the user, and if your organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -43,11 +43,11 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## What else should I know?
 
-- When you view the list of users that are enabled, you can select a user from the list and use the Action pane to edit the audio conferencing settings for that user.
+- When you view the list of users that are enabled, you can select a user from the list.From the Action pane, you may edit the audio conferencing settings for that user.
     
 - When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.
     
-- When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they are set up).
+- When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they're set up).
     
 - You can use the filter options to show users that have:
     

@@ -31,17 +31,17 @@ description: "Learn how to enable or disable Skype from sending emails to users 
 > [!Note]
 > If you want to enable or disable sending emails in Microsoft Teams, see [Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
+Users are automatically notified by email when they're enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business users. In such cases, you can disable sending email.
   
 If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
   
-Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
+Here's an example of the email that is sent to users when they're enabled for Audio Conferencing:
   
 ![Audio Conferencing email.](../images/audio-conferencing-user-enabled.png)
   
 ## When are emails being sent to your users?
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- There are several emails that are sent to users in your organization after they're enabled for audio conferencing:
     
   - When an **Audio Conferencing** license is assigned to them.
     
@@ -63,14 +63,14 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
  
 ![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
-1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
+1. In the **Skype for Business admin center**, in the left navigation, select **Audio conferencing**.
     
 2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
-3. Click **Save**.
+3. Select **Save**.
     
     > [!TIP]
-    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
+    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN. For more information, see [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -87,7 +87,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
     
 ## What else should you know?
 
-- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
+- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you'll need to send it to the user in another way.
     
 - Sending email to your users can be disabled using the Skype for Business admin center or the Windows PowerShell.
     
@@ -103,7 +103,7 @@ You can use the Skype for Business admin center or Windows PowerShell to enable 
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
     
   - [Why you need to use Microsoft 365 or Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
