@@ -577,8 +577,6 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
-        - name: Manage chat blocking
-          href: block-incoming-chats.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -689,7 +687,7 @@ items:
               href: custom-meetings-overview.md
             - name: Manage and upload custom meeting backgrounds
               href: custom-meeting-backgrounds.md
-            - name: Meeting themes
+            - name: Create and manage meeting themes
               href: meeting-themes.md
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md

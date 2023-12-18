@@ -22,7 +22,7 @@ ms.custom:
 keywords: 
 ---
 
-# Step 5 - Overview
+# Overview
 
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 
