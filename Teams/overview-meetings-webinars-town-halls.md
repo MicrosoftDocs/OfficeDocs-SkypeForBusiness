@@ -129,7 +129,7 @@ The following table lists webinars training available to the end users in your o
 
 ## Town halls
 
-Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event format, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
+Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event formats, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
 
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
