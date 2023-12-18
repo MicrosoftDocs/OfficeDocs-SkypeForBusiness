@@ -102,10 +102,11 @@ Teams Premium offers additional webinar functionality through the Teams Premium 
 |Allow registered users to bypass the lobby         |✔️                      |✔️                          |
 |Assign a co-organizer                              |✔️                      |✔️                          |
 |Limit the number of people who can register        |✔️                      |✔️                         |
-|Require attendees to register                      |✔️                      |✔️                          |
-|Set up a green room for webinar presenters                      |✔️                     |✔️                          |
-|Turn on Q&A for webinars with up to 1,000 attendees |✔️                      |✔️                          |
-|View attendance reports                            |✔️                      |✔️                          |
+|Require attendees to register|✔️|✔️|
+|Set up a green room for webinar presenters |✔️|✔️ |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️ |✔️|
+|View attendance reports|✔️|✔️|
+|External presenters|✔️|✔️|
 |Create a webinar wait list                         |                       |✔️                          |
 |Limit the day and time when people can register    |                       |✔️                         |
 |Manage attendees’ view                             |                       |✔️                          |
@@ -137,23 +138,24 @@ Teams Premium offers additional town hall functionality through the Teams Premiu
 |Capability|Town halls|Premium town halls|
 |:------|:-----|:---------|
 |Broadcast capacity|10k|20k|
-|Attendee reporting|Yes|Yes|
+|Attendee reporting|✔️|✔️|
 |eCDN|3rd and 1st party|1st party|
 |Duration|30 hours|30 hours|
-|RTMP-in|Yes|Yes|
+|RTMP-in|✔️|✔️|
 |Producer UX|Manage what attendees see |Manage what attendees see |
-|Default audio and video off|Yes|Yes|
+|Default audio and video off|✔️|✔️|
 |Layouts|Focused curated view|Focused curated view|
-|Green room|Yes|Yes|
-|Manage what attendees see|Yes|Yes|
-|AI generated captions|Yes|Yes|
+|Green room|✔️|✔️|
+|External presenters|✔️|✔️|
+|Manage what attendees see|✔️|✔️|
+|AI generated captions|✔️|✔️|
 |Q&A capacity|10k|20k|
-|VOD|Yes|Yes|
-|Organizer level real time monitoring|No|Yes|
-|Essential emails|Yes|Yes|
-|Email editing|No|Yes|
+|VOD|✔️|✔️|
+|Organizer level real time monitoring|✖️|✔️|
+|Essential emails|✔️|✔️|
+|Email editing|✖️|✔️|
 
-## Best practices for large meetings
+## Best practices for large meetings and events
 
 This section provides guidance for admins, along with tips that admins can share with their presenters and organizers.
 
