@@ -1,9 +1,9 @@
 ---
-title: Meeting themes for Teams meetings
+title: Create and manage meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 10/23/2023
+ms.date: 12/18/2023
 ms.reviewer: nraghavan
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -19,10 +19,10 @@ f1.keywords:
   - CSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Using approved corporate assets like images and logos to create some custom meeting themes for Teams meetings within your organization.
+description: Using approved corporate branding assets like images and logos to create custom meeting themes for Teams meetings within your organization.
 ---
 
-# Meeting themes for Teams meetings
+# Create and manage meeting themes for Teams meetings
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
