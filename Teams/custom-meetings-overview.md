@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: margidesai, nraghavan
-ms.date: 04/17/2023
+ms.date: 12/18/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -19,10 +19,12 @@ f1.keywords:
 ms.custom:
 appliesto:
   - Microsoft Teams
-description: Learn the different customization options for meetings in Microsoft Teams, and where you can go for more detailed steps.
+description: Learn about the different customization options for meetings in Microsoft Teams, and where you can go for more detailed steps. Learn about Teams meeting themes, custom meeting backgrounds, and meeting templates.
 ---
 
 # Teams Premium meetings customization options
+
+## Overview
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
@@ -34,12 +36,17 @@ Teams Premium meeting templates, meeting themes, and custom meeting backgrounds 
 
 To learn more about custom meeting templates in Microsoft Teams, see [Custom meeting templates](custom-meeting-templates-overview.md).
 
-**Meeting Themes:** Meeting themes allow admins to customize the visual appearance of the prejoin and lobby screens by applying a specific theme. Meeting themes consist of your organization’s brand colors, a custom image to represent your branding, and your organization’s logo.
+**Meeting Themes:** :::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
+Meeting themes allow admins to customize the visual appearance of the prejoin and lobby screens by applying a specific theme. Meeting themes consist of your organization’s brand colors, a custom image to represent your branding, and your organization’s logo.
 
 To learn more about meeting themes in Microsoft Teams, see [Meeting themes](meeting-themes.md).
 
-**Custom Meeting Backgrounds:** Custom meeting backgrounds allow admins to upload custom organizational images for end-users to use as virtual backgrounds during meetings. This feature helps users maintain privacy, reduce distractions, or add a touch of corporate unity to their meetings. You can use a user or group policy to assign unique corporate backgrounds to specific individuals or departments.
-If you’d like to customize the meeting experience for your users, you use custom meeting backgrounds. To customize the prejoin and lobby experience for your users, use meeting themes. For a cohesive prejoin and meeting experience, use both meeting themes and custom meeting backgrounds. To learn more about custom meeting backgrounds in Microsoft Teams, see [Custom meeting backgrounds](custom-meeting-backgrounds.md).
+**Custom Meeting Backgrounds:** :::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/custom-backgrounds-expand.png":::
+Custom meeting backgrounds allow admins to upload custom organizational images for their users to use as virtual backgrounds during meetings. This feature helps users maintain privacy, reduce distractions, or add a touch of corporate unity to their meetings. You can use a user or group policy to assign unique corporate backgrounds to specific individuals or departments.
+
+### Summary
+
+If you’d like to customize the meeting experience for your users, you use custom meeting backgrounds. To customize the pre-join and lobby experience for your users, use meeting themes. For a cohesive pre-join and meeting experience, use both meeting themes and custom meeting backgrounds. To learn more about custom meeting backgrounds in Microsoft Teams, see [Custom meeting backgrounds](custom-meeting-backgrounds.md).
 
 Together, these features enhance the virtual meeting experience by providing admins with greater control over the visual and structural aspects of their users’ meetings. Ultimately, customization makes meetings more engaging, productive, and professional.
 
