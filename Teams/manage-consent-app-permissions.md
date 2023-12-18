@@ -157,6 +157,8 @@ To revoke the consent that you have granted to an app previously, follow these s
 1. In the **Admin consent** tab, choose the permission you would like to revoke and then select the `...`.
 1. Select **Revoke Permission** and then select **Yes, revoke** in the confirmation dialog.
 
+   :::image type="content" source="media/consented-perms-entra-revoke.png" alt-text="Screenshot showing the option to revoke a Graph permission of an app from the Entra admin center.":::
+
 If you revoke To again provide consent after you revoke it, see [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
 
 ## Grant consent to new Graph permissions after an app update
