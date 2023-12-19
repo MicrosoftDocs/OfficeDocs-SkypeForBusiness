@@ -35,7 +35,7 @@ If you're deploying Skype for Business Online as part of Microsoft 365 or Office
 
 This document describes the network segments that can carry data for these call flows and helps you to understand which traffic remains local to your network compared to the traffic that travels over the Internet or through ExpressRoute. Knowing which traffic uses ExpressRoute helps you to assess the benefits that your company receives by using ExpressRoute, and helps you understand the ExpressRoute deployment guidance to validate and troubleshoot your deployment once you decide to use ExpressRoute.
 
-The call flows described here can be impacted by a variety of factors that are under your control, including firewall rules, NAT configuration, proxies, and router configuration. This document assumes that the recommended settings have been applied. These recommended settings are described in:
+The call flows described here can be impacted by various factors that are under your control, including firewall rules, NAT configuration, proxies, and router configuration. This document assumes that the recommended settings have been applied. These recommended settings are described in:
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
@@ -45,23 +45,23 @@ The call flows described here can be impacted by a variety of factors that are u
 
 - [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
 
-Setup and configurations that haven't followed the setup steps found in the documentation above can have different call flows than those we have documented here. Additionally, you may find yourself with configuration issues such as asymmetrical and non-optimal network routes, or non-optimal transport protocols. Asymmetrical routing is an important consideration whenever ExpressRoute is involved, because ExpressRoute introduces a second path to Office 365, which creates the possibility for a route that uses the Internet in one direction and another route that uses ExpressRoute in the other direction. This can result in traffic being blocked in the return direction if it traverses a stateful firewall.
+Setup and configurations that haven't followed the setup steps found in the documentation above can have different call flows than those we have documented here. Additionally, you may find yourself with configuration issues such as asymmetrical and nonoptimal network routes, or nonoptimal transport protocols. Asymmetrical routing is an important consideration whenever ExpressRoute is involved, because ExpressRoute introduces a second path to Office 365, which creates the possibility for a route that uses the Internet in one direction and another route that uses ExpressRoute in the other direction. This can result in traffic being blocked in the return direction if it traverses a stateful firewall.
 
 ## Network segments and traffic types
 
 ### Network Segments
 
-Before we can explain the call flow, we need to define some terms that will help you understand the network segments and types of media that are used in Skype for Business Online.
+Before we can explain the call flow, we need to define some terms that helps you understand the network segments and types of media that are used in Skype for Business Online.
 
 The call flow diagrams below show you four different network segments, each of which are managed by different organizations (your internal network, your network service provider, and their Internet peering partners, and Microsoft) that have different performance characteristics. For guidelines on network performance targets, refer to [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
 
-Below you can see each network segment that we will be talking about.
+Below you can see each network segment that we'll be talking about.
 
 ![Call Flow Network Segments.](../images/25689bf2-4753-4bea-b8d7-88dc8b6d2e2a.png)
 
  **Your network** This is the network segment that is part of your overall network that you control and manage. This includes all of your connections within your offices, whether wired or wireless, between office buildings, to on-premises datacenters, and your connections to Internet providers or ExpressRoute partners.
 
-Typically, the edge of your network has one or more DMZ with firewalls and/or proxy servers, which enforce your organization's security policies and that only allow certain network traffic that you have set up and configured. Because you manage this network, you have direct control over the performance of your network, and it is highly recommended that you complete network assessments to validate performance both within sites in your network and from your network to Skype for Business Online. To see the performance requirements, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
+Typically, the edge of your network has one or more DMZ with firewalls and/or proxy servers, which enforce your organization's security policies and that only allow certain network traffic that you have set up and configured. Because you manage this network, you have direct control over the performance of your network, and it's highly recommended that you complete network assessments to validate performance both within sites in your network and from your network to Skype for Business Online. To see the performance requirements, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
 
  **Internet** This is the network segment that is part of your overall network that will be used by users who are connecting to Skype for Business Online from outside of your network, and is used for all connections when ExpressRoute isn't configured. The Internet and all of its connections aren't managed by you or Microsoft, so performance and routing paths can't be determined, and this will have the greatest impact on overall call flow and quality.
 
