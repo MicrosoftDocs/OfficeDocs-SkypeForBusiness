@@ -36,7 +36,7 @@ Customization in Teams meetings allows organizations to extend their visual iden
 
 Only you and Teams Premium licensed users that you assign this custom background policy to can use custom meeting backgrounds during meetings. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
 
-:::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/custom-backgrounds-expand.png":::
+:::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of custom meeting backgrounds in a Teams meeting." lightbox="media/custom-backgrounds-expand.png":::
 
 ## Prerequisites
 
