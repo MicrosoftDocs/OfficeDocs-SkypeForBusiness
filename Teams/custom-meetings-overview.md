@@ -28,20 +28,26 @@ description: Learn about the different customization options for meetings in Mic
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Microsoft Teams custom meetings allow organizations to extend their visual identities and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s prejoin screen, lobby, and during the meeting experience.
+Microsoft Teams custom meetings allow organizations to extend their visual identities and compliance requirements across the meeting experience by adding logos and backgrounds that can be displayed in the meeting’s pre-join screen, lobby, and during the meeting experience.
 
 Teams Premium meeting templates, meeting themes, and custom meeting backgrounds are features of Teams that allow admins to customize virtual meetings to better suit the preferences and needs of their users.
 
-**Meeting Templates:** With meeting templates, you can preset many of the options that are available to meeting organizers. These options include security, audio and video, recording and transcription, and meeting engagement settings. This feature can save time and ensure consistency across meetings of a similar nature, such as team meetings or client check-ins.
+### Meeting Templates
+
+ With meeting templates, you can preset many of the options that are available to meeting organizers. These options include security, audio and video, recording and transcription, and meeting engagement settings. This feature can save time and ensure consistency across meetings of a similar nature, such as team meetings or client check-ins.
 
 To learn more about custom meeting templates in Microsoft Teams, see [Custom meeting templates](custom-meeting-templates-overview.md).
 
-**Meeting Themes:** :::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
+### Meeting Themes
+
+:::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
 Meeting themes allow admins to customize the visual appearance of the prejoin and lobby screens by applying a specific theme. Meeting themes consist of your organization’s brand colors, a custom image to represent your branding, and your organization’s logo.
 
 To learn more about meeting themes in Microsoft Teams, see [Meeting themes](meeting-themes.md).
 
-**Custom Meeting Backgrounds:** :::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/custom-backgrounds-expand.png":::
+### Custom Meeting Backgrounds
+
+ :::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of custom meeting backgrounds in a Teams meeting." lightbox="media/custom-backgrounds-expand.png":::
 Custom meeting backgrounds allow admins to upload custom organizational images for their users to use as virtual backgrounds during meetings. This feature helps users maintain privacy, reduce distractions, or add a touch of corporate unity to their meetings. You can use a user or group policy to assign unique corporate backgrounds to specific individuals or departments.
 
 ### Summary
