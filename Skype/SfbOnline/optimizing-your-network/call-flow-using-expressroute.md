@@ -29,11 +29,11 @@ description: "This article helps to explain the core call flow principles for Sk
 
 This article helps to explain the core call flow principles for Skype for Business Online and ExpressRoute, and gives you some detailed examples of call flows so you can understand and plan correctly.
 
-If you are deploying Skype for Business Online as part of Microsoft 365 or Office 365, Skype for Business Server Hybrid, or Skype for Business Cloud Connector Edition, you will need to understand the communication between the Skype for Business client and servers and the call flow so you can effectively plan, deploy, operate, and troubleshoot your Skype for Business Online services.
+If you're deploying Skype for Business Online as part of Microsoft 365 or Office 365, Skype for Business Server Hybrid, or Skype for Business Cloud Connector Edition, you'll need to understand the communication between the Skype for Business client and servers and the call flow so you can effectively plan, deploy, operate, and troubleshoot your Skype for Business Online services.
 
 ## Call flow overview
 
-This document describes the network segments that can carry data for these call flows and helps you to understand which traffic will remain local to your network compared to the traffic that will travel over the Internet or through ExpressRoute. Knowing which traffic uses ExpressRoute will help you to assess the benefits that your company will receive by using ExpressRoute, as well as help you understand the ExpressRoute deployment guidance to validate and troubleshoot your deployment once you've decided to use ExpressRoute.
+This document describes the network segments that can carry data for these call flows and helps you to understand which traffic remains local to your network compared to the traffic that travels over the Internet or through ExpressRoute. Knowing which traffic uses ExpressRoute helps you to assess the benefits that your company receives by using ExpressRoute, and helps you understand the ExpressRoute deployment guidance to validate and troubleshoot your deployment once you decide to use ExpressRoute.
 
 The call flows described here can be impacted by a variety of factors that are under your control, including firewall rules, NAT configuration, proxies, and router configuration. This document assumes that the recommended settings have been applied. These recommended settings are described in:
 

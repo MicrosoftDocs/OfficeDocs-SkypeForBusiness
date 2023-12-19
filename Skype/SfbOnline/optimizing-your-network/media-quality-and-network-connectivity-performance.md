@@ -27,7 +27,7 @@ description: "This topic defines the set of network performance requirements for
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-This topic defines the set of network performance requirements for Microsoft Teams services and how you can choose to use the Internet or ExpressRoute for connectivity between your network and Microsoft Teams based your assessment of the network connectivity. If you have decided to deploy Azure ExpressRoute for dedicated connectivity to Microsoft 365 or Office 365, this document also provides guidance on how to plan your ExpressRoute connections in different Microsoft Teams deployment scenarios.
+This article defines the set of network performance requirements for Microsoft Teams services and how you can choose to use the Internet or ExpressRoute for connectivity between your network and Microsoft Teams based your assessment of the network connectivity. If you have decided to deploy Azure ExpressRoute for dedicated connectivity to Microsoft 365 or Office 365, this document also provides guidance on how to plan your ExpressRoute connections in different Microsoft Teams deployment scenarios.
   
 The quality of Real-Time media (audio, video, and application sharing) over IP is greatly impacted by the quality of end-to-end network connectivity. For optimal Microsoft Teams media quality, it is important for you to make sure there is a high-quality connection between your company network and Microsoft Teams. The best way to accomplish this is to set up your internal network and cloud connectivity based on the capacity of your network to accommodate for peak traffic volume for Microsoft Teams across all connections.
   
