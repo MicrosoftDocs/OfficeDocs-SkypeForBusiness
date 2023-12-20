@@ -36,7 +36,7 @@ Customization in Teams meetings allows organizations to extend their visual iden
 
 Only you and Teams Premium licensed users that you assign this custom background policy to can use custom meeting backgrounds during meetings. Your users can still upload their own backgrounds for meetings, regardless of whether they have a Teams Premium license or not.
 
-:::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/custom-backgrounds-expand.png":::
+:::image type="content" source="media/custom-backgrounds-small.png" alt-text="Screenshot of custom meeting backgrounds in a Teams meeting." lightbox="media/custom-backgrounds-expand.png":::
 
 ## Prerequisites
 
@@ -91,10 +91,10 @@ To only show the custom backgrounds that you upload, follow these steps:
 1. Select **Meetings** from the navigation pane in the Teams Admin Center
 2. Under Meetings, select **Meeting Policies** and select an existing policy, or create a new one.
 3. Within your chosen policy, navigate to the **Audio and Video** section and set  **Participants can use video effects** to **Off** or **Only background blur**.
-4. Select **Save**
+4. Select **Save**.
 5. Navigate to **Meetings** >  **Customization Policies** to select an existing policy or create a new one.
 6. Within your chosen policy, scroll down to the **Meeting backgrounds** section and toggle  **Use background images from my organization** to **On**. If you haven't already, you can upload your custom backgrounds.
-7. Select **Save**
+7. Select **Save**.
 
 > [!NOTE]
 > You must set **Participants can use video effects** to **Off** or **Only background blur** to only show your custom backgrounds in your users' gallery.
@@ -109,7 +109,7 @@ Use the following steps to apply blurred backgrounds for users that aren't using
 2. Under Meetings, select **Customization policies** to select an existing policy or create a new one.
 3. Within your chosen policy, navigate to the **Meeting backgrounds** section.
 4. Toggle the **Apply background blur when no effect is selected** setting from **Off** to **On** to enable the setting.
-5. Select **Save**
+5. Select **Save**.
 
 ## Where are custom backgrounds visible
 
@@ -129,7 +129,7 @@ Only Teams Premium licensed users can use the meeting backgrounds in their Backg
 
 ### Who can view custom meeting backgrounds
 
-While only licensed end users can select their choice of uploaded backgrounds, anyone can view the backgrounds that are applied to a meeting. These users include:
+While only licensed end users can select their choice of uploaded backgrounds, anyone can view the backgrounds that are applied to a meeting. These users include the following types:
 
 - In-tenant, Teams Premium licensed users
 - In-tenant, nonlicensed users
