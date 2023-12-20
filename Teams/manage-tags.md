@@ -50,7 +50,7 @@ When a tag is @mentioned in a channel conversation, team members associated with
 
 ## Manage tags for your organization
 
-As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. Note that you can’t use PowerShell to manage tags.
+As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. You can’t use PowerShell to manage tags.
 
 :::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Screenshot of tagging settings in the Microsoft Teams admin center.":::
 
@@ -74,16 +74,16 @@ We recommend you select a specific value other than **Microsoft default** to ens
 
 You can configure the following tags settings to control how tags are used across your organization.
 
-1. In the left navigation of the Microsoft Teams admin center, click **Teams** > **Teams settings**.
+1. In the left navigation of the Microsoft Teams admin center, choose **Teams** > **Teams settings**.
 
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
     - **Team owners can change who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Who can manage tags** setting is the default value for each team. If you turn off this setting, the **Who can manage tags** setting can’t be changed per team.
-    - **Suggested tags**: Use this to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
-    - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this is turned off, people can only use the suggested default tags. If you turn this off, make sure that you add one or more default tags.
-    - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags will match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
+    - **Suggested tags**: Use this option to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
+    - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this setting is turned off, people can only use the suggested default tags. If you turn off this setting, make sure that you add one or more default tags.
+    - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
 
-## Related topics
+## Related articles
 
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
