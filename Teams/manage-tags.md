@@ -25,7 +25,7 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. There are three kinds of tags in Teams:
 
-- **Custom tags**: Team owners and team members (if they have permissions) can manually create and assign tags to people based on attributes, such as role, project, skill, or location. For example, a “Designer” tag will reach that set of people on a team without having to type their names.
+- **Custom tags**: Team owners and team members (if they have permissions) can manually create and assign tags to people based on attributes, such as role, project, skill, or location. For example, a “Designer” tag reaches that set of people on a team without having to type their names.
 - **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6) in Teams. For example, the “EngineerOnCall” tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
 - **Automatic tags**: Use automatic tags to reach groups of people by department or job title in Teams channel conversations. For example, the “Store Associate” and “Sales” tag reaches those specific groups of people. These tags are automatically created and assigned based on values mapped from Microsoft Entra attributes that you set up through the [deploy dynamic frontline teams experience](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) in the Teams admin center. Learn more about attribute mapping and targeted communications.
 
@@ -38,15 +38,15 @@ If you're a team owner and you want to manage tags in your team, see [Using tags
 
 ## How tags work
 
-A tag can be manually added (custom tag) or automatically assigned to a person on a specific team (by setting up Shifts in the Shifts app). The tag can then be used in @mentions on the **To** line in a chat or in a post on any standard channel of the team. Here are some examples of how tags can be used in Teams:
+A tag can be manually added (custom tags), automatically assigned based on shift and schedule information in Shifts, or automatically assigned based on department or job title (automatic tags). The tag can then be used in @mentions on the **To** line to start a chat (for custom or shift-based tags) or in a post on any standard channel of the team. Here are some examples of how tags can be used in Teams:
 
-- A store manager posts an announcement to a channel to notify all cashiers.
+- A store manager posts an announcement to a channel to notify all store associates.
 - A hospital administrator sends a message to all radiologists in a channel.
 - A marketing manager starts a group chat with all designers.
 - A nurse sends a message to all on-call cardiologists.
 - A system engineer posts an announcement to a channel to notify all on-shift field engineers.
 
-When a tag is @mentioned in a channel conversation, team members associated with the tag will get notified, just like any other @mention.
+When a tag is @mentioned in a channel conversation, team members associated with the tag get notified, just like any other @mention.
 
 ## Manage tags for your organization
 
@@ -58,11 +58,11 @@ A team can have up to 200 tags, up to 200 team members can be assigned to a tag,
 
 ### Set who can manage tags
 
-You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you have not selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is set to both team owners and members. If you're using Teams for Education, non-owner students cannot manage tags as long as **Who can manage tags** is set to **Team owners** or **Microsoft default**.
+You can change the **Who can manage tags** setting to specify who can manage tags, or you can turn off tags for your organization. If you haven't selected an option for **Who can manage tags**, the **Microsoft default** setting is used. **Microsoft default** is set to both team owners and members. If you're using Teams for Education, non-owner students can't manage tags when **Who can manage tags** is set to **Team owners** or **Microsoft default**.
 
 We recommend you select a specific value other than **Microsoft default** to ensure that your preferred tag settings are used if the **Microsoft default** setting changes in the future.
 
-1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
+1. In the left navigation of the Microsoft Teams admin center, choose **Teams** > **Teams settings**.
 
 2. Under **Tagging**, next to **Who can manage tags**, select one of the following options:
 
@@ -74,7 +74,7 @@ We recommend you select a specific value other than **Microsoft default** to ens
 
 You can configure the following tags settings to control how tags are used across your organization.
 
-1. In the left navigation of the Microsoft Teams admin center, click **Teams** \> **Teams settings**.
+1. In the left navigation of the Microsoft Teams admin center, click **Teams** > **Teams settings**.
 
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
@@ -88,5 +88,3 @@ You can configure the following tags settings to control how tags are used acros
 [Manage the Shifts app](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 [Shifts Help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-
-
