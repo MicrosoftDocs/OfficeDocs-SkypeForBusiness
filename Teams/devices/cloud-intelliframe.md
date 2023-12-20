@@ -71,7 +71,6 @@ The following camera models when deployed in a Microsoft Teams Room on Windows w
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
-- Huddly L1
 - Jabra PanaCast 
 - Lenovo ThinkSmart Cam 
 - Lenovo ThinkSmart One
