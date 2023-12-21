@@ -82,17 +82,7 @@ For each app, these permissions are listed in the app details page in the admin 
 | **2** Non-RSC Graph permissions | For some features to work, an app needs to access the organization's information in the tenant. | The information that is accessed is displayed in the `Permissions` tab in the app details page of each app. See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information) | Controlled via API permissions and consent using [Azure Active Directory consent framework](/azure/active-directory/develop/consent-framework) |
 | **3** Resource specific permissions | For some features to work, an app can need access to and information contained within a Teams resources such as meetings, chat, or teams and channels in which the app is added. | Information is displayed in Permissions tab in app details page of each app. See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions) for a list of all possible RSC permissions. | NA |
 
----> 
-
-## Privacy and data access considerations
-
-In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center.
-
-:::image type="content" source="media/app-details-tou-url.png" alt-text="Screenshot that shows privacy and terms of use URLs in the app details page." lightbox="media/app-details-large.png":::
-
-Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available on Microsoft website at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
-
-The program demonstrates that strong security and compliance practices are in place to protect customer data. See the details in [app compliance program for security, data handling, and privacy](overview-of-app-certification.md).
+--->
 
 ## Graph permissions required by Teams apps to access your organization's information
 
@@ -108,11 +98,9 @@ In Teams admin center, you can view Graph permission that an app requests if dep
 
 A complete list of all the possible permissions is available at [Microsoft Graph permissions reference](/graph/permissions-reference).
 
-
 ## Resource-specific consent permissions of an app
 
-RSC permissions let apps access and modify a team's or a chat's information. RSC permissions are 
- permissions that define what an app can do in a specific resource. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+RSC permissions let apps access and modify a team's or a chat's information. RSC permissions are permissions that define what an app can do in a specific resource. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
 
 RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
@@ -126,9 +114,13 @@ To view RSC permissions for an app, follow these steps:
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
 
-<!--- Reuse the AAD screenshot from the manage consent article here. 
+<!--- 
+See if there's a need to reuse the AAD screenshot from the manage consent article here.
 --->
 
+## Privacy and data access considerations
+
+In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. For more information, see [understand where to find support information for apps](manage-apps.md#support-information-for-apps).
 
 ## What can apps do in Teams
 
