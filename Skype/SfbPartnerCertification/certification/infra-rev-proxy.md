@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947483
-description: "List of Reverse Proxy Servers that have been independently qualified with Skype for Business Server."
+description: "List of Reverse Proxy Servers that are independently qualified with Skype for Business Server."
 ---
 
 # Reverse proxy
@@ -35,6 +35,6 @@ Listed here are reverse proxy servers that work with Skype for Business.
 
 
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 

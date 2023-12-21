@@ -27,9 +27,9 @@ description: "Learn the deployment steps to get the correct firmware, update it 
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-This is deployment guide will help you deploy Skype for Business Online IP phones.
+This deployment guide helps you to deploy Skype for Business Online for IP phones.
   
-In all types of businesses, having a phone number allows users to make and get voice calls, and it is an important requirement to do business. Users who have phone numbers will be able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
+In all types of businesses, having a phone number allows users to make and get voice calls, and it's an important requirement to do business. Users who have phone numbers are able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
 ## Deployment steps for IP phones
 
@@ -45,7 +45,7 @@ Before you get started, it's a good idea to download the phone manufacturer's ad
     
 ### Step 2 - Make sure you're purchasing or migrating a Skype for Business Supported IP phone and firmware
 
-A Skype for Business Online supported phone and firmware is compatible for Skype for Business Server as well, but the opposite isn't always true. To make sure you are buying or provisioning a supported phone and firmware, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
+A Skype for Business Online supported phone and firmware is compatible for Skype for Business Server as well, but the opposite isn't always true. To make sure you're buying or provisioning a supported phone and firmware, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
 ### Step 3 - Checking that the right firmware is installed and update the firmware if required
 
@@ -71,7 +71,7 @@ Firmware updates are managed by the Skype for Business Service. Every Skype for 
   
 ![Screen shot showing deploying phones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
-When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
+When a new firmware is available and ready for download and install, the phone notifies the user. Polycom phones notify the user and provide them with an option to **Update** or **Postpone**.
   
 ![Screen shot showing Update and Postpone options.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
@@ -91,13 +91,13 @@ You can set up the most commonly used phone options and policies using Skype for
   
 ### Step 6 - Preparing for users to sign in
 
-To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you'll need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 You can find out more about Calling Plans by reading [Phone System and Calling Plans](/microsoftteams/calling-plan-landing-page)
   
 - **Sign-in options** that are available for Online users are:
     
-  - Users with **Polycom VVX 5XX/6XX** phones will see:
+  - Users with **Polycom VVX 5XX/6XX** phones see:
     
      ![Screen shot showing the Polycom phones logon.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
@@ -131,13 +131,13 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     
      ![Screen shot showing Yealink instructions.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
-    The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
+    The code that is generated will expire in 15 minutes. When it expires, the user will have to select **Retry** or **OK** to generate a new code, depending on the phone.
     
-  - Users with **Polycom VVX 5XX/6XX** phones will see:
+  - Users with **Polycom VVX 5XX/6XX** phones see:
     
      ![Screen shot showing expired Polycom code.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
-  - Users with **Yealink T48G/T46G** phones will see:
+  - Users with **Yealink T48G/T46G** phones see:
     
      ![Screen shot showing expired Yealink code.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
@@ -149,7 +149,7 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     
      ![Screen shot showing entering code on login screen.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    Verify that the site shows "[Phone Manufacturer name] **Skype for Business Certified Phone**," and click **Continue**.
+    Verify that the site shows "[Phone Manufacturer name] **Skype for Business Certified Phone**," and select **Continue**.
     
      ![Screen shot showing verification of name.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   

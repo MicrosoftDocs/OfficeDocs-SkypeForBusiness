@@ -34,7 +34,7 @@ In partnership with device partners, Microsoft is proactively certifying Skype f
 
 Enterprises choosing Skype for Business certified Wi-Fi devices can be assured using best of breed products for your wireless Skype for Business experience.
 
-Listed in the table that follows are Wi-Fi infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Skype for Business requirements. Lync qualified Wi-Fi access points will work with Skype for Business. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country/region support, and documentation including release notes and known issues. Please contact the listed partner for more information on these products.
+Listed in the table that follows are Wi-Fi infrastructure solutions that are tested by these partners and reviewed by Microsoft to meet Skype for Business requirements. Lync qualified Wi-Fi access points work with Skype for Business. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country/region support, and documentation including release notes and known issues. Contact the listed partner for more information on these products.
 
  ***Wi-Fi Infrastructure***
 <table border="1" cellpadding="5" cellspacing="" class="grid">
@@ -125,7 +125,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
         </tr>
         <tr>
             <td>WS-AP3825e, WS-AP3825i, WS-AP3865 802.11ac</td>
-            <td>IdentiFi V2110 Virtual Controller on Vmware</td>
+            <td>IdentiFi V2110 Virtual Controller on VMware</td>
             <td>09.12.01.0067</td>
         </tr>
         <tr>
@@ -177,5 +177,5 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 |[Dell, Inc.](https://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)|Lattitude E7450|6.30.223.262|
 |[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250||
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
