@@ -26,7 +26,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 # Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
-With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
+With the launch of Skype for Business, we'll no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
 
 ## Lync Services
 E911 service provider and other services vendors interested in qualifying their offering for Lync Server or Exchange Server must meet both technical and marketing requirements. Participation in the program is solely at Microsoft’s discretion. Upon successful completion, the product, service, and firmware combinations tested will be listed on this site.
@@ -34,10 +34,10 @@ E911 service provider and other services vendors interested in qualifying their 
 With the launch of Lync Server, there will no longer be qualifying solutions with Office Communications Server 2007 or 2007 R2.
 
 ### Technical requirements for qualification
-- Be an IP-PBX, SIP-PSTN gateway, SIP trunking, E911 service provider and survivable branch appliance vendor.  This program is not open to system integrators utilizing 3rd party hardware.
-- For Direct SIP, comply to the Lync Server 2010 SIP-PSTN gateway or IP-PBX specification.
-- For SIP trunking services, comply to the Lync Server 2010 SIP trunking specification.
-- For service providers using an Acme Packet SBC, please refer to the document "Microsoft Communications Server "14" SIP Trunking with the Acme Packet Net-Net Session Director", available for [download](https://www.microsoft.com/downloads/details.aspx?FamilyID=3ec8a7cb-488c-4ea3-bba1-c00d59295f9c).
+- Be an IP-PBX, SIP-PSTN gateway, SIP trunking, E911 service provider and survivable branch appliance vendor.  This program isn't open to system integrators utilizing partner hardware.
+- For Direct SIP, comply with the Lync Server 2010 SIP-PSTN gateway or IP-PBX specification.
+- For SIP trunking services, comply with the Lync Server 2010 SIP trunking specification.
+- For service providers using an Acme Packet SBC, refer to the document "Microsoft Communications Server "14" SIP Trunking with the Acme Packet Net-Net Session Director", available for [download](https://www.microsoft.com/downloads/details.aspx?FamilyID=3ec8a7cb-488c-4ea3-bba1-c00d59295f9c).
 
 ### Program requirements for qualification
 - Company must have a standard NDA signed with Microsoft.
@@ -48,7 +48,7 @@ With the launch of Lync Server, there will no longer be qualifying solutions wit
 - Provide Quick Start Guide for configuration steps for Lync Server or Exchange Server.
 - Provide dedicated website for Lync Server or Exchange Server supported products, including support, ordering, and technical documentation.
 
-Once all of these criteria have been met the UCOIP administrators will be aware of the status and will then place the information on the UCOIP web site.
+Once all of these criteria have been met the UCOIP administrators are aware of the status and will then place the information on the UCOIP web site.
 
 If you have any questions on the program please contact the MSUCOIP Administrators at msucoip@microsoft.com.
 

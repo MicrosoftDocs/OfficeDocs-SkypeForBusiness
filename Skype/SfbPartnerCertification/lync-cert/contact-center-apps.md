@@ -63,7 +63,7 @@ Acqueon offers 24/7 support with offices worldwide including locations in Dallas
 
 As a standard part of the Lync Enterprise Voice license, Lync response groups offer well-engineered call center capability. Response groups provide advanced workflow choices and IVR interactions, advanced call routing, interflow and overflows between groups. Espera adds the ability for agents, supervisors, and managers to see what the current real time situation is and then to follow that up with a suite of historical reporting as expected in a call center.
 
-In addition to reporting, Espera adds call wrap-up and one click agent log-on and log-off, easy to change, on the fly thresholds, and drill down reporting. Espera provides for remote agent log-on and the real time data is transferred to the agent's screen via the existing Lync SIP tunnel.
+In addition to reporting, Espera adds call wrap-up and one click agent sign-in and log-off, easy to change, on the fly thresholds, and drill down reporting. Espera provides for remote agent log-on and the real time data is transferred to the agent's screen via the existing Lync SIP tunnel.
 
 Note that Espera was tested with the quality of assurance testing program.
 

@@ -23,7 +23,7 @@ description: "Applications that have been validated as using Lync 2013 APIs."
 ---
 
 # Validated Lync Applications
-The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
+The following applications are validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
 
 
 ## Active Communications - ACS for Lync

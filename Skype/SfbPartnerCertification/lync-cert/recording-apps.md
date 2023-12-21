@@ -43,7 +43,7 @@ Recording applications allow for the recording, storage, and retrieval of commun
 
 [AudioCodes](http://audiocodes.com)
 
-***SmartTAP*** is a secure call recording solution enabling the recording of key business interactions within the enterprise and branch locations. It is suitable for customers of all sizes. A fully IP centric application utilizing open standard protocols like SIP, HTTP, and SNMP, SmartTAP is flexible for single, multi-site and global deployments. Easily record any Lync call type including but not limited to mobile, remote, internal, PSTN and conference calls.
+***SmartTAP*** is a secure call recording solution enabling the recording of key business interactions within the enterprise and branch locations. It's suitable for customers of all sizes. A fully IP centric application utilizing open standard protocols like SIP, HTTP, and SNMP, SmartTAP is flexible for single, multi-site and global deployments. Easily record any Lync call type including but not limited to mobile, remote, internal, PSTN and conference calls.
 
 The easy and intuitive HTML interface reduces training time and makes it easy to deploy. SmartTAP complements Lync by offering a wide range of features that further enhance the recording experience, including agent scoring, live monitoring of conversations, LDAP integration, agent and supervisor notes, email, and downloading of conversations.
 

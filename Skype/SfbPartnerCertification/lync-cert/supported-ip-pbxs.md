@@ -26,7 +26,7 @@ description: "Partner qualification requirements for Lync IP PBXs."
 
 The following IP PBXs are supported by Microsoft. But, they haven't gone through the formal UCOIP qualification process, nor did the vendor request testing.
 
-Microsoft has done sufficient internal testing to identity specific, supported configurations (where applicable with known limitations). These configurations use the commercially available production SIP trunk interface of the IP-PBX vendor, but might not be supported by the vendor. Also, the vendor might not provide complete documentation for installation, set-up, release notes, or support processes. Wherever possible, Microsoft will try to provide documentation for installation and set-up.
+Microsoft has done sufficient internal testing to identity specific, supported configurations (where applicable with known limitations). These configurations use the commercially available production SIP trunk interface of the IP-PBX vendor, but might not be supported by the vendor. Also, the vendor might not provide complete documentation for installation, set-up, release notes, or support processes. Wherever possible, Microsoft tries to provide documentation for installation and set-up.
 
 ## Supported for Lync 2013
 ***Table 1 - Supported for Lync 2013***
@@ -89,8 +89,8 @@ Microsoft has done sufficient internal testing to identity specific, supported c
                 </ol>
                 <p>Known Limitations:</p>
                 <ol>
-                    <li>When Media bypass is enabled in Lync, and there's an incoming call to a Lync client with simultaneous ring to a number with early media enabled, the caller will hear ring back instead of early media.</li>
-                    <li>Avaya Aura communication manager doesn't send disconnect to PSTN via ISDN trunk while receiving SIP 603 response from Mediation server for incoming call to Lync client. Caller will hear overflow tone and call won't disconnect until caller drops the call.</li>
+                    <li>When Media bypass is enabled in Lync, and there's an incoming call to a Lync client with simultaneous ring to a number with early media enabled, the caller hears ring back instead of early media.</li>
+                    <li>Avaya Aura communication manager doesn't send disconnect to PSTN via ISDN trunk while receiving SIP 603 response from Mediation server for incoming call to Lync client. Caller hears overflow tone and call won't disconnect until caller drops the call.</li>
                 </ol>
             </td>
         </tr>
@@ -115,7 +115,7 @@ Microsoft has done sufficient internal testing to identity specific, supported c
                 <ol>
                     <li>Comfort noise generation isn't supported. As a result, comfort noise isn't played on Microsoft Lync.</li>
                     <li>When a Lync user configures call forward or simul-ring to a PSTN IVR number, the calling party won't hear early media played from the IVR.</li>
-                    <li>Cisco UCM doesn't originate or pass through 'History-Info' and 'Referred-by' nor convert it to 'Diversion' header. As a result, calls forwarded or transferred to a PSTN user or calls that simultaneously ring a PSTN user may fail with Service Providers that expect history information (transferring party info). Service Providers not looking for the transferring party details in history or diversion headers may pass the call through. However, this behavior may cause billing challenges for these kinds of calls.</li>
+                    <li>Cisco UCM doesn't originate or pass through 'History-Info' and 'Referred-by' nor convert it to 'Diversion' header. As a result, calls forwarded or transferred to a PSTN user or calls that simultaneously ring a PSTN user might fail with Service Providers that expect history information (transferring party info). Service Providers not looking for the transferring party details in history or diversion headers might pass the call through. However, this behavior might cause billing challenges for these kinds of calls.</li>
                 </ol>
             </td>
         </tr>

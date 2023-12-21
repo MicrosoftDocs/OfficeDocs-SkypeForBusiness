@@ -28,19 +28,19 @@ Customers deployed with Lync Online Dedicated have Lync running in data centers 
 
 Lync Online Dedicated offers interoperability with customer's on-premises session border controllers and provides connectivity with IP telephony service providers for SIP trunking.
 
-It is recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes and any known issues.
+It's recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes and any known issues.
 
 ## USB audio and video devices
 
-All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](usb-and-video.md) page.
+All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [USB audio and video devices](usb-and-video.md) page.
 
 ## IP phones
 
-All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [Phones and devices qualified for  Lync](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" are not currently supported in Lync Online Dedicated.
+All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [Phones and devices qualified for  Lync](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" aren't currently supported in Lync Online Dedicated.
 
 ## Meeting room devices
 
-All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, please visit the [Meeting room devices](meeting-room-devices.md) page.
+All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, visit the [Meeting room devices](meeting-room-devices.md) page.
 
 ## Video infrastructure
 

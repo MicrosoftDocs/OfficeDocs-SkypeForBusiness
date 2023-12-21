@@ -30,7 +30,7 @@ The Compatible Devices Program is used by vendors to  qualify their devices for 
 
 ## Qualified products table
 
-It is important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (refer to the table that follows).
+It's important to ensure that both the IP phone and the firmware version are tested and qualified for Lync (refer to the table that follows).
 
 > [!NOTE]
 > If phone vendors offer a firmware version that is newer than the qualified version, be aware that it is not supported by Microsoft and should be used for beta and evaluation purposes only. We recommend that you visit each vendor's website for the latest information about product specifications, country/region support, and documentation including release notes and known issues. 
