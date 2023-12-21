@@ -40,17 +40,7 @@ related articles from AAD:
 - Consent for self vs for users when using the app (screenshot available locally)
 
  
-Add this content later; move this list to an ADO:
-- About device permissions
-- About custom apps and Graph permissions? If Global Admin uploads a custom app or approves a custom app, is there a prompt to give consent at that time OR is the consent implied if a Global Admin does it?
-- Any examples of JIT consent
-- Discrepancy in permissions shown in client vs in TAC listing. Refer chat with Deepjyoti
-- How to grant consent to RSC permissions? Example app to take screenshot of? If admins can't, then is it always users who do it?
-- Will the app completely stop working OR will it work with limited functionality if limited consent is granted? Example of both? Vantage Rewards continued to work but Talview stopped working.
-- Verify if delegated admin eval mentioned in AAD docs is applicable for Teams app or not.
-- How can users request admins for consent? Does consent workflow apply to Teams apps? https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/user-admin-consent-overview
-- Add headings from here -> https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-consent-requests
-- What if net new RSC perms are added that users haven't consented to before?
+
 
 
 --->
@@ -84,7 +74,7 @@ To view and grant consent for all users in your organization, follow these steps
 
 1. Under **Org-wide permissions**, select **Review permissions and consent**.
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app.":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app."  lightbox="media/app-perm-admin-center-org-wide-large.png":::
 
 1. In the dialog that opens, review the permissions requested by the app.
 
@@ -94,7 +84,7 @@ To view and grant consent for all users in your organization, follow these steps
 
 After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted. If you want to view the app's permissions in Microsoft Entra ID, click the link to open the app's permissions in Microsoft Entra admin center.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Entra after granting consent to Graph permissions.":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Microsoft Entra admin center after granting consent to Graph permissions.":::
 
 > [!NOTE]
 > If the new version of an app requires extra permissions than the previous version, then you must grant consent to the app again.
