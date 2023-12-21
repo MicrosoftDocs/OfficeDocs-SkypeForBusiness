@@ -39,10 +39,6 @@ related articles from AAD:
 - Re-grant permissions after app update.
 - Consent for self vs for users when using the app (screenshot available locally)
 
- 
-
-
-
 --->
 
 Use of Teams apps can provide an incredible boost to the productivity of and collaboration between your organization's users. Teams apps bring information at the tips of your users, without any context switching, and help them do great work. As an admin, you play a critical role to empower your users with the right type of apps while balancing your company's need for security and compliance. Once you decide to approve the use of an app, you must make sure that the app adoption is smooth for the users.

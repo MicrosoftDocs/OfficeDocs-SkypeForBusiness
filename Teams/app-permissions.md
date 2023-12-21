@@ -124,14 +124,15 @@ In the terms of use and privacy policy of any app, the app developer discloses w
 
 ## What can apps do in Teams
 
-As an admin, you manage Teams apps and not their capabilities. [Teams apps have capabilities](apps-in-teams.md#understand-app-capabilities) that allow apps to accomplish their core use case and accomplish some tasks. The [capabilities are provided by SDKs](/microsoftteams/platform/concepts/build-and-test/tool-sdk-overview) and don't require any consent. The tasks that apps can accomplish that are associated with capabilities are different from the permissions that require consent by an admin.
-
-Depending on the capabilities, apps interact with users and access the data that users provide to it. You as an admin must consider what an app can do and how it interacts with users based on the following capabilities.
+As an admin, you manage Teams apps and not their capabilities. [Teams apps have capabilities](apps-in-teams.md#understand-app-capabilities) that allow apps to accomplish their core use case and accomplish some tasks. The [capabilities are provided by SDKs](/microsoftteams/platform/concepts/build-and-test/tool-sdk-overview) and don't require any consent. The tasks that apps can accomplish that are associated with capabilities are different from the permissions that require consent by an admin. You as an admin must consider what an app can do and how it interacts with users based on the following capabilities.
 
 * [Bots and Messaging extensions](#bots-and-messaging-extensions)
 * [Tabs](#tabs)
 * [Connectors](#connectors)
 * [Outgoing webhooks](#outgoing-webhooks)
+
+> [!NOTE]
+> Apps may not use all the below capabilities, unless the app is a complex app catering to multiple use cases. The tasks that app can do depend on the capabilities used in it by the app developer.
 
 ### Bots and Messaging Extensions
 
