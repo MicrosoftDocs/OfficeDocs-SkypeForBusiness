@@ -267,6 +267,8 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
  
  
+ 
+ 
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
@@ -335,6 +337,8 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 
 
+
+
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
@@ -344,12 +348,14 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 - Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
-- Give/Take control for Citrix and VMware
+- Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
+
+
 
 
 
