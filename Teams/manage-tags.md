@@ -38,7 +38,9 @@ If you're a team owner and you want to manage tags in your team, see [Using tags
 
 ## How tags work
 
-A tag can be manually added (custom tags), automatically assigned based on shift and schedule information in Shifts, or automatically assigned based on department or job title (automatic tags). The tag can then be used in @mentions on the **To** line to start a chat (for custom or shift-based tags) or in a post on any standard channel of the team. Here are some examples of how tags can be used in Teams:
+A tag can be manually added (custom tags), automatically assigned based on shift and schedule information in Shifts, or automatically assigned based on department or job title (automatic tags).
+
+The tag can then be used in @mentions on the **To** line to start a chat (custom tags and shift-based tags) or in a post on any standard channel of the team. Here are some examples of how tags can be used in Teams:
 
 - A store manager posts an announcement to a channel to notify all store associates.
 - A hospital administrator sends a message to all radiologists in a channel.
