@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 12/19/2023
+ms.date: 12/31/2023
 ms.reviewer: Orion.OMalley
 description: Understand permissions and manage consent for Teams apps to access the required org information.
 f1.keywords:
@@ -26,13 +26,14 @@ ms.custom: seo-marvel-apr2020
 
 # Understand Teams app permissions and consent
 
-<!---
 
-Add content from below links or move to an ADO:
-- 
-- 
 
---->
+
+
+
+
+
+
 
 IT admins grant consent to apps after they validate the compliance, security, and data handling information of an app and also understand the permissions requested by the app and how are those permissions relevant to the app's use cases. IT admins create a balance between their user's need for productivity and their organizations needs for safety and security. To do so, admins must understand the potential of permissions, how Teams apps use these, and how they can approve or reject the apps that seek a set of such permissions.
 
@@ -100,19 +101,20 @@ A complete list of all the possible permissions is available at [Microsoft Graph
 
 ## Resource-specific consent permissions of an app
 
-RSC permissions let apps access and modify a team's or a chat's information. RSC permissions are permissions that define what an app can do in a specific resource. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+RSC permissions help users to give consent to app for scope-specific information and avoid giving it to information of the entire organization. 
+Such consent lets apps access and modify a team's or a chat's information only. Such an app can't access the information of a chat or a team in which it is not added. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+
+RSC permissions limit the scope of the app permissions to a specific resource as opposed to org-wide Graph permissions that can let apps access org-wide information. The resources on which RSC permissions can apply are chats and meetings, teams and channels, and users.
 
 RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
-Global admins and Teams service admin can view RSC permissions for an app on the **Permissions** tab of the app details page.
-
 To view RSC permissions for an app, follow these steps:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. Access Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Search for the app you want, select the app name to go to the app details page, and then select the **Permissions** tab.
-1. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
+1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
+    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot showing an example of how to view RSC permissions of an app.":::
 
 <!--- 
 See if there's a need to reuse the AAD screenshot from the manage consent article here.

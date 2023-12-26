@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 12/19/2023
+ms.date: 12/31/2023
 ms.reviewer: Orion.OMalley
 description: Manage consent to Teams apps permissions to access the required org information.
 f1.keywords:
