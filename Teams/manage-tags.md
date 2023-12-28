@@ -27,7 +27,7 @@ Tags in Microsoft Teams let users quickly and easily connect with a subset of pe
 
 - **Custom tags**: Team owners and team members (if they have permissions) can manually create and assign tags to people based on attributes, such as role, project, skill, or location. For example, a “Designer” tag reaches that set of people on a team without having to type their names.
 - **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6) in Teams. For example, the “EngineerOnCall” tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
-- **Automatic tags**: Use automatic tags to reach groups of people by department or job title in Teams channel conversations. For example, the “Store Associate” and “Sales” tag reaches those specific groups of people. These tags are automatically created and assigned based on values mapped from Microsoft Entra attributes that you set up through the [deploy dynamic frontline teams experience](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) in the Teams admin center. [Learn more about attribute mapping and targeted communications](/microsoft-365/frontline/set-up-targeted-communications).
+- **Automatic tags**: Use automatic tags to reach groups of people by department or job title in Teams channel conversations. For example, the “Store Associate” and “Sales” tag reaches those specific groups of people. These tags are automatically created and assigned based on values mapped from Microsoft Entra attributes that you set through the [deploy dynamic frontline teams experience](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) in the Teams admin center. [Learn more about attribute mapping and targeted communications](/microsoft-365/frontline/set-up-targeted-communications).
 
 After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post to notify only those people who are assigned that tag of a conversation.
 
@@ -76,7 +76,7 @@ We recommend you select a specific value other than **Microsoft default** to ens
 
 You can configure the following tags settings to control how tags are used across your organization.
 
-1. In the left navigation of the Microsoft Teams admin center, choose **Teams** > **Teams settings**.
+1. In the left navigation of the Teams admin center, choose **Teams** > **Teams settings**.
 
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
