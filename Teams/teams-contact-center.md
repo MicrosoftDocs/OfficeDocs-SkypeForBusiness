@@ -60,6 +60,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center                                   |
 | `Avaya` | https://www.avaya.com/en/enterprise-cloud/                           |
+| `Bright Pattern` | https://www.brightpattern.com/                              |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
@@ -86,7 +87,6 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Bright Pattern` | https://www.brightpattern.com/                              |
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Evolve IP` | https://www.evolveip.net/contact-center   |

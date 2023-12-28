@@ -28,7 +28,7 @@ Cloud IntelliFrame is a new experience that allows online meeting attendees to s
 ## Experience overview
 
 > [!IMPORTANT]
-> Please install appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
+> Install appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 
 All Microsoft Teams Rooms on Windows with a Pro license equipped with cameras (specified in [Supported cameras](#supported-cameras)) automatically opt-in to Cloud IntelliFrame. Online participants on Microsoft Teams Desktop (Windows and Mac) will see the IntelliFrame video feed as a secondary option from rooms with these cameras.
 
@@ -71,7 +71,6 @@ The following camera models when deployed in a Microsoft Teams Room on Windows w
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
-- Huddly L1
 - Jabra PanaCast 
 - Lenovo ThinkSmart Cam 
 - Lenovo ThinkSmart One
