@@ -139,11 +139,11 @@ You have to refresh the data to see any new data.
 
  - Section 2 - Time Range
 
-   The start and end hour of the report.  The report will span all dates/times from the Start Date/Start Hour to the End Date/End Hour.
+   The start and end hour of the report.  The report spans all dates/times from the Start Date/Start Hour to the End Date/End Hour.
 
  - Section 3 - Auto Attendant Resource Accounts
 
-   The Resource Accounts to be reported on. To show all the traffic for a specific Auto attendant select all the resource accounts assigned to that Auto attendant.
+   The Resource Accounts to be reported on. Select all the resource accounts assign to a specific Auto Attendant to see all the calls for that Auto Attendant.
 
    Default: All
    
@@ -151,7 +151,8 @@ You have to refresh the data to see any new data.
 
    A breakdown showing the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
 
-   When hovering over any of metrics in this section a tooltip will appear showing the individual calls that make up the total.
+   > [!TIP]
+   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
 
  - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
 
@@ -161,7 +162,7 @@ You have to refresh the data to see any new data.
 
    A breakdown showing how the Directory Search option was used by callers.
 
-   This section of the report will be blank if the Auto Attendant isn't configured to provided this service or if callers did not use it.
+   This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers did not use it.
 
    Directory Search Method Legend Definitions
    - DTMF - Caller used the telephone dial pad to search for the user's name
@@ -182,12 +183,18 @@ You have to refresh the data to see any new data.
    - Transferred (Operator) - Call was transferred to the Operator
    - Transferred (Voicemail) - Call was transferred to Shared Voicemail
    - Transferred (External) - Call was transferred to an External Number
-   - Transferred (User) - Call was transferred to a Person in the organiation
+   - Transferred (User) - Call was transferred to a Person in the organization
    - Other - Some other condition has occurred
-     
+
+   > [!TIP]
+   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
+   
  - Section 8 - Call Details Table
 
    A breakdown showing the caller paths through the auto attendant and the final call result.
+
+   > [!TIP]
+   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
 
 #### fAutoAttendant table field description
 
@@ -197,12 +204,12 @@ You have to refresh the data to see any new data.
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
+|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except 0 if no calls instead of blank                    |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration except will be 0 if no calls instead of blank                    |
+|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration 0 if no calls instead of blank                                   |
 |AAChainIndex                            |Whole Number             |                                                                                         |
 |AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
 |AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
@@ -222,7 +229,7 @@ You have to refresh the data to see any new data.
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
-|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
+|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount 0 if no calls instead of blank            |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 
 #### Known issues
@@ -394,7 +401,7 @@ If shortening the date range is not sufficient, it is possible to increase the n
 
 The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than this will have no effect as this is a hard-coded limit.
 
-Increasing the limit will result in longer response times.
+Increasing the limit results in longer response times.
 
 ## Known issues
 
