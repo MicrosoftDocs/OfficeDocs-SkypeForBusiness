@@ -236,7 +236,7 @@ You have to refresh the data to see any new data.
 
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
 1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
-1. Date selector....
+1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 
 
 
