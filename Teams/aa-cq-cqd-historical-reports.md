@@ -52,7 +52,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
-[!NOTE]
+> [!NOTE]
 > The `Original` reports will be removed from the Power BI template at the end of June 2024.
 
 ## V3.x.x prerequisites
@@ -149,17 +149,17 @@ You have to refresh the data to see any new data.
    
  - Section 4 - Quick Stats - Incoming Calls
 
-   A breakdown on the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
+   A breakdown showing the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
 
    When hovering over any of metrics in this section a tooltip will appear showing the individual calls that make up the total.
 
  - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
 
-   blah blah blah
+   A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions.  A more detailed breakdown on caller actions is shown in the Caller Action Count.
    
  - Section 6 - Quick Stats - Directory Search Method
 
-   A breakdown on how the Directory Search option was used by callers.
+   A breakdown showing how the Directory Search option was used by callers.
 
    This section of the report will be blank if the Auto Attendant isn't configured to provided this service or if callers did not use it.
 
@@ -169,7 +169,7 @@ You have to refresh the data to see any new data.
 
  - Section 7 - Call Results
 
-   A breakdown of the call treatment received by callers.
+   A breakdown showing the call treatment received by callers.
    
    Call Results Legend Definitions
    - Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections
@@ -184,11 +184,10 @@ You have to refresh the data to see any new data.
    - Transferred (External) - Call was transferred to an External Number
    - Transferred (User) - Call was transferred to a Person in the organiation
    - Other - Some other condition has occurred
-  
-   
+     
  - Section 8 - Call Details Table
 
-   A breakdown of the caller paths through the auto attendant and the final call result.
+   A breakdown showing the caller paths through the auto attendant and the final call result.
 
 #### fAutoAttendant table field description
 
