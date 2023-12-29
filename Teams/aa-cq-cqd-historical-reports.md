@@ -152,7 +152,7 @@ You have to refresh the data to see any new data.
    A breakdown showing the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
+   > Hover over any metric in this section to display a tooltip with the individual calls that make up the total.
 
  - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
 
@@ -187,14 +187,14 @@ You have to refresh the data to see any new data.
    - Other - Some other condition has occurred
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
+   > Hover over any metric in this section to display a tooltip with the individual calls that make up the total.
    
  - Section 8 - Call Details Table
 
    A breakdown showing the caller paths through the auto attendant and the final call result.
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
+   > Hover over any metric in this section to display a tooltip with the individual calls that make up the total.
 
 #### fAutoAttendant table field description
 
