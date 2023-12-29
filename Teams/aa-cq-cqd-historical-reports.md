@@ -52,6 +52,9 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
+[!NOTE]
+> The `Original` reports will be removed from the Power BI template at the end of June 2024.
+
 ## V3.x.x prerequisites
 
 ### Power BI Desktop
@@ -126,36 +129,61 @@ You have to refresh the data to see any new data.
 
 ### Cloud Auto Attendant Analytics report
 
+   :::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analysis report, version 3.1.1":::
+
 #### Report description
 
-|Report Section                                                    |Description                                                       |
-|:-----------------------------------------------------------------|:-----------------------------------------------------------------|
-|Original: Incoming Call Source<br>New: Incoming Calls             |Distribution of calls by Internal/External call source            |
-|Directory Search Method                                           |Distribution of calls by search type                              |
-|Caller Action Count                                               |Distribution of calls by number action used during the call       |
-|Original: Average Seconds in AA<br>New: AA Stats Duration [secs]  |Average number of seconds callers spend in the AA                 |
-|Original: Average Caller Actions<br>New: AA Stats Caller Actions  |Average number of actions callers perform in the AA               |
-|Call Results                                                      |Distribution of calls by final call state                         |
-|Lower section of report                                           |Call flow breakdown                                               |
+ - Section 1 - Date
+   
+   blah blah blah
 
-#### Report visual and field mapping
+ - Section 2 - Time Range
 
-|Report Tab                                  |Report Table Name     |Global Filter                          |
-|:-------------------------------------------|:---------------------|:--------------------------------------|
-|Auto Attendant<br>Auto Attendant - New      |fAutoAttendant        |None                                   |
+   blah blah blah
 
-|Report Section                               |Field(s) Used                                                                                    |Filters Applied |
-|:--------------------------------------------|:------------------------------------------------------------------------------------------------|:----------|
-|Date selector                                |AA Start Time Local                                                                              |None       |
-|Time Range selector                          |AAStartHour                                                                                      |None       |
-|Auto Attendant Resource Accounts             |AA Name                                                                                          |None       |
-|Incoming Call Source                         |Call Type<br>Sum of TotalCallCount         |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Directory Search Method                      |AADirectorySearchMethod<br>AADirectorySearchMethodLegend<br>TotalCallCount  |AADirectorySearchMethod is abs_search_dtmf or abs_search_name    |
-|Caller Action Count                          |AACallerActionCount<br>TotalCallCount                                                            |None       |
-|Average Seconds in AA                        |AAChainDuration                                                                                  |None       |
-|Average Caller Actions                       |AACallerActionCount                                                                              |None       |
-|Call Results                                 |AACallResult<br>AACallResultLegend<br>TotalCallCount                                             |None       |
-|Lower section of report                      |MM-DD<br>AA Name<br>AACallFlow<br>Call Type<br>AACallResult<br>TotalCallCount<br>AAChainDuration |None       |
+ - Section 3 - Auto Attendant Resource Accounts
+
+   blah blah blah
+
+ - Section 4 - Quick Stats - Incoming Calls
+
+   blah blah blah
+
+ - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
+
+   blah blah blah
+   
+ - Section 6 - Quick Stats - Directory Search Method
+
+   blah blah blah
+
+   Directory Search Method Legend (Section 6)
+   - DTMF - Caller used the telephone dial pad to search for the user's name
+   - Voice - Caller used voice input to search for the user's name
+
+
+ - Section 7 - Call Results
+
+   blah blah blah
+   
+   Call Results Legend (Section 7)
+   - Terminated (No Caller Action) - 
+   - Terminated (With Caller Action) -
+   - Terminated (Disconnected) -
+   - Terminated (No Operator) -
+   - Terminated (Transfer Failed) -
+   - Transferred (AA) - Call was transferred to another Auto Attendant
+   - Transferred (CQ) - Call was transferred to a Call Queue
+   - Transferred (Operator) - Call was transferred to the Operator
+   - Transferred (Voicemail) - Call was transferred to Shared Voicemail
+   - Transferred (External) - Call was transferred to an External Number
+   - Transferred (User) - Call was transferred to a Person in the organiation
+   - Other - Some other condition has occurred
+   
+
+ - Section 8 - Call Details Table
+
+   blah blah blah
 
 #### fAutoAttendant table field description
 
@@ -165,12 +193,12 @@ You have to refresh the data to see any new data.
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount (Measure)           |Whole number             |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
+|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except will be 0 if no calls instead of blank                |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration (Measure)               |Decimal number           |Same as AAChainDuration except will be 0 if no calls instead of blank                    |
+|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration except will be 0 if no calls instead of blank                    |
 |AAChainIndex                            |Whole Number             |                                                                                         |
 |AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
 |AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
@@ -184,14 +212,17 @@ You have to refresh the data to see any new data.
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|Count of AADirectorySearchMethod for DTMF |Whole number           |Count of calls that used DTMF to search the directory                                    |
-|Count of AADirectorySearchMethod for Voice |Whole number           |Count of calls that used Voice to search the directory                                    |
+|Count of AADirectorySearchMethod for DTMF (Measure) |Whole number    |Count of calls that used DTMF to search the directory                                    |
+|Count of AADirectorySearchMethod for Voice (Measure) |Whole number   |Count of calls that used Voice to search the directory                                    |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
-|Sum of TotalCallCount (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
+|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
+
+
+
 
 ### Cloud Call Queue Analytics report
 
