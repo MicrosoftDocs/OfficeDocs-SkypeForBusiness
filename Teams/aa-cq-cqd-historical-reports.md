@@ -34,7 +34,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
-## V3.1.3 published on September 13, 2023
+## V3.1.4 published on January XX, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -92,22 +92,25 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.3.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.4.pbit` template file. Power BI Desktop should launch.
 
 4. You're prompted to select the **DataSource** and **UTC Offset**.  
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v312.png" alt-text="Screenshot showing the DataSource and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v314.png" alt-text="Screenshot showing the DataSource, Report Level and UTC Offset selections.":::
 
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
-    - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in.
+    - **Report Level**:
+        - Select `Per Call` (default) to retrieve all the invidual call records.
+        - Select `Per Day` to retrieve an aggregated total for each day. Reporting is based on UTC and UTC Offset is ignored.
+    - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
-   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.0.0.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
 
 6. Select **Connect**, and the data refreshes.
 
@@ -201,21 +204,23 @@ You have to refresh the data to see any new data.
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
+|AA Start Hour                           |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except the value will be 0 if no calls instead of blank                    |
+|AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount                                                           |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration except the value will be 0 if no calls instead of blank                                   |
+|AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration                                                               |
 |AAChainIndex                            |Whole Number             |                                                                                         |
 |AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
 |AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
-|AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod                                    |
-|AAStartHour                             |Whole number             |Auto Attendant call start hour                                                           |
+|AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory                                    |
+|AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory                                   |
+|AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod - see Section 6 above              |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
@@ -223,22 +228,18 @@ You have to refresh the data to see any new data.
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|Count of AADirectorySearchMethod for DTMF (Measure) |Whole number    |Count of calls that used DTMF to search the directory                                    |
-|Count of AADirectorySearchMethod for Voice (Measure) |Whole number   |Count of calls that used Voice to search the directory                                    |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
-|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount except the value will be 0 if no calls instead of blank            |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
+|TotalCallCountSum (Measure)             |Whole number             |Sum of TotalCallCount                                                                    |
 
 #### Known issues
 
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
 1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
-
-
 
 ### Cloud Call Queue Analytics report
 
@@ -279,6 +280,7 @@ You have to refresh the data to see any new data.
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
+|Call Count Sum (Measure)                |Whole number             |Sum of Call Count                                                                        |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
@@ -292,30 +294,28 @@ You have to refresh the data to see any new data.
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
-|CQ Hour                                 |Whole Number             |Call queue call start hour                                                               |
+|CQHour                                  |Whole Number             |Call queue call start hour                                                               |
 |Date                                    |Date/time                |Call queue call start date and time (hour)                                               | 
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
 |DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |PSTN Connectivity Type                  |Text                     |See Common Dimensions -> PSTNConnectivityType                                            |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
-|Sum of Call Count (Measure)             |Whole number             |Same as Call Count however will be 0 when no call                                        |
-|TotalCallCount (Measure)                |Whole Number             |Summarize: Sum<br>Call Count                                                             |
 
 #### fCallQueueFinalStateAction table field description
 
 |Name                                    |Data Type                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds for abandoned calls     |
+|Average Call Duration (Seconds) Average (Measure)  |Whole number  |Average of Average Call Duration (Seconds)                                 |
 |Average Call Queue Duration (Sec)       |Decimal number           |Summarize: Sum<br>Average waiting time in seconds for answered calls       |
-|Avg of Average Call Duration (Measure)  |Whole number             |Same as Average Call Duration (Seconds) however will be 0 when no calls    |
-|Avg of Average CQ Duration (Measure)    |Whole number             |Same as Average Call Queue Duration (Sec) however will be 0 when no calls  |
+|Average Call Queue Duration (Sec) (Measure)        |Whole number  |Aveverage of Average Call Queue Duration (Sec)                             |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
 |Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
 |Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                     |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
-|CQ Hour                                 |Number                   |Hour that the call took place in
+|CQHour                                  |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
 |IsAbandoned                             |True/false               |True if the caller hangs up before the agent answers                       |
@@ -387,7 +387,6 @@ You have to refresh the data to see any new data.
 
 > [!NOTE]
 > When a call arrives at the first Call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second Call queue, then the agents in the second Call queue show as being in the first Call queue on this report. 
-
 
 ## Data Limits
 
