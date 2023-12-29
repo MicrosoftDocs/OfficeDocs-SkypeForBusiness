@@ -65,7 +65,7 @@ The minimum compatible version is 2.85.681.0 (September 2020).
 
 ### Power BI Service
 
-These reports may be [published to the Power BI service](/power-bi/create-reports/desktop-upload-desktop-files).
+These reports can be [published to the Power BI service](/power-bi/create-reports/desktop-upload-desktop-files).
 
 Once the report is published:
 
@@ -88,7 +88,7 @@ This requirement will be removed in a future release.
 
 ## V3.x.x desktop installation
 
-The following steps assume you have already installed Power BI Desktop on your computer and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume the Power BI Desktop client is installed on your computer and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
@@ -204,12 +204,12 @@ You have to refresh the data to see any new data.
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except 0 if no calls instead of blank                    |
+|AACallerActionCount - zero instead of blank (Measure) |Whole number   |Same as AACallerActionCount except the value will be 0 if no calls instead of blank                    |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
 |AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration 0 if no calls instead of blank                                   |
+|AAChainDuration - zero instead of blank (Measure) |Decimal number |Same as AAChainDuration except the value will be 0 if no calls instead of blank                                   |
 |AAChainIndex                            |Whole Number             |                                                                                         |
 |AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
 |AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
@@ -229,7 +229,7 @@ You have to refresh the data to see any new data.
 |DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
-|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount 0 if no calls instead of blank            |
+|Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount except the value will be 0 if no calls instead of blank            |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 
 #### Known issues
@@ -318,7 +318,7 @@ You have to refresh the data to see any new data.
 |CQ Hour                                 |Number                   |Hour that the call took place in
 |Date                                    |Date/time                |Call Queue call start date and time (hour)                                 |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                     |
-|IsAbandoned                             |True/false               |True if caller hangs up before being answered by an agent                  |
+|IsAbandoned                             |True/false               |True if the caller hangs up before the agent answers                       |
 |Local Date                              |Date/time                |Local date/time (based on selected UTC Offset)                             |
 |UTC Date                                |Date/time                |UTC  date/time                                                             |
 
@@ -386,20 +386,21 @@ You have to refresh the data to see any new data.
 |Total Call Duration (Minutes)           |Whole number             |Summarize: Sum<br>Total call duration of answered Call queue calls in minutes  |
 
 > [!NOTE]
-> When a call arrives at the first Call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second Call queue, then the agents in the second Call queue will be shown as being in the first Call queue on this report. 
+> When a call arrives at the first Call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second Call queue, then the agents in the second Call queue show as being in the first Call queue on this report. 
+
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report won't show all calls for all days within the selected date range.  There is no notification when this occurs.  Try shortening the date range to avoid this issue.
+Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range.  There's no notification when this exclusion occurs.  Try shortening the date range to avoid this issue.
 
-If shortening the date range is not sufficient, it is possible to increase the number of rows that can be retrieved by modifying the report as follows:
+If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
-1. Right click on the "fAutoAttendant" field on the right, click "Edit Query".
-2. Right click on "CommonQueryParameters" and click "Advanced Editor".
+1. Right click on the "fAutoAttendant" field on the right, select "Edit Query".
+2. Right click on "CommonQueryParameters" and select "Advanced Editor".
 3. Change the "LimitedResultRowsCount" to a larger number.
 4. Save the report.
 
-The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than this will have no effect as this is a hard-coded limit.
+The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
 
 Increasing the limit results in longer response times.
 
@@ -411,7 +412,7 @@ Increasing the limit results in longer response times.
 
 3. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-4. In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
+4. In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 ## Customization
 
@@ -419,7 +420,7 @@ You can customize certain visualization aspects of the reports, such as adding o
 
 ### Change color schema
 
-The following steps assume you have already completed the installation steps.
+The following steps assume you already completed the installation steps.
 
 Perform the following steps:
 
@@ -484,7 +485,7 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
 |                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
 |                                                       |oaa_chain_too_long             |Too many legs in the AA                                           |
-|                                                       |oaa_session_too_long           |AA session has lasted too long                                    |
+|                                                       |oaa_session_too_long           |AA session lasted too long                                        |
 |                                                       |service_declined               |AA didn't accept the call                                         |
 |                                                       |service_terminated             |AA configuration disconnects the call or call hung up             |
 |                                                       |terminated_automatic_selection |AA configuration disconnects the calls                           |
@@ -497,7 +498,7 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |transferred_to_self            |Call was returned to the start of the AA                          |
 |                                                       |transferred_to_shared_voicemail |Call was transferred to shared voicemail                         |
 |                                                       |transferred_to_user            |Call was transferred to a user                                    |
-|                                                       |unknown                        |An unknown condition has occurred                                 |
+|                                                       |unknown                        |An unknown condition occurred                                     |
 |                                                       |user_terminated                |Caller hung up                                                    |
 |AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
 |AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |                                                                  |
@@ -672,7 +673,7 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
 ### Reading the result
 
-After you submit your input, there will be a couple of possible results:
+After you submit your input, there are a couple of possible results:
 
 - If the input is invalid, an error message with the actual reason is returned
 - If the input is valid, the result looks like this:
@@ -756,20 +757,20 @@ Base64 URL encoded output looks like this:
 >
 > Requests into the system are throttled based on the IP address making the call, the recognized tenant identity in the auth header, as well as the calling service in order to prevent a single client, tenant, or service from monopolizing the resources.
 
-## Version 3.x.x history
+## Version 3.x.x history and support status
 
 Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx in the downloaded zip file for a detailed list of changes.
 
-|Version  |Date Published     |Filename                                                    |Description                                                             |
-|:--------|:------------------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.3    |September 13, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Accessibility improvements for screen readers   |
-|3.1.2    |July 21, 2023      |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
-|3.1.1    |May 11, 2023       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
-|3.1.0    |May 1, 2023        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
-|3.0.7    |February 16, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
-|3.0.6    |February 14, 2023  |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
-|3.0.5    |January 9, 2023    |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
-|3.0.4    |November 18, 2022  |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
-|3.0.3    |November 8, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.3 |Corrected error, added documentation link, optimized queries            |
-|3.0.1    |October 26, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.1 |Removed testing data source entry                                       |
-|3.0.0    |October 25, 2022   |Teams Auto Attendant & Call Queue Historical Reports V3.0.0 |New backend data source                                                 |
+|Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
+|:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.1.3    |September 13, 2023 |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Accessibility improvements for screen readers   |
+|3.1.2    |July 21, 2023      |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
+|3.1.1    |May 11, 2023       |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
+|3.1.0    |May 1, 2023        |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
+|3.0.7    |February 16, 2023  |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
+|3.0.6    |February 14, 2023  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
+|3.0.5    |January 9, 2023    |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
+|3.0.4    |November 18, 2022  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
+|3.0.3    |November 8, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.3 |Corrected error, added documentation link, optimized queries            |
+|3.0.1    |October 26, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.1 |Removed testing data source entry                                       |
+|3.0.0    |October 25, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.0 |New backend data source                                                 |
