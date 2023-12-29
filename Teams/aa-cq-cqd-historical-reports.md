@@ -165,26 +165,26 @@ You have to refresh the data to see any new data.
    This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers didn't use it.
 
    Directory Search Method Legend Definitions:
-   - DTMF - Caller used the telephone dial pad to search for the user's name
-   - Voice - Caller used voice input to search for the user's name
+    - DTMF - Caller used the telephone dial pad to search for the user's name
+    - Voice - Caller used voice input to search for the user's name
 
  - Section 7 - Call Results
 
    A breakdown showing the call treatment received by callers.
    
    Call Results Legend Definitions:
-   - Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections
-   - Terminated (With Caller Action) - Call was disconnected - the caller had made some selections
-   - Terminated (Disconnected) - Call was disconnected per the auto attendant configuration
-   - Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to
-   - Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed
-   - Transferred (AA) - Call was transferred to another Auto Attendant
-   - Transferred (CQ) - Call was transferred to a Call Queue
-   - Transferred (Operator) - Call was transferred to the Operator
-   - Transferred (Voicemail) - Call was transferred to Shared Voicemail
-   - Transferred (External) - Call was transferred to an External Number
-   - Transferred (User) - Call was transferred to a Person in the organization
-   - Other - Some other condition has occurred
+    - Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections
+    - Terminated (With Caller Action) - Call was disconnected - the caller had made some selections
+    - Terminated (Disconnected) - Call was disconnected per the auto attendant configuration
+    - Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to
+    - Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed
+    - Transferred (AA) - Call was transferred to another Auto Attendant
+    - Transferred (CQ) - Call was transferred to a Call Queue
+    - Transferred (Operator) - Call was transferred to the Operator
+    - Transferred (Voicemail) - Call was transferred to Shared Voicemail
+    - Transferred (External) - Call was transferred to an External Number
+    - Transferred (User) - Call was transferred to a Person in the organization
+    - Other - Some other condition has occurred
 
    > [!TIP]
    > Hover over any metric in this section to display a tooltip with the individual calls that make up the total.
