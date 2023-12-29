@@ -37,11 +37,14 @@ With Walkie Talkie in Teams, users can securely communicate with a familiar PTT 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.-->
 
-The Walkie Talkie app in Microsoft Teams provides a push-to-talk (PTT) experience that enables clear, instant, and secure voice communications – turning Android and iOS devices into a walkie talkie. Your users connect with their teams through the same underlying Teams channels that they're already members of.
+The Walkie Talkie app in Microsoft Teams provides a push-to-talk (PTT) experience that enables clear, instant, and secure voice communications – turning Android and iOS devices into a walkie talkie. Your users connect with their team through the same underlying Teams channels that they're already members of.
 
-Users who connect to Walkie Talkie in a channel become participants and can communicate with each other using PTT. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
+Team members can listen and talk to other team members who are connected through Walkie Talkie on the same channel. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
 
-With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. And because Walkie Talkie works over Wi-Fi or cellular data, your users can stay connected to their team from anywhere they have an internet connection.
+With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. And because Walkie Talkie works over Wi-Fi or cellular data, your users can stay connected to and instantly communicate with their team from anywhere they have an internet connection.
+
+> [!NOTE]
+> Walkie Talkie currently is not available in China.
 
 ## License requirements
 
@@ -62,7 +65,7 @@ Walkie Talkie requires connectivity to the internet. Use the following guidance 
 
 ## Deploy Walkie Talkie
 
-You can deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
+You deploy and manage Walkie Talkie from the Teams admin center. Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
 > [!IMPORTANT]
 > Deployment is a three-step process. You'll need to complete all three steps for your users to have access to Walkie Talkie.
