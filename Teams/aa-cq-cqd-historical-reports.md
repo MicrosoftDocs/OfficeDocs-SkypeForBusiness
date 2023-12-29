@@ -53,7 +53,7 @@ The Teams Auto Attendant & Call Queue Historical Report Power BI template provid
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
 
 > [!NOTE]
-> The `Original` reports will be removed from the Power BI template at the end of June 2024.
+> The `Original` reports will be removed from the Power BI template in July 2024.
 
 ## V3.x.x prerequisites
 
@@ -139,11 +139,11 @@ You have to refresh the data to see any new data.
 
  - Section 2 - Time Range
 
-   The start and end hour of the report.  The report spans all dates/times from the Start Date/Start Hour to the End Date/End Hour.
+   The start and end hour of the report.  The report spans all dates/times from the start date/start hour to the end date/end hour.
 
  - Section 3 - Auto Attendant Resource Accounts
 
-   The Resource Accounts to be reported on. Select all the resource accounts assign to a specific Auto Attendant to see all the calls for that Auto Attendant.
+   The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant.
 
    Default: All
    
@@ -152,7 +152,7 @@ You have to refresh the data to see any new data.
    A breakdown showing the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
+   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
 
  - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
 
@@ -162,9 +162,9 @@ You have to refresh the data to see any new data.
 
    A breakdown showing how the Directory Search option was used by callers.
 
-   This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers did not use it.
+   This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers didn't use it.
 
-   Directory Search Method Legend Definitions
+   Directory Search Method Legend Definitions:
    - DTMF - Caller used the telephone dial pad to search for the user's name
    - Voice - Caller used voice input to search for the user's name
 
@@ -172,7 +172,7 @@ You have to refresh the data to see any new data.
 
    A breakdown showing the call treatment received by callers.
    
-   Call Results Legend Definitions
+   Call Results Legend Definitions:
    - Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections
    - Terminated (With Caller Action) - Call was disconnected - the caller had made some selections
    - Terminated (Disconnected) - Call was disconnected per the auto attendant configuration
@@ -187,14 +187,14 @@ You have to refresh the data to see any new data.
    - Other - Some other condition has occurred
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
+   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
    
  - Section 8 - Call Details Table
 
    A breakdown showing the caller paths through the auto attendant and the final call result.
 
    > [!TIP]
-   > Hover over any of metrics in this section to display a tooltip will with the individual calls that make up the total.
+   > Hover over any of metrics in this section to display a tooltip with the individual calls that make up the total.
 
 #### fAutoAttendant table field description
 
