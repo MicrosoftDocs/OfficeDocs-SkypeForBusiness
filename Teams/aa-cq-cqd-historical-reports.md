@@ -135,19 +135,23 @@ You have to refresh the data to see any new data.
 
  - Section 1 - Date
    
-   blah blah blah
+   The start and end date of the report.
 
  - Section 2 - Time Range
 
-   blah blah blah
+   The start and end hour of the report.  The report will span all dates/times from the Start Date/Start Hour to the End Date/End Hour.
 
  - Section 3 - Auto Attendant Resource Accounts
 
-   blah blah blah
+   The Resource Accounts to be reported on. To show all the traffic for a specific Auto attendant select all the resource accounts assigned to that Auto attendant.
 
+   Default: All
+   
  - Section 4 - Quick Stats - Incoming Calls
 
-   blah blah blah
+   A breakdown on the total number of calls received between the Start Date/Start Hour and End Date/End Hour.
+
+   When hovering over any of metrics in this section a tooltip will appear showing the individual calls that make up the total.
 
  - Section 5 - Quick Stats - Usage Statistics and Caller Action Count
 
@@ -155,23 +159,24 @@ You have to refresh the data to see any new data.
    
  - Section 6 - Quick Stats - Directory Search Method
 
-   blah blah blah
+   A breakdown on how the Directory Search option was used by callers.
 
-   Directory Search Method Legend (Section 6)
+   This section of the report will be blank if the Auto Attendant isn't configured to provided this service or if callers did not use it.
+
+   Directory Search Method Legend Definitions
    - DTMF - Caller used the telephone dial pad to search for the user's name
    - Voice - Caller used voice input to search for the user's name
 
-
  - Section 7 - Call Results
 
-   blah blah blah
+   A breakdown of the call treatment received by callers.
    
-   Call Results Legend (Section 7)
-   - Terminated (No Caller Action) - 
-   - Terminated (With Caller Action) -
-   - Terminated (Disconnected) -
-   - Terminated (No Operator) -
-   - Terminated (Transfer Failed) -
+   Call Results Legend Definitions
+   - Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections
+   - Terminated (With Caller Action) - Call was disconnected - the caller had made some selections
+   - Terminated (Disconnected) - Call was disconnected per the auto attendant configuration
+   - Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to
+   - Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed
    - Transferred (AA) - Call was transferred to another Auto Attendant
    - Transferred (CQ) - Call was transferred to a Call Queue
    - Transferred (Operator) - Call was transferred to the Operator
@@ -179,11 +184,11 @@ You have to refresh the data to see any new data.
    - Transferred (External) - Call was transferred to an External Number
    - Transferred (User) - Call was transferred to a Person in the organiation
    - Other - Some other condition has occurred
+  
    
-
  - Section 8 - Call Details Table
 
-   blah blah blah
+   A breakdown of the caller paths through the auto attendant and the final call result.
 
 #### fAutoAttendant table field description
 
@@ -221,6 +226,11 @@ You have to refresh the data to see any new data.
 |Sum of TotalCallCount - zero instead of blank (Measure)         |Whole number             |Same as TotalCallCount except will be 0 if no calls instead of blank                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 
+#### Known issues
+
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
+1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+1. Date selector....
 
 
 
@@ -389,13 +399,13 @@ Increasing the limit will result in longer response times.
 
 ## Known issues
 
-- Only the calls and caller actions in the first Auto attendant or Call queue that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) or chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
+1. Only the calls and caller actions in the first Auto attendant or Call queue that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) or chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
 
-- Call queues and Auto attendants are shown by the resource account's ID instead of Call queue or Auto attendant names.  To show all the traffic for an Auto attendant or Call queue, you must select all the resource accounts assigned to the Auto attendant or Call queue.
+2. Call queues and Auto attendants are shown by the resource account's ID instead of Call queue or Auto attendant names.  To show all the traffic for an Auto attendant or Call queue, you must select all the resource accounts assigned to the Auto attendant or Call queue.
 
-- Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+3. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
 
-- In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
+4. In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 ## Customization
 
