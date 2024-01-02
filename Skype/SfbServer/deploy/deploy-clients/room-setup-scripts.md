@@ -15,12 +15,12 @@ ms.custom:
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: "Read this topic to find sample scripts for provisioning Skype Room System accounts."
+description: "Read this article to find sample scripts for provisioning Skype Room System accounts."
 ---
 
 # Skype Room System room setup scripts
  
-Read this topic to find sample scripts for provisioning Skype Room System accounts.
+Read this article to find sample scripts for provisioning Skype Room System accounts.
   
 This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are only for illustrative purposes. They should be used only after you consult with your IT expert or domain administrator.
   
@@ -42,9 +42,9 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 Make sure you've reviewed the following prerequisites before running the script:
   
-- Microsoft Online Services Sign-In Assistant for IT Professionals BETA
+- Microsoft Online Services Sign in Assistant for IT Professionals BETA
     
-- Windows Azure Active Directory module for Windows PowerShell (64-bit version) or (32-bit version)
+- Microsoft Azure Active Directory module for Windows PowerShell (64-bit version) or (32-bit version)
     
 - Teams PowerShell Module
     
