@@ -1,10 +1,10 @@
 ---
 title: Call Quality Dashboard (CQD) setup
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
-ms.reviewer: mikedav, siunies, gageames
-ms.date: 11/28/2017
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
+ms.reviewer: mikedav, siunies, gageames, jamp
+ms.date: 12/12/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,8 +29,6 @@ description: Learn about how to turn on and use the Call Quality Dashboard and g
 # Set up the Call Quality Dashboard
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Analytics & reports** > **Call Quality Dashboard**.
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
 On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019.
 

@@ -3,7 +3,7 @@ title: Configure log files for monitoring and troubleshooting in Teams
 ms.reviewer: tejeshs
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting

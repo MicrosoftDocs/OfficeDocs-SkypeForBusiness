@@ -2,7 +2,7 @@
 title: Configure network settings - Location-Based Routing
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.reviewer: roykuntz
 ms.date: 09/01/2023

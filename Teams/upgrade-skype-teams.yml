@@ -10,9 +10,9 @@ metadata:
   description: Microsoft Teams is designed to help people stay connected, collaborate seamlessly, and simplify work in a secure and compliant way - all in one place. Here you’ll find guidance, training, and resources to implement a successful upgrade from Skype for Business to Teams. # < 160 chars.
   ms.service: msteams #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
-  author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
-  ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  manager: serdars
+  author: MicrosoftHeidi #Required; your GitHub user alias, with correct capitalization.
+  ms.author: heidip #Required; microsoft alias of author; optional team alias.
+  manager: jtremper
   ms.date: 01/27/2020 #Required; mm/dd/yyyy format.
   ms.reviewer: landerl
   audience: admin

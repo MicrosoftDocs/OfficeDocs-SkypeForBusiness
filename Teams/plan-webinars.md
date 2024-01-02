@@ -1,11 +1,11 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 10/11/2023
+ms.date: 12/6/2023
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
 ms.custom: intro-overview
@@ -30,6 +30,10 @@ description: Learn how to plan for webinars in Microsoft Teams.
 
 **APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
+A webinar is a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants. Common scenarios for webinars might include trainings, product demos, sales lead generation, customer events, company announcements, and showcasing products. Webinars can accommodate up to 1,000 attendees and allow organizers to gather registration data from attendees before the event.
+
+As an admin, this article guides you through how to plan and prepare for webinars in your organization.
+
 ## Turn webinars on or off
 
 Webinars are enabled by default. If you'd like to disable or manage webinars for users in your organization, see [Manage who can schedule webinars](set-up-webinars.md).
@@ -42,7 +46,7 @@ If you'd like to get familiar with how policies work for Teams meetings and even
 
 For a full list of admin policies and organizer settings for webinars, see the [Webinar control comparison](#webinar-control-comparison) section in this article.
 
-## In-org vs public webinars
+## Decide the types of webinars that organizers can create
 
 There are a few key differences between in-org and public webinars. When managing the event access type for webinars to decide whether organizers can schedule public webinars, consider the information in the following table:
 
@@ -58,6 +62,7 @@ There are a few key differences between in-org and public webinars. When managin
 |Organizers can decide if attendees with a registration link can bypass the lobby|✔️|✔️|
 |Organizers can decide if anyone who can't bypass the lobby is automatically rejected|✔️|✔️|
 |Attendees can dial in to join|✖️|✖️|
+|Includes external presenters|✔️|✔️|
 
 ## Webinar attendee interaction
 
@@ -74,12 +79,12 @@ As an admin, you can manage the following features attendees use for interaction
 
 A Teams Premium subscription includes the following features for webinars:
 
-- Create a webinar wait list
+- Create a webinar wait list.
 - Limit the day and time when people can register.
-- Manage attendees’ view
-- Manually approve registrants
-- Use RTMP-in
-- Send reminder emails to registrants
+- Manage attendees’ view.
+- Manually approve registrants.
+- Use RTMP-in.
+- Send reminder emails to registrants.
 - Set up a green room for webinar presenters.
 
 ## Webinar control comparison
@@ -88,16 +93,17 @@ Teams admins and organizers have different policies and settings to control the 
 
 |Feature|Admins|Organizers|
 |:------|:-----|:---------|
-|[Attendance reports](teams-analytics-and-reports/meeting-attendance-report.md) |Can turn on or off, or allow the organizer to choose.|Can turn on or off if allowed by admin.|
+|[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers, and attendees can read and write chat messages.|Can manage whether chat is available for their webinars.|
-|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes|No control|
-|[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present|Can control who can present|
+|[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control.|
+|[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|
-|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control|Can choose if green room is used for a webinar.|
+|[External presenters](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the webinar without waiting in the lobby.|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a webinar.|
+|[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
 |[Manage who can schedule webinars](set-up-webinars.md)|Can disable webinars for users and groups, control which organizers can schedule webinars,  and decide whether organizers can schedule public webinars.|Can schedule webinars if allowed by admin.|
-[Publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in webinars.|Can decide if Q&A is available for their webinars if allowed by admins.|
 |[Reactions and hand raise](manage-reactions-meetings.md)| Manage whether organizers can use reactions and hand raise in their webinars with this policy. |Can control whether reactions and hand raise can be used in their webinars. |
 |[Recording](meeting-recording.md)| Can allow or prevent webinar recording. |If the admin enables recording, organizers can set who can record and automatic recording. |
@@ -105,10 +111,11 @@ Teams admins and organizers have different policies and settings to control the 
 |[Registration form](manage-registration-form-webinars.md)| Can manage the types of questions an organizer can require attendees to answer when registering for webinars. | Can edit the registration form depending on admin settings.|
 |[RTMP-in (Premium)](meetings-rtmp-in.md)| Can allow or disable RTMP-in for organizers. | Can produce their Teams webinar directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
-|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable CART captions.|
+|[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
-|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View the activity overview for webinars created in your organization.|No control.|
+|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
 
 ## Need help with your webinar?
 
-Are you and your organizers new to hosting webinars or just need some extra help? The Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running webinars. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
+Are you and your organizers new to hosting webinars or just need some extra help? The Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running webinars. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance).

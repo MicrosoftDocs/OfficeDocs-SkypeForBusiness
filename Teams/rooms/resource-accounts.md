@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Rooms Resource Accounts
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: dansimp
 ms.date: 09/29/2023
 ms.topic: article
@@ -29,11 +29,14 @@ description: Learn how to see the status of your resource accounts information; 
 
 # Resource accounts
 
+> [!IMPORTANT]
+> The option of managing resource accounts isn't available for GCC tenants.
+
 Resource accounts is a feature that enables you to see the status of your resource accounts for Teams Rooms; and the information pertaining to mailbox settings, location, and license.
 
 ## View resource accounts
 
-The **Resource Accounts** page shows you all the resource accounts that your organization created for your Teams Rooms. You can see the account name, UPN, location in different columns for each resource account.
+The **Resource Accounts** page shows you all the resource accounts that your organization created for your Teams Rooms. You can see the account name, UPN, and location in different columns for each resource account.
 
 The **Resource Accounts** page also has a **Refresh** option on the command bar to fetch newly created resource accounts from Entra.
 
@@ -72,8 +75,8 @@ Once you've configured the settings of the account and its other associated sett
 
 To view the licenses assigned to a resource account, perform the following steps:
 
-1. Select a resource account and navigate to the page displays its settings and other details.
-1. Select **Licenses** tab. You can view the Teams Rooms licenses that are assigned to the chosen resource account.
+1. Select a resource account and navigate to the page displaying its settings and other details.
+1. Select **Licenses** tab. You can view the Teams Rooms licenses that have been assigned to the chosen resource account.
 
    :::image type="content" source="../media/licenses-assigned-to-resource-account.png" alt-text="Screenshot that shows the page displaying details of licenses assigned to a resource account." lightbox="../media/licenses-assigned-to-resource-account.png":::
 
@@ -90,4 +93,4 @@ This section lists crucial alert messages and their descriptions:
 |An error occurred while exporting file, please try again later. If the problem persists, please contact support.     | This message appears when an error has occurred while exporting resource accounts.         |
 |An error occurred while saving your request, please try again later. If the problem persists, please contact support.     | This message appears when an error has occurred while saving mailbox settings.    |
 |Your changes have been saved successfully     |    This message appears when the mailbox settings have been saved successfully.     |
-|An error occurred while applying recommended config. Please try again later. If the problem persists, please contact support.     | This message appears when an error has occurred while applying recommended config to resource account.     |
+|An error occurred while applying recommended config. Please try again later. If the problem persists, please contact support.     | This message appears when an error has occurred while applying recommended configuration to resource accounts.     |

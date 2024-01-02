@@ -2,7 +2,7 @@
 title:  Classic Teams users to be automatically updated to new Teams
 ms.author: jhendr
 author: JoanneHendrickson
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.date: 10/31/2023
 ms.service: msteams
@@ -23,10 +23,12 @@ ms.localizationpriority: high
 
 # Classic Teams users to be updated to new Teams after March 31, 2024
 
-After March 31, 2024, any classic Teams users that haven't updated to new Teams, will be automatically updated to new Teams. 
+After **March 31, 2024**, any classic Teams users that haven't updated to new Teams, will be automatically updated to new Teams. 
 
 >[!Important]
->This automatic update does not apply to Virtualized Desktop Infrastructure (VDI) users. Microsoft Teams Room (MTR) and Surface Hub devices will also not be affected by the March 31, 2024, timeline.
+>This automatic update **does not apply** to Virtualized Desktop Infrastructure (VDI) users. **Classic Teams for VDI** will reach end of support on **June 30th, 2024**. Learn more: [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)]
+>
+>Microsoft Teams Room (MTR) and Surface Hub devices aren't affected by the March 31, 2024 timeline.
 
 Between now and March 31, 2024, you can continue to use classic Teams. However, we suggest that classic Teams users update to new Teams as soon as possible to benefit from the new features and capabilities that are only available in new Teams.
 

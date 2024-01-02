@@ -2,7 +2,7 @@
 title: Manage email communications for town halls and webinars
 author: wlibebe
 ms.author: wlibebe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams

@@ -1,8 +1,8 @@
 ---
 title: Create resource accounts for rooms and shared Teams devices
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.reviewer: sohailta
 ms.date: 08/03/2023

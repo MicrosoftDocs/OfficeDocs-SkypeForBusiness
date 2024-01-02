@@ -2,7 +2,7 @@
 title: Manage Microsoft Teams Free (classic)
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

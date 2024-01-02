@@ -4,7 +4,7 @@ ms.reviewer: jenstr
 ms.date: 10/16/2023
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,6 +28,8 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 This article describes what you need to know before configuring Shared Calling for Teams Phone.
 
 If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
+
+Note: Shared Calling is currently available in public clouds only.
 
 Let's start with some definitions that you'll need to know for Shared Calling:
 

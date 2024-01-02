@@ -2,7 +2,7 @@
 title: Set up Meeting Registration in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: justle, ritikag
 ms.date: 10/01/2023
 ms.topic: article

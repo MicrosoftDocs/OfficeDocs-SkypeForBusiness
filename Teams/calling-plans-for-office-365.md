@@ -2,7 +2,7 @@
 title: Microsoft Calling Plans for Teams
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 08/28/2023
 ms.topic: article

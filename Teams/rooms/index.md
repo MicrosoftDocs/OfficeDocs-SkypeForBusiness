@@ -3,8 +3,8 @@ title: Microsoft Teams Rooms
 ms.reviewer: 
 ms.date: 10/04/2023
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 feedback_system: None

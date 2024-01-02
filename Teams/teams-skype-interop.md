@@ -2,7 +2,7 @@
 title: Teams and Skype interoperability
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

@@ -1,8 +1,8 @@
 ---
 title: Plan for Teams Auto attendants and Call queues
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/22/2023
 ms.topic: article
@@ -84,7 +84,7 @@ Agents who receive calls from the Call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for Call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in Call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
+When a resource account is used for calling line ID purposes in Call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned.
 - An [Operator Connect](operator-connect-plan.md) phone number assigned.
@@ -107,16 +107,16 @@ Which resource account to license:
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits, the call will fail.
 >
 > Direct Routing service numbers for Auto attendant and Call queues are supported for Microsoft Teams users and call agents only.
-> 
+>
 > Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.
-> 
+>
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
-> 
+>
 > New Commerce Experience customers are not yet supported for resources accounts when an auto attendant or call queue needs to transfer calls to an external number.
 
 ## Business decisions
 
-Before you set up your Auto attendants and Call queues, there are some decisions that you should make about how to use these features in your business. These decisions will determine the settings that you choose when you configure your Auto attendants and Call queues.
+Before you set up your Auto attendants and Call queues, there are some decisions that you should make about how to use these features in your business. These decisions determine the settings that you choose when you configure your Auto attendants and Call queues.
 
 Document your answers to these questions and provide the information to the administrator doing the configuration.
 
@@ -155,17 +155,17 @@ Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the require
 
 Conference mode is enabled by default. If you have agents who don't meet the requirements, then conference mode must be manually disabled during Call queue configuration.
 
-**Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
+Call routing flow plans for Auto attendants and Call queues help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md).
 
 ## Getting started
 
-Once you've completed the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
+Once you complete the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
 
 1. Get the service numbers that you need for the Auto attendants and Call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
 
 2. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 
-3. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create. Assign a Teams Phone Resource Account license to each resource account that will be directly callable and, optionally, a service number.
+3. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create. Assign a Teams Phone Resource Account license to each resource account that's directly callable and, optionally, a service number.
 
 4. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your Auto attendants.
 
@@ -173,9 +173,9 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 6. Create the groups that you want to use to contain the call agents for the Call queues.
 
-7. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Microsoft Entra profile.
+7. If you plan to allow dial by extension, ensure that you add your users' extension number to their Microsoft Entra profile.
 
-Once you've completed the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
+Once you complete the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
 
 See the following articles for information on how to create Auto attendants and Call queues:
 
@@ -185,18 +185,20 @@ See the following articles for information on how to create Auto attendants and 
 > [!IMPORTANT]
 > A user's Microsoft Entra GUID token is stored as part of the Auto attendant or Call queue configuration when the user is configured as:
 >
->  - an Auto attendant or Call queue **Authorized user**.
->  - an Auto attendant **Operator**.
->  - a **Person in Organization** transfer point.
->  - an individual member of a Call queue.
-> 
+> - an Auto attendant or Call queue **Authorized user**.
+> - an Auto attendant **Operator**.
+> - a **Person in Organization** transfer point.
+> - an individual member of a Call queue.
+>
 > The Auto attendant and Call queue configurations aren't synchronized with Microsoft Entra lifecycle events.  Teams administrators need to manually update Auto attendant and Call queue configurations to remove this personal data when a user included in the configuration leaves the organization.
 >
 > This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 
 If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
 
-## Related topics
+## Related articles
+
+[Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
 
 [Plan Direct Routing](direct-routing-plan.md)
 

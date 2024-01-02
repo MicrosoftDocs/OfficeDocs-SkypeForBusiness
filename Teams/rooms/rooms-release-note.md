@@ -1,10 +1,10 @@
 ---
 title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: sohailta
 ms.date: 11/01/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -40,6 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[4.19.57.0](#419570-11162023) | 11/16/2023 |
 |[4.18.44.0](#418440-9202023) | 9/20/2023 |
 |[4.18.35.0](#418350-8212023) | 8/21/2023 |
 |[4.17.51.0](#417510-6282023) | 6/28/2023 |
@@ -55,13 +56,29 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
+Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
+
+### 4.19.57.0 (11/16/2023)
+
+Introduced in this update:
+
+- **End of support for Skype for Business server and legacy home screen UI**. Support for Skype for Business and Skype for Business + Microsoft Teams as meeting modes are no longer available, and settings that were required for this set up are removed. The legacy home screen experience is also no longer officially supported. Learn more at [End of support for connecting to Skype for Business server in Microsoft Teams Rooms on Windows](https://techcommunity.microsoft.com/t5/skype-for-business-blog/end-of-support-for-connecting-to-skype-for-business-server-in/ba-p/3915956).
+- **Touch board form factor support**. Teams Rooms on Windows now support certified Touch board form factors like Surface Hub 3. Touch boards run Teams rooms touch experience on single screen.  Portrait mode/Rotation on Surface Hub 3 is in preview with more optimizations to follow. 
+- **One time passcode (OTP) based setup**:::image type="icon" source="../media/mtr-pro-icon.png":::. One-time passcode (OTP) provides a new and simplified way to set up Teams Room on Windows. During the first-time setup experience, the installer is presented with an option to enter a One-time passcode instead of resource account credentials, eliminating the need to share room account passwords. OTP is then used to automatically fetch the resource account credentials and sign into Teams Rooms. Teams room admins can provision the OTP from the Teams Rooms Pro Management Portal. 
+- **Front Row Enhancement - Active video speaker promotion**. Front Row now promotes pinned or spotlighted participants to the center stage when there is no shared content in the single and dual display mode to make the most of empty space. For single display mode, when no one is pinned, spotlighted, or sharing content, the most recent active speaker video will be promoted to the center. In dual display mode, when no one is pinned, spotlighted, or sharing content, the two most recent active speaker videos will be promoted to the center on each screen. If someone is sharing content, the most recent active video speaker will be promoted on the right screen.
+- **Support Joining a Teams Live Event as an Attendee**. Follow the instructions on [Attend a live event in Microsoft Teams](https://support.microsoft.com/en-us/office/attend-a-live-event-in-microsoft-teams-a1c7b989-ebb1-4479-b750-c86c9bc98d84) to join a live event as an attendee and watch the streaming experience.
+- **Teams Room on Windows content camera enhancements**. Teams rooms on Windows support content cameras that are [certified by Microsoft](content-camera.md?tabs=Windows#supported-cameras-and-settings) to share analog Whiteboard in rooms. Customers now have the additional choice to connect any Teams certified or any other camera as a content camera on Teams Rooms on Windows to allow ease of use.
+- **Responsive calendar sizing**. The calendar size changes dynamically based on screen width and height to adapt to various front-of-room display sizes. Learn more at [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds).
+
+> [!NOTE]
+> Microsoft cannot guarantee that cloud enhancement filters work consistently on content camera not certified by Microsoft, so customers must validate the experience before rolling it out.
+
 ### 4.18.44.0 (9/20/2023)
 
 - This update resolves a problem that prevents the room display resolution and scaling setting (configured using XML) from working on version 4.18.35.0 when sometimes Windows resets it to the default display settings.
 
 ### 4.18.35.0 (8/21/2023)
 
-Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 Introduced in this update:
 
 - **Cloud IntelliFrame**:::image type="icon" source="../media/mtr-pro-icon.png":::. Cloud IntelliFrame makes non-AI cameras smarter. With Cloud IntelliFrame, participants in the room appear similar to remote attendees, creating an immersive and engaging experience for everyone. Whether working from home or in the office, participants are able to see every facial expression and cue, as if they were there in person. 
@@ -75,7 +92,6 @@ Introduced in this update:
 
 ### 4.17.51.0 (6/28/2023)
 
-Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 Introduced in this update:
 
 - Teams Rooms user interface refresh is applied by default.
@@ -107,7 +123,7 @@ Introduced in this update:
 Introduced in this update:
 
 - In-meeting notification improvement
-- Meeting chat in Gallery, Large gallery, and Together mode <sup>1</sup>
+- Meeting chat in Gallery, Large gallery, and Together mode <sup>1</sup> :::image type="icon" source="../media/mtr-pro-icon.png":::
 - Start whiteboard in Teams meetings
 - Fit-to-frame room video roster control
 - Overflow meeting support
@@ -641,6 +657,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023111001](#144910962023120801-december-2023) | December 2023 |
+|[1449/1.0.96.2023111001](#144910962023111001-december-2023) | December 2023 |
 |[1449/1.0.96.2023090601](#144910962023090601-october-2023) | October 2023 |
 |[1449/1.0.96.2023062301](#144910962023062301-june-2023)     | June 2023        |
 |[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
@@ -661,6 +679,20 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023120801 (December 2023)
+
+Introduced in this update:
+
+- Bug fixes for app crashes and issues with daily maintenance restart window. 
+
+### 1449/1.0.96.2023111001 (December 2023)
+
+Introduced in this update:
+
+- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on it's local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- Bug fixes for app crashes and devices not showing up on Intune.
+- Significant reduction in sign out errors and pairing issues due to Workplace Join failures, timeout issues, and memory leaks. 
 
 ### 1449/1.0.96.2023090601 (October 2023)
 
@@ -714,9 +746,6 @@ Introduced in this update:
 ### 1449/1.0.96.2022120503 (December 2022)
 
 Introduced in this update:
-
-> [!NOTE]
-> This release is an app only update. Availability may vary depending on device model and make. Please work with device manufacturers to confirm app support timelines on your devices.
 
 - Whenever you want to brainstorm in the office, simply walk up and start whiteboarding using the new whiteboard button on the home screen. With just one touch, you can quickly launch Microsoft Whiteboard and start collaborating outside of a Teams meeting. Admins can enable and control this feature with the **Allow initiate Whiteboard** setting on the device.
 - Seamlessly switch from local to online collaboration by selecting Start meeting on the local whiteboarding screen. This quickly kicks off an ad-hoc meeting and automatically presents the existing whiteboard. From there, you can add participants into the meeting and contribute across the same whiteboard in real-time.
@@ -825,6 +854,13 @@ Introduced in this update:
 - Spotlight. Teams Rooms on Android will present spotlighted participants as large tiles on the meeting stage similar to content. Only desktop Teams clients are capable of selecting spotlighted participants at this time
 - Request to speak. Muted participants can now request to be unmuted by raising their hand during meetings
 - Auto-answer. Teams Rooms on Android can answer calls or meeting invites automatically. This setting is available to shared configurations only and is located in Admin settings
+
+
+
+
+
+
+
 
 ---
 

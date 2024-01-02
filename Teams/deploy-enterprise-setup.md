@@ -1,8 +1,8 @@
 ---
 title: Set up Microsoft Teams in your enterprise
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 02/23/2021
 ms.topic: article
 ms.service: msteams
