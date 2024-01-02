@@ -88,9 +88,9 @@ recording means enabling organizations that adopt Teams for calling and
 meetings to stipulate, by way of an administrative policy, when calls and online
 meetings should be automatically recorded and captured for subsequent
 processing and retention as required by relevant corporate or regulatory
-policy. Users under this policy will be aware that their digital
-interactions with Teams are being recorded but will not be able to
-disable the recording and will not have access to the recording once the
+policy. Users under this policy are aware that their digital
+interactions with Teams are being recorded but won't be able to
+disable the recording and won't have access to the recording once the
 interaction is complete. The recording becomes part of the
 organizational archive available to compliance and legal personnel for
 eDiscovery, legal hold, and other corporate retention uses.
@@ -130,7 +130,7 @@ eDiscovery, legal hold, and other corporate retention uses.
 <li><p><strong>Metadata</strong> - Participants, time, direction, dialed number, origin number, Custom business data</p></li>
 <li><p><strong>Content</strong> – Transcription, sentiment, phonetics, related interactions</p></li>
 </ul></li>
-<li><p>Analyze and interact with collected communications, including the ability to monitor interactions as they are being collected.</p></li>
+<li><p>Analyze and interact with collected communications, including the ability to monitor interactions as they're being collected.</p></li>
 <li><p>Ensure security of collected communications and prevent tampering at all stages.</p></li>
 </ul></td>
 </tr>
@@ -176,10 +176,10 @@ Graph documentation on the specific APIs can be found here for
 and
 [incomingContext](/graph/api/resources/incomingcontext).
 
-The exact implementation of the recorder service will vary by partner
+The exact implementation of the recorder service varies by partner
 but must be designed to support multiple recorders in order to achieve
 high availability and geographical distribution of deployment to reduce
-latency from Teams to the recorder. In addition, it is expected that
+latency from Teams to the recorder. In addition, it's expected that
 Recorders themselves be designed with resiliency and redundancy in mind.
 
 Partners must confirm the minimum required release version of the

@@ -20,7 +20,7 @@ appliesto:
 
 # Roll out Microsoft Teams First
 
-Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you are a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Microsoft 365 or Office 365 suite before deploying any other Office app or service.
+Microsoft Teams can help your employees stay connected and collaborate with each other, especially in the current unprecedented time where remote work is a reality of employees around the world. Being able to chat, do video meetings and collaborate on Office documents within Teams can help companies stay productive. Whether you're a small business, a non-profit or a large organization, you can get started with Teams as the first workload within Microsoft 365 or Office 365 suite before deploying any other Office app or service.
 
 This article details the considerations you must make with the "Teams First" approach.
 
@@ -31,7 +31,7 @@ If you have already rolled out other Microsoft 365 or Office 365 services and Te
 
 ## Start here
 
-To get started with your Teams First deployment you will need to meet at minimum some prerequisites. The following list will show what you must have in place for your organization before Teams can be enabled:
+To get started with your Teams First deployment you need to meet at minimum some prerequisites. The following list shows what you must have in place for your organization before Teams can be enabled:
 
 1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
@@ -54,15 +54,15 @@ To get started with your Teams First deployment you will need to meet at minimum
 
 ## Migration Starting points
 
-Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections will detail basic capabilities and configuration options in addition to the prerequisites above. We have broken down the starting point scenarios to the following topics:
+Your journey to Microsoft 365 or Office 365 and features available in Teams depending on your starting point and the existence of on premises Skype for Business or Lync server. The following sections details basic capabilities and configuration options in addition to the prerequisites above. We have broken down the starting point scenarios to the following articles:
 
 **Tenant Teams Configuration**: Tenant and user modes are used to control the recipient's behavior. These settings can be assigned on the tenant level or the user level in an organization. To learn more, read [Coexistence with Skype for Business](coexistence-chat-calls-presence.md).
 
 **Chat / External communication in Teams**: Chat services refer to peer-to-peer or group chat conversations within and organization or externally to the organization. External communication is also referred to as federation in Skype for Business.
 
-**Create and view meetings in Teams**: A user can always create online meetings via the Outlook Teams add-in and PSTN dial-in is available in all scenarios once the user is licensed. Teams and Skype for Business store calendaring information in the user's Exchange mailbox. On premises Exchange server must be Exchange Server 2016 CU3 or above for the Teams client to be able to interact with the user's mailbox. Without Exchange mailbox access the Calendar icon in Teams will not appear and they user will not be able to view, create or modify meetings in the Teams client.
+**Create and view meetings in Teams**: A user can always create online meetings via the Outlook Teams add-in and PSTN dial-in is available in all scenarios once the user is licensed. Teams and Skype for Business store calendaring information in the user's Exchange mailbox. On premises Exchange server must be Exchange Server 2016 CU3 or above for the Teams client to be able to interact with the user's mailbox. Without Exchange mailbox access the Calendar icon in Teams won't appear and the user won't be able to view, create or modify meetings in the Teams client.
 
-**Calling features VoIP / PSTN in Teams**: Calling can be Voice over IP (VoIP) or Public Switched Telephone Network (PSTN). VoIP connectivity happens natively between Teams clients, while PSTN connectivity happen when a user dials an outside phone number.  
+**Calling features VoIP / PSTN in Teams**: Calling can be Voice over IP (VoIP) or Public Switched Telephone Network (PSTN). VoIP connectivity happens natively between Teams clients, while PSTN connectivity happens when a user dials an outside phone number.  
 
 Teams supports two types of PSTN connectivity. Microsoft Calling Plan, when Microsoft provides telephony infrastructure including the phone number for a user, or Direct Routing configuration, where the customer provides the telephony connectivity over a Session Border Controller (SBC) for the Teams user.  
 To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-page.md) and [Phone System Direct Routing](direct-routing-landing-page.md).
