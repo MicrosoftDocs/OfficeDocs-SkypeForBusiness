@@ -1,7 +1,7 @@
 ---
 title: Configure ServiceNow for Teams Rooms
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 08/25/2021

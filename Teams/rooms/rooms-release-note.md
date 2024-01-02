@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: sohailta
 ms.date: 11/01/2023
 manager: pamgreen
@@ -68,6 +68,8 @@ Introduced in this update:
 - **Front Row Enhancement - Active video speaker promotion**. Front Row now promotes pinned or spotlighted participants to the center stage when there is no shared content in the single and dual display mode to make the most of empty space. For single display mode, when no one is pinned, spotlighted, or sharing content, the most recent active speaker video will be promoted to the center. In dual display mode, when no one is pinned, spotlighted, or sharing content, the two most recent active speaker videos will be promoted to the center on each screen. If someone is sharing content, the most recent active video speaker will be promoted on the right screen.
 - **Support Joining a Teams Live Event as an Attendee**. Follow the instructions on [Attend a live event in Microsoft Teams](https://support.microsoft.com/en-us/office/attend-a-live-event-in-microsoft-teams-a1c7b989-ebb1-4479-b750-c86c9bc98d84) to join a live event as an attendee and watch the streaming experience.
 - **Teams Room on Windows content camera enhancements**. Teams rooms on Windows support content cameras that are [certified by Microsoft](content-camera.md?tabs=Windows#supported-cameras-and-settings) to share analog Whiteboard in rooms. Customers now have the additional choice to connect any Teams certified or any other camera as a content camera on Teams Rooms on Windows to allow ease of use.
+- **Responsive calendar sizing**. The calendar size changes dynamically based on screen width and height to adapt to various front-of-room display sizes. Learn more at [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds).
+
 > [!NOTE]
 > Microsoft cannot guarantee that cloud enhancement filters work consistently on content camera not certified by Microsoft, so customers must validate the experience before rolling it out.
 
@@ -655,6 +657,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023111001](#144910962023120801-december-2023) | December 2023 |
+|[1449/1.0.96.2023111001](#144910962023111001-december-2023) | December 2023 |
 |[1449/1.0.96.2023090601](#144910962023090601-october-2023) | October 2023 |
 |[1449/1.0.96.2023062301](#144910962023062301-june-2023)     | June 2023        |
 |[1449/1.0.96.2023060802](#144910962023060802-june-2023)     | June 2023        |
@@ -675,6 +679,20 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023120801 (December 2023)
+
+Introduced in this update:
+
+- Bug fixes for app crashes and issues with daily maintenance restart window. 
+
+### 1449/1.0.96.2023111001 (December 2023)
+
+Introduced in this update:
+
+- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on it's local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- Bug fixes for app crashes and devices not showing up on Intune.
+- Significant reduction in sign out errors and pairing issues due to Workplace Join failures, timeout issues, and memory leaks. 
 
 ### 1449/1.0.96.2023090601 (October 2023)
 
@@ -728,9 +746,6 @@ Introduced in this update:
 ### 1449/1.0.96.2022120503 (December 2022)
 
 Introduced in this update:
-
-> [!NOTE]
-> This release is an app only update. Availability may vary depending on device model and make. Please work with device manufacturers to confirm app support timelines on your devices.
 
 - Whenever you want to brainstorm in the office, simply walk up and start whiteboarding using the new whiteboard button on the home screen. With just one touch, you can quickly launch Microsoft Whiteboard and start collaborating outside of a Teams meeting. Admins can enable and control this feature with the **Allow initiate Whiteboard** setting on the device.
 - Seamlessly switch from local to online collaboration by selecting Start meeting on the local whiteboarding screen. This quickly kicks off an ad-hoc meeting and automatically presents the existing whiteboard. From there, you can add participants into the meeting and contribute across the same whiteboard in real-time.
