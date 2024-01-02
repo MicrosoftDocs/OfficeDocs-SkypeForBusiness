@@ -132,6 +132,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
 | Cisco Room Bar Pro | `RoomOS11.9` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
 | DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
@@ -144,7 +145,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
-| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 Collaboration bar. | 12 |
+| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
