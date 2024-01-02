@@ -35,7 +35,7 @@ ms.localizationpriority: high
 - Set presence in taskbar.
 - Show and set presence in system tray.
 
-# Issues specifically for the new **Microsoft Teams for Education**
+## Issues specifically for the new **Microsoft Teams for Education**
 
 *Please note that the issues in the first section also may affect EDU.*  
 *If your issue is not in this list please file a support ticket at:* [**aka.ms/edusupport**](https://aka.ms/edusupport)  
@@ -48,7 +48,7 @@ ms.localizationpriority: high
 - Students are able to reply to posts by bots like the Assignment bot in the General channel even if channel moderation is enabled. A workaround is to publish assignments in another channel where channel moderation is enabled, and in channel settings you have enabled "Allow bots to submit channel messages".
 - Create team from an existing class team is currently broken, but a fix is expected in a few days.
 - In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Please encourage them to use the toggle to switch to New Teams.
-- If you see a the toggle to switch to New Teams but it's greyed out with an error message, please see: [**Troubleshooting installation issues**](https://learn.microsoft.com/en-us/microsoftteams/new-teams-troubleshooting-installation)
+- If you see a the toggle to switch to New Teams but it's greyed out with an error message, please see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md)
 - Support for external Shared Channels when using *Grid view* is not available. While waiting for a fix a workaround is to use *List view*.
 - Custom backgrounds for announcement posts in channels will be available for *Faculty licensed* users after January 10th, while the release for students is delayed pending the availability of policy controls.
 
