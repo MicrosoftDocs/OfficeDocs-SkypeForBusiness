@@ -105,6 +105,6 @@ For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/se
 
 [Block inbound calls in Microsoft Teams](block-inbound-calls.md)
 
-[Configure call settings for your users](user-call-settings.md)
+[Configure call forwarding and delegation settings](user-call-settings.md)
 
 [Voice policies reference](settings-policies-reference.md#voice)

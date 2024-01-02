@@ -1,8 +1,8 @@
 ---
 title: Teams Rooms meetings with SIP and H.323 devices
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.reviewer: naforer
 ms.date: 11/03/2023

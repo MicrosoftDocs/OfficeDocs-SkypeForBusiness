@@ -1,8 +1,8 @@
 ---
 title: Phones and Devices for Microsoft Teams
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 ms.reviewer: slamprianou
 ms.date: 11/02/2023
 ms.topic: article
@@ -79,7 +79,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated November 2023*
+*Table Updated December 2023*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
@@ -88,6 +88,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |HP                   |960 4K Streaming Webcam                                    |11/20/2023      |Certified for Microsoft Teams                           |
 |Anker                |PowerConf S3 Speakerphone                                  |11/17/2023      |Certified for Microsoft Teams                           |
+|Dell                 |WH3024 Headset                                             |11/10/2023      |Certified for Microsoft Teams                           |
 |HP                   |FHD 620/625 Webcam                                         |11/10/2023      |Certified for Microsoft Teams       |
 |Lenovo               |ThinkSmart View Plus Monitor – Peripheral Mode             |11/10/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WL3024 Headset                                             |10/23/2023      |Certified for Microsoft Teams                           | 
@@ -120,6 +121,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |SDW 5061 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5031 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |SDW 5011 headsets with SDW D1 DECT USB dongle              |1/20/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P2424HEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P2724DEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
+|Dell                 |P3424WEB Monitor                                           |1/18/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH76 Headset                                               |12/22/2022      |Certified for Microsoft Teams                           |
 |Logitech             |Brio 300/301/305 Camera                                    |12/22/2022      |Certified for Microsoft Teams                           |
 |Poly                 |Savi 7310 UC Series headsets with dongle version v1008     |12/22/2022      |Certified for Microsoft Teams                           |

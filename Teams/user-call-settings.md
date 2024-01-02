@@ -1,5 +1,5 @@
 ---
-title: Configure call settings for users
+title: Configure call forwarding and delegation settings
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 ms.localizationpriority: medium
@@ -23,13 +24,13 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn how to configure user settings for call forwarding and delegation.
 ---
-# Configure call settings for your users
+# Configure call forwarding and delegation settings
 
 This article describes how you, the administrator, can change call forwarding and delegation settings for your users. You might want to change these settings, for example, if:
 
 - A user is out on sick leave, and you need to ensure that incoming calls to the user are forwarded to a colleague.
 - You need to inspect the call forward settings for all users in a department and potentially correct them as appropriate.
-- A new assistant has been employed, and you need to add the assistant as a delegate for a group of employees.
+- A new assistant is employed, and you need to add the assistant as a delegate for a group of employees.
 
 You can use the Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
 
@@ -51,7 +52,7 @@ To configure simultaneous ringing, on the same page select **Ring the user's dev
 
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
-The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure calls to also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and selecting **Save**.
+The configuration of call delegation and group call pickup is integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure calls to also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and selecting **Save**. For more information, see [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md).
 
 This video shows the steps to view and edit the voice settings for a user.
 
@@ -59,7 +60,7 @@ This video shows the steps to view and edit the voice settings for a user.
 
 ## Use PowerShell
 
-You can use PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
+You can use PowerShell to configure call forward and delegation settings for your users.  You use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - shows call forwarding settings, delegates, and delegator information for a user.
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - sets call forwarding settings for a user.
@@ -113,7 +114,7 @@ To simultaneously ring all delegates for user3, use the Set-CsUserCallingSetting
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-The following example uses the Set-CsUserCallingSettings cmdlet to configure a call group for user4 with user5 and user6 as members. All calls to members of the group are forwarded in the order they are defined:
+The following example uses the Set-CsUserCallingSettings cmdlet to configure a call group for user4 with user5 and user6 as members. All calls to members of the group are forwarded in the order they're defined:
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -151,7 +152,7 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 ## Diagnosing issues with Call Forwarding
 
-If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to forward calls recevied in Teams to a specific number. 
+If you’re an administrator, you can use the following diagnostic tool to validate that a user is properly configured to forward calls received in Teams to a specific number.
 
 1. Select **Run Tests** below to populate the diagnostic in the Microsoft 365 admin center.
 
@@ -163,9 +164,9 @@ If you’re an administrator, you can use the following diagnostic tool to valid
 
 ## Additional notes
 
-The default behavior for a user (whose call answering rules have not been modified either by the user or a Tenant admin) is that unanswered calls will be forwarded to voicemail after 30 seconds. The settings displayed for the user in Team Admin Center or Teams PowerShell will show unanswered target as none and delay of 20 seconds.
+For a user whose call answering rules haven't been modified either by the user or a tenant admin, unanswered calls are forwarded to voicemail after 30 seconds by default. The settings displayed for the user in Teams admin center or Teams PowerShell show the unanswered target as none and a delay of 20 seconds.
 
-## Related topics
+## Related articles
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)

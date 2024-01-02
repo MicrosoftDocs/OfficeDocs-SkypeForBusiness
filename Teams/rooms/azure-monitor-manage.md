@@ -1,10 +1,10 @@
 ---
 title: Monitor Microsoft Teams Rooms devices with Azure Monitor
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: tjaved
 ms.date: 11/02/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

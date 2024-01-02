@@ -1,6 +1,6 @@
 ---
 title: Manage user access to Microsoft Teams
-manager: serdars
+manager: pamgreen
 author: DaniEASmith
 ms.author: danismith
 ms.topic: article

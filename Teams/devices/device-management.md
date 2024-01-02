@@ -1,8 +1,8 @@
 ---
 title: Manage devices in Microsoft Teams
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices

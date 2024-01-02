@@ -1,8 +1,8 @@
 ---
 title: Meeting room guidance for Teams
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 10/04/2023
 ms.topic: conceptual
 audience: ITPro

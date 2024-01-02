@@ -1,10 +1,10 @@
 ---
 title: Plan for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: sohailta
 ms.date: 10/04/2023
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams

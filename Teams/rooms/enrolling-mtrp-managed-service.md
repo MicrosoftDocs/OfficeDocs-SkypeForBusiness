@@ -1,8 +1,8 @@
 ---
 title: Accessing the Pro Management portal
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: 
 ms.date: 08/16/2021
 ms.topic: article

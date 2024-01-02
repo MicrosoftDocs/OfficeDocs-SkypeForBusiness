@@ -1,8 +1,8 @@
 ---
 title: Find Teams Rooms devices with unsupported licenses 
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.reviewer: kspiess
 ms.date: 11/02/2023
