@@ -2,7 +2,7 @@
 title: Assign Teams add-on licenses to users
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

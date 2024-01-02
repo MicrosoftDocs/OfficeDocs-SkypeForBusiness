@@ -1,10 +1,10 @@
 ---
 title: Connect Microsoft Teams Essentials (Microsoft Entra ID) to an existing email system with calendar
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jimmyw
 ms.date: 11/13/2021
-manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
