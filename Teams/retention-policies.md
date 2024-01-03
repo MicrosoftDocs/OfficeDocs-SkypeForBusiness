@@ -31,7 +31,7 @@ ms.custom: seo-marvel-apr2020
 > 
 > The information on this page is for IT administrators who manage these retention policies.
 
-Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal requirements. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or that has no legal or business value.
+Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that are needed to comply with your organization's internal policies, industry regulations, or legal requirements. You can also configure retention settings to delete data that are considered a liability, that you're no longer required to keep, or that has no legal or business value.
 
 Teams supports retention policies for chat and channel messages so that as an admin, you can decide proactively whether to retain this data, delete it, or retain it for a specific period of time and then delete it. The start of the retention period for these actions is always based on when a message is created. You can apply a Teams retention policy to your entire organization or to specific users and teams. Retention labels aren't supported for Teams.
 
@@ -44,19 +44,19 @@ Users who are subject to a retention policy for Teams must have an appropriate l
 
 ## How Teams retention policies support retain and delete actions
 
-If you configure a Teams retention policy to retain chats or channel messages, users can still edit and delete their messages in their Teams app. Although users no longer see their pre-edited or deleted messages in Teams, data from these messages is stored in a secured location that's designed for eDiscovery searches by compliance administrators. Permanent deletion of this data doesn't happen before the end of the configured retention period, or if another retention policy is configured to retain this data, or it is subject to an [eDiscovery hold](/purview/retention#when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds).
+If you configure a Teams retention policy to retain chats or channel messages, users can still edit and delete their messages in their Teams app. Although users no longer see their pre-edited or deleted messages in Teams, data from these messages is stored in a secured location that's designed for eDiscovery searches by compliance administrators. Permanent deletion of this data doesn't happen before the end of the configured retention period, or if another retention policy is configured to retain this data, or it's subject to an [eDiscovery hold](/purview/retention#when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds).
 
-When a retention policy is configured to delete chats and channel messages, these messages become eligible for automatic deletion. If the messages are still displayed in the Teams app, they will disappear from there and [users are informed that a retention policy has deleted these messages](#end-user-experience). If the messages were previously subject to a retain action and have been edited or deleted by users, these messages will now be deleted from the secured location and no longer returned in eDiscovery searches.
+When a retention policy is configured to delete chats and channel messages, these messages become eligible for automatic deletion. If the messages are still displayed in the Teams app, they disappear from there and [users are informed that a retention policy has deleted these messages](#end-user-experience). If the messages were previously subject to a retain action and have been edited or deleted by users, these messages will now be deleted from the secured location and no longer returned in eDiscovery searches.
 
-For detailed information about how these policies work depending on your policy configuration and user actions, and what message data is included and excluded for Teams retention policies, see [Learn about retention for Microsoft Teams](/purview/retention-policies-teams). That page also explains why you might sometimes experience delays when retention policies delete messages. For example, messages can be visible to users in the Teams app up to 7 days after the expiration period you've configured in the retention policy.
+For detailed information about how these policies work depending on your policy configuration and user actions, and what message data is included and excluded for Teams retention policies, see [Learn about retention for Microsoft Teams](/purview/retention-policies-teams). That page also explains why you might sometimes experience delays when retention policies delete messages. For example, messages can be visible to users in the Teams app up to seven days after the expiration period you've configured in the retention policy.
 
 If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. For example:
 
-- If there is a conflict between retaining or deleting the same content, the content is always retained in the secured location so that it remains searchable with eDiscovery for compliance administrators.
+- If there's a conflict between retaining or deleting the same content, the content is always retained in the secured location so that it remains searchable with eDiscovery for compliance administrators.
     
     This principle also applies to messages that are under eDiscovery holds for legal or investigative reasons.
 
-- If there is a conflict in how long to retain the same content, it is retained in the secured location for the longest retention period.
+- If there's a conflict in how long to retain the same content, it's retained in the secured location for the longest retention period.
 
 These two principles of retention address most conflicts that might arise when you have multiple retention policies for Teams, but for more information, see [The principles of retention, or what takes precedence?](/purview/retention#the-principles-of-retention-or-what-takes-precedence)
 
@@ -64,13 +64,13 @@ These two principles of retention address most conflicts that might arise when y
 
 In many cases, organizations consider private chat data as more of a liability than channel messages, which are typically more project-related conversations.
 
-You can very efficiently configure a single retention policy for all Teams messages. Or, for more fine-grained control, you can:
+You can efficiently configure a single retention policy for all Teams messages. Or, for more fine-grained control, you can:
 
 - Have separate retention policies for private chats (1:1 or 1:many chats), messages from standard channels, or messages from private channels.
 
 - Apply the policies only to specific users or teams in your organization. For Teams chats and private channels, you can select which users the policy applies to. For Teams channel messages, you can select which teams the policy applies to.
 
-For example, for standard channel messages: Create a retention policy for specific teams in your organization and configure that policy with a delete action after 1 year. Then create another retention policy for standard channel messages for all other teams and configure that policy with a delete action after 3 years.
+For example, for standard channel messages: Create a retention policy for specific teams in your organization and configure that policy with a delete action after one year. Then create another retention policy for standard channel messages for all other teams and configure that policy with a delete action after three years.
 
 ## Create and manage retention policies for Teams
 

@@ -47,7 +47,7 @@ If you've already [optimized your network for Microsoft 365 or Office 365](/Offi
     - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
     - If your organization doesn't have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md).
 
-Once you've verified that you meet these network requirements, you may be ready to [Roll out Teams](./deploy-overview.md). If you're a large multinational enterprise, or if you know you've got some network limitations, read on to learn how to assess and optimize your network for Teams.
+Once you've verified that you meet these network requirements, you might be ready to [Roll out Teams](./deploy-overview.md). If you're a large multinational enterprise, or if you know you've got some network limitations, read on to learn how to assess and optimize your network for Teams.
 
 > [!IMPORTANT]
 > **For educational institutions**: If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](/schooldatasync/) before you roll out Teams.
@@ -58,13 +58,13 @@ Once you've verified that you meet these network requirements, you may be ready 
 
 Use the [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to gain insight into the quality of calls and meetings in Teams. CQD can help you optimize your network by keeping a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, which lets you identify problems and plan remediation. Additionally, CQD provides rich metrics reports that provide insight into overall quality, reliability, and user experience.
 
-You'll use [call analytics](set-up-call-analytics.md) to investigate call and meeting problems for an individual user.
+You use [call analytics](set-up-call-analytics.md) to investigate call and meeting problems for an individual user.
 
 ## Network optimization
 
 The following tasks are optional and aren't required for rolling out Teams, especially if you're a small business and you've already rolled out Microsoft 365 or Office 365. Use this guidance to optimize your network and Teams performance or if you know you've got some network limitations.
 
-You might want to do additional network optimization if:
+You might want to do other network optimization if:
 
 - Teams runs slowly (maybe you have insufficient bandwidth)
 - Calls keep dropping (might be due to firewall or proxy blockers)
@@ -82,7 +82,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 <tbody>
 <tr class="odd">
 <td>Network planner</td>
-<td><p>For help assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the <a href="/microsoftteams/network-planner">Network Planner</a> tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization's physical locations.</p>
+<td><p>For help with assessing your network, including bandwidth calculations and network requirements across your org's physical locations, check out the <a href="/microsoftteams/network-planner">Network Planner</a> tool, in the <a href="https://admin.teams.microsoft.com">Teams admin center</a>. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization's physical locations.</p>
 <p>For an example scenario, see <a href="/microsoftteams/tutorial-network-planner-example">Using Network Planner - example scenario</a>.</p></td>
 </tr>
 <tr class="even">
@@ -110,19 +110,19 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="even">
 <td>Configure split-tunnel VPN</td>
-<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as <a href="/windows/security/identity-protection/vpn/vpn-routing">split-tunnel VPN</a>. Split tunneling means that traffic for Microsoft 365 or Office 365 doesn't go through the VPN but instead goes directly to Microsoft 365 or Office 365. Bypassing your VPN will have a positive impact on Teams quality, and it reduces load from the VPN devices and the organization's network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
+<td><p>We recommend that you provide an alternate path for Teams traffic that bypasses the virtual private network (VPN), commonly known as <a href="/windows/security/identity-protection/vpn/vpn-routing">split-tunnel VPN</a>. Split tunneling means that traffic for Microsoft 365 or Office 365 doesn't go through the VPN but instead goes directly to Microsoft 365 or Office 365. Bypassing your VPN has a positive impact on Teams quality, and it reduces load from the VPN devices and the organization's network. To implement a split-tunnel VPN, work with your VPN vendor.</p>
 <p>Other reasons why we recommend bypassing the VPN:
 <ul>
 <li><p>VPNs are typically not designed or configured to support real-time media.</p></li>
 <li><p>Some VPNs might also not support UDP (which is required for Teams).</p></li>
 <li><p>VPNs also introduce an extra layer of encryption on top of media traffic that's already encrypted.</p></li>
 <li><p>Connectivity to Teams might not be efficient due to hair-pinning traffic through a VPN device.</p></li>
-<li><p>Traffic may be routed to a service front door location that is further away from the end user, introducing additional latency and jitter.</p></li></td>
+<li><p>Traffic might be routed to a service front door location that is further away from the end user, introducing additional latency and jitter.</p></li></td>
 
 </tr>
 <tr class="odd">
 <td>Implement QoS</td>
-<td><a href="/microsoftteams/qos-in-teams">Use Quality of Service (QoS)</a> to configure packet prioritization. This will improve call quality in Teams and help you monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don't negatively affect quality.</td>
+<td><a href="/microsoftteams/qos-in-teams">Use Quality of Service (QoS)</a> to configure packet prioritization. This improves call quality in Teams and help you monitor and troubleshoot call quality. QoS should be implemented on all segments of a managed network. Even when a network has been adequately provisioned for bandwidth, QoS provides risk mitigation in the event of unanticipated network events. With QoS, voice traffic is prioritized so that these unanticipated events don't negatively affect quality.</td>
 </tr>
 <tr class="even">
 <td>Optimize WiFi</td>
