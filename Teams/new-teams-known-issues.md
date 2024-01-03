@@ -30,15 +30,15 @@ ms.localizationpriority: high
 - Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
 - Producing a Teams Live Event isn't currently available; you need to switch back to classic Teams.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
-- New Teams client is not respecting the date time formats set in the OS. This affects both 12h/24h time formatting as well as date formatting in the product. A fix is pending; check back for updates.
+- New Teams client is not respecting the date time formats set in the OS. This affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set presence in taskbar.
 - Show and set presence in system tray.
 
 ## Issues specifically for the new **Microsoft Teams for Education**
 
-*Please note that the issues in the first section also may affect EDU.*  
-*If your issue is not in this list please file a support ticket at:* [**aka.ms/edusupport**](https://aka.ms/edusupport)  
+*Note that the issues in the first section also may affect EDU.*  
+*If your issue is not in this list, file a support ticket at:* [**aka.ms/edusupport**](https://aka.ms/edusupport)  
 *This page will however be frequently updated in the coming weeks, so please check back if you identify a new issue*  
 *More frequent updates to the desktop clients are to be expected as issues are fixed and features added.*  
 
