@@ -38,7 +38,7 @@ ms.localizationpriority: high
 ## Issues specifically for the new **Microsoft Teams for Education**
 
 >[!Note]
->Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at:* [**aka.ms/edusupport**](https://aka.ms/edusupport).
+>Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
 >  
 >The desktop clients will be updated as issues are fixed and functionality added. Check back as this article will be continually updated with the latest information.
 
