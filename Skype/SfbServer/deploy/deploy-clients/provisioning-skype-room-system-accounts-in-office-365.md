@@ -144,7 +144,7 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
     
    ```powershell
     Connect-MgGraph -Scopes "User.ReadWrite"
-   	Update-MgUser -UserId confrm1@skypelrs.onmicrosoft.com -PasswordPolicies "DisablePasswordExpiration"
+   	Update-MgUser -UserId '11111111-0000-aaaa-bbbb-222222222222' -PasswordPolicies "DisablePasswordExpiration"
    ```
 
 For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
