@@ -24,7 +24,7 @@ f1keywords:
 
 # Multi-tenant customer management for partners
 
-Multi-tenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
+Multitenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users see customer rooms that they're assigned to manage. It's possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
@@ -41,12 +41,12 @@ To manage customers through the Pro Management-MTM portal, a relationship must b
 
 ## Tenant managers
 
-This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. In order to assign Tenant manager permissions in the Pro Management-MTM portal, the assigning account must be set to be a Managed Service Administrator in the Pro Management Customer portal.  Before attempting to set Tenant manager permissions, please ensure your account is appropriately configured in your Customer portal.  This is not configurable from the Pro Management-MTM portal.
-It is recommended to configure this role so designated Tenant managers can accept customer invitations and sub-delegate permissions to others in your organization. Otherwise, only users with the Managed Service Administrator role in your tenant will be able to accept invitations.
+This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but aren't involved with the management of customer rooms. In order to assign Tenant manager permissions in the Pro Management-MTM portal, the assigning account must be set to be a Managed Service Administrator in the Pro Management Customer portal.  Before attempting to set Tenant manager permissions, ensure your account is appropriately configured in your Customer portal.  This isn't configurable from the Pro Management-MTM portal.
+It's recommended to configure this role so designated Tenant managers can accept customer invitations and subdelegate permissions to others in your organization. Otherwise, only users with the Managed Service Administrator role in your tenant are able to accept invitations.
 
 **To configure tenant managers**
 
-1.	Log in to the Pro Management-MTM portal as either a Global admin or Managed Service admin.
+1.	Sign-in to the Pro Management-MTM portal as either a Global admin or Managed Service admin.
 2.	Go to Tenant managers.
 3.	Select **Add tenant managers**.
 4.	In the detail pane, search for the users or security groups.

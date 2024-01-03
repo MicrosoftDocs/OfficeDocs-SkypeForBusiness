@@ -32,30 +32,30 @@ Microsoft Teams Rooms Pro Management provides the assurance that each room in yo
 Room devices onboarding to Pro Management usually have a change management history and practice that is different from our guidance.  
 
 - To  benefit from Pro Management, you must transition change management for all updates under Pro Management portfolio.
-- Multiple sources of change management  impact incident SLAs as there is a discovery and remediation that will restart anew if an incident happens in the room.
+- Multiple sources of change management  impact incident SLAs as there's a discovery and remediation that restart anew if an incident happens in the room.
 - Microsoft has implemented controls and checks to implement policies that may differ from one organization to another, and the ability to intervene in exceptional situations.
-- Eventually, the room devices will be updated to common standards, except for exceptions due to issues with a specific hardware installation.  
+- Eventually, the room devices are updated to common standards, except for exceptions due to issues with a specific hardware installation.  
 
 ## Transitioning devices: Basic readiness checks 
 Most unexpected failures arise from changes in the base image with uncertain history of change management. 
 
 Following simple readiness checks is recommended:  
 
-- **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
+- **Base Image**: The base image must be from the specific OEM. If the device was rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but can't remotely rebuild the room device, so you need a local site technician.  
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this isn't so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. For more information, see the official [MTR guidance](rooms-lifecycle-support.md#windows-release-support).
 
 ## Readiness checks
 
-There are a few pre-requisites for receiving updates through the Pro Management service: 
+There are a few prerequisites for receiving updates through the Pro Management service: 
 
 |Software |Guidance |
 |:- |:- |
-|Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services will be installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
+|Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services are installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
 |Windows OS updates |Should be kept enabled and not redirected to WSUS, nor blocked from a networking perspective. Neither GPO nor MDM policies should be used to manage OS updates. |
 |Microsoft Store updates   |Should be turned off. Managed Services will turn off Store updates if found on. |
-|Anti-Virus Software |If you are running AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. See [How to include or exclude Teams from antivirus or DLP applications](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) for more details. |
-|Additional Software |Additional software such as third-party remote desktop viewing, etc. should be reviewed with Managed Services to rule out side-effects. |
-|Additional Change Management|Can interfere with covered updates, and` should not be introduced. |
+|Anti-Virus Software |If you're running AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. For more information, see [How to include or exclude Teams from antivirus or DLP applications](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp). |
+|Additional Software |Additional software such as partner remote desktop viewing, etc. should be reviewed with Managed Services to rule out side-effects. |
+|Additional Change Management|Can interfere with covered updates, and` shouldn't be introduced. |
 
 ## Managed updates – How it works 
 There are two primary ways how updates are managed:  
@@ -67,25 +67,25 @@ There are two primary ways how updates are managed:
 
 If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by the Pro Management service. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any additional change management needed for your organization.  
 
-**Recommendation:** Do not install updates that are covered by the Pro Management service on any managed device on your own. 
+**Recommendation:** Don't install updates that are covered by the Pro Management service on any managed device on your own. 
 
 ### Ring validation
 
-When choosing ring validation, review the following sections on how rings work in the Pro Management portal and the options available to customize it for your organization. Even with ring validation, attempts are made to ensure that rooms are not past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with Microsoft recommendations.  
+When choosing ring validation, review the following sections on how rings work in the Pro Management portal and the options available to customize it for your organization. Even with ring validation, attempts are made to ensure that rooms aren't past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with Microsoft recommendations.  
 
  Check for announcements on the portal home page and within the Pro Management documentation as new types of software and firmware become available in the portfolio. 
 
 ### Scheduling 
-Updates are scheduled for rooms based on the equipment in the room and if they are not meeting recommended standards for applicable software and firmware. 
+Updates are scheduled for rooms based on the equipment in the room and if they aren't meeting recommended standards for applicable software and firmware. 
 
-- To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, this schedule will be bypassed and the update released as soon as it’s available. 
+- To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, this schedule is bypassed and the update released as soon as it’s available. 
 - Updates are sequenced based on the need in a particular room. 
-- If you have setup rings to validate the updates, the update will progress through the ring order. 
-- A new update can supersede an update that is queued up if it is determined that room stability will improve, based on your situation.  
+- If you have setup rings to validate the updates, the update progresses through the ring order. 
+- A new update can supersede an update that is queued up if it's determined that room stability improves, based on your situation.  
 - Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions. 
 
 ## Microsoft Teams Rooms app update lifecycle policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) for detailed service description. 
+The MTR engineering team’s support policy states that all support ends after the 12 month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) for detailed service description. 
 
 ## Update Management experience walk-through  
 To view updates, log in to the Pro Management portal and navigate to the Updates page.

@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
 ms.date: 03/26/2018
-description: Learn how technologies like Single sign-on, and Modern Authentication affects your sign in behavior on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
+description: Learn how technologies like Single sign-on, and Modern Authentication affects your sign in behavior on iOS, Android, macOS, and PC. How to use teams with many accounts, and restrict sign in. Includes how to tell Teams to ignore the prefill of the user's name (UPN) at sign-in.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection: 
@@ -22,9 +22,9 @@ appliesto:
 
 # How different technologies affect Microsoft Teams sign-on
 
-If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article will help clarify what users and admins can expect to see. It also outlines the log-in behavior for macOS, android, and iOS devices, how login works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the login screen, and how to restrict sign-on.
+If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article helps clarify what users and admins can expect to see. It also outlines the sign-in behavior for macOS, android, and iOS devices, how sign-in works using multiple accounts, how to remove automatically filled credentials or 'prefill' at the login screen, and how to restrict sign-on.
 
-Bookmark this article if your role involves knowing Microsoft Team's expected behaviors during login.
+Bookmark this article if your role involves knowing Microsoft Team's expected behaviors during sign-in.
 
 ## Microsoft Teams and Windows users: sign-in recommendations
 
@@ -34,7 +34,7 @@ Microsoft Teams uses modern authentication to keep the sign-in experience simple
 
 ### How modern authentication (MA) affects your sign-in: what users will see when MA is on
 
-Modern authentication is part of a process that lets Teams know that users have already entered their credentials -- such as their work email and password -- elsewhere, and they shouldn't be required to enter them again to start the app. The experience varies depending on a couple factors, like if users are working in a Windows operating system, or on a Mac.
+Modern authentication is part of a process that lets Teams know that users have already entered their credentials -- such as their work email and password--elsewhere, and they shouldn't be required to enter them again to start the app. The experience varies depending on a couple factors, like if users are working in a Windows operating system, or on a Mac.
 
 Sign-in behavior will also vary depending on whether your organization has enabled single-factor authentication or multifactor authentication. Multifactor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. 
 
@@ -44,13 +44,13 @@ Here's a rundown of the behavior users can expect with each modern authenticatio
 
 - If users have already signed in to Windows or to other Office apps with their work or school account, when they start Teams they're taken straight to the app. There's no need for them to enter their credentials.
 
-- Microsoft recommends using Windows 10 version 1903 or later for the best Single Sign-On experience.
+- Microsoft recommends using Windows 10 version 1903 or later for the best single sign-on experience.
 
-- If users are not signed in to their Microsoft work or school account anywhere else, when they start Teams, they're asked to provide either single-factor or multifactor authentication (SFA or MFA). This process depends on what your organization has decided they'd like the sign-in procedure to require.
+- If users aren't signed in to their Microsoft work or school account anywhere else, when they start Teams, they're asked to provide either single-factor or multifactor authentication (SFA or MFA). This process depends on what your organization has decided they'd like the sign-in procedure to require.
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- On Domain joined PCs, when SSO isn't possible, Teams may pre-fill its login screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Microsoft Entra ID. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
+- On Domain joined PCs, when SSO isn't possible, Teams might pre-fill its login screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Microsoft Entra ID. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
