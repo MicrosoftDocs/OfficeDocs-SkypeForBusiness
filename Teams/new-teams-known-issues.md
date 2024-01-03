@@ -44,13 +44,20 @@ ms.localizationpriority: high
 
 
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
-- Weekly digest mail settings are missing
+
+- Weekly digest mail settings are missing.
+
 - When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
+
 - Students are able to reply to posts by bots like the Assignment bot in the General channel even if channel moderation is enabled.</br>**Workaround:** Publish assignments in another channel where channel moderation is enabled or in channel settings where you have enabled "Allow bots to submit channel messages".
+
 - Create team from an existing class team is currently broken, but a fix is expected in a few days.
+
 - In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Encourage them to use the toggle to switch to New Teams.
+
 - If the toggle to switch to New Teams is greyed out with an error message, see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md).
 - Support for external Shared Channels when using *Grid view* isn't available.</br>**Workaround:** Use *List view*.
+
 - Custom backgrounds for announcement posts in channels will be available for *Faculty licensed* users after January 10. The release for students is delayed pending the availability of policy controls.
 
 ## What features are changing?
