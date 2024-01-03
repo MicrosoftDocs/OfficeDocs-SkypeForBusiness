@@ -51,8 +51,6 @@ ms.localizationpriority: high
 
 - Students are able to reply to posts by bots like the Assignment bot in the General channel even if channel moderation is enabled.</br>**Workaround:** Publish assignments in another channel where channel moderation is enabled or in channel settings where you have enabled "Allow bots to submit channel messages".
 
-- Create team from an existing class team is currently broken, but a fix is expected in a few days.
-
 - In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Encourage them to use the toggle to switch to New Teams.
 
 - If the toggle to switch to New Teams is greyed out with an error message, see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md).
