@@ -40,7 +40,7 @@ ms.localizationpriority: high
 >[!Note]
 >Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
 >  
->The desktop clients will be updated as issues are fixed and functionality added. Check back as this article will be continually updated with the latest information.
+>The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
