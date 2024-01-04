@@ -1,7 +1,7 @@
 ---
 title: "Teams hybrid meeting principles"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work

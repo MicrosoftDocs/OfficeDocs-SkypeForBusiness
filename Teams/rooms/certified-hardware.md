@@ -1,6 +1,6 @@
 ---
 title: Teams Rooms certified systems and peripherals
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 ms.reviewer: sohailta
 ms.date: 11/13/2023
@@ -132,6 +132,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
 | Cisco Room Bar Pro | `RoomOS11.9` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
 | DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
@@ -144,7 +145,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
-| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 Collaboration bar. | 12 |
+| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
@@ -152,8 +153,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2024 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
-| EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
-| EPOS EXPAND Vision 3T | `1.2.0.21102.03` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
 | Logitech Tap IP with RoomMate | `1.6.565` | September 3, 2024 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -169,7 +168,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Tap Device | `1.2.982` | September 3, 2024 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| AudioCodes RXV80 | `1.9.155` | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
@@ -189,6 +187,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
 | [Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97 |  |  |
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
+| [Aver VB350 Video bar](https://communication.aver.com/model/vb350) | 0.0.8200.91 |  |  |
 | [Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) | 0.0.6002.83 |  |  |
 | [Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) | 0.0.8000.51 |  |  |
 | [Aver CAM 570](https://www.averusa.com/products/conference-camera/cam570) | 0.0.8100.98 |  |  | 

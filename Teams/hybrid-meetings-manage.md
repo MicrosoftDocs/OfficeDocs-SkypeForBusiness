@@ -1,7 +1,7 @@
 ---
 title: "Step 7 - Manage and monitor your Teams meeting space"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work

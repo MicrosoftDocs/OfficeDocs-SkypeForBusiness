@@ -9,7 +9,6 @@ ms.date: 06/26/2023
 ms.topic: quickstart
 ms.service: msteams
 search.appverid: MET150
-audience: admin
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

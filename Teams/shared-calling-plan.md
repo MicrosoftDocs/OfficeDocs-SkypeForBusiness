@@ -29,6 +29,8 @@ This article describes what you need to know before configuring Shared Calling f
 
 If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
 
+Note: Shared Calling is currently available in public clouds only.
+
 Let's start with some definitions that you'll need to know for Shared Calling:
 
 | Term | Definition |
