@@ -4,7 +4,7 @@ author: JoanneHendrickson
 ms.author: jhendr
 manager: jtremper
 ms.topic: article
-ms.date: 12/08/2023
+ms.date: 12/15/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -266,6 +266,9 @@ Excluding these items helps reduce the user caching size to further optimize a n
 When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
  
+ 
+ 
+ 
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
@@ -273,8 +276,57 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
+## New Teams and Outlook integration
+ 
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
 
+For example, Outlook goes through the discovery process outlined here to integrate with the default IM client application:  [Integrating IM applications with Office](/office/client-developer/shared/integrating-im-applications-with-office#discovering-the-im-application)
+ 
+>[!Note]
+>If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). The teamsbootstrapper.exe installer installs this msi machine-wide for all users.
+
+Installation logs for this MSI are stored here:
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+ 
+### Troubleshooting new Teams and Outlook integration
+
+#### Symptoms:
+
+You see any of the following issues when you check the presence status for a user in Outlook:
+
+- The presence indicator isn't visible.
+- The displayed presence is incorrect.
+- The presence status is **Status unknown**.
+ 
+#### Troubleshooting steps
+
+1. Make sure new Teams is running. Then launch Outlook.
+2. Check the registry settings on your computer to verify that new Teams is registered as the default instant messaging (IM) app.
+
+  a. Start Registry Editor.
+  b. Locate the following subkey:
+```
+- HKEY_CURRENT_USER\Software\IM Providers
+```
+  c. Verify the following values:
+```
+- **Name:** DefaultIMApp
+- **Type:** REG_SZ
+- **Data:** MsTeams (If you see Teams, it means classic Teams is still the default IM app)
+```
+4. Locate the following subkey:
+
+- HKEY_CURRENT_USER\Software\IM Providers\MsTeams   (Outlook monitors this registry key for value changes)
+
+5. Verify the following values:
+
+  -Name: UpAndRunning
+  -Type: REG_DWORD
+  -Data: 2   (0—Not running, 1—Starting, 2—Running)
+
+6. If the issues persist, contact Microsoft Support.
 
 ## Control fallback mode in Teams
 
@@ -282,6 +334,9 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
+
+
+
 
 
 - To disable fallback mode, set the value to 1. 
@@ -293,11 +348,15 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 - Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
+- Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
-- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1)
+- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
+
+
+
 
 
 ## Enhancements in new Teams 
@@ -307,7 +366,6 @@ Issues from classic Teams are now fixed in new Teams:
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
 - Sharing toolbar can now be pinned/unpinned.
-
 
 ## VDI Feature comparison between classic Teams and new Teams
 
@@ -339,3 +397,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
 - “Record video clip” doesn't capture screen share 
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
+
