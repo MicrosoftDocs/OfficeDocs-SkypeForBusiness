@@ -43,7 +43,7 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
-- Class teams created by copying from existing Class team will not let you configure website tabs </br>**Workaround:** Use Teams classic to configure the website tab (you will get an error message saying a tab with the same name already exists, so additional steps to rename and then change the name back is needed)".
+- Class teams created by copying from an existing Class team won't let you configure website tabs. </br>**Workaround:** Use classic Teams to configure the website tab.  
 
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
 
