@@ -40,8 +40,8 @@ For more information about diagnostic data, including how to control what diagno
 - **adalBase.ts:this.loggingService.logError** - Records information needed to determine that the user profile is null or empty.
 - **adal-impl-mac.ts:this.loggingService.logError** - Records the occurrence of an issue when parsing telemetry received during authentication or generic sso error occurred when logging in on a Mac device.
 - **adal-rigel-windows.ts:this.logger.logError** - General logging statement indicating a generic sso error occurred when logging in on our Meeting room device.
-- **adal-sso-windows.ts:this.loggingService.logError** - Records that a generic sso error occurred when logging in on a Windows device, errors in initiating the chat service or log in failure information.
-- **appOnlineService.ts:loggingService.getInstance** - Records the occurrence of an error due to settings that couldn't be parsed during startup or with downloading pre-user authentication, pre-authorized settings.
+- **adal-sso-windows.ts:this.loggingService.logError** - Records that a generic sso error occurred when logging in on a Windows device, errors in initiating the chat service or sign in failure information.
+- **appOnlineService.ts:loggingService.getInstance** - Records the occurrence of an error due to settings that couldn't be parsed during startup or with downloading preuser authentication, preauthorized settings.
 - **appStart.ts:loggingService.logError** - Records the occurrence of an error when the application couldn't launch, disk space error, valid certificate error or failed to find the correct certificate, and restarting the app.
 - **browserWindowHttp.ts:this.loggingService.logError** - Records information to indicate that the application couldn't be updated due to issues with the file system.
 - **contextInstallService.ts:loggingService.getInstance** - Records the occurrence of an error when:
@@ -59,7 +59,7 @@ For more information about diagnostic data, including how to control what diagno
 - **updateInfo.ts:loggingService.getInstance** - Records the occurrence of an error with transmitting updates.
 - **updatenotification.js:this._loggingService.logError** - Records the occurrence of disk space issues.
 - **utility.ts:loggingService.logError** - Records an error accessing a local file (a file in the application).
-- **utility.ts:loggingService.getInstance** - Records an error in  available diskspace, display issues, url issues, cookie issues, protocols, or regkey issues on machine to load the application.
+- **utility.ts:loggingService.getInstance** - Records an error in  available disk space, display issues, url issues, cookie issues, protocols, or regkey issues on machine to load the application.
 - **windowmanager.js:this._loggingService.logError** - Records the occurrence of cookie issues, whitescreen issues, issues between desktop and shell communication, url issues,errors with loading page messages, errors with process rendering, and network connectivity issues.
 - **windowmanager.js:loggingService.getInstance** - Records information to indicate when the recovery window can't be shown.
 
@@ -104,17 +104,17 @@ For more information about diagnostic data, including how to control what diagno
 - **desktop_settings_failed_to_load** - Collects information needed to determine cause when desktop settings fail to load.
 - **desktop_silent_restart** - Client update is staged and client is updated without user disruption.
 - **desktop_terminated** - Records information needed to determine whether the inter-process communication has been disconnected when the user closes the desktop application.
-- **desktop_uncaught_exception** Function call on an undefined object, this will result in a crash/app restart.
+- **desktop_uncaught_exception** Function call on an undefined object, this result in a crash/app restart.
 - **desktop_write_storage_failed** - Records information needed to determine disk errors when the desktop application fails to write to storage.
-- **registration_failed** - Records information needed to resolve add-in registration failures.
-- **registration_success** - Records information needed to determine whether add-in registrations where successful.
+- **registration_failed** - Records information needed to resolve add in registration failures.
+- **registration_success** - Records information needed to determine whether add in registrations were successful.
 - **security_unsupported_ipc_channel** - Interprocess message that wasn't permitted was inbound.
 - **sfb_running_not_connected** - Detected that the Skype for Business app isn't running.
 - **sfb_not_running** - Records that the 'wait for response' from call to Skype of Business timed out.
 - **sfb_never_replied** - Tracks no API response when communicating with Skype for Business.
 - **server_error_hit** - Tracks that an error from the ipc pipes communicating with Skype for Business.
 - **unexpected_sfb_ipc_disconnection** - Records information needed to determine a failure to connect to the service.
-- **unregister_failed** - Records information needed to determine errors in de-registering the Outlook meeting add-in.
+- **unregister_failed** - Records information needed to determine errors in deregistering the Outlook meeting add-in.
 
 ## UserBI panelaction
 
@@ -122,7 +122,7 @@ For more information about diagnostic data, including how to control what diagno
 > For information on the properties of UserBI panelaction events, see [Properties sent with UserBI panelaction events](#properties-sent-with-userbi-panelaction-events).
 
 - **inlinereply** - Records information whether a user has replied from the notification.
-- **toastclick** - Records a user's click to navigate to the message entry to toast notifications to monitor service SLA and to load the appropriate response to toast notification.
+- **toastclick** - Records a user's selection to navigate to the message entry to toast notifications to monitor service SLA and to load the appropriate response to toast notification.
 - **toastdismiss** - Records information needed to determine errors and delays when the user dismisses the rendering of a toast notification.
 
 - **toast_skip** - Records information needed to avoid transmitting a delayed toast notification.
@@ -198,7 +198,7 @@ For more information about diagnostic data, including how to control what diagno
 | session                           | Unique session ID                                                                  |
 | freeMemory                        | Captures free memory available                                                     |
 | processMemory                     | Captures process memory                                                            |
-| scenarioDelta                     | Captures time different between 2 scenario steps                                   |
+| scenarioDelta                     | Captures time different between two scenario steps                                   |
 | Session_DesktopId                 | Unique session ID                                                                  |
 | machineLocked                     | Captures if the machine was locked or not                                          |
 | windowIsVisible                   | Captures if the app window was visible to use                                      |
@@ -206,7 +206,7 @@ For more information about diagnostic data, including how to control what diagno
 | crashDesktopSession               | Captures ID of the crashed session                                                 |
 | appRuntime                        | Captures runtime of the app                                                        |
 | diagnosticEvents                  | Last 50 web app diagnostic events before app crash                                 |
-| activities                        | Last 50 user scenario names which happened before crash                            |
+| activities                        | Last 50 user scenario names, which happened before crash                            |
 | crashSession                      | Captures ID of the crashed session                                                 |
 | crashId                           | Captures ID of the crashed session                                                 |
 | isPreviousLifecycleValid          | Whether previous app was fully initialized and terminated successfully             |
@@ -220,7 +220,7 @@ For more information about diagnostic data, including how to control what diagno
 | updateTimeOfDay                   | Time the app was updated                                                           |
 | launchPath                        | whether Teams is installed in %LOCALAPPDATA%, %PROGRAMFILES%, or other locations   |
 | loggedIn                          | If the user was logged in                                                          |
-| envType/complianceEnvironmentType | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
+| envType/complianceEnvironmentType | Commercial cloud or private (for example, DoD, GCC-High, etc.)                              |
 | cpuusage                          | CPU usage                                                                          |
 | installationSource                | Type of installation user has                                                      |
 | adalVersion                       | Version of the auth library                                                        |
@@ -262,7 +262,7 @@ For more information about diagnostic data, including how to control what diagno
 | machineLocked                      | Whether machine was locked or not locked during the event                        |
 | data                               | Captures technical data for scenario investigation                               |
 | appRuntime                         | Captures runtime of the app                                                      |
-| activities                         | Last 50 user scenario names which happened before crash                          |
+| activities                         | Last 50 user scenario names, which happened before crash                          |
 | timeSinceActivity                  | Time since last user activity                                                    |
 | appStates                          | Records a list of app states that the desktop app went through, which helps with crash investigations because it shows what state the desktop app was in |
 | timeSinceAppState                  | Time since the app state changed                                                 |
@@ -271,7 +271,7 @@ For more information about diagnostic data, including how to control what diagno
 | diagnosticEvents                   | Last 50 web app diagnostic events before app crash                               |
 | timeSinceLastDiagnosticEvent       | Time since last diagnostic event sent                                            |
 | timeSinceSecondLastDiagnosticEvent | Time since second-last diagnostic event sent                                     |
-| appInitialized                     | Whether webapplication has started                                               |
+| appInitialized                     | Whether web application has started                                               |
 | targetVersion                      | Version application is going to be updated to                                    |
 | port                               | Internet message port number                                                     |
 | originalUrl                        | Original location of page being rendered                                         |
@@ -292,7 +292,7 @@ For more information about diagnostic data, including how to control what diagno
 | rigelVersion                       | Captures version of rigel device                                                 |
 | DeviceInfo_OsSku                   | Captures OS SKU information                                                      |
 | isLoggedOut                        | Captures if the user is logged out                                               |
-| complianceEnvironmentType          | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                           |
+| complianceEnvironmentType          | Commercial cloud or private (for example, DoD, GCC-High, etc.)                           |
 | restartTimes                       | Exact times of previous restarts                                                 |
 | Skype_ResultCode                   | Captures result of interop communication between Skype and Teams                 |
 | cpumodel                           | Captures model of CPU                                                            |
@@ -308,7 +308,7 @@ For more information about diagnostic data, including how to control what diagno
 |--------------------|----------------------------------------------------------|
 | Panel_Uri          | Uri of the panel delivered to the user                   |
 | Panel_Type         | Panel type accessed by the user                          |
-| Team_Id            | ID of the team in which action was performed by the user |
+| Team_Id            | ID of the team in which action is performed by the user |
 | Thread_Id          | ID of the thread that was accessed by user               |
 | Panel_PreviousUri  | URI of the previous panel                                |
 | Panel_Region       | Region where the panel was hosted in the app             |
@@ -330,8 +330,8 @@ For more information about diagnostic data, including how to control what diagno
 | Panel_Type            | Panel type accessed by the user                                    |
 | Action_Outcome        | Outcome of the action performed by user                            |
 | Team_Id               | ID of the team in which action was performed by the user           |
-| Module_Type           | Type of the module which hosted user action                        |
-| Module_Name           | Name of the module which hosted user action                        |
+| Module_Type           | Type of the module, which hosted user action                        |
+| Module_Name           | Name of the module, which hosted user action                        |
 | Module_Summary        | Summary of the module that hosed user action                       |
 | Thread_Id             | ID of the thread that was accessed by user                         |
 | Panel_PreviousUri     | URI of the previous panel                                          |

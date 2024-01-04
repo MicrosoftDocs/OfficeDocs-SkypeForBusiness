@@ -27,7 +27,7 @@ description: "Learn about what information is sent automatically to users by ema
 
 # Emails sent to users when their settings change in Microsoft Teams
 
-Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing-in-teams.md) using Microsoft as the audio conferencing provider.
+Emails are automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing-in-teams.md) using Microsoft as the audio conferencing provider.
 
 By default, there are four types of email that will be sent to your users who are enabled for Audio Conferencing. However, if you want to limit the number of emails sent to users, you can turn it off. Audio Conferencing in Microsoft 365 or Office 365 will send email to your users' email when:
 
@@ -38,7 +38,7 @@ By default, there are four types of email that will be sent to your users who ar
     > [!NOTE]
     > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. Check out the [View and reset a conference ID assigned to a user in Microsoft Teams](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md) article for more information.
 
-    Here is an example of this email:
+    Here's an example of this email:
 
      ![Teams Verify License.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
@@ -48,7 +48,7 @@ By default, there are four types of email that will be sent to your users who ar
 
     This email contains the conference ID, default conference phone number, and the instructions and link to use the Teams Meeting Update Tool that is used to update existing meetings for the user. But this email doesn't include the user's audio conferencing PIN. See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
 
-    Here is an example of this email:
+    Here's an example of this email:
 
      ![Dial-in conferencing info has changed.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
@@ -56,7 +56,7 @@ By default, there are four types of email that will be sent to your users who ar
 
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
 
-     Here is an example of this email:
+     Here's an example of this email:
 
      ![Dial-in conferencing PIN changed.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
@@ -75,19 +75,19 @@ By default, there are four types of email that will be sent to your users who ar
 
 ## Make changes to the email messages that are sent to them
 
-You can make changes to the email that is automatically sent to users. By default, the sender of the emails will be from Microsoft 365 or Office 365, but you can change the display name using Windows PowerShell. See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+You can make changes to the email that is automatically sent to users. By default, the sender of the emails are from Microsoft 365 or Office 365, but you can change the display name using Windows PowerShell. For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps).
 
 ## What if you don't want email to be sent to them?
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
 
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell.
+By default, emails are sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell.
 
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. At the top of the **Conference Bridges** page, click **Bridge settings**.
+2. At the top of the **Conference Bridges** page, select **Bridge settings**.
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 

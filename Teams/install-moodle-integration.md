@@ -29,21 +29,21 @@ appliesto:
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle](https://moodle.org/), the most popular and open-source Learning Management System (LMS) in the world, is now integrated with Microsoft Teams! This integration helps teachers and students collaborate around Moodle courses, ask questions about their grades and assignments and stay updated with notifications -- right within Teams!
+[Moodle](https://moodle.org/), the most popular and open-source Learning Management System (LMS) in the world, is now integrated with Microsoft Teams! This integration helps teachers and students collaborate around Moodle courses, ask questions about their grades and assignments and stay updated with notifications--right within Teams!
 
-To help IT admins easily set this integration up, we have updated our open-source Moodle Plugin with the following capabilities:
+To help IT admins easily set this integration, we have updated our open-source Moodle Plugin with the following capabilities:
 
-* Auto-registration of your Moodle server with Microsoft Entra ID.
+* Autoregistration of your Moodle server with Microsoft Entra ID.
 * One-click deployment of your Moodle Assistant bot to Azure.
-* Auto-provisioning of teams and auto-synchronization of team enrollments for all or select Moodle courses.
-* Auto-installation of the Moodle tab and the Moodle Assistant bot into each synchronized team. (Coming soon)
+* Auto-provisioning of teams and autosynchronization of team enrollments for all or select Moodle courses.
+* Autoinstallation of the Moodle tab and the Moodle Assistant bot into each synchronized team. (Coming soon)
 * One-click publishing of the Moodle app into your private Teams App Store. (Coming soon)
 
 To learn more about the functionality this integration provides, see [Installing the Moodle integration with Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
 
 ## Prerequisites
 
-In order to install and configure this application you'll need:
+In order to install and configure this application, you'll need:
 
 1. Moodle administrator credentials
 2. Microsoft Entra administrator credentials

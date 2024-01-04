@@ -22,7 +22,7 @@ description: Learn how to manage bridge settings in Microsoft Teams
 
 # Manage bridge settings in Teams
 
-Prior to and during a Microsoft Teams meeting or phone call, the meeting organizer has several options for choosing the bridge settings. See the following articles for more information:
+Prior to and during a Microsoft Teams meeting or phone call, the meeting organizer has several options for choosing the bridge settings. For more information, see the following articles:
 
 - [Emails sent to users when their settings change in Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
 - [Enable users to record their names when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
