@@ -82,14 +82,6 @@ This setting controls whether users can record calls. This setting is off by def
 
 For more information, see [Routing inbound calls](inbound-call-routing.md).
 
-### Call forwarding and simultaneous ringing to people in your organization
-
-This setting controls whether incoming calls can be forwarded to other users or can ring another person in your organization at the same time. This setting is on by default.
-
-### Call forwarding and simultaneous ringing to external phone numbers
-
-This setting controls whether incoming calls can be forwarded to an external number or can ring an external number at the same time. This setting is on by default.
-
 ### Voicemail for inbound calls
 
 This setting enables inbound calls to be sent to voicemail. The default setting is **Let users decide**. Valid options are:
@@ -129,7 +121,7 @@ This setting controls whether real-time captions in Teams calls are available fo
 
 ### Automatically answer incoming meeting invites
 
-This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
+This setting controls whether incoming meeting invites are automatically answered. This setting is turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Spam filtering
 

@@ -48,7 +48,7 @@ To configure immediate call forward settings:
 
 3. Under **Call answering rules**, select **Be immediately forwarded**, and select the appropriate call forward type and destination.
 
-    - To configure simultaneous ringing, on the same page select **Ring the user's devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
+    - To configure simultaneous ringing, on the same page select **Ring the user's devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting. **Call forwarding and simultaneous ringing to people in organization** or **Call forwarding and simultaneous ringing to external phone numbers** in **Voice** > **Calling policies** must be turned on for this call forward type and destination to be available. These settings are on by default.
 
     - To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
