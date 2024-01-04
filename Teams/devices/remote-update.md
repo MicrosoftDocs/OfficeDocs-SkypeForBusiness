@@ -26,11 +26,11 @@ Using Teams admin center, you can update your Teams devices, including Teams pho
 - Teams app software
 - Device firmware software
 
-Updates for these components happen automatically by default. However, you can update them manually as well. When you are applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
+Updates for these components happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
 
 ## Software versions on Teams admin center
 
-All new software versions for Teams devices are made available on Teams admin center once they're published by Microsoft. New releases may have minimum software version requirements. In such cases, the new version is only made available if the device meets the requirements. Verify that the device is meeting those requirements, but especially the firmware is current and updated.
+All new software versions for Teams devices are made available on Teams admin center once they're published by Microsoft. New releases might have minimum software version requirements. In such cases, the new version is only made available if the device meets the requirements. Verify that the device is meeting those requirements, but especially the firmware is current and updated.
 
 Only software versions that have been tested by Microsoft are available for automatic or manual updates using Teams admin center. Software versions tested by Microsoft are labeled **Verified by Microsoft**.
 

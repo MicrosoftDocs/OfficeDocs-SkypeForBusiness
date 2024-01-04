@@ -28,18 +28,18 @@ ms.custom: seo-marvel-apr2020
 
 Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Teams Phone. To configure media bypass, the SBC and the client must be in the same location or network.
 
-You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.
+You can control media bypass for each SBC by using the **Set-CSOnlinePSTNGateway** command with the **-MediaBypass** parameter set to true or false. If you enable media bypass, this doesn't mean that all media traffic stays within the corporate network. This article describes the call flow in different scenarios.
 
 The diagrams below illustrate the difference in call flow with and without media bypass.
 
-Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Teams Phone, and the Teams client, as shown in the following diagram:
+Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Teams Phone System, and the Teams client, as shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
 > ![Shows signaling and media flow without media bypass.](media/direct-routing-media-bypass-1.png)
 
 But let's assume that a user is in the same building or network as the SBC. For example, assume a user who is in a building in Frankfurt makes a call to a PSTN user:
 
-- **Without media bypass**, media will flow via either Amsterdam or Dublin (where Microsoft datacenters are deployed) and back to the SBC in Frankfurt.
+- **Without media bypass**, media flows via either Amsterdam or Dublin (where Microsoft datacenters are deployed) and back to the SBC in Frankfurt.
 
   The datacenter in Europe is selected because the SBC is in Europe, and Microsoft uses the datacenter closest to the SBC. While this approach does not affect call quality due to optimization of traffic flow within Microsoft networks in most geographies, the traffic has an unnecessary loop.
 

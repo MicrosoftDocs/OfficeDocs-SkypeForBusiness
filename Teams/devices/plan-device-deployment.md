@@ -23,18 +23,18 @@ ms.collection:
 
 # Plan your deployment for Teams phone devices and Displays
 
-A successful deployment of Teams phone devices and Teams Displays starts with planning. This article will take you through the tasks and steps to deploy these devices in your organization. It also provides guidance on devices usage, licensing, integrating with your environment, touchpoints, and management.
+A successful deployment of Teams phone devices and Teams Displays starts with planning. This article takes you through the tasks and steps to deploy these devices in your organization. It also provides guidance on devices usage, licensing, integrating with your environment, touchpoints, and management.
 
 > [!TIP]
 > [The Microsoft 365 Adoption Hub](https://adoption.microsoft.com/) is a great place to get started on your adoption journey with Microsoft Teams.
 
 ## Task 1: What are your deployment objectives?
 
-Planning the rollout of Teams phones and Displays in your organization starts with your deployment goals. Teams devices support hybrid work in meeting rooms, offices, and other functional spaces. You'll need to determine where these devices will be used and by whom.
+Planning the rollout of Teams phones and Displays in your organization starts with your deployment goals. Teams devices support hybrid work in meeting rooms, offices, and other functional spaces. You need to determine where these devices are used and by whom.
 
 ### Objective: Identify your device personas
 
-Teams phones and Displays will fit one of two personas: 
+Teams phones and Displays fit one of two personas: 
 
 - Personal devices
 - Shared space devices
@@ -46,8 +46,8 @@ Personal and shared devices have different roles and uses.
 - Typically assigned to one user, signed in with that user's account, and enabled with a Teams feature license to access the service.
 - Think of personal devices as having a one-to-one relationship, with one device per one user.
 - Can be paired with the Teams desktop client and use features like Better Together
-- May connect to a headset, wired or wireless
-- Additional features on personal devices include hot-desking and Home Screen. 
+- Might connect to a headset, wired or wireless
+- Other features on personal devices include hot-desking and Home Screen. 
 
 **Shared space devices:**
 
@@ -56,11 +56,11 @@ Personal and shared devices have different roles and uses.
 - Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
 - Their user interfaces (UI) are specific to their function, such as common area phone UI, or meeting room UI depend upon the function and placement of the shared device.
 - Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
-- Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
+- Other features on shared space devices include search on common area phones and hot-desking with idle timeout
 
 ### Objective: How many personal and shared space devices do you need?
 
-Now that you've identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
+Now that you identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
 
 - How many personal devices are required and who will have one?
 - How many rooms or spaces require shared devices? Will every space have the same type of device? 
@@ -92,7 +92,7 @@ Identities enable devices to access Microsoft 365 services, and they should make
 
 ### Objective: Review Conditional Access policies
 
-Microsoft Entra Conditional Access policies are additional requirements that must be met before a device can be signed in.
+Microsoft Entra Conditional Access policies are other requirements that must be met before a device can be signed in.
 
 As you plan your deployment
 
@@ -120,7 +120,7 @@ Teams Phone devices and displays require access to the internet to connect to Te
 
 ### Objective: Physical considerations
 
-Consider the physical spaces that your Teams phones and displays will be used in.
+Consider the physical spaces that your Microsoft Teams Phone System and displays are used in.
 
 Key aspects include
 
@@ -131,7 +131,7 @@ Key aspects include
 
 ### Task 5: How will you manage deployed devices?
 
-Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
+Microsoft Teams phones System and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
 
 <a name='azure-active-directory-admin-center'></a>
 
@@ -139,7 +139,7 @@ Teams phones and displays are managed from two to three Microsoft 365 portals an
 
 Use the Microsoft Entra Admin Center to manage
 
-- All identity-related tasks for Teams phones and displays
+- All identity-related tasks for Microsoft Teams Phone System and displays
 - Conditional Access policies 
 - Password resets
 

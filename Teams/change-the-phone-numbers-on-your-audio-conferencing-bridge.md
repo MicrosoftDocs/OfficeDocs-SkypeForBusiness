@@ -46,7 +46,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 1. On the left navigation pane, go to **Voice** > **Phone numbers**.
 
-2. Select the phone number from the list, and click **Edit**.
+2. Select the phone number from the list, and select **Edit**.
 
 3. On the **Edit** page, under **Assigned to**, expand the dropdown and then select **Conference bridge** > **Apply**.
 
