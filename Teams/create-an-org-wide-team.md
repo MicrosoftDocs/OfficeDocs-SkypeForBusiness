@@ -28,9 +28,11 @@ ms.custom:
 
 Global Administrators can create organization-wide teams that provide a way for everyone in a small-to-medium-sized organization to be part of a single and collaborative team. Organization-wide teams automatically include every user in the organization and keep the membership up to date as users join and leave the organization.
 
-If your organization is new to Teams and has no more than 5,000 users, an organization-wide team is created automatically. Organization-wide teams are limited to organizations with no more than 10,000 users. You can have up to five organization-wide teams. 
+If your organization is new to Teams and has no more than 5,000 users, an organization-wide team is created automatically. Organization-wide teams are limited to organizations with no more than 10,000 users. You can have up to five organization-wide teams.
 
 ## Create an organization-wide team
+
+ > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2GCG9?autoplay=false]
 
 There are two ways to create an organization-wide team:
 
@@ -97,6 +99,3 @@ For more information, see [Set up and manage channel moderation in Microsoft Tea
 
 Even though members can't leave an organization-wide team, as a team owner, you can manage the team roster by removing accounts that don't belong. **Make sure you use Teams to remove users from your org-wide team**. If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the organization-wide team.
 
-## Related topics
-
-Watch a video about [How to create an org-wide team in Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).
