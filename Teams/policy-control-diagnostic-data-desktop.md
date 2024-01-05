@@ -220,7 +220,7 @@ For more information about diagnostic data, including how to control what diagno
 | updateTimeOfDay                   | Time the app was updated                                                           |
 | launchPath                        | whether Teams is installed in %LOCALAPPDATA%, %PROGRAMFILES%, or other locations   |
 | loggedIn                          | If the user was logged in                                                          |
-| envType/complianceEnvironmentType | Commercial cloud or private (e.g., DoD, GCC-High, etc.)                              |
+| envType/complianceEnvironmentType | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
 | cpuusage                          | CPU usage                                                                          |
 | installationSource                | Type of installation user has                                                      |
 | adalVersion                       | Version of the auth library                                                        |
@@ -292,7 +292,7 @@ For more information about diagnostic data, including how to control what diagno
 | rigelVersion                       | Captures version of rigel device                                                 |
 | DeviceInfo_OsSku                   | Captures OS SKU information                                                      |
 | isLoggedOut                        | Captures if the user is logged out                                               |
-| complianceEnvironmentType          | Commercial cloud or private (e.g., DoD, GCC-High, etc.)                           |
+| complianceEnvironmentType          | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                           |
 | restartTimes                       | Exact times of previous restarts                                                 |
 | Skype_ResultCode                   | Captures result of interop communication between Skype and Teams                 |
 | cpumodel                           | Captures model of CPU                                                            |
