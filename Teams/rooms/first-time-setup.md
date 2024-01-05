@@ -41,8 +41,6 @@ To set up consoles by using a one-time password, perform the following steps:
 
 1. On the **Welcome** page, select **Get started**. The **End user agreement** page appears.
 
-   :::image type="content" source="../media/eula-screen.png" alt-text="Screenshot that shows the End user agreement screen a user sees." lightbox="../media/eula-screen.png":::
-
    On selecting **Get started**, you might see a page that has a message stating that the device verification information couldn't be found. For information on how to troubleshoot this error, see [Device verification failure and troubleshooting](#device-verification-failure-and-troubleshooting).
 
 1. On the **End user agreement** page, select **Accept**. The **Set up Microsoft Teams Room account** page will appear.
