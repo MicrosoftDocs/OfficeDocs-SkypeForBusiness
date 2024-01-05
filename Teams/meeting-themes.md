@@ -3,7 +3,7 @@ title: Create and manage meeting themes for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 12/18/2023
+ms.date: 1/4/2024
 ms.reviewer: nraghavan
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -30,38 +30,36 @@ description: Using approved corporate branding assets like images and logos to c
 
 ## Overview
 
-Meeting themes consist of your organization’s brand colors, a custom image to represent your org, and your org’s logo. Applying a custom theme allows you, as an admin, to customize the visual appearance of the prejoin and lobby screens for your users' meetings.
+Meeting themes consist of your organization’s brand colors, a custom image to represent your org, and your org’s logo. Applying a custom theme allows you, as an admin, to customize the visual appearance of the meeting invite, prejoin and lobby screens for your users' meetings.
 
 Customization in Teams meetings allows organizations to extend their visual identities across the meeting experience. An organization’s images and colors help foster internal corporate culture building and increase overall brand awareness with guests. With the help of an organization's brand management and corporate communications teams, you can easily set up and create meeting themes for various business units and departments within a single tenant.
 
-By default, Teams premium licensed users who have been assigned a meeting customization policy can create meeting themes-enabled meetings. These meetings feature themes by default, and anyone who joins the meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
+Teams premium licensed users with an assigned meeting customization policy can create meetings with meeting themes. Anyone who joins these meetings can see the themes (including unlicensed internal users, guests, and anonymous users).
 
 :::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
 
 > [!NOTE]
-> Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting. To stop displaying your images, you must delete the images from your meeting theme. To remove images from a meeting theme, navigate to the Meeting Customization Policy in the Teams Admin Center, select the chosen meeting theme, and select "Edit Meeting Theme”.
+> Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting. To stop displaying your images, you must delete the images from your meeting theme. To remove images from a meeting theme, navigate to the **Meeting customization policy** in the Teams admin center, select the chosen meeting theme, and select **Edit meeting theme**.
 
 ## Prerequisites
 
-Before setting up meeting themes in Teams Meetings, check to make sure you have the following items:
+Before setting up meeting themes in Teams meetings, check to make sure you have the following items:
 
-- Access to Teams Premium SKU.
-- You’re an admin with access to the Teams admin center or you’ve been assigned a customization policy.
-- Your [custom logo](#add-a-custom-logo-image), [image](#add-a-custom-image), and [color](#add-a-custom-color) meet the required specifications.
+- The users who need to use meeting themes have a Teams Premium license.
+- You’re an admin with access to the Teams admin center or you have an assigned customization policy.
+- Your [custom logo](#add-a-custom-logo), [image](#add-a-custom-image), and [color](#add-a-custom-color) meet the required specifications.
 
-## Set up and manage meeting themes
+## Set up and manage meeting themes in the Teams admin center
 
 Meeting themes house the following assets for your theme:
 
-- Logo - your organization's logo image.
-- Custom image - a brand image from your organization (custom images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)).
-- Custom color - it's recommended to use either your brand's primary or secondary color - whichever one best complements your brand image and logo.
+- Logo - Your organization's logo.
+- Custom image - A brand image from your organization (custom images aren't the same as [custom meeting backgrounds](custom-meeting-backgrounds.md)).
+- Custom color - We recommend using either your brand's primary or secondary color - whichever one best complements your brand image and logo.
 
-As an admin, you can set up and manage meeting themes for Teams meetings with the [Teams admin center](#using-the-teams-admin-center) or [PowerShell.](#using-powershell)
+As an admin, you can set up and manage meeting themes for Teams meetings with the Teams admin center or PowerShell.
 
-### Using the Teams Admin Center
-
-#### Create or manage a customization policy
+### Create or manage a customization policy
 
 To create or manage meeting themes, you need to create a new meeting customization policy or modify an existing policy.
 To enable the custom background policy, perform the following steps:
@@ -71,14 +69,14 @@ To enable the custom background policy, perform the following steps:
 3. Under **Meetings**, select **Customization policies**
 4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Customize meeting visuals** section.
-6. If you've created a new policy, select the **Add a theme** button. If you're managing an existing policy, follow the next step.
+6. If you're creating a new policy, select the **Add a theme** button to upload your assets. If you're managing an existing policy, select the **Edit meeting themes** button if you'd like to make changes to your theme.
 7. Toggle the **Currently Active** setting to **Yes** to enable your theme.
 8. Select **Save**
 
 > [!NOTE]
-> Although you can access Custom meeting visuals from the meeting policies page, we recommend accessing it through customization policies to avoid navigating through global organizational default policies.
+> Although you can access custom meeting visuals from the meeting policies page, we recommend accessing it through customization policies to avoid navigating through global organizational default policies.
 
-#### Add a custom logo image
+### Add a custom logo
 
 Teams meetings support square logos that appear on key surfaces during your meeting, including the lobby screen. Logo images must meet Microsoft accessibility contrast ratios (4:5:1). We recommend using a square icon style logo with minimal text and the dimensions of 800 x 800 pixels.
 
@@ -92,7 +90,7 @@ Uploads must adhere to the following parameters. An admin can only upload:
 - A logo image with a minimum dimension of 576 x 576 pixels.
 - Upload one image per theme from their device.
 
-#### Add a custom image
+### Add a custom image
 
 Teams meetings support an organization's images that display on the meetings screen and provide a colorful backdrop to your meetings. We recommend using an image with the dimensions of 1440 x 810 pixels.
 
@@ -111,22 +109,41 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
   - Maximum dimensions: 3840 x 2160 pixels
 - Upload a minimum of 0 and a maximum of one image per theme from their device.
 
-#### Add a custom color
+### Add a custom color
 
 Teams meetings support an organization's primary or secondary color in the meeting experience. You can enter the hex code value of your organization's color, which displays on key surfaces of the meeting experience.
 
 > [!NOTE]
 > To support Microsoft accessibility standards, the final color generated may not match your brand color.
 
-#### Preview a meeting theme
+### Preview your meeting theme
 
-Once you've added your meeting assets, you can preview how your theme looks before saving. Selecting **Preview** opens the preview dialog and shows the newly defined theme for desktop.
+Once you add your meeting assets, you can preview how your theme looks before saving. Selecting **Preview** opens the preview dialog and shows the newly defined theme for desktop.
 
-#### Save meeting theme
+### Save your meeting theme
 
 By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** saves the meeting theme, but doesn't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
 
-### Using PowerShell
+## Create a theme for meeting invites
+
+You can create a meeting theme to display on meeting invites that users with this assigned policy create.
+
+1. In the Teams admin center, select **Meetings** from the navigation pane.
+2. Under **Meetings**, select **Customization policies**
+3. Either select an existing policy or create a new one.
+4. Within your chosen policy, navigate to the **Customize meeting visuals** section.
+5. If you're creating a new policy, select **Add a theme**. If you're managing an existing policy, select your theme and select the **Edit meeting themes** button.
+6. Upload your custom logo:
+
+    - To add your custom logo, toggle **Enable logo on meeting invite** on.
+    - The meeting invite logo must meet the following parameters:
+        - Format: PNG/JPEG
+        - Size: 188 x 30 pixels
+    - This logo overrides any logo images that defined in the meeting settings policy.
+7. Select the **Preview** button to preview your meeting invite theme.
+8. Select **Save**
+
+### Manage meeting themes in PowerShell
 
 > [!NOTE]
 > To upload images, you must use Teams admin center.
