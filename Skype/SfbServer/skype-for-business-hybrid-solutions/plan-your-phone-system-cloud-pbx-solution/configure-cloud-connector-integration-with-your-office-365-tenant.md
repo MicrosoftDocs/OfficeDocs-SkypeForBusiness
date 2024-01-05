@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: serdars
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
+ms.date: 01/05/2023
 audience: ITPro
 ms.topic: conceptual
 ms.service: skype-for-business-server
@@ -177,7 +177,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
 2. Start a tenant Microsoft Entra ID remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Microsoft Entra user account configured in step 1 to "HybridMediationServer":
 
    ```powershell
-   Update-MgUser -UserId <String> -Department "HybridMediationServer"
+   Update-MgUser -UserId <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
 3. Start a tenant Skype for Business remote PowerShell session using your Skype for Business tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created in step 1:
