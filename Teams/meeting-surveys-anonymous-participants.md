@@ -35,6 +35,8 @@ By default, this feature is turned on for your organization and anonymous meetin
 
 Here’s an example of a survey that anonymous meeting participants might receive.
 
+:::image type="content" source="media/meeting-surveys-anonymous-participants.png" alt-text="Example of a survey that anonymous meeting participants receive to provide feedback about their Teams meeting experience.":::
+
 ## Set whether anonymous meeting participants receive surveys
 
 As an admin, you can control whether anonymous participants receive surveys to provide feedback about their meeting experience.
@@ -47,7 +49,7 @@ You turn off or turn on this feature for your organization through a policy that
 For example, to turn off feedback surveys for anonymous participants in Teams meetings (including virtual appointments), webinars, and town halls, run the following command:
 
 ```PowerShell
-Set-CsTeamsMeetingConfiguration -FeedbackSurveyForAnonymousUsers $false`
+Set-CsTeamsMeetingConfiguration -FeedbackSurveyForAnonymousUsers $false
 ```
 
 > [!NOTE]
