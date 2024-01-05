@@ -3,7 +3,7 @@ title: Manage and upload custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
-ms.date: 12/4/2023
+ms.date: 1/5/2024
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -82,6 +82,17 @@ Uploaded images must adhere to the following parameters. You can upload:
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
+## Select a preset background
+
+You can choose a preset background for your users in the Teams admin center. Users with this policy only have the background that you choose and can't change the background.
+
+1. Select **Meetings** from the navigation pane in the Teams admin center.
+2. Under Meetings, select **Customization policies** to select an existing policy or create a new one.
+3. Within your chosen policy, navigate to the **Meeting backgrounds** section.
+4. Select your desired uploaded background in the table.
+5. Next to the +Add button, select the **Set as default** button.
+6. Select **Save**.
+
 ## Require users to only use the backgrounds you upload
 
 You can decide to only show the custom backgrounds you upload in your users' gallery.
@@ -101,7 +112,7 @@ To only show the custom backgrounds that you upload, follow these steps:
 
 ## Apply a blur for users with no backgrounds
 
-You can use the Teams Admin Center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
+You can use the Teams admin center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
 
 Use the following steps to apply blurred backgrounds for users that aren't using any backgrounds or video effects:
 
