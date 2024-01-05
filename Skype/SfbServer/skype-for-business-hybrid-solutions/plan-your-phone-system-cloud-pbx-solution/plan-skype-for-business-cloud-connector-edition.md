@@ -29,11 +29,11 @@ description: "Find information on Skype for Business Cloud Connector Edition, a 
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page).
+Cloud Connector Edition might be the right solution for your organization if you don't already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System solution is right for your business, see [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page).
 
-This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this article before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
+This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this article before you configure your Cloud Connector environment. When you're ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
-Cloud Connector Edition 2.1 is now available. If you have not yet upgraded to 2.1, see [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). You can find the installation file at [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
+Cloud Connector Edition 2.1 is now available. If you haven't yet upgraded to 2.1, see [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md). You can find the installation file at [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
 
 > [!NOTE]
 > Microsoft supports the previous version of Cloud Connector Edition for 60 days after the release of a new version. Microsoft will support version 2.0.1 for 60 days after the release of 2.1 to allow you time to upgrade. All versions previous to 2.0.1 are no longer supported.
@@ -44,21 +44,21 @@ Cloud Connector Edition is a hybrid offering that consists of a set of packaged 
 
 Because Cloud Connector enables you to integrate Phone System services with your existing telephony environment—for example, PBX, analog devices, and Call Centers—you can implement a phased migration from your existing telephony solution to Phone System.
 
-For example, assume your company has a sophisticated Call Center with specific functionality that Phone System does not provide. You can choose to leave Call Center users with the existing solution, but move other users to Phone System.
+For example, assume your company has a sophisticated Call Center with specific functionality that Phone System doesn't provide. You can choose to leave Call Center users with the existing solution, but move other users to Phone System.
 
-Cloud Connector will provide routing between the users homed on premises and online, and you can choose to use your own PSTN provider with Phone System.
+Cloud Connector provides routing between the users homed on premises and online, and you can choose to use your own PSTN provider with Phone System.
 
 Consider the following when planning your Cloud Connector Edition deployment:
 
-- To use Cloud Connector to take advantage of cloud voice solutions, you'll need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you do not yet have a Microsoft 365 or Office 365 organization, you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). Note that you'll need to sign up for a plan that includes Skype for Business Online.
+- To use Cloud Connector to take advantage of cloud voice solutions, you need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you don't yet have a Microsoft 365 or Office 365 organization, you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). You need to sign up for a plan that includes Skype for Business Online.
 
 - To register Cloud Connector appliances with the Skype for Business Online service, and to run various cmdlets, Cloud Connector 2.0 and later requires a dedicated Microsoft 365 or Office 365 account with the Skype for Business Tenant Administrator rights. Cloud Connector versions previous to 2.0 require a dedicated Microsoft 365 or Office 365 account with tenant Global Administrator rights.
 
-- Cloud Connector does not require a full on-premises Skype for Business Server deployment.
+- Cloud Connector doesn't require a full on-premises Skype for Business Server deployment.
 
-    Currently, Cloud Connector cannot coexist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Currently, Cloud Connector can't coexist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
-- If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you do not need to clean up the schema for the Cloud Connector deployment, as long as you've removed all Skype for Business or Lync Server components from your environment.
+- If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you don't need to clean up the schema for the Cloud Connector deployment, as long as you removed all Skype for Business or Lync Server components from your environment.
 
 - Your users are homed online.
 
@@ -68,7 +68,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - If you want to provide dial-in conferencing to users hosted on Cloud Connector, you can purchase PSTN conferencing license or pay as you go Audio Conferencing offer from Microsoft.
 
-- The Audio Conferencing license (or pay as you go offer) also required for call escalations. If a Skype for Business user receives a call from an external PSTN user and wants to add one more participant to that call (escalate the call to a conference), the escalation will be performed via Microsoft Audio Conferencing service.
+- The Audio Conferencing license (or pay as you go offer) also required for call escalations. If a Skype for Business user receives a call from an external PSTN user and wants to add one more participant to that call (escalate the call to a conference), the escalation is performed via Microsoft Audio Conferencing service.
 
 - Cloud Connector 2.0 and later now supports media bypass. Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path. For more information, see [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
 
@@ -113,7 +113,7 @@ Cloud Connector components provide the following functionality:
 
   - **Media Relay Authentication / MRAS** - Generates tokens for access to media relay.
 
-- **Outbound Routing** - Provides load balancing of the voice traffic between gateways or SBCs connected to a Cloud Connector appliance. Calls will be split evenly between all gateways or SBCs connected to the Cloud Connector appliance.
+- **Outbound Routing** - Provides load balancing of the voice traffic between gateways or SBCs connected to a Cloud Connector appliance. Calls are split evenly between all gateways or SBCs connected to the Cloud Connector appliance.
 
     Provides routing to gateways based on policies. Only global policies that are based on destination (outbound) PSTN numbers are supported.
 
@@ -121,7 +121,7 @@ Cloud Connector components provide the following functionality:
 
 - **Central Management Store (CMS) replica** - Synchronizes configuration information from the global CMS DB on the CMS role server.
 
-- **Domain controller** - Cloud Connector Active Directory Domain Services to store all the global settings and groups necessary to deploy Cloud Connector components. One forest will be created for each Cloud Connector appliance. The domain controller must not have any connections with the production Active Directory. Active Directory services include:
+- **Domain controller** - Cloud Connector Active Directory Domain Services to store all the global settings and groups necessary to deploy Cloud Connector components. One forest is created for each Cloud Connector appliance. The domain controller must not have any connections with the production Active Directory. Active Directory services include:
 
   - Active Directory Domain Services
 
@@ -132,7 +132,7 @@ Cloud Connector components provide the following functionality:
 ## Cloud Connector Edition topologies
 <a name="BKMK_Topologies"> </a>
 
-For purposes of this discussion, we will refer to PSTN sites. A PSTN site is a combination of Cloud Connector appliances, deployed at the same location, and with common PSTN gateways connected to them. PSTN sites allow you to:
+For purposes of this discussion, we refer to PSTN sites. A PSTN site is a combination of Cloud Connector appliances, deployed at the same location, and with common PSTN gateways connected to them. PSTN sites allow you to:
 
 - Provide connectivity to gateways that are closest to your users.
 
@@ -140,11 +140,11 @@ For purposes of this discussion, we will refer to PSTN sites. A PSTN site is a c
 
 - Allow for high availability by deploying multiple Cloud Connector appliances within a single PSTN site.
 
-This topic introduces PSTN sites. For more information about planning your PSTN sites, see [Plan for Cloud Connector Edition PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md).
+This article introduces PSTN sites. For more information about planning your PSTN sites, see [Plan for Cloud Connector Edition PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md).
 
 You can deploy the following Cloud Connector topologies:
 
-- A single Cloud Connector Edition appliance per PSTN site. This topology is recommended for evaluation purposes only because it does not provide high availability.
+- A single Cloud Connector Edition appliance per PSTN site. This topology is recommended for evaluation purposes only because it doesn't provide high availability.
 
 - Multiple Cloud Connector Edition appliances per PSTN site to provide high availability.
 
@@ -175,7 +175,7 @@ When planning your topology, consider the following:
 
 ### Single Cloud Connector appliance within a single PSTN site
 
-The following diagram shows a single Cloud Connector Edition appliance within a single PSTN site. Note that Cloud Connector consists of four VMs installed on one physical host machine that is within a perimeter network for security purposes.
+The following diagram shows a single Cloud Connector Edition appliance within a single PSTN site. The Cloud Connector consists of four VMs installed on one physical host machine that is within a perimeter network for security purposes.
 
 ![One Cloud Connector with One PSTN Site.](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
