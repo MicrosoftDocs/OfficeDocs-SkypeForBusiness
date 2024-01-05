@@ -41,20 +41,28 @@ Teams provides safeguards so that your organization's or user's information can'
 1. The apps display these permissions to the users or the admins when they try to use the app or when they evaluate the app before allowing its use.
 1. Users or admins do a diligence to evaluate apps based on the access an app needs on your organization's information. Once assured, they can grant their consent to the permissions that an app requires to work. Only then can an app access the organization's or user's information.
 
+Teams uses the Microsoft Entra ID framework to regulate the access to organization's information. Entra ID portal lets developers define required permissions for their apps and lets admins evaluate and permit information access.
+
 ## Types of permissions
 
 Teams app permissions can be of the following three types based on scope.
 
-* Microsoft Entra ID permissions: Microsoft Graph lets developers access your organization's Microsoft 365 information and data but only with the appropriate Entra ID permissions. An app declares these permissions upfront and admins must consent to these permissions before the app can access the info.
-* Resource-specific permissions: Resources in Teams can be a team, a chat, or a user. Use of these permissions let apps access the information of only a specific resource. Using RSC permissions, an app doesn't have to request access to org-wide information and can limit the scope of its access.
+* Microsoft Entra ID permissions: Microsoft Graph lets developers access your organization's Microsoft 365 information and data but only with the appropriate Entra ID permissions. An app declares these permissions upfront and admins must consent to these permissions before the app can access the info. If you grant consent to such a permission in a Teams app, then all permitted users of your org can use the app and let the app access org's information. These permissions are defined in Entra ID portal.
+* Resource-specific permissions: Resources in Teams can be a team, a chat, or a user. Use of these permissions let apps access the information of only a specific resource. Using RSC permissions, an app doesn't have to request access to org-wide information and can limit the scope of its access. These RSC permissions are defined in the app's manifest file. Only those users who have access to the resources, can consent for these permissions.
 * Basic capabilities: When developers create Teams apps, they use some capabilities defined in the development framework. These capabilities are high-level functionalities that apps can have. For example, an app can contain a bot that converses with the user. When an app uses a capability then the app is automatically granted some basic privileges. For example, if the app containing a bot is permitted for a user, then the bot can send and receive messages. These exist in apps based on what functionality the app developer has added to an app and aren't permissions that require a consent to be effective.
 
-## How apps access organization's information
-
-An application can access organization's information in the following two ways:
+Based on the ways in which an application can access organization's information, there are two types of permissions:
 
 * **Delegated access**: An application accesses the resource on behalf of the user. This access requires delegated permissions. The application can access only the information that the user can access themselves.
 * **App-only access**: An application acts on its own with no user signed in, when it's undesirable to have a specific user signed in or when the data required can't be scoped to a single user. This access required applications permissions. An application if granted consent is able to access data that the permission is associated with.
+
+|                                                   | Delegated permissions                                                                                      | Application permissions                                       |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| How can apps access information                       | On behalf of a signed-in user.                                                                             | On their own, using their own identity.                       |
+| What information is accessed                      | Permissions that app is granted consent to and the information that signed-in user has access to.                     | Any info that a consented permission is associated with       |
+| What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                        | Only admins                                                   |
+| Can users consent                                 | Users can consent depending on Azure AD configuration                                                      | Only admins can consent                                       |
+| Can admins let users consent for some permissions | Yes since an admin can classify some or all Delegated permissions as low-risk to let users consent | No since an admin can't classify any Application permissions as low-risk |
 
 ## Where are app permissions defined
 
@@ -76,35 +84,9 @@ For each app, these permissions are listed in the app details page in the admin 
 | RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
 | Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
 
+## Where can admins see all permissions of an app
 
-## Teams apps and permissions
-
-
-
-An application can access an organization's information in the following ways depending on the permissions used by the developer. Understand it to know the different ways in which you can provide consent or enable users to consent for Teams apps in your org.
-
-|                                                   | Delegated permissions                                                                                      | Application permissions                                       |
-|---------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| How can apps access information                       | On behalf of a signed-in user.                                                                             | On their own, using their own identity.                       |
-| What information is accessed                      | Permissions that app is granted consent to and the information that signed-in user has access to.                     | Any info that a consented permission is associated with       |
-| What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                        | Only admins                                                   |
-| Can users consent                                 | Users can consent depending on Azure AD configuration                                                      | Only admins can consent                                       |
-| Can admins let users consent for some permissions | Yes since an admin can classify some or all Delegated permissions as low-risk to let users consent | No since an admin can't classify any Application permissions as low-risk |
-
-Teams app permissions are defined in the following two places:
-
-* **Azure Active Directory**: Graph permissions lets an app access org-wide resources. Permissions that are needed for an app to work are added in Azure AD by the app developers. As an admin, you must consent to these permissions otherwise the app can't be used in your tenant. Admins can define if users can consent to these permissions or not.
-* **Teams app manifest**: RSC permissions are defined in the app manifest file by the app developers. RSC permissions let an app access local resources within Teams such as information in a group or a team. These allow only for Application access and not for Delegated access. Only those users who have access to the resources, can consent for these permissions. Admin consent at org-level is not required though admins control how users consent to these permissions or can block users from consenting.
-
-For each app, these permissions are listed in the app details page in the admin center.
-
-| Type of permissions                                                                                                                           | Access context                             | Source of declaration | When is consent required             | Who can consent                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|-----------------------|--------------------------------------|-----------------------------------------------------------------------------------|
-| [Microsoft Entra ID for Graph and legacy endpoint access](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information) | Delegated                                  | Microsoft Entra ID    | App sign-in                          | Users can partly consent. High-level Delegated permissions require admin consent. |
-| Microsoft Entra ID for Graph and legacy endpoint access                                                                                       | Application                                | Microsoft Entra ID    | App sign-in                          | No (Only Global Admin can consent)                                                |
-| [RSC for information of teams, chats, and users](#asdf)                                                                                                | Delegated                                  | App manifest file     | Adding app to a team, chat, meetings | User                                                                              |
-| RSC for information of teams, chats, and users                                                                                                | Application                                | App manifest file     | Adding app to a team, chat, meetings | Resource owner                                                                    |
-| [Interactions with user and data access](#what-can-apps-do-in-teams)                                                                        | Inherent to Teams apps and provided by SDK | Manifest properties   | Add app in a client                  | User (consent is implied at install)                                              |
+You can find the details of all types of permissions requested by an app in the Permissions tab of the app details page.
 
 :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
 
