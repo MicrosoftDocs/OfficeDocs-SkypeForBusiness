@@ -139,7 +139,7 @@ You can create a meeting theme to display on meeting invites that users with thi
     - The meeting invite logo must meet the following parameters:
         - Format: PNG/JPEG
         - Size: 188 x 30 pixels
-    - This logo overrides any logo images that defined in the meeting settings policy.
+    - This logo overrides any logo images that are defined in the meeting settings policy.
 7. Select the **Preview** button to preview your meeting invite theme.
 8. Select **Save**
 
