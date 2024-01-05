@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams panels
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: weizxue

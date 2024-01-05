@@ -2,7 +2,7 @@
 ms.date: 11/28/2017
 title: "Retaining large files attached to a Skype for Business meeting"
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.reviewer: brendonb, robmazz
 ms.topic: article

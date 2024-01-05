@@ -164,6 +164,6 @@ If turned on, a link to the app needs to be given in the **URL to open apps in b
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[Configure call settings for your users](user-call-settings.md)
+[Configure call forwarding and delegation settings](user-call-settings.md)
 
 [PSTN connectivity options](pstn-connectivity.md)
