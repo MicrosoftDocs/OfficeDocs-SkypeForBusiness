@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
-description: "Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing."
+description: "Read this article to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing."
 ---
 
 # Plan for Cloud Connector Edition PSTN sites
@@ -23,9 +23,9 @@ description: "Read this topic to learn how to plan your Cloud Connector Edition 
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
  
-Read this topic to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing.
+Read this article to learn how to plan your Cloud Connector Edition PSTN sites to ensure efficient and cost effective call routing.
   
-This topic describes what you need to know about Cloud Connector Edition and call routing so that you can plan your Cloud Connector PSTN sites. A PSTN site is a combination of Cloud Connector appliances, deployed at the same location, and with common PSTN gateways connected to them. This topic focuses on how to set up your Cloud Connector site topology to ensure that your Cloud Connector sites can handle both inbound and outbound routing for all users assigned to a site in the most cost efficient and effective way possible. For more information about Cloud Connector and the benefits of PSTN sites, be sure to read [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
+This article describes what you need to know about Cloud Connector Edition and call routing so that you can plan your Cloud Connector PSTN sites. A PSTN site is a combination of Cloud Connector appliances, deployed at the same location, and with common PSTN gateways connected to them. This topic focuses on how to set up your Cloud Connector site topology to ensure that your Cloud Connector sites can handle both inbound and outbound routing for all users assigned to a site in the most cost efficient and effective way possible. For more information about Cloud Connector and the benefits of PSTN sites, be sure to read [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
   
 ## Cloud Connector PSTN sites and call routing
 
