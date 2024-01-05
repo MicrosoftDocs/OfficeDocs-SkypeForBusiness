@@ -31,7 +31,7 @@ appliesto:
 
 [Anonymous participants](anonymous-users-in-meetings.md) who join Teams meetings (including virtual appointments), webinars, and town halls hosted by your organization can rate their meeting experience and send us feedback about the rating they give through surveys. We’re continually improving the Teams meeting experience and we use this feedback to help make it better.
 
-By default, this feature is turned on for your organization and anonymous meeting participants receive surveys. When a meeting ends, anonymous participants see a prompt on the screen that gives them the option to provide feedback. When they choose Give feedback, the survey is displayed for them to complete and send to Microsoft.
+By default, this feature is turned on for your organization and anonymous meeting participants receive surveys. When a meeting ends, anonymous participants see a prompt on the screen that gives them the option to provide feedback. When they choose **Give feedback**, the survey is displayed for them to complete and send to Microsoft.
 
 Here’s an example of a survey that anonymous meeting participants might receive.
 
@@ -53,7 +53,7 @@ Set-CsTeamsMeetingConfiguration -FeedbackSurveyForAnonymousUsers $false
 ```
 
 > [!NOTE]
-> You can access and get insights into feedback collected from Net Promoter Score (NPS) survey responses in the Microsoft 365 admin center. To learn more, see [Microsoft product NPS feedback and insights for your organization](/microsoft-365/admin/manage/manage-feedback-product-insights). 
+> You can access and get insights into feedback collected from Net Promoter Score (NPS) survey responses in the Microsoft 365 admin center. To learn more, see [Microsoft product NPS feedback and insights for your organization](/microsoft-365/admin/manage/manage-feedback-product-insights).
 
 ## Related articles
 
