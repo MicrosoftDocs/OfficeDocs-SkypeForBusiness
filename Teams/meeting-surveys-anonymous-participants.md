@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to manage the Virtual appointment meeting template for Teams users in your organization.
+description: Learn how to control whether anonymous participants who join Teams meetings hosted by your organization receive surveys to provide feedback to Microsoft about their meeting experience. 
 ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help
