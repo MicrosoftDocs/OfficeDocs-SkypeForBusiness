@@ -56,12 +56,12 @@ Based on the ways in which an application can access organization's information,
 * **Delegated access**: An application accesses the resource on behalf of the user. This access requires delegated permissions. The application can access only the information that the user can access themselves.
 * **App-only access**: An application acts on its own with no user signed in, when it's undesirable to have a specific user signed in or when the data required can't be scoped to a single user. This access required applications permissions. An application if granted consent is able to access data that the permission is associated with.
 
-|                                                   | Delegated permissions                                                                                      | Application permissions                                       |
-|---------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| How can apps access information                       | On behalf of a signed-in user.                                                                             | On their own, using their own identity.                       |
-| What information is accessed                      | Permissions that app is granted consent to and the information that signed-in user has access to.                     | Any info that a consented permission is associated with       |
-| What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                        | Only admins                                                   |
-| Can users consent                                 | Users can consent depending on Azure AD configuration                                                      | Only admins can consent                                       |
+|                                                   | Delegated permissions                                                                              | Application permissions                                                  |
+|---------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| How can apps access information                   | On behalf of a signed-in user.                                                                     | On their own, using their own identity.                                  |
+| What information is accessed                      | Permissions that app is granted consent to and the information that signed-in user has access to.  | Any info that a consented permission is associated with                  |
+| What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                | Only admins                                                              |
+| Can users consent                                 | Users can consent depending on Azure AD configuration                                              | Only admins can consent                                                  |
 | Can admins let users consent for some permissions | Yes since an admin can classify some or all Delegated permissions as low-risk to let users consent | No since an admin can't classify any Application permissions as low-risk |
 
 ## Summary of types and sources of app permission and consent info
