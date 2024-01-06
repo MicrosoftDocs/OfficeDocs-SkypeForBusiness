@@ -43,7 +43,7 @@ Teams provides safeguards so that your organization's or user's information can'
 
 Teams uses the Microsoft Entra ID framework to regulate the access to organization's information. Entra ID portal lets developers define required permissions for their apps and lets admins evaluate and permit information access.
 
-## Types of permissions
+## Types of permissions and their source of declaration
 
 Teams app permissions can be of the following three types based on scope.
 
@@ -63,14 +63,6 @@ Based on the ways in which an application can access organization's information,
 | What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                        | Only admins                                                   |
 | Can users consent                                 | Users can consent depending on Azure AD configuration                                                      | Only admins can consent                                       |
 | Can admins let users consent for some permissions | Yes since an admin can classify some or all Delegated permissions as low-risk to let users consent | No since an admin can't classify any Application permissions as low-risk |
-
-## Where are app permissions defined
-
-In addition, the permissions are defined in the following two places:
-
-* Graph permissions for org-wide resources are defined in Microsoft Entra ID. Permissions that are needed for an app to work are selected in Microsoft Entra ID by the app developers. As an admin you must consent to these permissions otherwise the app can't be used in your tenant.
-* RSC permissions to access local resources within Teams such as information in a group or a team are defined in the app manifest file by the developers. Only those users who have access to the resources, can consent for these permissions.
-* Basic capabilities are [asd](asd).
 
 ## Summary of types and sources of app permission and consent info
 
