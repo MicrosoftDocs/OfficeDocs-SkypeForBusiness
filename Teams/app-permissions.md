@@ -91,13 +91,13 @@ You can find the details of all types of permissions requested by an app in the 
 :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
 
    * **A**: [Interactions with user and data access](#what-can-apps-do-in-teams)
-   * **B**: [Microsoft Entra ID for Graph and legacy endpoint access](#entra-id-permissions-required-by-teams-apps-to-access-your-organizations-information)
-   * **C**: [RSC for information of teams, chats, and users](#resource-specific-consent-permissions-of-an-app)
+   * **B**: [Microsoft Entra ID for Graph and legacy endpoint access](#entra-id-permissions)
+   * **C**: [RSC for information of teams, chats, and users](#resource-specific-consent-permissions)
 
 > [!NOTE]
 > To know how you can permit use of an app by granting consent to its permissions, see [grant and manage consent to Teams app permissions](manage-consent-app-permissions.md).
 
-## Entra ID permissions required by Teams apps to access your organization's information
+## Entra ID permissions
 
 App developers choose appropriate permissions from a wide variety of Graph APIs so that the apps get the necessary information to work. Before you grant consent to these permissions, you can view the specific permissions requested by an app. It helps you evaluate the impact of granting consent to an app's permissions. To view the Entra ID permissions, follow these steps:
 
@@ -109,9 +109,11 @@ App developers choose appropriate permissions from a wide variety of Graph APIs 
 
 1. In the dialog, view the permissions required by the app. For more information about the information available in the dialog, see [information available in the consent prompt](/entra/identity-platform/application-consent-experience).
 
+    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
+
 A complete list of all the possible permissions is documented in the [Microsoft Graph permissions reference](/graph/permissions-reference).
 
-## Resource-specific consent permissions of an app
+## Resource-specific consent permissions
 
 RSC permissions let users give consent to apps for scope-specific information. Such consent lets apps access and modify only a team's or a chat's information. Such an app can't access the information of a chat or a team in which it is not added. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
 
@@ -126,10 +128,6 @@ To view RSC permissions for an app, follow these steps:
 1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
     :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot showing an example of how to view RSC permissions of an app.":::
-
-<!--- 
-See if there's a need to reuse the AAD screenshot from the manage consent article here.
---->
 
 ## What can apps do in Teams
 
