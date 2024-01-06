@@ -58,7 +58,7 @@ On the [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps)
 
 ## Grant org-wide admin consent to an app's permissions
 
-Granting consent to such permissions allows an app to access your organization's information. Carefully review the permissions requested by the app before you grant consent. For more information, see [Teams apps permissions and consent](app-permissions.md). Only Global Administrators can grant consent to the Graph permissions that an app requests. Teams Administrators can view the required permissions in admin center and in the Microsoft Entra ID portal to help evaluate an app. The option to view details and grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
+Granting consent to such permissions allows an app to access your organization's information. Carefully review the permissions requested by the app before you grant consent. For more information, see [Teams apps permissions and consent](app-permissions.md). Only Global Administrators can grant consent to the Graph permissions that an app requests. Teams Administrators can view the required permissions in admin center. The option to view details and grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
 
 To view and grant consent for all users in your organization, follow these steps:
 
@@ -85,13 +85,11 @@ After you grant consent to permissions of an app, you'll see a message in the **
 > [!NOTE]
 > If the new version of an app requires extra permissions than the previous version, then you must grant consent to the app again.
 
-## Let resource owners consent to RSC permissions
-
-Admins can configure whether users can let apps access their groups' or teams' data or not. Global Administrators can change the **Group owner consent for apps accessing data** settings in Microsoft Entra ID, to [let users to consent to RSC permissions](/entra/identity/enterprise-apps/configure-user-consent-groups#manage-group-owner-consent-to-apps-by-directory-settings).
-
-If you don't let group owner consent for apps, then users can't consent to RSC permissions in an app, if RSC permissions are used.
-
 ## Let users grant consent to low risk Graph permissions
+
+You can configure user consent settings to let users consent to selected permissions (recommended approach) and use apps that require only these specific permissions without needing admin consent.
+
+This approach works together with permissions classification in Entra ID portal. The classification let admins define some Delegated Graph permissions as low risk permissions within their organization. Admins decide which low risk permissions based on their organization's risk posture. As a safety measure, you can't categorize Application permissions low risk.
 
 You can configure user consent settings in way that lets users to:
 
@@ -102,13 +100,11 @@ The recommended approach works together with permissions classification. The cla
 
 To accomplish this configuration, you must have a Global Administrator, Application Administrator, or Cloud Application Administrator role in your organization.
 
-This configuration applies to all Teams apps as all Teams apps are from verified publishers. Before an app developer can submit their app to Microsoft, a developer is required to undergo a verification. Publisher verification helps admins and users understand the authenticity of application developers. For more information, see [publisher verification](overview-of-app-certification.md).
-
 ## View resource-specific consent permissions of an app
 
 RSC permissions let an app access and modify a team's or a user's data. RSC permissions are granular and specific to the Teams team in which an app is added. A few examples of RSC permissions are the ability to create and delete channels in a team, get the settings for a team, and create and remove channel tabs.
 
-RSC permissions are defined in the app manifest and not in Microsoft Entra admin center. Team owners can grant consent for such permissions or users grant consent to RSC permissions when they add the app to a team or a chat. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+RSC permissions are defined in the app manifest and not in Microsoft Entra admin center. Team owners can grant consent for such permissions when they add the app to a team or a chat. To know more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
 Global Administrators and Teams Administrators can view RSC permissions for an app in the **Permissions** tab of the app details page. To view RSC permissions for an app, follow these steps:
 
@@ -141,7 +137,7 @@ Select a permission to know more details about it.
 To revoke the consent that you have granted to an app previously, follow these steps:
 
 1. In the Permissions tab, click the **Microsoft Entra ID** link to open the app's permissions in Microsoft Entra admin center.
-1. In the **Admin consent** tab, choose the permission you would like to revoke and then select the `...`.
+1. In the **Admin consent** tab, choose the permission you would like to revoke and then select the ellipses `...`.
 1. Select **Revoke Permission** and then select **Yes, revoke** in the confirmation dialog.
 
    :::image type="content" source="media/consented-perms-entra-revoke.png" alt-text="Screenshot showing the option to revoke a Graph permission of an app from the Entra admin center.":::
@@ -154,7 +150,14 @@ Developers update apps to add new functionality, enhance existing functionality,
 
 To know about app changes that require consent from a user or an admin, see [conditions when an app update requires consenting](apps-update-experience.md). Depending on your organization's configuration, users may be able to grant consent to some types of permissions.
 
+## Let resource owners consent to RSC permissions
+
+Admins can configure whether users can let apps access their groups' or teams' data or not. Global Administrators can change the **Group owner consent for apps accessing data** settings in Microsoft Entra ID, to [let users to consent to RSC permissions](/entra/identity/enterprise-apps/configure-user-consent-groups#manage-group-owner-consent-to-apps-by-directory-settings).
+
+If you don't let group owner consent for apps, then users can't consent to RSC permissions in an app, if RSC permissions are used.
+
 ## Related articles
 
 * [View and understand app permissions](app-permissions.md)
-* [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions).
+* [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions)
+* [Configure the admin consent workflow in Entra ID portal](/entra/identity/enterprise-apps/configure-admin-consent-workflow)
