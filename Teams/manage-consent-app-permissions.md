@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 12/31/2023
+ms.date: 01/07/2024
 ms.reviewer: Orion.OMalley
 description: Manage consent to Teams apps permissions to access the required org information.
 f1.keywords:
@@ -30,7 +30,6 @@ ms.custom: seo-marvel-apr2020
 
 Objective: Know controls and tools available to you to customize and manage consent. This will address your corner cases and help you get a full inventory of the tools at your disposal.
 
-
 Add content:
 1 para summary of permissions
 
@@ -46,7 +45,6 @@ Use of Teams apps can provide an incredible boost to the productivity of and col
 A crucial part is to grant consent to the permissions that an app needs to work. You consent for approved apps so that each user in your organization doesn't have to review permissions and consent individually, when they start the app. A few examples of permissions requested by apps include the ability to read information stored in a team, read a user's profile, and send an email on behalf of users. To learn more about permissions and consent, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
 
 To safeguard company's needs and adhere to its policies, only a Global Administrator can grant consent to apps permissions on behalf of all users in your organization. The option to view details and requirement to grant consent applies to custom and third-party apps, and not to the [apps provided by Microsoft](apps-in-teams.md#types-of-teams-apps).
-
 
 <!--- What does this mean? Is there a per-user setting in AAD that apply to "some users"?
 Depending on the [user consent settings](/azure/active-directory/manage-apps/configure-user-consent) in Microsoft Entra ID, some users can't grant consent to apps that access company data.

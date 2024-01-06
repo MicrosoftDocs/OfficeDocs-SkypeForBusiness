@@ -70,10 +70,10 @@ For each app, these permissions are listed in the app details page in the admin 
 
 | App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
-| Microsoft Entra ID for Graph and legacy endpoint access | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
-| Microsoft Entra ID for Graph and legacy endpoint access | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#graph-permissions-required-by-teams-apps-to-access-your-organizations-information). |
-| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
-| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Entra ID permissions required by Teams apps](#entra-id-permissions). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#entra-id-permissions). |
+| RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner | See [RSC permissions](#resource-specific-consent-permissions). |
+| RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions](#resource-specific-consent-permissions). |
 | Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
 
 ## Where can admins see all permissions of an app
