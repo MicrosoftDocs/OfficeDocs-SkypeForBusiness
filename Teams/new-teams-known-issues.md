@@ -34,6 +34,7 @@ ms.localizationpriority: high
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set presence in taskbar.
 - Show and set presence in system tray.
+- Unable to configure incoming webhooks on private channels
 
 ## Issues specifically for the new Microsoft Teams for Education
 
