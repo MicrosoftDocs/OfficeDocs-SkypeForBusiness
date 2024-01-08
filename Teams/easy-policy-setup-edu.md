@@ -1,8 +1,8 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.reviewer: shajohri, angch
 ms.date: 03/09/2020
 ms.topic: article

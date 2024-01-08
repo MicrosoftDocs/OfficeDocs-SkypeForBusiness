@@ -2,6 +2,15 @@
 
 
 
+## Week of January 01, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/3/2024 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 1/3/2024 | [Signal settings](/MicrosoftTeams/rooms/signal-settings) | added |
+
+
 ## Week of December 25, 2023
 
 
@@ -133,32 +142,3 @@
 | 12/8/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
 | 12/8/2023 | [Predefined meeting templates in Microsoft Teams](/MicrosoftTeams/predefined-meeting-template-reference) | modified |
 | 12/8/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
-
-
-## Week of November 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/27/2023 | [Microsoft Teams Premium - Overview for administrators](/MicrosoftTeams/enhanced-teams-experience) | modified |
-| 11/27/2023 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | modified |
-| 11/27/2023 | [Microsoft Teams Premium licensing](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modified |
-| 11/27/2023 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
-| 11/27/2023 | [Manage the attendance and engagement report for meetings and events in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | modified |
-| 11/28/2023 | [Allow meeting and webinar organizers to hide the names of attendees (Preview)](/MicrosoftTeams/hide-attendee-names) | modified |
-| 11/29/2023 | [Know about apps in Microsoft Teams](/MicrosoftTeams/apps-in-teams) | modified |
-| 11/29/2023 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 11/29/2023 | [New Teams for Web - Overview and prerequisites](/MicrosoftTeams/new-teams-web) | modified |
-| 11/29/2023 | [Teams dial pad configuration](/MicrosoftTeams/dial-pad-configuration) | modified |
-| 11/29/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
-| 11/30/2023 | [Archive or delete a team in Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modified |
-| 11/30/2023 | [Allow meeting and webinar organizers to hide the names of attendees](/MicrosoftTeams/hide-attendee-names) | modified |
-| 11/30/2023 | [Manage VOD publishing for webinars and town halls](/MicrosoftTeams/manage-vod-publishing) | modified |
-| 11/30/2023 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
-| 11/30/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
-| 11/30/2023 | [Teams Rooms certified systems and peripherals](/MicrosoftTeams/rooms/certified-hardware) | modified |
-| 11/30/2023 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
-| 11/30/2023 | [Teams Rooms on Windows and Android feature comparison](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modified |
-| 12/1/2023 | [Microsoft Teams Devices Monitoring and Alerting](/MicrosoftTeams/alerts/device-health-status) | modified |
-| 12/1/2023 | [New Microsoft Teams for Education (EDU)](/MicrosoftTeams/new-teams-education) | modified |
-| 12/1/2023 | [Remove an external chat from a user's view in Microsoft Teams (admin)](/MicrosoftTeams/security-remove-external-chat) | added |
