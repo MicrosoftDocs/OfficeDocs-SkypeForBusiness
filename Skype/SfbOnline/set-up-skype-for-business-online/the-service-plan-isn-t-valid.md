@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "The user's Skype for Business Online service plan isn't valid"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 3631967e-d342-4a8a-905d-9b65d2ab554b

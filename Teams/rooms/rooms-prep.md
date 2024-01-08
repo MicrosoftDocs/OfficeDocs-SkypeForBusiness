@@ -1,7 +1,7 @@
 ---
 title: Prepare your Environment
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: kimmatlock
 ms.date: 10/04/2023
 manager: pamgreen
@@ -44,9 +44,11 @@ In order to function properly, Microsoft Teams Rooms  must have access to a netw
   
 - Access to your Active Directory or Microsoft Entra instance, and Microsoft Exchange and Microsoft Teams.
 
-- Access to HTTP ports 80 and 443.
+- Open ports HTTP (port 80) and HTTPS (port 443). To see the destinations when you are configuring the firewall rules, please see  the
+Skype for Business Online and Microsoft Teams table in [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+for those destinations. 
 
-- TCP and UDP ports configured as described in [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) for Microsoft Teams.
+- TCP and UDP ports configured as described in [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for Microsoft Teams.
 
 If your network runs through a proxy, you need the proxy address or script information as well.
     

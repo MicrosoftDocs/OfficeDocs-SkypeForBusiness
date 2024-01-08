@@ -83,6 +83,8 @@ items:
               items:
                 - name: Overview & rollout schedule for Windows client
                   href: new-teams-desktop-admin.md
+                - name: Features that are changing in new Teams
+                  href: new-teams-whats-changing.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -575,8 +577,6 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
-        - name: Manage chat blocking
-          href: block-incoming-chats.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -687,7 +687,7 @@ items:
               href: custom-meetings-overview.md
             - name: Manage and upload custom meeting backgrounds
               href: custom-meeting-backgrounds.md
-            - name: Meeting themes
+            - name: Create and manage meeting themes
               href: meeting-themes.md
             - name: Virtual appointment meeting template
               href: virtual-appointment-meeting-template.md
@@ -761,8 +761,6 @@ items:
               href: google-workspace-addon-teams.md
             - name: Island mode
               href: meeting-provider-islands-mode.md
-            - name: Teams meetings on unsupported browsers
-              href: unsupported-browsers.md
 
         - name: Create a Teams hybrid meeting experience
           items:
@@ -854,7 +852,7 @@ items:
                   href: change-the-settings-for-an-audio-conferencing-bridge.md
                 - name: See a list of Audio Conferencing numbers
                   href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-                - name: Set Auto attendant languages for Audio Conferencing
+                - name: Set auto attendant languages
                   href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
                 - name: Set up meeting dial-out confirmation for your users
                   href: set-up-meeting-dial-out-confirmation.md
@@ -949,7 +947,7 @@ items:
           items: 
             - name: Plan Auto attendants and Call queues
               href: plan-auto-attendant-call-queue.md
-            - name: Plan call routing flow
+            - name: Routing calls with Auto attendants and Call queues
               href: plan-your-call-routing-flow.md
             - name: Set up Auto attendants
               href: create-a-phone-system-auto-attendant.md
@@ -975,7 +973,7 @@ items:
           href: inbound-call-routing.md
         - name: Block inbound calls
           href: block-inbound-calls.md
-        - name: Configure call settings for your users
+        - name: Configure call forwarding and delegation settings
           href: user-call-settings.md
         - name: Call park and retrieve
           href: call-park-and-retrieve.md
@@ -1287,6 +1285,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
             - name: Phone number management for the United States
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+            - name: Contact the TNS Service Desk
+              href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
         - name: Toll-free dialing limitations and restrictions
           items: 
             - name: Overview
@@ -1542,6 +1542,8 @@ items:
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
+        - name: Signal settings
+          href: rooms/signal-settings.md  
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
