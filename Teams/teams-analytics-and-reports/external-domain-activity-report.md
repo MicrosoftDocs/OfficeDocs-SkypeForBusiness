@@ -32,7 +32,7 @@ The external domain activity report in the Microsoft Teams admin center shows yo
 
 ## Interpret the report
 
-
+:::image type="content" alt-text="Screenshot of the Teams external domain activity report in the Teams admin center." source="../media/external-domain-report-small.png" lightbox="../media/external-domain-report-expand.png":::
 
 |Item |Description  |
 |--------|-------------|
