@@ -1,7 +1,7 @@
 ---
 title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.date: 12/15/2023
