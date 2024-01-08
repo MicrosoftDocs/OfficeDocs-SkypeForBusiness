@@ -38,8 +38,6 @@ To create a one-time password, perform the following steps:
 1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
 1. Select **Generate OTP** wizard on the command bar.
 
-   :::image type="content" source="../media/resource-accounts-screen.png" alt-text="Screenshot that shows the Resource accounts page." lightbox="../media/resource-accounts-screen.png":::
-
    The **Account selection** page appears.
 
 1. Select the resource accounts for which you want to create a one-time password, and then select **Next**.
@@ -47,8 +45,6 @@ To create a one-time password, perform the following steps:
    > [!NOTE]
    > You must select a resource account for which the value in the **Readiness status** column is **No action needed**.
    > You can also search for specific resource accounts using the search bar. You just have to ensure that whatever is the resource account that you've searched for, that resource account should have the value **No action needed** in its **Readiness status** column.
-
-   :::image type="content" source="../media/account-selection.png" alt-text="Screenshot that shows the Account selection page." lightbox="../media/account-selection.png":::
 
    The **Configuration** page appears.
 
@@ -67,12 +63,8 @@ To create a one-time password, perform the following steps:
    > [!NOTE]
    > On the **Review** page, if you want to edit the **Auto generate passwords** setting, select the **Edit** icon next to **Configuration**. Then, select **Generate**.
 
-     :::image type="content" source="../media/edit-auto-generate-passwords.png" alt-text="Screenshot that shows the page on which you can edit the auto generate passwords option." lightbox="../media/edit-auto-generate-passwords.png":::
-
    > [!NOTE]
    > On the **Review** page, if you want to change the resource accounts for which you want to create a one-time password, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
-
-     :::image type="content" source="../media/edit-account-selection.png" alt-text="Screenshot that shows the page on which you can edit the accounts selected for OTP generation." lightbox="../media/edit-account-selection.png":::
 
 ## Verify and approve/reject one-time password
 
@@ -89,9 +81,6 @@ To verify and approve a one-time password, do the following:
    The page displaying the details of the chosen resource account appears.
 
 1. Select the **OTP** tab. The page displaying the details of the one-time password appears.
-
-   :::image type="content" source="../media/otp-details.png" alt-text="Screenshot that shows the page containing details of the OTP that is to be verified." lightbox="../media/otp-details.png":::
-  
 1. Verify the details such as:
    - The date when this one-time password was entered on the device, which is displayed in the **Requested date** column.
    - The expiration date, which is displayed in the **Expiration date** column.
