@@ -43,6 +43,8 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
+- Class teams created by copying from an existing Class team won't let you configure website tabs. </br>**Workaround:** Use classic Teams to configure the website tab.  
+
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
 
 - Weekly digest mail settings are missing.
