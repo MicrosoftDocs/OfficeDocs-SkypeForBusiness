@@ -27,7 +27,7 @@ If your organization chooses a third party for content storage, you need to turn
 This article will help you create, set, assign, and remove the `NativeFileEntryPoints` parameter using PowerShell.
 
 >[!NOTE]
->When the Teams Files policy is turned off, users won't see access points for OneDrive and SharePoint in Teams, but the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries. The **Files** app in the app bar on the left side of the Teams portal isn't affected by this Files policy being turned off.
+>When the Teams Files policy is turned off, users won't see access points for OneDrive and SharePoint in Teams. However, the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries. The **Files app** in the left navigation pane of classic Teams or the **OneDrive app** in the left navigation pane in new Teams isn't affected by the Files policy being turned off.
 
 ## Prepare to update the Teams Files policy
 

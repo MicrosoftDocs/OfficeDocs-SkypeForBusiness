@@ -1,7 +1,7 @@
 ---
 title: "Teams hybrid meeting participant best practices"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
