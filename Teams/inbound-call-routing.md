@@ -32,6 +32,15 @@ As an admin, you can create policies that help prevent your users from getting u
 
 This article applies to Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing. These policy settings are also available for GCCH & DoD use.
 
+## Call routing options
+
+Calls that come from the PSTN or are federated can be routed in the following ways:
+
+- **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting for PSTN and federated calls.
+- **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
+- **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected. For more information on voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+- **Let users decide** (PSTN calls only) The call is routed as **Use default settings**.
+
 ## Routing for PSTN calls
 
 This policy setting controls how inbound PSTN calls should be routed. These PSTN calls can be sent to voicemail, sent to unanswered settings, use default call routing, or you can allow your users to decide.
@@ -42,16 +51,11 @@ If **Use unanswered settings** or **Send to voicemail** is used, either of these
 
 ### Using the Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, click **Voice** > **Calling policies**.
+1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
 
-1. Select the policy you would like to update or click **Add** to create a new policy.
+1. Choose the policy you would like to update or select **Add** to create a new policy.
 
-1. For **Routing for PSTN calls**, you have the following options:
-
-    - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
-    - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
-    - **Let users decide** The call is routed as **Use default settings**.
+1. Select an option for **Routing for PSTN calls**.
 
 1. Click **Save**.
 
@@ -79,11 +83,7 @@ If **Unanswered** or **Send to voicemail** is used, either of these settings wil
 
 1. Select the policy you would like to update or click **Add** to create a new policy.
 
-1. For **Routing for federated calls**, you have the following options:
-
-    - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting.
-    - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
-    - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected.
+1. Choose an option for **Routing for federated calls**.
 
 1. Click **Save**.
 

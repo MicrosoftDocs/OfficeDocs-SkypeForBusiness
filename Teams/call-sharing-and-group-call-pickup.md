@@ -50,7 +50,7 @@ Note that mobile devices will only get notified if they're set for banner and ri
 
 You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing.
 
 ## Use Teams admin center

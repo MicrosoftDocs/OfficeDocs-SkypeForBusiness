@@ -64,7 +64,7 @@ Here are the settings that you can configure for calling policies.
 - [Routing for federated calls](inbound-call-routing.md)
 - [Call forwarding and simultaneous ringing to people in your organization](user-call-settings.md)
 - [Call forwarding and simultaneous ringing to external phone numbers](user-call-settings.md)
-- [Voicemail for inbound calls](user-call-settings.md)
+- [Voicemail for inbound calls](set-up-phone-system-voicemail.md)
 - [Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)
 - [Delegation for inbound and outbound calls](shared-line-appearance.md)
 - [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
@@ -81,22 +81,6 @@ Here are the settings that you can configure for calling policies.
 This setting controls whether users can record calls. This setting is off by default.
 
 For more information, see [Routing inbound calls](inbound-call-routing.md).
-
-### Voicemail for inbound calls
-
-This setting enables inbound calls to be sent to voicemail. The default setting is **Let users decide**. Valid options are:
-
-- **On** Voicemail is always available for inbound calls.
-- **Off**  Voicemail isn't available for inbound calls.
-- **Let users decide** Users can determine whether they want voicemail to be available.
-
-### Inbound calls can be routed to call groups
-
-This setting controls whether incoming calls can be forwarded to a call group. This setting is turned on by default.
-
-### Delegation for inbound and outbound calls
-
-This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. This setting is turned on by default. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
 ### Prevent toll bypass and send calls through the PSTN
 
