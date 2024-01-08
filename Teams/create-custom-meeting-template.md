@@ -58,7 +58,7 @@ To create a custom meeting template
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
 
-Note that if you change the options of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
+Note that if you change the options of an existing template, the changes affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
 
 #### Security
 
@@ -67,7 +67,7 @@ Note that if you change the options of an existing template, it will affect new 
 |Apply sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain options in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the option unlocked.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
-|End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription won't work if this is on.|
+|End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription don't work if this is on.|
 |Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Enable watermark for video|Specifies if a watermark is overlaid on attendees' video feeds in the meeting.|
 

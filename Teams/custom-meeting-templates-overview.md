@@ -73,7 +73,7 @@ Templates have the option of specifying a sensitivity label. Labels can also be 
 - Who can present
 - Who can record
 
-If any of these options are configured in a sensitivity label, they'll override these options in the template.
+If any of these options are configured in a sensitivity label, the label overrides the options in the template.
 
 ## Templates included with Teams
 
