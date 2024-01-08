@@ -57,7 +57,7 @@ The following table shows the main features that are different between meetings,
 |Maximum total participants|11,000* (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 |Breakout rooms|✔️|✖️|✖️|
 
-*The usual 10,000 is increased to 20,000 through December 30, 2023. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
+*The usual 10,000 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
 
 For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 
