@@ -1,7 +1,7 @@
 ---
 title:  Known issues in the new Microsoft Teams desktop client
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 01/03/2024
