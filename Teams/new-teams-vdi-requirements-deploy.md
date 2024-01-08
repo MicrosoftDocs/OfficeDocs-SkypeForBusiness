@@ -1,7 +1,7 @@
 ---
 title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.date: 12/15/2023
@@ -226,7 +226,7 @@ Make sure sideloading is enabled, and that WebView2 is installed. See 'Requireme
 
 Known limitations:
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown if the virtual machine doesn't have the Classic Teams client installed as well.
+- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ## Remove new Teams for all users
 
