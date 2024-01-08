@@ -82,13 +82,13 @@ Teams meetings support square logos that appear on key surfaces during your meet
 
 Uploads must adhere to the following parameters. An admin can only upload:
 
-- PNG and JPEG image formats for their logo.
+- PNG and JPEG image formats of your logo.
 - Two variations of the logo images that appear on the Pre-Join and Lobby UI:
   - Dark theme brand logo
   - Light theme brand logo
-- A logo image with a maximum size of 5 MB.
-- A logo image with a minimum dimension of 576 x 576 pixels.
-- Upload one image per theme from their device.
+- Logo images with a maximum size of 5 MB.
+- Logo images with a minimum dimension of 576 x 576 pixels.
+- Upload one image per theme from your device.
 
 ### Add a custom image
 
@@ -99,7 +99,7 @@ Teams meetings support an organization's images that display on the meetings scr
 
 Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and uploads must follow these parameters:
 
-- PNG and JPEG image formats for brand image.
+- PNG and JPEG image formats of your brand image.
 - Two variations of the brand images that appear on the Pre-Join and Lobby UI:
   - Dark theme brand image
   - Light theme brand image
@@ -107,7 +107,7 @@ Custom images must meet Microsoft accessibility contrast ratios (4:5:1), and upl
 - Brand images with following dimensions:
   - Minimum dimensions: 1024 x 574 pixels
   - Maximum dimensions: 3840 x 2160 pixels
-- Upload a minimum of 0 and a maximum of one image per theme from their device.
+- Upload a minimum of 0 and a maximum of one image per theme from your device.
 
 ### Add a custom color
 
@@ -123,25 +123,6 @@ Once you add your meeting assets, you can preview how your theme looks before sa
 ### Save your meeting theme
 
 By selecting **Save**, the meeting theme is automatically saved and applied to your meetings. Selecting **Save and apply for later** saves the meeting theme, but doesn't apply it to any of your meetings. To apply this theme, select **Save** on the meeting theme creator, or use the **Currently active** toggle on the meeting theme table on the customization policy page.
-
-## Create a theme for meeting invites
-
-You can create a meeting theme to display on meeting invites that users with this assigned policy create.
-
-1. In the Teams admin center, select **Meetings** from the navigation pane.
-2. Under **Meetings**, select **Customization policies**
-3. Either select an existing policy or create a new one.
-4. Within your chosen policy, navigate to the **Customize meeting visuals** section.
-5. If you're creating a new policy, select **Add a theme**. If you're managing an existing policy, select your theme and select the **Edit meeting themes** button.
-6. Upload your custom logo:
-
-    - To add your custom logo, toggle **Enable logo on meeting invite** on.
-    - The meeting invite logo must meet the following parameters:
-        - Format: PNG/JPEG
-        - Size: 188 x 30 pixels
-    - This logo overrides any logo images that are defined in the meeting settings policy.
-7. Select the **Preview** button to preview your meeting invite theme.
-8. Select **Save**
 
 ### Manage meeting themes in PowerShell
 
@@ -189,7 +170,7 @@ To support this use case, Tenant Admins can create two distinct customization po
 
 They can proceed to assign the licensed employees in Contoso Technical Services to Policy A, and licensed employees of Contoso Education to Policy B.
 
-:::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
+:::image type="content" source="media/meeting-themes-tech-services-small.png" alt-text="Screenshot of policy A, Contoso Technical Services' meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-tech-services.png":::
 
 ## Where are meeting themes visible
 
@@ -200,13 +181,12 @@ Supported clients:
 - Android (Versions 11+ only)
 - iOS
 
-|         | Join Launcher | Meeting Pre-Join | Meeting Lobby | Meeting Stage |
-| :---:          |     :---:      |         :---:  |         :---:  |         :---:  |
-| **Logo**   | No | Yes| Yes| No|
-| **Image**     | No | Yes| Yes| No|
-| **Color**     | Yes | Yes| Yes| Yes|
+|         | Join Launcher | Meeting Pre-Join | Meeting Lobby | Meeting Stage | Meeting invite |
+| :---:          |     :---:      |         :---:  |         :---:  |         :---:  |        :---:  |
+| **Logo**   | No | Yes| Yes| No| Yes |
+| **Image**     | No | Yes| Yes| No| No|
+| **Color**     | Yes | Yes| Yes| Yes| No|
 
-Logos and images will be available for Join Launcher in future updates.
 
 > [!NOTE]
 > Images aren't visible on mobile clients.
