@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams webinar usage report
+title: Microsoft Teams external domain activity report
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -16,19 +16,17 @@ description: Learn how to use the Teams external domain usage report in the Micr
 appliesto: 
   - Microsoft Teams
 ---
-# Microsoft Teams webinar usage report
+# Microsoft Teams external domain activity report
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-The external domain activity report in the Microsoft Teams admin center shows you 
+The external domain activity report in the Microsoft Teams admin center shows you the number of users in your organization that have communicated with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) each day.
 
 ## View the webinar usage report
 
-1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Webinar usage reports**.
-2. Under **Date range**, select a predefined range or set a custom range. You can set a range to show data up to a year, six months before and after the current date.
-3. Under **Organizer**, you can choose to show only webinars organized by a specific user.
-4. Select **Run report**.  
-
+1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **External domain activity**.
+1. Under **Date range**, select a predefined date range.
+1. Select **Run report**.  
 
 ## Interpret the report
 
@@ -36,14 +34,8 @@ The external domain activity report in the Microsoft Teams admin center shows yo
 
 |Item |Description  |
 |--------|-------------|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-
+|Domain name|The domain of the trusted organization.|
+|People in my org|The number of users that have communicated with the organization through meetings or chat during the selected time range.|
 
 ## Related topics
 
