@@ -18,8 +18,6 @@ appliesto:
 ---
 # Microsoft Teams external domain activity report
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
-
 The external domain activity report in the Microsoft Teams admin center shows you the number of users in your organization that have communicated with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) each day.
 
 ## View the webinar usage report
