@@ -1,5 +1,5 @@
 ---
-ms.date: 03/17/2018
+ms.date: 01/04/2024
 title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
 ms.author: serdars
 author: SerdarSoysal
@@ -129,15 +129,14 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
   
-1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
+1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
     
     ```powershell
     $clientId = "your-app-client-id"
-    $clientSecret = "your-app-client-secret"
     $tenantId = "your-tenant-id"
-    $secret = ConvertTo-SecureString -String $clientSecret -AsPlainText -Force
-    $cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $clientId, $secret
-    Connect-MgGraph -ClientSecretCredential $cred -TenantId $tenantId
+    $ClientSecretCredential = Get-Credential -Credential $clientId
+    # Enter client_secret in the password prompt
+    Connect-MgGraph -TenantId $tenantId -ClientSecretCredential $ClientSecretCredential
     ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
@@ -147,7 +146,7 @@ In Microsoft 365 or Office 365, the default password expiration policy for all o
    	Update-MgUser -UserId '11111111-0000-aaaa-bbbb-222222222222' -PasswordPolicies "DisablePasswordExpiration"
    ```
 
-For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+For more information, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 ## Validate
 
