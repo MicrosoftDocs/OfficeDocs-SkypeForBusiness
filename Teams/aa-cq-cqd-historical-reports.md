@@ -128,17 +128,17 @@ The data is available within 30 minutes of the call being completed, but there a
 
 You have to refresh the data to see any new data.
 
-## Auto attendant and Call queue historical reports definitions
+## Auto attendant and Call queue historical reports
 
 ### Cloud Auto Attendant Analytics report
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analysis report, version 3.1.1":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
-|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on. |
+|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
 |3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attedant to see the calls for that Auto Attendant.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
@@ -148,9 +148,44 @@ You have to refresh the data to see any new data.
 |7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller had made some selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition has occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
 |8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
 
- 
+#### Known issues
 
-   
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
+1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
+
+
+### Cloud Call Queue Analytics report
+
+#### Interpret the report
+
+:::image type="content" source="media/aa-cq-historical-report-sample-cq-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report, version 3.1.4":::
+
+|Callout  |Title                                  |Description               |
+|:--------|:--------------------------------------|:-------------------------|
+|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
+|2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
+|3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attedant to see the calls for that Auto Attendant.<br>Default: All       |
+|4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
+|5a       |Quick Stats -> Usage Statistics        |A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
+|5b       |Caller Action Count                    |A breakdown on caller actions showing how many .....   |
+|6        |Quick Stats -> Directory Search Method |A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers didn't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</ul>                          |
+|7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller had made some selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition has occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
+|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
+
+#### Known issues
+
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
+1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
+
+
+
+
+
+
+## Auto attendant and Call queue historical reports field definitions
+
 #### fAutoAttendant table field description
 
 |Name                                    |Data Type                |Description                            |
@@ -187,11 +222,7 @@ You have to refresh the data to see any new data.
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 |TotalCallCountSum (Measure)             |Whole number             |Sum of TotalCallCount                                                                    |
 
-#### Known issues
 
-1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
-1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
-1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 
 ### Cloud Call Queue Analytics report
 
