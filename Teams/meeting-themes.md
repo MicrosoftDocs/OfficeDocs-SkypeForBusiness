@@ -38,6 +38,9 @@ Teams premium licensed users with an assigned meeting customization policy can c
 
 :::image type="content" source="media/meeting-themes-edu-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/meeting-themes-edu.png":::
 
+> [!IMPORTANT]
+> Microsoft doesn't validate the ownership of brand logos or images associated with meeting themes. When your users join meetings with other organizations, they should always verify the authenticity of the organization they're meeting with.
+
 > [!NOTE]
 > Uploaded images and their associated image URL are visible to all meeting participants; including external users, guests, unauthenticated users, and anyone with a link to join the meeting. To stop displaying your images, you must delete the images from your meeting theme. To remove images from a meeting theme, navigate to the **Meeting customization policy** in the Teams admin center, select the chosen meeting theme, and select **Edit meeting theme**.
 
