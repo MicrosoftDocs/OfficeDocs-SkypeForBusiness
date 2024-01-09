@@ -21,18 +21,18 @@ The Registration view stores information about user registration. This view was 
   
 |**Column**|**Data Type**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Time of session request. Used in conjunction with SessionIdSeq to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID number to identify the session. Used in conjunction with SessionIdTime to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Time of session request. Used with SessionIdSeq to uniquely identify a session. For more information, see the [Dialogs table in Skype for Business Server 2015](dialogs.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID number to identify the session. Used with SessionIdTime to uniquely identify a session. For more information, see the [Dialogs table in Skype for Business Server 2015](dialogs.md). <br/> |
 |**RegisterTime** <br/> |datetime  <br/> |Time at which registration occurred.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI of the user who registered.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who registered. See the [UriTypes table](uritypes.md) for more information. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who registered. See the [Tenants table](tenants.md) for more information. <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who registered. For more information, see the [UriTypes table](uritypes.md). <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who registered. For more information, see the [Tenants table](tenants.md). <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |Unique identifier of the endpoint of the user registered with.  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |Unique identifier used to differentiate registrations that involve the same user and the same endpoint.  <br/> |
 |**DeRegisterType** <br/> |datetime  <br/> |Time at which deregistration occurred.  <br/> |
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Reason for deregistration.  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Version of client used by the user who registered.  <br/> |
-|**ClientType** <br/> |int  <br/> |Client used by the user who registered. See the [UserAgentDef table](useragentdef.md) for more details. <br/> |
+|**ClientType** <br/> |int  <br/> |Client used by the user who registered. For more information, see the [UserAgentDef table](useragentdef.md). <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Category of the client used by the user who registered.  <br/> |
 |**IpAddress** <br/> |nvarchar(256)  <br/> |IP Address the user registered with. This may be an IPv4 or IPv6 address.  <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |SIP dialog ID. The format of the is:  <br/> dialog;from-tag;to-tag  <br/> |

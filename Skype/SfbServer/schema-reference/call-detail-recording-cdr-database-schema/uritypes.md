@@ -24,4 +24,4 @@ When the CDR DB is created, two records to represent PhoneUri and UserUri are cr
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**UriTypeId** <br/> |tinyint  <br/> |Primary  <br/> |Unique identifier assigned to a URI type.  <br/> Possible values - 0 to 255 |
-|**UriType** <br/> |nvarchar(256)  <br/> || Descriptions of the different URI types. The following values are pre-assigned: <br/>  1 - Phone Uri <br/>  0 - User Uri <br/> <br/>  Other possible types include: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:chat<br/>    conf:focus<br/>   mras<br/>
+|**UriType** <br/> |nvarchar(256)  <br/> || Descriptions of the different URI types. The following values are preassigned: <br/>  1 - Phone Uri <br/>  0 - User Uri <br/> <br/>  Other possible types include: <br/>conf:applicationsharing <br/> conf:audio-video<br/> conf:chat<br/>    conf:focus<br/>   mras<br/>
