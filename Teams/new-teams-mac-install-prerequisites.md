@@ -1,7 +1,7 @@
 ---
 title:  Install and prerequisites for the Microsoft new Teams for the Mac
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.date: 10/02/2023

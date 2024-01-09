@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 audience: Admin
 ms.topic: article
