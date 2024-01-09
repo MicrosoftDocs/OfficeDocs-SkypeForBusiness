@@ -1,7 +1,7 @@
 ---
 title:  New Teams for Web - Overview and prerequisites
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 12/11/2023
