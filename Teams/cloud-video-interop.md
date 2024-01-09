@@ -57,7 +57,7 @@ third-party systems that are outside of the Office 365 infrastructure and theref
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution. 
 
-> [!IMPORTANT]
+> [!WARNING]
 > Microsoft has only certified CVI partners (within the table below), for video interoperability within Teams meetings. Granting other 3rd parties with Graph API permissions which provide similar capabilities is not supported by Microsoft.
 
 |Partner|Partner solution|
@@ -74,7 +74,6 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 ## Cloud Video Interop Release Notes
 
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
-
 
 |Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
