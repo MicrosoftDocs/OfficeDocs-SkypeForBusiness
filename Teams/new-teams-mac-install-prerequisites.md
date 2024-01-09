@@ -51,8 +51,8 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 - To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
 
 >[!Note]
-> Only Microsoft Autoupdate can be used update new Teams. 
->Learn more about autoupdate: [**Update Office for Mac automatically**](/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
+> Only **Microsoft Autoupdate** can be used to update new Teams. 
+>Learn more: [**Update Office for Mac automatically**](/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
 
 
 
