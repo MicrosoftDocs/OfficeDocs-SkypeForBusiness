@@ -116,7 +116,7 @@ After a resource room mailbox account has been created and enabled as shown prev
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:
+    You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to return this property:
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
