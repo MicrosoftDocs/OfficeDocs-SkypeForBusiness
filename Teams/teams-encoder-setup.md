@@ -65,6 +65,8 @@ Microsoft has validated the video encoders for live streaming with Teams in the 
 |vMix                                   |[vMix](https://www.vmix.com/) |Software||
 |XSplit Broadcaster                     |[XSplit Broadcaster](https://www.xsplit.com/) |Software||
 
+*Native caption support coming soon
+
 ### Event Setup
 
 - For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
