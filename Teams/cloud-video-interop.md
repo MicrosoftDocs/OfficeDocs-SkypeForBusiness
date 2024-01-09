@@ -59,6 +59,7 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 > [!WARNING]
 > Microsoft has only certified CVI partners (within the table below), for video interoperability within Teams meetings. Granting other 3rd parties with Graph API permissions which provide similar capabilities is not supported by Microsoft.
+
 |Partner|Partner solution|
 |----|---|
 |![The logo representing Pexip Infinity.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
