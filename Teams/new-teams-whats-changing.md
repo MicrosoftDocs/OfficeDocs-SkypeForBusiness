@@ -1,7 +1,7 @@
 ---
 title:  What is changing in the new Microsoft Teams
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 12/14/2023
