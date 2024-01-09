@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ralphmaamari
+ms.reviewer: janineco
 ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium

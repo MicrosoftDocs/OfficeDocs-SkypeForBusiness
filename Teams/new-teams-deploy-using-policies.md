@@ -1,7 +1,7 @@
 ---
 title:  Upgrade to the new Teams client using policies
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 12/14/2023
