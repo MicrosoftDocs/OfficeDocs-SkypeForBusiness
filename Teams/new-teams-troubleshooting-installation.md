@@ -1,7 +1,7 @@
 ---
 title:  Troubleshooting the new Teams installation
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 12/05/2023
