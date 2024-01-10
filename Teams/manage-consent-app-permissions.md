@@ -98,24 +98,6 @@ The recommended approach works together with permissions classification. The cla
 
 To accomplish this configuration, you must have a Global Administrator, Application Administrator, or Cloud Application Administrator role in your organization.
 
-## View resource-specific consent permissions of an app
-
-RSC permissions let an app access and modify a team's or a user's data. RSC permissions are granular and specific to the Teams team in which an app is added. A few examples of RSC permissions are the ability to create and delete channels in a team, get the settings for a team, and create and remove channel tabs.
-
-RSC permissions are defined in the app manifest and not in Microsoft Entra admin center. Team owners can grant consent for such permissions when they add the app to a team or a chat. To know more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
-
-Global Administrators and Teams Administrators can view RSC permissions for an app in the **Permissions** tab of the app details page. To view RSC permissions for an app, follow these steps:
-
-1. In Teams admin center, go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
-
-1. Search for the required app in the catalog.
-
-1. Click the app name to go to the app details page and then select the **Permissions** tab. Alternately, click the **View details** link of the app.
-
-1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
-
-    :::image type="content" source="media/view-rsc-perms.png" alt-text="Screenshot showing an example of RSC permissions of an app in the Permissions tab.":::
-
 ## Check and verify granted consent to permissions
 
 After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted.
@@ -140,13 +122,31 @@ To revoke the consent that you have granted to an app previously, follow these s
 
    :::image type="content" source="media/consented-perms-entra-revoke.png" alt-text="Screenshot showing the option to revoke a Graph permission of an app from the Entra admin center.":::
 
-If you revoke To again provide consent after you revoke it, see [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
+After you revoke consent to some permissions, you can re-grant consent. See [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
 
 ## Grant consent to new Graph permissions after an app update
 
 Developers update apps to add new functionality, enhance existing functionality, or fix bugs. Some app updates may add new permissions that were not part of the previous version of the app. If the developer adds any new permissions that require admin consent, you must consent to the new permissions. Re-consent flow is the same as described in [Grant org-wide admin consent to an app's permissions](#grant-org-wide-admin-consent-to-an-apps-permissions).
 
 To know about app changes that require consent from a user or an admin, see [conditions when an app update requires consenting](apps-update-experience.md). Depending on your organization's configuration, users may be able to grant consent to some types of permissions.
+
+## View resource-specific consent permissions of an app
+
+RSC permissions let an app access and modify a team's or a user's data. RSC permissions are granular and specific to the Teams team in which an app is added. A few examples of RSC permissions are the ability to create and delete channels in a team, get the settings for a team, and create and remove channel tabs.
+
+RSC permissions are defined in the app manifest and not in Microsoft Entra admin center. Team owners can grant consent for such permissions when they add the app to a team or a chat. To know more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+
+Global Administrators and Teams Administrators can view RSC permissions for an app in the **Permissions** tab of the app details page. To view RSC permissions for an app, follow these steps:
+
+1. In Teams admin center, go to **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
+
+1. Search for the required app in the catalog.
+
+1. Click the app name to go to the app details page and then select the **Permissions** tab. Alternately, click the **View details** link of the app.
+
+1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
+
+    :::image type="content" source="media/view-rsc-perms.png" alt-text="Screenshot showing an example of RSC permissions of an app in the Permissions tab.":::
 
 ## Let resource owners consent to RSC permissions
 
@@ -157,5 +157,5 @@ If you don't let group owner consent for apps, then users can't consent to RSC p
 ## Related articles
 
 * [View and understand app permissions](app-permissions.md)
-* [RSC permissions reference](/graph/permissions-reference#teams-resource-specific-consent-permissions)
+* [Microsoft Graph permissions reference including RSC permissions](/graph/permissions-reference).
 * [Configure the admin consent workflow in Entra ID portal](/entra/identity/enterprise-apps/configure-admin-consent-workflow)
