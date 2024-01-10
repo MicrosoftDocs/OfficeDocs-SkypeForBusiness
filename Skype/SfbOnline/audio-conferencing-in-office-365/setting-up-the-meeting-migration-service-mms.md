@@ -1,5 +1,5 @@
 ---
-ms.date: 11/28/2017
+ms.date: 01/10/2024
 title: "Using the Meeting Migration Service (MMS)"
 ms.author: serdars
 author: tonysmit
