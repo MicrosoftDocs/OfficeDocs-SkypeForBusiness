@@ -46,7 +46,7 @@ Starting on 1 February 2024, any classic Teams users who haven’t updated to ne
 
 [XXX SCREENSHOT WITH ALT TEXT]
 
-Classic Teams will continue to function normally until 31 March 2024. However, we highly encourage admins to update their users to new Teams to get the latest and greatest features of new Teams. Upgrade to the new Teams client using policies - Microsoft Teams | Microsoft Learn
+Classic Teams will continue to function normally until 31 March 2024. However, we highly encourage admins to update their users to new Teams to get the latest and greatest features of new Teams. You can find more information in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 If users are on unsupported operating system, you’ll see a slightly different banner messaging:
 
@@ -125,7 +125,7 @@ After these options are removed, Microsoft will begin moving all users except VD
 - **What if I need to use classic Teams after 31 March 2024:** You won’t be able to use classic Teams after 31 March 2024, unless you meet one of the conditions in the second column at the start of this article. Then you’ll have until 30 June 2024. Until that date you will still have a banner announcing the end of classic Teams at the top of your client.
 - **Will I be able to download classic Teams after 31 March 2024:** Yes, but it won't be functional unless you meet one of the conditions in the second column at the start of this article.
 
-## VDI
+### VDI
 
 - **Will the 31 March 2024 date apply to users on VDI devices:** No, the 30 June 2024 date applies to users on VDI devices.
 - **How will the new Teams Only policy impact VDI users:** They won’t be affected until 30 June 2024.
