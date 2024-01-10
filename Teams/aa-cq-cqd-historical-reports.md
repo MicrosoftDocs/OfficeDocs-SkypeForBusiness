@@ -98,14 +98,16 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.4.pbit` template file. Power BI Desktop should launch.
 
-4. You're prompted to select the **DataSource** and **UTC Offset**.  
+4. You're prompted to select the **DataSource**. **Report Level**, and **UTC Offset**.  
 
    :::image type="content" source="media/aa-cq-historical-report-01-v314.png" alt-text="Screenshot showing the DataSource, Report Level and UTC Offset selections.":::
 
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
         - Select `Per Call` (default) to retrieve all the invidual call records.
-        - Select `Per Day` to retrieve an aggregated total for each day. Reporting is based on UTC and UTC Offset is ignored.
+        - Select `Per Day` to retrieve an aggregated total for each day.
+          - Reporting is based on UTC
+          -  and UTC Offset is ignored.
     - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
