@@ -1239,7 +1239,7 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
             - name: Phone number management for Germany
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: Phone number management for Hong Kong
+            - name: Phone number management for Hong Kong SAR
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
             - name: Phone number management for Hungary
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
@@ -1544,6 +1544,8 @@ items:
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
+        - name: Signal settings
+          href: rooms/signal-settings.md  
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow

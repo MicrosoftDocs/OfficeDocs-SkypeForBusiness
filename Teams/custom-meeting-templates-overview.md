@@ -5,8 +5,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ralphmaamari
-ms.date: 09/28/2022
+ms.reviewer: janineco
+ms.date: 01/08/2024
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -73,7 +73,7 @@ Templates have the option of specifying a sensitivity label. Labels can also be 
 - Who can present
 - Who can record
 
-If any of these options are configured in a sensitivity label, they'll override these options in the template.
+If any of these options are configured in a sensitivity label, the label overrides the options in the template.
 
 ## Templates included with Teams
 
