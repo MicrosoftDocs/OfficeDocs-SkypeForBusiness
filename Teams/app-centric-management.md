@@ -3,7 +3,7 @@ title: App centric management to manage app access
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.topic: conceptual
+ms.topic: article
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 11/15/2023
+ms.date: 01/04/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -132,6 +132,10 @@ If your tenant had only Global permission policy and doesn't have any custom pol
 | Blocked                     | Allowed                                              | No one can install             |
 | Allowed                     | Blocked                                              | No one can install             |
 | Allowed                     | Allowed                                              | Everyone                       |
+
+You can't access, edit, or use permissions policies after switching to manage access by apps functionality.
+
+:::image type="content" source="media/permission-policy-unavailable.png" alt-text="Screenshot showing that app permission policies are not available for organizations using app centric management.":::
 
 ## Related article
 

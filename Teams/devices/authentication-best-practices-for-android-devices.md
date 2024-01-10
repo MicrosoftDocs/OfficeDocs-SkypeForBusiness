@@ -1,6 +1,6 @@
 ---
 title: Authentication best practices for Microsoft Teams shared device management of Android devices.
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 11/02/2023

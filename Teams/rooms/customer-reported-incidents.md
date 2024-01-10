@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Record an issue
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 ms.date: 09/28/2022
 manager: pamgreen
 ms.reviewer: tonysmit
