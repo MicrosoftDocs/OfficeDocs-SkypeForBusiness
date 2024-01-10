@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
-ms.date: 04/12/2019
+ms.date: 01/10/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and various calling policy settings.
@@ -46,8 +46,8 @@ Follow these steps to create a custom calling policy.
 Follow these steps to edit an existing calling policy.
 
 1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
-2. Click next to the policy that you want to modify, and then select **Edit**.
-3. Make the changes that you want, and then click **Save**.
+2. Select the policy or policies that you want to modify, and then select **Edit**.
+3. Make the changes that you want, and then select **Save**.
 
 ## Assign a custom calling policy to users
 
@@ -69,7 +69,7 @@ Here are the settings that you can configure for calling policies.
 - [Delegation for inbound and outbound calls](shared-line-appearance.md)
 - [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
 - [Music on hold for PSTN calls](music-on-hold.md)
-- [Busy on busy during calls]()
+- [Busy on busy during calls](inbound-call-routing.md)
 - [Web PSTN calling]()
 - [Real-time captions in Teams calls](accessibility-guide-admin.md)
 - [Spam filtering]()
@@ -86,26 +86,9 @@ For more information, see [Routing inbound calls](inbound-call-routing.md).
 
 Turning on this setting sends calls through the Public Switched Telephone Network (PSTN) and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
 
-### Busy on busy during calls
-
-Busy on busy during calls (also called "busy options") lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is set to **Off** by default. This setting does not apply to incoming group call or meeting join request.
-
-- **Off** No busy option is enabled and new or incoming calls can still go to the user while the user is already in a call.
-- **On** New or incoming calls will be rejected with a busy signal.
-- **Use unanswered settings** The user's unanswered settings will be used, such as routing to voicemail or forwarding to another user.
-- **Let users decide** Users can determine their busy options choice from call settings in the Teams app.
-
 ### Web PSTN calling
 
 This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
-
-### Real-time captions in Teams calls
-
-This setting controls whether real-time captions in Teams calls are available for your users. This setting is turned on by default.
-
-### Automatically answer incoming meeting invites
-
-This setting controls whether incoming meeting invites are automatically answered. This setting is turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Spam filtering
 
@@ -118,14 +101,6 @@ This setting allows you to control the type of Spam filtering available on incom
 ### SIP devices can be used for calls
 
 This setting enables users to use a SIP device to make and receive calls. This setting is turned off by default.
-
-### Open apps in browser for incoming PSTN calls
-
-This setting controls whether apps are automatically opened in the browser for incoming PSTN calls to your users. This can be used to pass the phone number of an inbound caller to an app to find the associated customer record while the call is taking place. This setting is off by default.
-
-If turned on, a link to the app needs to be given in the **URL to open apps in browser for incoming PSTN calls** box. You can use the {phone} placeholder to pass the phone number (in E.164 format) to the provided URL. Or, you can give a generic URL without any placeholder. This setting simply launches the listed URL.
-
-![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
 ## Related articles
 

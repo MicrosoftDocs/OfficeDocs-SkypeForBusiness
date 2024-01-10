@@ -29,17 +29,29 @@ As the Microsoft Teams administrator for your organization, you can help make yo
 
 Create inclusive meetings and calls for users with disabilities so everyone can participate and contribute.
 
-### Turn on live captions for meetings
+### Turn on live captions
 
 Live captions are real-time auto-generated text of what is said in a meeting. They appear a few lines at a time for a user who has turned them on, and aren’t saved.
 
-To turn on live captions for users:
+#### Meetings
+
+To turn on live captions for meetings for users:
 
 1. In the Microsoft Teams admin center, go to **Meetings**, and then select **Meeting policies**.
 2. Select the policy you want to modify.
 3. Go to the **Recording & transcription** section.
 4. Switch **Live captions** to **Off, but organizers and co-organizers can turn them on**.
 5. Select **Save**.
+
+#### Calls
+
+To turn on real-time captions for calls for users:
+
+1. In the Microsoft Teams admin center, go to **Voice**, and then select **Calling policies**.
+
+2. Select the policy you want to modify.
+
+3. Turn **Real-time captions in Teams calls** to **On**, then select **Save**.
 
 > [!TIP]
 > Share the following link so users can learn how to [turn on live captions during meetings](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
@@ -53,7 +65,7 @@ Transcription is auto-generated, recorded text of what was said in a call. When 
 
 To turn on transcription for users:
 
-1. In the Microsoft Teams admin center, go to **Voice**, and then select the dropdown **Calling policies**.
+1. In the Microsoft Teams admin center, go to **Voice**, and then select **Calling policies**.
 
 2. Select the policy you want to modify.
 
