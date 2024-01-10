@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 01/08/2024
+ms.date: 01/11/2024
 ms.reviewer: Orion.OMalley
 description: Understand permissions that Teams apps request to access your organization and user information.
 f1.keywords:
@@ -35,21 +35,21 @@ You must evaluate the compliance, security, and data handling information of an 
 
 ## How apps access organization's information
 
-Teams provides safeguards so that your organization's or user's information can't be accessed without your consent. For an app to access any information, the following must happen:
+Teams provides safeguards so that your organization's or user's information can't be accessed without your consent. For an app to access any information, the following actions must happen:
 
 1. App developers declare permissions and [app capabilities](apps-in-teams.md#understand-app-capabilities) when they create apps.
 1. Admins understand and analyze the permissions required by the app in admin portals.
-1. Data access is granted in two ways. When the app is added to Teams, it is granted access to some basic capabilities which may include access to basic information. Upon granting consent an app receives access to additional data of user and organization or both, based on app permissions that it requested consent for.
+1. Data access is granted in two ways. When the app is added to Teams, it's granted access to some basic capabilities that may include access to basic information. Upon granting consent, an app receives access to some data of user and organization or both, based on app permissions that it requested consent for.
 
 ## Types of permissions and their source of declaration
 
 Teams app permissions can be of the following three types based on scope.
 
-* **Microsoft Entra ID permissions**: Microsoft Graph lets developers access your organization's Microsoft 365 information and data but only with the appropriate Entra ID permissions. An app declares these permissions upfront and admins must consent to these permissions before the app can access the info. If you grant admin consent to such a permission in a Teams app, then all permitted users of your org can use the app and let the app access org's information. These permissions are defined in Entra ID portal.
+* **Microsoft Entra ID permissions**: Microsoft Graph lets developers access your organization's Microsoft 365 information and data but only with the appropriate Microsoft Entra ID permissions. An app declares these permissions upfront and admins must consent to these permissions before the app can access the info. If you grant admin consent to such a permission in a Teams app, then all permitted users of your org can use the app and let the app access org's information. These permissions are defined in Microsoft Entra ID portal.
 
 * **Resource-specific permissions**: Resources in Teams can be a team, a chat, or a user. Use of these permissions let apps access the information of only a specific resource. Using RSC permissions, an app doesn't have to request access to org-wide information and can limit the scope of its access. These RSC permissions are defined in the app's manifest file. Only those users who have access to the resources, can consent for these permissions. Developers define these permissions in the app itself, in the app manifest file.
 
-* **Basic capabilities**: When developers create Teams apps, they use some capabilities defined in the development framework. These capabilities are high-level functionalities that apps can have. For example, an app can contain a bot that converses with the user. When an app uses a capability then the app is automatically granted some basic privileges. For example, if the app containing a bot is permitted for a user, then the bot can send and receive messages. These exist in apps based on what functionality the app developer has added to an app and aren't permissions that require a consent to be effective. Developers don't explicitly define these permissions but these are implicitly added when developers build any app functionality.
+* **Basic capabilities**: When developers create Teams apps, they use some capabilities defined in the development framework. These capabilities are high-level functionalities that apps can have. For example, an app can contain a bot that converses with the user. When an app uses a capability, it is automatically granted some basic privileges. For example, if the app containing a bot is permitted for a user, then the bot can send and receive messages. These privileges exist in apps based on what functionality the app developer added to an app and aren't permissions that require consent to be effective. Developers don't explicitly define these permissions but these permissions are implicitly added when developers build any app functionality.
 
 Based on the ways in which an application can access organization's information, there are two types of permissions:
 
@@ -60,8 +60,8 @@ Based on the ways in which an application can access organization's information,
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | How can apps access information                   | On behalf of a signed-in user.                                                                                                        | On their own, using their own identity.                                  |
 | What information is accessed                      | Permissions that app is granted consent to and the information associated with that permission that the signed-in user has access to. | Any info that a consented permission is associated with                  |
-| What roles can consent                            | Admins or users or group owners depending on Azure AD configuration                                                                   | Only admins                                                              |
-| Can users consent                                 | Users can consent depending on Azure AD configuration                                                                                 | Only admins can consent                                                  |
+| What roles can consent                            | Admins or users or group owners depending on Microsoft Entra ID configuration                                                                   | Only admins                                                              |
+| Can users consent                                 | Users can consent depending on Microsoft Entra ID configuration                                                                                 | Only admins can consent                                                  |
 
 ## Summary of types and sources of app permission and consent info
 
@@ -69,8 +69,8 @@ For each app, these permissions are listed in the app details page in the admin 
 
 | App permission type | Access context | Declaration source | When is consent required? | Who can consent? | Remarks |
 |---------------------|----------------|-------------|--------------------------|-----------------|-----|
-| Microsoft Entra ID for Graph and legacy endpoint access | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Entra ID permissions required by Teams apps](#entra-id-permissions). |
-| Microsoft Entra ID for Graph and legacy endpoint access | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#entra-id-permissions). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin | See [Microsoft Entra ID permissions required by Teams apps](#microsoft-entra-id-permissions). |
+| Microsoft Entra ID for Graph and legacy endpoint access | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin | See [Microsoft Graph permissions required by Teams apps](#microsoft-entra-id-permissions). |
 | RSC for information of teams, chats, and users | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner | See [RSC permissions](#resource-specific-consent-permissions). |
 | RSC for information of teams, chats, and users | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner | See [RSC permissions](#resource-specific-consent-permissions). |
 | Other permissions and data access | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install | Available in the `Permissions` tab in app details page of each app. More details are [here](#what-can-apps-do-in-teams). |
@@ -82,15 +82,15 @@ You can find the details of all types of permissions requested by an app in the 
 :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users.":::
 
    * **A**: [Interactions with user and data access](#what-can-apps-do-in-teams)
-   * **B**: [Microsoft Entra ID for Graph and legacy endpoint access](#entra-id-permissions)
+   * **B**: [Microsoft Entra ID for Graph and legacy endpoint access](#microsoft-entra-id-permissions)
    * **C**: [RSC for information of teams, chats, and users](#resource-specific-consent-permissions)
 
 > [!NOTE]
 > To know how you can permit use of an app by granting consent to its permissions, see [grant and manage consent to Teams app permissions](manage-consent-app-permissions.md).
 
-## Entra ID permissions
+## Microsoft Entra ID permissions
 
-App developers choose appropriate permissions from a wide variety of Graph APIs so that the apps get the necessary information to work. Before you grant consent to these permissions, you can view the specific permissions requested by an app. It helps you evaluate the impact of granting consent to an app's permissions. To view the Entra ID permissions, follow these steps:
+App developers choose appropriate permissions from a wide variety of Graph APIs so that the apps get the necessary information to work. Before you grant consent to these permissions, you can view the specific permissions requested by an app. It helps you evaluate the impact of granting consent to an app's permissions. To view the Microsoft Entra ID permissions, follow these steps:
 
 1. Access Teams admin center and open the **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page.
 
@@ -106,11 +106,11 @@ A complete list of all the possible permissions is documented in the [Microsoft 
 
 ## Resource-specific consent permissions
 
-RSC permissions let users give consent to apps for scope-specific information. Such consent lets apps access and modify only a team's or a chat's information. Such an app can't access the information of a chat or a team in which it is not added. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
+RSC permissions let users give consent to apps for scope-specific information. Such consent lets apps access and modify only a team's or a chat's information. Such an app can't access the information of a chat or a team in which it isn't added. Examples of RSC permissions include the ability to create and delete channels, get the settings for a team, and create and remove channel tabs.
 
 RSC permissions limit the scope of the app permissions to a specific resource as opposed to org-wide Graph permissions that can let apps access org-wide information. The resources on which RSC permissions can apply are chats and meetings, teams and channels, and users.
 
-RSC permissions are defined in the app manifest and not in Azure AD. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
+RSC permissions are defined in the app manifest and not in Microsoft Entra ID. You grant consent to RSC permissions when you add the app to a team. To learn more, see [Resource-specific consent (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 
 To view RSC permissions for an app, follow these steps:
 
@@ -138,27 +138,27 @@ Consider the following types of user interaction, required permissions, and data
 
 * A bot can receive messages from users and reply to them. Bots only receive messages in chats where users explicitly mention a bot by its name. This data leaves the corporate network.
 
-* After a user has sent a message to a bot, the bot can send the user direct or proactive messages at any time.
+* After a user sends a message to a bot, the bot can send the user direct or proactive messages at any time.
 
 * Some bots only send messages. They're called notification-only bots and the bot doesn't offer a conversational experience.
 
 * A bot added to teams can get a list of names and IDs of the channels in a team.
 
-* When it's used in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], and email address).
+* When using it in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], and email address).
 
 * It's possible for an app's bot to send direct or proactive messages to team members even if they haven't interacted with the bot.
 
 * Depending on settings and functioning of an app that is a bot, it can send and receive files in personal chat only. It isn't supported for group chats or channels.
 
-* Bots only have access to teams to which they've been added or to users who have installed them.
+* Bots only have access to teams to which the bots are added or to users who add the bots app.
 
 * When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
 * If necessary, a user or an admin can block a bot. Microsoft can also remove a bot from the store. [App verification and validation checks](overview-of-app-validation.md) ensures high quality apps are available in Teams store and that bots don't spam their users.
 
-* A bot can retrieve and may store basic identity information for the team members the app is added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Microsoft Entra ID.
+* A bot can retrieve and can store basic identity information for the team members the app is added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Microsoft Entra ID.
 
-* Bots can retrieve and may store the list of channels in a team. This data leaves the corporate network.
+* Bots can retrieve and can store the list of channels in a team. This data leaves the corporate network.
 
 * By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot has an access token with which it can do other tasks. The tasks depend on the bot and where the user signs in: a bot is a Microsoft Entra app registered at `https://apps.dev.microsoft.com/` and can have its own set of permissions.
 
@@ -189,7 +189,7 @@ Consider the following types of user interaction or data access for Tabs:
 
 A connector posts messages to a channel when events in an external system occur. The required permission for Connectors is to be able to post messages in channel. An optional permission for Connectors is the permission to reply to a message. Some connectors support actionable messages, which allow users to post targeted replies to the connector message. For example, by adding a response to a GitHub issue or adding a date to a Trello card. Consider the following types of user interaction, required permissions, and data access by Connectors:
 
-* The system that posts connector messages doesn't know who it's posting to or who receives the messages. No information about the recipient is disclosed. (Microsoft is the actual recipient, not the tenant; Microsoft does the actual post to the channel.)
+* The system that posts connector messages doesn't know who it's posting to or who receives the messages. No information about the recipient is disclosed. Microsoft is the actual recipient and not the organization. Microsoft does the actual posting to the channel.
 
 * No data leaves the corporate network when Connectors post messages in a channel.
 
@@ -201,7 +201,7 @@ A connector posts messages to a channel when events in an external system occur.
 
 * The Connector instance URL should be treated as secret or confidential. Anyone who has the URL can post to it. If necessary, team owners can delete the connector instance.
 
-* If necessary, a tenant administrator can prevent new Connector instances from being created and Microsoft can block all usage of a Connector app.
+* If necessary, an administrator can prevent new Connector instances from being created and Microsoft can block all usage of a Connector app.
 
 ### Outgoing webhooks
 
