@@ -132,7 +132,7 @@ As an admin, you manage Teams apps and not their capabilities. [Teams apps have 
 > [!NOTE]
 > Apps may not use all the below capabilities, unless the app is a complex app catering to multiple use cases. The tasks that app can do depend on the capabilities used in it by the app developer.
 
-### Bots and Messaging Extensions
+### Bots and messaging extensions
 
 Consider the following types of user interaction, required permissions, and data access by bots and messaging extensions:
 
