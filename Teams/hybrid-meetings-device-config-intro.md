@@ -1,7 +1,7 @@
 ---
 title: "Step 5 - Overview"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
@@ -22,7 +22,7 @@ ms.custom:
 keywords: 
 ---
 
-# Step 5 - Overview
+# Overview
 
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 

@@ -1,6 +1,6 @@
 ---
 title: Plan SIP Gateway
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 08/22/2023

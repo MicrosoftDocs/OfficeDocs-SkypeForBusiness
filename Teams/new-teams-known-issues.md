@@ -1,10 +1,10 @@
 ---
 title:  Known issues in the new Microsoft Teams desktop client
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 12/11/2023
+ms.date: 01/03/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -24,50 +24,43 @@ ms.localizationpriority: high
 
 - Annotations from the Presenter toolbar aren't currently available.
 - PowerPoint Live Standout isn't yet available.
-- Detecting multiple languages for spellchecker isn't currently available. 
-- Spellcheck is not working in Spanish even when the display and Teams language is set to Spanish.
-- Some spellchecker suggestions can be inaccurate. A Windows fix is pending, with an estimated rollout date of January.
-- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
-- Producing a Teams Live Event is not currently available; you will need to switch back to classic Teams.
-- Setting up the Home Page in a newly created Class team in Microsoft Teams for Education isn't currently available on desktop.
+- Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
+- On Windows, spell checking is limited to English (United States) dictionaries. Until this feature is fixed, users can disable spell checking from the settings page.
+- Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users can choose to disable spell checking from the settings page until then.
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently. By late March, scheduling a Teams Live Event will redirect to the new Teams web experience. 
+- Producing a Teams Live Event will be available in the new Microsoft Teams Desktop client in late March. Until then, you need to switch back to classic Teams to produce a Teams Live Event. 
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
-
-## Coming in December
-
+- New Teams client isn't respecting the date time formats set in the OS. This affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set presence in taskbar.
 - Show and set presence in system tray.
-- Support for external shared channels when using grid view in Microsoft Teams for Education.
 
-## Coming in January
+## Issues specifically for the new Microsoft Teams for Education
 
-- Custom backgrounds for announcement posts in channels will be delayed in Teams for Education pending the availability of policy controls.
+>[!Note]
+>Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
+>  
+>The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
+
+
+- Team owners may see the button to generate a new *join code* in the team code menu instead of the original code. If they click to generate, the original code will no longer work. </br>**Workaround:** Store and share team code with other team owners, or temporarily switch back to classic Teams to identify the code.
+
+
+- The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
+
+- Weekly digest mail settings are missing.
+
+- When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
+
+- Students are able to reply to posts by bots like the Assignment bot in the General channel even if channel moderation is enabled.</br>**Workaround:** Publish assignments in another channel where channel moderation is enabled or in channel settings where you have enabled "Allow bots to submit channel messages".
+
+- In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Encourage them to use the toggle to switch to New Teams.
+
+- If the toggle to switch to New Teams is greyed out with an error message, see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md).
+- Support for external Shared Channels when using *Grid view* isn't available.</br>**Workaround:** Use *List view*.
+
+- Custom backgrounds for announcement posts in channels will be available for *Faculty licensed* users after January 10. The release for students is delayed pending the availability of policy controls.
 
 ## What features are changing?
 
-As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
-
-|Classic Teams|New Teams|
-|:-----|:-----|
-|Post level notifications within a channel|Users can no longer opt in or opt out of receiving notifications at a channel post level.|
-|Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
-|Adding a Wiki to a channel tab|You no longer see a Wiki app. Instead, select the Notes app.|
-|Adding third party cloud storage service from Files app and Files tab in channels|You no longer see the "Add cloud storage" in the Files app on Teams' left navigation bar and within the Files tab in Teams channels. Now you can add the third party storage app directly from the Teams App Store.|
-|Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
-|Look up LinkedIn while in a 1:1 chat | Select a user’s avatar or profile photo anywhere in Teams and navigate to the LinkedIn tab within the profile card.|
-|Adding a document library (DocLib) app to a tab in channels|Use the Sharepoint app instead. Then add the document library from there as a tab to the channel. Existing document libraries automatically convert to a SharePoint document library on first use.|
-|Activity tab in chat| No longer available.|
-|Ability to save messages and files in Teams|The Save feature is no longer available, but will be replaced with a new feature in the future. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. |
-|Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, or work location (remote or office).|
-|Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
-|Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
-|Edit team name and change team picture from Edit team view.|Team owners can edit team name and change team picture in the team **Settings tab** by selecting **More options (...) > Manage team**.|
-|Ability to choose EDU themed team avatar from a list in the Edit team view In Microsoft Teams for Education|No longer available.|
-|About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
-|Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
-|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
-|General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
-|Ability to use tags in the "Add member" dialog.|There's now an advanced flow for tags.|
-|Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
-|Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
-|Search box commands  |The following commands are no longer available in the new Teams search box:</br> /activity, /files, /goto, /help, /join, /keys, /mentions, /org, /saved, /testcall, /unread, /whatsnew, /who.|
+As we improved the client, the experience also improved to align with similar features. Learn more: [**Features that are changing in the new Microsoft Teams**](new-teams-whats-changing.md)
