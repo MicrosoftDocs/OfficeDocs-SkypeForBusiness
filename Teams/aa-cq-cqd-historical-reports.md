@@ -105,9 +105,9 @@ Perform the following steps:
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
         - Select `Per Call` (default) to retrieve all the invidual call records.
-        - Select `Per Day` to retrieve an aggregated total for each day.
+        - Select `Per Day` to retrieve an aggregated total for each day. When `Per Day` is selected:
           - Reporting is based on UTC
-          -  and UTC Offset is ignored.
+          - UTC Offset is ignored
     - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
@@ -126,9 +126,9 @@ Perform the following steps:
 
 ## Data latency for Auto attendant and Call queue analytics
 
-The data is available within 30 minutes of the call being completed, but there are cases where it can take several hours for the data to appear.
+The data is typically available within 30 minutes of the call being completed, but there are cases where it can take several hours for the data to appear.
 
-You have to refresh the data to see any new data.
+You have to refresh the report to see any new data.
 
 ## Auto attendant and Call queue historical reports
 
@@ -175,13 +175,11 @@ You have to refresh the data to see any new data.
 |9        |Average Session Length (seconds)       |A breakdown showing how long calls waited before each call result.<br><br><ul><li>Agent Answered - for calls answered by an agent</li><li>Abandoned - for calls abandoned before being answered by an agent or before Call Timeout exception handling occurred</li><li>Overflowed (Disconnect) - for calls where the Call Overflow exception handling occurred and the treatment was to disconnect</li><li>Overflowed (Xferred) - for calls where the Call Overflow exception handling occurred and the treatment was to transfer the caller externally</li><li>Overflowed (Voicemail) - for calls where the Call Overflow excetion handling occurred and the treatment was to send the call to shared voicemail</li><li>Timed Out (Disconnect) - for calls where the Call Timeout exception handling occurred and the treatment was to disconnect</li><li>Timed Out (Xferred) - for calls where the Call Timeout exception handling occurred and the treatment was to transfer the caller externally</li><li>Timed Out (Voicemail) - for calls where the Call Timeout excetion handling occurred and the treatment was to send the call to shared voicemail</li><li>No Agents (Disconnect) - for calls where the No Agents exception handling occurred and the treatment was to disconnect</li><li>No Agents (Xferred) - for calls where the No Agents exception handling occurred and the treatment was to transfer the caller externally</li><li>No Agents (Voicemail) - for calls where the No Agents excetion handling occurred and the treatment was to send the call to shared voicemail</li><li>Other - for calls where some other condition occurred</li></ul> |
 10        |Call Overflow/Timeout/No Agents Destinations |A breakdown of where the calls that received the Call Overflow, Call Timeout or No Agents exception handling treatment were sent |
 
-
 #### Known issues
 
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on.  Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
-
 
 ### Cloud Call Queue Agent Timeline report
 
@@ -207,7 +205,6 @@ You have to refresh the data to see any new data.
 1. Agent names.... ^^^ SIMILAR TO ABOVE
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
-
 
 ## Auto attendant and Call queue historical reports field definitions
 
@@ -343,10 +340,12 @@ Each report tab is restricted to retrieving 90,000 rows. If there's a large numb
 
 If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
-1. Right click on the "fAutoAttendant" field on the right, select "Edit Query".
-2. Right click on "CommonQueryParameters" and select "Advanced Editor".
-3. Change the "LimitedResultRowsCount" to a larger number.
-4. Save the report.
+1. Click on the "Transform data" in the ribbon bar to open the Power Query Editor.
+1. Click on "LimitResultRowsCount" on the left-hand side.
+1. Change the value in the field to the right to a larger number.
+1. Close the Power Query Editor window.
+1. Select "Yes" when prompted to apply the changes now. The report should automatically refresh.
+1. Save your report.
 
 The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
 
@@ -356,8 +355,12 @@ Increasing the limit results in longer execution and response times.
 
 Increasing the maximum number of rows that can be returned may result in the reports timing out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
 
-1. INSERT INSTRUCTIONS HERE
-
+1. Click on the "Transform data" in the ribbon bar to open the Power Query Editor.
+1. Click on "ReportExecutionMinutes" on the left-hand side.
+1. Change the value in the field to the right to a larger number.
+1. Close the Power Query Editor window.
+1. Select "Yes" when prompted to apply the changes now. The report should automatically refresh.
+1. Save your report.
 
 ## Customization
 
