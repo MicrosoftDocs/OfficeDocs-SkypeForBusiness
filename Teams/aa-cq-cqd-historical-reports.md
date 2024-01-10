@@ -350,7 +350,14 @@ If shortening the date range isn't sufficient, it's possible to increase the num
 
 The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
 
-Increasing the limit results in longer response times.
+Increasing the limit results in longer execution and response times.
+
+## Report Execution Time Limits
+
+Increasing the maximum number of rows that can be returned may result in the reports timing out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
+
+1. INSERT INSTRUCTIONS HERE
+
 
 ## Customization
 
