@@ -42,7 +42,7 @@ By default, MMS is automatically triggered in each of these cases. In addition, 
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
 > [!NOTE]
-> Cloud Video Interop (CVI) meeting coordinates are only preserved (and newly created), when migrating from Skype for Business to Microsoft Teams. For meetings migrated from Microsoft Teams to Microsoft Teams, CVI coordinates are not updated. In the case whereby customers are moving from one CVI partner to another, meetings will need to be re-scheduled for CVI coordinates to be updated.
+> Cloud Video Interop (CVI) meeting coordinates are only preserved (and newly created), when migrating from Skype for Business to Microsoft Teams. For meetings migrated from Microsoft Teams to Microsoft Teams, CVI coordinates are not updated. If you're moving from one CVI partner to another, meetings will need to be re-scheduled for CVI coordinates to be updated.
 
 ## How MMS works
 
