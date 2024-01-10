@@ -146,14 +146,13 @@ You have to refresh the data to see any new data.
 |5b       |Caller Action Count                    |A breakdown on caller actions showing how many .....   |
 |6        |Quick Stats -> Directory Search Method |A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers didn't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</ul>                          |
 |7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller had made some selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition has occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
-|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
+|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.ADD EXPLANATION OF EACH FIELD <br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
 
 #### Known issues
 
 1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
-1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
-
 
 ### Cloud Call Queue Analytics report
 
@@ -178,12 +177,34 @@ You have to refresh the data to see any new data.
 #### Known issues
 
 1. Only the calls and caller actions in the first Call queue that answers the call are reported on.  Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
-1. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
+1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 
 
+### Cloud Call Queue Agent Timeline report
 
+#### Interept the report
 
+:::image type="content" source="media/aa-cq-historical-report-sample-at-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report, version 3.1.4":::
+
+|Callout  |Title                                  |Description               |
+|:--------|:--------------------------------------|:-------------------------|
+|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
+|2        |Agent Username                         |The agents to report on. ADD URI INFO HERE <br>Default: All    |
+|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
+|4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
+|5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
+|6        |                                       |A breakdown showing how many calls each agent in the queue answered and the average call duration for those calls. |
+|7        |Calls Answered (by hour)               |A breakdown showing the number of agent answered calls by hour  |
+|8        |                                       |A breakdown showing ADD INFO HERE.  ADD EXPLANATION OF EACH FIELD |
+
+#### Known issues
+
+1. Only 28 days of call history are available. Call queue and Agent data is considered personal data and is subject to data privacy retention policies.
+1. Call queues are shown by the resource account's ID instead of Call queue names.  To show all the traffic for a Call queue, you must select all the resource accounts assigned to the Call queue.
+1. Agent names.... ^^^ SIMILAR TO ABOVE
+1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
+1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 
 ## Auto attendant and Call queue historical reports field definitions
@@ -224,41 +245,7 @@ You have to refresh the data to see any new data.
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
 |TotalCallCountSum (Measure)             |Whole number             |Sum of TotalCallCount                                                                    |
 
-
-
 ### Cloud Call Queue Analytics report
-
-#### Report description
-
-|Report Section                                        |Description                                                        |
-|:-----------------------------------------------------|:------------------------------------------------------------------|
-|Original: Incoming Call Source<br>New: Incoming Calls |Distribution of calls by Internal/External call source             |
-|Average Wait Time (seconds)                           |Wait time for answered and abandoned calls                         |
-|Call Volume and Agent Opt-in Count                    |Distribution of calls by Call queues / Maximum agent opt-in count  |
-|Call Results                                          |Distribution of calls by call result                               |
-|Abandoned Calls                                       |Distribution of abandoned calls by Call queues                     |
-|Average Session Length (seconds)                      |Call length in seconds grouped by call result                      |
-|Call Overflow/Timeout Destinations                    |Distribution of calls that timed out or overflowed                 |
-
-#### Report visual and field mapping
-
-|Report Tab            |Report Table Name                                   |Global Filter       |
-|:---------------------|:---------------------------------------------------|:-------------------|
-|Call Queue            |fCallQueueAnalytics<br>fCallQueueFinalStateAction   |None                |
-
-|Report Section                      |Table -> Field(s) Used                |Filters Applied       |
-|:-----------------------------------|:-------------------------------------|:---------------------|
-|Date selector                       |fCallQueueAnalytics -> Call Start Time Local |None           |
-|Time Range selector                 |fCallQueueAnalytics -> CQHour         |None                  |
-|Call Queue Resource Account         |fCallQueueAnalytics -> CQ Name        |None                  |
-|Incoming call source                |fCallQueueAnalytics -> Sum of Call Count (Measure)  |External Calls: Call Type is External<br>Internal Calls: Call Type is Internal |
-|Avg Wait Time (seconds)-Before Answered |fCallQueueFinalStateAction -> Avg of Average CQ Duration (Measure) |Call Queue Call Result is agent_joined_conference or transferred_to_agent|
-|Avg Wait Time (seconds)-Before Abandoned |fCallQueueFinalStateAction -> Avg of Average Call Duration (Measure) |Call Queue Call Result isn't agent_joined_conference, transferred_to_agent, overflown, timed_out |
-|Call Volume and Agent Opt-In Count   |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Agent Opt In Count<br>fCallQueueAnalytics -> CQ Name<br>fCallQueueAnalytics -> Date |None |
-|Call Results                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result<br>fCallQueueAnalytics ->Call Queue Call Result Legend | None|
-|Abandoned Calls                     |fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> TotalCallCount | Call Queue Call Result Legend is Abandoned |
-|Average Session Length (seconds)    |fCallQueueFinalStateAction -> Average Call Queue Duration (Sec)<br>Call Queue Call Result Legend |Average Call Queue Duration (Sec) > 0 |
-|Call Overflow/Timeout/No Agents Destinations  |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type<br>fCallQueue Target Type Legend |Call Queue Target Type Legend doesn't contain Abandoned and Agent Answered |
 
 #### fCallQueueAnalytics table field description
 
@@ -308,31 +295,6 @@ You have to refresh the data to see any new data.
 |UTC Date                                |Date/time                |UTC  date/time                                                             |
 
 ### Cloud Call Queue Agent Timeline report
-
-#### Report description
-
-|Report Section                                          |Description                                                         |
-|:-------------------------------------------------------|:-------------------------------------------------------------------|
-|Number of Calls Answered by Agent                       |Distribution of calls by Call queue and agent                       |
-|Distribution of Calls Answered by Agent and Call Queue  |Distribution of calls by agent and Call queue                       |
-|Table (bottom left)                                     |Distribution of calls by agent with average and total call duration |
-|Average Answered Call Duration (seconds) by Agent (bottom right) |Average duration (seconds) of call by agent                |
-
-#### Report visual field mapping
-
-|Report Tab            |Report Table Name                  |Global Filter       |
-|:---------------------|:----------------------------------|:-------------------|
-|Agent Timeline        |fAgentTimelineAnalyticsSummary     |None                |
-
-|Report Section                                |Field(s) Used                         |Filters Applied       |
-|:---------------------------------------------|:-------------------------------------|:---------------------|
-|Date selector                                 |Date                                  |None                  |
-|Agent Username selector                       |Agent Name                            |None                  |
-|Call Queue Resource Accounts selector         |CQ Name                               |None                  |
-|Number of Calls Answered by Agent             |Total Call Count<br>Agent Name<br>Date<br>Hour      |None                  |
-|Distribution of Calls Answer by Agent and Call Queue          |Agent Name<br>Average Calls Duration (Seconds)<br>CQ Name<br>Total Call Count |None               |
-|Bottom Left                                   |Agent Name<br>Average Call Duration (Seconds)<br>CQ Name<br>Hour<br>MM-DD<br>Total Call Count<br>Total Call Duration (HH:MM:SS)<br>Total Call Duration (Minutes) | None |
-|Average Answered Call Duration (Seconds) by Agent      |Agent Name<br>Average Call Duration (Seconds) | None |
 
 #### fAgentTimelineAnalytics table field description
 
@@ -387,16 +349,6 @@ If shortening the date range isn't sufficient, it's possible to increase the num
 The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
 
 Increasing the limit results in longer response times.
-
-## Known issues
-
-1. Only the calls and caller actions in the first Auto attendant or Call queue that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) or chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
-
-2. Call queues and Auto attendants are shown by the resource account's ID instead of Call queue or Auto attendant names.  To show all the traffic for an Auto attendant or Call queue, you must select all the resource accounts assigned to the Auto attendant or Call queue.
-
-3. Only 28 days of call history are available. Call queue and Auto attendant data is considered personal data and is subject to data privacy retention policies.
-
-4. In some scenarios, the agent answered call count on the **Cloud Call Queue Agent Timeline** report might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
 ## Customization
 
