@@ -202,7 +202,7 @@ Command to uninstall teams machine-wide:
 teamsbootstrapper.exe -x -m
 
 > [!NOTE]
-> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, Please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
+> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
 
 #### User settings migration
 
