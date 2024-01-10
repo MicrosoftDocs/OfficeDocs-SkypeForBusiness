@@ -1,7 +1,7 @@
 ---
 title: Manage Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: kimmatlock
 ms.date: 10/04/2023
 manager: pamgreen
