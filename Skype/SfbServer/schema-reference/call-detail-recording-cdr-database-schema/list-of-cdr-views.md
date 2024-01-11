@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: "Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database. It is recommended that you use views for building custom reports instead of using the actual CDR database tables ; that's because the database views are more likely to maintain backwards compatibility with future releases."
+description: "Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database. It is recommended that you use views for building custom reports instead of using the actual CDR database tables; that's because the database views are more likely to maintain backwards compatibility with future releases."
 ---
 
 # List of CDR views
  
-Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database. It is recommended that you use views for building custom reports instead of using the actual CDR database tables ; that's because the database views are more likely to maintain backwards compatibility with future releases.
+Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database. It's recommended that you use views for building custom reports instead of using the actual CDR database tables; that's because the database views are more likely to maintain backwards compatibility with future releases.
   
 |**View Name**|**Description**|
 |:-----|:-----|
@@ -27,8 +27,8 @@ Views provide an easy way to access information about the most common scenarios 
 |[ConferenceSessionDetails view](conferencesessiondetails.md) <br/> |Returns session details for all conferencing sessions, including start and end time, user IDs, response codes, and diagnostic IDs.  <br/> |
 |[ConferenceUris view](conferenceuris-0.md) <br/> |Returns information about conference URIs used in a conference  <br/> |
 |[ErrorReport view](errorreport-0.md) <br/> |Returns information about errors that occurred during a session.  <br/> |
-|[FileTransfers view](filetransfers.md) <br/> |Returns information about file transfer sessions, including the file name and whether the transfer was accepted, rejected, or cancelled.  <br/> |
-|[FocusJoinsAndLeaves view](focusjoinsandleaves-0.md) <br/> |Returns information about conference join and leave activities.  <br/> |
+|[FileTransfers view](filetransfers.md) <br/> |Returns information about file transfer sessions, including the file name and whether the transfer was accepted, rejected, or canceled.  <br/> |
+|[FocusJoinsAndLeaves view](focusjoinsandleaves-0.md) <br/> |Returns information about conference joins and leave activities.  <br/> |
 |[McuJoinsAndLeaves view](mcujoinsandleaves-0.md) <br/> |Returns combined information about conference join and leave activities (each conference join is paired with the corresponding conference leave).  <br/> |
 |[Mcus view](mcus-0.md) <br/> |Returns information about Conferencing servers.  <br/> |
 |[Media view](media-0.md) <br/> |Returns information about the types of media used in peer-to-peer communication sessions.  <br/> |
