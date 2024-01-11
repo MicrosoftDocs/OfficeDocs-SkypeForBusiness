@@ -44,13 +44,13 @@ On March 31 2024, a new Teams client will be rolled out for users who are still 
 
 Starting on February 1 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the auto update. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
-[XXX SCREENSHOT WITH ALT TEXT]
+:::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available after March 31, 2024. You'll be switched to the new Teams after this date. Switch now.' Switch now is a selectable link.":::
 
 Classic Teams will remain available to use until March 31 2024. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
-If users are on unsupported operating system, you’ll see a slightly different banner messaging:
+If users are on an unsupported operating system, you’ll see a slightly different banner messaging:
 
-XXX SCREENSHOT WITH ALT TEXT
+:::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
 
 ### What users will experience after March 31 2024
 
@@ -62,13 +62,11 @@ Users on classic Teams will be automatically updated to the new Teams client. Us
 
 If your client falls under the March 31 section in the table at the start of this article, and you can’t be upgraded to new Teams (due to policies or configuration), the classic Teams client will stop working after March 31 2024. You will see an error message indicating the same.
 
-[XXX SCREENSHOT OF ERROR WITH ALT TEXT]
+:::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams notification box that appears after classic Teams no longer works, if you're unable to be upgraded to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
 
 To use Teams after this point, install the new Teams client or use Teams on the web.
 
 If you fall under the June 30 2024 list items and you aren’t able to be updated at the end of March, your classic Teams client will continue to run until June 30 2024, with a warning banner at the top of your client. We do ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
-
-[XXX POTENTIAL MULTIPLE SCREENS HERE, SPLIT INTO SCENARIOS?]
 
 ## Admin experience
 
