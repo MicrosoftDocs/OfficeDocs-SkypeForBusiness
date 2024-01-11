@@ -1,7 +1,7 @@
 ---
 title:  Known issues in the new Microsoft Teams desktop client
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 01/03/2024
@@ -43,7 +43,8 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
-- Class teams created by copying from an existing Class team won't let you configure website tabs. </br>**Workaround:** Use classic Teams to configure the website tab.  
+- Team owners may see the button to generate a new *join code* in the team code menu instead of the original code. If they click to generate, the original code will no longer work. </br>**Workaround:** Store and share team code with other team owners, or temporarily switch back to classic Teams to identify the code.
+
 
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
 
