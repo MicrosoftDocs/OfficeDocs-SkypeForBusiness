@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/10/2023
+ms.date: 01/11/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -364,7 +364,6 @@ You can’t use the native Teams app to join meetings. Clicking “Join on the T
 
 ## Features currently not available in VDI with the new Teams
 
-- Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
