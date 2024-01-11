@@ -17,12 +17,12 @@ description: "The ConfernceUris view stores information about the URIs that have
 
 # ConferenceUris view
  
-The ConfernceUris view stores information about the URIs that have participated in conference sessions. This view was introduced in Microsoft Lync Server 2013.
+The ConfernceUris view stores information about the URIs that are participating in conference sessions. This view was introduced in Microsoft Lync Server 2013.
   
 |**Column**|**Data Type**|**Details**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Unique number identifying the conference URI.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI of the conference.  <br/> |
-|ConferenceUriType  <br/> |nvarchar(256)  <br/> |Type of conference URI. See the [UriTypes table](uritypes.md) for more information. <br/> |
+|ConferenceUriType  <br/> |nvarchar(256)  <br/> |Type of conference URI. For more information, see the [UriTypes table](uritypes.md). <br/> |
    
 
