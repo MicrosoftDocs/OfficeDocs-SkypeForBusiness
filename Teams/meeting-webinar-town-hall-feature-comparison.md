@@ -76,7 +76,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
 
-*The usual 10,000 is increased to 20,000 through December 30, 2023.
+*The usual 10,000 is increased to 20,000 through June 30, 2024.
 
 ## Related topics
 
