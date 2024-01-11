@@ -57,7 +57,7 @@ The following table shows the main features that are different between meetings,
 |Maximum total participants|11,000* (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 |Breakout rooms|✔️|✖️|✖️|
 
-*The usual 10,000 is increased to 20,000 through December 30, 2023. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
+*The usual 10,000 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
 
 For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 
@@ -102,10 +102,11 @@ Teams Premium offers additional webinar functionality through the Teams Premium 
 |Allow registered users to bypass the lobby         |✔️                      |✔️                          |
 |Assign a co-organizer                              |✔️                      |✔️                          |
 |Limit the number of people who can register        |✔️                      |✔️                         |
-|Require attendees to register                      |✔️                      |✔️                          |
-|Set up a green room for webinar presenters                      |✔️                     |✔️                          |
-|Turn on Q&A for webinars with up to 1,000 attendees |✔️                      |✔️                          |
-|View attendance reports                            |✔️                      |✔️                          |
+|Require attendees to register|✔️|✔️|
+|Set up a green room for webinar presenters |✔️|✔️ |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️ |✔️|
+|View attendance reports|✔️|✔️|
+|External presenters|✔️|✔️|
 |Create a webinar wait list                         |                       |✔️                          |
 |Limit the day and time when people can register    |                       |✔️                         |
 |Manage attendees’ view                             |                       |✔️                          |
@@ -128,7 +129,7 @@ The following table lists webinars training available to the end users in your o
 
 ## Town halls
 
-Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event format, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
+Town halls are generally best for situations where a limited number of presenters are presenting to a large group of attendees and direct interaction via chat or voice conversation isn't needed. For these event formats, attendees don't use their cameras and mics, but instead use Q&A to engage with presenters and organizers.
 
 For detailed information on how to plan for Teams town halls, see [Plan for Teams town halls](plan-town-halls.md).
 
@@ -137,23 +138,24 @@ Teams Premium offers additional town hall functionality through the Teams Premiu
 |Capability|Town halls|Premium town halls|
 |:------|:-----|:---------|
 |Broadcast capacity|10k|20k|
-|Attendee reporting|Yes|Yes|
+|Attendee reporting|✔️|✔️|
 |eCDN|3rd and 1st party|1st party|
 |Duration|30 hours|30 hours|
-|RTMP-in|Yes|Yes|
+|RTMP-in|✔️|✔️|
 |Producer UX|Manage what attendees see |Manage what attendees see |
-|Default audio and video off|Yes|Yes|
+|Default audio and video off|✔️|✔️|
 |Layouts|Focused curated view|Focused curated view|
-|Green room|Yes|Yes|
-|Manage what attendees see|Yes|Yes|
-|AI generated captions|Yes|Yes|
+|Green room|✔️|✔️|
+|External presenters|✔️|✔️|
+|Manage what attendees see|✔️|✔️|
+|AI generated captions|✔️|✔️|
 |Q&A capacity|10k|20k|
-|VOD|Yes|Yes|
-|Organizer level real time monitoring|No|Yes|
-|Essential emails|Yes|Yes|
-|Email editing|No|Yes|
+|VOD|✔️|✔️|
+|Organizer level real time monitoring|✖️|✔️|
+|Essential emails|✔️|✔️|
+|Email editing|✖️|✔️|
 
-## Best practices for large meetings
+## Best practices for large meetings and events
 
 This section provides guidance for admins, along with tips that admins can share with their presenters and organizers.
 
