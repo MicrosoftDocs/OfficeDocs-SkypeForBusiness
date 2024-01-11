@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 12/15/2023
+ms.date: 01/10/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -251,11 +251,14 @@ Value: 1
 
 ## Profile and cache location for new Teams Client 
 
-All the user settings and configurations are now stored in: 
- 
-- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+All the user settings and configurations are now stored in:
 
-Make sure this folder is persisted for proper Teams functioning.
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig
+
+Make sure these folders are persisted for proper Teams functioning.
+
+TeamsSharedConfig stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
