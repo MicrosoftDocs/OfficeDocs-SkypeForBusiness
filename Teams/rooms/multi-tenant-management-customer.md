@@ -1,7 +1,7 @@
 ---
 title: Partner management for customers
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 06/09/2022

@@ -1,7 +1,7 @@
 ---
 title: "Step 3 - Design and build a Signature Teams Rooms meeting space or update an existing space"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
