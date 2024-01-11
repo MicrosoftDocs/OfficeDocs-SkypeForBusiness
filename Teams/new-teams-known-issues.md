@@ -1,7 +1,7 @@
 ---
 title:  Known issues in the new Microsoft Teams desktop client
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 01/03/2024
@@ -27,8 +27,8 @@ ms.localizationpriority: high
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - On Windows, spell checking is limited to English (United States) dictionaries. Until this feature is fixed, users can disable spell checking from the settings page.
 - Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users can choose to disable spell checking from the settings page until then.
-- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently.
-- Producing a Teams Live Event isn't currently available; you need to switch back to classic Teams.
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently. By late March, scheduling a Teams Live Event will redirect to the new Teams web experience. 
+- Producing a Teams Live Event will be available in the new Microsoft Teams Desktop client in late March. Until then, you need to switch back to classic Teams to produce a Teams Live Event. 
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
 - New Teams client isn't respecting the date time formats set in the OS. This affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - Support for NDI, SDI, and ISO streaming of Teams media content.
@@ -43,7 +43,8 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
-- Class teams created by copying from an existing Class team won't let you configure website tabs. </br>**Workaround:** Use classic Teams to configure the website tab.  
+- Team owners may see the button to generate a new *join code* in the team code menu instead of the original code. If they click to generate, the original code will no longer work. </br>**Workaround:** Store and share team code with other team owners, or temporarily switch back to classic Teams to identify the code.
+
 
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
 
