@@ -1,7 +1,7 @@
 ---
 title:  Classic Teams users to be automatically updated to new Teams
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
 ms.date: 10/31/2023
