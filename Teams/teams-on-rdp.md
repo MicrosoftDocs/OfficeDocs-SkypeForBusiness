@@ -1,7 +1,7 @@
 ---
 title: Use classic Teams with remote desktop services
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.reviewer: alivano
 ms.date: 10/13/2023
