@@ -67,8 +67,8 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A20 | `133.320.0.35`   | 2023 Update #2B1  |
 | Yealink MeetingBar A30 | `133.320.0.35`   | 2023 Update #2B1  |
 | Yealink CTP18 | `137.320.0.40`   | 2023 Update #2B1  |
-| Yealink MeetingBoard 65" | `155.15.0.59` | 2022 Update #2B1 |
-| Yealink MeetingBoard 86" | `155.15.0.59` | 2022 Update #2B1 |
+| Yealink MeetingBoard 65" | `155.15.0.59` | 2023 Update #2B1 |
+| Yealink MeetingBoard 86" | `155.15.0.59` | 2023 Update #2B1 |
 | Poly Studio X52 | `4.1.2-388101` | 2023 Update #2B1 |
 | Poly TC10 | `4.1.2-211367` | 2023 Update #2B1 |
 | Poly Studio X30 | `4.1.2-388101` | 2023 Update #2B1 |
