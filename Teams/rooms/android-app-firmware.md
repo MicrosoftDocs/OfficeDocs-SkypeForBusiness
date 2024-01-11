@@ -55,6 +55,11 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Neat Bar | `NFB1.20230928.0015` | 2023 Update #2B1 |
+| Neat Bar Pro| `NFD1.20230928.0015` | 2023 Update #2B1 |
+| Neat Board | `NFC1.20230928.0015	` |  2023 Update #2B1 |
+| Neat Board 50 | `NFC1.20230928.0015	` |  2023 Update #2B1 |
+| Neat Pad touch console | `NFA1.20230928.0116`  |  2023 Update #2B1 |
 | Cisco Board Pro 55 | `11.10.1.9` | 2023 Update #2B1 |
 | Cisco Board Pro 75 | `11.10.1.9` | 2023 Update #2B1 |
 | Cisco Room Bar | `11.10.1.9` | 2023 Update #2B1 |
