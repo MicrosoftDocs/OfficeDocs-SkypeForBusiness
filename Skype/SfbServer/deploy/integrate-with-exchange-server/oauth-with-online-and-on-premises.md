@@ -106,6 +106,7 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 1. Click the **Azure Active Directory module for Windows PowerShell** shortcut to open a Windows PowerShell workspace that has the Microsoft Entra cmdlets installed. All commands in this step will be run using the Windows PowerShell for Microsoft Entra ID console.
 
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
+   //this script UploadAuthCert.ps1 need review as $ServicePrincipalNames and $servicePrincipalId was never definded and "00000004-0000-0ff1-ce00-000000000000" doesn't exist with Get-MgServicePrincipal while it exsit with Get-MsolServicePrincipal(old cmdlet)
 
    ```powershell
    Connect-MgGraph
@@ -122,9 +123,9 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
    Add-MgServicePrincipalKey -ServicePrincipalId $servicePrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
-3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
+4. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
 
-4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Microsoft Entra organization. After running the script, leave the Windows PowerShell for Microsoft Entra session open. You will use this to run a PowerShell script in the next step.
+5. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Microsoft Entra organization. After running the script, leave the Windows PowerShell for Microsoft Entra session open. You will use this to run a PowerShell script in the next step.
 
 ### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
 1. In the PowerShell opened and authenticated to Microsoft Entra ID, run the following
