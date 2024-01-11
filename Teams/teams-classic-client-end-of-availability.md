@@ -106,7 +106,7 @@ These users will be allowed to use classic Teams till June 30, 2024 (as per abov
 ### Admins
 
 - **The system requirements for the new Teams client:** [Prerequisites](new-teams-deploy-using-policies.md#prerequisites)
-- **When will admins see the new Teams Only policy in their tenant:** XXX LINK TO POLICIES DOC
+- **When will admins see the new Teams Only policy in their tenant:** [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md)
 - **What will happen with the update policies:** The update policies may still appear, but they won’t be functional after 31 March 2024.
 - **When will classic Teams client stop being installed with M365 apps:** This will stop happening on 31 March 2024.
 - **Can I block the installation of new Teams using the M365 apps:** Yes, until March 31 2024. XXX
