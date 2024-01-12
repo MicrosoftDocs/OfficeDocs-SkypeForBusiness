@@ -114,15 +114,10 @@ After these options are removed, Microsoft will begin moving all users except VD
 - **Will classic Teams be removed automatically:** Microsoft will attempt to uninstall classic Teams after March 31 2024. If this fails, admins must uninstall classic Teams for their users. You can find more information on [uninstallation](msi-deployment.md#uninstallation) in this article.
 - **When or how will it be removed, and what triggers the uninstall:** This will happen after March 31 2024. As each user receives the automatic update and switches to new Teams, an attempt will be made to uninstall classic Teams.
 - **Will classic Teams be removed for all users on the device:** Yes.
-- **Will the uninstall clean up the classic Teams cache:** This is not applicable as the cache for classic Teams and new Teams are different files stored in different locations. Please reference this page: [Clear teams cache](/microsoftteams/troubleshoot/teams-administration/clear-teams-cache). XXX
 - **Will both Windows and Mac support uninstallation:** Yes.
-- **What permissions are required for it to be uninstalled on Windows and Mac:** XXX
-- **Will the machine-wide installer be removed:** XXX
-- **Will this be different if classic Teams was installed by Office:** No. XXX
 - **What if I need to use classic Teams after March 31 2024:** You won’t be able to use classic Teams after March 31 2024, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you will still have a banner announcing the end of classic Teams at the top of your client. Please reference this page for more information: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md)
 - **Will I be able to download classic Teams after March 31 2024:** Yes, but it won't be functional unless you meet one of the conditions to extend classic Teams functionality until June 30 2024.
 
 ### VDI
 
 - **Will the March 31 2024 date apply to users on VDI devices:** No, the June 30 2024 date applies to users on VDI devices.
-- **How will the new Teams Only policy impact VDI users:** XXX They won’t be affected until June 30 2024.
