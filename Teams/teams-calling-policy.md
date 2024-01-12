@@ -70,7 +70,7 @@ Here are the settings that you can configure for calling policies.
 - [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
 - [Music on hold for PSTN calls](music-on-hold.md)
 - [Busy on busy during calls](inbound-call-routing.md)
-- [Web PSTN calling]()
+- Web PSTN calling - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
 - [Real-time captions in Teams calls](accessibility-guide-admin.md)
 - [Spam filtering]()
 - [SIP devices can be used for calls](sip-gateway-configure.md)
@@ -82,14 +82,6 @@ This setting controls whether users can record calls. This setting is off by def
 
 For more information, see [Routing inbound calls](inbound-call-routing.md).
 
-### Prevent toll bypass and send calls through the PSTN
-
-Turning on this setting sends calls through the Public Switched Telephone Network (PSTN) and incur charges rather than sending them through the network and bypassing the tolls. This setting is off by default.
-
-### Web PSTN calling
-
-This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
-
 ### Spam filtering
 
 This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
@@ -97,10 +89,6 @@ This setting allows you to control the type of Spam filtering available on incom
 - **On** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
 - **On without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
 - **Off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
-
-### SIP devices can be used for calls
-
-This setting enables users to use a SIP device to make and receive calls. This setting is turned off by default.
 
 ## Related articles
 
