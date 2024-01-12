@@ -93,7 +93,7 @@ After these options are removed, Microsoft will begin moving all users except VD
 
 - **If a user has both clients installed:** Only new Teams will work after March 31 2024, and we will attempt to uninstall the classic Teams client.
 - **If only the new Teams client is installed:** There won’t be any difference.
-- **If a user can’t install the new Teams client due to a reason outlined in the table above, such as unsupported OS** These users will be allowed to use classic Teams until June 30, 2024 (as per above schedule) to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams will not work.
+- **If a user can’t install the new Teams client due to a reason outlined in the table above, such as unsupported OS:** These users will be allowed to use classic Teams until June 30, 2024 (as per above schedule) to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams will not work.
 
 ### Admins
 
