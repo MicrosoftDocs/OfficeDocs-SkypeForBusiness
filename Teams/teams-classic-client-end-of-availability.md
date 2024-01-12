@@ -106,7 +106,7 @@ After these options are removed, Microsoft will begin moving all users except VD
 - **When will classic Teams client stop being installed with M365 apps:** This will stop happening on March 31 2024.
 - **Can I stop the classic Teams client from being uninstalled and what happens if a policy is set to prevent app uninstallation:** Yes, you can stop the classic Teams client from being uninstalled. If your configuration prevents uninstall, Microsoft won't attempt the uninstall again. You'll need to uninstall classic Teams after that point.
 - **Do I need to remove the old client:** Microsoft recommends that you remove the classic Teams client once a user has fully transitioned to new Teams. It is security best practice to not leave software that is no longer operational installed on a machine. Microsoft will attempt to remove the classic Teams client on your behalf, but if this is blocked or prevented by your configuration or policies it is your responsibility to conduct this removal yourself.
-- **What can I do if users still need classic Teams:** You won’t be able to use classic Teams after March 31 2024, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you will still have a banner announcing the end of classic Teams at the top of your client. Please reference this page: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md)
+- **What can I do if users still need classic Teams:** You won’t be able to use classic Teams after March 31 2024, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you will still have a banner announcing the end of classic Teams at the top of your client. Please reference this page for more information: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md)
 - **Are there any scripts available if the admin needs to bulk uninstall classic Teams:** Check out our [uninstallation](msi-deployment.md#uninstallation) documentation.
 
 ### Client
@@ -119,8 +119,8 @@ After these options are removed, Microsoft will begin moving all users except VD
 - **What permissions are required for it to be uninstalled on Windows and Mac:** XXX
 - **Will the machine-wide installer be removed:** XXX
 - **Will this be different if classic Teams was installed by Office:** No. XXX
-- **What if I need to use classic Teams after March 31 2024:** You won’t be able to use classic Teams after March 31 2024, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you will still have a banner announcing the end of classic Teams at the top of your client. Please reference this page: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md)
-- **Will I be able to download classic Teams after March 31 2024:** Yes, but it won't be functional unless you meet one of the conditions in the second column at the start of this article.
+- **What if I need to use classic Teams after March 31 2024:** You won’t be able to use classic Teams after March 31 2024, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you will still have a banner announcing the end of classic Teams at the top of your client. Please reference this page for more information: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md)
+- **Will I be able to download classic Teams after March 31 2024:** Yes, but it won't be functional unless you meet one of the conditions to extend classic Teams functionality until June 30 2024.
 
 ### VDI
 
