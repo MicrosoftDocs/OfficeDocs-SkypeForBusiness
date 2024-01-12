@@ -1,10 +1,10 @@
 ---
 title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 12/06/2023
+ms.date: 01/11/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -23,11 +23,17 @@ ms.localizationpriority: high
 
 # Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)
 
->[!Note]
->VDI for new Teams is now generally available for customers in public clouds.
->GCC,GCC HIGH and DOD (Government cloud) is currently not supported. Check back for updates.
-
 This article describes the requirements and limitations of using the new Microsoft Teams client in a virtualized environment. 
+
+
+### Important announcement for classic Teams for VDI
+
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+
+After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
+
+>[!Note]
+>New Teams for VDI is now generally available for customers in public clouds and for the GCC government cloud. Other government clouds (GCC High, DOD) are currently not supported. Check back for updates.
 
 ## Requirements
 
@@ -36,12 +42,12 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
-|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly.  Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
+|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly. </br>Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
 
 ## Virtualization provider requirements 
 
@@ -67,6 +73,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Name: IsWVDEnvironment 
 - Type: DWORD 
 - Value: 1 
+
 
 ## Windows 365 
 
@@ -136,6 +143,9 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
+>[!Important]
+>You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+
 #### Option 1: Uninstall the classic Teams client and install the new one
 
 **Recommended way to deploy new Teams in VDI.** The direct or “bulk deployment” method is used for this option. Learn more at [**Bulk deploy the new Microsoft Teams desktop client**](new-teams-bulk-install-client.md).
@@ -172,7 +182,7 @@ You can control who sees the toggle by configuring the Teams Admin Center policy
 If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: 
 Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn 
 
-IT administrators could have set restrictions for MSIX or deploy GPOs that could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
+If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this: 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
@@ -187,7 +197,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled (and can be disabled via regkey, see section "Disable new Teams autoupdate" below)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to ‘provision’ (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 
 ## Troubleshooting new Teams deployment errors
@@ -216,7 +226,7 @@ Make sure sideloading is enabled, and that WebView2 is installed. See 'Requireme
 
 Known limitations:
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown if the virtual machine doesn't have the Classic Teams client installed as well.
+- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ## Remove new Teams for all users
 
@@ -241,11 +251,14 @@ Value: 1
 
 ## Profile and cache location for new Teams Client 
 
-All the user settings and configurations are now stored in: 
- 
-- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+All the user settings and configurations are now stored in:
 
-Make sure this folder is persisted for proper Teams functioning.
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig
+
+Make sure these folders are persisted for proper Teams functioning.
+
+TeamsSharedConfig stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
@@ -256,6 +269,9 @@ Excluding these items helps reduce the user caching size to further optimize a n
 When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
  
+ 
+ 
+ 
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
@@ -263,18 +279,57 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
-
-## Publish applications with RemoteApp in Azure Virtual Desktop
+## New Teams and Outlook integration
  
-There are two ways to make new Teams available to users in Azure Virtual Desktop:
+When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
 
-- As part of a full desktop or 
-- As an individual application with RemoteApp. Learn more: [Publish applications with RemoteApp in Azure Virtual Desktop portal](/azure/virtual-desktop/publish-applications?tabs=portal#publish-microsoft-store-applications)
+For example, Outlook goes through the discovery process outlined here to integrate with the default IM client application:  [Integrating IM applications with Office](/office/client-developer/shared/integrating-im-applications-with-office#discovering-the-im-application)
+ 
+>[!Note]
+>If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
-You can publish new Teams using the Windows shell:appsFolder location using this format: 
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). The teamsbootstrapper.exe installer installs this msi machine-wide for all users.
 
--  `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`
+Installation logs for this MSI are stored here:
+- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+ 
+### Troubleshooting new Teams and Outlook integration
 
+#### Symptoms:
+
+You see any of the following issues when you check the presence status for a user in Outlook:
+
+- The presence indicator isn't visible.
+- The displayed presence is incorrect.
+- The presence status is **Status unknown**.
+ 
+#### Troubleshooting steps
+
+1. Make sure new Teams is running. Then launch Outlook.
+2. Check the registry settings on your computer to verify that new Teams is registered as the default instant messaging (IM) app.
+
+  a. Start Registry Editor.
+  b. Locate the following subkey:
+```
+- HKEY_CURRENT_USER\Software\IM Providers
+```
+  c. Verify the following values:
+```
+- **Name:** DefaultIMApp
+- **Type:** REG_SZ
+- **Data:** MsTeams (If you see Teams, it means classic Teams is still the default IM app)
+```
+4. Locate the following subkey:
+
+- HKEY_CURRENT_USER\Software\IM Providers\MsTeams   (Outlook monitors this registry key for value changes)
+
+5. Verify the following values:
+
+  -Name: UpAndRunning
+  -Type: REG_DWORD
+  -Data: 2   (0—Not running, 1—Starting, 2—Running)
+
+6. If the issues persist, contact Microsoft Support.
 
 ## Control fallback mode in Teams
 
@@ -283,21 +338,42 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
 
-
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
 - On Fallback, screen sharing functionality is supported with a different screen picker UI (similar to the experience a user would see on Teams for Web)
 
+## Multitenant and Multi-account in VDI
+
+The new version of Teams in VDI allows you to sign in quickly and easily, and allowing you to switch between multiple accounts and organizations from the same Microsoft 365 cloud environment. 
+
+If any of your accounts have guest access to other organizations, you don’t need to add them—they'll appear automatically.   
+A guest is someone from outside an organization that a team owner invites to join the team, such as a partner or consultant. Guests have fewer capabilities than team members or team owners.
+
+Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9) 
+
+### Cross Cloud Meetings
+
+Users trying to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial/GCC and GCCH or DOD) must use the “Continue on this browser” option when prompted by the Join launcher:
+
+:::image type="content" source="media/new-teams-vdi-mtma.png" alt-text="new teams for vdi using mtma"::: 
+
+
+You can’t use the native Teams app to join meetings. Clicking “Join on the Teams app” will only bring new Teams chat UI to the foreground without switching to the lobby.
+
+
 ## Features currently not available in VDI with the new Teams
 
-- Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
+- Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
-- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1)
+- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
+
+
+
 
 
 ## Enhancements in new Teams 
@@ -307,7 +383,6 @@ Issues from classic Teams are now fixed in new Teams:
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
 - Sharing toolbar can now be pinned/unpinned.
-
 
 ## VDI Feature comparison between classic Teams and new Teams
 
@@ -339,3 +414,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
 - “Record video clip” doesn't capture screen share 
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share 
+

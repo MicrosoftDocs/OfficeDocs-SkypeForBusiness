@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
-ms.date: 11/30/2023
+ms.date: 12/07/2023
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-premium
@@ -78,7 +78,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
 
-\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Webinars
 
@@ -114,17 +114,17 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
 | Use RTMP-In for town halls | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
-| View live translated captions in 6 languages | ✔️ |  |
+| View live translated captions in six languages | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Automatic Microsoft eCDN for town halls\* |  | ✔️ |
+| Microsoft eCDN for town halls\* |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
 | View live translated captions in 10 languages |  | ✔️ |
 
-\* *eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN standalone licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
 
@@ -172,6 +172,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View when you were mentioned in a meeting\* |  | ✔️ |
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
+
+> [!NOTE]
+> Intelligent recap features will be available as a part of the Copilot for Microsoft 365 license.
 
 ### Virtual Appointments
 
@@ -229,9 +232,8 @@ Before you can purchase Teams Premium licenses for your users, ensure your tenan
 
 The **tenant requirement** is:
 
-- Must be a commercial, worldwide public sector, EDU, GCC, or non-profit tenant at general release.
+- Must be a commercial, worldwide public sector, EDU, GCC, GCC High, DoD, or non-profit tenant.
   - Currently, Microsoft doesn't offer an EDU-specific license or EDU discounts for Teams Premium.
-  - GCC High and DoD licenses will become available sometime after the general release.
 
 The **user requirement** is:
 
@@ -246,12 +248,27 @@ Teams Premium bundles a large set of advanced Teams features under a single lice
 
 Teams Premium is licensed on a per-user subscription basis and is subject to the [Universal Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all). You should plan to assign a Teams Premium user subscription license to every user you want to provide Teams Premium features for.
 
-> [!NOTE]
-> When the organizer of a Teams meeting, webinar, or town hall is licensed for Teams Premium, the *Live translation (for captions)*, *advanced Meetings protection*, and *advanced Webinars* features are extended to all meeting participants, including external and guest users.
->
-> External participants in Virtual Appointments don't require a Teams Premium license to benefit from Teams Premium advanced Virtual Appointments.
->
-> All meeting participants must be licensed for Teams Premium to benefit from the *Intelligent recap* feature.
+### Which features are applied to organizers, attendees/users, or admins?
+
+Which Teams experience a user has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
+
+For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
+
+- **Organizer-based features:** Some Teams Premium features are applied at the organizer level. If an event organizer has a Teams Premium license, the organizer-based features are shared and made accessible to the attendees only during the event.
+- **Attendee-based features:** Some Teams Premium features are applied at the attendee/user level. These Teams Premium features aren't shared or made accessible to other attendees during the event and only benefit the Teams Premium licensed users.
+- **Admin-based features:** Some Teams Premium features primarily benefit an organization's IT admins. These features are only accessible to Teams admins with a Teams Premium license.
+
+The following table shows which Teams Premium features provide primary value to organizers, attendees, or IT admins.
+
+| Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
+| ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
+| **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
+| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding | ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages |  |
+| **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization |  |
+| **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
+| **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
+| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics |  |  |
+| **Microsoft eCDN** |  | ✔️ Works with Teams Meetings and Town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
@@ -266,8 +283,6 @@ Organizations can try Teams Premium by admins purchasing the zero-cost Teams Pre
 When admins purchase a Teams Premium trial license, they have 25 licenses to assign to users. Those 25 users can experience and test Teams Premium features as they become available.
 
 Admins can manage Teams Premium features for their licensed users, whether they were acquired by the admin or users.
-
-Most admins for organization segments can purchase and use the Teams Premium trial license, excluding GCC High and DoD tenants.
 
 ### How does the Teams Premium self-service trial license work?
 
@@ -323,7 +338,7 @@ The following list indicates Teams Premium features that require admin configura
 - Being assigned a custom policy package.
 - Using organization customized meeting templates.
 - Seeing organization customized branding.
-- Using eCDN for webinars and town halls.
+- Using eCDN for town halls.
 - Using RTMP-In.
 - Customizing Virtual Appointment lobby rooms with branding.
 - Hiding attendees names from meetings and webinars.

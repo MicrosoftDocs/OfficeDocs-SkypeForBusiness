@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 8/5/2021
