@@ -47,13 +47,16 @@ Starting on February 1 2024, any classic Teams users who haven’t updated to ne
 :::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available after March 31, 2024. You'll be switched to the new Teams after this date. Switch now.' Switch now is a selectable link.":::
 
 > [!NOTE]
-> You can dismiss this banner until the end of February 2024.
+> You can dismiss this banner in every client session until the end of February 2024, but it will reappear with each client launch.
 
 Classic Teams will remain available to use until March 31 2024. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 If users are on an unsupported operating system, you’ll see a slightly different banner messaging:
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
+
+> [!NOTE]
+> Users on a June 30th timeline will see this banner from April 1 2024.
 
 ### What users will experience after March 31 2024
 
