@@ -74,15 +74,15 @@ To change the look and feel of an app in your organization's Teams store, follow
 
      :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page." lightbox="media/customize-action-menu-expanded.png":::
 
-1. Customize one or more of the available fields. Only those metadata fields are displayed and are customizable that the app developer has allowed. For the limitations on some of the fields, see [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
+1. Customize one or more of the available fields. You can customize only those parameters that the admin center displays, which are the parameters that a developers allows you to modify. For the allowed values and limitations on the parameters, see [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
 
-   :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the customize user interface.":::
+   :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the user interface to customize app listing.":::
 
-1. After customizing the app, select **Apply**. To verify the changes that you've made, see [preview app details](#preview-app-customizations). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
+1. After customizing the app, select **Apply**. To verify the changes that you do, see [preview app details](#preview-app-customizations). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
 
 1. Select **Publish** to publish the customized app to your organization's store.
 
-The app is listed in the **Manage apps** page and in Teams store and client (available via web, mobile, or desktop client) with the updated details. The modification may take a few hours to display.
+The app is listed in the **Manage apps** page and in Teams store and client (available via web, mobile, or desktop client) with the updated details. The modifications take a few hours to display.
 
 ## Preview app customizations
 
@@ -92,7 +92,7 @@ To view the changes after saving the customizations, view the app details page.
 
 1. To open the app details page, select the app name.
 
-1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you've changed the app's short name.
+1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you change the app's short name.
 
    :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
 
@@ -110,7 +110,7 @@ Consider the following details about app customization functionality:
 
 * Modifications to any apps are available only within your organization.
 
-* You'll have only one version of the app, since customizing the app details doesn't create a copy of the app.
+* Your organization has only have one version of the app as customizing an app's details doesn't create its copy.
 
 * When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
 
@@ -120,7 +120,7 @@ Consider the following details about app customization functionality:
 
 * In case the app developer no longer allows a field to be customizable, a message appears on the app details page notifying the admin about such a field. Any changes made to the field are reverted to the original value.
 
-* We recommend testing app customization changes in a Teams test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
+* We recommend testing app customization changes in a test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 * Updates take up to 24 hours to show in the client for all the users and admin accounts.
 
@@ -150,8 +150,6 @@ The limitations on some of the customizable fields are below:
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
 | I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
 | Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned. |
-
-<!--- Check ICM for error string. --->
 
 ## Reset app details to default values
 
