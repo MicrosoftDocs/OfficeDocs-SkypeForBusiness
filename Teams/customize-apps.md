@@ -8,8 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/17/2023
-ms.reviewer: mhayrapetyan
+ms.date: 01/15/2024
+ms.reviewer: eddieqiao
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -74,7 +74,7 @@ To change the look and feel of an app in your organization's Teams store, follow
 
      :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page." lightbox="media/customize-action-menu-expanded.png":::
 
-1. Customize one or more of the available fields. You can customize only those parameters that the admin center displays, which are the parameters that a developers allows you to modify. For the allowed values and limitations on the parameters, see [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
+1. Customize one or more of the available fields. You can customize only those parameters that the admin center displays, which are the parameters that a developer allows you to modify. For the allowed values and limitations on the parameters, see [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
 
    :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the user interface to customize app listing.":::
 
@@ -110,7 +110,7 @@ Consider the following details about app customization functionality:
 
 * Modifications to any apps are available only within your organization.
 
-* Your organization has only have one version of the app as customizing an app's details doesn't create its copy.
+* Your organization's catalog contains only one version of the app as customizing an app's details doesn't create its copy.
 
 * When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
 
@@ -132,24 +132,24 @@ Consider the following details about app customization functionality:
 
 * Customizing an app doesn't change any app functionality.
 
-The limitations on some of the customizable fields are below:
+The limitations on some of the customizable fields are:
 
-| Customizable field | Consideration |
-|:---|:---|
-| Any URL fields | Ensure valid and secure URLs using `https`. |
-| Short description | The short description must be under 80 characters. Don't repeat what's in the full description. |
-| Icon | Transparent outline icon in PNG format that is 32x32 pixel in resolution. |
-| Color icon | Full-color icon in PNG format that is 192x192 pixel in resolution. |
-| Accent color | Color must match your icon background. |
+| Customizable field | Consideration                                                                                   |
+|:-------------------|:------------------------------------------------------------------------------------------------|
+| Any URL fields     | Ensure valid and secure URLs using `https`.                                                     |
+| Short description  | The short description must be under 80 characters. Don't repeat what's in the full description. |
+| Icon               | Transparent outline icon in PNG format that is 32x32 pixel in resolution.                       |
+| Color icon         | Full-color icon in PNG format that is 192x192 pixel in resolution.                              |
+| Accent color       | Color must match your icon background.                                                          |
 
 ## Troubleshoot app customization
 
-| Errors and issues | Possible fix or understanding of the issue |
-| --- | --- |
-| My updates aren't available to my users. | Wait a few hours for changes to propagate. |
-| I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
-| I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
-| Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned. |
+| Errors and issues                                                    | Possible fix or understanding of the issue                                                                                                                           |
+|:---------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| My updates aren't available to my users.                             | Wait a few hours for changes to propagate.                                                                                                                           |
+| I can't customize an app.                                            | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).                                                                                  |
+| I started to customize an app but can't save or apply my changes.    | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
+| Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned.                                                                                                           |
 
 ## Reset app details to default values
 
@@ -166,4 +166,4 @@ You can reset your customizations to the original values provided by the app dev
 ## Related articles
 
 * [Customize your organization's app store](customize-your-app-store.md)
-* [Rebrand your apps community post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
+* [Community post about customizing and rebranding your apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
