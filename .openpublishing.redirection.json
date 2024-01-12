@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "Teams/app-permissions-admin-center.md",
-      "redirect_url": "/microsoftteams/app-permissions",
+      "redirect_url": "/microsoftteams/manage-consent-app-permissions",
       "redirect_document_id": false
     },
     {
