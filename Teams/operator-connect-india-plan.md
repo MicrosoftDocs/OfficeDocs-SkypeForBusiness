@@ -22,7 +22,6 @@ ms.custom:
  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
-
 ---
 
 # Plan Operator Connect for India
