@@ -81,7 +81,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule for Windows client
+                - name: Overview & rollout schedule for new Teams
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
@@ -1733,10 +1733,10 @@ items:
           href: app-centric-management.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Understand app permissions and access to resources
+        - name: View and understand app permissions
           href: app-permissions.md
-        - name: Grant admin consent to an app on behalf of users
-          href: app-permissions-admin-center.md
+        - name: Grant and manage consent to permissions
+          href: manage-consent-app-permissions.md
         - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Brand your organization's app store
