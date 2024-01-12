@@ -88,7 +88,7 @@ Microsoft highly recommends that admins who want more control or a more gradual 
 
 Beginning March 31 2024, all policy options within Teams Admin Center to control the transition to new Teams will be made unavailable or will no longer function for all users.
 
-After these options are removed, Microsoft will begin moving all users except VDI users back to the **Microsoft controlled** policy setting. After March 31 2024 the **Microsoft controlled** policy setting will equate to the user being assigned the **New Teams Only** policy (this policy option will be released soon). This will allow them to transition the user to new Teams and then uninstall the classic Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
+After these options are removed, Microsoft will begin moving all users except VDI users back to the **Microsoft controlled** policy setting. After March 31 2024, the **Microsoft controlled** policy setting will equate to the user being assigned the **New Teams Only** policy (this policy option will be released soon). This will allow them to transition the user to new Teams and then uninstall the classic Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 ## Frequently Asked Questions
 
