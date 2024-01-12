@@ -66,9 +66,9 @@ Users on classic Teams will be automatically updated to the new Teams client. Us
 
 ### What happens if we can’t update users to new Teams
 
-If meet the conditions for one of the March 31 entries in the table at the start of this article, and you can’t be upgraded to new Teams (due to policies or configuration), the classic Teams client will stop working after March 31 2024. You'll see a notification box indicating this as well.
+If meet the conditions for one of the March 31 entries in the table at the start of this article, and you can’t be updated to new Teams (due to policies or configuration), the classic Teams client will stop working after March 31 2024. You'll see a notification box indicating this as well.
 
-:::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams notification box that appears after classic Teams no longer works, if you're unable to be upgraded to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
+:::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams notification box that appears after classic Teams no longer works, if you're unable to be updated to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
 
 To use Teams after this point, install the new Teams client or use Teams on the web.
 
