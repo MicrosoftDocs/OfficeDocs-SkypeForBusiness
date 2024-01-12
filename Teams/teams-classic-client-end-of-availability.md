@@ -33,10 +33,10 @@ On March 31 2024, a new Teams client will be rolled out for users who are still 
 |EDU                                              |March 31 2024 |     |
 |Web                                              |March 31 2024 |     |
 |Government Cloud (GCC, GCC High, DOD)            |March 31 2024 |     |
-|Policy and pre-requisite blocked users (non-EDU) |March 31 2024 |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
+|Policy and prerequisite blocked users (non-EDU) |March 31 2024 |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |VDI                                              |June 30 2024  | [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md) |
 |Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Policy and pre-requisite blocked users (EDU)     |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)       |
+|Policy and prerequisite blocked users (EDU)     |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)       |
 
 ## User experience
 
