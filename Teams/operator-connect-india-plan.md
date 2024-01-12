@@ -80,6 +80,6 @@ For technical support, contact the customer support of your operator first. If n
 
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 

@@ -1008,9 +1008,9 @@ items:
               href: operator-connect-configure.md
         - name: Operator Connect for India
           items: 
-            - name: Plan for Operator Connect
+            - name: Plan for Operator Connect for India
               href: operator-connect-india-plan.md
-            - name: Configure Operator Connect
+            - name: Configure Operator Connect for India
               href: operator-connect-india-configure.md
             - name: Location-Based Routing for Operator Connect for India
               href: location-based-routing-india-plan.md

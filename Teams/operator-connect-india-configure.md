@@ -126,5 +126,5 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 - [Plan Operator Connect for India](operator-connect-india-plan.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
