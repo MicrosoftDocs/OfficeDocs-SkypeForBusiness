@@ -35,7 +35,7 @@ On March 31 2024, a new Teams client will be rolled out for users who are still 
 |Government Cloud (GCC, GCC High, DOD)            |March 31 2024 |     |
 |Policy and pre-requisite blocked users (non-EDU) |March 31 2024 |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |VDI                                              |June 30 2024  | [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md) |
-|Unsupported OS users                             |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Policy and pre-requisite blocked users (EDU)     |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)       |
 
 ## User experience
@@ -51,7 +51,7 @@ Starting on February 1 2024, any classic Teams users who haven’t updated to ne
 
 Classic Teams will remain available to use until March 31 2024. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
-If users are on an unsupported operating system, you’ll see a slightly different banner messaging:
+If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slightly different banner messaging:
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
 
@@ -96,7 +96,7 @@ After these options are removed, Microsoft will begin moving all users except VD
 
 - **If a user has both clients installed:** Only new Teams will work after March 31 2024, and we will attempt to uninstall the classic Teams client.
 - **If only the new Teams client is installed:** There won’t be any difference.
-- **If a user can’t install the new Teams client due to a reason outlined in the table above, such as unsupported OS:** These users will be allowed to use classic Teams until June 30, 2024 (as per above schedule) to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams will not work.
+- **If a user can’t install the new Teams client due to a reason outlined in the table above, such as unsupported OS (including Win 10 LTSC):** These users will be allowed to use classic Teams until June 30, 2024 (as per above schedule) to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams will not work.
 
 ### Admins
 
