@@ -43,8 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- July 17 - **No Agents Opted/Logged In** - this new call exception handling option handles calls when no agents are opted into the queue or all agents are logged out of the queue.
-- May 01 - **Authorized users** - authorized users can update Call queue main greeting, music on hold in queue, and the shared voicemail greeting for overflow and timeout.
+No new features in the past six months.
 
 ## Steps to create a Call queue
 
@@ -239,8 +238,6 @@ Once you've selected your call answering options, select the **Next** button at 
 >
 > Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 >
-> Conference mode isn't supported if the agents have a [Compliance recording](teams-recording-policy.md) policy assigned. 
->
 > Conference mode is required if Teams users need to consult/transfer calls with Call queues.
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
@@ -426,7 +423,8 @@ The following settings are recommended:
 |`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
 |`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
-|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
+|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |   |
+|[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A             |N/A  |N/A       |N/A                   |N                         |N  |
 
 #### Notes
 
@@ -434,7 +432,7 @@ The following settings are recommended:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 4. It's not possible to set the order the agents are presented with calls.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).<br>Conference mode isn't supported if the agents have a [Compliance recording](teams-recording-policy.md) policy assigned.
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
