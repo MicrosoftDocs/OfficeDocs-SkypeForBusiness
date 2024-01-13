@@ -421,6 +421,9 @@ Meeting policies are used to control what features are available in meetings org
 |:-----|:-----|:-----|
 |BlockedAnonymousJoinClientTypes|(empty list)|This setting allows users to join a Teams meeting anonymously using a Teams client or using a custom application built using Azure Communication Services. When anonymous meeting join is enabled, both types of clients might be used by default. This optional parameter can be used to block one of the client types that can be used. If both clients are specified, this is equivalent to disabling anonymous join completely.|
 
+> [!NOTE]
+> A guest can be a participant joining from a non-Teams application or device. All the guest settings applied by your organization will apply for these participants.
+
 ##### Related topics for meeting join & lobby policies
 
 - [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
