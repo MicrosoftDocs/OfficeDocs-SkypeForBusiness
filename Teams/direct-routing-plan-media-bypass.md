@@ -173,6 +173,7 @@ Direct Routing is offered in the following Microsoft 365 or Office 365 environme
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
+
 Learn more about [Office 365 and US Government environments](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) such as GCC, GCC High, and DoD.
 
 ### Microsoft 365, Office 365, and Office 365 GCC environments
