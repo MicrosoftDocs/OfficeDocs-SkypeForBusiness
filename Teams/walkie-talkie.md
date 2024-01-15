@@ -140,20 +140,13 @@ Frontline workers often need to communicate with each other when their phones ar
 
 Here's a list of these specialized devices and accessories from our partners.
 
-**Wireless headsets (iOS and Android)**
-
-|Manufacturer  |Model  |
-|---------|---------|
-|[BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)|<ul><li>[B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07</li><li>[C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30</li></ul>|
-|Jabra    |[Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)|
-
-**Wired headsets (Android)**
-
-|Column1  |Column2  |
-|---------|---------|
-|[Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)|<ul><li>3.5mm</li><li>USBc</li></ul>        |
-
 #### Headsets
+
+|Manufacturer  |Model  |Wired or wireless|Platform|
+|---------|---------|---------|---------|---------|
+|[BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)|<ul><li>[B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07</li><li>[C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30</li></ul>|Wireless|Android, iOS|
+|Jabra    |[Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)|Wireless|Android, iOS|
+|[Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)   |<ul><li>3.5mm</li><li>USBc</li></ul>|Wired|Android|
 
 **Wireless headsets (iOS and Android)**
 
