@@ -107,6 +107,8 @@ items:
                   href: new-teams-automatic-upgrade-announced.md                  
             - name: Classic Teams clients
               items:
+                - name: Classic Teams client end of availability
+                  href: teams-classic-client-end-of-availability.md
                 - name: Get the classic Teams clients
                   href: get-clients.md
                 - name: Classic Teams client updates

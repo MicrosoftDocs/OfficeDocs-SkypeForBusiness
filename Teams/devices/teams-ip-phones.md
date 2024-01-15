@@ -163,6 +163,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX 350/400/500/505/600 | `8.1.5.1732` | 2023 Update #3 |
+|Poly Trio C60 | `8.1.5.1737 ` | 2023 Update #3 |
 |Poly CCX 400/500/505/600 | `8.1.4.1480` | 2023 Update #3 |
 |Poly Trio C60 | `8.1.4.1456 ` | 2023 Update #3 |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | 2023 Update #3C    |
