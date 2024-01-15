@@ -134,21 +134,22 @@ Also, keep in mind the following:
 
 ## Devices and accessories
 
-### Devices and accessories with a dedicated PTT button
+Heads-up and hands-free communication is key for real-time collaboration. Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through the following devices and headsets:
 
-Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through specialized devices and accessories that have a dedicated PTT button. Pressing the PTT button on the device or accessory brings up Walkie Talkie for instant communication.
+- [Specialized devices](#rugged-android-devices) and [headsets](#headsets) that have a dedicated PTT button. Pressing the PTT button on the device or headset brings up Walkie Talkie for instant communication.
+- Generic wired (USBc and 3.5mm) headsets that have a play/pause button. Tapping the pause/play control starts and ends tranmissions on Walkie Talkie using toggle–to-talk (TTT).
 
-Here's a list of these specialized devices and accessories from our partners.
+### Headsets
 
-#### Headsets
+Walkie Talkie is integrated with the following headsets from our partners that have a dedicated PTT button.
 
 |Manufacturer  |Model  |Wired or wireless|Platform|
-|---------|---------|---------|---------|---------|
+|---------|---------|---------|---------|
 |[BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)|<ul><li>[B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07</li><li>[C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30</li></ul>|Wireless|Android, iOS|
 |Jabra    |<ul><li>[Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)</li></ul>|Wireless|Android, iOS|
 |[Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)   |<ul><li>3.5mm</li><li>USBc</li></ul>|Wired|Android|
 
-**Wireless headsets (iOS and Android)**
+<!--**Wireless headsets (iOS and Android)**
 
 - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
   - [B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07
@@ -160,9 +161,11 @@ Here's a list of these specialized devices and accessories from our partners.
 
 - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
   - 3.5mm
-  - USBc
+  - USBc-->
 
-#### Rugged Android phones
+### Rugged Android devices
+
+Walkie Talkie is integrated with the following rugged Android smartphones from our partners that have a dedicated PTT button.
 
 |Manufacturer |Model|Setup |
 |---------|---------|---------|
@@ -173,8 +176,7 @@ Here's a list of these specialized devices and accessories from our partners.
 |Sonim |XP8        |Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.         |
 |Zebra    |[TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc5x-series.html), [TC15](https://www.zebra.com/gb/en/products/mobile-computers/handheld/tc15.html), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)         |Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.         |
 
-
-- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+<!--- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - Manual setup: With Teams installed, go to **Settings** > **Buttons**. On the Dedicated button (1 or 2), select **Long press**, and then choose **PTT App**. Select the blue wheel next to **Custom**, and select **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) and [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
@@ -188,14 +190,12 @@ Here's a list of these specialized devices and accessories from our partners.
 - Sonim XP8
   - Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.
 - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc5x-series.html), [TC15](https://www.zebra.com/gb/en/products/mobile-computers/handheld/tc15.html), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)
-  - Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.
+  - Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.-->
 
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Walkie Talkie in Teams.
 
-### Generic headsets
-
-##### Considerations when using Bluetooth devices
+### Considerations when using Bluetooth devices
 
 > [!NOTE]
 > If your users are using Bluetooth accessories, make sure that your mobile device management (MDM) solution doesn't block Bluetooth devices.
