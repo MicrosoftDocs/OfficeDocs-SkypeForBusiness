@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/app-permissions-admin-center.md",
+      "redirect_url": "/microsoftteams/manage-consent-app-permissions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/upload-custom-apps.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false
@@ -3102,7 +3107,7 @@
   },
   {
     "source_path": "Teams/manage-phone-numbers-for-your-organization/contact-tns-service-desk.md",
-    "redirect_url": "/microsoftteams/contact-tns-service-desk",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
   },
   {
