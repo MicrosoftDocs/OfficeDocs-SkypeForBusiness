@@ -57,7 +57,7 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
-- [Make private calls]()
+- Make private calls - This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 - [Cloud recording for calling]()
 - [Transcription](accessibility-guide-admin.md)
 - [Routing for PSTN calls](inbound-call-routing.md)
