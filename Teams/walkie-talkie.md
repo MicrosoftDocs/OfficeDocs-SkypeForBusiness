@@ -39,7 +39,7 @@ With Walkie Talkie in Teams, users can securely communicate with a familiar PTT 
 
 The Walkie Talkie app in Microsoft Teams provides a push-to-talk (PTT) experience that enables clear, instant, and secure voice communications – turning Android and iOS devices into a walkie talkie. Your users connect with their team through the same underlying Teams channels that they're already members of.
 
-Team members can listen and talk to other team members who are connected through Walkie Talkie on the same channel. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
+Team members can listen and talk to other team members who are connected through Walkie Talkie on the same channel. Users continue to receive transmissions until they tap **Stop listening**. Walkie Talkie supports communicating in standard open channels in Teams. Shared and private channels aren't supported.
 
 With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. And because Walkie Talkie works over Wi-Fi or cellular data, your users can stay connected to and instantly communicate with their team from anywhere they have an internet connection.
 
@@ -145,7 +145,7 @@ Walkie Talkie works with any generic wired (USBc and 3.5mm) headset on Android. 
 
 ### Specialized headsets and devices that have a dedicated PTT button
 
-Walkie Talkie is integrated with a range of specialized headsets and devices that have a dedicated PTT button. Pressing the PTT button on the headset or device brings up Walkie Talkie for instant communication. Here's a list of these headsets and devices from our partners.
+Walkie Talkie is integrated with a range of specialized headsets and devices that have a dedicated PTT button. Press and hold the PTT button on the headset or device to instantly send transmissions. Here's a list of these headsets and devices from our partners.
 
 **Headsets**
 
@@ -200,7 +200,7 @@ Walkie Talkie is integrated with a range of specialized headsets and devices tha
   - Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.-->
 
 > [!NOTE]
-> These devices are not Teams certified. They have been validated to work with Walkie Talkie in Teams.
+> These headsets and devices are not Teams certified. They have been validated to work with Walkie Talkie in Teams.
 
 ### Considerations when using Bluetooth devices
 
