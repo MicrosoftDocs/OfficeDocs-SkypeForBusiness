@@ -107,6 +107,8 @@ items:
                   href: new-teams-automatic-upgrade-announced.md                  
             - name: Classic Teams clients
               items:
+                - name: Classic Teams client end of availability
+                  href: teams-classic-client-end-of-availability.md
                 - name: Get the classic Teams clients
                   href: get-clients.md
                 - name: Classic Teams client updates
@@ -556,12 +558,14 @@ items:
           - name: Create people manager teams
             href: create-manager-directs-teams.md
            
-      - name: Managing teams
+      - name: Manage teams
         items:
           - name: Manage teams and policies
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -802,6 +806,8 @@ items:
           href: teams-live-events/what-are-teams-live-events.md
         - name: Plan for Teams live events
           href: teams-live-events/plan-for-teams-live-events.md
+        - name: Live events overview
+          href: teams-stream-overview.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
         - name: Use PowerShell to set Teams live events policies
@@ -810,8 +816,6 @@ items:
           href: teams-live-events/configure-teams-live-events.md
         - name: Live events recording policies
           href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Troubleshooting
@@ -1006,6 +1010,16 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect for India
+          items: 
+            - name: Plan for Operator Connect for India
+              href: operator-connect-india-plan.md
+            - name: Configure Operator Connect for India
+              href: operator-connect-india-configure.md
+            - name: Location-Based Routing for Operator Connect for India
+              href: location-based-routing-india-plan.md
+            - name: Configure network settings for Location-Based Routing
+              href: location-based-routing-configure-network-settings.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile
