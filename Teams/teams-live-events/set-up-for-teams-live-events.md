@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 01/16/2018
+ms.date: 01/16/2024
 audience: admin
 search.appverid: MET150
 f1.keywords:
