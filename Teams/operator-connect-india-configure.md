@@ -22,13 +22,9 @@ ms.custom:
  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure Operator Connect for India
-
-> [!NOTE]
-> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
 
 This article describes how to configure Operator Connect for India. Before configuring Operator Connect for India, be sure to read [Plan for Operator Connect for India](operator-connect-india-plan.md) for information about prerequisites and licensing. You'll need to acquire the appropriate Teams license from a licensed telecom operator in India (that is, your carrier). This requirement must be met whether or not you have an existing Teams Phone license.
 
@@ -130,5 +126,5 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 - [Plan Operator Connect for India](operator-connect-india-plan.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 

@@ -95,6 +95,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
 | [Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html) | Core i5 | 8 GB | 128 GB |
 | MAXHUB XCore Kit | Core i3 | 8 GB | 128 GB |
+| [Microsoft Surface Hub 3 50"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 3 85"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
 | [Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) | Core i5 | 8 GB | 128 GB |
 | [Poly G40-T Kit with Poly Studio USB, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) | Core i5 | 8 GB | 128 GB |
 | [Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) | Core i5 | 8 GB | 128 GB |
@@ -242,10 +246,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
-| Microsoft Surface Hub 3 50" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 3 85" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
+| [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
+| [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 Certified up to Large room |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |

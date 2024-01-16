@@ -2,9 +2,9 @@
 title: Troubleshoot connectivity issues with Teams client
 ms.reviewer: 
 ms.date: 08/10/2017
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin

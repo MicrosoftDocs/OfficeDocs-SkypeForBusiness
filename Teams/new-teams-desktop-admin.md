@@ -1,7 +1,7 @@
 ---
 title:  Overview of the new Microsoft Teams client
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.date: 11/06/2023
@@ -19,7 +19,7 @@ description: Learn about the new Microsoft Teams client.
 ms.localizationpriority: high
 ---
 
-# The new Microsoft Teams desktop client 
+# The new Microsoft Teams
 
 >[!Important]
 >We have updated the offical name of classic Teams as follows:</br>
