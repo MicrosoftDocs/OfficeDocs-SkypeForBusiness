@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 10/13/2023
+ms.date: 01/16/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -135,7 +135,7 @@ Choose a [supported language](create-a-phone-system-call-queue-languages.md).
 
 This language is used for system-generated voice prompts and voicemail transcription, if you enable them.
 
-Once you've selected a language, select the **Next** button at the bottom of the **Add a Call queue** page.
+After you select a language, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 ## [Step 2: Greeting and music](#tab/greeting-music)
 
@@ -158,11 +158,11 @@ Teams provides default music to callers while they're *on hold in a queue*.
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
-Once you've selected a greeting and on-hold music, select the **Next** button at the bottom of the **Add a Call queue** page.
+After you select a greeting and on-hold music, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 ## [Step 3: Call answering](#tab/call-answering)
 
-## Step 3: Set up who will answer incoming calls
+## Step 3: Set up who answers incoming calls
 
 Review the [prerequisites for adding agents to a Call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -252,7 +252,7 @@ Once you've selected your call answering options, select the **Next** button at 
 >
 > When using **Longest idle**, there may be times when an agent receives a call from the queue shortly after becoming unavailable, or a short delay in receiving a call from the queue after becoming available.
 >
-> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but won't be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the Call queue timeout condition occurs.
+> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but can't answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up, or the Call queue timeout condition occurs.
 
 **Routing method** determines the order in which agents receive calls from the queue.
 
@@ -264,7 +264,7 @@ Choose from these options:
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is *Available*. Agents who aren't available won't receive calls until they change their presence to *Available*.
+- **Longest idle** routes each call to the agent who has idled the longest time. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -273,11 +273,11 @@ Choose from these options:
 
 **Presence-based call routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method.
 
-Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.
+Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and can't receive calls until their availability status changes back to **Available**.
 
 You can enable **presence-based call routing** with any of the routing methods.
 
-If an agent opts out of getting calls, they won't receive calls regardless of their availability status.
+If an agent opts out of getting calls, they can't receive calls regardless of their availability status.
 
 > [!TIP]
 > Setting the **Presence-based routing** to **on** is the recommended setting.
@@ -332,7 +332,7 @@ When this limit is reached, the call is handled as specified by the **When the m
 This limit applies only to calls that are waiting in queue to be answered.
 
 > [!NOTE]
-> If the maximum number of calls is set to 0 then the greeting message won't play.
+> If the maximum number of calls is set to 0, the greeting message can't play.
 
 ### Call timeout: Set how to handle call timeouts
 
@@ -347,7 +347,7 @@ This call exception handling option handles calls when no agents are opted into 
 **Apply to All or New Calls** controls whether or not the no agents call treatment applies to:
 
 - ***All Calls*** (default) - calls already in queue and new calls arriving to the queue, or
-- ***New Calls Only*** - only new calls that arrive once the No Agents condition has occurred, existing calls in queue remain in queue
+- ***New Calls Only*** - only new calls that arrive once the No Agents condition occurs, existing calls in queue remain in queue
 
 > [!NOTE]
 > The **No Agents** handling exception occurs under the following conditions:
@@ -373,7 +373,7 @@ To **add a user** to the authorized users:
 > [!IMPORTANT]
 > A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one Auto attendant or Call queue.
 >
-> A user won't be able to make any configuration changes if:
+> A user can't make any configuration changes if:
 >
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one Auto attendant or Call queue.
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
@@ -465,7 +465,7 @@ The following clients are supported for call agents in a Call queue:
 
 If you're an administrator, you can use the following diagnostic tool to validate that a Call queue is able to receive calls:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
+1. Select **Run Tests**, which populates the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Call Queue](https://aka.ms/TeamsCallQueueDiag)
