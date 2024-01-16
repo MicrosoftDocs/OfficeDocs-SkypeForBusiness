@@ -403,28 +403,28 @@ The following settings are recommended:
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
-|`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
-|`Longest Idle`<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
-|`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
-|`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|Attendant Routing              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
+|Longest Idle<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|Round Robin                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
+|Serial                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
-|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
-|`Agents can Opt-out`<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|Presence Based Routing<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
+|Agents can Opt-out<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
-|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|Transfer Mode                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
-|`Channel Based Queues`             |Y                       |N         |N               |N    |N         |N/A                   |Y<sup>8</sup>             |   |
+|Channel Based Queues             |Y                       |N         |N               |N    |N         |N/A                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard Call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |N/A                       |   |
-|`Channel based Call queue`       |Y                         |N/A       |N/A             |N/A  |N/A       |N/A                   |Y                         |   |
+|Standard Call queue            |Y                         |Y         |Y               |N    |N         |Y                     |N/A                       |   |
+|Channel based Call queue       |Y                         |N/A       |N/A             |N/A  |N/A       |N/A                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
-|`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
+|Calling Plans                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|Direct Routing                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|Operator Connect               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
-|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |   |
-|[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A             |N/A  |N/A       |N/A                   |N                         |N  |
+|Call toast shows Resource Account Name |Y                 |N         |Y               |Y    |          |Y                     |Y                         |   |
+|[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A             |N/A  |N/A       |N/A                   |N                         |   |
 
 #### Notes
 
