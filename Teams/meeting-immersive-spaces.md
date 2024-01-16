@@ -34,7 +34,7 @@ Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-
 
 In a Microsoft Teams meeting, select **View** > **Immersive space (3D)**.
 
-:::image type="content" source="media/meeting-immersive-spaces-view-selector-v2.png" alt-text="Immersive spaces view selector in Teams View menu":::
+:::image type="content" source="media/meeting-immersive-spaces-view-selector-v2.png" alt-text="Screenshot of mmersive spaces view selector in Teams View menu.":::
 
 Use your avatar and join with a Meta Quest VR device to bring even more richness to the experience.  To learn more, [set up avatars for Microsoft Teams](meeting-avatars.md).
 
