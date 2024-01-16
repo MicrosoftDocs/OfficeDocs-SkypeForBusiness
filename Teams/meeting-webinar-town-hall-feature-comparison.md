@@ -43,7 +43,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
-|[Copilot](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
+|[Copilot](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.TEST.|
 |[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
