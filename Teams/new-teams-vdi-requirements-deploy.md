@@ -28,7 +28,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ### Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. Learn more: [End of availability for classic Teams client](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. For more details, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -252,9 +252,10 @@ Value: 1
 ## Profile and cache location for new Teams Client 
 
 All the user settings and configurations are now stored in:
-C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
-C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
-C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
+
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
 Make sure these folders and files are persisted for proper Teams functioning.
 
@@ -370,10 +371,6 @@ You can’t use the native Teams app to join meetings. Clicking “Join on the T
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
-
-
-
-
 
 ## Enhancements in new Teams 
 
