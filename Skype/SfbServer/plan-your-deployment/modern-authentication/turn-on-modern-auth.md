@@ -25,11 +25,11 @@ description: "This article outlines cmdlets that give admins more control of aut
 >  + [https://learn.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](./topologies-supported.md)
 >  + [https://learn.microsoft.com/skypeforbusiness/manage/authentication/use-adal](/skypeforbusiness/manage/authentication/use-adal)
   
-Modern Authentication doesn't just enable more secure methods of authentication, like Two-Factor Auth, or Certificate-based Auth, it can carry out authorization of your user without needing a username or password too. It's pretty handy.
+Modern Authentication doesn't just enable more secure methods of authentication, like Two-Factor Auth, or Certificate-based Auth, it can carry out authorization of your user without needing a username or password too. It's handy.
 
-This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, internally, or both, to your network. For example, one good method to help stop DOS attacks would be to turn off Windows Integrated Authentication (which includes NTLM and Kerberos). Turning off NTLM externally and relying on certificate-based authentication helps to protect passwords from exposure. This is because NTLM uses password credentials to authenticate users, but certificate-based authentication -- enabled by Modern Auth -- doesn't. That means one ideal option to reduce DOS attacks is to block NTLM externally, and use only certificate-based authentication there, instead.
+This article helps you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, internally, or both, to your network. For example, one good method to help stop DOS attacks would be to turn off Windows Integrated Authentication (which includes NTLM and Kerberos). Turning off NTLM externally and relying on certificate-based authentication helps to protect passwords from exposure. This is because NTLM uses password credentials to authenticate users, but certificate-based authentication -- enabled by Modern Auth--doesn't. That means one ideal option to reduce DOS attacks is to block NTLM externally, and use only certificate-based authentication there, instead.
 
-All right, let's get started.
+Let's get started.
 
 ## What would you be changing? 
 
@@ -37,11 +37,11 @@ These cmdlets work for both SIP and Web Services points of access. Though these 
 
 ## How to get the Get- and Set-CsAuthConfig cmdlets
 
-These cmdlets will only be installed post July 2018 cumulative update (6.0.9319.534) for Microsoft Skype for Business Server 2015, and then you have a variety of topologies that can be rolled out for your Skype for Business server.
+These cmdlets will only be installed post July 2018 cumulative update (6.0.9319.534) for Microsoft Skype for Business Server 2015, and then you have various topologies that can be rolled out for your Skype for Business server.
 
 ## Topologies
 
-It's important to keep in mind that these are the Supported Topologies involved in this scenario! If you need to go to Support for help with blocking a method, for example, you will need to have a configuration among the types below. 
+It's important to keep in mind that these are the Supported Topologies involved in this scenario! If you need to go to Support for help with blocking a method, for example, you'll need to have a configuration among the types below. 
 
 > [!IMPORTANT]
 > In the table and descriptions below, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated as __Win__. As a reminder, Windows Integrated Authentication is made up of two methods: NTLM and Kerberos authentication. You'll need to know this to read the table properly!
@@ -57,15 +57,15 @@ It's important to keep in mind that these are the Supported Topologies involved 
 
 __Type 1 Description:__ This is the default scenario when MA is turned __on__ for Skype for Business Server. In other words, this is the *starting point* when MA is configured.
 
-__Type 2 Description:__ This topology blocks NTLM *externally*, but allows NTLM or Kerberos (for clients that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
+__Type 2 Description:__ This topology blocks NTLM *externally*, but allows NTLM or Kerberos (for clients that don't support ADAL) to work *internally*. If your clients  do support ADAL they'll use MA internally.
 
-__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged if, for example, you turn off the use of passwords with Certificate-based Auth.
+__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients work in this topology, and passwords won't be used if, for example, you turn off the use of passwords with Certificate-based Auth.
 
 __Type 4 Description:__ This topology blocks NTLM *externally* and MA internally. It allows *all clients* to use legacy authentication methods *internally* (even ADAL-capable clients).
 
-__Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. But, *internally* *all clients* will use legacy authentication (including all ADAL-capable clients).
+__Type 5 Description:__ *Externally*, your modern ADAL clients use MA and any clients that don't support ADAL use legacy authentication methods. But, *internally* *all clients* use legacy authentication (including all ADAL-capable clients).
 
-It's pretty easy to lose track of the goal of protecting your passwords in the options available. Keep in mind the ideal situation is to use MA externally (for example, by configuring certificate-based auth), to avoid DOS attacks. If you leverage it internally for your modern clients, you'll also future-proof your network regarding Skype for Business Server DOS attacks.
+It's easy to lose track of the goal of protecting your passwords in the options available. Keep in mind the ideal situation is to use MA externally (for example, by configuring certificate-based auth), to avoid DOS attacks. If you apply it internally for your modern clients, you'll also future-proof your network regarding Skype for Business Server DOS attacks.
 
 ## Why to use Set-CsAuthConfig at the Global level
 

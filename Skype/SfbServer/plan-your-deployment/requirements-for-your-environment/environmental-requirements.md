@@ -16,14 +16,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
+description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are various things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
 ---
 
 # Environmental requirements for Skype for Business Server 2015
  
-**Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
+**Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are various things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
   
-What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc. [Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
+What is an environmental requirement for Skype for Business Server 2015? We put everything that's not directly server related into this article, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc. [Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -36,7 +36,7 @@ What is an environmental requirement for Skype for Business Server 2015? Well, w
 ## Active Directory
 <a name="AD"> </a>
 
-While a lot of configuration data for servers and services is stored in Skype for Business Server 2015's Central Management store, there are some things still stored in Active Directory:
+While many configuration data for servers and services is stored in Skype for Business Server 2015's Central Management store, there are some things still stored in Active Directory:
   
 |**Active Directory objects**|**Object types**|
 |:-----|:-----|
@@ -82,11 +82,11 @@ Now, the domain functional level of any domain you deploy Skype for Business Ser
     
 Can you have read-only domain controllers in these environments? Sure, as long as there are also writable domain controllers available at the same site as the Skype for Business Server.
   
-Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's just named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
+Now, it's important to know that Skype for Business Server 2015 doesn't support single-labeled domains. What are they? If you have a root domain labeled contoso.local, that's going to be fine. If you have a root domain that's named local, that's not going to work, and it's not supported as a result. A little more about this has been written [in this Knowledge Base article](https://support.microsoft.com/kb/300684/en-us).
   
-Skype for Business Server 2015 also doesn't support renaming domains. If you've really got to do that, then you'll need to uninstall Skype for Business Server 2015, do the domain rename, and then reinstall Skype for Business Server 2015.
+Skype for Business Server 2015 also doesn't support renaming domains. If you've got to do that, then you need to uninstall Skype for Business Server 2015, do the domain rename, and then reinstall Skype for Business Server 2015.
   
-Finally, you may be dealing with a domain with a locked-down AD DS environment, and that's all right. We have more information on how to deploy Skype for Business Server 2015 into that sort of environment in the Deployment docs.
+Finally, you might be dealing with a domain with a locked-down AD DS environment, and that's fine. We have more information on how to deploy Skype for Business Server 2015 into that sort of environment in the Deployment docs.
   
 ### AD Topologies
 
@@ -106,7 +106,7 @@ Skype for Business Server 2015's supported topologies are:
     
 - Multiple forests in a resource forest topology with Skype for Business Online and Microsoft Entra Connect
     
-We have diagrams and descriptions to help you determine what topology you have in your environment, or what you may need to set up prior to installing Skype for Business Server 2015. To keep it simple, we're also including a key:
+We have diagrams and descriptions to help you determine what topology you have in your environment, or what you might need to set up prior to installing Skype for Business Server 2015. To keep it simple, we're also including a key:
   
 ![The is a key to the icons used for Skype for Business topology diagrams.](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
@@ -151,14 +151,14 @@ A resource forest topology is also supported; it's where a forest is dedicated t
   
 Note that Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
-To deploy Skype for Business Server 2015 in this type of topology, you'd create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you'll need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
+To deploy Skype for Business Server 2015 in this type of topology, you'd create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
   
 #### Multiple forests in a Skype for Business resource forest topology with Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
 This topology is similar to the topology described in [Multiple forests in a Skype for Business resource forest topology](environmental-requirements.md#BKMK_multipleforestopology).
   
-In this topology, there are one or more user forests, and Skype for Business Server is deployed in a dedicated resource forest. Exchange Server can be deployed on-premises in the same resource forest or a different forest and configured for hybrid with Exchange Online, or email services may be provided exclusively by Exchange Online for the on-premises accounts. There is no diagram available for this topology.
+In this topology, there are one or more user forests, and Skype for Business Server is deployed in a dedicated resource forest. Exchange Server can be deployed on-premises in the same resource forest or a different forest and configured for hybrid with Exchange Online, or email services might be provided exclusively by Exchange Online for the on-premises accounts. There's no diagram available for this topology.
   
 <a name='multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect'></a>
 
@@ -167,13 +167,13 @@ In this topology, there are one or more user forests, and Skype for Business Ser
 
 ![Shows two AD forests, one user forest and one resource forest. The two forests have a trust relationship. They are synchronized with Microsoft 365 or Office 365 using Microsoft Entra Connect. All users are enabled for Skype for Business via Microsoft 365 or Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Microsoft Entra Connect tool is used to synchronize accounts between the on-premises user forests and Microsoft 365 or Office 365.
+With this scenario, there are multiple forests on-premises, with a resource forest topology. There's a full trust relationship between the Active Directory forests. The Microsoft Entra Connect tool is used to synchronize accounts between the on-premises user forests and Microsoft 365 or Office 365.
   
- The organization also has Microsoft 365 or Office 365, and uses [Microsoft Entra Connect](/previous-versions/azure/azure-services/dn832695(v=azure.100)) to synchronize their on-premises accounts with Microsoft 365 or Office 365. Users who are enabled for Skype for Business are enabled via Microsoft 365 or Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Microsoft 365 or Office 365, and uses [Microsoft Entra Connect](/previous-versions/azure/azure-services/dn832695(v=azure.100)) to synchronize their on-premises accounts with Microsoft 365 or Office 365. Users who are enabled for Skype for Business are enabled via Microsoft 365 or Office 365 and Skype for Business Online. Skype for Business Server isn't deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   
-In this scenario, it is supported to deploy Exchange on-premises, Exchange Online, a hybrid Exchange solution, or to not have Exchange deployed at all. (The diagram shows only Exchange on-premises, but the other Exchange solutions are also fully supported.)
+In this scenario, it's supported to deploy Exchange on-premises, Exchange Online, a hybrid Exchange solution, or to not have Exchange deployed at all. (The diagram shows only Exchange on-premises, but the other Exchange solutions are also fully supported.)
   
 #### Multiple forests in a resource forest topology with hybrid Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
@@ -203,7 +203,7 @@ Skype for Business Server 2015 requires DNS, for the following reasons:
     
 It's important to note that Skype for Business Server 2015 doesn't support internationalized domain names (IDNs).
   
-And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server being used by Skype for Business Server 2015. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
+And it's important to remember that any name in DNS is identical to the computer name configured on any server being used by Skype for Business Server 2015. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
   
 This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2015 server or pool, for that matter.
   

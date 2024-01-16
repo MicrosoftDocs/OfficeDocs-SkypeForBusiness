@@ -23,7 +23,7 @@ description: "Summary: Review the network component considerations below before 
 
 **Summary:** Review the network component considerations below before implementing Skype for Business Server.
 
-The information in these topics is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with additional details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
+The information in these articles is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with more details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
 
 Likewise, if your network involves wi-fi as well as wired access, the whitepaper [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) is a good reference and is equally applicable to Skype for Business Server.
 
@@ -46,7 +46,7 @@ For public switched telephone network (PSTN) integration, you can integrate by u
 
 Network requirements for audio/video (A/V) in a Skype for Business Server deployment include the following:
 
-- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- If you're deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
     > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on the Edge Servers and you can't use NAT for the servers or the pool at your NAT-capable device (for example, a firewall appliance or LAN switch. For details, see [Edge Server scenarios in Skype for Business Server](../edge-server-deployments/scenarios.md).
@@ -57,13 +57,13 @@ Network requirements for audio/video (A/V) in a Skype for Business Server deploy
 
 To provide optimal media quality, do the following:
 
-- Provision the network links to support throughput of 65 kilobits per second (Kbps) per audio stream and 500 Kbps per video stream, if they are enabled, during peak usage periods. A two-way audio or video session uses two streams, so a simple audio/phone connection will require 130Kbps to cover each stream. Video will likewise use 1000 Kbps total to carry an upstream and downstream connection.
+- Provision the network links to support throughput of 65 kilobits per second (Kbps) per audio stream and 500 Kbps per video stream, if they're enabled, during peak usage periods. A two-way audio or video session uses two streams, so a simple audio/phone connection requires 130Kbps to cover each stream. Video will likewise use 1000 Kbps total to carry an upstream and downstream connection.
 
-- To cope with unexpected spikes in traffic and increased usage over time, Skype for Business Server media endpoints can adapt to varying network conditions and support three times the throughput for audio and video while still maintaining acceptable quality. Do not assume that this adaptability will mask the problem when a network is under-provisioned. In an under-provisioned network, the ability of the Skype for Business Server media endpoints to dynamically deal with varying network conditions (for example, temporary high packet loss) is reduced.
+- To cope with unexpected spikes in traffic and increased usage over time, Skype for Business Server media endpoints can adapt to varying network conditions and support three times the throughput for audio and video while still maintaining acceptable quality. Don't assume that this adaptability will mask the problem when a network is under-provisioned. In an under-provisioned network, the ability of the Skype for Business Server media endpoints to dynamically deal with varying network conditions (for example, temporary high packet loss) is reduced.
 
 - For network links where provisioning is very costly and difficult, you may have to consider provisioning for a lower volume of traffic. In this scenario, let the elasticity of the Skype for Business Server media endpoints absorb the difference between the traffic volume and the peak traffic level, at the cost of some reduction in the voice quality. Also, there will be a decrease in the headroom otherwise available to absorb sudden peaks in traffic.
 
-- For links that cannot be provisioned correctly in the short term (for example, a site that uses very poor WAN links), consider disabling video for certain users.
+- For links that can't be provisioned correctly in the short term (for example, a site that uses poor WAN links), consider disabling video for certain users.
 
 - Provision the network to guarantee a maximum end-to-end delay (latency) of 150 milliseconds (ms) under peak load. Latency is the one network impairment that Skype for Business Server media components can't reduce, and it is important to find and eliminate the weak points.
 
@@ -79,21 +79,21 @@ The following table explains the recommended IPsec exception settings.
 
 |Rule name |Source IP |Destination IP |Protocol |Source port |Destination port |Authentication Requirement |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server External Inbound|Any  |A/V Edge Server External|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server Internal Outbound|A/V Edge Server Internal  |A/V Edge Server External |UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server External Outbound|A/V Edge Server External |Any |UDP and TCP|Any |Any |Do not authenticate|
-|Mediation Server Inbound|Any  |Mediation Server(s) |UDP and TCP|Any |Any |Do not authenticate|
-|Mediation Server Outbound|Mediation Server(s)  |Any|UDP and TCP|Any |Any |Do not authenticate|
-|Conferencing Attendant Inbound|Any  |Front End Server running Conferencing Attendant |UDP and TCP|Any |Any |Do not authenticate|
-|Conferencing Attendant Outbound|Front End Server running Conferencing Attendant  |Any|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Conferencing Inbound|Any|Front End Servers|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Conferencing Outbound|Front End Servers|Any|UDP and TCP|Any |Any |Do not authenticate|
-|Exchange Inbound|Any|Exchange Unified Messaging|UDP and TCP|Any |Any |Do not authenticate|
-|Application Sharing Servers Inbound|Any|Application Sharing Servers|UDP and TCP|Any |Any |Do not authenticate|
-|Application Sharing Server Outbound|Application Sharing Servers| Any |UDP and TCP|Any |Any |Do not authenticate|
-|Exchange Outbound|Exchange Unified Messaging|Any|UDP and TCP|Any |Any |Do not authenticate|
-|Clients| Any  |Any|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server External Inbound|Any  |A/V Edge Server External|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server Internal Outbound|A/V Edge Server Internal  |A/V Edge Server External |UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server External Outbound|A/V Edge Server External |Any |UDP and TCP|Any |Any |Don't authenticate|
+|Mediation Server Inbound|Any  |Mediation Server(s) |UDP and TCP|Any |Any |Don't authenticate|
+|Mediation Server Outbound|Mediation Server(s)  |Any|UDP and TCP|Any |Any |Don't authenticate|
+|Conferencing Attendant Inbound|Any  |Front End Server running Conferencing Attendant |UDP and TCP|Any |Any |Don't authenticate|
+|Conferencing Attendant Outbound|Front End Server running Conferencing Attendant  |Any|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Conferencing Inbound|Any|Front End Servers|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Conferencing Outbound|Front End Servers|Any|UDP and TCP|Any |Any |Don't authenticate|
+|Exchange Inbound|Any|Exchange Unified Messaging|UDP and TCP|Any |Any |Don't authenticate|
+|Application Sharing Servers Inbound|Any|Application Sharing Servers|UDP and TCP|Any |Any |Don't authenticate|
+|Application Sharing Server Outbound|Application Sharing Servers| Any |UDP and TCP|Any |Any |Don't authenticate|
+|Exchange Outbound|Exchange Unified Messaging|Any|UDP and TCP|Any |Any |Don't authenticate|
+|Clients| Any  |Any|UDP and TCP|Any |Any |Don't authenticate|
 |         |         |         |         |         |         |         |
 
 
@@ -130,7 +130,7 @@ The media traffic bandwidth usage can be challenging to calculate because of the
 > [!NOTE]
 > PSTN calls from the Skype for Business client usually use the G.711 codec, which requires a high bandwidth. If enough bandwidth is not available for that codec, then calls can fail with an error that resembles the following in the Media logs: **Atleast one codec must be enabled, hr: c0042004**. Media logs (.blog files) are encrypted and can be decoded only by Microsoft support personnel.
 
-The bandwidth numbers in the previous table are based on 20ms packetization (50 packets per second) and for the Siren and G.722 codecs include the additional secure real-time transport protocol (SRTP) overhead from conferencing scenarios and assume the stream is 100% active. Forward Error Correction (FEC) is used dynamically when there is packet loss on the link to help maintain the quality of the audio stream.
+The bandwidth numbers in the previous table are based on 20ms packetization (50 packets per second) and for the Siren and G.722 codecs include the other secure real-time transport protocol (SRTP) overhead from conferencing scenarios and assume the stream is 100% active. Forward Error Correction (FEC) is used dynamically when there's packet loss on the link to help maintain the quality of the audio stream.
 
 The stereo version of the G.722 codec is used by systems that are based on the Lync Room System, which uses a single stereo microphone or a pair of mono microphones to allow listeners to better distinguish multiple speakers in the meeting room.
 

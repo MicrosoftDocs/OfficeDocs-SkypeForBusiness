@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: "Summary: Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server."
+description: "Summary: Review the Simple URL considerations in this article before implementing DNS records for Skype for Business Server."
 ---
 
 # DNS requirements for simple URLs in Skype for Business Server
 
-**Summary:** Review the Simple URL considerations in this topic before implementing DNS records for Skype for Business Server.
+**Summary:** Review the Simple URL considerations in this article before implementing DNS records for Skype for Business Server.
 
 Simple URLs make joining meetings easier for your users, and make getting to Skype for Business Server administrative tools easier for administrators. Simple URLs use their own domain, which must not match any of the SIP domains you define. 
 
-Skype for Business Server supports the following three simple URLs: Meet, Dial-In, and Admin. You are required to set up simple URLs for Meet and Dial-In, and the Admin simple URL is optional. The Domain Name System (DNS) records that you need to support simple URLs depend on how you have defined these simple URLs, and whether you want to support disaster recovery for Simple URLs. 
+Skype for Business Server supports the following three simple URLs: Meet, Dial-In, and Admin. You're required to set up simple URLs for Meet and Dial-In, and the Admin simple URL is optional. The Domain Name System (DNS) records that you need to support simple URLs depend on how you have defined these simple URLs, and whether you want to support disaster recovery for Simple URLs. 
 
 ## Simple URL scope
 
 You can configure your simple URLs to have global scope, or you can specify different simple URLs for each central site in your organization. If both a global simple URL and a site simple URL are specified, the site simple URL has precedence. 
 
-In most cases, we recommend that you set simple URLs only at the global level, so that a user's Meet simple URL does not change if they move from one site to another. The exception would be organizations that need to use different telephone numbers for dial-in users at different sites. Note that if you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.
+In most cases, we recommend that you set simple URLs only at the global level, so that a user's Meet simple URL doesn't change if they move from one site to another. The exception would be organizations that need to use different telephone numbers for dial-in users at different sites. If you set one simple URL (such as the Dial-in simple URL) at a site to be a site-level simple URL, you must also set the other simple URLs at that site to be site-level as well.
 
 You can set global simple URLs in Topology Builder. To set a simple URL at the site level, use the Set-CsSimpleURLConfiguration cmdlet.
 
@@ -36,9 +36,9 @@ Defining a simple URL will also require setting an A and/or AAAA record in your 
 ## Simple URL naming and validation rules
 <a name="BK_Valid"> </a>
 
-Topology Builder and the Skype for Business Server Management Shell cmdlets enforce several validation rules for your simple URLs. You are required to set simple URLs for Meet and Dialin, but setting one for Admin is optional. Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.
+Topology Builder and the Skype for Business Server Management Shell cmdlets enforce several validation rules for your simple URLs. You're required to set simple URLs for Meet and Dialing, but setting one for Admin is optional. Each SIP domain must have a separate Meet simple URL, but you need only one Dialin simple URL and one Admin simple URL for your whole organization.
 
-Each simple URL in your organization must have a unique name, and cannot be a prefix of another simple URL (for example, you could not set `SfB2015.contoso.com/Meet` as your Meet simple URL and `SfB2015.contoso.com/Meet/Dialin` as your Dialin simple URL). Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed). All simple URLs must start with the https:// prefix. 
+Each simple URL in your organization must have a unique name, and can't be a prefix of another simple URL (for example, you couldn't set `SfB2015.contoso.com/Meet` as your Meet simple URL and `SfB2015.contoso.com/Meet/Dialin` as your Dialin simple URL). Simple URL names cannot contain the FQDN of any of your pools, or any port information (for example, https://FQDN:88/meet is not allowed). All simple URLs must start with the https:// prefix. 
 
 Simple URLs can contain only alphanumeric characters (that is, a-z, A-Z, 0-9, and the period (.). If you use other characters, the simple URLs might not work as expected.
 
