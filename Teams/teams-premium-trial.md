@@ -147,7 +147,7 @@ The following meeting and webinar features are available in Teams Premium:
 
 As you determine which users will get trial licenses, consider which of your meeting and webinar organizers can best test these features.
 
-For more information about setting up webinars, see [Set up webinars in Microsoft Teams](set-up-webinars.md).
+For more information about setting up webinars and town halls, see [Plan for Teams webinars](plan-webinars.md) and [Plan for Teams town halls](plan-town-halls).
 
 #### Advanced Virtual Appointments
 
