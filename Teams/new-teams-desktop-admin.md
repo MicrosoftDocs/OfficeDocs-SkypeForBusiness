@@ -19,7 +19,7 @@ description: Learn about the new Microsoft Teams client.
 ms.localizationpriority: high
 ---
 
-# The new Microsoft Teams desktop client 
+# The new Microsoft Teams
 
 >[!Important]
 >We have updated the offical name of classic Teams as follows:</br>

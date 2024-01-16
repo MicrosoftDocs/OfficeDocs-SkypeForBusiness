@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 12/15/2023
+ms.date: 01/16/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -28,7 +28,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ### Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. Learn more: [End of availability for classic Teams client](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -42,12 +42,12 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
-|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly.  Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
+|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly. </br>Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
 
 ## Virtualization provider requirements 
 
@@ -251,11 +251,16 @@ Value: 1
 
 ## Profile and cache location for new Teams Client 
 
-All the user settings and configurations are now stored in: 
- 
-- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+All the user settings and configurations are now stored in:
+C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
+C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
-Make sure this folder is persisted for proper Teams functioning.
+Make sure these folders and files are persisted for proper Teams functioning.
+
+**TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
+
+The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
@@ -265,9 +270,6 @@ Excluding these items helps reduce the user caching size to further optimize a n
 
 When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
- 
- 
- 
  
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
@@ -335,18 +337,32 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
 
-
-
-
-
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
 - On Fallback, screen sharing functionality is supported with a different screen picker UI (similar to the experience a user would see on Teams for Web)
 
+## Multitenant and Multi-account in VDI
+
+The new version of Teams in VDI allows you to sign in quickly and easily, and allowing you to switch between multiple accounts and organizations from the same Microsoft 365 cloud environment. 
+
+If any of your accounts have guest access to other organizations, you don’t need to add them--they appear automatically.
+A guest is someone from outside an organization that a team owner invites to join the team, such as a partner or consultant. Guests have fewer capabilities than team members or team owners.
+
+Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9) 
+
+### Cross Cloud Meetings
+
+Users trying to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial/GCC and GCCH or DOD) must use the “Continue on this browser” option when prompted by the Join launcher:
+
+:::image type="content" source="media/new-teams-vdi-mtma.png" alt-text="new teams for vdi using mtma"::: 
+
+
+You can’t use the native Teams app to join meetings. Clicking “Join on the Teams app” will only bring new Teams chat UI to the foreground without switching to the lobby.
+
+
 ## Features currently not available in VDI with the new Teams
 
-- Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
@@ -363,9 +379,11 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 Issues from classic Teams are now fixed in new Teams:
 
+- Multitenant Multi-Account
+- Performance improvements in hardware resource consumptions
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
-- Sharing toolbar can now be pinned/unpinned.
+- Sharing toolbar improvements (including pinning/unpinning).
 
 ## VDI Feature comparison between classic Teams and new Teams
 

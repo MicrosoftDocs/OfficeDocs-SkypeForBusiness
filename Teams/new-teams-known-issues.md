@@ -34,6 +34,10 @@ ms.localizationpriority: high
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set presence in taskbar.
 - Show and set presence in system tray.
+- The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
+- Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
+- The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
+- Report a Problem is missing in the help menu for users in the public preview channel.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
@@ -43,8 +47,10 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
-- Class teams created by copying from an existing Class team won't let you configure website tabs. </br>**Workaround:** Use classic Teams to configure the website tab.  
+- Team owners may see the button to generate a new *join code* in the team code menu instead of the original code. If they click to generate, the original code will no longer work. </br>**Workaround:** Store and share team code with other team owners, or temporarily switch back to classic Teams to identify the code.
 
+- In some scenarios the channel is not deleted when a team owner selects delete channel. A fix is expected in the end of January.
+  
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
 
 - Weekly digest mail settings are missing.
@@ -56,9 +62,7 @@ ms.localizationpriority: high
 - In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Encourage them to use the toggle to switch to New Teams.
 
 - If the toggle to switch to New Teams is greyed out with an error message, see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md).
-- Support for external Shared Channels when using *Grid view* isn't available.</br>**Workaround:** Use *List view*.
-
-- Custom backgrounds for announcement posts in channels will be available for *Faculty licensed* users after January 10. The release for students is delayed pending the availability of policy controls.
+- Support for external Shared Channels when using *Grid view* isn't available.</br>**Workaround:** Use *List view*.  
 
 ## What features are changing?
 
