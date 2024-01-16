@@ -130,7 +130,7 @@ When you create a custom background:
   
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png" link="front-of-room-16-9-single-dimensions.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
