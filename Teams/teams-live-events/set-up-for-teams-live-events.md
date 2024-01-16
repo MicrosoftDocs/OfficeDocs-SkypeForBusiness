@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: christi.balaki
 ms.date: 01/16/2024
 audience: admin
 search.appverid: MET150
