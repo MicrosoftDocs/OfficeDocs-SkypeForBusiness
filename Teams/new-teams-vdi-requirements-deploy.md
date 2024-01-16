@@ -1,10 +1,10 @@
 ---
 title:  New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 12/15/2023
+ms.date: 01/11/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -42,12 +42,12 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server environment|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle.  Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the "Show Notification Banners" setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
 |App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
-|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly.  Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
+|Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly. </br>Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)
 
 ## Virtualization provider requirements 
 
@@ -226,7 +226,7 @@ Make sure sideloading is enabled, and that WebView2 is installed. See 'Requireme
 
 Known limitations:
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown if the virtual machine doesn't have the Classic Teams client installed as well.
+- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ## Remove new Teams for all users
 
@@ -251,11 +251,14 @@ Value: 1
 
 ## Profile and cache location for new Teams Client 
 
-All the user settings and configurations are now stored in: 
- 
-- C:\Users\alland\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+All the user settings and configurations are now stored in:
 
-Make sure this folder is persisted for proper Teams functioning.
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig
+
+Make sure these folders are persisted for proper Teams functioning.
+
+TeamsSharedConfig stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
@@ -335,18 +338,32 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
 
-
-
-
-
 - To disable fallback mode, set the value to 1. 
 - To enable audio only, set the value to 2. 
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.
 - On Fallback, screen sharing functionality is supported with a different screen picker UI (similar to the experience a user would see on Teams for Web)
 
+## Multitenant and Multi-account in VDI
+
+The new version of Teams in VDI allows you to sign in quickly and easily, and allowing you to switch between multiple accounts and organizations from the same Microsoft 365 cloud environment. 
+
+If any of your accounts have guest access to other organizations, you don’t need to add them—they'll appear automatically.   
+A guest is someone from outside an organization that a team owner invites to join the team, such as a partner or consultant. Guests have fewer capabilities than team members or team owners.
+
+Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9) 
+
+### Cross Cloud Meetings
+
+Users trying to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial/GCC and GCCH or DOD) must use the “Continue on this browser” option when prompted by the Join launcher:
+
+:::image type="content" source="media/new-teams-vdi-mtma.png" alt-text="new teams for vdi using mtma"::: 
+
+
+You can’t use the native Teams app to join meetings. Clicking “Join on the Teams app” will only bring new Teams chat UI to the foreground without switching to the lobby.
+
+
 ## Features currently not available in VDI with the new Teams
 
-- Multitenant Multi-Account (MTMA) 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets

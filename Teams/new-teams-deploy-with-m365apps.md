@@ -1,7 +1,7 @@
 ---
 title:  Upgrade to new Microsoft Teams with Microsoft 365 Apps
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.date: 11/30/2023
@@ -31,7 +31,7 @@ Administrators may exclude new Teams from automatically installing with Microsof
 >[!Important]
 >If the classic Teams app is already installed, the Microsoft 365 Apps deployment will install new Teams alongside classic Teams on the device. The classic Teams installation will not change.
 
-## Rollout schedule 
+## Rollout schedule
 
 When will the new Microsoft Teams be included with installations of Microsoft 365 Apps?
 
@@ -49,7 +49,7 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 
 For new Teams to be successfully installed, computers must meet the minimum requirements listed here.
 
-##### Required system and app requirements
+### Required system and app requirements
 
 |Requirement|Version/Description|
 |:-----|:-----|
@@ -62,27 +62,26 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
-
 ## How to exclude new Teams from new installations
 
-Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out. 
+Admins who don't want new Teams included with Microsoft 365 Apps on devices running Windows can follow these steps to opt out.
 
-1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account. 
-2. Go to **Customization > Device Configuration > Modern Apps Settings**. 
-3. Select **Microsoft Teams (work or school)**,  then clear the **Enable automatic installation of new Microsoft Teams** check box. 
+1. Sign in to the Microsoft 365 Apps admin center (https://config.office.com) with an admin account.
+2. Go to **Customization > Device Configuration > Modern Apps Settings**.
+3. Select **Microsoft Teams (work or school)**,  then clear the **Enable automatic installation of new Microsoft Teams** check box.
 
 >[!Note]
->For the best Teams experience, we recommend leaving the setting as is. 
+>For the best Teams experience, we recommend leaving the setting as is.
+
+> [!NOTE]
+> If you've set Teams update policy to **Not enabled**, but users still received new Teams client with M365 Apps, please follow instructions in our [How to uninstall the new Teams client](new-teams-deploy-using-policies.md#how-to-uninstall-the-new-teams-client) article to uninstall it for your users.
 
 ## Direct upgrade on your own timeline
 
 If you choose to not have Microsoft manage the new Teams upgrade for you, pick a time that is best for you. Upgrade to new Teams by following the steps detailed in this article: [**Bulk upgrade to the new Teams client**](new-teams-bulk-install-client.md).
 
-
 ## Office 365 plans that don't include Microsoft Teams
- 
-Some Office 365 plans include Microsoft 365 Apps, but don't include the Teams service. Teams will still be installed with Microsoft 365 Apps even if a plan doesn't have the Teams service. 
 
-For Office 365 plans that don't include the Teams service, a free trial version of Teams, valid for one year, is available. Your users can start using it when they sign in to Teams. For more information about this free trial version and providing your users access, see Manage the Microsoft Teams Commercial Cloud Trial offer. 
+Some Office 365 plans include Microsoft 365 Apps, but don't include the Teams service. Teams will still be installed with Microsoft 365 Apps even if a plan doesn't have the Teams service.
 
-
+For Office 365 plans that don't include the Teams service, a free trial version of Teams, valid for one year, is available. Your users can start using it when they sign in to Teams. For more information about this free trial version and providing your users access, see Manage the Microsoft Teams Commercial Cloud Trial offer.
