@@ -414,10 +414,10 @@ The following settings are recommended:
 |`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
 |`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
-|`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
+|`Channel Based Queues`             |Y                       |N         |N               |N    |N         |N/A                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard Call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |n/a                       |   |
-|`Channel based Call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
+|`Standard Call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |N/A                       |   |
+|`Channel based Call queue`       |Y                         |N/A       |N/A             |N/A  |N/A       |N/A                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
