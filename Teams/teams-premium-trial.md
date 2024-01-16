@@ -127,7 +127,7 @@ Custom meeting templates can be used to preset many of the options that are avai
 
 #### Premium events
 
-With premium events, meeting organizers have additional features to help them organize meetings webinars, and town halls, including enhanced registration, custom emails, and enhanced controls for presenter and attendee video.
+With premium events, meeting organizers have additional features to help them organize meetings webinars, and town halls, including analytics, enhanced registration, custom emails, and enhanced controls for presenter and attendee video.
 
 Many of these features don't have administrative controls, so you don't need a Teams Administrator to set them up. They're automatically available to meeting organizers who have a Teams Premium license.
 
@@ -139,7 +139,11 @@ The following meeting and webinar features are available in Teams Premium:
 
 - **[Live translated captions](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)** - Allows users to see captions translated into the language they're most comfortable with. Available for both meetings and webinars.
 
+- **[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/def99575-61bf-4ea2-ad0e-c6e75dce7741)** - See real-time data during a town hall, including the viewer count and which countries or regions people are joining from.
+
 - **[Manage email communications for Teams town halls and webinars](manage-email-communications.md)** - Administrators can manage whether organizers and co-organizers can edit email templates for their webinars and town halls.
+
+- **[Hide the names of attendees](hide-attendee-names.md)** - Allow meeting and webinar organizers to hide the names and photos of attendees from other attendees in the stage, roster, and chat.
 
 As you determine which users will get trial licenses, consider which of your meeting and webinar organizers can best test these features.
 
