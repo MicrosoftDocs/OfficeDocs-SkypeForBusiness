@@ -16,7 +16,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are various things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
+description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are various things you want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
 ---
 
 # Environmental requirements for Skype for Business Server 2015
@@ -128,9 +128,9 @@ Back to the diagram above, you can see that users from one domain are able to ac
 
 ![A single forest, multiple  trees and disjoint namespaces diagram.](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
-It may be that you've got a topology similar to this diagram, where you have one forest, but within that forest are multiple domains, with separate AD namespaces. If that's the case, this diagram's a good illustration, as we have users in three different domains accessing Skype for Business Server 2015. Solid lines indicate they're accessing a Skype for Business Server pool in their own domain, while a dashed line indicates they're going to a pool in a different tree altogether.
+It might be that you've got a topology similar to this diagram, where you have one forest, but within that forest is multiple domains, with separate AD namespaces. If that's the case, this diagram's a good illustration, as we have users in three different domains accessing Skype for Business Server 2015. Solid lines indicate they can access a Skype for Business Server pool in their own domain, while a dashed line indicates they're going to a pool in a different tree altogether.
   
-As you can see, users in the same domain, the same tree, or even a different tree are able to access pools successfully.
+As you can see, users in the same domain, the same tree, or even a different tree is able to access pools successfully.
   
 #### Multiple forests in a central forest topology
 
