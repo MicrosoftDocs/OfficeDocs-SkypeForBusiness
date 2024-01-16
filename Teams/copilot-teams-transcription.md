@@ -65,7 +65,7 @@ As an admin, you can manage the default value for Copilot that  your organizers 
 6. Select one of the following values from the dropdown for the **Copilot** setting:
 
     - **On**- Select this value if you want your organizers to use Copilot without the transcript. You should use this value if you disabled **Transcription** for organizers with this policy. When organizers with this policy create meetings, Copilot isn’t accessible once the meeting is over.
-    - **On with transcript**- Select this value if you want your organizers to use Copilot with the transcript. You should use this value if you enabled **Transcription** for organizers with this policy. Copilot is available both during and after meetings that organizers with this policy create.
+    - **On with transcript**- Select this value if you want your organizers to use Copilot with the transcript. You should use this value if you enabled **Transcription** for organizers with this policy. Copilot is available both during and after meetings that organizers with this policy create meetings.
 
 7. Select **Save**.
 
