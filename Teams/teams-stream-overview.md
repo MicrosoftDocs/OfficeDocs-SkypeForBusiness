@@ -76,6 +76,6 @@ The following are capabilities of live streaming events:
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
 |Downloadable recording                               |Processed and available after the live event by owners               |
 
-<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](/limits-specifications-teams.md).<br/>
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](limits-specifications-teams.md).<br/>
 
 Teams live events is a highly available service and you can expect good performance at scale. In the unlikely scenario that results in failover being required, live events using external encoding don't have redundancy and aren't recoverable.
