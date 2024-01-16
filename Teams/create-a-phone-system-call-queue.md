@@ -234,7 +234,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 > [!NOTE]
-> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+> Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that's enabled for Location Based Routing.
 >
 > Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 >
@@ -364,7 +364,7 @@ Once you've selected your call overflow, call timeout and no agents handling opt
 
 ## Step 6: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Call queue.  The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Call queue.  The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that's assigned to the user.
 
 To **add a user** to the authorized users:
 
@@ -432,12 +432,13 @@ The following settings are recommended:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 4. It's not possible to set the order the agents are presented with calls.
-5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location-Based Routing.    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
-6. Microsoft Teams Phone System only.
-7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Only standard channels are supported.
-9. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
-10. For GCCH/DOD, only available through User Settings Portal at:
+5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
+    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
+7. Microsoft Teams Phone System only.
+8. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+9. Only standard channels are supported.
+10. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
+11. For GCCH/DOD, only available through User Settings Portal at:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
     - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
