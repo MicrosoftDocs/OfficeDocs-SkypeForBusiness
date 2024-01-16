@@ -69,7 +69,7 @@ As an admin, you can manage the default value for Copilot that  your organizers 
 
 7. Select **Save**.
 
-You can apply your Copilot policies to groups or individual users. You can also add Copilot to your meeting templates.  To learn how to apply Copilot policies to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
+You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates.  To learn how to apply Copilot policies to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 
 ## Manage Copilot using PowerShell
 
